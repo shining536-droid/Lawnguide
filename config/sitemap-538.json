@@ -1,0 +1,226 @@
+{
+  "csmSeq": 538,
+  "domainId": "assault",
+  "name": "폭행",
+  "crawledAt": "2026-03-08T08:54:05.064Z",
+  "totalPages": 31,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "폭행죄ㆍ상해죄 개관",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "상해죄의 의의",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "폭행죄ㆍ상해죄에 대한 형사절차 및 민사절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=1&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "폭행죄ㆍ상해죄의 처벌",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "폭행죄ㆍ상해죄의 위법성조각사유",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "폭행죄ㆍ상해죄에서의 책임능력 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "폭행죄ㆍ상해죄에서의 형의 가중ㆍ감경",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 5,
+      "cnpClsNo": 1,
+      "title": "폭행죄ㆍ상해죄의 시효",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=2&cciNo=5&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 6,
+      "cnpClsNo": 1,
+      "title": "형의 실효",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=2&cciNo=6&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "수사단계",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "고소ㆍ고발",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "피의자(가해자)의 구속",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "구속 후의 절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "검찰 송치 후의 절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "불기소처분",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "수사단계에서의 피해자 보호",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "수사단계에서의 피의자(가해자) 보호",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=3&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "합의 및 공탁 단계",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "공탁",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "형사소송 단계",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "법원의 약식명령",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "약식명령에 대한 불복",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=5&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "공판절차 개요",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "항소",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=5&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "상고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=5&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 4,
+      "title": "형사보상제도",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=5&cciNo=3&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 5,
+      "title": "국선변호인제도",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=5&cciNo=3&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "피해자에 대한 배상 및 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=6&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "형사상 배상명령",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=6&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "범죄피해자구조제도",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=6&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "법률구조제도",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=538&ccfNo=6&cciNo=3&cnpClsNo=2"
+    }
+  ]
+}

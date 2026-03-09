@@ -1,0 +1,135 @@
+{
+  "csmSeq": 1594,
+  "domainId": "digital-sex-crime",
+  "name": "디지털성범죄",
+  "crawledAt": "2026-03-08T08:53:57.022Z",
+  "totalPages": 18,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "디지털 성범죄 알아보기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "디지털 성범죄의 특징 및 현황",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "디지털 성범죄의 유형 및 가해자 처벌",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "허위영상물 제작 및 유포·재유포",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "소지·구입·저장 또는 시청",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "성착취물의 제작·배포 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "성을 사는 행위, 매매행위, 강요행위 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "성착취 목적의 대화 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "성적 학대행위 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "성적 괴롭힘",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "범죄유형별 처벌기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "디지털 성범죄 발생 시 대처방법 및 피해예방",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "예방 및 대응",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "디지털 성범죄 피해자 보호 및 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "방송미디어통신위원회의 불법정보 처리 거부, 정지, 제한 명령",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=4&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "아동·청소년 대상 디지털 성범죄의 수사 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=4&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "불법촬영물 피해자 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "디지털 성범죄 피해자 지원센터를 통한 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1594&ccfNo=4&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "csmSeq": 627,
+  "domainId": "sangga",
+  "name": "상가건물 임대차",
+  "fetchedAt": "2026-03-07T15:06:32.046Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=627",
+  "totalRefs": 12,
+  "refs": [
+    {
+      "lawName": "임대차의 유형",
+      "article": "「민법」, 「상가건물 임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "「상가건물 임대차보호법」의 적용, 「상가건물 임대차보호법」의 주요내용, 「민법」에 따른 임대차와의 비교",
+      "article": "「민법」, 「상가건물 임대차보호법」, 「수도권정비계획법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "상가건물의 용도 등 확인, 등기부의 확인, 등록사항의 확인",
+      "article": "「민법」, 「부동산등기법」, 「건축법」, 「공간정보의 구축 및 관리 등에 관한 법률」, 「토지이용규제 기본법」, 「건축물대장의 기재 및 관리 등에 관한 규칙」, 「상가건물임대차보호법 관련 확정일자 부여 및 열람제공에 관한 규정」 , 「인터넷에 의한 등기부의 열람 등에 관한 업무처리지침」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임대차계약의 당사자, 임대차계약서의 작성, 중개업자의 책임 및 중개수수료",
+      "article": "「민법」, 「상가건물 임대차보호법」, 「인감증명법」, 「공인중개사의 업무 및 부동산 거래신고에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "대항력 및 우선변제권 취득, 상가건물 임대차 등기",
+      "article": "「민법」, 「부동산등기법」, 「등기신청수수료 징수에 관한 예규」, 「부가가치세법」, 「소득세법」, 「법인세법」, 「상가건물임대차보호법 관련 확정일자 부여 및 열람제공에 관한 규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "차임의 지급 및 연체, 차임 또는 보증금의 증감청구, 보증금의 월세 전환",
+      "article": "「민법」, 「상가건물 임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임대인의 권리·의무, 임차인의 권리·의무",
+      "article": "「민법」, 「상가건물 임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "임차권 양도의 제한, 임대인의 지위 승계, 전대차",
+      "article": "「민법」, 「상가건물 임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "합의 갱신, 묵시의 갱신, 계약갱신 요구",
+      "article": "「민법」, 「상가건물 임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "상가건물 임대차의 종료",
+      "article": "「민법」, 「상가건물 임대차보호법」, 「민사집행법」, 「임차권등기명령 절차에 관한 규칙」, 「우편법 시행규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임차권등기명령 신청, 우선변제권의 행사, 집행권원의 확보, 강제경매",
+      "article": "「민법」, 「상가건물 임대차보호법」, 「민사소송법」, 「민사조정법」, 「민사집행법」, 「소액사건심판법」, 「지방세법」, 「수도권정비계획법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "유익비상환청구, 부속물매수청구, 권리금",
+      "article": "「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=1"
+    }
+  ]
+}

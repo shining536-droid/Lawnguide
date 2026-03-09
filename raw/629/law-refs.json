@@ -1,0 +1,80 @@
+{
+  "csmSeq": 629,
+  "domainId": "jeonse",
+  "name": "주택임대차",
+  "fetchedAt": "2026-03-07T15:06:28.117Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=629",
+  "totalRefs": 14,
+  "refs": [
+    {
+      "lawName": "타인 주택의 이용",
+      "article": "「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "「주택임대차보호법」의 적용",
+      "article": "「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "등기부의 확인",
+      "article": "「주택임대차보호법」, 「부동산등기법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임대차계약의 당사자 확인 등, 임대차계약서의 작성, 부동산 개업공인중개사의 책임 및 중개보수, 전월세자금 대출",
+      "article": "「민법」, 「주택임대차보호법」, 「공인중개사법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "대항력 및 우선변제권 취득, 주택임대차 등기",
+      "article": "「민법」, 「부동산등기법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "이사업체 선정 및 관련 분쟁해결 등",
+      "article": "「민법」, 「화물자동차운수사업법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "전입신고 등",
+      "article": "「주민등록법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "차임의 지급 및 연체, 차임 또는 보증금의 증감청구",
+      "article": "「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임차인의 권리·의무, 임대인의 권리·의무",
+      "article": "「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "임차권 양도의 제한, 전대차의 제한,  사망 등에 대한 임차권의 승계, 임대인의 지위 승계",
+      "article": "「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "임대차계약의 갱신",
+      "article": "「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "주택임대차 종료",
+      "article": "「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임차권등기명령 신청, 소액보증금 우선변제, 집행권원의 확보 , 강제경매 신청, 배당요구",
+      "article": "「민법」, 「주택임대차보호법」, 「민사소송법」, 「민사조정법」, 「민사집행법」, 「소액사건심판법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "유익비상환청구, 부속물매수청구, 장기수선충당금의 반환 청구",
+      "article": "「민법」, 「공동주택 관리법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=3&cnpClsNo=1"
+    }
+  ]
+}

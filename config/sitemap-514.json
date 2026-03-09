@@ -1,0 +1,219 @@
+{
+  "csmSeq": 514,
+  "domainId": "dismissal",
+  "name": "해고근로자",
+  "crawledAt": "2026-03-08T08:53:28.866Z",
+  "totalPages": 30,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "\"해고\"란?",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "「근로기준법」에 따른 해고의 제한 및 적용범위",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 5,
+      "title": "해고의 의의와 판단기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 6,
+      "title": "경영상 이유에 의한 해고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "해고 사유의 제한",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "정당한 이유 없는 해고의 금지",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "해고 사유의 정당성에 대한 구체적 판단",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "경영상 이유에 의한 해고의 정당성에 대한 구체적 판단",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "해고 시기와 절차의 제한",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "해고예고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "해고 사유 등의 서면 명시",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=4&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "단체협약ㆍ취업규칙에 따른 절차 준수",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=4&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "부당해고 구제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "지방노동위원회에 대한 부당해고 구제신청",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "조사와 심문",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "판정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "종결 및 확정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "지방노동위원회 구제명령 등에 대한 재심",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "중앙노동위원회의 재심판정에 대한 행정소송",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 5,
+      "cnpClsNo": 1,
+      "title": "해고무효확인의 소(민사소송)",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=5&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "해고근로자 보호",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=6&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "금품청산",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=6&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "퇴직금의 지급",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=6&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "미지급 임금ㆍ퇴직금(체불임금) 구제 절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=6&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "임금채권의 지급보장(대지급금)",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=6&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "해고근로자 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=7&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "구직급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=7&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "취업촉진 수당",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=7&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "실업자 등에 대한 직업능력개발훈련",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=7&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "직업훈련 생계비 대부",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=7&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

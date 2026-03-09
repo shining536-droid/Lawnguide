@@ -1,0 +1,100 @@
+{
+  "csmSeq": 293,
+  "domainId": "defamation",
+  "name": "인터넷 명예훼손",
+  "crawledAt": "2026-03-08T08:53:44.969Z",
+  "totalPages": 13,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "인터넷 명예훼손 피해자 법제 개관",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "인터넷 명예훼손의 처벌 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "관련 법령의 개관",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "정보의 삭제요청 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "임의의 임시조치",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "인터넷 명예훼손 분쟁조정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "조정신청의 접수 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "조정전 합의권고 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "조정의 진행 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "조정안의 작성과 조정의 성립 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=3&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "이용자 정보 제공청구 및 소의 제기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "고소ㆍ고발",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "손해배상의 청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=4&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

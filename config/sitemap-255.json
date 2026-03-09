@@ -1,0 +1,163 @@
+{
+  "csmSeq": 255,
+  "domainId": "inheritance",
+  "name": "상속",
+  "crawledAt": "2026-03-08T08:53:36.923Z",
+  "totalPages": 22,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "상속의 이해",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "상속 시 체크리스트",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=1&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "상속 자격과 순위",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "배우자상속인 및 대습상속인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "상속결격자 이해하기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "상속의 효과",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "상속인에 따른 상속분 구분",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "특별수익자의 상속분 산정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "기여자의 상속분 산정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "공동상속 개념 및 권리 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "공동상속인의 상속재산분할",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "상속인의 상속회복청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "상속의 승인ㆍ포기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "상속 단순승인의 개념 및 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "상속 한정승인의 개념 및 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "상속 포기의 개념 및 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=4&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "채권자ㆍ특별연고자",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "상속인이 없는 경우의 상속재산귀속",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "유류분반환청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=6&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "상속등기와 세금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=7&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "상속세 계산 및 납부",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=7&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "취득세 계산 및 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=7&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

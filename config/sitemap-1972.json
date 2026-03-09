@@ -1,0 +1,149 @@
+{
+  "csmSeq": 1972,
+  "domainId": "jeonse-fraud",
+  "name": "전세사기 피해자 지원",
+  "crawledAt": "2026-03-08T08:53:20.828Z",
+  "totalPages": 20,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "전세사기피해의 유형",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "신탁 부동산을 이용한 사기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "불법 중개인으로 인한 피해",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "허위 또는 하자 있는 계약",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "대항력의 상실",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "전세사기피해 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "전세사기피해자등 결정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "법률 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "경제적 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "주거 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "경매·공매 절차의 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "긴급복지 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 6,
+      "title": "심리치료 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "전세사기피해의 예방",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "계약 상대방 관련 정보 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "중개인 관련 정보 등 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "보증금의 보호",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "대항력의 유지",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "계약의 갱신 또는 종료",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "보증금이 미반환 된 경우",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=3&cnpClsNo=2"
+    }
+  ]
+}

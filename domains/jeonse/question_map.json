@@ -1,0 +1,92 @@
+{
+  "domain": "jeonse",
+  "version": "2026-03-07",
+  "mappings": [
+    {
+      "question_id": "Q001",
+      "field": "property_type",
+      "affects_facts": []
+    },
+    {
+      "question_id": "Q002",
+      "field": "contract_ended",
+      "affects_facts": [
+        "F003",
+        "F004"
+      ]
+    },
+    {
+      "question_id": "Q003",
+      "field": "currently_residing",
+      "affects_facts": [
+        "F001",
+        "F004"
+      ]
+    },
+    {
+      "question_id": "Q004",
+      "field": "deposit_returned",
+      "affects_facts": [
+        "F004",
+        "F005"
+      ]
+    },
+    {
+      "question_id": "Q005",
+      "field": "landlord_reachable",
+      "affects_facts": [
+        "F004"
+      ]
+    },
+    {
+      "question_id": "Q006",
+      "field": "deposit_insurance",
+      "affects_facts": [
+        "F006"
+      ]
+    },
+    {
+      "question_id": "Q007",
+      "field": "registration_status_movein",
+      "affects_facts": [
+        "F001",
+        "F002",
+        "F005"
+      ]
+    },
+    {
+      "question_id": "Q008",
+      "field": "registration_status_fixeddate",
+      "affects_facts": [
+        "F002",
+        "F005"
+      ]
+    },
+    {
+      "question_id": "Q009",
+      "field": "fraud_suspicion",
+      "affects_facts": []
+    },
+    {
+      "question_id": "Q010",
+      "field": "auction_notice",
+      "affects_facts": [
+        "F005"
+      ]
+    },
+    {
+      "question_id": "Q011",
+      "field": "deposit_amount_range",
+      "affects_facts": [
+        "F005"
+      ]
+    },
+    {
+      "question_id": "Q012",
+      "field": "property_region",
+      "affects_facts": [
+        "F005"
+      ]
+    }
+  ]
+}

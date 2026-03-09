@@ -1,0 +1,43 @@
+{
+  "_draft": true,
+  "domain": "real-estate-sale",
+  "version": "2026-03-08",
+  "resolution_order": ["TYPE_DEFECT", "TYPE_CANCEL", "TYPE_AGENT", "TYPE_DOUBLE", "TYPE_OK"],
+  "types": [
+    {
+      "id": "TYPE_DEFECT",
+      "name": "하자 대응 확인 필요",
+      "description": "부동산 매매 후 하자가 발견되어 대응이 필요한 상황",
+      "conditions": { "issue_type": "하자" },
+      "priority": 1
+    },
+    {
+      "id": "TYPE_CANCEL",
+      "name": "계약 해제 검토 필요",
+      "description": "부동산 매매 계약의 해제를 검토해야 하는 상황",
+      "conditions": { "issue_type": "계약해제" },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_AGENT",
+      "name": "중개사 분쟁 확인 필요",
+      "description": "공인중개사와의 분쟁 또는 중개 과실 관련 상황",
+      "conditions": { "issue_type": "중개사분쟁" },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_DOUBLE",
+      "name": "이중계약 대응 확인 필요",
+      "description": "동일 부동산에 대한 이중계약이 의심되는 상황",
+      "conditions": { "issue_type": "이중계약" },
+      "priority": 4
+    },
+    {
+      "id": "TYPE_OK",
+      "name": "기본 사항 확인",
+      "description": "부동산 매매 관련 기본 사항을 확인하는 상황",
+      "conditions": { "problem_type": "기타" },
+      "priority": 5
+    }
+  ]
+}

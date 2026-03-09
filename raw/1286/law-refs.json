@@ -1,0 +1,50 @@
+{
+  "csmSeq": 1286,
+  "domainId": "rehabilitation",
+  "name": "개인회생절차",
+  "fetchedAt": "2026-03-07T15:06:42.084Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=1286",
+  "totalRefs": 8,
+  "refs": [
+    {
+      "lawName": "개인회생절차 개념 및 신청자격",
+      "article": "「채무자 회생 및 파산에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "신청서 및 첨부서류의 작성",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「채무자 회생 및 파산에 관한 법률 시행령」, 「채무자 회생 및 파산에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1286&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "관할법원, 신청비용 등, 서류심사 및 보정",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「민사소송법」, 「민사소송 등 인지법」, 「채무자 회생 및 파산에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1286&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "개인회생절차 개시결정, 송달 및 변제액 임치, 신청의 취하 및 기각",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「민사소송법」,  「채무자 회생 및 파산에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1286&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "개인회생채권자집회, 채권자 목록에 대한 이의제기",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「채무자 회생 및 파산에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1286&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "인가결정, 폐지결정의 대상 및 효력",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「채무자 회생 및 파산에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1286&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "변제계획안의 변경 및 변제의 수행",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「채무자 회생 및 파산에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1286&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "면책결정의 대상 등, 면책결정의 효력 및 취소",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「채무자 회생 및 파산에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1286&ccfNo=5&cciNo=1&cnpClsNo=1"
+    }
+  ]
+}

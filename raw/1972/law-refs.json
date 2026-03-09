@@ -1,0 +1,110 @@
+{
+  "csmSeq": 1972,
+  "domainId": "jeonse-fraud",
+  "name": "전세사기 피해자 지원",
+  "fetchedAt": "2026-03-07T15:06:30.041Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=1972",
+  "totalRefs": 20,
+  "refs": [
+    {
+      "lawName": "임대인의 채무로 인한 피해",
+      "article": "",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "신탁 부동산을 이용한 사기",
+      "article": "「신탁법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "lawName": "불법 중개인으로 인한 피해",
+      "article": "",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "lawName": "허위 또는 하자 있는 계약",
+      "article": "「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "대항력의 상실",
+      "article": "「국세기본법」, 「지방세기본법」, 「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=1&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "lawName": "전세사기피해자 유형 알아보기",
+      "article": "「주택임대차보호법」, 「전세사기피해자 지원 및 주거안정에 관한 특별법」, 「긴급복지지원법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "전세사기피해자등 결정",
+      "article": "「전세사기피해자 지원 및 주거안정에 관한 특별법 시행규칙」, 「민사집행법」, 「국세징수법」, 「지방세징수법」, 「국세징수법 시행령」, 「지방세징수법 시행령」, 「민법」, 「전세사기피해자 지원 및 주거안정에 관한 특별법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "lawName": "법률지원",
+      "article": "「전세사기피해자 지원 및 주거안정에 관한 특별법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "경제적 지원",
+      "article": "「전세사기피해자 지원 및 주거안정에 관한 특별법」, 「국세기본법」, 「전세사기피해자 지원 및 주거안정에 관한 특별법 시행령」, 「지방세특례제한법」, 「지방세법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "lawName": "주거지원",
+      "article": "「전세사기피해자 지원 및 주거안정에 관한 특별법」, 「공공주택 특별법」, 「공공주택 특별법 시행령」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "lawName": "경매·공매 절차의 지원",
+      "article": "「전세사기피해자 지원 및 주거안정에 관한 특별법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "lawName": "긴급복지 지원",
+      "article": "「긴급복지지원법」, 「전세사기피해자 지원 및 주거안정에 관한 특별법」, 「산업재해보상보험법」, 「긴급복지지원법 시행령」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "lawName": "심리치료 지원",
+      "article": "「의료법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=2&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "lawName": "주택 시세 및 정보 확인",
+      "article": "",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "계약 상대방 관련 정보 확인",
+      "article": "「주택임대차보호법」, 「공인중개사법」, 「공인중개사법 시행령」, 「주민등록법」, 「민간임대주택에 관한 특별법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "lawName": "중개인 관련 정보 등 확인",
+      "article": "「공인중개사법」, 「공인중개사법 시행령」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "lawName": "보증금의 보호",
+      "article": "「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "lawName": "대항력의 유지",
+      "article": "「주민등록법」, 「주택임대차보호법」, 「부동산 거래신고 등에 관한 법률」, 「주택임대차보호법 시행령」, 「수도권정비계획법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "계약의 갱신 또는 종료",
+      "article": "「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "보증금이 미반환 된 경우",
+      "article": "「주택임대차보호법」, 「임차권등기명령 절차에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1972&ccfNo=3&cciNo=3&cnpClsNo=2"
+    }
+  ]
+}

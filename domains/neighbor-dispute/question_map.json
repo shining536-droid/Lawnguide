@@ -1,0 +1,14 @@
+{
+  "domain": "neighbor-dispute",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "dispute_type", "affects_facts": ["TYPE_NOISE", "TYPE_BOUNDARY", "TYPE_ANIMAL"] },
+    { "question_id": "Q002", "field": "severity", "affects_facts": ["TYPE_HARM", "TYPE_DAMAGE"] },
+    { "question_id": "Q003", "field": "evidence", "affects_facts": ["TYPE_NOISE", "TYPE_BOUNDARY", "TYPE_DAMAGE", "TYPE_HARM", "TYPE_ANIMAL"] },
+    { "question_id": "Q004", "field": "prior_attempt", "affects_facts": ["TYPE_NOISE", "TYPE_BOUNDARY", "TYPE_ANIMAL"] },
+    { "question_id": "Q005", "field": "mediation_interest", "affects_facts": ["TYPE_NOISE", "TYPE_BOUNDARY"] },
+    { "question_id": "Q006", "field": "property_damage", "affects_facts": ["TYPE_DAMAGE"] },
+    { "question_id": "Q007", "field": "physical_harm", "affects_facts": ["TYPE_HARM"] },
+    { "question_id": "Q008", "field": "housing_type", "affects_facts": ["TYPE_NOISE", "TYPE_ANIMAL"] }
+  ]
+}

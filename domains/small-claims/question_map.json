@@ -1,0 +1,14 @@
+{
+  "domain": "small-claims",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "claim_type", "affects_facts": [] },
+    { "question_id": "Q002", "field": "claim_amount", "affects_facts": [] },
+    { "question_id": "Q003", "field": "evidence_level", "affects_facts": [] },
+    { "question_id": "Q004", "field": "debtor_response", "affects_facts": [] },
+    { "question_id": "Q005", "field": "prior_demand", "affects_facts": [] },
+    { "question_id": "Q006", "field": "payment_order", "affects_facts": [] },
+    { "question_id": "Q007", "field": "has_property", "affects_facts": [] },
+    { "question_id": "Q008", "field": "urgency", "affects_facts": [] }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "csmSeq": 575,
+  "domainId": "industrial-accident2",
+  "name": "산업재해보상보험 II",
+  "fetchedAt": "2026-03-07T15:07:02.170Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=575",
+  "totalRefs": 25,
+  "refs": [
+    {
+      "lawName": "산업재해보상보험 개관",
+      "article": "「산업재해보상보험법」, 「민법」, 「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "산업재해보상 보험급여 개관",
+      "article": "「산업재해보상보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "산업재해보상보험 법제 개관",
+      "article": "「산업재해보상보험법」, 「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=1&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "요양급여 개관",
+      "article": "「산업재해보상보험법」,  「의료법」 , 「지역보건법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "요양급여의 지급 요건 및 범위, 요양급여의 신청 및 지급, 요양기간의 연장, 전원요양, 추가상병 요양급여, 재요양",
+      "article": "「산업재해보상보험법」, 「국민건강보험법」, 「의료급여법」, 「국민건강보험 요양급여의 기준에 관한 규칙」, 「산업재해보상보험 요양급여 산정기준」, 「요양업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "요양비, 요양비 중 간병료, 요양비 중 이송비",
+      "article": "「산업재해보상보험법」, 「국민건강보험법」, 「의료급여법」, 「요양업무처리규정」, 「보상업무처리규정」,  「산업재해보상보험 요양급여 산정기준」, 「산업재해보상보험법에 따른 간병료 지급기준」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "요양급여 비용 본인 일부 부담금 대부",
+      "article": "「산업재해보상보험법」, 「국민건강보험법」, 「요양업무처리규정」, 「요양급여 비용의 본인 일부 부담금 대부사업 운영규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "휴업급여, 부분휴업급여, 저소득 근로자의 휴업급여, 고령자의 휴업급여, 재요양 기간 중의 휴업급여",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」, 「2024년 적용 최저임금 고시」, 「최고·최저 보상기준 금액」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "상병보상연금, 폐질등급의 판정 및 조정, 저소득 근로자의 상병보상연금, 고령자의 상병보상연금, 재요양 기간 중의 상병보상연금",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "장해급여 개관",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "장해등급 기준, 장해등급 판정, 장해등급 조정 등",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "장해급여의 청구 및 지급, 가중 장해에 대한 장해급여, 장해등급의 재판정에 따른 장해급여, 재요양에 따른 장해급여, 장해특별급여",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "간병급여",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」, 「산업재해보상보험법에 따른 간병급여 지급기준」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "유족급여 개관, 유족보상연금, 유족보상일시금, 유족특별급여",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "장례비",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」,「장례비 최고·최저 금액」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "근로자의 사망 추정에 의한 유족급여 및 장례비 지급",
+      "article": "「산업재해보상보험법」, 「보상업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "직업재활급여 및 재활지원 개관",
+      "article": "「산업재해보상보험법」, 「산재근로자 일상복귀지원규정」, 「산재근로자 생활지원규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "직업훈련비용 및 직업훈련수당, 직장복귀지원금 등",
+      "article": "「산업재해보상보험법」, 「장애인고용촉진 및 직업재활법」, 「고용보험법」, 「국민 평생 직업능력 개발법」, 「직업재활급여 상한금액」, 「직업재활급여 업무처리 규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "재활사례관리, 창업 지원, 의료재활 지원(후유증상관리), 사회생활 지원, 생활지원",
+      "article": "「산업재해보상보험법」, 「합병증 등 예방관리업무처리규정」, 「산재근로자 일상복귀지원규정」, 「산재근로자 생활지원규정」, 「산재보험 의료기관 관리 규정」, 「직업재활업무 처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "진폐에 대한 보험급여 특례, 진폐 판정, 진폐장해등급의 재판정, 진폐보상연금, 진폐유족연금",
+      "article": "「산업재해보상보험법」, 「진폐의 예방과 진폐근로자의 보호 등에 관한 법률」, 「요양업무처리규정」, 「보상업무처리규정」, 「진단수당」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=7&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "보험급여의 적정성 보장 개관, 평균임금의 증감, 일용근로자의 평균임금 산정 특례, 직업병에 걸린 사람에 대한 평균임금 산정 특례, 보험급여의 최고 보상기준 및 최저보상기준",
+      "article": "「산업재해보상보험법」, 「전체 근로자의 임금 평균액의 증감률 및 소비자물가변동률」, 「보상업무처리규정」, 「진폐고시임금」, 「통상근로계수」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=8&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "심사청구, 재심사청구",
+      "article": "「산업재해보상보험법」, 「행정심판법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "행정소송",
+      "article": "「산업재해보상보험법」, 「행정소송법」, 「민사소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "「근로기준법」에 따른 재해보상과의 관계",
+      "article": "「산업재해보상보험법」, 「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=10&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "민사상 손해배상 소송, 민사상 손해배상에 다른 보험급여 조정",
+      "article": "「산업재해보상보험법」, 「민법」, 「보상업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=10&cciNo=2&cnpClsNo=1"
+    }
+  ]
+}

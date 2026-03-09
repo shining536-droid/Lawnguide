@@ -1,0 +1,16 @@
+{
+  "domain": "wage",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "issue_type", "affects_facts": ["F001", "F002", "F003"] },
+    { "question_id": "Q002", "field": "employment_status", "affects_facts": ["F001"] },
+    { "question_id": "Q003", "field": "contract_type", "affects_facts": [] },
+    { "question_id": "Q004", "field": "written_contract", "affects_facts": [] },
+    { "question_id": "Q005", "field": "unpaid_period", "affects_facts": [] },
+    { "question_id": "Q006", "field": "evidence", "affects_facts": [] },
+    { "question_id": "Q007", "field": "action_taken", "affects_facts": [] },
+    { "question_id": "Q008", "field": "company_size", "affects_facts": [] },
+    { "question_id": "Q009", "field": "legal_support", "affects_facts": [] },
+    { "question_id": "Q010", "field": "unpaid_amount", "affects_facts": [] }
+  ]
+}

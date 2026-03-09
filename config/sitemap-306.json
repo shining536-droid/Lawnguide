@@ -1,0 +1,142 @@
+{
+  "csmSeq": 306,
+  "domainId": "real-estate-auction",
+  "name": "부동산 경매",
+  "crawledAt": "2026-03-08T08:53:48.985Z",
+  "totalPages": 19,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "부동산 경매의 이해",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "부동산 경매의 대상",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "부동산 경매의 절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=1&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "입찰의 준비",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "매수로 인해 말소ㆍ인수되는 권리의 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "경매 정보의 수집 및 관심 물건의 선정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "부동산등기기록ㆍ건축물대장 등의 확인 및 현장조사",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "관심 물건의 종류에 따른 권리분석",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "입찰참여 물건 및 입찰 가격의 결정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "입찰의 참여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "입찰 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "기일입찰의 절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "기간입찰의 절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "경매 물건의 매수",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "법원의 매각허가여부 결정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=4&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "매각허가결정에 대한 즉시항고 여부의 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=4&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "매수인의 매각대금 지급",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=4&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "부동산의 취득",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "소유권 방어를 위한 조치",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=5&cciNo=1&cnpClsNo=2"
+    }
+  ]
+}

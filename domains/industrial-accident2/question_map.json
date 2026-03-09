@@ -1,0 +1,14 @@
+{
+  "domain": "industrial-accident2",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "benefit_type", "affects_facts": ["F001", "F002"] },
+    { "question_id": "Q002", "field": "claim_status", "affects_facts": ["F001"] },
+    { "question_id": "Q003", "field": "disability_grade", "affects_facts": [] },
+    { "question_id": "Q004", "field": "rehabilitation_need", "affects_facts": [] },
+    { "question_id": "Q005", "field": "objection_interest", "affects_facts": [] },
+    { "question_id": "Q006", "field": "return_to_work", "affects_facts": [] },
+    { "question_id": "Q007", "field": "ongoing_treatment", "affects_facts": [] },
+    { "question_id": "Q008", "field": "special_situation", "affects_facts": [] }
+  ]
+}

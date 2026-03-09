@@ -1,0 +1,128 @@
+{
+  "csmSeq": 1121,
+  "domainId": "child-sex-crime",
+  "name": "아동성범죄",
+  "crawledAt": "2026-03-08T08:54:07.056Z",
+  "totalPages": 17,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "아동·청소년 성범죄란?",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "아동·청소년 성매매의 대상 및 범위",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "아동·청소년 성범죄의 처벌",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "아동·청소년 성매매 관련자에 대한 처벌",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "보호관찰명령",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "수강명령 또는 이수명령",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "사회봉사명령",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "친권상실선고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "신상정보 공개명령 및 고지명령",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=2&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 6,
+      "title": "위치추적 전자장치 부착명령",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=2&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "아동·청소년 성범죄 신고 및 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "수사 및 재판",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "아동·청소년 성범죄 피해자에 대한 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "아동·청소년 성범죄 예방 및 재범방지",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "아동·청소년 성매매 예방을 위한 노력",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=4&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "성범죄 전과자의 취업제한",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "성충동 약물치료",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=4&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

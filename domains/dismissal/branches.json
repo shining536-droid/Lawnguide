@@ -1,0 +1,57 @@
+{
+  "_draft": true,
+  "domain": "dismissal",
+  "version": "2026-03-08",
+  "types": [
+    {
+      "id": "TYPE_PROTECTED",
+      "name": "해고제한 사유 확인 필요",
+      "description": "해고가 제한되는 보호 사유에 해당할 수 있는 상황",
+      "conditions": { "protection_status": ["산재요양", "출산전후", "육아휴직"] },
+      "priority": 1
+    },
+    {
+      "id": "TYPE_UNFAIR",
+      "name": "부당해고 검토 필요",
+      "description": "해고의 정당성을 검토해볼 필요가 있는 상황",
+      "conditions": { "problem_type": "부당해고" },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_NO_NOTICE",
+      "name": "해고예고 위반 확인 필요",
+      "description": "해고 예고 절차가 지켜졌는지 확인할 필요가 있는 상황",
+      "conditions": { "advance_notice": "아니요" },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_ECONOMIC",
+      "name": "경영상 해고 검토 필요",
+      "description": "경영상 해고의 요건을 검토해볼 필요가 있는 상황",
+      "conditions": { "problem_type": "경영상 해고" },
+      "priority": 4
+    },
+    {
+      "id": "TYPE_COERCED",
+      "name": "권고사직 확인 필요",
+      "description": "권고사직의 자발성 여부를 확인해볼 필요가 있는 상황",
+      "conditions": { "problem_type": "권고사직" },
+      "priority": 5
+    },
+    {
+      "id": "TYPE_CONTRACT",
+      "name": "계약만료 검토 필요",
+      "description": "계약 갱신 기대권 등을 검토해볼 필요가 있는 상황",
+      "conditions": { "problem_type": "계약만료" },
+      "priority": 6
+    },
+    {
+      "id": "TYPE_OK",
+      "name": "기본 확인 사항 안내",
+      "description": "기본적인 사항만 확인하면 되는 상황",
+      "conditions": { "problem_type": "기타" },
+      "priority": 99
+    }
+  ],
+  "resolution_order": ["TYPE_PROTECTED", "TYPE_UNFAIR", "TYPE_NO_NOTICE", "TYPE_ECONOMIC", "TYPE_COERCED", "TYPE_CONTRACT", "TYPE_OK"]
+}

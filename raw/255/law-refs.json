@@ -1,0 +1,90 @@
+{
+  "csmSeq": 255,
+  "domainId": "inheritance",
+  "name": "상속",
+  "fetchedAt": "2026-03-07T15:06:46.119Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=255",
+  "totalRefs": 16,
+  "refs": [
+    {
+      "lawName": "상속의 개념 및 대상, 상속 시 체크리스트",
+      "article": "「가사소송법」, 「민법」, 「민사소송법」, 「부동산등기법」, 「상속세 및 증여세법」, 「지방세법」, 「지방세기본법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속인 개념과 순위, 배우자상속인 및 대습상속인",
+      "article": "「국제사법」, 「민법」, 「주택임대차보호법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속결격자 이해하기",
+      "article": "「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속의 효력 등",
+      "article": "「민법」, 「상법」, 「공무원연금법」, 「사립학교교직원 연금법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속인에 따른 상속분 구분, 특별수익자의 상속분 산정, 기여자의 상속분 산정",
+      "article": "「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "공동상속 개념 및 권리 등, 공동상속인의 상속재산분할",
+      "article": "「가사소송법」, 「민법」,  「민사조정법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속인의 상속회복청구",
+      "article": "「민법」,  「민사소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=3&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속의 단순승인ㆍ한정승인ㆍ포기",
+      "article": "「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속 단순승인의 개념 및 방법",
+      "article": "「가사소송법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속 한정승인의 개념 및 방법",
+      "article": "「가사소송법」, 「민법」, 「민사집행법」, 「비송사건절차법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속 포기의 개념 및 방법",
+      "article": "「가사소송법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=4&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "채권자 등의 상속재산 분리청구",
+      "article": "「가사소송법」, 「민법」, 「민사집행법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속인이 없는 경우의 상속재산귀속",
+      "article": "「가사소송법」, 「민법」, 「민사소송법」, 「민사집행법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "유류분 권리자의 유류분반환청구권",
+      "article": "「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=6&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속등기의 개념",
+      "article": "「부동산등기규칙」, 「민법」, 「부동산등기법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=7&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "상속세 계산 및 납부, 취득세 계산 및 방법",
+      "article": "「국세기본법」, 「상속세 및 증여세법」, 「지방세기본법」, 「지방세법 시행령」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=255&ccfNo=7&cciNo=2&cnpClsNo=1"
+    }
+  ]
+}

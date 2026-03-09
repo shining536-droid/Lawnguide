@@ -1,0 +1,65 @@
+{
+  "csmSeq": 570,
+  "domainId": "industrial-accident1",
+  "name": "산업재해보상보험 I",
+  "fetchedAt": "2026-03-07T15:07:00.142Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=570",
+  "totalRefs": 11,
+  "refs": [
+    {
+      "lawName": "산업재해보상보험 개관",
+      "article": "「산업재해보상보험법」, 「고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률」, 「민법」, 「근로기준법」, 『2024년 산재 고용보험 가입 및 부과업무 실무편람』",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "업무상 재해, 산업재해보상 보험급여",
+      "article": "「산업재해보상보험법」, 「민법」, 「요양업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "산업재해보상보험 법제 개관",
+      "article": "「산업재해보상보험법」, 「근로기준법」, 「공무원연금법」, 「군인연금법」, 「선원법」, 「어선원 및 어선 재해보상보험법」, 「사립학교교직원 연금법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=1&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "「산업재해보상보험법」의 적용 범위",
+      "article": "「산업재해보상보험법」, 「근로기준법」, 「공무원연금법」, 「군인연금법」, 「선원법」, 「어선원 및 어선 재해보상보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "산업재해보상보험 가입, 동일 사업주의 사업에 대한 일괄적용 등, 산업재해보상보험료 징수",
+      "article": "「산업재해보상보험법」, 「고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률」, 「근로기준법」, 「2024년도 사업종류별 산재보험료율」, 『2024년 산재 고용보험 가입 및 부과업무 실무편람』",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "국외 사업에 대한 특례, 해외파견자에 대한 특례, 현장실습생에 대한 특례, 중소기업 사업주에 대한 특례, 「국민기초생활 보장법」상의 수급자에 대한 특례, 특수형태 근로종사자에 대한 특례",
+      "article": "「산업재해보상보험법」, 「고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률」, 「국민기초생활 보장법」, 「2024년도 사업종류별 산재보험료율」, 「자활급여 수급자가 종사하는 사업」, 「중·소기업 사업주에 대한 산재보험료 및 보험급여 산정의 기초가 되는 보수액 및 평균임금」, 「특수형태근로종사자에 대한 산재보험료 및 보험급여 산정의 기초가 되는 보수액 및 평균임금」, 「현장실습생에 대한 산업재해보상보험 적용범위」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "사고로 인한 업무상 재해의 인정기준",
+      "article": "「산업재해보상보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "사업장 안에서의 사고, 사업장 밖에서의 사고, 그 밖의 행사 중의 사고 등",
+      "article": "「산업재해보상보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "질병으로 인한 업무상 재해의 인정기준",
+      "article": "「산업재해보상보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "업무상 질병의 인정기준, 뇌혈관질환 또는 심장질환의 업무상 질병 인정기준, 근골격계질환의 업무상 질병 인정기준, 물리적인 요인으로 인한 증상의 업무상 질병 인정기준, 이상기압으로 인한 증상의 업무상 질병 인정기준, 소음성 난청의 업무상 질병의 인정기준, 진동으로 인한 증상의 업무상 질병 인정기준, 화학물질·염화비닐·타르로 인한 증상의 업무상 질병 인정기준, 망간·납·수은으로 인한 증상의 업무상 질병 인정기준, 크롬·카드뮴으로 인한 증상의 업무상 질병 인정기준, 벤젠·유기용제·트리클로로에틸렌으로 인한 증상의 업무상 질병 인정기준, 디이소시아네이트·이황화탄소·석면으로 인한 업무상 질병 인정기준, 세균·바이러스 등의 병원체로 인한 질병의 업무상 질병 인정기준, 직업성 피부질환의 업무상 질병 인정기준, 간질환의 업무상 질병 인정기준",
+      "article": "「산업재해보상보험법」, 「뇌혈관 질병 또는 심장 질병 및 근골격계 질병의 업무상 질병 인정 여부 결정에 필요한 사항」, 「보상업무처리규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "진폐에 대한 업무상 질병 인정기준",
+      "article": "「산업재해보상보험법」, 「산업보건기준에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=3&cnpClsNo=1"
+    }
+  ]
+}

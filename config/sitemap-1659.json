@@ -1,0 +1,100 @@
+{
+  "csmSeq": 1659,
+  "domainId": "child-support",
+  "name": "양육비",
+  "crawledAt": "2026-03-08T08:53:40.924Z",
+  "totalPages": 13,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "양육비 부담의무 및 결정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "양육비 금액은 어떻게 정해지나요?",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "양육비 이행확보를 위한 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "양육비 협의성립 및 면접교섭을 위한 지원을 받을 수 있습니다.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "소송 등 법률지원을 받을 수 있습니다.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "양육비 이행확보를 위한 채권 추심도 도움 받을 수 있어요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "양육비 지급 이행, 법적 조치를 취해 강제할 수 있습니다.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "양육비 선지급을 신청하세요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "양육비 채무 불이행자에 대한 제재",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "운전면허가 정지될 수 있어요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "출국이 금지될 수 있어요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "개인정보가 공개될 수 있어요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 5,
+      "title": "기동반이 직접 찾아가 양육비 이행을 촉구합니다.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=5"
+    }
+  ]
+}

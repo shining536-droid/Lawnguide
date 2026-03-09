@@ -1,0 +1,55 @@
+{
+  "csmSeq": 293,
+  "domainId": "defamation",
+  "name": "인터넷 명예훼손",
+  "fetchedAt": "2026-03-07T15:06:54.122Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=293",
+  "totalRefs": 9,
+  "refs": [
+    {
+      "lawName": "인터넷 명예훼손이란, 인터넷 명예훼손의 처벌 등",
+      "article": "「정보통신망 이용촉진 및 정보보호 등에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "관련 법령의 개관",
+      "article": "「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "정보의 삭제요청 및 임시조치",
+      "article": "「정보통신망 이용촉진 및 정보보호 등에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임의의 임시조치",
+      "article": "「정보통신망 이용촉진 및 정보보호 등에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "조정신청 등, 조정신청의 접수 등",
+      "article": "「명예훼손 분쟁조정 절차 등에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "조정전 합의권고 등",
+      "article": "「명예훼손 분쟁조정 절차 등에 관한 규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "조정의 진행 등, 조정안의 작성과 조정의 성립 등",
+      "article": "「명예훼손 분쟁조정 절차 등에 관한 규칙」, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "이용자 정보 제공청구",
+      "article": "「명예훼손 분쟁조정 절차 등에 관한 규칙」, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "고소ㆍ고발, 손해배상의 청구",
+      "article": "「형사소송법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=293&ccfNo=4&cciNo=2&cnpClsNo=1"
+    }
+  ]
+}

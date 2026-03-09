@@ -1,0 +1,16 @@
+{
+  "domain": "sangga",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "issue_type", "affects_facts": ["F001", "F004", "F005"] },
+    { "question_id": "Q002", "field": "contract_status", "affects_facts": ["F001", "F002"] },
+    { "question_id": "Q003", "field": "business_registration", "affects_facts": [] },
+    { "question_id": "Q004", "field": "lease_duration", "affects_facts": [] },
+    { "question_id": "Q005", "field": "deposit_range", "affects_facts": [] },
+    { "question_id": "Q006", "field": "premium_issue", "affects_facts": [] },
+    { "question_id": "Q007", "field": "dispute_resolution", "affects_facts": [] },
+    { "question_id": "Q008", "field": "confirmed_date", "affects_facts": [] },
+    { "question_id": "Q009", "field": "legal_support", "affects_facts": [] },
+    { "question_id": "Q010", "field": "deposit_amount", "affects_facts": [] }
+  ]
+}

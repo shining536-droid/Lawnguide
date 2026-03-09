@@ -1,0 +1,14 @@
+{
+  "domain": "child-support",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "support_status", "affects_facts": [] },
+    { "question_id": "Q002", "field": "agreement_type", "affects_facts": [] },
+    { "question_id": "Q003", "field": "payment_period", "affects_facts": [] },
+    { "question_id": "Q004", "field": "obligor_situation", "affects_facts": [] },
+    { "question_id": "Q005", "field": "child_age", "affects_facts": [] },
+    { "question_id": "Q006", "field": "enforcement_tried", "affects_facts": [] },
+    { "question_id": "Q007", "field": "income_change", "affects_facts": [] },
+    { "question_id": "Q008", "field": "has_execution_title", "affects_facts": [] }
+  ]
+}

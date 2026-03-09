@@ -1,0 +1,14 @@
+{
+  "domain": "real-estate-auction",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "participant_role", "affects_facts": ["F001", "F002"] },
+    { "question_id": "Q002", "field": "auction_stage", "affects_facts": ["F001"] },
+    { "question_id": "Q003", "field": "property_type", "affects_facts": [] },
+    { "question_id": "Q004", "field": "rights_analysis", "affects_facts": [] },
+    { "question_id": "Q005", "field": "tenant_status", "affects_facts": [] },
+    { "question_id": "Q006", "field": "bid_experience", "affects_facts": [] },
+    { "question_id": "Q007", "field": "budget_status", "affects_facts": [] },
+    { "question_id": "Q008", "field": "special_issue", "affects_facts": [] }
+  ]
+}

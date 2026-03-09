@@ -1,0 +1,45 @@
+{
+  "csmSeq": 306,
+  "domainId": "real-estate-auction",
+  "name": "부동산 경매",
+  "fetchedAt": "2026-03-07T15:06:58.154Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=306",
+  "totalRefs": 7,
+  "refs": [
+    {
+      "lawName": "경매의 의의 및 유형, 부동산 경매의 대상, 부동산 경매의 절차",
+      "article": "「공장 및 광업재단 저당법」, 「민법」, 「민사집행법」, 「부동산등기법」, 「민사집행규칙」, 「부동산등에 대한 경매절차 처리지침」, 「집합건물의 소유 및 관리에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "입찰 전 준비사항, 매수로 인해 말소·인수되는 권리의 확인",
+      "article": "「가등기담보 등에 관한 법률」, 「건축법」, 「민법」, 「민사집행법」, 「부동산등기법」, 「상가건물 임대차보호법」, 「주택임대차보호법」, 「공간정보의 구축 및 관리 등에 관한 법률」, 「토지이용규제 기본법」, 「민사집행규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "경매 정보의 수집 및 관심 물건의 선정, 부동산등기부·건축물대장 등의 확인 및 현장조사, 관심 물건의 종류에 따른 권리분석, 입찰참여 물건 및 입찰 가격의 결정",
+      "article": "「건축법」, 「농지법」, 「민법」, 「민사집행법」, 「부동산등기법」, 「산지관리법」, 「상가건물 임대차보호법」, 「입목에 관한 법률」, 「주민등록법」, 「주택임대차보호법」, 「공간정보의 구축 및 관리 등에 관한 법률」, 「토지이용규제 기본법」, 「건축물대장의 기재 및 관리 등에 관한 규칙」, 「민사집행규칙」, 「부동산등기규칙」, 「인터넷에 의한 등기기록의 열람 등에 관한 업무처리지침」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "입찰참여 자격, 입찰 방법",
+      "article": "「공인중개사법」, 「민법」, 「민사소송법」, 「형법」, 「민사집행규칙」, 「공인중개사의 매수신청대리인 등록 등에 관한 규칙」, 「부동산등에 대한 경매절차 처리지침」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "기일입찰의 절차, 기간입찰의 절차",
+      "article": "「민사집행법」, 「민사집행규칙」, 「법원보관금취급규칙」, 「부동산등에 대한 경매절차 처리지침」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "매수신고인의 경매 물건 보호 조치, 법원의 매각허가여부 결정, 매각허가결정에 대한 즉시항고 여부의 확인, 매수인의 매각대금 지급",
+      "article": "「민사소송법」, 「민사집행법」, 「민사집행규칙」, 「법원보관금취급규칙」, 「법원보관금취급규칙의 시행에 따른 업무처리지침」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "소유권 취득 및 세금 납부, 소유권 방어를 위한 조치",
+      "article": "「가등기담보 등에 관한 법률」, 「농어촌특별세법」, 「민법」, 「민사집행법」, 「인지세법」, 「지방세법」, 「지방세특례제한법」, 「장사 등에 관한 법률」, 「부동산등에 대한 경매절차 처리지침」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=306&ccfNo=5&cciNo=1&cnpClsNo=1"
+    }
+  ]
+}

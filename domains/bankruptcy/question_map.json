@@ -1,0 +1,14 @@
+{
+  "domain": "bankruptcy",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "debt_amount", "affects_facts": [] },
+    { "question_id": "Q002", "field": "income_status", "affects_facts": [] },
+    { "question_id": "Q003", "field": "asset_status", "affects_facts": [] },
+    { "question_id": "Q004", "field": "debt_cause", "affects_facts": [] },
+    { "question_id": "Q005", "field": "overdue_status", "affects_facts": [] },
+    { "question_id": "Q006", "field": "prior_attempt", "affects_facts": [] },
+    { "question_id": "Q007", "field": "family_support", "affects_facts": [] },
+    { "question_id": "Q008", "field": "creditor_action", "affects_facts": [] }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "csmSeq": 1659,
+  "domainId": "child-support",
+  "name": "양육비",
+  "fetchedAt": "2026-03-07T15:06:50.114Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=1659",
+  "totalRefs": 13,
+  "refs": [
+    {
+      "lawName": "양육비는 부모가 공동으로 부담해야 합니다.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "양육비 금액은 어떻게 정해지나요?",
+      "article": "「민법」,「가사소송법」,「민사집행법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "lawName": "양육부ㆍ모의 양육비 이행확보 과정을 지원합니다.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,「양육비 이행확보 및 지원에 관한 법률 시행규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "양육비 협의성립 및 면접교섭을 위한 지원을 받을 수 있습니다.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,「양육비 이행확보 및 지원에 관한 법률 시행규칙」,「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "소송 등 법률지원을 받을 수 있습니다.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,「양육비 이행확보 및 지원에 관한 법률 시행령」,「양육비 이행확보 및 지원에 관한 법률 시행규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "lawName": "양육비 이행확보를 위한 채권 추심도 도움 받을 수 있어요.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,\n「양육비 이행확보 및 지원에 관한 법률 시행령」,\n「양육비 이행확보 및 지원에 관한 법률 시행규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "lawName": "양육비 지급 이행, 법적 조치를 취해 강제할 수 있습니다.",
+      "article": "「가사소송법」,\n「가사소송규칙」,\n「법정등의질서유지를위한재판에관한규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "lawName": "한시적 양육비 긴급지원을 신청하세요.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,\n「양육비 이행확보 및 지원에 관한 법률 시행령」,\n「양육비 이행확보 및 지원에 관한 법률 시행규칙」,\n「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "과태료를 부과받거나 감치명령을 받을 수 있습니다.",
+      "article": "「가사소송법」,\n「가사소송규칙」,\n「법정등의질서유지를위한재판에관한규칙」,\n「양육비 이행확보 및 지원에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "운전면허가 정지될 수 있어요.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,\n「양육비 이행확보 및 지원에 관한 법률 시행령」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "lawName": "출국이 금지될 수 있어요.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,\n「양육비 이행확보 및 지원에 관한 법률 시행령」,\n「출입국관리법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "lawName": "개인정보가 공개될 수 있어요.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,\n「양육비 이행확보 및 지원에 관한 법률 시행령」,\n「양육비 이행확보 및 지원에 관한 법률 시행규칙」,\n「언론중재 및 피해구제 등에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "lawName": "기동반이 직접 찾아가 양육비 이행을 촉구합니다.",
+      "article": "「양육비 이행확보 및 지원에 관한 법률」,\n「양육비 이행확보 및 지원에 관한 법률 시행규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=5"
+    }
+  ]
+}

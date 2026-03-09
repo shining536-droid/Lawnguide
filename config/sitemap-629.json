@@ -1,0 +1,226 @@
+{
+  "csmSeq": 629,
+  "domainId": "jeonse",
+  "name": "주택임대차",
+  "crawledAt": "2026-03-08T08:53:18.878Z",
+  "totalPages": 31,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "주택임대차 이해하기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "「주택임대차보호법」의 적용",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "주택임대차 계약",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "임대차계약의 당사자 확인 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "임대차계약서의 작성",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "부동산 개업공인중개사의 책임 및 중개보수",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "전월세자금 대출",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "주택 임대차 계약 신고제(전월세신고제)",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "대항력 및 우선변제권 취득",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "주택임대차 등기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "이사",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "전입신고 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "입주생활",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "차임 또는 보증금의 증감청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "임차인의 권리·의무",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "임대인의 권리·의무",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "임차권 양도의 제한",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "전대차의 제한",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "사망 등에 대한 임차권의 승계",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 4,
+      "title": "임대인의 지위 승계",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=3&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "임대차계약의 갱신",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=4&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "임대차관계 종료",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "임차권등기명령 신청",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "소액보증금 우선변제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "집행권원의 확보",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "강제경매 신청",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "배당요구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 6,
+      "title": "임대보증금 반환자금 보증제도",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "유익비상환청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "부속물매수청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "장기수선충당금의 반환 청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=5&cciNo=3&cnpClsNo=3"
+    }
+  ]
+}

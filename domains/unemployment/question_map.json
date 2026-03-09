@@ -1,0 +1,14 @@
+{
+  "domain": "unemployment",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "separation_reason", "affects_facts": ["F001", "F002"] },
+    { "question_id": "Q002", "field": "employment_period", "affects_facts": ["F001"] },
+    { "question_id": "Q003", "field": "employment_type", "affects_facts": [] },
+    { "question_id": "Q004", "field": "current_status", "affects_facts": [] },
+    { "question_id": "Q005", "field": "registration_status", "affects_facts": [] },
+    { "question_id": "Q006", "field": "application_timing", "affects_facts": [] },
+    { "question_id": "Q007", "field": "age_group", "affects_facts": [] },
+    { "question_id": "Q008", "field": "special_case", "affects_facts": [] }
+  ]
+}

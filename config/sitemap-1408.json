@@ -1,0 +1,142 @@
+{
+  "csmSeq": 1408,
+  "domainId": "school-violence",
+  "name": "학교폭력",
+  "crawledAt": "2026-03-08T08:54:09.065Z",
+  "totalPages": 19,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "학교폭력의 이해",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "학교폭력의 유형 및 주요 지원체제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "학교폭력의 징후",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=1&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "사전예방",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "학생 보호인력 배치 및 학교전담경찰관 운영",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "학교폭력 예방교육 실시",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "학교폭력 신고 및 초기대응",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "관련 학생 조치",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "사안조사 및 전담기구의 심의",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "긴급조치",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "학교폭력의 해결",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "학교폭력대책심의위원회의 설치 및 운영 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "학교폭력대책심의위원회의 심의",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "피해학생에 대한 보호 조치",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "학교폭력대책심의위원회의 분쟁조정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "조치에 대한 불복",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 6,
+      "title": "가해학생에 대한 조치",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "민사 책임",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "형사 책임",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1408&ccfNo=4&cciNo=3&cnpClsNo=2"
+    }
+  ]
+}

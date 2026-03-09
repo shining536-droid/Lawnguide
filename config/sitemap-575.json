@@ -1,0 +1,415 @@
+{
+  "csmSeq": 575,
+  "domainId": "industrial-accident2",
+  "name": "산업재해보상보험 II",
+  "crawledAt": "2026-03-08T08:53:53.024Z",
+  "totalPages": 58,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "산업재해보상보험 알아보기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "산업재해보상 보험급여의 종류 알아보기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "요양급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "요양급여의 신청 및 지급",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "요양기간의 연장",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "산재보험 의료기관 변경 요양",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "추가상병 요양급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 6,
+      "title": "재요양",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "요양비",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "요양비 중 간병료",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "요양비 중 이송비",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "요양급여 비용 본인 일부 부담금 대부",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "휴업급여ㆍ상병보상 연금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "부분휴업급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "저소득 근로자의 휴업급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "고령자의 휴업급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 5,
+      "title": "재요양 기간 중의 휴업급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=1&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "상병보상연금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "중증요양상태등급의 판정 및 조정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "저소득 근로자의 상병보상연금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "고령자의 상병보상연금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "재요양 기간 중의 상병보상연금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "장해등급 기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "장해등급 판정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "장해등급 조정 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "장해급여ㆍ간병급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "가중 장해에 대한 장해급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "장해등급의 재판정에 따른 장해급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 4,
+      "title": "재요양에 따른 장해급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=3&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 5,
+      "title": "장해특별급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=3&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "간병급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "유족급여ㆍ장례비",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "유족보상일시금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "유족특별급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "장례비",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "근로자의 사망 추정에 의한 유족급여 및 장례비 지급",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "직업재활급여 및 재활지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "직장복귀지원금 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "맞춤형통합서비스",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "창업 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "의료재활 지원(후유증상관리)",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 3,
+      "cnpClsNo": 4,
+      "title": "사회생활 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=3&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 3,
+      "cnpClsNo": 5,
+      "title": "생활지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=6&cciNo=3&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "진폐에 대한 보험급여 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=7&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "진폐 판정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=7&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "진폐장해등급의 재판정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=7&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "진폐보상연금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=7&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 7,
+      "cciNo": 1,
+      "cnpClsNo": 5,
+      "title": "진폐유족연금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=7&cciNo=1&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 8,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "보험급여의 적정성 보장",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=8&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 8,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "일용근로자의 평균임금 산정 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=8&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 8,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "직업병에 걸린 사람에 대한 평균임금 산정 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=8&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 8,
+      "cciNo": 1,
+      "cnpClsNo": 5,
+      "title": "보험급여의 최고 보상기준 및 최저보상기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=8&cciNo=1&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 9,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "보험급여 결정 등에 대한 불복절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 9,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "재심사 청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 9,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "행정소송",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 10,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "재해보상 및 손해배상과의 관계",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=10&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 10,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "민사상 손해배상 소송",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=10&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 10,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "민사상 손해배상에 다른 보험급여 조정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=10&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

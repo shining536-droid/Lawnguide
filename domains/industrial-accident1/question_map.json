@@ -1,0 +1,15 @@
+{
+  "domain": "industrial-accident1",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "accident_type", "affects_facts": ["F001", "F002"] },
+    { "question_id": "Q002", "field": "injury_severity", "affects_facts": ["F001"] },
+    { "question_id": "Q003", "field": "employment_type", "affects_facts": [] },
+    { "question_id": "Q004", "field": "employer_report", "affects_facts": ["F001", "F003"] },
+    { "question_id": "Q005", "field": "medical_treatment", "affects_facts": [] },
+    { "question_id": "Q006", "field": "insurance_coverage", "affects_facts": [] },
+    { "question_id": "Q007", "field": "time_since_accident", "affects_facts": [] },
+    { "question_id": "Q008", "field": "evidence", "affects_facts": [] },
+    { "question_id": "Q009", "field": "employer_pressure", "affects_facts": [] }
+  ]
+}

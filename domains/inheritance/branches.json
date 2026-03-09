@@ -1,0 +1,43 @@
+{
+  "_draft": true,
+  "domain": "inheritance",
+  "version": "2026-03-08",
+  "resolution_order": ["TYPE_DEBT", "TYPE_RENUNCIATION", "TYPE_WILL_DISPUTE", "TYPE_DIVISION", "TYPE_OK"],
+  "types": [
+    {
+      "id": "TYPE_DEBT",
+      "name": "채무 상속 확인 필요",
+      "description": "피상속인에게 채무가 있어 상속포기 또는 한정승인을 검토해야 하는 유형",
+      "conditions": { "debt_status": ["채무있음"] },
+      "priority": 1
+    },
+    {
+      "id": "TYPE_RENUNCIATION",
+      "name": "상속포기·한정승인 검토 필요",
+      "description": "상속포기 또는 한정승인을 검토 중인 유형",
+      "conditions": { "renunciation_interest": ["상속포기검토", "한정승인검토"] },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_WILL_DISPUTE",
+      "name": "유언장 관련 검토 필요",
+      "description": "유언장이 존재하여 유언 내용 및 효력을 확인할 필요가 있는 유형",
+      "conditions": { "has_will": ["있음"] },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_DIVISION",
+      "name": "상속재산 분할 검토 필요",
+      "description": "상속인이 복수로 재산 분할 협의가 필요한 유형",
+      "conditions": { "heir_count": ["2~3명", "4명이상"] },
+      "priority": 4
+    },
+    {
+      "id": "TYPE_OK",
+      "name": "기본 확인 안내",
+      "description": "기타 문제로 기본적인 확인 사항을 안내하는 유형",
+      "conditions": { "problem_type": ["기타"] },
+      "priority": 5
+    }
+  ]
+}

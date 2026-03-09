@@ -1,0 +1,30 @@
+{
+  "targets": [
+    { "domainId": "jeonse", "name": "주택임대차", "csmSeq": 629 },
+    { "domainId": "jeonse-fraud", "name": "전세사기 피해자 지원", "csmSeq": 1972 },
+    { "domainId": "sangga", "name": "상가건물 임대차", "csmSeq": 627 },
+    { "domainId": "wage", "name": "임금", "csmSeq": 1694 },
+    { "domainId": "retirement", "name": "퇴직급여제도", "csmSeq": 999 },
+    { "domainId": "dismissal", "name": "해고근로자", "csmSeq": 514 },
+    { "domainId": "small-claims", "name": "소액사건재판", "csmSeq": 239 },
+    { "domainId": "rehabilitation", "name": "개인회생절차", "csmSeq": 1286 },
+    { "domainId": "bankruptcy", "name": "개인파산·면책절차", "csmSeq": 616 },
+    { "domainId": "inheritance", "name": "상속", "csmSeq": 255 },
+    { "domainId": "divorce", "name": "이혼", "csmSeq": 233 },
+    { "domainId": "child-support", "name": "양육비", "csmSeq": 1659 },
+    { "domainId": "neighbor-dispute", "name": "이웃 간 분쟁 해결", "csmSeq": 1409 },
+    { "domainId": "defamation", "name": "인터넷 명예훼손", "csmSeq": 293 },
+    { "domainId": "real-estate-sale", "name": "부동산 매매", "csmSeq": 649 },
+    { "domainId": "real-estate-auction", "name": "부동산 경매", "csmSeq": 306 },
+    { "domainId": "industrial-accident1", "name": "산업재해보상보험 I", "csmSeq": 570 },
+    { "domainId": "industrial-accident2", "name": "산업재해보상보험 II", "csmSeq": 575 },
+    { "domainId": "unemployment", "name": "실업급여", "csmSeq": 722 },
+    { "domainId": "digital-sex-crime", "name": "디지털성범죄", "csmSeq": 1594 },
+    { "domainId": "sex-crime", "name": "성범죄", "csmSeq": 687 },
+    { "domainId": "sexual-harassment", "name": "성희롱", "csmSeq": 279 },
+    { "domainId": "stalking", "name": "스토킹", "csmSeq": 1661 },
+    { "domainId": "assault", "name": "폭행", "csmSeq": 538 },
+    { "domainId": "child-sex-crime", "name": "아동성범죄", "csmSeq": 1121 },
+    { "domainId": "school-violence", "name": "학교폭력", "csmSeq": 1408 }
+  ]
+}

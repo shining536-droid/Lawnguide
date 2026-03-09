@@ -1,0 +1,163 @@
+{
+  "csmSeq": 722,
+  "domainId": "unemployment",
+  "name": "실업급여",
+  "crawledAt": "2026-03-08T08:53:55.010Z",
+  "totalPages": 22,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "실업급여 알아보기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "구직급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "실업의 신고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "실업의 인정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "실업인정의 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "구직급여 수급일수",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "구직급여 수급액",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "구직급여 수급·수급유예·수급정지",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "훈련연장급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 2,
+      "title": "개별연장급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=4&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 3,
+      "title": "특별연장급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=4&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 5,
+      "cnpClsNo": 1,
+      "title": "상병급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=5&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "취업촉진 수당",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "직업능력개발 수당",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "광역 구직활동비",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "이주비",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "자영업자 실업급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "실업급여 문제해결",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "실업급여 부정수급",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "부정수급에 따른 수급액 반환 및 징수",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=5&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "실업급여 심사청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "실업급여 재심사청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=5&cciNo=3&cnpClsNo=2"
+    }
+  ]
+}

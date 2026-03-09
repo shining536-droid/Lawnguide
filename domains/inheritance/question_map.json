@@ -1,0 +1,16 @@
+{
+  "domain": "inheritance",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "inheritance_status", "affects_facts": [] },
+    { "question_id": "Q002", "field": "heir_type", "affects_facts": [] },
+    { "question_id": "Q003", "field": "heir_count", "affects_facts": [] },
+    { "question_id": "Q004", "field": "has_will", "affects_facts": [] },
+    { "question_id": "Q005", "field": "estate_type", "affects_facts": [] },
+    { "question_id": "Q006", "field": "estate_value", "affects_facts": [] },
+    { "question_id": "Q007", "field": "debt_status", "affects_facts": [] },
+    { "question_id": "Q008", "field": "renunciation_interest", "affects_facts": [] },
+    { "question_id": "Q009", "field": "dispute_status", "affects_facts": [] },
+    { "question_id": "Q010", "field": "tax_filing", "affects_facts": [] }
+  ]
+}

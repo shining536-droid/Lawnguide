@@ -1,0 +1,16 @@
+{
+  "domain": "dismissal",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "dismissal_type", "affects_facts": ["F001", "F002", "F003"] },
+    { "question_id": "Q002", "field": "notice_given", "affects_facts": ["F001"] },
+    { "question_id": "Q003", "field": "written_notice", "affects_facts": [] },
+    { "question_id": "Q004", "field": "service_period", "affects_facts": [] },
+    { "question_id": "Q005", "field": "company_size", "affects_facts": [] },
+    { "question_id": "Q006", "field": "special_status", "affects_facts": [] },
+    { "question_id": "Q007", "field": "action_taken", "affects_facts": [] },
+    { "question_id": "Q008", "field": "desired_outcome", "affects_facts": [] },
+    { "question_id": "Q009", "field": "legal_support", "affects_facts": [] },
+    { "question_id": "Q010", "field": "time_since_dismissal", "affects_facts": [] }
+  ]
+}

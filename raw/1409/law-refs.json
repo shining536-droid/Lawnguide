@@ -1,0 +1,35 @@
+{
+  "csmSeq": 1409,
+  "domainId": "neighbor-dispute",
+  "name": "이웃 간 분쟁 해결",
+  "fetchedAt": "2026-03-07T15:06:52.113Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=1409",
+  "totalRefs": 5,
+  "refs": [
+    {
+      "lawName": "층간소음 분쟁, 반려동물 분쟁, 간접흡연 피해 분쟁, 주차 분쟁",
+      "article": "「공동주택관리법」, 「동물보호법」, 「국민건강증진법」, 「도로교통법」, 「폐기물관리법」, 「중앙 공동주택관리 분쟁 조정신청 수수료 고시」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "생활쓰레기 관련 분쟁, 일조권 방해 분쟁, 빛공해",
+      "article": "「건축법」, 「민사집행법」, 「민법」, 「인공조명에 의한 빛공해 방지법」, 「서울특별시 서초구 주차장 설치 및 관리 조례」, 「세종특별자치시 폐기물 관리 조례」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "건물 하자 분쟁, 경계 분쟁",
+      "article": "「공동주택관리법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "공동주택관리 분쟁 조정, 환경분쟁 조정",
+      "article": "「공동주택관리법」, 「환경분쟁 조정법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "손해배상 청구 등, 가처분 신청",
+      "article": "「민법」, 「민사소송법」, 「민사집행법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=2&cciNo=2&cnpClsNo=1"
+    }
+  ]
+}

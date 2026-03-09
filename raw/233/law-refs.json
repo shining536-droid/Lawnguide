@@ -1,0 +1,90 @@
+{
+  "csmSeq": 233,
+  "domainId": "divorce",
+  "name": "이혼",
+  "fetchedAt": "2026-03-07T15:06:48.128Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=233",
+  "totalRefs": 16,
+  "refs": [
+    {
+      "lawName": "협의이혼과 재판상 이혼, 사실혼의 해소, 사실상 이혼",
+      "article": "「가사소송법」, 「가족관계의 등록 등에 관한 법률」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "이혼 전 준비사항, 이혼 시 재산문제 및 자녀문제, 이혼소송을 당한 경우의 대응",
+      "article": "「가사소송법」, 「민법」, 「민사소송법」, 「민사집행법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "이혼에 따른 손해배상 및 재산분할, 이혼에 따른 신분관계의 변화",
+      "article": "「가족관계의 등록 등에 관한 법률」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "이혼의 무효, 이혼의 취소",
+      "article": "「가사소송법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "사실혼의 해소와 재산ㆍ자녀문제, 사실혼 파기에 대한 위자료 청구, 사실혼 부부간 재산분할 청구, 사실혼 부부간 양육비 청구, 사실혼의 경우 간통죄 성립 여부",
+      "article": "「가사소송법」, 「가족관계의 등록 등에 관한 법률」, 「형법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=5&cnpClsNo=1"
+    },
+    {
+      "lawName": "협의이혼의 요건, 협의이혼과 자녀문제 합의, 협의이혼과 재산문제",
+      "article": "「가사소송법」, 「가족관계의 등록 등에 관한 법률」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "협의이혼의 절차, 협의이혼 의사의 철회, 외국에서의 협의이혼",
+      "article": "「가족관계의 등록 등에 관한 법률」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "재판상 이혼의 개념, 재판상 이혼 사유, 유책배우자의 이혼청구",
+      "article": "「가사소송법」, 「민법」, 「민사조정법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "재판상 이혼의 절차, 공시송달에 의한 이혼, 외국에서의 이혼소송, 이혼 상대방의 재산처분 방지 조치",
+      "article": "「민법」, 「국제사법」, 「민사집행법」, 「민사조정법」, 「외국법원의 이혼판결에 의한 가족관계등록사무 처리지침」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "위자료(위자료청구권)의 개념, 혼인파탄에 책임있는 제3자에 대한 위자료 청구, 위자료청구권의 행사기간, 위자료 지급의 강제방법, 위자료 지급에 대한 과세",
+      "article": "「가사소송법」, 「민법」, 「민사집행법」, 「소득세법」, 「지방세법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "재산분할청구권의 개념, 재산분할의 대상, 재산명시 및 재산조회제도, 유책배우자의 재산분할청구, 재산분할청구권의 행사기간, 재산분할에 대한 과세",
+      "article": "「가사소송법」, 「민법」, 「소득세법」, 「지방세법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "이혼 시 자녀에 대한 친권, 이혼 시 자녀에 대한 양육권, 친권자 및 양육권자의 변경, 양육자의 자녀인도청구",
+      "article": "「가사소송법」, 「가족관계의 등록 등에 관한 법률」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "양육자가 아닌 부모의 자녀에 대한 면접교섭권, 면접교섭의무의 이행 강제 방법",
+      "article": "「가사소송법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "자녀에 대한 양육비 부담, 과거의 자녀 양육비 청구, 양육비 지급의 이행 강제 방법",
+      "article": "「가사소송법」, 「민법」, 「민사집행법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "이혼 후 자녀의 성(姓)과 본(本) 변경, 자녀의 성(姓)과 본(本)을 재혼한 배우자의 성과 본으로 바꾸는 방법",
+      "article": "「가사소송법」, 「가족관계의 등록 등에 관한 법률」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "가정폭력의 개념, 배우자의 가정폭력에 대한 고소",
+      "article": "「가정폭력방지 및 피해자보호 등에 관한 법률」, 「가정폭력범죄의 처벌 등에 관한 특례법」, 「민법」, 「형법」, 「형사소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=6&cciNo=2&cnpClsNo=1"
+    }
+  ]
+}

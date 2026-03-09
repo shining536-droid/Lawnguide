@@ -1,0 +1,191 @@
+{
+  "_draft": true,
+  "domain": "retirement",
+  "version": "2026-03-08",
+  "totalQuestions": 11,
+  "questions": [
+    {
+      "id": "Q001",
+      "field": "problem_type",
+      "stage": "공통",
+      "text": "어떤 문제가 가장 가까운가요?",
+      "type": "enum",
+      "options": [
+        { "value": "퇴직금 미지급", "label": "퇴직금을 받지 못했다" },
+        { "value": "산정 확인", "label": "퇴직금이 제대로 계산됐는지 확인하고 싶다" },
+        { "value": "중간정산", "label": "중간정산을 받고 싶거나 받은 적이 있다" },
+        { "value": "퇴직연금", "label": "퇴직연금(DB/DC/IRP)에 대해 알고 싶다" },
+        { "value": "기타", "label": "기타 / 잘 모르겠다" }
+      ],
+      "next": {
+        "퇴직금 미지급": "Q002",
+        "산정 확인": "Q002",
+        "중간정산": "Q002",
+        "퇴직연금": "Q002",
+        "기타": "Q002"
+      }
+    },
+    {
+      "id": "Q002",
+      "field": "progress_stage",
+      "stage": "공통",
+      "text": "지금 어디까지 진행된 상황인가요?",
+      "type": "enum",
+      "options": [
+        { "value": "시작", "label": "문제를 인식한 단계" },
+        { "value": "진행중", "label": "사업주에게 요구한 상태" },
+        { "value": "진정제기", "label": "고용노동부에 진정을 제기했거나 준비 중" },
+        { "value": "법적절차", "label": "법적 절차 진행 중" }
+      ],
+      "next": {
+        "시작": "Q003",
+        "진행중": "Q003",
+        "진정제기": "Q003",
+        "법적절차": "Q003"
+      }
+    },
+    {
+      "id": "Q003",
+      "field": "timeline",
+      "stage": "공통",
+      "text": "퇴직한 지 얼마나 됐나요?",
+      "type": "enum",
+      "options": [
+        { "value": "며칠", "label": "며칠 이내" },
+        { "value": "1주", "label": "약 1주일" },
+        { "value": "1개월", "label": "약 1개월" },
+        { "value": "1개월이상", "label": "1개월 이상" },
+        { "value": "재직중", "label": "아직 재직 중" }
+      ],
+      "next": {
+        "며칠": "Q004",
+        "1주": "Q004",
+        "1개월": "Q004",
+        "1개월이상": "Q004",
+        "재직중": "Q004"
+      }
+    },
+    {
+      "id": "Q004",
+      "field": "counterparty_contact",
+      "stage": "공통",
+      "text": "사업주(회사)와 연락이 되나요?",
+      "type": "enum",
+      "options": [
+        { "value": "연락 가능", "label": "연락이 된다" },
+        { "value": "연락 어려움", "label": "연락이 잘 안 된다" },
+        { "value": "연락 두절", "label": "연락 두절 또는 폐업 상태" }
+      ],
+      "next": {
+        "연락 가능": "Q005",
+        "연락 어려움": "Q005",
+        "연락 두절": "Q005"
+      }
+    },
+    {
+      "id": "Q005",
+      "field": "existing_docs",
+      "stage": "공통",
+      "text": "지금 가지고 있는 자료를 골라주세요",
+      "description": "해당하는 것을 모두 선택해주세요. 없으면 선택하지 않고 넘어가도 됩니다.",
+      "type": "multiselect",
+      "options": [
+        { "value": "근로계약서", "label": "근로계약서" },
+        { "value": "급여명세서", "label": "급여명세서(최근 3개월)" },
+        { "value": "퇴직금산정서", "label": "퇴직금산정서" },
+        { "value": "4대보험가입확인서", "label": "4대보험가입확인서" },
+        { "value": "퇴직증명서", "label": "퇴직증명서" },
+        { "value": "통장거래내역", "label": "통장거래내역(급여입금)" }
+      ],
+      "next": { "_next": "Q006" }
+    },
+    {
+      "id": "Q006",
+      "field": "service_period",
+      "stage": "퇴직급여 특화",
+      "text": "근무 기간이 어떻게 되나요?",
+      "description": "퇴직금은 1년 이상 근무한 경우 발생합니다.",
+      "type": "enum",
+      "options": [
+        { "value": "1년 미만", "label": "1년 미만" },
+        { "value": "1~3년", "label": "1년 ~ 3년" },
+        { "value": "3~10년", "label": "3년 ~ 10년" },
+        { "value": "10년 이상", "label": "10년 이상" }
+      ],
+      "next": { "1년 미만": "Q007", "1~3년": "Q007", "3~10년": "Q007", "10년 이상": "Q007" }
+    },
+    {
+      "id": "Q007",
+      "field": "pension_type",
+      "stage": "퇴직급여 특화",
+      "text": "퇴직급여 유형이 어떤 건가요?",
+      "description": "회사에서 퇴직금제도와 퇴직연금(DB/DC) 중 어떤 것을 운영하는지 확인해주세요.",
+      "type": "enum",
+      "options": [
+        { "value": "퇴직금제도", "label": "퇴직금제도(일시금)" },
+        { "value": "DB", "label": "확정급여형(DB)" },
+        { "value": "DC", "label": "확정기여형(DC)" },
+        { "value": "모름", "label": "잘 모르겠다" }
+      ],
+      "next": { "퇴직금제도": "Q008", "DB": "Q008", "DC": "Q008", "모름": "Q008" }
+    },
+    {
+      "id": "Q008",
+      "field": "separation_reason",
+      "stage": "퇴직급여 특화",
+      "text": "퇴사 사유가 어떻게 되나요?",
+      "type": "enum",
+      "options": [
+        { "value": "자발적 퇴사", "label": "자발적 퇴사(사직)" },
+        { "value": "권고사직", "label": "권고사직" },
+        { "value": "해고", "label": "해고" },
+        { "value": "계약만료", "label": "계약기간 만료" },
+        { "value": "재직중", "label": "아직 재직 중" }
+      ],
+      "next": { "자발적 퇴사": "Q009", "권고사직": "Q009", "해고": "Q009", "계약만료": "Q009", "재직중": "Q009" }
+    },
+    {
+      "id": "Q009",
+      "field": "recent_salary_docs",
+      "stage": "퇴직급여 특화",
+      "text": "최근 3개월 급여자료를 확인할 수 있나요?",
+      "description": "퇴직금 산정에는 최근 3개월 평균임금이 필요합니다.",
+      "type": "enum",
+      "options": [
+        { "value": "예", "label": "예, 확인 가능하다" },
+        { "value": "일부", "label": "일부만 있다" },
+        { "value": "아니요", "label": "확인이 어렵다" }
+      ],
+      "next": { "예": "Q010", "일부": "Q010", "아니요": "Q010" }
+    },
+    {
+      "id": "Q010",
+      "field": "company_size",
+      "stage": "퇴직급여 특화",
+      "text": "사업장 규모가 어떻게 되나요?",
+      "description": "상시 근로자 수 기준입니다.",
+      "type": "enum",
+      "options": [
+        { "value": "5인 미만", "label": "5인 미만" },
+        { "value": "5인 이상", "label": "5인 이상" },
+        { "value": "모름", "label": "잘 모르겠다" }
+      ],
+      "next": { "5인 미만": "Q011", "5인 이상": "Q011", "모름": "Q011" }
+    },
+    {
+      "id": "Q011",
+      "field": "expected_amount",
+      "stage": "퇴직급여 특화",
+      "text": "예상되는 퇴직금 금액대는?",
+      "type": "enum",
+      "options": [
+        { "value": "500만원 이하", "label": "500만원 이하" },
+        { "value": "500만~2000만원", "label": "500만원 ~ 2,000만원" },
+        { "value": "2000만~5000만원", "label": "2,000만원 ~ 5,000만원" },
+        { "value": "5000만원 초과", "label": "5,000만원 초과" },
+        { "value": "모름", "label": "잘 모르겠다" }
+      ],
+      "next": { "500만원 이하": "RESULT", "500만~2000만원": "RESULT", "2000만~5000만원": "RESULT", "5000만원 초과": "RESULT", "모름": "RESULT" }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "csmSeq": 239,
+  "domainId": "small-claims",
+  "name": "소액사건재판",
+  "fetchedAt": "2026-03-07T15:06:40.682Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=239",
+  "totalRefs": 6,
+  "refs": [
+    {
+      "lawName": "소액사건재판의 개념,  소액사건재판의 진행과정, 소액사건재판의 관련 법령",
+      "article": "「소액사건심판법」, 「민사소송법」, 「민사소송 등 인지법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=239&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "민사소송과 소송 전 분쟁해결",
+      "article": "「민사조정법」,  「민사소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=239&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "소 제기방법,  소를 제기할 법원, 소송대리인의 범위, 소 제기 시 준비사항",
+      "article": "「소액사건심판법」, 「민사소송법」, 「법원조직법」, 「민사소송 등 인지법」, 「송달료규칙」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=239&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "이행권고결정의 개념, 이의신청,  강제집행의 특례 등",
+      "article": "「소액사건심판법」, 「민사소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=239&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "변론기일의 지정, 소액사건의 심리",
+      "article": "「소액사건심판법」, 「민사소송법」, 「원격영상재판에 관한 특례법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=239&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "소액사건재판에 대한 불복",
+      "article": "「소액사건심판법」, 「민사소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=239&ccfNo=5&cciNo=1&cnpClsNo=1"
+    }
+  ]
+}

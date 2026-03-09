@@ -1,0 +1,50 @@
+{
+  "_draft": true,
+  "domain": "jeonse",
+  "version": "2026-03-08",
+  "types": [
+    {
+      "id": "TYPE_FRAUD",
+      "name": "전세사기 의심 확인 필요",
+      "description": "전세사기가 의심되어 빠른 확인이 필요한 상황",
+      "conditions": { "fraud_suspicion": "예" },
+      "priority": 1
+    },
+    {
+      "id": "TYPE_AUCTION",
+      "name": "경매·공매 관련 확인 필요",
+      "description": "경매 또는 공매 통지를 받아 대응이 필요한 상황",
+      "conditions": { "auction_notice": "예" },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_UNREACHABLE",
+      "name": "임대인 연락 두절 확인 필요",
+      "description": "임대인과 연락이 되지 않아 별도 조치가 필요한 상황",
+      "conditions": { "counterparty_contact": "연락 두절" },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_UNREGISTERED",
+      "name": "대항력 미확보 검토 필요",
+      "description": "전입신고를 하지 않아 대항력 확보를 검토해야 하는 상황",
+      "conditions": { "move_in_report": "아니요" },
+      "priority": 4
+    },
+    {
+      "id": "TYPE_DEPOSIT",
+      "name": "보증금 반환 검토 필요",
+      "description": "보증금 반환과 관련한 준비가 필요한 상황",
+      "conditions": { "problem_type": ["보증금 미반환", "계약갱신 분쟁"] },
+      "priority": 5
+    },
+    {
+      "id": "TYPE_OK",
+      "name": "기본 확인 사항 안내",
+      "description": "큰 분쟁 없이 기본 사항만 확인하면 되는 상황",
+      "conditions": { "problem_type": "기타" },
+      "priority": 99
+    }
+  ],
+  "resolution_order": ["TYPE_FRAUD", "TYPE_AUCTION", "TYPE_UNREACHABLE", "TYPE_UNREGISTERED", "TYPE_DEPOSIT", "TYPE_OK"]
+}

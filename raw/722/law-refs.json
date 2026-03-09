@@ -1,0 +1,40 @@
+{
+  "csmSeq": 722,
+  "domainId": "unemployment",
+  "name": "실업급여",
+  "fetchedAt": "2026-03-07T15:07:04.488Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=722",
+  "totalRefs": 6,
+  "refs": [
+    {
+      "lawName": "실업급여란?",
+      "article": "「고용보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "구직급여 수급자격",
+      "article": "「고용보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "실업의 신고, 실업의 인정, 실업인정의 특례",
+      "article": "「고용보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "구직급여 수급일수, 구직급여 수급액, 구직급여 수급ㆍ수급유예ㆍ수급정지",
+      "article": "「고용보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "훈련연장급여, 개별연장급여, 특별연장급여",
+      "article": "「고용보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "상병급여",
+      "article": "「고용보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=5&cnpClsNo=1"
+    }
+  ]
+}

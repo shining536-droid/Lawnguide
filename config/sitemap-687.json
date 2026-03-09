@@ -1,0 +1,247 @@
+{
+  "csmSeq": 687,
+  "domainId": "sex-crime",
+  "name": "성범죄",
+  "crawledAt": "2026-03-08T08:53:59.060Z",
+  "totalPages": 34,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "성폭력 피해자",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "성폭력의 처벌 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "신고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "상담",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "고소 및 공소시효",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "손해배상",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "피해자보호시설",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "수사단계에서의 보호 - 피해조사받기가 부끄러워요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "공판단계에서의 보호 – 혼자 재판정에 나가 증언하기 싫어요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 4,
+      "title": "신원 및 사생활 보호",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=3&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "의료지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 4,
+      "cnpClsNo": 2,
+      "title": "취업지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=4&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 4,
+      "cnpClsNo": 3,
+      "title": "주거지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=4&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 4,
+      "cnpClsNo": 4,
+      "title": "법률지원 및 긴급지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=4&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 5,
+      "cnpClsNo": 1,
+      "title": "성폭력 예방교육",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=5&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 5,
+      "cnpClsNo": 2,
+      "title": "신상정보 등록 및 고지",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=5&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 5,
+      "cnpClsNo": 3,
+      "title": "위치추적 전자장치 부착",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=5&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 5,
+      "cnpClsNo": 4,
+      "title": "성충동 약물치료",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=1&cciNo=5&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "성매매 피해자",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "성매매의 처벌",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "신고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "상담",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "고소",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "손해배상",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "수사단계에서의 보호 – 피해조사받기가 부끄러워요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "공판단계에서의 보호 – 혼자 재판정에 나가 증언하기 싫어요.",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "신원 및 사생활 보호",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "피해자지원시설",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 2,
+      "title": "의료지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=4&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 3,
+      "title": "취업지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=4&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 4,
+      "title": "주거지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=4&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 5,
+      "title": "법률지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=4&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 6,
+      "title": "신용회복지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=4&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 5,
+      "cnpClsNo": 1,
+      "title": "성매매 예방교육",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=687&ccfNo=2&cciNo=5&cnpClsNo=1"
+    }
+  ]
+}

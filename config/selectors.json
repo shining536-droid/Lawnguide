@@ -1,0 +1,42 @@
+{
+  "pc": {
+    "sidebar": ".lnb_wrap ul",
+    "sidebarLinks": ".lnb_wrap a, #lnb a",
+    "contentArea": ".ovDivbox1",
+    "title": ".cnpClsTitle",
+    "intro": ".cnpClsNt",
+    "breadcrumb": ".location",
+    "textBlocks": {
+      "level1": ".plv1a",
+      "level2": ".plv2a",
+      "level3": ".plv3a",
+      "level4": ".plv4a",
+      "level5": ".plv5d",
+      "tip2": ".tplv2d",
+      "tip3": ".tplv3a",
+      "tip3plain": ".tplv3",
+      "all": ".plv1a, .plv2a, .plv3a, .plv4a, .plv5d, .tplv2d, .tplv3a, .tplv3"
+    },
+    "tables": ".ovDivbox1 table",
+    "lawRefLinks": ".ovDivbox1 a",
+    "qaList": ".qa_list li, .qna_list li, .faq_list li",
+    "qaQuestion": ".question, .q_tit, dt",
+    "qaAnswer": ".answer, .a_con, dd"
+  },
+  "mobile": {
+    "contentArea": "#contents, .cont_area, .content_area",
+    "title": ".tit_page, h2, .cont_tit",
+    "textBlocks": "#contents p, .cont_area p, .content_area p, #contents div",
+    "tables": "#contents table, .cont_area table"
+  },
+  "lawRefsPage": {
+    "lawList": "table tbody tr, .law_list li, .relate_law li",
+    "lawName": "td:first-child, .law_name, a",
+    "lawArticle": "td:nth-child(2), .law_article"
+  },
+  "patterns": {
+    "conditions": ["경우", "때", "경우에는", "여부", "있는\\s*경우", "없는\\s*경우", "않은\\s*경우", "못한\\s*경우", "이상", "이하", "초과", "미만"],
+    "lawRef": "「([^」]+)」\\s*제(\\d+)조(?:의(\\d+))?(?:\\s*제(\\d+)항)?(?:\\s*제(\\d+)호)?",
+    "amounts": ["\\d+[만백천억]?\\s*원", "\\d+%", "\\d+퍼센트", "\\d+개월", "\\d+일", "\\d+년"]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "csmSeq": 616,
+  "domainId": "bankruptcy",
+  "name": "개인파산·면책절차",
+  "crawledAt": "2026-03-08T08:53:34.928Z",
+  "totalPages": 17,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "개인파산ㆍ면책 절차 개관",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "개인파산ㆍ면책절차 법제 개관",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "개인파산ㆍ면책 절차의 신청",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "신청서 작성",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "진술서 작성",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "채권자목록 작성",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "재산목록 작성",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "현재의 생활상황 작성",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 6,
+      "title": "수입 및 지출에 관한 목록 작성",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "신청비용 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "관할법원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "개인파산 선고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "동시폐지결정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "파산관재인 선임",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "개인파산 면책",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "면책의 효력 및 취소",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=4&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "복권",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=4&cciNo=1&cnpClsNo=3"
+    }
+  ]
+}

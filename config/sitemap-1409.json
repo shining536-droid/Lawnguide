@@ -1,0 +1,100 @@
+{
+  "csmSeq": 1409,
+  "domainId": "neighbor-dispute",
+  "name": "이웃 간 분쟁 해결",
+  "crawledAt": "2026-03-08T08:53:42.954Z",
+  "totalPages": 13,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "분쟁의 발생",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "반려동물 분쟁",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "간접흡연 피해 분쟁",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "주차 분쟁",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "생활쓰레기 관련 분쟁",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "일조권 방해 분쟁",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "빛공해",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "건물 하자 분쟁",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "경계 분쟁",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=1&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "분쟁의 해결",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "환경분쟁 조정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "손해배상 청구 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "가처분 신청",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1409&ccfNo=2&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

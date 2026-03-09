@@ -1,0 +1,100 @@
+{
+  "csmSeq": 1661,
+  "domainId": "stalking",
+  "name": "스토킹",
+  "crawledAt": "2026-03-08T08:54:03.049Z",
+  "totalPages": 13,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "스토킹과 데이트폭력",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "데이트폭력",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "도움 요청하기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "신고하기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "스토킹 신고에 대한 조치",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "스토킹 가해자로 신고를 당했다면?!",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "피해자 보호·지원받기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "피해유형별 추가 지원사항",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "피해회복을 위한 지원기관",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "스토킹·데이트폭력 예방 및 인식개선",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "2차 피해 예방 및 개인정보 보호",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "수사 및 재판단계에서의 개인정보 보호",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "주민등록번호 변경 및 열람제한",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1661&ccfNo=4&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

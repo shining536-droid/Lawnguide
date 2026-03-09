@@ -1,0 +1,14 @@
+{
+  "domain": "defamation",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "defamation_type", "affects_facts": ["TYPE_PRIVACY", "TYPE_INSULT", "TYPE_FALSE_FACT"] },
+    { "question_id": "Q002", "field": "platform", "affects_facts": ["TYPE_VIRAL", "TYPE_ANONYMOUS"] },
+    { "question_id": "Q003", "field": "content_truth", "affects_facts": ["TYPE_FALSE_FACT", "TYPE_INSULT"] },
+    { "question_id": "Q004", "field": "spread_extent", "affects_facts": ["TYPE_VIRAL"] },
+    { "question_id": "Q005", "field": "poster_identity", "affects_facts": ["TYPE_ANONYMOUS"] },
+    { "question_id": "Q006", "field": "damage_type", "affects_facts": ["TYPE_FALSE_FACT", "TYPE_INSULT", "TYPE_PRIVACY", "TYPE_VIRAL"] },
+    { "question_id": "Q007", "field": "deletion_request", "affects_facts": ["TYPE_VIRAL", "TYPE_FALSE_FACT"] },
+    { "question_id": "Q008", "field": "legal_action_interest", "affects_facts": ["TYPE_FALSE_FACT", "TYPE_INSULT", "TYPE_PRIVACY", "TYPE_ANONYMOUS", "TYPE_VIRAL"] }
+  ]
+}

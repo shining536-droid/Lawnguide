@@ -1,0 +1,212 @@
+{
+  "csmSeq": 649,
+  "domainId": "real-estate-sale",
+  "name": "부동산 매매",
+  "crawledAt": "2026-03-08T08:53:47.036Z",
+  "totalPages": 29,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "부동산 매매 개관",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "부동산 매매계약",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "토지거래 및 이용에 관한 규제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "주택거래 및 이용에 관한 규제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=1&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "개발이익 및 재건축초과이익의 환수",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=1&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "세금 납부",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=1&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "부동산 매매 관련 법제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=1&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "부동산 매매계약 전 준비사항",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "부동산 중개업체와의 계약",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "부동산 중개보수 산정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "부동산 개업공인중개사의 책임 및 분쟁해결",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "부동산 구입자금 대출",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "허가받아야 할 부동산 매매",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "부동산 매매계약의 체결",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "부동산등기부 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "토지대장, 임야대장 및 건축물대장 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "토지이용계획확인서 등 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=3&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 5,
+      "title": "다른 권리 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=3&cciNo=1&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 6,
+      "title": "부동산종합공부 등 확인",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=3&cciNo=1&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "매매계약서 작성",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "매매대금 교부",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "부동산 매매계약 후 처리사항",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "부동산거래 신고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "전입신고 및 자동차 주소지 변경등록",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=4&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "신고해야 할 부동산 매매",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=4&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "매도인이 부담하는 세금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "매수인이 부담하는 세금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=4&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "부동산 매매계약의 해제 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "부동산의 흠결",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=649&ccfNo=5&cciNo=2&cnpClsNo=1"
+    }
+  ]
+}

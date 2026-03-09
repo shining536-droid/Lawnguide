@@ -1,0 +1,60 @@
+{
+  "csmSeq": 1694,
+  "domainId": "wage",
+  "name": "임금",
+  "fetchedAt": "2026-03-07T15:06:34.041Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=1694",
+  "totalRefs": 10,
+  "refs": [
+    {
+      "lawName": "임금의 개념 및 판단기준",
+      "article": "「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "평균임금, 통상임금, 최저임금",
+      "article": "「근로기준법」, 「근로자퇴직급여 보장법」, 「고용보험법」, 「산업재해보상보험법」, 「남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률」, 「노동조합 및 노동관계조정법」, 「최저임금법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "임금의 지급 보호 및 압류금지",
+      "article": "「근로기준법」, 「민사집행법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임금지급 4대 원칙, 근로자 사망ㆍ퇴직시 금품청산, 도급사업 등에서의 임금 지급",
+      "article": "「근로기준법」, 「민사집행법」, 「소액사건심판법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "임금대장 작성 및 임금명세서 교부",
+      "article": "「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "임금의 시효소멸",
+      "article": "「근로기준법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "휴업수당의 지급",
+      "article": "「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "임금채권 우선변제 방법",
+      "article": "「근로기준법」, 「근로자퇴직급여 보장법」, 「민사집행법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "임금채권 보장을 위한 대지급금, 대지급금의 청구 및 지급, 대지급금둥의 부당이득 환수",
+      "article": "「임금채권보장법」, 「근로기준법」, 「민사집행법」, 「민사조정법」, 「소액사건심판법」, 「산업재해보상보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "지방고용노동관서 진정 또는 고소, 민사절차를 통한 해결",
+      "article": "「근로기준법」, 「근로감독관집무규정」, 「소액사건심판법」, 「민사소송법」, 「법률구조법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=4&cnpClsNo=1"
+    }
+  ]
+}

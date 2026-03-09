@@ -1,0 +1,40 @@
+{
+  "csmSeq": 616,
+  "domainId": "bankruptcy",
+  "name": "개인파산·면책절차",
+  "fetchedAt": "2026-03-07T15:06:44.097Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=616",
+  "totalRefs": 6,
+  "refs": [
+    {
+      "lawName": "개인파산ㆍ면책절차 개관, 개인파산ㆍ면책절차 법제 개관",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「민법」, 「개인파산 및 면책신청사건의 처리에 관한 예규」, 개인파산 및 면책의 동시신청에 관한 안내문",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "법률구조 및 소송구조제도",
+      "article": "「법률구조법」, 「소송구조제도의 운영에 관한 예규」, 「법률구조사건처리규칙」, 「법률구조사건 처리규칙 시행규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "신청서 작성, 진술서 작성, 채권자목록 작성, 재산목록 작성, 현재의 수입상황 작성, 수입 및 지출에 관한 목록 작성",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「채무자 회생 및 파산에 관한 법률 시행령」, 「채무자 회생 및 파산에 관한 규칙」, 「개인파산 및 면책신청사건의 처리에 관한 예규」, 「개인회생사건 처리지침」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "신청비용 등, 관할법원",
+      "article": "「민사소송법」, 「채무자 회생 및 파산에 관한 법률」, 「채무자 회생 및 파산에 관한 규칙」, 「송달료규칙의 시행에 따른 업무처리요령」, 「국내 통상 우편요금 및 우편 이용에 관한 수수료」, 「개인파산 및 면책신청사건의 처리에 관한 예규」 , 「민사접수서류에 붙일 인지액 및 그 편철방법 등에 관한 예규」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "파산선고와 그 효력, 파산선고의  동시폐지, 파산관재인 선임",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「개인파산 및 면책신청사건의 처리에 관한 예규」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "면책심리 및 결정, 면책의 효력 및 취소, 복권",
+      "article": "「채무자 회생 및 파산에 관한 법률」, 「개인파산 및 면책신청사건의 처리에 관한 예규」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=616&ccfNo=4&cciNo=1&cnpClsNo=1"
+    }
+  ]
+}

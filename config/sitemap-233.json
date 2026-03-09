@@ -1,0 +1,359 @@
+{
+  "csmSeq": 233,
+  "domainId": "divorce",
+  "name": "이혼",
+  "crawledAt": "2026-03-08T08:53:38.925Z",
+  "totalPages": 50,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "이혼의 방법과 효과",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "사실혼의 해소",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "사실상 이혼",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "이혼 전 준비사항",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "이혼 시 재산문제 및 자녀문제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "이혼소송을 당한 경우의 대응",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "이혼에 따른 손해배상 및 재산분할",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "이혼에 따른 신분관계의 변화",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "이혼의 무효",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 4,
+      "cnpClsNo": 2,
+      "title": "이혼의 취소",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=4&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 5,
+      "cnpClsNo": 1,
+      "title": "사실혼의 해소와 재산ㆍ자녀문제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=5&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 5,
+      "cnpClsNo": 2,
+      "title": "사실혼 파기에 대한 위자료 청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=5&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 5,
+      "cnpClsNo": 3,
+      "title": "사실혼 부부간 재산분할 청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=5&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 5,
+      "cnpClsNo": 4,
+      "title": "사실혼 부부간 양육비 청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=1&cciNo=5&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "협의이혼",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "협의이혼과 자녀문제 합의",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "협의이혼과 재산문제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "협의이혼의 절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "협의이혼 의사의 철회",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "외국에서의 협의이혼",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "재판상 이혼",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "재판상 이혼 사유",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "유책배우자의 이혼청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "재판상 이혼의 절차",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "공시송달에 의한 이혼",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "외국에서의 이혼소송",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "이혼 상대방의 재산처분 방지 조치",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "재산문제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "혼인파탄에 책임있는 제3자에 대한 위자료 청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "위자료청구권의 행사기간",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "위자료 지급의 강제방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 5,
+      "title": "위자료 지급에 대한 과세",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=1&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "재산분할청구권의 개념",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "재산분할의 대상",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "유책배우자의 재산분할청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "재산분할청구권의 행사기간",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "재산분할에 대한 과세",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 6,
+      "title": "재산명시 및 재산조회제도",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=4&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "자녀문제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "이혼 시 자녀에 대한 양육권",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 3,
+      "title": "친권자 및 양육권자의 변경",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=1&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 1,
+      "cnpClsNo": 4,
+      "title": "양육자의 자녀인도청구",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=1&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "양육자가 아닌 부모의 자녀에 대한 면접교섭권",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "면접교섭의무의 이행 강제 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "자녀에 대한 양육비 부담",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "양육비 지급의 이행 강제 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "이혼 후 자녀의 성(姓)과 본(本) 변경",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 5,
+      "cciNo": 4,
+      "cnpClsNo": 2,
+      "title": "자녀의 성(姓)과 본(本)을 재혼한 배우자의 성과 본으로 바꾸는 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=5&cciNo=4&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "형사문제",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=6&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 6,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "배우자의 가정폭력에 대한 고소",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=6&cciNo=2&cnpClsNo=2"
+    }
+  ]
+}

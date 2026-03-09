@@ -1,0 +1,31 @@
+{
+  "name": "easylaw-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "step0": "ts-node scripts/00-prototype.ts",
+    "step1:discover": "ts-node scripts/01-discover-csmseq.ts",
+    "step1:sitemap": "ts-node scripts/02-crawl-sitemap.ts",
+    "step1:pages": "ts-node scripts/03-crawl-pages.ts",
+    "step1:lawrefs": "ts-node scripts/04-crawl-law-refs.ts",
+    "step1:qna": "ts-node scripts/05-crawl-qna.ts",
+    "step2": "ts-node scripts/06-normalize.ts",
+    "step3": "ts-node scripts/07-extract-facts.ts",
+    "step4": "ts-node scripts/08-extract-amounts.ts",
+    "step5": "ts-node scripts/09-build-engine.ts",
+    "all": "ts-node scripts/00-prototype.ts && ts-node scripts/02-crawl-sitemap.ts && ts-node scripts/03-crawl-pages.ts && ts-node scripts/04-crawl-law-refs.ts && ts-node scripts/05-crawl-qna.ts && ts-node scripts/06-normalize.ts && ts-node scripts/07-extract-facts.ts && ts-node scripts/08-extract-amounts.ts && ts-node scripts/09-build-engine.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^25.3.5",
+    "@types/node-fetch": "^2.6.13",
+    "cheerio": "^1.2.0",
+    "node-fetch": "^2.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

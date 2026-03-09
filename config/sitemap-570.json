@@ -1,0 +1,205 @@
+{
+  "csmSeq": 570,
+  "domainId": "industrial-accident1",
+  "name": "산업재해보상보험 I",
+  "crawledAt": "2026-03-08T08:53:51.046Z",
+  "totalPages": 28,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "산업재해보상보험 알아보기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "업무상 재해",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "산업재해보상 보험급여",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=1&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "산업재해보상보험 가입 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "동일 사업주의 사업에 대한 일괄적용 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "산업재해보상보험료 징수",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "국외 사업에 대한 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "해외파견자에 대한 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "현장실습생에 대한 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 4,
+      "title": "중소기업 사업주등에 대한 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=3&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 5,
+      "title": "「국민기초생활 보장법」상의 수급자에 대한 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=3&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 6,
+      "title": "노무제공자에 대한 특례",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=2&cciNo=3&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "사고로 인한 업무상 재해",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "사업장 안에서의 사고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "사업장 밖에서의 사고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=3&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "그 밖의 행사 중의 사고 등",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=3&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "질병으로 인한 업무상 재해",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "업무상 질병의 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "뇌혈관질병 또는 심장질환의 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "근골격계질병의 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 4,
+      "title": "호흡기계, 신경정신계, 림프조혈기계 질병의 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=4"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 5,
+      "title": "피부, 눈 또는 귀 질병의 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=5"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 6,
+      "title": "간, 감염성 질병의 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=6"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 7,
+      "title": "직업성 암의 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=7"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 8,
+      "title": "급성 중독 등 화학적 요인에 의한 질병의 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=8"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 2,
+      "cnpClsNo": 9,
+      "title": "물리적 요인에 의한 질병의 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=2&cnpClsNo=9"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "진폐에 대한 업무상 질병 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "건강손상자녀에 대한 업무상 재해의 인정기준",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=4&cciNo=4&cnpClsNo=1"
+    }
+  ]
+}

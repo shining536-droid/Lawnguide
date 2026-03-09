@@ -1,0 +1,16 @@
+{
+  "domain": "divorce",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "divorce_type", "affects_facts": [] },
+    { "question_id": "Q002", "field": "spouse_agreement", "affects_facts": [] },
+    { "question_id": "Q003", "field": "children", "affects_facts": [] },
+    { "question_id": "Q004", "field": "custody_issue", "affects_facts": [] },
+    { "question_id": "Q005", "field": "property_status", "affects_facts": [] },
+    { "question_id": "Q006", "field": "domestic_violence", "affects_facts": [] },
+    { "question_id": "Q007", "field": "alimony_issue", "affects_facts": [] },
+    { "question_id": "Q008", "field": "cohabitation", "affects_facts": [] },
+    { "question_id": "Q009", "field": "evidence_status", "affects_facts": [] },
+    { "question_id": "Q010", "field": "urgency", "affects_facts": [] }
+  ]
+}

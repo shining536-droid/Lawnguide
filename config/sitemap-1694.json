@@ -1,0 +1,128 @@
+{
+  "csmSeq": 1694,
+  "domainId": "wage",
+  "name": "임금",
+  "crawledAt": "2026-03-08T08:53:24.843Z",
+  "totalPages": 17,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "임금의 산정",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "평균임금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "통상임금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=1&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "최저임금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=1&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "임금의 지급",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "임금지급 4대 원칙",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 2,
+      "title": "근로자 사망·퇴직시 금품청산",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=2&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 3,
+      "title": "도급사업 등에서의 임금지급",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=2&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "임금대장 작성 및 임금명세서 교부",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "임금의 시효 소멸",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=2&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "임금의 지급보장",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "임금채권 우선변제 방법",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 1,
+      "title": "임금채권보장을 위한 대지급금",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 2,
+      "title": "대지급금의 청구 및 지급",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=3&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 3,
+      "cnpClsNo": 3,
+      "title": "대지급금등의 부당이득 환수",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=3&cnpClsNo=3"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 4,
+      "cnpClsNo": 1,
+      "title": "지방고용노동관서 진정 또는 고소",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 4,
+      "cnpClsNo": 2,
+      "title": "민사절차를 통한 해결",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1694&ccfNo=3&cciNo=4&cnpClsNo=2"
+    }
+  ]
+}

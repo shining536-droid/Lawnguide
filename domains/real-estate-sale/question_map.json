@@ -1,0 +1,15 @@
+{
+  "domain": "real-estate-sale",
+  "version": "2026-03-07",
+  "mappings": [
+    { "question_id": "Q001", "field": "sale_stage", "affects_facts": ["TYPE_CANCEL", "TYPE_REGISTRATION"] },
+    { "question_id": "Q002", "field": "issue_type", "affects_facts": ["TYPE_CANCEL", "TYPE_DEFECT", "TYPE_AGENT", "TYPE_REGISTRATION", "TYPE_DOUBLE"] },
+    { "question_id": "Q003", "field": "property_type", "affects_facts": ["TYPE_DEFECT", "TYPE_REGISTRATION"] },
+    { "question_id": "Q004", "field": "contract_deposit", "affects_facts": ["TYPE_CANCEL"] },
+    { "question_id": "Q005", "field": "counterparty", "affects_facts": ["TYPE_CANCEL", "TYPE_DEFECT", "TYPE_AGENT"] },
+    { "question_id": "Q006", "field": "defect_type", "affects_facts": ["TYPE_DEFECT"] },
+    { "question_id": "Q007", "field": "agent_involvement", "affects_facts": ["TYPE_AGENT"] },
+    { "question_id": "Q008", "field": "damage_amount", "affects_facts": ["TYPE_CANCEL", "TYPE_DEFECT", "TYPE_AGENT", "TYPE_DOUBLE"] },
+    { "question_id": "Q009", "field": "evidence_status", "affects_facts": ["TYPE_CANCEL", "TYPE_DEFECT", "TYPE_AGENT", "TYPE_REGISTRATION", "TYPE_DOUBLE"] }
+  ]
+}

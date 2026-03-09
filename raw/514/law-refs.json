@@ -1,0 +1,90 @@
+{
+  "csmSeq": 514,
+  "domainId": "dismissal",
+  "name": "해고근로자",
+  "fetchedAt": "2026-03-07T15:06:38.127Z",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/SysChartRetrievePLst.laf?csmSeq=514",
+  "totalRefs": 16,
+  "refs": [
+    {
+      "lawName": "근로관계의 종료와 해고, 해고의 제한과 부당해고 구제, 해고근로자 보호 및 지원",
+      "article": "「고용보험법」, 「근로기준법」, 「민법」, 「민사소송법」, 「법률구조법」, 「임금채권보장법」, 「행정소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "해고근로자 법제 개관",
+      "article": "「고용보험법」, 「고용정책기본법」, 「근로기준법」, 「근로자직업능력 개발법」, 「근로자퇴직급여 보장법」, 「노동위원회법」, 「민법」, 「민사소송법」, 「임금채권보장법」, 「행정소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=1&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "해고의 의의와 해고 제한",
+      "article": "「근로기준법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "통상해고, 징계해고, 경영상 이유에 의한 해고",
+      "article": "「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "노동관계법령상 금지되는 해고 사유, 정당한 이유 없는 해고의 금지, 통상해고 및 징계해고 사유의 정당성에 대한 구체적 판단, 경영상 이유에 의한 해고(정리해고)의 정당성에 대한 구체적 판단",
+      "article": "「고용상 연령차별금지 및 고령자고용촉진에 관한 법률」, 「기간제 및 단시간근로자 보호 등에 관한 법률」, 「남녀고용평등과 일·가정 양립 지원에 관한 법률」, 「노동조합 및 노동관계조정법」, 「산업안전보건법」, 「장애인 차별금지 및 권리구제 등에 관한 법률」, 「파견근로자보호 등에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "해고 시기의 제한",
+      "article": "「근로기준법」, 「남녀고용평등과 일·가정 양립 지원에 관한 법률」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=4&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "해고예고, 해고사유 등의 서면 명시, 단체협약ㆍ취업규칙에 따른 절차 준수",
+      "article": "「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=4&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "부당해고 구제 개관",
+      "article": "「근로기준법」, 「노동위원회법」, 「민사소송법」, 「행정소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "지방노동위원회에 대한 부당해고 구제신청, 조사와 심문, 판정, 종결 및 확정",
+      "article": "「근로기준법」, 「노동위원회법」, 「민사소송법」, 「행정소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "지방노동위원회 구제명령 등에 대한 재심",
+      "article": "「근로기준법」, 「노동위원회법」, 「민사소송법」, 「행정소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=3&cnpClsNo=1"
+    },
+    {
+      "lawName": "중앙노동위원회의 재심판정에  대한 행정소송",
+      "article": "「근로기준법」, 「노동위원회법」, 「민사소송법」, 「행정소송법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=4&cnpClsNo=1"
+    },
+    {
+      "lawName": "해고무효확인의 소",
+      "article": "「근로기준법」, 「민법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=5&cciNo=5&cnpClsNo=1"
+    },
+    {
+      "lawName": "사용증명서 발급 및 취업방해 금지 등",
+      "article": "「근로기준법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=6&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "금품청산, 퇴직금의 지급, 미지급 임금ㆍ퇴직금(체불임금) 구제 절차, 임금채권의 지급보장(체당금)",
+      "article": "「근로기준법」, 「민법」, 「민사소송법」, 「민사집행법」, 「법률구조법」 , 「소액사건심판법」, 「임금채권보장법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=6&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "lawName": "실업급여의 의의와 종류, 구직급여, 취업촉진 수당",
+      "article": "「고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률」, 「고용보험법」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=7&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "lawName": "실업자 등에 대한 직업능력개발훈련, 실업자 직업훈련 생계비 대부",
+      "article": "「고용보험법」, 「국민 평생 직업능력 개발법」, 「직업훈련 생계비대부 규정」",
+      "url": "http://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=514&ccfNo=7&cciNo=2&cnpClsNo=1"
+    }
+  ]
+}

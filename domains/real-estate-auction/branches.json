@@ -1,0 +1,43 @@
+{
+  "_draft": true,
+  "domain": "real-estate-auction",
+  "version": "2026-03-08",
+  "resolution_order": ["TYPE_TENANT", "TYPE_BUYER_RIGHTS", "TYPE_DISTRIBUTION", "TYPE_BIDDING", "TYPE_OK"],
+  "types": [
+    {
+      "id": "TYPE_TENANT",
+      "name": "임차인 보호 확인 필요",
+      "description": "경매 대상 부동산에 거주하며 보증금 보호가 필요한 상황",
+      "conditions": { "participant_role": "임차인" },
+      "priority": 1
+    },
+    {
+      "id": "TYPE_BUYER_RIGHTS",
+      "name": "권리분석 검토 필요",
+      "description": "권리분석을 아직 하지 않아 확인이 필요한 상황",
+      "conditions": { "rights_analysis": "아직안함" },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_DISTRIBUTION",
+      "name": "배당·명도 확인 필요",
+      "description": "배당 또는 명도 절차가 진행 중인 상황",
+      "conditions": { "auction_stage": "배당·명도" },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_BIDDING",
+      "name": "입찰 준비 확인 필요",
+      "description": "매수를 희망하며 입찰을 준비하는 상황",
+      "conditions": { "participant_role": "매수희망" },
+      "priority": 4
+    },
+    {
+      "id": "TYPE_OK",
+      "name": "기본 확인",
+      "description": "기타 경매 관련 문의",
+      "conditions": { "problem_type": "기타" },
+      "priority": 5
+    }
+  ]
+}

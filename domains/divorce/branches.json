@@ -1,0 +1,43 @@
+{
+  "_draft": true,
+  "domain": "divorce",
+  "version": "2026-03-08",
+  "resolution_order": ["TYPE_VIOLENCE", "TYPE_CONTESTED", "TYPE_CHILDREN", "TYPE_AGREED", "TYPE_OK"],
+  "types": [
+    {
+      "id": "TYPE_VIOLENCE",
+      "name": "가정폭력 상황 확인 필요",
+      "description": "가정폭력이 있어 긴급 보호 및 법적 조치가 필요할 수 있는 유형",
+      "conditions": { "domestic_violence": ["있음"] },
+      "priority": 1
+    },
+    {
+      "id": "TYPE_CONTESTED",
+      "name": "재판이혼 검토 필요",
+      "description": "배우자가 이혼을 거부하거나 연락이 두절되어 소송이 필요한 유형",
+      "conditions": { "spouse_agreement": ["거부", "연락두절"] },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_CHILDREN",
+      "name": "양육권·양육비 검토 필요",
+      "description": "미성년 자녀가 있어 양육권 및 양육비 관련 확인이 필요한 유형",
+      "conditions": { "children": ["있음"] },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_AGREED",
+      "name": "협의이혼 절차 확인 필요",
+      "description": "쌍방 합의에 의한 협의이혼을 진행할 수 있는 유형",
+      "conditions": { "divorce_type": ["협의이혼"], "spouse_agreement": ["합의됨"] },
+      "priority": 4
+    },
+    {
+      "id": "TYPE_OK",
+      "name": "기본 확인 안내",
+      "description": "기타 문제로 기본적인 확인 사항을 안내하는 유형",
+      "conditions": { "problem_type": ["기타"] },
+      "priority": 5
+    }
+  ]
+}
