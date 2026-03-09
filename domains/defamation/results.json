@@ -4,13 +4,46 @@
   "_TONE_PRINCIPLES": "명령형 대신 안내형 사용. 단정 표현 대신 필요성 안내. 판단이 아닌 경로 안내 톤 유지. 서비스 방향: 초동대응 준비 도구.",
   "_draft": true,
   "domain": "defamation",
-  "version": "2026-03-08",
+  "version": "2026-03-09",
   "results": [
     {
       "type_id": "TYPE_SPREAD",
       "type_name": "대규모 확산 대응 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 대규모 확산 상황에서 확인할 사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "확산된 게시물들의 화면을 모두 캡처하여 보관해보세요",
+          "각 플랫폼별 긴급 삭제 요청을 진행해보세요",
+          "게시물 URL, 작성일시, 작성자 정보를 기록해보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "증거 확보가 최우선",
+          "desc": "게시물이 삭제되면 증거 확보가 어려워집니다. URL, 작성일시, 작성자 정보를 포함한 전체 화면 캡처를 먼저 해두세요."
+        },
+        {
+          "title": "임시조치 신청 활용",
+          "desc": "방송통신심의위원회(1377)에 임시조치를 신청하면 게시물을 임시 차단할 수 있습니다. 정보통신망법 제44조의2에 근거합니다."
+        },
+        {
+          "title": "확산 경로 기록",
+          "desc": "어디서 어디로 확산되었는지 경로를 기록해두면 형사고소나 손해배상 청구 시 피해 규모 입증에 도움이 됩니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "증거 확보", "desc": "캡처·URL 기록", "active": true },
+        { "label": "삭제 요청", "desc": "플랫폼별 신고" },
+        { "label": "임시조치", "desc": "방통심의위 신청" },
+        { "label": "법적 대응", "desc": "고소·손배 청구" }
+      ],
       "actions": {
         "today": [
           "확산된 게시물들의 화면을 모두 캡처하여 보관해보세요",
@@ -27,28 +60,16 @@
           "직접 해명글을 올릴 때는 내용을 신중히 검토해보세요"
         ]
       },
-      "documents": [
-        {
-          "label": "확산된 게시물 전체 캡처",
-          "status": "need",
-          "note": "URL, 일시, 작성자를 포함한 전체 캡처"
-        },
-        {
-          "label": "확산 경로 및 규모 기록",
-          "status": "need",
-          "note": "어디서 어디로 확산되었는지 정리"
-        },
-        {
-          "label": "피해 사실 증빙",
-          "status": "need",
-          "note": "업무 피해, 정신적 피해 등의 증빙 자료"
-        },
-        {
-          "label": "삭제 요청 내역 및 결과",
-          "status": "need",
-          "note": "각 플랫폼별 삭제 요청 현황"
-        }
+      "checklist_priority": [
+        { "label": "확산된 게시물 전체 캡처", "status": "need", "note": "URL, 일시, 작성자를 포함한 전체 캡처" },
+        { "label": "확산 경로 및 규모 기록", "status": "need", "note": "어디서 어디로 확산되었는지 정리" },
+        { "label": "피해 사실 증빙", "status": "need", "note": "업무 피해, 정신적 피해 등의 증빙 자료" }
       ],
+      "checklist_optional": [
+        { "label": "삭제 요청 내역 및 결과", "status": "need", "note": "각 플랫폼별 삭제 요청 현황" },
+        { "label": "공증된 화면 캡처", "status": "need", "note": "공증사무소에서 받은 공증 캡처" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -101,7 +122,40 @@
       "type_id": "TYPE_PRIVACY",
       "type_name": "사생활 침해 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 사생활 침해 관련 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "유출된 개인정보 내용과 게시물을 캡처해보세요",
+          "게시된 플랫폼에 삭제 요청을 진행해보세요",
+          "금융정보가 유출된 경우 즉시 해당 금융기관에 연락해보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "2차 피해 방지가 급선무",
+          "desc": "금융정보, 계정정보가 유출된 경우 비밀번호를 즉시 변경하고 해당 기관에 알려야 합니다."
+        },
+        {
+          "title": "개인정보 침해 신고",
+          "desc": "개인정보보호위원회에 침해 신고를 하면 조사 및 시정 조치를 받을 수 있습니다."
+        },
+        {
+          "title": "증거 보전 후 삭제 요청",
+          "desc": "캡처 등 증거를 먼저 확보한 후 플랫폼과 방송통신심의위원회에 삭제를 요청하세요."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "증거 확보", "desc": "캡처·기록 보존", "active": true },
+        { "label": "피해 방지", "desc": "비밀번호 변경 등" },
+        { "label": "삭제 요청", "desc": "플랫폼·방통심의위" },
+        { "label": "법적 대응", "desc": "신고·고소" }
+      ],
       "actions": {
         "today": [
           "유출된 개인정보 내용과 게시물을 캡처해보세요",
@@ -117,28 +171,16 @@
           "2차 피해 가능성을 확인하고 대비해보세요"
         ]
       },
-      "documents": [
-        {
-          "label": "유출된 개인정보 내용 캡처",
-          "status": "need",
-          "note": "어떤 정보가 유출되었는지 확인"
-        },
-        {
-          "label": "게시물 화면 캡처",
-          "status": "need",
-          "note": "URL, 일시를 포함한 전체 캡처"
-        },
-        {
-          "label": "개인정보 수집 동의서 부재 확인",
-          "status": "need",
-          "note": "동의 없이 수집·공개되었음을 증명"
-        },
-        {
-          "label": "2차 피해 증빙",
-          "status": "need",
-          "note": "금전적 피해 등 2차 피해 자료"
-        }
+      "checklist_priority": [
+        { "label": "유출된 개인정보 내용 캡처", "status": "need", "note": "어떤 정보가 유출되었는지 확인" },
+        { "label": "게시물 화면 캡처", "status": "need", "note": "URL, 일시를 포함한 전체 캡처" },
+        { "label": "개인정보 수집 동의서 부재 확인", "status": "need", "note": "동의 없이 수집·공개되었음을 증명" }
       ],
+      "checklist_optional": [
+        { "label": "2차 피해 증빙", "status": "need", "note": "금전적 피해 등 2차 피해 자료" },
+        { "label": "내용증명 발송 기록", "status": "need", "note": "삭제 요청 서면 기록" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -186,7 +228,40 @@
       "type_id": "TYPE_FALSE",
       "type_name": "허위사실 유포 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 피해가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 허위사실 유포 대응을 위한 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "해당 게시물 화면을 캡처하여 보관해보세요",
+          "게시물 URL, 작성일시, 작성자 정보를 기록해보세요",
+          "허위사실임을 입증할 수 있는 자료를 정리해보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "허위사실 입증 자료 확보",
+          "desc": "게시 내용이 거짓임을 증명할 수 있는 객관적 자료(공문서, 계약서, 진술서 등)를 미리 준비해두세요."
+        },
+        {
+          "title": "화면 캡처 공증 검토",
+          "desc": "공증사무소에서 화면 캡처를 공증받으면 증거력이 높아집니다. 게시물이 삭제되기 전에 진행하세요."
+        },
+        {
+          "title": "형사고소와 민사소송 병행 가능",
+          "desc": "정보통신망법 위반 형사고소와 손해배상 민사소송을 동시에 진행할 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "증거 확보", "desc": "캡처·공증", "active": true },
+        { "label": "반박 준비", "desc": "허위 입증 자료" },
+        { "label": "삭제·임시조치", "desc": "플랫폼 신고" },
+        { "label": "법적 대응", "desc": "고소·손배 청구" }
+      ],
       "actions": {
         "today": [
           "해당 게시물 화면을 캡처하여 보관해보세요",
@@ -202,28 +277,16 @@
           "상대방에게 직접 연락하면 증거 인멸 위험이 있을 수 있습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "게시물 화면 캡처",
-          "status": "need",
-          "note": "URL, 일시를 포함한 전체 캡처"
-        },
-        {
-          "label": "공증된 화면 캡처",
-          "status": "need",
-          "note": "공증사무소에서 받은 공증 캡처"
-        },
-        {
-          "label": "허위사실 입증 자료",
-          "status": "need",
-          "note": "게시 내용이 거짓임을 증명하는 자료"
-        },
-        {
-          "label": "피해 사실 증빙",
-          "status": "need",
-          "note": "업무 피해, 정신과 진료 기록 등"
-        }
+      "checklist_priority": [
+        { "label": "게시물 화면 캡처", "status": "need", "note": "URL, 일시를 포함한 전체 캡처" },
+        { "label": "허위사실 입증 자료", "status": "need", "note": "게시 내용이 거짓임을 증명하는 자료" },
+        { "label": "피해 사실 증빙", "status": "need", "note": "업무 피해, 정신과 진료 기록 등" }
       ],
+      "checklist_optional": [
+        { "label": "공증된 화면 캡처", "status": "need", "note": "공증사무소에서 받은 공증 캡처" },
+        { "label": "목격자 진술서", "status": "need", "note": "허위사실을 확인한 제3자의 진술" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -271,7 +334,40 @@
       "type_id": "TYPE_DELETION",
       "type_name": "삭제 거절 대응 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 삭제 거절에 대한 대응 방법을 정리했습니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "삭제 요청 거절 내역과 사유를 정리해보세요",
+          "해당 게시물 화면을 다시 캡처하여 보관해보세요",
+          "방송통신심의위원회(1377)에 심의 요청을 확인해보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "방송통신심의위원회 시정 요구 활용",
+          "desc": "플랫폼이 삭제를 거절해도 방송통신심의위원회가 시정을 요구하면 플랫폼은 이를 이행해야 합니다."
+        },
+        {
+          "title": "임시조치 신청",
+          "desc": "정보통신망법 제44조의2에 따라 피해자가 신청하면 게시물을 30일간 임시 차단할 수 있습니다."
+        },
+        {
+          "title": "형사고소를 통한 수사기관 협조",
+          "desc": "형사고소를 하면 수사기관이 플랫폼에 자료 제출을 요청할 수 있어 간접적으로 삭제에 도움이 될 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "거절 사유 확인", "desc": "플랫폼 정책 검토", "active": true },
+        { "label": "임시조치 신청", "desc": "방통심의위 요청" },
+        { "label": "시정 요구", "desc": "행정 조치" },
+        { "label": "법적 대응", "desc": "고소·가처분" }
+      ],
       "actions": {
         "today": [
           "삭제 요청 거절 내역과 사유를 정리해보세요",
@@ -287,23 +383,16 @@
           "형사고소를 통해 수사기관의 협조를 받을 수도 있습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "삭제 요청 및 거절 내역",
-          "status": "need",
-          "note": "플랫폼에 요청한 내역과 거절 사유"
-        },
-        {
-          "label": "게시물 화면 캡처",
-          "status": "need",
-          "note": "URL, 일시를 포함한 전체 캡처"
-        },
-        {
-          "label": "피해 사실 증빙",
-          "status": "need",
-          "note": "게시물로 인한 구체적 피해 자료"
-        }
+      "checklist_priority": [
+        { "label": "삭제 요청 및 거절 내역", "status": "need", "note": "플랫폼에 요청한 내역과 거절 사유" },
+        { "label": "게시물 화면 캡처", "status": "need", "note": "URL, 일시를 포함한 전체 캡처" },
+        { "label": "피해 사실 증빙", "status": "need", "note": "게시물로 인한 구체적 피해 자료" }
       ],
+      "checklist_optional": [
+        { "label": "임시조치 신청 기록", "status": "need", "note": "방통심의위 신청 내역" },
+        { "label": "내용증명 발송 기록", "status": "need", "note": "삭제 요청 서면 기록" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {

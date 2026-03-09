@@ -1,13 +1,46 @@
 {
   "_draft": true,
   "domain": "jeonse",
-  "version": "2026-03-08",
+  "version": "2026-03-09",
   "results": [
     {
       "type_id": "TYPE_FRAUD",
       "type_name": "전세사기 의심 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 전세사기 의심 상황에서 확인할 사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "등기부등본을 발급받아 근저당 설정 금액과 소유자를 확인하세요",
+          "전세사기피해지원센터(1533-8119)에 전화하세요",
+          "임대차계약서 원본을 안전한 곳에 보관하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "등기부등본에서 근저당 확인",
+          "desc": "근저당 설정 금액이 매매가에 가깝거나 초과하면 보증금 회수가 어려울 수 있습니다. 인터넷등기소에서 즉시 발급 가능합니다."
+        },
+        {
+          "title": "전입신고·확정일자 유지",
+          "desc": "전입신고와 확정일자가 있어야 우선변제권이 생깁니다. 이사하기 전까지 절대 전입신고를 옮기지 마세요."
+        },
+        {
+          "title": "전세사기 피해자 인정 신청",
+          "desc": "전세사기피해지원센터를 통해 피해자로 인정받으면 경매 유예, 긴급 주거지원 등을 받을 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "상황 파악", "desc": "등기부등본 확인", "active": true },
+        { "label": "증거 확보", "desc": "서류 정리·보관" },
+        { "label": "피해 신고", "desc": "지원센터 상담" },
+        { "label": "법적 조치", "desc": "법률구조 신청" }
+      ],
       "actions": {
         "today": [
           "임대차계약서와 등기부등본을 함께 준비해 확인해보세요",
@@ -24,43 +57,18 @@
           "계약서 원본과 입금 영수증은 안전하게 보관하세요"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 또는 사본"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "최근 발급분"
-        },
-        {
-          "label": "전입세대확인서",
-          "status": "need",
-          "note": "주민센터 발급"
-        },
-        {
-          "label": "확정일자부여확인서",
-          "status": "need",
-          "note": "우선변제권 확인용"
-        },
-        {
-          "label": "보증보험증서",
-          "status": "need",
-          "note": "가입한 경우"
-        },
-        {
-          "label": "내용증명",
-          "status": "need",
-          "note": "발송했다면 사본"
-        },
-        {
-          "label": "보증금 입금 확인서",
-          "status": "need",
-          "note": "계좌이체 내역 등"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "원본 필수" },
+        { "label": "등기부등본", "status": "need", "note": "최근 발급분 (인터넷등기소)" },
+        { "label": "전입세대확인서", "status": "need", "note": "주민센터 발급" },
+        { "label": "확정일자부여확인서", "status": "need", "note": "우선변제권 확인용" }
       ],
+      "checklist_optional": [
+        { "label": "보증보험증서", "status": "need", "note": "가입한 경우" },
+        { "label": "내용증명", "status": "need", "note": "발송했다면 사본" },
+        { "label": "보증금 입금 확인서", "status": "need", "note": "계좌이체 내역 등" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -107,7 +115,40 @@
       "type_id": "TYPE_AUCTION",
       "type_name": "경매·공매 관련 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 경매 관련 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "경매 통지서에서 배당요구종기일을 확인하세요",
+          "배당요구종기일 전에 배당요구 신청이 필요합니다",
+          "등기부등본을 발급받아 현재 권리 상태를 확인하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "배당요구종기일 확인",
+          "desc": "배당요구종기일까지 배당요구를 해야 경매 배당에 참가할 수 있습니다. 이 기한을 놓치면 배당을 받을 수 없습니다."
+        },
+        {
+          "title": "전입신고 유지 필수",
+          "desc": "이사하기 전에 전입신고를 옮기면 대항력을 잃어 보증금을 보호받기 어렵습니다."
+        },
+        {
+          "title": "소액임차인 최우선변제 확인",
+          "desc": "보증금이 일정 금액 이하이면 다른 담보물권자보다 먼저 변제받을 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "경매 통지", "desc": "배당요구종기 확인", "active": true },
+        { "label": "배당요구", "desc": "기한 내 신청" },
+        { "label": "경매 진행", "desc": "입찰·낙찰" },
+        { "label": "배당", "desc": "보증금 수령" }
+      ],
       "actions": {
         "today": [
           "경매 통지서(배당요구종기 기한)를 확인해보세요",
@@ -124,38 +165,17 @@
           "이사하기 전에 전입신고를 유지해야 대항력이 유지됩니다"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 또는 사본"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "최근 발급분"
-        },
-        {
-          "label": "전입세대확인서",
-          "status": "need",
-          "note": "대항력 확인용"
-        },
-        {
-          "label": "확정일자부여확인서",
-          "status": "need",
-          "note": "우선변제권 확인용"
-        },
-        {
-          "label": "경매 통지서",
-          "status": "need",
-          "note": "법원에서 받은 통지"
-        },
-        {
-          "label": "보증보험증서",
-          "status": "need",
-          "note": "가입한 경우"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "원본 또는 사본" },
+        { "label": "등기부등본", "status": "need", "note": "최근 발급분" },
+        { "label": "경매 통지서", "status": "need", "note": "법원에서 받은 통지" },
+        { "label": "전입세대확인서", "status": "need", "note": "대항력 확인용" }
       ],
+      "checklist_optional": [
+        { "label": "확정일자부여확인서", "status": "need", "note": "우선변제권 확인용" },
+        { "label": "보증보험증서", "status": "need", "note": "가입한 경우" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -202,7 +222,39 @@
       "type_id": "TYPE_UNREACHABLE",
       "type_name": "임대인 연락 두절 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 해보세요",
+        "items": [
+          "등기부등본을 발급받아 임대인(소유자) 정보를 확인하세요",
+          "지금까지 연락 시도한 기록(문자, 카카오톡)을 캡처해 저장하세요",
+          "내용증명 발송을 준비하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "내용증명 발송",
+          "desc": "보증금 반환을 공식적으로 요구하는 서면입니다. 등기우편으로 보내야 하고, 발송 기록이 법적 증거가 됩니다."
+        },
+        {
+          "title": "등기부등본 권리 변동 확인",
+          "desc": "근저당·가압류가 새로 설정되었다면 임대인의 재정 상태가 악화된 것일 수 있으니 빠른 조치가 필요합니다."
+        },
+        {
+          "title": "임차권등기명령 검토",
+          "desc": "이사를 해야 한다면 임차권등기명령을 통해 이사 후에도 대항력·우선변제권을 유지할 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "연락 시도", "desc": "문자·카톡 기록", "active": true },
+        { "label": "내용증명", "desc": "서면 요구" },
+        { "label": "조정 신청", "desc": "분쟁조정위원회" },
+        { "label": "법적 조치", "desc": "소송·지급명령" }
+      ],
       "actions": {
         "today": [
           "등기부등본을 발급받아 임대인(소유자) 정보를 확인해보세요",
@@ -219,43 +271,18 @@
           "계약서 원본을 분실하지 않도록 사본을 따로 보관하세요"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 또는 사본"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "최근 발급분"
-        },
-        {
-          "label": "전입세대확인서",
-          "status": "need",
-          "note": "대항력 확인용"
-        },
-        {
-          "label": "확정일자부여확인서",
-          "status": "need",
-          "note": "우선변제권 확인용"
-        },
-        {
-          "label": "내용증명",
-          "status": "need",
-          "note": "발송 준비 또는 사본"
-        },
-        {
-          "label": "보증금 입금 확인서",
-          "status": "need",
-          "note": "계좌이체 내역"
-        },
-        {
-          "label": "연락 시도 기록",
-          "status": "need",
-          "note": "문자·카카오톡 캡처 등"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "원본 또는 사본" },
+        { "label": "등기부등본", "status": "need", "note": "최근 발급분" },
+        { "label": "내용증명", "status": "need", "note": "발송 준비 또는 사본" },
+        { "label": "보증금 입금 확인서", "status": "need", "note": "계좌이체 내역" }
       ],
+      "checklist_optional": [
+        { "label": "전입세대확인서", "status": "need", "note": "대항력 확인용" },
+        { "label": "확정일자부여확인서", "status": "need", "note": "우선변제권 확인용" },
+        { "label": "연락 시도 기록", "status": "need", "note": "문자·카카오톡 캡처 등" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -273,7 +300,7 @@
           {
             "type": "변호사",
             "note": "이 유형의 사안을 다루는 변호사 보기 (광고 포함)",
-            "description": "보증금 반환, 전세사기 피해지원 관련 상담 가능 여부를 확인해볼 수 있습니다"
+            "description": "보증금 반환 청구, 임차권등기명령 등 관련 상담 가능 여부를 확인해볼 수 있습니다"
           }
         ]
       },
@@ -293,7 +320,34 @@
       "type_id": "TYPE_UNREGISTERED",
       "type_name": "대항력 미확보 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "전입신고가 {move_in_report} 상태이시군요. 대항력 확보를 위한 조치사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 해보세요",
+        "items": [
+          "주민센터에서 전입신고를 하세요",
+          "전입신고 후 확정일자도 함께 받으세요",
+          "등기부등본을 발급받아 권리 상태를 확인하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "전입신고는 익일 0시부터 효력 발생",
+          "desc": "전입신고를 하면 다음 날 0시부터 대항력이 생깁니다. 하루라도 빨리 신고하는 것이 중요합니다."
+        },
+        {
+          "title": "확정일자로 우선변제권 확보",
+          "desc": "전입신고 후 확정일자까지 받아야 경매 시 다른 채권자보다 먼저 보증금을 받을 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "전입신고", "desc": "주민센터 방문", "active": true },
+        { "label": "확정일자", "desc": "우선변제권 확보" },
+        { "label": "보증보험", "desc": "HUG 가입 검토" }
+      ],
       "actions": {
         "today": [
           "가능하다면 주민센터에서 전입신고를 해보세요",
@@ -309,33 +363,16 @@
           "전입신고는 익일 0시부터 효력이 발생하니 참고하세요"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 필요"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "최근 발급분"
-        },
-        {
-          "label": "전입세대확인서",
-          "status": "need",
-          "note": "전입신고 후 발급"
-        },
-        {
-          "label": "확정일자부여확인서",
-          "status": "need",
-          "note": "전입신고 후 신청"
-        },
-        {
-          "label": "보증보험증서",
-          "status": "need",
-          "note": "가입 검토"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "원본 필요" },
+        { "label": "등기부등본", "status": "need", "note": "최근 발급분" },
+        { "label": "전입세대확인서", "status": "need", "note": "전입신고 후 발급" }
       ],
+      "checklist_optional": [
+        { "label": "확정일자부여확인서", "status": "need", "note": "전입신고 후 신청" },
+        { "label": "보증보험증서", "status": "need", "note": "가입 검토" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -353,7 +390,7 @@
           {
             "type": "변호사",
             "note": "이 유형의 사안을 다루는 변호사 보기 (광고 포함)",
-            "description": "보증금 반환, 전세사기 피해지원 관련 상담 가능 여부를 확인해볼 수 있습니다"
+            "description": "대항력 확보, 보증금 보호 관련 상담 가능 여부를 확인해볼 수 있습니다"
           }
         ]
       },
@@ -373,7 +410,40 @@
       "type_id": "TYPE_DEPOSIT",
       "type_name": "보증금 반환 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 보증금 반환을 위한 준비사항을 정리했습니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "임대차계약서에서 계약 종료일과 반환 조건을 확인하세요",
+          "등기부등본을 발급받아 소유자와 권리 상태를 확인하세요",
+          "보증금 입금 내역(계좌이체 기록)을 정리하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "내용증명으로 서면 요구",
+          "desc": "보증금 반환을 공식적으로 요구하는 첫 단계입니다. 등기우편으로 발송하면 법적 증거가 됩니다."
+        },
+        {
+          "title": "임차권등기명령 활용",
+          "desc": "이사를 해야 하는 경우 임차권등기명령을 신청하면 이사 후에도 대항력·우선변제권을 유지할 수 있습니다."
+        },
+        {
+          "title": "분쟁조정위원회 조정 신청",
+          "desc": "소송 전 단계로 주택임대차분쟁조정위원회(1644-7788)에 조정을 신청할 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "서면 요구", "desc": "내용증명 발송", "active": true },
+        { "label": "조정 신청", "desc": "분쟁조정위원회" },
+        { "label": "지급명령", "desc": "법원 신청" },
+        { "label": "강제집행", "desc": "보증금 회수" }
+      ],
       "actions": {
         "today": [
           "임대차계약서에서 계약 종료일과 보증금 반환 조건을 확인해보세요",
@@ -391,43 +461,18 @@
           "보증금 반환 청구권의 소멸시효는 10년이지만, 빨리 조치할수록 좋습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 또는 사본"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "최근 발급분"
-        },
-        {
-          "label": "전입세대확인서",
-          "status": "need",
-          "note": "대항력 확인용"
-        },
-        {
-          "label": "확정일자부여확인서",
-          "status": "need",
-          "note": "우선변제권 확인용"
-        },
-        {
-          "label": "내용증명",
-          "status": "need",
-          "note": "발송 준비"
-        },
-        {
-          "label": "보증보험증서",
-          "status": "need",
-          "note": "가입한 경우"
-        },
-        {
-          "label": "보증금 입금 확인서",
-          "status": "need",
-          "note": "계좌이체 내역"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "원본 또는 사본" },
+        { "label": "등기부등본", "status": "need", "note": "최근 발급분" },
+        { "label": "내용증명", "status": "need", "note": "발송 준비" },
+        { "label": "보증금 입금 확인서", "status": "need", "note": "계좌이체 내역" }
       ],
+      "checklist_optional": [
+        { "label": "전입세대확인서", "status": "need", "note": "대항력 확인용" },
+        { "label": "확정일자부여확인서", "status": "need", "note": "우선변제권 확인용" },
+        { "label": "보증보험증서", "status": "need", "note": "가입한 경우" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -450,7 +495,7 @@
           {
             "type": "변호사",
             "note": "이 유형의 사안을 다루는 변호사 보기 (광고 포함)",
-            "description": "보증금 반환, 전세사기 피해지원 관련 상담 가능 여부를 확인해볼 수 있습니다"
+            "description": "보증금 반환 청구, 임차권등기명령, 지급명령 신청 등 관련 상담 가능 여부를 확인해볼 수 있습니다"
           }
         ]
       },

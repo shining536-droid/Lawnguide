@@ -109,13 +109,36 @@ export interface RelatedSystem {
   description: string;
 }
 
+export interface KeyCheckpoint {
+  title: string;
+  desc: string;
+}
+
+export interface TimelineStep {
+  label: string;
+  desc: string;
+  active?: boolean;
+}
+
+export interface FirstAction {
+  title: string;
+  items: string[];
+  buttons?: { label: string; target: string }[];
+}
+
 export interface ResultEntry {
   type_id: string;
   type_name: string;
   status_summary: string;
+  status_summary_template?: string;
   risk_level: string;
+  first_action?: FirstAction;
+  key_checkpoints?: KeyCheckpoint[];
+  timeline_steps?: TimelineStep[];
   actions: ResultAction;
   documents: string[] | DocumentItem[];
+  checklist_priority?: DocumentItem[];
+  checklist_optional?: DocumentItem[];
   related_systems: RelatedSystem[];
   connections: {
     public: Connection[];
@@ -123,6 +146,7 @@ export interface ResultEntry {
   };
   legal_basis: string[];
   disclaimer: string;
+  safety_warning?: string;
 }
 
 export interface ResultsFile {

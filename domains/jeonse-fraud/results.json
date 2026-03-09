@@ -1,14 +1,47 @@
 {
   "_draft": true,
   "domain": "jeonse-fraud",
-  "version": "2026-03-08",
+  "version": "2026-03-09",
   "results": [
     {
       "type_id": "TYPE_AUCTION",
       "type_name": "경매 대응 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 경매 대응을 위한 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "view": "detailed",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "배당요구 종기일을 확인하세요 (법원 경매정보 사이트에서 조회 가능)",
+          "등기부등본을 발급받아 권리관계와 경매 진행 상황을 확인하세요",
+          "전세사기피해지원센터(1533-8119)에 전화하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "배당요구 종기일 확인",
+          "desc": "배당요구종기일까지 배당요구를 해야 경매 배당에 참가할 수 있습니다. 이 기한을 놓치면 배당에서 제외됩니다."
+        },
+        {
+          "title": "피해자 인정 신청",
+          "desc": "전세사기 피해자로 인정받으면 경매 유예, 우선매수권 등을 신청할 수 있습니다."
+        },
+        {
+          "title": "대항력 유지",
+          "desc": "경매 진행 중 이사하면 대항력이 상실될 수 있으므로 전입신고를 유지해야 합니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "상황 파악", "desc": "경매 통지·배당요구종기 확인", "active": true },
+        { "label": "배당요구", "desc": "기한 내 신청" },
+        { "label": "피해자 인정", "desc": "지원센터 신청" },
+        { "label": "배당·매수", "desc": "보증금 회수" }
+      ],
       "actions": {
         "today": [
           "임대차계약서와 보증금 입금 증빙을 정리해보세요",
@@ -25,33 +58,17 @@
           "경매 진행 중 이사할 경우 대항력이 상실될 수 있으므로 확인이 필요합니다"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 또는 사본을 준비해보세요"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "경매 진행 여부와 권리관계 확인용"
-        },
-        {
-          "label": "보증금 입금 증빙",
-          "status": "need",
-          "note": "계좌이체 내역 등"
-        },
-        {
-          "label": "경매 통지서",
-          "status": "need",
-          "note": "법원에서 받은 통지서"
-        },
-        {
-          "label": "전세사기 피해자 인정서",
-          "status": "need",
-          "note": "발급받은 경우 준비"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "원본 또는 사본을 준비해보세요" },
+        { "label": "등기부등본", "status": "need", "note": "경매 진행 여부와 권리관계 확인용" },
+        { "label": "보증금 입금 증빙", "status": "need", "note": "계좌이체 내역 등" },
+        { "label": "경매 통지서", "status": "need", "note": "법원에서 받은 통지서" }
       ],
+      "checklist_optional": [
+        { "label": "전세사기 피해자 인정서", "status": "need", "note": "발급받은 경우 준비" },
+        { "label": "전입세대확인서", "status": "need", "note": "대항력 확인용" }
+      ],
+      "documents": [],
       "related_systems": [
         {
           "name": "경매 유예",
@@ -98,8 +115,41 @@
       "type_id": "TYPE_EMERGENCY",
       "type_name": "긴급 주거지원 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 긴급 주거지원 관련 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "view": "detailed",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "전세사기피해지원센터(1533-8119)에 긴급 주거지원 상담을 신청하세요",
+          "LH 긴급 주거지원 제도를 확인하세요",
+          "임대차계약서와 보증금 입금 증빙을 정리하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "긴급 주거지원 신청",
+          "desc": "전세사기 피해자로 인정받으면 LH 임대주택 등 긴급 주거지원을 받을 수 있습니다."
+        },
+        {
+          "title": "긴급복지 지원 확인",
+          "desc": "주거지원뿐 아니라 생계지원, 의료지원 등도 긴급복지지원법에 따라 받을 수 있습니다."
+        },
+        {
+          "title": "증거자료 보존",
+          "desc": "긴급 상황에서도 계약서, 입금내역 등 증거자료를 보존해두어야 이후 법적 구제에 활용할 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "긴급 상담", "desc": "지원센터 연락", "active": true },
+        { "label": "피해 신고", "desc": "피해자 인정 신청" },
+        { "label": "주거 지원", "desc": "임대주택 배정" },
+        { "label": "법적 조치", "desc": "보증금 회수 절차" }
+      ],
       "actions": {
         "today": [
           "전세사기피해지원센터(1533-8119)에 긴급 주거지원 상담을 신청해볼 수 있습니다",
@@ -115,33 +165,16 @@
           "다른 피해자가 있다면 공동 대응이 도움이 될 수 있습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 또는 사본을 준비해보세요"
-        },
-        {
-          "label": "보증금 입금 증빙",
-          "status": "need",
-          "note": "계좌이체 내역 등"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "권리관계 확인용"
-        },
-        {
-          "label": "주민등록등본",
-          "status": "need",
-          "note": "긴급복지 신청 시 필요"
-        },
-        {
-          "label": "소득 증빙",
-          "status": "need",
-          "note": "긴급복지 신청 시 필요"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "원본 또는 사본을 준비해보세요" },
+        { "label": "보증금 입금 증빙", "status": "need", "note": "계좌이체 내역 등" },
+        { "label": "등기부등본", "status": "need", "note": "권리관계 확인용" }
       ],
+      "checklist_optional": [
+        { "label": "주민등록등본", "status": "need", "note": "긴급복지 신청 시 필요" },
+        { "label": "소득 증빙", "status": "need", "note": "긴급복지 신청 시 필요" }
+      ],
+      "documents": [],
       "related_systems": [
         {
           "name": "긴급복지 지원",
@@ -188,8 +221,37 @@
       "type_id": "TYPE_FRAUD_REPORT",
       "type_name": "피해 신고 후 절차 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 피해 신고 후 절차를 확인해보세요.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
       "view": "detailed",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "경찰 신고 접수증과 피해자 인정 신청서 사본을 정리하세요",
+          "피해자 인정 신청 진행 상황을 확인하세요",
+          "전세사기피해지원센터(1533-8119)에 추가 지원 제도를 문의하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "피해자 인정 절차 확인",
+          "desc": "피해자로 인정되면 경매 유예, 우선매수권, 법률지원 등 다양한 지원을 받을 수 있습니다."
+        },
+        {
+          "title": "무료 법률지원 활용",
+          "desc": "법률구조공단에서 소송대리를 무료로 지원받을 수 있으므로 적극 활용하세요."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "피해 신고", "desc": "경찰·지원센터", "active": true },
+        { "label": "피해자 인정", "desc": "심사·결정" },
+        { "label": "법률 지원", "desc": "소송대리 신청" },
+        { "label": "피해 구제", "desc": "보증금 회수" }
+      ],
       "actions": {
         "today": [
           "경찰 신고 접수증을 찾아 준비해보세요",
@@ -205,28 +267,16 @@
           "관련 서류를 잘 보관해두세요"
         ]
       },
-      "documents": [
-        {
-          "label": "경찰신고접수증",
-          "status": "need",
-          "note": "신고 접수 번호 확인"
-        },
-        {
-          "label": "피해사실확인서",
-          "status": "need",
-          "note": "피해자 인정 신청 시 필요"
-        },
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 또는 사본"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "권리관계 확인용"
-        }
+      "checklist_priority": [
+        { "label": "경찰신고접수증", "status": "need", "note": "신고 접수 번호 확인" },
+        { "label": "피해사실확인서", "status": "need", "note": "피해자 인정 신청 시 필요" },
+        { "label": "임대차계약서", "status": "need", "note": "원본 또는 사본" }
       ],
+      "checklist_optional": [
+        { "label": "등기부등본", "status": "need", "note": "권리관계 확인용" },
+        { "label": "보증금 입금 증빙", "status": "need", "note": "계좌이체 내역 등" }
+      ],
+      "documents": [],
       "related_systems": [
         {
           "name": "전세사기 피해자 인정",
@@ -273,8 +323,41 @@
       "type_id": "TYPE_FRAUD_SUSPECT",
       "type_name": "사기 유형 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "view": "detailed",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "등기부등본을 발급받아 근저당·가압류·소유권 변동을 확인하세요",
+          "사기 정황 증빙(문자, 카톡, 녹음 등)을 보존하세요",
+          "전세사기피해지원센터(1533-8119)에 먼저 상담하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "등기부등본 권리 분석",
+          "desc": "근저당 설정 금액, 가압류 여부, 소유권 변동 등을 확인하여 사기 정황을 파악할 수 있습니다."
+        },
+        {
+          "title": "증거 확보가 최우선",
+          "desc": "문자, 카톡, 녹음, 허위 설명 등 사기 정황 증거를 보존해야 형사고소와 민사소송에 활용할 수 있습니다."
+        },
+        {
+          "title": "전입신고·확정일자 유지",
+          "desc": "전입신고와 확정일자가 있어야 우선변제권이 유지됩니다. 이사 전까지 유지하세요."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "상황 파악", "desc": "등기부등본·증거 확인", "active": true },
+        { "label": "증거 확보", "desc": "정황 증빙 보존" },
+        { "label": "피해 신고", "desc": "지원센터·경찰" },
+        { "label": "법적 조치", "desc": "형사고소·민사소송" }
+      ],
       "actions": {
         "today": [
           "임대차계약서와 보증금 입금 증빙을 정리해보세요",
@@ -290,33 +373,17 @@
           "합의 요구가 있더라도 충분히 검토한 후 결정하는 것이 좋습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "원본 또는 사본"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "근저당, 가압류, 소유권 변동 확인"
-        },
-        {
-          "label": "보증금 입금 증빙",
-          "status": "need",
-          "note": "계좌이체 내역 등"
-        },
-        {
-          "label": "전입세대확인서",
-          "status": "need",
-          "note": "전입신고 유지 확인용"
-        },
-        {
-          "label": "사기 정황 증빙",
-          "status": "need",
-          "note": "문자, 카톡, 녹음 등"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "원본 또는 사본" },
+        { "label": "등기부등본", "status": "need", "note": "근저당, 가압류, 소유권 변동 확인" },
+        { "label": "보증금 입금 증빙", "status": "need", "note": "계좌이체 내역 등" },
+        { "label": "사기 정황 증빙", "status": "need", "note": "문자, 카톡, 녹음 등" }
       ],
+      "checklist_optional": [
+        { "label": "전입세대확인서", "status": "need", "note": "전입신고 유지 확인용" },
+        { "label": "확정일자부여확인서", "status": "need", "note": "우선변제권 확인용" }
+      ],
+      "documents": [],
       "related_systems": [
         {
           "name": "전세사기 피해자 지원 특별법",

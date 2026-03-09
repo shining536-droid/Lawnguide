@@ -1,13 +1,46 @@
 {
   "_draft": true,
   "domain": "inheritance",
-  "version": "2026-03-08",
+  "version": "2026-03-09",
   "results": [
     {
       "type_id": "TYPE_DEBT",
       "type_name": "채무 상속 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 채무 상속 관련 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "상속포기·한정승인 기한(상속 개시를 안 날로부터 3개월)을 확인하세요",
+          "금융감독원 상속인 금융조회 서비스(1332)로 채무를 조회하세요",
+          "상속재산을 처분하지 마세요 (단순승인으로 간주될 수 있습니다)"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "3개월 기한 엄수",
+          "desc": "상속 개시를 안 날로부터 3개월 이내에 상속포기 또는 한정승인을 신청해야 합니다. 기한을 넘기면 단순승인으로 간주됩니다."
+        },
+        {
+          "title": "상속재산 처분 금지",
+          "desc": "상속재산을 사용하거나 처분하면 단순승인으로 간주될 수 있습니다. 포기·한정승인 전까지 재산에 손대지 마세요."
+        },
+        {
+          "title": "다음 순위 상속인 안내",
+          "desc": "상속포기 시 다음 순위 상속인에게 채무가 이전됩니다. 가족 전체가 함께 상의하고 진행해야 합니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "채무 조회", "desc": "금융감독원 조회", "active": true },
+        { "label": "서류 준비", "desc": "가족관계증명서 등" },
+        { "label": "법원 신청", "desc": "포기·한정승인" },
+        { "label": "결정", "desc": "법원 심판" }
+      ],
       "actions": {
         "today": [
           "피상속인의 채무 내역을 정리해보세요",
@@ -26,33 +59,17 @@
           "상속재산을 처분하면 단순승인으로 간주될 수 있으므로 주의가 필요합니다"
         ]
       },
-      "documents": [
-        {
-          "label": "사망진단서",
-          "status": "need",
-          "note": "사망 사실 확인을 위해 준비해보세요"
-        },
-        {
-          "label": "가족관계증명서",
-          "status": "need",
-          "note": "상속인 확인을 위해 준비해보세요"
-        },
-        {
-          "label": "기본증명서",
-          "status": "need",
-          "note": "피상속인의 기본증명서를 준비해보세요"
-        },
-        {
-          "label": "채무 내역",
-          "status": "need",
-          "note": "피상속인의 채무를 조회·정리해보세요"
-        },
-        {
-          "label": "금융조회 결과",
-          "status": "need",
-          "note": "금융감독원 상속인 금융조회를 해보세요"
-        }
+      "checklist_priority": [
+        { "label": "사망진단서", "status": "need", "note": "사망 사실 확인을 위해 준비해보세요" },
+        { "label": "가족관계증명서", "status": "need", "note": "상속인 확인을 위해 준비해보세요" },
+        { "label": "기본증명서", "status": "need", "note": "피상속인의 기본증명서를 준비해보세요" },
+        { "label": "채무 내역", "status": "need", "note": "피상속인의 채무를 조회·정리해보세요" }
       ],
+      "checklist_optional": [
+        { "label": "금융조회 결과", "status": "need", "note": "금융감독원 상속인 금융조회를 해보세요" },
+        { "label": "부동산 등기부등본", "status": "need", "note": "상속재산 중 부동산 확인용" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -95,7 +112,40 @@
       "type_id": "TYPE_RENUNCIATION",
       "type_name": "상속포기·한정승인 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 상속포기·한정승인 절차를 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "상속 개시를 안 날로부터 3개월 이내인지 기한을 확인하세요",
+          "피상속인의 재산과 채무를 조사하세요",
+          "가족관계증명서, 기본증명서 등 필요 서류를 준비하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "상속포기와 한정승인의 차이",
+          "desc": "상속포기는 처음부터 상속인이 아닌 것으로 봅니다. 한정승인은 상속받은 재산 범위 내에서만 채무를 변제합니다."
+        },
+        {
+          "title": "특별한정승인 가능성 확인",
+          "desc": "상속채무가 상속재산을 초과하는 사실을 중대한 과실 없이 알지 못한 경우, 그 사실을 안 날로부터 3개월 이내에 신청할 수 있습니다."
+        },
+        {
+          "title": "가족 전체 포기 필요성 검토",
+          "desc": "상속포기 시 다음 순위 상속인에게 상속이 이전됩니다. 미성년 자녀가 있다면 특별대리인 선임이 필요할 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "기한 확인", "desc": "3개월 기한 계산", "active": true },
+        { "label": "재산·채무 조사", "desc": "금융조회 등" },
+        { "label": "법원 신청", "desc": "포기·한정승인" },
+        { "label": "결정", "desc": "법원 심판" }
+      ],
       "actions": {
         "today": [
           "상속 개시를 안 날로부터 3개월 이내인지 기한을 확인해보세요",
@@ -114,28 +164,16 @@
           "상속재산을 사용하거나 처분하면 단순승인으로 간주될 수 있습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "가족관계증명서",
-          "status": "need",
-          "note": "상속인 확인을 위해 준비해보세요"
-        },
-        {
-          "label": "기본증명서",
-          "status": "need",
-          "note": "피상속인의 기본증명서를 준비해보세요"
-        },
-        {
-          "label": "사망진단서",
-          "status": "need",
-          "note": "사망 사실 확인을 위해 준비해보세요"
-        },
-        {
-          "label": "상속재산 목록",
-          "status": "need",
-          "note": "재산과 채무를 정리해보세요"
-        }
+      "checklist_priority": [
+        { "label": "가족관계증명서", "status": "need", "note": "상속인 확인을 위해 준비해보세요" },
+        { "label": "기본증명서", "status": "need", "note": "피상속인의 기본증명서를 준비해보세요" },
+        { "label": "사망진단서", "status": "need", "note": "사망 사실 확인을 위해 준비해보세요" }
       ],
+      "checklist_optional": [
+        { "label": "상속재산 목록", "status": "need", "note": "재산과 채무를 정리해보세요" },
+        { "label": "금융조회 결과", "status": "need", "note": "금융감독원 조회 결과" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -182,7 +220,40 @@
       "type_id": "TYPE_WILL_DISPUTE",
       "type_name": "유언장 관련 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 유언장 관련 확인사항을 정리했습니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "유언장 원본을 확보하고 보관 상태를 확인하세요",
+          "유언장의 형식(자필, 공정, 비밀 등)을 확인하세요",
+          "유류분 침해 여부를 확인하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "유언장 형식 요건 확인",
+          "desc": "자필증서 유언은 전문, 날짜, 주소, 성명을 자필로 쓰고 날인해야 합니다. 형식 요건이 충족되지 않으면 효력이 없습니다."
+        },
+        {
+          "title": "유언 검인 절차",
+          "desc": "자필증서 유언의 경우 가정법원에 검인을 신청해야 합니다. 유언장의 상태를 공적으로 확인하는 절차입니다."
+        },
+        {
+          "title": "유류분 반환 청구 기한",
+          "desc": "유류분 반환 청구 소멸시효는 상속 개시를 안 날로부터 1년입니다. 기한을 놓치지 않도록 확인하세요."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "유언장 확인", "desc": "형식 요건 점검", "active": true },
+        { "label": "검인 신청", "desc": "가정법원" },
+        { "label": "유류분 검토", "desc": "침해 여부 확인" },
+        { "label": "분할 협의", "desc": "상속인 간 합의" }
+      ],
       "actions": {
         "today": [
           "유언장 원본을 확보하고 보관 상태를 확인해보세요",
@@ -201,28 +272,16 @@
           "유언장 원본을 훼손하거나 분실하지 않도록 주의가 필요합니다"
         ]
       },
-      "documents": [
-        {
-          "label": "유언장 원본",
-          "status": "need",
-          "note": "유언장 원본을 확보하고 보관해보세요"
-        },
-        {
-          "label": "가족관계증명서",
-          "status": "need",
-          "note": "상속인 확인을 위해 준비해보세요"
-        },
-        {
-          "label": "기본증명서",
-          "status": "need",
-          "note": "피상속인의 기본증명서를 준비해보세요"
-        },
-        {
-          "label": "상속재산 목록",
-          "status": "need",
-          "note": "상속재산을 정리해보세요"
-        }
+      "checklist_priority": [
+        { "label": "유언장 원본", "status": "need", "note": "유언장 원본을 확보하고 보관해보세요" },
+        { "label": "가족관계증명서", "status": "need", "note": "상속인 확인을 위해 준비해보세요" },
+        { "label": "기본증명서", "status": "need", "note": "피상속인의 기본증명서를 준비해보세요" }
       ],
+      "checklist_optional": [
+        { "label": "상속재산 목록", "status": "need", "note": "상속재산을 정리해보세요" },
+        { "label": "금융조회 결과", "status": "need", "note": "유류분 산정을 위한 재산 파악" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -265,7 +324,40 @@
       "type_id": "TYPE_DIVISION",
       "type_name": "상속재산 분할 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 상속재산 분할 절차를 정리했습니다.",
       "risk_level": "기본 확인 후 준비해보세요",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "상속재산 목록을 정리하세요",
+          "상속인 관계를 정리하고 법정상속분을 확인하세요",
+          "상속세 신고 기한(사망일로부터 6개월)을 확인하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "협의분할 우선 시도",
+          "desc": "상속인 전원의 합의로 분할하는 것이 가장 빠르고 비용이 적게 듭니다. 합의가 어려우면 법원에 조정을 신청할 수 있습니다."
+        },
+        {
+          "title": "상속세 신고 기한 확인",
+          "desc": "사망일로부터 6개월 이내에 상속세를 신고해야 합니다. 기한을 놓치면 가산세가 부과됩니다."
+        },
+        {
+          "title": "사전 증여 재산 확인",
+          "desc": "사전 증여 재산도 상속분 산정에 포함될 수 있습니다. 특별수익에 해당하는지 확인이 필요합니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "재산 파악", "desc": "금융조회·등기확인", "active": true },
+        { "label": "협의 시도", "desc": "상속인 간 합의" },
+        { "label": "조정 신청", "desc": "가정법원 (합의 불가 시)" },
+        { "label": "분할 완료", "desc": "등기이전·세금 신고" }
+      ],
       "actions": {
         "today": [
           "상속재산 목록을 정리해보세요",
@@ -284,28 +376,16 @@
           "사전 증여 재산도 상속분 산정에 포함될 수 있습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "가족관계증명서",
-          "status": "need",
-          "note": "상속인 확인을 위해 준비해보세요"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "부동산 등기부등본을 발급받아 확인해보세요"
-        },
-        {
-          "label": "금융거래내역",
-          "status": "need",
-          "note": "금융감독원 상속인 금융조회를 해보세요"
-        },
-        {
-          "label": "상속재산 목록",
-          "status": "need",
-          "note": "상속재산을 정리해보세요"
-        }
+      "checklist_priority": [
+        { "label": "가족관계증명서", "status": "need", "note": "상속인 확인을 위해 준비해보세요" },
+        { "label": "등기부등본", "status": "need", "note": "부동산 등기부등본을 발급받아 확인해보세요" },
+        { "label": "금융거래내역", "status": "need", "note": "금융감독원 상속인 금융조회를 해보세요" }
       ],
+      "checklist_optional": [
+        { "label": "상속재산 목록", "status": "need", "note": "상속재산을 정리해보세요" },
+        { "label": "사전 증여 내역", "status": "need", "note": "특별수익 확인용" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {

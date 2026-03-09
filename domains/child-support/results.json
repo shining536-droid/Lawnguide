@@ -4,13 +4,46 @@
   "_TONE_PRINCIPLES": "명령형 대신 안내형 사용. 단정 표현 대신 필요성 안내. 판단이 아닌 경로 안내 톤 유지. 서비스 방향: 초동대응 준비 도구.",
   "_draft": true,
   "domain": "child-support",
-  "version": "2026-03-08",
+  "version": "2026-03-09",
   "results": [
     {
       "type_id": "TYPE_ENFORCEMENT",
       "type_name": "강제집행 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 강제집행 관련 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "집행권원(판결문, 조정조서 등)의 원본과 송달증명원을 확인하세요",
+          "양육비이행관리원(1644-6621)에 이행 지원을 신청하세요",
+          "미지급 양육비 금액과 기간을 정리하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "집행권원 확인",
+          "desc": "판결문, 조정조서 등 강제집행의 근거가 되는 집행권원이 있어야 합니다. 송달증명원도 함께 필요합니다."
+        },
+        {
+          "title": "이행명령·감치 신청 가능",
+          "desc": "가정법원에 이행명령을 신청할 수 있고, 불응 시 감치(30일 이내 유치)를 신청할 수 있습니다."
+        },
+        {
+          "title": "양육비이행관리원 활용",
+          "desc": "양육비이행관리원을 통하면 의무자 재산 조회, 이행 지원 등을 받을 수 있습니다. 무료 서비스입니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "집행권원 확인", "desc": "판결문·조서 준비", "active": true },
+        { "label": "이행명령", "desc": "법원 신청" },
+        { "label": "강제집행", "desc": "급여·재산 압류" },
+        { "label": "양육비 수령", "desc": "이행 완료" }
+      ],
       "actions": {
         "today": [
           "집행권원(판결문, 조정조서 등)의 원본과 송달증명원을 확인해보세요",
@@ -27,28 +60,16 @@
           "양육비이행관리원을 통하면 의무자 재산 조회를 지원받을 수 있습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "판결문 또는 조정조서",
-          "status": "need",
-          "note": "강제집행의 근거가 되는 집행권원"
-        },
-        {
-          "label": "송달증명원",
-          "status": "need",
-          "note": "집행권원이 상대방에게 송달되었음을 증명"
-        },
-        {
-          "label": "미지급 양육비 내역",
-          "status": "need",
-          "note": "미지급 금액과 기간을 정리한 자료"
-        },
-        {
-          "label": "의무자 재산 관련 자료",
-          "status": "need",
-          "note": "부동산, 예금, 급여 등 재산 정보"
-        }
+      "checklist_priority": [
+        { "label": "판결문 또는 조정조서", "status": "need", "note": "강제집행의 근거가 되는 집행권원" },
+        { "label": "송달증명원", "status": "need", "note": "집행권원이 상대방에게 송달되었음을 증명" },
+        { "label": "미지급 양육비 내역", "status": "need", "note": "미지급 금액과 기간을 정리한 자료" }
       ],
+      "checklist_optional": [
+        { "label": "의무자 재산 관련 자료", "status": "need", "note": "부동산, 예금, 급여 등 재산 정보" },
+        { "label": "가족관계증명서", "status": "need", "note": "자녀와의 관계를 증명하는 서류" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -95,7 +116,40 @@
       "type_id": "TYPE_NO_AGREEMENT",
       "type_name": "양육비 청구 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 양육비 청구 절차를 정리했습니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "양육비 산정기준표(대법원)를 확인하세요",
+          "자녀의 양육에 필요한 비용 내역을 정리하세요",
+          "양육비이행관리원(1644-6621)에서 양육비 청구 지원을 받아보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "양육비 산정기준표 활용",
+          "desc": "대법원 양육비 산정기준표를 참고하여 적정 양육비를 확인할 수 있습니다. 부모의 소득 수준에 따라 산정됩니다."
+        },
+        {
+          "title": "법원 조서 확보 권장",
+          "desc": "당사자 간 합의서만으로는 강제집행이 어렵습니다. 법원 조정조서나 판결을 받아두면 이행 확보에 유리합니다."
+        },
+        {
+          "title": "과거 양육비도 청구 가능",
+          "desc": "과거에 지출한 양육비도 청구할 수 있습니다. 양육 비용 내역을 보관하는 것이 중요합니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "비용 정리", "desc": "양육비 산정", "active": true },
+        { "label": "청구 준비", "desc": "서류 정리" },
+        { "label": "조정 신청", "desc": "가정법원" },
+        { "label": "이행 확보", "desc": "조서·판결 확보" }
+      ],
       "actions": {
         "today": [
           "양육비 산정기준표(대법원)를 확인해보세요",
@@ -111,28 +165,16 @@
           "합의서보다 법원 조정조서나 판결을 받아두면 이행 확보에 유리합니다"
         ]
       },
-      "documents": [
-        {
-          "label": "양육비 산정기준표",
-          "status": "need",
-          "note": "대법원 기준 적정 양육비 확인용"
-        },
-        {
-          "label": "양육 비용 내역",
-          "status": "need",
-          "note": "교육비, 의료비 등 실제 양육 비용 정리"
-        },
-        {
-          "label": "소득 증빙",
-          "status": "need",
-          "note": "본인과 상대방의 소득 자료"
-        },
-        {
-          "label": "가족관계증명서",
-          "status": "need",
-          "note": "자녀와의 관계를 증명하는 서류"
-        }
+      "checklist_priority": [
+        { "label": "양육비 산정기준표", "status": "need", "note": "대법원 기준 적정 양육비 확인용" },
+        { "label": "양육 비용 내역", "status": "need", "note": "교육비, 의료비 등 실제 양육 비용 정리" },
+        { "label": "소득 증빙", "status": "need", "note": "본인과 상대방의 소득 자료" }
       ],
+      "checklist_optional": [
+        { "label": "가족관계증명서", "status": "need", "note": "자녀와의 관계를 증명하는 서류" },
+        { "label": "과거 양육비 지출 내역", "status": "need", "note": "과거 양육비 청구 시 필요" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -175,7 +217,40 @@
       "type_id": "TYPE_STOPPED",
       "type_name": "지급 중단 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 지급 중단 대응 방법을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "양육비 지급 중단 시점과 사유를 정리하세요",
+          "기존 합의서나 판결문 등 집행권원을 확인하세요",
+          "양육비이행관리원(1644-6621)에 상담을 요청하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "집행권원 유무 확인",
+          "desc": "판결문이나 조정조서가 있으면 바로 이행명령·강제집행을 신청할 수 있습니다. 없으면 먼저 확보해야 합니다."
+        },
+        {
+          "title": "양육비 긴급지원 제도 활용",
+          "desc": "양육비를 받지 못하는 한부모가정에 한시적으로 양육비를 지원하는 제도가 있습니다. 양육비이행관리원에 문의하세요."
+        },
+        {
+          "title": "의무자 소재·재산 파악",
+          "desc": "양육비이행관리원에서 의무자 소재 파악, 재산 조회 등을 지원받을 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "현황 파악", "desc": "중단 시점·사유 정리", "active": true },
+        { "label": "집행권원 확인", "desc": "판결문·합의서" },
+        { "label": "이행 요구", "desc": "이행명령 신청" },
+        { "label": "강제집행", "desc": "압류·감치" }
+      ],
       "actions": {
         "today": [
           "양육비 지급 중단 시점과 사유를 정리해보세요",
@@ -192,28 +267,16 @@
           "한시적 양육비 긴급지원 제도를 활용할 수 있는지 확인해보세요"
         ]
       },
-      "documents": [
-        {
-          "label": "기존 판결문 또는 합의서",
-          "status": "need",
-          "note": "양육비 합의 내용을 확인할 수 있는 서류"
-        },
-        {
-          "label": "양육비 지급 내역",
-          "status": "need",
-          "note": "지급 및 중단 시점을 확인할 수 있는 통장 거래내역"
-        },
-        {
-          "label": "미지급 양육비 내역",
-          "status": "need",
-          "note": "중단 이후 미지급 금액 정리"
-        },
-        {
-          "label": "가족관계증명서",
-          "status": "need",
-          "note": "자녀와의 관계를 증명하는 서류"
-        }
+      "checklist_priority": [
+        { "label": "기존 판결문 또는 합의서", "status": "need", "note": "양육비 합의 내용을 확인할 수 있는 서류" },
+        { "label": "양육비 지급 내역", "status": "need", "note": "지급 및 중단 시점을 확인할 수 있는 통장 거래내역" },
+        { "label": "미지급 양육비 내역", "status": "need", "note": "중단 이후 미지급 금액 정리" }
       ],
+      "checklist_optional": [
+        { "label": "가족관계증명서", "status": "need", "note": "자녀와의 관계를 증명하는 서류" },
+        { "label": "소득 증빙", "status": "need", "note": "긴급지원 신청 시 필요" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {
@@ -256,7 +319,40 @@
       "type_id": "TYPE_NO_TITLE",
       "type_name": "집행권원 확보 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다",
+      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 집행권원 확보 절차를 정리했습니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "기존 합의 내용(합의서, 구두합의 등)을 정리하세요",
+          "양육비 미지급 내역과 양육 비용을 정리하세요",
+          "가정법원에 양육비 청구 조정 신청을 검토하세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "합의서만으로는 강제집행 불가",
+          "desc": "당사자 간 합의서만으로는 강제집행이 어렵습니다. 법원 조정조서나 판결을 받아야 강제집행이 가능합니다."
+        },
+        {
+          "title": "양육비부담조서 작성 검토",
+          "desc": "양육비에 대한 합의 내용을 법원에서 조서로 작성하면 집행권원이 됩니다. 비교적 간단한 절차입니다."
+        },
+        {
+          "title": "양육비이행관리원 활용",
+          "desc": "양육비이행관리원에서 양육비 청구 및 집행권원 확보를 지원받을 수 있습니다. 무료 서비스입니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "현황 정리", "desc": "합의 내용·비용 정리", "active": true },
+        { "label": "조정 신청", "desc": "가정법원" },
+        { "label": "조서 확보", "desc": "집행권원 획득" },
+        { "label": "이행 확보", "desc": "미이행 시 강제집행" }
+      ],
       "actions": {
         "today": [
           "기존 합의 내용(합의서, 구두합의 등)을 정리해보세요",
@@ -272,28 +368,16 @@
           "법원 조정조서나 판결을 받으면 미이행 시 강제집행이 가능합니다"
         ]
       },
-      "documents": [
-        {
-          "label": "기존 양육비 합의서",
-          "status": "need",
-          "note": "기존 합의 내용이 있다면 확인"
-        },
-        {
-          "label": "양육 비용 내역",
-          "status": "need",
-          "note": "실제 양육에 소요되는 비용 정리"
-        },
-        {
-          "label": "소득 증빙",
-          "status": "need",
-          "note": "본인과 상대방의 소득 자료"
-        },
-        {
-          "label": "가족관계증명서",
-          "status": "need",
-          "note": "자녀와의 관계를 증명하는 서류"
-        }
+      "checklist_priority": [
+        { "label": "기존 양육비 합의서", "status": "need", "note": "기존 합의 내용이 있다면 확인" },
+        { "label": "양육 비용 내역", "status": "need", "note": "실제 양육에 소요되는 비용 정리" },
+        { "label": "소득 증빙", "status": "need", "note": "본인과 상대방의 소득 자료" }
       ],
+      "checklist_optional": [
+        { "label": "가족관계증명서", "status": "need", "note": "자녀와의 관계를 증명하는 서류" },
+        { "label": "과거 양육비 지출 내역", "status": "need", "note": "과거 양육비 청구 시 필요" }
+      ],
+      "documents": [],
       "connections": {
         "public": [
           {

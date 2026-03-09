@@ -1,14 +1,47 @@
 {
   "_draft": true,
   "domain": "real-estate-auction",
-  "version": "2026-03-08",
+  "version": "2026-03-09",
   "results": [
     {
       "type_id": "TYPE_TENANT",
       "type_name": "임차인 보호 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 임차인 보호를 위한 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "view": "detailed",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "임대차계약서를 찾아 전입신고일과 확정일자를 확인해보세요",
+          "배당요구 종기일을 법원 경매정보 사이트(court.go.kr)에서 확인해보세요",
+          "등기부등본을 발급받아 말소기준권리 일자를 확인해보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "배당요구 종기일 확인 필수",
+          "desc": "배당요구 종기일까지 법원에 배당요구를 해야 보증금을 배당받을 수 있습니다. 이 기한을 놓치면 배당에서 제외됩니다."
+        },
+        {
+          "title": "대항력 유무 확인",
+          "desc": "전입신고일이 말소기준권리(근저당 등) 설정일보다 앞서야 대항력이 인정됩니다. 대항력이 없으면 보증금 회수가 어려울 수 있습니다."
+        },
+        {
+          "title": "소액임차인 최우선변제 확인",
+          "desc": "보증금이 일정 금액 이하이면 소액임차인으로서 다른 담보물권자보다 먼저 일정 금액을 변제받을 수 있습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "권리 확인", "desc": "대항력·우선변제권", "active": true },
+        { "label": "배당요구", "desc": "종기일 내 신청" },
+        { "label": "경매 진행", "desc": "입찰·낙찰" },
+        { "label": "배당 수령", "desc": "보증금 회수" }
+      ],
       "actions": {
         "today": [
           "임대차계약서를 찾아 전입신고일과 확정일자를 확인해보세요",
@@ -25,33 +58,17 @@
           "대항력이 없는 경우 보증금 회수가 어려울 수 있으므로 빠른 확인이 필요합니다"
         ]
       },
-      "documents": [
-        {
-          "label": "임대차계약서",
-          "status": "need",
-          "note": "전입신고일과 확정일자 확인용"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "말소기준권리 확인용"
-        },
-        {
-          "label": "전입세대확인서",
-          "status": "need",
-          "note": "전입신고 유지 확인용"
-        },
-        {
-          "label": "배당요구서",
-          "status": "need",
-          "note": "배당요구 종기일 내 제출"
-        },
-        {
-          "label": "확정일자 확인서",
-          "status": "need",
-          "note": "우선변제권 확인용"
-        }
+      "checklist_priority": [
+        { "label": "임대차계약서", "status": "need", "note": "전입신고일과 확정일자 확인용" },
+        { "label": "등기부등본", "status": "need", "note": "말소기준권리 확인용" },
+        { "label": "배당요구서", "status": "need", "note": "배당요구 종기일 내 제출" },
+        { "label": "전입세대확인서", "status": "need", "note": "전입신고 유지 확인용" }
       ],
+      "checklist_optional": [
+        { "label": "확정일자 확인서", "status": "need", "note": "우선변제권 확인용" },
+        { "label": "보증보험증서", "status": "need", "note": "가입한 경우" }
+      ],
+      "documents": [],
       "related_systems": [
         {
           "name": "주택임대차보호법",
@@ -94,8 +111,41 @@
       "type_id": "TYPE_BUYER_RIGHTS",
       "type_name": "권리분석 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 관련으로 {progress_stage} 단계이시군요. 권리분석을 위한 확인사항을 정리했습니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
       "view": "detailed",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "등기부등본을 발급받아 근저당·가압류·전세권 등 권리관계를 정리해보세요",
+          "매각물건명세서에서 인수되는 권리가 있는지 확인해보세요",
+          "현황조사보고서에서 점유 상태와 임차인 현황을 확인해보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "말소기준권리 확인",
+          "desc": "말소기준권리보다 앞선 권리는 낙찰 후에도 소멸하지 않고 인수됩니다. 이를 확인하지 않으면 예상치 못한 부담이 생길 수 있습니다."
+        },
+        {
+          "title": "유치권·법정지상권 확인",
+          "desc": "유치권은 경매로 소멸하지 않으므로 반드시 확인해야 합니다. 토지와 건물 소유자가 다른 경우 법정지상권도 검토하세요."
+        },
+        {
+          "title": "현장 방문으로 점유 현황 확인",
+          "desc": "현황조사보고서 작성 이후 점유 상태가 변했을 수 있으므로 직접 현장을 방문하여 확인하는 것이 좋습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "서류 확인", "desc": "등기부·명세서 분석", "active": true },
+        { "label": "권리 분석", "desc": "인수 권리 구분" },
+        { "label": "현장 확인", "desc": "점유·하자 확인" },
+        { "label": "입찰 판단", "desc": "입찰가 산정" }
+      ],
       "actions": {
         "today": [
           "등기부등본을 발급받아 근저당·가압류·전세권 등 권리관계를 정리해보세요",
@@ -112,33 +162,16 @@
           "유치권은 경매로 소멸하지 않으므로 반드시 확인하는 것이 좋습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "권리관계 전체 확인용"
-        },
-        {
-          "label": "매각물건명세서",
-          "status": "need",
-          "note": "인수되는 권리 확인용"
-        },
-        {
-          "label": "현황조사보고서",
-          "status": "need",
-          "note": "점유 상태 및 임차인 확인용"
-        },
-        {
-          "label": "감정평가서",
-          "status": "need",
-          "note": "적정 가격 판단 참고용"
-        },
-        {
-          "label": "토지·건축물대장",
-          "status": "need",
-          "note": "법정지상권 확인용"
-        }
+      "checklist_priority": [
+        { "label": "등기부등본", "status": "need", "note": "권리관계 전체 확인용" },
+        { "label": "매각물건명세서", "status": "need", "note": "인수되는 권리 확인용" },
+        { "label": "현황조사보고서", "status": "need", "note": "점유 상태 및 임차인 확인용" }
       ],
+      "checklist_optional": [
+        { "label": "감정평가서", "status": "need", "note": "적정 가격 판단 참고용" },
+        { "label": "토지·건축물대장", "status": "need", "note": "법정지상권 확인용" }
+      ],
+      "documents": [],
       "related_systems": [
         {
           "name": "말소기준권리",
@@ -181,8 +214,41 @@
       "type_id": "TYPE_DISTRIBUTION",
       "type_name": "배당·명도 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요. 배당·명도 관련 확인사항을 정리했습니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "view": "detailed",
+      "first_action": {
+        "title": "지금 바로 확인하세요",
+        "items": [
+          "배당표를 확인하여 배당 내역을 정리해보세요",
+          "배당기일 또는 인도명령 신청 기한을 확인해보세요",
+          "채권 관련 서류(근저당권설정계약서, 임대차계약서 등)를 준비해보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "배당이의 기한 엄수",
+          "desc": "배당표에 이의가 있으면 배당기일에 출석하여 이의를 진술해야 하고, 배당이의의 소는 배당기일로부터 1주일 이내에 제기해야 합니다."
+        },
+        {
+          "title": "인도명령 신청 기한",
+          "desc": "인도명령은 대금 납부 후 6개월 이내에 신청할 수 있습니다. 기한을 넘기면 별도의 명도소송을 해야 합니다."
+        },
+        {
+          "title": "자력 퇴거 금지",
+          "desc": "자력으로 점유자를 퇴거시키면 주거침입 등의 형사 문제가 생길 수 있으므로 반드시 법적 절차를 따르세요."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "배당 확인", "desc": "배당표·기일 확인", "active": true },
+        { "label": "이의 검토", "desc": "배당이의 판단" },
+        { "label": "인도명령", "desc": "대금납부 후 신청" },
+        { "label": "명도 집행", "desc": "강제집행" }
+      ],
       "actions": {
         "today": [
           "배당표를 확인하여 배당 내역을 정리해보세요",
@@ -198,28 +264,16 @@
           "자력으로 점유자를 퇴거시키면 주거침입 등의 문제가 생길 수 있습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "배당표",
-          "status": "need",
-          "note": "배당 내역 확인용"
-        },
-        {
-          "label": "배당기일 통지서",
-          "status": "need",
-          "note": "배당기일 확인용"
-        },
-        {
-          "label": "매각대금 납부 영수증",
-          "status": "need",
-          "note": "인도명령 신청 시 필요"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "권리관계 확인용"
-        }
+      "checklist_priority": [
+        { "label": "배당표", "status": "need", "note": "배당 내역 확인용" },
+        { "label": "배당기일 통지서", "status": "need", "note": "배당기일 확인용" },
+        { "label": "매각대금 납부 영수증", "status": "need", "note": "인도명령 신청 시 필요" }
       ],
+      "checklist_optional": [
+        { "label": "등기부등본", "status": "need", "note": "권리관계 확인용" },
+        { "label": "임대차계약서", "status": "need", "note": "임차인 관련 배당 확인용" }
+      ],
+      "documents": [],
       "related_systems": [
         {
           "name": "배당이의",
@@ -261,8 +315,41 @@
       "type_id": "TYPE_BIDDING",
       "type_name": "입찰 준비 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
+      "status_summary_template": "{problem_type} 관련으로 {progress_stage} 단계이시군요. 입찰 준비를 위한 확인사항을 정리했습니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
       "view": "detailed",
+      "first_action": {
+        "title": "이렇게 시작하세요",
+        "items": [
+          "법원 경매정보 사이트에서 해당 물건의 매각물건명세서를 확인해보세요",
+          "등기부등본을 발급받아 권리관계를 정리해보세요",
+          "입찰 보증금(매각대금의 10%)을 준비해보세요"
+        ],
+        "buttons": [
+          { "label": "체크리스트 보기", "target": "checklist" },
+          { "label": "무료 상담 기관", "target": "institutions" }
+        ]
+      },
+      "key_checkpoints": [
+        {
+          "title": "매각물건명세서 필수 검토",
+          "desc": "매각물건명세서에 인수되는 권리와 특이사항이 기재되어 있습니다. 입찰 전 반드시 확인하세요."
+        },
+        {
+          "title": "적정 입찰가 산정",
+          "desc": "감정평가서의 감정가와 실제 시세를 비교하여 적정 입찰가를 산정하세요. 인수해야 할 권리 금액도 고려해야 합니다."
+        },
+        {
+          "title": "잔금 납부 대출 사전 확인",
+          "desc": "낙찰 후 잔금 납부 기한 내에 대출이 가능한지 미리 금융기관에 확인해두는 것이 좋습니다."
+        }
+      ],
+      "timeline_steps": [
+        { "label": "물건 조사", "desc": "명세서·등기 확인", "active": true },
+        { "label": "현장 방문", "desc": "점유·상태 확인" },
+        { "label": "입찰 준비", "desc": "보증금·입찰표" },
+        { "label": "낙찰·잔금", "desc": "대금 납부" }
+      ],
       "actions": {
         "today": [
           "법원 경매정보 사이트에서 해당 물건의 매각물건명세서를 확인해보세요",
@@ -279,33 +366,16 @@
           "유치권, 법정지상권 등 특수 권리가 있는지 반드시 확인하는 것이 좋습니다"
         ]
       },
-      "documents": [
-        {
-          "label": "매각물건명세서",
-          "status": "need",
-          "note": "물건 정보 및 인수 권리 확인용"
-        },
-        {
-          "label": "등기부등본",
-          "status": "need",
-          "note": "권리관계 확인용"
-        },
-        {
-          "label": "현황조사보고서",
-          "status": "need",
-          "note": "점유 및 임차 현황 확인용"
-        },
-        {
-          "label": "감정평가서",
-          "status": "need",
-          "note": "적정 입찰가 산정 참고용"
-        },
-        {
-          "label": "입찰표",
-          "status": "need",
-          "note": "입찰 당일 제출용"
-        }
+      "checklist_priority": [
+        { "label": "매각물건명세서", "status": "need", "note": "물건 정보 및 인수 권리 확인용" },
+        { "label": "등기부등본", "status": "need", "note": "권리관계 확인용" },
+        { "label": "현황조사보고서", "status": "need", "note": "점유 및 임차 현황 확인용" }
       ],
+      "checklist_optional": [
+        { "label": "감정평가서", "status": "need", "note": "적정 입찰가 산정 참고용" },
+        { "label": "입찰표", "status": "need", "note": "입찰 당일 제출용" }
+      ],
+      "documents": [],
       "related_systems": [
         {
           "name": "부동산 경매 입찰",

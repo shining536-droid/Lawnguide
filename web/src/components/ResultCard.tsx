@@ -1,6 +1,6 @@
 'use client';
 
-import type { ResultEntry, DocumentItem } from '@/lib/domains';
+import type { ResultEntry, DocumentItem, KeyCheckpoint, TimelineStep, FirstAction } from '@/lib/domains';
 
 interface ResultCardProps {
   result: ResultEntry;
@@ -210,94 +210,385 @@ const FIELD_LABELS: Record<string, string> = {
   property_type: '부동산 유형',
 };
 
-function ActionList({ items, label, icon }: { items?: string[]; label: string; icon: React.ReactNode }) {
-  if (!items || items.length === 0) return null;
-  return (
-    <div>
-      <h4 className="mb-3 flex items-center gap-2 text-xl md:text-2xl font-bold text-navy-700">
-        {icon}
-        {label}
-      </h4>
-      <ul className="space-y-2">
-        {items.map((action, i) => (
-          <li key={i} className="flex gap-2 text-lg text-gray-800 leading-relaxed">
-            <span className="mt-2 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gray-400" />
-            {action}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+// Template replacement: {field} -> answer value
+function renderTemplate(template: string, answers: Record<string, string>): string {
+  return template.replace(/\{(\w+)\}/g, (_, field) => {
+    return answers[field] || '(미입력)';
+  });
 }
 
 function isDocumentItemArray(docs: string[] | DocumentItem[]): docs is DocumentItem[] {
   return docs.length > 0 && typeof docs[0] === 'object';
 }
 
-function DocumentChecklist({ documents, answers }: { documents: string[] | DocumentItem[]; answers?: Record<string, string> }) {
-  if (!documents || documents.length === 0) return null;
+// [A] Safety Warning
+function SafetyWarning({ message }: { message: string }) {
+  return (
+    <section className="rounded-xl border-2 border-red-300 bg-red-50 p-5 md:p-6 shadow-sm">
+      <div className="flex items-start gap-3">
+        <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-red-600 text-sm font-bold text-white">!</span>
+        <div>
+          <h3 className="text-lg font-bold text-red-800">안전 안내</h3>
+          <p className="mt-1 text-base leading-relaxed text-red-700">{message}</p>
+        </div>
+      </div>
+    </section>
+  );
+}
 
+// [B] First Action Box
+function FirstActionBox({ firstAction, onScrollTo }: { firstAction: FirstAction; onScrollTo?: (target: string) => void }) {
+  return (
+    <section className="rounded-xl border-2 border-primary-300 bg-gradient-to-br from-primary-50 to-blue-50 p-6 md:p-8 shadow-sm">
+      <h3 className="mb-3 text-xl font-bold text-navy-700 md:text-2xl">{firstAction.title}</h3>
+      <ul className="space-y-2">
+        {firstAction.items.map((item, i) => (
+          <li key={i} className="flex gap-2 text-lg leading-relaxed text-gray-800">
+            <span className="mt-1.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 text-xs font-bold text-white">{i + 1}</span>
+            {item}
+          </li>
+        ))}
+      </ul>
+      {firstAction.buttons && firstAction.buttons.length > 0 && (
+        <div className="mt-5 flex flex-wrap gap-2">
+          {firstAction.buttons.map((btn, i) => (
+            <button
+              key={i}
+              onClick={() => onScrollTo?.(btn.target)}
+              className="rounded-lg bg-primary-600 px-4 py-2 text-sm font-semibold text-white hover:bg-primary-700 transition-colors"
+            >
+              {btn.label} &darr;
+            </button>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
+// [C] Status Summary
+function StatusSummary({ result, answers }: { result: ResultEntry; answers?: Record<string, string> }) {
+  const summary = result.status_summary_template && answers
+    ? renderTemplate(result.status_summary_template, answers)
+    : result.status_summary;
+
+  return (
+    <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-3 text-xl font-bold text-navy-700 md:text-2xl">현재 상황 요약</h3>
+      <p className="text-base leading-relaxed text-gray-700 md:text-lg">{summary}</p>
+      <p className="mt-3 text-sm font-medium text-primary-600">{result.risk_level}</p>
+    </section>
+  );
+}
+
+// [D] Key Checkpoints
+function KeyCheckpoints({ checkpoints }: { checkpoints: KeyCheckpoint[] }) {
+  return (
+    <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">핵심 확인 포인트</h3>
+      <div className="space-y-4">
+        {checkpoints.map((cp, i) => (
+          <div key={i} className="rounded-lg border border-gray-100 bg-gray-50 p-4">
+            <div className="flex items-start gap-3">
+              <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-navy-700 text-xs font-bold text-white">{i + 1}</span>
+              <div>
+                <h4 className="text-lg font-semibold text-navy-700">{cp.title}</h4>
+                <p className="mt-1 text-base leading-relaxed text-gray-600">{cp.desc}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// [E] Today's Items
+function TodayItems({ items }: { items: string[] }) {
+  return (
+    <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-3 flex items-center gap-2 text-xl font-bold text-navy-700 md:text-2xl">
+        <span className="flex h-6 w-6 items-center justify-center rounded bg-red-100 text-sm text-red-700">!</span>
+        오늘 확인할 사항
+      </h3>
+      <ul className="space-y-2">
+        {items.map((item, i) => (
+          <li key={i} className="flex gap-2 text-lg leading-relaxed text-gray-800">
+            <span className="mt-2 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-400" />
+            {item}
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+// [F] This Week's Items
+function ThisWeekItems({ items }: { items: string[] }) {
+  return (
+    <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-3 flex items-center gap-2 text-xl font-bold text-navy-700 md:text-2xl">
+        <span className="flex h-6 w-6 items-center justify-center rounded bg-primary-100 text-sm text-primary-600">&rarr;</span>
+        이번 주에 준비할 것
+      </h3>
+      <ul className="space-y-2">
+        {items.map((item, i) => (
+          <li key={i} className="flex gap-2 text-lg leading-relaxed text-gray-800">
+            <span className="mt-2 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary-400" />
+            {item}
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+// [G] Timeline Visualization
+function Timeline({ steps }: { steps: TimelineStep[] }) {
+  return (
+    <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-5 text-xl font-bold text-navy-700 md:text-2xl">진행 절차 안내</h3>
+      <div className="flex items-start overflow-x-auto pb-2">
+        {steps.map((step, i) => (
+          <div key={i} className="flex items-start">
+            <div className="flex flex-col items-center" style={{ minWidth: '120px' }}>
+              <div className={`flex h-10 w-10 items-center justify-center rounded-full text-sm font-bold ${
+                step.active
+                  ? 'bg-primary-600 text-white ring-4 ring-primary-100'
+                  : 'bg-gray-200 text-gray-500'
+              }`}>
+                {i + 1}
+              </div>
+              <p className={`mt-2 text-center text-sm font-medium ${step.active ? 'text-primary-700' : 'text-gray-600'}`}>
+                {step.label}
+              </p>
+              <p className="mt-0.5 text-center text-xs text-gray-400" style={{ maxWidth: '110px' }}>
+                {step.desc}
+              </p>
+            </div>
+            {i < steps.length - 1 && (
+              <div className="mt-5 h-0.5 w-8 flex-shrink-0 bg-gray-200 md:w-12" />
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// [H] Prep Memo (collapsible)
+function PrepMemo({ answers }: { answers: Record<string, string> }) {
+  if (!answers || Object.keys(answers).length === 0) return null;
+
+  const entries = Object.entries(answers).slice(0, 8);
+
+  return (
+    <section className="rounded-xl border border-primary-200 bg-primary-50 p-6 md:p-8 shadow-sm">
+      <details>
+        <summary className="cursor-pointer text-xl font-bold text-navy-700 md:text-2xl">
+          상담 전 준비 메모
+        </summary>
+        <div className="mt-4 rounded-lg bg-white px-4 py-3">
+          <ul className="space-y-1">
+            {entries.map(([key, val]) => (
+              <li key={key} className="flex justify-between text-base">
+                <span className="text-gray-600">{FIELD_LABELS[key] ?? key}</span>
+                <span className="font-medium text-gray-800">{val || '(선택 안 함)'}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </details>
+    </section>
+  );
+}
+
+// [I] Priority-split Checklist
+function PriorityChecklist({
+  priority,
+  optional,
+  documents,
+  answers,
+}: {
+  priority?: DocumentItem[];
+  optional?: DocumentItem[];
+  documents?: string[] | DocumentItem[];
+  answers?: Record<string, string>;
+}) {
   const existingDocs = answers?.existing_docs?.split(',') ?? [];
+
+  // Use priority/optional if available, otherwise fall back to documents
+  const hasPrioritySplit = (priority && priority.length > 0) || (optional && optional.length > 0);
+
+  const renderDocItem = (doc: DocumentItem, i: number) => {
+    const autoHas = doc.status === 'has' || existingDocs.includes(doc.label);
+    return (
+      <div key={i} className="flex items-center gap-3 rounded-lg bg-gray-50 px-4 py-3 text-lg">
+        <span className="text-lg">{autoHas ? '\u2705' : '\u2610'}</span>
+        <span className={autoHas ? 'text-gray-500' : 'font-medium text-gray-800'}>
+          {doc.label}
+          {doc.note && <span className="ml-1 text-base text-gray-500">({doc.note})</span>}
+        </span>
+        {!autoHas && <span className="ml-auto text-sm text-orange-600">준비 필요</span>}
+      </div>
+    );
+  };
+
+  if (hasPrioritySplit) {
+    return (
+      <section id="checklist" className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+        <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">상담 전 체크리스트</h3>
+        {priority && priority.length > 0 && (
+          <div className="mb-4">
+            <h4 className="mb-2 flex items-center gap-2 text-base font-semibold text-red-700">
+              <span className="flex h-5 w-5 items-center justify-center rounded bg-red-100 text-xs">!</span>
+              반드시 준비
+            </h4>
+            <div className="space-y-1.5">{priority.map(renderDocItem)}</div>
+          </div>
+        )}
+        {optional && optional.length > 0 && (
+          <div>
+            <h4 className="mb-2 flex items-center gap-2 text-base font-semibold text-gray-500">
+              <span className="flex h-5 w-5 items-center justify-center rounded bg-gray-100 text-xs">+</span>
+              있으면 좋은 것
+            </h4>
+            <div className="space-y-1.5">{optional.map(renderDocItem)}</div>
+          </div>
+        )}
+      </section>
+    );
+  }
+
+  // Fallback: use legacy documents field
+  if (!documents || documents.length === 0) return null;
 
   if (isDocumentItemArray(documents)) {
     return (
-      <div className="space-y-1.5">
-        {documents.map((doc, i) => {
-          const autoHas = doc.status === 'has' || existingDocs.includes(doc.label);
-          return (
-            <div
-              key={i}
-              className="flex items-center gap-3 rounded-lg bg-gray-50 px-4 py-3 text-lg"
-            >
-              <span className="text-lg">{autoHas ? '\u2705' : '\u2610'}</span>
-              <span className={autoHas ? 'text-gray-500' : 'text-gray-800 font-medium'}>
-                {doc.label}
-                {doc.note && <span className="ml-1 text-base text-gray-500">({doc.note})</span>}
-              </span>
-              {!autoHas && (
-                <span className="ml-auto text-sm text-orange-600">준비 필요</span>
-              )}
-            </div>
-          );
-        })}
-      </div>
+      <section id="checklist" className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+        <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">상담 전 체크리스트</h3>
+        <div className="space-y-1.5">{documents.map(renderDocItem)}</div>
+      </section>
     );
   }
 
   return (
-    <div className="space-y-1.5">
-      {documents.map((doc, i) => {
-        const autoHas = existingDocs.includes(doc);
-        return (
-          <div
-            key={i}
-            className="flex items-center gap-3 rounded-lg bg-gray-50 px-4 py-3 text-lg"
-          >
-            <span className="text-lg">{autoHas ? '\u2705' : '\u2610'}</span>
-            <span className={autoHas ? 'text-gray-500' : 'text-gray-800 font-medium'}>{doc}</span>
-            {!autoHas && (
-              <span className="ml-auto text-sm text-orange-600">준비 필요</span>
-            )}
-          </div>
-        );
-      })}
-    </div>
+    <section id="checklist" className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">상담 전 체크리스트</h3>
+      <div className="space-y-1.5">
+        {documents.map((doc, i) => {
+          const autoHas = existingDocs.includes(doc);
+          return (
+            <div key={i} className="flex items-center gap-3 rounded-lg bg-gray-50 px-4 py-3 text-lg">
+              <span className="text-lg">{autoHas ? '\u2705' : '\u2610'}</span>
+              <span className={autoHas ? 'text-gray-500' : 'font-medium text-gray-800'}>{doc}</span>
+              {!autoHas && <span className="ml-auto text-sm text-orange-600">준비 필요</span>}
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 }
 
-function PrepMemo({ answers }: { answers: Record<string, string> }) {
-  if (!answers || Object.keys(answers).length === 0) return null;
+// [J] Free Help Institutions
+function PublicConnections({ connections }: { connections: { name: string; phone?: string; url?: string; note?: string }[] }) {
+  return (
+    <section id="institutions" className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">무료로 도움받을 수 있는 곳</h3>
+      <div className="space-y-2">
+        {connections.map((conn, i) => (
+          <div key={i} className="rounded-lg bg-primary-50 px-4 py-3">
+            <div className="flex items-center justify-between">
+              <span className="text-lg font-semibold text-navy-700">{conn.name}</span>
+              <div className="flex items-center gap-2">
+                {conn.phone && (
+                  <a href={`tel:${conn.phone}`} className="rounded-lg bg-primary-600 px-4 py-1.5 text-base font-medium text-white hover:bg-primary-700">
+                    {conn.phone}
+                  </a>
+                )}
+              </div>
+            </div>
+            {conn.note && <p className="mt-1 text-base text-gray-600">{conn.note}</p>}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// [K] Professional Section
+function ProfessionalSection({ professionals }: { professionals: { type: string; note?: string; description?: string }[] }) {
+  return (
+    <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">전문가 상담이 필요한 경우</h3>
+      <div className="space-y-2">
+        {professionals.map((p, i) => (
+          <div key={i} className="rounded-lg bg-gray-50 px-4 py-3">
+            <p className="text-lg font-medium text-primary-600">{p.note ?? `이 유형의 사안을 다루는 ${p.type} 보기 (광고 포함)`}</p>
+            {p.description && (
+              <p className="mt-1 rounded bg-blue-50 px-3 py-2 text-base leading-relaxed text-blue-700">{p.description}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// [L] Related Systems & Legal Basis
+function LegalInfo({ result }: { result: ResultEntry }) {
+  if ((!result.related_systems || result.related_systems.length === 0) && (!result.legal_basis || result.legal_basis.length === 0)) return null;
 
   return (
-    <div className="rounded-lg bg-white px-4 py-3">
-      <ul className="space-y-1">
-        {Object.entries(answers).map(([key, val]) => (
-          <li key={key} className="flex justify-between text-base">
-            <span className="text-gray-600">{FIELD_LABELS[key] ?? key}</span>
-            <span className="font-medium text-gray-800">{val || '(선택 안 함)'}</span>
+    <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
+      <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">관련 제도 / 법적 근거</h3>
+      {result.related_systems?.length > 0 && (
+        <div className="mb-3 space-y-2">
+          {result.related_systems.map((sys, i) => (
+            <div key={i}>
+              <h4 className="text-lg font-semibold text-navy-700">{sys.name}</h4>
+              <p className="text-base leading-relaxed text-gray-700">{sys.description}</p>
+            </div>
+          ))}
+        </div>
+      )}
+      {result.legal_basis?.length > 0 && (
+        <ul className="space-y-1">
+          {result.legal_basis.map((basis, i) => (
+            <li key={i} className="text-base text-gray-600">{basis}</li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}
+
+// Caution Items
+function CautionSection({ items }: { items: string[] }) {
+  return (
+    <section className="rounded-xl border border-amber-200 bg-amber-50 p-6 md:p-8 shadow-sm">
+      <h3 className="mb-3 flex items-center gap-2 text-xl font-bold text-amber-800 md:text-2xl">
+        <span className="flex h-6 w-6 items-center justify-center rounded bg-amber-100 text-sm text-amber-700">{'\u26A0'}</span>
+        유의사항
+      </h3>
+      <ul className="space-y-2">
+        {items.map((item, i) => (
+          <li key={i} className="flex gap-2 text-lg leading-relaxed text-amber-900">
+            <span className="mt-2 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-amber-400" />
+            {item}
           </li>
         ))}
       </ul>
+    </section>
+  );
+}
+
+// [M] Disclaimer
+function Disclaimer({ text }: { text: string }) {
+  return (
+    <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
+      <p className="text-base text-amber-800">{text}</p>
     </div>
   );
 }
@@ -306,21 +597,26 @@ export default function ResultCard({ result, answers }: ResultCardProps) {
   const actions = result.actions;
   const isOk = result.type_id === 'TYPE_OK';
 
+  const scrollTo = (target: string) => {
+    const el = document.getElementById(target);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   // TYPE_OK: compact view
   if (isOk) {
     return (
       <div className="space-y-6">
-        <section className="rounded-xl border border-green-200 bg-green-50 p-6 md:p-8 shadow-sm text-center">
+        <section className="rounded-xl border border-green-200 bg-green-50 p-6 text-center shadow-sm md:p-8">
           <div className="mb-3 text-4xl">{'\u2705'}</div>
-          <p className="text-xl md:text-2xl font-semibold text-green-800">{result.status_summary}</p>
+          <p className="text-xl font-semibold text-green-800 md:text-2xl">{result.status_summary}</p>
         </section>
 
         {actions?.checklist && actions.checklist.length > 0 && (
-          <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
-            <h3 className="mb-4 text-xl md:text-2xl font-bold text-navy-700">마무리 확인사항</h3>
+          <section className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm md:p-8">
+            <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">마무리 확인사항</h3>
             <ul className="space-y-2">
               {actions.checklist.map((item, i) => (
-                <li key={i} className="flex gap-2 text-lg text-gray-800 leading-relaxed">
+                <li key={i} className="flex gap-2 text-lg leading-relaxed text-gray-800">
                   <span className="mt-2 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-green-400" />
                   {item}
                 </li>
@@ -329,146 +625,65 @@ export default function ResultCard({ result, answers }: ResultCardProps) {
           </section>
         )}
 
-        <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
-          <p className="text-base text-amber-800">
-            {result.disclaimer ?? '이 내용은 준비 안내이며 법적 효력을 갖는 유권해석이 아닙니다.'}
-          </p>
-        </div>
+        <Disclaimer text={result.disclaimer ?? '이 내용은 준비 안내이며 법적 효력을 갖는 유권해석이 아닙니다.'} />
       </div>
     );
   }
 
   return (
     <div className="space-y-6">
-      {/* 1. 현재 상황 요약 */}
-      <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
-        <h3 className="mb-3 text-xl md:text-2xl font-bold text-navy-700">현재 상황 요약</h3>
-        <p className="text-base md:text-lg text-gray-700 leading-relaxed">{result.status_summary}</p>
-        <p className="mt-3 text-sm text-primary-600 font-medium">{result.risk_level}</p>
-      </section>
+      {/* [A] Safety Warning */}
+      {result.safety_warning && <SafetyWarning message={result.safety_warning} />}
 
-      {/* 2. 오늘 확인할 사항 */}
-      {actions?.today && actions.today.length > 0 && (
-        <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
-          <ActionList
-            items={actions.today}
-            label="오늘 확인할 사항"
-            icon={<span className="flex h-5 w-5 items-center justify-center rounded bg-red-100 text-xs text-red-700">!</span>}
-          />
-        </section>
+      {/* [B] First Action Box */}
+      {result.first_action && <FirstActionBox firstAction={result.first_action} onScrollTo={scrollTo} />}
+
+      {/* [C] Status Summary */}
+      <StatusSummary result={result} answers={answers} />
+
+      {/* [D] Key Checkpoints */}
+      {result.key_checkpoints && result.key_checkpoints.length > 0 && (
+        <KeyCheckpoints checkpoints={result.key_checkpoints} />
       )}
 
-      {/* 3. 이번 주 준비할 것 */}
-      {actions?.this_week && actions.this_week.length > 0 && (
-        <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
-          <ActionList
-            items={actions.this_week}
-            label="이번 주에 준비할 것"
-            icon={<span className="flex h-5 w-5 items-center justify-center rounded bg-primary-100 text-xs text-primary-600">{'\u2192'}</span>}
-          />
-        </section>
-      )}
+      {/* [E] Today's Items */}
+      {actions?.today && actions.today.length > 0 && <TodayItems items={actions.today} />}
 
-      {/* 4. 상담 전 준비 메모 */}
-      {answers && Object.keys(answers).length > 0 && (
-        <section className="rounded-xl border border-primary-200 bg-primary-50 p-6 md:p-8 shadow-sm">
-          <h3 className="mb-4 text-xl md:text-2xl font-bold text-navy-700">상담 전 준비 메모</h3>
-          <PrepMemo answers={answers} />
-        </section>
-      )}
+      {/* [F] This Week's Items */}
+      {actions?.this_week && actions.this_week.length > 0 && <ThisWeekItems items={actions.this_week} />}
 
-      {/* 5. 상담 전 체크리스트 */}
-      {result.documents?.length > 0 && (
-        <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
-          <h3 className="mb-4 text-xl md:text-2xl font-bold text-navy-700">상담 전 체크리스트</h3>
-          <DocumentChecklist documents={result.documents} answers={answers} />
-        </section>
-      )}
+      {/* [G] Timeline */}
+      {result.timeline_steps && result.timeline_steps.length > 0 && <Timeline steps={result.timeline_steps} />}
 
-      {/* 6. 무료로 도움받을 수 있는 곳 */}
+      {/* [H] Prep Memo */}
+      {answers && Object.keys(answers).length > 0 && <PrepMemo answers={answers} />}
+
+      {/* [I] Checklist */}
+      <PriorityChecklist
+        priority={result.checklist_priority}
+        optional={result.checklist_optional}
+        documents={result.documents}
+        answers={answers}
+      />
+
+      {/* Caution Items */}
+      {actions?.caution && actions.caution.length > 0 && <CautionSection items={actions.caution} />}
+
+      {/* [J] Free Help Institutions */}
       {result.connections?.public?.length > 0 && (
-        <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
-          <h3 className="mb-4 text-xl md:text-2xl font-bold text-navy-700">무료로 도움받을 수 있는 곳</h3>
-          <div className="space-y-2">
-            {result.connections.public.map((conn, i) => (
-              <div key={i} className="rounded-lg bg-primary-50 px-4 py-3">
-                <div className="flex items-center justify-between">
-                  <span className="text-lg font-semibold text-navy-700">{conn.name}</span>
-                  <div className="flex items-center gap-2">
-                    {conn.phone && (
-                      <a href={`tel:${conn.phone}`} className="rounded-lg bg-primary-600 px-4 py-1.5 text-base font-medium text-white hover:bg-primary-700">
-                        {conn.phone}
-                      </a>
-                    )}
-                  </div>
-                </div>
-                {conn.note && (
-                  <p className="mt-1 text-base text-gray-600">{conn.note}</p>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
+        <PublicConnections connections={result.connections.public} />
       )}
 
-      {/* 7. 전문가 상담이 필요한 경우 */}
+      {/* [K] Professional Section */}
       {result.connections?.professional?.length > 0 && (
-        <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
-          <h3 className="mb-4 text-xl md:text-2xl font-bold text-navy-700">전문가 상담이 필요한 경우</h3>
-          <div className="space-y-2">
-            {result.connections.professional.map((p, i) => (
-              <div key={i} className="rounded-lg bg-gray-50 px-4 py-3">
-                <p className="text-lg font-medium text-primary-600">{p.note ?? `이 유형의 사안을 다루는 ${p.type} 보기 (광고 포함)`}</p>
-                {p.description && (
-                  <p className="mt-1 text-base text-gray-600">{p.description}</p>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
+        <ProfessionalSection professionals={result.connections.professional} />
       )}
 
-      {/* 8. 관련 제도 / 법적 근거 */}
-      {(result.related_systems?.length > 0 || result.legal_basis?.length > 0) && (
-        <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
-          <h3 className="mb-4 text-xl md:text-2xl font-bold text-navy-700">관련 제도 / 법적 근거</h3>
-          {result.related_systems?.length > 0 && (
-            <div className="space-y-2 mb-3">
-              {result.related_systems.map((sys, i) => (
-                <div key={i}>
-                  <h4 className="text-lg font-semibold text-navy-700">{sys.name}</h4>
-                  <p className="text-base text-gray-700 leading-relaxed">{sys.description}</p>
-                </div>
-              ))}
-            </div>
-          )}
-          {result.legal_basis?.length > 0 && (
-            <ul className="space-y-1">
-              {result.legal_basis.map((basis, i) => (
-                <li key={i} className="text-base text-gray-600">{basis}</li>
-              ))}
-            </ul>
-          )}
-        </section>
-      )}
+      {/* [L] Related Systems & Legal Basis */}
+      <LegalInfo result={result} />
 
-      {/* Caution items */}
-      {actions?.caution && actions.caution.length > 0 && (
-        <section className="rounded-xl border border-amber-200 bg-amber-50 p-6 md:p-8 shadow-sm">
-          <ActionList
-            items={actions.caution}
-            label="유의사항"
-            icon={<span className="flex h-5 w-5 items-center justify-center rounded bg-amber-100 text-xs text-amber-700">{'\u26A0'}</span>}
-          />
-        </section>
-      )}
-
-      {/* 9. 면책 */}
-      <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
-        <p className="text-base text-amber-800">
-          {result.disclaimer ?? '이 내용은 준비 안내이며 법적 효력을 갖는 유권해석이 아닙니다.'}
-        </p>
-      </div>
+      {/* [M] Disclaimer */}
+      <Disclaimer text={result.disclaimer ?? '이 내용은 준비 안내이며 법적 효력을 갖는 유권해석이 아닙니다.'} />
     </div>
   );
 }
