@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { DOMAINS } from '@/lib/domains';
+import { SPOKE_PAGES } from '@/data/spoke-pages';
 
 const baseUrl = 'https://lawnguide.co.kr';
 
@@ -29,5 +30,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...home, ...diagnosis, ...guide];
+  const spoke: MetadataRoute.Sitemap = SPOKE_PAGES.map((p) => ({
+    url: `${baseUrl}/guide/${p.domain}/${p.slug}`,
+    lastModified,
+    changeFrequency: 'weekly' as const,
+    priority: 0.6,
+  }));
+
+  return [...home, ...diagnosis, ...guide, ...spoke];
 }
