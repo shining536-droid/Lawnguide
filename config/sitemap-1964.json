@@ -1,0 +1,65 @@
+{
+  "csmSeq": 1964,
+  "domainId": "drug-crime",
+  "name": "마약범죄",
+  "crawledAt": "2026-03-10T11:57:09.927Z",
+  "totalPages": 8,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "마약류중독자 알아보기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1964&ccfNo=1&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "마약 중독일까요?",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1964&ccfNo=1&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "마약류 범죄 알아보기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1964&ccfNo=2&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 1,
+      "cnpClsNo": 2,
+      "title": "마약류사범에 대한 치료처우",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1964&ccfNo=2&cciNo=1&cnpClsNo=2"
+    },
+    {
+      "ccfNo": 2,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "마약류 범죄 예방 및 신고",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1964&ccfNo=2&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "마약류중독자의 치료 및 재활 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1964&ccfNo=3&cciNo=1&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 3,
+      "cciNo": 2,
+      "cnpClsNo": 1,
+      "title": "마약류중독자 재활 및 사회복귀 지원",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1964&ccfNo=3&cciNo=2&cnpClsNo=1"
+    },
+    {
+      "ccfNo": 4,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "마약류중독 예방하기",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1964&ccfNo=4&cciNo=1&cnpClsNo=1"
+    }
+  ]
+}

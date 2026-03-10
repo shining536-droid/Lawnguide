@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "csmSeq": 993,
+    "domainId": "fraud",
+    "ccfNo": 1,
+    "cciNo": 1,
+    "cnpClsNo": 1,
+    "pageId": "1-1-1",
+    "title": "Page 1-1-1",
+    "breadcrumb": [],
+    "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=993&ccfNo=1&cciNo=1&cnpClsNo=1",
+    "fetchedAt": "2026-03-10T12:01:46.864Z"
+  },
+  "content": {
+    "textBlocks": [],
+    "tables": []
+  },
+  "extracted": {
+    "conditions": [],
+    "lawRefs": [],
+    "amounts": [],
+    "procedures": []
+  }
+}

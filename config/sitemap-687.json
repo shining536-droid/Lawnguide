@@ -1,8 +1,8 @@
 {
   "csmSeq": 687,
-  "domainId": "sex-crime",
-  "name": "성범죄",
-  "crawledAt": "2026-03-08T08:53:59.060Z",
+  "domainId": "prostitution",
+  "name": "성매매",
+  "crawledAt": "2026-03-10T11:57:11.962Z",
   "totalPages": 34,
   "pages": [
     {

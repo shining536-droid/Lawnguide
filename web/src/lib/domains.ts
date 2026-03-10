@@ -22,7 +22,7 @@ export const DOMAINS: DomainMeta[] = [
   { id: 'divorce', name: '이혼', description: '이혼 절차, 재산분할, 양육권을 정리하고 싶을 때', icon: '💔' },
   { id: 'child-support', name: '양육비', description: '양육비 산정이나 이행확보가 필요할 때', icon: '👶' },
   { id: 'neighbor-dispute', name: '이웃 간 분쟁', description: '층간소음, 하자, 경계 분쟁이 있을 때', icon: '🏘️' },
-  { id: 'defamation', name: '인터넷 명예훼손', description: '악성 댓글, 허위사실 유포 피해를 입었을 때', icon: '💻' },
+  { id: 'defamation', name: '명예훼손/모욕', description: '온라인·오프라인 명예훼손이나 모욕 관련 상황을 정리할 때', icon: '💻' },
   { id: 'real-estate-sale', name: '부동산 매매', description: '매매계약 해제, 하자, 중개 분쟁이 있을 때', icon: '🏗️' },
   { id: 'real-estate-auction', name: '부동산 경매', description: '경매 절차, 배당, 명도 문제가 있을 때', icon: '🔨' },
   { id: 'industrial-accident1', name: '산업재해보상보험 I', description: '업무상 재해를 입었을 때', icon: '🏭' },
@@ -35,6 +35,11 @@ export const DOMAINS: DomainMeta[] = [
   { id: 'assault', name: '폭행', description: '폭행, 상해, 협박 등의 상황을 정리하고 싶을 때', icon: '⚠️' },
   { id: 'child-sex-crime', name: '아동성범죄', description: '아동·청소년 대상 성범죄 관련 상황일 때', icon: '🧒' },
   { id: 'school-violence', name: '학교폭력', description: '학교폭력 피해나 대응이 필요할 때', icon: '🏫' },
+  { id: 'fraud', name: '사기/재산범죄', description: '사기 피해를 입었거나 사기 혐의를 받고 있을 때', icon: '🎭' },
+  { id: 'dui', name: '음주운전', description: '음주운전 단속이나 사고 관련 대응을 준비할 때', icon: '🚗' },
+  { id: 'traffic-accident', name: '교통사고', description: '교통사고 후 합의, 보험, 과실 문제를 정리할 때', icon: '🚦' },
+  { id: 'drug-crime', name: '마약범죄', description: '마약 관련 수사나 혐의 대응을 준비할 때', icon: '💊' },
+  { id: 'prostitution', name: '성매매', description: '성매매 관련 피해 지원이나 혐의 대응이 필요할 때', icon: '🛡️' },
 ];
 
 function dataDir() {

@@ -1,0 +1,16 @@
+{
+  "csmSeq": 993,
+  "domainId": "fraud",
+  "name": "사기/재산범죄",
+  "crawledAt": "2026-03-10T11:57:04.213Z",
+  "totalPages": 1,
+  "pages": [
+    {
+      "ccfNo": 1,
+      "cciNo": 1,
+      "cnpClsNo": 1,
+      "title": "Page 1-1-1",
+      "url": "/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=993&ccfNo=1&cciNo=1&cnpClsNo=1"
+    }
+  ]
+}

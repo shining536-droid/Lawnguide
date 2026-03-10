@@ -1,0 +1,160 @@
+{
+  "_draft": true,
+  "domain": "dui",
+  "version": "2026-03-10",
+  "totalQuestions": 11,
+  "questions": [
+    {
+      "id": "Q001",
+      "field": "situation_type",
+      "stage": "상황확인",
+      "text": "현재 상황에 가장 가까운 것은?",
+      "type": "enum",
+      "options": [
+        { "value": "피해", "label": "음주운전 사고 피해를 입었어요" },
+        { "value": "혐의", "label": "음주운전 단속을 받았거나 혐의가 있어요" },
+        { "value": "정리중", "label": "아직 상황을 정리 중이에요" },
+        { "value": "보호자", "label": "보호자/가족으로서 확인하고 싶어요" }
+      ],
+      "next": { "피해": "Q002", "혐의": "Q002", "정리중": "Q002", "보호자": "Q002" }
+    },
+    {
+      "id": "Q002",
+      "field": "progress_stage",
+      "stage": "진행단계",
+      "text": "지금 어디까지 진행된 상황인가요?",
+      "type": "enum",
+      "options": [
+        { "value": "시작", "label": "문제를 인식한 단계입니다" },
+        { "value": "진행중", "label": "신고하거나 조치를 하고 있는 중입니다" },
+        { "value": "조치중", "label": "법적 조치를 진행하고 있습니다" },
+        { "value": "완료후문제", "label": "조치를 했으나 새로운 문제가 생겼습니다" }
+      ],
+      "next": { "시작": "Q003", "진행중": "Q003", "조치중": "Q003", "완료후문제": "Q003" }
+    },
+    {
+      "id": "Q003",
+      "field": "timeline",
+      "stage": "진행단계",
+      "text": "이 문제가 시작된 건 언제부터인가요?",
+      "type": "enum",
+      "options": [
+        { "value": "며칠", "label": "며칠 전부터" },
+        { "value": "1주", "label": "약 1주 전부터" },
+        { "value": "1개월", "label": "약 1개월 전부터" },
+        { "value": "1개월이상", "label": "1개월 이상 되었습니다" }
+      ],
+      "next": { "며칠": "Q004", "1주": "Q004", "1개월": "Q004", "1개월이상": "Q004" }
+    },
+    {
+      "id": "Q004",
+      "field": "counterparty_contact",
+      "stage": "상대방확인",
+      "text": "상대방과 연락이 되나요?",
+      "type": "enum",
+      "options": [
+        { "value": "연락 가능", "label": "연락이 가능합니다" },
+        { "value": "연락 어려움", "label": "연락이 잘 되지 않습니다" },
+        { "value": "연락 두절", "label": "연락이 완전히 끊겼습니다" }
+      ],
+      "next": { "연락 가능": "Q005", "연락 어려움": "Q005", "연락 두절": "Q005" }
+    },
+    {
+      "id": "Q005",
+      "field": "existing_docs",
+      "stage": "자료확인",
+      "text": "지금 가지고 있는 자료를 골라주세요",
+      "description": "해당하는 것을 모두 선택해주세요. 없으면 선택하지 않고 넘어가도 됩니다.",
+      "type": "multiselect",
+      "options": [
+        { "value": "음주측정결과지", "label": "음주측정결과지" },
+        { "value": "사고현장사진", "label": "사고현장사진" },
+        { "value": "블랙박스영상", "label": "블랙박스영상" },
+        { "value": "진단서", "label": "진단서" },
+        { "value": "보험접수서류", "label": "보험접수서류" },
+        { "value": "합의서", "label": "합의서" }
+      ],
+      "next": { "_next": "Q006" }
+    },
+    {
+      "id": "Q006",
+      "field": "bac_level",
+      "stage": "혐의확인",
+      "text": "혈중알코올농도(BAC) 구간은?",
+      "type": "enum",
+      "options": [
+        { "value": "0.03~0.08", "label": "면허정지 수준" },
+        { "value": "0.08~0.2", "label": "면허취소 수준" },
+        { "value": "0.2이상", "label": "가중처벌 수준" },
+        { "value": "모름", "label": "정확한 수치를 모릅니다" }
+      ],
+      "next": { "0.03~0.08": "Q007", "0.08~0.2": "Q007", "0.2이상": "Q007", "모름": "Q007" }
+    },
+    {
+      "id": "Q007",
+      "field": "accident_involved",
+      "stage": "사고확인",
+      "text": "사고가 동반되었나요?",
+      "type": "enum",
+      "options": [
+        { "value": "사고없음", "label": "단속만 받았습니다" },
+        { "value": "물적사고", "label": "차량·시설물 파손이 있습니다" },
+        { "value": "인적사고", "label": "부상자가 있습니다" },
+        { "value": "사망사고", "label": "사망자가 있습니다" }
+      ],
+      "next": { "사고없음": "Q008", "물적사고": "Q008", "인적사고": "Q008", "사망사고": "Q008" }
+    },
+    {
+      "id": "Q008",
+      "field": "license_status",
+      "stage": "면허확인",
+      "text": "현재 면허 상태는?",
+      "type": "enum",
+      "options": [
+        { "value": "유효", "label": "면허가 유효합니다" },
+        { "value": "정지", "label": "면허 정지 상태입니다" },
+        { "value": "취소", "label": "면허가 취소되었습니다" },
+        { "value": "무면허", "label": "면허가 없습니다" }
+      ],
+      "next": { "유효": "Q009", "정지": "Q009", "취소": "Q009", "무면허": "Q009" }
+    },
+    {
+      "id": "Q009",
+      "field": "prior_offense",
+      "stage": "전과확인",
+      "text": "음주운전 전과가 있나요?",
+      "type": "enum",
+      "options": [
+        { "value": "초범", "label": "처음입니다" },
+        { "value": "2회이상", "label": "이전에도 음주운전 전력이 있습니다" }
+      ],
+      "next": { "초범": "Q010", "2회이상": "Q010" }
+    },
+    {
+      "id": "Q010",
+      "field": "measurement_refusal",
+      "stage": "측정확인",
+      "text": "음주측정을 거부했나요?",
+      "type": "enum",
+      "options": [
+        { "value": "측정함", "label": "측정에 응했습니다" },
+        { "value": "거부함", "label": "측정을 거부했습니다" },
+        { "value": "해당없음", "label": "해당 사항이 없습니다" }
+      ],
+      "next": { "측정함": "Q011", "거부함": "Q011", "해당없음": "Q011" }
+    },
+    {
+      "id": "Q011",
+      "field": "report_status",
+      "stage": "조사확인",
+      "text": "경찰 조사를 받았나요?",
+      "type": "enum",
+      "options": [
+        { "value": "조사받음", "label": "경찰 조사를 받았습니다" },
+        { "value": "조사예정", "label": "조사 일정이 잡혀 있습니다" },
+        { "value": "안받음", "label": "아직 조사를 받지 않았습니다" }
+      ],
+      "next": { "조사받음": "RESULT", "조사예정": "RESULT", "안받음": "RESULT" }
+    }
+  ]
+}

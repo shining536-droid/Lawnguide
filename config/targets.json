@@ -25,6 +25,11 @@
     { "domainId": "stalking", "name": "스토킹", "csmSeq": 1661 },
     { "domainId": "assault", "name": "폭행", "csmSeq": 538 },
     { "domainId": "child-sex-crime", "name": "아동성범죄", "csmSeq": 1121 },
-    { "domainId": "school-violence", "name": "학교폭력", "csmSeq": 1408 }
+    { "domainId": "school-violence", "name": "학교폭력", "csmSeq": 1408 },
+    { "domainId": "fraud", "name": "사기/재산범죄", "csmSeq": 993 },
+    { "domainId": "dui", "name": "음주운전", "csmSeq": 684 },
+    { "domainId": "traffic-accident", "name": "교통사고", "csmSeq": 684 },
+    { "domainId": "drug-crime", "name": "마약범죄", "csmSeq": 1964 },
+    { "domainId": "prostitution", "name": "성매매", "csmSeq": 687 }
   ]
 }

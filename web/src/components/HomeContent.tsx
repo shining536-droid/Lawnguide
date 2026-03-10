@@ -65,6 +65,22 @@ function ExclamationIcon({ className }: { className?: string }) {
   );
 }
 
+function ScaleIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0-17.25c-1.33 0-2.625.31-3.813.884M12 3c1.33 0 2.625.31 3.813.884M3.228 12.854l.804-3.216a2.25 2.25 0 012.186-1.713h.348M20.772 12.854l-.804-3.216a2.25 2.25 0 00-2.186-1.713h-.348M6.566 7.925L3.228 12.854M17.434 7.925l3.338 4.929M3.228 12.854a3.375 3.375 0 006.566 0M14.206 12.854a3.375 3.375 0 006.566 0" />
+    </svg>
+  );
+}
+
+function CarIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.149-.504 1.149-1.125v-5.434a2.25 2.25 0 00-.659-1.591l-2.56-2.56a2.25 2.25 0 00-1.591-.659H5.25a2.25 2.25 0 00-2.25 2.25v7.994" />
+    </svg>
+  );
+}
+
 const CATEGORIES: Category[] = [
   {
     id: 'housing',
@@ -110,7 +126,6 @@ const CATEGORIES: Category[] = [
       { id: 'divorce', name: '이혼', desc: '협의이혼, 재판이혼 등' },
       { id: 'child-support', name: '양육비', desc: '양육비 청구, 이행확보 등' },
       { id: 'inheritance', name: '상속', desc: '상속순위, 유류분 등' },
-      { id: 'defamation', name: '인터넷 명예훼손', desc: '게시물 삭제, 손해배상 등' },
     ],
   },
   {
@@ -123,6 +138,7 @@ const CATEGORIES: Category[] = [
       { id: 'sexual-harassment', name: '성희롱', desc: '직장 내 성희롱 등' },
       { id: 'stalking', name: '스토킹', desc: '반복적 따라다님, 연락 등' },
       { id: 'child-sex-crime', name: '아동성범죄', desc: '아동·청소년 대상 성범죄' },
+      { id: 'prostitution', name: '성매매', desc: '성매매 피해 지원, 혐의 대응 등' },
     ],
   },
   {
@@ -132,6 +148,25 @@ const CATEGORIES: Category[] = [
     domains: [
       { id: 'assault', name: '폭행', desc: '폭행, 상해, 협박 등' },
       { id: 'school-violence', name: '학교폭력', desc: '물리적·언어적·사이버 폭력' },
+    ],
+  },
+  {
+    id: 'criminal',
+    label: '형사/범죄',
+    icon: ScaleIcon,
+    domains: [
+      { id: 'fraud', name: '사기/재산범죄', desc: '사기 피해, 혐의 대응 등' },
+      { id: 'drug-crime', name: '마약범죄', desc: '마약 관련 수사, 혐의 대응 등' },
+      { id: 'defamation', name: '명예훼손/모욕', desc: '온라인·오프라인 명예훼손, 모욕 등' },
+    ],
+  },
+  {
+    id: 'traffic',
+    label: '교통',
+    icon: CarIcon,
+    domains: [
+      { id: 'dui', name: '음주운전', desc: '음주운전 단속, 사고 대응 등' },
+      { id: 'traffic-accident', name: '교통사고', desc: '합의, 보험, 과실 문제 등' },
     ],
   },
 ];
@@ -270,8 +305,8 @@ export default function HomeContent() {
 
           {/* Category nav inside hero */}
           <div className="mt-10 md:mt-14">
-            {/* PC: single row of 6 */}
-            <div className="hidden md:flex md:justify-center md:gap-3 lg:gap-5">
+            {/* PC: 2 rows of 4 */}
+            <div className="hidden md:flex md:flex-wrap md:justify-center md:gap-3 lg:gap-5">
               {CATEGORIES.map((cat) => (
                 <button
                   key={cat.id}
@@ -290,8 +325,8 @@ export default function HomeContent() {
               ))}
             </div>
 
-            {/* Mobile: 2x3 grid */}
-            <div className="grid grid-cols-3 gap-2.5 md:hidden">
+            {/* Mobile: 2x4 grid */}
+            <div className="grid grid-cols-4 gap-2 md:hidden">
               {CATEGORIES.map((cat) => (
                 <button
                   key={cat.id}

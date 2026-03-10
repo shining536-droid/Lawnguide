@@ -1,0 +1,152 @@
+{
+  "_draft": true,
+  "domain": "drug-crime",
+  "version": "2026-03-10",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "Q001",
+      "field": "situation_type",
+      "stage": "상황확인",
+      "text": "현재 상황에 가장 가까운 것은?",
+      "type": "enum",
+      "options": [
+        { "value": "피해", "label": "마약 관련 피해를 입었어요" },
+        { "value": "혐의", "label": "마약 관련 혐의를 받고 있어요" },
+        { "value": "정리중", "label": "아직 상황을 정리 중이에요" },
+        { "value": "보호자", "label": "보호자/가족으로서 확인하고 싶어요" }
+      ],
+      "next": { "피해": "Q002", "혐의": "Q002", "정리중": "Q002", "보호자": "Q002" }
+    },
+    {
+      "id": "Q002",
+      "field": "progress_stage",
+      "stage": "진행단계",
+      "text": "지금 어디까지 진행된 상황인가요?",
+      "type": "enum",
+      "options": [
+        { "value": "시작", "label": "문제를 인식한 단계입니다" },
+        { "value": "진행중", "label": "신고하거나 조치를 하고 있는 중입니다" },
+        { "value": "조치중", "label": "법적 조치를 진행하고 있습니다" },
+        { "value": "완료후문제", "label": "조치를 했으나 새로운 문제가 생겼습니다" }
+      ],
+      "next": { "시작": "Q003", "진행중": "Q003", "조치중": "Q003", "완료후문제": "Q003" }
+    },
+    {
+      "id": "Q003",
+      "field": "timeline",
+      "stage": "진행단계",
+      "text": "이 문제가 시작된 건 언제부터인가요?",
+      "type": "enum",
+      "options": [
+        { "value": "며칠", "label": "며칠 전부터" },
+        { "value": "1주", "label": "약 1주 전부터" },
+        { "value": "1개월", "label": "약 1개월 전부터" },
+        { "value": "1개월이상", "label": "1개월 이상 되었습니다" }
+      ],
+      "next": { "며칠": "Q004", "1주": "Q004", "1개월": "Q004", "1개월이상": "Q004" }
+    },
+    {
+      "id": "Q004",
+      "field": "existing_docs",
+      "stage": "자료확인",
+      "text": "지금 가지고 있는 자료를 골라주세요",
+      "description": "해당하는 것을 모두 선택해주세요. 없으면 선택하지 않고 넘어가도 됩니다.",
+      "type": "multiselect",
+      "options": [
+        { "value": "압수수색영장사본", "label": "압수수색영장사본" },
+        { "value": "체포영장사본", "label": "체포영장사본" },
+        { "value": "소변·모발검사결과", "label": "소변·모발검사결과" },
+        { "value": "변호인접견기록", "label": "변호인접견기록" },
+        { "value": "진술조서사본", "label": "진술조서사본" },
+        { "value": "의료기록", "label": "의료기록" }
+      ],
+      "next": { "_next": "Q005" }
+    },
+    {
+      "id": "Q005",
+      "field": "drug_involvement",
+      "stage": "관련유형확인",
+      "text": "관련 유형은?",
+      "type": "enum",
+      "options": [
+        { "value": "투약", "label": "투약·사용" },
+        { "value": "소지", "label": "소지·보관" },
+        { "value": "유통", "label": "매매·유통·밀수" },
+        { "value": "기타", "label": "기타" }
+      ],
+      "next": { "투약": "Q006", "소지": "Q006", "유통": "Q006", "기타": "Q006" }
+    },
+    {
+      "id": "Q006",
+      "field": "drug_type",
+      "stage": "약물확인",
+      "text": "관련 약물 종류는?",
+      "type": "enum",
+      "options": [
+        { "value": "대마", "label": "대마" },
+        { "value": "필로폰", "label": "필로폰" },
+        { "value": "마약류", "label": "마약류(헤로인 등)" },
+        { "value": "향정신성의약품", "label": "향정신성의약품" },
+        { "value": "모름", "label": "모름" },
+        { "value": "기타", "label": "기타" }
+      ],
+      "next": { "대마": "Q007", "필로폰": "Q007", "마약류": "Q007", "향정신성의약품": "Q007", "모름": "Q007", "기타": "Q007" }
+    },
+    {
+      "id": "Q007",
+      "field": "investigation_stage",
+      "stage": "수사단계확인",
+      "text": "수사 단계는?",
+      "type": "enum",
+      "options": [
+        { "value": "수사전", "label": "아직 수사가 시작되지 않았습니다" },
+        { "value": "수사중", "label": "경찰·검찰 수사 중입니다" },
+        { "value": "기소됨", "label": "재판이 진행 중입니다" },
+        { "value": "모름", "label": "모름" }
+      ],
+      "next": { "수사전": "Q008", "수사중": "Q008", "기소됨": "Q008", "모름": "Q008" }
+    },
+    {
+      "id": "Q008",
+      "field": "voluntary_surrender",
+      "stage": "자수확인",
+      "text": "자수를 고려하고 있나요?",
+      "type": "enum",
+      "options": [
+        { "value": "자수함", "label": "이미 자수했습니다" },
+        { "value": "고려중", "label": "자수를 고려하고 있습니다" },
+        { "value": "안함", "label": "자수 계획이 없습니다" },
+        { "value": "해당없음", "label": "해당없음" }
+      ],
+      "next": { "자수함": "Q009", "고려중": "Q009", "안함": "Q009", "해당없음": "Q009" }
+    },
+    {
+      "id": "Q009",
+      "field": "detention_status",
+      "stage": "구속확인",
+      "text": "현재 구속 상태인가요?",
+      "type": "enum",
+      "options": [
+        { "value": "구속", "label": "구속 상태입니다" },
+        { "value": "불구속", "label": "불구속 상태입니다" },
+        { "value": "석방", "label": "석방되었습니다" },
+        { "value": "해당없음", "label": "해당없음" }
+      ],
+      "next": { "구속": "Q010", "불구속": "Q010", "석방": "Q010", "해당없음": "Q010" }
+    },
+    {
+      "id": "Q010",
+      "field": "legal_counsel",
+      "stage": "변호사확인",
+      "text": "변호사 선임 상태는?",
+      "type": "enum",
+      "options": [
+        { "value": "선임함", "label": "변호사를 선임했습니다" },
+        { "value": "국선변호인", "label": "국선변호인이 배정되었습니다" },
+        { "value": "미선임", "label": "아직 선임하지 않았습니다" }
+      ],
+      "next": { "선임함": "RESULT", "국선변호인": "RESULT", "미선임": "RESULT" }
+    }
+  ]
+}
