@@ -17,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko">
       <head>
+        <meta name="google-site-verification" content="vL9P2IwiUGewHLUXc8epNWxdLtdZNtkAkim3QyaPiFU" />
         {/* GA4 placeholder - replace with your Measurement ID */}
         {process.env.NEXT_PUBLIC_GA_ID && (
           <>

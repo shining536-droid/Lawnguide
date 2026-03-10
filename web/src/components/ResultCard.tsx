@@ -210,10 +210,60 @@ const FIELD_LABELS: Record<string, string> = {
   property_type: '부동산 유형',
 };
 
-// Template replacement: {field} -> answer value
-function renderTemplate(template: string, answers: Record<string, string>): string {
+// Fallback values for template variables that may not exist in answers
+const TEMPLATE_FALLBACKS: Record<string, string> = {
+  duration: '최근',
+  timeline: '최근',
+  existing_docs: '정리된 자료가 많지 않은 상태',
+  progress_stage: '확인이 필요한',
+  counterparty_contact: '연락 상태 확인이 필요한',
+  contact_status: '연락 상태 확인이 필요한',
+  first_action_short: '기본 자료부터 정리해두는 것',
+  situation_type: '해당',
+  problem_type: '해당',
+  residence_status: '확인이 필요한',
+  deposit_status: '확인이 필요한',
+  payment_status: '확인이 필요한',
+  employment_status: '확인이 필요한',
+  move_in_report: '확인이 필요한',
+  fixed_date: '확인이 필요한',
+  assault_type: '해당',
+  report_status: '확인 전',
+  medical_exam: '확인 전',
+  crime_subtype: '해당',
+  harassment_type: '해당',
+  stalking_type: '해당',
+  divorce_type: '해당',
+  dispute_type: '해당',
+  claim_type: '해당',
+  debtor_type: '해당',
+  fraud_type: '해당',
+  issue_type: '해당',
+  sale_stage: '해당',
+  auction_stage: '해당',
+  accident_type: '해당',
+  benefit_type: '해당',
+  separation_reason_ue: '해당',
+  defamation_type: '해당',
+  violence_type: '해당',
+  support_status: '해당',
+  inheritance_status: '해당',
+};
+
+// Template replacement: {field} -> answer value with fallback
+function renderTemplate(template: string, answers: Record<string, string>, result?: ResultEntry): string {
+  // Derive first_action_short from result if not in answers
+  const vars: Record<string, string> = { ...answers };
+  if (result?.first_action?.items?.[0] && !vars.first_action_short) {
+    vars.first_action_short = result.first_action.items[0]
+      .replace(/해보세요$/, '해보는 것')
+      .replace(/하세요$/, '하는 것')
+      .replace(/받아보세요$/, '받아보는 것')
+      .replace(/보세요$/, '보는 것');
+  }
+
   return template.replace(/\{(\w+)\}/g, (_, field) => {
-    return answers[field] || '(미입력)';
+    return vars[field] || TEMPLATE_FALLBACKS[field] || '';
   });
 }
 
@@ -269,7 +319,7 @@ function FirstActionBox({ firstAction, onScrollTo }: { firstAction: FirstAction;
 // [C] Status Summary
 function StatusSummary({ result, answers }: { result: ResultEntry; answers?: Record<string, string> }) {
   const summary = result.status_summary_template && answers
-    ? renderTemplate(result.status_summary_template, answers)
+    ? renderTemplate(result.status_summary_template, answers, result)
     : result.status_summary;
 
   return (
@@ -343,21 +393,28 @@ function ThisWeekItems({ items }: { items: string[] }) {
   );
 }
 
-// [G] Timeline Visualization
+// [G] Timeline Visualization — horizontal on desktop, vertical on mobile
 function Timeline({ steps }: { steps: TimelineStep[] }) {
+  // Find index of first active step (for completed logic)
+  const activeIndex = steps.findIndex((s) => s.active);
+
   return (
     <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
       <h3 className="mb-5 text-xl font-bold text-navy-700 md:text-2xl">진행 절차 안내</h3>
-      <div className="flex items-start overflow-x-auto pb-2">
+
+      {/* Desktop: horizontal layout (md+) */}
+      <div className="hidden md:flex items-start overflow-x-auto pb-2">
         {steps.map((step, i) => (
           <div key={i} className="flex items-start">
             <div className="flex flex-col items-center" style={{ minWidth: '120px' }}>
               <div className={`flex h-10 w-10 items-center justify-center rounded-full text-sm font-bold ${
                 step.active
                   ? 'bg-primary-600 text-white ring-4 ring-primary-100'
-                  : 'bg-gray-200 text-gray-500'
+                  : activeIndex >= 0 && i < activeIndex
+                    ? 'bg-primary-600 text-white'
+                    : 'bg-gray-200 text-gray-500'
               }`}>
-                {i + 1}
+                {activeIndex >= 0 && i < activeIndex ? '\u2713' : i + 1}
               </div>
               <p className={`mt-2 text-center text-sm font-medium ${step.active ? 'text-primary-700' : 'text-gray-600'}`}>
                 {step.label}
@@ -371,6 +428,40 @@ function Timeline({ steps }: { steps: TimelineStep[] }) {
             )}
           </div>
         ))}
+      </div>
+
+      {/* Mobile: vertical layout (<md) */}
+      <div className="md:hidden flex flex-col">
+        {steps.map((step, i) => {
+          const isCompleted = activeIndex >= 0 && i < activeIndex;
+          const isActive = step.active;
+          return (
+            <div key={i} className="flex items-start gap-4">
+              {/* Left: circle + connector line */}
+              <div className="flex flex-col items-center">
+                <div className={`flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full text-sm font-bold ${
+                  isActive
+                    ? 'bg-primary-600 text-white ring-4 ring-primary-100'
+                    : isCompleted
+                      ? 'bg-primary-600 text-white'
+                      : 'bg-gray-200 text-gray-500'
+                }`}>
+                  {isCompleted ? '\u2713' : i + 1}
+                </div>
+                {i < steps.length - 1 && (
+                  <div className="w-0.5 flex-1 min-h-[28px] bg-gray-200 my-1" />
+                )}
+              </div>
+              {/* Right: label + description */}
+              <div className={`pb-5 ${i === steps.length - 1 ? 'pb-0' : ''}`}>
+                <p className={`text-base font-medium ${isActive ? 'text-primary-700 font-bold' : 'text-gray-600'}`}>
+                  {step.label}
+                </p>
+                <p className="text-sm text-gray-400 mt-0.5">{step.desc}</p>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
@@ -423,13 +514,19 @@ function PriorityChecklist({
   const renderDocItem = (doc: DocumentItem, i: number) => {
     const autoHas = doc.status === 'has' || existingDocs.includes(doc.label);
     return (
-      <div key={i} className="flex items-center gap-3 rounded-lg bg-gray-50 px-4 py-3 text-lg">
-        <span className="text-lg">{autoHas ? '\u2705' : '\u2610'}</span>
-        <span className={autoHas ? 'text-gray-500' : 'font-medium text-gray-800'}>
+      <div key={i} className="rounded-lg bg-gray-50 px-4 py-3.5">
+        {/* Line 1: Document name — bold */}
+        <p className={`text-base font-semibold ${autoHas ? 'text-gray-500' : 'text-gray-800'}`}>
           {doc.label}
-          {doc.note && <span className="ml-1 text-base text-gray-500">({doc.note})</span>}
-        </span>
-        {!autoHas && <span className="ml-auto text-sm text-orange-600">준비 필요</span>}
+        </p>
+        {/* Line 2: Description — small gray, wrap allowed */}
+        {doc.note && (
+          <p className="mt-1 text-sm leading-relaxed text-gray-500">{doc.note}</p>
+        )}
+        {/* Line 3: Status */}
+        <p className={`mt-1.5 text-sm font-medium ${autoHas ? 'text-green-600' : 'text-orange-600'}`}>
+          {autoHas ? '\u2705 있음' : '\u2610 준비 필요'}
+        </p>
       </div>
     );
   };
@@ -444,7 +541,7 @@ function PriorityChecklist({
               <span className="flex h-5 w-5 items-center justify-center rounded bg-red-100 text-xs">!</span>
               반드시 준비
             </h4>
-            <div className="space-y-1.5">{priority.map(renderDocItem)}</div>
+            <div className="space-y-2.5">{priority.map(renderDocItem)}</div>
           </div>
         )}
         {optional && optional.length > 0 && (
@@ -453,7 +550,7 @@ function PriorityChecklist({
               <span className="flex h-5 w-5 items-center justify-center rounded bg-gray-100 text-xs">+</span>
               있으면 좋은 것
             </h4>
-            <div className="space-y-1.5">{optional.map(renderDocItem)}</div>
+            <div className="space-y-2.5">{optional.map(renderDocItem)}</div>
           </div>
         )}
       </section>
@@ -467,7 +564,7 @@ function PriorityChecklist({
     return (
       <section id="checklist" className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
         <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">상담 전 체크리스트</h3>
-        <div className="space-y-1.5">{documents.map(renderDocItem)}</div>
+        <div className="space-y-2.5">{documents.map(renderDocItem)}</div>
       </section>
     );
   }
@@ -475,14 +572,15 @@ function PriorityChecklist({
   return (
     <section id="checklist" className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
       <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">상담 전 체크리스트</h3>
-      <div className="space-y-1.5">
+      <div className="space-y-2.5">
         {documents.map((doc, i) => {
           const autoHas = existingDocs.includes(doc);
           return (
-            <div key={i} className="flex items-center gap-3 rounded-lg bg-gray-50 px-4 py-3 text-lg">
-              <span className="text-lg">{autoHas ? '\u2705' : '\u2610'}</span>
-              <span className={autoHas ? 'text-gray-500' : 'font-medium text-gray-800'}>{doc}</span>
-              {!autoHas && <span className="ml-auto text-sm text-orange-600">준비 필요</span>}
+            <div key={i} className="rounded-lg bg-gray-50 px-4 py-3.5">
+              <p className={`text-base font-semibold ${autoHas ? 'text-gray-500' : 'text-gray-800'}`}>{doc}</p>
+              <p className={`mt-1.5 text-sm font-medium ${autoHas ? 'text-green-600' : 'text-orange-600'}`}>
+                {autoHas ? '\u2705 있음' : '\u2610 준비 필요'}
+              </p>
             </div>
           );
         })}

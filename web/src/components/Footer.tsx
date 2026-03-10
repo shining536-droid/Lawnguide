@@ -9,7 +9,7 @@ export default function Footer() {
           이 서비스는 법적 효력을 갖는 유권해석이 아닙니다. 정확한 법률 판단은 전문가 상담을 받으시기 바랍니다.
         </p>
         <p className="mt-2 text-center text-sm text-navy-400">
-          데이터 출처: 찾기 쉬운 생활법령정보 (easylaw.go.kr)
+          데이터 출처: 법제처
         </p>
       </div>
       {/* Decorative diamond */}

@@ -7,7 +7,7 @@
       "type_id": "TYPE_UNPAID",
       "type_name": "퇴직금 미지급 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 근무기간 {service_period}, 퇴직금 관련 준비사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 근무기간은 {service_period}이며, 현재 보유 자료는 {existing_docs} 중심입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "first_action": {
         "title": "지금 바로 확인하세요",
@@ -24,15 +24,15 @@
       "key_checkpoints": [
         {
           "title": "퇴직일로부터 14일 지급 의무",
-          "desc": "사업주는 퇴직일로부터 14일 이내에 퇴직금을 지급해야 합니다. 14일이 지났다면 체불에 해당합니다."
+          "desc": "사업주는 퇴직일로부터 14일 이내에 퇴직금을 지급해야 하므로, 퇴직일과 14일 경과 여부를 먼저 확인해보세요."
         },
         {
           "title": "소멸시효 3년",
-          "desc": "퇴직금 청구권의 소멸시효는 3년입니다. 퇴직일로부터 3년이 지나면 청구가 어려워질 수 있으니 빨리 조치하세요."
+          "desc": "퇴직금 청구권의 소멸시효는 3년이므로, 퇴직일로부터 남은 기간을 확인하고 빠르게 조치를 준비해보세요."
         },
         {
-          "title": "미지급 시 형사 처벌 가능",
-          "desc": "퇴직금을 지급하지 않으면 사업주에게 3년 이하 징역 또는 3천만원 이하 벌금이 부과될 수 있습니다."
+          "title": "체불 진정 절차",
+          "desc": "사업주가 퇴직금을 지급하지 않으면 고용노동부에 진정을 제기할 수 있으므로, 필요 서류를 미리 정리해보세요."
         }
       ],
       "timeline_steps": [
@@ -95,7 +95,7 @@
       "type_id": "TYPE_CLOSED",
       "type_name": "폐업·연락두절 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 사업장 폐업·연락두절 상황에서의 준비사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 사업주와는 {counterparty_contact} 상태이며, 근무기간은 {service_period}입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "first_action": {
         "title": "지금 바로 확인하세요",
@@ -110,8 +110,8 @@
         ]
       },
       "key_checkpoints": [
-        { "title": "대지급금 제도 활용", "desc": "사업주가 도산(폐업·파산)한 경우, 근로복지공단에서 체불 퇴직금을 대신 지급받을 수 있습니다." },
-        { "title": "폐업이라도 진정 가능", "desc": "사업장이 폐업했더라도 고용노동부에 체불 퇴직금 진정을 제기할 수 있습니다." }
+        { "title": "대지급금 제도 활용", "desc": "사업주가 도산(폐업·파산)한 경우 근로복지공단에서 체불 퇴직금을 대신 지급받을 수 있으므로, 근로복지공단(1588-0075)에 신청 가능 여부를 확인해보세요." },
+        { "title": "폐업이라도 진정 가능", "desc": "사업장이 폐업했더라도 고용노동부에 체불 진정을 제기할 수 있으므로, 근무 사실을 증명할 자료를 정리해보세요." }
       ],
       "timeline_steps": [
         { "label": "폐업 확인", "desc": "홈택스 조회", "active": true },
@@ -166,7 +166,7 @@
       "type_id": "TYPE_CALCULATION",
       "type_name": "퇴직금 산정 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 관련으로 {progress_stage} 단계이시군요. 퇴직금 산정에 필요한 사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 근무기간은 {service_period}이며, 최근 3개월 급여자료는 {recent_salary_docs} 상태입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
       "first_action": {
         "title": "이렇게 시작하세요",
@@ -178,8 +178,8 @@
         "buttons": [{ "label": "체크리스트 보기", "target": "checklist" }]
       },
       "key_checkpoints": [
-        { "title": "평균임금 계산법", "desc": "퇴직 전 3개월간 임금 총액을 그 기간의 총일수로 나눕니다. 기본급 외에 정기상여금, 연차수당도 포함됩니다." },
-        { "title": "퇴직금 계산 공식", "desc": "퇴직금 = 1일 평균임금 × 30일 × 총 근속연수. 1년 미만은 일할 계산합니다." }
+        { "title": "평균임금 계산법", "desc": "퇴직 전 3개월간 임금 총액을 총일수로 나누며 정기상여금과 연차수당도 포함되므로, 급여명세서에서 항목별로 정리해보세요." },
+        { "title": "퇴직금 계산 공식", "desc": "퇴직금은 1일 평균임금 x 30일 x 총 근속연수로 계산되므로, 고용노동부 퇴직금 계산기로 예상 금액을 확인해보세요." }
       ],
       "timeline_steps": [
         { "label": "자료 준비", "desc": "급여명세서 수집", "active": true },
@@ -232,7 +232,7 @@
       "type_id": "TYPE_INTERIM",
       "type_name": "중간정산 검토 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 관련으로 {progress_stage} 단계이시군요. 중간정산 관련 확인사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 근무기간은 {service_period}이며, 퇴직급여 유형은 {pension_type}입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "기본 확인 후 준비해보세요",
       "first_action": {
         "title": "이렇게 시작하세요",
@@ -243,8 +243,8 @@
         ]
       },
       "key_checkpoints": [
-        { "title": "법정 중간정산 사유", "desc": "2012년 이후 중간정산은 주택 구입, 전세보증금, 6개월 이상 요양 등 법정 사유가 있어야 가능합니다." },
-        { "title": "부적법 중간정산의 효과", "desc": "적법하지 않은 중간정산은 퇴직 시 재정산 대상이 될 수 있어 추가 퇴직금을 받을 수 있습니다." }
+        { "title": "법정 중간정산 사유", "desc": "2012년 이후 중간정산은 법정 사유(주택 구입, 전세보증금 등)가 있어야 가능하므로, 본인의 정산 사유가 해당하는지 확인해보세요." },
+        { "title": "부적법 중간정산의 효과", "desc": "적법하지 않은 중간정산은 퇴직 시 재정산 대상이 될 수 있으므로, 중간정산 당시 기록을 정리해보세요." }
       ],
       "actions": {
         "today": [ "중간정산을 받은 기록(일시, 금액, 사유)을 정리해보세요", "중간정산 후 근속기간이 리셋되었는지 확인해보세요" ],
@@ -280,7 +280,7 @@
       "type_id": "TYPE_PENSION",
       "type_name": "퇴직연금 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 관련으로 {progress_stage} 단계이시군요. 퇴직연금 관련 확인사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 퇴직급여 유형은 {pension_type}이며, 근무기간은 {service_period}입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "기본 확인 후 준비해보세요",
       "first_action": {
         "title": "이렇게 시작하세요",
@@ -291,8 +291,8 @@
         ]
       },
       "key_checkpoints": [
-        { "title": "DB형 vs DC형 차이", "desc": "DB형은 퇴직 시 확정된 금액을 받고, DC형은 적립금 운용 결과에 따라 수령액이 달라집니다." },
-        { "title": "연금 수령 조건", "desc": "55세 이상이고 가입기간이 10년 이상이면 연금으로 수령할 수 있으며, 세금 혜택이 있습니다." }
+        { "title": "DB형 vs DC형 차이", "desc": "DB형은 확정 금액, DC형은 운용 결과에 따라 수령액이 달라지므로, 본인의 퇴직연금 유형을 회사에 확인해보세요." },
+        { "title": "연금 수령 조건", "desc": "55세 이상이고 가입기간 10년 이상이면 연금 수령과 세금 혜택이 가능하므로, 일시금과 연금 수령 방식을 비교해보세요." }
       ],
       "actions": {
         "today": [ "회사가 운영 중인 퇴직연금 유형(DB/DC)을 확인해보세요", "퇴직연금 적립금 현황을 퇴직연금 사업자(금융기관)에 문의해보세요" ],

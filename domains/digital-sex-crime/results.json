@@ -10,7 +10,7 @@
       "type_id": "TYPE_VICTIM_URGENT",
       "type_name": "긴급 대응 확인 필요",
       "status_summary": "입력한 내용을 기준으로 긴급하게 확인하고 대응할 사항이 있어 보입니다.",
-      "status_summary_template": "{crime_subtype} 유형의 {situation_type} 상황으로, 현재 {progress_stage} 단계이시군요. 긴급하게 확인할 사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {crime_subtype} 관련으로 {progress_stage} 단계이고, {spread_extent} 확산 상태이며, 현재 보유 자료는 {existing_docs} 중심입니다. 지금은 증거 확보와 삭제 지원 요청이 도움이 됩니다.",
       "risk_level": "즉시 확인이 필요한 상황입니다",
       "safety_warning": "지금 위험한 상황이라면 즉시 112에 신고하세요. 안전이 최우선입니다.",
       "first_action": {
@@ -28,15 +28,15 @@
       "key_checkpoints": [
         {
           "title": "증거 확보가 최우선",
-          "desc": "촬영물이 삭제되더라도 캡처 등 증거는 먼저 확보해두는 것이 좋습니다. URL, 게시일시, 작성자 정보를 포함한 전체 캡처가 필요합니다."
+          "desc": "촬영물이 삭제되기 전에 URL, 게시일시, 작성자 정보를 포함한 전체 캡처를 먼저 정리해보세요."
         },
         {
           "title": "삭제 지원 요청",
-          "desc": "디지털성범죄피해자지원센터에서 유포된 촬영물의 삭제를 지원받을 수 있습니다. 방송통신심의위원회를 통한 긴급 차단도 가능합니다."
+          "desc": "디지털성범죄피해자지원센터에 삭제 지원을 요청할 수 있으니, 유포 경로를 함께 정리해보세요."
         },
         {
           "title": "국선변호사 선정 검토",
-          "desc": "성폭력 피해를 입은 경우 국선변호사를 선정받을 수 있습니다. 해바라기센터를 통해 안내받을 수 있습니다."
+          "desc": "피해 상황에서 국선변호사 지원이 가능한지 해바라기센터를 통해 확인해보세요."
         }
       ],
       "timeline_steps": [
@@ -128,7 +128,7 @@
       "type_id": "TYPE_VICTIM_STANDARD",
       "type_name": "피해 상황 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{crime_subtype} 유형의 {situation_type} 상황으로, 현재 {progress_stage} 단계이시군요. 확인할 사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {crime_subtype} 관련으로 {progress_stage} 단계이고, {platform}에서 발생한 상태이며, 현재 보유 자료는 {existing_docs} 중심입니다. 지금은 증거 캡처와 지원센터 상담이 도움이 됩니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "safety_warning": "지금 위험한 상황이라면 즉시 112에 신고하세요. 안전이 최우선입니다.",
       "first_action": {
@@ -146,15 +146,15 @@
       "key_checkpoints": [
         {
           "title": "증거 확보 우선",
-          "desc": "촬영물이 삭제되기 전에 증거를 먼저 확보해두는 것이 좋습니다. URL, 게시일시, 작성자 정보를 포함한 전체 캡처가 필요합니다."
+          "desc": "촬영물이 삭제되기 전에 URL, 게시일시, 작성자 정보를 포함한 전체 캡처를 먼저 정리해보세요."
         },
         {
           "title": "지원기관 상담",
-          "desc": "디지털성범죄피해자지원센터에서 삭제 지원, 상담, 수사·법률·의료 지원을 받을 수 있습니다."
+          "desc": "디지털성범죄피해자지원센터에서 삭제 지원과 상담을 받을 수 있으니 연락해보세요."
         },
         {
           "title": "피해 일지 작성",
-          "desc": "날짜별 피해 내용을 정리해두면 신고나 법적 절차에서 중요한 증거가 됩니다."
+          "desc": "날짜별 피해 내용을 정리해두면 이후 절차에서 도움이 되니, 기억나는 대로 메모해두는 것이 좋습니다."
         }
       ],
       "timeline_steps": [
@@ -242,7 +242,7 @@
       "type_id": "TYPE_SUSPECT",
       "type_name": "혐의 관련 확인 필요",
       "status_summary": "입력한 내용을 기준으로 사실관계 정리와 법적 절차 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{crime_subtype} 관련 {situation_type} 상황으로, 현재 {progress_stage} 단계이시군요. 사실관계 정리를 위한 확인사항입니다.",
+      "status_summary_template": "입력한 내용을 보면 {crime_subtype} 관련으로 {progress_stage} 단계이고, {evidence_status} 증거 보존 상태이며, 현재 보유 자료는 {existing_docs} 중심입니다. 지금은 사실관계 정리가 도움이 됩니다.",
       "risk_level": "차분히 사실관계를 정리할 필요가 있는 상황입니다",
       "first_action": {
         "title": "이렇게 시작하세요",
@@ -259,11 +259,11 @@
       "key_checkpoints": [
         {
           "title": "진술 전 변호사 상담",
-          "desc": "수사기관 출석 전에 변호사 상담을 받아보는 것이 좋습니다. 대한법률구조공단(132)에서 무료 상담을 받을 수 있습니다."
+          "desc": "수사기관 출석 전에 변호사 상담을 받아보는 것이 좋으니, 대한법률구조공단(132)에 먼저 확인해보세요."
         },
         {
           "title": "증거 임의 삭제 금지",
-          "desc": "관련 자료를 임의로 삭제하면 증거인멸로 문제가 될 수 있습니다."
+          "desc": "관련 자료를 임의로 삭제하면 문제가 될 수 있으니, 현재 상태 그대로 보관하는 것을 신중하게 하세요."
         }
       ],
       "timeline_steps": [
@@ -339,7 +339,7 @@
       "type_id": "TYPE_GUARDIAN",
       "type_name": "보호자 확인 필요",
       "status_summary": "입력한 내용을 기준으로 보호자로서 확인할 수 있는 절차와 지원사항을 안내합니다.",
-      "status_summary_template": "{crime_subtype} 관련 보호자 상황으로, 현재 {progress_stage} 단계이시군요. 보호자로서 확인할 사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {crime_subtype} 관련으로 보호자로서 {progress_stage} 단계이고, {spread_extent} 확산 상태이며, 현재 보유 자료는 {existing_docs} 중심입니다. 지금은 당사자 안전 확인과 지원센터 상담이 도움이 됩니다.",
       "risk_level": "차분히 확인이 필요한 상황입니다",
       "first_action": {
         "title": "이렇게 시작하세요",
@@ -356,11 +356,11 @@
       "key_checkpoints": [
         {
           "title": "당사자 의사 존중",
-          "desc": "당사자의 의사를 존중하면서 지원하는 것이 중요합니다. 2차 피해가 발생하지 않도록 주변에 알리는 것은 신중히 검토하세요."
+          "desc": "당사자의 의사를 존중하면서 지원하는 것이 중요하며, 주변에 알리는 것은 신중하게 하세요."
         },
         {
           "title": "미성년자 법정대리인 권리",
-          "desc": "당사자가 미성년자인 경우 법정대리인으로서 국선변호사 신청, 촬영물 삭제 요청 등을 할 수 있습니다."
+          "desc": "당사자가 미성년자인 경우 법정대리인으로서 국선변호사 신청 등이 가능하니 확인해보세요."
         }
       ],
       "timeline_steps": [
@@ -441,7 +441,7 @@
       "type_id": "TYPE_EXPLORING",
       "type_name": "상황 정리 확인",
       "status_summary": "입력한 내용을 기준으로 상황을 정리하고 확인해볼 사항을 안내합니다.",
-      "status_summary_template": "{crime_subtype} 관련 상황을 정리 중이시군요. 현재 {progress_stage} 단계에서 확인할 사항을 안내합니다.",
+      "status_summary_template": "입력한 내용을 보면 {crime_subtype} 관련으로 {progress_stage} 단계이고, {evidence_status} 증거 보존 상태이며, 현재 보유 자료는 {existing_docs} 중심입니다. 지금은 상황 정리와 전문 상담이 도움이 됩니다.",
       "risk_level": "차분히 정리가 필요한 상황입니다",
       "first_action": {
         "title": "이렇게 시작하세요",
@@ -458,11 +458,11 @@
       "key_checkpoints": [
         {
           "title": "증거 보전 우선",
-          "desc": "상황이 정리되지 않더라도 증거 보전은 먼저 해두는 것이 좋습니다. 관련 화면 캡처, 메시지 저장 등을 진행하세요."
+          "desc": "상황이 정리되지 않더라도 관련 화면 캡처와 메시지 저장을 먼저 정리해보세요."
         },
         {
           "title": "전문 상담 활용",
-          "desc": "혼자 판단이 어려우면 디지털성범죄피해자지원센터나 여성긴급전화에서 전문 상담을 받아볼 수 있습니다."
+          "desc": "혼자 판단이 어려울 때 디지털성범죄피해자지원센터나 여성긴급전화에서 상담을 받아볼 수 있으니 확인해보세요."
         }
       ],
       "timeline_steps": [

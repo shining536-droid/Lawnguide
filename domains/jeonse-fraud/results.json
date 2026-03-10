@@ -7,7 +7,7 @@
       "type_id": "TYPE_AUCTION",
       "type_name": "경매 대응 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 경매 대응을 위한 확인사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 경매 상태는 {auction_status}이며, 현재 보유 자료는 {existing_docs} 중심입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "view": "detailed",
       "first_action": {
@@ -25,15 +25,15 @@
       "key_checkpoints": [
         {
           "title": "배당요구 종기일 확인",
-          "desc": "배당요구종기일까지 배당요구를 해야 경매 배당에 참가할 수 있습니다. 이 기한을 놓치면 배당에서 제외됩니다."
+          "desc": "배당요구종기일까지 배당요구를 해야 경매 배당에 참가할 수 있으므로, 법원 통지서에서 기한을 꼭 확인해보세요."
         },
         {
           "title": "피해자 인정 신청",
-          "desc": "전세사기 피해자로 인정받으면 경매 유예, 우선매수권 등을 신청할 수 있습니다."
+          "desc": "전세사기 피해자로 인정받으면 경매 유예와 우선매수권을 신청할 수 있으므로, 전세사기피해지원센터에 절차를 확인해보세요."
         },
         {
           "title": "대항력 유지",
-          "desc": "경매 진행 중 이사하면 대항력이 상실될 수 있으므로 전입신고를 유지해야 합니다."
+          "desc": "경매 진행 중 이사하면 대항력이 상실될 수 있으므로, 전입신고를 유지하고 이사 일정은 신중하게 하세요."
         }
       ],
       "timeline_steps": [
@@ -115,7 +115,7 @@
       "type_id": "TYPE_EMERGENCY",
       "type_name": "긴급 주거지원 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 긴급 주거지원 관련 확인사항을 정리했습니다.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 현재 주거 상황은 {housing_need}이며, 상대방과는 {counterparty_contact} 상태입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "view": "detailed",
       "first_action": {
@@ -133,15 +133,15 @@
       "key_checkpoints": [
         {
           "title": "긴급 주거지원 신청",
-          "desc": "전세사기 피해자로 인정받으면 LH 임대주택 등 긴급 주거지원을 받을 수 있습니다."
+          "desc": "피해자로 인정받으면 LH 임대주택 등 긴급 주거지원을 받을 수 있으므로, 전세사기피해지원센터(1533-8119)에 신청 절차를 확인해보세요."
         },
         {
           "title": "긴급복지 지원 확인",
-          "desc": "주거지원뿐 아니라 생계지원, 의료지원 등도 긴급복지지원법에 따라 받을 수 있습니다."
+          "desc": "주거지원 외에도 생계지원, 의료지원 등을 받을 수 있으므로, 긴급복지지원법에 따른 지원 대상인지 확인해보세요."
         },
         {
           "title": "증거자료 보존",
-          "desc": "긴급 상황에서도 계약서, 입금내역 등 증거자료를 보존해두어야 이후 법적 구제에 활용할 수 있습니다."
+          "desc": "긴급 상황에서도 계약서와 입금내역 등은 이후 법적 구제에 꼭 필요하므로, 안전한 곳에 보관해두는 것이 좋습니다."
         }
       ],
       "timeline_steps": [
@@ -221,7 +221,7 @@
       "type_id": "TYPE_FRAUD_REPORT",
       "type_name": "피해 신고 후 절차 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 문제로 {progress_stage} 단계이시군요. 피해 신고 후 절차를 확인해보세요.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 경찰 신고는 {police_report} 상태이며, 피해자 인정 신청은 {victim_recognition} 상태입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "차분히 준비가 필요한 상황입니다",
       "view": "detailed",
       "first_action": {
@@ -239,11 +239,11 @@
       "key_checkpoints": [
         {
           "title": "피해자 인정 절차 확인",
-          "desc": "피해자로 인정되면 경매 유예, 우선매수권, 법률지원 등 다양한 지원을 받을 수 있습니다."
+          "desc": "피해자로 인정되면 경매 유예, 우선매수권, 법률지원 등을 받을 수 있으므로, 신청 진행 상황을 꾸준히 확인해보세요."
         },
         {
           "title": "무료 법률지원 활용",
-          "desc": "법률구조공단에서 소송대리를 무료로 지원받을 수 있으므로 적극 활용하세요."
+          "desc": "법률구조공단에서 소송대리를 무료로 지원받을 수 있으므로, 대한법률구조공단(132)에 상담을 신청해보세요."
         }
       ],
       "timeline_steps": [
@@ -323,7 +323,7 @@
       "type_id": "TYPE_FRAUD_SUSPECT",
       "type_name": "사기 유형 확인 필요",
       "status_summary": "입력한 내용을 기준으로 관련 절차와 준비사항을 확인해볼 필요가 있어 보입니다.",
-      "status_summary_template": "{problem_type} 문제가 {timeline} 전부터 시작되었고, 현재 {progress_stage} 단계이시군요.",
+      "status_summary_template": "입력한 내용을 보면 {problem_type} 관련으로 {progress_stage} 단계이고, 의심되는 사기 유형은 {fraud_type}이며, 상대방과는 {counterparty_contact} 상태입니다. 지금은 {first_action_short}이 도움이 됩니다.",
       "risk_level": "빠른 확인이 필요한 상황입니다",
       "view": "detailed",
       "first_action": {
@@ -341,15 +341,15 @@
       "key_checkpoints": [
         {
           "title": "등기부등본 권리 분석",
-          "desc": "근저당 설정 금액, 가압류 여부, 소유권 변동 등을 확인하여 사기 정황을 파악할 수 있습니다."
+          "desc": "근저당 설정 금액, 가압류 여부, 소유권 변동 등을 확인하면 사기 정황을 파악할 수 있으므로, 인터넷등기소에서 발급받아 확인해보세요."
         },
         {
-          "title": "증거 확보가 최우선",
-          "desc": "문자, 카톡, 녹음, 허위 설명 등 사기 정황 증거를 보존해야 형사고소와 민사소송에 활용할 수 있습니다."
+          "title": "증거 확보",
+          "desc": "문자, 카톡, 녹음, 허위 설명 등 사기 정황 증거는 형사고소와 민사소송에 활용되므로, 삭제되지 않도록 별도 저장해보세요."
         },
         {
           "title": "전입신고·확정일자 유지",
-          "desc": "전입신고와 확정일자가 있어야 우선변제권이 유지됩니다. 이사 전까지 유지하세요."
+          "desc": "우선변제권을 유지하려면 전입신고와 확정일자가 필요하므로, 이사 전까지 유지하는 것을 기억하세요."
         }
       ],
       "timeline_steps": [

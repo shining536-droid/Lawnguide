@@ -344,7 +344,7 @@ export default function GuideHubPage({ params }: PageProps) {
         <div className="mt-8 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
           <p className="text-xs text-amber-800">
             이 정보는 법적 효력을 갖는 유권해석이 아닙니다. 정확한 법률 판단은 전문가 상담을 받으시기 바랍니다.
-            데이터 출처: 찾기 쉬운 생활법령정보 (easylaw.go.kr)
+            데이터 출처: 법제처
           </p>
         </div>
       </div>
