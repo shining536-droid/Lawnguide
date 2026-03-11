@@ -29,9 +29,11 @@ export interface SpokePage {
   domain: string;
   slug: string;
   keyword: string;
+  questionKeyword?: string;
   type: string;
   meta: { title: string; description: string };
   intro: string;
+  timelineSteps?: string[];
   sections: SpokeSection[];
   comparison?: ComparisonTable;
   cases: CaseRef[];

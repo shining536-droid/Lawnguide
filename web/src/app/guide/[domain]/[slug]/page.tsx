@@ -47,20 +47,55 @@ export default function GuideSpokePage({ params }: PageProps) {
       <div className="max-w-3xl mx-auto px-4 py-8 space-y-10">
         {/* Intro */}
         <section className="bg-blue-50 rounded-xl p-5 text-gray-800 leading-relaxed">
-          {page.intro}
+          <div dangerouslySetInnerHTML={{ __html: page.intro }} />
         </section>
 
-        {/* Sections */}
-        {page.sections.map((section, i) => (
-          <section key={i} className="bg-white rounded-xl p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-gray-900 mb-3 flex items-start gap-2">
-              <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-blue-100 text-blue-700 text-sm font-bold flex-shrink-0">
-                {i + 1}
-              </span>
-              {section.title}
-            </h2>
-            <div className="text-gray-700 leading-relaxed whitespace-pre-line">{section.content}</div>
+        {/* Timeline Box - 해결 순서 한눈에 보기 */}
+        {page.timelineSteps && page.timelineSteps.length > 0 && (
+          <section className="bg-gray-100 rounded-xl p-5">
+            <p className="text-sm font-semibold text-gray-600 mb-2">해결 순서 한눈에 보기</p>
+            <div className="flex flex-wrap items-center gap-1 text-sm text-gray-800">
+              {page.timelineSteps.map((step, i) => (
+                <span key={i} className="flex items-center gap-1">
+                  <span className="bg-white px-3 py-1 rounded-full border border-gray-200 font-medium">{step}</span>
+                  {i < page.timelineSteps!.length - 1 && <span className="text-gray-400">→</span>}
+                </span>
+              ))}
+            </div>
           </section>
+        )}
+
+        {/* Sections with Mid-CTA after 2nd section */}
+        {page.sections.map((section, i) => (
+          <div key={i}>
+            <section className="bg-white rounded-xl p-6 shadow-sm">
+              <h2 className="text-lg font-semibold text-gray-900 mb-3 flex items-start gap-2">
+                <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-blue-100 text-blue-700 text-sm font-bold flex-shrink-0">
+                  {i + 1}
+                </span>
+                {section.title}
+              </h2>
+              <div
+                className="text-gray-700 leading-relaxed spoke-content"
+                dangerouslySetInnerHTML={{ __html: section.content }}
+              />
+            </section>
+
+            {/* Mid CTA - after 2nd section (index 1) */}
+            {i === 1 && (
+              <section className="bg-blue-50 border border-blue-200 rounded-xl p-5 mt-10 text-center">
+                <p className="text-gray-800 font-medium mb-3">
+                  내 상황 기준으로 다음 단계와 준비 서류를 정리해보세요
+                </p>
+                <Link
+                  href={`/diagnosis/${page.domain}`}
+                  className="inline-block bg-blue-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-blue-700 transition-colors text-sm"
+                >
+                  지금 시작하기 →
+                </Link>
+              </section>
+            )}
+          </div>
         ))}
 
         {/* Comparison Table */}
@@ -109,17 +144,20 @@ export default function GuideSpokePage({ params }: PageProps) {
           </section>
         )}
 
-        {/* FAQ */}
+        {/* FAQ - first 2 open by default */}
         <section className="bg-white rounded-xl p-6 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">자주 묻는 질문</h2>
           <div className="divide-y divide-gray-100">
             {page.faq.map((item, i) => (
-              <details key={i} className="group py-3">
+              <details key={i} className="group py-3" {...(i < 2 ? { open: true } : {})}>
                 <summary className="flex items-start gap-2 cursor-pointer list-none text-gray-800 font-medium text-sm hover:text-blue-700">
                   <span className="text-blue-500 font-bold mt-0.5">Q.</span>
                   {item.question}
                 </summary>
-                <p className="mt-2 ml-6 text-gray-600 text-sm leading-relaxed">{item.answer}</p>
+                <div
+                  className="mt-2 ml-6 text-gray-600 text-sm leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: item.answer }}
+                />
               </details>
             ))}
           </div>
@@ -136,7 +174,7 @@ export default function GuideSpokePage({ params }: PageProps) {
           </Link>
         </section>
 
-        {/* Related Spoke Pages */}
+        {/* Related Spoke Pages - question form titles */}
         {siblings.length > 0 && (
           <section className="bg-white rounded-xl p-6 shadow-sm">
             <h2 className="text-lg font-semibold text-gray-900 mb-3">같은 주제 다른 글</h2>
@@ -147,7 +185,7 @@ export default function GuideSpokePage({ params }: PageProps) {
                     href={`/guide/${s.domain}/${s.slug}`}
                     className="text-blue-600 hover:underline text-sm"
                   >
-                    {s.keyword}
+                    {s.questionKeyword || s.keyword}
                   </Link>
                 </li>
               ))}
