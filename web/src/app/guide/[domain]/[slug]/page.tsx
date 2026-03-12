@@ -84,8 +84,14 @@ export default function GuideSpokePage({ params }: PageProps) {
             {/* Mid CTA - after 2nd section (index 1) */}
             {i === 1 && (
               <section className="bg-blue-50 border border-blue-200 rounded-xl p-5 mt-10 text-center">
-                <p className="text-gray-800 font-medium mb-3">
-                  내 상황 기준으로 다음 단계와 준비 서류를 정리해보세요
+                <p className="text-gray-800 font-medium mb-2">
+                  <strong style={{ color: '#D97706' }}>1분</strong> 안에{' '}
+                  <strong style={{ color: '#D97706' }}>{page.ctaKeyword}</strong> 확인하기
+                </p>
+                <p className="text-gray-500 text-sm mb-3">
+                  <strong style={{ color: '#D97706' }}>무료 법률기관</strong>과{' '}
+                  <strong style={{ color: '#D97706' }}>전문가</strong>도 함께{' '}
+                  <strong style={{ color: '#D97706' }}>안내</strong>해드립니다.
                 </p>
                 <Link
                   href={`/diagnosis/${page.domain}`}
@@ -165,12 +171,20 @@ export default function GuideSpokePage({ params }: PageProps) {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 text-center">
-          <p className="text-white text-lg font-semibold mb-3">{page.cta.text}</p>
+          <p className="text-white text-lg font-semibold mb-2">
+            <strong style={{ color: '#D97706' }}>1분</strong> 안에{' '}
+            <strong style={{ color: '#D97706' }}>{page.ctaKeyword}</strong> 확인하기
+          </p>
+          <p className="text-blue-100 text-sm mb-3">
+            <strong style={{ color: '#D97706' }}>무료 법률기관</strong>과{' '}
+            <strong style={{ color: '#D97706' }}>전문가</strong>도 함께{' '}
+            <strong style={{ color: '#D97706' }}>안내</strong>해드립니다.
+          </p>
           <Link
             href={page.cta.link}
             className="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
           >
-            진단 시작하기
+            지금 시작하기 →
           </Link>
         </section>
 

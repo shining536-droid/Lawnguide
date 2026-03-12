@@ -30,6 +30,7 @@ export interface SpokePage {
   slug: string;
   keyword: string;
   questionKeyword?: string;
+  ctaKeyword: string;
   type: string;
   meta: { title: string; description: string };
   intro: string;

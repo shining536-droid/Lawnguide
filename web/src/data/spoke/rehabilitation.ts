@@ -6,6 +6,7 @@ export const rehabilitationPages: SpokePage[] = [
     slug: 'rehabilitation-pre-check',
     keyword: '개인회생 신청 전 확인할 것 5가지',
     questionKeyword: '개인회생 신청 전에 뭘 확인해야 하나요?',
+    ctaKeyword: '개인회생 준비사항',
     type: '체크리스트형',
     meta: {
       title: '개인회생 신청 전 확인할 것 5가지 | 로앤가이드',
@@ -13,13 +14,13 @@ export const rehabilitationPages: SpokePage[] = [
         '개인회생 신청 전 반드시 확인해야 할 5가지를 정리했습니다. 신청자격, 채무한도, 소득요건, 서류, 변제계획까지 확인해보세요.',
     },
     intro:
-      '카드 빚과 대출이 월급의 절반을 넘어가기 시작했습니다. 매달 이자만 갚다 보면 원금은 줄지 않고, 독촉 전화는 하루에도 몇 번씩 옵니다. 빚을 정리하고 다시 시작하고 싶은데, 개인회생이라는 걸 해야 하는지, 할 수 있는 건지도 모르겠습니다. 이런 상황이라면 신청 전에 아래 5가지를 먼저 확인해보세요.',
+      '카드 빚과 대출이 월급의 절반을 넘어갑니다. 이자만 갚다 보면 원금은 줄지 않고, 독촉 전화는 매일 옵니다. 개인회생을 해야 하는지 모르겠다면 신청 전에 아래 5가지를 먼저 확인해보세요.',
     timelineSteps: ['자격 확인', '서류 준비', '신청', '변제계획', '면책'],
     sections: [
       {
         title: '내가 개인회생을 신청할 수 있는지 먼저 확인해보세요',
         content:
-          '<p><strong style="color:#1e3a5f">정기적인 소득이 있는지 먼저 확인해보세요</strong></p>\n<p>개인회생은 아무나 할 수 있는 게 아닙니다. 핵심 조건은 "정기적인 소득이 있는가"입니다. 직장인은 물론이고, 아르바이트나 일용직도 지속적으로 일하고 있다면 대상이 될 수 있습니다. 자영업자도 영업소득이 있으면 가능합니다. 반대로, 소득이 전혀 없거나 일시적인 수입만 있다면 개인회생이 아니라 <strong>개인파산</strong>을 검토해야 할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 최근 3~6개월 급여명세서, 통장 입금 내역</blockquote>',
+          '<p><strong style="color:#1e3a5f">정기적인 소득이 있는지 먼저 확인해보세요</strong></p>\n<p>개인회생은 아무나 할 수 있는 게 아닙니다. 핵심 조건은 "정기적인 소득이 있는가"입니다.</p>\n<p>직장인은 물론이고, 아르바이트나 일용직도 지속적으로 일하고 있다면 대상이 될 수 있습니다. 자영업자도 영업소득이 있으면 가능합니다.</p>\n<p>반대로, 소득이 전혀 없거나 일시적인 수입만 있다면 개인회생이 아니라 <strong>개인파산</strong>을 검토해야 할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 최근 3~6개월 급여명세서, 통장 입금 내역</blockquote>',
       },
       {
         title: '빚이 얼마까지 있어야 신청할 수 있는지 살펴보세요',
@@ -113,6 +114,7 @@ export const rehabilitationPages: SpokePage[] = [
     slug: 'rehabilitation-vs-bankruptcy',
     keyword: '개인회생 vs 개인파산 뭐가 다른가',
     questionKeyword: '개인회생이랑 개인파산, 뭐가 다른가요?',
+    ctaKeyword: '채무정리 준비사항',
     type: '비교형',
     meta: {
       title: '개인회생 vs 개인파산 뭐가 다른가 | 로앤가이드',
@@ -120,12 +122,12 @@ export const rehabilitationPages: SpokePage[] = [
         '개인회생과 개인파산의 차이를 신청자격, 변제기간, 재산처분, 면책 기준으로 비교합니다. 내 상황에 맞는 절차를 확인해보세요.',
     },
     intro:
-      '빚을 정리하고 싶은데, 개인회생을 해야 하는지 개인파산을 해야 하는지 모르겠습니다. 직장은 다니고 있지만 월급으로는 이자도 못 갚는 상황이고, 주변에서는 "파산하면 다 없어진다"고 하는데 정확히 뭐가 다른 건지 헷갈립니다. 이런 상황이라면 두 절차의 핵심 차이를 먼저 정리해보세요.',
+      '빚을 정리하고 싶은데 개인회생인지 개인파산인지 모르겠습니다. 월급으로는 이자도 못 갚고, "파산하면 다 없어진다"는 말에 헷갈립니다. 두 절차의 핵심 차이를 먼저 정리해보세요.',
     sections: [
       {
         title: '소득이 있다면 개인회생, 없다면 개인파산 — 가장 큰 차이',
         content:
-          '<p><strong style="color:#1e3a5f">소득 유무가 두 절차를 가르는 핵심 기준입니다</strong></p>\n<p>개인회생은 "앞으로 돈을 벌 수 있는 사람"이 <strong>3~5년간</strong> 일부를 갚고 나머지를 면제받는 절차입니다. 개인파산은 "더 이상 돈을 갚을 능력이 없는 사람"이 법원에 지급불능을 선고받고 면책을 받는 절차입니다. 둘 다 채무자 회생 및 파산에 관한 법률에 근거합니다. 소득이 있으면 개인회생, 소득이 전혀 없거나 극히 적다면 파산을 검토하게 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 현재 소득 상태 확인(급여명세서 또는 소득금액증명원)</blockquote>',
+          '<p><strong style="color:#1e3a5f">소득 유무가 두 절차를 가르는 핵심 기준입니다</strong></p>\n<p>개인회생은 "앞으로 돈을 벌 수 있는 사람"이 <strong>3~5년간</strong> 일부를 갚고 나머지를 면제받는 절차입니다.</p>\n<p>개인파산은 "더 이상 돈을 갚을 능력이 없는 사람"이 법원에 지급불능을 선고받고 면책을 받는 절차입니다. 둘 다 채무자 회생 및 파산에 관한 법률에 근거합니다.</p>\n<p>소득이 있으면 개인회생, 소득이 전혀 없거나 극히 적다면 파산을 검토하게 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 현재 소득 상태 확인(급여명세서 또는 소득금액증명원)</blockquote>',
       },
       {
         title: '빚이 얼마나 있나요 — 채무 한도도 다릅니다',
@@ -269,6 +271,7 @@ export const rehabilitationPages: SpokePage[] = [
     slug: 'rehabilitation-payment-calculation',
     keyword: '개인회생 변제금 계산 기준',
     questionKeyword: '개인회생 변제금은 어떻게 계산되나요?',
+    ctaKeyword: '개인회생 변제금 준비사항',
     type: '수치/기한형',
     meta: {
       title: '개인회생 변제금 계산 기준 | 로앤가이드',
@@ -276,12 +279,12 @@ export const rehabilitationPages: SpokePage[] = [
         '개인회생 변제금 산정 기준을 가용소득, 생계비, 청산가치 중심으로 정리했습니다. 월 변제금 계산 방법을 확인해보세요.',
     },
     intro:
-      '개인회생을 신청하려는데 가장 궁금한 건 "매달 얼마를 갚아야 하나요?"입니다. 월급이 280만 원이고 아이가 하나 있는데, 변제금이 100만 원이 넘으면 생활이 안 됩니다. 변제금이 어떻게 정해지는지, 줄일 수 있는 방법은 있는지 — 이런 상황이라면 아래 기준을 먼저 확인해보세요.',
+      '개인회생 신청 시 가장 궁금한 건 "매달 얼마를 갚아야 하나요?"입니다. 월급 280만 원에 아이가 있는데 변제금이 100만 원이 넘으면 생활이 안 됩니다. 아래 기준을 먼저 확인해보세요.',
     sections: [
       {
         title: '변제금의 출발점 — 가용소득 계산해보기',
         content:
-          '<p><strong style="color:#1e3a5f">월 소득에서 생계비를 빼면 가용소득이 됩니다</strong></p>\n<p>변제금은 "가용소득"에서 출발합니다. 가용소득 = 월 소득 - 생계비입니다. 생계비는 <strong>통계청</strong>이 발표하는 중위소득의 60%를 기준으로 하며, 가구원 수에 따라 달라집니다. 예를 들어 월 소득 300만 원인 2인 가구라면, 생계비를 빼고 남는 금액이 가용소득이 됩니다. 부양가족이 많으면 생계비가 올라가서 변제금이 줄어들 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 급여명세서, 가족관계증명서(부양가족 수 기준 계산)</blockquote>',
+          '<p><strong style="color:#1e3a5f">월 소득에서 생계비를 빼면 가용소득이 됩니다</strong></p>\n<p>변제금은 "가용소득"에서 출발합니다. 가용소득 = 월 소득 - 생계비입니다.</p>\n<p>생계비는 <strong>통계청</strong>이 발표하는 중위소득의 60%를 기준으로 하며, 가구원 수에 따라 달라집니다. 예를 들어 월 소득 300만 원인 2인 가구라면, 생계비를 빼고 남는 금액이 가용소득이 됩니다.</p>\n<p>부양가족이 많으면 생계비가 올라가서 변제금이 줄어들 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 급여명세서, 가족관계증명서(부양가족 수 기준 계산)</blockquote>',
       },
       {
         title: '내 차와 보험이 있으면 변제금이 올라가나요 — 청산가치보장원칙',
