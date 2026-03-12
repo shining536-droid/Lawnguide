@@ -45,13 +45,19 @@ export interface SpokePage {
 
 // Content will be added by domain-specific imports
 import { jeonsePages } from './spoke/jeonse';
+import { jeonseFraudPages } from './spoke/jeonse-fraud';
 import { rehabilitationPages } from './spoke/rehabilitation';
 import { divorcePages } from './spoke/divorce';
+import { fraudPages } from './spoke/fraud';
+import { duiPages } from './spoke/dui';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
+  ...jeonseFraudPages,
   ...rehabilitationPages,
   ...divorcePages,
+  ...fraudPages,
+  ...duiPages,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {

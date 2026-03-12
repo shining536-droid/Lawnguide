@@ -382,4 +382,350 @@ export const divorcePages: SpokePage[] = [
       },
     ],
   },
+  {
+    domain: 'divorce',
+    slug: 'property-division-ratio',
+    keyword: '재산분할 비율은 어떻게 정해지나요',
+    questionKeyword: '이혼 시 재산분할 비율은 어떻게 정해지나요?',
+    ctaKeyword: '재산분할 준비사항',
+    type: 'Q&A형',
+    meta: {
+      title: '재산분할 비율은 어떻게 정해지나요 | 로앤가이드',
+      description:
+        '이혼 시 재산분할 비율의 결정 기준, 기여도 인정 범위, 특유재산과 공동재산의 구분을 정리했습니다.',
+    },
+    intro:
+      '이혼을 결심했는데 재산분할이 가장 걱정됩니다. "반반이 원칙"이라는 말도 있고 "기여도에 따라 다르다"는 말도 있습니다. 내 상황에서 얼마나 받을 수 있는지 기준을 먼저 확인해보세요.',
+    sections: [
+      {
+        title: '재산분할의 기본 원칙을 이해하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">재산분할은 혼인 중 함께 형성한 재산을 기여도에 따라 나누는 것입니다</strong></p>\n<p><strong>민법 제839조의2</strong>에 따라 혼인 중 부부가 함께 형성한 재산을 나누게 됩니다. 기여도란 재산 형성에 대한 각자의 기여를 말합니다.</p>\n<p>법원은 혼인 기간, 재산 형성 경위, 부양, <strong>가사노동</strong>, 양육을 종합적으로 고려합니다. "반반"이 원칙은 아니지만, 실무적으로 <strong>40~60%</strong> 범위에서 결정되는 경우가 많습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 기여도 = 소득 + 가사노동 + 양육 + 재산 형성 기여를 종합 판단</blockquote>',
+      },
+      {
+        title: '특유재산과 공동재산을 구분하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">혼인 전 재산과 혼인 중 재산은 분할 대상이 다릅니다</strong></p>\n<p><strong>특유재산</strong>은 혼인 전 개인 재산이나 상속·증여받은 재산으로, 원칙적으로 분할 대상이 아닙니다. <strong>공동재산</strong>은 혼인 중 함께 형성한 재산으로 분할 대상이 됩니다.</p>\n<p>다만 특유재산도 유지·증식에 상대방의 기여가 있으면 <strong>일부 분할 대상</strong>이 될 수 있습니다. 부채도 공동생활을 위한 부채이면 분할 시 고려됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 혼인 전 재산과 혼인 후 재산을 구분하여 목록 작성</blockquote>',
+      },
+      {
+        title: '전업주부도 기여도를 인정받을 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">가사노동과 양육도 재산 형성에 대한 기여로 인정됩니다</strong></p>\n<p>대법원 판례에서 전업주부의 기여도를 <strong>30~50%</strong> 인정한 사례가 다수 있습니다. 혼인 기간이 길수록 기여도가 높게 인정되는 경향이 있습니다.</p>\n<p><strong>소득 증빙이 없어도</strong> 재산분할 청구가 가능합니다. 가사와 양육에 전념한 기간, 구체적인 양육 내역을 정리해두면 기여도 입증에 도움이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 가사·양육 참여 내역, 혼인 기간 정리</blockquote>',
+      },
+      {
+        title: '재산분할 청구를 위해 준비할 것',
+        content:
+          '<p><strong style="color:#1e3a5f">재산·부채 목록과 증빙서류를 미리 준비하세요</strong></p>\n<p>부부 명의 <strong>재산·부채 목록</strong>을 작성하고, 등기부등본, 예금잔액증명, 보험증권, 대출잔액증명을 준비하세요.</p>\n<p>혼인 전 재산을 입증할 자료(혼인 전 통장 내역, 상속 서류)도 중요합니다. 이혼 후 <strong>2년 이내</strong>에 청구해야 합니다(민법 제839조의2). 기한을 놓치면 청구가 어려워지니 주의하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 등기부등본, 예금잔액증명, 보험증권, 대출잔액증명, 혼인 전 재산 자료</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '전업주부의 기여도가 50%로 인정된 사례',
+        summary:
+          '관련 사례에서도 20년 이상 혼인 생활을 유지하면서 가사와 양육을 전담한 전업주부의 기여도가 50%로 인정된 경우가 있습니다(민법 제839조의2 참조).',
+        takeaway:
+          '비슷한 상황이라면 혼인 기간 중 가사·양육에 참여한 내역을 구체적으로 정리해두세요.',
+      },
+      {
+        title: '혼인 전 재산이 분할 대상에서 제외된 사례',
+        summary:
+          '관련 사례에서도 혼인 전에 부모로부터 상속받은 부동산이 분할 대상에서 제외된 경우가 있습니다. 다만 상대방이 해당 재산의 유지·관리에 기여한 부분은 별도로 인정될 수 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 혼인 전 재산의 취득 시기와 출처를 증명할 서류를 준비해두세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '재산분할은 꼭 반반인가요?',
+        answer:
+          '<strong>법정 비율은 없습니다.</strong> 기여도에 따라 결정되며, 실무적으로 40~60% 범위에서 정해지는 경우가 많습니다.',
+      },
+      {
+        question: '배우자 이름으로 된 재산도 분할 대상인가요?',
+        answer:
+          '혼인 중 취득한 재산은 <strong>명의와 관계없이</strong> 분할 대상이 될 수 있습니다. 재산의 형성 시기와 경위가 중요합니다.',
+      },
+      {
+        question: '빚도 나눠야 하나요?',
+        answer:
+          '혼인 중 <strong>공동생활을 위한 부채</strong>는 분할 시 고려됩니다. 개인 도박 빚 등 개인적 부채는 제외될 수 있습니다.',
+      },
+      {
+        question: '이혼 후에도 재산분할 청구할 수 있나요?',
+        answer:
+          '이혼 후 <strong>2년 이내</strong>에 청구할 수 있습니다(민법 제839조의2). 기한을 넘기지 않도록 주의하세요.',
+      },
+      {
+        question: '재산을 숨기면 어떻게 되나요?',
+        answer:
+          '소송 중 법원을 통해 <strong>재산조회</strong>가 가능합니다. 금융, 부동산, 국세청 자료를 통해 확인할 수 있습니다.',
+      },
+      {
+        question: '퇴직금도 분할 대상인가요?',
+        answer:
+          '<strong>혼인 기간에 해당하는 퇴직금</strong>은 분할 대상입니다. 퇴직 전이라도 장래 퇴직금 청구가 가능합니다.',
+      },
+      {
+        question: '재산분할과 위자료는 다른 건가요?',
+        answer:
+          '<strong>별개의 청구</strong>입니다. 위자료는 정신적 손해배상이고, 재산분할은 공동재산의 분배입니다. 각각 따로 청구할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받을 수 있나요?',
+        answer:
+          '<strong>대한법률구조공단(전화 132)</strong>에서 소득 기준에 따라 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 이혼 상황에 맞는 재산분할 준비사항을 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+      {
+        label: '협의이혼과 재판이혼, 뭐가 다른가요?',
+        href: '/guide/divorce/consensual-vs-trial-divorce',
+      },
+      {
+        label: '이혼 후 양육비 안 줄 때 대처법',
+        href: '/guide/divorce/child-support-non-payment',
+      },
+      { label: '주택임대차 가이드', href: '/guide/jeonse' },
+    ],
+  },
+  {
+    domain: 'divorce',
+    slug: 'child-support-non-payment',
+    keyword: '이혼 후 양육비 안 줄 때 대처법',
+    questionKeyword: '이혼 후 양육비를 안 주는데 어떻게 해야 하나요?',
+    ctaKeyword: '양육비 이행확보',
+    type: '상황형',
+    meta: {
+      title: '이혼 후 양육비 안 줄 때 대처법 | 로앤가이드',
+      description:
+        '이혼 후 양육비를 지급하지 않을 때 이행명령, 강제집행, 양육비이행관리원 활용 방법을 정리했습니다.',
+    },
+    intro:
+      '이혼할 때 양육비 월 100만원으로 합의했는데, 석 달째 한 푼도 안 들어옵니다. 연락하면 "형편이 안 된다"는 말만 반복합니다. 아이 학원비는 밀리고 있는데 어떻게 해야 하는지 막막합니다. 양육비를 받기 위한 절차를 정리했습니다.',
+    timelineSteps: ['합의서/판결 확인', '이행명령 신청', '강제집행', '양육비이행관리원'],
+    sections: [
+      {
+        title: '양육비 합의서나 판결이 있는지 먼저 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">공증받은 합의서나 판결문이 있으면 바로 강제집행이 가능합니다</strong></p>\n<p><strong>공증받은 합의서</strong>, 법원 조정조서, 판결문이 있으면 별도 소송 없이 바로 강제집행을 신청할 수 있습니다.</p>\n<p>구두 합의만 있는 경우에는 먼저 <strong>양육비 청구 소송</strong> 또는 조정 신청을 진행해야 합니다. 협의이혼 시 양육비 부담 조서가 법원에 제출되었는지도 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 공증 합의서, 법원 조정조서, 판결문 중 하나가 있는지 점검</blockquote>',
+      },
+      {
+        title: '법원에 이행명령을 신청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">이행명령은 비교적 빠르게 처리되는 강력한 수단입니다</strong></p>\n<p>가정법원에 양육비 <strong>이행명령</strong>을 신청할 수 있습니다(가사소송법 제64조). 이행명령을 위반하면 <strong>과태료(1,000만원 이하)</strong> 또는 30일 이내 감치가 가능합니다.</p>\n<p>이행명령은 비교적 빠르게 처리되므로, 양육비 미지급이 시작되면 빨리 신청하는 것이 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 양육비 부담 조서 또는 판결문 사본, 미지급 내역 정리</blockquote>',
+      },
+      {
+        title: '강제집행으로 급여와 재산을 압류하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">급여 압류가 가장 실효성 있는 방법입니다</strong></p>\n<p><strong>급여 압류</strong>는 월급의 1/2까지 압류할 수 있어 가장 효과적입니다. 예금 압류, 부동산 경매도 가능합니다.</p>\n<p>집행문 부여를 받은 후 진행하게 됩니다. 상대방의 <strong>직장 정보</strong>가 있으면 급여 압류가 가장 빠르고 확실한 방법입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 집행문 부여 신청, 상대방 직장 정보 또는 재산 정보 파악</blockquote>',
+      },
+      {
+        title: '양육비이행관리원을 활용하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">양육비이행관리원에서 무료로 이행 지원을 받을 수 있습니다</strong></p>\n<p><strong>양육비이행관리원(1644-6621)</strong>에서 양육비 이행 독촉, 재산 조회, 법률 지원을 무료로 받을 수 있습니다.</p>\n<p><strong>출국금지</strong>, 면허정지 등 간접강제 신청도 가능합니다. 한시적 양육비 긴급지원(월 최대 20만원)도 운영하고 있으니, 당장 생활이 어려운 경우 활용해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">연락처: 양육비이행관리원 1644-6621 (무료 상담)</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '급여 압류로 양육비를 받아낸 사례',
+        summary:
+          '관련 사례에서도 양육비를 장기간 미지급한 상대방의 급여를 압류하여 매월 양육비를 확보한 경우가 자주 있습니다. 급여 압류는 직장 정보가 있으면 가장 효과적인 방법입니다.',
+        takeaway:
+          '비슷한 상황이라면 상대방의 직장 정보를 파악하고, 공증받은 합의서나 판결문을 준비해두세요.',
+      },
+      {
+        title: '양육비이행관리원을 통해 출국금지가 적용된 사례',
+        summary:
+          '관련 사례에서도 양육비를 장기간 미지급하고 재산을 은닉한 상대방에 대해 양육비이행관리원을 통해 출국금지가 적용된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 양육비이행관리원에 상담을 신청해보세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '양육비를 안 주면 형사처벌이 되나요?',
+        answer:
+          '직접 형사처벌은 아니지만, <strong>이행명령 위반 시 감치(30일 이내)</strong>가 가능합니다. 과태료도 1,000만원 이하로 부과될 수 있습니다.',
+      },
+      {
+        question: '양육비 합의서에 공증이 없으면 어떻게 하나요?',
+        answer:
+          '<strong>양육비 청구 조정 또는 소송</strong>을 먼저 진행해야 합니다. 판결 확정 후 강제집행이 가능합니다.',
+      },
+      {
+        question: '상대방이 무직이면 어떻게 하나요?',
+        answer:
+          '<strong>재산 압류</strong>가 가능합니다. 양육비이행관리원에서 재산조회를 지원받을 수 있습니다.',
+      },
+      {
+        question: '양육비 금액을 변경할 수 있나요?',
+        answer:
+          '사정 변경 시 <strong>양육비 증감 청구</strong>가 가능합니다(가사소송법). 소득 변화, 자녀 성장 등이 사유가 됩니다.',
+      },
+      {
+        question: '과거 미지급분도 청구할 수 있나요?',
+        answer:
+          '합의서나 판결이 있으면 <strong>밀린 양육비 전액</strong>을 청구할 수 있습니다. 지연이자도 청구 가능합니다.',
+      },
+      {
+        question: '양육비이행관리원은 무료인가요?',
+        answer:
+          '<strong>상담과 이행 지원은 무료</strong>입니다. 긴급 양육비 지원(월 최대 20만원)도 운영하고 있습니다.',
+      },
+      {
+        question: '면접교섭을 거부하면서 양육비만 청구할 수 있나요?',
+        answer:
+          '<strong>양육비와 면접교섭은 별개</strong>입니다. 면접교섭 거부는 별도 이행명령 대상이며, 양육비 청구와는 관계없이 진행됩니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받을 수 있나요?',
+        answer:
+          '<strong>양육비이행관리원(1644-6621)</strong>과 대한법률구조공단(전화 132)에서 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 이혼 상황에 맞는 양육비 대응 방법을 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+      {
+        label: '양육권 합의 전에 무엇을 정리해야 하나요?',
+        href: '/guide/divorce/custody-agreement-prep',
+      },
+      {
+        label: '재산분할 비율은 어떻게 정해지나요',
+        href: '/guide/divorce/property-division-ratio',
+      },
+      { label: '주택임대차 가이드', href: '/guide/jeonse' },
+    ],
+  },
+  {
+    domain: 'divorce',
+    slug: 'consensual-divorce-process',
+    keyword: '협의이혼 절차와 소요 기간 총정리',
+    questionKeyword: '협의이혼 절차는 어떻게 되고 얼마나 걸리나요?',
+    ctaKeyword: '협의이혼 준비사항',
+    type: '절차/타임라인형',
+    meta: {
+      title: '협의이혼 절차와 소요 기간 총정리 | 로앤가이드',
+      description:
+        '협의이혼의 전체 절차, 숙려기간, 필요 서류, 소요 기간을 단계별로 정리했습니다.',
+    },
+    intro:
+      '부부가 이혼에 합의했는데 절차가 어떻게 되는지 모르겠습니다. 서류는 뭘 준비해야 하는지, 얼마나 걸리는지, 양육비와 재산분할도 같이 정해야 하는지 궁금합니다. 협의이혼의 전체 절차를 처음부터 끝까지 정리했습니다.',
+    timelineSteps: ['서류 준비', '이혼의사 확인 신청', '숙려기간', '법원 확인', '이혼신고'],
+    sections: [
+      {
+        title: '1단계: 서류를 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">협의이혼에 필요한 서류를 먼저 챙기세요</strong></p>\n<p><strong>혼인관계증명서</strong>, 가족관계증명서, 주민등록등본을 준비합니다. 자녀가 있는 경우 <strong>양육사항 협의서</strong>가 필수입니다.</p>\n<p>재산분할 합의서는 필수는 아니지만 이 단계에서 작성해두는 것을 권장합니다. <strong>이혼의사확인 신청서</strong>는 법원 양식을 사용합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 혼인관계증명서, 가족관계증명서, 주민등록등본, 양육사항 협의서, 신청서</blockquote>',
+      },
+      {
+        title: '2단계: 가정법원에 이혼의사 확인을 신청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">부부가 함께 관할 가정법원에 출석하여 신청합니다</strong></p>\n<p>부부가 <strong>함께 관할 가정법원</strong>에 출석하여 이혼의사 확인을 신청합니다. 일부 법원에서는 온라인 접수도 가능합니다.</p>\n<p>접수가 완료되면 <strong>숙려기간</strong>이 시작됩니다. 접수 시 양육사항 협의서도 함께 제출합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 부부 동시 출석이 원칙. 관할법원은 부부 주소지 기준</blockquote>',
+      },
+      {
+        title: '3단계: 숙려기간을 거칩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">자녀 유무에 따라 숙려기간이 달라집니다</strong></p>\n<p>양육할 자녀가 있으면 <strong>3개월</strong>, 없으면 <strong>1개월</strong>의 숙려기간을 거칩니다(민법 제836조의2).</p>\n<p>가정폭력 등 급박한 사유가 있으면 법원에 <strong>단축 신청</strong>이 가능합니다. 이 기간 동안 법원 상담위원의 상담을 받을 수도 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">팁: 숙려기간을 활용하여 재산분할과 양육비 합의를 마무리하세요</blockquote>',
+      },
+      {
+        title: '4단계: 법원에 출석하여 이혼의사를 확인받으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">숙려기간 경과 후 3개월 이내에 법원에 출석해야 합니다</strong></p>\n<p>숙려기간이 지난 후 <strong>3개월 이내</strong>에 부부가 법원에 출석하여 판사 앞에서 이혼 의사를 최종 확인합니다.</p>\n<p>양육사항 협의가 자녀의 복리에 반한다고 판단되면 <strong>보정 명령</strong>이 내려질 수 있습니다. 확인이 완료되면 확인서가 교부됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 3개월 이내 미출석 시 처음부터 다시 진행해야 합니다</blockquote>',
+      },
+      {
+        title: '5단계: 이혼신고로 마무리하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">확인서 교부일로부터 3개월 이내에 이혼신고를 해야 합니다</strong></p>\n<p>확인서를 받은 날로부터 <strong>3개월 이내</strong>에 시·구·읍·면사무소에 이혼신고를 합니다.</p>\n<p><strong>이혼신고서</strong>, 이혼의사확인서, 혼인관계증명서를 제출하면 됩니다. 신고가 완료되면 법적으로 이혼이 성립합니다. 3개월 이내에 신고하지 않으면 확인서의 효력이 상실되니 주의하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">마무리: 이혼신고서 + 이혼의사확인서 + 혼인관계증명서 → 신고 완료</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '양육사항 협의서 내용이 보정 명령을 받은 사례',
+        summary:
+          '관련 사례에서도 양육사항 협의서에 양육비 금액이 구체적으로 기재되지 않거나 면접교섭 방법이 누락되어 법원에서 보정 명령을 내린 경우가 자주 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 양육사항 협의서에 양육비 금액, 지급일, 면접교섭 빈도와 방법을 구체적으로 적어두세요.',
+      },
+      {
+        title: '숙려기간 중 재산분할을 합의한 사례',
+        summary:
+          '관련 사례에서도 숙려기간 동안 부부가 재산분할과 양육비에 대해 합의를 완료하고, 공증까지 받아둔 경우 이혼 후 분쟁이 크게 줄어든 사례가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 숙려기간을 활용하여 재산분할과 양육비 합의를 마무리하고 공증을 받아두세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '협의이혼은 전체적으로 얼마나 걸리나요?',
+        answer:
+          '자녀 유무에 따라 <strong>1~4개월</strong>이 소요됩니다. 서류 준비 + 숙려기간 + 신고 기간을 합한 것입니다.',
+      },
+      {
+        question: '변호사 없이 진행할 수 있나요?',
+        answer:
+          '<strong>가능합니다.</strong> 법원 양식을 활용하면 됩니다. 다만 복잡한 재산분할이 있는 경우 전문가 도움을 권장합니다.',
+      },
+      {
+        question: '숙려기간을 줄일 수 있나요?',
+        answer:
+          '가정폭력 등 <strong>급박한 사정</strong>이 있으면 법원에 단축 신청이 가능합니다. 일반적인 경우에는 단축이 어렵습니다.',
+      },
+      {
+        question: '재산분할 합의를 꼭 해야 하나요?',
+        answer:
+          '<strong>필수는 아닙니다.</strong> 합의가 안 되면 이혼 후 2년 이내에 별도 소송으로 청구할 수 있습니다.',
+      },
+      {
+        question: '법원에 꼭 같이 가야 하나요?',
+        answer:
+          '이혼의사 확인 시 <strong>부부 동시 출석</strong>이 원칙입니다. 일부 예외가 인정되는 경우도 있으니 법원에 문의하세요.',
+      },
+      {
+        question: '이혼신고를 안 하면 어떻게 되나요?',
+        answer:
+          '확인서 교부 후 <strong>3개월 내 신고하지 않으면 효력이 상실</strong>됩니다. 처음부터 다시 진행해야 합니다.',
+      },
+      {
+        question: '협의이혼 중에 재판이혼으로 바꿀 수 있나요?',
+        answer:
+          '<strong>가능합니다.</strong> 합의가 결렬되면 언제든 재판이혼으로 전환할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받을 수 있나요?',
+        answer:
+          '<strong>대한법률구조공단(전화 132)</strong>과 가정법원 상담위원을 통해 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 이혼 절차에 맞는 준비사항을 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+      {
+        label: '협의이혼과 재판이혼, 뭐가 다른가요?',
+        href: '/guide/divorce/consensual-vs-trial-divorce',
+      },
+      {
+        label: '이혼 상담 전에 어떤 서류를 준비해야 하나요?',
+        href: '/guide/divorce/divorce-consultation-prep',
+      },
+      {
+        label: '재산분할 비율은 어떻게 정해지나요',
+        href: '/guide/divorce/property-division-ratio',
+      },
+    ],
+  },
 ];

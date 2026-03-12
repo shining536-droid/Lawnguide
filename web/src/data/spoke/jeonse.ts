@@ -448,4 +448,324 @@ export const jeonsePages: SpokePage[] = [
       { label: '이혼 가이드', href: '/guide/divorce' },
     ],
   },
+  {
+    domain: 'jeonse',
+    slug: 'lease-expired-landlord-wont-leave',
+    keyword: '전세 계약 만료 후 집주인이 안 나가라고 할 때',
+    questionKeyword: '전세 계약이 끝났는데 집주인이 안 나가라고 합니다. 어떻게 해야 하나요?',
+    ctaKeyword: '전세 계약 만료 대응',
+    type: '상황형',
+    meta: {
+      title: '전세 계약 만료 후 집주인이 안 나가라고 할 때 | 로앤가이드',
+      description:
+        '전세 계약 만료 후 집주인이 계속 거주를 요구할 때 대응 방법과 보증금 반환 절차를 단계별로 정리했습니다.',
+    },
+    intro:
+      '전세 계약이 끝났는데 집주인이 "나가지 말고 계속 살라"고 합니다. 보증금을 돌려줄 형편이 안 된다며 시간을 달라고 합니다. 이사 계획이 있는데 보증금도 못 받고 묶여 있는 기분입니다. 지금 상황에서 할 수 있는 것부터 확인해보세요.',
+    timelineSteps: ['계약 종료 확인', '내용증명 발송', '임차권등기명령', '보증금 반환 청구'],
+    sections: [
+      {
+        title: '계약이 끝났는지 먼저 확인하세요 — 묵시적 갱신일 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">묵시적 갱신 여부를 먼저 확인하세요</strong></p>\n<p>계약 만료 전 임대인이 갱신거절 통지를 하지 않았다면 <strong>묵시적 갱신</strong>이 됐을 수 있습니다. 주택임대차보호법 제6조에 따라 임대인이 만료 6개월~2개월 전에 갱신거절을 통지하지 않으면 동일 조건으로 자동 갱신됩니다.</p>\n<p>묵시적 갱신 상태라면 임차인은 언제든 <strong>계약 해지 통고</strong>를 할 수 있으며, 통고 후 3개월이 지나면 해지 효력이 발생합니다(대법원 2002다64766). 해지 통고는 내용증명으로 보내두는 것이 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 임대차계약서, 갱신거절 통지 수령 여부 확인</blockquote>',
+      },
+      {
+        title: '보증금을 돌려달라는 의사를 공식적으로 남기세요',
+        content:
+          '<p><strong style="color:#1e3a5f">내용증명으로 보증금 반환을 요청하세요</strong></p>\n<p>우체국 <strong>내용증명</strong>을 보내 보증금 반환을 공식적으로 요청하세요. 반환 기한(수령일로부터 7~14일)을 명시하고, 기한 내 미반환 시 법적 절차를 검토하겠다는 취지를 담습니다.</p>\n<p>내용증명은 강제력은 없지만 "언제 반환을 요청했는지" 증거로 남깁니다. <strong>3부</strong>를 작성하여 본인, 우체국, 임대인에게 각 1부씩 보관합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 계약서, 내용증명 3부, 임대인 주소</blockquote>',
+      },
+      {
+        title: '이사를 해야 한다면 임차권등기명령을 먼저 신청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">임차권등기명령으로 대항력을 보전한 뒤 이사하세요</strong></p>\n<p>새 집으로 전입신고를 옮기면 기존 대항력이 사라질 수 있습니다. <strong>임차권등기명령</strong>(주택임대차보호법 제3조의3)을 신청하면 임대인 동의 없이도 등기가 이루어지고, 이사 후에도 대항력이 유지됩니다.</p>\n<p>결정까지 보통 <strong>1~2주</strong>이므로 이사 일정에 맞춰 미리 신청해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 임대차계약서, 등기부등본, 주민등록등본, 계약 종료 증명 자료</blockquote>',
+      },
+      {
+        title: '법적으로 보증금을 받는 절차를 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">지급명령이나 소송으로 보증금을 청구하세요</strong></p>\n<p><strong>지급명령</strong>은 서면심리만으로 진행되며 인지대가 소송의 10분의 1 수준입니다. 임대인이 2주 안에 이의하지 않으면 확정됩니다. 이의 시 통상 소송으로 전환됩니다.</p>\n<p>판결 확정 후에는 임대인 재산에 <strong>강제집행</strong>(부동산 경매, 예금 압류 등)을 신청할 수 있습니다. 대법원 전자소송 사이트(ecfs.scourt.go.kr)에서 온라인 신청이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 대법원 전자소송(ecfs.scourt.go.kr), 증거 자료 정리</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '묵시적 갱신 상태에서 보증금 반환을 청구한 세입자의 사례',
+        summary:
+          '임대인이 갱신거절 통지를 하지 않아 묵시적 갱신이 된 상태에서, 임차인이 해지 통고 후 3개월 뒤 보증금 반환을 청구한 사례가 있었습니다. 묵시적 갱신 시 임차인의 해지통고권이 인정되었습니다(대법원 2002다64766).',
+        takeaway:
+          '비슷한 상황이라면 계약서와 갱신거절 통지 여부를 먼저 확인하고, 해지통고를 내용증명으로 남겨두세요.',
+      },
+      {
+        title: '집주인이 보증금 반환을 미루며 계속 거주를 요구한 사례',
+        summary:
+          '관련 사례에서도 임대인이 새 세입자를 구할 때까지 기다려달라며 반환을 미룬 경우가 자주 문제 됩니다. 임차인의 보증금 반환 청구권은 계약 종료 즉시 발생하며, 임대인의 사정은 반환 거부 사유가 되지 않습니다.',
+        takeaway:
+          '비슷한 상황이라면 내용증명으로 반환 기한을 명확히 정하고, 기한 경과 후 법적 절차를 바로 검토하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '묵시적 갱신이 되면 계약은 언제까지인가요?',
+        answer:
+          '묵시적 갱신 시 기간은 <strong>2년</strong>으로 간주되지만, 임차인은 언제든 해지 통고가 가능합니다. 통고 후 3개월 경과 시 효력이 발생합니다.',
+      },
+      {
+        question: '집주인이 "새 세입자 구할 때까지 기다려달라"고 하면 기다려야 하나요?',
+        answer:
+          '법적 의무는 없습니다. 보증금 반환 청구권은 <strong>계약 종료와 동시에</strong> 발생합니다. 내용증명으로 기한을 설정하세요.',
+      },
+      {
+        question: '전세보증금 반환보증보험에 가입했는데 이 경우에도 쓸 수 있나요?',
+        answer:
+          '계약 만료 후 보증금을 못 받으면 보증기관(HUG 등)에 <strong>보험금 청구</strong>가 가능합니다. 대항요건 유지가 필요합니다.',
+      },
+      {
+        question: '집주인이 "수리비 공제하겠다"고 하면 어떻게 하나요?',
+        answer:
+          '통상적인 마모는 임차인 부담이 아닙니다. <strong>특약 내용</strong>을 확인하고, 입퇴거 사진을 정리해두세요.',
+      },
+      {
+        question: '보증금 반환 지연이자도 받을 수 있나요?',
+        answer:
+          '<strong>지연손해금</strong>을 함께 청구할 수 있습니다. 소장에 기재하여 청구하세요.',
+      },
+      {
+        question: '임차권등기명령은 비용이 얼마나 드나요?',
+        answer:
+          '등록면허세와 수수료를 합쳐 <strong>수만 원</strong> 수준입니다. 법원 접수비가 포함됩니다.',
+      },
+      {
+        question: '집주인이 보증금 반환을 거절하면 경찰에 신고할 수 있나요?',
+        answer:
+          '기본적으로 <strong>민사 문제</strong>입니다. 다만 사기 정황이 있으면 형사 고소를 검토할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 주택임대차분쟁조정위원회를 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 전세 계약 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/jeonse',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '주택임대차 진단', href: '/diagnosis/jeonse' },
+      { label: '보증금을 못 받고 있는데 어떻게 해야 하나요?', href: '/guide/jeonse/deposit-return-process' },
+      { label: '전세보증보험 청구 전에 확인할 3가지', href: '/guide/jeonse/jeonse-insurance-claim-checklist' },
+      { label: '이혼 가이드', href: '/guide/divorce' },
+    ],
+  },
+  {
+    domain: 'jeonse',
+    slug: 'jeonse-insurance-claim-checklist',
+    keyword: '전세보증보험 청구 전에 확인할 3가지',
+    questionKeyword: '전세보증보험 청구하려는데 어떤 걸 확인해야 하나요?',
+    ctaKeyword: '전세보증보험 청구 준비',
+    type: '체크리스트형',
+    meta: {
+      title: '전세보증보험 청구 전에 확인할 3가지 | 로앤가이드',
+      description:
+        '전세보증금 반환보증보험 청구 전 확인해야 할 대항요건, 보증 조건, 청구 절차를 정리했습니다.',
+    },
+    intro:
+      'HUG 전세보증보험에 가입해뒀는데, 실제로 보증금을 못 받게 되니 청구 절차가 헷갈립니다. 보험금이 나오는 줄 알았는데 면책 사유에 걸릴 수도 있다는 이야기를 들었습니다. 청구 전에 이 3가지를 먼저 확인해보세요.',
+    sections: [
+      {
+        title: '대항요건이 유지되고 있는지 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">전입신고와 확정일자가 유지되어야 보험금이 나옵니다</strong></p>\n<p><strong>전입신고 + 확정일자 + 실제 거주</strong>가 유지되어야 합니다. 전입신고를 다른 곳으로 옮기면 대항력이 상실되어 보험금 청구가 거절될 수 있습니다.</p>\n<p>이사를 해야 한다면 <strong>임차권등기명령</strong>을 먼저 신청하여 대항력을 보전한 뒤 이사하세요. 등기부등본에서 다른 권리 변동이 없는지도 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 주민등록등본(전입 확인), 등기부등본, 확정일자 부여 확인서</blockquote>',
+      },
+      {
+        title: '보증 조건과 면책 사유를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">약관의 면책 사유에 해당하지 않는지 반드시 확인하세요</strong></p>\n<p>보증 한도, 보증 기간을 먼저 확인하세요. <strong>면책 사유</strong>에는 임대인과 특수관계(친인척 등), 보증금 변경 미통보, 대항요건 상실 등이 있습니다.</p>\n<p>보증 기간이 만료되었는데 갱신하지 않은 경우에도 문제가 될 수 있습니다. 약관의 세부 조건을 꼼꼼히 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 보증서 원본, 약관(면책 사유 확인), 보증 기간 만료일 확인</blockquote>',
+      },
+      {
+        title: '청구에 필요한 서류를 미리 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">보증서 원본과 미반환 증빙 서류를 준비하세요</strong></p>\n<p><strong>보증서 원본</strong>, 임대차계약서, 내용증명 발송 기록, 건물등기부등본, 주민등록등본을 준비하세요. 보증금 미반환 사실을 증명하는 자료가 핵심입니다.</p>\n<p>HUG 콜센터(<strong>1566-9009</strong>)에 미리 전화하면 필요 서류와 절차를 안내받을 수 있습니다. SGI서울보증 등 다른 보증기관도 유사한 절차입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 보증서 원본, 계약서, 내용증명 기록, 등기부등본, 주민등록등본</blockquote>',
+      },
+      {
+        title: '보험금 수령 후 남은 절차도 알아두세요',
+        content:
+          '<p><strong style="color:#1e3a5f">보증기관이 임대인에게 구상권을 행사합니다</strong></p>\n<p>보험금이 지급되면 보증기관이 임대인에게 <strong>구상권</strong>을 행사합니다. 임차인이 직접 임대인을 상대로 소송할 필요가 없어지는 장점이 있습니다.</p>\n<p>보험금이 보증금 전액에 미달하는 경우 나머지는 임대인에게 직접 청구해야 합니다. 보험금 지급까지는 보통 <strong>1~2개월</strong>이 소요됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">참고: 보험금 지급 소요 1~2개월, 차액은 임대인에게 직접 청구</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '전입신고를 옮겼다가 보험금 청구가 거절된 사례',
+        summary:
+          '이사하면서 전입신고를 옮긴 임차인이 보증보험금을 청구했으나, 대항요건 상실을 이유로 거절된 경우가 있었습니다. 보증약관에서 대항력 유지를 보험금 지급 요건으로 정하고 있었습니다.',
+        takeaway:
+          '비슷한 상황이라면 이사 전에 반드시 임차권등기명령을 신청하고 등기 완료 후 이사하세요.',
+      },
+      {
+        title: '보증 기간 만료 직전에 청구해서 보험금을 받은 사례',
+        summary:
+          '관련 사례에서도 보증 기간 만료일이 임박해 급히 청구한 경우가 자주 문제 됩니다. 보증 기간 내에 청구해야 보험금이 지급되므로 만료일을 미리 확인해두는 것이 중요합니다.',
+        takeaway:
+          '비슷한 상황이라면 보증서의 보증 기간 만료일을 확인하고, 여유를 두고 청구하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '전세보증보험은 누가 가입하나요?',
+        answer:
+          '<strong>임차인</strong>이 직접 가입합니다. HUG, SGI서울보증, 주택금융공사 등에서 가입할 수 있습니다.',
+      },
+      {
+        question: '보험료는 얼마인가요?',
+        answer:
+          '보증금 규모와 보증 기간에 따라 다릅니다. 연 <strong>0.1~0.2%</strong> 수준입니다.',
+      },
+      {
+        question: '보험금은 보증금 전액이 나오나요?',
+        answer:
+          '보증 가입 금액 <strong>한도 내</strong>에서 지급됩니다. 차액은 임대인에게 직접 청구해야 합니다.',
+      },
+      {
+        question: '보험금 청구 후 지급까지 얼마나 걸리나요?',
+        answer:
+          '통상 <strong>1~2개월</strong>입니다. 서류 보정이 필요하면 더 걸릴 수 있습니다.',
+      },
+      {
+        question: '임대인과 합의 중인데 보험 청구도 같이 할 수 있나요?',
+        answer:
+          '가능합니다. 임대인이 반환하면 <strong>보험 청구를 취하</strong>하면 됩니다.',
+      },
+      {
+        question: '보증 기간이 지나면 청구 못 하나요?',
+        answer:
+          '보증 기간 내 사고 발생이 확인되면 기간 후에도 <strong>청구 가능한 경우</strong>가 있습니다. 약관을 확인하세요.',
+      },
+      {
+        question: '깡통전세인데 보험 가입이 가능한가요?',
+        answer:
+          '가입 시 감정가 대비 보증금 비율 기준이 있습니다. 이미 가입했다면 <strong>유효</strong>합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 HUG 콜센터(1566-9009)를 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 전세 상황에 맞는 다음 단계를 확인해보세요',
+      link: '/diagnosis/jeonse',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '주택임대차 진단', href: '/diagnosis/jeonse' },
+      { label: '전세 계약 만료 후 집주인이 안 나가라고 할 때', href: '/guide/jeonse/lease-expired-landlord-wont-leave' },
+      { label: '전세 계약 갱신 거절당했을 때 대응 방법', href: '/guide/jeonse/lease-renewal-rejection' },
+      { label: '이혼 가이드', href: '/guide/divorce' },
+    ],
+  },
+  {
+    domain: 'jeonse',
+    slug: 'lease-renewal-rejection',
+    keyword: '전세 계약 갱신 거절당했을 때 대응 방법',
+    questionKeyword: '전세 계약 갱신을 거절당했는데 어떻게 해야 하나요?',
+    ctaKeyword: '계약 갱신 거절 대응',
+    type: '상황형',
+    meta: {
+      title: '전세 계약 갱신 거절당했을 때 대응 방법 | 로앤가이드',
+      description:
+        '전세 계약 갱신청구권 행사 후 거절당했을 때 확인할 사항과 대응 방법을 단계별로 정리했습니다.',
+    },
+    intro:
+      '2년 살았던 전세를 갱신하려는데 집주인이 "직접 들어와 살겠다"며 거절했습니다. 계약갱신청구권을 써도 거절당할 수 있는 건지, 지금 무엇을 해야 하는지 막막합니다. 갱신 거절이 정당한지 먼저 확인해보세요.',
+    timelineSteps: ['갱신청구권 확인', '거절 사유 검토', '대응 방법 선택', '보증금 회수'],
+    sections: [
+      {
+        title: '계약갱신청구권을 쓸 수 있는 상황인지 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">갱신청구권은 1회만 행사할 수 있습니다</strong></p>\n<p><strong>주택임대차보호법 제6조의3</strong>에 따라 임차인은 계약갱신을 1회 청구할 수 있습니다. 최초 계약 포함 최대 4년이 보장됩니다. 만료 6~2개월 전에 행사해야 합니다.</p>\n<p>이미 1회 사용했다면 추가 행사는 불가능합니다. 갱신 시 보증금은 <strong>5% 이내</strong>에서만 증액이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 최초 계약일 확인, 갱신청구권 행사 여부 확인</blockquote>',
+      },
+      {
+        title: '집주인의 거절 사유가 정당한지 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">법정 거절 사유에 해당하는지 확인하세요</strong></p>\n<p>법 제6조의3제1항 각호의 <strong>거절 사유</strong>에는 2기 이상 차임 연체, 임차인 동의 없이 전대, 임대인 본인 실거주 등이 있습니다.</p>\n<p>실거주 목적으로 거절한 경우, 임대인이 실제로 <strong>2년 이내</strong>에 거주하지 않으면 손해배상을 청구할 수 있습니다(제6조의3제6항). 거절 사유를 서면으로 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 거절 사유 서면 확인, 차임 납부 내역(연체 여부), 계약서</blockquote>',
+      },
+      {
+        title: '갱신 거절이 부당하다면 이렇게 대응하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">갱신 효력을 주장하거나 조정을 신청하세요</strong></p>\n<p>거절 사유가 법정 사유에 해당하지 않으면 갱신의 <strong>효력이 그대로 유지</strong>됩니다. 임대인에게 이를 알리고, 합의가 안 되면 임대차분쟁조정위원회에 조정을 신청하세요.</p>\n<p>조정으로도 해결이 안 되면 법원에 <strong>갱신 효력 확인 소송</strong>을 제기할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 갱신청구 증빙(내용증명), 임대차분쟁조정위원회 신청</blockquote>',
+      },
+      {
+        title: '정당한 거절이라면 보증금 반환 절차를 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">내용증명으로 반환을 요청하고 대항력을 보전하세요</strong></p>\n<p>거절이 정당하다면 계약 만료 후 <strong>보증금 반환 절차</strong>를 준비하세요. 내용증명으로 반환을 요청하고, 이사가 필요하면 임차권등기명령을 먼저 신청하세요.</p>\n<p>반환이 지체되면 지급명령이나 소송으로 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 내용증명, 임차권등기명령 신청, 지급명령/소송 검토</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '실거주를 이유로 갱신을 거절한 임대인이 실제로 입주하지 않은 사례',
+        summary:
+          '관련 사례에서도 임대인이 실거주 목적을 주장했으나 실제로 입주하지 않아 손해배상 책임이 문제된 경우가 자주 있습니다. 주택임대차보호법 제6조의3제6항은 정당한 사유 없이 2년 이내 거주하지 않으면 손해배상을 규정하고 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 임대인의 거절 사유를 서면으로 확인하고, 이후 실제 거주 여부를 확인할 수 있도록 기록해두세요.',
+      },
+      {
+        title: '차임 연체를 이유로 갱신 거절을 주장한 사례',
+        summary:
+          '관련 사례에서도 임대인이 2기 이상 차임 연체를 이유로 갱신 거절을 주장했으나, 연체 후 즉시 납부한 경우 거절 사유 해당 여부가 다퉈진 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 차임 납부 내역(이체 기록)을 시간순으로 정리해두세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '계약갱신청구권은 몇 번 쓸 수 있나요?',
+        answer:
+          '<strong>1회</strong>만 행사할 수 있습니다. 최초 계약 포함 최대 4년이 보장됩니다.',
+      },
+      {
+        question: '갱신 시 보증금을 올릴 수 있나요?',
+        answer:
+          '<strong>5% 이내</strong>에서만 증액이 가능합니다.',
+      },
+      {
+        question: '집주인이 "직접 살겠다"고 하면 무조건 나가야 하나요?',
+        answer:
+          '실거주 목적은 법정 거절사유이지만, 실제 <strong>2년 이내 거주</strong>하지 않으면 손해배상을 청구할 수 있습니다.',
+      },
+      {
+        question: '갱신 거절 통지를 구두로 받았는데 효력이 있나요?',
+        answer:
+          '구두 통지도 효력이 있을 수 있으나, <strong>서면으로 확인</strong>을 요청하는 것이 좋습니다.',
+      },
+      {
+        question: '임대차분쟁조정위원회는 어떻게 신청하나요?',
+        answer:
+          '<strong>대한법률구조공단</strong> 산하입니다. 온라인 또는 방문으로 신청할 수 있습니다.',
+      },
+      {
+        question: '갱신 거절 후 이사비를 받을 수 있나요?',
+        answer:
+          '법정 이사비 규정은 없지만, 부당 거절 시 <strong>손해배상</strong>에 포함될 수 있습니다.',
+      },
+      {
+        question: '묵시적 갱신과 계약갱신청구권은 뭐가 다른가요?',
+        answer:
+          '묵시적 갱신은 아무 통지 없으면 <strong>자동 갱신</strong>, 갱신청구권은 임차인이 적극적으로 행사하는 것입니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 임대차분쟁조정위원회를 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 전세 갱신 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/jeonse',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '주택임대차 진단', href: '/diagnosis/jeonse' },
+      { label: '전세 계약 만료 후 집주인이 안 나가라고 할 때', href: '/guide/jeonse/lease-expired-landlord-wont-leave' },
+      { label: '보증금을 못 받고 있는데 어떻게 해야 하나요?', href: '/guide/jeonse/deposit-return-process' },
+      { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
+    ],
+  },
 ];
