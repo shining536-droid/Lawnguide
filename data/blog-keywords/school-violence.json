@@ -1,0 +1,14 @@
+{
+  "domain": "school-violence",
+  "domainLabel": "학교폭력",
+  "keywords": [
+    {"title":"아이가 맞고 왔는데 학교에서 아무 조치도 안 해줘요","slug":"school-takes-no-action","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"학교폭력 가해자 됐다는데 우리 아이는 억울하대요","slug":"child-falsely-accused-as-bully","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"학교폭력 생기부 기록 대입에 진짜 영향 있나요?","slug":"school-record-affects-college","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"학교폭력 합의금 보통 얼마 정도 하나요","slug":"typical-settlement-amount","type":"수치기한형","intent":"정보형","priority":"high"},
+    {"title":"학교폭력 심의위원회 가기 전에 꼭 준비할 것들","slug":"committee-hearing-preparation","type":"체크리스트형","intent":"행동형","priority":"medium"},
+    {"title":"카톡 단톡방 왕따도 학교폭력에 해당됩니다","slug":"group-chat-exclusion-is-violence","type":"판례형","intent":"정보형","priority":"medium"},
+    {"title":"학교폭력 당한 아이 부모가 처음 해야 할 일","slug":"first-steps-for-victim-parents","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"학교폭력 신고하면 무고죄로 역고소 당할 수 있나요","slug":"can-reporting-lead-to-counter-sue","type":"실수함정형","intent":"정보형","priority":"medium"}
+  ]
+}

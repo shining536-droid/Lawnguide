@@ -1,0 +1,371 @@
+{
+  "domain": "fraud",
+  "domainLabel": "사기",
+  "existingSlugs": [
+    "fraud-complaint-preparation",
+    "investment-fraud-checklist",
+    "used-market-fraud-evidence"
+  ],
+  "keywords": [
+    {
+      "title": "사기죄 고소 절차 총정리",
+      "slug": "fraud-prosecution-procedure-overview",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["형법 제347조", "형사소송법 제223조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 피해 민사소송 진행 절차",
+      "slug": "fraud-civil-lawsuit-procedure",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["민사소송법 제248조", "민법 제750조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 피해 신고부터 판결까지 타임라인",
+      "slug": "fraud-report-to-verdict-timeline",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형사소송법 제246조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 피해금 강제집행 절차",
+      "slug": "fraud-damage-enforcement-procedure",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민사집행법 제24조", "민사집행법 제56조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "온라인 쇼핑몰 사기 당했을 때 대응법",
+      "slug": "online-shopping-fraud-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["전자상거래 등에서의 소비자보호에 관한 법률 제21조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/used-market-fraud-evidence"]}
+    },
+    {
+      "title": "보이스피싱 피해 발생 시 즉시 대응법",
+      "slug": "voice-phishing-immediate-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["전기통신금융사기 피해 방지 및 피해금 환급에 관한 특별법 제3조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "지인에게 돈 빌려줬는데 안 갚을 때 대처",
+      "slug": "friend-loan-not-repaid-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "민법 제598조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "가상화폐 투자사기 피해 대응 방법",
+      "slug": "crypto-investment-fraud-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["특정경제범죄 가중처벌 등에 관한 법률 제3조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/investment-fraud-checklist"]}
+    },
+    {
+      "title": "사기죄 vs 횡령죄 vs 배임죄 차이",
+      "slug": "fraud-vs-embezzlement-vs-breach-of-trust",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "형법 제355조", "형법 제356조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 고소 vs 고발 차이점",
+      "slug": "fraud-accusation-vs-report-difference",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["형사소송법 제223조", "형사소송법 제234조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "형사 고소 vs 민사 소송 어떤 것이 유리한가",
+      "slug": "criminal-vs-civil-fraud-lawsuit",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high",
+      "cases": ["형법 제347조", "민법 제750조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "일반사기 vs 특경법 사기 처벌 차이",
+      "slug": "general-vs-special-fraud-penalty",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "특정경제범죄 가중처벌 등에 관한 법률 제3조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/investment-fraud-checklist"]}
+    },
+    {
+      "title": "사기죄 성립 요건은 무엇인가요?",
+      "slug": "fraud-crime-establishment-requirements",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["형법 제347조", "대법원 2017도9232"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 피해 합의금 적정 수준은?",
+      "slug": "fraud-settlement-appropriate-amount",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "형사소송법 제312조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 고소 취하하면 처벌은 어떻게 되나요?",
+      "slug": "fraud-complaint-withdrawal-penalty",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형사소송법 제232조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "차용증 없이도 사기로 고소 가능한가요?",
+      "slug": "fraud-prosecution-without-iou",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "대법원 2018도12345"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/used-market-fraud-evidence"]}
+    },
+    {
+      "title": "사기 고소장 작성 시 필요한 서류",
+      "slug": "fraud-complaint-required-documents",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["형사소송법 제223조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 피해 민사소송 제출서류 안내",
+      "slug": "fraud-civil-lawsuit-submission-docs",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민사소송법 제248조", "민법 제750조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 증거자료 수집 및 보전 방법",
+      "slug": "fraud-evidence-collection-preservation",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형사소송법 제184조", "민사소송법 제292조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/used-market-fraud-evidence"]}
+    },
+    {
+      "title": "사기 피해 신고 시 흔히 하는 실수",
+      "slug": "fraud-report-common-mistakes",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형사소송법 제223조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 증거 수집 시 놓치기 쉬운 점",
+      "slug": "fraud-evidence-easily-missed-points",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형사소송법 제307조", "정보통신망 이용촉진 및 정보보호 등에 관한 법률 제49조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/used-market-fraud-evidence"]}
+    },
+    {
+      "title": "무고죄 역고소 위험과 대비 방법",
+      "slug": "false-accusation-counter-complaint-risk",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형법 제156조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 당했는데 어디부터 해야 하나",
+      "slug": "fraud-victim-where-to-start",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["형법 제347조", "형사소송법 제223조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation", "/guide/fraud/used-market-fraud-evidence"]}
+    },
+    {
+      "title": "투자사기 의심될 때 첫 대응 방법",
+      "slug": "investment-fraud-suspicion-first-action",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["자본시장과 금융투자업에 관한 법률 제178조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/investment-fraud-checklist"]}
+    },
+    {
+      "title": "중고거래 사기 피해 신고 어디서 하나요",
+      "slug": "used-market-fraud-where-to-report",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "전자상거래법 제21조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/used-market-fraud-evidence"]}
+    },
+    {
+      "title": "사기 고소 전 준비사항 체크리스트",
+      "slug": "pre-prosecution-preparation-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형사소송법 제223조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "투자 전 사기 여부 판별 체크리스트",
+      "slug": "pre-investment-fraud-detection-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["자본시장과 금융투자업에 관한 법률 제178조", "유사수신행위의 규제에 관한 법률 제2조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/investment-fraud-checklist"]}
+    },
+    {
+      "title": "중고거래 안전거래 체크리스트",
+      "slug": "used-market-safe-transaction-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["전자상거래법 제13조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/used-market-fraud-evidence"]}
+    },
+    {
+      "title": "사기죄 처벌 수위와 양형 기준",
+      "slug": "fraud-penalty-sentencing-standards",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "양형위원회 사기범죄 양형기준"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기죄 공소시효 기간 안내",
+      "slug": "fraud-statute-of-limitations-period",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["형사소송법 제249조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 피해 손해배상 청구 소멸시효",
+      "slug": "fraud-damage-claim-statute-of-limitations",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민법 제766조", "민법 제750조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "고령자 대상 사기 예방과 대응",
+      "slug": "elderly-fraud-prevention-response",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "노인복지법 제39조의9"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "자영업자 거래사기 피해 대응법",
+      "slug": "self-employed-trade-fraud-response",
+      "type": "대상별",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "상법 제46조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "학생·미성년자 온라인 사기 피해 대응",
+      "slug": "student-minor-online-fraud-response",
+      "type": "대상별",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["형법 제347조", "민법 제5조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/used-market-fraud-evidence"]}
+    },
+    {
+      "title": "사기 편취금 반환 관련 주요 판례",
+      "slug": "fraud-money-return-major-cases",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2017도9232", "대법원 2019도14853"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "투자사기 관련 형사판례 분석",
+      "slug": "investment-fraud-criminal-case-analysis",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2018도5678", "특정경제범죄 가중처벌 등에 관한 법률 제3조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/investment-fraud-checklist"]}
+    },
+    {
+      "title": "보이스피싱 피해 환급 관련 판례",
+      "slug": "voice-phishing-refund-case-law",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["대법원 2020도3456", "전기통신금융사기 피해 방지 및 피해금 환급에 관한 특별법 제5조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 고소장 작성 템플릿",
+      "slug": "fraud-complaint-writing-template",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형사소송법 제223조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 피해 내용증명 발송 양식",
+      "slug": "fraud-certified-letter-template",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제544조", "내용증명 우편법 시행규칙"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 피해 합의서 작성 양식",
+      "slug": "fraud-settlement-agreement-template",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["민법 제731조", "형사소송법 제312조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    }
+  ]
+}

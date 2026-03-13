@@ -1,0 +1,14 @@
+{
+  "domain": "assault",
+  "domainLabel": "폭행/상해",
+  "keywords": [
+    {"title":"맞았는데 증거가 없으면 어떻게 하나요?","slug":"no-evidence-after-assault","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"폭행 합의금, 얼마가 적정한 걸까요","slug":"assault-fair-settlement-amount","type":"수치기한형","intent":"정보형","priority":"high"},
+    {"title":"정당방위라고 주장했는데 안 먹힌 사례들","slug":"failed-self-defense-claims","type":"판례형","intent":"정보형","priority":"high"},
+    {"title":"술 먹고 맞았을 때 고소하면 어떻게 되나요","slug":"drunk-assault-complaint-result","type":"상황형","intent":"정보형","priority":"medium"},
+    {"title":"폭행 고소장 이렇게 쓰면 바로 접수됩니다","slug":"assault-complaint-writing-tips","type":"템플릿형","intent":"행동형","priority":"high"},
+    {"title":"폭행당했는데 어디부터 해야 할지 모르겠어요","slug":"assaulted-what-to-do-first","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"상호폭행이면 둘 다 처벌받나요?","slug":"mutual-assault-both-punished","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"직장에서 맞았을 때 산재 처리 가능한가요","slug":"workplace-assault-workers-comp","type":"상황형","intent":"정보형","priority":"medium"}
+  ]
+}

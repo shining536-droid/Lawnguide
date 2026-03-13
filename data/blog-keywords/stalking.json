@@ -1,0 +1,14 @@
+{
+  "domain": "stalking",
+  "domainLabel": "스토킹",
+  "keywords": [
+    {"title":"헤어진 전 남친이 계속 연락 오는데 이거 스토킹 맞나요?","slug":"ex-boyfriend-keeps-contacting","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"스토킹 당했을 때 증거 이렇게 모아두세요","slug":"how-to-collect-stalking-evidence","type":"실수함정형","intent":"행동형","priority":"high"},
+    {"title":"스토킹 신고했는데 경찰이 아무것도 안 해줘요","slug":"police-wont-help-after-report","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"스토킹 고소장 어떻게 쓰나요? 양식 정리해드립니다","slug":"stalking-complaint-form-guide","type":"템플릿형","intent":"행동형","priority":"high"},
+    {"title":"직장 동료가 퇴근길에 따라오는데 스토킹일까요","slug":"coworker-following-after-work","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"스토킹 합의금 얼마나 받을 수 있을까","slug":"stalking-settlement-amount","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"SNS 메시지 폭탄도 스토킹으로 처벌 가능합니다","slug":"sns-message-bombing-punishment","type":"판례형","intent":"정보형","priority":"medium"},
+    {"title":"스토킹 피해자인데 어디서부터 뭘 해야 할지 모르겠어요","slug":"stalking-victim-what-to-do-first","type":"어디부터형","intent":"행동형","priority":"high"}
+  ]
+}

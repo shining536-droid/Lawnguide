@@ -1,0 +1,14 @@
+{
+  "domain": "real-estate-auction",
+  "domainLabel": "부동산경매",
+  "keywords": [
+    {"title":"경매 처음인데 어디서부터 시작해야 하나요","slug":"auction-beginner-where-to-start","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"경매 낙찰받았는데 세입자가 안 나가요","slug":"won-bid-tenant-wont-leave","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"권리분석 모르고 입찰했다가 큰코다친 이야기","slug":"no-rights-analysis-disaster-story","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"경매 vs 공매, 초보자에겐 뭐가 나을까","slug":"auction-vs-public-sale-for-beginners","type":"비교형","intent":"비교형","priority":"medium"},
+    {"title":"유치권 걸린 물건 사도 괜찮을까요","slug":"lien-property-safe-to-buy","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"경매 입찰서 이렇게 쓰면 됩니다","slug":"bid-form-writing-easy-guide","type":"템플릿형","intent":"행동형","priority":"medium"},
+    {"title":"경매 잔금 기한 놓치면 어떻게 되나요","slug":"missed-balance-deadline-consequences","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"경매 현장답사 할 때 꼭 봐야 할 것들","slug":"site-visit-must-check-items","type":"체크리스트형","intent":"행동형","priority":"medium"}
+  ]
+}

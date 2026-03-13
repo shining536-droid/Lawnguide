@@ -1,0 +1,14 @@
+{
+  "domain": "inheritance",
+  "domainLabel": "상속",
+  "keywords": [
+    {"title":"부모님 돌아가셨는데 빚이 더 많을 때 어떻게 하나요","slug":"parent-death-more-debt-what-to-do","type":"상황형","intent":"행동형","priority":"high"},
+    {"title":"상속 포기 3개월 기한 놓치면 정말 끝인가요","slug":"missed-3month-deadline-really-over","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"한정승인이랑 상속포기 뭐가 다른 건가요","slug":"limited-vs-renunciation-difference","type":"비교형","intent":"정보형","priority":"high"},
+    {"title":"형제끼리 상속 재산 나누다 싸우게 되면","slug":"sibling-inheritance-fight","type":"상황형","intent":"정보형","priority":"medium"},
+    {"title":"상속 재산 조회 어디서 어떻게 하나요","slug":"how-to-search-inherited-assets","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"유언장 없으면 재산은 어떻게 나뉘나요","slug":"no-will-how-assets-divided","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"상속포기 했는데 빚쟁이가 찾아오면 어쩌죠","slug":"creditor-after-renunciation","type":"상황형","intent":"정보형","priority":"medium"},
+    {"title":"상속세 얼마부터 내야 하는 건가요","slug":"inheritance-tax-threshold","type":"수치기한형","intent":"정보형","priority":"medium"}
+  ]
+}

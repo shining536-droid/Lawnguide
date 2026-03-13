@@ -1,0 +1,14 @@
+{
+  "domain": "drug-crime",
+  "domainLabel": "마약범죄",
+  "keywords": [
+    {"title":"마약 투약 혐의 받으면 어디부터 해야 하나요","slug":"drug-charge-what-to-do-first","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"마약 초범인데 실형 나올 수 있나요","slug":"first-time-prison-possible","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"마약 소변검사 양성 나왔는데 투약한 적 없어요","slug":"positive-test-never-used","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"마약 자수하면 처벌이 정말 줄어드는지 알아봤습니다","slug":"surrender-really-reduces-penalty","type":"판례형","intent":"정보형","priority":"high"},
+    {"title":"마약 투약 vs 소지 vs 매매 처벌 이렇게 다릅니다","slug":"use-possession-dealing-penalty-diff","type":"비교형","intent":"비교형","priority":"medium"},
+    {"title":"마약 수사 대응할 때 절대 하면 안 되는 행동","slug":"investigation-never-do-this","type":"실수함정형","intent":"정보형","priority":"medium"},
+    {"title":"해외에서 대마 피웠는데 한국에서 처벌받나요","slug":"cannabis-abroad-korea-penalty","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"마약 사건 변호사 상담 전 꼭 준비할 것들","slug":"lawyer-consultation-preparation","type":"체크리스트형","intent":"행동형","priority":"medium"}
+  ]
+}

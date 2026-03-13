@@ -1,0 +1,14 @@
+{
+  "domain": "industrial-accident1",
+  "domainLabel": "산업재해-근로자",
+  "keywords": [
+    {"title":"산재 당했는데 회사가 신청 안 해주면 어떻게 하나요","slug":"company-wont-file-claim-what-to-do","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"출퇴근 중 다쳤는데 산재 되나요","slug":"commute-injury-covered-qa","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"산재 신청했더니 회사에서 불이익 줬습니다","slug":"retaliation-after-filing-story","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"산재 불승인 받았을 때 포기하지 마세요","slug":"denied-dont-give-up","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"산재보험 vs 개인보험 뭘로 청구하는 게 나을까","slug":"workers-comp-vs-private-insurance","type":"비교형","intent":"비교형","priority":"medium"},
+    {"title":"산재 신청 기한 놓치면 정말 못 받나요","slug":"missed-deadline-really-over","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"일용직인데 산재보험 적용 되나요","slug":"daily-worker-coverage-possible","type":"대상별","intent":"정보형","priority":"medium"},
+    {"title":"산재 신청할 때 이 실수 하면 안 됩니다","slug":"claim-filing-critical-mistakes","type":"실수함정형","intent":"정보형","priority":"medium"}
+  ]
+}

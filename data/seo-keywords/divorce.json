@@ -1,0 +1,374 @@
+{
+  "domain": "divorce",
+  "domainLabel": "이혼",
+  "existingSlugs": [
+    "child-support-non-payment",
+    "consensual-divorce-process",
+    "consensual-vs-trial-divorce",
+    "custody-agreement-prep",
+    "divorce-consultation-prep",
+    "property-division-ratio"
+  ],
+  "keywords": [
+    {
+      "title": "재판이혼 소송 절차 총정리",
+      "slug": "trial-divorce-lawsuit-procedure",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["민법 제840조", "가사소송법 제2조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-vs-trial-divorce", "/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "양육권 변경 절차와 소요 기간",
+      "slug": "custody-change-procedure-duration",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제837조", "가사소송법 제2조 제1항 나류"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/custody-agreement-prep"]}
+    },
+    {
+      "title": "위자료 청구 소송 타임라인",
+      "slug": "alimony-claim-lawsuit-timeline",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제843조", "민법 제806조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "이혼 조정 절차와 성립까지의 과정",
+      "slug": "divorce-mediation-process-steps",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["가사소송법 제50조", "가사소송법 제59조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-divorce-process"]}
+    },
+    {
+      "title": "배우자 외도 발견 시 이혼 대응법",
+      "slug": "spouse-affair-divorce-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["민법 제840조 제1호", "대법원 2015므568"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-vs-trial-divorce", "/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "가정폭력으로 인한 이혼 절차",
+      "slug": "domestic-violence-divorce-process",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["가정폭력범죄의 처벌 등에 관한 특례법 제8조", "민법 제840조 제3호"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-vs-trial-divorce"]}
+    },
+    {
+      "title": "별거 중 이혼 준비하는 방법",
+      "slug": "separation-divorce-preparation",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제840조 제6호", "대법원 2009므2130"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "이혼 후 자녀 면접교섭권 분쟁 대응",
+      "slug": "post-divorce-visitation-dispute",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제837조의2", "가사소송법 제63조의3"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/custody-agreement-prep"]}
+    },
+    {
+      "title": "재산분할 vs 위자료 차이점 비교",
+      "slug": "property-division-vs-alimony-comparison",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high",
+      "cases": ["민법 제839조의2", "민법 제843조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "단독친권 vs 공동친권 장단점",
+      "slug": "sole-vs-joint-custody-comparison",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["민법 제909조", "민법 제837조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/custody-agreement-prep"]}
+    },
+    {
+      "title": "조정이혼 vs 재판이혼 어떤 것이 나은가",
+      "slug": "mediation-vs-trial-divorce",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["가사소송법 제50조", "민법 제840조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-vs-trial-divorce"]}
+    },
+    {
+      "title": "국제이혼 vs 국내이혼 절차 차이",
+      "slug": "international-vs-domestic-divorce",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "low",
+      "cases": ["국제사법 제39조", "가사소송법 제2조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-divorce-process"]}
+    },
+    {
+      "title": "이혼 시 재산분할 대상은 무엇인가요?",
+      "slug": "divorce-property-division-scope-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["민법 제839조의2", "대법원 2013므2397"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "양육비 산정 기준은 어떻게 되나요?",
+      "slug": "child-support-calculation-criteria-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민법 제837조", "양육비산정기준표 (대법원)"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/child-support-non-payment"]}
+    },
+    {
+      "title": "이혼 시 연금분할 가능한가요?",
+      "slug": "divorce-pension-division-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["국민연금법 제64조", "공무원연금법 제46조의3"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "이혼 소장 작성 시 필수 기재사항",
+      "slug": "divorce-petition-required-items",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["가사소송법 제2조", "가사소송규칙 제9조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "협의이혼 신청 시 필요한 서류 목록",
+      "slug": "consensual-divorce-required-documents",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["민법 제836조", "가족관계의 등록 등에 관한 법률 제78조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-divorce-process"]}
+    },
+    {
+      "title": "양육권 소송 제출서류 안내",
+      "slug": "custody-lawsuit-submission-documents",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["가사소송법 제2조 제1항 나류", "민법 제837조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/custody-agreement-prep"]}
+    },
+    {
+      "title": "재산분할 청구 시 증거 수집 방법",
+      "slug": "property-division-evidence-collection",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제839조의2", "가사소송법 제16조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "이혼 과정에서 흔히 저지르는 실수",
+      "slug": "divorce-common-mistakes",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민법 제840조", "가사소송법 제2조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "재산분할에서 놓치기 쉬운 숨은 재산 유형",
+      "slug": "hidden-assets-property-division",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민법 제839조의2", "대법원 2017므1052"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "양육비 합의 시 빠지기 쉬운 함정",
+      "slug": "child-support-agreement-pitfalls",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민법 제837조", "양육비이행확보법 제14조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/child-support-non-payment"]}
+    },
+    {
+      "title": "이혼을 결심했는데 어디부터 시작해야 할까",
+      "slug": "decided-divorce-where-to-begin",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["민법 제834조", "가사소송법 제2조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/divorce-consultation-prep", "/guide/divorce/consensual-vs-trial-divorce"]}
+    },
+    {
+      "title": "양육비 안 받고 있는데 어디에 신청하나요",
+      "slug": "unpaid-child-support-where-to-apply",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["양육비이행확보법 제14조", "양육비이행관리원 설치법"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/child-support-non-payment"]}
+    },
+    {
+      "title": "이혼 전 재산 정리 어디부터 해야 할까",
+      "slug": "pre-divorce-asset-organization",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제839조의2", "가사소송법 제16조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "이혼 전 확인해야 할 체크리스트",
+      "slug": "pre-divorce-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제834조", "민법 제840조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "양육권 협상 전 체크리스트",
+      "slug": "custody-negotiation-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제837조", "민법 제909조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/custody-agreement-prep"]}
+    },
+    {
+      "title": "재산분할 청구 전 점검 체크리스트",
+      "slug": "property-division-pre-claim-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["민법 제839조의2", "가사소송법 제16조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "양육비 산정표 금액 기준 안내",
+      "slug": "child-support-calculation-table-amounts",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 양육비산정기준표", "민법 제837조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/child-support-non-payment"]}
+    },
+    {
+      "title": "위자료 청구 소멸시효와 금액 기준",
+      "slug": "alimony-statute-of-limitations-amount",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민법 제843조", "민법 제766조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "재산분할 청구 기한 2년 주의사항",
+      "slug": "property-division-2year-deadline",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민법 제839조의2 제3항", "대법원 2013므2397"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "전업주부 이혼 시 재산분할과 양육권",
+      "slug": "homemaker-divorce-property-custody",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["민법 제839조의2", "대법원 2013므2397"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio", "/guide/divorce/custody-agreement-prep"]}
+    },
+    {
+      "title": "군인·공무원 이혼 시 연금분할 안내",
+      "slug": "military-civil-servant-pension-division",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["공무원연금법 제46조의3", "군인연금법 제7조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "외국인 배우자 이혼 시 체류자격 문제",
+      "slug": "foreign-spouse-divorce-visa-status",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["출입국관리법 제25조", "국적법 제6조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-divorce-process"]}
+    },
+    {
+      "title": "유책배우자 이혼 청구 허용 판례 분석",
+      "slug": "at-fault-spouse-divorce-case-analysis",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2015므568", "대법원 2009므2130"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-vs-trial-divorce"]}
+    },
+    {
+      "title": "재산분할 비율 관련 주요 판례",
+      "slug": "property-division-ratio-case-law",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2013므2397", "대법원 2017므1052"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "양육권 판단 기준 관련 판례 정리",
+      "slug": "custody-determination-case-law",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2012므4643", "대법원 2019므6789"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/custody-agreement-prep"]}
+    },
+    {
+      "title": "이혼 합의서 작성 템플릿",
+      "slug": "divorce-agreement-writing-template",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제836조", "가족관계의 등록 등에 관한 법률 제78조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-divorce-process"]}
+    },
+    {
+      "title": "양육비 청구 신청서 양식",
+      "slug": "child-support-claim-application-form",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["양육비이행확보법 제14조", "가사소송법 제2조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/child-support-non-payment"]}
+    },
+    {
+      "title": "재산분할 청구서 작성 가이드",
+      "slug": "property-division-claim-writing-guide",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["민법 제839조의2", "가사소송규칙 제9조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    }
+  ]
+}

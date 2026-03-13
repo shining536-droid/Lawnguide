@@ -1,0 +1,62 @@
+{
+  "domain": "fraud",
+  "domainLabel": "사기",
+  "keywords": [
+    {
+      "title": "사기 당했는데 뭐부터 해야 할지 모르겠어요",
+      "slug": "fraud-victim-first-steps-guide",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "형사 고소랑 민사 소송, 뭐가 더 유리할까요?",
+      "slug": "criminal-vs-civil-which-better-blog",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high"
+    },
+    {
+      "title": "보이스피싱 당했을 때 즉시 해야 할 3가지",
+      "slug": "voice-phishing-immediate-3-steps",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "사기죄 성립 조건, 생각보다 까다롭습니다",
+      "slug": "fraud-crime-conditions-harder-than-expected",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "high"
+    },
+    {
+      "title": "중고거래 사기 안 당하려면 이것만 확인하세요",
+      "slug": "used-market-fraud-prevention-tips",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium"
+    },
+    {
+      "title": "사기 고소할 때 이 실수하면 기각됩니다",
+      "slug": "fraud-complaint-mistake-dismissal-warning",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "사기죄 공소시효, 시간 지나면 진짜 못 고소하나요?",
+      "slug": "fraud-statute-of-limitations-blog",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "부모님이 투자사기 당하셨어요, 어떻게 도와야 하나요",
+      "slug": "parents-investment-fraud-how-to-help",
+      "type": "대상별",
+      "intent": "행동형",
+      "priority": "medium"
+    }
+  ]
+}

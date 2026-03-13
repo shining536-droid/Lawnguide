@@ -1,0 +1,14 @@
+{
+  "domain": "wage",
+  "domainLabel": "임금체불",
+  "keywords": [
+    {"title":"월급 안 줘서 노동부에 신고하려는데 어떻게 하나요","slug":"report-unpaid-wage-to-labor-ministry","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"퇴사했는데 밀린 월급 받을 수 있나요","slug":"can-i-get-unpaid-salary-after-quit","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"임금체불 진정서 이렇게 쓰면 됩니다","slug":"wage-petition-writing-guide","type":"템플릿형","intent":"행동형","priority":"high"},
+    {"title":"알바비 안 주는 사장님 신고하는 방법","slug":"report-boss-not-paying-parttime","type":"대상별","intent":"행동형","priority":"high"},
+    {"title":"야근수당 안 받았는데 청구할 수 있나요","slug":"can-i-claim-unpaid-overtime","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"임금체불 3년 지나면 정말 못 받나요","slug":"3year-limitation-really-cant-claim","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"회사 폐업했는데 밀린 임금 받는 방법 있나요","slug":"company-closed-wage-recovery-method","type":"상황형","intent":"정보형","priority":"medium"},
+    {"title":"재직 중인데 임금체불 신고하면 불이익 있나요","slug":"reporting-while-employed-disadvantage","type":"실수함정형","intent":"정보형","priority":"medium"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "child-sex-crime",
+  "domainLabel": "아동성범죄",
+  "keywords": [
+    {"title":"아이가 선생님한테 이상한 짓 당했다고 하는데 어떻게 해야 하나요","slug":"child-says-teacher-did-something-wrong","type":"상황형","intent":"행동형","priority":"high"},
+    {"title":"아동성범죄 신고 안 하면 저도 처벌받을 수 있습니다","slug":"not-reporting-can-get-you-punished","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"온라인 그루밍이 뭔가요? 우리 아이도 당할 수 있나요","slug":"what-is-grooming-can-my-child-be-victim","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"아동성범죄 가해자 신상공개, 어디서 확인하나요","slug":"where-to-check-offender-registry","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"아이가 피해 사실을 말했을 때 부모가 절대 하면 안 되는 행동","slug":"what-parents-must-not-do","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"아동성범죄 처벌 수위가 이렇게 높아졌습니다","slug":"punishment-has-gotten-heavier","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"학원 보내기 전에 성범죄 전과 확인하는 방법","slug":"check-criminal-record-before-academy","type":"체크리스트형","intent":"행동형","priority":"medium"},
+    {"title":"또래 간 성범죄도 아청법 적용된다고요?","slug":"peer-crime-also-covered-by-law","type":"판례형","intent":"정보형","priority":"high"}
+  ]
+}

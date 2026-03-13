@@ -1,0 +1,14 @@
+{
+  "domain": "retirement",
+  "domainLabel": "퇴직금",
+  "keywords": [
+    {"title":"퇴직금 계산 이렇게 하면 정확합니다","slug":"accurate-retirement-pay-calculation","type":"수치기한형","intent":"행동형","priority":"high"},
+    {"title":"퇴직금 안 주는 회사, 어디에 신고하나요","slug":"report-unpaid-retirement-pay","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"알바도 퇴직금 받을 수 있다고요?","slug":"parttime-gets-retirement-pay","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"퇴직금 포기 각서 쓰라는데 써도 되나요","slug":"should-i-sign-waiver","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"1년 미만 근무했는데 퇴직금 못 받나요","slug":"under-1year-no-retirement-pay","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"퇴직금 14일 안에 안 주면 어떻게 되나요","slug":"14day-rule-violation-consequences","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"회사가 망해서 퇴직금 못 받을 때 방법이 있나요","slug":"company-bankrupt-retirement-pay-options","type":"상황형","intent":"정보형","priority":"medium"},
+    {"title":"퇴직연금이랑 퇴직금 뭐가 다른 건가요","slug":"pension-vs-severance-difference","type":"비교형","intent":"정보형","priority":"medium"}
+  ]
+}

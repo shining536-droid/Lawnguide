@@ -1,0 +1,14 @@
+{
+  "domain": "unemployment",
+  "domainLabel": "실업급여",
+  "keywords": [
+    {"title":"자진 퇴사했는데 실업급여 받을 수 있는 방법 있대요","slug":"voluntary-quit-but-still-eligible","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"실업급여 받으면서 알바해도 되나요? 이것만 지키세요","slug":"part-time-job-while-receiving-rules","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"실업급여 신청 기간 놓치면 한 푼도 못 받습니다","slug":"miss-deadline-get-nothing","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"퇴사하고 나니 뭐부터 해야 할지 모르겠어요","slug":"just-quit-dont-know-what-to-do","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"실업급여 얼마나, 얼마 동안 받을 수 있나요","slug":"how-much-and-how-long","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"권고사직 당했는데 실업급여 바로 나오나요","slug":"recommended-resignation-immediate-payment","type":"상황형","intent":"정보형","priority":"medium"},
+    {"title":"구직활동 인정 안 되는 실수 TOP 5","slug":"top-5-job-search-mistakes","type":"실수함정형","intent":"정보형","priority":"medium"},
+    {"title":"일용직도 실업급여 받을 수 있다고요?","slug":"daily-workers-also-eligible","type":"대상별","intent":"정보형","priority":"high"}
+  ]
+}

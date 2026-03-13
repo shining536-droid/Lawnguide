@@ -1,0 +1,14 @@
+{
+  "domain": "jeonse",
+  "domainLabel": "주택임대차",
+  "keywords": [
+    {"title":"전세보증금 못 받았을 때 첫날 해야 할 일","slug":"deposit-first-day-action","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"전세 내용증명, 이렇게 쓰면 바로 효과 납니다","slug":"notice-writing-tips","type":"템플릿형","intent":"행동형","priority":"high"},
+    {"title":"임차권등기명령 모르고 이사했다가 보증금 날린 이야기","slug":"lease-registration-mistake-story","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"전세보증금 경매로 받는 게 가능한가요?","slug":"deposit-auction-possible","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"전세 계약 연장할 때 월세 전환 요구받으면","slug":"renewal-monthly-conversion","type":"상황형","intent":"정보형","priority":"medium"},
+    {"title":"전세보증보험 안 들어놨으면 어떻게 하나요","slug":"no-insurance-what-now","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"전세 만료 3개월 전에 꼭 해야 할 체크리스트","slug":"3months-before-expiry-checklist","type":"체크리스트형","intent":"행동형","priority":"medium"},
+    {"title":"소액임차인이면 보증금 먼저 받을 수 있다고요?","slug":"small-tenant-priority-explained","type":"Q&A형","intent":"정보형","priority":"medium"}
+  ]
+}

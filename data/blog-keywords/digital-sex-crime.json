@@ -1,0 +1,14 @@
+{
+  "domain": "digital-sex-crime",
+  "domainLabel": "디지털성범죄",
+  "keywords": [
+    {"title":"몰카 발견했는데 어떻게 해야 하나요? 당황하지 마세요","slug":"found-hidden-camera-dont-panic","type":"상황형","intent":"행동형","priority":"high"},
+    {"title":"헤어진 전 애인이 사적 영상으로 협박합니다","slug":"ex-blackmailing-with-intimate-video","type":"상황형","intent":"행동형","priority":"high"},
+    {"title":"딥페이크로 내 얼굴 합성된 거 발견했을 때 대처법","slug":"deepfake-face-swap-found","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"불법촬영물 유포됐는데 삭제가 진짜 가능한가요","slug":"is-deletion-really-possible","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"몰카 증거 캡처할 때 이것만은 꼭 지키세요","slug":"must-follow-rules-for-evidence-capture","type":"실수함정형","intent":"행동형","priority":"medium"},
+    {"title":"불법촬영 처벌 수위, 벌금으로 끝나지 않습니다","slug":"punishment-not-just-fine","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"텔레그램에 올라간 영상도 삭제 요청 가능할까요","slug":"telegram-video-deletion-possible","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"디지털성범죄 피해자 지원센터 이용 후기와 절차","slug":"victim-support-center-review","type":"절차타임라인형","intent":"정보형","priority":"high"}
+  ]
+}

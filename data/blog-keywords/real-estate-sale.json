@@ -1,0 +1,14 @@
+{
+  "domain": "real-estate-sale",
+  "domainLabel": "부동산매매",
+  "keywords": [
+    {"title":"계약금만 냈는데 집값이 떨어졌다면 해약 가능할까","slug":"deposit-paid-price-dropped-cancel","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"등기부등본 안 보고 집 샀다가 큰일 날 뻔한 이야기","slug":"no-registry-check-almost-disaster","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"부동산 매매 처음이라면 이것부터 하세요","slug":"first-time-buyer-start-here","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"잔금일에 매도인이 안 나타나면 어떻게 하나요","slug":"seller-no-show-closing-day","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"매매계약 해제 통보, 이렇게 쓰면 됩니다","slug":"termination-notice-writing-guide","type":"템플릿형","intent":"행동형","priority":"medium"},
+    {"title":"부동산 직거래 vs 중개거래, 뭐가 나을까","slug":"direct-vs-agent-which-better","type":"비교형","intent":"비교형","priority":"medium"},
+    {"title":"집 살 때 숨은 하자 발견하면 보상받을 수 있나요","slug":"hidden-defect-compensation-possible","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"1세대 1주택 양도세 비과세 조건 총정리","slug":"single-house-tax-exemption-summary","type":"수치기한형","intent":"정보형","priority":"medium"}
+  ]
+}

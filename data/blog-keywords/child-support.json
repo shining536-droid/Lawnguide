@@ -1,0 +1,14 @@
+{
+  "domain": "child-support",
+  "domainLabel": "양육비",
+  "keywords": [
+    {"title":"양육비 안 주는 전 남편 어떻게 해야 하나요","slug":"ex-husband-not-paying-what-to-do","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"양육비 얼마 받을 수 있는지 계산해봤습니다","slug":"how-much-child-support-calculation","type":"수치기한형","intent":"정보형","priority":"high"},
+    {"title":"양육비 안 주면 출국금지 시킬 수 있다고요?","slug":"travel-ban-for-nonpayment","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"이혼하고 몇 년 지났는데 양육비 청구 가능한가요","slug":"can-claim-years-after-divorce","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"양육비 합의서 이렇게 쓰면 나중에 안 당합니다","slug":"child-support-agreement-writing-tips","type":"실수함정형","intent":"행동형","priority":"high"},
+    {"title":"양육비 강제집행 하려면 뭘 준비해야 하나요","slug":"enforcement-preparation-guide","type":"준비서류형","intent":"행동형","priority":"medium"},
+    {"title":"미혼모인데 아이 아빠한테 양육비 받을 수 있나요","slug":"single-mother-can-claim-support","type":"대상별","intent":"정보형","priority":"medium"},
+    {"title":"양육비 안 주면서 면접교섭 요구하면 어쩌죠","slug":"demands-visitation-but-no-payment","type":"상황형","intent":"정보형","priority":"medium"}
+  ]
+}

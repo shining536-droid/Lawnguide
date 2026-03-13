@@ -1,0 +1,14 @@
+{
+  "domain": "sexual-harassment",
+  "domainLabel": "성희롱",
+  "keywords": [
+    {"title":"회식에서 상사가 어깨를 만졌는데 이게 성희롱인가요?","slug":"boss-touched-shoulder-at-dinner","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"직장 내 성희롱 신고했더니 오히려 제가 불이익 받고 있어요","slug":"retaliation-after-harassment-report","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"성희롱 증거가 하나도 없는데 신고 가능한가요","slug":"can-i-report-without-evidence","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"직장 성희롱 당했을 때 첫날 해야 할 3가지","slug":"three-things-to-do-on-day-one","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"카톡으로 야한 사진 보낸 동료, 처벌 가능할까요","slug":"coworker-sent-explicit-photo-via-chat","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"성희롱 가해자인데 억울합니다, 어떻게 해야 하나요","slug":"falsely-accused-of-harassment","type":"상황형","intent":"행동형","priority":"medium"},
+    {"title":"성희롱 합의금 받으면 더 이상 소송 못 하나요","slug":"settlement-prevents-further-lawsuit","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"비정규직인데 성희롱 신고하면 계약 해지당할까요","slug":"non-regular-worker-fired-after-report","type":"대상별","intent":"정보형","priority":"high"}
+  ]
+}

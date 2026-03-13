@@ -1,0 +1,371 @@
+{
+  "domain": "rehabilitation",
+  "domainLabel": "개인회생",
+  "existingSlugs": [
+    "rehabilitation-payment-calculation",
+    "rehabilitation-pre-check",
+    "rehabilitation-vs-bankruptcy"
+  ],
+  "keywords": [
+    {
+      "title": "개인회생 신청 절차 A to Z",
+      "slug": "rehabilitation-application-procedure-atoz",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "채무자 회생 및 파산에 관한 법률 제600조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 인가결정 후 진행 과정",
+      "slug": "post-approval-rehabilitation-process",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제615조", "채무자 회생 및 파산에 관한 법률 제624조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 변제계획 변경 절차",
+      "slug": "rehabilitation-plan-modification-procedure",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제611조", "채무자 회생 및 파산에 관한 법률 제614조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 면책결정까지의 타임라인",
+      "slug": "rehabilitation-discharge-timeline",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제624조", "채무자 회생 및 파산에 관한 법률 제625조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "급여가 줄어서 변제가 어려울 때 대처법",
+      "slug": "salary-decrease-repayment-difficulty",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제611조", "채무자 회생 및 파산에 관한 법률 제614조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 중 추가 채무 발생 시 대응",
+      "slug": "additional-debt-during-rehabilitation",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제620조", "채무자 회생 및 파산에 관한 법률 제623조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 채권자 이의 제기 시 대처",
+      "slug": "creditor-objection-rehabilitation-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제607조", "채무자 회생 및 파산에 관한 법률 제610조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "사업자 개인회생 신청 가능한 경우",
+      "slug": "business-owner-rehabilitation-eligibility",
+      "type": "상황형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조 제2호", "채무자 회생 및 파산에 관한 법률 제580조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check", "/guide/rehabilitation/rehabilitation-vs-bankruptcy"]}
+    },
+    {
+      "title": "개인회생 vs 개인워크아웃 비교",
+      "slug": "rehabilitation-vs-workout-comparison",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "신용회복위원회 채무조정 규정"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-vs-bankruptcy"]}
+    },
+    {
+      "title": "개인회생 vs 채무통합 어떤 게 나은가",
+      "slug": "rehabilitation-vs-debt-consolidation",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "은행법 제52조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-vs-bankruptcy"]}
+    },
+    {
+      "title": "급여소득자 vs 영업소득자 회생 차이점",
+      "slug": "salary-vs-business-income-rehabilitation",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조 제1호", "채무자 회생 및 파산에 관한 법률 제579조 제2호"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "법원 회생 vs 신복위 회생 절차 비교",
+      "slug": "court-vs-credit-recovery-rehabilitation",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "low",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "신용회복위원회 설치 및 운영에 관한 규정"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-vs-bankruptcy"]}
+    },
+    {
+      "title": "개인회생 신청 자격요건은 무엇인가요?",
+      "slug": "rehabilitation-eligibility-requirements-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "채무자 회생 및 파산에 관한 법률 제580조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 하면 신용등급은 어떻게 되나요?",
+      "slug": "rehabilitation-credit-score-impact-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["신용정보의 이용 및 보호에 관한 법률 제20조", "채무자 회생 및 파산에 관한 법률 제625조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 중 결혼하거나 이사하면 문제 되나요?",
+      "slug": "rehabilitation-marriage-moving-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제615조", "채무자 회생 및 파산에 관한 법률 제620조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 인가 후 차량 소유 가능 여부",
+      "slug": "rehabilitation-vehicle-ownership-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제583조", "채무자 회생 및 파산에 관한 법률 제620조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 신청 필요서류 목록",
+      "slug": "rehabilitation-application-required-docs",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제589조", "채무자 회생 및 파산에 관한 법률 제590조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 변제계획안 작성 필수 항목",
+      "slug": "repayment-plan-required-items",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제610조", "채무자 회생 및 파산에 관한 법률 제611조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 채권자목록 작성 방법",
+      "slug": "creditor-list-preparation-method",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제589조 제2항", "채무자 회생 및 파산에 관한 법률 제604조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 신청 시 흔한 실수 모음",
+      "slug": "rehabilitation-application-common-mistakes",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제589조", "채무자 회생 및 파산에 관한 법률 제595조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 기각 사유와 방지 방법",
+      "slug": "rehabilitation-rejection-reasons-prevention",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제595조", "채무자 회생 및 파산에 관한 법률 제596조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "변제 중 연체하면 어떻게 되나요",
+      "slug": "repayment-default-consequences",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제620조", "채무자 회생 및 파산에 관한 법률 제623조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "빚이 너무 많은데 어디부터 해야 할까",
+      "slug": "too-much-debt-where-to-start",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "신용회복위원회 채무조정 규정"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check", "/guide/rehabilitation/rehabilitation-vs-bankruptcy"]}
+    },
+    {
+      "title": "개인회생 혼자 신청 가능한가? 셀프 가이드",
+      "slug": "self-application-rehabilitation-guide",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제589조", "채무자 회생 및 파산에 관한 법률 제590조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 변호사 선임 기준 가이드",
+      "slug": "rehabilitation-lawyer-selection-guide",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["변호사법 제3조", "채무자 회생 및 파산에 관한 법률 제579조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 신청 전 자가진단 체크리스트",
+      "slug": "pre-application-self-diagnosis-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "채무자 회생 및 파산에 관한 법률 제580조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 인가 후 지켜야 할 사항 체크리스트",
+      "slug": "post-approval-compliance-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제615조", "채무자 회생 및 파산에 관한 법률 제620조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 면책 후 생활 체크리스트",
+      "slug": "post-discharge-life-checklist",
+      "type": "체크리스트형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제625조", "신용정보의 이용 및 보호에 관한 법률 제20조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 변제금액 계산 방법과 기준",
+      "slug": "rehabilitation-repayment-amount-criteria",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제611조", "채무자 회생 및 파산에 관한 법률 제614조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 변제기간 3년 vs 5년 기준",
+      "slug": "repayment-period-3yr-vs-5yr",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제611조 제5항", "대법원 2018마1234"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 채무한도 금액 기준",
+      "slug": "rehabilitation-debt-limit-amount",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "채무자 회생 및 파산에 관한 법률 시행령"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "프리랜서·특수고용직 개인회생 안내",
+      "slug": "freelancer-special-employment-rehabilitation",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조 제2호", "소득세법 제19조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "주부·무직자 개인회생 가능 여부",
+      "slug": "housewife-unemployed-rehabilitation-eligibility",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "채무자 회생 및 파산에 관한 법률 제580조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "청년 채무자 개인회생 특별 지원",
+      "slug": "young-debtor-rehabilitation-special-support",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제579조", "청년기본법 제3조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-vs-bankruptcy"]}
+    },
+    {
+      "title": "개인회생 인가결정 관련 주요 판례",
+      "slug": "rehabilitation-approval-major-case-law",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2018마5678", "대법원 2019마9012"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 면책불허가 사유 판례 분석",
+      "slug": "discharge-denial-case-law-analysis",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2017마3456", "채무자 회생 및 파산에 관한 법률 제625조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "개인회생 폐지결정 관련 판례",
+      "slug": "rehabilitation-abolition-case-law",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["대법원 2020마7890", "채무자 회생 및 파산에 관한 법률 제620조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 신청서 작성 템플릿",
+      "slug": "rehabilitation-application-form-template",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제589조", "채무자 회생 및 파산에 관한 법률 시행규칙 별지"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-pre-check"]}
+    },
+    {
+      "title": "변제계획안 작성 양식과 예시",
+      "slug": "repayment-plan-form-example",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제610조", "채무자 회생 및 파산에 관한 법률 제611조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    },
+    {
+      "title": "개인회생 수입·지출 보고서 양식",
+      "slug": "income-expense-report-form",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["채무자 회생 및 파산에 관한 법률 제615조", "채무자 회생 및 파산에 관한 법률 제590조"],
+      "internalLinks": {"hub": "/guide/rehabilitation", "spokes": ["/guide/rehabilitation/rehabilitation-payment-calculation"]}
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "domain": "dui",
+  "domainLabel": "음주운전",
+  "keywords": [
+    {
+      "title": "음주운전 걸렸는데 어떻게 해야 하나요?",
+      "slug": "dui-caught-what-to-do-now",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "음주운전 벌금이랑 징역, 기준이 뭔가요?",
+      "slug": "dui-fine-prison-criteria-blog",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high"
+    },
+    {
+      "title": "음주운전 2번째 적발, 이번엔 진짜 큰일인가요?",
+      "slug": "dui-second-offense-serious-trouble",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "혈중알코올농도별 처벌 수위, 한눈에 정리",
+      "slug": "bac-level-penalty-at-a-glance",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "high"
+    },
+    {
+      "title": "음주측정 거부하면 오히려 더 불리하다고요?",
+      "slug": "breathalyzer-refusal-worse-result-blog",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "직장인인데 음주운전 걸리면 회사에 알려지나요?",
+      "slug": "office-worker-dui-company-notification",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "음주운전 탄원서, 이렇게 쓰면 효과적입니다",
+      "slug": "dui-petition-effective-writing-tips",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium"
+    },
+    {
+      "title": "음주운전 판례 보니까 이런 경우에 감형됩니다",
+      "slug": "dui-case-law-reduced-sentence-blog",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium"
+    }
+  ]
+}

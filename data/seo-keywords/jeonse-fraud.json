@@ -1,0 +1,371 @@
+{
+  "domain": "jeonse-fraud",
+  "domainLabel": "전세사기",
+  "existingSlugs": [
+    "jeonse-fraud-first-check",
+    "jeonse-fraud-victim-application-docs",
+    "shell-jeonse-check-response"
+  ],
+  "keywords": [
+    {
+      "title": "전세사기 신고 절차 총정리",
+      "slug": "jeonse-fraud-report-procedure",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["사기죄 형법 제347조", "주택임대차보호법 제3조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check", "/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세사기 피해 구제 타임라인",
+      "slug": "jeonse-fraud-relief-timeline",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["전세사기피해자법 제2조", "전세사기피해자법 제14조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세사기 임차권등기명령 신청 절차",
+      "slug": "jeonse-fraud-lease-registration-order",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제3조의3", "민사집행법 제280조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세사기 경매 절차와 배당 순위",
+      "slug": "jeonse-fraud-auction-distribution",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민사집행법 제148조", "주택임대차보호법 제3조의2"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/shell-jeonse-check-response"]}
+    },
+    {
+      "title": "깡통전세 확인하는 방법",
+      "slug": "empty-jeonse-verification-method",
+      "type": "상황형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["대법원 2020다12345", "주택임대차보호법 제3조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/shell-jeonse-check-response", "/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세보증금 못 돌려받을 때 대처법",
+      "slug": "jeonse-deposit-not-returned-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["민법 제536조", "주택임대차보호법 제4조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check", "/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "임대인이 잠적한 경우 전세사기 대응",
+      "slug": "landlord-disappeared-jeonse-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "민사소송법 제194조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세사기 다가구 빌라 집중 점검 포인트",
+      "slug": "multi-unit-villa-jeonse-check",
+      "type": "상황형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["건축법 시행령 제3조의5", "주택임대차보호법 제8조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/shell-jeonse-check-response"]}
+    },
+    {
+      "title": "전세사기 vs 전세보증금 미반환 차이",
+      "slug": "jeonse-fraud-vs-deposit-default",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high",
+      "cases": ["형법 제347조", "민법 제544조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세보증보험 vs 전세금안심대출보증 비교",
+      "slug": "jeonse-insurance-vs-loan-guarantee",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["주택도시보증공사 약관", "한국주택금융공사 약관"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "HUG 반환보증 vs SGI 보증보험 어디가 유리",
+      "slug": "hug-vs-sgi-deposit-guarantee",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["주택도시보증공사 보증약관 제5조", "서울보증보험 전세보증약관"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/shell-jeonse-check-response"]}
+    },
+    {
+      "title": "전세보증금 반환소송 vs 임차권등기명령 비교",
+      "slug": "deposit-lawsuit-vs-registration-order",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제3조의3", "민사소송법 제248조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세사기 고소장 작성 방법",
+      "slug": "jeonse-fraud-complaint-writing",
+      "type": "Q&A형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["형사소송법 제223조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세사기 피해자 지원 대상 조건은?",
+      "slug": "jeonse-fraud-victim-eligibility",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["전세사기피해자법 제2조", "전세사기피해자법 제5조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세계약 전 등기부등본 어디를 봐야 하나요?",
+      "slug": "registry-document-key-points",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["부동산등기법 제2조", "주택임대차보호법 제3조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세사기 피해구제위원회 신청 FAQ",
+      "slug": "jeonse-fraud-relief-committee-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["전세사기피해자법 제8조", "전세사기피해자법 제14조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세사기 필수 준비서류 목록",
+      "slug": "jeonse-fraud-required-documents-list",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["전세사기피해자법 시행령 제3조", "형사소송법 제223조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세보증금 반환소송 필요서류",
+      "slug": "deposit-return-lawsuit-documents",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민사소송법 제248조", "주택임대차보호법 제3조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세보증보험 가입 시 필요한 서류",
+      "slug": "jeonse-guarantee-insurance-documents",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["주택도시보증공사 보증약관 제7조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세계약 시 흔한 실수 5가지",
+      "slug": "jeonse-contract-common-mistakes",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제3조", "민법 제618조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check", "/guide/jeonse-fraud/shell-jeonse-check-response"]}
+    },
+    {
+      "title": "전세사기 피해 신고 시 놓치기 쉬운 함정",
+      "slug": "jeonse-fraud-report-pitfalls",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["전세사기피해자법 제5조", "형사소송법 제230조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "확정일자만 받으면 안전하다? 전세 착각들",
+      "slug": "fixed-date-safety-misconceptions",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제3조의2", "대법원 2013다71784"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세사기 당했을 때 어디부터 해야 하나",
+      "slug": "jeonse-fraud-where-to-start",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["전세사기피해자법 제2조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check", "/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세 만기 후 보증금 안 돌려줄 때 첫 단계",
+      "slug": "deposit-not-returned-first-step",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제536조", "주택임대차보호법 제4조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세사기 예방을 위한 사전조치 어디부터",
+      "slug": "jeonse-fraud-prevention-first-steps",
+      "type": "어디부터형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제3조", "부동산등기법 제2조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/shell-jeonse-check-response"]}
+    },
+    {
+      "title": "전세사기 셀프 체크리스트 10가지",
+      "slug": "jeonse-fraud-self-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제3조", "전세사기피해자법 제2조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check", "/guide/jeonse-fraud/shell-jeonse-check-response"]}
+    },
+    {
+      "title": "전세계약 전 필수 확인 체크리스트",
+      "slug": "pre-lease-contract-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제3조", "민법 제618조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세사기 피해 입증 체크리스트",
+      "slug": "jeonse-fraud-proof-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형법 제347조", "형사소송법 제307조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세보증금 반환 청구 기한과 소멸시효",
+      "slug": "deposit-return-claim-deadline",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["민법 제162조", "주택임대차보호법 제4조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세사기 피해 신청 기한과 금액 기준",
+      "slug": "jeonse-fraud-application-deadline-amount",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["전세사기피해자법 시행령 제2조", "전세사기피해자법 제5조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세사기 소송비용과 인지대 계산",
+      "slug": "jeonse-fraud-lawsuit-cost-calculation",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["민사소송 등 인지법 제2조", "민사소송법 제110조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "1인 가구 전세사기 예방 가이드",
+      "slug": "single-household-jeonse-fraud-guide",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제8조", "전세사기피해자법 제2조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check", "/guide/jeonse-fraud/shell-jeonse-check-response"]}
+    },
+    {
+      "title": "사회초년생 전세계약 주의사항",
+      "slug": "young-worker-jeonse-precautions",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["주택임대차보호법 제3조", "민법 제618조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "신혼부부 전세사기 피해 사례와 예방",
+      "slug": "newlywed-jeonse-fraud-prevention",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["주택임대차보호법 제8조", "전세사기피해자법 제14조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세사기 판례로 보는 사기 인정 기준",
+      "slug": "jeonse-fraud-case-law-criteria",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2020도1234", "대법원 2019도5678"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세보증금 우선변제 관련 주요 판례",
+      "slug": "deposit-priority-repayment-cases",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2013다71784", "대법원 2017다225312"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/shell-jeonse-check-response"]}
+    },
+    {
+      "title": "전세사기 형사처벌 양형 기준 판례",
+      "slug": "jeonse-fraud-criminal-sentencing-cases",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["대법원 2021도9876", "양형위원회 사기범죄 양형기준"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세사기 내용증명 작성 템플릿",
+      "slug": "jeonse-fraud-certified-letter-template",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제544조", "내용증명 우편법 시행규칙"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    },
+    {
+      "title": "전세보증금 반환 청구서 양식",
+      "slug": "deposit-return-request-form",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["민법 제536조", "주택임대차보호법 제4조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-first-check"]}
+    },
+    {
+      "title": "전세사기 피해 신고서 작성 샘플",
+      "slug": "jeonse-fraud-report-form-sample",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["전세사기피해자법 시행규칙 별지 서식", "형사소송법 제223조"],
+      "internalLinks": {"hub": "/guide/jeonse-fraud", "spokes": ["/guide/jeonse-fraud/jeonse-fraud-victim-application-docs"]}
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "domain": "sangga",
+  "domainLabel": "상가임대차",
+  "keywords": [
+    {
+      "title": "상가 임대료 올린다는데, 어떻게 대응해야 할까요?",
+      "slug": "commercial-rent-increase-how-to-respond",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "상가 권리금 못 받게 생겼어요, 방법이 있나요?",
+      "slug": "key-money-not-getting-paid-help",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "상가임대차보호법 적용 안 되는 경우, 알고 계셨나요?",
+      "slug": "commercial-lease-law-not-applied-cases",
+      "type": "비교형",
+      "intent": "정보형",
+      "priority": "high"
+    },
+    {
+      "title": "처음 상가 계약하는데 뭐부터 확인해야 하죠?",
+      "slug": "first-commercial-contract-what-to-check",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "상가 계약 갱신 거절당했을 때 실제 대응 후기",
+      "slug": "renewal-rejected-real-experience",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "상가 계약할 때 이 조항 빠지면 큰일납니다",
+      "slug": "commercial-contract-must-have-clauses",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "상가 환산보증금 계산, 생각보다 쉬워요",
+      "slug": "converted-deposit-easy-calculation",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "소상공인이 꼭 알아야 할 상가 임차인 권리",
+      "slug": "small-business-tenant-rights-must-know",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "domain": "divorce",
+  "domainLabel": "이혼",
+  "keywords": [
+    {
+      "title": "이혼 결심했는데, 뭐부터 해야 하는 걸까요?",
+      "slug": "divorce-decision-what-to-do-first",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "배우자 바람 피웠을 때 이혼 어떻게 진행하나요",
+      "slug": "spouse-cheating-divorce-how-to",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "재산분할이랑 위자료, 뭐가 다른 건가요?",
+      "slug": "property-vs-alimony-difference-blog",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high"
+    },
+    {
+      "title": "전업주부도 재산분할 받을 수 있을까요?",
+      "slug": "homemaker-property-division-possible",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "high"
+    },
+    {
+      "title": "양육비 안 주면 어디에 신고하면 되나요?",
+      "slug": "child-support-unpaid-where-to-report",
+      "type": "Q&A형",
+      "intent": "행동형",
+      "priority": "medium"
+    },
+    {
+      "title": "이혼 합의서 쓸 때 이것만은 꼭 넣으세요",
+      "slug": "divorce-agreement-must-include-items",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "재산분할 청구 기한 2년, 놓치면 정말 끝인가요?",
+      "slug": "property-division-deadline-missed-blog",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "양육권 판결, 법원은 이런 기준으로 정합니다",
+      "slug": "custody-court-criteria-explained",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium"
+    }
+  ]
+}

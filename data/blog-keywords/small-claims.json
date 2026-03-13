@@ -1,0 +1,14 @@
+{
+  "domain": "small-claims",
+  "domainLabel": "소액소송",
+  "keywords": [
+    {"title":"빌려준 300만원 안 갚는데 소송하면 받을 수 있을까요","slug":"can-i-get-3million-back-through-lawsuit","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"소액소송 혼자서 해봤습니다, 생각보다 쉬워요","slug":"did-small-claims-alone-easier-than-expected","type":"절차타임라인형","intent":"정보형","priority":"high"},
+    {"title":"지급명령이 소액소송보다 빠르다고요? 비교해봤습니다","slug":"payment-order-faster-than-lawsuit","type":"비교형","intent":"비교형","priority":"high"},
+    {"title":"소장 쓸 때 이것 빠뜨리면 바로 각하됩니다","slug":"missing-this-gets-complaint-dismissed","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"중고거래 사기 당했는데 소액소송으로 돈 받을 수 있나요","slug":"used-goods-fraud-money-recovery","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"차용증 없어도 빌려준 돈 소송으로 받은 사례","slug":"won-lawsuit-without-loan-contract","type":"판례형","intent":"정보형","priority":"medium"},
+    {"title":"소액소송 소장 양식 이렇게 쓰시면 됩니다","slug":"complaint-form-writing-guide","type":"템플릿형","intent":"행동형","priority":"medium"},
+    {"title":"돈 못 받고 있는데 뭐부터 해야 할지 모르겠어요","slug":"owed-money-dont-know-where-to-start","type":"어디부터형","intent":"행동형","priority":"high"}
+  ]
+}

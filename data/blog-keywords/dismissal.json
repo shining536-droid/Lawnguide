@@ -1,0 +1,14 @@
+{
+  "domain": "dismissal",
+  "domainLabel": "부당해고",
+  "keywords": [
+    {"title":"갑자기 해고 통보 받았는데 어떻게 해야 하나요","slug":"sudden-dismissal-what-to-do","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"권고사직이라고 하는데 사실상 해고 아닌가요","slug":"is-voluntary-resignation-actually-dismissal","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"수습 3개월 차에 잘렸는데 이거 부당해고인가요","slug":"probation-fired-unfair-dismissal","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"해고예고수당 못 받았을 때 이렇게 청구하세요","slug":"claim-dismissal-notice-pay-guide","type":"템플릿형","intent":"행동형","priority":"high"},
+    {"title":"부당해고 구제신청 30일 기한 놓치면 어떻게 되나요","slug":"missed-relief-deadline-consequences","type":"수치기한형","intent":"정보형","priority":"high"},
+    {"title":"노동위원회 가면 뭘 준비해야 하나요","slug":"labor-board-what-to-prepare","type":"체크리스트형","intent":"행동형","priority":"medium"},
+    {"title":"계약직인데 재계약 안 해주는 게 해고인가요","slug":"contract-nonrenewal-is-dismissal","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"5인 미만 사업장이면 부당해고 구제 못 받나요","slug":"under-5-employees-no-relief","type":"Q&A형","intent":"정보형","priority":"medium"}
+  ]
+}

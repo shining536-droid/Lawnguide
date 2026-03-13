@@ -1,0 +1,14 @@
+{
+  "domain": "traffic-accident",
+  "domainLabel": "교통사고",
+  "keywords": [
+    {"title":"교통사고 났는데 어디부터 해야 하나요","slug":"accident-what-to-do-first","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"보험사 합의금 제시액 그냥 받으면 안 되는 이유","slug":"dont-accept-insurer-offer","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"교통사고 합의금 얼마가 적정한지 알아보기","slug":"how-much-settlement-guide","type":"수치기한형","intent":"정보형","priority":"high"},
+    {"title":"블랙박스 없이 교통사고 과실 다투는 법","slug":"no-dashcam-dispute-fault","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"교통사고 합의 vs 소송, 뭐가 유리할까","slug":"settlement-vs-lawsuit-which-better","type":"비교형","intent":"비교형","priority":"medium"},
+    {"title":"뺑소니 당했을 때 이렇게 대처하세요","slug":"hit-and-run-response-guide","type":"상황형","intent":"행동형","priority":"medium"},
+    {"title":"교통사고 합의서 이렇게 쓰면 됩니다","slug":"settlement-form-writing-guide","type":"템플릿형","intent":"행동형","priority":"medium"},
+    {"title":"과실비율 100대 0인데도 보상 못 받는 경우","slug":"100-0-fault-no-compensation-case","type":"판례형","intent":"정보형","priority":"medium"}
+  ]
+}

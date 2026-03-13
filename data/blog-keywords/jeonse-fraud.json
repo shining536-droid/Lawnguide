@@ -1,0 +1,62 @@
+{
+  "domain": "jeonse-fraud",
+  "domainLabel": "전세사기",
+  "keywords": [
+    {
+      "title": "전세사기 당했는데 어떻게 해야 하죠? 첫 대응법 정리",
+      "slug": "jeonse-fraud-first-response-guide",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "깡통전세인지 확인하는 쉬운 방법 알려드릴게요",
+      "slug": "easy-empty-jeonse-check-method",
+      "type": "상황형",
+      "intent": "정보형",
+      "priority": "high"
+    },
+    {
+      "title": "전세보증보험 HUG vs SGI, 뭐가 더 나을까?",
+      "slug": "hug-sgi-comparison-blog",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high"
+    },
+    {
+      "title": "전세사기 고소장, 이렇게 쓰면 됩니다",
+      "slug": "jeonse-fraud-complaint-how-to-write",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "high"
+    },
+    {
+      "title": "사회초년생인데 전세계약 어떻게 하면 안 당할까요",
+      "slug": "young-worker-safe-jeonse-tips",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "전세계약할 때 이 실수만 안 하면 됩니다",
+      "slug": "jeonse-contract-avoid-these-mistakes",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "전세보증금 소멸시효, 기한 놓치면 끝입니다",
+      "slug": "deposit-claim-deadline-warning",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium"
+    },
+    {
+      "title": "전세사기 판례 모음: 법원은 이렇게 판단했습니다",
+      "slug": "jeonse-fraud-court-decisions-summary",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium"
+    }
+  ]
+}

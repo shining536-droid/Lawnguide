@@ -1,0 +1,14 @@
+{
+  "domain": "neighbor-dispute",
+  "domainLabel": "이웃분쟁",
+  "keywords": [
+    {"title":"윗집 쿵쿵 소리에 미칠 것 같은데 어떻게 해야 하나요","slug":"upstairs-noise-driving-me-crazy","type":"상황형","intent":"행동형","priority":"high"},
+    {"title":"층간소음 항의했다가 오히려 고소당한 사연","slug":"noise-complaint-led-to-counter-lawsuit","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"층간소음 몇 데시벨부터 법적으로 문제가 되나요","slug":"what-decibel-level-is-legally-problematic","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"옆에 건물 올라가는데 햇빛 다 가려져요, 이게 일조권 침해인가요","slug":"new-building-blocking-all-sunlight","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"층간소음 손해배상 실제로 얼마 받았는지 판례 정리","slug":"noise-damage-actual-amounts-cases","type":"판례형","intent":"정보형","priority":"medium"},
+    {"title":"이웃 소음 참다 참다 한계일 때 어디부터 해야 하나","slug":"at-my-limit-with-noise-where-to-start","type":"어디부터형","intent":"행동형","priority":"medium"},
+    {"title":"층간소음 증거 이렇게 모아야 소송에서 인정받습니다","slug":"how-to-collect-noise-evidence-for-court","type":"준비서류형","intent":"행동형","priority":"medium"},
+    {"title":"이웃집 CCTV가 우리 현관 비추는데 불법 아닌가요","slug":"neighbor-cctv-pointing-at-my-door","type":"Q&A형","intent":"정보형","priority":"high"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "industrial-accident2",
+  "domainLabel": "산업재해-사업주",
+  "keywords": [
+    {"title":"산재 났는데 사업주인 제가 처벌받나요","slug":"accident-happened-will-i-be-punished","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"중대재해처벌법 우리 회사도 해당되나요","slug":"serious-accident-law-applies-to-us","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"사업주가 모르면 큰일 나는 안전관리 의무","slug":"must-know-safety-obligations","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"산재 은폐하면 어떤 처벌을 받나요","slug":"concealing-accident-punishment","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"중대재해처벌법 vs 산안법, 뭐가 다른가요","slug":"serious-accident-vs-safety-law-diff","type":"비교형","intent":"비교형","priority":"medium"},
+    {"title":"50인 미만 소규모 사업장 안전관리 시작법","slug":"small-workplace-safety-start","type":"어디부터형","intent":"행동형","priority":"medium"},
+    {"title":"산재 발생 직후 사업주가 해야 할 일 순서","slug":"employer-todo-after-accident","type":"절차타임라인형","intent":"행동형","priority":"medium"},
+    {"title":"산업안전보건법 과태료 얼마나 나오나요","slug":"safety-law-fine-how-much","type":"수치기한형","intent":"정보형","priority":"medium"}
+  ]
+}

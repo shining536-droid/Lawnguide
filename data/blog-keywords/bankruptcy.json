@@ -1,0 +1,14 @@
+{
+  "domain": "bankruptcy",
+  "domainLabel": "개인파산",
+  "keywords": [
+    {"title":"빚이 1억인데 개인파산하면 진짜 다 없어지나요","slug":"100million-debt-all-gone-after-bankruptcy","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"개인파산하면 집이랑 차 빼앗기는 거 아닌가요","slug":"will-i-lose-my-house-and-car","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"개인파산 vs 개인회생, 나한테 뭐가 맞을까","slug":"bankruptcy-vs-rehabilitation-which-fits","type":"비교형","intent":"비교형","priority":"high"},
+    {"title":"파산 신청 전에 재산 옮기면 큰일 납니다","slug":"moving-assets-before-filing-big-trouble","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"카드빚 3천만원, 월급 200만원인데 파산 가능할까요","slug":"30million-debt-2million-salary-eligible","type":"상황형","intent":"정보형","priority":"medium"},
+    {"title":"개인파산 신청서 이렇게 쓰시면 됩니다","slug":"how-to-write-bankruptcy-application","type":"템플릿형","intent":"행동형","priority":"medium"},
+    {"title":"개인파산 후 신용 회복 얼마나 걸리나요","slug":"credit-recovery-how-long","type":"수치기한형","intent":"정보형","priority":"medium"},
+    {"title":"빚에 쫓기고 있는데 어디부터 해야 할지 모르겠어요","slug":"drowning-in-debt-where-to-start","type":"어디부터형","intent":"행동형","priority":"high"}
+  ]
+}

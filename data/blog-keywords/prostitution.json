@@ -1,0 +1,14 @@
+{
+  "domain": "prostitution",
+  "domainLabel": "성매매",
+  "keywords": [
+    {"title":"성매매 적발됐는데 어떻게 해야 하나요","slug":"caught-what-should-i-do","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"성매매 초범이면 처벌이 어느 정도인가요","slug":"first-offense-how-much-penalty","type":"Q&A형","intent":"정보형","priority":"high"},
+    {"title":"온라인 채팅으로 성매매 단속된 경우 대처법","slug":"online-chat-sting-response","type":"상황형","intent":"행동형","priority":"high"},
+    {"title":"성매매 단속 때 절대 하면 안 되는 실수","slug":"raid-never-make-these-mistakes","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"성매매 매수자 vs 매도자 처벌 이렇게 다릅니다","slug":"buyer-vs-seller-penalty-explained","type":"비교형","intent":"비교형","priority":"medium"},
+    {"title":"성매매 전과 있으면 취업 안 되나요","slug":"criminal-record-affects-job","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"성매매 강요당한 피해자도 처벌받나요","slug":"coerced-victim-punished-too","type":"판례형","intent":"정보형","priority":"medium"},
+    {"title":"성매매 사건 반성문 이렇게 쓰세요","slug":"reflection-letter-how-to-write","type":"템플릿형","intent":"행동형","priority":"medium"}
+  ]
+}

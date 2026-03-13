@@ -1,0 +1,380 @@
+{
+  "domain": "dui",
+  "domainLabel": "음주운전",
+  "existingSlugs": [
+    "dui-breathalyzer-refusal",
+    "dui-first-offense",
+    "dui-license-revocation"
+  ],
+  "keywords": [
+    {
+      "title": "음주운전 적발 후 형사 절차 총정리",
+      "slug": "dui-criminal-procedure-overview",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["도로교통법 제44조", "형법 제268조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 면허 행정처분 절차",
+      "slug": "dui-administrative-license-procedure",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["도로교통법 제93조", "도로교통법 시행규칙 별표 28"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 재판 진행 과정과 기간",
+      "slug": "dui-trial-process-duration",
+      "type": "절차타임라인형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형사소송법 제267조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 면허 재취득 절차 안내",
+      "slug": "dui-license-reacquisition-procedure",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["도로교통법 제82조", "도로교통법 시행규칙 제74조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 교통사고 발생 시 대처법",
+      "slug": "dui-traffic-accident-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["도로교통법 제54조", "특정범죄 가중처벌 등에 관한 법률 제5조의11"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 2회 이상 적발 시 대응",
+      "slug": "dui-repeat-offense-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["도로교통법 제148조의2 제1항", "도로교통법 제44조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "대리운전 중 음주운전 사고 시 책임",
+      "slug": "designated-driver-dui-accident-liability",
+      "type": "상황형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["도로교통법 제44조", "민법 제750조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 후 도주(뺑소니) 시 처벌 수위",
+      "slug": "dui-hit-and-run-penalty-level",
+      "type": "상황형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["특정범죄 가중처벌 등에 관한 법률 제5조의3", "도로교통법 제54조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 벌금 vs 징역 기준 비교",
+      "slug": "dui-fine-vs-imprisonment-comparison",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "high",
+      "cases": ["도로교통법 제148조의2", "양형위원회 음주운전 양형기준"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주측정 거부 vs 음주운전 처벌 차이",
+      "slug": "breathalyzer-refusal-vs-dui-penalty",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["도로교통법 제148조의2 제1항 제2호", "도로교통법 제44조 제2항"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-breathalyzer-refusal"]}
+    },
+    {
+      "title": "호흡측정 vs 혈액채취 음주측정 비교",
+      "slug": "breath-vs-blood-alcohol-test",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["도로교통법 제44조 제3항", "대법원 2016도15762"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-breathalyzer-refusal"]}
+    },
+    {
+      "title": "음주운전 약식기소 vs 정식재판 차이",
+      "slug": "dui-summary-vs-formal-trial",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "cases": ["형사소송법 제448조", "형사소송법 제453조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 처벌 기준 혈중알코올농도별 안내",
+      "slug": "dui-bac-penalty-by-level",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["도로교통법 제44조 제4항", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 전과 기록은 언제 삭제되나요?",
+      "slug": "dui-criminal-record-deletion-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형의 실효 등에 관한 법률 제7조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 구속 기준은 어떻게 되나요?",
+      "slug": "dui-arrest-detention-criteria-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["형사소송법 제70조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 보험 처리 가능 여부",
+      "slug": "dui-insurance-coverage-faq",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["자동차손해배상 보장법 제3조", "상법 제732조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 변호사 선임 시 준비서류",
+      "slug": "dui-lawyer-appointment-documents",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형사소송법 제30조", "변호사법 제3조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 행정심판 청구 서류 안내",
+      "slug": "dui-administrative-appeal-documents",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["행정심판법 제23조", "도로교통법 제93조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 선처 탄원서 작성 시 필요서류",
+      "slug": "dui-leniency-petition-documents",
+      "type": "준비서류형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["형사소송법 제51조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 적발 후 면허 정지·취소 기준",
+      "slug": "dui-license-suspension-revocation-criteria",
+      "type": "준비서류형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["도로교통법 제93조", "도로교통법 시행규칙 별표 28"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 적발 시 절대 하면 안 되는 행동",
+      "slug": "dui-caught-never-do-these-things",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["도로교통법 제44조", "형사소송법 제244조의3"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-breathalyzer-refusal"]}
+    },
+    {
+      "title": "음주측정 거부의 불이익과 함정",
+      "slug": "breathalyzer-refusal-disadvantages-traps",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["도로교통법 제44조 제2항", "도로교통법 제148조의2 제1항 제2호"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-breathalyzer-refusal"]}
+    },
+    {
+      "title": "음주운전 반성문만 쓰면 선처될까?",
+      "slug": "dui-apology-letter-enough-for-leniency",
+      "type": "실수함정형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["형사소송법 제51조", "양형위원회 음주운전 양형기준"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전으로 적발됐는데 어디부터 해야 할까",
+      "slug": "dui-caught-where-to-start",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high",
+      "cases": ["도로교통법 제44조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense", "/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 면허취소 후 대응 시작점",
+      "slug": "dui-license-canceled-starting-point",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["도로교통법 제93조", "행정심판법 제23조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 재범 처벌 대응 어디부터",
+      "slug": "dui-repeat-punishment-where-to-begin",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["도로교통법 제148조의2 제1항", "형법 제35조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 선처를 위한 준비 체크리스트",
+      "slug": "dui-leniency-preparation-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형사소송법 제51조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 재판 출석 전 체크리스트",
+      "slug": "dui-court-appearance-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형사소송법 제267조", "형사소송법 제276조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 면허 행정심판 체크리스트",
+      "slug": "dui-license-administrative-appeal-checklist",
+      "type": "체크리스트형",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["행정심판법 제23조", "도로교통법 제93조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 혈중알코올농도별 처벌 기준표",
+      "slug": "dui-bac-penalty-reference-table",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "high",
+      "cases": ["도로교통법 제44조 제4항", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 벌금액 산정 기준",
+      "slug": "dui-fine-calculation-criteria",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["도로교통법 제148조의2", "양형위원회 음주운전 양형기준"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 면허 결격기간 안내",
+      "slug": "dui-license-disqualification-period",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["도로교통법 제82조", "도로교통법 시행규칙 별표 28"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "직장인 음주운전 적발 시 영향과 대응",
+      "slug": "office-worker-dui-impact-response",
+      "type": "대상별",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["도로교통법 제148조의2", "근로기준법 제23조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "공무원·교사 음주운전 시 징계 기준",
+      "slug": "civil-servant-teacher-dui-discipline",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["국가공무원법 제78조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "영업용 차량 운전자 음주운전 처벌 특례",
+      "slug": "commercial-driver-dui-special-penalty",
+      "type": "대상별",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["도로교통법 제148조의2", "여객자동차 운수사업법 제76조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 양형 관련 주요 판례 분석",
+      "slug": "dui-sentencing-major-case-analysis",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2018도15517", "대법원 2019도14063"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주측정 거부 관련 판례 정리",
+      "slug": "breathalyzer-refusal-case-law-summary",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "medium",
+      "cases": ["대법원 2016도15762", "헌법재판소 2018헌바110"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-breathalyzer-refusal"]}
+    },
+    {
+      "title": "윤창호법 적용 관련 판례",
+      "slug": "yoon-changho-law-case-application",
+      "type": "판례형",
+      "intent": "정보형",
+      "priority": "low",
+      "cases": ["대법원 2019도14853", "특정범죄 가중처벌 등에 관한 법률 제5조의11"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 반성문·탄원서 작성 템플릿",
+      "slug": "dui-apology-petition-letter-template",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["형사소송법 제51조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 행정심판 청구서 양식",
+      "slug": "dui-administrative-appeal-form-template",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "medium",
+      "cases": ["행정심판법 제23조", "도로교통법 제93조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation"]}
+    },
+    {
+      "title": "음주운전 의견서 작성 가이드",
+      "slug": "dui-opinion-statement-writing-guide",
+      "type": "템플릿형",
+      "intent": "행동형",
+      "priority": "low",
+      "cases": ["형사소송법 제244조의3", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    }
+  ]
+}

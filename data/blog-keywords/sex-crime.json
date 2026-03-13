@@ -1,0 +1,14 @@
+{
+  "domain": "sex-crime",
+  "domainLabel": "성범죄",
+  "keywords": [
+    {"title":"강제추행 혐의 받으면 어디부터 해야 하나요","slug":"assault-charge-where-to-start","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"술자리에서 강제추행 혐의 받았습니다","slug":"drinking-party-assault-accused","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"성범죄 혐의 받을 때 절대 하면 안 되는 행동","slug":"accused-never-do-this","type":"실수함정형","intent":"정보형","priority":"high"},
+    {"title":"강제추행 vs 준강제추행 뭐가 다른가요","slug":"assault-vs-quasi-assault-difference","type":"비교형","intent":"비교형","priority":"high"},
+    {"title":"성범죄 합의하면 처벌이 얼마나 줄어드나요","slug":"settlement-how-much-reduction","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"성폭력 피해 증거 이렇게 모아두세요","slug":"victim-evidence-collection-guide","type":"체크리스트형","intent":"행동형","priority":"medium"},
+    {"title":"성범죄 무죄 판결 실제 판례 분석","slug":"acquittal-real-case-analysis","type":"판례형","intent":"정보형","priority":"medium"},
+    {"title":"디지털 성범죄 적발되면 어떤 처벌 받나요","slug":"digital-sex-crime-penalty-explained","type":"Q&A형","intent":"정보형","priority":"medium"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "defamation",
+  "domainLabel": "명예훼손",
+  "keywords": [
+    {"title":"악플 단 사람 고소하려면 어떻게 해야 하나요","slug":"how-to-sue-malicious-commenter","type":"어디부터형","intent":"행동형","priority":"high"},
+    {"title":"사실을 말했는데 명예훼손으로 고소당했어요","slug":"sued-for-telling-truth","type":"상황형","intent":"정보형","priority":"high"},
+    {"title":"명예훼손 합의금 보통 얼마 정도 받나요","slug":"defamation-typical-settlement","type":"수치기한형","intent":"정보형","priority":"high"},
+    {"title":"카톡 단체방에서 욕했는데 이것도 명예훼손인가요","slug":"group-chat-cursing-defamation","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"온라인 명예훼손 증거 캡처 이렇게 하세요","slug":"online-defamation-evidence-capture","type":"준비서류형","intent":"행동형","priority":"high"},
+    {"title":"명예훼손 고소하면 상대방이 바로 아나요?","slug":"does-accused-know-immediately","type":"Q&A형","intent":"정보형","priority":"medium"},
+    {"title":"유튜브에서 내 이름이 언급됐을 때 할 수 있는 것","slug":"youtube-name-mentioned-options","type":"상황형","intent":"행동형","priority":"high"},
+    {"title":"모욕죄랑 명예훼손 뭐가 다른 건가요","slug":"insult-vs-defamation-difference","type":"비교형","intent":"정보형","priority":"medium"}
+  ]
+}
