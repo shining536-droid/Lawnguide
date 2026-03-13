@@ -50,6 +50,13 @@ import { rehabilitationPages } from './spoke/rehabilitation';
 import { divorcePages } from './spoke/divorce';
 import { fraudPages } from './spoke/fraud';
 import { duiPages } from './spoke/dui';
+import { sanggaPages } from './spoke/sangga';
+import { wagePages } from './spoke/wage';
+import { dismissalPages } from './spoke/dismissal';
+import { retirementPages } from './spoke/retirement';
+import { inheritancePages } from './spoke/inheritance';
+import { defamationPages } from './spoke/defamation';
+import { assaultPages } from './spoke/assault';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -58,6 +65,13 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...divorcePages,
   ...fraudPages,
   ...duiPages,
+  ...sanggaPages,
+  ...wagePages,
+  ...dismissalPages,
+  ...retirementPages,
+  ...inheritancePages,
+  ...defamationPages,
+  ...assaultPages,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
