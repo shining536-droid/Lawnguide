@@ -1,22 +1,21 @@
 {
   "_draft": true,
   "domain": "school-violence",
-  "version": "2026-03-08",
-  "totalQuestions": 11,
+  "version": "2026-03-14",
+  "totalQuestions": 15,
   "questions": [
     {
       "id": "Q001",
-      "field": "situation_type",
-      "stage": "상황확인",
-      "text": "현재 상황에 가장 가까운 것을 골라주세요",
+      "field": "perspective",
+      "stage": "관점확인",
+      "text": "어떤 상황인가요?",
       "type": "enum",
       "options": [
-        { "value": "피해", "label": "피해를 입었어요" },
-        { "value": "혐의", "label": "신고를 당했거나 혐의를 받고 있어요" },
-        { "value": "정리중", "label": "아직 상황을 정리 중이에요" },
-        { "value": "보호자", "label": "보호자/법정대리인으로서 확인하고 싶어요" }
+        { "value": "피해", "label": "피해를 입었습니다 (학생/학부모)" },
+        { "value": "혐의", "label": "가해자로 지목되었습니다 (학생/학부모)" },
+        { "value": "사실과다름", "label": "사실과 다르게 신고되었다고 생각합니다" }
       ],
-      "next": { "피해": "Q002", "혐의": "Q002", "정리중": "Q002", "보호자": "Q002" }
+      "next": { "피해": "Q002", "혐의": "Q002", "사실과다름": "Q002" }
     },
     {
       "id": "Q002",
@@ -25,16 +24,16 @@
       "text": "지금 어디까지 진행된 상황인가요?",
       "type": "enum",
       "options": [
-        { "value": "시작", "label": "아직 아무 조치도 하지 않은 상태입니다" },
+        { "value": "발생직후", "label": "사건이 발생한 직후입니다" },
         { "value": "학교신고", "label": "학교에 알린 상태입니다" },
-        { "value": "심의진행", "label": "학교폭력대책심의위원회가 진행 중입니다" },
-        { "value": "조치후", "label": "심의 결과가 나온 후입니다" }
+        { "value": "학폭위진행중", "label": "학교폭력대책심의위원회가 진행 중입니다" },
+        { "value": "결과통보", "label": "심의 결과가 통보된 후입니다" }
       ],
       "next": {
-        "시작": "Q003",
+        "발생직후": "Q003",
         "학교신고": "Q003",
-        "심의진행": "Q003",
-        "조치후": "Q003"
+        "학폭위진행중": "Q003",
+        "결과통보": "Q003"
       }
     },
     {
@@ -160,47 +159,93 @@
         { "value": "안함", "label": "아직 하지 않았습니다" },
         { "value": "고민중", "label": "할지 말지 고민 중입니다" }
       ],
-      "next": {
-        "신고함": "Q010",
-        "안함": "Q010",
-        "고민중": "Q010"
+      "next": { "신고함": "_PERSPECTIVE", "안함": "_PERSPECTIVE", "고민중": "_PERSPECTIVE" },
+      "next_perspective": {
+        "피해": "Q_V10",
+        "혐의": "Q_A10",
+        "사실과다름": "Q_F10"
       }
     },
     {
-      "id": "Q010",
-      "field": "guardian_involvement",
-      "stage": "보호자확인",
-      "text": "보호자(법정대리인)가 이 사실을 알고 있나요?",
-      "type": "enum",
-      "options": [
-        { "value": "알고있음", "label": "보호자가 알고 있습니다" },
-        { "value": "모름", "label": "보호자가 아직 모릅니다" },
-        { "value": "본인이보호자", "label": "제가 보호자(법정대리인)입니다" }
-      ],
-      "next": {
-        "알고있음": "Q011",
-        "모름": "Q011",
-        "본인이보호자": "Q011"
-      }
-    },
-    {
-      "id": "Q011",
-      "field": "evidence_status",
+      "id": "Q_V10",
+      "field": "evidence_secured",
       "stage": "증거확인",
-      "text": "증거 보전 상태는 어떤가요?",
+      "text": "피해 관련 증거를 확보하셨나요?",
+      "description": "메시지 캡처, 영상, 진단서, 목격자 진술 등",
       "type": "enum",
       "options": [
-        { "value": "보관중", "label": "관련 자료를 보관하고 있습니다" },
-        { "value": "일부만", "label": "일부만 가지고 있습니다" },
-        { "value": "없음", "label": "증거가 거의 없습니다" },
-        { "value": "삭제위험", "label": "증거가 삭제될 위험이 있습니다" }
+        { "value": "확보함", "label": "증거를 확보했습니다" },
+        { "value": "일부확보", "label": "일부만 확보했습니다" },
+        { "value": "없음", "label": "아직 확보하지 못했습니다" }
       ],
-      "next": {
-        "보관중": "RESULT",
-        "일부만": "RESULT",
-        "없음": "RESULT",
-        "삭제위험": "RESULT"
-      }
+      "next": { "확보함": "Q_V11", "일부확보": "Q_V11", "없음": "Q_V11" }
+    },
+    {
+      "id": "Q_V11",
+      "field": "school_report",
+      "stage": "신고확인",
+      "text": "학교에 공식 신고를 하셨나요?",
+      "type": "enum",
+      "options": [
+        { "value": "신고함", "label": "학교에 공식 신고를 했습니다" },
+        { "value": "안함", "label": "아직 하지 않았습니다" },
+        { "value": "검토중", "label": "신고를 검토하고 있습니다" }
+      ],
+      "next": { "신고함": "RESULT", "안함": "RESULT", "검토중": "RESULT" }
+    },
+    {
+      "id": "Q_A10",
+      "field": "committee_notified",
+      "stage": "학폭위확인",
+      "text": "학교폭력대책심의위원회 통보를 받으셨나요?",
+      "type": "enum",
+      "options": [
+        { "value": "통보받음", "label": "학폭위 개최 통보를 받았습니다" },
+        { "value": "아직", "label": "아직 통보를 받지 않았습니다" },
+        { "value": "모름", "label": "잘 모르겠습니다" }
+      ],
+      "next": { "통보받음": "Q_A11", "아직": "Q_A11", "모름": "Q_A11" }
+    },
+    {
+      "id": "Q_A11",
+      "field": "fact_summary",
+      "stage": "사실확인",
+      "text": "사실관계를 정리하셨나요?",
+      "description": "사건 경위, 당시 상황, 관련자 진술 등",
+      "type": "enum",
+      "options": [
+        { "value": "정리함", "label": "사실관계를 정리했습니다" },
+        { "value": "일부정리", "label": "일부만 정리했습니다" },
+        { "value": "안함", "label": "아직 정리하지 못했습니다" }
+      ],
+      "next": { "정리함": "RESULT", "일부정리": "RESULT", "안함": "RESULT" }
+    },
+    {
+      "id": "Q_F10",
+      "field": "rebuttal_evidence",
+      "stage": "반박확인",
+      "text": "반박할 핵심 자료가 있으신가요?",
+      "description": "사실과 다름을 증명할 수 있는 메시지, 영상, 목격자 진술 등",
+      "type": "enum",
+      "options": [
+        { "value": "있음", "label": "반박 자료가 있습니다" },
+        { "value": "일부", "label": "일부 자료가 있습니다" },
+        { "value": "없음", "label": "아직 확보하지 못했습니다" }
+      ],
+      "next": { "있음": "Q_F11", "일부": "Q_F11", "없음": "Q_F11" }
+    },
+    {
+      "id": "Q_F11",
+      "field": "witness_secured",
+      "stage": "반박확인",
+      "text": "사실을 증언할 목격자를 확보하셨나요?",
+      "type": "enum",
+      "options": [
+        { "value": "있음", "label": "목격자를 확보했습니다" },
+        { "value": "일부", "label": "일부만 확보했습니다" },
+        { "value": "없음", "label": "아직 확보하지 못했습니다" }
+      ],
+      "next": { "있음": "RESULT", "일부": "RESULT", "없음": "RESULT" }
     }
   ]
 }

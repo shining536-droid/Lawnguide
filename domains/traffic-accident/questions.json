@@ -1,22 +1,21 @@
 {
   "_draft": true,
   "domain": "traffic-accident",
-  "version": "2026-03-10",
-  "totalQuestions": 11,
+  "version": "2026-03-14",
+  "totalQuestions": 15,
   "questions": [
     {
       "id": "Q001",
-      "field": "situation_type",
-      "stage": "상황확인",
-      "text": "현재 상황에 가장 가까운 것은?",
+      "field": "perspective",
+      "stage": "관점확인",
+      "text": "어떤 상황인가요?",
       "type": "enum",
       "options": [
-        { "value": "피해", "label": "교통사고 피해를 입었어요" },
-        { "value": "혐의", "label": "사고를 냈거나 과실 혐의를 받고 있어요" },
-        { "value": "정리중", "label": "아직 상황을 정리 중이에요" },
-        { "value": "보호자", "label": "보호자/가족으로서 확인하고 싶어요" }
+        { "value": "피해", "label": "사고 피해를 입었습니다" },
+        { "value": "혐의", "label": "사고를 냈습니다 (가해자)" },
+        { "value": "사실과다름", "label": "과실 비율이 억울합니다" }
       ],
-      "next": { "피해": "Q002", "혐의": "Q002", "정리중": "Q002", "보호자": "Q002" }
+      "next": { "피해": "Q002", "혐의": "Q002", "사실과다름": "Q002" }
     },
     {
       "id": "Q002",
@@ -25,12 +24,12 @@
       "text": "지금 어디까지 진행된 상황인가요?",
       "type": "enum",
       "options": [
-        { "value": "시작", "label": "문제를 인식한 단계입니다" },
-        { "value": "진행중", "label": "신고하거나 조치를 하고 있는 중입니다" },
-        { "value": "조치중", "label": "법적 조치를 진행하고 있습니다" },
-        { "value": "완료후문제", "label": "조치를 했으나 새로운 문제가 생겼습니다" }
+        { "value": "사고직후", "label": "사고가 발생한 직후입니다" },
+        { "value": "보험접수", "label": "보험사에 접수한 상태입니다" },
+        { "value": "합의중", "label": "합의를 진행하고 있습니다" },
+        { "value": "소송중", "label": "소송이 진행 중입니다" }
       ],
-      "next": { "시작": "Q003", "진행중": "Q003", "조치중": "Q003", "완료후문제": "Q003" }
+      "next": { "사고직후": "Q003", "보험접수": "Q003", "합의중": "Q003", "소송중": "Q003" }
     },
     {
       "id": "Q003",
@@ -131,34 +130,92 @@
         { "value": "합의전", "label": "아직 합의를 시작하지 않았습니다" },
         { "value": "합의거절", "label": "합의가 거절되었습니다" }
       ],
-      "next": { "합의완료": "Q010", "합의진행중": "Q010", "합의전": "Q010", "합의거절": "Q010" }
+      "next": { "합의완료": "_PERSPECTIVE", "합의진행중": "_PERSPECTIVE", "합의전": "_PERSPECTIVE", "합의거절": "_PERSPECTIVE" },
+      "next_perspective": {
+        "피해": "Q_V10",
+        "혐의": "Q_A10",
+        "사실과다름": "Q_F10"
+      }
     },
     {
-      "id": "Q010",
-      "field": "counterparty_status",
-      "stage": "상대방확인",
-      "text": "상대방 연락 상태는?",
-      "type": "enum",
-      "options": [
-        { "value": "연락가능", "label": "연락이 됩니다" },
-        { "value": "연락어려움", "label": "연락이 잘 안 됩니다" },
-        { "value": "뺑소니", "label": "상대방이 도주했습니다" }
-      ],
-      "next": { "연락가능": "Q011", "연락어려움": "Q011", "뺑소니": "Q011" }
-    },
-    {
-      "id": "Q011",
-      "field": "evidence_status",
+      "id": "Q_V10",
+      "field": "medical_record",
       "stage": "증거확인",
-      "text": "증거를 확보했나요?",
+      "text": "진단서를 확보하셨나요?",
       "type": "enum",
       "options": [
-        { "value": "확보함", "label": "블랙박스, 사진, 영상 등을 확보했습니다" },
-        { "value": "일부확보", "label": "일부만 확보했습니다" },
-        { "value": "없음", "label": "증거를 확보하지 못했습니다" },
-        { "value": "모름", "label": "증거가 있는지 잘 모르겠습니다" }
+        { "value": "확보함", "label": "진단서를 확보했습니다" },
+        { "value": "치료중", "label": "치료 중이라 아직 발급받지 못했습니다" },
+        { "value": "없음", "label": "아직 확보하지 못했습니다" }
       ],
-      "next": { "확보함": "RESULT", "일부확보": "RESULT", "없음": "RESULT", "모름": "RESULT" }
+      "next": { "확보함": "Q_V11", "치료중": "Q_V11", "없음": "Q_V11" }
+    },
+    {
+      "id": "Q_V11",
+      "field": "insurance_filed",
+      "stage": "보험확인",
+      "text": "보험 접수를 하셨나요?",
+      "type": "enum",
+      "options": [
+        { "value": "접수함", "label": "보험 접수를 했습니다" },
+        { "value": "안함", "label": "아직 접수하지 않았습니다" },
+        { "value": "검토중", "label": "접수를 검토하고 있습니다" }
+      ],
+      "next": { "접수함": "RESULT", "안함": "RESULT", "검토중": "RESULT" }
+    },
+    {
+      "id": "Q_A10",
+      "field": "accident_report",
+      "stage": "경위확인",
+      "text": "사고경위서를 작성하셨나요?",
+      "type": "enum",
+      "options": [
+        { "value": "작성함", "label": "사고경위서를 작성했습니다" },
+        { "value": "일부작성", "label": "일부만 작성했습니다" },
+        { "value": "안함", "label": "아직 작성하지 못했습니다" }
+      ],
+      "next": { "작성함": "Q_A11", "일부작성": "Q_A11", "안함": "Q_A11" }
+    },
+    {
+      "id": "Q_A11",
+      "field": "settlement_intent",
+      "stage": "합의확인",
+      "text": "합의 의향이 있으신가요?",
+      "type": "enum",
+      "options": [
+        { "value": "있음", "label": "합의를 원합니다" },
+        { "value": "검토중", "label": "검토 중입니다" },
+        { "value": "없음", "label": "합의 의향이 없습니다" }
+      ],
+      "next": { "있음": "RESULT", "검토중": "RESULT", "없음": "RESULT" }
+    },
+    {
+      "id": "Q_F10",
+      "field": "dashcam_secured",
+      "stage": "증거확인",
+      "text": "블랙박스 영상을 확보하셨나요?",
+      "description": "내 차량 및 상대 차량, 주변 CCTV 등",
+      "type": "enum",
+      "options": [
+        { "value": "확보함", "label": "블랙박스 영상을 확보했습니다" },
+        { "value": "일부확보", "label": "일부만 확보했습니다" },
+        { "value": "없음", "label": "아직 확보하지 못했습니다" }
+      ],
+      "next": { "확보함": "Q_F11", "일부확보": "Q_F11", "없음": "Q_F11" }
+    },
+    {
+      "id": "Q_F11",
+      "field": "fault_dispute_basis",
+      "stage": "반박확인",
+      "text": "과실비율 이의 근거를 정리하셨나요?",
+      "description": "사고 현장 사진, 블랙박스, 목격자, 사고 도면 등",
+      "type": "enum",
+      "options": [
+        { "value": "정리함", "label": "이의 근거를 정리했습니다" },
+        { "value": "일부정리", "label": "일부만 정리했습니다" },
+        { "value": "안함", "label": "아직 정리하지 못했습니다" }
+      ],
+      "next": { "정리함": "RESULT", "일부정리": "RESULT", "안함": "RESULT" }
     }
   ]
 }

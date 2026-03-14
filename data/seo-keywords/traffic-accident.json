@@ -42,6 +42,15 @@
     {"title":"어린이 교통사고 가중처벌 기준","slug":"child-accident-aggravated-penalty","type":"대상별","intent":"정보형","priority":"medium","cases":["도로교통법 제12조"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
     {"title":"교통사고 합의서 작성 양식","slug":"settlement-agreement-template","type":"템플릿형","intent":"행동형","priority":"medium","cases":["대법원 2018다256789"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
     {"title":"교통사고 손해배상 청구서 양식","slug":"damage-claim-form-template","type":"템플릿형","intent":"행동형","priority":"medium","cases":["민사소송법 제248조"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
-    {"title":"교통사고 내용증명 작성 양식","slug":"accident-notice-template","type":"템플릿형","intent":"행동형","priority":"low","cases":["대법원 2017다245678"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}}
+    {"title":"교통사고 내용증명 작성 양식","slug":"accident-notice-template","type":"템플릿형","intent":"행동형","priority":"low","cases":["대법원 2017다245678"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"교통사고 가해자 합의 방법","slug":"at-fault-driver-settlement-method","type":"절차타임라인형","intent":"행동형","priority":"high","perspective":"accused","cases":["교통사고처리특례법 제3조"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"교통사고 가해자 처벌 기준","slug":"at-fault-driver-penalty-criteria","type":"수치기한형","intent":"정보형","priority":"high","perspective":"accused","cases":["교통사고처리특례법 제3조","도로교통법 제148조"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"교통사고 형사합의금 기준","slug":"criminal-settlement-amount-criteria","type":"수치기한형","intent":"정보형","priority":"high","perspective":"accused","cases":["교통사고처리특례법 제3조"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"12대 중과실 사고 대응법","slug":"12-major-negligence-response","type":"상황형","intent":"행동형","priority":"medium","perspective":"accused","cases":["교통사고처리특례법 제3조 제2항"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"교통사고 초범 기소유예 조건","slug":"first-offense-deferred-prosecution","type":"Q&A형","intent":"정보형","priority":"medium","perspective":"accused","cases":["형사소송법 제247조"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"교통사고 과실비율 이의신청","slug":"fault-ratio-dispute-appeal","type":"절차타임라인형","intent":"행동형","priority":"high","perspective":"falsely_accused","cases":["대법원 2019다278456"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"블랙박스로 과실 반박하는 방법","slug":"dashcam-fault-rebuttal","type":"상황형","intent":"행동형","priority":"high","perspective":"falsely_accused","cases":["대법원 2020다234567"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"교통사고 억울한 과실 비율 다툼","slug":"unfair-fault-ratio-dispute","type":"상황형","intent":"행동형","priority":"high","perspective":"falsely_accused","cases":["대법원 2019다278456"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
+    {"title":"교통사고 과실 감경 증거 확보","slug":"fault-reduction-evidence-collection","type":"준비서류형","intent":"행동형","priority":"medium","perspective":"falsely_accused","cases":["대법원 2018다267891"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}}
   ]
 }

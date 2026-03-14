@@ -41,6 +41,14 @@
     {"title":"군인 마약 사건 군사재판 절차","slug":"military-drug-case-procedure","type":"대상별","intent":"정보형","priority":"low","cases":["군형법 제72조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
     {"title":"마약 자수서 작성 양식과 방법","slug":"voluntary-surrender-form-template","type":"템플릿형","intent":"행동형","priority":"medium","cases":["형법 제52조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
     {"title":"마약 사건 탄원서 작성 양식","slug":"drug-case-petition-template","type":"템플릿형","intent":"행동형","priority":"medium","cases":["형사소송법 제294조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
-    {"title":"마약 치료보호 신청서 작성법","slug":"treatment-protection-application-template","type":"템플릿형","intent":"행동형","priority":"low","cases":["마약류관리에관한법률 제40조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}}
+    {"title":"마약 치료보호 신청서 작성법","slug":"treatment-protection-application-template","type":"템플릿형","intent":"행동형","priority":"low","cases":["마약류관리에관한법률 제40조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
+    {"title":"마약 혐의 변호사 대응 전략","slug":"drug-charge-lawyer-defense-strategy","type":"어디부터형","intent":"행동형","priority":"high","perspective":"accused","cases":["마약류관리에관한법률 제60조","형사소송법 제30조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
+    {"title":"마약 초범 집행유예 조건","slug":"first-offense-probation-conditions","type":"Q&A형","intent":"정보형","priority":"high","perspective":"accused","cases":["마약류관리에관한법률 제60조","양형위원회 기준"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
+    {"title":"마약 자수 감형 기준","slug":"voluntary-surrender-reduction-criteria","type":"수치기한형","intent":"정보형","priority":"high","perspective":"accused","cases":["형법 제52조","마약류관리에관한법률 제60조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
+    {"title":"마약 투약 혐의 합의 방법","slug":"drug-use-charge-settlement","type":"절차타임라인형","intent":"행동형","priority":"high","perspective":"accused","cases":["마약류관리에관한법률 제60조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
+    {"title":"마약 구속 시 보석 청구","slug":"drug-detention-bail-request","type":"절차타임라인형","intent":"행동형","priority":"medium","perspective":"accused","cases":["형사소송법 제94조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
+    {"title":"마약 치료감호 신청 조건","slug":"treatment-custody-application-conditions","type":"Q&A형","intent":"정보형","priority":"medium","perspective":"accused","cases":["치료감호법 제2조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
+    {"title":"마약 재범 시 처벌 강화 기준","slug":"repeat-offense-enhanced-penalty","type":"수치기한형","intent":"정보형","priority":"medium","perspective":"accused","cases":["마약류관리에관한법률 제58조","대법원 2020도12567"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
+    {"title":"마약 소지 혐의 방어 방법","slug":"drug-possession-defense-method","type":"상황형","intent":"행동형","priority":"medium","perspective":"accused","cases":["마약류관리에관한법률 제58조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}}
   ]
 }

@@ -39,6 +39,15 @@
     {"title":"거래처 직원에 의한 성희롱 피해 대응","slug":"client-employee-harassment-response","type":"대상별","intent":"정보형","priority":"low","cases":["남녀고용평등법 제14조의2"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
     {"title":"성희롱 피해 진술서 작성 양식과 팁","slug":"victim-statement-form-and-tips","type":"템플릿형","intent":"행동형","priority":"medium","cases":["남녀고용평등법 제14조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
     {"title":"성희롱 고용노동부 진정서 작성 양식","slug":"labor-ministry-complaint-form-template","type":"템플릿형","intent":"행동형","priority":"medium","cases":["근로기준법 제104조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
-    {"title":"성희롱 내용증명 발송 양식과 작성법","slug":"formal-notice-template-and-guide","type":"템플릿형","intent":"행동형","priority":"low","cases":["민법 제750조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}}
+    {"title":"성희롱 내용증명 발송 양식과 작성법","slug":"formal-notice-template-and-guide","type":"템플릿형","intent":"행동형","priority":"low","cases":["민법 제750조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"성희롱 혐의 대응 방법","slug":"harassment-accusation-defense","type":"어디부터형","intent":"행동형","priority":"high","perspective":"accused","cases":["남녀고용평등법 제14조","형사소송법 제200조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"성희롱 가해자 징계 기준","slug":"harasser-disciplinary-criteria","type":"수치기한형","intent":"정보형","priority":"high","perspective":"accused","cases":["남녀고용평등법 제14조 제5항"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"성희롱 합의 절차와 방법","slug":"harassment-settlement-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","perspective":"accused","cases":["남녀고용평등법 제14조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"직장 내 성희롱 조사 대응","slug":"workplace-investigation-response","type":"상황형","intent":"행동형","priority":"medium","perspective":"accused","cases":["남녀고용평등법 제14조 제2항"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"성희롱 초범 처벌 수위","slug":"harassment-first-offense-penalty","type":"Q&A형","intent":"정보형","priority":"medium","perspective":"accused","cases":["형법 제298조","양형위원회 기준"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"성희롱 무고 대응법","slug":"harassment-false-accusation-defense","type":"상황형","intent":"행동형","priority":"high","perspective":"falsely_accused","cases":["형법 제156조","남녀고용평등법 제14조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"성희롱 억울한 신고 반박 방법","slug":"wrongful-report-rebuttal-method","type":"절차타임라인형","intent":"행동형","priority":"high","perspective":"falsely_accused","cases":["남녀고용평등법 제14조","형사소송법 제307조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"성희롱 오해 상황 해명 절차","slug":"misunderstanding-clarification-procedure","type":"상황형","intent":"행동형","priority":"medium","perspective":"falsely_accused","cases":["남녀고용평등법 제14조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
+    {"title":"직장 내 성희롱 허위신고 대처","slug":"workplace-false-report-response","type":"어디부터형","intent":"행동형","priority":"medium","perspective":"falsely_accused","cases":["형법 제156조","남녀고용평등법 제14조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}}
   ]
 }

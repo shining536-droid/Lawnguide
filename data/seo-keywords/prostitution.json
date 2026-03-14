@@ -41,6 +41,14 @@
     {"title":"외국인 성매매 사건 처리 절차","slug":"foreigner-prostitution-case-process","type":"대상별","intent":"정보형","priority":"low","cases":["출입국관리법 제46조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
     {"title":"성매매 사건 반성문 작성 양식","slug":"reflection-letter-template","type":"템플릿형","intent":"행동형","priority":"medium","cases":["형사소송법 제294조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
     {"title":"성매매 사건 탄원서 작성법","slug":"petition-writing-guide","type":"템플릿형","intent":"행동형","priority":"medium","cases":["형사소송법 제294조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
-    {"title":"성매매 피해 신고서 작성 양식","slug":"victim-report-form-template","type":"템플릿형","intent":"행동형","priority":"low","cases":["성매매방지및피해자보호등에관한법률 제7조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}}
+    {"title":"성매매 피해 신고서 작성 양식","slug":"victim-report-form-template","type":"템플릿형","intent":"행동형","priority":"low","cases":["성매매방지및피해자보호등에관한법률 제7조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
+    {"title":"성매매 혐의 대응 방법","slug":"prostitution-charge-defense-method","type":"어디부터형","intent":"행동형","priority":"high","perspective":"accused","cases":["성매매알선등행위의처벌에관한법률 제21조","형사소송법 제200조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
+    {"title":"성매매 단속 초범 처벌 수위","slug":"first-offense-raid-penalty-level","type":"수치기한형","intent":"정보형","priority":"high","perspective":"accused","cases":["성매매알선등행위의처벌에관한법률 제21조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
+    {"title":"성매매 알선 혐의 대응","slug":"solicitation-charge-defense","type":"상황형","intent":"행동형","priority":"high","perspective":"accused","cases":["성매매알선등행위의처벌에관한법률 제19조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
+    {"title":"성매매 기소유예 받는 방법","slug":"deferred-prosecution-method","type":"절차타임라인형","intent":"행동형","priority":"high","perspective":"accused","cases":["형사소송법 제247조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
+    {"title":"성매매 사건 벌금형 기준","slug":"prostitution-fine-penalty-criteria","type":"수치기한형","intent":"정보형","priority":"medium","perspective":"accused","cases":["성매매알선등행위의처벌에관한법률 제21조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
+    {"title":"성매매 조사 시 진술 방법","slug":"investigation-statement-method","type":"상황형","intent":"행동형","priority":"medium","perspective":"accused","cases":["형사소송법 제244조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
+    {"title":"성매매 전과 기록 영향","slug":"criminal-record-impact","type":"Q&A형","intent":"정보형","priority":"medium","perspective":"accused","cases":["형의실효등에관한법률 제2조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}},
+    {"title":"성매매 보호처분 신청 방법","slug":"protection-disposition-application","type":"절차타임라인형","intent":"행동형","priority":"medium","perspective":"accused","cases":["성매매알선등행위의처벌에관한법률 제12조"],"internalLinks":{"hub":"/guide/prostitution","spokes":[]}}
   ]
 }

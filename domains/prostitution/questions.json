@@ -1,22 +1,20 @@
 {
   "_draft": true,
   "domain": "prostitution",
-  "version": "2026-03-10",
-  "totalQuestions": 10,
+  "version": "2026-03-14",
+  "totalQuestions": 12,
   "questions": [
     {
       "id": "Q001",
-      "field": "situation_type",
-      "stage": "상황확인",
-      "text": "현재 상황에 가장 가까운 것은?",
+      "field": "perspective",
+      "stage": "관점확인",
+      "text": "어떤 상황인가요?",
       "type": "enum",
       "options": [
-        { "value": "피해", "label": "성매매 피해를 입었어요/강요를 받았어요" },
-        { "value": "혐의", "label": "성매매 관련 단속을 받았거나 혐의가 있어요" },
-        { "value": "정리중", "label": "아직 상황을 정리 중이에요" },
-        { "value": "보호자", "label": "보호자/가족으로서 확인하고 싶어요" }
+        { "value": "피해", "label": "성매매 피해를 입었습니다" },
+        { "value": "혐의", "label": "성매매 관련 혐의를 받고 있습니다" }
       ],
-      "next": { "피해": "Q002", "혐의": "Q002", "정리중": "Q002", "보호자": "Q002" }
+      "next": { "피해": "Q002", "혐의": "Q002" }
     },
     {
       "id": "Q002",
@@ -114,35 +112,65 @@
         { "value": "알선없음", "label": "알선·중개는 없습니다" },
         { "value": "모름", "label": "모름" }
       ],
-      "next": { "알선있음": "Q009", "알선없음": "Q009", "모름": "Q009" }
+      "next": { "알선있음": "_PERSPECTIVE", "알선없음": "_PERSPECTIVE", "모름": "_PERSPECTIVE" },
+      "next_perspective": {
+        "피해": "Q_V09",
+        "혐의": "Q_A09"
+      }
     },
     {
-      "id": "Q009",
-      "field": "report_status",
-      "stage": "신고확인",
-      "text": "경찰에 신고하거나 조사를 받았나요?",
-      "type": "enum",
-      "options": [
-        { "value": "신고함", "label": "신고한 적이 있습니다" },
-        { "value": "조사받음", "label": "조사를 받았습니다" },
-        { "value": "안함", "label": "아직 신고하지 않았습니다" },
-        { "value": "모름", "label": "잘 모르겠습니다" }
-      ],
-      "next": { "신고함": "Q010", "조사받음": "Q010", "안함": "Q010", "모름": "Q010" }
-    },
-    {
-      "id": "Q010",
-      "field": "support_need",
+      "id": "Q_V09",
+      "field": "support_connected",
       "stage": "지원확인",
-      "text": "어떤 지원이 가장 필요한가요?",
+      "text": "피해 지원기관에 연결되셨나요?",
+      "description": "여성긴급전화(1366), 성매매피해상담소 등",
       "type": "enum",
       "options": [
-        { "value": "안전확보", "label": "안전한 환경 확보" },
-        { "value": "법률상담", "label": "법률 상담" },
-        { "value": "심리상담", "label": "심리 상담·치료" },
-        { "value": "생활지원", "label": "생활·자립 지원" }
+        { "value": "연결됨", "label": "지원기관에 연결되었습니다" },
+        { "value": "안됨", "label": "아직 연결되지 않았습니다" },
+        { "value": "검토중", "label": "연결을 검토하고 있습니다" }
       ],
-      "next": { "안전확보": "RESULT", "법률상담": "RESULT", "심리상담": "RESULT", "생활지원": "RESULT" }
+      "next": { "연결됨": "Q_V10", "안됨": "Q_V10", "검토중": "Q_V10" }
+    },
+    {
+      "id": "Q_V10",
+      "field": "coercion_evidence",
+      "stage": "증거확인",
+      "text": "강요·알선 관련 증거가 있나요?",
+      "description": "협박 메시지, 금전 거래 내역, 녹음 등",
+      "type": "enum",
+      "options": [
+        { "value": "있음", "label": "증거가 있습니다" },
+        { "value": "일부", "label": "일부 자료가 있습니다" },
+        { "value": "없음", "label": "아직 확보하지 못했습니다" }
+      ],
+      "next": { "있음": "RESULT", "일부": "RESULT", "없음": "RESULT" }
+    },
+    {
+      "id": "Q_A09",
+      "field": "incident_summary",
+      "stage": "경위확인",
+      "text": "사건 경위를 정리하셨나요?",
+      "type": "enum",
+      "options": [
+        { "value": "정리함", "label": "경위를 정리했습니다" },
+        { "value": "일부정리", "label": "일부만 정리했습니다" },
+        { "value": "안함", "label": "아직 정리하지 못했습니다" }
+      ],
+      "next": { "정리함": "Q_A10", "일부정리": "Q_A10", "안함": "Q_A10" }
+    },
+    {
+      "id": "Q_A10",
+      "field": "lawyer_status",
+      "stage": "변호사확인",
+      "text": "변호사 선임 상태는?",
+      "type": "enum",
+      "options": [
+        { "value": "선임함", "label": "변호사를 선임했습니다" },
+        { "value": "검토중", "label": "선임을 검토하고 있습니다" },
+        { "value": "미선임", "label": "아직 선임하지 않았습니다" }
+      ],
+      "next": { "선임함": "RESULT", "검토중": "RESULT", "미선임": "RESULT" }
     }
   ]
 }

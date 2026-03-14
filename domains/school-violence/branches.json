@@ -1,54 +1,43 @@
 {
   "_draft": true,
   "domain": "school-violence",
-  "version": "2026-03-08",
-  "resolution_order": ["TYPE_VICTIM_URGENT", "TYPE_VICTIM_STANDARD", "TYPE_SUSPECT", "TYPE_GUARDIAN", "TYPE_EXPLORING", "TYPE_OK"],
+  "version": "2026-03-14",
+  "resolution_order": ["TYPE_VICTIM_URGENT", "TYPE_VICTIM_STANDARD", "TYPE_FALSELY_ACCUSED", "TYPE_SUSPECT", "TYPE_OK"],
   "types": [
     {
       "id": "TYPE_VICTIM_URGENT",
       "name": "긴급 안전 확인 필요",
-      "description": "피해를 입은 상황이며 신체적 피해 또는 반복적 폭력으로 즉각적인 조치가 필요한 경우",
-      "conditions": {
-        "situation_type": "피해",
-        "severity": ["반복", "심각"],
-        "_OR": { "evidence_status": "삭제위험" }
-      },
+      "description": "피해를 입은 상황이며 반복적·심각한 폭력으로 즉각적인 조치가 필요한 경우",
+      "conditions": { "perspective": "피해", "severity": ["반복", "심각"] },
       "priority": 1
     },
     {
       "id": "TYPE_VICTIM_STANDARD",
       "name": "피해 관련 절차 확인 필요",
       "description": "피해를 입은 상황이며 관련 지원 절차를 확인해볼 필요가 있는 경우",
-      "conditions": { "situation_type": "피해" },
+      "conditions": { "perspective": "피해" },
       "priority": 2
     },
     {
-      "id": "TYPE_SUSPECT",
-      "name": "혐의 관련 사실 정리 필요",
-      "description": "학교폭력 신고를 당했거나 혐의를 받고 있어 사실관계 정리가 필요한 경우",
-      "conditions": { "situation_type": "혐의" },
+      "id": "TYPE_FALSELY_ACCUSED",
+      "name": "사실과 다른 신고 대응 확인 필요",
+      "description": "사실과 다르게 가해자로 지목되어 대응을 준비해야 하는 상황",
+      "conditions": { "perspective": "사실과다름" },
       "priority": 3
     },
     {
-      "id": "TYPE_GUARDIAN",
-      "name": "보호자/법정대리인 확인 필요",
-      "description": "보호자 또는 법정대리인으로서 학교폭력 관련 권리와 대응 절차를 확인하는 경우",
-      "conditions": { "situation_type": "보호자" },
+      "id": "TYPE_SUSPECT",
+      "name": "가해자 지목 관련 사실 정리 필요",
+      "description": "가해자로 지목되어 사실관계 정리가 필요한 경우",
+      "conditions": { "perspective": "혐의" },
       "priority": 4
-    },
-    {
-      "id": "TYPE_EXPLORING",
-      "name": "상황 정리 도움 필요",
-      "description": "아직 상황을 정리하는 단계이며 기본적인 안내가 필요한 경우",
-      "conditions": { "situation_type": "정리중" },
-      "priority": 5
     },
     {
       "id": "TYPE_OK",
       "name": "기본 사항 확인",
       "description": "학교폭력 관련 기본 사항을 확인하는 경우",
       "conditions": {},
-      "priority": 6
+      "priority": 5
     }
   ]
 }

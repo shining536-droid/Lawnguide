@@ -40,6 +40,15 @@
     {"title":"장애학생 학교폭력 피해 시 추가 보호 조치","slug":"disabled-student-additional-protection","type":"대상별","intent":"정보형","priority":"low","cases":["장애인차별금지법 제35조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
     {"title":"학교폭력 탄원서 작성 양식과 예시","slug":"petition-letter-template-and-example","type":"템플릿형","intent":"행동형","priority":"medium","cases":["학교폭력예방법 제17조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
     {"title":"학교폭력 피해 사실확인서 작성법","slug":"victim-fact-confirmation-template","type":"템플릿형","intent":"행동형","priority":"medium","cases":["학교폭력예방법 제16조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
-    {"title":"학교폭력 행정심판 청구서 양식","slug":"administrative-appeal-form-template","type":"템플릿형","intent":"행동형","priority":"low","cases":["행정심판법 제28조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}}
+    {"title":"학교폭력 행정심판 청구서 양식","slug":"administrative-appeal-form-template","type":"템플릿형","intent":"행동형","priority":"low","cases":["행정심판법 제28조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 가해자 조치 대응","slug":"perpetrator-sanction-defense","type":"어디부터형","intent":"행동형","priority":"high","perspective":"accused","cases":["학교폭력예방법 제17조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 가해학생 심의위원회 대비","slug":"perpetrator-committee-preparation","type":"절차타임라인형","intent":"행동형","priority":"high","perspective":"accused","cases":["학교폭력예방법 제17조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 조치 불복 재심 청구","slug":"sanction-appeal-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","perspective":"accused","cases":["학교폭력예방법 제17조의2"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 가해학생 생기부 기록 삭제","slug":"perpetrator-school-record-deletion","type":"Q&A형","intent":"정보형","priority":"high","perspective":"accused","cases":["학교폭력예방법 제17조 제9항"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 합의서 작성 방법","slug":"school-violence-settlement-writing","type":"템플릿형","intent":"행동형","priority":"medium","perspective":"accused","cases":["학교폭력예방법 제17조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 억울한 신고 대응","slug":"wrongful-report-defense","type":"상황형","intent":"행동형","priority":"high","perspective":"falsely_accused","cases":["학교폭력예방법 제17조","형법 제156조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 허위신고 반박 증거","slug":"false-report-rebuttal-evidence","type":"준비서류형","intent":"행동형","priority":"high","perspective":"falsely_accused","cases":["학교폭력예방법 제16조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 쌍방 주장 시 대응법","slug":"mutual-claim-defense-method","type":"상황형","intent":"행동형","priority":"medium","perspective":"falsely_accused","cases":["학교폭력예방법 제17조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
+    {"title":"학교폭력 오해 해명 절차","slug":"misunderstanding-clarification-process","type":"절차타임라인형","intent":"행동형","priority":"medium","perspective":"falsely_accused","cases":["학교폭력예방법 제17조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}}
   ]
 }
