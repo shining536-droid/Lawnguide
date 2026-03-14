@@ -188,6 +188,7 @@ const FIELD_LABELS: Record<string, string> = {
   age_group: '연령대',
   special_case: '특수 상황',
   // crime domains (shared)
+  perspective: '관점',
   situation_type: '상황 유형',
   crime_subtype: '세부 유형',
   report_status: '신고 여부',
@@ -219,6 +220,7 @@ const TEMPLATE_FALLBACKS: Record<string, string> = {
   counterparty_contact: '연락 상태 확인이 필요한',
   contact_status: '연락 상태 확인이 필요한',
   first_action_short: '기본 자료부터 정리해두는 것',
+  perspective: '해당',
   situation_type: '해당',
   problem_type: '해당',
   residence_status: '확인이 필요한',

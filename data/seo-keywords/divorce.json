@@ -369,6 +369,56 @@
       "priority": "low",
       "cases": ["민법 제839조의2", "가사소송규칙 제9조"],
       "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/property-division-ratio"]}
+    },
+    {
+      "title": "유책배우자 이혼 가능한지",
+      "slug": "at-fault-spouse-divorce-possibility",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "high",
+      "perspective": "respondent",
+      "cases": ["민법 제840조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-vs-trial-divorce"]}
+    },
+    {
+      "title": "외도 들켰을때 대응",
+      "slug": "affair-discovered-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "respondent",
+      "cases": ["민법 제840조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "이혼 요구받았을때",
+      "slug": "divorce-demand-response",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "respondent",
+      "cases": ["민법 제840조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/consensual-vs-trial-divorce", "/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "허위 가정폭력 신고 대응",
+      "slug": "false-domestic-violence-report-defense",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "false_claim",
+      "cases": ["가정폭력처벌법", "형법 제156조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/divorce-consultation-prep"]}
+    },
+    {
+      "title": "접근금지 억울할때",
+      "slug": "restraining-order-unfair-claim",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "medium",
+      "perspective": "false_claim",
+      "cases": ["가정폭력처벌법", "형법 제156조"],
+      "internalLinks": {"hub": "/guide/divorce", "spokes": ["/guide/divorce/divorce-consultation-prep"]}
     }
   ]
 }

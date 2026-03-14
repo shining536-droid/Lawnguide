@@ -61,6 +61,7 @@ export interface Question {
   options: { value: string | boolean; label: string }[];
   next: Record<string, string>;
   description?: string;
+  next_perspective?: Record<string, string>;
 }
 
 export interface DocumentItem {

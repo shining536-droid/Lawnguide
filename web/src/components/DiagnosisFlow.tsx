@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import ProgressBar from './ProgressBar';
 import ResultCard from './ResultCard';
@@ -98,12 +98,43 @@ function ShareButtons({ answers }: { answers: Record<string, string> }) {
 export default function DiagnosisFlow({ questions, branches, results, domainName }: DiagnosisFlowProps) {
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [history, setHistory] = useState<number[]>([0]);
   const [finished, setFinished] = useState(false);
   const [redirect, setRedirect] = useState<string | null>(null);
   const [multiSelectState, setMultiSelectState] = useState<Record<string, boolean>>({});
 
   const currentQuestion = questions[currentIndex];
-  const totalQuestions = questions.length;
+
+  // Calculate effective total: exclude branched questions not on the user's path
+  const effectiveTotal = useMemo(() => {
+    const branchPrefixes = new Set<string>();
+    for (const q of questions) {
+      const match = q.id.match(/^Q_(V|A|F|P|R|C)/);
+      if (match) branchPrefixes.add(match[1]);
+    }
+    if (branchPrefixes.size === 0) return questions.length;
+
+    const branchedQuestions = questions.filter((q) => /^Q_(V|A|F|P|R|C)\d/.test(q.id));
+    const branchGroupSize = Math.floor(branchedQuestions.length / branchPrefixes.size);
+    return questions.length - branchGroupSize * Math.max(0, branchPrefixes.size - 1);
+  }, [questions]);
+
+  const resolveNextId = useCallback(
+    (question: Question, value: string, currentAnswers: Record<string, string>): string | undefined => {
+      let nextId = question.next[value] ?? question.next[String(value)];
+
+      // Handle perspective-based routing
+      if (nextId === '_PERSPECTIVE' && question.next_perspective) {
+        const perspective = currentAnswers['perspective'];
+        if (perspective && question.next_perspective[perspective]) {
+          nextId = question.next_perspective[perspective];
+        }
+      }
+
+      return nextId;
+    },
+    []
+  );
 
   const advanceToNext = useCallback(
     (nextId: string | undefined) => {
@@ -117,6 +148,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
       }
       const nextIndex = questions.findIndex((q) => q.id === nextId);
       if (nextIndex >= 0) {
+        setHistory((prev) => [...prev, nextIndex]);
         setCurrentIndex(nextIndex);
       } else {
         setFinished(true);
@@ -132,10 +164,10 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
       const newAnswers = { ...answers, [currentQuestion.field]: value };
       setAnswers(newAnswers);
 
-      const nextId = currentQuestion.next[value] ?? currentQuestion.next[String(value)];
+      const nextId = resolveNextId(currentQuestion, value, newAnswers);
       advanceToNext(nextId);
     },
-    [answers, currentQuestion, advanceToNext]
+    [answers, currentQuestion, advanceToNext, resolveNextId]
   );
 
   const handleMultiSelectConfirm = useCallback(() => {
@@ -149,7 +181,16 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
     setMultiSelectState({});
 
     const next = currentQuestion.next;
-    const nextId = next?.['_next'] ?? (next ? Object.values(next)[0] : undefined);
+    let nextId = next?.['_next'] ?? (next ? Object.values(next)[0] : undefined);
+
+    // Handle perspective routing for multiselect
+    if (nextId === '_PERSPECTIVE' && currentQuestion.next_perspective) {
+      const perspective = newAnswers['perspective'];
+      if (perspective && currentQuestion.next_perspective[perspective]) {
+        nextId = currentQuestion.next_perspective[perspective];
+      }
+    }
+
     advanceToNext(nextId);
   }, [answers, currentQuestion, multiSelectState, advanceToNext]);
 
@@ -158,20 +199,29 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
       setRedirect(null);
       return;
     }
-    if (currentIndex === 0) return;
+    if (history.length <= 1) return;
     setMultiSelectState({});
-    setCurrentIndex(currentIndex - 1);
-    const prevQuestion = questions[currentIndex - 1];
-    if (prevQuestion) {
+
+    // Pop the current entry from history
+    const newHistory = history.slice(0, -1);
+    const prevIndex = newHistory[newHistory.length - 1];
+
+    // Remove the answer for the question we're leaving
+    const leavingQuestion = questions[history[history.length - 1]];
+    if (leavingQuestion) {
       const newAnswers = { ...answers };
-      delete newAnswers[prevQuestion.field];
+      delete newAnswers[leavingQuestion.field];
       setAnswers(newAnswers);
     }
-  }, [currentIndex, answers, questions, redirect]);
+
+    setHistory(newHistory);
+    setCurrentIndex(prevIndex);
+  }, [history, answers, questions, redirect]);
 
   const handleRestart = useCallback(() => {
     setAnswers({});
     setCurrentIndex(0);
+    setHistory([0]);
     setFinished(false);
     setRedirect(null);
   }, []);
@@ -228,8 +278,8 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
   return (
     <div>
       <ProgressBar
-        current={currentIndex + 1}
-        total={totalQuestions}
+        current={history.length}
+        total={effectiveTotal}
         stage={currentQuestion.stage}
       />
 
@@ -282,7 +332,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
           </div>
         )}
 
-        {currentIndex > 0 && (
+        {history.length > 1 && (
           <button
             onClick={handleBack}
             className="mt-5 text-sm text-gray-400 hover:text-primary-600"

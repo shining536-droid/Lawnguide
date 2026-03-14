@@ -375,6 +375,76 @@
       "priority": "low",
       "cases": ["형사소송법 제244조의3", "도로교통법 제148조의2"],
       "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주운전 초범 처벌 기준과 대응",
+      "slug": "dui-first-offense-penalty",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "high",
+      "perspective": "accused",
+      "cases": ["도로교통법 제44조", "도로교통법 제148조의2"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense", "/guide/dui/dui-bac-penalty-by-level"]}
+    },
+    {
+      "title": "음주운전 벌금 액수와 산정 기준",
+      "slug": "dui-fine-amount",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "high",
+      "perspective": "accused",
+      "cases": ["도로교통법 제148조의2", "도로교통법 제44조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-fine-calculation-criteria", "/guide/dui/dui-fine-vs-imprisonment-comparison"]}
+    },
+    {
+      "title": "음주운전 합의 절차와 방법",
+      "slug": "dui-settlement",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "accused",
+      "cases": ["도로교통법 제148조의2", "형법 제156조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-first-offense", "/guide/dui/dui-leniency-preparation-checklist"]}
+    },
+    {
+      "title": "면허취소 구제 방법과 행정심판",
+      "slug": "license-revocation-remedy",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "accused",
+      "cases": ["도로교통법 제93조", "도로교통법 제44조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-license-revocation", "/guide/dui/dui-administrative-appeal-documents"]}
+    },
+    {
+      "title": "음주운전 직장 통보 여부와 대응",
+      "slug": "dui-workplace-notification",
+      "type": "Q&A형",
+      "intent": "정보형",
+      "priority": "medium",
+      "perspective": "accused",
+      "cases": ["도로교통법 제148조의2", "도로교통법 제44조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/office-worker-dui-impact-response", "/guide/dui/dui-first-offense"]}
+    },
+    {
+      "title": "음주측정 오류 대응 방법",
+      "slug": "breathalyzer-error-response",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "falsely_accused",
+      "cases": ["도로교통법 제44조", "형법 제156조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-breathalyzer-refusal", "/guide/dui/breath-vs-blood-alcohol-test"]}
+    },
+    {
+      "title": "음주운전 단속 이의제기 절차",
+      "slug": "dui-enforcement-objection",
+      "type": "절차타임라인형",
+      "intent": "행동형",
+      "priority": "medium",
+      "perspective": "falsely_accused",
+      "cases": ["도로교통법 제44조", "도로교통법 제148조의2", "형법 제156조"],
+      "internalLinks": {"hub": "/guide/dui", "spokes": ["/guide/dui/dui-breathalyzer-refusal", "/guide/dui/breathalyzer-refusal-case-law-summary"]}
     }
   ]
 }

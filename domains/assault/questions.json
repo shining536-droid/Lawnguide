@@ -1,22 +1,21 @@
 {
   "_draft": true,
   "domain": "assault",
-  "version": "2026-03-08",
-  "totalQuestions": 11,
+  "version": "2026-03-14",
+  "totalQuestions": 12,
   "questions": [
     {
       "id": "Q001",
-      "field": "situation_type",
-      "stage": "상황확인",
-      "text": "현재 상황에 가장 가까운 것을 골라주세요",
+      "field": "perspective",
+      "stage": "관점확인",
+      "text": "어떤 상황인가요?",
       "type": "enum",
       "options": [
-        { "value": "피해", "label": "피해를 입었어요" },
-        { "value": "혐의", "label": "신고를 당했거나 혐의를 받고 있어요" },
-        { "value": "정리중", "label": "아직 상황을 정리 중이에요" },
-        { "value": "보호자", "label": "보호자/가족으로서 확인하고 싶어요" }
+        { "value": "피해", "label": "피해를 입었습니다" },
+        { "value": "혐의", "label": "혐의를 받고 있습니다" },
+        { "value": "사실과다름", "label": "사실과 다르게 신고되었다고 생각합니다" }
       ],
-      "next": { "피해": "Q002", "혐의": "Q002", "정리중": "Q002", "보호자": "Q002" }
+      "next": { "피해": "Q002", "혐의": "Q002", "사실과다름": "Q002" }
     },
     {
       "id": "Q002",
@@ -25,12 +24,12 @@
       "text": "지금 어디까지 진행된 상황인가요?",
       "type": "enum",
       "options": [
-        { "value": "시작", "label": "문제를 인식한 단계입니다" },
-        { "value": "진행중", "label": "신고하거나 조치를 하고 있는 중입니다" },
-        { "value": "조치중", "label": "법적 조치를 진행하고 있습니다" },
-        { "value": "완료후문제", "label": "조치를 했으나 새로운 문제가 생겼습니다" }
+        { "value": "신고전", "label": "아직 신고·고소 전입니다" },
+        { "value": "조사중", "label": "경찰 조사를 받고 있습니다" },
+        { "value": "기소됨", "label": "기소되어 재판이 진행 중입니다" },
+        { "value": "합의중", "label": "합의를 진행하고 있습니다" }
       ],
-      "next": { "시작": "Q003", "진행중": "Q003", "조치중": "Q003", "완료후문제": "Q003" }
+      "next": { "신고전": "Q003", "조사중": "Q003", "기소됨": "Q003", "합의중": "Q003" }
     },
     {
       "id": "Q003",
@@ -120,19 +119,6 @@
     },
     {
       "id": "Q009",
-      "field": "report_status",
-      "stage": "신고확인",
-      "text": "경찰에 신고한 적이 있나요?",
-      "type": "enum",
-      "options": [
-        { "value": "신고함", "label": "신고한 적이 있습니다" },
-        { "value": "안함", "label": "아직 신고하지 않았습니다" },
-        { "value": "신고했으나불기소", "label": "신고했지만 불기소 또는 각하되었습니다" }
-      ],
-      "next": { "신고함": "Q010", "안함": "Q010", "신고했으나불기소": "Q010" }
-    },
-    {
-      "id": "Q010",
       "field": "relationship",
       "stage": "관계확인",
       "text": "상대방과의 관계는 어떤가요?",
@@ -143,21 +129,92 @@
         { "value": "직장", "label": "직장 관련(동료, 상사 등)입니다" },
         { "value": "가족·친족", "label": "가족 또는 친족입니다" }
       ],
-      "next": { "모르는사람": "Q011", "지인": "Q011", "직장": "Q011", "가족·친족": "Q011" }
+      "next": { "모르는사람": "_PERSPECTIVE", "지인": "_PERSPECTIVE", "직장": "_PERSPECTIVE", "가족·친족": "_PERSPECTIVE" },
+      "next_perspective": {
+        "피해": "Q_V10",
+        "혐의": "Q_A10",
+        "사실과다름": "Q_F10"
+      }
     },
     {
-      "id": "Q011",
-      "field": "evidence_status",
+      "id": "Q_V10",
+      "field": "evidence_secured",
       "stage": "증거확인",
-      "text": "현장 증거를 확보하셨나요?",
+      "text": "피해 관련 증거를 확보하셨나요?",
+      "description": "진단서, 캡처, CCTV, 녹취 등",
       "type": "enum",
       "options": [
-        { "value": "확보함", "label": "CCTV, 사진, 영상 등을 확보했습니다" },
+        { "value": "확보함", "label": "증거를 확보했습니다" },
         { "value": "일부확보", "label": "일부만 확보했습니다" },
-        { "value": "없음", "label": "증거를 확보하지 못했습니다" },
-        { "value": "모름", "label": "증거가 있는지 잘 모르겠습니다" }
+        { "value": "없음", "label": "아직 확보하지 못했습니다" }
       ],
-      "next": { "확보함": "RESULT", "일부확보": "RESULT", "없음": "RESULT", "모름": "RESULT" }
+      "next": { "확보함": "Q_V11", "일부확보": "Q_V11", "없음": "Q_V11" }
+    },
+    {
+      "id": "Q_V11",
+      "field": "report_filed",
+      "stage": "신고확인",
+      "text": "신고 또는 고소를 하셨나요?",
+      "type": "enum",
+      "options": [
+        { "value": "신고함", "label": "신고 또는 고소를 했습니다" },
+        { "value": "안함", "label": "아직 하지 않았습니다" },
+        { "value": "검토중", "label": "신고·고소를 검토하고 있습니다" }
+      ],
+      "next": { "신고함": "RESULT", "안함": "RESULT", "검토중": "RESULT" }
+    },
+    {
+      "id": "Q_A10",
+      "field": "settlement_intent",
+      "stage": "합의확인",
+      "text": "합의 의향이 있으신가요?",
+      "type": "enum",
+      "options": [
+        { "value": "있음", "label": "합의를 원합니다" },
+        { "value": "검토중", "label": "검토 중입니다" },
+        { "value": "없음", "label": "합의 의향이 없습니다" }
+      ],
+      "next": { "있음": "Q_A11", "검토중": "Q_A11", "없음": "Q_A11" }
+    },
+    {
+      "id": "Q_A11",
+      "field": "justification",
+      "stage": "사유확인",
+      "text": "정당방위 또는 정당한 사유가 있다고 생각하시나요?",
+      "type": "enum",
+      "options": [
+        { "value": "있음", "label": "정당방위 등 정당한 사유가 있습니다" },
+        { "value": "없음", "label": "해당 사항이 없습니다" },
+        { "value": "모름", "label": "잘 모르겠습니다" }
+      ],
+      "next": { "있음": "RESULT", "없음": "RESULT", "모름": "RESULT" }
+    },
+    {
+      "id": "Q_F10",
+      "field": "rebuttal_evidence",
+      "stage": "반박확인",
+      "text": "반박할 핵심 자료가 있으신가요?",
+      "description": "알리바이, 목격자, CCTV 등 사실과 다름을 증명할 수 있는 자료",
+      "type": "enum",
+      "options": [
+        { "value": "있음", "label": "반박 자료가 있습니다" },
+        { "value": "일부", "label": "일부 자료가 있습니다" },
+        { "value": "없음", "label": "아직 확보하지 못했습니다" }
+      ],
+      "next": { "있음": "Q_F11", "일부": "Q_F11", "없음": "Q_F11" }
+    },
+    {
+      "id": "Q_F11",
+      "field": "counterargument_prepared",
+      "stage": "반박확인",
+      "text": "상대방 주장에 대해 정리한 내용이 있으신가요?",
+      "type": "enum",
+      "options": [
+        { "value": "있음", "label": "상대방 주장과 반박 내용을 정리했습니다" },
+        { "value": "일부", "label": "일부만 정리했습니다" },
+        { "value": "없음", "label": "아직 정리하지 못했습니다" }
+      ],
+      "next": { "있음": "RESULT", "일부": "RESULT", "없음": "RESULT" }
     }
   ]
 }

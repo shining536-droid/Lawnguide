@@ -366,6 +366,66 @@
       "priority": "low",
       "cases": ["민법 제731조", "형사소송법 제312조"],
       "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 고소당했을때",
+      "slug": "fraud-accused-response",
+      "type": "어디부터형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "accused",
+      "cases": ["형법 제347조", "형사소송법 제200조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기죄 합의금",
+      "slug": "fraud-settlement-amount",
+      "type": "수치기한형",
+      "intent": "정보형",
+      "priority": "high",
+      "perspective": "accused",
+      "cases": ["형법 제347조", "형사소송법 제312조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 혐의 반박",
+      "slug": "fraud-charge-rebuttal",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "accused",
+      "cases": ["형법 제347조", "형사소송법 제307조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기죄 처벌수위",
+      "slug": "fraud-penalty-levels",
+      "type": "비교형",
+      "intent": "비교형",
+      "priority": "medium",
+      "perspective": "accused",
+      "cases": ["형법 제347조", "특정경제범죄 가중처벌 등에 관한 법률 제3조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation", "/guide/fraud/investment-fraud-checklist"]}
+    },
+    {
+      "title": "민사분쟁인데 사기로 고소당했을때",
+      "slug": "civil-dispute-fraud-accusation",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "falsely_accused",
+      "cases": ["형법 제347조", "민법 제750조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
+    },
+    {
+      "title": "사기 무고 대응",
+      "slug": "fraud-false-accusation-defense",
+      "type": "상황형",
+      "intent": "행동형",
+      "priority": "high",
+      "perspective": "falsely_accused",
+      "cases": ["형법 제156조", "형법 제347조"],
+      "internalLinks": {"hub": "/guide/fraud", "spokes": ["/guide/fraud/fraud-complaint-preparation"]}
     }
   ]
 }
