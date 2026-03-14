@@ -96,9 +96,23 @@ function ShareButtons({ answers }: { answers: Record<string, string> }) {
 }
 
 export default function DiagnosisFlow({ questions, branches, results, domainName }: DiagnosisFlowProps) {
-  const [answers, setAnswers] = useState<Record<string, string>>({});
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [history, setHistory] = useState<number[]>([0]);
+  // Auto-skip Q1 if it has only one option (e.g., drug-crime has only "혐의")
+  const q1Skip = useMemo(() => {
+    const q1 = questions[0];
+    if (q1 && q1.options.length === 1) {
+      const value = String(q1.options[0].value);
+      const nextId = q1.next[value];
+      const nextIndex = questions.findIndex((q) => q.id === nextId);
+      if (nextIndex >= 0) {
+        return { answers: { [q1.field]: value }, startIndex: nextIndex };
+      }
+    }
+    return null;
+  }, [questions]);
+
+  const [answers, setAnswers] = useState<Record<string, string>>(q1Skip?.answers ?? {});
+  const [currentIndex, setCurrentIndex] = useState(q1Skip?.startIndex ?? 0);
+  const [history, setHistory] = useState<number[]>([q1Skip?.startIndex ?? 0]);
   const [finished, setFinished] = useState(false);
   const [redirect, setRedirect] = useState<string | null>(null);
   const [multiSelectState, setMultiSelectState] = useState<Record<string, boolean>>({});
@@ -112,12 +126,12 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
       const match = q.id.match(/^Q_(V|A|F|P|R|C)/);
       if (match) branchPrefixes.add(match[1]);
     }
-    if (branchPrefixes.size === 0) return questions.length;
+    if (branchPrefixes.size === 0) return questions.length - (q1Skip ? 1 : 0);
 
     const branchedQuestions = questions.filter((q) => /^Q_(V|A|F|P|R|C)\d/.test(q.id));
     const branchGroupSize = Math.floor(branchedQuestions.length / branchPrefixes.size);
-    return questions.length - branchGroupSize * Math.max(0, branchPrefixes.size - 1);
-  }, [questions]);
+    return questions.length - branchGroupSize * Math.max(0, branchPrefixes.size - 1) - (q1Skip ? 1 : 0);
+  }, [questions, q1Skip]);
 
   const resolveNextId = useCallback(
     (question: Question, value: string, currentAnswers: Record<string, string>): string | undefined => {
@@ -219,12 +233,12 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
   }, [history, answers, questions, redirect]);
 
   const handleRestart = useCallback(() => {
-    setAnswers({});
-    setCurrentIndex(0);
-    setHistory([0]);
+    setAnswers(q1Skip?.answers ?? {});
+    setCurrentIndex(q1Skip?.startIndex ?? 0);
+    setHistory([q1Skip?.startIndex ?? 0]);
     setFinished(false);
     setRedirect(null);
-  }, []);
+  }, [q1Skip]);
 
   // Redirect screen
   if (redirect) {
