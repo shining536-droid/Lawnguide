@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { isValidDomain, getDomainMeta, DOMAINS } from '@/lib/domains';
+import { RICH_GUIDES } from '@/data/rich-hub-guides';
 
 interface PageProps {
   params: { domain: string };
@@ -266,10 +267,14 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: PageProps): Metadata {
   const meta = getDomainMeta(params.domain);
   if (!meta) return {};
-  return {
+  const rich = RICH_GUIDES[params.domain];
+  const base: Metadata = {
     title: `${meta.name} 준비사항 안내 | 로앤가이드`,
-    description: `${meta.name} 관련 문제가 있을 때 신고·상담 전에 필요한 준비사항을 안내합니다.`,
+    description: rich
+      ? `${meta.name} 피해·혐의 상황별 준비사항, FAQ, 판례를 확인하세요.`
+      : `${meta.name} 관련 문제가 있을 때 신고·상담 전에 필요한 준비사항을 안내합니다.`,
   };
+  return base;
 }
 
 export default function GuideHubPage({ params }: PageProps) {
@@ -277,7 +282,178 @@ export default function GuideHubPage({ params }: PageProps) {
 
   const meta = getDomainMeta(params.domain)!;
   const guide = DOMAIN_GUIDES[params.domain];
+  const rich = RICH_GUIDES[params.domain];
 
+  if (rich) {
+    const faqJsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: rich.faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: f.answer },
+      })),
+    };
+
+    return (
+      <div className="bg-gray-50 py-8">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+        <div className="container-narrow">
+          {/* Header */}
+          <div className="mb-8 text-center">
+            <span className="text-4xl">{meta.icon}</span>
+            <h1 className="mt-3 text-2xl font-bold text-navy-700 md:text-3xl">{meta.name} 준비사항 안내</h1>
+            <p className="mt-2 text-gray-600">{meta.description}</p>
+          </div>
+
+          {/* 1. Overview */}
+          <section className="mb-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm md:p-8">
+            <h2 className="mb-3 text-lg font-bold text-gray-900">개요</h2>
+            <p className="text-sm leading-relaxed text-gray-700">{rich.overview}</p>
+          </section>
+
+          {/* 2. Perspective-based guidance */}
+          <section className="mb-8">
+            <h2 className="mb-4 text-lg font-bold text-gray-900">상황별 확인 포인트</h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              {rich.perspectives.map((p, i) => (
+                <div key={i} className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+                  <h3 className="mb-3 text-sm font-bold text-navy-700">
+                    <span className="mr-1.5">{p.emoji}</span>{p.label}
+                  </h3>
+                  <ul className="space-y-2">
+                    {p.checks.map((c, j) => (
+                      <li key={j} className="flex gap-2 text-sm text-gray-600">
+                        <span className="mt-0.5 shrink-0 text-primary-500">{'\u2713'}</span>
+                        <span>{c}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* 3. Key preparation points */}
+          <section className="mb-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm md:p-8">
+            <h2 className="mb-4 text-lg font-bold text-gray-900">핵심 준비사항 5가지</h2>
+            <div className="space-y-4">
+              {rich.preparations.map((p, i) => (
+                <div key={i} className="flex gap-3">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary-100 text-xs font-bold text-primary-700">
+                    {i + 1}
+                  </span>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-900">{p.title}</h3>
+                    <p className="mt-0.5 text-sm text-gray-600">{p.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* 4. FAQs */}
+          <section className="mb-8">
+            <h2 className="mb-4 text-lg font-bold text-gray-900">자주 묻는 질문</h2>
+            <div className="space-y-2">
+              {rich.faqs.map((f, i) => (
+                <details
+                  key={i}
+                  open={i < 2}
+                  className="group rounded-xl border border-gray-200 bg-white shadow-sm"
+                >
+                  <summary className="cursor-pointer px-5 py-4 text-sm font-semibold text-gray-900 marker:[content:''] [&::-webkit-details-marker]:hidden">
+                    <span className="flex items-center justify-between">
+                      <span>Q. {f.question}</span>
+                      <span className="ml-2 text-gray-400 transition-transform group-open:rotate-180">{'\u25BC'}</span>
+                    </span>
+                  </summary>
+                  <div className="border-t border-gray-100 px-5 py-4">
+                    <p className="text-sm leading-relaxed text-gray-600">{f.answer}</p>
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
+
+          {/* 5. Spoke links */}
+          <section className="mb-8">
+            <h2 className="mb-4 text-lg font-bold text-gray-900">관련 글 더 보기</h2>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {rich.spokeLinks.map((s, i) => (
+                <Link
+                  key={i}
+                  href={`/guide/${params.domain}/${s.slug}`}
+                  className="rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-gray-700 transition-colors hover:border-primary-300 hover:text-primary-600"
+                >
+                  {s.title} {'\u2192'}
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          {/* 6. CTA - Gold accent */}
+          <div className="mb-8 rounded-xl border-2 border-amber-400 bg-amber-50 px-6 py-8 text-center">
+            <h2 className="text-lg font-bold text-amber-900">1분 안에 내 상황 준비사항 확인하기</h2>
+            <p className="mt-2 text-sm text-amber-700">
+              간단한 질문에 답하면 상황에 맞는 준비사항과 연락처를 정리해드립니다
+            </p>
+            <Link
+              href={`/diagnosis/${params.domain}`}
+              className="mt-4 inline-block rounded-lg bg-amber-500 px-8 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-amber-600"
+            >
+              준비사항 확인하기 {'\u2192'}
+            </Link>
+          </div>
+
+          {/* 7. Case references */}
+          {rich.caseRefs.length > 0 && (
+            <section className="mb-8">
+              <h2 className="mb-4 text-lg font-bold text-gray-900">대표 사례</h2>
+              <div className="space-y-3">
+                {rich.caseRefs.map((c, i) => (
+                  <div key={i} className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+                    <p className="text-sm text-gray-700"><span className="font-semibold text-navy-700">상황:</span> {c.scene}</p>
+                    <p className="mt-1 text-sm text-gray-700"><span className="font-semibold text-navy-700">쟁점:</span> {c.issue}</p>
+                    <p className="mt-1 text-sm text-primary-700"><span className="font-semibold">준비:</span> {c.prep}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* 8. Disclaimer */}
+          <div className="mb-8 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
+            <p className="text-xs text-amber-800">
+              이 정보는 법적 효력을 갖는 유권해석이 아닙니다. 정확한 법률 판단은 전문가 상담을 받으시기 바랍니다.
+              데이터 출처: 법제처
+            </p>
+          </div>
+
+          {/* Other domains */}
+          <div className="mt-12">
+            <h2 className="mb-4 text-lg font-bold text-gray-900">다른 분야 안내</h2>
+            <div className="flex flex-wrap gap-2">
+              {DOMAINS.filter((d) => d.id !== params.domain).map((d) => (
+                <Link
+                  key={d.id}
+                  href={`/guide/${d.id}`}
+                  className="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm text-gray-600 hover:border-primary-300 hover:text-primary-600"
+                >
+                  {d.icon} {d.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Simple layout for non-rich domains
   return (
     <div className="bg-gray-50 py-8">
       <div className="container-narrow">
