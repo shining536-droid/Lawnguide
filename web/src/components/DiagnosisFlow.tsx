@@ -270,7 +270,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
 
     return (
       <div>
-        <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-xl font-bold text-navy-700 md:text-2xl">준비사항 확인</h2>
           <div className="grid grid-cols-2 gap-2 md:flex md:items-center">
             <ShareButtons answers={answers} />

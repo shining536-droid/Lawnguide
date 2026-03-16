@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import type { ResultEntry, DocumentItem, KeyCheckpoint, TimelineStep, FirstAction } from '@/lib/domains';
 
 interface ResultCardProps {
@@ -514,25 +515,39 @@ function PriorityChecklist({
   answers?: Record<string, string>;
 }) {
   const existingDocs = answers?.existing_docs?.split(',') ?? [];
+  const [checked, setChecked] = useState<Record<string, boolean>>({});
+
+  const toggleCheck = (key: string) => {
+    setChecked((prev) => ({ ...prev, [key]: !prev[key] }));
+  };
 
   // Use priority/optional if available, otherwise fall back to documents
   const hasPrioritySplit = (priority && priority.length > 0) || (optional && optional.length > 0);
 
-  const renderDocItem = (doc: DocumentItem, i: number) => {
+  const renderDocItem = (doc: DocumentItem, i: number, prefix = '') => {
+    const key = `${prefix}${i}`;
     const autoHas = doc.status === 'has' || existingDocs.includes(doc.label);
+    const isChecked = checked[key] || autoHas;
     return (
-      <div key={i} className="rounded-lg bg-gray-50 px-4 py-3.5">
-        {/* Line 1: Document name — bold */}
-        <p className={`text-base font-semibold ${autoHas ? 'text-gray-500' : 'text-gray-800'}`}>
+      <div
+        key={i}
+        className="cursor-pointer rounded-lg bg-gray-50 px-4 py-3.5"
+        onClick={() => !autoHas && toggleCheck(key)}
+      >
+        <p className={`text-base font-semibold ${isChecked ? 'text-gray-500' : 'text-gray-800'}`}>
           {doc.label}
         </p>
-        {/* Line 2: Description — small gray, wrap allowed */}
         {doc.note && (
           <p className="mt-1 text-sm leading-relaxed text-gray-500">{doc.note}</p>
         )}
-        {/* Line 3: Status */}
-        <p className={`mt-1.5 text-sm font-medium ${autoHas ? 'text-green-600' : 'text-orange-600'}`}>
-          {autoHas ? '\u2705 있음' : '\u2610 준비 필요'}
+        <p className={`mt-1.5 flex items-center gap-1.5 text-sm font-medium ${isChecked ? 'text-green-600' : 'text-orange-600'}`}>
+          <span
+            className={`inline-flex items-center justify-center rounded border-2 ${isChecked ? 'border-green-500 bg-green-500 text-white' : 'border-gray-300 bg-white'}`}
+            style={{ width: '22px', height: '22px', fontSize: '14px' }}
+          >
+            {isChecked ? '\u2713' : ''}
+          </span>
+          {isChecked ? '준비 완료' : '준비 필요'}
         </p>
       </div>
     );
@@ -548,7 +563,7 @@ function PriorityChecklist({
               <span className="flex h-5 w-5 items-center justify-center rounded bg-red-100 text-xs">!</span>
               반드시 준비
             </h4>
-            <div className="space-y-2.5">{priority.map(renderDocItem)}</div>
+            <div className="space-y-2.5">{priority.map((doc, i) => renderDocItem(doc, i, 'p'))}</div>
           </div>
         )}
         {optional && optional.length > 0 && (
@@ -557,7 +572,7 @@ function PriorityChecklist({
               <span className="flex h-5 w-5 items-center justify-center rounded bg-gray-100 text-xs">+</span>
               있으면 좋은 것
             </h4>
-            <div className="space-y-2.5">{optional.map(renderDocItem)}</div>
+            <div className="space-y-2.5">{optional.map((doc, i) => renderDocItem(doc, i, 'o'))}</div>
           </div>
         )}
       </section>
@@ -571,7 +586,7 @@ function PriorityChecklist({
     return (
       <section id="checklist" className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
         <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">상담 전 체크리스트</h3>
-        <div className="space-y-2.5">{documents.map(renderDocItem)}</div>
+        <div className="space-y-2.5">{documents.map((doc, i) => renderDocItem(doc, i, 'd'))}</div>
       </section>
     );
   }
@@ -581,12 +596,24 @@ function PriorityChecklist({
       <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">상담 전 체크리스트</h3>
       <div className="space-y-2.5">
         {documents.map((doc, i) => {
+          const key = `s${i}`;
           const autoHas = existingDocs.includes(doc);
+          const isChecked = checked[key] || autoHas;
           return (
-            <div key={i} className="rounded-lg bg-gray-50 px-4 py-3.5">
-              <p className={`text-base font-semibold ${autoHas ? 'text-gray-500' : 'text-gray-800'}`}>{doc}</p>
-              <p className={`mt-1.5 text-sm font-medium ${autoHas ? 'text-green-600' : 'text-orange-600'}`}>
-                {autoHas ? '\u2705 있음' : '\u2610 준비 필요'}
+            <div
+              key={i}
+              className="cursor-pointer rounded-lg bg-gray-50 px-4 py-3.5"
+              onClick={() => !autoHas && toggleCheck(key)}
+            >
+              <p className={`text-base font-semibold ${isChecked ? 'text-gray-500' : 'text-gray-800'}`}>{doc}</p>
+              <p className={`mt-1.5 flex items-center gap-1.5 text-sm font-medium ${isChecked ? 'text-green-600' : 'text-orange-600'}`}>
+                <span
+                  className={`inline-flex items-center justify-center rounded border-2 ${isChecked ? 'border-green-500 bg-green-500 text-white' : 'border-gray-300 bg-white'}`}
+                  style={{ width: '22px', height: '22px', fontSize: '14px' }}
+                >
+                  {isChecked ? '\u2713' : ''}
+                </span>
+                {isChecked ? '준비 완료' : '준비 필요'}
               </p>
             </div>
           );
@@ -623,20 +650,13 @@ function PublicConnections({ connections }: { connections: { name: string; phone
 }
 
 // [K] Professional Section
-function ProfessionalSection({ professionals }: { professionals: { type: string; note?: string; description?: string }[] }) {
+function ProfessionalSection() {
   return (
     <section className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm">
       <h3 className="mb-4 text-xl font-bold text-navy-700 md:text-2xl">전문가 상담이 필요한 경우</h3>
-      <div className="space-y-2">
-        {professionals.map((p, i) => (
-          <div key={i} className="rounded-lg bg-gray-50 px-4 py-3">
-            <p className="text-lg font-medium text-primary-600">{p.note ?? `이 유형의 사안을 다루는 ${p.type} 보기 (광고 포함)`}</p>
-            {p.description && (
-              <p className="mt-1 rounded bg-blue-50 px-3 py-2 text-base leading-relaxed text-blue-700">{p.description}</p>
-            )}
-          </div>
-        ))}
-      </div>
+      <p className="text-base leading-relaxed text-gray-700">
+        위 무료 기관에 먼저 연락해보시고, 필요시 해당 분야 변호사 상담을 검토해보세요.
+      </p>
     </section>
   );
 }
@@ -690,10 +710,11 @@ function CautionSection({ items }: { items: string[] }) {
 }
 
 // [M] Disclaimer
-function Disclaimer({ text }: { text: string }) {
+function Disclaimer() {
   return (
     <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3">
-      <p className="text-base text-amber-800">{text}</p>
+      <p className="text-base text-amber-800">이 서비스는 법적 효력을 갖는 유권해석이 아닙니다.</p>
+      <p className="mt-1 text-sm text-amber-700">데이터 출처: 법제처 | lawnguide.co.kr</p>
     </div>
   );
 }
@@ -710,7 +731,7 @@ export default function ResultCard({ result, answers }: ResultCardProps) {
   // TYPE_OK: compact view
   if (isOk) {
     return (
-      <div className="space-y-6">
+      <div className="space-y-5 md:space-y-6">
         <section className="rounded-xl border border-green-200 bg-green-50 p-6 text-center shadow-sm md:p-8">
           <div className="mb-3 text-4xl">{'\u2705'}</div>
           <p className="text-xl font-semibold text-green-800 md:text-2xl">{result.status_summary}</p>
@@ -730,13 +751,13 @@ export default function ResultCard({ result, answers }: ResultCardProps) {
           </section>
         )}
 
-        <Disclaimer text={result.disclaimer ?? '이 내용은 준비 안내이며 법적 효력을 갖는 유권해석이 아닙니다.'} />
+        <Disclaimer />
       </div>
     );
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5 md:space-y-6">
       {/* [A] Safety Warning */}
       {result.safety_warning && <SafetyWarning message={result.safety_warning} />}
 
@@ -781,14 +802,14 @@ export default function ResultCard({ result, answers }: ResultCardProps) {
 
       {/* [K] Professional Section */}
       {result.connections?.professional?.length > 0 && (
-        <ProfessionalSection professionals={result.connections.professional} />
+        <ProfessionalSection />
       )}
 
       {/* [L] Related Systems & Legal Basis */}
       <LegalInfo result={result} />
 
       {/* [M] Disclaimer */}
-      <Disclaimer text={result.disclaimer ?? '이 내용은 준비 안내이며 법적 효력을 갖는 유권해석이 아닙니다.'} />
+      <Disclaimer />
     </div>
   );
 }
