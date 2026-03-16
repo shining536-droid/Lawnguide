@@ -27,18 +27,6 @@ const WEDGES = [
   },
 ];
 
-/* ─── 상황 카드 8개 ─── */
-const SITUATIONS = [
-  { text: '전세보증금을 안 돌려줘요', href: '/diagnosis/jeonse-fraud' },
-  { text: '중고거래 사기를 당했어요', href: '/diagnosis/fraud' },
-  { text: '회사에서 갑자기 해고당했어요', href: '/diagnosis/dismissal' },
-  { text: '폭행당했는데 뭘 해야 할지 모르겠어요', href: '/diagnosis/assault' },
-  { text: '음주운전으로 적발됐어요', href: '/diagnosis/dui' },
-  { text: '명예훼손으로 고소당했어요', href: '/diagnosis/defamation' },
-  { text: '이혼을 준비하고 있어요', href: '/diagnosis/divorce' },
-  { text: '성범죄 혐의를 받고 있어요', href: '/diagnosis/sex-crime' },
-];
-
 /* ─── 분야별 카테고리 ─── */
 interface DomainItem {
   id: string;
@@ -157,7 +145,7 @@ export default function HomeContent() {
 
   return (
     <div>
-      {/* ========== 작업 1: 히어로 섹션 ========== */}
+      {/* ========== 히어로 섹션 ========== */}
       <section className="relative -mt-16 overflow-hidden bg-gradient-to-br from-[#0f1a2e] via-[#162240] to-[#1e3050] pt-28 pb-16 md:pt-36 md:pb-20">
         {/* Background decorative SVGs */}
         <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
@@ -177,23 +165,17 @@ export default function HomeContent() {
         </div>
 
         <div className="container-wide relative z-10">
-          {/* Main copy */}
+          {/* Main copy — 모바일 2줄 */}
           <div className="mx-auto max-w-3xl text-center">
-            <h1 className="text-[1.5rem] font-bold leading-tight tracking-tight text-white sm:text-[1.8rem] md:text-4xl lg:text-5xl">
-              변호사 만나기 전에, 이것만 챙기세요
+            <h1 className="font-bold leading-tight tracking-tight text-white">
+              <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">변호사 만나기 전에,</span>
+              <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">이것만 챙기세요</span>
             </h1>
             <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/70 md:text-lg">
-              1분 안에 지금 할 일, 준비서류, 연결 경로를 정리해드립니다
+              <span className="text-amber-400">1분 안에</span> <span className="text-amber-400">지금 할 일</span>, <span className="text-amber-400">준비서류</span>,{' '}
+              <br className="sm:hidden" />
+              <span className="text-amber-400">전문가 연결</span>을 도와드립니다
             </p>
-          </div>
-
-          {/* 결과 배지 3개 */}
-          <div className="mx-auto mt-8 flex max-w-lg items-center justify-center gap-4 text-sm text-white/60 md:gap-6 md:text-base">
-            <span>지금 할 일</span>
-            <span className="text-white/30">|</span>
-            <span>준비서류</span>
-            <span className="text-white/30">|</span>
-            <span>무료 기관/전문가 경로</span>
           </div>
 
           {/* 웨지 4개 버튼 */}
@@ -214,15 +196,10 @@ export default function HomeContent() {
               </Link>
             ))}
           </div>
-
-          {/* 웨지 아래 한 줄 */}
-          <p className="mx-auto mt-6 max-w-lg text-center text-sm text-white/50 md:text-base">
-            선택한 상황에 맞춰 준비서류와 다음 단계를 정리해드립니다
-          </p>
         </div>
       </section>
 
-      {/* ========== 작업 2: 신뢰 섹션 ========== */}
+      {/* ========== 신뢰 섹션 ========== */}
       <section className="border-b border-gray-100 bg-gray-50 py-10 md:py-12">
         <div className="container-wide">
           <p className="mb-6 text-center text-sm font-medium text-gray-500 md:text-base">
@@ -251,54 +228,20 @@ export default function HomeContent() {
         </div>
       </section>
 
-      {/* ========== 작업 3: "이런 상황이신가요?" 섹션 ========== */}
-      <section className="py-14 md:py-20">
-        <div className="container-wide">
-          <h2 className="mb-8 text-center text-xl font-bold text-navy-700 md:text-2xl">
-            이런 상황이신가요?
-          </h2>
+      {/* ========== "이 외에도 31개 분야" 연결 문구 ========== */}
+      <div className="bg-white py-8 text-center md:py-10">
+        <p className="text-sm font-medium text-gray-600 md:text-base">
+          이 외에도 음주운전, 명예훼손, 이혼, 성범죄 등 31개 분야를 지원합니다
+        </p>
+      </div>
 
-          {/* 모바일: 가로 스크롤 / PC: 2x4 그리드 */}
-          <div className="md:hidden">
-            <div className="flex gap-3 overflow-x-auto pb-4 scrollbar-hide" style={{ WebkitOverflowScrolling: 'touch' }}>
-              {SITUATIONS.map((s) => (
-                <Link
-                  key={s.href + s.text}
-                  href={s.href}
-                  className="group flex min-w-[260px] flex-shrink-0 items-center justify-between rounded-xl border border-gray-200 bg-white px-5 py-4 transition-all hover:border-primary-400 hover:shadow-md"
-                >
-                  <span className="text-sm font-medium text-navy-700 group-hover:text-primary-600">{s.text}</span>
-                  <ArrowRight className="ml-3 h-4 w-4 flex-shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-primary-500" />
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div className="hidden md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-4">
-            {SITUATIONS.map((s) => (
-              <Link
-                key={s.href + s.text}
-                href={s.href}
-                className="group flex items-center justify-between rounded-xl border border-gray-200 bg-white px-5 py-5 transition-all hover:border-primary-400 hover:shadow-md"
-              >
-                <span className="text-sm font-medium text-navy-700 group-hover:text-primary-600">{s.text}</span>
-                <ArrowRight className="ml-3 h-4 w-4 flex-shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-primary-500" />
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 작업 4: 분야별 안내 (접기/펼치기) ========== */}
+      {/* ========== 분야별 안내 (접기/펼치기) ========== */}
       <section className="border-t border-gray-100 bg-gray-50 py-14 md:py-20">
         <div className="container-wide">
           <div className="mb-8 text-center">
             <h2 className="text-xl font-bold text-navy-700 md:text-2xl">
               분야별 안내
             </h2>
-            <p className="mt-2 text-sm text-gray-500">
-              31개 법률 분야에서 내 상황에 맞는 안내를 받아보세요
-            </p>
           </div>
 
           {/* 항상 보이는 카테고리 (상위 4개) */}
@@ -379,7 +322,7 @@ export default function HomeContent() {
         </div>
       </section>
 
-      {/* ========== 작업 5: 하단 CTA ========== */}
+      {/* ========== 하단 CTA ========== */}
       <section className="py-16 md:py-20">
         <div className="container-wide">
           <div className="mx-auto max-w-2xl text-center">
@@ -388,7 +331,7 @@ export default function HomeContent() {
             </h2>
             <div className="mt-8">
               <Link
-                href="#categories-section"
+                href="#top"
                 onClick={(e) => {
                   e.preventDefault();
                   window.scrollTo({ top: 0, behavior: 'smooth' });
