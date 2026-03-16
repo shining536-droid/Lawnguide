@@ -230,8 +230,12 @@ export default function HomeContent() {
 
       {/* ========== "이 외에도 31개 분야" 연결 문구 ========== */}
       <div className="bg-white py-8 text-center md:py-10">
-        <p className="text-sm font-medium text-gray-600 md:text-base">
-          이 외에도 음주운전, 명예훼손, 이혼, 성범죄 등 31개 분야를 지원합니다
+        <p className="text-sm text-gray-600 md:text-base">보증금·사기·해고·폭행 외에도</p>
+        <p className="mt-1 text-sm text-gray-600 md:text-base">
+          <span className="font-bold">음주운전</span>, <span className="font-bold">명예훼손</span>, <span className="font-bold">이혼</span>, <span className="font-bold">성범죄</span> 등
+        </p>
+        <p className="mt-1 text-sm text-gray-600 md:text-base">
+          <span className="font-bold text-amber-600">31개 법률 분야</span>를 지원합니다
         </p>
       </div>
 
@@ -326,8 +330,8 @@ export default function HomeContent() {
       <section className="py-16 md:py-20">
         <div className="container-wide">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-xl font-bold text-navy-700 md:text-2xl">
-              상담 전에 보여줄 준비 요약본을 만들어보세요
+            <h2 className="text-xl font-bold leading-snug text-navy-700 md:text-2xl">
+              변호사 상담 전에 보여줄<br />준비 요약본을 만들어보세요
             </h2>
             <div className="mt-8">
               <Link
