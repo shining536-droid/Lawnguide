@@ -4,9 +4,14 @@ import Footer from '@/components/Footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: '로앤가이드 | 상담 전 준비를 1분 안에 정리',
+  title: '로앤가이드 - 변호사 만나기 전에 이것만 챙기세요',
   description:
-    '주택임대차, 전세사기, 상가임대차, 임금, 퇴직급여, 해고 등 생활법률 문제의 상담 전 준비를 1분 안에 정리해드립니다.',
+    '전세보증금, 사기, 해고, 폭행 등 법률 문제 상담 전 준비사항을 1분 안에 정리해드립니다. 31개 분야 무료 진단.',
+  openGraph: {
+    title: '로앤가이드 - 변호사 만나기 전에 이것만 챙기세요',
+    description:
+      '전세보증금, 사기, 해고, 폭행 등 법률 문제 상담 전 준비사항을 1분 안에 정리해드립니다. 31개 분야 무료 진단.',
+  },
   other: {
     // GA4 placeholder
     'google-analytics': '',
