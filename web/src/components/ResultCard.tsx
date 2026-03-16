@@ -477,7 +477,7 @@ function PrepMemo({ answers }: { answers: Record<string, string> }) {
 
   return (
     <section className="rounded-xl border border-primary-200 bg-primary-50 p-6 md:p-8 shadow-sm">
-      <details>
+      <details open>
         <summary className="cursor-pointer text-xl font-bold text-navy-700 md:text-2xl">
           상담 전 준비 메모
         </summary>
@@ -491,6 +491,11 @@ function PrepMemo({ answers }: { answers: Record<string, string> }) {
             ))}
           </ul>
         </div>
+        <textarea
+          className="mt-4 w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-base text-gray-700 placeholder:text-gray-400 resize-y focus:border-primary-400 focus:outline-none focus:ring-1 focus:ring-primary-400"
+          placeholder="변호사에게 전달할 메모를 자유롭게 적어보세요"
+          style={{ height: '100px' }}
+        />
       </details>
     </section>
   );

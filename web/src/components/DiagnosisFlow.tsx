@@ -71,7 +71,7 @@ function ShareButtons({ answers }: { answers: Record<string, string> }) {
   }, []);
 
   return (
-    <div className="flex gap-2">
+    <>
       <button
         onClick={handleCopyLink}
         className="rounded-lg border border-gray-300 px-4 py-2.5 text-sm font-medium text-gray-600 hover:border-primary-500 hover:text-primary-600"
@@ -80,7 +80,7 @@ function ShareButtons({ answers }: { answers: Record<string, string> }) {
       </button>
       <button
         onClick={handleSavePDF}
-        className="rounded-lg border border-gray-300 px-4 py-2.5 text-sm font-medium text-gray-600 hover:border-primary-500 hover:text-primary-600"
+        className="rounded-lg bg-amber-500 px-4 py-2.5 text-sm font-medium text-white hover:bg-amber-600"
       >
         PDF 저장
       </button>
@@ -91,7 +91,7 @@ function ShareButtons({ answers }: { answers: Record<string, string> }) {
       >
         카카오톡 공유
       </button>
-    </div>
+    </>
   );
 }
 
@@ -272,7 +272,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
       <div>
         <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-xl font-bold text-navy-700 md:text-2xl">준비사항 확인</h2>
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+          <div className="grid grid-cols-2 gap-2 md:flex md:items-center">
             <ShareButtons answers={answers} />
             <button
               onClick={handleRestart}
