@@ -728,4 +728,197 @@ export const divorcePages: SpokePage[] = [
       },
     ],
   },
+  {
+    domain: 'divorce',
+    slug: 'divorce-hidden-asset-discovery',
+    keyword: '이혼 재산분할 시 숨긴 재산 찾는 방법',
+    questionKeyword: '이혼 재산분할 시 상대방이 숨긴 재산을 찾을 수 있나요?',
+    ctaKeyword: '이혼 재산분할 준비',
+    type: '실수함정형',
+    meta: {
+      title: '이혼 재산분할 시 숨긴 재산 찾는 방법 | 로앤가이드',
+      description: '이혼 재산분할 시 상대방이 숨긴 재산을 찾는 방법, 재산명시제도, 금융거래정보 조회, 은닉 시 불이익을 정리했습니다.',
+    },
+    intro: '이혼 소송 중인데 상대방이 재산을 숨기고 있는 것 같습니다. 통장 잔고가 갑자기 줄었고 부동산도 제3자 명의로 넘긴 것 같습니다. 숨긴 재산을 찾을 수 있는 방법이 있는지, 어떤 절차를 밟아야 하는지 확인해보세요.',
+    timelineSteps: ['재산명시 신청', '금융거래 조회', '부동산/차량 확인', '은닉 불이익 주장'],
+    sections: [
+      {
+        title: '재산명시제도를 활용하세요 — 법원이 상대방에게 재산 목록 제출을 명합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">가사소송법에 따라 법원이 상대방에게 재산 목록 제출을 명할 수 있습니다</strong></p>\n<p><strong>가사소송법 제48조의2</strong>에 따른 재산명시제도를 활용할 수 있습니다. 법원이 상대방에게 재산 목록을 <strong>선서 후 제출</strong>하도록 명하는 절차입니다.</p>\n<p>허위 재산 목록을 제출하면 <strong>과태료</strong>가 부과될 수 있습니다. 상대방이 제출을 거부하거나 허위로 기재하면 재산분할 비율 산정에서 불이익을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 법원 → 상대방에게 재산 목록 제출 명령 → 허위 시 과태료·불이익</blockquote>',
+      },
+      {
+        title: '법원을 통한 금융거래정보 조회를 신청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">법원을 통해 상대방의 금융거래정보를 조회할 수 있습니다</strong></p>\n<p>재산분할 소송 중 법원에 <strong>금융거래정보 제출명령</strong>을 신청할 수 있습니다. 은행 예금, 보험, 증권, 퇴직연금 등 금융기관에 보유한 자산을 확인할 수 있습니다.</p>\n<p>국세청 과세자료 제출명령도 가능합니다. 상대방의 <strong>소득과 재산 변동 내역</strong>을 확인하는 데 유용합니다. 조회 범위가 넓으므로 변호사와 상의하여 필요한 범위를 특정하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조회 가능: 은행 예금, 보험, 증권, 퇴직연금, 국세청 과세자료</blockquote>',
+      },
+      {
+        title: '부동산과 차량 등기를 직접 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">부동산 등기와 차량 등록 내역은 직접 조회할 수 있습니다</strong></p>\n<p><strong>부동산 등기부등본</strong>은 인터넷등기소에서 누구나 열람할 수 있습니다. 소유권 이전 내역, 근저당 설정 등을 확인하세요. 이혼 소송 전후로 제3자에게 소유권이 넘어갔다면 <strong>사해행위 취소</strong>를 검토할 수 있습니다.</p>\n<p>차량은 자동차등록원부를 통해 확인합니다. 법인 명의로 이전된 경우도 추적이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 인터넷등기소(부동산), 자동차등록원부(차량), 이전 이력 점검</blockquote>',
+      },
+      {
+        title: '재산은닉 시 불이익이 있습니다 — 분할 비율이 조정될 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">재산을 은닉하면 재산분할 비율에서 불이익을 받습니다</strong></p>\n<p>법원은 재산분할 비율을 정할 때 상대방의 <strong>재산은닉 행위</strong>를 부정적으로 평가합니다. 재산을 숨기거나 빼돌린 사실이 확인되면 분할 비율이 불리하게 조정될 수 있습니다.</p>\n<p>제3자 명의로 재산을 이전한 경우 <strong>사해행위 취소 소송</strong>을 통해 원상회복을 청구할 수 있습니다. 이혼 전 대량 인출, 갑작스러운 소유권 이전 등 의심스러운 거래 내역을 정리해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 은닉 증거 확보 → 분할 비율 유리하게 조정 / 사해행위 취소 소송 가능</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '금융거래정보 조회로 숨긴 예금을 찾아낸 사례',
+        summary:
+          '관련 사례에서도 재산분할 소송 중 법원의 금융거래정보 제출명령을 통해 상대방이 가족 명의 계좌로 분산한 예금을 확인하고, 이를 재산분할 대상에 포함시킨 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 법원에 금융거래정보 제출명령을 신청하고, 상대방의 가족 명의 계좌도 조사 범위에 포함시켜보세요.',
+      },
+      {
+        title: '제3자 명의 이전이 사해행위로 취소된 사례',
+        summary:
+          '관련 사례에서도 이혼 소송 중 부동산을 형제 명의로 이전한 것이 사해행위로 인정되어 소유권 이전이 취소된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 이혼 전후로 이루어진 재산 이전 내역을 등기부등본으로 확인하고, 변호사와 사해행위 취소 가능성을 검토해보세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '상대방 명의 재산을 직접 조회할 수 있나요?',
+        answer: '직접 조회는 어렵지만, <strong>소송 중 법원을 통해</strong> 금융거래정보, 부동산, 국세청 자료를 조회할 수 있습니다.',
+      },
+      {
+        question: '재산명시 신청은 언제 할 수 있나요?',
+        answer: '<strong>재산분할 소송 중</strong>에 신청할 수 있습니다. 소송 초기에 신청하는 것이 효과적입니다.',
+      },
+      {
+        question: '상대방이 재산 목록을 거짓으로 제출하면?',
+        answer: '허위 재산 목록 제출 시 <strong>과태료</strong>가 부과되고, 재산분할 비율에서 불이익을 받을 수 있습니다.',
+      },
+      {
+        question: '가족 명의로 옮긴 재산도 찾을 수 있나요?',
+        answer: '<strong>사해행위 취소 소송</strong>을 통해 원상회복을 청구할 수 있습니다. 이전 시점과 경위가 중요합니다.',
+      },
+      {
+        question: '이혼 전에 미리 재산을 조사할 수 있나요?',
+        answer: '소송 전에는 <strong>공개 정보</strong>(등기부등본 등)만 확인 가능합니다. 금융정보 조회는 소송 개시 후 가능합니다.',
+      },
+      {
+        question: '재산은닉이 확인되면 위자료도 청구할 수 있나요?',
+        answer: '재산은닉 자체가 위자료 사유는 아니지만, <strong>재산분할 비율 조정</strong>에 반영됩니다.',
+      },
+      {
+        question: '퇴직금도 조회 대상인가요?',
+        answer: '<strong>퇴직연금과 퇴직금</strong>도 법원 조회 대상입니다. 혼인 기간에 해당하는 부분이 분할 대상이 됩니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받을 수 있나요?',
+        answer: '<strong>대한법률구조공단(전화 132)</strong>에서 소득 기준에 따라 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 이혼 상황에 맞는 재산분할 준비사항을 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+      { label: '재산분할 비율은 어떻게 정해지나요', href: '/guide/divorce/property-division-ratio' },
+      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '양육권 합의 전에 무엇을 정리해야 하나요?', href: '/guide/divorce/custody-agreement-prep' },
+    ],
+  },
+  {
+    domain: 'divorce',
+    slug: 'at-fault-spouse-divorce-filing',
+    keyword: '유책배우자도 이혼 청구할 수 있나요',
+    questionKeyword: '유책배우자인데 이혼 청구를 할 수 있나요?',
+    ctaKeyword: '유책배우자 이혼 검토',
+    type: 'Q&A형',
+    meta: {
+      title: '유책배우자도 이혼 청구할 수 있나요 | 로앤가이드',
+      description: '유책배우자의 이혼 청구 가능 여부, 판례 변경 흐름, 예외 인정 요건, 실무적 대응 방법을 정리했습니다.',
+    },
+    intro: '본인의 외도로 혼인이 파탄났는데, 이혼 청구를 할 수 있는지 고민 중입니다. 원칙적으로는 안 된다고 하는데, 최근 판례가 변경되었다는 말을 들었습니다. 유책배우자 입장에서 이혼이 가능한지, 어떤 조건이 필요한지 확인해보세요.',
+    sections: [
+      {
+        title: '유책배우자의 이혼 청구는 원칙적으로 제한됩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">혼인 파탄에 책임이 있는 배우자는 원칙적으로 이혼을 청구할 수 없습니다</strong></p>\n<p>대법원은 오랫동안 <strong>"혼인 파탄의 주된 책임이 있는 배우자(유책배우자)는 이혼을 청구할 수 없다"</strong>는 입장을 유지해왔습니다. 이를 "유책주의"라고 합니다.</p>\n<p>이 원칙의 취지는 혼인을 파탄낸 쪽이 상대방의 의사에 반하여 이혼을 강제하는 것은 <strong>신의성실 원칙</strong>에 반한다는 것입니다. 외도, 폭력, 유기 등으로 혼인 파탄을 야기한 경우가 대표적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 유책배우자의 이혼 청구 불허 (대법원 유책주의 전통)</blockquote>',
+      },
+      {
+        title: '판례 변경의 흐름 — 대법원 2015므568 전원합의체 결정',
+        content:
+          '<p><strong style="color:#1e3a5f">대법원 전원합의체는 유책배우자의 이혼 청구를 예외적으로 허용할 수 있다고 판단했습니다</strong></p>\n<p><strong>대법원 2015므568 전원합의체</strong>에서 다수 의견은, 혼인이 사실상 완전히 파탄되어 회복이 불가능하고 일정한 요건을 갖춘 경우 유책배우자의 이혼 청구도 허용될 수 있다는 취지로 판단했습니다.</p>\n<p>이는 "파탄주의"적 요소를 일부 수용한 것으로, 유책배우자라 하더라도 장기간 별거 등 혼인 관계가 <strong>형해화</strong>된 경우 예외를 인정하는 방향입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">판례: 대법원 2015므568 전원합의체 — 예외적 허용 가능성 인정</blockquote>',
+      },
+      {
+        title: '예외가 인정되려면 — 별거기간, 미성년 자녀 등 요건을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">장기 별거, 미성년 자녀 부재 등 요건이 충족되어야 합니다</strong></p>\n<p>유책배우자의 이혼 청구가 예외적으로 인정되려면 여러 요건이 종합적으로 고려됩니다. 핵심 요건은 다음과 같습니다.</p>\n<p><strong>별거기간</strong>이 상당히 길어 혼인이 사실상 회복 불가능한 상태여야 합니다. <strong>미성년 자녀</strong>가 없거나 성년에 이르렀어야 합니다. 상대방에 대한 충분한 <strong>재산분할과 위자료</strong>가 이루어져야 합니다. 이혼을 거부하는 상대방이 오로지 보복 목적으로 혼인을 유지하는 것은 아닌지도 고려됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: 장기 별거 + 미성년 자녀 부재 + 상당한 재산분할·위자료 + 회복 불가능</blockquote>',
+      },
+      {
+        title: '실무적 대응 — 협의이혼 유도와 조정 신청을 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">재판이혼보다 협의이혼이나 조정을 먼저 시도하는 것이 현실적입니다</strong></p>\n<p>유책배우자가 재판이혼을 청구하면 상대방이 강하게 반발할 수 있습니다. 실무적으로는 <strong>협의이혼</strong>을 유도하는 것이 가장 현실적인 방법입니다. 충분한 재산분할과 위자료를 제안하면 합의 가능성이 높아집니다.</p>\n<p>합의가 어려우면 <strong>법원 조정</strong>을 신청해볼 수 있습니다. 조정은 판결보다 유연한 해결이 가능합니다. 재판이혼을 청구하더라도 법원은 먼저 조정에 회부하는 것이 일반적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: 협의이혼 시도 → 조정 신청 → 재판이혼(최후 수단)</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '장기 별거 후 유책배우자의 이혼 청구가 인정된 사례',
+        summary:
+          '관련 사례에서도 유책배우자가 이혼을 청구했으나, 별거기간이 10년 이상이고 자녀가 모두 성년이며 혼인이 사실상 회복 불가능한 상태에서, 상당한 재산분할을 제안한 경우 이혼 청구가 인정된 사례가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 별거기간, 자녀 상황, 재산분할 제안 등을 종합적으로 정리하고 변호사와 상담해보세요.',
+      },
+      {
+        title: '유책배우자의 이혼 청구가 기각된 사례',
+        summary:
+          '관련 사례에서도 별거기간이 짧거나 미성년 자녀가 있는 상태에서 유책배우자가 이혼을 청구한 경우, 상대방의 의사와 자녀의 복리를 고려하여 이혼 청구가 기각된 사례가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 현재 요건이 충족되는지를 객관적으로 판단하고, 협의이혼이나 조정을 먼저 시도해보세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '외도한 쪽이 이혼을 청구할 수 있나요?',
+        answer: '원칙적으로 <strong>제한</strong>됩니다. 다만 장기 별거 등 요건이 충족되면 예외적으로 인정될 수 있습니다.',
+      },
+      {
+        question: '별거기간이 얼마나 되어야 하나요?',
+        answer: '법에 정해진 기간은 없지만, 판례상 <strong>상당 기간(수년 이상)</strong>의 별거가 요구됩니다.',
+      },
+      {
+        question: '미성년 자녀가 있으면 절대 안 되나요?',
+        answer: '미성년 자녀가 있으면 이혼 청구가 <strong>더 어려워지지만</strong>, 모든 사정을 종합적으로 판단합니다.',
+      },
+      {
+        question: '유책배우자가 위자료를 줘야 하나요?',
+        answer: '혼인 파탄에 책임이 있으므로 상대방에게 <strong>위자료를 지급</strong>해야 하는 것이 일반적입니다.',
+      },
+      {
+        question: '협의이혼이면 유책 여부가 상관없나요?',
+        answer: '<strong>협의이혼은 쌍방 합의</strong>이므로 유책 여부와 관계없이 진행할 수 있습니다.',
+      },
+      {
+        question: '상대방이 보복으로 이혼을 거부하면?',
+        answer: '상대방의 거부가 <strong>오로지 보복 목적</strong>인 경우 법원이 이를 고려할 수 있습니다.',
+      },
+      {
+        question: '조정 신청은 어디에 하나요?',
+        answer: '관할 <strong>가정법원</strong>에 조정 신청서를 제출합니다. 변호사 없이도 가능합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받을 수 있나요?',
+        answer: '<strong>대한법률구조공단(전화 132)</strong>에서 소득 기준에 따라 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 이혼 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '재산분할 비율은 어떻게 정해지나요', href: '/guide/divorce/property-division-ratio' },
+      { label: '협의이혼 절차와 소요 기간 총정리', href: '/guide/divorce/consensual-divorce-process' },
+    ],
+  },
 ];

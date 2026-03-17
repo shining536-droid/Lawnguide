@@ -72,6 +72,7 @@ import { trafficAccidentPages } from './spoke/traffic-accident';
 import { drugCrimePages } from './spoke/drug-crime';
 import { childSupportPages } from './spoke/child-support';
 import { prostitutionPages } from './spoke/prostitution';
+import { sexCrimePages } from './spoke/sex-crime';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -102,6 +103,7 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...drugCrimePages,
   ...childSupportPages,
   ...prostitutionPages,
+  ...sexCrimePages,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {

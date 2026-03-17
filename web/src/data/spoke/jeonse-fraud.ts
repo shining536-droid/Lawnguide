@@ -290,4 +290,198 @@ export const jeonseFraudPages: SpokePage[] = [
       { label: '주택임대차 가이드', href: '/guide/jeonse' },
     ],
   },
+  {
+    domain: 'jeonse-fraud',
+    slug: 'jeonse-fraud-victim-recognition-process',
+    keyword: '전세사기 피해자 인정 신청 절차와 필요 서류',
+    questionKeyword: '전세사기 피해자 인정 신청은 어떤 절차로 진행되고 어떤 서류가 필요한가요?',
+    ctaKeyword: '전세사기 피해자 인정 신청',
+    type: '절차형',
+    meta: {
+      title: '전세사기 피해자 인정 신청 절차와 필요 서류 | 로앤가이드',
+      description: '전세사기 피해자 인정 신청 절차와 필요한 서류, 인정 후 받을 수 있는 지원 내용을 정리했습니다.',
+    },
+    intro: '전세보증금을 돌려받지 못하고 있습니다. 전세사기 피해자로 인정받으면 다양한 지원을 받을 수 있다는데, 절차가 복잡하고 어디서부터 시작해야 하는지 막막합니다. 피해자 인정 신청 절차와 필요 서류를 정리했습니다.',
+    timelineSteps: ['피해자 인정 요건 확인', 'LH/주거복지센터 신청', '필요 서류 준비', '인정 후 지원 수령'],
+    sections: [
+      {
+        title: '피해자 인정 요건부터 확인하세요 — 전세사기피해자지원법 기준',
+        content:
+          '<p><strong style="color:#1e3a5f">특별법이 정한 요건을 충족해야 피해자로 인정됩니다</strong></p>\n<p>「전세사기피해자 지원 및 주거안정에 관한 특별법」에 따라 ①<strong>보증금 미반환</strong>, ②임대인의 <strong>사기 정황</strong>(다중 계약, 깡통전세 등), ③경매·공매 진행 또는 보증금 회수 불가 상태 등이 핵심 요건입니다.</p>\n<p>피해자 유형(일반 임차인, 소액임차인, 최우선변제 대상 등)에 따라 <strong>지원 범위가 달라질 수 있으므로</strong> 본인의 상황을 먼저 파악하세요. 신청 기한도 시행령에서 반드시 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: ①보증금 미반환 ②사기 정황 ③경매/보증금 회수 불가 — 특별법 제2조</blockquote>',
+      },
+      {
+        title: 'LH 또는 주거복지센터에 신청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">관할 LH 주거복지센터 또는 지자체에 피해자 인정을 신청합니다</strong></p>\n<p><strong>LH 주거복지센터</strong>(1600-1004) 또는 관할 시·군·구청에 피해자 인정 신청서를 제출합니다. 전세사기피해지원센터에서 상담과 접수를 도와줍니다.</p>\n<p>신청 후 <strong>피해자결정위원회</strong>가 서류를 심의하여 인정 여부를 결정합니다. 심의 기간은 사안에 따라 다르지만, 서류가 완비되어야 지연 없이 진행됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신청처: LH 주거복지센터(1600-1004) / 시·군·구청 / 전세사기피해지원센터</blockquote>',
+      },
+      {
+        title: '필요 서류를 빠짐없이 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">임대차계약서, 등기부등본, 보증금 미반환 증빙이 핵심입니다</strong></p>\n<p>기본 서류: ①<strong>임대차계약서</strong> 원본·사본, ②<strong>건물등기부등본</strong>(말소사항 포함), ③<strong>주민등록등본</strong>(전입 사실 증명), ④<strong>확정일자 부여 확인서</strong>, ⑤보증금 지급 증빙(<strong>계좌이체 내역서</strong>).</p>\n<p>피해 증빙: ⑥보증금 반환 요청 <strong>내용증명</strong> 발송 기록, ⑦경매개시결정 통지서(경매 진행 시), ⑧임대인의 사기 정황 자료(다중 계약 증거, 재정 파탄 자료 등), ⑨경찰 고소장 접수증(고소한 경우).</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">서류: 계약서, 등기부등본, 전입확인, 이체내역, 내용증명, 경매통지서, 사기정황자료</blockquote>',
+      },
+      {
+        title: '인정 후 받을 수 있는 지원 내용을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">긴급주거 지원부터 보증금 반환까지 다양한 지원이 있습니다</strong></p>\n<p>피해자로 인정되면 ①<strong>긴급경매유예</strong>(경매 절차 일시 중지), ②<strong>법률지원</strong>(최대 250만원), ③<strong>긴급 주거지원</strong>(임시 거처 제공), ④<strong>우선매수권</strong>(경매 시 해당 주택 우선 매수) 등을 받을 수 있습니다.</p>\n<p>기각되더라도 <strong>이의신청</strong>이 가능하고, 추가 서류를 보완하여 재신청할 수도 있습니다. 지원 내용은 피해 유형과 상황에 따라 달라지므로 센터에 구체적으로 문의하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지원: 경매유예, 법률지원(250만원), 긴급주거, 우선매수권 | 기각 시 이의신청 가능</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '다중 계약 피해자가 인정을 받고 경매유예를 받은 사례',
+        summary:
+          '관련 사례에서도 임대인이 동일 건물에 보증금을 초과하는 다수의 임대 계약을 체결하여 피해를 입은 임차인들이 피해자 인정을 받아 경매유예와 법률지원을 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 등기부등본에서 다른 임차인의 권리 설정 여부를 확인하고, 서류를 빠짐없이 준비하여 신청하세요.',
+      },
+      {
+        title: '서류 미비로 심의가 지연된 사례',
+        summary:
+          '관련 사례에서도 보증금 지급 증빙이나 확정일자 기록이 누락되어 피해자 인정 심의가 수개월 지연된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 계약서, 이체 내역, 확정일자 등 기본 서류를 빠짐없이 확인하고 제출하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '피해자 인정 신청은 어디에 하나요?',
+        answer: '<strong>LH 주거복지센터</strong>(1600-1004) 또는 관할 시·군·구청에 신청할 수 있습니다.',
+      },
+      {
+        question: '신청 기한이 있나요?',
+        answer: '특별법 시행령에 따른 <strong>신청 기한</strong>이 있으므로 반드시 확인하세요. 기한 경과 시 지원이 제한됩니다.',
+      },
+      {
+        question: '피해자 인정까지 얼마나 걸리나요?',
+        answer: '서류가 완비된 경우 <strong>피해자결정위원회</strong> 심의를 거쳐 결정됩니다. 서류 미비 시 지연될 수 있습니다.',
+      },
+      {
+        question: '임대인이 형사 처벌을 받지 않아도 인정되나요?',
+        answer: '형사 처벌과 별개입니다. <strong>보증금 미반환</strong>과 피해 요건을 충족하면 인정받을 수 있습니다.',
+      },
+      {
+        question: '경찰 고소를 꼭 해야 하나요?',
+        answer: '필수는 아니지만, 사기 정황을 <strong>소명하는 자료</strong>로 활용되어 도움이 됩니다.',
+      },
+      {
+        question: '기각되면 어떻게 하나요?',
+        answer: '<strong>이의신청</strong>이 가능하며, 추가 서류를 보완하여 재신청할 수도 있습니다.',
+      },
+      {
+        question: '보증금 전액을 돌려받을 수 있나요?',
+        answer: '피해자 인정이 보증금 <strong>전액 반환을 보장하지는 않습니다</strong>. 경매 배당 등 별도 절차를 통해 회수하게 됩니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 전세사기피해지원센터에서 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 전세사기 피해 상황을 확인해보세요',
+      link: '/diagnosis/jeonse-fraud',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
+      { label: '전세사기 의심될 때 가장 먼저 확인할 것', href: '/guide/jeonse-fraud/jeonse-fraud-first-check' },
+      { label: '깡통전세 확인하는 방법과 대처법', href: '/guide/jeonse-fraud/shell-jeonse-check-response' },
+      { label: '전세사기 피해자 인정 신청 전 준비 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },
+    ],
+  },
+  {
+    domain: 'jeonse-fraud',
+    slug: 'shell-jeonse-verification-checklist',
+    keyword: '깡통전세 확인 방법과 계약 전 체크리스트',
+    questionKeyword: '깡통전세인지 확인하려면 계약 전에 뭘 체크해야 하나요?',
+    ctaKeyword: '깡통전세 확인',
+    type: '체크리스트형',
+    meta: {
+      title: '깡통전세 확인 방법과 계약 전 체크리스트 | 로앤가이드',
+      description: '전세 계약 전 깡통전세 여부를 확인하는 방법과 안전한 계약을 위한 체크리스트를 정리했습니다.',
+    },
+    intro: '전세 계약을 앞두고 있는데 깡통전세가 걱정됩니다. 뉴스에서 전세사기 이야기를 보면서 불안해졌는데, 계약 전에 뭘 확인해야 안전한 건지 모르겠습니다. 계약 전 확인해야 할 항목을 정리했습니다.',
+    timelineSteps: ['등기부등본 확인', '시세 대비 비율 확인', '보증보험 가능 여부', '체크리스트 점검'],
+    sections: [
+      {
+        title: '등기부등본부터 확인하세요 — 근저당, 가등기, 신탁이 핵심입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">등기부등본 을구의 근저당과 갑구의 가등기·신탁을 확인하세요</strong></p>\n<p><strong>대법원 인터넷등기소</strong>(iros.go.kr)에서 건물등기부등본을 발급받으세요(수수료 1,000원). 을구에서 <strong>근저당 설정 금액</strong>을 확인하고, 갑구에서 <strong>가등기, 가압류, 신탁 등기</strong>가 있는지 살펴보세요.</p>\n<p>신탁 등기가 되어 있으면 소유권이 신탁사에 있으므로 <strong>신탁사의 동의</strong> 없이 체결된 임대차 계약은 보호받기 어렵습니다. 가등기가 있으면 소유권 이전 위험이 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 을구(근저당 금액), 갑구(가등기/가압류/신탁) — 인터넷등기소(iros.go.kr)</blockquote>',
+      },
+      {
+        title: '시세 대비 보증금 비율을 확인하세요 — 80% 이상이면 주의',
+        content:
+          '<p><strong style="color:#1e3a5f">선순위 채권 + 보증금이 시세의 80%를 넘으면 위험합니다</strong></p>\n<p><strong>국토교통부 실거래가 시스템</strong>(rt.molit.go.kr)과 KB부동산 시세에서 해당 주택의 현재 시세를 확인하세요. (선순위 근저당 금액 + 내 보증금)이 시세의 <strong>80%를 넘으면</strong> 깡통전세 위험이 높습니다.</p>\n<p>근저당 채권최고액은 실제 대출금의 120~130% 수준으로 설정되는 경우가 많으므로, 실제 대출 잔액은 은행에 확인하는 것이 더 정확합니다. 시세가 하락할 가능성도 고려하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: (근저당 + 보증금) ÷ 시세 ≥ 80% → 주의 필요 | 실거래가(rt.molit.go.kr)</blockquote>',
+      },
+      {
+        title: '보증보험 가입 가능 여부를 확인하세요 — HUG, SGI',
+        content:
+          '<p><strong style="color:#1e3a5f">보증보험 가입이 거절되면 그 자체가 위험 신호입니다</strong></p>\n<p>계약 전에 <strong>HUG(주택도시보증공사)</strong>와 <strong>SGI서울보증</strong>에 전세보증금 반환보증보험 가입이 가능한지 먼저 확인하세요. 보증 기관이 가입을 거절한다면 해당 물건의 위험도가 높다는 의미입니다.</p>\n<p>보증보험에 가입하면 임대인이 보증금을 반환하지 않을 때 <strong>보증 기관이 대신 지급</strong>하므로 가장 확실한 안전장치입니다. 보증 한도와 보증료도 미리 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: HUG(1566-9009) / SGI서울보증 — 가입 거절 시 위험 물건일 가능성 높음</blockquote>',
+      },
+      {
+        title: '체크리스트를 정리하세요 — 등기, 시세, 보험, 세금체납',
+        content:
+          '<p><strong style="color:#1e3a5f">계약 전 반드시 확인해야 할 4가지 항목을 점검하세요</strong></p>\n<p>①<strong>등기부등본</strong>: 근저당·가등기·신탁·가압류 여부, 소유자와 임대인 일치 여부. ②<strong>시세 확인</strong>: 보증금이 시세의 70~80% 이하인지 확인. ③<strong>보증보험</strong>: HUG/SGI 가입 가능 여부 사전 확인. ④<strong>임대인 세금체납</strong>: 국세·지방세 완납증명서 요청(미납 시 보증금보다 세금이 우선 변제될 수 있음).</p>\n<p>이 4가지를 모두 통과해야 안전한 전세 계약입니다. 하나라도 불안하면 <strong>계약을 재검토</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크리스트: ①등기부등본 ②시세 대비 비율 ③보증보험 가입 ④세금체납 확인</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '신탁 등기를 확인하지 않아 보증금을 잃은 사례',
+        summary:
+          '관련 사례에서도 등기부등본에 신탁 등기가 설정되어 있었으나 이를 확인하지 않고 계약하여 임대차 보호를 받지 못한 경우가 있습니다. 신탁사의 동의 없는 계약은 대항력이 인정되지 않았습니다.',
+        takeaway:
+          '비슷한 상황이라면 등기부등본 갑구에 신탁 등기가 있는지 반드시 확인하고, 있다면 신탁사에 임대 동의 여부를 확인하세요.',
+      },
+      {
+        title: '보증보험 가입으로 보증금을 보전한 사례',
+        summary:
+          '관련 사례에서도 임대인이 보증금을 반환하지 못했으나, 전세보증금 반환보증보험에 가입되어 있어 HUG로부터 보증금을 전액 돌려받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 계약 전 보증보험 가입 가능 여부를 반드시 확인하고, 가능하면 즉시 가입하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '등기부등본은 어디서 떼나요?',
+        answer: '<strong>대법원 인터넷등기소</strong>(iros.go.kr)에서 온라인 발급이 가능합니다. 수수료는 1,000원이며, 말소사항 포함으로 발급받으세요.',
+      },
+      {
+        question: '보증금이 시세의 몇 퍼센트 이하여야 안전한가요?',
+        answer: '선순위 채권과 보증금 합계가 시세의 <strong>70~80% 이하</strong>이면 비교적 안전합니다.',
+      },
+      {
+        question: '보증보험 가입 비용은 얼마인가요?',
+        answer: '보증금 규모에 따라 다르며, 연간 보증금의 <strong>0.1~0.2%</strong> 수준입니다. HUG 콜센터(1566-9009)에서 확인하세요.',
+      },
+      {
+        question: '임대인의 세금체납을 어떻게 확인하나요?',
+        answer: '임대인에게 <strong>국세·지방세 완납증명서</strong> 제출을 요청하세요. 미납 시 보증금보다 세금이 우선 변제됩니다.',
+      },
+      {
+        question: '신탁 등기가 있으면 무조건 위험한가요?',
+        answer: '신탁사의 <strong>임대 동의</strong>가 있으면 계약이 보호될 수 있습니다. 반드시 신탁사에 확인하세요.',
+      },
+      {
+        question: '공인중개사를 통하면 안전한가요?',
+        answer: '중개사를 통해도 <strong>등기부등본은 직접 확인</strong>하는 것이 가장 확실합니다.',
+      },
+      {
+        question: '계약 후에도 확인해야 할 것이 있나요?',
+        answer: '계약 후 즉시 <strong>전입신고와 확정일자</strong>를 완료하고, 등기부등본 변동 알림 서비스를 신청하세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 전세사기피해지원센터에서 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 전세 계약 위험도를 확인해보세요',
+      link: '/diagnosis/jeonse-fraud',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
+      { label: '전세사기 의심될 때 가장 먼저 확인할 것', href: '/guide/jeonse-fraud/jeonse-fraud-first-check' },
+      { label: '깡통전세 확인하는 방법과 대처법', href: '/guide/jeonse-fraud/shell-jeonse-check-response' },
+      { label: '전세사기 피해자 인정 신청 전 준비 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },
+    ],
+  },
 ];

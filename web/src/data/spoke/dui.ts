@@ -291,4 +291,239 @@ export const duiPages: SpokePage[] = [
       { label: '이혼 가이드', href: '/guide/divorce' },
     ],
   },
+  {
+    domain: 'dui',
+    slug: 'dui-second-offense-penalty',
+    keyword: '음주운전 2회 적발 처벌 수위와 대응 방법',
+    questionKeyword: '음주운전 2회 적발되면 처벌이 어떻게 되나요?',
+    ctaKeyword: '음주운전 2회 대응',
+    type: '수치/기한형',
+    meta: {
+      title: '음주운전 2회 적발 처벌 수위와 대응 방법 | 로앤가이드',
+      description: '음주운전 2회 이상 적발 시 처벌 수위, 면허 결격기간, 실형 가능성과 감경 요소를 정리했습니다.',
+    },
+    intro: '음주운전으로 두 번째 적발됐습니다. 1회 때와는 처벌이 확 달라진다고 하는데, 징역 실형이 가능한 건지, 면허 결격기간은 얼마나 되는 건지 한꺼번에 걱정이 밀려옵니다. 2회 이상 음주운전의 혐의를 받고 있다면 처벌 수위와 대응 방법을 먼저 확인해보세요.',
+    timelineSteps: ['처벌 수위 확인', '면허 결격기간 확인', '실형 가능성 검토', '변호사 선임'],
+    sections: [
+      {
+        title: '2회 이상 음주운전은 처벌이 대폭 강화됩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">2회 이상 적발 시 2~5년 징역 또는 1,000만~2,000만원 벌금입니다</strong></p>\n<p><strong>도로교통법 제148조의2제1항</strong>에 따라 음주운전 2회 이상 위반 시 <strong>2년 이상 5년 이하 징역</strong> 또는 <strong>1,000만원 이상 2,000만원 이하 벌금</strong>에 처해집니다. 1회 때와는 법정형 자체가 다릅니다.</p>\n<p>여기서 "2회 이상"이란 과거 음주운전 전력이 1회 이상 있는 상태에서 다시 적발된 경우를 말합니다. 과거 음주측정 거부도 전력에 포함됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">1회: 1~2년 징역 또는 500~1,000만원 벌금 | 2회 이상: 2~5년 징역 또는 1,000~2,000만원 벌금</blockquote>',
+      },
+      {
+        title: '면허 취소와 결격기간이 길어집니다',
+        content:
+          '<p><strong style="color:#1e3a5f">2회 위반 시 면허 취소 + 결격기간 2년, 3회 이상은 3년입니다</strong></p>\n<p>2회 이상 음주운전은 <strong>면허 즉시 취소</strong>입니다. 결격기간은 2회 위반 시 <strong>2년</strong>, 3회 이상은 <strong>3년</strong>입니다. 음주운전으로 사람을 다치게 한 경우에는 결격기간이 더 길어질 수 있습니다.</p>\n<p>결격기간 동안 운전을 하면 무면허 운전으로 추가 형사처벌을 받습니다. 면허 재취득 시 특별교통안전교육 이수도 필수입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">결격기간: 2회 → 2년 | 3회 이상 → 3년 | 사고 수반 시 더 길어질 수 있음</blockquote>',
+      },
+      {
+        title: '실형 가능성과 감경 요소를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">2회 이상은 실형 가능성이 높지만 감경 요소가 있습니다</strong></p>\n<p>2회 이상 음주운전은 법정형 하한이 <strong>징역 2년</strong>이므로 실형 선고 가능성이 높습니다. 다만 양형 감경 요소가 인정되면 벌금형이나 집행유예를 받을 수도 있습니다.</p>\n<p><strong>반성문</strong> 작성, 교통봉사활동 참여, 재범 방지 서약, 알코올 치료 프로그램 수강 등이 감경 사유가 됩니다. 1회 전과와의 간격이 길수록(10년 이상 등) 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감경 요소: 반성문, 교통봉사활동, 알코올 치료, 재범 방지 서약, 전과 간격</blockquote>',
+      },
+      {
+        title: '변호사 선임과 재판 준비를 즉시 시작하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">2회 이상은 변호사 선임이 사실상 필수입니다</strong></p>\n<p>2회 이상 음주운전은 법정형이 무겁고 실형 가능성이 있으므로 <strong>변호사 선임</strong>을 강력히 권합니다. 수사 단계부터 변호사의 조력을 받는 것이 양형에 유리합니다.</p>\n<p>재판 전까지 교통봉사활동 참여 확인서, 알코올 의존 치료 확인서, 탄원서, 반성문 등을 체계적으로 준비하세요. 생업에 미치는 영향도 소명 자료로 정리해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 변호사 상담, 반성문, 교통봉사활동, 알코올 치료, 탄원서</blockquote>',
+      },
+    ],
+    comparison: {
+      title: '1회 vs 2회 이상 음주운전 처벌 비교표',
+      headers: ['구분', '1회 위반', '2회 이상 위반'],
+      rows: [
+        {
+          label: '법정형',
+          values: [
+            '1~2년 징역 또는 500~1,000만원 벌금',
+            '2~5년 징역 또는 1,000~2,000만원 벌금',
+          ],
+        },
+        {
+          label: '면허 처분',
+          values: [
+            '0.08% 이상 면허 취소',
+            '면허 즉시 취소',
+          ],
+        },
+        {
+          label: '결격기간',
+          values: [
+            '1년',
+            '2년(2회) / 3년(3회 이상)',
+          ],
+        },
+        {
+          label: '실형 가능성',
+          values: [
+            '초범 통상 벌금형',
+            '실형 가능성 높음',
+          ],
+        },
+        {
+          label: '대응 방향',
+          values: [
+            '반성문, 교통봉사활동',
+            '변호사 선임 + 체계적 양형 준비',
+          ],
+        },
+      ],
+    },
+    cases: [
+      {
+        title: '2회 적발이지만 집행유예를 받은 사례',
+        summary:
+          '관련 사례에서도 2회 음주운전으로 적발되었지만, 1회 전과와의 간격이 10년 이상이고 반성문·교통봉사활동·알코올 치료 프로그램 참여 등이 양형에 유리하게 작용하여 집행유예가 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 적발 후 즉시 알코올 치료와 교통봉사활동에 참여하고 변호사 상담을 받으세요.',
+      },
+      {
+        title: '2회 적발에 사고까지 수반되어 실형이 선고된 사례',
+        summary:
+          '관련 사례에서도 2회 음주운전에 교통사고까지 발생한 경우 실형(징역 2년 이상)이 선고된 경우가 있습니다. 피해자와의 합의 여부도 양형에 큰 영향을 미칩니다.',
+        takeaway:
+          '비슷한 상황이라면 피해자와의 합의를 최우선으로 진행하고, 변호사를 통해 양형 대응을 체계적으로 준비하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '2회 음주운전이면 무조건 실형인가요?',
+        answer: '법정형 하한이 <strong>징역 2년</strong>이지만, 감경 요소가 인정되면 집행유예나 벌금형도 가능합니다.',
+      },
+      {
+        question: '과거 음주운전이 몇 년 전이어도 2회로 보나요?',
+        answer: '시간 제한이 없습니다. <strong>과거 전력이 있으면</strong> 몇 년이 지나도 2회 이상으로 가중됩니다.',
+      },
+      {
+        question: '측정 거부 전력도 2회에 포함되나요?',
+        answer: '<strong>포함됩니다.</strong> 과거 음주측정 거부도 음주운전 전력으로 산정됩니다.',
+      },
+      {
+        question: '알코올 치료를 받으면 감경되나요?',
+        answer: '알코올 의존 치료 프로그램 수강은 <strong>양형에 유리한 정상</strong>으로 참작됩니다.',
+      },
+      {
+        question: '집행유예를 받으면 교도소에 안 가나요?',
+        answer: '집행유예 기간 중 <strong>범죄 없이</strong> 지내면 형이 면제됩니다. 재범 시 유예가 취소될 수 있습니다.',
+      },
+      {
+        question: '면허 결격기간 동안 운전하면 어떻게 되나요?',
+        answer: '<strong>무면허 운전</strong>으로 추가 형사처벌을 받습니다. 절대 불가합니다.',
+      },
+      {
+        question: '2회 음주운전 벌금은 분납이 가능한가요?',
+        answer: '검찰에 <strong>분납 신청</strong>이 가능합니다. 경제적 사정을 소명하세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 음주운전 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/dui',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '음주운전 진단', href: '/diagnosis/dui' },
+      { label: '음주운전 초범 처벌 수준과 대응 방법', href: '/guide/dui/dui-first-offense' },
+      { label: '음주운전 적발 후 면허 취소 기준과 대응', href: '/guide/dui/dui-license-revocation' },
+      { label: '음주측정 거부했을 때 어떻게 되나요', href: '/guide/dui/dui-breathalyzer-refusal' },
+    ],
+  },
+  {
+    domain: 'dui',
+    slug: 'breathalyzer-refusal-consequences',
+    keyword: '음주측정 거부 시 처벌과 불이익 총정리',
+    questionKeyword: '음주측정을 거부하면 어떤 처벌과 불이익이 있나요?',
+    ctaKeyword: '음주측정 거부 대응',
+    type: '상황형',
+    meta: {
+      title: '음주측정 거부 시 처벌과 불이익 총정리 | 로앤가이드',
+      description: '음주측정 거부 시 처벌 수위, 면허 취소, 강제 채혈 절차, 대응 방법을 총정리했습니다.',
+    },
+    intro: '음주 후 운전 중 검문에 걸렸는데 음주측정을 거부했습니다. 거부하면 처벌이 음주운전보다 더 무거울 수 있다는 말을 나중에 들었습니다. 혐의를 받고 있다면 거부 시 어떤 불이익이 있는지, 지금 무엇을 해야 하는지 정리해보세요.',
+    timelineSteps: ['거부죄 처벌 확인', '면허 취소 확인', '채혈 가능성 파악', '변호사 상담'],
+    sections: [
+      {
+        title: '측정거부죄 처벌은 음주운전 최고 수준과 동일합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">측정 거부 시 1~5년 징역 또는 500만~2,000만원 벌금입니다</strong></p>\n<p><strong>도로교통법 제148조의2제1항제2호</strong>에 따라, 음주측정을 거부하면 <strong>1년 이상 5년 이하 징역</strong> 또는 <strong>500만원 이상 2,000만원 이하 벌금</strong>에 처해집니다.</p>\n<p>이는 혈중알코올농도 0.2% 이상과 동일한 법정형입니다. 실제 음주량이 적었더라도 측정을 거부하면 <strong>가장 무거운 처벌</strong>을 받을 수 있다는 점을 이해해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법정형: 1~5년 징역 또는 500만~2,000만원 벌금 (0.2% 이상과 동일 수준)</blockquote>',
+      },
+      {
+        title: '면허는 즉시 취소되고 결격기간이 적용됩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">음주측정 거부 시 면허가 즉시 취소됩니다</strong></p>\n<p>음주측정 거부는 <strong>면허 즉시 취소</strong> 사유입니다. 결격기간은 1회 위반 시 <strong>1년</strong>, 2회 위반 시 <strong>2년</strong>, 3회 이상 <strong>3년</strong>입니다.</p>\n<p>결격기간 동안 운전하면 무면허 운전으로 추가 처벌을 받습니다. 행정심판으로 다투려면 측정 요구 절차에 <strong>하자</strong>가 있었는지가 핵심 쟁점이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">면허 취소 결격기간: 1회 → 1년 | 2회 → 2년 | 3회 이상 → 3년</blockquote>',
+      },
+      {
+        title: '거부 후에도 영장에 의한 강제 채혈이 가능합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">경찰은 법원 영장을 받아 강제 채혈을 실시할 수 있습니다</strong></p>\n<p>호흡측정을 거부하더라도 경찰이 <strong>법원 영장</strong>을 발부받아 강제 채혈을 실시할 수 있습니다. 채혈 결과 혈중알코올농도가 확인되면 <strong>측정 거부죄와 음주운전 모두</strong> 처벌될 수 있습니다.</p>\n<p>영장에 의한 채혈을 물리적으로 거부하면 <strong>공무집행방해</strong>가 추가될 수 있으니, 영장이 제시된 경우 협조하는 것이 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 강제 채혈 시 측정 거부죄 + 음주운전 이중 처벌 가능</blockquote>',
+      },
+      {
+        title: '지금 할 수 있는 대응 방법을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">변호사 상담과 양형 준비를 즉시 시작하세요</strong></p>\n<p>이미 측정을 거부한 상황이라면 <strong>변호사 상담</strong>을 즉시 진행하세요. 거부 경위(당황, 호흡기 질환, 약물 복용 등)를 구체적으로 정리해두면 양형에 참작될 수 있습니다.</p>\n<p>반성문 작성, 교통봉사활동 참여, 재범 방지 서약서도 준비하세요. 측정 요구 과정에서 경찰의 <strong>고지 의무 위반</strong>(거부 시 처벌 고지) 여부도 변호사와 함께 검토해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 변호사 상담, 거부 경위 정리, 반성문, 교통봉사활동, 고지 절차 확인</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '측정 요구 절차의 하자가 인정된 사례',
+        summary:
+          '관련 사례에서도 경찰이 음주측정 거부 시 처벌 내용을 충분히 고지하지 않은 채 측정을 요구한 경우, 절차 하자를 이유로 측정 거부죄가 무죄로 판단된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 단속 당시 경찰의 고지 내용, 측정 요구 횟수, 현장 상황을 구체적으로 기록해두세요.',
+      },
+      {
+        title: '거부 후 자진 측정에 응해 감경된 사례',
+        summary:
+          '관련 사례에서도 처음에는 거부했지만 이후 자진하여 측정에 응한 점이 양형에 유리하게 작용하여 벌금형이 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 거부 후라도 자진 측정이나 반성의 태도를 보이는 것이 도움이 됩니다.',
+      },
+    ],
+    faq: [
+      {
+        question: '음주측정 거부가 음주운전보다 처벌이 더 무겁나요?',
+        answer: '측정 거부는 <strong>0.2% 이상</strong>과 동일한 법정형입니다. 실제 농도가 낮았어도 더 무거운 처벌을 받을 수 있습니다.',
+      },
+      {
+        question: '측정 거부 후 나중에 자진 측정하면 감경되나요?',
+        answer: '최초 거부 사실은 남지만, 자진 측정은 <strong>양형에 유리</strong>하게 참작될 수 있습니다.',
+      },
+      {
+        question: '영장 없이 강제 채혈이 가능한가요?',
+        answer: '원칙적으로 <strong>법원 영장</strong>이 필요합니다. 다만 긴급한 경우 사후 영장이 가능할 수 있습니다.',
+      },
+      {
+        question: '호흡기 질환으로 측정이 안 되면 어떻게 하나요?',
+        answer: '질환 증빙이 있으면 참작됩니다. <strong>채혈 측정</strong>으로 대체할 수 있으니 협조하는 것이 좋습니다.',
+      },
+      {
+        question: '거부죄와 음주운전이 동시에 처벌되나요?',
+        answer: '채혈로 농도가 확인되면 <strong>측정 거부죄와 음주운전 모두</strong> 처벌될 수 있습니다.',
+      },
+      {
+        question: '측정 거부 전과도 기록에 남나요?',
+        answer: '벌금 이상의 형사처벌이므로 <strong>전과 기록</strong>이 남습니다.',
+      },
+      {
+        question: '행정심판으로 면허 취소를 다툴 수 있나요?',
+        answer: '측정 요구 <strong>절차상 하자</strong>가 있었다면 다툴 여지가 있습니다. 변호사와 상담해보세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 음주운전 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/dui',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '음주운전 진단', href: '/diagnosis/dui' },
+      { label: '음주운전 초범 처벌 수준과 대응 방법', href: '/guide/dui/dui-first-offense' },
+      { label: '음주운전 적발 후 면허 취소 기준과 대응', href: '/guide/dui/dui-license-revocation' },
+      { label: '음주운전 2회 적발 처벌 수위와 대응 방법', href: '/guide/dui/dui-second-offense-penalty' },
+    ],
+  },
 ];
