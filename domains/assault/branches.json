@@ -1,8 +1,8 @@
 {
   "_draft": true,
   "domain": "assault",
-  "version": "2026-03-14",
-  "resolution_order": ["TYPE_VICTIM_URGENT", "TYPE_VICTIM_STANDARD", "TYPE_FALSELY_ACCUSED", "TYPE_SUSPECT", "TYPE_OK"],
+  "version": "2026-03-17",
+  "resolution_order": ["TYPE_VICTIM_URGENT", "TYPE_VICTIM_ASSAULT", "TYPE_VICTIM_INJURY", "TYPE_VICTIM_THREAT", "TYPE_VICTIM_STANDARD", "TYPE_FALSELY_ACCUSED", "TYPE_SUSPECT", "TYPE_OK"],
   "types": [
     {
       "id": "TYPE_VICTIM_URGENT",
@@ -12,32 +12,53 @@
       "priority": 1
     },
     {
+      "id": "TYPE_VICTIM_ASSAULT",
+      "name": "폭행 피해 대응 확인 필요",
+      "description": "폭행 피해를 입은 경우이며 대응 절차를 확인해야 하는 상황",
+      "conditions": { "perspective": "피해", "assault_type": "폭행" },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_VICTIM_INJURY",
+      "name": "상해 피해 대응 확인 필요",
+      "description": "상해 피해를 입은 경우이며 대응 절차를 확인해야 하는 상황",
+      "conditions": { "perspective": "피해", "assault_type": "상해" },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_VICTIM_THREAT",
+      "name": "협박 피해 대응 확인 필요",
+      "description": "협박 피해를 입은 경우이며 대응 절차를 확인해야 하는 상황",
+      "conditions": { "perspective": "피해", "assault_type": "협박" },
+      "priority": 4
+    },
+    {
       "id": "TYPE_VICTIM_STANDARD",
       "name": "폭행·상해 피해 대응 확인 필요",
       "description": "피해를 입은 경우이며 대응 절차를 확인해야 하는 상황",
       "conditions": { "perspective": "피해" },
-      "priority": 2
+      "priority": 5
     },
     {
       "id": "TYPE_FALSELY_ACCUSED",
       "name": "사실과 다른 신고 대응 확인 필요",
       "description": "사실과 다르게 신고되었다고 판단하여 대응을 준비해야 하는 상황",
       "conditions": { "perspective": "사실과다름" },
-      "priority": 3
+      "priority": 6
     },
     {
       "id": "TYPE_SUSPECT",
       "name": "혐의 관련 사실 정리 필요",
       "description": "신고를 당했거나 혐의를 받고 있는 경우 사실관계를 정리해야 하는 상황",
       "conditions": { "perspective": "혐의" },
-      "priority": 4
+      "priority": 7
     },
     {
       "id": "TYPE_OK",
       "name": "기본 사항 확인",
       "description": "폭행·상해 관련 기본 사항을 확인하는 상황",
       "conditions": {},
-      "priority": 5
+      "priority": 8
     }
   ]
 }
