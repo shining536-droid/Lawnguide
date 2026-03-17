@@ -1,8 +1,8 @@
 {
   "_draft": true,
   "domain": "real-estate-auction",
-  "version": "2026-03-08",
-  "resolution_order": ["TYPE_TENANT", "TYPE_BUYER_RIGHTS", "TYPE_DISTRIBUTION", "TYPE_BIDDING", "TYPE_OK"],
+  "version": "2026-03-17",
+  "resolution_order": ["TYPE_TENANT", "TYPE_BUYER_RIGHTS", "TYPE_DISTRIBUTION", "TYPE_BIDDING", "TYPE_PT_BID", "TYPE_PT_RIGHTS", "TYPE_PT_AFTER", "TYPE_PT_TENANT", "TYPE_PT_DIST", "TYPE_OK"],
   "types": [
     {
       "id": "TYPE_TENANT",
@@ -33,11 +33,46 @@
       "priority": 4
     },
     {
+      "id": "TYPE_PT_BID",
+      "name": "입찰준비 문제유형",
+      "description": "입찰 준비 관련 문의",
+      "conditions": { "problem_type": "입찰준비" },
+      "priority": 5
+    },
+    {
+      "id": "TYPE_PT_RIGHTS",
+      "name": "권리분석 문제유형",
+      "description": "권리분석 관련 문의",
+      "conditions": { "problem_type": "권리분석" },
+      "priority": 6
+    },
+    {
+      "id": "TYPE_PT_AFTER",
+      "name": "낙찰후처리 문제유형",
+      "description": "낙찰 후 처리 관련 문의",
+      "conditions": { "problem_type": "낙찰후처리" },
+      "priority": 7
+    },
+    {
+      "id": "TYPE_PT_TENANT",
+      "name": "임차인보호 문제유형",
+      "description": "임차인 보호 관련 문의",
+      "conditions": { "problem_type": "임차인보호" },
+      "priority": 8
+    },
+    {
+      "id": "TYPE_PT_DIST",
+      "name": "배당명도 문제유형",
+      "description": "배당 및 명도 관련 문의",
+      "conditions": { "problem_type": "배당명도" },
+      "priority": 9
+    },
+    {
       "id": "TYPE_OK",
       "name": "기본 확인",
       "description": "기타 경매 관련 문의",
       "conditions": { "problem_type": "기타" },
-      "priority": 5
+      "priority": 10
     }
   ]
 }

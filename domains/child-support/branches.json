@@ -1,43 +1,71 @@
 {
   "_draft": true,
   "domain": "child-support",
-  "version": "2026-03-08",
-  "resolution_order": ["TYPE_ENFORCEMENT", "TYPE_NO_AGREEMENT", "TYPE_STOPPED", "TYPE_NO_TITLE", "TYPE_OK"],
+  "version": "2026-03-17",
+  "resolution_order": ["TYPE_PT_UNPAID_AGREED", "TYPE_PT_UNPAID_COURT", "TYPE_PT_NO_AGREE", "TYPE_PT_STOPPED", "TYPE_ENFORCEMENT", "TYPE_NO_AGREEMENT", "TYPE_STOPPED", "TYPE_NO_TITLE", "TYPE_OK"],
   "types": [
+    {
+      "id": "TYPE_PT_UNPAID_AGREED",
+      "name": "합의했으나 미지급 안내",
+      "description": "양육비를 합의했으나 지급되지 않아 이행명령·강제집행을 안내하는 유형",
+      "conditions": { "problem_type": "합의했으나미지급" },
+      "priority": 1
+    },
+    {
+      "id": "TYPE_PT_UNPAID_COURT",
+      "name": "판결 있으나 미지급 안내",
+      "description": "법원 판결이 있으나 양육비가 지급되지 않아 강제집행을 안내하는 유형",
+      "conditions": { "problem_type": "판결있으나미지급" },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_PT_NO_AGREE",
+      "name": "양육비 미합의 안내",
+      "description": "양육비에 대한 합의가 없어 청구 절차를 안내하는 유형",
+      "conditions": { "problem_type": "미합의" },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_PT_STOPPED",
+      "name": "양육비 지급중단 안내",
+      "description": "양육비 지급이 중단되어 변경심판·이행명령을 안내하는 유형",
+      "conditions": { "problem_type": "지급중단" },
+      "priority": 4
+    },
     {
       "id": "TYPE_ENFORCEMENT",
       "name": "강제집행 검토 필요",
       "description": "집행권원이 있으나 양육비가 지급되지 않아 강제집행을 검토해야 하는 상황",
       "conditions": { "has_execution_title": "있음", "support_status": ["합의했으나미지급", "판결있으나미지급"] },
-      "priority": 1
+      "priority": 5
     },
     {
       "id": "TYPE_NO_AGREEMENT",
       "name": "양육비 청구 확인 필요",
       "description": "양육비에 대한 합의가 없어 청구 절차를 검토해야 하는 상황",
       "conditions": { "support_status": "미합의" },
-      "priority": 2
+      "priority": 6
     },
     {
       "id": "TYPE_STOPPED",
       "name": "지급 중단 확인 필요",
       "description": "양육비 지급이 중단되어 이행 확보 조치를 검토해야 하는 상황",
       "conditions": { "support_status": "지급중단" },
-      "priority": 3
+      "priority": 7
     },
     {
       "id": "TYPE_NO_TITLE",
       "name": "집행권원 확보 확인 필요",
       "description": "집행권원이 없어 법원 절차를 통한 확보를 검토해야 하는 상황",
       "conditions": { "has_execution_title": "없음" },
-      "priority": 4
+      "priority": 8
     },
     {
       "id": "TYPE_OK",
       "name": "기본 사항 확인",
       "description": "양육비 관련 기본 사항을 확인하는 상황",
       "conditions": { "problem_type": "기타" },
-      "priority": 5
+      "priority": 9
     }
   ]
 }

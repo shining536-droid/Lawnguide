@@ -1,43 +1,106 @@
 {
   "_draft": true,
   "domain": "bankruptcy",
-  "version": "2026-03-08",
-  "resolution_order": ["TYPE_SEIZURE", "TYPE_GAMBLING", "TYPE_HIGH_ASSET", "TYPE_STANDARD", "TYPE_OK"],
+  "version": "2026-03-17",
+  "resolution_order": [
+    "TYPE_SEIZURE",
+    "TYPE_GAMBLING",
+    "TYPE_HIGH_ASSET",
+    "TYPE_PT_UNABLE",
+    "TYPE_PT_EXCESS",
+    "TYPE_PT_PRESSURE",
+    "TYPE_PT_REVIEW",
+    "TYPE_STANDARD",
+    "TYPE_OK"
+  ],
   "types": [
     {
       "id": "TYPE_SEIZURE",
       "name": "압류·소송 긴급 확인 필요",
       "description": "재산 압류 또는 소송이 진행 중이어서 긴급한 대응이 필요한 유형",
-      "conditions": { "creditor_action": ["압류중", "소송중"] },
+      "conditions": {
+        "creditor_action": [
+          "압류중",
+          "소송중"
+        ]
+      },
       "priority": 1
     },
     {
       "id": "TYPE_GAMBLING",
       "name": "면책 불허가 사유 검토 필요",
       "description": "도박으로 인한 채무로 면책 불허가 사유에 해당할 수 있는 유형",
-      "conditions": { "debt_cause": ["도박"] },
+      "conditions": {
+        "debt_cause": [
+          "도박"
+        ]
+      },
       "priority": 2
     },
     {
       "id": "TYPE_HIGH_ASSET",
       "name": "재산 보유 상태 확인 필요",
       "description": "부동산 등 재산이 있어 파산 절차에서 재산 처분이 수반될 수 있는 유형",
-      "conditions": { "asset_status": ["부동산있음"] },
+      "conditions": {
+        "asset_status": [
+          "부동산있음"
+        ]
+      },
       "priority": 3
     },
     {
       "id": "TYPE_STANDARD",
       "name": "파산·면책 절차 검토 필요",
       "description": "일반적인 개인파산·면책 절차를 검토해볼 수 있는 유형",
-      "conditions": { "problem_type": ["변제불능", "채무과다", "추심압박", "파산검토"] },
+      "conditions": {},
       "priority": 4
+    },
+    {
+      "id": "TYPE_PT_UNABLE",
+      "name": "변제불능 유형",
+      "description": "변제가 불가능한 상태로 파산을 검토하는 유형",
+      "conditions": {
+        "problem_type": "변제불능"
+      },
+      "priority": 5
+    },
+    {
+      "id": "TYPE_PT_EXCESS",
+      "name": "채무과다 유형",
+      "description": "채무가 과다하여 파산 또는 회생을 비교 검토하는 유형",
+      "conditions": {
+        "problem_type": "채무과다"
+      },
+      "priority": 6
+    },
+    {
+      "id": "TYPE_PT_PRESSURE",
+      "name": "추심압박 유형",
+      "description": "채권추심 압박을 받고 있어 대응이 필요한 유형",
+      "conditions": {
+        "problem_type": "추심압박"
+      },
+      "priority": 7
+    },
+    {
+      "id": "TYPE_PT_REVIEW",
+      "name": "파산검토 유형",
+      "description": "개인파산 절차를 본격적으로 검토하는 유형",
+      "conditions": {
+        "problem_type": "파산검토"
+      },
+      "priority": 8
     },
     {
       "id": "TYPE_OK",
       "name": "기본 확인 안내",
       "description": "기타 문제로 기본적인 확인 사항을 안내하는 유형",
-      "conditions": { "problem_type": ["기타"] },
-      "priority": 5
+      "conditions": {
+        "problem_type": [
+          "기타"
+        ]
+      },
+      "priority": 9
     }
   ]
 }
