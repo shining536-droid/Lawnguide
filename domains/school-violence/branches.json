@@ -1,8 +1,8 @@
 {
   "_draft": true,
   "domain": "school-violence",
-  "version": "2026-03-14",
-  "resolution_order": ["TYPE_VICTIM_URGENT", "TYPE_VICTIM_STANDARD", "TYPE_FALSELY_ACCUSED", "TYPE_SUSPECT", "TYPE_OK"],
+  "version": "2026-03-17",
+  "resolution_order": ["TYPE_VICTIM_URGENT", "TYPE_VICTIM_PHYSICAL", "TYPE_VICTIM_VERBAL", "TYPE_VICTIM_CYBER", "TYPE_VICTIM_BULLY", "TYPE_VICTIM_EXTORT", "TYPE_VICTIM_STANDARD", "TYPE_FALSELY_ACCUSED", "TYPE_SUSPECT", "TYPE_OK"],
   "types": [
     {
       "id": "TYPE_VICTIM_URGENT",
@@ -12,32 +12,67 @@
       "priority": 1
     },
     {
+      "id": "TYPE_VICTIM_PHYSICAL",
+      "name": "물리적 폭력 피해 확인 필요",
+      "description": "물리적 폭력 피해를 입은 상황이며 관련 대응 절차를 확인해볼 필요가 있는 경우",
+      "conditions": { "perspective": "피해", "violence_type": "물리적" },
+      "priority": 2
+    },
+    {
+      "id": "TYPE_VICTIM_VERBAL",
+      "name": "언어폭력 피해 확인 필요",
+      "description": "언어폭력 피해를 입은 상황이며 관련 대응 절차를 확인해볼 필요가 있는 경우",
+      "conditions": { "perspective": "피해", "violence_type": "언어" },
+      "priority": 3
+    },
+    {
+      "id": "TYPE_VICTIM_CYBER",
+      "name": "사이버폭력 피해 확인 필요",
+      "description": "사이버폭력 피해를 입은 상황이며 관련 대응 절차를 확인해볼 필요가 있는 경우",
+      "conditions": { "perspective": "피해", "violence_type": "사이버" },
+      "priority": 4
+    },
+    {
+      "id": "TYPE_VICTIM_BULLY",
+      "name": "따돌림 피해 확인 필요",
+      "description": "따돌림 피해를 입은 상황이며 관련 대응 절차를 확인해볼 필요가 있는 경우",
+      "conditions": { "perspective": "피해", "violence_type": "따돌림" },
+      "priority": 5
+    },
+    {
+      "id": "TYPE_VICTIM_EXTORT",
+      "name": "금품갈취 피해 확인 필요",
+      "description": "금품갈취 피해를 입은 상황이며 관련 대응 절차를 확인해볼 필요가 있는 경우",
+      "conditions": { "perspective": "피해", "violence_type": "금품갈취" },
+      "priority": 6
+    },
+    {
       "id": "TYPE_VICTIM_STANDARD",
       "name": "피해 관련 절차 확인 필요",
       "description": "피해를 입은 상황이며 관련 지원 절차를 확인해볼 필요가 있는 경우",
       "conditions": { "perspective": "피해" },
-      "priority": 2
+      "priority": 7
     },
     {
       "id": "TYPE_FALSELY_ACCUSED",
       "name": "사실과 다른 신고 대응 확인 필요",
       "description": "사실과 다르게 가해자로 지목되어 대응을 준비해야 하는 상황",
       "conditions": { "perspective": "사실과다름" },
-      "priority": 3
+      "priority": 8
     },
     {
       "id": "TYPE_SUSPECT",
       "name": "가해자 지목 관련 사실 정리 필요",
       "description": "가해자로 지목되어 사실관계 정리가 필요한 경우",
       "conditions": { "perspective": "혐의" },
-      "priority": 4
+      "priority": 9
     },
     {
       "id": "TYPE_OK",
       "name": "기본 사항 확인",
       "description": "학교폭력 관련 기본 사항을 확인하는 경우",
       "conditions": {},
-      "priority": 5
+      "priority": 10
     }
   ]
 }
