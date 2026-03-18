@@ -768,4 +768,198 @@ export const jeonsePages: SpokePage[] = [
       { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
     ],
   },
+  {
+    domain: 'jeonse',
+    slug: 'lease-expiry-deposit-return-steps',
+    keyword: '전세 계약 만료 후 보증금 돌려받는 절차',
+    questionKeyword: '전세 계약이 만료됐는데 보증금을 돌려받으려면 어떻게 하나요?',
+    ctaKeyword: '전세 보증금 반환 절차',
+    type: '절차형',
+    meta: {
+      title: '전세 계약 만료 후 보증금 돌려받는 절차 | 로앤가이드',
+      description: '전세 계약 만료 후 보증금을 돌려받기 위한 내용증명, 임차권등기명령, 보증보험 청구, 법적 절차를 단계별로 정리했습니다.',
+    },
+    intro: '전세 계약 만료일이 지났는데 집주인이 보증금을 돌려주지 않습니다. "다음 세입자가 들어와야 줄 수 있다"며 시간만 끌고 있습니다. 이사는 해야 하고, 보증금 없이는 새 집 계약이 어렵습니다. 보증금을 돌려받기 위한 절차를 순서대로 정리했습니다.',
+    timelineSteps: ['반환 요청·내용증명', '임차권등기명령', '보증보험·지급명령', '소송·강제집행'],
+    sections: [
+      {
+        title: '계약 만료 후 내용증명으로 반환을 공식 요청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">서면으로 반환 요청 기록을 남기는 것이 첫 단계입니다</strong></p>\n<p>전세 계약이 만료되면 임대인은 보증금을 반환할 의무가 있습니다. 전화나 문자로 여러 번 요청해도 응하지 않는다면 <strong>우체국 내용증명</strong>을 보내세요. 내용증명에는 계약 체결일, <strong>보증금 액수</strong>, 계약 종료일, 반환 기한(수령일로부터 7~14일)을 명시합니다.</p>\n<p>내용증명 자체에 법적 강제력은 없지만, 이후 소송에서 <strong>"임차인이 반환을 요청한 시점"</strong>을 입증하는 핵심 증거가 됩니다. 같은 문서를 <strong>3부</strong> 작성하여 1부는 본인 보관, 1부는 우체국 보관, 1부는 임대인에게 발송합니다. 배달증명도 함께 신청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 임대차계약서 사본, 보증금 액수, 계약 만료일, 임대인 주소</blockquote>',
+      },
+      {
+        title: '이사 전에 임차권등기명령을 반드시 신청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">전입신고를 옮기면 대항력이 사라질 수 있습니다</strong></p>\n<p>새 집으로 이사하면서 전입신고를 옮기면 기존 주택에 대한 <strong>대항력과 우선변제권</strong>이 소멸됩니다. 이를 방지하려면 이사 전에 <strong>임차권등기명령</strong>을 신청하세요(주택임대차보호법 제3조의3). 임차주택 소재지 관할 법원에 신청하면 임대인 동의 없이도 법원 결정만으로 등기가 이루어집니다.</p>\n<p>결정까지 보통 <strong>1~2주</strong> 소요됩니다. 등기가 완료된 후 이사하면 기존의 대항력과 우선변제권이 그대로 유지됩니다. 신청 비용은 <strong>인지대 2,000원</strong>과 등록면허세 정도로 부담이 적습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 임대차계약서 사본, 주민등록등본, 건물등기부등본, 계약 종료 증빙</blockquote>',
+      },
+      {
+        title: '전세보증금 반환보증보험에 가입했다면 보증기관에 청구하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">HUG·SGI서울보증 등 보증기관이 대신 지급합니다</strong></p>\n<p><strong>주택도시보증공사(HUG)</strong>나 <strong>SGI서울보증</strong>의 전세보증금 반환보증보험에 가입했다면, 임대인이 보증금을 반환하지 않을 때 보증기관에 보증금 지급을 청구할 수 있습니다. 보증 사고 접수 후 보통 <strong>1~2개월</strong> 내에 보증기관이 보증금을 대신 지급합니다.</p>\n<p>청구 시 필요한 서류는 보증서, 임대차계약서, 내용증명 발송 증빙, 계약 만료 확인 서류 등입니다. 보증기관이 대위변제한 후에는 보증기관이 임대인에게 <strong>구상권</strong>을 행사합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 보증서, 임대차계약서, 내용증명 발송 증빙, 보증 사고 접수 신청서</blockquote>',
+      },
+      {
+        title: '보증보험이 없다면 지급명령이나 소송으로 진행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">지급명령은 비용이 적고 빠른 법적 절차입니다</strong></p>\n<p>보증보험에 가입하지 않은 경우, 법원에 <strong>지급명령</strong>을 신청하세요. 지급명령은 서면심리만으로 진행되며, 인지대가 소송의 <strong>10분의 1</strong> 수준입니다. 임대인이 2주 내에 이의를 제기하지 않으면 확정판결과 동일한 효력이 생깁니다.</p>\n<p>이의가 제기되면 통상 소송으로 전환됩니다. 확정 판결 후에도 임대인이 지급하지 않으면 <strong>강제집행</strong>(부동산 경매, 예금 압류)을 진행할 수 있습니다. 소송 전 <strong>가압류</strong>를 신청하여 임대인의 재산 처분을 막아두는 것도 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 대법원 전자소송(ecfs.scourt.go.kr)에서 온라인 신청 가능</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '내용증명 발송 후 임대인이 보증금을 반환한 사례',
+        summary:
+          '관련 사례에서도 전세 계약 만료 후 3개월간 보증금을 돌려받지 못한 세입자가 내용증명을 발송하고 법적 절차를 예고하자, 임대인이 2주 내에 보증금 전액을 반환한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 전화 독촉보다 내용증명을 먼저 보내 공식 기록을 남기세요.',
+      },
+      {
+        title: '임차권등기명령 없이 이사했다가 대항력을 잃은 사례',
+        summary:
+          '관련 사례에서도 계약 만료 후 임차권등기명령을 신청하지 않고 새 집으로 전입신고를 옮긴 세입자가, 기존 주택이 경매에 넘어갔을 때 대항력을 주장하지 못하여 보증금을 배당받지 못한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 반드시 이사 전에 임차권등기명령을 신청하고 등기 완료를 확인한 뒤 전입신고를 옮기세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '전세 계약 만료 후 보증금은 언제까지 돌려받아야 하나요?',
+        answer: '계약 종료와 동시에 반환 의무가 발생합니다. 임대인은 <strong>임차인이 주택을 명도하는 시점</strong>에 보증금을 반환해야 합니다.',
+      },
+      {
+        question: '집주인이 "다음 세입자 구해야 준다"고 하면 어떻게 하나요?',
+        answer: '보증금 반환 의무는 다음 세입자와 <strong>무관</strong>합니다. 계약 만료 시 즉시 반환해야 합니다.',
+      },
+      {
+        question: '임차권등기명령 신청 비용은 얼마인가요?',
+        answer: '<strong>인지대 2,000원</strong>과 등록면허세(지역에 따라 다름) 정도로 부담이 적습니다.',
+      },
+      {
+        question: '보증보험에 가입 안 했으면 어떻게 하나요?',
+        answer: '<strong>지급명령</strong>이나 소송을 통해 법원의 판결을 받아 강제집행으로 보증금을 회수할 수 있습니다.',
+      },
+      {
+        question: '보증금 반환 지연 시 이자를 받을 수 있나요?',
+        answer: '임대차 종료 후 반환이 지체되면 <strong>지연손해금</strong>을 함께 청구할 수 있습니다. 법정이율이 적용됩니다.',
+      },
+      {
+        question: '전세보증금 반환보증 사고 접수 후 얼마나 걸리나요?',
+        answer: '보증기관에 따라 다르지만, 보통 <strong>1~2개월</strong> 내에 보증금이 지급됩니다.',
+      },
+      {
+        question: '소액 보증금도 지급명령 신청이 가능한가요?',
+        answer: '금액과 관계없이 <strong>지급명령</strong> 신청이 가능합니다. 대법원 전자소송 사이트에서 온라인으로 접수할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)에서 무료 법률상담을 받을 수 있습니다. 소득 기준 충족 시 소송대리도 지원됩니다.',
+      },
+    ],
+    cta: {
+      text: '내 전세 보증금 반환 상황에 맞는 다음 단계를 확인해보세요',
+      link: '/diagnosis/jeonse',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '주택임대차 진단', href: '/diagnosis/jeonse' },
+      { label: '보증금 못 받았을 때 해결 순서', href: '/guide/jeonse/deposit-return-process' },
+      { label: '전입신고 안 했을 때 보증금 보호 방법', href: '/guide/jeonse/no-registration-deposit-protection' },
+      { label: '전세보증보험 가입했는데 보증금 못 받을 때', href: '/guide/jeonse/jeonse-insurance-claim-checklist' },
+    ],
+  },
+  {
+    domain: 'jeonse',
+    slug: 'no-move-in-report-deposit-protection',
+    keyword: '전입신고 안 했을 때 보증금 보호받는 방법',
+    questionKeyword: '전입신고를 안 했는데 보증금을 보호받을 수 있나요?',
+    ctaKeyword: '전입신고 미비 보증금 보호',
+    type: '실수함정형',
+    meta: {
+      title: '전입신고 안 했을 때 보증금 보호받는 방법 | 로앤가이드',
+      description: '전입신고를 놓쳤을 때 보증금이 위험한 이유, 대항력 문제, 지금이라도 할 수 있는 보호 조치를 정리했습니다.',
+    },
+    intro: '이사한 지 한 달이 넘었는데 아직 전입신고를 하지 못했습니다. 바쁘다는 핑계로 미루다 보니 어느새 시간이 흘렀습니다. 그런데 최근 집주인이 대출을 받았다는 소식을 들었습니다. 전입신고 없이도 보증금을 지킬 수 있는 방법이 있는지, 지금 당장 해야 할 조치는 무엇인지 확인해보세요.',
+    timelineSteps: ['현재 상황 파악', '즉시 전입신고', '추가 보호 조치', '분쟁 시 대응'],
+    sections: [
+      {
+        title: '전입신고를 안 하면 보증금이 왜 위험한지 이해하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">전입신고가 대항력의 핵심 요건입니다</strong></p>\n<p><strong>주택임대차보호법 제3조</strong>에 따르면, 세입자가 주택을 인도받고(실제 거주) <strong>전입신고</strong>까지 마쳐야 대항력이 생깁니다. 대항력이란 집이 팔리거나 경매에 넘어갈 때 새 소유자에게 보증금 반환을 요구할 수 있는 권리입니다.</p>\n<p>전입신고를 하지 않으면 아무리 오래 거주하고 있어도 <strong>제3자에 대한 대항력이 없습니다</strong>. 이 상태에서 집주인이 근저당을 설정하거나 집을 매각하면, 새 소유자나 경매 낙찰자에게 보증금 반환을 주장하기 어려워집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 전입신고 + 주택 인도 = 대항력 발생(다음 날 0시부터)</blockquote>',
+      },
+      {
+        title: '지금 당장 전입신고와 확정일자를 받으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">하루라도 빨리 전입신고를 해야 합니다</strong></p>\n<p>아직 주택 소유권에 변동이 없고 경매 절차가 시작되지 않았다면, <strong>지금 즉시 전입신고</strong>를 하세요. 전입신고 다음 날 0시부터 대항력이 발생합니다. 같은 날 <strong>확정일자</strong>까지 받아두면 우선변제권도 확보됩니다(주택임대차보호법 제3조의2).</p>\n<p>주민센터에서 전입신고와 확정일자를 동시에 처리할 수 있으며, 확정일자 수수료는 <strong>600원</strong>입니다. 다만 전입신고 전에 이미 설정된 근저당권이 있다면 해당 근저당보다 <strong>후순위</strong>가 되므로, 먼저 <strong>등기부등본</strong>을 발급받아 현재 설정된 권리를 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 신분증, 임대차계약서 원본(확정일자용), 등기부등본(근저당 확인용)</blockquote>',
+      },
+      {
+        title: '전세권 설정등기나 반환보증보험이 있는지 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">전입신고 없이도 보호받을 수 있는 예외 상황이 있습니다</strong></p>\n<p><strong>전세권 설정등기</strong>가 되어 있다면 전입신고가 없어도 등기부에 권리가 기재되어 있으므로 제3자에 대한 대항력이 있습니다. 등기부등본을 발급받아 전세권 설정 여부를 확인하세요.</p>\n<p><strong>주택도시보증공사(HUG)</strong> 등의 전세보증금 반환보증보험에 가입했다면, 보증기관이 보증금을 대신 지급하는 절차를 이용할 수 있습니다. 다만 반환보증 가입 요건으로 대항력(전입신고)을 요구하는 경우가 많으므로, <strong>보증약관</strong>을 반드시 다시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 등기부등본(전세권 설정 여부), 보증보험 가입 약관(대항력 요건 확인)</blockquote>',
+      },
+      {
+        title: '이미 권리 변동이 생겼다면 임대인에게 직접 청구하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">대항력이 없어도 임대인에 대한 계약상 청구는 가능합니다</strong></p>\n<p>전입신고 없이 집이 매각되거나 경매에 넘어간 경우, 새 소유자에게 보증금을 청구하기는 어렵습니다. 하지만 <strong>기존 임대인</strong>에 대한 계약상 보증금 반환 청구는 대항력과 별개로 가능합니다.</p>\n<p><strong>내용증명</strong>을 보내 공식적으로 반환을 요청한 뒤, 응하지 않으면 <strong>지급명령</strong>이나 소송을 진행하세요. 임대인의 재정 상태가 불안정하다면 소송 전 <strong>가압류</strong>를 신청하여 재산 처분을 막아두는 것도 방법입니다. 소액임차인에 해당하면 최우선변제권으로 일부라도 보호받을 수 있으니 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 임대차계약서, 등기부등본, 내용증명 발송, 소액임차인 기준 확인</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '전입신고 없이 경매에서 보증금을 배당받지 못한 사례',
+        summary:
+          '관련 사례에서도 세입자가 2년간 거주했지만 전입신고를 하지 않은 상태에서 주택이 경매에 넘어가, 대항력을 주장하지 못하여 보증금 전액을 배당받지 못한 경우가 있습니다. 대법원 96다7236 판결에서도 전입신고가 대항력 발생의 필수 요건임이 확인되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 전입신고를 하루라도 빨리 완료하고, 등기부등본으로 현재 권리 관계를 반드시 확인하세요.',
+      },
+      {
+        title: '전세권 설정등기로 전입신고 없이도 보증금을 보호받은 사례',
+        summary:
+          '관련 사례에서도 전입신고는 하지 않았지만 전세권 설정등기가 되어 있어, 주택이 매각된 후에도 전세권에 기한 경매 신청으로 보증금을 회수한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 등기부등본을 발급받아 전세권이 설정되어 있는지 먼저 확인해보세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '전입신고를 안 하면 보증금을 아예 못 받나요?',
+        answer: '대항력은 없지만, <strong>임대인에 대한 계약상 반환 청구</strong>는 가능합니다. 다만 제3자(새 소유자)에게는 주장하기 어렵습니다.',
+      },
+      {
+        question: '전입신고를 지금이라도 하면 소급 적용되나요?',
+        answer: '소급 적용되지 않습니다. 전입신고 <strong>다음 날 0시부터</strong> 대항력이 발생합니다.',
+      },
+      {
+        question: '확정일자만 받으면 보호되나요?',
+        answer: '확정일자만으로는 부족합니다. <strong>전입신고 + 확정일자</strong>가 모두 갖춰져야 우선변제권이 생깁니다.',
+      },
+      {
+        question: '소액임차인이면 전입신고 없어도 보호되나요?',
+        answer: '소액임차인의 최우선변제권도 <strong>전입신고와 주택 인도</strong>가 요건입니다. 전입신고 없이는 적용되지 않습니다.',
+      },
+      {
+        question: '집주인이 전입신고를 하지 말라고 했는데요?',
+        answer: '전입신고를 하지 말라는 요구는 <strong>세입자의 권리를 포기</strong>시키는 것입니다. 반드시 전입신고를 하세요.',
+      },
+      {
+        question: '등기부등본은 어디서 발급받나요?',
+        answer: '<strong>대법원 인터넷등기소</strong>(iros.go.kr)에서 온라인 발급이 가능합니다. 수수료는 700원입니다.',
+      },
+      {
+        question: '전세권 설정등기는 어떻게 하나요?',
+        answer: '임대인의 <strong>협조</strong>가 필요합니다. 계약 시 전세권 설정등기를 요구하거나, 특약으로 명시해두는 것이 좋습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)에서 무료 법률상담을 받을 수 있습니다. 온라인(klac.or.kr)으로도 상담 신청이 가능합니다.',
+      },
+    ],
+    cta: {
+      text: '내 전입신고 미비 상황에 맞는 보증금 보호 방법을 확인해보세요',
+      link: '/diagnosis/jeonse',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '주택임대차 진단', href: '/diagnosis/jeonse' },
+      { label: '전입신고 안 했을 때 보증금 보호 방법', href: '/guide/jeonse/no-registration-deposit-protection' },
+      { label: '보증금 못 받았을 때 해결 순서', href: '/guide/jeonse/deposit-return-process' },
+      { label: '전세 계약 만료 후 보증금 돌려받는 절차', href: '/guide/jeonse/lease-expiry-deposit-return-steps' },
+    ],
+  },
 ];

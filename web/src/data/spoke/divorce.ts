@@ -921,4 +921,198 @@ export const divorcePages: SpokePage[] = [
       { label: '협의이혼 절차와 소요 기간 총정리', href: '/guide/divorce/consensual-divorce-process' },
     ],
   },
+  {
+    domain: 'divorce',
+    slug: 'child-support-calculation-standard',
+    keyword: '양육비 산정 기준표와 계산 방법',
+    questionKeyword: '양육비는 어떤 기준으로 계산하나요?',
+    ctaKeyword: '양육비 계산',
+    type: '수치기한형',
+    meta: {
+      title: '양육비 산정 기준표와 계산 방법 | 로앤가이드',
+      description: '양육비 산정기준표를 기반으로 소득별 양육비 계산 방법, 가산·감산 요소, 양육비이행확보원 활용법을 정리했습니다.',
+    },
+    intro: '이혼 후 아이 양육비를 받아야 하는데 얼마를 청구할 수 있는지 모르겠습니다. 상대방은 소득이 적다며 적은 금액만 주겠다고 합니다. 양육비 산정기준표와 계산 방법을 정리했습니다.',
+    timelineSteps: ['산정기준표 확인', '소득·자녀 나이 적용', '가산·감산 요소 반영', '양육비 청구·이행확보'],
+    sections: [
+      {
+        title: '양육비 산정기준표를 확인하세요 — 서울가정법원 기준',
+        content:
+          '<p><strong style="color:#1e3a5f">서울가정법원 양육비 산정기준표가 실무 기준입니다</strong></p>\n<p><strong>서울가정법원</strong>이 발표하는 양육비 산정기준표는 법원이 양육비를 결정할 때 사용하는 핵심 자료입니다. 2024년 개정판 기준으로, 부모 합산 소득과 자녀 나이에 따라 표준 양육비가 제시됩니다.</p>\n<p>산정기준표는 부모 합산 월 소득을 <strong>구간별</strong>(199만원 이하, 200~299만원, 300~399만원, 400~499만원, 500~599만원, 600~699만원, 700만원 이상)로 나누고, 자녀 나이를 <strong>0~2세, 3~5세, 6~11세, 12~14세, 15세 이상</strong>으로 구분합니다.</p>\n<p>예를 들어 부모 합산 소득 <strong>500만원</strong>, 자녀 나이 <strong>10세</strong>(6~11세 구간)인 경우 표준 양육비는 약 <strong>월 120만원</strong> 수준입니다. 이 금액에서 비양육 부모의 부담 비율을 산정합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: 서울가정법원 양육비 산정기준표 | 부모 합산 소득 + 자녀 나이 → 표준 양육비</blockquote>',
+      },
+      {
+        title: '비양육 부모의 양육비 부담 비율을 계산하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">부모 각자의 소득 비율에 따라 분담합니다</strong></p>\n<p>표준 양육비가 정해지면 부모 각자의 <strong>소득 비율</strong>에 따라 부담 비율이 산정됩니다. 예를 들어 부(父) 소득 <strong>350만원</strong>, 모(母) 소득 <strong>150만원</strong>이면 부의 부담 비율은 <strong>70%</strong>(350/500)입니다.</p>\n<p>표준 양육비가 120만원이고 비양육 부모의 부담 비율이 70%라면, 비양육 부모가 지급할 양육비는 약 <strong>월 84만원</strong>입니다.</p>\n<p>소득이 없는 전업주부라도 <strong>잠재적 소득</strong>(일할 수 있는 능력)을 기준으로 일정 소득을 인정하는 경우가 있습니다. 최저임금 수준이 기준이 되는 경우가 많습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">계산: 표준 양육비 × 비양육 부모 소득 비율 = 월 양육비 | 전업주부도 잠재 소득 인정</blockquote>',
+      },
+      {
+        title: '가산·감산 요소를 반영하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">특별한 사정이 있으면 양육비가 조정됩니다</strong></p>\n<p><strong>가산 요소</strong>(양육비 증가): ①자녀가 <strong>사립학교</strong>에 재학 중인 경우 추가 교육비, ②자녀에게 <strong>특별한 의료비</strong>(만성질환, 장애 등)가 필요한 경우, ③<strong>학원·과외비</strong> 중 합리적 수준, ④도시 거주로 인한 높은 생활비.</p>\n<p><strong>감산 요소</strong>(양육비 감소): ①비양육 부모에게 <strong>재혼 가정의 부양 의무</strong>가 있는 경우, ②비양육 부모의 <strong>건강 문제</strong>로 소득 능력이 감소한 경우, ③<strong>면접교섭</strong>이 빈번하여 실질적 양육 분담이 이루어지는 경우.</p>\n<p>가산·감산 요소는 법원이 <strong>종합적으로 판단</strong>합니다. 관련 증빙(학비 납입 증명서, 의료비 영수증, 진단서 등)을 준비해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">가산: 사립학교, 의료비, 학원비 | 감산: 재혼 부양, 건강 문제, 빈번한 면접교섭</blockquote>',
+      },
+      {
+        title: '양육비를 청구하고 이행을 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">양육비이행확보원을 통해 미지급 양육비를 추심할 수 있습니다</strong></p>\n<p>양육비 합의가 안 되면 <strong>가정법원</strong>에 양육비 청구 심판을 신청하세요. 협의이혼 시에는 양육비부담조서를 작성하면 법적 효력이 있습니다.</p>\n<p>상대방이 양육비를 지급하지 않으면 <strong>양육비이행확보원</strong>(전화 1644-6621)에 이행명령, 감치명령, 재산 압류 등을 신청할 수 있습니다. 양육비이행확보원은 <strong>무료</strong>로 양육비 이행 지원 서비스를 제공합니다.</p>\n<p>2024년부터 양육비 미지급 시 <strong>운전면허 정지</strong>, <strong>출국금지</strong>, <strong>명단 공개</strong> 등 제재가 강화되었습니다. 이행명령 불이행 시 <strong>1,000만원 이하 과태료</strong>와 <strong>30일 이내 감치</strong>도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">이행확보: 양육비이행확보원(1644-6621) | 이행명령, 감치, 재산 압류, 운전면허 정지, 출국금지</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '산정기준표보다 높은 양육비가 인정된 사례',
+        summary:
+          '관련 사례에서도 자녀가 만성질환으로 정기적인 의료비가 필요한 경우, 산정기준표 금액에 의료비를 가산하여 표준보다 높은 양육비가 결정된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 자녀의 특별한 지출 항목(의료비, 사립학교 학비 등)을 증빙하여 가산 요소로 주장하세요.',
+      },
+      {
+        title: '소득 은닉이 확인되어 양육비가 상향 조정된 사례',
+        summary:
+          '관련 사례에서도 비양육 부모가 실제 소득보다 낮게 신고한 것이 금융거래정보 조회를 통해 확인되어 양육비가 상향 조정된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 법원에 금융거래정보 제출명령을 신청하여 상대방의 실제 소득을 확인하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '양육비 산정기준표는 법적 구속력이 있나요?',
+        answer: '법적 구속력은 없지만 법원이 양육비를 결정할 때 <strong>핵심 참고 자료</strong>로 활용합니다.',
+      },
+      {
+        question: '상대방 소득을 모르면 어떻게 하나요?',
+        answer: '법원에 <strong>금융거래정보 제출명령</strong>이나 <strong>국세청 과세자료 조회</strong>를 신청할 수 있습니다.',
+      },
+      {
+        question: '양육비를 나중에 변경할 수 있나요?',
+        answer: '소득 변동, 자녀 성장 등 <strong>사정 변경</strong>이 있으면 양육비 변경 심판을 청구할 수 있습니다.',
+      },
+      {
+        question: '양육비를 안 주면 어떤 제재가 있나요?',
+        answer: '<strong>이행명령, 감치(30일), 재산 압류, 운전면허 정지, 출국금지, 명단 공개</strong> 등이 가능합니다.',
+      },
+      {
+        question: '양육비이행확보원은 무료인가요?',
+        answer: '네, <strong>양육비이행확보원</strong>(1644-6621)은 무료로 양육비 이행 지원 서비스를 제공합니다.',
+      },
+      {
+        question: '과거 미지급 양육비도 받을 수 있나요?',
+        answer: '양육비 청구 심판에서 <strong>과거 양육비</strong>도 함께 청구할 수 있습니다.',
+      },
+      {
+        question: '재혼하면 양육비가 줄어드나요?',
+        answer: '비양육 부모의 재혼은 <strong>감산 요소</strong>가 될 수 있지만, 자동으로 줄어들지는 않습니다. 변경 심판이 필요합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받을 수 있나요?',
+        answer: '<strong>대한법률구조공단(전화 132)</strong>과 양육비이행확보원(1644-6621)에서 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 양육비 상황에 맞는 계산 방법을 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '재산분할 비율은 어떻게 정해지나요', href: '/guide/divorce/property-division-ratio' },
+      { label: '양육권 합의 전에 무엇을 정리해야 하나요?', href: '/guide/divorce/custody-agreement-prep' },
+    ],
+  },
+  {
+    domain: 'divorce',
+    slug: 'consensual-divorce-timeline-docs',
+    keyword: '협의이혼 절차 기간과 준비 서류 총정리',
+    questionKeyword: '협의이혼 절차와 기간은 얼마나 걸리나요?',
+    ctaKeyword: '협의이혼 절차',
+    type: '절차타임라인형',
+    meta: {
+      title: '협의이혼 절차 기간과 준비 서류 총정리 | 로앤가이드',
+      description: '협의이혼의 단계별 절차, 숙려기간, 필요 서류, 자녀 유무에 따른 기간 차이를 총정리했습니다.',
+    },
+    intro: '배우자와 이혼에 합의했는데 법원에서 어떤 절차를 밟아야 하는지, 서류는 뭘 준비해야 하는지 잘 모르겠습니다. 자녀가 있으면 기간이 더 걸린다고 하는데 정확히 얼마나 걸리는 건지 궁금합니다. 협의이혼 절차와 기간을 정리했습니다.',
+    timelineSteps: ['법원 안내 접수', '숙려기간(1~3개월)', '이혼의사 확인', '이혼신고'],
+    sections: [
+      {
+        title: '1단계: 가정법원에 이혼의사확인 신청서를 제출하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">관할 가정법원에 부부가 함께 신청서를 제출합니다</strong></p>\n<p>협의이혼은 <strong>가정법원</strong>에 이혼의사확인 신청서를 제출하는 것으로 시작됩니다. 부부 중 한 명의 주소지를 관할하는 가정법원에 신청합니다.</p>\n<p>필요 서류: ①<strong>이혼의사확인 신청서</strong>(법원 비치 양식), ②부부 각각의 <strong>혼인관계증명서</strong>, ③<strong>가족관계증명서</strong>, ④<strong>주민등록등본</strong>, ⑤신분증. 미성년 자녀가 있으면 ⑥<strong>양육사항 협의서</strong>도 제출해야 합니다.</p>\n<p>신청서 제출 시 법원에서 <strong>이혼 안내</strong>(이혼의 효과, 자녀 양육 등)를 받게 됩니다. 안내는 부부가 함께 참석해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">서류: 이혼의사확인 신청서, 혼인관계증명서, 가족관계증명서, 주민등록등본, 양육사항 협의서(자녀 있는 경우)</blockquote>',
+      },
+      {
+        title: '2단계: 숙려기간을 거치세요 — 자녀 유무에 따라 1개월 또는 3개월',
+        content:
+          '<p><strong style="color:#1e3a5f">미성년 자녀가 있으면 3개월, 없으면 1개월의 숙려기간이 있습니다</strong></p>\n<p><strong>민법 제836조의2</strong>에 따라, 이혼 안내를 받은 후 숙려기간을 거쳐야 합니다. 양육할 <strong>미성년 자녀가 있으면 3개월</strong>, <strong>없으면 1개월</strong>입니다.</p>\n<p>숙려기간은 <strong>법정 최소 기간</strong>으로, 이보다 짧게 진행할 수는 없습니다. 다만 가정폭력 등 <strong>급박한 사정</strong>이 있으면 법원에 숙려기간 단축을 신청할 수 있습니다(법원 판단에 따라 결정).</p>\n<p>숙려기간 동안 <strong>재산분할, 양육비, 위자료</strong> 등의 합의를 진행하는 것이 좋습니다. 합의가 안 되면 이혼 자체는 진행하고 나머지는 별도 소송으로 해결할 수도 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">숙려기간: 미성년 자녀 있음 → 3개월 | 미성년 자녀 없음 → 1개월 | 가정폭력 등 → 단축 신청 가능</blockquote>',
+      },
+      {
+        title: '3단계: 이혼의사 확인을 받으세요 — 부부 동시 출석이 원칙',
+        content:
+          '<p><strong style="color:#1e3a5f">숙려기간 경과 후 법원에서 이혼의사를 최종 확인합니다</strong></p>\n<p>숙려기간이 지나면 <strong>3개월 이내</strong>에 법원에 출석하여 이혼의사 확인을 받아야 합니다. 이 기한을 넘기면 절차를 처음부터 다시 해야 합니다.</p>\n<p><strong>부부 동시 출석</strong>이 원칙입니다. 판사 앞에서 이혼 의사가 진정한 것인지를 확인받습니다. 미성년 자녀가 있는 경우 <strong>양육사항 협의서</strong>(양육자, 양육비, 면접교섭)가 작성되었는지도 확인합니다.</p>\n<p>확인이 완료되면 <strong>이혼의사확인서</strong>가 교부됩니다. 이 확인서를 가지고 이혼신고를 하면 이혼이 완료됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 부부 동시 출석 → 판사 앞 이혼의사 확인 → 확인서 교부 | 기한: 숙려기간 후 3개월 이내</blockquote>',
+      },
+      {
+        title: '4단계: 이혼신고를 하면 이혼이 완료됩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">확인서 교부 후 3개월 이내에 이혼신고를 해야 합니다</strong></p>\n<p>이혼의사확인서를 받은 후 <strong>3개월 이내</strong>에 시·구·읍·면사무소에 <strong>이혼신고서</strong>를 제출해야 합니다. 3개월을 넘기면 확인서 효력이 상실되어 처음부터 다시 진행해야 합니다.</p>\n<p>이혼신고 시 필요 서류: ①<strong>이혼신고서</strong>, ②<strong>이혼의사확인서 등본</strong>, ③<strong>혼인관계증명서</strong>, ④신분증. 부부 중 한 명이 신고하면 됩니다(양쪽 다 올 필요 없음).</p>\n<p>이혼신고가 수리되면 <strong>법적으로 이혼이 완료</strong>됩니다. 재산분할, 양육비 등 합의 사항은 별도 공정증서로 작성해두면 나중에 다툼을 줄일 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고: 확인서 교부 후 3개월 이내 | 서류: 이혼신고서, 확인서 등본, 혼인관계증명서 | 한 명이 신고 가능</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '숙려기간 동안 재산분할 합의를 완료한 사례',
+        summary:
+          '관련 사례에서도 숙려기간 3개월 동안 변호사 도움을 받아 재산분할, 양육비, 면접교섭까지 모두 합의하고, 공정증서로 작성하여 이혼 후 분쟁 없이 마무리한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 숙려기간을 활용하여 재산분할과 양육비 합의를 완료하고, 합의 내용을 공정증서로 남겨두세요.',
+      },
+      {
+        title: '이혼신고 기한을 놓쳐 처음부터 다시 진행한 사례',
+        summary:
+          '관련 사례에서도 이혼의사확인서를 받고도 3개월 이내에 이혼신고를 하지 않아 확인서 효력이 상실되어 법원 절차를 처음부터 다시 진행한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 이혼의사확인서를 받은 즉시 이혼신고를 진행하세요. 3개월 기한을 반드시 지키세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '협의이혼 전체 기간은 얼마나 걸리나요?',
+        answer: '미성년 자녀가 있으면 약 <strong>3~4개월</strong>, 없으면 약 <strong>1~2개월</strong>이 소요됩니다.',
+      },
+      {
+        question: '숙려기간을 줄일 수 있나요?',
+        answer: '가정폭력 등 <strong>급박한 사정</strong>이 있으면 법원에 단축 신청이 가능합니다.',
+      },
+      {
+        question: '법원에 꼭 같이 가야 하나요?',
+        answer: '이혼의사 확인 시 <strong>부부 동시 출석</strong>이 원칙입니다. 예외적인 경우 법원에 문의하세요.',
+      },
+      {
+        question: '양육사항 협의서에 무엇을 적나요?',
+        answer: '<strong>양육자 지정, 양육비 금액·지급일, 면접교섭 방법·빈도</strong>를 구체적으로 기재합니다.',
+      },
+      {
+        question: '재산분할 합의를 안 해도 이혼할 수 있나요?',
+        answer: '이혼 자체는 가능합니다. 재산분할은 이혼 후 <strong>2년 이내</strong>에 별도로 청구할 수 있습니다.',
+      },
+      {
+        question: '공정증서로 합의를 남겨야 하나요?',
+        answer: '<strong>공정증서</strong>는 법적 강제력이 있어 나중에 불이행 시 바로 강제집행이 가능합니다. 작성을 권합니다.',
+      },
+      {
+        question: '이혼신고 기한을 넘기면 어떻게 되나요?',
+        answer: '확인서 효력이 상실되어 <strong>처음부터 다시</strong> 절차를 밟아야 합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받을 수 있나요?',
+        answer: '<strong>대한법률구조공단(전화 132)</strong>과 가정법원 상담위원을 통해 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 협의이혼 상황에 맞는 절차를 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
+      { label: '재산분할 비율은 어떻게 정해지나요', href: '/guide/divorce/property-division-ratio' },
+    ],
+  },
 ];

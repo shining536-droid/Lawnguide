@@ -526,4 +526,101 @@ export const duiPages: SpokePage[] = [
       { label: '음주운전 2회 적발 처벌 수위와 대응 방법', href: '/guide/dui/dui-second-offense-penalty' },
     ],
   },
+  {
+    domain: 'dui',
+    slug: 'dui-license-revocation-appeal',
+    keyword: '음주운전 면허취소 구제 방법과 행정심판',
+    questionKeyword: '음주운전으로 면허가 취소됐는데 구제받을 수 있나요?',
+    ctaKeyword: '면허취소 구제',
+    type: '상황형',
+    meta: {
+      title: '음주운전 면허취소 구제 방법과 행정심판 | 로앤가이드',
+      description: '음주운전 면허취소 후 행정심판, 행정소송, 생계형 면허 구제 방법과 이의신청 절차를 정리했습니다.',
+    },
+    intro: '음주운전으로 면허가 취소되었습니다. 출퇴근과 생업에 차가 꼭 필요한데 면허가 없으면 생계가 막막합니다. 혐의를 받고 있다면 면허취소 처분에 대한 구제 방법이 있는지, 행정심판이나 행정소송으로 다툴 수 있는지 확인해보세요.',
+    timelineSteps: ['면허취소 처분 확인', '행정심판 검토', '행정소송 검토', '결격기간 후 재취득'],
+    sections: [
+      {
+        title: '면허취소 처분에 불복할 수 있습니다 — 행정심판',
+        content:
+          '<p><strong style="color:#1e3a5f">면허취소 처분 통보를 받은 후 90일 이내에 행정심판을 청구할 수 있습니다</strong></p>\n<p>음주운전 면허취소는 <strong>행정처분</strong>입니다. 이 처분에 불복하려면 <strong>행정심판법</strong>에 따라 행정심판을 청구할 수 있습니다. 처분이 있음을 안 날로부터 <strong>90일 이내</strong>, 처분이 있은 날로부터 <strong>180일 이내</strong>에 청구해야 합니다.</p>\n<p>행정심판은 <strong>중앙행정심판위원회</strong> 또는 시·도 행정심판위원회에 청구합니다. 변호사 없이도 청구할 수 있으며, 비용도 <strong>무료</strong>입니다.</p>\n<p>행정심판에서는 처분의 <strong>위법·부당 여부</strong>를 다툽니다. 측정 절차의 하자, 혈중농도 경계값 문제, 생계 곤란 등이 쟁점이 될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 처분을 안 날로부터 90일 이내 | 청구처: 중앙행정심판위원회 | 비용: 무료</blockquote>',
+      },
+      {
+        title: '행정소송으로도 다툴 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">행정심판 결과에 불복하면 행정소송을 제기할 수 있습니다</strong></p>\n<p>행정심판이 기각되었거나, 행정심판을 거치지 않고 바로 <strong>행정소송</strong>을 제기할 수도 있습니다. 행정소송은 처분을 안 날로부터 <strong>90일 이내</strong>, 처분이 있은 날로부터 <strong>1년 이내</strong>에 관할 행정법원에 제기합니다.</p>\n<p>행정소송에서는 면허취소 처분의 <strong>재량권 일탈·남용</strong> 여부가 핵심 쟁점입니다. 처분이 지나치게 가혹하여 비례원칙에 반하는지, 측정 절차에 위법이 있는지 등을 다툴 수 있습니다.</p>\n<p>행정소송은 법리가 복잡하므로 <strong>변호사 상담</strong>을 받는 것이 좋습니다. 소송 비용(인지대, 송달료)이 발생합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">행정소송: 처분을 안 날로부터 90일 이내 | 쟁점: 재량권 일탈·남용, 비례원칙 위반</blockquote>',
+      },
+      {
+        title: '생계형 면허 구제를 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">운전이 생업에 필수적인 경우 구제 가능성이 높아집니다</strong></p>\n<p>행정심판에서 <strong>생계형 구제</strong>가 인정되는 경우가 있습니다. 택시, 화물, 대리운전, 영업직 등 <strong>운전이 생업에 직접적으로 필요</strong>한 경우 면허취소를 면허정지로 감경받을 수 있습니다.</p>\n<p>생계형 구제를 주장하려면 다음 자료를 준비하세요. ①<strong>재직증명서</strong> 또는 사업자등록증(운전이 필요한 직종), ②<strong>소득 증빙</strong>(급여명세서, 소득금액증명원), ③<strong>가족 부양 증빙</strong>(가족관계증명서, 부양가족 수), ④<strong>차량 필요성 소명서</strong>(대중교통 불편 등).</p>\n<p>단, <strong>혈중농도가 매우 높거나</strong>(0.2% 이상), <strong>사고를 수반</strong>한 경우, <strong>음주운전 전력</strong>이 있는 경우에는 생계형 구제가 어려울 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 재직증명서, 소득 증빙, 가족 부양 증빙, 차량 필요성 소명서 | 한계: 고농도·사고·전력 시 어려움</blockquote>',
+      },
+      {
+        title: '구제가 안 되면 결격기간 후 재취득을 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">결격기간이 지나면 면허를 다시 취득할 수 있습니다</strong></p>\n<p>행정심판이나 행정소송으로 구제받지 못하면 <strong>결격기간</strong>이 지난 후 면허를 재취득해야 합니다. 결격기간은 1회 위반 시 <strong>1년</strong>, 2회 <strong>2년</strong>, 3회 이상 <strong>3년</strong>입니다.</p>\n<p>재취득 절차: ①<strong>특별교통안전교육</strong> 수료(교통안전교육원), ②<strong>학과시험</strong>, ③<strong>기능시험</strong>, ④<strong>도로주행시험</strong> 순서로 진행합니다. 교육 수료는 시험 응시 전 필수입니다.</p>\n<p>결격기간 동안 <strong>절대 운전하지 마세요</strong>. 무면허 운전은 별도 형사처벌(1년 이하 징역/300만원 이하 벌금)을 받으며, 향후 면허 재취득에도 불이익이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">결격기간: 1회 1년, 2회 2년, 3회 이상 3년 | 재취득: 특별교육→학과→기능→도로주행</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '생계형 구제로 면허취소가 면허정지로 감경된 사례',
+        summary:
+          '관련 사례에서도 택시 운전을 생업으로 하는 사람이 혈중알코올농도 0.08%대에서 적발되어 면허취소 처분을 받았으나, 행정심판에서 운전이 유일한 생계 수단이고 부양가족이 있다는 점이 인정되어 면허정지 110일로 감경된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 운전이 생업에 필수적임을 증명할 재직증명서, 소득 증빙, 부양가족 자료를 확보하고 행정심판을 검토하세요.',
+      },
+      {
+        title: '측정 절차 하자를 이유로 면허취소가 취소된 사례',
+        summary:
+          '관련 사례에서도 경찰이 음주측정 시 호흡측정기의 유효기간이 경과했거나 측정 절차에 하자가 있었던 경우, 행정소송에서 면허취소 처분이 위법하다고 판단되어 취소된 사례가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 단속 당시 측정기 상태, 측정 횟수, 고지 절차 등을 구체적으로 기록해두고 변호사와 상담하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '행정심판은 누구나 청구할 수 있나요?',
+        answer: '면허취소 처분을 받은 <strong>본인</strong>이 청구할 수 있으며, 변호사 없이 직접 청구해도 됩니다.',
+      },
+      {
+        question: '행정심판 비용은 얼마인가요?',
+        answer: '행정심판 청구 자체는 <strong>무료</strong>입니다. 변호사를 선임하면 별도 비용이 발생합니다.',
+      },
+      {
+        question: '행정심판 기간은 얼마나 걸리나요?',
+        answer: '청구 후 통상 <strong>60~90일</strong> 이내에 재결이 나옵니다.',
+      },
+      {
+        question: '생계형 구제가 인정되면 면허를 바로 쓸 수 있나요?',
+        answer: '면허취소가 <strong>면허정지로 감경</strong>되면, 정지 기간 경과 후 바로 운전할 수 있습니다.',
+      },
+      {
+        question: '혈중농도가 높아도 구제가 되나요?',
+        answer: '0.2% 이상이거나 사고를 수반한 경우 <strong>구제가 어려울</strong> 수 있습니다. 변호사와 상담하세요.',
+      },
+      {
+        question: '행정심판 중에 운전해도 되나요?',
+        answer: '행정심판 중에도 면허취소 효력이 유지되므로 <strong>운전하면 무면허</strong>입니다. 집행정지 신청을 별도로 해야 합니다.',
+      },
+      {
+        question: '집행정지 신청이 뭔가요?',
+        answer: '행정심판이나 행정소송 진행 중 면허취소 처분의 <strong>효력을 일시 정지</strong>시키는 제도입니다. 인용되면 결과가 나올 때까지 운전이 가능합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 면허취소 상황에 맞는 구제 방법을 확인해보세요',
+      link: '/diagnosis/dui',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '음주운전 진단', href: '/diagnosis/dui' },
+      { label: '음주운전 적발 후 면허 취소 기준과 대응', href: '/guide/dui/dui-license-revocation' },
+      { label: '음주운전 초범 처벌 수준과 대응 방법', href: '/guide/dui/dui-first-offense' },
+      { label: '음주측정 거부 시 처벌과 불이익 총정리', href: '/guide/dui/breathalyzer-refusal-consequences' },
+    ],
+  },
 ];

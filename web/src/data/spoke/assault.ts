@@ -491,4 +491,209 @@ export const assaultPages: SpokePage[] = [
       { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
     ],
   },
+  {
+    domain: 'assault',
+    slug: 'mutual-assault-self-defense-distinction',
+    keyword: '쌍방폭행 시 처벌 기준과 정당방위 구분',
+    questionKeyword: '쌍방폭행 처벌 기준과 정당방위는 어떻게 다른가요?',
+    ctaKeyword: '쌍방폭행 정당방위',
+    type: '비교형',
+    meta: {
+      title: '쌍방폭행 시 처벌 기준과 정당방위 구분 | 로앤가이드',
+      description: '쌍방폭행 처벌 기준, 정당방위 인정 요건, 비교표, 증거 확보 방법을 정리했습니다.',
+    },
+    intro: '상대방과 시비가 붙어 서로 폭행이 있었습니다. 나는 먼저 맞았기 때문에 방어한 것인데 쌍방폭행으로 처리될 수 있다고 합니다. 쌍방폭행과 정당방위는 어떻게 구분되는지, 처벌 기준은 어떻게 다른지 확인해보세요.',
+    comparison: {
+      title: '쌍방폭행 vs 정당방위 비교표',
+      headers: ['구분', '쌍방폭행', '정당방위'],
+      rows: [
+        { label: '의미', values: ['쌍방 모두 공격 의사가 있는 폭행', '현재의 부당한 침해에 대한 방어행위'] },
+        { label: '법적 근거', values: ['형법 제260조(폭행죄) 각각 적용', '형법 제21조(위법성 조각)'] },
+        { label: '처벌', values: ['쌍방 모두 폭행죄/상해죄 성립 가능', '정당방위 인정 시 무죄'] },
+        { label: '핵심 판단 기준', values: ['서로 공격 의사가 있었는지', '선제 공격에 대한 방어 + 상당성'] },
+        { label: '합의 효과', values: ['폭행죄는 반의사불벌(합의 시 불기소)', '무죄이므로 합의 불필요'] },
+      ],
+    },
+    timelineSteps: ['처벌 기준 확인', '정당방위 요건 파악', '증거 확보', '경찰 조사 대응'],
+    sections: [
+      {
+        title: '쌍방폭행의 처벌 기준을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">쌍방폭행은 양쪽 모두 폭행죄가 성립합니다</strong></p>\n<p>쌍방폭행이란 <strong>양쪽 모두 공격 의사</strong>를 가지고 서로 때린 경우를 말합니다. 이 경우 양쪽 모두에게 <strong>폭행죄(형법 제260조)</strong>가 성립하며, 상해가 발생하면 <strong>상해죄(형법 제257조)</strong>로 격상됩니다.</p>\n<p>먼저 때린 쪽의 <strong>책임이 더 크게</strong> 인정됩니다. 다만 "먼저 맞았으니까 때려도 된다"는 것은 아닙니다. 나중에 때린 행위도 <strong>방어가 아닌 공격</strong>으로 판단되면 쌍방폭행이 됩니다. 양쪽 모두 고소·피고소인이 되는 상황이 발생합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">쌍방폭행: 양쪽 모두 폭행죄/상해죄 성립 | 먼저 때린 쪽 책임 더 큼</blockquote>',
+      },
+      {
+        title: '정당방위 인정 요건을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">현재의 부당한 침해에 대한 상당한 방어행위여야 합니다</strong></p>\n<p><strong>형법 제21조</strong>에 따라 정당방위가 인정되려면 ①<strong>현재의 부당한 침해</strong>가 존재하고, ②<strong>자기 또는 타인의 법익을 방어</strong>하기 위한 것이며, ③방어행위에 <strong>상당한 이유</strong>(비례성)가 있어야 합니다.</p>\n<p>실무에서 쌍방폭행과 정당방위를 가르는 핵심은 <strong>"반격이 방어 목적이었는지, 공격 목적이었는지"</strong>입니다. 밀치거나 잡아서 제지하는 수준은 방어로 인정될 수 있지만, 상대를 적극적으로 때리면 공격으로 판단됩니다. 공격이 끝난 후 반격하면 <strong>보복</strong>이므로 정당방위가 아닙니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정당방위 요건: ①현재의 침해 ②방어 목적 ③상당한 이유 | 공격 후 반격 = 보복(불인정)</blockquote>',
+      },
+      {
+        title: '정당방위를 주장하기 위한 증거를 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">상대방의 선제 공격과 내 방어 의사를 증명해야 합니다</strong></p>\n<p>정당방위를 주장하려면 ①<strong>상대방이 먼저 공격했음</strong>을 증명하는 증거(CCTV 영상이 가장 강력), ②<strong>목격자 진술</strong>(현장에서 연락처를 반드시 확보), ③<strong>112 신고 기록</strong>(내가 먼저 신고한 사실이 방어 의사를 뒷받침)이 핵심입니다.</p>\n<p>폭행 직후 <strong>본인의 부상 상태를 사진·동영상으로 기록</strong>하세요. 병원에서 <strong>진단서</strong>를 발급받아 상대방의 공격으로 인한 부상을 증명하는 것도 중요합니다. CCTV는 보통 <strong>30일</strong> 내에 덮어씌워지므로 경찰에 즉시 보존 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: CCTV 보존 요청 + 목격자 연락처 + 112 신고 기록 + 부상 사진·진단서</blockquote>',
+      },
+      {
+        title: '경찰 조사에서의 대응 전략을 세우세요',
+        content:
+          '<p><strong style="color:#1e3a5f">일관되게 방어 의사를 주장하고 변호사와 상담하세요</strong></p>\n<p>경찰 조사에서 <strong>첫 진술</strong>이 수사 방향을 결정합니다. 정당방위를 주장할 것이라면 ①<strong>"상대방이 먼저 때렸다"</strong>, ②<strong>"나는 방어만 했다"</strong>, ③<strong>"다른 방법이 없었다"</strong>는 점을 일관되게 진술하세요.</p>\n<p>쌍방폭행으로 처리되더라도 <strong>먼저 고소한 쪽이 유리</strong>할 수 있습니다. 피해 사실이 있으면 <strong>즉시 고소</strong>하세요. 상대방이 합의를 제안하면 합의금 수준과 처벌불원서 교환을 검토하되, <strong>변호사와 상의 후</strong> 결정하는 것이 안전합니다. 폭행죄는 <strong>반의사불벌죄</strong>이므로 합의 시 공소가 기각됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 일관된 진술 + 먼저 고소 + 변호사 상담 | 폭행죄 합의 시 공소기각</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: 'CCTV로 선제 공격이 확인되어 정당방위가 인정된 사례',
+        summary:
+          '관련 사례에서도 편의점 앞에서 시비가 붙어 쌍방폭행으로 신고되었으나, CCTV에 상대방이 먼저 주먹을 휘두르는 장면이 촬영되어 피고인의 밀쳐 방어한 행위가 정당방위로 인정된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 현장 CCTV를 즉시 확인하고 경찰에 보존 요청하세요.',
+      },
+      {
+        title: '반격이 과도하여 쌍방폭행으로 처리된 사례',
+        summary:
+          '관련 사례에서도 상대방의 주먹 한 대에 대해 수 차례 주먹과 발로 반격한 피고인에게, 방어행위의 상당성을 초과했다고 판단되어 쌍방 모두 폭행죄가 적용된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 방어 시 밀치기, 잡기 등 최소한의 방법을 사용하고 즉시 경찰에 신고하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '쌍방폭행이면 둘 다 처벌받나요?',
+        answer: '양쪽 모두 <strong>폭행죄</strong>가 성립할 수 있습니다. 다만 합의 시 반의사불벌죄 특성상 불기소될 수 있습니다.',
+      },
+      {
+        question: '먼저 맞았으면 정당방위 아닌가요?',
+        answer: '먼저 맞았다는 것만으로 정당방위가 되지는 않습니다. <strong>방어 목적과 상당성</strong>이 함께 인정되어야 합니다.',
+      },
+      {
+        question: '쌍방폭행에서 먼저 때린 쪽이 더 불리한가요?',
+        answer: '네, 선제 공격자의 <strong>책임이 더 크게</strong> 인정되며 양형에서 불리합니다.',
+      },
+      {
+        question: '쌍방폭행으로 합의하면 전과가 안 남나요?',
+        answer: '기소 전 합의로 <strong>불기소 처분</strong>을 받으면 전과 기록이 남지 않습니다.',
+      },
+      {
+        question: '상해가 발생한 쌍방폭행은 어떻게 되나요?',
+        answer: '상해죄는 <strong>반의사불벌죄가 아니므로</strong> 합의해도 기소될 수 있습니다. 양형에 유리하게 참작됩니다.',
+      },
+      {
+        question: '과잉방위란 무엇인가요?',
+        answer: '정당방위의 <strong>상당성을 초과</strong>한 경우입니다. 형이 감경되며, 야간·공포 상태면 면제될 수 있습니다.',
+      },
+      {
+        question: '쌍방폭행 사건에서 먼저 고소하는 게 유리한가요?',
+        answer: '실무적으로 <strong>먼저 고소한 쪽이 피해자로 인식</strong>되는 경향이 있어 유리할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 범죄피해자지원센터(1577-1295)를 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 쌍방폭행 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/assault',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '폭행 진단', href: '/diagnosis/assault' },
+      { label: '정당방위 인정 기준과 준비 포인트', href: '/guide/assault/self-defense-criteria' },
+      { label: '폭행 피해 증거 모으는 법', href: '/guide/assault/assault-evidence-collection' },
+      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/injury-vs-assault-penalty' },
+    ],
+  },
+  {
+    domain: 'assault',
+    slug: 'injury-settlement-calculation',
+    keyword: '상해죄 합의금 산정 기준과 합의 절차',
+    questionKeyword: '상해죄 합의금은 얼마나 되고 합의는 어떻게 하나요?',
+    ctaKeyword: '상해죄 합의',
+    type: '수치기한형',
+    meta: {
+      title: '상해죄 합의금 산정 기준과 합의 절차 | 로앤가이드',
+      description: '상해죄 합의금 산정 기준(치료비, 위자료, 일실수입), 합의 절차, 합의서 작성법을 정리했습니다.',
+    },
+    intro: '시비 끝에 상대방을 때려 상해를 입혔습니다. 진단서가 나왔고 상해죄로 고소당한 상황입니다. 합의금이 얼마 정도이고 어떻게 합의를 진행해야 하는지 막막합니다. 혐의를 받고 있다면 아래 내용을 먼저 확인해보세요.',
+    timelineSteps: ['합의금 산정 기준', '합의 절차 진행', '합의서 작성', '양형 자료 제출'],
+    sections: [
+      {
+        title: '상해죄 합의금 산정 기준을 확인하세요 — 치료비, 위자료, 일실수입',
+        content:
+          '<p><strong style="color:#1e3a5f">치료비 + 위자료 + 일실수입이 합의금의 기본 구조입니다</strong></p>\n<p>상해죄 합의금은 ①<strong>치료비</strong>(실제 발생한 의료비 전액 + 향후 치료비), ②<strong>위자료</strong>(정신적 피해에 대한 보상), ③<strong>일실수입</strong>(치료 기간 동안 일하지 못한 수입 손실)의 합산으로 산정됩니다.</p>\n<p>경미한 상해(진단 <strong>2~3주</strong>)는 <strong>300만~700만원</strong>, 중등도 상해(진단 <strong>4~8주</strong>)는 <strong>700만~2,000만원</strong>, 중상해(진단 <strong>8주 이상</strong> 또는 후유장해)는 <strong>2,000만원 이상</strong>이 실무 참고 범위입니다. 피해자의 직업, 나이, 부상 부위에 따라 크게 달라질 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">참고 범위: 2~3주 300만~700만원 | 4~8주 700만~2,000만원 | 8주+ 2,000만원 이상</blockquote>',
+      },
+      {
+        title: '상해죄는 반의사불벌죄가 아닙니다 — 합의의 실질적 효과',
+        content:
+          '<p><strong style="color:#1e3a5f">합의해도 기소될 수 있지만 양형에 결정적 영향을 미칩니다</strong></p>\n<p><strong>상해죄(형법 제257조)</strong>는 반의사불벌죄가 아닙니다. 폭행죄와 달리 피해자와 합의하더라도 <strong>검찰이 기소할 수 있습니다</strong>. 그러나 실무에서 합의는 양형에 <strong>가장 큰 감경 요소</strong>로 작용합니다.</p>\n<p>피해자에게 치료비를 전액 배상하고 합의한 초범은 ①검찰 단계에서 <strong>기소유예</strong> 가능성이 있고, ②재판에서는 <strong>벌금형이나 집행유예</strong>를 받을 가능성이 높습니다. 합의 없이 재판에 가면 <strong>징역 실형</strong>까지 선고될 수 있으므로 합의 노력은 필수입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 상해죄 합의 → 기소유예/벌금/집행유예 가능 | 합의 없으면 실형 가능</blockquote>',
+      },
+      {
+        title: '합의서 작성 시 반드시 포함해야 할 내용',
+        content:
+          '<p><strong style="color:#1e3a5f">합의금, 처벌불원, 추가 청구 포기, 향후 치료비 조항을 명시하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액과 지급 방법</strong>(일시불 또는 분할), ②피해자의 <strong>"처벌불원" 의사</strong>(처벌불원서 별도 작성), ③<strong>민·형사상 추가 청구 포기</strong> 문구, ④<strong>향후 치료비 처리 조항</strong>을 반드시 포함하세요.</p>\n<p>향후 치료비 조항은 양쪽 모두에게 중요합니다. "향후 치료비는 가해자가 추가 부담한다" 또는 "합의금에 향후 치료비가 포함되어 있다"를 <strong>명확히 기재</strong>해야 나중에 분쟁이 없습니다. 합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 포함: 합의금 + 처벌불원 + 추가 청구 포기 + 향후 치료비 조항 + 공증 권장</blockquote>',
+      },
+      {
+        title: '합의 절차와 양형 자료 제출을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">기소 전 합의가 가장 유리하고, 변호사를 통한 교섭이 효과적입니다</strong></p>\n<p>합의 시기는 <strong>빠를수록 유리</strong>합니다. 기소 전에 합의하면 기소유예 가능성이 있고, 기소 후에도 재판 전 합의하면 양형에 크게 반영됩니다. 피해자와 직접 연락이 어렵거나 감정이 격해진 상태라면 <strong>변호사를 통한 합의 교섭</strong>이 효과적입니다.</p>\n<p>합의 후에는 ①<strong>합의서 사본</strong>, ②<strong>처벌불원서</strong>, ③<strong>반성문</strong>, ④<strong>탄원서</strong>(가족, 지인 등이 작성)를 수사기관 또는 법원에 양형 자료로 제출하세요. 피해자가 합의를 거부하는 경우 <strong>공탁</strong>(법원에 치료비 등을 맡기는 절차)으로 배상 의사를 증명할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: 변호사 교섭 → 합의서·처벌불원서 확보 → 양형 자료 제출 | 거부 시 공탁</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '전액 배상 후 기소유예를 받은 사례',
+        summary:
+          '관련 사례에서도 상해죄(진단 3주) 초범 피의자가 치료비와 위자료를 포함하여 500만원을 전액 배상하고 처벌불원서를 확보한 뒤, 반성문을 제출하여 검찰에서 기소유예 처분을 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 치료비를 포함한 합의금을 빠르게 제시하고 처벌불원서를 확보하세요.',
+      },
+      {
+        title: '합의 없이 재판에서 징역형이 선고된 사례',
+        summary:
+          '관련 사례에서도 상해죄(진단 6주)에서 피해자와 합의에 실패하고 피해 배상도 이루어지지 않은 상태로 재판에 넘겨져, 징역 8월의 실형이 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 전액 합의가 어렵더라도 일부라도 배상하고 공탁을 활용하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '상해죄 합의금에 정해진 기준이 있나요?',
+        answer: '법적으로 정해진 기준은 없습니다. <strong>치료비, 위자료, 일실수입</strong>을 합산하여 산정하되 피해 정도에 따라 달라집니다.',
+      },
+      {
+        question: '합의하면 전과 기록이 안 남나요?',
+        answer: '기소유예를 받으면 <strong>전과 기록이 남지 않습니다</strong>. 기소 후 합의하면 양형에 유리하나 유죄 판결 시 전과가 됩니다.',
+      },
+      {
+        question: '피해자가 터무니없는 합의금을 요구하면요?',
+        answer: '<strong>변호사를 통해 적정 금액을 협상</strong>하세요. 합의가 안 되면 공탁으로 배상 의사를 증명할 수 있습니다.',
+      },
+      {
+        question: '분할로 합의금을 낼 수 있나요?',
+        answer: '피해자가 동의하면 <strong>분할 배상</strong>도 가능합니다. 합의서에 분할 일정과 불이행 시 조건을 명시하세요.',
+      },
+      {
+        question: '공탁이란 무엇인가요?',
+        answer: '<strong>법원에 배상금을 맡기는 절차</strong>입니다. 피해자가 합의를 거부해도 배상 의사를 증명할 수 있어 양형에 유리합니다.',
+      },
+      {
+        question: '상해죄의 처벌 수위는 어느 정도인가요?',
+        answer: '<strong>7년 이하 징역, 10년 이하 자격정지, 1,000만원 이하 벌금</strong>입니다. 중상해는 가중처벌됩니다.',
+      },
+      {
+        question: '향후 치료비는 합의금에 포함시켜야 하나요?',
+        answer: '합의서에 <strong>향후 치료비 처리 방법</strong>을 명확히 기재해야 합니다. 미기재 시 추가 청구 분쟁이 발생할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 상해 혐의 상황에 맞는 합의 전략을 확인해보세요',
+      link: '/diagnosis/assault',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '폭행 진단', href: '/diagnosis/assault' },
+      { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
+      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/injury-vs-assault-penalty' },
+      { label: '사기죄 처벌 수위와 합의 시 감형 범위', href: '/guide/fraud/fraud-penalty-settlement-reduction' },
+    ],
+  },
 ];

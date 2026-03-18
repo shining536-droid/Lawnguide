@@ -318,4 +318,198 @@ export const sexCrimePages: SpokePage[] = [
       { label: '스토킹 즉시 대응법', href: '/guide/stalking/stalking-immediate-response' },
     ],
   },
+  {
+    domain: 'sex-crime',
+    slug: 'forced-groping-evidence-lawsuit',
+    keyword: '강제추행 피해 증거 확보와 고소 절차',
+    questionKeyword: '강제추행을 당했는데 어떤 증거를 확보하고 어떻게 고소하나요?',
+    ctaKeyword: '강제추행 고소',
+    type: '절차형',
+    meta: {
+      title: '강제추행 피해 증거 확보와 고소 절차 | 로앤가이드',
+      description: '강제추행 피해 시 CCTV, 진술, 카톡 등 증거 수집 방법과 고소 절차, 형법 제298조 처벌 수위를 정리했습니다.',
+    },
+    intro: '모르는 사람에게 갑자기 추행을 당했습니다. 너무 놀라서 바로 반응하지 못했는데, 지금이라도 신고하려고 합니다. 어떤 증거를 모아야 하고 고소 절차는 어떻게 되는지 막막합니다. 지금 할 수 있는 것부터 정리해보세요.',
+    timelineSteps: ['즉시 증거 확보', '경찰 신고·고소', '수사 진행·진술', '재판·피해자 보호'],
+    sections: [
+      {
+        title: '추행 직후 모든 증거를 즉시 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">CCTV, 목격자, 카톡 기록을 지금 바로 확보하세요</strong></p>\n<p>강제추행 피해를 입었다면 가장 먼저 <strong>현장 주변 CCTV</strong>를 확인하세요. CCTV는 보통 <strong>30일</strong> 내에 덮어씌워지므로 빠른 확인이 필수입니다. 경찰에 CCTV 보존 요청을 하면 덮어쓰기를 방지할 수 있습니다.</p>\n<p><strong>목격자</strong>가 있으면 연락처를 반드시 받아두세요. 범행 직후 가해자에게 보낸 <strong>문자·카카오톡</strong> 메시지, 지인에게 피해 사실을 알린 기록도 증거가 됩니다. 당시 입고 있던 <strong>의류</strong>는 세탁하지 말고 보관하세요. DNA 등 증거가 남아 있을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시 확보: CCTV 보존 요청, 목격자 연락처, 문자·카톡 기록, 의류 보관</blockquote>',
+      },
+      {
+        title: '경찰에 신고하고 고소장을 제출하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">112 신고 후 고소장을 제출하면 수사가 시작됩니다</strong></p>\n<p>강제추행은 <strong>형법 제298조</strong>에 해당하며, <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 처해집니다. 112에 신고하거나 관할 경찰서에 고소장을 제출하세요. 고소장에는 ①<strong>피해 일시와 장소</strong>, ②<strong>가해자 인상착의 또는 신원</strong>, ③<strong>피해 경위</strong>, ④<strong>증거 목록</strong>을 기재합니다.</p>\n<p>가해자를 모르더라도 <strong>"성명불상"</strong>으로 고소가 가능합니다. CCTV와 목격자 진술로 수사기관이 가해자를 특정합니다. 신고 시 <strong>여성 경찰관 요청</strong>이 가능하며, <strong>해바라기센터</strong>(1899-3075)에서 동행 지원도 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">처벌: 형법 제298조, 10년/1,500만원 | 신고: 112 또는 경찰서 고소장 제출</blockquote>',
+      },
+      {
+        title: '수사 과정에서 진술 준비를 하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">진술 전에 피해 경위를 시간 순서대로 정리하세요</strong></p>\n<p>경찰 조사 시 피해 경위를 <strong>시간 순서대로 구체적으로</strong> 진술해야 합니다. 사전에 ①<strong>만난 경위</strong>, ②<strong>추행 행위의 구체적 내용</strong>(신체 부위, 방법), ③<strong>당시 반응</strong>(거부 의사 표시, 도망 등), ④<strong>추행 후 상황</strong>을 정리해두세요.</p>\n<p>진술 시 <strong>국선변호사</strong>의 동석을 요청할 수 있습니다. 성폭력 피해자는 <strong>성폭력범죄의 처벌 등에 관한 특례법 제27조</strong>에 따라 소득과 관계없이 국선변호사를 선정받을 수 있습니다. 비용은 <strong>국가 부담</strong>입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">진술 준비: 시간순 경위 정리 | 국선변호사 동석 요청(무료, 성폭력처벌법 제27조)</blockquote>',
+      },
+      {
+        title: '재판 과정과 피해자 보호 제도를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">비공개 재판, 증인 보호, 배상 명령을 활용하세요</strong></p>\n<p>재판 단계에서 피해자는 ①<strong>비공개 재판</strong>을 요청할 수 있고, ②<strong>영상 진술</strong>(법정에 직접 출석하지 않고 영상으로 증언)도 가능합니다. 국선변호사가 이 절차를 대리합니다.</p>\n<p>가해자에게 유죄가 선고되면 <strong>배상 명령</strong>(재판부가 가해자에게 손해배상을 명령)을 신청할 수 있습니다. 별도 민사소송 없이 형사재판에서 치료비와 위자료를 받을 수 있어 편리합니다. 가해자의 <strong>접근 금지</strong>를 위해 <strong>피해자 보호명령</strong>도 신청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">피해자 보호: 비공개 재판 + 영상 진술 + 배상 명령 + 접근 금지 보호명령</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: 'CCTV 영상으로 강제추행이 입증된 사례',
+        summary:
+          '관련 사례에서도 지하철역 CCTV에 가해자가 피해자의 신체를 만지는 장면이 촬영되어, 가해자가 부인했음에도 강제추행죄가 인정되어 징역 10월에 집행유예 2년이 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 현장 CCTV를 즉시 확인하고 경찰에 보존 요청하세요.',
+      },
+      {
+        title: '피해 직후 지인에게 보낸 카톡이 증거로 채택된 사례',
+        summary:
+          '관련 사례에서도 피해자가 추행 직후 친구에게 "방금 추행당했다"고 보낸 카카오톡 메시지가 피해 사실의 정황 증거로 채택되어, 가해자의 무죄 주장이 배척된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 피해 직후 신뢰할 수 있는 지인에게 피해 사실을 문자나 카톡으로 알려두세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '강제추행의 처벌 수위는 어느 정도인가요?',
+        answer: '<strong>형법 제298조</strong>에 따라 10년 이하 징역 또는 1,500만원 이하 벌금입니다.',
+      },
+      {
+        question: '가해자를 모르는데 고소할 수 있나요?',
+        answer: '<strong>"성명불상"</strong>으로 고소가 가능합니다. CCTV와 목격자 진술로 수사기관이 특정합니다.',
+      },
+      {
+        question: '강제추행의 공소시효는 얼마인가요?',
+        answer: '강제추행죄의 공소시효는 <strong>10년</strong>입니다. DNA 증거가 있으면 시효가 연장되는 경우도 있습니다.',
+      },
+      {
+        question: '국선변호사는 무료인가요?',
+        answer: '네, 성폭력 피해자 국선변호사는 <strong>소득과 관계없이 무료</strong>입니다. 비용은 국가가 부담합니다.',
+      },
+      {
+        question: '피해자 진술만으로 유죄가 되나요?',
+        answer: '피해자 진술의 <strong>신빙성이 인정</strong>되면 그 자체로 유죄 인정이 가능합니다. 다만 보강 증거가 있으면 더 유리합니다.',
+      },
+      {
+        question: '합의 요구를 받았는데 응해야 하나요?',
+        answer: '합의 여부는 <strong>피해자의 자유로운 선택</strong>입니다. 합의 강요는 2차 가해에 해당할 수 있습니다.',
+      },
+      {
+        question: '가해자의 접근을 막을 수 있나요?',
+        answer: '<strong>피해자 보호명령</strong>을 신청하면 접근 금지, 전기통신 접근 금지 등을 법원에 요청할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>해바라기센터</strong>(1899-3075), 대한법률구조공단(132), 여성긴급전화(1366)를 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 강제추행 피해 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/sex-crime',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
+      { label: '성폭력 피해자 국선변호사 신청 방법', href: '/guide/sex-crime/sexual-assault-public-defender' },
+      { label: '성추행 혐의 대응', href: '/guide/sex-crime/groping-accused-response' },
+      { label: '스토킹 즉시 대응법', href: '/guide/stalking/stalking-immediate-response' },
+    ],
+  },
+  {
+    domain: 'sex-crime',
+    slug: 'sex-crime-first-offense-response',
+    keyword: '성범죄 초범 처벌 수위와 대응 방법',
+    questionKeyword: '성범죄 초범인데 처벌 수위와 대응 방법이 궁금합니다',
+    ctaKeyword: '성범죄 초범 대응',
+    type: '수치기한형',
+    meta: {
+      title: '성범죄 초범 처벌 수위와 대응 방법 | 로앤가이드',
+      description: '성범죄 초범의 양형 기준, 신상정보 등록, 수강명령, 변호사 선임 중요성을 정리했습니다.',
+    },
+    intro: '성범죄 혐의로 처음 경찰 출석 요구를 받았습니다. 초범이면 처벌이 가벼운지, 신상등록이 되는지, 어떻게 대응해야 하는지 알 수 없어 불안합니다. 혐의를 받고 있다면 초범이라도 반드시 확인해야 할 사항을 정리해보세요.',
+    timelineSteps: ['처벌 수위 확인', '부수 처분 파악', '변호사 선임', '진술·합의 대응'],
+    sections: [
+      {
+        title: '성범죄 초범 처벌 수위를 확인하세요 — 유형별 양형 기준',
+        content:
+          '<p><strong style="color:#1e3a5f">초범이라도 성범죄 유형에 따라 징역형이 선고될 수 있습니다</strong></p>\n<p>성범죄의 처벌 수위는 유형에 따라 다릅니다. <strong>강제추행</strong>(형법 제298조)은 <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>, <strong>카메라등이용촬영</strong>(성폭력처벌법 제14조)은 <strong>7년 이하 징역 또는 5,000만원 이하 벌금</strong>, <strong>통신매체이용음란</strong>(성폭력처벌법 제13조)은 <strong>2년 이하 징역 또는 2,000만원 이하 벌금</strong>입니다.</p>\n<p>대법원 양형위원회 기준에서 초범은 <strong>감경 요소</strong>로 작용합니다. 강제추행 초범의 경우 권고 형량은 <strong>벌금~징역 1년6월</strong>(감경 영역)이며, 합의가 이루어지면 <strong>벌금형이나 집행유예</strong>로 마무리되는 경우가 많습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">초범 양형: 강제추행 벌금~1년6월 | 카메라촬영 벌금~1년 | 통신매체음란 벌금~10월</blockquote>',
+      },
+      {
+        title: '신상정보 등록과 수강명령 — 초범도 예외가 아닙니다',
+        content:
+          '<p><strong style="color:#1e3a5f">유죄 판결 시 초범이라도 신상정보 등록과 수강명령이 부과됩니다</strong></p>\n<p>성범죄로 유죄 판결(벌금형 포함)을 받으면 <strong>성범죄자 신상정보 등록</strong> 대상이 됩니다. 등록 기간은 형량에 따라 <strong>20년(징역 3년 초과)</strong>, <strong>15년(3년 이하)</strong>, <strong>10년(벌금)</strong>으로 구분됩니다. 기간 중 <strong>매년 정보 갱신</strong>이 의무입니다.</p>\n<p><strong>성폭력 치료 프로그램 수강명령</strong>(최대 500시간)과 <strong>취업제한 명령</strong>(아동·청소년 관련 기관, 최대 10년)도 함께 부과됩니다. 초범이라도 이러한 부수 처분은 <strong>자동으로 부과</strong>되므로 반드시 인지하고 있어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">부수 처분: 신상등록 10~20년 + 수강명령 최대 500시간 + 취업제한 최대 10년</blockquote>',
+      },
+      {
+        title: '변호사 선임이 왜 중요한지 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">초범일수록 첫 대응이 결과를 결정합니다</strong></p>\n<p>성범죄는 첫 경찰 진술이 수사와 재판 전체를 좌우합니다. <strong>변호사 없이 한 최초 진술</strong>이 불리하게 작용하여 벌금형으로 끝날 사안이 징역형이 되는 경우가 실무에서 빈번합니다. 초범이라도 <strong>반드시 첫 조사 전에 변호사를 선임</strong>하세요.</p>\n<p>변호사는 ①<strong>사안 분석과 방어 전략 수립</strong>, ②<strong>경찰 조사 동석</strong>(부당한 질문 대응), ③<strong>합의 협상 대리</strong>(직접 연락은 2차 가해로 간주), ④<strong>양형 의견서·반성문 작성</strong>을 지원합니다. 경제적 여건이 어려우면 <strong>국선변호인</strong> 신청이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 첫 조사 전 변호사 선임 → 진술 전략 수립 → 합의 대리 → 양형 자료 준비</blockquote>',
+      },
+      {
+        title: '진술 준비와 합의 전략을 세우세요',
+        content:
+          '<p><strong style="color:#1e3a5f">일관된 진술과 진정성 있는 합의 노력이 양형의 핵심입니다</strong></p>\n<p>경찰 조사 시 ①<strong>기억나지 않는 부분은 추측하지 마세요</strong>. "기억이 불분명합니다"라고 답하는 것이 안전합니다. ②<strong>모든 질문에 답변할 의무는 없으며</strong> 묵비권을 행사할 수 있습니다. ③변호사와 사전에 정리한 내용을 벗어나는 질문에는 신중하게 대응하세요.</p>\n<p>합의를 진행할 때는 반드시 <strong>변호사를 통해 연락</strong>하세요. 피해자에게 직접 연락하면 <strong>2차 가해</strong>로 간주되어 오히려 불리해집니다. 합의서에는 <strong>처벌불원 의사</strong>를 포함시키고, <strong>반성문</strong>과 <strong>재발 방지 서약서</strong>를 양형 자료로 법원에 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">진술: 추측 금지, 묵비권 가능 | 합의: 변호사 통해 연락 + 반성문·서약서 제출</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '초범 강제추행에서 합의 후 벌금형을 받은 사례',
+        summary:
+          '관련 사례에서도 강제추행 초범 피의자가 변호사를 통해 피해자와 합의하고 처벌불원서를 확보한 뒤, 반성문과 재발 방지 서약서를 제출하여 벌금 500만원으로 마무리된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 변호사를 통해 합의를 진행하고 반성문 등 양형 자료를 충분히 준비하세요.',
+      },
+      {
+        title: '변호사 없이 진술하여 징역형이 선고된 사례',
+        summary:
+          '관련 사례에서도 초범 피의자가 변호사 없이 경찰 조사에 출석하여 "장난이었다"고 진술한 것이 반성 없는 태도로 평가되어, 벌금형이 가능했던 사안에서 징역 8월에 집행유예 2년이 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 반드시 변호사와 상담한 후 진술 방향을 정하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '성범죄 초범이면 벌금형으로 끝나나요?',
+        answer: '초범은 <strong>감경 요소</strong>이지만 사안에 따라 징역형이 선고될 수 있습니다. 유형과 피해 정도에 따라 달라집니다.',
+      },
+      {
+        question: '벌금형이어도 신상정보 등록이 되나요?',
+        answer: '네, <strong>벌금형을 포함한 모든 유죄 판결</strong> 시 신상정보 등록 대상이 됩니다.',
+      },
+      {
+        question: '수강명령은 어디서 받나요?',
+        answer: '<strong>보호관찰소</strong>에서 성폭력 치료 프로그램을 이수합니다. 판결에서 시간이 지정됩니다.',
+      },
+      {
+        question: '합의하면 신상등록을 피할 수 있나요?',
+        answer: '합의로 <strong>기소유예</strong>를 받으면 유죄 판결이 아니므로 신상등록 대상이 아닙니다. 기소 후에는 무죄가 아닌 한 등록됩니다.',
+      },
+      {
+        question: '직장에 알려지나요?',
+        answer: '수사 단계에서는 <strong>통보 의무가 없습니다</strong>. 다만 유죄 확정 시 취업제한 대상 기관에 재직 중이면 알려질 수 있습니다.',
+      },
+      {
+        question: '국선변호인은 어떻게 신청하나요?',
+        answer: '경제적 사유로 변호인을 선임할 수 없으면 <strong>법원에 국선변호인 신청</strong>이 가능합니다.',
+      },
+      {
+        question: '기소유예를 받으면 전과 기록이 남나요?',
+        answer: '<strong>기소유예는 전과 기록이 남지 않습니다</strong>. 다만 수사 경력 조회에는 남을 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132), 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 성범죄 혐의 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/sex-crime',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
+      { label: '성추행 혐의 대응 방법과 합의 절차', href: '/guide/sex-crime/groping-accused-response' },
+      { label: '성범죄 무고 반대고소', href: '/guide/sex-crime/sex-crime-false-accusation-counter' },
+      { label: '사기 고소당했는데 합의하면 처벌 안 받나요', href: '/guide/fraud/fraud-accused-settlement-penalty' },
+    ],
+  },
 ];

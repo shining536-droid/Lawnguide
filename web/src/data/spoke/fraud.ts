@@ -580,4 +580,198 @@ export const fraudPages: SpokePage[] = [
       { label: '개인파산 가이드', href: '/guide/bankruptcy' },
     ],
   },
+  {
+    domain: 'fraud',
+    slug: 'fraud-penalty-settlement-reduction',
+    keyword: '사기죄 처벌 수위와 합의 시 감형 범위',
+    questionKeyword: '사기죄로 고소당했는데 합의하면 얼마나 감형되나요?',
+    ctaKeyword: '사기죄 합의 감형',
+    type: '수치기한형',
+    meta: {
+      title: '사기죄 처벌 수위와 합의 시 감형 범위 | 로앤가이드',
+      description: '사기죄 처벌 수위(형법 제347조), 양형 기준, 합의 시 감형 범위, 합의서 작성 요령을 정리했습니다.',
+    },
+    intro: '거래 상대방에게 사기죄로 고소당했습니다. 의도적으로 속인 것은 아니었지만 결과적으로 피해가 발생해 형사 절차가 진행되고 있습니다. 처벌 수위가 어느 정도이고 합의하면 얼마나 감형되는지 궁금합니다. 혐의를 받고 있다면 아래 내용을 먼저 확인해보세요.',
+    timelineSteps: ['처벌 수위 확인', '양형 기준 파악', '합의 절차 진행', '합의서 작성·제출'],
+    sections: [
+      {
+        title: '사기죄 처벌 수위를 먼저 확인하세요 — 형법 제347조',
+        content:
+          '<p><strong style="color:#1e3a5f">사기죄는 10년 이하 징역 또는 2,000만원 이하 벌금입니다</strong></p>\n<p><strong>형법 제347조</strong>에 따라 사람을 기망하여 재물의 교부를 받거나 재산상의 이익을 취득한 자는 <strong>10년 이하 징역 또는 2,000만원 이하 벌금</strong>에 처해집니다. 상습범은 <strong>형법 제351조</strong>에 의해 형의 2분의 1까지 가중됩니다.</p>\n<p>특정경제범죄가중처벌법이 적용되는 경우 피해 금액에 따라 처벌이 더 무거워집니다. 피해 금액 <strong>5억원 이상</strong>이면 3년 이상 징역, <strong>50억원 이상</strong>이면 무기 또는 5년 이상 징역에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">처벌 수위: 일반 사기 10년/2,000만원 | 5억 이상 3년 이상 | 50억 이상 5년 이상</blockquote>',
+      },
+      {
+        title: '양형 기준을 파악하세요 — 감경·가중 요소',
+        content:
+          '<p><strong style="color:#1e3a5f">대법원 양형위원회 기준이 실제 형량을 결정합니다</strong></p>\n<p><strong>대법원 양형위원회</strong>는 사기죄의 양형 기준을 피해 금액별로 구분합니다. 일반 사기(1억원 미만)는 기본 <strong>6월~1년6월</strong>, 감경 시 <strong>벌금~10월</strong>이 권고 범위입니다. 1억원 이상~5억원 미만은 기본 <strong>1년~3년</strong>으로 올라갑니다.</p>\n<p>감경 요소에는 ①<strong>피해 회복(합의)</strong>, ②<strong>초범</strong>, ③<strong>진지한 반성</strong>, ④범행 가담 정도가 경미한 경우가 포함됩니다. 가중 요소로는 ①<strong>동종 전과</strong>, ②<strong>피해 다수</strong>, ③<strong>계획적 범행</strong> 등이 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감경 요소: 피해 회복(합의), 초범, 진지한 반성 | 가중 요소: 동종 전과, 피해 다수</blockquote>',
+      },
+      {
+        title: '합의 시 감형 범위를 확인하세요 — 기소유예부터 집행유예까지',
+        content:
+          '<p><strong style="color:#1e3a5f">합의 여부가 실형과 집행유예를 가르는 핵심입니다</strong></p>\n<p>사기죄에서 피해자와 합의가 이루어지면 ①검찰 단계에서 <strong>기소유예</strong>(전과 기록 없음) 처분이 가능하고, ②재판 단계에서는 <strong>형의 감경</strong> 또는 <strong>집행유예</strong> 선고 가능성이 크게 높아집니다. 실무에서 피해 전액 변제 후 합의한 초범은 <strong>기소유예율이 70% 이상</strong>으로 알려져 있습니다.</p>\n<p>피해 금액이 <strong>1,000만원 이하</strong>이고 전액 변제 + 처벌불원서를 확보하면 기소유예 가능성이 높습니다. <strong>1,000만원~5,000만원</strong> 구간은 합의 시 약식기소(벌금형)나 집행유예가 많습니다. 합의 없이 재판에 가면 <strong>실형 선고</strong> 가능성이 있으므로 합의 노력은 반드시 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감형 범위: 전액 변제+합의 → 기소유예/벌금형/집행유예 | 합의 없으면 실형 가능</blockquote>',
+      },
+      {
+        title: '합의서 작성 요령과 제출 절차를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">합의서에 처벌불원 의사와 금액을 명확히 기재하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액</strong>과 지급 방법(일시불 또는 분할), ②피해자의 <strong>"고소 취소 및 처벌불원" 의사</strong>, ③<strong>민·형사상 추가 청구 포기</strong> 문구를 반드시 포함하세요. 합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다.</p>\n<p>합의 후 피해자가 직접 수사기관(경찰 또는 검찰)에 <strong>고소 취소서</strong>와 <strong>처벌불원서</strong>를 제출해야 합니다. 피해자가 합의를 거부하는 경우 <strong>공탁</strong>(법원에 변제금을 맡기는 절차)으로 변제 의사를 증명할 수 있습니다. 공탁 사실은 양형에서 유리하게 참작됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수: 금액 + 처벌불원 + 추가 청구 포기 | 거부 시 공탁 활용</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '피해 전액 변제 후 기소유예를 받은 사례',
+        summary:
+          '관련 사례에서도 사기 혐의를 받은 피의자가 피해자에게 피해 금액 1,500만원을 전액 변제하고 합의서와 처벌불원서를 확보하여, 검찰에서 기소유예 처분을 받아 전과 기록 없이 마무리된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 가능한 한 빨리 피해 금액을 전액 변제하고 처벌불원서를 확보하세요.',
+      },
+      {
+        title: '합의 없이 재판에서 실형이 선고된 사례',
+        summary:
+          '관련 사례에서도 피해 금액이 3,000만원이고 동종 전과가 있는 피의자가 피해자와 합의에 실패하여, 재판에서 징역 1년6월의 실형이 선고된 경우가 있습니다. 합의 여부가 실형과 집행유예를 가른 사안이었습니다.',
+        takeaway:
+          '비슷한 상황이라면 전액 변제가 어렵더라도 일부라도 변제하고 반성문, 변제 계획서 등 양형 자료를 준비하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '사기죄는 합의하면 처벌을 안 받을 수 있나요?',
+        answer: '사기죄는 <strong>반의사불벌죄가 아니므로</strong> 합의해도 기소될 수 있습니다. 다만 실무에서 합의 시 기소유예나 감형이 이루어지는 경우가 많습니다.',
+      },
+      {
+        question: '합의금은 피해 금액과 같아야 하나요?',
+        answer: '기본적으로 <strong>피해 금액 전액 변제</strong>가 기준입니다. 상황에 따라 위자료를 추가로 요구하는 경우도 있습니다.',
+      },
+      {
+        question: '피해자가 합의를 거부하면 어떻게 하나요?',
+        answer: '<strong>공탁</strong>(법원에 변제금을 맡기는 절차)을 활용하면 변제 의사를 증명할 수 있어 양형에 유리합니다.',
+      },
+      {
+        question: '기소유예와 불기소는 뭐가 다른가요?',
+        answer: '<strong>기소유예</strong>는 혐의는 인정되나 기소하지 않는 것, <strong>혐의없음</strong>은 혐의 자체가 부정되는 것입니다.',
+      },
+      {
+        question: '분할로 합의금을 낼 수 있나요?',
+        answer: '피해자가 동의하면 <strong>분할 변제</strong>도 가능합니다. 합의서에 분할 일정과 불이행 시 조건을 명시하세요.',
+      },
+      {
+        question: '변호사를 언제 선임해야 하나요?',
+        answer: '<strong>경찰 조사 전</strong>에 선임하는 것이 가장 유리합니다. 첫 진술이 이후 재판에 큰 영향을 미칩니다.',
+      },
+      {
+        question: '특경법이 적용되면 합의해도 소용없나요?',
+        answer: '특경법 적용 사안에서도 합의는 <strong>양형에 큰 영향</strong>을 미칩니다. 다만 피해 금액이 크면 합의해도 실형 가능성이 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 사기 혐의 상황에 맞는 합의 전략을 확인해보세요',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+      { label: '사기 고소당했는데 합의하면 처벌 안 받나요', href: '/guide/fraud/fraud-accused-settlement-penalty' },
+      { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
+      { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
+    ],
+  },
+  {
+    domain: 'fraud',
+    slug: 'voice-phishing-immediate-5steps',
+    keyword: '보이스피싱 당했을 때 즉시 해야 할 5가지',
+    questionKeyword: '보이스피싱을 당했는데 지금 바로 뭘 해야 하나요?',
+    ctaKeyword: '보이스피싱 피해 대응',
+    type: '체크리스트형',
+    meta: {
+      title: '보이스피싱 당했을 때 즉시 해야 할 5가지 | 로앤가이드',
+      description: '보이스피싱 피해 시 즉시 해야 할 5단계 — 계좌 지급정지, 경찰 신고, 개인정보 노출 차단, 피해구제 신청, 악성앱 삭제를 정리했습니다.',
+    },
+    intro: '금융기관을 사칭한 전화에 속아 돈을 보냈습니다. 보내고 나서야 "이거 보이스피싱 아닌가?" 하는 생각이 들었습니다. 머릿속이 하얘지고 뭘 먼저 해야 할지 모르겠습니다. 지금 즉시 해야 할 5가지를 순서대로 정리했습니다. 1분이라도 빨리 행동할수록 피해 금액을 돌려받을 가능성이 높아집니다.',
+    timelineSteps: ['계좌 지급정지', '경찰 신고', '개인정보 노출 차단', '피해구제 신청', '악성앱 삭제·기기 점검'],
+    sections: [
+      {
+        title: '1단계: 송금한 은행에 즉시 계좌 지급정지를 신청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">1분이라도 빨리 지급정지를 해야 합니다</strong></p>\n<p>보이스피싱을 인지한 즉시 <strong>송금한 은행</strong>의 고객센터에 전화하여 <strong>사기 이용 계좌 지급정지</strong>를 신청하세요. 또는 <strong>경찰(112)</strong>이나 <strong>금융감독원(1332)</strong>에 전화해도 지급정지를 연결해줍니다.</p>\n<p><strong>전기통신금융사기 피해 방지 및 피해금 환급에 관한 특별법</strong>(통신사기피해환급법)에 따라 피해 신고가 접수되면 해당 계좌가 즉시 지급정지됩니다. 사기범이 돈을 인출하기 전에 정지시키면 <strong>피해금 환급</strong>을 받을 수 있습니다. 시간이 핵심이므로 다른 조치보다 지급정지를 최우선으로 하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시: 송금 은행 고객센터 / 경찰 112 / 금감원 1332 → 계좌 지급정지</blockquote>',
+      },
+      {
+        title: '2단계: 경찰에 신고하고 사건 접수번호를 받으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">112 신고 또는 가까운 경찰서에서 피해 신고를 하세요</strong></p>\n<p>계좌 지급정지 후 바로 <strong>경찰(112)</strong>에 보이스피싱 피해를 신고하세요. 가까운 경찰서에 직접 방문하거나 <strong>경찰청 사이버수사대</strong>(ecrm.police.go.kr)에 온라인으로 접수할 수도 있습니다.</p>\n<p>신고 시 <strong>피해 금액, 송금 시각, 상대방 계좌번호, 전화번호, 통화 내용</strong>을 정리하여 전달하세요. 통화 녹음이 있으면 핵심 증거가 됩니다. 사건 접수번호를 반드시 받아두세요. 이후 피해구제 신청에 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고: 경찰 112 / ecrm.police.go.kr | 준비: 피해 금액, 송금 시각, 계좌번호, 통화 녹음</blockquote>',
+      },
+      {
+        title: '3단계: 개인정보 노출이 의심되면 즉시 차단 조치를 하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">명의도용 방지를 위해 개인정보노출자 사고예방시스템에 등록하세요</strong></p>\n<p>보이스피싱 과정에서 <strong>주민등록번호, 계좌번호, 비밀번호, 신분증 사진</strong> 등 개인정보를 알려줬다면 추가 피해 방지 조치가 필요합니다. <strong>금융감독원 개인정보노출자 사고예방시스템</strong>(pd.fss.or.kr)에 등록하면 본인 명의의 신규 계좌 개설이나 대출 실행이 차단됩니다.</p>\n<p>또한 <strong>한국정보통신진흥협회 명의도용방지서비스</strong>(msafer.or.kr)에서 본인 명의의 휴대폰 개통 여부를 확인하고, 추가 개통을 차단하세요. 기존 은행 계좌의 비밀번호도 즉시 변경하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">등록: pd.fss.or.kr(계좌·대출 차단) + msafer.or.kr(휴대폰 개통 차단) + 비밀번호 변경</blockquote>',
+      },
+      {
+        title: '4단계: 피해구제 신청으로 돈을 돌려받을 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">통신사기피해환급법에 따라 피해금 환급을 신청하세요</strong></p>\n<p>경찰 신고와 계좌 지급정지가 완료되면, <strong>송금한 은행</strong>에 피해구제 신청을 하세요. 통신사기피해환급법 제5조에 따라 지급정지된 계좌에 피해금이 남아 있으면 <strong>피해 환급금</strong>으로 돌려받을 수 있습니다.</p>\n<p>피해구제 신청 후 <strong>금융감독원</strong>이 채권소멸 절차를 진행하고, 잔액이 확인되면 피해금을 환급합니다. 다만 사기범이 이미 인출한 금액은 환급이 어려울 수 있습니다. 지급정지가 빠를수록 <strong>환급 가능성</strong>이 높아지는 이유입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신청: 송금 은행에 피해구제 신청 → 금감원 채권소멸 절차 → 잔액 환급</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '지급정지를 30분 내에 신청하여 피해금 전액을 환급받은 사례',
+        summary:
+          '관련 사례에서도 보이스피싱 피해를 인지한 직후 30분 내에 은행에 계좌 지급정지를 신청한 피해자가, 사기 계좌에 피해금이 그대로 남아 있어 전액 환급을 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 보이스피싱을 인지한 즉시, 다른 어떤 조치보다 먼저 계좌 지급정지를 신청하세요.',
+      },
+      {
+        title: '악성앱을 통해 추가 피해가 발생한 사례',
+        summary:
+          '관련 사례에서도 보이스피싱범이 보낸 링크를 클릭하여 악성앱이 설치된 후, 피해자의 연락처에 있는 지인들에게까지 사기 문자가 발송되어 추가 피해가 발생한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 출처 불명의 앱을 즉시 삭제하고, 스마트폰을 초기화하거나 백신 프로그램으로 점검하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '보이스피싱 피해금을 돌려받을 수 있나요?',
+        answer: '지급정지된 계좌에 피해금이 남아 있으면 <strong>통신사기피해환급법</strong>에 따라 환급받을 수 있습니다.',
+      },
+      {
+        question: '지급정지는 어디에 전화해야 하나요?',
+        answer: '<strong>송금한 은행 고객센터</strong>, 경찰 112, 금감원 1332 모두 가능합니다.',
+      },
+      {
+        question: '이미 돈이 인출된 후라면 어떻게 하나요?',
+        answer: '환급은 어렵지만, <strong>경찰 수사</strong>를 통해 범인 검거 후 민사 청구가 가능합니다.',
+      },
+      {
+        question: '악성앱이 설치된 것 같으면 어떻게 하나요?',
+        answer: '출처 불명의 앱을 삭제하고, <strong>스마트폰 초기화</strong>를 권장합니다. 백신 프로그램으로 검사도 하세요.',
+      },
+      {
+        question: '신분증 사진을 보냈는데 어떻게 하나요?',
+        answer: '<strong>금감원 개인정보노출자 사고예방시스템</strong>(pd.fss.or.kr)에 등록하여 명의도용을 차단하세요.',
+      },
+      {
+        question: '가족이나 지인에게도 피해가 갈 수 있나요?',
+        answer: '악성앱을 통해 연락처가 유출되면 <strong>지인 사칭 사기</strong>로 이어질 수 있습니다. 주변에 알려 주의를 당부하세요.',
+      },
+      {
+        question: '보이스피싱 피해 신고 후 수사는 얼마나 걸리나요?',
+        answer: '사건에 따라 다르며, 통상 <strong>3~6개월</strong>입니다. 사건 접수번호로 진행 상황을 확인할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 금감원(1332)에서 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 보이스피싱 피해 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+      { label: '중고거래 사기 당했을 때 증거 모으는 법', href: '/guide/fraud/used-market-fraud-evidence' },
+      { label: '투자 사기 의심될 때 먼저 확인할 3가지', href: '/guide/fraud/investment-fraud-checklist' },
+      { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
+    ],
+  },
 ];

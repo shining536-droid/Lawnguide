@@ -202,4 +202,153 @@ export const schoolViolencePages: SpokePage[] = [
       { label: '악플로 명예훼손 당했을 때 대응법', href: '/guide/defamation/online-defamation-response' },
     ],
   },
+  {
+    domain: 'school-violence',
+    slug: 'school-violence-measures-appeal',
+    keyword: '학폭위 가해자 조치 종류와 불복 방법',
+    questionKeyword: '학폭위에서 받은 조치에 불복할 수 있나요?',
+    ctaKeyword: '학폭위 조치 불복',
+    type: '비교형',
+    meta: {
+      title: '학폭위 가해자 조치 종류와 불복 방법 | 로앤가이드',
+      description:
+        '학폭위 가해학생 조치 1~9호 종류 비교, 행정심판·행정소송 불복 절차, 학생부 기재 기준을 정리했습니다.',
+    },
+    intro:
+      '자녀가 학교폭력 가해자로 혐의를 받고 있다면, 학폭위(학교폭력대책심의위원회)에서 어떤 조치가 내려질 수 있는지 미리 파악해야 합니다. 조치 결과에 따라 학생부 기재, 진학, 학교생활 전반에 영향이 있습니다. 조치의 종류와 불복 절차를 비교하여 정리했습니다.',
+    timelineSteps: ['학폭위 심의', '조치 결정·통보', '재심 청구(15일)', '행정심판·행정소송'],
+    comparison: {
+      title: '학폭위 가해학생 조치(1~9호) 비교표',
+      headers: ['조치 호수', '조치 내용', '학생부 기재', '삭제 시기'],
+      rows: [
+        {
+          label: '1호',
+          values: ['서면사과', '기재', '졸업과 동시에 삭제'],
+        },
+        {
+          label: '2호',
+          values: ['접촉·협박·보복행위 금지', '기재', '졸업과 동시에 삭제'],
+        },
+        {
+          label: '3호',
+          values: ['교내봉사', '기재', '졸업과 동시에 삭제'],
+        },
+        {
+          label: '4호',
+          values: ['사회봉사', '기재', '졸업 후 2년 뒤 심의 후 삭제'],
+        },
+        {
+          label: '5호',
+          values: ['특별교육 이수·심리치료', '기재', '졸업 후 2년 뒤 심의 후 삭제'],
+        },
+        {
+          label: '6호',
+          values: ['출석정지', '기재', '졸업 후 2년 뒤 심의 후 삭제'],
+        },
+        {
+          label: '7호',
+          values: ['학급교체', '기재', '졸업 후 2년 뒤 심의 후 삭제'],
+        },
+        {
+          label: '8호',
+          values: ['전학', '기재', '졸업 후 2년 뒤 심의 후 삭제'],
+        },
+        {
+          label: '9호',
+          values: ['퇴학(고등학생만)', '기재', '졸업 후 2년 뒤 심의 후 삭제'],
+        },
+      ],
+    },
+    sections: [
+      {
+        title: '가해학생 조치 1~9호의 내용을 이해하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">조치는 경중에 따라 1호(서면사과)부터 9호(퇴학)까지 9단계입니다</strong></p>\n<p><strong>학교폭력예방 및 대책에 관한 법률 제17조</strong>에 따라 가해학생에게 내려지는 조치는 9가지입니다. <strong>1호</strong>(서면사과), <strong>2호</strong>(접촉·보복행위 금지), <strong>3호</strong>(교내봉사), <strong>4호</strong>(사회봉사), <strong>5호</strong>(특별교육·심리치료), <strong>6호</strong>(출석정지), <strong>7호</strong>(학급교체), <strong>8호</strong>(전학), <strong>9호</strong>(퇴학, 고등학생만 해당)입니다.</p>\n<p>심의위원회는 사안의 경중, 가해학생의 반성 정도, 화해 여부 등을 종합적으로 고려하여 조치를 결정합니다. <strong>중복 부과</strong>도 가능하므로 예를 들어 2호+5호+6호가 동시에 부과될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조치: 1호(서면사과)~9호(퇴학) | 중복 부과 가능 | 사안 경중·반성·화해 종합 고려</blockquote>',
+      },
+      {
+        title: '학생부 기재와 삭제 시기를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">조치 호수에 따라 학생부 삭제 시기가 다릅니다</strong></p>\n<p>모든 가해학생 조치는 <strong>학교생활기록부(학생부)</strong>에 기재됩니다. 다만 삭제 시기에 차이가 있습니다. <strong>1~3호</strong> 조치는 <strong>졸업과 동시에 삭제</strong>됩니다. <strong>4~9호</strong> 조치는 <strong>졸업 후 2년</strong>이 지난 뒤 학교폭력대책심의위원회의 심의를 거쳐 삭제 여부가 결정됩니다.</p>\n<p>학생부 기재는 <strong>대학 입시</strong>에 직접적인 영향을 미칩니다. 특히 수시 학생부종합전형에서 불이익이 크므로, 조치의 경중이 자녀의 진학에 미치는 영향을 신중하게 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">학생부: 1~3호 졸업 시 삭제, 4~9호 졸업 후 2년 뒤 심의 삭제 | 대입 영향 있음</blockquote>',
+      },
+      {
+        title: '조치에 불복하는 방법 — 재심, 행정심판, 행정소송',
+        content:
+          '<p><strong style="color:#1e3a5f">조치 통보 후 15일 이내에 재심을 청구할 수 있습니다</strong></p>\n<p>학폭위 조치 결과에 불복하려면 <strong>조치 통보를 받은 날로부터 15일 이내</strong>에 <strong>시·도 학생징계조정위원회</strong>에 재심을 청구할 수 있습니다. 재심에서도 불복할 경우 <strong>행정심판</strong>을 청구하거나 <strong>행정소송</strong>을 제기할 수 있습니다.</p>\n<p>행정심판은 <strong>시·도 행정심판위원회</strong>에 청구하며, 처분이 있음을 안 날로부터 <strong>90일 이내</strong>, 처분이 있은 날로부터 <strong>180일 이내</strong>에 해야 합니다. 행정소송은 <strong>관할 행정법원</strong>에 제기합니다. 실제로 행정심판이나 행정소송을 통해 조치가 변경되거나 취소된 사례도 있으므로, 조치가 과중하다고 판단되면 적극적으로 불복 절차를 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불복: 15일 내 재심 → 행정심판(90일/180일) → 행정소송 | 조치 변경·취소 가능</blockquote>',
+      },
+      {
+        title: '학폭위 심의에서 유리한 자료를 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">반성 자료와 합의서는 조치 경감에 중요한 역할을 합니다</strong></p>\n<p>혐의를 받고 있다면 학폭위 심의 전에 다음을 준비하세요. ①자녀가 직접 작성한 <strong>반성문</strong>, ②전문 상담기관의 <strong>상담 이력·소견서</strong>, ③피해학생 측과의 <strong>합의서</strong>(치료비 보상 포함), ④<strong>사실관계를 정리한 서면</strong>(자녀의 진술, 목격자 진술, CCTV 등 객관적 증거).</p>\n<p>심의위원회는 <strong>화해 여부, 반성 정도, 피해 회복 노력</strong>을 조치 결정에 크게 반영합니다. 합의가 이루어지지 않더라도 반성문과 상담 이력은 정상참작 자료가 됩니다. 보호자도 심의위원회에 <strong>출석하여 의견을 진술</strong>할 수 있으며, 필요시 <strong>변호사</strong>를 대동할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 반성문 + 상담소견서 + 합의서 + 사실관계 서면 | 보호자 출석·변호사 대동 가능</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '행정심판으로 8호(전학) 조치가 취소된 사례',
+        summary:
+          '관련 사례에서도 학폭위가 가해학생에게 8호(전학) 조치를 내렸으나, 가해학생 측이 행정심판을 청구하여 "사안의 경중에 비해 조치가 과중하고, 반성 및 화해 노력을 충분히 고려하지 않았다"는 이유로 조치가 5호(특별교육)로 변경된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 조치가 사안에 비해 과중하다고 판단되면 15일 이내에 재심을 청구하고, 재심에서도 불복할 경우 행정심판을 적극 검토하세요.',
+      },
+      {
+        title: '반성문과 합의서 제출로 조치가 경감된 사례',
+        summary:
+          '관련 사례에서도 가해학생 보호자가 피해학생 측과 합의하고, 자녀의 반성문과 전문 상담기관 소견서를 학폭위에 제출하여 당초 예상보다 낮은 조치(3호 교내봉사)가 내려진 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 심의 전에 피해학생 측과 합의하고 반성 자료를 철저히 준비하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '학폭위 조치에 불복하면 어디에 재심을 청구하나요?',
+        answer:
+          '<strong>시·도 학생징계조정위원회</strong>에 조치 통보를 받은 날로부터 15일 이내에 재심을 청구합니다.',
+      },
+      {
+        question: '재심에서도 결과가 바뀌지 않으면 어떻게 하나요?',
+        answer:
+          '<strong>행정심판</strong>(시·도 행정심판위원회)이나 <strong>행정소송</strong>(행정법원)을 통해 다시 다툴 수 있습니다.',
+      },
+      {
+        question: '학생부 기재는 영구적인가요?',
+        answer:
+          '1~3호는 <strong>졸업과 동시에 삭제</strong>되고, 4~9호는 졸업 후 2년 뒤 심의를 거쳐 삭제됩니다.',
+      },
+      {
+        question: '가해학생 조치가 대학 입시에 영향을 미치나요?',
+        answer:
+          '학생부에 기재된 조치는 <strong>수시 학생부종합전형</strong> 등에서 불이익이 될 수 있습니다.',
+      },
+      {
+        question: '학폭위에 변호사를 대동할 수 있나요?',
+        answer:
+          '보호자가 출석할 때 <strong>변호사 등 대리인을 동반</strong>할 수 있습니다.',
+      },
+      {
+        question: '합의를 했는데도 무거운 조치가 나올 수 있나요?',
+        answer:
+          '합의는 정상참작 요소이지 필수 감경 사유는 아닙니다. <strong>사안의 경중</strong>에 따라 무거운 조치가 나올 수 있습니다.',
+      },
+      {
+        question: '경찰 수사와 학폭위 절차는 별개인가요?',
+        answer:
+          '네, <strong>형사 절차와 학폭위 절차는 별도</strong>로 진행됩니다. 폭행·상해가 수반되면 경찰 수사도 병행될 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132), 117 학교폭력 신고센터, 교육청 학교폭력 상담센터를 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '학폭위 조치에 대한 대응 방법을 확인해보세요',
+      link: '/diagnosis/school-violence',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
+      { label: '학교폭력 피해 신고 후 절차', href: '/guide/school-violence/school-violence-committee-procedure' },
+      { label: '학폭위 가해자 지목 시 부모 대응법', href: '/guide/school-violence/school-violence-accused-parent-response' },
+      { label: '폭행 피해 증거 모으는 법', href: '/guide/assault/assault-evidence-collection' },
+    ],
+  },
 ];

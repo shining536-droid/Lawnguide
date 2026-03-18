@@ -389,4 +389,198 @@ export const defamationPages: SpokePage[] = [
       { label: '사기 가이드', href: '/guide/fraud' },
     ],
   },
+  {
+    domain: 'defamation',
+    slug: 'online-insult-lawsuit-penalty',
+    keyword: '온라인 모욕죄 고소 방법과 처벌 수위',
+    questionKeyword: '온라인에서 모욕을 당했는데 고소할 수 있나요?',
+    ctaKeyword: '온라인 모욕죄 고소',
+    type: '절차형',
+    meta: {
+      title: '온라인 모욕죄 고소 방법과 처벌 수위 | 로앤가이드',
+      description: '온라인에서 모욕을 당했을 때 모욕죄 성립 요건, 증거 확보 방법, 고소 절차, 처벌 수위를 정리했습니다.',
+    },
+    intro: '인터넷 게시판에서 누군가가 본인을 지칭하며 심한 욕설과 비하 표현을 반복하고 있습니다. 캡처는 해뒀는데 이걸로 고소가 가능한 건지, 명예훼손과는 어떻게 다른 건지 막막합니다. 온라인 모욕죄의 성립 요건과 고소 절차를 정리했습니다.',
+    timelineSteps: ['모욕죄 요건 확인', '증거 확보', '고소장 작성·제출', '형사·민사 병행'],
+    sections: [
+      {
+        title: '모욕죄 성립 요건을 먼저 확인하세요 — 형법 제311조',
+        content:
+          '<p><strong style="color:#1e3a5f">공연성 + 모욕(경멸적 표현)이 핵심 요건입니다</strong></p>\n<p><strong>형법 제311조</strong>는 "공연히 사람을 모욕한 자는 1년 이하의 징역이나 금고 또는 200만원 이하의 벌금에 처한다"고 규정합니다. 여기서 <strong>공연성</strong>이란 불특정 또는 다수가 인식할 수 있는 상태를 말합니다.</p>\n<p>인터넷 게시판, SNS 댓글, 오픈 채팅방 등은 <strong>공연성이 인정</strong>되는 대표적인 공간입니다. 1:1 메시지라도 전파 가능성이 있으면 공연성이 인정될 수 있습니다.</p>\n<p>모욕이란 <strong>구체적 사실을 적시하지 않고</strong> 경멸적 감정을 표현하는 것입니다. "XX 같은 놈", "쓰레기" 등 단순 욕설이나 비하 표현이 해당됩니다. 구체적 사실을 적시했다면 명예훼손이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: ①공연성(불특정·다수 인식 가능) ②모욕(사실 적시 없이 경멸적 표현) → 형법 311조</blockquote>',
+      },
+      {
+        title: '증거를 확보하세요 — 스크린샷에 URL과 일시가 포함되어야 합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">삭제되기 전에 증거를 반드시 확보하세요</strong></p>\n<p>온라인 모욕은 <strong>언제든 삭제될 수 있습니다</strong>. 발견 즉시 다음을 저장하세요. ①<strong>화면 캡처</strong>(URL 주소창, 작성 일시, 작성자 ID가 모두 보이도록), ②해당 페이지 URL 복사, ③가능하면 웹페이지 PDF 저장.</p>\n<p>반복적 모욕이라면 <strong>모든 건</strong>을 날짜순으로 정리하세요. 댓글이 여러 개면 전체 목록을 캡처하는 것이 중요합니다. 캡처 시점도 기록해두면 증거 신빙성이 높아집니다.</p>\n<p>모욕 표현이 <strong>본인을 특정</strong>할 수 있는지도 확인하세요. 닉네임, 실명, 직장명 등으로 피해자가 누구인지 알 수 있어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 스크린샷(URL+일시+작성자), 페이지 URL, PDF 저장, 피해자 특정 가능 여부</blockquote>',
+      },
+      {
+        title: '고소장을 작성하고 경찰서에 제출하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">모욕죄는 친고죄이므로 6개월 이내에 고소해야 합니다</strong></p>\n<p>모욕죄는 <strong>친고죄</strong>입니다. 범인을 알게 된 날로부터 <strong>6개월 이내</strong>에 고소해야 합니다. 기한을 놓치면 고소할 수 없으므로 반드시 기한을 확인하세요.</p>\n<p>고소장에는 ①고소인 인적사항, ②피고소인 정보(모르면 <strong>"성명불상"</strong>), ③고소 취지("모욕죄로 처벌해 주시기 바랍니다"), ④범죄 사실(언제, 어디서, 어떤 표현으로), ⑤증거 목록을 기재합니다.</p>\n<p>관할 <strong>경찰서</strong> 또는 <strong>사이버수사대</strong>에 제출하세요. 사이버범죄 신고시스템(ecrm.police.go.kr)을 통한 온라인 접수도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 범인을 안 날로부터 6개월(친고죄) | 제출: 경찰서/사이버수사대/ecrm.police.go.kr</blockquote>',
+      },
+      {
+        title: '명예훼손과 모욕죄의 차이를 정확히 구분하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">구체적 사실 적시 여부가 구분 기준입니다</strong></p>\n<p><strong>명예훼손</strong>은 "A가 횡령을 했다"처럼 <strong>구체적 사실을 적시</strong>하여 명예를 훼손하는 것이고, <strong>모욕</strong>은 "A는 쓰레기다"처럼 사실 적시 없이 <strong>경멸적 감정을 표현</strong>하는 것입니다.</p>\n<p>처벌 수위도 다릅니다. 모욕죄는 <strong>1년 이하 징역/200만원 이하 벌금</strong>이고, 사실적시 명예훼손은 <strong>2년 이하 징역/500만원 이하 벌금</strong>, 허위사실 명예훼손은 <strong>5년 이하 징역/1,000만원 이하 벌금</strong>입니다.</p>\n<p>온라인 명예훼손은 <strong>정보통신망법 제70조</strong>가 적용되어 더 무거운 처벌이 가능하지만, 모욕죄에는 정보통신망법 가중 규정이 없습니다. 다만 민사 손해배상은 별도로 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구분: 사실 적시 → 명예훼손(307조) | 경멸 표현만 → 모욕(311조) | 온라인 명예훼손 → 정보통신망법 70조</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '인터넷 게시판 반복 욕설로 모욕죄가 인정된 사례',
+        summary:
+          '관련 사례에서도 인터넷 커뮤니티에서 특정인을 지칭하며 반복적으로 경멸적 표현을 사용한 작성자에게 모욕죄가 인정되어 벌금 100만원이 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 모든 모욕 게시글을 날짜순으로 캡처하고, 피해자가 본인임을 특정할 수 있는 근거를 함께 정리하세요.',
+      },
+      {
+        title: '피해자 특정이 어려워 모욕죄가 인정되지 않은 사례',
+        summary:
+          '관련 사례에서도 욕설이 있었으나 닉네임이나 실명 없이 불특정 대상에 대한 표현이어서 피해자가 누구인지 특정할 수 없다는 이유로 모욕죄가 불인정된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 모욕 표현이 본인을 명확히 지칭하고 있는지를 먼저 확인하세요. 닉네임, 직장명, 외모 묘사 등으로 특정 가능해야 합니다.',
+      },
+    ],
+    faq: [
+      {
+        question: '욕설 한 번으로도 모욕죄가 성립하나요?',
+        answer: '네, <strong>1회라도</strong> 공연성이 있는 공간에서 경멸적 표현을 했다면 성립할 수 있습니다.',
+      },
+      {
+        question: '1:1 메시지로 받은 욕설도 모욕죄인가요?',
+        answer: '원칙적으로 공연성이 부족하지만, <strong>전파 가능성</strong>이 있으면 인정될 수 있습니다.',
+      },
+      {
+        question: '모욕죄 고소 기한은 얼마인가요?',
+        answer: '범인을 알게 된 날로부터 <strong>6개월 이내</strong>입니다. 친고죄이므로 기한이 매우 중요합니다.',
+      },
+      {
+        question: '작성자를 모르는데 고소할 수 있나요?',
+        answer: '<strong>"성명불상"</strong>으로 고소하면 수사기관이 IP 추적 등을 통해 특정합니다.',
+      },
+      {
+        question: '모욕죄 처벌 수위는 어느 정도인가요?',
+        answer: '<strong>1년 이하 징역 또는 200만원 이하 벌금</strong>입니다. 벌금 50~150만원이 통상적입니다.',
+      },
+      {
+        question: '모욕죄와 명예훼손 중 어떤 것으로 고소해야 하나요?',
+        answer: '구체적 사실 적시가 있으면 <strong>명예훼손</strong>, 단순 욕설·비하면 <strong>모욕죄</strong>로 고소하세요.',
+      },
+      {
+        question: '모욕죄로 손해배상도 받을 수 있나요?',
+        answer: '형사 고소와 별도로 <strong>민사 손해배상(위자료)</strong>을 청구할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 온라인 모욕 상황에 맞는 고소 절차를 확인해보세요',
+      link: '/diagnosis/defamation',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '명예훼손 진단', href: '/diagnosis/defamation' },
+      { label: '악플로 명예훼손 당했을 때 대응법', href: '/guide/defamation/online-defamation-response' },
+      { label: '명예훼손 고소장 쓰기 전 준비할 것', href: '/guide/defamation/defamation-complaint-prep' },
+      { label: '인터넷 악플 명예훼손 고소 절차와 준비 서류', href: '/guide/defamation/online-defamation-lawsuit-process' },
+    ],
+  },
+  {
+    domain: 'defamation',
+    slug: 'public-interest-defamation-defense',
+    keyword: '공익 목적 글인데 명예훼손 고소당했을 때',
+    questionKeyword: '공익 목적으로 글을 썼는데 명예훼손으로 고소당했습니다',
+    ctaKeyword: '공익 목적 명예훼손 방어',
+    type: '상황형',
+    meta: {
+      title: '공익 목적 글인데 명예훼손 고소당했을 때 | 로앤가이드',
+      description: '공익 목적으로 작성한 글이 명예훼손으로 고소된 경우, 위법성 조각사유와 방어 방법을 정리했습니다.',
+    },
+    intro: '소비자 피해 사례를 공유하거나 부정행위를 고발하는 글을 올렸는데 상대방이 명예훼손으로 고소하겠다고 합니다. 사실을 말했을 뿐인데 처벌받을 수 있는 건지 걱정됩니다. 사실과 다르게 신고되었다면 아래 위법성 조각사유와 방어 방법을 확인해보세요.',
+    timelineSteps: ['위법성 조각사유 확인', '진실성 입증 자료 수집', '공익 목적 소명', '경찰 조사 대응'],
+    sections: [
+      {
+        title: '형법 제310조 위법성 조각사유를 이해하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">진실한 사실 + 공익 목적이면 처벌받지 않습니다</strong></p>\n<p><strong>형법 제310조</strong>는 "형법 제307조 제1항의 행위가 진실한 사실로서 오로지 공공의 이익에 관한 때에는 처벌하지 아니한다"고 규정합니다. 이것이 공익 목적 명예훼손의 핵심 방어 수단입니다.</p>\n<p>위법성이 조각되려면 두 가지 요건이 모두 충족되어야 합니다. ①작성한 내용이 <strong>진실한 사실</strong>이어야 하고, ②그 내용을 공표한 <strong>주된 동기가 공공의 이익</strong>에 관한 것이어야 합니다.</p>\n<p>판례는 "오로지 공공의 이익"을 엄격하게 해석하지 않습니다. <strong>주된 동기가 공익</strong>이면 부수적으로 개인적 감정이 포함되어 있더라도 공익 목적이 인정될 수 있습니다(대법원 2003도6036 참조).</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형법 310조 — ①진실한 사실 + ②주된 동기가 공공의 이익 → 위법성 조각(처벌 없음)</blockquote>',
+      },
+      {
+        title: '작성한 내용이 진실임을 입증할 자료를 모으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">진실성 입증은 피고소인(글 작성자)이 해야 합니다</strong></p>\n<p>형법 제310조의 적용을 받으려면 <strong>내용이 사실이라는 증거</strong>를 제출해야 합니다. 계약서, 영수증, 사진, 카카오톡·문자 대화 내역, 녹음 파일, 목격자 진술서 등이 핵심 자료입니다.</p>\n<p>내용의 <strong>중요 부분이 사실</strong>이면 됩니다. 세부 사항에서 약간의 차이가 있더라도 핵심 내용이 진실이면 진실성이 인정될 수 있습니다. 다만 <strong>과장이나 왜곡</strong>이 심하면 진실성이 부정될 수 있으니 주의하세요.</p>\n<p>글을 작성할 때 사용한 <strong>원본 자료</strong>도 보관해두세요. 출처가 명확한 자료에 기반했다는 것을 보여주면 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 계약서, 영수증, 대화 내역, 녹음, 목격자 진술, 원본 자료 — 핵심 내용의 진실성</blockquote>',
+      },
+      {
+        title: '공익 목적이었음을 소명하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">글을 작성한 동기와 경위가 공익 목적 인정의 핵심입니다</strong></p>\n<p>공익 목적으로 인정받기 위해서는 글을 쓴 <strong>동기와 경위</strong>를 구체적으로 정리해야 합니다. 소비자 피해 경험 공유, 다른 피해자 예방, 부정행위 고발, 공적 관심사에 대한 의견 개진 등이 대표적인 공익 목적입니다.</p>\n<p>판례에서 공익이 인정되는 경우: ①<strong>소비자 후기</strong>(서비스 피해 경험), ②<strong>직장 부당대우 폭로</strong>, ③<strong>공적 인물</strong>에 대한 비판, ④<strong>피해 사실 공유</strong>(사기, 불량 업체 등).</p>\n<p>반대로 공익이 부정되는 경우: ①<strong>사적 보복</strong> 목적이 주된 동기, ②개인 감정에 치우친 비방, ③<strong>과도한 인신공격</strong>이 포함된 경우. 글의 표현 방식도 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">공익 인정: 소비자 피해, 피해 예방, 공적 비판 | 공익 부정: 사적 보복, 인신공격, 감정적 비방</blockquote>',
+      },
+      {
+        title: '경찰 조사에 대응하고 전문가 상담을 받으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">출석 요구를 받으면 사실관계와 증거를 정리하고 대응하세요</strong></p>\n<p>경찰에서 <strong>피의자 출석 요구</strong>를 받더라도 당황하지 마세요. 출석 전에 다음을 준비하세요. ①작성한 글의 내용이 사실임을 증명하는 자료, ②글을 작성하게 된 경위와 동기 정리, ③공익 목적이었음을 보여주는 근거.</p>\n<p>진술 시 <strong>형법 제310조 위법성 조각사유</strong>를 명확히 주장하세요. "진실한 사실이고 공익 목적이었다"는 점을 구체적으로 진술하는 것이 중요합니다.</p>\n<p>사안이 복잡하거나 형사처벌이 우려된다면 <strong>변호사 상담</strong>을 받는 것이 좋습니다. <strong>대한법률구조공단</strong>(132)이나 지방변호사회 무료 법률상담을 활용해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 진실성 증거 + 공익 동기 정리 + 310조 주장 + 변호사 상담</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '소비자 피해 후기가 공익 목적으로 인정되어 무죄가 된 사례',
+        summary:
+          '관련 사례에서도 의료 시술 피해를 인터넷에 게시하여 명예훼손으로 고소되었으나, 실제 경험에 기반한 진실한 사실이고 다른 소비자의 피해 예방이라는 공익 목적이 인정되어 무죄 판결을 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 작성 내용의 진실성을 증명할 자료(진료 기록, 영수증 등)를 확보하고, 글 작성 동기가 피해 예방이었음을 소명하세요.',
+      },
+      {
+        title: '감정적 표현이 과해 공익 목적이 부정된 사례',
+        summary:
+          '관련 사례에서도 사실에 기반했지만 "사기꾼", "인간 쓰레기" 등 과도한 인신공격 표현이 포함되어 공익 목적보다 사적 보복이 주된 동기로 판단되어 유죄가 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 글을 작성할 때 사실에 근거한 객관적 표현을 사용하고, 감정적 비난이나 인신공격은 반드시 자제하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '사실을 말해도 명예훼손으로 처벌받나요?',
+        answer: '사실적시 명예훼손(형법 307조 1항)이 성립할 수 있지만, <strong>진실 + 공익 목적</strong>이면 형법 310조로 처벌받지 않습니다.',
+      },
+      {
+        question: '형법 310조가 적용되려면 어떤 조건이 필요한가요?',
+        answer: '①내용이 <strong>진실한 사실</strong>이고 ②주된 동기가 <strong>공공의 이익</strong>에 관한 것이어야 합니다.',
+      },
+      {
+        question: '개인적 감정이 섞여 있으면 공익 목적이 안 되나요?',
+        answer: '<strong>주된 동기가 공익</strong>이면 부수적으로 개인적 감정이 포함되어도 인정될 수 있습니다.',
+      },
+      {
+        question: '허위사실 명예훼손에도 형법 310조가 적용되나요?',
+        answer: '아닙니다. 형법 310조는 <strong>진실한 사실에만</strong> 적용됩니다. 허위사실에는 적용되지 않습니다.',
+      },
+      {
+        question: '글을 삭제하면 고소가 취하되나요?',
+        answer: '글 삭제와 고소 취하는 별개입니다. 다만 <strong>합의 과정에서 삭제가 조건</strong>이 되는 경우가 많습니다.',
+      },
+      {
+        question: '역으로 무고죄 고소가 가능한가요?',
+        answer: '상대방이 허위로 고소한 것이 명백하다면 <strong>무고죄</strong>(형법 제156조) 고소를 검토할 수 있습니다.',
+      },
+      {
+        question: '정보통신망법 제70조도 310조 면책이 되나요?',
+        answer: '정보통신망법 제70조 제2항에도 <strong>진실 + 공익 목적</strong> 면책 규정이 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 명예훼손 상황에 맞는 방어 방법을 확인해보세요',
+      link: '/diagnosis/defamation',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '명예훼손 진단', href: '/diagnosis/defamation' },
+      { label: '사실을 말했는데 명예훼손으로 고소당했을 때', href: '/guide/defamation/truth-defamation-accused-response' },
+      { label: '악플로 명예훼손 당했을 때 대응법', href: '/guide/defamation/online-defamation-response' },
+      { label: '온라인 모욕죄 고소 방법과 처벌 수위', href: '/guide/defamation/online-insult-lawsuit-penalty' },
+    ],
+  },
 ];

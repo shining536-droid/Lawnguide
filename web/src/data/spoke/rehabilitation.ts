@@ -373,4 +373,111 @@ export const rehabilitationPages: SpokePage[] = [
       },
     ],
   },
+  {
+    domain: 'rehabilitation',
+    slug: 'personal-rehabilitation-eligibility',
+    keyword: '개인회생 신청 자격 조건과 변제 기간',
+    questionKeyword: '개인회생 신청 자격과 변제 기간이 궁금합니다',
+    ctaKeyword: '개인회생 자격',
+    type: '수치기한형',
+    meta: {
+      title: '개인회생 신청 자격 조건과 변제 기간 | 로앤가이드',
+      description:
+        '개인회생 신청 자격 조건(채무 한도, 소득 요건), 변제 기간(3~5년), 면책 절차, 신청 비용을 정리했습니다.',
+    },
+    intro:
+      '매달 카드값과 대출 이자만 갚다 보니 원금은 줄지 않습니다. 독촉 전화가 하루에도 몇 번씩 오고, 이대로는 평생 빚을 못 갚을 것 같습니다. 개인회생을 신청하면 빚을 줄일 수 있다고 들었는데, 내가 자격이 되는지부터 확인해보세요.',
+    timelineSteps: ['자격 요건 확인', '채무 한도·소득 확인', '변제 기간 파악', '면책까지 절차'],
+    sections: [
+      {
+        title: '개인회생 신청 자격 — 정기적인 소득이 핵심입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">정기적인 소득이 있어야 개인회생을 신청할 수 있습니다</strong></p>\n<p><strong>채무자 회생 및 파산에 관한 법률</strong>에 따라 개인회생은 "장래 계속적으로 또는 반복하여 수입을 얻을 가능성이 있는" 개인이 신청할 수 있습니다. 직장인은 물론이고 <strong>아르바이트</strong>, <strong>일용직</strong>, <strong>자영업자</strong>도 지속적으로 소득이 있으면 대상이 됩니다.</p>\n<p>소득 유형에 따라 <strong>급여소득자</strong>와 <strong>영업소득자</strong>로 나뉩니다. 급여소득자는 급여, 연금 등 정기적 수입을 받는 사람이고, 영업소득자는 자영업 등 영업활동으로 수입을 얻는 사람입니다. 소득이 전혀 없다면 개인회생이 아닌 <strong>개인파산</strong>을 검토해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">자격: 정기적 소득 필수 | 급여소득자·영업소득자 모두 가능 | 무소득 → 파산 검토</blockquote>',
+      },
+      {
+        title: '채무 한도 — 담보 15억원, 무담보 10억원 이내여야 합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">채무 금액에 상한이 있으므로 총 채무액을 먼저 확인하세요</strong></p>\n<p>개인회생을 신청하려면 채무 총액이 일정 한도 이내여야 합니다. <strong>담보채무</strong>(주택담보대출 등)는 <strong>15억원 이내</strong>, <strong>무담보채무</strong>(카드빚, 신용대출, 사채 등)는 <strong>10억원 이내</strong>여야 합니다.</p>\n<p>채무를 계산할 때는 원금뿐만 아니라 <strong>이자, 연체료, 보증채무</strong>까지 전부 포함해야 합니다. <strong>신용정보원</strong>에서 채무 조회를 하면 금융기관 채무를 일괄 확인할 수 있습니다. 사채나 개인 간 차용증은 별도로 정리하세요. 이 한도를 초과하면 <strong>일반회생</strong> 절차를 검토해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">한도: 담보 15억원, 무담보 10억원 | 이자·연체료·보증채무 합산 | 초과 시 일반회생</blockquote>',
+      },
+      {
+        title: '변제 기간 — 급여소득자 5년, 영업소득자 3년이 기본입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">소득 유형에 따라 변제 기간이 달라집니다</strong></p>\n<p>개인회생이 인가되면 법원이 정한 <strong>변제계획</strong>에 따라 매달 일정 금액을 납부해야 합니다. 변제 기간은 <strong>급여소득자</strong>의 경우 <strong>5년(60개월)</strong>, <strong>영업소득자</strong>의 경우 <strong>3년(36개월)</strong>이 기본입니다.</p>\n<p>매달 납부하는 <strong>변제금</strong>은 월 소득에서 생계비(<strong>중위소득 60%</strong> 기준)를 뺀 <strong>가용소득</strong>으로 정해집니다. 부양가족이 많으면 생계비가 올라가서 변제금이 줄어들 수 있습니다. 또한 <strong>청산가치보장원칙</strong>에 따라 변제금 총액이 파산 시 채권자가 받을 금액보다 많아야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">변제 기간: 급여 5년, 영업 3년 | 변제금 = 소득 - 생계비(중위소득 60%)</blockquote>',
+      },
+      {
+        title: '면책까지의 절차와 비용을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">신청부터 면책까지 전체 흐름을 파악해두세요</strong></p>\n<p>전체 절차는 ①<strong>서류 준비</strong>(2~4주) → ②<strong>법원 신청</strong> → ③<strong>개시결정</strong>(신청 후 1~3개월) → ④<strong>변제계획안 인가</strong> → ⑤<strong>변제금 납부</strong>(3~5년) → ⑥<strong>면책결정</strong> 순서입니다.</p>\n<p>법원 개시결정이 나면 <strong>금지명령</strong>에 의해 채권자의 추심행위가 중단됩니다. 신청 비용은 법원 수수료·송달료가 발생하며, 대리인을 선임하면 별도 비용이 추가됩니다. <strong>대한법률구조공단</strong>에서 소득 기준에 따라 무료 대리를 지원받을 수 있습니다. 변제 기간을 성실히 이행하면 잔여 채무가 <strong>전액 면책</strong>됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 서류 준비 → 신청 → 개시결정(추심 중단) → 인가 → 변제 이행 → 면책</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '아르바이트 소득으로 개인회생이 인가된 사례',
+        summary:
+          '관련 사례에서도 정규직이 아닌 아르바이트로 월 150만원 정도의 소득을 꾸준히 올리고 있던 채무자가 개인회생을 신청하여, 법원이 "장래 계속적 수입 가능성"을 인정하고 변제계획을 인가한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 정규직이 아니더라도 지속적인 소득이 있으면 개인회생 신청이 가능하니 최근 수개월 소득 자료를 정리하세요.',
+      },
+      {
+        title: '변제 기간 중 실직했으나 변제계획 변경으로 유지한 사례',
+        summary:
+          '관련 사례에서도 변제 기간 도중 실직하여 변제금을 납부하지 못하게 된 채무자가 법원에 변제계획 변경 신청을 하여, 재취업 후 변제금을 조정받고 개인회생 절차를 계속 유지한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 변제금 납부가 어려워지면 폐지되기 전에 법원에 변제계획 변경을 먼저 신청하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '소득이 불안정해도 개인회생이 가능한가요?',
+        answer:
+          '소득이 불규칙하더라도 <strong>계속 일하고 있다면</strong> 영업소득자로 분류되어 가능할 수 있습니다. 최근 6개월~1년간 소득 자료를 정리해보세요.',
+      },
+      {
+        question: '개인회생과 개인파산의 차이는 무엇인가요?',
+        answer:
+          '개인회생은 <strong>소득이 있는 사람</strong>이 3~5년간 일부를 갚는 것이고, 파산은 지급불능 상태에서 면책을 받는 것입니다.',
+      },
+      {
+        question: '개인회생 신청하면 독촉 전화가 멈추나요?',
+        answer:
+          '법원의 <strong>개시결정</strong>이 나면 금지명령에 의해 추심행위가 중단됩니다. 신청 즉시가 아니라 개시결정 시점부터입니다.',
+      },
+      {
+        question: '카드빚, 사채도 모두 포함되나요?',
+        answer:
+          '<strong>모든 채무</strong>가 포함됩니다. 카드빚, 신용대출, 사채, 보증채무 등 일부만 골라서 넣을 수 없고 전부 포함해야 합니다.',
+      },
+      {
+        question: '집이나 차가 있어도 신청 가능한가요?',
+        answer:
+          '가능합니다. 개인회생은 재산을 유지하면서 진행할 수 있습니다. 다만 <strong>청산가치보장원칙</strong>에 따라 재산 가치만큼은 변제해야 합니다.',
+      },
+      {
+        question: '세금 체납도 면책되나요?',
+        answer:
+          '<strong>조세채권</strong>은 면책 대상이 아닙니다. 국세, 지방세, 건강보험료 등은 별도로 납부 계획을 세워야 합니다.',
+      },
+      {
+        question: '변제금을 2회 이상 미납하면 어떻게 되나요?',
+        answer:
+          '<strong>2회 이상</strong> 지체하면 폐지 사유가 됩니다. 납부가 어려우면 미납 전에 법원에 변제계획 변경을 신청하세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)에서 소득 기준에 따라 무료 상담과 대리를 지원받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 채무 상황에 맞는 개인회생 자격을 확인해보세요',
+      link: '/diagnosis/rehabilitation',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '개인회생 진단', href: '/diagnosis/rehabilitation' },
+      { label: '개인회생 신청 전 확인할 것 5가지', href: '/guide/rehabilitation/rehabilitation-pre-check' },
+      { label: '개인회생 vs 개인파산 비교', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy' },
+      { label: '개인회생 변제금 계산 기준', href: '/guide/rehabilitation/rehabilitation-payment-calculation' },
+    ],
+  },
 ];
