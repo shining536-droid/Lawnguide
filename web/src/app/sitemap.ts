@@ -16,13 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const diagnosis: MetadataRoute.Sitemap = DOMAINS.map((d) => ({
-    url: `${baseUrl}/diagnosis/${d.id}`,
-    lastModified,
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
-  }));
-
   const guide: MetadataRoute.Sitemap = DOMAINS.map((d) => ({
     url: `${baseUrl}/guide/${d.id}`,
     lastModified,
@@ -37,5 +30,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...home, ...diagnosis, ...guide, ...spoke];
+  return [...home, ...guide, ...spoke];
 }

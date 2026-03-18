@@ -17,6 +17,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title: `${meta.name} 상황 정리 | 로앤가이드`,
     description: meta.description,
+    robots: { index: false, follow: false },
   };
 }
 
