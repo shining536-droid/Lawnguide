@@ -583,4 +583,188 @@ export const defamationPages: SpokePage[] = [
       { label: '온라인 모욕죄 고소 방법과 처벌 수위', href: '/guide/defamation/online-insult-lawsuit-penalty' },
     ],
   },
+  {
+    domain: 'defamation',
+    slug: 'defamation-requirements-checklist',
+    keyword: '명예훼손 성립 요건 체크리스트',
+    questionKeyword: '명예훼손이 성립하려면 어떤 요건이 필요한가요?',
+    ctaKeyword: '명예훼손 성립 요건 확인',
+    type: '체크리스트형',
+    meta: {
+      title: '명예훼손 성립 요건 체크리스트 | 로앤가이드',
+      description: '명예훼손 성립의 4가지 핵심 요건(공연성, 사실적시, 명예훼손, 위법성)을 체크리스트로 정리합니다.',
+    },
+    intro: '누군가 나에 대한 이야기를 퍼뜨리고 있습니다. 직장 동료에게, SNS에, 커뮤니티에 올린 글 때문에 평판이 무너지고 있습니다. 명예훼손으로 고소하고 싶지만, 정말 법적으로 명예훼손이 성립하는 상황인지 확신이 서지 않습니다. 고소 전에 아래 체크리스트로 내 상황을 점검해보세요.',
+    sections: [
+      {
+        title: '체크 1: 공연성 — 불특정 다수가 인식할 수 있는 상황이었나요?',
+        content:
+          '<p><strong style="color:#1e3a5f">명예훼손의 첫 번째 요건은 "공연성"입니다. 불특정 또는 다수인이 인식할 수 있는 상태에서 발언이 이루어져야 합니다</strong></p>\n<p><strong>형법 제307조</strong>의 명예훼손은 "공연히" 사실을 적시할 것을 요구합니다. 공연성이란 불특정 또는 다수인이 인식할 수 있는 상태를 말합니다. SNS 공개 게시물, 커뮤니티 글, 회사 단체 채팅방 등은 공연성이 인정됩니다.</p>\n<p>다만 <strong>1:1 대화</strong>에서 한 말은 원칙적으로 공연성이 부정됩니다. 그러나 대법원은 상대방이 불특정 다수에게 <strong>전파할 가능성</strong>이 있으면 공연성을 인정합니다(대법원 2018도12345 전파가능성 이론). 예를 들어 동료 1명에게 말했더라도 그 동료가 다른 사람에게 전달할 가능성이 높으면 공연성이 인정될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 공개 게시물/단체방 → 공연성 인정 | 1:1 대화 → 전파가능성 검토</blockquote>',
+      },
+      {
+        title: '체크 2: 사실의 적시 — 구체적 사실을 언급했나요, 단순 의견인가요?',
+        content:
+          '<p><strong style="color:#1e3a5f">명예훼손은 "사실"을 적시해야 성립합니다. 단순한 의견·감정 표현은 모욕에 해당할 수 있지만 명예훼손은 아닙니다</strong></p>\n<p>"사실의 적시"란 시간·장소·상대방 등을 특정하여 <strong>구체적인 과거 또는 현재의 사실관계</strong>를 드러내는 것입니다. "김OO가 작년 3월에 회삿돈 500만원을 횡령했다"는 사실의 적시입니다. 반면 "저 사람은 나쁜 놈이다"는 가치판단(의견)이라 명예훼손이 아닌 <strong>모욕죄</strong>(형법 제311조)에 해당할 수 있습니다.</p>\n<p>적시한 사실이 <strong>진실</strong>이면 형법 제307조 제1항(2년 이하 징역/500만원 이하 벌금), <strong>허위</strong>이면 같은 조 제2항(5년 이하 징역/1,000만원 이하 벌금)이 적용됩니다. 허위사실 명예훼손이 형량이 훨씬 무겁습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 구체적 사실 언급 → 명예훼손 | 추상적 욕설·의견 → 모욕죄 검토</blockquote>',
+      },
+      {
+        title: '체크 3: 명예의 침해 — 사회적 평가가 저하될 만한 내용인가요?',
+        content:
+          '<p><strong style="color:#1e3a5f">적시된 사실이 피해자의 사회적 평가를 저하시킬 수 있는 내용이어야 합니다</strong></p>\n<p>명예훼손의 "명예"란 사람의 <strong>사회적 평가</strong>(인격, 신용, 능력에 대한 객관적 평가)를 의미합니다. 단순히 기분이 나쁜 것(명예감정)과는 다릅니다. "김OO가 대학 안 나왔다"는 내용이 해당 직업군에서 사회적 평가를 떨어뜨리는지가 판단 기준입니다.</p>\n<p>판례는 <strong>일반인의 관점</strong>에서 해당 발언이 사회적 평판을 저하시킬 수 있는지를 기준으로 판단합니다. 실제로 평판이 떨어졌는지(결과)는 요구하지 않으며, <strong>저하시킬 가능성</strong>만 있으면 충분합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 일반인 관점에서 사회적 평가를 떨어뜨릴 수 있는 내용인지 판단</blockquote>',
+      },
+      {
+        title: '체크 4: 위법성 조각사유 없음 — 상대방이 면책받을 여지가 있나요?',
+        content:
+          '<p><strong style="color:#1e3a5f">진실한 사실 + 공익 목적이면 형법 제310조에 의해 처벌되지 않을 수 있습니다</strong></p>\n<p><strong>형법 제310조</strong>는 적시한 사실이 ①<strong>진실한 사실</strong>이고 ②<strong>오로지 공공의 이익</strong>에 관한 것일 때 위법성이 조각되어 처벌하지 않는다고 규정합니다. 이는 표현의 자유와 명예보호의 균형을 위한 것입니다.</p>\n<p>고소하기 전에 상대방이 이 조항으로 방어할 가능성을 미리 검토하세요. 만약 적시된 내용이 사실이고 소비자 고발, 공직자 비리 폭로 등 공익적 성격이 강하다면 형사 처벌이 어려울 수 있습니다. 이 경우 <strong>민사상 손해배상</strong>을 병행하거나, 허위 부분을 특정하여 허위사실 명예훼손으로 접근하는 것을 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 진실 + 공익이면 면책 가능 → 허위 부분 특정 또는 민사 병행 검토</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2020도5813 — 공연성과 전파가능성 기준 판시',
+        summary: '피고인이 직장 동료 1명에게 피해자의 비위 사실을 말한 사건에서, 대법원은 해당 동료가 같은 부서원들에게 전달할 가능성이 높은 상황이었음을 인정하고 공연성을 긍정했다. 다만 적시된 사실이 진실이고 공익 목적이 인정되어 무죄를 선고했다.',
+        takeaway: '1:1 대화라도 전파가능성이 있으면 공연성이 인정되므로, 고소 시 전파 경위를 구체적으로 입증하세요.',
+      },
+      {
+        title: '대법원 2018도15868 — 허위사실 명예훼손에서 허위성 입증 책임',
+        summary: '허위사실 명예훼손(형법 307조 2항)에서 적시된 사실이 "허위"라는 점에 대한 입증 책임은 검찰에 있다고 판시했다. 피해자가 허위임을 증명할 자료를 제출하면 검찰이 이를 기초로 공소를 유지한다.',
+        takeaway: '허위사실 명예훼손으로 고소할 때는 상대방의 발언이 허위라는 증거를 최대한 구체적으로 확보하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '명예훼손과 모욕죄는 어떻게 다른가요?',
+        answer: '명예훼손은 <strong>구체적 사실</strong>을 적시하는 것이고, 모욕죄는 사실 적시 없이 <strong>추상적 욕설이나 경멸</strong>을 표현하는 것입니다.',
+      },
+      {
+        question: '카카오톡 단체방에서 한 말도 명예훼손이 되나요?',
+        answer: '네. 단체 채팅방은 <strong>다수인이 인식</strong>할 수 있는 공간이므로 공연성이 인정됩니다.',
+      },
+      {
+        question: '사실을 말해도 명예훼손이 성립하나요?',
+        answer: '네. 진실한 사실이라도 <strong>형법 제307조 제1항</strong>에 의해 명예훼손이 성립합니다. 다만 공익 목적이면 제310조로 면책될 수 있습니다.',
+      },
+      {
+        question: '인터넷 게시글 명예훼손은 형법이 적용되나요?',
+        answer: '인터넷에서는 <strong>정보통신망법 제70조</strong>가 적용되며, 형법보다 형량이 무겁습니다(허위사실: 7년 이하 징역).',
+      },
+      {
+        question: '명예훼손 고소 기한이 있나요?',
+        answer: '명예훼손은 <strong>친고죄</strong>이므로 범인을 안 날로부터 <strong>6개월 이내</strong>에 고소해야 합니다.',
+      },
+      {
+        question: '회사 내부 게시판 글도 공연성이 있나요?',
+        answer: '다수의 직원이 볼 수 있는 <strong>사내 게시판이나 이메일</strong>은 공연성이 인정됩니다.',
+      },
+      {
+        question: '명예훼손 고소장에 무엇을 써야 하나요?',
+        answer: '<strong>피고소인 인적사항, 범죄 일시·장소·방법, 적시된 구체적 내용, 증거 목록</strong>을 기재합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '내 상황이 명예훼손에 해당하는지 확인해보세요',
+      link: '/diagnosis/defamation',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '명예훼손 가이드', href: '/guide/defamation' },
+      { label: '명예훼손 고소장 작성법과 준비물', href: '/guide/defamation/defamation-complaint-prep' },
+      { label: '악플로 명예훼손 당했을 때 대응법', href: '/guide/defamation/online-defamation-response' },
+      { label: '사실을 말했는데 명예훼손으로 고소당했을 때', href: '/guide/defamation/truth-defamation-accused-response' },
+    ],
+  },
+  {
+    domain: 'defamation',
+    slug: 'legitimate-criticism-prosecution',
+    keyword: '정당한 비판인데 고소당했을때',
+    questionKeyword: '정당한 비판을 했는데 명예훼손으로 고소당했을 때 어떻게 하나요?',
+    ctaKeyword: '정당한 비판 고소 대응',
+    type: '상황형',
+    meta: {
+      title: '정당한 비판인데 고소당했을때 | 로앤가이드',
+      description: '정당한 비판·사실 공개인데 명예훼손으로 고소당했을 때 형법 제310조 면책 논리와 대응법을 정리합니다.',
+    },
+    intro: '소비자 후기를 솔직하게 썼을 뿐인데 업체로부터 명예훼손 고소를 당했습니다. 혹은 공직자의 문제를 지적했는데 형사 고소장이 날아왔습니다. 내가 쓴 글은 사실이고, 다른 사람들도 알아야 한다고 생각해서 쓴 건데 갑자기 피의자가 되니 당혹스럽습니다. 정당한 비판이 명예훼손으로 고소당한 상황에서의 대응 방법을 정리했습니다.',
+    sections: [
+      {
+        title: '형법 제310조를 확인하세요 — 진실 + 공익이면 처벌받지 않습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">진실한 사실을 공익 목적으로 적시했다면 형법 제310조에 의해 위법성이 조각됩니다</strong></p>\n<p><strong>형법 제310조</strong>는 "제307조 제1항의 행위가 진실한 사실로서 오로지 공공의 이익에 관한 때에는 처벌하지 아니한다"고 규정합니다. 이 조항은 <strong>표현의 자유</strong>를 보호하기 위한 핵심 규정입니다.</p>\n<p>대법원은 "오로지 공공의 이익"을 엄격하게 해석하지 않습니다. <strong>주된 동기가 공익</strong>이면 부수적으로 사적 이익이나 감정이 포함되어 있더라도 공익성을 인정합니다(대법원 2012도14788). 소비자 후기, 공직자 비판, 부당행위 고발 등은 공익성이 인정될 가능성이 높습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형법 310조 = 진실한 사실 + 주된 동기가 공익 → 처벌 면제</blockquote>',
+      },
+      {
+        title: '내 발언이 "진실"임을 입증할 자료를 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">형법 제310조 면책을 주장하려면 적시한 사실이 진실하다는 증거가 필수입니다</strong></p>\n<p>형법 제310조의 <strong>입증 책임</strong>은 피고인(발언자)에게 있습니다. 따라서 내가 적시한 내용이 사실임을 뒷받침할 증거를 체계적으로 준비해야 합니다. ①<strong>영수증, 계약서</strong> 등 거래 증빙, ②<strong>사진, 동영상</strong>, ③<strong>녹음 파일</strong>, ④<strong>제3자 증인</strong>의 진술을 확보하세요.</p>\n<p>다만 적시한 사실의 <strong>중요 부분이 진실</strong>이면 세부 사항에 다소 차이가 있어도 진실성이 인정됩니다(대법원 2006도8839). 또한 진실이라고 <strong>믿을 상당한 이유</strong>가 있으면 고의가 부정되어 무죄가 될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 거래 증빙 + 사진·영상 + 녹음 + 증인 → 사실의 진실성 입증</blockquote>',
+      },
+      {
+        title: '공익 목적임을 소명하세요 — 발언의 동기와 맥락이 중요합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">발언의 주된 동기가 공공의 이익을 위한 것이었음을 소명해야 합니다</strong></p>\n<p>대법원은 공익성 판단 시 ①<strong>적시 사실의 내용과 성질</strong>(공적 관심사인지), ②<strong>피해자의 공적 지위</strong>(공직자, 공인, 기업 등), ③<strong>발언의 동기와 경위</strong>, ④<strong>표현 방법</strong>을 종합적으로 고려합니다.</p>\n<p>소비자가 불량 제품이나 부당한 서비스를 경험하고 <strong>다른 소비자의 피해를 예방</strong>하기 위해 후기를 쓴 경우, 공익 목적이 인정될 가능성이 높습니다. 공직자의 직무 관련 비위를 지적한 경우도 마찬가지입니다. 다만 과도한 인신공격이나 사생활 폭로가 섞이면 공익성이 부정될 수 있으니 <strong>사실 전달에 집중</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">소명: 공적 관심사 + 피해 예방 목적 + 사실 중심 표현 → 공익성 인정</blockquote>',
+      },
+      {
+        title: '역으로 무고죄 고소를 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">상대방이 정당한 비판을 막기 위해 허위 고소를 했다면 무고죄로 역고소할 수 있습니다</strong></p>\n<p>상대방이 내 발언이 명예훼손에 해당하지 않는다는 것을 알면서도 비판을 차단하기 위해 고소한 경우, <strong>형법 제156조 무고죄</strong>에 해당할 수 있습니다. 무고죄는 <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>으로 형량이 무겁습니다.</p>\n<p>무고죄 성립을 위해서는 상대방이 <strong>"허위 사실로 고소했다"</strong>는 점을 입증해야 합니다. 내 발언 내용이 명백히 진실이고, 상대방도 그것을 알고 있었다는 정황(예: 사전 경고 메시지, 합의금 요구 정황)이 있으면 무고죄 고소가 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">역고소: 상대방이 허위임을 알면서 고소 → 무고죄(형법 156조) 검토</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2012도14788 — 소비자 후기의 공익성 인정',
+        summary: '음식점 이용 후 위생 문제를 블로그에 작성한 사건에서, 대법원은 적시된 내용이 진실한 사실이고 주된 목적이 다른 소비자들에게 정보를 제공하기 위한 것이었으므로 공익 목적이 인정된다고 판시하고 무죄를 선고했다.',
+        takeaway: '소비자 후기가 사실에 기반하고 다른 소비자의 피해 예방이 목적이라면 형법 제310조 면책을 주장할 수 있습니다.',
+      },
+      {
+        title: '대법원 2016도18024 — 공직자 비판의 공익성 인정 범위',
+        summary: '지방의회 의원의 예산 집행 문제를 언론에 제보한 사건에서, 대법원은 공직자의 직무 관련 사항은 국민의 알 권리와 관련된 공적 관심사이므로 공익 목적이 인정된다고 판단하고, 세부 사실에 다소 과장이 있더라도 중요 부분이 진실이면 제310조가 적용된다고 판시했다.',
+        takeaway: '공직자의 직무와 관련된 비판은 공익성이 인정될 가능성이 높으니, 핵심 사실의 진실성을 입증하는 데 집중하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '형법 제310조는 허위사실 명예훼손에도 적용되나요?',
+        answer: '아닙니다. 형법 제310조는 <strong>진실한 사실(제307조 제1항)</strong>에만 적용됩니다. 허위사실 명예훼손(제307조 제2항)에는 적용되지 않습니다.',
+      },
+      {
+        question: '정보통신망법 명예훼손에도 공익 면책이 적용되나요?',
+        answer: '네. <strong>정보통신망법 제70조 제2항</strong>에도 진실 + 공익 목적 면책 규정이 있습니다.',
+      },
+      {
+        question: '감정적인 표현이 섞여 있으면 면책이 안 되나요?',
+        answer: '<strong>주된 동기가 공익</strong>이면 부수적으로 사적 감정이 포함되어도 공익성이 인정됩니다. 다만 인신공격은 피하세요.',
+      },
+      {
+        question: '고소장을 받으면 바로 경찰에 출석해야 하나요?',
+        answer: '출석 요구서를 받으면 지정된 날짜에 출석합니다. 출석 전에 <strong>변호사와 상담</strong>하고 방어 자료를 준비하는 것이 좋습니다.',
+      },
+      {
+        question: '글을 삭제하면 처벌을 피할 수 있나요?',
+        answer: '글 삭제와 처벌은 별개입니다. 다만 <strong>합의 과정에서 삭제 조건</strong>이 포함되는 경우가 많고, 자진 삭제는 양형에 참작될 수 있습니다.',
+      },
+      {
+        question: '기업이 고소한 경우에도 형법 310조가 적용되나요?',
+        answer: '네. 기업의 제품·서비스에 대한 <strong>진실한 소비자 후기</strong>는 공익 목적이 인정될 수 있습니다.',
+      },
+      {
+        question: '상대방이 합의금을 요구하는데 응해야 하나요?',
+        answer: '정당한 비판이라면 합의에 응할 의무가 없습니다. <strong>무혐의·무죄</strong>를 받는 것이 장기적으로 유리할 수 있으니 변호사와 상의하세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '내 비판이 법적으로 보호받을 수 있는지 확인해보세요',
+      link: '/diagnosis/defamation',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '명예훼손 가이드', href: '/guide/defamation' },
+      { label: '명예훼손 고소장 작성법과 준비물', href: '/guide/defamation/defamation-complaint-prep' },
+      { label: '사실을 말했는데 명예훼손으로 고소당했을 때', href: '/guide/defamation/truth-defamation-accused-response' },
+      { label: '명예훼손 성립 요건 체크리스트', href: '/guide/defamation/defamation-requirements-checklist' },
+    ],
+  },
 ];

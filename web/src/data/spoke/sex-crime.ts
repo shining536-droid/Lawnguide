@@ -512,4 +512,191 @@ export const sexCrimePages: SpokePage[] = [
       { label: '사기 고소당했는데 합의하면 처벌 안 받나요', href: '/guide/fraud/fraud-accused-settlement-penalty' },
     ],
   },
+  {
+    domain: 'sex-crime',
+    slug: 'sexual-assault-accusation-defense',
+    keyword: '성추행 혐의 받았을 때 대응 방법',
+    questionKeyword: '성추행 혐의를 받았을 때 어떻게 대응해야 하나요?',
+    ctaKeyword: '성추행 혐의 대응',
+    type: '어디부터형',
+    meta: {
+      title: '성추행 혐의 받았을 때 대응 방법 | 로앤가이드',
+      description: '성추행(강제추행) 혐의를 받았을 때 초기 대응, 수사 절차, 변호 전략을 단계별로 정리했습니다.',
+    },
+    intro: '회식 자리에서 옆 동료의 어깨를 툭 쳤을 뿐인데, 며칠 뒤 경찰에서 연락이 왔습니다. 강제추행으로 고소당한 것입니다. "그런 의도가 아니었는데"라고 해명하고 싶지만, 준비 없이 수사에 임하면 상황이 악화될 수 있습니다. 성추행 혐의를 받았을 때 어디서부터 어떻게 대응해야 하는지 정리했습니다.',
+    timelineSteps: ['혐의 확인', '증거 수집', '경찰 조사 대응', '합의·재판 준비'],
+    sections: [
+      {
+        title: '혐의 내용을 정확히 파악하세요 — 성추행의 법적 기준을 알아야 합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">강제추행은 "폭행·협박으로 추행"한 경우 성립합니다</strong></p>\n<p>형법 제298조 강제추행은 <strong>폭행 또는 협박으로 사람을 추행</strong>한 경우 성립하며, 10년 이하 징역 또는 1,500만원 이하 벌금에 처해집니다. 대법원은 "추행"을 "객관적으로 일반인에게 성적 수치심이나 혐오감을 일으키게 하는 행위"로 판단합니다.</p>\n<p>중요한 것은 <strong>기습추행</strong>도 처벌 대상이라는 점입니다. 대법원은 "폭행행위 자체가 추행"인 경우(이른바 기습추행)에도 강제추행을 인정합니다. 출석 전에 고소인이 주장하는 구체적 행위, 시간, 장소를 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 강제추행(형법 제298조) — 폭행·협박 + 추행, 기습추행도 포함</blockquote>',
+      },
+      {
+        title: '유리한 증거를 빠르게 확보하세요 — 시간이 지나면 사라집니다',
+        content:
+          '<p><strong style="color:#1e3a5f">CCTV, 목격자, 대화 기록은 시간이 지나면 확보가 어렵습니다</strong></p>\n<p>성추행 혐의에서 가장 중요한 증거는 <strong>CCTV 영상</strong>과 <strong>목격자 진술</strong>입니다. 사건 장소의 CCTV는 통상 30일~90일이면 덮어쓰기가 됩니다. 변호사를 통해 수사기관에 CCTV 보존을 요청하세요.</p>\n<p>사건 전후 고소인과의 대화 기록(문자, 카카오톡)도 확보하세요. 사건 후 "별일 아니에요"와 같은 메시지가 있다면 유력한 방어 증거가 됩니다. 당일 함께 있었던 사람들의 <strong>연락처를 확보</strong>해 목격자 진술을 받아두는 것도 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: CCTV 보존 요청, 목격자 연락처 확보, 사건 전후 대화 기록 보관</blockquote>',
+      },
+      {
+        title: '경찰 조사에서 신중하게 진술하세요 — 첫 진술이 결정적입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">진술 내용이 한번 조서에 기재되면 번복이 극히 어렵습니다</strong></p>\n<p>성범죄 사건에서 경찰 조사는 <strong>피해자 진술의 신빙성</strong>과 피의자 진술의 일관성을 비교하는 과정입니다. 따라서 진술 전에 변호사와 충분히 상의하세요. 형사소송법 제244조의3에 따라 진술거부권을 행사할 수 있습니다.</p>\n<p>핵심은 <strong>일관성</strong>입니다. "기억이 나지 않는다"와 "그런 적 없다"는 다른 진술입니다. 확실하지 않은 부분에 대해 단정적으로 부인하면, 나중에 CCTV 등에서 사실이 확인될 경우 진술의 신빙성 전체가 무너집니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">성추행 혐의 대응이 필요하다면 <a href="/diagnosis/sex-crime" style="color:#2563eb;font-weight:600">무료 성범죄 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 진술 일관성 유지, 불확실한 부분은 유보, 변호사 조력 필수</blockquote>',
+      },
+      {
+        title: '합의와 양형 전략을 세우세요 — 성범죄는 양형이 엄격합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">성범죄는 성폭력처벌법에 따라 신상정보 등록 등 부가처분이 따릅니다</strong></p>\n<p>강제추행 유죄 시에는 형벌 외에도 <strong>신상정보 등록</strong>(성폭력처벌법 제43조), <strong>취업 제한</strong>(아동·청소년 관련 기관), 수강명령 등이 부과됩니다. 이러한 부가처분을 고려하여 방어 전략을 세워야 합니다.</p>\n<p>혐의를 인정하는 경우에는 피해자와의 <strong>합의</strong>가 양형에 큰 영향을 미칩니다. 합의서에는 처벌불원 의사, 합의금 내역, 접근금지 약속 등을 명시하세요. 다만 성범죄는 반의사불벌죄가 아니므로, 합의만으로 처벌이 면제되지는 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 합의서 작성, 처벌불원서 확보, 신상정보 등록 등 부가처분 대비</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: 'CCTV 영상으로 기습추행이 아님이 확인된 사례',
+        summary:
+          '회식 자리에서 강제추행으로 고소된 사건에서, 현장 CCTV를 확인한 결과 피고인의 행위가 추행에 해당하지 않는 일상적 접촉이었음이 확인되어 무혐의 처분된 사례입니다.',
+        takeaway:
+          '비슷한 상황이라면 사건 현장의 CCTV 보존을 즉시 요청하고, 영상을 확보할 수 있도록 변호사에게 의뢰하세요.',
+      },
+      {
+        title: '피해자 진술의 일관성이 부족하여 무죄 선고된 사례',
+        summary:
+          '피해자의 경찰·검찰·법정 진술이 시기, 장소, 행위 내용에서 일관성이 없고, 객관적 증거와 배치되어 합리적 의심 여지가 있다고 판단되어 무죄가 선고된 사례입니다.',
+        takeaway:
+          '비슷한 상황이라면 고소인 진술의 불일치 부분을 변호사와 함께 꼼꼼히 분석하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '강제추행 처벌 수위는 어느 정도인가요?',
+        answer: '형법 제298조에 따라 <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>입니다.',
+      },
+      {
+        question: '성추행 혐의를 받으면 바로 구속되나요?',
+        answer: '바로 구속되지는 않지만, <strong>도주·증거인멸 우려</strong>가 있으면 구속영장이 청구될 수 있습니다.',
+      },
+      {
+        question: '상대방이 동의했다고 주장할 수 있나요?',
+        answer: '<strong>동의가 있었다면 추행이 아닙니다</strong>. 다만 동의 여부는 객관적 정황으로 판단하므로, 이를 증명할 수 있는 자료가 필요합니다.',
+      },
+      {
+        question: '술에 취해 기억이 나지 않는 경우 어떻게 해야 하나요?',
+        answer: '기억나지 않는 부분을 함부로 부인하지 마세요. <strong>"기억이 불분명하다"</strong>고 진술하고, CCTV 등 객관적 증거를 확보하세요.',
+      },
+      {
+        question: '성범죄 전과가 남으면 어떤 불이익이 있나요?',
+        answer: '<strong>신상정보 등록, 취업 제한(아동·청소년 관련 기관), 수강명령</strong> 등 형벌 외 부가처분이 따릅니다.',
+      },
+      {
+        question: '합의하면 처벌을 안 받을 수 있나요?',
+        answer: '성범죄는 반의사불벌죄가 아니므로 합의만으로 처벌이 면제되지 않습니다. 다만 <strong>양형에 유리하게</strong> 작용합니다.',
+      },
+      {
+        question: '국선변호인을 신청할 수 있나요?',
+        answer: '성폭력 사건 피의자도 경제적 사유가 있으면 <strong>국선변호인 신청</strong>이 가능합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '성추행 혐의를 받았다면 지금 바로 대응 방법을 확인해보세요',
+      link: '/diagnosis/sex-crime',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '성범죄 가이드', href: '/guide/sex-crime' },
+      { label: '성추행 혐의 대응 방법과 합의 절차', href: '/guide/sex-crime/groping-accused-response' },
+      { label: '성범죄 혐의 흔한 실수', href: '/guide/sex-crime/common-mistakes-when-accused' },
+      { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
+    ],
+  },
+  {
+    domain: 'sex-crime',
+    slug: 'false-sexual-assault-report-response',
+    keyword: '허위 성폭력 신고 대응 방법',
+    questionKeyword: '허위 성폭력 신고를 당했을 때 어떻게 대응해야 하나요?',
+    ctaKeyword: '허위 성폭력 신고 대응',
+    type: '상황형',
+    meta: {
+      title: '허위 성폭력 신고 대응 방법 | 로앤가이드',
+      description: '허위 성폭력 신고를 당했을 때 무혐의를 받기 위한 증거 확보와 반대고소 방법을 정리했습니다.',
+    },
+    intro: '전혀 사실이 아닌 성폭력 혐의로 경찰 조사를 받게 되었습니다. 상대방이 거짓 신고를 한 것이 분명한데, 피의자 신분이 되어버린 상황이 막막합니다. 성범죄 혐의는 사실이 아니어도 이름만으로 사회적 낙인이 찍힐 수 있기 때문에, 빠르고 체계적인 대응이 필요합니다.',
+    timelineSteps: ['혐의 내용 확인', '알리바이·반박 증거 확보', '수사 대응', '무고 반대고소'],
+    sections: [
+      {
+        title: '신고 내용을 파악하고 알리바이를 확보하세요 — 시간과 장소가 핵심입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 신고의 핵심 반박은 "그 시간에 그 장소에 없었다"는 증명입니다</strong></p>\n<p>먼저 변호사를 통해 <strong>고소장·진술조서의 내용</strong>을 확인하세요. 고소인이 주장하는 날짜, 시간, 장소를 구체적으로 파악한 뒤, 해당 시점에 본인이 다른 곳에 있었다는 <strong>알리바이</strong>를 확보하세요.</p>\n<p>카드 결제 내역, 교통카드 이용 기록, 휴대전화 기지국 접속 기록, 직장 출입 기록 등이 알리바이를 증명하는 자료입니다. 성폭력처벌법상 성범죄는 피해자 진술에 크게 의존하므로, <strong>객관적 증거</strong>로 진술의 허위성을 공격하는 것이 효과적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 고소 내용 확인, 알리바이 자료(카드·교통·기지국·출입 기록)</blockquote>',
+      },
+      {
+        title: '고소인의 허위 동기를 파악하세요 — 왜 거짓 신고를 했는지가 중요합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 신고의 동기가 밝혀지면 진술의 신빙성이 무너집니다</strong></p>\n<p>허위 성폭력 신고는 대부분 <strong>특정 동기</strong>에서 비롯됩니다. 이별 후 보복, 금전 갈등, 직장 내 분쟁, 다른 사건의 책임 회피 등이 흔한 동기입니다. 고소인과의 관계에서 이러한 동기가 될 만한 사정을 정리하세요.</p>\n<p>"합의금을 요구하는 문자", "다른 사람에게 보복하겠다고 말한 대화", "거짓 신고를 암시하는 SNS 게시물" 등이 <strong>허위 동기를 증명하는 증거</strong>가 됩니다. 이러한 자료는 시간이 지나면 삭제될 수 있으므로 즉시 캡처해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 고소인과의 갈등 경위 정리, 보복·금전 동기 증거, SNS·대화 캡처</blockquote>',
+      },
+      {
+        title: '수사 단계에서 적극적으로 방어하세요 — 피해자 진술에만 의존하는 수사를 막아야 합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">성범죄 수사는 피해자 진술 중심이므로 반박 증거 제출이 필수입니다</strong></p>\n<p>성범죄 사건은 밀실에서 발생하는 경우가 많아 <strong>피해자 진술의 신빙성</strong>이 핵심 쟁점입니다. 대법원은 피해자 진술의 신빙성을 판단할 때 ① 진술의 일관성, ② 구체성, ③ 객관적 정황과의 부합 여부를 봅니다(대법원 2018도7709).</p>\n<p>변호인 의견서에 고소인 진술의 모순점, 알리바이 자료, 허위 동기 증거를 포함하여 제출하세요. 경찰 조사에서는 <strong>진술거부권을 적절히 활용</strong>하되, 반박이 필요한 부분은 명확하게 진술하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">허위 성폭력 신고 대응이 필요하다면 <a href="/diagnosis/sex-crime" style="color:#2563eb;font-weight:600">무료 성범죄 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 피해자 진술의 모순점 분석, 반박 증거 + 의견서 제출, 진술거부권 활용</blockquote>',
+      },
+      {
+        title: '무고죄 반대고소를 준비하세요 — 허위 신고에는 법적 책임이 따릅니다',
+        content:
+          '<p><strong style="color:#1e3a5f">형법 제156조 무고죄는 10년 이하 징역에 처해집니다</strong></p>\n<p>허위 성폭력 신고가 명백하다면 <strong>형법 제156조 무고죄</strong>로 반대고소할 수 있습니다. 무고죄는 "허위 사실을 신고하여 타인이 형사처분을 받게 할 목적"이 있어야 성립합니다. 성폭력 무고는 일반 무고보다 실무상 엄하게 처벌되는 경향이 있습니다.</p>\n<p>반대고소는 원래 혐의에 대한 <strong>무혐의·무죄 결과가 나온 후</strong>에 하는 것이 일반적입니다. 다만 허위 동기와 알리바이가 명확한 경우에는 수사 진행 중에도 반대고소가 가능합니다. 무고죄 외에 <strong>명예훼손죄</strong>도 함께 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 무고죄(형법 제156조) 반대고소 + 명예훼손 검토, 무혐의 후 진행이 유리</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '이별 후 보복 목적의 허위 성폭력 고소 — 무고죄 유죄(대법원 2018도7709)',
+        summary:
+          '교제 중 합의하에 성관계를 가진 후 이별을 통보받자 보복 목적으로 성폭력 고소를 한 사건에서, 피고소인의 알리바이와 고소인의 SNS 게시물 등으로 허위 고소임이 밝혀져 무고죄 유죄가 선고되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 교제 기간 중 합의를 증명할 수 있는 대화 기록과 상대방의 보복 동기를 보여주는 자료를 확보하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '허위 성폭력 신고도 성범죄 수사와 동일하게 진행되나요?',
+        answer: '네, 신고가 접수되면 <strong>허위 여부와 관계없이</strong> 일반 성범죄 수사 절차가 동일하게 적용됩니다.',
+      },
+      {
+        question: '무고죄 성립 요건은 무엇인가요?',
+        answer: '형법 제156조에 따라 <strong>허위 사실임을 알면서</strong> 형사처벌 목적으로 신고한 경우 성립합니다.',
+      },
+      {
+        question: '성범죄 무혐의를 받으면 기록이 남나요?',
+        answer: '무혐의 처분 시 <strong>전과 기록은 남지 않습니다</strong>. 다만 수사 경력 조회에는 남을 수 있습니다.',
+      },
+      {
+        question: '허위 신고를 한 상대방에게 손해배상을 청구할 수 있나요?',
+        answer: '네, <strong>민사상 손해배상(불법행위)</strong>을 청구할 수 있습니다. 정신적 피해에 대한 위자료도 포함됩니다.',
+      },
+      {
+        question: '수사 중에 직장에 알려지나요?',
+        answer: '수사기관은 원칙적으로 사건을 <strong>외부에 공개하지 않습니다</strong>. 다만 구속되거나 기소되면 알려질 수 있습니다.',
+      },
+      {
+        question: '진술거부권을 행사하면 불리해지나요?',
+        answer: '<strong>헌법상 보장된 권리</strong>이며, 진술거부 자체가 유죄의 증거로 사용될 수 없습니다.',
+      },
+      {
+        question: '국선변호인을 신청할 수 있나요?',
+        answer: '경제적 사유가 있으면 <strong>법원에 국선변호인 신청</strong>이 가능합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '허위 성폭력 신고를 당했다면 지금 대응 방법을 확인해보세요',
+      link: '/diagnosis/sex-crime',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '성범죄 가이드', href: '/guide/sex-crime' },
+      { label: '결백 증명 시작 가이드', href: '/guide/sex-crime/proving-innocence-start-guide' },
+      { label: '성범죄 무죄 판례 분석', href: '/guide/sex-crime/sexual-assault-acquittal-cases' },
+      { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
+    ],
+  },
 ];

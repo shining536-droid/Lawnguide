@@ -696,4 +696,189 @@ export const assaultPages: SpokePage[] = [
       { label: '사기죄 처벌 수위와 합의 시 감형 범위', href: '/guide/fraud/fraud-penalty-settlement-reduction' },
     ],
   },
+  {
+    domain: 'assault',
+    slug: 'assault-evidence-checklist',
+    keyword: '폭행 피해 증거 체크리스트',
+    questionKeyword: '폭행 피해를 입었을 때 어떤 증거를 모아야 하나요?',
+    ctaKeyword: '폭행 증거 수집',
+    type: '체크리스트형',
+    meta: {
+      title: '폭행 피해 증거 체크리스트 | 로앤가이드',
+      description: '폭행 피해를 당했을 때 반드시 확보해야 할 증거 목록과 수집 방법을 체크리스트로 정리했습니다.',
+    },
+    intro: '길에서 시비가 붙어 맞았습니다. 분명 폭행 피해를 당했는데, 경찰에 신고하니 "증거가 있느냐"고 묻습니다. CCTV가 없는 곳이었고, 목격자도 없는 것 같습니다. 병원은 다음 날 갔는데 괜찮은 걸까요? 폭행 피해를 입었을 때 놓치기 쉬운 증거 항목을 체크리스트로 정리했습니다.',
+    sections: [
+      {
+        title: '진단서와 의료 기록 — 피해 사실의 가장 강력한 증거입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">폭행 직후 병원에 가서 진단서를 발급받으세요</strong></p>\n<p>폭행 피해의 가장 기본적인 증거는 <strong>의사의 진단서</strong>입니다. 가능한 한 빨리 병원에 가서 진단서를 발급받으세요. 진단서에는 상해 부위, 정도, 치료 기간이 기재됩니다. 형사소송법 제308조에 따라 증거의 증명력은 법관의 자유심증에 의하지만, 진단서는 객관적 증거로서 높은 증명력을 가집니다.</p>\n<p>치료 기간이 <strong>2주 이상</strong>이면 폭행죄(형법 제260조)가 아닌 상해죄(형법 제257조)로 처벌이 가중될 수 있습니다. 진단서 외에 <strong>의무기록 사본</strong>, 처방전, 영수증도 함께 보관하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 진단서 발급, 의무기록 사본, 처방전, 치료비 영수증</blockquote>',
+      },
+      {
+        title: '사진과 영상 — 부상 부위와 현장을 기록하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">부상 부위 사진은 시간 경과에 따라 여러 번 촬영하세요</strong></p>\n<p>멍, 찰과상, 붓기 등 <strong>부상 부위를 사진으로 촬영</strong>하세요. 폭행 직후, 다음 날, 3일 후 등 시간 경과에 따른 변화를 기록하면 피해 정도를 더 명확하게 증명할 수 있습니다. 사진을 찍을 때는 날짜와 시간이 메타데이터에 남도록 스마트폰 카메라를 사용하세요.</p>\n<p>사건 현장도 촬영해두세요. <strong>CCTV가 있는지</strong> 주변을 살펴보고, 있다면 경찰에 보존을 요청하거나 직접 관리자에게 요청하세요. CCTV는 통상 30일~90일이면 삭제됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 부상 부위 사진(날짜별), 현장 사진, CCTV 보존 요청</blockquote>',
+      },
+      {
+        title: '목격자와 신고 기록 — 제3자의 진술이 증명력을 높입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">목격자의 연락처를 반드시 확보하세요</strong></p>\n<p>현장에 목격자가 있었다면 <strong>연락처를 확보</strong>하세요. 시간이 지나면 목격자를 찾기 어렵습니다. 목격자가 사건 경위를 진술해주면, 피해자 진술의 신빙성이 크게 높아집니다. 주변 상가 직원, 행인, 동행인 등을 확인하세요.</p>\n<p>112 신고 기록도 중요한 증거입니다. 폭행 직후 <strong>112에 신고하면 신고 시각, 내용이 기록</strong>으로 남습니다. 이 기록은 사건 발생 사실과 시점을 증명하는 자료가 됩니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">폭행 피해 증거 수집이 필요하다면 <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 폭행 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 목격자 연락처, 112 신고 기록, 주변 상가·행인 확인</blockquote>',
+      },
+      {
+        title: '대화 기록과 녹음 — 가해자의 발언이 증거가 됩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">가해자가 폭행 사실을 인정하는 발언이 있다면 강력한 증거입니다</strong></p>\n<p>가해자와의 문자, 카카오톡 대화에서 <strong>"미안하다", "때린 건 잘못했다"</strong> 등의 발언이 있다면 캡처해두세요. 가해자가 폭행 사실을 인정하는 내용은 자백에 준하는 증거력을 가질 수 있습니다.</p>\n<p>통화 시 <strong>녹음</strong>도 유효한 증거입니다. 대화 당사자가 녹음하는 것은 적법합니다(대법원 2006도4981). 녹음 전에 "녹음합니다"라고 알릴 필요는 없지만, 녹음 파일은 원본 그대로 보관하세요. 편집된 녹음은 증거 능력을 의심받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 가해자 인정 대화 캡처, 통화 녹음(원본 보관), 문자·카톡 내보내기</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '진단서와 CCTV로 폭행 피해를 입증한 사례',
+        summary:
+          '음식점에서 폭행을 당한 피해자가 당일 병원 진단서(타박상 2주)와 매장 CCTV 영상을 증거로 제출하여, 가해자가 폭행죄로 벌금 300만원의 약식명령을 받은 사례입니다.',
+        takeaway:
+          '비슷한 상황이라면 폭행 직후 병원에 가고, 현장 CCTV 보존을 즉시 요청하세요.',
+      },
+      {
+        title: '가해자의 사과 문자가 결정적 증거가 된 사례',
+        summary:
+          '가해자가 법정에서 폭행 사실을 부인했으나, 사건 직후 보낸 "때려서 미안하다"는 카카오톡 메시지가 증거로 채택되어 유죄가 인정된 사례입니다.',
+        takeaway:
+          '비슷한 상황이라면 가해자와의 대화 내용을 삭제하지 말고, 폭행 사실 인정 발언이 담긴 메시지를 반드시 보관하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '폭행 당일이 아닌 다음 날 병원에 가도 되나요?',
+        answer: '가능하지만, <strong>가능한 한 빨리</strong> 가는 것이 좋습니다. 시간이 지나면 폭행과 상해 사이의 인과관계를 다툴 수 있습니다.',
+      },
+      {
+        question: 'CCTV가 없는 장소에서 폭행당했으면 어떡하나요?',
+        answer: '목격자 확보, 부상 사진, 진단서, 가해자와의 <strong>대화 기록</strong> 등 다른 증거를 최대한 수집하세요.',
+      },
+      {
+        question: '녹음은 상대방 동의 없이 해도 되나요?',
+        answer: '대화 <strong>당사자가 녹음하는 것은 적법</strong>합니다. 다만 제3자의 대화를 몰래 녹음하면 불법입니다.',
+      },
+      {
+        question: '폭행죄와 상해죄는 뭐가 다른가요?',
+        answer: '폭행죄는 신체적 접촉, 상해죄는 <strong>신체 기능 훼손(상해)</strong>이 발생한 경우입니다. 상해죄가 처벌이 더 무겁습니다.',
+      },
+      {
+        question: '증거가 부족하면 고소해도 의미 없나요?',
+        answer: '증거가 부족하더라도 고소는 가능합니다. <strong>수사기관이 CCTV 조회, 참고인 조사</strong> 등을 통해 증거를 확보할 수 있습니다.',
+      },
+      {
+        question: '가해자가 "네가 먼저 시비 걸었다"고 주장하면 어떡하나요?',
+        answer: '쌍방폭행 주장에 대비하여 <strong>사건 경위를 시간순으로 정리</strong>하고, 먼저 폭행한 것이 가해자임을 증명할 자료를 준비하세요.',
+      },
+      {
+        question: '합의를 요구해도 되나요?',
+        answer: '피해자로서 <strong>합의금을 요구하는 것은 정당한 권리</strong>입니다. 다만 과도한 금액 요구는 공갈로 문제될 수 있으니 적정 수준을 파악하세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '폭행 피해를 입었다면 지금 증거 수집 방법을 확인해보세요',
+      link: '/diagnosis/assault',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '폭행 가이드', href: '/guide/assault' },
+      { label: '폭행 증거 수집 가이드', href: '/guide/assault/assault-evidence-collection' },
+      { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
+      { label: '폭행 진단', href: '/diagnosis/assault' },
+    ],
+  },
+  {
+    domain: 'assault',
+    slug: 'assault-first-offense-penalty',
+    keyword: '폭행 초범 처벌',
+    questionKeyword: '폭행 초범은 어느 정도 처벌을 받나요?',
+    ctaKeyword: '폭행 초범 대응',
+    type: 'Q&A형',
+    meta: {
+      title: '폭행 초범 처벌 | 로앤가이드',
+      description: '폭행 초범의 처벌 수위, 양형 기준, 합의 시 감형 가능성을 구체적으로 정리했습니다.',
+    },
+    intro: '술자리에서 시비가 붙어 상대방을 한 대 때렸습니다. 난생처음 경찰 조사를 받게 되었고, 전과가 없는 초범인데 어느 정도 처벌을 받을지 걱정됩니다. "초범이니까 봐주겠지"라는 막연한 기대와 "혹시 구속되는 건 아닐까"라는 불안이 교차합니다. 폭행 초범의 처벌 수위와 유리한 양형 요소를 정리했습니다.',
+    sections: [
+      {
+        title: '폭행죄의 법정형 — 2년 이하 징역 또는 500만원 이하 벌금',
+        content:
+          '<p><strong style="color:#1e3a5f">형법 제260조 제1항 폭행죄의 처벌 수위를 알아두세요</strong></p>\n<p>형법 제260조 제1항에 따라 폭행죄는 <strong>2년 이하 징역, 500만원 이하 벌금, 구류 또는 과료</strong>에 처해집니다. 폭행으로 인해 상해(신체 기능 훼손)가 발생하면 상해죄(형법 제257조)가 적용되어 <strong>7년 이하 징역, 10년 이하 자격정지, 1,000만원 이하 벌금</strong>으로 처벌이 가중됩니다.</p>\n<p>중요한 점은 폭행죄(제260조 제1항, 제3항)는 <strong>반의사불벌죄</strong>라는 것입니다. 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다. 다만 상해죄는 반의사불벌죄가 아닙니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 폭행죄는 반의사불벌죄 — 피해자가 처벌불원 시 공소 제기 불가</blockquote>',
+      },
+      {
+        title: '초범 양형 기준 — 대부분 벌금형 또는 기소유예로 종결됩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">양형위원회 기준상 폭행 초범은 벌금형이 일반적입니다</strong></p>\n<p>양형위원회의 양형기준에 따르면, 단순 폭행 초범은 <strong>벌금 50만원~200만원</strong>이 일반적입니다. 상해가 경미한 경우(진단 2주 이하)에는 벌금 100만원~300만원 수준입니다. 초범이고 피해가 경미하며 합의가 이루어진 경우에는 <strong>기소유예</strong> 처분을 받을 가능성이 높습니다.</p>\n<p>기소유예는 혐의는 인정되나 <strong>정상을 참작하여 기소하지 않는</strong> 처분입니다. 전과 기록이 남지 않으며, 수사 경력만 조회됩니다. 초범에게는 가장 유리한 결과입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 초범 + 경미한 피해 + 합의 = 기소유예 가능성 높음</blockquote>',
+      },
+      {
+        title: '합의가 가장 중요합니다 — 처벌불원서를 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">폭행죄는 반의사불벌죄이므로 처벌불원서가 결정적입니다</strong></p>\n<p>폭행죄(형법 제260조)는 반의사불벌죄이므로, 피해자의 <strong>처벌불원서</strong>를 확보하면 공소가 제기되지 않습니다. 합의 시에는 ① 합의금 액수, ② 피해자의 처벌불원 의사, ③ 민사 청구 포기 여부를 합의서에 명확히 기재하세요.</p>\n<p>합의금 수준은 피해 정도에 따라 다르지만, 단순 폭행 초범의 경우 통상 <strong>50만원~200만원</strong> 수준입니다. 상해가 동반된 경우에는 치료비 + 위자료가 추가됩니다. 합의가 되지 않으면 <strong>공탁</strong>을 통해 배상 의사를 증명하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">폭행 초범 처벌이 걱정된다면 <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 폭행 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 합의서 + 처벌불원서 작성, 합의 불성립 시 공탁 검토</blockquote>',
+      },
+      {
+        title: '양형에 유리한 요소를 적극 주장하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">반성문, 재발 방지 서약, 사회봉사 등이 양형에 긍정적입니다</strong></p>\n<p>합의 외에도 양형에 유리한 요소들이 있습니다. <strong>반성문</strong>을 작성하여 제출하고, 재발 방지를 위한 분노조절 상담 수료증, 사회봉사 활동 증빙 등을 준비하세요. 양형위원회 기준에서는 "진지한 반성"을 감경 사유로 인정합니다.</p>\n<p>또한 <strong>피해 경위에 참작할 사정</strong>(상대방의 도발, 우발적 상황 등)이 있다면 이를 주장하세요. 다만 "상대방이 먼저 시비를 걸었다"는 주장만으로 정당방위가 인정되기는 어렵습니다. 형법 제21조의 정당방위는 엄격한 요건 하에서만 인정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 반성문, 분노조절 상담 수료증, 사회봉사 증빙, 탄원서</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '폭행 초범 합의 후 기소유예 처분 사례',
+        summary:
+          '술자리에서 단순 폭행한 초범이 피해자와 합의하고 처벌불원서를 제출한 사건에서, 검찰은 초범인 점, 피해가 경미한 점, 피해 회복이 완료된 점을 고려하여 기소유예 처분하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 가능한 한 빨리 피해자와 합의하고, 처벌불원서를 확보하여 검찰 단계에서 기소유예를 받을 수 있도록 하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '폭행 초범이면 구속되나요?',
+        answer: '단순 폭행 초범은 <strong>구속되는 경우가 거의 없습니다</strong>. 다만 중상해나 흉기 사용 시에는 구속될 수 있습니다.',
+      },
+      {
+        question: '벌금형을 받으면 전과 기록이 남나요?',
+        answer: '네, <strong>벌금형도 전과 기록</strong>에 남습니다. 기소유예는 전과가 남지 않습니다.',
+      },
+      {
+        question: '폭행죄로 벌금을 내면 취업에 불이익이 있나요?',
+        answer: '일반 기업 취업 시에는 큰 영향이 없지만, <strong>공무원·교원·금융기관</strong> 등 결격 사유에 해당할 수 있습니다.',
+      },
+      {
+        question: '쌍방폭행이면 처벌이 달라지나요?',
+        answer: '양쪽 모두 폭행죄로 처벌될 수 있습니다. 다만 <strong>먼저 때린 쪽이 더 불리</strong>하게 판단됩니다.',
+      },
+      {
+        question: '기소유예와 선고유예는 뭐가 다른가요?',
+        answer: '<strong>기소유예</strong>는 검찰이 기소하지 않는 것이고, 선고유예는 법원이 유죄이나 형 선고를 유예하는 것입니다.',
+      },
+      {
+        question: '합의하지 않으면 어느 정도 벌금이 나오나요?',
+        answer: '합의 없는 단순 폭행 초범은 <strong>벌금 100만원~300만원</strong>이 일반적입니다.',
+      },
+      {
+        question: '정당방위가 인정되면 처벌을 안 받나요?',
+        answer: '<strong>정당방위(형법 제21조)</strong>가 인정되면 위법성이 조각되어 처벌받지 않습니다. 다만 인정 요건이 매우 엄격합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '폭행 초범 처벌이 걱정된다면 대응 방법을 확인해보세요',
+      link: '/diagnosis/assault',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '폭행 가이드', href: '/guide/assault' },
+      { label: '정당방위 성립 기준', href: '/guide/assault/self-defense-criteria' },
+      { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
+      { label: '폭행 진단', href: '/diagnosis/assault' },
+    ],
+  },
 ];

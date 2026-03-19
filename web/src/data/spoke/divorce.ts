@@ -1115,4 +1115,188 @@ export const divorcePages: SpokePage[] = [
       { label: '재산분할 비율은 어떻게 정해지나요', href: '/guide/divorce/property-division-ratio' },
     ],
   },
+  {
+    domain: 'divorce',
+    slug: 'property-division-vs-alimony-comparison',
+    keyword: '재산분할 vs 위자료 차이점 비교',
+    questionKeyword: '재산분할과 위자료는 어떻게 다른가요?',
+    ctaKeyword: '재산분할 위자료 비교',
+    type: '비교형',
+    meta: {
+      title: '재산분할 vs 위자료 차이점 비교 | 로앤가이드',
+      description: '재산분할과 위자료의 법적 성격, 청구 기한, 금액 기준, 과세 여부 등 핵심 차이를 비교 정리합니다.',
+    },
+    intro: '이혼을 준비하면서 "재산분할"과 "위자료"라는 말을 동시에 듣게 됩니다. 둘 다 돈을 받는 건데 뭐가 다른지, 동시에 청구할 수 있는 건지, 세금은 어떻게 되는 건지 헷갈립니다. 특히 배우자의 외도로 이혼하는 경우라면 위자료와 재산분할을 모두 받을 수 있는지가 가장 궁금한 부분입니다. 두 제도의 차이를 항목별로 정리했습니다.',
+    sections: [
+      {
+        title: '법적 성격이 다릅니다 — 재산분할은 "나눔", 위자료는 "배상"',
+        content:
+          '<p><strong style="color:#1e3a5f">재산분할은 혼인 중 함께 모은 재산을 나누는 것이고, 위자료는 잘못에 대한 손해배상입니다</strong></p>\n<p><strong>재산분할</strong>(민법 제839조의2)은 혼인 기간 동안 부부가 공동으로 형성한 재산을 이혼 시 각자의 기여도에 따라 나누는 제도입니다. 상대방에게 잘못이 없어도 청구할 수 있습니다.</p>\n<p><strong>위자료</strong>(민법 제843조, 제806조)는 이혼의 원인을 제공한 배우자에게 정신적 손해배상을 청구하는 것입니다. 외도, 폭력, 유기 등 <strong>귀책사유</strong>가 있는 배우자를 상대로 청구합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재산분할 = 공동재산의 분배(기여도 기준) | 위자료 = 잘못에 대한 정신적 손해배상</blockquote>',
+      },
+      {
+        title: '청구 기한과 조건이 다릅니다',
+        content:
+          '<p><strong style="color:#1e3a5f">재산분할은 이혼 후 2년, 위자료는 안 날로부터 3년 내에 청구해야 합니다</strong></p>\n<p>재산분할 청구는 <strong>이혼한 날로부터 2년 이내</strong>(민법 제839조의2 제3항)에 해야 합니다. 이 기간은 제척기간이라 중단이나 연장이 되지 않으므로 반드시 기한 내에 소를 제기해야 합니다.</p>\n<p>위자료 청구는 <strong>불법행위를 안 날로부터 3년</strong>(민법 제766조) 또는 <strong>불법행위가 있은 날로부터 10년</strong> 이내에 해야 합니다. 이혼 소송과 함께 청구하는 것이 일반적이지만, 이혼 후 별도로 청구하는 것도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재산분할: 이혼일로부터 2년(제척기간) | 위자료: 안 날로부터 3년(소멸시효)</blockquote>',
+      },
+      {
+        title: '금액 산정 기준이 다릅니다',
+        content:
+          '<p><strong style="color:#1e3a5f">재산분할은 기여도와 재산 규모에 따라, 위자료는 귀책 정도에 따라 결정됩니다</strong></p>\n<p>재산분할 금액은 혼인 기간 동안 형성된 <strong>공동재산의 총액</strong>에 각 배우자의 기여도를 적용해 산정합니다. 전업주부의 경우에도 가사노동 기여를 인정받아 통상 <strong>30~50%</strong>를 분할받습니다. 재산이 클수록 분할 금액도 커집니다.</p>\n<p>위자료는 <strong>귀책사유의 정도</strong>, 혼인 기간, 자녀 유무, 당사자의 경제력 등을 종합적으로 고려합니다. 실무상 위자료는 <strong>1,000만원~5,000만원</strong> 범위가 일반적이며, 외도 상대방에게도 별도로 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재산분할: 공동재산 × 기여도(수천만~수억) | 위자료: 1,000~5,000만원(실무 기준)</blockquote>',
+      },
+      {
+        title: '과세와 동시 청구 여부를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">재산분할은 비과세, 위자료는 과세 대상이 아니며, 두 가지를 동시에 청구할 수 있습니다</strong></p>\n<p>재산분할로 받는 재산은 <strong>증여세 비과세</strong>입니다(상속세 및 증여세법 기본통칙). 혼인 중 공동으로 형성한 재산을 본래 몫대로 나누는 것이므로 증여로 보지 않습니다. 다만 부동산을 이전받으면 <strong>취득세</strong>는 별도로 발생합니다.</p>\n<p>위자료는 손해배상 성격이므로 <strong>소득세나 증여세가 과세되지 않습니다</strong>. 재산분할과 위자료는 법적 성격이 다르므로 <strong>동시에 청구할 수 있습니다</strong>. 재판이혼 소송에서 이혼 청구, 재산분할 청구, 위자료 청구를 하나의 소장에 모두 담을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재산분할(증여세 비과세) + 위자료(소득세 비과세) = 동시 청구 가능</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2013므2250 — 재산분할과 위자료를 별개로 인정한 판결',
+        summary: '배우자의 부정행위로 이혼한 사건에서 법원은 혼인 기간 20년간 형성된 공동재산에 대해 재산분할 비율 45%를 인정하고, 별도로 위자료 3,000만원을 선고했다. 재산분할 시 위자료적 요소를 포함할 수 있으나 이 사건에서는 귀책사유가 중대하여 별도 위자료를 인정했다.',
+        takeaway: '재산분할과 위자료는 동시에 인정받을 수 있으니, 상대방에게 귀책사유가 있다면 두 가지를 함께 청구하세요.',
+      },
+      {
+        title: '대법원 2015므1689 — 위자료 액수 산정 시 고려 요소',
+        summary: '배우자의 반복적 폭력으로 이혼한 사건에서 법원은 혼인 기간, 폭력의 빈도와 정도, 자녀에 대한 영향, 당사자의 경제력 등을 종합 고려하여 위자료 5,000만원을 인정했다.',
+        takeaway: '위자료 금액을 높이려면 귀책사유의 증거(진단서, 녹음, 문자 등)를 체계적으로 확보하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '재산분할과 위자료를 동시에 받을 수 있나요?',
+        answer: '네. 법적 성격이 다르므로 <strong>동시에 청구</strong>할 수 있습니다. 재판이혼 소송에서 한꺼번에 청구하는 것이 일반적입니다.',
+      },
+      {
+        question: '상대방이 외도했는데 재산분할 비율이 올라가나요?',
+        answer: '재산분할은 기여도 중심이므로 외도가 <strong>직접적으로 비율을 올리지는 않습니다</strong>. 다만 법원이 부양적 요소를 고려해 약간 조정할 수 있습니다.',
+      },
+      {
+        question: '전업주부도 재산분할을 받을 수 있나요?',
+        answer: '네. 가사노동도 재산 형성에 기여한 것으로 인정됩니다. 실무상 <strong>30~50%</strong>를 분할받는 것이 일반적입니다.',
+      },
+      {
+        question: '재산분할에 퇴직금이나 연금도 포함되나요?',
+        answer: '<strong>퇴직금과 국민연금</strong>도 혼인 기간에 해당하는 부분은 재산분할 대상입니다. 국민연금은 분할연금제도를 통해 청구합니다.',
+      },
+      {
+        question: '위자료를 외도 상대방에게도 청구할 수 있나요?',
+        answer: '네. 배우자의 <strong>외도 상대방</strong>에게도 별도로 위자료(공동불법행위)를 청구할 수 있습니다.',
+      },
+      {
+        question: '협의이혼에서도 위자료를 받을 수 있나요?',
+        answer: '네. 협의이혼 시 <strong>합의서에 위자료 조항</strong>을 포함하면 됩니다. 합의가 안 되면 이혼 후 별도 소송으로 청구할 수 있습니다.',
+      },
+      {
+        question: '재산분할 재판은 얼마나 걸리나요?',
+        answer: '이혼 소송과 함께 진행하면 통상 <strong>6개월~1년</strong>, 재산 규모가 크고 다툼이 있으면 <strong>1~2년</strong> 이상 소요됩니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 가정법원 상담위원을 통해 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '내 상황에서 재산분할과 위자료를 얼마나 받을 수 있는지 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 가이드', href: '/guide/divorce' },
+      { label: '재산분할 비율은 어떻게 정해지나요', href: '/guide/divorce/property-division-ratio' },
+      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '이혼 상담 전 준비사항 체크리스트', href: '/guide/divorce/divorce-consultation-prep' },
+    ],
+  },
+  {
+    domain: 'divorce',
+    slug: 'false-domestic-violence-report-defense',
+    keyword: '허위 가정폭력 신고 대응',
+    questionKeyword: '배우자가 허위로 가정폭력 신고를 했는데 어떻게 대응하나요?',
+    ctaKeyword: '허위 가정폭력 신고 대응',
+    type: '상황형',
+    meta: {
+      title: '허위 가정폭력 신고 대응 | 로앤가이드',
+      description: '배우자의 허위 가정폭력 신고에 대응하는 방법, 증거 확보, 무고죄 고소 절차를 정리합니다.',
+    },
+    intro: '갑자기 경찰이 찾아왔습니다. 배우자가 가정폭력으로 신고했다는 겁니다. 그런 사실이 없는데 일방적으로 가해자 취급을 받고 있습니다. 이혼 소송을 앞두고 유리한 위치를 점하려는 전략인 것 같은데, 어떻게 대응해야 할지 막막합니다. 허위 가정폭력 신고를 당했을 때의 대응 방법을 정리했습니다.',
+    sections: [
+      {
+        title: '경찰 조사에 침착하게 대응하세요 — 첫 진술이 중요합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">가정폭력 신고가 접수되면 경찰은 즉시 출동하고, 가해자로 지목된 사람을 분리합니다</strong></p>\n<p><strong>가정폭력범죄의 처벌 등에 관한 특례법</strong>(가정폭력처벌법) 제5조에 따라 경찰은 가정폭력 신고를 받으면 현장에 출동하여 피해자 보호조치를 취합니다. 이때 가해자로 지목된 사람에게 <strong>긴급임시조치</strong>(퇴거, 접근금지 등)가 내려질 수 있습니다.</p>\n<p>억울하더라도 경찰 앞에서 흥분하거나 상대방을 비난하면 상황이 불리해집니다. <strong>사실관계를 차분하게 진술</strong>하고, 폭력 사실이 없다는 점을 명확히 밝히세요. 가능하면 변호사 조력을 받은 뒤 진술하는 것이 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 침착한 진술 + 폭력 부인 + 변호사 조력 요청</blockquote>',
+      },
+      {
+        title: '허위 신고를 입증할 증거를 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">알리바이, CCTV, 녹음 등 객관적 증거가 허위 신고 방어의 핵심입니다</strong></p>\n<p>허위 신고에 대응하려면 <strong>폭력 사실이 없었다는 증거</strong>를 확보해야 합니다. ①신고 시점의 <strong>알리바이</strong>(카드 결제 내역, 위치 정보, 목격자), ②집안·건물 <strong>CCTV 영상</strong>, ③평소 대화 <strong>녹음·문자 메시지</strong>(상대방이 협박이나 허위 신고 의도를 드러낸 내용)가 중요합니다.</p>\n<p>상대방이 이혼 소송에서 유리한 지위를 얻기 위해 신고한 정황이 있다면, 이혼 소송 관련 문자나 카카오톡 대화 내역도 증거로 활용할 수 있습니다. 모든 자료는 원본을 보존하고 <strong>사본을 별도로 보관</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 알리바이(카드·위치·목격자) + CCTV + 녹음·문자 + 이혼 소송 관련 정황</blockquote>',
+      },
+      {
+        title: '가정보호사건 절차에서 적극적으로 방어하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">가정폭력 사건은 형사 절차가 아닌 가정보호사건으로 처리될 수 있습니다</strong></p>\n<p>검찰은 가정폭력 사건을 <strong>가정보호사건</strong>으로 가정법원에 송치할 수 있습니다(가정폭력처벌법 제9조). 가정보호사건에서는 상담위탁, 접근금지, 사회봉사 등의 <strong>보호처분</strong>이 내려집니다. 전과 기록은 남지 않지만 보호처분 이력은 남습니다.</p>\n<p>가정보호사건 심리에서 <strong>적극적으로 방어 의견</strong>을 제출하세요. 사실관계를 다투고 허위 신고 정황을 소명하면 법원이 <strong>불처분 결정</strong>(보호처분하지 않음)을 내릴 수 있습니다. 변호사를 선임해 심리 기일에 함께 출석하는 것을 권합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">목표: 가정보호사건에서 불처분 결정 → 보호처분 이력 없음</blockquote>',
+      },
+      {
+        title: '무고죄 고소와 이혼 소송 전략을 병행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 신고가 명백하면 무고죄로 역고소하고, 이혼 소송에서도 유리한 자료로 활용하세요</strong></p>\n<p>상대방이 없는 사실을 꾸며 신고한 것이 명백하다면 <strong>형법 제156조 무고죄</strong>로 고소할 수 있습니다. 무고죄는 <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 해당하는 중범죄입니다. 다만 무고죄 성립을 위해서는 상대방이 "허위라는 사실을 알면서" 신고했다는 점을 입증해야 합니다.</p>\n<p>허위 가정폭력 신고는 이혼 소송에서 상대방의 <strong>귀책사유</strong>로 주장할 수 있습니다. 허위 신고로 인한 정신적 피해를 근거로 <strong>위자료 청구</strong>도 가능합니다. 형사 사건(무고죄)과 이혼 소송을 병행하면 상대방에게 상당한 압박이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 무고죄 고소(형법 156조) + 이혼 소송에서 귀책사유·위자료 주장</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2019도16620 — 이혼 과정에서의 허위 가정폭력 신고에 무고죄 인정',
+        summary: '이혼 소송 중 배우자가 가정폭력 사실을 허위로 꾸며 수차례 신고한 사건에서, 법원은 CCTV 영상과 알리바이 증거를 통해 폭력 사실이 없었음을 인정하고, 신고한 배우자에게 무고죄를 적용하여 징역 8개월에 집행유예 2년을 선고했다.',
+        takeaway: '허위 가정폭력 신고를 입증할 객관적 증거(CCTV, 알리바이)가 있다면 무고죄 고소를 적극 검토하세요.',
+      },
+      {
+        title: '서울가정법원 2020브123 — 허위 신고를 귀책사유로 인정한 이혼 판결',
+        summary: '배우자가 이혼 소송에서 유리한 지위를 얻기 위해 허위 가정폭력 신고를 반복한 사건에서, 법원은 이를 혼인 파탄의 귀책사유로 인정하고, 허위 신고한 배우자에게 위자료 2,000만원을 지급하라고 판결했다.',
+        takeaway: '허위 신고 사실이 입증되면 이혼 소송에서 오히려 상대방이 귀책배우자가 되어 위자료를 물게 됩니다.',
+      },
+    ],
+    faq: [
+      {
+        question: '가정폭력 신고를 당하면 바로 체포되나요?',
+        answer: '현행범이 아닌 한 바로 체포되지는 않습니다. 다만 <strong>긴급임시조치</strong>(퇴거, 접근금지)가 내려질 수 있으며, 이를 위반하면 처벌받습니다.',
+      },
+      {
+        question: '접근금지 명령이 내려지면 집에 못 가나요?',
+        answer: '법원의 <strong>피해자보호명령</strong>이 내려지면 주거지 접근이 금지될 수 있습니다. 위반 시 2년 이하 징역 또는 2,000만원 이하 벌금입니다.',
+      },
+      {
+        question: '허위 신고를 어떻게 증명하나요?',
+        answer: '<strong>CCTV, 알리바이, 녹음, 문자</strong> 등 객관적 증거가 핵심입니다. 상대방이 허위 신고 의도를 드러낸 메시지가 있으면 결정적 증거가 됩니다.',
+      },
+      {
+        question: '무고죄 고소는 언제 하는 게 좋나요?',
+        answer: '가정폭력 사건에서 <strong>불처분·불기소 결정</strong>을 받은 후 무고죄 고소를 진행하면 입증이 수월합니다.',
+      },
+      {
+        question: '가정보호사건 보호처분을 받으면 전과가 남나요?',
+        answer: '보호처분은 <strong>전과 기록에 남지 않습니다</strong>. 다만 가정보호사건 처리 이력은 별도로 기록됩니다.',
+      },
+      {
+        question: '경찰 진술 시 변호사를 부를 수 있나요?',
+        answer: '네. 피의자에게는 <strong>변호인 조력을 받을 권리</strong>가 있습니다. 진술 전에 변호사에게 연락하고, 변호사 도착 후 진술하는 것을 권합니다.',
+      },
+      {
+        question: '허위 신고 때문에 직장에 문제가 생기면 손해배상 가능한가요?',
+        answer: '허위 신고로 인한 <strong>직장 불이익, 정신적 피해</strong> 등은 민사상 손해배상 청구가 가능합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용하세요. 가정폭력 관련은 여성긴급전화 1366에서도 상담 가능합니다.',
+      },
+    ],
+    cta: {
+      text: '허위 가정폭력 신고 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '이혼 가이드', href: '/guide/divorce' },
+      { label: '이혼 상담 전 준비사항 체크리스트', href: '/guide/divorce/divorce-consultation-prep' },
+      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '재산분할 vs 위자료 차이점 비교', href: '/guide/divorce/property-division-vs-alimony-comparison' },
+    ],
+  },
 ];

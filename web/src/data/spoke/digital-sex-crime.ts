@@ -213,4 +213,96 @@ export const digitalSexCrimePages: SpokePage[] = [
       { label: '스토킹 즉시 대응법', href: '/guide/stalking/stalking-immediate-response' },
     ],
   },
+  {
+    domain: 'digital-sex-crime',
+    slug: 'hidden-camera-found-immediate-response',
+    keyword: '몰래카메라 발견했을 때 즉시 대응법',
+    questionKeyword: '몰래카메라를 발견했는데 어떻게 대응해야 하나요?',
+    ctaKeyword: '몰카 발견 즉시 대응',
+    type: '상황형',
+    meta: {
+      title: '몰래카메라 발견했을 때 즉시 대응법 | 로앤가이드',
+      description: '숙소, 화장실, 탈의실 등에서 몰래카메라를 발견했을 때 증거 보전, 경찰 신고, 피해 구제 절차를 정리했습니다.',
+    },
+    intro: '숙소 화장실에서 이상한 구멍을 발견했습니다. 자세히 보니 렌즈 같은 것이 보입니다. 심장이 쿵 내려앉지만 어떻게 해야 할지 모르겠습니다. 만져도 되는 건지, 바로 경찰에 신고해야 하는 건지, 영상이 이미 유포된 건 아닌지 공포가 밀려옵니다. 몰래카메라를 발견한 그 순간부터 해야 할 일을 정리했습니다.',
+    sections: [
+      {
+        title: '현장 보존 — 절대 만지지 말고 사진부터 찍으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">몰카 기기를 발견하면 손대지 말고 현재 상태 그대로 촬영하세요</strong></p>\n<p>몰래카메라를 발견했을 때 가장 중요한 것은 <strong>현장 보존</strong>입니다. 기기를 뽑거나 만지면 지문, 설치 방법 등 핵심 증거가 훼손됩니다. 스마트폰으로 기기의 위치, 각도, 주변 환경을 <strong>여러 각도에서 사진과 동영상</strong>으로 기록하세요.</p>\n<p>발견 시점의 <strong>날짜, 시각, 장소(주소)</strong>를 메모에 남기세요. 함께 있던 사람이 있다면 목격자로 확인해두는 것이 좋습니다. 숙소(에어비앤비, 펜션 등)라면 예약 내역 스크린샷도 저장하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시 행동: ①기기에 손대지 않기 ②사진·동영상 촬영 ③발견 시각·장소 메모 ④해당 공간 사용 중단</blockquote>',
+      },
+      {
+        title: '경찰 신고 — 112에 즉시 신고하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">성폭력범죄의 처벌 등에 관한 특례법 제14조 위반으로 112에 신고하세요</strong></p>\n<p>몰래카메라를 이용한 촬영은 <strong>카메라등이용촬영죄</strong>에 해당하며, 7년 이하의 징역 또는 5,000만 원 이하의 벌금에 처해집니다(성폭력처벌법 제14조 제1항). 112에 전화하여 "불법 촬영 기기를 발견했다"고 신고하면 경찰이 출동합니다.</p>\n<p>경찰이 도착하면 기기를 <strong>증거물로 수거</strong>하고, 내부 저장 데이터와 연결된 서버·클라우드를 분석합니다. 숙소·건물 관리자에게도 연락하여 CCTV 영상 확보를 요청하세요. 설치자를 특정하는 데 <strong>건물 출입 기록과 CCTV</strong>가 결정적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 방법: 112 전화 → "불법촬영 기기 발견" 신고 → 경찰 출동 대기 → 진술서 작성. 신고 시 사건번호를 반드시 받아두세요.</blockquote>',
+      },
+      {
+        title: '유포 여부 확인 — 디지털성범죄피해자지원센터 활용',
+        content:
+          '<p><strong style="color:#1e3a5f">촬영물이 유포되었는지 확인하고, 유포된 경우 즉시 삭제 지원을 요청하세요</strong></p>\n<p><strong>디지털성범죄피해자지원센터</strong>(전화 02-735-8994)에 연락하면 촬영물의 온라인 유포 여부를 모니터링하고, 유포된 경우 <strong>삭제 지원</strong>을 받을 수 있습니다. 한국여성인권진흥원이 운영하며 24시간 상담이 가능합니다.</p>\n<p>성폭력처벌법 제14조 제2항에 따라 촬영물을 <strong>유포한 자는 7년 이하의 징역 또는 5,000만 원 이하의 벌금</strong>에 처해집니다. 영리 목적 유포는 3년 이상의 유기징역으로 가중 처벌됩니다. 방송통신심의위원회를 통해 해당 게시물에 대한 <strong>접속 차단 및 삭제 요청</strong>도 병행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지원센터: 디지털성범죄피해자지원센터(02-735-8994), 여성긴급전화(1366), 방송통신심의위원회(www.kocsc.or.kr)</blockquote>',
+      },
+      {
+        title: '피해 구제 — 손해배상 청구와 피해자 보호',
+        content:
+          '<p><strong style="color:#1e3a5f">형사 고소와 별도로 민사 손해배상 청구가 가능합니다</strong></p>\n<p>불법촬영 피해자는 촬영자(및 유포자)를 상대로 <strong>정신적 피해에 대한 위자료</strong>를 청구할 수 있습니다. 불법촬영 사건의 위자료는 피해 정도에 따라 <strong>수백만 원에서 수천만 원</strong>까지 인정됩니다. 촬영물이 유포된 경우 배상액이 크게 증가합니다.</p>\n<p>숙소에서 발생한 경우 <strong>숙소 운영자의 관리 책임</strong>도 물을 수 있습니다. 숙소 운영자가 정기적인 점검을 소홀히 했다면 공동불법행위에 따른 손해배상 책임이 인정될 수 있습니다. 법률구조공단(132)에서 무료 법률 지원을 받아 소송을 진행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">피해 구제: 형사 고소(성폭력처벌법 제14조) + 민사 손해배상 청구 + 숙소 운영자 책임 추궁을 병행하세요.</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '숙소 내 몰래카메라 설치 — 카메라등이용촬영죄(성폭력처벌법 제14조)',
+        summary: '펜션 운영자가 객실 화장실에 소형 카메라를 설치하여 투숙객을 촬영한 사안입니다. 법원은 카메라등이용촬영죄를 적용하여 징역 3년을 선고하고, 피해자 다수에게 각 500만 원의 위자료를 인정했습니다.',
+        takeaway: '숙소에서 몰카를 발견하면 숙소 운영자도 피의자가 될 수 있으므로, 운영자가 아닌 경찰에 먼저 신고하세요.',
+      },
+      {
+        title: '촬영물 유포에 대한 가중처벌 사례',
+        summary: '불법촬영물을 인터넷에 유포한 피고인에게 법원은 성폭력처벌법 제14조 제2항을 적용하여 징역 5년을 선고했습니다. 유포 범위가 넓고 피해자가 다수인 점이 양형에 크게 반영되었습니다.',
+        takeaway: '촬영물 유포가 의심되면 즉시 디지털성범죄피해자지원센터에 삭제 지원을 요청하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '몰카를 발견했는데 만져도 되나요?',
+        answer: '<strong>절대 만지지 마세요</strong>. 지문, 설치 흔적 등 증거가 훼손됩니다. 사진만 찍고 경찰 출동을 기다리세요.',
+      },
+      {
+        question: '몰카인지 확실하지 않으면 어떻게 하나요?',
+        answer: '의심스러운 물체를 발견하면 일단 <strong>사진을 찍고 112에 신고</strong>하세요. 경찰이 전문 장비로 확인합니다.',
+      },
+      {
+        question: '몰카 탐지 앱은 신뢰할 수 있나요?',
+        answer: '앱은 보조 수단일 뿐 <strong>100% 탐지는 불가능</strong>합니다. 의심이 되면 경찰이나 전문 탐지 업체에 의뢰하세요.',
+      },
+      {
+        question: '촬영물이 유포되었는지 어떻게 확인하나요?',
+        answer: '<strong>디지털성범죄피해자지원센터</strong>(02-735-8994)에서 모니터링 및 삭제 지원을 무료로 제공합니다.',
+      },
+      {
+        question: '숙소 운영자에게도 책임을 물을 수 있나요?',
+        answer: '숙소 운영자가 <strong>안전 관리 의무를 소홀히</strong> 한 경우 손해배상 책임을 물을 수 있습니다.',
+      },
+      {
+        question: '불법촬영 피해자인데 신원이 노출될까 걱정됩니다.',
+        answer: '성폭력 피해자는 <strong>수사·재판 과정에서 신원이 보호</strong>됩니다. 비공개 재판도 신청할 수 있습니다.',
+      },
+      {
+        question: '가해자를 모르는데 처벌이 가능한가요?',
+        answer: '네, <strong>성명불상으로 고소</strong>할 수 있습니다. 경찰이 기기 분석, CCTV, IP 추적 등으로 설치자를 특정합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(132), 디지털성범죄피해자지원센터(02-735-8994), 여성긴급전화(1366)를 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '몰래카메라 피해 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/digital-sex-crime',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '디지털성범죄 가이드', href: '/guide/digital-sex-crime' },
+      { label: '불법촬영 증거 확보와 신고', href: '/guide/digital-sex-crime/hidden-camera-evidence-report' },
+      { label: '스토킹 즉시 대응법', href: '/guide/stalking/stalking-immediate-response' },
+      { label: '디지털성범죄 진단', href: '/diagnosis/digital-sex-crime' },
+    ],
+  },
 ];

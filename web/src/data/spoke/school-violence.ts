@@ -351,4 +351,96 @@ export const schoolViolencePages: SpokePage[] = [
       { label: '폭행 피해 증거 모으는 법', href: '/guide/assault/assault-evidence-collection' },
     ],
   },
+  {
+    domain: 'school-violence',
+    slug: 'perpetrator-sanction-defense',
+    keyword: '학교폭력 가해자 조치 대응',
+    questionKeyword: '학교폭력 가해학생으로 조치를 받게 되었는데 어떻게 대응하나요?',
+    ctaKeyword: '학교폭력 가해자 조치 대응 확인',
+    type: '어디부터형',
+    meta: {
+      title: '학교폭력 가해자 조치 대응 | 로앤가이드',
+      description: '학교폭력 가해학생으로 지목되었을 때 학폭위 대응, 조치 감경, 행정심판·소송 절차를 정리했습니다.',
+    },
+    intro: '학교에서 전화가 왔습니다. 아이가 학교폭력 가해학생으로 지목되었고, 학교폭력대책심의위원회(학폭위)가 열린다고 합니다. "우리 아이가?"라는 생각에 머리가 하얘집니다. 어떤 조치를 받게 되는지, 학생부에 기재되는지, 대학 입시에 영향이 있는지 걱정이 밀려옵니다. 가해학생으로 지목되었을 때 부모가 해야 할 대응을 정리했습니다.',
+    sections: [
+      {
+        title: '사실관계 파악 — 아이의 이야기를 먼저 들으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">학폭위에 출석하기 전에 사건의 전후 맥락을 정확히 파악해야 합니다</strong></p>\n<p>아이에게 <strong>비난이 아닌 대화</strong>로 접근하세요. "왜 그랬어"가 아니라 "무슨 일이 있었는지 이야기해줄래?"라고 물어야 사실관계가 드러납니다. 가해 사실이 맞는지, 쌍방 다툼이었는지, 오해에 의한 지목인지에 따라 대응 방향이 완전히 달라집니다.</p>\n<p>아이의 진술을 바탕으로 <strong>관련 증거(카카오톡 대화, 목격자, CCTV 유무)</strong>를 확인하세요. 학교폭력예방법 제17조에 따라 학폭위는 피해학생·가해학생 양측의 진술을 듣고 조치를 결정합니다. 가해학생 측의 충분한 소명이 이루어지지 않으면 일방적으로 무거운 조치가 내려질 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크리스트: ①사건 경위 파악 ②관련 대화 기록 확보 ③목격자 확인 ④쌍방 과실 여부 점검</blockquote>',
+      },
+      {
+        title: '학폭위 출석 준비 — 서면 의견서와 증거 자료 제출',
+        content:
+          '<p><strong style="color:#1e3a5f">학폭위 출석 전에 서면 의견서를 작성하고 증거 자료를 준비하세요</strong></p>\n<p>학폭위에서는 보호자가 출석하여 <strong>의견을 진술</strong>할 수 있습니다. 이때 구두 진술만으로는 부족합니다. <strong>서면 의견서</strong>에 사건 경위, 가해학생의 반성 정도, 피해학생과의 관계 개선 노력 등을 구체적으로 기재하세요.</p>\n<p>변호사를 <strong>대리인으로 동반</strong>할 수 있습니다. 학교폭력 사건에 경험이 있는 변호사라면 학폭위 진행 절차와 조치 기준을 숙지하고 있어 효과적인 소명이 가능합니다. 피해학생 측에 <strong>진심 어린 사과</strong>를 했다면 사과문, 합의서 등도 증거로 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비 서류: 서면 의견서, 반성문, 사과문(사본), 합의서(있는 경우), 상담 기록, 목격자 진술서</blockquote>',
+      },
+      {
+        title: '조치의 종류와 감경 — 학교폭력예방법 제17조',
+        content:
+          '<p><strong style="color:#1e3a5f">가해학생에 대한 조치는 1호(서면사과)부터 9호(퇴학)까지 9단계입니다</strong></p>\n<p>학교폭력예방법 제17조에 따라 학폭위는 다음 조치를 내릴 수 있습니다: <strong>1호 서면사과, 2호 접촉·협박·보복행위 금지, 3호 교내봉사, 4호 사회봉사, 5호 학내외 전문가 특별교육·심리치료, 6호 출석정지, 7호 학급교체, 8호 전학, 9호 퇴학(고등학생만)</strong>. 중복 부과도 가능합니다.</p>\n<p>조치 결정 시 고려되는 요소는 <strong>①사안의 경중, ②가해학생의 반성 정도, ③피해학생과의 화해 여부, ④가해학생의 선도 가능성</strong>입니다. 초범이고 사안이 경미하며 반성과 합의가 이루어진 경우 1~3호의 가벼운 조치를 받을 가능성이 높습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감경 포인트: 반성문 + 피해학생 사과 및 합의 + 상담 프로그램 수강 + 재발 방지 계획서 제출</blockquote>',
+      },
+      {
+        title: '불복 절차 — 행정심판과 행정소송',
+        content:
+          '<p><strong style="color:#1e3a5f">조치 결과에 불복하면 행정심판 또는 행정소송으로 다툴 수 있습니다</strong></p>\n<p>학폭위 조치에 이의가 있으면 <strong>조치 통보를 받은 날로부터 15일 이내에 시·도 학생징계조정위원회에 재심</strong>을 청구할 수 있습니다. 재심 결과에도 불복하면 <strong>행정심판(90일 이내) 또는 행정소송(90일 이내)</strong>을 제기할 수 있습니다.</p>\n<p>행정소송에서는 <strong>학폭위 절차의 적법성(양측 진술 기회 보장 여부, 증거 조사 충실성)</strong>과 <strong>조치의 비례성(사안 대비 과도한 조치인지)</strong>이 쟁점이 됩니다. 법원이 조치가 과도하다고 판단하면 조치를 취소하거나 변경할 수 있습니다. 특히 전학(8호)이나 퇴학(9호) 같은 중한 조치는 법원에서 비례성 심사가 엄격하게 이루어집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불복 절차: 조치 통보 → 15일 내 재심 청구 → 재심 결과 불복 시 90일 내 행정심판 또는 행정소송</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '학폭위 전학 조치 취소 — 비례의 원칙 위반',
+        summary: '언어폭력으로 8호(전학) 조치를 받은 학생의 보호자가 행정소송을 제기한 사안입니다. 법원은 초범이고 폭행이 수반되지 않은 언어폭력에 대해 전학 조치는 비례의 원칙에 반한다며 조치를 취소했습니다.',
+        takeaway: '사안 대비 과도한 조치를 받았다면 재심 청구와 행정소송을 적극적으로 검토하세요.',
+      },
+      {
+        title: '학폭위 절차 하자로 조치 취소 사례',
+        summary: '가해학생 측에 충분한 소명 기회를 부여하지 않은 채 조치를 결정한 학폭위의 절차적 하자가 인정되어 법원이 조치를 취소한 사례입니다.',
+        takeaway: '학폭위에서 진술 기회가 제한되었다면 절차 위반을 근거로 불복할 수 있습니다.',
+      },
+    ],
+    faq: [
+      {
+        question: '학폭위 조치가 학생부에 기재되나요?',
+        answer: '1~3호는 <strong>졸업과 동시에 삭제</strong>되고, 4~9호는 졸업 후 2년 뒤 심의를 거쳐 삭제됩니다.',
+      },
+      {
+        question: '대학 입시에 영향이 있나요?',
+        answer: '학생부에 기재된 조치는 <strong>수시 학생부종합전형</strong> 등에서 불이익이 될 수 있습니다. 삭제 시기가 중요합니다.',
+      },
+      {
+        question: '학폭위에 변호사를 데려갈 수 있나요?',
+        answer: '네, 보호자 출석 시 <strong>변호사 등 대리인을 동반</strong>할 수 있습니다. 학교폭력 전문 변호사를 추천합니다.',
+      },
+      {
+        question: '피해학생과 합의하면 조치가 가벼워지나요?',
+        answer: '합의는 <strong>정상참작 요소</strong>이지 필수 감경 사유는 아닙니다. 다만 실무적으로 합의는 경감에 크게 도움이 됩니다.',
+      },
+      {
+        question: '쌍방 폭력인데 우리 아이만 가해자로 지목됐어요.',
+        answer: '쌍방 과실이 있다면 <strong>증거(대화 기록, 목격자 진술)</strong>를 확보하여 학폭위에서 소명하세요. 피해학생도 조치를 받을 수 있습니다.',
+      },
+      {
+        question: '재심 청구 기한은 언제까지인가요?',
+        answer: '조치 통보를 받은 날로부터 <strong>15일 이내</strong>에 시·도 학생징계조정위원회에 재심을 청구해야 합니다.',
+      },
+      {
+        question: '조치를 받으면 경찰 수사도 받나요?',
+        answer: '학폭위 절차와 형사 절차는 <strong>별개</strong>입니다. 폭행·상해가 수반되면 경찰 수사가 병행될 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132), 117 학교폭력 신고센터, 교육청 학교폭력 상담센터를 이용하세요.',
+      },
+    ],
+    cta: {
+      text: '학교폭력 가해자 조치에 대한 대응 방법을 확인해보세요',
+      link: '/diagnosis/school-violence',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '학교폭력 가이드', href: '/guide/school-violence' },
+      { label: '학교폭력 피해 신고 후 절차', href: '/guide/school-violence/school-violence-committee-procedure' },
+      { label: '학폭위 가해자 지목 시 부모 대응법', href: '/guide/school-violence/school-violence-accused-parent-response' },
+      { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
+    ],
+  },
 ];

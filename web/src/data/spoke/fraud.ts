@@ -774,4 +774,294 @@ export const fraudPages: SpokePage[] = [
       { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
     ],
   },
+  {
+    domain: 'fraud',
+    slug: 'fraud-crime-establishment-requirements',
+    keyword: '사기죄 성립 요건은 무엇인가요?',
+    questionKeyword: '사기죄가 성립하려면 어떤 요건이 필요한가요?',
+    ctaKeyword: '사기죄 성립 여부 확인',
+    type: 'Q&A형',
+    meta: {
+      title: '사기죄 성립 요건은 무엇인가요? | 로앤가이드',
+      description: '사기죄(형법 제347조) 성립에 필요한 4가지 요건과 판례 기준을 구체적으로 정리했습니다.',
+    },
+    intro: '거래 상대방이 약속을 지키지 않았습니다. 돈을 빌려주고 받지 못하거나, 물건 대금을 보냈는데 상품이 오지 않는 상황입니다. "사기 아닌가?"라는 생각이 들지만, 막상 고소하려니 "단순 채무불이행이지 사기는 아닙니다"라는 말을 듣기도 합니다. 사기죄가 성립하려면 정확히 어떤 요건이 갖춰져야 하는지, 법조문과 판례를 기준으로 정리했습니다.',
+    sections: [
+      {
+        title: '기망행위 — 상대방을 속이는 행위가 있어야 합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">사기죄의 출발점은 "거짓말"이 아니라 "기망행위"입니다</strong></p>\n<p>형법 제347조의 사기죄가 성립하려면 먼저 <strong>기망행위</strong>가 있어야 합니다. 기망이란 사실을 허위로 고지하거나, 중요한 사실을 고의로 은폐하여 상대방의 판단을 그르치게 하는 행위입니다. 단순한 과장 광고와 기망은 구별됩니다.</p>\n<p>대법원은 "거래의 중요 부분에 관하여 구체적 사실을 거래 관행상 신의성실에 반하는 방법으로 허위 고지한 경우"를 기망행위로 봅니다(대법원 2017도9232). 작위뿐 아니라 <strong>부작위(알리지 않는 것)</strong>도 고지의무가 있는 경우 기망이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 거래의 중요 사항에 대해 허위로 말하거나 고의로 숨기면 기망행위에 해당</blockquote>',
+      },
+      {
+        title: '착오와 처분행위 — 속아서 재산을 내놓아야 합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">기망 → 착오 → 처분행위의 인과관계가 핵심입니다</strong></p>\n<p>기망행위로 인해 피해자가 <strong>착오에 빠지고</strong>, 그 착오를 기초로 재산적 처분행위(돈 이체, 물건 교부 등)를 해야 합니다. 착오 없이 자발적으로 돈을 준 경우에는 사기가 성립하지 않습니다.</p>\n<p>대법원 판례(2017도9232)에 따르면 "피기망자의 착오와 처분행위 사이에 인과관계가 인정되어야" 합니다. 예컨대 투자 수익을 보장한다고 거짓말하여 투자금을 받았다면, 거짓 수익 보장(기망) → 수익이 날 것이라는 오판(착오) → 투자금 지급(처분행위)의 흐름이 성립합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "속아서 돈을 줬다"는 인과관계를 증명할 수 있어야 사기죄 성립</blockquote>',
+      },
+      {
+        title: '편취의 고의 — 처음부터 속일 의도가 있었는지가 관건입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">"나중에 못 갚은 것"과 "처음부터 갚을 생각이 없었던 것"은 다릅니다</strong></p>\n<p>사기죄는 <strong>고의범</strong>입니다. 행위 시점에 편취(재산을 빼앗으려는) 의사가 있어야 합니다. 대법원은 차용 사기에서 "차용 당시 변제 의사와 능력"을 핵심 판단 기준으로 봅니다. 빌릴 당시 이미 과도한 채무가 있었거나, 소득이 전혀 없었다면 편취의 고의가 추정될 수 있습니다.</p>\n<p>반대로, 빌릴 당시 충분한 수입이 있었는데 사업 실패로 못 갚게 된 경우에는 <strong>단순 채무불이행</strong>으로 판단되어 사기죄가 성립하지 않을 수 있습니다. 이 구분이 실무에서 가장 많은 다툼이 발생하는 부분입니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 상황이 사기죄에 해당하는지 궁금하다면 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 사기 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 차용 당시의 재정 상태, 소득, 기존 채무 규모가 편취 고의 판단의 핵심 자료</blockquote>',
+      },
+      {
+        title: '재산상 손해 — 피해자에게 실제 재산적 손해가 발생해야 합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">재산적 손해가 없으면 사기죄 기수(旣遂)가 되지 않습니다</strong></p>\n<p>사기죄의 마지막 요건은 <strong>재산상 손해</strong>입니다. 피해자의 재산이 감소하거나 재산적 이익을 상실해야 합니다. 이체한 금액, 교부한 물건의 가치 등이 손해액이 됩니다. 손해액이 특정되지 않으면 수사 단계에서 어려움이 생길 수 있으므로, 구체적인 금액과 증거를 정리해두세요.</p>\n<p>참고로, 피해자가 속았더라도 실제 손해가 발생하기 전이면 <strong>사기 미수</strong>에 해당합니다(형법 제352조). 미수도 처벌 대상이지만, 기수보다 양형이 낮습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 이체 내역, 영수증, 계약서 등으로 피해 금액을 구체적으로 특정</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '차용 당시 과다채무 상태에서 빌린 돈 — 사기죄 유죄(대법원 2017도9232)',
+        summary:
+          '피고인이 이미 수억 원의 채무를 지고 있으면서 "곧 큰 돈이 들어온다"고 거짓말하여 돈을 빌린 사건에서, 대법원은 차용 당시 변제 능력이 없었으므로 편취의 고의가 인정된다고 판단했습니다.',
+        takeaway:
+          '비슷한 상황이라면 상대방의 차용 당시 재정 상태(기존 채무, 소득)를 파악할 수 있는 자료를 확보하세요.',
+      },
+      {
+        title: '사업 실패로 못 갚은 경우 — 사기죄 무죄',
+        summary:
+          '관련 판례에서 피고인이 차용 당시 정상적인 사업을 운영하고 있었고, 이후 사업 실패로 변제하지 못한 경우에는 편취 고의가 인정되지 않아 사기죄 무죄가 선고된 사례가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 상대방이 돈을 빌릴 당시 정말 갚을 능력이 있었는지를 기준으로 사기 성립 여부를 판단하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '사기죄의 공소시효는 몇 년인가요?',
+        answer: '사기죄의 공소시효는 <strong>10년</strong>입니다. 피해를 안 날로부터가 아니라 범죄 행위가 끝난 날부터 기산합니다.',
+      },
+      {
+        question: '돈을 안 갚으면 무조건 사기인가요?',
+        answer: '아닙니다. <strong>빌릴 때 갚을 의사와 능력이 있었다면</strong> 사기가 아니라 민사상 채무불이행입니다.',
+      },
+      {
+        question: '사기죄 처벌 수위는 어느 정도인가요?',
+        answer: '형법 제347조에 따라 <strong>10년 이하 징역 또는 2,000만원 이하 벌금</strong>입니다.',
+      },
+      {
+        question: '사기 피해 금액이 적어도 고소할 수 있나요?',
+        answer: '금액에 관계없이 고소 가능합니다. 다만 <strong>50만원 미만</strong>이면 수사 우선순위가 낮아질 수 있습니다.',
+      },
+      {
+        question: '구두 약속만으로도 사기죄가 성립하나요?',
+        answer: '네, <strong>구두 약속도 기망행위</strong>에 해당할 수 있습니다. 다만 입증이 어렵기 때문에 녹음이나 문자 등 증거가 중요합니다.',
+      },
+      {
+        question: '사기 미수도 처벌되나요?',
+        answer: '네, 형법 제352조에 따라 <strong>사기 미수</strong>도 처벌됩니다. 다만 기수보다 감경됩니다.',
+      },
+      {
+        question: '사기죄와 횡령죄는 어떻게 다른가요?',
+        answer: '사기는 <strong>속여서 재산을 취득</strong>하는 것이고, 횡령은 맡긴 재산을 빼돌리는 것입니다. 재산 취득 경위가 다릅니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '내 상황이 사기죄에 해당하는지 무료로 확인해보세요',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
+      { label: '사기죄 처벌 수위와 합의 시 감형 범위', href: '/guide/fraud/fraud-penalty-settlement-reduction' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+    ],
+  },
+  {
+    domain: 'fraud',
+    slug: 'fraud-accused-response',
+    keyword: '사기 고소당했을때',
+    questionKeyword: '사기로 고소당했는데 어떻게 대응해야 하나요?',
+    ctaKeyword: '사기 고소 대응',
+    type: '어디부터형',
+    meta: {
+      title: '사기 고소당했을때 | 로앤가이드',
+      description: '사기로 고소당했을 때 초기 대응부터 수사 절차, 합의 방법까지 단계별로 정리했습니다.',
+    },
+    intro: '어느 날 경찰서에서 연락이 왔습니다. 누군가 나를 사기죄로 고소했다는 것입니다. 당황스럽고, 무슨 말을 해야 할지 모르겠습니다. "일단 경찰서에 가서 사실대로 말하면 되겠지"라고 생각하지만, 준비 없이 출석하면 불리해질 수 있습니다. 사기로 고소당했을 때 어디서부터 무엇을 해야 하는지 정리했습니다.',
+    timelineSteps: ['출석 전 준비', '경찰 조사 대응', '합의 여부 결정', '검찰·재판 대비'],
+    sections: [
+      {
+        title: '출석 전에 반드시 준비하세요 — 첫 진술이 사건의 방향을 좌우합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">준비 없이 경찰 출석하면 불리한 진술을 남길 수 있습니다</strong></p>\n<p>사기 고소를 당하면 경찰에서 <strong>피의자 출석요구서</strong>가 옵니다. 이때 바로 출석하기보다 먼저 고소장 내용을 확인하세요. 형사소송법 제200조에 따라 출석요구에 응하지 않으면 체포영장이 발부될 수 있으므로, 일정을 조율하되 출석 자체를 거부하지는 마세요.</p>\n<p>고소인이 주장하는 사실관계를 파악한 뒤, 거래 경위, 대화 기록, 이체 내역 등 <strong>내 입장을 증명할 자료</strong>를 정리하세요. 변호사 조력을 받는 것이 가장 안전하지만, 최소한 사건 경위를 시간 순서대로 메모해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 고소장 확인, 거래 경위 정리, 증거 자료 수집, 변호사 상담 검토</blockquote>',
+      },
+      {
+        title: '경찰 조사에서 진술권을 제대로 행사하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">형사소송법상 피의자는 진술거부권이 있습니다</strong></p>\n<p>경찰 조사에서 가장 중요한 것은 <strong>진술거부권</strong>입니다. 헌법 제12조 제2항과 형사소송법 제244조의3에 따라, 불리한 진술을 거부할 수 있습니다. 모든 질문에 답해야 하는 것이 아닙니다.</p>\n<p>특히 "사기 의도가 있었느냐"는 질문에 대해 즉석에서 답변하면, 그 진술이 재판에서 불리하게 작용할 수 있습니다. 확실하지 않은 부분은 <strong>"확인 후 답변하겠다"</strong>고 말해도 됩니다. 조사 후 조서 내용을 반드시 꼼꼼히 확인하고 서명하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 진술거부권 행사 가능, 조서 내용 확인 후 서명, 불확실한 부분은 유보</blockquote>',
+      },
+      {
+        title: '합의를 통해 형사처벌을 줄일 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">합의는 양형에 가장 큰 영향을 미치는 요소입니다</strong></p>\n<p>사기죄는 재산범죄이므로 <strong>피해 회복(합의)</strong>이 양형에 결정적입니다. 피해자와 합의하고 합의서와 처벌불원서를 받으면, 기소유예·선고유예·집행유예 등 유리한 처분을 받을 가능성이 높아집니다.</p>\n<p>합의 시에는 합의금 액수, 처벌불원 의사, 향후 민사 청구 포기 여부를 <strong>합의서에 명확히</strong> 기재해야 합니다. 합의금을 마련하기 어렵다면 <strong>공탁</strong>(형사소송법 제334조)을 통해 변제 의사를 증명하는 방법도 있습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">사기 고소 대응 방법이 궁금하다면 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 사기 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 합의금 마련, 합의서 작성, 처벌불원서 확보, 공탁 검토</blockquote>',
+      },
+      {
+        title: '검찰 송치 후에도 대응할 수 있습니다 — 의견서 제출',
+        content:
+          '<p><strong style="color:#1e3a5f">검찰 단계에서 변호인 의견서 제출이 중요합니다</strong></p>\n<p>경찰 수사가 끝나면 사건이 검찰로 <strong>송치</strong>됩니다. 검찰에서는 기소 여부를 결정하는데, 이 단계에서 변호인 의견서를 제출하면 불기소 처분(혐의없음·기소유예)을 받을 가능성이 있습니다.</p>\n<p>의견서에는 ① 사기 고의가 없었다는 점, ② 피해 회복 노력, ③ 거래 경위에 대한 소명을 포함하세요. 형법 제347조 사기죄의 구성요건인 <strong>기망행위와 편취 고의</strong>가 없었음을 객관적 자료로 증명하는 것이 핵심입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 변호인 의견서, 편취 고의 부정 자료, 피해 회복 증빙, 탄원서</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '채무불이행으로 판단되어 불기소 처분된 사례',
+        summary:
+          '피고소인이 돈을 빌릴 당시 안정적인 직장에 다니고 있었고, 이후 실직으로 인해 변제하지 못한 사건에서 검찰은 편취 고의를 인정하기 어렵다고 판단하여 혐의없음(불기소) 처분하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 차용 당시의 재직증명서, 급여 내역 등 변제 능력을 증명할 수 있는 자료를 확보하세요.',
+      },
+      {
+        title: '합의 후 기소유예 처분된 사례',
+        summary:
+          '사기 고소를 당한 피의자가 수사 중 피해자에게 피해 금액 전액을 변제하고 처벌불원서를 받은 사건에서, 검찰은 초범인 점과 피해 회복을 고려하여 기소유예 처분하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 가능한 한 빨리 피해자에게 연락하여 피해 회복과 합의를 시도하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '사기 고소를 당하면 바로 체포되나요?',
+        answer: '일반적으로 바로 체포되지는 않습니다. <strong>출석요구서</strong>가 먼저 오며, 출석을 거부하면 체포영장이 발부될 수 있습니다.',
+      },
+      {
+        question: '고소당했는데 변호사가 꼭 필요한가요?',
+        answer: '<strong>필수는 아니지만 강력히 권장</strong>합니다. 첫 진술에서 불리한 내용이 들어가면 이후 번복이 매우 어렵습니다.',
+      },
+      {
+        question: '사기죄 처벌 수위는 어느 정도인가요?',
+        answer: '형법 제347조에 따라 <strong>10년 이하 징역 또는 2,000만원 이하 벌금</strong>입니다.',
+      },
+      {
+        question: '합의하면 처벌을 안 받을 수 있나요?',
+        answer: '합의 자체로 무죄가 되지는 않지만, <strong>기소유예·선고유예·집행유예</strong> 등 유리한 처분을 받을 가능성이 높아집니다.',
+      },
+      {
+        question: '진술거부권을 행사하면 불리해지나요?',
+        answer: '아닙니다. <strong>헌법상 보장된 권리</strong>이며, 진술거부 자체가 불리한 증거로 사용될 수 없습니다.',
+      },
+      {
+        question: '경찰 조사 시 녹음할 수 있나요?',
+        answer: '피의자 입장에서 조사 과정을 <strong>녹음할 권리</strong>가 있습니다(형사소송법 제244조의2).',
+      },
+      {
+        question: '고소 취하가 되면 어떻게 되나요?',
+        answer: '사기죄는 반의사불벌죄가 아니므로 고소 취하만으로 처벌이 면제되지는 않습니다. 다만 <strong>양형에 유리하게</strong> 작용합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '사기 고소를 당했다면 지금 바로 대응 방법을 확인해보세요',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
+      { label: '고소당했는데 합의하면 처벌 안 받나요', href: '/guide/fraud/fraud-accused-settlement-penalty' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+    ],
+  },
+  {
+    domain: 'fraud',
+    slug: 'fraud-false-accusation-defense',
+    keyword: '사기 무고 대응',
+    questionKeyword: '사기로 무고당했을 때 어떻게 대응해야 하나요?',
+    ctaKeyword: '사기 무고 대응 방법',
+    type: '상황형',
+    meta: {
+      title: '사기 무고 대응 | 로앤가이드',
+      description: '사기로 허위 고소당했을 때 무고죄 반대고소와 혐의 벗는 방법을 단계별로 정리했습니다.',
+    },
+    intro: '정상적으로 거래했는데, 상대방이 "사기당했다"며 고소했습니다. 억울하지만 피의자 신분으로 경찰 조사를 받아야 하는 상황입니다. 분명 사기가 아닌데, 내가 결백하다는 것을 어떻게 증명해야 할까요? 사실관계를 모두 안다고 해서 자동으로 무혐의가 나오는 것은 아닙니다. 체계적으로 대응해야 합니다.',
+    timelineSteps: ['고소 내용 파악', '반박 증거 수집', '수사 대응', '무고 반대고소 검토'],
+    sections: [
+      {
+        title: '먼저 고소장 내용을 정확히 파악하세요 — 어떤 혐의인지 알아야 반박합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">고소장에 기재된 "사기의 내용"을 구체적으로 확인하세요</strong></p>\n<p>출석요구서를 받으면 변호사를 통해 <strong>고소장 사본 열람</strong>을 요청하세요. 고소인이 주장하는 기망행위, 피해 금액, 시기 등을 구체적으로 파악해야 합니다. 형법 제347조의 사기죄는 기망행위가 핵심이므로, 고소인이 "어떤 거짓말에 속았다"고 주장하는지를 먼저 알아야 합니다.</p>\n<p>고소 내용을 파악한 뒤, 각 주장에 대해 <strong>반박할 수 있는 증거</strong>를 대응시켜 정리하세요. 고소인의 주장이 사실과 다른 부분을 명확히 하는 것이 첫 번째 단계입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 고소장 열람, 고소인 주장 항목별 정리, 반박 증거 대응표 작성</blockquote>',
+      },
+      {
+        title: '사기 의도가 없었다는 증거를 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">편취 고의 부정이 무혐의의 핵심입니다</strong></p>\n<p>사기죄에서 가장 중요한 것은 <strong>편취의 고의</strong>입니다. 처음부터 속일 생각이 없었다는 점을 객관적으로 증명해야 합니다. 거래 당시의 이메일, 문자, 계약서, 이행 노력의 흔적(일부 변제, 물품 배송 시도 등)이 핵심 증거입니다.</p>\n<p>예를 들어 돈을 빌린 사건이라면 ① 차용 당시 <strong>안정적 소득</strong>이 있었다는 증거(급여 명세서, 재직증명서), ② 일부 변제한 이체 내역, ③ "곧 갚겠다"는 대화 내역 등이 편취 고의를 부정하는 자료가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 차용 당시 재정 증빙, 일부 변제 내역, 이행 노력 자료, 대화 기록</blockquote>',
+      },
+      {
+        title: '수사 단계에서 적극적으로 소명하세요 — 의견서 제출',
+        content:
+          '<p><strong style="color:#1e3a5f">경찰·검찰 단계에서 의견서와 증거를 제출하세요</strong></p>\n<p>경찰 조사 시 <strong>변호인 의견서</strong>를 함께 제출하면 효과적입니다. 의견서에는 ① 사기 구성요건 미충족 사유, ② 고소인 주장의 허위 부분, ③ 정상 거래였음을 증명하는 자료를 포함하세요.</p>\n<p>검찰 송치 후에도 추가 의견서 제출이 가능합니다. 수사기관은 양쪽의 주장과 증거를 비교하므로, <strong>적극적으로 소명</strong>하는 것이 중요합니다. 수동적으로 기다리면 고소인의 일방적 주장에 의해 기소될 수 있습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">사기 무고 대응 방법이 궁금하다면 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 사기 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 의견서 + 증거 제출로 적극 소명, 검찰 단계에서도 추가 제출 가능</blockquote>',
+      },
+      {
+        title: '무고죄 반대고소를 검토하세요 — 허위 고소에는 법적 책임이 따릅니다',
+        content:
+          '<p><strong style="color:#1e3a5f">형법 제156조 무고죄는 10년 이하 징역으로 처벌됩니다</strong></p>\n<p>상대방이 <strong>허위 사실</strong>로 고소한 것이 명백하다면, 형법 제156조 무고죄로 반대고소할 수 있습니다. 무고죄는 "타인으로 하여금 형사처분 또는 징계처분을 받게 할 목적으로 공무소 또는 공무원에 대하여 허위의 사실을 신고"하는 범죄입니다.</p>\n<p>무고죄 반대고소는 원래 사기 혐의에 대한 <strong>무혐의 처분 또는 무죄 판결</strong>을 받은 후에 하는 것이 일반적이지만, 수사 진행 중에도 가능합니다. 다만 무고죄 성립 요건은 엄격하여, 고소인이 "사실이 아닌 줄 알면서" 고소했다는 점을 증명해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 무고죄(형법 제156조) — 허위 사실을 알면서 고소한 경우 10년 이하 징역</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '거래 분쟁을 사기로 고소한 사건 — 피고소인 무혐의 처분',
+        summary:
+          '중고거래에서 하자 있는 물건을 받은 구매자가 판매자를 사기로 고소했으나, 판매자가 하자 발생 후 교환·환불을 제안한 대화 기록을 제출하여 편취 고의가 부정되어 무혐의 처분을 받은 사례입니다.',
+        takeaway:
+          '비슷한 상황이라면 문제 발생 후 해결을 위해 노력한 흔적(대화 기록, 환불 시도 등)을 반드시 보관하세요.',
+      },
+      {
+        title: '허위 사기 고소에 대해 무고죄 유죄 선고된 사례',
+        summary:
+          '채무자가 돈을 갚지 않자 채권자가 실제로는 사기가 아님을 알면서도 압박 수단으로 사기 고소를 했고, 이후 무고죄로 기소되어 유죄 판결을 받은 사례입니다.',
+        takeaway:
+          '비슷한 상황이라면 상대방이 금전 압박 목적으로 고소했다는 정황(합의 요구 문자, 협박성 발언 등)을 증거로 확보하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '무고죄 성립 요건은 무엇인가요?',
+        answer: '형법 제156조에 따라 <strong>허위 사실임을 알면서</strong> 형사처벌 목적으로 고소·고발한 경우 성립합니다.',
+      },
+      {
+        question: '무고죄 공소시효는 얼마인가요?',
+        answer: '무고죄의 공소시효는 <strong>10년</strong>입니다.',
+      },
+      {
+        question: '사기 무혐의를 받으면 자동으로 무고가 성립하나요?',
+        answer: '아닙니다. 무혐의와 무고는 별개입니다. 고소인이 <strong>허위임을 알면서 고소했다는 점</strong>을 따로 증명해야 합니다.',
+      },
+      {
+        question: '수사 중에도 반대고소할 수 있나요?',
+        answer: '네, <strong>수사 진행 중에도 무고죄 반대고소</strong>가 가능합니다. 다만 원래 혐의에 대한 결과가 나온 후가 더 유리할 수 있습니다.',
+      },
+      {
+        question: '사기로 고소당하면 전과 기록이 남나요?',
+        answer: '무혐의·불기소 처분을 받으면 <strong>전과 기록은 남지 않습니다</strong>. 다만 수사 경력은 조회될 수 있습니다.',
+      },
+      {
+        question: '무고 반대고소와 명예훼손 고소를 동시에 할 수 있나요?',
+        answer: '네, <strong>무고죄와 명예훼손죄는 별개의 범죄</strong>이므로 동시에 고소할 수 있습니다.',
+      },
+      {
+        question: '억울하게 고소당했는데 합의 요청이 왔습니다. 어떻게 해야 하나요?',
+        answer: '합의 수락 여부는 자유이지만, <strong>무혐의를 받을 수 있는 상황이라면 합의보다 결백 증명</strong>이 우선입니다. 변호사 상담을 권합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '사기로 억울하게 고소당했다면 대응 방법을 확인해보세요',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
+      { label: '사기죄 처벌 수위와 합의 시 감형 범위', href: '/guide/fraud/fraud-penalty-settlement-reduction' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+    ],
+  },
 ];
