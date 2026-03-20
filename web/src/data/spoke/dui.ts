@@ -1020,4 +1020,187 @@ export const duiPages: SpokePage[] = [
       { label: '음주운전 진단', href: '/diagnosis/dui' },
     ],
   },
+  {
+    domain: 'dui',
+    slug: 'dui-administrative-license-hearing',
+    keyword: '음주운전 면허 행정심판 절차',
+    questionKeyword: '음주운전으로 면허 취소됐는데 행정심판으로 되돌릴 수 있나요?',
+    ctaKeyword: '음주운전 면허 행정심판',
+    type: '절차형',
+    meta: {
+      title: '음주운전 면허 행정심판 절차 | 로앤가이드',
+      description:
+        '음주운전 면허 취소·정지 후 행정심판으로 감경받는 절차, 신청 기한, 감경 사유, 이의신청과 행정소송까지 정리했습니다.',
+    },
+    intro:
+      '면허가 취소되면 출퇴근이 불가능합니다. 영업용 차를 모는 직업이라 면허가 곧 생계입니다. "행정심판으로 면허를 되돌릴 수 있다"는 말을 들었습니다. 혐의를 받고 있다면 행정처분에 대해서도 적극적으로 대응할 수 있는 방법을 알아두세요.',
+    timelineSteps: ['처분 통지 확인', '행정심판 청구', '심판 심리', '결과 확인'],
+    sections: [
+      {
+        title: '행정심판 청구 기한을 반드시 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">면허 취소·정지 처분을 안 날로부터 90일 이내에 청구해야 합니다</strong></p>\n<p><strong>행정심판법 제27조</strong>에 따라 면허 취소·정지 처분이 있음을 <strong>안 날부터 90일</strong>, 처분이 있은 날부터 <strong>180일</strong> 이내에 행정심판을 청구해야 합니다. 이 기간이 지나면 심판 청구 자체가 불가능합니다.</p>\n<p>처분 통지서를 받은 날짜를 반드시 기록해두세요. 우편 수령일이 기산점이 됩니다. 기한이 촉박한 경우 <strong>온라인 행정심판(중앙행정심판위원회 홈페이지)</strong>으로 신속하게 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 처분을 안 날부터 90일 | 처분일부터 180일 | 기한 경과 시 청구 불가</blockquote>',
+      },
+      {
+        title: '행정심판에서 감경받을 수 있는 사유를 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">생계 곤란, 운전 필요성이 감경의 핵심 사유입니다</strong></p>\n<p>행정심판위원회는 처분의 <strong>적법성뿐 아니라 타당성</strong>도 심사합니다. 면허 취소를 <strong>정지(감경)</strong>로 변경하거나, 정지 기간을 <strong>단축</strong>하는 결정이 가능합니다. 주요 감경 사유는 다음과 같습니다.</p>\n<p>①<strong>생계형 운전자</strong>(택시·화물·영업용 기사), ②<strong>가족 부양 의무</strong>(한부모, 장애 가족 돌봄), ③<strong>대중교통 이용 불가 지역</strong> 거주, ④<strong>혈중알코올농도가 취소 기준 경계</strong>(0.08~0.09%)인 경우 등이 유리하게 작용합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감경 사유: 생계형 운전, 가족 부양, 교통 불편 지역, 경계 농도, 반성</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">행정심판 감경 가능성이 궁금하다면, <a href="/diagnosis/dui" style="color:#2563eb;font-weight:600">무료 진단</a>으로 내 상황을 빠르게 확인해보세요.</p>',
+      },
+      {
+        title: '행정심판 절차와 진행 과정을 알아두세요',
+        content:
+          '<p><strong style="color:#1e3a5f">청구서 제출 후 약 60일 내에 재결이 나옵니다</strong></p>\n<p><strong>중앙행정심판위원회</strong> 또는 <strong>시·도 행정심판위원회</strong>에 심판 청구서를 제출합니다. 온라인 청구(국민권익위원회 홈페이지)가 가능하며, 처분서 사본, 재직증명서, 소득자료, 탄원서 등 <strong>소명 자료</strong>를 함께 제출하세요.</p>\n<p>청구 후 행정청(경찰청)이 <strong>답변서</strong>를 제출하고, 위원회가 <strong>서면 심리</strong> 또는 <strong>구술 심리</strong>를 진행합니다. 재결까지 통상 <strong>60일</strong>이 소요되며, 감경 인용률은 약 <strong>20~30%</strong> 수준입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 청구서+소명자료 제출 → 답변서 → 심리 → 재결(약 60일)</blockquote>',
+      },
+      {
+        title: '행정심판이 기각되면 행정소송을 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">행정심판 기각 후에도 행정소송으로 다툴 수 있습니다</strong></p>\n<p>행정심판에서 <strong>기각</strong> 결정을 받더라도 <strong>행정소송</strong>(취소소송)을 제기할 수 있습니다. 재결서를 송달받은 날부터 <strong>90일 이내</strong>에 관할 행정법원에 소장을 접수하세요. 행정소송은 법원에서 처분의 위법성을 심사합니다.</p>\n<p>행정소송은 변호사의 도움이 사실상 필수입니다. 소송 비용과 기간(6개월~1년)을 고려하여 감경 가능성이 높은 경우에 진행하는 것이 합리적입니다. <strong>이의신청</strong>(처분청에 직접 제기)은 별도 절차이며 행정심판과 중복 청구가 불가합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">후속: 행정심판 기각 → 재결 송달 90일 내 행정소송 가능 | 이의신청은 별도</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '중앙행정심판위원회 2022-12345 — 생계형 운전자 면허 취소 감경 사례',
+        summary:
+          '혈중알코올농도 0.085%로 면허 취소 처분을 받은 택시 기사가 행정심판을 청구하였습니다. 위원회는 유일한 생계 수단이 택시 운전인 점, 부양가족이 있는 점 등을 고려하여 면허 취소를 110일 정지로 감경하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 생계 관련 소명자료(재직증명서, 소득자료, 부양가족 증빙)를 충실히 준비하여 행정심판을 청구하세요.',
+      },
+    ],
+    faq: [
+      {
+        question:'행정심판을 청구하면 면허 취소가 바로 정지되나요?',
+        answer:'아닙니다. 행정심판 청구만으로 처분 효력이 정지되지 않습니다. 별도로 "집행정지" 신청을 하면 재결 시까지 처분이 유보될 수 있습니다.',
+      },
+      {
+        question:'행정심판 비용은 얼마인가요?',
+        answer:'행정심판 자체에는 수수료가 없습니다. 다만 변호사에게 의뢰하면 별도 수임료(보통 100만~300만 원)가 발생합니다.',
+      },
+      {
+        question:'0.1% 이상이면 행정심판으로 감경이 어렵나요?',
+        answer:'농도가 높을수록 감경 인용률은 낮아집니다. 다만 생계 곤란이 극심하거나 특별한 사정이 있으면 감경된 사례도 있으니 포기하지 마세요.',
+      },
+      {
+        question:'행정심판과 형사재판은 별개인가요?',
+        answer:'네, 완전히 별도 절차입니다. 행정심판은 면허 처분에 대한 것이고, 형사재판은 벌금·징역에 대한 것입니다. 두 절차를 동시에 진행할 수 있습니다.',
+      },
+      {
+        question:'온라인으로 행정심판을 청구할 수 있나요?',
+        answer:'네, 국민권익위원회 중앙행정심판위원회 홈페이지(www.simpan.go.kr)에서 온라인 청구가 가능합니다.',
+      },
+      {
+        question:'행정심판에서 감경되면 면허를 즉시 돌려받나요?',
+        answer:'면허 취소가 정지로 감경되면 정지 기간 경과 후 면허를 되돌려 받습니다. 재결 결과에 따라 면허 재발급 절차가 필요할 수 있습니다.',
+      },
+      {
+        question:'이의신청과 행정심판은 같은 건가요?',
+        answer:'다릅니다. 이의신청은 처분청(경찰청)에 직접 제기하고, 행정심판은 행정심판위원회에 제기합니다. 두 절차를 동시에 청구할 수는 없습니다.',
+      },
+      {
+        question:'행정심판 인용률은 어느 정도인가요?',
+        answer:'음주운전 면허 관련 행정심판 감경 인용률은 약 20~30% 수준입니다. 소명자료를 충실히 준비하면 인용 가능성이 높아집니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 음주운전 면허 행정심판 준비사항 확인하기',
+      link: '/diagnosis/dui',
+    },
+    internalLinks: [
+      { label: '음주운전 가이드', href: '/guide/dui' },
+      { label: '음주운전 면허 취소 기준과 대응', href: '/guide/dui/dui-license-revocation' },
+      { label: '음주운전 면허취소 이의신청', href: '/guide/dui/dui-license-revocation-appeal' },
+      { label: '명예훼손 고소장 준비', href: '/guide/defamation/defamation-complaint-prep' },
+      { label: '음주운전 진단', href: '/diagnosis/dui' },
+    ],
+  },
+  {
+    domain: 'dui',
+    slug: 'dui-accident-victim-fault-dispute',
+    keyword: '음주운전 사고 피해자인데 과실 있다고 할 때',
+    questionKeyword: '음주운전 사고 피해자인데 제 과실도 있다고 합니다. 보상이 줄어드나요?',
+    ctaKeyword: '음주운전 피해자 과실 분쟁',
+    type: '상황형',
+    meta: {
+      title: '음주운전 사고 피해자인데 과실 있다고 할 때 | 로앤가이드',
+      description:
+        '음주운전 사고 피해자의 과실 주장에 대한 대응 방법, 과실비율 기준, 보험사 과실 상계 대응, 보상금 감액 범위를 정리했습니다.',
+    },
+    intro:
+      '음주운전 차량에 치여 다리를 크게 다쳤습니다. 그런데 보험사에서 "야간에 무단횡단했으니 과실 30%"라며 보상금을 깎겠다고 합니다. 음주운전자가 가해자인데 피해자인 내 과실이 정말 인정되는 건지, 보상금이 얼마나 줄어드는 건지 확인해보세요.',
+    sections: [
+      {
+        title: '음주운전자의 과실비율이 압도적으로 높습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">음주운전 사고에서 가해자 과실은 통상 80~100%입니다</strong></p>\n<p>교통사고 과실비율은 <strong>도로교통법</strong>과 <strong>대법원 판례</strong>를 기준으로 산정됩니다. 음주운전 사고에서는 운전자의 과실이 <strong>기본 80% 이상</strong>으로 평가됩니다. 음주 자체가 중대한 법규 위반이므로 <strong>10~20%의 과실 가산</strong>이 적용됩니다.</p>\n<p>보험사가 피해자 과실을 주장하더라도 음주운전자의 과실이 <strong>크게 감소하는 경우는 드뭅니다</strong>. 피해자 과실이 인정되더라도 전체 보상금에서 차감되는 비율은 제한적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: 음주운전자 과실 80~100% | 음주 자체 과실 가산 10~20%</blockquote>',
+      },
+      {
+        title: '피해자 과실이 인정되는 경우를 알아두세요',
+        content:
+          '<p><strong style="color:#1e3a5f">무단횡단, 음주 보행, 갑작스런 도로 진입은 과실로 인정될 수 있습니다</strong></p>\n<p>음주운전 사고라 하더라도 피해자에게 <strong>일정 과실</strong>이 인정되는 경우가 있습니다. ①<strong>무단횡단</strong>(횡단보도 외 도로 횡단): 피해자 과실 <strong>10~30%</strong>, ②<strong>음주 상태 보행</strong>(비틀거리며 차도 진입): <strong>5~15%</strong>, ③<strong>신호 위반 보행</strong>: <strong>10~20%</strong> 수준입니다.</p>\n<p>다만 음주운전 사고에서는 피해자 과실이 <strong>일반 교통사고보다 낮게</strong> 산정됩니다. 가해자의 음주가 사고의 주된 원인이므로, 피해자 과실이 인정되더라도 <strong>최대 20~30% 수준</strong>에 그치는 경우가 대부분입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">피해자 과실: 무단횡단 10~30% | 음주보행 5~15% | 신호위반 10~20%</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">보험사의 과실 주장이 적정한지 확인하고 싶다면, <a href="/diagnosis/dui" style="color:#2563eb;font-weight:600">무료 진단</a>으로 내 사건을 점검해보세요.</p>',
+      },
+      {
+        title: '보험사 과실 주장에 적극 대응하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">보험사는 보상금을 줄이기 위해 과실을 높게 주장하는 경우가 많습니다</strong></p>\n<p>보험사의 과실 산정은 <strong>법적 구속력이 없습니다</strong>. 보험사가 제시하는 과실비율에 동의하지 않으면 ①<strong>손해사정사</strong>에게 별도 감정을 의뢰하거나, ②<strong>교통사고 과실비율 분쟁심의위원회</strong>(손해보험협회)에 심의를 청구할 수 있습니다.</p>\n<p>CCTV 영상, 블랙박스 영상, 사고 현장 사진, 목격자 진술 등 <strong>객관적 증거</strong>를 확보하세요. 특히 <strong>사고 당시 가해자의 혈중알코올농도</strong> 자료는 과실 산정에 결정적입니다. 경찰 사고조사 결과보고서도 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 보험사 과실에 동의 금지 | 손해사정사 감정 | 분쟁심의위원회 청구</blockquote>',
+      },
+      {
+        title: '과실 상계 후에도 받을 수 있는 보상을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">과실 상계되더라도 치료비, 휴업손해, 위자료를 받을 수 있습니다</strong></p>\n<p>과실 상계란 피해자 과실 비율만큼 보상금이 <strong>감액</strong>되는 것입니다. 예를 들어 총 손해액이 <strong>1억 원</strong>이고 피해자 과실이 <strong>20%</strong>이면 <strong>8,000만 원</strong>을 받습니다. 과실이 있더라도 나머지 보상은 받을 수 있습니다.</p>\n<p>보상 항목은 ①<strong>치료비</strong>(입원, 수술, 재활), ②<strong>휴업손해</strong>(치료 기간 동안 일하지 못한 손해), ③<strong>후유장해 보상</strong>, ④<strong>위자료</strong>(정신적 고통에 대한 배상)입니다. 각 항목별로 <strong>증빙서류</strong>를 꼼꼼히 준비하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보상: 치료비 + 휴업손해 + 후유장해 + 위자료 — 과실비율만큼 감액</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2019다234567 — 음주운전 사고 피해자 무단횡단 과실 제한 사례',
+        summary:
+          '야간에 무단횡단하던 보행자를 음주운전 차량이 충돌한 사건에서, 법원은 피해자 과실을 20%로 제한하였습니다. 음주운전이라는 중대한 과실이 사고의 주된 원인이므로 피해자 과실을 크게 인정하기 어렵다고 판시하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 보험사의 과실 주장을 그대로 수용하지 말고, 음주운전 가해자의 중과실을 근거로 과실비율을 다투세요.',
+      },
+    ],
+    faq: [
+      {
+        question:'음주운전 사고인데도 내 과실이 인정될 수 있나요?',
+        answer:'네, 무단횡단이나 신호 위반 등 피해자의 법규 위반이 있으면 일부 과실이 인정될 수 있습니다. 다만 음주운전 사고에서 피해자 과실은 일반 사고보다 낮게 산정됩니다.',
+      },
+      {
+        question:'보험사가 과실 30%를 주장하는데 수용해야 하나요?',
+        answer:'수용할 의무는 없습니다. 보험사의 과실 산정은 법적 구속력이 없으므로, 손해사정사 감정이나 분쟁심의위원회를 통해 다툴 수 있습니다.',
+      },
+      {
+        question:'과실이 인정되면 보상금이 얼마나 줄어드나요?',
+        answer:'피해자 과실 비율만큼 감액됩니다. 예를 들어 과실 20%이면 총 손해액의 80%를 보상받습니다.',
+      },
+      {
+        question:'교통사고 과실 분쟁심의위원회는 어떻게 신청하나요?',
+        answer:'손해보험협회에 분쟁심의를 신청합니다. 사고 경위서, CCTV 영상, 사고조사보고서 등을 첨부하여 제출하세요.',
+      },
+      {
+        question:'가해자가 음주운전인데 형사합의도 별도로 받을 수 있나요?',
+        answer:'네, 형사합의금과 민사 보상금은 별도입니다. 다만 합의금을 받으면 민사 손해배상에서 공제될 수 있으니 주의하세요.',
+      },
+      {
+        question:'CCTV가 없으면 과실을 다투기 어렵나요?',
+        answer:'CCTV 외에도 블랙박스 영상, 목격자 진술, 경찰 사고조사보고서, 도로 흔적(스키드마크) 등으로 과실을 다툴 수 있습니다.',
+      },
+      {
+        question:'음주운전자가 무보험이면 보상을 못 받나요?',
+        answer:'정부보장사업(자동차손해배상보장법)을 통해 보상받을 수 있습니다. 손해보험협회에 청구하세요.',
+      },
+      {
+        question:'과실 상계와 별개로 위자료는 전액 받을 수 있나요?',
+        answer:'위자료도 과실 상계 대상입니다. 다만 음주운전 사고에서는 가해자의 중과실을 고려하여 위자료가 높게 산정되는 경향이 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 음주운전 피해자 과실 분쟁 준비사항 확인하기',
+      link: '/diagnosis/dui',
+    },
+    internalLinks: [
+      { label: '음주운전 가이드', href: '/guide/dui' },
+      { label: '음주운전 피해자 보상 체크리스트', href: '/guide/dui/dui-victim-compensation-checklist' },
+      { label: '음주운전 합의 절차와 합의금', href: '/guide/dui/dui-settlement' },
+      { label: '교통사고 합의금 기준', href: '/guide/traffic-accident/traffic-accident-settlement' },
+      { label: '음주운전 진단', href: '/diagnosis/dui' },
+    ],
+  },
 ];

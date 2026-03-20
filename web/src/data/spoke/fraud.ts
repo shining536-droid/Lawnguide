@@ -1355,4 +1355,288 @@ export const fraudPages: SpokePage[] = [
       { label: '폭행 형사고소 vs 민사소송 비교', href: '/guide/assault/assault-criminal-vs-civil-claim' },
     ],
   },
+  {
+    domain: 'fraud',
+    slug: 'online-shopping-fraud-refund',
+    keyword: '인터넷 쇼핑 사기 환불받는 절차',
+    questionKeyword: '인터넷 쇼핑몰에서 사기당했는데 환불받으려면 어떻게 해야 하나요?',
+    ctaKeyword: '인터넷 쇼핑 사기 환불',
+    type: '절차형',
+    meta: {
+      title: '인터넷 쇼핑 사기 환불받는 절차 | 로앤가이드',
+      description: '가짜 쇼핑몰이나 SNS 판매 사기를 당했을 때 카드사 결제취소부터 경찰 신고, 소비자원 피해구제까지 환불받는 절차를 단계별로 정리했습니다.',
+    },
+    intro: '인스타그램 광고를 보고 유명 브랜드 가방을 반값에 샀는데, 도착한 건 싸구려 짝퉁이었습니다. 판매자에게 항의하려 했지만 프로필은 이미 삭제됐고, 메시지도 읽히지 않습니다. 카드값은 이번 달에 빠져나갈 예정인데, 환불받을 수 있는 방법이 있는지 막막합니다. 지금부터 환불까지의 절차를 정리해보겠습니다.',
+    timelineSteps: ['증거 확보', '카드사 결제취소', '경찰 신고', '소비자원 피해구제'],
+    sections: [
+      {
+        title: '결제 증거와 판매자 정보를 즉시 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">광고 화면, 결제 내역, 배송 기록을 지금 바로 캡처하세요</strong></p>\n<p>가장 먼저 해야 할 일은 <strong>판매자가 삭제하기 전에 모든 기록을 확보</strong>하는 것입니다. SNS 광고 화면, 상품 페이지, 판매자와의 대화 내용을 전체 화면으로 캡처하세요. 날짜와 시간이 보이도록 찍어야 증거로서 효력이 높아집니다.</p>\n<p><strong>카드 결제 내역</strong>(카드사 앱에서 확인), 계좌이체 내역, 택배 송장번호를 정리하세요. 도착한 상품이 가짜인 경우 <strong>정품과 비교한 사진</strong>도 촬영해두면 기망 행위 입증에 도움이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: SNS 광고·상품 페이지 캡처, 결제 내역, 대화 기록, 수령 상품 사진</blockquote>',
+      },
+      {
+        title: '카드사에 결제취소(이의제기)를 신청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">신용카드 결제라면 카드사 이의제기로 환불받을 수 있습니다</strong></p>\n<p><strong>신용카드</strong>로 결제했다면 카드사에 전화해서 <strong>이의제기(차지백, chargeback)</strong>를 신청하세요. 전자상거래법 제18조에 따라 소비자는 상품 수령 후 <strong>7일 이내</strong> 청약철회가 가능하고, 사기에 해당하면 그 이후에도 결제취소를 요청할 수 있습니다.</p>\n<p>카드사에 증거 자료(상품 사진, 광고와 다른 점, 판매자 연락 불가 증빙)를 함께 제출하면 처리가 빨라집니다. 체크카드나 <strong>계좌이체</strong>의 경우 결제취소가 어려우므로 경찰 신고와 민사 청구를 병행해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 카드사 이의제기 신청, 증빙자료 제출 (전자상거래법 제18조)</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">인터넷 쇼핑 사기 피해를 입으셨다면, 지금 상황에서 어떤 절차를 밟아야 하는지 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '경찰에 사기 신고하고 고소장을 접수하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">사이버범죄 신고시스템으로 온라인 사기를 신고하세요</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>(ecrm.police.go.kr)에서 온라인으로 신고할 수 있습니다. 신고 시 판매자 정보(계좌번호, 전화번호, SNS 계정명), 피해 금액, 거래 경위를 정리해서 제출하세요. 사기죄는 <strong>형법 제347조</strong>에 해당하며 10년 이하 징역 또는 2,000만원 이하 벌금입니다.</p>\n<p>같은 판매자에게 피해를 본 사람이 여러 명이면 <strong>공동 고소</strong>를 진행하는 것이 수사에 유리합니다. <strong>더치트</strong>(thecheat.co.kr)나 사기피해 커뮤니티에서 동일 피해자를 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: ecrm.police.go.kr 신고, 고소장 작성(피고소인 정보·범죄사실·증거목록)</blockquote>',
+      },
+      {
+        title: '한국소비자원 피해구제와 민사 청구를 병행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">소비자원 피해구제 신청으로 조정을 받을 수 있습니다</strong></p>\n<p><strong>한국소비자원</strong>(1372 소비자상담센터)에 피해구제를 신청하면 판매자와의 조정을 중재해줍니다. 전자상거래법상 통신판매업자는 <strong>사업자등록</strong>과 <strong>통신판매업 신고</strong> 의무가 있으므로, 미신고 업체라면 이 자체가 위법 증거가 됩니다.</p>\n<p>판매자가 조정에 응하지 않으면 <strong>소액사건심판</strong>(3,000만원 이하)이나 <strong>지급명령</strong>을 통해 민사적으로 환불을 받을 수 있습니다. PG사(결제대행사)에도 판매자 정보 제공을 요청하면 민사 소송에 필요한 상대방 인적사항을 확보할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 1372 소비자상담센터 신청, 소액사건심판 또는 지급명령 검토</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '가짜 쇼핑몰 운영자가 사기죄로 실형을 선고받은 사례',
+        summary:
+          '관련 사례에서도 유명 브랜드 로고를 도용한 가짜 쇼핑몰을 개설하고, 결제만 받은 뒤 상품을 보내지 않거나 짝퉁을 보낸 운영자가 사기죄로 징역형을 선고받은 경우가 있습니다. 피해자 수십 명의 결제 내역과 광고 캡처가 핵심 증거로 활용되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 광고 화면과 결제 내역을 반드시 캡처하고, 동일 피해자를 모아 공동 고소를 검토해보세요.',
+      },
+      {
+        title: '카드사 이의제기로 전액 환불받은 사례',
+        summary:
+          '관련 사례에서도 SNS 광고를 통해 구매한 상품이 광고와 전혀 다른 제품이었고, 구매자가 카드사에 이의제기를 신청하면서 상품 비교 사진과 판매자 연락 불가 증빙을 함께 제출하여 전액 결제취소를 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 카드사 이의제기 시 광고 내용과 실제 상품의 차이를 사진으로 명확히 증빙하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '인터넷 쇼핑몰에서 짝퉁을 받았는데 사기인가요?',
+        answer: '정품이라고 광고하고 <strong>짝퉁을 보냈다면 기망행위</strong>에 해당하여 사기죄가 성립할 수 있습니다.',
+      },
+      {
+        question: '카드 결제가 아니라 계좌이체로 보냈는데 환불받을 수 있나요?',
+        answer: '계좌이체는 카드사 이의제기가 불가능하므로 <strong>경찰 신고와 민사 소송</strong>을 통해 환불을 받아야 합니다.',
+      },
+      {
+        question: '피해 금액이 소액인데도 신고할 수 있나요?',
+        answer: '금액과 관계없이 신고 가능합니다. <strong>소액 피해자가 많으면</strong> 합산되어 수사가 활발해지는 경우도 많습니다.',
+      },
+      {
+        question: 'SNS 판매자 계정이 삭제됐는데 어떻게 찾나요?',
+        answer: '경찰에 신고하면 <strong>SNS 플랫폼에 가입자 정보 제공</strong>을 요청할 수 있고, 결제 시 사용된 계좌로도 추적이 가능합니다.',
+      },
+      {
+        question: '전자상거래법상 청약철회 기간이 지났는데 환불받을 수 있나요?',
+        answer: '사기에 해당하면 <strong>7일 청약철회 기간과 무관하게</strong> 카드사 이의제기나 민사 청구가 가능합니다.',
+      },
+      {
+        question: '해외 쇼핑몰에서 사기당했는데도 신고할 수 있나요?',
+        answer: '국내 경찰에 신고할 수 있고, <strong>한국소비자원 국제거래 피해구제</strong> 서비스도 이용 가능합니다.',
+      },
+      {
+        question: '더치트에서 같은 계좌로 피해 본 사람이 있으면 어떻게 하나요?',
+        answer: '<strong>공동 고소</strong>를 진행하면 수사가 빨라지고, 피해 규모가 커져 처벌 수위도 높아집니다.',
+      },
+      {
+        question: '물건은 받았는데 품질이 너무 나쁜 경우도 사기인가요?',
+        answer: '단순 품질 불만은 사기가 아니지만, <strong>광고 내용과 현저히 다른 상품</strong>을 보냈다면 기망행위로 볼 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 인터넷 쇼핑 사기 환불 준비사항 확인하기',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '중고거래 사기 증거 모으는 법', href: '/guide/fraud/used-market-fraud-evidence' },
+      { label: '사기 고소장 작성 가이드', href: '/guide/fraud/fraud-complaint-preparation' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+      { label: '폭행 치료비 청구 기한과 금액 기준', href: '/guide/assault/assault-medical-cost-timeline' },
+    ],
+  },
+  {
+    domain: 'fraud',
+    slug: 'fraud-accomplice-unknowing-defense',
+    keyword: '모르고 사기에 가담했을 때 대응법',
+    questionKeyword: '사기인 줄 모르고 가담했는데 공범으로 처벌받나요?',
+    ctaKeyword: '사기 공범 혐의 대응',
+    type: '상황형',
+    meta: {
+      title: '모르고 사기에 가담했을 때 대응법 | 로앤가이드',
+      description: '통장 대여, 명의 대여, 수금 알바 등으로 사기 공범 혐의를 받고 있을 때 대응 방법과 고의 부정 전략을 정리했습니다.',
+    },
+    intro: '아는 선배가 "잠깐 통장 빌려달라"고 해서 빌려줬는데, 그 통장이 보이스피싱에 쓰였습니다. 경찰에서 사기 공범 혐의로 출석하라는 연락이 왔습니다. 단순히 부탁을 들어준 것뿐인데, 공범이라니 당황스럽습니다. 혐의를 받고 있다면 지금부터 어떻게 대응해야 하는지 정리해보겠습니다.',
+    timelineSteps: ['상황 파악', '증거 확보', '진술 준비', '법적 대응'],
+    sections: [
+      {
+        title: '공범 성립 요건부터 정확히 파악하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">사기 공범은 "사기라는 사실을 알았는지"가 핵심입니다</strong></p>\n<p>사기 공범(공모공동정범)이 성립하려면 <strong>편취의 고의</strong>, 즉 "상대방을 속여 돈을 빼앗는다는 사실을 알면서 가담했는지"가 입증되어야 합니다. 단순히 통장을 빌려줬다는 사실만으로 자동으로 공범이 되는 것은 아닙니다.</p>\n<p>다만 <strong>전자금융거래법 제49조</strong>에 따라 접근매체(통장, 카드, OTP 등)를 양도하는 것 자체가 <strong>5년 이하 징역 또는 3,000만원 이하 벌금</strong>에 해당할 수 있으므로 주의가 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 공범 성립 = 사기 인식 + 가담 행위 | 통장 양도 자체도 별도 처벌 가능</blockquote>',
+      },
+      {
+        title: '"몰랐다"는 주장을 뒷받침할 증거를 모으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">사기에 가담한 것이 아니라 속았다는 증거를 확보하세요</strong></p>\n<p>혐의를 받고 있다면 핵심은 <strong>"사기인 줄 몰랐다"는 점을 입증</strong>하는 것입니다. 선배나 지인이 통장을 빌려달라고 했을 때의 대화 내용(카톡, 문자)을 확보하세요. "사업 자금 잠깐 쓴다", "곧 돌려준다" 등의 메시지가 있으면 <strong>속아서 빌려준 정황</strong>이 됩니다.</p>\n<p>본인이 사기 수익금을 전혀 받지 않았다는 점, 범행 계획에 관여하지 않았다는 점도 중요합니다. <strong>금전 수수 내역</strong>이 없다면 통장 거래내역으로 이를 증명할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 통장 대여 경위 대화 기록, 금전 미수수 증빙, 범행 미관여 정황 자료</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">사기 공범 혐의로 출석 요구를 받으셨다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '경찰 조사에서 진술 실수를 피하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">조사 전 변호인 조력을 받고, 불리한 진술을 피하세요</strong></p>\n<p>경찰 조사에서 가장 위험한 것은 <strong>"뭔가 이상하다고 느꼈다"는 취지의 진술</strong>입니다. 이 한마디가 "미필적 고의"(알 수도 있었는데 감수했다)의 근거가 됩니다. 진술 전에 반드시 <strong>변호사와 상담</strong>하세요.</p>\n<p>"이상함을 느꼈냐"는 질문에는 <strong>"전혀 의심하지 못했다"</strong>고 일관되게 답변해야 합니다. 수사관의 회유성 질문("솔직하게 말하면 선처해준다")에 흔들려 불리한 진술을 하면 번복이 매우 어렵습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: "이상하다고 느꼈다" 진술 금지 | 변호인 동석 요청 가능</blockquote>',
+      },
+      {
+        title: '혐의별 법적 대응 전략을 정리하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">사기 공범 혐의와 전자금융거래법 위반 혐의를 구분해서 대응하세요</strong></p>\n<p><strong>사기 공범 혐의</strong>는 고의 부정(사기인 줄 몰랐음)으로 무혐의를 주장할 수 있습니다. 반면 <strong>전자금융거래법 위반</strong>(접근매체 양도)은 "몰랐다"는 항변이 통하기 어려우므로, 양형 사유(초범, 반성, 피해 회복 노력)를 준비하는 것이 현실적입니다.</p>\n<p>피해자와의 <strong>합의</strong>는 양형에 큰 영향을 미칩니다. 본인이 직접 사기 행위를 한 것이 아니더라도, 통장이 사기에 사용되어 피해가 발생했다면 피해 회복에 기여하는 것이 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">전략: 사기 공범 → 고의 부정 | 전자금융거래법 → 양형 사유 준비 | 피해 합의 검토</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '통장 대여자가 사기 고의 부정으로 무죄를 받은 사례',
+        summary:
+          '관련 사례에서도 지인의 부탁으로 통장을 빌려줬는데 보이스피싱에 사용된 경우, 피고인이 보이스피싱이라는 사실을 전혀 알지 못했고 금전적 대가도 받지 않은 점이 인정되어 사기 공범 혐의에 대해 무죄가 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 통장을 빌려준 경위와 대가를 받지 않은 사실을 입증할 증거를 확보하세요.',
+      },
+      {
+        title: '수금 알바를 하다 사기 공범으로 기소된 사례',
+        summary:
+          '관련 사례에서도 "물품 대금 수거 알바"라고 속아 현금을 수거·전달한 피고인이 사기 공범으로 기소되었으나, 알바 모집 광고와 지시 내용만 확인했을 뿐 사기 전모를 알지 못한 점이 참작되어 집행유예를 선고받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 알바 모집 광고, 지시 내용 등 "정상적인 업무로 믿었다"는 정황 자료를 보존하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '통장을 빌려줬다는 이유만으로 처벌받나요?',
+        answer: '사기 공범 여부와 별개로 <strong>전자금융거래법 위반</strong>으로 처벌받을 수 있습니다(5년 이하 징역/3,000만원 이하 벌금).',
+      },
+      {
+        question: '보이스피싱인 줄 정말 몰랐으면 무죄인가요?',
+        answer: '<strong>사기 고의가 없었음을 입증</strong>하면 사기 공범에 대해서는 무죄가 가능합니다. 다만 통장 양도 자체는 별도 처벌 대상입니다.',
+      },
+      {
+        question: '돈을 한 푼도 안 받았는데도 공범인가요?',
+        answer: '대가 수수 여부는 <strong>고의 판단의 중요한 참고자료</strong>이지만, 대가가 없더라도 사기를 알았다면 공범이 될 수 있습니다.',
+      },
+      {
+        question: '경찰 조사에서 뭐라고 말해야 하나요?',
+        answer: '"사기인 줄 전혀 몰랐다"고 <strong>일관되게 진술</strong>하되, 조사 전에 반드시 변호사와 상담하세요.',
+      },
+      {
+        question: '명의를 빌려줬는데 대출 사기에 쓰였어요. 공범인가요?',
+        answer: '대출 사기라는 사실을 알았는지가 핵심입니다. <strong>"명의만 빌려달라"는 요청 경위</strong>를 증명할 수 있으면 유리합니다.',
+      },
+      {
+        question: '피해자와 합의하면 형을 줄일 수 있나요?',
+        answer: '<strong>피해 회복은 양형에 가장 큰 영향</strong>을 미칩니다. 합의서와 처벌불원서를 확보하면 집행유예나 벌금형 가능성이 높아집니다.',
+      },
+      {
+        question: '미필적 고의가 뭔가요?',
+        answer: '"사기일 수도 있겠다"고 <strong>인식하면서도 감수</strong>한 경우입니다. "이상하다고 느꼈다"는 진술이 미필적 고의의 근거가 될 수 있어 주의가 필요합니다.',
+      },
+      {
+        question: '공범 혐의와 방조 혐의는 다른 건가요?',
+        answer: '공모공동정범은 <strong>정범과 동일하게 처벌</strong>되지만, 방조범은 정범보다 감경됩니다. 가담 정도에 따라 구분됩니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 사기 공범 혐의 대응 준비사항 확인하기',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기 혐의를 받을 때 대응법', href: '/guide/fraud/fraud-accused-response' },
+      { label: '보이스피싱 즉시 대응 5단계', href: '/guide/fraud/voice-phishing-immediate-5steps' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+      { label: '폭행 무고 대응 체크리스트', href: '/guide/assault/assault-false-accusation-counter' },
+    ],
+  },
+  {
+    domain: 'fraud',
+    slug: 'rental-fraud-false-accusation-defense',
+    keyword: '임대차 분쟁인데 사기로 고소당했을 때',
+    questionKeyword: '세입자와 보증금 분쟁 중인데 사기로 고소당했어요. 어떻게 대응하나요?',
+    ctaKeyword: '임대차 사기 고소 대응',
+    type: 'Q&A형',
+    meta: {
+      title: '임대차 분쟁인데 사기로 고소당했을 때 | 로앤가이드',
+      description: '보증금 반환 분쟁 중 전세사기로 고소당했을 때 민사와 형사의 차이, 사기 고의 부정, 무고죄 반소 가능성을 정리했습니다.',
+    },
+    intro: '부동산 시세가 떨어져서 세입자에게 보증금을 즉시 돌려주지 못하고 있는데, 세입자가 "전세사기"라며 경찰에 사기죄로 고소장을 넣었습니다. 임대 계약 당시에는 시세가 충분했고, 고의로 속인 적이 없습니다. 사실과 다르게 신고되었다면 어떻게 대응해야 하는지 정리해보겠습니다.',
+    timelineSteps: ['고소 내용 확인', '민사·형사 구분', '사기 고의 반박', '반대고소 검토'],
+    sections: [
+      {
+        title: '임대차 분쟁과 사기는 법적으로 다릅니다',
+        content:
+          '<p><strong style="color:#1e3a5f">보증금 반환 지연은 민사 채무불이행이지 형사 사기가 아닙니다</strong></p>\n<p>사기죄(형법 제347조)가 성립하려면 <strong>계약 당시부터 속일 의도</strong>가 있어야 합니다. 임대 계약 체결 시 보증금을 돌려줄 의사와 능력이 있었다면, 이후 시세 하락으로 반환이 어려워진 것은 <strong>민사상 채무불이행</strong>일 뿐 사기가 아닙니다.</p>\n<p>대법원도 "계약 당시 이행 의사가 있었으나 <strong>사후적 사정 변경</strong>으로 이행하지 못한 경우는 사기에 해당하지 않는다"고 일관되게 판시하고 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계약 시 반환 의사·능력 있음 + 시세 하락으로 지연 = 채무불이행(민사) ≠ 사기(형사)</blockquote>',
+      },
+      {
+        title: '계약 당시 반환 능력이 있었음을 입증하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">임대 당시 부동산 시세와 재정 상태가 핵심 증거입니다</strong></p>\n<p>사실과 다르게 신고되었다면 <strong>계약 체결 시점의 부동산 시세</strong>를 증명하는 것이 가장 중요합니다. KB부동산 시세, 국토교통부 실거래가, 감정평가서 등으로 당시 매매가가 보증금을 충분히 커버했음을 보여주세요.</p>\n<p><strong>근저당 설정 현황</strong>(등기부등본), 본인의 다른 자산이나 소득 자료도 반환 능력의 증거가 됩니다. 세입자에게 보증금 반환 의사를 표현한 문자, 카톡 메시지도 반드시 보존하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 계약 당시 시세 자료(KB시세/실거래가), 등기부등본, 반환 의사 표현 메시지</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">보증금 분쟁으로 사기 고소를 받으셨다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '경찰·검찰 조사에서 일관된 진술이 중요합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">"처음부터 돌려줄 생각이었다"는 점을 일관되게 진술하세요</strong></p>\n<p>수사기관 조사에서 가장 중요한 것은 <strong>"계약 당시 반환 의사가 있었고, 시세 하락이라는 예상치 못한 사정으로 지연되고 있다"</strong>는 점을 명확히 하는 것입니다. 현재도 반환을 위해 노력하고 있다는 점(부동산 매도 시도, 대출 알아보는 중 등)도 함께 진술하세요.</p>\n<p>"보증금을 언제까지 돌려주겠다"는 구체적 계획보다는, <strong>반환 의사와 노력의 과정</strong>을 보여주는 것이 효과적입니다. 변호사 조력 하에 진술서를 미리 준비하는 것을 권장합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">진술 포인트: 계약 시 반환 의사 + 시세 하락이 원인 + 현재 반환 노력 중</blockquote>',
+      },
+      {
+        title: '허위 고소라면 무고죄 반대고소도 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">세입자가 사기가 아님을 알면서 고소했다면 무고죄가 성립합니다</strong></p>\n<p><strong>무고죄</strong>(형법 제156조)는 타인으로 하여금 형사처벌을 받게 할 목적으로 허위 사실을 신고하는 범죄로, <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 해당합니다. 세입자가 민사 분쟁임을 알면서도 형사 압박 수단으로 고소했다면 무고에 해당할 수 있습니다.</p>\n<p>다만 무고죄는 <strong>"허위라는 점을 인식하고 고소했는지"</strong>가 핵심이므로, 세입자가 진심으로 사기라고 믿었다면 성립이 어렵습니다. 변호사와 상담 후 반대고소 여부를 신중하게 결정하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">검토: 무고죄(형법 제156조) — 허위 인식 + 형사처벌 목적 신고 시 성립</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '시세 하락으로 보증금을 반환하지 못한 임대인이 사기 무혐의를 받은 사례',
+        summary:
+          '관련 사례에서도 임대 계약 당시 부동산 시세가 보증금을 충분히 커버했으나, 이후 시세 급락으로 매도가 어려워져 보증금을 반환하지 못한 임대인에 대해, 계약 시 편취 고의가 인정되지 않아 무혐의 처분이 내려진 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 계약 당시 부동산 시세와 근저당 현황을 증명할 자료를 반드시 확보하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '보증금을 못 돌려주면 무조건 전세사기인가요?',
+        answer: '아닙니다. <strong>계약 당시 반환 의사와 능력이 있었다면</strong> 채무불이행이지 사기가 아닙니다.',
+      },
+      {
+        question: '시세가 떨어져서 못 돌려주는 것도 사기인가요?',
+        answer: '사후적 시세 하락은 <strong>예견할 수 없는 사정 변경</strong>이므로 사기 고의가 인정되기 어렵습니다.',
+      },
+      {
+        question: '근저당이 많이 설정되어 있으면 사기로 볼 수 있나요?',
+        answer: '계약 당시 <strong>근저당 합계 + 보증금이 시세를 초과</strong>했다면 사기 고의가 의심될 수 있습니다. 반대로 여유가 있었다면 사기가 아닙니다.',
+      },
+      {
+        question: '세입자가 고소를 취하하게 하려면 어떻게 하나요?',
+        answer: '<strong>보증금 일부라도 반환</strong>하고 구체적 반환 계획을 제시하면 합의와 고소 취하를 유도할 수 있습니다.',
+      },
+      {
+        question: '임대인인데 변호사를 꼭 선임해야 하나요?',
+        answer: '사기 혐의는 진술 하나로 결과가 달라지므로 <strong>변호사 조력을 강력히 권장</strong>합니다.',
+      },
+      {
+        question: '세입자가 민사소송과 형사고소를 동시에 할 수 있나요?',
+        answer: '가능합니다. 다만 <strong>민사와 형사는 별개 절차</strong>이며, 형사에서 무혐의가 나와도 민사 반환 의무는 남습니다.',
+      },
+      {
+        question: '무고죄로 반대고소하면 효과가 있나요?',
+        answer: '세입자가 <strong>허위임을 알면서 고소한 증거</strong>가 있으면 효과적입니다. 다만 입증이 어려울 수 있으므로 변호사와 상담 후 결정하세요.',
+      },
+      {
+        question: '보증금 반환을 위해 노력한 기록이 왜 중요한가요?',
+        answer: '부동산 매도 시도, 대출 상담 기록 등은 <strong>반환 의사의 직접적 증거</strong>가 되어 사기 고의 부정에 결정적입니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 임대차 사기 고소 대응 준비사항 확인하기',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기 무고 방어 전략', href: '/guide/fraud/fraud-false-accusation-defense' },
+      { label: '채무불이행과 사기 구별 체크리스트', href: '/guide/fraud/loan-default-vs-fraud-checklist' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+      { label: '폭행 첫 대응 가이드', href: '/guide/assault/assault-charged-first-response' },
+    ],
+  },
 ];

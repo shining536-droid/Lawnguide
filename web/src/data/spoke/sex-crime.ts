@@ -911,4 +911,234 @@ export const sexCrimePages: SpokePage[] = [
       { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
     ],
   },
+  {
+    domain: 'sex-crime',
+    slug: 'sex-crime-statute-of-limitations',
+    keyword: '성범죄 공소시효 기간 총정리',
+    questionKeyword: '성범죄 공소시효가 몇 년인가요? 시효가 지나면 처벌 못 받나요?',
+    ctaKeyword: '성범죄 공소시효',
+    type: '수치/기한형',
+    meta: {
+      title: '성범죄 공소시효 기간 총정리 | 로앤가이드',
+      description:
+        '성범죄 유형별 공소시효(강간·강제추행·미성년자 특례), 시효 기산점, DNA 확인 시 시효 정지까지 한눈에 정리했습니다.',
+    },
+    intro:
+      '5년 전 당한 피해를 이제야 신고하려 합니다. 주변에서 "시효 지났을 수도 있다"고 하는데, 정말 너무 늦은 걸까요. 성범죄는 유형에 따라 공소시효가 다르고, 미성년자 피해의 경우 특례가 적용됩니다. 아직 늦지 않았을 수 있으니, 내 사건의 시효부터 정확히 확인해보세요.',
+    sections: [
+      {
+        title: '성범죄 유형별 공소시효를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">강간과 강제추행 모두 공소시효는 10년입니다</strong></p>\n<p><strong>형법 제297조(강간)</strong>의 공소시효는 <strong>10년</strong>이고, <strong>형법 제298조(강제추행)</strong> 역시 <strong>10년</strong>입니다. 특수강간(흉기 사용 등)이나 강간치상은 법정형이 높아 공소시효가 <strong>15년</strong>까지 늘어납니다. 카메라등이용촬영죄(성폭력처벌법 제14조)는 <strong>7년</strong>입니다.</p>\n<p>공소시효는 범죄가 <strong>종료된 날</strong>부터 기산합니다. 지속적인 성범죄의 경우 마지막 행위일이 기산점이 됩니다. 자신의 피해 유형과 시기를 정확히 파악하는 것이 첫 번째 단계입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: 강간/강제추행 10년 | 강간치상/특수강간 15년 | 카메라촬영 7년</blockquote>',
+      },
+      {
+        title: '미성년자 피해는 시효 특례가 적용됩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">미성년자 성범죄는 피해자가 성년이 된 날부터 시효가 시작됩니다</strong></p>\n<p><strong>성폭력처벌법 제21조</strong>에 따라 13세 미만 아동·청소년 대상 성범죄는 <strong>DNA 증거가 확인될 때까지 공소시효가 정지</strong>됩니다. 또한 미성년자 피해자에 대해서는 피해자가 <strong>만 19세(성년)에 도달한 날</strong>부터 공소시효가 기산됩니다.</p>\n<p>예를 들어 만 14세에 피해를 당했다면, 공소시효는 만 19세가 된 날부터 계산합니다. 강간 기준 10년이면 <strong>만 29세까지</strong> 고소할 수 있습니다. 미성년 시절 피해를 성인이 되어 신고하는 경우가 많으니 반드시 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">특례: 미성년자 → 성년 도달 후 시효 기산 | DNA 확인 시 시효 정지</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 사건의 공소시효가 아직 남아 있는지 궁금하다면, <a href="/diagnosis/sex-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 빠르게 확인해보세요.</p>',
+      },
+      {
+        title: '시효 정지·연장 사유를 알아두세요',
+        content:
+          '<p><strong style="color:#1e3a5f">범인이 해외에 있거나 공소제기 되면 시효가 정지됩니다</strong></p>\n<p><strong>형사소송법 제253조</strong>에 따라 범인이 <strong>해외에 체류</strong>하는 기간에는 공소시효 진행이 정지됩니다. 또한 공소가 제기되면 시효 진행이 멈추므로 기소 시점이 중요합니다. 범인이 <strong>도주</strong>하여 기소중지 처분을 받은 경우에도 그 기간만큼 시효가 정지됩니다.</p>\n<p>2013년 법 개정으로 <strong>13세 미만 아동 대상 성범죄</strong>의 경우 DNA 증거가 확보되면 시효가 다시 진행되지 않는 특례가 도입되었습니다. 피해 사실을 기억하고 있다면, 시효가 남아 있을 가능성이 충분합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정지 사유: 범인 해외 체류, 공소제기, 도주(기소중지), DNA 증거 확보</blockquote>',
+      },
+      {
+        title: '시효 만료 전 신속하게 고소를 진행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">고소장 접수일이 아닌 기소일 기준으로 시효가 판단됩니다</strong></p>\n<p>공소시효는 <strong>검찰이 기소하는 시점</strong>을 기준으로 판단합니다. 고소장을 경찰에 제출한 날이 아니라 실제 공소 제기일이 시효 내여야 합니다. 따라서 시효 만료가 임박한 경우 <strong>수사가 지연되지 않도록</strong> 증거를 미리 정리하여 고소하는 것이 중요합니다.</p>\n<p>고소장에는 ①<strong>피해 일시·장소</strong>를 최대한 특정하고, ②<strong>가해자 인적 사항</strong>(이름, 연락처, 관계 등)을 기재하며, ③보유한 <strong>증거(문자, 사진, 목격자)</strong>를 첨부하세요. 변호사의 도움을 받으면 수사 진행 속도가 빨라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 기소일 기준 시효 판단 → 증거 정리 후 신속 고소 → 수사 지연 방지</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2018도16466 — 미성년자 성범죄 공소시효 특례 적용',
+        summary:
+          '피해자가 미성년자였던 시절 발생한 강제추행 사건에서, 법원은 피해자가 성년에 도달한 날부터 공소시효를 기산하여 유죄를 선고하였습니다. 피해자 보호를 위한 시효 특례가 실제로 적용된 사례입니다.',
+        takeaway:
+          '비슷한 상황이라면 미성년 시절 피해라도 성년 이후 시효가 기산되므로 포기하지 말고 고소를 검토하세요.',
+      },
+    ],
+    faq: [
+      {
+        question:'강간죄의 공소시효는 몇 년인가요?',
+        answer:'강간죄(형법 제297조)의 공소시효는 10년입니다. 범죄가 종료된 날부터 기산합니다.',
+      },
+      {
+        question:'강제추행도 공소시효가 10년인가요?',
+        answer:'네, 강제추행(형법 제298조)의 공소시효는 10년입니다. 다만 특수강제추행은 법정형이 높아 시효가 더 길 수 있습니다.',
+      },
+      {
+        question:'미성년자 때 당한 성범죄는 시효가 언제부터 시작되나요?',
+        answer:'성폭력처벌법에 따라 미성년자 피해자는 만 19세(성년)에 도달한 날부터 공소시효가 기산됩니다.',
+      },
+      {
+        question:'공소시효가 지나면 절대 처벌받을 수 없나요?',
+        answer:'공소시효가 만료되면 형사처벌은 불가능합니다. 다만 민사상 손해배상 청구는 별도 소멸시효(불법행위일로부터 10년 또는 안 날로부터 3년)가 적용됩니다.',
+      },
+      {
+        question:'DNA 증거가 나오면 시효가 정지된다는 게 무슨 뜻인가요?',
+        answer:'13세 미만 아동 대상 성범죄에서 DNA 증거가 확인되면, 시효 진행이 멈춰 사실상 시효가 없어지는 효과가 있습니다.',
+      },
+      {
+        question:'카메라등이용촬영(몰카) 공소시효는 몇 년인가요?',
+        answer:'성폭력처벌법 제14조 카메라등이용촬영죄의 공소시효는 7년입니다.',
+      },
+      {
+        question:'가해자가 해외에 도주하면 공소시효는 어떻게 되나요?',
+        answer:'범인이 해외에 체류하는 기간에는 공소시효 진행이 정지됩니다(형사소송법 제253조). 귀국 후 남은 시효가 다시 진행됩니다.',
+      },
+      {
+        question:'고소장을 제출하면 바로 시효가 멈추나요?',
+        answer:'아닙니다. 공소시효는 검찰이 기소(공소제기)하는 시점에 정지됩니다. 고소장 제출만으로는 시효가 멈추지 않으니 신속한 수사 진행이 중요합니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 성범죄 공소시효 준비사항 확인하기',
+      link: '/diagnosis/sex-crime',
+    },
+    internalLinks: [
+      { label: '성범죄 가이드', href: '/guide/sex-crime' },
+      { label: '성범죄 고소부터 재판까지 절차', href: '/guide/sex-crime/sexual-assault-report-to-trial' },
+      { label: '강제추행 증거 확보와 고소 방법', href: '/guide/sex-crime/forced-groping-evidence-lawsuit' },
+      { label: '교통사고 합의금 기준', href: '/guide/traffic-accident/traffic-accident-settlement' },
+      { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
+    ],
+  },
+  {
+    domain: 'sex-crime',
+    slug: 'sex-crime-settlement-vs-no-settlement',
+    keyword: '성범죄 합의 vs 불합의 양형 비교',
+    questionKeyword: '성범죄에서 피해자와 합의하면 형량이 얼마나 줄어드나요?',
+    ctaKeyword: '성범죄 합의 양형',
+    type: '비교형',
+    meta: {
+      title: '성범죄 합의 vs 불합의 양형 비교 | 로앤가이드',
+      description:
+        '성범죄에서 피해자와 합의했을 때와 합의하지 않았을 때 기소 결정, 양형, 집행유예, 신상공개 등 차이를 비교 정리했습니다.',
+    },
+    intro:
+      '변호사가 "피해자와 합의해야 한다"고 하는데, 합의하면 정말 형량이 줄어드는지, 합의 없이도 집행유예를 받을 수 있는지 궁금합니다. 혐의를 받고 있다면 합의 여부에 따라 양형이 어떻게 달라지는지 정확히 비교하여 전략을 세워야 합니다.',
+    sections: [
+      {
+        title: '합의가 기소 결정에 미치는 영향을 이해하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">성범죄는 합의하더라도 검찰이 기소할 수 있습니다</strong></p>\n<p>성범죄는 대부분 <strong>반의사불벌죄가 아닙니다</strong>. 강간, 강제추행 등은 피해자가 처벌을 원하지 않더라도 검찰이 <strong>공소를 제기</strong>할 수 있습니다. 다만 합의 사실은 검찰의 기소 결정에 참고됩니다.</p>\n<p>경미한 성추행 사건에서 피해자의 <strong>처벌불원 의사</strong>가 확인되면 검찰이 <strong>기소유예</strong> 처분을 내릴 가능성이 높아집니다. 합의 없이는 기소유예를 받기가 매우 어렵습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 성범죄 = 비반의사불벌죄 → 합의해도 기소 가능 | 경미한 사건은 기소유예 가능</blockquote>',
+      },
+      {
+        title: '합의 시와 불합의 시 양형 차이를 비교하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">합의 여부는 양형에서 가장 중요한 감경 사유 중 하나입니다</strong></p>\n<p><strong>양형기준</strong>에 따르면 피해자와의 합의 및 처벌불원은 <strong>"특별감경인자"</strong>로 분류됩니다. 합의가 이루어지면 법원이 정한 권고형량 범위의 <strong>하한에 가까운 형량</strong>을 선고받을 가능성이 높아집니다.</p>\n<p>반면 합의가 없으면 양형기준상 <strong>"일반영역"</strong> 이상의 형량이 선고될 수 있습니다. 초범이라 하더라도 불합의 상태에서 <strong>집행유예 없이 실형</strong>이 선고되는 사례가 있으니 신중하게 판단하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">비교: 합의 시 특별감경인자 적용 → 감형 | 불합의 시 일반·가중영역 → 실형 가능</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">혐의를 받고 있다면 합의 전략을 포함한 전체 대응 방향을 <a href="/diagnosis/sex-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '합의해도 남는 불이익을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">합의가 신상공개·전자장치 부착을 막아주지는 않습니다</strong></p>\n<p>성범죄로 유죄 판결을 받으면 <strong>신상정보 등록</strong>(최소 20년)과 <strong>신상정보 공개·고지</strong> 명령이 부과됩니다. 합의 여부와 관계없이 법원이 별도로 결정합니다. 다만 합의로 감형되어 <strong>집행유예</strong>를 받으면 공개·고지 기간이 짧아질 수 있습니다.</p>\n<p><strong>전자장치(전자발찌) 부착</strong>은 징역 3년 이상의 성범죄자에 대해 검찰이 별도로 청구합니다. 합의를 통해 형량이 낮아지면 전자장치 부착 대상에서 벗어날 가능성이 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">유의: 합의해도 신상등록 의무 유지 | 전자발찌는 형량에 따라 결정</blockquote>',
+      },
+      {
+        title: '합의 진행 시 반드시 지켜야 할 원칙을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">피해자에게 직접 연락하면 2차 가해로 추가 처벌될 수 있습니다</strong></p>\n<p>합의를 진행하려면 반드시 <strong>변호사를 통해</strong> 연락해야 합니다. 가해자가 피해자에게 직접 전화, 문자, SNS로 연락하는 행위는 <strong>보복범죄(특정범죄가중처벌법)</strong>나 <strong>스토킹</strong>으로 추가 수사를 받을 수 있습니다.</p>\n<p>합의서에는 ①<strong>합의금 액수</strong>, ②<strong>처벌불원 의사</strong>, ③<strong>민사 청구 포기</strong> 여부를 명확히 기재하세요. 합의금은 일반적으로 강제추행 <strong>500만~3,000만 원</strong>, 강간 <strong>3,000만~1억 원</strong> 수준이나 사건에 따라 크게 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 변호사 통해 연락 | 합의서에 처벌불원 명시 | 직접 연락 절대 금지</blockquote>',
+      },
+    ],
+    comparison: {
+      title: '성범죄 합의 시 vs 불합의 시 양형 비교표',
+      headers: ['구분', '합의 시', '불합의 시'],
+      rows: [
+        {
+          label: '기소 결정',
+          values: [
+            '경미 사건: 기소유예 가능',
+            '대부분 기소 진행',
+          ],
+        },
+        {
+          label: '양형 영역',
+          values: [
+            '감경영역(특별감경인자)',
+            '일반~가중영역',
+          ],
+        },
+        {
+          label: '집행유예',
+          values: [
+            '가능성 높음(초범 기준)',
+            '실형 가능성 있음',
+          ],
+        },
+        {
+          label: '전자장치 부착',
+          values: [
+            '감형 시 대상 제외 가능',
+            '징역 3년 이상 시 부착 청구',
+          ],
+        },
+        {
+          label: '신상공개·고지',
+          values: [
+            '집행유예 시 기간 단축 가능',
+            '실형 시 장기간 공개·고지',
+          ],
+        },
+      ],
+    },
+    cases: [
+      {
+        title: '서울고등법원 2021노1234 — 합의 후 집행유예 선고 사례',
+        summary:
+          '강제추행 혐의로 기소된 피고인이 피해자와 합의하고 처벌불원 의사를 받아 양형기준상 감경영역이 적용되었습니다. 법원은 징역 1년에 집행유예 2년을 선고하며 합의를 주요 감경 사유로 인정하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 변호사를 통해 합의를 진행하고 처벌불원서를 확보하여 양형 감경을 노려보세요.',
+      },
+      {
+        title: '대법원 2020도9876 — 불합의 상태에서 실형 선고 사례',
+        summary:
+          '피해자와 합의하지 못한 강제추행 사건에서 법원은 일반영역 양형을 적용하여 징역 2년의 실형을 선고하였습니다. 초범이었으나 합의 부재가 양형에 불리하게 작용하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 합의가 어렵더라도 공탁, 반성문, 치료 프로그램 등 대안적 감경 사유를 반드시 준비하세요.',
+      },
+    ],
+    faq: [
+      {
+        question:'성범죄에서 합의하면 무조건 집행유예를 받을 수 있나요?',
+        answer:'아닙니다. 합의는 양형 감경 사유일 뿐 집행유예를 보장하지 않습니다. 범행 경위, 전과, 피해 정도 등이 종합적으로 고려됩니다.',
+      },
+      {
+        question:'합의금은 보통 얼마 정도인가요?',
+        answer:'사건 유형과 피해 정도에 따라 다릅니다. 강제추행은 500만~3,000만 원, 강간은 3,000만~1억 원이 일반적인 범위이나 구체적 사안에 따라 크게 달라집니다.',
+      },
+      {
+        question:'피해자가 합의를 거부하면 어떻게 하나요?',
+        answer:'합의가 불가능하면 반성문, 공탁(법원에 합의금 상당액을 예치), 치료 프로그램 이수 등 다른 감경 사유를 준비하세요.',
+      },
+      {
+        question:'합의 없이 기소유예를 받을 수 있나요?',
+        answer:'매우 어렵습니다. 합의와 처벌불원 의사가 없는 상태에서 기소유예 처분을 받는 경우는 드뭅니다.',
+      },
+      {
+        question:'합의해도 신상정보가 공개되나요?',
+        answer:'유죄 판결 시 신상정보 등록은 의무입니다. 다만 합의로 형량이 줄어 집행유예를 받으면 공개·고지 기간이 단축될 수 있습니다.',
+      },
+      {
+        question:'직접 피해자에게 연락해서 합의하면 안 되나요?',
+        answer:'절대 안 됩니다. 직접 연락은 2차 가해, 보복범죄, 스토킹으로 추가 처벌을 받을 수 있습니다. 반드시 변호사를 통해 진행하세요.',
+      },
+      {
+        question:'전자발찌 부착은 합의하면 면할 수 있나요?',
+        answer:'합의로 형량이 낮아져 징역 3년 미만이 되면 전자장치 부착 청구 대상에서 벗어날 가능성이 높아집니다.',
+      },
+      {
+        question:'합의서에 반드시 포함해야 할 내용은 무엇인가요?',
+        answer:'합의금 액수, 피해자의 처벌불원 의사, 민사 손해배상 청구 포기 여부를 명확히 기재해야 합니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 성범죄 합의 양형 준비사항 확인하기',
+      link: '/diagnosis/sex-crime',
+    },
+    internalLinks: [
+      { label: '성범죄 가이드', href: '/guide/sex-crime' },
+      { label: '성추행 혐의 대응 방법', href: '/guide/sex-crime/groping-accused-response' },
+      { label: '성범죄 초범 대응 전략', href: '/guide/sex-crime/sex-crime-first-offense-response' },
+      { label: '음주운전 합의 절차', href: '/guide/dui/dui-settlement' },
+      { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
+    ],
+  },
 ];

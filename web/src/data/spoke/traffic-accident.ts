@@ -202,4 +202,111 @@ export const trafficAccidentPages: SpokePage[] = [
       { label: '개인회생 가이드', href: '/guide/rehabilitation' },
     ],
   },
+  {
+    domain: 'traffic-accident',
+    slug: 'traffic-accident-injury-compensation',
+    keyword: '교통사고 부상 보상금 청구 체크리스트',
+    questionKeyword: '교통사고로 다쳤는데 보상금은 어떤 항목으로 청구하나요?',
+    ctaKeyword: '교통사고 보상금 청구',
+    type: '체크리스트형',
+    meta: {
+      title: '교통사고 부상 보상금 청구 체크리스트 | 로앤가이드',
+      description:
+        '교통사고 부상 보상금 청구 항목(치료비·휴업손해·위자료·향후치료비·간병비·교통비), 보험사 합의 주의점, 후유장해 등급별 보상을 정리했습니다.',
+    },
+    intro:
+      '빨간불에 직진하던 차에 측면 충돌당했습니다. 허리 디스크 진단을 받고 3개월째 통원 치료 중인데, 보험사에서 제시한 합의금이 터무니없이 적습니다. 교통사고 부상 보상금은 여러 항목으로 구성되어 있으며, 하나라도 빠뜨리면 수백만원에서 수천만원의 차이가 납니다.',
+    timelineSteps: ['보상 항목 파악', '증거·서류 확보', '보험사 합의 검토', '소송·조정'],
+    sections: [
+      {
+        title: '보상금 6대 항목을 빠짐없이 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">치료비·휴업손해·위자료·향후치료비·간병비·교통비 — 6가지를 모두 확인하세요</strong></p>\n<p>교통사고 부상 보상금은 다음 항목으로 구성됩니다. ①<strong>치료비</strong>: 실제 지출된 병원비 전액(입원비, 수술비, 약제비, 재활치료비 포함). ②<strong>휴업손해</strong>: 치료 기간 동안 일하지 못해 발생한 소득 손실. ③<strong>위자료</strong>: 정신적 고통에 대한 배상(부상 정도에 따라 수백만~수천만원).</p>\n<p>④<strong>향후치료비</strong>: 치료 종결 후에도 추가 치료가 필요한 경우의 예상 비용. ⑤<strong>간병비</strong>: 거동이 어려워 간병이 필요한 경우(가족 간병도 청구 가능). ⑥<strong>교통비</strong>: 통원 치료를 위한 교통비(택시비 영수증 보관). 보험사가 제시한 합의금이 이 6가지를 모두 포함하는지 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">6대 항목: 치료비 + 휴업손해 + 위자료 + 향후치료비 + 간병비 + 교통비</blockquote>',
+      },
+      {
+        title: '후유장해 등급이 인정되면 보상금이 크게 달라집니다',
+        content:
+          '<p><strong style="color:#1e3a5f">후유장해가 남으면 일실수입과 장해위자료가 추가됩니다</strong></p>\n<p>치료가 끝난 후에도 통증, 운동 제한, 신경 증상 등이 남으면 <strong>후유장해</strong>에 해당합니다. <strong>자동차손해배상보장법 시행령</strong>은 후유장해를 1~14급으로 분류하며, 등급에 따라 보상 금액이 크게 달라집니다.</p>\n<p>후유장해가 인정되면 ①<strong>일실수입</strong>(노동능력상실률에 따른 미래 소득 손실)과 ②<strong>장해위자료</strong>가 추가됩니다. 예를 들어 30대 직장인이 노동능력상실률 15%를 인정받으면 일실수입만 수천만원에 달할 수 있습니다. 보험사 자체 감정과 별도로 <strong>독립적인 의료 감정</strong>을 받아보는 것이 좋습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">교통사고 보상금이 적절한지 확신이 없다면, 지금 상황에 맞는 보상 항목을 <a href="/diagnosis/traffic-accident" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">후유장해: 1~14급 분류 → 일실수입 + 장해위자료 추가 | 독립 의료 감정 권장</blockquote>',
+      },
+      {
+        title: '보험사 합의 전에 반드시 확인해야 할 3가지',
+        content:
+          '<p><strong style="color:#1e3a5f">성급한 합의, 과소 평가된 휴업손해, 부제소 합의 조항을 주의하세요</strong></p>\n<p>첫째, <strong>치료가 완전히 끝나기 전에 합의하지 마세요</strong>. 합의 후 추가 치료가 필요해지면 비용을 받기 매우 어렵습니다. 의사에게 치료 종결 소견과 향후 치료 필요 여부를 반드시 확인하세요.</p>\n<p>둘째, 보험사가 <strong>휴업손해를 과소 평가</strong>하는 경우가 많습니다. 소득 증빙(급여명세서, 소득금액증명원, 세금신고서)을 꼼꼼히 제출하세요. 무직자나 가정주부도 <strong>일용노임 기준</strong>으로 휴업손해를 청구할 수 있습니다. 셋째, 합의서의 <strong>"향후 일체의 이의를 제기하지 않는다"는 부제소 합의 조항</strong>을 확인하세요. 서명하면 추가 청구가 거의 불가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: ①치료 종결 전 합의 금지 ②휴업손해 소득 증빙 철저 ③부제소 합의 조항 확인</blockquote>',
+      },
+      {
+        title: '합의가 안 되면 소송이나 분쟁조정을 활용하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">보험사 합의금이 부당하면 민사소송이나 분쟁조정으로 적정 보상을 받을 수 있습니다</strong></p>\n<p>보험사와 합의가 되지 않으면 <strong>민사소송</strong>으로 손해배상을 청구할 수 있습니다. <strong>자동차손해배상보장법 제3조</strong>에 따라 운행자는 운행으로 인한 손해를 배상할 책임이 있습니다. 소송에서 법원은 실제 손해액을 산정하여 판결합니다.</p>\n<p>소송 전에 <strong>손해보험협회 교통사고 분쟁조정위원회</strong>에 무료로 조정을 신청할 수 있습니다. 1~2개월 내에 조정 결과가 나오며, 양 당사자가 동의하면 재판상 화해와 동일한 효력이 있습니다. <strong>금융감독원 분쟁조정</strong>도 가능합니다. 소멸시효는 손해 및 가해자를 안 날부터 <strong>3년</strong>, 사고일부터 <strong>10년</strong>이므로 기한 내에 청구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 분쟁조정위원회(무료, 1~2개월) | 민사소송(6개월~1년) | 소멸시효 3년/10년</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '보험사 제시 합의금의 4배를 소송으로 받은 사례',
+        summary:
+          '관련 사례에서도 보험사가 800만원을 제시했으나, 후유장해 감정에서 노동능력상실률 12%가 인정되어 소송을 통해 일실수입, 장해위자료를 포함한 총 3,200만원을 지급받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 보험사의 첫 제안을 바로 수락하지 말고, 후유장해 감정과 보상 항목을 꼼꼼히 확인하세요.',
+      },
+      {
+        title: '가정주부도 휴업손해를 인정받은 사례',
+        summary:
+          '관련 사례에서도 전업주부인 피해자가 교통사고로 4개월간 가사노동을 하지 못한 데 대해, 법원이 일용노임 기준(일 약 15만원)으로 휴업손해를 인정하여 약 1,800만원을 지급받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 무직자나 주부도 일용노임 기준으로 휴업손해를 청구할 수 있으므로 포기하지 마세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '보험사가 제시한 합의금이 적정한지 어떻게 알 수 있나요?',
+        answer:
+          '합의금을 <strong>항목별(치료비·휴업손해·위자료 등)</strong>로 분리하여 각각 적정한지 확인하세요.',
+      },
+      {
+        question: '치료 중에 합의해도 되나요?',
+        answer:
+          '<strong>치료가 완전히 끝난 후</strong>에 합의하세요. 합의 후 추가 치료비 청구가 매우 어렵습니다.',
+      },
+      {
+        question: '무직자도 휴업손해를 받을 수 있나요?',
+        answer:
+          '네, <strong>일용노임 기준</strong>으로 휴업손해를 산정합니다. 가정주부, 학생도 청구 가능합니다.',
+      },
+      {
+        question: '향후치료비는 어떻게 산정하나요?',
+        answer:
+          '의사의 소견서와 진료비 견적서를 기준으로 <strong>향후 필요한 치료 비용</strong>을 산정합니다.',
+      },
+      {
+        question: '후유장해 등급은 누가 판정하나요?',
+        answer:
+          '보험사 자체 감정 외에 <strong>독립 의료기관</strong>이나 법원 감정을 통해 판정받을 수 있습니다.',
+      },
+      {
+        question: '간병비도 보상 받을 수 있나요?',
+        answer:
+          '네, 가족이 간병한 경우에도 <strong>유급 간병인 기준</strong>으로 간병비를 청구할 수 있습니다.',
+      },
+      {
+        question: '교통사고 손해배상 소멸시효는 얼마인가요?',
+        answer:
+          '손해 및 가해자를 안 날부터 <strong>3년</strong>, 사고일부터 10년입니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 대한변호사협회 교통사고 상담센터를 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 교통사고 보상금 청구 준비사항 확인하기',
+      link: '/diagnosis/traffic-accident',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
+      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
+      { label: '교통사고 과실비율 다툼 방법', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
+      { label: '개인회생 가이드', href: '/guide/rehabilitation' },
+    ],
+  },
 ];

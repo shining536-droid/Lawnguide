@@ -594,4 +594,111 @@ export const wagePages: SpokePage[] = [
       { label: '임금체불 진단', href: '/diagnosis/wage' },
     ],
   },
+  {
+    domain: 'wage',
+    slug: 'wage-overtime-unpaid-claim',
+    keyword: '야근 수당 안 받았을 때 청구하는 법',
+    questionKeyword: '야근을 했는데 수당을 안 주는데 청구할 수 있나요?',
+    ctaKeyword: '야근 수당 청구',
+    type: '상황형',
+    meta: {
+      title: '야근 수당 안 받았을 때 청구하는 법 | 로앤가이드',
+      description:
+        '연장근로 가산수당(50%) 청구 방법, 포괄임금제 함정, 출퇴근 기록 증거 확보, 노동청 진정 절차를 정리했습니다.',
+    },
+    intro:
+      '매일 밤 10시까지 야근하는데 월급은 기본급뿐입니다. 회사는 "포괄임금제라 수당 없다"고 합니다. 정말 수당을 받을 수 없는 걸까요. 근로기준법은 연장근로에 대해 통상임금의 50% 이상을 가산하여 지급하도록 규정하고 있습니다. 포괄임금제라도 실제 근로시간이 약정을 초과하면 차액을 청구할 수 있습니다.',
+    timelineSteps: ['근로시간 확인', '증거 확보', '회사에 청구', '노동청 진정'],
+    sections: [
+      {
+        title: '연장근로 가산수당 50% — 법이 보장하는 권리입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">근로기준법 제56조에 따라 연장근로에는 통상임금의 50%를 가산하여 지급해야 합니다</strong></p>\n<p><strong>근로기준법 제56조 제1항</strong>은 연장근로(1주 40시간, 1일 8시간 초과 근로)에 대해 <strong>통상임금의 50% 이상</strong>을 가산하여 지급하도록 규정합니다. 야간근로(오후 10시~오전 6시)는 별도로 50%가 추가 가산됩니다.</p>\n<p>예를 들어 통상시급이 15,000원인 근로자가 하루 2시간 연장근로를 하면 <strong>15,000 × 1.5 × 2 = 45,000원</strong>을 받아야 합니다. 야간까지 포함되면 <strong>15,000 × 2.0 × 해당 시간</strong>으로 계산됩니다. 이 수당을 지급하지 않는 것은 임금체불에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 연장근로 50% 가산 + 야간근로 50% 추가 가산 | 미지급 시 임금체불</blockquote>',
+      },
+      {
+        title: '포괄임금제라도 실제 근로시간이 초과하면 차액을 받을 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">포괄임금제는 실제 연장근로시간이 약정 시간을 넘으면 무효입니다</strong></p>\n<p><strong>포괄임금제</strong>란 기본급에 연장·야간·휴일수당을 포함하여 일정 금액을 지급하는 방식입니다. 그러나 대법원은 포괄임금 약정이 근로자에게 불이익하거나, <strong>실제 연장근로시간이 약정 시간을 초과</strong>하면 그 차액을 별도로 지급해야 한다고 판시하고 있습니다.</p>\n<p>예를 들어 포괄임금에 월 20시간 연장근로 수당이 포함되어 있는데 실제로 월 40시간 야근했다면, <strong>초과 20시간분의 가산수당</strong>을 청구할 수 있습니다. 근로계약서에 포괄임금 약정 내용이 명시되어 있는지, 약정 시간이 몇 시간인지를 반드시 확인하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">야근 수당을 제대로 받고 있는지 확신이 없다면, 지금 상황에 맞는 청구 가능 금액을 <a href="/diagnosis/wage" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">포괄임금제: 실제 근로시간 > 약정 시간 → 차액 청구 가능 | 근로계약서 약정 확인 필수</blockquote>',
+      },
+      {
+        title: '출퇴근 기록과 메신저 대화 — 증거 확보가 승패를 가릅니다',
+        content:
+          '<p><strong style="color:#1e3a5f">실제 근로시간을 증명할 증거가 없으면 청구가 어렵습니다</strong></p>\n<p>야근 수당 청구의 핵심은 <strong>"실제로 몇 시간 일했는가"</strong>를 증명하는 것입니다. 가장 강력한 증거는 ①<strong>전자 출퇴근 기록</strong>(지문인식, 카드 태그, 사내 시스템 로그), ②<strong>카카오톡·이메일</strong>(업무 지시 시간, 보고 시간이 찍힌 메시지), ③<strong>PC 접속 로그</strong>(회사 서버 접속 기록)입니다.</p>\n<p>회사가 출퇴근 기록을 관리하지 않는 경우에는 <strong>본인이 직접 근무 일지</strong>를 매일 기록해두세요. 날짜, 출근 시간, 퇴근 시간, 업무 내용을 적으면 됩니다. 동료의 확인 진술서도 보조 증거로 활용 가능합니다. 증거는 재직 중에 확보해두는 것이 중요합니다 — 퇴사 후에는 접근이 어려워집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 출퇴근 기록, 카카오톡·이메일, PC 로그, 본인 근무 일지, 동료 진술서</blockquote>',
+      },
+      {
+        title: '회사에 서면 청구 후 노동청 진정으로 받아내세요',
+        content:
+          '<p><strong style="color:#1e3a5f">내용증명으로 청구한 뒤 불이행 시 노동청에 진정하세요</strong></p>\n<p>먼저 회사에 <strong>내용증명</strong>으로 미지급 연장근로수당을 청구하세요. "○년 ○월~○월, 연장근로 ○시간, 미지급 수당 ○○만원을 ○일까지 지급 바랍니다"라고 구체적으로 작성합니다. 근로기준법 제109조(임금체불 시 3년 이하 징역/3,000만원 이하 벌금)를 언급하면 자발적 지급을 유도할 수 있습니다.</p>\n<p>회사가 지급하지 않으면 사업장 소재지 관할 <strong>고용노동청</strong>에 진정을 접수하세요. 온라인(고용노동부 민원마당), 방문, 우편 모두 가능합니다. 근로감독관이 사업장을 조사하여 체불이 확인되면 <strong>시정명령</strong>이 내려지고, 불이행 시 형사입건됩니다. 임금채권의 소멸시효는 <strong>3년</strong>이므로 빠른 청구가 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 내용증명 발송 → 노동청 진정 → 시정명령 → 불이행 시 형사입건 | 소멸시효 3년</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '포괄임금제 초과 근로시간에 대해 수당을 인정받은 사례',
+        summary:
+          '관련 사례에서도 포괄임금제로 월 20시간 연장근로 수당이 포함된 계약이었으나, 실제 월 50시간 이상 야근한 것이 출퇴근 기록과 이메일로 입증되어 초과분 30시간의 가산수당을 전액 지급받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 포괄임금제라 하더라도 실제 근로시간이 약정을 초과하면 차액을 청구할 수 있으므로, 출퇴근 기록을 반드시 확보하세요.',
+      },
+      {
+        title: '카카오톡 업무 지시 내역으로 야근 수당을 받은 사례',
+        summary:
+          '관련 사례에서도 회사에 공식 출퇴근 기록이 없었으나, 상사의 카카오톡 업무 지시 메시지(밤 9~10시)와 본인의 업무 보고 메시지가 근로시간 증거로 인정되어 야근 수당을 지급받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 업무 관련 메신저 대화, 이메일 발송 시간 등을 캡처하여 보관해두세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '포괄임금제면 야근 수당을 못 받나요?',
+        answer:
+          '아닙니다. 포괄임금 약정에 포함된 <strong>연장근로 시간을 초과</strong>하면 차액을 청구할 수 있습니다.',
+      },
+      {
+        question: '5인 미만 사업장도 연장근로 수당을 받을 수 있나요?',
+        answer:
+          '5인 미만 사업장에는 근로기준법 제56조가 <strong>적용되지 않습니다</strong>. 다만 근로계약서에 별도 약정이 있으면 청구 가능합니다.',
+      },
+      {
+        question: '야근 수당은 통상임금 기준인가요, 기본급 기준인가요?',
+        answer:
+          '<strong>통상임금</strong> 기준입니다. 기본급뿐 아니라 정기적·일률적으로 지급되는 수당도 통상임금에 포함됩니다.',
+      },
+      {
+        question: '주 52시간제를 넘으면 수당을 더 받나요?',
+        answer:
+          '주 52시간을 초과하는 근로 자체가 <strong>위법</strong>이며, 초과 근로에 대한 가산수당도 지급해야 합니다.',
+      },
+      {
+        question: '야근 수당 청구에 시효가 있나요?',
+        answer:
+          '임금채권 소멸시효는 <strong>3년</strong>입니다. 3년 이내의 미지급 수당을 소급 청구할 수 있습니다.',
+      },
+      {
+        question: '재직 중에도 야근 수당을 청구할 수 있나요?',
+        answer:
+          '네, <strong>재직 중에도</strong> 청구 가능합니다. 신고를 이유로 한 불이익은 법으로 금지됩니다.',
+      },
+      {
+        question: '회사가 출퇴근 기록을 안 남기면 어떻게 하나요?',
+        answer:
+          '<strong>카카오톡, 이메일, PC 로그, 본인 근무 일지</strong> 등으로 대체 증명할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 고용노동부 상담센터(1350)를 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 야근 수당 청구 준비사항 확인하기',
+      link: '/diagnosis/wage',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '임금체불 진단', href: '/diagnosis/wage' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
+      { label: '임금체불 신고 전에 준비할 서류', href: '/guide/wage/unpaid-wage-complaint-docs' },
+      { label: '최저임금 미달 급여 신고 방법', href: '/guide/wage/minimum-wage-violation-complaint' },
+    ],
+  },
 ];

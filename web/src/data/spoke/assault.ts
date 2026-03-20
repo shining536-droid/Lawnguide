@@ -1086,4 +1086,198 @@ export const assaultPages: SpokePage[] = [
       { label: '사기 피해 신고 기한과 금액별 대응법', href: '/guide/fraud/fraud-report-deadline-amounts' },
     ],
   },
+  {
+    domain: 'assault',
+    slug: 'assault-medical-cost-timeline',
+    keyword: '폭행 피해 치료비 청구 기한과 금액 기준',
+    questionKeyword: '폭행 피해 치료비는 언제까지 청구할 수 있고 얼마나 받을 수 있나요?',
+    ctaKeyword: '폭행 치료비 청구',
+    type: '수치기한형',
+    meta: {
+      title: '폭행 피해 치료비 청구 기한과 금액 기준 | 로앤가이드',
+      description: '폭행 피해 치료비 청구 시효, 항목별 금액 기준(치료비·일실수입·위자료), 후유장해 추가청구 방법을 정리했습니다.',
+    },
+    intro: '한 달 전 폭행을 당해 갈비뼈에 금이 갔습니다. 치료비가 벌써 200만원 넘게 나왔는데, 가해자 측은 "합의하자"면서 50만원만 제시합니다. 치료비를 제대로 받으려면 언제까지, 어떤 항목으로, 얼마나 청구할 수 있는지 막막합니다. 지금부터 기한과 금액 기준을 정리해보겠습니다.',
+    timelineSteps: ['청구 항목 정리', '시효 확인', '금액 산정', '청구·합의'],
+    sections: [
+      {
+        title: '치료비 청구 시효부터 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">불법행위 손해배상 시효는 "안 날로부터 3년, 발생일로부터 10년"입니다</strong></p>\n<p><strong>민법 제766조</strong>에 따라 폭행 피해 손해배상 청구권은 <strong>피해 사실을 안 날로부터 3년</strong>, 폭행이 발생한 날로부터 <strong>10년</strong> 이내에 행사해야 합니다. 두 기한 중 먼저 도래하는 쪽이 적용됩니다.</p>\n<p>후유장해가 나중에 발견된 경우에는 <strong>그 장해를 안 날부터</strong> 새로 3년이 기산됩니다. 치료가 길어지더라도 시효 내에 청구하면 추가 치료비도 받을 수 있으니 기한을 꼭 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">시효: 안 날로부터 3년 / 발생일로부터 10년 (민법 제766조) | 후유장해는 발견 시점부터 기산</blockquote>',
+      },
+      {
+        title: '청구할 수 있는 항목과 금액 기준을 파악하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">치료비, 일실수입, 위자료 3가지를 항목별로 산정하세요</strong></p>\n<p><strong>치료비</strong>는 진료비, 약제비, 입원비, 통원교통비, 간병비까지 포함됩니다. 실비로 청구하되 <strong>영수증 원본</strong>을 반드시 보관하세요. <strong>일실수입</strong>은 치료 기간 동안 일하지 못해 발생한 수입 손실이며, 재직증명서와 급여명세서로 산정합니다.</p>\n<p><strong>위자료</strong>는 정신적 고통에 대한 배상으로, 법원은 상해 정도, 가해 동기, 피해자 나이 등을 종합 고려합니다. 폭행 피해 위자료는 통상 <strong>100만~500만원</strong> 수준이며, 중상해의 경우 <strong>1,000만원 이상</strong>도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">항목: ①치료비(실비) ②일실수입(급여손실) ③위자료(100만~500만원+) | 영수증·급여명세서 필수</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">폭행 피해 치료비 청구 금액이 궁금하시다면, 지금 상황에 맞는 예상 금액을 <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '진단서 기간별 합의금 시세를 참고하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">진단서 치료 기간에 따라 합의금 수준이 달라집니다</strong></p>\n<p>실무에서 폭행 합의금은 <strong>진단서 치료 기간</strong>을 기준으로 형성됩니다. 전치 <strong>2주</strong> 진단의 경우 합의금은 <strong>100만~300만원</strong>, 전치 <strong>4주</strong>는 <strong>300만~700만원</strong>, 전치 <strong>6주 이상</strong>은 <strong>500만~1,500만원</strong> 수준이 일반적입니다. 물론 구체적 상황에 따라 달라집니다.</p>\n<p>합의금에는 <strong>치료비 실비 + 위자료 + 일실수입</strong>이 모두 포함되어야 합니다. 가해자가 낮은 금액을 제시하면 항목별 산출 근거를 요청하고, 적정 금액을 협상하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">시세 참고: 2주 → 100만~300만원 | 4주 → 300만~700만원 | 6주+ → 500만~1,500만원</blockquote>',
+      },
+      {
+        title: '후유장해가 남으면 추가 청구가 가능합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">치료 종결 후에도 후유장해에 대해 별도로 청구할 수 있습니다</strong></p>\n<p>치료가 끝난 후에도 <strong>후유장해</strong>(관절 운동 제한, 흉터, 신경 손상 등)가 남으면 이에 대한 <strong>추가 손해배상</strong>을 청구할 수 있습니다. 후유장해 진단서를 발급받아 장해 등급을 확인하세요.</p>\n<p>합의서를 작성할 때 반드시 <strong>"향후 발생하는 후유장해에 대한 추가 청구권은 포기하지 않는다"</strong>는 문구를 넣으세요. 이 문구가 없으면 추가 치료비 청구가 어려워질 수 있습니다. 민사 소송을 통해 청구하면 법원이 <strong>향후 치료비</strong>까지 인정하는 경우도 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">중요: 합의서에 "추가 청구권 유보" 문구 필수 | 후유장해 진단서 발급</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '갈비뼈 골절 피해자가 치료비·위자료·일실수입을 전액 인정받은 사례',
+        summary:
+          '관련 사례에서도 폭행으로 갈비뼈 골절(전치 6주) 피해를 입은 원고가 치료비 320만원, 일실수입 180만원, 위자료 500만원 합계 1,000만원을 청구하여 법원이 전액 인용한 경우가 있습니다. 진료비 영수증과 급여명세서가 핵심 증거로 활용되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 치료비 영수증과 급여명세서를 빠짐없이 보관하고, 항목별로 금액을 산정해서 청구하세요.',
+      },
+      {
+        title: '합의 후 후유장해가 발견되어 추가 배상을 받은 사례',
+        summary:
+          '관련 사례에서도 폭행 합의 후 6개월 뒤 디스크 후유증이 발견되어 추가 손해배상 소송을 제기한 경우, 합의서에 "추가 청구권 유보" 문구가 있어 후유장해에 대한 추가 배상이 인정된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 합의서 작성 시 반드시 "향후 후유장해에 대한 추가 청구권을 유보한다"는 문구를 포함시키세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '폭행 치료비 청구 시효가 정말 3년인가요?',
+        answer: '민법 제766조에 따라 <strong>피해 사실을 안 날로부터 3년</strong>입니다. 다만 발생일로부터 10년이 지나면 청구할 수 없습니다.',
+      },
+      {
+        question: '가해자가 돈이 없으면 치료비를 받을 수 없나요?',
+        answer: '판결을 받으면 <strong>재산 압류, 급여 압류</strong> 등 강제집행이 가능합니다. 범죄피해자 구조금 제도도 활용할 수 있습니다.',
+      },
+      {
+        question: '합의금과 치료비는 다른 건가요?',
+        answer: '합의금은 <strong>치료비 + 위자료 + 일실수입</strong>을 모두 포함하는 금액입니다. 치료비만 받는 합의는 피해자에게 불리합니다.',
+      },
+      {
+        question: '진단서가 2주인데 실제 치료 기간이 더 길면 어떻게 하나요?',
+        answer: '추가 진단서를 발급받으세요. <strong>실제 치료 기간</strong>이 길어지면 합의금과 손해배상 금액도 올라갑니다.',
+      },
+      {
+        question: '위자료는 어떤 기준으로 정해지나요?',
+        answer: '법원이 <strong>상해 정도, 가해 동기, 피해자 과실, 당사자 관계</strong> 등을 종합 고려하여 결정합니다.',
+      },
+      {
+        question: '통원교통비도 청구할 수 있나요?',
+        answer: '병원까지의 <strong>택시비, 대중교통비, 주차비</strong> 등 통원에 필요한 교통비도 치료비의 일부로 청구 가능합니다.',
+      },
+      {
+        question: '가해자가 합의를 거부하면 어떻게 하나요?',
+        answer: '<strong>민사 손해배상 소송</strong>을 제기하세요. 법원이 적정 배상액을 판결하며, 강제집행도 가능합니다.',
+      },
+      {
+        question: '형사 합의와 민사 소송을 동시에 진행할 수 있나요?',
+        answer: '가능합니다. <strong>형사와 민사는 별개 절차</strong>이므로 형사 합의 없이도 민사 소송으로 치료비를 청구할 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 폭행 치료비 청구 준비사항 확인하기',
+      link: '/diagnosis/assault',
+    },
+    internalLinks: [
+      { label: '폭행 가이드', href: '/guide/assault' },
+      { label: '폭행 합의금 산정과 절차', href: '/guide/assault/assault-settlement-amount-process' },
+      { label: '상해 합의금 계산 기준', href: '/guide/assault/injury-settlement-calculation' },
+      { label: '폭행 진단', href: '/diagnosis/assault' },
+      { label: '인터넷 쇼핑 사기 환불 절차', href: '/guide/fraud/online-shopping-fraud-refund' },
+    ],
+  },
+  {
+    domain: 'assault',
+    slug: 'assault-false-accusation-counter',
+    keyword: '폭행 무고 당했을 때 대응 체크리스트',
+    questionKeyword: '폭행한 적 없는데 폭행으로 고소당했어요. 어떻게 대응하나요?',
+    ctaKeyword: '폭행 무고 대응',
+    type: '체크리스트형',
+    meta: {
+      title: '폭행 무고 당했을 때 대응 체크리스트 | 로앤가이드',
+      description: '폭행한 적 없는데 폭행으로 고소당했을 때 CCTV·목격자 확보, 진술 전략, 무고죄 반대고소 방법을 체크리스트로 정리했습니다.',
+    },
+    intro: '직장 동료와 말다툼을 했을 뿐인데, 다음 날 "폭행당했다"며 진단서를 끊고 고소했습니다. 손도 대지 않았는데 피의자가 되었습니다. 사실과 다르게 신고되었다면, 감정적으로 대응하기보다 체계적으로 증거를 확보하고 반박해야 합니다. 지금부터 대응 체크리스트를 정리해보겠습니다.',
+    timelineSteps: ['증거 확보', '진술 준비', '혐의 반박', '무고죄 반대고소'],
+    sections: [
+      {
+        title: 'CCTV와 목격자 증거를 즉시 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">현장 CCTV와 목격자는 무고를 증명하는 가장 강력한 증거입니다</strong></p>\n<p>사실과 다르게 신고되었다면 가장 먼저 <strong>현장 CCTV</strong>를 확인하세요. 직장 내 CCTV, 건물 복도 CCTV, 인근 상가 CCTV 등을 체크합니다. CCTV는 보통 <strong>30일</strong> 내에 덮어씌워지므로 즉시 보존 요청해야 합니다. 경찰서에 방문하여 CCTV 보존 요청서를 제출하세요.</p>\n<p>당시 현장에 있던 <strong>목격자의 연락처</strong>를 확보하고, 가능하면 목격 진술서를 받아두세요. 당시 주고받은 <strong>문자, 카톡</strong>에 폭행 정황이 없다는 점도 간접 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: ☑ CCTV 보존 요청 ☑ 목격자 연락처·진술서 ☑ 당시 대화 기록 확보</blockquote>',
+      },
+      {
+        title: '상대방 진단서의 신빙성을 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">진단서 발급 시점과 부상 부위의 정합성을 따져보세요</strong></p>\n<p>고소인이 제출한 <strong>진단서의 발급 시점</strong>이 중요합니다. 사건 당일이 아니라 <strong>며칠 후</strong>에 발급받았다면, 다른 원인에 의한 부상일 가능성을 제기할 수 있습니다. 진단서의 부상 부위가 주장하는 폭행 방식과 일치하는지도 확인하세요.</p>\n<p>예를 들어 "주먹으로 맞았다"고 주장하는데 진단서에 <strong>찰과상</strong>(긁힌 상처)만 기재되어 있다면 주장과 맞지 않습니다. 필요하면 <strong>법의학 전문가 의견서</strong>를 받아 진단서의 모순점을 지적할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: ☑ 진단서 발급 시점 확인 ☑ 부상 부위와 주장 일치 여부 ☑ 법의학 의견서 검토</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">폭행 무고를 당하셨다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '경찰 조사에서 일관되고 구체적으로 진술하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">"폭행한 사실이 없다"는 점을 구체적 정황과 함께 진술하세요</strong></p>\n<p>경찰 조사에서 단순히 "안 때렸다"고만 하면 설득력이 떨어집니다. <strong>당시 상황을 구체적으로</strong> 진술하세요. "몇 시에, 어디서, 어떤 대화를 했고, 물리적 접촉은 전혀 없었다"는 식으로 시간대별로 정리합니다.</p>\n<p>수사관이 <strong>"혹시 살짝이라도 닿았을 수 있지 않냐"</strong>는 유도 질문을 할 수 있습니다. 접촉이 없었다면 <strong>"전혀 접촉한 사실이 없다"</strong>고 단호하게 답변하세요. 진술 전에 변호사와 상담하여 진술서를 미리 준비하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: ☑ 시간대별 상황 정리 ☑ 유도 질문 대비 ☑ 변호인 동석 요청</blockquote>',
+      },
+      {
+        title: '무고죄 반대고소를 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 고소임이 명백하다면 무고죄(형법 제156조)로 반대고소할 수 있습니다</strong></p>\n<p><strong>무고죄</strong>는 타인에게 형사처벌을 받게 할 목적으로 허위 사실을 신고하는 범죄입니다. <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 해당합니다. CCTV에 폭행 장면이 없거나, 목격자가 "폭행은 없었다"고 진술한다면 무고죄 성립 가능성이 높아집니다.</p>\n<p>반대고소 시에는 ①고소인의 진술이 거짓이라는 증거, ②고소인이 허위임을 <strong>인식하고 있었다는 정황</strong>(예: 지인에게 "고소로 압박하겠다"고 말한 메시지)이 있으면 더욱 유리합니다. 무고죄와 함께 <strong>명예훼손</strong>이나 <strong>민사 손해배상</strong>도 병행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: ☑ 허위 증거 확보 ☑ 고소인의 허위 인식 정황 ☑ 무고죄 반대고소장 작성</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: 'CCTV에 폭행 장면이 없어 무혐의 처분을 받은 사례',
+        summary:
+          '관련 사례에서도 고소인이 "폭행당했다"고 주장했으나, 현장 CCTV를 확인한 결과 말다툼만 있었을 뿐 물리적 접촉이 전혀 없어 피고소인에 대해 무혐의 처분이 내려진 경우가 있습니다. CCTV 보존 요청이 신속하게 이루어진 것이 결정적이었습니다.',
+        takeaway:
+          '비슷한 상황이라면 사건 발생 후 즉시 CCTV 보존 요청을 하고, 영상 확보 여부를 확인하세요.',
+      },
+      {
+        title: '허위 폭행 고소로 무고죄 유죄가 선고된 사례',
+        summary:
+          '관련 사례에서도 고소인이 직장 내 갈등으로 상대방을 압박하기 위해 허위 폭행 고소를 했으나, 목격자 3인의 진술과 고소인이 지인에게 보낸 "고소로 겁을 주겠다"는 메시지가 발견되어 무고죄로 유죄 판결을 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 고소인이 허위 고소 의도를 드러낸 메시지나 녹음이 있는지 확인해보세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '손도 안 댔는데 폭행죄가 성립할 수 있나요?',
+        answer: '폭행죄는 <strong>신체에 대한 유형력 행사</strong>로 성립하므로, 물건을 던지거나 침을 뱉는 행위도 포함됩니다. 하지만 접촉이 전혀 없었다면 성립하지 않습니다.',
+      },
+      {
+        question: 'CCTV가 없는 곳에서 일어났으면 어떻게 하나요?',
+        answer: '<strong>목격자 진술, 당시 주고받은 메시지, 알리바이</strong>로 대응해야 합니다. 주변에 다른 카메라(블랙박스, 건물 출입 기록)가 없는지도 확인하세요.',
+      },
+      {
+        question: '상대방이 진단서를 끊었는데 어떻게 반박하나요?',
+        answer: '<strong>진단서 발급 시점, 부상 부위와 주장의 불일치</strong>를 지적하세요. 필요하면 법의학 전문가 의견서를 받을 수 있습니다.',
+      },
+      {
+        question: '무고죄 반대고소는 언제 하는 게 좋나요?',
+        answer: '본인 사건이 <strong>무혐의 또는 불기소 처분</strong>을 받은 후 하는 것이 가장 효과적이지만, 수사 중에도 가능합니다.',
+      },
+      {
+        question: '무고죄가 성립하려면 어떤 조건이 필요한가요?',
+        answer: '고소인이 <strong>허위라는 사실을 알면서</strong> 형사처벌 목적으로 신고해야 합니다. 진심으로 폭행당했다고 믿었다면 성립이 어렵습니다.',
+      },
+      {
+        question: '경찰 조사에서 변호사를 동석시킬 수 있나요?',
+        answer: '피의자는 <strong>변호인 동석권</strong>이 보장됩니다. 조사 전에 반드시 변호사 동석을 요청하세요.',
+      },
+      {
+        question: '폭행 무고로 민사 손해배상도 청구할 수 있나요?',
+        answer: '허위 고소로 인한 <strong>정신적 고통, 변호사 비용, 명예 훼손</strong>에 대해 민사 손해배상을 청구할 수 있습니다.',
+      },
+      {
+        question: '말다툼 중 큰 소리를 쳤는데 이것도 폭행인가요?',
+        answer: '단순히 소리를 지른 것만으로는 폭행에 해당하지 않습니다. 다만 <strong>귀 바로 옆에서 고함</strong>을 지르는 등 유형력이 인정되면 폭행이 될 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 폭행 무고 대응 준비사항 확인하기',
+      link: '/diagnosis/assault',
+    },
+    internalLinks: [
+      { label: '폭행 가이드', href: '/guide/assault' },
+      { label: '폭행 피해 증거 모으는 법', href: '/guide/assault/assault-evidence-collection' },
+      { label: '정당방위 증거 요건', href: '/guide/assault/self-defense-evidence-requirements' },
+      { label: '폭행 진단', href: '/diagnosis/assault' },
+      { label: '사기 무고 방어 전략', href: '/guide/fraud/fraud-false-accusation-defense' },
+    ],
+  },
 ];

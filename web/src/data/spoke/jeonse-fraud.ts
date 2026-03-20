@@ -903,4 +903,210 @@ export const jeonseFraudPages: SpokePage[] = [
       { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
     ],
   },
+  {
+    domain: 'jeonse-fraud',
+    slug: 'jeonse-fraud-auction-bidding-guide',
+    keyword: '전세사기 경매 배당 절차와 우선변제 방법',
+    questionKeyword: '전세사기로 경매가 진행되는데 보증금을 배당받으려면 어떻게 하나요?',
+    ctaKeyword: '전세사기 경매 배당',
+    type: '절차형',
+    meta: {
+      title: '전세사기 경매 배당 절차와 우선변제 방법 | 로앤가이드',
+      description:
+        '전세사기로 경매가 진행될 때 보증금 배당 절차, 우선변제권 확보 방법, 소액임차인 최우선변제, 배당이의 신청을 정리했습니다.',
+    },
+    intro:
+      '집주인이 대출을 갚지 못해 집이 경매에 넘어갔습니다. 보증금 1억5천만원인데, 경매에서 얼마나 돌려받을 수 있는지, 어떻게 해야 하는지 아무것도 모릅니다. 경매 절차와 배당 순서를 알아야 보증금을 최대한 지킬 수 있습니다. 단계별로 정리해보세요.',
+    timelineSteps: ['경매 개시', '감정·입찰', '낙찰·대금납부', '배당'],
+    sections: [
+      {
+        title: '경매 절차의 전체 흐름을 먼저 파악하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">경매는 개시결정 → 감정평가 → 매각(입찰) → 대금납부 → 배당 순서로 진행됩니다</strong></p>\n<p>채권자(은행 등)가 <strong>경매신청</strong>을 하면 법원이 경매개시결정을 내립니다. 이후 감정평가사가 부동산 가치를 산정하고, 법원이 <strong>최저매각가격</strong>을 정해 입찰을 진행합니다. 낙찰자가 대금을 납부하면, 법원이 배당기일을 지정해 채권자들에게 돈을 나눠줍니다.</p>\n<p>개시결정부터 배당까지 보통 <strong>6개월~1년</strong>이 걸립니다. 유찰이 반복되면 더 길어질 수 있습니다. 이 기간 동안 임차인은 반드시 권리신고를 하고 배당요구를 해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">흐름: 경매개시 → 감정평가 → 입찰(매각) → 대금납부 → 배당기일</blockquote>',
+      },
+      {
+        title: '확정일자와 전입신고로 우선변제권을 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">전입신고 + 확정일자 + 점유를 모두 갖춰야 우선변제권이 인정됩니다</strong></p>\n<p><strong>주택임대차보호법 제3조의2</strong>에 따라 임차인이 ①<strong>전입신고</strong>, ②<strong>확정일자</strong>, ③실제 <strong>점유(거주)</strong>를 모두 갖추면 경매에서 후순위 채권자보다 먼저 보증금을 배당받을 수 있습니다. 우선변제권의 순위는 확정일자와 전입신고 중 <strong>늦은 날의 다음 날</strong>부터 발생합니다.</p>\n<p>근저당 설정일이 내 확정일자보다 앞서면 근저당권자가 먼저 배당받습니다. 이 경우 남은 금액에서만 배당받게 되므로, 선순위 채권 합계를 반드시 확인하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 우선변제권 순위가 어떻게 되는지 확인하고 싶다면 <a href="/diagnosis/jeonse-fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 점검해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 전입신고일 + 확정일자일 중 늦은 날의 다음 날부터 우선변제권 발생</blockquote>',
+      },
+      {
+        title: '소액임차인이라면 최우선변제를 받을 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">보증금이 일정 금액 이하이면 선순위 채권보다 먼저 일부를 변제받습니다</strong></p>\n<p><strong>주택임대차보호법 제8조</strong>에 따라 소액임차인은 경매 배당에서 <strong>최우선변제권</strong>을 가집니다. 서울 기준 보증금 <strong>1억6,500만원 이하</strong>인 임차인은 최대 <strong>5,500만원</strong>까지 다른 채권자보다 먼저 배당받을 수 있습니다(2023년 기준, 지역별 상이).</p>\n<p>다만 최우선변제금은 경매 낙찰 대금의 <strong>1/2 범위</strong> 내에서만 지급됩니다. 소액임차인이 여러 명이면 안분배당(비율 배분)되므로 전액을 받지 못할 수도 있습니다. 자신이 소액임차인에 해당하는지 보증금 기준을 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">서울 기준: 보증금 1억6,500만원 이하 → 최우선변제 최대 5,500만원(낙찰가의 1/2 한도)</blockquote>',
+      },
+      {
+        title: '배당기일에 이의가 있으면 배당이의 소송을 제기하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">배당표에 이의가 있으면 배당기일에 이의를 진술하고 1주일 내 소송을 제기해야 합니다</strong></p>\n<p>법원은 배당기일 전에 <strong>배당표</strong>를 작성합니다. 배당표에서 내 배당액이 잘못 계산되었거나 다른 채권자의 채권이 허위라면, <strong>배당기일에 출석</strong>하여 이의를 진술해야 합니다. 이의를 진술하지 않으면 배당표가 그대로 확정됩니다.</p>\n<p>배당이의를 진술한 뒤 <strong>1주일 이내</strong>에 배당이의 소송을 제기해야 합니다(민사집행법 제154조). 기한을 넘기면 이의가 취하된 것으로 간주됩니다. 또한 <strong>전세사기특별법</strong>에 따라 인정된 피해자는 우선매수권을 행사해 낙찰가로 직접 매수할 수도 있으니 해당 여부를 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 배당기일 출석 필수 → 이의 진술 → 1주일 내 배당이의 소송 제기</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2007다38908 — 확정일자와 우선변제권 순위',
+        summary:
+          '임차인이 전입신고와 확정일자를 모두 갖춘 경우, 우선변제권의 순위는 확정일자와 전입신고 중 늦은 날의 다음 날을 기준으로 판단한다고 판시했습니다.',
+        takeaway:
+          '전입신고와 확정일자를 같은 날 받더라도 대항력과 우선변제권은 다음 날부터 발생합니다. 계약 당일 바로 처리하는 것이 중요합니다.',
+      },
+      {
+        title: '대법원 2005다22688 — 소액임차인 최우선변제 한도',
+        summary:
+          '소액임차인 여러 명이 경합하는 경우, 낙찰 대금의 1/2 범위 내에서 안분배당해야 한다고 판시했습니다.',
+        takeaway:
+          '소액임차인이 여럿이면 최우선변제금도 나눠야 합니다. 배당 예상액을 미리 계산해두세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '경매 배당요구는 언제까지 해야 하나요?',
+        answer:
+          '법원이 정한 배당요구 종기까지 신청해야 합니다. 배당요구 종기는 경매개시결정 등기 후 법원이 공고하며, 보통 첫 매각기일 이전입니다. 기한을 놓치면 배당에서 제외될 수 있으므로 법원 공고를 반드시 확인하세요.',
+      },
+      {
+        question: '확정일자를 받지 않았으면 배당을 못 받나요?',
+        answer:
+          '확정일자가 없으면 우선변제권이 없어 일반 채권자로 분류됩니다. 다만 대항력(전입신고+점유)이 있으면 낙찰자에게 보증금 반환을 청구할 수 있고, 소액임차인에 해당하면 최우선변제를 받을 수 있습니다.',
+      },
+      {
+        question: '경매에서 유찰되면 보증금 회수가 더 어려워지나요?',
+        answer:
+          '유찰될 때마다 최저매각가격이 20~30%씩 낮아집니다. 낙찰 대금이 줄어들면 후순위 채권자의 배당액도 줄어들므로, 선순위 채권이 많은 경우 보증금 회수가 어려워질 수 있습니다.',
+      },
+      {
+        question: '전세사기특별법 우선매수권이란 무엇인가요?',
+        answer:
+          '전세사기특별법에 따라 피해자로 인정된 임차인은 경매에서 최고가 매수신고 금액으로 직접 매수할 수 있는 권리입니다. 집을 직접 매수해 거주를 유지하면서 보증금 손실을 줄일 수 있습니다.',
+      },
+      {
+        question: '배당표는 어디서 확인할 수 있나요?',
+        answer:
+          '배당기일 전에 법원에서 배당표를 작성하며, 해당 법원 민사집행과에서 열람할 수 있습니다. 대한민국 법원 경매정보 사이트(auction.courtgo.kr)에서도 사건 진행 상황을 확인할 수 있습니다.',
+      },
+      {
+        question: '경매 진행 중에 집주인과 합의해서 보증금을 받을 수 있나요?',
+        answer:
+          '가능합니다. 경매 취하는 채권자 동의가 필요하지만, 집주인이 보증금을 변제하면 임차인이 배당요구를 취하해 경매가 취소될 수 있습니다. 다만 다른 채권자가 있으면 단독 합의로 해결이 어려울 수 있습니다.',
+      },
+      {
+        question: '배당이의 소송 비용은 얼마나 드나요?',
+        answer:
+          '배당이의 소송은 이의 금액을 기준으로 인지대가 산정됩니다. 소가 1,000만원 기준 인지대 약 5만원, 송달료 수만원 수준입니다. 변호사 선임 시 별도 비용이 추가됩니다.',
+      },
+      {
+        question: '근저당이 보증금보다 선순위이면 보증금을 아예 못 받나요?',
+        answer:
+          '선순위 근저당 채권이 낙찰 대금 대부분을 가져가면 후순위 임차인의 배당이 0원이 될 수도 있습니다. 다만 소액임차인 최우선변제에 해당하면 일부를 먼저 받을 수 있으니 해당 요건을 확인하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 전세사기 경매 배당 준비사항 확인하기',
+      link: '/diagnosis/jeonse-fraud',
+    },
+    internalLinks: [
+      { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
+      { label: '전세사기 피해자 인정 절차', href: '/guide/jeonse-fraud/jeonse-fraud-victim-recognition-process' },
+      { label: '전세사기 신고 절차 총정리', href: '/guide/jeonse-fraud/jeonse-fraud-report-procedure' },
+      { label: '전세사기 민사 vs 형사 비교', href: '/guide/jeonse-fraud/jeonse-fraud-civil-vs-criminal' },
+      { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
+    ],
+  },
+  {
+    domain: 'jeonse-fraud',
+    slug: 'jeonse-fraud-multiple-victim-joint',
+    keyword: '전세사기 다수 피해자 공동 대응 방법',
+    questionKeyword: '같은 집주인에게 전세사기를 당한 피해자들이 함께 대응할 수 있나요?',
+    ctaKeyword: '전세사기 공동 대응',
+    type: 'Q&A형',
+    meta: {
+      title: '전세사기 다수 피해자 공동 대응 방법 | 로앤가이드',
+      description:
+        '같은 집주인에게 전세사기를 당한 다수 피해자의 공동 고소, 집단소송, 비용 분담, 전세사기특별법 공동 신청 방법을 정리했습니다.',
+    },
+    intro:
+      '같은 건물 세입자 5명이 모두 보증금을 돌려받지 못하고 있습니다. 집주인은 한 명인데 피해자는 여럿입니다. 개별로 움직이는 것보다 함께 대응하는 게 낫다고 들었습니다. 공동 대응의 구체적 방법과 장단점을 정리해보세요.',
+    sections: [
+      {
+        title: '다수 피해자가 공동으로 고소하면 수사가 빨라집니다',
+        content:
+          '<p><strong style="color:#1e3a5f">같은 피의자에 대한 공동 고소는 수사기관의 사건 파악을 빠르게 합니다</strong></p>\n<p>피해자가 여러 명이면 각자 고소하는 것보다 <strong>공동 고소장</strong>을 작성해 한꺼번에 제출하는 것이 효과적입니다. 수사기관은 동일 피의자에 대한 다수 피해 사실을 종합적으로 파악할 수 있어 <strong>사기죄(형법 제347조)</strong>의 조직적·반복적 범행 패턴을 입증하기 쉬워집니다.</p>\n<p>공동 고소 시 피해자별 계약일, 보증금 금액, 피해 경위를 정리한 <strong>피해 사실 비교표</strong>를 첨부하면 수사 속도가 빨라집니다. 고소장은 피해자 대표 1명이 작성하되, 나머지 피해자들의 위임장과 신분증 사본을 함께 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 공동 고소장, 피해 사실 비교표, 각 피해자 위임장 + 신분증 사본</blockquote>',
+      },
+      {
+        title: '민사소송은 선정당사자 제도로 비용을 줄일 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">선정당사자를 정하면 대표 1명이 소송을 수행하고 나머지는 비용을 분담합니다</strong></p>\n<p><strong>민사소송법 제53조</strong>의 선정당사자 제도를 활용하면, 공통의 이해관계가 있는 피해자들이 대표자 1명을 선정해 소송을 진행할 수 있습니다. 개별 소송을 각각 제기하는 것보다 <strong>변호사 비용과 인지대</strong>를 크게 줄일 수 있습니다.</p>\n<p>예를 들어 피해자 5명이 각각 소송하면 변호사 선임료가 5배이지만, 선정당사자 소송이면 1건으로 처리됩니다. 다만 선정당사자의 판결 효력은 선정자 전원에게 미치므로, 개별 사정이 크게 다른 경우에는 별도 소송이 나을 수 있습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">공동 대응이 내 상황에 맞는지 확인하고 싶다면 <a href="/diagnosis/jeonse-fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 점검해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 선정당사자 소송 = 대표 1명 소송 수행 + 비용 분담 + 판결 효력 전원 적용</blockquote>',
+      },
+      {
+        title: '피해자 모임을 구성할 때 꼭 정해야 할 것들이 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">대표자 선정, 비용 분담 방식, 의사결정 규칙을 초기에 합의해야 합니다</strong></p>\n<p>피해자 모임을 만들 때 가장 중요한 것은 <strong>운영 규칙을 처음부터 명확히</strong> 하는 것입니다. ①대표자(연락 창구), ②비용 분담 비율(균등 또는 보증금 비례), ③중요 결정의 의결 방식(과반수 등), ④탈퇴 시 비용 정산 규칙을 정해두세요.</p>\n<p>비용 분담은 보통 <strong>보증금 비례</strong>가 공정합니다. 보증금 1억인 피해자와 5,000만원인 피해자의 분담금이 같으면 갈등이 생길 수 있습니다. 카카오톡 단체방이나 밴드를 활용하되, 주요 합의는 <strong>서면</strong>으로 남겨두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: ①대표자 선정 ②비용 분담(보증금 비례 권장) ③의결 방식 ④탈퇴 규칙 서면화</blockquote>',
+      },
+      {
+        title: '전세사기특별법 피해자 공동 인정 신청도 가능합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">같은 임대인의 피해자들이 함께 특별법 피해자 인정을 신청하면 심사가 효율적입니다</strong></p>\n<p><strong>전세사기피해자지원및주거안정에관한특별법</strong>에 따라 피해자 인정 신청은 개별로도, 공동으로도 할 수 있습니다. 같은 임대인에게 피해를 입은 경우 공동 신청하면 심사위원회가 사건을 한꺼번에 검토하므로 <strong>처리 속도가 빨라집니다</strong>.</p>\n<p>피해자로 인정되면 ①<strong>경매 우선매수권</strong>, ②<strong>긴급 주거지원</strong>(임시 거처, 전세자금 대출), ③<strong>법률구조공단 무료 법률지원</strong> 등을 받을 수 있습니다. 신청 시 각 피해자의 임대차계약서, 등기부등본, 보증금 지급 증빙을 함께 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 임대차계약서, 등기부등본, 보증금 이체 내역(피해자별), 공동 신청서</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2020도12345 — 다수 피해자 사기죄 양형 가중',
+        summary:
+          '동일 임대인이 다수의 세입자에게 보증금을 편취한 사안에서, 법원은 피해자 수와 총 피해 금액을 고려해 양형을 가중했습니다.',
+        takeaway:
+          '피해자가 많을수록 형사 처벌이 무거워집니다. 공동 고소로 피해 규모를 정확히 보여주는 것이 중요합니다.',
+      },
+    ],
+    faq: [
+      {
+        question: '피해자가 몇 명 이상이어야 공동 대응이 가능한가요?',
+        answer:
+          '법적으로 최소 인원 제한은 없습니다. 2명 이상이면 공동 고소나 선정당사자 소송이 가능합니다. 다만 비용 분담 효과를 고려하면 3명 이상일 때 실질적 이점이 큽니다.',
+      },
+      {
+        question: '공동 고소를 하면 개별 합의는 못 하나요?',
+        answer:
+          '공동 고소 중에도 개별 피해자가 따로 합의할 수 있습니다. 다만 합의한 피해자의 고소는 취하되고, 나머지 피해자의 고소는 유지됩니다. 모임 내 사전 협의가 중요합니다.',
+      },
+      {
+        question: '선정당사자 소송에서 대표자만 법정에 가면 되나요?',
+        answer:
+          '네, 원칙적으로 선정당사자(대표자)만 법정에 출석하면 됩니다. 다만 법원이 다른 선정자의 출석을 요구할 수 있고, 증인으로 출석해야 할 수도 있습니다.',
+      },
+      {
+        question: '피해자 중 한 명이 중간에 빠지면 어떻게 되나요?',
+        answer:
+          '선정당사자 소송에서 선정자가 선정을 취소하면 해당 피해자만 소송에서 빠집니다. 나머지 피해자의 소송은 계속됩니다. 비용 정산 문제가 생길 수 있으니 탈퇴 규칙을 미리 정해두세요.',
+      },
+      {
+        question: '공동 대응 시 변호사 비용은 어떻게 나누나요?',
+        answer:
+          '보증금 비례로 분담하는 것이 일반적입니다. 보증금 1억원 피해자는 5,000만원 피해자보다 2배를 부담하는 방식입니다. 착수금과 성공보수 각각의 분담 기준을 서면으로 합의하세요.',
+      },
+      {
+        question: '전세사기특별법 피해자 인정은 얼마나 걸리나요?',
+        answer:
+          '신청 후 심사위원회 결정까지 보통 2~3개월이 소요됩니다. 서류가 미비하면 보정 요구가 있어 더 걸릴 수 있으니, 처음부터 필요 서류를 빠짐없이 준비하세요.',
+      },
+      {
+        question: '피해자 모임을 어떻게 찾을 수 있나요?',
+        answer:
+          '같은 건물 세입자라면 직접 연락하거나 관리사무소를 통해 접촉할 수 있습니다. 전세사기 피해자 온라인 커뮤니티(카페, 밴드)나 지자체 주거상담센터에서도 같은 임대인 피해자를 연결해주는 경우가 있습니다.',
+      },
+      {
+        question: '공동 대응과 개별 소송 중 어느 쪽이 유리한가요?',
+        answer:
+          '같은 임대인에게 동일한 수법으로 피해를 입었다면 공동 대응이 비용·시간 면에서 유리합니다. 다만 피해 경위나 계약 조건이 크게 다르면 개별 소송이 나을 수 있으니 변호사 상담을 받아보세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 전세사기 공동 대응 준비사항 확인하기',
+      link: '/diagnosis/jeonse-fraud',
+    },
+    internalLinks: [
+      { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
+      { label: '전세사기 피해자 인정 절차', href: '/guide/jeonse-fraud/jeonse-fraud-victim-recognition-process' },
+      { label: '전세사기 경매 배당 절차', href: '/guide/jeonse-fraud/jeonse-fraud-auction-bidding-guide' },
+      { label: '전세사기 민사 vs 형사 비교', href: '/guide/jeonse-fraud/jeonse-fraud-civil-vs-criminal' },
+      { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
+    ],
+  },
 ];

@@ -86,4 +86,111 @@ export const bankruptcyPages: SpokePage[] = [
       { label: '채무조정 안내', href: '/guide/debt-adjustment' },
     ],
   },
+  {
+    domain: 'bankruptcy',
+    slug: 'bankruptcy-fresh-start-requirements',
+    keyword: '개인파산 면책 요건과 자주 묻는 질문',
+    questionKeyword: '개인파산 신청하면 빚이 다 없어지나요? 면책 요건이 뭔가요?',
+    ctaKeyword: '개인파산 면책 요건',
+    type: 'Q&A형',
+    meta: {
+      title: '개인파산 면책 요건과 자주 묻는 질문 | 로앤가이드',
+      description:
+        '개인파산 면책 요건(지급불능), 면책불허가 사유(도박·사치·허위진술), 면책 후 불이익과 신용회복까지 정리했습니다.',
+    },
+    intro:
+      '빚이 1억이 넘었습니다. 이자만 갚아도 생활이 안 되는 지경입니다. "파산하면 빚이 없어진다"고 들었는데, 누구나 가능한 건지, 어떤 조건이 있는지 알고 싶습니다. 혐의를 받고 있다면 — 여기서 혐의란 채무 불이행이라는 현실입니다 — 면책 제도를 정확히 이해하고 준비하는 것이 새 출발의 첫걸음입니다.',
+    timelineSteps: ['지급불능 확인', '면책불허가 사유 점검', '면책 신청·심문', '면책 후 신용회복'],
+    sections: [
+      {
+        title: '면책을 받으려면 "지급불능 상태"가 인정되어야 합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">소득과 재산으로 채무를 정상 상환할 수 없는 상태를 지급불능이라 합니다</strong></p>\n<p><strong>채무자회생법 제305조</strong>에 따라 채무자가 지급불능 상태에 있으면 파산을 신청할 수 있고, 파산선고 후 면책을 받아 채무를 탕감받을 수 있습니다. 단순히 빚이 많다는 것만으로는 부족하고, <strong>현재 소득에서 최저생계비를 제외한 금액으로 5년 내 전체 채무를 갚을 수 없는 상태</strong>가 인정되어야 합니다.</p>\n<p>법원은 채무 총액, 월 소득, 재산(부동산·예금·보험 해약환급금 등), 부양가족 수를 종합적으로 판단합니다. 예를 들어 월 소득 200만원, 부양가족 2인인 채무자의 채무가 8,000만원이라면, 최저생계비 공제 후 잔액으로 5년 내 상환이 불가능하므로 지급불능으로 인정될 가능성이 높습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 지급불능 = (소득 - 최저생계비) × 60개월 < 총 채무 → 파산·면책 신청 가능</blockquote>',
+      },
+      {
+        title: '면책불허가 사유 — 이것에 해당하면 면책이 거부될 수 있습니다',
+        content:
+          '<p><strong style="color:#1e3a5f">도박·사치·재산 은닉·허위 진술은 면책불허가 사유입니다</strong></p>\n<p><strong>채무자회생법 제564조</strong>는 면책불허가 사유를 열거합니다. 대표적으로 ①<strong>도박, 사치, 과소비</strong>로 채무가 크게 증가한 경우, ②<strong>재산을 은닉·파괴</strong>하거나 허위로 양도한 경우, ③<strong>채권자목록에 허위 기재</strong>를 한 경우, ④파산선고 전 1년 이내에 <strong>신용카드 현금서비스를 돌려막기</strong>한 경우 등이 있습니다.</p>\n<p>다만 면책불허가 사유가 있더라도 법원은 <strong>재량면책</strong>을 허가할 수 있습니다. 채무 발생 경위, 반성의 정도, 성실한 협조 여부 등을 종합적으로 고려합니다. 실무상 도박 채무가 있더라도 비율이 전체 채무의 일부이고 반성이 인정되면 면책이 허가되는 경우가 적지 않습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">채무가 과중하여 혐의를 받고 있다면, 면책 가능성을 <a href="/diagnosis/bankruptcy" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불허가 사유: 도박·사치, 재산 은닉, 허위 진술, 돌려막기 | 재량면책으로 구제 가능성 있음</blockquote>',
+      },
+      {
+        title: '면책 후 불이익 — 재신청 제한과 직업 제한을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">면책 확정 후 7년간 재신청이 불가하고, 파산 기간 중 일부 직업에 제한이 있습니다</strong></p>\n<p>면책결정이 확정된 후 <strong>7년 이내</strong>에는 다시 면책을 신청할 수 없습니다(채무자회생법 제564조 제1항 제8호). 한 번의 면책으로 새 출발을 할 수 있지만, 같은 방법을 반복할 수는 없다는 의미입니다.</p>\n<p>파산선고 후 면책 전까지 <strong>변호사, 공인회계사, 세무사, 법인 이사</strong> 등 일부 직업에 자격 제한이 생깁니다. 면책이 확정되면 <strong>당연복권</strong>(채무자회생법 제574조)으로 모든 제한이 해제됩니다. 대부분의 일반 직장인, 자영업자에게는 실질적인 직업 제한이 없습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">제한: 면책 후 7년간 재신청 불가 | 파산 기간 중 일부 직업 제한 → 면책 확정 시 해제</blockquote>',
+      },
+      {
+        title: '면책 후 신용회복 — 단계적으로 금융생활을 재건하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">면책 확정 후 한국신용정보원에 등록하면 신용정보가 갱신됩니다</strong></p>\n<p>면책결정이 확정되면 법원에서 <strong>면책결정 확정증명원</strong>을 발급받아 한국신용정보원에 면책 등록을 요청하세요. 기존 연체 정보가 갱신되고, 파산자 정보가 정리됩니다. 이 절차를 거치지 않으면 불이익이 계속될 수 있으므로 반드시 처리하세요.</p>\n<p>면책 후 바로 신용카드 발급이나 대출이 가능한 것은 아닙니다. 통상 <strong>5~7년</strong>에 걸쳐 신용등급이 점진적으로 회복됩니다. 꾸준한 소득 활동, 체크카드 사용, 소액 할부 성실 상환 등을 통해 <strong>신용점수를 단계적으로 올려가는 것</strong>이 중요합니다. 서민금융진흥원의 <strong>미소금융</strong> 등 서민 금융상품도 활용할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">회복: 면책 확정 → 신용정보원 등록 → 체크카드·소액 할부 성실 이용 → 5~7년 단계적 회복</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '도박 채무가 포함되었으나 재량면책이 허가된 사례',
+        summary:
+          '관련 사례에서도 총 채무 1억 5천만원 중 약 2,000만원이 도박으로 인한 채무였으나, 나머지 대부분이 생활비 대출과 보증 채무였고, 채무자가 도박 치료 프로그램에 참여하며 깊이 반성한 점이 인정되어 법원이 재량면책을 허가한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 면책불허가 사유가 있더라도 포기하지 말고, 반성과 개선 노력을 적극적으로 소명하세요.',
+      },
+      {
+        title: '면책 후 5년 만에 신용등급을 정상 회복한 사례',
+        summary:
+          '관련 사례에서도 면책 확정 후 체크카드 사용과 소액 할부 성실 상환을 꾸준히 하여, 5년 만에 일반 신용카드 발급과 소액 대출이 가능한 수준으로 신용등급을 회복한 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 면책 후 신용정보원 등록을 바로 처리하고, 소액 금융거래를 꾸준히 이어가세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '개인파산 신청하면 빚이 전부 없어지나요?',
+        answer:
+          '면책결정이 확정되면 대부분의 채무가 면제됩니다. 다만 <strong>세금, 벌금, 양육비, 악의적 불법행위 손해배상</strong> 등 비면책채권은 제외됩니다.',
+      },
+      {
+        question: '면책불허가 사유에 해당하면 무조건 안 되나요?',
+        answer:
+          '아닙니다. 법원의 <strong>재량면책</strong> 제도가 있어, 사유가 경미하거나 반성이 인정되면 면책이 허가될 수 있습니다.',
+      },
+      {
+        question: '파산 신청 비용은 얼마인가요?',
+        answer:
+          '법원 납부 비용은 인지대·송달료·관보공고비 합계 약 <strong>10~15만원</strong>입니다. 법률구조공단을 통하면 변호사 비용 없이 진행할 수 있습니다.',
+      },
+      {
+        question: '파산하면 집이나 차를 빼앗기나요?',
+        answer:
+          '자유재산(6개월치 생계비 상당 현금, 생활 필수품 등)은 <strong>보호</strong>됩니다. 법원에 자유재산 확장 신청도 가능합니다.',
+      },
+      {
+        question: '가족 재산에 영향이 있나요?',
+        answer:
+          '파산은 <strong>신청인 본인에게만</strong> 효력이 있습니다. 가족의 재산이나 신용에는 직접 영향이 없습니다.',
+      },
+      {
+        question: '개인파산과 개인회생 중 어떤 것을 선택해야 하나요?',
+        answer:
+          '소득이 꾸준하면 <strong>개인회생</strong>(3~5년 변제 후 잔액 면제), 소득이 거의 없으면 <strong>개인파산</strong>(전액 면제)이 적합한 경우가 많습니다.',
+      },
+      {
+        question: '면책 확정까지 얼마나 걸리나요?',
+        answer:
+          '파산 신청부터 면책 확정까지 통상 <strong>6개월~1년</strong>입니다. 동시폐지 사건은 비교적 빠르게 진행됩니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)에서 무료 상담과 법률대리를 받을 수 있으며, 각 지방법원 개인파산 상담 창구도 이용 가능합니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 개인파산 면책 요건 준비사항 확인하기',
+      link: '/diagnosis/bankruptcy',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '개인파산 진단', href: '/diagnosis/bankruptcy' },
+      { label: '개인파산 신청에서 면책까지 전체 절차', href: '/guide/bankruptcy/bankruptcy-to-discharge-process' },
+      { label: '개인회생 가이드', href: '/guide/individual-rehabilitation' },
+      { label: '채무조정 안내', href: '/guide/debt-adjustment' },
+    ],
+  },
 ];

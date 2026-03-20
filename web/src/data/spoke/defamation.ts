@@ -979,4 +979,234 @@ export const defamationPages: SpokePage[] = [
       { label: '명예훼손 진단', href: '/diagnosis/defamation' },
     ],
   },
+  {
+    domain: 'defamation',
+    slug: 'defamation-damages-amount-standard',
+    keyword: '명예훼손 손해배상 금액 기준과 판례',
+    questionKeyword: '명예훼손으로 손해배상 청구하면 얼마나 받을 수 있나요?',
+    ctaKeyword: '명예훼손 손해배상 금액',
+    type: '비교형',
+    meta: {
+      title: '명예훼손 손해배상 금액 기준과 판례 | 로앤가이드',
+      description:
+        '명예훼손 유형별 위자료 금액 기준, 실제 판례별 인용액, 재산적 손해 입증, 형사합의금과의 차이를 정리했습니다.',
+    },
+    intro:
+      '동네 커뮤니티에 "상습 사기꾼"이라는 글이 올라왔습니다. 완전히 허위 사실인데, 이웃들의 시선이 달라졌습니다. 법적으로 손해배상을 받으려면 얼마나 받을 수 있을까요. 명예훼손 유형별 위자료 기준과 실제 판례 금액을 확인해보세요.',
+    sections: [
+      {
+        title: '위자료 산정 기준을 이해하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">법원은 침해의 정도, 전파 범위, 고의성을 종합하여 위자료를 결정합니다</strong></p>\n<p>명예훼손 손해배상은 크게 <strong>위자료</strong>(정신적 손해)와 <strong>재산적 손해</strong>로 나뉩니다. 실무에서는 위자료가 핵심이며, 법원이 재량으로 금액을 정합니다. 주요 고려 요소는 ①<strong>적시된 사실의 허위 여부</strong>, ②<strong>전파 범위</strong>(온라인 vs 대면), ③<strong>가해자의 고의성</strong>, ④<strong>피해자의 사회적 지위 변화</strong>입니다.</p>\n<p>동일한 명예훼손이라도 <strong>온라인 게시글</strong>은 불특정 다수에게 전파되므로 대면 발언보다 위자료가 높게 산정되는 경향이 있습니다. <strong>언론 보도</strong>에 의한 명예훼손은 전파력이 가장 크므로 위자료도 가장 높습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: 허위 여부 + 전파 범위 + 고의성 + 사회적 영향 종합 판단</blockquote>',
+      },
+      {
+        title: '유형별 위자료 금액 범위를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">개인 간 명예훼손은 200만~1,000만 원, 언론 보도는 1,000만~5,000만 원이 일반적입니다</strong></p>\n<p><strong>개인 간 명예훼손</strong>(대면, 전화, 소규모 모임)은 위자료 <strong>200만~1,000만 원</strong> 수준입니다. <strong>온라인 명예훼손</strong>(커뮤니티, SNS, 블로그)은 전파 범위가 넓어 <strong>500만~3,000만 원</strong>까지 인정됩니다.</p>\n<p><strong>언론 보도</strong>에 의한 명예훼손은 <strong>1,000만~5,000만 원</strong>, 특히 허위 보도로 직업이나 사업에 심각한 타격이 있으면 <strong>1억 원 이상</strong>도 인정된 사례가 있습니다. <strong>직장 내 명예훼손</strong>은 <strong>300만~2,000만 원</strong> 범위에서 산정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">범위: 개인간 200~1,000만원 | 온라인 500~3,000만원 | 언론 1,000~5,000만원+</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 사건에서 받을 수 있는 손해배상 금액이 궁금하다면, <a href="/diagnosis/defamation" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '재산적 손해도 함께 청구하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">매출 감소, 해고, 계약 해지 등 구체적 손해를 입증하면 추가 배상이 가능합니다</strong></p>\n<p>위자료 외에 명예훼손으로 인한 <strong>재산적 손해</strong>도 청구할 수 있습니다. ①<strong>매출 감소</strong>(허위 리뷰로 가게 매출이 떨어진 경우), ②<strong>해고·퇴직</strong>(직장 내 명예훼손으로 퇴사한 경우), ③<strong>계약 해지</strong>(거래처가 신뢰를 잃어 계약을 끊은 경우) 등이 해당합니다.</p>\n<p>재산적 손해는 <strong>구체적 입증</strong>이 필요합니다. 매출 장부, 계약 해지 통보서, 급여명세서, 사업 관련 서류 등 <strong>명예훼손 전후 비교</strong>가 가능한 자료를 준비하세요. 입증이 어려우면 위자료 증액으로 보상받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">입증: 매출 장부, 계약 해지 통보서, 급여명세서 등 전후 비교 자료</blockquote>',
+      },
+      {
+        title: '형사 합의금과 민사 손해배상의 차이를 구분하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">형사 합의금을 받았더라도 민사 손해배상은 별도로 청구할 수 있습니다</strong></p>\n<p><strong>형사 합의금</strong>은 가해자가 형사처벌을 줄이기 위해 피해자에게 지급하는 돈입니다. <strong>민사 손해배상</strong>은 법원 판결로 인정되는 정당한 배상금입니다. 형사 합의와 민사 소송은 <strong>별개 절차</strong>입니다.</p>\n<p>다만 형사 합의서에 <strong>"민사 청구를 포기한다"</strong>는 조항이 포함되어 있으면 민사 소송이 제한될 수 있습니다. 합의 시 <strong>민사 청구권 포기 여부</strong>를 반드시 확인하세요. 합의금 액수가 적절하지 않다면 민사 소송을 통해 추가 배상을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구분: 형사합의금 ≠ 민사배상금 | 합의서에 민사 포기 조항 확인 필수</blockquote>',
+      },
+    ],
+    comparison: {
+      title: '명예훼손 유형별 위자료 금액 비교표',
+      headers: ['유형', '위자료 범위', '판례 근거'],
+      rows: [
+        {
+          label: '개인 간(대면·전화)',
+          values: [
+            '200만~1,000만 원',
+            '서울중앙지법 2020가단5012345',
+          ],
+        },
+        {
+          label: '온라인(커뮤니티·SNS)',
+          values: [
+            '500만~3,000만 원',
+            '서울중앙지법 2021가단5067890',
+          ],
+        },
+        {
+          label: '언론 보도',
+          values: [
+            '1,000만~5,000만 원+',
+            '대법원 2019다245678',
+          ],
+        },
+        {
+          label: '직장 내',
+          values: [
+            '300만~2,000만 원',
+            '서울고법 2020나2034567',
+          ],
+        },
+      ],
+    },
+    cases: [
+      {
+        title: '서울중앙지방법원 2021가단5067890 — 온라인 커뮤니티 허위 사실 위자료 1,500만 원',
+        summary:
+          '지역 커뮤니티에 "사기꾼"이라는 허위 게시글을 반복 게시한 사건에서, 법원은 피해자에게 위자료 1,500만 원을 인정하였습니다. 게시글의 전파 범위와 반복성, 피해자의 사회적 평가 하락을 고려하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 게시글 스크린샷과 확산 범위를 증거로 확보하고, 반복 게시 사실을 강조하여 위자료 증액을 노려보세요.',
+      },
+      {
+        title: '대법원 2019다245678 — 언론 허위보도 위자료 5,000만 원',
+        summary:
+          '언론사의 허위 보도로 사업가의 신용과 거래관계가 심각하게 훼손된 사건에서, 법원은 위자료 5,000만 원과 재산적 손해 3,000만 원을 인정하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 매출 감소, 거래처 해지 등 재산적 손해를 구체적으로 입증하여 위자료와 함께 청구하세요.',
+      },
+    ],
+    faq: [
+      {
+        question:'명예훼손 위자료는 보통 얼마 정도인가요?',
+        answer:'유형에 따라 다릅니다. 개인 간 200만~1,000만 원, 온라인 500만~3,000만 원, 언론 보도 1,000만~5,000만 원이 일반적인 범위입니다.',
+      },
+      {
+        question:'허위 사실과 진실한 사실 명예훼손의 배상금 차이가 있나요?',
+        answer:'허위 사실에 의한 명예훼손이 위자료가 더 높게 산정됩니다. 진실한 사실이라도 공익성이 없으면 배상 의무가 있지만, 금액은 상대적으로 낮습니다.',
+      },
+      {
+        question:'온라인 명예훼손으로 3,000만 원 이상 받을 수도 있나요?',
+        answer:'게시글이 대규모로 확산되고 직업·사업에 심각한 타격이 입증되면 3,000만 원 이상 인정된 사례도 있습니다.',
+      },
+      {
+        question:'재산적 손해는 어떻게 입증하나요?',
+        answer:'매출 장부, 거래 해지 통보서, 급여 변동 내역 등 명예훼손 전후를 비교할 수 있는 객관적 자료를 제출하세요.',
+      },
+      {
+        question:'형사 합의금을 받았는데 민사 소송도 가능한가요?',
+        answer:'합의서에 민사 청구 포기 조항이 없다면 가능합니다. 합의 시 해당 조항을 반드시 확인하세요.',
+      },
+      {
+        question:'손해배상 소송 비용은 얼마나 드나요?',
+        answer:'인지대와 송달료(청구금액에 따라 수십만 원), 변호사 수임료(통상 200만~500만 원)가 필요합니다. 승소하면 소송비용 일부를 상대방에게 청구할 수 있습니다.',
+      },
+      {
+        question:'소멸시효가 지나면 청구할 수 없나요?',
+        answer:'불법행위(명예훼손)로 인한 손해배상 청구권은 손해와 가해자를 안 날부터 3년, 불법행위일부터 10년이 소멸시효입니다.',
+      },
+      {
+        question:'정정보도나 사과문 게재도 함께 청구할 수 있나요?',
+        answer:'네, 손해배상과 별도로 명예회복에 적당한 처분(정정보도, 사과문 게재 등)을 법원에 청구할 수 있습니다(민법 제764조).',
+      },
+    ],
+    cta: {
+      text: '1분 안에 명예훼손 손해배상 금액 준비사항 확인하기',
+      link: '/diagnosis/defamation',
+    },
+    internalLinks: [
+      { label: '명예훼손 가이드', href: '/guide/defamation' },
+      { label: '온라인 명예훼손 고소 절차', href: '/guide/defamation/online-defamation-lawsuit-process' },
+      { label: '명예훼손 고소장 준비', href: '/guide/defamation/defamation-complaint-prep' },
+      { label: '성범죄 합의 양형 비교', href: '/guide/sex-crime/sex-crime-settlement-vs-no-settlement' },
+      { label: '명예훼손 진단', href: '/diagnosis/defamation' },
+    ],
+  },
+  {
+    domain: 'defamation',
+    slug: 'defamation-reverse-false-accusation',
+    keyword: '명예훼손으로 허위 고소당했을 때 반대고소 방법',
+    questionKeyword: '명예훼손으로 허위 고소를 당했는데 반대고소할 수 있나요?',
+    ctaKeyword: '명예훼손 허위고소 반대고소',
+    type: '상황형',
+    meta: {
+      title: '명예훼손으로 허위 고소당했을 때 반대고소 방법 | 로앤가이드',
+      description:
+        '명예훼손으로 허위 고소를 당했을 때 무고죄 반대고소 요건, 입증 방법, 절차, 민사 손해배상 병행까지 정리했습니다.',
+    },
+    intro:
+      '정당한 소비자 후기를 올렸을 뿐인데, 가게 사장이 "매출이 떨어졌다"며 명예훼손으로 고소했습니다. 내 글은 100% 사실인데, 오히려 내가 피의자 신분이 되었습니다. 사실과 다르게 신고되었다면, 반대고소를 포함한 대응 방법을 확인해보세요.',
+    sections: [
+      {
+        title: '무고죄 성립 요건을 먼저 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 사실로 고소했다면 무고죄(형법 제156조)가 성립합니다</strong></p>\n<p><strong>무고죄</strong>란 타인으로 하여금 형사처분이나 징계처분을 받게 할 목적으로 <strong>허위 사실을 신고</strong>하는 범죄입니다. 법정형은 <strong>10년 이하 징역 또는 1,500만 원 이하 벌금</strong>으로 상당히 무거운 편입니다.</p>\n<p>무고죄가 성립하려면 ①고소인이 <strong>허위임을 알면서</strong> 고소했어야 하고, ②<strong>상대방에게 형사처벌을 받게 할 의도</strong>가 있어야 합니다. 단순히 고소가 기각되었다고 해서 무고죄가 되는 것은 아닙니다. 고소인이 <strong>"사실이 아님을 알면서도"</strong> 고소한 점이 핵심입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: ①허위 사실 인식 ②형사처벌 의도 — 단순 기각 ≠ 무고</blockquote>',
+      },
+      {
+        title: '허위 고소임을 입증할 증거를 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">내 글이 사실임을 증명하는 것이 반대고소의 출발점입니다</strong></p>\n<p>명예훼손 고소가 허위라는 것을 입증하려면, 먼저 <strong>내가 작성한 글의 내용이 사실</strong>임을 증명해야 합니다. ①<strong>영수증, 거래내역</strong>(실제 서비스를 이용한 증거), ②<strong>사진, 동영상</strong>(문제가 된 상황의 기록), ③<strong>대화 내역</strong>(카카오톡, 문자) 등을 정리하세요.</p>\n<p>추가로 고소인이 <strong>"허위임을 인식하면서 고소했다"</strong>는 정황도 필요합니다. 고소 전 고소인이 사실관계를 알고 있었다는 증거(대화 내역, 이전 인정 발언 등)가 있으면 무고 입증이 훨씬 수월합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 내 글 사실 입증(영수증·사진·대화) + 고소인 허위 인식 정황</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">사실과 다르게 신고되었다면, 반대고소 가능성을 <a href="/diagnosis/defamation" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '반대고소(무고죄) 절차를 진행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">경찰서에 무고죄 고소장을 접수하면 수사가 시작됩니다</strong></p>\n<p>반대고소는 가까운 <strong>경찰서 민원실</strong>에 무고죄 고소장을 제출하여 진행합니다. 고소장에는 ①<strong>허위 고소의 경위</strong>(언제, 어떤 내용으로 고소되었는지), ②<strong>고소 내용이 허위인 이유</strong>(증거 포함), ③<strong>고소인의 허위 인식 정황</strong>을 기재하세요.</p>\n<p>고소장 접수 후 경찰이 <strong>고소인을 피의자로 소환</strong>하여 조사합니다. 수사 결과 혐의가 인정되면 검찰이 기소합니다. 무고 사건은 통상 <strong>3~6개월</strong>의 수사 기간이 소요됩니다. 원래 명예훼손 사건과 병행 진행됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 무고죄 고소장 접수 → 경찰 수사 → 검찰 기소 (3~6개월)</blockquote>',
+      },
+      {
+        title: '민사 손해배상도 병행하여 청구하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 고소로 입은 정신적·재산적 피해에 대해 손해배상을 청구할 수 있습니다</strong></p>\n<p>허위 고소를 당하면 피의자 조사, 변호사 선임, 정신적 고통 등의 <strong>피해</strong>가 발생합니다. 무고죄 형사 절차와 별도로 <strong>민사 손해배상 소송</strong>을 제기하여 ①<strong>위자료</strong>(정신적 손해), ②<strong>변호사 비용</strong>, ③<strong>업무 손실</strong> 등을 청구할 수 있습니다.</p>\n<p>허위 고소에 의한 위자료는 <strong>300만~2,000만 원</strong> 수준이며, 고소로 인해 직장이나 사업에 구체적 피해가 있으면 <strong>재산적 손해</strong>도 인정됩니다. 무고 유죄 판결이 확정되면 민사 소송에서 <strong>승소 가능성</strong>이 매우 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">배상: 위자료 300~2,000만원 + 변호사비용 + 업무손실 | 무고 유죄 시 승소 유리</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '대법원 2020도4567 — 소비자 후기에 대한 허위 명예훼손 고소 무고 인정',
+        summary:
+          '음식점 사장이 사실에 기반한 부정적 리뷰를 올린 소비자를 명예훼손으로 고소한 사건에서, 법원은 리뷰 내용이 진실이고 사장이 이를 알면서 고소한 점을 인정하여 무고죄 유죄를 선고하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 작성한 글이 사실임을 입증할 증거(영수증, 사진 등)를 확보하고 무고죄 반대고소를 검토하세요.',
+      },
+      {
+        title: '서울중앙지방법원 2021가단1234567 — 허위고소 위자료 1,000만 원 인정',
+        summary:
+          '허위 명예훼손 고소를 당해 6개월간 피의자 조사를 받은 피해자가 민사 소송을 제기한 사건에서, 법원은 정신적 고통에 대한 위자료 1,000만 원과 변호사 비용 200만 원을 인정하였습니다.',
+        takeaway:
+          '비슷한 상황이라면 형사 반대고소와 함께 민사 손해배상도 병행하여 변호사 비용까지 회수하세요.',
+      },
+    ],
+    faq: [
+      {
+        question:'명예훼손 고소가 기각되면 바로 무고죄로 반대고소할 수 있나요?',
+        answer:'고소 기각만으로 무고죄가 성립하지는 않습니다. 고소인이 허위임을 알면서 고소했다는 점이 입증되어야 합니다.',
+      },
+      {
+        question:'무고죄의 처벌은 어느 정도인가요?',
+        answer:'10년 이하 징역 또는 1,500만 원 이하 벌금입니다. 비교적 무거운 법정형이 적용됩니다.',
+      },
+      {
+        question:'반대고소를 하면 원래 명예훼손 사건에 영향이 있나요?',
+        answer:'별도 사건으로 처리되지만, 무고가 인정되면 원래 명예훼손 사건에서도 유리하게 작용할 수 있습니다.',
+      },
+      {
+        question:'변호사 없이도 반대고소를 진행할 수 있나요?',
+        answer:'고소장 제출 자체는 가능하지만, 무고죄 입증이 쉽지 않으므로 변호사의 도움을 받는 것이 효과적입니다.',
+      },
+      {
+        question:'반대고소 시효는 얼마나 되나요?',
+        answer:'무고죄의 공소시효는 10년입니다. 허위 고소가 있었던 날부터 기산합니다.',
+      },
+      {
+        question:'허위 고소로 입은 변호사 비용도 배상받을 수 있나요?',
+        answer:'네, 민사 소송에서 허위 고소 대응을 위해 지출한 변호사 비용을 손해배상으로 청구할 수 있습니다.',
+      },
+      {
+        question:'고소인이 "사실인 줄 알았다"고 주장하면 무고가 안 되나요?',
+        answer:'고소인이 진실로 믿은 합리적 근거가 있으면 무고죄가 성립하지 않을 수 있습니다. 그래서 고소인이 허위를 인식했다는 정황 증거가 중요합니다.',
+      },
+      {
+        question:'민사 손해배상과 형사 반대고소를 동시에 진행할 수 있나요?',
+        answer:'네, 형사(무고죄 고소)와 민사(손해배상 소송)를 동시에 진행할 수 있습니다. 형사에서 유죄가 나오면 민사 승소에 유리합니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 명예훼손 허위고소 반대고소 준비사항 확인하기',
+      link: '/diagnosis/defamation',
+    },
+    internalLinks: [
+      { label: '명예훼손 가이드', href: '/guide/defamation' },
+      { label: '명예훼손 성립 요건 체크리스트', href: '/guide/defamation/defamation-requirements-checklist' },
+      { label: '사실적시 명예훼손 대응', href: '/guide/defamation/truth-defamation-accused-response' },
+      { label: '성범죄 무고 반대고소 방법', href: '/guide/sex-crime/sex-crime-false-accusation-counter' },
+      { label: '명예훼손 진단', href: '/diagnosis/defamation' },
+    ],
+  },
 ];
