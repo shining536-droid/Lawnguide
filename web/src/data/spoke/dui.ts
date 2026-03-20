@@ -808,4 +808,216 @@ export const duiPages: SpokePage[] = [
       { label: '음주운전 혈중알코올농도별 처벌 기준표', href: '/guide/dui/dui-bac-penalty-reference-table' },
     ],
   },
+  {
+    domain: 'dui',
+    slug: 'dui-investigation-common-mistakes',
+    keyword: '음주운전 적발 후 흔한 실수 5가지',
+    questionKeyword: '음주운전으로 적발됐는데 어떤 실수를 조심해야 하나요?',
+    ctaKeyword: '음주운전 적발 대응',
+    type: '실수함정형',
+    meta: {
+      title: '음주운전 적발 후 흔한 실수 5가지 | 로앤가이드',
+      description:
+        '음주운전 적발 후 현장 변명, 측정 거부, SNS 글, 합의 무시, 면허 행정처분 방치 등 흔한 실수 5가지와 올바른 대응법을 정리했습니다.',
+    },
+    intro:
+      '새벽에 대리운전이 안 잡혀서 "가까우니까" 직접 운전했다가 검문에 걸렸습니다. 당황한 나머지 현장에서 이것저것 말을 쏟아냈는데, 나중에 알고 보니 모두 불리한 진술이었습니다. 혐의를 받고 있다면 적발 직후 흔히 하는 실수 5가지를 확인하고 같은 실수를 피해보세요.',
+    sections: [
+      {
+        title: '실수 1·2: 현장 변명과 음주측정 거부',
+        content:
+          '<p><strong style="color:#1e3a5f">현장에서 "조금밖에 안 마셨다"는 변명은 음주 사실을 인정하는 증거가 됩니다</strong></p>\n<p>단속 현장에서 당황하여 <strong>"한 잔만 마셨다", "바로 근처인데"</strong>라고 말하는 순간 음주운전 사실을 스스로 인정하는 셈입니다. 경찰 바디캠에 모두 녹화되며, 이후 재판에서 증거로 사용됩니다. 현장에서는 <strong>불필요한 발언을 삼가세요</strong>.</p>\n<p><strong>음주측정 거부</strong>는 더 큰 실수입니다. 도로교통법 제148조의2에 따라 측정 거부 자체가 <strong>1년 이상 6년 이하 징역 또는 500만원 이상 3,000만원 이하 벌금</strong>으로 처벌됩니다. 이는 음주운전 처벌보다 오히려 무거울 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 현장 발언 = 바디캠 증거 | 측정 거부 = 별도 범죄(1~6년 징역)</blockquote>',
+      },
+      {
+        title: '실수 3: SNS에 관련 글을 올리는 것',
+        content:
+          '<p><strong style="color:#1e3a5f">SNS에 올린 글은 삭제해도 검찰이 복구하여 반성 태도 부족의 증거로 사용합니다</strong></p>\n<p>적발 후 분함이나 억울함에 SNS에 <strong>"운 나빴다", "단속이 과했다"</strong>는 글을 올리는 경우가 있습니다. 이런 게시물은 <strong>재판에서 반성하지 않는 태도</strong>로 해석되어 양형에 불리하게 작용합니다. 삭제해도 디지털 포렌식으로 복구됩니다.</p>\n<p>반대로, 음주운전 사실에 대한 <strong>진심 어린 반성</strong>과 <strong>재발 방지 노력</strong>(알코올 치료 수강, 봉사활동 등)은 양형에 유리한 자료가 됩니다. SNS 대신 <strong>변호사와의 대화</strong>에 집중하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">금지: SNS 불만 게시(삭제해도 복구됨) → 대신: 반성문 + 알코올 치료 수강 + 봉사활동</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">음주운전 적발 후 대응이 막막하다면, 현재 상황에 맞는 준비사항을 <a href="/diagnosis/dui" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '실수 4: 피해자 합의를 미루거나 무시하는 것',
+        content:
+          '<p><strong style="color:#1e3a5f">인적 피해가 있는 음주운전에서 합의 여부는 양형에 결정적 영향을 줍니다</strong></p>\n<p>사고로 피해자가 있는 경우, <strong>합의를 미루면 미룰수록</strong> 재판에서 불리해집니다. 검찰과 법원은 "피해 회복 노력"을 중요한 양형 요소로 보기 때문입니다. 특히 <strong>기소 전 합의</strong>가 완료되면 약식기소(벌금형)로 처리될 가능성이 높아집니다.</p>\n<p>합의는 반드시 <strong>변호사를 통해</strong> 진행하세요. 직접 연락하면 피해자에게 부담을 주어 오히려 합의가 어려워집니다. 합의서에는 <strong>처벌불원 의사, 합의 금액, 추가 청구 없음</strong>을 명시해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 기소 전 합의 → 약식기소 가능성↑ | 변호사 통해 진행 | 합의서에 처벌불원 명시</blockquote>',
+      },
+      {
+        title: '실수 5: 면허 행정처분을 방치하는 것',
+        content:
+          '<p><strong style="color:#1e3a5f">면허 취소·정지 처분에 대한 행정심판 청구 기한은 처분 통보일로부터 90일입니다</strong></p>\n<p>음주운전 형사처벌에만 신경 쓰다가 <strong>면허 행정처분을 방치</strong>하는 경우가 많습니다. 면허 취소는 형사 처벌과 별개의 행정처분이므로, 벌금형을 받더라도 면허는 취소될 수 있습니다. 처분 통보를 받으면 <strong>90일 이내에 행정심판</strong>을 청구해야 합니다.</p>\n<p>행정심판에서는 <strong>생계 필요성, 반성 및 재발 방지 노력, 사고 경위의 특수성</strong> 등을 소명합니다. 면허 취소가 정지로 감경되거나, 정지 기간이 단축되는 경우가 실무에서 적지 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 행정심판 90일 이내 청구 | 소명: 생계 필요성 + 반성 노력 + 사고 특수성</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '현장 발언이 재판에서 불리한 증거로 채택된 사례',
+        summary:
+          '단속 현장에서 "소주 두 잔밖에 안 마셨다"고 말한 내용이 바디캠에 녹화되었고, 법정에서 "음주 사실을 부인한 적 없다"는 검찰 주장의 근거로 활용되어 벌금 500만원이 선고되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 단속 현장에서는 불필요한 발언을 삼가고, 음주측정에만 응하세요.',
+      },
+      {
+        title: '행정심판을 통해 면허 취소가 정지로 감경된 사례',
+        summary:
+          '혈중알코올농도 0.09%로 면허 취소 처분을 받았으나, 택시 기사로서 생계 유일 수단임을 소명하고 알코올 치료 수강 증명서를 제출하여 면허 정지 110일로 감경되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 처분 통보일로부터 90일 이내에 생계 필요성과 반성 자료를 갖추어 행정심판을 청구하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '음주운전 적발 현장에서 변호사를 부를 수 있나요?',
+        answer:
+          '현장에서 변호사 조력을 요청할 권리가 있지만, 실무상 <strong>음주측정은 즉시 진행</strong>됩니다. 측정 후 경찰서 조사 시 변호사 동석을 요청하세요.',
+      },
+      {
+        question: '음주측정 거부하면 처벌이 더 무거운가요?',
+        answer:
+          '네. 측정 거부는 <strong>1년 이상 6년 이하 징역 또는 500만~3,000만원 벌금</strong>으로, 음주운전 자체보다 무거울 수 있습니다.',
+      },
+      {
+        question: '적발 후 SNS에 올린 글을 삭제하면 괜찮나요?',
+        answer:
+          '아닙니다. <strong>디지털 포렌식으로 복구</strong>가 가능하며, 삭제 행위 자체가 증거 인멸 시도로 해석될 수 있습니다.',
+      },
+      {
+        question: '초범인데 합의하면 벌금형으로 끝나나요?',
+        answer:
+          '초범이고 혈중알코올농도가 낮으며 피해자 합의까지 완료되면 <strong>약식기소(벌금형)</strong>로 처리될 가능성이 높습니다. 다만 보장은 아닙니다.',
+      },
+      {
+        question: '면허 취소와 형사처벌은 별개인가요?',
+        answer:
+          '네. 면허 취소·정지는 <strong>행정처분</strong>이고, 벌금·징역은 형사처벌입니다. 각각 별도로 대응해야 합니다.',
+      },
+      {
+        question: '음주운전 후 알코올 치료를 받으면 도움이 되나요?',
+        answer:
+          '<strong>알코올 치료 프로그램 수료 증명서</strong>는 재판에서 반성과 재발 방지 노력의 증거로 양형에 유리하게 작용합니다.',
+      },
+      {
+        question: '행정심판으로 면허 취소를 막을 수 있나요?',
+        answer:
+          '취소가 정지로 감경되거나 정지 기간이 단축되는 경우가 있습니다. <strong>생계 필요성</strong>과 반성 자료를 잘 준비하세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 음주운전 적발 대응 준비사항 확인하기',
+      link: '/diagnosis/dui',
+    },
+    internalLinks: [
+      { label: '음주운전 가이드', href: '/guide/dui' },
+      { label: '음주운전 초범 처벌 수준과 대응', href: '/guide/dui/dui-first-offense' },
+      { label: '음주측정 거부 시 처벌과 대응', href: '/guide/dui/dui-breathalyzer-refusal' },
+      { label: '교통사고 합의금 가이드', href: '/guide/traffic-accident/traffic-accident-settlement' },
+      { label: '음주운전 진단', href: '/diagnosis/dui' },
+    ],
+  },
+  {
+    domain: 'dui',
+    slug: 'dui-victim-compensation-checklist',
+    keyword: '음주운전 피해자 보상 청구 체크리스트',
+    questionKeyword: '음주운전 사고 피해자인데 보상은 어떻게 받나요?',
+    ctaKeyword: '음주운전 피해 보상',
+    type: '체크리스트형',
+    meta: {
+      title: '음주운전 피해자 보상 청구 체크리스트 | 로앤가이드',
+      description:
+        '음주운전 사고 피해자가 보험사 청구, 합의금 항목, 정부보장사업, 형사합의와 별개의 민사 보상 절차를 체크리스트로 정리했습니다.',
+    },
+    intro:
+      '횡단보도를 건너다 음주운전 차량에 치였습니다. 다리가 부러져 입원 중인데, 치료비는 누가 내는 건지, 보상은 어떻게 받는 건지, 가해자가 연락도 없습니다. 음주운전 피해자로서 받을 수 있는 보상 항목과 청구 절차를 단계별로 확인해보세요.',
+    sections: [
+      {
+        title: '가해자 보험사에 보상 청구를 시작하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">음주운전 사고라도 가해자의 자동차보험으로 보상받을 수 있습니다</strong></p>\n<p>가해자가 <strong>자동차보험</strong>에 가입되어 있다면, 보험사에 직접 보상 청구가 가능합니다. 사고 접수 후 보험사 담당자가 배정되며, <strong>치료비는 보험사가 병원에 직접 지급</strong>하는 것이 원칙입니다. 입원 즉시 보험사에 사고 접수를 하세요.</p>\n<p>보험사 연락처를 모르면 <strong>교통사고 사실확인원</strong>(경찰서 발급)에 가해자 보험 정보가 기재되어 있습니다. 가해자가 무보험인 경우에는 <strong>정부보장사업</strong>(국토교통부)을 통해 보상받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">1단계: 교통사고 사실확인원 발급 → 보험사 사고 접수 → 치료비 직접 청구 | 무보험 시: 정부보장사업</blockquote>',
+      },
+      {
+        title: '보상 청구 항목을 빠짐없이 정리하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">음주운전 사고 보상은 치료비 외에도 휴업손해, 위자료, 향후치료비까지 포함됩니다</strong></p>\n<p>보상 항목은 크게 5가지입니다. ①<strong>치료비</strong>(입원비·수술비·재활비), ②<strong>휴업손해</strong>(치료 기간 동안 일하지 못한 소득), ③<strong>위자료</strong>(정신적 고통에 대한 배상), ④<strong>향후치료비</strong>(퇴원 후 추가 치료·재활 비용), ⑤<strong>후유장해 배상</strong>(영구적 장해가 남은 경우).</p>\n<p>보험사는 보상 금액을 <strong>최소한으로 제시</strong>하는 경향이 있습니다. 특히 휴업손해와 위자료는 산정 기준이 복잡하므로, 보험사 제안을 바로 수락하지 말고 <strong>변호사 검토</strong>를 받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">항목: ①치료비 ②휴업손해 ③위자료 ④향후치료비 ⑤후유장해 배상 | 보험사 제안 즉시 수락 금지</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">음주운전 피해 보상이 막막하다면, 내 상황에 맞는 청구 항목을 <a href="/diagnosis/dui" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '형사합의와 민사 보상은 별개입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">가해자와 형사합의를 했더라도 민사 손해배상은 따로 청구할 수 있습니다</strong></p>\n<p>형사합의는 가해자의 <strong>형사처벌을 감경</strong>하는 데 영향을 주는 것이고, 보험사를 통한 민사 보상과는 별개입니다. 형사합의서에 <strong>"민사상 청구권을 포기한다"는 문구</strong>가 포함되어 있지 않다면, 추가로 민사 소송이 가능합니다.</p>\n<p>다만 형사합의금을 받을 때는 합의서 내용을 <strong>반드시 변호사와 검토</strong>하세요. "일체의 민·형사상 이의를 제기하지 않는다"는 포괄적 문구가 들어가면 민사 보상에 영향을 줄 수 있습니다. 합의서 작성 시 <strong>민사 청구권 유보 조항</strong>을 명시하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형사합의 ≠ 민사 보상 | 합의서에 "민사 청구권 유보" 명시 | 포괄적 권리 포기 문구 주의</blockquote>',
+      },
+      {
+        title: '무보험·뺑소니 시 정부보장사업을 활용하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">가해자가 무보험이거나 뺑소니인 경우 정부가 대신 보상하는 제도가 있습니다</strong></p>\n<p><strong>자동차손해배상보장법</strong>에 따른 정부보장사업은 가해자가 무보험이거나, 뺑소니로 가해자를 알 수 없는 경우 피해자에게 보상금을 지급합니다. 청구는 <strong>손해보험협회</strong>(1544-8889)에서 접수하며, 자동차보험 기준으로 보상액이 산정됩니다.</p>\n<p>청구 시 필요한 서류는 ①<strong>교통사고 사실확인원</strong>, ②<strong>진단서 및 치료비 영수증</strong>, ③<strong>소득 증빙 자료</strong>(휴업손해 청구 시), ④<strong>신분증 사본</strong>입니다. 청구 기한은 <strong>사고일로부터 3년</strong>이므로 서두르세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정부보장사업: 손해보험협회 1544-8889 | 서류: 사실확인원+진단서+소득증빙+신분증 | 기한: 3년</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '보험사 초기 제안을 거절하고 3배 높은 보상을 받은 사례',
+        summary:
+          '음주운전 사고 피해자가 보험사의 초기 합의금 800만원 제안을 거절하고, 변호사를 선임하여 휴업손해와 향후치료비를 추가 산정한 결과 최종 2,400만원의 보상을 받았습니다.',
+        takeaway:
+          '비슷한 상황이라면 보험사 첫 제안을 바로 수락하지 말고, 변호사를 통해 정당한 보상 항목을 모두 산정하세요.',
+      },
+      {
+        title: '무보험 가해자 사고에서 정부보장사업으로 보상받은 사례',
+        summary:
+          '음주운전 뺑소니 사고로 가해자 보험이 없었으나, 정부보장사업에 청구하여 치료비 전액과 위자료를 포함한 1,500만원의 보상금을 지급받았습니다.',
+        takeaway:
+          '비슷한 상황이라면 가해자가 무보험이더라도 포기하지 말고, 손해보험협회에 정부보장사업을 신청하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '음주운전 가해자 보험으로 치료비를 받을 수 있나요?',
+        answer:
+          '네. 음주운전이라도 <strong>자동차보험 대인배상</strong>으로 피해자 치료비가 지급됩니다. 보험사에 직접 청구하세요.',
+      },
+      {
+        question: '보험사가 제시하는 합의금이 적은 것 같은데 어떻게 하나요?',
+        answer:
+          '보험사 첫 제안은 대체로 낮습니다. <strong>변호사 검토</strong>를 받거나, 금융감독원 분쟁조정을 신청할 수 있습니다.',
+      },
+      {
+        question: '형사합의금을 받으면 보험사 보상도 줄어드나요?',
+        answer:
+          '원칙적으로 별개이지만, 합의서에 <strong>민사 청구권 포기 문구</strong>가 있으면 영향을 받을 수 있으니 주의하세요.',
+      },
+      {
+        question: '가해자가 뺑소니 후 잡히지 않으면 보상을 못 받나요?',
+        answer:
+          '아닙니다. <strong>정부보장사업</strong>을 통해 가해자 불명인 경우에도 보상받을 수 있습니다.',
+      },
+      {
+        question: '휴업손해는 어떻게 계산하나요?',
+        answer:
+          '<strong>사고 전 3개월 평균 소득</strong>을 기준으로 치료 기간만큼 산정합니다. 급여명세서, 소득금액증명원 등을 준비하세요.',
+      },
+      {
+        question: '후유장해 등급은 누가 판정하나요?',
+        answer:
+          '치료가 종결된 후 <strong>보험사 자문의 또는 국민건강보험공단</strong>에서 장해 등급을 판정합니다. 이의가 있으면 재판정을 요청하세요.',
+      },
+      {
+        question: '보상 청구 기한이 있나요?',
+        answer:
+          '보험금 청구는 <strong>사고일로부터 3년</strong>, 민사 손해배상 소송은 <strong>손해를 안 날로부터 3년</strong>입니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 교통사고 피해자 지원센터(1588-2504)를 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 음주운전 피해 보상 준비사항 확인하기',
+      link: '/diagnosis/dui',
+    },
+    internalLinks: [
+      { label: '음주운전 가이드', href: '/guide/dui' },
+      { label: '음주운전 합의 절차와 합의금', href: '/guide/dui/dui-settlement' },
+      { label: '음주운전 면허 취소 기준과 대응', href: '/guide/dui/dui-license-revocation' },
+      { label: '교통사고 합의금 가이드', href: '/guide/traffic-accident/traffic-accident-settlement' },
+      { label: '음주운전 진단', href: '/diagnosis/dui' },
+    ],
+  },
 ];

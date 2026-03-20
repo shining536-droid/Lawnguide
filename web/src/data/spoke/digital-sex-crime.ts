@@ -305,4 +305,102 @@ export const digitalSexCrimePages: SpokePage[] = [
       { label: '디지털성범죄 진단', href: '/diagnosis/digital-sex-crime' },
     ],
   },
+  {
+    domain: 'digital-sex-crime',
+    slug: 'deepfake-pornography-report-removal',
+    keyword: '딥페이크 음란물 신고 및 삭제 절차',
+    questionKeyword: '딥페이크 음란물 피해를 당했는데 신고하고 삭제하려면 어떻게 하나요?',
+    ctaKeyword: '딥페이크 음란물 삭제',
+    type: '절차형',
+    meta: {
+      title: '딥페이크 음란물 신고 및 삭제 절차 | 로앤가이드',
+      description:
+        '딥페이크 합성 음란물 피해 시 경찰 신고, 방심위·디지털성범죄피해자지원센터를 통한 삭제 요청, 법적 처벌 기준까지 전체 대응 절차를 정리했습니다.',
+    },
+    intro:
+      'SNS에서 지인이 보내온 링크를 눌렀더니 내 얼굴이 합성된 영상이 올라와 있었습니다. 손이 떨리고 머리가 하얘집니다. 딥페이크 음란물 피해는 빠르게 확산되기 때문에 신고와 삭제를 동시에 진행해야 합니다. 지금 해야 할 일을 순서대로 정리했습니다.',
+    sections: [
+      {
+        title: '증거를 먼저 확보한 뒤 경찰에 신고하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">삭제 요청 전에 반드시 증거 화면을 캡처해두어야 합니다</strong></p>\n<p>딥페이크 영상의 <strong>URL, 게시자 계정명, 게시 날짜, 화면 캡처</strong>를 먼저 저장하세요. 삭제 후에는 증거 확보가 어려우므로 이 단계를 절대 건너뛰지 마세요. 스크린 녹화도 함께 해두면 더 확실합니다.</p>\n<p>증거를 확보했으면 가까운 <strong>경찰서 사이버수사팀</strong>에 방문하거나 <strong>사이버범죄 신고시스템(ECRM)</strong>을 통해 온라인으로 신고하세요. <strong>성폭력범죄의 처벌 등에 관한 특례법 제14조의2</strong>(허위영상물 등의 반포)에 따라 가해자는 <strong>5년 이하 징역 또는 5,000만 원 이하 벌금</strong>에 처해집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 확보: URL · 계정명 · 캡처 · 녹화 | 신고: 경찰서 사이버수사팀 또는 ECRM | 처벌: 5년 이하 징역/5,000만 원 이하 벌금</blockquote>',
+      },
+      {
+        title: '디지털성범죄피해자지원센터에 삭제를 요청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">지원센터에 연락하면 삭제 지원과 법률 상담을 한 번에 받을 수 있습니다</strong></p>\n<p><strong>디지털성범죄피해자지원센터</strong>(전화 <strong>02-735-8994</strong>, 카카오톡 상담 가능)에 연락하면 전문 상담원이 피해 영상의 <strong>삭제 지원</strong>, <strong>유포 현황 모니터링</strong>, <strong>수사·법률 상담 연계</strong>를 무료로 도와줍니다. 24시간 운영되므로 발견 즉시 연락하세요.</p>\n<p>지원센터는 국내외 웹사이트, 소셜미디어, 메신저 플랫폼에 대해 <strong>피해 영상 삭제 요청을 대행</strong>합니다. 피해자가 직접 플랫폼에 연락하기 어려운 경우에도 센터가 대신 처리하므로 심리적 부담을 줄일 수 있습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">딥페이크 음란물 피해를 당했다면, 지금 상황에 맞는 대응 절차를 <a href="/diagnosis/digital-sex-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지원센터: 02-735-8994 (24시간) | 삭제 대행 · 모니터링 · 법률 상담 무료</blockquote>',
+      },
+      {
+        title: '방송통신심의위원회에 시정 요청을 하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">방심위 시정 요청은 국내 사이트의 불법 콘텐츠를 강제 차단할 수 있는 수단입니다</strong></p>\n<p><strong>방송통신심의위원회</strong>(방심위)에 불법촬영물·허위영상물 <strong>시정 요청</strong>을 하면, 심의를 거쳐 해당 게시물의 <strong>삭제·접속 차단</strong> 명령이 내려집니다. 방심위 홈페이지 또는 <strong>전화 1377</strong>로 신청할 수 있습니다.</p>\n<p>해외 사이트에 게시된 경우에도 방심위가 <strong>접속 차단</strong> 조치를 취할 수 있으며, 디지털성범죄피해자지원센터를 통해 해외 플랫폼에 직접 삭제 요청을 병행하는 것이 효과적입니다. 방심위 심의 기간은 통상 <strong>7~10일</strong>이 소요됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">방심위: 홈페이지 또는 전화 1377 | 심의 기간 7~10일 | 해외 사이트 접속 차단 가능</blockquote>',
+      },
+      {
+        title: '가해자 처벌과 손해배상까지 진행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">딥페이크 제작·유포자는 형사 처벌과 민사 손해배상 모두 가능합니다</strong></p>\n<p><strong>성폭력처벌법 제14조의2</strong>에 따라 딥페이크 영상을 <strong>제작</strong>한 자도 처벌 대상이며, <strong>영리 목적으로 유포</strong>한 경우에는 <strong>7년 이하 징역</strong>으로 가중 처벌됩니다. 수사 과정에서 경찰은 IP 추적, 계정 정보 확인 등으로 가해자를 특정합니다.</p>\n<p>형사 절차와 별도로 가해자에게 <strong>정신적 피해에 대한 손해배상</strong>(민법 제750조·제751조)을 청구할 수 있습니다. 피해로 인한 <strong>심리 상담비, 치료비, 업무 손실</strong> 등을 구체적으로 산정하여 청구하세요. <strong>여성긴급전화 1366</strong>에서도 법률 지원을 연계받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사: 제작 5년 이하 징역 · 영리 유포 7년 이하 | 민사: 손해배상 청구 | 지원: 여성긴급전화 1366</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '딥페이크 영상 제작·유포자에게 징역형이 선고된 사례',
+        summary:
+          '피해자의 SNS 사진을 이용해 딥페이크 음란물을 제작·유포한 피고인에게 법원은 성폭력처벌법 제14조의2를 적용하여 징역 3년을 선고했습니다. 피해 영상이 다수 사이트에 유포된 점이 양형에 반영되었습니다.',
+        takeaway:
+          '딥페이크 영상을 발견하면 유포 범위를 파악하기 위해 디지털성범죄피해자지원센터의 모니터링 서비스를 활용하세요.',
+      },
+      {
+        title: '피해자가 손해배상 3,000만 원을 인정받은 사례',
+        summary:
+          '딥페이크 합성물로 인해 직장을 그만두고 심리 치료를 받아야 했던 피해자가 가해자를 상대로 손해배상 소송을 제기하여 법원이 위자료 3,000만 원을 인정했습니다.',
+        takeaway:
+          '피해로 인한 치료비 영수증, 상담 기록, 업무 손실 증빙을 체계적으로 보관하면 손해배상 청구에 유리합니다.',
+      },
+    ],
+    faq: [
+      {
+        question: '딥페이크 음란물을 발견하면 가장 먼저 뭘 해야 하나요?',
+        answer: '삭제 요청 전에 <strong>URL, 게시자 계정, 화면 캡처, 스크린 녹화</strong>로 증거를 먼저 확보하세요. 삭제 후에는 증거 수집이 어렵습니다.',
+      },
+      {
+        question: '가해자를 모르는데 신고가 가능한가요?',
+        answer: '네, <strong>성명불상으로 고소</strong>할 수 있습니다. 경찰이 IP 추적, 계정 정보 분석 등으로 가해자를 특정합니다.',
+      },
+      {
+        question: '디지털성범죄피해자지원센터는 무료인가요?',
+        answer: '네, <strong>삭제 지원, 모니터링, 법률 상담 모두 무료</strong>입니다. 전화 <strong>02-735-8994</strong>로 24시간 상담 가능합니다.',
+      },
+      {
+        question: '해외 사이트에 올라간 영상도 삭제할 수 있나요?',
+        answer: '디지털성범죄피해자지원센터가 <strong>해외 플랫폼에 삭제 요청을 대행</strong>하며, 방심위를 통해 <strong>국내 접속 차단</strong>도 가능합니다.',
+      },
+      {
+        question: '딥페이크 제작만 하고 유포하지 않아도 처벌되나요?',
+        answer: '성폭력처벌법 개정으로 <strong>허위영상물을 제작만 해도 5년 이하 징역 또는 5,000만 원 이하 벌금</strong>에 처해집니다.',
+      },
+      {
+        question: '삭제 요청을 했는데 사이트가 응하지 않으면 어떻게 하나요?',
+        answer: '<strong>방심위 시정 요청</strong>을 통해 강제 삭제·접속 차단 명령을 받을 수 있습니다. 전화 1377로 신청하세요.',
+      },
+      {
+        question: '피해 사실이 주변에 알려질까 걱정됩니다.',
+        answer: '성폭력 피해자는 수사·재판 과정에서 <strong>신원이 보호</strong>됩니다. 비공개 재판 신청도 가능하며, 언론 보도 시 피해자 인적사항 공개는 금지됩니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>디지털성범죄피해자지원센터</strong>(02-735-8994), <strong>대한법률구조공단</strong>(132), <strong>여성긴급전화</strong>(1366)에서 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 딥페이크 음란물 삭제 준비사항 확인하기',
+      link: '/diagnosis/digital-sex-crime',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '디지털성범죄 가이드', href: '/guide/digital-sex-crime' },
+      { label: '불법촬영물 삭제 지원', href: '/guide/digital-sex-crime/illegal-filming-deletion-support' },
+      { label: '몰래카메라 발견 시 즉시 대응법', href: '/guide/digital-sex-crime/hidden-camera-found-immediate-response' },
+      { label: '디지털성범죄 진단', href: '/diagnosis/digital-sex-crime' },
+    ],
+  },
 ];

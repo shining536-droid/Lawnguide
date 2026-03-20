@@ -669,4 +669,238 @@ export const jeonseFraudPages: SpokePage[] = [
       { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
     ],
   },
+  {
+    domain: 'jeonse-fraud',
+    slug: 'jeonse-fraud-landlord-accused-response',
+    keyword: '전세사기 가해자로 지목됐을 때 대응 기한',
+    questionKeyword: '전세사기 가해자로 지목됐는데 언제까지 뭘 해야 하나요?',
+    ctaKeyword: '전세사기 가해자 대응',
+    type: '수치기한형',
+    meta: {
+      title: '전세사기 가해자로 지목됐을 때 대응 기한 | 로앤가이드',
+      description: '전세사기 혐의를 받는 임대인의 수사 착수 후 대응 기한, 기소 전 합의 타이밍, 재판 절차별 준비사항을 정리했습니다.',
+    },
+    intro: '집값이 폭락하면서 세입자에게 보증금을 돌려주지 못했더니, 전세사기 혐의로 경찰 출석 요구서가 왔습니다. 보증금을 돌려줄 의사는 있었지만 시세가 떨어져 방법이 없었을 뿐입니다. 그런데 세입자는 이미 고소장을 접수했고, 경찰은 30일 이내 출석을 요구하고 있습니다. 혐의를 받고 있다면 기한별로 무엇을 준비해야 하는지 정리해보세요.',
+    timelineSteps: ['출석 요구 후 30일', '기소 전 합의 시도', '재판 절차 준비', '선처 자료 확보'],
+    sections: [
+      {
+        title: '출석 요구를 받았다면 — 30일 이내에 변호사 상담과 자료 정리를 마치세요',
+        content:
+          '<p><strong style="color:#1e3a5f">경찰 출석 전 변호사 상담과 소명 자료 준비가 가장 중요합니다</strong></p>\n<p>경찰로부터 출석 요구서를 받으면 통상 <strong>30일 이내</strong>에 출석해야 합니다. 이 기간 안에 반드시 <strong>형사전문 변호사 상담</strong>을 받으세요. 전세사기(형법 제347조)의 핵심 쟁점은 "계약 당시 보증금을 돌려줄 의사와 능력이 있었는가"입니다.</p>\n<p>보증금 반환 의사가 있었음을 증명할 수 있는 자료를 정리하세요. <strong>계약 당시 재정 상태(등기부등본, 대출 잔액 증명서, 소득 증빙)</strong>, 보증금 반환을 위해 노력한 기록(매매 시도, 대출 상담 내역, 세입자와의 연락 기록)이 핵심입니다. 시세 하락이 원인이라면 <strong>계약 당시와 현재의 KB시세·실거래가 비교 자료</strong>도 준비하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 출석 요구 후 30일 이내 | 준비: 변호사 상담, 계약 당시 재정 증빙, 반환 노력 기록, 시세 비교 자료</blockquote>',
+      },
+      {
+        title: '경찰 조사 단계 — 진술 내용이 재판까지 영향을 미칩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">경찰 진술은 검찰 송치와 재판의 핵심 증거가 되므로 신중하게 준비하세요</strong></p>\n<p>경찰 조사에서 가장 중요한 것은 <strong>"사기의 고의가 없었다"</strong>는 점을 일관되게 소명하는 것입니다. 계약 당시 보증금을 돌려줄 수 있는 상태였고, 이후 <strong>부동산 시세 하락</strong>이라는 예측 불가능한 사정으로 반환이 어려워졌다는 점을 구체적으로 설명해야 합니다.</p>\n<p>"잘 모르겠다", "기억이 안 난다"는 식의 모호한 답변은 불리하게 작용합니다. 변호사와 함께 <strong>진술서를 사전에 작성</strong>하고, 조사 시 변호인 동석을 요청하세요. 세입자에게 보증금 반환을 위해 노력한 기록(내용증명 회신, 분할 반환 제안 문자 등)이 있다면 반드시 제출하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">전세사기 혐의 대응, 기한별로 무엇을 준비해야 하는지 궁금하다면 <a href="/diagnosis/jeonse-fraud" style="color:#2563eb;font-weight:600">무료 진단</a>에서 상황을 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사기 고의 부정 + 반환 노력 증명 | 진술서 사전 작성 + 변호인 동석 요청</blockquote>',
+      },
+      {
+        title: '기소 전 합의 — 검찰 송치 후 기소 결정 전이 가장 중요한 타이밍입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">검찰 송치 후 기소 전까지가 합의의 골든타임입니다</strong></p>\n<p>경찰 수사가 완료되면 사건이 <strong>검찰에 송치</strong>됩니다. 검찰은 송치 후 통상 <strong>1~3개월</strong> 내에 기소 여부를 결정합니다. 이 기간이 합의를 시도할 수 있는 가장 중요한 시점입니다. 보증금 전액 반환이 어렵더라도 <strong>일부 반환 + 분할 상환 계획서</strong>를 제시하면 불기소(기소유예) 가능성이 높아집니다.</p>\n<p>합의는 반드시 <strong>변호사를 통해</strong> 진행하세요. 직접 세입자에게 연락하면 오히려 추가적인 문제가 될 수 있습니다. 합의금과 분할 상환 조건을 구체적으로 기재한 <strong>합의서</strong>를 작성하고, 세입자의 <strong>처벌불원서</strong>를 받아두세요. 전세사기는 반의사불벌죄가 아니지만, 합의 여부는 검찰의 기소 판단에 큰 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 타이밍: 검찰 송치 후~기소 결정 전(1~3개월) | 준비: 일부 반환 + 분할 상환 계획서 + 처벌불원서</blockquote>',
+      },
+      {
+        title: '기소 후 재판 — 선처 자료를 체계적으로 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">기소되더라도 양형 자료에 따라 벌금형·집행유예·실형이 갈립니다</strong></p>\n<p>사기죄(형법 제347조)로 기소되면 <strong>10년 이하 징역 또는 2,000만 원 이하 벌금</strong>에 해당합니다. 다만 실무에서는 보증금 규모, 피해자 수, 반환 노력, 합의 여부에 따라 양형이 크게 달라집니다. 보증금 <strong>1억 원 미만</strong>이고 초범이며 합의가 이루어진 경우 벌금형이나 집행유예가 선고되는 사례가 많습니다.</p>\n<p>재판에서 유리한 양형 자료를 준비하세요. ①<strong>반성문</strong>, ②보증금 반환 노력 증빙(매매 시도, 대출 상담), ③세입자와의 <strong>합의서 및 처벌불원서</strong>, ④계약 당시 정상적 재정 상태 증명, ⑤<strong>시세 하락 자료</strong>(감정원·KB 시세 추이). 보증금의 일부라도 공탁하면 반성의 진정성을 인정받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">양형 자료: 반성문, 합의서, 처벌불원서, 보증금 일부 공탁, 시세 하락 증빙, 반환 노력 기록</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '시세 하락으로 보증금 반환이 불가능해진 임대인에 대한 불기소 사례',
+        summary: '임대인이 계약 당시 정상적인 재정 상태에서 전세 계약을 체결했으나, 이후 부동산 시세가 급락하여 보증금을 반환하지 못한 사안입니다. 검찰은 계약 시점에 사기의 고의가 인정되지 않는다며 불기소(혐의없음) 처분했습니다.',
+        takeaway: '비슷한 상황이라면 계약 당시의 재정 상태와 시세 변동을 증명할 수 있는 자료를 확보하고, 보증금 반환을 위해 노력한 기록을 정리하세요.',
+      },
+      {
+        title: '기소 전 합의로 기소유예를 받은 임대인 사례',
+        summary: '보증금 2억 원을 반환하지 못해 사기죄로 고소된 임대인이 검찰 송치 후 세입자에게 보증금의 70%를 반환하고 나머지에 대한 분할 상환 합의서와 처벌불원서를 제출한 사안입니다. 검찰은 합의 사실과 반환 노력을 고려하여 기소유예 처분을 내렸습니다.',
+        takeaway: '비슷한 상황이라면 전액 반환이 어렵더라도 일부 반환과 분할 상환 계획을 제시하여 합의를 시도하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '전세사기로 고소당했는데 바로 구속되나요?',
+        answer: '일반적으로 출석 조사부터 시작합니다. 다만 피해 금액이 크거나 <strong>도주 우려</strong>가 있으면 구속영장이 청구될 수 있습니다.',
+      },
+      {
+        question: '시세 하락 때문에 못 돌려준 건데도 사기인가요?',
+        answer: '계약 당시 반환 의사와 능력이 있었다면 <strong>사기의 고의가 부정</strong>될 수 있습니다. 계약 당시 재정 상태를 증명하는 자료가 핵심입니다.',
+      },
+      {
+        question: '경찰 출석 요구를 무시하면 어떻게 되나요?',
+        answer: '정당한 사유 없이 출석을 거부하면 <strong>체포영장</strong>이 발부될 수 있습니다. 반드시 기한 내에 출석하세요.',
+      },
+      {
+        question: '세입자와 직접 합의해도 되나요?',
+        answer: '직접 연락은 오히려 불리할 수 있습니다. 반드시 <strong>변호사를 통해</strong> 합의를 진행하세요.',
+      },
+      {
+        question: '보증금 일부만 돌려줘도 합의가 되나요?',
+        answer: '전액이 아니더라도 <strong>일부 반환 + 분할 상환 계획</strong>으로 합의가 이루어지는 경우가 많습니다.',
+      },
+      {
+        question: '기소유예 처분을 받으면 전과가 남나요?',
+        answer: '기소유예는 기소되지 않은 것이므로 <strong>전과 기록에 남지 않습니다</strong>. 다만 수사 경력은 별도로 기록됩니다.',
+      },
+      {
+        question: '전세사기특별법 피해자 인정과 형사 고소는 별개인가요?',
+        answer: '네, <strong>별개 절차</strong>입니다. 세입자가 피해자 인정을 받았다고 해서 임대인이 자동으로 형사 처벌되는 것은 아닙니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 전세사기 가해자 대응 준비사항 확인하기',
+      link: '/diagnosis/jeonse-fraud',
+    },
+    internalLinks: [
+      { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
+      { label: '전세사기 vs 보증금 미반환 차이', href: '/guide/jeonse-fraud/jeonse-fraud-vs-deposit-default' },
+      { label: '전세사기 신고 절차 총정리', href: '/guide/jeonse-fraud/jeonse-fraud-report-procedure' },
+      { label: '이혼 소송 피고 대응 준비', href: '/guide/divorce/divorce-respondent-prep-checklist' },
+      { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
+    ],
+  },
+  {
+    domain: 'jeonse-fraud',
+    slug: 'jeonse-fraud-civil-vs-criminal',
+    keyword: '전세사기 민사소송 vs 형사고소 비교',
+    questionKeyword: '전세사기 피해를 당했는데 민사소송과 형사고소 중 뭐가 나은가요?',
+    ctaKeyword: '전세사기 민사 형사 비교',
+    type: '비교형',
+    meta: {
+      title: '전세사기 민사소송 vs 형사고소 비교 | 로앤가이드',
+      description: '전세사기 피해 시 민사소송과 형사고소의 목적, 기간, 비용, 효과, 증거기준을 비교하고 병행 전략을 정리했습니다.',
+    },
+    intro: '보증금 2억을 돌려받지 못하고 있습니다. 주변에서는 "고소해라" "소송해라" 의견이 갈립니다. 형사고소를 하면 임대인이 처벌받기는 하겠지만 돈을 받을 수 있는 건지, 민사소송을 하면 시간이 얼마나 걸리는 건지 막막합니다. 두 절차의 차이와 병행 전략을 정리해보세요.',
+    timelineSteps: ['형사고소 vs 민사소송 이해', '증거기준 비교', '비용·기간 비교', '병행 전략 수립'],
+    sections: [
+      {
+        title: '형사고소 — 임대인의 사기 행위를 처벌받게 하는 절차입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">형사고소의 목적은 임대인의 형사 처벌이며, 보증금 회수는 별도입니다</strong></p>\n<p>형사고소는 임대인이 <strong>형법 제347조(사기죄)</strong>에 해당하는 행위를 했다고 수사기관에 처벌을 요청하는 절차입니다. 경찰서에 고소장을 접수하면 수사가 시작되고, 검찰 송치 후 기소 여부가 결정됩니다. 사기죄가 인정되면 <strong>10년 이하 징역 또는 2,000만 원 이하 벌금</strong>에 처해집니다.</p>\n<p>형사고소의 가장 큰 장점은 <strong>임대인에게 심리적 압박</strong>을 줄 수 있다는 점입니다. 구속 수사가 진행되거나 기소가 임박하면 합의에 응할 가능성이 높아집니다. 다만 형사 절차만으로는 보증금을 직접 돌려받을 수 없고, 별도로 민사소송이나 합의를 통해 회수해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사고소: 목적은 처벌 | 장점은 합의 압박 | 보증금 회수는 별도 절차 필요</blockquote>',
+      },
+      {
+        title: '민사소송 — 보증금을 법적으로 돌려받는 절차입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">민사소송의 목적은 보증금 반환 판결을 받아 강제집행하는 것입니다</strong></p>\n<p>민사소송은 임대인을 상대로 <strong>보증금반환청구소송</strong>을 제기하여 법원의 판결을 받는 절차입니다. 확정판결이 나오면 임대인의 재산(부동산, 예금, 급여 등)에 대한 <strong>강제집행</strong>이 가능합니다. 보증금 <strong>3,000만 원 이하</strong>는 소액사건심판으로 1회 변론 종결이 가능합니다.</p>\n<p>민사소송의 장점은 <strong>판결 후 강제집행</strong>을 통해 실제로 돈을 회수할 수 있다는 점입니다. 다만 임대인에게 재산이 없으면 판결을 받아도 실질적으로 회수가 어려울 수 있습니다. 소송 전에 임대인의 <strong>재산 조회</strong>(부동산등기, 금융재산 조회)를 통해 집행 가능성을 먼저 확인하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">전세사기 피해, 민사와 형사 중 어떤 절차가 유리한지 궁금하다면 <a href="/diagnosis/jeonse-fraud" style="color:#2563eb;font-weight:600">무료 진단</a>에서 상황을 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">민사소송: 목적은 보증금 회수 | 장점은 강제집행 가능 | 임대인 재산 유무가 관건</blockquote>',
+      },
+      {
+        title: '증거기준과 비용·기간 — 두 절차는 이렇게 다릅니다',
+        content:
+          '<p><strong style="color:#1e3a5f">형사는 "사기 고의" 입증이 핵심이고, 민사는 "보증금 미반환" 입증이 핵심입니다</strong></p>\n<p>형사고소에서는 임대인이 <strong>계약 당시부터 속일 의도</strong>가 있었음을 증명해야 합니다. 계약 당시 과다 채무, 다중 계약, 보증금 유용 등이 핵심 증거입니다. 증명 기준이 높아서 "합리적 의심의 여지가 없는 정도"까지 입증해야 합니다.</p>\n<p>민사소송에서는 <strong>임대차계약의 존재와 보증금 미반환 사실</strong>만 증명하면 됩니다. 계약서와 이체 내역만 있어도 승소 가능성이 높습니다. 비용 면에서 형사고소는 <strong>비용이 들지 않지만</strong>(국가가 수사) 변호사 비용은 별도입니다. 민사소송은 <strong>소송인지대(청구금액의 0.2~0.5%)</strong>와 송달료, 변호사 비용이 발생합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사: 사기 고의 입증(높은 기준) / 비용 없음(변호사 별도) / 6개월~2년 | 민사: 미반환 입증(낮은 기준) / 인지대+송달료 / 3~12개월</blockquote>',
+      },
+      {
+        title: '병행 전략 — 형사고소와 민사소송을 동시에 진행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">형사+민사+특별법 피해자 인정을 병행하는 것이 가장 효과적입니다</strong></p>\n<p>형사고소와 민사소송은 <strong>별개 절차</strong>이므로 동시에 진행할 수 있습니다. 실무에서 가장 효과적인 전략은 ①<strong>형사고소</strong>로 임대인에게 합의 압박을 가하면서, ②<strong>민사소송</strong>(또는 지급명령 신청)으로 보증금 반환 판결을 확보하고, ③<strong>전세사기피해자 인정 신청</strong>으로 경매유예·법률지원 등을 받는 것입니다.</p>\n<p>민사소송 전에 <strong>임차권등기명령</strong>을 신청하면 이사 후에도 대항력을 유지할 수 있습니다. 경매가 진행 중이라면 <strong>배당요구 종기일 이전에 배당요구서</strong>를 반드시 제출하세요. 기한을 놓치면 배당에서 제외됩니다. 보증보험(HUG·SGI)에 가입된 경우에는 보험금 청구도 동시에 진행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">병행 전략: 형사고소(압박) + 민사소송(판결 확보) + 피해자 인정(지원) + 임차권등기(대항력 보전)</blockquote>',
+      },
+    ],
+    comparison: {
+      title: '민사소송 vs 형사고소 비교표',
+      headers: ['구분', '형사고소', '민사소송'],
+      rows: [
+        {
+          label: '목적',
+          values: [
+            '임대인의 사기죄 형사 처벌',
+            '보증금 반환 판결 확보 및 강제집행',
+          ],
+        },
+        {
+          label: '소요기간',
+          values: [
+            '수사~재판까지 6개월~2년 이상',
+            '소송 제기~판결까지 3~12개월',
+          ],
+        },
+        {
+          label: '비용',
+          values: [
+            '고소 자체는 무료(변호사 비용 별도)',
+            '소송인지대(청구금액의 0.2~0.5%) + 송달료 + 변호사 비용',
+          ],
+        },
+        {
+          label: '증거기준',
+          values: [
+            '사기의 고의(계약 당시 기망 의도) 입증 — 높은 기준',
+            '임대차계약 존재 + 보증금 미반환 사실 — 상대적으로 낮은 기준',
+          ],
+        },
+        {
+          label: '효과',
+          values: [
+            '처벌(징역/벌금) + 합의 유도 압박',
+            '확정판결 후 강제집행(부동산·예금·급여 압류)',
+          ],
+        },
+        {
+          label: '보증금 회수',
+          values: [
+            '직접 회수 불가, 합의를 통해 간접 회수',
+            '판결 후 강제집행으로 직접 회수 가능',
+          ],
+        },
+      ],
+    },
+    cases: [
+      {
+        title: '형사고소 후 합의 압박으로 보증금을 회수한 사례',
+        summary: '세입자가 임대인을 사기죄로 고소한 후, 검찰 송치 단계에서 임대인이 구속 위험을 느끼고 보증금의 80%를 반환하며 합의한 사안입니다. 형사고소가 실질적인 보증금 회수의 지렛대가 되었습니다.',
+        takeaway: '비슷한 상황이라면 형사고소와 민사소송을 병행하여 합의 가능성을 높이세요.',
+      },
+      {
+        title: '민사소송 확정판결 후 강제집행으로 보증금을 회수한 사례',
+        summary: '임대인이 연락을 끊고 잠적했으나, 세입자가 보증금반환청구소송에서 승소한 뒤 임대인 명의 다른 부동산에 강제경매를 신청하여 보증금 전액을 배당받은 사안입니다.',
+        takeaway: '비슷한 상황이라면 소송 전 임대인의 다른 재산(부동산, 금융자산)을 미리 조회하여 강제집행 가능성을 확인하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '형사고소와 민사소송을 동시에 할 수 있나요?',
+        answer: '네, <strong>별개 절차</strong>이므로 동시에 진행 가능합니다. 병행하는 것이 가장 효과적입니다.',
+      },
+      {
+        question: '형사고소만 하면 보증금을 돌려받을 수 있나요?',
+        answer: '형사 절차만으로는 <strong>보증금을 직접 돌려받을 수 없습니다</strong>. 합의 또는 민사소송을 통해 회수해야 합니다.',
+      },
+      {
+        question: '민사소송에서 이기면 바로 돈을 받나요?',
+        answer: '판결 확정 후 <strong>강제집행</strong>을 해야 합니다. 임대인에게 재산이 없으면 실질 회수가 어려울 수 있습니다.',
+      },
+      {
+        question: '지급명령 신청은 뭔가요?',
+        answer: '소송보다 간단한 절차로, 상대방이 <strong>2주 내 이의하지 않으면</strong> 확정판결과 같은 효력이 발생합니다. 비용도 소송의 1/10 수준입니다.',
+      },
+      {
+        question: '전세사기특별법 피해자 인정과 고소는 별개인가요?',
+        answer: '네, <strong>별개 절차</strong>입니다. 피해자 인정은 경매유예·주거지원 등의 혜택을 위한 것이고, 형사고소는 임대인 처벌을 위한 것입니다.',
+      },
+      {
+        question: '소액사건심판으로 빠르게 처리할 수 있나요?',
+        answer: '보증금이 <strong>3,000만 원 이하</strong>인 경우 소액사건심판으로 1회 변론 종결이 가능합니다.',
+      },
+      {
+        question: '배당요구 기한을 놓치면 어떻게 되나요?',
+        answer: '경매 배당에서 <strong>제외</strong>됩니다. 배당요구 종기일을 반드시 확인하고 기한 전에 신청하세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132), 전세사기피해지원센터, 지자체 무료법률상담을 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 전세사기 민사 형사 비교 준비사항 확인하기',
+      link: '/diagnosis/jeonse-fraud',
+    },
+    internalLinks: [
+      { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
+      { label: '전세사기 vs 보증금 미반환 차이', href: '/guide/jeonse-fraud/jeonse-fraud-vs-deposit-default' },
+      { label: '전세사기 신고 절차 총정리', href: '/guide/jeonse-fraud/jeonse-fraud-report-procedure' },
+      { label: '전세사기 가해자로 지목됐을 때 대응 기한', href: '/guide/jeonse-fraud/jeonse-fraud-landlord-accused-response' },
+      { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
+    ],
+  },
 ];

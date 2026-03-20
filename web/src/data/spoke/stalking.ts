@@ -403,4 +403,97 @@ export const stalkingPages: SpokePage[] = [
       { label: '스토킹 진단', href: '/diagnosis/stalking' },
     ],
   },
+  {
+    domain: 'stalking',
+    slug: 'stalking-evidence-collection-faq',
+    keyword: '스토킹 증거 수집 방법 FAQ',
+    questionKeyword: '스토킹 피해를 당하고 있는데 증거는 어떻게 모으나요?',
+    ctaKeyword: '스토킹 증거 수집',
+    type: 'Q&A형',
+    meta: {
+      title: '스토킹 증거 수집 방법 FAQ | 로앤가이드',
+      description: '스토킹 피해 증거 수집 방법을 FAQ 형식으로 정리했습니다. 디지털 증거, CCTV, 목격자, 경찰 신고 이력 등 단계별 가이드.',
+    },
+    intro: '헤어진 전 연인이 퇴근길마다 나타납니다. "우연이야"라고 하지만, 매일 같은 장소에서 마주치는 건 우연이 아닙니다. 경찰에 신고하려고 해도 "증거가 있어야 한다"는 말에 막막해집니다. 문자는 지워버렸고, CCTV는 어떻게 확보하는지도 모르겠습니다. 스토킹 증거를 체계적으로 수집하는 방법을 정리했습니다.',
+    timelineSteps: ['디지털 증거 확보', 'CCTV·물리적 증거', '목격자·신고 이력', '증거 정리·제출'],
+    sections: [
+      {
+        title: '디지털 증거부터 확보하세요 — 문자·카톡·SNS DM이 핵심입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">디지털 연락 기록은 스토킹의 반복성을 증명하는 가장 강력한 증거입니다</strong></p>\n<p>스토킹처벌법에서 핵심 요건은 <strong>"반복성"</strong>입니다. 문자, 카카오톡, 인스타그램 DM, 페이스북 메시지 등 모든 연락 내역을 <strong>날짜와 시간이 보이도록 캡처</strong>하세요. 차단 후 새 번호나 새 계정으로 온 연락은 "차단을 우회했다"는 강력한 증거가 됩니다.</p>\n<p>부재중 전화 기록은 <strong>통신사 통화 내역 조회</strong>로 확보할 수 있습니다. SKT·KT·LGU+ 앱이나 고객센터에서 최근 6개월 통화 기록을 출력하세요. 거부 의사를 전달한 문자("다시 연락하지 마세요")는 반드시 캡처해서 보관하세요. 그 이후 모든 연락이 스토킹 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">디지털 증거: 메시지 캡처(날짜·시간 포함), 통화 내역(통신사 조회), 차단 기록, 거부 의사 문자 캡처</blockquote>',
+      },
+      {
+        title: 'CCTV와 물리적 증거 — 미행과 배회를 증명하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">CCTV 영상은 가해자의 접근과 배회를 객관적으로 증명합니다</strong></p>\n<p>집 앞이나 직장 근처에서 가해자가 배회하거나 대기하고 있다면 <strong>CCTV 영상</strong>이 결정적 증거가 됩니다. 아파트 관리사무소, 편의점, 건물 관리실에 CCTV 영상 보존을 요청하세요. CCTV 보존 기간은 통상 <strong>30일</strong>이므로 빠르게 요청해야 합니다.</p>\n<p>직접 촬영도 유효합니다. 가해자가 나타났을 때 <strong>스마트폰으로 사진이나 동영상</strong>을 촬영하세요(날짜·시간·장소가 기록됨). 가해자가 두고 간 선물, 편지, 택배 등은 버리지 말고 <strong>사진으로 기록한 뒤 보관</strong>하세요. 차량으로 미행하는 경우 <strong>블랙박스 영상</strong>도 증거가 됩니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">스토킹 증거를 어떻게 정리해야 할지 막막하다면 <a href="/diagnosis/stalking" style="color:#2563eb;font-weight:600">무료 진단</a>에서 상황을 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">물리적 증거: CCTV 보존 요청(30일 이내), 직접 촬영(사진·동영상), 선물·편지 보관, 블랙박스 영상</blockquote>',
+      },
+      {
+        title: '목격자와 경찰 신고 이력 — 제3자의 확인이 증거력을 높입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">목격자 진술과 경찰 신고 기록은 증거의 신뢰도를 높여줍니다</strong></p>\n<p>가해자가 나타난 현장을 목격한 <strong>동료, 친구, 이웃, 경비원</strong>이 있다면 연락처를 확보해두세요. 목격자는 수사와 재판에서 <strong>증인</strong>으로 출석하여 진술할 수 있습니다. 목격자가 직접 작성한 <strong>진술서</strong>(날짜, 장소, 목격 내용)도 증거로 제출할 수 있습니다.</p>\n<p><strong>112 신고 이력</strong>은 매우 중요한 증거입니다. 가해자가 나타날 때마다 112에 신고하고, 신고 번호와 출동 결과를 기록해두세요. 여러 차례 신고 이력이 있으면 <strong>반복성</strong>을 강력하게 증명할 수 있습니다. 경찰의 <strong>긴급응급조치 기록</strong>도 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">제3자 증거: 목격자 연락처 확보 + 진술서 작성 요청 | 신고 이력: 112 신고마다 번호 기록</blockquote>',
+      },
+      {
+        title: '피해 일지와 증거 정리 — 수사·재판을 위한 최종 준비',
+        content:
+          '<p><strong style="color:#1e3a5f">날짜별 피해 일지를 작성하면 수사와 재판에서 결정적으로 유리합니다</strong></p>\n<p><strong>피해 일지</strong>를 작성하세요. 형식은 간단합니다: <strong>"날짜 / 시간 / 장소 / 행위 내용 / 증거 유무"</strong>. 예를 들어 "2026.3.15 / 19:30 / 자택 앞 / 30분간 대기 후 초인종 5회 누름 / CCTV 확보"처럼 기록합니다. 이 일지가 수사관과 판사에게 반복성을 한눈에 보여줍니다.</p>\n<p>모든 증거를 <strong>폴더별로 정리</strong>하세요. ①디지털 증거(메시지 캡처, 통화 기록), ②영상 증거(CCTV, 직접 촬영), ③물리적 증거(선물·편지 사진), ④목격자 진술서, ⑤경찰 신고 기록. 정리된 증거 파일을 <strong>클라우드</strong>에 백업해두면 원본 분실에 대비할 수 있습니다. 증거를 고소장이나 진술서에 첨부하여 경찰에 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정리: 피해 일지(날짜/시간/장소/행위/증거) + 증거 폴더 분류 + 클라우드 백업 + 고소장 첨부</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '피해 일지와 CCTV 영상으로 스토킹죄가 인정된 사례',
+        summary: '피해자가 3개월간 작성한 피해 일지와 아파트 CCTV 영상 12건을 증거로 제출한 사안입니다. 법원은 가해자가 거부 의사 이후에도 20회 이상 피해자 주거지 부근에서 배회한 사실이 반복적 스토킹에 해당한다고 판단하여 징역 10개월(집행유예 2년)을 선고했습니다.',
+        takeaway: '비슷한 상황이라면 피해 일지를 매일 기록하고, CCTV 보존 요청을 30일 이내에 하세요.',
+      },
+      {
+        title: '카카오톡 차단 우회 연락이 핵심 증거가 된 사례',
+        summary: '피해자가 카카오톡을 차단한 후 가해자가 새 계정 3개를 만들어 총 200회 이상 메시지를 보낸 사안입니다. 피해자가 차단 기록과 새 계정 메시지를 모두 캡처하여 제출한 결과 스토킹범죄가 인정되었습니다.',
+        takeaway: '비슷한 상황이라면 차단 기록을 캡처하고, 새 번호나 새 계정으로 온 연락도 모두 저장하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '문자를 이미 지워버렸는데 복구할 수 있나요?',
+        answer: '통신사에 <strong>문자 발신·수신 기록 조회</strong>를 요청할 수 있습니다. 내용은 복구가 어렵지만 발신 이력(날짜·시간·번호)은 확인 가능합니다.',
+      },
+      {
+        question: 'CCTV 영상은 어떻게 확보하나요?',
+        answer: '아파트 관리사무소, 편의점, 건물 관리실에 <strong>보존 요청</strong>을 하세요. 보존 기간이 통상 30일이므로 빠르게 요청해야 합니다.',
+      },
+      {
+        question: '상대방 몰래 녹음해도 증거가 되나요?',
+        answer: '대화 당사자가 녹음한 것은 <strong>증거로 인정</strong>됩니다. 다만 제3자의 대화를 몰래 녹음하면 통신비밀보호법 위반입니다.',
+      },
+      {
+        question: '스마트폰 캡처만으로 증거력이 있나요?',
+        answer: '네, <strong>날짜와 시간이 포함된 캡처</strong>는 유효한 증거입니다. 원본 데이터도 함께 보관하면 더 좋습니다.',
+      },
+      {
+        question: '가해자가 선물을 두고 갔는데 어떻게 하나요?',
+        answer: '버리지 말고 <strong>사진으로 기록한 뒤 보관</strong>하세요. 배달 기록이 있으면 함께 저장하세요. 물건 자체가 스토킹 증거입니다.',
+      },
+      {
+        question: '112 신고를 여러 번 해도 되나요?',
+        answer: '네, 가해자가 나타날 때마다 <strong>매번 신고</strong>하세요. 반복 신고 이력 자체가 스토킹의 반복성을 증명하는 강력한 증거입니다.',
+      },
+      {
+        question: '피해 일지는 법적 효력이 있나요?',
+        answer: '피해 일지는 <strong>참고 자료</strong>로서 증거력이 인정됩니다. 다른 증거(CCTV, 메시지)와 함께 제출하면 증거력이 더 높아집니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>여성긴급전화 1366</strong>, 대한법률구조공단(전화 132), 범죄피해자지원센터(1577-1295)를 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 스토킹 증거 수집 준비사항 확인하기',
+      link: '/diagnosis/stalking',
+    },
+    internalLinks: [
+      { label: '스토킹 가이드', href: '/guide/stalking' },
+      { label: '스토킹 피해를 받고 있을 때 즉시 대응법', href: '/guide/stalking/stalking-immediate-response' },
+      { label: '전 연인 연락이 스토킹인지 판단 기준', href: '/guide/stalking/ex-partner-contact-stalking-criteria' },
+      { label: '가정폭력 이혼 보호명령 절차', href: '/guide/divorce/domestic-violence-divorce-protection' },
+      { label: '스토킹 진단', href: '/diagnosis/stalking' },
+    ],
+  },
 ];

@@ -443,4 +443,102 @@ export const schoolViolencePages: SpokePage[] = [
       { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
     ],
   },
+  {
+    domain: 'school-violence',
+    slug: 'school-violence-false-report-response',
+    keyword: '학교폭력 허위 신고 대응법',
+    questionKeyword: '아이가 학교폭력으로 허위 신고당했는데 어떻게 대응하나요?',
+    ctaKeyword: '학교폭력 허위 신고 대응',
+    type: '상황형',
+    meta: {
+      title: '학교폭력 허위 신고 대응법 | 로앤가이드',
+      description:
+        '아이가 학교폭력으로 사실과 다르게 신고되었을 때 학폭위 방어 전략, 증거 확보 방법, 재심·행정소송 절차, 허위 신고자에 대한 법적 조치까지 정리했습니다.',
+    },
+    intro:
+      '학교에서 전화가 왔습니다. 아이가 다른 학생을 폭행했다는 신고가 접수됐다는 것입니다. 그런데 아이는 "그 시간에 교실에 없었다"고 합니다. 사실과 다르게 신고되었다면, 학폭위 절차에서 억울한 조치를 받지 않도록 체계적으로 대응해야 합니다. 허위 신고에 맞서는 방어 전략과 법적 조치를 정리했습니다.',
+    sections: [
+      {
+        title: '사실과 다른 신고, 증거부터 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 신고에 대응하려면 "그 일이 없었다"는 증거를 먼저 모아야 합니다</strong></p>\n<p>학교폭력 신고가 접수되면 학교 전담기구가 사실 확인 조사를 시작합니다. 이때 가장 중요한 것은 <strong>아이의 알리바이</strong>를 입증할 수 있는 증거입니다. <strong>CCTV 열람 요청</strong>은 학교에 서면으로 즉시 해야 하며, 보존 기간이 지나면 삭제되므로 하루라도 빨리 요청하세요.</p>\n<p><strong>목격 학생의 진술서</strong>, <strong>담임교사 확인서</strong>, 해당 시간 학원·병원 방문 기록 등 아이가 현장에 없었음을 보여주는 자료를 최대한 수집하세요. 메신저 대화 기록이나 사진의 타임스탬프도 유력한 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: CCTV 열람 요청(서면) · 목격자 진술서 · 교사 확인서 · 학원/병원 방문 기록 · 메신저 타임스탬프</blockquote>',
+      },
+      {
+        title: '학폭위 심의에서 효과적으로 방어하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">심의위원회 출석 전에 반박 자료를 체계적으로 정리하는 것이 핵심입니다</strong></p>\n<p><strong>교육지원청 학교폭력대책심의위원회</strong>에서는 양측 의견을 듣고 조치를 결정합니다. 보호자는 출석하여 <strong>의견 진술권</strong>을 행사할 수 있으며, 이때 수집한 증거를 시간순으로 정리한 <strong>반박 경위서</strong>를 제출하세요. 구두 진술만으로는 부족합니다.</p>\n<p>심의위원에게 전달할 자료는 ①<strong>사건 경위 요약서</strong>(A4 1~2장), ②<strong>증거 목록과 원본</strong>, ③<strong>아이의 평소 학교생활 기록</strong>(교사 소견, 상담 기록)으로 구성하세요. 변호사 동행도 가능하므로 사안이 심각하면 법률 전문가의 조력을 받는 것이 좋습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">아이가 사실과 다르게 학교폭력으로 신고되었다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/school-violence" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">심의 준비: 반박 경위서 · 증거 목록 · 학교생활 기록 | 변호사 동행 가능</blockquote>',
+      },
+      {
+        title: '조치에 불복하려면 재심과 행정소송을 활용하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">부당한 조치를 받았다면 15일 이내에 재심을 청구할 수 있습니다</strong></p>\n<p>심의위원회의 조치 결과에 불복하는 경우 <strong>조치 통보를 받은 날로부터 15일 이내</strong>에 시·도 <strong>학생징계조정위원회</strong>에 재심을 청구해야 합니다. 재심에서도 기각되면 <strong>행정소송</strong>을 제기할 수 있으며, 소송 기한은 재심 결과 통보일로부터 <strong>90일 이내</strong>입니다.</p>\n<p>재심 청구 시에는 기존 심의에서 제출한 증거에 더해 <strong>새로운 증거</strong>(추가 목격자 진술, 전문가 소견 등)를 보강하는 것이 효과적입니다. 행정소송 단계에서는 반드시 변호사의 조력을 받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불복: 재심 15일 이내(학생징계조정위원회) → 행정소송 90일 이내 | 새 증거 보강 필수</blockquote>',
+      },
+      {
+        title: '허위 신고자에 대한 법적 조치도 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">고의로 허위 사실을 신고한 경우 형사·민사 책임을 물을 수 있습니다</strong></p>\n<p>상대 학생(또는 보호자)이 <strong>고의로 거짓 사실을 신고</strong>한 것이 밝혀지면 <strong>무고죄</strong>(형법 제156조, 10년 이하 징역 또는 1,500만 원 이하 벌금)로 형사 고소가 가능합니다. 다만 미성년자가 신고한 경우에는 보호자의 교사(교唆) 여부가 쟁점이 됩니다.</p>\n<p>형사 절차와 별도로 허위 신고로 인한 정신적 피해에 대해 <strong>손해배상 청구</strong>(민법 제750조)도 할 수 있습니다. 아이가 받은 심리적 고통, 학습권 침해, 치료비 등을 청구 근거로 삼을 수 있으므로 관련 <strong>진단서</strong>와 <strong>상담 기록</strong>을 보관하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법적 조치: 무고죄(형법 제156조) 형사 고소 + 손해배상 청구(민법 제750조) | 진단서·상담 기록 보관</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: 'CCTV 증거로 허위 신고가 밝혀져 조치가 철회된 사례',
+        summary:
+          '가해자로 지목된 학생의 보호자가 사건 당일 CCTV 영상을 확보하여 아이가 해당 시간에 다른 장소에 있었음을 증명했습니다. 심의위원회는 증거를 검토한 뒤 해당 학생에 대한 조치를 내리지 않았습니다.',
+        takeaway:
+          '비슷한 상황이라면 CCTV 영상은 학교에 서면으로 열람·보존을 요청하고, 시간·장소를 명확히 입증할 수 있는 자료를 신속히 확보하세요.',
+      },
+      {
+        title: '재심 청구로 부당한 전학 조치가 취소된 사례',
+        summary:
+          '심의위원회에서 8호(전학) 조치를 받은 학생의 보호자가 추가 목격자 진술과 교사 소견서를 확보하여 재심을 청구했고, 학생징계조정위원회는 신고 내용의 신빙성이 부족하다고 판단하여 조치를 취소했습니다.',
+        takeaway:
+          '재심 단계에서는 기존 증거에 더해 새로운 증거를 보강하는 것이 중요합니다. 15일 기한을 놓치지 마세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '학교폭력 허위 신고를 당하면 가장 먼저 뭘 해야 하나요?',
+        answer: '<strong>CCTV 열람 요청</strong>을 학교에 서면으로 즉시 하세요. 영상 보존 기간이 지나면 삭제되므로 하루라도 빨리 요청하는 것이 중요합니다.',
+      },
+      {
+        question: '학폭위에서 아이가 직접 진술해야 하나요?',
+        answer: '아이가 직접 진술할 수 있지만, <strong>보호자가 대신 의견을 진술</strong>할 수도 있습니다. 아이의 심리 상태를 고려하여 결정하세요.',
+      },
+      {
+        question: '학폭위에 변호사를 대리인으로 데려갈 수 있나요?',
+        answer: '네, <strong>변호사 동행이 가능</strong>합니다. 사안이 심각하거나 상대측이 변호사를 선임한 경우 법률 전문가의 조력을 받는 것이 좋습니다.',
+      },
+      {
+        question: '허위 신고한 학생을 무고죄로 고소할 수 있나요?',
+        answer: '고의로 거짓 사실을 신고한 것이 입증되면 <strong>무고죄(형법 제156조)</strong>로 고소할 수 있습니다. 다만 미성년자의 경우 형사미성년자(14세 미만) 여부를 확인해야 합니다.',
+      },
+      {
+        question: '재심 청구 기한을 놓치면 어떻게 되나요?',
+        answer: '조치 통보 후 <strong>15일 이내</strong>에 재심을 청구하지 않으면 재심 기회를 잃습니다. 다만 <strong>행정소송</strong>은 조치 확정일로부터 90일 이내에 별도로 제기할 수 있습니다.',
+      },
+      {
+        question: '학폭위 조치가 학생부에 기록되나요?',
+        answer: '1~3호 조치는 졸업과 동시에 삭제되고, 4호 이상은 <strong>졸업 후 2~4년간 보존</strong>됩니다. 조치가 철회되면 기록도 삭제됩니다.',
+      },
+      {
+        question: '허위 신고로 아이가 심리 치료를 받으면 비용 청구가 가능한가요?',
+        answer: '네, 허위 신고로 인한 정신적 피해에 대해 <strong>손해배상 청구(민법 제750조)</strong>가 가능합니다. 치료비 영수증과 진단서를 보관하세요.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132), 117 학교폭력 신고센터, 교육청 학교폭력 상담센터에서 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 학교폭력 허위 신고 대응 준비사항 확인하기',
+      link: '/diagnosis/school-violence',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '학교폭력 가이드', href: '/guide/school-violence' },
+      { label: '학폭위 가해자 지목 시 부모 대응법', href: '/guide/school-violence/school-violence-accused-parent-response' },
+      { label: '학교폭력 조치 불복 방법', href: '/guide/school-violence/school-violence-measures-appeal' },
+      { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
+    ],
+  },
 ];

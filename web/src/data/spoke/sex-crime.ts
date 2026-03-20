@@ -699,4 +699,216 @@ export const sexCrimePages: SpokePage[] = [
       { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
     ],
   },
+  {
+    domain: 'sex-crime',
+    slug: 'sexual-assault-report-to-trial',
+    keyword: '성범죄 신고부터 재판까지 전체 절차',
+    questionKeyword: '성범죄 피해를 신고하면 재판까지 어떤 절차를 거치나요?',
+    ctaKeyword: '성범죄 신고 절차',
+    type: '절차형',
+    meta: {
+      title: '성범죄 신고부터 재판까지 전체 절차 | 로앤가이드',
+      description:
+        '성범죄 피해 신고 후 증거보전, 경찰·검찰 조사, 기소, 재판까지 전체 절차와 각 단계별 소요 기간, 피해자 보호 제도를 정리했습니다.',
+    },
+    intro:
+      '용기를 내어 경찰에 전화를 걸었습니다. 접수는 됐다는데, 이후 어떤 절차가 기다리고 있는지 아무것도 모릅니다. 조사는 언제 받는지, 재판은 얼마나 걸리는지, 내가 직접 법정에 나가야 하는 건지 막연한 불안뿐입니다. 성범죄 피해 신고 이후 재판 종결까지 전체 흐름을 단계별로 확인해보세요.',
+    sections: [
+      {
+        title: '신고 직후 증거보전과 피해자 지원 연결',
+        content:
+          '<p><strong style="color:#1e3a5f">신고 후 72시간 이내가 증거 확보의 골든타임입니다</strong></p>\n<p>112 신고 또는 경찰서 방문 접수 직후, <strong>원스톱지원센터</strong>(해바라기센터)에서 의료 지원과 증거채취를 동시에 받을 수 있습니다. 진료 기록, 상해 진단서, 디지털 증거(메시지·통화내역)를 이 단계에서 확보하는 것이 핵심입니다.</p>\n<p>경찰은 접수 즉시 <strong>피해자 보호명령</strong>을 신청할 수 있으며, 가해자 접근 금지·통신 금지 등의 조치가 가능합니다. <strong>피해자 국선변호사</strong>는 신고 단계부터 무료로 선임할 수 있으니 반드시 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 해바라기센터 증거채취 → 진단서 발급 → 피해자 국선변호사 신청 → 보호명령 요청</blockquote>',
+      },
+      {
+        title: '경찰 조사와 검찰 송치 단계',
+        content:
+          '<p><strong style="color:#1e3a5f">경찰 조사는 통상 1~3개월, 검찰 송치 후 기소 결정까지 추가 1~2개월이 소요됩니다</strong></p>\n<p>경찰은 피해자 진술조서를 작성하고, 가해자를 소환하여 조사합니다. 피해자는 <strong>영상녹화 진술</strong>을 선택할 수 있으며, 이 녹화물은 재판에서 증거로 사용됩니다. 조사 시 <strong>국선변호사 동석</strong>을 요청하면 부당한 질문으로부터 보호받을 수 있습니다.</p>\n<p>경찰 수사가 완료되면 사건은 <strong>검찰로 송치</strong>됩니다. 검찰은 보강 수사를 진행하거나 바로 기소 여부를 결정합니다. 이 단계에서 피해자 의견 진술 기회가 주어지며, <strong>처벌 의사와 피해 상황</strong>을 서면으로 제출할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 영상녹화 진술 선택 → 국선변호사 동석 → 검찰 의견서 제출</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">성범죄 신고 후 절차가 막막하다면, 현재 단계에 맞는 준비사항을 <a href="/diagnosis/sex-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '기소 후 재판 진행과 피해자 보호 제도',
+        content:
+          '<p><strong style="color:#1e3a5f">재판은 기소 후 3~6개월, 복잡한 사건은 1년 이상 걸릴 수 있습니다</strong></p>\n<p>검찰이 기소하면 법원에서 <strong>공판기일</strong>이 지정됩니다. 피해자는 법정에 직접 출석하지 않고 <strong>영상 증인신문</strong> 또는 <strong>차폐시설</strong>을 이용하여 진술할 수 있습니다. 신뢰관계인(가족·상담사) 동석도 보장됩니다.</p>\n<p><strong>피해자 진술권</strong>(형사소송법 제294조의2)에 따라 양형에 관한 의견을 법원에 직접 진술하거나 서면으로 제출할 수 있습니다. 재판 일정과 결과는 <strong>피해자 통지제도</strong>를 신청하면 문자로 안내받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보호: 영상 증인신문 · 차폐시설 · 신뢰관계인 동석 · 피해자 통지제도 신청</blockquote>',
+      },
+      {
+        title: '판결 이후 절차와 추가 구제 수단',
+        content:
+          '<p><strong style="color:#1e3a5f">유죄 판결 후에도 민사 손해배상과 범죄피해자 구조금을 별도로 청구할 수 있습니다</strong></p>\n<p>형사 재판에서 유죄가 확정되면 가해자에게 <strong>신상정보 등록, 취업제한, 전자장치 부착</strong> 등 부수 처분이 부과됩니다. 1심 판결에 불복할 경우 <strong>항소(2주 이내)</strong>가 가능하며, 검찰도 양형 부당을 이유로 항소할 수 있습니다.</p>\n<p>별도로 <strong>민사 손해배상 청구</strong>가 가능하며, 치료비·위자료·향후 치료비 등을 포함합니다. 가해자가 배상 능력이 없는 경우 <strong>범죄피해자 구조금</strong>(범죄피해자보호법)을 국가에 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">추가 구제: 민사 손해배상 청구 + 범죄피해자 구조금 신청 + 항소 여부 검토</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '영상녹화 진술이 재판에서 핵심 증거로 채택된 사례',
+        summary:
+          '피해자가 경찰 단계에서 영상녹화 진술을 선택했고, 재판 과정에서 가해자 측이 진술 번복을 주장했으나 법원은 녹화된 최초 진술의 신빙성을 인정하여 유죄를 선고했습니다.',
+        takeaway:
+          '비슷한 상황이라면 경찰 조사 시 영상녹화 진술을 적극적으로 요청하고, 국선변호사 동석 하에 진행하세요.',
+      },
+      {
+        title: '피해자 통지제도로 재판 경과를 확인하며 의견서를 제출한 사례',
+        summary:
+          '피해자가 통지제도를 신청하여 공판 일정과 결과를 실시간으로 안내받았고, 양형 단계에서 피해 진술서를 서면 제출하여 가해자에게 실형이 선고되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 기소 직후 피해자 통지제도를 신청하고, 양형 의견서를 반드시 제출하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '성범죄 신고하면 바로 가해자가 체포되나요?',
+        answer:
+          '긴급체포 요건(증거 인멸·도주 우려)이 충족되면 즉시 체포가 가능합니다. 그렇지 않으면 <strong>소환 조사 후 구속영장</strong>을 청구합니다.',
+      },
+      {
+        question: '성범죄 수사부터 재판까지 총 기간이 얼마나 걸리나요?',
+        answer:
+          '사안에 따라 다르지만 통상 <strong>6개월~1년 6개월</strong>이 소요됩니다. 증거가 명확하면 더 빨라질 수 있습니다.',
+      },
+      {
+        question: '피해자도 법정에 직접 나가야 하나요?',
+        answer:
+          '반드시 출석할 필요는 없습니다. <strong>영상 증인신문, 차폐시설, 서면 진술</strong> 등 비대면 방식을 선택할 수 있습니다.',
+      },
+      {
+        question: '피해자 국선변호사는 어떻게 신청하나요?',
+        answer:
+          '경찰서, 검찰청, 해바라기센터에서 신청할 수 있으며, <strong>소득 요건 없이 무료</strong>로 지원됩니다.',
+      },
+      {
+        question: '가해자가 합의를 요청하면 응해야 하나요?',
+        answer:
+          '합의 여부는 전적으로 피해자의 선택입니다. <strong>합의하지 않아도 재판은 정상 진행</strong>됩니다. 합의금이 적절한지 국선변호사와 상의하세요.',
+      },
+      {
+        question: '성범죄 피해자 지원센터는 어디에 있나요?',
+        answer:
+          '전국 <strong>해바라기센터</strong>(1899-3075)에서 의료·법률·상담 통합 지원을 받을 수 있습니다. 24시간 운영됩니다.',
+      },
+      {
+        question: '형사 재판 외에 민사 손해배상도 따로 청구할 수 있나요?',
+        answer:
+          '네. 형사 재판과 별개로 <strong>민사 소송으로 치료비, 위자료, 일실수입</strong> 등을 청구할 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 해바라기센터, 여성긴급전화 1366에서 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 성범죄 신고 절차 준비사항 확인하기',
+      link: '/diagnosis/sex-crime',
+    },
+    internalLinks: [
+      { label: '성범죄 가이드', href: '/guide/sex-crime' },
+      { label: '성폭력 피해자 국선변호사 선임 방법', href: '/guide/sex-crime/sexual-assault-public-defender' },
+      { label: '강제추행 증거 확보와 고소 절차', href: '/guide/sex-crime/forced-groping-evidence-lawsuit' },
+      { label: '음주운전 피해자 보상 청구', href: '/guide/dui/dui-victim-compensation-checklist' },
+      { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
+    ],
+  },
+  {
+    domain: 'sex-crime',
+    slug: 'sex-crime-false-charge-workplace',
+    keyword: '직장 내 성범죄 허위 신고 대응법',
+    questionKeyword: '직장에서 성범죄로 허위 신고당했는데 어떻게 대응하나요?',
+    ctaKeyword: '성범죄 허위 신고 대응',
+    type: '상황형',
+    meta: {
+      title: '직장 내 성범죄 허위 신고 대응법 | 로앤가이드',
+      description:
+        '직장에서 성범죄로 허위 신고를 당했을 때 증거 확보, 무고죄 반소, 인사 불이익 대응, 변호사 선임까지 단계별로 정리했습니다.',
+    },
+    intro:
+      '팀 회식 다음 날 갑자기 인사팀에서 호출을 받았습니다. 성추행 신고가 접수되었다는 통보입니다. 전혀 기억에 없는 일인데 이미 사내에 소문이 퍼지고 있습니다. 사실과 다르게 신고되었다면, 직장 내 상황의 특수성을 고려한 대응 방법을 정리해보세요.',
+    sections: [
+      {
+        title: '즉시 변호사를 선임하고 초기 진술을 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">직장 내 성범죄 신고는 형사 절차와 사내 징계가 동시에 진행되므로 변호사 선임이 급선무입니다</strong></p>\n<p>인사팀 호출을 받았다면 <strong>어떤 진술도 하기 전에</strong> 변호사와 먼저 상의하세요. 사내 조사 과정에서 한 말이 이후 경찰 조사에서 불리한 증거로 사용될 수 있습니다. 회사 측에는 "변호사 선임 후 답변하겠다"고 정중히 알리면 됩니다.</p>\n<p>변호사는 ①<strong>사내 징계위원회 대응</strong>과 ②<strong>형사 수사 대응</strong>을 병행하여 전략을 세웁니다. 직장 내 사건은 <strong>사내 메신저, CCTV, 동료 진술</strong> 등 증거가 회사 서버에 있는 경우가 많아 조기 확보가 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 진술 전 변호사 선임 → 사내 조사·형사 수사 병행 대응 → 사내 증거 조기 확보</blockquote>',
+      },
+      {
+        title: '사내 메신저와 CCTV 등 직장 내 증거를 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">직장 내 증거는 회사가 삭제하거나 접근을 차단하기 전에 확보해야 합니다</strong></p>\n<p>사내 메신저(슬랙, 팀즈, 카카오워크 등)에서 당일 전후 <strong>대화 내역을 캡처</strong>하세요. 신고인과의 평소 관계, 회식 당일 분위기를 보여주는 대화가 중요한 증거가 됩니다. <strong>이메일</strong>도 전후 맥락을 보여주는 자료로 활용됩니다.</p>\n<p>회식 장소와 이동 경로의 <strong>CCTV 확보</strong>를 변호사를 통해 요청하세요. CCTV는 보관 기간이 <strong>30일 이내</strong>인 곳이 많아 신속한 보전 신청이 필요합니다. 함께 있었던 <strong>동료의 진술서</strong>도 확보하면 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 사내 메신저 캡처 + 이메일 보관 + CCTV 보전 신청(30일 이내) + 동료 진술서</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">직장 내 허위 신고 상황이라면, 지금 단계에 맞는 대응 방법을 <a href="/diagnosis/sex-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '무고죄 반소와 민사 손해배상을 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 신고가 입증되면 무고죄(형법 제156조)로 반대고소가 가능합니다</strong></p>\n<p><strong>무고죄</strong>는 타인으로 하여금 형사처벌을 받게 할 목적으로 허위 사실을 신고하는 범죄이며, <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 처해집니다. 다만 무고죄 입증을 위해서는 "신고 내용이 객관적으로 허위"라는 점을 증명해야 합니다.</p>\n<p>형사 무고 고소와 별개로, <strong>민사 손해배상 청구</strong>도 가능합니다. 허위 신고로 인한 정신적 피해(위자료), 변호사 비용, 승진 누락 등 <strong>실질적 손해</strong>를 산정하여 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">반소: 무고죄 고소(10년/1,500만원) + 민사 손해배상(위자료·변호사비용·경력 손해)</blockquote>',
+      },
+      {
+        title: '사내 징계와 인사 불이익에 대응하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">수사 중이라는 이유만으로 해고나 전보 조치를 하면 부당징계에 해당할 수 있습니다</strong></p>\n<p>회사가 수사 결과 확정 전에 <strong>해고·정직·전보</strong> 등 불이익 처분을 하면 <strong>근로기준법 제23조(부당해고)</strong>에 따라 다툴 수 있습니다. 징계위원회가 열리면 변호사와 함께 출석하여 소명 기회를 확보하세요.</p>\n<p>부당한 인사 조치를 받았다면 <strong>노동위원회에 구제 신청</strong>(처분일로부터 3개월 이내)을 할 수 있습니다. 징계 통보서, 인사 발령 문서, 사내 메일 등을 <strong>모두 보관</strong>하세요. 무혐의·무죄 확정 후 복직과 손해배상 청구의 근거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 징계위원회 변호사 동석 → 부당징계 시 노동위원회 구제 신청(3개월 이내) → 문서 보관</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '사내 CCTV와 동료 진술로 허위 신고가 밝혀진 사례',
+        summary:
+          '회식 후 성추행 신고를 받았으나, 변호사가 회식 장소 CCTV와 동석 동료 3인의 진술서를 확보하여 신고 내용이 객관적 사실과 다름을 입증했고, 검찰은 불기소 처분을 내렸습니다.',
+        takeaway:
+          '비슷한 상황이라면 CCTV 보관 기간 내에 보전 신청을 하고, 동석자 진술서를 빠르게 확보하세요.',
+      },
+      {
+        title: '부당 전보 조치에 대해 노동위원회 구제를 받은 사례',
+        summary:
+          '성범죄 신고 접수만으로 지방 사업장으로 전보 발령이 났으나, 수사 결과 무혐의가 확정된 후 노동위원회에 구제 신청하여 원래 부서 복직과 임금 차액을 보전받았습니다.',
+        takeaway:
+          '비슷한 상황이라면 부당한 인사 조치를 받은 즉시 증거를 보관하고, 변호사와 노동위원회 구제 신청을 준비하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '직장에서 성범죄 허위 신고를 당했는데 회사에 먼저 해명해야 하나요?',
+        answer:
+          '변호사 선임 전에는 <strong>어떤 해명도 하지 마세요</strong>. 사내 조사에서 한 발언이 형사 수사에서 불리하게 사용될 수 있습니다.',
+      },
+      {
+        question: '사내 메신저 대화를 회사가 삭제하면 어떻게 하나요?',
+        answer:
+          '변호사를 통해 <strong>증거보전 신청</strong>을 법원에 할 수 있습니다. 평소에도 중요한 대화는 캡처해두는 것이 좋습니다.',
+      },
+      {
+        question: '무고죄 반대고소는 언제 하는 게 좋나요?',
+        answer:
+          '본 사건에서 <strong>무혐의·불기소·무죄</strong>가 확정된 후 제기하는 것이 가장 효과적입니다. 변호사와 시점을 상의하세요.',
+      },
+      {
+        question: '수사 중인데 회사가 해고할 수 있나요?',
+        answer:
+          '유죄가 확정되지 않은 상태에서 해고하면 <strong>부당해고</strong>에 해당할 가능성이 높습니다. 해고 통보서를 보관하세요.',
+      },
+      {
+        question: '직장 동료들에게 소문이 퍼졌는데 명예훼손으로 고소할 수 있나요?',
+        answer:
+          '허위 사실을 불특정 다수에게 퍼뜨렸다면 <strong>명예훼손(형법 제307조)</strong>으로 별도 고소가 가능합니다.',
+      },
+      {
+        question: '인사팀 조사에 변호사를 대동할 수 있나요?',
+        answer:
+          '법적 의무는 아니지만 <strong>대부분의 회사가 허용</strong>합니다. 거부할 경우 서면 답변으로 대체하겠다고 요청하세요.',
+      },
+      {
+        question: '합의를 요구받았는데 응해야 하나요?',
+        answer:
+          '사실과 다른 신고라면 합의에 응할 이유가 없습니다. <strong>무혐의 입증에 집중</strong>하는 것이 장기적으로 유리합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 성범죄 허위 신고 대응 준비사항 확인하기',
+      link: '/diagnosis/sex-crime',
+    },
+    internalLinks: [
+      { label: '성범죄 가이드', href: '/guide/sex-crime' },
+      { label: '성범죄 무고 반대고소 방법', href: '/guide/sex-crime/sex-crime-false-accusation-counter' },
+      { label: '허위 성폭력 신고 대응 전략', href: '/guide/sex-crime/false-sexual-assault-report-response' },
+      { label: '직장 동료 명예훼손 대응법', href: '/guide/defamation/workplace-defamation-by-colleague' },
+      { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
+    ],
+  },
 ];

@@ -302,4 +302,102 @@ export const inheritancePages: SpokePage[] = [
       { label: '이혼 가이드', href: '/guide/divorce' },
     ],
   },
+  {
+    domain: 'inheritance',
+    slug: 'inheritance-hidden-debt-discovery',
+    keyword: '부모 사망 후 숨겨진 빚 발견했을 때',
+    questionKeyword: '부모님이 돌아가신 후 모르던 빚이 나왔는데 어떻게 하나요?',
+    ctaKeyword: '상속 채무 발견 대응',
+    type: '상황형',
+    meta: {
+      title: '부모 사망 후 숨겨진 빚 발견했을 때 | 로앤가이드',
+      description:
+        '부모님 사망 후 몰랐던 채무가 발견되었을 때 상속포기, 한정승인, 특별한정승인 절차와 안심상속 원스톱 서비스 활용법을 정리했습니다.',
+    },
+    intro:
+      '아버지가 갑자기 돌아가셨습니다. 장례를 치르고 나니 은행과 대부업체에서 채무 독촉 연락이 오기 시작했습니다. 아버지가 빚이 있었다는 사실을 전혀 몰랐습니다. 상속인은 피상속인의 채무도 함께 상속받기 때문에, 빠르게 대응하지 않으면 부모의 빚을 고스란히 떠안게 됩니다. 지금 해야 할 일을 정리했습니다.',
+    sections: [
+      {
+        title: '안심상속 원스톱 서비스로 채무 전체를 파악하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">숨겨진 빚이 더 있을 수 있으므로 전체 재산·채무 조회부터 해야 합니다</strong></p>\n<p><strong>안심상속 원스톱 서비스</strong>는 정부24 또는 주민센터에서 신청할 수 있으며, 피상속인의 <strong>금융재산·채무, 부동산, 자동차, 국세·지방세 체납 내역</strong>을 한 번에 조회해줍니다. 사망일이 속한 달의 말일부터 <strong>6개월 이내</strong>에 신청할 수 있습니다.</p>\n<p>조회 결과가 나오기까지 통상 <strong>2~4주</strong>가 소요됩니다. 결과를 받기 전이라도 채무가 재산보다 많을 것이 확실하다면, 상속포기·한정승인 기한(3개월)이 지나지 않도록 미리 법률 상담을 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신청: 정부24 또는 주민센터 | 조회 항목: 금융·부동산·차량·세금 체납 | 소요 기간: 2~4주</blockquote>',
+      },
+      {
+        title: '3개월 이내에 상속포기 또는 한정승인을 결정하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">상속 개시를 안 날로부터 3개월 이내에 가정법원에 신청해야 합니다</strong></p>\n<p><strong>상속포기</strong>는 재산과 채무 모두를 포기하는 것이고, <strong>한정승인</strong>은 상속받은 재산 범위 내에서만 채무를 갚겠다는 것입니다(민법 제1019조). 둘 다 <strong>상속 개시를 안 날로부터 3개월 이내</strong>에 피상속인의 마지막 주소지 관할 <strong>가정법원</strong>에 신청해야 합니다.</p>\n<p>채무가 재산보다 확실히 많으면 <strong>상속포기</strong>가 간편하고, 재산과 채무 규모를 정확히 모르겠으면 <strong>한정승인</strong>이 안전합니다. 한정승인을 선택하면 <strong>채권자 공고</strong>(관보 게재, 2개월 이상)를 해야 하는 추가 절차가 있으니 유의하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">부모님 사망 후 숨겨진 빚이 발견되었다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/inheritance" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 상속 개시를 안 날로부터 3개월 | 상속포기: 전부 포기 | 한정승인: 재산 한도 내 변제</blockquote>',
+      },
+      {
+        title: '3개월이 지났다면 특별한정승인을 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">채무 초과 사실을 나중에 알았다면 안 날로부터 3개월 이내에 특별한정승인이 가능합니다</strong></p>\n<p>상속포기·한정승인 기한 3개월이 지났더라도, <strong>상속 채무가 상속 재산을 초과하는 사실을 중대한 과실 없이 나중에 알게 된 경우</strong>에는 <strong>특별한정승인</strong>(민법 제1019조 제3항)을 신청할 수 있습니다. <strong>그 사실을 안 날로부터 3개월 이내</strong>에 가정법원에 신청해야 합니다.</p>\n<p>특별한정승인이 인정되려면 ①<strong>채무 초과 사실을 몰랐다는 점</strong>, ②<strong>모른 데 중대한 과실이 없었다는 점</strong>을 소명해야 합니다. 채무 독촉 통지서, 우편 수령일, 금융거래 조회 결과 등 <strong>"언제 알게 되었는지"를 입증할 자료</strong>를 반드시 보관하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">특별한정승인: 민법 제1019조 제3항 | 채무 초과를 안 날로부터 3개월 이내 | 중대한 과실 없음 소명 필요</blockquote>',
+      },
+      {
+        title: '상속포기 시 다음 순위 상속인에게 알려주세요',
+        content:
+          '<p><strong style="color:#1e3a5f">내가 상속을 포기하면 채무가 다음 순위 상속인에게 넘어갑니다</strong></p>\n<p>상속포기는 처음부터 상속인이 아니었던 것으로 간주되므로, <strong>다음 순위 상속인</strong>(자녀 → 부모 → 형제자매 → 4촌 이내 방계혈족)에게 상속권이 이전됩니다. 1순위인 자녀 전원이 포기하면 2순위인 <strong>피상속인의 부모</strong>에게, 부모도 포기하면 <strong>형제자매</strong>에게 채무가 넘어갑니다.</p>\n<p>따라서 상속포기를 했다면 반드시 <strong>다음 순위 상속인에게 알려서</strong> 그들도 기한 내에 상속포기 또는 한정승인을 할 수 있도록 해야 합니다. 알리지 않으면 예상치 못한 가족 간 분쟁이 발생할 수 있습니다. 모든 순위의 상속인이 포기하면 채무는 <strong>상속재산 범위 내에서만 청산</strong>됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">상속 순위: 자녀 → 부모 → 형제자매 | 포기 시 다음 순위에 통지 필수 | 전원 포기 → 재산 범위 내 청산</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '채무 독촉장 수령 후 특별한정승인이 인정된 사례',
+        summary:
+          '상속 개시 6개월 후 대부업체 채무 독촉장을 처음 받은 상속인이 특별한정승인을 신청했고, 법원은 상속인이 피상속인과 별거하여 채무 존재를 알 수 없었던 점을 인정하여 특별한정승인을 허가했습니다.',
+        takeaway:
+          '3개월 기한이 지났더라도 포기하지 마세요. 채무를 알게 된 시점을 입증할 수 있는 자료(독촉장, 우편 수령증)를 보관하고 즉시 법원에 신청하세요.',
+      },
+      {
+        title: '안심상속 서비스로 숨겨진 채무를 확인하고 한정승인한 사례',
+        summary:
+          '안심상속 원스톱 서비스 조회 결과 피상속인의 채무가 재산의 3배에 달하는 것이 확인되었습니다. 상속인은 3개월 이내에 한정승인을 신청하여 상속 재산 한도 내에서만 채무를 변제하고 나머지 채무를 면했습니다.',
+        takeaway:
+          '채무 규모를 정확히 모르겠다면 안심상속 서비스부터 신청하고, 결과를 기다리는 동안 한정승인 준비를 병행하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '부모님이 돌아가신 후 빚이 있는지 어떻게 알 수 있나요?',
+        answer: '<strong>안심상속 원스톱 서비스</strong>(정부24 또는 주민센터)를 신청하면 금융채무, 부동산, 세금 체납 등을 한 번에 조회할 수 있습니다.',
+      },
+      {
+        question: '상속포기와 한정승인 중 어떤 걸 선택해야 하나요?',
+        answer: '채무가 재산보다 확실히 많으면 <strong>상속포기</strong>, 정확한 규모를 모르겠으면 <strong>한정승인</strong>이 안전합니다.',
+      },
+      {
+        question: '상속포기 기한 3개월은 언제부터 시작되나요?',
+        answer: '<strong>상속 개시가 있음을 안 날</strong>(통상 사망일)로부터 3개월입니다. 사망 사실을 늦게 안 경우 그 날부터 기산됩니다.',
+      },
+      {
+        question: '3개월이 지나면 정말 방법이 없나요?',
+        answer: '채무가 재산을 초과하는 사실을 <strong>나중에 안 경우</strong>에는 <strong>특별한정승인</strong>(민법 제1019조 제3항)을 안 날로부터 3개월 이내에 신청할 수 있습니다.',
+      },
+      {
+        question: '내가 상속포기하면 빚은 어떻게 되나요?',
+        answer: '다음 순위 상속인에게 넘어갑니다. <strong>자녀 전원 포기 → 피상속인의 부모 → 형제자매</strong> 순서입니다. 반드시 다음 순위에 알려주세요.',
+      },
+      {
+        question: '한정승인하면 채권자 공고를 꼭 해야 하나요?',
+        answer: '네, 한정승인 후 <strong>관보에 채권자 공고</strong>를 하고 2개월 이상 기다려야 합니다. 공고를 하지 않으면 한정승인의 효력에 문제가 생길 수 있습니다.',
+      },
+      {
+        question: '상속포기 신청 비용은 얼마인가요?',
+        answer: '가정법원에 납부하는 <strong>인지대 약 5,000원</strong>과 <strong>송달료</strong>가 필요합니다. 변호사를 선임하면 별도 수임료가 발생합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 <strong>지방변호사회 무료 법률상담</strong>을 활용하세요. 기초생활수급자 등은 법률구조도 무료입니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 상속 채무 발견 대응 준비사항 확인하기',
+      link: '/diagnosis/inheritance',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '상속 가이드', href: '/guide/inheritance' },
+      { label: '상속 포기 기간과 절차', href: '/guide/inheritance/inheritance-renunciation-process' },
+      { label: '한정승인 절차 안내', href: '/guide/inheritance/limited-inheritance-acceptance-process' },
+      { label: '상속 진단', href: '/diagnosis/inheritance' },
+    ],
+  },
 ];

@@ -1064,4 +1064,295 @@ export const fraudPages: SpokePage[] = [
       { label: '사기 진단', href: '/diagnosis/fraud' },
     ],
   },
+  {
+    domain: 'fraud',
+    slug: 'fraud-report-deadline-amounts',
+    keyword: '사기 피해 신고 기한과 금액별 대응법',
+    questionKeyword: '사기 피해를 당했는데 신고 기한이 있나요? 금액에 따라 대응이 달라지나요?',
+    ctaKeyword: '사기 피해 신고 기한',
+    type: '수치기한형',
+    meta: {
+      title: '사기 피해 신고 기한과 금액별 대응법 | 로앤가이드',
+      description: '사기죄 공소시효 10년, 금액별(50만원 미만·이상·1억 이상) 대응 차이, 신고→고소→민사 기한을 정리했습니다.',
+    },
+    intro: '3개월 전 지인 소개로 투자금 500만원을 맡겼는데, 어느 순간부터 연락이 끊겼습니다. 전화도 안 받고, 카카오톡 프로필도 사라졌습니다. "시간이 너무 지나면 신고도 못 하는 거 아닌가?" 걱정이 밀려옵니다. 사기 피해 신고에도 기한이 있는지, 금액에 따라 대응이 어떻게 달라지는지 정리해보세요.',
+    timelineSteps: ['공소시효 확인', '금액별 대응 파악', '신고·고소 접수', '민사 병행 검토'],
+    sections: [
+      {
+        title: '사기죄 공소시효는 10년입니다 — 아직 늦지 않았는지 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">사기죄의 공소시효는 범행일로부터 10년입니다</strong></p>\n<p>사기죄(<strong>형법 제347조</strong>)의 공소시효는 <strong>10년</strong>입니다. 피해를 인지한 시점이 아니라, 범행이 완성된 시점(돈을 편취당한 날)부터 기산됩니다. 3개월 전 피해라면 시효에는 전혀 문제가 없습니다.</p>\n<p>다만 <strong>민사상 손해배상 소멸시효</strong>는 별도입니다. 불법행위를 안 날로부터 <strong>3년</strong>, 불법행위일로부터 <strong>10년</strong>이 각각 적용되므로 형사와 민사 기한을 함께 파악하는 것이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 기한: 형사 공소시효 10년 | 민사 손해배상 소멸시효 3년(인지일 기준)</blockquote>',
+      },
+      {
+        title: '금액에 따라 대응 방법이 달라집니다',
+        content:
+          '<p><strong style="color:#1e3a5f">50만원 미만, 50만원~1억원, 1억원 이상으로 나누어 대응하세요</strong></p>\n<p><strong>50만원 미만</strong>: 경찰 신고 후 소액사건심판(민사)을 병행하면 효율적입니다. 수사 우선순위가 낮을 수 있으므로 증거를 철저히 준비하세요. <strong>50만원 이상~1억원 미만</strong>: 고소장 제출과 함께 가압류 검토가 필요합니다. 상대 계좌를 파악하면 <strong>사전 가압류</strong>로 재산을 보전할 수 있습니다.</p>\n<p><strong>1억원 이상</strong>: <strong>특정경제범죄법</strong> 적용 대상이 됩니다. 5억원 이상이면 <strong>3년 이상 징역</strong>으로 형량이 크게 올라갑니다. 전문 변호사 선임과 함께 검찰 직접 고소도 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">금액별: 50만원 미만 → 소액심판 병행 | 50만원~1억 → 가압류 검토 | 1억 이상 → 특경법 적용</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">피해 금액과 상황에 따라 대응 방법이 달라집니다. <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 사기 진단</a>으로 지금 상황에 맞는 대응법을 확인해보세요.</p>',
+      },
+      {
+        title: '신고→고소→민사, 순서를 잘 맞추세요',
+        content:
+          '<p><strong style="color:#1e3a5f">경찰 신고를 먼저 하고, 고소장과 민사를 순차적으로 진행하세요</strong></p>\n<p>첫 단계는 <strong>경찰 신고</strong>입니다. 112 또는 경찰청 사이버범죄 신고시스템(<strong>ecrm.police.go.kr</strong>)에서 접수합니다. 신고만으로는 수사 착수가 늦을 수 있으므로, 증거를 첨부한 <strong>고소장</strong>을 관할 경찰서에 별도 제출하세요.</p>\n<p>고소 접수 후에는 민사 절차를 병행합니다. <strong>내용증명</strong>으로 반환을 촉구하고, 응하지 않으면 <strong>지급명령</strong>이나 민사소송을 제기하세요. 형사 수사 중 확보된 상대방 인적사항을 민사에 활용할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: ①경찰 신고 → ②고소장 제출(증거 첨부) → ③내용증명 → ④민사 소송/지급명령</blockquote>',
+      },
+      {
+        title: '기한 놓치지 않으려면 지금 바로 움직이세요',
+        content:
+          '<p><strong style="color:#1e3a5f">시효 내라도 시간이 지날수록 증거 확보와 재산 추적이 어려워집니다</strong></p>\n<p>공소시효가 10년이라고 안심하면 안 됩니다. 시간이 지나면 <strong>계좌 거래내역 보존 기한</strong>(5년)이 지나 증거가 사라지고, 상대방이 재산을 은닉할 가능성이 높아집니다. 빠를수록 수사와 재산 보전이 유리합니다.</p>\n<p><strong>가압류</strong>는 본안 소송 전에도 신청할 수 있습니다. 상대방 계좌를 알고 있다면 바로 가압류를 검토하세요. 부동산이나 차량 등록 정보도 확인하면 강제집행의 실효성을 높일 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 계좌 거래내역 보존 5년 | 가압류는 소송 전 가능 | 빠른 행동이 핵심</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '투자 사기 피해자가 2년 뒤 고소하여 기소된 사례',
+        summary:
+          '관련 사례에서도 투자금 편취 후 2년이 지나 고소가 접수되었으나, 공소시효 내였고 송금 기록과 대화 캡처가 보존되어 있어 기소에 이른 경우가 있습니다. 피해자가 초기에 내용증명을 보내둔 것이 편취 의사 입증에 도움이 되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 시효 내라 하더라도 증거를 빨리 확보하고 내용증명부터 발송해두세요.',
+      },
+      {
+        title: '1억 이상 사기로 특경법 적용되어 중형 선고된 사례',
+        summary:
+          '관련 사례에서도 피해 금액이 1억 5천만원에 달하여 특정경제범죄법이 적용되었고, 일반 사기죄보다 훨씬 무거운 실형이 선고된 경우가 있습니다. 피해자 다수가 합동 고소하면서 수사가 빠르게 진행되었습니다.',
+        takeaway:
+          '비슷한 상황이라면 동일 피해자가 있는지 확인하고, 합동 고소를 검토해보세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '사기 신고 기한이 지나면 아무것도 못 하나요?',
+        answer: '형사 공소시효(<strong>10년</strong>)가 지나면 형사처벌은 불가하지만, 민사 소멸시효 내라면 <strong>손해배상 청구</strong>는 가능합니다.',
+      },
+      {
+        question: '피해 금액이 30만원인데 경찰이 수사해주나요?',
+        answer: '소액이라도 사기죄는 성립합니다. 다만 수사 우선순위가 낮을 수 있으므로 <strong>증거를 잘 정리</strong>해서 고소장을 제출하세요.',
+      },
+      {
+        question: '특정경제범죄법은 얼마부터 적용되나요?',
+        answer: '편취 금액 <strong>5억원 이상</strong>이면 3년 이상 징역, <strong>50억원 이상</strong>이면 무기 또는 5년 이상 징역에 해당합니다.',
+      },
+      {
+        question: '민사 소멸시효 3년은 언제부터 계산하나요?',
+        answer: '<strong>피해 사실을 안 날</strong>로부터 3년입니다. 모르고 있었다면 불법행위일로부터 10년까지 가능합니다.',
+      },
+      {
+        question: '가압류는 어떻게 신청하나요?',
+        answer: '관할 법원에 <strong>가압류 신청서</strong>와 소명자료를 제출합니다. 담보금(청구액의 10~30%)을 공탁해야 합니다.',
+      },
+      {
+        question: '경찰 신고와 고소는 다른 건가요?',
+        answer: '<strong>신고</strong>는 범죄 사실 알림이고, <strong>고소</strong>는 처벌 의사를 밝히며 수사를 요청하는 것입니다. 고소장을 제출해야 수사가 본격화됩니다.',
+      },
+      {
+        question: '사기 피해 금액이 커지면 검찰에 직접 고소할 수 있나요?',
+        answer: '가능합니다. <strong>1억원 이상</strong> 대형 사건은 검찰 직접 고소가 수사 속도 면에서 유리할 수 있습니다.',
+      },
+      {
+        question: '공소시효 10년이면 천천히 해도 되나요?',
+        answer: '시효 내라도 시간이 지나면 <strong>증거 소멸, 재산 은닉</strong>으로 어려워집니다. 가능한 한 빨리 움직이세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 사기 피해 신고 기한 준비사항 확인하기',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
+      { label: '투자 사기 피해 체크리스트', href: '/guide/fraud/investment-fraud-checklist' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+      { label: '폭행 피해 증거 모으는 법', href: '/guide/assault/assault-evidence-collection' },
+    ],
+  },
+  {
+    domain: 'fraud',
+    slug: 'fraud-suspect-interrogation-mistakes',
+    keyword: '사기 피의자 조사에서 흔한 실수 5가지',
+    questionKeyword: '사기로 조사받는데 어떤 실수를 피해야 하나요?',
+    ctaKeyword: '사기 피의자 조사 대응',
+    type: '실수함정형',
+    meta: {
+      title: '사기 피의자 조사에서 흔한 실수 5가지 | 로앤가이드',
+      description: '사기 혐의를 받고 있다면 경찰 조사에서 피해야 할 5가지 실수와 올바른 대응법을 정리했습니다.',
+    },
+    intro: '평소처럼 출근 준비를 하는데 모르는 번호로 전화가 옵니다. 경찰서입니다. 사기 혐의로 출석하라는 통보를 받았습니다. 머릿속이 하얘지고, 무슨 말을 해야 할지 모르겠습니다. 혐의를 받고 있다면, 조사 전에 반드시 피해야 할 실수들을 확인해보세요.',
+    timelineSteps: ['출석 준비', '진술 전략 수립', '증거 대응', '합의·양형 검토'],
+    sections: [
+      {
+        title: '실수 ①② — 준비 없이 출석하고 모든 질문에 답변하는 것',
+        content:
+          '<p><strong style="color:#1e3a5f">아무 준비 없이 경찰서에 가면 불리한 진술이 기록됩니다</strong></p>\n<p>첫 번째 실수는 <strong>아무 준비 없이 출석</strong>하는 것입니다. 출석 전에 반드시 사건의 경위, 관련 서류, 자금 흐름을 정리해야 합니다. 조사관이 어떤 질문을 할지 예상하고 답변 방향을 미리 잡아두세요.</p>\n<p>두 번째 실수는 <strong>모든 질문에 성실히 답변</strong>하는 것입니다. 피의자에게는 <strong>진술거부권</strong>(형사소송법 제244조의3)이 있습니다. 불리한 질문에는 "변호사와 상의 후 답변하겠습니다"라고 말할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 사건 정리 필수 | 진술거부권 행사 가능 | 불리한 질문은 유보</blockquote>',
+      },
+      {
+        title: '실수 ③ — 감정적으로 대응하는 것',
+        content:
+          '<p><strong style="color:#1e3a5f">흥분하거나 억울함을 쏟아내면 조서에 불리하게 기재됩니다</strong></p>\n<p>세 번째 실수는 <strong>감정적 대응</strong>입니다. "제가 왜 사기꾼입니까!", "그 사람이 거짓말하는 겁니다!"와 같은 감정적 발언은 조서에 그대로 기재되고, 수사관에게도 좋은 인상을 주지 못합니다.</p>\n<p>침착하게 <strong>사실관계</strong>만 답변하세요. 의견을 물으면 "사실관계를 말씀드리겠습니다"라고 전제하고 이야기하세요. 조서 작성 후에는 반드시 <strong>내용을 꼼꼼히 확인</strong>하고, 틀린 부분은 정정을 요구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 감정적 발언은 조서에 기록됨 | 사실관계 위주 답변 | 조서 확인·정정 필수</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">혐의를 받고 있다면, 조사 전에 대응 전략을 점검하세요. <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 사기 진단</a>으로 현재 상황에 맞는 방향을 확인해보세요.</p>',
+      },
+      {
+        title: '실수 ④ — 증거를 임의로 제출하는 것',
+        content:
+          '<p><strong style="color:#1e3a5f">수사관 요청이라도 유리한 증거만 선별해서 제출하세요</strong></p>\n<p>네 번째 실수는 <strong>증거를 무작정 제출</strong>하는 것입니다. 수사관이 "통장 내역 다 가져오세요", "휴대폰 보여주세요"라고 하면 협조해야 한다고 생각하기 쉽습니다. 하지만 피의자는 <strong>자기에게 불리한 증거를 제출할 의무가 없습니다</strong>.</p>\n<p>제출 전에 해당 자료가 유리한지 불리한지 반드시 검토하세요. 가능하면 <strong>변호사와 함께</strong> 어떤 자료를 제출할지 상의한 뒤 선별적으로 제출하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 불리한 증거 제출 의무 없음 | 변호사 상의 후 선별 제출 | 압수수색영장 여부 확인</blockquote>',
+      },
+      {
+        title: '실수 ⑤ — 합의 시기를 놓치는 것',
+        content:
+          '<p><strong style="color:#1e3a5f">합의는 검찰 송치 전이 가장 효과적입니다</strong></p>\n<p>다섯 번째 실수는 <strong>합의 타이밍을 놓치는 것</strong>입니다. 사기 사건에서 피해자와의 합의는 양형에 매우 큰 영향을 줍니다. 특히 <strong>경찰 수사 단계</strong>에서 합의가 이루어지면 불기소 의견으로 송치될 가능성이 높아집니다.</p>\n<p>검찰 송치 후에도 합의는 가능하지만, 기소 후에는 효과가 줄어듭니다. 합의서에는 <strong>피해 금액 전액 변제, 처벌불원 의사</strong>를 명확히 기재해야 합니다. 분할 변제도 가능하니 빨리 연락하는 것이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">타이밍: 경찰 단계 합의 → 불기소 가능성 높음 | 검찰 송치 후 → 효과 감소 | 기소 후 → 양형 참작만</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '첫 조사에서 불리한 진술을 하여 기소된 사례',
+        summary:
+          '관련 사례에서도 피의자가 변호사 없이 첫 경찰 조사에 출석하여 "돈을 갚을 생각이 있었다"는 취지로 진술했으나, 조서에는 변제 의사가 불분명한 것으로 기재되어 기소에 이른 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 첫 조사 전에 반드시 변호사와 진술 방향을 상의하세요.',
+      },
+      {
+        title: '빠른 합의로 불기소 처분을 받은 사례',
+        summary:
+          '관련 사례에서도 경찰 수사 단계에서 피해 금액 전액을 변제하고 피해자로부터 처벌불원서를 받아, 검찰에서 기소유예 처분을 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 합의 가능한 금액을 빨리 마련하고, 경찰 단계에서 합의를 시도하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '경찰에서 출석 요구가 왔는데 꼭 가야 하나요?',
+        answer: '임의출석 요구는 거부할 수 있지만, 반복 불출석 시 <strong>체포영장</strong>이 발부될 수 있으므로 일정을 조율해서 출석하세요.',
+      },
+      {
+        question: '변호사 없이 조사받아도 되나요?',
+        answer: '가능하지만 권장하지 않습니다. 특히 첫 조사는 <strong>조서의 기초</strong>가 되므로 변호사 조력을 받는 것이 안전합니다.',
+      },
+      {
+        question: '진술거부권을 행사하면 불리하지 않나요?',
+        answer: '법적으로 진술거부는 <strong>불이익의 근거가 될 수 없습니다</strong>. 불리한 질문에는 적극적으로 활용하세요.',
+      },
+      {
+        question: '핸드폰을 압수당할 수 있나요?',
+        answer: '<strong>압수수색영장</strong>이 있어야 합니다. 영장 없이 임의 제출을 요구하면 거부할 수 있습니다.',
+      },
+      {
+        question: '합의금은 얼마가 적당한가요?',
+        answer: '원칙적으로 <strong>피해 금액 전액 + 위자료</strong>입니다. 전액이 어려우면 분할 변제 조건으로 합의서를 작성할 수 있습니다.',
+      },
+      {
+        question: '조서에 서명하면 나중에 번복할 수 있나요?',
+        answer: '서명 후 번복은 <strong>신빙성이 크게 떨어집니다</strong>. 조서 내용을 반드시 꼼꼼히 확인한 뒤 서명하세요.',
+      },
+      {
+        question: '사기 혐의인데 구속될 수도 있나요?',
+        answer: '도주·증거인멸 우려가 있으면 구속될 수 있습니다. <strong>피해 금액이 크거나 다수 피해자</strong>가 있으면 구속 가능성이 높아집니다.',
+      },
+      {
+        question: '고소인과 직접 연락해서 합의해도 되나요?',
+        answer: '가능하지만, 2차 분쟁 방지를 위해 <strong>변호사를 통한 합의</strong>가 안전합니다. 직접 연락은 협박으로 오해받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 사기 피의자 조사 대응 준비사항 확인하기',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기 혐의를 받을 때 대응법', href: '/guide/fraud/fraud-accused-response' },
+      { label: '사기죄 처벌 수위와 합의 시 감형 범위', href: '/guide/fraud/fraud-penalty-settlement-reduction' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+      { label: '폭행 가해자로 입건됐을 때 첫 대응', href: '/guide/assault/assault-charged-first-response' },
+    ],
+  },
+  {
+    domain: 'fraud',
+    slug: 'loan-default-vs-fraud-checklist',
+    keyword: '채무불이행 vs 사기 구별 체크리스트',
+    questionKeyword: '돈을 못 갚았는데 사기라고 고소당했어요. 채무불이행과 사기는 어떻게 다른가요?',
+    ctaKeyword: '채무불이행 사기 구별',
+    type: '체크리스트형',
+    meta: {
+      title: '채무불이행 vs 사기 구별 체크리스트 | 로앤가이드',
+      description: '돈을 못 갚아 사기로 고소당했을 때, 채무불이행과 사기의 구별 기준과 대응법을 정리했습니다.',
+    },
+    intro: '2년 전 친구에게 3,000만원을 빌렸습니다. 사업이 잘 될 거라 확신했지만, 사업이 실패하면서 약속한 날짜에 갚지 못했습니다. 그런데 어느 날 사기죄로 고소장이 날아왔습니다. "못 갚은 것"과 "속인 것"은 분명 다른데, 사실과 다르게 신고되었다면 어떻게 대응해야 하는지 정리해보세요.',
+    timelineSteps: ['사기 vs 채무불이행 구별', '차용 당시 상황 정리', '증거 확보', '수사 대응·합의'],
+    sections: [
+      {
+        title: '사기와 채무불이행의 핵심 차이를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">빌릴 때 갚을 의사와 능력이 있었는지가 핵심 기준입니다</strong></p>\n<p><strong>사기죄</strong>는 처음부터 갚을 의사나 능력이 없으면서 돈을 빌린 경우에 성립합니다. 반면 <strong>채무불이행</strong>은 빌릴 때 갚을 의사와 능력이 있었지만 사정이 변해 못 갚게 된 경우입니다.</p>\n<p>대법원은 <strong>"차용 당시의 변제 의사와 변제 능력"</strong>을 핵심 판단 기준으로 봅니다(대법원 2017도2760 판결 등). 빌린 뒤 갚지 못한 것 자체만으로는 사기가 아닙니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 차용 당시 변제 의사 + 변제 능력 유무 | "못 갚음" ≠ "사기"</blockquote>',
+      },
+      {
+        title: '대법원 판단 기준 체크리스트로 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">아래 항목에 해당하면 채무불이행(사기 아님)에 가깝습니다</strong></p>\n<p>① 차용 당시 <strong>정기적인 수입</strong>이 있었다 ② 빌린 돈을 <strong>약속한 용도</strong>에 사용했다 ③ 일부라도 <strong>변제한 사실</strong>이 있다 ④ 변제 의사를 <strong>문자·카톡</strong>으로 표현한 적이 있다 ⑤ 차용증에 <strong>변제 기한과 방법</strong>이 명시되어 있다</p>\n<p>반대로 사기에 가까운 징표는: ① <strong>수입이 없거나 이미 다수 채무</strong>가 있었다 ② 빌린 돈을 <strong>도박·유흥</strong>에 썼다 ③ 차용 직후 <strong>연락을 끊었다</strong> ④ <strong>허위 사업계획서</strong>를 보여주며 빌렸다</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 수입 유무, 자금 용도, 일부 변제 여부, 변제 의사 표현, 차용증 내용</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">사실과 다르게 신고되었다면, 지금 상황이 사기에 해당하는지 점검하세요. <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 사기 진단</a>으로 방향을 확인해보세요.</p>',
+      },
+      {
+        title: '채무불이행을 입증할 증거를 모으세요',
+        content:
+          '<p><strong style="color:#1e3a5f">차용 당시 변제 의사와 능력을 보여줄 자료가 핵심입니다</strong></p>\n<p><strong>재직증명서, 급여명세서, 사업자등록증</strong> 등 차용 당시 수입이 있었음을 보여주는 서류를 준비하세요. 빌린 돈을 약속한 용도에 사용했다는 <strong>계좌 이체 내역</strong>도 중요합니다.</p>\n<p>일부라도 갚은 기록(<strong>이체 내역, 현금 영수증</strong>), "곧 갚겠다"는 <strong>카톡·문자 메시지</strong>가 있으면 변제 의사의 강력한 증거가 됩니다. 차용증이 있다면 원본을 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 차용 당시 재직증명·급여명세 | 자금 용도 이체 내역 | 일부 변제 기록 | 변제 의사 메시지</blockquote>',
+      },
+      {
+        title: '수사 대응과 합의를 병행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">혐의를 부인하면서도 민사적 해결 의사를 보여주는 것이 유리합니다</strong></p>\n<p>경찰 조사에서는 <strong>"빌릴 때 갚을 의사와 능력이 있었다"</strong>는 점을 체크리스트에 맞춰 일관되게 진술하세요. 감정적 대응은 금물입니다. 증거 자료를 정리해서 제출하면 수사관 판단에 도움이 됩니다.</p>\n<p>동시에 민사적 해결도 진행하세요. 변제 계획서를 작성하고 일부라도 <strong>변제를 시작</strong>하면, 검찰 단계에서 불기소 가능성이 높아집니다. 고소인에게 <strong>변제 의사와 계획을 내용증명</strong>으로 알리는 것도 효과적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">전략: 일관된 진술 + 증거 제출 | 변제 계획서 + 일부 변제 시작 | 내용증명으로 의사 전달</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '사업 실패 후 미변제, 사기 무죄 판결 사례',
+        summary:
+          '관련 사례에서도 피고인이 사업 목적으로 차용하여 실제로 사업에 투자했으나 실패하여 변제하지 못한 경우, 차용 당시 변제 의사와 능력이 인정되어 사기 무죄가 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 차용 당시 수입과 자금 사용처를 입증할 수 있는 증거를 확보하세요.',
+      },
+      {
+        title: '일부 변제 기록이 무혐의 결정에 결정적이었던 사례',
+        summary:
+          '관련 사례에서도 피고소인이 수차례 일부 변제한 이체 기록과 "조금만 더 기다려달라"는 카톡 메시지가 변제 의사의 증거로 인정되어 무혐의 처분을 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 일부 변제 기록과 변제 의사를 표현한 메시지를 모두 보존하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '돈을 못 갚으면 무조건 사기인가요?',
+        answer: '아닙니다. <strong>빌릴 때 갚을 의사와 능력이 있었다면</strong> 채무불이행이지 사기가 아닙니다.',
+      },
+      {
+        question: '차용증이 없으면 사기로 볼 수 있나요?',
+        answer: '차용증 유무만으로 사기 여부가 결정되지는 않습니다. <strong>차용 당시의 전체 상황</strong>을 종합적으로 판단합니다.',
+      },
+      {
+        question: '고소당했는데 돈을 갚으면 처벌을 안 받나요?',
+        answer: '변제 후 고소인이 <strong>처벌불원서</strong>를 제출하면 불기소 가능성이 높아지지만, 갚는다고 자동으로 무죄가 되는 것은 아닙니다.',
+      },
+      {
+        question: '대법원이 사기로 판단하는 핵심 기준이 뭔가요?',
+        answer: '<strong>차용 당시의 변제 의사와 변제 능력</strong>입니다. 빌린 후 행동(연락 두절, 도박 사용 등)도 간접 증거로 봅니다.',
+      },
+      {
+        question: '채무불이행이면 형사처벌은 안 받나요?',
+        answer: '맞습니다. 채무불이행은 <strong>민사 문제</strong>이므로 형사처벌 대상이 아닙니다. 다만 민사 소송으로 변제 판결을 받을 수 있습니다.',
+      },
+      {
+        question: '사기 고소를 취하하게 하려면 어떻게 하나요?',
+        answer: '<strong>피해 금액을 변제</strong>하고 합의서와 처벌불원서를 받는 것이 가장 확실한 방법입니다.',
+      },
+      {
+        question: '일부만 갚았는데 도움이 되나요?',
+        answer: '일부 변제는 <strong>변제 의사의 증거</strong>가 됩니다. 금액이 적더라도 꾸준히 변제한 기록이 있으면 유리합니다.',
+      },
+      {
+        question: '변호사 없이 경찰 조사에 가도 되나요?',
+        answer: '사기 혐의는 진술 내용이 매우 중요하므로 <strong>변호사 조력</strong>을 받는 것을 강력히 권장합니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 채무불이행 사기 구별 준비사항 확인하기',
+      link: '/diagnosis/fraud',
+    },
+    internalLinks: [
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기 혐의를 받을 때 대응법', href: '/guide/fraud/fraud-accused-response' },
+      { label: '사기 무고 방어 전략', href: '/guide/fraud/fraud-false-accusation-defense' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
+      { label: '폭행 형사고소 vs 민사소송 비교', href: '/guide/assault/assault-criminal-vs-civil-claim' },
+    ],
+  },
 ];

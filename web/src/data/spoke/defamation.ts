@@ -767,4 +767,216 @@ export const defamationPages: SpokePage[] = [
       { label: '명예훼손 성립 요건 체크리스트', href: '/guide/defamation/defamation-requirements-checklist' },
     ],
   },
+  {
+    domain: 'defamation',
+    slug: 'workplace-defamation-by-colleague',
+    keyword: '직장 동료에게 명예훼손 당했을 때 대응법',
+    questionKeyword: '직장 동료가 허위 사실을 퍼뜨려서 명예훼손을 당했는데 어떻게 하나요?',
+    ctaKeyword: '직장 명예훼손 대응',
+    type: '상황형',
+    meta: {
+      title: '직장 동료에게 명예훼손 당했을 때 대응법 | 로앤가이드',
+      description:
+        '직장 동료가 허위 사실을 퍼뜨려 명예훼손을 당했을 때 사내 메신저·이메일 증거 확보, 고소 절차, 내부 고충처리와 외부 법적 대응을 정리했습니다.',
+    },
+    intro:
+      '사내 메신저에서 동료가 "저 사람 횡령했다"는 소문을 퍼뜨리고 있습니다. 사실이 아닌데 벌써 다른 부서까지 소문이 퍼졌고, 인사고과에도 영향을 받기 시작했습니다. 직장 내 명예훼손은 증거가 사내 시스템에 남아 있어 빠르게 대응하면 유리합니다. 단계별 대응법을 확인해보세요.',
+    sections: [
+      {
+        title: '사내 메신저와 이메일 증거를 즉시 확보하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">직장 내 명예훼손 증거는 회사 서버에 있으므로 삭제 전에 확보하는 것이 핵심입니다</strong></p>\n<p>동료가 허위 사실을 퍼뜨린 <strong>사내 메신저 대화, 이메일, 사내 게시판 글</strong>을 즉시 캡처하세요. 캡처 시 <strong>작성자 이름, 날짜·시간, 대화 전후 맥락</strong>이 모두 포함되어야 증거력이 인정됩니다. 화면 녹화로 보존하는 것도 효과적입니다.</p>\n<p>동료의 발언을 직접 들은 <strong>목격자 진술</strong>도 중요한 증거입니다. 소문을 들었다고 알려준 동료에게 <strong>날짜, 장소, 구체적 발언 내용</strong>을 메모해달라고 요청하세요. 이 진술서는 이후 고소장 첨부 자료로 활용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 사내 메신저·이메일·게시판 캡처(작성자+날짜+맥락) + 목격자 진술서 확보</blockquote>',
+      },
+      {
+        title: '형법 제307조 명예훼손 성립 요건을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">허위 사실 적시에 의한 명예훼손은 5년 이하 징역 또는 1,000만원 이하 벌금에 처해집니다</strong></p>\n<p><strong>형법 제307조 제2항</strong>(허위사실 적시 명예훼손)이 성립하려면 ①<strong>공연성</strong>(불특정 또는 다수가 인식할 수 있는 상태), ②<strong>사실의 적시</strong>(구체적 사실을 말한 것), ③<strong>허위성</strong>(내용이 진실이 아님), ④<strong>명예 훼손</strong>(사회적 평가가 저하됨)이 필요합니다.</p>\n<p>직장 내 상황에서 <strong>공연성</strong>이 쟁점이 되는 경우가 많습니다. 1:1 대화라도 <strong>전파 가능성</strong>(들은 사람이 다른 사람에게 전달할 가능성)이 있으면 공연성이 인정됩니다. 사내 메신저 단체방이나 회의 중 발언은 공연성이 명확합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: 공연성(전파 가능성 포함) + 허위사실 적시 + 명예 훼손 → 5년/1,000만원</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">직장 동료의 허위 소문으로 피해를 받고 있다면, 현재 상황에 맞는 대응법을 <a href="/diagnosis/defamation" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '내부 고충처리와 외부 고소를 병행하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">사내 고충처리 절차와 경찰 고소는 동시에 진행할 수 있습니다</strong></p>\n<p>회사 <strong>고충처리위원회</strong>에 정식으로 접수하면 사내 조사가 시작됩니다. 근로기준법에 따라 상시 30인 이상 사업장은 고충처리 절차를 의무적으로 운영해야 합니다. 고충 접수 후 <strong>10일 이내</strong>에 조치 결과를 통보받을 수 있습니다.</p>\n<p>사내 절차와 별개로 <strong>경찰에 명예훼손 고소장</strong>을 접수할 수 있습니다. 고소장에는 ①피의자 인적사항, ②허위 사실의 구체적 내용, ③공연성 근거(메신저 캡처 등), ④피해 사실(인사고과 불이익 등)을 기재합니다. <strong>변호사를 통해 고소장을 작성</strong>하면 수사가 더 원활하게 진행됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">병행: 사내 고충처리 접수(10일 이내 결과) + 경찰 고소장 접수(변호사 작성 권장)</blockquote>',
+      },
+      {
+        title: '민사 손해배상과 인사고과 회복을 청구하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">형사 고소와 별개로 민사 손해배상 청구가 가능하며, 위자료와 실질 손해를 모두 포함할 수 있습니다</strong></p>\n<p>허위 사실 유포로 인한 <strong>정신적 피해(위자료)</strong>와 인사고과 하락, 승진 누락 등 <strong>실질적 손해</strong>를 산정하여 민사 소송을 제기할 수 있습니다. 직장 내 명예훼손은 피해 금액 산정이 비교적 명확하여 승소 가능성이 높습니다.</p>\n<p>인사고과에 영향이 있었다면 <strong>인사팀에 공식적으로 이의</strong>를 제기하고, 허위 사실로 인한 평가 하락분을 시정해달라고 요청하세요. 고충처리 결과나 형사 처분 결과를 근거로 <strong>인사고과 재평가</strong>를 요구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">청구: 민사 위자료 + 실질 손해(승진 누락 등) + 인사고과 재평가 요청</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '사내 메신저 단체방 발언이 명예훼손으로 인정된 사례',
+        summary:
+          '동료가 30인 규모의 사내 메신저 단체방에서 "○○이 회삿돈을 빼돌렸다"고 허위 사실을 게시했고, 법원은 공연성과 허위사실 적시를 인정하여 벌금 300만원을 선고했습니다.',
+        takeaway:
+          '비슷한 상황이라면 사내 메신저 단체방 대화를 즉시 캡처하고, 참여 인원수와 전파 범위를 정리하세요.',
+      },
+      {
+        title: '허위 소문으로 인한 승진 누락에 대해 손해배상이 인정된 사례',
+        summary:
+          '동료의 허위 소문으로 인사고과가 하락하고 승진에서 탈락한 피해자가 민사 소송을 제기했고, 법원은 위자료 500만원과 승진 누락에 따른 임금 차액을 배상하라고 판결했습니다.',
+        takeaway:
+          '비슷한 상황이라면 인사고과 결과와 승진 심사 기록을 보관하고, 허위 소문과의 인과관계를 입증할 자료를 준비하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '직장 동료가 퍼뜨린 소문이 명예훼손에 해당하나요?',
+        answer:
+          '구체적인 <strong>허위 사실</strong>을 불특정 또는 다수에게 전달했다면 형법 제307조 명예훼손에 해당합니다.',
+      },
+      {
+        question: '1:1 대화에서 한 말도 명예훼손이 되나요?',
+        answer:
+          '1:1이라도 <strong>전파 가능성</strong>이 인정되면 공연성이 충족됩니다. 판례도 이를 인정하고 있습니다.',
+      },
+      {
+        question: '사내 메신저 캡처가 증거로 인정되나요?',
+        answer:
+          '네. <strong>작성자, 날짜, 시간, 전후 맥락</strong>이 포함된 캡처는 유효한 증거로 인정됩니다.',
+      },
+      {
+        question: '회사 고충처리와 경찰 고소를 동시에 할 수 있나요?',
+        answer:
+          '네. 두 절차는 <strong>별개</strong>이므로 동시에 진행할 수 있습니다. 사내 절차가 형사 고소를 대체하지 않습니다.',
+      },
+      {
+        question: '고소하면 직장 생활이 어려워지지 않나요?',
+        answer:
+          '고소 사실을 이유로 불이익을 주면 <strong>부당징계</strong>에 해당합니다. 보복 행위도 별도 법적 대응이 가능합니다.',
+      },
+      {
+        question: '명예훼손 합의금은 보통 얼마인가요?',
+        answer:
+          '사안에 따라 다르지만 직장 내 허위사실 명예훼손은 <strong>300만~1,000만원</strong> 수준에서 합의되는 경우가 많습니다.',
+      },
+      {
+        question: '인사고과 불이익에 대해서도 배상을 받을 수 있나요?',
+        answer:
+          '허위 소문과 인사고과 하락 사이의 <strong>인과관계를 입증</strong>하면 임금 차액 등 실질 손해를 배상받을 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 직장 명예훼손 대응 준비사항 확인하기',
+      link: '/diagnosis/defamation',
+    },
+    internalLinks: [
+      { label: '명예훼손 가이드', href: '/guide/defamation' },
+      { label: '온라인 명예훼손 대응법', href: '/guide/defamation/online-defamation-response' },
+      { label: '명예훼손 성립 요건 체크리스트', href: '/guide/defamation/defamation-requirements-checklist' },
+      { label: '직장 내 성범죄 허위 신고 대응법', href: '/guide/sex-crime/sex-crime-false-charge-workplace' },
+      { label: '명예훼손 진단', href: '/diagnosis/defamation' },
+    ],
+  },
+  {
+    domain: 'defamation',
+    slug: 'defamation-accused-public-criticism',
+    keyword: '공인 비판했다가 명예훼손 고소당했을 때',
+    questionKeyword: '공인을 비판하는 글을 올렸다가 명예훼손으로 고소당했는데 어떻게 해야 하나요?',
+    ctaKeyword: '공인 비판 명예훼손 대응',
+    type: 'Q&A형',
+    meta: {
+      title: '공인 비판했다가 명예훼손 고소당했을 때 | 로앤가이드',
+      description:
+        '공인을 비판하는 글로 명예훼손 고소를 당했을 때 형법 제310조 공익목적 면책, 의견과 사실 구분, 공인의 공적 영역 판단 기준을 정리했습니다.',
+    },
+    intro:
+      '지역 정치인의 예산 낭비를 블로그에 비판하는 글을 올렸더니 명예훼손 고소장이 도착했습니다. 공적인 문제를 지적한 것뿐인데 갑자기 피의자 신분이 되었습니다. 사실과 다르게 신고되었다면, 정당한 비판이 법적으로 보호받을 수 있는 근거를 확인해보세요.',
+    sections: [
+      {
+        title: '형법 제310조 공익목적 면책 조항을 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">진실한 사실을 공익 목적으로 적시한 경우 형법 제310조에 따라 위법성이 조각됩니다</strong></p>\n<p><strong>형법 제310조</strong>는 "제307조 제1항의 행위가 진실한 사실로서 오로지 공공의 이익에 관한 때에는 처벌하지 아니한다"고 규정합니다. 공인의 공적 활동(예산 집행, 정책 결정 등)에 대한 비판은 <strong>공익 목적</strong>으로 인정될 가능성이 높습니다.</p>\n<p>면책을 받으려면 ①<strong>적시한 사실이 진실</strong>이거나 진실이라고 믿을 만한 상당한 이유가 있고, ②<strong>공공의 이익</strong>을 위한 것이어야 합니다. "오로지"라는 표현이 있지만 판례는 <strong>주된 목적이 공익</strong>이면 충분하다고 해석합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">면책 요건: ①사실이 진실(또는 상당한 이유) + ②주된 목적이 공익 → 형법 제310조 위법성 조각</blockquote>',
+      },
+      {
+        title: '의견 표현과 사실 적시를 구분하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">구체적 사실 적시와 의견·논평은 법적으로 다르게 취급됩니다</strong></p>\n<p>명예훼손이 성립하려면 <strong>"사실의 적시"</strong>가 있어야 합니다. "이 정치인은 무능하다"는 <strong>의견</strong>이고, "이 정치인이 예산 3억을 횡령했다"는 <strong>사실 적시</strong>입니다. 순수한 의견 표현은 명예훼손이 아니라 <strong>모욕죄</strong>(형법 제311조) 여부만 문제됩니다.</p>\n<p>내가 올린 글이 사실 적시인지 의견인지 <strong>변호사와 함께 분석</strong>하세요. 사실 적시라면 제310조 면책을, 의견 표현이라면 명예훼손 자체가 성립하지 않음을 주장할 수 있습니다. 글의 <strong>전체 맥락과 표현 방식</strong>이 판단 기준입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구분: 사실 적시 → 명예훼손 가능(제310조 면책 검토) | 의견·논평 → 명예훼손 불성립</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">공인 비판 글로 고소를 당했다면, 내 글이 법적으로 보호받을 수 있는지 <a href="/diagnosis/defamation" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+      },
+      {
+        title: '공인의 공적 영역에 대한 비판은 폭넓게 보호됩니다',
+        content:
+          '<p><strong style="color:#1e3a5f">대법원 판례는 공인의 공적 활동에 대한 비판의 자유를 폭넓게 인정하고 있습니다</strong></p>\n<p>대법원은 <strong>"공인의 공적 활동에 관한 사항은 일반 국민보다 넓은 범위에서 비판의 대상이 된다"</strong>고 판시하고 있습니다(대법원 2003다52142). 정치인, 고위 공무원, 공공기관장 등은 공적 활동에 대해 비판을 수인해야 할 의무가 있습니다.</p>\n<p>다만 <strong>사생활 영역</strong>(가족관계, 건강 등)에 대한 비판은 보호 범위가 좁아집니다. 또한 <strong>악의적이거나 현저히 상당성을 잃은</strong> 공격은 보호받지 못합니다. 비판의 근거가 되는 <strong>자료(결산 보고서, 감사 결과, 보도 기사 등)</strong>를 확보해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">판례: 공인 공적 활동 = 폭넓은 비판 허용 | 제한: 사생활 침해·악의적 공격은 보호 안 됨</blockquote>',
+      },
+      {
+        title: '경찰 조사 대응과 무혐의 주장 전략을 세우세요',
+        content:
+          '<p><strong style="color:#1e3a5f">고소장을 받았다면 변호사를 선임하고, 경찰 조사에서 제310조 면책 사유를 적극 주장하세요</strong></p>\n<p>경찰 출석 전에 ①<strong>내가 적시한 사실의 진실성을 입증할 자료</strong>(공문서, 보도 기사, 예산 자료 등)를 수집하고, ②<strong>글을 쓴 목적이 공익</strong>임을 소명할 자료를 준비하세요. 변호사는 이 자료를 바탕으로 <strong>의견서</strong>를 작성하여 수사기관에 제출합니다.</p>\n<p>검찰 단계에서 <strong>불기소 의견서</strong>를 제출하면 기소 전에 사건이 종결될 수 있습니다. 만약 기소되더라도 재판에서 제310조 면책이 인정되면 <strong>무죄 판결</strong>을 받게 됩니다. 무죄 확정 후에는 <strong>형사보상 청구</strong>와 상대방에 대한 <strong>무고죄 고소</strong>도 검토할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">전략: 진실성 입증 자료 + 공익 목적 소명 → 불기소 의견서 제출 → 무죄 시 형사보상·무고 고소 검토</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '지방의원 예산 낭비 비판 글이 제310조로 무죄를 받은 사례',
+        summary:
+          '블로거가 지방의원의 업무추진비 남용을 비판하는 글을 올려 명예훼손으로 기소되었으나, 법원은 결산 보고서와 감사 결과를 근거로 한 진실한 사실의 공익적 비판으로 판단하여 무죄를 선고했습니다.',
+        takeaway:
+          '비슷한 상황이라면 비판의 근거가 되는 공식 자료(결산 보고서, 감사 결과 등)를 반드시 확보하세요.',
+      },
+      {
+        title: '근거 없는 비방으로 면책을 받지 못한 사례',
+        summary:
+          '공인에 대해 "뇌물을 받았다"고 단정적으로 게시했으나 근거 자료가 전혀 없었고, 법원은 진실이라고 믿을 만한 상당한 이유가 없다고 판단하여 벌금 200만원을 선고했습니다.',
+        takeaway:
+          '비슷한 상황이라면 비판 글을 올리기 전에 구체적 근거 자료를 확보하고, 단정적 표현보다 의문 제기 형식을 사용하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '공인을 비판하면 무조건 명예훼손인가요?',
+        answer:
+          '아닙니다. <strong>진실한 사실을 공익 목적</strong>으로 비판한 경우 형법 제310조에 따라 처벌되지 않습니다.',
+      },
+      {
+        question: '형법 제310조 면책을 받으려면 어떤 증거가 필요한가요?',
+        answer:
+          '적시한 사실의 <strong>진실성을 입증할 자료</strong>(공문서·보도·감사 결과)와 공익 목적을 소명할 자료가 필요합니다.',
+      },
+      {
+        question: '"무능하다"는 표현도 명예훼손인가요?',
+        answer:
+          '구체적 사실 없이 가치 판단만 한 것은 <strong>의견 표현</strong>이므로 명예훼손이 아닌 모욕죄 여부만 문제됩니다.',
+      },
+      {
+        question: '비판 글을 삭제하면 혐의가 줄어드나요?',
+        answer:
+          '삭제 자체가 혐의를 없애지는 않지만, <strong>피해 확대 방지 노력</strong>으로 양형에 참고될 수 있습니다. 변호사와 상의하세요.',
+      },
+      {
+        question: '공인이 아닌 기업인도 공인에 해당하나요?',
+        answer:
+          '공적 영향력이 있는 기업인은 <strong>준공인</strong>으로서 공적 활동 부분에 한해 비판 수인 의무가 인정됩니다.',
+      },
+      {
+        question: '고소를 당했는데 합의 요구에 응해야 하나요?',
+        answer:
+          '정당한 비판이라면 합의에 응할 의무가 없습니다. <strong>무혐의·무죄</strong>를 받는 것이 장기적으로 유리할 수 있습니다.',
+      },
+      {
+        question: '무죄 판결 후 상대방에게 무고죄로 고소할 수 있나요?',
+        answer:
+          '고소 내용이 <strong>허위임을 알면서 고소한 경우</strong>에 한해 무고죄가 성립할 수 있습니다. 단순 패소만으로는 어렵습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer:
+          '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 공인 비판 명예훼손 대응 준비사항 확인하기',
+      link: '/diagnosis/defamation',
+    },
+    internalLinks: [
+      { label: '명예훼손 가이드', href: '/guide/defamation' },
+      { label: '공익 목적 명예훼손 면책 조건', href: '/guide/defamation/public-interest-defamation-defense' },
+      { label: '사실을 말했는데 명예훼손으로 고소당했을 때', href: '/guide/defamation/truth-defamation-accused-response' },
+      { label: '온라인 명예훼손 고소 절차', href: '/guide/defamation/online-defamation-lawsuit-process' },
+      { label: '명예훼손 진단', href: '/diagnosis/defamation' },
+    ],
+  },
 ];

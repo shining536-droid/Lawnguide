@@ -881,4 +881,209 @@ export const assaultPages: SpokePage[] = [
       { label: '폭행 진단', href: '/diagnosis/assault' },
     ],
   },
+  {
+    domain: 'assault',
+    slug: 'assault-charged-first-response',
+    keyword: '폭행 가해자로 입건됐을 때 첫 대응',
+    questionKeyword: '폭행 혐의로 입건됐는데 어떻게 대응해야 하나요?',
+    ctaKeyword: '폭행 가해자 대응',
+    type: '상황형',
+    meta: {
+      title: '폭행 가해자로 입건됐을 때 첫 대응 | 로앤가이드',
+      description: '폭행 혐의를 받고 있다면 출석 전 준비, 진술 전략, 합의 방법, 양형 요소를 정리했습니다.',
+    },
+    intro: '술자리에서 시비가 붙어 상대방을 한 대 쳤습니다. 그때는 별일 아니라고 생각했는데, 며칠 뒤 상대가 진단서를 끊고 고소했다는 연락을 받았습니다. 경찰서에서 출석 요구가 왔습니다. 혐의를 받고 있다면, 첫 대응이 결과를 크게 좌우합니다. 지금 해야 할 일을 정리해보세요.',
+    timelineSteps: ['출석 전 준비', '진술 전략 수립', '합의 진행', '양형 대응'],
+    sections: [
+      {
+        title: '출석 전에 반드시 사건을 정리하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">사건 경위, 목격자, CCTV 유무를 출석 전에 파악하세요</strong></p>\n<p>경찰 출석 전에 <strong>사건 경위를 시간 순서대로</strong> 정리하세요. 누가 먼저 시비를 걸었는지, 어떤 상황에서 폭행이 발생했는지, 당시 목격자가 있었는지를 기록합니다.</p>\n<p>현장 주변에 <strong>CCTV</strong>가 있었는지 확인하세요. 상대방이 먼저 도발하거나 폭행했다면 그 장면이 촬영됐을 수 있습니다. 술자리 동석자의 <strong>연락처</strong>도 확보해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 사건 경위 시간순 정리 | CCTV 확인 | 목격자·동석자 연락처 확보</blockquote>',
+      },
+      {
+        title: '조사에서 진술 전략을 세우세요',
+        content:
+          '<p><strong style="color:#1e3a5f">감정적 대응을 피하고 사실관계 위주로 진술하세요</strong></p>\n<p>조사에서 가장 중요한 것은 <strong>일관성</strong>입니다. "때린 적 없다"고 전면 부인했다가 CCTV에 잡히면 신빙성이 완전히 무너집니다. 사실을 인정할 부분은 인정하되, <strong>경위와 정황</strong>을 함께 진술하세요.</p>\n<p>상대방이 먼저 도발했거나 폭행했다면 <strong>정당방위 또는 쌍방폭행</strong> 주장이 가능합니다. 진술거부권을 행사할 수도 있으며, 불리한 질문에는 "변호사와 상의 후 답변하겠습니다"라고 말하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 사실 인정 + 경위 설명 | 전면 부인은 위험 | 진술거부권 활용 가능</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">혐의를 받고 있다면, 조사 전에 대응 방향을 점검하세요. <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 폭행 진단</a>으로 현재 상황에 맞는 전략을 확인해보세요.</p>',
+      },
+      {
+        title: '합의는 빠를수록 유리합니다',
+        content:
+          '<p><strong style="color:#1e3a5f">폭행죄는 반의사불벌죄이므로 합의하면 처벌을 피할 수 있습니다</strong></p>\n<p><strong>폭행죄</strong>(형법 제260조)는 반의사불벌죄입니다. 피해자가 처벌을 원하지 않으면 공소가 기각됩니다. 따라서 합의가 가장 확실한 해결책입니다. 다만 <strong>상해죄</strong>(형법 제257조)는 반의사불벌죄가 아니므로 합의해도 기소될 수 있습니다.</p>\n<p>합의금은 <strong>치료비 + 위자료</strong>가 기본입니다. 진단 2주 기준 통상 <strong>50만~200만원</strong> 수준이며, 상해 정도에 따라 달라집니다. 합의서에는 반드시 <strong>"처벌을 원하지 않는다"</strong>는 문구를 포함시키세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 폭행죄 = 반의사불벌 → 합의 시 공소기각 | 상해죄 = 합의해도 기소 가능 | 합의서에 처벌불원 필수</blockquote>',
+      },
+      {
+        title: '양형에 유리한 요소를 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">초범 여부, 반성문, 합의 여부가 양형의 핵심입니다</strong></p>\n<p><strong>초범</strong>이면 벌금형 또는 기소유예 가능성이 높습니다. 폭행죄 초범은 통상 <strong>벌금 50만~200만원</strong> 수준입니다. 상해죄 초범이라도 합의가 되면 벌금형에 그치는 경우가 많습니다.</p>\n<p><strong>반성문</strong>을 작성하고, 합의금을 지급했다면 합의서를 제출하세요. 직장에서의 <strong>재직증명서</strong>, 가족 부양 사실(가족관계증명서), 사회봉사 활동 내역도 양형에 유리한 자료가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">양형 자료: 반성문 + 합의서 + 처벌불원서 + 재직증명 + 가족관계증명 + 봉사활동</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '초범+합의로 기소유예 처분을 받은 사례',
+        summary:
+          '관련 사례에서도 술자리 폭행 초범 사건에서 피의자가 경찰 수사 단계에서 피해자와 합의하고 처벌불원서를 받아, 검찰에서 기소유예 처분을 받은 경우가 있습니다. 빠른 합의와 반성문이 결정적이었습니다.',
+        takeaway:
+          '비슷한 상황이라면 경찰 단계에서 빠르게 합의를 진행하고, 반성문도 함께 제출하세요.',
+      },
+      {
+        title: '전면 부인했다가 CCTV로 드러나 중형을 받은 사례',
+        summary:
+          '관련 사례에서도 피의자가 "때린 적 없다"고 전면 부인했으나 CCTV 영상에 폭행 장면이 선명하게 촬영되어 있어 진술의 신빙성이 부정되었고, 반성 태도가 인정되지 않아 실형이 선고된 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 사실을 인정할 부분은 인정하고, 경위를 함께 설명하는 전략이 안전합니다.',
+      },
+    ],
+    faq: [
+      {
+        question: '폭행 가해자인데 구속될 수 있나요?',
+        answer: '단순 폭행 초범은 구속 가능성이 낮지만, <strong>상해가 중하거나 전과</strong>가 있으면 구속될 수 있습니다.',
+      },
+      {
+        question: '상대가 먼저 시비를 걸었는데 정당방위 되나요?',
+        answer: '단순 시비만으로는 어렵습니다. 상대가 <strong>먼저 폭행</strong>했고, 방어 수준이 상당하면 정당방위가 인정될 수 있습니다.',
+      },
+      {
+        question: '합의금은 얼마가 적당한가요?',
+        answer: '진단 2주 기준 통상 <strong>50만~200만원</strong>입니다. 상해 정도, 후유증, 일실수입에 따라 달라집니다.',
+      },
+      {
+        question: '피해자가 합의를 거부하면 어떻게 하나요?',
+        answer: '<strong>공탁</strong>(법원에 합의금을 맡김)으로 변제 의사를 보여줄 수 있습니다. 양형에 유리하게 참작됩니다.',
+      },
+      {
+        question: '폭행죄 초범 벌금은 얼마인가요?',
+        answer: '통상 <strong>50만~200만원</strong> 벌금형입니다. 합의 여부와 피해 정도에 따라 달라집니다.',
+      },
+      {
+        question: '폭행죄에 벌금 내면 전과 기록이 남나요?',
+        answer: '벌금형도 <strong>전과 기록</strong>이 남습니다. 기소유예 처분을 받으면 전과가 남지 않습니다.',
+      },
+      {
+        question: '쌍방폭행이면 쌍방 다 처벌받나요?',
+        answer: '쌍방 모두 <strong>폭행죄가 성립</strong>할 수 있습니다. 다만 쌍방이 모두 처벌불원 의사를 밝히면 공소기각됩니다.',
+      },
+      {
+        question: '진단서가 3주 이상이면 어떻게 되나요?',
+        answer: '<strong>상해죄</strong>로 처리되며, 반의사불벌이 아니므로 합의해도 기소될 수 있습니다. 양형에는 참작됩니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 폭행 가해자 대응 준비사항 확인하기',
+      link: '/diagnosis/assault',
+    },
+    internalLinks: [
+      { label: '폭행 가이드', href: '/guide/assault' },
+      { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
+      { label: '쌍방폭행 시 처벌 기준과 정당방위 구분', href: '/guide/assault/mutual-assault-self-defense-distinction' },
+      { label: '폭행 진단', href: '/diagnosis/assault' },
+      { label: '사기 피의자 조사에서 흔한 실수 5가지', href: '/guide/fraud/fraud-suspect-interrogation-mistakes' },
+    ],
+  },
+  {
+    domain: 'assault',
+    slug: 'assault-criminal-vs-civil-claim',
+    keyword: '폭행 형사고소 vs 민사소송 비교',
+    questionKeyword: '폭행당했는데 형사고소와 민사소송 중 뭘 해야 하나요?',
+    ctaKeyword: '폭행 형사 민사 비교',
+    type: '비교형',
+    meta: {
+      title: '폭행 형사고소 vs 민사소송 비교 | 로앤가이드',
+      description: '폭행 피해 후 형사고소와 민사소송의 목적, 절차, 비용, 결과를 비교하고 병행 전략을 정리했습니다.',
+    },
+    intro: '길을 걷다가 갑자기 모르는 사람에게 맞았습니다. 병원에 가니 진단 3주가 나왔습니다. 주변에서는 "경찰에 고소해"라고 하고, 또 다른 사람은 "민사소송해서 돈 받아"라고 합니다. 형사고소와 민사소송, 뭐가 다르고 뭘 먼저 해야 하는지 정리해보세요.',
+    comparison: {
+      title: '형사고소 vs 민사소송 비교표',
+      headers: ['구분', '형사고소', '민사소송'],
+      rows: [
+        { label: '목적', values: ['가해자 처벌(징역·벌금)', '금전 배상(치료비·위자료)'] },
+        { label: '비용', values: ['무료(고소 비용 없음)', '인지대·송달료·변호사 비용'] },
+        { label: '절차', values: ['경찰 고소장 → 검찰 → 재판', '소장 제출 → 변론 → 판결'] },
+        { label: '소요 기간', values: ['수사~재판 6개월~1년+', '소송 6개월~1년+'] },
+        { label: '결과', values: ['징역·벌금·기소유예 등', '손해배상금 지급 판결'] },
+      ],
+    },
+    timelineSteps: ['형사·민사 차이 파악', '형사고소 진행', '민사 병행 검토', '합의·집행'],
+    sections: [
+      {
+        title: '형사고소는 가해자 처벌이 목적입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">형사고소는 비용이 들지 않고, 국가가 수사와 기소를 담당합니다</strong></p>\n<p>형사고소는 <strong>가해자의 형사처벌</strong>을 구하는 절차입니다. 경찰서에 고소장을 제출하면 수사가 시작되고, 검찰이 기소 여부를 결정합니다. 고소 비용은 <strong>무료</strong>이며, 수사와 기소는 국가(검찰)가 담당합니다.</p>\n<p><strong>폭행죄</strong>는 2년 이하 징역/500만원 이하 벌금, <strong>상해죄</strong>는 7년 이하 징역/1,000만원 이하 벌금입니다. 형사 재판에서 가해자에게 <strong>배상명령</strong>을 신청하면 민사소송 없이도 치료비를 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사고소: 비용 무료 | 국가가 수사·기소 | 배상명령으로 치료비 청구 가능</blockquote>',
+      },
+      {
+        title: '민사소송은 금전 배상이 목적입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">민사소송으로 치료비, 일실수입, 위자료를 청구할 수 있습니다</strong></p>\n<p>민사소송은 가해자에게 <strong>손해배상</strong>을 구하는 절차입니다. 청구 항목은 ①<strong>치료비</strong>(실비) ②<strong>일실수입</strong>(일하지 못한 기간 수입) ③<strong>위자료</strong>(정신적 고통) ④<strong>향후 치료비</strong>입니다.</p>\n<p>소장 제출 시 <strong>인지대</strong>(청구액 기준)와 <strong>송달료</strong>가 필요합니다. 변호사 비용은 별도입니다. 3,000만원 이하라면 <strong>소액사건심판</strong>으로 빠르게 진행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">민사소송: 치료비+일실수입+위자료 청구 | 인지대·송달료 필요 | 3,000만원 이하 소액심판 가능</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">형사와 민사 중 어떤 절차가 맞는지 고민된다면, <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 폭행 진단</a>으로 상황에 맞는 방향을 확인해보세요.</p>',
+      },
+      {
+        title: '형사고소와 민사소송을 병행하는 것이 가장 효과적입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">형사고소를 먼저 하고, 민사소송을 병행하세요</strong></p>\n<p>가장 효과적인 전략은 <strong>형사고소를 먼저 진행</strong>하면서 민사를 병행하는 것입니다. 형사 수사에서 확보된 가해자 인적사항, 진술 내용을 민사에 활용할 수 있기 때문입니다.</p>\n<p>형사 절차가 진행되면 가해자가 처벌을 피하기 위해 <strong>합의를 제안</strong>하는 경우가 많습니다. 이때 합의금에 치료비, 위자료, 향후 치료비를 모두 포함시키면 민사소송 없이 해결될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">전략: 형사고소 먼저 → 수사 자료 민사 활용 | 합의 시 치료비+위자료+향후 치료비 포함</blockquote>',
+      },
+      {
+        title: '합의와 강제집행까지 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">합의가 안 되면 판결 후 강제집행으로 배상금을 받을 수 있습니다</strong></p>\n<p>형사 단계에서 합의가 이루어지면 합의서에 <strong>합의금 총액, 지급 방법, 지급 기한</strong>을 명확히 기재하세요. "향후 추가 치료비는 별도 청구 가능"이라는 조항도 넣어두면 안전합니다.</p>\n<p>합의가 안 되면 민사 판결을 받아 <strong>강제집행</strong>(급여 압류, 부동산 경매 등)을 진행합니다. 판결 전이라도 가해자 재산이 은닉될 우려가 있으면 <strong>가압류</strong>를 신청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서: 금액·방법·기한 명시 + 향후 치료비 조항 | 불합의 시 강제집행·가압류 검토</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '형사 배상명령으로 민사소송 없이 치료비를 받은 사례',
+        summary:
+          '관련 사례에서도 폭행 상해 피해자가 형사 재판에서 배상명령을 신청하여, 별도의 민사소송 없이 치료비와 위자료를 받은 경우가 있습니다. 배상명령은 형사 재판 선고 시 함께 결정됩니다.',
+        takeaway:
+          '비슷한 상황이라면 형사 재판 시 배상명령 신청을 함께 진행하세요. 민사 비용을 아낄 수 있습니다.',
+      },
+      {
+        title: '형사·민사 병행으로 합의금을 높인 사례',
+        summary:
+          '관련 사례에서도 형사고소와 민사소송을 동시에 진행하자 가해자가 빠른 합의를 원하여 치료비, 위자료, 향후 치료비를 포함한 합의금을 받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 형사와 민사를 병행하여 가해자의 합의 유인을 높이세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '형사고소하면 치료비도 받을 수 있나요?',
+        answer: '형사 재판에서 <strong>배상명령</strong>을 신청하면 민사소송 없이 치료비와 위자료를 받을 수 있습니다.',
+      },
+      {
+        question: '민사소송 비용은 얼마나 드나요?',
+        answer: '<strong>인지대</strong>(청구액의 0.2~0.5%)와 <strong>송달료</strong>(수만원)가 기본이며, 변호사 선임 시 별도 비용이 듭니다.',
+      },
+      {
+        question: '형사고소와 민사소송 둘 다 해야 하나요?',
+        answer: '반드시 둘 다 해야 하는 것은 아닙니다. 다만 <strong>병행하면 합의 가능성과 배상금</strong>이 높아집니다.',
+      },
+      {
+        question: '합의하면 형사고소를 취소해야 하나요?',
+        answer: '폭행죄(반의사불벌)는 합의 후 <strong>처벌불원서</strong>를 제출하면 공소기각됩니다. 상해죄는 고소 취소 없이도 양형에 참작됩니다.',
+      },
+      {
+        question: '가해자에게 재산이 없으면 민사소송해도 소용없나요?',
+        answer: '판결을 받아두면 10년간 <strong>강제집행</strong>이 가능합니다. 나중에 재산이 생기면 집행할 수 있습니다.',
+      },
+      {
+        question: '형사고소 기한이 있나요?',
+        answer: '폭행죄 공소시효는 <strong>5년</strong>, 상해죄는 <strong>7년</strong>입니다.',
+      },
+      {
+        question: '배상명령은 어떻게 신청하나요?',
+        answer: '형사 재판 <strong>변론 종결 전</strong>에 법원에 배상명령 신청서를 제출합니다. 치료비 영수증 등 증빙을 첨부하세요.',
+      },
+      {
+        question: '위자료는 보통 얼마인가요?',
+        answer: '폭행 사안에 따라 다르지만, 통상 <strong>100만~500만원</strong> 수준입니다. 상해 정도와 후유증에 따라 올라갑니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 폭행 형사 민사 비교 준비사항 확인하기',
+      link: '/diagnosis/assault',
+    },
+    internalLinks: [
+      { label: '폭행 가이드', href: '/guide/assault' },
+      { label: '폭행 피해 증거 모으는 법', href: '/guide/assault/assault-evidence-collection' },
+      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/injury-vs-assault-penalty' },
+      { label: '폭행 진단', href: '/diagnosis/assault' },
+      { label: '사기 피해 신고 기한과 금액별 대응법', href: '/guide/fraud/fraud-report-deadline-amounts' },
+    ],
+  },
 ];

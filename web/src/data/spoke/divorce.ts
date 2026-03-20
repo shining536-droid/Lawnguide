@@ -1299,4 +1299,190 @@ export const divorcePages: SpokePage[] = [
       { label: '재산분할 vs 위자료 차이점 비교', href: '/guide/divorce/property-division-vs-alimony-comparison' },
     ],
   },
+  {
+    domain: 'divorce',
+    slug: 'domestic-violence-divorce-protection',
+    keyword: '가정폭력 이혼 보호명령 절차',
+    questionKeyword: '가정폭력으로 이혼하려는데 보호명령은 어떻게 신청하나요?',
+    ctaKeyword: '가정폭력 이혼 보호명령',
+    type: '절차형',
+    meta: {
+      title: '가정폭력 이혼 보호명령 절차 | 로앤가이드',
+      description: '가정폭력 피해자가 보호명령(접근금지·주거퇴거)을 신청하는 방법과 이혼소송 연계 절차를 정리했습니다.',
+    },
+    intro: '남편의 폭행이 반복되고 있습니다. 이혼을 결심했지만, 집을 나가면 아이들 양육권을 잃을까 봐 두렵습니다. 경찰에 신고하면 남편이 더 화를 낼 것 같고, 그냥 참아야 하나 고민됩니다. 가정폭력처벌법에 따른 보호명령을 먼저 받으면 안전하게 이혼을 준비할 수 있습니다.',
+    timelineSteps: ['112 신고·임시조치', '피해자보호명령 신청', '보호명령 발령', '이혼소송 연계'],
+    sections: [
+      {
+        title: '112에 신고하고 긴급임시조치를 받으세요 — 즉시 분리가 먼저입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">가정폭력이 발생하면 112에 신고하여 긴급임시조치를 받을 수 있습니다</strong></p>\n<p>「가정폭력범죄의 처벌 등에 관한 특례법」(가정폭력처벌법) 제8조의2에 따라 경찰은 현장에서 <strong>긴급임시조치</strong>를 할 수 있습니다. ①가해자의 <strong>퇴거 등 격리</strong>, ②피해자로부터 <strong>100미터 이내 접근 금지</strong>, ③피해자에 대한 <strong>전기통신 접근 금지</strong>가 포함됩니다.</p>\n<p>폭행 직후 <strong>진단서</strong>를 발급받으세요. 상해진단서는 2주 이내에 발급받는 것이 좋습니다. 폭행 현장의 사진, 파손된 물건, 폭행 장면의 <strong>CCTV 영상</strong>도 증거로 확보하세요. 신고 이력 자체가 이후 이혼소송에서 가정폭력을 증명하는 중요한 자료가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시 조치: 112 신고 → 긴급임시조치(격리·접근금지) → 진단서 발급 → 증거 확보</blockquote>',
+      },
+      {
+        title: '피해자보호명령을 신청하세요 — 접근금지·주거퇴거·전기통신제한',
+        content:
+          '<p><strong style="color:#1e3a5f">가정법원에 피해자보호명령을 직접 신청할 수 있습니다</strong></p>\n<p>가정폭력처벌법 제55조의2에 따라 피해자는 가정법원에 <strong>피해자보호명령</strong>을 직접 신청할 수 있습니다. 보호명령의 내용은 ①<strong>접근금지</strong>(피해자 주거·직장·학교 등), ②<strong>전기통신 접근 제한</strong>(전화·문자·SNS), ③<strong>친권 행사 제한</strong>, ④피해자에 대한 <strong>주거퇴거 명령</strong>이 있습니다.</p>\n<p>보호명령의 기간은 <strong>최대 6개월</strong>이며, 피해자의 신청으로 <strong>연장</strong>이 가능합니다. 보호명령을 위반하면 <strong>2년 이하 징역 또는 2,000만 원 이하 벌금</strong>에 처해집니다. 신청 시 진단서, 경찰 신고 기록, 폭행 증거 자료를 함께 제출하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">가정폭력 상황에서 보호명령과 이혼 절차가 궁금하다면 <a href="/diagnosis/divorce" style="color:#2563eb;font-weight:600">무료 진단</a>에서 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신청: 가정법원에 피해자보호명령 신청서 + 진단서 + 경찰 신고 기록 + 증거 자료 제출</blockquote>',
+      },
+      {
+        title: '임시조치와 보호처분 — 가해자에 대한 법원의 조치를 확인하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">검사 청구로 법원이 가해자에게 임시조치를 내릴 수 있습니다</strong></p>\n<p>경찰 신고 후 검사는 법원에 <strong>임시조치</strong>를 청구할 수 있습니다(가정폭력처벌법 제29조). 임시조치에는 ①<strong>퇴거·격리</strong>, ②<strong>접근 제한</strong>, ③<strong>전기통신 접근 제한</strong>, ④<strong>유치장·구치소 유치</strong>(최대 1개월, 연장 가능)가 포함됩니다.</p>\n<p>가정보호사건으로 처리되면 법원이 <strong>보호처분</strong>을 내릴 수 있습니다. 보호처분에는 접근 제한, <strong>상담위탁</strong>, 사회봉사, 수강명령, <strong>보호관찰</strong> 등이 있습니다. 보호처분은 전과 기록에 남지 않지만, 이혼소송에서 가정폭력 사실을 증명하는 자료로 활용할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">임시조치: 검사 청구 → 법원 결정(격리·접근금지·유치) | 보호처분: 상담·사회봉사·보호관찰</blockquote>',
+      },
+      {
+        title: '이혼소송과 연계하세요 — 보호명령이 양육권·위자료에 미치는 영향',
+        content:
+          '<p><strong style="color:#1e3a5f">보호명령과 가정폭력 기록은 이혼소송에서 유리한 증거가 됩니다</strong></p>\n<p>가정폭력은 민법 제840조 제3호(배우자의 부당한 대우)에 해당하는 <strong>재판이혼 사유</strong>입니다. 피해자보호명령 결정문, 경찰 신고 기록, 진단서, 보호처분 결정문은 모두 이혼소송에서 <strong>유책배우자 입증 자료</strong>로 활용됩니다.</p>\n<p><strong>양육권</strong> 결정에서도 가정폭력 기록은 매우 중요합니다. 법원은 "자녀의 복리"를 기준으로 양육자를 결정하는데, 가해자에게 양육권을 인정하는 것은 자녀에게 위험할 수 있다고 판단합니다. 집을 나왔더라도 보호명령이 있으면 <strong>"양육 포기"로 해석되지 않습니다</strong>. 위자료도 가정폭력의 기간, 빈도, 심각성에 비례하여 산정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">이혼 연계: 보호명령 결정문 + 신고 기록 + 진단서 → 유책배우자 입증 + 양육권 확보 + 위자료 증액</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '가정폭력 피해자가 보호명령을 받고 양육권을 확보한 사례',
+        summary: '반복적인 폭행으로 피해자보호명령(접근금지)을 발령받은 아내가 이혼소송에서 남편의 유책을 입증하고 두 자녀의 양육권을 확보한 사안입니다. 법원은 보호명령 결정문과 경찰 신고 이력을 핵심 증거로 채택했습니다.',
+        takeaway: '비슷한 상황이라면 보호명령 신청과 동시에 이혼소송을 준비하고, 가정폭력 기록을 체계적으로 정리하세요.',
+      },
+      {
+        title: '임시조치 위반으로 가해자가 구속된 사례',
+        summary: '법원의 접근금지 임시조치에도 불구하고 가해자가 피해자 직장에 찾아가 임시조치 위반으로 구속된 사안입니다. 이후 이혼소송에서 이 사실이 유책 판단의 결정적 증거가 되었습니다.',
+        takeaway: '비슷한 상황이라면 임시조치나 보호명령이 내려진 후에도 가해자가 접근하면 즉시 112에 신고하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '피해자보호명령은 어디에 신청하나요?',
+        answer: '관할 <strong>가정법원</strong>에 직접 신청할 수 있습니다. 가정폭력상담소나 변호사의 도움을 받으면 더 수월합니다.',
+      },
+      {
+        question: '보호명령이 나오기까지 얼마나 걸리나요?',
+        answer: '긴급한 경우 <strong>수일 내</strong>에 발령될 수 있습니다. 경찰의 긴급임시조치는 현장에서 즉시 이루어집니다.',
+      },
+      {
+        question: '집을 나가면 양육권을 잃나요?',
+        answer: '가정폭력으로 인한 피신은 <strong>양육 포기로 해석되지 않습니다</strong>. 보호명령이 있으면 더욱 보호받습니다.',
+      },
+      {
+        question: '보호명령을 위반하면 어떻게 되나요?',
+        answer: '<strong>2년 이하 징역 또는 2,000만 원 이하 벌금</strong>에 처해집니다. 위반 시 즉시 경찰에 신고하세요.',
+      },
+      {
+        question: '가정폭력 진단서는 언제까지 발급받아야 하나요?',
+        answer: '폭행 후 <strong>가능한 빨리</strong>(2주 이내) 발급받는 것이 좋습니다. 시간이 지나면 상해와 폭행의 인과관계 증명이 어려워집니다.',
+      },
+      {
+        question: '가정보호사건과 형사사건은 어떻게 다른가요?',
+        answer: '가정보호사건은 <strong>보호처분</strong>(상담·사회봉사 등)으로 종결되며 전과가 남지 않습니다. 형사사건은 징역·벌금 등 <strong>형사 처벌</strong>이 내려집니다.',
+      },
+      {
+        question: '아이들 면접교섭은 어떻게 되나요?',
+        answer: '보호명령 중에도 법원이 <strong>자녀의 복리</strong>를 고려하여 면접교섭 방법을 결정합니다. 가해자의 면접교섭이 제한될 수 있습니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>여성긴급전화 1366</strong>, 대한법률구조공단(전화 132), 한국가정법률상담소(전화 02-584-0098)를 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 가정폭력 이혼 보호명령 준비사항 확인하기',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '이혼 가이드', href: '/guide/divorce' },
+      { label: '협의이혼과 재판이혼 차이 총정리', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '양육권 합의 준비 체크리스트', href: '/guide/divorce/custody-agreement-prep' },
+      { label: '스토킹 피해를 받고 있을 때 즉시 대응법', href: '/guide/stalking/stalking-immediate-response' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+    ],
+  },
+  {
+    domain: 'divorce',
+    slug: 'divorce-respondent-prep-checklist',
+    keyword: '이혼 소송 피고 대응 준비 체크리스트',
+    questionKeyword: '배우자가 이혼소송을 걸었는데 피고로서 뭘 준비해야 하나요?',
+    ctaKeyword: '이혼 소송 피고 대응',
+    type: '체크리스트형',
+    meta: {
+      title: '이혼 소송 피고 대응 준비 체크리스트 | 로앤가이드',
+      description: '이혼소송 피고로서 소장 수령 후 답변서 제출 기한, 재산분할 방어, 양육권 다툼, 위자료 대응까지 체크리스트로 정리했습니다.',
+    },
+    intro: '집에 돌아왔더니 법원에서 온 이혼소송 소장이 놓여 있습니다. 배우자가 유책배우자라며 위자료까지 청구했습니다. 답변서를 언제까지 내야 하는지, 재산분할은 어떻게 되는 건지, 아이들 양육권은 누가 갖게 되는 건지 아무것도 모르겠습니다. 혐의를 받고 있다면 기한별로 준비해야 할 사항을 정리해보세요.',
+    timelineSteps: ['소장 수령·답변서 준비', '재산분할 대비', '양육권 다툼 준비', '위자료 방어'],
+    sections: [
+      {
+        title: '소장 수령 후 30일 — 답변서 제출 기한을 반드시 지키세요',
+        content:
+          '<p><strong style="color:#1e3a5f">소장을 받은 날로부터 30일 이내에 답변서를 제출해야 합니다</strong></p>\n<p>이혼소송 소장이 도착하면 <strong>민사소송법 제256조</strong>에 따라 소장 부본 송달일로부터 <strong>30일 이내</strong>에 답변서를 제출해야 합니다. 기한을 넘기면 원고(배우자)의 청구가 그대로 인정되는 <strong>자백간주</strong> 위험이 있습니다.</p>\n<p>답변서에는 ①원고의 주장에 대한 <strong>인정·부인·항변</strong>, ②유책사유에 대한 반론, ③재산분할·양육권·위자료에 대한 입장을 기재합니다. 소장을 받은 즉시 <strong>가사전문 변호사</strong>에게 상담을 받으세요. 변호사 선임이 어려우면 <strong>대한법률구조공단</strong>(전화 132)의 무료 법률상담을 이용하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 소장 송달일 + 30일 이내 답변서 제출 | 미제출 시 자백간주 위험 | 즉시 변호사 상담</blockquote>',
+      },
+      {
+        title: '재산분할 대비 — 재산 목록 정리와 은닉 재산 방어가 핵심입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">배우자가 재산분할을 청구했다면 정확한 재산 목록을 먼저 정리하세요</strong></p>\n<p>법원은 혼인 기간 동안 형성한 <strong>부부 공동 재산</strong>을 기여도에 따라 분할합니다(민법 제839조의2). 배우자 명의 재산도 혼인 중 취득했다면 분할 대상이 될 수 있습니다. 반대로 <strong>혼인 전 고유 재산, 상속·증여받은 재산</strong>은 특유재산으로 분할 대상에서 제외될 수 있습니다.</p>\n<p>재산 목록을 정리하세요: ①<strong>부동산</strong>(등기부등본, 시가감정), ②<strong>금융자산</strong>(예금, 주식, 보험), ③<strong>부채</strong>(대출, 카드 채무), ④<strong>퇴직금·연금</strong>. 배우자가 재산을 은닉하고 있다고 의심되면 법원에 <strong>재산조회 신청</strong>(국민건강보험공단, 금융기관, 국토교통부)을 할 수 있습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">이혼소송 피고로서 무엇을 준비해야 하는지 궁금하다면 <a href="/diagnosis/divorce" style="color:#2563eb;font-weight:600">무료 진단</a>에서 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 부동산 등기부등본, 예금잔액증명서, 보험·주식 내역, 대출 잔액 증명서, 퇴직금 예상액</blockquote>',
+      },
+      {
+        title: '양육권 다툼 — 자녀의 복리를 중심으로 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">법원은 "자녀의 복리"를 최우선으로 양육자를 결정합니다</strong></p>\n<p>양육권 결정에서 법원이 고려하는 요소는 ①자녀의 <strong>연령과 의사</strong>, ②부모 각각의 <strong>양육 환경</strong>(주거 안정성, 경제력, 양육 보조자 유무), ③<strong>현재 양육 상태</strong>(주된 양육자가 누구인지), ④부모의 <strong>양육 능력과 태도</strong>입니다(민법 제837조, 제912조).</p>\n<p>유책배우자로 지목되었더라도 <strong>양육권은 별개</strong>입니다. 이혼의 책임과 양육 능력은 다른 문제입니다. 자녀와의 유대 관계, 양육에 참여해온 기록(학교 행사 참석, 병원 동행, 학원 관리 등), 안정적인 주거 환경을 증명하는 자료를 준비하세요. 만 13세 이상 자녀의 경우 법원이 <strong>자녀의 의견을 직접 청취</strong>합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">양육권 자료: 양육 참여 기록(사진·메시지), 주거 환경 증빙, 소득 증빙, 양육 보조자(조부모 등) 확보</blockquote>',
+      },
+      {
+        title: '위자료 방어 — 유책사유 반론과 과실 상계를 검토하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">유책배우자로 지목되었다면 상대방의 과실도 함께 주장하세요</strong></p>\n<p>위자료는 혼인 파탄에 <strong>책임이 있는 배우자</strong>가 상대방에게 지급하는 정신적 손해배상입니다(민법 제843조, 제806조). 실무에서 위자료 금액은 통상 <strong>1,000만~5,000만 원</strong> 수준이며, 혼인 기간, 유책 정도, 자녀 유무, 경제력 등을 종합 고려합니다.</p>\n<p>방어 전략은 ①<strong>유책사유 자체를 부인</strong>하는 것(상대방이 주장하는 사실이 거짓이거나 과장인 경우), ②혼인 파탄에 <strong>상대방의 과실도 있음</strong>을 주장하는 것(쌍방 유책), ③위자료 산정에서 <strong>감액 사유</strong>(혼인 기간이 짧은 경우, 재산분할로 이미 보전되는 경우)를 주장하는 것입니다. 상대방의 주장을 반박할 <strong>증거(문자, 녹음, 목격자 진술)</strong>를 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">위자료 방어: 유책사유 부인 + 쌍방과실 주장 + 감액 사유 제시 | 증거: 문자, 녹음, 목격자 진술</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '유책배우자로 지목되었으나 쌍방 과실이 인정된 사례',
+        summary: '아내가 남편의 외도를 이유로 위자료 5,000만 원을 청구한 사안에서, 남편 측이 아내의 지속적인 폭언과 가출이 혼인 파탄의 원인이었음을 입증한 결과, 법원은 쌍방 유책을 인정하고 위자료를 1,500만 원으로 감액했습니다.',
+        takeaway: '비슷한 상황이라면 상대방의 유책 행위(폭언, 방임, 경제적 학대 등)를 증명할 수 있는 문자, 녹음 등을 확보하세요.',
+      },
+      {
+        title: '답변서 미제출로 불리한 판결을 받은 사례',
+        summary: '피고가 소장을 받고도 답변서를 기한 내에 제출하지 않아 자백간주가 적용되었고, 원고의 청구대로 위자료와 재산분할이 결정된 사안입니다.',
+        takeaway: '비슷한 상황이라면 소장 수령 후 30일 이내에 반드시 답변서를 제출하고, 변호사 상담을 받으세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '소장을 받으면 무조건 이혼해야 하나요?',
+        answer: '아닙니다. 피고로서 <strong>이혼을 거부하는 답변서</strong>를 제출할 수 있습니다. 다만 법원이 이혼 사유를 인정하면 판결로 이혼이 결정됩니다.',
+      },
+      {
+        question: '답변서를 안 내면 어떻게 되나요?',
+        answer: '원고의 주장이 <strong>자백간주</strong>될 수 있어 매우 불리합니다. 기한 내 반드시 제출하세요.',
+      },
+      {
+        question: '유책배우자도 양육권을 받을 수 있나요?',
+        answer: '네, 이혼의 책임과 양육 능력은 <strong>별개</strong>입니다. 자녀의 복리에 더 적합한 쪽이 양육권을 받습니다.',
+      },
+      {
+        question: '재산분할에서 혼인 전 재산은 어떻게 되나요?',
+        answer: '혼인 전 취득한 재산은 <strong>특유재산</strong>으로 분할 대상에서 제외될 수 있습니다. 취득 시점을 증명하는 자료를 준비하세요.',
+      },
+      {
+        question: '위자료는 보통 얼마나 나오나요?',
+        answer: '실무에서 통상 <strong>1,000만~5,000만 원</strong> 수준이며, 유책 정도, 혼인 기간, 자녀 유무 등에 따라 달라집니다.',
+      },
+      {
+        question: '조정 절차는 뭔가요?',
+        answer: '재판 전에 법원이 <strong>합의를 유도하는 절차</strong>입니다. 조정이 성립하면 판결과 같은 효력이 있고, 불성립하면 재판으로 넘어갑니다.',
+      },
+      {
+        question: '변호사 없이 직접 대응할 수 있나요?',
+        answer: '가능하지만 권장하지 않습니다. 재산분할·양육권·위자료가 동시에 걸린 사건은 <strong>가사전문 변호사 선임</strong>이 유리합니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132), 한국가정법률상담소(02-584-0098), 각 지방변호사회 무료 상담을 활용하세요.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 이혼 소송 피고 대응 준비사항 확인하기',
+      link: '/diagnosis/divorce',
+    },
+    internalLinks: [
+      { label: '이혼 가이드', href: '/guide/divorce' },
+      { label: '협의이혼과 재판이혼 차이 총정리', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '재산분할 비율 기준', href: '/guide/divorce/property-division-ratio' },
+      { label: '전세사기 가해자로 지목됐을 때 대응 기한', href: '/guide/jeonse-fraud/jeonse-fraud-landlord-accused-response' },
+      { label: '이혼 진단', href: '/diagnosis/divorce' },
+    ],
+  },
 ];

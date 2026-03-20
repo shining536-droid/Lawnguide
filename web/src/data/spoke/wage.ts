@@ -496,4 +496,102 @@ export const wagePages: SpokePage[] = [
       { label: '임금체불 진단', href: '/diagnosis/wage' },
     ],
   },
+  {
+    domain: 'wage',
+    slug: 'unpaid-wage-employer-response',
+    keyword: '임금체불 신고당한 사업주가 저지르는 실수',
+    questionKeyword: '직원이 임금체불로 신고했는데 사업주로서 어떤 실수를 피해야 하나요?',
+    ctaKeyword: '임금체불 사업주 대응',
+    type: '실수함정형',
+    meta: {
+      title: '임금체불 신고당한 사업주가 저지르는 실수 | 로앤가이드',
+      description:
+        '임금체불로 신고된 사업주가 흔히 저지르는 5가지 실수와 근로감독관 조사 대응, 합의 방법, 지연이자 처리까지 정리했습니다.',
+    },
+    intro:
+      '자금 사정이 어려워 월급을 2개월 밀렸는데, 퇴사한 직원이 노동청에 진정을 넣었다는 통보가 왔습니다. 혐의를 받고 있다면, 감정적으로 대응하거나 절차를 무시하는 것이 가장 위험합니다. 사업주가 흔히 저지르는 실수와 올바른 대응법을 정리했습니다.',
+    sections: [
+      {
+        title: '실수 1·2: 체불 사실 부인과 근로감독관 조사 무시',
+        content:
+          '<p><strong style="color:#1e3a5f">체불 사실을 무작정 부인하거나 근로감독관 출석을 무시하면 상황이 악화됩니다</strong></p>\n<p>첫 번째 실수는 <strong>"월급을 준 적 있다"며 체불 사실 자체를 부인</strong>하는 것입니다. 근로감독관은 계좌 이체 내역, 급여대장 등 객관적 자료로 확인하므로 거짓 진술은 신뢰를 잃게 만듭니다. 일부만 지급했다면 그 금액을 인정하고 나머지 체불분에 대해 성실히 소명하세요.</p>\n<p>두 번째 실수는 <strong>근로감독관의 출석 요구를 무시</strong>하는 것입니다. 출석에 응하지 않으면 <strong>과태료 부과</strong>는 물론, 사업주에게 불리한 판단이 내려질 수 있습니다. 지정된 날짜에 출석이 어려우면 반드시 <strong>사전에 일정 변경을 요청</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 체불 부인 → 신뢰 상실 | 출석 무시 → 과태료 + 불리한 판단 | 성실한 소명이 핵심</blockquote>',
+      },
+      {
+        title: '실수 3·4: 합의서 부실 작성과 지연이자 미지급',
+        content:
+          '<p><strong style="color:#1e3a5f">합의서 한 줄이 잘못되면 분쟁이 재발하고, 지연이자를 빠뜨리면 추가 청구를 받습니다</strong></p>\n<p>세 번째 실수는 <strong>합의서를 대충 작성</strong>하는 것입니다. 합의서에는 ①<strong>체불 금액의 구체적 내역</strong>(기본급·수당·퇴직금 구분), ②<strong>지급 일정</strong>, ③<strong>"이 외 추가 청구를 하지 않는다"는 부제소 합의 문구</strong>가 반드시 포함되어야 합니다. 구두 합의만으로는 나중에 분쟁이 재발할 수 있습니다.</p>\n<p>네 번째 실수는 <strong>지연이자를 지급하지 않는 것</strong>입니다. 근로기준법 제37조에 따라 퇴직일로부터 14일 이내에 임금을 지급하지 않으면 <strong>연 20%의 지연이자</strong>가 발생합니다. 원금만 지급하면 근로자가 지연이자를 별도로 청구할 수 있으므로, 합의 시 지연이자까지 포함하여 정산하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">임금체불로 혐의를 받고 있다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/wage" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수: 체불 내역 · 지급 일정 · 부제소 합의 | 지연이자: 연 20%(근로기준법 제37조)</blockquote>',
+      },
+      {
+        title: '실수 5: 신고한 직원에 대한 보복 조치',
+        content:
+          '<p><strong style="color:#1e3a5f">신고 직원에게 불이익을 주면 별도의 형사처벌을 받을 수 있습니다</strong></p>\n<p>다섯 번째이자 가장 심각한 실수는 신고한 직원(또는 재직 중인 직원)에게 <strong>해고, 감봉, 배치전환 등 보복 조치</strong>를 취하는 것입니다. 근로기준법 제104조 제2항은 신고를 이유로 한 불이익 처분을 금지하고 있으며, 위반 시 <strong>2년 이하 징역 또는 2,000만 원 이하 벌금</strong>에 처해집니다.</p>\n<p>신고 직원이 아직 재직 중이라면 <strong>기존 근로 조건을 그대로 유지</strong>하세요. SNS나 사내 메신저에서 직원을 비난하는 것도 증거가 되어 불리하게 작용할 수 있습니다. 감정을 절제하고 절차에 따라 대응하는 것이 최선입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보복 금지: 근로기준법 제104조 | 위반 시 2년 이하 징역/2,000만 원 이하 벌금 | 근로 조건 현행 유지</blockquote>',
+      },
+      {
+        title: '형사처벌을 피하려면 빠른 지급이 최선입니다',
+        content:
+          '<p><strong style="color:#1e3a5f">근로감독관 시정 기한 내에 체불 임금을 지급하면 처벌을 면할 수 있습니다</strong></p>\n<p>임금체불은 <strong>근로기준법 제109조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>에 해당하는 범죄입니다. 그러나 근로감독관이 지정한 <strong>시정 기한(통상 14일) 내에 전액 지급</strong>하면 형사 입건을 피할 수 있습니다.</p>\n<p>일시에 전액 지급이 어려운 경우, 근로자와 <strong>분할 지급 합의서</strong>를 작성하고 이를 근로감독관에게 제출하면 시정 기한을 연장받을 수 있습니다. 합의서에는 <strong>분할 금액, 지급 일자, 미이행 시 조건</strong>을 명시하세요. 성실한 태도가 근로감독관의 판단에 큰 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">처벌: 3년 이하 징역/3,000만 원 이하 벌금 | 시정 기한 내 지급 시 형사 입건 회피 | 분할 합의 가능</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '시정 기한 내 전액 지급으로 불기소 처분을 받은 사례',
+        summary:
+          '3개월분 임금을 체불한 사업주가 근로감독관의 시정 지시 후 14일 이내에 지연이자를 포함한 전액을 지급했습니다. 근로자와 합의서를 작성하여 제출한 결과 검찰이 기소유예(불기소) 처분을 내렸습니다.',
+        takeaway:
+          '체불 사실이 확인되면 시정 기한 내 전액 지급과 합의서 작성을 동시에 진행하는 것이 가장 효과적인 방어입니다.',
+      },
+      {
+        title: '보복 해고로 추가 형사처벌을 받은 사례',
+        summary:
+          '임금체불을 신고한 재직 직원을 해고한 사업주가 근로기준법 제104조 위반으로 추가 기소되어 벌금 1,500만 원이 선고되었습니다. 체불 건 자체보다 보복 행위에 대한 처벌이 더 무거웠습니다.',
+        takeaway:
+          '신고 직원에 대한 감정적 대응은 절대 금물입니다. 보복 조치는 별도 범죄로 가중 처벌의 원인이 됩니다.',
+      },
+    ],
+    faq: [
+      {
+        question: '임금체불로 신고당하면 바로 구속되나요?',
+        answer: '임금체불만으로 바로 구속되는 경우는 드뭅니다. 다만 <strong>상습 체불</strong>이거나 근로감독관 시정 지시를 무시하면 형사 입건되어 <strong>3년 이하 징역</strong>에 처해질 수 있습니다.',
+      },
+      {
+        question: '근로감독관 조사에 꼭 출석해야 하나요?',
+        answer: '네, 출석 요구에 응하지 않으면 <strong>과태료</strong>가 부과되고 사업주에게 불리한 판단이 내려질 수 있습니다. 일정 변경이 필요하면 사전에 요청하세요.',
+      },
+      {
+        question: '지연이자 20%는 어떻게 계산하나요?',
+        answer: '퇴직일 이후 14일이 지난 시점부터 <strong>미지급 임금에 대해 연 20%</strong>를 일할 계산합니다. 예를 들어 300만 원을 30일 지연하면 약 <strong>49,315원</strong>의 지연이자가 발생합니다.',
+      },
+      {
+        question: '합의서만 쓰면 형사처벌을 피할 수 있나요?',
+        answer: '합의서 작성만으로는 부족합니다. <strong>실제로 체불 임금을 지급</strong>하고 합의서를 근로감독관에게 제출해야 불기소 처분을 기대할 수 있습니다.',
+      },
+      {
+        question: '직원이 퇴직금까지 같이 청구하면 어떻게 하나요?',
+        answer: '퇴직금도 <strong>퇴직일로부터 14일 이내</strong>에 지급해야 합니다. 미지급 시 임금체불과 동일하게 지연이자 20%가 적용됩니다.',
+      },
+      {
+        question: '자금이 없어서 한꺼번에 못 주면 어떻게 하나요?',
+        answer: '근로자와 <strong>분할 지급 합의서</strong>를 작성하고 근로감독관에게 제출하면 시정 기한을 연장받을 수 있습니다. 합의서에 분할 금액과 일자를 명시하세요.',
+      },
+      {
+        question: '신고한 직원을 해고해도 되나요?',
+        answer: '절대 안 됩니다. 신고를 이유로 한 불이익 처분은 <strong>근로기준법 제104조 위반</strong>으로 2년 이하 징역 또는 2,000만 원 이하 벌금에 처해집니다.',
+      },
+      {
+        question: '무료 법률상담은 어디서 받나요?',
+        answer: '<strong>대한법률구조공단</strong>(전화 132)과 <strong>고용노동부 고객상담센터</strong>(1350)에서 사업주도 무료 상담을 받을 수 있습니다.',
+      },
+    ],
+    cta: {
+      text: '1분 안에 임금체불 사업주 대응 준비사항 확인하기',
+      link: '/diagnosis/wage',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '임금체불 가이드', href: '/guide/wage' },
+      { label: '임금체불 신고 절차와 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
+      { label: '임금체불 신고 전 준비 서류', href: '/guide/wage/unpaid-wage-complaint-docs' },
+      { label: '임금체불 진단', href: '/diagnosis/wage' },
+    ],
+  },
 ];
