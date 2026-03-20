@@ -25,6 +25,11 @@ const WEDGES = [
     desc: '지금 확보할 증거',
     href: '/diagnosis/assault',
   },
+  {
+    title: '연말정산, 얼마 돌려받을까?',
+    desc: '연말정산 계산',
+    href: '/calculator/tax',
+  },
 ];
 
 /* ─── 분야별 카테고리 ─── */
@@ -179,7 +184,7 @@ export default function HomeContent() {
           </div>
 
           {/* 웨지 4개 버튼 */}
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-2 gap-3 md:mt-12 md:grid-cols-4 md:max-w-4xl md:gap-4">
+          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-2 gap-3 md:mt-12 md:grid-cols-5 md:max-w-5xl md:gap-4">
             {WEDGES.map((w) => (
               <Link
                 key={w.href}
