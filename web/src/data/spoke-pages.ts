@@ -32,6 +32,7 @@ export interface SpokePage {
   questionKeyword?: string;
   ctaKeyword: string;
   type: string;
+  perspective?: string;
   meta: { title: string; description: string };
   intro: string;
   timelineSteps?: string[];

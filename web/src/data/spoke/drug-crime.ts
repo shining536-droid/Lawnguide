@@ -202,4 +202,100 @@ export const drugCrimePages: SpokePage[] = [
       { label: '성범죄 가이드', href: '/guide/sex-crime' },
     ],
   },
+  {
+    domain: 'drug-crime',
+    slug: 'positive-urine-test-response',
+    keyword: '마약 소변검사 양성 시 대응법',
+    questionKeyword: '마약 소변검사에서 양성이 나왔는데 어떻게 대응해야 하나요?',
+    ctaKeyword: '소변검사 양성 대응',
+    type: '상황형',
+    meta: {
+      title: '마약 소변검사 양성 시 대응법 | 로앤가이드',
+      description: '마약 소변검사 양성 반응 시 수사 대응 전략, 정밀검사 요청, 위양성 방어, 양형 준비 방법을 대법원 2019도14567 판례를 바탕으로 정리했습니다.',
+    },
+    intro: '건강검진에서, 혹은 경찰 수사 과정에서 소변검사를 받았는데 양성 반응이 나왔습니다. 마약을 한 적이 없는데 양성이 나온 것일 수도 있고, 과거에 한 번 실수한 것이 검출된 것일 수도 있습니다. 어느 쪽이든 양성 반응은 수사의 핵심 증거가 되기 때문에, 지금부터의 대응이 결과를 크게 좌우합니다. 감정적으로 반응하기 전에, 정확한 법적 대응 방법을 알아야 합니다.',
+    timelineSteps: ['검사 결과 확인', '정밀검사·변호사 선임', '수사 대응·진술', '양형 자료 준비'],
+    sections: [
+      {
+        title: '간이검사 양성은 확정이 아닙니다 — 정밀검사를 요청하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">간이 소변검사(면역분석법)는 위양성 가능성이 있으며, 정밀검사(GC-MS)로 확인해야 합니다</strong></p>\n<p>현장에서 실시하는 <strong>간이 소변검사</strong>(면역분석법, 스틱형 키트)는 <strong>위양성(false positive)</strong>이 발생할 수 있습니다. 감기약 성분(에페드린, 슈도에페드린), 일부 진통제, 수면유도제, 특정 건강보조식품 등이 마약류와 유사한 반응을 보이는 경우가 있습니다.</p>\n<p>간이검사에서 양성이 나오면 수사기관은 <strong>국립과학수사연구원(국과수)</strong>에 정밀 감정을 의뢰합니다. 정밀검사는 <strong>GC-MS(가스크로마토그래피-질량분석법)</strong>로 진행되며, 특정 마약 성분을 정확히 식별합니다. 정밀검사 결과가 음성이면 혐의가 해소될 수 있습니다. <strong>정밀검사를 적극적으로 요청</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">간이검사 양성 ≠ 확정 | 위양성 가능성(감기약 등) | 국과수 정밀검사(GC-MS) 요청 필수</blockquote>',
+      },
+      {
+        title: '위양성이 의심되면 복용 약물 목록을 즉시 정리하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">처방약·비처방약·건강보조식품 복용 이력이 위양성 방어의 핵심 증거입니다</strong></p>\n<p>마약을 투약한 적이 없는데 양성이 나왔다면, <strong>위양성 방어</strong>를 준비해야 합니다. 대법원 2019도14567 판결에서도 소변검사 양성만으로 유죄를 인정하기 위해서는 다른 보강 증거가 필요하다는 취지로 판시한 바 있습니다.</p>\n<p>즉시 ①최근 복용한 <strong>처방약 목록과 처방전</strong>(병원에서 재발급 가능), ②약국 구매 <strong>비처방약(감기약, 진통제 등) 영수증</strong>, ③<strong>건강보조식품·한약</strong> 복용 이력, ④해외여행 시 현지에서 복용한 약물 등을 정리하세요. 담당 의사의 <strong>소견서</strong>를 받아두면 강력한 방어 자료가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정리: 처방전 재발급 + 약국 영수증 + 건강보조식품 이력 + 의사 소견서 확보</blockquote>',
+      },
+      {
+        title: '실제 투약이 있었다면 수사 대응 전략을 세우세요',
+        content:
+          '<p><strong style="color:#1e3a5f">투약 사실이 있더라도 진술 전략과 양형 준비에 따라 결과가 달라집니다</strong></p>\n<p>실제로 마약을 투약한 사실이 있고 소변검사에서 양성이 나왔다면, <strong>사실을 부인하는 것은 대부분 역효과</strong>를 냅니다. 정밀검사와 모발검사까지 진행되면 투약 사실이 명확히 확인되기 때문입니다. 변호사와 상의하여 ①<strong>혐의 인정 여부</strong>, ②<strong>진술 범위</strong>(투약 횟수, 경위, 입수처 등), ③<strong>양형 전략</strong>을 사전에 결정하세요.</p>\n<p>수사기관은 소변검사 양성을 근거로 <strong>"누구에게서 구했나", "함께 한 사람이 있나"</strong> 등을 추궁합니다. 변호사 없이 답변하면 <strong>매매·공급 관여 혐의</strong>로 확대될 수 있습니다. <strong>진술거부권</strong>(형사소송법 제244조의3)을 행사할 수 있으며, 변호사 동석 하에 진술하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">전략: 변호사와 진술 범위 결정 → 변호사 동석 조사 → 입수처 진술 신중히 | 진술거부권 행사 가능</blockquote>',
+      },
+      {
+        title: '양형에 유리한 자료를 기소 전부터 준비하세요',
+        content:
+          '<p><strong style="color:#1e3a5f">자발적 치료 참여, 반성문, 가족 탄원서가 양형을 좌우합니다</strong></p>\n<p>소변검사 양성 후 실제 투약이 인정되는 경우, <strong>기소 전부터 양형 자료를 준비</strong>하는 것이 집행유예와 실형을 가르는 핵심입니다. 가장 효과적인 양형 자료는 <strong>마약류 중독 재활 프로그램</strong>(한국마약퇴치운동본부, 정신건강복지센터 등)에 자발적으로 참여하는 것입니다.</p>\n<p>프로그램 <strong>등록 확인서와 수료증</strong>, 진심 어린 <strong>반성문</strong>, 가족의 <strong>탄원서</strong>, 직장 <strong>재직증명서</strong>(사회적 유대 입증), 정신건강의학과 <strong>치료 기록</strong> 등을 체계적으로 준비하세요. 대법원 양형기준에 따르면 초범 단순 투약은 <strong>징역 10월~2년 권고</strong> 구간으로, 양형 자료가 충실하면 <strong>집행유예 가능성</strong>이 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">양형 자료: 재활 프로그램 수료증 + 반성문 + 가족 탄원서 + 재직증명서 + 치료 기록</blockquote>',
+      },
+    ],
+    cases: [
+      {
+        title: '소변검사 양성이었으나 위양성으로 무혐의 처분을 받은 사례',
+        summary:
+          '관련 사례에서도 간이 소변검사에서 필로폰 양성 반응이 나왔으나, 국과수 정밀검사(GC-MS)에서 음성으로 확인된 경우가 있습니다. 해당 피의자는 감기약(슈도에페드린 성분)을 복용 중이었으며, 처방전과 약국 구매 영수증을 제출하여 위양성임을 입증했습니다.',
+        takeaway:
+          '비슷한 상황이라면 복용 중인 약물의 처방전과 구매 영수증을 즉시 확보하고, 정밀검사를 적극 요청하세요.',
+      },
+      {
+        title: '소변검사 양성 후 자진 치료 참여로 집행유예를 받은 사례',
+        summary:
+          '관련 사례에서도 소변검사 양성으로 투약 혐의가 확인된 초범 피고인이 기소 전부터 마약류 재활 프로그램에 등록하고, 수료증과 정신건강의학과 치료 기록을 법원에 제출하여 징역 1년에 집행유예 2년을 선고받은 경우가 있습니다.',
+        takeaway:
+          '비슷한 상황이라면 수사 초기부터 재활 프로그램에 참여하고, 변호사와 양형 자료를 체계적으로 준비하세요.',
+      },
+    ],
+    faq: [
+      {
+        question: '소변검사 양성만으로 기소되나요?',
+        answer: '간이검사 양성만으로는 기소되지 않습니다. <strong>국과수 정밀검사(GC-MS)</strong> 결과가 양성이어야 기소의 근거가 됩니다. 정밀검사 결과가 음성이면 혐의가 해소됩니다.',
+      },
+      {
+        question: '감기약을 먹었는데 양성이 나올 수 있나요?',
+        answer: '네, <strong>에페드린·슈도에페드린</strong> 성분이 포함된 감기약은 필로폰(메스암페타민)과 유사한 반응을 보여 간이검사에서 <strong>위양성</strong>이 나올 수 있습니다.',
+      },
+      {
+        question: '소변검사를 거부할 수 있나요?',
+        answer: '<strong>압수수색영장</strong> 없이는 거부할 수 있지만, 영장이 발부되면 거부가 어렵습니다. 거부 사실 자체가 의심을 강화시킬 수 있으므로 변호사와 상의하세요.',
+      },
+      {
+        question: '소변검사 양성 후 모발검사도 받아야 하나요?',
+        answer: '수사기관이 모발검사를 추가로 요구할 수 있습니다. 모발검사는 <strong>수개월간의 투약 이력</strong>을 확인할 수 있어, 투약 횟수와 기간을 파악하는 데 사용됩니다.',
+      },
+      {
+        question: '소변에서 양성이 나오면 며칠 전 투약까지 검출되나요?',
+        answer: '마약 종류에 따라 다르지만, 필로폰은 <strong>투약 후 3~5일</strong>, 대마는 <strong>7~30일</strong>까지 소변에서 검출될 수 있습니다.',
+      },
+      {
+        question: '직장 건강검진에서 양성이 나오면 바로 경찰에 통보되나요?',
+        answer: '일반 건강검진에는 마약 검사가 포함되지 않습니다. 다만 특수 직종(군인, 운동선수 등)의 경우 양성 결과가 <strong>관련 기관에 통보</strong>될 수 있습니다.',
+      },
+      {
+        question: '구속되나요?',
+        answer: '초범 단순 투약은 <strong>불구속 수사</strong>가 일반적이지만, 도주 우려, 증거 인멸 우려, 투약 횟수가 많은 경우 구속영장이 청구될 수 있습니다.',
+      },
+      {
+        question: '위양성을 주장하려면 어떤 증거가 필요한가요?',
+        answer: '①<strong>복용 약물 처방전</strong>, ②<strong>약국 구매 영수증</strong>, ③<strong>담당 의사 소견서</strong>, ④<strong>국과수 정밀검사 음성 결과</strong>가 핵심 증거입니다. 변호사를 통해 체계적으로 제출하세요.',
+      },
+    ],
+    cta: {
+      text: '소변검사 양성 후 상황에 맞는 대응 방법을 확인해보세요',
+      link: '/diagnosis/drug-crime',
+    },
+    internalLinks: [
+      { label: '홈', href: '/' },
+      { label: '마약 사건 진단', href: '/diagnosis/drug-crime' },
+      { label: '마약 혐의 수사 연락 받았을 때 대응법', href: '/guide/drug-crime/drug-investigation-response' },
+      { label: '마약 초범 처벌 수위와 대응 방법', href: '/guide/drug-crime/drug-crime-first-offense-sentencing' },
+    ],
+  },
 ];
