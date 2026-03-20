@@ -40,7 +40,6 @@ export const DOMAINS: DomainMeta[] = [
   { id: 'traffic-accident', name: '교통사고', description: '교통사고 후 합의, 보험, 과실 문제를 정리할 때', icon: '🚦' },
   { id: 'drug-crime', name: '마약범죄', description: '마약 관련 수사나 혐의 대응을 준비할 때', icon: '💊' },
   { id: 'prostitution', name: '성매매', description: '성매매 관련 피해 지원이나 혐의 대응이 필요할 때', icon: '🛡️' },
-  { id: 'leave', name: '육아휴직', description: '육아휴직 급여, 대출 관리, 복직 전략이 궁금할 때', icon: '👶' },
 ];
 
 function dataDir() {
