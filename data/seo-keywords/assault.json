@@ -1,7 +1,7 @@
 {
   "domain": "assault",
   "domainLabel": "폭행/상해",
-  "existingSlugs": ["assault-evidence-collection","self-defense-criteria"],
+  "existingSlugs": ["assault-evidence-collection","self-defense-criteria","assault-settlement-amount-guide"],
   "keywords": [
     {"title":"폭행 피해 직후 증거 확보 절차","slug":"assault-immediate-evidence-steps","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["대법원 2019도12345"],"internalLinks":{"hub":"/guide/assault","spokes":["/guide/assault/assault-evidence-collection"]}},
     {"title":"폭행 가해자가 합의를 거부할 때 대처법","slug":"offender-refuses-settlement","type":"상황형","intent":"정보형","priority":"high","cases":["대법원 2020도3456"],"internalLinks":{"hub":"/guide/assault","spokes":["/guide/assault/assault-evidence-collection"]}},

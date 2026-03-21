@@ -1,7 +1,7 @@
 {
   "domain": "small-claims",
   "domainLabel": "소액소송",
-  "existingSlugs": [],
+  "existingSlugs": ["lending-money-not-returned-lawsuit"],
   "keywords": [
     {"title":"소액사건 소장 제출에서 판결까지 전체 절차","slug":"complaint-to-judgment-full-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["소액사건심판법 제5조"],"internalLinks":{"hub":"/guide/small-claims","spokes":[]}},
     {"title":"지급명령 신청에서 확정까지 절차와 기간","slug":"payment-order-application-to-confirmation","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["민사소송법 제462조"],"internalLinks":{"hub":"/guide/small-claims","spokes":[]}},

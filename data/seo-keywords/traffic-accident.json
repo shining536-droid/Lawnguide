@@ -1,7 +1,7 @@
 {
   "domain": "traffic-accident",
   "domainLabel": "교통사고",
-  "existingSlugs": [],
+  "existingSlugs": ["how-much-settlement-appropriate-qa"],
   "keywords": [
     {"title":"교통사고 발생 후 합의 절차와 방법","slug":"accident-settlement-process","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["대법원 2018다256789"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},
     {"title":"교통사고 보험금 청구 절차 총정리","slug":"insurance-claim-process-summary","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["자동차손해배상보장법 제3조"],"internalLinks":{"hub":"/guide/traffic-accident","spokes":[]}},

@@ -1,7 +1,7 @@
 {
   "domain": "sexual-harassment",
   "domainLabel": "성희롱",
-  "existingSlugs": [],
+  "existingSlugs": ["physical-contact-at-company-dinner"],
   "keywords": [
     {"title":"직장 내 성희롱 발생 시 신고 절차와 대응","slug":"workplace-harassment-report-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["남녀고용평등과 일·가정 양립 지원에 관한 법률 제14조"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},
     {"title":"직장 내 성희롱 조사 절차와 소요 기간","slug":"investigation-procedure-and-timeline","type":"절차타임라인형","intent":"정보형","priority":"medium","cases":["남녀고용평등법 제14조 제2항"],"internalLinks":{"hub":"/guide/sexual-harassment","spokes":[]}},

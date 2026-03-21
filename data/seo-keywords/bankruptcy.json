@@ -1,7 +1,7 @@
 {
   "domain": "bankruptcy",
   "domainLabel": "개인파산",
-  "existingSlugs": [],
+  "existingSlugs": ["overwhelming-credit-card-debt-bankruptcy"],
   "keywords": [
     {"title":"개인파산 신청에서 면책 결정까지 전체 절차","slug":"application-to-discharge-full-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["채무자 회생 및 파산에 관한 법률 제305조"],"internalLinks":{"hub":"/guide/bankruptcy","spokes":[]}},
     {"title":"개인파산 면책심문 절차와 준비사항","slug":"discharge-hearing-procedure-preparation","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["채무자회생법 제556조"],"internalLinks":{"hub":"/guide/bankruptcy","spokes":[]}},

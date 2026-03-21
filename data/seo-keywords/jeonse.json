@@ -1,7 +1,7 @@
 {
   "domain": "jeonse",
   "domainLabel": "주택임대차",
-  "existingSlugs": ["deposit-return-process","no-registration-deposit-protection","landlord-unreachable-deposit","lease-expired-landlord-wont-leave","lease-renewal-rejection","deposit-lawsuit-preparation","jeonse-insurance-claim-checklist"],
+  "existingSlugs": ["deposit-return-process","no-registration-deposit-protection","landlord-unreachable-deposit","lease-expired-landlord-wont-leave","lease-renewal-rejection","deposit-lawsuit-preparation","jeonse-insurance-claim-checklist","deposit-return-checklist"],
   "keywords": [
     {"title":"전세보증금 반환 소송 전 준비 서류","slug":"deposit-lawsuit-docs","type":"준비서류형","intent":"행동형","priority":"high","cases":["대법원 2018다245648"],"internalLinks":{"hub":"/guide/jeonse","spokes":["/guide/jeonse/deposit-return-process","/guide/jeonse/deposit-lawsuit-preparation"]}},
     {"title":"전세 만료 후 집주인이 연락 안 될 때 대처법","slug":"landlord-no-contact-after-expiry","type":"상황형","intent":"정보형","priority":"high","cases":["대법원 2019다234567"],"internalLinks":{"hub":"/guide/jeonse","spokes":["/guide/jeonse/landlord-unreachable-deposit","/guide/jeonse/deposit-return-process"]}},

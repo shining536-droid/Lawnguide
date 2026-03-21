@@ -1,7 +1,7 @@
 {
   "domain": "digital-sex-crime",
   "domainLabel": "디지털성범죄",
-  "existingSlugs": [],
+  "existingSlugs": ["deepfake-distribution-legal-response"],
   "keywords": [
     {"title":"불법촬영 피해 발견 시 신고 및 삭제 요청 절차","slug":"hidden-camera-report-and-deletion-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["성폭력범죄의 처벌 등에 관한 특례법 제14조"],"internalLinks":{"hub":"/guide/digital-sex-crime","spokes":[]}},
     {"title":"디지털성범죄 피해영상 삭제 지원 서비스 이용 절차","slug":"victim-video-deletion-support-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["성폭력처벌법 제14조의3"],"internalLinks":{"hub":"/guide/digital-sex-crime","spokes":[]}},

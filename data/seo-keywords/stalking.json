@@ -1,7 +1,7 @@
 {
   "domain": "stalking",
   "domainLabel": "스토킹",
-  "existingSlugs": [],
+  "existingSlugs": ["cyber-stalking-repeated-dm"],
   "keywords": [
     {"title":"스토킹 피해 신고 절차와 접근금지 신청법","slug":"stalking-report-and-restraining-order","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["스토킹범죄의 처벌 등에 관한 법률 제3조"],"internalLinks":{"hub":"/guide/stalking","spokes":[]}},
     {"title":"스토킹 피해자 긴급응급조치 요청 방법","slug":"emergency-protective-measures","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["스토킹처벌법 제4조"],"internalLinks":{"hub":"/guide/stalking","spokes":[]}},

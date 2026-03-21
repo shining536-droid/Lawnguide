@@ -1,7 +1,7 @@
 {
   "domain": "dismissal",
   "domainLabel": "부당해고",
-  "existingSlugs": ["dismissal-notice-pay","unfair-dismissal-first-steps"],
+  "existingSlugs": ["dismissal-notice-pay","unfair-dismissal-first-steps","voluntary-resignation-vs-dismissal"],
   "keywords": [
     {"title":"부당해고 구제신청 절차와 기간","slug":"unfair-dismissal-relief-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["근로기준법 제28조"],"internalLinks":{"hub":"/guide/dismissal","spokes":["/guide/dismissal/unfair-dismissal-first-steps"]}},
     {"title":"해고 통보 받았을 때 어디부터 해야 하나","slug":"dismissed-where-to-start","type":"어디부터형","intent":"행동형","priority":"high","cases":["근로기준법 제27조"],"internalLinks":{"hub":"/guide/dismissal","spokes":["/guide/dismissal/unfair-dismissal-first-steps","/guide/dismissal/dismissal-notice-pay"]}},

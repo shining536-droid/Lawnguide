@@ -1,7 +1,7 @@
 {
   "domain": "school-violence",
   "domainLabel": "학교폭력",
-  "existingSlugs": [],
+  "existingSlugs": ["victim-response-complete-checklist"],
   "keywords": [
     {"title":"학교폭력 피해 신고 후 자치위원회 절차","slug":"report-to-committee-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["학교폭력예방 및 대책에 관한 법률 제16조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},
     {"title":"학교폭력 심의위원회 진행 절차와 소요 기간","slug":"review-committee-timeline","type":"절차타임라인형","intent":"정보형","priority":"medium","cases":["학교폭력예방법 제17조"],"internalLinks":{"hub":"/guide/school-violence","spokes":[]}},

@@ -1,7 +1,7 @@
 {
   "domain": "sex-crime",
   "domainLabel": "성범죄",
-  "existingSlugs": [],
+  "existingSlugs": ["what-exactly-is-sexual-assault-qa"],
   "keywords": [
     {"title":"강제추행 혐의 수사부터 재판까지 절차","slug":"sexual-assault-investigation-to-trial","type":"절차타임라인형","intent":"정보형","priority":"high","cases":["형법 제298조"],"internalLinks":{"hub":"/guide/sex-crime","spokes":[]}},
     {"title":"성폭력 피해 고소 절차와 방법","slug":"sexual-violence-complaint-process","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["성폭력범죄의처벌등에관한특례법 제3조"],"internalLinks":{"hub":"/guide/sex-crime","spokes":[]}},

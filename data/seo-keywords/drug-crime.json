@@ -1,7 +1,7 @@
 {
   "domain": "drug-crime",
   "domainLabel": "마약범죄",
-  "existingSlugs": [],
+  "existingSlugs": ["use-vs-possession-vs-dealing-penalty"],
   "keywords": [
     {"title":"마약 투약 혐의 수사 대응 절차","slug":"drug-use-investigation-response","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["마약류관리에관한법률 제60조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},
     {"title":"마약 소지 적발 후 형사 절차 흐름","slug":"drug-possession-criminal-process","type":"절차타임라인형","intent":"정보형","priority":"high","cases":["마약류관리에관한법률 제58조"],"internalLinks":{"hub":"/guide/drug-crime","spokes":[]}},

@@ -1,7 +1,7 @@
 {
   "domain": "defamation",
   "domainLabel": "명예훼손",
-  "existingSlugs": ["defamation-complaint-prep","online-defamation-response"],
+  "existingSlugs": ["defamation-complaint-prep","online-defamation-response","fact-vs-false-defamation"],
   "keywords": [
     {"title":"명예훼손 고소장 작성법과 핵심 기재사항","slug":"defamation-complaint-writing-guide","type":"템플릿형","intent":"행동형","priority":"high","cases":["형사소송법 제223조"],"internalLinks":{"hub":"/guide/defamation","spokes":["/guide/defamation/defamation-complaint-prep"]}},
     {"title":"사실 적시 명예훼손과 허위사실 명예훼손 차이","slug":"fact-vs-false-defamation","type":"비교형","intent":"비교형","priority":"high","cases":["형법 제307조","형법 제307조 제2항"],"internalLinks":{"hub":"/guide/defamation","spokes":["/guide/defamation/defamation-complaint-prep"]}},

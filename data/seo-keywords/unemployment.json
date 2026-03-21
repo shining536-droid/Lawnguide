@@ -1,7 +1,7 @@
 {
   "domain": "unemployment",
   "domainLabel": "실업급여",
-  "existingSlugs": [],
+  "existingSlugs": ["voluntary-resignation-benefit-eligible-cases"],
   "keywords": [
     {"title":"실업급여 신청에서 수급까지 전체 절차","slug":"application-to-payment-full-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["고용보험법 제40조"],"internalLinks":{"hub":"/guide/unemployment","spokes":[]}},
     {"title":"실업급여 수급자 구직활동 인정 절차","slug":"job-search-activity-recognition-procedure","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["고용보험법 제44조"],"internalLinks":{"hub":"/guide/unemployment","spokes":[]}},

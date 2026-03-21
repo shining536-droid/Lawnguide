@@ -1,7 +1,7 @@
 {
   "domain": "inheritance",
   "domainLabel": "상속",
-  "existingSlugs": ["inheritance-renunciation-process","limited-inheritance-acceptance"],
+  "existingSlugs": ["inheritance-renunciation-process","limited-inheritance-acceptance","inheritance-order-legal-share"],
   "keywords": [
     {"title":"상속 포기 신청 절차와 기한","slug":"inheritance-renunciation-deadline","type":"절차타임라인형","intent":"행동형","priority":"high","cases":["민법 제1019조"],"internalLinks":{"hub":"/guide/inheritance","spokes":["/guide/inheritance/inheritance-renunciation-process"]}},
     {"title":"상속 재산 조회 방법과 필요 서류","slug":"inheritance-asset-inquiry-method","type":"준비서류형","intent":"행동형","priority":"high","cases":["금융실명법 제4조의2"],"internalLinks":{"hub":"/guide/inheritance","spokes":["/guide/inheritance/inheritance-renunciation-process"]}},
