@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 로앤가이드 네이버 블로그 썸네일 + 핵심팁 카드 자동 생성
-- 법률 도메인별 배경색 + 뱃지
+- domain 기반 카테고리 매핑
 - 제목/팁 텍스트 정중앙 배치
 - Pillow만 사용
 """
@@ -13,20 +13,59 @@ OUTPUT_DIR = "./content/thumbnails"
 BRAND_TEXT = "로앤가이드"
 WIDTH, HEIGHT = 1200, 630
 
-CATEGORIES = {
-    "사기": {"keywords":["사기","횡령","배임","보이스피싱","중고거래"],"bg":(220,53,69),"sub":(180,40,55),"accent":(255,120,130),"badge":"FRAUD"},
-    "성범죄": {"keywords":["성범죄","성폭력","성추행","강제추행","성폭행"],"bg":(128,0,128),"sub":(100,0,100),"accent":(180,100,180),"badge":"CRIME"},
-    "폭행": {"keywords":["폭행","상해","협박","정당방위","쌍방폭행"],"bg":(255,127,0),"sub":(210,100,0),"accent":(255,180,80),"badge":"ASSAULT"},
-    "이혼": {"keywords":["이혼","양육비","재산분할","양육권","위자료"],"bg":(41,98,255),"sub":(30,75,200),"accent":(100,160,255),"badge":"DIVORCE"},
-    "전세": {"keywords":["전세","보증금","임대차","전세사기","깡통"],"bg":(0,150,100),"sub":(0,120,80),"accent":(80,200,150),"badge":"LEASE"},
-    "명예훼손": {"keywords":["명예훼손","모욕","악플","허위사실"],"bg":(0,51,102),"sub":(0,40,80),"accent":(60,120,180),"badge":"HONOR"},
-    "음주운전": {"keywords":["음주운전","음주측정","면허취소","혈중알콜"],"bg":(153,0,0),"sub":(120,0,0),"accent":(200,80,80),"badge":"DUI"},
-    "스토킹": {"keywords":["스토킹","접근금지","전연인"],"bg":(75,0,130),"sub":(55,0,100),"accent":(140,80,180),"badge":"STALK"},
-    "마약": {"keywords":["마약","필로폰","대마","투약","소지"],"bg":(30,30,30),"sub":(20,20,20),"accent":(100,100,100),"badge":"DRUG"},
-    "노동": {"keywords":["해고","임금","퇴직금","산재","최저임금","실업급여","밀린"],"bg":(0,40,80),"sub":(0,30,60),"accent":(60,100,160),"badge":"LABOR"},
-    "학폭": {"keywords":["학폭","학교폭력","따돌림","왕따"],"bg":(140,100,200),"sub":(110,75,170),"accent":(180,150,230),"badge":"SCHOOL"},
-    "상속": {"keywords":["상속","한정승인","유류분","상속포기"],"bg":(120,80,40),"sub":(90,60,30),"accent":(170,130,80),"badge":"INHERIT"},
-    "기본": {"keywords":[],"bg":(45,52,54),"sub":(30,35,38),"accent":(120,130,135),"badge":"LAW"},
+# 카테고리 색상 정의 (keywords 제거 — domain 매핑으로 대체)
+CAT_FRAUD = {"bg":(220,53,69),"sub":(180,40,55),"accent":(255,120,130),"badge":"FRAUD"}
+CAT_CRIME = {"bg":(128,0,128),"sub":(100,0,100),"accent":(180,100,180),"badge":"CRIME"}
+CAT_ASSAULT = {"bg":(255,127,0),"sub":(210,100,0),"accent":(255,180,80),"badge":"ASSAULT"}
+CAT_DIVORCE = {"bg":(41,98,255),"sub":(30,75,200),"accent":(100,160,255),"badge":"DIVORCE"}
+CAT_LEASE = {"bg":(0,150,100),"sub":(0,120,80),"accent":(80,200,150),"badge":"LEASE"}
+CAT_HONOR = {"bg":(0,51,102),"sub":(0,40,80),"accent":(60,120,180),"badge":"HONOR"}
+CAT_DUI = {"bg":(153,0,0),"sub":(120,0,0),"accent":(200,80,80),"badge":"DUI"}
+CAT_STALK = {"bg":(75,0,130),"sub":(55,0,100),"accent":(140,80,180),"badge":"STALK"}
+CAT_DRUG = {"bg":(30,30,30),"sub":(20,20,20),"accent":(100,100,100),"badge":"DRUG"}
+CAT_LABOR = {"bg":(0,40,80),"sub":(0,30,60),"accent":(60,100,160),"badge":"LABOR"}
+CAT_SCHOOL = {"bg":(140,100,200),"sub":(110,75,170),"accent":(180,150,230),"badge":"SCHOOL"}
+CAT_INHERIT = {"bg":(120,80,40),"sub":(90,60,30),"accent":(170,130,80),"badge":"INHERIT"}
+CAT_DEFAULT = {"bg":(45,52,54),"sub":(30,35,38),"accent":(120,130,135),"badge":"LAW"}
+
+DOMAIN_CATEGORIES = {
+    "fraud": CAT_FRAUD,
+    "sex-crime": CAT_CRIME,
+    "child-sex-crime": CAT_CRIME,
+    "digital-sex-crime": CAT_CRIME,
+    "assault": CAT_ASSAULT,
+    "divorce": CAT_DIVORCE,
+    "child-support": CAT_DIVORCE,
+    "jeonse": CAT_LEASE,
+    "jeonse-fraud": CAT_LEASE,
+    "defamation": CAT_HONOR,
+    "dui": CAT_DUI,
+    "stalking": CAT_STALK,
+    "drug-crime": CAT_DRUG,
+    "wage": CAT_LABOR,
+    "dismissal": CAT_LABOR,
+    "retirement": CAT_LABOR,
+    "industrial-accident": CAT_LABOR,
+    "unemployment": CAT_LABOR,
+    "sexual-harassment": CAT_LABOR,
+    "school-violence": CAT_SCHOOL,
+    "inheritance": CAT_INHERIT,
+    "rehabilitation": CAT_INHERIT,
+    "bankruptcy": CAT_INHERIT,
+    "small-claims": CAT_DEFAULT,
+    "real-estate-sale": CAT_LEASE,
+    "real-estate-auction": CAT_LEASE,
+    "neighbor-dispute": CAT_DEFAULT,
+    "sangga": CAT_LEASE,
+    "prostitution": CAT_DRUG,
+    "traffic-accident": CAT_DUI,
+}
+
+# badge → 카테고리명 역매핑 (로그 출력용)
+BADGE_TO_NAME = {
+    "FRAUD":"사기","CRIME":"성범죄","ASSAULT":"폭행","DIVORCE":"이혼",
+    "LEASE":"전세","HONOR":"명예훼손","DUI":"음주운전","STALK":"스토킹",
+    "DRUG":"마약","LABOR":"노동","SCHOOL":"학폭","INHERIT":"상속","LAW":"기본",
 }
 
 TIP_COLORS = [
@@ -35,12 +74,9 @@ TIP_COLORS = [
     {"bg":(255,127,0),"sub":(210,100,0),"accent":(255,180,80),"badge":"POINT"},
 ]
 
-def detect_category(title):
-    for k,v in CATEGORIES.items():
-        if k=="기본": continue
-        for kw in v["keywords"]:
-            if kw in title.lower(): return v
-    return CATEGORIES["기본"]
+def get_category(domain):
+    """domain 문자열로 카테고리 색상 딕셔너리 반환"""
+    return DOMAIN_CATEGORIES.get(domain, CAT_DEFAULT)
 
 def get_font(size, bold=False):
     paths = [
@@ -72,8 +108,8 @@ def draw_bg(draw, w, h, bg, sub):
     draw.rectangle([0,0,w,h], fill=bg)
     for i in range(-h, w+h, 80): draw.line([(i,0),(i+h,h)], fill=sub, width=2)
 
-def generate_thumbnail(title, output_path, brand=BRAND_TEXT):
-    cat = detect_category(title)
+def generate_thumbnail(title, output_path, cat=None, brand=BRAND_TEXT):
+    if cat is None: cat = CAT_DEFAULT
     img = Image.new('RGB', (WIDTH,HEIGHT), cat["bg"])
     draw = ImageDraw.Draw(img)
     draw_bg(draw, WIDTH, HEIGHT, cat["bg"], cat["sub"])
@@ -180,22 +216,11 @@ def generate_tip_card(tip_text, tip_num, output_path, brand=BRAND_TEXT):
     img.save(output_path, 'JPEG', quality=90)
 
 def parse_md(filepath):
-    """content/blog/ YAML frontmatter 형식 파싱
-
-    파일 구조:
-    ---
-    title: "제목"
-    ...
-    ---
-    ## 소제목
-    ### Tip 1. 핵심팁 내용
-    ### Tip 2. ...
-    ### Tip 3. ...
-    """
+    """content/blog/ YAML frontmatter 형식 파싱 — title + domain + tips 추출"""
     with open(filepath,'r',encoding='utf-8') as f: content=f.read()
 
     title=""
-    # YAML frontmatter에서 title 추출
+    domain=""
     parts = content.split('---', 2)
     if len(parts) >= 3:
         frontmatter = parts[1]
@@ -203,6 +228,9 @@ def parse_md(filepath):
         title_match = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', frontmatter, re.MULTILINE)
         if title_match:
             title = title_match.group(1).strip()
+        domain_match = re.search(r'^domain:\s*["\']?(.+?)["\']?\s*$', frontmatter, re.MULTILINE)
+        if domain_match:
+            domain = domain_match.group(1).strip()
     else:
         body = content
 
@@ -215,9 +243,7 @@ def parse_md(filepath):
     tips = []
     for m in re.finditer(r'###\s+Tip\s+\d+[.．]\s*(.+)', body):
         tip_text = m.group(1).strip()
-        # 마크다운 볼드 제거
         tip_text = re.sub(r'\*\*(.+?)\*\*', r'\1', tip_text)
-        # "— " 뒤의 부연설명 제거 (썸네일에 너무 길어짐)
         tip_text = re.split(r'\s*[—\-]{1,2}\s+', tip_text)[0]
         if len(tip_text) > 5:
             tips.append(tip_text)
@@ -227,30 +253,33 @@ def parse_md(filepath):
         for m in re.finditer(r'핵심\s*(?:팁|포인트)\s*\d*[：:]\s*(.+)', body):
             tips.append(m.group(1).strip())
 
-    return title, tips[:3]
+    return title, domain, tips[:3]
 
-def generate_all_images(content_dir=CONTENT_DIR, output_dir=OUTPUT_DIR, brand=BRAND_TEXT):
+def generate_all_images(content_dir=CONTENT_DIR, output_dir=OUTPUT_DIR, brand=BRAND_TEXT, force=False):
     os.makedirs(output_dir, exist_ok=True)
     md_files = sorted(glob.glob(os.path.join(content_dir,'*.md')))
     if not md_files: print(f"❌ {content_dir}에 md 파일 없음"); return
-    print(f"📂 {len(md_files)}개 md 파일\n📁 저장: {output_dir}\n")
+    print(f"📂 {len(md_files)}개 md 파일\n📁 저장: {output_dir}")
+    if force: print("🔄 강제 덮어쓰기 모드")
+    print()
     total=0
     for fp in md_files:
         base=os.path.basename(fp).replace('.md','')
-        title,tips=parse_md(fp)
-        print(f"  📄 {os.path.basename(fp)}")
+        title, domain, tips = parse_md(fp)
+        cat = get_category(domain)
+        cat_name = BADGE_TO_NAME.get(cat["badge"], "기본")
+        print(f"  📄 {os.path.basename(fp)} [{cat_name}]")
         tp=os.path.join(output_dir,f"{base}.jpg")
-        if not os.path.exists(tp):
+        if force or not os.path.exists(tp):
             try:
-                generate_thumbnail(title,tp,brand)
-                cn=[k for k,v in CATEGORIES.items() if v==detect_category(title)][0]
-                print(f"     ✅ 썸네일 [{cn}]"); total+=1
+                generate_thumbnail(title, tp, cat, brand)
+                print(f"     ✅ 썸네일 [{cat_name}]"); total+=1
             except Exception as e: print(f"     ❌ 썸네일: {e}")
         else:
             print(f"     ⏭️ 썸네일 이미 존재")
         for i,tip in enumerate(tips):
             tp2=os.path.join(output_dir,f"{base}_tip{i+1}.jpg")
-            if not os.path.exists(tp2):
+            if force or not os.path.exists(tp2):
                 try:
                     generate_tip_card(tip,i+1,tp2,brand)
                     print(f"     ✅ 팁{i+1}: {tip[:30]}..."); total+=1
@@ -265,5 +294,6 @@ if __name__=='__main__':
     p.add_argument('--content-dir',default=CONTENT_DIR)
     p.add_argument('--output-dir',default=OUTPUT_DIR)
     p.add_argument('--brand',default=BRAND_TEXT)
+    p.add_argument('--force',action='store_true',help='기존 이미지 덮어쓰기')
     a=p.parse_args()
-    generate_all_images(a.content_dir,a.output_dir,a.brand)
+    generate_all_images(a.content_dir,a.output_dir,a.brand,a.force)
