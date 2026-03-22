@@ -218,7 +218,7 @@ def parse_md_file(filepath: str) -> dict:
         if t and t not in seen:
             seen.add(t)
             unique_tags.append(t)
-    tags = unique_tags[:10]
+    tags = [t for t in unique_tags if t != "첫글"][:10]
 
     return {
         'title': title[:100],
@@ -544,6 +544,36 @@ async def input_tags(page, tags: list) -> bool:
 
 
 # ── CTA 링크 삽입 (OG링크 카드) ──────────────────────
+CTA_INTRO_LINES = [
+    "",
+    "━━━━━━━━━━━━━━━━━━━━",
+    "",
+    "법률 문제, 어디서부터 시작해야 할지 막막하신가요?",
+    "로앤가이드에서 1분이면 지금 할 일과 준비서류, 변호사를 안내해드립니다.",
+    "",
+]
+CTA_FOOTER_LINE = "31개 법률 분야 무료 진단 · 변호사 만나기 전 필수 체크"
+
+
+async def type_cta_intro(page):
+    """CTA OG링크 삽입 전 소개글 입력"""
+    for line in CTA_INTRO_LINES:
+        if line:
+            await page.keyboard.type(line, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
+        await page.keyboard.press('Enter')
+        await page.wait_for_timeout(random.randint(150, 300))
+    print("    📝 CTA 소개글 입력 완료")
+
+
+async def type_cta_footer(page):
+    """CTA OG링크 삽입 후 하단 문구 입력"""
+    await page.keyboard.press('Enter')
+    await page.wait_for_timeout(200)
+    await page.keyboard.type(CTA_FOOTER_LINE, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
+    await page.wait_for_timeout(random.randint(150, 300))
+    print("    📝 CTA 하단 문구 입력 완료")
+
+
 async def insert_cta_link(page) -> bool:
     """본문 끝에 OG링크 카드 삽입"""
     async def _handle_dialog(dialog):
@@ -1256,8 +1286,10 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
         print(f"    📄 본문 입력 완료 ({total_chars}자)")
         await page.wait_for_timeout(random.randint(1000, 2000))
 
-        # CTA 링크 삽입
+        # CTA 소개글 + 링크 삽입 (1차)
+        await type_cta_intro(page)
         await insert_cta_link(page)
+        await type_cta_footer(page)
         await page.wait_for_timeout(random.randint(500, 1000))
 
         # 팁카드 이미지 업로드
@@ -1268,8 +1300,10 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
         await upload_tip_cards(page, post['filename'])
         await page.wait_for_timeout(random.randint(500, 1000))
 
-        # CTA 링크 삽입 (2차)
+        # CTA 소개글 + 링크 삽입 (2차)
+        await type_cta_intro(page)
         await insert_cta_link(page)
+        await type_cta_footer(page)
         await page.wait_for_timeout(random.randint(500, 1000))
 
         await dismiss_all_popups(page)
