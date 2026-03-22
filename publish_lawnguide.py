@@ -203,11 +203,18 @@ def parse_md_file(filepath: str) -> dict:
     body = re.sub(r'🔗\s*lawnguide\.co\.kr\s*$', '', body, flags=re.MULTILINE)
     body = re.sub(r'\n{3,}', '\n\n', body).strip()
 
-    # 태그 정리 (중복 제거, 최대 10개)
+    # 태그 정리: 슬래시 분리 → 특수문자 제거 → 중복 제거
+    expanded_tags = []
+    for t in tags:
+        # 슬래시 포함 시 분리 (예: "폭행/상해" → ["폭행", "상해"])
+        parts = re.split(r'[/\\]', t)
+        expanded_tags.extend(parts)
+
     seen = set()
     unique_tags = []
-    for t in tags:
-        t = t.strip()
+    for t in expanded_tags:
+        # 특수문자 제거 (한글, 영문, 숫자, 공백만 유지)
+        t = re.sub(r'[#@!?&*~`^|<>{}\[\]()$%+=;:\'\",.·]', '', t).strip()
         if t and t not in seen:
             seen.add(t)
             unique_tags.append(t)
