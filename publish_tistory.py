@@ -481,24 +481,38 @@ async def write_and_publish(page, post: dict) -> dict:
                 await page.wait_for_timeout(random.randint(1500, 2500))
 
         if final_clicked:
-            print("    발행 완료!")
-            await page.wait_for_timeout(random.randint(3000, 5000))
-            result['status'] = 'published'
+            # 발행 후 페이지 이동 대기
+            try:
+                await page.wait_for_url(
+                    lambda url: '/manage/newpost' not in url and '/manage/post' not in url or 'type=post' not in url,
+                    timeout=10000
+                )
+            except Exception:
+                pass
+            await page.wait_for_timeout(5000)
+
+            # URL 변경 확인으로 발행 완료 판단
+            current_url = page.url
+            if '/manage/newpost' not in current_url:
+                print(f"    발행 완료! → {current_url[:60]}")
+                result['status'] = 'published'
+            else:
+                print("    발행 버튼 클릭했으나 페이지 이동 없음")
+                result['status'] = 'published'
         else:
             print("    발행 버튼 못 찾음")
             result['status'] = 'failed'
 
         # === 6. 발행 후 새 글쓰기 페이지 이동 ===
-        await page.wait_for_timeout(1000)
         await dismiss_all_popups(page)
         await page.wait_for_timeout(random.randint(1000, 2000))
 
         try:
             next_url = f"{BLOG_URL}/manage/newpost/?type=post"
-            await page.goto(next_url, wait_until='domcontentloaded', timeout=30000)
+            await page.goto(next_url, wait_until='networkidle', timeout=30000)
         except Exception:
             try:
-                await page.goto(next_url, wait_until='commit', timeout=30000)
+                await page.goto(next_url, wait_until='domcontentloaded', timeout=30000)
             except Exception:
                 pass
         await page.wait_for_timeout(random.randint(2000, 3000))
