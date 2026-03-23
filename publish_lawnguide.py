@@ -1377,11 +1377,34 @@ async def main():
     BLOG_ID = args.blog_id
     CONTENT_DIR = args.content_dir
 
+    # 이전 results 파일에서 발행 완료된 파일명 로드 (중복 발행 방지)
+    published_files = set()
+    for rf in glob.glob("publish_lawnguide_results_*.json"):
+        try:
+            with open(rf, 'r', encoding='utf-8') as f:
+                for item in json.load(f):
+                    if item.get('status') == 'published':
+                        published_files.add(item.get('filename', ''))
+        except Exception:
+            continue
+    if published_files:
+        print(f"📋 이전 발행 기록: {len(published_files)}개 파일")
+
     # md 파일 수집
     if args.files:
         md_files = args.files
     else:
         md_files = sorted(glob.glob(os.path.join(CONTENT_DIR, '*.md')))
+
+    # 중복 발행 방지: 이미 발행된 파일 스킵
+    filtered = []
+    for fp in md_files:
+        fname = os.path.basename(fp)
+        if fname in published_files:
+            print(f"  ⏭️ 이미 발행됨: {fname}")
+        else:
+            filtered.append(fp)
+    md_files = filtered
 
     if not md_files:
         print(f"❌ {CONTENT_DIR}에 md 파일이 없습니다.")

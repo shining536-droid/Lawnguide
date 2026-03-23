@@ -432,40 +432,57 @@ async def write_and_publish(page, post: dict) -> dict:
         if publish_btn:
             await publish_btn.click()
             print("    발행 팝업 열기")
-            await page.wait_for_timeout(random.randint(1500, 2500))
+            await page.wait_for_timeout(random.randint(2000, 3000))
         else:
             print("    완료 버튼 못 찾음")
             result['status'] = 'failed'
             return result
 
-        # === 5. 공개 발행 버튼 클릭 ===
+        # === 5. 공개 발행 버튼 클릭 (최대 3회 시도) ===
         final_clicked = False
-        for sel in ['button.btn_publish', 'button.btn-publish']:
+        for attempt in range(3):
+            # 1순위: button#publish-btn
             try:
-                elem = await page.query_selector(sel)
+                elem = await page.query_selector('button#publish-btn')
                 if elem and await elem.is_visible():
                     await elem.click()
                     final_clicked = True
                     break
             except Exception:
-                continue
+                pass
 
-        if not final_clicked:
+            # 2순위: button.btn-default:has-text("공개 발행")
             try:
-                buttons = await page.query_selector_all('button')
+                buttons = await page.query_selector_all('button.btn-default')
                 for btn in buttons:
                     text = (await btn.inner_text()).strip()
-                    if '발행' in text or '공개' in text:
+                    if '공개 발행' in text or '공개발행' in text:
                         if await btn.is_visible():
                             await btn.click()
                             final_clicked = True
                             break
+                if final_clicked:
+                    break
             except Exception:
                 pass
 
+            # 3순위: button[type="submit"].btn-default
+            try:
+                elem = await page.query_selector('button[type="submit"].btn-default')
+                if elem and await elem.is_visible():
+                    await elem.click()
+                    final_clicked = True
+                    break
+            except Exception:
+                pass
+
+            if attempt < 2:
+                print(f"    공개 발행 버튼 재시도 ({attempt + 2}/3)...")
+                await page.wait_for_timeout(random.randint(1500, 2500))
+
         if final_clicked:
             print("    발행 완료!")
-            await page.wait_for_timeout(random.randint(2000, 3000))
+            await page.wait_for_timeout(random.randint(3000, 5000))
             result['status'] = 'published'
         else:
             print("    발행 버튼 못 찾음")
@@ -531,11 +548,34 @@ async def main():
     BLOG_URL = args.blog_url
     CONTENT_DIR = args.content_dir
 
+    # 이전 results 파일에서 발행 완료된 파일명 로드 (중복 발행 방지)
+    published_files = set()
+    for rf in glob.glob("publish_tistory_lawnguide_results_*.json"):
+        try:
+            with open(rf, 'r', encoding='utf-8') as f:
+                for item in json.load(f):
+                    if item.get('status') == 'published':
+                        published_files.add(item.get('filename', ''))
+        except Exception:
+            continue
+    if published_files:
+        print(f"이전 발행 기록: {len(published_files)}개 파일")
+
     # md 파일 수집
     if args.files:
         md_files = args.files
     else:
         md_files = sorted(glob.glob(os.path.join(CONTENT_DIR, '*.md')))
+
+    # 중복 발행 방지: 이미 발행된 파일 스킵
+    filtered = []
+    for fp in md_files:
+        fname = os.path.basename(fp)
+        if fname in published_files:
+            print(f"  ⏭️ 이미 발행됨: {fname}")
+        else:
+            filtered.append(fp)
+    md_files = filtered
 
     # --limit 적용
     md_files = md_files[:args.limit]
