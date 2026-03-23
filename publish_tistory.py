@@ -128,6 +128,9 @@ def parse_md_file(filepath: str) -> dict:
             title = os.path.basename(filepath).replace('.md', '').replace('-', ' ')
 
     body = md_to_plain_text(body)
+    # 기존 CTA 텍스트 제거 (publish 시 새로 삽입)
+    body = re.sub(r'📌\s*로앤가이드에서 내 상황 정리해보기\s*\n*', '', body)
+    body = re.sub(r'https?://lawnguide\.co\.kr\s*', '', body)
     body = re.sub(r'\n{3,}', '\n\n', body).strip()
 
     title = re.sub(r'\*\*(.+?)\*\*', r'\1', title)
@@ -211,6 +214,45 @@ async def input_tags(page, tags: list) -> bool:
 
     print(f"    태그 {entered}/{len(tags)}개 입력")
     return entered > 0
+
+
+# ── CTA 링크 삽입 ────────────────────────────────────
+async def insert_cta_link(page) -> bool:
+    """본문 끝에 CTA 소개글 + OG 카드 링크 삽입"""
+    try:
+        cta_lines = [
+            "",
+            "\u2501" * 20,
+            "",
+            "법률 문제, 어디서부터 시작해야 할지 막막하신가요?",
+            "로앤가이드에서 1분이면 지금 할 일과 준비서류, 변호사를 안내해드립니다.",
+            "",
+        ]
+        for line in cta_lines:
+            if line:
+                await page.keyboard.type(line, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
+            await page.keyboard.press('Enter')
+            await page.wait_for_timeout(random.randint(200, 400))
+
+        # URL 단독 줄 (티스토리 OG 카드 자동 생성)
+        await page.keyboard.type("https://lawnguide.co.kr", delay=random.randint(30, 60))
+        await page.wait_for_timeout(300)
+        await page.keyboard.press('Enter')
+        await page.wait_for_timeout(random.randint(1000, 2000))
+
+        # 푸터
+        await page.keyboard.press('Enter')
+        await page.wait_for_timeout(300)
+        cta_footer = "31개 법률 분야 무료 진단 · 변호사 만나기 전 필수 체크"
+        await page.keyboard.type(cta_footer, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
+        await page.wait_for_timeout(random.randint(300, 500))
+
+        print("    CTA 링크 삽입 완료: https://lawnguide.co.kr")
+        return True
+
+    except Exception as e:
+        print(f"    CTA 삽입 실패: {str(e)[:50]} (발행 계속)")
+        return False
 
 
 # ── 글 작성 + 즉시 발행 ──────────────────────────────
@@ -354,6 +396,20 @@ async def write_and_publish(page, post: dict) -> dict:
             print("    본문 입력 실패 (3가지 방법 모두)")
 
         await page.wait_for_timeout(random.randint(1000, 2000))
+
+        # === CTA 삽입 ===
+        if body_entered and frame:
+            try:
+                body_elem = await frame.query_selector('body#tinymce, body')
+                if body_elem:
+                    await body_elem.click()
+                    await page.wait_for_timeout(300)
+                    await page.keyboard.press('Control+End')
+                    await page.wait_for_timeout(300)
+            except Exception:
+                pass
+        await insert_cta_link(page)
+        await page.wait_for_timeout(random.randint(500, 1000))
 
         # 팝업 체크
         await dismiss_all_popups(page)
