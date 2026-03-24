@@ -32,7 +32,7 @@ BLOG_URL = "https://lawnguide.tistory.com"
 CONTENT_DIR = "./content/tistory"
 COOKIE_FILE = "tistory_cookies_lawnguide.json"
 RESULTS_FILE = f"publish_tistory_lawnguide_results_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
-DAILY_LIMIT = 7
+DAILY_LIMIT = 10
 
 # Human-like delays (ms)
 BODY_DELAY_MIN = 30
