@@ -28,7 +28,7 @@ THUMBNAIL_DIR = "./content/thumbnails"
 COOKIE_FILE = "naver_cookies_lawnguide.json"
 RESULTS_FILE = f"publish_lawnguide_results_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
-DAILY_LIMIT = 7
+DAILY_LIMIT = 20
 START_HOUR = 9
 END_HOUR = 21
 INTERVAL_HOURS = 2
@@ -1315,9 +1315,7 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
             await input_tags(page, post.get('tags', []))
             await page.wait_for_timeout(random.randint(300, 600))
 
-            await set_schedule_time(page, scheduled_time)
-            await page.wait_for_timeout(random.randint(300, 600))
-
+            # 예약 없이 바로 현재 발행
             final_clicked = await click_final_publish(page)
 
             await page.wait_for_timeout(1000)
