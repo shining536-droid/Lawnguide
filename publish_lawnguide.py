@@ -1377,18 +1377,29 @@ async def main():
     BLOG_ID = args.blog_id
     CONTENT_DIR = args.content_dir
 
-    # 이전 results 파일에서 발행 완료된 파일명 로드 (중복 발행 방지)
+    # 이전 results 파일에서 발행 완료된 파일명 + 마지막 예약일 로드
     published_files = set()
+    last_scheduled = None
     for rf in glob.glob("publish_lawnguide_results_*.json"):
         try:
             with open(rf, 'r', encoding='utf-8') as f:
                 for item in json.load(f):
                     if item.get('status') == 'published':
                         published_files.add(item.get('filename', ''))
+                        st = item.get('scheduled_time', '')
+                        if st:
+                            try:
+                                dt = datetime.strptime(st[:10], '%Y-%m-%d')
+                                if last_scheduled is None or dt > last_scheduled:
+                                    last_scheduled = dt
+                            except ValueError:
+                                pass
         except Exception:
             continue
     if published_files:
         print(f"📋 이전 발행 기록: {len(published_files)}개 파일")
+    if last_scheduled:
+        print(f"📅 마지막 예약일: {last_scheduled.strftime('%Y-%m-%d')}")
 
     # md 파일 수집
     if args.files:
@@ -1412,8 +1423,14 @@ async def main():
 
     print(f"📂 {len(md_files)}개 md 파일 발견")
 
-    # 스케줄 생성
-    start_date = args.start_date or (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
+    # 스케줄 생성 — start_date 자동 계산: 이전 마지막 예약일 다음 날
+    if args.start_date:
+        start_date = args.start_date
+    elif last_scheduled:
+        start_date = (last_scheduled + timedelta(days=1)).strftime('%Y-%m-%d')
+        print(f"📅 자동 시작일: {start_date} (이전 마지막 예약일 +1)")
+    else:
+        start_date = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
     schedule = generate_schedule(len(md_files), start_date)
 
     end_date = schedule[-1].strftime('%m/%d') if schedule else '?'
