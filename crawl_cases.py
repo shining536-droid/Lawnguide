@@ -21,7 +21,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 API_LIST = "http://www.law.go.kr/DRF/lawSearch.do"
 API_DETAIL = "http://www.law.go.kr/DRF/lawService.do"
 OC = "lawnguide2026"
-MAX_PER_DOMAIN = 30
+MAX_PER_DOMAIN = 100
 API_DELAY = 0.5
 
 # ── 도메인별 검색어 ──────────────────────────────────
@@ -34,18 +34,18 @@ DOMAIN_QUERIES = {
     "stalking": ["스토킹", "접근금지"],
     "drug-crime": ["마약", "필로폰", "대마", "향정신성"],
     "child-sex-crime": ["아동성폭력", "아동학대", "미성년"],
-    "digital-sex-crime": ["불법촬영", "성착취물", "디지털성범죄"],
-    "school-violence": ["학교폭력", "학폭", "따돌림"],
+    "digital-sex-crime": ["불법촬영", "성착취물", "디지털성범죄", "통신매체이용음란", "성적촬영물", "리벤지포르노"],
+    "school-violence": ["학교폭력", "학폭", "따돌림", "학교폭력위원회", "학폭위", "왕따", "집단따돌림", "학생폭력"],
     "prostitution": ["성매매", "성매매알선"],
     "divorce": ["이혼", "양육권", "재산분할", "위자료"],
     "child-support": ["양육비", "양육비이행"],
     "jeonse": ["전세보증금", "임대차", "보증금반환"],
-    "jeonse-fraud": ["전세사기", "깡통전세"],
-    "sangga": ["상가임대차", "권리금", "상가보증금"],
+    "jeonse-fraud": ["전세사기", "깡통전세", "전세보증금사기", "임차인사기", "보증금횡령", "전세피해"],
+    "sangga": ["상가임대차", "권리금", "상가보증금", "상가건물임대차", "상가권리금분쟁", "상가퇴거"],
     "inheritance": ["상속", "유류분", "한정승인", "상속포기"],
     "rehabilitation": ["개인회생", "면책", "변제"],
     "bankruptcy": ["파산", "면책", "채무"],
-    "small-claims": ["소액소송", "지급명령", "소액재판"],
+    "small-claims": ["소액소송", "지급명령", "소액재판", "소액사건", "민사소액", "지급명령이의"],
     "real-estate-sale": ["부동산매매", "계약해제", "하자"],
     "real-estate-auction": ["경매", "부동산경매", "배당"],
     "wage": ["임금체불", "체불임금", "퇴직금", "최저임금"],
@@ -55,7 +55,7 @@ DOMAIN_QUERIES = {
     "unemployment": ["실업급여", "고용보험"],
     "sexual-harassment": ["직장내성희롱", "성희롱"],
     "traffic-accident": ["교통사고", "과실치상", "보험금"],
-    "neighbor-dispute": ["층간소음", "이웃분쟁", "소음"],
+    "neighbor-dispute": ["층간소음", "이웃분쟁", "소음", "소음피해", "층간소음분쟁", "생활소음", "공사소음"],
 }
 
 
@@ -119,13 +119,14 @@ def fetch_detail(case_id):
     }
 
 
-def collect_domain(domain, queries):
+def collect_domain(domain, queries, existing_ids=None, max_collect=None):
     """도메인 하나에 대해 판례 수집"""
-    seen_ids = set()
+    seen_ids = set(existing_ids or [])
+    limit = max_collect or MAX_PER_DOMAIN
     cases = []
 
     for query in queries:
-        if len(cases) >= MAX_PER_DOMAIN:
+        if len(cases) >= limit:
             break
         try:
             results = search_cases(query)
@@ -135,7 +136,7 @@ def collect_domain(domain, queries):
             continue
 
         for item in results:
-            if len(cases) >= MAX_PER_DOMAIN:
+            if len(cases) >= limit:
                 break
             cid = item["id"]
             if not cid or cid in seen_ids:
@@ -174,27 +175,38 @@ def main():
         queries = DOMAIN_QUERIES[domain]
         print(f"[{i}/{len(domains)}] {domain} (검색어: {', '.join(queries)})")
 
-        cases = collect_domain(domain, queries)
-
-        # 저장
+        # 기존 파일 로드
         out_dir = os.path.join("kb", domain)
         os.makedirs(out_dir, exist_ok=True)
         out_path = os.path.join(out_dir, "cases.json")
 
-        # 기존 파일 있으면 병합 (중복 제거)
+        existing = []
+        existing_ids = set()
         if os.path.exists(out_path):
             with open(out_path, "r", encoding="utf-8") as f:
                 existing = json.load(f)
             existing_ids = {c["판례일련번호"] for c in existing}
-            new_cases = [c for c in cases if c["판례일련번호"] not in existing_ids]
-            cases = existing + new_cases
+
+        need = MAX_PER_DOMAIN - len(existing)
+        if need <= 0:
+            print(f"  📄 {domain}: {len(existing)}개 이미 충분 (목표 {MAX_PER_DOMAIN}개)\n")
+            total += len(existing)
+            continue
+
+        print(f"  기존 {len(existing)}개, 추가 {need}개 수집 중...")
+        cases = collect_domain(domain, queries, existing_ids, max_collect=need)
+        all_cases = existing + cases
+
+        # 최신순 정렬
+        all_cases.sort(key=lambda c: c.get("선고일자", ""), reverse=True)
 
         with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(cases, f, ensure_ascii=False, indent=2)
+            json.dump(all_cases, f, ensure_ascii=False, indent=2)
 
-        count = len(cases)
+        count = len(all_cases)
+        new_count = len(cases)
         total += count
-        print(f"  📄 {domain}: {count}/{MAX_PER_DOMAIN}개 수집 완료 → {out_path}\n")
+        print(f"  📄 {domain}: {count}/{MAX_PER_DOMAIN}개 (신규 {new_count}개) → {out_path}\n")
 
     print(f"\n✅ 전체 완료: {len(domains)}개 도메인, 총 {total}건 수집")
 
