@@ -15,13 +15,13 @@ import time
 import sys
 import io
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", line_buffering=True)
 
 # ── 설정 ──────────────────────────────────────────────
 API_LIST = "http://www.law.go.kr/DRF/lawSearch.do"
 API_DETAIL = "http://www.law.go.kr/DRF/lawService.do"
 OC = "lawnguide2026"
-MAX_PER_DOMAIN = 100
+MAX_PER_DOMAIN = 300
 API_DELAY = 0.5
 
 # ── 도메인별 검색어 ──────────────────────────────────
@@ -73,29 +73,42 @@ def fetch_url(url):
         return resp.read().decode("utf-8")
 
 
-def search_cases(query, display=100):
-    """목록 API 호출 → (판례일련번호, 사건명, 사건번호, 선고일자, 데이터출처명) 리스트"""
-    params = urllib.parse.urlencode({
-        "OC": OC, "target": "prec", "type": "XML",
-        "query": query, "display": display, "sort": "ddes", "page": 1,
-    })
-    url = f"{API_LIST}?{params}"
-    text = fetch_url(url)
-    root = ET.fromstring(text)
-
+def search_cases(query, max_results=300):
+    """목록 API 페이지네이션 호출 → (판례일련번호, 사건명, 사건번호, 선고일자) 리스트"""
     results = []
-    for prec in root.findall(".//prec"):
-        children = {c.tag: (c.text or "").strip() for c in prec}
-        # 국세법령정보시스템 출처 제외
-        source = children.get("데이터출처명", "")
-        if "국세" in source:
-            continue
-        results.append({
-            "id": children.get("판례일련번호", ""),
-            "사건명": clean_html(children.get("사건명", "")),
-            "사건번호": children.get("사건번호", ""),
-            "선고일자": children.get("선고일자", ""),
+    page = 1
+    display = 100
+
+    while len(results) < max_results:
+        params = urllib.parse.urlencode({
+            "OC": OC, "target": "prec", "type": "XML",
+            "query": query, "display": display, "sort": "ddes", "page": page,
         })
+        url = f"{API_LIST}?{params}"
+        text = fetch_url(url)
+        root = ET.fromstring(text)
+
+        precs = root.findall(".//prec")
+        if not precs:
+            break
+
+        for prec in precs:
+            children = {c.tag: (c.text or "").strip() for c in prec}
+            source = children.get("데이터출처명", "")
+            if "국세" in source:
+                continue
+            results.append({
+                "id": children.get("판례일련번호", ""),
+                "사건명": clean_html(children.get("사건명", "")),
+                "사건번호": children.get("사건번호", ""),
+                "선고일자": children.get("선고일자", ""),
+            })
+
+        if len(precs) < display:
+            break
+        page += 1
+        time.sleep(API_DELAY)
+
     return results
 
 
