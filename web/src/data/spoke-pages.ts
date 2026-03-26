@@ -93,6 +93,12 @@ import { spokesBatch10Pages11to15 } from './spoke/spokes-batch10-11to15';
 import { spokesBatch10Pages16to20 } from './spoke/spokes-batch10-16to20';
 import { spokesBatch10Pages21to25 } from './spoke/spokes-batch10-21to25';
 import { spokesBatch10Pages26to30 } from './spoke/spokes-batch10-26to30';
+import { spokesBatch11Part1Pages } from './spoke/spokes-batch11-part1';
+import { spokesBatch11Part2Pages } from './spoke/spokes-batch11-part2';
+import { spokesBatch11Pages11to15 } from './spoke/spokes-batch11-11to15';
+import { spokesBatch11Pages16to20 } from './spoke/spokes-batch11-16to20';
+import { spokesBatch11Pages21to25 } from './spoke/spokes-batch11-21to25';
+import { spokesBatch11Pages26to30 } from './spoke/spokes-batch11-26to30';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -143,6 +149,12 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch10Pages16to20,
   ...spokesBatch10Pages21to25,
   ...spokesBatch10Pages26to30,
+  ...spokesBatch11Part1Pages,
+  ...spokesBatch11Part2Pages,
+  ...spokesBatch11Pages11to15,
+  ...spokesBatch11Pages16to20,
+  ...spokesBatch11Pages21to25,
+  ...spokesBatch11Pages26to30,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {

@@ -28,7 +28,7 @@ THUMBNAIL_DIR = "./content/thumbnails"
 COOKIE_FILE = "naver_cookies_lawnguide.json"
 RESULTS_FILE = f"publish_lawnguide_results_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
-DAILY_LIMIT = 20
+DAILY_LIMIT = 30
 START_HOUR = 9
 END_HOUR = 21
 INTERVAL_HOURS = 2
