@@ -181,9 +181,17 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     return questions.length - groupSize * Math.max(0, branchPrefixes.size - 1);
   }, [questions]);
 
-  /* ── Auto scroll ── */
+  /* ── Auto scroll — show newest message without jumping past it ── */
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (!scrollRef.current) return;
+    const el = scrollRef.current;
+    // Only auto-scroll if user is near the bottom (within 300px)
+    const isNearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 300;
+    if (isNearBottom) {
+      requestAnimationFrame(() => {
+        el.scrollTo({ top: el.scrollHeight - el.clientHeight, behavior: 'smooth' });
+      });
+    }
   }, [messages, isTyping]);
 
   /* ── Add message with optional typing delay ── */
@@ -716,7 +724,7 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
   };
 
   return (
-    <div className="flex flex-col h-[calc(100vh-8rem)] bg-gray-50">
+    <div className="flex flex-col h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)] bg-gray-50">
       {/* Header */}
       <div className="flex items-center justify-between border-b border-gray-200 bg-white px-4 py-3">
         <div className="flex items-center gap-2">
