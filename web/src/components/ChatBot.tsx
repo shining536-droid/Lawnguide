@@ -70,6 +70,61 @@ const REFLECTIONS: Record<string, Record<string, string>> = {
     '피해를 입었습니다': '피해를 입으신 상황이시군요. 상황을 좀 더 파악해볼게요.',
     '혐의를 받고 있습니다': '혐의를 받고 계신 상황으로 이해했어요. 대응 준비를 도와드릴게요.',
     '사실과 다르게 신고되었다고 생각합니다': '억울한 상황이시군요. 정확한 대응 방향을 정리해드릴게요.',
+    '이혼을 원합니다': '이혼을 결심하신 상황이군요. 절차와 준비사항을 정리해드릴게요.',
+    '이혼을 요구받고 있습니다': '이혼을 요구받고 계시군요. 대응 방법을 함께 정리해볼게요.',
+    '사실과 다른 주장을 받고 있습니다 (허위 가정폭력 등)': '억울한 상황이시군요. 정확한 대응 방향을 정리해드릴게요.',
+  },
+  progress_stage: {
+    '시작 전': '아직 초기 단계시군요. 지금 움직이면 유리합니다.',
+    '시작': '아직 초기 단계시군요. 지금 움직이면 유리합니다.',
+    '진행 중': '이미 진행 중이시군요. 놓치기 쉬운 부분을 체크해드릴게요.',
+    '진행중': '이미 진행 중이시군요. 놓치기 쉬운 부분을 체크해드릴게요.',
+  },
+  timeline: {
+    '며칠 이내': '최근에 발생한 상황이시군요. 빠른 대응이 중요합니다.',
+    '1주일 이내': '최근에 발생한 상황이시군요. 빠른 대응이 중요합니다.',
+    '1개월 이내': '한 달 이내 상황이시군요. 아직 대응할 시간이 있습니다.',
+    '1개월 이상': '시간이 좀 지났지만, 지금이라도 정리하면 도움이 됩니다.',
+  },
+};
+
+/* Domain+perspective specific reflections */
+const DOMAIN_REFLECTIONS: Record<string, Record<string, string>> = {
+  fraud: {
+    victim: '사기 피해는 초기 증거 확보가 가장 중요해요.',
+    offender: '사기 혐의는 초기 대응이 결과를 크게 바꿀 수 있어요.',
+  },
+  assault: {
+    victim: '폭행 피해는 진단서와 현장 증거가 핵심이에요.',
+    offender: '폭행 혐의는 정당방위 여부와 합의가 중요합니다.',
+  },
+  dui: {
+    offender: '음주운전은 초기 대응에 따라 처벌이 크게 달라져요.',
+  },
+  divorce: {
+    victim: '이혼 준비는 증거와 재산 파악이 먼저예요.',
+  },
+  'sex-crime': {
+    victim: '성범죄 피해는 즉시 증거 보전이 가장 중요합니다.',
+    offender: '성범죄 혐의는 초기 진술이 매우 중요해요. 신중하게 대응하세요.',
+    falsely_accused: '억울한 상황일수록 체계적인 증거 확보가 중요합니다.',
+  },
+  'jeonse-fraud': {
+    victim: '전세사기는 시간이 중요해요. 빠르게 움직이셔야 합니다.',
+  },
+  stalking: {
+    victim: '스토킹 피해는 기록이 곧 증거입니다. 꼼꼼히 정리해볼게요.',
+  },
+  'drug-crime': {
+    offender: '마약 사건은 변호사 선임 전 진술이 매우 중요합니다.',
+  },
+  defamation: {
+    victim: '명예훼손은 증거 캡처 시점이 핵심이에요.',
+    offender: '명예훼손 혐의는 공익성과 진실 여부가 중요합니다.',
+  },
+  'school-violence': {
+    victim: '학교폭력은 신고 시점과 증거 확보가 결과를 바꿔요.',
+    offender: '학교폭력 가해자 지정은 자치위원회 대응이 중요합니다.',
   },
 };
 
@@ -447,6 +502,22 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
 
       if (reflection) {
         addBotMessage({ type: 'reflection', content: reflection }, () => {
+          // After perspective, also show domain-specific reflection
+          if (currentQuestion.field === 'perspective' && selectedDomain) {
+            const perspectiveMap: Record<string, string> = {
+              '피해를 입었습니다': 'victim',
+              '혐의를 받고 있습니다': 'offender',
+              '사실과 다르게 신고되었다고 생각합니다': 'falsely_accused',
+            };
+            const pKey = perspectiveMap[value];
+            const domainRef = pKey && DOMAIN_REFLECTIONS[selectedDomain]?.[pKey];
+            if (domainRef) {
+              addBotMessage({ type: 'reflection', content: domainRef }, () => {
+                advanceToNext(nid, newAnswers, history);
+              });
+              return;
+            }
+          }
           advanceToNext(nid, newAnswers, history);
         });
       } else {
@@ -594,17 +665,25 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
       case 'reflection':
       case 'progress':
         return (
-          <div key={msg.id} className="flex justify-start">
-            <div
-              className={`max-w-[85%] rounded-2xl rounded-tl-md border px-4 py-3 shadow-sm ${
-                msg.type === 'progress'
-                  ? 'border-primary-100 bg-primary-50 text-primary-700'
-                  : msg.type === 'reflection'
-                    ? 'border-blue-100 bg-blue-50 text-blue-800'
-                    : 'border-gray-100 bg-white text-gray-800'
-              }`}
-            >
-              <p className="text-[15px] leading-relaxed">{msg.content}</p>
+          <div key={msg.id} className="flex items-start gap-2">
+            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center mt-0.5">
+              <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+              </svg>
+            </div>
+            <div className="flex flex-col gap-0.5 max-w-[80%]">
+              <span className="text-[11px] font-semibold text-gray-400">로앤가이드 AI</span>
+              <div
+                className={`rounded-2xl rounded-tl-md border px-4 py-3 shadow-sm ${
+                  msg.type === 'progress'
+                    ? 'border-primary-100 bg-primary-50 text-primary-700'
+                    : msg.type === 'reflection'
+                      ? 'border-blue-100 bg-blue-50 text-blue-800'
+                      : 'border-gray-100 bg-white text-gray-800'
+                }`}
+              >
+                <p className="text-[15px] leading-relaxed">{msg.content}</p>
+              </div>
             </div>
           </div>
         );
@@ -621,9 +700,17 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
       case 'options':
         return (
           <div key={msg.id} className="flex flex-col gap-3">
-            <div className="flex justify-start">
-              <div className="max-w-[85%] rounded-2xl rounded-tl-md border border-gray-100 bg-white px-4 py-3 shadow-sm">
-                <p className="text-[15px] leading-relaxed text-gray-800">{msg.content}</p>
+            <div className="flex items-start gap-2">
+              <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center mt-0.5">
+                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+                </svg>
+              </div>
+              <div className="flex flex-col gap-0.5 max-w-[80%]">
+                <span className="text-[11px] font-semibold text-gray-400">로앤가이드 AI</span>
+                <div className="rounded-2xl rounded-tl-md border border-gray-100 bg-white px-4 py-3 shadow-sm">
+                  <p className="text-[15px] leading-relaxed text-gray-800">{msg.content}</p>
+                </div>
               </div>
             </div>
             {isLastOptions && msg.options && (

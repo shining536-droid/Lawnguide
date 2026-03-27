@@ -27,7 +27,7 @@ function RiskBadge({ level }: { level: string }) {
 /* ─── Section divider ─── */
 function SectionHeader({ icon, title }: { icon: React.ReactNode; title: string }) {
   return (
-    <div className="flex items-center gap-2 pt-6 pb-3 border-t border-gray-100 first:border-t-0 first:pt-0">
+    <div className="flex items-center gap-2 pt-8 pb-3 mt-2 border-t border-gray-200 first:border-t-0 first:pt-0 first:mt-0">
       {icon}
       <h4 className="font-bold text-gray-900">{title}</h4>
     </div>
@@ -73,12 +73,37 @@ function DocCheckbox({ doc, checked, onToggle }: { doc: DocumentItem; checked: b
 
 /* ─── Main Component ─── */
 export default function ChatResultCard({ result, answers, domainName, onRestart }: ChatResultCardProps) {
-  // Interactive checklist state for documents
+  // Connect diagnosis answers to document checklist
+  // Parse user's existing docs/evidence from answers
+  const userExistingDocs = new Set<string>();
+  for (const [, val] of Object.entries(answers)) {
+    if (typeof val === 'string' && val.includes(',')) {
+      val.split(',').forEach((v) => userExistingDocs.add(v.trim()));
+    }
+  }
+
   const allDocs = [
     ...(result.checklist_priority ?? []),
     ...(result.checklist_optional ?? []),
   ];
-  const [checkedDocs, setCheckedDocs] = useState<Record<number, boolean>>({});
+
+  // Auto-check docs that match user's selected evidence/documents
+  const initialChecked: Record<number, boolean> = {};
+  allDocs.forEach((doc, i) => {
+    if (doc.status === 'has') {
+      initialChecked[i] = true;
+    } else {
+      // Check if any user answer mentions this doc
+      for (const keyword of Array.from(userExistingDocs)) {
+        if (keyword && doc.label.includes(keyword)) {
+          initialChecked[i] = true;
+          break;
+        }
+      }
+    }
+  });
+
+  const [checkedDocs, setCheckedDocs] = useState<Record<number, boolean>>(initialChecked);
 
   const toggleDoc = useCallback((index: number) => {
     setCheckedDocs((prev) => ({ ...prev, [index]: !prev[index] }));
