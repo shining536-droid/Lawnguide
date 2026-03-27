@@ -27,7 +27,7 @@ function RiskBadge({ level }: { level: string }) {
 /* ─── Section divider ─── */
 function SectionHeader({ icon, title }: { icon: React.ReactNode; title: string }) {
   return (
-    <div className="flex items-center gap-2 pt-8 pb-3 mt-2 border-t border-gray-200 first:border-t-0 first:pt-0 first:mt-0">
+    <div className="flex items-center gap-2 pt-10 pb-4 mt-4 border-t border-gray-200 first:border-t-0 first:pt-0 first:mt-0">
       {icon}
       <h4 className="font-bold text-gray-900">{title}</h4>
     </div>
