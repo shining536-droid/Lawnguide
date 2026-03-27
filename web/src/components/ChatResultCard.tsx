@@ -133,7 +133,7 @@ export default function ChatResultCard({ result, answers, domainName, onRestart 
         <p className="text-sm text-gray-500 mt-1 leading-relaxed">{result.status_summary}</p>
       </div>
 
-      <div className="px-5 pb-5 space-y-0">
+      <div className="px-5 pb-5 space-y-6">
         {/* ═══ 1. 진행 타임라인 ═══ */}
         {result.timeline_steps && result.timeline_steps.length > 0 && (
           <div>
