@@ -199,29 +199,47 @@ export default function HomeContent() {
       </section>
 
       {/* ========== 신뢰 섹션 ========== */}
-      <section className="border-b border-gray-100 bg-gray-50 py-10 md:py-12">
+      <section className="border-b border-gray-100 bg-gray-50 py-12 md:py-16">
         <div className="container-wide">
-          <p className="mb-6 text-center text-sm font-medium text-gray-500 md:text-base">
+          <h2 className="mb-3 text-center text-lg font-bold text-navy-700 md:text-xl">
+            데이터 기반 법률 준비 도우미
+          </h2>
+          <p className="mb-8 text-center text-sm text-gray-500 md:text-base">
             20,455건 판례 · 6,493개 법조문 · 5,471건 상담사례 기반
           </p>
-          <div className="mx-auto grid max-w-3xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-6">
-            <div className="flex items-start gap-3 rounded-xl bg-white px-5 py-4 shadow-sm">
-              <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
-              </svg>
-              <span className="text-sm font-medium text-navy-700">31개 법률 분야 지원</span>
+          <div className="mx-auto grid max-w-3xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
+            {/* 카드 1: 판례 분석 */}
+            <div className="flex flex-col items-center rounded-2xl bg-white px-6 py-7 text-center shadow-sm border border-gray-100">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary-50">
+                <svg className="h-6 w-6 text-primary-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                </svg>
+              </div>
+              <span className="mt-3 text-2xl font-bold text-navy-700">20,455건</span>
+              <span className="mt-1 text-sm font-semibold text-primary-600">판례 분석</span>
+              <span className="mt-2 text-xs text-gray-500">법제처 공공데이터 기반<br />실제 판례에서 핵심만 추출</span>
             </div>
-            <div className="flex items-start gap-3 rounded-xl bg-white px-5 py-4 shadow-sm">
-              <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-              </svg>
-              <span className="text-sm font-medium text-navy-700">피해자·혐의자·억울한 상황까지 나눠서 안내</span>
+            {/* 카드 2: 법조문 해설 */}
+            <div className="flex flex-col items-center rounded-2xl bg-white px-6 py-7 text-center shadow-sm border border-gray-100">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-amber-50">
+                <svg className="h-6 w-6 text-amber-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+                </svg>
+              </div>
+              <span className="mt-3 text-2xl font-bold text-navy-700">6,493개</span>
+              <span className="mt-1 text-sm font-semibold text-amber-600">법조문 해설</span>
+              <span className="mt-2 text-xs text-gray-500">이지법 데이터 기반<br />어려운 법을 쉽게 설명</span>
             </div>
-            <div className="flex items-start gap-3 rounded-xl bg-white px-5 py-4 shadow-sm">
-              <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-              </svg>
-              <span className="text-sm font-medium text-navy-700">상담 전 준비 요약본 제공</span>
+            {/* 카드 3: 31개 분야 */}
+            <div className="flex flex-col items-center rounded-2xl bg-white px-6 py-7 text-center shadow-sm border border-gray-100">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-50">
+                <svg className="h-6 w-6 text-emerald-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+              </div>
+              <span className="mt-3 text-2xl font-bold text-navy-700">31개 분야</span>
+              <span className="mt-1 text-sm font-semibold text-emerald-600">무료 법률 진단</span>
+              <span className="mt-2 text-xs text-gray-500">피해자·가해자·무고까지<br />관점별 맞춤 안내</span>
             </div>
           </div>
         </div>
