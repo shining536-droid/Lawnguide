@@ -28,7 +28,7 @@ THUMBNAIL_DIR = "./content/thumbnails"
 COOKIE_FILE = "naver_cookies_lawnguide.json"
 RESULTS_FILE = f"publish_lawnguide_results_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
-DAILY_LIMIT = 30
+DAILY_LIMIT = 35
 START_HOUR = 9
 END_HOUR = 21
 INTERVAL_HOURS = 2
@@ -1362,10 +1362,10 @@ async def load_cookies(context):
 async def main():
     global BLOG_ID, CONTENT_DIR
 
-    parser = argparse.ArgumentParser(description='로앤가이드 네이버 블로그 자동 예약발행')
+    parser = argparse.ArgumentParser(description='로앤가이드 네이버 블로그 즉시발행')
     parser.add_argument('--content-dir', default=CONTENT_DIR, help='md 파일 폴더 경로')
     parser.add_argument('--blog-id', default=BLOG_ID, help='네이버 블로그 ID')
-    parser.add_argument('--start-date', default=None, help='예약 시작일 (YYYY-MM-DD)')
+    parser.add_argument('--start-date', default=None, help='(미사용) 예약 시작일')
     parser.add_argument('--daily-limit', type=int, default=DAILY_LIMIT, help='하루 발행 수')
     parser.add_argument('--dry-run', action='store_true', help='실제 발행하지 않고 파싱만 확인')
     parser.add_argument('--all', action='store_true', help='모든 md 파일 발행')
@@ -1421,19 +1421,9 @@ async def main():
 
     print(f"📂 {len(md_files)}개 md 파일 발견")
 
-    # 스케줄 생성 — start_date 자동 계산: 이전 마지막 예약일 다음 날
-    if args.start_date:
-        start_date = args.start_date
-    elif last_scheduled:
-        start_date = (last_scheduled + timedelta(days=1)).strftime('%Y-%m-%d')
-        print(f"📅 자동 시작일: {start_date} (이전 마지막 예약일 +1)")
-    else:
-        start_date = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
-    schedule = generate_schedule(len(md_files), start_date)
-
-    end_date = schedule[-1].strftime('%m/%d') if schedule else '?'
-    start_date_fmt = datetime.strptime(start_date, '%Y-%m-%d').strftime('%m/%d')
-    print(f"📅 스케줄: {start_date_fmt} ~ {end_date} ({len(md_files)}개, 하루 {args.daily_limit}개)")
+    # 즉시 발행 모드
+    now = datetime.now()
+    print(f"📅 즉시 발행 모드 ({len(md_files)}개)")
 
     # 파싱 및 미리보기
     posts = []
@@ -1443,12 +1433,11 @@ async def main():
 
     if args.dry_run:
         print(f"\n🔍 드라이런 모드 — 실제 발행하지 않습니다.\n")
-        for i, (post, sched) in enumerate(zip(posts, schedule)):
+        for i, post in enumerate(posts):
             print(f"  📄 {post['filename']}")
             print(f"     제목: {post['title']}")
             print(f"     본문: {len(post['body'])}자")
             print(f"     태그: {', '.join(post['tags']) if post['tags'] else '(없음)'}")
-            print(f"     예약: {sched.strftime('%m/%d %H:%M')}")
             print()
         return
 
@@ -1500,11 +1489,10 @@ async def main():
 
         print(f"\n{'='*50}")
 
-        for i, (post, sched) in enumerate(zip(posts, schedule)):
+        for i, post in enumerate(posts):
             print(f"\n[{i+1}/{len(posts)}] {post['filename']}")
-            print(f"  예약시간: {sched.strftime('%Y-%m-%d %H:%M')}")
 
-            result = await write_and_publish(page, post, sched, BLOG_ID)
+            result = await write_and_publish(page, post, now, BLOG_ID)
             results.append(result)
 
             status_emoji = {'published': '✅', 'temp_saved': '💾', 'failed': '❌', 'error': '❌'}.get(result['status'], '❓')
