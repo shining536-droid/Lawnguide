@@ -181,17 +181,16 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     return questions.length - groupSize * Math.max(0, branchPrefixes.size - 1);
   }, [questions]);
 
-  /* ── Auto scroll — show newest message without jumping past it ── */
+  /* ── Auto scroll — ensure the latest question is always visible ── */
+  const lastBotRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!scrollRef.current) return;
-    const el = scrollRef.current;
-    // Only auto-scroll if user is near the bottom (within 300px)
-    const isNearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 300;
-    if (isNearBottom) {
-      requestAnimationFrame(() => {
-        el.scrollTo({ top: el.scrollHeight - el.clientHeight, behavior: 'smooth' });
-      });
-    }
+    // Find the last bot/options/reflection message and scroll it into view
+    requestAnimationFrame(() => {
+      if (lastBotRef.current) {
+        lastBotRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
   }, [messages, isTyping]);
 
   /* ── Add message with optional typing delay ── */
@@ -741,10 +740,25 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
 
       {/* Messages area */}
       <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-6 space-y-4">
-        {messages.map((msg, i) => renderMessage(msg, i))}
+        {messages.map((msg, i) => {
+          // Find the index of the last user message to place scroll anchor after it
+          const lastUserIdx = messages.reduce((acc, m, idx) => m.type === 'user' ? idx : acc, -1);
+          const isScrollTarget = i === lastUserIdx + 1 && i > 0;
+          return (
+            <div key={msg.id}>
+              {isScrollTarget && <div ref={lastBotRef} />}
+              {renderMessage(msg, i)}
+            </div>
+          );
+        })}
 
         {/* Typing indicator */}
-        {isTyping && <TypingIndicator />}
+        {isTyping && (
+          <div>
+            {messages.length > 0 && messages[messages.length - 1].type === 'user' && <div ref={lastBotRef} />}
+            <TypingIndicator />
+          </div>
+        )}
 
         {/* Invisible scroll anchor */}
         <div ref={bottomRef} />
