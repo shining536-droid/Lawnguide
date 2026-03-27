@@ -153,13 +153,10 @@ export default function HomeContent() {
 
         <div className="container-wide relative z-10">
           <div className="mx-auto max-w-3xl text-center">
-            <h1 className="font-bold leading-tight tracking-tight text-white">
+            <h1 className="font-bold tracking-tight text-white" style={{ lineHeight: '1.6' }}>
               <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">변호사 만나기 전,</span>
-              <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">1분 정리가 결과를 바꿉니다</span>
+              <span className="block mt-2 text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">1분 정리가 결과를 바꿉니다</span>
             </h1>
-            <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/70 md:text-lg">
-              31개 분야 · 무료 · 회원가입 없음
-            </p>
           </div>
 
           <div className="mx-auto mt-10 max-w-md text-center md:mt-12">
@@ -170,8 +167,14 @@ export default function HomeContent() {
               <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
               </svg>
-              AI 법률 도우미 시작
+              AI 무료 법률진단
             </Link>
+            <p className="mx-auto mt-4 max-w-sm text-base leading-relaxed text-white/80 md:text-lg">
+              AI가 상황을 분석하고,{' '}<br className="sm:hidden" />지금 해야 할 일을 정리해드립니다.
+            </p>
+            <p className="mt-2 text-sm text-white/50">
+              평균 1분 소요 · 20,455건 판례 기반
+            </p>
           </div>
         </div>
       </section>
