@@ -181,15 +181,17 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     return questions.length - groupSize * Math.max(0, branchPrefixes.size - 1);
   }, [questions]);
 
-  /* ── Auto scroll — ensure the latest question is always visible ── */
+  /* ── Auto scroll — ensure the latest question/result is always visible ── */
   const lastBotRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (!scrollRef.current) return;
-    // Find the last bot/options/reflection message and scroll it into view
+    if (!scrollRef.current || !lastBotRef.current) return;
+    const container = scrollRef.current;
+    const target = lastBotRef.current;
+    // Calculate target's position relative to the scroll container
     requestAnimationFrame(() => {
-      if (lastBotRef.current) {
-        lastBotRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
+      const targetTop = target.offsetTop - container.offsetTop;
+      // Scroll so the target appears near the top with a small padding
+      container.scrollTo({ top: Math.max(0, targetTop - 16), behavior: 'smooth' });
     });
   }, [messages, isTyping]);
 
