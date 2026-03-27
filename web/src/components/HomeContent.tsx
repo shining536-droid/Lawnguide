@@ -3,28 +3,16 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-/* ─── Wedge (핵심 4개) ─── */
-const WEDGES = [
-  {
-    title: '보증금 못 받을 때',
-    desc: '오늘 할 일부터 정리',
-    href: '/diagnosis/jeonse-fraud',
-  },
-  {
-    title: '사기 당했을 때',
-    desc: '경찰 가기 전 준비',
-    href: '/diagnosis/fraud',
-  },
-  {
-    title: '해고당했을 때',
-    desc: '내일까지 챙길 것',
-    href: '/diagnosis/dismissal',
-  },
-  {
-    title: '폭행당했을 때',
-    desc: '지금 확보할 증거',
-    href: '/diagnosis/assault',
-  },
+/* ─── 인기 도메인 8개 ─── */
+const POPULAR_DOMAINS = [
+  { label: '사기/재산범죄', icon: '🎭', domain: 'fraud', desc: '사기 피해·혐의 대응' },
+  { label: '폭행/상해', icon: '⚠️', domain: 'assault', desc: '폭행·상해·협박' },
+  { label: '성범죄', icon: '🛡️', domain: 'sex-crime', desc: '성폭행·성추행' },
+  { label: '이혼/가족', icon: '💔', domain: 'divorce', desc: '이혼·재산분할·양육권' },
+  { label: '전세/부동산', icon: '🏠', domain: 'jeonse', desc: '보증금·전세사기' },
+  { label: '해고/임금', icon: '💰', domain: 'dismissal', desc: '부당해고·임금체불' },
+  { label: '음주운전', icon: '🚗', domain: 'dui', desc: '단속·사고 대응' },
+  { label: '교통사고', icon: '🚦', domain: 'traffic-accident', desc: '합의·보험·과실' },
 ];
 
 /* ─── 분야별 카테고리 ─── */
@@ -147,7 +135,6 @@ export default function HomeContent() {
     <div>
       {/* ========== 히어로 섹션 ========== */}
       <section className="relative -mt-16 overflow-hidden bg-gradient-to-br from-[#0f1a2e] via-[#162240] to-[#1e3050] pt-28 pb-16 md:pt-36 md:pb-20">
-        {/* Background decorative SVGs */}
         <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
           <svg
             className="absolute -right-10 top-10 h-72 w-72 text-white/[0.04] md:h-[28rem] md:w-[28rem] md:-right-16 md:top-4"
@@ -165,34 +152,46 @@ export default function HomeContent() {
         </div>
 
         <div className="container-wide relative z-10">
-          {/* Main copy — 모바일 2줄 */}
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="font-bold leading-tight tracking-tight text-white">
-              <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">변호사 만나기 전에,</span>
-              <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">이것만 챙기세요</span>
+              <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">변호사 만나기 전,</span>
+              <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">1분 정리가 결과를 바꿉니다</span>
             </h1>
             <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/70 md:text-lg">
-              <span className="text-amber-400">1분 안에</span> <span className="text-amber-400">지금 할 일</span>, <span className="text-amber-400">준비서류</span>,{' '}
-              <br className="sm:hidden" />
-              <span className="text-amber-400">전문가 연결</span>을 도와드립니다
+              31개 분야 · 무료 · 회원가입 없음
             </p>
           </div>
 
-          {/* 웨지 4개 버튼 */}
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-2 gap-3 md:mt-12 md:grid-cols-4 md:max-w-4xl md:gap-4">
-            {WEDGES.map((w) => (
+          <div className="mx-auto mt-10 max-w-md text-center md:mt-12">
+            <Link
+              href="/chat"
+              className="inline-flex items-center gap-2 rounded-2xl bg-amber-500 px-10 py-5 text-lg font-bold text-navy-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/20 active:scale-[0.98] md:text-xl"
+            >
+              <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+              </svg>
+              AI 법률 도우미 시작
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== 인기 도메인 8개 ========== */}
+      <section className="border-b border-gray-100 bg-white py-12 md:py-16">
+        <div className="container-wide">
+          <h2 className="mb-8 text-center text-lg font-bold text-navy-700 md:text-xl">
+            많은 분들이 이런 문제를 정리하고 있어요
+          </h2>
+          <div className="mx-auto grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4 md:gap-4">
+            {POPULAR_DOMAINS.map((d) => (
               <Link
-                key={w.href}
-                href={w.href}
-                className="group flex flex-col items-center justify-center rounded-2xl bg-amber-500 px-4 py-5 text-center transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/20 active:scale-[0.98] md:py-6"
-                style={{ minHeight: '100px' }}
+                key={d.domain}
+                href={`/chat?domain=${d.domain}`}
+                className="group flex flex-col items-center rounded-2xl border-2 border-gray-200 bg-white px-4 py-5 text-center transition-all hover:border-primary-500 hover:bg-primary-50 hover:shadow-md active:scale-[0.98]"
               >
-                <span className="text-base font-bold text-navy-900 md:text-lg">
-                  {w.title}
-                </span>
-                <span className="mt-1.5 text-sm text-navy-900/70">
-                  {w.desc}
-                </span>
+                <span className="text-2xl">{d.icon}</span>
+                <span className="mt-2 text-sm font-bold text-navy-700 group-hover:text-primary-600">{d.label}</span>
+                <span className="mt-1 text-xs text-gray-500">{d.desc}</span>
               </Link>
             ))}
           </div>
@@ -203,7 +202,7 @@ export default function HomeContent() {
       <section className="border-b border-gray-100 bg-gray-50 py-10 md:py-12">
         <div className="container-wide">
           <p className="mb-6 text-center text-sm font-medium text-gray-500 md:text-base">
-            법제처 공공데이터 기반, 31개 법률 분야 지원
+            20,455건 판례 · 6,493개 법조문 · 5,471건 상담사례 기반
           </p>
           <div className="mx-auto grid max-w-3xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-6">
             <div className="flex items-start gap-3 rounded-xl bg-white px-5 py-4 shadow-sm">
@@ -259,7 +258,7 @@ export default function HomeContent() {
                   {cat.domains.map((domain) => (
                     <Link
                       key={domain.id}
-                      href={`/diagnosis/${domain.id}`}
+                      href={`/chat?domain=${domain.id}`}
                       className="group flex items-center justify-between rounded-xl border border-gray-200 bg-white px-5 py-4 transition-all hover:border-primary-400 hover:shadow-md"
                     >
                       <div>
@@ -298,7 +297,7 @@ export default function HomeContent() {
                     {cat.domains.map((domain) => (
                       <Link
                         key={domain.id}
-                        href={`/diagnosis/${domain.id}`}
+                        href={`/chat?domain=${domain.id}`}
                         className="group flex items-center justify-between rounded-xl border border-gray-200 bg-white px-5 py-4 transition-all hover:border-primary-400 hover:shadow-md"
                       >
                         <div>
@@ -326,23 +325,47 @@ export default function HomeContent() {
         </div>
       </section>
 
+      {/* ========== FAQ ========== */}
+      <section className="border-t border-gray-100 bg-white py-14 md:py-16">
+        <div className="container-wide">
+          <h2 className="mb-8 text-center text-lg font-bold text-navy-700 md:text-xl">
+            자주 묻는 질문
+          </h2>
+          <div className="mx-auto max-w-2xl space-y-4">
+            {[
+              { q: '로앤가이드는 어떤 서비스인가요?', a: '법률 문제가 생겼을 때, 변호사를 만나기 전에 지금 해야 할 일, 준비서류, 주의사항을 1분 안에 정리해주는 무료 AI 법률 준비 도우미입니다.' },
+              { q: '정말 무료인가요?', a: '네, 완전 무료입니다. 회원가입도 필요 없고, 모든 진단과 결과 확인에 비용이 없습니다.' },
+              { q: '어떤 분야를 지원하나요?', a: '사기, 폭행, 성범죄, 이혼, 전세, 해고, 음주운전, 교통사고, 명예훼손, 마약, 상속, 학교폭력 등 31개 법률 분야를 지원합니다.' },
+              { q: 'AI 진단 결과는 법적 효력이 있나요?', a: '아닙니다. 로앤가이드의 결과는 법적 효력을 갖는 유권해석이 아닙니다. 정확한 판단은 전문가 상담을 받으시기 바랍니다. 상담 전 준비를 돕는 참고 자료로 활용해주세요.' },
+              { q: '개인정보는 안전한가요?', a: '입력하신 정보는 서버에 저장되지 않습니다. 모든 진단은 브라우저에서 처리되며, 페이지를 닫으면 사라집니다.' },
+            ].map((item, i) => (
+              <details key={i} className="group rounded-xl border border-gray-200 bg-white">
+                <summary className="flex cursor-pointer items-center justify-between px-5 py-4 text-sm font-semibold text-navy-700 md:text-base">
+                  <span>{item.q}</span>
+                  <ChevronDown className="h-4 w-4 flex-shrink-0 text-gray-400 transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="border-t border-gray-100 px-5 py-4 text-sm leading-relaxed text-gray-600">
+                  {item.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ========== 하단 CTA ========== */}
       <section className="py-16 md:py-20">
         <div className="container-wide">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-xl font-bold leading-snug text-navy-700 md:text-2xl">
-              변호사 상담 전에 보여줄<br />준비 요약본을 만들어보세요
+              변호사 만나기 전,<br />준비가 결과를 바꿉니다
             </h2>
             <div className="mt-8">
               <Link
-                href="#top"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className="inline-flex items-center rounded-xl bg-amber-500 px-8 py-4 text-base font-bold text-navy-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/20"
+                href="/chat"
+                className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-8 py-4 text-base font-bold text-navy-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/20"
               >
-                지금 시작하기
+                무료 AI 법률 도우미 시작
               </Link>
             </div>
             <p className="mt-6 text-xs text-gray-400">
