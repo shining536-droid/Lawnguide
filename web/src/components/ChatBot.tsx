@@ -9,12 +9,58 @@ import ChatResultCard from './ChatResultCard';
 
 interface ChatMessage {
   id: string;
-  type: 'bot' | 'user' | 'options' | 'result' | 'reflection' | 'progress';
+  type: 'bot' | 'user' | 'options' | 'result' | 'reflection' | 'progress' | 'multiselect' | 'subtype-result';
   content: string;
   options?: { value: string; label: string; icon?: string }[];
   result?: ResultEntry;
   answers?: Record<string, string>;
-  isTyping?: boolean;
+  subtypeResult?: SubtypeResultData;
+  whyText?: string;
+}
+
+interface SubtypeResultData {
+  summary: string;
+  legalBasis?: string;
+  requiredDocs: string[];
+  userEvidence: string[];
+  factAnswers: Record<string, string>;
+  perspectiveLabel: string;
+  subtypeLabel: string;
+}
+
+/* ── Subtypes data types ── */
+
+interface SubtypeItem {
+  id?: string;
+  value?: string;
+  label: string;
+  legalBasis?: string;
+}
+
+interface FactCheckItem {
+  id: string;
+  question: string;
+  why?: string;
+  options: string[];
+}
+
+interface ResultTemplateItem {
+  summary: string;
+  legalBasis?: string;
+  requiredDocs: string[];
+}
+
+interface SubtypeData {
+  domainLabel?: string;
+  perspectives: string[];
+  perspectiveLabels?: Record<string, string>;
+  subtypes: Record<string, SubtypeItem[]>;
+  factChecks: Record<string, FactCheckItem[]>;
+  evidenceChecklist: {
+    common: string[];
+    domain_specific: string[] | Record<string, string[]>;
+  };
+  resultTemplates: Record<string, Record<string, ResultTemplateItem>>;
 }
 
 interface ChatBotProps {
@@ -23,10 +69,22 @@ interface ChatBotProps {
     branches: BranchesFile;
     results: ResultsFile;
   }>;
+  subtypesData: Record<string, SubtypeData>;
   initialDomain?: string;
 }
 
-type Phase = 'category' | 'domain-select' | 'diagnosis' | 'result';
+type Phase =
+  | 'category'
+  | 'dont-know-1'
+  | 'dont-know-2'
+  | 'dont-know-3'
+  | 'domain-select'
+  | 'perspective'
+  | 'subtype'
+  | 'fact-check'
+  | 'evidence'
+  | 'result'
+  | 'diagnosis';
 
 /* ─────────────── Constants ─────────────── */
 
@@ -65,6 +123,70 @@ const CATEGORIES = [
   },
 ];
 
+interface LifeSubcategory {
+  label: string;
+  domains: string[];
+}
+
+interface LifeCategory {
+  label: string;
+  icon: string;
+  subcategories: LifeSubcategory[];
+}
+
+const LIFE_CATEGORIES: LifeCategory[] = [
+  { label: '돈을 보내거나 빌려줬는데 문제가 생겼어요', icon: '💸', subcategories: [
+    { label: '중고거래 / 온라인거래', domains: ['fraud'] },
+    { label: '투자 / 코인 / 고수익 제안', domains: ['fraud'] },
+    { label: '지인에게 빌려준 돈', domains: ['fraud', 'small-claims'] },
+    { label: '계약금 / 대금 문제', domains: ['small-claims', 'real-estate-sale'] },
+    { label: '정확히는 모르겠어요', domains: ['fraud'] },
+  ]},
+  { label: '맞거나 다쳤어요 / 위협받고 있어요', icon: '🤕', subcategories: [
+    { label: '일방적으로 맞았어요', domains: ['assault'] },
+    { label: '서로 시비가 붙었어요', domains: ['assault'] },
+    { label: '협박을 받고 있어요', domains: ['assault', 'stalking'] },
+    { label: '누가 따라다녀요', domains: ['stalking'] },
+    { label: '정확히는 모르겠어요', domains: ['assault'] },
+  ]},
+  { label: '성적인 문제나 불안한 상황이 있어요', icon: '🔒', subcategories: [
+    { label: '성폭행 / 성추행', domains: ['sex-crime'] },
+    { label: '불법촬영 / 유포', domains: ['digital-sex-crime'] },
+    { label: '직장 내 성희롱', domains: ['sexual-harassment'] },
+    { label: '스토킹', domains: ['stalking'] },
+    { label: '아동 관련', domains: ['child-sex-crime'] },
+    { label: '정확히는 모르겠어요', domains: ['sex-crime'] },
+  ]},
+  { label: '가족 / 이혼 / 양육 문제예요', icon: '👨‍👩‍👧', subcategories: [
+    { label: '이혼을 생각하고 있어요', domains: ['divorce'] },
+    { label: '양육비 문제', domains: ['child-support'] },
+    { label: '상속 문제', domains: ['inheritance'] },
+    { label: '정확히는 모르겠어요', domains: ['divorce'] },
+  ]},
+  { label: '집 / 전세 / 계약 문제예요', icon: '🏠', subcategories: [
+    { label: '전세보증금 반환', domains: ['jeonse'] },
+    { label: '전세사기 의심', domains: ['jeonse-fraud'] },
+    { label: '상가 임대차', domains: ['sangga'] },
+    { label: '매매 계약 문제', domains: ['real-estate-sale'] },
+    { label: '경매', domains: ['real-estate-auction'] },
+    { label: '정확히는 모르겠어요', domains: ['jeonse'] },
+  ]},
+  { label: '회사 / 해고 / 임금 문제예요', icon: '🏢', subcategories: [
+    { label: '해고 통보 받았어요', domains: ['dismissal'] },
+    { label: '월급 / 수당 안 줘요', domains: ['wage'] },
+    { label: '퇴직금 문제', domains: ['retirement'] },
+    { label: '산재 / 업무상 재해', domains: ['industrial-accident1'] },
+    { label: '실업급여', domains: ['unemployment'] },
+    { label: '정확히는 모르겠어요', domains: ['dismissal'] },
+  ]},
+  { label: '교통사고 / 음주운전 문제예요', icon: '🚗', subcategories: [
+    { label: '교통사고', domains: ['traffic-accident'] },
+    { label: '음주운전 적발', domains: ['dui'] },
+    { label: '정확히는 모르겠어요', domains: ['traffic-accident'] },
+  ]},
+  { label: '잘 모르겠어요 / 여기에 없어요', icon: '❓', subcategories: [] },
+];
+
 const REFLECTIONS: Record<string, Record<string, string>> = {
   perspective: {
     '피해를 입었습니다': '피해를 입으신 상황이시군요. 상황을 좀 더 파악해볼게요.',
@@ -88,7 +210,6 @@ const REFLECTIONS: Record<string, Record<string, string>> = {
   },
 };
 
-/* Domain+perspective specific reflections */
 const DOMAIN_REFLECTIONS: Record<string, Record<string, string>> = {
   fraud: {
     victim: '사기 피해는 초기 증거 확보가 가장 중요해요.',
@@ -127,6 +248,35 @@ const DOMAIN_REFLECTIONS: Record<string, Record<string, string>> = {
     offender: '학교폭력 가해자 지정은 자치위원회 대응이 중요합니다.',
   },
 };
+
+/* ─────────────── Perspective mapping helpers ─────────────── */
+
+const PERSPECTIVE_LABEL_TO_KEY: Record<string, string> = {
+  '피해를 입었습니다': 'victim',
+  '혐의를 받고 있습니다': 'offender',
+  '사실과 다르게 신고되었다고 생각합니다': 'falsely_accused',
+  '이혼을 원합니다': 'victim',
+  '이혼을 요구받고 있습니다': 'offender',
+  '사실과 다른 주장을 받고 있습니다 (허위 가정폭력 등)': 'falsely_accused',
+};
+
+function perspectiveLabelToKey(label: string, subtypeData?: SubtypeData): string {
+  // If the subtypeData has perspectiveLabels, reverse lookup
+  if (subtypeData?.perspectiveLabels) {
+    for (const [key, val] of Object.entries(subtypeData.perspectiveLabels)) {
+      if (val === label) return key;
+    }
+  }
+  // Check if the label itself is already a key (e.g. "victim", "offender")
+  if (subtypeData?.subtypes[label]) return label;
+  return PERSPECTIVE_LABEL_TO_KEY[label] ?? 'victim';
+}
+
+function getSubtypeId(item: SubtypeItem): string {
+  return item.id ?? item.value ?? item.label;
+}
+
+/* ─────────────── Utility ─────────────── */
 
 const TYPING_DELAY_MIN = 500;
 const TYPING_DELAY_MAX = 800;
@@ -174,14 +324,14 @@ function resolveNextId(
   value: string,
   currentAnswers: Record<string, string>,
 ): string | undefined {
-  let nextId = question.next[value] ?? question.next[String(value)];
-  if (nextId === '_PERSPECTIVE' && question.next_perspective) {
+  let nextIdVal = question.next[value] ?? question.next[String(value)];
+  if (nextIdVal === '_PERSPECTIVE' && question.next_perspective) {
     const perspective = currentAnswers['perspective'];
     if (perspective && question.next_perspective[perspective]) {
-      nextId = question.next_perspective[perspective];
+      nextIdVal = question.next_perspective[perspective];
     }
   }
-  return nextId;
+  return nextIdVal;
 }
 
 /* ─────────────── Typing Indicator ─────────────── */
@@ -196,9 +346,21 @@ function TypingIndicator() {
   );
 }
 
+/* ─────────────── Bot Avatar ─────────────── */
+
+function BotAvatar() {
+  return (
+    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center mt-0.5">
+      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+      </svg>
+    </div>
+  );
+}
+
 /* ─────────────── ChatBot Component ─────────────── */
 
-export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) {
+export default function ChatBot({ allDomainData, subtypesData, initialDomain }: ChatBotProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
 
@@ -212,17 +374,28 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
   const [multiSelectState, setMultiSelectState] = useState<Record<string, boolean>>({});
   const [showUnsupported, setShowUnsupported] = useState(false);
 
+  // New flow state
+  const [selectedPerspective, setSelectedPerspective] = useState<string | null>(null);
+  const [selectedPerspectiveKey, setSelectedPerspectiveKey] = useState<string | null>(null);
+  const [selectedSubtype, setSelectedSubtype] = useState<string | null>(null);
+  const [selectedSubtypeLabel, setSelectedSubtypeLabel] = useState<string | null>(null);
+  const [factCheckIndex, setFactCheckIndex] = useState(0);
+  const [factAnswers, setFactAnswers] = useState<Record<string, string>>({});
+  const [evidenceSelected, setEvidenceSelected] = useState<Record<string, boolean>>({});
+  const [selectedLifeCategory, setSelectedLifeCategory] = useState<LifeCategory | null>(null);
+
   // Domain data for the selected domain
   const domainData = selectedDomain ? allDomainData[selectedDomain] : null;
   const questions = domainData?.questions ?? [];
   const currentQuestion = questions[currentQuestionIndex] ?? null;
+  const currentSubtypeData = selectedDomain ? subtypesData?.[selectedDomain] : null;
 
   const domainMeta = useMemo(
     () => (selectedDomain ? DOMAINS.find((d) => d.id === selectedDomain) : null),
     [selectedDomain],
   );
 
-  // Total questions (effective, accounting for branches)
+  // Total questions for legacy diagnosis flow
   const effectiveTotal = useMemo(() => {
     if (!questions.length) return 0;
     const branchPrefixes = new Set<string>();
@@ -236,21 +409,19 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     return questions.length - groupSize * Math.max(0, branchPrefixes.size - 1);
   }, [questions]);
 
-  /* ── Auto scroll — ensure the latest question/result is always visible ── */
+  /* ── Auto scroll ── */
   const lastBotRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!scrollRef.current || !lastBotRef.current) return;
     const container = scrollRef.current;
     const target = lastBotRef.current;
-    // Calculate target's position relative to the scroll container
     requestAnimationFrame(() => {
       const targetTop = target.offsetTop - container.offsetTop;
-      // Scroll so the target appears near the top with a small padding
       container.scrollTo({ top: Math.max(0, targetTop - 16), behavior: 'smooth' });
     });
   }, [messages, isTyping]);
 
-  /* ── Add message with optional typing delay ── */
+  /* ── Add message with typing delay ── */
   const addBotMessage = useCallback(
     (msg: Omit<ChatMessage, 'id'>, callback?: () => void) => {
       setIsTyping(true);
@@ -268,38 +439,7 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     setMessages((prev) => [...prev, { ...msg, id: nextId() }]);
   }, []);
 
-  /* ── Initialize ── */
-  useEffect(() => {
-    if (initialDomain && allDomainData[initialDomain]) {
-      // Skip to diagnosis directly
-      startDiagnosis(initialDomain);
-    } else {
-      // Show welcome
-      addBotMessage({
-        type: 'bot',
-        content: '안녕하세요! 법률 상황 정리를 도와드릴게요.',
-      }, () => {
-        setTimeout(() => {
-          setIsTyping(true);
-          setTimeout(() => {
-            setIsTyping(false);
-            setMessages((prev) => [
-              ...prev,
-              {
-                id: nextId(),
-                type: 'options',
-                content: '어떤 문제로 고민하고 계신가요?',
-                options: CATEGORIES.map((c) => ({ value: c.label, label: c.label, icon: c.icon })),
-              },
-            ]);
-          }, typingDelay());
-        }, 200);
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  /* ── Progress message logic ── */
+  /* ── Progress message logic (legacy) ── */
   const getProgressMessage = useCallback(
     (answeredCount: number, total: number): string | null => {
       if (answeredCount === 3 && total > 5) return '잘 하고 계세요. 몇 가지만 더 여쭤볼게요.';
@@ -310,8 +450,390 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     [],
   );
 
-  /* ── Start diagnosis for a domain ── */
-  const startDiagnosis = useCallback(
+  /* ══════════════════════════════════════════════════════
+     NEW FLOW: perspective → subtype → factCheck → evidence → result
+     ══════════════════════════════════════════════════════ */
+
+  /** After domain is selected, decide new flow or legacy */
+  const startAfterDomain = useCallback(
+    (domainId: string) => {
+      const sData = subtypesData?.[domainId];
+      if (sData) {
+        // New multi-step flow
+        setSelectedDomain(domainId);
+        setCurrentPhase('perspective');
+        setSelectedPerspective(null);
+        setSelectedPerspectiveKey(null);
+        setSelectedSubtype(null);
+        setSelectedSubtypeLabel(null);
+        setFactCheckIndex(0);
+        setFactAnswers({});
+        setEvidenceSelected({});
+
+        const meta = DOMAINS.find((d) => d.id === domainId);
+        const domainLabel = sData.domainLabel ?? meta?.name ?? domainId;
+
+        // Build perspective options
+        const perspOptions = sData.perspectives.map((p) => {
+          const label = sData.perspectiveLabels?.[p] ?? p;
+          return { value: p, label };
+        });
+        perspOptions.push({ value: '_dont_know', label: '잘 모르겠어요' });
+
+        addBotMessage(
+          { type: 'bot', content: `${domainLabel} 관련 상황을 정리해드릴게요.` },
+          () => {
+            addBotMessage({
+              type: 'options',
+              content: '어떤 입장이신가요?',
+              options: perspOptions,
+            });
+          },
+        );
+      } else {
+        // Legacy diagnosis flow
+        startDiagnosisLegacy(domainId);
+      }
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [subtypesData, addBotMessage],
+  );
+
+  /** Handle perspective selection */
+  const handlePerspectiveSelect = useCallback(
+    (value: string) => {
+      if (!selectedDomain || !currentSubtypeData) return;
+
+      let perspKey: string;
+      let perspLabel: string;
+      let showNote = false;
+
+      if (value === '_dont_know') {
+        // Use first perspective as default
+        perspKey = currentSubtypeData.perspectives[0];
+        perspLabel = currentSubtypeData.perspectiveLabels?.[perspKey] ?? perspKey;
+        showNote = true;
+        addMessageImmediate({ type: 'user', content: '잘 모르겠어요' });
+      } else {
+        perspKey = value;
+        // If perspectives contains full labels (subtypes.json style), map to key
+        if (!currentSubtypeData.subtypes[value]) {
+          perspKey = perspectiveLabelToKey(value, currentSubtypeData);
+        }
+        perspLabel = currentSubtypeData.perspectiveLabels?.[value] ?? value;
+        addMessageImmediate({ type: 'user', content: perspLabel });
+      }
+
+      setSelectedPerspective(perspLabel);
+      setSelectedPerspectiveKey(perspKey);
+
+      // Reflection for perspective
+      const domainRef = DOMAIN_REFLECTIONS[selectedDomain]?.[perspKey];
+      const reflectionText = REFLECTIONS.perspective?.[perspLabel] ?? domainRef;
+
+      const afterReflection = () => {
+        if (showNote) {
+          addBotMessage(
+            { type: 'reflection', content: '정확한 관점을 모르셔도 기본 정보를 안내해드려요.' },
+            () => showSubtypeOptions(perspKey),
+          );
+        } else {
+          showSubtypeOptions(perspKey);
+        }
+      };
+
+      if (reflectionText) {
+        addBotMessage({ type: 'reflection', content: reflectionText }, () => {
+          if (domainRef && reflectionText !== domainRef) {
+            addBotMessage({ type: 'reflection', content: domainRef }, afterReflection);
+          } else {
+            afterReflection();
+          }
+        });
+      } else {
+        afterReflection();
+      }
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [selectedDomain, currentSubtypeData, addMessageImmediate, addBotMessage],
+  );
+
+  /** Show subtype options */
+  const showSubtypeOptions = useCallback(
+    (perspKey: string) => {
+      if (!currentSubtypeData) return;
+      const subtypes = currentSubtypeData.subtypes[perspKey];
+      if (!subtypes || subtypes.length === 0) {
+        // Skip subtype, go to fact-check
+        setSelectedSubtype('other');
+        setSelectedSubtypeLabel('기타');
+        setCurrentPhase('fact-check');
+        showFactCheckQuestion(perspKey, 0);
+        return;
+      }
+
+      setCurrentPhase('subtype');
+      const options = subtypes.map((s) => ({
+        value: getSubtypeId(s),
+        label: s.label,
+      }));
+      options.push({ value: '_dont_know', label: '잘 모르겠어요' });
+
+      addBotMessage({
+        type: 'options',
+        content: '구체적으로 어떤 상황인가요?',
+        options,
+      });
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [currentSubtypeData, addBotMessage],
+  );
+
+  /** Handle subtype selection */
+  const handleSubtypeSelect = useCallback(
+    (value: string) => {
+      if (!selectedPerspectiveKey || !currentSubtypeData) return;
+
+      const subtypes = currentSubtypeData.subtypes[selectedPerspectiveKey] ?? [];
+      let subtypeId: string;
+      let subtypeLabel: string;
+
+      if (value === '_dont_know') {
+        const first = subtypes[0];
+        subtypeId = first ? getSubtypeId(first) : 'other';
+        subtypeLabel = first?.label ?? '기타';
+        addMessageImmediate({ type: 'user', content: '잘 모르겠어요' });
+      } else {
+        subtypeId = value;
+        const found = subtypes.find((s) => getSubtypeId(s) === value);
+        subtypeLabel = found?.label ?? value;
+        addMessageImmediate({ type: 'user', content: subtypeLabel });
+
+        // Show legal basis if available
+        if (found?.legalBasis) {
+          addBotMessage(
+            { type: 'reflection', content: `관련 법률: ${found.legalBasis}` },
+            () => {
+              setSelectedSubtype(subtypeId);
+              setSelectedSubtypeLabel(subtypeLabel);
+              setCurrentPhase('fact-check');
+              setFactCheckIndex(0);
+              showFactCheckQuestion(selectedPerspectiveKey, 0);
+            },
+          );
+          return;
+        }
+      }
+
+      setSelectedSubtype(subtypeId);
+      setSelectedSubtypeLabel(subtypeLabel);
+      setCurrentPhase('fact-check');
+      setFactCheckIndex(0);
+      showFactCheckQuestion(selectedPerspectiveKey, 0);
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [selectedPerspectiveKey, currentSubtypeData, addMessageImmediate, addBotMessage],
+  );
+
+  /** Show a fact-check question */
+  const showFactCheckQuestion = useCallback(
+    (perspKey: string, index: number) => {
+      if (!currentSubtypeData) return;
+      const factChecks = currentSubtypeData.factChecks[perspKey];
+      if (!factChecks || index >= factChecks.length) {
+        // No more fact checks, go to evidence
+        showEvidenceStep(perspKey);
+        return;
+      }
+
+      const fc = factChecks[index];
+      const options = fc.options.map((o) => ({ value: o, label: o }));
+      if (!fc.options.includes('잘 모르겠어요')) {
+        options.push({ value: '잘 모르겠어요', label: '잘 모르겠어요' });
+      }
+
+      // Progress message for fact checks
+      const total = factChecks.length;
+      let progressMsg: string | null = null;
+      if (index === 0 && total > 2) {
+        progressMsg = `핵심 사실 ${total}가지를 확인할게요.`;
+      } else if (index === total - 1) {
+        progressMsg = '마지막 질문이에요.';
+      }
+
+      if (progressMsg) {
+        addBotMessage({ type: 'progress', content: progressMsg }, () => {
+          addBotMessage({
+            type: 'options',
+            content: fc.question,
+            options,
+            whyText: fc.why,
+          });
+        });
+      } else {
+        addBotMessage({
+          type: 'options',
+          content: fc.question,
+          options,
+          whyText: fc.why,
+        });
+      }
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [currentSubtypeData, addBotMessage],
+  );
+
+  /** Handle fact-check answer */
+  const handleFactCheckAnswer = useCallback(
+    (value: string) => {
+      if (!selectedPerspectiveKey || !currentSubtypeData) return;
+
+      const factChecks = currentSubtypeData.factChecks[selectedPerspectiveKey];
+      if (!factChecks) return;
+
+      const fc = factChecks[factCheckIndex];
+      if (!fc) return;
+
+      addMessageImmediate({ type: 'user', content: value });
+
+      const newFactAnswers = { ...factAnswers, [fc.id]: value === '잘 모르겠어요' ? '모름' : value };
+      setFactAnswers(newFactAnswers);
+
+      const nextIndex = factCheckIndex + 1;
+      setFactCheckIndex(nextIndex);
+
+      if (nextIndex >= factChecks.length) {
+        // Done with fact checks, go to evidence
+        setCurrentPhase('evidence');
+        showEvidenceStep(selectedPerspectiveKey);
+      } else {
+        showFactCheckQuestion(selectedPerspectiveKey, nextIndex);
+      }
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [selectedPerspectiveKey, currentSubtypeData, factCheckIndex, factAnswers, addMessageImmediate],
+  );
+
+  /** Show evidence checklist step */
+  const showEvidenceStep = useCallback(
+    (perspKey: string) => {
+      if (!currentSubtypeData) return;
+      setCurrentPhase('evidence');
+
+      const ec = currentSubtypeData.evidenceChecklist;
+      const commonItems = ec.common ?? [];
+      let domainItems: string[] = [];
+
+      if (Array.isArray(ec.domain_specific)) {
+        domainItems = ec.domain_specific;
+      } else if (ec.domain_specific && typeof ec.domain_specific === 'object') {
+        domainItems = (ec.domain_specific as Record<string, string[]>)[perspKey] ?? [];
+      }
+
+      const allItems = [...commonItems, ...domainItems];
+      const options = allItems.map((item) => ({ value: item, label: item }));
+      options.push({ value: '_none', label: '없음' });
+      options.push({ value: '_other', label: '기타' });
+
+      setEvidenceSelected({});
+
+      addBotMessage({
+        type: 'bot',
+        content: '현재 보유하고 계신 증거를 모두 선택해주세요.',
+      }, () => {
+        addBotMessage({
+          type: 'multiselect',
+          content: '해당하는 증거를 모두 선택하고 "다음"을 눌러주세요.',
+          options,
+        });
+      });
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [currentSubtypeData, addBotMessage],
+  );
+
+  /** Handle evidence selection confirm */
+  const handleEvidenceConfirm = useCallback(() => {
+    const selected = Object.entries(evidenceSelected)
+      .filter(([, v]) => v)
+      .map(([k]) => k);
+
+    // If "없음" is selected, treat as no evidence
+    const hasNone = selected.includes('_none');
+    const userEvidence = hasNone ? [] : selected.filter((s) => s !== '_other');
+
+    addMessageImmediate({
+      type: 'user',
+      content: hasNone ? '보유 증거 없음' : (userEvidence.length > 0 ? userEvidence.join(', ') : '보유 증거 없음'),
+    });
+
+    setCurrentPhase('result');
+    showNewFlowResult(userEvidence);
+  }, [evidenceSelected, addMessageImmediate]);
+
+  /** Show result for new flow */
+  const showNewFlowResult = useCallback(
+    (userEvidence: string[]) => {
+      if (!selectedDomain || !selectedPerspectiveKey || !selectedSubtype || !currentSubtypeData) return;
+
+      // Get result template
+      const templates = currentSubtypeData.resultTemplates?.[selectedPerspectiveKey];
+      const template = templates?.[selectedSubtype] ?? templates?.['other'];
+
+      const summary = template?.summary ?? '상황을 정리했습니다. 아래 결과를 확인해주세요.';
+      const legalBasis = template?.legalBasis;
+      const requiredDocs = template?.requiredDocs ?? [];
+
+      // Also try to resolve the legacy result
+      const data = allDomainData[selectedDomain];
+      let legacyResult: ResultEntry | undefined;
+      if (data) {
+        // Build minimal answers for legacy resolution
+        const legacyAnswers: Record<string, string> = { ...answers };
+        if (selectedPerspectiveKey === 'victim') legacyAnswers['perspective'] = '피해를 입었습니다';
+        else if (selectedPerspectiveKey === 'offender') legacyAnswers['perspective'] = '혐의를 받고 있습니다';
+        else if (selectedPerspectiveKey === 'falsely_accused') legacyAnswers['perspective'] = '사실과 다르게 신고되었다고 생각합니다';
+
+        try {
+          const typeId = resolveResultClient(data.branches, legacyAnswers);
+          legacyResult = data.results.results.find((r) => r.type_id === typeId) ?? data.results.results[0];
+        } catch {
+          legacyResult = data.results.results?.[0];
+        }
+      }
+
+      const subtypeResultData: SubtypeResultData = {
+        summary,
+        legalBasis,
+        requiredDocs,
+        userEvidence,
+        factAnswers,
+        perspectiveLabel: selectedPerspective ?? '',
+        subtypeLabel: selectedSubtypeLabel ?? '',
+      };
+
+      addBotMessage(
+        { type: 'bot', content: '결과가 준비됐어요! 아래에서 확인해주세요.' },
+        () => {
+          addMessageImmediate({
+            type: 'subtype-result',
+            content: '',
+            subtypeResult: subtypeResultData,
+            result: legacyResult,
+            answers: { ...answers, ...factAnswers },
+          });
+        },
+      );
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [selectedDomain, selectedPerspectiveKey, selectedSubtype, selectedSubtypeLabel, selectedPerspective, currentSubtypeData, factAnswers, answers, allDomainData, addBotMessage, addMessageImmediate],
+  );
+
+  /* ══════════════════════════════════════════════════════
+     LEGACY FLOW (diagnosis questions)
+     ══════════════════════════════════════════════════════ */
+
+  const startDiagnosisLegacy = useCallback(
     (domainId: string) => {
       const data = allDomainData[domainId];
       if (!data) return;
@@ -325,7 +847,6 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
       const meta = DOMAINS.find((d) => d.id === domainId);
       const qs = data.questions;
 
-      // Auto-skip Q1 if single option
       let startIndex = 0;
       let initialAnswers: Record<string, string> = {};
       const q1 = qs[0];
@@ -347,10 +868,7 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
       if (!firstQ) return;
 
       addBotMessage(
-        {
-          type: 'bot',
-          content: `${meta?.name ?? domainId} 관련 상황을 정리해드릴게요.`,
-        },
+        { type: 'bot', content: `${meta?.name ?? domainId} 관련 상황을 정리해드릴게요.` },
         () => {
           addBotMessage({
             type: 'options',
@@ -363,54 +881,12 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     [allDomainData, addBotMessage],
   );
 
-  /* ── Handle category select ── */
-  const handleCategorySelect = useCallback(
-    (categoryLabel: string) => {
-      const cat = CATEGORIES.find((c) => c.label === categoryLabel);
-      if (!cat) return;
-
-      addMessageImmediate({ type: 'user', content: `${cat.icon} ${cat.label}` });
-
-      if (cat.domains.length === 1) {
-        // Go directly to diagnosis
-        startDiagnosis(cat.domains[0]);
-      } else {
-        // Show domain sub-options
-        setCurrentPhase('domain-select');
-        const domainOptions = cat.domains
-          .filter((d) => allDomainData[d])
-          .map((d) => {
-            const meta = DOMAINS.find((dm) => dm.id === d);
-            return { value: d, label: meta?.name ?? d, icon: meta?.icon };
-          });
-
-        addBotMessage({
-          type: 'options',
-          content: '좀 더 구체적으로 어떤 상황인가요?',
-          options: domainOptions,
-        });
-      }
-    },
-    [addMessageImmediate, addBotMessage, allDomainData, startDiagnosis],
-  );
-
-  /* ── Handle domain select ── */
-  const handleDomainSelect = useCallback(
-    (domainId: string) => {
-      const meta = DOMAINS.find((d) => d.id === domainId);
-      addMessageImmediate({ type: 'user', content: meta?.name ?? domainId });
-      startDiagnosis(domainId);
-    },
-    [addMessageImmediate, startDiagnosis],
-  );
-
-  /* ── Show next question as bot message ── */
+  /* ── Show next question as bot message (legacy) ── */
   const showQuestion = useCallback(
     (qIndex: number, answeredCount: number) => {
       const q = questions[qIndex];
       if (!q) return;
 
-      // Check for progress message first
       const progressMsg = getProgressMessage(answeredCount, effectiveTotal);
       if (progressMsg) {
         addBotMessage({ type: 'progress', content: progressMsg }, () => {
@@ -431,39 +907,28 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     [questions, effectiveTotal, getProgressMessage, addBotMessage],
   );
 
-  /* ── Advance to next question or finish ── */
+  /* ── Advance to next question or finish (legacy) ── */
   const advanceToNext = useCallback(
     (nextIdStr: string | undefined, newAnswers: Record<string, string>, newHistory: number[]) => {
       if (!nextIdStr || nextIdStr === 'RESULT') {
-        // Finished — show result
         if (!domainData) return;
         const typeId = resolveResultClient(domainData.branches, newAnswers);
         const result = domainData.results.results.find((r) => r.type_id === typeId) ?? domainData.results.results[0];
 
         setCurrentPhase('result');
         addBotMessage({ type: 'bot', content: '결과가 준비됐어요! 아래에서 확인해주세요.' }, () => {
-          addMessageImmediate({
-            type: 'result',
-            content: '',
-            result,
-            answers: newAnswers,
-          });
+          addMessageImmediate({ type: 'result', content: '', result, answers: newAnswers });
         });
         return;
       }
 
       if (nextIdStr.startsWith('REDIRECT_')) {
-        // For redirects, just show as a bot message
-        addBotMessage({
-          type: 'bot',
-          content: '해당 상황은 별도 상황 정리를 이용해주세요.',
-        });
+        addBotMessage({ type: 'bot', content: '해당 상황은 별도 상황 정리를 이용해주세요.' });
         return;
       }
 
       const nextIndex = questions.findIndex((q) => q.id === nextIdStr);
       if (nextIndex < 0) {
-        // Fallback: finish
         if (!domainData) return;
         const typeId = resolveResultClient(domainData.branches, newAnswers);
         const result = domainData.results.results.find((r) => r.type_id === typeId) ?? domainData.results.results[0];
@@ -482,27 +947,23 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     [questions, domainData, addBotMessage, addMessageImmediate, showQuestion],
   );
 
-  /* ── Handle diagnosis answer select ── */
+  /* ── Handle diagnosis answer select (legacy) ── */
   const handleAnswerSelect = useCallback(
     (value: string) => {
       if (!currentQuestion) return;
 
-      // Show user bubble
       const selectedOption = currentQuestion.options.find((o) => String(o.value) === value);
       addMessageImmediate({ type: 'user', content: selectedOption?.label ?? value });
 
       const newAnswers = { ...answers, [currentQuestion.field]: value };
       setAnswers(newAnswers);
 
-      // Reflection
       const fieldReflections = REFLECTIONS[currentQuestion.field];
       const reflection = fieldReflections?.[value];
-
       const nid = resolveNextId(currentQuestion, value, newAnswers);
 
       if (reflection) {
         addBotMessage({ type: 'reflection', content: reflection }, () => {
-          // After perspective, also show domain-specific reflection
           if (currentQuestion.field === 'perspective' && selectedDomain) {
             const perspectiveMap: Record<string, string> = {
               '피해를 입었습니다': 'victim',
@@ -521,7 +982,6 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
           advanceToNext(nid, newAnswers, history);
         });
       } else {
-        // Generic domain-aware reflection for perspective question
         if (currentQuestion.field === 'perspective' && domainMeta) {
           const generic = `${domainMeta.name} 관련으로 이해했어요. 구체적인 상황을 확인해볼게요.`;
           addBotMessage({ type: 'reflection', content: generic }, () => {
@@ -532,10 +992,10 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
         }
       }
     },
-    [currentQuestion, answers, history, domainMeta, addMessageImmediate, addBotMessage, advanceToNext],
+    [currentQuestion, answers, history, domainMeta, selectedDomain, addMessageImmediate, addBotMessage, advanceToNext],
   );
 
-  /* ── Handle multiselect confirm ── */
+  /* ── Handle multiselect confirm (legacy) ── */
   const handleMultiSelectConfirm = useCallback(() => {
     if (!currentQuestion) return;
 
@@ -544,7 +1004,6 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
       .map(([k]) => k);
     const value = selected.join(',');
 
-    // Show user bubble with selected labels
     const selectedLabels = currentQuestion.options
       .filter((o) => selected.includes(String(o.value)))
       .map((o) => o.label);
@@ -566,52 +1025,216 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     advanceToNext(nid, newAnswers, history);
   }, [currentQuestion, multiSelectState, answers, history, addMessageImmediate, advanceToNext]);
 
-  /* ── Handle back ── */
-  const handleBack = useCallback(() => {
-    if (history.length <= 1) return;
+  /* ══════════════════════════════════════════════════════
+     CATEGORY / DOMAIN / LIFE-LANGUAGE SELECTION
+     ══════════════════════════════════════════════════════ */
 
-    setMultiSelectState({});
-    const newHistory = history.slice(0, -1);
-    const prevIndex = newHistory[newHistory.length - 1];
-
-    // Remove answer for current question
-    const leavingQ = questions[history[history.length - 1]];
-    const newAnswers = { ...answers };
-    if (leavingQ) delete newAnswers[leavingQ.field];
-    setAnswers(newAnswers);
-
-    setHistory(newHistory);
-    setCurrentQuestionIndex(prevIndex);
-
-    // Remove last few messages (user answer + bot question + reflection/progress) and re-show
-    // Simpler approach: remove messages back to previous question
-    setMessages((prev) => {
-      // Find the last 'options' message index (current question) and remove everything after the one before it
-      const optionIndices: number[] = [];
-      prev.forEach((m, i) => { if (m.type === 'options') optionIndices.push(i); });
-      if (optionIndices.length >= 2) {
-        const cutAt = optionIndices[optionIndices.length - 1];
-        // Remove from the user answer before this options message
-        // Find the user message right before the last options message
-        let removeFrom = cutAt;
-        for (let i = cutAt - 1; i >= 0; i--) {
-          if (prev[i].type === 'user') { removeFrom = i; break; }
-        }
-        return prev.slice(0, removeFrom);
-      }
-      return prev;
-    });
-
-    // Re-show the previous question
-    const prevQ = questions[prevIndex];
-    if (prevQ) {
+  /* ── Initialize ── */
+  useEffect(() => {
+    if (initialDomain && allDomainData[initialDomain]) {
+      startAfterDomain(initialDomain);
+    } else {
       addBotMessage({
-        type: 'options',
-        content: prevQ.text,
-        options: prevQ.options.map((o) => ({ value: String(o.value), label: o.label })),
+        type: 'bot',
+        content: '안녕하세요! 법률 상황 정리를 도와드릴게요.',
+      }, () => {
+        setTimeout(() => {
+          setIsTyping(true);
+          setTimeout(() => {
+            setIsTyping(false);
+            const catOptions = CATEGORIES.map((c) => ({ value: c.label, label: c.label, icon: c.icon }));
+            catOptions.push({ value: '_dont_know_category', label: '분야를 모르겠어요', icon: '🤔' });
+            setMessages((prev) => [
+              ...prev,
+              {
+                id: nextId(),
+                type: 'options',
+                content: '어떤 문제로 고민하고 계신가요?',
+                options: catOptions,
+              },
+            ]);
+          }, typingDelay());
+        }, 200);
       });
     }
-  }, [history, questions, answers, addBotMessage]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  /* ── Handle category select ── */
+  const handleCategorySelect = useCallback(
+    (categoryLabel: string) => {
+      if (categoryLabel === '_dont_know_category') {
+        // Life-language flow step 1
+        addMessageImmediate({ type: 'user', content: '🤔 분야를 모르겠어요' });
+        setCurrentPhase('dont-know-1');
+
+        const lifeOptions = LIFE_CATEGORIES.map((lc) => ({
+          value: lc.label,
+          label: lc.label,
+          icon: lc.icon,
+        }));
+
+        addBotMessage({
+          type: 'options',
+          content: '괜찮아요. 어떤 상황인지 골라주세요.',
+          options: lifeOptions,
+        });
+        return;
+      }
+
+      const cat = CATEGORIES.find((c) => c.label === categoryLabel);
+      if (!cat) return;
+
+      addMessageImmediate({ type: 'user', content: `${cat.icon} ${cat.label}` });
+
+      if (cat.domains.length === 1) {
+        startAfterDomain(cat.domains[0]);
+      } else {
+        setCurrentPhase('domain-select');
+        const domainOptions = cat.domains
+          .filter((d) => allDomainData[d] || subtypesData?.[d])
+          .map((d) => {
+            const meta = DOMAINS.find((dm) => dm.id === d);
+            return { value: d, label: meta?.name ?? d, icon: meta?.icon };
+          });
+
+        addBotMessage({
+          type: 'options',
+          content: '좀 더 구체적으로 어떤 상황인가요?',
+          options: domainOptions,
+        });
+      }
+    },
+    [addMessageImmediate, addBotMessage, allDomainData, subtypesData, startAfterDomain],
+  );
+
+  /* ── Handle life category selection (dont-know-1) ── */
+  const handleLifeCategorySelect = useCallback(
+    (label: string) => {
+      const lc = LIFE_CATEGORIES.find((c) => c.label === label);
+      if (!lc) return;
+
+      addMessageImmediate({ type: 'user', content: `${lc.icon} ${lc.label}` });
+
+      if (lc.label === '잘 모르겠어요 / 여기에 없어요') {
+        // Show general guidance
+        addBotMessage({
+          type: 'bot',
+          content: '괜찮아요. 대한법률구조공단 132에 전화하시면 무료로 상담받으실 수 있어요. 긴급 상황이라면 112(경찰) 또는 119(응급)에 연락하세요.',
+        });
+        return;
+      }
+
+      if (lc.subcategories.length === 0) {
+        addBotMessage({ type: 'bot', content: '해당 분야는 아직 준비 중이에요.' });
+        return;
+      }
+
+      setSelectedLifeCategory(lc);
+      setCurrentPhase('dont-know-2');
+
+      const subOptions = lc.subcategories.map((sc) => ({
+        value: sc.label,
+        label: sc.label,
+      }));
+
+      addBotMessage({
+        type: 'options',
+        content: '좀 더 구체적으로 어떤 상황인가요?',
+        options: subOptions,
+      });
+    },
+    [addMessageImmediate, addBotMessage],
+  );
+
+  /* ── Handle life subcategory selection (dont-know-2) ── */
+  const handleLifeSubcategorySelect = useCallback(
+    (label: string) => {
+      if (!selectedLifeCategory) return;
+
+      const sc = selectedLifeCategory.subcategories.find((s) => s.label === label);
+      if (!sc) return;
+
+      addMessageImmediate({ type: 'user', content: label });
+
+      if (sc.domains.length === 1) {
+        startAfterDomain(sc.domains[0]);
+      } else if (sc.domains.length > 1) {
+        // Show domain selection
+        setCurrentPhase('dont-know-3');
+        const domainOptions = sc.domains
+          .filter((d) => allDomainData[d] || subtypesData?.[d])
+          .map((d) => {
+            const meta = DOMAINS.find((dm) => dm.id === d);
+            return { value: d, label: meta?.name ?? d, icon: meta?.icon };
+          });
+
+        if (domainOptions.length === 1) {
+          startAfterDomain(domainOptions[0].value);
+        } else {
+          addBotMessage({
+            type: 'options',
+            content: '어떤 분야에 해당하는 것 같으세요?',
+            options: domainOptions,
+          });
+        }
+      }
+    },
+    [selectedLifeCategory, allDomainData, subtypesData, addMessageImmediate, addBotMessage, startAfterDomain],
+  );
+
+  /* ── Handle domain select ── */
+  const handleDomainSelect = useCallback(
+    (domainId: string) => {
+      const meta = DOMAINS.find((d) => d.id === domainId);
+      addMessageImmediate({ type: 'user', content: meta?.name ?? domainId });
+      startAfterDomain(domainId);
+    },
+    [addMessageImmediate, startAfterDomain],
+  );
+
+  /* ── Handle back ── */
+  const handleBack = useCallback(() => {
+    if (currentPhase === 'diagnosis') {
+      // Legacy back
+      if (history.length <= 1) return;
+      setMultiSelectState({});
+      const newHistory = history.slice(0, -1);
+      const prevIndex = newHistory[newHistory.length - 1];
+
+      const leavingQ = questions[history[history.length - 1]];
+      const newAnswers = { ...answers };
+      if (leavingQ) delete newAnswers[leavingQ.field];
+      setAnswers(newAnswers);
+
+      setHistory(newHistory);
+      setCurrentQuestionIndex(prevIndex);
+
+      setMessages((prev) => {
+        const optionIndices: number[] = [];
+        prev.forEach((m, i) => { if (m.type === 'options') optionIndices.push(i); });
+        if (optionIndices.length >= 2) {
+          const cutAt = optionIndices[optionIndices.length - 1];
+          let removeFrom = cutAt;
+          for (let i = cutAt - 1; i >= 0; i--) {
+            if (prev[i].type === 'user') { removeFrom = i; break; }
+          }
+          return prev.slice(0, removeFrom);
+        }
+        return prev;
+      });
+
+      const prevQ = questions[prevIndex];
+      if (prevQ) {
+        addBotMessage({
+          type: 'options',
+          content: prevQ.text,
+          options: prevQ.options.map((o) => ({ value: String(o.value), label: o.label })),
+        });
+      }
+    }
+    // For new flow phases, back is more complex - we simplify by allowing restart
+  }, [currentPhase, history, questions, answers, addBotMessage]);
 
   /* ── Handle restart ── */
   const handleRestart = useCallback(() => {
@@ -624,16 +1247,26 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
     setIsTyping(false);
     setMultiSelectState({});
     setShowUnsupported(false);
+    setSelectedPerspective(null);
+    setSelectedPerspectiveKey(null);
+    setSelectedSubtype(null);
+    setSelectedSubtypeLabel(null);
+    setFactCheckIndex(0);
+    setFactAnswers({});
+    setEvidenceSelected({});
+    setSelectedLifeCategory(null);
 
     setTimeout(() => {
       addBotMessage({
         type: 'bot',
         content: '안녕하세요! 법률 상황 정리를 도와드릴게요.',
       }, () => {
+        const catOptions = CATEGORIES.map((c) => ({ value: c.label, label: c.label, icon: c.icon }));
+        catOptions.push({ value: '_dont_know_category', label: '분야를 모르겠어요', icon: '🤔' });
         addBotMessage({
           type: 'options',
           content: '어떤 문제로 고민하고 계신가요?',
-          options: CATEGORIES.map((c) => ({ value: c.label, label: c.label, icon: c.icon })),
+          options: catOptions,
         });
       });
     }, 100);
@@ -642,23 +1275,43 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
   /* ── Handle option click (routes based on phase) ── */
   const handleOptionClick = useCallback(
     (value: string) => {
-      if (currentPhase === 'category') {
-        handleCategorySelect(value);
-      } else if (currentPhase === 'domain-select') {
-        handleDomainSelect(value);
-      } else if (currentPhase === 'diagnosis') {
-        handleAnswerSelect(value);
+      switch (currentPhase) {
+        case 'category':
+          handleCategorySelect(value);
+          break;
+        case 'dont-know-1':
+          handleLifeCategorySelect(value);
+          break;
+        case 'dont-know-2':
+          handleLifeSubcategorySelect(value);
+          break;
+        case 'dont-know-3':
+        case 'domain-select':
+          handleDomainSelect(value);
+          break;
+        case 'perspective':
+          handlePerspectiveSelect(value);
+          break;
+        case 'subtype':
+          handleSubtypeSelect(value);
+          break;
+        case 'fact-check':
+          handleFactCheckAnswer(value);
+          break;
+        case 'diagnosis':
+          handleAnswerSelect(value);
+          break;
       }
     },
-    [currentPhase, handleCategorySelect, handleDomainSelect, handleAnswerSelect],
+    [currentPhase, handleCategorySelect, handleLifeCategorySelect, handleLifeSubcategorySelect, handleDomainSelect, handlePerspectiveSelect, handleSubtypeSelect, handleFactCheckAnswer, handleAnswerSelect],
   );
 
   /* ── Check if last options message is multiselect ── */
-  const isCurrentMultiselect = currentPhase === 'diagnosis' && currentQuestion?.type === 'multiselect';
+  const isCurrentMultiselect = (currentPhase === 'diagnosis' && currentQuestion?.type === 'multiselect') || currentPhase === 'evidence';
 
   /* ── Render a single message ── */
   const renderMessage = (msg: ChatMessage, index: number) => {
-    const isLastOptions = msg.type === 'options' && index === messages.length - 1 && !isTyping;
+    const isLastOptions = (msg.type === 'options' || msg.type === 'multiselect') && index === messages.length - 1 && !isTyping;
 
     switch (msg.type) {
       case 'bot':
@@ -666,11 +1319,7 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
       case 'progress':
         return (
           <div key={msg.id} className="flex items-start gap-2">
-            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center mt-0.5">
-              <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
-              </svg>
-            </div>
+            <BotAvatar />
             <div className="flex flex-col gap-0.5 max-w-[80%]">
               <span className="text-[11px] font-semibold text-gray-400">로앤가이드 AI</span>
               <div
@@ -698,48 +1347,72 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
         );
 
       case 'options':
+      case 'multiselect':
         return (
           <div key={msg.id} className="flex flex-col gap-3">
             <div className="flex items-start gap-2">
-              <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center mt-0.5">
-                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
-                </svg>
-              </div>
+              <BotAvatar />
               <div className="flex flex-col gap-0.5 max-w-[80%]">
                 <span className="text-[11px] font-semibold text-gray-400">로앤가이드 AI</span>
                 <div className="rounded-2xl rounded-tl-md border border-gray-100 bg-white px-4 py-3 shadow-sm">
                   <p className="text-[15px] leading-relaxed text-gray-800">{msg.content}</p>
+                  {msg.whyText && (
+                    <p className="text-[12px] text-gray-400 mt-1 leading-relaxed">{msg.whyText}</p>
+                  )}
                 </div>
               </div>
             </div>
             {isLastOptions && msg.options && (
               <div className="flex flex-col gap-2 pl-2">
-                {/* Multiselect */}
-                {isCurrentMultiselect ? (
+                {/* Multiselect (evidence or legacy multiselect) */}
+                {isCurrentMultiselect || msg.type === 'multiselect' ? (
                   <>
-                    {msg.options.map((opt) => (
-                      <label
-                        key={opt.value}
-                        className="flex cursor-pointer items-center gap-3 rounded-xl border-2 border-gray-200 px-4 py-3 text-left font-medium text-gray-700 transition-all hover:border-primary-500 hover:bg-primary-50"
-                      >
-                        <input
-                          type="checkbox"
-                          checked={!!multiSelectState[opt.value]}
-                          onChange={() =>
-                            setMultiSelectState((prev) => ({
-                              ...prev,
-                              [opt.value]: !prev[opt.value],
-                            }))
+                    {msg.options.map((opt) => {
+                      const checkState = currentPhase === 'evidence' ? evidenceSelected : multiSelectState;
+                      const setCheckState = currentPhase === 'evidence' ? setEvidenceSelected : setMultiSelectState;
+                      const isChecked = !!checkState[opt.value];
+
+                      // Handle "없음" exclusivity
+                      const handleChange = () => {
+                        if (opt.value === '_none') {
+                          // Uncheck everything else, toggle this
+                          if (isChecked) {
+                            setCheckState({});
+                          } else {
+                            setCheckState({ _none: true });
                           }
-                          className="h-4 w-4 rounded border-gray-300 text-primary-600 focus:ring-primary-500"
-                        />
-                        {opt.icon && <span>{opt.icon}</span>}
-                        <span>{opt.label}</span>
-                      </label>
-                    ))}
+                        } else {
+                          // Uncheck "없음" if selecting something else
+                          setCheckState((prev: Record<string, boolean>) => {
+                            const next = { ...prev, [opt.value]: !prev[opt.value] };
+                            delete next['_none'];
+                            return next;
+                          });
+                        }
+                      };
+
+                      return (
+                        <label
+                          key={opt.value}
+                          className={`flex cursor-pointer items-center gap-3 rounded-xl border-2 px-4 py-3 text-left font-medium transition-all ${
+                            isChecked
+                              ? 'border-primary-500 bg-primary-50 text-primary-700'
+                              : 'border-gray-200 text-gray-700 hover:border-primary-500 hover:bg-primary-50'
+                          }`}
+                        >
+                          <input
+                            type="checkbox"
+                            checked={isChecked}
+                            onChange={handleChange}
+                            className="h-4 w-4 rounded border-gray-300 text-primary-600 focus:ring-primary-500"
+                          />
+                          {opt.icon && <span>{opt.icon}</span>}
+                          <span>{opt.label}</span>
+                        </label>
+                      );
+                    })}
                     <button
-                      onClick={handleMultiSelectConfirm}
+                      onClick={currentPhase === 'evidence' ? handleEvidenceConfirm : handleMultiSelectConfirm}
                       className="mt-1 w-full rounded-xl bg-primary-600 px-4 py-3 text-base font-semibold text-white hover:bg-primary-700 transition-colors"
                     >
                       다음
@@ -806,10 +1479,114 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
           </div>
         );
 
+      case 'subtype-result':
+        return (
+          <div key={msg.id} className="w-full space-y-4">
+            {/* New flow result card */}
+            {msg.subtypeResult && (
+              <div className="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+                {/* Header */}
+                <div className="bg-primary-600 px-6 py-4 text-white">
+                  <h3 className="text-lg font-bold">상황 분석 결과</h3>
+                  <p className="text-sm text-primary-100 mt-1">
+                    {msg.subtypeResult.perspectiveLabel} &middot; {msg.subtypeResult.subtypeLabel}
+                  </p>
+                </div>
+
+                {/* Summary */}
+                <div className="px-6 py-5 border-b border-gray-100">
+                  <div className="flex items-start gap-2">
+                    <span className="text-lg mt-0.5">⚖️</span>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1">법적 판단</h4>
+                      <p className="text-[15px] text-gray-700 leading-relaxed">{msg.subtypeResult.summary}</p>
+                      {msg.subtypeResult.legalBasis && (
+                        <p className="text-[13px] text-gray-500 mt-2">근거 법률: {msg.subtypeResult.legalBasis}</p>
+                      )}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Fact-check summary */}
+                {Object.keys(msg.subtypeResult.factAnswers).length > 0 && (
+                  <div className="px-6 py-5 border-b border-gray-100">
+                    <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
+                      <span>📋</span> 확인된 사실
+                    </h4>
+                    <div className="space-y-2">
+                      {Object.entries(msg.subtypeResult.factAnswers).map(([key, val]) => (
+                        <div key={key} className="flex items-center gap-2 text-[14px]">
+                          <span className={`w-2 h-2 rounded-full flex-shrink-0 ${val === '모름' ? 'bg-gray-300' : 'bg-primary-500'}`} />
+                          <span className="text-gray-600">{key}:</span>
+                          <span className={`font-medium ${val === '모름' ? 'text-gray-400' : 'text-gray-800'}`}>{val}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Evidence status */}
+                {msg.subtypeResult.requiredDocs.length > 0 && (
+                  <div className="px-6 py-5 border-b border-gray-100">
+                    <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
+                      <span>📎</span> 필요 서류 체크
+                    </h4>
+                    <div className="space-y-2">
+                      {msg.subtypeResult.requiredDocs.map((doc) => {
+                        const hasIt = msg.subtypeResult!.userEvidence.includes(doc);
+                        return (
+                          <div key={doc} className="flex items-center gap-2 text-[14px]">
+                            {hasIt ? (
+                              <span className="text-green-600 font-bold">✓</span>
+                            ) : (
+                              <span className="text-red-500 font-bold">✗</span>
+                            )}
+                            <span className={hasIt ? 'text-gray-800' : 'text-red-600 font-medium'}>{doc}</span>
+                            <span className={`text-[12px] px-2 py-0.5 rounded-full ${
+                              hasIt ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-600'
+                            }`}>
+                              {hasIt ? '보유' : '미보유'}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* CTA */}
+                <div className="px-6 py-5 bg-amber-50 border-t border-amber-100">
+                  <p className="text-[15px] font-semibold text-amber-800 mb-2">지금 바로 할 일</p>
+                  <p className="text-[14px] text-amber-700 leading-relaxed mb-3">
+                    미보유 서류를 우선 준비하고, 전문 변호사 상담을 받아보세요.
+                  </p>
+                  <a
+                    href="https://lawnguide.co.kr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block rounded-xl bg-primary-600 px-6 py-3 text-white font-semibold text-[15px] hover:bg-primary-700 transition-colors"
+                  >
+                    로앤가이드에서 내 상황 정리하기
+                  </a>
+                </div>
+              </div>
+            )}
+
+            {/* Legacy result card if available */}
+            {msg.result && (
+              <ChatResultCard result={msg.result} answers={msg.answers ?? {}} domainName={domainMeta?.name ?? ''} onRestart={handleRestart} />
+            )}
+          </div>
+        );
+
       default:
         return null;
     }
   };
+
+  /* ── Determine if back button should show ── */
+  const showBackButton =
+    (currentPhase === 'diagnosis' && history.length > 1 && !isTyping);
 
   return (
     <div className="flex flex-col h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)] bg-gray-50">
@@ -830,7 +1607,6 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
       {/* Messages area */}
       <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-6 space-y-4">
         {messages.map((msg, i) => {
-          // Find the index of the last user message to place scroll anchor after it
           const lastUserIdx = messages.reduce((acc, m, idx) => m.type === 'user' ? idx : acc, -1);
           const isScrollTarget = i === lastUserIdx + 1 && i > 0;
           return (
@@ -854,7 +1630,7 @@ export default function ChatBot({ allDomainData, initialDomain }: ChatBotProps) 
       </div>
 
       {/* Bottom actions */}
-      {currentPhase === 'diagnosis' && history.length > 1 && !isTyping && (
+      {showBackButton && (
         <div className="border-t border-gray-200 bg-white px-4 py-3">
           <button
             onClick={handleBack}
