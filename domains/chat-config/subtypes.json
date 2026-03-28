@@ -1135,6 +1135,10 @@
 
   "prostitution": {
     "perspectives": ["혐의를 받고 있습니다", "피해 지원을 받고 싶습니다"],
+    "perspectiveLabels": {
+      "offender": "혐의를 받고 있습니다",
+      "victim": "피해 지원을 받고 싶습니다"
+    },
     "subtypes": {
       "offender": [
         { "id": "caught", "label": "성매매 단속 적발", "legalBasis": "성매매알선 등 행위의 처벌에 관한 법률 제21조제1항" },

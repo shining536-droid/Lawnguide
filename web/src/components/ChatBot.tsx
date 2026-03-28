@@ -140,6 +140,7 @@ const LIFE_CATEGORIES: LifeCategory[] = [
     { label: '투자 / 코인 / 고수익 제안', domains: ['fraud'] },
     { label: '지인에게 빌려준 돈', domains: ['fraud', 'small-claims'] },
     { label: '계약금 / 대금 문제', domains: ['small-claims', 'real-estate-sale'] },
+    { label: '빚이 너무 많아요 (회생/파산)', domains: ['rehabilitation', 'bankruptcy'] },
     { label: '정확히는 모르겠어요', domains: ['fraud'] },
   ]},
   { label: '맞거나 다쳤어요 / 위협받고 있어요', icon: '🤕', subcategories: [
@@ -147,6 +148,7 @@ const LIFE_CATEGORIES: LifeCategory[] = [
     { label: '서로 시비가 붙었어요', domains: ['assault'] },
     { label: '협박을 받고 있어요', domains: ['assault', 'stalking'] },
     { label: '누가 따라다녀요', domains: ['stalking'] },
+    { label: '학교에서 폭력이 있었어요', domains: ['school-violence'] },
     { label: '정확히는 모르겠어요', domains: ['assault'] },
   ]},
   { label: '성적인 문제나 불안한 상황이 있어요', icon: '🔒', subcategories: [
@@ -155,6 +157,7 @@ const LIFE_CATEGORIES: LifeCategory[] = [
     { label: '직장 내 성희롱', domains: ['sexual-harassment'] },
     { label: '스토킹', domains: ['stalking'] },
     { label: '아동 관련', domains: ['child-sex-crime'] },
+    { label: '성매매 관련', domains: ['prostitution'] },
     { label: '정확히는 모르겠어요', domains: ['sex-crime'] },
   ]},
   { label: '가족 / 이혼 / 양육 문제예요', icon: '👨‍👩‍👧', subcategories: [
@@ -169,13 +172,14 @@ const LIFE_CATEGORIES: LifeCategory[] = [
     { label: '상가 임대차', domains: ['sangga'] },
     { label: '매매 계약 문제', domains: ['real-estate-sale'] },
     { label: '경매', domains: ['real-estate-auction'] },
+    { label: '이웃 간 분쟁 (층간소음 등)', domains: ['neighbor-dispute'] },
     { label: '정확히는 모르겠어요', domains: ['jeonse'] },
   ]},
   { label: '회사 / 해고 / 임금 문제예요', icon: '🏢', subcategories: [
     { label: '해고 통보 받았어요', domains: ['dismissal'] },
     { label: '월급 / 수당 안 줘요', domains: ['wage'] },
     { label: '퇴직금 문제', domains: ['retirement'] },
-    { label: '산재 / 업무상 재해', domains: ['industrial-accident1'] },
+    { label: '산재 / 업무상 재해', domains: ['industrial-accident1', 'industrial-accident2'] },
     { label: '실업급여', domains: ['unemployment'] },
     { label: '정확히는 모르겠어요', domains: ['dismissal'] },
   ]},
@@ -183,6 +187,14 @@ const LIFE_CATEGORIES: LifeCategory[] = [
     { label: '교통사고', domains: ['traffic-accident'] },
     { label: '음주운전 적발', domains: ['dui'] },
     { label: '정확히는 모르겠어요', domains: ['traffic-accident'] },
+  ]},
+  { label: '그 외 법률 문제', icon: '📋', subcategories: [
+    { label: '명예훼손 / 모욕', domains: ['defamation'] },
+    { label: '마약 관련 혐의', domains: ['drug-crime'] },
+    { label: '층간소음 / 이웃 분쟁', domains: ['neighbor-dispute'] },
+    { label: '개인회생 / 파산', domains: ['rehabilitation', 'bankruptcy'] },
+    { label: '소액소송 / 지급명령', domains: ['small-claims'] },
+    { label: '정확히는 모르겠어요', domains: ['defamation'] },
   ]},
   { label: '잘 모르겠어요 / 여기에 없어요', icon: '❓', subcategories: [] },
 ];
