@@ -17,7 +17,7 @@ interface PageProps {
 
 function loadSubtypesData(): Record<string, unknown> {
   const merged: Record<string, unknown> = {};
-  const chatConfigDir = path.join(process.cwd(), 'domains', 'chat-config');
+  const chatConfigDir = path.join(process.cwd(), '..', 'domains', 'chat-config');
 
   for (const filename of ['subtypes.json', 'subtypes-2.json']) {
     try {
