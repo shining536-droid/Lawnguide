@@ -263,6 +263,63 @@ const DOMAIN_REFLECTIONS: Record<string, Record<string, string>> = {
 
 /* ─────────────── Perspective mapping helpers ─────────────── */
 
+/** Map English factCheck IDs to Korean labels by looking up the question text */
+function factCheckIdToKorean(
+  id: string,
+  domain: string | null,
+  perspectiveKey: string | null,
+  subtypesData: Record<string, SubtypeData>,
+): string {
+  if (!domain || !perspectiveKey) return id;
+  const sData = subtypesData[domain];
+  if (!sData) return id;
+  const checks = sData.factChecks?.[perspectiveKey] ?? sData.factChecks?.['victim'] ?? [];
+  const found = checks.find((c: FactCheckItem) => c.id === id);
+  if (found) {
+    // Extract short label from question text (first noun phrase)
+    const q = found.question;
+    // Remove "~인가요?", "~하셨나요?" etc. and take first part
+    const short = q.replace(/[?？]/g, '').replace(/은$|는$|이$|가$/, '');
+    return short.length > 15 ? short.substring(0, 15) + '…' : short;
+  }
+  // Fallback common mappings
+  const fallback: Record<string, string> = {
+    amount: '피해 금액',
+    'transaction-method': '거래 방식',
+    'contact-status': '상대방 연락',
+    'police-report': '경찰 신고 여부',
+    'time-elapsed': '피해 발생 시점',
+    'investigation-stage': '수사 단계',
+    'victim-contact': '피해자 연락',
+    repayment: '변제 가능성',
+    'injury-level': '부상 정도',
+    'hospital-visit': '병원 진료',
+    'cctv-available': 'CCTV 유무',
+    'witnesses': '목격자 유무',
+    'bac-level': '혈중알코올농도',
+    'accident-occurred': '사고 여부',
+    'prior-record': '전력 여부',
+    'marriage-duration': '결혼 기간',
+    'children': '미성년 자녀',
+    'joint-assets': '공동 재산',
+    'spouse-consent': '배우자 동의',
+    'evidence-available': '증거 보유',
+    'measurement-method': '측정 방법',
+    'time-after-drinking': '음주 후 시간',
+    'contract-status': '계약 상태',
+    'deposit-amount': '보증금 규모',
+    'employment-period': '근무 기간',
+    'company-size': '회사 규모',
+    'wage-amount': '체불 금액',
+    'injury-severity': '부상 정도',
+    'noise-duration': '소음 기간',
+    'dashcam': '블랙박스',
+    'insurance': '보험 가입',
+    'fault-dispute': '과실 다툼',
+  };
+  return fallback[id] ?? id;
+}
+
 const PERSPECTIVE_LABEL_TO_KEY: Record<string, string> = {
   '피해를 입었습니다': 'victim',
   '혐의를 받고 있습니다': 'offender',
@@ -622,9 +679,9 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
         addMessageImmediate({ type: 'user', content: subtypeLabel });
 
         // Show legal basis if available
-        if (found?.legalBasis) {
+        if (found) {
           addBotMessage(
-            { type: 'reflection', content: `관련 법률: ${found.legalBasis}` },
+            { type: 'reflection', content: `${found.label} 상황으로 이해했어요. 몇 가지 더 확인해볼게요.` },
             () => {
               setSelectedSubtype(subtypeId);
               setSelectedSubtypeLabel(subtypeLabel);
@@ -1510,7 +1567,7 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
                   <div className="flex items-start gap-2">
                     <span className="text-lg mt-0.5">⚖️</span>
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-1">법적 판단</h4>
+                      <h4 className="font-semibold text-gray-800 mb-1">상황 분석</h4>
                       <p className="text-[15px] text-gray-700 leading-relaxed">{msg.subtypeResult.summary}</p>
                       {msg.subtypeResult.legalBasis && (
                         <p className="text-[13px] text-gray-500 mt-2">근거 법률: {msg.subtypeResult.legalBasis}</p>
@@ -1526,13 +1583,17 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
                       <span>📋</span> 확인된 사실
                     </h4>
                     <div className="space-y-2">
-                      {Object.entries(msg.subtypeResult.factAnswers).map(([key, val]) => (
-                        <div key={key} className="flex items-center gap-2 text-[14px]">
-                          <span className={`w-2 h-2 rounded-full flex-shrink-0 ${val === '모름' ? 'bg-gray-300' : 'bg-primary-500'}`} />
-                          <span className="text-gray-600">{key}:</span>
-                          <span className={`font-medium ${val === '모름' ? 'text-gray-400' : 'text-gray-800'}`}>{val}</span>
-                        </div>
-                      ))}
+                      {Object.entries(msg.subtypeResult.factAnswers).map(([key, val]) => {
+                        // Map English factCheck IDs to Korean labels
+                        const koreanLabel = factCheckIdToKorean(key, selectedDomain, selectedPerspectiveKey, subtypesData);
+                        return (
+                          <div key={key} className="flex items-center gap-2 text-[14px]">
+                            <span className={`w-2 h-2 rounded-full flex-shrink-0 ${val === '모름' ? 'bg-gray-300' : 'bg-primary-500'}`} />
+                            <span className="text-gray-600">{koreanLabel}:</span>
+                            <span className={`font-medium ${val === '모름' ? 'text-gray-400' : 'text-gray-800'}`}>{val}</span>
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
                 )}
