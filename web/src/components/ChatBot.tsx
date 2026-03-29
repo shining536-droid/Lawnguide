@@ -483,9 +483,9 @@ function getPerspectiveCTAText(perspectiveKey: string | null): string {
 
 function getPerspectiveCTAButton(perspectiveKey: string | null): string {
   switch (perspectiveKey) {
-    case 'offender': return '조사 대응 상담 받기';
-    case 'falsely_accused': return '억울한 신고 대응 상담 받기';
-    default: return '고소/신고 방향 상담 받기';
+    case 'offender': return '조사 전 대응 상담받기';
+    case 'falsely_accused': return '억울한 신고 대응 상담받기';
+    default: return '고소/신고 전 상담받기';
   }
 }
 
@@ -1862,10 +1862,7 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
               </div>
             )}
 
-            {/* Legacy result card if available */}
-            {msg.result && (
-              <ChatResultCard result={msg.result} answers={msg.answers ?? {}} domainName={domainMeta?.name ?? ''} onRestart={handleRestart} />
-            )}
+            {/* Legacy result card removed - new flow result is sufficient */}
           </div>
         );
 
