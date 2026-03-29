@@ -1628,19 +1628,27 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
                 )}
 
                 {/* CTA */}
-                <div className="px-6 py-5 bg-amber-50 border-t border-amber-100">
-                  <p className="text-[15px] font-semibold text-amber-800 mb-2">지금 바로 할 일</p>
-                  <p className="text-[14px] text-amber-700 leading-relaxed mb-3">
-                    미보유 서류를 우선 준비하고, 전문 변호사 상담을 받아보세요.
+                <div className="px-6 py-5 bg-gradient-to-r from-amber-50 to-amber-100 border-t border-amber-200">
+                  <p className="text-[15px] font-bold text-gray-800 mb-1">전문 변호사 상담이 필요하다면</p>
+                  <p className="text-[14px] text-gray-600 leading-relaxed mb-3">
+                    준비된 상태로 상담받으면 결과가 달라집니다
                   </p>
-                  <a
-                    href="https://lawnguide.co.kr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block rounded-xl bg-primary-600 px-6 py-3 text-white font-semibold text-[15px] hover:bg-primary-700 transition-colors"
+                  <button
+                    className="w-full rounded-xl bg-amber-500 hover:bg-amber-600 px-6 py-3.5 text-white font-bold text-[15px] transition-colors shadow-md"
                   >
-                    로앤가이드에서 내 상황 정리하기
-                  </a>
+                    전문가 매칭 요청하기
+                  </button>
+                  <div className="mt-3 flex gap-2">
+                    <a href="tel:132" className="flex-1 text-center rounded-lg bg-white border border-gray-200 px-3 py-2 text-[13px] font-medium text-gray-700 hover:bg-gray-50">
+                      📞 법률구조공단 132
+                    </a>
+                    <button
+                      onClick={handleRestart}
+                      className="flex-1 text-center rounded-lg bg-white border border-gray-200 px-3 py-2 text-[13px] font-medium text-primary-600 hover:bg-primary-50"
+                    >
+                      다른 문제 상담하기
+                    </button>
+                  </div>
                 </div>
               </div>
             )}
