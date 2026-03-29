@@ -403,6 +403,94 @@ function resolveNextId(
   return nextIdVal;
 }
 
+/* ─────────────── Evidence Fuzzy Matching ─────────────── */
+
+/** Check if user evidence fuzzy-matches a required doc */
+function evidenceMatches(userEvidence: string[], requiredDoc: string): boolean {
+  // Exact match
+  if (userEvidence.includes(requiredDoc)) return true;
+  // Fuzzy match: check if any user evidence keyword overlaps with required doc
+  const docLower = requiredDoc.replace(/\s/g, '');
+  for (const ev of userEvidence) {
+    const evLower = ev.replace(/\s/g, '');
+    // Check partial inclusion both ways
+    if (docLower.includes(evLower) || evLower.includes(docLower)) return true;
+    // Check keyword overlap (split by common delimiters)
+    const docWords = requiredDoc.split(/[/·,\s]+/).filter(w => w.length > 1);
+    const evWords = ev.split(/[/·,\s]+/).filter(w => w.length > 1);
+    for (const dw of docWords) {
+      for (const ew of evWords) {
+        if (dw.includes(ew) || ew.includes(dw)) return true;
+      }
+    }
+  }
+  return false;
+}
+
+/* ─────────────── Subtype Doc Checklist (Interactive) ─────────────── */
+
+function SubtypeDocChecklist({ requiredDocs, userEvidence }: { requiredDocs: string[]; userEvidence: string[] }) {
+  const [checked, setChecked] = useState<Record<number, boolean>>(() => {
+    const init: Record<number, boolean> = {};
+    requiredDocs.forEach((doc, i) => {
+      if (evidenceMatches(userEvidence, doc)) init[i] = true;
+    });
+    return init;
+  });
+
+  const toggle = (i: number) => setChecked(prev => ({ ...prev, [i]: !prev[i] }));
+  const checkedCount = Object.values(checked).filter(Boolean).length;
+
+  return (
+    <div className="px-6 py-5 border-b border-gray-100">
+      <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
+        <span>📎</span> 준비서류
+      </h4>
+      <p className="text-[12px] text-gray-500 mb-3">체크하면서 준비 상황을 확인하세요</p>
+      <div className="space-y-2">
+        {requiredDocs.map((doc, i) => {
+          const done = !!checked[i];
+          return (
+            <button
+              key={i}
+              onClick={() => toggle(i)}
+              className="w-full flex items-center justify-between bg-gray-50 hover:bg-gray-100 rounded-lg p-3 transition-colors text-left"
+            >
+              <div className="flex items-center gap-3">
+                <div className={`w-5 h-5 rounded flex-shrink-0 flex items-center justify-center border-2 transition-colors ${
+                  done ? 'bg-green-500 border-green-500' : 'bg-white border-gray-300'
+                }`}>
+                  {done && (
+                    <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  )}
+                </div>
+                <span className={`text-[14px] ${done ? 'text-gray-500 line-through' : 'text-gray-800'}`}>{doc}</span>
+              </div>
+              <span className={`text-[12px] px-2 py-0.5 rounded-full ${
+                done ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-600'
+              }`}>
+                {done ? '완료' : '필요'}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+      {/* Progress bar */}
+      <div className="mt-3 flex items-center gap-2">
+        <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
+          <div
+            className="h-full bg-green-500 rounded-full transition-all duration-300"
+            style={{ width: `${(checkedCount / requiredDocs.length) * 100}%` }}
+          />
+        </div>
+        <span className="text-[12px] text-gray-500">{checkedCount}/{requiredDocs.length}</span>
+      </div>
+    </div>
+  );
+}
+
 /* ─────────────── Typing Indicator ─────────────── */
 
 function TypingIndicator() {
@@ -1598,33 +1686,12 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
                   </div>
                 )}
 
-                {/* Evidence status */}
+                {/* Evidence status - interactive checklist */}
                 {msg.subtypeResult.requiredDocs.length > 0 && (
-                  <div className="px-6 py-5 border-b border-gray-100">
-                    <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                      <span>📎</span> 필요 서류 체크
-                    </h4>
-                    <div className="space-y-2">
-                      {msg.subtypeResult.requiredDocs.map((doc) => {
-                        const hasIt = msg.subtypeResult!.userEvidence.includes(doc);
-                        return (
-                          <div key={doc} className="flex items-center gap-2 text-[14px]">
-                            {hasIt ? (
-                              <span className="text-green-600 font-bold">✓</span>
-                            ) : (
-                              <span className="text-red-500 font-bold">✗</span>
-                            )}
-                            <span className={hasIt ? 'text-gray-800' : 'text-red-600 font-medium'}>{doc}</span>
-                            <span className={`text-[12px] px-2 py-0.5 rounded-full ${
-                              hasIt ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-600'
-                            }`}>
-                              {hasIt ? '보유' : '미보유'}
-                            </span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
+                  <SubtypeDocChecklist
+                    requiredDocs={msg.subtypeResult.requiredDocs}
+                    userEvidence={msg.subtypeResult.userEvidence}
+                  />
                 )}
 
                 {/* CTA */}
