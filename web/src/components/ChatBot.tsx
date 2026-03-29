@@ -403,6 +403,92 @@ function resolveNextId(
   return nextIdVal;
 }
 
+/* ─────────────── Fact Comment Helper ─────────────── */
+
+function getFactComment(key: string, val: string): string | null {
+  if (val === '모름') return null;
+  const comments: Record<string, Record<string, string>> = {
+    'contact-status': {
+      '연락 두절': '상대방 특정 자료 확보가 중요할 수 있어요',
+      '차단당함': '다른 경로로 신원 확인이 필요합니다',
+    },
+    'police-report': {
+      '아직 안 함': '신고 전 증거 정리를 먼저 해두는 것이 좋습니다',
+      '신고 완료': '수사 진행 상황에 맞는 대응이 필요합니다',
+    },
+    'time-elapsed': {
+      '오늘~1주일 이내': '초기 대응이 가능한 시기입니다. 빠르게 움직이세요',
+      '1년 이상': '공소시효를 확인해볼 필요가 있습니다',
+    },
+    'prior-record': {
+      '초범': '초범은 양형에서 유리하게 작용할 수 있습니다',
+      '2회째': '재범 가중처벌이 적용될 수 있습니다',
+      '3회 이상': '가중처벌 대상이므로 즉시 변호사 상담이 필요합니다',
+    },
+    'spouse-consent': {
+      '반대함': '재판이혼 절차를 준비해야 할 수 있습니다',
+      '대화 불가 상태': '공시송달을 통한 재판이혼이 가능합니다',
+    },
+    'accident-occurred': {
+      '인적 피해 중상': '특정범죄가중법 적용 가능성이 있습니다',
+      '사망사고': '즉시 변호사 선임이 필요합니다',
+    },
+  };
+  return comments[key]?.[val] ?? null;
+}
+
+/* ─────────────── Domain-Specific Agency ─────────────── */
+
+function getDomainSpecificAgency(domain: string | null): React.ReactNode {
+  if (!domain) return null;
+  const agencies: Record<string, { name: string; desc: string; phone: string }> = {
+    wage: { name: '고용노동부', desc: '임금체불 신고 및 근로감독', phone: '1350' },
+    dismissal: { name: '고용노동부', desc: '부당해고 구제 신청', phone: '1350' },
+    retirement: { name: '고용노동부', desc: '퇴직금 체불 신고', phone: '1350' },
+    'industrial-accident1': { name: '근로복지공단', desc: '산재보험 급여 신청', phone: '1588-0075' },
+    'industrial-accident2': { name: '근로복지공단', desc: '산재보험 급여 신청', phone: '1588-0075' },
+    'jeonse-fraud': { name: '전세피해지원센터', desc: '전세사기 피해 상담 및 지원', phone: '1533-8119' },
+    jeonse: { name: '주택임대차분쟁조정위원회', desc: '보증금 분쟁 조정', phone: '1644-7788' },
+    'school-violence': { name: '학교폭력신고센터', desc: '학교폭력 상담 및 신고', phone: '117' },
+    'sexual-harassment': { name: '고용노동부', desc: '직장 내 성희롱 신고', phone: '1350' },
+    stalking: { name: '여성긴급전화', desc: '스토킹 피해 상담', phone: '1366' },
+    'sex-crime': { name: '여성긴급전화', desc: '성폭력 피해 상담', phone: '1366' },
+    'digital-sex-crime': { name: '디지털성범죄피해자지원센터', desc: '영상 삭제 지원 및 상담', phone: '02-735-8994' },
+    'child-sex-crime': { name: '아동보호전문기관', desc: '아동학대 신고 및 상담', phone: '112' },
+    'neighbor-dispute': { name: '환경분쟁조정위원회', desc: '소음 분쟁 조정', phone: '02-2110-6565' },
+    unemployment: { name: '고용센터', desc: '실업급여 신청 안내', phone: '1350' },
+  };
+  const agency = agencies[domain];
+  if (!agency) return null;
+  return (
+    <a href={`tel:${agency.phone}`} className="flex items-center justify-between bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors">
+      <div>
+        <p className="text-[14px] font-medium text-gray-800">{agency.name}</p>
+        <p className="text-[12px] text-gray-500">{agency.desc}</p>
+      </div>
+      <span className="flex-shrink-0 bg-primary-600 text-white text-[13px] font-medium px-3 py-1.5 rounded-lg">{agency.phone}</span>
+    </a>
+  );
+}
+
+/* ─────────────── Perspective CTA Text ─────────────── */
+
+function getPerspectiveCTAText(perspectiveKey: string | null): string {
+  switch (perspectiveKey) {
+    case 'offender': return '초기 진술 전 쟁점을 먼저 정리해보세요. 수사나 조사가 본격화되기 전이라면 전문가 상담을 검토해보세요.';
+    case 'falsely_accused': return '정상 거래와 이행 노력을 입증할 자료를 먼저 정리해보세요. 억울한 상황일수록 체계적인 대응이 중요합니다.';
+    default: return '지금 단계에서는 자료를 먼저 정리하는 것이 중요합니다. 신고나 합의가 본격화되기 전이라면 전문가 상담을 검토해보세요.';
+  }
+}
+
+function getPerspectiveCTAButton(perspectiveKey: string | null): string {
+  switch (perspectiveKey) {
+    case 'offender': return '조사 대응 상담 받기';
+    case 'falsely_accused': return '억울한 신고 대응 상담 받기';
+    default: return '고소/신고 방향 상담 받기';
+  }
+}
+
 /* ─────────────── Evidence Fuzzy Matching ─────────────── */
 
 /** Check if user evidence fuzzy-matches a required doc */
@@ -439,46 +525,72 @@ function SubtypeDocChecklist({ requiredDocs, userEvidence }: { requiredDocs: str
   });
 
   const toggle = (i: number) => setChecked(prev => ({ ...prev, [i]: !prev[i] }));
-  const checkedCount = Object.values(checked).filter(Boolean).length;
+
+  // Split into 3 groups
+  const alreadyHave = requiredDocs.map((doc, i) => ({ doc, i })).filter(({ i }) => checked[i]);
+  const needToGet = requiredDocs.map((doc, i) => ({ doc, i })).filter(({ i }) => !checked[i]).slice(0, -1);
+  const niceToHave = requiredDocs.map((doc, i) => ({ doc, i })).filter(({ i }) => !checked[i]).slice(-1);
+  // If all unchecked, adjust
+  const unchecked = requiredDocs.map((doc, i) => ({ doc, i })).filter(({ i }) => !checked[i]);
+  const mainNeed = unchecked.length > 2 ? unchecked.slice(0, unchecked.length - 1) : unchecked;
+  const bonus = unchecked.length > 2 ? unchecked.slice(unchecked.length - 1) : [];
+
+  const renderItem = ({ doc, i }: { doc: string; i: number }, done: boolean) => (
+    <button
+      key={i}
+      onClick={() => toggle(i)}
+      className="w-full flex items-center justify-between bg-gray-50 hover:bg-gray-100 rounded-lg p-3 transition-colors text-left"
+    >
+      <div className="flex items-center gap-3">
+        <div className={`w-5 h-5 rounded flex-shrink-0 flex items-center justify-center border-2 transition-colors ${
+          done ? 'bg-green-500 border-green-500' : 'bg-white border-gray-300'
+        }`}>
+          {done && (
+            <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          )}
+        </div>
+        <span className={`text-[14px] ${done ? 'text-gray-500 line-through' : 'text-gray-800'}`}>{doc}</span>
+      </div>
+      <span className={`text-[12px] px-2 py-0.5 rounded-full ${
+        done ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-600'
+      }`}>
+        {done ? '완료' : '필요'}
+      </span>
+    </button>
+  );
 
   return (
     <div className="px-6 py-5 border-b border-gray-100">
       <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
         <span>📎</span> 준비서류
       </h4>
-      <p className="text-[12px] text-gray-500 mb-3">체크하면서 준비 상황을 확인하세요</p>
-      <div className="space-y-2">
-        {requiredDocs.map((doc, i) => {
-          const done = !!checked[i];
-          return (
-            <button
-              key={i}
-              onClick={() => toggle(i)}
-              className="w-full flex items-center justify-between bg-gray-50 hover:bg-gray-100 rounded-lg p-3 transition-colors text-left"
-            >
-              <div className="flex items-center gap-3">
-                <div className={`w-5 h-5 rounded flex-shrink-0 flex items-center justify-center border-2 transition-colors ${
-                  done ? 'bg-green-500 border-green-500' : 'bg-white border-gray-300'
-                }`}>
-                  {done && (
-                    <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                    </svg>
-                  )}
-                </div>
-                <span className={`text-[14px] ${done ? 'text-gray-500 line-through' : 'text-gray-800'}`}>{doc}</span>
-              </div>
-              <span className={`text-[12px] px-2 py-0.5 rounded-full ${
-                done ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-600'
-              }`}>
-                {done ? '완료' : '필요'}
-              </span>
-            </button>
-          );
-        })}
-      </div>
-      {/* checkedCount used for future features */}
-      <span className="hidden">{checkedCount}</span>
+      <p className="text-[12px] text-gray-500 mb-4">체크하면서 준비 상황을 확인하세요</p>
+
+      {/* Section 1: 이미 준비됨 */}
+      {alreadyHave.length > 0 && (
+        <div className="mb-4">
+          <p className="text-[13px] font-semibold text-green-700 mb-2">이미 준비됨</p>
+          <div className="space-y-1.5">{alreadyHave.map((item) => renderItem(item, true))}</div>
+        </div>
+      )}
+
+      {/* Section 2: 추가 확보 필요 */}
+      {mainNeed.length > 0 && (
+        <div className="mb-4">
+          <p className="text-[13px] font-semibold text-red-600 mb-2">추가로 확보하면 좋은 자료</p>
+          <div className="space-y-1.5">{mainNeed.map((item) => renderItem(item, false))}</div>
+        </div>
+      )}
+
+      {/* Section 3: 있으면 유리함 */}
+      {bonus.length > 0 && (
+        <div>
+          <p className="text-[13px] font-semibold text-blue-600 mb-2">있으면 유리한 자료</p>
+          <div className="space-y-1.5">{bonus.map((item) => renderItem(item, false))}</div>
+        </div>
+      )}
     </div>
   );
 }
@@ -1631,54 +1743,37 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
       case 'subtype-result':
         return (
           <div key={msg.id} className="w-full space-y-4">
-            {/* New flow result card */}
+            {/* New flow result card - restructured */}
             {msg.subtypeResult && (
               <div className="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
-                {/* Header */}
+                {/* 1. Header - 상단 요약 */}
                 <div className="bg-primary-600 px-6 py-4 text-white">
-                  <h3 className="text-lg font-bold">상황 분석 결과</h3>
+                  <h3 className="text-lg font-bold">상황 정리 결과</h3>
                   <p className="text-sm text-primary-100 mt-1">
                     {msg.subtypeResult.perspectiveLabel} &middot; {msg.subtypeResult.subtypeLabel}
                   </p>
                 </div>
 
-                {/* Summary */}
-                <div className="px-6 py-5 border-b border-gray-100">
-                  <div className="flex items-start gap-2">
-                    <span className="text-lg mt-0.5">⚖️</span>
-                    <div>
-                      <h4 className="font-semibold text-gray-800 mb-1">상황 분석</h4>
-                      <p className="text-[15px] text-gray-700 leading-relaxed">{msg.subtypeResult.summary}</p>
-                      {msg.subtypeResult.legalBasis && (
-                        <p className="text-[13px] text-gray-500 mt-2">근거 법률: {msg.subtypeResult.legalBasis}</p>
-                      )}
-                    </div>
-                  </div>
+                {/* 2. 지금 가장 먼저 할 일 */}
+                <div className="px-6 py-5 border-b border-gray-100 bg-amber-50">
+                  <h4 className="font-bold text-gray-800 mb-3 flex items-center gap-2">
+                    <span>🔥</span> 지금 가장 먼저 할 일
+                  </h4>
+                  <ol className="space-y-2">
+                    {(msg.subtypeResult.requiredDocs.slice(0, 3)).map((doc, i) => (
+                      <li key={i} className="flex items-start gap-2 text-[14px]">
+                        <span className="flex-shrink-0 w-5 h-5 rounded-full bg-amber-500 text-white text-[12px] font-bold flex items-center justify-center mt-0.5">{i + 1}</span>
+                        <span className="text-gray-800">{
+                          evidenceMatches(msg.subtypeResult!.userEvidence, doc)
+                            ? `${doc} 보관 상태 확인`
+                            : `${doc} 확보`
+                        }</span>
+                      </li>
+                    ))}
+                  </ol>
                 </div>
 
-                {/* Fact-check summary */}
-                {Object.keys(msg.subtypeResult.factAnswers).length > 0 && (
-                  <div className="px-6 py-5 border-b border-gray-100">
-                    <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                      <span>📋</span> 확인된 사실
-                    </h4>
-                    <div className="space-y-2">
-                      {Object.entries(msg.subtypeResult.factAnswers).map(([key, val]) => {
-                        // Map English factCheck IDs to Korean labels
-                        const koreanLabel = factCheckIdToKorean(key, selectedDomain, selectedPerspectiveKey, subtypesData);
-                        return (
-                          <div key={key} className="flex items-center gap-2 text-[14px]">
-                            <span className={`w-2 h-2 rounded-full flex-shrink-0 ${val === '모름' ? 'bg-gray-300' : 'bg-primary-500'}`} />
-                            <span className="text-gray-600">{koreanLabel}:</span>
-                            <span className={`font-medium ${val === '모름' ? 'text-gray-400' : 'text-gray-800'}`}>{val}</span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-
-                {/* Evidence status - interactive checklist */}
+                {/* 3. 준비서류 - 3구역 분리 */}
                 {msg.subtypeResult.requiredDocs.length > 0 && (
                   <SubtypeDocChecklist
                     requiredDocs={msg.subtypeResult.requiredDocs}
@@ -1686,28 +1781,83 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
                   />
                 )}
 
-                {/* CTA */}
-                <div className="px-6 py-5 bg-gradient-to-r from-amber-50 to-amber-100 border-t border-amber-200">
-                  <p className="text-[15px] font-bold text-gray-800 mb-1">전문 변호사 상담이 필요하다면</p>
+                {/* 4. 확인된 사실 + 의미 코멘트 */}
+                {Object.keys(msg.subtypeResult.factAnswers).length > 0 && (
+                  <div className="px-6 py-5 border-b border-gray-100">
+                    <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
+                      <span>📋</span> 확인된 사실
+                    </h4>
+                    <div className="space-y-3">
+                      {Object.entries(msg.subtypeResult.factAnswers).map(([key, val]) => {
+                        const koreanLabel = factCheckIdToKorean(key, selectedDomain, selectedPerspectiveKey, subtypesData);
+                        const comment = getFactComment(key, val);
+                        return (
+                          <div key={key}>
+                            <div className="flex items-center gap-2 text-[14px]">
+                              <span className={`w-2 h-2 rounded-full flex-shrink-0 ${val === '모름' ? 'bg-gray-300' : 'bg-primary-500'}`} />
+                              <span className="text-gray-600">{koreanLabel}:</span>
+                              <span className={`font-medium ${val === '모름' ? 'text-gray-400' : 'text-gray-800'}`}>{val}</span>
+                            </div>
+                            {comment && <p className="text-[12px] text-gray-500 ml-4 mt-0.5">→ {comment}</p>}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* 5. 법적 쟁점 - 부드럽게 */}
+                <div className="px-6 py-5 border-b border-gray-100">
+                  <h4 className="font-semibold text-gray-800 mb-2 flex items-center gap-2">
+                    <span>⚖️</span> 관련 쟁점
+                  </h4>
+                  <p className="text-[14px] text-gray-700 leading-relaxed">{msg.subtypeResult.summary}</p>
+                  {msg.subtypeResult.legalBasis && (
+                    <p className="text-[12px] text-gray-400 mt-2">관련 법률: {msg.subtypeResult.legalBasis}</p>
+                  )}
+                </div>
+
+                {/* 6. 무료기관 + CTA */}
+                <div className="px-6 py-5 border-b border-gray-100">
+                  <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
+                    <span>📞</span> 무료 상담 기관
+                  </h4>
+                  <div className="space-y-2">
+                    <a href="tel:132" className="flex items-center justify-between bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors">
+                      <div>
+                        <p className="text-[14px] font-medium text-gray-800">대한법률구조공단</p>
+                        <p className="text-[12px] text-gray-500">무료 법률상담 및 소송대리 지원</p>
+                      </div>
+                      <span className="flex-shrink-0 bg-primary-600 text-white text-[13px] font-medium px-3 py-1.5 rounded-lg">132</span>
+                    </a>
+                    {getDomainSpecificAgency(selectedDomain)}
+                  </div>
+                </div>
+
+                {/* 7. 상담 연결 CTA */}
+                <div className="px-6 py-5 border-b border-gray-100">
                   <p className="text-[14px] text-gray-600 leading-relaxed mb-3">
-                    준비된 상태로 상담받으면 결과가 달라집니다
+                    {getPerspectiveCTAText(selectedPerspectiveKey)}
                   </p>
                   <button
+                    onClick={() => alert('전문가 매칭 서비스는 현재 준비 중입니다.\n대한법률구조공단(132)에 전화하시면 무료로 상담받으실 수 있습니다.')}
                     className="w-full rounded-xl bg-amber-500 hover:bg-amber-600 px-6 py-3.5 text-white font-bold text-[15px] transition-colors shadow-md"
                   >
-                    전문가 매칭 요청하기
+                    {getPerspectiveCTAButton(selectedPerspectiveKey)}
                   </button>
-                  <div className="mt-3 flex gap-2">
-                    <a href="tel:132" className="flex-1 text-center rounded-lg bg-white border border-gray-200 px-3 py-2 text-[13px] font-medium text-gray-700 hover:bg-gray-50">
-                      📞 법률구조공단 132
-                    </a>
-                    <button
-                      onClick={handleRestart}
-                      className="flex-1 text-center rounded-lg bg-white border border-gray-200 px-3 py-2 text-[13px] font-medium text-primary-600 hover:bg-primary-50"
-                    >
-                      다른 문제 상담하기
-                    </button>
-                  </div>
+                  <button
+                    onClick={handleRestart}
+                    className="w-full mt-2 rounded-xl border border-gray-200 px-6 py-3 text-[14px] font-medium text-primary-600 hover:bg-primary-50 transition-colors"
+                  >
+                    다른 문제 상담하기
+                  </button>
+                </div>
+
+                {/* 8. 한계 문구 */}
+                <div className="px-6 py-4 bg-gray-50">
+                  <p className="text-[12px] text-gray-400 leading-relaxed">
+                    이 결과는 입력하신 내용을 바탕으로 한 준비 안내입니다. 사실관계와 증거에 따라 실제 판단은 달라질 수 있으며, 정확한 법률 판단은 전문가 상담을 받으시기 바랍니다.
+                  </p>
                 </div>
               </div>
             )}
