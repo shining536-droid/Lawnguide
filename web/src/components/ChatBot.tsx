@@ -477,16 +477,8 @@ function SubtypeDocChecklist({ requiredDocs, userEvidence }: { requiredDocs: str
           );
         })}
       </div>
-      {/* Progress bar */}
-      <div className="mt-3 flex items-center gap-2">
-        <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
-          <div
-            className="h-full bg-green-500 rounded-full transition-all duration-300"
-            style={{ width: `${(checkedCount / requiredDocs.length) * 100}%` }}
-          />
-        </div>
-        <span className="text-[12px] text-gray-500">{checkedCount}/{requiredDocs.length}</span>
-      </div>
+      {/* checkedCount used for future features */}
+      <span className="hidden">{checkedCount}</span>
     </div>
   );
 }
