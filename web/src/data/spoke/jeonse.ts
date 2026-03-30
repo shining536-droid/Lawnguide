@@ -552,27 +552,27 @@ export const jeonsePages: SpokePage[] = [
       description: '전세보증보험으로 보증금을 돌려받으려면? 대항요건 유지 여부, 보증 한도 조건, 청구 절차와 소요기간까지 청구 전 3가지 체크포인트를 바로 정리해보세요.',
     },
     intro:
-      'HUG 전세보증보험에 가입해뒀는데, 실제로 보증금을 못 받게 되니 청구 절차가 헷갈립니다. 보험금이 나오는 줄 알았는데 면책 사유에 걸릴 수도 있다는 이야기를 들었습니다. 청구 전에 이 3가지를 먼저 확인해보세요.',
+      '계약 만료일이 지났는데 집주인이 보증금을 안 돌려줍니다. 다행히 HUG 전세보증보험에 가입해뒀지만, 막상 청구하려니 "면책 사유에 해당하면 보험금이 안 나온다"는 말에 불안합니다. 전입신고를 다른 곳으로 옮기면 대항력이 상실되어 보험금 청구가 거절될 수 있고, 보증 기간을 넘기면 아예 청구가 불가능해질 수 있습니다. 주택임대차보호법 제3조(대항력)와 제3조의2(우선변제권)가 유지되는 상태에서 청구해야 합니다. 보험금을 확실히 받기 위해, 청구 전에 반드시 확인해야 할 3가지를 정리합니다.',
     sections: [
       {
-        title: '대항요건이 유지되고 있는지 확인하세요',
+        title: '대항요건 3가지(전입신고+확정일자+점유)가 유지되는지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">전입신고와 확정일자가 유지되어야 보험금이 나옵니다</strong></p>\n<p><strong>전입신고 + 확정일자 + 실제 거주</strong>가 유지되어야 합니다. 전입신고를 다른 곳으로 옮기면 대항력이 상실되어 보험금 청구가 거절될 수 있습니다.</p>\n<p>이사를 해야 한다면 <strong>임차권등기명령</strong>을 먼저 신청하여 대항력을 보전한 뒤 이사하세요. 등기부등본에서 다른 권리 변동이 없는지도 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 주민등록등본(전입 확인), 등기부등본, 확정일자 부여 확인서</blockquote>',
+          '<p><strong style="color:#1e3a5f">전입신고를 옮기는 순간 대항력이 사라지고 보험금 청구가 거절됩니다</strong></p>\n<p>주택임대차보호법 제3조에 따라 <strong>①전입신고 ②확정일자 ③실제 거주(점유)</strong> 3가지가 모두 유지되어야 보험금이 지급됩니다. 주민센터에서 <strong>주민등록등본</strong>을 발급받아 전입 상태를 확인하고, 확정일자 부여 확인서도 함께 발급받으세요(수수료 각 400원).</p>\n<p>이사를 해야 하는 상황이라면 <strong>반드시 임차권등기명령을 먼저 신청</strong>하세요. 관할 법원에 임차권등기명령 신청서(인지대 2,000원 + 송달료 약 5,000원)를 제출하면 보통 <strong>3~7일</strong> 내에 등기가 완료됩니다. 등기 완료 후 이사해야 대항력이 유지됩니다. 인터넷등기소(iros.go.kr)에서 <strong>등기부등본</strong>을 발급받아 선순위 근저당, 가압류 등 새로운 권리 변동이 없는지도 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 주민등록등본(전입 확인) + 확정일자 부여 확인서 + 등기부등본(권리 변동 확인) = 3종 확인</blockquote>',
       },
       {
-        title: '보증 조건과 면책 사유를 확인하세요',
+        title: '보증 약관의 면책 사유 5가지를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">약관의 면책 사유에 해당하지 않는지 반드시 확인하세요</strong></p>\n<p>보증 한도, 보증 기간을 먼저 확인하세요. <strong>면책 사유</strong>에는 임대인과 특수관계(친인척 등), 보증금 변경 미통보, 대항요건 상실 등이 있습니다.</p>\n<p>보증 기간이 만료되었는데 갱신하지 않은 경우에도 문제가 될 수 있습니다. 약관의 세부 조건을 꼼꼼히 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 보증서 원본, 약관(면책 사유 확인), 보증 기간 만료일 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">면책 사유 하나라도 걸리면 보험금 전액이 거절될 수 있습니다</strong></p>\n<p>HUG·SGI 보증 약관의 주요 <strong>면책 사유 5가지</strong>: ①임대인과 <strong>특수관계</strong>(6촌 이내 혈족, 4촌 이내 인척, 배우자) ②보증금 증액·감액을 보증기관에 <strong>미통보</strong> ③<strong>대항요건 상실</strong>(전입신고 이전) ④보증 기간 만료 후 <strong>미갱신</strong> ⑤임차인의 <strong>고의·중과실</strong>로 인한 사고.</p>\n<p>보증서 원본에서 <strong>보증 기간 만료일</strong>을 확인하세요. 만료일 전에 반드시 청구해야 합니다. 계약 갱신 시 보증금이 변경되었다면 보증기관에 변경 통보를 했는지 확인하세요 — 미통보 시 변경 전 금액만 보증 대상이 됩니다. 보증서를 분실한 경우 <strong>HUG 고객센터(☎1566-9009)</strong> 또는 <strong>SGI 고객센터(☎1670-7000)</strong>에서 재발급받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보증서 원본 + 약관 면책 5가지 체크 + 보증 기간 만료일 확인 = 청구 전 필수</blockquote>',
       },
       {
-        title: '청구에 필요한 서류를 미리 준비하세요',
+        title: '청구 서류 6종을 미리 준비하세요 — 누락 시 보정 요청으로 1개월 지연됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">보증서 원본과 미반환 증빙 서류를 준비하세요</strong></p>\n<p><strong>보증서 원본</strong>, 임대차계약서, 내용증명 발송 기록, 건물등기부등본, 주민등록등본을 준비하세요. 보증금 미반환 사실을 증명하는 자료가 핵심입니다.</p>\n<p>HUG 콜센터(<strong>1566-9009</strong>)에 미리 전화하면 필요 서류와 절차를 안내받을 수 있습니다. SGI서울보증 등 다른 보증기관도 유사한 절차입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 보증서 원본, 계약서, 내용증명 기록, 등기부등본, 주민등록등본</blockquote>',
+          '<p><strong style="color:#1e3a5f">서류 한 장이 빠지면 보정 요청으로 보험금 지급이 한 달 이상 늦어집니다</strong></p>\n<p>HUG 보험금 청구 <strong>필수 서류 6종</strong>: ①<strong>보증서 원본</strong> ②임대차계약서(원본 또는 사본) ③내용증명 발송 기록(보증금 반환 최고 증빙) ④건물등기부등본(발급 1개월 이내) ⑤주민등록등본(전입 확인용, 발급 1개월 이내) ⑥<strong>보증사고 확인서</strong>(HUG 홈페이지에서 다운로드).</p>\n<p>내용증명을 아직 보내지 않았다면 <strong>우체국 전자내용증명(epost.go.kr)</strong>에서 즉시 발송하세요. 수수료 약 4,000원이며, 발송 후 <strong>14일</strong>이 지나면 보증사고 요건이 충족됩니다. HUG에 서류를 접수하면 심사 기간은 보통 <strong>1~2개월</strong>이고, 서류 미비 시 보정 요청이 오면 추가로 2~4주가 소요됩니다. SGI서울보증(☎1670-7000)도 유사한 절차이며, 보증기관별 세부 서류 차이는 콜센터에서 사전 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보증서 + 계약서 + 내용증명 + 등기부등본 + 주민등록등본 + 보증사고 확인서 = 6종 완비</blockquote>',
       },
       {
-        title: '보험금 수령 후 남은 절차도 알아두세요',
+        title: '보험금 수령 후 — 차액 청구와 이사 시점을 계획하세요',
         content:
-          '<p><strong style="color:#1e3a5f">보증기관이 임대인에게 구상권을 행사합니다</strong></p>\n<p>보험금이 지급되면 보증기관이 임대인에게 <strong>구상권</strong>을 행사합니다. 임차인이 직접 임대인을 상대로 소송할 필요가 없어지는 장점이 있습니다.</p>\n<p>보험금이 보증금 전액에 미달하는 경우 나머지는 임대인에게 직접 청구해야 합니다. 보험금 지급까지는 보통 <strong>1~2개월</strong>이 소요됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">참고: 보험금 지급 소요 1~2개월, 차액은 임대인에게 직접 청구</blockquote>',
+          '<p><strong style="color:#1e3a5f">보험금이 보증금 전액에 미달하면 차액은 임대인에게 직접 청구해야 합니다</strong></p>\n<p>보험금이 지급되면 보증기관이 임대인에게 <strong>구상권</strong>을 행사하므로, 임차인이 직접 임대인을 상대로 소송할 필요는 없습니다. 다만 보증 가입 금액이 보증금보다 적거나 경매 낙찰가가 낮아 <strong>차액이 발생</strong>하면, 그 차액은 임대인에게 민사소송(부당이득반환 또는 채무불이행)으로 청구해야 합니다.</p>\n<p>보험금 수령 후 이사할 때는 <strong>임차권등기명령을 먼저 신청한 뒤 이사</strong>하세요. 등기 없이 이사하면 차액에 대한 우선변제권마저 상실됩니다. 보험금은 지급 결정 후 <strong>영업일 기준 3~5일</strong> 이내에 지정 계좌로 입금됩니다. 세금 관련으로는 보험금 수령 자체에는 소득세가 부과되지 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보험금 수령(3~5일) → 차액 발생 시 민사 청구 → 이사 전 임차권등기명령 필수</blockquote>',
       },
     ],
     cases: [
@@ -593,44 +593,34 @@ export const jeonsePages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '전세보증보험은 누가 가입하나요?',
+        question: '내용증명을 보내지 않았는데 바로 보험금 청구할 수 있나요?',
         answer:
-          '<strong>임차인</strong>이 직접 가입합니다. HUG, SGI서울보증, 주택금융공사 등에서 가입할 수 있습니다.',
+          '보증사고 요건으로 <strong>임대인에게 보증금 반환을 최고(내용증명 발송)한 사실</strong>이 필요합니다. 우체국 전자내용증명(epost.go.kr)에서 즉시 발송하고 14일 후 청구하세요.',
       },
       {
-        question: '보험료는 얼마인가요?',
+        question: '전입신고를 옮기고 나서 보험금 청구가 거절됐는데 구제 방법이 있나요?',
         answer:
-          '보증금 규모와 보증 기간에 따라 다릅니다. 연 <strong>0.1~0.2%</strong> 수준입니다.',
+          '대항요건 상실로 거절된 경우 구제가 매우 어렵습니다. 다만 <strong>거절 통보에 이의신청</strong>을 할 수 있고, 임차권등기명령 신청 후 다시 청구를 시도해볼 수 있습니다. HUG 분쟁조정위원회에 조정 신청도 가능합니다.',
       },
       {
-        question: '보험금은 보증금 전액이 나오나요?',
+        question: 'HUG 보증과 SGI 보증, 어디서 가입한 건지 모르겠어요',
         answer:
-          '보증 가입 금액 <strong>한도 내</strong>에서 지급됩니다. 차액은 임대인에게 직접 청구해야 합니다.',
+          '보증서를 분실했다면 <strong>HUG(☎1566-9009)와 SGI(☎1670-7000)에 각각 전화</strong>하여 본인 이름과 주소로 가입 여부를 조회할 수 있습니다. 주택금융공사(☎1688-8114)도 확인해보세요.',
       },
       {
-        question: '보험금 청구 후 지급까지 얼마나 걸리나요?',
+        question: '보증금을 증액했는데 보증기관에 통보하지 않았으면 어떻게 되나요?',
         answer:
-          '통상 <strong>1~2개월</strong>입니다. 서류 보정이 필요하면 더 걸릴 수 있습니다.',
+          '증액분은 보증 대상에서 <strong>제외</strong>됩니다. 원래 가입 금액까지만 보험금이 지급되고, 증액분은 임대인에게 직접 청구해야 합니다.',
       },
       {
-        question: '임대인과 합의 중인데 보험 청구도 같이 할 수 있나요?',
+        question: '보험금을 받으면 세금을 내야 하나요?',
         answer:
-          '가능합니다. 임대인이 반환하면 <strong>보험 청구를 취하</strong>하면 됩니다.',
+          '전세보증보험금은 <strong>손해의 전보(보전)</strong> 성격이므로 소득세가 부과되지 않습니다. 별도 세금 신고도 필요 없습니다.',
       },
       {
-        question: '보증 기간이 지나면 청구 못 하나요?',
+        question: '경매가 진행 중인데 보험금 청구와 배당 요구를 동시에 할 수 있나요?',
         answer:
-          '보증 기간 내 사고 발생이 확인되면 기간 후에도 <strong>청구 가능한 경우</strong>가 있습니다. 약관을 확인하세요.',
-      },
-      {
-        question: '깡통전세인데 보험 가입이 가능한가요?',
-        answer:
-          '가입 시 감정가 대비 보증금 비율 기준이 있습니다. 이미 가입했다면 <strong>유효</strong>합니다.',
-      },
-      {
-        question: '무료 법률상담은 어디서 받나요?',
-        answer:
-          '<strong>대한법률구조공단</strong>(전화 132)과 HUG 콜센터(1566-9009)를 활용해보세요.',
+          '보험금을 먼저 수령하면 보증기관이 <strong>대위하여 배당을 받습니다</strong>. 보험금 청구가 진행 중이라면 경매 배당기일에 보증기관이 참여하므로 임차인이 별도로 배당 요구할 필요는 없습니다.',
       },
     ],
     cta: {
@@ -638,11 +628,11 @@ export const jeonsePages: SpokePage[] = [
       link: '/diagnosis/jeonse',
     },
     internalLinks: [
-      { label: '홈', href: '/' },
+      { label: '내 상황에 맞는 대응 전략 확인하기', href: '/chat?domain=jeonse' },
+      { label: '주택임대차 가이드', href: '/guide/jeonse' },
       { label: '주택임대차 진단', href: '/diagnosis/jeonse' },
       { label: '전세 계약 만료 후 집주인이 안 나가라고 할 때', href: '/guide/jeonse/lease-expired-landlord-wont-leave' },
       { label: '전세 계약 갱신 거절당했을 때 대응 방법', href: '/guide/jeonse/lease-renewal-rejection' },
-      { label: '이혼 가이드', href: '/guide/divorce' },
     ],
   },
   {

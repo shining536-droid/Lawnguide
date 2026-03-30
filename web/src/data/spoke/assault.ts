@@ -12,28 +12,28 @@ export const assaultPages: SpokePage[] = [
       title: '폭행 증거 수집 방법 4단계 — 이렇게 모으세요 | 로앤가이드',
       description: '폭행 증거를 어떻게 모아야 하나요? CCTV 보존 요청 방법, 진단서 발급 요령, 녹음의 적법성, 고소장 첨부 방법까지 수집 과정을 4단계로 지금 확인하세요.',
     },
-    intro: '가해자가 "쌍방이었다"고 주장합니다. 분명 일방적으로 맞았는데, 증거가 없으면 오히려 내가 불리해질 수 있다고 합니다. CCTV는 어디에 보존 요청을 해야 하는지, 녹음은 법적으로 괜찮은지, 목격자 진술서는 어떤 형식이어야 하는지 — 증거를 "어떻게" 수집해야 하는지 방법과 과정을 단계별로 정리합니다.',
+    intro: '편의점 앞에서 일방적으로 맞았습니다. 그런데 가해자는 "네가 먼저 시비 걸었다, 쌍방이다"라고 주장합니다. 경찰은 "증거가 있으면 가져오세요"라고만 합니다. 문제는 시간입니다 — CCTV는 7~30일이 지나면 자동 삭제되고, 멍은 일주일이면 사라지며, 목격자의 기억도 빠르게 흐려집니다. 형법 제257조(상해죄)와 제260조(폭행죄) 모두 피해자의 증거 확보가 유죄 입증의 핵심입니다. 지금 당장 챙겨야 할 증거와 수집 방법을 4단계로 정리합니다.',
     timelineSteps: ['현장 증거 확보', '병원 진단서', '고소장 작성', '수사 진행'],
     sections: [
       {
-        title: '현장에서 즉시 증거를 확보하세요',
+        title: '현장에서 즉시 증거를 확보하세요 (골든타임 48시간)',
         content:
-          '<p><strong style="color:#1e3a5f">CCTV, 목격자, 사진을 바로 확보하세요</strong></p>\n<p>폭행 현장 주변에 <strong>CCTV</strong>가 있는지 확인하세요. CCTV는 시간이 지나면 덮어씌워지므로 빨리 확인해야 합니다. 경찰에 요청하면 CCTV 보존 요청이 가능합니다.</p>\n<p><strong>목격자</strong>가 있으면 연락처를 받아두세요. 현장 사진(위치, 상황)도 촬영해두세요. 폭행 직후 상태를 <strong>동영상</strong>으로 기록하는 것도 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시 확보: CCTV 보존 요청, 목격자 연락처, 현장·부상 사진/동영상</blockquote>',
+          '<p><strong style="color:#1e3a5f">CCTV 보존 요청은 48시간이 승부입니다 — 지금 바로 하세요</strong></p>\n<p>폭행 현장 주변의 <strong>CCTV 위치</strong>를 확인하세요: 편의점·ATM(7일 보관), 건물 로비(15~30일), 도로 방범카메라(30일). 경찰에 고소하면서 <strong>"CCTV 보존 요청서"</strong>를 함께 제출하거나, 건물 관리사무소에 직접 방문하여 "특정 날짜·시간대 영상 보존"을 서면으로 요청하세요. 구두 요청은 효력이 약합니다.</p>\n<p><strong>목격자</strong>가 있으면 이름·전화번호·목격 내용을 메모해두세요. 현장에서 바로 받기 어려우면 "명함 교환"을 하세요. 부상 부위를 <strong>타임스탬프가 보이는 사진</strong>(스마트폰 카메라 정보에 날짜 자동 기록)으로 촬영하고, 현장 전체를 <strong>파노라마 촬영</strong>하면 위치와 상황을 한 번에 기록할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: CCTV 보존 요청(서면) + 목격자 연락처 + 부상·현장 사진(타임스탬프) = 48시간 내 확보</blockquote>',
       },
       {
-        title: '병원에 가서 진단서를 발급받으세요',
+        title: '24시간 이내에 병원에 가서 상해진단서를 발급받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">진단서는 폭행 피해를 증명하는 핵심 증거입니다</strong></p>\n<p>폭행 직후 <strong>병원</strong>에 가서 진료를 받고 <strong>진단서</strong>를 발급받으세요. 진단서에는 부상 부위, 정도, 치료 기간이 기재됩니다. 치료 기간에 따라 <strong>상해죄(2주 이상)</strong>와 <strong>폭행죄</strong>가 구별됩니다.</p>\n<p>진단서 원본은 보관하고, <strong>사본을 고소장에 첨부</strong>합니다. 부상 부위 사진도 날짜별로 촬영해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수: 진단서 발급(부상 부위·치료 기간), 부상 사진 날짜별 촬영</blockquote>',
+          '<p><strong style="color:#1e3a5f">상해진단서는 폭행 피해 입증의 가장 강력한 증거입니다</strong></p>\n<p>대법원 2025도11886 사건에서도 "상해진단서는 피해자의 진술과 함께 범죄사실을 증명하는 유력한 증거"라고 판시했습니다. 폭행 직후 <strong>24시간 이내</strong>에 정형외과·외과·응급의학과를 방문하세요. 의사에게 <strong>"외부 충격에 의한 손상"</strong>이라는 표현이 들어가도록 사건 경위를 설명하세요.</p>\n<p>진단서의 <strong>치료 주수</strong>가 죄명과 처벌을 결정합니다: 진단 2주 이상이면 상해죄(형법 제257조, 7년 이하 징역 또는 1천만원 이하 벌금), 미만이면 폭행죄(형법 제260조, 2년 이하 징역 또는 500만원 이하 벌금). 진단서 발급비는 통상 <strong>1만~2만원</strong>이며, 진단서 원본은 보관하고 사본을 고소장에 첨부합니다. <strong>치료비 영수증과 약 처방전</strong>도 모두 보관하세요 — 민사 손해배상 청구 시 필수입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 24시간 내 병원 방문 → "외력에 의한 손상" 진단서 + 치료비 영수증 + 부상 사진(날짜별)</blockquote>',
       },
       {
-        title: '경찰에 고소장을 제출하세요',
+        title: '관할 경찰서에 고소장과 증거를 함께 제출하세요',
         content:
-          '<p><strong style="color:#1e3a5f">폭행죄 또는 상해죄로 고소할 수 있습니다</strong></p>\n<p><strong>폭행죄</strong>(형법 제260조)는 2년 이하 징역/500만원 이하 벌금, <strong>상해죄</strong>(형법 제257조)는 7년 이하 징역/10년 이하 자격정지/1,000만원 이하 벌금입니다.</p>\n<p>고소장에는 ①고소인·피고소인 정보, ②폭행 일시·장소, ③폭행 경위, ④부상 정도, ⑤증거 목록을 기재합니다. 관할 <strong>경찰서</strong>에 진단서와 증거를 함께 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">처벌: 폭행죄 → 2년/500만원 | 상해죄 → 7년/1,000만원</blockquote>',
+          '<p><strong style="color:#1e3a5f">고소장 + 진단서 + CCTV 보존 결과를 한꺼번에 제출하면 수사가 빨라집니다</strong></p>\n<p>고소장 필수 기재 사항: <strong>①고소인 인적사항 ②피고소인 정보(모르면 "성명불상") ③폭행 일시·장소 ④범죄사실(구체적 행위 서술) ⑤증거 목록</strong>. 관할 경찰서(사건 발생지 기준)에 직접 방문하거나 <strong>경찰민원포털(minwon.police.go.kr)</strong>에서 온라인 접수도 가능합니다.</p>\n<p>증거 목록에 <strong>"1. 상해진단서 원본 1부, 2. 부상 부위 사진 ○매, 3. CCTV 보존 요청 결과, 4. 목격자 진술서, 5. 가해자 사과 문자 캡처"</strong> 형태로 번호를 매겨 정리하세요. 폭행죄(제260조)는 반의사불벌죄이므로 피해자 처벌 의사가 핵심이고, 상해죄(제257조)는 합의 여부와 무관하게 검사가 기소할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 고소장 + 진단서 + 사진 + CCTV + 목격자 진술 = 5종 세트로 일괄 제출</blockquote>',
       },
       {
-        title: '민사 손해배상과 합의도 검토하세요',
+        title: '민사 손해배상과 합의 — 합의서에 반드시 넣어야 할 3가지 조항',
         content:
-          '<p><strong style="color:#1e3a5f">형사 절차와 별도로 치료비, 위자료를 청구할 수 있습니다</strong></p>\n<p>형사 절차와 별도로 가해자에게 <strong>치료비, 일실수입(일하지 못한 기간 수입), 위자료</strong>를 청구할 수 있습니다.</p>\n<p>가해자가 합의를 원하는 경우, 합의금에 <strong>치료비 전액, 위자료, 향후 치료비</strong>를 포함시키세요. 합의서 작성 시 "향후 추가 치료비는 별도 청구 가능"이라는 문구를 넣어두면 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">청구: 치료비 + 일실수입 + 위자료 | 합의 시 향후 치료비 조항 포함</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사와 별도로 민법 제750조에 따라 치료비·위자료·일실수입을 청구할 수 있습니다</strong></p>\n<p>형사 절차와 별개로 가해자에게 <strong>①실제 치료비(영수증 기준) ②일실수입(일하지 못한 기간 급여 상당액) ③위자료(정신적 손해배상)</strong>를 청구할 수 있습니다. 손해배상 청구권 소멸시효는 피해를 안 날로부터 <strong>3년</strong>(민법 제766조)입니다.</p>\n<p>가해자가 합의를 제안하면 합의서에 <strong>반드시 포함할 3가지 조항</strong>: ①"합의금 ○○만원을 수령한다" ②"향후 추가 치료비 발생 시 별도 청구 가능하다" ③"가해자는 동일한 행위를 반복하지 않는다(재발 방지 조항)". 합의금 수준은 진단 2주 기준 <strong>100만~300만원</strong>, 4주 이상은 <strong>300만~1,000만원</strong>이 일반적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 합의서 필수 3조항 = 합의금 명시 + 향후 치료비 별도 청구 + 재발 방지</blockquote>',
       },
     ],
     cases: [
@@ -54,28 +54,28 @@ export const assaultPages: SpokePage[] = [
     ],
     faq: [
       {
-        question: 'CCTV 보존 요청은 구체적으로 어떻게 하나요?',
-        answer: '경찰에 고소하면서 <strong>CCTV 보존 요청</strong>을 함께 하거나, 현장 인근 건물 관리자에게 직접 방문하여 보존을 요청합니다. 보관 기간이 7~30일이므로 빠를수록 좋습니다.',
+        question: '건물 관리소에서 CCTV 영상 보여주기를 거부하면 어떻게 하나요?',
+        answer: '관리소는 개인정보보호법상 제3자에게 직접 영상을 제공할 의무가 없습니다. <strong>경찰에 고소장을 제출하면서 "CCTV 보존 및 영상 확보 요청"을 수사관에게 하세요.</strong> 수사기관의 공식 요청에는 응해야 합니다.',
       },
       {
-        question: '가해자와 통화를 녹음하면 적법한 증거가 되나요?',
-        answer: '대화 <strong>당사자가 녹음하는 것은 적법</strong>합니다(대법원 2006도4981). 녹음 파일은 편집 없이 원본 그대로 보관하세요.',
+        question: '가해자와의 전화 통화를 녹음해도 되나요?',
+        answer: '대화 <strong>당사자가 직접 녹음하는 것은 적법</strong>합니다(통신비밀보호법 제3조 단서, 대법원 2006도4981). 단, 제3자가 몰래 녹음하면 불법입니다. 녹음 파일은 편집하지 말고 원본 그대로 USB에 저장하여 제출하세요.',
       },
       {
-        question: '목격자 진술서는 어떤 형식으로 받아야 하나요?',
-        answer: '정해진 양식은 없지만, <strong>목격자 성명, 연락처, 목격 일시·장소, 목격 내용</strong>을 기재하고 서명을 받아두면 됩니다.',
+        question: '폭행 후 며칠 지나서 통증이 심해졌는데, 지금 병원가도 되나요?',
+        answer: '됩니다. 다만 <strong>폭행과 상해 사이의 인과관계</strong>가 문제될 수 있으므로, 의사에게 "○일 전 폭행 피해 후 증상 악화"라고 정확히 설명하세요. 초진이 늦어질수록 증명력이 떨어지므로 가능한 빨리 가세요.',
       },
       {
-        question: '진단서는 어느 병원에서 받아야 하나요?',
-        answer: '아무 병원이나 가능합니다. 정형외과, 외과, 응급의학과가 일반적이며, <strong>"외력에 의한 손상"</strong>이라는 문구가 포함되도록 의사에게 설명하세요.',
+        question: '가해자가 보낸 사과 카톡은 증거로 얼마나 강력한가요?',
+        answer: '"때려서 미안하다", "내가 잘못했다" 등의 메시지는 <strong>자백에 준하는 강력한 증거</strong>입니다. 날짜·시간·프로필이 보이도록 캡처하고, 캡처 일시도 별도로 기록해두세요. 화면 녹화도 함께 하면 더 확실합니다.',
       },
       {
-        question: '증거를 고소장에 어떻게 첨부하나요?',
-        answer: '고소장 끝에 <strong>증거 목록란</strong>을 만들어 "1. 진단서 원본, 2. 부상 사진 3매" 형태로 나열하고, 증거물을 함께 제출합니다.',
+        question: '쌍방이라고 주장하는 가해자를 어떻게 반박하나요?',
+        answer: '<strong>CCTV 영상이 가장 강력한 반박 증거</strong>입니다. CCTV가 없다면 목격자 진술, 112 신고 기록(먼저 신고한 쪽이 피해자로 인정되기 쉬움), 부상 부위의 방어흔 여부(의사 소견)를 종합하여 일방적 폭행을 입증하세요.',
       },
       {
-        question: '가해자 사과 문자는 어떻게 증거로 쓰나요?',
-        answer: '카카오톡·문자 화면을 <strong>날짜와 시간이 보이도록 캡처</strong>하여 출력합니다. "때려서 미안하다" 등의 발언은 자백에 준하는 증거력을 가집니다.',
+        question: '폭행 증거 수집을 변호사에게 맡길 수 있나요?',
+        answer: '변호사가 증거 수집 자체를 대행하지는 않지만, <strong>어떤 증거가 필요한지 조언</strong>해줍니다. 대한법률구조공단(☎132)에서 무료 상담이 가능하고, 범죄피해자지원센터(☎1577-1295)에서도 법률 지원을 받을 수 있습니다.',
       },
     ],
     cta: {
@@ -83,11 +83,11 @@ export const assaultPages: SpokePage[] = [
       link: '/diagnosis/assault',
     },
     internalLinks: [
-      { label: '홈', href: '/' },
+      { label: '내 상황에 맞는 대응 전략 확인하기', href: '/chat?domain=assault' },
+      { label: '폭행/상해 가이드', href: '/guide/assault' },
       { label: '폭행 진단', href: '/diagnosis/assault' },
       { label: '정당방위 인정 기준과 준비 포인트', href: '/guide/assault/self-defense-criteria' },
-      { label: '악플로 명예훼손 당했을 때 대응법', href: '/guide/defamation/online-defamation-response' },
-      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '폭행 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount' },
     ],
   },
   {

@@ -1350,28 +1350,28 @@ export const fraudPages: SpokePage[] = [
       title: '인터넷 쇼핑 사기 환불받는 4단계 절차 | 로앤가이드',
       description: '가짜 쇼핑몰이나 SNS 판매 사기를 당했다면? 카드사 결제취소, 경찰 신고, 소비자원 피해구제, 민사청구까지 환불받는 절차를 바로 정리해보세요.',
     },
-    intro: '인스타그램 광고를 보고 유명 브랜드 가방을 반값에 샀는데, 도착한 건 싸구려 짝퉁이었습니다. 판매자에게 항의하려 했지만 프로필은 이미 삭제됐고, 메시지도 읽히지 않습니다. 카드값은 이번 달에 빠져나갈 예정인데, 환불받을 수 있는 방법이 있는지 막막합니다. 지금부터 환불까지의 절차를 정리해보겠습니다.',
+    intro: '새벽 2시, 인스타그램 광고를 보고 정가 50만원짜리 브랜드 가방을 19만 9천원에 결제했습니다. 3일 뒤 도착한 건 로고도 삐뚤어진 짝퉁이었습니다. 판매자 프로필은 삭제됐고, DM은 읽히지 않으며, 카드 대금 결제일은 일주일 앞으로 다가왔습니다. 형법 제347조(사기죄)에 따르면 기망행위로 재물을 편취한 자는 10년 이하의 징역 또는 2,000만원 이하의 벌금에 처해집니다. 환불받을 길이 있습니다 — 카드사 이의제기부터 민사 청구까지, 지금 바로 시작해야 할 4단계를 정리합니다.',
     timelineSteps: ['증거 확보', '카드사 결제취소', '경찰 신고', '소비자원 피해구제'],
     sections: [
       {
         title: '결제 증거와 판매자 정보를 즉시 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">광고 화면, 결제 내역, 배송 기록을 지금 바로 캡처하세요</strong></p>\n<p>가장 먼저 해야 할 일은 <strong>판매자가 삭제하기 전에 모든 기록을 확보</strong>하는 것입니다. SNS 광고 화면, 상품 페이지, 판매자와의 대화 내용을 전체 화면으로 캡처하세요. 날짜와 시간이 보이도록 찍어야 증거로서 효력이 높아집니다.</p>\n<p><strong>카드 결제 내역</strong>(카드사 앱에서 확인), 계좌이체 내역, 택배 송장번호를 정리하세요. 도착한 상품이 가짜인 경우 <strong>정품과 비교한 사진</strong>도 촬영해두면 기망 행위 입증에 도움이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: SNS 광고·상품 페이지 캡처, 결제 내역, 대화 기록, 수령 상품 사진</blockquote>',
+          '<p><strong style="color:#1e3a5f">판매자가 삭제하기 전에, 오늘 안에 모든 기록을 캡처하세요</strong></p>\n<p>인터넷 쇼핑 사기의 핵심 증거는 <strong>"광고 내용과 실제 상품이 다르다"는 기망행위 입증</strong>입니다. SNS 광고 화면(URL 포함), 상품 페이지, 판매자 프로필, DM 대화 내용을 <strong>전체 화면 캡처</strong>로 저장하세요. 반드시 날짜·시간 표시가 보여야 합니다.</p>\n<p><strong>카드사 앱</strong>에서 결제 내역(가맹점명, 결제일, 금액)을 캡처하고, 택배 송장번호로 배송 기록을 확인하세요. 도착한 상품은 <strong>개봉 과정을 영상으로 촬영</strong>하고, 정품과 비교 사진(로고, 재질, 라벨)을 찍어두면 기망 입증에 결정적입니다. 계좌이체의 경우 <strong>이체확인서</strong>(인터넷뱅킹에서 출력)도 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 광고 캡처 + 결제 내역 + 상품 비교 사진 + 개봉 영상 = 기망행위 4대 증거</blockquote>',
       },
       {
         title: '카드사에 결제취소(이의제기)를 신청하세요',
         content:
-          '<p><strong style="color:#1e3a5f">신용카드 결제라면 카드사 이의제기로 환불받을 수 있습니다</strong></p>\n<p><strong>신용카드</strong>로 결제했다면 카드사에 전화해서 <strong>이의제기(차지백, chargeback)</strong>를 신청하세요. 전자상거래법 제18조에 따라 소비자는 상품 수령 후 <strong>7일 이내</strong> 청약철회가 가능하고, 사기에 해당하면 그 이후에도 결제취소를 요청할 수 있습니다.</p>\n<p>카드사에 증거 자료(상품 사진, 광고와 다른 점, 판매자 연락 불가 증빙)를 함께 제출하면 처리가 빨라집니다. 체크카드나 <strong>계좌이체</strong>의 경우 결제취소가 어려우므로 경찰 신고와 민사 청구를 병행해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 카드사 이의제기 신청, 증빙자료 제출 (전자상거래법 제18조)</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">인터넷 쇼핑 사기 피해를 입으셨다면, 지금 상황에서 어떤 절차를 밟아야 하는지 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+          '<p><strong style="color:#1e3a5f">신용카드 결제라면 카드사 이의제기(차지백)로 환불받을 수 있습니다</strong></p>\n<p><strong>카드사 고객센터</strong>에 전화해서 "사기 피해 이의제기(chargeback)" 접수를 요청하세요. 전자상거래법 제18조에 따라 소비자는 상품 수령 후 <strong>7일 이내</strong> 청약철회가 가능하지만, 사기에 해당하면 7일 이후에도 이의제기가 가능합니다. 주요 카드사 이의제기 번호: <strong>삼성카드 1588-8700, 신한카드 1544-7000, 현대카드 1577-6000, KB국민카드 1588-1688</strong>.</p>\n<p>이의제기 시 <strong>①광고와 상품 비교 사진 ②판매자 연락 불가 증빙(DM 캡처) ③경찰 사기 신고 접수증</strong>을 함께 제출하면 처리가 빨라집니다. 카드사 이의제기는 보통 <strong>45~60일</strong> 이내에 결과가 나옵니다. 체크카드나 계좌이체는 차지백이 불가능하므로, 경찰 신고 후 <strong>피해금 환급 신청</strong>(전기통신금융사기 피해 방지법 제6조)을 해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신용카드 → 카드사 이의제기(45~60일) | 계좌이체 → 경찰 신고 + 피해금 환급 신청</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">인터넷 쇼핑 사기 피해를 입으셨다면, 지금 상황에서 어떤 절차를 밟아야 하는지 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
       },
       {
         title: '경찰에 사기 신고하고 고소장을 접수하세요',
         content:
-          '<p><strong style="color:#1e3a5f">사이버범죄 신고시스템으로 온라인 사기를 신고하세요</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>(ecrm.police.go.kr)에서 온라인으로 신고할 수 있습니다. 신고 시 판매자 정보(계좌번호, 전화번호, SNS 계정명), 피해 금액, 거래 경위를 정리해서 제출하세요. 사기죄는 <strong>형법 제347조</strong>에 해당하며 10년 이하 징역 또는 2,000만원 이하 벌금입니다.</p>\n<p>같은 판매자에게 피해를 본 사람이 여러 명이면 <strong>공동 고소</strong>를 진행하는 것이 수사에 유리합니다. <strong>더치트</strong>(thecheat.co.kr)나 사기피해 커뮤니티에서 동일 피해자를 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: ecrm.police.go.kr 신고, 고소장 작성(피고소인 정보·범죄사실·증거목록)</blockquote>',
+          '<p><strong style="color:#1e3a5f">사이버범죄 신고시스템(ecrm.police.go.kr)에서 24시간 온라인 신고가 가능합니다</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>에 접속하여 "사이버사기" 카테고리로 신고하세요. 신고서에 필수 기재 사항: <strong>①판매자 계좌번호 ②판매자 전화번호/SNS 계정명 ③피해 금액 ④거래 경위(날짜별 정리) ⑤증거 파일 첨부</strong>. 접수 후 사건번호를 반드시 메모해두세요.</p>\n<p>신고와 동시에 <strong>더치트(thecheat.co.kr)</strong>에서 판매자의 계좌번호·전화번호를 검색하세요. 동일 피해자가 있으면 <strong>공동 고소</strong>를 진행하면 수사 우선순위가 올라갑니다. 피해 금액이 합산되면 가중 처벌(상습사기 형법 제351조, 벌금 상한 없음)도 가능합니다. 계좌이체 피해자는 신고 즉시 <strong>해당 은행에 지급정지 요청</strong>(전기통신금융사기 피해 방지법 제4조)도 함께 하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: ecrm.police.go.kr 신고 + 더치트 피해자 검색 + 은행 지급정지 = 동시 진행</blockquote>',
       },
       {
         title: '한국소비자원 피해구제와 민사 청구를 병행하세요',
         content:
-          '<p><strong style="color:#1e3a5f">소비자원 피해구제 신청으로 조정을 받을 수 있습니다</strong></p>\n<p><strong>한국소비자원</strong>(1372 소비자상담센터)에 피해구제를 신청하면 판매자와의 조정을 중재해줍니다. 전자상거래법상 통신판매업자는 <strong>사업자등록</strong>과 <strong>통신판매업 신고</strong> 의무가 있으므로, 미신고 업체라면 이 자체가 위법 증거가 됩니다.</p>\n<p>판매자가 조정에 응하지 않으면 <strong>소액사건심판</strong>(3,000만원 이하)이나 <strong>지급명령</strong>을 통해 민사적으로 환불을 받을 수 있습니다. PG사(결제대행사)에도 판매자 정보 제공을 요청하면 민사 소송에 필요한 상대방 인적사항을 확보할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 1372 소비자상담센터 신청, 소액사건심판 또는 지급명령 검토</blockquote>',
+          '<p><strong style="color:#1e3a5f">1372 소비자상담센터에 전화 한 통이면 피해구제 절차가 시작됩니다</strong></p>\n<p><strong>한국소비자원(☎1372)</strong>에 피해구제를 신청하면 판매자에게 합의 권고 → 조정 → 중재 순서로 진행됩니다. 통신판매업자는 전자상거래법 제12조에 따라 <strong>통신판매업 신고</strong> 의무가 있으므로, 공정거래위원회 "사업자정보 통합조회(ftc.go.kr)"에서 미신고 업체인지 확인하세요. 미신고 자체가 <strong>500만원 이하 과태료</strong> 대상이며, 사기 입증의 보강 증거가 됩니다.</p>\n<p>판매자가 조정에 불응하면 <strong>전자소송(ecfs.scourt.go.kr)</strong>으로 지급명령을 신청하세요. 인지대 <strong>소액(피해금액의 0.5%)</strong>으로 가능하며, 판매자가 2주 내 이의신청하지 않으면 확정판결과 동일한 효력이 생깁니다. 판매자 주소를 모를 경우 PG사(이니시스, KG모빌리언스, 나이스페이 등)에 <strong>가맹점 정보 제공 요청서</strong>를 보내면 판매자 사업자등록번호와 대표자명을 확보할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 1372 피해구제 → 조정 불응 시 → 전자소송 지급명령(인지대 0.5%) → PG사로 판매자 특정</blockquote>',
       },
     ],
     cases: [
@@ -1392,36 +1392,32 @@ export const fraudPages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '인터넷 쇼핑몰에서 짝퉁을 받았는데 사기인가요?',
-        answer: '정품이라고 광고하고 <strong>짝퉁을 보냈다면 기망행위</strong>에 해당하여 사기죄가 성립할 수 있습니다.',
+        question: '인스타그램에서 산 짝퉁 가방, 사기죄로 고소할 수 있나요?',
+        answer: '정품이라고 광고해놓고 짝퉁을 보냈다면 <strong>형법 제347조 사기죄(기망행위에 의한 재물 편취)</strong>에 해당합니다. 광고 캡처와 실제 상품 비교 사진이 핵심 증거입니다.',
       },
       {
-        question: '카드 결제가 아니라 계좌이체로 보냈는데 환불받을 수 있나요?',
-        answer: '계좌이체는 카드사 이의제기가 불가능하므로 <strong>경찰 신고와 민사 소송</strong>을 통해 환불을 받아야 합니다.',
+        question: '네이버페이·카카오페이로 결제했는데 이의제기가 되나요?',
+        answer: '간편결제도 연결된 <strong>신용카드사에 이의제기</strong>가 가능합니다. 네이버페이는 "구매 불만 접수", 카카오페이는 "결제 이의제기"를 통해 별도 환불 절차도 진행할 수 있습니다.',
       },
       {
-        question: '피해 금액이 소액인데도 신고할 수 있나요?',
-        answer: '금액과 관계없이 신고 가능합니다. <strong>소액 피해자가 많으면</strong> 합산되어 수사가 활발해지는 경우도 많습니다.',
+        question: '판매자가 "환불해주겠다"고 하면서 시간만 끄는데 어떻게 하나요?',
+        answer: '환불 약속 대화를 캡처해두고 <strong>7일 내 이행하지 않으면 즉시 경찰 신고</strong>하세요. "환불해주겠다"는 메시지 자체가 사기 피해 사실을 인정하는 증거가 됩니다.',
       },
       {
-        question: 'SNS 판매자 계정이 삭제됐는데 어떻게 찾나요?',
-        answer: '경찰에 신고하면 <strong>SNS 플랫폼에 가입자 정보 제공</strong>을 요청할 수 있고, 결제 시 사용된 계좌로도 추적이 가능합니다.',
+        question: '피해 금액이 5만원인데도 신고할 가치가 있나요?',
+        answer: '있습니다. <strong>동일 판매자 피해가 합산</strong>되면 상습사기(형법 제351조)로 가중처벌됩니다. 더치트에서 같은 계좌를 검색해 피해자를 모으면 수사 우선순위가 높아집니다.',
       },
       {
-        question: '전자상거래법상 청약철회 기간이 지났는데 환불받을 수 있나요?',
-        answer: '사기에 해당하면 <strong>7일 청약철회 기간과 무관하게</strong> 카드사 이의제기나 민사 청구가 가능합니다.',
+        question: '해외 직구 사이트에서 사기당했는데 국내에서 신고되나요?',
+        answer: '국내 경찰에 신고 가능합니다. 추가로 <strong>한국소비자원 "국제거래 소비자포털"(crossborder.kca.go.kr)</strong>에 피해구제를 신청하면 해외 소비자보호기관을 통한 중재를 받을 수 있습니다.',
       },
       {
-        question: '해외 쇼핑몰에서 사기당했는데도 신고할 수 있나요?',
-        answer: '국내 경찰에 신고할 수 있고, <strong>한국소비자원 국제거래 피해구제</strong> 서비스도 이용 가능합니다.',
+        question: '카드사 이의제기가 거절되면 다른 방법이 있나요?',
+        answer: '전자소송(ecfs.scourt.go.kr)으로 <strong>지급명령을 신청</strong>하세요. 인지대가 소액이고, 판매자가 2주 내 이의하지 않으면 확정판결과 동일한 효력으로 강제집행이 가능합니다.',
       },
       {
-        question: '더치트에서 같은 계좌로 피해 본 사람이 있으면 어떻게 하나요?',
-        answer: '<strong>공동 고소</strong>를 진행하면 수사가 빨라지고, 피해 규모가 커져 처벌 수위도 높아집니다.',
-      },
-      {
-        question: '물건은 받았는데 품질이 너무 나쁜 경우도 사기인가요?',
-        answer: '단순 품질 불만은 사기가 아니지만, <strong>광고 내용과 현저히 다른 상품</strong>을 보냈다면 기망행위로 볼 수 있습니다.',
+        question: '물건은 왔는데 광고와 색상·사이즈가 다른 경우도 사기인가요?',
+        answer: '단순 색상 차이는 사기가 아닐 수 있지만, <strong>광고 내용과 현저히 다른 상품</strong>(소재가 다름, 기능이 없음 등)이면 기망행위로 볼 수 있습니다. 전자상거래법 제17조에 따른 청약철회도 가능합니다.',
       },
     ],
     cta: {
@@ -1429,11 +1425,11 @@ export const fraudPages: SpokePage[] = [
       link: '/diagnosis/fraud',
     },
     internalLinks: [
+      { label: '내 상황에 맞는 대응 전략 확인하기', href: '/chat?domain=fraud' },
       { label: '사기 가이드', href: '/guide/fraud' },
       { label: '중고거래 사기 증거 모으는 법', href: '/guide/fraud/used-market-fraud-evidence' },
       { label: '사기 고소장 작성 가이드', href: '/guide/fraud/fraud-complaint-preparation' },
       { label: '사기 진단', href: '/diagnosis/fraud' },
-      { label: '폭행 치료비 청구 기한과 금액 기준', href: '/guide/assault/assault-medical-cost-timeline' },
     ],
   },
   {
