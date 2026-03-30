@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: '/diagnosis/',
       },
     ],
-    sitemap: 'https://lawnguide.co.kr/sitemap.xml',
+    sitemap: 'https://www.lawnguide.co.kr/sitemap.xml',
   };
 }

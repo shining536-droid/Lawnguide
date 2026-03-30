@@ -342,6 +342,7 @@ export default function ChatResultCard({ result, answers, domainName, onRestart 
         {/* ═══ 6. 변호사 연결 CTA ═══ */}
         <div className="pt-6 border-t border-gray-100">
           <div className="bg-gradient-to-r from-amber-50 to-amber-100 rounded-xl p-5 text-center">
+            <p className="text-gray-600 text-sm mb-2">변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.</p>
             <p className="text-gray-800 font-bold mb-1">전문 변호사 상담이 필요하다면</p>
             <p className="text-gray-600 text-sm mb-4">준비된 상태로 상담받으면 결과가 달라집니다</p>
             <button className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3.5 px-6 rounded-xl w-full transition-colors text-base shadow-md hover:shadow-lg">

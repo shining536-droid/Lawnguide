@@ -170,7 +170,7 @@ export default function HomeContent() {
               AI 무료 법률진단
             </Link>
             <p className="mx-auto mt-4 max-w-sm text-base leading-relaxed text-white/80 md:text-lg">
-              AI가 상황을 분석하고,{' '}<br className="sm:hidden" />지금 해야 할 일을 정리해드립니다.
+              변호사 만나기 전,{' '}<br className="sm:hidden" />AI가 빠르게 대응 전략을 세워드립니다.
             </p>
             <p className="mt-2 text-sm text-white/50">
               평균 1분 소요 · 20,455건 판례 기반

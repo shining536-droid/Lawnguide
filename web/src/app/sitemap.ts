@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { DOMAINS } from '@/lib/domains';
 import { SPOKE_PAGES } from '@/data/spoke-pages';
 
-const baseUrl = 'https://lawnguide.co.kr';
+const baseUrl = 'https://www.lawnguide.co.kr';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();

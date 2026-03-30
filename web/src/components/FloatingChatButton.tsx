@@ -29,7 +29,7 @@ function getTooltipText(domain: string | null): string {
   if (domain && DOMAIN_LABELS[domain]) {
     return `${DOMAIN_LABELS[domain]} 관련 상황을 정리해보세요`;
   }
-  return '사건이 생겼나요?\n지금 해야 할 일을 정리해드려요';
+  return '변호사 만나기 전,\nAI가 빠르게 대응 전략을 세워드립니다.';
 }
 
 export default function FloatingChatButton() {

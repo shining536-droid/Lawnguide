@@ -1890,6 +1890,9 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
           처음부터 다시 시작
         </button>
       </div>
+      <div className="bg-primary-50 px-4 py-2 text-center">
+        <p className="text-xs text-primary-700">변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.</p>
+      </div>
 
       {/* Messages area */}
       <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-6 space-y-4">
