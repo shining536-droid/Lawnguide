@@ -2966,5 +2966,693 @@
     "type": "절차형",
     "channel": "naver-blog",
     "slug": "digital-sex-crime-revenge-porn-punishment"
+  },
+  {
+    "판례ID": "2024마5496",
+    "domain": "small-claims",
+    "perspective": "general",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "small-claims-self-filing-guide"
+  },
+  {
+    "판례ID": "2024마5324",
+    "domain": "small-claims",
+    "perspective": "general",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "payment-order-application-guide"
+  },
+  {
+    "판례ID": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "general",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "unemployment-fraud-penalty-response"
+  },
+  {
+    "판례ID": "2014구합2270",
+    "domain": "unemployment",
+    "perspective": "general",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "voluntary-quit-unemployment-eligibility"
+  },
+  {
+    "판례ID": "2013나6064",
+    "domain": "dismissal",
+    "perspective": "general",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "forced-resignation-defense"
+  },
+  {
+    "판례ID": "2025마7576",
+    "domain": "bankruptcy",
+    "perspective": "debtor",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "bankruptcy-seizure-release-process"
+  },
+  {
+    "판례ID": "2025마7576",
+    "domain": "bankruptcy",
+    "perspective": "debtor",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "bankruptcy-credit-recovery-timeline"
+  },
+  {
+    "판례ID": "99도1695",
+    "domain": "drug-crime",
+    "perspective": "offender",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "drug-self-report-sentencing-reduction"
+  },
+  {
+    "판례ID": "2023도10313",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "neighbor-dispute-smell-pet-parking"
+  },
+  {
+    "판례ID": "2016다228802",
+    "domain": "retirement",
+    "perspective": "general",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "retirement-interim-settlement-guide"
+  },
+  {
+    "판례ID": "2022다225897",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "traffic-accident-aftereffect-treatment-claim"
+  },
+  {
+    "판례ID": "2022다235009",
+    "domain": "traffic-accident",
+    "perspective": "general",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "traffic-accident-fault-ratio-dispute"
+  },
+  {
+    "판례ID": "2023다307024",
+    "domain": "sangga",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "commercial-lease-renewal-rights-protection"
+  },
+  {
+    "판례ID": "2022다203804",
+    "domain": "real-estate-sale",
+    "perspective": "general",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "real-estate-contract-cancellation-penalty"
+  },
+  {
+    "판례ID": "2025다213134",
+    "domain": "real-estate-sale",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "real-estate-defect-damage-claim"
+  },
+  {
+    "판례ID": "2025무565",
+    "domain": "school-violence",
+    "perspective": "offender",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "school-violence-sanction-appeal-process"
+  },
+  {
+    "판례ID": "2023다316851",
+    "domain": "inheritance",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "inheritance-forced-share-lawsuit-guide"
+  },
+  {
+    "판례ID": "2025모3144",
+    "domain": "stalking",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "stalking-emergency-protective-measures"
+  },
+  {
+    "판례ID": "2024스866",
+    "domain": "inheritance",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "inheritance-division-mediation-tribunal"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "unpaid-wage-statute-of-limitations"
+  },
+  {
+    "판례ID": "2024도1932",
+    "domain": "fraud",
+    "perspective": "offender",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "fraud-accused-first-response-guide"
+  },
+  {
+    "판례ID": "2025고합87",
+    "domain": "fraud",
+    "perspective": "offender",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "fraud-false-accusation-counter-sue"
+  },
+  {
+    "판례ID": "2025고단1523",
+    "domain": "assault",
+    "perspective": "offender",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "assault-self-defense-legal-conditions"
+  },
+  {
+    "판례ID": "2022다260586",
+    "domain": "sangga",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "sangga-key-money-recovery-protection"
+  },
+  {
+    "판례ID": "2022다309337",
+    "domain": "sangga",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "sangga-renewal-rejection-response"
+  },
+  {
+    "판례ID": "2024두50063",
+    "domain": "industrial-accident",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver",
+    "slug": "industrial-accident-treatment-application"
+  },
+  {
+    "판례ID": "2022두50694",
+    "domain": "industrial-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "industrial-accident-compensation-types"
+  },
+  {
+    "판례ID": "2023두57876",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "dismissal-under-five-employees-options"
+  },
+  {
+    "판례ID": "2024두54683",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "dismissal-probation-period-unfair"
+  },
+  {
+    "판례ID": "2023다239756",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "rehabilitation-credit-card-after-filing"
+  },
+  {
+    "판례ID": "2024다221042",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "비교형",
+    "channel": "naver",
+    "slug": "rehabilitation-vs-bankruptcy-comparison"
+  },
+  {
+    "판례ID": "2023도10313",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "neighbor-dispute-pet-noise-smell"
+  },
+  {
+    "판례ID": "2024도18701",
+    "domain": "sex-crime",
+    "perspective": "offender",
+    "type": "절차형",
+    "channel": "naver",
+    "slug": "sex-crime-accused-first-statement-prep"
+  },
+  {
+    "판례ID": "2025도9446",
+    "domain": "drug-crime",
+    "perspective": "offender",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "drug-crime-first-offense-probation-chance"
+  },
+  {
+    "판례ID": "2024므13669",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "준비형",
+    "channel": "naver",
+    "slug": "divorce-property-division-preparation"
+  },
+  {
+    "판례ID": "2023스637",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "양육권형",
+    "channel": "naver",
+    "slug": "divorce-father-custody-favorable-conditions"
+  },
+  {
+    "판례ID": "2022도1862",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "환불형",
+    "channel": "naver",
+    "slug": "fraud-used-market-refund-by-amount"
+  },
+  {
+    "판례ID": "2022모2092",
+    "domain": "stalking",
+    "perspective": "victim",
+    "type": "접근금지형",
+    "channel": "naver",
+    "slug": "stalking-restraining-order-violation-penalty"
+  },
+  {
+    "판례ID": "2019구합6370",
+    "domain": "school-violence",
+    "perspective": "offender",
+    "type": "첫대응형",
+    "channel": "naver",
+    "slug": "school-violence-perpetrator-parent-first-call"
+  },
+  {
+    "판례ID": "2024마5496",
+    "domain": "small-claims",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "small-claims-loan-100-recovery"
+  },
+  {
+    "판례ID": "2025마7576",
+    "domain": "bankruptcy",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "bankruptcy-home-property-fate"
+  },
+  {
+    "판례ID": "2025으517",
+    "domain": "child-support",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "child-support-enforcement-order-detention"
+  },
+  {
+    "판례ID": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "unemployment-benefit-part-time-work-rules"
+  },
+  {
+    "판례ID": "2025도1049",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "traffic-accident-settlement-fair-amount"
+  },
+  {
+    "판례ID": "2025도986",
+    "domain": "digital-sex-crime",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "digital-sex-crime-deletion-request-guide"
+  },
+  {
+    "판례ID": "2025도7665",
+    "domain": "dui",
+    "perspective": "offender",
+    "type": "Q&A형",
+    "channel": "naver",
+    "slug": "dui-third-offense-avoid-prison"
+  },
+  {
+    "판례ID": "2017도4027",
+    "domain": "real-estate-sale",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "real-estate-sale-seller-default-response"
+  },
+  {
+    "판례ID": "2025다211105",
+    "domain": "real-estate-sale",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver",
+    "slug": "real-estate-sale-defect-claim-guide"
+  },
+  {
+    "판례ID": "2022도3103",
+    "domain": "real-estate-auction",
+    "perspective": "victim",
+    "type": "체크리스트형",
+    "channel": "naver",
+    "slug": "real-estate-auction-beginner-checklist"
+  },
+  {
+    "판례ID": "2017다212194",
+    "domain": "real-estate-auction",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver",
+    "slug": "real-estate-auction-tenant-eviction-steps"
+  },
+  {
+    "판례ID": "2016다228802",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "naver",
+    "slug": "retirement-interim-settlement-conditions"
+  },
+  {
+    "판례ID": "2025구합54475",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver",
+    "slug": "retirement-unpaid-labor-office-report"
+  },
+  {
+    "판례ID": "2014다57846",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "neighbor-dispute-noise-legal-steps"
+  },
+  {
+    "판례ID": "2008두1191",
+    "domain": "industrial-accident1",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "company-wont-file-industrial-claim"
+  },
+  {
+    "판례ID": "2008두1191",
+    "domain": "industrial-accident1",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver",
+    "slug": "commute-injury-covered-qa"
+  },
+  {
+    "판례ID": "2014다49324",
+    "domain": "industrial-accident1",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "retaliation-after-filing-industrial"
+  },
+  {
+    "판례ID": "2022다260586",
+    "domain": "sangga",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "sangga-key-money-not-paid"
+  },
+  {
+    "판례ID": "2023다307024",
+    "domain": "sangga",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "sangga-lease-law-not-applied"
+  },
+  {
+    "판례ID": "국가인권위결정",
+    "domain": "sexual-harassment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "boss-touched-shoulder-harassment"
+  },
+  {
+    "판례ID": "국가인권위결정",
+    "domain": "sexual-harassment",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver",
+    "slug": "retaliation-after-harassment-report"
+  },
+  {
+    "판례ID": "2021다248299",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "report-unpaid-retirement-pay"
+  },
+  {
+    "판례ID": "2024마5324",
+    "domain": "small-claims",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "300man-not-returned-lawsuit"
+  },
+  {
+    "판례ID": "2024마5496",
+    "domain": "small-claims",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "small-claims-alone-easy"
+  },
+  {
+    "판례ID": "2025도3890",
+    "domain": "child-sex-crime",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver",
+    "slug": "child-crime-not-reporting-penalty"
+  },
+  {
+    "판례ID": "2024도17801",
+    "domain": "child-sex-crime",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "child-peer-abuse-parent-action"
+  },
+  {
+    "판례ID": "2025두33276",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "voluntary-resignation-actually-dismissal"
+  },
+  {
+    "판례ID": "2024두54683",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver",
+    "slug": "probation-fired-unfair-dismissal"
+  },
+  {
+    "판례ID": "2024다221042",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "rehabilitation-debt-solution-real"
+  },
+  {
+    "판례ID": "2021다248299",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "retirement-pay-how-to-calculate"
+  },
+  {
+    "판례ID": "2022다299829",
+    "domain": "small-claims",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "small-claims-money-lent-not-returned"
+  },
+  {
+    "판례ID": "산업재해보상보험법제1조",
+    "domain": "industrial-accident2",
+    "perspective": "accused",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "industrial-accident2-employer-responsibility"
+  },
+  {
+    "판례ID": "2025무565",
+    "domain": "school-violence",
+    "perspective": "falsely_accused",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "school-violence-child-falsely-accused"
+  },
+  {
+    "판례ID": "601525",
+    "domain": "prostitution",
+    "perspective": "offender",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "prostitution-caught-what-to-do"
+  },
+  {
+    "판례ID": "193392",
+    "domain": "prostitution",
+    "perspective": "offender",
+    "type": "수치기한형",
+    "channel": "naver-blog",
+    "slug": "prostitution-first-offense-penalty"
+  },
+  {
+    "판례ID": "612843",
+    "domain": "real-estate-sale",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "deposit-paid-price-dropped-cancel"
+  },
+  {
+    "판례ID": "608555",
+    "domain": "real-estate-sale",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "no-registry-check-almost-disaster"
+  },
+  {
+    "판례ID": "614385",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "too-much-debt-rehabilitation-works"
+  },
+  {
+    "판례ID": "606183",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "비교형",
+    "channel": "naver-blog",
+    "slug": "rehabilitation-vs-bankruptcy-easy"
+  },
+  {
+    "판례ID": "616587",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "naver-blog",
+    "slug": "accurate-retirement-pay-calculation"
+  },
+  {
+    "판례ID": "2023도15133",
+    "domain": "sexual-harassment",
+    "perspective": "victim",
+    "type": "증거형",
+    "channel": "naver-blog",
+    "slug": "harassment-no-evidence-can-report"
+  },
+  {
+    "판례ID": "2024다298448",
+    "domain": "real-estate-auction",
+    "perspective": "victim",
+    "type": "입문형",
+    "channel": "naver-blog",
+    "slug": "auction-beginner-where-to-start"
+  },
+  {
+    "판례ID": "616251",
+    "domain": "real-estate-auction",
+    "perspective": "victim",
+    "type": "세입자퇴거형",
+    "channel": "naver-blog",
+    "slug": "auction-won-tenant-wont-leave"
+  },
+  {
+    "판례ID": "2025마7576",
+    "domain": "bankruptcy",
+    "perspective": "victim",
+    "type": "면책형",
+    "channel": "naver-blog",
+    "slug": "bankruptcy-100m-debt-all-gone"
+  },
+  {
+    "판례ID": "2025마7576",
+    "domain": "bankruptcy",
+    "perspective": "victim",
+    "type": "자유재산형",
+    "channel": "naver-blog",
+    "slug": "bankruptcy-will-i-lose-house-car"
+  },
+  {
+    "판례ID": "2014다57846",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "소음측정형",
+    "channel": "naver-blog",
+    "slug": "upstairs-noise-driving-me-crazy"
+  },
+  {
+    "판례ID": "2023도10313",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "역고소대응형",
+    "channel": "naver-blog",
+    "slug": "noise-complaint-counter-lawsuit"
   }
 ]

@@ -124,6 +124,20 @@ import { spokesBatch15Part2Pages } from './spoke/spokes-batch15-part2';
 import { spokesBatch15Pages11to15 } from './spoke/spokes-batch15-11to15';
 import { spokesBatch15Pages16to20 } from './spoke/spokes-batch15-16to20';
 import { spokesBatch15Pages21to25 } from './spoke/spokes-batch15-21to25';
+import { spokesBatch16_11to15 } from './spoke/spokes-batch16-11to15';
+import { spokesBatch16Pages16to20 } from './spoke/spokes-batch16-16to20';
+import { spokesBatch16Pages21to25 } from './spoke/spokes-batch16-21to25';
+import { spokesBatch16Part1Pages } from './spoke/spokes-batch16-part1';
+import { spokesBatch16Pages31to35 } from './spoke/spokes-batch16-31to35';
+import { spokesBatch16Part2Pages } from './spoke/spokes-batch16-part2';
+import { spokesBatch16Pages26to30 } from './spoke/spokes-batch16-26to30';
+import { spokesBatch17Part1Pages } from './spoke/spokes-batch17-part1';
+import { spokesBatch17_6to10 } from './spoke/spokes-batch17-6to10';
+import { spokesBatch17_11to15 } from './spoke/spokes-batch17-11to15';
+import { spokesBatch17_16to20 } from './spoke/spokes-batch17-16to20';
+import { spokesBatch17_21to25 } from './spoke/spokes-batch17-21to25';
+import { spokesBatch17_26to30 } from './spoke/spokes-batch17-26to30';
+import { spokesBatch17_31to35 } from './spoke/spokes-batch17-31to35';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -205,6 +219,20 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch15Pages11to15,
   ...spokesBatch15Pages16to20,
   ...spokesBatch15Pages21to25,
+  ...spokesBatch16_11to15,
+  ...spokesBatch16Pages16to20,
+  ...spokesBatch16Pages21to25,
+  ...spokesBatch16Part1Pages,
+  ...spokesBatch16Pages31to35,
+  ...spokesBatch16Part2Pages,
+  ...spokesBatch16Pages26to30,
+  ...spokesBatch17Part1Pages,
+  ...spokesBatch17_6to10,
+  ...spokesBatch17_11to15,
+  ...spokesBatch17_16to20,
+  ...spokesBatch17_21to25,
+  ...spokesBatch17_26to30,
+  ...spokesBatch17_31to35,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
