@@ -269,11 +269,22 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const meta = getDomainMeta(params.domain);
   if (!meta) return {};
   const rich = RICH_GUIDES[params.domain];
+  const description = rich
+    ? `${meta.name} 피해·혐의 상황별 준비사항, FAQ, 판례를 확인하세요.`
+    : `${meta.name} 관련 문제가 있을 때 신고·상담 전에 필요한 준비사항을 안내합니다.`;
   const base: Metadata = {
     title: `${meta.name} 준비사항 안내 | 로앤가이드`,
-    description: rich
-      ? `${meta.name} 피해·혐의 상황별 준비사항, FAQ, 판례를 확인하세요.`
-      : `${meta.name} 관련 문제가 있을 때 신고·상담 전에 필요한 준비사항을 안내합니다.`,
+    description,
+    alternates: {
+      canonical: `https://www.lawnguide.co.kr/guide/${params.domain}`,
+    },
+    openGraph: {
+      title: `${meta.name} 준비사항 안내 | 로앤가이드`,
+      description,
+      url: `https://www.lawnguide.co.kr/guide/${params.domain}`,
+      siteName: '로앤가이드',
+      type: 'article',
+    },
   };
   return base;
 }

@@ -24,6 +24,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ko">
       <head>
         <meta name="google-site-verification" content="vL9P2IwiUGewHLUXc8epNWxdLtdZNtkAkim3QyaPiFU" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#1e40af" />
+        <link rel="manifest" href="/manifest.json" />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-DVMXWW15NR" strategy="afterInteractive" />
         <Script id="gtag" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
