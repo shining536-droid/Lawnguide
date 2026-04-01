@@ -138,6 +138,10 @@ import { spokesBatch17_16to20 } from './spoke/spokes-batch17-16to20';
 import { spokesBatch17_21to25 } from './spoke/spokes-batch17-21to25';
 import { spokesBatch17_26to30 } from './spoke/spokes-batch17-26to30';
 import { spokesBatch17_31to35 } from './spoke/spokes-batch17-31to35';
+import { spokesBatch17GscWageStalking } from './spoke/spokes-batch17-gsc-wage-stalking';
+import { spokesBatch17GscFraud } from './spoke/spokes-batch17-gsc-fraud';
+import { spokesBatch17GscTraffic } from './spoke/spokes-batch17-gsc-traffic';
+import { spokesBatch17GscDivorce } from './spoke/spokes-batch17-gsc-divorce';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -233,6 +237,10 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch17_21to25,
   ...spokesBatch17_26to30,
   ...spokesBatch17_31to35,
+  ...spokesBatch17GscWageStalking,
+  ...spokesBatch17GscFraud,
+  ...spokesBatch17GscTraffic,
+  ...spokesBatch17GscDivorce,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
