@@ -18,9 +18,20 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: PageProps): Metadata {
   const page = getSpokePage(params.domain, params.slug);
   if (!page) return {};
+  const domainMeta = getDomainMeta(params.domain);
   return {
     title: page.meta.title,
     description: page.meta.description,
+    alternates: {
+      canonical: `https://www.lawnguide.co.kr/guide/${params.domain}/${params.slug}`,
+    },
+    openGraph: {
+      title: page.meta.title,
+      description: page.meta.description,
+      url: `https://www.lawnguide.co.kr/guide/${params.domain}/${params.slug}`,
+      siteName: '로앤가이드',
+      type: 'article',
+    },
   };
 }
 
@@ -31,8 +42,86 @@ export default function GuideSpokePage({ params }: PageProps) {
   const domainMeta = getDomainMeta(params.domain);
   const siblings = getSpokePagesByDomain(params.domain).filter((p) => p.slug !== params.slug);
 
+  // Structured Data: Article
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: page.keyword,
+    description: page.meta.description,
+    url: `https://www.lawnguide.co.kr/guide/${params.domain}/${params.slug}`,
+    publisher: {
+      '@type': 'Organization',
+      name: '로앤가이드',
+      url: 'https://www.lawnguide.co.kr',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.lawnguide.co.kr/guide/${params.domain}/${params.slug}`,
+    },
+    about: {
+      '@type': 'Thing',
+      name: domainMeta?.name || params.domain,
+    },
+  };
+
+  // Structured Data: BreadcrumbList
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: '홈',
+        item: 'https://www.lawnguide.co.kr',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: `${domainMeta?.name || params.domain} 안내`,
+        item: `https://www.lawnguide.co.kr/guide/${params.domain}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: page.keyword,
+        item: `https://www.lawnguide.co.kr/guide/${params.domain}/${params.slug}`,
+      },
+    ],
+  };
+
+  // Structured Data: FAQPage
+  const faqJsonLd = page.faq.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: page.faq.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: f.answer.replace(/<[^>]*>/g, ''),
+      },
+    })),
+  } : null;
+
   return (
     <main className="min-h-screen bg-gray-50">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
+
       {/* Header */}
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-3xl mx-auto px-4 py-6">
