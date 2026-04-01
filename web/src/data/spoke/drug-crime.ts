@@ -197,7 +197,7 @@ export const drugCrimePages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '마약 사건 진단', href: '/diagnosis/drug-crime' },
       { label: '마약 혐의 수사 연락 받았을 때 대응법', href: '/guide/drug-crime/drug-investigation-response' },
-      { label: '형사사건 가이드', href: '/guide/criminal' },
+      { label: '형사사건 가이드', href: '/guide/drug-crime' },
       { label: '성범죄 가이드', href: '/guide/sex-crime' },
     ],
   },

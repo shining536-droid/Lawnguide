@@ -173,7 +173,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
       { label: '소액소송 진단', href: '/diagnosis/small-claims' },
       { label: '지급명령 신청~확정 절차', href: '/guide/small-claims/payment-order-application-to-confirmation' },
       { label: '소액소송 소장 작성법', href: '/guide/small-claims/small-claims-complaint-template' },
-      { label: '사기 피해자 첫 대응 가이드', href: '/guide/fraud/fraud-victim-first-steps-guide' },
+      { label: '사기 피해자 첫 대응 가이드', href: '/guide/fraud/fraud-victim-where-to-start' },
     ],
   },
   {
@@ -257,7 +257,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
       { label: '성매매 사건 진단', href: '/diagnosis/prostitution' },
       { label: '성매매 매수자 vs 매도자 처벌 비교', href: '/guide/prostitution/buyer-vs-seller-penalty-comparison' },
       { label: '성범죄 수사 절차 안내', href: '/guide/sex-crime/sexual-assault-procedure-trial' },
-      { label: '형사사건 변호사 선임 가이드', href: '/guide/assault/assault-lawyer-selection-guide' },
+      { label: '형사사건 변호사 선임 가이드', href: '/guide/assault/assault-settlement-amount-guide' },
     ],
   },
   {
@@ -365,8 +365,8 @@ export const spokesBatch17_31to35: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '성매매 사건 진단', href: '/diagnosis/prostitution' },
       { label: '성매매 알선 수사~재판 절차', href: '/guide/prostitution/solicitation-investigation-to-trial' },
-      { label: '형사사건 변호사 선임 시기', href: '/guide/assault/assault-lawyer-selection-guide' },
-      { label: '약식명령 이의 신청 방법', href: '/guide/fraud/fraud-accused-first-statement' },
+      { label: '형사사건 변호사 선임 시기', href: '/guide/assault/assault-settlement-amount-guide' },
+      { label: '약식명령 이의 신청 방법', href: '/guide/fraud/fraud-accused-settlement-penalty' },
     ],
   },
   {
@@ -451,9 +451,9 @@ export const spokesBatch17_31to35: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '부동산 경매 진단', href: '/diagnosis/real-estate-auction' },
-      { label: '경매 권리분석 기초 가이드', href: '/guide/real-estate-auction/auction-rights-analysis-basics' },
-      { label: '경매 낙찰 후 명도 절차', href: '/guide/real-estate-auction/auction-eviction-procedure' },
-      { label: '경매 배당 절차 안내', href: '/guide/real-estate-auction/auction-distribution-procedure' },
+      { label: '경매 권리분석 기초 가이드', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
+      { label: '경매 낙찰 후 명도 절차', href: '/guide/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 배당 절차 안내', href: '/guide/real-estate-auction/auction-bidding-procedure' },
     ],
   },
 ];

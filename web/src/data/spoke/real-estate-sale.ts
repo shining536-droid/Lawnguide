@@ -82,9 +82,9 @@ export const realEstateSalePages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '부동산매매 진단', href: '/diagnosis/real-estate-sale' },
-      { label: '부동산 분쟁 가이드', href: '/guide/real-estate-dispute' },
-      { label: '내용증명 작성법', href: '/guide/certified-mail' },
-      { label: '가압류·가처분 안내', href: '/guide/provisional-remedy' },
+      { label: '부동산 분쟁 가이드', href: '/guide/real-estate-sale' },
+      { label: '내용증명 작성법', href: '/guide/real-estate-sale' },
+      { label: '가압류·가처분 안내', href: '/guide/real-estate-sale' },
     ],
   },
 ];

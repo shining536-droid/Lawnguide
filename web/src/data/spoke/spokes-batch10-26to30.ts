@@ -78,9 +78,9 @@ export const spokesBatch10Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '내 상황에 맞는 대응 전략 확인하기', href: '/chat?domain=sex-crime' },
       { label: '성범죄 진단하기', href: '/diagnosis/sex-crime' },
-      { label: '직장 내 성희롱 대응법', href: '/guide/sexual-harassment/workplace-harassment-response' },
-      { label: '디지털 성범죄 대처 가이드', href: '/guide/digital-sex-crime/digital-sex-crime-response' },
-      { label: '성범죄 피해자 보호 제도', href: '/guide/sex-crime/victim-protection-system' }
+      { label: '직장 내 성희롱 대응법', href: '/guide/sexual-harassment/workplace-harassment-first-check' },
+      { label: '디지털 성범죄 대처 가이드', href: '/guide/digital-sex-crime/digital-sex-crime-sextortion-response' },
+      { label: '성범죄 피해자 보호 제도', href: '/guide/sex-crime' }
     ]
   },
   {
@@ -167,9 +167,9 @@ export const spokesBatch10Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '로앤가이드 홈', href: '/' },
       { label: '소액소송 진단하기', href: '/diagnosis/small-claims' },
-      { label: '지급명령 신청 가이드', href: '/guide/small-claims/payment-order-guide' },
-      { label: '강제집행 절차 안내', href: '/guide/small-claims/enforcement-procedure' },
-      { label: '대여금 청구 소장 작성법', href: '/guide/small-claims/loan-claim-writing' }
+      { label: '지급명령 신청 가이드', href: '/guide/small-claims/payment-order-application-guide' },
+      { label: '강제집행 절차 안내', href: '/guide/small-claims' },
+      { label: '대여금 청구 소장 작성법', href: '/guide/small-claims' }
     ]
   },
   {
@@ -256,9 +256,9 @@ export const spokesBatch10Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '로앤가이드 홈', href: '/' },
       { label: '폭행 사건 진단하기', href: '/diagnosis/assault' },
-      { label: '폭행 초범 처벌 수위', href: '/guide/assault/first-offense-penalty' },
-      { label: '합의서 작성 가이드', href: '/guide/assault/settlement-agreement-guide' },
-      { label: '정당방위 인정 기준', href: '/guide/assault/self-defense-standard' }
+      { label: '폭행 초범 처벌 수위', href: '/guide/assault/assault-first-offense-penalty' },
+      { label: '합의서 작성 가이드', href: '/guide/assault/assault-settlement-amount-guide' },
+      { label: '정당방위 인정 기준', href: '/guide/assault/self-defense-criteria' }
     ]
   },
   {
@@ -345,9 +345,9 @@ export const spokesBatch10Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '로앤가이드 홈', href: '/' },
       { label: '실업급여 진단하기', href: '/diagnosis/unemployment' },
-      { label: '권고사직과 실업급여', href: '/guide/unemployment/recommended-resignation-benefits' },
+      { label: '권고사직과 실업급여', href: '/guide/unemployment/recommended-resignation-unemployment-benefit' },
       { label: '퇴직금 계산 가이드', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '직장 내 괴롭힘 대응법', href: '/guide/dismissal/workplace-bullying-response' }
+      { label: '직장 내 괴롭힘 대응법', href: '/guide/dismissal' }
     ]
   },
 ];

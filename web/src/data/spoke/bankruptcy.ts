@@ -82,8 +82,8 @@ export const bankruptcyPages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '개인파산 진단', href: '/diagnosis/bankruptcy' },
-      { label: '개인회생 가이드', href: '/guide/individual-rehabilitation' },
-      { label: '채무조정 안내', href: '/guide/debt-adjustment' },
+      { label: '개인회생 가이드', href: '/guide/rehabilitation' },
+      { label: '채무조정 안내', href: '/guide/bankruptcy' },
     ],
   },
   {
@@ -188,8 +188,8 @@ export const bankruptcyPages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '개인파산 진단', href: '/diagnosis/bankruptcy' },
       { label: '개인파산 신청에서 면책까지 전체 절차', href: '/guide/bankruptcy/bankruptcy-to-discharge-process' },
-      { label: '개인회생 가이드', href: '/guide/individual-rehabilitation' },
-      { label: '채무조정 안내', href: '/guide/debt-adjustment' },
+      { label: '개인회생 가이드', href: '/guide/rehabilitation' },
+      { label: '채무조정 안내', href: '/guide/bankruptcy' },
     ],
   },
   {
@@ -291,7 +291,7 @@ export const bankruptcyPages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '개인파산 진단', href: '/diagnosis/bankruptcy' },
       { label: '개인파산 면책 요건과 FAQ', href: '/guide/bankruptcy/bankruptcy-fresh-start-requirements' },
-      { label: '개인회생 가이드', href: '/guide/individual-rehabilitation' },
+      { label: '개인회생 가이드', href: '/guide/rehabilitation' },
     ],
   },
 ];

@@ -74,8 +74,8 @@ export const neighborDisputePages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '이웃분쟁 진단', href: '/diagnosis/neighbor-dispute' },
-      { label: '손해배상 가이드', href: '/guide/damages' },
-      { label: '환경분쟁조정 안내', href: '/guide/environmental-dispute' },
+      { label: '손해배상 가이드', href: '/guide/neighbor-dispute' },
+      { label: '환경분쟁조정 안내', href: '/guide/neighbor-dispute' },
     ],
   },
   {
@@ -177,7 +177,7 @@ export const neighborDisputePages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '이웃분쟁 진단', href: '/diagnosis/neighbor-dispute' },
       { label: '층간소음 피해 대응법', href: '/guide/neighbor-dispute/floor-noise-dispute-response' },
-      { label: '손해배상 가이드', href: '/guide/damages' },
+      { label: '손해배상 가이드', href: '/guide/neighbor-dispute' },
     ],
   },
 ];

@@ -82,8 +82,8 @@ export const smallClaimsPages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '소액소송 진단', href: '/diagnosis/small-claims' },
-      { label: '민사소송 가이드', href: '/guide/civil-litigation' },
-      { label: '강제집행 절차', href: '/guide/enforcement' },
+      { label: '민사소송 가이드', href: '/guide/small-claims' },
+      { label: '강제집행 절차', href: '/guide/small-claims' },
     ],
   },
 ];

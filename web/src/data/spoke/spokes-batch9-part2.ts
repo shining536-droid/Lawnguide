@@ -105,8 +105,8 @@ export const spokesBatch9Part2Pages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '마약범죄 진단', href: '/diagnosis/drug-crime' },
       { label: '투약 vs 소지 vs 매매 처벌 차이', href: '/guide/drug-crime/use-vs-possession-vs-dealing-penalty' },
-      { label: '마약 수사 절차 총정리', href: '/guide/drug-crime/drug-investigation-process' },
-      { label: '마약 치료보호 제도 안내', href: '/guide/drug-crime/drug-treatment-protection' },
+      { label: '마약 수사 절차 총정리', href: '/guide/drug-crime/drug-investigation-response' },
+      { label: '마약 치료보호 제도 안내', href: '/guide/drug-crime/drug-investigation-response' },
     ],
   },
 ];

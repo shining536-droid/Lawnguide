@@ -97,7 +97,7 @@ export const spokesBatch11Pages21to25: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '마약범죄 진단', href: '/diagnosis/drug-crime' },
-      { label: '마약 초범 대응 가이드', href: '/guide/drug-crime/drug-first-offense-response' },
+      { label: '마약 초범 대응 가이드', href: '/guide/drug-crime/drug-crime-first-offense-sentencing' },
       { label: '마약 소지 형사절차', href: '/guide/drug-crime/drug-possession-criminal-process' },
       { label: '마약범죄 가이드', href: '/guide/drug-crime' },
     ],
@@ -199,8 +199,8 @@ export const spokesBatch11Pages21to25: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '개인파산 진단', href: '/diagnosis/bankruptcy' },
-      { label: '개인파산 면책 요건 확인', href: '/guide/bankruptcy/bankruptcy-eligibility-check' },
-      { label: '개인파산 필요 서류 준비', href: '/guide/bankruptcy/bankruptcy-document-preparation' },
+      { label: '개인파산 면책 요건 확인', href: '/guide/bankruptcy' },
+      { label: '개인파산 필요 서류 준비', href: '/guide/bankruptcy' },
       { label: '개인파산 가이드', href: '/guide/bankruptcy' },
     ],
   },
@@ -403,8 +403,8 @@ export const spokesBatch11Pages21to25: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '부당해고 진단', href: '/diagnosis/dismissal' },
-      { label: '해고 보상금 계산', href: '/guide/dismissal/dismissal-compensation-calculation' },
-      { label: '부당해고 증거 확보', href: '/guide/dismissal/wrongful-termination-evidence' },
+      { label: '해고 보상금 계산', href: '/guide/dismissal/dismissal-notice-pay-calculation' },
+      { label: '부당해고 증거 확보', href: '/guide/dismissal' },
       { label: '부당해고 가이드', href: '/guide/dismissal' },
     ],
   },

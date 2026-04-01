@@ -106,7 +106,7 @@ export const spokesBatch10Part2Pages: SpokePage[] = [
       { label: '스토킹 진단', href: '/diagnosis/stalking' },
       { label: '스토킹 피해를 받고 있을 때 즉시 대응법', href: '/guide/stalking/stalking-immediate-response' },
       { label: '스토킹 처벌 기준과 접근금지 신청 방법', href: '/guide/stalking/stalking-penalty-restraining-order' },
-      { label: '스토킹 증거 수집 가이드', href: '/guide/stalking/stalking-evidence-collection-guide' },
+      { label: '스토킹 증거 수집 가이드', href: '/guide/stalking/stalking-evidence-collection-faq' },
     ],
   },
 

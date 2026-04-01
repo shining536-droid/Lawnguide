@@ -424,7 +424,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '부동산 경매 진단', href: '/diagnosis/real-estate-auction' },
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
-      { label: '전세보증금 반환 절차', href: '/guide/jeonse/jeonse-deposit-return-process' },
+      { label: '전세보증금 반환 절차', href: '/guide/jeonse/deposit-return-process' },
       { label: '소액소송 직접 하는 법', href: '/spoke/small-claims/small-claims-self-filing-guide' },
     ],
   },

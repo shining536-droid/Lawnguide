@@ -99,8 +99,8 @@ export const spokesBatch11Part2Pages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '마약범죄 진단', href: '/diagnosis/drug-crime' },
       { label: '마약범죄 가이드', href: '/guide/drug-crime' },
-      { label: '마약 초범 대응법', href: '/guide/drug-crime/drug-first-offense-response' },
-      { label: '마약 수사 피의자 권리', href: '/guide/drug-crime/drug-crime-investigation-rights' },
+      { label: '마약 초범 대응법', href: '/guide/drug-crime/drug-crime-first-offense-sentencing' },
+      { label: '마약 수사 피의자 권리', href: '/guide/drug-crime/drug-investigation-response' },
     ],
   },
 
@@ -202,7 +202,7 @@ export const spokesBatch11Part2Pages: SpokePage[] = [
       { label: '음주운전 진단', href: '/diagnosis/dui' },
       { label: '음주운전 가이드', href: '/guide/dui' },
       { label: '음주운전 면허취소 대응', href: '/guide/dui/dui-license-revocation' },
-      { label: '음주 사고 대응법', href: '/guide/dui/dui-accident-response' },
+      { label: '음주 사고 대응법', href: '/guide/dui/dui-traffic-accident-response' },
     ],
   },
 
@@ -405,8 +405,8 @@ export const spokesBatch11Part2Pages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
       { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
-      { label: '전세사기 특별법 혜택', href: '/guide/jeonse-fraud/jeonse-fraud-special-law' },
-      { label: '전세사기 체크리스트', href: '/guide/jeonse-fraud/jeonse-fraud-checklist' },
+      { label: '전세사기 특별법 혜택', href: '/guide/jeonse-fraud/jeonse-fraud-first-check' },
+      { label: '전세사기 체크리스트', href: '/guide/jeonse-fraud/jeonse-fraud-first-check' },
     ],
   },
 

@@ -599,7 +599,7 @@ export const stalkingPages: SpokePage[] = [
       { label: '스토킹 가이드', href: '/guide/stalking' },
       { label: '스토킹 피해를 받고 있을 때 즉시 대응법', href: '/guide/stalking/stalking-immediate-response' },
       { label: '전 연인 연락이 스토킹인지 판단 기준', href: '/guide/stalking/ex-partner-contact-stalking-criteria' },
-      { label: '스토킹 증거 수집 가이드', href: '/guide/stalking/stalking-evidence-collection-guide' },
+      { label: '스토킹 증거 수집 가이드', href: '/guide/stalking/stalking-evidence-collection-faq' },
       { label: '스토킹 진단', href: '/diagnosis/stalking' },
     ],
   },

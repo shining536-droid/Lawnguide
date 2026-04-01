@@ -219,9 +219,9 @@ export const spokesBatch10Part1Pages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '명예훼손 진단', href: '/diagnosis/defamation' },
-      { label: '인터넷 명예훼손 고소 절차', href: '/guide/defamation/internet-defamation-lawsuit' },
-      { label: '명예훼손 합의 방법과 합의금', href: '/guide/defamation/defamation-settlement-guide' },
-      { label: '허위사실 유포 대응 가이드', href: '/guide/defamation/false-information-response' },
+      { label: '인터넷 명예훼손 고소 절차', href: '/guide/defamation/online-defamation-lawsuit-process' },
+      { label: '명예훼손 합의 방법과 합의금', href: '/guide/defamation/defamation-settlement-amount-guide' },
+      { label: '허위사실 유포 대응 가이드', href: '/guide/defamation/online-defamation-response' },
     ],
   },
   {
@@ -334,8 +334,8 @@ export const spokesBatch10Part1Pages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '폭행 진단', href: '/diagnosis/assault' },
       { label: '폭행 피해 합의금 산정 기준', href: '/guide/assault/assault-settlement-amount-guide' },
-      { label: '폭행 초범 처벌 수위와 대응', href: '/guide/assault/assault-first-offense-response' },
-      { label: '상해죄 고소장 작성 방법', href: '/guide/assault/injury-complaint-writing-guide' },
+      { label: '폭행 초범 처벌 수위와 대응', href: '/guide/assault/assault-first-offense-penalty' },
+      { label: '상해죄 고소장 작성 방법', href: '/guide/assault/assault-complaint-writing' },
     ],
   },
   {
@@ -547,9 +547,9 @@ export const spokesBatch10Part1Pages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
-      { label: '학교폭력 가해자 통보 시 부모 대응법', href: '/guide/school-violence/accused-parent-response' },
-      { label: '학교폭력 학생부 기재와 대학 입시', href: '/guide/school-violence/school-record-college-impact' },
-      { label: '사이버 불링 대응 방법', href: '/guide/school-violence/cyber-bullying-response-guide' },
+      { label: '학교폭력 가해자 통보 시 부모 대응법', href: '/guide/school-violence/school-violence-accused-parent-response' },
+      { label: '학교폭력 학생부 기재와 대학 입시', href: '/guide/school-violence/can-school-record-be-deleted' },
+      { label: '사이버 불링 대응 방법', href: '/guide/school-violence' },
     ],
   },
 ];

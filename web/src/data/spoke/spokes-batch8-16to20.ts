@@ -206,8 +206,8 @@ export const spokesBatch8Pages16to20: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },
-      { label: '과실비율 이의신청', href: '/guide/traffic-accident/fault-ratio-dispute-appeal' },
-      { label: '과실 감경 증거 확보', href: '/guide/traffic-accident/fault-reduction-evidence-collection' },
+      { label: '과실비율 이의신청', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
+      { label: '과실 감경 증거 확보', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
     ],
   },
 
@@ -315,7 +315,7 @@ export const spokesBatch8Pages16to20: SpokePage[] = [
       { label: '마약범죄 진단', href: '/diagnosis/drug-crime' },
       { label: '마약범죄 가이드', href: '/guide/drug-crime' },
       { label: '투약 vs 소지 vs 매매 처벌 비교', href: '/guide/drug-crime/use-vs-possession-vs-dealing-penalty' },
-      { label: '마약 초범 집행유예 판례', href: '/guide/drug-crime/first-offense-probation-cases' },
+      { label: '마약 초범 집행유예 판례', href: '/guide/drug-crime/first-offense-probation-conditions' },
     ],
   },
 
@@ -422,8 +422,8 @@ export const spokesBatch8Pages16to20: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '성매매 진단', href: '/diagnosis/prostitution' },
       { label: '성매매 가이드', href: '/guide/prostitution' },
-      { label: '성매매 단속 초범 처벌 수위', href: '/guide/prostitution/first-offense-raid-penalty-level' },
-      { label: '기소유예 받는 방법', href: '/guide/prostitution/deferred-prosecution-method' },
+      { label: '성매매 단속 초범 처벌 수위', href: '/guide/prostitution/prostitution-first-offense-sentencing' },
+      { label: '기소유예 받는 방법', href: '/guide/prostitution' },
     ],
   },
 

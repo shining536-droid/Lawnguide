@@ -686,7 +686,7 @@ export const sexCrimePages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '성범죄 가이드', href: '/guide/sex-crime' },
-      { label: '결백 증명 시작 가이드', href: '/guide/sex-crime/proving-innocence-start-guide' },
+      { label: '결백 증명 시작 가이드', href: '/guide/sex-crime' },
       { label: '성범죄 무죄 판례 분석', href: '/guide/sex-crime/sexual-assault-acquittal-cases' },
       { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
     ],
@@ -990,7 +990,7 @@ export const sexCrimePages: SpokePage[] = [
       { label: '성범죄 가이드', href: '/guide/sex-crime' },
       { label: '성범죄 고소부터 재판까지 절차', href: '/guide/sex-crime/sexual-assault-report-to-trial' },
       { label: '강제추행 증거 확보와 고소 방법', href: '/guide/sex-crime/forced-groping-evidence-lawsuit' },
-      { label: '교통사고 합의금 기준', href: '/guide/traffic-accident/traffic-accident-settlement' },
+      { label: '교통사고 합의금 기준', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
     ],
   },

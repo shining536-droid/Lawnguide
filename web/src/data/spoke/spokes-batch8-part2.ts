@@ -98,7 +98,7 @@ export const spokesBatch8Part2Pages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '음주운전 진단', href: '/diagnosis/dui' },
       { label: '음주측정 거부 가이드', href: '/guide/dui/dui-breathalyzer-refusal' },
-      { label: '호흡측정 vs 혈액채취 비교', href: '/guide/dui/breath-vs-blood-alcohol-test' },
+      { label: '호흡측정 vs 혈액채취 비교', href: '/guide/dui' },
       { label: '음주운전 초범 처벌 기준', href: '/guide/dui/dui-first-offense' },
     ],
   },

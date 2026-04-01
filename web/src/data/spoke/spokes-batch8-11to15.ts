@@ -94,7 +94,7 @@ export const spokesBatch8Pages11to15: SpokePage[] = [
       { label: '스토킹 가이드', href: '/guide/stalking' },
       { label: '스토킹 진단', href: '/diagnosis/stalking' },
       { label: '스토킹 고소당했을 때 대응', href: '/guide/stalking/stalking-accused-response' },
-      { label: '스토킹 합의와 처벌 감경', href: '/guide/stalking/stalking-settlement-reduces-punishment' },
+      { label: '스토킹 합의와 처벌 감경', href: '/guide/stalking' },
     ],
   },
 
@@ -202,7 +202,7 @@ export const spokesBatch8Pages11to15: SpokePage[] = [
       { label: '디지털성범죄 가이드', href: '/guide/digital-sex-crime' },
       { label: '디지털성범죄 진단', href: '/diagnosis/digital-sex-crime' },
       { label: '딥페이크 유포 대응', href: '/guide/digital-sex-crime/deepfake-distribution-legal-response' },
-      { label: '촬영물 증거 실수', href: '/guide/digital-sex-crime/screenshot-evidence-common-mistakes' },
+      { label: '촬영물 증거 실수', href: '/guide/digital-sex-crime' },
     ],
   },
 
@@ -309,7 +309,7 @@ export const spokesBatch8Pages11to15: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '학교폭력 가이드', href: '/guide/school-violence' },
       { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
-      { label: '허위신고 반박 증거', href: '/guide/school-violence/false-report-rebuttal-evidence' },
+      { label: '허위신고 반박 증거', href: '/guide/school-violence/school-violence-false-report-evidence' },
       { label: '가해자 조치 대응', href: '/guide/school-violence/perpetrator-sanction-defense' },
     ],
   },

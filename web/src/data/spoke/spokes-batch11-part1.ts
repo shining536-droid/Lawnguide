@@ -92,9 +92,9 @@ export const spokesBatch11Part1Pages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '폭행/상해 진단', href: '/diagnosis/assault' },
-      { label: '폭행 고소장 준비 방법', href: '/guide/assault/assault-complaint-preparation' },
-      { label: '폭행 양형 기준', href: '/guide/assault/assault-sentencing-factors' },
-      { label: '폭행 현행범 체포 대응', href: '/guide/assault/assault-first-arrest-response' },
+      { label: '폭행 고소장 준비 방법', href: '/guide/assault/assault-complaint-template' },
+      { label: '폭행 양형 기준', href: '/guide/assault/assault-evidence-collection' },
+      { label: '폭행 현행범 체포 대응', href: '/guide/assault/assault-charged-first-response' },
     ],
   },
   {
@@ -298,8 +298,8 @@ export const spokesBatch11Part1Pages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '명예훼손 진단', href: '/diagnosis/defamation' },
-      { label: '모욕죄와 명예훼손죄 차이', href: '/guide/defamation/defamation-insult-vs-defamation' },
-      { label: '인터넷 명예훼손 혐의 대응', href: '/guide/defamation/internet-defamation-accused' },
+      { label: '모욕죄와 명예훼손죄 차이', href: '/guide/defamation/fact-vs-false-defamation' },
+      { label: '인터넷 명예훼손 혐의 대응', href: '/guide/defamation/defamation-accused-response' },
       { label: '명예훼손 가이드', href: '/guide/defamation' },
     ],
   },
@@ -504,8 +504,8 @@ export const spokesBatch11Part1Pages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '이혼 진단', href: '/diagnosis/divorce' },
-      { label: '위자료 산정 기준', href: '/guide/divorce/divorce-alimony-amount' },
-      { label: '재판 이혼 절차', href: '/guide/divorce/contested-divorce-process' },
+      { label: '위자료 산정 기준', href: '/guide/divorce/divorce-alimony-false-claim-defense' },
+      { label: '재판 이혼 절차', href: '/guide/divorce/consensual-divorce-process' },
       { label: '이혼 가이드', href: '/guide/divorce' },
     ],
   },

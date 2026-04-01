@@ -87,8 +87,8 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '상가임대차 진단', href: '/diagnosis/sangga' },
       { label: '상가 임대료 인상 통보 대응법', href: '/guide/sangga/commercial-rent-increase-notification' },
-      { label: '상가 보증금 반환 절차', href: '/guide/sangga/commercial-deposit-return' },
-      { label: '상가 계약갱신 거절 대응법', href: '/guide/sangga/lease-renewal-rejection' },
+      { label: '상가 보증금 반환 절차', href: '/guide/sangga/commercial-deposit-return-process' },
+      { label: '상가 계약갱신 거절 대응법', href: '/guide/sangga' },
     ],
   },
   {
@@ -165,8 +165,8 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '상가임대차 진단', href: '/diagnosis/sangga' },
       { label: '상가 권리금 회수 절차와 타임라인', href: '/guide/sangga/key-money-recovery-timeline' },
-      { label: '상가 계약갱신 거절 시 대응법', href: '/guide/sangga/lease-renewal-rejection' },
-      { label: '상가 보증금 반환 청구 절차', href: '/guide/sangga/commercial-deposit-return' },
+      { label: '상가 계약갱신 거절 시 대응법', href: '/guide/sangga' },
+      { label: '상가 보증금 반환 청구 절차', href: '/guide/sangga/commercial-deposit-return-process' },
     ],
   },
   {
@@ -249,7 +249,7 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       { label: '퇴직금 진단', href: '/diagnosis/retirement' },
       { label: '퇴직금 체불 진정서 작성법', href: '/guide/retirement/retirement-pay-complaint-writing' },
       { label: '퇴직금 계산 방법 총정리', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '체불임금 신고 절차', href: '/guide/wage/unpaid-wage-complaint' },
+      { label: '체불임금 신고 절차', href: '/guide/wage/unpaid-wage-complaint-docs' },
     ],
   },
   {
@@ -327,7 +327,7 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       { label: '퇴직금 진단', href: '/diagnosis/retirement' },
       { label: '퇴직금 중간정산 요건과 절차', href: '/guide/retirement/interim-retirement-pay-requirements' },
       { label: '퇴직금 계산 방법 총정리', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '체불임금 진정 절차 안내', href: '/guide/wage/unpaid-wage-complaint' },
+      { label: '체불임금 진정 절차 안내', href: '/guide/wage/unpaid-wage-complaint-docs' },
     ],
   },
   {
@@ -408,9 +408,9 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '직장 내 성희롱 진단', href: '/diagnosis/sexual-harassment' },
-      { label: '직장 내 성희롱 신고 절차', href: '/guide/sexual-harassment/workplace-harassment-report' },
-      { label: '성희롱 피해 증거 수집 방법', href: '/guide/sexual-harassment/evidence-collection' },
-      { label: '성희롱 손해배상 청구 안내', href: '/guide/sexual-harassment/compensation-claim' },
+      { label: '직장 내 성희롱 신고 절차', href: '/guide/sexual-harassment/workplace-harassment-report-procedure' },
+      { label: '성희롱 피해 증거 수집 방법', href: '/guide/sexual-harassment' },
+      { label: '성희롱 손해배상 청구 안내', href: '/guide/sexual-harassment' },
     ],
   },
 ];

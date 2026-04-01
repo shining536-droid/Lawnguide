@@ -81,8 +81,8 @@ export const spokesBatch11Pages16to20: SpokePage[] = [
     internalLinks: [
       { label: '로앤가이드 홈', href: '/' },
       { label: '폭행 가이드 허브', href: '/guide/assault' },
-      { label: '폭행 고소장 준비 가이드', href: '/guide/assault/assault-complaint-preparation' },
-      { label: '폭행 양형 기준과 영향 요소', href: '/guide/assault/assault-sentencing-factors' },
+      { label: '폭행 고소장 준비 가이드', href: '/guide/assault/assault-complaint-template' },
+      { label: '폭행 양형 기준과 영향 요소', href: '/guide/assault/assault-evidence-collection' },
       { label: '폭행 피해 진단하기', href: '/diagnosis/assault' }
     ]
   },
@@ -249,7 +249,7 @@ export const spokesBatch11Pages16to20: SpokePage[] = [
     internalLinks: [
       { label: '로앤가이드 홈', href: '/' },
       { label: '명예훼손 가이드 허브', href: '/guide/defamation' },
-      { label: '모욕과 명예훼손 차이점', href: '/guide/defamation/defamation-insult-vs-defamation' },
+      { label: '모욕과 명예훼손 차이점', href: '/guide/defamation/fact-vs-false-defamation' },
       { label: '명예훼손 고소장 작성 가이드', href: '/guide/defamation/defamation-complaint-writing-guide' },
       { label: '명예훼손 피해 진단하기', href: '/diagnosis/defamation' }
     ]
@@ -437,7 +437,7 @@ export const spokesBatch11Pages16to20: SpokePage[] = [
       { label: '로앤가이드 홈', href: '/' },
       { label: '이혼 가이드 허브', href: '/guide/divorce' },
       { label: '가정폭력 이혼 절차', href: '/guide/divorce/domestic-violence-divorce-process' },
-      { label: '재판이혼 절차 총정리', href: '/guide/divorce/contested-divorce-process' },
+      { label: '재판이혼 절차 총정리', href: '/guide/divorce/consensual-divorce-process' },
       { label: '이혼 피해 진단하기', href: '/diagnosis/divorce' }
     ]
   }

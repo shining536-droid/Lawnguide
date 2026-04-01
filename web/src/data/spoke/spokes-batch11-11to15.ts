@@ -97,8 +97,8 @@ export const spokesBatch11Pages11to15: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '학교폭력 가이드', href: '/guide/school-violence' },
       { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
-      { label: '학교폭력 가해자로 지목된 경우', href: '/guide/school-violence/school-violence-accused-parent-guide' },
-      { label: '학교폭력 학생부 기재와 대학 입시', href: '/guide/school-violence/school-violence-record-college-impact' },
+      { label: '학교폭력 가해자로 지목된 경우', href: '/guide/school-violence/school-violence-accused-parent-response' },
+      { label: '학교폭력 학생부 기재와 대학 입시', href: '/guide/school-violence/school-violence-committee-procedure' },
     ],
   },
   {
@@ -292,8 +292,8 @@ export const spokesBatch11Pages11to15: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '성희롱 가이드', href: '/guide/sexual-harassment' },
       { label: '성희롱 진단', href: '/diagnosis/sexual-harassment' },
-      { label: '직장 내 성희롱 예방과 대처', href: '/guide/sexual-harassment/workplace-harassment-prevention' },
-      { label: '성희롱 증거 수집 방법', href: '/guide/sexual-harassment/harassment-evidence-collection' },
+      { label: '직장 내 성희롱 예방과 대처', href: '/guide/sexual-harassment/workplace-harassment-first-check' },
+      { label: '성희롱 증거 수집 방법', href: '/guide/sexual-harassment/workplace-harassment-evidence-report' },
     ],
   },
   {
@@ -391,8 +391,8 @@ export const spokesBatch11Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '스토킹 가이드', href: '/guide/stalking' },
-      { label: '스토킹 긴급 대응 조치', href: '/guide/stalking/stalking-emergency-measures' },
-      { label: '스토킹 증거 수집 방법', href: '/guide/stalking/stalking-evidence-collection' },
+      { label: '스토킹 긴급 대응 조치', href: '/guide/stalking/stalking-emergency-protective-measures' },
+      { label: '스토킹 증거 수집 방법', href: '/guide/stalking/stalking-evidence-collection-faq' },
       { label: '스토킹 진단', href: '/diagnosis/stalking' },
     ],
   },
@@ -491,8 +491,8 @@ export const spokesBatch11Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },
-      { label: '교통사고 과실 비율 기준', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
-      { label: '뺑소니 사고 대응 방법', href: '/guide/traffic-accident/hit-and-run-response' },
+      { label: '교통사고 과실 비율 기준', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
+      { label: '뺑소니 사고 대응 방법', href: '/guide/traffic-accident/hit-and-run-victim-response' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
     ],
   },
