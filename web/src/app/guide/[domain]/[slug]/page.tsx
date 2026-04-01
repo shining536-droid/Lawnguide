@@ -277,24 +277,57 @@ export default function GuideSpokePage({ params }: PageProps) {
           </Link>
         </section>
 
-        {/* Related Spoke Pages - question form titles */}
-        {siblings.length > 0 && (
-          <section className="bg-white rounded-xl p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-gray-900 mb-3">같은 주제 다른 글</h2>
-            <ul className="space-y-2">
-              {siblings.map((s) => (
-                <li key={s.slug}>
-                  <Link
-                    href={`/guide/${s.domain}/${s.slug}`}
-                    className="text-blue-600 hover:underline text-sm"
-                  >
-                    {s.questionKeyword || s.keyword}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
+        {/* Related Spoke Pages - Smart Recommendations */}
+        {siblings.length > 0 && (() => {
+          // Score siblings by relevance: same type > same perspective > different
+          const scored = siblings.map((s) => {
+            let score = 0;
+            if (s.type === page.type) score += 2;
+            if (s.perspective && page.perspective && s.perspective === page.perspective) score += 1;
+            // Randomize within same score for variety
+            score += Math.random() * 0.5;
+            return { ...s, score };
+          }).sort((a, b) => b.score - a.score);
+          const recommended = scored.slice(0, 3);
+          const rest = scored.slice(3);
+          return (
+            <section className="bg-white rounded-xl p-6 shadow-sm">
+              <h2 className="text-lg font-semibold text-gray-900 mb-3">📌 이 글을 읽은 분이 함께 본 글</h2>
+              <ul className="space-y-3">
+                {recommended.map((s) => (
+                  <li key={s.slug}>
+                    <Link
+                      href={`/guide/${s.domain}/${s.slug}`}
+                      className="flex items-start gap-2 text-blue-600 hover:text-blue-800 hover:underline text-sm"
+                    >
+                      <span className="text-blue-400 mt-0.5">▸</span>
+                      <span>{s.questionKeyword || s.keyword}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              {rest.length > 0 && (
+                <details className="mt-4">
+                  <summary className="text-sm text-gray-500 cursor-pointer hover:text-gray-700">
+                    {domainMeta?.name} 관련 글 {rest.length}개 더보기
+                  </summary>
+                  <ul className="mt-2 space-y-2">
+                    {rest.map((s) => (
+                      <li key={s.slug}>
+                        <Link
+                          href={`/guide/${s.domain}/${s.slug}`}
+                          className="text-blue-600 hover:underline text-sm"
+                        >
+                          {s.questionKeyword || s.keyword}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              )}
+            </section>
+          );
+        })()}
 
         {/* Internal Links */}
         <nav className="border-t border-gray-200 pt-6">

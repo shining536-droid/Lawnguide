@@ -3,6 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { isValidDomain, getDomainMeta, DOMAINS } from '@/lib/domains';
 import { RICH_GUIDES } from '@/data/rich-hub-guides';
+import { getSpokePagesByDomain } from '@/data/spoke-pages';
 
 interface PageProps {
   params: { domain: string };
@@ -379,21 +380,46 @@ export default function GuideHubPage({ params }: PageProps) {
             </div>
           </section>
 
-          {/* 5. Spoke links */}
-          <section className="mb-8">
-            <h2 className="mb-4 text-lg font-bold text-gray-900">관련 글 더 보기</h2>
-            <div className="grid gap-2 sm:grid-cols-2">
-              {rich.spokeLinks.map((s, i) => (
-                <Link
-                  key={i}
-                  href={`/guide/${params.domain}/${s.slug}`}
-                  className="rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-gray-700 transition-colors hover:border-primary-300 hover:text-primary-600"
-                >
-                  {s.title} {'\u2192'}
-                </Link>
-              ))}
-            </div>
-          </section>
+          {/* 5. Spoke links - dynamic from all domain spokes */}
+          {(() => {
+            const allSpokes = getSpokePagesByDomain(params.domain);
+            const manualSlugs = new Set(rich.spokeLinks.map((s) => s.slug));
+            const extraSpokes = allSpokes.filter((s) => !manualSlugs.has(s.slug));
+            return (
+              <section className="mb-8">
+                <h2 className="mb-4 text-lg font-bold text-gray-900">관련 글 더 보기</h2>
+                <div className="grid gap-2 sm:grid-cols-2">
+                  {rich.spokeLinks.map((s, i) => (
+                    <Link
+                      key={`manual-${i}`}
+                      href={`/guide/${params.domain}/${s.slug}`}
+                      className="rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-gray-700 transition-colors hover:border-primary-300 hover:text-primary-600"
+                    >
+                      {s.title} {'\u2192'}
+                    </Link>
+                  ))}
+                </div>
+                {extraSpokes.length > 0 && (
+                  <details className="mt-4">
+                    <summary className="text-sm font-medium text-gray-500 cursor-pointer hover:text-gray-700">
+                      {meta.name} 관련 글 {extraSpokes.length}개 더보기
+                    </summary>
+                    <div className="grid gap-2 sm:grid-cols-2 mt-3">
+                      {extraSpokes.map((s) => (
+                        <Link
+                          key={s.slug}
+                          href={`/guide/${params.domain}/${s.slug}`}
+                          className="rounded-lg border border-gray-100 bg-gray-50 px-4 py-3 text-sm text-gray-600 transition-colors hover:border-primary-300 hover:text-primary-600"
+                        >
+                          {s.questionKeyword || s.keyword} {'\u2192'}
+                        </Link>
+                      ))}
+                    </div>
+                  </details>
+                )}
+              </section>
+            );
+          })()}
 
           {/* 6. CTA - Gold accent */}
           <div className="mb-8 rounded-xl border-2 border-amber-400 bg-amber-50 px-6 py-8 text-center">
@@ -486,6 +512,48 @@ export default function GuideHubPage({ params }: PageProps) {
             </div>
           </section>
         )}
+
+        {/* Dynamic Spoke Links */}
+        {(() => {
+          const allSpokes = getSpokePagesByDomain(params.domain);
+          if (allSpokes.length === 0) return null;
+          const shown = allSpokes.slice(0, 6);
+          const rest = allSpokes.slice(6);
+          return (
+            <section className="mb-8">
+              <h2 className="mb-4 text-lg font-bold text-gray-900">관련 글 더 보기</h2>
+              <div className="grid gap-2 sm:grid-cols-2">
+                {shown.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={`/guide/${s.domain}/${s.slug}`}
+                    className="rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-gray-700 transition-colors hover:border-primary-300 hover:text-primary-600"
+                  >
+                    {s.questionKeyword || s.keyword} {'\u2192'}
+                  </Link>
+                ))}
+              </div>
+              {rest.length > 0 && (
+                <details className="mt-4">
+                  <summary className="text-sm font-medium text-gray-500 cursor-pointer hover:text-gray-700">
+                    {meta.name} 관련 글 {rest.length}개 더보기
+                  </summary>
+                  <div className="grid gap-2 sm:grid-cols-2 mt-3">
+                    {rest.map((s) => (
+                      <Link
+                        key={s.slug}
+                        href={`/guide/${s.domain}/${s.slug}`}
+                        className="rounded-lg border border-gray-100 bg-gray-50 px-4 py-3 text-sm text-gray-600 transition-colors hover:border-primary-300 hover:text-primary-600"
+                      >
+                        {s.questionKeyword || s.keyword} {'\u2192'}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              )}
+            </section>
+          );
+        })()}
 
         {/* CTA */}
         <div className="rounded-xl bg-primary-600 px-6 py-8 text-center text-white">
