@@ -220,7 +220,6 @@ export default function HomeContent() {
               </div>
               <span className="mt-3 text-2xl font-bold text-navy-700">20,455건</span>
               <span className="mt-1 text-sm font-semibold text-primary-600">판례 분석</span>
-              <span className="mt-2 text-xs text-gray-500">법제처 공공데이터 기반<br />실제 판례에서 핵심만 추출</span>
             </div>
             {/* 카드 2: 법조문 해설 */}
             <div className="flex flex-col items-center rounded-2xl bg-white px-6 py-7 text-center shadow-sm border border-gray-100">
@@ -231,7 +230,6 @@ export default function HomeContent() {
               </div>
               <span className="mt-3 text-2xl font-bold text-navy-700">6,493개</span>
               <span className="mt-1 text-sm font-semibold text-amber-600">법조문 해설</span>
-              <span className="mt-2 text-xs text-gray-500">이지법 데이터 기반<br />어려운 법을 쉽게 설명</span>
             </div>
             {/* 카드 3: 31개 분야 */}
             <div className="flex flex-col items-center rounded-2xl bg-white px-6 py-7 text-center shadow-sm border border-gray-100">
