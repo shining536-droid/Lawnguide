@@ -50,4 +50,4 @@ tags: ["산재사업주처벌", "산업안전보건법", "사업주책임", "안
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=industrial-accident2
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=industrial-accident2

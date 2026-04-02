@@ -53,5 +53,7 @@ date: "2026-03-13"
 
 개인파산은 끝이 아니라 법이 인정하는 새 출발입니다. 혼자 끙끙대지 말고, 내 상황에 맞는 절차부터 하나씩 확인해보세요.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=bankruptcy
 https://lawnguide.co.kr

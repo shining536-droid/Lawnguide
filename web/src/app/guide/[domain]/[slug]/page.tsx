@@ -174,7 +174,7 @@ export default function GuideSpokePage({ params }: PageProps) {
             {i === 1 && (
               <section className="bg-blue-50 border border-blue-200 rounded-xl p-5 mt-10 text-center">
                 <p className="text-gray-800 font-medium mb-2">
-                  <strong style={{ color: '#D97706' }}>1분</strong> 안에{' '}
+                  <strong style={{ color: '#D97706' }}>1분 AI 진단</strong>으로{' '}
                   <strong style={{ color: '#D97706' }}>{page.ctaKeyword}</strong> 확인하기
                 </p>
                 <p className="text-gray-500 text-sm mb-3">
@@ -186,7 +186,7 @@ export default function GuideSpokePage({ params }: PageProps) {
                   href={`/diagnosis/${page.domain}`}
                   className="inline-block bg-blue-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-blue-700 transition-colors text-sm"
                 >
-                  지금 시작하기 →
+                  AI 무료 상담 시작 →
                 </Link>
               </section>
             )}
@@ -261,7 +261,7 @@ export default function GuideSpokePage({ params }: PageProps) {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 text-center">
           <p className="text-white text-lg font-semibold mb-2">
-            <strong style={{ color: '#D97706' }}>1분</strong> 안에{' '}
+            <strong style={{ color: '#D97706' }}>1분 AI 진단</strong>으로{' '}
             <strong style={{ color: '#D97706' }}>{page.ctaKeyword}</strong> 확인하기
           </p>
           <p className="text-blue-100 text-sm mb-3">
@@ -273,7 +273,7 @@ export default function GuideSpokePage({ params }: PageProps) {
             href={page.cta.link}
             className="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
           >
-            지금 시작하기 →
+            AI 무료 상담 시작 →
           </Link>
         </section>
 

@@ -79,4 +79,4 @@ tags: ["소액소송 후기", "셀프소송", "소액재판 혼자", "소장 작
 소액소송은 변호사 없이도 충분히 할 수 있어요. 소장 작성은 양식 채우기, 이행권고결정으로 재판 없이 끝날 수도 있고, 출석해도 30분이면 마무리됩니다. 비용은 2~3만 원이면 충분해요.
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=small-claims
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=small-claims

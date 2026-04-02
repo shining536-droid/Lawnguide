@@ -53,5 +53,7 @@ date: "2026-03-21"
 
 단속 직후 누구나 극도의 불안을 느낍니다. 하지만 상황에 따라 결과가 크게 갈리므로, 감정적 판단보다 정확한 법률 검토가 우선입니다.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=prostitution
 https://lawnguide.co.kr

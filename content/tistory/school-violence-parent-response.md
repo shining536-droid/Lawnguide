@@ -53,5 +53,7 @@ date: "2026-03-13"
 
 아이가 용기를 내어 피해 사실을 꺼냈다면, 부모의 침착하고 체계적인 행동이 상황을 바꿀 수 있습니다. 증거 확보, 정식 신고, 심의위 준비를 단계별로 진행하세요.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=school-violence
 https://lawnguide.co.kr

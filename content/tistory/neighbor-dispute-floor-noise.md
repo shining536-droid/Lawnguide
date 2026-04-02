@@ -53,5 +53,7 @@ date: "2026-03-13"
 
 층간소음은 참는다고 사라지지 않습니다. 기록을 남기고 절차를 밟으면 법으로 보호받을 수 있습니다.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=neighbor-dispute
 https://lawnguide.co.kr

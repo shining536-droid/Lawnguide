@@ -79,4 +79,4 @@ tags: ["실업급여", "알바", "부정수급", "취업신고", "실업인정",
 실업급여 받으면서 알바하는 건 가능합니다. 다만, 월 60시간 미만 + 취업일 신고 + 3개월 이상 연속근로 주의, 이 3가지만 지켜주세요. 내 알바 조건이 실업급여 유지 기준에 맞는지 확인해보세요.
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=unemployment
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=unemployment

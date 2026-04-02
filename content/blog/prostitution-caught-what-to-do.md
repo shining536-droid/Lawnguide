@@ -79,4 +79,4 @@ tags: ["성매매 적발", "성매매 대처법", "성매매 혐의", "성매매
 성매매 혐의를 받고 있다면, 현장 진술을 최소화하고 수사에 성실히 임하면서 전문가 조언을 받는 것이 가장 중요합니다. 초범이라면 기소유예를 받을 가능성도 충분히 있으니, 포기하지 마세요.
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=prostitution
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=prostitution

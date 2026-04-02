@@ -45,8 +45,8 @@ TAG_DELAY_MAX = 80
 POST_PUBLISH_WAIT_MIN = 45000
 POST_PUBLISH_WAIT_MAX = 90000
 
-CTA_TEXT = "로앤가이드에서 내 상황 정리해보기"
-CTA_URL = "https://lawnguide.co.kr"
+CTA_TEXT = "내 상황 무료로 정리하기"
+CTA_BASE_URL = "https://www.lawnguide.co.kr/chat"
 
 
 # ── 마크다운 → 순수 텍스트 변환 ──────────────────────
@@ -220,11 +220,17 @@ def parse_md_file(filepath: str) -> dict:
             unique_tags.append(t)
     tags = [t for t in unique_tags if t != "첫글"][:10]
 
+    # domain 추출 (CTA 딥링크용)
+    domain_val = ""
+    if 'domain' in locals():
+        domain_val = domain
+
     return {
         'title': title[:100],
         'body': body,
         'tags': tags,
-        'filename': os.path.basename(filepath)
+        'filename': os.path.basename(filepath),
+        'domain': domain_val
     }
 
 
@@ -548,11 +554,17 @@ CTA_INTRO_LINES = [
     "",
     "━━━━━━━━━━━━━━━━━━━━",
     "",
-    "법률 문제, 어디서부터 시작해야 할지 막막하신가요?",
-    "로앤가이드에서 1분이면 지금 할 일과 준비서류, 변호사를 안내해드립니다.",
+    "💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.",
     "",
 ]
-CTA_FOOTER_LINE = "31개 법률 분야 무료 진단 · 변호사 만나기 전 필수 체크"
+CTA_FOOTER_LINE = "👉 내 상황 무료로 정리하기"
+
+
+def get_cta_url(domain: str = "") -> str:
+    """도메인별 딥링크 CTA URL 생성"""
+    if domain:
+        return f"{CTA_BASE_URL}?domain={domain}"
+    return CTA_BASE_URL
 
 
 async def type_cta_intro(page):
@@ -574,8 +586,8 @@ async def type_cta_footer(page):
     print("    📝 CTA 하단 문구 입력 완료")
 
 
-async def insert_cta_link(page) -> bool:
-    """본문 끝에 OG링크 카드 삽입"""
+async def insert_cta_link(page, domain: str = "") -> bool:
+    """본문 끝에 OG링크 카드 삽입 (도메인별 딥링크)"""
     async def _handle_dialog(dialog):
         print(f"    [DEBUG] dialog 감지: {dialog.type} - {dialog.message[:50]}")
         await dialog.accept()
@@ -634,7 +646,8 @@ async def insert_cta_link(page) -> bool:
 
         await url_input.click()
         await page.wait_for_timeout(200)
-        await url_input.type(CTA_URL, delay=random.randint(30, 60))
+        cta_url = get_cta_url(domain)
+        await url_input.type(cta_url, delay=random.randint(30, 60))
         await page.wait_for_timeout(500)
 
         search_clicked = await page.evaluate("""
@@ -692,7 +705,7 @@ async def insert_cta_link(page) -> bool:
                 pass
 
         if confirm_clicked:
-            print(f"    🔗 CTA 링크 삽입 완료: {CTA_URL}")
+            print(f"    🔗 CTA 링크 삽입 완료: {cta_url}")
             await page.wait_for_timeout(random.randint(500, 1000))
             return True
         else:
@@ -1287,8 +1300,9 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
         await page.wait_for_timeout(random.randint(1000, 2000))
 
         # CTA 소개글 + 링크 삽입 (1차)
+        post_domain = post.get('domain', '')
         await type_cta_intro(page)
-        await insert_cta_link(page)
+        await insert_cta_link(page, domain=post_domain)
         await type_cta_footer(page)
         await page.wait_for_timeout(random.randint(500, 1000))
 
@@ -1302,7 +1316,7 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
 
         # CTA 소개글 + 링크 삽입 (2차)
         await type_cta_intro(page)
-        await insert_cta_link(page)
+        await insert_cta_link(page, domain=post_domain)
         await type_cta_footer(page)
         await page.wait_for_timeout(random.randint(500, 1000))
 

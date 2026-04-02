@@ -53,5 +53,7 @@ date: "2026-03-21"
 
 자진 퇴사라고 처음부터 실업급여를 포기할 필요는 없습니다. 정당한 사유의 존재 여부와 증거 확보가 핵심이고, 사전에 준비할수록 유리합니다.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=unemployment
 https://lawnguide.co.kr

@@ -60,4 +60,6 @@ A. 성범죄 피해자는 법률상 신원 보호를 받습니다. 수사 과정
 
 ---
 
-**지금 혼자 감당하려 하지 마세요.** 디지털 성범죄는 시간이 지날수록 유포 범위가 넓어져요. [로앤가이드에서 내 상황 정리해보기](https://lawnguide.co.kr)
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=digital-sex-crime

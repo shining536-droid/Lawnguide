@@ -79,4 +79,4 @@ tags: ["개인파산", "면책", "1억빚", "채무탕감", "비면책채권", "
 1억 빚이라도 면책결정이 나오면 대부분 사라집니다. 세금이나 양육비 같은 비면책채권은 별도로 정리해야 하지만, 카드빚과 대출금은 면제 대상이에요. 내 빚이 면책 대상인지 정리해보고 싶다면
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=bankruptcy
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=bankruptcy

@@ -53,5 +53,7 @@ date: "2026-03-17"
 
 억울한 성범죄 혐의는 최초 대응이 결과의 대부분을 결정합니다. 증거 수집, 변호사 선임, 진술 전략을 한꺼번에 정리하고 싶다면
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=sex-crime
 https://lawnguide.co.kr

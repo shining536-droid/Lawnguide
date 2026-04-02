@@ -79,4 +79,4 @@ tags: ["퇴직금 계산", "평균임금", "퇴직금 공식", "퇴직급여", "
 퇴직금은 근로자의 당연한 권리입니다. 평균임금을 정확히 계산하고, 14일 이내에 받지 못하면 적극적으로 대응하세요. 계산이 복잡하다면 고용노동부 퇴직금 계산기를 활용하거나, 전문가의 도움을 받아보세요.
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=retirement
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=retirement

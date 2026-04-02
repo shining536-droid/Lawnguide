@@ -80,4 +80,4 @@ tags: ["상가임대차보호법", "적용제외", "보증금기준", "상가보
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=sangga
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=sangga

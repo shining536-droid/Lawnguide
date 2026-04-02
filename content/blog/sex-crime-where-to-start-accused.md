@@ -77,4 +77,6 @@ slug: sex-crime-where-to-start-accused
 ---
 
 > 성범죄 혐의를 받고 있다면, 지금 바로 전문가와 상담하세요.
-> **[로앤가이드에서 내 상황 정리해보기 → lawnguide.co.kr](https://lawnguide.co.kr)**
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=sex-crime

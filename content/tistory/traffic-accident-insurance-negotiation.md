@@ -53,5 +53,7 @@ date: "2026-03-13"
 
 합의는 한 번 체결하면 번복이 거의 불가능합니다. 서명하기 전에 내가 받아야 할 정당한 금액인지 꼭 점검해 보세요.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=traffic-accident
 https://lawnguide.co.kr

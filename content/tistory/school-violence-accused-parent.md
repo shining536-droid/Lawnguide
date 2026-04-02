@@ -53,5 +53,7 @@ date: "2026-03-17"
 
 학폭위 소집 연락에 놀라셨겠지만, 사실관계 정리·피해 측 소통·절차 파악과 재심까지 단계별로 준비하면 충분히 대응할 수 있습니다.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=school-violence
 https://lawnguide.co.kr

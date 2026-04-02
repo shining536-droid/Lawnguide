@@ -1,0 +1,2226 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<meta name="description" content="효율적인 법률구조로 국민의 기본적 인권 옹호, 법률복지 증진">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="og:title" content="대한법률구조공단">
+<meta property="og:description" content="효율적인 법률구조로 국민의 기본적 인권 옹호, 법률복지 증진">
+<meta property="og:url" content="http://www.klac.or.kr">
+<meta property="og:image" content="http://www.klac.or.kr/images/symbol05_img.png" />
+<!-- 변경된 js/css 파일 배포버전 -->
+<link rel="stylesheet" href="/css/default.css?ver=20230410" type="text/css" media="all">
+<link rel="stylesheet" href="/css/sub_layout.css?ver=20230410" type="text/css" media="all">
+<link rel="stylesheet" href="/css/common.css?ver=20230410" type="text/css" media="all">
+<link rel="stylesheet" href="/css/font_style.css" type="text/css" media="all">
+<link rel="stylesheet" href="/css/agree_layer_pop.css?ver=20230410" type="text/css" media="all">
+<link href="/js/jquery/jquery-ui.css" rel="stylesheet" type="text/css" media="all">
+<title>법률정보 | 법률상담/구조사례 | 법률상담사례 | null | 목록</title>
+<script src="/js/jquery/jquery.min.js"></script>
+<script src="/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="/js/jquery/jquery-ui.js?ver=20230410"></script>
+<script src="/js/pkg/masonry.pkgd.min.js"></script>
+<script src="/js/pkg/slick.min.js"></script>
+<script src="/js/common.js?ver=20230410"></script>
+<script src="/js/valiadate.js"></script>
+<script src="/js/print.js"></script>
+<script src="/js/sub.js"></script>
+<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=01b31cf4a9bd54482d8605c7e8c70dbc&libraries=services"></script>
+<script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js"></script>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53248498-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53248498-3');
+  gtag('config', 'G-L5EFCG9YDT');
+</script>
+<!-- Google Analytics -->
+<script>
+	var getRootContextPath = '/';	
+		
+	$(document).mouseup(function(e){
+		var container = $(".depth_Titx");
+		if(container.has(e.target).length == 0)
+		{
+			$("#" + naviClickTempCode).css({'display':'none'});
+			naviClick = false;      // 클릭 상태
+			naviClickTempCode = ""; // 이전 클릭했던 코드 (뎁스가 다를 시 이걸로 판별)
+			naviClickIdx = true;    // 초기 판별
+		}
+	});
+	
+	
+	
+/*----- ----- ----- ----- ----- */	
+    var userOs = "";
+    $(document).ready(function () {
+
+    	var channelCd = '';
+     	//채팅 팝업 여부 체크
+       	if(channelCd == 'CHAT' || channelCd == 'CHATBOT'){ //채팅 본인인증 팝업일 때 header, footer 부분 안보이게
+   	    	$("#base_header").hide(); //상단 헤더
+   	    	$(".visualconWrap").hide();
+   	    	$("#loc_lnb").hide();
+   	    	$(".subTopcon").hide();
+   	    	$("#footer").hide()
+   	    	$(".page_top").hide();
+       	}
+     	
+		if (channelCd == 'DIGITALSELF') {
+   	    	$("#base_header").hide(); //상단 헤더
+   	    	$(".visualconWrap").hide();
+   	    	$("#loc_lnb").hide();
+   	    	$(".subTopcon").hide();
+   	    	$("#footer").hide()
+   	    	$(".page_top").hide();
+			$("#chatbotIcon").hide();
+			$("#certificationIcon").hide();			
+		}
+        	
+        /*-----2021.05. SR */
+        if ("" != null && "" != "") {
+            alert("");
+        }
+        /*2021.05. SR-----*/
+        userOs = fn_userOsCheck();
+        if (userOs != "" && userOs != null) {
+            if (userOs == "PC") {
+                /*--PC일 경우 모든 버튼 안보이게 임시 처리 - 2021.05.10 임지범*/
+                $("#kkoRes_btn").hide(); //모바일(카카오톡 예약)
+                $("#kkoAlarm_btn").hide(); //PC(카카오톡 알림)
+            }
+            else {
+                $("#kkoRes_btn").show(); //모바일(카카오톡 예약)
+                $("#kkoAlarm_btn").hide(); //PC(카카오톡 알림)
+            }
+        }
+    });
+    //사용자 os 확인 메소드 - 임지범
+    function fn_userOsCheck() {
+        var filter = "win16|win32|win64|mac";
+        var deviceType = "";
+        if (navigator.platform) {
+            if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
+                deviceType = "MOBILE";
+            }else{
+                deviceType = "PC";
+            }
+        }
+        return deviceType;
+    }
+    //디바이스 별 카카오 예약 실행 메소드 - 임지범
+    function fn_kkoReservation() {
+        if (userOs != null && userOs != '') {
+            if (userOs == "PC") {
+                alert("모바일 기기 전용 기능 입니다");
+            }else{
+                window.open("https://plus.kakao.com/talk/bot/@%EB%8C%80%ED%95%9C%EB%B2%95%EB%A5%A0%EA%B5%AC%EC%A1%B0%EA%B3%B5%EB%8B%A8/%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0", "카카오톡 예약하기");
+            }
+        }
+    }
+/*----- ----- ----- ----- ----- */	
+	
+	
+	
+	
+	
+	
+	
+	var naviClick = false;      // 클릭 상태
+	var naviClickTempCode = ""; // 이전 클릭했던 코드 (뎁스가 다를 시 이걸로 판별)
+	var naviClickIdx = true;    // 초기 판별
+	function naviOpenAndClose(code)
+	{	
+		// 초기 한번만
+		if(naviClickIdx)
+		{
+			naviClickIdx = false;	
+			naviClickTempCode = code; // 이전 코드에 현재 코드 입력			
+		}
+		
+		if(naviClickTempCode == code) // 즉, 같은 뎁스 클릭의 경우
+		{
+			naviClick = !naviClick;
+		}
+		else // 이전 클릭 했던 뎁스와 현재 클릭한 뎁스가 다른 경우
+		{
+			naviClick = true;
+		}
+		
+		if(naviClick)
+		{
+			$("#" + code).css({'display':'block'}); 	
+		}
+		else
+		{
+			$("#" + code).css({'display':'none'});
+		}
+		
+		if(naviClickTempCode != code) // 다를때 무조건 꺼주기
+		{
+			$("#" + naviClickTempCode).css({'display':'none'});
+			naviClickTempCode = code;
+		}
+	}
+	
+	// 공통 우편번호 찾기
+	function daumPostcode() {
+	    new daum.Postcode({
+	        oncomplete: function(data) {
+	            var addr = ''; // 주소 변수
+	            var extraAddr = ''; // 참고항목 변수
+
+	            if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
+	                addr = data.roadAddress;
+	            } else { // 사용자가 지번 주소를 선택했을 경우(J)
+	                addr = data.jibunAddress;
+	            }
+
+	            // 우편번호와 주소 정보를 해당 필드에 넣는다.
+	            document.getElementById('zipcodeTemp').value = data.zonecode;
+	            document.getElementById('zipcode').value = data.zonecode;
+	            document.getElementById("address1").value = addr;
+	            // 커서를 상세주소 필드로 이동한다.
+	            document.getElementById("address2").focus();
+	        }
+	    }).open();
+	}
+	
+	var nowZoom = 100;
+
+	function zoomOut() {   // 화면크기축소
+	   nowZoom = nowZoom - 10;
+	   zooms();
+	}
+
+	function zoomIn() {   // 화면크기확대
+	   nowZoom = nowZoom + 20;
+	   zooms();
+	}
+
+	function zoomDef() {   // 화면크기확대
+	   nowZoom = 100;
+	   zooms();
+	}
+
+	function zooms() {
+	   document.body.style.zoom = nowZoom + "%";
+	}
+	//게시물순번11-방문자 세션 확인 | syg
+	var SetTime1 = 60 * 30;	// 최초 설정 시간(기본 : 1800 초)
+	function msg_time1() {	// 1초씩 카운트
+	    var min = Math.floor(SetTime1 / 60);
+	    var sec = (SetTime1 % 60);
+		if(min < 10) {min = "0" + min;}
+		if(sec < 10) {sec = "0" + sec;}
+		min = min + ":" + sec;	// 남은 시간 계산				
+		var msg = min;				
+		document.getElementById("timeChk").innerHTML = msg;		// div 영역에 보여줌 						
+		SetTime1--;					// 1초씩 감소
+		if (SetTime1 < 601 && SetTime1 > 599){
+			openPop1('10');
+		}
+		if (SetTime1 < 301 && SetTime1 > 299){
+			openPop1('5');
+		}
+		if (SetTime1 < 0) {			// 시간이 종료 되었으면..					
+			clearInterval(tid);		// 타이머 해제
+			location.href = "/sessionLoginOut.do";
+			alert("시간 경과로 본인 인증된 정보가 없습니다.")
+		}				
+	}
+	function openPop1(param)
+	{
+		document.getElementById("remainTime").innerHTML = " "+param + "분";			
+		$("#layerWrap1").css("display","block");
+	}
+	//취소(닫기)
+	function closePop1(){
+		$("#layerWrap1").hide();
+	}
+	//시간연장
+	function timeExtension1(){
+		$.ajax({
+			type: "get",
+		    url: "/include/sessionTimeRefresh.do",
+		    dataType: "text",
+		    success: function (data) {
+		    	if("400"==data) {
+		    		alert("인증이 만료되었습니다.\r\n다시 인증하시기 바랍니다.\r\n(※작성 중인 내용은 메모장 등에 복사 해주시기 바랍니다.)");
+// 		    		fn_moveCert()
+		    	}
+		    	
+		    	var url = $(location).attr('href');
+		    	if( url.indexOf('/legalstruct/visitingConsultationDetail.do')!= -1 ){
+					fn_timeReSet();
+		    	}
+
+		    },
+		    error: function (error) {
+		    	
+		    }
+		});
+		
+		SetTime1 = 60 * 30;
+		//2021.01.25. SSR
+		SetTime = 60 * 30;
+	}
+	//방문상담 예약하기 - 예약 채번일자, 시간 SYSDATE 업데이트 처리
+	function fn_timeReSet(){
+		var reserveDe = $('input[name=reserveDe]').val();
+		var reserveTime = $('input[name=reserveTime]').val();
+		var orgCd = $('input[name=orgCd]').val();
+		
+		if(reserveDe == '' || reserveDe == null){
+			alert("예기치 못한 오류가 발생 하였습니다.");
+			return;
+		}
+		if(reserveTime == '' || reserveTime == null){
+			alert("예기치 못한 오류가 발생 하였습니다.");
+			return;
+		}
+		if(orgCd == '' || orgCd == null){
+			alert("예기치 못한 오류가 발생 하였습니다.");
+			return;
+		}
+		var allData = {"reserveDe":reserveDe, "reserveTime":reserveTime, "orgCd":orgCd};
+		$.ajax({
+		    url: "/legalstruct/timeReSetAjax.do",
+			type: "GET",
+		    dataType: "json",
+		    data: allData,
+		    success: function (data) {
+		    },
+		    error: function (error) {
+		    	alert("예기치 못한 오류가 발생 하였습니다.");
+		    }
+		});
+	}
+	//화상 상담 예약 20분 임계 Update
+	function fn_timeRtReSet(){
+		
+		var rsvNo = $("#reserveNo").val();
+				
+		if(rsvNo != null && rsvNo != ''){
+			
+		var allData = {"rsvNo":rsvNo};
+		
+			$.ajax({
+			    url: "/legalstruct/timeRtReSetAjax.do",
+				type: "GET",
+			    dataType: "json",
+			    data: allData,
+			    success: function (data) {
+			    },
+			    error: function (error) {			    	
+			    	alert("예기치 못한 오류가 발생 하였습니다.");			    	
+			    }
+			});
+		}
+	}
+	
+	function fn_releaseCert() {
+		location.href = "/sessionLoginOut.do?userLogOut=self";
+	}
+	
+	function fn_moveCert() {
+		document.rtnUriForm.rtnUri.value = window.location.href;
+		document.rtnUriForm.action = "/certification.do?menuCode=118";
+	  	document.rtnUriForm.submit();
+	}
+	
+	
+		
+	//게시물순번11-방문자 세션 확인 | syg
+</script>
+<script src="/js/Datepicker.js"></script>
+<style >
+.ui-datepicker{ font-size: 16px; width: 280px; }
+.ui-datepicker select.ui-datepicker-month {  font-size: 13px; }
+.ui-datepicker select.ui-datepicker-year { font-size: 13px; }
+</style>
+</head>
+<body>  
+<dl id="skip">
+	<dt><strong>바로가기 메뉴</strong></dt>
+	<dd><a href="#gnb" id="skipMainMenu">주메뉴 바로가기</a></dd>
+	<dd><a href="#loc_lnb">보조메뉴 바로가기</a></dd>		
+	<dd><a href="#content" id="skipContent">본문 바로가기</a></dd>
+</dl>
+<div id="wrap">
+<header id="base_header" class=" "> <form name="rtnUriForm" id="rtnUriForm" method="post">
+	<input type="hidden" id="rtnUri" name="rtnUri">
+</form>
+<div class="header_wrap ">
+	<div class="klac_logo_area">
+        <h1 class="klac_logo klac_logo_click"><a href="/" title="대한법률구조공단">대한법률구조공단</a></h1>
+    </div>
+    <div class="headr_inbox">
+        <!-- util_wrap :S -->
+        <div class="util_wrap">
+            <!-- inner_box :S -->
+            <div class="inner_box">
+                <!-- global_gnb :S -->
+                <div class="global_gnb">
+                    <h2 class="blind">홈페이지 언어 선택</h2>
+                    <!-- 2020.09.11 | 유튜브 새창 열기 -->
+                    <div class="link_sns2">
+			        	<ul>
+			        		<li><a href="javascript:fn_moveCert();" class="btn_cert" style="font-size: 15px;">본인인증</a></li>
+			        			<li><a href="https://www.facebook.com/klac132" target="_blank" class="btn_fb_sns" title="새창열림" >페이스북</a></li>
+			            	<li><a href="http://blog.naver.com/smile-law" target="_blank" class="btn_nb_sns" title="새창열림" >네이버블로그</a></li>
+			            	<li><a href="javascript:fn_youTubeOpen();"  class="btn_tb_sns" title="새창열림" >유튜브</a></li>
+			            	<li><a href="https://www.instagram.com/klac.or.kr" target="_blank" class="btn_is_sns" title="새창열림" >인스타그램</a></li>
+			            	            	
+			            </ul>
+			        </div>
+                    <!-- 2020.09.11 | 유튜브 새창 열기 -->
+                    
+                    <a href="javascript:change()" title="한국어" ><em>한국어</em></a>
+                    <div class="global_list" id ="language" style="display: none;">
+                         <ul>
+                            <li><a href="javascript:goLangUrl('https://www.klac.or.kr/', '_self');"  title="한국어 홈페이지 새 창 열기" ><em>한국어</em></a></li>
+                            <li><a href="javascript:goLangUrl('https://www.klac.or.kr/lang//main.do','_blank');" title="ENGLISH 영문 홈페이지 (새창 열기)" ><em>ENGLISH</em></a></li>
+</ul>
+                    </div>
+                </div>
+                <div class="page_util">
+                    <h2 class="blind">홈페이지 글씨 축소/확대</h2>
+                    <ul>
+                        <li><a href="javascript:zoomOut();" class="page_minus" title="화면작게">화면작게</a></li>
+                        <li><a href="javascript:zoomDef();" class="page_reset"  title="화면기본으로">화면기본으로</a></li>
+                        <li><a href="javascript:zoomIn();"  class="page_plus"  title="화면크게">화면크게</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="inner_gnb_box">
+            <nav id="gnb" class="gnb_wrap" tabindex="-1">
+                <ul class="th1_box">
+       			<li>	        			
+		            	<a  href="/legalsmart/legalSmartGuide.do" title="법률똑똑이" class="dep1_menu"><span>법률똑똑이</span></a>
+		                <div id="gnb_dept2_60001" class="sub_menu_wrap" style="display:none;">		                    
+		                 	<strong class="blind">법률똑똑이</strong>
+		                    <div class="dep2_wrap">
+		                    <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalsmart/legalSmartGuide.do" class="th2_Tlt" title="이용안내">이용안내</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                </div>  
+		               </div>		                    
+	               </li>
+                <li>	        			
+		            	<a  href="/disclosure/guidance.do" title="정보공개" class="dep1_menu"><span>정보공개</span></a>
+		                <div id="gnb_dept2_1" class="sub_menu_wrap" style="display:none;">		                    
+		                 	<strong class="blind">정보공개</strong>
+		                    <div class="dep2_wrap">
+		                    <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/guidance.do" class="th2_Tlt" title="정보공개안내">정보공개안내</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/disclosure/guidance.do" class="dep3_menu"  title="정보공개제도" >정보공개제도</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/disclosure/step.do" class="dep3_menu"  title="정보공개절차" >정보공개절차</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/disclosure/unlistInfoDetailCriteria.do" class="dep3_menu"  title="비공개대상정보 세부기준" >비공개대상정보 세부기준</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/disclosure/appealProcedure.do" class="dep3_menu"  title="불복구제절차" >불복구제절차</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/disclosure/relatedLaws.do" class="dep3_menu"  title="정보공개 관련 법령" >정보공개 관련 법령</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/advAnnouncement.do" class="th2_Tlt" title="사전공표정보">사전공표정보</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/disclosure/advAnnouncement.do" class="dep3_menu"  title="사전공표기준표" >사전공표기준표</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/disclosure/administrationResource.do?boardCode=382" class="dep3_menu"  title="행정자료실" >행정자료실</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/infoList/selectInfoList.do?boardCode=24" class="th2_Tlt" title="정보목록">정보목록</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/infoDisclosureRequest.do" class="th2_Tlt" title="정보공개청구">정보공개청구</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/openingPublicData.do" class="th2_Tlt" title="공공데이터 개방">공공데이터 개방</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/business/selectBusinessRealNameList.do?boardCode=84" class="th2_Tlt" title="사업실명제">사업실명제</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/managementDisclosure.do" class="th2_Tlt" title="경영공시">경영공시</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/government/selectBusinessResourceList.do?boardCode=39" class="th2_Tlt" title="국정감사업무보고자료">국정감사업무보고자료</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/countryStatisticInfo.do" class="th2_Tlt" title="국가통계">국가통계</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/disclosure/countryStatisticInfo.do" class="dep3_menu"  title="국가통계안내" >국가통계안내</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/disclosure/countryStatistic.do" class="dep3_menu"  title="법률구조현황통계" >법률구조현황통계</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/disclosure/cpyrhtManage.do" class="th2_Tlt" title="공공저작물">공공저작물</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/disclosure/cpyrhtManage.do" class="dep3_menu"  title="저작권정책" >저작권정책</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/disclosure/cpyrht/selectCpyrhtList.do?boardCode=93" class="dep3_menu"  title="공공저작물 목록" >공공저작물 목록</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                </div>  
+		               </div>		                    
+	               </li>
+                <li>	        			
+		            	<a  href="/legalinfo/legalFrm.do" title="법률정보" class="dep1_menu"><span>법률정보</span></a>
+		                <div id="gnb_dept2_13" class="sub_menu_wrap" style="display:none;">		                    
+		                 	<strong class="blind">법률정보</strong>
+		                    <div class="dep2_wrap">
+		                    <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalinfo/legalFrm.do" class="th2_Tlt" title="법률서식">법률서식</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalinfo/counsel.do" class="th2_Tlt" title="법률상담/구조사례">법률상담/구조사례</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/legalinfo/counsel.do" class="dep3_menu"  title="법률상담사례" >법률상담사례</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalinfo/bestCounsel/selectBestCounselList.do?boardCode=4" class="dep3_menu"  title="법률구조우수사례" >법률구조우수사례</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalstruct/autoCostCalculation.do" class="th2_Tlt" title="소송비용 등 자동계산">소송비용 등 자동계산</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalinfo/caseLegalInfo.do" class="th2_Tlt" title="판례/법령정보">판례/법령정보</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalinfo/legalRescueEachCountry.do" class="th2_Tlt" title="전문자료실">전문자료실</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/legalinfo/legalRescueEachCountry.do" class="dep3_menu"  title="각국의 법률구조제도" >각국의 법률구조제도</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalinfo/discussion/selectDiscussionList.do?boardCode=19" class="dep3_menu"  title="논단" >논단</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalinfo/legalStructPerformance.do" class="dep3_menu"  title="법률구조실적" >법률구조실적</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                </div>  
+		               </div>		                    
+	               </li>
+                <li>	        			
+		            	<a  href="/legalstruct/summary.do" title="법률구조" class="dep1_menu"><span>법률구조</span></a>
+		                <div id="gnb_dept2_24" class="sub_menu_wrap" style="display:none;">		                    
+		                 	<strong class="blind">법률구조</strong>
+		                    <div class="dep2_wrap">
+		                    <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalstruct/summary.do" class="th2_Tlt" title="법률구조안내">법률구조안내</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/legalstruct/summary.do" class="dep3_menu"  title="개요 및 절차" >개요 및 절차</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalstruct/consultationGuidance.do" class="th2_Tlt" title="법률상담">법률상담</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/legalstruct/consultationGuidance.do" class="dep3_menu"  title="법률상담 알아보기" >법률상담 알아보기</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalstruct/telephoneConsultation.do" class="dep3_menu"  title="전화상담" >전화상담</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalstruct/cyberConsultation.do" class="dep3_menu"  title="사이버상담" >사이버상담</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalstruct/visitingConsultation.do" class="dep3_menu"  title="방문상담(예약)" >방문상담(예약)</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalstruct/remoteConsultation.do" class="dep3_menu"  title="화상상담(예약)" >화상상담(예약)</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/legalstruct/outlineOfLitigationStruct.do" class="th2_Tlt" title="소송구조">소송구조</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/legalstruct/outlineOfLitigationStruct.do" class="dep3_menu"  title="소송구조개요" >소송구조개요</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalstruct/legalRescueGuide.do" class="dep3_menu"  title="법률구조 대상자 안내" >법률구조 대상자 안내</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalstruct/decisionProceedingLitigationStruct.do" class="dep3_menu"  title="소송구조결정 및 진행" >소송구조결정 및 진행</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalstruct/costRepayment.do" class="dep3_menu"  title="비용상환" >비용상환</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/legalstruct/enforcement.do" class="dep3_menu"  title="강제집행" >강제집행</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                </div>  
+		               </div>		                    
+	               </li>
+                <li>	        			
+		            	<a  href="/customer/customerSuggestGuide.do" title="고객광장" class="dep1_menu"><span>고객광장</span></a>
+		                <div id="gnb_dept2_40" class="sub_menu_wrap" style="display:none;">		                    
+		                 	<strong class="blind">고객광장</strong>
+		                    <div class="dep2_wrap">
+		                    <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/customer/customerSuggestGuide.do" class="th2_Tlt" title="고객제안">고객제안</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/customer/customerSuggestGuide.do" class="dep3_menu"  title="안내" >안내</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/customer/customerSuggestParticipate.do?boardCode=23&menuCode=43" class="dep3_menu"  title="참여하기" >참여하기</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/customer/complainArticle.do?boardCode=28" class="th2_Tlt" title="공단신문고">공단신문고</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/customer/complainArticle.do?boardCode=28" class="dep3_menu"  title="민원/불친절 신고" >민원/불친절 신고</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/customer/abuse/abuseReport.do?boardCode=29" class="dep3_menu"  title="부조리 신고센터" >부조리 신고센터</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/customer/gjcomplain/gjComplainArticle.do?boardCode=90" class="dep3_menu"  title="갑질피해신고센터" >갑질피해신고센터</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/disclosure/infoList/selectAddInfoList.do?boardCode=408" class="dep3_menu"  title="갑질행위 징계처분 공개 자료" >갑질행위 징계처분 공개 자료</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/customer/compliment/selectComplimentArticleList.do?boardCode=22" class="th2_Tlt" title="자유발언대">자유발언대</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/customer/compliment/selectComplimentArticleList.do?boardCode=22" class="dep3_menu"  title="칭찬합니다" >칭찬합니다</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/customer/homepageImproveComment.do?boardCode=30" class="th2_Tlt" title="홈페이지 개선의견">홈페이지 개선의견</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/customer/homepageImproveComment.do?boardCode=30" class="dep3_menu"  title="개선의견 작성" >개선의견 작성</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/customer/legalStructureCaseInquiry.do" class="th2_Tlt" title="나의사건/민원보기">나의사건/민원보기</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/customer/legalStructureCaseInquiry.do" class="dep3_menu"  title="법률구조 사건조회" >법률구조 사건조회</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/customer/complaintsCaseInquiry.do" class="dep3_menu"  title="민원사건 조회" >민원사건 조회</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/customer/mycontent/myCyberConsultation.do" class="dep3_menu"  title="사이버상담 조회" >사이버상담 조회</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/customer/homepageReservationInquiry.do" class="dep3_menu"  title="상담 예약조회" >상담 예약조회</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/customer/mycontent/customerSuggestParticipate.do?boardCode=23&menuCode=402" class="dep3_menu"  title="내가 작성한 글보기" >내가 작성한 글보기</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/notification/customerServiceCharter.do" class="th2_Tlt" title="고객서비스헌장">고객서비스헌장</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/notification/performServiceStandard.do" class="dep3_menu"  title="서비스표준이행실적" >서비스표준이행실적</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/notification/customerServiceCharter.do" class="dep3_menu"  title="고객서비스헌장" >고객서비스헌장</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/customer/corruptRpt.do" class="th2_Tlt" title="부패·공익신고">부패·공익신고</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                </div>  
+		               </div>		                    
+	               </li>
+                <li>	        			
+		            	<a  href="/notification/news/selectNewsArticleList.do?boardCode=33" title="알림광장" class="dep1_menu"><span>알림광장</span></a>
+		                <div id="gnb_dept2_57" class="sub_menu_wrap" style="display:none;">		                    
+		                 	<strong class="blind">알림광장</strong>
+		                    <div class="dep2_wrap">
+		                    <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/notification/news/selectNewsArticleList.do?boardCode=33" class="th2_Tlt" title="공단소식 및 공지사항">공단소식 및 공지사항</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/notification/news/selectNewsArticleList.do?boardCode=33" class="dep3_menu"  title="공단소식" >공단소식</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/notification/notice/selectNoticeList.do?boardCode=32" class="dep3_menu"  title="공지사항" >공지사항</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/notification/pressRelease/selectPressReleaseList.do?boardCode=34" class="th2_Tlt" title="보도자료">보도자료</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/notification/responde/selectRespondeCaseList.do?boardCode=35" class="th2_Tlt" title="법률구조 이야기">법률구조 이야기</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/notification/hireInfo.do" class="th2_Tlt" title="채용안내">채용안내</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/notification/hireInfo.do" class="dep3_menu"  title="채용정보" >채용정보</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/notification/hireNotice/selectHireNoticeList.do?boardCode=241" class="dep3_menu"  title="채용공지" >채용공지</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/notification/upright/uprightList.do?boardCode=91" class="th2_Tlt" title="청렴자료실">청렴자료실</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/notification/upright/uprightList.do?boardCode=91" class="dep3_menu"  title="청렴교육자료" >청렴교육자료</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/notification/upright/uprightList.do?boardCode=92" class="dep3_menu"  title="청렴정책홍보자료" >청렴정책홍보자료</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/customer/appealProhibitionLaw.do" class="dep3_menu"  title="청탁금지법" >청탁금지법</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                </div>  
+		               </div>		                    
+	               </li>
+                <li>	        			
+		            	<a  href="/chairman/greeting.do" title="공단소개" class="dep1_menu"><span>공단소개</span></a>
+		                <div id="gnb_dept2_74" class="sub_menu_wrap" style="display:none;">		                    
+		                 	<strong class="blind">공단소개</strong>
+		                    <div class="dep2_wrap">
+		                    <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/chairman/greeting.do" class="th2_Tlt" title="이사장">이사장</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/chairman/greeting.do" class="dep3_menu"  title="인사말" >인사말</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/chairman/generation.do" class="dep3_menu"  title="역대이사장" >역대이사장</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/introduce/valueSystem.do" class="th2_Tlt" title="가치체계">가치체계</a>
+			                            <ul>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/introduce/companyProfile.do" class="th2_Tlt" title="공단현황">공단현황</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/introduce/companyProfile.do" class="dep3_menu"  title="공단개요" >공단개요</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/companyHistory.do" class="dep3_menu"  title="연혁" >연혁</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/ciIntroduce.do" class="dep3_menu"  title="기관 상징(CI) 소개" >기관 상징(CI) 소개</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/relactionInstitution.do" class="dep3_menu"  title="출연/협약기관소개" >출연/협약기관소개</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/ethiceManagement.do" class="dep3_menu"  title="윤리경영" >윤리경영</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/humanManagement.do" class="dep3_menu"  title="인권경영" >인권경영</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/introduce/organizationChart.do" class="th2_Tlt" title="조직소개">조직소개</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/introduce/organizationChart.do" class="dep3_menu"  title="조직도" >조직도</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/headquartersChart.do" class="dep3_menu"  title="본부 등" >본부 등</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/administrativeAgency.do" class="dep3_menu"  title="일선기관" >일선기관</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/introduce/socialContributeGreeting.do" class="th2_Tlt" title="사회공헌">사회공헌</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/introduce/socialContributeGreeting.do" class="dep3_menu"  title="인사말" >인사말</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/goalsAndActionTask.do" class="dep3_menu"  title="목표, 실천과제" >목표, 실천과제</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/organizationAndRole.do" class="dep3_menu"  title="조직, 역할" >조직, 역할</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/selectActivitiesList.do?boardCode=86" class="dep3_menu"  title="주요활동" >주요활동</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/introduce/socialContributePressCoverage.do" class="dep3_menu"  title="언론보도, 수상" >언론보도, 수상</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/visit/mainOfficeList.do" class="th2_Tlt" title="전국 사무소 이용 안내">전국 사무소 이용 안내</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/visit/mainOfficeList.do" class="dep3_menu"  title="본부" >본부</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/visit/subOfficeList.do" class="dep3_menu"  title="지부/출장소/지소" >지부/출장소/지소</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="https://klac.or.kr/visit/subOfficeList.do?pageIndex=1&codeValue=&codeName=&searchCnd=0&searchWrd=%EA%B0%9C%EC%9D%B8%ED%9A%8C%EC%83%9D" target="_blank" class="dep3_menu"  title="개인회생·파산종합지원센터 새 창 열림" >개인회생·파산종합지원센터</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="https://www.hldcc.or.kr/hp/ci/stretSearchDetail.do" target="_blank" class="dep3_menu"  title="주택·상가건물임대차분쟁조정위원회 새 창 열림" >주택·상가건물임대차분쟁조정위원회</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                <ul class="g_sub_list2" style="">	                                
+			                    	<li class="th2_gnb">
+			                        	<a href="/notification/promotionalVideo.do" class="th2_Tlt" title="사이버홍보관">사이버홍보관</a>
+			                            <ul>
+			                            <li>
+			                            		<a href="/notification/promotionalVideo.do" class="dep3_menu"  title="홍보영상" >홍보영상</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/notification/selectNewPeriodicalList.do" class="dep3_menu"  title="사보" >사보</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/notification/newsletterList.do" class="dep3_menu"  title="e-뉴스레터(구)" >e-뉴스레터(구)</a>
+			                            		</li>
+			                            <li>
+			                            		<a href="/notification/leafletList.do" class="dep3_menu"  title="홍보물" >홍보물</a>
+			                            		</li>
+			                            </ul>
+			                     	</li>
+			                    </ul>
+			                </div>  
+		               </div>		                    
+	               </li>
+                </ul>				
+            </nav>
+            <a href="#" class="menu_close">메뉴닫기</a>
+        </div>         
+    </div>
+    <div class="gnb_util">
+        <a href="#none" id="allsearch" onclick="fn_search();" class="btn_allsearch" title="검색">검색</a>
+        <a href="#none" id="sitemap"   class="btn_sitemap"   title="사이트맵">사이트맵</a>
+    </div>
+    <div id="gnb_bg" class="gn_wrap_bg on" style=" display: none; height:100px"></div>
+	<div class="search_pop_box"  style="display: none ">
+    <div class="box_search">
+        <h2>통합검색</h2>
+        <p>대한법률구조공단의 정보를 직접검색하여 원하는 정보를 찾거나 빠르게 정보를 확인할 수 있습니다.</p>
+        <form name="searchForm" method="POST" onSubmit="searchGo(); return false;">
+        <input type="hidden" id="inp_word"     name="inp_word">
+        <input type="hidden" id="inp_def_word" name="inp_def_word">
+        <input type="hidden" id="collection"   name="collection"  value="ALL">
+        <input type="hidden" id="searchField"  name="searchField" value="ALL">
+        <input type="hidden" id="sel_order"    name="sel_order"   value="RANK">
+        <input type="hidden" id="rb_date"      name="rb_date"     value="ALLDT">
+        <div class="sch_box_area">	
+         <label for="searchAll" class="lab">검색어</label>  
+         <input type="text" id="searchAll" name="searchAll"  class="bosearch_all"  placeholder="검색어를 입력하세요"  title="통합검색어 입력">
+         <a href="javascript:searchGo();" class="btnb_search_all" title="검색">검색</a>
+         <ul class="favor_box_list">
+             <li><a href="javascript:linkSearch('양식');" class="fvr_box" title="양식">양식</a></li>
+           		<li><a href="javascript:linkSearch('답변서');" class="fvr_box" title="답변서">답변서</a></li>
+           		<li><a href="javascript:linkSearch('차용증');" class="fvr_box" title="차용증">차용증</a></li>
+           		<li><a href="javascript:linkSearch('이자계산');" class="fvr_box" title="이자계산">이자계산</a></li>
+           		<li><a href="javascript:linkSearch('고소장');" class="fvr_box" title="고소장">고소장</a></li>
+           		</ul>
+         </div>
+         </form>
+         <a href="#none" class="btn_sitmap_close" onclick="fn_cancel();" title="검색창닫기">창닫기</a>
+    </div>
+	</div>
+</div>
+<div class="sitemap_box" style="display: none ">
+    <div class="sp_layout_box">
+        <h2>전체 메뉴</h2>
+        <div class="sitemap_list_wrap">
+            <ul class="sitemap_list">
+            <li class="ty01">	      
+	        		<h3 class="smtit">법률똑똑이</h3>
+	        		<ul class="st_dep2_list">
+		            <li>
+                        	<a href="/legalsmart/legalSmartGuide.do" class="th2_Tlt" title="이용안내">이용안내</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                </ul>  
+				</li>
+			<li class="ty01">	      
+	        		<h3 class="smtit">정보공개</h3>
+	        		<ul class="st_dep2_list">
+		            <li>
+                        	<a href="/disclosure/guidance.do" class="th2_Tlt" title="정보공개안내">정보공개안내</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/disclosure/guidance.do"  class="dep3_menu"  title="정보공개제도" >정보공개제도</a>
+                             		</li>
+							<li>
+                             		<a href="/disclosure/step.do"  class="dep3_menu"  title="정보공개절차" >정보공개절차</a>
+                             		</li>
+							<li>
+                             		<a href="/disclosure/unlistInfoDetailCriteria.do"  class="dep3_menu"  title="비공개대상정보 세부기준" >비공개대상정보 세부기준</a>
+                             		</li>
+							<li>
+                             		<a href="/disclosure/appealProcedure.do"  class="dep3_menu"  title="불복구제절차" >불복구제절차</a>
+                             		</li>
+							<li>
+                             		<a href="/disclosure/relatedLaws.do"  class="dep3_menu"  title="정보공개 관련 법령" >정보공개 관련 법령</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/advAnnouncement.do" class="th2_Tlt" title="사전공표정보">사전공표정보</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/disclosure/advAnnouncement.do"  class="dep3_menu"  title="사전공표기준표" >사전공표기준표</a>
+                             		</li>
+							<li>
+                             		<a href="/disclosure/administrationResource.do?boardCode=382"  class="dep3_menu"  title="행정자료실" >행정자료실</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/infoList/selectInfoList.do?boardCode=24" class="th2_Tlt" title="정보목록">정보목록</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/infoDisclosureRequest.do" class="th2_Tlt" title="정보공개청구">정보공개청구</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/openingPublicData.do" class="th2_Tlt" title="공공데이터 개방">공공데이터 개방</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/business/selectBusinessRealNameList.do?boardCode=84" class="th2_Tlt" title="사업실명제">사업실명제</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/managementDisclosure.do" class="th2_Tlt" title="경영공시">경영공시</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/government/selectBusinessResourceList.do?boardCode=39" class="th2_Tlt" title="국정감사업무보고자료">국정감사업무보고자료</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/countryStatisticInfo.do" class="th2_Tlt" title="국가통계">국가통계</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/disclosure/countryStatisticInfo.do"  class="dep3_menu"  title="국가통계안내" >국가통계안내</a>
+                             		</li>
+							<li>
+                             		<a href="/disclosure/countryStatistic.do"  class="dep3_menu"  title="법률구조현황통계" >법률구조현황통계</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/cpyrhtManage.do" class="th2_Tlt" title="공공저작물">공공저작물</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/disclosure/cpyrhtManage.do"  class="dep3_menu"  title="저작권정책" >저작권정책</a>
+                             		</li>
+							<li>
+                             		<a href="/disclosure/cpyrht/selectCpyrhtList.do?boardCode=93"  class="dep3_menu"  title="공공저작물 목록" >공공저작물 목록</a>
+                             		</li>
+							</ul>
+			             </li>
+	                </ul>  
+				</li>
+			<li class="ty01">	      
+	        		<h3 class="smtit">법률정보</h3>
+	        		<ul class="st_dep2_list">
+		            <li>
+                        	<a href="/legalinfo/legalFrm.do" class="th2_Tlt" title="법률서식">법률서식</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/legalinfo/counsel.do" class="th2_Tlt" title="법률상담/구조사례">법률상담/구조사례</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/legalinfo/counsel.do"  class="dep3_menu"  title="법률상담사례" >법률상담사례</a>
+                             		</li>
+							<li>
+                             		<a href="/legalinfo/bestCounsel/selectBestCounselList.do?boardCode=4"  class="dep3_menu"  title="법률구조우수사례" >법률구조우수사례</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/legalstruct/autoCostCalculation.do" class="th2_Tlt" title="소송비용 등 자동계산">소송비용 등 자동계산</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/legalinfo/caseLegalInfo.do" class="th2_Tlt" title="판례/법령정보">판례/법령정보</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/legalinfo/legalRescueEachCountry.do" class="th2_Tlt" title="전문자료실">전문자료실</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/legalinfo/legalRescueEachCountry.do"  class="dep3_menu"  title="각국의 법률구조제도" >각국의 법률구조제도</a>
+                             		</li>
+							<li>
+                             		<a href="/legalinfo/discussion/selectDiscussionList.do?boardCode=19"  class="dep3_menu"  title="논단" >논단</a>
+                             		</li>
+							<li>
+                             		<a href="/legalinfo/legalStructPerformance.do"  class="dep3_menu"  title="법률구조실적" >법률구조실적</a>
+                             		</li>
+							</ul>
+			             </li>
+	                </ul>  
+				</li>
+			<li class="ty01">	      
+	        		<h3 class="smtit">법률구조</h3>
+	        		<ul class="st_dep2_list">
+		            <li>
+                        	<a href="/legalstruct/summary.do" class="th2_Tlt" title="법률구조안내">법률구조안내</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/legalstruct/summary.do"  class="dep3_menu"  title="개요 및 절차" >개요 및 절차</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/legalstruct/consultationGuidance.do" class="th2_Tlt" title="법률상담">법률상담</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/legalstruct/consultationGuidance.do"  class="dep3_menu"  title="법률상담 알아보기" >법률상담 알아보기</a>
+                             		</li>
+							<li>
+                             		<a href="/legalstruct/telephoneConsultation.do"  class="dep3_menu"  title="전화상담" >전화상담</a>
+                             		</li>
+							<li>
+                             		<a href="/legalstruct/cyberConsultation.do"  class="dep3_menu"  title="사이버상담" >사이버상담</a>
+                             		</li>
+							<li>
+                             		<a href="/legalstruct/visitingConsultation.do"  class="dep3_menu"  title="방문상담(예약)" >방문상담(예약)</a>
+                             		</li>
+							<li>
+                             		<a href="/legalstruct/remoteConsultation.do"  class="dep3_menu"  title="화상상담(예약)" >화상상담(예약)</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/legalstruct/outlineOfLitigationStruct.do" class="th2_Tlt" title="소송구조">소송구조</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/legalstruct/outlineOfLitigationStruct.do"  class="dep3_menu"  title="소송구조개요" >소송구조개요</a>
+                             		</li>
+							<li>
+                             		<a href="/legalstruct/legalRescueGuide.do"  class="dep3_menu"  title="법률구조 대상자 안내" >법률구조 대상자 안내</a>
+                             		</li>
+							<li>
+                             		<a href="/legalstruct/decisionProceedingLitigationStruct.do"  class="dep3_menu"  title="소송구조결정 및 진행" >소송구조결정 및 진행</a>
+                             		</li>
+							<li>
+                             		<a href="/legalstruct/costRepayment.do"  class="dep3_menu"  title="비용상환" >비용상환</a>
+                             		</li>
+							<li>
+                             		<a href="/legalstruct/enforcement.do"  class="dep3_menu"  title="강제집행" >강제집행</a>
+                             		</li>
+							</ul>
+			             </li>
+	                </ul>  
+				</li>
+			<li class="ty01">	      
+	        		<h3 class="smtit">고객광장</h3>
+	        		<ul class="st_dep2_list">
+		            <li>
+                        	<a href="/customer/customerSuggestGuide.do" class="th2_Tlt" title="고객제안">고객제안</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/customer/customerSuggestGuide.do"  class="dep3_menu"  title="안내" >안내</a>
+                             		</li>
+							<li>
+                             		<a href="/customer/customerSuggestParticipate.do?boardCode=23&menuCode=43"  class="dep3_menu"  title="참여하기" >참여하기</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/customer/complainArticle.do?boardCode=28" class="th2_Tlt" title="공단신문고">공단신문고</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/customer/complainArticle.do?boardCode=28"  class="dep3_menu"  title="민원/불친절 신고" >민원/불친절 신고</a>
+                             		</li>
+							<li>
+                             		<a href="/customer/abuse/abuseReport.do?boardCode=29"  class="dep3_menu"  title="부조리 신고센터" >부조리 신고센터</a>
+                             		</li>
+							<li>
+                             		<a href="/customer/gjcomplain/gjComplainArticle.do?boardCode=90"  class="dep3_menu"  title="갑질피해신고센터" >갑질피해신고센터</a>
+                             		</li>
+							<li>
+                             		<a href="/disclosure/infoList/selectAddInfoList.do?boardCode=408"  class="dep3_menu"  title="갑질행위 징계처분 공개 자료" >갑질행위 징계처분 공개 자료</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/customer/compliment/selectComplimentArticleList.do?boardCode=22" class="th2_Tlt" title="자유발언대">자유발언대</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/customer/compliment/selectComplimentArticleList.do?boardCode=22"  class="dep3_menu"  title="칭찬합니다" >칭찬합니다</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/customer/homepageImproveComment.do?boardCode=30" class="th2_Tlt" title="홈페이지 개선의견">홈페이지 개선의견</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/customer/homepageImproveComment.do?boardCode=30"  class="dep3_menu"  title="개선의견 작성" >개선의견 작성</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/customer/legalStructureCaseInquiry.do" class="th2_Tlt" title="나의사건/민원보기">나의사건/민원보기</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/customer/legalStructureCaseInquiry.do"  class="dep3_menu"  title="법률구조 사건조회" >법률구조 사건조회</a>
+                             		</li>
+							<li>
+                             		<a href="/customer/complaintsCaseInquiry.do"  class="dep3_menu"  title="민원사건 조회" >민원사건 조회</a>
+                             		</li>
+							<li>
+                             		<a href="/customer/mycontent/myCyberConsultation.do"  class="dep3_menu"  title="사이버상담 조회" >사이버상담 조회</a>
+                             		</li>
+							<li>
+                             		<a href="/customer/homepageReservationInquiry.do"  class="dep3_menu"  title="상담 예약조회" >상담 예약조회</a>
+                             		</li>
+							<li>
+                             		<a href="/customer/mycontent/customerSuggestParticipate.do?boardCode=23&menuCode=402"  class="dep3_menu"  title="내가 작성한 글보기" >내가 작성한 글보기</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/notification/customerServiceCharter.do" class="th2_Tlt" title="고객서비스헌장">고객서비스헌장</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/notification/performServiceStandard.do"  class="dep3_menu"  title="서비스표준이행실적" >서비스표준이행실적</a>
+                             		</li>
+							<li>
+                             		<a href="/notification/customerServiceCharter.do"  class="dep3_menu"  title="고객서비스헌장" >고객서비스헌장</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/customer/corruptRpt.do" class="th2_Tlt" title="부패·공익신고">부패·공익신고</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                </ul>  
+				</li>
+			<li class="ty01">	      
+	        		<h3 class="smtit">알림광장</h3>
+	        		<ul class="st_dep2_list">
+		            <li>
+                        	<a href="/notification/news/selectNewsArticleList.do?boardCode=33" class="th2_Tlt" title="공단소식 및 공지사항">공단소식 및 공지사항</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/notification/news/selectNewsArticleList.do?boardCode=33"  class="dep3_menu"  title="공단소식" >공단소식</a>
+                             		</li>
+							<li>
+                             		<a href="/notification/notice/selectNoticeList.do?boardCode=32"  class="dep3_menu"  title="공지사항" >공지사항</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/notification/pressRelease/selectPressReleaseList.do?boardCode=34" class="th2_Tlt" title="보도자료">보도자료</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/notification/responde/selectRespondeCaseList.do?boardCode=35" class="th2_Tlt" title="법률구조 이야기">법률구조 이야기</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/notification/hireInfo.do" class="th2_Tlt" title="채용안내">채용안내</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/notification/hireInfo.do"  class="dep3_menu"  title="채용정보" >채용정보</a>
+                             		</li>
+							<li>
+                             		<a href="/notification/hireNotice/selectHireNoticeList.do?boardCode=241"  class="dep3_menu"  title="채용공지" >채용공지</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/notification/upright/uprightList.do?boardCode=91" class="th2_Tlt" title="청렴자료실">청렴자료실</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/notification/upright/uprightList.do?boardCode=91"  class="dep3_menu"  title="청렴교육자료" >청렴교육자료</a>
+                             		</li>
+							<li>
+                             		<a href="/notification/upright/uprightList.do?boardCode=92"  class="dep3_menu"  title="청렴정책홍보자료" >청렴정책홍보자료</a>
+                             		</li>
+							<li>
+                             		<a href="/customer/appealProhibitionLaw.do"  class="dep3_menu"  title="청탁금지법" >청탁금지법</a>
+                             		</li>
+							</ul>
+			             </li>
+	                </ul>  
+				</li>
+			<li class="ty01">	      
+	        		<h3 class="smtit">공단소개</h3>
+	        		<ul class="st_dep2_list">
+		            <li>
+                        	<a href="/chairman/greeting.do" class="th2_Tlt" title="이사장">이사장</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/chairman/greeting.do"  class="dep3_menu"  title="인사말" >인사말</a>
+                             		</li>
+							<li>
+                             		<a href="/chairman/generation.do"  class="dep3_menu"  title="역대이사장" >역대이사장</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/introduce/valueSystem.do" class="th2_Tlt" title="가치체계">가치체계</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/introduce/companyProfile.do" class="th2_Tlt" title="공단현황">공단현황</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/introduce/companyProfile.do"  class="dep3_menu"  title="공단개요" >공단개요</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/companyHistory.do"  class="dep3_menu"  title="연혁" >연혁</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/ciIntroduce.do"  class="dep3_menu"  title="기관 상징(CI) 소개" >기관 상징(CI) 소개</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/relactionInstitution.do"  class="dep3_menu"  title="출연/협약기관소개" >출연/협약기관소개</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/ethiceManagement.do"  class="dep3_menu"  title="윤리경영" >윤리경영</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/humanManagement.do"  class="dep3_menu"  title="인권경영" >인권경영</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/introduce/organizationChart.do" class="th2_Tlt" title="조직소개">조직소개</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/introduce/organizationChart.do"  class="dep3_menu"  title="조직도" >조직도</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/headquartersChart.do"  class="dep3_menu"  title="본부 등" >본부 등</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/administrativeAgency.do"  class="dep3_menu"  title="일선기관" >일선기관</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/introduce/socialContributeGreeting.do" class="th2_Tlt" title="사회공헌">사회공헌</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/introduce/socialContributeGreeting.do"  class="dep3_menu"  title="인사말" >인사말</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/goalsAndActionTask.do"  class="dep3_menu"  title="목표, 실천과제" >목표, 실천과제</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/organizationAndRole.do"  class="dep3_menu"  title="조직, 역할" >조직, 역할</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/selectActivitiesList.do?boardCode=86"  class="dep3_menu"  title="주요활동" >주요활동</a>
+                             		</li>
+							<li>
+                             		<a href="/introduce/socialContributePressCoverage.do"  class="dep3_menu"  title="언론보도, 수상" >언론보도, 수상</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/visit/mainOfficeList.do" class="th2_Tlt" title="전국 사무소 이용 안내">전국 사무소 이용 안내</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/visit/mainOfficeList.do"  class="dep3_menu"  title="본부" >본부</a>
+                             		</li>
+							<li>
+                             		<a href="/visit/subOfficeList.do"  class="dep3_menu"  title="지부/출장소/지소" >지부/출장소/지소</a>
+                             		</li>
+							<li>
+                             		<a href="https://klac.or.kr/visit/subOfficeList.do?pageIndex=1&codeValue=&codeName=&searchCnd=0&searchWrd=%EA%B0%9C%EC%9D%B8%ED%9A%8C%EC%83%9D" target="_blank" class="dep3_menu"  title="개인회생·파산종합지원센터 새 창 열림" >개인회생·파산종합지원센터</a>
+                             		</li>
+							<li>
+                             		<a href="https://www.hldcc.or.kr/hp/ci/stretSearchDetail.do" target="_blank" class="dep3_menu"  title="주택·상가건물임대차분쟁조정위원회 새 창 열림" >주택·상가건물임대차분쟁조정위원회</a>
+                             		</li>
+							</ul>
+			             </li>
+	                <li>
+                        	<a href="/notification/promotionalVideo.do" class="th2_Tlt" title="사이버홍보관">사이버홍보관</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/notification/promotionalVideo.do"  class="dep3_menu"  title="홍보영상" >홍보영상</a>
+                             		</li>
+							<li>
+                             		<a href="/notification/selectNewPeriodicalList.do"  class="dep3_menu"  title="사보" >사보</a>
+                             		</li>
+							<li>
+                             		<a href="/notification/newsletterList.do"  class="dep3_menu"  title="e-뉴스레터(구)" >e-뉴스레터(구)</a>
+                             		</li>
+							<li>
+                             		<a href="/notification/leafletList.do"  class="dep3_menu"  title="홍보물" >홍보물</a>
+                             		</li>
+							</ul>
+			             </li>
+	                </ul>  
+				</li>
+			<li class="ty01">	      
+	        		<h3 class="smtit">이용안내</h3>
+	        		<ul class="st_dep2_list">
+		            <li>
+                        	<a href="/guide/publicGuidance.do" class="th2_Tlt" title="공단길라잡이">공단길라잡이</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/guide/hpGuide.do" class="th2_Tlt" title="홈페이지 이용안내">홈페이지 이용안내</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/guide/faq.do?boardCode=383" class="th2_Tlt" title="FAQ">FAQ</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/guide/viewerDownload.do" class="th2_Tlt" title="뷰어다운로드">뷰어다운로드</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/disclosure/cpyrhtManage.do" class="th2_Tlt" title="저작권정책">저작권정책</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/guide/privacyProtect.do" class="th2_Tlt" title="개인정보처리방침">개인정보처리방침</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/guide/emailCollectionRefuse.do" class="th2_Tlt" title="이메일무단수집거부">이메일무단수집거부</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/certification.do?menuCode=118" class="th2_Tlt" title="본인 인증 페이지">본인 인증 페이지</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            </ul>
+			             </li>
+	                <li>
+                        	<a href="/guide/domesticStarring.do" class="th2_Tlt" title="관련사이트">관련사이트</a>    	                                
+			                <ul class="st_dep3_list">			                 
+                            <li>
+                             		<a href="/guide/domesticStarring.do"  class="dep3_menu"  title="국내유관기관" >국내유관기관</a>
+                             		</li>
+							<li>
+                             		<a href="/guide/overseasInstitution.do"  class="dep3_menu"  title="해외유관기관" >해외유관기관</a>
+                             		</li>
+							</ul>
+			             </li>
+	                </ul>  
+				</li>
+			</ul>           
+        </div>
+        <a href="#none" class="btn_sitmap_close" title="창닫기">창닫기</a>
+    </div>
+</div>
+</header>
+</div>
+<section class="subTopcon">
+	<!-- 2020.08.07 syg s -->
+ 	<div class="ly_popup_com" id="layerWrap1" style=" display: none; left:50%;  transform: translateX(-50%);">
+    	<h3><span class="pop_TiTx">안내</span></h3>
+		<div class="pop_content_area">
+        	<p><span style="color:#F00; font-weight:bold" id="remainTime"> 10분</span> 남았습니다. 계속 사용하시려면 시간연장을 해주세요.</p>      
+		</div>
+		<div class="pop_btn_area">
+        	<a href="#none" onclick="closePop1();" class="btn_a_small_01 " title="취소"><span>취소</span></a>
+			<a href="#none" onclick="timeExtension1(); closePop1();" class="btn_a_small_02 ml10" title="시간연장"><span>시간연장</span></a>
+		</div>
+		<button type="button" onclick="closePop1();" title="창닫기" class="lypop_close"><span><em>닫기</em></span></button>
+    </div>
+    <!-- 2020.08.07 syg e -->
+    
+    <div class="visualconWrap">
+    <div class="subvisual_con visual_img02" >
+            <p class="title ">국민의 권리구제를 위해</p>
+            <p class="subtit">대한법률구조공단이 길잡이가 되겠습니다.</p>
+            <!--<p class="summary">선진 법률복지 사회를 구현하고자 한결같은 마음으로 국민과 함께합니다.</p>-->
+        </div>
+    </div>
+    <div id="loc_lnb"  class="locationWrap">                
+        <div class="page_nav">
+        <ul>
+        <li><span class="home"><a href="/" title="홈">홈</a></span></li>
+        <li onclick='naviOpenAndClose("s_13")'>
+		            <div class="depth_Titx ">
+		               <a href="#none" class=" "  title="법률정보">법률정보</a>
+		            </div>
+		            <div class="depth_sub" id="s_13" style=" display: none; width:100%">
+		                <ul >
+		                	<li><a href="/legalsmart/legalSmartGuide.do" title="법률똑똑이">법률똑똑이</a></li>
+	                    		<li><a href="/disclosure/guidance.do" title="정보공개">정보공개</a></li>
+	                    		<li><a href="/legalinfo/legalFrm.do" style="font-weight:bold;" title="법률정보">법률정보</a></li>
+	                    		<li><a href="/legalstruct/summary.do" title="법률구조">법률구조</a></li>
+	                    		<li><a href="/customer/customerSuggestGuide.do" title="고객광장">고객광장</a></li>
+	                    		<li><a href="/notification/news/selectNewsArticleList.do?boardCode=33" title="알림광장">알림광장</a></li>
+	                    		<li><a href="/chairman/greeting.do" title="공단소개">공단소개</a></li>
+	                    		<li><a href="/guide/publicGuidance.do" title="이용안내">이용안내</a></li>
+	                    		</ul>
+		               </div>
+		        </li>		        
+	        <li onclick='naviOpenAndClose("s_15")'>
+		            <div class="depth_Titx ">
+		               <a href="#none" class=" "  title="법률상담/구조사례">법률상담/구조사례</a>
+		            </div>
+		            <div class="depth_sub" id="s_15" style=" display: none; width:100%">
+		                <ul >
+		                	<li><a href="/legalinfo/legalFrm.do" title="법률서식">법률서식</a></li>
+								<li><a href="/legalinfo/counsel.do" style="font-weight:bold;" title="법률상담/구조사례">법률상담/구조사례</a></li>
+								<li><a href="/legalstruct/autoCostCalculation.do" title="소송비용 등 자동계산">소송비용 등 자동계산</a></li>
+								<li><a href="/legalinfo/caseLegalInfo.do" title="판례/법령정보">판례/법령정보</a></li>
+								<li><a href="/legalinfo/legalRescueEachCountry.do" title="전문자료실">전문자료실</a></li>
+								</ul>
+		               </div>
+		        </li>		        
+	        <li onclick='naviOpenAndClose("s_16")'>
+		            <div class="depth_Titx ">
+		               <a href="#none" class=" "  title="법률상담사례">법률상담사례</a>
+		            </div>
+		            <div class="depth_sub" id="s_16" style=" display: none; width:100%">
+		                <ul >
+		                	<li><a href="/legalinfo/counsel.do" style="font-weight:bold;" title="법률상담사례">법률상담사례</a></li>
+								<li><a href="/legalinfo/bestCounsel/selectBestCounselList.do?boardCode=4" title="법률구조우수사례">법률구조우수사례</a></li>
+								</ul>
+		               </div>
+		        </li>		        
+	        </ul>
+        </div>	    
+    </div>
+</section>
+<script>
+function fn_search(){
+	$("#searchAll").val("");
+	$(".search_pop_box").show();
+	$("#searchAll").focus();
+}
+function fn_cancel(){
+	$(".search_pop_box").hide();
+	$('#allsearch').focus();
+}
+
+function change() {
+	var display_status = $("#language").css("display");
+
+	if(display_status == "block")
+	{
+		$("#language").css("display","none");	
+	}
+	else
+	{
+		$("#language").css("display","block");
+	}
+}
+function goLangUrl(url, type){
+	window.open(url, type);
+	$("#language").hide();
+}	
+
+function searchGo()
+{
+	var searchAll = $("#searchAll").val();
+	
+	if(searchAll.trim() == "")
+	{
+		$("#searchAll").val("");
+		alert("검색어를 입력해 주세요.");
+		return;
+	}
+	
+	$("#inp_word").val(searchAll);
+	$("#inp_def_word").val(searchAll);
+	
+	var url = "/include/searchApi.do";
+	document.searchForm.action = url;
+	document.searchForm.submit(); 
+	
+}
+
+function linkSearch(popWord)
+{
+	$("#searchAll").val(popWord);
+	
+	searchGo();
+}
+var file_del_image = "/images/btn_file_delete.png";
+</script>
+<section id="content" class="subContents" tabindex="-1">
+<div class="sub_Title_box"><h2 class="title">법률상담사례</h2></div>
+<div class="contents_doc">
+    <div class="document_box">
+        <h3 class="tit_h3">법률상담사례</h3>
+        <div class="info_box_type4">
+            <span class="info_all info_icon3"></span>
+            <div class="box_txt_area">
+                <ul class="box_bullet01">
+                	<li>공단은 지난 30년 동안 축적한 상담 사례 5천여 건을 주제별로 찾기 쉽게 분류해서 제공하고 있습니다.</li>
+                    <li>나홀로 소송을 하거나 법률문제를 해결하고자 하는 경우, 법률지원센터 홈페이지를 이용하시면 법률서식, 법률상담사례 등 다양한 법률정보와 제공된 법률서식을 직접 작성 할 수 있도록 지원하고 있습니다.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info_box_bot">
+            <div class="btn_group_wrap btn_p_right">
+                <a href="https://support.klac.or.kr/" class="btn_b_normal_icon02" title="새창 열림" target="_blank"><span>혼자하는 소송 법률지원센터 바로가기</span></a>
+		        <a href="/include/searchCategoryApi.do?collection=qna&pageNum=1" target="_blank" class="btn_b_normal_icon05 ml10 " title="통합검색 법률상담사례 새창 열림"><span>전체검색</span></a>                
+            </div>
+        </div>
+		<div class="snb_tab mt10">      
+			<div class="note"><i class="arr"></i><span class="t1">null</span></div>
+	        <button type="button" class="toggle" data-listId="openList"><span class="t1">메뉴 보이기</span><i class="arr"></i></button>
+	       	<ul  class="col-6" id="openList">
+	        	<li>
+	        			<a href="javascript:fn_clickTab('000','전체');" title="전체">
+	           				전체</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('001','노동');" title="노동">
+	           				노동</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('002','주택임대차');" title="주택임대차">
+	           				주택임대차</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('003','상가임대차');" title="상가임대차">
+	           				상가임대차</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('004','손해배상');" title="손해배상">
+	           				손해배상</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('005','민사일반');" title="민사일반">
+	           				민사일반</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('006','물권');" title="물권">
+	           				물권</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('007','채권');" title="채권">
+	           				채권</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('008','계약');" title="계약">
+	           				계약</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('009','상사');" title="상사">
+	           				상사</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('010','민사소송');" title="민사소송">
+	           				민사소송</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('011','친족');" title="친족">
+	           				친족</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('012','상속');" title="상속">
+	           				상속</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('013','가사소송');" title="가사소송">
+	           				가사소송</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('014','가족관계등록');" title="가족관계등록">
+	           				가족관계등록</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('015','민사집행');" title="민사집행">
+	           				민사집행</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('016','보전처분');" title="보전처분">
+	           				보전처분</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('017','개인회생, 파산 및 면책');" title="개인회생, 파산 및 면책">
+	           				개인회생, 파산 및 면책</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('018','형법');" title="형법">
+	           				형법</a>
+	        		</li>
+	        	<li class="on">
+	        			<a href="javascript:fn_clickTab('019','형사소송');" title="형사소송 선택됨">
+	           				형사소송</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('020','행정');" title="행정">
+	           				행정</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('021','헌법');" title="헌법">
+	           				헌법</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('023','채무자대리');" title="채무자대리">
+	           				채무자대리</a>
+	        		</li>
+	        	<li>
+	        			<a href="javascript:fn_clickTab('022','기타');" title="기타">
+	           				기타</a>
+	        		</li>
+	        	</ul>
+        </div>
+        <h3 class="tit_h3">null  상담사례</h3> <!-- 190702추가   -->
+        <form name="dataForm" action="/legalinfo/counsel.do" method="post" onSubmit="fn_egov_search_article(); return false;">
+        <input name="pageIndex" type="hidden" value="1">
+        <input name="folderId" type="hidden" value="019">
+        <input name="caseId" type="hidden">  
+        <input name="listNm" type="hidden">      
+           
+        <div class="board_search_wrap mt10">
+            <div class="fncount">
+            <span class="data_num">총 <strong> 377</strong> 개의 게시물이 있습니다.</span>
+            </div>
+        	<div class="src_box ">
+            	<label for="01" class="blind" >검색항목</label>
+                <select name="searchCnd" class="sel" id="01" title="컨텐츠 분류 항목을 선택하세요" onchange="fn_changeKind();">
+                	<option value="0">제목</option>                   
+                	<option value="1">질문</option>
+                	<option value="2">답변</option>
+                </select>
+                <label for="input_srch" class="blind" >검색어입력</label>
+                <input type="search" id="input_srch" name="searchWrd" value="" title="검색어입력" placeholder="검색어입력하세요." class="inp_base sw03"  >
+                <button type="submit" class="btn_a_src_02" title="게시물 검색"><span>검색</span></button>
+            </div>
+        </div>
+        <div class="board_list mt10 mobile_table scroll">
+        <table class="table_TP03 M_table">
+        <caption> null 법률상담사례의 (카테고리선택, 제목)안내입니다.</caption>
+        <colgroup>
+        	<col style="width:235px">
+            <col style="width:auto">
+        </colgroup>
+        <thead>
+        	<tr>   
+            	<th span="2" scope="col" style="padding:5px 0 5px 0 !important">
+            	<label for="02" class="blind">상담사례구분</label><!-- 2020.07.01 -->
+<select title="상담사례구분" name="scdFolderId" id="02" class="sel" style=" width:150px !important; background-color:#f9f9f9 !important"><!-- 2020.07.01 -->
+		       		<option value="">전체</option>
+		       		<option value="019001">고소와 고발</option>
+		       		<option value="019012">기타 형사절차</option>
+		       		<option value="019003">불기소처분 및 불복</option>
+		       		<option value="019005">상소</option>
+		       		<option value="019009">소년 및 가정보호사건</option>
+		       		<option value="019004">소송절차 및 증거</option>
+		       		<option value="019008">인신보호사건</option>
+		       		<option value="019006">재심, 약식절차</option>
+		       		<option value="019007">재판의 집행</option>
+		       		<option value="019002">체포, 구속 및 석방, 보석</option>
+		       		<option value="019010">피해자변호(성폭력)</option>
+		       		<option value="019011">피해자변호(아동학대)</option>
+		       		<option value="019013">피해자변호(장애인학대)</option>
+		       		</select> 
+		       	<button type="button" class="btn_a_src_01" title="이동" onclick="fn_changeScdFoler('null');"><span>이동</span></button><!-- 2020.07.01 -->
+            	</th>
+            	<th scope="col">제목</th>
+          	</tr>
+        </thead>
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00001','null');" title="형사고소한 사건의 처리기간은 얼마나 되는지">형사고소한 사건의 처리기간은 얼마나 되는지</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00002','null');" title="불기소처분된 사건 고소인의 열람·등사청구권">불기소처분된 사건 고소인의 열람·등사청구권</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00003','null');" title="친고죄에 대한 합의서 교부 후 고소한 경우 그 효력">친고죄에 대한 합의서 교부 후 고소한 경우 그 효력</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00005','null');" title="피해자인 미성년자의 고소취소 후 부모가 고소 가능한지">피해자인 미성년자의 고소취소 후 부모가 고소 가능한지</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00006','null');" title="형사고소도 대리하여 할 수 있는지">형사고소도 대리하여 할 수 있는지</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00007','null');" title="성폭력범죄인 강간죄의 경우 고소할 수 있는 기간">성폭력범죄인 강간죄의 경우 고소할 수 있는 기간</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00009','null');" title="아동·청소년의 성보호에 관한 법률상의 강제추행이 친고죄인지">아동·청소년의 성보호에 관한 법률상의 강제추행이 친고죄인지</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00010','null');" title="강간사건에서 강간고소를 취하하고 폭행사실만 처벌할 수 있는지">강간사건에서 강간고소를 취하하고 폭행사실만 처벌할 수 있는지</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00011','null');" title="친고죄나 반의사불벌죄가 아닌 범죄에 대한 고소취소의 효력">친고죄나 반의사불벌죄가 아닌 범죄에 대한 고소취소의 효력</a>
+        		</td>        		
+        	</tr> 
+        <tr>
+        		<td>형사소송/고소와 고발</td>
+        		<td class="btn_p_left">
+        			<a href="javascript:fn_inquire_detail('case-019-00012','null');" title="인터넷 상의 댓글이 모욕죄가 될 수 있는지 여부">인터넷 상의 댓글이 모욕죄가 될 수 있는지 여부</a>
+        		</td>        		
+        	</tr> 
+        </table>
+		</div>
+		<div class="paging_wrap">
+			<button type="button" class="btn_page_first" onclick="fn_select_linkPage(1); return false;" title="맨앞 페이지">맨앞 페이지</button>&nbsp;<button type="button" class="btn_page_prev" onclick="fn_select_linkPage(1); return false;" title="이전 페이지">이전 페이지</button>&nbsp;<a class="current" title="현재 1 페이지">1</a>&nbsp;<a href="#"  title="2 페이지" onclick="fn_select_linkPage(2); return false;">2</a>&nbsp;<a href="#"  title="3 페이지" onclick="fn_select_linkPage(3); return false;">3</a>&nbsp;<a href="#"  title="4 페이지" onclick="fn_select_linkPage(4); return false;">4</a>&nbsp;<a href="#"  title="5 페이지" onclick="fn_select_linkPage(5); return false;">5</a>&nbsp;<a href="#"  title="6 페이지" onclick="fn_select_linkPage(6); return false;">6</a>&nbsp;<a href="#"  title="7 페이지" onclick="fn_select_linkPage(7); return false;">7</a>&nbsp;<a href="#"  title="8 페이지" onclick="fn_select_linkPage(8); return false;">8</a>&nbsp;<a href="#"  title="9 페이지" onclick="fn_select_linkPage(9); return false;">9</a>&nbsp;<a href="#"  title="10 페이지" onclick="fn_select_linkPage(10); return false;">10</a>&nbsp;<button type="button" class="btn_page_next" onclick="fn_select_linkPage(11); return false;" title="다음 페이지">다음 페이지</button>&nbsp;<button type="button" class="btn_page_last" onclick="fn_select_linkPage(38); return false;" title="맨끝 페이지">맨끝 페이지</button>
+</div>		 
+        </form>
+        
+       <div class="info_box_type4">  
+        	<span class="info_opentype_b4type"></span>            
+            <span class="info_opentype_text">
+                           대한법률구조공단의 해당 저작물은 "<span class="text-darkgray_blue" onclick="javascriot:location.href='https://www.kogl.or.kr/info/licenseType4.do'" style="cursor:pointer;">공공누리 4유형(출처표시)</span>" 조건에 따라 누구나 이용할 수 있습니다.
+            </span>            
+        </div>
+        
+    </div>
+</div>  
+<form name="insertSatisfactionResearch" method="post" >
+	<div class="satisfaction">
+	    <div class="satisfaction_star">
+	        <strong>보다 나은 서비스  제공을 위해 만족도 조사를 실시하고 있습니다. 이 페이지에서 제공하는 정보에 대하여 얼마나 만족하셨습니까?</strong>
+	        <ul class="star">
+	            <li class="starRadio"><input type="radio" id="a5" name="point" value="5"><label for="a5" class="sf_radio"><span>매우만족</span></label></li>
+	            <li class="starRadio"><input type="radio" id="a4" name="point" value="4"><label for="a4" class="sf_radio"><span>만족</span></label></li>
+	            <li class="starRadio"><input type="radio" id="a3" name="point" value="3"><label for="a3" class="sf_radio"><span>보통</span></label></li>
+	            <li class="starRadio"><input type="radio" id="a2" name="point" value="2"><label for="a2" class="sf_radio"><span>불만</span></label></li>
+	            <li class="starRadio"><input type="radio" id="a1" name="point" value="1"><label for="a1" class="sf_radio"><span>매우불만</span></label></li>	        
+	        </ul>
+	         <div class="sfc_inp_area">
+			    	   <label for="safeContent" >
+			             <strong>기타의견</strong>
+			              </label>
+			            <div class="sf_inp_btn">
+			            	<!-- 22.11.21. ssr -->
+			            	<!-- 공공데이터 개방 메뉴 입력폼 placeholder 멘트 수정  -->
+			            	<input id="safeContent"  type="text" title="만족도 조사의 기타의견 입력하세요." maxlength="250" placeholder="법률상담사례 관련 기타의견 입력하세요." class="inp_base w60_p">
+			            		<button type="button" onclick="javascript:fn_satisfaction()" class="btn_sf_normal"><span>확인</span></button>
+			            </div>
+		        	</div>
+				</div>
+	    <div class="represent">
+	        <ul>
+	        <!--
+	            <li class="team"><strong>담당부서</strong>법률복지팀</li>
+	          
+	             담당부서 전화번호 출력 21.10.14 SR 이 혁 규&SSR-->
+	             <li class="team"><strong>담당부서</strong>법률복지팀</li>
+
+	            <li class="team"><strong>전화번호 </strong>054-810-1093</li>	            
+	            </ul>
+	    </div>
+    </div>
+	<input type="hidden" name="orgCode" id="orgCode" value="100484">
+	<input type="hidden" name="menuCode" id="menuCode" value="PG200201">
+	<input type="hidden" name="safePage" id="safePage" value="">
+	<input type="hidden" name="pageCode" id="pageCode" value="PG200201">
+	<input type="hidden" id="insertChk" value="T">
+</form>	
+<script>
+function checkedRadio(id)
+{
+	$(".bt_radio_fm").removeClass("checked");
+	$("#" + id).addClass("checked");
+}
+
+//만족도조사 ui 처리 start
+$(function(){
+	$('input[name="point"]').on('click', function(){
+		$("label[for='" + this.id + "']").toggleClass('checked', this.checked);
+		fn_radioChangeDisplay($('input[name="point"]'));
+	});	
+	
+	$('input[name="point"]').on('focus', function(){		
+		$("label[for='" + this.id + "']").find('span').css('text-decoration','underline');
+	});
+	
+	$('input[name="point"]').on('focusout', function(){		
+		$("label[for='" + this.id + "']").find('span').css('text-decoration','none');
+	});
+});
+
+function fn_radioChangeDisplay(obj){	
+	for(var i=0; i<$(obj).length; i++){
+		var input = $(obj)[i];
+		$("label[for='" + $(input).attr('id') + "']").toggleClass('checked', $(input).prop('checked'));
+	}
+}
+//만족도조사 ui 처리 end
+
+function fn_satisfaction(){
+	var insertChk = $("#insertChk").val();
+	var orgCode = $("#orgCode").val();
+	var menuCode = $("#menuCode").val();
+	var point = $("input:radio[name=point]:checked").val();
+	var safeContent = $("#safeContent").val();
+	var safePage = $("#safePage").val();
+	var pageCode = $("#pageCode").val();
+	var safeUsed = $("#safeUsed").val();
+	 
+		 
+	if(insertChk == "F"){
+		alert('새로고침후 다시 참여 가능합니다.');
+		return;
+	}
+
+	//22.11.4.법무부 홈페이지 취약점 조치 요청, 버퍼 오버플로우 취약점 보완 조치
+	if(safeContent.length > 250){
+		alert("최대 250자까지 입력 가능합니다.");
+		return;
+	}
+	
+	if($("input:radio[name='point']").is(":checked") == true){
+		$.ajax({
+			type: "get",
+		    url: "/include/insertSatisfactionResearch.do",
+		    data: {"orgCode" : orgCode, "menuCode" : menuCode, "point" : point, "safeContent" : safeContent, "safePage" : safePage, "pageCode" : pageCode, "safeUsed" : safeUsed},
+		    dataType: "json",
+		    success: function (data) {
+		            if (data.chk == 0) {
+		                alert('만족도조사 점수 전송이 실패하였습니다.');
+		            } else {
+		            	$("#insertChk").val("F");
+		                alert('만족도조사에 참여해주셔서 감사합니다.');
+		                document.insertSatisfactionResearch.reset();
+		                fn_radioChangeDisplay($('input:radio[name="point"]'));
+		            }
+		    },
+		    error: function (error) {
+		    	alert("등록에 실패하였습니다.");
+		    }
+		});
+	}else{
+		alert("만족도 점수를 선택하신후 이용 가능합니다.");
+	}
+}
+
+</script>
+</section>
+<script>
+function fn_clickTab(codeValue,listNm)
+{	
+	document.dataForm.pageIndex.value = 1;	
+	$('input[name="folderId"]').val(codeValue);	
+	document.dataForm.listNm.value = listNm;
+	$('select[name="scdFolderId"] option:selected').val('');
+	$('select[name="searchCnd"] option:selected').val('0');	
+	$('#input_srch').val(null);
+   	document.dataForm.submit();
+}
+
+function fn_changeScdFoler(listNm){
+	document.dataForm.pageIndex.value = 1;
+	document.dataForm.listNm.value = listNm;
+	$('select[name="searchCnd"] option:selected').val('0');
+	$('#input_srch').val(null);
+	document.dataForm.submit();
+}
+
+function fn_select_linkPage(pageNo){
+	document.dataForm.listNm.value = "null";
+	document.dataForm.pageIndex.value = pageNo;	
+   	document.dataForm.submit();
+}
+
+function fn_inquire_detail(codeValue, listNm) {	
+	$('input[name="caseId"]').val(codeValue);
+	document.dataForm.listNm.value = listNm;
+	document.dataForm.method = "GET";
+  	document.dataForm.action = "/legalinfo/counselView.do";
+  	document.dataForm.submit();
+}
+
+function fn_egov_search_article(){
+	document.dataForm.listNm.value = "null";
+	document.dataForm.pageIndex.value = 1;
+	document.dataForm.submit();
+}
+
+function fn_changeKind()
+{
+	$("#input_srch").val(null);
+}
+</script>
+<footer id="footer">    
+	<div class="f_link_box">
+    	<div class="rule_link_klac">
+            <a href="/guide/privacyProtect.do" class="f_point" style="color:blue;" title="개인정보처리방침 페이지로 이동합니다" >개인정보처리방침</a>
+           <a href="/guide/publicGuidance.do" title="공단길라잡이 페이지로 이동합니다">공단길라잡이</a>
+           <a href="/guide/hpGuide.do" title="누리집 이용안내 페이지로 이동합니다">누리집 이용안내</a>
+           <a href="https://help.klac.or.kr/" target="_blank" title="새창열림">원격지원</a>
+            <a href="/disclosure/cpyrhtManage.do" title="저작권정책 페이지로 이동합니다">저작권정책</a>
+            <a href="/guide/emailCollectionRefuse.do" title="이메일무단수집거부 페이지로 이동합니다">이메일무단수집거부</a>
+			<a href="javascript:fn_moveCert()" title="본인인증페이지로 이동합니다">본인인증</a>
+        </div>
+        <div class="family_stie_box">
+            <a href="javascript:fn_open()" ><em>대한법률구조공단 관련사이트</em></a>
+            <div class="family_stie_list" id="familySite" style="display: none;width: 282px;">
+                <ul>
+                    <li><a href="javascript:gofSiteUrl('https://www.hldcc.or.kr/');" title="새창열림"><em>주택·상가건물임대차분쟁조정위원회</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://support.klac.or.kr/');" title="새창열림"><em>전자접수시스템(혼자하는소송)</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://resu.klac.or.kr/main.jsp');" title="새창열림"><em>개인회생·파산 종합지원센터</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://edu.klac.or.kr/');" title="새창열림"><em>법문화교육센터</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://recruit.klac.or.kr/');" title="새창열림"><em>대한법률구조공단 채용사이트</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://net.klac.or.kr/');" title="새창열림"><em>다부처 연계시스템</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://www.klac.or.kr/pil');" title="새창열림"><em>법률지원단 홈페이지</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://klac.or.kr/startingChat.do?channelCd=CHATBOT');" title="새창열림"><em>법률정보 질의ᆞ응답시스템(법률똑똑이)</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://www.helplaw24.go.kr/');" title="새창열림"><em>법률구조 플랫폼</em></a></li>
+                    <li>++++ 공단 직원 관련사이트 ++++</li>
+                    <li><a href="javascript:gofSiteUrl('http://klac.eduspa.com/');" title="새창열림"><em>이러닝 법률전문과정</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('http://klac.multicampus.com/');" title="새창열림"><em>이러닝 기본직무과정</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('http://b2b.neungyule.com/KLAC/');" title="새창열림"><em>이러닝 외국어과정</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://klac.kyoboreadingtree.co.kr/');" title="새창열림"><em>독서통신교육</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://klac.onlinekoreahrd.kr/studyCenter/');" title="새창열림"><em>이러닝 법정의무교육</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('/alumni/main.do');" title="새창열림"><em>퇴직임직원(OB)커뮤니티</em></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 
+          <div class="family_stie_box">
+            <a href="javascript:fn_open()" title="새창열림"><em>공단 직원 관련사이트</em></a>
+            <div class="family_stie_list" id="familySite" style="display: none;">
+                <ul>
+                    <li><a href="javascript:gofSiteUrl('http://klac.eduspa.com/');" title="새창열림"><em>이러닝 법률전문과정</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('http://klac.multicampus.com/');" title="새창열림"><em>이러닝 기본직무과정</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('http://b2b.neungyule.com/KLAC/');" title="새창열림"><em>이러닝 외국어과정</em></a></li>
+                    <li><a href="javascript:gofSiteUrl('https://klac.kyoboreadingtree.co.kr/');" title="새창열림"><em>독서통신교육</em></a></li>
+                </ul>
+            </div>
+        </div>
+        -->
+    	<div class="link_sns">
+        	<ul>
+            	<li><a href="https://www.facebook.com/klac132" target="_blank" class="btn_fb_sns" title="새창열림">페이스북</a></li>
+            	<li><a href="http://blog.naver.com/smile-law" target="_blank" class="btn_nb_sns" title="새창열림">네이버블로그</a></li>
+            	<!--<li><a href="https://www.youtube.com/channel/UChXSpetKRrf9UANr5apLzzA" target="_blank" class="btn_tb_sns" title="새창열림">유튜브</a></li>-->
+<!--             	<li><a href="/notification/notice/selectNoticeView.do?boardCode=32&contentId=AD_0000025084" target="_blank" class="btn_tb_sns" title="새창열림">유튜브</a></li> -->
+            	<li><a href="javascript:fn_youTubeOpen();" class="btn_tb_sns" title="새창열림">유튜브</a></li>
+            	<li><a href="https://www.instagram.com/klac.or.kr" target="_blank" class="btn_is_sns" title="새창열림" >인스타그램</a></li>
+            	            	
+            </ul>
+        </div>
+    </div>    
+	<div class="address_info_box">
+    	<div class="address_tel">
+            <div class="footer_logo"><img src="/images/ft_logo_img.png" alt="대한법률구조공단"></div>
+            <address>
+            39660 경북 김천시 혁신2로 26 대한법률구조공단<br/>
+                          대표전화 :<a href="tel:054-810-0132" style="color:#6D6D6D"> 054) 810-0132</a> / 팩스 : 054) 810-8003  <a style="color:#6D6D6D" href="mailto:webmaster@klac.or.kr">webmaster@klac.or.kr</a><br/>
+                          법률상담 : <a href="tel:132" style="color:#6D6D6D">132</a>
+            </address>
+            <p class="ft_copyr">Copyright Korea Legal Aid Corporation. All rights reserved.</p>
+        </div>
+		<div class="licenseMark">
+        	<ul>
+ 			  <li><img src="/images/licenseMark_klac_bi_img.png" alt="공단혁신 보다나은 법률복지"  ><a title= "공단혁신 보다나은 법률복지"></a></li>
+            	<li><a onclick="fn_webAccessPop();" onkeypress="fn_webAccessPop(); "><img  src="/images/licenseMark_wa_img.png" width="80" height="53" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크) 새창 열림"   style="cursor: pointer;" tabindex="0"></a></li>
+            	<li><a onclick="fn_familyPop();" onkeypress="fn_familyPop(); " ><img  src="/images/licenseMark_ffsb_img.png"  alt="가족친화우수기관인증 새창 열림" style="cursor: pointer;" tabindex="0"></a></li>
+                
+            </ul>
+        </div>
+    </div>
+</footer>
+<button type="button" id="chatbotIcon" onclick="fn_chat('CHATBOT');" class="page_chatbot " title="챗봇  새창 열림">챗봇</button>
+<button type="button" onclick="fn_topMove();" class="page_top " title="맨위로(TOP)">맨위로(TOP)</button>
+<script>
+
+function fn_chat(channelCd){
+	var popupX = (window.screen.width/2)-(590/2);
+	var popupY = (window.screen.height/2)-(920/2)+50;	
+	var popOption = "width=590, height=920,  left="+popupX+", top="+popupY+" ,scrollbars=1"; 
+		window.open("/startingChat.do?channelCd="+channelCd+"","_blank",popOption);			
+}
+
+function fn_open() {
+
+	if($("#familySite").css("display")=="none"){
+		$('#familySite').show();
+	}else{
+		$('#familySite').hide();
+	}
+}
+function gofSiteUrl(url){
+	window.open(url, '_blank');
+	$("#familySite").hide();
+}	
+
+function fn_sessionLoginOut(){												
+	location.href = "/sessionLoginOut.do?userLogOut=self";
+}
+
+function fn_topMove() {
+	$("html, body").scrollTop(0);
+}
+
+function fn_goodPop(){
+	
+	var url = "/goodPop.do";
+	
+	var windowW = 500;  // 창의 가로 길이
+    var windowH = 700;  // 창의 세로 길이
+    var left = Math.ceil((window.screen.width - windowW)/2);
+    var top = Math.ceil((window.screen.height - windowH)/2);
+	 
+	var popOption = "width=" + windowW + ", height=" + windowH + ",  left="+left+", top="+top+", scrollbars=yes"; 
+	window.open(url,"_blank", popOption);
+	
+}
+function fn_familyPop(){
+	
+	var url = "/familyPop.do";
+	
+	var windowW = 500;  // 창의 가로 길이
+    var windowH = 800;  // 창의 세로 길이
+    var left = Math.ceil((window.screen.width - windowW)/2);
+    var top = Math.ceil((window.screen.height - windowH)/2);
+	 
+	var popOption = "width=" + windowW + ", height=" + windowH + ",  left="+left+", top="+top+", scrollbars=yes"; 
+	window.open(url,"_blank", popOption);
+	
+}
+function fn_webAccessPop() {
+	var url = "/webAccessPop.do";
+	
+	var windowW = 500;  // 창의 가로 길이
+    var windowH = 800;  // 창의 세로 길이
+    var left = Math.ceil((window.screen.width - windowW)/2);
+    var top = Math.ceil((window.screen.height - windowH)/2);
+	 
+	var popOption = "width=" + windowW + ", height=" + windowH + ",  left="+left+", top="+top+", scrollbars=yes"; 
+	window.open(url,"_blank", popOption);
+}
+
+
+//2020.09.11 | 유튜브 새창 열기
+function fn_youTubeOpen(){
+	var agent = navigator.userAgent.toLowerCase();
+	if( (agent.indexOf('msie') > 0) || (agent.indexOf('trident') > 0) ){	//익스인 경우
+		displayPopUp();
+	}else{	//나머지인 경우
+		var url = 'https://www.youtube.com/channel/UChXSpetKRrf9UANr5apLzzA';
+		window.open(url,'_blank');
+	}
+}
+
+//2020.09.11 | 유튜브 새창 열기	
+function displayPopUp() {
+	
+	var height = '635';
+	var width = '660';
+
+	var	 poptop = (screen.height - height) / 2 - 80;
+	var	 popleft = 0;
+
+	var winprops = "height="+height 
+		+ ",width="+width
+		+ ",top=" + poptop
+		+ ",left=" + popleft
+		+ ",toolbar=no,resizable=no,location=no,scrollbars=no,status=no, menubar=no";
+	var pop = window.open('/html/popup_page3.html', 'popup_fall_main', winprops);
+	pop.focus();
+}
+
+</script>
+</body>
+</html>

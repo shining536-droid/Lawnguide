@@ -76,4 +76,6 @@ A. 법원에 사실조회 신청을 하면 국세청, 건보공단 등을 통해
 
 ---
 
-**서류 하나가 아이의 생활을 바꿀 수 있어요.** [로앤가이드에서 내 상황 정리해보기](https://lawnguide.co.kr)
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=child-support

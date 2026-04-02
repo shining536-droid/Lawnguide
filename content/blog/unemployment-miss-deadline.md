@@ -79,4 +79,4 @@ tags: ["실업급여", "신청기한", "퇴사12개월", "수급기간", "고용
 실업급여는 자격이 있어도 기한을 놓치면 못 받아요. 퇴사 즉시 구직등록 → 이직확인서 확인 → 고용센터 수급자격 신청, 이 3단계를 빠르게 진행하세요. 내 신청 기한이 얼마나 남았는지 확인해보세요.
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=unemployment
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=unemployment

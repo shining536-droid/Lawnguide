@@ -142,6 +142,13 @@ import { spokesBatch17GscWageStalking } from './spoke/spokes-batch17-gsc-wage-st
 import { spokesBatch17GscFraud } from './spoke/spokes-batch17-gsc-fraud';
 import { spokesBatch17GscTraffic } from './spoke/spokes-batch17-gsc-traffic';
 import { spokesBatch17GscDivorce } from './spoke/spokes-batch17-gsc-divorce';
+import { spokesBatch18Part1Pages } from './spoke/spokes-batch18-part1';
+import { spokesBatch18_6to10 } from './spoke/spokes-batch18-6to10';
+import { spokesBatch18_11to15 } from './spoke/spokes-batch18-11to15';
+import { spokesBatch18_16to20 } from './spoke/spokes-batch18-16to20';
+import { spokesBatch18_21to25 } from './spoke/spokes-batch18-21to25';
+import { spokesBatch18_26to30 } from './spoke/spokes-batch18-26to30';
+import { spokesBatch18_31to35 } from './spoke/spokes-batch18-31to35';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -241,6 +248,13 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch17GscFraud,
   ...spokesBatch17GscTraffic,
   ...spokesBatch17GscDivorce,
+  ...spokesBatch18Part1Pages,
+  ...spokesBatch18_6to10,
+  ...spokesBatch18_11to15,
+  ...spokesBatch18_16to20,
+  ...spokesBatch18_21to25,
+  ...spokesBatch18_26to30,
+  ...spokesBatch18_31to35,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {

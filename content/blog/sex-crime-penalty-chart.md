@@ -84,4 +84,6 @@ slug: sex-crime-penalty-chart
 ---
 
 > 성범죄 피해를 입었다면, 정확한 법적 대응부터 시작하세요.
-> **[로앤가이드에서 내 상황 정리해보기 → lawnguide.co.kr](https://lawnguide.co.kr)**
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=sex-crime

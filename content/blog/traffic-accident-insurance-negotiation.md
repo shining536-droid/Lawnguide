@@ -53,5 +53,5 @@ date: "2026-03-13"
 
 합의는 한 번 하면 되돌리기 어렵습니다. 서명 전에 내가 받을 수 있는 정당한 금액이 맞는지 꼭 확인해보세요.
 
-👉 로앤가이드에서 내 상황 정리해보기
-🔗 lawnguide.co.kr
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=traffic-accident

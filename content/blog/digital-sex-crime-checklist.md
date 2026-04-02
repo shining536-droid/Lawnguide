@@ -77,4 +77,6 @@ A. 성범죄 피해자는 수사 전 과정에서 신원이 보호됩니다. 비
 
 ---
 
-**하나씩 체크하다 보면 길이 보여요.** 혼자 감당할 필요 없습니다. [로앤가이드에서 내 상황 정리해보기](https://lawnguide.co.kr)
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=digital-sex-crime

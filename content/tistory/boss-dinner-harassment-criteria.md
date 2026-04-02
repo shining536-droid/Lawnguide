@@ -66,4 +66,4 @@ tags: ["성희롱기준", "회식성희롱", "직장성희롱", "신체접촉", 
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=sexual-harassment
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=sexual-harassment

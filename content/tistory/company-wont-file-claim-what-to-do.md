@@ -53,5 +53,7 @@ date: "2026-03-21"
 
 다친 몸으로 회사와 싸워야 한다는 부담감이 크겠지만, 산재 보험급여 청구는 법률이 보장하는 근로자 고유의 권리입니다. 지금 내 상황에서 어떤 순서로 움직여야 하는지 점검해보세요.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=industrial-accident1
 https://lawnguide.co.kr

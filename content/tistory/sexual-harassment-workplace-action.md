@@ -53,5 +53,7 @@ date: "2026-03-13"
 
 직장 내 성희롱은 참고 넘긴다고 사라지지 않습니다. 증거 확보, 사내 신고, 외부 진정까지 순서대로 밟아나가면 법이 여러분을 지켜줄 수 있습니다.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=sexual-harassment
 https://lawnguide.co.kr

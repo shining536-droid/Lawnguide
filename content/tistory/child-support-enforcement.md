@@ -53,5 +53,7 @@ date: "2026-03-13"
 
 양육비는 부모 간의 문제가 아니라 아이의 당연한 권리입니다. 법적 강제 수단이 분명히 존재하니, 혼자 참으며 버티지 마세요.
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=child-support
 https://lawnguide.co.kr

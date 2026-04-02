@@ -50,4 +50,5 @@ tags: ["상속 분쟁", "상속재산분할", "유류분", "상속재산 조회"
 
 ---
 
-👉 로앤가이드에서 내 상황 정리해보기 👉 lawnguide.co.kr
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=inheritance

@@ -78,4 +78,6 @@ slug: sex-crime-false-accusation
 ---
 
 > 사실과 다르게 신고되었다면, 증거 확보와 전략 수립이 급합니다.
-> **[로앤가이드에서 내 상황 정리해보기 → lawnguide.co.kr](https://lawnguide.co.kr)**
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=sex-crime

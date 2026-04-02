@@ -79,4 +79,4 @@ tags: ["중대재해처벌법", "사업주책임", "경영책임자", "안전보
 중대재해처벌법은 이제 5인 이상 모든 사업장에 적용됩니다. 서류가 아닌 실질적 안전관리체계가 사업주를 보호해요. 적용 대상 확인 → 안전보건관리체계 점검 → 초기 대응 계획 수립, 이 순서로 확인하세요.
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=industrial-accident2
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=industrial-accident2

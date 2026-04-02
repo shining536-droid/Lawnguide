@@ -139,11 +139,19 @@ def parse_md_file(filepath: str) -> dict:
 
     tags = [t.strip() for t in tags if t.strip()][:10]
 
+    # domain 추출 (CTA 딥링크용)
+    domain_val = ""
+    if fm_match:
+        dm = re.search(r'^domain:\s*["\']?(.+?)["\']?\s*$', fm_match.group(1), re.MULTILINE)
+        if dm:
+            domain_val = dm.group(1).strip()
+
     return {
         'title': title[:100],
         'body': body,
         'tags': tags,
-        'filename': os.path.basename(filepath)
+        'filename': os.path.basename(filepath),
+        'domain': domain_val
     }
 
 
@@ -217,15 +225,23 @@ async def input_tags(page, tags: list) -> bool:
 
 
 # ── CTA 링크 삽입 ────────────────────────────────────
-async def insert_cta_link(page) -> bool:
-    """본문 끝에 CTA 소개글 + OG 카드 링크 삽입"""
+def get_tistory_cta_url(domain: str = "") -> str:
+    """도메인별 딥링크 CTA URL 생성"""
+    base = "https://www.lawnguide.co.kr/chat"
+    if domain:
+        return f"{base}?domain={domain}"
+    return base
+
+
+async def insert_cta_link(page, domain: str = "") -> bool:
+    """본문 끝에 CTA 소개글 + OG 카드 링크 삽입 (도메인별 딥링크)"""
     try:
+        cta_url = get_tistory_cta_url(domain)
         cta_lines = [
             "",
             "\u2501" * 20,
             "",
-            "법률 문제, 어디서부터 시작해야 할지 막막하신가요?",
-            "로앤가이드에서 1분이면 지금 할 일과 준비서류, 변호사를 안내해드립니다.",
+            "💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.",
             "",
         ]
         for line in cta_lines:
@@ -235,7 +251,7 @@ async def insert_cta_link(page) -> bool:
             await page.wait_for_timeout(random.randint(200, 400))
 
         # URL 단독 줄 (티스토리 OG 카드 자동 생성)
-        await page.keyboard.type("https://lawnguide.co.kr", delay=random.randint(30, 60))
+        await page.keyboard.type(cta_url, delay=random.randint(30, 60))
         await page.wait_for_timeout(300)
         await page.keyboard.press('Enter')
         await page.wait_for_timeout(random.randint(1000, 2000))
@@ -243,11 +259,11 @@ async def insert_cta_link(page) -> bool:
         # 푸터
         await page.keyboard.press('Enter')
         await page.wait_for_timeout(300)
-        cta_footer = "31개 법률 분야 무료 진단 · 변호사 만나기 전 필수 체크"
+        cta_footer = "👉 내 상황 무료로 정리하기"
         await page.keyboard.type(cta_footer, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
         await page.wait_for_timeout(random.randint(300, 500))
 
-        print("    CTA 링크 삽입 완료: https://lawnguide.co.kr")
+        print(f"    CTA 링크 삽입 완료: {cta_url}")
         return True
 
     except Exception as e:
@@ -398,6 +414,7 @@ async def write_and_publish(page, post: dict) -> dict:
         await page.wait_for_timeout(random.randint(1000, 2000))
 
         # === CTA 삽입 ===
+        post_domain = post.get('domain', '')
         if body_entered and frame:
             try:
                 body_elem = await frame.query_selector('body#tinymce, body')
@@ -408,7 +425,7 @@ async def write_and_publish(page, post: dict) -> dict:
                     await page.wait_for_timeout(300)
             except Exception:
                 pass
-        await insert_cta_link(page)
+        await insert_cta_link(page, domain=post_domain)
         await page.wait_for_timeout(random.randint(500, 1000))
 
         # 팝업 체크

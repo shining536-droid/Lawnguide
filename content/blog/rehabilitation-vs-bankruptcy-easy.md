@@ -79,4 +79,4 @@ tags: ["개인회생", "개인파산", "회생 파산 차이", "채무 정리", 
 개인회생과 파산은 상황에 따라 유리한 쪽이 다릅니다. 소득 유무, 재산 상태, 직업, 변제 가능 금액을 종합적으로 따져봐야 해요. 혼자 판단하기 어렵다면, 전문가에게 본인 상황을 설명하고 맞는 제도를 추천받으세요.
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=rehabilitation
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=rehabilitation

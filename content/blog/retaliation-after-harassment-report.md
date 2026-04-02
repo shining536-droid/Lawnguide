@@ -80,4 +80,4 @@ tags: ["성희롱보복", "불이익조치", "2차피해", "직장내성희롱",
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=sexual-harassment
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=sexual-harassment

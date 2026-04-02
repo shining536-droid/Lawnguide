@@ -53,5 +53,7 @@ date: "2026-03-17"
 
 이혼을 통보받은 직후에는 감정보다 정보가 무기입니다. 양육권, 재산분할, 위자료를 내 상황에 맞춰 점검하고 싶다면
 
-📌 로앤가이드에서 내 상황 정리해보기
+
+💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=divorce
 https://lawnguide.co.kr

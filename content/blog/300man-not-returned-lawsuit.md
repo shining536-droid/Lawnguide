@@ -79,4 +79,4 @@ tags: ["소액소송", "빌려준 돈", "300만원", "차용증 없이 소송", 
 300만 원이라도 포기하지 마세요. 차용증 없이도 이체 내역과 대화 기록이면 충분히 승소 가능합니다. 지급명령은 비용 2만 원대로 시작할 수 있고, 판결 후 강제집행까지 길이 열려 있어요.
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
-👉 내 상황 무료로 정리하기 → https://www.lawnguide.co.kr/chat?domain=small-claims
+👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=small-claims
