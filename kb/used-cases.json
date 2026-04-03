@@ -4374,5 +4374,269 @@
     "type": "절차형",
     "channel": "blog",
     "slug": "prostitution-caught-first-steps-blog"
+  },
+  {
+    "판례ID": "2017다16778",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "dismissal-notice-pay-calculation"
+  },
+  {
+    "판례ID": "2023나51568",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "판례형",
+    "channel": "seo",
+    "slug": "unfair-dismissal-void-cases"
+  },
+  {
+    "판례ID": "2021두33470",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "템플릿형",
+    "channel": "seo",
+    "slug": "dismissal-reason-request-template"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "unpaid-retirement-report-procedure"
+  },
+  {
+    "판례ID": "2021가합564798",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "어디부터형",
+    "channel": "seo",
+    "slug": "retirement-pay-claim-where-to-start"
+  },
+  {
+    "판례ID": "2012다41045",
+    "domain": "retirement",
+    "perspective": "general",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "interim-retirement-pay-requirements"
+  },
+  {
+    "판례ID": "2019다279283",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "템플릿형",
+    "channel": "seo",
+    "slug": "retirement-pay-complaint-writing"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "retirement-claim-first-steps-blog"
+  },
+  {
+    "판례ID": "2018다244877",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "준비서류형",
+    "channel": "blog",
+    "slug": "interim-retirement-pay-blog"
+  },
+  {
+    "판례ID": "2023다307024",
+    "domain": "sangga",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "sangga-lease-termination-blog"
+  },
+  {
+    "판례ID": "2018다284226",
+    "domain": "sangga",
+    "perspective": "victim",
+    "type": "준비서류형",
+    "channel": "blog",
+    "slug": "sangga-key-money-recovery-blog"
+  },
+  {
+    "판례ID": "2022다309337",
+    "domain": "sangga",
+    "perspective": "victim",
+    "type": "대처형",
+    "channel": "blog",
+    "slug": "sangga-rent-increase-defense-blog"
+  },
+  {
+    "판례ID": "2024다221042",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "rehabilitation-procedure-simple-blog"
+  },
+  {
+    "판례ID": "2022다256327",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "자격형",
+    "channel": "blog",
+    "slug": "rehabilitation-eligibility-blog"
+  },
+  {
+    "판례ID": "2024마6102",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "비교형",
+    "channel": "blog",
+    "slug": "rehabilitation-vs-workout-blog"
+  },
+  {
+    "판례ID": "2022다282360",
+    "domain": "inheritance",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "inheritance-renunciation-deadline-blog"
+  },
+  {
+    "판례ID": "2025다212863",
+    "domain": "inheritance",
+    "perspective": "victim",
+    "type": "준비서류형",
+    "channel": "blog",
+    "slug": "inheritance-asset-inquiry-blog"
+  },
+  {
+    "판례ID": "2022다235009",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "traffic-settlement-process-blog"
+  },
+  {
+    "판례ID": "2024다289680",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "traffic-insurance-claim-blog"
+  },
+  {
+    "판례ID": "2023도18767",
+    "domain": "sex-crime",
+    "perspective": "offender",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "sex-crime-accused-investigation-blog"
+  },
+  {
+    "판례ID": "2021도11938",
+    "domain": "sex-crime",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "sex-crime-victim-complaint-blog"
+  },
+  {
+    "판례ID": "2018다239110",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "unpaid-wage-petition-tips-blog"
+  },
+  {
+    "판례ID": "2021다218083",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "증거형",
+    "channel": "blog",
+    "slug": "unpaid-wage-first-action-blog"
+  },
+  {
+    "판례ID": "2022다255454",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "계산형",
+    "channel": "blog",
+    "slug": "delayed-interest-calculation-blog"
+  },
+  {
+    "판례ID": "2024두54683",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "unfair-dismissal-relief-blog"
+  },
+  {
+    "판례ID": "2024두41038",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "대처형",
+    "channel": "blog",
+    "slug": "fired-what-to-do-first-blog"
+  },
+  {
+    "판례ID": "2023두54914",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "계산형",
+    "channel": "blog",
+    "slug": "dismissal-notice-pay-blog"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "unpaid-retirement-report-blog"
+  },
+  {
+    "판례ID": "2022다235009",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "traffic-accident-settlement-guide"
+  },
+  {
+    "판례ID": "2025도36",
+    "domain": "stalking",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "stalking-report-protection-order"
+  },
+  {
+    "판례ID": "2023도11395",
+    "domain": "digital-sex-crime",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "hidden-camera-discovery-action"
+  },
+  {
+    "판례ID": "2022도1862",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "online-shopping-fraud-refund"
+  },
+  {
+    "판례ID": "2025고단949",
+    "domain": "defamation",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "internet-defamation-complaint-guide"
   }
 ]
