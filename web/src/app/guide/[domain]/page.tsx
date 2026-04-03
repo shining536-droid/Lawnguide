@@ -261,6 +261,8 @@ const DOMAIN_GUIDES: Record<string, GuideContent> = {
   },
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return DOMAINS.map((d) => ({ domain: d.id }));
 }

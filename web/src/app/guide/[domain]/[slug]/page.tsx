@@ -8,6 +8,8 @@ interface PageProps {
   params: { domain: string; slug: string };
 }
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return SPOKE_PAGES.map((p) => ({
     domain: p.domain,
