@@ -163,6 +163,26 @@ import { spokesBatch21_8to14 } from './spoke/spokes-batch21-8to14';
 import { spokesBatch21_15to21 } from './spoke/spokes-batch21-15to21';
 import { spokesBatch21_22to28 } from './spoke/spokes-batch21-22to28';
 import { spokesBatch21_29to35 } from './spoke/spokes-batch21-29to35';
+import { spokesBatch22_1to7 } from './spoke/spokes-batch22-1to7';
+import { spokesBatch22_8to14 } from './spoke/spokes-batch22-8to14';
+import { spokesBatch22_15to21 } from './spoke/spokes-batch22-15to21';
+import { spokesBatch22_22to28 } from './spoke/spokes-batch22-22to28';
+import { spokesBatch22_29to35 } from './spoke/spokes-batch22-29to35';
+import { spokesBatch23_1to7 } from './spoke/spokes-batch23-1to7';
+import { spokesBatch23_8to14 } from './spoke/spokes-batch23-8to14';
+import { spokesBatch23_15to21 } from './spoke/spokes-batch23-15to21';
+import { spokesBatch23_22to28 } from './spoke/spokes-batch23-22to28';
+import { spokesBatch23_29to35 } from './spoke/spokes-batch23-29to35';
+import { spokesBatch24_1to7 } from './spoke/spokes-batch24-1to7';
+import { spokesBatch24_8to14 } from './spoke/spokes-batch24-8to14';
+import { spokesBatch24_15to21 } from './spoke/spokes-batch24-15to21';
+import { spokesBatch24_22to28 } from './spoke/spokes-batch24-22to28';
+import { spokesBatch24_29to35 } from './spoke/spokes-batch24-29to35';
+import { spokesBatch25_1to7 } from './spoke/spokes-batch25-1to7';
+import { spokesBatch25_8to14 } from './spoke/spokes-batch25-8to14';
+import { spokesBatch25_15to21 } from './spoke/spokes-batch25-15to21';
+import { spokesBatch25_22to28 } from './spoke/spokes-batch25-22to28';
+import { spokesBatch25_29to35 } from './spoke/spokes-batch25-29to35';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -283,6 +303,26 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch21_15to21,
   ...spokesBatch21_22to28,
   ...spokesBatch21_29to35,
+  ...spokesBatch22_1to7,
+  ...spokesBatch22_8to14,
+  ...spokesBatch22_15to21,
+  ...spokesBatch22_22to28,
+  ...spokesBatch22_29to35,
+  ...spokesBatch23_1to7,
+  ...spokesBatch23_8to14,
+  ...spokesBatch23_15to21,
+  ...spokesBatch23_22to28,
+  ...spokesBatch23_29to35,
+  ...spokesBatch24_1to7,
+  ...spokesBatch24_8to14,
+  ...spokesBatch24_15to21,
+  ...spokesBatch24_22to28,
+  ...spokesBatch24_29to35,
+  ...spokesBatch25_1to7,
+  ...spokesBatch25_8to14,
+  ...spokesBatch25_15to21,
+  ...spokesBatch25_22to28,
+  ...spokesBatch25_29to35,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {

@@ -47,6 +47,7 @@ POST_PUBLISH_WAIT_MAX = 90000
 
 CTA_TEXT = "내 상황 무료로 정리하기"
 CTA_BASE_URL = "https://www.lawnguide.co.kr/chat"
+NAVER_REGISTRY_FILE = "naver_url_registry.json"
 
 
 # ── 마크다운 → 순수 텍스트 변환 ──────────────────────
@@ -201,6 +202,12 @@ def parse_md_file(filepath: str) -> dict:
     # CTA 링크 텍스트/URL 제거 (본문에서 — 별도 OG링크로 삽입)
     body = re.sub(r'👉\s*로앤가이드에서.*$', '', body, flags=re.MULTILINE)
     body = re.sub(r'🔗\s*lawnguide\.co\.kr\s*$', '', body, flags=re.MULTILINE)
+    # 관련글 섹션 분리 (CTA 뒤에 별도 삽입)
+    related_links = ""
+    related_match = re.search(r'📎\s*\**관련글 더보기\**.*$', body, flags=re.DOTALL)
+    if related_match:
+        related_links = related_match.group(0).strip()
+        body = body[:related_match.start()].strip()
     body = re.sub(r'\n{3,}', '\n\n', body).strip()
 
     # 태그 정리: 슬래시 분리 → 특수문자 제거 → 중복 제거
@@ -228,6 +235,7 @@ def parse_md_file(filepath: str) -> dict:
     return {
         'title': title[:100],
         'body': body,
+        'related_links': related_links,
         'tags': tags,
         'filename': os.path.basename(filepath),
         'domain': domain_val
@@ -549,15 +557,39 @@ async def input_tags(page, tags: list) -> bool:
     return entered > 0
 
 
-# ── CTA 링크 삽입 (OG링크 카드) ──────────────────────
-CTA_INTRO_LINES = [
-    "",
-    "━━━━━━━━━━━━━━━━━━━━",
-    "",
-    "💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.",
-    "",
-]
-CTA_FOOTER_LINE = "👉 내 상황 무료로 정리하기"
+# ── CTA 링크 삽입 ────────────────────────────────────
+DOMAIN_CTA_TEXT = {
+    "fraud": "💬 사기 피해 대응 전략, AI가 빠르게 정리해드립니다.",
+    "assault": "💬 폭행 사건 대응 방향, AI가 빠르게 분석해드립니다.",
+    "sex-crime": "💬 성범죄 사건 초기 대응, AI가 빠르게 정리해드립니다.",
+    "divorce": "💬 이혼 절차와 재산분할, AI가 빠르게 정리해드립니다.",
+    "dui": "💬 음주운전 처벌과 대응 전략, AI가 빠르게 분석해드립니다.",
+    "dismissal": "💬 부당해고 구제 방법, AI가 빠르게 정리해드립니다.",
+    "wage": "💬 임금체불 대응 전략, AI가 빠르게 정리해드립니다.",
+    "retirement": "💬 퇴직금 계산과 청구 방법, AI가 빠르게 분석해드립니다.",
+    "stalking": "💬 스토킹 피해 대응 절차, AI가 빠르게 정리해드립니다.",
+    "drug-crime": "💬 마약 사건 대응 방향, AI가 빠르게 분석해드립니다.",
+    "inheritance": "💬 상속 문제 정리, AI가 빠르게 분석해드립니다.",
+    "jeonse": "💬 전세 보증금 문제, AI가 빠르게 정리해드립니다.",
+    "jeonse-fraud": "💬 전세사기 피해 대응, AI가 빠르게 정리해드립니다.",
+    "bankruptcy": "💬 파산·면책 절차, AI가 빠르게 분석해드립니다.",
+    "rehabilitation": "💬 개인회생 절차, AI가 빠르게 분석해드립니다.",
+    "traffic-accident": "💬 교통사고 보상 전략, AI가 빠르게 정리해드립니다.",
+    "child-support": "💬 양육비 청구 방법, AI가 빠르게 정리해드립니다.",
+    "unemployment": "💬 실업급여 수급 조건, AI가 빠르게 분석해드립니다.",
+    "defamation": "💬 명예훼손 대응 전략, AI가 빠르게 분석해드립니다.",
+    "digital-sex-crime": "💬 디지털성범죄 대응 절차, AI가 빠르게 정리해드립니다.",
+    "sexual-harassment": "💬 직장 내 성희롱 대응, AI가 빠르게 정리해드립니다.",
+    "neighbor-dispute": "💬 이웃 분쟁 해결 방법, AI가 빠르게 정리해드립니다.",
+    "school-violence": "💬 학교폭력 대응 전략, AI가 빠르게 분석해드립니다.",
+    "small-claims": "💬 소액소송 절차, AI가 빠르게 정리해드립니다.",
+    "sangga": "💬 상가임대차 분쟁 대응, AI가 빠르게 정리해드립니다.",
+    "prostitution": "💬 성매매 사건 대응, AI가 빠르게 분석해드립니다.",
+    "real-estate-sale": "💬 부동산 매매 분쟁 대응, AI가 빠르게 정리해드립니다.",
+    "real-estate-auction": "💬 부동산 경매 절차, AI가 빠르게 분석해드립니다.",
+    "child-sex-crime": "💬 아동 성범죄 피해 대응, AI가 빠르게 정리해드립니다.",
+}
+CTA_DEFAULT = "💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다."
 
 
 def get_cta_url(domain: str = "") -> str:
@@ -567,23 +599,88 @@ def get_cta_url(domain: str = "") -> str:
     return CTA_BASE_URL
 
 
-async def type_cta_intro(page):
-    """CTA OG링크 삽입 전 소개글 입력"""
-    for line in CTA_INTRO_LINES:
+async def type_single_cta(page, domain: str = ""):
+    """구분선 + 도메인별 CTA 문구 + URL 텍스트 (1회만 사용)"""
+    cta_text = DOMAIN_CTA_TEXT.get(domain, CTA_DEFAULT)
+    cta_url = get_cta_url(domain)
+
+    lines = [
+        "",
+        "━━━━━━━━━━━━━━━━━━━━",
+        "",
+        cta_text,
+        f"👉 내 상황 AI로 무료 정리하기 → {cta_url}",
+    ]
+
+    for line in lines:
         if line:
             await page.keyboard.type(line, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
         await page.keyboard.press('Enter')
         await page.wait_for_timeout(random.randint(150, 300))
-    print("    📝 CTA 소개글 입력 완료")
 
+    print(f"    📝 CTA 입력 완료: {cta_url}")
+
+
+# 이전 함수 호환용 (삭제 예정 코드에서 참조될 수 있음)
+async def type_cta_intro(page):
+    pass
 
 async def type_cta_footer(page):
-    """CTA OG링크 삽입 후 하단 문구 입력"""
-    await page.keyboard.press('Enter')
-    await page.wait_for_timeout(200)
-    await page.keyboard.type(CTA_FOOTER_LINE, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
-    await page.wait_for_timeout(random.randint(150, 300))
-    print("    📝 CTA 하단 문구 입력 완료")
+    pass
+
+
+# ── 네이버 URL 레지스트리 ─────────────────────────────
+def load_naver_registry() -> dict:
+    """발행된 네이버 블로그 글의 URL 레지스트리 로드"""
+    if os.path.exists(NAVER_REGISTRY_FILE):
+        with open(NAVER_REGISTRY_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def save_naver_registry(registry: dict):
+    """URL 레지스트리 저장"""
+    with open(NAVER_REGISTRY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(registry, f, ensure_ascii=False, indent=2)
+
+
+def get_related_posts_text(current_filename: str, current_domain: str, registry: dict) -> str:
+    """같은 도메인의 발행된 네이버 글 2~3개를 '관련 글 더 보기' 텍스트로 생성
+    네이버는 텍스트 타이핑 방식이라 제목만 표시 (URL 없어도 OK)"""
+    if not current_domain:
+        return ""
+    candidates = []
+    for fname, info in registry.items():
+        if fname == current_filename:
+            continue
+        if info.get('domain') == current_domain and info.get('published'):
+            candidates.append(info)
+    if not candidates:
+        return ""
+    selected = candidates[:3]
+    lines = ["\n📌 관련 글 더 보기"]
+    for post in selected:
+        lines.append(f"• {post['title']}")
+    return "\n".join(lines)
+
+
+def build_naver_domain_map() -> dict:
+    """content/blog/*.md에서 filename → {domain, title} 매핑"""
+    domain_map = {}
+    for fp in glob.glob(os.path.join(CONTENT_DIR, '*.md')):
+        fname = os.path.basename(fp)
+        with open(fp, 'r', encoding='utf-8') as f:
+            content = f.read()
+        fm_match = re.match(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+        if fm_match:
+            dm = re.search(r'^domain:\s*["\']?(.+?)["\']?\s*$', fm_match.group(1), re.MULTILINE)
+            tm = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', fm_match.group(1), re.MULTILINE)
+            if dm:
+                domain_map[fname] = {
+                    'domain': dm.group(1).strip(),
+                    'title': tm.group(1).strip() if tm else fname.replace('.md', ''),
+                }
+    return domain_map
 
 
 async def insert_cta_link(page, domain: str = "") -> bool:
@@ -1141,14 +1238,15 @@ async def upload_tip_cards(page, post_filename: str) -> int:
 
 
 # ── 글 작성 + 발행 ───────────────────────────────────
-async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id: str) -> dict:
+async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id: str, url_registry: dict = None) -> dict:
     """단일 글 작성 및 발행"""
     result = {
         'filename': post['filename'],
         'title': post['title'],
         'scheduled_time': scheduled_time.isoformat(),
         'status': 'unknown',
-        'error': None
+        'error': None,
+        'url': None
     }
 
     try:
@@ -1299,12 +1397,7 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
         print(f"    📄 본문 입력 완료 ({total_chars}자)")
         await page.wait_for_timeout(random.randint(1000, 2000))
 
-        # CTA 소개글 + 링크 삽입 (1차)
         post_domain = post.get('domain', '')
-        await type_cta_intro(page)
-        await insert_cta_link(page, domain=post_domain)
-        await type_cta_footer(page)
-        await page.wait_for_timeout(random.randint(500, 1000))
 
         # 팁카드 이미지 업로드
         await page.keyboard.press('Enter')
@@ -1314,10 +1407,36 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
         await upload_tip_cards(page, post['filename'])
         await page.wait_for_timeout(random.randint(500, 1000))
 
-        # CTA 소개글 + 링크 삽입 (2차)
-        await type_cta_intro(page)
-        await insert_cta_link(page, domain=post_domain)
-        await type_cta_footer(page)
+        # CTA 1회만 삽입 (구분선 + 도메인별 문구 + URL)
+        await type_single_cta(page, domain=post_domain)
+        await page.wait_for_timeout(random.randint(500, 1000))
+
+        # 관련글 더보기: CTA 아래에 간격 두고 삽입 (MD에서 분리된 related_links 사용)
+        # OG 카드 방지: 관련글 URL 입력 후 Escape로 OG 프리뷰 닫기
+        related_links = post.get('related_links', '')
+        if related_links:
+            try:
+                # CTA와 관련글 사이 빈 줄 3개
+                for _ in range(3):
+                    await page.keyboard.press('Enter')
+                    await page.wait_for_timeout(200)
+                for line in related_links.split('\n'):
+                    stripped = line.strip()
+                    if not stripped:
+                        await page.keyboard.press('Enter')
+                        await page.wait_for_timeout(200)
+                        continue
+                    await page.keyboard.type(stripped, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
+                    await page.keyboard.press('Enter')
+                    await page.wait_for_timeout(random.randint(300, 500))
+                    # URL 라인이면 OG 카드 자동생성 방지 (Escape)
+                    if stripped.startswith('http'):
+                        await page.wait_for_timeout(1000)
+                        await page.keyboard.press('Escape')
+                        await page.wait_for_timeout(300)
+                print(f"    🔗 관련글 더보기 삽입 완료")
+            except Exception as e:
+                print(f"    ⚠️ 관련글 삽입 실패: {str(e)[:50]}")
         await page.wait_for_timeout(random.randint(500, 1000))
 
         await dismiss_all_popups(page)
@@ -1336,6 +1455,15 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
             await dismiss_all_popups(page)
 
             result['status'] = 'published' if final_clicked else 'panel_opened'
+            # 발행 후 URL 캡처 시도
+            if final_clicked:
+                try:
+                    await page.wait_for_timeout(3000)
+                    current_url = page.url
+                    if 'blog.naver.com' in current_url and 'postwrite' not in current_url:
+                        result['url'] = current_url
+                except Exception:
+                    pass
         else:
             saved = await try_temp_save(page)
             result['status'] = 'temp_saved' if saved else 'failed'
@@ -1503,14 +1631,34 @@ async def main():
 
         print(f"\n{'='*50}")
 
+        # URL 레지스트리 로드 + 도메인 맵 빌드
+        naver_registry = load_naver_registry()
+        file_domain_map = build_naver_domain_map()
+        for fname, info in file_domain_map.items():
+            if fname not in naver_registry:
+                naver_registry[fname] = info
+            else:
+                naver_registry[fname].setdefault('domain', info.get('domain', ''))
+                naver_registry[fname].setdefault('title', info.get('title', ''))
+        print(f"  📋 네이버 URL 레지스트리: {sum(1 for v in naver_registry.values() if v.get('url'))}개 URL 보유")
+
         for i, post in enumerate(posts):
             print(f"\n[{i+1}/{len(posts)}] {post['filename']}")
 
-            result = await write_and_publish(page, post, now, BLOG_ID)
+            result = await write_and_publish(page, post, now, BLOG_ID, url_registry=naver_registry)
             results.append(result)
 
             status_emoji = {'published': '✅', 'temp_saved': '💾', 'failed': '❌', 'error': '❌'}.get(result['status'], '❓')
             print(f"  {status_emoji} 결과: {result['status']}")
+
+            # 발행 성공 시 레지스트리 업데이트
+            if result['status'] == 'published' and result.get('url'):
+                naver_registry[post['filename']] = {
+                    'domain': post.get('domain', ''),
+                    'title': post['title'],
+                    'url': result['url']
+                }
+                save_naver_registry(naver_registry)
 
             with open(RESULTS_FILE, 'w', encoding='utf-8') as f:
                 json.dump(results, f, ensure_ascii=False, indent=2)

@@ -21,12 +21,27 @@
 - 공감 도입 2~3줄
 - 핵심 팁 3개 (왜 중요 + 쉬운 설명 + 바로 할 일 + 흔한 실수)
 - 판례 1개, 3줄 공식
-- CTA: "💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다." + "👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain={도메인}"
+- CTA: 본문에 CTA 텍스트 넣지 않음 (publish 스크립트가 자동 삽입, OG카드 포함)
+- 관련글 더보기: 본문 맨 아래에 배치 (스크립트가 CTA 아래 세 줄 간격 후 자동 배치)
+  - 헤더: `🔗 관련글 더보기`
+  - 관련 스포크 2개 링크 (같은 주제 금지, 반드시 다른 주제만)
+  - 제목과 URL을 별도 줄에 배치:
+    ```
+    🔗 관련글 더보기
+    • 제목1
+    https://www.lawnguide.co.kr/guide/{domain}/{slug1}
+    • 제목2
+    https://www.lawnguide.co.kr/guide/{domain}/{slug2}
+    ```
+  - 관련글 URL에는 OG 카드 방지 (스크립트가 Escape 처리)
+  - `→` 로 제목과 URL 이어붙이지 않음 (줄바꿈 필수)
+  - 마크다운 링크 `[text](url)` 사용 금지
 - 톤: 구어체
-- 제목 후보 3개, 태그 5~10개
+- 제목 후보는 frontmatter(title_alt_1, title_alt_2)에만 기재, 본문에 넣지 않음
+- 태그 5~10개
 - SEO 스포크 복붙 금지
 
-### 티스토리 블로그 (하루 10개)
+### 티스토리 블로그 (하루 15개)
 - content/tistory/ 폴더
 - 네이버 블로그와 같은 주제
 - 제목: 같은 키워드, 다른 표현
@@ -39,7 +54,7 @@
 ### 발행 명령어
 - 썸네일 생성: python generate_thumbnails_lawnguide.py
 - 네이버 발행: python publish_lawnguide.py --all
-- 티스토리 발행: python publish_tistory.py --limit 10
+- 티스토리 발행: python publish_tistory.py --limit 15
 
 ### 규칙
 - 가해자: "혐의를 받고 있다면"
