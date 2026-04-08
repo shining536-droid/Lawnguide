@@ -202,12 +202,8 @@ def parse_md_file(filepath: str) -> dict:
     # CTA 링크 텍스트/URL 제거 (본문에서 — 별도 OG링크로 삽입)
     body = re.sub(r'👉\s*로앤가이드에서.*$', '', body, flags=re.MULTILINE)
     body = re.sub(r'🔗\s*lawnguide\.co\.kr\s*$', '', body, flags=re.MULTILINE)
-    # 관련글 섹션 분리 (CTA 뒤에 별도 삽입)
-    related_links = ""
-    related_match = re.search(r'[📎🔗]\s*\**관련글 더보기\**.*$', body, flags=re.DOTALL)
-    if related_match:
-        related_links = related_match.group(0).strip()
-        body = body[:related_match.start()].strip()
+    # 관련글 섹션 제거 (네이버/티스토리 블로그에 관련글 넣지 않음)
+    body = re.sub(r'[📎🔗]\s*\**관련글 더보기\**.*$', '', body, flags=re.DOTALL)
     body = re.sub(r'\n{3,}', '\n\n', body).strip()
 
     # 태그 정리: 슬래시 분리 → 특수문자 제거 → 중복 제거
@@ -235,7 +231,6 @@ def parse_md_file(filepath: str) -> dict:
     return {
         'title': title[:100],
         'body': body,
-        'related_links': related_links,
         'tags': tags,
         'filename': os.path.basename(filepath),
         'domain': domain_val
@@ -1411,32 +1406,6 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
         await type_single_cta(page, domain=post_domain)
         await page.wait_for_timeout(random.randint(500, 1000))
 
-        # 관련글 더보기: CTA 아래에 간격 두고 삽입 (MD에서 분리된 related_links 사용)
-        # OG 카드 방지: 관련글 URL 입력 후 Escape로 OG 프리뷰 닫기
-        related_links = post.get('related_links', '')
-        if related_links:
-            try:
-                # CTA와 관련글 사이 빈 줄 3개
-                for _ in range(3):
-                    await page.keyboard.press('Enter')
-                    await page.wait_for_timeout(200)
-                for line in related_links.split('\n'):
-                    stripped = line.strip()
-                    if not stripped:
-                        await page.keyboard.press('Enter')
-                        await page.wait_for_timeout(200)
-                        continue
-                    await page.keyboard.type(stripped, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
-                    await page.keyboard.press('Enter')
-                    await page.wait_for_timeout(random.randint(300, 500))
-                    # URL 라인이면 OG 카드 자동생성 방지 (Escape)
-                    if stripped.startswith('http'):
-                        await page.wait_for_timeout(1000)
-                        await page.keyboard.press('Escape')
-                        await page.wait_for_timeout(300)
-                print(f"    🔗 관련글 더보기 삽입 완료")
-            except Exception as e:
-                print(f"    ⚠️ 관련글 삽입 실패: {str(e)[:50]}")
         await page.wait_for_timeout(random.randint(500, 1000))
 
         await dismiss_all_popups(page)
