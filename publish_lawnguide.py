@@ -204,7 +204,7 @@ def parse_md_file(filepath: str) -> dict:
     body = re.sub(r'🔗\s*lawnguide\.co\.kr\s*$', '', body, flags=re.MULTILINE)
     # 관련글 섹션 분리 (CTA 뒤에 별도 삽입)
     related_links = ""
-    related_match = re.search(r'📎\s*\**관련글 더보기\**.*$', body, flags=re.DOTALL)
+    related_match = re.search(r'[📎🔗]\s*\**관련글 더보기\**.*$', body, flags=re.DOTALL)
     if related_match:
         related_links = related_match.group(0).strip()
         body = body[:related_match.start()].strip()
