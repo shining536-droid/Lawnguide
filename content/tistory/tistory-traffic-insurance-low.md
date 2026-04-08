@@ -49,3 +49,11 @@ naver_pair: "traffic-insurance-low-offer-blog.md"
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=traffic-accident
+
+🔗 관련글 더보기
+
+• 교통사고 후유증 치료비 청구 안내
+https://www.lawnguide.co.kr/guide/traffic-accident/traffic-accident-aftereffect-treatment-claim
+
+• 교통사고 합의 전 체크리스트
+https://www.lawnguide.co.kr/guide/traffic-accident/accident-settlement-checklist

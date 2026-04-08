@@ -49,3 +49,11 @@ naver_pair: "unemployment-contract-expiry-apply-blog.md"
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=unemployment
+
+🔗 관련글 더보기
+
+• 실업급여 신청 필요 서류 체크리스트
+https://www.lawnguide.co.kr/guide/unemployment/application-required-documents-checklist
+
+• 계약 만료 실업급여 수급 안내
+https://www.lawnguide.co.kr/guide/unemployment/contract-expiry-unemployment-benefit

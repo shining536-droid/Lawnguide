@@ -49,3 +49,11 @@ naver_pair: "fraud-voice-phishing-freeze-blog.md"
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=fraud
+
+🔗 관련글 더보기
+
+• 보이스피싱 즉시 대응 매뉴얼
+https://www.lawnguide.co.kr/guide/fraud/voice-phishing-immediate-response
+
+• 사기 피해 어디서부터 시작할까
+https://www.lawnguide.co.kr/guide/fraud/fraud-victim-where-to-start

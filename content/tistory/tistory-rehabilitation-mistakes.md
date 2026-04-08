@@ -49,3 +49,11 @@ naver_pair: "rehabilitation-pre-application-mistakes-blog.md"
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=rehabilitation
+
+🔗 관련글 더보기
+
+• 회생 신청 전 자가진단 체크리스트
+https://www.lawnguide.co.kr/guide/rehabilitation/rehabilitation-pre-check
+
+• 개인회생 신청 절차 A to Z
+https://www.lawnguide.co.kr/guide/rehabilitation/rehabilitation-application-procedure-atoz

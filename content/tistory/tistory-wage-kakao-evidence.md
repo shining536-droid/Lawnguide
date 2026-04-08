@@ -49,3 +49,11 @@ naver_pair: "wage-kakao-bank-evidence-blog.md"
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=wage
+
+🔗 관련글 더보기
+
+• 임금체불 증거 체크리스트
+https://www.lawnguide.co.kr/guide/wage/unpaid-wage-evidence-checklist
+
+• 임금체불 어디서부터 시작할까
+https://www.lawnguide.co.kr/guide/wage/unpaid-wage-where-to-start

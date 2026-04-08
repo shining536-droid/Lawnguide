@@ -49,3 +49,11 @@ naver_pair: "divorce-debt-division-blog.md"
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=divorce
+
+🔗 관련글 더보기
+
+• 재산분할 비율 산정 방법
+https://www.lawnguide.co.kr/guide/divorce/property-division-ratio
+
+• 이혼 재산분할 범위 FAQ
+https://www.lawnguide.co.kr/guide/divorce/divorce-property-division-scope-faq

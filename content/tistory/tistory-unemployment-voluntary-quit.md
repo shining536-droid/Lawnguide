@@ -49,3 +49,11 @@ naver_pair: "unemployment-voluntary-quit-approved-blog.md"
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=unemployment
+
+🔗 관련글 더보기
+
+• 실업급여 수급 요건 확인하기
+https://www.lawnguide.co.kr/guide/unemployment/unemployment-benefit-requirements
+
+• 자진퇴사 후 실업급여 받을 수 있는 조건
+https://www.lawnguide.co.kr/guide/unemployment/voluntary-quit-unemployment-eligibility

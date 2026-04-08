@@ -49,3 +49,11 @@ naver_pair: "dismissal-probation-unfair-cases-blog.md"
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=dismissal
+
+🔗 관련글 더보기
+
+• 수습 기간 해고의 적법성 판단 기준
+https://www.lawnguide.co.kr/guide/dismissal/probation-dismissal-legality
+
+• 부당해고 구제신청 절차 안내
+https://www.lawnguide.co.kr/guide/dismissal/unfair-dismissal-relief-procedure
