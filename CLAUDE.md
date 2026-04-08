@@ -12,6 +12,7 @@
 - 메타 타이틀: 30~45자 ("| 로앤가이드" 포함), 숫자 필수
 - 메타 디스크립션: 80~120자, 사용자 고민으로 시작, "지금 확인하세요"로 끝
 - git push 전 반드시 `cd web && npx next build` 성공 확인. 빌드 실패 시 push 금지
+- push 전 `git status`로 web/ 내 untracked 파일 중 import되는 파일이 없는지 확인. 누락 시 git add 후 push
 
 ### 네이버 블로그 (하루 35개)
 - content/blog/ 폴더
