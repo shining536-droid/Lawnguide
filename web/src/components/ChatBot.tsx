@@ -261,7 +261,87 @@ const DOMAIN_REFLECTIONS: Record<string, Record<string, string>> = {
   },
 };
 
+/* ─────────────── 주요 판단 요소 (도메인별) ─────────────── */
+
+const DOMAIN_JUDGMENT_FACTORS: Record<string, string[]> = {
+  fraud: [
+    '처음부터 갚을 의사가 있었는지',
+    '설명이 사실과 달랐는지',
+    '변제 시도가 있었는지',
+  ],
+  defamation: [
+    '사실 적시인지 허위인지',
+    '공연성이 있는지',
+    '공익 목적 여지가 있는지',
+  ],
+  stalking: [
+    '반복성이 인정되는지',
+    '상대방 의사에 반한 연락인지',
+    '불안감 유발 여부',
+  ],
+  assault: [
+    '정당방위 여부',
+    '상해 정도',
+    '선제 폭행 여부',
+  ],
+  divorce: [
+    '혼인 파탄 사유',
+    '유책배우자 여부',
+    '자녀 양육 환경',
+  ],
+  dui: [
+    '혈중알코올농도(BAC) 수치',
+    '사고 동반 여부',
+    '음주운전 전력',
+  ],
+  'jeonse-fraud': [
+    '시세 대비 보증금 비율',
+    '근저당 설정 여부',
+    '임대인 다주택 여부',
+  ],
+  jeonse: [
+    '보증보험 가입 여부',
+    'HUG 사전심사 통과 여부',
+    '등기부등본 확인 여부',
+  ],
+  'sex-crime': [
+    '동의 여부',
+    '증거 확보 상태',
+    '피해자-가해자 관계',
+  ],
+  'drug-crime': [
+    '투약 / 소지 / 매매 구분',
+    '초범 여부',
+    '자수 여부',
+  ],
+  'school-violence': [
+    '반복성이 인정되는지',
+    '증거 확보 상태',
+    '학교 측 조치 이력',
+  ],
+  'digital-sex-crime': [
+    '유포 여부',
+    '촬영 동의 여부',
+    '피해 확산 범위',
+  ],
+};
+
 /* ─────────────── Perspective mapping helpers ─────────────── */
+
+/** Resolve factChecks array: try "perspective:subtype" key first, fallback to "perspective" */
+function resolveFactChecks(
+  sData: SubtypeData,
+  perspectiveKey: string,
+  subtypeId: string | null,
+): FactCheckItem[] {
+  if (subtypeId) {
+    const compositeKey = `${perspectiveKey}:${subtypeId}`;
+    if (sData.factChecks?.[compositeKey]) {
+      return sData.factChecks[compositeKey];
+    }
+  }
+  return sData.factChecks?.[perspectiveKey] ?? sData.factChecks?.['victim'] ?? [];
+}
 
 /** Map English factCheck IDs to Korean labels by looking up the question text */
 function factCheckIdToKorean(
@@ -269,11 +349,12 @@ function factCheckIdToKorean(
   domain: string | null,
   perspectiveKey: string | null,
   subtypesData: Record<string, SubtypeData>,
+  subtypeId?: string | null,
 ): string {
   if (!domain || !perspectiveKey) return id;
   const sData = subtypesData[domain];
   if (!sData) return id;
-  const checks = sData.factChecks?.[perspectiveKey] ?? sData.factChecks?.['victim'] ?? [];
+  const checks = resolveFactChecks(sData, perspectiveKey, subtypeId ?? null);
   const found = checks.find((c: FactCheckItem) => c.id === id);
   if (found) {
     // Extract short label from question text (first noun phrase)
@@ -893,14 +974,14 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
       showFactCheckQuestion(selectedPerspectiveKey, 0);
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [selectedPerspectiveKey, currentSubtypeData, addMessageImmediate, addBotMessage],
+    [selectedPerspectiveKey, currentSubtypeData, selectedSubtype, addMessageImmediate, addBotMessage],
   );
 
   /** Show a fact-check question */
   const showFactCheckQuestion = useCallback(
     (perspKey: string, index: number) => {
       if (!currentSubtypeData) return;
-      const factChecks = currentSubtypeData.factChecks[perspKey];
+      const factChecks = resolveFactChecks(currentSubtypeData, perspKey, selectedSubtype);
       if (!factChecks || index >= factChecks.length) {
         // No more fact checks, go to evidence
         showEvidenceStep(perspKey);
@@ -941,7 +1022,7 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
       }
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [currentSubtypeData, addBotMessage],
+    [currentSubtypeData, selectedSubtype, addBotMessage],
   );
 
   /** Handle fact-check answer */
@@ -949,8 +1030,8 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
     (value: string) => {
       if (!selectedPerspectiveKey || !currentSubtypeData) return;
 
-      const factChecks = currentSubtypeData.factChecks[selectedPerspectiveKey];
-      if (!factChecks) return;
+      const factChecks = resolveFactChecks(currentSubtypeData, selectedPerspectiveKey, selectedSubtype);
+      if (!factChecks || factChecks.length === 0) return;
 
       const fc = factChecks[factCheckIndex];
       if (!fc) return;
@@ -972,7 +1053,7 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
       }
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [selectedPerspectiveKey, currentSubtypeData, factCheckIndex, factAnswers, addMessageImmediate],
+    [selectedPerspectiveKey, currentSubtypeData, selectedSubtype, factCheckIndex, factAnswers, addMessageImmediate],
   );
 
   /** Show evidence checklist step */
@@ -1789,7 +1870,7 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
                     </h4>
                     <div className="space-y-3">
                       {Object.entries(msg.subtypeResult.factAnswers).map(([key, val]) => {
-                        const koreanLabel = factCheckIdToKorean(key, selectedDomain, selectedPerspectiveKey, subtypesData);
+                        const koreanLabel = factCheckIdToKorean(key, selectedDomain, selectedPerspectiveKey, subtypesData, selectedSubtype);
                         const comment = getFactComment(key, val);
                         return (
                           <div key={key}>
@@ -1816,6 +1897,24 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
                     <p className="text-[12px] text-gray-400 mt-2">관련 법률: {msg.subtypeResult.legalBasis}</p>
                   )}
                 </div>
+
+                {/* 5.5 주요 판단 요소 */}
+                {selectedDomain && DOMAIN_JUDGMENT_FACTORS[selectedDomain] && (
+                  <div className="px-6 py-5 border-b border-gray-100">
+                    <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
+                      <span>🔍</span> 주요 판단 요소
+                    </h4>
+                    <p className="text-[12px] text-gray-400 mb-3">보통 이런 요소가 함께 검토됩니다</p>
+                    <div className="space-y-2">
+                      {DOMAIN_JUDGMENT_FACTORS[selectedDomain].map((factor, i) => (
+                        <div key={i} className="flex items-start gap-2.5">
+                          <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-primary-50 text-primary-600 flex items-center justify-center text-[11px] font-bold">✓</span>
+                          <span className="text-[14px] text-gray-700">{factor}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 {/* 6. 무료기관 + CTA */}
                 <div className="px-6 py-5 border-b border-gray-100">
