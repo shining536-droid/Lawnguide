@@ -193,6 +193,12 @@ import { spokesBatch26_34to35 } from './spoke/spokes-batch26-34to35';
 import { spokesBatch26Extra_1to5 } from './spoke/spokes-batch26-extra-1to5';
 import { spokesBatch26Extra_6to9 } from './spoke/spokes-batch26-extra-6to9';
 import { spokesBatch26Extra_10to13 } from './spoke/spokes-batch26-extra-10to13';
+import { spokesBatch27Pogual_1to5 } from './spoke/spokes-batch27-pogual-1to5';
+import { spokesBatch27Unemployment_1to5 } from './spoke/spokes-batch27-unemployment-1to5';
+import { spokesBatch27Unemployment_6to10 } from './spoke/spokes-batch27-unemployment-6to10';
+import { spokesBatch27RetirementWage } from './spoke/spokes-batch27-retirement-wage';
+import { spokesBatch27DismissalTraffic } from './spoke/spokes-batch27-dismissal-traffic';
+import { spokesBatch27Misc } from './spoke/spokes-batch27-misc';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -343,6 +349,12 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch26Extra_1to5,
   ...spokesBatch26Extra_6to9,
   ...spokesBatch26Extra_10to13,
+  ...spokesBatch27Pogual_1to5,
+  ...spokesBatch27Unemployment_1to5,
+  ...spokesBatch27Unemployment_6to10,
+  ...spokesBatch27RetirementWage,
+  ...spokesBatch27DismissalTraffic,
+  ...spokesBatch27Misc,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {

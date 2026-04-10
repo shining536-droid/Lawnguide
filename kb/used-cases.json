@@ -7527,5 +7527,125 @@
     "type": "사례형",
     "channel": "tistory",
     "slug": "tistory-wage-pogual-bakery-case"
+  },
+  {
+    "판례ID": "NLRC-2022-경기-손해",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "wage-pogual-anon-report-how"
+  },
+  {
+    "판례ID": "NLRC-2022-경기-손해",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver-blog",
+    "slug": "wage-pogual-anon-report-how-blog"
+  },
+  {
+    "판례ID": "NLRC-2022-경기-손해",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "tistory-wage-pogual-anon-report-how"
+  },
+  {
+    "판례ID": "96나13575",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "wage-pogual-retired-backpay"
+  },
+  {
+    "판례ID": "96나13575",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver-blog",
+    "slug": "wage-pogual-retired-backpay-blog"
+  },
+  {
+    "판례ID": "96나13575",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "tistory-wage-pogual-retired-backpay"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "자가진단형",
+    "channel": "seo",
+    "slug": "wage-pogual-minimum-wage-test"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "자가진단형",
+    "channel": "naver-blog",
+    "slug": "wage-pogual-minimum-wage-test-blog"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "자가진단형",
+    "channel": "tistory",
+    "slug": "tistory-wage-pogual-minimum-wage-test"
+  },
+  {
+    "판례ID": "NLRC-2022-경북-손해",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "wage-pogual-inspection-prepare"
+  },
+  {
+    "판례ID": "NLRC-2022-경북-손해",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver-blog",
+    "slug": "wage-pogual-inspection-prepare-blog"
+  },
+  {
+    "판례ID": "NLRC-2022-경북-손해",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "tistory-wage-pogual-inspection-prepare"
+  },
+  {
+    "판례ID": "96다24699",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "wage-pogual-contract-renegotiation"
+  },
+  {
+    "판례ID": "96다24699",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver-blog",
+    "slug": "wage-pogual-contract-renegotiation-blog"
+  },
+  {
+    "판례ID": "96다24699",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "tistory",
+    "slug": "tistory-wage-pogual-contract-renegotiation"
   }
 ]
