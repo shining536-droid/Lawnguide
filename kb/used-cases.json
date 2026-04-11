@@ -7647,5 +7647,325 @@
     "type": "절차형",
     "channel": "tistory",
     "slug": "tistory-wage-pogual-contract-renegotiation"
+  },
+  {
+    "caseId": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "신청절차형",
+    "channel": "spoke",
+    "slug": "unemployment-construction-daily-apply"
+  },
+  {
+    "caseId": "2018두63235",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "수급조건형",
+    "channel": "spoke",
+    "slug": "unemployment-60-retirement-benefit"
+  },
+  {
+    "caseId": "2018도2429",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "제도안내형",
+    "channel": "spoke",
+    "slug": "unemployment-dual-job-one-lost"
+  },
+  {
+    "caseId": "2018누1338",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "spoke",
+    "slug": "unemployment-foreign-worker-eligibility"
+  },
+  {
+    "caseId": "2014구합1590",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "동시청구형",
+    "channel": "spoke",
+    "slug": "unemployment-company-bankrupt-double-claim"
+  },
+  {
+    "caseId": "2018도2429",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "반복수급형",
+    "channel": "spoke",
+    "slug": "unemployment-repeat-claim-limit"
+  },
+  {
+    "caseId": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "구직활동형",
+    "channel": "spoke",
+    "slug": "unemployment-online-class-job-search"
+  },
+  {
+    "caseId": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "통근곤란형",
+    "channel": "spoke",
+    "slug": "unemployment-commute-hardship-quit"
+  },
+  {
+    "caseId": "2021다248299",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "파트타임형",
+    "channel": "spoke",
+    "slug": "retirement-part-time-eligibility"
+  },
+  {
+    "caseId": "2022다255454",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "출산육아형",
+    "channel": "spoke",
+    "slug": "retirement-maternity-leave-included"
+  },
+  {
+    "caseId": "2025다214605",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "소규모형",
+    "channel": "spoke",
+    "slug": "retirement-small-business-5"
+  },
+  {
+    "caseId": "2021다248299",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "성과급형",
+    "channel": "spoke",
+    "slug": "retirement-bonus-performance-included"
+  },
+  {
+    "caseId": "2025구합54475",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "외국인형",
+    "channel": "spoke",
+    "slug": "retirement-foreign-worker-claim"
+  },
+  {
+    "caseId": "2025다214605",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "폐업형",
+    "channel": "spoke",
+    "slug": "retirement-company-closure-claim"
+  },
+  {
+    "caseId": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "소규모형",
+    "channel": "spoke",
+    "slug": "wage-unpaid-small-under5"
+  },
+  {
+    "caseId": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "체당금형",
+    "channel": "spoke",
+    "slug": "wage-unpaid-bankrupt-deposit"
+  },
+  {
+    "caseId": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "외국인형",
+    "channel": "spoke",
+    "slug": "wage-unpaid-foreign-worker"
+  },
+  {
+    "caseId": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "인턴형",
+    "channel": "spoke",
+    "slug": "wage-unpaid-intern-trainee"
+  },
+  {
+    "caseId": "2021다248299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "커미션형",
+    "channel": "spoke",
+    "slug": "wage-unpaid-commission-sales"
+  },
+  {
+    "caseId": "2021다248299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "IT개발자형",
+    "channel": "spoke",
+    "slug": "wage-pogual-it-developer"
+  },
+  {
+    "caseId": "2022다255454",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "신입사원형",
+    "channel": "spoke",
+    "slug": "wage-pogual-new-employee-check"
+  },
+  {
+    "caseId": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "운수업형",
+    "channel": "spoke",
+    "slug": "wage-pogual-driver-transport"
+  },
+  {
+    "caseId": "2022다255454",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "간호사형",
+    "channel": "spoke",
+    "slug": "wage-pogual-hospital-nurse"
+  },
+  {
+    "caseId": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "음식점형",
+    "channel": "spoke",
+    "slug": "wage-pogual-restaurant-worker"
+  },
+  {
+    "caseId": "2023두54914",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "임신보호형",
+    "channel": "spoke",
+    "slug": "dismissal-pregnancy-protection"
+  },
+  {
+    "caseId": "2025두33276",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "내부고발형",
+    "channel": "spoke",
+    "slug": "dismissal-whistleblower-retaliation"
+  },
+  {
+    "caseId": "2023가합96954",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "알바형",
+    "channel": "spoke",
+    "slug": "dismissal-part-time-unfair"
+  },
+  {
+    "caseId": "2024구합52434",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "징계형",
+    "channel": "spoke",
+    "slug": "dismissal-disciplinary-excessive"
+  },
+  {
+    "caseId": "2025도8137",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "킥보드형",
+    "channel": "spoke",
+    "slug": "traffic-accident-electric-scooter-liability"
+  },
+  {
+    "caseId": "2022다287284",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "주차장형",
+    "channel": "spoke",
+    "slug": "traffic-accident-parking-lot-collision"
+  },
+  {
+    "caseId": "2025도8137",
+    "domain": "traffic-accident",
+    "perspective": "offender",
+    "type": "스쿨존형",
+    "channel": "spoke",
+    "slug": "traffic-accident-school-zone-child"
+  },
+  {
+    "caseId": "2024스876",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "황혼이혼형",
+    "channel": "spoke",
+    "slug": "divorce-gray-over50-property"
+  },
+  {
+    "caseId": "2023스637",
+    "domain": "child-support",
+    "perspective": "victim",
+    "type": "조부모형",
+    "channel": "spoke",
+    "slug": "child-support-grandparent-custody-claim"
+  },
+  {
+    "caseId": "2025므10716",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "접근금지형",
+    "channel": "spoke",
+    "slug": "divorce-restraining-order-protection"
+  },
+  {
+    "caseId": "2023다239756",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "학자금형",
+    "channel": "spoke",
+    "slug": "rehabilitation-student-loan-included"
+  },
+  {
+    "caseId": "2023다316387",
+    "domain": "bankruptcy",
+    "perspective": "victim",
+    "type": "도박빚형",
+    "channel": "spoke",
+    "slug": "bankruptcy-gambling-debt-discharge"
+  },
+  {
+    "caseId": "2025다213466",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "역전세형",
+    "channel": "spoke",
+    "slug": "jeonse-reverse-gap-tenant-response"
+  },
+  {
+    "caseId": "2024다283668",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "경매형",
+    "channel": "spoke",
+    "slug": "jeonse-auction-deposit-priority"
+  },
+  {
+    "caseId": "2023두10313",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "CCTV형",
+    "channel": "spoke",
+    "slug": "neighbor-cctv-privacy-dispute"
+  },
+  {
+    "caseId": "2019가6588",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "공용시설형",
+    "channel": "spoke",
+    "slug": "neighbor-shared-facility-dispute"
   }
 ]
