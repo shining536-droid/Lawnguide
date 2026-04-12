@@ -203,6 +203,11 @@ import { spokesBatch28Unemployment } from './spoke/spokes-batch28-unemployment';
 import { spokesBatch28RetirementWageUnpaid } from './spoke/spokes-batch28-retirement-wage';
 import { spokesBatch28PogualDismissal } from './spoke/spokes-batch28-pogual-dismissal';
 import { spokesBatch28Misc } from './spoke/spokes-batch28-misc';
+import { spokesBatch29Unemployment1 } from './spoke/spokes-batch29-unemployment-1';
+import { spokesBatch29Unemployment2 } from './spoke/spokes-batch29-unemployment-2';
+import { spokesBatch29RetirementWage } from './spoke/spokes-batch29-retirement-wage';
+import { spokesBatch29DismissalPogual } from './spoke/spokes-batch29-dismissal-pogual';
+import { spokesBatch29Misc } from './spoke/spokes-batch29-misc';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -363,6 +368,11 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch28RetirementWageUnpaid,
   ...spokesBatch28PogualDismissal,
   ...spokesBatch28Misc,
+  ...spokesBatch29Unemployment1,
+  ...spokesBatch29Unemployment2,
+  ...spokesBatch29RetirementWage,
+  ...spokesBatch29DismissalPogual,
+  ...spokesBatch29Misc,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {

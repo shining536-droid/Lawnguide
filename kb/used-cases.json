@@ -7967,5 +7967,325 @@
     "type": "공용시설형",
     "channel": "spoke",
     "slug": "neighbor-shared-facility-dispute"
+  },
+  {
+    "판례ID": "2009두22980",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-unpaid-salary-quit"
+  },
+  {
+    "판례ID": "2010두20348",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-contract-end-no-renewal"
+  },
+  {
+    "판례ID": "2012두22904",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-harassment-quit"
+  },
+  {
+    "판례ID": "2008구합8216",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-health-quit"
+  },
+  {
+    "판례ID": "2007구합1972",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-family-care-quit"
+  },
+  {
+    "판례ID": "2007구합3176",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-probation-fired"
+  },
+  {
+    "판례ID": "2009구합47705",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "unemployment-pension-simultaneous"
+  },
+  {
+    "판례ID": "2009누3400",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "unemployment-waiting-7days"
+  },
+  {
+    "판례ID": "2008구합8216",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-reapply-after-expiry"
+  },
+  {
+    "판례ID": "2009두22980",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-night-shift-change-quit"
+  },
+  {
+    "판례ID": "2010두20348",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "unemployment-company-no-separation"
+  },
+  {
+    "판례ID": "2010두20348",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "unemployment-short-term-worker"
+  },
+  {
+    "판례ID": "2021다255853",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "retirement-annual-leave-payout-included"
+  },
+  {
+    "판례ID": "2020다287921",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "retirement-less-than-1year-eligibility"
+  },
+  {
+    "판례ID": "2022다285097",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "retirement-severance-tax-calculation"
+  },
+  {
+    "판례ID": "2020다296819",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "retirement-construction-daily-claim"
+  },
+  {
+    "판례ID": "2020다287921",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "retirement-multiple-employer-calculation"
+  },
+  {
+    "판례ID": "2023다223744",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "unpaid-wage-minimum-wage-violation"
+  },
+  {
+    "판례ID": "2023다223744",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "unpaid-wage-overtime-claim"
+  },
+  {
+    "판례ID": "2020다237117",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "unpaid-wage-after-resignation"
+  },
+  {
+    "판례ID": "2023다316387",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "unpaid-wage-employer-bankruptcy-deposit"
+  },
+  {
+    "판례ID": "2023다300559",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "dismissal-recommended-resign-trap"
+  },
+  {
+    "판례ID": "2024두40493",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "dismissal-parental-leave-fired"
+  },
+  {
+    "판례ID": "2018두62492",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "dismissal-fixed-term-renewal-right"
+  },
+  {
+    "판례ID": "2023두37391",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "dismissal-unfair-evidence-collection"
+  },
+  {
+    "판례ID": "2023다300559",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "dismissal-immediate-fire-conditions"
+  },
+  {
+    "판례ID": "2020다237117",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "wage-pogual-security-guard"
+  },
+  {
+    "판례ID": "2020다237117",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "wage-pogual-academy-teacher"
+  },
+  {
+    "판례ID": "2023다223744",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "wage-pogual-lawsuit-procedure"
+  },
+  {
+    "판례ID": "2024나44829",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "traffic-accident-bicycle-compensation"
+  },
+  {
+    "판례ID": "2025도4428",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "traffic-accident-child-pedestrian-claim"
+  },
+  {
+    "판례ID": "2024나44829",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "traffic-accident-rear-end-fault-ratio"
+  },
+  {
+    "판례ID": "2025스595",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "divorce-child-support-increase"
+  },
+  {
+    "판례ID": "2025스595",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "divorce-visitation-denied-response"
+  },
+  {
+    "판례ID": "2025스595",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "divorce-overseas-asset-division"
+  },
+  {
+    "판례ID": "2023다266031",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "rehabilitation-tax-debt-included"
+  },
+  {
+    "판례ID": "2024다292464",
+    "domain": "bankruptcy",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "bankruptcy-spouse-joint-filing"
+  },
+  {
+    "판례ID": "2023다266031",
+    "domain": "bankruptcy",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "bankruptcy-student-loan-discharge"
+  },
+  {
+    "판례ID": "2024다315046",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "절차타임라인형",
+    "channel": "seo",
+    "slug": "jeonse-renewal-landlord-refusal"
+  },
+  {
+    "판례ID": "2024다284418",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "비교분석형",
+    "channel": "seo",
+    "slug": "jeonse-deposit-priority-competing"
   }
 ]
