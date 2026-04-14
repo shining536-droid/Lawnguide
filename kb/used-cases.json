@@ -9279,5 +9279,789 @@
     "type": "절차형",
     "channel": "seo",
     "slug": "jeonse-broker-liability-failure"
+  },
+  {
+    "판례ID": "2022다255454",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "계산쟁점형",
+    "channel": "naver-blog",
+    "slug": "retirement-average-wage-dispute-blog"
+  },
+  {
+    "판례ID": "2025다214605",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "세무리스크형",
+    "channel": "naver-blog",
+    "slug": "retirement-executive-severance-limit-blog"
+  },
+  {
+    "판례ID": "2025구합54475",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "명예퇴직형",
+    "channel": "naver-blog",
+    "slug": "retirement-honorary-retirement-blog"
+  },
+  {
+    "판례ID": "2020다287921",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "파견직형",
+    "channel": "naver-blog",
+    "slug": "retirement-dispatch-worker-blog"
+  },
+  {
+    "판례ID": "2021다255853",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "유족청구형",
+    "channel": "naver-blog",
+    "slug": "retirement-death-survivors-claim-blog"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "소멸시효형",
+    "channel": "naver-blog",
+    "slug": "retirement-statute-expired-blog"
+  },
+  {
+    "판례ID": "2021다248299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "성과급쟁점형",
+    "channel": "naver-blog",
+    "slug": "wage-performance-bonus-claim-blog"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "최저임금미달형",
+    "channel": "naver-blog",
+    "slug": "wage-comprehensive-minimum-shortfall-blog"
+  },
+  {
+    "판례ID": "2022다255454",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "관행수당형",
+    "channel": "naver-blog",
+    "slug": "wage-practice-allowance-stopped-blog"
+  },
+  {
+    "판례ID": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "소액청구형",
+    "channel": "naver-blog",
+    "slug": "wage-small-amount-lawsuit-blog"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "소멸시효형",
+    "channel": "naver-blog",
+    "slug": "wage-employer-statute-bad-faith-blog"
+  },
+  {
+    "caseId": "2024두54683",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "spoke",
+    "slug": "dismissal-performance-improvement-plan"
+  },
+  {
+    "caseId": "2019두40260",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "spoke",
+    "slug": "dismissal-bullying-report-retaliation"
+  },
+  {
+    "caseId": "2023두57876",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "체크리스트형",
+    "channel": "spoke",
+    "slug": "dismissal-small-business-under5-options"
+  },
+  {
+    "caseId": "2019두40260",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "spoke",
+    "slug": "dismissal-transfer-demotion-constructive"
+  },
+  {
+    "caseId": "2018두43958",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "spoke",
+    "slug": "dismissal-sick-leave-return-fired"
+  },
+  {
+    "caseId": "2024다236754",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "spoke",
+    "slug": "fraud-elderly-voice-phishing-recovery"
+  },
+  {
+    "caseId": "2024도11686",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "체크리스트형",
+    "channel": "spoke",
+    "slug": "fraud-crypto-rug-pull-evidence"
+  },
+  {
+    "caseId": "2022도1862",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "spoke",
+    "slug": "fraud-employment-scam-response"
+  },
+  {
+    "판례ID": "2018다200709",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "retirement-wage-peak-severance"
+  },
+  {
+    "판례ID": "2004다34790",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "retirement-merger-successor-liability"
+  },
+  {
+    "판례ID": "2018다244877",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "retirement-installment-payment-invalid"
+  },
+  {
+    "판례ID": "97다2306",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "retirement-overseas-dispatch-claim"
+  },
+  {
+    "판례ID": "2018다21821",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "seo",
+    "slug": "retirement-disciplinary-fired-pay"
+  },
+  {
+    "판례ID": "2019다279283",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "wage-unused-annual-leave-claim"
+  },
+  {
+    "판례ID": "2020다287921",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "wage-subcontract-original-liability"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "wage-final-pay-delay-penalty"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "wage-pogual-delivery-courier"
+  },
+  {
+    "판례ID": "2023다206138",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "wage-pogual-factory-shift"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "wage-night-overtime-exact-calculation"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "wage-asset-seizure-recovery"
+  },
+  {
+    "판례ID": "2022다225897",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "체크리스트형",
+    "channel": "seo",
+    "slug": "traffic-accident-dashcam-evidence-guide"
+  },
+  {
+    "판례ID": "2022다287284",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "traffic-accident-pedestrian-jaywalking-fault"
+  },
+  {
+    "판례ID": "2021다220628",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "traffic-accident-rideshare-proxy-liability"
+  },
+  {
+    "판례ID": "2025므10730",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "비교형",
+    "channel": "seo",
+    "slug": "divorce-mediation-vs-trial-strategy"
+  },
+  {
+    "판례ID": "2025스595",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "divorce-child-custody-teen-preference"
+  },
+  {
+    "판례ID": "2024므13669",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "divorce-business-asset-division"
+  },
+  {
+    "판례ID": "2022다256327",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "체크리스트형",
+    "channel": "seo",
+    "slug": "rehabilitation-car-keep-conditions"
+  },
+  {
+    "판례ID": "2024마6789",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "rehabilitation-failed-switch-bankruptcy"
+  },
+  {
+    "판례ID": "2025마7576",
+    "domain": "bankruptcy",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "bankruptcy-self-employed-closing"
+  },
+  {
+    "판례ID": "2024다283668",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "seo",
+    "slug": "jeonse-sublet-sublease-protection"
+  },
+  {
+    "판례ID": "2025다213466",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "체크리스트형",
+    "channel": "seo",
+    "slug": "jeonse-landlord-tax-delinquent-risk"
+  },
+  {
+    "판례ID": "2014다57846",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "neighbor-dispute-renovation-noise-claim"
+  },
+  {
+    "판례ID": "2014구합2270",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "unemployment-workplace-bullying-quit-blog"
+  },
+  {
+    "판례ID": "2018두47264",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "제도안내형",
+    "channel": "blog",
+    "slug": "unemployment-childcare-return-demotion-blog"
+  },
+  {
+    "판례ID": "2014구합2270",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "unemployment-remote-cancelled-commute-blog"
+  },
+  {
+    "판례ID": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "제도안내형",
+    "channel": "blog",
+    "slug": "unemployment-side-income-benefit-blog"
+  },
+  {
+    "판례ID": "2013구합2840",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "blog",
+    "slug": "unemployment-late-application-rescue-blog"
+  },
+  {
+    "판례ID": "2014구합2270",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "unemployment-contract-breach-quit-blog"
+  },
+  {
+    "판례ID": "2018두63235",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "자격확인형",
+    "channel": "blog",
+    "slug": "unemployment-military-discharge-blog"
+  },
+  {
+    "판례ID": "2020두31323",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "unemployment-small-biz-closure-daily-blog"
+  },
+  {
+    "판례ID": "2018다200709",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "제도안내형",
+    "channel": "blog",
+    "slug": "retirement-wage-peak-severance-blog"
+  },
+  {
+    "판례ID": "93다1589",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "제도안내형",
+    "channel": "blog",
+    "slug": "retirement-merger-successor-blog"
+  },
+  {
+    "판례ID": "2022다255454",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "retirement-installment-invalid-blog"
+  },
+  {
+    "판례ID": "2020다287921",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "retirement-overseas-dispatch-blog"
+  },
+  {
+    "판례ID": "2025다214605",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "retirement-disciplinary-fired-pay-blog"
+  },
+  {
+    "판례ID": "2022다255454",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-unused-annual-leave-blog"
+  },
+  {
+    "판례ID": "2021다222914",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-subcontract-liability-blog"
+  },
+  {
+    "판례ID": "2020도16228",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-final-pay-delay-blog"
+  },
+  {
+    "판례ID": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-night-overtime-calculation-blog"
+  },
+  {
+    "판례ID": "2022다285097",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-asset-seizure-recovery-blog"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-pogual-delivery-courier-blog"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-pogual-factory-shift-blog"
+  },
+  {
+    "판례ID": "2021두33470",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "dismissal-pip-fired-response-blog"
+  },
+  {
+    "판례ID": "2023두41864",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "dismissal-bullying-retaliation-blog"
+  },
+  {
+    "판례ID": "2023두37391",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "dismissal-small-business-under5-blog"
+  },
+  {
+    "판례ID": "2024두40493",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "dismissal-transfer-demotion-blog"
+  },
+  {
+    "판례ID": "2024두54683",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "dismissal-sick-leave-fired-blog"
+  },
+  {
+    "판례ID": "2025도15768",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "fraud-elderly-voice-phishing-blog"
+  },
+  {
+    "판례ID": "2025모45",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "fraud-crypto-rug-pull-blog"
+  },
+  {
+    "판례ID": "2022다1862",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "fraud-employment-scam-blog"
+  },
+  {
+    "판례ID": "2025도8137",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "traffic-dashcam-evidence-blog"
+  },
+  {
+    "판례ID": "2024도16742",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "traffic-pedestrian-jaywalking-blog"
+  },
+  {
+    "판례ID": "N/A-서울행법-괴롭힘퇴사",
+    "domain": "unemployment",
+    "perspective": "worker",
+    "type": "괴롭힘퇴사",
+    "channel": "tistory",
+    "slug": "unemployment-workplace-bullying-quit-tistory"
+  },
+  {
+    "판례ID": "2018두47264",
+    "domain": "unemployment",
+    "perspective": "worker",
+    "type": "육아휴직복귀",
+    "channel": "tistory",
+    "slug": "unemployment-childcare-return-demotion-tistory"
+  },
+  {
+    "판례ID": "2002두7494",
+    "domain": "unemployment",
+    "perspective": "worker",
+    "type": "부업소득신고",
+    "channel": "tistory",
+    "slug": "unemployment-side-income-benefit-tistory"
+  },
+  {
+    "판례ID": "2018다200709",
+    "domain": "retirement",
+    "perspective": "worker",
+    "type": "임금피크제",
+    "channel": "tistory",
+    "slug": "retirement-wage-peak-severance-tistory"
+  },
+  {
+    "판례ID": "2007다90760",
+    "domain": "retirement",
+    "perspective": "worker",
+    "type": "분할지급무효",
+    "channel": "tistory",
+    "slug": "retirement-installment-invalid-tistory"
+  },
+  {
+    "판례ID": "2019다279283",
+    "domain": "wage",
+    "perspective": "worker",
+    "type": "미사용연차",
+    "channel": "tistory",
+    "slug": "wage-unused-annual-leave-tistory"
+  },
+  {
+    "판례ID": "2018다244877",
+    "domain": "wage",
+    "perspective": "worker",
+    "type": "최종급여지연",
+    "channel": "tistory",
+    "slug": "wage-final-pay-delay-tistory"
+  },
+  {
+    "판례ID": "2016두64876",
+    "domain": "dismissal",
+    "perspective": "worker",
+    "type": "PIP해고",
+    "channel": "tistory",
+    "slug": "dismissal-pip-fired-tistory"
+  },
+  {
+    "판례ID": "2020가합56617",
+    "domain": "dismissal",
+    "perspective": "worker",
+    "type": "보복해고",
+    "channel": "tistory",
+    "slug": "dismissal-bullying-retaliation-tistory"
+  },
+  {
+    "판례ID": "2025고합87",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "고령자보이스피싱",
+    "channel": "tistory",
+    "slug": "fraud-elderly-voice-phishing-tistory"
+  },
+  {
+    "판례ID": "2024고합568",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "블랙박스증거",
+    "channel": "tistory",
+    "slug": "traffic-dashcam-evidence-tistory"
+  },
+  {
+    "판례ID": "2025스595",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "조정vs재판",
+    "channel": "tistory",
+    "slug": "divorce-mediation-vs-trial-tistory"
+  },
+  {
+    "판례ID": "2023다239756",
+    "domain": "rehabilitation",
+    "perspective": "debtor",
+    "type": "자동차유지",
+    "channel": "tistory",
+    "slug": "rehabilitation-car-keep-tistory"
+  },
+  {
+    "판례ID": "2025다213466",
+    "domain": "jeonse",
+    "perspective": "tenant",
+    "type": "세금체납위험",
+    "channel": "tistory",
+    "slug": "jeonse-landlord-tax-delinquent-tistory"
+  },
+  {
+    "판례ID": "2014다57846",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "공사소음",
+    "channel": "tistory",
+    "slug": "neighbor-renovation-noise-tistory"
+  },
+  {
+    "판례ID": "2022다287284",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "traffic-rideshare-proxy-liability-blog"
+  },
+  {
+    "판례ID": "2024므13669",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "divorce-mediation-vs-trial-blog"
+  },
+  {
+    "판례ID": "2024므14938",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "divorce-child-custody-teen-blog"
+  },
+  {
+    "판례ID": "2025므10730",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "divorce-business-asset-division-blog"
+  },
+  {
+    "판례ID": "2024다221042",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "rehabilitation-car-keep-blog"
+  },
+  {
+    "판례ID": "2025마7576",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver-blog",
+    "slug": "rehabilitation-failed-bankruptcy-blog"
+  },
+  {
+    "판례ID": "2023다316387",
+    "domain": "bankruptcy",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "naver-blog",
+    "slug": "bankruptcy-self-employed-closing-blog"
+  },
+  {
+    "판례ID": "2025다213466",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "jeonse-sublet-protection-blog"
+  },
+  {
+    "판례ID": "2024두67238",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "jeonse-landlord-tax-delinquent-blog"
+  },
+  {
+    "판례ID": "2014다57846",
+    "domain": "neighbor-dispute",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "neighbor-renovation-noise-blog"
   }
 ]
