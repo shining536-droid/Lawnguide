@@ -10063,5 +10063,381 @@
     "type": "상황형",
     "channel": "naver-blog",
     "slug": "neighbor-renovation-noise-blog"
+  },
+  {
+    "판례ID": "2009두19892",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "unemployment-comprehensive-benefit-amount-guide"
+  },
+  {
+    "판례ID": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "체크리스트형",
+    "channel": "seo",
+    "slug": "unemployment-recognized-job-search-activity-guide"
+  },
+  {
+    "판례ID": "2014구합2270",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "체크리스트형",
+    "channel": "seo",
+    "slug": "unemployment-voluntary-quit-exception-comprehensive"
+  },
+  {
+    "판례ID": "2014구합2270",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "unemployment-wrongful-denial-review-blog"
+  },
+  {
+    "판례ID": "2013구합2840",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "unemployment-project-contract-end-blog"
+  },
+  {
+    "판례ID": "2014구합1590",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "unemployment-work-injury-quit-blog"
+  },
+  {
+    "판례ID": "2018두63235",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "unemployment-disability-special-benefit-blog"
+  },
+  {
+    "판례ID": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "unemployment-studying-while-benefit-blog"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "retirement-company-split-claim-blog"
+  },
+  {
+    "판례ID": "2020다287921",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "retirement-sold-company-unpaid-blog"
+  },
+  {
+    "판례ID": "2021다248299",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "retirement-night-shift-included-blog"
+  },
+  {
+    "판례ID": "2021가합564798",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-verbal-agreement-unpaid-blog"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "naver-blog",
+    "slug": "wage-probation-minimum-violation-blog"
+  },
+  {
+    "판례ID": "2014구합2270",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "unemployment-wrongful-denial-review-tistory"
+  },
+  {
+    "판례ID": "2013구합2840",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "unemployment-project-contract-end-tistory"
+  },
+  {
+    "판례ID": "2014구합1590",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "unemployment-work-injury-quit-tistory"
+  },
+  {
+    "판례ID": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "unemployment-studying-while-benefit-tistory"
+  },
+  {
+    "판례ID": "2024다294705",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "retirement-company-split-claim-tistory"
+  },
+  {
+    "판례ID": "2021다248299",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "retirement-night-shift-included-tistory"
+  },
+  {
+    "판례ID": "2021가합564798",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "wage-verbal-agreement-unpaid-tistory"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "wage-probation-minimum-violation-tistory"
+  },
+  {
+    "판례ID": "2021다248299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "wage-bonus-unpaid-claim-blog"
+  },
+  {
+    "판례ID": "2019두59349",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "dismissal-probation-extended-twice-blog"
+  },
+  {
+    "판례ID": "2023다300559",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "dismissal-military-return-refused-blog"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "wage-pogual-care-worker-blog"
+  },
+  {
+    "판례ID": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "wage-pogual-logistics-warehouse-blog"
+  },
+  {
+    "판례ID": "2022다287284",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "traffic-roundabout-fault-blog"
+  },
+  {
+    "판례ID": "2022다266522",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "traffic-bus-sudden-stop-injury-blog"
+  },
+  {
+    "판례ID": "2024므13669",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "divorce-spouse-income-hiding-blog"
+  },
+  {
+    "판례ID": "2022도1862",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "fraud-installment-purchase-scam-blog"
+  },
+  {
+    "판례ID": "2024다221042",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "blog",
+    "slug": "rehabilitation-alimony-during-repayment-blog"
+  },
+  {
+    "판례ID": "2023다300559",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "dismissal-military-return-refused-tistory"
+  },
+  {
+    "판례ID": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "wage-pogual-care-worker-tistory"
+  },
+  {
+    "판례ID": "2022다287284",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "traffic-roundabout-fault-tistory"
+  },
+  {
+    "판례ID": "2022다266522",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "traffic-bus-sudden-stop-injury-tistory"
+  },
+  {
+    "판례ID": "2024므13669",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "divorce-spouse-income-hiding-tistory"
+  },
+  {
+    "판례ID": "2022도1862",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "fraud-installment-scam-response-tistory"
+  },
+  {
+    "판례ID": "2024다221042",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "상황형",
+    "channel": "tistory",
+    "slug": "rehabilitation-alimony-during-repayment-tistory"
+  },
+  {
+    "판례ID": "2018두63235",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "특례형",
+    "channel": "seo",
+    "slug": "unemployment-disability-worker-special-eligibility"
+  },
+  {
+    "판례ID": "2014구합2270",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "unemployment-part-time-dual-job-combined-benefit"
+  },
+  {
+    "판례ID": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "unemployment-wrongful-denial-appeal-procedure"
+  },
+  {
+    "판례ID": "2020다287921",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "비교형",
+    "channel": "seo",
+    "slug": "retirement-company-merger-split-succession"
+  },
+  {
+    "판례ID": "2022다255454",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "비교형",
+    "channel": "seo",
+    "slug": "retirement-night-overtime-included-calculation"
+  },
+  {
+    "판례ID": "2021가합564798",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "unpaid-wage-verbal-contract-claim-procedure"
+  },
+  {
+    "판례ID": "2021다304779",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "수치기한형",
+    "channel": "seo",
+    "slug": "unpaid-wage-probation-minimum-wage-violation"
+  },
+  {
+    "판례ID": "2024두32973",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "dismissal-military-return-reinstatement-denied"
+  },
+  {
+    "판례ID": "2024두40493",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "dismissal-probation-repeated-extension-unfair"
   }
 ]
