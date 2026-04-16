@@ -1467,19 +1467,55 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '네, 유죄 판결 확정 시 20년간 신상정보가 등록됩니다. 아동·청소년 대상 범죄는 등록 기간이 더 길어질 수 있습니다.',
       },
     ],
-    spokeLinks: [
-      { title: '디지털성범죄 피해 어디부터 시작해야 하나', slug: 'digital-sex-crime-where-to-start' },
-      { title: '불법촬영 피해 신고 및 삭제 요청 절차', slug: 'hidden-camera-report-and-deletion-procedure' },
-      { title: '디지털성범죄 피해 대응 완벽 체크리스트', slug: 'victim-response-complete-checklist' },
-      { title: '딥페이크 합성물 유포 시 법적 대응', slug: 'deepfake-distribution-legal-response' },
-      { title: '불법촬영 증거 캡처 시 흔히 하는 실수', slug: 'screenshot-evidence-common-mistakes' },
-      { title: '유포 협박에 돈 보내면 안 되는 이유', slug: 'do-not-pay-blackmail-money' },
-      { title: '피해 신고 시 필요한 증거 목록', slug: 'report-required-evidence-list' },
-      { title: '불법촬영 vs 딥페이크 처벌 수위 비교', slug: 'hidden-camera-vs-deepfake-punishment' },
-      { title: '불법촬영 혐의 대응', slug: 'filming-accusation-defense' },
-      { title: '불법촬영 무고 대응', slug: 'filming-false-accusation-defense' },
-      { title: '불법촬영 처벌 수위 벌금과 징역 기준', slug: 'punishment-level-fine-and-imprisonment' },
-      { title: '몰래카메라 탐지 자가점검 체크리스트', slug: 'hidden-camera-detection-self-check' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '피해자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '디지털성범죄 피해 어디부터 시작해야 하나', slug: 'digital-sex-crime-where-to-start' },
+          { title: '디지털성범죄 피해 대응 완벽 체크리스트', slug: 'victim-response-complete-checklist' },
+          { title: '몰카 발견 즉시 대응 가이드', slug: 'hidden-camera-found-immediate-response' },
+          { title: '피해 신고 시 필요한 증거 목록', slug: 'report-required-evidence-list' },
+        ],
+      },
+      {
+        label: '삭제/유포차단',
+        emoji: '📋',
+        spokes: [
+          { title: '피해 영상 삭제 지원 절차', slug: 'victim-video-deletion-support-procedure' },
+          { title: '불법촬영물 삭제 지원 안내', slug: 'illegal-filming-deletion-support' },
+          { title: '피해 영상 완전삭제 가능할까', slug: 'complete-deletion-possible' },
+          { title: '딥페이크 유포 차단과 삭제 방법', slug: 'deepfake-distribution-block-deletion' },
+        ],
+      },
+      {
+        label: '촬영/딥페이크',
+        emoji: '📋',
+        spokes: [
+          { title: '불법촬영 피해 신고 및 삭제 요청 절차', slug: 'hidden-camera-report-and-deletion-procedure' },
+          { title: '몰카 증거 확보와 신고 방법', slug: 'hidden-camera-evidence-report' },
+          { title: '딥페이크 합성물 신고와 삭제 절차', slug: 'deepfake-pornography-report-removal' },
+          { title: '딥페이크 합성물 유포 시 법적 대응', slug: 'deepfake-distribution-legal-response' },
+        ],
+      },
+      {
+        label: '협박/유포',
+        emoji: '📋',
+        spokes: [
+          { title: '디지털 성착취 협박 대응 가이드', slug: 'digital-sex-crime-sextortion-response' },
+          { title: '전 연인 유포 협박 대응법', slug: 'ex-threatens-to-share-intimate-video' },
+          { title: '불법촬영 증거 캡처 시 흔히 하는 실수', slug: 'screenshot-evidence-common-mistakes' },
+        ],
+      },
+      {
+        label: '혐의자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '불법촬영 혐의 대응', slug: 'filming-accusation-defense' },
+          { title: '불법촬영 무고 대응', slug: 'filming-false-accusation-defense' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -2486,17 +2522,44 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '불승인 결정에 대해 90일 이내에 근로복지공단 심사위원회에 심사청구를 할 수 있으며, 이에 불복하면 재심사청구나 행정소송이 가능합니다.',
       },
     ],
-    spokeLinks: [
-      { title: '산재 신청 절차 총정리', slug: 'workers-comp-claim-process' },
-      { title: '사업주 거부 시 산재 직접 신청법', slug: 'workers-comp-without-employer' },
-      { title: '출퇴근 재해 인정 요건', slug: 'commute-accident-recognition' },
-      { title: '산재 요양급여 신청 서류', slug: 'workers-comp-medical-docs' },
-      { title: '직업병 산재 인정 기준', slug: 'occupational-disease-criteria' },
-      { title: '휴업급여 계산 방법', slug: 'workers-comp-leave-pay-calculation' },
-      { title: '산재 신청 시 사업주 압박 대처법', slug: 'employer-pressure-during-claim' },
-      { title: '산재 vs 건강보험 치료 차이', slug: 'workers-comp-vs-health-insurance' },
-      { title: '산재 목격자 진술서 작성법', slug: 'witness-statement-for-workers-comp' },
-      { title: '산재 불승인 심사청구 방법', slug: 'workers-comp-appeal-process' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '산재 신청',
+        emoji: '📋',
+        spokes: [
+          { title: '산재 시작', slug: 'injured-where-to-start' },
+          { title: '산재 신청 절차', slug: 'workers-comp-claim-process' },
+          { title: '요양 청구', slug: 'workers-comp-medical-claim-process' },
+          { title: '출퇴근 재해 인정', slug: 'commute-accident-recognition' },
+        ],
+      },
+      {
+        label: '급여/보상',
+        emoji: '📋',
+        spokes: [
+          { title: '휴업급여', slug: 'workers-comp-leave-benefit' },
+          { title: '일시장해급여', slug: 'workers-comp-temporary-disability' },
+          { title: '장해등급 절차', slug: 'disability-benefit-grade-process' },
+          { title: '유족급여', slug: 'workers-comp-survivor-benefit' },
+        ],
+      },
+      {
+        label: '질병/재활',
+        emoji: '📋',
+        spokes: [
+          { title: '직업병 인정', slug: 'occupational-disease-recognition' },
+          { title: '재활', slug: 'workers-comp-rehabilitation' },
+        ],
+      },
+      {
+        label: '불승인/책임',
+        emoji: '📋',
+        spokes: [
+          { title: '불승인 재신청', slug: 'reapply-after-rejection' },
+          { title: '사업주 형사책임', slug: 'employer-criminal-liability-accident' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -2599,17 +2662,36 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '산재 보험급여는 비과세 소득으로 소득세가 부과되지 않습니다. 다만 민사 손해배상금과는 구분됩니다.',
       },
     ],
-    spokeLinks: [
-      { title: '산재 급여 종류와 신청 방법', slug: 'workers-comp-benefit-types' },
-      { title: '장해등급 판정 절차와 기준', slug: 'disability-grade-assessment' },
-      { title: '산재 불승인 심사청구 방법', slug: 'workers-comp-review-appeal' },
-      { title: '재심사청구와 행정소송 절차', slug: 'workers-comp-re-review-litigation' },
-      { title: '휴업급여 신청과 계산법', slug: 'workers-comp-leave-benefit-guide' },
-      { title: '장해급여 일시금 vs 연금 비교', slug: 'disability-lump-sum-vs-pension' },
-      { title: '요양 연장 신청 방법', slug: 'medical-treatment-extension' },
-      { title: '직장복귀지원금 안내', slug: 'return-to-work-subsidy' },
-      { title: '직업재활급여 활용법', slug: 'vocational-rehabilitation-benefit' },
-      { title: '산재 후 민사 손해배상 청구', slug: 'civil-damages-after-workers-comp' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '사업주 의무',
+        emoji: '📋',
+        spokes: [
+          { title: '위험성평가 의무', slug: 'risk-assessment-employer-obligation' },
+          { title: '안전관리자 선임', slug: 'safety-manager-selection-duty' },
+          { title: '놓치기 쉬운 의무', slug: 'commonly-missed-safety-obligations' },
+          { title: '신고의무 절차', slug: 'employer-report-obligation-process' },
+        ],
+      },
+      {
+        label: '사고 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '중대재해 대응', slug: 'serious-accident-employer-response' },
+          { title: '근로자 사망 형사', slug: 'worker-death-employer-criminal' },
+          { title: '하도급 원청 의무', slug: 'subcontractor-accident-main-employer-duty' },
+          { title: '사업주 형사책임', slug: 'employer-criminal-liability-accident' },
+        ],
+      },
+      {
+        label: '제재/보상',
+        emoji: '📋',
+        spokes: [
+          { title: '안전위반 과태료', slug: 'workplace-safety-violation-penalty' },
+          { title: '민사 손해배상', slug: 'industrial-accident-civil-damages' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3220,17 +3302,67 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '민사소송으로 치료비, 위자료 등을 가해학생 학부모에게 청구할 수 있습니다. 학폭위 결과와 증거 자료를 기반으로 소장을 작성하세요.',
       },
     ],
-    spokeLinks: [
-      { title: '학폭위 심의 절차 총정리', slug: 'school-violence-committee-procedure' },
-      { title: '학폭 가해자 학부모 대응 가이드', slug: 'school-violence-accused-parent-response' },
-      { title: '학교폭력 증거 확보 방법', slug: 'school-violence-evidence-collection' },
-      { title: '학교폭력 피해 신고 절차', slug: 'school-violence-report-procedure' },
-      { title: '학생부 기재와 대입 영향', slug: 'school-record-impact-on-college' },
-      { title: '학폭위 조치 불복 행정심판', slug: 'school-violence-appeal-process' },
-      { title: '사이버 학교폭력 대응법', slug: 'cyber-school-violence-response' },
-      { title: '학교폭력 합의서 작성 가이드', slug: 'school-violence-settlement-guide' },
-      { title: '학교폭력 형사 고소 절차', slug: 'school-violence-criminal-complaint' },
-      { title: '학교폭력 손해배상 청구 방법', slug: 'school-violence-damages-claim' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '피해학생 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '학교폭력 시작', slug: 'school-violence-where-to-start' },
+          { title: '왕따 시작', slug: 'child-bullied-where-to-start' },
+          { title: '폭행 대응', slug: 'child-beaten-at-school-response' },
+          { title: '단톡방 괴롭힘', slug: 'group-chat-bullying-qualification' },
+        ],
+      },
+      {
+        label: '가해학생/학부모 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '가해 학부모 대응', slug: 'accused-as-perpetrator-parent-response' },
+          { title: '학부모 대응', slug: 'school-violence-accused-parent-response' },
+          { title: '가해 학폭위', slug: 'school-violence-accused-committee' },
+          { title: '학폭위 준비', slug: 'perpetrator-committee-preparation' },
+        ],
+      },
+      {
+        label: '학폭위 절차',
+        emoji: '📋',
+        spokes: [
+          { title: '신고부터 학폭위', slug: 'report-to-committee-procedure' },
+          { title: '학폭위 절차', slug: 'school-violence-committee-procedure' },
+          { title: '제재 방어', slug: 'perpetrator-sanction-defense' },
+          { title: '학부모 흔한 실수', slug: 'common-mistakes-parents-make' },
+        ],
+      },
+      {
+        label: '조치/기록',
+        emoji: '📋',
+        spokes: [
+          { title: '기록 삭제 가능?', slug: 'can-school-record-be-deleted' },
+          { title: '가해 기록 삭제', slug: 'perpetrator-school-record-deletion' },
+          { title: '합의로 기록 방지', slug: 'settlement-prevents-school-record' },
+          { title: '전학 불복', slug: 'school-violence-perpetrator-transfer-appeal' },
+        ],
+      },
+      {
+        label: '불복/소송',
+        emoji: '📋',
+        spokes: [
+          { title: '제재 불복', slug: 'sanction-appeal-procedure' },
+          { title: '조치 불복', slug: 'school-violence-measures-appeal' },
+          { title: '제재 불복 절차', slug: 'school-violence-sanction-appeal-process' },
+        ],
+      },
+      {
+        label: '특수 유형',
+        emoji: '📋',
+        spokes: [
+          { title: 'SNS 괴롭힘', slug: 'school-violence-social-media-bullying' },
+          { title: '허위신고 대응', slug: 'school-violence-false-report-response' },
+          { title: '허위신고 증거', slug: 'school-violence-false-report-evidence' },
+          { title: '부당 신고 방어', slug: 'wrongful-report-defense' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3323,17 +3455,55 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '구속 후 보석을 청구할 수 있지만, 마약 사건은 증거인멸·도주 우려로 보석이 잘 허가되지 않습니다. 사안이 경미하고 자수한 경우 가능성이 높아집니다.',
       },
     ],
-    spokeLinks: [
-      { title: '마약 수사 출석 전 대응 가이드', slug: 'drug-investigation-response' },
-      { title: '마약 자수 절차와 감경 효과', slug: 'drug-self-report-procedure' },
-      { title: '마약 치료보호 제도 안내', slug: 'drug-treatment-protection-program' },
-      { title: '마약 유통 혐의 대응 방법', slug: 'drug-trafficking-defense' },
-      { title: '모발·소변 검사와 증거 쟁점', slug: 'drug-test-evidence-issues' },
-      { title: '대마 관련 처벌 기준', slug: 'marijuana-punishment-standards' },
-      { title: '해외 투약 귀국 후 수사 대응', slug: 'overseas-drug-use-investigation' },
-      { title: '마약 사건 구속과 보석', slug: 'drug-case-detention-bail' },
-      { title: '마약 사건 양형 기준 정리', slug: 'drug-crime-sentencing-guidelines' },
-      { title: '마약 전과와 취업·출국 제한', slug: 'drug-record-employment-travel' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '초범/적발 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '마약 혐의 시작', slug: 'drug-charge-where-to-start' },
+          { title: '초범 양형', slug: 'drug-crime-first-offense-sentencing' },
+          { title: '초범 집행유예', slug: 'first-offense-probation-cases' },
+          { title: '또래 압력 초범', slug: 'first-time-peer-pressure-penalty' },
+        ],
+      },
+      {
+        label: '검사/증거',
+        emoji: '📋',
+        spokes: [
+          { title: '소변 양성 대응', slug: 'drug-urine-positive-response' },
+          { title: '양성 검사 대응', slug: 'positive-urine-test-response' },
+          { title: '모발검사 양성 방어', slug: 'drug-crime-hair-test-positive-defense' },
+          { title: '공유공간 무고', slug: 'drug-false-accusation-shared-space' },
+        ],
+      },
+      {
+        label: '수사/조사 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '수사 대응', slug: 'drug-investigation-response' },
+          { title: '투약 조사 대응', slug: 'drug-use-investigation-response' },
+          { title: '변호사 방어 전략', slug: 'drug-charge-lawyer-defense-strategy' },
+        ],
+      },
+      {
+        label: '유형별 처벌',
+        emoji: '📋',
+        spokes: [
+          { title: '유형별 처벌 비교', slug: 'drug-types-punishment-comparison' },
+          { title: '투약/소지/매매 비교', slug: 'use-vs-possession-vs-dealing-penalty' },
+          { title: '소지 형사절차', slug: 'drug-possession-criminal-process' },
+        ],
+      },
+      {
+        label: '감경/자수',
+        emoji: '📋',
+        spokes: [
+          { title: '자수 감경', slug: 'drug-self-report-sentencing-reduction' },
+          { title: '자수 감경 효과', slug: 'drug-self-report-reduction' },
+          { title: '집행유예 조건', slug: 'first-offense-probation-conditions' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3430,17 +3600,78 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '주택가액의 일정 비율 내에서 소액보증금 임차인이 다른 담보권자보다 우선하여 보증금을 변제받는 제도입니다. 지역별 기준금액이 다르므로 해당 지역 기준을 확인하세요.',
       },
     ],
-    spokeLinks: [
-      { title: '보증금 반환 절차 총정리', slug: 'deposit-return-process' },
-      { title: '전입신고 없이 보증금 보호받는 방법', slug: 'no-registration-deposit-protection' },
-      { title: '임대인 연락 두절 시 보증금 회수법', slug: 'landlord-unreachable-deposit' },
-      { title: '보증금 반환 소송 준비 가이드', slug: 'deposit-lawsuit-preparation' },
-      { title: '계약 만료 후 임대인이 보내주지 않을 때', slug: 'lease-expired-landlord-wont-leave' },
-      { title: '전세보증보험 청구 체크리스트', slug: 'jeonse-insurance-claim-checklist' },
-      { title: '계약갱신 거절 대응법', slug: 'lease-renewal-rejection' },
-      { title: '임차권등기명령 신청 방법', slug: 'lease-registration-order-guide' },
-      { title: '소액보증금 최우선변제 기준', slug: 'small-deposit-priority-repayment' },
-      { title: '전세 계약 전 필수 확인사항', slug: 'jeonse-contract-pre-check' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '계약 전 확인',
+        emoji: '📋',
+        spokes: [
+          { title: '특약 체크리스트', slug: 'jeonse-contract-special-agreement-checklist' },
+          { title: '임차인 등록 요건', slug: 'jeonse-tenant-registration-requirement' },
+          { title: '사기 의심 자가점검', slug: 'fraud-suspicion-self-check' },
+          { title: '미등기 보증금 보호', slug: 'no-registration-deposit-protection' },
+        ],
+      },
+      {
+        label: '확정일자/대항력',
+        emoji: '📋',
+        spokes: [
+          { title: '전입신고 없을 때', slug: 'no-move-in-report-deposit-protection' },
+          { title: '미전입 보호', slug: 'no-move-in-report-protection' },
+          { title: '보증금 우선변제 경합', slug: 'jeonse-deposit-priority-competing' },
+          { title: '보증보험 청구', slug: 'jeonse-insurance-claim-checklist' },
+        ],
+      },
+      {
+        label: '만기/갱신/해지',
+        emoji: '📋',
+        spokes: [
+          { title: '갱신 거절', slug: 'jeonse-renewal-landlord-refusal' },
+          { title: '갱신 거부 대응', slug: 'lease-renewal-rejection' },
+          { title: '만기 후 비워주지 않을 때', slug: 'lease-expired-landlord-wont-leave' },
+          { title: '월세 전환 권리', slug: 'jeonse-monthly-conversion-tenant-rights' },
+        ],
+      },
+      {
+        label: '보증금 반환',
+        emoji: '📋',
+        spokes: [
+          { title: '보증금 반환 총정리', slug: 'jeonse-deposit-return-comprehensive-guide' },
+          { title: '반환 절차', slug: 'deposit-return-process' },
+          { title: '만기 후 반환 단계', slug: 'lease-expiry-deposit-return-steps' },
+          { title: '반환 통지 서식', slug: 'deposit-return-notice-template' },
+        ],
+      },
+      {
+        label: '집주인 문제',
+        emoji: '📋',
+        spokes: [
+          { title: '집주인 연락두절', slug: 'landlord-unreachable-deposit' },
+          { title: '만기 후 연락두절', slug: 'landlord-no-contact-after-expiry' },
+          { title: '집주인 세금체납', slug: 'jeonse-landlord-tax-delinquent-risk' },
+          { title: '임대인 변경 위험', slug: 'jeonse-landlord-change-deposit-risk' },
+        ],
+      },
+      {
+        label: '법적 조치',
+        emoji: '📋',
+        spokes: [
+          { title: '소송 준비', slug: 'deposit-lawsuit-preparation' },
+          { title: '임차권등기명령', slug: 'lease-registration-order-process' },
+          { title: '경매 보증금 우선변제', slug: 'jeonse-auction-deposit-priority' },
+          { title: '소송 서류', slug: 'deposit-lawsuit-docs' },
+        ],
+      },
+      {
+        label: '특수 상황',
+        emoji: '📋',
+        spokes: [
+          { title: '전대차 보호', slug: 'jeonse-sublet-sublease-protection' },
+          { title: '역전세 대응', slug: 'jeonse-reverse-gap-tenant-response' },
+          { title: '중개인 책임', slug: 'jeonse-broker-liability-failure' },
+          { title: '반환 체크리스트', slug: 'deposit-return-checklist' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3542,17 +3773,61 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '사업자등록이 없으면 대항력을 취득할 수 없어 경매 시 보증금을 보호받지 못할 수 있습니다. 입점 즉시 사업자등록을 하는 것이 중요합니다.',
       },
     ],
-    spokeLinks: [
-      { title: '상가 권리금 보호제도 총정리', slug: 'commercial-lease-key-money' },
-      { title: '상가 계약갱신 거절 대응법', slug: 'commercial-lease-renewal-rejection' },
-      { title: '상가 보증금 반환 절차', slug: 'commercial-deposit-return-process' },
-      { title: '환산보증금 계산과 적용 범위', slug: 'converted-deposit-calculation' },
-      { title: '상가 차임 인상 제한과 조정', slug: 'commercial-rent-increase-limit' },
-      { title: '상가 권리금 손해배상 청구 방법', slug: 'key-money-damages-claim' },
-      { title: '상가 임대차 사업자등록과 대항력', slug: 'commercial-lease-business-registration' },
-      { title: '상가 임대차분쟁조정 신청 방법', slug: 'commercial-lease-dispute-mediation' },
-      { title: '상가 계약 만료 시 명도 대응', slug: 'commercial-lease-eviction-response' },
-      { title: '상가 임대차 계약 전 필수 확인사항', slug: 'commercial-lease-pre-check' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '계약/갱신',
+        emoji: '📋',
+        spokes: [
+          { title: '갱신요구권 보호', slug: 'commercial-lease-renewal-rights-protection' },
+          { title: '갱신 거절', slug: 'commercial-lease-renewal-rejection' },
+          { title: '적용 법률 비교', slug: 'commercial-lease-law-applicable-comparison' },
+        ],
+      },
+      {
+        label: '권리금',
+        emoji: '📋',
+        spokes: [
+          { title: '권리금 기본', slug: 'commercial-lease-key-money' },
+          { title: '권리금 회수 기간', slug: 'key-money-recovery-timeline' },
+          { title: '권리금 회수 차단', slug: 'sangga-premium-recovery-blocked' },
+          { title: '임대인 방해 책임', slug: 'commercial-lease-premium-landlord-liability' },
+        ],
+      },
+      {
+        label: '보증금/차임',
+        emoji: '📋',
+        spokes: [
+          { title: '보증금 반환', slug: 'commercial-deposit-return-process' },
+          { title: '차임 인상 통지', slug: 'commercial-rent-increase-notification' },
+          { title: '차임연체 특약', slug: 'commercial-lease-rent-arrears-special' },
+          { title: '환산보증금 계산', slug: 'commercial-converted-deposit-calculation' },
+        ],
+      },
+      {
+        label: '계약해지/명도',
+        emoji: '📋',
+        spokes: [
+          { title: '해지 절차', slug: 'commercial-lease-termination-procedure' },
+          { title: '원상복구 의무', slug: 'commercial-lease-restoration-obligation' },
+          { title: '우선변제', slug: 'commercial-lease-priority-repayment' },
+        ],
+      },
+      {
+        label: '관리비/수리',
+        emoji: '📋',
+        spokes: [
+          { title: '관리비 분쟁', slug: 'commercial-lease-management-fee-dispute' },
+          { title: '수선의무', slug: 'commercial-lease-repair-obligation' },
+        ],
+      },
+      {
+        label: '특수',
+        emoji: '📋',
+        spokes: [
+          { title: '전대차 조건', slug: 'commercial-sublease-conditions' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3832,17 +4107,55 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '가계약금 지급만으로는 정식 매매계약이 성립하지 않는 것이 판례의 입장이나, 구체적 합의 내용에 따라 달라질 수 있으므로 주의가 필요합니다.',
       },
     ],
-    spokeLinks: [
-      { title: '매매계약 해제와 계약금 반환', slug: 'contract-cancel-deposit-return' },
-      { title: '부동산 매매 시 등기부등본 보는 법', slug: 'how-to-read-registry-document' },
-      { title: '매도자 하자고지의무와 손해배상', slug: 'seller-defect-disclosure-liability' },
-      { title: '부동산 실거래 신고 방법과 주의사항', slug: 'real-transaction-report-guide' },
-      { title: '업다운계약서 작성 시 법적 처벌', slug: 'up-down-contract-penalties' },
-      { title: '중개사 과실 손해배상 청구 방법', slug: 'agent-negligence-compensation' },
-      { title: '양도소득세 비과세 요건 총정리', slug: 'capital-gains-tax-exemption' },
-      { title: '취득세 계산과 감면 혜택', slug: 'acquisition-tax-calculation-benefits' },
-      { title: '잔금 미지급 시 매도자 대응 방법', slug: 'balance-unpaid-seller-response' },
-      { title: '부동산 매매 특약 작성 가이드', slug: 'real-estate-special-terms-guide' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '계약 체결',
+        emoji: '📋',
+        spokes: [
+          { title: '필수 조항', slug: 'sale-contract-essential-clauses' },
+          { title: '등기 확인', slug: 'registry-check-before-contract' },
+          { title: '계약 실수', slug: 'common-mistakes-in-sale-contract' },
+          { title: '사기 예방', slug: 'real-estate-fraud-prevention' },
+        ],
+      },
+      {
+        label: '계약 해제/위약',
+        emoji: '📋',
+        spokes: [
+          { title: '해제 계약금', slug: 'contract-cancellation-deposit-return' },
+          { title: '해지 계약금', slug: 'contract-cancel-deposit-return' },
+          { title: '위약금', slug: 'real-estate-contract-cancellation-penalty' },
+          { title: '특약 위반', slug: 'special-agreement-breach-response' },
+        ],
+      },
+      {
+        label: '하자/분쟁',
+        emoji: '📋',
+        spokes: [
+          { title: '하자 손해배상', slug: 'defect-damage-claim' },
+          { title: '부동산 하자', slug: 'real-estate-defect-damage-claim' },
+          { title: '하자 발견 청구', slug: 'sale-defect-discovery-damage-claim' },
+          { title: '신축 하자', slug: 'new-apartment-defect-claim' },
+        ],
+      },
+      {
+        label: '소유권/등기',
+        emoji: '📋',
+        spokes: [
+          { title: '소유권이전', slug: 'ownership-transfer-registration' },
+          { title: '근저당 해소', slug: 'seller-lien-mortgage-clearing' },
+          { title: '중도금 미지급', slug: 'unpaid-interim-seller-response' },
+          { title: '이중매매 보호', slug: 'double-sale-buyer-protection' },
+        ],
+      },
+      {
+        label: '중개사',
+        emoji: '📋',
+        spokes: [
+          { title: '중개사 책임', slug: 'real-estate-agent-liability' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3945,17 +4258,53 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '일반 매매와 동일한 취득세율이 적용됩니다. 주택의 경우 1~3%(다주택자는 중과세율), 농지·상가 등은 별도 세율이 적용됩니다.',
       },
     ],
-    spokeLinks: [
-      { title: '경매 권리분석 기초 가이드', slug: 'auction-rights-analysis-basics' },
-      { title: '말소기준권리 판단 방법', slug: 'extinguishment-standard-rights' },
-      { title: '경매 입찰 참여 절차', slug: 'auction-bidding-procedure' },
-      { title: '인도명령 신청 방법과 요건', slug: 'delivery-order-application-guide' },
-      { title: '경매 임차인 보증금 회수 방법', slug: 'auction-tenant-deposit-recovery' },
-      { title: '배당요구 절차와 기한', slug: 'dividend-demand-procedure-deadline' },
-      { title: '경매 낙찰 후 처리 절차', slug: 'post-winning-bid-procedure' },
-      { title: '법정지상권 성립 요건과 효과', slug: 'statutory-superficies-requirements' },
-      { title: '경매 물건 현장 답사 체크리스트', slug: 'auction-property-inspection-checklist' },
-      { title: '유찰 물건 투자 시 유의사항', slug: 'failed-auction-investment-tips' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '입찰 전 확인',
+        emoji: '📋',
+        spokes: [
+          { title: '경매 시작', slug: 'auction-where-to-start-beginner' },
+          { title: '입찰 전 체크리스트', slug: 'pre-bidding-checklist' },
+          { title: '권리분석', slug: 'auction-rights-analysis-checklist' },
+          { title: '초보 실수', slug: 'beginner-auction-common-mistakes' },
+        ],
+      },
+      {
+        label: '입찰/절차',
+        emoji: '📋',
+        spokes: [
+          { title: '입찰 절차', slug: 'auction-bidding-procedure' },
+          { title: '입찰 서류', slug: 'bidding-required-documents' },
+          { title: '대출 준비', slug: 'auction-loan-preparation' },
+        ],
+      },
+      {
+        label: '배당/우선변제',
+        emoji: '📋',
+        spokes: [
+          { title: '배당 순위', slug: 'distribution-priority-and-claim' },
+          { title: '잉여금 배당', slug: 'auction-surplus-distribution' },
+          { title: '임차인 있는 물건', slug: 'auction-property-with-tenant' },
+        ],
+      },
+      {
+        label: '명도/점유',
+        emoji: '📋',
+        spokes: [
+          { title: '낙찰 후 명도', slug: 'eviction-after-winning-bid' },
+          { title: '명도소송', slug: 'auction-eviction-lawsuit-process' },
+          { title: '점유자 거부', slug: 'occupant-refuses-to-leave' },
+        ],
+      },
+      {
+        label: '특수 문제',
+        emoji: '📋',
+        spokes: [
+          { title: '유치권 위험', slug: 'auction-lien-risk-analysis' },
+          { title: '취소 보증금 회수', slug: 'auction-cancellation-deposit-recovery' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -4058,17 +4407,64 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '지속적인 소음, 폭언, 협박 등이 있으면 경범죄처벌법 위반, 주거침입, 협박죄 등으로 형사고소가 가능합니다. 다만 증거 확보가 필수적입니다.',
       },
     ],
-    spokeLinks: [
-      { title: '층간소음 분쟁 대응 가이드', slug: 'floor-noise-dispute-response' },
-      { title: '환경분쟁조정위원회 신청 방법', slug: 'environmental-dispute-mediation-apply' },
-      { title: '이웃 간 누수 분쟁 해결 절차', slug: 'neighbor-water-leak-resolution' },
-      { title: '반려동물 분쟁 법적 대응', slug: 'pet-dispute-legal-response' },
-      { title: '경계 분쟁과 지적측량 절차', slug: 'boundary-dispute-cadastral-survey' },
-      { title: '일조권 침해 손해배상 청구', slug: 'sunlight-right-damage-claim' },
-      { title: '공동주택 관리 분쟁 해결', slug: 'apartment-management-dispute' },
-      { title: '내용증명 작성 가이드', slug: 'formal-notice-writing-guide' },
-      { title: '민사조정 제도 활용법', slug: 'civil-mediation-usage-guide' },
-      { title: '이웃 분쟁 예방과 원만한 해결 팁', slug: 'neighbor-dispute-prevention-tips' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '층간소음',
+        emoji: '📋',
+        spokes: [
+          { title: '층간소음 피해 어디부터 시작해야 하나', slug: 'floor-noise-victim-where-to-start' },
+          { title: '층간소음 분쟁 대응 가이드', slug: 'floor-noise-dispute-response' },
+          { title: '층간소음 데시벨 기준과 측정 방법', slug: 'floor-noise-decibel-standard' },
+          { title: '층간소음 신고부터 조정까지 절차', slug: 'floor-noise-report-to-mediation-procedure' },
+        ],
+      },
+      {
+        label: '증거/법적조치',
+        emoji: '📋',
+        spokes: [
+          { title: '이웃 소음 앱 녹음 증거 활용법', slug: 'neighbor-noise-evidence-app-recording' },
+          { title: '층간소음 손해배상 핵심 판례', slug: 'floor-noise-damage-amount-key-cases' },
+          { title: '관리사무소 대응과 법적조치', slug: 'neighbor-noise-management-office-legal-action' },
+          { title: '소음 신고했더니 역소송 당한 경우', slug: 'noise-complaint-leads-to-counter-lawsuit' },
+        ],
+      },
+      {
+        label: '생활소음/악취',
+        emoji: '📋',
+        spokes: [
+          { title: '악취·반려동물·주차 이웃 분쟁 대응', slug: 'neighbor-dispute-smell-pet-parking' },
+          { title: '반려동물 소음·악취 법적 대응', slug: 'pet-noise-smell-legal-action' },
+          { title: '베란다 간접흡연 피해 대응법', slug: 'neighbor-balcony-smoke-secondhand' },
+          { title: '불법주차 분쟁 대응 가이드', slug: 'illegal-parking-dispute-response' },
+        ],
+      },
+      {
+        label: '공사/건물',
+        emoji: '📋',
+        spokes: [
+          { title: '공사소음·진동 피해 대응법', slug: 'construction-noise-vibration-response' },
+          { title: '리모델링 소음 손해배상 청구', slug: 'neighbor-dispute-renovation-noise-claim' },
+          { title: '신축 건물 일조권 침해 대응', slug: 'new-building-blocking-sunlight-response' },
+          { title: '누수 피해 손해배상 청구', slug: 'water-leak-damage-claim' },
+        ],
+      },
+      {
+        label: '공용시설',
+        emoji: '📋',
+        spokes: [
+          { title: '공유시설 분쟁 해결 가이드', slug: 'neighbor-shared-facility-dispute' },
+          { title: 'CCTV 프라이버시 분쟁 대응', slug: 'neighbor-cctv-privacy-dispute' },
+          { title: '경계벽 분쟁 해결 절차', slug: 'boundary-wall-dispute' },
+        ],
+      },
+      {
+        label: '피해 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '참을 수 없는 윗집 소음 대응법', slug: 'unbearable-upstairs-noise-response' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -4171,17 +4567,54 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '대한민국 법원 전자소송 시스템을 통해 소장 제출, 서류 확인, 기일 통지 등을 온라인으로 처리할 수 있어 편리합니다.',
       },
     ],
-    spokeLinks: [
-      { title: '소액소송 자주 묻는 질문 가이드', slug: 'small-claims-faq-guide' },
-      { title: '지급명령 신청 절차와 방법', slug: 'payment-order-application-process' },
-      { title: '소장 작성 방법과 양식', slug: 'complaint-writing-method-form' },
-      { title: '이행권고결정 제도 안내', slug: 'performance-recommendation-system' },
-      { title: '강제집행 신청 방법', slug: 'compulsory-execution-application' },
-      { title: '채권압류 및 추심 절차', slug: 'claim-seizure-collection-procedure' },
-      { title: '소멸시효 확인과 중단 방법', slug: 'statute-of-limitations-check-interrupt' },
-      { title: '전자소송 이용 가이드', slug: 'e-litigation-usage-guide' },
-      { title: '내용증명으로 채권 회수하기', slug: 'debt-collection-formal-notice' },
-      { title: '법률구조공단 무료 소송 지원', slug: 'legal-aid-free-litigation-support' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '소액소송 시작',
+        emoji: '📋',
+        spokes: [
+          { title: '돈 못 받을 때 어디부터 시작해야 하나', slug: 'unpaid-money-where-to-start' },
+          { title: '소액소송 vs 지급명령 비교', slug: 'small-claims-vs-payment-order-comparison' },
+          { title: '혼자서 소액소송 진행하기', slug: 'small-claims-self-filing-guide' },
+          { title: '변호사 없이 소송 가능할까', slug: 'can-i-do-it-without-lawyer' },
+        ],
+      },
+      {
+        label: '지급명령',
+        emoji: '📋',
+        spokes: [
+          { title: '지급명령 신청 가이드', slug: 'payment-order-application-guide' },
+          { title: '지급명령 신청부터 확정까지', slug: 'payment-order-application-to-confirmation' },
+          { title: '소액소송 온라인 제출 가이드', slug: 'small-claims-online-filing-guide' },
+        ],
+      },
+      {
+        label: '소장/서류',
+        emoji: '📋',
+        spokes: [
+          { title: '소장 작성과 필요 서류', slug: 'complaint-writing-required-documents' },
+          { title: '소액소송 소장 양식 안내', slug: 'small-claims-complaint-template' },
+          { title: '청구원인 누락하면 각하될 수 있다', slug: 'missing-cause-of-action-leads-to-dismissal' },
+          { title: '소액소송 전체 절차 체크리스트', slug: 'full-process-checklist' },
+        ],
+      },
+      {
+        label: '사건 유형',
+        emoji: '📋',
+        spokes: [
+          { title: '빌려준 돈 못 받을 때 소송 방법', slug: 'lending-money-not-returned-lawsuit' },
+          { title: '중고거래 사기 소액소송', slug: 'used-goods-fraud-small-claims' },
+          { title: '보증금 반환 소송 준비', slug: 'deposit-lawsuit-preparation' },
+        ],
+      },
+      {
+        label: '절차/판결',
+        emoji: '📋',
+        spokes: [
+          { title: '소장 제출부터 판결까지 전체 절차', slug: 'complaint-to-judgment-full-procedure' },
+          { title: '소액소송 자주 묻는 질문 가이드', slug: 'small-claims-faq-guide' },
+        ],
+      },
     ],
     caseRefs: [
       {
