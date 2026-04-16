@@ -126,19 +126,78 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '피해자와 합의하면 처벌이 크게 감경됩니다. 피해 전액 변제와 합의, 초범인 경우 기소유예나 집행유예를 받을 가능성이 높아집니다.',
       },
     ],
-    spokeLinks: [
-      { title: '사기죄 고소장 쓰기 전에 정리할 것', slug: 'fraud-complaint-preparation' },
-      { title: '투자 사기 의심될 때 먼저 확인할 3가지', slug: 'investment-fraud-checklist' },
-      { title: '중고거래 사기 당했을 때 증거 모으는 법', slug: 'used-market-fraud-evidence' },
-      { title: '사기 피해 어디부터 시작해야 하나', slug: 'fraud-victim-where-to-start' },
-      { title: '보이스피싱 즉시 대응법', slug: 'voice-phishing-immediate-response' },
-      { title: '사기죄 vs 횡령 vs 배임 차이', slug: 'fraud-vs-embezzlement-vs-breach-of-trust' },
-      { title: '사기 피해 신고 시 흔히 하는 실수', slug: 'fraud-report-common-mistakes' },
-      { title: '사기 고소 전 준비 서류 목록', slug: 'fraud-complaint-required-documents' },
-      { title: '사기죄 성립 요건 정리', slug: 'fraud-crime-establishment-requirements' },
-      { title: '사기 합의금 적정 금액 기준', slug: 'fraud-settlement-appropriate-amount' },
-      { title: '사기 혐의 대응 방법', slug: 'fraud-accused-response' },
-      { title: '허위고소 반소 위험', slug: 'false-accusation-counter-complaint-risk' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '피해자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '사기 피해 어디부터 시작해야 하나', slug: 'fraud-victim-where-to-start' },
+          { title: '사기죄 고소장 쓰기 전에 정리할 것', slug: 'fraud-complaint-preparation' },
+          { title: '사기 고소 절차 총정리', slug: 'fraud-complaint-procedure-comprehensive' },
+          { title: '경찰 고소 시 핵심증거 5가지', slug: 'fraud-complaint-police-key-evidence-5' },
+        ],
+      },
+      {
+        label: '중고거래 사기',
+        emoji: '📋',
+        spokes: [
+          { title: '중고거래 사기 환불 방법', slug: 'secondhand-trade-fraud-refund-method' },
+          { title: '중고거래 사기 증거 수집', slug: 'used-market-fraud-evidence' },
+          { title: '중고거래 경찰 신고 준비', slug: 'used-market-fraud-police-prep' },
+          { title: '온라인 쇼핑 사기 환불', slug: 'online-shopping-fraud-refund' },
+        ],
+      },
+      {
+        label: '보이스피싱',
+        emoji: '📋',
+        spokes: [
+          { title: '보이스피싱 즉시 대응 5단계', slug: 'voice-phishing-immediate-5steps' },
+          { title: '고령자 보이스피싱 구제', slug: 'fraud-elderly-voice-phishing-recovery' },
+          { title: '보이스피싱 피해금 환급', slug: 'voice-phishing-fund-recovery-process' },
+          { title: '보이스피싱 공범 방어', slug: 'fraud-voice-phishing-money-mule-defense' },
+        ],
+      },
+      {
+        label: '투자/코인/대출 사기',
+        emoji: '📋',
+        spokes: [
+          { title: '투자사기 체크리스트', slug: 'investment-fraud-checklist' },
+          { title: '코인 사기 신고 방법', slug: 'fraud-crypto-investment-scam-report' },
+          { title: '러그풀 증거 수집', slug: 'fraud-crypto-rug-pull-evidence' },
+          { title: '대출 사기 대응 가이드', slug: 'loan-fraud-response-guide' },
+        ],
+      },
+      {
+        label: '혐의자/피의자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '사기 혐의 방어 전략 가이드', slug: 'fraud-accused-defense-strategy-guide' },
+          { title: '사기 혐의 대응 방법', slug: 'fraud-accused-response' },
+          { title: '사기 혐의 반박 방법', slug: 'fraud-charge-rebuttal' },
+          { title: '허위고소 방어 전략', slug: 'fraud-false-accusation-defense' },
+        ],
+      },
+      {
+        label: '합의/처벌',
+        emoji: '📋',
+        spokes: [
+          { title: '합의와 양형 관계', slug: 'fraud-settlement-sentencing-impact' },
+          { title: '합의 감경 방법', slug: 'fraud-penalty-settlement-reduction' },
+          { title: '초범 반성문 작성', slug: 'fraud-first-offense-before-apology-letter' },
+          { title: '재범 양형 위험', slug: 'fraud-recidivist-sentencing-risk' },
+        ],
+      },
+      {
+        label: '법적 구분/절차',
+        emoji: '📋',
+        spokes: [
+          { title: '사기죄 성립 요건 정리', slug: 'fraud-crime-establishment-requirements' },
+          { title: '채무 vs 사기 구분', slug: 'fraud-debt-vs-crime-distinction' },
+          { title: '사기죄 공소시효', slug: 'fraud-statute-of-limitations-period' },
+          { title: '사기 민사소송 절차', slug: 'fraud-civil-lawsuit-procedure' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -274,119 +333,172 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
 
   assault: {
     overview:
-      '폭행죄(형법 제260조)는 사람의 신체에 대한 유형력 행사로 성립하며, 상해를 가한 경우 상해죄(형법 제257조)로 가중됩니다. 단순 폭행은 2년 이하의 징역 또는 500만원 이하의 벌금, 상해는 7년 이하의 징역 또는 1천만원 이하의 벌금에 처해집니다. 흉기를 사용한 특수폭행·특수상해는 처벌이 크게 가중됩니다. 폭행죄는 반의사불벌죄로 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없지만, 상해죄는 반의사불벌죄가 아니므로 합의하더라도 검찰이 기소할 수 있습니다. 피해자는 진단서 발급과 증거 확보가 최우선이고, 가해자는 합의를 통한 형사 처벌 감경을 검토해야 합니다. 정당방위가 인정되려면 현재의 부당한 침해에 대한 상당한 이유가 있는 방위 행위여야 하며, 실무상 인정 기준이 엄격합니다. 쌍방폭행의 경우 양쪽 모두 처벌받을 수 있으므로 사실관계를 정확히 정리하는 것이 중요합니다.',
+      '폭행죄(형법 제260조)는 사람의 신체에 대한 유형력 행사(때리기, 밀치기, 물건 던지기 등)로 성립하며, 2년 이하의 징역 또는 500만원 이하의 벌금에 처해집니다. 상해죄(형법 제257조)는 폭행으로 인해 신체 기능이 훼손되어 치료가 필요한 경우 성립하며, 7년 이하의 징역 또는 10년 이하의 자격정지에 처해집니다. 쌍방폭행 시 양쪽 모두 처벌 가능하며, 선제 공격 여부와 피해 정도에 따라 처벌 수위가 달라집니다. 폭행죄는 반의사불벌죄로 합의 시 공소 제기가 불가하지만, 상해죄는 반의사불벌죄가 아니므로 합의해도 검찰이 기소할 수 있습니다. 합의금은 진단서 주수, 부상 부위, 치료비를 기준으로 산정되며, 중상해(8주 이상)는 합의해도 기소될 가능성이 높습니다. 피해자는 즉시 진단서를 발급받고 CCTV·녹취·목격자 등 현장 증거를 확보하는 것이 핵심입니다. 피의자는 사실관계를 정리하고 정당방위 해당 여부를 검토해야 합니다. 정당방위가 인정되려면 현재의 부당한 침해에 대한 상당한 이유가 있는 방위 행위여야 하며, 실무상 인정 기준이 매우 엄격합니다.',
     perspectives: [
       {
-        label: '피해를 입었습니다',
+        label: '피해자입니다',
         emoji: '🔴',
         checks: [
-          '병원에서 진단서를 발급받고 부상 부위를 사진으로 촬영했는지 확인해보세요',
-          '현장 CCTV, 목격자 연락처 등 객관적 증거를 확보했는지 확인해보세요',
-          '경찰에 고소장을 제출하고 사건접수증을 받았는지 확인해보세요',
+          '진단서를 즉시 발급받고 부상 부위를 사진으로 촬영했는지 확인해보세요',
+          '현장 CCTV 보존 요청, 목격자 연락처, 녹취 등 증거를 확보했는지 확인해보세요',
+          '경찰에 신고하고 고소장을 제출했는지 확인해보세요',
         ],
       },
       {
-        label: '혐의를 받고 있습니다',
+        label: '피의자/혐의자입니다',
         emoji: '🟡',
         checks: [
-          '사건 경위를 시간순으로 정리하고 정당방위 해당 여부를 확인해보세요',
-          '피해자와의 합의 가능성과 합의금 기준을 파악해보세요',
-          '목격자나 CCTV 등 자신에게 유리한 증거를 확보했는지 확인해보세요',
+          '사건 경위를 시간순으로 정리하고 사실관계를 명확히 해보세요',
+          '정당방위 해당 여부를 객관적으로 확인해보세요',
+          '합의 시기와 적정 합의금을 검토해보세요',
         ],
       },
       {
-        label: '사실과 다르게 신고되었습니다',
+        label: '합의/처벌을 고민합니다',
         emoji: '🔵',
         checks: [
-          '실제 상황을 증명할 CCTV 영상이나 목격자 진술을 확보해보세요',
-          '정당방위 또는 쌍방폭행 상황이었는지 객관적으로 정리해보세요',
-          '허위신고에 대한 무고죄 반소 가능성을 검토해보세요',
+          '합의금 적정선을 진단서 주수와 치료비 기준으로 확인해보세요',
+          '합의서 작성 시 처벌불원 의사표시 포함 여부를 확인해보세요',
+          '합의 후 형사 감경 효과와 민사 손해배상 관계를 정리해보세요',
         ],
       },
     ],
     preparations: [
       {
-        title: '진단서 및 의료 기록 확보',
-        desc: '부상 직후 병원에서 진단서를 발급받으세요. 진단서에는 상해 부위, 치료 기간, 향후 치료 계획이 포함되어야 합니다.',
+        title: '진단서 발급',
+        desc: '부상 직후 정형외과 또는 응급실에서 진단서를 발급받으세요. 진단서에는 상해 부위, 치료 기간, 향후 치료 계획이 포함되어야 합니다.',
       },
       {
-        title: '현장 증거 수집',
-        desc: 'CCTV 보존 요청(통상 30일 이내), 목격자 연락처 확보, 현장 사진 촬영 등을 신속히 진행해보세요.',
+        title: '현장 증거 확보',
+        desc: 'CCTV 보존 요청(통상 30일 이내), 현장 사진 촬영, 녹취 파일 보관 등을 신속히 진행해보세요.',
       },
       {
-        title: '고소장 작성',
-        desc: '피해 일시·장소·경위를 구체적으로 기재하고, 증거 목록을 첨부하여 경찰서에 제출해보세요.',
+        title: '목격자 연락처 확보',
+        desc: '현장에 있었던 목격자의 연락처를 받아두세요. 목격자 진술은 수사와 재판에서 강력한 증거가 됩니다.',
       },
       {
-        title: '합의 조건 검토',
-        desc: '치료비, 위자료, 일실소득 등을 포함한 합의금을 산정하고, 합의서 작성 시 처벌불원 의사표시 포함 여부를 확인해보세요.',
+        title: '치료비 영수증 보관',
+        desc: '병원비, 약값, 교통비 등 치료 관련 모든 영수증을 보관해보세요. 민사 손해배상 청구 시 중요한 증거가 됩니다.',
       },
       {
-        title: '법률 상담 준비',
-        desc: '사건 경위 요약, 진단서 사본, 증거 자료를 준비하여 변호사 상담을 받아보세요. 대한법률구조공단 무료 상담도 가능합니다.',
+        title: '경찰 진술 준비',
+        desc: '사건 경위를 육하원칙에 따라 정리하고, 증거 목록을 첨부하여 경찰 진술에 대비해보세요.',
       },
     ],
     faqs: [
       {
         question: '폭행죄와 상해죄의 차이는 무엇인가요?',
         answer:
-          '폭행죄는 신체에 유형력을 행사한 경우, 상해죄는 그로 인해 신체의 건강 상태를 불량하게 변경한 경우 성립합니다. 진단서가 나오면 상해죄로 처벌받을 수 있습니다.',
-      },
-      {
-        question: '폭행 합의금은 어느 정도인가요?',
-        answer:
-          '단순 폭행은 50~200만원, 2주 이상 상해는 200~500만원, 중상해는 1,000만원 이상이 일반적이나, 사안에 따라 크게 달라집니다.',
-      },
-      {
-        question: '정당방위는 어떤 경우에 인정되나요?',
-        answer:
-          '자기 또는 타인의 법익에 대한 현재의 부당한 침해를 방위하기 위한 상당한 이유가 있는 행위여야 합니다. 실무상 방위 행위의 상당성 기준이 엄격합니다.',
+          '폭행죄는 신체에 유형력을 행사한 경우(때리기, 밀치기), 상해죄는 그로 인해 신체의 건강 상태가 불량하게 변경된 경우(치료 필요) 성립합니다. 진단서가 발급되면 상해죄가 적용될 수 있습니다.',
       },
       {
         question: '쌍방폭행이면 둘 다 처벌받나요?',
         answer:
-          '네, 쌍방폭행은 양쪽 모두 처벌 대상이 됩니다. 다만 피해 정도, 선제 공격 여부 등에 따라 처벌 수위가 달라질 수 있습니다.',
+          '네, 쌍방폭행은 양쪽 모두 처벌 대상이 됩니다. 다만 선제 공격 여부, 피해 정도, 폭행의 경위 등에 따라 처벌 수위가 달라질 수 있습니다.',
       },
       {
-        question: '폭행 초범이면 어떤 처벌을 받나요?',
+        question: '합의금 기준은 어떻게 되나요?',
         answer:
-          '단순 폭행 초범은 대부분 벌금형(50~100만원)이 선고됩니다. 상해의 경우 진단 기간과 합의 여부에 따라 벌금형에서 집행유예까지 다양합니다.',
+          '단순 폭행은 50~200만원, 2주 이상 상해는 200~500만원, 중상해(8주 이상)는 1,000만원 이상이 일반적이나, 부상 부위·치료비·일실소득 등에 따라 크게 달라집니다.',
       },
       {
-        question: 'CCTV 영상은 어떻게 확보하나요?',
+        question: '진단서 몇 주부터 기소되나요?',
         answer:
-          '경찰에 CCTV 보존 및 확보를 요청하거나, 개인정보보호법에 따라 본인 영상에 대해 직접 열람·제공을 요청할 수 있습니다. 보존 기간은 보통 30일입니다.',
+          '명확한 기준은 없지만, 실무상 3주 이상 진단이면 기소 가능성이 높아지고, 8주 이상 중상해는 합의해도 기소될 수 있습니다. 2주 이하는 약식기소(벌금)가 일반적입니다.',
       },
       {
-        question: '합의하면 전과 기록이 남지 않나요?',
+        question: 'CCTV가 없으면 어떻게 하나요?',
         answer:
-          '폭행죄(반의사불벌죄)는 합의 시 공소 제기가 불가하여 전과가 남지 않습니다. 상해죄는 합의해도 검찰이 기소할 수 있어 전과가 남을 수 있습니다.',
+          '목격자 진술, 녹음 파일, 부상 부위 사진, 진단서 등 다른 증거로 보완할 수 있습니다. 블랙박스 영상도 유력한 증거가 됩니다.',
       },
       {
-        question: '직장 내 폭행은 어떻게 대응하나요?',
+        question: '정당방위 인정 기준은 무엇인가요?',
         answer:
-          '형사고소와 별도로 근로기준법상 직장 내 괴롭힘 신고, 고용노동부 진정, 산재 신청 등을 병행할 수 있습니다.',
+          '자기 또는 타인의 법익에 대한 현재의 부당한 침해를 방위하기 위한 상당한 이유가 있는 행위여야 합니다. 방위 행위가 공격을 초과하면 과잉방위로 감경 또는 면제됩니다.',
+      },
+      {
+        question: '합의하면 처벌을 안 받나요?',
+        answer:
+          '폭행죄(반의사불벌죄)는 합의 시 공소 제기가 불가하여 전과가 남지 않습니다. 상해죄는 합의해도 검찰이 기소할 수 있으나, 양형에서 유리하게 작용합니다.',
+      },
+      {
+        question: '민사 손해배상도 별도로 청구할 수 있나요?',
+        answer:
+          '네, 형사 합의와 별도로 민사소송을 통해 치료비, 위자료, 일실소득 등 손해배상을 청구할 수 있습니다. 형사 합의서에 민사 청구권 포기 조항이 있는지 확인하세요.',
       },
     ],
-    spokeLinks: [
-      { title: '폭행 피해 증거 모으는 법', slug: 'assault-evidence-collection' },
-      { title: '정당방위 인정 기준과 준비 포인트', slug: 'self-defense-criteria' },
-      { title: '폭행 합의금 적정 금액 기준', slug: 'assault-settlement-amount-guide' },
-      { title: '폭행죄와 상해죄 차이점과 처벌 수위', slug: 'assault-vs-injury-penalties' },
-      { title: '폭행 피해 어디부터 시작해야 하나', slug: 'assault-victim-where-to-start' },
-      { title: '폭행 피해자가 자주 하는 실수', slug: 'assault-victim-common-mistakes' },
-      { title: '폭행 피해자 고소장 작성법', slug: 'assault-complaint-writing' },
-      { title: '폭행 증거 체크리스트', slug: 'assault-evidence-checklist' },
-      { title: '폭행 혐의 대응 방법', slug: 'assault-accusation-defense' },
-      { title: '정당방위 입증 방법', slug: 'self-defense-proof' },
-      { title: '쌍방폭행 억울할 때 대처법', slug: 'mutual-assault-unfair-accusation' },
-      { title: 'CCTV 증거 확보 및 보존 요청', slug: 'cctv-evidence-preservation-request' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '피해자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '폭행 피해 어디부터 시작해야 하나', slug: 'assault-victim-where-to-start' },
+          { title: '폭행 증거 수집 절차', slug: 'assault-evidence-collection-procedure' },
+          { title: '폭행 고소장 작성법', slug: 'assault-complaint-writing' },
+          { title: '폭행 피해 즉시 증거 확보', slug: 'assault-immediate-evidence-steps' },
+        ],
+      },
+      {
+        label: '피의자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '폭행 피의자 어디부터 시작해야 하나', slug: 'assault-accused-where-to-start' },
+          { title: '폭행 혐의 첫 대응', slug: 'assault-charged-first-response' },
+          { title: '폭행 혐의 방어 전략', slug: 'assault-accusation-defense' },
+          { title: '허위 폭행 신고 방어', slug: 'assault-false-accusation-defense' },
+        ],
+      },
+      {
+        label: '합의/처벌',
+        emoji: '📋',
+        spokes: [
+          { title: '폭행 합의금 가이드', slug: 'assault-settlement-amount-guide' },
+          { title: '폭행 합의금 적정 기준', slug: 'assault-settlement-amount-standard' },
+          { title: '폭행 초범 처벌 수위', slug: 'assault-first-offense-penalty' },
+          { title: '가해자가 합의를 거부할 때', slug: 'offender-refuses-settlement' },
+        ],
+      },
+      {
+        label: '폭행 유형',
+        emoji: '📋',
+        spokes: [
+          { title: '폭행죄와 상해죄 차이점', slug: 'assault-vs-injury-penalties' },
+          { title: '상해죄 처벌 수위', slug: 'injury-vs-assault-penalty' },
+          { title: '쌍방폭행 vs 정당방위 구분', slug: 'mutual-assault-self-defense-distinction' },
+          { title: '재범 가중 처벌', slug: 'assault-repeat-offense-escalation' },
+        ],
+      },
+      {
+        label: '정당방위',
+        emoji: '📋',
+        spokes: [
+          { title: '정당방위 인정 기준', slug: 'self-defense-criteria' },
+          { title: '정당방위 판례 분석', slug: 'self-defense-case-analysis' },
+          { title: '정당방위 증거 요건', slug: 'self-defense-evidence-requirements' },
+        ],
+      },
+      {
+        label: '증거/진단',
+        emoji: '📋',
+        spokes: [
+          { title: '폭행 증거 체크리스트', slug: 'assault-evidence-checklist' },
+          { title: '치료비 타임라인 정리', slug: 'assault-medical-cost-timeline' },
+          { title: '과장 진단 대응 방법', slug: 'assault-exaggerated-injury-claim' },
+          { title: '형사 vs 민사 청구 비교', slug: 'assault-criminal-vs-civil-claim' },
+        ],
+      },
     ],
     caseRefs: [
       {
         scene: '술자리에서 시비가 붙어 상대방에게 맞아 전치 2주 진단을 받은 상황',
         issue: '상대방이 먼저 때렸으나 쌍방폭행으로 처리될 가능성이 있는 경우',
         prep: '현장 CCTV 보존 요청, 진단서 발급, 목격자 연락처를 확보하여 선제 공격자를 특정해보세요',
+      },
+      {
+        scene: '직장 동료에게 업무 중 폭행을 당하여 상해 진단을 받은 상황',
+        issue: '직장 내 폭행으로 형사고소와 근로기준법상 직장 내 괴롭힘 신고를 병행해야 하는 경우',
+        prep: '진단서 발급, 직장 내 CCTV·목격자 확보, 고용노동부 진정과 경찰 고소를 병행하여 진행해보세요',
       },
     ],
   },
@@ -700,124 +812,176 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
 
   defamation: {
     overview:
-      '명예훼손은 형법 제307조에 따라 공연히 사실 또는 허위사실을 적시하여 사람의 명예를 훼손하는 행위이며, 모욕죄(형법 제311조)는 사실 적시 없이 경멸적 감정을 표현하는 행위입니다. 온라인 명예훼손은 정보통신망법 제70조가 적용되어 오프라인보다 형량이 가중됩니다. 사실적시 명예훼손은 2년 이하의 징역 또는 500만원 이하의 벌금, 허위사실 적시는 5년 이하의 징역 또는 1,000만원 이하의 벌금에 처해집니다. 정보통신망을 이용한 경우 각각 3년/7년 이하로 가중됩니다. 명예훼손은 반의사불벌죄이므로 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다. 중요한 점은 사실을 말했더라도 명예훼손이 성립할 수 있다는 것입니다. 다만 형법 제310조에 의해 진실한 사실로서 오로지 공공의 이익에 관한 것일 때는 위법성이 조각됩니다. 게시물이 빠르게 확산되는 경우 임시조치 신청, 방송통신심의위원회 신고 등 긴급 대응이 필요합니다.',
+      '명예훼손은 형법 제307조에 따라 공연히 사실 또는 허위사실을 적시하여 사람의 명예를 훼손하는 범죄입니다. 사실적시 명예훼손은 2년 이하의 징역이나 500만 원 이하의 벌금, 허위사실적시 명예훼손은 5년 이하의 징역이나 1천만 원 이하의 벌금에 처해집니다. 정보통신망 이용촉진 및 정보보호 등에 관한 법률 제70조에 의해 온라인 명예훼손은 가중처벌되어 사실적시 3년 이하, 허위사실적시 7년 이하의 징역이 가능합니다. 모욕죄는 형법 제311조에 따라 1년 이하의 징역이나 200만 원 이하의 벌금에 처해집니다. 명예훼손은 반의사불벌죄로, 피해자가 처벌을 원하지 않으면 처벌할 수 없습니다. 사실을 말해도 명예훼손이 성립할 수 있으나, 형법 제310조에 따라 오로지 공공의 이익에 관한 때에는 위법성이 조각됩니다. 대법원 2022다242649 판결에서도 허위사실 적시와 공익 항변의 한계를 명확히 하였습니다. 온라인 명예훼손은 확산 속도가 빠르므로 게시물 캡처와 임시조치 신청을 우선하는 것이 중요합니다. 피해자는 형사고소와 민사 손해배상 청구를 병행할 수 있습니다.',
     perspectives: [
       {
-        label: '명예훼손/모욕 피해를 입었습니다',
+        label: '내가 피해자인 경우입니다',
         emoji: '🔴',
         checks: [
-          '게시물 URL, 스크린샷, 작성일시 등 증거를 빠짐없이 보전했는지 확인해보세요',
-          '임시조치 신청이나 삭제 요청을 했는지 확인해보세요',
-          '고소장 제출을 위한 피의자 특정(IP 추적 등)이 가능한지 확인해보세요',
+          '게시물 캡처(URL, 작성 시간 포함)와 증거 보전을 완료했는지 확인해보세요',
+          '포털·플랫폼에 임시조치(게시물 삭제 또는 접근 차단)를 신청했는지 확인해보세요',
+          '형사고소장 작성과 민사 손해배상 청구를 병행할지 검토해보세요',
         ],
       },
       {
-        label: '명예훼손/모욕 혐의를 받고 있습니다',
+        label: '내가 글이나 댓글로 문제가 된 경우입니다',
         emoji: '🟡',
         checks: [
-          '해당 표현의 맥락과 의도를 구체적으로 정리해보세요',
-          '공공의 이익을 위한 것이었는지(형법 제310조 위법성 조각사유) 확인해보세요',
-          '피해자와의 합의 가능성과 조건을 검토해보세요',
+          '표현의 맥락과 의도를 정리하고, 사실 적시인지 의견 표명인지 구분해보세요',
+          '공공의 이익을 위한 목적이었음을 소명할 자료를 준비해보세요',
+          '피해자와의 합의 가능성과 합의금 수준을 검토해보세요',
         ],
       },
       {
-        label: '정당한 비판인데 고소당했습니다',
+        label: '삭제, 합의, 고소를 고민하는 경우입니다',
         emoji: '🔵',
         checks: [
-          '표현이 진실한 사실에 기반한 것인지 증거를 확보해보세요',
-          '공공의 이익을 위한 목적이었음을 입증할 자료를 정리해보세요',
-          '허위고소에 대한 무고죄 반소 가능성을 검토해보세요',
+          '게시물 삭제 요청과 형사고소 중 어느 것이 우선인지 판단해보세요',
+          '합의금 기준(피해 정도, 확산 범위, 고의성)을 파악해보세요',
+          '형사고소와 민사 손해배상 병행 시 절차와 비용을 비교해보세요',
         ],
       },
     ],
     preparations: [
       {
-        title: '증거 보전',
-        desc: '게시물 URL, 전체 페이지 스크린샷(URL 표시줄 포함), 작성일시, 댓글 등을 캡처하여 보관해보세요. 삭제될 수 있으므로 발견 즉시 보전이 중요합니다.',
+        title: '게시물 스크린샷 확보',
+        desc: 'URL, 작성 시간, 작성자 정보가 모두 보이도록 게시물 전체를 캡처해보세요. 삭제 전에 증거를 확보하는 것이 가장 중요합니다.',
       },
       {
-        title: '임시조치 및 삭제 요청',
-        desc: '포털·SNS 임시조치 신청, 방송통신심의위원회 심의 요청 등으로 확산을 방지해보세요. 임시조치는 30일간 게시물을 차단합니다.',
+        title: '작성자 특정(IP 추적)',
+        desc: '익명 게시물인 경우 수사기관을 통한 IP 추적이나 정보통신서비스 제공자에 대한 정보제공 청구로 작성자를 특정할 수 있습니다.',
+      },
+      {
+        title: '피해 내용 정리',
+        desc: '명예훼손의 구체적 내용(사실적시인지 허위사실인지), 확산 범위, 피해 정도(정신적·경제적 손해)를 정리해보세요.',
       },
       {
         title: '고소장 작성',
-        desc: '피해 내용, 명예훼손 표현의 구체적 적시, 공연성과 전파가능성을 명시하고 증거를 첨부하여 고소장을 작성해보세요.',
+        desc: '피해 경위를 육하원칙에 따라 정리하고, 적시된 사실의 내용, 공연성, 명예훼손의 고의를 구체적으로 기재해보세요.',
       },
       {
-        title: '작성자 특정',
-        desc: '익명 게시글의 경우 수사기관을 통한 IP 추적, 통신자료 제공 요청 등으로 작성자를 특정해야 합니다.',
-      },
-      {
-        title: '민·형사 병행 검토',
-        desc: '형사고소와 함께 민사 손해배상 청구(위자료)를 병행할 수 있습니다. 민사에서 인정되는 위자료는 통상 수백만원 수준입니다.',
+        title: '민사 손해배상 청구 검토',
+        desc: '형사고소와 별도로 민사 손해배상(위자료) 청구가 가능합니다. 피해 규모에 따라 500만~3,000만 원 수준의 위자료가 인정되는 경우가 많습니다.',
       },
     ],
     faqs: [
       {
-        question: '사실을 말했는데도 명예훼손이 되나요?',
+        question: '사실인데도 명예훼손이 되나요?',
         answer:
-          '네, 사실적시 명예훼손도 형법 제307조 제1항에 의해 처벌됩니다. 다만 진실한 사실로서 오로지 공공의 이익에 관한 것이면 형법 제310조에 의해 위법성이 조각됩니다.',
+          '사실을 말해도 공연히 타인의 명예를 훼손하면 형법 제307조 제1항에 의해 처벌됩니다. 다만 형법 제310조에 따라 오로지 공공의 이익에 관한 때에는 위법성이 조각됩니다.',
       },
       {
-        question: '명예훼손과 모욕의 차이는 무엇인가요?',
+        question: '명예훼손과 모욕은 어떻게 다른가요?',
         answer:
-          '명예훼손은 구체적 사실을 적시한 경우이고, 모욕은 사실 적시 없이 경멸적 감정을 표현한 경우입니다. 모욕죄는 1년 이하 징역 또는 200만원 이하 벌금으로 형량이 낮습니다.',
+          '명예훼손은 구체적 사실을 적시하여 명예를 훼손하는 것이고, 모욕은 사실 적시 없이 경멸적 표현으로 사회적 평가를 저하시키는 것입니다. 모욕죄는 1년 이하 징역 또는 200만 원 이하 벌금입니다.',
       },
       {
-        question: '인터넷 댓글도 고소할 수 있나요?',
+        question: '온라인 게시물은 어떻게 삭제하나요?',
         answer:
-          '네, 댓글도 공연성이 인정되므로 명예훼손 또는 모욕으로 고소할 수 있습니다. 온라인의 경우 정보통신망법이 적용되어 처벌이 가중됩니다.',
+          '포털·플랫폼에 임시조치(정보통신망법 제44조의2)를 신청하면 30일간 게시물 접근이 차단됩니다. 방송통신심의위원회에 심의를 요청할 수도 있습니다.',
       },
       {
-        question: '고소 기한이 있나요?',
+        question: '합의금은 보통 얼마인가요?',
         answer:
-          '명예훼손·모욕은 반의사불벌죄로 고소 기한의 제한은 없지만, 공소시효(명예훼손 5년, 모욕 3년)가 지나면 처벌이 불가합니다.',
+          '명예훼손 합의금은 피해 정도, 확산 범위, 고의성, 가해자의 자력 등에 따라 다릅니다. 일반적으로 300만~2,000만 원 선이며, 온라인 확산이 심한 경우 더 높아질 수 있습니다.',
       },
       {
-        question: '명예훼손 합의금은 어느 정도인가요?',
+        question: '단톡방에서도 명예훼손이 성립하나요?',
         answer:
-          '사안에 따라 다르지만, 온라인 명예훼손은 200~500만원, 허위사실 유포는 500~1,000만원 수준에서 합의가 이루어지는 경우가 많습니다.',
+          '단체채팅방도 불특정 또는 다수가 인식할 수 있는 상태이므로 공연성이 인정될 수 있습니다. 참여자 수, 전파 가능성 등을 종합하여 판단합니다.',
       },
       {
-        question: '게시물을 삭제하면 처벌을 피할 수 있나요?',
+        question: '반의사불벌죄란 무엇인가요?',
         answer:
-          '게시물 삭제 자체가 처벌을 면하게 하지는 않습니다. 이미 캡처된 증거가 있으면 수사가 진행됩니다. 다만 삭제는 양형에서 유리한 정상참작 사유가 될 수 있습니다.',
+          '피해자가 처벌을 원하지 않는다는 의사를 표시하면 처벌할 수 없는 범죄입니다. 명예훼손죄와 모욕죄가 대표적이며, 합의 후 처벌불원서를 제출하면 공소가 기각됩니다.',
       },
       {
-        question: '단체 카톡방 발언도 명예훼손이 되나요?',
+        question: '민사 손해배상은 얼마나 받을 수 있나요?',
         answer:
-          '네, 카톡 단체방도 불특정 또는 다수에게 전파될 가능성이 있으면 공연성이 인정되어 명예훼손이 성립할 수 있습니다.',
+          '명예훼손으로 인한 위자료는 통상 300만~3,000만 원 수준이며, 피해의 정도, 확산 범위, 가해자의 고의·과실 정도에 따라 달라집니다. 재산상 손해가 있으면 별도 청구도 가능합니다.',
       },
       {
-        question: '익명 게시글 작성자를 어떻게 찾나요?',
+        question: '무고로 역고소할 수 있나요?',
         answer:
-          '경찰에 고소하면 수사기관이 플랫폼에 통신자료 제공을 요청하여 IP 주소를 확인하고, 이를 통해 작성자를 특정합니다.',
+          '상대방이 허위 사실로 고소한 경우 무고죄(형법 제156조)로 역고소할 수 있습니다. 무고죄는 10년 이하의 징역 또는 1,500만 원 이하의 벌금에 처해집니다.',
       },
     ],
-    spokeLinks: [
-      { title: '명예훼손 고소장 쓰기 전 준비할 것', slug: 'defamation-complaint-prep' },
-      { title: '악플로 명예훼손 당했을 때 대응법', slug: 'online-defamation-response' },
-      { title: '사실적시 명예훼손과 허위사실 명예훼손 차이', slug: 'fact-vs-false-defamation' },
-      { title: '명예훼손 vs 모욕죄 차이점', slug: 'defamation-vs-insult-comparison' },
-      { title: '명예훼손 피해 어디부터 시작해야 하나', slug: 'defamation-victim-where-to-start' },
-      { title: '온라인 명예훼손 증거 수집 방법', slug: 'online-defamation-evidence-collection' },
-      { title: '명예훼손 성립 요건 체크리스트', slug: 'defamation-requirements-checklist' },
-      { title: '명예훼손 합의금 적정 금액 기준', slug: 'defamation-settlement-amount-guide' },
-      { title: '명예훼손 고소 시 흔히 하는 실수', slug: 'defamation-complaint-common-mistakes' },
-      { title: '명예훼손 고소당했을 때 대응법', slug: 'defamation-accused-response' },
-      { title: '정당한 비판인데 고소당했을 때', slug: 'legitimate-criticism-prosecution' },
-      { title: '익명 게시글 작성자 특정 방법', slug: 'anonymous-poster-identification' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '피해자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '명예훼손 피해자 어디서부터 시작할까', slug: 'defamation-victim-where-to-start' },
+          { title: '온라인 명예훼손 고소 증거 확보법', slug: 'online-defamation-complaint-evidence' },
+          { title: '명예훼손 고소장 작성 가이드', slug: 'defamation-complaint-writing-guide' },
+          { title: '익명 게시자 신원 특정 방법', slug: 'anonymous-poster-identification' },
+        ],
+      },
+      {
+        label: '피의자/혐의자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '명예훼손 혐의자 어디서부터 시작할까', slug: 'defamation-accused-where-to-start' },
+          { title: '명예훼손 방어 전략 총정리', slug: 'defamation-accused-defense-strategy' },
+          { title: '사실적시 명예훼손 혐의 대응법', slug: 'truth-defamation-accused-response' },
+          { title: '공익 항변으로 위법성 조각 받는 법', slug: 'public-interest-defamation-defense' },
+        ],
+      },
+      {
+        label: '명예훼손 성립 요건',
+        emoji: '📋',
+        spokes: [
+          { title: '명예훼손 성립 요건 체크리스트', slug: 'defamation-requirements-checklist' },
+          { title: '사실적시 vs 허위사실 명예훼손 차이', slug: 'fact-vs-false-defamation' },
+          { title: '사실이어도 유죄가 되는 경우', slug: 'defamation-truth-still-guilty' },
+          { title: '모욕죄 성립 요건과 처벌 수위', slug: 'online-insult-lawsuit-penalty' },
+        ],
+      },
+      {
+        label: '합의/처벌',
+        emoji: '📋',
+        spokes: [
+          { title: '명예훼손 합의금 기준과 절차', slug: 'defamation-settlement-amount-guide' },
+          { title: '명예훼손 손해배상 금액 기준', slug: 'defamation-damages-amount-standard' },
+          { title: '합의와 처벌 감경 효과', slug: 'defamation-penalty-settlement-reduction' },
+        ],
+      },
+      {
+        label: '온라인 특수',
+        emoji: '📋',
+        spokes: [
+          { title: '온라인 명예훼손 대응 가이드', slug: 'online-defamation-response' },
+          { title: '온라인 명예훼손 소송 절차', slug: 'online-defamation-lawsuit-process' },
+          { title: '직장 내 명예훼손 대응법', slug: 'workplace-defamation-by-colleague' },
+          { title: '회사 리뷰 명예훼손 대응', slug: 'defamation-employer-review-response' },
+        ],
+      },
+      {
+        label: '역고소/무고',
+        emoji: '📋',
+        spokes: [
+          { title: '명예훼손 역고소와 허위고소 대응', slug: 'defamation-reverse-false-accusation' },
+          { title: '이웃 간 허위사실 유포 대응', slug: 'defamation-false-accusation-neighbor' },
+          { title: '정당한 비판과 명예훼손의 경계', slug: 'legitimate-criticism-prosecution' },
+        ],
+      },
     ],
     caseRefs: [
       {
-        scene: 'SNS에서 전 직장 상사의 직장 내 괴롭힘을 폭로하는 게시물을 올린 상황',
-        issue: '사실적시 명예훼손 해당 여부와 공익 목적 위법성 조각이 쟁점인 경우',
-        prep: '괴롭힘 증거(메신저, 녹음), 게시 목적(공익성 입증 자료), 표현의 상당성을 정리해보세요',
+        scene: '온라인 플랫폼에서 허위사실이 담긴 영상이 반복 게시되어 명예가 훼손된 상황',
+        issue: '정보통신망법 위반(명예훼손)의 성립 요건과 비방 목적 인정 여부가 쟁점인 경우',
+        prep: '게시물 URL과 스크린샷, 허위사실 입증 자료, 확산 범위 증빙을 확보하여 형사고소와 임시조치를 동시에 진행해보세요',
       },
       {
-        scene: '인터넷 커뮤니티에서 익명으로 허위사실이 유포되어 사업에 피해를 입은 상황',
-        issue: '작성자 특정이 어렵고 게시물이 빠르게 확산되는 경우',
-        prep: '게시물 캡처(URL 포함), 임시조치 신청, 경찰 고소를 통한 IP 추적을 진행해보세요',
+        scene: '상대방이 사실을 적시하여 명예를 훼손했으나 공공의 이익을 주장하는 상황',
+        issue: '형법 제310조 공익 항변의 인정 범위와 위법성 조각 여부가 쟁점인 경우',
+        prep: '적시된 사실의 진위, 표현의 맥락, 공익 목적 여부를 정리하고 합의 또는 고소 여부를 판단해보세요',
+      },
+      {
+        scene: '익명 게시판에서 사실과 다른 내용으로 비방당하여 작성자를 특정하려는 상황',
+        issue: '익명 작성자의 IP 추적과 신원 특정 절차, 허위사실적시 명예훼손 입증이 쟁점인 경우',
+        prep: '게시물 증거 보전 후 수사기관에 고소하여 IP 추적을 요청하거나, 정보통신서비스 제공자에게 정보제공 청구를 진행해보세요',
       },
     ],
   },
@@ -948,118 +1112,163 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
 
   stalking: {
     overview:
-      '스토킹은 상대방의 의사에 반하여 정당한 이유 없이 반복적으로 접근·연락·감시하는 행위로, 2021년 시행된 스토킹범죄의 처벌 등에 관한 법률(스토킹처벌법)에 의해 처벌됩니다. 스토킹 행위는 3년 이하의 징역 또는 3,000만원 이하의 벌금, 스토킹 범죄(반복적 스토킹 행위)는 5년 이하의 징역 또는 5,000만원 이하의 벌금에 처해집니다. 피해자가 신고하면 경찰은 긴급응급조치(접근금지, 연락금지 등)를 할 수 있고, 검찰은 법원에 잠정조치(2개월, 연장 가능)를 청구할 수 있습니다. 헤어진 연인의 반복 연락, 직장·집 앞에서 기다리는 행위, SNS DM 반복 전송, 선물 반복 전달 등이 모두 스토킹에 해당할 수 있습니다. 피해자는 증거 확보가 핵심이며, 가해자로 지목된 경우에도 사실관계를 정확히 정리하여 대응해야 합니다. 스토킹은 에스컬레이션(행위 강도 증가) 위험이 높은 범죄이므로 초기 대응이 매우 중요합니다.',
+      '스토킹처벌법(스토킹범죄의 처벌 등에 관한 법률)은 2021년 10월부터 시행되었습니다. 상대방의 의사에 반하여 반복적으로 접근·연락·미행·기다림·선물 전달·온라인 접근 등을 하는 행위가 스토킹에 해당합니다. 스토킹 행위는 3년 이하의 징역 또는 3,000만원 이하의 벌금에 처해지며, 반복 시 스토킹 범죄로 5년 이하의 징역 또는 5,000만원 이하의 벌금으로 가중됩니다. 피해자가 112에 신고하면 경찰이 긴급응급조치(접근금지, 연락금지 등)를 즉시 시행할 수 있고, 검찰은 법원에 잠정조치(2개월, 연장 가능)를 청구할 수 있습니다. 접근금지 명령을 위반하면 별도의 처벌이 가해집니다. 헤어진 연인의 반복 연락이 가장 흔한 유형이며, 직장·학교 스토킹과 사이버 스토킹도 증가 추세입니다. 피해자는 112 신고 → 긴급응급조치 → 잠정조치 → 고소 순서로 대응하는 것이 효과적입니다. 증거 확보가 핵심이며, 문자·카톡 캡처, CCTV 영상, 목격자 진술, 녹음 파일 등을 날짜별로 정리해야 합니다. 스토킹은 행위 강도가 점차 높아지는 에스컬레이션 위험이 크므로 초기 대응이 매우 중요합니다.',
     perspectives: [
       {
-        label: '스토킹 피해를 입고 있습니다',
+        label: '스토킹 피해를 당하고 있습니다',
         emoji: '🔴',
         checks: [
-          '상대방의 접근·연락 시도를 날짜별로 기록하고 증거를 보전했는지 확인해보세요',
-          '경찰에 신고하여 긴급응급조치(접근금지)를 요청했는지 확인해보세요',
-          '피해자 신변보호 제도(범죄피해자 보호법)를 신청했는지 확인해보세요',
+          '112에 즉시 신고하고 긴급응급조치(접근금지)를 요청했는지 확인해보세요',
+          '문자·카톡 캡처, CCTV, 녹음 등 증거를 날짜별로 보전했는지 확인해보세요',
+          '경찰에 긴급응급조치를 요청하고 잠정조치 절차를 진행했는지 확인해보세요',
+        ],
+      },
+      {
+        label: '신고를 고민하고 있습니다',
+        emoji: '🟡',
+        checks: [
+          '상대방의 행위가 스토킹에 해당하는지 자가진단해보세요',
+          '증거가 충분한지 확인하고 부족한 부분을 보완해보세요',
+          '접근금지 신청에 필요한 서류를 준비해보세요',
         ],
       },
       {
         label: '스토킹 혐의를 받고 있습니다',
-        emoji: '🟡',
-        checks: [
-          '상대방과의 연락·접근 이력을 시간순으로 정리해보세요',
-          '정당한 사유가 있었는지(업무, 공동 자녀 양육 등) 확인해보세요',
-          '잠정조치 내용을 확인하고 위반하지 않도록 주의해보세요',
-        ],
-      },
-      {
-        label: '사실과 다르게 신고되었습니다',
         emoji: '🔵',
         checks: [
-          '실제 연락·접근이 상대방의 동의하에 이루어진 증거를 확보해보세요',
-          '우연한 마주침이었음을 입증할 객관적 자료(GPS, 일정표)를 정리해보세요',
-          '허위신고에 대한 무고죄 반소 가능성을 검토해보세요',
+          '상대방과의 연락 경위를 시간순으로 정리해보세요',
+          '정상적인 교류였음을 증명할 증거(쌍방 대화, 동의 흔적)를 확보해보세요',
+          '법률 조력인(변호사)을 선임하고 수사 대응을 준비해보세요',
         ],
       },
     ],
     preparations: [
       {
-        title: '증거 기록 및 보전',
-        desc: '상대방의 접근·연락 시도를 날짜, 시간, 장소, 방법별로 기록해보세요. 문자·메신저 캡처, CCTV, 목격자 진술 등 객관적 증거가 중요합니다.',
+        title: '증거 수집',
+        desc: '문자·카톡·DM 캡처, 통화 녹음, CCTV 보존 요청 등을 진행해보세요. 디지털 증거는 원본 파일과 스크린샷을 함께 보관하는 것이 안전합니다.',
       },
       {
-        title: '경찰 신고 및 긴급응급조치 요청',
-        desc: '112에 신고하면 경찰이 현장에서 접근금지, 연락금지 등 긴급응급조치를 할 수 있습니다. 신고 이력이 향후 잠정조치·재판에서 중요한 증거가 됩니다.',
+        title: '스토킹 일지 작성',
+        desc: '상대방의 접근·연락 시도를 날짜, 시간, 장소, 내용별로 기록해보세요. 구체적인 일지가 수사와 재판에서 강력한 증거가 됩니다.',
       },
       {
-        title: '접근금지 잠정조치 신청',
+        title: '112 신고',
+        desc: '112에 신고하면 경찰이 현장에서 긴급응급조치(접근금지, 연락금지)를 할 수 있습니다. 신고 이력 자체가 향후 잠정조치·재판에서 중요한 증거가 됩니다.',
+      },
+      {
+        title: '접근금지 신청서 준비',
         desc: '검찰을 통해 법원에 잠정조치(2개월, 2회 연장 가능)를 청구할 수 있습니다. 주거·직장 접근금지, 연락금지 등이 포함됩니다.',
       },
       {
-        title: '안전 계획 수립',
-        desc: '출퇴근 경로 변경, 현관 보안 강화, 긴급 연락망 구축 등 신변 보호 계획을 세워보세요. 범죄피해자 보호법에 따른 신변보호도 신청할 수 있습니다.',
-      },
-      {
-        title: '법률 상담 준비',
-        desc: '증거 자료, 피해 일지, 상대방 인적사항을 정리하여 변호사 상담을 받아보세요. 법률구조공단의 무료 상담과 대한법률구조공단 피해자 지원을 이용할 수 있습니다.',
+        title: '피해자 보호시설 확인',
+        desc: '범죄피해자 보호법에 따른 신변보호 제도, 여성긴급전화 1366, 피해자 국선변호사 지원 등을 미리 확인해보세요.',
       },
     ],
     faqs: [
       {
+        question: '어떤 행위가 스토킹에 해당하나요?',
+        answer:
+          '상대방의 의사에 반하여 접근·미행·기다림·지켜보기, 우편·전화·문자·SNS 등으로 반복 연락, 물건 전달, 주거 등 부근 배회 등이 모두 스토킹처벌법상 스토킹 행위에 해당합니다.',
+      },
+      {
         question: '헤어진 연인이 계속 연락하면 스토킹인가요?',
         answer:
-          '상대방이 연락 중단을 요청했음에도 반복적으로 연락하는 것은 스토킹에 해당할 수 있습니다. 거부 의사 표시 후에도 3회 이상 반복되면 스토킹 행위로 인정됩니다.',
+          '상대방이 연락 중단을 요청했음에도 반복적으로 연락하는 것은 스토킹에 해당할 수 있습니다. 거부 의사를 명확히 표시한 후에도 반복되면 스토킹 행위로 인정됩니다.',
       },
       {
-        question: '스토킹으로 신고하면 상대방이 바로 구속되나요?',
+        question: '신고하면 상대방이 바로 체포되나요?',
         answer:
-          '바로 구속되지는 않지만, 경찰이 긴급응급조치(접근금지)를 즉시 할 수 있습니다. 위반 시 구속 사유가 될 수 있으며, 법원의 잠정조치도 가능합니다.',
+          '바로 체포되지는 않지만, 경찰이 긴급응급조치(접근금지, 연락금지)를 즉시 시행할 수 있습니다. 긴급응급조치를 위반하면 구속 사유가 될 수 있습니다.',
       },
       {
-        question: '온라인 DM 반복 전송도 스토킹인가요?',
+        question: '접근금지 기간은 얼마나 되나요?',
         answer:
-          '네, 정보통신망을 이용하여 반복적으로 글·화상·음향을 도달하게 하는 것도 스토킹처벌법의 스토킹 행위에 해당합니다.',
+          '법원의 잠정조치는 2개월이며, 2회까지 연장할 수 있어 최대 6개월간 접근금지가 가능합니다. 잠정조치 위반 시 2년 이하의 징역 또는 2,000만원 이하의 벌금에 처해집니다.',
       },
       {
-        question: '스토킹 합의하면 처벌이 줄어드나요?',
+        question: '증거가 없으면 신고할 수 없나요?',
         answer:
-          '스토킹 범죄는 반의사불벌죄가 아니므로 합의해도 공소가 취소되지 않습니다. 다만 합의는 양형에서 유리한 정상참작 사유가 됩니다.',
+          '증거가 부족해도 신고 자체는 가능합니다. 신고 후 경찰이 수사를 진행하며, 신고 이력 자체도 향후 증거가 됩니다. 다만 증거가 많을수록 수사와 재판이 원활합니다.',
       },
       {
-        question: '접근금지 명령을 위반하면 어떻게 되나요?',
+        question: '직장에 찾아오면 어떻게 대응하나요?',
         answer:
-          '잠정조치를 위반하면 2년 이하의 징역 또는 2,000만원 이하의 벌금에 처해집니다. 위반 즉시 경찰에 신고하세요.',
+          '상대방의 의사에 반하여 직장 부근에서 기다리거나 찾아오는 행위는 스토킹처벌법에 명시된 스토킹 행위입니다. 즉시 112에 신고하고 직장 내 CCTV 보존을 요청하세요.',
       },
       {
-        question: '증거가 부족해도 신고할 수 있나요?',
+        question: '온라인 스토킹도 처벌되나요?',
         answer:
-          '네, 신고 자체는 증거 유무와 관계없이 가능합니다. 신고 후 경찰이 수사를 진행하며, 신고 이력 자체도 향후 증거가 됩니다. 다만 증거가 많을수록 수사가 원활합니다.',
+          '네, 정보통신망을 이용하여 반복적으로 글·사진·영상·음향을 도달하게 하는 것도 스토킹처벌법의 스토킹 행위에 해당합니다. SNS DM, 이메일, 메신저 등 모두 포함됩니다.',
       },
       {
-        question: '직장 앞에서 기다리는 것도 스토킹인가요?',
+        question: '스토킹 처벌 수위는 어떻게 되나요?',
         answer:
-          '상대방의 의사에 반하여 주거·직장·학교 등 부근에서 기다리거나 지켜보는 행위는 스토킹처벌법상 스토킹 행위에 명시적으로 포함됩니다.',
-      },
-      {
-        question: '스토킹 피해자 보호 제도에는 어떤 것이 있나요?',
-        answer:
-          '긴급응급조치(경찰), 잠정조치(법원), 신변보호(범죄피해자 보호법), 피해자 국선변호사, 주거지원 등이 있습니다. 여성긴급전화 1366에서도 상담을 받을 수 있습니다.',
+          '스토킹 행위는 3년 이하의 징역 또는 3,000만원 이하의 벌금이며, 반복 시 스토킹 범죄로 5년 이하의 징역 또는 5,000만원 이하의 벌금에 처해집니다. 흉기 사용 시 가중처벌됩니다.',
       },
     ],
-    spokeLinks: [
-      { title: '스토킹 피해 어디부터 시작해야 하나', slug: 'stalking-victim-where-to-start' },
-      { title: '스토킹 피해 신고 절차와 접근금지 신청', slug: 'stalking-report-and-restraining-order' },
-      { title: '스토킹 피해 대응 완벽 체크리스트', slug: 'stalking-response-complete-checklist' },
-      { title: '헤어진 연인의 반복 연락 스토킹 해당 여부', slug: 'ex-keeps-contacting-is-it-stalking' },
-      { title: '스토킹 증거 수집 시 흔히 하는 실수', slug: 'evidence-collection-common-mistakes' },
-      { title: '스토킹 고소장 작성 필요 서류', slug: 'complaint-filing-required-documents' },
-      { title: '온라인 DM 반복 전송 사이버 스토킹', slug: 'cyber-stalking-repeated-dm' },
-      { title: '스토킹 처벌 수위 벌금과 징역 기준', slug: 'punishment-level-fine-and-imprisonment' },
-      { title: '스토킹 고소당했을 때 대응', slug: 'stalking-accused-response' },
-      { title: '스토킹 허위신고 대응', slug: 'stalking-false-report-defense' },
-      { title: '스토킹 접근금지 기간과 위반 시 제재', slug: 'restraining-order-duration-and-penalty' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '피해자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '스토킹 피해 어디부터 시작해야 하나', slug: 'stalking-victim-where-to-start' },
+          { title: '스토킹 즉시 대응 가이드', slug: 'stalking-immediate-response' },
+          { title: '스토킹 피해자 체크리스트', slug: 'stalking-victim-checklist' },
+          { title: '스토킹 증거 수집 FAQ', slug: 'stalking-evidence-collection-faq' },
+        ],
+      },
+      {
+        label: '신고/보호조치',
+        emoji: '📋',
+        spokes: [
+          { title: '스토킹 신고와 접근금지 신청', slug: 'stalking-report-and-restraining-order' },
+          { title: '스토킹 긴급보호조치 안내', slug: 'stalking-emergency-protective-measures' },
+          { title: '스토킹 긴급조치 신청 방법', slug: 'stalking-emergency-measure-application' },
+          { title: '스토킹 고소 필요 서류', slug: 'complaint-filing-required-documents' },
+        ],
+      },
+      {
+        label: '혐의자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '스토킹 혐의 어디부터 시작해야 하나', slug: 'stalking-accused-where-to-start' },
+          { title: '스토킹 혐의 대응 방법', slug: 'stalking-accused-response' },
+          { title: '쌍방 연락 항변 전략', slug: 'stalking-mutual-contact-defense' },
+          { title: '정상적 연락이었음을 증명하는 방법', slug: 'stalking-accused-normal-contact-proof' },
+        ],
+      },
+      {
+        label: '상황별',
+        emoji: '📋',
+        spokes: [
+          { title: '헤어진 연인 연락 스토킹 기준', slug: 'ex-partner-contact-stalking-criteria' },
+          { title: '계속 연락하면 스토킹일까', slug: 'ex-keeps-contacting-is-it-stalking' },
+          { title: '직장 스토킹 대응 가이드', slug: 'stalking-workplace-harassment-stalking' },
+          { title: '사이버 스토킹 반복 DM 대응', slug: 'cyber-stalking-repeated-dm' },
+        ],
+      },
+      {
+        label: '법적 기준',
+        emoji: '📋',
+        spokes: [
+          { title: '스토킹 법적 기준 총정리', slug: 'stalking-legal-criteria' },
+          { title: '스토킹 처벌과 접근금지 명령', slug: 'stalking-penalty-restraining-order' },
+          { title: '스토킹 초범 수사 준비', slug: 'stalking-first-offense-investigation-prep' },
+          { title: '스토킹 허위신고 방어', slug: 'stalking-false-report-defense' },
+        ],
+      },
     ],
     caseRefs: [
       {
-        scene: '이별 통보 후 전 연인이 매일 퇴근길에 나타나고 하루 수십 통의 문자를 보내는 상황',
-        issue: '구두 거부 의사만 표시했고 서면 경고나 경찰 신고 이력이 없는 경우',
-        prep: '거부 의사 문자 기록, 접근 시도 날짜별 일지, 경찰 신고를 통한 긴급응급조치를 진행해보세요',
+        scene: '헤어진 연인이 매일 퇴근길에 나타나고 하루 수십 통의 문자를 보내는 상황',
+        issue: '거부 의사를 표시했으나 반복 접근·연락이 계속되는 경우',
+        prep: '거부 의사 문자 기록, 접근 시도 날짜별 일지, 112 신고를 통한 긴급응급조치를 진행해보세요',
+      },
+      {
+        scene: '직장 동료가 퇴근 후 집 앞까지 미행하고 반복적으로 만남을 요구하는 상황',
+        issue: '업무상 접촉과 스토킹 행위의 경계가 문제되는 경우',
+        prep: '직장 내 CCTV 보존 요청, 미행 일지 작성, 회사 인사팀 신고와 경찰 신고를 병행해보세요',
       },
     ],
   },
@@ -1284,19 +1493,78 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '청구금액에 따라 인지대가 달라지며, 5,000만원 기준 인지대 약 25만원, 송달료 약 5만원입니다. 변호사 비용은 별도이나, 보험사 부담으로 처리되는 경우도 있습니다.',
       },
     ],
-    spokeLinks: [
-      { title: '교통사고 당했는데 어디부터 해야 하나', slug: 'accident-happened-where-to-start' },
-      { title: '교통사고 합의금 적정 금액 산정법', slug: 'settlement-amount-calculation' },
-      { title: '교통사고 과실비율 산정 기준', slug: 'fault-ratio-calculation-criteria' },
-      { title: '합의 vs 소송 보상 비교', slug: 'settlement-vs-lawsuit-comparison' },
-      { title: '교통사고 합의 시 흔히 하는 실수', slug: 'settlement-common-mistakes' },
-      { title: '보험사 제시금 그대로 수락하면 안 되는 이유', slug: 'dont-accept-insurer-first-offer' },
-      { title: '교통사고 보험금 청구 필요 서류', slug: 'insurance-claim-required-docs' },
-      { title: '교통사고 현장 대응 체크리스트', slug: 'accident-scene-checklist' },
-      { title: '뺑소니 사고 피해자 대응 방법', slug: 'hit-and-run-victim-response' },
-      { title: '교통사고 가해자 합의 방법', slug: 'at-fault-driver-settlement-method' },
-      { title: '블랙박스로 과실 반박하는 방법', slug: 'dashcam-fault-rebuttal' },
-      { title: '교통사고 과실비율 이의신청', slug: 'fault-ratio-dispute-appeal' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '합의금/손해배상',
+        emoji: '📋',
+        spokes: [
+          { title: '보상금 계산 가이드', slug: 'traffic-accident-compensation-calculation-guide' },
+          { title: '적정 합의금 산정', slug: 'accident-settlement-fair-amount' },
+          { title: '합의 vs 소송 비교', slug: 'settlement-vs-lawsuit-comparison' },
+          { title: '합의 서두르지 마세요', slug: 'settlement-offer-dont-accept-immediately-reasons' },
+        ],
+      },
+      {
+        label: '과실비율',
+        emoji: '📋',
+        spokes: [
+          { title: '과실비율 산정 기준', slug: 'fault-ratio-calculation-criteria' },
+          { title: '과실 분쟁 증거', slug: 'traffic-accident-fault-dispute-evidence' },
+          { title: '추돌 과실비율', slug: 'traffic-accident-rear-end-fault-ratio' },
+          { title: '회전교차로 과실', slug: 'traffic-accident-roundabout-fault-standard' },
+        ],
+      },
+      {
+        label: '보험사 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '보험 청구 총정리', slug: 'traffic-accident-insurance-claim-comprehensive' },
+          { title: '낮은 합의금 대응', slug: 'insurance-lowball-settlement-response' },
+          { title: '보험사 설명의무', slug: 'traffic-accident-insurance-explanation-duty' },
+          { title: '보험 청구 서류', slug: 'insurance-claim-required-docs' },
+        ],
+      },
+      {
+        label: '사고 유형별',
+        emoji: '📋',
+        spokes: [
+          { title: '보행자 무단횡단 사고', slug: 'traffic-accident-pedestrian-jaywalking-fault' },
+          { title: '자전거 사고 보상', slug: 'traffic-accident-bicycle-compensation' },
+          { title: '전동킥보드 사고 책임', slug: 'traffic-accident-electric-scooter-liability' },
+          { title: '버스 급정거 승객 청구', slug: 'traffic-accident-bus-sudden-stop-passenger-claim' },
+        ],
+      },
+      {
+        label: '증거/블랙박스',
+        emoji: '📋',
+        spokes: [
+          { title: '블랙박스 증거 활용', slug: 'traffic-accident-dashcam-evidence-guide' },
+          { title: '블랙박스 없을 때 과실 입증', slug: 'no-dashcam-fault-proof' },
+          { title: '사고 후 어디부터 시작', slug: 'traffic-accident-where-to-start' },
+          { title: '블랙박스 과실 반박', slug: 'dashcam-fault-rebuttal' },
+        ],
+      },
+      {
+        label: '형사/음주',
+        emoji: '📋',
+        spokes: [
+          { title: '형사·민사 절차 안내', slug: 'traffic-accident-criminal-civil-procedure' },
+          { title: '가해자 형사 대응', slug: 'traffic-accident-offender-criminal-charge-response' },
+          { title: '음주 혈액검사 시점', slug: 'traffic-accident-dui-blood-test-timing' },
+          { title: '뺑소니 피해 대응', slug: 'hit-and-run-victim-response' },
+        ],
+      },
+      {
+        label: '치료/후유증',
+        emoji: '📋',
+        spokes: [
+          { title: '편타손상 보상', slug: 'traffic-accident-whiplash-compensation' },
+          { title: '통원치료 합의 영향', slug: 'outpatient-treatment-count-settlement-impact' },
+          { title: '후유증 추가 청구', slug: 'traffic-accident-aftereffect-treatment-claim' },
+          { title: '지연치료 추가배상', slug: 'traffic-delay-settlement-additional-treatment' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3786,221 +4054,320 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
 
   'child-support': {
     overview:
-      '양육비는 양육비이행확보 및 지원에 관한 법률(양육비이행확보법)에 따라 미성년 자녀의 양육을 위해 비양육 부모가 부담하는 비용입니다. 양육비 산정은 부모 각각의 소득, 자녀의 나이와 수, 양육 환경 등을 종합하여 양육비 산정기준표에 따라 결정됩니다. 협의가 이루어지지 않으면 가정법원에 양육비 청구 심판을 신청할 수 있습니다. 양육비 이행이 되지 않을 경우 이행명령, 감치(30일 이내 구금), 재산에 대한 강제집행이 가능합니다. 양육비이행관리원은 양육비 관련 상담, 추심, 법률 지원을 제공하는 공공기관으로, 양육비 채권 추심 위임도 가능합니다. 2021년부터는 양육비를 3회 이상 불이행하면 출국금지, 운전면허 정지 등 제재가 가능해졌습니다. 과거 양육비(소급분)도 청구할 수 있으며, 사정변경(소득 변화, 재혼 등)이 있으면 양육비 변경 심판을 청구할 수 있습니다.',
+      '양육비는 이혼 후 비양육 부모가 자녀의 양육을 위해 부담하는 비용으로, 양육비이행확보 및 지원에 관한 법률(양육비이행확보법)에 근거합니다. 양육비 산정은 양육비 산정기준표를 기본으로 하며, 부모 합산소득과 자녀 연령에 따라 표준 금액이 정해집니다. 양육비는 협의, 조정, 심판의 순서로 결정되며, 협의가 이루어지지 않으면 가정법원에 양육비 청구 심판을 신청할 수 있습니다. 양육비가 미지급될 경우 이행명령 → 감치명령(30일 이내 구금) → 직접지급명령 → 강제집행(재산 압류) 순서로 강제 이행 수단을 활용할 수 있습니다. 양육비이행관리원(1644-6621)은 양육비 관련 상담, 합의 지원, 채권 추심, 긴급 양육비 지원, 법률 지원 등을 제공하는 공공기관입니다. 2021년 법 개정으로 양육비를 3회 이상 불이행하면 출국금지, 운전면허 정지 등 제재가 가능해졌습니다. 과거 양육비(소급분)도 청구할 수 있으며, 대법원 2023스637 판결에서 협의이혼 후 16년이 지난 후에도 과거 양육비 청구가 인정되었습니다. 성년이 된 자녀에 대한 미지급 양육비도 청구 가능하나, 미성년 자녀와는 분담 범위 산정 기준이 다릅니다. 소득 변동, 재혼 등 사정변경이 있으면 양육비 변경(증액·감액) 심판을 청구할 수 있습니다.',
     perspectives: [
       {
-        label: '양육비를 받아야 하는 입장입니다',
+        label: '양육비를 정해야 하는 상황입니다',
         emoji: '🔴',
         checks: [
-          '상대방의 소득과 재산 상태를 파악하여 적정 양육비를 산정해보세요',
-          '협의가 안 되면 양육비 청구 심판 또는 조정을 신청했는지 확인해보세요',
-          '양육비이행관리원(1644-6621)에 상담 및 추심 지원을 요청했는지 확인해보세요',
+          '부모 합산 소득을 확인하고 양육비 산정기준표를 조회해보세요',
+          '자녀 연령과 특별 비용(의료비, 교육비 등)을 반영한 적정 금액을 산출해보세요',
+          '협의, 조정, 심판 중 어떤 방법으로 진행할지 선택해보세요',
         ],
       },
       {
-        label: '양육비를 부담하고 있는 입장입니다',
+        label: '양육비를 못 받고 있는 상황입니다',
         emoji: '🟡',
         checks: [
-          '현재 소득과 지출 상황에 비해 양육비가 과도한지 검토해보세요',
-          '소득 감소 등 사정변경 시 양육비 감액 심판 청구가 가능한지 확인해보세요',
-          '양육비 지급 내역(이체 증빙)을 체계적으로 보관하고 있는지 확인해보세요',
+          '미지급 기간과 총 미지급 금액을 정리하고 증빙자료를 확보해보세요',
+          '가정법원에 이행명령을 신청했는지 확인해보세요',
+          '양육비이행관리원(1644-6621)에 등록하고 추심 지원을 요청해보세요',
+        ],
+      },
+      {
+        label: '강제집행이나 감치를 고민하는 상황입니다',
+        emoji: '🔵',
+        checks: [
+          '감치명령 요건(이행명령 불이행)을 충족하는지 확인해보세요',
+          '직접지급명령 신청으로 상대방 급여에서 직접 공제받을 수 있는지 검토해보세요',
+          '재산조회 신청을 통해 상대방의 재산 현황을 파악해보세요',
         ],
       },
     ],
     preparations: [
       {
-        title: '소득·재산 자료 준비',
-        desc: '양 부모의 소득(급여명세서, 종합소득세 신고서), 재산(부동산, 예금, 차량) 자료를 준비해보세요.',
-      },
-      {
         title: '양육비 산정기준표 확인',
-        desc: '대한법원 양육비 산정기준표에 자녀 연령과 부모 소득을 대입하여 적정 양육비를 미리 산출해보세요.',
+        desc: '대한법원 양육비 산정기준표에 부모 합산소득과 자녀 연령을 대입하여 적정 양육비를 산출해보세요. 특별 비용(의료비, 사교육비)은 별도 가산됩니다.',
       },
       {
-        title: '양육 관련 지출 내역 정리',
-        desc: '교육비, 의료비, 식비, 학원비 등 자녀 양육에 소요되는 월 평균 비용을 항목별로 정리해보세요.',
+        title: '상대방 소득자료 확보',
+        desc: '상대방의 급여명세서, 종합소득세 신고서, 건강보험 자격득실 확인서 등 소득을 증명할 자료를 확보해보세요. 소득 파악이 어려우면 법원에 사실조회를 신청할 수 있습니다.',
       },
       {
-        title: '기존 합의서·판결문 확인',
-        desc: '이혼 시 작성한 양육비 합의서나 판결문이 있다면 내용을 다시 확인하고, 변경이 필요한 사유를 정리해보세요.',
+        title: '양육비 부담조서 또는 판결문 확인',
+        desc: '기존에 작성한 양육비 합의서, 조정조서, 심판결정문이 있다면 내용을 재확인하고, 이행 여부를 점검해보세요.',
       },
       {
-        title: '전문가 상담 준비',
-        desc: '양육비이행관리원 또는 가사 전문 변호사 상담 시 소득 증빙, 양육비 산정표, 기존 합의서를 지참해보세요.',
+        title: '미지급 내역 정리',
+        desc: '양육비 미지급 기간, 미지급 총액, 일부 지급 내역 등을 월별로 정리하고 통장 거래내역 등 증빙을 확보해보세요.',
+      },
+      {
+        title: '양육비이행관리원 상담',
+        desc: '양육비이행관리원(1644-6621)에서 무료 법률 상담, 합의 지원, 추심 서비스, 긴급 양육비 지원을 받을 수 있습니다.',
       },
     ],
     faqs: [
       {
         question: '양육비는 얼마가 적정한가요?',
         answer:
-          '양육비 산정기준표에 따라 부모 합산소득과 자녀 연령을 기준으로 산정합니다. 예를 들어 합산소득 500만 원, 자녀 1명(초등)인 경우 약 100만 원 내외입니다.',
+          '양육비 산정기준표에 따라 부모 합산소득과 자녀 연령을 기준으로 산정합니다. 예를 들어 합산소득 500만 원, 자녀 1명(초등)인 경우 약 100만 원 내외이며, 특별 비용(의료비, 사교육비)은 별도 가산됩니다.',
       },
       {
         question: '양육비를 안 주면 어떻게 하나요?',
         answer:
-          '가정법원에 이행명령을 신청하고, 불이행 시 감치(30일 이내 구금)를 신청할 수 있습니다. 또한 재산 압류 등 강제집행도 가능합니다.',
+          '이행명령 → 감치명령(30일 이내 구금) → 직접지급명령(급여에서 직접 공제) → 강제집행(재산 압류) 순서로 대응할 수 있습니다. 양육비이행관리원에 추심을 위임하는 방법도 있습니다.',
       },
       {
-        question: '양육비이행관리원은 어떤 도움을 주나요?',
+        question: '감치명령이 뭔가요?',
         answer:
-          '양육비 상담, 합의 지원, 추심 서비스, 긴급 양육비(한시적 지원), 법률 지원 등을 제공합니다. 양육비 채권 추심을 위임하면 직접 추심을 진행해줍니다.',
+          '양육비 이행명령을 받고도 정당한 이유 없이 이행하지 않으면 법원이 30일 이내의 감치(구금)를 명할 수 있습니다. 감치 결정 후에도 불이행하면 반복 신청이 가능합니다.',
       },
       {
-        question: '과거 양육비도 청구할 수 있나요?',
+        question: '과거 양육비도 받을 수 있나요?',
         answer:
-          '이혼 후 양육비를 받지 못한 기간에 대해 과거 양육비(소급분)를 청구할 수 있습니다. 다만 구체적 인정 범위는 재판부 재량에 따라 달라집니다.',
+          '이혼 후 양육비를 받지 못한 기간에 대해 과거 양육비(소급분)를 청구할 수 있습니다. 대법원 2023스637 판결에서 이혼 후 16년이 지난 후의 과거 양육비 청구도 인정한 바 있습니다.',
       },
       {
-        question: '소득이 줄었는데 양육비를 줄일 수 있나요?',
+        question: '상대방 소득을 모르면 어떻게 하나요?',
         answer:
-          '실직, 질병 등으로 소득이 현저히 감소한 경우 가정법원에 양육비 변경(감액) 심판을 청구할 수 있습니다. 소득 변화를 증명할 자료가 필요합니다.',
+          '법원에 사실조회를 신청하여 국세청, 국민건강보험공단, 국민연금공단 등을 통해 상대방의 소득과 재산을 조회할 수 있습니다.',
       },
       {
-        question: '출국금지·운전면허 정지가 가능한가요?',
+        question: '양육비 증감이 가능한가요?',
         answer:
-          '양육비를 3회 이상 불이행하면 법원의 결정으로 출국금지, 운전면허 정지 등의 제재가 가능합니다. 2021년 법 개정으로 실효성이 강화되었습니다.',
+          '실직, 질병, 재혼, 자녀 교육비 증가 등 사정변경이 있으면 가정법원에 양육비 변경(증액 또는 감액) 심판을 청구할 수 있습니다.',
       },
       {
-        question: '양육비와 면접교섭권은 관련이 있나요?',
+        question: '성인 자녀도 미지급 양육비를 청구할 수 있나요?',
         answer:
-          '양육비와 면접교섭권은 별개의 권리입니다. 양육비를 주지 않는다고 면접교섭을 거부할 수 없고, 면접교섭을 안 시켜준다고 양육비를 안 줄 수 없습니다.',
+          '자녀가 성년이 된 후에도 미성년 시절의 미지급 양육비를 청구할 수 있습니다. 다만 성년 후에는 과거 양육비의 정산적 성격만 남게 되어 산정 기준이 달라집니다.',
       },
       {
-        question: '양육비 청구 심판 절차는 어떻게 되나요?',
+        question: '양육비이행관리원은 어떻게 이용하나요?',
         answer:
-          '가정법원에 양육비 청구 심판 신청서를 제출하면 조정 절차를 먼저 거치고, 조정이 불성립하면 심판으로 이행됩니다. 통상 3~6개월이 소요됩니다.',
+          '전화(1644-6621) 또는 방문으로 신청합니다. 양육비 상담, 협의 성립 지원, 추심 서비스(채권 추심 위임), 긴급 양육비(한시적 지원금), 법률 지원 등을 무료로 제공합니다.',
       },
     ],
-    spokeLinks: [
-      { title: '양육비 청구 소송 절차 가이드', slug: 'child-support-lawsuit-process' },
-      { title: '양육비 산정기준표 활용법', slug: 'child-support-calculation-table' },
-      { title: '양육비 이행명령과 감치 신청', slug: 'child-support-enforcement-order' },
-      { title: '양육비이행관리원 이용 방법', slug: 'child-support-agency-usage' },
-      { title: '과거 양육비 소급 청구', slug: 'retroactive-child-support-claim' },
-      { title: '양육비 변경(증액·감액) 심판', slug: 'child-support-modification-hearing' },
-      { title: '출국금지·운전면허 정지 제재', slug: 'departure-ban-license-suspension' },
-      { title: '양육비 강제집행 방법', slug: 'child-support-compulsory-execution' },
-      { title: '면접교섭권 확보 방법', slug: 'visitation-rights-securing-method' },
-      { title: '긴급 양육비 지원 제도', slug: 'emergency-child-support-program' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '양육비 산정',
+        emoji: '📋',
+        spokes: [
+          { title: '양육비 산정기준표 활용법', slug: 'child-support-calculation-table' },
+          { title: '양육비 청구 어디서부터 시작할까', slug: 'child-support-claim-where-to-start' },
+          { title: '양육비 청구 체크리스트', slug: 'child-support-claim-checklist' },
+          { title: '양육비 산정 기준 인상 방법', slug: 'child-support-calculation-increase' },
+        ],
+      },
+      {
+        label: '미지급 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '양육비 미지급 추심 방법', slug: 'child-support-overdue-collection' },
+          { title: '양육비 이행확보 수단 총정리', slug: 'child-support-enforcement-methods' },
+          { title: '양육비 감치명령 신청 방법', slug: 'child-support-enforcement-contempt-order' },
+          { title: '양육비 이행명령 신청 절차', slug: 'child-support-enforcement-order-apply' },
+        ],
+      },
+      {
+        label: '양육비 변경',
+        emoji: '📋',
+        spokes: [
+          { title: '소득 변동에 따른 양육비 변경', slug: 'child-support-modification-income-change' },
+          { title: '양육비 증액 청구 방법', slug: 'child-support-increase-request-method' },
+          { title: '양육비 소송 절차 가이드', slug: 'child-support-lawsuit-procedure' },
+        ],
+      },
+      {
+        label: '과거/소급 청구',
+        emoji: '📋',
+        spokes: [
+          { title: '과거 양육비 소급 청구', slug: 'retroactive-child-support-claim' },
+          { title: '성년 자녀 과거 양육비 청구', slug: 'child-support-adult-child-retroactive' },
+          { title: '양육비 판례 분석', slug: 'child-support-case-analysis' },
+        ],
+      },
+      {
+        label: '특수 상황',
+        emoji: '📋',
+        spokes: [
+          { title: '조부모 양육비 청구', slug: 'child-support-grandparent-custody-claim' },
+          { title: '양육비 청구서 양식과 작성법', slug: 'child-support-claim-form-template' },
+          { title: '양육비 강제집행 방법', slug: 'child-support-enforcement-method' },
+        ],
+      },
     ],
     caseRefs: [
+      {
+        scene: '협의이혼 후 16년이 지나 과거 양육비를 청구한 상황',
+        issue: '장기간 경과 후 과거 양육비 청구가 가능한지, 이혼 시 재산분할과 양육비의 관계가 쟁점인 경우',
+        prep: '양육비 지출 내역, 이혼 당시 재산분할 내용, 상대방 소득 자료를 정리하여 가정법원에 과거 양육비 심판을 청구해보세요',
+      },
       {
         scene: '이혼 후 전 배우자가 양육비를 6개월째 지급하지 않고 연락도 두절된 상황',
         issue: '양육비 이행명령과 감치, 출국금지 등 강제 이행 수단의 적용 여부가 쟁점인 경우',
         prep: '양육비 미지급 내역 정리, 이행명령 신청서 작성, 양육비이행관리원에 추심 위임을 진행해보세요',
       },
       {
-        scene: '양육비를 매월 100만 원 지급하고 있는데 실직으로 소득이 없어진 상황',
-        issue: '사정변경에 의한 양육비 감액 심판의 인용 가능성이 쟁점인 경우',
-        prep: '실직 증빙(퇴직증명서, 건강보험 자격상실 확인서), 현재 재산 상태 자료를 준비하여 감액 심판을 청구해보세요',
+        scene: '자녀가 성년이 된 후 미성년 시절 미지급 양육비를 정산하려는 상황',
+        issue: '성년 자녀에 대한 과거 양육비 분담 범위와 산정 기준이 쟁점인 경우',
+        prep: '양육 기간 중 지출 내역, 부모 양측의 소득·재산 자료, 기존 양육비 합의 내용을 확보하여 과거 양육비 청구를 검토해보세요',
       },
     ],
   },
 
   inheritance: {
     overview:
-      '상속은 민법 상속편(제1000조~제1118조)에 따라 피상속인의 사망으로 재산과 채무가 상속인에게 포괄적으로 이전되는 제도입니다. 상속 순위는 직계비속-직계존속-형제자매-4촌 이내 방계혈족이며, 배우자는 직계비속·직계존속과 공동상속인이 됩니다. 상속인은 상속 개시를 안 날로부터 3개월 내에 단순승인, 한정승인, 상속포기 중 하나를 선택해야 합니다. 한정승인은 상속받은 재산 범위 내에서만 채무를 변제하는 것이고, 상속포기는 상속인 지위 자체를 포기하는 것입니다. 유류분 제도는 법정상속인의 최소 상속분을 보장하는 것으로, 유증이나 증여로 유류분이 침해된 경우 반환 청구가 가능합니다. 안심상속 원스톱 서비스를 이용하면 피상속인의 금융·부동산·세금 등 재산과 채무를 한 번에 조회할 수 있습니다. 상속세는 상속 개시일이 속하는 달의 말일부터 6개월 내에 신고·납부해야 합니다. 유언은 자필증서, 녹음, 공정증서, 비밀증서, 구수증서의 5가지 방식이 있으며, 법정 방식을 갖추지 않으면 무효입니다.',
+      '상속은 피상속인의 사망으로 개시되며, 재산과 채무가 상속인에게 포괄적으로 이전됩니다. 상속 순위는 1순위 직계비속+배우자, 2순위 직계존속+배우자, 3순위 형제자매, 4순위 4촌 이내 방계혈족입니다. 배우자는 공동상속인의 상속분에 50%를 가산받습니다. 상속인은 상속 개시를 안 날로부터 3개월 내에 단순승인, 한정승인, 상속포기 중 하나를 결정해야 합니다. 단순승인을 하면 빚도 전부 승계되므로 채무 규모를 반드시 먼저 파악해야 합니다. 한정승인은 상속받은 재산 범위 내에서만 채무를 변제하는 것이고, 상속포기는 상속인 지위 자체를 포기하는 것입니다. 유류분(법정상속분의 1/2 또는 1/3)이 침해된 경우 반환 청구가 가능합니다. 상속재산 분할은 공동상속인 간 협의분할이 원칙이며, 협의가 안 되면 가정법원에 심판분할을 청구합니다. 안심상속 원스톱 서비스를 이용하면 피상속인의 금융·부동산·세금·연금 등 재산과 채무를 한 번에 조회할 수 있습니다. 상속세는 상속 개시일이 속하는 달의 말일부터 6개월 내에 신고·납부해야 합니다.',
     perspectives: [
       {
-        label: '상속 절차를 진행해야 합니다',
+        label: '상속이 개시됐습니다',
         emoji: '🔴',
         checks: [
-          '안심상속 원스톱 서비스로 피상속인의 재산과 채무를 조회했는지 확인해보세요',
+          '피상속인의 재산과 채무를 안심상속 원스톱 서비스로 조회했는지 확인해보세요',
           '상속포기·한정승인 기한(3개월)을 넘기지 않았는지 확인해보세요',
           '상속세 신고 기한(6개월)과 납부 계획을 수립했는지 확인해보세요',
         ],
       },
       {
-        label: '상속 분쟁이 발생했습니다',
+        label: '빚이 더 많을까 걱정됩니다',
         emoji: '🟡',
         checks: [
-          '유언장 존재 여부와 유효성을 확인했는지 검토해보세요',
+          '안심상속 원스톱 서비스로 재산과 채무를 정확히 조회했는지 확인해보세요',
+          '한정승인과 상속포기 중 어느 것이 유리한지 비교해보세요',
+          '3개월 기한 내에 가정법원에 신고할 준비를 했는지 확인해보세요',
+        ],
+      },
+      {
+        label: '상속 분쟁이 있습니다',
+        emoji: '🔵',
+        checks: [
           '유류분 침해 여부를 법정상속분 기준으로 계산해보세요',
-          '상속재산 분할 협의가 안 되면 가정법원 심판 청구를 검토해보세요',
+          '유언장의 존재 여부와 유효성을 확인해보세요',
+          '협의분할이 안 되면 가정법원 심판분할 청구를 검토해보세요',
         ],
       },
     ],
     preparations: [
       {
-        title: '상속재산·채무 조회',
-        desc: '안심상속 원스톱 서비스(정부24)를 통해 금융재산, 부동산, 자동차, 세금, 연금 등을 일괄 조회해보세요.',
+        title: '안심상속 원스톱 서비스 신청',
+        desc: '정부24 또는 시·구·읍·면사무소에서 신청하여 금융재산, 부동산, 자동차, 세금, 연금 등 피상속인의 재산과 채무를 일괄 조회해보세요.',
       },
       {
-        title: '상속인 확정',
-        desc: '가족관계증명서, 제적등본 등을 발급받아 법정상속인과 상속 순위를 확정해보세요.',
+        title: '사망신고 및 가족관계증명서 발급',
+        desc: '사망신고를 완료하고, 가족관계증명서·제적등본 등을 발급받아 법정상속인과 상속 순위를 확정해보세요.',
       },
       {
-        title: '상속포기·한정승인 검토',
-        desc: '채무가 재산보다 많으면 3개월 내에 가정법원에 상속포기 또는 한정승인 신고를 해야 합니다.',
+        title: '재산·채무 전체 목록 작성',
+        desc: '부동산, 금융자산, 차량, 보험, 연금뿐 아니라 대출, 보증채무, 미납세금 등 채무도 빠짐없이 정리해보세요.',
       },
       {
-        title: '유언장 확인',
-        desc: '유언장이 있는 경우 법정 방식(자필증서, 공정증서 등)을 갖추었는지 확인하고, 검인 절차를 진행해보세요.',
+        title: '상속포기/한정승인 기한 확인',
+        desc: '상속 개시를 안 날로부터 3개월 내에 가정법원에 상속포기 또는 한정승인 신고를 해야 합니다. 기한을 넘기면 단순승인으로 간주됩니다.',
       },
       {
-        title: '전문가 상담 준비',
-        desc: '상속 전문 변호사·세무사 상담 시 상속재산 목록, 채무 현황, 상속인 관계도, 유언장 사본을 지참해보세요.',
+        title: '유언서 확인 및 검인 절차',
+        desc: '유언장이 있는 경우 법정 방식(자필증서, 공정증서 등)을 갖추었는지 확인하고, 가정법원에 검인 신청을 진행해보세요.',
       },
     ],
     faqs: [
       {
-        question: '상속포기는 어떻게 하나요?',
+        question: '상속 순위는 어떻게 되나요?',
         answer:
-          '상속 개시를 안 날로부터 3개월 내에 피상속인 최후 주소지 가정법원에 상속포기 신고서를 제출합니다. 상속포기 시 그 상속분은 다른 상속인에게 귀속됩니다.',
+          '1순위 직계비속(자녀·손자녀)+배우자, 2순위 직계존속(부모·조부모)+배우자, 3순위 형제자매, 4순위 4촌 이내 방계혈족입니다. 배우자는 1·2순위와 공동상속하며 50% 가산됩니다.',
       },
       {
-        question: '한정승인이란 무엇인가요?',
+        question: '빚도 상속되나요?',
         answer:
-          '상속받은 재산 범위 내에서만 피상속인의 채무를 변제하는 것입니다. 3개월 내 가정법원에 신고하며, 채무가 재산보다 많은지 불확실할 때 유리한 선택입니다.',
+          '네, 단순승인을 하면 재산뿐 아니라 채무도 전부 승계됩니다. 빚이 더 많을 수 있으므로 안심상속 원스톱 서비스로 재산·채무를 먼저 조회하는 것이 중요합니다.',
       },
       {
-        question: '유류분 반환 청구란 무엇인가요?',
+        question: '상속포기와 한정승인의 차이는 무엇인가요?',
         answer:
-          '유증이나 생전 증여로 법정상속분의 일정 비율(직계비속·배우자 1/2, 직계존속·형제자매 1/3) 이하로 상속받게 된 경우 부족분의 반환을 청구할 수 있습니다.',
+          '상속포기는 상속인 지위 자체를 포기하는 것이고, 한정승인은 상속받은 재산 범위 내에서만 채무를 변제하는 것입니다. 채무 규모가 불확실할 때는 한정승인이 유리합니다.',
       },
       {
-        question: '상속세는 얼마부터 내야 하나요?',
+        question: '3개월 기한을 넘기면 어떻게 되나요?',
         answer:
-          '상속재산에서 채무, 장례비 등을 공제하고 기초공제(2억 원)와 인적공제 등을 적용한 후 과세표준에 세율(10~50%)을 곱하여 산출합니다. 배우자 공제는 최소 5억 원입니다.',
+          '상속 개시를 안 날로부터 3개월 내에 포기·한정승인을 하지 않으면 단순승인으로 간주되어 채무를 전부 승계합니다. 다만 특별한정승인(채무 초과 사실을 뒤늦게 안 경우) 제도가 있습니다.',
       },
       {
-        question: '안심상속 원스톱 서비스는 어떻게 이용하나요?',
+        question: '유류분이란 무엇인가요?',
         answer:
-          '정부24 또는 시·구·읍·면사무소에서 신청할 수 있습니다. 금융·부동산·차량·세금·연금 등 피상속인의 재산과 채무를 한 번에 조회할 수 있습니다.',
+          '법정상속인에게 보장되는 최소 상속분입니다. 직계비속·배우자는 법정상속분의 1/2, 직계존속·형제자매는 1/3이 유류분입니다. 유증이나 증여로 침해된 경우 반환 청구가 가능합니다.',
       },
       {
-        question: '상속포기를 하면 빚을 안 갚아도 되나요?',
+        question: '협의분할은 어떻게 하나요?',
         answer:
-          '상속포기가 수리되면 해당 상속인은 처음부터 상속인이 아니었던 것으로 봅니다. 다만 후순위 상속인에게 상속이 이전되므로, 후순위자도 포기해야 할 수 있습니다.',
+          '공동상속인 전원이 합의하여 상속재산 분할 협의서를 작성합니다. 전원의 인감증명서와 인감도장이 필요하며, 협의가 안 되면 가정법원에 심판분할을 청구합니다.',
       },
       {
-        question: '유언장 없이 사망하면 재산은 어떻게 나누나요?',
+        question: '상속재산은 어떻게 조회하나요?',
         answer:
-          '법정상속분에 따라 분할합니다. 배우자는 직계비속 상속분의 1.5배를 가산받으며, 상속인 간 협의가 안 되면 가정법원에 상속재산분할 심판을 청구합니다.',
+          '안심상속 원스톱 서비스(정부24 또는 시·구·읍·면사무소)를 이용하면 금융·부동산·차량·세금·연금 등 피상속인의 재산과 채무를 한 번에 조회할 수 있습니다.',
       },
       {
-        question: '유효한 유언의 방식은 무엇인가요?',
+        question: '상속세 신고 기한은 언제까지인가요?',
         answer:
-          '자필증서(전문 자필, 날짜·주소·성명 기재 후 날인), 녹음, 공정증서, 비밀증서, 구수증서의 5가지 방식이 있으며, 법정 요건을 갖추지 않으면 무효입니다.',
+          '상속 개시일이 속하는 달의 말일부터 6개월 내에 신고·납부해야 합니다. 기초공제 2억 원, 배우자 공제 최소 5억 원 등을 적용한 후 과세표준에 세율(10~50%)을 곱하여 산출합니다.',
       },
     ],
-    spokeLinks: [
-      { title: '상속포기 절차 완전 가이드', slug: 'inheritance-renunciation-process' },
-      { title: '한정승인 신고 방법과 효과', slug: 'limited-inheritance-acceptance' },
-      { title: '유류분 반환 청구 방법', slug: 'forced-heirship-claim-method' },
-      { title: '안심상속 원스톱 서비스 이용법', slug: 'one-stop-inheritance-inquiry' },
-      { title: '상속세 계산과 신고 방법', slug: 'inheritance-tax-calculation-filing' },
-      { title: '상속재산 분할 협의서 작성', slug: 'inheritance-division-agreement' },
-      { title: '유언장 작성 방법과 주의사항', slug: 'will-writing-guide-precautions' },
-      { title: '상속 순위와 법정상속분', slug: 'inheritance-order-legal-share' },
-      { title: '상속등기 절차와 필요 서류', slug: 'inheritance-registration-procedure' },
-      { title: '상속 채무 조사 방법', slug: 'inherited-debt-investigation-method' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '상속 시작',
+        emoji: '📋',
+        spokes: [
+          { title: '상속순위와 법정상속분', slug: 'inheritance-order-legal-share' },
+          { title: '상속재산 조회 방법', slug: 'inheritance-asset-inquiry-method' },
+          { title: '숨겨진 빚 발견 시 대응', slug: 'inheritance-hidden-debt-discovery' },
+          { title: '유언 없을 때 재산분배', slug: 'no-will-how-assets-divided' },
+        ],
+      },
+      {
+        label: '상속포기/한정승인',
+        emoji: '📋',
+        spokes: [
+          { title: '상속포기 절차 가이드', slug: 'inheritance-renunciation-process' },
+          { title: '상속포기 기한 안내', slug: 'inheritance-renunciation-deadline' },
+          { title: '한정승인 절차 가이드', slug: 'limited-inheritance-acceptance-process' },
+          { title: '한정승인 vs 상속포기 비교', slug: 'inheritance-limited-vs-renounce' },
+        ],
+      },
+      {
+        label: '상속 분쟁',
+        emoji: '📋',
+        spokes: [
+          { title: '유류분 소송 가이드', slug: 'inheritance-forced-share-lawsuit-guide' },
+          { title: '유언 유효성 분쟁', slug: 'inheritance-will-validity-dispute' },
+          { title: '가족 분쟁 조정', slug: 'inheritance-family-dispute-mediation' },
+          { title: '분할 심판 절차', slug: 'inheritance-division-mediation-tribunal' },
+        ],
+      },
+      {
+        label: '재산 분할/등기',
+        emoji: '📋',
+        spokes: [
+          { title: '상속등기 절차와 서류', slug: 'inheritance-registration-procedure-docs' },
+          { title: '부동산 감정 분쟁', slug: 'inheritance-real-estate-valuation-dispute' },
+          { title: '상속 분쟁 어디부터 시작해야 하나', slug: 'inheritance-dispute-where-to-start' },
+        ],
+      },
+      {
+        label: '한정승인 심화',
+        emoji: '📋',
+        spokes: [
+          { title: '한정승인 vs 상속포기 상세 비교', slug: 'limited-acceptance-vs-renunciation' },
+          { title: '한정승인 상세 가이드', slug: 'limited-inheritance-acceptance' },
+        ],
+      },
     ],
     caseRefs: [
       {
-        scene: '아버지 사망 후 알려지지 않은 채무가 발견되어 상속포기를 검토하는 상황',
-        issue: '상속 개시를 안 날로부터 3개월 기한 내인지, 한정승인과 상속포기 중 어느 것이 유리한지가 쟁점인 경우',
-        prep: '안심상속 원스톱 서비스로 재산·채무 조회, 상속인 전원의 의사 확인 후 가정법원에 상속포기 신고를 진행해보세요',
+        scene: '아버지 사망 후 알려지지 않은 채무가 발견되어 한정승인을 검토하는 상황',
+        issue: '대법원 2025다212863 사건에서 공동상속인이 망인의 예금채권을 임의로 인출한 경우 부당이득반환 청구가 문제된 사례',
+        prep: '안심상속 원스톱 서비스로 재산·채무 조회, 3개월 내 가정법원에 한정승인 신고를 진행해보세요',
       },
       {
         scene: '어머니가 생전에 특정 자녀에게만 대부분의 재산을 증여하여 유류분이 침해된 상황',
@@ -4010,3 +4377,4 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
     ],
   },
 };
+
