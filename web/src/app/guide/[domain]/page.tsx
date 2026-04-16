@@ -393,9 +393,63 @@ export default function GuideHubPage({ params }: PageProps) {
             </div>
           </section>
 
-          {/* 5. Spoke links - dynamic from all domain spokes */}
+          {/* 5. Spoke links - categorized or flat */}
           {(() => {
             const allSpokes = getSpokePagesByDomain(params.domain);
+
+            if (rich.spokeCategories && rich.spokeCategories.length > 0) {
+              // Categorized view
+              const categorizedSlugs = new Set(
+                rich.spokeCategories.flatMap(cat => cat.spokes.map(s => s.slug))
+              );
+              const extraSpokes = allSpokes.filter(s => !categorizedSlugs.has(s.slug));
+
+              return (
+                <section className="mb-8">
+                  <h2 className="mb-4 text-lg font-bold text-gray-900">관련 글 더 보기</h2>
+                  <div className="space-y-6">
+                    {rich.spokeCategories.map((cat, ci) => (
+                      <div key={ci}>
+                        <h3 className="mb-2 text-sm font-bold text-navy-700">
+                          <span className="mr-1.5">{cat.emoji}</span>{cat.label}
+                        </h3>
+                        <div className="grid gap-2 sm:grid-cols-2">
+                          {cat.spokes.map((s, si) => (
+                            <Link
+                              key={`cat-${ci}-${si}`}
+                              href={`/guide/${params.domain}/${s.slug}`}
+                              className="rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-gray-700 transition-colors hover:border-primary-300 hover:text-primary-600"
+                            >
+                              {s.title} {'\u2192'}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  {extraSpokes.length > 0 && (
+                    <details className="mt-4">
+                      <summary className="text-sm font-medium text-gray-500 cursor-pointer hover:text-gray-700">
+                        {meta.name} 관련 글 {extraSpokes.length}개 더보기
+                      </summary>
+                      <div className="grid gap-2 sm:grid-cols-2 mt-3">
+                        {extraSpokes.map((s) => (
+                          <Link
+                            key={s.slug}
+                            href={`/guide/${params.domain}/${s.slug}`}
+                            className="rounded-lg border border-gray-100 bg-gray-50 px-4 py-3 text-sm text-gray-600 transition-colors hover:border-primary-300 hover:text-primary-600"
+                          >
+                            {s.questionKeyword || s.keyword} {'\u2192'}
+                          </Link>
+                        ))}
+                      </div>
+                    </details>
+                  )}
+                </section>
+              );
+            }
+
+            // Fallback: flat spokeLinks (existing behavior)
             const manualSlugs = new Set(rich.spokeLinks.map((s) => s.slug));
             const extraSpokes = allSpokes.filter((s) => !manualSlugs.has(s.slug));
             return (
