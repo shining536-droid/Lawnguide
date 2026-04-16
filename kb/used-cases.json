@@ -10439,5 +10439,165 @@
     "type": "절차형",
     "channel": "seo",
     "slug": "dismissal-probation-repeated-extension-unfair"
+  },
+  {
+    "caseId": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "startup-prep",
+    "channel": "blog",
+    "slug": "unemployment-startup-prep-blog"
+  },
+  {
+    "caseId": "2018구합23680",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "overseas-travel",
+    "channel": "blog",
+    "slug": "unemployment-overseas-travel-blog"
+  },
+  {
+    "caseId": "2020두31323",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "quit-reason-change",
+    "channel": "blog",
+    "slug": "unemployment-quit-reason-change-blog"
+  },
+  {
+    "caseId": "2018두63235",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "couple-both-claim",
+    "channel": "blog",
+    "slug": "unemployment-couple-both-claim-blog"
+  },
+  {
+    "caseId": "2018누1338",
+    "domain": "unemployment",
+    "perspective": "victim",
+    "type": "benefit-recalculation",
+    "channel": "blog",
+    "slug": "unemployment-benefit-recalculation-blog"
+  },
+  {
+    "caseId": "2025두33276",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "kakao-email-notice",
+    "channel": "blog",
+    "slug": "dismissal-kakao-email-notice-blog"
+  },
+  {
+    "caseId": "2023두57876",
+    "domain": "dismissal",
+    "perspective": "victim",
+    "type": "pip-refuse-consequence",
+    "channel": "blog",
+    "slug": "dismissal-pip-refuse-consequence-blog"
+  },
+  {
+    "caseId": "2020다300299",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "pogual-convenience-store",
+    "channel": "blog",
+    "slug": "wage-pogual-convenience-store-blog"
+  },
+  {
+    "caseId": "2022다287284",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "construction-zone",
+    "channel": "blog",
+    "slug": "traffic-accident-construction-zone-blog"
+  },
+  {
+    "caseId": "2022다225897",
+    "domain": "traffic-accident",
+    "perspective": "victim",
+    "type": "pet-injury",
+    "channel": "blog",
+    "slug": "traffic-accident-pet-injury-blog"
+  },
+  {
+    "caseId": "2025다214605",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "대표이사퇴직금",
+    "channel": "blog",
+    "slug": "retirement-ceo-claim-blog"
+  },
+  {
+    "caseId": "2023다219752",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "재입사근속합산",
+    "channel": "blog",
+    "slug": "retirement-continuous-service-break-blog"
+  },
+  {
+    "caseId": "2021다248299",
+    "domain": "retirement",
+    "perspective": "victim",
+    "type": "인센티브퇴직금포함",
+    "channel": "blog",
+    "slug": "retirement-incentive-included-blog"
+  },
+  {
+    "caseId": "2022다257238",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "체불신고보복",
+    "channel": "blog",
+    "slug": "wage-retaliation-after-complaint-blog"
+  },
+  {
+    "caseId": "2023다219752",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "첫날퇴사임금",
+    "channel": "blog",
+    "slug": "wage-first-day-quit-pay-blog"
+  },
+  {
+    "caseId": "2022다255454",
+    "domain": "wage",
+    "perspective": "victim",
+    "type": "팁봉사료임금성",
+    "channel": "blog",
+    "slug": "wage-tips-service-charge-blog"
+  },
+  {
+    "판례ID": "2024므13669",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "혼전합의서효력형",
+    "channel": "blog",
+    "slug": "divorce-prenuptial-agreement-blog"
+  },
+  {
+    "판례ID": "2025므10716",
+    "domain": "divorce",
+    "perspective": "victim",
+    "type": "혼인취소청구형",
+    "channel": "blog",
+    "slug": "divorce-marriage-fraud-annulment-blog"
+  },
+  {
+    "판례ID": "2022도1862",
+    "domain": "fraud",
+    "perspective": "victim",
+    "type": "허위매물대처형",
+    "channel": "blog",
+    "slug": "fraud-rental-fake-listing-blog"
+  },
+  {
+    "판례ID": "2025도15970",
+    "domain": "rehabilitation",
+    "perspective": "victim",
+    "type": "도박채무면책형",
+    "channel": "blog",
+    "slug": "rehabilitation-gambling-debt-blog"
   }
 ]
