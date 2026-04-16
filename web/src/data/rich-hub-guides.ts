@@ -309,18 +309,68 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '유죄 판결 확정 시 20년간 신상정보가 등록되며, 아동·청소년 대상 범죄는 등록 기간이 더 길어질 수 있습니다.',
       },
     ],
-    spokeLinks: [
-      { title: '성범죄 혐의 받으면 어디부터 해야 하나', slug: 'accused-where-to-start' },
-      { title: '성폭력 피해 신고 첫 단계 가이드', slug: 'victim-report-first-step' },
-      { title: '강제추행 vs 준강제추행 구별 기준', slug: 'assault-vs-quasi-assault-distinction' },
-      { title: '성범죄 합의 절차와 방법', slug: 'sex-crime-settlement' },
-      { title: '성범죄 혐의 받을 때 흔히 하는 실수', slug: 'common-mistakes-when-accused' },
-      { title: '성폭력 피해 고소 시 필요한 서류', slug: 'victim-complaint-required-docs' },
-      { title: '성범죄 처벌수위 유형별 비교', slug: 'sex-crime-penalty-levels' },
-      { title: '성범죄 수사 대응 체크리스트', slug: 'investigation-response-checklist' },
-      { title: '성범죄 무고 대응 방법과 절차', slug: 'sex-crime-false-accusation-defense' },
-      { title: '성범죄 고소 기간과 공소시효', slug: 'complaint-period-statute-limitations' },
-      { title: '강제추행 무죄 판결 주요 판례', slug: 'sexual-assault-acquittal-cases' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '혐의 유형별',
+        emoji: '📋',
+        spokes: [
+          { title: '강제추행 기준', slug: 'forced-molestation-standard' },
+          { title: '강제추행 vs 준강제추행', slug: 'assault-vs-quasi-assault-distinction' },
+          { title: '음주 동의 문제', slug: 'sex-crime-drunk-consent-issue' },
+          { title: '성범죄 처벌 수위', slug: 'sex-crime-penalty-levels' },
+        ],
+      },
+      {
+        label: '피해자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '성폭력 고소 절차', slug: 'sexual-violence-complaint-process' },
+          { title: '고소 필요 서류', slug: 'victim-complaint-required-docs' },
+          { title: '강제추행 증거 소송', slug: 'forced-groping-evidence-lawsuit' },
+          { title: '직장 내 성폭력', slug: 'workplace-sexual-violence-response' },
+        ],
+      },
+      {
+        label: '피의자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '혐의자 시작', slug: 'accused-where-to-start' },
+          { title: '초범 대응', slug: 'sex-crime-first-offense-response' },
+          { title: '혐의 시 흔한 실수', slug: 'common-mistakes-when-accused' },
+          { title: '추행 혐의 대응', slug: 'groping-accused-response' },
+        ],
+      },
+      {
+        label: '조사/증거/진술',
+        emoji: '📋',
+        spokes: [
+          { title: '수사부터 재판', slug: 'sexual-assault-investigation-to-trial' },
+          { title: '디지털 증거 타임라인', slug: 'sex-crime-digital-evidence-timeline' },
+          { title: '재판 절차', slug: 'sexual-assault-procedure-trial' },
+          { title: '국선변호인', slug: 'sexual-assault-public-defender' },
+        ],
+      },
+      {
+        label: '합의/처벌/양형',
+        emoji: '📋',
+        spokes: [
+          { title: '합의', slug: 'sex-crime-settlement' },
+          { title: '합의 vs 불합의', slug: 'sex-crime-settlement-vs-no-settlement' },
+          { title: '공소시효', slug: 'sex-crime-statute-of-limitations' },
+          { title: '무죄 판례', slug: 'sexual-assault-acquittal-cases' },
+        ],
+      },
+      {
+        label: '무고/허위',
+        emoji: '📋',
+        spokes: [
+          { title: '무고 방어', slug: 'sex-crime-false-accusation-defense' },
+          { title: '무고 역고소', slug: 'sex-crime-false-accusation-counter' },
+          { title: '직장 허위신고', slug: 'sex-crime-false-charge-workplace' },
+          { title: '허위신고 대응', slug: 'false-sexual-assault-report-response' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3074,17 +3124,45 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '법원이 유죄 판결과 함께 신상정보 등록·공개·고지 명령과 아동 관련 기관 취업제한(최대 10년)을 선고할 수 있습니다.',
       },
     ],
-    spokeLinks: [
-      { title: '아동 성범죄 의무신고 절차', slug: 'mandatory-reporting-procedure' },
-      { title: '해바라기센터 이용 가이드', slug: 'sunflower-center-guide' },
-      { title: '아동 성범죄 피해자 증거 보존법', slug: 'child-sex-crime-evidence-preservation' },
-      { title: '온라인 그루밍 피해 대응 방법', slug: 'online-grooming-victim-response' },
-      { title: '아동 성착취물 유포 신고와 삭제 요청', slug: 'child-exploitation-material-report' },
-      { title: '아청법 처벌 수위 총정리', slug: 'child-sex-crime-sentencing-guide' },
-      { title: '아동 성범죄 혐의자 초기 대응', slug: 'child-sex-crime-accused-response' },
-      { title: '피해 아동 심리상담 지원제도', slug: 'child-victim-counseling-support' },
-      { title: '아동 성범죄 신상공개·취업제한', slug: 'sex-offender-registry-employment-ban' },
-      { title: '아동보호전문기관 신고 및 지원', slug: 'child-protection-agency-guide' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '피해자 보호',
+        emoji: '📋',
+        spokes: [
+          { title: '피해 발견 시작', slug: 'child-disclosed-abuse-where-to-start' },
+          { title: '부모 대응 체크리스트', slug: 'parent-response-checklist' },
+          { title: '또래 성폭력 부모 대응', slug: 'peer-sexual-violence-parent-response' },
+          { title: '2차 피해 방지', slug: 'preventing-secondary-harm-to-child' },
+        ],
+      },
+      {
+        label: '신고/의무',
+        emoji: '📋',
+        spokes: [
+          { title: '의무신고 절차', slug: 'mandatory-reporting-procedure' },
+          { title: '신고의무와 절차', slug: 'mandatory-reporting-and-procedure' },
+          { title: '신고 필요 서류', slug: 'victim-report-required-documents' },
+          { title: '아동 신고 서류', slug: 'child-victim-report-required-documents' },
+          { title: '미신고 시 처벌', slug: 'penalty-for-not-reporting' },
+        ],
+      },
+      {
+        label: '피의자/수사',
+        emoji: '📋',
+        spokes: [
+          { title: '혐의 수사 대응', slug: 'child-crime-accusation-investigation-response' },
+          { title: '처벌 수위', slug: 'child-crime-charge-penalty-level' },
+          { title: '학원 교사 추행', slug: 'academy-teacher-molestation-response' },
+        ],
+      },
+      {
+        label: '온라인',
+        emoji: '📋',
+        spokes: [
+          { title: '온라인 그루밍 징후', slug: 'online-grooming-warning-signs' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3181,17 +3259,45 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '아청법에 따라 미성년자는 성매매 피해자로 보호됩니다. 미성년자를 상대로 한 성매매는 가중처벌되며, 대상 미성년자는 보호처분을 받게 됩니다.',
       },
     ],
-    spokeLinks: [
-      { title: '성매매 단속 적발 시 초기 대응법', slug: 'prostitution-arrest-response' },
-      { title: '성매매 피해자 인정 절차', slug: 'prostitution-victim-recognition' },
-      { title: '존스쿨 수강 조건부 기소유예', slug: 'john-school-diversion-program' },
-      { title: '성매매 알선 혐의 대응 방법', slug: 'prostitution-facilitation-defense' },
-      { title: '성매매 피해자 지원시설 안내', slug: 'prostitution-victim-support-facilities' },
-      { title: '온라인 성매매 적발 사례와 대응', slug: 'online-prostitution-detection-response' },
-      { title: '성매매 전과 기록과 취업 영향', slug: 'prostitution-record-employment-impact' },
-      { title: '성매매 관련 무고·협박 대응', slug: 'prostitution-blackmail-false-accusation' },
-      { title: '미성년자 성매매 관련 법적 쟁점', slug: 'minor-prostitution-legal-issues' },
-      { title: '성매매처벌법 주요 조항 정리', slug: 'prostitution-punishment-act-summary' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '적발/초범 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '적발 시작', slug: 'caught-where-to-start' },
+          { title: '성매매 시작', slug: 'prostitution-where-to-start' },
+          { title: '초범 양형', slug: 'prostitution-first-offense-sentencing' },
+          { title: '초범 불기소 사례', slug: 'first-offense-non-prosecution-cases' },
+        ],
+      },
+      {
+        label: '단속/수사',
+        emoji: '📋',
+        spokes: [
+          { title: '체포 대응', slug: 'prostitution-arrest-response' },
+          { title: '체포 형사절차', slug: 'prostitution-arrest-criminal-process' },
+          { title: '함정수사 대응', slug: 'prostitution-entrapment-response' },
+          { title: '단속작전 대응', slug: 'sting-operation-response' },
+          { title: '온라인 채팅 체포', slug: 'online-chat-arrest-response' },
+        ],
+      },
+      {
+        label: '처벌/방어',
+        emoji: '📋',
+        spokes: [
+          { title: '매수 vs 매도 처벌', slug: 'buyer-vs-seller-penalty-comparison' },
+          { title: '초범 단속 처벌', slug: 'first-offense-raid-penalty-level' },
+          { title: '혐의 방어 방법', slug: 'prostitution-charge-defense-method' },
+        ],
+      },
+      {
+        label: '알선/조사',
+        emoji: '📋',
+        spokes: [
+          { title: '알선 수사부터 재판', slug: 'solicitation-investigation-to-trial' },
+        ],
+      },
     ],
     caseRefs: [
       {
