@@ -505,118 +505,178 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
 
   dui: {
     overview:
-      '음주운전은 도로교통법 제148조의2에 따라 처벌되며, 2019년 윤창호법 시행 이후 처벌이 대폭 강화되었습니다. 혈중알코올농도 0.03% 이상이면 처벌 대상이고, 0.08% 이상은 1년 이상 2년 이하의 징역 또는 500만원 이상 1,000만원 이하의 벌금, 0.2% 이상은 2년 이상 5년 이하의 징역 또는 1,000만원 이상 2,000만원 이하의 벌금에 처해집니다. 음주측정 거부 시에는 최고 수준의 처벌(2년 이상 5년 이하 징역 또는 1,000~2,000만원 벌금)이 적용됩니다. 2회 이상 위반 시 가중처벌되며, 음주 교통사고의 경우 특정범죄가중처벌법이 적용될 수 있습니다. 면허 취소·정지는 행정처분으로 형사 처벌과 별도로 진행됩니다. 초범이라도 혈중알코올농도에 따라 면허가 취소될 수 있으므로 적절한 대응이 필요합니다.',
+      '음주운전은 도로교통법 제44조 위반으로, 혈중알코올농도 0.03% 이상이면 처벌 대상입니다. 술자리 후 "괜찮겠지" 하고 핸들을 잡았다가 인생이 바뀌는 분들이 정말 많습니다. 2019년 윤창호법 시행 이후 처벌이 대폭 강화되었고, 이제는 소량 음주도 절대 안전하지 않습니다. 혈중알코올농도 0.03~0.08%는 면허정지와 벌금, 0.08~0.2%는 면허 취소에 1년 이하 징역 또는 500만원 이하 벌금, 0.2% 이상이면 2~5년 징역 또는 1천~2천만원 벌금에 처해집니다. 측정을 거부하면 오히려 더 무거운 처벌(1~5년 징역 또는 500~2천만원 벌금)을 받게 되니 절대 거부하면 안 됩니다. 재범은 가중처벌되어 2~5년 징역이 적용되고, 음주 상태에서 사고를 내면 위험운전치상(1~15년) 또는 치사(3년 이상~무기징역)까지 갈 수 있습니다. 면허 취소 후 결격기간도 만만치 않아서 1회 위반 시 1~2년, 2회 2~3년, 3회는 3~5년 동안 면허를 다시 딸 수 없습니다. 적발 직후 어떻게 대응하느냐가 이후 처벌 수위에 큰 영향을 미치므로, 당황하더라도 침착하게 상황을 정리하고 전문가 도움을 받는 것이 중요합니다.',
     perspectives: [
       {
-        label: '음주운전으로 적발되었습니다',
+        label: '적발 직후입니다',
         emoji: '🔴',
         checks: [
-          '혈중알코올농도 수치와 적발 경위를 정확히 기록해보세요',
-          '음주측정 결과에 이의가 있다면 혈액 채취를 요구했는지 확인해보세요',
-          '면허 행정처분 통지를 받았는지, 이의신청 기한을 확인해보세요',
+          '혈중알코올농도 수치를 정확히 확인해보세요',
+          '측정 방식(호흡/혈액)을 확인해보세요',
+          '사고 동반 여부를 확인해보세요',
         ],
       },
       {
-        label: '음주 교통사고를 냈습니다',
+        label: '처벌/면허가 걱정됩니다',
         emoji: '🟡',
         checks: [
-          '사고 현장에서 적절한 조치(신고, 구호)를 했는지 확인해보세요',
-          '피해자 상해 정도와 합의 가능성을 파악해보세요',
-          '종합보험 가입 여부와 보험사 사고 접수를 확인해보세요',
+          '초범/재범 여부를 확인해보세요',
+          '벌금/징역 예상 범위를 확인해보세요',
+          '면허 결격기간을 확인해보세요',
         ],
       },
       {
-        label: '측정 결과에 이의가 있습니다',
+        label: '재범/사고/측정거부로 무겁습니다',
         emoji: '🔵',
         checks: [
-          '음주측정 당시 절차상 하자가 있었는지 확인해보세요',
-          '위드마크 공식 적용 시 오차 범위를 검토해보세요',
-          '혈액 검사를 요청하거나 결과를 확보했는지 확인해보세요',
+          '가중처벌 적용 여부를 확인해보세요',
+          '구속 가능성을 확인해보세요',
+          '변호인 선임을 검토해보세요',
         ],
       },
     ],
     preparations: [
       {
-        title: '음주측정 기록 확인',
-        desc: '혈중알코올농도 수치, 측정 시간, 측정 방법(호흡/혈액)을 정확히 확인해보세요. 이 수치가 처벌 수위와 면허 처분의 기준이 됩니다.',
+        title: '음주 경위 기록',
+        desc: '음주 시간, 장소, 음주량, 마지막으로 술을 마신 시각을 정확히 기록해보세요. 이 기록이 위드마크 공식 적용이나 양형 판단에 중요한 근거가 됩니다.',
       },
       {
-        title: '면허 행정처분 대응',
-        desc: '면허 취소·정지 통지를 받으면 60일 이내에 행정심판을 청구할 수 있습니다. 생계 관련 사유가 있으면 감경 사유가 될 수 있습니다.',
+        title: '측정 결과지 확인',
+        desc: '호흡 측정인지 혈액 측정인지, 정확한 수치가 얼마인지 확인해보세요. 측정 방식과 수치에 따라 처벌 수위와 면허 처분이 크게 달라집니다.',
       },
       {
-        title: '형사 절차 대응 준비',
-        desc: '약식기소(벌금)인지 정식재판인지에 따라 대응이 달라집니다. 반성문, 재발방지 서약, 알코올 치료 프로그램 이수 등을 준비해보세요.',
+        title: '반성문/탄원서 작성',
+        desc: '본인의 반성문과 함께 가족, 직장 동료 등의 탄원서를 준비해보세요. 진심 어린 반성과 주변의 탄원은 양형에서 유리한 정상참작 사유가 됩니다.',
       },
       {
-        title: '합의 및 피해 회복',
-        desc: '음주 교통사고의 경우 피해자와의 합의가 양형에 큰 영향을 미칩니다. 치료비 선지급, 위자료 등을 적극 검토해보세요.',
+        title: '면허 행정심판 준비',
+        desc: '면허정지 또는 취소 처분을 받았다면 60일 이내에 행정심판을 청구할 수 있습니다. 생계형 운전자인 경우 감경 사유가 될 수 있으니 관련 서류를 준비해보세요.',
       },
       {
-        title: '재발 방지 조치',
-        desc: '알코올 치료 프로그램 이수, 봉사활동 확인서 등은 양형에서 유리한 정상참작 사유가 됩니다. 선제적으로 준비해보세요.',
+        title: '변호사 상담 준비',
+        desc: '재범이거나 사고가 동반된 경우 반드시 변호사 상담을 받아보세요. 적발 경위, 수치, 전과 이력을 정리해 가면 효율적인 상담이 가능합니다.',
       },
     ],
     faqs: [
       {
-        question: '음주운전 초범이면 어떤 처벌을 받나요?',
+        question: '음주운전 초범 벌금은 얼마인가요?',
         answer:
-          '혈중알코올농도에 따라 다릅니다. 0.03~0.08%는 벌금 200~300만원, 0.08~0.2%는 벌금 500~1,000만원 또는 징역, 0.2% 이상은 실형 가능성이 있습니다.',
+          '혈중알코올농도에 따라 다릅니다. 0.03~0.08%는 벌금 200~300만원, 0.08~0.2%는 벌금 500~1,000만원 또는 징역이 가능하고, 0.2% 이상은 실형 가능성이 있습니다. 초범이라도 수치가 높으면 징역형이 선고될 수 있습니다.',
       },
       {
-        question: '음주측정을 거부하면 어떻게 되나요?',
+        question: '면허 취소되면 언제 다시 딸 수 있나요?',
         answer:
-          '측정 거부는 가장 높은 수준의 처벌(2~5년 징역 또는 1,000~2,000만원 벌금)이 적용됩니다. 면허도 즉시 취소됩니다.',
+          '음주운전 1회 적발 시 면허 취소 후 결격기간 1~2년, 2회는 2~3년, 3회 이상은 3~5년입니다. 결격기간이 끝나면 학과·기능·도로 시험을 처음부터 다시 치러야 합니다.',
       },
       {
-        question: '면허 취소 후 재취득은 언제 가능한가요?',
+        question: '측정 거부하면 더 불리한가요?',
         answer:
-          '음주운전 1회 적발 시 면허 취소 후 1~2년, 2회 이상은 2~3년의 결격 기간이 적용됩니다. 결격 기간 종료 후 학과·기능·도로 시험을 다시 치러야 합니다.',
+          '네, 측정 거부는 가장 높은 수준의 처벌(1~5년 징역 또는 500~2,000만원 벌금)이 적용되고 면허도 즉시 취소됩니다. 거부한다고 유리해지는 것은 전혀 없습니다.',
       },
       {
-        question: '음주운전 전과가 취업에 영향을 주나요?',
+        question: '다음 날 아침 음주운전도 처벌되나요?',
         answer:
-          '운전 관련 직종, 공무원, 교원 등은 음주운전 전과가 결격사유가 될 수 있습니다. 일반 직종에서는 직접적 제한은 없으나 배경 조회 시 확인될 수 있습니다.',
+          '네, 전날 마신 술이 체내에 남아 혈중알코올농도 0.03% 이상이면 처벌 대상입니다. 음주량과 체질에 따라 다르지만, 과음 후 다음 날 아침까지 알코올이 분해되지 않는 경우가 많습니다.',
       },
       {
-        question: '대리운전 중 사고가 나면 책임은 누구에게 있나요?',
+        question: '음주 상태에서 사고를 내면 어떻게 되나요?',
         answer:
-          '대리운전자에게 운행 지배와 이익이 있으므로 원칙적으로 대리운전자에게 책임이 있습니다. 다만 차량 소유자에게도 운행자 책임이 인정될 수 있습니다.',
+          '위험운전치상(1~15년 징역)이나 치사(3년 이상~무기징역)가 적용될 수 있습니다. 단순 음주운전보다 형량이 훨씬 무겁고, 합의 여부가 양형에 큰 영향을 미칩니다.',
       },
       {
-        question: '벌금을 내면 전과 기록이 남나요?',
+        question: '반성문/탄원서가 도움이 되나요?',
         answer:
-          '네, 벌금형도 전과 기록에 남습니다. 다만 형의 실효 등에 관한 법률에 따라 벌금형은 5년 경과 후 실효됩니다.',
+          '네, 진심 어린 반성문과 가족·직장의 탄원서는 양형에서 유리한 정상참작 사유입니다. 알코올 치료 프로그램 이수, 봉사활동 확인서 등도 함께 준비하면 효과적입니다.',
       },
       {
-        question: '음주운전 후 도주하면 어떻게 되나요?',
+        question: '재범은 무조건 실형인가요?',
         answer:
-          '뺑소니로 가중처벌됩니다. 도로교통법상 사고 후 미조치와 음주운전이 경합되어 형량이 크게 높아집니다.',
+          '재범은 가중처벌(2~5년 징역)이 적용되어 실형 가능성이 높지만, 무조건은 아닙니다. 수치, 사고 여부, 반성 정도, 합의 여부 등에 따라 집행유예가 나올 수도 있습니다.',
       },
       {
-        question: '혈액 검사와 호흡 검사 결과가 다르면 어떻게 되나요?',
+        question: '음주운전 벌금 vs 징역 기준은 무엇인가요?',
         answer:
-          '혈액 검사 결과가 호흡 검사보다 법적 증거력이 높습니다. 호흡 검사 수치에 이의가 있으면 현장에서 혈액 검사를 요청하는 것이 유리합니다.',
+          '혈중알코올농도, 초범/재범 여부, 사고 동반 여부가 핵심 기준입니다. 일반적으로 0.08% 미만 초범은 벌금, 0.2% 이상이나 재범은 징역(실형 또는 집행유예)이 선고되는 경우가 많습니다.',
       },
     ],
-    spokeLinks: [
-      { title: '음주측정 거부했을 때 어떻게 되나요', slug: 'dui-breathalyzer-refusal' },
-      { title: '음주운전 초범 처벌 수준과 대응 방법', slug: 'dui-first-offense' },
-      { title: '음주운전 적발 후 면허 취소 기준과 대응', slug: 'dui-license-revocation' },
-      { title: '음주운전 적발 후 어디부터 해야 하나', slug: 'dui-caught-where-to-start' },
-      { title: '음주운전 적발 시 절대 하면 안 되는 것', slug: 'dui-caught-never-do-these-things' },
-      { title: '음주운전 교통사고 대응법', slug: 'dui-traffic-accident-response' },
-      { title: '음주운전 벌금형 vs 징역형 비교', slug: 'dui-fine-vs-imprisonment-comparison' },
-      { title: '음주운전 선처 준비 체크리스트', slug: 'dui-leniency-preparation-checklist' },
-      { title: '음주운전 혈중알코올농도별 처벌 기준', slug: 'dui-bac-penalty-by-level' },
-      { title: '직장인 음주운전 영향과 대응', slug: 'office-worker-dui-impact-response' },
-      { title: '음주운전 반성문 탄원서 양식', slug: 'dui-apology-petition-letter-template' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '적발 직후 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '음주운전 적발 직후 어디부터 시작해야 하나', slug: 'dui-caught-where-to-start' },
+          { title: '음주운전 형사절차 개요', slug: 'dui-criminal-procedure-overview' },
+          { title: '음주운전 조사 흔한 실수', slug: 'dui-investigation-common-mistakes' },
+          { title: '다음날 아침 음주운전 적발 대응법', slug: 'dui-morning-after-detection' },
+        ],
+      },
+      {
+        label: '처벌/벌금',
+        emoji: '📋',
+        spokes: [
+          { title: '음주운전 초범 처벌 수준과 대응', slug: 'dui-first-offense' },
+          { title: '혈중알코올농도별 처벌 기준', slug: 'dui-bac-penalty-by-level' },
+          { title: '음주운전 벌금 vs 징역 비교', slug: 'dui-fine-vs-imprisonment-comparison' },
+          { title: '음주운전 재범 처벌과 대응', slug: 'dui-second-offense-penalty' },
+        ],
+      },
+      {
+        label: '면허',
+        emoji: '📋',
+        spokes: [
+          { title: '음주운전 면허 취소 기준과 대응', slug: 'dui-license-revocation' },
+          { title: '면허 취소 불복 행정심판', slug: 'dui-license-revocation-appeal' },
+          { title: '면허 행정처분 절차 총정리', slug: 'dui-administrative-license-procedure' },
+          { title: '시동잠금장치 설치 가이드', slug: 'dui-ignition-interlock-guide' },
+        ],
+      },
+      {
+        label: '측정거부',
+        emoji: '📋',
+        spokes: [
+          { title: '음주측정 거부 시 처벌과 대응', slug: 'dui-breathalyzer-refusal' },
+          { title: '측정거부 결과 총정리', slug: 'breathalyzer-refusal-consequences' },
+          { title: '측정거부 처벌 대응 전략', slug: 'breathalyzer-refusal-penalty-response' },
+          { title: '음주측정 오류 대응법', slug: 'breathalyzer-error-response' },
+        ],
+      },
+      {
+        label: '사고 동반',
+        emoji: '📋',
+        spokes: [
+          { title: '음주 교통사고 대응법', slug: 'dui-traffic-accident-response' },
+          { title: '음주사고 피해자 과실 분쟁', slug: 'dui-accident-victim-fault-dispute' },
+          { title: '음주사고 보행자 피해 보상', slug: 'dui-pedestrian-victim-compensation' },
+          { title: '음주사고 피해 보상 체크리스트', slug: 'dui-victim-compensation-checklist' },
+        ],
+      },
+      {
+        label: '감경/합의',
+        emoji: '📋',
+        spokes: [
+          { title: '음주운전 합의 방법과 효과', slug: 'dui-settlement' },
+          { title: '탄원서 작성 가이드', slug: 'dui-leniency-petition-documents' },
+          { title: '재범 실형 회피 전략', slug: 'dui-second-offense-prison-avoidance' },
+          { title: '수치별 처벌 참고표', slug: 'dui-bac-penalty-reference-table' },
+        ],
+      },
     ],
     caseRefs: [
       {
-        scene: '회식 후 대리운전을 부르려다 짧은 거리라 직접 운전하여 단속에 적발된 상황',
-        issue: '혈중알코올농도 0.09%로 면허 취소 기준이며 초범인 경우',
+        scene: '회식 후 혈중알코올농도 0.1%로 적발된 초범 직장인',
+        issue: '면허 취소 기준을 넘었고, 벌금형과 징역형 사이에서 양형이 결정되는 상황',
         prep: '반성문 작성, 알코올 치료 프로그램 등록, 면허 행정심판 기한(60일)을 확인해보세요',
+      },
+      {
+        scene: '음주운전 재범으로 사고까지 동반된 경우',
+        issue: '가중처벌과 위험운전치상이 동시 적용되어 실형 가능성이 높은 상황',
+        prep: '피해자 합의, 변호인 선임, 치료 프로그램 이수 등 양형 자료를 최대한 준비해보세요',
+      },
+      {
+        scene: '전날 과음 후 다음 날 아침 출근길에 적발된 상황',
+        issue: '본인은 술이 깼다고 생각했지만 혈중알코올농도 0.05%로 처벌 대상이 된 경우',
+        prep: '음주 시간과 양을 정확히 기록하고, 위드마크 공식 적용 가능성을 변호사와 상담해보세요',
       },
     ],
   },
@@ -1082,19 +1142,57 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '같은 건물 등기부등본에서 다른 전세권 설정을 확인하거나, 온라인 전세사기 피해자 커뮤니티, 관할 지자체 피해 접수 현황 등을 통해 확인할 수 있습니다.',
       },
     ],
-    spokeLinks: [
-      { title: '전세사기 의심될 때 가장 먼저 확인할 것', slug: 'jeonse-fraud-first-check' },
-      { title: '전세사기 피해자 인정 신청 전 준비 서류', slug: 'jeonse-fraud-victim-application-docs' },
-      { title: '깡통전세 확인하는 방법과 대처법', slug: 'shell-jeonse-check-response' },
-      { title: '전세사기 의심될 때 어디부터 시작하나', slug: 'jeonse-fraud-where-to-start' },
-      { title: '전세사기 신고 절차', slug: 'jeonse-fraud-report-procedure' },
-      { title: '전세사기 피해자 지원 특별법 안내', slug: 'jeonse-fraud-relief-timeline' },
-      { title: '임차권등기명령 신청 절차', slug: 'jeonse-fraud-lease-registration-order' },
-      { title: '전세사기 vs 보증금 미반환 차이', slug: 'jeonse-fraud-vs-deposit-default' },
-      { title: '전세 계약 시 흔히 하는 실수', slug: 'jeonse-contract-common-mistakes' },
-      { title: '전세사기 자가진단 체크리스트', slug: 'jeonse-fraud-self-checklist' },
-      { title: '전세사기 증거 확보 체크리스트', slug: 'jeonse-fraud-proof-checklist' },
-      { title: '전세보증보험 vs 전세대출보증 차이', slug: 'jeonse-insurance-vs-loan-guarantee' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '계약 전 확인',
+        emoji: '📋',
+        spokes: [
+          { title: '전세사기 첫 확인', slug: 'jeonse-fraud-first-check' },
+          { title: '깡통전세 체크리스트', slug: 'shell-jeonse-verification-checklist' },
+          { title: '빈집 확인 방법', slug: 'empty-jeonse-verification-method' },
+          { title: '깡통전세 대응', slug: 'shell-jeonse-check-response' },
+        ],
+      },
+      {
+        label: '피해 신고/대응',
+        emoji: '📋',
+        spokes: [
+          { title: '전세사기 어디서부터', slug: 'jeonse-fraud-where-to-start' },
+          { title: '신고 절차', slug: 'jeonse-fraud-report-procedure' },
+          { title: '고소장 작성', slug: 'jeonse-fraud-complaint-writing' },
+          { title: '민사 vs 형사', slug: 'jeonse-fraud-civil-vs-criminal' },
+        ],
+      },
+      {
+        label: '보증금 반환',
+        emoji: '📋',
+        spokes: [
+          { title: '보증금 미반환 대응', slug: 'jeonse-deposit-not-returned-response' },
+          { title: '보증금 우선순위', slug: 'jeonse-fraud-deposit-priority-order' },
+          { title: '경매 우선변제', slug: 'jeonse-fraud-auction-priority-repayment' },
+          { title: '경매 입찰 가이드', slug: 'jeonse-fraud-auction-bidding-guide' },
+        ],
+      },
+      {
+        label: '피해자 지원',
+        emoji: '📋',
+        spokes: [
+          { title: '피해자 인정 절차', slug: 'jeonse-fraud-victim-recognition-process' },
+          { title: '신청 서류', slug: 'jeonse-fraud-victim-application-docs' },
+          { title: '구제 타임라인', slug: 'jeonse-fraud-relief-timeline' },
+          { title: '다수 피해자 공동 대응', slug: 'jeonse-fraud-multiple-victim-joint' },
+        ],
+      },
+      {
+        label: '책임/구분',
+        emoji: '📋',
+        spokes: [
+          { title: '사기 vs 단순 채무불이행', slug: 'jeonse-fraud-vs-deposit-default' },
+          { title: '중개인 책임', slug: 'jeonse-fraud-broker-liability' },
+          { title: '임대인 혐의 대응', slug: 'jeonse-fraud-landlord-accused-response' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -2735,17 +2833,64 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '가해자가 사과, 재발방지 서약, 위자료 지급 등을 포함하여 합의할 수 있습니다. 합의 시 향후 추가 청구권 포기 조건이 포함될 수 있으므로 법률 조력을 받고 결정해보세요.',
       },
     ],
-    spokeLinks: [
-      { title: '직장 내 성희롱 최초 대응 가이드', slug: 'workplace-harassment-first-check' },
-      { title: '직장 내 성희롱 증거 확보 방법', slug: 'workplace-harassment-evidence' },
-      { title: '공공장소 성희롱 경찰 신고 절차', slug: 'public-harassment-police-report' },
-      { title: '성희롱 사업주 신고 후 절차', slug: 'harassment-employer-report-procedure' },
-      { title: '고용노동부 성희롱 진정 방법', slug: 'labor-office-harassment-complaint' },
-      { title: '국가인권위원회 진정 절차', slug: 'nhrck-harassment-complaint' },
-      { title: '성희롱 피해자 불이익 조치 대응법', slug: 'harassment-retaliation-response' },
-      { title: '성희롱 합의서 작성 시 주의사항', slug: 'harassment-settlement-checklist' },
-      { title: '직장 내 성희롱 혐의자 조사 대응', slug: 'workplace-harassment-accused-response' },
-      { title: '성희롱 피해 심리상담 및 지원기관', slug: 'harassment-victim-support-resources' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '피해자 대응',
+        emoji: '📋',
+        spokes: [
+          { title: '피해자 시작', slug: 'workplace-harassment-where-to-start' },
+          { title: '첫 확인 사항', slug: 'workplace-harassment-first-check' },
+          { title: '대응 체크리스트', slug: 'workplace-harassment-response-checklist' },
+          { title: '증거와 신고', slug: 'workplace-harassment-evidence-report' },
+        ],
+      },
+      {
+        label: '신고/조사 절차',
+        emoji: '📋',
+        spokes: [
+          { title: '신고 절차', slug: 'workplace-harassment-report-procedure' },
+          { title: '조사 과정', slug: 'workplace-harassment-investigation-process' },
+          { title: '신고 필요 증거', slug: 'report-required-evidence-documents' },
+          { title: '신고하면 불이익?', slug: 'will-reporting-cause-workplace-disadvantage' },
+        ],
+      },
+      {
+        label: '2차 피해/보호',
+        emoji: '📋',
+        spokes: [
+          { title: '2차 피해 방지', slug: 'secondary-victimization-after-report' },
+          { title: '보복행위 불법 사례', slug: 'retaliation-after-report-illegal-cases' },
+          { title: '보복 보호', slug: 'workplace-harassment-retaliation-protection' },
+        ],
+      },
+      {
+        label: '혐의자/대응',
+        emoji: '📋',
+        spokes: [
+          { title: '혐의 방어', slug: 'harassment-accusation-defense' },
+          { title: '무고 방어', slug: 'harassment-false-accusation-defense' },
+          { title: '합의 절차', slug: 'harassment-settlement-procedure' },
+        ],
+      },
+      {
+        label: '유형별 기준',
+        emoji: '📋',
+        spokes: [
+          { title: '언어적 성희롱 기준', slug: 'verbal-harassment-criteria' },
+          { title: '회식 신체접촉', slug: 'physical-contact-at-company-dinner' },
+          { title: '외모 지적 반복', slug: 'repeated-appearance-comments-by-boss' },
+          { title: '고객 성희롱 사업주 의무', slug: 'client-harassment-employer-duty' },
+        ],
+      },
+      {
+        label: '증거/징계',
+        emoji: '📋',
+        spokes: [
+          { title: '온라인 증거', slug: 'online-harassment-evidence' },
+          { title: '가해자 징계 기준', slug: 'harasser-disciplinary-criteria' },
+        ],
+      },
     ],
     caseRefs: [
       {
