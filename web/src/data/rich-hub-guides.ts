@@ -511,7 +511,7 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
 
   divorce: {
     overview:
-      '이혼은 협의이혼과 재판이혼으로 나뉘며, 자녀 양육권·양육비, 재산분할, 위자료 등 정리할 사항이 많습니다. 협의이혼은 양측이 합의하여 법원의 의사확인을 거치는 절차이고, 재판이혼은 민법 제840조에서 정한 사유(부정행위, 악의의 유기, 혼인을 계속하기 어려운 중대한 사유 등)가 있을 때 소를 제기합니다. 재산분할은 혼인 중 형성한 공동재산에 대해 기여도에 따라 나누며, 통상 30~50%가 인정됩니다. 양육비는 양육비 산정기준표에 따라 자녀의 연령, 부모의 소득을 기준으로 산정됩니다. 유책배우자도 재산분할 청구는 가능하지만 위자료 청구는 제한됩니다. 가정폭력이 있는 경우 접근금지 가처분, 피해자 보호시설 등 긴급 보호 조치를 우선 받을 수 있습니다. 이혼 절차 전에 재산 목록, 소득 자료, 자녀 양육 계획을 체계적으로 정리하는 것이 유리한 결과로 이어집니다.',
+      '이혼은 크게 협의이혼과 재판이혼 두 가지 경로로 나뉘며, 절차와 소요 기간이 상당히 다릅니다. 협의이혼은 양측이 합의하여 법원의 의사확인을 거치는 절차이고, 재판이혼은 민법 제840조에서 정한 사유(부정행위, 악의의 유기, 혼인을 계속하기 어려운 중대한 사유 등)가 있을 때 소를 제기합니다. 재산분할은 혼인 중 형성한 공동재산에 대해 기여도에 따라 나누며, 통상 30~50%가 인정됩니다. 양육비는 양육비 산정기준표에 따라 자녀의 연령, 부모의 소득을 기준으로 산정됩니다. 유책배우자도 재산분할 청구는 가능하지만 위자료 청구는 제한됩니다. 가정폭력이 있는 경우 접근금지 가처분, 피해자 보호시설 등 긴급 보호 조치를 우선 받을 수 있습니다. 이혼 절차 전에 재산 목록, 소득 자료, 자녀 양육 계획을 체계적으로 정리하는 것이 유리한 결과로 이어집니다.',
     perspectives: [
       {
         label: '이혼을 준비하고 있습니다',
@@ -605,19 +605,84 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
           '인지대와 송달료 등 소송 비용은 약 20~50만원이며, 변호사 선임 비용은 별도입니다. 재산분할 청구 금액에 따라 인지대가 달라집니다.',
       },
     ],
-    spokeLinks: [
-      { title: '협의이혼 vs 재판이혼 차이 총정리', slug: 'consensual-vs-trial-divorce' },
-      { title: '이혼 상담 전 준비할 서류 체크리스트', slug: 'divorce-consultation-prep' },
-      { title: '양육권 합의 전 정리할 것', slug: 'custody-agreement-prep' },
-      { title: '재산분할 비율은 어떻게 정해지나요', slug: 'property-division-ratio' },
-      { title: '이혼 후 양육비 안 줄 때 대처법', slug: 'child-support-non-payment' },
-      { title: '협의이혼 절차와 소요 기간 총정리', slug: 'consensual-divorce-process' },
-      { title: '재판이혼 소송 절차', slug: 'trial-divorce-lawsuit-procedure' },
-      { title: '배우자 외도 발견 시 대응', slug: 'affair-discovered-response' },
-      { title: '이혼 전 재산 정리 방법', slug: 'pre-divorce-asset-organization' },
-      { title: '이혼 전 체크리스트', slug: 'pre-divorce-checklist' },
-      { title: '위자료 청구 기준과 소멸시효', slug: 'alimony-statute-of-limitations-amount' },
-      { title: '가정폭력 이혼 절차', slug: 'domestic-violence-divorce-process' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '이혼 유형/절차',
+        emoji: '📋',
+        spokes: [
+          { title: '이혼 어디서부터 시작해야 하나', slug: 'decided-divorce-where-to-begin' },
+          { title: '협의이혼 절차와 소요 기간', slug: 'consensual-divorce-process' },
+          { title: '재판이혼 소송 절차', slug: 'trial-divorce-lawsuit-procedure' },
+          { title: '협의이혼 vs 재판이혼 비교', slug: 'consensual-vs-trial-divorce' },
+        ],
+      },
+      {
+        label: '재산분할',
+        emoji: '📋',
+        spokes: [
+          { title: '재산분할 기준과 범위 총정리', slug: 'divorce-property-division-comprehensive' },
+          { title: '분할 비율 핵심 요소', slug: 'property-division-ratio-key-factors' },
+          { title: '소득 은닉 배우자 재산 추적', slug: 'divorce-hidden-income-asset-investigation' },
+          { title: '연금 분할 방법', slug: 'divorce-pension-division-method' },
+        ],
+      },
+      {
+        label: '위자료',
+        emoji: '📋',
+        spokes: [
+          { title: '위자료 산정 기준과 평균 금액', slug: 'divorce-alimony-calculation-standard' },
+          { title: '배우자 외도 대응', slug: 'spouse-affair-divorce-response' },
+          { title: '제3자 상대 손해배상 청구', slug: 'divorce-third-party-affair-claim' },
+          { title: '쌍방 귀책 외도 청구', slug: 'divorce-both-fault-affair-third-party-claim' },
+        ],
+      },
+      {
+        label: '양육권/양육비',
+        emoji: '📋',
+        spokes: [
+          { title: '청소년 자녀 양육권', slug: 'divorce-child-custody-teen-preference' },
+          { title: '아버지 양육권 전략', slug: 'divorce-child-custody-father-strategy' },
+          { title: '양육비 이행확보 방법', slug: 'divorce-child-support-enforcement-guide' },
+          { title: '양육비 증액 청구', slug: 'divorce-child-support-increase' },
+        ],
+      },
+      {
+        label: '외도/증거',
+        emoji: '📋',
+        spokes: [
+          { title: '외도 증거 허용성', slug: 'divorce-affair-evidence-admissibility' },
+          { title: '은닉재산 발견 방법', slug: 'divorce-hidden-asset-discovery' },
+          { title: '재산처분 사유와 대응', slug: 'divorce-asset-disposal-grounds' },
+        ],
+      },
+      {
+        label: '가정폭력/보호',
+        emoji: '📋',
+        spokes: [
+          { title: '가정폭력 긴급 보호', slug: 'divorce-domestic-violence-emergency-shelter' },
+          { title: '가정폭력 이혼 절차', slug: 'domestic-violence-divorce-process' },
+          { title: '접근금지 보호', slug: 'divorce-restraining-order-protection' },
+        ],
+      },
+      {
+        label: '협의이혼 서류',
+        emoji: '📋',
+        spokes: [
+          { title: '협의이혼 필요 서류', slug: 'consensual-divorce-required-documents' },
+          { title: '서류 체크리스트', slug: 'uncontested-divorce-document-checklist' },
+          { title: '숙려기간 단축 사유', slug: 'consensual-divorce-cooling-period-reduction' },
+        ],
+      },
+      {
+        label: '이혼 후 문제',
+        emoji: '📋',
+        spokes: [
+          { title: '면접교섭 거부 대응', slug: 'divorce-visitation-denied-response' },
+          { title: '과거 양육비 소급 청구', slug: 'divorce-past-child-support-claim-years-later' },
+          { title: '별거 중 생활비 청구', slug: 'separation-living-expenses-claim-possible' },
+        ],
+      },
     ],
     caseRefs: [
       {
@@ -3092,113 +3157,177 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
 
   bankruptcy: {
     overview:
-      '파산은 채무자회생 및 파산에 관한 법률(채무자회생법)에 따라 채무자가 변제 불능 상태에 빠졌을 때 법원을 통해 채무를 정리하는 절차입니다. 파산 신청이 인용되면 채무자의 재산을 환가하여 채권자에게 배당하고, 이후 면책 결정을 통해 남은 채무를 탕감받을 수 있습니다. 면책 결격사유로는 도박·사치 등 낭비행위로 인한 과도한 채무, 허위 재산목록 제출, 특정 채권자에 대한 편파변제 등이 있습니다. 파산과 개인회생은 구별되는데, 파산은 재산을 환가하여 일시에 청산하는 절차이고, 개인회생은 정기 소득이 있는 채무자가 3~5년간 변제계획에 따라 채무를 갚아나가는 절차입니다. 면책 결정이 확정되면 대부분의 채무에서 벗어나지만, 조세채무, 양육비, 불법행위로 인한 손해배상채무 등 비면책채권은 면책 대상에서 제외됩니다. 면책 후 복권 절차를 거치면 선거권 제한 등 공법상 자격 제한이 해소되며, 파산 선고 후 면책이 확정되면 자동 복권됩니다. 신용회복 기간은 통상 5~7년이며, 면책 후에도 재기를 위한 체계적인 재정 계획이 필요합니다.',
+      '개인파산은 채무자 회생 및 파산에 관한 법률에 따라 더 이상 채무를 갚을 수 없는 상태, 즉 지급불능 상태에 놓인 채무자가 법원에 파산 선고를 받고, 이어지는 면책결정을 통해 남은 채무를 탕감받는 절차입니다. 개인회생과 달리 정기적인 소득이 없어도 신청할 수 있다는 점이 가장 큰 차이입니다. 파산 절차의 핵심은 크게 두 가지, "지급불능 상태"를 법원에서 인정받는 것과 최종적으로 "면책 결정"을 받는 것입니다. 면책이 되면 일반 채무, 카드빚, 대출금 등 대부분의 빚에서 벗어날 수 있지만, 세금·양육비·벌금·고의 불법행위로 인한 손해배상채무처럼 면책되지 않는 빚도 있습니다. 또한 재산을 은닉하거나, 도박·사치로 과도한 채무를 만들었거나, 허위 서류를 제출한 경우에는 면책이 불허가될 수 있으므로 채무 발생 경위를 미리 정리해두는 것이 중요합니다. 절차는 파산·면책 동시 신청 → 심문기일 → 파산선고 → 면책심문 → 면책결정 순으로 진행됩니다. 자유재산으로 보호받을 수 있는 범위도 알아두어야 합니다. 생활필수품, 소액예금(185만 원), 직업에 필요한 도구 등은 파산 후에도 보유할 수 있습니다. 최근에는 자유재산 범위가 확대되고 동시폐지 절차가 간소화되는 추세여서, 과거보다 개인파산 절차가 한결 수월해졌습니다. 개인회생은 3~5년간 변제 계획을 이행해야 하지만, 파산은 면책 결정 한 번으로 채무에서 벗어날 수 있어 소득이 없거나 변제 능력이 전혀 없는 분들에게 현실적인 선택지가 됩니다.',
     perspectives: [
       {
-        label: '변제불능 상태에 빠졌습니다',
+        label: '빚을 갚을 능력이 없습니다',
         emoji: '🔴',
         checks: [
-          '현재 총 채무액, 채권자 목록, 월 소득을 정리하여 변제 불능 여부를 확인해보세요',
-          '파산과 개인회생 중 어느 절차가 적합한지 비교 검토해보세요',
-          '재산 목록(부동산, 차량, 예금, 보험 등)을 빠짐없이 정리해보세요',
+          '총 채무와 소득·재산을 비교하여 지급불능 상태인지 확인',
+          '면책불허가 사유(도박·사치·재산은닉 등)에 해당하는지 점검',
+          '면책되지 않는 빚(세금·양육비·벌금)이 얼마인지 파악',
         ],
       },
       {
-        label: '면책 가능 여부를 검토하고 있습니다',
+        label: '파산과 회생 중 무엇이 맞는지 모르겠습니다',
         emoji: '🟡',
         checks: [
-          '채무 발생 원인(생활비, 사업실패, 도박 등)을 구체적으로 정리해보세요',
-          '면책 결격사유(사치·도박·편파변제)에 해당하는지 확인해보세요',
-          '비면책채권(세금, 양육비 등)이 있는지 확인해보세요',
+          '정기적인 소득이 있는지, 변제 가능성이 있는지 확인',
+          '보유 재산(부동산·차량·보험 등) 현황 정리',
+          '3~5년간 변제 계획 이행이 가능한지 판단',
+        ],
+      },
+      {
+        label: '면책이 안 될까봐 걱정됩니다',
+        emoji: '🔵',
+        checks: [
+          '채무 발생 경위가 도박·사치에 해당하는지 확인',
+          '파산 신청 전 재산 처분·명의 이전 이력 점검',
+          '과거 파산·면책 신청 이력 유무 확인',
         ],
       },
     ],
     preparations: [
       {
-        title: '채무 현황 정리',
-        desc: '모든 채권자, 채무 금액, 발생 시기, 발생 원인을 표로 정리해보세요. 신용정보원에서 신용보고서를 발급받으면 누락 없이 확인할 수 있습니다.',
+        title: '전체 채무 확인',
+        desc: '신용정보조회서(올크레딧·나이스)를 발급받아 금융기관 채무를 확인하고, 개인 간 차용금·보증채무 등도 빠짐없이 정리합니다.',
       },
       {
         title: '재산 목록 작성',
-        desc: '부동산, 자동차, 예금, 보험 해약환급금, 퇴직금 등 모든 재산을 목록화해보세요. 허위 기재 시 면책이 불허될 수 있습니다.',
+        desc: '부동산, 차량, 예금, 보험 해약환급금, 퇴직금 등 모든 재산을 목록화하고 자유재산에 해당하는지 확인합니다.',
       },
       {
-        title: '소득 및 가계부 정리',
-        desc: '최근 6개월간 소득 증빙(급여명세서, 사업소득)과 월 생활비 지출 내역을 정리해보세요.',
+        title: '채무 발생 경위 정리',
+        desc: '각 채무가 어떻게 발생했는지 시간순으로 정리하여 면책불허가 사유(도박·사치·허위서류)에 해당하지 않는지 점검합니다.',
       },
       {
-        title: '면책 결격사유 검토',
-        desc: '도박, 사치, 투기 등 낭비행위로 인한 채무가 전체 채무에서 차지하는 비율을 확인하고, 면책 가능성을 사전에 검토해보세요.',
+        title: '소득·지출 증빙',
+        desc: '급여명세서, 사업소득증명서, 생활비 내역 등을 준비하여 지급불능 상태를 객관적으로 입증합니다.',
       },
       {
-        title: '전문가 상담 준비',
-        desc: '법률구조공단 또는 파산 전문 변호사 상담 시 채무 현황표, 재산 목록, 소득 증빙, 가족관계증명서를 지참하면 효율적입니다.',
+        title: '필수 서류 준비',
+        desc: '가족관계증명서, 주민등록등본, 임대차계약서, 재산세 과세증명서 등 법원 제출용 기본 서류를 미리 발급받습니다.',
       },
     ],
     faqs: [
       {
-        question: '파산 신청 자격은 어떻게 되나요?',
+        question: '파산하면 빚이 전부 없어지나요?',
         answer:
-          '채무자가 지급 불능 상태, 즉 변제기에 있는 채무를 일반적·계속적으로 변제할 수 없는 상태이면 파산 신청이 가능합니다. 법인뿐 아니라 개인도 신청할 수 있습니다.',
+          '면책결정이 확정되면 대부분의 빚(카드빚, 대출금, 일반 채무)은 탕감됩니다. 다만 세금, 양육비, 벌금, 고의 불법행위 손해배상 등은 면책 대상에서 제외됩니다.',
       },
       {
-        question: '파산과 개인회생의 차이는 무엇인가요?',
+        question: '세금이나 양육비도 면책되나요?',
         answer:
-          '파산은 재산을 환가하여 한 번에 청산하는 절차이고, 개인회생은 정기 소득이 있는 사람이 3~5년간 변제계획에 따라 갚아나가는 절차입니다. 소득이 없으면 파산, 소득이 있으면 개인회생이 일반적입니다.',
+          '아닙니다. 세금, 양육비, 벌금, 고의 불법행위로 인한 손해배상채무는 면책되지 않는 비면책채권입니다. 이 채무는 파산 후에도 그대로 남습니다.',
       },
       {
-        question: '면책이 불허되는 경우는 어떤 것이 있나요?',
+        question: '도박 빚도 면책받을 수 있나요?',
         answer:
-          '도박·사치 등 낭비행위로 현저히 재산을 감소시킨 경우, 허위 재산목록 제출, 특정 채권자에 대한 편파변제, 과거 면책 후 7년 미경과 등이 면책 불허 사유입니다.',
+          '도박으로 과도한 채무를 진 경우 면책불허가 사유에 해당할 수 있습니다. 다만 법원은 파산에 이르게 된 경위, 반성 정도 등을 종합적으로 고려하여 재량면책을 허가하기도 합니다.',
       },
       {
-        question: '파산하면 모든 빚이 사라지나요?',
+        question: '파산하면 집과 차를 잃나요?',
         answer:
-          '면책 결정이 확정되면 대부분의 채무가 면책되지만, 조세채무, 양육비, 벌금, 고의 불법행위로 인한 손해배상채무 등 비면책채권은 면책 대상에서 제외됩니다.',
+          '파산재단에 포함되는 재산은 환가 대상이지만, 생활필수품·소액예금(185만 원)·직업도구 등 자유재산은 보호됩니다. 최근 자유재산 범위가 확대되는 추세입니다.',
       },
       {
-        question: '파산 신청 비용은 얼마인가요?',
+        question: '파산 기록은 얼마나 남나요?',
         answer:
-          '법원 예납금(약 30~50만 원)과 인지대·송달료가 필요합니다. 경제적으로 어려운 경우 대한법률구조공단을 통해 무료 법률구조를 받을 수 있습니다.',
+          '파산 선고 사실은 관보에 공고되며, 신용정보에는 면책 확정 후 5년간 기록이 남습니다. 면책 확정 후 일정 기간이 지나면 신용 회복이 가능합니다.',
       },
       {
-        question: '파산하면 직장을 잃게 되나요?',
+        question: '배우자나 가족에게 영향이 있나요?',
         answer:
-          '일반 회사원은 파산을 이유로 해고할 수 없습니다. 다만 변호사, 공인회계사, 공무원 등 일부 자격직은 파산 선고 시 자격이 제한될 수 있으나 면책·복권 후 회복됩니다.',
+          '파산은 신청인 본인에게만 효력이 있습니다. 다만 배우자가 연대보증인이거나 공동채무자인 경우 배우자의 채무는 별도로 남으므로 주의가 필요합니다.',
       },
       {
-        question: '파산 절차는 얼마나 걸리나요?',
+        question: '회생과 파산 중 뭐가 유리한가요?',
         answer:
-          '통상 신청부터 파산 선고까지 1~3개월, 면책 결정까지 추가 2~4개월이 소요됩니다. 동시폐지(배당할 재산이 없는 경우) 결정 시 더 빠르게 진행됩니다.',
+          '정기 소득이 있고 3~5년간 변제가 가능하면 회생, 소득이 없거나 변제 능력이 전혀 없으면 파산이 적합합니다. 보유 재산, 채무 규모, 면책불허가 사유 등을 종합적으로 판단해야 합니다.',
       },
       {
-        question: '면책 후 신용은 언제 회복되나요?',
+        question: '면책불허가되면 어떻게 하나요?',
         answer:
-          '면책 확정 후 신용정보원에 등록된 파산 정보는 5년간 유지됩니다. 이후 신용카드 발급, 대출 등 금융거래가 점차 가능해집니다.',
+          '면책불허가 결정에 대해 즉시항고로 불복할 수 있습니다. 법원은 재량면책 제도를 통해 면책불허가 사유가 있더라도 경위와 사정을 고려하여 면책을 허가할 수 있습니다.',
       },
     ],
-    spokeLinks: [
-      { title: '파산 면책 절차 완전 가이드', slug: 'bankruptcy-to-discharge-process' },
-      { title: '파산 vs 개인회생 비교 분석', slug: 'bankruptcy-vs-rehabilitation-compare' },
-      { title: '파산 면책 결격사유 총정리', slug: 'discharge-disqualification-reasons' },
-      { title: '파산 신청 필요 서류 체크리스트', slug: 'bankruptcy-required-documents' },
-      { title: '비면책채권의 종류와 범위', slug: 'non-dischargeable-debts-types' },
-      { title: '파산 후 복권 절차와 자격 회복', slug: 'bankruptcy-reinstatement-process' },
-      { title: '동시폐지 결정이란 무엇인가', slug: 'simultaneous-closure-explained' },
-      { title: '파산 신청 전 재산 처분 시 주의사항', slug: 'asset-disposal-before-bankruptcy' },
-      { title: '면책 후 신용회복 전략', slug: 'credit-recovery-after-discharge' },
-      { title: '채무자회생법 핵심 조문 해설', slug: 'debtor-rehabilitation-act-key-provisions' },
+    spokeLinks: [],
+    spokeCategories: [
+      {
+        label: '파산 신청/절차',
+        emoji: '📋',
+        spokes: [
+          { title: '빚이 감당 안 될 때', slug: 'too-much-debt-where-to-start' },
+          { title: '신청부터 면책까지', slug: 'application-to-discharge-full-procedure' },
+          { title: '필요 서류 목록', slug: 'application-required-documents-full-list' },
+          { title: '면책심문 준비', slug: 'discharge-hearing-procedure-preparation' },
+        ],
+      },
+      {
+        label: '면책 가능 여부',
+        emoji: '📋',
+        spokes: [
+          { title: '면책 요건 총정리', slug: 'bankruptcy-discharge-requirements-comprehensive' },
+          { title: '면책 안 되는 빚', slug: 'non-dischargeable-debts-after-bankruptcy' },
+          { title: '도박 빚 면책', slug: 'bankruptcy-gambling-debt-discharge' },
+          { title: '면책불허가 사유', slug: 'discharge-denial-reasons-key-cases' },
+        ],
+      },
+      {
+        label: '재산 보호',
+        emoji: '📋',
+        spokes: [
+          { title: '집과 차 잃나요', slug: 'will-i-lose-house-and-car' },
+          { title: '자유재산 범위', slug: 'bankruptcy-personal-property-exempt' },
+          { title: '압류 해제 절차', slug: 'bankruptcy-seizure-release-process' },
+          { title: '신청 전 재산처분 위험', slug: 'disposing-assets-before-filing-denial' },
+        ],
+      },
+      {
+        label: '파산 vs 회생',
+        emoji: '📋',
+        spokes: [
+          { title: '파산 vs 회생 비교', slug: 'bankruptcy-vs-rehabilitation-comparison' },
+          { title: '사전 자가진단', slug: 'pre-filing-self-assessment-checklist' },
+          { title: '사업 실패 후 파산', slug: 'business-failure-bankruptcy-eligible' },
+        ],
+      },
+      {
+        label: '특수 채무',
+        emoji: '📋',
+        spokes: [
+          { title: '세금 채무 면책', slug: 'bankruptcy-tax-debt-discharge-possible' },
+          { title: '학자금 대출 면책', slug: 'bankruptcy-student-loan-discharge' },
+          { title: '상속 채무 면책', slug: 'bankruptcy-inheritance-debt-discharge-guide' },
+          { title: '누락 채권자 면책', slug: 'bankruptcy-omitted-creditor-discharged' },
+        ],
+      },
+      {
+        label: '파산 후 생활',
+        emoji: '📋',
+        spokes: [
+          { title: '면책 후 생활 변화', slug: 'bankruptcy-after-discharge-life-changes' },
+          { title: '신용 회복 기간', slug: 'bankruptcy-credit-recovery-timeline' },
+          { title: '면책 채무 등재', slug: 'bankruptcy-discharged-debt-registry' },
+          { title: '배우자 공동 신청', slug: 'bankruptcy-spouse-joint-filing' },
+        ],
+      },
     ],
     caseRefs: [
       {
-        scene: '사업 실패로 2억 원의 채무가 발생하여 월 소득 150만 원으로는 변제가 불가능한 상황',
-        issue: '면책 결격사유 해당 여부와 동시폐지 가능성이 쟁점인 경우',
-        prep: '채무 발생 경위 정리, 재산 목록 작성, 소득 증빙 확보 후 법률구조공단 상담을 진행해보세요',
+        scene: '파산 면책결정을 받았으나 채권자목록에 일부 채권자를 누락하여 비면책채권 여부가 다투어지는 상황',
+        issue: '채무자가 채무 존재를 알면서도 채권자목록에 기재하지 않은 "악의"에 해당하는지, 면책결정의 효력이 누락된 채권에도 미치는지가 쟁점인 경우 (대법원 2025마7576)',
+        prep: '채권자목록 작성 시 모든 채무를 빠짐없이 기재하고, 신용정보조회서와 개인 간 채무 내역을 꼼꼼히 확인해보세요',
       },
       {
-        scene: '신용카드 현금서비스와 대출로 1억 원 채무가 있고 일부 도박으로 인한 채무가 포함된 상황',
-        issue: '도박 채무 비율에 따른 면책 불허 가능성이 쟁점인 경우',
-        prep: '도박 채무와 생활비 채무를 구분하여 정리하고, 도박 치료 기록 등 반성을 소명할 자료를 준비해보세요',
+        scene: '파산관재인이 설명의무 위반을 이유로 면책불허가를 주장하여 면책 여부가 불투명한 상황',
+        issue: '채무자의 설명 거부가 면책불허가 사유에 해당하는지, 재량면책이 가능한지가 쟁점인 경우 (대법원 2024마6789)',
+        prep: '파산관재인의 자료 요청에 성실히 응하되, 요청 범위가 과도한 경우 정당한 사유를 소명할 준비를 해보세요',
+      },
+      {
+        scene: '면책결정 후에도 임대차보증금 등 우선변제권 있는 채권의 면책 여부가 불분명한 상황',
+        issue: '우선변제권이 인정되는 보증금반환채권에도 면책결정 효력이 미치는지가 쟁점인 경우 (대법원 2022다247378)',
+        prep: '면책되는 채무와 비면책채권의 범위를 정확히 파악하고, 임대차보증금 등 우선변제권 관련 채권의 처리 방안을 확인해보세요',
       },
     ],
   },
