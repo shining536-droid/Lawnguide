@@ -670,12 +670,12 @@ export const fraudPages: SpokePage[] = [
       link: '/diagnosis/fraud',
     },
     internalLinks: [
-      { label: '사기 진단', href: '/diagnosis/fraud' },
-      { label: '사기 고소당했는데 합의하면 처벌 안 받나요', href: '/guide/fraud/fraud-accused-settlement-penalty' },
-      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '사기 합의 시 감형 효과와 합의서 주의사항', href: '/guide/fraud/fraud-accused-settlement-penalty' },
+      { label: '사기 합의금·양형에 미치는 영향', href: '/guide/fraud/fraud-settlement-sentencing-impact' },
       { label: '사기죄 성립 요건 확인', href: '/guide/fraud/fraud-crime-establishment-requirements' },
       { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
-      { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
+      { label: '사기 진단', href: '/diagnosis/fraud' },
     ],
   },
   {

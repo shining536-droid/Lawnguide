@@ -694,7 +694,7 @@ export const wagePages: SpokePage[] = [
       link: '/diagnosis/wage',
     },
     internalLinks: [
-      { label: '홈', href: '/' },
+      { label: '임금체불 가이드', href: '/guide/wage' },
       { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '포괄임금제 2026 가이드라인 체크리스트', href: '/guide/wage/wage-pogual-2026-guideline-checklist' },
       { label: '야간수당 미지급 청구', href: '/guide/wage/wage-night-shift-premium-claim' },
