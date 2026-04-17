@@ -234,6 +234,16 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'sex-crime': {
     overview:
       '성범죄는 형법 및 성폭력범죄의 처벌 등에 관한 특례법에 의해 규율됩니다. 강간, 유사강간, 강제추행, 준강간, 준강제추행 등 유형에 따라 처벌 수위가 크게 다르며, 피해자 보호와 가해자 처벌 모두 엄격한 절차를 따릅니다. 피해자 입장에서는 증거 보전과 신속한 신고가 중요하고, 해바라기센터 등 전문 지원기관을 통해 의료·법률·심리 지원을 받을 수 있습니다. 혐의를 받는 입장에서는 사실관계를 정확히 정리하고 초기 진술 단계부터 법률 조력을 받는 것이 핵심입니다. 성범죄는 친고죄 폐지 이후 피해자 의사와 관계없이 수사가 진행될 수 있으며, 신상정보 등록과 공개, 취업 제한 등 형사 처벌 외의 부가 제재도 따릅니다. 합의 여부는 양형에 영향을 미치지만 공소 취소 사유는 되지 않습니다. 피해자든 피의자든 사건 초기에 전문가의 조력을 받아 체계적으로 대응하는 것이 결과에 큰 영향을 미칩니다.',
+    topQuestions: [
+      { question: '성범죄 피해를 입었는데 어디에 신고하나요?', slug: 'sex-crime-victim-report-process' },
+      { question: '성범죄 혐의를 받고 있는데 어떻게 대응하나요?', slug: 'sex-crime-accused-defense-strategy' },
+      { question: '성범죄 합의하면 처벌이 줄어드나요?', slug: 'sex-crime-settlement-sentencing' },
+    ],
+    relatedHubs: [
+      { domain: 'digital-sex-crime', label: '디지털 성범죄', reason: '온라인 촬영물·유포 관련 성범죄' },
+      { domain: 'stalking', label: '스토킹', reason: '성범죄와 스토킹이 함께 발생하는 사건' },
+      { domain: 'sexual-harassment', label: '직장 내 성희롱', reason: '직장 내 성범죄·성희롱 경계 사건' },
+    ],
     perspectives: [
       {
         label: '피해를 입었습니다',
@@ -402,6 +412,16 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   assault: {
     overview:
       '폭행죄(형법 제260조)는 사람의 신체에 대한 유형력 행사(때리기, 밀치기, 물건 던지기 등)로 성립하며, 2년 이하의 징역 또는 500만원 이하의 벌금에 처해집니다. 상해죄(형법 제257조)는 폭행으로 인해 신체 기능이 훼손되어 치료가 필요한 경우 성립하며, 7년 이하의 징역 또는 10년 이하의 자격정지에 처해집니다. 쌍방폭행 시 양쪽 모두 처벌 가능하며, 선제 공격 여부와 피해 정도에 따라 처벌 수위가 달라집니다. 폭행죄는 반의사불벌죄로 합의 시 공소 제기가 불가하지만, 상해죄는 반의사불벌죄가 아니므로 합의해도 검찰이 기소할 수 있습니다. 합의금은 진단서 주수, 부상 부위, 치료비를 기준으로 산정되며, 중상해(8주 이상)는 합의해도 기소될 가능성이 높습니다. 피해자는 즉시 진단서를 발급받고 CCTV·녹취·목격자 등 현장 증거를 확보하는 것이 핵심입니다. 피의자는 사실관계를 정리하고 정당방위 해당 여부를 검토해야 합니다. 정당방위가 인정되려면 현재의 부당한 침해에 대한 상당한 이유가 있는 방위 행위여야 하며, 실무상 인정 기준이 매우 엄격합니다.',
+    topQuestions: [
+      { question: '폭행 당했을 때 증거는 어떻게 모으나요?', slug: 'assault-evidence-collection' },
+      { question: '폭행 합의금은 보통 얼마인가요?', slug: 'assault-settlement-amount-process' },
+      { question: '정당방위가 인정되려면 어떤 조건이 필요한가요?', slug: 'assault-self-defense-requirements' },
+    ],
+    relatedHubs: [
+      { domain: 'traffic-accident', label: '교통사고', reason: '보복 운전·도로 위 폭행 사건' },
+      { domain: 'stalking', label: '스토킹', reason: '반복적 폭행·협박이 스토킹으로 발전' },
+      { domain: 'school-violence', label: '학교폭력', reason: '미성년자 폭행 사건의 학폭 절차' },
+    ],
     perspectives: [
       {
         label: '피해자입니다',
@@ -1488,6 +1508,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'digital-sex-crime': {
     overview:
       '디지털 성범죄는 성폭력범죄의 처벌 등에 관한 특례법에 의해 규율되며, 불법촬영(제14조), 촬영물 유포(제14조 제2항), 딥페이크(제14조의2) 등이 포함됩니다. 불법촬영은 7년 이하의 징역 또는 5,000만원 이하의 벌금, 유포는 7년 이하의 징역, 딥페이크 제작·유포는 5년 이하의 징역 또는 5,000만원 이하의 벌금에 처해집니다. 2020년 n번방 사건 이후 촬영물 소지·구입·저장만으로도 3년 이하의 징역 또는 3,000만원 이하의 벌금에 처해지도록 강화되었습니다. 피해자는 디지털성범죄피해자지원센터(02-735-8994)를 통해 피해 영상 삭제 지원, 법률 상담, 수사 연계를 원스톱으로 받을 수 있습니다. 방송통신심의위원회를 통한 삭제 요청, 임시조치 신청 등 긴급 대응이 가능하며, 해외 서버에 올라간 영상도 국제 공조를 통해 삭제를 요청할 수 있습니다. 증거 보전이 핵심이므로 피해 영상을 직접 삭제하지 말고 전문기관에 먼저 연락하는 것이 중요합니다.',
+    topQuestions: [
+      { question: '불법촬영 피해를 입었는데 어떻게 대응하나요?', slug: 'illegal-filming-victim-response' },
+      { question: '유포된 영상을 삭제하려면 어떻게 하나요?', slug: 'digital-sex-crime-deletion-request' },
+      { question: '딥페이크 피해는 어떻게 신고하나요?', slug: 'deepfake-victim-legal-action' },
+    ],
+    relatedHubs: [
+      { domain: 'sex-crime', label: '성범죄', reason: '오프라인 성범죄와 디지털 성범죄 병합' },
+      { domain: 'defamation', label: '명예훼손', reason: '촬영물 유포로 인한 명예훼손 병합 청구' },
+    ],
     perspectives: [
       {
         label: '디지털 성범죄 피해를 입었습니다',
@@ -2600,6 +2629,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'industrial-accident1': {
     overview:
       '산업재해(산재)는 산업재해보상보험법에 따라 업무상 사유로 발생한 부상, 질병, 장해 또는 사망을 의미합니다. 산재 신청은 근로복지공단에 요양급여 신청서를 제출하여 시작되며, 사업주가 산재 접수를 거부하더라도 근로자가 직접 신청할 수 있습니다. 업무상 재해로 인정되면 요양급여(치료비), 휴업급여(임금 대체), 장해급여, 유족급여 등을 받을 수 있습니다. 산재 승인의 핵심은 업무와 재해 사이의 상당인과관계 입증이며, 업무 중 사고는 비교적 인정이 쉬우나 직업병이나 출퇴근 재해는 별도 요건을 충족해야 합니다. 사업주가 산재 접수를 거부하거나 압박하는 경우가 빈번하지만, 이는 산재보험법 위반으로 처벌 대상입니다. 사업주의 동의 없이도 산재 신청이 가능하며, 산재 신청을 이유로 불이익을 주는 것은 법으로 금지되어 있습니다. 사고 발생 즉시 병원에서 산재로 접수하고, 사고 경위서와 목격자 진술을 확보하는 것이 중요합니다. 산재 불승인 시에는 90일 이내에 심사청구를 할 수 있습니다.',
+    topQuestions: [
+      { question: '산재 신청은 어떻게 하나요?', slug: 'industrial-accident-claim-process' },
+      { question: '회사가 산재 처리를 거부하면 어떻게 하나요?', slug: 'employer-refuses-industrial-accident' },
+      { question: '출퇴근 사고도 산재로 인정되나요?', slug: 'commute-accident-recognition' },
+    ],
+    relatedHubs: [
+      { domain: 'wage', label: '임금체불', reason: '산재 휴업 중 임금·수당 문제' },
+      { domain: 'dismissal', label: '해고/권고사직', reason: '산재 치료 중 해고 제한' },
+    ],
     perspectives: [
       {
         label: '산재를 신청하려고 합니다',
@@ -2740,6 +2778,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'industrial-accident2': {
     overview:
       '산재 급여 신청 및 사후 절차는 산업재해보상보험법에 따라 규율됩니다. 산재가 승인된 후에는 요양급여, 휴업급여, 장해급여, 간병급여, 유족급여 등 다양한 보험급여를 신청할 수 있습니다. 요양 종결 후에는 장해등급 판정을 받게 되며, 장해등급에 따라 일시금 또는 연금 형태의 장해급여가 지급됩니다. 급여 불승인이나 장해등급 결정에 불복하는 경우 90일 이내에 근로복지공단 심사위원회에 심사청구를 할 수 있고, 심사 결정에 불복하면 산업재해보상보험 재심사위원회에 재심사청구를 하거나 행정소송을 제기할 수 있습니다. 장해등급은 1급부터 14급까지 있으며, 노동 능력 상실 정도에 따라 결정됩니다. 장해등급이 실제 상태보다 낮게 판정되는 경우가 빈번하므로, 판정 전 전문의 소견서를 미리 준비하는 것이 중요합니다. 치료 종결 후 직장 복귀 시에는 직장복귀지원금, 직업훈련 등의 지원 제도를 활용할 수 있으며, 원직복귀가 어려운 경우 직업재활급여를 통해 새로운 직업 훈련을 받을 수도 있습니다.',
+    topQuestions: [
+      { question: '산재 보험급여는 어떤 종류가 있나요?', slug: 'industrial-accident-benefit-types' },
+      { question: '장해등급 판정은 어떻게 받나요?', slug: 'disability-grade-assessment' },
+      { question: '산재 불승인 시 어떻게 불복하나요?', slug: 'industrial-accident-appeal-process' },
+    ],
+    relatedHubs: [
+      { domain: 'industrial-accident1', label: '산업재해 신청', reason: '산재 신청 절차와 연계' },
+      { domain: 'wage', label: '임금체불', reason: '산재 휴업급여와 임금 보전' },
+    ],
     perspectives: [
       {
         label: '산재 급여를 신청하려고 합니다',
@@ -2872,6 +2919,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   rehabilitation: {
     overview:
       '개인회생은 채무자 회생 및 파산에 관한 법률(채무자회생법)에 따라 과다한 채무로 지급불능 상태에 있는 개인이 법원의 인가를 받은 변제계획에 따라 3년에서 5년간 채무를 분할 변제하고 나머지 채무를 면책받는 제도입니다. 신청 자격은 급여소득자의 경우 무담보채무 10억 원, 담보채무 15억 원 이하여야 하며, 영업소득자도 동일한 한도가 적용됩니다. 급여소득자는 정기적이고 확실한 수입이 있는 사람, 영업소득자는 자영업자 등 수입이 불규칙한 사람으로 구분되며, 변제계획의 기간과 최저변제액 산정 방식이 다릅니다. 변제계획에 따른 변제가 완료되면 나머지 잔여 채무에 대해 면책 결정을 받게 됩니다. 개인회생 신청 후에는 채권자의 강제집행, 가압류 등이 중지되므로 추심 압박에서 벗어날 수 있습니다. 다만 세금, 벌금, 양육비 등 일부 채무는 면책에서 제외됩니다. 변제계획 인가 후 성실하게 변제하지 않으면 인가가 취소될 수 있으므로, 안정적 수입 확보와 지출 관리가 중요합니다.',
+    topQuestions: [
+      { question: '개인회생 신청 자격은 어떻게 되나요?', slug: 'rehabilitation-eligibility-check' },
+      { question: '개인회생과 파산 중 뭐가 나을까요?', slug: 'rehabilitation-vs-bankruptcy' },
+      { question: '개인회생 하면 차를 뺏기나요?', slug: 'rehabilitation-keep-car' },
+    ],
+    relatedHubs: [
+      { domain: 'bankruptcy', label: '개인파산', reason: '회생 불가 시 파산 전환 검토' },
+      { domain: 'wage', label: '임금체불', reason: '급여 압류와 회생 개시 효과' },
+    ],
     perspectives: [
       {
         label: '채무가 과다하여 회생을 고려하고 있습니다',
@@ -2984,6 +3040,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'sexual-harassment': {
     overview:
       '성희롱은 남녀고용평등과 일·가정 양립 지원에 관한 법률(남녀고용평등법), 국가인권위원회법 등에 근거하여 규율됩니다. 직장 내 성희롱은 사업주·상급자·근로자가 지위를 이용하거나 업무 관련성 속에서 성적 언동으로 상대방에게 굴욕감이나 혐오감을 느끼게 하는 행위를 말합니다. 공공장소 성희롱은 형법상 추행죄나 성폭력처벌법상 공공밀집장소추행죄로 처벌될 수 있습니다. 성희롱의 유형은 육체적·언어적·시각적 유형으로 구분되며, 각 유형에 따라 대응 경로가 다릅니다. 직장 내 성희롱의 경우 사업주에게 신고 후 조사·조치 의무가 있으며, 피해자에 대한 불이익 조치는 금지됩니다. 사업주가 적절한 조치를 하지 않으면 고용노동부에 진정을 제기하거나 국가인권위원회에 진정할 수 있습니다. 공공장소 성희롱은 경찰 신고를 통해 형사절차로 진행되며, CCTV 영상 등 현장 증거 확보가 중요합니다. 성희롱 피해자는 심리상담, 법률구조 등 다양한 지원제도를 활용할 수 있으므로 관련 기관에 적극적으로 도움을 요청해보세요.',
+    topQuestions: [
+      { question: '직장 내 성희롱을 당했는데 어디에 신고하나요?', slug: 'workplace-sexual-harassment-report' },
+      { question: '성희롱 신고 후 불이익을 받으면 어떻게 하나요?', slug: 'sexual-harassment-retaliation-protection' },
+      { question: '성희롱 혐의를 받고 있는데 어떻게 대응하나요?', slug: 'sexual-harassment-accused-response' },
+    ],
+    relatedHubs: [
+      { domain: 'sex-crime', label: '성범죄', reason: '성희롱이 성범죄로 발전하는 경우' },
+      { domain: 'dismissal', label: '해고/권고사직', reason: '성희롱 신고 후 부당해고 연계' },
+    ],
     perspectives: [
       {
         label: '피해를 입었습니다',
@@ -3152,6 +3217,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'child-sex-crime': {
     overview:
       '아동·청소년 대상 성범죄는 아동·청소년의 성보호에 관한 법률(아청법)에 의해 가중처벌됩니다. 직접 접촉에 의한 성폭행·성추행, 그루밍(온라인 길들이기), 촬영물 제작·유포, 온라인 성착취 등 유형이 다양하며, 모든 유형에서 법정형이 성인 대상 범죄보다 무겁습니다. 아동·청소년 대상 성범죄는 친고죄가 아니므로 피해자의 고소 없이도 수사가 가능하며, 국민 누구나 신고 의무가 있습니다. 특히 교사, 의료인, 사회복지사 등은 직무상 아동학대 및 성범죄를 인지한 경우 즉시 신고해야 하는 의무신고자입니다. 피해 아동·청소년은 해바라기센터(원스톱 지원), 아동보호전문기관, 여성긴급전화 1366 등을 통해 의료·심리·법률 지원을 받을 수 있습니다. 디지털 성착취의 경우 영상·사진의 유포 차단과 삭제 지원도 제공됩니다. 혐의자 입장에서는 범죄 유형에 따라 신상정보 공개, 취업제한, 전자발찌 부착 등 보안처분이 추가될 수 있으므로 초기 대응이 매우 중요합니다.',
+    topQuestions: [
+      { question: '아이가 성범죄 피해를 입었을 때 먼저 할 일은?', slug: 'child-sex-crime-parent-first-action' },
+      { question: '아동 대상 성범죄 처벌 수위는 어떻게 되나요?', slug: 'child-sex-crime-penalty-guide' },
+      { question: '온라인 아동 성착취는 어떻게 신고하나요?', slug: 'child-online-exploitation-report' },
+    ],
+    relatedHubs: [
+      { domain: 'sex-crime', label: '성범죄', reason: '아동 성범죄 가중처벌 기준' },
+      { domain: 'school-violence', label: '학교폭력', reason: '학교 내 성범죄 대응 절차' },
+    ],
     perspectives: [
       {
         label: '피해를 입었습니다 (보호자)',
@@ -3287,6 +3361,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'prostitution': {
     overview:
       '성매매는 성매매알선 등 행위의 처벌에 관한 법률(성매매처벌법)에 따라 규율됩니다. 성매매처벌법은 성매매를 한 사람, 알선한 사람, 강요한 사람을 모두 처벌 대상으로 규정하되, 성매매 피해자는 처벌하지 않는 것을 원칙으로 합니다. 성매매 피해자란 위계·위력·폭행·협박에 의해 성매매를 강요당한 사람, 인신매매에 의한 피해자, 청소년, 사물을 변별하거나 의사를 결정할 능력이 없는 사람 등을 말합니다. 피해자로 인정되면 처벌이 면제되며, 성매매 피해자 지원시설·상담소 등을 통해 법률·의료·심리 지원을 받을 수 있습니다. 반면 성매매 알선 행위는 가중처벌 대상으로 3년 이상의 징역에 처해질 수 있으며, 영업으로 알선한 경우 더욱 무겁게 처벌됩니다. 단속에 적발된 경우 자신의 법적 지위(피해자/단순 성매매/알선)에 따라 대응 방법이 완전히 달라지므로 정확한 상황 파악이 우선입니다.',
+    topQuestions: [
+      { question: '성매매 혐의를 받고 있는데 어떻게 대응하나요?', slug: 'prostitution-accused-defense' },
+      { question: '성매매 처벌 수위는 어떻게 되나요?', slug: 'prostitution-penalty-guide' },
+      { question: '성매매 피해자 보호 제도는 어떤 게 있나요?', slug: 'prostitution-victim-protection' },
+    ],
+    relatedHubs: [
+      { domain: 'sex-crime', label: '성범죄', reason: '성매매와 성범죄 경합 사건' },
+      { domain: 'digital-sex-crime', label: '디지털 성범죄', reason: '온라인 성매매 알선·촬영 사건' },
+    ],
     perspectives: [
       {
         label: '성매매 피해자입니다',
@@ -3427,6 +3510,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'school-violence': {
     overview:
       '학교폭력은 학교폭력예방 및 대책에 관한 법률(학교폭력예방법)에 따라 규율됩니다. 물리적 폭력, 언어폭력(모욕, 협박), 사이버폭력, 따돌림, 금품갈취, 강요, 성폭력 등 다양한 유형이 있으며, 학교 안팎에서 학생 간에 발생하는 모든 유형의 폭력이 대상입니다. 학교폭력이 발생하면 학교장은 학교폭력대책심의위원회(학폭위, 현재 교육지원청 소속)에 심의를 요청해야 합니다. 학폭위는 피해학생 보호조치(1~7호)와 가해학생 조치(1~9호)를 의결하며, 조치 사항은 학교생활기록부에 기재됩니다. 1~3호 조치는 졸업과 동시에 삭제되지만, 4호 이상은 졸업 후 2~4년간 보존됩니다. 피해학생 측은 증거 확보와 신속한 신고가 핵심이고, 가해학생 측은 사안의 경중에 따른 적절한 대응과 반성·화해 노력이 양형에 영향을 미칩니다. 중대한 사안은 형사 고소도 병행할 수 있으며, 민사상 손해배상 청구도 가능합니다.',
+    topQuestions: [
+      { question: '자녀가 학교폭력 피해를 입었을 때 먼저 할 일은?', slug: 'school-violence-victim-parent-action' },
+      { question: '학교폭력 기록은 대학 입학에 영향이 있나요?', slug: 'school-violence-record-impact' },
+      { question: '가해자로 지목됐는데 억울할 때 어떻게 하나요?', slug: 'school-violence-false-accusation-defense' },
+    ],
+    relatedHubs: [
+      { domain: 'assault', label: '폭행/상해', reason: '학교폭력이 형사 사건으로 발전' },
+      { domain: 'defamation', label: '명예훼손', reason: '학폭 관련 온라인 명예훼손' },
+    ],
     perspectives: [
       {
         label: '자녀가 피해를 입었습니다',
@@ -3598,6 +3690,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'drug-crime': {
     overview:
       '마약류 범죄는 마약류 관리에 관한 법률에 따라 엄중하게 처벌됩니다. 마약류는 마약(헤로인, 코카인 등), 향정신성의약품(필로폰, MDMA, LSD 등), 대마로 구분되며 각각 처벌 수위가 다릅니다. 투약(사용)은 10년 이하 징역, 소지·매매는 5년 이하에서 무기징역까지 가능하며, 영리 목적 유통은 사형·무기 또는 5년 이상 징역으로 가중처벌됩니다. 최근에는 다크웹, 텔레그램 등 온라인을 통한 유통이 증가하고 있으며, 해외에서의 투약도 국내법으로 처벌됩니다. 수사 단계에서 모발·소변 검사, 압수수색, 통신 자료 분석 등이 이루어지며, 혐의가 인정되면 구속 수사가 원칙입니다. 다만 자수한 경우 형이 감경되고, 초범으로 투약만 한 경우 치료보호(치료감호) 제도를 활용할 수 있습니다. 수사 초기부터 변호사 조력을 받는 것이 중요하며, 진술 전략과 양형 사유(자수, 치료 의지, 사회적 유대 등)를 체계적으로 준비해야 합니다.',
+    topQuestions: [
+      { question: '마약 초범인데 처벌이 어떻게 되나요?', slug: 'drug-first-offense-penalty' },
+      { question: '마약 수사를 받고 있는데 어떻게 대응하나요?', slug: 'drug-investigation-response' },
+      { question: '마약 자수하면 처벌이 줄어드나요?', slug: 'drug-voluntary-surrender-benefit' },
+    ],
+    relatedHubs: [
+      { domain: 'fraud', label: '사기', reason: '마약 거래 관련 사기 병합 사건' },
+      { domain: 'rehabilitation', label: '개인회생', reason: '마약 관련 채무 정리' },
+    ],
     perspectives: [
       {
         label: '수사를 받고 있습니다',
@@ -3916,6 +4017,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'sangga': {
     overview:
       '상가건물 임대차는 상가건물 임대차보호법에 의해 보호됩니다. 이 법은 환산보증금(보증금 + 월차임 × 100) 기준으로 적용 범위가 결정되며, 지역별로 기준금액이 다릅니다. 핵심 쟁점은 권리금 보호, 계약갱신요구권, 보증금 반환, 차임 증감 등입니다. 권리금은 2015년 법 개정으로 보호 대상이 되었으며, 임대인이 정당한 사유 없이 임차인의 권리금 회수를 방해하면 손해배상 책임을 집니다. 계약갱신요구권은 최초 계약일로부터 10년까지 행사할 수 있으며, 갱신 시 차임 인상률은 5% 이내로 제한됩니다. 보증금 반환 문제는 주택임대차와 유사하나, 상가는 확정일자 외에 사업자등록이 대항력 요건이라는 점이 다릅니다. 환산보증금이 기준금액을 초과하면 일부 보호 규정(대항력, 계약갱신요구권 등)이 적용되지 않을 수 있으므로, 계약 전 환산보증금을 반드시 확인해야 합니다. 차임 증감은 경제 사정 변동, 인근 상가 임대료 수준 등을 고려하여 청구할 수 있으며, 조정이 안 되면 대한법률구조공단의 임대차분쟁조정위원회를 이용할 수 있습니다.',
+    topQuestions: [
+      { question: '상가 보증금을 못 돌려받고 있는데 어떻게 하나요?', slug: 'sangga-deposit-return-procedure' },
+      { question: '권리금을 회수할 수 있나요?', slug: 'sangga-key-money-recovery' },
+      { question: '임대인이 계약 갱신을 거절할 수 있나요?', slug: 'sangga-renewal-rejection-response' },
+    ],
+    relatedHubs: [
+      { domain: 'jeonse', label: '전세/임대차', reason: '주택과 상가 보증금 보호 비교' },
+      { domain: 'small-claims', label: '소액재판', reason: '보증금 분쟁 소액사건 절차' },
+    ],
     perspectives: [
       {
         label: '보증금·권리금 문제가 있습니다',
@@ -4073,6 +4183,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   bankruptcy: {
     overview:
       '개인파산은 채무자 회생 및 파산에 관한 법률에 따라 더 이상 채무를 갚을 수 없는 상태, 즉 지급불능 상태에 놓인 채무자가 법원에 파산 선고를 받고, 이어지는 면책결정을 통해 남은 채무를 탕감받는 절차입니다. 개인회생과 달리 정기적인 소득이 없어도 신청할 수 있다는 점이 가장 큰 차이입니다. 파산 절차의 핵심은 크게 두 가지, "지급불능 상태"를 법원에서 인정받는 것과 최종적으로 "면책 결정"을 받는 것입니다. 면책이 되면 일반 채무, 카드빚, 대출금 등 대부분의 빚에서 벗어날 수 있지만, 세금·양육비·벌금·고의 불법행위로 인한 손해배상채무처럼 면책되지 않는 빚도 있습니다. 또한 재산을 은닉하거나, 도박·사치로 과도한 채무를 만들었거나, 허위 서류를 제출한 경우에는 면책이 불허가될 수 있으므로 채무 발생 경위를 미리 정리해두는 것이 중요합니다. 절차는 파산·면책 동시 신청 → 심문기일 → 파산선고 → 면책심문 → 면책결정 순으로 진행됩니다. 자유재산으로 보호받을 수 있는 범위도 알아두어야 합니다. 생활필수품, 소액예금(185만 원), 직업에 필요한 도구 등은 파산 후에도 보유할 수 있습니다. 최근에는 자유재산 범위가 확대되고 동시폐지 절차가 간소화되는 추세여서, 과거보다 개인파산 절차가 한결 수월해졌습니다. 개인회생은 3~5년간 변제 계획을 이행해야 하지만, 파산은 면책 결정 한 번으로 채무에서 벗어날 수 있어 소득이 없거나 변제 능력이 전혀 없는 분들에게 현실적인 선택지가 됩니다.',
+    topQuestions: [
+      { question: '개인파산 신청하면 재산을 다 잃나요?', slug: 'bankruptcy-exempt-property-guide' },
+      { question: '파산 면책이 안 되는 경우가 있나요?', slug: 'bankruptcy-non-discharge-cases' },
+      { question: '파산과 개인회생 중 뭐가 나을까요?', slug: 'bankruptcy-vs-rehabilitation-comparison' },
+    ],
+    relatedHubs: [
+      { domain: 'rehabilitation', label: '개인회생', reason: '소득이 있으면 회생이 유리' },
+      { domain: 'wage', label: '임금체불', reason: '급여 압류와 파산 면책 효과' },
+    ],
     perspectives: [
       {
         label: '빚을 갚을 능력이 없습니다',
@@ -4250,6 +4369,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'real-estate-sale': {
     overview:
       '부동산 매매는 민법과 부동산거래신고법, 공인중개사법 등에 의해 규율되는 대표적인 고액 거래입니다. 매매계약 체결부터 계약금·중도금·잔금 지급, 소유권이전등기까지 여러 단계를 거치며, 각 단계에서 계약해제, 하자 발견, 이중계약, 중개사 분쟁, 등기 문제, 세금 이슈 등 다양한 분쟁이 발생할 수 있습니다. 매수자는 등기부등본 확인, 실거래가 검증, 건물 상태 점검이 필수이고, 매도자는 하자고지의무, 세금 신고, 명도 일정 관리가 핵심입니다. 부동산거래신고법에 따라 계약일로부터 30일 내에 실거래 신고를 해야 하며, 허위 신고(업다운계약서) 시 과태료와 형사처벌을 받을 수 있습니다. 공인중개사의 중개 과실이나 설명의무 위반으로 손해가 발생한 경우 공제 기금을 통한 배상 청구가 가능합니다. 양도소득세, 취득세 등 세금 문제도 매매 과정에서 반드시 사전에 확인해야 할 사항입니다.',
+    topQuestions: [
+      { question: '매매 계약을 해제하고 싶은데 위약금은 얼마인가요?', slug: 'real-estate-contract-cancellation' },
+      { question: '매매 후 하자를 발견하면 어떻게 하나요?', slug: 'real-estate-defect-claim' },
+      { question: '중개사가 잘못된 정보를 줬을 때 배상 가능한가요?', slug: 'real-estate-agent-liability' },
+    ],
+    relatedHubs: [
+      { domain: 'jeonse', label: '전세/임대차', reason: '매매와 임대차 동시 진행 시' },
+      { domain: 'fraud', label: '사기', reason: '부동산 매매 사기 사건' },
+    ],
     perspectives: [
       {
         label: '매수자로서 분쟁이 발생했습니다',
@@ -4401,6 +4529,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'real-estate-auction': {
     overview:
       '부동산 경매는 민사집행법에 따라 채권자의 신청으로 법원이 채무자의 부동산을 강제로 매각하여 채권을 회수하는 절차입니다. 경매 절차는 경매 신청, 감정평가, 매각기일 공고, 입찰, 낙찰, 대금납부, 소유권이전 순서로 진행됩니다. 권리분석이 핵심으로, 말소기준권리(저당권, 압류, 가압류 등)보다 앞선 권리(선순위 임차권, 법정지상권 등)는 낙찰 후에도 소멸하지 않으므로 입찰 전 반드시 확인해야 합니다. 임차인의 경우 대항력과 확정일자 유무에 따라 보증금 회수 여부가 결정되며, 배당요구 종기까지 반드시 배당요구를 해야 합니다. 낙찰 후에는 대금납부, 소유권이전등기, 인도명령 또는 명도소송을 통해 부동산을 인도받게 됩니다. 인도명령은 낙찰대금 납부 후 6개월 내에 신청해야 하며, 점유자가 정당한 권원이 없는 경우에만 인용됩니다. 경매 투자 시에는 권리분석 실수로 인한 손실 위험이 크므로 전문가의 조력을 받는 것이 안전합니다.',
+    topQuestions: [
+      { question: '경매 입찰에 참여하려면 뭘 준비해야 하나요?', slug: 'auction-bidding-preparation' },
+      { question: '세입자인데 경매가 진행되면 보증금은 어떻게 되나요?', slug: 'auction-tenant-deposit-protection' },
+      { question: '낙찰 후 명도가 안 되면 어떻게 하나요?', slug: 'auction-eviction-procedure' },
+    ],
+    relatedHubs: [
+      { domain: 'jeonse', label: '전세/임대차', reason: '경매 시 임차인 보증금 보호' },
+      { domain: 'jeonse-fraud', label: '전세사기', reason: '전세사기로 인한 경매 대응' },
+    ],
     perspectives: [
       {
         label: '경매로 부동산 매수를 희망합니다',
@@ -4550,6 +4687,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'neighbor-dispute': {
     overview:
       '이웃 간 분쟁은 층간소음, 반려동물 문제, 경계 분쟁, 일조권 침해, 건물 하자와 누수, 악취·분진 등 다양한 유형으로 발생합니다. 층간소음은 공동주택관리법과 층간소음 관리기준에 따라 규율되며, 주간 40dB·야간 35dB을 초과하면 직상층의 수인한도 초과 소음으로 인정될 수 있습니다. 경계 분쟁은 민법의 상린관계 규정이 적용되고, 일조권 침해는 건축법과 판례상 수인한도론에 따라 판단됩니다. 환경 분쟁(소음, 악취, 진동 등)의 경우 환경분쟁조정위원회에 조정을 신청할 수 있으며, 소송보다 비용과 시간이 절감됩니다. 민사조정도 분쟁 해결의 효과적인 수단입니다. 이웃 분쟁은 감정 대립이 심화되기 쉬우므로, 증거를 체계적으로 확보하면서도 원만한 해결을 우선적으로 모색하는 것이 바람직합니다. 지자체 분쟁조정위원회나 주민센터 갈등 조정 서비스를 먼저 활용해볼 수 있습니다.',
+    topQuestions: [
+      { question: '층간소음 신고는 어디에 하나요?', slug: 'floor-noise-report-to-mediation-procedure' },
+      { question: '이웃과 분쟁이 생겼는데 법적 조치가 가능한가요?', slug: 'floor-noise-dispute-response' },
+      { question: '반려동물 소음 피해는 어떻게 대응하나요?', slug: 'pet-noise-neighbor-dispute' },
+    ],
+    relatedHubs: [
+      { domain: 'small-claims', label: '소액재판', reason: '이웃 분쟁 손해배상 소액사건' },
+      { domain: 'assault', label: '폭행/상해', reason: '이웃 분쟁이 폭행으로 발전' },
+    ],
     perspectives: [
       {
         label: '층간소음 피해를 겪고 있습니다',
@@ -4710,6 +4856,15 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
   'small-claims': {
     overview:
       '소액사건심판법은 소송 목적의 값이 3,000만 원 이하인 민사사건에 적용되는 간이·신속한 재판 절차입니다. 대여금, 매매대금, 용역대금, 손해배상 등 일상적인 금전 분쟁에서 널리 활용됩니다. 소장 접수 후 즉시 변론기일이 지정되며, 원칙적으로 1회 기일에 심리를 마치고 바로 선고합니다. 지급명령 제도를 이용하면 상대방이 이의하지 않을 경우 재판 없이 집행권원을 확보할 수 있어 더욱 간편합니다. 이행권고결정은 법원이 소장 부본 송달 시 피고에게 이행을 권고하는 제도로, 이의가 없으면 확정판결과 같은 효력이 발생합니다. 소액사건은 변호사 없이도 본인이 직접 진행할 수 있으나, 증거 준비와 청구취지 작성을 정확히 해야 합니다. 승소 판결을 받더라도 상대방이 이행하지 않으면 강제집행(재산조회, 채권압류 등)을 별도로 신청해야 하므로 상대방의 재산 상태도 미리 파악해두는 것이 중요합니다.',
+    topQuestions: [
+      { question: '빌려준 돈을 안 갚을 때 어떻게 받나요?', slug: 'small-claims-money-recovery' },
+      { question: '지급명령 신청은 어떻게 하나요?', slug: 'payment-order-application-guide' },
+      { question: '소액재판 비용은 얼마나 드나요?', slug: 'small-claims-cost-guide' },
+    ],
+    relatedHubs: [
+      { domain: 'fraud', label: '사기', reason: '사기 피해금 민사 회수 절차' },
+      { domain: 'wage', label: '임금체불', reason: '소액 임금체불 민사 청구' },
+    ],
     perspectives: [
       {
         label: '돈을 받아야 하는 채권자입니다',
