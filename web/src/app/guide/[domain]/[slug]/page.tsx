@@ -48,13 +48,24 @@ export default function GuideSpokePage({ params }: PageProps) {
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: page.keyword,
+    headline: page.meta.title.replace(' | 로앤가이드', ''),
     description: page.meta.description,
     url: `https://www.lawnguide.co.kr/guide/${params.domain}/${params.slug}`,
+    datePublished: '2026-04-01',
+    dateModified: '2026-04-17',
+    author: {
+      '@type': 'Organization',
+      name: '로앤가이드',
+      url: 'https://www.lawnguide.co.kr',
+    },
     publisher: {
       '@type': 'Organization',
       name: '로앤가이드',
       url: 'https://www.lawnguide.co.kr',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.lawnguide.co.kr/logo.png',
+      },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
@@ -64,6 +75,7 @@ export default function GuideSpokePage({ params }: PageProps) {
       '@type': 'Thing',
       name: domainMeta?.name || params.domain,
     },
+    inLanguage: 'ko',
   };
 
   // Structured Data: BreadcrumbList

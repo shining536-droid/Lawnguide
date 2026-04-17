@@ -265,7 +265,7 @@ export const spokesBatch10Pages26to30: SpokePage[] = [
     domain: 'unemployment',
     slug: 'unemployment-voluntary-quit-benefits',
     keyword: '자발적 퇴사도 실업급여 받을 수 있나요',
-    questionKeyword: '스스로 퇴사했는데 실업급여를 받을 수 있는 방법이 있나요?',
+    questionKeyword: '자발적으로 퇴사했는데 실업급여를 받을 수 있나요?',
     ctaKeyword: '실업급여 수급 자격 확인',
     type: 'Q&A형',
     perspective: 'victim',

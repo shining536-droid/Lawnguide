@@ -919,7 +919,7 @@ export const divorcePages: SpokePage[] = [
     domain: 'divorce',
     slug: 'child-support-calculation-standard',
     keyword: '양육비 산정 기준표와 계산 방법',
-    questionKeyword: '양육비는 어떤 기준으로 계산하나요?',
+    questionKeyword: '양육비 산정기준표는 어떻게 보나요?',
     ctaKeyword: '양육비 계산',
     type: '수치기한형',
     meta: {

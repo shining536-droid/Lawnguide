@@ -1252,7 +1252,7 @@ export const duiPages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '탄원서는 누가 써야 가장 효과적인가요?',
+        question: '음주운전 탄원서에는 어떤 내용을 써야 하나요?',
         answer: '<strong>가족(배우자, 부모)</strong>의 탄원서가 기본이며, 직장 상사나 지역사회 인사(종교지도자 등)의 탄원서가 추가되면 더 효과적입니다.',
       },
       {
