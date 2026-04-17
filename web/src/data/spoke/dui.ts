@@ -1289,9 +1289,8 @@ export const duiPages: SpokePage[] = [
       link: '/diagnosis/dui',
     },
     internalLinks: [
-      { label: '홈', href: '/' },
-      { label: '음주운전 진단', href: '/diagnosis/dui' },
-      { label: '음주운전 초범 처벌 수준과 대응 방법', href: '/guide/dui/dui-first-offense' },
+      { label: '음주운전 가이드', href: '/guide/dui' },
+      { label: '교통사고 가이드', href: '/guide/traffic-accident' },
       { label: '면허취소 구제 방법과 행정심판', href: '/guide/dui/dui-license-revocation-appeal' },
       { label: '음주측정 거부 시 처벌과 대응', href: '/guide/dui/dui-breathalyzer-refusal' },
       { label: '음주운전 2회 적발 처벌 수위와 대응', href: '/guide/dui/dui-second-offense-penalty' },

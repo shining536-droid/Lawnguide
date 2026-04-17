@@ -671,11 +671,10 @@ export const fraudPages: SpokePage[] = [
     },
     internalLinks: [
       { label: '사기 가이드', href: '/guide/fraud' },
+      { label: '소액사건 가이드', href: '/guide/small-claims' },
       { label: '사기 합의 시 감형 효과와 합의서 주의사항', href: '/guide/fraud/fraud-accused-settlement-penalty' },
-      { label: '사기 합의금·양형에 미치는 영향', href: '/guide/fraud/fraud-settlement-sentencing-impact' },
       { label: '사기죄 성립 요건 확인', href: '/guide/fraud/fraud-crime-establishment-requirements' },
       { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
-      { label: '사기 진단', href: '/diagnosis/fraud' },
     ],
   },
   {

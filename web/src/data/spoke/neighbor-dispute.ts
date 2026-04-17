@@ -174,10 +174,10 @@ export const neighborDisputePages: SpokePage[] = [
     ],
     cta: { text: '층간소음 공식 분쟁해결 절차가 궁금하다면, 지금 내 상황을 진단해보세요', link: '/diagnosis/neighbor-dispute' },
     internalLinks: [
-      { label: '홈', href: '/' },
-      { label: '이웃분쟁 진단', href: '/diagnosis/neighbor-dispute' },
+      { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' },
+      { label: '소액사건 가이드', href: '/guide/small-claims' },
       { label: '층간소음 피해 대응법', href: '/guide/neighbor-dispute/floor-noise-dispute-response' },
-      { label: '손해배상 가이드', href: '/guide/neighbor-dispute' },
+      { label: '이웃분쟁 진단', href: '/diagnosis/neighbor-dispute' },
     ],
   },
 ];

@@ -695,11 +695,10 @@ export const wagePages: SpokePage[] = [
     },
     internalLinks: [
       { label: '임금체불 가이드', href: '/guide/wage' },
-      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
+      { label: '부당해고 가이드', href: '/guide/dismissal' },
       { label: '포괄임금제 2026 가이드라인 체크리스트', href: '/guide/wage/wage-pogual-2026-guideline-checklist' },
       { label: '야간수당 미지급 청구', href: '/guide/wage/wage-night-shift-premium-claim' },
-      { label: '임금체불 신고 전에 준비할 서류', href: '/guide/wage/unpaid-wage-complaint-docs' },
-      { label: '임금체불 진단', href: '/diagnosis/wage' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
     ],
   },
 ];

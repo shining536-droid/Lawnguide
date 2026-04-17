@@ -309,11 +309,25 @@ export default function GuideHubPage({ params }: PageProps) {
       })),
     };
 
+    const breadcrumbJsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: '홈', item: 'https://www.lawnguide.co.kr' },
+        { '@type': 'ListItem', position: 2, name: '법률 가이드', item: 'https://www.lawnguide.co.kr/guide' },
+        { '@type': 'ListItem', position: 3, name: `${meta.name} 가이드`, item: `https://www.lawnguide.co.kr/guide/${params.domain}` },
+      ],
+    };
+
     return (
       <div className="bg-gray-50 py-8">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
         <div className="container-narrow">
           {/* Header */}
@@ -322,6 +336,24 @@ export default function GuideHubPage({ params }: PageProps) {
             <h1 className="mt-3 text-2xl font-bold text-navy-700 md:text-3xl">{meta.name} 준비사항 안내</h1>
             <p className="mt-2 text-gray-600">{meta.description}</p>
           </div>
+
+          {/* Top Questions - 많이 찾는 상황 */}
+          {rich.topQuestions && rich.topQuestions.length > 0 && (
+            <section className="mb-8 rounded-xl border-2 border-primary-200 bg-primary-50 p-6">
+              <h2 className="mb-3 text-base font-bold text-primary-800">📌 많이 찾는 상황</h2>
+              <div className="space-y-2">
+                {rich.topQuestions.map((q, i) => (
+                  <Link
+                    key={i}
+                    href={`/guide/${params.domain}/${q.slug}`}
+                    className="block rounded-lg bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition-colors hover:bg-primary-100 hover:text-primary-700"
+                  >
+                    {q.question} →
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* 1. Overview */}
           <section className="mb-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm md:p-8">
@@ -526,11 +558,33 @@ export default function GuideHubPage({ params }: PageProps) {
             </p>
           </div>
 
+          {/* Related hubs - 사건 흐름형 관련 분야 */}
+          {rich.relatedHubs && rich.relatedHubs.length > 0 && (
+            <section className="mb-8">
+              <h2 className="mb-4 text-lg font-bold text-gray-900">함께 확인하면 좋은 분야</h2>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {rich.relatedHubs.map((h, i) => {
+                  const hubMeta = getDomainMeta(h.domain);
+                  return hubMeta ? (
+                    <Link
+                      key={i}
+                      href={`/guide/${h.domain}`}
+                      className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm transition-colors hover:border-primary-300"
+                    >
+                      <span className="text-sm font-bold text-navy-700">{hubMeta.icon} {h.label}</span>
+                      <p className="mt-1 text-xs text-gray-500">{h.reason}</p>
+                    </Link>
+                  ) : null;
+                })}
+              </div>
+            </section>
+          )}
+
           {/* Other domains */}
           <div className="mt-12">
             <h2 className="mb-4 text-lg font-bold text-gray-900">다른 분야 안내</h2>
             <div className="flex flex-wrap gap-2">
-              {DOMAINS.filter((d) => d.id !== params.domain).map((d) => (
+              {DOMAINS.filter((d) => d.id !== params.domain && !(rich.relatedHubs || []).some(rh => rh.domain === d.id)).map((d) => (
                 <Link
                   key={d.id}
                   href={`/guide/${d.id}`}

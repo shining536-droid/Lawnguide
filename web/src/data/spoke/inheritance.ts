@@ -294,9 +294,8 @@ export const inheritancePages: SpokePage[] = [
       link: '/diagnosis/inheritance',
     },
     internalLinks: [
-      { label: '상속 진단', href: '/diagnosis/inheritance' },
-      { label: '상속 포기 기간과 절차', href: '/guide/inheritance/inheritance-renunciation-process' },
-      { label: '상속 빚이 더 많을 때 한정승인 방법', href: '/guide/inheritance/limited-inheritance-acceptance' },
+      { label: '상속 가이드', href: '/guide/inheritance' },
+      { label: '개인회생 가이드', href: '/guide/rehabilitation' },
       { label: '한정승인과 상속포기 차이점 비교', href: '/guide/inheritance/limited-acceptance-vs-renunciation' },
       { label: '부모 사망 후 숨겨진 빚 발견했을 때', href: '/guide/inheritance/inheritance-hidden-debt-discovery' },
       { label: '상속포기 기한과 신고 절차', href: '/guide/inheritance/inheritance-renunciation-deadline' },

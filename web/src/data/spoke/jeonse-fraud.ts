@@ -1003,10 +1003,10 @@ export const jeonseFraudPages: SpokePage[] = [
     },
     internalLinks: [
       { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
+      { label: '전세 가이드', href: '/guide/jeonse' },
       { label: '전세사기 피해자 인정 절차', href: '/guide/jeonse-fraud/jeonse-fraud-victim-recognition-process' },
       { label: '전세사기 신고 절차 총정리', href: '/guide/jeonse-fraud/jeonse-fraud-report-procedure' },
       { label: '전세사기 민사 vs 형사 비교', href: '/guide/jeonse-fraud/jeonse-fraud-civil-vs-criminal' },
-      { label: '전세사기 진단', href: '/diagnosis/jeonse-fraud' },
     ],
   },
   {

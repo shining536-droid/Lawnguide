@@ -83,11 +83,11 @@ export const assaultPages: SpokePage[] = [
       link: '/diagnosis/assault',
     },
     internalLinks: [
-      { label: '내 상황에 맞는 대응 전략 확인하기', href: '/chat?domain=assault' },
       { label: '폭행/상해 가이드', href: '/guide/assault' },
-      { label: '폭행 진단', href: '/diagnosis/assault' },
-      { label: '정당방위 인정 기준과 준비 포인트', href: '/guide/assault/self-defense-criteria' },
+      { label: '교통사고 가이드', href: '/guide/traffic-accident' },
       { label: '폭행 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount-process' },
+      { label: '폭행 가해자 방어 전략', href: '/guide/assault/assault-accused-defense-strategy' },
+      { label: '정당방위 인정 기준과 준비 포인트', href: '/guide/assault/self-defense-criteria' },
     ],
   },
   {
