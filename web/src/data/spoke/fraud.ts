@@ -615,6 +615,17 @@ export const fraudPages: SpokePage[] = [
           '<p><strong style="color:#1e3a5f">합의서에 처벌불원 의사와 금액을 명확히 기재하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액</strong>과 지급 방법(일시불 또는 분할), ②피해자의 <strong>"고소 취소 및 처벌불원" 의사</strong>, ③<strong>민·형사상 추가 청구 포기</strong> 문구를 반드시 포함하세요. 합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다.</p>\n<p>합의 후 피해자가 직접 수사기관(경찰 또는 검찰)에 <strong>고소 취소서</strong>와 <strong>처벌불원서</strong>를 제출해야 합니다. 피해자가 합의를 거부하는 경우 <strong>공탁</strong>(법원에 변제금을 맡기는 절차)으로 변제 의사를 증명할 수 있습니다. 공탁 사실은 양형에서 유리하게 참작됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수: 금액 + 처벌불원 + 추가 청구 포기 | 거부 시 공탁 활용</blockquote>',
       },
     ],
+    comparison: {
+      title: '사기죄 금액별 양형 기준',
+      headers: ['피해 금액', '일반 양형', '합의 시 양형', '비고'],
+      rows: [
+        { label: '1천만원 미만', values: ['벌금 또는 집행유예', '기소유예·선고유예 가능', '초범+합의 시 벌금형 이하'] },
+        { label: '1천만원~5천만원', values: ['징역 6월~2년', '집행유예 가능', '합의+반성+초범 시 감경'] },
+        { label: '5천만원~1억원', values: ['징역 1년~3년', '집행유예 가능성 낮아짐', '피해 회복 정도가 핵심'] },
+        { label: '1억원~5억원', values: ['징역 2년~5년', '실형 가능성 높음', '일부 합의라도 감경 참작'] },
+        { label: '5억원 이상', values: ['징역 3년 이상 (특경법)', '실형 확정적', '특경법 적용, 감경 제한적'] },
+      ],
+    },
     cases: [
       {
         title: '피해 전액 변제 후 기소유예를 받은 사례',
@@ -663,6 +674,10 @@ export const fraudPages: SpokePage[] = [
       {
         question: '무료 법률상담은 어디서 받나요?',
         answer: '<strong>대한법률구조공단</strong>(전화 132)과 각 지방변호사회 무료 법률상담을 활용해보세요.',
+      },
+      {
+        question: '사기죄 금액별 형량은 구체적으로 어떻게 다른가요?',
+        answer: '<strong>피해 금액이 클수록 형량이 높아지며, 5억원 이상이면 특경법이 적용됩니다.</strong> 1천만원 미만은 벌금·집행유예가 일반적이고, 1억원 이상은 실형 가능성이 높아집니다. 합의 여부, 초범/재범, 피해 회복 정도가 양형에 큰 영향을 미칩니다.',
       },
     ],
     cta: {

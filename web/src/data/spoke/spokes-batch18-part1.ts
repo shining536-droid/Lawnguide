@@ -384,6 +384,10 @@ export const spokesBatch18Part1Pages: SpokePage[] = [
         content:
           '<p><strong style="color:#1e3a5f">명예훼손죄는 반의사불벌죄이므로, 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다</strong></p>\n<p>사실적시 명예훼손죄(형법 제307조 제1항)는 <strong>반의사불벌죄</strong>입니다. 따라서 피해자와 합의하고 처벌불원서를 받으면 형사처벌을 면할 수 있습니다.</p>\n<p>방어를 위해 <strong>해당 사실이 진실임을 증명할 자료</strong>(문서, 녹취, 사진 등)를 즉시 확보하세요. 또한 게시 동기가 <strong>공익 목적이었음을 입증할 정황</strong>(내부 고발, 소비자 피해 사례 수집 등)도 정리해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시 대응: 사실 증명 자료 확보 → 공익 목적 정황 정리 → 합의 검토</blockquote>',
       },
+      {
+        title: '명예훼손 고소당했을 때 가장 먼저 할 일',
+        content: '<p><strong style="color:#1e3a5f">고소 통지를 받았다면 당황하지 말고 3가지를 먼저 확인하세요.</strong></p>\n<ul>\n<li><strong>게시물 즉시 삭제 여부 판단</strong> — 게시물을 삭제하면 반성의 표시로 참작될 수 있지만, 증거 보전 차원에서 스크린샷을 먼저 남겨두세요. 삭제 자체가 불리하게 작용하지는 않습니다</li>\n<li><strong>작성 경위와 목적 정리</strong> — 왜 그 글을 썼는지, 공익 목적이었는지, 사실 확인을 어떻게 했는지를 시간순으로 정리하세요. 경찰 조사 전에 정리해두면 일관된 진술이 가능합니다</li>\n<li><strong>변호사 상담</strong> — 경찰 출석 전에 반드시 변호사 상담을 받으세요. 첫 진술이 사건의 방향을 결정하므로 혼자 판단하지 마세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 스크린샷 보관 → 작성 경위 정리 → 변호사 상담 후 출석</blockquote>',
+      },
     ],
     cases: [
       {
@@ -411,13 +415,17 @@ export const spokesBatch18Part1Pages: SpokePage[] = [
         question: '사실적시 명예훼손은 벌금으로 끝나나요?',
         answer: '형법상 사실적시 명예훼손의 법정형은 <strong>2년 이하의 징역 또는 500만원 이하의 벌금</strong>입니다. 초범이고 피해가 크지 않으면 벌금형이 일반적이지만, 정보통신망을 이용한 경우 3년 이하의 징역까지 선고될 수 있습니다.',
       },
+      {
+        question: '명예훼손으로 고소당했을 때 가장 먼저 해야 할 일은 무엇인가요?',
+        answer: '<strong>게시물 스크린샷을 보관하고, 작성 경위를 시간순으로 정리한 뒤, 경찰 출석 전에 변호사 상담을 받으세요.</strong> 첫 진술이 사건 방향을 결정하므로 혼자 판단하지 않는 것이 중요합니다. 공익 목적이나 사실 확인 과정을 소명할 자료도 미리 준비하세요.',
+      },
     ],
     cta: {
       text: '💬 지금 내 상황에 맞는 대응 전략 확인하기',
       link: '/diagnosis/defamation',
     },
     internalLinks: [
-      { label: '홈', href: '/' },
+      { label: '명예훼손 가이드', href: '/guide/defamation' },
       { label: '명예훼손 진단', href: '/diagnosis/defamation' },
       { label: '온라인 명예훼손 대응 가이드', href: '/guide/defamation/online-defamation-response' },
       { label: '명예훼손 고소장 작성법', href: '/guide/defamation/defamation-complaint-writing-guide' },
