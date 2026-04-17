@@ -588,8 +588,8 @@ export const fraudPages: SpokePage[] = [
     ctaKeyword: '사기죄 합의 감형',
     type: '수치기한형',
     meta: {
-      title: '사기죄 처벌 수위·합의 시 감형 범위 총정리 | 로앤가이드',
-      description: '사기죄 형법 제347조 처벌은 10년 이하 징역 또는 2천만원 이하 벌금. 금액별 양형 기준과 합의 시 감형 범위, 합의서 작성 요령을 지금 확인하세요.',
+      title: '사기죄 금액별 형량 기준·합의 시 감형 범위 총정리 | 로앤가이드',
+      description: '사기죄 금액별 형량이 궁금하다면 1천만원·5천만원·1억원 구간별 양형 기준과 합의 시 감형 범위를 지금 확인하세요.',
     },
     intro: '거래 상대방에게 사기죄로 고소당했습니다. 의도적으로 속인 것은 아니었지만 결과적으로 피해가 발생해 형사 절차가 진행되고 있습니다. 처벌 수위가 어느 정도이고 합의하면 얼마나 감형되는지 궁금합니다. 혐의를 받고 있다면 아래 내용을 먼저 확인해보세요.',
     timelineSteps: ['처벌 수위 확인', '양형 기준 파악', '합의 절차 진행', '합의서 작성·제출'],
@@ -670,9 +670,10 @@ export const fraudPages: SpokePage[] = [
       link: '/diagnosis/fraud',
     },
     internalLinks: [
-      { label: '홈', href: '/' },
       { label: '사기 진단', href: '/diagnosis/fraud' },
       { label: '사기 고소당했는데 합의하면 처벌 안 받나요', href: '/guide/fraud/fraud-accused-settlement-penalty' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '사기죄 성립 요건 확인', href: '/guide/fraud/fraud-crime-establishment-requirements' },
       { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
       { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
     ],

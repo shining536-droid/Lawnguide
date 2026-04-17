@@ -602,9 +602,9 @@ export const wagePages: SpokePage[] = [
     ctaKeyword: '야근 수당 청구',
     type: '상황형',
     meta: {
-      title: '야근 수당 미지급 시 청구 방법 3단계 | 로앤가이드',
+      title: '야근수당 안 주는 회사 신고 방법 3단계 | 로앤가이드',
       description:
-        '야근했는데 수당을 못 받고 있나요? 연장근로 가산수당 50% 청구, 포괄임금제 확인, 노동청 진정 절차를 바로 정리해보세요.',
+        '야근수당 안 주는 회사, 노동청 신고로 받아낼 수 있습니다. 연장근로 50% 가산수당 계산법부터 진정 절차까지 지금 확인하세요.',
     },
     intro:
       '매일 밤 10시까지 야근하는데 월급은 기본급뿐입니다. 회사는 "포괄임금제라 수당 없다"고 합니다. 정말 수당을 받을 수 없는 걸까요. 근로기준법은 연장근로에 대해 통상임금의 50% 이상을 가산하여 지급하도록 규정하고 있습니다. 포괄임금제라도 실제 근로시간이 약정을 초과하면 차액을 청구할 수 있습니다.',
@@ -695,10 +695,11 @@ export const wagePages: SpokePage[] = [
     },
     internalLinks: [
       { label: '홈', href: '/' },
-      { label: '임금체불 진단', href: '/diagnosis/wage' },
       { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
+      { label: '포괄임금제 2026 가이드라인 체크리스트', href: '/guide/wage/wage-pogual-2026-guideline-checklist' },
+      { label: '야간수당 미지급 청구', href: '/guide/wage/wage-night-shift-premium-claim' },
       { label: '임금체불 신고 전에 준비할 서류', href: '/guide/wage/unpaid-wage-complaint-docs' },
-      { label: '최저임금 미달 급여 신고 방법', href: '/guide/wage/minimum-wage-violation-complaint' },
+      { label: '임금체불 진단', href: '/diagnosis/wage' },
     ],
   },
 ];

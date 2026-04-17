@@ -203,8 +203,8 @@ export const inheritancePages: SpokePage[] = [
     ctaKeyword: '한정승인 신청',
     type: '절차형',
     meta: {
-      title: '상속 한정승인 신청 절차·3개월 기한 총정리 | 로앤가이드',
-      description: '한정승인은 3개월 안에 신청해야 합니다. 가정법원 신청 절차, 필요서류, 채권자 공고 방법, 상속포기와의 차이까지 지금 확인하세요.',
+      title: '한정승인 필요서류·신청 절차·3개월 기한 총정리 | 로앤가이드',
+      description: '한정승인 필요서류가 궁금하다면 기본증명서부터 재산목록까지 전체 서류와 가정법원 신청 절차, 3개월 기한을 지금 확인하세요.',
     },
     intro:
       '아버지가 갑자기 돌아가셨는데 부동산도 있고 빚도 있습니다. 빚이 얼마나 되는지 정확히 모르겠어서 상속 포기를 하기엔 아깝고, 그냥 받자니 빚이 두렵습니다. 이런 상황이라면 한정승인 절차를 기한 내에 밟아야 합니다. 한정승인 신청 절차를 단계별로 정리했습니다.',
@@ -294,11 +294,12 @@ export const inheritancePages: SpokePage[] = [
       link: '/diagnosis/inheritance',
     },
     internalLinks: [
-      { label: '홈', href: '/' },
       { label: '상속 진단', href: '/diagnosis/inheritance' },
       { label: '상속 포기 기간과 절차', href: '/guide/inheritance/inheritance-renunciation-process' },
       { label: '상속 빚이 더 많을 때 한정승인 방법', href: '/guide/inheritance/limited-inheritance-acceptance' },
-      { label: '이혼 가이드', href: '/guide/divorce' },
+      { label: '한정승인과 상속포기 차이점 비교', href: '/guide/inheritance/limited-acceptance-vs-renunciation' },
+      { label: '부모 사망 후 숨겨진 빚 발견했을 때', href: '/guide/inheritance/inheritance-hidden-debt-discovery' },
+      { label: '상속포기 기한과 신고 절차', href: '/guide/inheritance/inheritance-renunciation-deadline' },
     ],
   },
   {

@@ -343,11 +343,12 @@ export const spokesBatch10Pages26to30: SpokePage[] = [
       link: '/diagnosis/unemployment'
     },
     internalLinks: [
-      { label: '로앤가이드 홈', href: '/' },
+      { label: '홈', href: '/' },
       { label: '실업급여 진단하기', href: '/diagnosis/unemployment' },
       { label: '권고사직과 실업급여', href: '/guide/unemployment/recommended-resignation-unemployment-benefit' },
-      { label: '퇴직금 계산 가이드', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '직장 내 괴롭힘 대응법', href: '/guide/dismissal' }
+      { label: '자발적 퇴사 실업급여 예외 총정리', href: '/guide/unemployment/unemployment-voluntary-quit-exception-comprehensive' },
+      { label: '구직활동 인정 유형 가이드', href: '/guide/unemployment/unemployment-recognized-job-search-activity-guide' },
+      { label: '부정수급 제재와 대응법', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
     ]
   },
 ];

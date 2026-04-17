@@ -182,8 +182,8 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
         label: '합의/처벌',
         emoji: '📋',
         spokes: [
-          { title: '합의와 양형 관계', slug: 'fraud-settlement-sentencing-impact' },
           { title: '합의 감경 방법', slug: 'fraud-penalty-settlement-reduction' },
+          { title: '합의와 양형 관계', slug: 'fraud-settlement-sentencing-impact' },
           { title: '초범 반성문 작성', slug: 'fraud-first-offense-before-apology-letter' },
           { title: '재범 양형 위험', slug: 'fraud-recidivist-sentencing-risk' },
         ],
@@ -705,8 +705,8 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
         label: '감경/합의',
         emoji: '📋',
         spokes: [
-          { title: '음주운전 합의 방법과 효과', slug: 'dui-settlement' },
           { title: '탄원서 작성 가이드', slug: 'dui-leniency-petition-documents' },
+          { title: '음주운전 합의 방법과 효과', slug: 'dui-settlement' },
           { title: '재범 실형 회피 전략', slug: 'dui-second-offense-prison-avoidance' },
           { title: '수치별 처벌 참고표', slug: 'dui-bac-penalty-reference-table' },
         ],
@@ -863,6 +863,7 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
         label: '양육권/양육비',
         emoji: '📋',
         spokes: [
+          { title: '양육비 산정 기준', slug: 'child-support-calculation-standard' },
           { title: '청소년 자녀 양육권', slug: 'divorce-child-custody-teen-preference' },
           { title: '아버지 양육권 전략', slug: 'divorce-child-custody-father-strategy' },
           { title: '양육비 이행확보 방법', slug: 'divorce-child-support-enforcement-guide' },
@@ -1703,10 +1704,10 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
         label: '보험사 대응',
         emoji: '📋',
         spokes: [
+          { title: '보험 청구 서류', slug: 'insurance-claim-required-docs' },
           { title: '보험 청구 총정리', slug: 'traffic-accident-insurance-claim-comprehensive' },
           { title: '낮은 합의금 대응', slug: 'insurance-lowball-settlement-response' },
           { title: '보험사 설명의무', slug: 'traffic-accident-insurance-explanation-duty' },
-          { title: '보험 청구 서류', slug: 'insurance-claim-required-docs' },
         ],
       },
       {
@@ -5013,9 +5014,9 @@ export const RICH_GUIDES: Record<string, RichGuide> = {
         label: '상속포기/한정승인',
         emoji: '📋',
         spokes: [
+          { title: '한정승인 절차 가이드', slug: 'limited-inheritance-acceptance-process' },
           { title: '상속포기 절차 가이드', slug: 'inheritance-renunciation-process' },
           { title: '상속포기 기한 안내', slug: 'inheritance-renunciation-deadline' },
-          { title: '한정승인 절차 가이드', slug: 'limited-inheritance-acceptance-process' },
           { title: '한정승인 vs 상속포기 비교', slug: 'inheritance-limited-vs-renounce' },
         ],
       },

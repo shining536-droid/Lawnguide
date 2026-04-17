@@ -1007,9 +1007,10 @@ export const divorcePages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '이혼 진단', href: '/diagnosis/divorce' },
-      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
-      { label: '재산분할 비율은 어떻게 정해지나요', href: '/guide/divorce/property-division-ratio' },
       { label: '양육권 합의 전에 무엇을 정리해야 하나요?', href: '/guide/divorce/custody-agreement-prep' },
+      { label: '양육비 미지급 시 대처법과 강제집행', href: '/guide/divorce/child-support-non-payment' },
+      { label: '양육비 강제집행 방법과 절차', href: '/guide/child-support/child-support-enforcement-method' },
+      { label: '양육비 변경 신청 — 소득 변동 시 대응', href: '/guide/child-support/child-support-modification-income-change' },
     ],
   },
   {
@@ -1104,9 +1105,10 @@ export const divorcePages: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '이혼 진단', href: '/diagnosis/divorce' },
-      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '재산분할 기준과 비율 총정리', href: '/guide/divorce/divorce-property-division-comprehensive' },
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
-      { label: '재산분할 비율은 어떻게 정해지나요', href: '/guide/divorce/property-division-ratio' },
+      { label: '재판이혼 소송 절차 가이드', href: '/guide/divorce/trial-divorce-lawsuit-procedure' },
+      { label: '협의이혼과 재판이혼, 뭐가 다른가요?', href: '/guide/divorce/consensual-vs-trial-divorce' },
     ],
   },
   {

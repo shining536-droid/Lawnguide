@@ -238,11 +238,12 @@ export const spokesBatch18_26to30: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
-      { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
       { label: '교통사고 보험금 청구 절차 총정리', href: '/guide/traffic-accident/insurance-claim-process-summary' },
+      { label: '교통사고 보상금 6대 항목 총정리', href: '/guide/traffic-accident/traffic-accident-injury-compensation' },
+      { label: '과실비율 산정 기준과 분쟁 대응', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
+      { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
       { label: '교통사고 합의금 얼마가 적정한가요', href: '/guide/traffic-accident/how-much-settlement-appropriate-qa' },
-      { label: '블랙박스 없는 교통사고 과실 입증 방법', href: '/guide/traffic-accident/no-dashcam-fault-proof' },
     ],
   },
   {

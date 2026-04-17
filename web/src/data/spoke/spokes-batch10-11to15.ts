@@ -431,9 +431,10 @@ export const spokesBatch10Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '스토킹 사건 진단', href: '/diagnosis/stalking' },
-      { label: '스토킹 긴급응급조치 안내', href: '/guide/stalking/emergency-protective-measures' },
       { label: '스토킹처벌법 성립 기준', href: '/guide/stalking/stalking-legal-criteria' },
-      { label: '정상적 연락이 스토킹으로 고소된 경우', href: '/guide/stalking/normal-contact-stalking-accusation' },
+      { label: '스토킹 처벌 기준과 접근금지 신청 방법', href: '/guide/stalking/stalking-penalty-restraining-order' },
+      { label: '스토킹 허위신고 무고 방어 전략', href: '/guide/stalking/stalking-false-report-defense' },
+      { label: '초범 스토킹 수사 대비 방법', href: '/guide/stalking/stalking-first-offense-investigation-prep' },
     ],
   },
 

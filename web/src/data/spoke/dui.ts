@@ -534,8 +534,8 @@ export const duiPages: SpokePage[] = [
     ctaKeyword: '면허취소 구제',
     type: '상황형',
     meta: {
-      title: '음주운전 면허취소 구제 3가지 방법 총정리 | 로앤가이드',
-      description: '음주운전 면허취소, 되돌릴 수 있을까? 행정심판 90일 기한, 생계형 감경 신청, 행정소송까지 면허 구제 3가지 방법을 지금 확인하세요.',
+      title: '음주운전 행정심판·면허취소 구제 3가지 방법 | 로앤가이드',
+      description: '음주운전 면허취소 행정심판 90일 기한 놓치지 마세요. 행정심판, 생계형 감경, 행정소송까지 면허 구제 방법을 지금 확인하세요.',
     },
     intro: '음주운전으로 면허가 취소되었습니다. 출퇴근과 생업에 차가 꼭 필요한데 면허가 없으면 생계가 막막합니다. 혐의를 받고 있다면 면허취소 처분에 대한 구제 방법이 있는지, 행정심판이나 행정소송으로 다툴 수 있는지 확인해보세요.',
     timelineSteps: ['면허취소 처분 확인', '행정심판 검토', '행정소송 검토', '결격기간 후 재취득'],
@@ -1292,7 +1292,9 @@ export const duiPages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '음주운전 진단', href: '/diagnosis/dui' },
       { label: '음주운전 초범 처벌 수준과 대응 방법', href: '/guide/dui/dui-first-offense' },
-      { label: '음주운전 면허 취소 기준과 대응', href: '/guide/dui/dui-license-revocation' },
+      { label: '면허취소 구제 방법과 행정심판', href: '/guide/dui/dui-license-revocation-appeal' },
+      { label: '음주측정 거부 시 처벌과 대응', href: '/guide/dui/dui-breathalyzer-refusal' },
+      { label: '음주운전 2회 적발 처벌 수위와 대응', href: '/guide/dui/dui-second-offense-penalty' },
     ],
   },
   {
