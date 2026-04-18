@@ -234,6 +234,8 @@ import { spokesBatch36GscPrecision } from './spoke/spokes-batch36-gsc-precision'
 import { spokesBatch37Labor } from './spoke/spokes-batch37-labor';
 import { spokesBatch37Nonlabor1 } from './spoke/spokes-batch37-nonlabor1';
 import { spokesBatch37Nonlabor2 } from './spoke/spokes-batch37-nonlabor2';
+import { spokesBatch38Labor } from './spoke/spokes-batch38-labor';
+import { spokesBatch38Nonlabor } from './spoke/spokes-batch38-nonlabor';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -425,6 +427,8 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch37Labor,
   ...spokesBatch37Nonlabor1,
   ...spokesBatch37Nonlabor2,
+  ...spokesBatch38Labor,
+  ...spokesBatch38Nonlabor,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
