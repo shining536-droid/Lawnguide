@@ -3,6 +3,64 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
+/* ─── 실제 결과 예시 3개 ─── */
+interface ResultExample {
+  domain: string;
+  badge: string;
+  scenario: string;
+  lawRef: string;
+  documents: { label: string; have: boolean }[];
+  actions: string[];
+}
+
+const RESULT_EXAMPLES: ResultExample[] = [
+  {
+    domain: 'fraud',
+    badge: '사기 피해',
+    scenario: '친구한테 500만원 빌려줬는데 안 갚아요',
+    lawRef: '형법 제347조(사기죄) · 민법 제598조(금전소비대차)',
+    documents: [
+      { label: '카톡 대화·송금 내역', have: true },
+      { label: '차용증 (없어도 가능)', have: false },
+    ],
+    actions: [
+      '계좌이체 내역·카톡 대화 증거 일체 보관',
+      '내용증명으로 상환 촉구 발송',
+      '300만원 이상이면 지급명령 신청 검토',
+    ],
+  },
+  {
+    domain: 'wage',
+    badge: '임금체불',
+    scenario: '3개월째 월급이 밀리고 있어요',
+    lawRef: '근로기준법 제43조(임금 지급) · 제36조(금품청산 14일)',
+    documents: [
+      { label: '급여명세서·근로계약서', have: true },
+      { label: '출퇴근 기록·업무 지시 메신저', have: false },
+    ],
+    actions: [
+      '고용노동부 임금체불 진정 접수 (증빙 일괄 제출)',
+      '간이대지급금 신청 가능 여부 점검',
+      '퇴사 시 이직확인서 사유 정확히 기재 요청',
+    ],
+  },
+  {
+    domain: 'divorce',
+    badge: '외도 이혼',
+    scenario: '배우자 외도 증거가 있는데 이혼하고 싶어요',
+    lawRef: '민법 제840조 1호(부정행위) · 제843조(위자료)',
+    documents: [
+      { label: '사진·통화내역·메시지 기록', have: true },
+      { label: '호텔·카드 결제 내역 (있으면 유리)', have: false },
+    ],
+    actions: [
+      '외도 증거를 시간순으로 정리 (위자료 입증용)',
+      '재산 현황 파악 — 분할 대상 재산 특정',
+      '양육권·양육비 청구 전략 설계',
+    ],
+  },
+];
+
 /* ─── 인기 도메인 8개 ─── */
 const POPULAR_DOMAINS = [
   { label: '사기/재산범죄', icon: '🎭', domain: 'fraud', desc: '사기 피해·혐의 대응' },
@@ -176,6 +234,123 @@ export default function HomeContent() {
               평균 1분 소요 · 20,455건 판례 기반
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* ========== 숫자로 증명 (4-배지) ========== */}
+      <section className="border-b border-gray-100 bg-white py-10 md:py-12">
+        <div className="container-wide">
+          <div className="mx-auto grid max-w-4xl grid-cols-2 gap-6 sm:grid-cols-4 md:gap-8">
+            <div className="flex flex-col items-center text-center">
+              <span className="text-2xl font-bold text-navy-700 md:text-3xl lg:text-4xl">110,000+</span>
+              <span className="mt-2 text-xs font-medium text-gray-600 md:text-sm">법률 데이터</span>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <span className="text-2xl font-bold text-navy-700 md:text-3xl lg:text-4xl">31개</span>
+              <span className="mt-2 text-xs font-medium text-gray-600 md:text-sm">법률 분야</span>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <span className="text-2xl font-bold text-navy-700 md:text-3xl lg:text-4xl">3분</span>
+              <span className="mt-2 text-xs font-medium text-gray-600 md:text-sm">진단 소요</span>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <span className="text-2xl font-bold text-amber-600 md:text-3xl lg:text-4xl">무료</span>
+              <span className="mt-2 text-xs font-medium text-gray-600 md:text-sm">회원가입 없음</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== 이런 결과가 나옵니다 (실제 결과 예시 3개) ========== */}
+      <section className="border-b border-gray-100 bg-gray-50 py-14 md:py-20">
+        <div className="container-wide">
+          <div className="mb-10 text-center">
+            <h2 className="text-xl font-bold text-navy-700 md:text-2xl">
+              이런 결과가 나옵니다
+            </h2>
+            <p className="mt-3 text-sm text-gray-600 md:text-base">
+              상담 전 AI가 법조문 · 필요 자료 · 지금 할 일을 한 번에 정리해드립니다
+            </p>
+          </div>
+          <div className="mx-auto grid max-w-6xl grid-cols-1 gap-5 md:grid-cols-3 md:gap-6">
+            {RESULT_EXAMPLES.map((ex) => (
+              <div
+                key={ex.domain}
+                className="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
+              >
+                {/* 시나리오 헤더 */}
+                <div className="mb-5 rounded-lg bg-gray-100 px-4 py-3">
+                  <span className="inline-block rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-bold text-amber-700">
+                    {ex.badge}
+                  </span>
+                  <p className="mt-2 text-sm font-semibold leading-relaxed text-navy-700">
+                    &ldquo;{ex.scenario}&rdquo;
+                  </p>
+                </div>
+
+                {/* 해당 법조문 */}
+                <div className="mb-4">
+                  <h3 className="mb-1.5 text-[11px] font-bold uppercase tracking-wider text-primary-600">
+                    해당 법조문
+                  </h3>
+                  <p className="text-[13px] leading-relaxed text-gray-700">{ex.lawRef}</p>
+                </div>
+
+                {/* 필요 자료 */}
+                <div className="mb-4">
+                  <h3 className="mb-1.5 text-[11px] font-bold uppercase tracking-wider text-emerald-600">
+                    필요 자료
+                  </h3>
+                  <ul className="space-y-1 text-[13px] text-gray-700">
+                    {ex.documents.map((doc) => (
+                      <li key={doc.label} className="flex items-start gap-2">
+                        <span
+                          className={
+                            doc.have
+                              ? 'mt-0.5 inline-flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-emerald-100 text-[10px] font-bold text-emerald-700'
+                              : 'mt-0.5 inline-flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-gray-200 text-[10px] font-bold text-gray-500'
+                          }
+                          aria-hidden="true"
+                        >
+                          {doc.have ? '✓' : '○'}
+                        </span>
+                        <span>{doc.label}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* 지금 할 일 */}
+                <div className="mb-5">
+                  <h3 className="mb-1.5 text-[11px] font-bold uppercase tracking-wider text-amber-600">
+                    지금 할 일
+                  </h3>
+                  <ol className="space-y-1.5 text-[13px] text-gray-700">
+                    {ex.actions.map((action, i) => (
+                      <li key={i} className="flex items-start gap-2">
+                        <span className="mt-0.5 inline-flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-amber-100 text-[10px] font-bold text-amber-700">
+                          {i + 1}
+                        </span>
+                        <span className="leading-relaxed">{action}</span>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+
+                {/* CTA */}
+                <Link
+                  href={`/chat?domain=${ex.domain}`}
+                  className="mt-auto inline-flex items-center justify-center gap-2 rounded-xl bg-amber-500 px-4 py-3 text-sm font-bold text-navy-900 transition-all hover:bg-amber-400 hover:shadow-md active:scale-[0.98]"
+                >
+                  내 상황 AI로 무료 정리하기
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-center text-xs text-gray-500">
+            위 결과는 AI 요약 예시이며, 법적 효력을 갖는 유권해석이 아닙니다.
+          </p>
         </div>
       </section>
 
