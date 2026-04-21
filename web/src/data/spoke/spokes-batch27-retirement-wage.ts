@@ -87,46 +87,6 @@ export const spokesBatch27RetirementWage: SpokePage[] = [
     internalLinks: [{ label: '홈', href: '/' }, { label: '퇴직금 가이드', href: '/guide/retirement' }, { label: '퇴직금 14일 규정', href: '/guide/retirement/retirement-pay-14day-rule-detail' }, { label: '퇴직금 미지급 신고', href: '/guide/retirement/retirement-pay-complaint' }, { label: '퇴직금 계산법', href: '/guide/retirement/retirement-pay-calculation' }],
   },
 
-  // ── 3. 계약직 1년 미만 퇴직금 ──
-  {
-    domain: 'retirement',
-    slug: 'retirement-contract-worker-under-1year',
-    keyword: '계약직 1년 미만 퇴직금',
-    questionKeyword: '계약직으로 11개월 일했는데 퇴직금 못 받나요?',
-    ctaKeyword: '계약직 퇴직금 자격 상담',
-    type: '자격확인형',
-    perspective: 'victim',
-    meta: {
-      title: '계약직 1년 미만 근무 퇴직금 받을 수 있는 경우 3가지 | 로앤가이드',
-      description: '계약직 1년 미만 근무라도 퇴직금을 받을 수 있는 경우가 있습니다. 3가지 예외 사례를 지금 확인하세요.',
-    },
-    intro: '<p>11개월 계약직으로 일하고 퇴사했습니다. 회사는 "1년 미만이라 퇴직금 없다"고 합니다. 정말 못 받는 걸까요? 원칙적으로 퇴직금은 계속근로기간 1년 이상인 근로자에게 지급되지만, 예외적으로 1년 미만에도 받을 수 있는 경우가 있습니다.</p>',
-    timelineSteps: ['1단계: 실제 근무기간 정확히 확인', '2단계: 갱신 기간 합산 여부 확인', '3단계: 퇴직금 지급 의무 판단', '4단계: 미지급 시 진정 접수'],
-    sections: [
-      {
-        title: '1년 미만이라도 퇴직금을 받을 수 있는 3가지 경우',
-        content: '<p><strong style="color:#1e3a5f">아래 경우에 해당하면 계약직 1년 미만이라도 퇴직금을 받을 수 있습니다.</strong></p>\n<ol>\n<li><strong>계약 갱신으로 합산 1년 이상</strong> — 6개월 계약을 2회 갱신하여 총 12개월 이상 근무한 경우, 계속근로로 인정되어 퇴직금이 발생합니다.</li>\n<li><strong>수습기간 포함 1년 이상</strong> — 수습기간도 근속기간에 포함됩니다. 수습 3개월 + 본계약 9개월 = 12개월이면 퇴직금 대상입니다.</li>\n<li><strong>계약기간과 실제 근무기간 차이</strong> — 계약서는 11개월이지만 실제로 12개월 이상 근무한 경우, 실제 근무기간이 기준입니다.</li>\n</ol>',
-      },
-      {
-        title: '근무기간 계산 방법',
-        content: '<p><strong style="color:#1e3a5f">계속근로기간 1년은 "입사일부터 퇴사일까지"로 계산합니다.</strong></p>\n<ul>\n<li>입사일: 2025년 4월 1일, 퇴사일: 2026년 3월 31일 → 정확히 1년(365일)으로 퇴직금 대상</li>\n<li>입사일: 2025년 5월 1일, 퇴사일: 2026년 3월 31일 → 11개월로 퇴직금 미발생</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>내 근무기간으로 퇴직금을 받을 수 있는지 AI가 판단합니다</strong></p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
-      },
-      {
-        title: '11개월 계약의 꼼수에 대응하는 방법',
-        content: '<p><strong style="color:#1e3a5f">일부 사업주가 퇴직금을 피하려고 의도적으로 11개월 계약을 체결하는 경우가 있습니다.</strong></p>\n<ul>\n<li><strong>반복 갱신 시</strong> — 11개월 계약을 반복하더라도 중간에 실질적 단절 없이 계속 근무했다면 전체 기간이 합산됩니다.</li>\n<li><strong>형식적 퇴사·재입사</strong> — 퇴사 처리 후 곧바로 재입사시키는 것은 탈법행위로, 실질적으로 계속 근무한 것으로 인정됩니다.</li>\n<li><strong>증거 확보</strong> — 출퇴근 기록, 업무 연속성, 동일 업무 수행 여부 등을 증거로 보관하세요.</li>\n</ul>',
-      },
-    ],
-    cases: [{ title: '판례 — 반복 계약갱신과 계속근로', summary: '대법원 판례에 따르면 기간제 근로계약이 반복 갱신되어 그 정해진 기간이 단지 형식에 불과하게 된 경우, 사실상 기간의 정함이 없는 근로계약과 다름없다고 보아 갱신기대권이 인정됩니다. 이 경우 전체 근무기간이 합산되어 퇴직금이 발생합니다.', takeaway: '비슷한 상황이라면 11개월 계약이 반복 갱신되었다면 전체 기간을 합산하여 퇴직금을 청구하세요.' }],
-    faq: [
-      { question: '주 15시간 미만 근로자도 퇴직금을 받을 수 있나요?', answer: '<p>주 15시간 미만(4주 평균 기준) 단시간 근로자는 퇴직금 지급 대상에서 제외됩니다.</p>' },
-      { question: '계약 만료 후 1주 쉬고 재입사하면 기간이 끊기나요?', answer: '<p>형식적 단절이라면 연속 근무로 인정될 수 있습니다. 1주일 정도의 짧은 공백은 실질적 단절로 보지 않는 판례가 많습니다.</p>' },
-      { question: '364일 일하면 퇴직금이 안 나오나요?', answer: '<p>1년(365일) 미만이면 원칙적으로 퇴직금이 발생하지 않습니다. 다만 실제 마지막 근무일이 365일째라면 1년으로 인정될 수 있습니다.</p>' },
-      { question: '파견직도 퇴직금 대상인가요?', answer: '<p>파견사업주(파견회사)가 사용자이므로, 파견회사에서 1년 이상 근무했다면 파견회사에 퇴직금을 청구합니다.</p>' },
-    ],
-    cta: { text: '계약직 퇴직금 수급 자격 AI로 확인하기', link: '/chat?domain=retirement' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '퇴직금 가이드', href: '/guide/retirement' }, { label: '퇴직금 계산법', href: '/guide/retirement/retirement-pay-calculation' }, { label: '퇴직금 14일 규정', href: '/guide/retirement/retirement-pay-14day-rule-detail' }, { label: '프리랜서 퇴직금', href: '/guide/retirement/retirement-freelancer-eligibility' }],
-  },
-
   // ── 4. 사업양도·합병 시 퇴직금 ──
   {
     domain: 'retirement',
