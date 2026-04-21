@@ -508,6 +508,8 @@ def main() -> int:
     args = sys.argv[1:]
     strict = "--strict" in args
     scan_all = "--all" in args
+    # --failing-only: 차단된 파일 경로만 한 줄씩 출력 (재생성 루프용)
+    failing_only = "--failing-only" in args
     files_idx = args.index("--files") if "--files" in args else -1
     explicit: list[str] = []
     if files_idx >= 0:
@@ -532,6 +534,12 @@ def main() -> int:
     reports = [analyze_file(p) for p in sorted(files)]
     bad = [r for r in reports if r.blocking_errors]
     warn = [r for r in reports if r.warnings and r not in bad]
+
+    if failing_only:
+        # 재생성 루프용: 차단 파일 경로만 한 줄씩
+        for r in bad:
+            print(r.path)
+        return 1 if bad else 0
 
     print(f"[check_blog_length] {header}")
     print(f"  목표: 본문 {MIN_CHARS}~{MAX_CHARS}자 / 공감도입 ≥{INTRO_MIN_CHARS}자 / Tip 3개+4서브섹션 / 판례 kb검증 / CTA / 제목중복 / 톤 / 가해자 표현")
