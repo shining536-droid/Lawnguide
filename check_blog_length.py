@@ -38,8 +38,10 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     except Exception:
         pass
 
-MIN_CHARS = 1500
-MAX_CHARS = 1800
+MIN_CHARS = 1500           # 하한: 미만 시 차단
+RECOMMENDED_MIN = 1700     # 권장 하한
+RECOMMENDED_MAX = 1800     # 권장 상한
+MAX_CHARS = 2200           # 상한: 초과 시 경고
 INTRO_MIN_CHARS = 100   # 목표 150~200, 하한 100
 TIP_MIN_CHARS = 300     # 목표 400~450, 하한 300
 
@@ -542,7 +544,7 @@ def main() -> int:
         return 1 if bad else 0
 
     print(f"[check_blog_length] {header}")
-    print(f"  목표: 본문 {MIN_CHARS}~{MAX_CHARS}자 / 공감도입 ≥{INTRO_MIN_CHARS}자 / Tip 3개+4서브섹션 / 판례 kb검증 / CTA / 제목중복 / 톤 / 가해자 표현")
+    print(f"  목표: 본문 {MIN_CHARS}~{MAX_CHARS}자 (권장 {RECOMMENDED_MIN}~{RECOMMENDED_MAX}) / 공감도입 ≥{INTRO_MIN_CHARS}자 / Tip 3개+4서브섹션 / 판례 kb검증 / CTA / 제목중복 / 톤 / 가해자 표현")
     print(f"  OK          {len(reports) - len(bad):>3}개")
     print(f"  차단(block) {len(bad):>3}개")
     print(f"  경고(warn)  {len(warn):>3}개")
