@@ -92,6 +92,58 @@ CTA_TABLE: dict[str, tuple[str, str]] = {
 }
 
 KB_ROOT = Path("kb")
+CONTENT_BLOG_DIR = Path("content/blog")
+CONTENT_TISTORY_DIR = Path("content/tistory")
+
+# ── 중복 제목 체크용 ────────────────────────────────────
+TITLE_RE = re.compile(r'^title:\s*"([^"]+)"', re.MULTILINE)
+TITLE_KEYWORD_RE = re.compile(r"[가-힣]{2,}")
+# 일반 동사 어미·조사 — 접미형으로 잘라 stem 추출
+KOREAN_ENDINGS = (
+    "했는데요", "했는데", "했어요", "합니다", "습니다", "인가요", "은가요",
+    "한가요", "하는", "하면", "해야", "했을", "인지", "인데", "없나요",
+    "있나요", "받나요", "되나요", "하나요", "나요", "까요", "어요", "예요",
+    "이에요", "이죠", "된다", "한다", "있다", "없다", "이다", "이고", "하고",
+    "부터", "까지", "보다", "처럼", "에서", "에게", "으로", "로서", "으로",
+    "이나", "이든", "인가", "한", "할", "한", "은", "는", "이", "가", "을",
+    "를", "과", "와", "에", "도", "만", "도", "의",
+)
+
+# ── 톤 체크 ─────────────────────────────────────────────
+FORMAL_ENDING_RE = re.compile(
+    r"(입니다[.\s]|됩니다[.\s]|합니다[.\s]|것이다[.\s]|한다[.\s]|있다[.\s]|"
+    r"없다[.\s]|된다[.\s]|이다[.\s]|라고\s*본다|라\s*할\s*것이다|라\s*하겠다)"
+)
+INFORMAL_ENDING_RE = re.compile(
+    r"(해요[.\s!?]|돼요[.\s!?]|있어요[.\s!?]|없어요[.\s!?]|세요[.\s!?]|네요[.\s!?]|"
+    r"예요[.\s!?]|이에요[.\s!?]|에요[.\s!?]|거예요[.\s!?]|드려요[.\s!?]|봐요[.\s!?]|"
+    r"드세요[.\s!?]|가요[.\s!?]|와요[.\s!?]|이죠[.\s!?]|이시죠[.\s!?]|되시죠[.\s!?])"
+)
+FORMAL_WARN_THRESHOLD = 0.5  # 문어체 비율이 이 이상이면 경고
+
+# ── 가해자/무고 표현 체크 ───────────────────────────────
+FORBIDDEN_VERDICT_WORDS = [
+    ("범인", r"\b범인\b"),
+    ("범죄자", r"\b범죄자\b"),
+    ("유죄입니다", r"유죄입니다"),
+    ("유죄다", r"유죄다[.\s]"),
+    ("처벌받습니다", r"처벌받습니다"),
+    ("처벌된다", r"처벌된다[.\s]"),
+    ("처벌받을\\s*것입니다", r"처벌받을\s*것입니다"),
+]
+ACCUSED_REQUIRED_PATTERNS = [
+    r"혐의를\s*받고\s*있다면",
+    r"해당할\s*소지가\s*있",
+    r"해당할\s*가능성이\s*있",
+    r"처벌\s*받을\s*소지",
+    r"문제가\s*될\s*소지",
+]
+MUGO_REQUIRED_PATTERNS = [
+    r"사실과\s*다르게\s*신고",
+    r"허위로\s*신고",
+    r"무고",
+]
+CATEGORY_RE = re.compile(r'^category:\s*"([^"]+)"', re.MULTILINE)
 
 # ── cases.json 로딩 캐시 ────────────────────────────────
 _CASES_CACHE: dict[str, set[str]] = {}
@@ -187,6 +239,99 @@ def check_case_numbers(text: str, domain: str | None) -> tuple[list[str], list[s
     return nums, unknown
 
 
+def _title_stems(title: str) -> set[str]:
+    """Extract normalized Korean noun-candidate stems from a title."""
+    tokens = TITLE_KEYWORD_RE.findall(title)
+    stems: set[str] = set()
+    for t in tokens:
+        stem = t
+        for end in KOREAN_ENDINGS:
+            if len(stem) > len(end) + 1 and stem.endswith(end):
+                stem = stem[: -len(end)]
+                break
+        if len(stem) >= 2:
+            stems.add(stem)
+    return stems
+
+
+_DOMAIN_TITLES_CACHE: dict[str, list[tuple[str, str]]] = {}  # domain → [(path, title)]
+
+
+def _load_existing_titles(domain: str, self_path: Path) -> list[tuple[str, str]]:
+    if domain in _DOMAIN_TITLES_CACHE:
+        return [(p, t) for p, t in _DOMAIN_TITLES_CACHE[domain] if p != str(self_path)]
+    items: list[tuple[str, str]] = []
+    for d in (CONTENT_BLOG_DIR, CONTENT_TISTORY_DIR):
+        if not d.is_dir():
+            continue
+        for md in d.glob("*.md"):
+            try:
+                txt = md.read_text(encoding="utf-8")
+            except Exception:
+                continue
+            dm = DOMAIN_RE.search(txt)
+            if not dm or dm.group(1) != domain:
+                continue
+            tm = TITLE_RE.search(txt)
+            if not tm:
+                continue
+            items.append((str(md), tm.group(1)))
+    _DOMAIN_TITLES_CACHE[domain] = items
+    return [(p, t) for p, t in items if p != str(self_path)]
+
+
+def check_title_overlap(text: str, path: Path, domain: str | None) -> list[tuple[str, int, list[str]]]:
+    """Return [(other_path, overlap_count, shared_stems)] for overlap ≥3."""
+    if not domain:
+        return []
+    tm = TITLE_RE.search(text)
+    if not tm:
+        return []
+    new_stems = _title_stems(tm.group(1))
+    if len(new_stems) < 3:
+        return []
+    out: list[tuple[str, int, list[str]]] = []
+    for other_path, other_title in _load_existing_titles(domain, path):
+        other_stems = _title_stems(other_title)
+        shared = new_stems & other_stems
+        if len(shared) >= 3:
+            out.append((other_path, len(shared), sorted(shared)))
+    out.sort(key=lambda x: -x[1])
+    return out[:3]
+
+
+def check_tone(text: str, is_tistory: bool) -> tuple[int, int, float]:
+    """Return (formal_count, informal_count, formal_ratio)."""
+    body = _strip_to_body(text)
+    # Exclude 판례 section (학술 톤 필연) and 마무리
+    case_m = re.search(r"(?:📌|### )\s*\*?\*?\s*(?:실제\s*판례|실제로 이런 판례)", body)
+    if case_m:
+        body = body[: case_m.start()]
+    formal = len(FORMAL_ENDING_RE.findall(body))
+    informal = len(INFORMAL_ENDING_RE.findall(body))
+    total = formal + informal
+    ratio = formal / total if total else 0.0
+    return formal, informal, ratio
+
+
+def check_perspective_language(text: str, category: str | None) -> list[str]:
+    """Return list of perspective/language violations.
+
+    - 가해자 단정 표현 금지 ("범인", "범죄자", "유죄입니다", "처벌받습니다"...)
+    - category=accused 인 경우 소지가 있는 표현 필수
+    - category=neutral/victim/accused 상관없이 단정적 유죄 단어는 차단
+    """
+    body = _strip_to_body(text)
+    violations: list[str] = []
+    for label, pat in FORBIDDEN_VERDICT_WORDS:
+        if re.search(pat, body):
+            violations.append(f"단정적 유죄 표현 '{label}' 발견 (→ '혐의자/대상자/~소지가 있습니다'로 교체)")
+    if category == "accused":
+        if not any(re.search(pat, body) for pat in ACCUSED_REQUIRED_PATTERNS):
+            violations.append("가해자 관점 필수 표현 누락 ('혐의를 받고 있다면' / '해당할 소지가 있' 필수)")
+    return violations
+
+
 def check_cta(text: str, domain: str | None, is_tistory: bool) -> list[str]:
     """Return list of CTA rule violations."""
     body = _strip_to_body(text)
@@ -230,6 +375,12 @@ class Report(NamedTuple):
     case_numbers: list[str]
     unknown_cases: list[str]
     cta_violations: list[str]
+    title_overlaps: list[tuple[str, int, list[str]]]
+    formal_count: int
+    informal_count: int
+    formal_ratio: float
+    perspective_violations: list[str]
+    category: str | None
 
     @property
     def is_tistory(self) -> bool:
@@ -256,6 +407,10 @@ class Report(NamedTuple):
             errs.append(f"서브섹션 누락 [{items}]")
         if self.cta_violations:
             errs.append("CTA: " + "; ".join(self.cta_violations))
+        # 단정적 유죄 표현은 차단 (가해자/무고 관점 오류)
+        verdict_hits = [v for v in self.perspective_violations if "단정적 유죄" in v]
+        if verdict_hits:
+            errs.extend(verdict_hits)
         return errs
 
     @property
@@ -265,18 +420,36 @@ class Report(NamedTuple):
             warns.append(f"본문 {self.body_chars}자 (>{MAX_CHARS})")
         if self.unknown_cases:
             warns.append(f"판례 사건번호 kb에 없음: {', '.join(self.unknown_cases)}")
+        if self.title_overlaps:
+            items = []
+            for p, n, stems in self.title_overlaps:
+                name = Path(p).name
+                items.append(f"{name} (공유 {n}개: {', '.join(stems[:4])})")
+            warns.append(f"제목 핵심어 3개+ 중복: {' | '.join(items)}")
+        if self.formal_ratio > FORMAL_WARN_THRESHOLD and (self.formal_count + self.informal_count) >= 10:
+            warns.append(
+                f"문어체 비율 {self.formal_ratio:.0%} (문어 {self.formal_count}/구어 {self.informal_count}) — 블로그는 구어체 필수"
+            )
+        # accused 필수 표현 누락은 경고
+        missing_accused = [v for v in self.perspective_violations if "단정적 유죄" not in v]
+        if missing_accused:
+            warns.extend(missing_accused)
         return warns
 
 
 def analyze_file(path: Path) -> Report:
     text = path.read_text(encoding="utf-8")
     domain = _extract_field(text, DOMAIN_RE)
+    category = _extract_field(text, CATEGORY_RE)
     body_chars = count_body_chars(text)
     has_intro, intro_chars, _ = check_empathy_intro(text)
     is_tistory = "tistory" in str(path).lower()
     tip_count, missing = check_tip_sections(text, is_tistory)
     nums, unknown = check_case_numbers(text, domain)
     cta_v = check_cta(text, domain, is_tistory)
+    overlaps = check_title_overlap(text, path, domain)
+    formal, informal, ratio = check_tone(text, is_tistory)
+    persp_v = check_perspective_language(text, category)
     return Report(
         path=path,
         body_chars=body_chars,
@@ -287,6 +460,12 @@ def analyze_file(path: Path) -> Report:
         case_numbers=nums,
         unknown_cases=unknown,
         cta_violations=cta_v,
+        title_overlaps=overlaps,
+        formal_count=formal,
+        informal_count=informal,
+        formal_ratio=ratio,
+        perspective_violations=persp_v,
+        category=category,
     )
 
 
@@ -355,7 +534,7 @@ def main() -> int:
     warn = [r for r in reports if r.warnings and r not in bad]
 
     print(f"[check_blog_length] {header}")
-    print(f"  목표: 본문 {MIN_CHARS}~{MAX_CHARS}자 / 공감도입 ≥{INTRO_MIN_CHARS}자 / Tip 3개 × 4서브섹션 / 판례 kb 검증 / CTA 규칙")
+    print(f"  목표: 본문 {MIN_CHARS}~{MAX_CHARS}자 / 공감도입 ≥{INTRO_MIN_CHARS}자 / Tip 3개+4서브섹션 / 판례 kb검증 / CTA / 제목중복 / 톤 / 가해자 표현")
     print(f"  OK          {len(reports) - len(bad):>3}개")
     print(f"  차단(block) {len(bad):>3}개")
     print(f"  경고(warn)  {len(warn):>3}개")
