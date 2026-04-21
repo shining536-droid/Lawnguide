@@ -213,7 +213,7 @@ export default function HomeContent() {
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="font-bold tracking-tight text-white" style={{ lineHeight: '1.6' }}>
               <span className="block text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">변호사 만나기 전,</span>
-              <span className="block mt-2 text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">1분 정리가 결과를 바꿉니다</span>
+              <span className="block mt-2 text-[1.5rem] sm:text-[1.8rem] md:text-4xl lg:text-5xl">3분 정리가 결과를 바꿉니다</span>
             </h1>
           </div>
 
@@ -231,7 +231,7 @@ export default function HomeContent() {
               변호사 만나기 전,{' '}<br className="sm:hidden" />AI가 빠르게 대응 전략을 세워드립니다.
             </p>
             <p className="mt-2 text-sm text-white/50">
-              평균 1분 소요 · 20,455건 판례 기반
+              평균 3분 · 무료 · 회원가입 없음
             </p>
           </div>
         </div>
@@ -377,45 +377,85 @@ export default function HomeContent() {
       </section>
 
       {/* ========== 신뢰 섹션 ========== */}
-      <section className="border-b border-gray-100 bg-gray-50 py-12 md:py-16">
+      <section className="border-b border-gray-100 bg-gray-50 py-14 md:py-20">
         <div className="container-wide">
-          <h2 className="mb-3 text-center text-lg font-bold text-navy-700 md:text-xl">
-            데이터 기반 법률 준비 도우미
-          </h2>
-          <p className="mb-8 text-center text-sm text-gray-500 md:text-base">
-            20,455건 판례 · 6,493개 법조문 · 5,471건 상담사례 기반
-          </p>
-          <div className="mx-auto grid max-w-3xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
-            {/* 카드 1: 판례 분석 */}
-            <div className="flex flex-col items-center rounded-2xl bg-white px-6 py-7 text-center shadow-sm border border-gray-100">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary-50">
-                <svg className="h-6 w-6 text-primary-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-                </svg>
+          <div className="mx-auto max-w-3xl">
+            <h2 className="mb-10 text-center text-xl font-bold text-navy-700 md:text-2xl">
+              왜 상담 전 준비가 중요한가요?
+            </h2>
+
+            {/* 블록 1: 비용 문제 */}
+            <div className="mb-6 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-7">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl" aria-hidden="true">💰</span>
+                <div>
+                  <p className="text-sm font-bold text-navy-700 md:text-base">
+                    변호사 상담은 보통 30분에 10만원 내외입니다
+                  </p>
+                  <p className="mt-2 text-sm leading-relaxed text-gray-600 md:text-base">
+                    준비 없이 가면 30분 중 20분을 상황 설명에 쓰고, 정작 전략 논의는 10분밖에 못 합니다.
+                  </p>
+                </div>
               </div>
-              <span className="mt-3 text-2xl font-bold text-navy-700">20,455건</span>
-              <span className="mt-1 text-sm font-semibold text-primary-600">판례 분석</span>
             </div>
-            {/* 카드 2: 법조문 해설 */}
-            <div className="flex flex-col items-center rounded-2xl bg-white px-6 py-7 text-center shadow-sm border border-gray-100">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-amber-50">
-                <svg className="h-6 w-6 text-amber-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
-                </svg>
+
+            {/* 블록 2: 사전 정리 효과 */}
+            <div className="mb-6 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-7">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl" aria-hidden="true">⏱</span>
+                <div className="flex-1">
+                  <p className="text-sm font-bold text-navy-700 md:text-base">
+                    로앤가이드로 미리 정리하면
+                  </p>
+                  <ul className="mt-3 space-y-2 text-sm leading-relaxed text-gray-700 md:text-base">
+                    <li className="flex items-start gap-2">
+                      <span className="mt-0.5 text-primary-500">✓</span>
+                      <span>내 상황이 어떤 법률 쟁점인지 정리됩니다</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="mt-0.5 text-primary-500">✓</span>
+                      <span>필요한 증거와 서류가 무엇인지 파악됩니다</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="mt-0.5 text-primary-500">✓</span>
+                      <span>보유 자료와 부족한 자료가 구분됩니다</span>
+                    </li>
+                  </ul>
+                  <p className="mt-4 rounded-lg bg-primary-50 px-4 py-3 text-sm leading-relaxed text-primary-800">
+                    정리된 내용을 변호사에게 보여주면 상담 시간을 줄이고 핵심 전략 논의로 바로 들어갈 수 있습니다.
+                  </p>
+                </div>
               </div>
-              <span className="mt-3 text-2xl font-bold text-navy-700">6,493개</span>
-              <span className="mt-1 text-sm font-semibold text-amber-600">법조문 해설</span>
             </div>
-            {/* 카드 3: 31개 분야 */}
-            <div className="flex flex-col items-center rounded-2xl bg-white px-6 py-7 text-center shadow-sm border border-gray-100">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-50">
-                <svg className="h-6 w-6 text-emerald-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                </svg>
+
+            {/* 블록 3: 결정적 차이 */}
+            <div className="mb-8 rounded-2xl border-2 border-amber-300 bg-amber-50 p-6 md:p-7">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl" aria-hidden="true">📋</span>
+                <div>
+                  <p className="text-sm leading-relaxed text-amber-900 md:text-base">
+                    <strong>&ldquo;뭘 준비해야 할지 몰라서요&rdquo;</strong> 보다
+                    <br />
+                    <strong>&ldquo;여기까지 정리해왔습니다&rdquo;</strong>가
+                    <br />
+                    훨씬 정확한 상담으로 이어집니다.
+                  </p>
+                </div>
               </div>
-              <span className="mt-3 text-2xl font-bold text-navy-700">31개 분야</span>
-              <span className="mt-1 text-sm font-semibold text-emerald-600">무료 법률 진단</span>
-              <span className="mt-2 text-xs text-gray-500">피해자·가해자·무고까지<br />관점별 맞춤 안내</span>
+            </div>
+
+            {/* CTA */}
+            <div className="text-center">
+              <Link
+                href="/chat"
+                className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-8 py-4 text-base font-bold text-navy-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/20 active:scale-[0.98]"
+              >
+                무료로 내 상황 정리하기
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <p className="mt-3 text-xs text-gray-500">
+                개인정보 저장 안 함 · 무료 · 회원가입 없음
+              </p>
             </div>
           </div>
         </div>
@@ -527,7 +567,7 @@ export default function HomeContent() {
           </h2>
           <div className="mx-auto max-w-2xl space-y-4">
             {[
-              { q: '로앤가이드는 어떤 서비스인가요?', a: '법률 문제가 생겼을 때, 변호사를 만나기 전에 지금 해야 할 일, 준비서류, 주의사항을 1분 안에 정리해주는 무료 AI 법률 준비 도우미입니다.' },
+              { q: '로앤가이드는 어떤 서비스인가요?', a: '법률 문제가 생겼을 때, 변호사를 만나기 전에 지금 해야 할 일, 준비서류, 주의사항을 3분 안에 정리해주는 무료 AI 법률 준비 도우미입니다.' },
               { q: '정말 무료인가요?', a: '네, 완전 무료입니다. 회원가입도 필요 없고, 모든 진단과 결과 확인에 비용이 없습니다.' },
               { q: '어떤 분야를 지원하나요?', a: '사기, 폭행, 성범죄, 이혼, 전세, 해고, 음주운전, 교통사고, 명예훼손, 마약, 상속, 학교폭력 등 31개 법률 분야를 지원합니다.' },
               { q: 'AI 진단 결과는 법적 효력이 있나요?', a: '아닙니다. 로앤가이드의 결과는 법적 효력을 갖는 유권해석이 아닙니다. 정확한 판단은 전문가 상담을 받으시기 바랍니다. 상담 전 준비를 돕는 참고 자료로 활용해주세요.' },
@@ -562,8 +602,8 @@ export default function HomeContent() {
                 무료 AI 법률 도우미 시작
               </Link>
             </div>
-            <p className="mt-6 text-xs text-gray-400">
-              이 정보는 법적 효력을 갖는 유권해석이 아닙니다
+            <p className="mt-6 text-xs text-gray-500">
+              개인정보 저장 안 함 · 무료 · 회원가입 없음
             </p>
           </div>
         </div>

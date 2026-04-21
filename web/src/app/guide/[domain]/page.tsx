@@ -5,6 +5,45 @@ import { isValidDomain, getDomainMeta, DOMAINS } from '@/lib/domains';
 import { RICH_GUIDES } from '@/data/rich-hub-guides';
 import { getSpokePagesByDomain } from '@/data/spoke-pages';
 
+// 31개 도메인 검색어형 허브 제목 — "{도메인명} 준비사항 안내" 대신 사용자 검색어 중심
+const HUB_SEARCH_TITLES: Record<string, string> = {
+  jeonse: '전세보증금 반환·계약갱신 준비 가이드',
+  'jeonse-fraud': '전세사기 피해 신고·지원 준비 가이드',
+  sangga: '상가임대차 보증금·권리금 분쟁 준비 가이드',
+  wage: '임금체불 신고·청구 준비 가이드',
+  retirement: '퇴직금 계산·미지급 청구 준비 가이드',
+  dismissal: '부당해고 대응·구제신청 준비 가이드',
+  'small-claims': '소액소송·지급명령 절차 준비 가이드',
+  rehabilitation: '개인회생 신청·변제계획 준비 가이드',
+  bankruptcy: '개인파산 면책 신청 준비 가이드',
+  inheritance: '상속·유류분·한정승인 준비 가이드',
+  divorce: '협의이혼·재산분할·양육권 준비 가이드',
+  'child-support': '양육비 산정·이행확보 준비 가이드',
+  'neighbor-dispute': '층간소음·이웃 분쟁 대응 가이드',
+  defamation: '명예훼손 고소·대응 준비 가이드',
+  'real-estate-sale': '부동산 매매 계약·하자·해제 가이드',
+  'real-estate-auction': '부동산 경매 입찰·명도 준비 가이드',
+  'industrial-accident1': '산재 신청·요양급여 준비 가이드',
+  'industrial-accident2': '산재 장해급여·유족급여 준비 가이드',
+  unemployment: '실업급여 수급자격·신청 절차 가이드',
+  'digital-sex-crime': '디지털 성범죄 증거·삭제·신고 가이드',
+  'sex-crime': '성범죄 피해 신고·증거 보전 가이드',
+  'sexual-harassment': '직장내 성희롱 신고·대응 가이드',
+  stalking: '스토킹 신고·접근금지 준비 가이드',
+  assault: '폭행·상해 고소·합의 준비 가이드',
+  'child-sex-crime': '아동 성범죄 신고·보호 준비 가이드',
+  'school-violence': '학교폭력 신고·심의 준비 가이드',
+  fraud: '사기 피해 고소·증거 준비 가이드',
+  dui: '음주운전 행정심판·양형 준비 가이드',
+  'traffic-accident': '교통사고 합의·보험·과실 준비 가이드',
+  'drug-crime': '마약 혐의 조사·변호 준비 가이드',
+  prostitution: '성매매 피해·혐의 대응 준비 가이드',
+};
+
+function getHubTitle(domainId: string, fallbackName: string): string {
+  return HUB_SEARCH_TITLES[domainId] || `${fallbackName} 준비사항 안내`;
+}
+
 interface PageProps {
   params: { domain: string };
 }
@@ -275,13 +314,13 @@ export function generateMetadata({ params }: PageProps): Metadata {
     ? `${meta.name} 피해·혐의 상황별 준비사항, FAQ, 판례를 확인하세요.`
     : `${meta.name} 관련 문제가 있을 때 신고·상담 전에 필요한 준비사항을 안내합니다.`;
   const base: Metadata = {
-    title: `${meta.name} 준비사항 안내 | 로앤가이드`,
+    title: `${getHubTitle(params.domain, meta.name)} | 로앤가이드`,
     description,
     alternates: {
       canonical: `https://www.lawnguide.co.kr/guide/${params.domain}`,
     },
     openGraph: {
-      title: `${meta.name} 준비사항 안내 | 로앤가이드`,
+      title: `${getHubTitle(params.domain, meta.name)} | 로앤가이드`,
       description,
       url: `https://www.lawnguide.co.kr/guide/${params.domain}`,
       siteName: '로앤가이드',
@@ -333,7 +372,7 @@ export default function GuideHubPage({ params }: PageProps) {
           {/* Header */}
           <div className="mb-8 text-center">
             <span className="text-4xl">{meta.icon}</span>
-            <h1 className="mt-3 text-2xl font-bold text-navy-700 md:text-3xl">{meta.name} 준비사항 안내</h1>
+            <h1 className="mt-3 text-2xl font-bold text-navy-700 md:text-3xl">{getHubTitle(params.domain, meta.name)}</h1>
             <p className="mt-2 text-gray-600">{meta.description}</p>
           </div>
 
@@ -522,7 +561,7 @@ export default function GuideHubPage({ params }: PageProps) {
 
           {/* 6. CTA - Gold accent */}
           <div className="mb-8 rounded-xl border-2 border-amber-400 bg-amber-50 px-6 py-8 text-center">
-            <h2 className="text-lg font-bold text-amber-900">1분 안에 내 상황 준비사항 확인하기</h2>
+            <h2 className="text-lg font-bold text-amber-900">3분 안에 내 상황 준비사항 확인하기</h2>
             <p className="mt-2 text-sm text-amber-700">
               간단한 질문에 답하면 상황에 맞는 준비사항과 연락처를 정리해드립니다
             </p>
@@ -607,7 +646,7 @@ export default function GuideHubPage({ params }: PageProps) {
         {/* Header */}
         <div className="mb-8 text-center">
           <span className="text-4xl">{meta.icon}</span>
-          <h1 className="mt-3 text-2xl font-bold text-navy-700">{meta.name}</h1>
+          <h1 className="mt-3 text-2xl font-bold text-navy-700">{getHubTitle(params.domain, meta.name)}</h1>
           <p className="mt-2 text-gray-600">{meta.description}</p>
         </div>
 

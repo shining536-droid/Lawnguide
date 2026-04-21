@@ -188,7 +188,7 @@ export default function GuideSpokePage({ params }: PageProps) {
             {i === 1 && (
               <section className="bg-blue-50 border border-blue-200 rounded-xl p-5 mt-10 text-center">
                 <p className="text-gray-800 font-medium mb-2">
-                  <strong style={{ color: '#D97706' }}>1분 AI 진단</strong>으로{' '}
+                  <strong style={{ color: '#D97706' }}>3분 AI 진단</strong>으로{' '}
                   <strong style={{ color: '#D97706' }}>{page.ctaKeyword}</strong> 확인하기
                 </p>
                 <p className="text-gray-500 text-sm mb-3">
@@ -275,7 +275,7 @@ export default function GuideSpokePage({ params }: PageProps) {
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 text-center">
           <p className="text-white text-lg font-semibold mb-2">
-            <strong style={{ color: '#D97706' }}>1분 AI 진단</strong>으로{' '}
+            <strong style={{ color: '#D97706' }}>3분 AI 진단</strong>으로{' '}
             <strong style={{ color: '#D97706' }}>{page.ctaKeyword}</strong> 확인하기
           </p>
           <p className="text-blue-100 text-sm mb-3">
