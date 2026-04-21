@@ -38,6 +38,86 @@ const nextConfig = {
         destination: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive',
         permanent: true,
       },
+      {
+        source: '/guide/traffic-accident/post-settlement-aftereffect-additional-claim',
+        destination: '/guide/traffic-accident/traffic-accident-post-settlement-additional-claim',
+        permanent: true,
+      },
+      {
+        source: '/guide/assault/injury-vs-assault-penalty',
+        destination: '/guide/assault/assault-vs-injury-penalties',
+        permanent: true,
+      },
+      {
+        source: '/guide/unemployment/unemployment-part-time-income-limit',
+        destination: '/guide/unemployment/unemployment-side-income-during-benefit',
+        permanent: true,
+      },
+      {
+        source: '/guide/prostitution/sting-operation-response',
+        destination: '/guide/prostitution/prostitution-entrapment-response',
+        permanent: true,
+      },
+      {
+        source: '/guide/sangga/sangga-premium-recovery-blocked',
+        destination: '/guide/sangga/commercial-lease-premium-landlord-liability',
+        permanent: true,
+      },
+      {
+        source: '/guide/real-estate-auction/pre-bidding-checklist',
+        destination: '/guide/real-estate-auction/auction-rights-analysis-checklist',
+        permanent: true,
+      },
+      {
+        source: '/guide/assault/assault-immediate-evidence-steps',
+        destination: '/guide/assault/assault-evidence-collection-procedure',
+        permanent: true,
+      },
+      {
+        source: '/guide/sex-crime/common-mistakes-when-accused',
+        destination: '/guide/sex-crime/sex-crime-common-mistakes',
+        permanent: true,
+      },
+      {
+        source: '/guide/child-sex-crime/victim-report-required-documents',
+        destination: '/guide/child-sex-crime/child-victim-report-required-documents',
+        permanent: true,
+      },
+      {
+        source: '/guide/jeonse/deposit-lawsuit-preparation',
+        destination: '/guide/jeonse/deposit-lawsuit-docs',
+        permanent: true,
+      },
+      {
+        source: '/guide/jeonse/jeonse-partial-deposit-return-remaining-claim',
+        destination: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide',
+        permanent: true,
+      },
+      {
+        source: '/guide/traffic-accident/accident-settlement-fair-amount',
+        destination: '/guide/traffic-accident/settlement-amount-calculation',
+        permanent: true,
+      },
+      {
+        source: '/guide/unemployment/unemployment-harassment-quit',
+        destination: '/guide/unemployment/unemployment-sexual-harassment-quit-benefit',
+        permanent: true,
+      },
+      {
+        source: '/guide/real-estate-sale/defect-damage-claim',
+        destination: '/guide/real-estate-sale/sale-defect-discovery-damage-claim',
+        permanent: true,
+      },
+      {
+        source: '/guide/inheritance/limited-acceptance-vs-renunciation',
+        destination: '/guide/inheritance/inheritance-limited-vs-renounce',
+        permanent: true,
+      },
+      {
+        source: '/guide/child-sex-crime/mandatory-reporting-and-procedure',
+        destination: '/guide/child-sex-crime/mandatory-reporting-procedure',
+        permanent: true,
+      },
     ];
   },
 

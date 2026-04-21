@@ -284,44 +284,4 @@ export const spokesBatch27Misc: SpokePage[] = [
     internalLinks: [{ label: '홈', href: '/' }, { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' }, { label: '층간소음 증거 수집', href: '/guide/neighbor-dispute/neighbor-noise-evidence-app-recording' }, { label: '층간소음 법적 절차', href: '/guide/neighbor-dispute/neighbor-dispute-noise-legal-steps' }, { label: '반려동물 소음·냄새', href: '/guide/neighbor-dispute/neighbor-dispute-pet-noise-smell' }],
   },
 
-  // ══════════ 상가임대차 1개 ══════════
-
-  {
-    domain: 'sangga',
-    slug: 'sangga-premium-recovery-blocked',
-    keyword: '상가 권리금 회수 방해 손해배상',
-    questionKeyword: '임대인이 권리금 회수를 방해하는데 손해배상 받을 수 있나요?',
-    ctaKeyword: '권리금 회수 방해 손해배상 상담',
-    type: '절차형',
-    perspective: 'victim',
-    meta: {
-      title: '상가 권리금 회수 방해 시 손해배상 청구 방법 | 로앤가이드',
-      description: '임대인이 정당한 사유 없이 권리금 회수를 방해하면 손해배상을 청구할 수 있습니다. 절차를 지금 확인하세요.',
-    },
-    intro: '<p>계약 만료를 앞두고 새 임차인을 구해서 권리금을 받으려고 합니다. 그런데 임대인이 직접 영업하겠다며 새 임차인과의 계약을 거부합니다. 상가임대차보호법 제10조의4에 따라 임대인의 권리금 회수 방해는 손해배상 대상입니다.</p>',
-    timelineSteps: ['1단계: 권리금 회수 방해 행위 확인', '2단계: 증거 확보', '3단계: 내용증명 발송', '4단계: 손해배상 청구 소송'],
-    sections: [
-      {
-        title: '권리금 회수 방해란?',
-        content: '<p><strong style="color:#1e3a5f">상가임대차보호법 제10조의4에서 금지하는 임대인의 행위입니다.</strong></p>\n<ul>\n<li>임차인이 주선한 신규 임차인과 정당한 사유 없이 임대차계약 체결을 거절하는 행위</li>\n<li>임차인이 주선한 신규 임차인에게 현저히 높은 차임을 요구하여 계약을 방해하는 행위</li>\n<li>임차인이 주선한 신규 임차인에게 보증금·차임 외 금품을 요구하는 행위</li>\n<li>정당한 사유 없이 임대인 자신이 영업하겠다며 거절하는 행위</li>\n</ul>',
-      },
-      {
-        title: '손해배상 청구 절차',
-        content: '<p><strong style="color:#1e3a5f">권리금 회수가 방해받으면 손해배상을 청구하세요.</strong></p>\n<ol>\n<li><strong>증거 확보</strong> — 신규 임차인 주선 사실, 임대인의 거절 사실을 증빙합니다(카카오톡, 이메일, 녹음 등).</li>\n<li><strong>내용증명 발송</strong> — 임대인에게 권리금 회수 방해에 대한 손해배상을 요청합니다.</li>\n<li><strong>소송</strong> — 응하지 않으면 법원에 손해배상 청구 소송을 제기합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>권리금 회수 방해 손해배상, AI가 절차를 안내합니다</strong></p>\n<a href="/chat?domain=sangga" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
-      },
-      {
-        title: '배상 범위와 금액',
-        content: '<p><strong style="color:#1e3a5f">손해배상액은 권리금 감정평가 또는 실거래가를 기준으로 산정됩니다.</strong></p>\n<ul>\n<li><strong>유형 권리금</strong> — 시설, 인테리어 등 유형 자산의 가치</li>\n<li><strong>무형 권리금</strong> — 영업 노하우, 거래처, 단골 고객 등의 가치</li>\n<li><strong>감정평가</strong> — 한국감정원 등에 권리금 감정을 의뢰할 수 있습니다.</li>\n<li><strong>소멸시효</strong> — 임대차 종료일로부터 3년 이내에 청구해야 합니다.</li>\n</ul>',
-      },
-    ],
-    cases: [{ title: '판례 — 권리금 회수 방해 손해배상', summary: '대법원 2022다260586 사건(대법원, 2023.02.02 선고)에서 법원은 상가임대차보호법상 임대인의 권리금 회수 방해 시 손해배상 책임을 인정하되, 손해액 산정은 신규 임차인이 지급하기로 한 권리금과 임대차 종료 시점의 권리금 감정가 중 낮은 금액을 기준으로 해야 한다고 판시했습니다.', takeaway: '비슷한 상황이라면 신규 임차인과의 권리금 합의 내역과 권리금 감정평가를 모두 준비하면 배상액 산정에 유리합니다.' }],
-    faq: [
-      { question: '임대인이 직접 영업하겠다는 것도 방해인가요?', answer: '<p>정당한 사유 없이 자기 또는 가족이 영업하겠다며 거절하면 방해에 해당합니다. 다만 실제로 직접 영업할 계획이 있고 이를 입증하면 정당한 사유가 될 수 있습니다.</p>' },
-      { question: '계약 갱신 거절과 권리금 회수 방해는 다른 건가요?', answer: '<p>다릅니다. 계약 갱신 거절은 계약 기간에 관한 것이고, 권리금 회수 방해는 퇴거 시 권리금을 회수할 권리에 관한 것입니다.</p>' },
-      { question: '권리금을 증빙할 자료가 없으면?', answer: '<p>주변 유사 상가의 권리금 시세, 인테리어 비용 영수증, 매출 자료 등으로 간접 증빙이 가능합니다. 감정평가를 의뢰하는 것도 방법입니다.</p>' },
-      { question: '소송 비용은 얼마나 드나요?', answer: '<p>청구 금액에 따라 인지대가 달라집니다. 1,000만원 청구 시 인지대 약 5만원 수준입니다. 대한법률구조공단의 무료 소송 지원도 활용할 수 있습니다.</p>' },
-    ],
-    cta: { text: '권리금 회수 방해 손해배상 청구 AI로 확인하기', link: '/chat?domain=sangga' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '상가임대차 가이드', href: '/guide/sangga' }, { label: '상가 계약갱신 거절', href: '/guide/sangga/sangga-renewal-rejection-response' }, { label: '상가 보증금 우선변제', href: '/guide/sangga/sangga-priority-repayment-guide' }, { label: '상가 원상복구 의무', href: '/guide/sangga/sangga-restoration-obligation-guide' }],
-  },
 ];
