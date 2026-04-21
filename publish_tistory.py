@@ -32,7 +32,8 @@ BLOG_URL = "https://lawnguide.tistory.com"
 CONTENT_DIR = "./content/tistory"
 COOKIE_FILE = "tistory_cookies_lawnguide.json"
 RESULTS_FILE = f"publish_tistory_lawnguide_results_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
-DAILY_LIMIT = 10
+DAILY_LIMIT = 15
+REGISTRY_FILE = "tistory_url_registry.json"
 
 # Human-like delays (ms)
 BODY_DELAY_MIN = 30
@@ -233,6 +234,66 @@ def get_tistory_cta_url(domain: str = "") -> str:
     return base
 
 
+# ── 티스토리 URL 레지스트리 ─────────────────────────
+def load_url_registry() -> dict:
+    """발행된 티스토리 글의 URL 레지스트리 로드"""
+    if os.path.exists(REGISTRY_FILE):
+        with open(REGISTRY_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def save_url_registry(registry: dict):
+    """URL 레지스트리 저장"""
+    with open(REGISTRY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(registry, f, ensure_ascii=False, indent=2)
+
+
+def get_related_posts_text(current_filename: str, current_domain: str, registry: dict) -> str:
+    """같은 도메인의 발행된 티스토리 글 2~3개를 '관련 글 더 보기' 텍스트로 생성"""
+    if not current_domain:
+        return ""
+
+    # 같은 도메인의 다른 글 찾기
+    candidates = []
+    for fname, info in registry.items():
+        if fname == current_filename:
+            continue
+        if info.get('domain') == current_domain and info.get('url'):
+            candidates.append(info)
+
+    if not candidates:
+        return ""
+
+    # 최대 3개 선택 (최신 순)
+    selected = candidates[:3]
+
+    lines = ["\n", "📌 관련 글 더 보기"]
+    for post in selected:
+        lines.append(f"• {post['title']} → {post['url']}")
+
+    return "\n".join(lines)
+
+
+def build_domain_map_from_files() -> dict:
+    """content/tistory/*.md 파일에서 filename → {domain, title} 매핑 빌드"""
+    domain_map = {}
+    for fp in glob.glob(os.path.join(CONTENT_DIR, '*.md')):
+        fname = os.path.basename(fp)
+        with open(fp, 'r', encoding='utf-8') as f:
+            content = f.read()
+        fm_match = re.match(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+        if fm_match:
+            dm = re.search(r'^domain:\s*["\']?(.+?)["\']?\s*$', fm_match.group(1), re.MULTILINE)
+            tm = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', fm_match.group(1), re.MULTILINE)
+            if dm:
+                domain_map[fname] = {
+                    'domain': dm.group(1).strip(),
+                    'title': tm.group(1).strip() if tm else fname.replace('.md', ''),
+                }
+    return domain_map
+
+
 async def insert_cta_link(page, domain: str = "") -> bool:
     """본문 끝에 CTA 소개글 + OG 카드 링크 삽입 (도메인별 딥링크)"""
     try:
@@ -272,13 +333,14 @@ async def insert_cta_link(page, domain: str = "") -> bool:
 
 
 # ── 글 작성 + 즉시 발행 ──────────────────────────────
-async def write_and_publish(page, post: dict) -> dict:
+async def write_and_publish(page, post: dict, url_registry: dict = None) -> dict:
     """단일 글 작성 및 즉시 공개 발행"""
     result = {
         'filename': post['filename'],
         'title': post['title'],
         'status': 'unknown',
-        'error': None
+        'error': None,
+        'url': None
     }
 
     try:
@@ -428,6 +490,24 @@ async def write_and_publish(page, post: dict) -> dict:
         await insert_cta_link(page, domain=post_domain)
         await page.wait_for_timeout(random.randint(500, 1000))
 
+        # === 관련 글 더 보기 삽입 ===
+        if url_registry and post_domain:
+            related_text = get_related_posts_text(post['filename'], post_domain, url_registry)
+            if related_text:
+                try:
+                    for line in related_text.split('\n'):
+                        if line.strip():
+                            await page.keyboard.type(line, delay=random.randint(BODY_DELAY_MIN, BODY_DELAY_MAX))
+                        await page.keyboard.press('Enter')
+                        await page.wait_for_timeout(random.randint(200, 400))
+                    print(f"    관련 글 더 보기 삽입 완료")
+                except Exception as e:
+                    print(f"    관련 글 삽입 실패: {str(e)[:50]}")
+            else:
+                print(f"    관련 글 없음 (같은 도메인 발행 글 없음)")
+
+        await page.wait_for_timeout(random.randint(500, 1000))
+
         # 팝업 체크
         await dismiss_all_popups(page)
 
@@ -513,6 +593,9 @@ async def write_and_publish(page, post: dict) -> dict:
             if '/manage/newpost' not in current_url:
                 print(f"    발행 완료! → {current_url[:60]}")
                 result['status'] = 'published'
+                # 발행된 URL 저장 (manage URL 제외)
+                if '/manage/' not in current_url and BLOG_URL in current_url:
+                    result['url'] = current_url
             else:
                 print("    발행 버튼 클릭했으나 페이지 이동 없음")
                 result['status'] = 'published'
@@ -617,6 +700,20 @@ async def main():
 
     print(f"{len(md_files)}개 md 파일 발견")
 
+    # ── 발행 전 필수 검증 (CLAUDE.md 티스토리 규칙) ──────
+    try:
+        from check_blog_length import validate_files
+        ok, summary = validate_files([Path(p) for p in md_files])
+        if not ok:
+            print(summary)
+            print("\n❌ 티스토리 품질 규칙 위반 — 발행 중단. 재생성 후 다시 실행하세요.")
+            print("   (규칙: CLAUDE.md '티스토리 블로그' 섹션 참조)")
+            return
+        print(f"✅ 티스토리 품질 검증 통과 ({len(md_files)}개)")
+    except Exception as e:
+        print(f"⚠️ 검증 스크립트 실행 실패 ({e}) — 안전을 위해 발행 중단.")
+        return
+
     # 파싱
     posts = []
     for fp in md_files:
@@ -702,15 +799,37 @@ async def main():
 
         print(f"\n{'='*50}")
 
+        # URL 레지스트리 로드 + 도메인 맵 빌드
+        url_registry = load_url_registry()
+        file_domain_map = build_domain_map_from_files()
+        # 기존 레지스트리에 도메인 정보 보강
+        for fname, info in file_domain_map.items():
+            if fname not in url_registry:
+                url_registry[fname] = info
+            else:
+                url_registry[fname].setdefault('domain', info.get('domain', ''))
+                url_registry[fname].setdefault('title', info.get('title', ''))
+        print(f"  URL 레지스트리: {sum(1 for v in url_registry.values() if v.get('url'))}개 URL 보유")
+
         # 글 발행 루프
         for i, post in enumerate(posts):
             print(f"\n[{i+1}/{len(posts)}] {post['filename']}")
 
-            result = await write_and_publish(page, post)
+            result = await write_and_publish(page, post, url_registry=url_registry)
             results.append(result)
 
             status_icon = {'published': 'OK', 'failed': 'FAIL', 'error': 'ERR'}.get(result['status'], '?')
             print(f"  [{status_icon}] 결과: {result['status']}")
+
+            # 발행 성공 시 레지스트리 업데이트
+            if result['status'] == 'published' and result.get('url'):
+                url_registry[post['filename']] = {
+                    'domain': post.get('domain', ''),
+                    'title': post['title'],
+                    'url': result['url']
+                }
+                save_url_registry(url_registry)
+                print(f"  레지스트리 업데이트: {result['url'][:60]}")
 
             # 결과 파일 저장
             with open(RESULTS_FILE, 'w', encoding='utf-8') as f:

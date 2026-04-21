@@ -1532,6 +1532,20 @@ async def main():
 
     print(f"📂 {len(md_files)}개 md 파일 발견")
 
+    # ── 발행 전 필수 검증 (CLAUDE.md 블로그 규칙) ────────
+    try:
+        from check_blog_length import validate_files
+        ok, summary = validate_files([Path(p) for p in md_files])
+        if not ok:
+            print(summary)
+            print("\n❌ 블로그 품질 규칙 위반 — 발행 중단. 재생성 후 다시 실행하세요.")
+            print("   (규칙: CLAUDE.md '네이버 블로그' 섹션 참조)")
+            return
+        print(f"✅ 블로그 품질 검증 통과 ({len(md_files)}개)")
+    except Exception as e:
+        print(f"⚠️ 검증 스크립트 실행 실패 ({e}) — 안전을 위해 발행 중단.")
+        return
+
     # 즉시 발행 모드
     now = datetime.now()
     print(f"📅 즉시 발행 모드 ({len(md_files)}개)")
