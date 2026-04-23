@@ -210,7 +210,7 @@
 ### 발행 명령어
 - 썸네일 생성: python generate_thumbnails_lawnguide.py
 - 네이버 발행: python publish_lawnguide.py --all
-- 티스토리 발행: python publish_tistory.py --limit 15
+- 티스토리 발행: python publish_tistory.py  (기본: frontmatter `date` == 오늘인 파일만. `--date YYYY-MM-DD` 로 특정일 지정, `--all` 로 date 필터 해제)
 
 ### 발행 전 필수 검증 (블로그/티스토리) — 8가지 자동 규칙
 **`python check_blog_length.py {오늘날짜}` 가 아래 8개를 자동 검사합니다. publish 스크립트(`publish_lawnguide.py`, `publish_tistory.py`)는 실행 시 `validate_files()` 를 먼저 호출해 규칙 위반이면 발행 자체를 중단합니다.**

@@ -16,10 +16,17 @@ import argparse
 import json
 import os
 import re
+import sys
 import glob
 import random
 from datetime import datetime
 from pathlib import Path
+
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 try:
     from playwright.async_api import async_playwright
@@ -655,8 +662,10 @@ async def main():
     parser.add_argument('--content-dir', default=CONTENT_DIR, help='md 파일 폴더 경로')
     parser.add_argument('--blog-url', default=BLOG_URL, help='티스토리 블로그 URL')
     parser.add_argument('--dry-run', action='store_true', help='실제 발행하지 않고 파싱만 확인')
-    parser.add_argument('--limit', type=int, default=DAILY_LIMIT, help=f'최대 발행 수 (기본: {DAILY_LIMIT})')
-    parser.add_argument('--files', nargs='+', help='특정 파일만 발행')
+    parser.add_argument('--limit', type=int, default=DAILY_LIMIT, help=f'최대 발행 수 안전캡 (기본: {DAILY_LIMIT})')
+    parser.add_argument('--date', default=None, help='frontmatter date 필터 (기본: 오늘 YYYY-MM-DD). --all 지정 시 무시')
+    parser.add_argument('--all', action='store_true', help='date 필터 없이 전체 md 파일 대상 (기존 동작)')
+    parser.add_argument('--files', nargs='+', help='특정 파일만 발행 (date 필터 무시)')
     args = parser.parse_args()
 
     BLOG_URL = args.blog_url
@@ -675,15 +684,30 @@ async def main():
     if published_files:
         print(f"이전 발행 기록: {len(published_files)}개 파일")
 
-    # md 파일 수집 — 가장 최근 수정된 파일 우선 (--limit N 은 "최근 N개")
+    # md 파일 수집 — 기본: frontmatter date == 오늘 (당일생성 당일발행)
     if args.files:
         md_files = args.files
-    else:
+    elif args.all:
+        # 기존 동작: date 필터 없이 mtime 역순 (안전캡 --limit 적용)
         md_files = sorted(
             glob.glob(os.path.join(CONTENT_DIR, '*.md')),
             key=os.path.getmtime,
             reverse=True,
         )
+    else:
+        target_date = args.date or datetime.now().strftime('%Y-%m-%d')
+        all_files = sorted(glob.glob(os.path.join(CONTENT_DIR, '*.md')))
+        md_files = []
+        for fp in all_files:
+            try:
+                with open(fp, 'r', encoding='utf-8') as f:
+                    head = f.read(500)
+                m = re.search(r'^date:\s*["\']?(\d{4}-\d{2}-\d{2})', head, re.MULTILINE)
+                if m and m.group(1) == target_date:
+                    md_files.append(fp)
+            except Exception:
+                continue
+        print(f"[date 필터] {target_date} - {len(md_files)}개 매칭")
 
     # 중복 발행 방지: 이미 발행된 파일 스킵
     filtered = []
@@ -695,7 +719,7 @@ async def main():
             filtered.append(fp)
     md_files = filtered
 
-    # --limit 적용
+    # --limit 안전캡 적용
     md_files = md_files[:args.limit]
 
     if not md_files:
