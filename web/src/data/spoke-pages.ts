@@ -255,6 +255,9 @@ import { spokesBatch43Nonlabor1 } from './spoke/spokes-batch43-nonlabor1';
 import { spokesBatch43Nonlabor2 } from './spoke/spokes-batch43-nonlabor2';
 import { spokesBatch43Nonlabor3 } from './spoke/spokes-batch43-nonlabor3';
 import { spokesBatch43Divorce } from './spoke/spokes-batch43-divorce';
+import { spokesBatch44Labor } from './spoke/spokes-batch44-labor';
+import { spokesBatch44Nonlabor1 } from './spoke/spokes-batch44-nonlabor1';
+import { spokesBatch44Nonlabor2 } from './spoke/spokes-batch44-nonlabor2';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -467,6 +470,9 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch43Nonlabor2,
   ...spokesBatch43Nonlabor3,
   ...spokesBatch43Divorce,
+  ...spokesBatch44Labor,
+  ...spokesBatch44Nonlabor1,
+  ...spokesBatch44Nonlabor2,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
