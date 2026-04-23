@@ -675,11 +675,15 @@ async def main():
     if published_files:
         print(f"이전 발행 기록: {len(published_files)}개 파일")
 
-    # md 파일 수집
+    # md 파일 수집 — 가장 최근 수정된 파일 우선 (--limit N 은 "최근 N개")
     if args.files:
         md_files = args.files
     else:
-        md_files = sorted(glob.glob(os.path.join(CONTENT_DIR, '*.md')))
+        md_files = sorted(
+            glob.glob(os.path.join(CONTENT_DIR, '*.md')),
+            key=os.path.getmtime,
+            reverse=True,
+        )
 
     # 중복 발행 방지: 이미 발행된 파일 스킵
     filtered = []
