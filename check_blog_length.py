@@ -97,6 +97,41 @@ KB_ROOT = Path("kb")
 CONTENT_BLOG_DIR = Path("content/blog")
 CONTENT_TISTORY_DIR = Path("content/tistory")
 
+# ── 기발행 슬러그 레지스트리 ───────────────────────────
+# publish_lawnguide.py / publish_tistory.py 의 results JSON 을 스캔해
+# 같은 filename 이 이미 발행 처리된 적 있으면 차단 (덮어쓰기 → 발행스킵 사고 방지)
+PUBLISHED_REGISTRY: dict[str, str] | None = None  # filename → scheduled_date
+
+
+def _load_published_registry() -> dict[str, str]:
+    global PUBLISHED_REGISTRY
+    if PUBLISHED_REGISTRY is not None:
+        return PUBLISHED_REGISTRY
+    registry: dict[str, str] = {}
+    patterns = [
+        "publish_lawnguide_results_*.json",
+        "publish_tistory_lawnguide_results_*.json",
+    ]
+    for pat in patterns:
+        for rf in glob.glob(pat):
+            try:
+                with open(rf, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+            except Exception:
+                continue
+            for item in data:
+                if item.get("status") != "published":
+                    continue
+                fn = item.get("filename", "")
+                if not fn:
+                    continue
+                sched = str(item.get("scheduled_time", ""))[:10] or "unknown"
+                # 가장 오래된 발행일 우선 (동일 filename 다수 결과 중 첫 발행)
+                if fn not in registry or sched < registry[fn]:
+                    registry[fn] = sched
+    PUBLISHED_REGISTRY = registry
+    return registry
+
 # ── 중복 제목 체크용 ────────────────────────────────────
 TITLE_RE = re.compile(r'^title:\s*"([^"]+)"', re.MULTILINE)
 TITLE_KEYWORD_RE = re.compile(r"[가-힣]{2,}")
@@ -383,6 +418,7 @@ class Report(NamedTuple):
     formal_ratio: float
     perspective_violations: list[str]
     category: str | None
+    already_published_at: str | None
 
     @property
     def is_tistory(self) -> bool:
@@ -413,6 +449,11 @@ class Report(NamedTuple):
         verdict_hits = [v for v in self.perspective_violations if "단정적 유죄" in v]
         if verdict_hits:
             errs.extend(verdict_hits)
+        # 같은 filename 이 이미 발행 레지스트리에 있으면 차단 (덮어쓰기 사고 방지)
+        if self.already_published_at:
+            errs.append(
+                f"filename 이미 발행됨 ({self.already_published_at}) — 슬러그 변경(예: -v2 추가) 후 재시도"
+            )
         return errs
 
     @property
@@ -452,6 +493,14 @@ def analyze_file(path: Path) -> Report:
     overlaps = check_title_overlap(text, path, domain)
     formal, informal, ratio = check_tone(text, is_tistory)
     persp_v = check_perspective_language(text, category)
+    # 덮어쓰기 사고 방지: frontmatter date 이전에 같은 filename 이 이미 발행된 경우만 차단
+    # (오늘 date 인데 과거에 발행된 적 있음 = 이번 달 새로 만든 슬러그와 레지스트리 충돌 → 재작명 필요)
+    registry = _load_published_registry()
+    published_at = registry.get(path.name)
+    file_date = _extract_field(text, DATE_RE)
+    already_at: str | None = None
+    if published_at and file_date and published_at < file_date:
+        already_at = published_at
     return Report(
         path=path,
         body_chars=body_chars,
@@ -468,6 +517,7 @@ def analyze_file(path: Path) -> Report:
         formal_ratio=ratio,
         perspective_violations=persp_v,
         category=category,
+        already_published_at=already_at,
     )
 
 
