@@ -27,7 +27,7 @@ from pathlib import Path
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     try:
-        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
     except Exception:
         pass
 
@@ -198,17 +198,24 @@ def map_domain(title: str, content: str) -> list[str]:
 # ── 메인 크롤 ──────────────────────────────────────
 def crawl_dmgerlif(max_pages: int, out_raw: Path) -> list[dict]:
     all_items = []
+    last_sns: frozenset = frozenset()
     for page in range(1, max_pages + 1):
         try:
             html = fetch(DMGERLIF_LIST, {"page": page, "row": ROW})
         except Exception as e:
-            print(f"[dmg list p{page}] ERR: {e}")
+            print(f"[dmg list p{page}] ERR: {e}", flush=True)
             break
         items = parse_dmgerlif_list(html)
         if not items:
-            print(f"[dmg list p{page}] 빈 페이지 → 종료")
+            print(f"[dmg list p{page}] 빈 페이지 → 종료", flush=True)
             break
-        print(f"[dmg list p{page}] {len(items)}건")
+        # 마지막 페이지를 지나면 서버가 같은 SN 세트를 반복 반환 → 중복 감지로 종료
+        current_sns = frozenset(it["sn"] for it in items)
+        if current_sns == last_sns:
+            print(f"[dmg list p{page}] 이전 페이지와 동일 SN 세트 → 종료", flush=True)
+            break
+        last_sns = current_sns
+        print(f"[dmg list p{page}] {len(items)}건", flush=True)
         all_items.extend(items)
         time.sleep(DELAY)
 
@@ -253,16 +260,22 @@ def crawl_dmgerlif(max_pages: int, out_raw: Path) -> list[dict]:
 
 def crawl_consulting(max_pages: int, out_raw: Path) -> list[dict]:
     all_items = []
+    last_sns: frozenset = frozenset()
     for page in range(1, max_pages + 1):
         try:
             html = fetch(CONSULTING_LIST, {"page": page, "row": ROW})
         except Exception as e:
-            print(f"[cns list p{page}] ERR: {e}")
+            print(f"[cns list p{page}] ERR: {e}", flush=True)
             break
         items = parse_consulting_list(html)
         if not items:
             break
-        print(f"[cns list p{page}] {len(items)}건")
+        current_sns = frozenset(it["sn"] for it in items)
+        if current_sns == last_sns:
+            print(f"[cns list p{page}] 이전 페이지와 동일 SN 세트 → 종료", flush=True)
+            break
+        last_sns = current_sns
+        print(f"[cns list p{page}] {len(items)}건", flush=True)
         all_items.extend(items)
         time.sleep(DELAY)
 
