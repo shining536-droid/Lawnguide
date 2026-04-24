@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  // output: 'standalone' 제거: Vercel 자체 번들러가 SSG/서버리스 분리 처리.
+  // standalone 모드는 1253개 prerender 된 /guide/[domain]/[slug] 가 .next/server/app 에 모두 들어가
+  // 서버리스 함수 번들 크기 219MB → 250MB 한도 초과 원인이었음 (2026-04-24).
   images: {
     formats: ['image/webp'],
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days
