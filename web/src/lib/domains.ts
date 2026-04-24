@@ -48,9 +48,6 @@ function dataDir() {
   return path.join(process.cwd(), '..', 'domains');
 }
 
-function kbDir() {
-  return path.join(process.cwd(), '..', 'kb');
-}
 
 export interface Question {
   id: string;
@@ -161,23 +158,6 @@ export interface ResultsFile {
   results: ResultEntry[];
 }
 
-export interface LegalFact {
-  id: string;
-  topic: string;
-  statement: string;
-  law_refs: string[];
-  prerequisites: string[];
-  exceptions?: string[];
-  source_pages: string[];
-}
-
-export interface LegalFactsFile {
-  domain: string;
-  version: string;
-  totalFacts: number;
-  facts: LegalFact[];
-}
-
 function readJSON<T>(filePath: string): T {
   const raw = fs.readFileSync(filePath, 'utf-8');
   return JSON.parse(raw) as T;
@@ -193,10 +173,6 @@ export function getBranches(domain: string): BranchesFile {
 
 export function getResults(domain: string): ResultsFile {
   return readJSON<ResultsFile>(path.join(dataDir(), domain, 'results.json'));
-}
-
-export function getLegalFacts(domain: string): LegalFactsFile {
-  return readJSON<LegalFactsFile>(path.join(kbDir(), domain, 'legal_facts.json'));
 }
 
 export function getDomainMeta(domain: string): DomainMeta | undefined {
@@ -252,26 +228,3 @@ export function slugToTopic(slug: string): string {
   return decodeURIComponent(slug);
 }
 
-// Get unique topics from legal facts for hub/spoke pages
-export function getUniqueTopics(facts: LegalFactsFile): { topic: string; slug: string; factCount: number; firstFact: LegalFact }[] {
-  const topicMap = new Map<string, { count: number; first: LegalFact }>();
-  for (const fact of facts.facts) {
-    const existing = topicMap.get(fact.topic);
-    if (existing) {
-      existing.count++;
-    } else {
-      topicMap.set(fact.topic, { count: 1, first: fact });
-    }
-  }
-  return Array.from(topicMap.entries()).map(([topic, data]) => ({
-    topic,
-    slug: topicToSlug(topic),
-    factCount: data.count,
-    firstFact: data.first,
-  }));
-}
-
-// Get all facts for a given topic
-export function getFactsByTopic(facts: LegalFactsFile, topic: string): LegalFact[] {
-  return facts.facts.filter((f) => f.topic === topic);
-}

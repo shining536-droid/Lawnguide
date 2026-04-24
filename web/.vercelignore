@@ -1,0 +1,7 @@
+../kb/
+../content/
+../__pycache__/
+../scripts/
+../crawl_*.py
+../*.py
+../*.json

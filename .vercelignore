@@ -1,0 +1,17 @@
+kb/
+content/
+__pycache__/
+*.pyc
+*.py
+naver_cookies_lawnguide.json
+tistory_cookies_lawnguide.json
+publish_*_results_*.json
+naver_url_registry.json
+tistory_url_registry.json
+tmp_*
+scripts/
+crawl_*.py
+check_blog_length.py
+publish_*.py
+*.md
+!CLAUDE.md
