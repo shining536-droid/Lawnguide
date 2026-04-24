@@ -262,6 +262,12 @@
 - 톤: "~확인해보세요" / "~정리해보세요"
 - 커밋 메시지 한글로
 
+## Vercel 배포 주의사항 (2026-04-24 사고 회고)
+- **`web/next.config.js` 에 `output: 'standalone'` 절대 금지** — Docker/self-hosting 전용. Vercel 에선 Vercel 자체 번들러가 SSG/서버리스 자동 분리하므로 불필요. 활성화 시 1253개 prerender 된 /guide/[domain]/[slug] HTML/RSC 가 함수 번들에 모두 포함되어 250MB 한도 초과 → 빌드 실패
+- **`web/src/` 에 dead code (미호출 export 함수) 두지 말 것** — Next.js NFT(File Tracing)가 정의만 봐도 의존성을 트레이스함. 예: `kbDir()`+`getLegalFacts()` 가 미사용이었지만 NFT가 kb/ 405MB 를 번들에 포함시킴
+- `.vercelignore` 유지 (kb/, content/, *.py, scripts/ 제외) — 안전망
+- 스포크 1500개 넘기면 Vercel 함수 번들 한계 다시 점검 필요 (현재 1253개)
+
 ## URL 규칙
 - 모든 절대 URL은 https://www.lawnguide.co.kr 사용
 - non-www(https://lawnguide.co.kr) 절대 사용 금지
