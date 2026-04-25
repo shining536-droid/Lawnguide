@@ -107,10 +107,10 @@ function ProcedureFlowSection({ flows, agencies }: { flows: ProcedureFlow[]; age
     <div>
       <SectionHeader
         icon={<svg className="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>}
-        title="📋 공식 절차 기준으로 보면"
+        title="📋 이렇게 진행됩니다"
       />
       <p className="text-xs text-gray-500 mb-3">
-        {agencyText} 안내 절차를 참고하면, 다음 흐름을 검토해볼 수 있습니다. 사건 사정에 따라 달라질 수 있어요.
+        {agencyText} 안내 절차를 참고하면, 다음 흐름으로 진행됩니다. 사건 사정에 따라 달라질 수 있어요.
       </p>
       <div className="bg-indigo-50 rounded-xl p-4 space-y-3">
         <p className="text-sm font-semibold text-indigo-800">{primary.name}</p>
@@ -139,7 +139,53 @@ function ProcedureFlowSection({ flows, agencies }: { flows: ProcedureFlow[]; age
   );
 }
 
-/* ─── Procedure required documents (📎 지금 챙길 자료) ─── */
+/* ─── Procedure 신청·상담 경로 (🏛️) ─── */
+function ProcedureAgenciesSection({
+  agencies,
+  sourceUrls,
+}: {
+  agencies: string[];
+  sourceUrls: string[];
+}) {
+  if (!agencies || agencies.length === 0) return null;
+  return (
+    <details className="group">
+      <summary className="cursor-pointer list-none">
+        <div className="flex items-center justify-between pt-10 pb-4 mt-4 border-t border-gray-200">
+          <div className="flex items-center gap-2">
+            <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 21V7l9-4 9 4v14m-9-9v9m-4 0h8" /></svg>
+            <h4 className="font-bold text-gray-900">🏛️ 신청·상담 경로</h4>
+          </div>
+          <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+      </summary>
+      <p className="text-xs text-gray-500 mb-3">아래 기관에서 절차 안내·상담을 확인하실 수 있습니다.</p>
+      <ul className="space-y-2">
+        {agencies.slice(0, 4).map((name, i) => {
+          const url = sourceUrls?.[i];
+          return (
+            <li key={i} className="flex items-start gap-2 text-sm">
+              <span className="text-blue-500 mt-0.5">▸</span>
+              <div className="flex-1 min-w-0">
+                <p className="text-gray-800 font-medium">{name}</p>
+                {url && (
+                  <a href={url} target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 hover:underline break-all">
+                    {url.replace(/^https?:\/\//, '').split('/')[0]}
+                  </a>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </details>
+  );
+}
+
+/* ─── (DEPRECATED) Procedure required documents (📎) — 기존 준비서류 섹션과 중복이라 미사용 ─── */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function ProcedureDocsSection({ docs }: { docs: { category: string; items: string[] }[] }) {
   if (!docs || docs.length === 0) return null;
   // "필수" 카테고리 우선, 그 외는 "권장"
@@ -198,7 +244,8 @@ function ProcedureDocsSection({ docs }: { docs: { category: string; items: strin
   );
 }
 
-/* ─── Procedure key deadlines (⏱ 기간·기한) ─── */
+/* ─── (DEPRECATED) Procedure key deadlines (⏱) — 단계 안에 자연스럽게 녹임 ─── */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function ProcedureDeadlinesSection({ deadlines, sourceUrls }: { deadlines: { label: string; value: string; source?: string }[]; sourceUrls: string[] }) {
   if (!deadlines || deadlines.length === 0) return null;
   return (
@@ -439,19 +486,14 @@ export default function ChatResultCard({ result, answers, domainName, procedure,
           </div>
         )}
 
-        {/* ═══ 3.5. 공식 절차 (procedure 데이터) ═══ */}
+        {/* ═══ 3.5. 이렇게 진행됩니다 (procedure 데이터 — 기한은 단계 안에 통합) ═══ */}
         {procedure && procedure.all_flows && procedure.all_flows.length > 0 && (
           <ProcedureFlowSection flows={procedure.all_flows} agencies={procedure.agency_names} />
         )}
 
-        {/* ═══ 3.6. 지금 챙길 자료 (procedure 기준) ═══ */}
-        {procedure && procedure.required_documents && procedure.required_documents.length > 0 && (
-          <ProcedureDocsSection docs={procedure.required_documents} />
-        )}
-
-        {/* ═══ 3.7. 기간·기한 (procedure 기준) ═══ */}
-        {procedure && procedure.key_deadlines && procedure.key_deadlines.length > 0 && (
-          <ProcedureDeadlinesSection deadlines={procedure.key_deadlines} sourceUrls={procedure.source_urls} />
+        {/* ═══ 3.6. 신청·상담 경로 (procedure 기관 정보, 기본 닫힘) ═══ */}
+        {procedure && procedure.agency_names && procedure.agency_names.length > 0 && (
+          <ProcedureAgenciesSection agencies={procedure.agency_names} sourceUrls={procedure.source_urls} />
         )}
 
         {/* ═══ 4. 주의할 점 ═══ */}

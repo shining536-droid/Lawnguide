@@ -1941,24 +1941,22 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
                   </div>
                 </div>
 
-                {/* 6.5. 공식 절차 (procedure 데이터 — 단정형 금지, 가능형으로) */}
+                {/* 6.5. 이렇게 진행됩니다 (procedure 데이터 — 단정형 금지, 가능형 / 기한은 단계 안에 자연스럽게 통합) */}
                 {selectedDomain && procedureData?.[selectedDomain] && (() => {
                   // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   const proc: any = procedureData[selectedDomain];
                   // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   const flow: any = proc.primary_flow ?? proc.all_flows?.[0];
                   const agencyText: string = (proc.agency_names ?? []).slice(0, 2).join(' · ') || '공식 기관';
-                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                  const deadlines: any[] = (proc.key_deadlines ?? []).slice(0, 6);
                   return (
                     <>
                       {flow?.steps?.length > 0 && (
                         <div className="px-6 py-5 border-b border-gray-100 bg-indigo-50/40">
                           <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
-                            <span>📋</span> 공식 절차 기준으로 보면
+                            <span>📋</span> 이렇게 진행됩니다
                           </h4>
                           <p className="text-[12px] text-gray-500 mb-3">
-                            {agencyText} 안내 절차를 참고하면, 다음 흐름을 검토해볼 수 있습니다.
+                            {agencyText} 안내 절차를 참고하면, 다음 흐름으로 진행됩니다.
                           </p>
                           <ol className="space-y-2.5">
                             {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
@@ -1966,31 +1964,14 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
                               <li key={i} className="flex gap-3">
                                 <span className="flex-shrink-0 w-5 h-5 rounded-full bg-indigo-600 text-white text-[11px] font-bold flex items-center justify-center mt-0.5">{s.step ?? i + 1}</span>
                                 <div className="flex-1 min-w-0">
-                                  <p className="text-[14px] font-medium text-gray-900">{s.title}</p>
-                                  {s.deadline && <p className="text-[12px] text-indigo-700 mt-0.5">⏱ {s.deadline}</p>}
+                                  <p className="text-[14px] font-medium text-gray-900">
+                                    {s.title}
+                                    {s.deadline && <span className="text-[13px] font-normal text-indigo-700 ml-1">({s.deadline})</span>}
+                                  </p>
                                 </div>
                               </li>
                             ))}
                           </ol>
-                        </div>
-                      )}
-                      {deadlines.length > 0 && (
-                        <div className="px-6 py-5 border-b border-gray-100">
-                          <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
-                            <span>⏱</span> 기간·기한
-                          </h4>
-                          <p className="text-[12px] text-gray-500 mb-3">
-                            기관 안내 기준의 일반적인 기한입니다. 본인 사건 기한은 별도 확인하는 것이 좋습니다.
-                          </p>
-                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-                            {deadlines.map((d: any, i: number) => (
-                              <div key={i} className="border-l-4 border-rose-300 bg-rose-50 rounded-r px-3 py-2">
-                                <p className="text-[11px] text-rose-700 font-medium">{d.label}</p>
-                                <p className="text-[13px] text-gray-900 font-semibold mt-0.5">{d.value}</p>
-                              </div>
-                            ))}
-                          </div>
                         </div>
                       )}
                       {(proc.agency_names?.length ?? 0) > 0 && (

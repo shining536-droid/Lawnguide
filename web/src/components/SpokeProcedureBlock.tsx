@@ -46,19 +46,16 @@ export default function SpokeProcedureBlock({ procedure }: Props) {
   // 자주 하는 실수 3~5개만
   const mistakes = (procedure.common_mistakes || []).slice(0, 5);
 
-  // 기한 8개까지
-  const deadlines = (procedure.key_deadlines || []).slice(0, 8);
-
   return (
     <section className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-100 rounded-xl p-6 shadow-sm space-y-6">
       <div>
-        <h2 className="text-lg font-bold text-indigo-900 mb-1">📌 공식 절차 한눈에 보기</h2>
+        <h2 className="text-lg font-bold text-indigo-900 mb-1">📌 이렇게 진행됩니다</h2>
         <p className="text-xs text-indigo-700">
-          {agencyText} 안내 절차를 참고하면, 다음 흐름을 검토해볼 수 있습니다.
+          {agencyText} 안내 절차를 참고하면, 다음 흐름으로 진행됩니다.
         </p>
       </div>
 
-      {/* 1. 공식 절차 단계 */}
+      {/* 1. 이렇게 진행됩니다 — 기한은 단계 제목 옆에 괄호로 자연스럽게 통합 */}
       {stepsCapped.length > 0 && (
         <div className="bg-white rounded-lg p-5 border border-indigo-100">
           {flow && <p className="text-sm font-semibold text-indigo-800 mb-3">{flow.name}</p>}
@@ -69,38 +66,17 @@ export default function SpokeProcedureBlock({ procedure }: Props) {
                   {s.step ?? i + 1}
                 </span>
                 <div className="flex-1 min-w-0">
-                  <p className="text-sm font-medium text-gray-900">{s.title}</p>
+                  <p className="text-sm font-medium text-gray-900">
+                    {s.title}
+                    {s.deadline && <span className="text-sm font-normal text-indigo-700 ml-1">({s.deadline})</span>}
+                  </p>
                   {s.description && (
                     <p className="text-xs text-gray-600 mt-0.5 leading-relaxed">{s.description}</p>
-                  )}
-                  {s.deadline && (
-                    <p className="text-xs text-indigo-700 mt-1">
-                      <span className="font-medium">⏱ </span>
-                      {s.deadline}
-                    </p>
                   )}
                 </div>
               </li>
             ))}
           </ol>
-        </div>
-      )}
-
-      {/* 2. 처리기간/신청기한 */}
-      {deadlines.length > 0 && (
-        <div className="bg-white rounded-lg p-5 border border-indigo-100">
-          <h3 className="text-base font-bold text-rose-700 mb-1">⏰ 처리기간 · 신청기한</h3>
-          <p className="text-xs text-gray-500 mb-3">
-            기관 안내 기준의 일반적인 기한입니다. 본인 사건 기한은 별도 확인하는 것이 좋습니다.
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {deadlines.map((d, i) => (
-              <div key={i} className="border-l-4 border-rose-300 bg-rose-50 rounded-r px-3 py-2">
-                <p className="text-xs text-rose-700 font-medium">{d.label}</p>
-                <p className="text-sm text-gray-900 font-semibold mt-0.5">{d.value}</p>
-              </div>
-            ))}
-          </div>
         </div>
       )}
 
