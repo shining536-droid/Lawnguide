@@ -4,6 +4,7 @@ import path from 'path';
 import Link from 'next/link';
 import ChatBot from '@/components/ChatBot';
 import { DOMAINS, getQuestions, getBranches, getResults } from '@/lib/domains';
+import { loadAllProcedureData } from '@/lib/procedure-data';
 
 /* 첫 화면 예시 질문 — 클릭 시 해당 도메인으로 시작 */
 const EXAMPLE_QUESTIONS = [
@@ -89,6 +90,10 @@ export default function ChatPage({ searchParams }: PageProps) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const subtypesData = loadSubtypesData() as any;
 
+  // Load 기관 절차(procedure) data for result-card augmentation.
+  // 톤 안전장치: 단정형 금지, "검토해볼 수 있습니다" 톤 유지.
+  const procedureData = loadAllProcedureData();
+
   const showWelcome = !searchParams.domain;
 
   return (
@@ -133,7 +138,7 @@ export default function ChatPage({ searchParams }: PageProps) {
           </div>
         </section>
       )}
-      <ChatBot allDomainData={allDomainData} subtypesData={subtypesData} initialDomain={searchParams.domain} />
+      <ChatBot allDomainData={allDomainData} subtypesData={subtypesData} procedureData={procedureData} initialDomain={searchParams.domain} />
     </div>
   );
 }

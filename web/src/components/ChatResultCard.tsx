@@ -3,10 +3,35 @@
 import { useState, useCallback } from 'react';
 import type { ResultEntry, DocumentItem } from '@/lib/domains-client';
 
+/**
+ * Procedure 데이터 (서버에서 kb/{domain}/*_procedure.json 로드 후 전달).
+ *
+ * 톤 안전장치 (CRITICAL): 결과화면에서 procedure 데이터를 보여줄 때는
+ * 단정형("받을 수 있습니다", "100% 환급") 금지. "검토해볼 수 있습니다",
+ * "확인할 수 있습니다", "준비해두는 것이 좋습니다" 같은 가능형으로 표시.
+ * 기관 절차는 법원 판결이 아닌 "준비 경로"임을 사용자가 인지하도록.
+ */
+interface ProcedureFlow {
+  id: string;
+  name: string;
+  applies_to?: string;
+  steps: { step: number; title: string; description?: string; deadline?: string }[];
+}
+interface DomainProcedure {
+  domain: string;
+  primary_flow: ProcedureFlow | null;
+  all_flows: ProcedureFlow[];
+  agency_names: string[];
+  required_documents: { category: string; items: string[] }[];
+  key_deadlines: { label: string; value: string; source?: string }[];
+  source_urls: string[];
+}
+
 interface ChatResultCardProps {
   result: ResultEntry;
   answers: Record<string, string>;
   domainName: string;
+  procedure?: DomainProcedure;
   onRestart?: () => void;
 }
 
@@ -71,8 +96,144 @@ function DocCheckbox({ doc, checked, onToggle }: { doc: DocumentItem; checked: b
   );
 }
 
+/* ─── Procedure flow section (공식 절차 기준으로 보면) ─── */
+function ProcedureFlowSection({ flows, agencies }: { flows: ProcedureFlow[]; agencies: string[] }) {
+  // 톤 안전장치: 가능형으로 안내
+  const primary = flows[0];
+  if (!primary || !primary.steps?.length) return null;
+  const agencyText = agencies.length > 0 ? agencies.slice(0, 2).join(' · ') : '공식 기관';
+
+  return (
+    <div>
+      <SectionHeader
+        icon={<svg className="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>}
+        title="📋 공식 절차 기준으로 보면"
+      />
+      <p className="text-xs text-gray-500 mb-3">
+        {agencyText} 안내 절차를 참고하면, 다음 흐름을 검토해볼 수 있습니다. 사건 사정에 따라 달라질 수 있어요.
+      </p>
+      <div className="bg-indigo-50 rounded-xl p-4 space-y-3">
+        <p className="text-sm font-semibold text-indigo-800">{primary.name}</p>
+        <ol className="space-y-2.5">
+          {primary.steps.map((s, i) => (
+            <li key={i} className="flex gap-3">
+              <span className="flex-shrink-0 w-6 h-6 rounded-full bg-indigo-600 text-white text-xs font-bold flex items-center justify-center">
+                {s.step ?? i + 1}
+              </span>
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-medium text-gray-900">{s.title}</p>
+                {s.description && (
+                  <p className="text-xs text-gray-600 mt-0.5 leading-relaxed">{s.description}</p>
+                )}
+                {s.deadline && (
+                  <p className="text-xs text-indigo-700 mt-1">
+                    <span className="font-medium">⏱ </span>{s.deadline}
+                  </p>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </div>
+  );
+}
+
+/* ─── Procedure required documents (📎 지금 챙길 자료) ─── */
+function ProcedureDocsSection({ docs }: { docs: { category: string; items: string[] }[] }) {
+  if (!docs || docs.length === 0) return null;
+  // "필수" 카테고리 우선, 그 외는 "권장"
+  const isPriority = (cat: string) =>
+    /본인|신청|필수|기본|진정|구제신청|이행청구|결정신청|급여 ?신청|반환소송/.test(cat);
+  const priority = docs.filter((d) => isPriority(d.category));
+  const optional = docs.filter((d) => !isPriority(d.category));
+
+  return (
+    <div>
+      <SectionHeader
+        icon={<svg className="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>}
+        title="📎 지금 챙길 자료"
+      />
+      <p className="text-xs text-gray-500 mb-3">상담·신청 전 이런 자료를 미리 정리해두면 도움이 됩니다.</p>
+      <div className="space-y-3">
+        {priority.length > 0 && (
+          <div className="border border-emerald-200 bg-emerald-50 rounded-xl p-4">
+            <p className="text-xs font-semibold text-emerald-700 mb-2">필수 자료</p>
+            {/* 톤 안전장치: '필수' 라는 표현이 단정형으로 비치지 않도록 위 안내 문구로 균형 */}
+            {priority.map((cat, i) => (
+              <div key={i} className={i > 0 ? 'mt-3 pt-3 border-t border-emerald-200' : ''}>
+                <p className="text-xs font-medium text-emerald-800 mb-1.5">{cat.category}</p>
+                <ul className="space-y-1">
+                  {cat.items.map((item, j) => (
+                    <li key={j} className="flex items-start gap-2 text-sm text-gray-800">
+                      <span className="text-emerald-500 mt-0.5">●</span>
+                      <span className="leading-relaxed">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )}
+        {optional.length > 0 && (
+          <div className="border border-gray-200 bg-gray-50 rounded-xl p-4">
+            <p className="text-xs font-semibold text-gray-600 mb-2">있으면 도움이 되는 자료</p>
+            {optional.map((cat, i) => (
+              <div key={i} className={i > 0 ? 'mt-3 pt-3 border-t border-gray-200' : ''}>
+                <p className="text-xs font-medium text-gray-700 mb-1.5">{cat.category}</p>
+                <ul className="space-y-1">
+                  {cat.items.map((item, j) => (
+                    <li key={j} className="flex items-start gap-2 text-sm text-gray-700">
+                      <span className="text-gray-400 mt-0.5">●</span>
+                      <span className="leading-relaxed">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ─── Procedure key deadlines (⏱ 기간·기한) ─── */
+function ProcedureDeadlinesSection({ deadlines, sourceUrls }: { deadlines: { label: string; value: string; source?: string }[]; sourceUrls: string[] }) {
+  if (!deadlines || deadlines.length === 0) return null;
+  return (
+    <div>
+      <SectionHeader
+        icon={<svg className="w-5 h-5 text-rose-600" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
+        title="⏱ 기간·기한"
+      />
+      <p className="text-xs text-gray-500 mb-3">기관 안내 기준의 일반적인 기한입니다. 본인 사건 기한은 별도 확인하는 것이 좋습니다.</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        {deadlines.slice(0, 8).map((d, i) => (
+          <div key={i} className="border-l-4 border-rose-300 bg-rose-50 rounded-r-lg px-3 py-2">
+            <p className="text-xs text-rose-700 font-medium">{d.label}</p>
+            <p className="text-sm text-gray-900 font-semibold mt-0.5">{d.value}</p>
+          </div>
+        ))}
+      </div>
+      {sourceUrls && sourceUrls.length > 0 && (
+        <p className="text-[11px] text-gray-400 mt-3 leading-relaxed">
+          출처: {sourceUrls.slice(0, 3).map((u, i) => (
+            <span key={i}>
+              {i > 0 && ' · '}
+              <a href={u} target="_blank" rel="noopener noreferrer" className="hover:text-gray-600 underline">
+                {u.replace(/^https?:\/\//, '').split('/')[0]}
+              </a>
+            </span>
+          ))}
+        </p>
+      )}
+    </div>
+  );
+}
+
 /* ─── Main Component ─── */
-export default function ChatResultCard({ result, answers, domainName, onRestart }: ChatResultCardProps) {
+export default function ChatResultCard({ result, answers, domainName, procedure, onRestart }: ChatResultCardProps) {
   // Connect diagnosis answers to document checklist
   // Parse user's existing docs/evidence from answers
   const userExistingDocs = new Set<string>();
@@ -276,6 +437,21 @@ export default function ChatResultCard({ result, answers, domainName, onRestart 
               </span>
             </div>
           </div>
+        )}
+
+        {/* ═══ 3.5. 공식 절차 (procedure 데이터) ═══ */}
+        {procedure && procedure.all_flows && procedure.all_flows.length > 0 && (
+          <ProcedureFlowSection flows={procedure.all_flows} agencies={procedure.agency_names} />
+        )}
+
+        {/* ═══ 3.6. 지금 챙길 자료 (procedure 기준) ═══ */}
+        {procedure && procedure.required_documents && procedure.required_documents.length > 0 && (
+          <ProcedureDocsSection docs={procedure.required_documents} />
+        )}
+
+        {/* ═══ 3.7. 기간·기한 (procedure 기준) ═══ */}
+        {procedure && procedure.key_deadlines && procedure.key_deadlines.length > 0 && (
+          <ProcedureDeadlinesSection deadlines={procedure.key_deadlines} sourceUrls={procedure.source_urls} />
         )}
 
         {/* ═══ 4. 주의할 점 ═══ */}

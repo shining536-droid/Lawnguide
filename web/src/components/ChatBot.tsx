@@ -70,6 +70,8 @@ interface ChatBotProps {
     results: ResultsFile;
   }>;
   subtypesData: Record<string, SubtypeData>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  procedureData?: Record<string, any>;
   initialDomain?: string;
 }
 
@@ -702,7 +704,7 @@ function BotAvatar() {
 
 /* ─────────────── ChatBot Component ─────────────── */
 
-export default function ChatBot({ allDomainData, subtypesData, initialDomain }: ChatBotProps) {
+export default function ChatBot({ allDomainData, subtypesData, procedureData, initialDomain }: ChatBotProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
 
@@ -1817,7 +1819,7 @@ export default function ChatBot({ allDomainData, subtypesData, initialDomain }: 
       case 'result':
         return (
           <div key={msg.id} className="w-full">
-            {msg.result && <ChatResultCard result={msg.result} answers={msg.answers ?? {}} domainName={domainMeta?.name ?? ''} onRestart={handleRestart} />}
+            {msg.result && <ChatResultCard result={msg.result} answers={msg.answers ?? {}} domainName={domainMeta?.name ?? ''} procedure={selectedDomain ? procedureData?.[selectedDomain] : undefined} onRestart={handleRestart} />}
           </div>
         );
 
