@@ -1,0 +1,379 @@
+{
+  "generated_at": "2026-04-26T07:20:46.152994",
+  "results_audit": {
+    "fraud": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 9,
+      "findings_count": 2,
+      "findings": [
+        {
+          "type_id": "TYPE_VICTIM_FACE",
+          "field": "actions.caution[2]",
+          "value": "계약서 원본은 반드시 안전하게 보관해야 합니다",
+          "issues": [
+            {
+              "phrase": "반드시 ",
+              "suggest": "가능한 한 "
+            }
+          ]
+        },
+        {
+          "type_id": "TYPE_VICTIM_INVEST",
+          "field": "actions.caution[1]",
+          "value": "수익률을 확정적으로 보장하는 투자는 대부분 불법이거나 사기입니다",
+          "issues": [
+            {
+              "phrase": "사기입니다",
+              "suggest": "사기로 검토될 수 있습니다"
+            }
+          ]
+        }
+      ]
+    },
+    "assault": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 8,
+      "findings_count": 0,
+      "findings": []
+    },
+    "sex-crime": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 7,
+      "findings_count": 0,
+      "findings": []
+    },
+    "digital-sex-crime": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 9,
+      "findings_count": 0,
+      "findings": []
+    },
+    "child-sex-crime": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 8,
+      "findings_count": 1,
+      "findings": [
+        {
+          "type_id": "TYPE_VICTIM_FILMING",
+          "field": "actions.caution[2]",
+          "value": "촬영물 URL은 삭제 전에 반드시 캡처해두세요",
+          "issues": [
+            {
+              "phrase": "반드시 ",
+              "suggest": "가능한 한 "
+            }
+          ]
+        }
+      ]
+    },
+    "prostitution": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 6,
+      "findings_count": 1,
+      "findings": [
+        {
+          "type_id": "TYPE_SUSPECT_ARRANGE",
+          "field": "actions.caution[0]",
+          "value": "알선은 가중처벌 대상이므로 반드시 변호사 조력을 받으세요",
+          "issues": [
+            {
+              "phrase": "반드시 ",
+              "suggest": "가능한 한 "
+            }
+          ]
+        }
+      ]
+    },
+    "drug-crime": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 6,
+      "findings_count": 2,
+      "findings": [
+        {
+          "type_id": "TYPE_SUSPECT_DISTRIBUTION",
+          "field": "status_summary",
+          "value": "유통·밀수 혐의는 가중처벌 대상이므로 변호사 선임이 시급합니다. 수사기관의 연락이 있을 경우 진술 전에 반드시 변호인과 상의하세요.",
+          "issues": [
+            {
+              "phrase": "반드시 ",
+              "suggest": "가능한 한 "
+            }
+          ]
+        },
+        {
+          "type_id": "TYPE_SUSPECT_DISTRIBUTION",
+          "field": "safety_warning",
+          "value": "유통·밀수 혐의는 형량이 높을 수 있으므로, 변호사 선임을 가장 먼저 검토해보세요. 수사기관의 연락이 있을 경우 진술 전에 반드시 변호인과 상의하세요.",
+          "issues": [
+            {
+              "phrase": "반드시 ",
+              "suggest": "가능한 한 "
+            }
+          ]
+        }
+      ]
+    },
+    "dui": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 4,
+      "findings_count": 0,
+      "findings": []
+    },
+    "defamation": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 9,
+      "findings_count": 0,
+      "findings": []
+    },
+    "school-violence": {
+      "status": "OK",
+      "review_status": "DRAFT - NOT REVIEWED",
+      "results_count": 10,
+      "findings_count": 3,
+      "findings": [
+        {
+          "type_id": "TYPE_VICTIM_URGENT",
+          "field": "actions.caution[2]",
+          "value": "사이버폭력 증거는 삭제 전에 반드시 캡처해보세요",
+          "issues": [
+            {
+              "phrase": "반드시 ",
+              "suggest": "가능한 한 "
+            }
+          ]
+        },
+        {
+          "type_id": "TYPE_VICTIM_VERBAL",
+          "field": "actions.caution[1]",
+          "value": "증거가 삭제되기 전에 반드시 캡처하세요",
+          "issues": [
+            {
+              "phrase": "반드시 ",
+              "suggest": "가능한 한 "
+            }
+          ]
+        },
+        {
+          "type_id": "TYPE_VICTIM_CYBER",
+          "field": "actions.caution[0]",
+          "value": "게시물이 삭제되기 전에 반드시 캡처하세요",
+          "issues": [
+            {
+              "phrase": "반드시 ",
+              "suggest": "가능한 한 "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "spoke_audit": {
+    "total_spoke_files": 217,
+    "files_with_issues": 214,
+    "pattern_counts": {
+      "반드시\\s*": 1368,
+      "인정됩니다": 397,
+      "에\\s*해당합니다": 315,
+      "성립합니다": 115,
+      "무조건\\s*": 90,
+      "처벌됩니다": 84,
+      "위법합니다": 21,
+      "부당해고입니다": 16,
+      "사기입니다": 11,
+      "처벌받습니다": 6,
+      "성립됩니다": 4,
+      "형사범죄입니다": 2
+    },
+    "samples_per_pattern": {
+      "처벌됩니다": [
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "0만원 이하 벌금</strong>입니다. 중상해는 가중처벌됩니다.',       },       {         q"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\child-sex-crime.ts",
+          "context": "상 등은 공개가 금지</strong>됩니다. 위반 시 처벌됩니다.',       },       {         q"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\defamation.ts",
+          "context": "법 제70조</strong>가 적용되며, 형법보다 가중처벌됩니다. 허위사실의 경우 7년 이하 징역 또는 5,000만원"
+        }
+      ],
+      "성립합니다": [
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "lor:#1e3a5f\">쌍방폭행은 양쪽 모두 폭행죄가 성립합니다</strong></p>\\n<p>쌍방폭행이란 <stro"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "3a5f\">상대방의 신체에 유형력을 행사하면 폭행죄가 성립합니다</strong></p>\\n<p><strong>형법 제"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "대한 유형력 행사</strong>에 해당하여 폭행죄가 성립합니다. 접촉 없이 물건을 던진 경우도 폭행에 해당할 수 있"
+        }
+      ],
+      "인정됩니다": [
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "가족)의 법익 방어</strong>를 위한 정당방위도 인정됩니다.',       },       {         q"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": " 내</strong>라면 상대가 다쳤더라도 정당방위가 인정됩니다.',       },       {         q"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": " 쪽의 <strong>책임이 더 크게</strong> 인정됩니다. 다만 \"먼저 맞았으니까 때려도 된다\"는 것은 아닙니"
+        }
+      ],
+      "반드시\\s*": [
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "   title: '민사 손해배상과 합의 — 합의서에 반드시 넣어야 할 3가지 조항',         content"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "<p>가해자가 합의를 제안하면 합의서에 <strong>반드시 포함할 3가지 조항</strong>: ①\"합의금 ○○만"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "or:#1e3a5f\">처벌불원서와 합의금 지급 내역을 반드시 포함하세요</strong></p>\\n<p>합의서에는 ①"
+        }
+      ],
+      "에\\s*해당합니다": [
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": " 공격이 이미 끝난 후의 반격은 정당방위가 아니라 보복에 해당합니다. 이 구분이 매우 중요합니다.</p>\\n<blockq"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\assault.ts",
+          "context": "하 징역 또는 1,500만원 이하 벌금</strong>에 해당합니다. CCTV에 폭행 장면이 없거나, 목격자가 \"폭행은 "
+        },
+        {
+          "file": "web\\src\\data\\spoke\\bankruptcy.ts",
+          "context": "사치로 인한 채무</strong> 등이 면책불허가 사유에 해당합니다. 다만 법원은 재량면책 제도를 통해 사유가 경미한 경"
+        }
+      ],
+      "무조건\\s*": [
+        {
+          "file": "web\\src\\data\\spoke\\bankruptcy.ts",
+          "context": "    question: '면책불허가 사유에 해당하면 무조건 안 되나요?',         answer:      "
+        },
+        {
+          "file": "web\\src\\data\\spoke\\defamation.ts",
+          "context": "{         question: '공인을 비판하면 무조건 명예훼손인가요?',         answer:    "
+        },
+        {
+          "file": "web\\src\\data\\spoke\\divorce.ts",
+          "context": " {         question: '소장을 받으면 무조건 이혼해야 하나요?',         answer: '아"
+        }
+      ],
+      "부당해고입니다": [
+        {
+          "file": "web\\src\\data\\spoke\\dismissal.ts",
+          "context": "trong> 통지해야 합니다. 구두 해고는 그 자체로 부당해고입니다.</p>\\n<p>사업주가 서면 통지를 거부하면, 해고"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch25-15to21.ts",
+          "context": "니다. 성별, 나이, 출신 등 차별적 사유에 해당하면 부당해고입니다</li>\\n<li><strong>4. 수습기간 경과 "
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch26-20to24.ts",
+          "context": "복적 업무, 갱신 기대권이 모두 인정되면 갱신 거절은 부당해고입니다. 회사가 의도적으로 2년 직전에 계약을 해지하는 경우"
+        }
+      ],
+      "처벌받습니다": [
+        {
+          "file": "web\\src\\data\\spoke\\divorce.ts",
+          "context": "퇴거, 접근금지)가 내려질 수 있으며, 이를 위반하면 처벌받습니다.',       },       {         q"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch10-part2.ts",
+          "context": " 또는 2,000만 원 이하 벌금</strong>으로 처벌받습니다. 법원 신청 시 그동안 모아둔 증거 자료를 함께 제출"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch22-1to7.ts",
+          "context": "관리자, 현장소장 등)뿐 아니라 사업주(법인)도 함께 처벌받습니다. 법인에게는 벌금형이, 행위자에게는 징역형 또는 벌금"
+        }
+      ],
+      "사기입니다": [
+        {
+          "file": "web\\src\\data\\spoke\\fraud.ts",
+          "context": "trong>의사나 능력</strong> 없이 빌렸다면 사기입니다. 단순 채무불이행과 구분이 필요합니다.',      "
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch25-29to35.ts",
+          "context": "    '의도적으로 다른 물건을 보낸 것이라면 명백한 사기입니다. 택배 개봉 영상을 촬영해두면 결정적 증거가 됩니다."
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch30-dismissal-fraud.ts",
+          "context": "'수익 실현이 구조적으로 불가능한 투자를 권유한 것은 사기입니다. 투자 구조의 허구성을 입증하는 것이 핵심입니다.',"
+        }
+      ],
+      "위법합니다": [
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch16-part1.ts",
+          "context": "재를 이유로 한 임금 삭감, 승진 누락, 직급 강등은 위법합니다</strong></p>\\n<p>복직 후 <strong"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch16-part2.ts",
+          "context": "       '<strong>조사참여자의 비밀 누설은 위법합니다.</strong> 남녀고용평등법에 따라 조사 과정에서"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch20-15to21.ts",
+          "context": "         '직접 대면하지 않은 간접적 성희롱도 위법합니다. 동료 간 성적 소문 유포도 회사의 사용자책임이 인정"
+        }
+      ],
+      "형사범죄입니다": [
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch20-1to7.ts",
+          "context": "         '이중매매는 단순 계약 위반이 아니라 형사범죄입니다. 피해를 당했다면 민사 소송과 함께 배임죄 고소를 병"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch31-retirement-wage.ts",
+          "context": "임금체불은 3년 이하 징역 또는 3천만원 이하 벌금의 형사범죄입니다. 형사고소를 통해 실질적인 압박을 가할 수 있습니다."
+        }
+      ],
+      "성립됩니다": [
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch23-1to7.ts",
+          "context": " 매매 대금 등 계약의 필수 사항을 합의했다면 계약이 성립됩니다. 반면 단순히 예약금 성격으로 지급했고 본계약 조건이"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch23-8to14.ts",
+          "context": "대방이 두려움을 느낄 정도의 해악을 고지하면 협박죄가 성립됩니다</li>\\n<li><strong>주거침입죄(형법 제3"
+        },
+        {
+          "file": "web\\src\\data\\spoke\\spokes-batch38-labor.ts",
+          "context": "> — 조정은 강제력이 약해 사용자가 거부하면 조정 불성립됩니다.</li>\\n</ul>\\n<div style=\"mar"
+        }
+      ]
+    },
+    "replacement_map": {
+      "범죄에\\s*해당합니다": "범죄로 검토될 수 있습니다",
+      "형사범죄입니다": "형사처벌 대상으로 검토될 수 있습니다",
+      "위법합니다": "위법 소지가 있는 상황입니다",
+      "처벌됩니다": "처벌 대상으로 검토될 수 있습니다",
+      "처벌받습니다": "처벌 대상으로 검토될 수 있습니다",
+      "성립합니다": "성립 여지가 있습니다",
+      "성립됩니다": "성립 여지가 있습니다",
+      "인정됩니다": "인정될 수 있습니다",
+      "부당해고입니다": "부당해고로 검토될 수 있습니다",
+      "사기입니다": "사기로 검토될 수 있습니다",
+      "100%\\s*환급": "환급 검토",
+      "반드시\\s*": "가능한 한 ",
+      "무조건\\s*": "원칙적으로 ",
+      "에\\s*해당합니다": "에 해당할 소지가 있습니다"
+    }
+  }
+}
