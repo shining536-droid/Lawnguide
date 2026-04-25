@@ -104,14 +104,21 @@ export default function SpokeProcedureBlock({ procedure }: Props) {
         </div>
       )}
 
-      {/* 3. 준비서류 체크리스트 */}
+      {/* 3. 준비서류 체크리스트 — 길이 절감 위해 접기 */}
       {(priorityDocs.length > 0 || optionalDocs.length > 0) && (
-        <div className="bg-white rounded-lg p-5 border border-indigo-100">
-          <h3 className="text-base font-bold text-emerald-700 mb-1">📋 준비서류 체크리스트</h3>
-          <p className="text-xs text-gray-500 mb-3">
-            상담·신청 전 이런 자료를 미리 정리해두면 도움이 됩니다.
-          </p>
-          <div className="space-y-3">
+        <details className="bg-white rounded-lg border border-indigo-100 group" open>
+          <summary className="cursor-pointer p-5 list-none flex items-center justify-between hover:bg-gray-50 rounded-lg">
+            <div>
+              <h3 className="text-base font-bold text-emerald-700">📋 준비서류 체크리스트</h3>
+              <p className="text-xs text-gray-500 mt-0.5">
+                상담·신청 전 이런 자료를 미리 정리해두면 도움이 됩니다.
+              </p>
+            </div>
+            <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div className="px-5 pb-5 space-y-3">
             {priorityDocs.length > 0 && (
               <div className="border border-emerald-200 bg-emerald-50 rounded-md p-3">
                 <p className="text-xs font-semibold text-emerald-700 mb-2">필수 자료</p>
@@ -149,15 +156,22 @@ export default function SpokeProcedureBlock({ procedure }: Props) {
               </div>
             )}
           </div>
-        </div>
+        </details>
       )}
 
-      {/* 4. 자주 하는 실수 */}
+      {/* 4. 자주 하는 실수 — 접기 (기본 닫힘) */}
       {mistakes.length > 0 && (
-        <div className="bg-white rounded-lg p-5 border border-indigo-100">
-          <h3 className="text-base font-bold text-amber-700 mb-1">⚠️ 자주 하는 실수</h3>
-          <p className="text-xs text-gray-500 mb-3">미리 알아두면 피할 수 있는 실수들입니다.</p>
-          <ul className="space-y-1.5">
+        <details className="bg-white rounded-lg border border-indigo-100 group">
+          <summary className="cursor-pointer p-5 list-none flex items-center justify-between hover:bg-gray-50 rounded-lg">
+            <div>
+              <h3 className="text-base font-bold text-amber-700">⚠️ 자주 하는 실수</h3>
+              <p className="text-xs text-gray-500 mt-0.5">미리 알아두면 피할 수 있는 실수들입니다.</p>
+            </div>
+            <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <ul className="px-5 pb-5 space-y-1.5">
             {mistakes.map((m, i) => (
               <li key={i} className="flex items-start gap-2 text-sm text-gray-800">
                 <span className="text-amber-500 mt-0.5">●</span>
@@ -165,16 +179,22 @@ export default function SpokeProcedureBlock({ procedure }: Props) {
               </li>
             ))}
           </ul>
-        </div>
+        </details>
       )}
 
-      {/* 5. 무료기관 / 신청 경로 */}
+      {/* 5. 무료기관 / 신청 경로 — 접기 (기본 닫힘) */}
       {(procedure.agency_names.length > 0 || procedure.source_urls.length > 0) && (
-        <div className="bg-white rounded-lg p-5 border border-indigo-100">
-          <h3 className="text-base font-bold text-blue-700 mb-1">🏛️ 무료기관 · 신청 경로</h3>
-          <p className="text-xs text-gray-500 mb-3">
-            아래 기관에서 절차 안내·상담을 확인하실 수 있습니다.
-          </p>
+        <details className="bg-white rounded-lg border border-indigo-100 group">
+          <summary className="cursor-pointer p-5 list-none flex items-center justify-between hover:bg-gray-50 rounded-lg">
+            <div>
+              <h3 className="text-base font-bold text-blue-700">🏛️ 무료기관 · 신청 경로</h3>
+              <p className="text-xs text-gray-500 mt-0.5">아래 기관에서 절차 안내·상담을 확인하실 수 있습니다.</p>
+            </div>
+            <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div className="px-5 pb-5">
           <ul className="space-y-2">
             {procedure.agency_names.slice(0, 4).map((name, i) => {
               // 같은 인덱스의 source_url 시도
@@ -217,7 +237,8 @@ export default function SpokeProcedureBlock({ procedure }: Props) {
               </div>
             </div>
           )}
-        </div>
+          </div>
+        </details>
       )}
 
       <p className="text-[11px] text-gray-400 leading-relaxed pt-1">
