@@ -3,6 +3,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { isValidDomain, getDomainMeta } from '@/lib/domains';
 import { getSpokePage, getSpokePagesByDomain, SPOKE_PAGES } from '@/data/spoke-pages';
+import { loadProcedureForDomain } from '@/lib/procedure-data';
+import SpokeProcedureBlock from '@/components/SpokeProcedureBlock';
 
 interface PageProps {
   params: { domain: string; slug: string };
@@ -252,6 +254,14 @@ export default function GuideSpokePage({ params }: PageProps) {
             </div>
           </section>
         )}
+
+        {/* Procedure block — auto-injected when kb/{domain}/*_procedure.json exists.
+            톤 안전장치: 단정형 금지, "검토해볼 수 있습니다" 톤 유지.
+            (CLAUDE.md "기관 절차 데이터 연동 규칙" + "결과화면 톤" 참조) */}
+        {(() => {
+          const procedure = loadProcedureForDomain(params.domain);
+          return procedure ? <SpokeProcedureBlock procedure={procedure} /> : null;
+        })()}
 
         {/* FAQ - first 2 open by default */}
         <section className="bg-white rounded-xl p-6 shadow-sm">

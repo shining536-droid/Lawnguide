@@ -54,9 +54,12 @@ function aggregate(domain, files) {
   const required_documents = [];
   const key_deadlines = [];
   const source_urls = [];
+  const common_mistakes = [];
+  const contacts = {};
   const seenDocCats = new Set();
   const seenDeadlines = new Set();
   const seenUrls = new Set();
+  const seenMistakes = new Set();
 
   for (const src of sources) {
     if (src.source) agency_names.push(src.source);
@@ -116,6 +119,20 @@ function aggregate(domain, files) {
         source_urls.push(u);
       }
     }
+    if (Array.isArray(src.common_mistakes)) {
+      for (const m of src.common_mistakes) {
+        if (!m || seenMistakes.has(m)) continue;
+        seenMistakes.add(m);
+        common_mistakes.push(m);
+      }
+    }
+    // contact / contacts
+    const contactObj = src.contact || src.contacts;
+    if (contactObj && typeof contactObj === 'object') {
+      for (const [k, v] of Object.entries(contactObj)) {
+        if (!contacts[k]) contacts[k] = v;
+      }
+    }
   }
 
   return {
@@ -126,6 +143,8 @@ function aggregate(domain, files) {
     required_documents,
     key_deadlines,
     source_urls,
+    common_mistakes,
+    contacts,
   };
 }
 
@@ -178,6 +197,8 @@ export interface DomainProcedure {
   required_documents: RequiredDocCategory[];
   key_deadlines: KeyDeadline[];
   source_urls: string[];
+  common_mistakes: string[];
+  contacts: Record<string, string>;
 }
 
 `;
@@ -188,7 +209,7 @@ export interface DomainProcedure {
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, out, 'utf-8');
 
-  const counts = Object.entries(result).map(([d, v]) => `  - ${d}: ${v.all_flows.length} flows / ${v.required_documents.length} doc-cats / ${v.key_deadlines.length} deadlines`);
+  const counts = Object.entries(result).map(([d, v]) => `  - ${d}: ${v.all_flows.length} flows / ${v.required_documents.length} doc-cats / ${v.key_deadlines.length} deadlines / ${v.common_mistakes.length} mistakes`);
   console.log(`✅ Wrote ${OUT}`);
   console.log(`   ${Object.keys(result).length} domains:`);
   console.log(counts.join('\n'));

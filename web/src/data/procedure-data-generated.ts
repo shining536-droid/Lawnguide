@@ -40,6 +40,8 @@ export interface DomainProcedure {
   required_documents: RequiredDocCategory[];
   key_deadlines: KeyDeadline[];
   source_urls: string[];
+  common_mistakes: string[];
+  contacts: Record<string, string>;
 }
 
 export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
@@ -487,7 +489,29 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.klac.or.kr/legalinfo/legalFrm.do",
       "https://resu.klac.or.kr/",
       "https://resu.klac.or.kr/main.jsp"
-    ]
+    ],
+    "common_mistakes": [
+      "임차권등기명령 없이 이사 → 대항력·우선변제권 상실",
+      "내용증명 없이 구두로만 해지 통보 → 거절 입증 어려움",
+      "2년 청구기한 도과 → 보증이행 거절",
+      "주소변경 후 등본 미갱신 → 서류 보완 요청으로 지연",
+      "확정일자 없이 피해자 결정 신청 → 요건 미충족",
+      "30일 이의신청 시한 도과 → 결정 확정",
+      "분쟁조정 신청 = 강제 합의 오해 → 양측 수락해야 효력",
+      "다수 임차인 요건 입증 자료 누락 → 결정 불가",
+      "법률지원·금융지원 동시 신청 가능한데 한쪽만 신청 → 손해",
+      "임차권등기 안 하고 이사 → 대항력 상실, 후순위 채권자에 밀림",
+      "지급명령에 이의신청 가능성 놓치고 단순 가압류만 → 시간·비용 증가",
+      "공단 지정변호사 무료 지원 자격 미확인 → 일반 변호사 비용 발생",
+      "재산 다투는 사건을 지급명령으로 신청 → 자동 본안소송 전환되면서 시간 낭비",
+      "내용증명 없이 바로 소송 → 시효 중단 효과 놓칠 수 있음"
+    ],
+    "contacts": {
+      "phone": "1566-9009",
+      "online": "https://onestop.khug.or.kr",
+      "대표전화": "132 (국번없이)",
+      "사이버상담": "klac.or.kr"
+    }
   },
   "jeonse-fraud": {
     "domain": "jeonse-fraud",
@@ -933,7 +957,29 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.klac.or.kr/legalinfo/legalFrm.do",
       "https://resu.klac.or.kr/",
       "https://resu.klac.or.kr/main.jsp"
-    ]
+    ],
+    "common_mistakes": [
+      "임차권등기명령 없이 이사 → 대항력·우선변제권 상실",
+      "내용증명 없이 구두로만 해지 통보 → 거절 입증 어려움",
+      "2년 청구기한 도과 → 보증이행 거절",
+      "주소변경 후 등본 미갱신 → 서류 보완 요청으로 지연",
+      "확정일자 없이 피해자 결정 신청 → 요건 미충족",
+      "30일 이의신청 시한 도과 → 결정 확정",
+      "분쟁조정 신청 = 강제 합의 오해 → 양측 수락해야 효력",
+      "다수 임차인 요건 입증 자료 누락 → 결정 불가",
+      "법률지원·금융지원 동시 신청 가능한데 한쪽만 신청 → 손해",
+      "임차권등기 안 하고 이사 → 대항력 상실, 후순위 채권자에 밀림",
+      "지급명령에 이의신청 가능성 놓치고 단순 가압류만 → 시간·비용 증가",
+      "공단 지정변호사 무료 지원 자격 미확인 → 일반 변호사 비용 발생",
+      "재산 다투는 사건을 지급명령으로 신청 → 자동 본안소송 전환되면서 시간 낭비",
+      "내용증명 없이 바로 소송 → 시효 중단 효과 놓칠 수 있음"
+    ],
+    "contacts": {
+      "phone": "1566-9009",
+      "online": "https://onestop.khug.or.kr",
+      "대표전화": "132 (국번없이)",
+      "사이버상담": "klac.or.kr"
+    }
   },
   "child-support": {
     "domain": "child-support",
@@ -1233,7 +1279,19 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://help.scourt.go.kr/nm/min_3/min_3_2/min_3_2_1/index.html",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=2&cnpClsNo=1"
-    ]
+    ],
+    "common_mistakes": [
+      "공정증서 없이 합의만 하고 미이행 시 강제집행 불가",
+      "이행명령 신청 전에 감치 시도 → 단계 누락으로 기각",
+      "비양육친 주소 모른다고 포기 → 양육비이행관리원 통해 주소조회 가능",
+      "재산조회 없이 압류 시도 → 압류 대상 특정 안 됨",
+      "확인서 받고 3개월 내 신고 안 하면 협의이혼 무효 — 다시 신청 필요",
+      "양육·친권 협의서 없이 신청 → 이혼 자체 성립 불가",
+      "재산분할 청구 시효(이혼 후 2년) 도과 → 청구 불가",
+      "조정전치주의 모르고 본소부터 → 조정 회부로 시간 지연",
+      "외도 증거를 위법 수집(불법녹음·해킹) → 증거능력 배척"
+    ],
+    "contacts": {}
   },
   "fraud": {
     "domain": "fraud",
@@ -1566,7 +1624,31 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.kca.go.kr/odr/pg/ma/pgProcssInfo2.do",
       "https://www.kca.go.kr/odr/link/pg/pr/osPgStpSobiGuidW.do",
       "https://www.consumer.go.kr/"
-    ]
+    ],
+    "common_mistakes": [
+      "송금 직후 지급정지 안 하고 경찰서부터 가서 환급 기회 놓침",
+      "스미싱 결제내역 확인 없이 통신사부터 방문 → 확인원 없으니 처리 거절",
+      "민사 분쟁(환불·배송)을 사이버범죄로 신고 → 비접수 처리",
+      "대리인이 ECRM 직접 신고 시도 → 본인만 가능",
+      "송금 후 경찰서부터 가서 지급정지 시간 놓침 → 잔액 사라짐",
+      "민사소송 vs 분쟁조정 동시 진행 → 분쟁조정 중에는 소제기 제한",
+      "코인 송금·해외송금 후 분쟁조정 시도 → 적용 대상 아님",
+      "2개월 채권소멸 공고 모르고 환급 즉시 기대 → 통상 1.5~2개월 소요",
+      "위임장 없이 가족이 대리신청 → 반려",
+      "사전 상담 없이 바로 피해구제 신청 → 반려 가능",
+      "사업자 인적사항 모름 → 사실조사 지연",
+      "온라인쇼핑은 청약철회권(전자상거래법 7일) 별도 활용 가능한데 모름",
+      "조정안 수락 15일 시한 도과 → 거부로 간주"
+    ],
+    "contacts": {
+      "사이버범죄 민원": "182 (유료)",
+      "보이스피싱 통합신고": "112",
+      "해킹/스팸/개인정보침해": "118 (KISA)",
+      "법률상담": "132 (대한법률구조공단)",
+      "금융감독원 콜센터": "1332 (국번없이)",
+      "한국소비자원 상담": "1372 (국번없이)",
+      "소비자24": "consumer.go.kr"
+    }
   },
   "stalking": {
     "domain": "stalking",
@@ -1716,7 +1798,19 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://ecrm.police.go.kr/minwon/crs/quick/process",
       "https://ecrm.police.go.kr/minwon/crs/quick/vichelp",
       "https://www.boho.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133"
-    ]
+    ],
+    "common_mistakes": [
+      "송금 직후 지급정지 안 하고 경찰서부터 가서 환급 기회 놓침",
+      "스미싱 결제내역 확인 없이 통신사부터 방문 → 확인원 없으니 처리 거절",
+      "민사 분쟁(환불·배송)을 사이버범죄로 신고 → 비접수 처리",
+      "대리인이 ECRM 직접 신고 시도 → 본인만 가능"
+    ],
+    "contacts": {
+      "사이버범죄 민원": "182 (유료)",
+      "보이스피싱 통합신고": "112",
+      "해킹/스팸/개인정보침해": "118 (KISA)",
+      "법률상담": "132 (대한법률구조공단)"
+    }
   },
   "digital-sex-crime": {
     "domain": "digital-sex-crime",
@@ -1956,7 +2050,25 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.kopico.go.kr/intro/disputeMediatIntro.do",
       "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=47",
       "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=48"
-    ]
+    ],
+    "common_mistakes": [
+      "송금 직후 지급정지 안 하고 경찰서부터 가서 환급 기회 놓침",
+      "스미싱 결제내역 확인 없이 통신사부터 방문 → 확인원 없으니 처리 거절",
+      "민사 분쟁(환불·배송)을 사이버범죄로 신고 → 비접수 처리",
+      "대리인이 ECRM 직접 신고 시도 → 본인만 가능",
+      "유출·침해 인지 후 시간 끌면 증거 소실 → 캡처·녹취 즉시",
+      "분쟁조정 결과를 일방적 강제 효력으로 오해 → 양측 수락 필요",
+      "다수 피해자 사건에서 개별 신청만 → 집단분쟁조정으로 효율화 가능",
+      "사업자 폐업·연락두절 시 분쟁조정 한계 → 형사고소·집단소송 병행"
+    ],
+    "contacts": {
+      "사이버범죄 민원": "182 (유료)",
+      "보이스피싱 통합신고": "112",
+      "해킹/스팸/개인정보침해": "118 (KISA)",
+      "법률상담": "132 (대한법률구조공단)",
+      "개인정보보호위원회 콜센터": "1833-6972",
+      "개인정보 침해신고": "118 (국번없이)"
+    }
   },
   "wage": {
     "domain": "wage",
@@ -2224,7 +2336,18 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://labor.moel.go.kr/minwonApply/minwonFormat.do?searchVal=AD027",
       "https://www.moel.go.kr/faq/faqView.do?seqRepeat=58",
       "https://www.moel.go.kr/faq/faqView.do?seqRepeat=118"
-    ]
+    ],
+    "common_mistakes": [
+      "퇴직 후 3년 도과 시 임금채권 소멸 → 시효 임박 시 즉시 진정",
+      "구두 합의로 분할납부 → 미지급 시 추가 진정 필요. 반드시 서면",
+      "진정 후 협상으로 합의 시 고소 미취하 → 형사 절차 자동 진행",
+      "해고예고수당과 부당해고 구제(노동위)를 혼동 → 별개 절차, 병행 가능",
+      "간이/도산대지급금 신청 전 체불확인서 미발급 → 신청 자체 불가"
+    ],
+    "contacts": {
+      "고용노동부 고객상담센터": "1350 (국번없이)",
+      "근로복지공단": "1588-0075"
+    }
   },
   "dismissal": {
     "domain": "dismissal",
@@ -2617,7 +2740,25 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://labor.moel.go.kr/minwonApply/minwonFormat.do?searchVal=AD027",
       "https://www.moel.go.kr/faq/faqView.do?seqRepeat=58",
       "https://www.moel.go.kr/faq/faqView.do?seqRepeat=118"
-    ]
+    ],
+    "common_mistakes": [
+      "3개월 시한 도과 → 구제신청 자체 각하",
+      "5인 미만 사업장 구제신청 → 노동위 관할 아님 (민사 소송으로)",
+      "사직서 자필 작성 후 부당해고 다툼 → '권고사직' 입증 책임 본인",
+      "재심 신청 10일·행정소송 15일 시한 혼동",
+      "원직복직 명령 후 출근 거부 → 이행 의무 면제 사유 없으면 임금 청구 위험",
+      "퇴직 후 3년 도과 시 임금채권 소멸 → 시효 임박 시 즉시 진정",
+      "구두 합의로 분할납부 → 미지급 시 추가 진정 필요. 반드시 서면",
+      "진정 후 협상으로 합의 시 고소 미취하 → 형사 절차 자동 진행",
+      "해고예고수당과 부당해고 구제(노동위)를 혼동 → 별개 절차, 병행 가능",
+      "간이/도산대지급금 신청 전 체불확인서 미발급 → 신청 자체 불가"
+    ],
+    "contacts": {
+      "중앙노동위원회": "044-202-8222",
+      "지방노동위 종합민원": "1644-2010",
+      "고용노동부 고객상담센터": "1350 (국번없이)",
+      "근로복지공단": "1588-0075"
+    }
   },
   "retirement": {
     "domain": "retirement",
@@ -2885,7 +3026,18 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://labor.moel.go.kr/minwonApply/minwonFormat.do?searchVal=AD027",
       "https://www.moel.go.kr/faq/faqView.do?seqRepeat=58",
       "https://www.moel.go.kr/faq/faqView.do?seqRepeat=118"
-    ]
+    ],
+    "common_mistakes": [
+      "퇴직 후 3년 도과 시 임금채권 소멸 → 시효 임박 시 즉시 진정",
+      "구두 합의로 분할납부 → 미지급 시 추가 진정 필요. 반드시 서면",
+      "진정 후 협상으로 합의 시 고소 미취하 → 형사 절차 자동 진행",
+      "해고예고수당과 부당해고 구제(노동위)를 혼동 → 별개 절차, 병행 가능",
+      "간이/도산대지급금 신청 전 체불확인서 미발급 → 신청 자체 불가"
+    ],
+    "contacts": {
+      "고용노동부 고객상담센터": "1350 (국번없이)",
+      "근로복지공단": "1588-0075"
+    }
   },
   "industrial-accident": {
     "domain": "industrial-accident",
@@ -3090,7 +3242,18 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.comwel.or.kr/comwel/comp/recu/appl01.jsp",
       "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A05007&CappBizCD=14900000261",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575"
-    ]
+    ],
+    "common_mistakes": [
+      "사업주 동의 없으면 산재 신청 불가하다고 오해 → 근로자 단독 신청 가능",
+      "공상처리(회사 자체 처리) 합의 후 산재 신청 권리 포기 → 별도 권리, 포기 안 됨",
+      "출퇴근 사고는 산재 아니라고 오해 → 통근재해 인정 (2018.1.1 이후)",
+      "심사청구 90일 시한 도과 → 불복 길 막힘",
+      "업무상 질병 입증 어려움 포기 → 인정기준·역학조사 활용 가능"
+    ],
+    "contacts": {
+      "근로복지공단 대표": "1588-0075",
+      "산재보험 콜센터": "052-704-7900"
+    }
   },
   "rehabilitation": {
     "domain": "rehabilitation",
@@ -3283,7 +3446,18 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.klac.or.kr/legalinfo/legalFrm.do",
       "https://resu.klac.or.kr/",
       "https://resu.klac.or.kr/main.jsp"
-    ]
+    ],
+    "common_mistakes": [
+      "임차권등기 안 하고 이사 → 대항력 상실, 후순위 채권자에 밀림",
+      "지급명령에 이의신청 가능성 놓치고 단순 가압류만 → 시간·비용 증가",
+      "공단 지정변호사 무료 지원 자격 미확인 → 일반 변호사 비용 발생",
+      "재산 다투는 사건을 지급명령으로 신청 → 자동 본안소송 전환되면서 시간 낭비",
+      "내용증명 없이 바로 소송 → 시효 중단 효과 놓칠 수 있음"
+    ],
+    "contacts": {
+      "대표전화": "132 (국번없이)",
+      "사이버상담": "klac.or.kr"
+    }
   },
   "bankruptcy": {
     "domain": "bankruptcy",
@@ -3476,7 +3650,18 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.klac.or.kr/legalinfo/legalFrm.do",
       "https://resu.klac.or.kr/",
       "https://resu.klac.or.kr/main.jsp"
-    ]
+    ],
+    "common_mistakes": [
+      "임차권등기 안 하고 이사 → 대항력 상실, 후순위 채권자에 밀림",
+      "지급명령에 이의신청 가능성 놓치고 단순 가압류만 → 시간·비용 증가",
+      "공단 지정변호사 무료 지원 자격 미확인 → 일반 변호사 비용 발생",
+      "재산 다투는 사건을 지급명령으로 신청 → 자동 본안소송 전환되면서 시간 낭비",
+      "내용증명 없이 바로 소송 → 시효 중단 효과 놓칠 수 있음"
+    ],
+    "contacts": {
+      "대표전화": "132 (국번없이)",
+      "사이버상담": "klac.or.kr"
+    }
   },
   "small-claims": {
     "domain": "small-claims",
@@ -3805,7 +3990,31 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://kcc.go.kr/user.do?page=A09031100&dc=K09031100",
       "https://www.kcdrc.kr/",
       "https://wiseuser.go.kr/application.do?boardtypecode=5396"
-    ]
+    ],
+    "common_mistakes": [
+      "임차권등기 안 하고 이사 → 대항력 상실, 후순위 채권자에 밀림",
+      "지급명령에 이의신청 가능성 놓치고 단순 가압류만 → 시간·비용 증가",
+      "공단 지정변호사 무료 지원 자격 미확인 → 일반 변호사 비용 발생",
+      "재산 다투는 사건을 지급명령으로 신청 → 자동 본안소송 전환되면서 시간 낭비",
+      "내용증명 없이 바로 소송 → 시효 중단 효과 놓칠 수 있음",
+      "사전 상담 없이 바로 피해구제 신청 → 반려 가능",
+      "사업자 인적사항 모름 → 사실조사 지연",
+      "온라인쇼핑은 청약철회권(전자상거래법 7일) 별도 활용 가능한데 모름",
+      "조정안 수락 15일 시한 도과 → 거부로 간주",
+      "통신사 자체민원 없이 바로 분쟁조정 신청 → 반려 가능",
+      "미성년자 결제 환불 시 부모 동의 입증 자료 미흡 → 거부 사유",
+      "게임 환불 시 캐시·아이템 일부 사용 → 부분 환불로 한정",
+      "조정안 15일 시한 도과 → 거부 간주",
+      "본 분쟁조정과 한국소비자원 피해구제는 동시 진행 불가"
+    ],
+    "contacts": {
+      "대표전화": "132 (국번없이)",
+      "사이버상담": "klac.or.kr",
+      "한국소비자원 상담": "1372 (국번없이)",
+      "소비자24": "consumer.go.kr",
+      "통신분쟁조정위원회": "방통위 국번없이 1335",
+      "콘텐츠분쟁조정위원회": "1588-2102"
+    }
   },
   "divorce": {
     "domain": "divorce",
@@ -3968,7 +4177,15 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://help.scourt.go.kr/nm/min_3/min_3_2/min_3_2_1/index.html",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=2&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=233&ccfNo=3&cciNo=2&cnpClsNo=1"
-    ]
+    ],
+    "common_mistakes": [
+      "확인서 받고 3개월 내 신고 안 하면 협의이혼 무효 — 다시 신청 필요",
+      "양육·친권 협의서 없이 신청 → 이혼 자체 성립 불가",
+      "재산분할 청구 시효(이혼 후 2년) 도과 → 청구 불가",
+      "조정전치주의 모르고 본소부터 → 조정 회부로 시간 지연",
+      "외도 증거를 위법 수집(불법녹음·해킹) → 증거능력 배척"
+    ],
+    "contacts": {}
   },
   "defamation": {
     "domain": "defamation",
@@ -4104,7 +4321,17 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.kopico.go.kr/intro/disputeMediatIntro.do",
       "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=47",
       "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=48"
-    ]
+    ],
+    "common_mistakes": [
+      "유출·침해 인지 후 시간 끌면 증거 소실 → 캡처·녹취 즉시",
+      "분쟁조정 결과를 일방적 강제 효력으로 오해 → 양측 수락 필요",
+      "다수 피해자 사건에서 개별 신청만 → 집단분쟁조정으로 효율화 가능",
+      "사업자 폐업·연락두절 시 분쟁조정 한계 → 형사고소·집단소송 병행"
+    ],
+    "contacts": {
+      "개인정보보호위원회 콜센터": "1833-6972",
+      "개인정보 침해신고": "118 (국번없이)"
+    }
   },
   "school-violence": {
     "domain": "school-violence",
@@ -4241,7 +4468,18 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=316&boardSeq=102619",
       "https://www.goe.go.kr/resource/old/BBSMSTR_000000030138/BBS_202502140257008950.pdf",
       "https://clik.nanet.go.kr/clikr-collection/policyinfo/202/1010/2023/CLIKC8765283570692271_attach_1.pdf"
-    ]
+    ],
+    "common_mistakes": [
+      "학교 자체해결 동의 후 진단서 발급 → 자체해결 효력 분쟁",
+      "117·학교 신고만 하고 증거 미보존 → 심의 단계에서 입증 어려움",
+      "재심 90일 시한 도과 → 처분 확정",
+      "사이버 학폭 캡처 휘발성 인식 부족 → 즉시 갈무리 + 메타데이터 보존",
+      "보복금지 조치(2호) 위반 시 가중처벌 가능한데 가해 측 인지 부족"
+    ],
+    "contacts": {
+      "117 학교폭력 신고센터": "117 (국번없이)",
+      "학교전담경찰관(SPO)": "학교 또는 관할 경찰서"
+    }
   },
   "neighbor-dispute": {
     "domain": "neighbor-dispute",
@@ -4357,6 +4595,17 @@ export const PROCEDURE_DATA: Record<string, DomainProcedure> = {
       "https://floor.noiseinfo.or.kr/",
       "https://edc.seoul.go.kr/",
       "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1409"
-    ]
+    ],
+    "common_mistakes": [
+      "단지 내 자체조정 시도 없이 바로 환경분쟁조정 → 절차 무효 가능",
+      "환경부 기준치 미충족 측정값 → 인과관계 입증 어려움",
+      "재정 60일 이의 시한 도과 → 확정판결 효력",
+      "이웃 직접 항의로 갈등 격화 → 관리사무소·1661-2642 거쳐 단계적 대응 권장",
+      "위법 측정·녹음 → 증거능력 배척"
+    ],
+    "contacts": {
+      "층간소음이웃사이센터": "1661-2642",
+      "중앙환경분쟁조정위원회": "044-201-7969"
+    }
   }
 };
