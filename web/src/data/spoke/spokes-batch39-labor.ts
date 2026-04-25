@@ -23,12 +23,12 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         title: '임신 중 구직활동 — 완화·면제 기준',
         content:
-          '<p><strong style="color:#1e3a5f">임신 중이라도 원칙적으로 구직활동 의무가 있지만, 의학적 소견으로 활동이 곤란한 경우 완화·면제가 가능합니다.</strong></p>\n<ul>\n<li><strong>일반 구직활동</strong> — 임신 초·중기는 일반 구직활동을 계속 수행합니다.</li>\n<li><strong>위험 임신 증빙</strong> — 조기 진통·위험 임신으로 진단받으면 진단서를 제출해 구직활동 면제가 인정됩니다.</li>\n<li><strong>수급기간 연장</strong> — 구직활동이 근본적으로 어려우면 "수급기간 연장 신청"으로 최대 4년까지 연장할 수 있습니다.</li>\n<li><strong>법적 근거</strong> — 고용보험법 시행령 제66조가 임신·출산을 연장 사유로 규정합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 무리하게 구직활동 하지 말고, 의학적 판단에 따라 연장·면제 제도를 활용하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임신 중이라도 원칙적으로 구직활동 의무가 있지만, 의학적 소견으로 활동이 곤란한 경우 완화·면제가 가능합니다.</strong></p>\n<ul>\n<li><strong>일반 구직활동</strong> — 임신 초·중기는 일반 구직활동을 계속 수행합니다.</li>\n<li><strong>위험 임신 증빙</strong> — 조기 진통·위험 임신으로 진단받으면 진단서를 제출해 구직활동 면제가 인정될 수 있습니다.</li>\n<li><strong>수급기간 연장</strong> — 구직활동이 근본적으로 어려우면 "수급기간 연장 신청"으로 최대 4년까지 연장할 수 있습니다.</li>\n<li><strong>법적 근거</strong> — 고용보험법 시행령 제66조가 임신·출산을 연장 사유로 규정합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 무리하게 구직활동 하지 말고, 의학적 판단에 따라 연장·면제 제도를 활용하세요.</blockquote>',
       },
       {
         title: '출산 전후 — 산전후휴가급여와 구직급여 충돌 방지',
         content:
-          '<p><strong style="color:#1e3a5f">출산전후휴가급여·육아휴직급여와 실업급여는 동시 수령이 불가능하므로 우선순위를 정해야 합니다.</strong></p>\n<ul>\n<li><strong>출산전후휴가급여 우선</strong> — 재직 중 가입자라면 90일 출산휴가 + 급여 수령이 가능.</li>\n<li><strong>실업급여는 휴가 종료 후</strong> — 출산휴가 종료·이직 이후 실업급여 신청이 가능합니다.</li>\n<li><strong>이중 수령 금지</strong> — 동일 기간 중복 수령은 부정수급에 해당합니다.</li>\n<li><strong>구직급여 연장</strong> — 출산 후 구직활동이 어렵다면 연장 신청으로 기간을 확보하세요.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 임신·출산 시점의 수급 전략을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">출산전후휴가급여·육아휴직급여와 실업급여는 동시 수령이 불가능하므로 우선순위를 정해야 합니다.</strong></p>\n<ul>\n<li><strong>출산전후휴가급여 우선</strong> — 재직 중 가입자라면 90일 출산휴가 + 급여 수령이 가능.</li>\n<li><strong>실업급여는 휴가 종료 후</strong> — 출산휴가 종료·이직 이후 실업급여 신청이 가능합니다.</li>\n<li><strong>이중 수령 금지</strong> — 동일 기간 중복 수령은 부정수급에 해당할 소지가 있습니다.</li>\n<li><strong>구직급여 연장</strong> — 출산 후 구직활동이 어렵다면 연장 신청으로 기간을 확보하세요.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 임신·출산 시점의 수급 전략을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '수급기간 연장 신청 — 구체적 절차',
@@ -110,7 +110,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         title: '장애인 소정급여일수 특례 — 30일 추가',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 제50조 별표는 장애인이 일반 수급자보다 30일 더 받을 수 있도록 소정급여일수를 우대합니다.</strong></p>\n<ul>\n<li><strong>기본 구조</strong> — 피보험기간별 120~270일에 장애인은 동일 구간 기본 30일 추가.</li>\n<li><strong>장애인 증빙</strong> — 복지카드·장애인증명서 발급 후 수급자격 신청 시 제출.</li>\n<li><strong>중증 장애인</strong> — 중증 장애인은 개별연장급여·특별연장급여 추가 검토 대상.</li>\n<li><strong>증빙 시점</strong> — 이직 전 등록된 장애 정보가 우선 반영되므로 사전 등록 확인 필수.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 장애 등록 증빙을 신청 시 빠뜨리면 연장일수가 반영되지 않으므로 반드시 함께 제출하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 제50조 별표는 장애인이 일반 수급자보다 30일 더 받을 수 있도록 소정급여일수를 우대합니다.</strong></p>\n<ul>\n<li><strong>기본 구조</strong> — 피보험기간별 120~270일에 장애인은 동일 구간 기본 30일 추가.</li>\n<li><strong>장애인 증빙</strong> — 복지카드·장애인증명서 발급 후 수급자격 신청 시 제출.</li>\n<li><strong>중증 장애인</strong> — 중증 장애인은 개별연장급여·특별연장급여 추가 검토 대상.</li>\n<li><strong>증빙 시점</strong> — 이직 전 등록된 장애 정보가 우선 반영되므로 사전 등록 확인 필수.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 장애 등록 증빙을 신청 시 빠뜨리면 연장일수가 반영되지 않으므로 가능한 한 함께 제출하세요.</blockquote>',
       },
       {
         title: '개별연장급여 — 소정급여일수 소진 후 추가',
@@ -202,7 +202,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         title: '계약 종료 사유 — 비자발 vs 자발',
         content:
-          '<p><strong style="color:#1e3a5f">계절근로 종료가 "계약기간 만료"로 기재되면 비자발 사유로 인정됩니다.</strong></p>\n<ul>\n<li><strong>계약기간 만료</strong> — 시즌 종료·연장 없음은 비자발 사유.</li>\n<li><strong>자진 조기 이탈</strong> — 시즌 중 본인이 그만두면 자진 퇴사로 분류돼 수급 불이익.</li>\n<li><strong>사업주 경영악화</strong> — 폐업·휴업 등도 비자발 사유.</li>\n<li><strong>이직확인서 기재</strong> — 정확한 사유 코드 기재를 사업주에게 요청.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 계절근로 종료 사유의 수급 유불리를 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">계절근로 종료가 "계약기간 만료"로 기재되면 비자발 사유로 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>계약기간 만료</strong> — 시즌 종료·연장 없음은 비자발 사유.</li>\n<li><strong>자진 조기 이탈</strong> — 시즌 중 본인이 그만두면 자진 퇴사로 분류돼 수급 불이익.</li>\n<li><strong>사업주 경영악화</strong> — 폐업·휴업 등도 비자발 사유.</li>\n<li><strong>이직확인서 기재</strong> — 정확한 사유 코드 기재를 사업주에게 요청.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 계절근로 종료 사유의 수급 유불리를 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '일용근로자 특례 — 14일 요건·근로일수',
@@ -284,7 +284,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         title: '실업의 정의 — 전면 실직이 원칙',
         content:
-          '<p><strong style="color:#1e3a5f">실업급여는 원칙적으로 근로관계가 완전히 종료된 상태(전면 실직)에서 수급 가능합니다.</strong></p>\n<ul>\n<li><strong>완전 실직 원칙</strong> — 일부 직장만 종료되고 다른 곳에서 일하는 중이면 수급 제한.</li>\n<li><strong>주된 직장 판단</strong> — 가장 소득·근로시간 많은 직장이 주된 직장으로 봄.</li>\n<li><strong>주 직장 종료 + 부업 유지</strong> — 주 직장 종료가 주된 사유라면 검토 여지가 있으나 제한적.</li>\n<li><strong>부업 소득 신고</strong> — 수급 중 부업 소득이 있으면 소득 신고 의무 발생.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 두 곳 모두에서 근로가 종료되어야 원칙적으로 수급 자격이 성립합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">실업급여는 원칙적으로 근로관계가 완전히 종료된 상태(전면 실직)에서 수급 가능합니다.</strong></p>\n<ul>\n<li><strong>완전 실직 원칙</strong> — 일부 직장만 종료되고 다른 곳에서 일하는 중이면 수급 제한.</li>\n<li><strong>주된 직장 판단</strong> — 가장 소득·근로시간 많은 직장이 주된 직장으로 봄.</li>\n<li><strong>주 직장 종료 + 부업 유지</strong> — 주 직장 종료가 주된 사유라면 검토 여지가 있으나 제한적.</li>\n<li><strong>부업 소득 신고</strong> — 수급 중 부업 소득이 있으면 소득 신고 의무 발생.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 두 곳 모두에서 근로가 종료되어야 원칙적으로 수급 자격이 성립할 수 있습니다.</blockquote>',
       },
       {
         title: '피보험기간 합산 — 복수 직장 이력 통합',
@@ -320,7 +320,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         question: '부업 소득 신고 안 하면 문제되나요?',
         answer:
-          '<strong>부정수급에 해당합니다.</strong> 소득 발생 즉시 실업인정일에 신고가 원칙입니다.',
+          '<strong>부정수급에 해당할 소지가 있습니다.</strong> 소득 발생 즉시 실업인정일에 신고가 원칙입니다.',
       },
       {
         question: '여러 직장 평균임금 어떻게 계산되나요?',
@@ -330,7 +330,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         question: '주말 알바만 하는데 취업으로 보나요?',
         answer:
-          '<strong>규칙적 주말 근로는 취업 상태로 판단될 수 있습니다.</strong> 실업인정일에 반드시 신고하세요.',
+          '<strong>규칙적 주말 근로는 취업 상태로 판단될 수 있습니다.</strong> 실업인정일에 가능한 한 신고하세요.',
       },
       {
         question: '프리랜서 부업이 있으면 어떻게 되나요?',
@@ -386,7 +386,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         title: '행정소송 — 마지막 단계',
         content:
-          '<p><strong style="color:#1e3a5f">재심사에서도 불복하면 행정소송(취소소송)으로 법원 판단을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>관할</strong> — 행정법원.</li>\n<li><strong>기한</strong> — 재심사 결정 통지일로부터 90일.</li>\n<li><strong>청구 취지</strong> — 수급자격 불인정 처분 취소.</li>\n<li><strong>비용</strong> — 인지대·송달료·대리인 수임료 발생.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 행정소송 전 단계 심사·재심사를 반드시 거쳐야 하며, 소급 수급 가능성을 변호사와 상담하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">재심사에서도 불복하면 행정소송(취소소송)으로 법원 판단을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>관할</strong> — 행정법원.</li>\n<li><strong>기한</strong> — 재심사 결정 통지일로부터 90일.</li>\n<li><strong>청구 취지</strong> — 수급자격 불인정 처분 취소.</li>\n<li><strong>비용</strong> — 인지대·송달료·대리인 수임료 발생.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 행정소송 전 단계 심사·재심사를 가능한 한 거쳐야 하며, 소급 수급 가능성을 변호사와 상담하세요.</blockquote>',
       },
     ],
     cases: [
@@ -473,7 +473,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         title: '실무 대응 — 신청 전 확인 사항',
         content:
-          '<p><strong style="color:#1e3a5f">중간정산 신청 전 반드시 요건·증빙·사후 영향을 점검하세요.</strong></p>\n<ul>\n<li><strong>사유 해당성</strong> — 법정 사유 정확한 매칭 확인.</li>\n<li><strong>퇴직금 계산 영향</strong> — 중간정산 후 근속연수 리셋 여부 확인.</li>\n<li><strong>세금 영향</strong> — 중간정산분 소득세 원천징수·경정청구 검토.</li>\n<li><strong>재정산 청구 가능성</strong> — 요건 미충족 시 추후 재정산 청구 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 회사가 임의로 중간정산을 강요하면 근로자는 거부할 수 있으며, 강요 정황을 기록해두세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">중간정산 신청 전 가능한 한 요건·증빙·사후 영향을 점검하세요.</strong></p>\n<ul>\n<li><strong>사유 해당성</strong> — 법정 사유 정확한 매칭 확인.</li>\n<li><strong>퇴직금 계산 영향</strong> — 중간정산 후 근속연수 리셋 여부 확인.</li>\n<li><strong>세금 영향</strong> — 중간정산분 소득세 원천징수·경정청구 검토.</li>\n<li><strong>재정산 청구 가능성</strong> — 요건 미충족 시 추후 재정산 청구 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 회사가 임의로 중간정산을 강요하면 근로자는 거부할 수 있으며, 강요 정황을 기록해두세요.</blockquote>',
       },
     ],
     cases: [
@@ -647,7 +647,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         title: '실무 체크리스트 — 신청 전 확인',
         content:
-          '<p><strong style="color:#1e3a5f">사업 승계 후 퇴직금 청구 전 반드시 확인해야 할 사항이 있습니다.</strong></p>\n<ul>\n<li><strong>양수도 계약서</strong> — 퇴직금 정산 방식·승계 조건 확인.</li>\n<li><strong>근로계약 승계 여부</strong> — 새 회사 근로계약서의 근속 인정 문구 확인.</li>\n<li><strong>과거 정산 내역</strong> — 양도 시점 정산금·세금 원천징수 이력 확보.</li>\n<li><strong>3년 시효</strong> — 퇴직일부터 3년 내 청구.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 새 회사가 "전 회사 근속은 인정 안 된다"며 거부하면 노동청 진정·민사 청구로 다툴 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업 승계 후 퇴직금 청구 전 가능한 한 확인해야 할 사항이 있습니다.</strong></p>\n<ul>\n<li><strong>양수도 계약서</strong> — 퇴직금 정산 방식·승계 조건 확인.</li>\n<li><strong>근로계약 승계 여부</strong> — 새 회사 근로계약서의 근속 인정 문구 확인.</li>\n<li><strong>과거 정산 내역</strong> — 양도 시점 정산금·세금 원천징수 이력 확보.</li>\n<li><strong>3년 시효</strong> — 퇴직일부터 3년 내 청구.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 새 회사가 "전 회사 근속은 인정 안 된다"며 거부하면 노동청 진정·민사 청구로 다툴 수 있습니다.</blockquote>',
       },
     ],
     cases: [
@@ -1098,7 +1098,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       {
         question: '대표가 "내 마음에 안 든다"며 해고하면 어떻게 되나요?',
         answer:
-          '<strong>명백한 부당해고입니다.</strong> 즉시 구제신청하고 위법 사유를 입증하세요.',
+          '<strong>명백한 부당해고로 검토될 수 있습니다.</strong> 즉시 구제신청하고 위법 사유를 입증하세요.',
       },
       {
         question: '새 대표가 제안한 퇴사 합의안 서명해도 되나요?',

@@ -35,7 +35,7 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       {
         title: '셋째, 임대인의 거절이 정당한 사유에 해당하는지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">상가임대차보호법 제10조의4 제2항에서 정한 정당 사유는 4가지입니다</strong></p>\n<p>임대인이 신규 임차인과의 계약을 거절할 수 있는 <strong>정당한 사유</strong>는 다음과 같습니다. ①신규 임차인이 보증금·차임을 지급할 자력이 없는 경우 ②신규 임차인이 임차인의 의무를 위반할 우려가 있는 경우 ③임대차 목적물을 1년 6개월 이상 영리 목적으로 사용하지 않은 경우 ④임대인이 신규 임차인에게 권리금을 요구하거나 수수한 경우.</p>\n<p>이 4가지 사유에 해당하지 않으면 임대인의 거절은 <strong>권리금 회수기회 방해</strong>에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정당 사유 4가지: 자력 부족, 의무 위반 우려, 1년 6개월 미사용, 권리금 별도 요구</blockquote>',
+          '<p><strong style="color:#1e3a5f">상가임대차보호법 제10조의4 제2항에서 정한 정당 사유는 4가지입니다</strong></p>\n<p>임대인이 신규 임차인과의 계약을 거절할 수 있는 <strong>정당한 사유</strong>는 다음과 같습니다. ①신규 임차인이 보증금·차임을 지급할 자력이 없는 경우 ②신규 임차인이 임차인의 의무를 위반할 우려가 있는 경우 ③임대차 목적물을 1년 6개월 이상 영리 목적으로 사용하지 않은 경우 ④임대인이 신규 임차인에게 권리금을 요구하거나 수수한 경우.</p>\n<p>이 4가지 사유에 해당하지 않으면 임대인의 거절은 <strong>권리금 회수기회 방해</strong>에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정당 사유 4가지: 자력 부족, 의무 위반 우려, 1년 6개월 미사용, 권리금 별도 요구</blockquote>',
       },
       {
         title: '넷째, 권리금 계약을 체결하고 인수인계를 진행하세요',
@@ -76,7 +76,7 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       },
       {
         question: '임차인끼리 권리금 계약만 하고 임대인에게 통보 안 하면 어떻게 되나요?',
-        answer: '임대인에게 통보하지 않으면 <strong>상가임대차보호법상 권리금 보호 규정을 적용받기 어렵습니다</strong>. 반드시 임대인에게 서면(내용증명)으로 신규 임차인 주선 사실을 통보해야 법적 보호를 받을 수 있습니다.',
+        answer: '임대인에게 통보하지 않으면 <strong>상가임대차보호법상 권리금 보호 규정을 적용받기 어렵습니다</strong>. 가능한 한 임대인에게 서면(내용증명)으로 신규 임차인 주선 사실을 통보해야 법적 보호를 받을 수 있습니다.',
       },
     ],
     cta: {
@@ -186,7 +186,7 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       {
         title: '첫째, 퇴직금 중간정산이 가능한 6가지 법정 사유를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">근로자퇴직급여보장법 시행령 제3조에서 중간정산 사유를 한정적으로 열거하고 있습니다</strong></p>\n<p>퇴직금 중간정산은 근로자가 원한다고 무조건 되는 것이 아닙니다. <strong>법에서 정한 6가지 사유</strong> 중 하나에 해당해야 합니다.</p>\n<p>①무주택자인 근로자의 <strong>주거 목적 주택 구입</strong> ②무주택자의 전세보증금 부담 ③근로자 또는 부양가족의 <strong>6개월 이상 요양</strong> ④최근 5년 이내 파산선고 ⑤최근 5년 이내 개인회생절차 인가 결정 ⑥<strong>임금피크제</strong> 적용으로 임금이 줄어드는 경우</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">6가지 사유: 주택 구입·전세 / 6개월 이상 요양 / 파산·개인회생 / 임금피크제</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로자퇴직급여보장법 시행령 제3조에서 중간정산 사유를 한정적으로 열거하고 있습니다</strong></p>\n<p>퇴직금 중간정산은 근로자가 원한다고 원칙적으로 되는 것이 아닙니다. <strong>법에서 정한 6가지 사유</strong> 중 하나에 해당해야 합니다.</p>\n<p>①무주택자인 근로자의 <strong>주거 목적 주택 구입</strong> ②무주택자의 전세보증금 부담 ③근로자 또는 부양가족의 <strong>6개월 이상 요양</strong> ④최근 5년 이내 파산선고 ⑤최근 5년 이내 개인회생절차 인가 결정 ⑥<strong>임금피크제</strong> 적용으로 임금이 줄어드는 경우</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">6가지 사유: 주택 구입·전세 / 6개월 이상 요양 / 파산·개인회생 / 임금피크제</blockquote>',
       },
       {
         title: '둘째, 해당 사유를 증명할 서류를 준비하세요',
@@ -221,7 +221,7 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
     faq: [
       {
         question: '무주택자인데 전세에서 전세로 이사해도 중간정산이 되나요?',
-        answer: '네, <strong>무주택자가 주거를 목적으로 전세보증금을 부담하는 경우</strong>라면 이사(전세 갱신 포함)도 중간정산 사유에 해당합니다. 새 임대차계약서와 무주택 확인서를 제출하세요.',
+        answer: '네, <strong>무주택자가 주거를 목적으로 전세보증금을 부담하는 경우</strong>라면 이사(전세 갱신 포함)도 중간정산 사유에 해당할 소지가 있습니다. 새 임대차계약서와 무주택 확인서를 제출하세요.',
       },
       {
         question: '중간정산을 여러 번 받을 수 있나요?',
@@ -307,7 +307,7 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       },
       {
         question: '진정서를 낸 후 회사가 보복하면 어떻게 하나요?',
-        answer: '근로기준법 제104조 제2항에 따라 진정을 이유로 <strong>불이익 처분(해고, 전보 등)을 하면 2년 이하 징역 또는 2천만원 이하 벌금</strong>에 해당합니다. 보복이 있으면 즉시 추가 진정을 제기하세요.',
+        answer: '근로기준법 제104조 제2항에 따라 진정을 이유로 <strong>불이익 처분(해고, 전보 등)을 하면 2년 이하 징역 또는 2천만원 이하 벌금</strong>에 해당할 소지가 있습니다. 보복이 있으면 즉시 추가 진정을 제기하세요.',
       },
       {
         question: '퇴직금 체불에 시효가 있나요?',
@@ -352,7 +352,7 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       {
         title: '둘째, 반복성이 성희롱 성립의 핵심 요소입니다',
         content:
-          '<p><strong style="color:#1e3a5f">1회성 발언보다 반복적 언급이 성희롱으로 인정될 가능성이 높습니다</strong></p>\n<p>외모에 대한 언급이 <strong>1회성</strong>이라면 성희롱으로 인정되기 어려울 수 있습니다. 그러나 같은 사람이 <strong>반복적·지속적으로 외모를 언급</strong>하고, 거부 의사를 표시했는데도 계속된다면 성희롱 성립 가능성이 크게 높아집니다.</p>\n<p>특히 <strong>"그만해 달라"고 말했는데도 멈추지 않은 경우</strong>, 행위자가 피해자의 불쾌감을 인지하고도 계속한 것이므로 고의성이 인정됩니다. 거부 의사 표시 시점과 이후 반복 행위를 기록해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">포인트: 반복성 + 거부 후 지속 → 성희롱 인정 가능성 상승</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">내 상황이 성희롱에 해당하는지 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">1회성 발언보다 반복적 언급이 성희롱으로 인정될 가능성이 높습니다</strong></p>\n<p>외모에 대한 언급이 <strong>1회성</strong>이라면 성희롱으로 인정되기 어려울 수 있습니다. 그러나 같은 사람이 <strong>반복적·지속적으로 외모를 언급</strong>하고, 거부 의사를 표시했는데도 계속된다면 성희롱 성립 가능성이 크게 높아집니다.</p>\n<p>특히 <strong>"그만해 달라"고 말했는데도 멈추지 않은 경우</strong>, 행위자가 피해자의 불쾌감을 인지하고도 계속한 것이므로 고의성이 인정될 수 있습니다. 거부 의사 표시 시점과 이후 반복 행위를 기록해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">포인트: 반복성 + 거부 후 지속 → 성희롱 인정 가능성 상승</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">내 상황이 성희롱에 해당하는지 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 증거를 체계적으로 확보하세요',
@@ -390,11 +390,11 @@ export const spokesBatch17Part1Pages: SpokePage[] = [
       },
       {
         question: '신고하면 제가 불이익을 받을 수 있나요?',
-        answer: '남녀고용평등법 제14조 제6항에 따라 <strong>성희롱 피해를 신고한 근로자에게 불이익 조치를 하면 3년 이하 징역 또는 3천만원 이하 벌금</strong>에 해당합니다. 불이익이 발생하면 즉시 고용노동부에 신고하세요.',
+        answer: '남녀고용평등법 제14조 제6항에 따라 <strong>성희롱 피해를 신고한 근로자에게 불이익 조치를 하면 3년 이하 징역 또는 3천만원 이하 벌금</strong>에 해당할 소지가 있습니다. 불이익이 발생하면 즉시 고용노동부에 신고하세요.',
       },
       {
         question: '녹취가 불법은 아닌가요?',
-        answer: '대화 당사자가 직접 녹음하는 것은 <strong>통신비밀보호법 위반이 아닙니다</strong>. 본인이 참여한 대화를 녹음하는 것은 적법하며, 법원에서도 증거로 인정됩니다.',
+        answer: '대화 당사자가 직접 녹음하는 것은 <strong>통신비밀보호법 위반이 아닙니다</strong>. 본인이 참여한 대화를 녹음하는 것은 적법하며, 법원에서도 증거로 인정될 수 있습니다.',
       },
       {
         question: '성희롱으로 인정되면 어떤 배상을 받을 수 있나요?',

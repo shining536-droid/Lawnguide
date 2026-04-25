@@ -177,7 +177,7 @@ export const divorcePages: SpokePage[] = [
       {
         title: '가장 먼저 챙길 것 — 혼인관계증명서와 가족관계증명서',
         content:
-          '<p><strong style="color:#1e3a5f">혼인관계증명서와 가족관계증명서를 가장 먼저 준비하세요</strong></p>\n<p>이혼 상담의 출발점은 "지금 법적으로 혼인 상태인지"를 확인하는 것입니다. <strong>혼인관계증명서</strong>는 현재 혼인 상태를, <strong>가족관계증명서</strong>는 자녀 유무와 가족 구성을 보여줍니다.</p>\n<p>주민등록등본도 현재 거주지와 세대 구성을 확인하는 데 필요합니다. 정부24나 주민센터에서 발급받을 수 있으며, "상세" 증명서로 떼면 과거 이력까지 나옵니다.</p>\n<p>이 세 장만 있어도 상담사가 기본 상황을 빠르게 파악할 수 있으니 반드시 준비해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 혼인관계증명서(상세), 가족관계증명서(상세), 주민등록등본</blockquote>',
+          '<p><strong style="color:#1e3a5f">혼인관계증명서와 가족관계증명서를 가장 먼저 준비하세요</strong></p>\n<p>이혼 상담의 출발점은 "지금 법적으로 혼인 상태인지"를 확인하는 것입니다. <strong>혼인관계증명서</strong>는 현재 혼인 상태를, <strong>가족관계증명서</strong>는 자녀 유무와 가족 구성을 보여줍니다.</p>\n<p>주민등록등본도 현재 거주지와 세대 구성을 확인하는 데 필요합니다. 정부24나 주민센터에서 발급받을 수 있으며, "상세" 증명서로 떼면 과거 이력까지 나옵니다.</p>\n<p>이 세 장만 있어도 상담사가 기본 상황을 빠르게 파악할 수 있으니 가능한 한 준비해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 혼인관계증명서(상세), 가족관계증명서(상세), 주민등록등본</blockquote>',
       },
       {
         title: '재산 정리가 핵심 — 부동산, 예금, 보험, 대출 서류',
@@ -197,7 +197,7 @@ export const divorcePages: SpokePage[] = [
       {
         title: '상담 효율을 높이는 마지막 준비 — 질문 목록과 경위 정리',
         content:
-          '<p><strong style="color:#1e3a5f">질문 목록과 혼인 파탄 경위를 메모로 정리해 가세요</strong></p>\n<p>위 서류 외에도 혼인 파탄의 경위를 보여주는 자료가 있으면 도움이 됩니다. 문자메시지, 녹음, <strong>진단서</strong> 등은 재판이혼 시 이혼 사유 입증에 참고될 수 있습니다. 다만 녹음이나 촬영 자료는 수집 방법에 따라 증거능력이 제한될 수 있으니 상담에서 확인해보세요. 그리고 반드시 "내가 궁금한 것"을 메모로 정리해 가세요. <strong>30분 상담</strong>에서 핵심을 놓치지 않으려면 질문 목록이 가장 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 혼인 파탄 경위 메모, 질문 목록, 증거자료(문자·녹음·진단서)</blockquote>',
+          '<p><strong style="color:#1e3a5f">질문 목록과 혼인 파탄 경위를 메모로 정리해 가세요</strong></p>\n<p>위 서류 외에도 혼인 파탄의 경위를 보여주는 자료가 있으면 도움이 됩니다. 문자메시지, 녹음, <strong>진단서</strong> 등은 재판이혼 시 이혼 사유 입증에 참고될 수 있습니다. 다만 녹음이나 촬영 자료는 수집 방법에 따라 증거능력이 제한될 수 있으니 상담에서 확인해보세요. 그리고 가능한 한 "내가 궁금한 것"을 메모로 정리해 가세요. <strong>30분 상담</strong>에서 핵심을 놓치지 않으려면 질문 목록이 가장 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 혼인 파탄 경위 메모, 질문 목록, 증거자료(문자·녹음·진단서)</blockquote>',
       },
     ],
     cases: [
@@ -293,7 +293,7 @@ export const divorcePages: SpokePage[] = [
       {
         title: '양육비는 얼마가 적당한지 — 산정 기준 살펴보기',
         content:
-          '<p><strong style="color:#1e3a5f">양육비는 부모 소득과 아이의 필요에 따라 산정됩니다</strong></p>\n<p>양육비는 아이를 키우지 않는 부모도 반드시 부담해야 합니다. 부모 각자의 소득, 아이의 나이와 교육 단계, 생활 수준이 산정 기준입니다. <strong>서울가정법원 양육비 산정기준표</strong>를 참고하면 대략적인 금액 범위를 확인해볼 수 있습니다. 합의할 때는 금액뿐 아니라 지급일, 지급 방법도 구체적으로 정해두세요. 대학 등록금, 큰 병원비 같은 <strong>특별비용</strong>은 어떻게 나눌 것인지도 미리 논의해두면 나중에 다툼을 줄일 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 양육비 산정기준표 확인, 월별 양육비 지출 내역 정리</blockquote>',
+          '<p><strong style="color:#1e3a5f">양육비는 부모 소득과 아이의 필요에 따라 산정됩니다</strong></p>\n<p>양육비는 아이를 키우지 않는 부모도 가능한 한 부담해야 합니다. 부모 각자의 소득, 아이의 나이와 교육 단계, 생활 수준이 산정 기준입니다. <strong>서울가정법원 양육비 산정기준표</strong>를 참고하면 대략적인 금액 범위를 확인해볼 수 있습니다. 합의할 때는 금액뿐 아니라 지급일, 지급 방법도 구체적으로 정해두세요. 대학 등록금, 큰 병원비 같은 <strong>특별비용</strong>은 어떻게 나눌 것인지도 미리 논의해두면 나중에 다툼을 줄일 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 양육비 산정기준표 확인, 월별 양육비 지출 내역 정리</blockquote>',
       },
       {
         title: '아이를 안 키우는 부모의 만남 — 면접교섭 정하기',
@@ -303,7 +303,7 @@ export const divorcePages: SpokePage[] = [
       {
         title: '합의서를 쓸 때 놓치지 말아야 할 것 — 실효성 확보',
         content:
-          '<p><strong style="color:#1e3a5f">합의서는 반드시 서면으로 남기고 공증까지 받아두세요</strong></p>\n<p>협의이혼의 경우 <strong>양육사항 협의서</strong>를 법원에 제출해야 합니다. 합의서에는 양육권자, 양육비 금액과 지급 방법, 면접교섭 방법, 특별비용 분담 등을 빠짐없이 적어야 합니다. 가장 중요한 것은 "상대방이 안 지켰을 때 강제할 수 있는지"입니다. <strong>공증</strong>을 받아두거나, 법원 조정조서로 만들면 불이행 시 별도 소송 없이 바로 강제집행이 가능합니다. 합의서 최종 확인 전에 빠뜨린 항목이 없는지 꼭 체크해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 양육사항 협의서 양식, 공증사무소 확인, 체크리스트 최종 점검</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의서는 가능한 한 서면으로 남기고 공증까지 받아두세요</strong></p>\n<p>협의이혼의 경우 <strong>양육사항 협의서</strong>를 법원에 제출해야 합니다. 합의서에는 양육권자, 양육비 금액과 지급 방법, 면접교섭 방법, 특별비용 분담 등을 빠짐없이 적어야 합니다. 가장 중요한 것은 "상대방이 안 지켰을 때 강제할 수 있는지"입니다. <strong>공증</strong>을 받아두거나, 법원 조정조서로 만들면 불이행 시 별도 소송 없이 바로 강제집행이 가능합니다. 합의서 최종 확인 전에 빠뜨린 항목이 없는지 꼭 체크해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 양육사항 협의서 양식, 공증사무소 확인, 체크리스트 최종 점검</blockquote>',
       },
     ],
     cases: [
@@ -406,7 +406,7 @@ export const divorcePages: SpokePage[] = [
       {
         title: '전업주부도 기여도를 인정받을 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">가사노동과 양육도 재산 형성에 대한 기여로 인정됩니다</strong></p>\n<p>대법원 판례에서 전업주부의 기여도를 <strong>30~50%</strong> 인정한 사례가 다수 있습니다. 혼인 기간이 길수록 기여도가 높게 인정되는 경향이 있습니다.</p>\n<p><strong>소득 증빙이 없어도</strong> 재산분할 청구가 가능합니다. 가사와 양육에 전념한 기간, 구체적인 양육 내역을 정리해두면 기여도 입증에 도움이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 가사·양육 참여 내역, 혼인 기간 정리</blockquote>',
+          '<p><strong style="color:#1e3a5f">가사노동과 양육도 재산 형성에 대한 기여로 인정될 수 있습니다</strong></p>\n<p>대법원 판례에서 전업주부의 기여도를 <strong>30~50%</strong> 인정한 사례가 다수 있습니다. 혼인 기간이 길수록 기여도가 높게 인정되는 경향이 있습니다.</p>\n<p><strong>소득 증빙이 없어도</strong> 재산분할 청구가 가능합니다. 가사와 양육에 전념한 기간, 구체적인 양육 내역을 정리해두면 기여도 입증에 도움이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 가사·양육 참여 내역, 혼인 기간 정리</blockquote>',
       },
       {
         title: '재산분할 청구를 위해 준비할 것',
@@ -640,7 +640,7 @@ export const divorcePages: SpokePage[] = [
       {
         title: '5단계: 이혼신고로 마무리하세요',
         content:
-          '<p><strong style="color:#1e3a5f">확인서 교부일로부터 3개월 이내에 이혼신고를 해야 합니다</strong></p>\n<p>확인서를 받은 날로부터 <strong>3개월 이내</strong>에 시·구·읍·면사무소에 이혼신고를 합니다.</p>\n<p><strong>이혼신고서</strong>, 이혼의사확인서, 혼인관계증명서를 제출하면 됩니다. 신고가 완료되면 법적으로 이혼이 성립합니다. 3개월 이내에 신고하지 않으면 확인서의 효력이 상실되니 주의하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">마무리: 이혼신고서 + 이혼의사확인서 + 혼인관계증명서 → 신고 완료</blockquote>',
+          '<p><strong style="color:#1e3a5f">확인서 교부일로부터 3개월 이내에 이혼신고를 해야 합니다</strong></p>\n<p>확인서를 받은 날로부터 <strong>3개월 이내</strong>에 시·구·읍·면사무소에 이혼신고를 합니다.</p>\n<p><strong>이혼신고서</strong>, 이혼의사확인서, 혼인관계증명서를 제출하면 됩니다. 신고가 완료되면 법적으로 이혼이 성립할 수 있습니다. 3개월 이내에 신고하지 않으면 확인서의 효력이 상실되니 주의하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">마무리: 이혼신고서 + 이혼의사확인서 + 혼인관계증명서 → 신고 완료</blockquote>',
       },
     ],
     cases: [
@@ -1060,7 +1060,7 @@ export const divorcePages: SpokePage[] = [
         summary:
           '관련 사례에서도 이혼의사확인서를 받고도 3개월 이내에 이혼신고를 하지 않아 확인서 효력이 상실되어 법원 절차를 처음부터 다시 진행한 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 이혼의사확인서를 받은 즉시 이혼신고를 진행하세요. 3개월 기한을 반드시 지키세요.',
+          '비슷한 상황이라면 이혼의사확인서를 받은 즉시 이혼신고를 진행하세요. 3개월 기한을 가능한 한 지키세요.',
       },
     ],
     faq: [
@@ -1130,7 +1130,7 @@ export const divorcePages: SpokePage[] = [
       {
         title: '청구 기한과 조건이 다릅니다',
         content:
-          '<p><strong style="color:#1e3a5f">재산분할은 이혼 후 2년, 위자료는 안 날로부터 3년 내에 청구해야 합니다</strong></p>\n<p>재산분할 청구는 <strong>이혼한 날로부터 2년 이내</strong>(민법 제839조의2 제3항)에 해야 합니다. 이 기간은 제척기간이라 중단이나 연장이 되지 않으므로 반드시 기한 내에 소를 제기해야 합니다.</p>\n<p>위자료 청구는 <strong>불법행위를 안 날로부터 3년</strong>(민법 제766조) 또는 <strong>불법행위가 있은 날로부터 10년</strong> 이내에 해야 합니다. 이혼 소송과 함께 청구하는 것이 일반적이지만, 이혼 후 별도로 청구하는 것도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재산분할: 이혼일로부터 2년(제척기간) | 위자료: 안 날로부터 3년(소멸시효)</blockquote>',
+          '<p><strong style="color:#1e3a5f">재산분할은 이혼 후 2년, 위자료는 안 날로부터 3년 내에 청구해야 합니다</strong></p>\n<p>재산분할 청구는 <strong>이혼한 날로부터 2년 이내</strong>(민법 제839조의2 제3항)에 해야 합니다. 이 기간은 제척기간이라 중단이나 연장이 되지 않으므로 가능한 한 기한 내에 소를 제기해야 합니다.</p>\n<p>위자료 청구는 <strong>불법행위를 안 날로부터 3년</strong>(민법 제766조) 또는 <strong>불법행위가 있은 날로부터 10년</strong> 이내에 해야 합니다. 이혼 소송과 함께 청구하는 것이 일반적이지만, 이혼 후 별도로 청구하는 것도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재산분할: 이혼일로부터 2년(제척기간) | 위자료: 안 날로부터 3년(소멸시효)</blockquote>',
       },
       {
         title: '금액 산정 기준이 다릅니다',
@@ -1166,7 +1166,7 @@ export const divorcePages: SpokePage[] = [
       },
       {
         question: '전업주부도 재산분할을 받을 수 있나요?',
-        answer: '네. 가사노동도 재산 형성에 기여한 것으로 인정됩니다. 실무상 <strong>30~50%</strong>를 분할받는 것이 일반적입니다.',
+        answer: '네. 가사노동도 재산 형성에 기여한 것으로 인정될 수 있습니다. 실무상 <strong>30~50%</strong>를 분할받는 것이 일반적입니다.',
       },
       {
         question: '재산분할에 퇴직금이나 연금도 포함되나요?',
@@ -1250,7 +1250,7 @@ export const divorcePages: SpokePage[] = [
     faq: [
       {
         question: '가정폭력 신고를 당하면 바로 체포되나요?',
-        answer: '현행범이 아닌 한 바로 체포되지는 않습니다. 다만 <strong>긴급임시조치</strong>(퇴거, 접근금지)가 내려질 수 있으며, 이를 위반하면 처벌받습니다.',
+        answer: '현행범이 아닌 한 바로 체포되지는 않습니다. 다만 <strong>긴급임시조치</strong>(퇴거, 접근금지)가 내려질 수 있으며, 이를 위반하면 처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '접근금지 명령이 내려지면 집에 못 가나요?',
@@ -1430,17 +1430,17 @@ export const divorcePages: SpokePage[] = [
       {
         title: '답변서 미제출로 불리한 판결을 받은 사례',
         summary: '피고가 소장을 받고도 답변서를 기한 내에 제출하지 않아 자백간주가 적용되었고, 원고의 청구대로 위자료와 재산분할이 결정된 사안입니다.',
-        takeaway: '비슷한 상황이라면 소장 수령 후 30일 이내에 반드시 답변서를 제출하고, 변호사 상담을 받으세요.',
+        takeaway: '비슷한 상황이라면 소장 수령 후 30일 이내에 가능한 한 답변서를 제출하고, 변호사 상담을 받으세요.',
       },
     ],
     faq: [
       {
-        question: '소장을 받으면 무조건 이혼해야 하나요?',
+        question: '소장을 받으면 원칙적으로 이혼해야 하나요?',
         answer: '아닙니다. 피고로서 <strong>이혼을 거부하는 답변서</strong>를 제출할 수 있습니다. 다만 법원이 이혼 사유를 인정하면 판결로 이혼이 결정됩니다.',
       },
       {
         question: '답변서를 안 내면 어떻게 되나요?',
-        answer: '원고의 주장이 <strong>자백간주</strong>될 수 있어 매우 불리합니다. 기한 내 반드시 제출하세요.',
+        answer: '원고의 주장이 <strong>자백간주</strong>될 수 있어 매우 불리합니다. 기한 내 가능한 한 제출하세요.',
       },
       {
         question: '유책배우자도 양육권을 받을 수 있나요?',
@@ -1539,7 +1539,7 @@ export const divorcePages: SpokePage[] = [
       {
         question: '답변서를 30일 안에 못 내면 어떻게 되나요?',
         answer:
-          '답변서를 기한 내 제출하지 않으면 상대방 주장을 다투지 않는 것으로 간주되어 무변론 판결이 선고될 수 있습니다. 반드시 기한 내 제출하시고, 어려우면 기간 연장 신청을 검토하세요.',
+          '답변서를 기한 내 제출하지 않으면 상대방 주장을 다투지 않는 것으로 간주되어 무변론 판결이 선고될 수 있습니다. 가능한 한 기한 내 제출하시고, 어려우면 기간 연장 신청을 검토하세요.',
       },
       {
         question: '상대가 부정행위를 거짓으로 주장하면 무고죄로 고소할 수 있나요?',
@@ -1564,7 +1564,7 @@ export const divorcePages: SpokePage[] = [
       {
         question: '소장에 적힌 위자료 금액을 그대로 내야 하는 건 아닌가요?',
         answer:
-          '아닙니다. 소장의 청구 금액은 상대방이 원하는 금액일 뿐, 법원이 그대로 인정하지 않습니다. 법원은 증거와 사정을 종합해 적정 금액을 판단하므로, 반드시 답변서로 다투어야 합니다.',
+          '아닙니다. 소장의 청구 금액은 상대방이 원하는 금액일 뿐, 법원이 그대로 인정하지 않습니다. 법원은 증거와 사정을 종합해 적정 금액을 판단하므로, 가능한 한 답변서로 다투어야 합니다.',
       },
       {
         question: '위자료 소송 중 합의로 끝낼 수도 있나요?',
@@ -1596,7 +1596,7 @@ export const divorcePages: SpokePage[] = [
       description: '이혼 재산분할에서 재산은닉 의심을 받고 있다면 특유재산 입증, 금융재산조회 대응, 사전처분 금지 가처분 방어가 핵심입니다. 방어 체크리스트를 정리했습니다. 바로 정리해보세요.',
     },
     intro:
-      '이혼 과정에서 상대방 변호사가 "재산을 숨기고 있다"며 금융재산 조회를 신청했습니다. 부모님에게 받은 돈과 혼전 저축까지 재산분할 대상이 되는 건지 걱정됩니다. 혐의를 받고 있다면 무조건 불리한 것은 아닙니다. 특유재산 입증과 대응 방법을 정리해보세요.',
+      '이혼 과정에서 상대방 변호사가 "재산을 숨기고 있다"며 금융재산 조회를 신청했습니다. 부모님에게 받은 돈과 혼전 저축까지 재산분할 대상이 되는 건지 걱정됩니다. 혐의를 받고 있다면 원칙적으로 불리한 것은 아닙니다. 특유재산 입증과 대응 방법을 정리해보세요.',
     sections: [
       {
         title: '재산분할 대상과 특유재산의 차이를 먼저 정리하세요',
@@ -1715,7 +1715,7 @@ export const divorcePages: SpokePage[] = [
       {
         title: '4단계: 변호사 상담을 받고 절차를 시작하세요',
         content:
-          '<p><strong style="color:#1e3a5f">이혼 전문 변호사와 상담하면 최적의 전략을 수립할 수 있습니다</strong></p>\n<p>1~3단계에서 정리한 자료를 가지고 <strong>이혼 전문 변호사 상담</strong>을 받으세요. 상담 전 준비할 것: ① 이혼 사유와 관련 증거 ② 재산 목록 및 증빙 자료 ③ 자녀 현황 ④ 본인이 원하는 조건(재산분할 비율, 양육권, 위자료 등)</p>\n<p>변호사 상담에서 확인할 사항: ① <strong>재산분할 예상 비율</strong>(법원은 통상 기여도에 따라 30~70% 범위에서 결정) ② <strong>양육권 확보 가능성</strong>(양육 환경, 아이의 의사, 경제력 등 종합 판단) ③ <strong>위자료 청구 가능 여부와 금액</strong> ④ <strong>예상 소요 기간과 비용</strong></p>\n<p>변호사 비용이 부담된다면 <strong>대한법률구조공단(132)</strong>이나 <strong>대한변호사협회 법률구조재단</strong>에서 무료 법률 상담을 받을 수 있습니다. 특히 가정폭력 피해자는 <strong>무료 법률 대리</strong>까지 지원받을 수 있으니 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">상담 준비: 이혼 사유 + 재산 자료 + 자녀 현황 + 희망 조건 → 변호사와 전략 수립</blockquote>',
+          '<p><strong style="color:#1e3a5f">이혼 전문 변호사와 상담하면 최적의 전략을 수립할 수 있습니다</strong></p>\n<p>1~3단계에서 정리한 자료를 가지고 <strong>이혼 전문 변호사 상담</strong>을 받으세요. 상담 전 준비할 것: ① 이혼 사유와 관련 증거 ② 재산 목록 및 증빙 자료 ③ 자녀 현황 ④ 본인이 원하는 조건(재산분할 비율, 양육권, 위자료 등)</p>\n<p>변호사 상담에서 확인할 사항: ① <strong>재산분할 예상 비율</strong>(법원은 통상 기여도에 따라 30~70% 범위에서 결정) ② <strong>양육권 확보 가능성</strong>(양육 환경, 아이의 의사, 경제력 등 종합 판단) ③ <strong>위자료 청구 가능 여부와 금액</strong> ④ <strong>예상 소요 기간과 비용</strong></p>\n<p>변호사 비용이 부담된다면 <strong>대한법률구조공단(132)</strong>이나 <strong>대한변호사협회 법률구조재단</strong>에서 무료 법률 상담을 받을 수 있습니다. 특히 가정폭력 피해자는 <strong>무료 법률 대리</strong>까지 지원받을 수 있으니 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">상담 준비: 이혼 사유 + 재산 자료 + 자녀 현황 + 희망 조건 → 변호사와 전략 수립</blockquote>',
       },
     ],
     cases: [
@@ -1763,7 +1763,7 @@ export const divorcePages: SpokePage[] = [
       {
         question: '전업주부도 재산분할을 받을 수 있나요?',
         answer:
-          '네, 전업주부의 <strong>가사노동 기여도</strong>가 인정됩니다. 판례상 전업주부도 재산분할에서 <strong>30~50%</strong>를 인정받는 것이 일반적입니다(대법원 2013므895 등).',
+          '네, 전업주부의 <strong>가사노동 기여도</strong>가 인정될 수 있습니다. 판례상 전업주부도 재산분할에서 <strong>30~50%</strong>를 인정받는 것이 일반적입니다(대법원 2013므895 등).',
       },
       {
         question: '이혼 전에 집을 나와도 되나요?',

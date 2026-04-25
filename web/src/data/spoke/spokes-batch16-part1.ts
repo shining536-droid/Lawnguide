@@ -76,7 +76,7 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       },
       {
         question: '회사가 산재 신청을 방해하면 어떻게 하나요?',
-        answer: '사업주 확인 없이도 <strong>근로자 본인이 직접 산재 신청</strong>할 수 있습니다. 사업주의 산재 은폐는 산업안전보건법 위반으로 <strong>1년 이하 징역 또는 1천만원 이하 벌금</strong>에 해당합니다.',
+        answer: '사업주 확인 없이도 <strong>근로자 본인이 직접 산재 신청</strong>할 수 있습니다. 사업주의 산재 은폐는 산업안전보건법 위반으로 <strong>1년 이하 징역 또는 1천만원 이하 벌금</strong>에 해당할 소지가 있습니다.',
       },
     ],
     cta: {
@@ -108,17 +108,17 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       {
         title: '출퇴근 재해가 산재로 인정되는 4가지 요건',
         content:
-          '<p><strong style="color:#1e3a5f">산업재해보상보험법 제37조 제1항 제3호에 따라 출퇴근 재해도 업무상 재해에 포함됩니다</strong></p>\n<p>2018년 1월 1일부터 <strong>모든 사업장 근로자</strong>의 출퇴근 재해가 산재로 인정됩니다. 다음 4가지 요건을 모두 충족해야 합니다.</p>\n<p><strong>① 통상적인 출퇴근 경로</strong>를 이용할 것 ② <strong>합리적인 방법</strong>으로 출퇴근할 것 ③ 출퇴근 <strong>도중</strong>에 발생한 사고일 것 ④ 근로자의 <strong>고의·자해행위</strong>가 아닐 것</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">4요건: 통상경로 + 합리적 방법 + 출퇴근 도중 + 고의·자해 아닐 것</blockquote>',
+          '<p><strong style="color:#1e3a5f">산업재해보상보험법 제37조 제1항 제3호에 따라 출퇴근 재해도 업무상 재해에 포함됩니다</strong></p>\n<p>2018년 1월 1일부터 <strong>모든 사업장 근로자</strong>의 출퇴근 재해가 산재로 인정될 수 있습니다. 다음 4가지 요건을 모두 충족해야 합니다.</p>\n<p><strong>① 통상적인 출퇴근 경로</strong>를 이용할 것 ② <strong>합리적인 방법</strong>으로 출퇴근할 것 ③ 출퇴근 <strong>도중</strong>에 발생한 사고일 것 ④ 근로자의 <strong>고의·자해행위</strong>가 아닐 것</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">4요건: 통상경로 + 합리적 방법 + 출퇴근 도중 + 고의·자해 아닐 것</blockquote>',
       },
       {
         title: '경로 이탈·중단 시에도 산재가 인정되는 예외',
         content:
-          '<p><strong style="color:#1e3a5f">"일상생활에 필요한 행위"로 경로를 이탈한 경우에는 복귀 후 사고도 인정됩니다</strong></p>\n<p>산업재해보상보험법 시행령 제35조에 따라 <strong>일상생활에 필요한 행위</strong>로 경로를 벗어난 경우에는 예외적으로 인정됩니다. 구체적으로 ①자녀 등의 보육기관 등하원 ②선거권 행사 ③근로자가 사실상 보호하는 가족의 요양을 위한 의료기관 방문 ④생필품 구입 등이 해당합니다.</p>\n<p>다만 경로를 이탈·중단한 <strong>그 시점</strong>에서의 사고는 인정되지 않고, <strong>통상 경로에 복귀한 이후</strong>의 사고만 인정됩니다. 예를 들어 마트에서 장을 본 뒤 귀가 경로에서 사고가 나면 인정되지만, 마트 안에서 넘어진 것은 인정되지 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">예외 인정: 보육기관 등하원, 선거, 가족 병원, 생필품 구입 → 통상경로 복귀 후 사고만 인정</blockquote>',
+          '<p><strong style="color:#1e3a5f">"일상생활에 필요한 행위"로 경로를 이탈한 경우에는 복귀 후 사고도 인정될 수 있습니다</strong></p>\n<p>산업재해보상보험법 시행령 제35조에 따라 <strong>일상생활에 필요한 행위</strong>로 경로를 벗어난 경우에는 예외적으로 인정될 수 있습니다. 구체적으로 ①자녀 등의 보육기관 등하원 ②선거권 행사 ③근로자가 사실상 보호하는 가족의 요양을 위한 의료기관 방문 ④생필품 구입 등이 해당합니다.</p>\n<p>다만 경로를 이탈·중단한 <strong>그 시점</strong>에서의 사고는 인정되지 않고, <strong>통상 경로에 복귀한 이후</strong>의 사고만 인정될 수 있습니다. 예를 들어 마트에서 장을 본 뒤 귀가 경로에서 사고가 나면 인정되지만, 마트 안에서 넘어진 것은 인정되지 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">예외 인정: 보육기관 등하원, 선거, 가족 병원, 생필품 구입 → 통상경로 복귀 후 사고만 인정</blockquote>',
       },
       {
         title: '출퇴근 재해 산재 신청 시 필요한 서류',
         content:
-          '<p><strong style="color:#1e3a5f">교통사고 관련 증거를 반드시 확보한 뒤 산재 신청서를 제출하세요</strong></p>\n<p>출퇴근 재해 산재 신청에 필요한 핵심 서류는 다음과 같습니다.</p>\n<p><strong>① 요양급여 신청서</strong>(근로복지공단 서식) ② <strong>교통사고 사실확인원</strong>(경찰서 발급) ③ <strong>진단서</strong>(담당 의료기관) ④ <strong>출퇴근 경로 확인 자료</strong>(내비게이션 기록, 교통카드 이용내역) ⑤ <strong>재직증명서</strong> 또는 근로계약서 ⑥ 블랙박스 영상(있는 경우)</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 서류: 요양급여 신청서, 교통사고 사실확인원, 진단서, 출퇴근 경로 증명자료</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/industrial-accident" style="color:#1565c0;font-weight:600">내 출퇴근 사고가 산재로 인정될 수 있는지 확인하기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">교통사고 관련 증거를 가능한 한 확보한 뒤 산재 신청서를 제출하세요</strong></p>\n<p>출퇴근 재해 산재 신청에 필요한 핵심 서류는 다음과 같습니다.</p>\n<p><strong>① 요양급여 신청서</strong>(근로복지공단 서식) ② <strong>교통사고 사실확인원</strong>(경찰서 발급) ③ <strong>진단서</strong>(담당 의료기관) ④ <strong>출퇴근 경로 확인 자료</strong>(내비게이션 기록, 교통카드 이용내역) ⑤ <strong>재직증명서</strong> 또는 근로계약서 ⑥ 블랙박스 영상(있는 경우)</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 서류: 요양급여 신청서, 교통사고 사실확인원, 진단서, 출퇴근 경로 증명자료</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/industrial-accident" style="color:#1565c0;font-weight:600">내 출퇴근 사고가 산재로 인정될 수 있는지 확인하기 &rarr;</a>\n</div>',
       },
       {
         title: '출퇴근 재해와 자동차보험 보상의 관계',
@@ -128,7 +128,7 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       {
         title: '재택근무·유연근무제 시 출퇴근 재해 인정 기준',
         content:
-          '<p><strong style="color:#1e3a5f">재택근무 전환 시에도 사업장 방문 출퇴근은 출퇴근 재해로 인정됩니다</strong></p>\n<p>재택근무 중에도 <strong>회의나 업무 지시</strong>로 사업장에 출근하는 경우, 그 이동 중 사고는 출퇴근 재해로 인정될 수 있습니다. 유연근무제(시차출퇴근 등)를 하는 경우에도 <strong>실제 출퇴근 시각</strong>을 기준으로 판단합니다.</p>\n<p>다만 재택근무 중 <strong>자택 내 사고</strong>는 출퇴근 재해가 아닌 업무상 재해 여부로 판단되며, 인정 기준이 더 엄격합니다. 근무 시간표, 업무 지시 메시지, 사업장 출입 기록 등을 미리 확보해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재택근무자: 사업장 방문 출퇴근 = 출퇴근 재해 인정 | 자택 내 사고 = 별도 기준 적용</blockquote>',
+          '<p><strong style="color:#1e3a5f">재택근무 전환 시에도 사업장 방문 출퇴근은 출퇴근 재해로 인정될 수 있습니다</strong></p>\n<p>재택근무 중에도 <strong>회의나 업무 지시</strong>로 사업장에 출근하는 경우, 그 이동 중 사고는 출퇴근 재해로 인정될 수 있습니다. 유연근무제(시차출퇴근 등)를 하는 경우에도 <strong>실제 출퇴근 시각</strong>을 기준으로 판단합니다.</p>\n<p>다만 재택근무 중 <strong>자택 내 사고</strong>는 출퇴근 재해가 아닌 업무상 재해 여부로 판단되며, 인정 기준이 더 엄격합니다. 근무 시간표, 업무 지시 메시지, 사업장 출입 기록 등을 미리 확보해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재택근무자: 사업장 방문 출퇴근 = 출퇴근 재해 인정 | 자택 내 사고 = 별도 기준 적용</blockquote>',
       },
     ],
     cases: [
@@ -143,7 +143,7 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
     faq: [
       {
         question: '자전거로 출퇴근 중 사고도 산재가 되나요?',
-        answer: '네, <strong>합리적인 출퇴근 방법</strong>이라면 자전거, 도보, 대중교통, 자가용 모두 출퇴근 재해로 인정됩니다.',
+        answer: '네, <strong>합리적인 출퇴근 방법</strong>이라면 자전거, 도보, 대중교통, 자가용 모두 출퇴근 재해로 인정될 수 있습니다.',
       },
       {
         question: '출퇴근 중 본인 과실 100%인 사고도 산재가 되나요?',
@@ -159,7 +159,7 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       },
       {
         question: '배우자 회사에 먼저 들렀다가 사고가 나도 되나요?',
-        answer: '통상적인 출퇴근 경로에서 <strong>일상생활에 필요한 행위</strong>로 이탈한 뒤 경로에 복귀한 이후의 사고는 인정됩니다. 경로 이탈 중 사고는 인정이 어렵습니다.',
+        answer: '통상적인 출퇴근 경로에서 <strong>일상생활에 필요한 행위</strong>로 이탈한 뒤 경로에 복귀한 이후의 사고는 인정될 수 있습니다. 경로 이탈 중 사고는 인정이 어렵습니다.',
       },
       {
         question: '무료 상담은 어디서 받나요?',
@@ -195,7 +195,7 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       {
         title: '산재 치료 중·후 해고는 원칙적으로 금지됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제23조 제2항: 요양 중과 복귀 후 30일간 해고가 금지됩니다</strong></p>\n<p>산재로 요양 중인 근로자를 해고하는 것은 <strong>근로기준법 제23조 제2항</strong>에 의해 금지됩니다. 요양이 끝난 후에도 <strong>30일간</strong>은 해고할 수 없습니다. 이를 위반한 해고는 무효입니다.</p>\n<p>다만 산업재해보상보험법에 따라 <strong>일시보상금</strong>을 지급한 경우에는 예외적으로 해고가 가능합니다. 회사가 일시보상을 제안하는 경우 반드시 금액의 적정성을 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ①: 요양 중 해고 = 무효 | 복귀 후 30일간 해고 금지 | 예외: 일시보상 지급 시</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제23조 제2항: 요양 중과 복귀 후 30일간 해고가 금지됩니다</strong></p>\n<p>산재로 요양 중인 근로자를 해고하는 것은 <strong>근로기준법 제23조 제2항</strong>에 의해 금지됩니다. 요양이 끝난 후에도 <strong>30일간</strong>은 해고할 수 없습니다. 이를 위반한 해고는 무효입니다.</p>\n<p>다만 산업재해보상보험법에 따라 <strong>일시보상금</strong>을 지급한 경우에는 예외적으로 해고가 가능합니다. 회사가 일시보상을 제안하는 경우 가능한 한 금액의 적정성을 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ①: 요양 중 해고 = 무효 | 복귀 후 30일간 해고 금지 | 예외: 일시보상 지급 시</blockquote>',
       },
       {
         title: '원래 업무로 복귀할 권리가 있습니다',
@@ -205,7 +205,7 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       {
         title: '임금 삭감·직급 강등도 불이익 처우입니다',
         content:
-          '<p><strong style="color:#1e3a5f">산재를 이유로 한 임금 삭감, 승진 누락, 직급 강등은 위법합니다</strong></p>\n<p>복직 후 <strong>임금이 줄거나</strong>, 승진에서 누락되거나, 직급이 강등된다면 이는 산재를 이유로 한 <strong>불이익 처우</strong>에 해당합니다. 사업주가 "성과가 없었으니까"라고 하더라도 산재 요양 기간은 근속기간에 포함됩니다.</p>\n<p>불이익 처우를 받으면 <strong>고용노동부</strong>(전화 1350)에 진정을 제기하거나, <strong>노동위원회</strong>에 구제신청을 할 수 있습니다. 불이익 처우의 증거(급여명세서 비교, 인사발령 문서, 메신저 대화 등)를 미리 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ③: 임금 삭감·직급 강등 = 불이익 처우 | 대응: 노동청 진정 또는 노동위 구제신청</blockquote>',
+          '<p><strong style="color:#1e3a5f">산재를 이유로 한 임금 삭감, 승진 누락, 직급 강등은 위법 소지가 있습니다</strong></p>\n<p>복직 후 <strong>임금이 줄거나</strong>, 승진에서 누락되거나, 직급이 강등된다면 이는 산재를 이유로 한 <strong>불이익 처우</strong>에 해당할 소지가 있습니다. 사업주가 "성과가 없었으니까"라고 하더라도 산재 요양 기간은 근속기간에 포함됩니다.</p>\n<p>불이익 처우를 받으면 <strong>고용노동부</strong>(전화 1350)에 진정을 제기하거나, <strong>노동위원회</strong>에 구제신청을 할 수 있습니다. 불이익 처우의 증거(급여명세서 비교, 인사발령 문서, 메신저 대화 등)를 미리 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ③: 임금 삭감·직급 강등 = 불이익 처우 | 대응: 노동청 진정 또는 노동위 구제신청</blockquote>',
       },
       {
         title: '직장 내 따돌림·괴롭힘에도 법적 보호를 받습니다',
@@ -298,7 +298,7 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       {
         title: '점유자와 협의 퇴거도 적극 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">이사비를 지급하고 합의 퇴거하는 것이 시간·비용 면에서 유리할 수 있습니다</strong></p>\n<p>명도소송과 강제집행에 드는 시간(6개월~1년 이상)과 비용을 고려하면, 점유자에게 <strong>이사비(이주보상금)</strong>를 지급하고 합의 퇴거하는 것이 더 효율적일 수 있습니다. 이사비는 보통 <strong>100만~500만원</strong> 선에서 협의합니다.</p>\n<p>합의 시 반드시 <strong>퇴거 합의서</strong>를 작성하고, 퇴거 기한, 이사비 금액, 미이행 시 조치 등을 명시하세요. 합의서에 <strong>공증</strong>을 받아두면 이행하지 않을 때 바로 강제집행이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">협의 퇴거: 이사비 100만~500만원 | 합의서 공증 필수 | 미이행 시 즉시 강제집행 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">이사비를 지급하고 합의 퇴거하는 것이 시간·비용 면에서 유리할 수 있습니다</strong></p>\n<p>명도소송과 강제집행에 드는 시간(6개월~1년 이상)과 비용을 고려하면, 점유자에게 <strong>이사비(이주보상금)</strong>를 지급하고 합의 퇴거하는 것이 더 효율적일 수 있습니다. 이사비는 보통 <strong>100만~500만원</strong> 선에서 협의합니다.</p>\n<p>합의 시 가능한 한 <strong>퇴거 합의서</strong>를 작성하고, 퇴거 기한, 이사비 금액, 미이행 시 조치 등을 명시하세요. 합의서에 <strong>공증</strong>을 받아두면 이행하지 않을 때 바로 강제집행이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">협의 퇴거: 이사비 100만~500만원 | 합의서 공증 필수 | 미이행 시 즉시 강제집행 가능</blockquote>',
       },
     ],
     cases: [
@@ -355,13 +355,13 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       title: '경매 권리분석 7가지 필수 체크리스트 — 초보자용 | 로앤가이드',
       description: '경매 입찰을 준비하고 있지만 권리분석이 막막하신가요? 등기부등본부터 대항력, 유치권까지 7가지 핵심 체크포인트를 지금 확인하세요.',
     },
-    intro: '법원 경매로 시세보다 저렴하게 부동산을 살 수 있다는 말에 관심이 생겼습니다. 그런데 "권리분석을 잘못하면 큰 손해를 본다"는 경고도 많습니다. 입찰 전에 반드시 확인해야 할 권리분석 핵심 체크리스트를 정리했습니다.',
+    intro: '법원 경매로 시세보다 저렴하게 부동산을 살 수 있다는 말에 관심이 생겼습니다. 그런데 "권리분석을 잘못하면 큰 손해를 본다"는 경고도 많습니다. 입찰 전에 가능한 한 확인해야 할 권리분석 핵심 체크리스트를 정리했습니다.',
     timelineSteps: ['등기부등본 분석', '매각물건명세서 확인', '현장조사', '입찰가 산정'],
     sections: [
       {
         title: '체크 1: 등기부등본의 권리관계를 분석하세요',
         content:
-          '<p><strong style="color:#1e3a5f">말소기준권리를 찾아 소멸되는 권리와 인수되는 권리를 구분하세요</strong></p>\n<p>경매 권리분석의 핵심은 <strong>말소기준권리</strong>를 찾는 것입니다. 말소기준권리(압류, 가압류, 담보가등기, 근저당권 중 가장 먼저 설정된 것)를 기준으로, 그 <strong>이후</strong>에 설정된 권리는 매각으로 소멸하고, 그 <strong>이전</strong>에 설정된 권리는 낙찰자가 인수해야 합니다.</p>\n<p>특히 <strong>선순위 전세권, 지상권, 지역권</strong> 등이 있으면 낙찰자가 떠안게 됩니다. 인수해야 할 권리의 금액이 크면 실질적인 매입 비용이 늘어나므로 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ①: 말소기준권리 찾기 → 이후 권리 = 소멸 | 이전 권리 = 인수 | 인수 금액 반영하여 입찰가 산정</blockquote>',
+          '<p><strong style="color:#1e3a5f">말소기준권리를 찾아 소멸되는 권리와 인수되는 권리를 구분하세요</strong></p>\n<p>경매 권리분석의 핵심은 <strong>말소기준권리</strong>를 찾는 것입니다. 말소기준권리(압류, 가압류, 담보가등기, 근저당권 중 가장 먼저 설정된 것)를 기준으로, 그 <strong>이후</strong>에 설정된 권리는 매각으로 소멸하고, 그 <strong>이전</strong>에 설정된 권리는 낙찰자가 인수해야 합니다.</p>\n<p>특히 <strong>선순위 전세권, 지상권, 지역권</strong> 등이 있으면 낙찰자가 떠안게 됩니다. 인수해야 할 권리의 금액이 크면 실질적인 매입 비용이 늘어나므로 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ①: 말소기준권리 찾기 → 이후 권리 = 소멸 | 이전 권리 = 인수 | 인수 금액 반영하여 입찰가 산정</blockquote>',
       },
       {
         title: '체크 2: 매각물건명세서와 현황조사보고서를 확인하세요',
@@ -381,12 +381,12 @@ export const spokesBatch16Part1Pages: SpokePage[] = [
       {
         title: '체크 5: 현장 방문으로 실제 상태를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">서류만으로는 알 수 없는 정보를 현장에서 직접 확인해야 합니다</strong></p>\n<p>입찰 전 반드시 <strong>현장 방문</strong>을 하세요. 확인할 사항은 ①실제 점유자가 누구인지 ②건물 상태(하자, 노후도, 불법증축 여부) ③유치권 주장 유무 ④주변 시세와 임대 수요 ⑤도로 접도 여부(토지의 경우)입니다.</p>\n<p>점유자가 문을 열어주지 않을 수 있으므로, <strong>주변 부동산 중개사무소</strong>에 방문하여 해당 물건의 정보를 수집하는 것도 좋은 방법입니다. 현장 방문은 가급적 <strong>평일 낮과 주말</strong> 두 번 이상 방문하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ⑤: 현장 방문(점유자·건물상태·유치권·시세·접도) | 2회 이상 방문 권장 | 인근 중개소 정보 수집</blockquote>',
+          '<p><strong style="color:#1e3a5f">서류만으로는 알 수 없는 정보를 현장에서 직접 확인해야 합니다</strong></p>\n<p>입찰 전 가능한 한 <strong>현장 방문</strong>을 하세요. 확인할 사항은 ①실제 점유자가 누구인지 ②건물 상태(하자, 노후도, 불법증축 여부) ③유치권 주장 유무 ④주변 시세와 임대 수요 ⑤도로 접도 여부(토지의 경우)입니다.</p>\n<p>점유자가 문을 열어주지 않을 수 있으므로, <strong>주변 부동산 중개사무소</strong>에 방문하여 해당 물건의 정보를 수집하는 것도 좋은 방법입니다. 현장 방문은 가급적 <strong>평일 낮과 주말</strong> 두 번 이상 방문하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ⑤: 현장 방문(점유자·건물상태·유치권·시세·접도) | 2회 이상 방문 권장 | 인근 중개소 정보 수집</blockquote>',
       },
       {
         title: '체크 6~7: 배당표 예상과 수익성 분석',
         content:
-          '<p><strong style="color:#1e3a5f">예상 배당표를 작성하여 실질 매입가와 수익성을 분석하세요</strong></p>\n<p>낙찰가에서 각 채권자에게 돌아갈 <strong>배당금</strong>을 예상해보세요. 대항력 있는 임차인의 미배당 보증금, 체납 관리비 등을 낙찰가에 더한 것이 <strong>실질 매입가</strong>입니다. 이를 시세와 비교하여 수익성을 분석하세요.</p>\n<p>또한 <strong>취득세</strong>(경매의 경우 일반 매매와 동일), <strong>명도비용</strong>(이사비, 법적 비용), <strong>수리비</strong> 등 부대비용도 반드시 포함하세요. 시세 대비 <strong>70~80%</strong> 이하가 되어야 수익이 난다고 보는 것이 일반적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ⑥~⑦: 실질매입가 = 낙찰가 + 인수부담 + 부대비용 | 시세 70~80% 이하 목표</blockquote>',
+          '<p><strong style="color:#1e3a5f">예상 배당표를 작성하여 실질 매입가와 수익성을 분석하세요</strong></p>\n<p>낙찰가에서 각 채권자에게 돌아갈 <strong>배당금</strong>을 예상해보세요. 대항력 있는 임차인의 미배당 보증금, 체납 관리비 등을 낙찰가에 더한 것이 <strong>실질 매입가</strong>입니다. 이를 시세와 비교하여 수익성을 분석하세요.</p>\n<p>또한 <strong>취득세</strong>(경매의 경우 일반 매매와 동일), <strong>명도비용</strong>(이사비, 법적 비용), <strong>수리비</strong> 등 부대비용도 가능한 한 포함하세요. 시세 대비 <strong>70~80%</strong> 이하가 되어야 수익이 난다고 보는 것이 일반적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 ⑥~⑦: 실질매입가 = 낙찰가 + 인수부담 + 부대비용 | 시세 70~80% 이하 목표</blockquote>',
       },
     ],
     cases: [

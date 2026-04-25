@@ -227,18 +227,18 @@ export const spokesBatch27RetirementWage: SpokePage[] = [
     sections: [
       {
         title: '5인 미만에도 적용되는 규정',
-        content: '<p><strong style="color:#1e3a5f">5인 미만 사업장에서도 다음 규정은 반드시 적용됩니다.</strong></p>\n<ul>\n<li><strong>임금 지급 원칙</strong> — 임금은 매월 1회 이상 정기적으로 전액 지급해야 합니다.</li>\n<li><strong>최저임금</strong> — 2026년 시급 10,030원이 동일하게 적용됩니다.</li>\n<li><strong>퇴직금</strong> — 1년 이상 근무 시 퇴직금을 지급해야 합니다.</li>\n<li><strong>근로계약서 교부</strong> — 서면 근로계약서 교부 의무가 있습니다.</li>\n<li><strong>퇴직 후 14일 내 금품 청산</strong> — 퇴직 후 14일 내에 모든 금품을 지급해야 합니다.</li>\n</ul>',
+        content: '<p><strong style="color:#1e3a5f">5인 미만 사업장에서도 다음 규정은 가능한 한 적용됩니다.</strong></p>\n<ul>\n<li><strong>임금 지급 원칙</strong> — 임금은 매월 1회 이상 정기적으로 전액 지급해야 합니다.</li>\n<li><strong>최저임금</strong> — 2026년 시급 10,030원이 동일하게 적용됩니다.</li>\n<li><strong>퇴직금</strong> — 1년 이상 근무 시 퇴직금을 지급해야 합니다.</li>\n<li><strong>근로계약서 교부</strong> — 서면 근로계약서 교부 의무가 있습니다.</li>\n<li><strong>퇴직 후 14일 내 금품 청산</strong> — 퇴직 후 14일 내에 모든 금품을 지급해야 합니다.</li>\n</ul>',
       },
       {
         title: '5인 미만에서 적용되지 않는 규정',
-        content: '<p><strong style="color:#1e3a5f">아래 규정은 5인 미만 사업장에서 적용되지 않습니다.</strong></p>\n<ul>\n<li>연장·야간·휴일 근로수당 가산(50%)</li>\n<li>연차유급휴가</li>\n<li>부당해고 구제신청(노동위원회)</li>\n<li>생리휴가, 육아휴직(고용보험법 적용은 가능)</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 가산수당과 연차는 적용되지 않지만, 임금 지급 자체와 퇴직금은 반드시 보호됩니다.</blockquote>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>5인 미만 사업장에서 내 권리, AI가 정리합니다</strong></p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+        content: '<p><strong style="color:#1e3a5f">아래 규정은 5인 미만 사업장에서 적용되지 않습니다.</strong></p>\n<ul>\n<li>연장·야간·휴일 근로수당 가산(50%)</li>\n<li>연차유급휴가</li>\n<li>부당해고 구제신청(노동위원회)</li>\n<li>생리휴가, 육아휴직(고용보험법 적용은 가능)</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 가산수당과 연차는 적용되지 않지만, 임금 지급 자체와 퇴직금은 가능한 한 보호됩니다.</blockquote>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>5인 미만 사업장에서 내 권리, AI가 정리합니다</strong></p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '임금체불 신고 방법',
         content: '<p><strong style="color:#1e3a5f">5인 미만이라도 임금체불 신고는 동일하게 가능합니다.</strong></p>\n<ol>\n<li><strong>고용노동청 진정</strong> — 관할 고용노동청에 임금체불 진정을 접수합니다.</li>\n<li><strong>소액사건심판</strong> — 3,000만원 이하 청구 시 간편하게 소송을 제기할 수 있습니다.</li>\n<li><strong>형사 고소</strong> — 임금체불은 형사처벌 대상이므로 사업주를 고소할 수 있습니다.</li>\n</ol>',
       },
     ],
-    cases: [{ title: '판례 — 5인 미만 사업장과 최저임금', summary: '최저임금법은 사업장 규모에 관계없이 모든 사업장에 적용됩니다. 5인 미만이라도 최저임금 미달 지급은 3년 이하 징역 또는 2,000만원 이하 벌금에 해당합니다.', takeaway: '"5인 미만이라 못 받는다"는 말에 속지 마세요. 최저임금, 퇴직금, 임금 지급 원칙은 동일하게 적용됩니다.' }],
+    cases: [{ title: '판례 — 5인 미만 사업장과 최저임금', summary: '최저임금법은 사업장 규모에 관계없이 모든 사업장에 적용됩니다. 5인 미만이라도 최저임금 미달 지급은 3년 이하 징역 또는 2,000만원 이하 벌금에 해당할 소지가 있습니다.', takeaway: '"5인 미만이라 못 받는다"는 말에 속지 마세요. 최저임금, 퇴직금, 임금 지급 원칙은 동일하게 적용됩니다.' }],
     faq: [
       { question: '5인 기준은 어떻게 계산하나요?', answer: '<p>상시 근로자 수 기준입니다. 사업장에서 통상적으로 일하는 근로자(아르바이트 포함)의 수를 매일 파악하여 산정합니다.</p>' },
       { question: '야근해도 가산수당을 못 받는 건가요?', answer: '<p>5인 미만 사업장에서는 연장·야간·휴일 가산수당 규정이 적용되지 않습니다. 다만 근로계약서에 별도 약정이 있으면 그에 따릅니다.</p>' },
@@ -300,9 +300,9 @@ export const spokesBatch27RetirementWage: SpokePage[] = [
     perspective: 'victim',
     meta: {
       title: '퇴직 후 마지막 급여 미지급 시 대처법 4단계 | 로앤가이드',
-      description: '퇴사 후 14일 이내에 마지막 급여를 못 받았다면 임금체불에 해당합니다. 대처법 4단계를 지금 확인하세요.',
+      description: '퇴사 후 14일 이내에 마지막 급여를 못 받았다면 임금체불에 해당할 소지가 있습니다. 대처법 4단계를 지금 확인하세요.',
     },
-    intro: '<p>한 달 전에 퇴사했는데 아직 마지막 월급을 못 받았습니다. 회사에 연락해도 "곧 준다"는 말만 반복합니다. 근로기준법 제36조에 따라 퇴직 후 14일 이내에 모든 금품을 지급해야 하며, 이를 초과하면 임금체불에 해당합니다.</p>',
+    intro: '<p>한 달 전에 퇴사했는데 아직 마지막 월급을 못 받았습니다. 회사에 연락해도 "곧 준다"는 말만 반복합니다. 근로기준법 제36조에 따라 퇴직 후 14일 이내에 모든 금품을 지급해야 하며, 이를 초과하면 임금체불에 해당할 소지가 있습니다.</p>',
     timelineSteps: ['1단계: 14일 경과 여부 확인', '2단계: 내용증명 발송', '3단계: 고용노동청 진정', '4단계: 지연이자 포함 청구'],
     sections: [
       {
@@ -322,7 +322,7 @@ export const spokesBatch27RetirementWage: SpokePage[] = [
     faq: [
       { question: '마지막 급여에 미사용 연차수당도 포함되나요?', answer: '<p>네, 퇴직 시 미사용 연차에 대한 수당도 14일 내에 지급해야 합니다.</p>' },
       { question: '인수인계를 안 했다며 급여를 안 준다는데?', answer: '<p>인수인계 미완료를 이유로 임금 지급을 거부하는 것은 위법입니다. 임금과 인수인계는 별개의 문제입니다.</p>' },
-      { question: '소액이라도 진정을 넣을 수 있나요?', answer: '<p>금액에 관계없이 임금체불 진정이 가능합니다. 소액이라도 사업주의 형사처벌 사유에 해당합니다.</p>' },
+      { question: '소액이라도 진정을 넣을 수 있나요?', answer: '<p>금액에 관계없이 임금체불 진정이 가능합니다. 소액이라도 사업주의 형사처벌 사유에 해당할 소지가 있습니다.</p>' },
       { question: '사업주가 연락이 안 되면?', answer: '<p>고용노동청 진정을 접수하면 감독관이 사업주를 직접 조사합니다. 사업주 소재가 불명이면 형사 고발을 통해 수배 처리될 수 있습니다.</p>' },
     ],
     cta: { text: '퇴직 후 미지급 급여 + 지연이자 AI로 계산하기', link: '/chat?domain=wage' },
@@ -340,7 +340,7 @@ export const spokesBatch27RetirementWage: SpokePage[] = [
     perspective: 'victim',
     meta: {
       title: '임금체불 사업주 형사처벌 기준과 절차 | 로앤가이드',
-      description: '임금체불은 3년 이하 징역 또는 3,000만원 이하 벌금에 해당합니다. 형사처벌 절차를 지금 확인하세요.',
+      description: '임금체불은 3년 이하 징역 또는 3,000만원 이하 벌금에 해당할 소지가 있습니다. 형사처벌 절차를 지금 확인하세요.',
     },
     intro: '<p>6개월째 월급이 밀리고 있는데 사장님은 "곧 준다"만 반복합니다. 더 이상 기다릴 수 없어 형사 고소를 고려하고 있습니다. 임금체불은 근로기준법 제109조에 따라 3년 이하의 징역 또는 3,000만원 이하의 벌금에 처하는 범죄입니다.</p>',
     timelineSteps: ['1단계: 임금체불 증거 확보', '2단계: 고용노동청 진정 접수', '3단계: 근로감독관 수사', '4단계: 검찰 송치·기소'],

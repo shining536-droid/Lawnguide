@@ -299,7 +299,7 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
       {
         title: '피해자 보상 청구 절차',
         content:
-          '<p><strong style="color:#1e3a5f">고령 운전자 사고 피해자는 상대방 보험에 보상을 청구하되, 과실 비율 산정에 주의해야 합니다.</strong></p>\n<ul>\n<li><strong>보험 청구</strong> — 상대방 자동차보험(대인·대물)에 치료비, 휴업손해, 위자료 등을 청구합니다. 무보험 차량인 경우 정부보장사업에 청구합니다.</li>\n<li><strong>과실 비율 다툼</strong> — 보험사가 피해자 과실을 높게 잡으면, 도로교통공단 과실비율 인정기준을 근거로 반박하세요.</li>\n<li><strong>후유장해 평가</strong> — 고령 운전자 사고는 피해가 심각한 경우가 많으므로, 치료 종료 후 후유장해 등급을 반드시 평가받아야 합니다.</li>\n<li><strong>형사 합의</strong> — 중상해 또는 사망사고인 경우 형사 절차가 병행되며, 피해자는 형사 합의를 통해 추가 보상을 받을 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 사고 후 상대방 운전자의 면허 상태(적성검사 이행 여부, 조건부 면허 위반)를 확인하면 과실 비율 다툼에 유리합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">고령 운전자 사고 피해자는 상대방 보험에 보상을 청구하되, 과실 비율 산정에 주의해야 합니다.</strong></p>\n<ul>\n<li><strong>보험 청구</strong> — 상대방 자동차보험(대인·대물)에 치료비, 휴업손해, 위자료 등을 청구합니다. 무보험 차량인 경우 정부보장사업에 청구합니다.</li>\n<li><strong>과실 비율 다툼</strong> — 보험사가 피해자 과실을 높게 잡으면, 도로교통공단 과실비율 인정기준을 근거로 반박하세요.</li>\n<li><strong>후유장해 평가</strong> — 고령 운전자 사고는 피해가 심각한 경우가 많으므로, 치료 종료 후 후유장해 등급을 가능한 한 평가받아야 합니다.</li>\n<li><strong>형사 합의</strong> — 중상해 또는 사망사고인 경우 형사 절차가 병행되며, 피해자는 형사 합의를 통해 추가 보상을 받을 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 사고 후 상대방 운전자의 면허 상태(적성검사 이행 여부, 조건부 면허 위반)를 확인하면 과실 비율 다툼에 유리합니다.</blockquote>',
       },
     ],
     cases: [
@@ -315,12 +315,12 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
       {
         question: '75세 이상 면허 갱신 절차는 어떻게 되나요?',
         answer:
-          '<strong>75세 이상은 면허 갱신 시 인지능력검사와 교통안전교육(2시간)을 반드시 이수해야 합니다.</strong> 운전면허시험장이나 지정 의료기관에서 검사를 받으며, 불합격 시 6개월 이내 재검사 기회가 주어집니다.',
+          '<strong>75세 이상은 면허 갱신 시 인지능력검사와 교통안전교육(2시간)을 가능한 한 이수해야 합니다.</strong> 운전면허시험장이나 지정 의료기관에서 검사를 받으며, 불합격 시 6개월 이내 재검사 기회가 주어집니다.',
       },
       {
         question: '치매 진단을 받은 사람이 사고를 내면 어떻게 되나요?',
         answer:
-          '<strong>치매 진단을 받으면 면허 취소 사유에 해당하며, 면허가 취소된 상태에서 운전하면 무면허 운전으로 가중처벌됩니다.</strong> 사고 피해자는 무면허 운전에 의한 사고로 보험금 청구 시 유리하며, 가해자의 가족에게 관리 책임을 물을 수도 있습니다.',
+          '<strong>치매 진단을 받으면 면허 취소 사유에 해당하며, 면허가 취소된 상태에서 운전하면 무면허 운전으로 가중처벌 대상으로 검토될 수 있습니다.</strong> 사고 피해자는 무면허 운전에 의한 사고로 보험금 청구 시 유리하며, 가해자의 가족에게 관리 책임을 물을 수도 있습니다.',
       },
       {
         question: '조건부 면허란 무엇인가요?',
@@ -381,7 +381,7 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
       {
         title: '예방 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">부동산 거래 전 등기부등본 확인, 중개사 자격 검증, 현장 방문을 반드시 수행하세요.</strong></p>\n<ul>\n<li><strong>등기부등본 직접 확인</strong> — 인터넷등기소에서 해당 부동산의 등기부등본을 직접 열람하여 소유자, 근저당, 가압류 등을 확인합니다.</li>\n<li><strong>공인중개사 자격 확인</strong> — 국가공간정보포털 또는 시·군·구청에서 해당 중개사의 등록 여부를 확인합니다. 미등록 중개는 불법입니다.</li>\n<li><strong>현장 방문 필수</strong> — 온라인 사진만 믿지 말고 반드시 현장을 방문하여 매물 상태와 실제 소유자를 확인합니다.</li>\n<li><strong>계약금 보호</strong> — 계약금은 부동산 중개업소 공제증서 발급 후 지급하고, 가능하면 에스크로 계좌를 이용합니다. 개인 계좌로의 직접 이체는 피하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "계약서를 먼저 보내드릴 테니 계약금부터 보내달라"는 요구는 거의 100% 사기입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">부동산 거래 전 등기부등본 확인, 중개사 자격 검증, 현장 방문을 가능한 한 수행하세요.</strong></p>\n<ul>\n<li><strong>등기부등본 직접 확인</strong> — 인터넷등기소에서 해당 부동산의 등기부등본을 직접 열람하여 소유자, 근저당, 가압류 등을 확인합니다.</li>\n<li><strong>공인중개사 자격 확인</strong> — 국가공간정보포털 또는 시·군·구청에서 해당 중개사의 등록 여부를 확인합니다. 미등록 중개는 불법입니다.</li>\n<li><strong>현장 방문 필수</strong> — 온라인 사진만 믿지 말고 가능한 한 현장을 방문하여 매물 상태와 실제 소유자를 확인합니다.</li>\n<li><strong>계약금 보호</strong> — 계약금은 부동산 중개업소 공제증서 발급 후 지급하고, 가능하면 에스크로 계좌를 이용합니다. 개인 계좌로의 직접 이체는 피하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "계약서를 먼저 보내드릴 테니 계약금부터 보내달라"는 요구는 거의 100% 사기로 검토될 수 있습니다.</blockquote>',
       },
     ],
     cases: [
@@ -448,7 +448,7 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
       {
         title: 'SNS 투자 사기 유형(리딩방·코인·FX)',
         content:
-          '<p><strong style="color:#1e3a5f">SNS 투자 사기는 주식 리딩방, 가상자산(코인), FX마진 거래, 부동산 투자 등 다양한 형태로 나타나며, 공통적으로 고수익을 미끼로 합니다.</strong></p>\n<ul>\n<li><strong>주식 리딩방</strong> — "전문가가 종목을 알려준다"며 입회비·수수료를 받고, 허위 수익 인증으로 추가 투자를 유도합니다. 무등록 투자자문업 위반에 해당합니다.</li>\n<li><strong>가상자산(코인) 사기</strong> — "신규 상장 코인 사전 배정" 등으로 유인하여 가짜 거래소에 입금하게 합니다. 출금 시 각종 수수료를 요구하는 것이 특징입니다.</li>\n<li><strong>FX마진 거래 사기</strong> — "월 20% 수익 보장"을 내세우며 해외 무등록 거래소에 투자를 유도합니다. 실제로는 투자금이 운용되지 않고 편취됩니다.</li>\n<li><strong>공통 수법</strong> — SNS 광고 → 오픈채팅방 유입 → 소액 수익 체험 → 대액 투자 유도 → 출금 차단 → 추가 입금 요구의 단계를 밟습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "원금 보장", "확정 수익"을 약속하는 투자는 100% 사기이거나 불법입니다. 자본시장법상 원금 보장 약속은 위법입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">SNS 투자 사기는 주식 리딩방, 가상자산(코인), FX마진 거래, 부동산 투자 등 다양한 형태로 나타나며, 공통적으로 고수익을 미끼로 합니다.</strong></p>\n<ul>\n<li><strong>주식 리딩방</strong> — "전문가가 종목을 알려준다"며 입회비·수수료를 받고, 허위 수익 인증으로 추가 투자를 유도합니다. 무등록 투자자문업 위반에 해당할 소지가 있습니다.</li>\n<li><strong>가상자산(코인) 사기</strong> — "신규 상장 코인 사전 배정" 등으로 유인하여 가짜 거래소에 입금하게 합니다. 출금 시 각종 수수료를 요구하는 것이 특징입니다.</li>\n<li><strong>FX마진 거래 사기</strong> — "월 20% 수익 보장"을 내세우며 해외 무등록 거래소에 투자를 유도합니다. 실제로는 투자금이 운용되지 않고 편취됩니다.</li>\n<li><strong>공통 수법</strong> — SNS 광고 → 오픈채팅방 유입 → 소액 수익 체험 → 대액 투자 유도 → 출금 차단 → 추가 입금 요구의 단계를 밟습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "원금 보장", "확정 수익"을 약속하는 투자는 100% 사기이거나 불법입니다. 자본시장법상 원금 보장 약속은 위법입니다.</blockquote>',
       },
       {
         title: '피해 직후 증거 확보와 계좌 동결',
@@ -458,7 +458,7 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
       {
         title: '형사고소와 피해 구제 절차',
         content:
-          '<p><strong style="color:#1e3a5f">경찰 신고, 금융감독원 피해구제, 검찰 고소를 병행하여 다각도로 피해를 회복해야 합니다.</strong></p>\n<ul>\n<li><strong>경찰 신고</strong> — 사이버수사대에 사기 피해를 신고합니다(ecrm.police.go.kr). 고소장에 피해 경위, 사기범 정보, 증거 목록을 첨부합니다.</li>\n<li><strong>금감원 피해구제</strong> — 금융감독원(1332)에 피해구제를 신청하면, 사기 계좌 잔액에서 환급을 받을 수 있습니다. 여러 피해자가 있으면 잔액을 비율로 나눕니다.</li>\n<li><strong>검찰 고소</strong> — 사기죄(형법 제347조)와 유사수신행위법 위반으로 고소합니다. 조직적 사기인 경우 특정경제범죄법이 적용되어 가중처벌됩니다.</li>\n<li><strong>피해자 공동 대응</strong> — 같은 피해를 입은 사람들이 공동으로 고소하면 수사 역량이 집중되어 검거 가능성이 높아집니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 피해 금액이 5억 원 이상이면 특정경제범죄법(3년 이상 징역)이 적용되므로 검찰에 직접 고소하는 것이 효과적입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰 신고, 금융감독원 피해구제, 검찰 고소를 병행하여 다각도로 피해를 회복해야 합니다.</strong></p>\n<ul>\n<li><strong>경찰 신고</strong> — 사이버수사대에 사기 피해를 신고합니다(ecrm.police.go.kr). 고소장에 피해 경위, 사기범 정보, 증거 목록을 첨부합니다.</li>\n<li><strong>금감원 피해구제</strong> — 금융감독원(1332)에 피해구제를 신청하면, 사기 계좌 잔액에서 환급을 받을 수 있습니다. 여러 피해자가 있으면 잔액을 비율로 나눕니다.</li>\n<li><strong>검찰 고소</strong> — 사기죄(형법 제347조)와 유사수신행위법 위반으로 고소합니다. 조직적 사기인 경우 특정경제범죄법이 적용되어 가중처벌 대상으로 검토될 수 있습니다.</li>\n<li><strong>피해자 공동 대응</strong> — 같은 피해를 입은 사람들이 공동으로 고소하면 수사 역량이 집중되어 검거 가능성이 높아집니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 피해 금액이 5억 원 이상이면 특정경제범죄법(3년 이상 징역)이 적용되므로 검찰에 직접 고소하는 것이 효과적입니다.</blockquote>',
       },
       {
         title: '민사 손해배상 청구',
@@ -535,7 +535,7 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
       {
         title: '면책 불허가 사유와 도박의 관계',
         content:
-          '<p><strong style="color:#1e3a5f">채무자 회생법 제624조 제2항은 "과대한 낭비 또는 도박 기타 사행행위"를 면책 불허가 사유로 규정하고 있습니다.</strong></p>\n<ul>\n<li><strong>법조문</strong> — 채무자 회생법 제624조 제2항 제4호: "낭비, 도박 기타 사행행위를 하여 현저히 재산을 감소시키거나 과대한 채무를 부담한 사실이 있는 때"</li>\n<li><strong>재량적 불허가</strong> — 위 사유는 면책을 반드시 불허하는 절대적 사유가 아니라, 법원이 재량으로 판단하는 상대적 사유입니다.</li>\n<li><strong>판단 기준</strong> — 법원은 도박의 기간·빈도·금액, 채무자의 반성 여부, 현재 도박 중단 여부, 변제계획 이행 가능성을 종합 고려합니다.</li>\n<li><strong>실무 경향</strong> — 도박을 완전히 중단하고, 성실하게 변제계획을 이행하며, 재기 의지를 보여주면 면책이 허가되는 사례가 많습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 면책 가능성과 필요 서류를 분석해드립니다.</p>\n<a href="/chat?domain=rehabilitation" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">채무자 회생법 제624조 제2항은 "과대한 낭비 또는 도박 기타 사행행위"를 면책 불허가 사유로 규정하고 있습니다.</strong></p>\n<ul>\n<li><strong>법조문</strong> — 채무자 회생법 제624조 제2항 제4호: "낭비, 도박 기타 사행행위를 하여 현저히 재산을 감소시키거나 과대한 채무를 부담한 사실이 있는 때"</li>\n<li><strong>재량적 불허가</strong> — 위 사유는 면책을 가능한 한 불허하는 절대적 사유가 아니라, 법원이 재량으로 판단하는 상대적 사유입니다.</li>\n<li><strong>판단 기준</strong> — 법원은 도박의 기간·빈도·금액, 채무자의 반성 여부, 현재 도박 중단 여부, 변제계획 이행 가능성을 종합 고려합니다.</li>\n<li><strong>실무 경향</strong> — 도박을 완전히 중단하고, 성실하게 변제계획을 이행하며, 재기 의지를 보여주면 면책이 허가되는 사례가 많습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 면책 가능성과 필요 서류를 분석해드립니다.</p>\n<a href="/chat?domain=rehabilitation" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '법원이 면책을 허가하는 기준',
@@ -704,12 +704,12 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
       {
         title: '보증사고 발생 시 청구 절차',
         content:
-          '<p><strong style="color:#1e3a5f">임대인이 보증금을 반환하지 않으면 보증기관에 보증이행을 청구하여 보증금을 돌려받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>보증사고 확인</strong> — 임대차 계약 만료 후 임대인이 1개월 이상 보증금을 반환하지 않으면 보증사고에 해당합니다.</li>\n<li><strong>보증이행 청구</strong> — 보증기관(HUG, HF 등)에 보증이행청구서, 임대차계약서, 전입세대확인서, 내용증명 발송 확인서 등을 제출합니다.</li>\n<li><strong>심사 및 지급</strong> — 보증기관이 서류를 심사하고 보증사고를 확인한 후, 통상 1~2개월 이내에 보증금을 지급합니다.</li>\n<li><strong>대위변제 후 절차</strong> — 보증기관이 보증금을 지급한 후, 임대인에게 구상권을 행사합니다. 세입자는 보증금을 수령하고 퇴거하면 됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 계약 만료 전 임대인에게 보증금 반환을 내용증명으로 요청해두면, 보증사고 청구 시 절차가 빨라집니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임대인이 보증금을 반환하지 않으면 보증기관에 보증이행을 청구하여 보증금을 돌려받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>보증사고 확인</strong> — 임대차 계약 만료 후 임대인이 1개월 이상 보증금을 반환하지 않으면 보증사고에 해당할 소지가 있습니다.</li>\n<li><strong>보증이행 청구</strong> — 보증기관(HUG, HF 등)에 보증이행청구서, 임대차계약서, 전입세대확인서, 내용증명 발송 확인서 등을 제출합니다.</li>\n<li><strong>심사 및 지급</strong> — 보증기관이 서류를 심사하고 보증사고를 확인한 후, 통상 1~2개월 이내에 보증금을 지급합니다.</li>\n<li><strong>대위변제 후 절차</strong> — 보증기관이 보증금을 지급한 후, 임대인에게 구상권을 행사합니다. 세입자는 보증금을 수령하고 퇴거하면 됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 계약 만료 전 임대인에게 보증금 반환을 내용증명으로 요청해두면, 보증사고 청구 시 절차가 빨라집니다.</blockquote>',
       },
       {
         title: '미가입 시 대처법',
         content:
-          '<p><strong style="color:#1e3a5f">반환보증보험에 가입하지 못했거나 안 했다면, 임차권등기명령, 지급명령, 소송 등 법적 수단으로 보증금을 회수해야 합니다.</strong></p>\n<ul>\n<li><strong>임차권등기명령</strong> — 계약 만료 후 보증금을 돌려받지 못한 상태에서 이사해야 할 때, 법원에 임차권등기명령을 신청하여 대항력을 유지합니다.</li>\n<li><strong>지급명령 신청</strong> — 보증금 반환 청구를 위해 법원에 지급명령을 신청합니다. 비용이 소액사건 소송보다 저렴하고 빠릅니다.</li>\n<li><strong>임대차보증금 반환소송</strong> — 임대인이 지급명령에 이의하면 본안 소송으로 전환됩니다. 소액사건(3,000만 원 이하)은 1회 심리로 빠르게 처리됩니다.</li>\n<li><strong>경매 배당</strong> — 임대인 소유 부동산에 강제경매를 신청하여, 경매 대금에서 보증금을 배당받을 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 보증보험 미가입 시 보증금 회수에 6개월~2년이 소요될 수 있으므로, 가능하면 반드시 가입하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">반환보증보험에 가입하지 못했거나 안 했다면, 임차권등기명령, 지급명령, 소송 등 법적 수단으로 보증금을 회수해야 합니다.</strong></p>\n<ul>\n<li><strong>임차권등기명령</strong> — 계약 만료 후 보증금을 돌려받지 못한 상태에서 이사해야 할 때, 법원에 임차권등기명령을 신청하여 대항력을 유지합니다.</li>\n<li><strong>지급명령 신청</strong> — 보증금 반환 청구를 위해 법원에 지급명령을 신청합니다. 비용이 소액사건 소송보다 저렴하고 빠릅니다.</li>\n<li><strong>임대차보증금 반환소송</strong> — 임대인이 지급명령에 이의하면 본안 소송으로 전환됩니다. 소액사건(3,000만 원 이하)은 1회 심리로 빠르게 처리됩니다.</li>\n<li><strong>경매 배당</strong> — 임대인 소유 부동산에 강제경매를 신청하여, 경매 대금에서 보증금을 배당받을 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 보증보험 미가입 시 보증금 회수에 6개월~2년이 소요될 수 있으므로, 가능하면 가능한 한 가입하세요.</blockquote>',
       },
     ],
     cases: [
@@ -771,12 +771,12 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
         '전세에서 월세로 전환을 요구받았는데 적정 전환율이 궁금하다면 법적 상한과 분쟁 대응법을 지금 확인하세요',
     },
     intro:
-      '<p>전세 계약 갱신 시 임대인이 "전세보증금 일부를 월세로 전환하겠다"고 통보합니다. 보증금 3억 원 중 1억 원을 빼고 월세 50만 원을 내라는데, 이 전환율이 적정한지 판단이 서지 않습니다. 주택임대차보호법은 전월세 전환율의 상한을 정해두고 있으며, 이를 초과하는 전환은 위법합니다. 적정 전환율 계산 방법과 분쟁 대응법을 정리해보세요.</p>',
+      '<p>전세 계약 갱신 시 임대인이 "전세보증금 일부를 월세로 전환하겠다"고 통보합니다. 보증금 3억 원 중 1억 원을 빼고 월세 50만 원을 내라는데, 이 전환율이 적정한지 판단이 서지 않습니다. 주택임대차보호법은 전월세 전환율의 상한을 정해두고 있으며, 이를 초과하는 전환은 위법 소지가 있습니다. 적정 전환율 계산 방법과 분쟁 대응법을 정리해보세요.</p>',
     sections: [
       {
         title: '전환율 법적 상한(주택임대차보호법)',
         content:
-          '<p><strong style="color:#1e3a5f">주택임대차보호법 제7조의2는 전세보증금을 월세로 전환할 때 적용되는 전환율의 상한을 규정하고 있습니다.</strong></p>\n<ul>\n<li><strong>법정 상한</strong> — 전환율은 한국은행 기준금리 + 대통령령이 정한 비율(현재 2%) 이내여야 합니다. 2026년 4월 기준 한국은행 기준금리를 감안하면 전환율 상한은 약 4.75~5.0% 수준입니다.</li>\n<li><strong>계산 공식</strong> — 월 차임 = (보증금 감소분 × 전환율) ÷ 12</li>\n<li><strong>상한 초과 시</strong> — 법정 상한을 초과하는 전환율은 초과 부분이 무효이며, 세입자는 상한 이내의 월세만 지급하면 됩니다.</li>\n<li><strong>기준금리 변동</strong> — 기준금리가 변동되면 전환율 상한도 함께 변동됩니다. 계약 시점의 기준금리를 기준으로 판단합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 전환율 상한은 기준금리 + 2%이며, 이를 초과하는 월세를 요구하면 위법합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">주택임대차보호법 제7조의2는 전세보증금을 월세로 전환할 때 적용되는 전환율의 상한을 규정하고 있습니다.</strong></p>\n<ul>\n<li><strong>법정 상한</strong> — 전환율은 한국은행 기준금리 + 대통령령이 정한 비율(현재 2%) 이내여야 합니다. 2026년 4월 기준 한국은행 기준금리를 감안하면 전환율 상한은 약 4.75~5.0% 수준입니다.</li>\n<li><strong>계산 공식</strong> — 월 차임 = (보증금 감소분 × 전환율) ÷ 12</li>\n<li><strong>상한 초과 시</strong> — 법정 상한을 초과하는 전환율은 초과 부분이 무효이며, 세입자는 상한 이내의 월세만 지급하면 됩니다.</li>\n<li><strong>기준금리 변동</strong> — 기준금리가 변동되면 전환율 상한도 함께 변동됩니다. 계약 시점의 기준금리를 기준으로 판단합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 전환율 상한은 기준금리 + 2%이며, 이를 초과하는 월세를 요구하면 위법 소지가 있습니다.</blockquote>',
       },
       {
         title: '적정 전환율 계산 방법',
@@ -791,7 +791,7 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
       {
         title: '전환 합의서 작성 시 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">전월세 전환에 합의할 때는 전환율, 월세 금액, 보증금 변동, 계약 기간 등을 명확히 기재한 합의서를 작성해야 합니다.</strong></p>\n<ul>\n<li><strong>합의서 필수 기재</strong> — 전환 전 보증금, 전환 후 보증금, 월 차임, 전환율, 적용 시작일, 계약 잔여 기간을 명시합니다.</li>\n<li><strong>확정일자 재수령</strong> — 보증금이 변경되면 변경 계약서에 대해 확정일자를 다시 받아야 우선변제권이 유지됩니다.</li>\n<li><strong>보증보험 재가입</strong> — 보증금이 변경되면 기존 반환보증보험의 보증 금액도 변경해야 합니다. 보증기관에 변경 신청하세요.</li>\n<li><strong>증액 제한 확인</strong> — 계약갱신청구권 행사 시 전월세 전환을 포함한 총 증액분이 5%를 초과할 수 없습니다(임대차보호법 제7조).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 전환 합의서를 작성하지 않으면 나중에 전환 조건에 대한 분쟁이 발생할 수 있으므로, 반드시 서면으로 남기세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">전월세 전환에 합의할 때는 전환율, 월세 금액, 보증금 변동, 계약 기간 등을 명확히 기재한 합의서를 작성해야 합니다.</strong></p>\n<ul>\n<li><strong>합의서 필수 기재</strong> — 전환 전 보증금, 전환 후 보증금, 월 차임, 전환율, 적용 시작일, 계약 잔여 기간을 명시합니다.</li>\n<li><strong>확정일자 재수령</strong> — 보증금이 변경되면 변경 계약서에 대해 확정일자를 다시 받아야 우선변제권이 유지됩니다.</li>\n<li><strong>보증보험 재가입</strong> — 보증금이 변경되면 기존 반환보증보험의 보증 금액도 변경해야 합니다. 보증기관에 변경 신청하세요.</li>\n<li><strong>증액 제한 확인</strong> — 계약갱신청구권 행사 시 전월세 전환을 포함한 총 증액분이 5%를 초과할 수 없습니다(임대차보호법 제7조).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 전환 합의서를 작성하지 않으면 나중에 전환 조건에 대한 분쟁이 발생할 수 있으므로, 가능한 한 서면으로 남기세요.</blockquote>',
       },
     ],
     cases: [

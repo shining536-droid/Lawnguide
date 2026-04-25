@@ -122,7 +122,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       {
         title: '공연성 — 단톡방 인원수·외부 전파성이 핵심',
         content:
-          '<p><strong style="color:#1e3a5f">3~4명만 있는 폐쇄 단톡방도 외부 전파 가능성이 있으면 공연성이 인정됩니다(전파가능성 이론).</strong></p>\n<ul>\n<li><strong>다수 인원</strong> — 학급 전체 단톡방·학부모 회의방은 통상 공연성 인정.</li>\n<li><strong>전파 가능성</strong> — 특정 개인 한 명이라도 다른 학부모에게 전달할 가능성이 있으면 인정.</li>\n<li><strong>친밀 관계 예외</strong> — 가족·아주 가까운 1대1 대화는 공연성 부정 가능.</li>\n<li><strong>스크린샷 유출</strong> — 발언 후 스크린샷이 다른 채팅방에 돌면 공연성 입증이 강해짐.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "엄마들끼리 한 얘기"여도 단톡방 인원이 많고 캡처·전달이 쉬우면 공연성이 거의 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">3~4명만 있는 폐쇄 단톡방도 외부 전파 가능성이 있으면 공연성이 인정될 수 있습니다(전파가능성 이론).</strong></p>\n<ul>\n<li><strong>다수 인원</strong> — 학급 전체 단톡방·학부모 회의방은 통상 공연성 인정.</li>\n<li><strong>전파 가능성</strong> — 특정 개인 한 명이라도 다른 학부모에게 전달할 가능성이 있으면 인정.</li>\n<li><strong>친밀 관계 예외</strong> — 가족·아주 가까운 1대1 대화는 공연성 부정 가능.</li>\n<li><strong>스크린샷 유출</strong> — 발언 후 스크린샷이 다른 채팅방에 돌면 공연성 입증이 강해짐.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "엄마들끼리 한 얘기"여도 단톡방 인원이 많고 캡처·전달이 쉬우면 공연성이 거의 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '4단계 대응 — 신고 통보 직후 해야 할 일',
@@ -238,7 +238,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
     ],
     faq: [
       {
-        question: '진실한 사실을 적었으면 무조건 무죄 아닌가요?',
+        question: '진실한 사실을 적었으면 원칙적으로 무죄 아닌가요?',
         answer:
           '<strong>형법 제307조 제1항은 진실 적시도 처벌 대상이라, 제310조 위법성 조각이 별도로 입증돼야 합니다.</strong> 표현 수위·공익성을 함께 다투세요.',
       },
@@ -296,7 +296,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       {
         title: 'Q1. 등기부에 "근린생활시설"이라고 돼 있어도 보호되나요?',
         content:
-          '<p><strong style="color:#1e3a5f">주택임대차보호법은 등기 용도가 아니라 "실제 주거 용도"로 사용하는지로 판단합니다.</strong></p>\n<ul>\n<li><strong>주택임대차보호법 제2조</strong> — "주거용 건물의 전부 또는 일부"가 적용 대상.</li>\n<li><strong>실질 사용 기준</strong> — 등기상 상가여도 잠자고 취사하는 주거 사용이면 적용.</li>\n<li><strong>대항력</strong> — 전입신고 + 인도(이사)로 발생, 같은 법 제3조.</li>\n<li><strong>옥탑방</strong> — 무허가·불법 증축이라도 주거 사용이면 보호 대상.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 주택임대차보호법 적용은 등기보다 실제 사용으로 판단되니 전입신고·이사부터 반드시 하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">주택임대차보호법은 등기 용도가 아니라 "실제 주거 용도"로 사용하는지로 판단합니다.</strong></p>\n<ul>\n<li><strong>주택임대차보호법 제2조</strong> — "주거용 건물의 전부 또는 일부"가 적용 대상.</li>\n<li><strong>실질 사용 기준</strong> — 등기상 상가여도 잠자고 취사하는 주거 사용이면 적용.</li>\n<li><strong>대항력</strong> — 전입신고 + 인도(이사)로 발생, 같은 법 제3조.</li>\n<li><strong>옥탑방</strong> — 무허가·불법 증축이라도 주거 사용이면 보호 대상.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 주택임대차보호법 적용은 등기보다 실제 사용으로 판단되니 전입신고·이사부터 가능한 한 하세요.</blockquote>',
       },
       {
         title: 'Q2. 우선변제권은 어떻게 확보하나요?',
@@ -311,7 +311,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       {
         title: 'Q4. 불법 증축·근생 위반이면 보증금이 사라지나요?',
         content:
-          '<p><strong style="color:#1e3a5f">불법 증축이라도 주거 사용 사실이 있으면 보호되지만, 이행강제금·철거 위험이 별도로 발생합니다.</strong></p>\n<ul>\n<li><strong>주택임대차보호법 적용</strong> — 무허가 옥탑·근생 위반이라도 임차인은 보호.</li>\n<li><strong>이행강제금</strong> — 위반 사실은 임대인 책임, 임차인은 미통지 시 손해배상 청구 가능.</li>\n<li><strong>철거 명령</strong> — 행정대집행으로 철거 시 임차인 손해는 임대인 책임.</li>\n<li><strong>계약 시 고지의무</strong> — 임대인이 위반 사실 고지하지 않았으면 사기·기망 다툼 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 계약 전 건축물대장에서 "위반건축물" 표시 여부를 반드시 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">불법 증축이라도 주거 사용 사실이 있으면 보호되지만, 이행강제금·철거 위험이 별도로 발생합니다.</strong></p>\n<ul>\n<li><strong>주택임대차보호법 적용</strong> — 무허가 옥탑·근생 위반이라도 임차인은 보호.</li>\n<li><strong>이행강제금</strong> — 위반 사실은 임대인 책임, 임차인은 미통지 시 손해배상 청구 가능.</li>\n<li><strong>철거 명령</strong> — 행정대집행으로 철거 시 임차인 손해는 임대인 책임.</li>\n<li><strong>계약 시 고지의무</strong> — 임대인이 위반 사실 고지하지 않았으면 사기·기망 다툼 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 계약 전 건축물대장에서 "위반건축물" 표시 여부를 가능한 한 확인하세요.</blockquote>',
       },
     ],
     cases: [
@@ -378,12 +378,12 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
         '집주인이 보증금을 한 번에 못 준다며 분할반환을 제안한다면 합의서·이자·임차권등기 유지 여부를 안전하게 처리하는 5단계를 지금 확인하세요.',
     },
     intro:
-      '<p>"보증금 못 받고 이사 갈 수도 없는데, 집주인이 분할로 주겠다고 한다"는 상담이 늘고 있습니다. 분할반환 자체는 가능하지만 합의 조건을 잘못 정하면 임차권등기·우선변제권을 잃거나 이자·지연손해금을 받지 못할 수 있습니다. 합의서를 쓸 때 반드시 5단계 체크리스트를 거쳐야 안전합니다.</p>',
+      '<p>"보증금 못 받고 이사 갈 수도 없는데, 집주인이 분할로 주겠다고 한다"는 상담이 늘고 있습니다. 분할반환 자체는 가능하지만 합의 조건을 잘못 정하면 임차권등기·우선변제권을 잃거나 이자·지연손해금을 받지 못할 수 있습니다. 합의서를 쓸 때 가능한 한 5단계 체크리스트를 거쳐야 안전합니다.</p>',
     sections: [
       {
         title: '5단계 체크리스트 — 분할반환 합의 전 확인 사항',
         content:
-          '<p><strong style="color:#1e3a5f">합의서 한 장이 보증금을 좌우하니 다음 5가지를 반드시 명시하세요.</strong></p>\n<ol>\n<li><strong>1단계 — 잔여 보증금 정확한 액수</strong> — 차임·관리비 정산 후 미반환 금액 확정.</li>\n<li><strong>2단계 — 분할 일정·금액</strong> — 회차별 지급일·금액 표 형식으로 명시, 1회 미지급 시 즉시 잔액 일시 청구권 명시.</li>\n<li><strong>3단계 — 지연이자 약정</strong> — 보증금 미반환 지연이자 연 5~12% 약정(상사 또는 약정 이율).</li>\n<li><strong>4단계 — 임차권등기 유지</strong> — 합의 중에도 임차권등기명령 유지·신규 신청 가능.</li>\n<li><strong>5단계 — 인감증명·공증</strong> — 합의서에 임대인 인감날인·공증 권고, 강제집행 시 즉시 활용.</li>\n</ol>',
+          '<p><strong style="color:#1e3a5f">합의서 한 장이 보증금을 좌우하니 다음 5가지를 가능한 한 명시하세요.</strong></p>\n<ol>\n<li><strong>1단계 — 잔여 보증금 정확한 액수</strong> — 차임·관리비 정산 후 미반환 금액 확정.</li>\n<li><strong>2단계 — 분할 일정·금액</strong> — 회차별 지급일·금액 표 형식으로 명시, 1회 미지급 시 즉시 잔액 일시 청구권 명시.</li>\n<li><strong>3단계 — 지연이자 약정</strong> — 보증금 미반환 지연이자 연 5~12% 약정(상사 또는 약정 이율).</li>\n<li><strong>4단계 — 임차권등기 유지</strong> — 합의 중에도 임차권등기명령 유지·신규 신청 가능.</li>\n<li><strong>5단계 — 인감증명·공증</strong> — 합의서에 임대인 인감날인·공증 권고, 강제집행 시 즉시 활용.</li>\n</ol>',
       },
       {
         title: '임차권등기 — 합의해도 절대 풀지 마세요',
@@ -405,7 +405,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       {
         title: '판례 — 보증금 미반환과 임대차계약 종료 후 사용이익',
         summary:
-          '대법원 2024다227606 사건(대법원, 2025.08.14 선고)에서 법원은 임대차기간 만료 후 임대인이 보증금을 반환하지 않은 상태에서 임차인이 임차목적물을 계속 사용·수익한 경우 부당이득으로 볼 수 없다고 판시했습니다. 보증금 미반환 상태의 점유는 임차권 행사로 인정됩니다.',
+          '대법원 2024다227606 사건(대법원, 2025.08.14 선고)에서 법원은 임대차기간 만료 후 임대인이 보증금을 반환하지 않은 상태에서 임차인이 임차목적물을 계속 사용·수익한 경우 부당이득으로 볼 수 없다고 판시했습니다. 보증금 미반환 상태의 점유는 임차권 행사로 인정될 수 있습니다.',
         takeaway:
           '분할반환 합의 중에도 점유 유지·임차권등기 유지를 통해 임차인 권리는 살아 있다는 점을 확인할 수 있습니다.',
       },
@@ -414,7 +414,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       {
         question: '구두로만 분할 약속을 받았는데 효력이 있나요?',
         answer:
-          '<strong>구두 합의도 유효하지만 입증이 어렵고 강제집행이 안 됩니다.</strong> 반드시 서면 합의서 + 인감날인 또는 공증을 받으세요.',
+          '<strong>구두 합의도 유효하지만 입증이 어렵고 강제집행이 안 됩니다.</strong> 가능한 한 서면 합의서 + 인감날인 또는 공증을 받으세요.',
       },
       {
         question: '분할 도중 집주인이 부동산을 팔면 어떻게 되나요?',
@@ -833,7 +833,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       {
         title: '게임사 협조·계정 차단 — 형사 외 보호 카드',
         content:
-          '<p><strong style="color:#1e3a5f">경찰 신고와 별개로 게임사 신고를 병행하면 보호가 빨라집니다.</strong></p>\n<ul>\n<li><strong>게임사 1차 신고</strong> — 게임 내 신고 기능·고객센터로 가해자 계정 차단 요청.</li>\n<li><strong>로그 발급 요청</strong> — 형사 사건 진행 위해 게임사 로그 데이터 요청, 공문 첨부.</li>\n<li><strong>커뮤니티·SNS 차단</strong> — 같은 가해자가 다른 플랫폼으로 옮길 가능성 대비.</li>\n<li><strong>심리 지원</strong> — 한국여성의전화·서울해바라기센터 등 무료 상담·법률 지원.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 게임사 신고만으로는 형사 처벌이 없으니 반드시 경찰 스토킹 신고를 병행하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰 신고와 별개로 게임사 신고를 병행하면 보호가 빨라집니다.</strong></p>\n<ul>\n<li><strong>게임사 1차 신고</strong> — 게임 내 신고 기능·고객센터로 가해자 계정 차단 요청.</li>\n<li><strong>로그 발급 요청</strong> — 형사 사건 진행 위해 게임사 로그 데이터 요청, 공문 첨부.</li>\n<li><strong>커뮤니티·SNS 차단</strong> — 같은 가해자가 다른 플랫폼으로 옮길 가능성 대비.</li>\n<li><strong>심리 지원</strong> — 한국여성의전화·서울해바라기센터 등 무료 상담·법률 지원.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 게임사 신고만으로는 형사 처벌이 없으니 가능한 한 경찰 스토킹 신고를 병행하세요.</blockquote>',
       },
     ],
     cases: [
@@ -854,7 +854,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       {
         question: '게임 내 욕설 한두 번도 스토킹이 되나요?',
         answer:
-          '<strong>1~2회 단발성은 모욕죄·명예훼손은 가능해도 스토킹은 "반복성"이 요건입니다.</strong> 보통 3회 이상 반복돼야 스토킹으로 인정됩니다.',
+          '<strong>1~2회 단발성은 모욕죄·명예훼손은 가능해도 스토킹은 "반복성"이 요건입니다.</strong> 보통 3회 이상 반복돼야 스토킹으로 인정될 수 있습니다.',
       },
       {
         question: '캡처에 시간·날짜가 안 보이면 증거가 안 되나요?',
@@ -864,7 +864,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       {
         question: '가해자가 부계정으로 또 접근하면 어떻게 하나요?',
         answer:
-          '<strong>잠정조치 위반은 즉시 처벌(스토킹범죄법 제20조)되니 추가 캡처 후 즉시 신고하세요.</strong> 부계정도 같은 사람임이 입증되면 가중처벌됩니다.',
+          '<strong>잠정조치 위반은 즉시 처벌(스토킹범죄법 제20조)되니 추가 캡처 후 즉시 신고하세요.</strong> 부계정도 같은 사람임이 입증되면 가중처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '미성년자가 가해자면 어떻게 처리되나요?',

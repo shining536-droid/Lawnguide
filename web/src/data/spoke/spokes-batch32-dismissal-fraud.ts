@@ -112,7 +112,7 @@ export const spokesBatch32DismissalFraud: SpokePage[] = [
       {
         title: '근로기준법이 금지하는 신고 후 불이익 조치',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제76조의3 제6항은 직장 내 괴롭힘 신고를 이유로 불이익 조치를 하는 것을 금지하고 있습니다.</strong></p>\n<ul>\n<li><strong>해고·파면·정직·감봉</strong> — 신고자나 피해자를 해고하거나 징계하는 것은 대표적인 불이익 조치입니다.</li>\n<li><strong>전보·배치전환</strong> — 신고 직후 불리한 부서로 전보시키는 것도 불이익 조치에 해당합니다.</li>\n<li><strong>업무에서 배제·따돌림</strong> — 신고자를 업무에서 제외하거나 조직적으로 따돌리는 행위도 포함됩니다.</li>\n<li><strong>위반 시 제재</strong> — 불이익 조치를 한 사용자는 3년 이하의 징역 또는 3천만 원 이하의 벌금에 처합니다(근로기준법 제109조).</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신고 시점과 해고 시점이 가까울수록 보복해고로 인정될 가능성이 높아집니다. 시간적 근접성은 강력한 정황 증거입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제76조의3 제6항은 직장 내 괴롭힘 신고를 이유로 불이익 조치를 하는 것을 금지하고 있습니다.</strong></p>\n<ul>\n<li><strong>해고·파면·정직·감봉</strong> — 신고자나 피해자를 해고하거나 징계하는 것은 대표적인 불이익 조치입니다.</li>\n<li><strong>전보·배치전환</strong> — 신고 직후 불리한 부서로 전보시키는 것도 불이익 조치에 해당할 소지가 있습니다.</li>\n<li><strong>업무에서 배제·따돌림</strong> — 신고자를 업무에서 제외하거나 조직적으로 따돌리는 행위도 포함됩니다.</li>\n<li><strong>위반 시 제재</strong> — 불이익 조치를 한 사용자는 3년 이하의 징역 또는 3천만 원 이하의 벌금에 처합니다(근로기준법 제109조).</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신고 시점과 해고 시점이 가까울수록 보복해고로 인정될 가능성이 높아집니다. 시간적 근접성은 강력한 정황 증거입니다.</blockquote>',
       },
       {
         title: '보복해고를 입증하기 위한 3단계 증거 확보',
@@ -265,7 +265,7 @@ export const spokesBatch32DismissalFraud: SpokePage[] = [
       {
         title: '전보·강등이 "사실상 해고"로 인정되는 3가지 기준',
         content:
-          '<p><strong style="color:#1e3a5f">법원은 전보·강등이 근로자에게 통상 감수해야 할 범위를 넘는 불이익을 주면 정당한 인사권 행사가 아니라고 봅니다.</strong></p>\n<ol>\n<li><strong>업무 내용의 현저한 변경</strong> — 기존 전문 분야와 전혀 관련 없는 업무를 부여하거나, 업무 자체를 주지 않고 방치하는 경우 부당전직에 해당합니다.</li>\n<li><strong>임금·직급의 대폭 하락</strong> — 전보·강등으로 인해 급여가 현저히 감소하거나 직급이 부당하게 낮아지면, 실질적으로 근로조건의 불이익 변경에 해당합니다.</li>\n<li><strong>보복·퇴직 강요 목적</strong> — 내부 고발, 노조 활동, 개인적 감정 등 부당한 동기에 의한 전보·강등은 정당한 인사권 행사로 볼 수 없습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대법원은 "전보명령이 정당한 인사권 행사가 되려면 업무상 필요성과 근로자가 입는 불이익을 비교 형량해야 한다"고 판시합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">법원은 전보·강등이 근로자에게 통상 감수해야 할 범위를 넘는 불이익을 주면 정당한 인사권 행사가 아니라고 봅니다.</strong></p>\n<ol>\n<li><strong>업무 내용의 현저한 변경</strong> — 기존 전문 분야와 전혀 관련 없는 업무를 부여하거나, 업무 자체를 주지 않고 방치하는 경우 부당전직에 해당할 소지가 있습니다.</li>\n<li><strong>임금·직급의 대폭 하락</strong> — 전보·강등으로 인해 급여가 현저히 감소하거나 직급이 부당하게 낮아지면, 실질적으로 근로조건의 불이익 변경에 해당할 소지가 있습니다.</li>\n<li><strong>보복·퇴직 강요 목적</strong> — 내부 고발, 노조 활동, 개인적 감정 등 부당한 동기에 의한 전보·강등은 정당한 인사권 행사로 볼 수 없습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대법원은 "전보명령이 정당한 인사권 행사가 되려면 업무상 필요성과 근로자가 입는 불이익을 비교 형량해야 한다"고 판시합니다.</blockquote>',
       },
       {
         title: '부당전직에 대응하는 구체적 방법',
@@ -299,7 +299,7 @@ export const spokesBatch32DismissalFraud: SpokePage[] = [
           '<p>강등이 부당하다면 강등 전 직급에 해당하는 급여를 받을 권리가 있습니다. 부당전직이 인정되면 강등 기간 동안의 급여 차액도 청구 가능합니다.</p>',
       },
       {
-        question: '취업규칙에 "회사는 전보할 수 있다"고 되어 있으면 무조건 따라야 하나요?',
+        question: '취업규칙에 "회사는 전보할 수 있다"고 되어 있으면 원칙적으로 따라야 하나요?',
         answer:
           '<p>취업규칙에 전보 조항이 있더라도 무제한적 인사권이 인정되는 것은 아닙니다. 업무상 필요성, 근로자의 불이익 정도, 전보의 동기 등을 종합하여 정당성이 판단됩니다.</p>',
       },
@@ -344,12 +344,12 @@ export const spokesBatch32DismissalFraud: SpokePage[] = [
       {
         title: '병가 복귀 후 해고가 부당한 3가지 대표 사례',
         content:
-          '<p><strong style="color:#1e3a5f">30일 보호기간이 지났더라도 아래 경우에는 부당해고에 해당합니다.</strong></p>\n<ol>\n<li><strong>복귀 직후 업무 배제</strong> — 복귀한 근로자에게 아무 업무를 주지 않거나 핵심 업무에서 배제한 뒤 "업무 능력 부족"을 이유로 해고하는 것은 정당한 사유가 아닙니다.</li>\n<li><strong>원직 복귀 거부</strong> — 치료 전과 동일한 직무로 복귀시키지 않고 현저히 불리한 직무를 배정한 후 퇴사를 유도하는 경우입니다.</li>\n<li><strong>치료 미완료 상태 해고</strong> — 아직 치료가 완전히 끝나지 않았는데 "더 이상 기다릴 수 없다"며 해고하는 것은 해고 제한 기간 내 해고에 해당합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>병가 복귀 후 해고의 부당성, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">치료 기간과 해고 시점을 입력하면 해고 제한 위반 여부를 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">30일 보호기간이 지났더라도 아래 경우에는 부당해고에 해당할 소지가 있습니다.</strong></p>\n<ol>\n<li><strong>복귀 직후 업무 배제</strong> — 복귀한 근로자에게 아무 업무를 주지 않거나 핵심 업무에서 배제한 뒤 "업무 능력 부족"을 이유로 해고하는 것은 정당한 사유가 아닙니다.</li>\n<li><strong>원직 복귀 거부</strong> — 치료 전과 동일한 직무로 복귀시키지 않고 현저히 불리한 직무를 배정한 후 퇴사를 유도하는 경우입니다.</li>\n<li><strong>치료 미완료 상태 해고</strong> — 아직 치료가 완전히 끝나지 않았는데 "더 이상 기다릴 수 없다"며 해고하는 것은 해고 제한 기간 내 해고에 해당할 소지가 있습니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>병가 복귀 후 해고의 부당성, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">치료 기간과 해고 시점을 입력하면 해고 제한 위반 여부를 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '병가·산재 복귀 후 해고에 대한 구제 절차',
         content:
-          '<p><strong style="color:#1e3a5f">해고 제한 기간 내 해고는 당연 무효이지만, 구제를 받으려면 적극적으로 대응해야 합니다.</strong></p>\n<ul>\n<li><strong>노동위원회 구제신청</strong> — 해고일로부터 3개월 이내에 지방노동위원회에 부당해고 구제신청을 제출하세요. 해고 제한 기간 내 해고라는 점을 주장하면 됩니다.</li>\n<li><strong>산재보험 관련 확인</strong> — 업무상 재해로 치료받은 경우, 근로복지공단에서 산재 인정을 받았는지 확인하세요. 산재 인정 여부는 해고 제한 기간의 적용에 중요합니다.</li>\n<li><strong>진단서·치료 기록 확보</strong> — 요양 기간을 입증할 수 있는 진단서, 치료 기록, 휴업급여 수급 내역을 확보하세요. 부분 휴업 기간도 포함된다는 점을 기억하세요.</li>\n<li><strong>고용노동부 신고</strong> — 근로기준법 제23조 제2항 위반은 5년 이하의 징역 또는 5천만 원 이하의 벌금에 해당합니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">해고 제한 기간 내 해고는 당연 무효이지만, 구제를 받으려면 적극적으로 대응해야 합니다.</strong></p>\n<ul>\n<li><strong>노동위원회 구제신청</strong> — 해고일로부터 3개월 이내에 지방노동위원회에 부당해고 구제신청을 제출하세요. 해고 제한 기간 내 해고라는 점을 주장하면 됩니다.</li>\n<li><strong>산재보험 관련 확인</strong> — 업무상 재해로 치료받은 경우, 근로복지공단에서 산재 인정을 받았는지 확인하세요. 산재 인정 여부는 해고 제한 기간의 적용에 중요합니다.</li>\n<li><strong>진단서·치료 기록 확보</strong> — 요양 기간을 입증할 수 있는 진단서, 치료 기록, 휴업급여 수급 내역을 확보하세요. 부분 휴업 기간도 포함된다는 점을 기억하세요.</li>\n<li><strong>고용노동부 신고</strong> — 근로기준법 제23조 제2항 위반은 5년 이하의 징역 또는 5천만 원 이하의 벌금에 해당할 소지가 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -492,7 +492,7 @@ export const spokesBatch32DismissalFraud: SpokePage[] = [
       {
         title: '러그풀이 사기죄로 성립하기 위한 핵심 요건',
         content:
-          '<p><strong style="color:#1e3a5f">단순 투자 실패와 사기는 다릅니다. 사기죄가 성립하려면 "처음부터 속일 의도가 있었는지"가 핵심입니다.</strong></p>\n<ul>\n<li><strong>기망행위</strong> — 투자금을 유치할 때 허위 정보를 제공했거나 실현 불가능한 수익을 약속한 경우 기망행위에 해당합니다. "원금 보장", "월 30% 수익" 등의 약속이 대표적입니다.</li>\n<li><strong>편취 의사</strong> — 처음부터 프로젝트를 운영할 의사 없이 투자금만 모을 목적이었다면 사기죄의 편취 의사가 인정됩니다.</li>\n<li><strong>재산상 피해</strong> — 기망행위에 속아 투자금을 지급했고, 그 결과 재산상 손해가 발생해야 합니다.</li>\n<li><strong>자본시장법 위반</strong> — 가상자산 매매를 추천하면서 자신의 선행매수 사실(이해관계)을 표시하지 않은 행위도 부정한 수단에 해당할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 법원은 기망행위 여부를 판단할 때 "행위가 공정한 경쟁을 해치고 선의의 투자자에게 손해를 전가할 위험이 있었는지"를 기준으로 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">단순 투자 실패와 사기는 다릅니다. 사기죄가 성립하려면 "처음부터 속일 의도가 있었는지"가 핵심입니다.</strong></p>\n<ul>\n<li><strong>기망행위</strong> — 투자금을 유치할 때 허위 정보를 제공했거나 실현 불가능한 수익을 약속한 경우 기망행위에 해당할 소지가 있습니다. "원금 보장", "월 30% 수익" 등의 약속이 대표적입니다.</li>\n<li><strong>편취 의사</strong> — 처음부터 프로젝트를 운영할 의사 없이 투자금만 모을 목적이었다면 사기죄의 편취 의사가 인정될 수 있습니다.</li>\n<li><strong>재산상 피해</strong> — 기망행위에 속아 투자금을 지급했고, 그 결과 재산상 손해가 발생해야 합니다.</li>\n<li><strong>자본시장법 위반</strong> — 가상자산 매매를 추천하면서 자신의 선행매수 사실(이해관계)을 표시하지 않은 행위도 부정한 수단에 해당할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 법원은 기망행위 여부를 판단할 때 "행위가 공정한 경쟁을 해치고 선의의 투자자에게 손해를 전가할 위험이 있었는지"를 기준으로 합니다.</blockquote>',
       },
       {
         title: '러그풀 증거 확보 체크리스트 5가지',
@@ -592,7 +592,7 @@ export const spokesBatch32DismissalFraud: SpokePage[] = [
       {
         question: '교육비를 내고 실제로 교육을 받았는데도 사기인가요?',
         answer:
-          '<p>교육 자체는 제공했더라도, 처음부터 채용할 의사 없이 교육비 수취만을 목적으로 한 것이라면 사기에 해당합니다. 교육 업체와 채용 업체가 공모한 정황이 있다면 더욱 그렇습니다.</p>',
+          '<p>교육 자체는 제공했더라도, 처음부터 채용할 의사 없이 교육비 수취만을 목적으로 한 것이라면 사기에 해당할 소지가 있습니다. 교육 업체와 채용 업체가 공모한 정황이 있다면 더욱 그렇습니다.</p>',
       },
       {
         question: '개인이 아닌 법인(회사)이 취업사기를 쳤는데 누구를 고소하나요?',

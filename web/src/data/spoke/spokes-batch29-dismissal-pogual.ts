@@ -17,10 +17,10 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
     meta: {
       title: '권고사직 서류 함정 5가지 — 서명 전 확인사항 | 로앤가이드',
       description:
-        '회사에서 권고사직 서류에 서명을 요구한다면, 서명 전에 반드시 확인할 함정 조항을 지금 확인하세요.',
+        '회사에서 권고사직 서류에 서명을 요구한다면, 서명 전에 가능한 한 확인할 함정 조항을 지금 확인하세요.',
     },
     intro:
-      '<p>상사가 "원만하게 퇴사하자"며 서류에 서명을 요구합니다. 서류 내용을 잘 보니 "자발적 합의 퇴직"이라고 되어 있습니다. 이렇게 서명하면 실업급여도 못 받고, 부당해고 구제도 어려워집니다. 권고사직 서류에 서명하기 전 반드시 확인해야 할 사항을 정리합니다.</p>',
+      '<p>상사가 "원만하게 퇴사하자"며 서류에 서명을 요구합니다. 서류 내용을 잘 보니 "자발적 합의 퇴직"이라고 되어 있습니다. 이렇게 서명하면 실업급여도 못 받고, 부당해고 구제도 어려워집니다. 권고사직 서류에 서명하기 전 가능한 한 확인해야 할 사항을 정리합니다.</p>',
     sections: [
       {
         title: '권고사직 서류에서 주의할 5가지 함정',
@@ -135,7 +135,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       {
         question: '육아휴직 복귀 후 권고사직을 받았습니다.',
         answer:
-          '<p>권고사직도 육아휴직을 이유로 한 것이면 불이익 처우에 해당합니다. 서명하지 마시고, 부당해고에 준하여 대응하세요.</p>',
+          '<p>권고사직도 육아휴직을 이유로 한 것이면 불이익 처우에 해당할 소지가 있습니다. 서명하지 마시고, 부당해고에 준하여 대응하세요.</p>',
       },
       {
         question: '5인 미만 사업장에서도 육아휴직 복귀 보호가 적용되나요?',
@@ -173,7 +173,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       {
         title: '갱신기대권이란',
         content:
-          '<p><strong style="color:#1e3a5f">근로자에게 계약 갱신에 대한 합리적 기대가 있으면, 갱신 거절은 해고와 같습니다.</strong></p>\n<p>대법원 판례에 따르면 기간제 근로계약이 반복 갱신되어 근로자에게 갱신에 대한 정당한 기대가 형성된 경우, 사업주가 합리적 이유 없이 갱신을 거절하면 부당해고에 해당합니다.</p>\n<ul>\n<li><strong>갱신 횟수</strong> — 2회 이상 갱신된 경우 기대권이 인정될 가능성이 높습니다.</li>\n<li><strong>업무의 계속성</strong> — 담당 업무가 계속 존재하고 있다면 갱신 기대가 합리적입니다.</li>\n<li><strong>사업주 언행</strong> — "계속 일할 수 있다"는 사업주의 발언이 있었다면 증거가 됩니다.</li>\n<li><strong>동종 근로자 갱신 여부</strong> — 같은 조건의 다른 기간제 근로자가 갱신된 경우.</li>\n<li><strong>갱신 절차의 형식성</strong> — 갱신이 형식적 절차에 불과했다면 기대권이 인정됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 반복 갱신 + 업무 계속성 + 사업주 언행, 3가지가 결합되면 갱신기대권이 인정될 가능성이 높습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로자에게 계약 갱신에 대한 합리적 기대가 있으면, 갱신 거절은 해고와 같습니다.</strong></p>\n<p>대법원 판례에 따르면 기간제 근로계약이 반복 갱신되어 근로자에게 갱신에 대한 정당한 기대가 형성된 경우, 사업주가 합리적 이유 없이 갱신을 거절하면 부당해고에 해당할 소지가 있습니다.</p>\n<ul>\n<li><strong>갱신 횟수</strong> — 2회 이상 갱신된 경우 기대권이 인정될 가능성이 높습니다.</li>\n<li><strong>업무의 계속성</strong> — 담당 업무가 계속 존재하고 있다면 갱신 기대가 합리적입니다.</li>\n<li><strong>사업주 언행</strong> — "계속 일할 수 있다"는 사업주의 발언이 있었다면 증거가 됩니다.</li>\n<li><strong>동종 근로자 갱신 여부</strong> — 같은 조건의 다른 기간제 근로자가 갱신된 경우.</li>\n<li><strong>갱신 절차의 형식성</strong> — 갱신이 형식적 절차에 불과했다면 기대권이 인정될 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 반복 갱신 + 업무 계속성 + 사업주 언행, 3가지가 결합되면 갱신기대권이 인정될 가능성이 높습니다.</blockquote>',
       },
       {
         title: '갱신기대권 침해 시 구제 방법',
@@ -183,7 +183,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       {
         title: '2년 초과 사용 시 무기계약 전환',
         content:
-          '<p><strong style="color:#1e3a5f">기간제법 제4조에 따라 2년 초과 사용 시 무기계약 근로자로 간주됩니다.</strong></p>\n<ul>\n<li><strong>자동 전환</strong> — 2년을 초과하여 기간제 근로자를 사용하면 법률상 무기계약 근로자로 봅니다.</li>\n<li><strong>계약서 불필요</strong> — 무기계약 전환은 법률 효과이므로 별도 계약서 없이도 인정됩니다.</li>\n<li><strong>해고 요건 강화</strong> — 무기계약 근로자에게는 정당한 이유 없이 해고할 수 없습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">기간제법 제4조에 따라 2년 초과 사용 시 무기계약 근로자로 간주됩니다.</strong></p>\n<ul>\n<li><strong>자동 전환</strong> — 2년을 초과하여 기간제 근로자를 사용하면 법률상 무기계약 근로자로 봅니다.</li>\n<li><strong>계약서 불필요</strong> — 무기계약 전환은 법률 효과이므로 별도 계약서 없이도 인정될 수 있습니다.</li>\n<li><strong>해고 요건 강화</strong> — 무기계약 근로자에게는 정당한 이유 없이 해고할 수 없습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -253,12 +253,12 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       {
         title: '부당해고 증거 체크리스트 7가지',
         content:
-          '<p><strong style="color:#1e3a5f">해고 직후 즉시 확보해야 할 증거입니다.</strong></p>\n<ol>\n<li><strong>해고 통보 증거</strong> — 해고 통보 문자, 이메일, 구두 해고 시 녹음. 해고 사실 자체를 증명합니다.</li>\n<li><strong>해고사유서</strong> — 근로기준법 제27조에 따라 서면으로 해고 사유와 해고 시기를 통보해야 합니다. 서면 미통보 시 그것만으로도 부당해고입니다.</li>\n<li><strong>근로계약서</strong> — 근로조건, 업무 범위, 계약 기간 등을 확인합니다.</li>\n<li><strong>인사평가 기록</strong> — 성과 평가, 근무 평가 기록이 있으면 해고 사유의 정당성을 다툴 수 있습니다.</li>\n<li><strong>동료 진술서</strong> — 해고 과정을 목격한 동료의 진술서를 확보합니다.</li>\n<li><strong>급여명세서</strong> — 해고 전 임금 수준과 근무 기간을 증명합니다.</li>\n<li><strong>업무 실적 자료</strong> — 성과 부진을 이유로 해고한 경우, 실제 업무 실적을 증명할 자료입니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 해고 통보 직후 24시간 이내에 최대한 많은 증거를 확보하세요. 시간이 지나면 회사가 자료를 삭제하거나 접근을 차단할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">해고 직후 즉시 확보해야 할 증거입니다.</strong></p>\n<ol>\n<li><strong>해고 통보 증거</strong> — 해고 통보 문자, 이메일, 구두 해고 시 녹음. 해고 사실 자체를 증명합니다.</li>\n<li><strong>해고사유서</strong> — 근로기준법 제27조에 따라 서면으로 해고 사유와 해고 시기를 통보해야 합니다. 서면 미통보 시 그것만으로도 부당해고로 검토될 수 있습니다.</li>\n<li><strong>근로계약서</strong> — 근로조건, 업무 범위, 계약 기간 등을 확인합니다.</li>\n<li><strong>인사평가 기록</strong> — 성과 평가, 근무 평가 기록이 있으면 해고 사유의 정당성을 다툴 수 있습니다.</li>\n<li><strong>동료 진술서</strong> — 해고 과정을 목격한 동료의 진술서를 확보합니다.</li>\n<li><strong>급여명세서</strong> — 해고 전 임금 수준과 근무 기간을 증명합니다.</li>\n<li><strong>업무 실적 자료</strong> — 성과 부진을 이유로 해고한 경우, 실제 업무 실적을 증명할 자료입니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 해고 통보 직후 24시간 이내에 최대한 많은 증거를 확보하세요. 시간이 지나면 회사가 자료를 삭제하거나 접근을 차단할 수 있습니다.</blockquote>',
       },
       {
         title: '서면 해고 미통보 시 자동 부당해고',
         content:
-          '<p><strong style="color:#1e3a5f">해고사유서를 서면으로 교부하지 않으면 절차적 부당해고입니다.</strong></p>\n<p>근로기준법 제27조에 따라 사용자는 해고 사유와 해고 시기를 서면으로 통지해야 합니다. 구두 해고는 해고 사유가 정당하더라도 절차상 위법하여 부당해고로 인정됩니다.</p>\n<ul>\n<li><strong>해고사유서 요청</strong> — 해고 통보를 받으면 즉시 서면 해고사유서를 요청하세요.</li>\n<li><strong>미교부 시</strong> — 서면 미교부 사실 자체가 부당해고의 증거가 됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>부당해고 구제 가능성, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">해고 경위와 보유 증거를 입력하면 구제 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">해고사유서를 서면으로 교부하지 않으면 절차적 부당해고입니다.</strong></p>\n<p>근로기준법 제27조에 따라 사용자는 해고 사유와 해고 시기를 서면으로 통지해야 합니다. 구두 해고는 해고 사유가 정당하더라도 절차상 위법하여 부당해고로 인정될 수 있습니다.</p>\n<ul>\n<li><strong>해고사유서 요청</strong> — 해고 통보를 받으면 즉시 서면 해고사유서를 요청하세요.</li>\n<li><strong>미교부 시</strong> — 서면 미교부 사실 자체가 부당해고의 증거가 됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>부당해고 구제 가능성, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">해고 경위와 보유 증거를 입력하면 구제 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '증거 수집 시 주의사항',
@@ -279,12 +279,12 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       {
         question: '녹음 증거는 노동위원회에서 인정되나요?',
         answer:
-          '<p>대화 당사자가 직접 녹음한 것은 적법한 증거로 인정됩니다. 노동위원회에서도 녹음 파일을 증거로 제출할 수 있습니다.</p>',
+          '<p>대화 당사자가 직접 녹음한 것은 적법한 증거로 인정될 수 있습니다. 노동위원회에서도 녹음 파일을 증거로 제출할 수 있습니다.</p>',
       },
       {
         question: '해고 통보가 구두로만 이루어졌습니다.',
         answer:
-          '<p>구두 해고는 서면 미통보로 그 자체가 절차적 부당해고입니다. 구두 해고 사실을 증명할 수 있는 녹음, 동료 증언 등을 확보하세요.</p>',
+          '<p>구두 해고는 서면 미통보로 그 자체가 절차적 부당해고로 검토될 수 있습니다. 구두 해고 사실을 증명할 수 있는 녹음, 동료 증언 등을 확보하세요.</p>',
       },
       {
         question: '회사가 CCTV를 삭제하면 어떡하나요?',
@@ -332,7 +332,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       {
         title: '해고예고가 면제되는 5가지 경우',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제26조 단서에 따라 다음 경우 해고예고가 면제됩니다.</strong></p>\n<ol>\n<li><strong>일용근로자(3개월 미만 계속 근무)</strong></li>\n<li><strong>2개월 이내 기간 정한 근로자</strong></li>\n<li><strong>월급제가 아닌 근로자(6개월 미만 근무)</strong></li>\n<li><strong>수습 기간 3개월 이내</strong></li>\n<li><strong>근로자 귀책사유로 노동위원회 인정을 받은 경우</strong> — 횡령, 폭행 등 중대한 귀책사유가 인정된 경우</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 5번 사유(근로자 귀책)는 노동위원회의 사전 인정이 필요합니다. 사업주가 임의로 판단하여 즉시해고하면 위법합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제26조 단서에 따라 다음 경우 해고예고가 면제됩니다.</strong></p>\n<ol>\n<li><strong>일용근로자(3개월 미만 계속 근무)</strong></li>\n<li><strong>2개월 이내 기간 정한 근로자</strong></li>\n<li><strong>월급제가 아닌 근로자(6개월 미만 근무)</strong></li>\n<li><strong>수습 기간 3개월 이내</strong></li>\n<li><strong>근로자 귀책사유로 노동위원회 인정을 받은 경우</strong> — 횡령, 폭행 등 중대한 귀책사유가 인정된 경우</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 5번 사유(근로자 귀책)는 노동위원회의 사전 인정이 필요합니다. 사업주가 임의로 판단하여 즉시해고하면 위법 소지가 있습니다.</blockquote>',
       },
       {
         title: '즉시해고를 당했을 때 대처법',
@@ -411,7 +411,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       {
         title: '감시·단속적 근로 승인과 포괄임금의 관계',
         content:
-          '<p><strong style="color:#1e3a5f">감시·단속적 근로 승인을 받은 경우라도 야간수당은 지급해야 합니다.</strong></p>\n<ul>\n<li><strong>감시단속적 근로</strong> — 고용노동부 승인을 받으면 연장·휴일근로수당은 면제되지만, 야간근로수당은 면제되지 않습니다.</li>\n<li><strong>승인 없는 경우</strong> — 승인 없이 근로기준법 적용을 배제하면 위법합니다.</li>\n<li><strong>최저임금</strong> — 감시단속적 근로 승인 시 최저임금의 90%가 적용됩니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">감시·단속적 근로 승인을 받은 경우라도 야간수당은 지급해야 합니다.</strong></p>\n<ul>\n<li><strong>감시단속적 근로</strong> — 고용노동부 승인을 받으면 연장·휴일근로수당은 면제되지만, 야간근로수당은 면제되지 않습니다.</li>\n<li><strong>승인 없는 경우</strong> — 승인 없이 근로기준법 적용을 배제하면 위법 소지가 있습니다.</li>\n<li><strong>최저임금</strong> — 감시단속적 근로 승인 시 최저임금의 90%가 적용됩니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -501,7 +501,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       {
         question: '프리랜서 계약서를 썼는데도 근로자로 인정되나요?',
         answer:
-          '<p>계약서 형식이 아닌 실질적 근무 형태로 판단합니다. 시간·장소 지정, 업무 지시, 취업규칙 적용 등이 있으면 근로자로 인정됩니다.</p>',
+          '<p>계약서 형식이 아닌 실질적 근무 형태로 판단합니다. 시간·장소 지정, 업무 지시, 취업규칙 적용 등이 있으면 근로자로 인정될 수 있습니다.</p>',
       },
       {
         question: '보충수업 시간도 근로시간에 포함되나요?',

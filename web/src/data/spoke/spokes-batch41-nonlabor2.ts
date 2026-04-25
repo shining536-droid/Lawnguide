@@ -202,7 +202,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
       {
         title: '조사 전 5가지 필수 체크',
         content:
-          '<p><strong style="color:#1e3a5f">첫 피의자신문 진술은 법원 판단에 결정적입니다. 반드시 준비 후 출석하세요.</strong></p>\n<ul>\n<li><strong>1. 구인 경로 정리</strong> — 채용 공고 사이트·SNS·지인 소개 등 경로를 시간순으로 기록.</li>\n<li><strong>2. 대화·지시 증거</strong> — 카카오톡·텔레그램·문자 전체 복원. 삭제된 대화는 복구 요청.</li>\n<li><strong>3. 금전 흐름 정리</strong> — 받은 수수료·일당·교통비 내역.</li>\n<li><strong>4. 업무 수행 기록</strong> — 어디서·누구와·무엇을 했는지. CCTV·교통카드 기록 확보.</li>\n<li><strong>5. 변호인 선임</strong> — 형사공공변호인 또는 사선 변호사 조사 전 상담 필수.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 자금세탁 알바 혐의의 방어 포인트를 분석해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">첫 피의자신문 진술은 법원 판단에 결정적입니다. 가능한 한 준비 후 출석하세요.</strong></p>\n<ul>\n<li><strong>1. 구인 경로 정리</strong> — 채용 공고 사이트·SNS·지인 소개 등 경로를 시간순으로 기록.</li>\n<li><strong>2. 대화·지시 증거</strong> — 카카오톡·텔레그램·문자 전체 복원. 삭제된 대화는 복구 요청.</li>\n<li><strong>3. 금전 흐름 정리</strong> — 받은 수수료·일당·교통비 내역.</li>\n<li><strong>4. 업무 수행 기록</strong> — 어디서·누구와·무엇을 했는지. CCTV·교통카드 기록 확보.</li>\n<li><strong>5. 변호인 선임</strong> — 형사공공변호인 또는 사선 변호사 조사 전 상담 필수.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 자금세탁 알바 혐의의 방어 포인트를 분석해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '방어 논리 — 미필적 고의 판단 기준',
@@ -221,7 +221,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2025도14142 사건(대법원, 2026.01.15 선고)에서 법원은 보이스피싱 조직의 지시로 현금 수거·계좌 이체를 반복 수행한 피고인에게, 수익의 비정상성과 업무 절차의 비상식성을 근거로 미필적 고의를 인정하고 실형을 확정했습니다.',
         takeaway:
-          '현금 수거·이체 업무 자체가 사회 통념상 의심되는 구조이므로, 반복성이 있으면 미필적 고의가 쉽게 인정됩니다.',
+          '현금 수거·이체 업무 자체가 사회 통념상 의심되는 구조이므로, 반복성이 있으면 미필적 고의가 쉽게 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -243,7 +243,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
       {
         question: '수거 상대방(보이스피싱 피해자)과 직접 만나지도 않았어요',
         answer:
-          '<strong>직접 대면하지 않아도 공범 구조에 편입되면 방조·공동정범으로 처벌됩니다.</strong> 조직 구조 인식 여부가 쟁점.',
+          '<strong>직접 대면하지 않아도 공범 구조에 편입되면 방조·공동정범으로 처벌 대상으로 검토될 수 있습니다.</strong> 조직 구조 인식 여부가 쟁점.',
       },
       {
         question: '자수하면 처벌이 줄어드나요?',
@@ -299,7 +299,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
       {
         title: '해외 가해자 추적 — 현실적 기대치',
         content:
-          '<p><strong style="color:#1e3a5f">가해자 대다수가 해외에 있지만, 국내 경유 계좌·가상자산 거래소에서 추적 포인트가 생깁니다.</strong></p>\n<ul>\n<li><strong>국내 경유 계좌</strong> — 피해금이 국내 대포통장을 거치면 말단 조직원 검거 가능.</li>\n<li><strong>가상자산 거래소</strong> — 국내 거래소 출금 시점에서 추적·동결 가능.</li>\n<li><strong>인터폴 공조</strong> — 경찰청 국제공조과 요청, 단 시간 소요.</li>\n<li><strong>피해자 모임</strong> — 다수 피해자 결합 시 수사 우선순위 상승.</li>\n<li><strong>2차 사기 주의</strong> — "회수 전문 업체"는 대부분 2차 사기.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 로맨스 스캠 피해자를 노린 "회수 컨설팅" 전화·메일은 거의 모두 2차 사기입니다. 반드시 경찰·변호사를 통하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">가해자 대다수가 해외에 있지만, 국내 경유 계좌·가상자산 거래소에서 추적 포인트가 생깁니다.</strong></p>\n<ul>\n<li><strong>국내 경유 계좌</strong> — 피해금이 국내 대포통장을 거치면 말단 조직원 검거 가능.</li>\n<li><strong>가상자산 거래소</strong> — 국내 거래소 출금 시점에서 추적·동결 가능.</li>\n<li><strong>인터폴 공조</strong> — 경찰청 국제공조과 요청, 단 시간 소요.</li>\n<li><strong>피해자 모임</strong> — 다수 피해자 결합 시 수사 우선순위 상승.</li>\n<li><strong>2차 사기 주의</strong> — "회수 전문 업체"는 대부분 2차 사기.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 로맨스 스캠 피해자를 노린 "회수 컨설팅" 전화·메일은 거의 모두 2차 사기로 검토될 수 있습니다. 가능한 한 경찰·변호사를 통하세요.</blockquote>',
       },
     ],
     cases: [
@@ -308,7 +308,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2024다11686 사건(대법원, 2026.01.15 선고)에서 법원은 허위의 신분과 관계를 가장해 다수 피해자에게 송금을 유도한 피고인에게 사기죄 성립을 인정하고, 정서적 손해에 대한 위자료 청구를 일부 인용했습니다.',
         takeaway:
-          '로맨스 스캠은 재산 피해뿐 아니라 정서적 손해에 대한 위자료 청구가 가능하며, 기망 구조가 입증되면 사기죄가 명확히 성립합니다.',
+          '로맨스 스캠은 재산 피해뿐 아니라 정서적 손해에 대한 위자료 청구가 가능하며, 기망 구조가 입증되면 사기죄가 명확히 성립할 수 있습니다.',
       },
     ],
     faq: [
@@ -325,7 +325,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
       {
         question: '가상자산으로 보냈으면 회수 불가인가요?',
         answer:
-          '<strong>국내 거래소 출금 시점에서 추적·동결 가능성이 있습니다.</strong> TxID를 반드시 보존하세요.',
+          '<strong>국내 거래소 출금 시점에서 추적·동결 가능성이 있습니다.</strong> TxID를 가능한 한 보존하세요.',
       },
       {
         question: '경찰에 신고하는 게 창피한데요',
@@ -386,7 +386,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
       {
         title: '상속 포기·한정승인 — 회생 중에도 가능한가',
         content:
-          '<p><strong style="color:#1e3a5f">상속 채무가 더 많으면 회생 중이어도 상속포기·한정승인이 가능합니다.</strong></p>\n<ul>\n<li><strong>숙려기간</strong> — 상속 개시를 안 날로부터 3개월 이내 가정법원 신고.</li>\n<li><strong>사해행위 위험</strong> — 재산 많은 상속을 단순히 포기해 채권자 해치면 사해행위로 볼 소지.</li>\n<li><strong>한정승인 권장</strong> — 채무·재산 판단 어려울 때 한정승인으로 안전 확보.</li>\n<li><strong>법원 보고</strong> — 상속 처리 결과(포기·승인·한정승인)를 회생 법원에 보고.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 상속 재산을 고의로 다른 가족에게 이전하면 사해행위 취소·인가 취소 위험이 큽니다. 반드시 법원·변호사와 상의.</blockquote>',
+          '<p><strong style="color:#1e3a5f">상속 채무가 더 많으면 회생 중이어도 상속포기·한정승인이 가능합니다.</strong></p>\n<ul>\n<li><strong>숙려기간</strong> — 상속 개시를 안 날로부터 3개월 이내 가정법원 신고.</li>\n<li><strong>사해행위 위험</strong> — 재산 많은 상속을 단순히 포기해 채권자 해치면 사해행위로 볼 소지.</li>\n<li><strong>한정승인 권장</strong> — 채무·재산 판단 어려울 때 한정승인으로 안전 확보.</li>\n<li><strong>법원 보고</strong> — 상속 처리 결과(포기·승인·한정승인)를 회생 법원에 보고.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 상속 재산을 고의로 다른 가족에게 이전하면 사해행위 취소·인가 취소 위험이 큽니다. 가능한 한 법원·변호사와 상의.</blockquote>',
       },
     ],
     cases: [
@@ -395,7 +395,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2022다256327 판결(대법원, 2025.05.15 선고)에서 법원은 회생 절차 중 채무자에게 발생한 상속 재산은 청산가치 보장 원칙에 따라 변제계획에 반영되어야 하며, 채무자가 이를 신고하지 않으면 인가 취소 사유가 될 수 있다고 판시했습니다.',
         takeaway:
-          '회생 중 상속은 반드시 신고해야 하며, 청산가치 보장 원칙에 따라 변제계획이 재조정됩니다.',
+          '회생 중 상속은 가능한 한 신고해야 하며, 청산가치 보장 원칙에 따라 변제계획이 재조정됩니다.',
       },
     ],
     faq: [
@@ -458,7 +458,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
       {
         title: '실직 발생 시 법적 선택지',
         content:
-          '<p><strong style="color:#1e3a5f">실직은 채무자 회생법 제619조의 "수입 변동" 사유에 해당합니다.</strong></p>\n<ul>\n<li><strong>변제계획 변경</strong> — 월 변제액 감액 + 기간 연장(최대 60개월).</li>\n<li><strong>변제 유예</strong> — 일시적 유예 후 기존 계획 재개(단기 실직 시).</li>\n<li><strong>파산 전환</strong> — 회복 불가능 시 회생 폐지 후 파산 신청.</li>\n<li><strong>폐지 후 재신청</strong> — 일정 기간 경과 후 새 회생 신청 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 실직 자체는 처벌 대상이 아니지만, 신고·변경신청을 하지 않고 방치하면 폐지로 이어집니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">실직은 채무자 회생법 제619조의 "수입 변동" 사유에 해당할 소지가 있습니다.</strong></p>\n<ul>\n<li><strong>변제계획 변경</strong> — 월 변제액 감액 + 기간 연장(최대 60개월).</li>\n<li><strong>변제 유예</strong> — 일시적 유예 후 기존 계획 재개(단기 실직 시).</li>\n<li><strong>파산 전환</strong> — 회복 불가능 시 회생 폐지 후 파산 신청.</li>\n<li><strong>폐지 후 재신청</strong> — 일정 기간 경과 후 새 회생 신청 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 실직 자체는 처벌 대상이 아니지만, 신고·변경신청을 하지 않고 방치하면 폐지로 이어집니다.</blockquote>',
       },
       {
         title: '4단계 대응 프로세스',
@@ -734,7 +734,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
       {
         title: '대체 경로 — 상속재산 분할·명의회복 소송',
         content:
-          '<p><strong style="color:#1e3a5f">유류분이 막혀도 다른 법리로 실질 정의를 회복할 수 있습니다.</strong></p>\n<ul>\n<li><strong>상속재산 분할 심판</strong> — 가정법원 분할 심판에서 기여분·특별수익 정산.</li>\n<li><strong>부당이득 반환</strong> — 증여가 통정허위 등으로 무효면 부당이득으로 반환 청구.</li>\n<li><strong>명의신탁 해지</strong> — 명의신탁법 위반 시 실소유자에 회복 청구.</li>\n<li><strong>사해행위 취소</strong> — 채무자 상태에서 증여로 채권자 해친 경우 제한된 상황에서 청구 가능.</li>\n<li><strong>유언 무효 확인</strong> — 유언의 형식·의사능력 결여 시 무효 확인 소송.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 대체 경로는 각각 요건과 기간이 다르며 입증 난이도가 높습니다. 반드시 전문 상속 변호사와 상담.</blockquote>',
+          '<p><strong style="color:#1e3a5f">유류분이 막혀도 다른 법리로 실질 정의를 회복할 수 있습니다.</strong></p>\n<ul>\n<li><strong>상속재산 분할 심판</strong> — 가정법원 분할 심판에서 기여분·특별수익 정산.</li>\n<li><strong>부당이득 반환</strong> — 증여가 통정허위 등으로 무효면 부당이득으로 반환 청구.</li>\n<li><strong>명의신탁 해지</strong> — 명의신탁법 위반 시 실소유자에 회복 청구.</li>\n<li><strong>사해행위 취소</strong> — 채무자 상태에서 증여로 채권자 해친 경우 제한된 상황에서 청구 가능.</li>\n<li><strong>유언 무효 확인</strong> — 유언의 형식·의사능력 결여 시 무효 확인 소송.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 대체 경로는 각각 요건과 기간이 다르며 입증 난이도가 높습니다. 가능한 한 전문 상속 변호사와 상담.</blockquote>',
       },
     ],
     cases: [
@@ -893,7 +893,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
       {
         title: '명예훼손죄 성립 요건',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제307조에 따라 공연히 사실(허위사실) 적시하여 사회적 평가를 저하하면 성립합니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 불특정 또는 다수인이 인식 가능한 상태. 한 명에게만 말해도 전파 가능성 있으면 인정.</li>\n<li><strong>사실 적시</strong> — 구체적 사실의 표현. 단순 의견·욕설은 모욕죄 검토.</li>\n<li><strong>평가 저하 가능성</strong> — 직업·인격·도덕성 등 평가 저하 가능성 있는 내용.</li>\n<li><strong>허위 vs 진실</strong> — 허위사실은 가중 처벌(형법 제307조 제2항).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 직장 내에서도 복수 동료가 들었다면 "공연성"이 충족되어 명예훼손이 성립할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제307조에 따라 공연히 사실(허위사실) 적시하여 사회적 평가를 저하하면 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 불특정 또는 다수인이 인식 가능한 상태. 한 명에게만 말해도 전파 가능성 있으면 인정.</li>\n<li><strong>사실 적시</strong> — 구체적 사실의 표현. 단순 의견·욕설은 모욕죄 검토.</li>\n<li><strong>평가 저하 가능성</strong> — 직업·인격·도덕성 등 평가 저하 가능성 있는 내용.</li>\n<li><strong>허위 vs 진실</strong> — 허위사실은 가중 처벌(형법 제307조 제2항).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 직장 내에서도 복수 동료가 들었다면 "공연성"이 충족되어 명예훼손이 성립할 수 있습니다.</blockquote>',
       },
       {
         title: '고소 준비 5단계',
@@ -917,7 +917,7 @@ export const spokesBatch41Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2022도10369 사건(대법원, 2025.10.30 선고)에서 법원은 특정 동료에 대한 허위사실을 단체 채팅과 회식 자리에서 반복 언급한 피고인에게 명예훼손죄의 공연성과 허위성을 인정하고 실형을 선고했습니다.',
         takeaway:
-          '직장 내 소규모 대화라도 다수 동료가 들으면 공연성이 인정되며, 허위성이 입증되면 가중 처벌됩니다.',
+          '직장 내 소규모 대화라도 다수 동료가 들으면 공연성이 인정되며, 허위성이 입증되면 가중 처벌 대상으로 검토될 수 있습니다.',
       },
     ],
     faq: [

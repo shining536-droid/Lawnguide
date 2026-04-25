@@ -44,7 +44,7 @@ export const spokesBatch32Misc: SpokePage[] = [
         summary:
           '대법원 2020다300299 사건(대법원, 2024.12.26 선고)에서 법원은 포괄임금계약에 따라 지급된 임금이 최저임금에 미달하는 경우 포괄임금계약이 유효하다고 볼 수 없고, 사용자는 그 미달액을 지급하여야 한다고 판시했습니다.',
         takeaway:
-          '야간·연장수당을 포함한 포괄임금으로 급여를 받고 있더라도, 실제 근로시간 대비 최저임금 이상을 받고 있는지 반드시 확인하세요. 미달 시 차액 청구가 가능합니다.',
+          '야간·연장수당을 포함한 포괄임금으로 급여를 받고 있더라도, 실제 근로시간 대비 최저임금 이상을 받고 있는지 가능한 한 확인하세요. 미달 시 차액 청구가 가능합니다.',
       },
     ],
     faq: [
@@ -66,7 +66,7 @@ export const spokesBatch32Misc: SpokePage[] = [
       {
         question: '통상임금에 포함되는 항목은 어떤 것인가요?',
         answer:
-          '<p>정기적·일률적·고정적으로 지급되는 금품이 통상임금에 해당합니다. 기본급, 직무수당, 직책수당, 기술수당 등이 포함됩니다. 실적에 따라 변동되는 성과급이나 경영성과 배분금은 통상임금에서 제외될 수 있습니다.</p>',
+          '<p>정기적·일률적·고정적으로 지급되는 금품이 통상임금에 해당할 소지가 있습니다. 기본급, 직무수당, 직책수당, 기술수당 등이 포함됩니다. 실적에 따라 변동되는 성과급이나 경영성과 배분금은 통상임금에서 제외될 수 있습니다.</p>',
       },
       {
         question: '퇴직 후에도 미지급 수당을 청구할 수 있나요?',
@@ -193,7 +193,7 @@ export const spokesBatch32Misc: SpokePage[] = [
       {
         title: '블랙박스 영상의 증거 능력과 한계',
         content:
-          '<p><strong style="color:#1e3a5f">블랙박스 영상은 강력한 증거이지만, 한계도 알아두어야 합니다.</strong></p>\n<ul>\n<li><strong>증거 능력 인정 기준</strong> — 법원은 원본 무결성, 촬영 시각의 정확성, 연속 촬영 여부를 기준으로 증거 능력을 판단합니다.</li>\n<li><strong>화질 문제</strong> — 야간이나 역광 상황에서 신호등 색상이나 차량 번호가 식별되지 않으면 증거력이 떨어집니다. 영상 분석 전문기관에 감정을 의뢰할 수 있습니다.</li>\n<li><strong>촬영 범위 사각지대</strong> — 블랙박스의 화각 밖에서 발생한 상황은 담기지 않습니다. 주변 CCTV나 목격자 진술로 보완해야 합니다.</li>\n<li><strong>타인의 블랙박스</strong> — 사고 현장 주변 차량의 블랙박스 영상도 증거가 됩니다. 사고 직후 주변 차량 운전자에게 협조를 요청하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 블랙박스 영상을 편집하거나 일부만 발췌하여 제출하면 오히려 불리하게 작용할 수 있습니다. 반드시 원본 전체를 제출하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">블랙박스 영상은 강력한 증거이지만, 한계도 알아두어야 합니다.</strong></p>\n<ul>\n<li><strong>증거 능력 인정 기준</strong> — 법원은 원본 무결성, 촬영 시각의 정확성, 연속 촬영 여부를 기준으로 증거 능력을 판단합니다.</li>\n<li><strong>화질 문제</strong> — 야간이나 역광 상황에서 신호등 색상이나 차량 번호가 식별되지 않으면 증거력이 떨어집니다. 영상 분석 전문기관에 감정을 의뢰할 수 있습니다.</li>\n<li><strong>촬영 범위 사각지대</strong> — 블랙박스의 화각 밖에서 발생한 상황은 담기지 않습니다. 주변 CCTV나 목격자 진술로 보완해야 합니다.</li>\n<li><strong>타인의 블랙박스</strong> — 사고 현장 주변 차량의 블랙박스 영상도 증거가 됩니다. 사고 직후 주변 차량 운전자에게 협조를 요청하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 블랙박스 영상을 편집하거나 일부만 발췌하여 제출하면 오히려 불리하게 작용할 수 있습니다. 가능한 한 원본 전체를 제출하세요.</blockquote>',
       },
     ],
     cases: [
@@ -257,7 +257,7 @@ export const spokesBatch32Misc: SpokePage[] = [
       {
         title: '무단횡단 사고 기본 과실 비율 기준',
         content:
-          '<p><strong style="color:#1e3a5f">무단횡단 보행자 사고에서 운전자 과실은 통상 20~40% 범위에서 정해집니다.</strong></p>\n<ul>\n<li><strong>기본 비율</strong> — 보행자가 무단횡단한 경우에도 운전자에게 전방주시의무가 있으므로 운전자 과실이 완전히 0%가 되지는 않습니다. 기본 과실 비율은 보행자 70 : 운전자 30입니다.</li>\n<li><strong>도로 환경에 따른 변동</strong> — 왕복 6차선 이상의 넓은 도로, 중앙분리대가 있는 도로에서는 보행자 과실이 가중됩니다(보행자 80 : 운전자 20).</li>\n<li><strong>야간 사고</strong> — 야간에 어두운 옷을 입고 무단횡단한 경우 보행자 과실이 5~10% 추가됩니다.</li>\n<li><strong>제한속도 위반</strong> — 운전자가 제한속도를 초과한 상태였다면 운전자 과실이 10~20% 가중됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보행자가 무단횡단했더라도 운전자에게 전방주시의무와 감속의무가 있으므로 과실이 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">무단횡단 보행자 사고에서 운전자 과실은 통상 20~40% 범위에서 정해집니다.</strong></p>\n<ul>\n<li><strong>기본 비율</strong> — 보행자가 무단횡단한 경우에도 운전자에게 전방주시의무가 있으므로 운전자 과실이 완전히 0%가 되지는 않습니다. 기본 과실 비율은 보행자 70 : 운전자 30입니다.</li>\n<li><strong>도로 환경에 따른 변동</strong> — 왕복 6차선 이상의 넓은 도로, 중앙분리대가 있는 도로에서는 보행자 과실이 가중됩니다(보행자 80 : 운전자 20).</li>\n<li><strong>야간 사고</strong> — 야간에 어두운 옷을 입고 무단횡단한 경우 보행자 과실이 5~10% 추가됩니다.</li>\n<li><strong>제한속도 위반</strong> — 운전자가 제한속도를 초과한 상태였다면 운전자 과실이 10~20% 가중됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보행자가 무단횡단했더라도 운전자에게 전방주시의무와 감속의무가 있으므로 과실이 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '보행자 유형에 따른 과실 비율 조정',
@@ -286,7 +286,7 @@ export const spokesBatch32Misc: SpokePage[] = [
           '<p>극히 예외적인 경우에 가능합니다. 고속도로에서 보행자가 갑자기 뛰어든 경우, 운전자가 어떠한 조치를 취해도 사고를 피할 수 없었음이 인정되면 과실이 0%에 가까워질 수 있습니다. 그러나 일반 도로에서는 거의 인정되지 않습니다.</p>',
       },
       {
-        question: '보험사가 제시한 과실 비율에 반드시 동의해야 하나요?',
+        question: '보험사가 제시한 과실 비율에 가능한 한 동의해야 하나요?',
         answer:
           '<p>아닙니다. 보험사의 과실 비율은 협의안일 뿐 법적 구속력이 없습니다. 이의가 있으면 손해사정사를 선임하거나 교통사고분쟁심의위원회에 조정 신청, 또는 법원 소송을 통해 다툴 수 있습니다.</p>',
       },
@@ -331,7 +331,7 @@ export const spokesBatch32Misc: SpokePage[] = [
       {
         title: '대리운전 사고의 책임 구조',
         content:
-          '<p><strong style="color:#1e3a5f">대리운전 사고에서는 차주와 대리기사 모두 책임을 질 수 있습니다.</strong></p>\n<ul>\n<li><strong>운행자 책임(차주)</strong> — 자배법 제3조에 따라 "자기를 위하여 자동차를 운행하는 자"가 배상 책임을 집니다. 차주가 대리운전을 의뢰한 것이므로 운행지배와 운행이익이 차주에게 있어 차주도 운행자에 해당합니다.</li>\n<li><strong>대리기사의 직접 책임</strong> — 대리기사는 실제 운전자로서 민법 제750조 불법행위 책임을 집니다. 과실이 있으면 대리기사도 손해배상 의무가 있습니다.</li>\n<li><strong>대리운전 업체 책임</strong> — 대리기사가 업체 소속이면 사용자 책임(민법 제756조)이 업체에 있습니다. 다만 개인 대리기사와 업체 간 계약 형태에 따라 달라집니다.</li>\n<li><strong>보험 적용 관계</strong> — 차주의 자동차보험(대인·대물)이 우선 적용되고, 대리기사의 대리운전 배상책임보험이 보충적으로 적용됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 피해자는 차주와 대리기사 모두에게 손해배상을 청구할 수 있습니다. 차주의 보험으로 우선 처리됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">대리운전 사고에서는 차주와 대리기사 모두 책임을 질 수 있습니다.</strong></p>\n<ul>\n<li><strong>운행자 책임(차주)</strong> — 자배법 제3조에 따라 "자기를 위하여 자동차를 운행하는 자"가 배상 책임을 집니다. 차주가 대리운전을 의뢰한 것이므로 운행지배와 운행이익이 차주에게 있어 차주도 운행자에 해당할 소지가 있습니다.</li>\n<li><strong>대리기사의 직접 책임</strong> — 대리기사는 실제 운전자로서 민법 제750조 불법행위 책임을 집니다. 과실이 있으면 대리기사도 손해배상 의무가 있습니다.</li>\n<li><strong>대리운전 업체 책임</strong> — 대리기사가 업체 소속이면 사용자 책임(민법 제756조)이 업체에 있습니다. 다만 개인 대리기사와 업체 간 계약 형태에 따라 달라집니다.</li>\n<li><strong>보험 적용 관계</strong> — 차주의 자동차보험(대인·대물)이 우선 적용되고, 대리기사의 대리운전 배상책임보험이 보충적으로 적용됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 피해자는 차주와 대리기사 모두에게 손해배상을 청구할 수 있습니다. 차주의 보험으로 우선 처리됩니다.</blockquote>',
       },
       {
         title: '카풀 사고의 책임과 보험 적용',
@@ -357,7 +357,7 @@ export const spokesBatch32Misc: SpokePage[] = [
       {
         question: '대리운전 중 사고가 나면 차주 보험료가 올라가나요?',
         answer:
-          '<p>네, 차주의 자동차보험으로 처리되면 사고 이력이 남아 보험료가 올라갈 수 있습니다. 다만 대리운전 배상책임보험이 적용되면 차주 보험을 사용하지 않을 수 있으므로, 대리기사의 보험 가입 여부를 반드시 확인하세요.</p>',
+          '<p>네, 차주의 자동차보험으로 처리되면 사고 이력이 남아 보험료가 올라갈 수 있습니다. 다만 대리운전 배상책임보험이 적용되면 차주 보험을 사용하지 않을 수 있으므로, 대리기사의 보험 가입 여부를 가능한 한 확인하세요.</p>',
       },
       {
         question: '카풀 중 동승자가 다치면 운전자 보험으로 처리되나요?',
@@ -479,12 +479,12 @@ export const spokesBatch32Misc: SpokePage[] = [
         '이혼 과정에서 중학생·고등학생 자녀가 한쪽 부모와 살고 싶다고 하는데, 자녀 의사가 얼마나 반영되는지 지금 확인하세요.',
     },
     intro:
-      '<p>이혼 소송 중인데, 중학교 2학년인 아이가 "아빠랑 살고 싶다"고 합니다. 엄마인 저는 양육권을 포기하고 싶지 않은데, 아이의 의사가 얼마나 반영되는지 걱정됩니다. 법원은 만 13세 이상 자녀의 의견을 반드시 청취해야 하며, 특히 청소년의 의사는 양육권 판단에서 중요한 고려 요소입니다.</p>',
+      '<p>이혼 소송 중인데, 중학교 2학년인 아이가 "아빠랑 살고 싶다"고 합니다. 엄마인 저는 양육권을 포기하고 싶지 않은데, 아이의 의사가 얼마나 반영되는지 걱정됩니다. 법원은 만 13세 이상 자녀의 의견을 가능한 한 청취해야 하며, 특히 청소년의 의사는 양육권 판단에서 중요한 고려 요소입니다.</p>',
     sections: [
       {
         title: '자녀 의사 청취의 법적 근거와 연령 기준',
         content:
-          '<p><strong style="color:#1e3a5f">가사소송법에 따라 법원은 만 13세 이상 자녀의 의견을 반드시 청취해야 합니다.</strong></p>\n<ul>\n<li><strong>의무적 의견 청취</strong> — 가사소송법 제25조에 따라 자녀가 만 13세 이상이면 법원이 양육자 지정 전에 반드시 자녀의 의견을 들어야 합니다.</li>\n<li><strong>13세 미만도 가능</strong> — 만 13세 미만이라도 의사 표현 능력이 있으면 법원이 재량으로 의견을 청취합니다. 초등학교 고학년(10~12세)부터 참고합니다.</li>\n<li><strong>청취 방법</strong> — 법원 심리관(가사조사관)이 자녀와 면담합니다. 부모 없이 별도 공간에서 진행되며, 자녀가 압력 없이 솔직하게 의견을 말할 수 있도록 합니다.</li>\n<li><strong>의사 반영 비중</strong> — 자녀 연령이 높을수록 의사 반영 비중이 커집니다. 고등학생(15~18세)의 의사는 거의 결정적 수준으로 반영됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 자녀의 의사는 양육권 판단의 유일한 기준이 아니라, 여러 고려 요소 중 하나입니다. 자녀의 복리가 최우선입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">가사소송법에 따라 법원은 만 13세 이상 자녀의 의견을 가능한 한 청취해야 합니다.</strong></p>\n<ul>\n<li><strong>의무적 의견 청취</strong> — 가사소송법 제25조에 따라 자녀가 만 13세 이상이면 법원이 양육자 지정 전에 가능한 한 자녀의 의견을 들어야 합니다.</li>\n<li><strong>13세 미만도 가능</strong> — 만 13세 미만이라도 의사 표현 능력이 있으면 법원이 재량으로 의견을 청취합니다. 초등학교 고학년(10~12세)부터 참고합니다.</li>\n<li><strong>청취 방법</strong> — 법원 심리관(가사조사관)이 자녀와 면담합니다. 부모 없이 별도 공간에서 진행되며, 자녀가 압력 없이 솔직하게 의견을 말할 수 있도록 합니다.</li>\n<li><strong>의사 반영 비중</strong> — 자녀 연령이 높을수록 의사 반영 비중이 커집니다. 고등학생(15~18세)의 의사는 거의 결정적 수준으로 반영됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 자녀의 의사는 양육권 판단의 유일한 기준이 아니라, 여러 고려 요소 중 하나입니다. 자녀의 복리가 최우선입니다.</blockquote>',
       },
       {
         title: '법원이 자녀 의사 외에 고려하는 요소',
@@ -513,7 +513,7 @@ export const spokesBatch32Misc: SpokePage[] = [
           '<p>아닙니다. 법원이 재량으로 의견을 청취할 수 있으며, 초등학교 고학년(10~12세)의 경우 의사를 참고합니다. 다만 어린 자녀일수록 의사 표현이 부모의 영향을 받기 쉬워 반영 비중이 낮아집니다.</p>',
       },
       {
-        question: '자녀가 한쪽 부모와 살고 싶다고 하면 반드시 그렇게 되나요?',
+        question: '자녀가 한쪽 부모와 살고 싶다고 하면 가능한 한 그렇게 되나요?',
         answer:
           '<p>아닙니다. 자녀의 의사는 중요한 고려 요소이지만, 법원은 양육 환경의 안정성, 주양육자의 양육 능력, 자녀의 복리 등을 종합적으로 판단합니다. 자녀의 의사가 진정한 것인지, 왜곡된 것인지도 살핍니다.</p>',
       },
@@ -577,7 +577,7 @@ export const spokesBatch32Misc: SpokePage[] = [
         summary:
           '대법원 2024므13669 사건(대법원, 2025.10.23 선고)에서 법원은 민법 제746조에 따른 불법원인급여라도 이혼 시 재산분할에서 당사자 쌍방의 협력으로 이룩한 재산에 포함될 수 있으며, 재산분할 비율은 쌍방의 기여도를 종합적으로 고려하여 정해야 한다고 판시했습니다.',
         takeaway:
-          '사업체 재산분할에서 가사·육아를 전담한 배우자의 기여도도 인정됩니다. 직접적 사업 참여가 없더라도 간접적 기여를 입증하면 분할 비율이 높아질 수 있습니다.',
+          '사업체 재산분할에서 가사·육아를 전담한 배우자의 기여도도 인정될 수 있습니다. 직접적 사업 참여가 없더라도 간접적 기여를 입증하면 분할 비율이 높아질 수 있습니다.',
       },
     ],
     faq: [
@@ -632,7 +632,7 @@ export const spokesBatch32Misc: SpokePage[] = [
       {
         title: '개인회생에서 자동차를 유지할 수 있는 조건',
         content:
-          '<p><strong style="color:#1e3a5f">생계·직업 활동에 필수적인 차량은 개인회생에서 유지할 수 있습니다.</strong></p>\n<ul>\n<li><strong>생계 필수성 입증</strong> — 대중교통이 불편한 지역에 거주하거나, 출퇴근에 차량이 반드시 필요하다는 점을 소명합니다. 직업상 차량이 필수인 경우(영업직, 배달직)도 해당됩니다.</li>\n<li><strong>차량 가치 기준</strong> — 차량의 시가가 500만원 이하인 경우(법원마다 다소 차이) 청산가치에 크게 영향을 미치지 않아 유지가 쉽습니다.</li>\n<li><strong>대출 잔액과의 관계</strong> — 차량 시가보다 대출 잔액이 많으면(음의 자산) 청산가치가 0이므로 유지가 용이합니다.</li>\n<li><strong>고급 차량은 곤란</strong> — 시가 1,500만원 이상의 고급 차량은 법원이 처분을 권고할 수 있습니다. 저가 차량으로 교체 후 차액을 변제금에 반영하는 방법이 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 개인회생은 파산과 달리 재산을 처분하지 않아도 됩니다. 다만 차량 가치만큼 변제금이 늘어날 수 있습니다(청산가치 보장 원칙).</blockquote>',
+          '<p><strong style="color:#1e3a5f">생계·직업 활동에 필수적인 차량은 개인회생에서 유지할 수 있습니다.</strong></p>\n<ul>\n<li><strong>생계 필수성 입증</strong> — 대중교통이 불편한 지역에 거주하거나, 출퇴근에 차량이 가능한 한 필요하다는 점을 소명합니다. 직업상 차량이 필수인 경우(영업직, 배달직)도 해당됩니다.</li>\n<li><strong>차량 가치 기준</strong> — 차량의 시가가 500만원 이하인 경우(법원마다 다소 차이) 청산가치에 크게 영향을 미치지 않아 유지가 쉽습니다.</li>\n<li><strong>대출 잔액과의 관계</strong> — 차량 시가보다 대출 잔액이 많으면(음의 자산) 청산가치가 0이므로 유지가 용이합니다.</li>\n<li><strong>고급 차량은 곤란</strong> — 시가 1,500만원 이상의 고급 차량은 법원이 처분을 권고할 수 있습니다. 저가 차량으로 교체 후 차액을 변제금에 반영하는 방법이 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 개인회생은 파산과 달리 재산을 처분하지 않아도 됩니다. 다만 차량 가치만큼 변제금이 늘어날 수 있습니다(청산가치 보장 원칙).</blockquote>',
       },
       {
         title: '차량 가치가 변제금에 미치는 영향',
@@ -864,12 +864,12 @@ export const spokesBatch32Misc: SpokePage[] = [
       {
         title: '전대차 세입자의 법적 지위',
         content:
-          '<p><strong style="color:#1e3a5f">전대차 세입자(전차인)는 임대인과 직접 계약한 것이 아니므로 보호 범위가 제한됩니다.</strong></p>\n<ul>\n<li><strong>전대차란</strong> — 임차인(전대인)이 자신의 임차권을 기초로 제3자(전차인)에게 다시 임대하는 것입니다. 임대인의 동의가 있어야 적법한 전대차입니다(민법 제629조).</li>\n<li><strong>적법한 전대차</strong> — 임대인이 전대에 동의한 경우, 전차인은 임대인에게 직접 의무를 부담합니다(민법 제630조). 다만 보증금 반환 청구권은 전대인에게 있습니다.</li>\n<li><strong>무단전대</strong> — 임대인의 동의 없는 전대는 임대인이 임대차 해지를 할 수 있고, 전차인은 보증금을 돌려받기 매우 어렵습니다.</li>\n<li><strong>주택임대차보호법 적용</strong> — 적법한 전대차의 전차인도 주택의 인도와 주민등록을 갖추면 제3자에 대한 대항력을 취득할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 전대차 계약 전에 반드시 임대인의 서면 동의를 확인하세요. 구두 동의만으로는 분쟁 시 입증이 어렵습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">전대차 세입자(전차인)는 임대인과 직접 계약한 것이 아니므로 보호 범위가 제한됩니다.</strong></p>\n<ul>\n<li><strong>전대차란</strong> — 임차인(전대인)이 자신의 임차권을 기초로 제3자(전차인)에게 다시 임대하는 것입니다. 임대인의 동의가 있어야 적법한 전대차입니다(민법 제629조).</li>\n<li><strong>적법한 전대차</strong> — 임대인이 전대에 동의한 경우, 전차인은 임대인에게 직접 의무를 부담합니다(민법 제630조). 다만 보증금 반환 청구권은 전대인에게 있습니다.</li>\n<li><strong>무단전대</strong> — 임대인의 동의 없는 전대는 임대인이 임대차 해지를 할 수 있고, 전차인은 보증금을 돌려받기 매우 어렵습니다.</li>\n<li><strong>주택임대차보호법 적용</strong> — 적법한 전대차의 전차인도 주택의 인도와 주민등록을 갖추면 제3자에 대한 대항력을 취득할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 전대차 계약 전에 가능한 한 임대인의 서면 동의를 확인하세요. 구두 동의만으로는 분쟁 시 입증이 어렵습니다.</blockquote>',
       },
       {
         title: '전대차 보증금 보호를 위한 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">전대차 세입자가 보증금을 보호받으려면 아래 사항을 반드시 확인하세요.</strong></p>\n<ul>\n<li><strong>임대인 동의서 확보</strong> — 임대인이 전대에 동의한다는 서면(내용증명 또는 동의서)을 반드시 받으세요. 전대차 계약서에 임대인이 서명하는 것이 가장 확실합니다.</li>\n<li><strong>전입신고 + 확정일자</strong> — 전대차 세입자도 전입신고와 확정일자를 받아야 대항력과 우선변제권을 취득합니다.</li>\n<li><strong>원임대차 계약 확인</strong> — 원임대차 계약의 기간, 보증금, 특약 사항을 확인하세요. 원임대차가 종료되면 전대차도 종료될 수 있습니다.</li>\n<li><strong>등기부등본 확인</strong> — 임대 목적물의 근저당, 가압류 등 권리관계를 확인하세요. 선순위 권리가 많으면 경매 시 배당을 받지 못할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>전대차 보증금 보호 가능 여부, AI가 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">전대차 계약 내용과 등기부등본 정보를 입력하면 보호 가능성을 무료로 분석합니다.</p>\n<a href="/chat?domain=jeonse" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">전대차 세입자가 보증금을 보호받으려면 아래 사항을 가능한 한 확인하세요.</strong></p>\n<ul>\n<li><strong>임대인 동의서 확보</strong> — 임대인이 전대에 동의한다는 서면(내용증명 또는 동의서)을 가능한 한 받으세요. 전대차 계약서에 임대인이 서명하는 것이 가장 확실합니다.</li>\n<li><strong>전입신고 + 확정일자</strong> — 전대차 세입자도 전입신고와 확정일자를 받아야 대항력과 우선변제권을 취득합니다.</li>\n<li><strong>원임대차 계약 확인</strong> — 원임대차 계약의 기간, 보증금, 특약 사항을 확인하세요. 원임대차가 종료되면 전대차도 종료될 수 있습니다.</li>\n<li><strong>등기부등본 확인</strong> — 임대 목적물의 근저당, 가압류 등 권리관계를 확인하세요. 선순위 권리가 많으면 경매 시 배당을 받지 못할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>전대차 보증금 보호 가능 여부, AI가 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">전대차 계약 내용과 등기부등본 정보를 입력하면 보호 가능성을 무료로 분석합니다.</p>\n<a href="/chat?domain=jeonse" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '보증금 반환 분쟁 시 대응 방법',
@@ -938,12 +938,12 @@ export const spokesBatch32Misc: SpokePage[] = [
       {
         title: '임대인 세금체납이 세입자에게 미치는 영향',
         content:
-          '<p><strong style="color:#1e3a5f">체납 세금의 법정기일이 전입일보다 앞서면 보증금이 후순위로 밀립니다.</strong></p>\n<ul>\n<li><strong>국세·지방세 우선원칙</strong> — 국세징수법에 따라 국세와 지방세는 다른 채권보다 우선합니다. 다만 전세 보증금의 대항력 취득일(전입일 다음날)보다 법정기일이 늦은 세금은 보증금보다 후순위입니다.</li>\n<li><strong>법정기일이란</strong> — 세금의 법정기일은 신고납부 세금의 경우 신고일, 부과 세금의 경우 고지서 발송일입니다. 이 날짜가 전입신고일보다 앞서면 세금이 우선합니다.</li>\n<li><strong>경매 시 배당 순서</strong> — 체납세금 → 전세보증금(선순위) → 근저당권 → 일반채권 순서로 배당됩니다. 체납세금이 많으면 보증금 배당이 줄어듭니다.</li>\n<li><strong>당해세(해당 부동산 관련 세금)</strong> — 재산세, 종합부동산세 등 해당 부동산에 부과된 세금은 어떤 채권보다도 우선합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 2023년 4월부터 주택임대차보호법 개정으로 임차인이 임대인의 미납 국세를 열람할 수 있게 되었습니다. 계약 전 반드시 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">체납 세금의 법정기일이 전입일보다 앞서면 보증금이 후순위로 밀립니다.</strong></p>\n<ul>\n<li><strong>국세·지방세 우선원칙</strong> — 국세징수법에 따라 국세와 지방세는 다른 채권보다 우선합니다. 다만 전세 보증금의 대항력 취득일(전입일 다음날)보다 법정기일이 늦은 세금은 보증금보다 후순위입니다.</li>\n<li><strong>법정기일이란</strong> — 세금의 법정기일은 신고납부 세금의 경우 신고일, 부과 세금의 경우 고지서 발송일입니다. 이 날짜가 전입신고일보다 앞서면 세금이 우선합니다.</li>\n<li><strong>경매 시 배당 순서</strong> — 체납세금 → 전세보증금(선순위) → 근저당권 → 일반채권 순서로 배당됩니다. 체납세금이 많으면 보증금 배당이 줄어듭니다.</li>\n<li><strong>당해세(해당 부동산 관련 세금)</strong> — 재산세, 종합부동산세 등 해당 부동산에 부과된 세금은 어떤 채권보다도 우선합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 2023년 4월부터 주택임대차보호법 개정으로 임차인이 임대인의 미납 국세를 열람할 수 있게 되었습니다. 계약 전 가능한 한 확인하세요.</blockquote>',
       },
       {
         title: '임대인 세금체납 확인 방법',
         content:
-          '<p><strong style="color:#1e3a5f">계약 전후로 임대인의 체납세금을 확인할 수 있는 방법이 있습니다.</strong></p>\n<ul>\n<li><strong>국세 미납 열람</strong> — 주택임대차보호법 제3조의6에 따라 임차인(예정자 포함)은 임대인의 동의 없이도 관할 세무서에서 임대인의 미납 국세를 열람할 수 있습니다.</li>\n<li><strong>지방세 미납 열람</strong> — 지방세징수법에 따라 구청·시청에서 임대인의 미납 지방세를 열람할 수 있습니다.</li>\n<li><strong>등기부등본 확인</strong> — 이미 압류가 된 경우 등기부등본에 압류 기재가 나타납니다. 계약 전 반드시 등기부등본을 확인하세요.</li>\n<li><strong>열람 시점</strong> — 계약 체결 전, 전입 직전, 계약 갱신 전 등 주요 시점마다 확인하는 것이 안전합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>임대인 세금체납 위험, AI가 분석합니다</strong></p>\n<p style="margin:0;font-size:0.95em">임대인 정보와 계약 내용을 입력하면 보증금 위험도와 대응 방법을 무료로 확인하세요.</p>\n<a href="/chat?domain=jeonse" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">계약 전후로 임대인의 체납세금을 확인할 수 있는 방법이 있습니다.</strong></p>\n<ul>\n<li><strong>국세 미납 열람</strong> — 주택임대차보호법 제3조의6에 따라 임차인(예정자 포함)은 임대인의 동의 없이도 관할 세무서에서 임대인의 미납 국세를 열람할 수 있습니다.</li>\n<li><strong>지방세 미납 열람</strong> — 지방세징수법에 따라 구청·시청에서 임대인의 미납 지방세를 열람할 수 있습니다.</li>\n<li><strong>등기부등본 확인</strong> — 이미 압류가 된 경우 등기부등본에 압류 기재가 나타납니다. 계약 전 가능한 한 등기부등본을 확인하세요.</li>\n<li><strong>열람 시점</strong> — 계약 체결 전, 전입 직전, 계약 갱신 전 등 주요 시점마다 확인하는 것이 안전합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>임대인 세금체납 위험, AI가 분석합니다</strong></p>\n<p style="margin:0;font-size:0.95em">임대인 정보와 계약 내용을 입력하면 보증금 위험도와 대응 방법을 무료로 확인하세요.</p>\n<a href="/chat?domain=jeonse" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '보증금 보호를 위한 대응 방법',

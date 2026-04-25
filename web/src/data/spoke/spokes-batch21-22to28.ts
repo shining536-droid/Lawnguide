@@ -38,7 +38,7 @@ export const spokesBatch21_22to28: SpokePage[] = [
       {
         title: '필수 서류 ① — 신청서와 채권자·재산 목록',
         content:
-          '<p><strong style="color:#1e3a5f">개인회생 신청의 핵심은 신청서, 채권자 목록, 재산 목록 3종입니다</strong></p>\n<ul>\n<li><strong>개인회생 신청서</strong> — 법원 양식 다운로드(대한민국 법원 전자민원센터). 채무자 인적사항, 채무 발생 경위, 변제계획 개요를 기재합니다</li>\n<li><strong>채권자 목록</strong> — 모든 채권자의 이름, 채무 금액, 연체 기간을 빠짐없이 기재. 사채업자·개인 간 채무도 포함해야 합니다</li>\n<li><strong>재산 목록</strong> — 부동산, 예금, 보험 해지환급금, 자동차, 주식 등 모든 재산을 기재합니다</li>\n</ul>\n<p>채권자를 하나라도 누락하면 해당 채무가 면책되지 않을 수 있으므로 <strong>신용정보원 조회 결과</strong>를 반드시 첨부하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신청서 + 채권자 목록 + 재산 목록 = 3대 필수 서류</blockquote>',
+          '<p><strong style="color:#1e3a5f">개인회생 신청의 핵심은 신청서, 채권자 목록, 재산 목록 3종입니다</strong></p>\n<ul>\n<li><strong>개인회생 신청서</strong> — 법원 양식 다운로드(대한민국 법원 전자민원센터). 채무자 인적사항, 채무 발생 경위, 변제계획 개요를 기재합니다</li>\n<li><strong>채권자 목록</strong> — 모든 채권자의 이름, 채무 금액, 연체 기간을 빠짐없이 기재. 사채업자·개인 간 채무도 포함해야 합니다</li>\n<li><strong>재산 목록</strong> — 부동산, 예금, 보험 해지환급금, 자동차, 주식 등 모든 재산을 기재합니다</li>\n</ul>\n<p>채권자를 하나라도 누락하면 해당 채무가 면책되지 않을 수 있으므로 <strong>신용정보원 조회 결과</strong>를 가능한 한 첨부하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신청서 + 채권자 목록 + 재산 목록 = 3대 필수 서류</blockquote>',
       },
       {
         title: '필수 서류 ② — 소득 증빙과 지출 내역',
@@ -62,7 +62,7 @@ export const spokesBatch21_22to28: SpokePage[] = [
         summary:
           '대법원 2023마6207 사건에서 법원은 개인회생절차 개시결정이 있으면 채권자 목록에 기재된 개인회생채권에 대해 강제집행·가압류가 중지되며, 새로운 집행도 금지된다고 판시했습니다. 채권자 목록의 정확한 작성이 보호 범위를 결정합니다.',
         takeaway:
-          '채권자 목록에 누락된 채무는 면책되지 않을 수 있습니다. 신용정보원 조회 결과를 기반으로 모든 채권자를 빠짐없이 기재하고, 사채업자 채무도 반드시 포함하세요.',
+          '채권자 목록에 누락된 채무는 면책되지 않을 수 있습니다. 신용정보원 조회 결과를 기반으로 모든 채권자를 빠짐없이 기재하고, 사채업자 채무도 가능한 한 포함하세요.',
       },
     ],
     faq: [
@@ -74,7 +74,7 @@ export const spokesBatch21_22to28: SpokePage[] = [
       {
         question: '사채업자한테 빌린 돈도 채권자 목록에 넣어야 하나요?',
         answer:
-          '<strong>반드시 넣어야 합니다.</strong> 사채, 지인 간 차용, 미등록 대부업체 채무까지 모두 기재해야 면책 대상에 포함됩니다. 누락하면 해당 채무만 그대로 남습니다.',
+          '<strong>가능한 한 넣어야 합니다.</strong> 사채, 지인 간 차용, 미등록 대부업체 채무까지 모두 기재해야 면책 대상에 포함됩니다. 누락하면 해당 채무만 그대로 남습니다.',
       },
       {
         question: '전문가 없이 혼자 서류를 준비할 수 있나요?',
@@ -129,7 +129,7 @@ export const spokesBatch21_22to28: SpokePage[] = [
       {
         title: '1단계 — 상속개시 사실 확인과 3개월 기한 계산',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제1019조에 따라 "상속개시 있음을 안 날"로부터 3개월 이내에 상속포기를 신고해야 합니다</strong></p>\n<p>"상속개시 있음을 안 날"이란 피상속인이 사망했다는 사실과 자신이 상속인이라는 사실을 모두 안 날을 의미합니다. 사망일과 다를 수 있으므로 <strong>실제로 사망 소식을 들은 날</strong>이 기산점입니다.</p>\n<p>3개월은 <strong>법정 기한</strong>으로, 이 기간 안에 가정법원에 신고서를 접수해야 합니다. 법원의 수리결정이 3개월을 넘겨도 상관없지만, <strong>신고 접수 자체는 반드시 기한 내</strong>에 완료해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사망 사실 + 상속인 사실 안 날 → 3개월 내 법원 접수 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제1019조에 따라 "상속개시 있음을 안 날"로부터 3개월 이내에 상속포기를 신고해야 합니다</strong></p>\n<p>"상속개시 있음을 안 날"이란 피상속인이 사망했다는 사실과 자신이 상속인이라는 사실을 모두 안 날을 의미합니다. 사망일과 다를 수 있으므로 <strong>실제로 사망 소식을 들은 날</strong>이 기산점입니다.</p>\n<p>3개월은 <strong>법정 기한</strong>으로, 이 기간 안에 가정법원에 신고서를 접수해야 합니다. 법원의 수리결정이 3개월을 넘겨도 상관없지만, <strong>신고 접수 자체는 가능한 한 기한 내</strong>에 완료해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사망 사실 + 상속인 사실 안 날 → 3개월 내 법원 접수 필수</blockquote>',
       },
       {
         title: '2단계 — 상속재산과 채무 범위 파악',
@@ -228,7 +228,7 @@ export const spokesBatch21_22to28: SpokePage[] = [
       {
         title: '조회 방법 ③ — 부동산·차량·국세 개별 조회',
         content:
-          '<p><strong style="color:#1e3a5f">부동산 등기부등본, 차량 등록원부, 국세 체납 내역은 개별적으로도 확인할 수 있습니다</strong></p>\n<ul>\n<li><strong>부동산</strong> — 인터넷등기소에서 피상속인 명의 부동산 등기부등본 열람 (수수료 700원)</li>\n<li><strong>차량</strong> — 자동차민원 대국민포털에서 등록원부 발급</li>\n<li><strong>국세·지방세</strong> — 세무서 방문 또는 홈택스에서 납세증명서 발급. 체납 내역은 세무서에 직접 문의</li>\n</ul>\n<p>특히 부동산의 경우 <strong>근저당권, 가압류</strong> 등이 설정되어 있는지 등기부등본에서 반드시 확인하세요. 근저당이 설정되어 있으면 그 금액만큼 채무가 있다는 뜻입니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">조회 결과를 바탕으로 최선의 결정을 내리세요</strong><br/>\n<a href="/diagnosis/inheritance" style="color:#1565c0;font-weight:600">상속재산 조회 후 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">부동산 등기부등본, 차량 등록원부, 국세 체납 내역은 개별적으로도 확인할 수 있습니다</strong></p>\n<ul>\n<li><strong>부동산</strong> — 인터넷등기소에서 피상속인 명의 부동산 등기부등본 열람 (수수료 700원)</li>\n<li><strong>차량</strong> — 자동차민원 대국민포털에서 등록원부 발급</li>\n<li><strong>국세·지방세</strong> — 세무서 방문 또는 홈택스에서 납세증명서 발급. 체납 내역은 세무서에 직접 문의</li>\n</ul>\n<p>특히 부동산의 경우 <strong>근저당권, 가압류</strong> 등이 설정되어 있는지 등기부등본에서 가능한 한 확인하세요. 근저당이 설정되어 있으면 그 금액만큼 채무가 있다는 뜻입니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">조회 결과를 바탕으로 최선의 결정을 내리세요</strong><br/>\n<a href="/diagnosis/inheritance" style="color:#1565c0;font-weight:600">상속재산 조회 후 무료 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '조회 방법 ④ — 사인(私人) 간 채무 확인 방법',
@@ -242,7 +242,7 @@ export const spokesBatch21_22to28: SpokePage[] = [
         summary:
           '대법원 2025다212863 사건에서 법원은 금전채권과 같은 가분채권은 상속개시와 동시에 법정상속분에 따라 공동상속인에게 분할 귀속되는 것이 원칙이나, 초과특별수익자가 있는 등 특별한 사정이 있으면 예외적으로 상속재산분할 대상이 될 수 있다고 판시했습니다.',
         takeaway:
-          '피상속인의 예금을 다른 상속인이 임의로 인출했다면 부당이득반환 또는 손해배상 청구가 가능합니다. 상속재산 조회 후 예금 잔액이 예상보다 적다면 거래내역을 반드시 확인하세요.',
+          '피상속인의 예금을 다른 상속인이 임의로 인출했다면 부당이득반환 또는 손해배상 청구가 가능합니다. 상속재산 조회 후 예금 잔액이 예상보다 적다면 거래내역을 가능한 한 확인하세요.',
       },
     ],
     faq: [

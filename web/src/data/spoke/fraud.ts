@@ -23,7 +23,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '경찰에 신고하세요 — 사이버수사대 활용',
         content:
-          '<p><strong style="color:#1e3a5f">경찰청 사이버범죄 신고시스템으로 신고하세요</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>(ecrm.police.go.kr) 또는 112로 신고할 수 있습니다. 신고 시 피해 금액, 상대방 정보(계좌번호, 전화번호, 닉네임), 거래 경위를 정리해서 제출하세요.</p>\n<p>사기죄는 <strong>형법 제347조</strong>에 해당하며, 기망행위(속이는 행위)→착오→처분행위→재산 손해의 구조로 성립합니다. 피해 금액이 적더라도 신고는 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 증거 자료 정리, 경찰청 사이버범죄 신고(ecrm.police.go.kr)</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰청 사이버범죄 신고시스템으로 신고하세요</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>(ecrm.police.go.kr) 또는 112로 신고할 수 있습니다. 신고 시 피해 금액, 상대방 정보(계좌번호, 전화번호, 닉네임), 거래 경위를 정리해서 제출하세요.</p>\n<p>사기죄는 <strong>형법 제347조</strong>에 해당하며, 기망행위(속이는 행위)→착오→처분행위→재산 손해의 구조로 성립할 수 있습니다. 피해 금액이 적더라도 신고는 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 증거 자료 정리, 경찰청 사이버범죄 신고(ecrm.police.go.kr)</blockquote>',
       },
       {
         title: '고소장을 제출하면 수사가 본격적으로 시작됩니다',
@@ -114,7 +114,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '사기죄의 핵심을 먼저 이해하세요 — "처음부터 속일 생각이었는지"',
         content:
-          '<p><strong style="color:#1e3a5f">단순 채무불이행과 사기는 다릅니다</strong></p>\n<p><strong>형법 제347조</strong> 사기죄는 기망행위→착오→처분행위→재산 손해의 구조로 성립합니다. 핵심은 "처음부터 갚을 의사나 능력이 없었는지"입니다.</p>\n<p>빌릴 당시의 재정 상태, 다른 피해자 유무, 허위 진술 등이 기망의 정황 증거가 됩니다. <strong>단순히 돈을 안 갚는 것</strong>만으로는 사기가 아닐 수 있으므로, 기망의 정황을 구체적으로 정리하는 것이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 처음부터 갚을 의사/능력 없이 빌렸다면 사기, 갚을 생각이었으나 못 갚는 건 채무불이행</blockquote>',
+          '<p><strong style="color:#1e3a5f">단순 채무불이행과 사기는 다릅니다</strong></p>\n<p><strong>형법 제347조</strong> 사기죄는 기망행위→착오→처분행위→재산 손해의 구조로 성립할 수 있습니다. 핵심은 "처음부터 갚을 의사나 능력이 없었는지"입니다.</p>\n<p>빌릴 당시의 재정 상태, 다른 피해자 유무, 허위 진술 등이 기망의 정황 증거가 됩니다. <strong>단순히 돈을 안 갚는 것</strong>만으로는 사기가 아닐 수 있으므로, 기망의 정황을 구체적으로 정리하는 것이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 처음부터 갚을 의사/능력 없이 빌렸다면 사기, 갚을 생각이었으나 못 갚는 건 채무불이행</blockquote>',
       },
       {
         title: '피고소인 정보를 최대한 정리하세요',
@@ -136,7 +136,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '차용증 없이 이체 내역과 대화 기록으로 사기를 입증한 사례',
         summary:
-          '관련 사례에서도 차용증이 없더라도 계좌 이체 내역과 카카오톡 대화에서 "반드시 갚겠다"는 약속이 기망 행위의 증거로 인정된 경우가 자주 있습니다.',
+          '관련 사례에서도 차용증이 없더라도 계좌 이체 내역과 카카오톡 대화에서 "가능한 한 갚겠다"는 약속이 기망 행위의 증거로 인정된 경우가 자주 있습니다.',
         takeaway:
           '비슷한 상황이라면 이체 내역과 상대방의 약속이 담긴 대화 기록을 시간순으로 정리해두세요.',
       },
@@ -155,7 +155,7 @@ export const fraudPages: SpokePage[] = [
       },
       {
         question: '돈을 빌려준 건데 사기가 되나요?',
-        answer: '처음부터 갚을 <strong>의사나 능력</strong> 없이 빌렸다면 사기입니다. 단순 채무불이행과 구분이 필요합니다.',
+        answer: '처음부터 갚을 <strong>의사나 능력</strong> 없이 빌렸다면 사기로 검토될 수 있습니다. 단순 채무불이행과 구분이 필요합니다.',
       },
       {
         question: '고소장은 어디에 제출하나요?',
@@ -210,7 +210,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '업체가 정식 등록된 곳인지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">금융감독원에서 업체 등록 여부를 조회하세요</strong></p>\n<p><strong>금융감독원 금융소비자정보포털</strong>(fine.fss.or.kr)에서 해당 업체가 정식으로 등록되어 있는지 확인하세요. 미등록 업체의 투자 권유는 불법일 가능성이 높습니다.</p>\n<p>인허가 없이 원금 보장과 고수익을 약속하며 자금을 모집하는 행위는 <strong>유사수신행위의 규제에 관한 법률</strong>로 처벌됩니다. 금감원 불법금융신고센터(1332)에 문의하면 확인할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 업체명, 금감원 금융소비자정보포털(fine.fss.or.kr) 조회</blockquote>',
+          '<p><strong style="color:#1e3a5f">금융감독원에서 업체 등록 여부를 조회하세요</strong></p>\n<p><strong>금융감독원 금융소비자정보포털</strong>(fine.fss.or.kr)에서 해당 업체가 정식으로 등록되어 있는지 확인하세요. 미등록 업체의 투자 권유는 불법일 가능성이 높습니다.</p>\n<p>인허가 없이 원금 보장과 고수익을 약속하며 자금을 모집하는 행위는 <strong>유사수신행위의 규제에 관한 법률</strong>로 처벌 대상으로 검토될 수 있습니다. 금감원 불법금융신고센터(1332)에 문의하면 확인할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 업체명, 금감원 금융소비자정보포털(fine.fss.or.kr) 조회</blockquote>',
       },
       {
         title: '수익 구조가 현실적인지 검토하세요',
@@ -301,7 +301,7 @@ export const fraudPages: SpokePage[] = [
       title: '중고거래 사기 경찰 신고 전 핵심 체크리스트 | 로앤가이드',
       description: '중고거래 사기를 당해 경찰에 신고하려면? 증거 캡처, 계좌지급정지 신청, 고소장 작성법, 민사청구까지 신고 전 준비사항을 바로 정리해보세요.',
     },
-    intro: '중고거래 앱에서 물건 값을 송금했는데 판매자가 잠수를 탔습니다. 물건은 오지 않고, 프로필은 삭제된 상태입니다. 경찰에 신고하려는데 막상 뭘 준비해서 가야 하는지 막막합니다. 신고 전에 반드시 챙겨야 할 것들을 정리해보세요.',
+    intro: '중고거래 앱에서 물건 값을 송금했는데 판매자가 잠수를 탔습니다. 물건은 오지 않고, 프로필은 삭제된 상태입니다. 경찰에 신고하려는데 막상 뭘 준비해서 가야 하는지 막막합니다. 신고 전에 가능한 한 챙겨야 할 것들을 정리해보세요.',
     timelineSteps: ['증거 캡처', '신고 접수', '고소장 작성', '계좌정지·민사청구'],
     sections: [
       {
@@ -312,7 +312,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '112 또는 사이버수사대에 신고 접수하세요',
         content:
-          '<p><strong style="color:#1e3a5f">경찰청 사이버범죄 신고시스템으로 접수할 수 있습니다</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>(ecrm.police.go.kr) 또는 112 전화로 신고할 수 있습니다. 온라인 접수가 편리하지만, 가까운 경찰서 민원실에 직접 방문해도 됩니다.</p>\n<p>신고 시 <strong>피해 금액, 상대방 정보(계좌번호·전화번호·닉네임), 거래 경위</strong>를 정리해서 제출하세요. 사기죄는 <strong>형법 제347조</strong>에 해당하며, 피해 금액이 적더라도 신고가 가능합니다. 신고 접수 번호를 반드시 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 경로: ecrm.police.go.kr(온라인) / 112(전화) / 경찰서 민원실(방문)</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰청 사이버범죄 신고시스템으로 접수할 수 있습니다</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>(ecrm.police.go.kr) 또는 112 전화로 신고할 수 있습니다. 온라인 접수가 편리하지만, 가까운 경찰서 민원실에 직접 방문해도 됩니다.</p>\n<p>신고 시 <strong>피해 금액, 상대방 정보(계좌번호·전화번호·닉네임), 거래 경위</strong>를 정리해서 제출하세요. 사기죄는 <strong>형법 제347조</strong>에 해당하며, 피해 금액이 적더라도 신고가 가능합니다. 신고 접수 번호를 가능한 한 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 경로: ecrm.police.go.kr(온라인) / 112(전화) / 경찰서 민원실(방문)</blockquote>',
       },
       {
         title: '고소장 작성 시 이 3가지를 반드시 넣으세요',
@@ -403,17 +403,17 @@ export const fraudPages: SpokePage[] = [
       {
         title: '사기죄는 반의사불벌죄가 아닙니다 — 합의해도 기소될 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">피해자가 처벌을 원하지 않아도 검찰이 기소할 수 있습니다</strong></p>\n<p><strong>형법 제347조 사기죄</strong>는 반의사불벌죄가 아닙니다. 이는 피해자와 합의하여 고소를 취소하더라도, 검찰이 독자적으로 <strong>기소할 수 있다</strong>는 뜻입니다. 폭행죄처럼 "합의하면 끝"이 아니라는 점을 반드시 이해해야 합니다.</p>\n<p>다만 실무적으로 피해자와 합의가 이루어지면 검찰이 <strong>기소유예</strong>나 약식기소 등 관대한 처분을 내리는 경우가 많습니다. 합의 자체가 무의미한 것은 아니지만, 합의만으로 처벌을 완전히 피할 수 있다고 단정하면 안 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사기죄는 반의사불벌죄 아님 → 합의해도 기소 가능 → 그러나 양형에 큰 영향</blockquote>',
+          '<p><strong style="color:#1e3a5f">피해자가 처벌을 원하지 않아도 검찰이 기소할 수 있습니다</strong></p>\n<p><strong>형법 제347조 사기죄</strong>는 반의사불벌죄가 아닙니다. 이는 피해자와 합의하여 고소를 취소하더라도, 검찰이 독자적으로 <strong>기소할 수 있다</strong>는 뜻입니다. 폭행죄처럼 "합의하면 끝"이 아니라는 점을 가능한 한 이해해야 합니다.</p>\n<p>다만 실무적으로 피해자와 합의가 이루어지면 검찰이 <strong>기소유예</strong>나 약식기소 등 관대한 처분을 내리는 경우가 많습니다. 합의 자체가 무의미한 것은 아니지만, 합의만으로 처벌을 완전히 피할 수 있다고 단정하면 안 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사기죄는 반의사불벌죄 아님 → 합의해도 기소 가능 → 그러나 양형에 큰 영향</blockquote>',
       },
       {
         title: '합의의 실질적 효과 — 기소유예·감경·집행유예',
         content:
-          '<p><strong style="color:#1e3a5f">피해 회복은 양형에서 가장 중요한 감경 요소입니다</strong></p>\n<p>실무에서 합의는 <strong>양형에 매우 큰 영향</strong>을 미칩니다. 피해자에게 피해 금액을 전액 변제하고 합의한 경우, 검찰 단계에서는 <strong>기소유예</strong>(전과 기록 없음), 재판 단계에서는 <strong>형의 감경</strong>이나 <strong>집행유예</strong>를 받을 가능성이 높아집니다.</p>\n<p>특히 초범이고, 피해 금액이 크지 않으며, 피해자가 "처벌을 원하지 않는다"는 <strong>처벌불원서</strong>를 제출하면 기소유예 가능성이 상당합니다. 반대로 합의 없이 재판에 가면 실형 가능성도 있으므로, 합의 노력은 반드시 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 효과: 기소유예(전과 없음) / 약식기소(벌금) / 집행유예 가능성 상승</blockquote>',
+          '<p><strong style="color:#1e3a5f">피해 회복은 양형에서 가장 중요한 감경 요소입니다</strong></p>\n<p>실무에서 합의는 <strong>양형에 매우 큰 영향</strong>을 미칩니다. 피해자에게 피해 금액을 전액 변제하고 합의한 경우, 검찰 단계에서는 <strong>기소유예</strong>(전과 기록 없음), 재판 단계에서는 <strong>형의 감경</strong>이나 <strong>집행유예</strong>를 받을 가능성이 높아집니다.</p>\n<p>특히 초범이고, 피해 금액이 크지 않으며, 피해자가 "처벌을 원하지 않는다"는 <strong>처벌불원서</strong>를 제출하면 기소유예 가능성이 상당합니다. 반대로 합의 없이 재판에 가면 실형 가능성도 있으므로, 합의 노력은 가능한 한 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 효과: 기소유예(전과 없음) / 약식기소(벌금) / 집행유예 가능성 상승</blockquote>',
       },
       {
         title: '합의서 작성 시 반드시 포함해야 할 내용',
         content:
-          '<p><strong style="color:#1e3a5f">합의금액, 처벌불원 의사, 추가 청구 포기를 명시하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액</strong>과 지급 방법(일시불/분할), ②피해자의 <strong>"고소 취소 및 처벌불원" 의사</strong>, ③피해자의 <strong>민·형사상 추가 청구 포기</strong> 문구를 반드시 포함해야 합니다.</p>\n<p>합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다. 분할 지급의 경우 이행 조건과 불이행 시 처리 방안도 명시하세요. 합의서 작성 후에는 피해자가 직접 경찰이나 검찰에 <strong>고소 취소서</strong>와 <strong>처벌불원서</strong>를 제출해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수 항목: 합의 금액 + 처벌불원 의사 + 추가 청구 포기 + 공증 권장</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의금액, 처벌불원 의사, 추가 청구 포기를 명시하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액</strong>과 지급 방법(일시불/분할), ②피해자의 <strong>"고소 취소 및 처벌불원" 의사</strong>, ③피해자의 <strong>민·형사상 추가 청구 포기</strong> 문구를 가능한 한 포함해야 합니다.</p>\n<p>합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다. 분할 지급의 경우 이행 조건과 불이행 시 처리 방안도 명시하세요. 합의서 작성 후에는 피해자가 직접 경찰이나 검찰에 <strong>고소 취소서</strong>와 <strong>처벌불원서</strong>를 제출해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수 항목: 합의 금액 + 처벌불원 의사 + 추가 청구 포기 + 공증 권장</blockquote>',
       },
       {
         title: '변호사 선임 시기와 진술 준비를 확인하세요',
@@ -597,7 +597,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '사기죄 처벌 수위를 먼저 확인하세요 — 형법 제347조',
         content:
-          '<p><strong style="color:#1e3a5f">사기죄는 10년 이하 징역 또는 2,000만원 이하 벌금입니다</strong></p>\n<p><strong>형법 제347조</strong>에 따라 사람을 기망하여 재물의 교부를 받거나 재산상의 이익을 취득한 자는 <strong>10년 이하 징역 또는 2,000만원 이하 벌금</strong>에 처해집니다. 상습범은 <strong>형법 제351조</strong>에 의해 형의 2분의 1까지 가중됩니다.</p>\n<p>특정경제범죄가중처벌법이 적용되는 경우 피해 금액에 따라 처벌이 더 무거워집니다. 피해 금액 <strong>5억원 이상</strong>이면 3년 이상 징역, <strong>50억원 이상</strong>이면 무기 또는 5년 이상 징역에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">처벌 수위: 일반 사기 10년/2,000만원 | 5억 이상 3년 이상 | 50억 이상 5년 이상</blockquote>',
+          '<p><strong style="color:#1e3a5f">사기죄는 10년 이하 징역 또는 2,000만원 이하 벌금입니다</strong></p>\n<p><strong>형법 제347조</strong>에 따라 사람을 기망하여 재물의 교부를 받거나 재산상의 이익을 취득한 자는 <strong>10년 이하 징역 또는 2,000만원 이하 벌금</strong>에 처해집니다. 상습범은 <strong>형법 제351조</strong>에 의해 형의 2분의 1까지 가중됩니다.</p>\n<p>특정경제범죄가중처벌법이 적용되는 경우 피해 금액에 따라 처벌이 더 무거워집니다. 피해 금액 <strong>5억원 이상</strong>이면 3년 이상 징역, <strong>50억원 이상</strong>이면 무기 또는 5년 이상 징역에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">처벌 수위: 일반 사기 10년/2,000만원 | 5억 이상 3년 이상 | 50억 이상 5년 이상</blockquote>',
       },
       {
         title: '양형 기준을 파악하세요 — 감경·가중 요소',
@@ -607,12 +607,12 @@ export const fraudPages: SpokePage[] = [
       {
         title: '합의 시 감형 범위를 확인하세요 — 기소유예부터 집행유예까지',
         content:
-          '<p><strong style="color:#1e3a5f">합의 여부가 실형과 집행유예를 가르는 핵심입니다</strong></p>\n<p>사기죄에서 피해자와 합의가 이루어지면 ①검찰 단계에서 <strong>기소유예</strong>(전과 기록 없음) 처분이 가능하고, ②재판 단계에서는 <strong>형의 감경</strong> 또는 <strong>집행유예</strong> 선고 가능성이 크게 높아집니다. 실무에서 피해 전액 변제 후 합의한 초범은 <strong>기소유예율이 70% 이상</strong>으로 알려져 있습니다.</p>\n<p>피해 금액이 <strong>1,000만원 이하</strong>이고 전액 변제 + 처벌불원서를 확보하면 기소유예 가능성이 높습니다. <strong>1,000만원~5,000만원</strong> 구간은 합의 시 약식기소(벌금형)나 집행유예가 많습니다. 합의 없이 재판에 가면 <strong>실형 선고</strong> 가능성이 있으므로 합의 노력은 반드시 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감형 범위: 전액 변제+합의 → 기소유예/벌금형/집행유예 | 합의 없으면 실형 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의 여부가 실형과 집행유예를 가르는 핵심입니다</strong></p>\n<p>사기죄에서 피해자와 합의가 이루어지면 ①검찰 단계에서 <strong>기소유예</strong>(전과 기록 없음) 처분이 가능하고, ②재판 단계에서는 <strong>형의 감경</strong> 또는 <strong>집행유예</strong> 선고 가능성이 크게 높아집니다. 실무에서 피해 전액 변제 후 합의한 초범은 <strong>기소유예율이 70% 이상</strong>으로 알려져 있습니다.</p>\n<p>피해 금액이 <strong>1,000만원 이하</strong>이고 전액 변제 + 처벌불원서를 확보하면 기소유예 가능성이 높습니다. <strong>1,000만원~5,000만원</strong> 구간은 합의 시 약식기소(벌금형)나 집행유예가 많습니다. 합의 없이 재판에 가면 <strong>실형 선고</strong> 가능성이 있으므로 합의 노력은 가능한 한 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감형 범위: 전액 변제+합의 → 기소유예/벌금형/집행유예 | 합의 없으면 실형 가능</blockquote>',
       },
       {
         title: '합의서 작성 요령과 제출 절차를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의서에 처벌불원 의사와 금액을 명확히 기재하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액</strong>과 지급 방법(일시불 또는 분할), ②피해자의 <strong>"고소 취소 및 처벌불원" 의사</strong>, ③<strong>민·형사상 추가 청구 포기</strong> 문구를 반드시 포함하세요. 합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다.</p>\n<p>합의 후 피해자가 직접 수사기관(경찰 또는 검찰)에 <strong>고소 취소서</strong>와 <strong>처벌불원서</strong>를 제출해야 합니다. 피해자가 합의를 거부하는 경우 <strong>공탁</strong>(법원에 변제금을 맡기는 절차)으로 변제 의사를 증명할 수 있습니다. 공탁 사실은 양형에서 유리하게 참작됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수: 금액 + 처벌불원 + 추가 청구 포기 | 거부 시 공탁 활용</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의서에 처벌불원 의사와 금액을 명확히 기재하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액</strong>과 지급 방법(일시불 또는 분할), ②피해자의 <strong>"고소 취소 및 처벌불원" 의사</strong>, ③<strong>민·형사상 추가 청구 포기</strong> 문구를 가능한 한 포함하세요. 합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다.</p>\n<p>합의 후 피해자가 직접 수사기관(경찰 또는 검찰)에 <strong>고소 취소서</strong>와 <strong>처벌불원서</strong>를 제출해야 합니다. 피해자가 합의를 거부하는 경우 <strong>공탁</strong>(법원에 변제금을 맡기는 절차)으로 변제 의사를 증명할 수 있습니다. 공탁 사실은 양형에서 유리하게 참작됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수: 금액 + 처벌불원 + 추가 청구 포기 | 거부 시 공탁 활용</blockquote>',
       },
     ],
     comparison: {
@@ -714,7 +714,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '2단계: 경찰에 신고하고 사건 접수번호를 받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">112 신고 또는 가까운 경찰서에서 피해 신고를 하세요</strong></p>\n<p>계좌 지급정지 후 바로 <strong>경찰(112)</strong>에 보이스피싱 피해를 신고하세요. 가까운 경찰서에 직접 방문하거나 <strong>경찰청 사이버수사대</strong>(ecrm.police.go.kr)에 온라인으로 접수할 수도 있습니다.</p>\n<p>신고 시 <strong>피해 금액, 송금 시각, 상대방 계좌번호, 전화번호, 통화 내용</strong>을 정리하여 전달하세요. 통화 녹음이 있으면 핵심 증거가 됩니다. 사건 접수번호를 반드시 받아두세요. 이후 피해구제 신청에 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고: 경찰 112 / ecrm.police.go.kr | 준비: 피해 금액, 송금 시각, 계좌번호, 통화 녹음</blockquote>',
+          '<p><strong style="color:#1e3a5f">112 신고 또는 가까운 경찰서에서 피해 신고를 하세요</strong></p>\n<p>계좌 지급정지 후 바로 <strong>경찰(112)</strong>에 보이스피싱 피해를 신고하세요. 가까운 경찰서에 직접 방문하거나 <strong>경찰청 사이버수사대</strong>(ecrm.police.go.kr)에 온라인으로 접수할 수도 있습니다.</p>\n<p>신고 시 <strong>피해 금액, 송금 시각, 상대방 계좌번호, 전화번호, 통화 내용</strong>을 정리하여 전달하세요. 통화 녹음이 있으면 핵심 증거가 됩니다. 사건 접수번호를 가능한 한 받아두세요. 이후 피해구제 신청에 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고: 경찰 112 / ecrm.police.go.kr | 준비: 피해 금액, 송금 시각, 계좌번호, 통화 녹음</blockquote>',
       },
       {
         title: '3단계: 개인정보 노출이 의심되면 즉시 차단 조치를 하세요',
@@ -810,7 +810,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '착오와 처분행위 — 속아서 재산을 내놓아야 합니다',
         content:
-          '<p><strong style="color:#1e3a5f">기망 → 착오 → 처분행위의 인과관계가 핵심입니다</strong></p>\n<p>기망행위로 인해 피해자가 <strong>착오에 빠지고</strong>, 그 착오를 기초로 재산적 처분행위(돈 이체, 물건 교부 등)를 해야 합니다. 착오 없이 자발적으로 돈을 준 경우에는 사기가 성립하지 않습니다.</p>\n<p>대법원 판례(2017도9232)에 따르면 "피기망자의 착오와 처분행위 사이에 인과관계가 인정되어야" 합니다. 예컨대 투자 수익을 보장한다고 거짓말하여 투자금을 받았다면, 거짓 수익 보장(기망) → 수익이 날 것이라는 오판(착오) → 투자금 지급(처분행위)의 흐름이 성립합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "속아서 돈을 줬다"는 인과관계를 증명할 수 있어야 사기죄 성립</blockquote>',
+          '<p><strong style="color:#1e3a5f">기망 → 착오 → 처분행위의 인과관계가 핵심입니다</strong></p>\n<p>기망행위로 인해 피해자가 <strong>착오에 빠지고</strong>, 그 착오를 기초로 재산적 처분행위(돈 이체, 물건 교부 등)를 해야 합니다. 착오 없이 자발적으로 돈을 준 경우에는 사기가 성립하지 않습니다.</p>\n<p>대법원 판례(2017도9232)에 따르면 "피기망자의 착오와 처분행위 사이에 인과관계가 인정되어야" 합니다. 예컨대 투자 수익을 보장한다고 거짓말하여 투자금을 받았다면, 거짓 수익 보장(기망) → 수익이 날 것이라는 오판(착오) → 투자금 지급(처분행위)의 흐름이 성립할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "속아서 돈을 줬다"는 인과관계를 증명할 수 있어야 사기죄 성립</blockquote>',
       },
       {
         title: '편취의 고의 — 처음부터 속일 의도가 있었는지가 관건입니다',
@@ -845,7 +845,7 @@ export const fraudPages: SpokePage[] = [
         answer: '사기죄의 공소시효는 <strong>10년</strong>입니다. 피해를 안 날로부터가 아니라 범죄 행위가 끝난 날부터 기산합니다.',
       },
       {
-        question: '돈을 안 갚으면 무조건 사기인가요?',
+        question: '돈을 안 갚으면 원칙적으로 사기인가요?',
         answer: '아닙니다. <strong>빌릴 때 갚을 의사와 능력이 있었다면</strong> 사기가 아니라 민사상 채무불이행입니다.',
       },
       {
@@ -862,7 +862,7 @@ export const fraudPages: SpokePage[] = [
       },
       {
         question: '사기 미수도 처벌되나요?',
-        answer: '네, 형법 제352조에 따라 <strong>사기 미수</strong>도 처벌됩니다. 다만 기수보다 감경됩니다.',
+        answer: '네, 형법 제352조에 따라 <strong>사기 미수</strong>도 처벌 대상으로 검토될 수 있습니다. 다만 기수보다 감경됩니다.',
       },
       {
         question: '사기죄와 횡령죄는 어떻게 다른가요?',
@@ -907,7 +907,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '경찰 조사에서 진술권을 제대로 행사하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형사소송법상 피의자는 진술거부권이 있습니다</strong></p>\n<p>경찰 조사에서 가장 중요한 것은 <strong>진술거부권</strong>입니다. 헌법 제12조 제2항과 형사소송법 제244조의3에 따라, 불리한 진술을 거부할 수 있습니다. 모든 질문에 답해야 하는 것이 아닙니다.</p>\n<p>특히 "사기 의도가 있었느냐"는 질문에 대해 즉석에서 답변하면, 그 진술이 재판에서 불리하게 작용할 수 있습니다. 확실하지 않은 부분은 <strong>"확인 후 답변하겠다"</strong>고 말해도 됩니다. 조사 후 조서 내용을 반드시 꼼꼼히 확인하고 서명하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 진술거부권 행사 가능, 조서 내용 확인 후 서명, 불확실한 부분은 유보</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사소송법상 피의자는 진술거부권이 있습니다</strong></p>\n<p>경찰 조사에서 가장 중요한 것은 <strong>진술거부권</strong>입니다. 헌법 제12조 제2항과 형사소송법 제244조의3에 따라, 불리한 진술을 거부할 수 있습니다. 모든 질문에 답해야 하는 것이 아닙니다.</p>\n<p>특히 "사기 의도가 있었느냐"는 질문에 대해 즉석에서 답변하면, 그 진술이 재판에서 불리하게 작용할 수 있습니다. 확실하지 않은 부분은 <strong>"확인 후 답변하겠다"</strong>고 말해도 됩니다. 조사 후 조서 내용을 가능한 한 꼼꼼히 확인하고 서명하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 진술거부권 행사 가능, 조서 내용 확인 후 서명, 불확실한 부분은 유보</blockquote>',
       },
       {
         title: '합의를 통해 형사처벌을 줄일 수 있습니다',
@@ -1015,7 +1015,7 @@ export const fraudPages: SpokePage[] = [
         summary:
           '중고거래에서 하자 있는 물건을 받은 구매자가 판매자를 사기로 고소했으나, 판매자가 하자 발생 후 교환·환불을 제안한 대화 기록을 제출하여 편취 고의가 부정되어 무혐의 처분을 받은 사례입니다.',
         takeaway:
-          '비슷한 상황이라면 문제 발생 후 해결을 위해 노력한 흔적(대화 기록, 환불 시도 등)을 반드시 보관하세요.',
+          '비슷한 상황이라면 문제 발생 후 해결을 위해 노력한 흔적(대화 기록, 환불 시도 등)을 가능한 한 보관하세요.',
       },
       {
         title: '허위 사기 고소에 대해 무고죄 유죄 선고된 사례',
@@ -1028,7 +1028,7 @@ export const fraudPages: SpokePage[] = [
     faq: [
       {
         question: '무혐의를 받으면 자동으로 무고가 성립하나요?',
-        answer: '아닙니다. 무혐의와 무고는 별개입니다. 고소인이 <strong>"사실이 아닌 줄 알면서도 고의로 신고했다"</strong>는 점을 따로 증명해야 무고죄가 성립합니다.',
+        answer: '아닙니다. 무혐의와 무고는 별개입니다. 고소인이 <strong>"사실이 아닌 줄 알면서도 고의로 신고했다"</strong>는 점을 따로 증명해야 무고죄가 성립할 수 있습니다.',
       },
       {
         question: '상대방이 금전 압박 목적으로 고소한 것 같은데 증거가 될까요?',
@@ -1040,7 +1040,7 @@ export const fraudPages: SpokePage[] = [
       },
       {
         question: '무고죄로 고소하면 상대방은 어떤 처벌을 받나요?',
-        answer: '형법 제156조에 따라 <strong>10년 이하 징역 또는 1,500만 원 이하 벌금</strong>에 해당합니다. 형사처벌 외에도 허위 고소로 인한 손해배상(민사)도 가능합니다.',
+        answer: '형법 제156조에 따라 <strong>10년 이하 징역 또는 1,500만 원 이하 벌금</strong>에 해당할 소지가 있습니다. 형사처벌 외에도 허위 고소로 인한 손해배상(민사)도 가능합니다.',
       },
       {
         question: '무혐의를 받으면 전과 기록이 남나요?',
@@ -1121,11 +1121,11 @@ export const fraudPages: SpokePage[] = [
       },
       {
         question: '피해 금액이 30만원인데 경찰이 수사해주나요?',
-        answer: '소액이라도 사기죄는 성립합니다. 다만 수사 우선순위가 낮을 수 있으므로 <strong>증거를 잘 정리</strong>해서 고소장을 제출하세요.',
+        answer: '소액이라도 사기죄는 성립할 수 있습니다. 다만 수사 우선순위가 낮을 수 있으므로 <strong>증거를 잘 정리</strong>해서 고소장을 제출하세요.',
       },
       {
         question: '특정경제범죄법은 얼마부터 적용되나요?',
-        answer: '편취 금액 <strong>5억원 이상</strong>이면 3년 이상 징역, <strong>50억원 이상</strong>이면 무기 또는 5년 이상 징역에 해당합니다.',
+        answer: '편취 금액 <strong>5억원 이상</strong>이면 3년 이상 징역, <strong>50억원 이상</strong>이면 무기 또는 5년 이상 징역에 해당할 소지가 있습니다.',
       },
       {
         question: '민사 소멸시효 3년은 언제부터 계산하나요?',
@@ -1171,23 +1171,23 @@ export const fraudPages: SpokePage[] = [
       title: '사기 피의자 조사에서 절대 피할 실수 5가지 | 로앤가이드',
       description: '사기 혐의를 받고 있다면 경찰 조사에서 이것만은 하지 마세요. 진술 번복, 증거 인멸 시도 등 처벌을 키우는 5가지 실수와 대응법을 바로 정리해보세요.',
     },
-    intro: '평소처럼 출근 준비를 하는데 모르는 번호로 전화가 옵니다. 경찰서입니다. 사기 혐의로 출석하라는 통보를 받았습니다. 머릿속이 하얘지고, 무슨 말을 해야 할지 모르겠습니다. 혐의를 받고 있다면, 조사 전에 반드시 피해야 할 실수들을 확인해보세요.',
+    intro: '평소처럼 출근 준비를 하는데 모르는 번호로 전화가 옵니다. 경찰서입니다. 사기 혐의로 출석하라는 통보를 받았습니다. 머릿속이 하얘지고, 무슨 말을 해야 할지 모르겠습니다. 혐의를 받고 있다면, 조사 전에 가능한 한 피해야 할 실수들을 확인해보세요.',
     timelineSteps: ['출석 준비', '진술 전략 수립', '증거 대응', '합의·양형 검토'],
     sections: [
       {
         title: '실수 ①② — 준비 없이 출석하고 모든 질문에 답변하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">아무 준비 없이 경찰서에 가면 불리한 진술이 기록됩니다</strong></p>\n<p>첫 번째 실수는 <strong>아무 준비 없이 출석</strong>하는 것입니다. 출석 전에 반드시 사건의 경위, 관련 서류, 자금 흐름을 정리해야 합니다. 조사관이 어떤 질문을 할지 예상하고 답변 방향을 미리 잡아두세요.</p>\n<p>두 번째 실수는 <strong>모든 질문에 성실히 답변</strong>하는 것입니다. 피의자에게는 <strong>진술거부권</strong>(형사소송법 제244조의3)이 있습니다. 불리한 질문에는 "변호사와 상의 후 답변하겠습니다"라고 말할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 사건 정리 필수 | 진술거부권 행사 가능 | 불리한 질문은 유보</blockquote>',
+          '<p><strong style="color:#1e3a5f">아무 준비 없이 경찰서에 가면 불리한 진술이 기록됩니다</strong></p>\n<p>첫 번째 실수는 <strong>아무 준비 없이 출석</strong>하는 것입니다. 출석 전에 가능한 한 사건의 경위, 관련 서류, 자금 흐름을 정리해야 합니다. 조사관이 어떤 질문을 할지 예상하고 답변 방향을 미리 잡아두세요.</p>\n<p>두 번째 실수는 <strong>모든 질문에 성실히 답변</strong>하는 것입니다. 피의자에게는 <strong>진술거부권</strong>(형사소송법 제244조의3)이 있습니다. 불리한 질문에는 "변호사와 상의 후 답변하겠습니다"라고 말할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 사건 정리 필수 | 진술거부권 행사 가능 | 불리한 질문은 유보</blockquote>',
       },
       {
         title: '실수 ③ — 감정적으로 대응하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">흥분하거나 억울함을 쏟아내면 조서에 불리하게 기재됩니다</strong></p>\n<p>세 번째 실수는 <strong>감정적 대응</strong>입니다. "제가 왜 사기꾼입니까!", "그 사람이 거짓말하는 겁니다!"와 같은 감정적 발언은 조서에 그대로 기재되고, 수사관에게도 좋은 인상을 주지 못합니다.</p>\n<p>침착하게 <strong>사실관계</strong>만 답변하세요. 의견을 물으면 "사실관계를 말씀드리겠습니다"라고 전제하고 이야기하세요. 조서 작성 후에는 반드시 <strong>내용을 꼼꼼히 확인</strong>하고, 틀린 부분은 정정을 요구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 감정적 발언은 조서에 기록됨 | 사실관계 위주 답변 | 조서 확인·정정 필수</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">혐의를 받고 있다면, 조사 전에 대응 전략을 점검하세요. <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 사기 진단</a>으로 현재 상황에 맞는 방향을 확인해보세요.</p>',
+          '<p><strong style="color:#1e3a5f">흥분하거나 억울함을 쏟아내면 조서에 불리하게 기재됩니다</strong></p>\n<p>세 번째 실수는 <strong>감정적 대응</strong>입니다. "제가 왜 사기꾼입니까!", "그 사람이 거짓말하는 겁니다!"와 같은 감정적 발언은 조서에 그대로 기재되고, 수사관에게도 좋은 인상을 주지 못합니다.</p>\n<p>침착하게 <strong>사실관계</strong>만 답변하세요. 의견을 물으면 "사실관계를 말씀드리겠습니다"라고 전제하고 이야기하세요. 조서 작성 후에는 가능한 한 <strong>내용을 꼼꼼히 확인</strong>하고, 틀린 부분은 정정을 요구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 감정적 발언은 조서에 기록됨 | 사실관계 위주 답변 | 조서 확인·정정 필수</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">혐의를 받고 있다면, 조사 전에 대응 전략을 점검하세요. <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 사기 진단</a>으로 현재 상황에 맞는 방향을 확인해보세요.</p>',
       },
       {
         title: '실수 ④ — 증거를 임의로 제출하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">수사관 요청이라도 유리한 증거만 선별해서 제출하세요</strong></p>\n<p>네 번째 실수는 <strong>증거를 무작정 제출</strong>하는 것입니다. 수사관이 "통장 내역 다 가져오세요", "휴대폰 보여주세요"라고 하면 협조해야 한다고 생각하기 쉽습니다. 하지만 피의자는 <strong>자기에게 불리한 증거를 제출할 의무가 없습니다</strong>.</p>\n<p>제출 전에 해당 자료가 유리한지 불리한지 반드시 검토하세요. 가능하면 <strong>변호사와 함께</strong> 어떤 자료를 제출할지 상의한 뒤 선별적으로 제출하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 불리한 증거 제출 의무 없음 | 변호사 상의 후 선별 제출 | 압수수색영장 여부 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">수사관 요청이라도 유리한 증거만 선별해서 제출하세요</strong></p>\n<p>네 번째 실수는 <strong>증거를 무작정 제출</strong>하는 것입니다. 수사관이 "통장 내역 다 가져오세요", "휴대폰 보여주세요"라고 하면 협조해야 한다고 생각하기 쉽습니다. 하지만 피의자는 <strong>자기에게 불리한 증거를 제출할 의무가 없습니다</strong>.</p>\n<p>제출 전에 해당 자료가 유리한지 불리한지 가능한 한 검토하세요. 가능하면 <strong>변호사와 함께</strong> 어떤 자료를 제출할지 상의한 뒤 선별적으로 제출하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 불리한 증거 제출 의무 없음 | 변호사 상의 후 선별 제출 | 압수수색영장 여부 확인</blockquote>',
       },
       {
         title: '실수 ⑤ — 합의 시기를 놓치는 것',
@@ -1201,7 +1201,7 @@ export const fraudPages: SpokePage[] = [
         summary:
           '관련 사례에서도 피의자가 변호사 없이 첫 경찰 조사에 출석하여 "돈을 갚을 생각이 있었다"는 취지로 진술했으나, 조서에는 변제 의사가 불분명한 것으로 기재되어 기소에 이른 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 첫 조사 전에 반드시 변호사와 진술 방향을 상의하세요.',
+          '비슷한 상황이라면 첫 조사 전에 가능한 한 변호사와 진술 방향을 상의하세요.',
       },
       {
         title: '빠른 합의로 불기소 처분을 받은 사례',
@@ -1234,7 +1234,7 @@ export const fraudPages: SpokePage[] = [
       },
       {
         question: '조서에 서명하면 나중에 번복할 수 있나요?',
-        answer: '서명 후 번복은 <strong>신빙성이 크게 떨어집니다</strong>. 조서 내용을 반드시 꼼꼼히 확인한 뒤 서명하세요.',
+        answer: '서명 후 번복은 <strong>신빙성이 크게 떨어집니다</strong>. 조서 내용을 가능한 한 꼼꼼히 확인한 뒤 서명하세요.',
       },
       {
         question: '사기 혐의인데 구속될 수도 있나요?',
@@ -1274,7 +1274,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '사기와 채무불이행의 핵심 차이를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">빌릴 때 갚을 의사와 능력이 있었는지가 핵심 기준입니다</strong></p>\n<p><strong>사기죄</strong>는 처음부터 갚을 의사나 능력이 없으면서 돈을 빌린 경우에 성립합니다. 반면 <strong>채무불이행</strong>은 빌릴 때 갚을 의사와 능력이 있었지만 사정이 변해 못 갚게 된 경우입니다.</p>\n<p>대법원은 <strong>"차용 당시의 변제 의사와 변제 능력"</strong>을 핵심 판단 기준으로 봅니다(대법원 2017도2760 판결 등). 빌린 뒤 갚지 못한 것 자체만으로는 사기가 아닙니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 차용 당시 변제 의사 + 변제 능력 유무 | "못 갚음" ≠ "사기"</blockquote>',
+          '<p><strong style="color:#1e3a5f">빌릴 때 갚을 의사와 능력이 있었는지가 핵심 기준입니다</strong></p>\n<p><strong>사기죄</strong>는 처음부터 갚을 의사나 능력이 없으면서 돈을 빌린 경우에 성립할 수 있습니다. 반면 <strong>채무불이행</strong>은 빌릴 때 갚을 의사와 능력이 있었지만 사정이 변해 못 갚게 된 경우입니다.</p>\n<p>대법원은 <strong>"차용 당시의 변제 의사와 변제 능력"</strong>을 핵심 판단 기준으로 봅니다(대법원 2017도2760 판결 등). 빌린 뒤 갚지 못한 것 자체만으로는 사기가 아닙니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 차용 당시 변제 의사 + 변제 능력 유무 | "못 갚음" ≠ "사기"</blockquote>',
       },
       {
         title: '대법원 판단 기준 체크리스트로 확인하세요',
@@ -1310,7 +1310,7 @@ export const fraudPages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '돈을 못 갚으면 무조건 사기인가요?',
+        question: '돈을 못 갚으면 원칙적으로 사기인가요?',
         answer: '아닙니다. <strong>빌릴 때 갚을 의사와 능력이 있었다면</strong> 채무불이행이지 사기가 아닙니다.',
       },
       {
@@ -1371,7 +1371,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '결제 증거와 판매자 정보를 즉시 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">판매자가 삭제하기 전에, 오늘 안에 모든 기록을 캡처하세요</strong></p>\n<p>인터넷 쇼핑 사기의 핵심 증거는 <strong>"광고 내용과 실제 상품이 다르다"는 기망행위 입증</strong>입니다. SNS 광고 화면(URL 포함), 상품 페이지, 판매자 프로필, DM 대화 내용을 <strong>전체 화면 캡처</strong>로 저장하세요. 반드시 날짜·시간 표시가 보여야 합니다.</p>\n<p><strong>카드사 앱</strong>에서 결제 내역(가맹점명, 결제일, 금액)을 캡처하고, 택배 송장번호로 배송 기록을 확인하세요. 도착한 상품은 <strong>개봉 과정을 영상으로 촬영</strong>하고, 정품과 비교 사진(로고, 재질, 라벨)을 찍어두면 기망 입증에 결정적입니다. 계좌이체의 경우 <strong>이체확인서</strong>(인터넷뱅킹에서 출력)도 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 광고 캡처 + 결제 내역 + 상품 비교 사진 + 개봉 영상 = 기망행위 4대 증거</blockquote>',
+          '<p><strong style="color:#1e3a5f">판매자가 삭제하기 전에, 오늘 안에 모든 기록을 캡처하세요</strong></p>\n<p>인터넷 쇼핑 사기의 핵심 증거는 <strong>"광고 내용과 실제 상품이 다르다"는 기망행위 입증</strong>입니다. SNS 광고 화면(URL 포함), 상품 페이지, 판매자 프로필, DM 대화 내용을 <strong>전체 화면 캡처</strong>로 저장하세요. 가능한 한 날짜·시간 표시가 보여야 합니다.</p>\n<p><strong>카드사 앱</strong>에서 결제 내역(가맹점명, 결제일, 금액)을 캡처하고, 택배 송장번호로 배송 기록을 확인하세요. 도착한 상품은 <strong>개봉 과정을 영상으로 촬영</strong>하고, 정품과 비교 사진(로고, 재질, 라벨)을 찍어두면 기망 입증에 결정적입니다. 계좌이체의 경우 <strong>이체확인서</strong>(인터넷뱅킹에서 출력)도 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 광고 캡처 + 결제 내역 + 상품 비교 사진 + 개봉 영상 = 기망행위 4대 증거</blockquote>',
       },
       {
         title: '카드사에 결제취소(이의제기)를 신청하세요',
@@ -1381,7 +1381,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '경찰에 사기 신고하고 고소장을 접수하세요',
         content:
-          '<p><strong style="color:#1e3a5f">사이버범죄 신고시스템(ecrm.police.go.kr)에서 24시간 온라인 신고가 가능합니다</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>에 접속하여 "사이버사기" 카테고리로 신고하세요. 신고서에 필수 기재 사항: <strong>①판매자 계좌번호 ②판매자 전화번호/SNS 계정명 ③피해 금액 ④거래 경위(날짜별 정리) ⑤증거 파일 첨부</strong>. 접수 후 사건번호를 반드시 메모해두세요.</p>\n<p>신고와 동시에 <strong>더치트(thecheat.co.kr)</strong>에서 판매자의 계좌번호·전화번호를 검색하세요. 동일 피해자가 있으면 <strong>공동 고소</strong>를 진행하면 수사 우선순위가 올라갑니다. 피해 금액이 합산되면 가중 처벌(상습사기 형법 제351조, 벌금 상한 없음)도 가능합니다. 계좌이체 피해자는 신고 즉시 <strong>해당 은행에 지급정지 요청</strong>(전기통신금융사기 피해 방지법 제4조)도 함께 하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: ecrm.police.go.kr 신고 + 더치트 피해자 검색 + 은행 지급정지 = 동시 진행</blockquote>',
+          '<p><strong style="color:#1e3a5f">사이버범죄 신고시스템(ecrm.police.go.kr)에서 24시간 온라인 신고가 가능합니다</strong></p>\n<p><strong>경찰청 사이버범죄 신고시스템</strong>에 접속하여 "사이버사기" 카테고리로 신고하세요. 신고서에 필수 기재 사항: <strong>①판매자 계좌번호 ②판매자 전화번호/SNS 계정명 ③피해 금액 ④거래 경위(날짜별 정리) ⑤증거 파일 첨부</strong>. 접수 후 사건번호를 가능한 한 메모해두세요.</p>\n<p>신고와 동시에 <strong>더치트(thecheat.co.kr)</strong>에서 판매자의 계좌번호·전화번호를 검색하세요. 동일 피해자가 있으면 <strong>공동 고소</strong>를 진행하면 수사 우선순위가 올라갑니다. 피해 금액이 합산되면 가중 처벌(상습사기 형법 제351조, 벌금 상한 없음)도 가능합니다. 계좌이체 피해자는 신고 즉시 <strong>해당 은행에 지급정지 요청</strong>(전기통신금융사기 피해 방지법 제4조)도 함께 하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: ecrm.police.go.kr 신고 + 더치트 피해자 검색 + 은행 지급정지 = 동시 진행</blockquote>',
       },
       {
         title: '한국소비자원 피해구제와 민사 청구를 병행하세요',
@@ -1395,7 +1395,7 @@ export const fraudPages: SpokePage[] = [
         summary:
           '관련 사례에서도 유명 브랜드 로고를 도용한 가짜 쇼핑몰을 개설하고, 결제만 받은 뒤 상품을 보내지 않거나 짝퉁을 보낸 운영자가 사기죄로 징역형을 선고받은 경우가 있습니다. 피해자 수십 명의 결제 내역과 광고 캡처가 핵심 증거로 활용되었습니다.',
         takeaway:
-          '비슷한 상황이라면 광고 화면과 결제 내역을 반드시 캡처하고, 동일 피해자를 모아 공동 고소를 검토해보세요.',
+          '비슷한 상황이라면 광고 화면과 결제 내역을 가능한 한 캡처하고, 동일 피해자를 모아 공동 고소를 검토해보세요.',
       },
       {
         title: '카드사 이의제기로 전액 환불받은 사례',
@@ -1408,7 +1408,7 @@ export const fraudPages: SpokePage[] = [
     faq: [
       {
         question: '인스타그램에서 산 짝퉁 가방, 사기죄로 고소할 수 있나요?',
-        answer: '정품이라고 광고해놓고 짝퉁을 보냈다면 <strong>형법 제347조 사기죄(기망행위에 의한 재물 편취)</strong>에 해당합니다. 광고 캡처와 실제 상품 비교 사진이 핵심 증거입니다.',
+        answer: '정품이라고 광고해놓고 짝퉁을 보냈다면 <strong>형법 제347조 사기죄(기망행위에 의한 재물 편취)</strong>에 해당할 소지가 있습니다. 광고 캡처와 실제 상품 비교 사진이 핵심 증거입니다.',
       },
       {
         question: '네이버페이·카카오페이로 결제했는데 이의제기가 되나요?',
@@ -1474,7 +1474,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '경찰 조사에서 진술 실수를 피하세요',
         content:
-          '<p><strong style="color:#1e3a5f">조사 전 변호인 조력을 받고, 불리한 진술을 피하세요</strong></p>\n<p>경찰 조사에서 가장 위험한 것은 <strong>"뭔가 이상하다고 느꼈다"는 취지의 진술</strong>입니다. 이 한마디가 "미필적 고의"(알 수도 있었는데 감수했다)의 근거가 됩니다. 진술 전에 반드시 <strong>변호사와 상담</strong>하세요.</p>\n<p>"이상함을 느꼈냐"는 질문에는 <strong>"전혀 의심하지 못했다"</strong>고 일관되게 답변해야 합니다. 수사관의 회유성 질문("솔직하게 말하면 선처해준다")에 흔들려 불리한 진술을 하면 번복이 매우 어렵습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: "이상하다고 느꼈다" 진술 금지 | 변호인 동석 요청 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">조사 전 변호인 조력을 받고, 불리한 진술을 피하세요</strong></p>\n<p>경찰 조사에서 가장 위험한 것은 <strong>"뭔가 이상하다고 느꼈다"는 취지의 진술</strong>입니다. 이 한마디가 "미필적 고의"(알 수도 있었는데 감수했다)의 근거가 됩니다. 진술 전에 가능한 한 <strong>변호사와 상담</strong>하세요.</p>\n<p>"이상함을 느꼈냐"는 질문에는 <strong>"전혀 의심하지 못했다"</strong>고 일관되게 답변해야 합니다. 수사관의 회유성 질문("솔직하게 말하면 선처해준다")에 흔들려 불리한 진술을 하면 번복이 매우 어렵습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: "이상하다고 느꼈다" 진술 금지 | 변호인 동석 요청 가능</blockquote>',
       },
       {
         title: '혐의별 법적 대응 전략을 정리하세요',
@@ -1513,7 +1513,7 @@ export const fraudPages: SpokePage[] = [
       },
       {
         question: '경찰 조사에서 뭐라고 말해야 하나요?',
-        answer: '"사기인 줄 전혀 몰랐다"고 <strong>일관되게 진술</strong>하되, 조사 전에 반드시 변호사와 상담하세요.',
+        answer: '"사기인 줄 전혀 몰랐다"고 <strong>일관되게 진술</strong>하되, 조사 전에 가능한 한 변호사와 상담하세요.',
       },
       {
         question: '명의를 빌려줬는데 대출 사기에 쓰였어요. 공범인가요?',
@@ -1566,7 +1566,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '계약 당시 반환 능력이 있었음을 입증하세요',
         content:
-          '<p><strong style="color:#1e3a5f">임대 당시 부동산 시세와 재정 상태가 핵심 증거입니다</strong></p>\n<p>사실과 다르게 신고되었다면 <strong>계약 체결 시점의 부동산 시세</strong>를 증명하는 것이 가장 중요합니다. KB부동산 시세, 국토교통부 실거래가, 감정평가서 등으로 당시 매매가가 보증금을 충분히 커버했음을 보여주세요.</p>\n<p><strong>근저당 설정 현황</strong>(등기부등본), 본인의 다른 자산이나 소득 자료도 반환 능력의 증거가 됩니다. 세입자에게 보증금 반환 의사를 표현한 문자, 카톡 메시지도 반드시 보존하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 계약 당시 시세 자료(KB시세/실거래가), 등기부등본, 반환 의사 표현 메시지</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">보증금 분쟁으로 사기 고소를 받으셨다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+          '<p><strong style="color:#1e3a5f">임대 당시 부동산 시세와 재정 상태가 핵심 증거입니다</strong></p>\n<p>사실과 다르게 신고되었다면 <strong>계약 체결 시점의 부동산 시세</strong>를 증명하는 것이 가장 중요합니다. KB부동산 시세, 국토교통부 실거래가, 감정평가서 등으로 당시 매매가가 보증금을 충분히 커버했음을 보여주세요.</p>\n<p><strong>근저당 설정 현황</strong>(등기부등본), 본인의 다른 자산이나 소득 자료도 반환 능력의 증거가 됩니다. 세입자에게 보증금 반환 의사를 표현한 문자, 카톡 메시지도 가능한 한 보존하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 계약 당시 시세 자료(KB시세/실거래가), 등기부등본, 반환 의사 표현 메시지</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">보증금 분쟁으로 사기 고소를 받으셨다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
       },
       {
         title: '경찰·검찰 조사에서 일관된 진술이 중요합니다',
@@ -1576,7 +1576,7 @@ export const fraudPages: SpokePage[] = [
       {
         title: '허위 고소라면 무고죄 반대고소도 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">세입자가 사기가 아님을 알면서 고소했다면 무고죄가 성립합니다</strong></p>\n<p><strong>무고죄</strong>(형법 제156조)는 타인으로 하여금 형사처벌을 받게 할 목적으로 허위 사실을 신고하는 범죄로, <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 해당합니다. 세입자가 민사 분쟁임을 알면서도 형사 압박 수단으로 고소했다면 무고에 해당할 수 있습니다.</p>\n<p>다만 무고죄는 <strong>"허위라는 점을 인식하고 고소했는지"</strong>가 핵심이므로, 세입자가 진심으로 사기라고 믿었다면 성립이 어렵습니다. 변호사와 상담 후 반대고소 여부를 신중하게 결정하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">검토: 무고죄(형법 제156조) — 허위 인식 + 형사처벌 목적 신고 시 성립</blockquote>',
+          '<p><strong style="color:#1e3a5f">세입자가 사기가 아님을 알면서 고소했다면 무고죄가 성립할 수 있습니다</strong></p>\n<p><strong>무고죄</strong>(형법 제156조)는 타인으로 하여금 형사처벌을 받게 할 목적으로 허위 사실을 신고하는 범죄로, <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 해당할 소지가 있습니다. 세입자가 민사 분쟁임을 알면서도 형사 압박 수단으로 고소했다면 무고에 해당할 수 있습니다.</p>\n<p>다만 무고죄는 <strong>"허위라는 점을 인식하고 고소했는지"</strong>가 핵심이므로, 세입자가 진심으로 사기라고 믿었다면 성립이 어렵습니다. 변호사와 상담 후 반대고소 여부를 신중하게 결정하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">검토: 무고죄(형법 제156조) — 허위 인식 + 형사처벌 목적 신고 시 성립</blockquote>',
       },
     ],
     cases: [
@@ -1585,12 +1585,12 @@ export const fraudPages: SpokePage[] = [
         summary:
           '관련 사례에서도 임대 계약 당시 부동산 시세가 보증금을 충분히 커버했으나, 이후 시세 급락으로 매도가 어려워져 보증금을 반환하지 못한 임대인에 대해, 계약 시 편취 고의가 인정되지 않아 무혐의 처분이 내려진 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 계약 당시 부동산 시세와 근저당 현황을 증명할 자료를 반드시 확보하세요.',
+          '비슷한 상황이라면 계약 당시 부동산 시세와 근저당 현황을 증명할 자료를 가능한 한 확보하세요.',
       },
     ],
     faq: [
       {
-        question: '보증금을 못 돌려주면 무조건 전세사기인가요?',
+        question: '보증금을 못 돌려주면 원칙적으로 전세사기인가요?',
         answer: '아닙니다. <strong>계약 당시 반환 의사와 능력이 있었다면</strong> 채무불이행이지 사기가 아닙니다.',
       },
       {
@@ -1676,7 +1676,7 @@ export const fraudPages: SpokePage[] = [
         summary:
           '관련 사례에서도 피고인이 금전을 차용할 당시 부동산과 사업 매출이 있어 변제 능력이 인정되었으나, 이후 경기 악화로 사업이 실패하여 변제하지 못한 경우, 법원이 편취의 고의를 인정하기 어렵다고 판단하여 무죄를 선고한 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 거래 당시의 재산 상태와 수입을 증명할 수 있는 자료(통장거래내역, 부동산등기부, 매출자료)를 반드시 확보하세요.',
+          '비슷한 상황이라면 거래 당시의 재산 상태와 수입을 증명할 수 있는 자료(통장거래내역, 부동산등기부, 매출자료)를 가능한 한 확보하세요.',
       },
       {
         title: '일부 변제 사실이 편취 고의 부정의 근거가 된 사례',
@@ -1693,7 +1693,7 @@ export const fraudPages: SpokePage[] = [
       },
       {
         question: '사기 혐의로 경찰 출석 요구를 받았는데 꼭 가야 하나요?',
-        answer: '출석 요구에 정당한 이유 없이 불응하면 <strong>체포영장</strong>이 발부될 수 있습니다. 반드시 출석하되, 사전에 진술 방향을 정리해두세요.',
+        answer: '출석 요구에 정당한 이유 없이 불응하면 <strong>체포영장</strong>이 발부될 수 있습니다. 가능한 한 출석하되, 사전에 진술 방향을 정리해두세요.',
       },
       {
         question: '변호사 없이 경찰 조사를 받아도 되나요?',

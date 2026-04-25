@@ -41,7 +41,7 @@ export const spokesBatch21_1to7: SpokePage[] = [
       {
         title: '진정서 작성 시 흔한 실수 4가지',
         content:
-          '<p><strong style="color:#1e3a5f">진정서 내용이 부실하면 반려되거나 처리가 지연될 수 있으니 아래 실수를 반드시 피하세요</strong></p>\n<ul>\n<li><strong>체불 금액을 뭉뚱그려 적는 실수</strong> — "약 300만 원"이 아니라 기본급 200만 원 + 연장수당 50만 원 + 퇴직금 80만 원처럼 항목별로 분리해야 합니다</li>\n<li><strong>사업장 정보가 부정확한 실수</strong> — 상호명이 달라지거나 대표자가 변경된 경우 최신 사업자등록 정보를 확인하세요</li>\n<li><strong>증거를 첨부하지 않는 실수</strong> — 진정서만 내면 근로감독관이 사실 확인에 시간이 더 걸립니다. 급여명세서, 근로계약서 사본을 반드시 첨부하세요</li>\n<li><strong>퇴직금을 빠뜨리는 실수</strong> — 1년 이상 근무했다면 퇴직금도 체불 항목에 포함해야 합니다. 근로자퇴직급여 보장법에 따라 30일분 이상의 평균임금을 퇴직금으로 받을 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/wage" style="color:#1565c0;font-weight:600">내 임금체불 진정서 무료 검토받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">진정서 내용이 부실하면 반려되거나 처리가 지연될 수 있으니 아래 실수를 가능한 한 피하세요</strong></p>\n<ul>\n<li><strong>체불 금액을 뭉뚱그려 적는 실수</strong> — "약 300만 원"이 아니라 기본급 200만 원 + 연장수당 50만 원 + 퇴직금 80만 원처럼 항목별로 분리해야 합니다</li>\n<li><strong>사업장 정보가 부정확한 실수</strong> — 상호명이 달라지거나 대표자가 변경된 경우 최신 사업자등록 정보를 확인하세요</li>\n<li><strong>증거를 첨부하지 않는 실수</strong> — 진정서만 내면 근로감독관이 사실 확인에 시간이 더 걸립니다. 급여명세서, 근로계약서 사본을 가능한 한 첨부하세요</li>\n<li><strong>퇴직금을 빠뜨리는 실수</strong> — 1년 이상 근무했다면 퇴직금도 체불 항목에 포함해야 합니다. 근로자퇴직급여 보장법에 따라 30일분 이상의 평균임금을 퇴직금으로 받을 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/wage" style="color:#1565c0;font-weight:600">내 임금체불 진정서 무료 검토받기 &rarr;</a>\n</div>',
       },
       {
         title: '진정서 접수 후 처리 과정',
@@ -72,7 +72,7 @@ export const spokesBatch21_1to7: SpokePage[] = [
       {
         question: '진정서를 내면 사장이 보복할 수 있지 않나요?',
         answer:
-          '근로기준법 제104조 제2항에 따라 <strong>진정을 이유로 근로자에게 불이익을 주는 행위는 처벌 대상</strong>입니다. 2년 이하의 징역 또는 2천만 원 이하의 벌금에 해당합니다.',
+          '근로기준법 제104조 제2항에 따라 <strong>진정을 이유로 근로자에게 불이익을 주는 행위는 처벌 대상</strong>입니다. 2년 이하의 징역 또는 2천만 원 이하의 벌금에 해당할 소지가 있습니다.',
       },
       {
         question: '체불 금액이 소액이어도 진정을 넣을 수 있나요?',
@@ -164,7 +164,7 @@ export const spokesBatch21_1to7: SpokePage[] = [
       {
         question: '합의서에 "추가 청구를 하지 않는다"고 적으면 지연이자도 포기하는 건가요?',
         answer:
-          '<strong>네, 부제소 합의 조항이 있으면 지연이자 포함 모든 청구를 포기하게 됩니다.</strong> 합의 금액에 지연이자가 반영되었는지 반드시 확인하세요.',
+          '<strong>네, 부제소 합의 조항이 있으면 지연이자 포함 모든 청구를 포기하게 됩니다.</strong> 합의 금액에 지연이자가 반영되었는지 가능한 한 확인하세요.',
       },
       {
         question: '합의 후 사업주가 약속한 날짜에 돈을 안 주면 어떡하나요?',
@@ -225,7 +225,7 @@ export const spokesBatch21_1to7: SpokePage[] = [
       {
         title: '해고 후 72시간 이내에 해야 할 행정 절차',
         content:
-          '<p><strong style="color:#1e3a5f">해고 직후 생활 안정을 위한 행정 절차도 빠르게 진행해야 합니다</strong></p>\n<ul>\n<li><strong>실업급여 수급자격 확인</strong> — 고용보험 피보험기간 180일 이상이면 실업급여 대상입니다. 비자발적 퇴사(해고)에 해당하므로 수급자격이 인정됩니다. 관할 고용센터에 구직 신청하세요</li>\n<li><strong>건강보험 전환</strong> — 직장건강보험에서 지역건강보험 또는 임의계속가입으로 전환해야 합니다. 퇴사 후 14일 이내에 신청하세요</li>\n<li><strong>국민연금 납부 유예</strong> — 소득이 없으면 국민연금 납부 유예를 신청할 수 있습니다</li>\n<li><strong>구제신청 기한 확인</strong> — 부당해고 구제신청은 <strong>해고일로부터 3개월 이내</strong>에 해야 합니다. 달력에 기한을 표시하세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">72시간 체크: 서명 거부 → 증거 확보 → 부당성 판단 → 실업급여·보험 전환 → 구제신청 기한 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">해고 직후 생활 안정을 위한 행정 절차도 빠르게 진행해야 합니다</strong></p>\n<ul>\n<li><strong>실업급여 수급자격 확인</strong> — 고용보험 피보험기간 180일 이상이면 실업급여 대상입니다. 비자발적 퇴사(해고)에 해당하므로 수급자격이 인정될 수 있습니다. 관할 고용센터에 구직 신청하세요</li>\n<li><strong>건강보험 전환</strong> — 직장건강보험에서 지역건강보험 또는 임의계속가입으로 전환해야 합니다. 퇴사 후 14일 이내에 신청하세요</li>\n<li><strong>국민연금 납부 유예</strong> — 소득이 없으면 국민연금 납부 유예를 신청할 수 있습니다</li>\n<li><strong>구제신청 기한 확인</strong> — 부당해고 구제신청은 <strong>해고일로부터 3개월 이내</strong>에 해야 합니다. 달력에 기한을 표시하세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">72시간 체크: 서명 거부 → 증거 확보 → 부당성 판단 → 실업급여·보험 전환 → 구제신청 기한 확인</blockquote>',
       },
     ],
     cases: [
@@ -234,7 +234,7 @@ export const spokesBatch21_1to7: SpokePage[] = [
         summary:
           '대법원 2024두41038 사건(대법원, 2024.11.20 선고)에서 법원은 정년 도달에 따라 근로관계가 당연종료되었는지는 당연종료 여부가 다투어지는 시점에 유효한 정년을 기준으로 판단해야 하며, 소급 적용되는 정년을 기준으로 판단할 수 없다고 판시했습니다.',
         takeaway:
-          '사업주가 취업규칙 변경이나 소급 적용을 근거로 퇴직 처리하더라도 그 시점에 유효하지 않은 규정이면 부당해고에 해당합니다. 해고 근거의 유효성을 반드시 확인하세요.',
+          '사업주가 취업규칙 변경이나 소급 적용을 근거로 퇴직 처리하더라도 그 시점에 유효하지 않은 규정이면 부당해고에 해당할 소지가 있습니다. 해고 근거의 유효성을 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -251,7 +251,7 @@ export const spokesBatch21_1to7: SpokePage[] = [
       {
         question: '수습 기간 중 해고도 부당해고인가요?',
         answer:
-          '수습 기간이라도 <strong>합리적 이유 없는 해고는 부당해고</strong>에 해당합니다. 다만 3개월 이내의 수습 기간 중에는 해고예고 의무가 면제됩니다.',
+          '수습 기간이라도 <strong>합리적 이유 없는 해고는 부당해고</strong>에 해당할 소지가 있습니다. 다만 3개월 이내의 수습 기간 중에는 해고예고 의무가 면제됩니다.',
       },
       {
         question: '구두로 해고하면 어떻게 되나요?',

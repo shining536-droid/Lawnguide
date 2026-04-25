@@ -12,7 +12,7 @@ export const drugCrimePages: SpokePage[] = [
       title: '마약 수사 연락 받은 직후 48시간 대응법 | 로앤가이드',
       description: '마약 혐의로 경찰 출석 요구를 받았다면 가기 전에 반드시 확인하세요. 영장 확인, 변호인 선임, 진술거부권 행사까지 초기 48시간 대응법을 지금 확인하세요.',
     },
-    intro: '모르는 번호에서 전화가 왔습니다. "OO경찰서입니다. 마약류관리법 위반 건으로 출석해주셔야 합니다." 심장이 쿵 내려앉습니다. 당장 가야 하나요? 가면 바로 체포되나요? 전화로 뭘 물어봐야 하나요? 이 순간 가장 중요한 것은 "즉시 출석하지 않는 것"입니다. 출석 전 확인해야 할 사항과 반드시 챙겨야 할 권리를 정리했습니다.',
+    intro: '모르는 번호에서 전화가 왔습니다. "OO경찰서입니다. 마약류관리법 위반 건으로 출석해주셔야 합니다." 심장이 쿵 내려앉습니다. 당장 가야 하나요? 가면 바로 체포되나요? 전화로 뭘 물어봐야 하나요? 이 순간 가장 중요한 것은 "즉시 출석하지 않는 것"입니다. 출석 전 확인해야 할 사항과 가능한 한 챙겨야 할 권리를 정리했습니다.',
     timelineSteps: ['연락 내용 확인', '변호사 선임', '출석 및 진술', '수사·재판 대응'],
     sections: [
       {
@@ -23,7 +23,7 @@ export const drugCrimePages: SpokePage[] = [
       {
         title: '출석 전에 반드시 변호사를 선임하세요',
         content:
-          '<p><strong style="color:#1e3a5f">마약 사건은 초기 진술이 결과를 크게 좌우합니다</strong></p>\n<p>마약 사건은 <strong>초기 진술</strong>이 재판 결과에 결정적 영향을 미칩니다. 출석 전에 반드시 변호사를 선임하고, 진술 방향을 미리 상의하세요.</p>\n<p><strong>헌법 제12조</strong>에 따라 누구든지 변호인의 조력을 받을 권리가 있습니다. 변호사가 조사에 동석할 수 있으며, 경제적 여건이 안 되면 국선변호인을 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 변호사 선임 → 진술 방향 상의 → 조사 동석 요청</blockquote>',
+          '<p><strong style="color:#1e3a5f">마약 사건은 초기 진술이 결과를 크게 좌우합니다</strong></p>\n<p>마약 사건은 <strong>초기 진술</strong>이 재판 결과에 결정적 영향을 미칩니다. 출석 전에 가능한 한 변호사를 선임하고, 진술 방향을 미리 상의하세요.</p>\n<p><strong>헌법 제12조</strong>에 따라 누구든지 변호인의 조력을 받을 권리가 있습니다. 변호사가 조사에 동석할 수 있으며, 경제적 여건이 안 되면 국선변호인을 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 변호사 선임 → 진술 방향 상의 → 조사 동석 요청</blockquote>',
       },
       {
         title: '진술거부권을 이해하고 신중하게 진술하세요',
@@ -49,7 +49,7 @@ export const drugCrimePages: SpokePage[] = [
         summary:
           '관련 사례에서도 변호사 없이 출석하여 수사관의 질문에 불리한 진술을 한 결과, 단순 투약에서 매매 관여 혐의까지 확대된 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 반드시 변호사를 선임한 뒤 출석하고, 진술 범위를 미리 상의하세요.',
+          '비슷한 상황이라면 가능한 한 변호사를 선임한 뒤 출석하고, 진술 범위를 미리 상의하세요.',
       },
     ],
     faq: [
@@ -118,7 +118,7 @@ export const drugCrimePages: SpokePage[] = [
       {
         title: '초범 단순 투약이면 집행유예 가능성이 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">양형기준상 초범 단순 투약은 집행유예 권고 영역에 해당할 수 있습니다</strong></p>\n<p>대법원 <strong>양형위원회</strong>의 마약범죄 양형기준에 따르면, 초범이 단순 투약(소지·매매 없음)만 한 경우 <strong>징역 10월~2년</strong> 구간이 권고됩니다. 이 구간은 <strong>집행유예 선고가 가능한 범위</strong>(징역 3년 이하)에 해당합니다.</p>\n<p>다만 집행유예는 자동으로 주어지는 것이 아닙니다. 법원은 ①<strong>범행 동기</strong>(호기심 vs 상습), ②<strong>투약 횟수</strong>, ③<strong>마약 종류</strong>(대마 vs 필로폰), ④<strong>반성 정도</strong>, ⑤<strong>재범 위험성</strong>을 종합하여 판단합니다. 초범이라도 투약 횟수가 많거나 매매 관여가 의심되면 실형이 선고될 수 있습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">마약 혐의를 받고 있다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/drug-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">초범 단순 투약: 징역 10월~2년 권고 → 집행유예 가능 | 투약 횟수·종류·매매 관여 여부가 핵심</blockquote>',
+          '<p><strong style="color:#1e3a5f">양형기준상 초범 단순 투약은 집행유예 권고 영역에 해당할 수 있습니다</strong></p>\n<p>대법원 <strong>양형위원회</strong>의 마약범죄 양형기준에 따르면, 초범이 단순 투약(소지·매매 없음)만 한 경우 <strong>징역 10월~2년</strong> 구간이 권고됩니다. 이 구간은 <strong>집행유예 선고가 가능한 범위</strong>(징역 3년 이하)에 해당할 소지가 있습니다.</p>\n<p>다만 집행유예는 자동으로 주어지는 것이 아닙니다. 법원은 ①<strong>범행 동기</strong>(호기심 vs 상습), ②<strong>투약 횟수</strong>, ③<strong>마약 종류</strong>(대마 vs 필로폰), ④<strong>반성 정도</strong>, ⑤<strong>재범 위험성</strong>을 종합하여 판단합니다. 초범이라도 투약 횟수가 많거나 매매 관여가 의심되면 실형이 선고될 수 있습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">마약 혐의를 받고 있다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/drug-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">초범 단순 투약: 징역 10월~2년 권고 → 집행유예 가능 | 투약 횟수·종류·매매 관여 여부가 핵심</blockquote>',
       },
       {
         title: '자수와 자진 치료 — 형을 줄이는 가장 효과적인 방법입니다',
@@ -128,7 +128,7 @@ export const drugCrimePages: SpokePage[] = [
       {
         title: '변호사 선임과 재판 대응 — 초기 대응이 결과를 좌우합니다',
         content:
-          '<p><strong style="color:#1e3a5f">마약 사건은 초기 진술 한 마디가 혐의 범위를 결정합니다</strong></p>\n<p>마약 사건에서 가장 흔한 실수는 <strong>변호사 없이 수사관 앞에서 불리한 진술</strong>을 하는 것입니다. "누구와 함께 했냐"는 질문에 대한 답변이 <strong>공급·매매 혐의 확대</strong>로 이어지는 경우가 적지 않습니다. 반드시 변호사를 선임한 뒤 진술 범위를 사전에 상의하세요.</p>\n<p><strong>진술거부권</strong>(형사소송법 제244조의3)은 헌법이 보장하는 권리입니다. 변호사와 상의 없이 불리한 진술을 할 필요가 없습니다. 변호사는 ①<strong>혐의 범위 확인</strong>, ②<strong>진술 방향 설정</strong>, ③<strong>양형 자료 체계적 준비</strong>(치료 프로그램·탄원서·반성문), ④<strong>재판 변론</strong>까지 전 과정을 함께합니다. 경제적 여건이 어려우면 <strong>국선변호인</strong>을 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 변호사 선임 → 진술 범위 상의 → 양형 자료 준비 → 재판 변론</blockquote>',
+          '<p><strong style="color:#1e3a5f">마약 사건은 초기 진술 한 마디가 혐의 범위를 결정합니다</strong></p>\n<p>마약 사건에서 가장 흔한 실수는 <strong>변호사 없이 수사관 앞에서 불리한 진술</strong>을 하는 것입니다. "누구와 함께 했냐"는 질문에 대한 답변이 <strong>공급·매매 혐의 확대</strong>로 이어지는 경우가 적지 않습니다. 가능한 한 변호사를 선임한 뒤 진술 범위를 사전에 상의하세요.</p>\n<p><strong>진술거부권</strong>(형사소송법 제244조의3)은 헌법이 보장하는 권리입니다. 변호사와 상의 없이 불리한 진술을 할 필요가 없습니다. 변호사는 ①<strong>혐의 범위 확인</strong>, ②<strong>진술 방향 설정</strong>, ③<strong>양형 자료 체계적 준비</strong>(치료 프로그램·탄원서·반성문), ④<strong>재판 변론</strong>까지 전 과정을 함께합니다. 경제적 여건이 어려우면 <strong>국선변호인</strong>을 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 변호사 선임 → 진술 범위 상의 → 양형 자료 준비 → 재판 변론</blockquote>',
       },
     ],
     cases: [
@@ -149,7 +149,7 @@ export const drugCrimePages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '마약 초범이면 무조건 집행유예를 받나요?',
+        question: '마약 초범이면 원칙적으로 집행유예를 받나요?',
         answer:
           '아닙니다. 초범이라도 투약 횟수, 마약 종류, 매매 관여 여부에 따라 <strong>실형이 선고</strong>될 수 있습니다.',
       },

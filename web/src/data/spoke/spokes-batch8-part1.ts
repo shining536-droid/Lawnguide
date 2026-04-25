@@ -21,7 +21,7 @@ export const spokesBatch8Part1Pages: SpokePage[] = [
       {
         title: '단순폭행 합의금 — 50만~300만 원 범위가 일반적입니다',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제260조 단순폭행은 진단 2주 이하이거나 상해가 없는 경우에 해당합니다</strong></p>\n<p><strong>단순폭행(형법 제260조)</strong>은 사람의 신체에 대한 유형력 행사로, 상해에 이르지 않은 경우입니다. 뺨을 때리거나 밀치는 정도의 행위가 이에 해당합니다. 실무상 합의금은 <strong>50만~300만 원</strong> 범위에서 형성됩니다.</p>\n<p>금액에 영향을 미치는 요소는 폭행의 정도, 피해자의 나이·성별, 폭행 경위(상호 시비인지 일방적인지), 가해자의 전과 유무 등입니다. 초범이고 상호 시비 끝에 발생한 경미한 폭행이라면 <strong>50만~100만 원</strong>대, 일방적이고 공공장소에서 발생한 경우라면 <strong>200만~300만 원</strong>대가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">단순폭행 합의금: 경미 50~100만원 | 일반 100~200만원 | 일방적·공공장소 200~300만원</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제260조 단순폭행은 진단 2주 이하이거나 상해가 없는 경우에 해당할 소지가 있습니다</strong></p>\n<p><strong>단순폭행(형법 제260조)</strong>은 사람의 신체에 대한 유형력 행사로, 상해에 이르지 않은 경우입니다. 뺨을 때리거나 밀치는 정도의 행위가 이에 해당할 소지가 있습니다. 실무상 합의금은 <strong>50만~300만 원</strong> 범위에서 형성됩니다.</p>\n<p>금액에 영향을 미치는 요소는 폭행의 정도, 피해자의 나이·성별, 폭행 경위(상호 시비인지 일방적인지), 가해자의 전과 유무 등입니다. 초범이고 상호 시비 끝에 발생한 경미한 폭행이라면 <strong>50만~100만 원</strong>대, 일방적이고 공공장소에서 발생한 경우라면 <strong>200만~300만 원</strong>대가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">단순폭행 합의금: 경미 50~100만원 | 일반 100~200만원 | 일방적·공공장소 200~300만원</blockquote>',
       },
       {
         title: '상해죄 합의금 — 진단 주수와 후유증에 따라 크게 달라집니다',
@@ -134,12 +134,12 @@ export const spokesBatch8Part1Pages: SpokePage[] = [
       {
         title: '경찰 출석 조사 — 진술을 신중하게 하세요',
         content:
-          '<p><strong style="color:#1e3a5f">경찰 조사에서 한 진술은 재판까지 따라가므로 감정적 진술은 절대 금물입니다</strong></p>\n<p>경찰에서 피의자 조사를 받을 때 <strong>"저는 폭행한 사실이 없습니다"</strong>라는 점을 분명히 하되, 감정적으로 흥분해서 불필요한 말을 하지 마세요. "그 사람이 먼저 시비를 걸었다", "나도 맞았다" 등 맥락 없이 한 말이 오히려 불리한 증거가 될 수 있습니다.</p>\n<p>진술 전에 <strong>변호사 상담</strong>을 받는 것을 강력히 권합니다. 형사소송법 제200조에 따라 피의자는 변호인의 조력을 받을 권리가 있습니다. 진술거부권도 행사할 수 있습니다. 조사 내용을 기재한 <strong>피의자신문조서</strong>는 서명 전에 반드시 내용을 꼼꼼히 확인하고, 틀린 부분은 정정을 요구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 사실만 간결하게 진술 → 조서 내용 반드시 확인 → 서명 전 정정 요구</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰 조사에서 한 진술은 재판까지 따라가므로 감정적 진술은 절대 금물입니다</strong></p>\n<p>경찰에서 피의자 조사를 받을 때 <strong>"저는 폭행한 사실이 없습니다"</strong>라는 점을 분명히 하되, 감정적으로 흥분해서 불필요한 말을 하지 마세요. "그 사람이 먼저 시비를 걸었다", "나도 맞았다" 등 맥락 없이 한 말이 오히려 불리한 증거가 될 수 있습니다.</p>\n<p>진술 전에 <strong>변호사 상담</strong>을 받는 것을 강력히 권합니다. 형사소송법 제200조에 따라 피의자는 변호인의 조력을 받을 권리가 있습니다. 진술거부권도 행사할 수 있습니다. 조사 내용을 기재한 <strong>피의자신문조서</strong>는 서명 전에 가능한 한 내용을 꼼꼼히 확인하고, 틀린 부분은 정정을 요구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 사실만 간결하게 진술 → 조서 내용 가능한 한 확인 → 서명 전 정정 요구</blockquote>',
       },
       {
         title: '상대방 진술의 모순을 찾아 반박하세요',
         content:
-          '<p><strong style="color:#1e3a5f">무고 피해자의 진술에는 반드시 모순이 있습니다. 이를 찾아내는 것이 방어의 핵심입니다</strong></p>\n<p>허위 고소를 한 사람의 진술은 시간이 갈수록 <strong>일관성이 무너집니다</strong>. 최초 진술, 추가 진술, 재판 진술 사이에서 사건 경위, 폭행 부위, 폭행 횟수 등이 달라지는 경우가 많습니다. 수사 기록 열람을 통해 상대방 진술의 모순점을 찾아내세요.</p>\n<p>또한 상대방이 제출한 <strong>진단서의 신빙성</strong>도 검토해야 합니다. 경미한 접촉만으로 진단 2주~4주가 나온 경우, 진단서 발급 경위(사건 발생 후 며칠 만에 병원에 갔는지)를 따져볼 필요가 있습니다. 필요하면 의료 감정을 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 상대방 진술 변경 여부 + 진단서 발급 시점·경위 + CCTV 영상과의 일치 여부</blockquote>',
+          '<p><strong style="color:#1e3a5f">무고 피해자의 진술에는 가능한 한 모순이 있습니다. 이를 찾아내는 것이 방어의 핵심입니다</strong></p>\n<p>허위 고소를 한 사람의 진술은 시간이 갈수록 <strong>일관성이 무너집니다</strong>. 최초 진술, 추가 진술, 재판 진술 사이에서 사건 경위, 폭행 부위, 폭행 횟수 등이 달라지는 경우가 많습니다. 수사 기록 열람을 통해 상대방 진술의 모순점을 찾아내세요.</p>\n<p>또한 상대방이 제출한 <strong>진단서의 신빙성</strong>도 검토해야 합니다. 경미한 접촉만으로 진단 2주~4주가 나온 경우, 진단서 발급 경위(사건 발생 후 며칠 만에 병원에 갔는지)를 따져볼 필요가 있습니다. 필요하면 의료 감정을 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 상대방 진술 변경 여부 + 진단서 발급 시점·경위 + CCTV 영상과의 일치 여부</blockquote>',
       },
       {
         title: '무고죄 역고소 — 조건이 되면 적극적으로 대응하세요',
@@ -165,7 +165,7 @@ export const spokesBatch8Part1Pages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '경찰에서 출석 요구가 오면 반드시 가야 하나요?',
+        question: '경찰에서 출석 요구가 오면 가능한 한 가야 하나요?',
         answer:
           '정당한 이유 없이 출석을 거부하면 <strong>체포영장</strong>이 발부될 수 있습니다. 일정 조율은 가능하지만 출석 자체를 거부하지는 마세요. 변호사 동행을 준비한 후 출석하는 것이 좋습니다.',
       },

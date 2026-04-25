@@ -29,7 +29,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
       {
         title: '둘째, 직접충격 소음 기준은 주간 39dB, 야간 34dB입니다',
         content:
-          '<p><strong style="color:#1e3a5f">「공동주택 층간소음의 범위와 기준에 관한 규칙」 제3조 및 별표에서 구체적 수치를 정하고 있습니다</strong></p>\n<p>직접충격 소음(뛰기·걷기)의 기준은 <strong>1분간 등가소음도</strong> 기준으로 주간(06~22시) <strong>39dB</strong>, 야간(22~06시) <strong>34dB</strong>입니다. 최고소음도 기준으로는 주간 <strong>57dB</strong>, 야간 <strong>52dB</strong>입니다.</p>\n<p>공기전달 소음(TV·음악)의 기준은 5분간 등가소음도 기준으로 주간 <strong>45dB</strong>, 야간 <strong>40dB</strong>입니다. 이 수치를 초과하면 법적 기준을 넘는 층간소음에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">직접충격: 주간 39dB / 야간 34dB | 공기전달: 주간 45dB / 야간 40dB</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">내 층간소음 상황 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">「공동주택 층간소음의 범위와 기준에 관한 규칙」 제3조 및 별표에서 구체적 수치를 정하고 있습니다</strong></p>\n<p>직접충격 소음(뛰기·걷기)의 기준은 <strong>1분간 등가소음도</strong> 기준으로 주간(06~22시) <strong>39dB</strong>, 야간(22~06시) <strong>34dB</strong>입니다. 최고소음도 기준으로는 주간 <strong>57dB</strong>, 야간 <strong>52dB</strong>입니다.</p>\n<p>공기전달 소음(TV·음악)의 기준은 5분간 등가소음도 기준으로 주간 <strong>45dB</strong>, 야간 <strong>40dB</strong>입니다. 이 수치를 초과하면 법적 기준을 넘는 층간소음에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">직접충격: 주간 39dB / 야간 34dB | 공기전달: 주간 45dB / 야간 40dB</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">내 층간소음 상황 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 소음 측정은 이웃사이센터에 무료로 신청할 수 있습니다',
@@ -44,7 +44,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
       {
         title: '다섯째, 수인한도를 초과하면 손해배상을 청구할 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제750조에 따라 사회통념상 참을 한도를 넘는 소음은 불법행위에 해당합니다</strong></p>\n<p>층간소음이 지속적으로 기준을 초과하고 생활에 심각한 지장을 준다면 <strong>민사소송을 통한 손해배상 청구</strong>가 가능합니다. 정신적 피해에 대한 위자료도 청구할 수 있습니다.</p>\n<p>법원은 <strong>소음의 정도, 피해의 성질, 지역성, 가해자의 방지 노력</strong> 등을 종합적으로 고려하여 수인한도 초과 여부를 판단합니다. 측정 기록, 진단서, 녹음 파일 등 증거를 미리 확보해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">손해배상: 수인한도 초과 입증 → 위자료 + 치료비 청구 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제750조에 따라 사회통념상 참을 한도를 넘는 소음은 불법행위에 해당할 소지가 있습니다</strong></p>\n<p>층간소음이 지속적으로 기준을 초과하고 생활에 심각한 지장을 준다면 <strong>민사소송을 통한 손해배상 청구</strong>가 가능합니다. 정신적 피해에 대한 위자료도 청구할 수 있습니다.</p>\n<p>법원은 <strong>소음의 정도, 피해의 성질, 지역성, 가해자의 방지 노력</strong> 등을 종합적으로 고려하여 수인한도 초과 여부를 판단합니다. 측정 기록, 진단서, 녹음 파일 등 증거를 미리 확보해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">손해배상: 수인한도 초과 입증 → 위자료 + 치료비 청구 가능</blockquote>',
       },
     ],
     cases: [
@@ -106,7 +106,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
       {
         title: '첫째, 성매매 초범의 처벌 수위를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">성매매알선등행위의처벌에관한법률 제21조 제1항에 따라 성매매를 한 사람은 1년 이하의 징역이나 300만원 이하의 벌금에 처합니다</strong></p>\n<p>성매매는 <strong>단순 매수</strong>(성을 사는 행위)의 경우 위 법정형이 적용됩니다. 초범이고 단순 매수에 해당하면 벌금형이나 기소유예로 처리되는 경우가 많습니다.</p>\n<p>다만 <strong>아동·청소년 대상 성매매</strong>는 아동·청소년의 성보호에 관한 법률이 적용되어 훨씬 무거운 처벌을 받습니다. 상대방의 나이를 반드시 확인해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">단순 성매매: 1년 이하 징역 또는 300만원 이하 벌금 | 아동 대상은 가중 처벌</blockquote>',
+          '<p><strong style="color:#1e3a5f">성매매알선등행위의처벌에관한법률 제21조 제1항에 따라 성매매를 한 사람은 1년 이하의 징역이나 300만원 이하의 벌금에 처합니다</strong></p>\n<p>성매매는 <strong>단순 매수</strong>(성을 사는 행위)의 경우 위 법정형이 적용됩니다. 초범이고 단순 매수에 해당하면 벌금형이나 기소유예로 처리되는 경우가 많습니다.</p>\n<p>다만 <strong>아동·청소년 대상 성매매</strong>는 아동·청소년의 성보호에 관한 법률이 적용되어 훨씬 무거운 처벌을 받습니다. 상대방의 나이를 가능한 한 확인해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">단순 성매매: 1년 이하 징역 또는 300만원 이하 벌금 | 아동 대상은 가중 처벌</blockquote>',
       },
       {
         title: '둘째, 기소유예를 받기 위한 3가지 핵심 조건을 확인하세요',
@@ -149,7 +149,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
       },
       {
         question: '성매매 초범인데 벌금을 내면 전과가 남나요?',
-        answer: '벌금형을 선고받으면 <strong>전과에 해당합니다</strong>. 기소유예와 달리 벌금형은 형사처벌이므로 전과 기록이 남게 됩니다. 따라서 가능하다면 기소유예를 받는 것이 유리합니다.',
+        answer: '벌금형을 선고받으면 <strong>전과에 해당할 소지가 있습니다</strong>. 기소유예와 달리 벌금형은 형사처벌이므로 전과 기록이 남게 됩니다. 따라서 가능하다면 기소유예를 받는 것이 유리합니다.',
       },
       {
         question: '경찰 조사에서 어디까지 진술해야 하나요?',
@@ -184,17 +184,17 @@ export const spokesBatch18_16to20: SpokePage[] = [
       {
         title: '실수 1: 권리분석 없이 감정가만 보고 입찰합니다',
         content:
-          '<p><strong style="color:#1e3a5f">경매 물건의 핵심은 감정가가 아니라 권리관계 분석입니다</strong></p>\n<p>초보자는 감정가 대비 낙찰가율만 보고 "저렴하다"고 판단하는 실수를 합니다. 하지만 <strong>선순위 전세권, 유치권, 법정지상권</strong> 등이 있으면 낙찰 후 추가 비용이 발생합니다.</p>\n<p><strong>등기부등본의 갑구(소유권)와 을구(근저당·전세권)</strong>를 반드시 확인하세요. 매각물건명세서, 현황조사서, 감정평가서를 모두 검토해야 숨은 권리를 발견할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 확인: 등기부등본 갑·을구 + 매각물건명세서 + 현황조사서 + 감정평가서</blockquote>',
+          '<p><strong style="color:#1e3a5f">경매 물건의 핵심은 감정가가 아니라 권리관계 분석입니다</strong></p>\n<p>초보자는 감정가 대비 낙찰가율만 보고 "저렴하다"고 판단하는 실수를 합니다. 하지만 <strong>선순위 전세권, 유치권, 법정지상권</strong> 등이 있으면 낙찰 후 추가 비용이 발생합니다.</p>\n<p><strong>등기부등본의 갑구(소유권)와 을구(근저당·전세권)</strong>를 가능한 한 확인하세요. 매각물건명세서, 현황조사서, 감정평가서를 모두 검토해야 숨은 권리를 발견할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 확인: 등기부등본 갑·을구 + 매각물건명세서 + 현황조사서 + 감정평가서</blockquote>',
       },
       {
         title: '실수 2: 임차인 현황을 확인하지 않고 입찰합니다',
         content:
-          '<p><strong style="color:#1e3a5f">대항력 있는 임차인이 있으면 낙찰자가 보증금을 인수해야 합니다</strong></p>\n<p>경매 물건에 <strong>대항력을 갖춘 임차인</strong>(전입신고 + 확정일자가 근저당 설정일보다 앞선 경우)이 있으면 낙찰자가 보증금 전액을 떠안게 됩니다. 이 비용을 고려하지 않으면 시세보다 비싸게 사는 셈이 됩니다.</p>\n<p><strong>현황조사서</strong>에 임차인 정보가 기재되어 있으니 반드시 확인하세요. 가능하면 직접 현장을 방문하여 실제 거주자와 임대차 조건을 확인하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대항력 임차인: 보증금 인수 의무 → 현황조사서 + 현장 방문으로 확인</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">내 경매 입찰 상황 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">대항력 있는 임차인이 있으면 낙찰자가 보증금을 인수해야 합니다</strong></p>\n<p>경매 물건에 <strong>대항력을 갖춘 임차인</strong>(전입신고 + 확정일자가 근저당 설정일보다 앞선 경우)이 있으면 낙찰자가 보증금 전액을 떠안게 됩니다. 이 비용을 고려하지 않으면 시세보다 비싸게 사는 셈이 됩니다.</p>\n<p><strong>현황조사서</strong>에 임차인 정보가 기재되어 있으니 가능한 한 확인하세요. 가능하면 직접 현장을 방문하여 실제 거주자와 임대차 조건을 확인하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대항력 임차인: 보증금 인수 의무 → 현황조사서 + 현장 방문으로 확인</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">내 경매 입찰 상황 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '실수 3: 명도 비용과 시간을 과소평가합니다',
         content:
-          '<p><strong style="color:#1e3a5f">낙찰 후 기존 점유자를 내보내는 명도 절차에 수개월이 걸릴 수 있습니다</strong></p>\n<p>경매로 소유권을 취득해도 <strong>기존 점유자가 자발적으로 나가지 않으면</strong> 인도명령이나 명도소송을 거쳐야 합니다. 인도명령은 보통 2~4주, 명도소송은 6개월 이상 소요됩니다.</p>\n<p>명도 과정에서 <strong>이사비 합의금</strong>(통상 수백만원)이 필요한 경우도 많습니다. 낙찰가 외에 명도 비용, 미납 관리비, 취득세 등 <strong>부대비용을 반드시 예산에 포함</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">명도 비용: 이사비 합의금 + 인도명령/소송 비용 + 미납 관리비 + 취득세</blockquote>',
+          '<p><strong style="color:#1e3a5f">낙찰 후 기존 점유자를 내보내는 명도 절차에 수개월이 걸릴 수 있습니다</strong></p>\n<p>경매로 소유권을 취득해도 <strong>기존 점유자가 자발적으로 나가지 않으면</strong> 인도명령이나 명도소송을 거쳐야 합니다. 인도명령은 보통 2~4주, 명도소송은 6개월 이상 소요됩니다.</p>\n<p>명도 과정에서 <strong>이사비 합의금</strong>(통상 수백만원)이 필요한 경우도 많습니다. 낙찰가 외에 명도 비용, 미납 관리비, 취득세 등 <strong>부대비용을 가능한 한 예산에 포함</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">명도 비용: 이사비 합의금 + 인도명령/소송 비용 + 미납 관리비 + 취득세</blockquote>',
       },
       {
         title: '실수 4: 입찰 보증금과 잔금 납부 기한을 놓칩니다',
@@ -213,7 +213,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
         summary:
           '대법원 2024다291102 사건(2025.03.27 선고)에서 법원은 가등기담보법 제16조에 따라 담보가등기권리자가 집행법원이 정한 기간 내에 채권신고를 하지 않으면 매각대금 배당을 받을 권리를 상실한다고 판시했습니다.',
         takeaway:
-          '경매에서는 기한을 놓치면 권리 자체를 잃을 수 있습니다. 입찰자 역시 보증금 납부, 잔금 기한 등 각 단계별 기한을 반드시 준수하세요.',
+          '경매에서는 기한을 놓치면 권리 자체를 잃을 수 있습니다. 입찰자 역시 보증금 납부, 잔금 기한 등 각 단계별 기한을 가능한 한 준수하세요.',
       },
     ],
     faq: [
@@ -226,7 +226,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
         answer: '경매 대출은 <strong>잔금 납부 기한 내에 실행</strong>되어야 하므로 일반 대출보다 일정이 촉박합니다. 대출 가능 여부와 한도를 입찰 전에 미리 은행에 상담받으세요.',
       },
       {
-        question: '유치권이 있는 물건은 무조건 피해야 하나요?',
+        question: '유치권이 있는 물건은 원칙적으로 피해야 하나요?',
         answer: '유치권은 <strong>낙찰자에게 대항할 수 있는 권리</strong>이므로 초보자에게는 위험합니다. 유치권의 성립 요건과 금액을 정확히 파악할 수 없다면 피하는 것이 안전합니다.',
       },
       {
@@ -235,7 +235,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
       },
       {
         question: '법원 감정가보다 시세가 낮은 경우도 있나요?',
-        answer: '감정가는 <strong>감정 시점의 시세</strong>를 기준으로 산정하므로, 시장 변동에 따라 실제 시세가 감정가보다 낮아질 수 있습니다. 입찰 전에 실거래가 사이트에서 최근 거래 시세를 반드시 확인하세요.',
+        answer: '감정가는 <strong>감정 시점의 시세</strong>를 기준으로 산정하므로, 시장 변동에 따라 실제 시세가 감정가보다 낮아질 수 있습니다. 입찰 전에 실거래가 사이트에서 최근 거래 시세를 가능한 한 확인하세요.',
       },
     ],
     cta: {
@@ -276,12 +276,12 @@ export const spokesBatch18_16to20: SpokePage[] = [
       {
         title: '셋째, 파산의 원인이 되는 사실이 있어야 합니다',
         content:
-          '<p><strong style="color:#1e3a5f">"지급불능" 또는 "채무초과" 상태이거나 그럴 우려가 있어야 합니다</strong></p>\n<p><strong>지급불능</strong>이란 채무자가 변제기에 있는 채무를 일반적·계속적으로 변제할 수 없는 상태를 말합니다. 매달 생활비를 제하면 채무를 갚을 능력이 없는 상태가 이에 해당합니다.</p>\n<p>현재 연체가 없더라도 <strong>가까운 장래에 지급불능이 예상</strong>되면 신청할 수 있습니다. 채무 총액 대비 가용소득을 비교하여 객관적으로 상환 불가능성을 입증하면 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">파산 원인: 현재 지급불능 또는 장래 지급불능 우려 → 연체 없어도 신청 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">"지급불능" 또는 "채무초과" 상태이거나 그럴 우려가 있어야 합니다</strong></p>\n<p><strong>지급불능</strong>이란 채무자가 변제기에 있는 채무를 일반적·계속적으로 변제할 수 없는 상태를 말합니다. 매달 생활비를 제하면 채무를 갚을 능력이 없는 상태가 이에 해당할 소지가 있습니다.</p>\n<p>현재 연체가 없더라도 <strong>가까운 장래에 지급불능이 예상</strong>되면 신청할 수 있습니다. 채무 총액 대비 가용소득을 비교하여 객관적으로 상환 불가능성을 입증하면 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">파산 원인: 현재 지급불능 또는 장래 지급불능 우려 → 연체 없어도 신청 가능</blockquote>',
       },
       {
         title: '넷째, 변제계획의 이행 가능성이 인정되어야 합니다',
         content:
-          '<p><strong style="color:#1e3a5f">법원은 가용소득에서 최저생계비를 뺀 금액으로 변제 가능 여부를 판단합니다</strong></p>\n<p>변제계획은 <strong>월 소득에서 최저생계비(가족 수 기준)를 뺀 가용소득</strong>으로 3~5년간 채무를 갚는 계획입니다. 가용소득이 너무 적으면 변제계획 인가가 어려울 수 있습니다.</p>\n<p>변제율은 보통 <strong>채무 총액의 5~30% 수준</strong>이며, 나머지는 면책됩니다. 다만 청산가치 보장 원칙에 따라 <strong>파산 시 배당받을 금액 이상</strong>은 반드시 변제해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">변제 계획: 가용소득 = 월 소득 - 최저생계비 → 3~5년간 변제 → 나머지 면책</blockquote>',
+          '<p><strong style="color:#1e3a5f">법원은 가용소득에서 최저생계비를 뺀 금액으로 변제 가능 여부를 판단합니다</strong></p>\n<p>변제계획은 <strong>월 소득에서 최저생계비(가족 수 기준)를 뺀 가용소득</strong>으로 3~5년간 채무를 갚는 계획입니다. 가용소득이 너무 적으면 변제계획 인가가 어려울 수 있습니다.</p>\n<p>변제율은 보통 <strong>채무 총액의 5~30% 수준</strong>이며, 나머지는 면책됩니다. 다만 청산가치 보장 원칙에 따라 <strong>파산 시 배당받을 금액 이상</strong>은 가능한 한 변제해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">변제 계획: 가용소득 = 월 소득 - 최저생계비 → 3~5년간 변제 → 나머지 면책</blockquote>',
       },
       {
         title: '다섯째, 면책불허가 사유에 해당하지 않아야 합니다',

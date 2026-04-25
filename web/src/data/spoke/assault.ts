@@ -33,7 +33,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '민사 손해배상과 합의 — 합의서에 반드시 넣어야 할 3가지 조항',
         content:
-          '<p><strong style="color:#1e3a5f">형사와 별도로 민법 제750조에 따라 치료비·위자료·일실수입을 청구할 수 있습니다</strong></p>\n<p>형사 절차와 별개로 가해자에게 <strong>①실제 치료비(영수증 기준) ②일실수입(일하지 못한 기간 급여 상당액) ③위자료(정신적 손해배상)</strong>를 청구할 수 있습니다. 손해배상 청구권 소멸시효는 피해를 안 날로부터 <strong>3년</strong>(민법 제766조)입니다.</p>\n<p>가해자가 합의를 제안하면 합의서에 <strong>반드시 포함할 3가지 조항</strong>: ①"합의금 ○○만원을 수령한다" ②"향후 추가 치료비 발생 시 별도 청구 가능하다" ③"가해자는 동일한 행위를 반복하지 않는다(재발 방지 조항)". 합의금 수준은 진단 2주 기준 <strong>100만~300만원</strong>, 4주 이상은 <strong>300만~1,000만원</strong>이 일반적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 합의서 필수 3조항 = 합의금 명시 + 향후 치료비 별도 청구 + 재발 방지</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사와 별도로 민법 제750조에 따라 치료비·위자료·일실수입을 청구할 수 있습니다</strong></p>\n<p>형사 절차와 별개로 가해자에게 <strong>①실제 치료비(영수증 기준) ②일실수입(일하지 못한 기간 급여 상당액) ③위자료(정신적 손해배상)</strong>를 청구할 수 있습니다. 손해배상 청구권 소멸시효는 피해를 안 날로부터 <strong>3년</strong>(민법 제766조)입니다.</p>\n<p>가해자가 합의를 제안하면 합의서에 <strong>가능한 한 포함할 3가지 조항</strong>: ①"합의금 ○○만원을 수령한다" ②"향후 추가 치료비 발생 시 별도 청구 가능하다" ③"가해자는 동일한 행위를 반복하지 않는다(재발 방지 조항)". 합의금 수준은 진단 2주 기준 <strong>100만~300만원</strong>, 4주 이상은 <strong>300만~1,000만원</strong>이 일반적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 합의서 필수 3조항 = 합의금 명시 + 향후 치료비 별도 청구 + 재발 방지</blockquote>',
       },
     ],
     cases: [
@@ -163,7 +163,7 @@ export const assaultPages: SpokePage[] = [
       },
       {
         question: '가족을 보호하기 위해 때린 경우는?',
-        answer: '<strong>타인(가족)의 법익 방어</strong>를 위한 정당방위도 인정됩니다.',
+        answer: '<strong>타인(가족)의 법익 방어</strong>를 위한 정당방위도 인정될 수 있습니다.',
       },
       {
         question: '정당방위를 주장하면 고소가 필요 없나요?',
@@ -211,7 +211,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '합의서 작성 시 핵심 사항을 정리하세요',
         content:
-          '<p><strong style="color:#1e3a5f">처벌불원서와 합의금 지급 내역을 반드시 포함하세요</strong></p>\n<p>합의서에는 ①<strong>합의금 금액과 지급 방법</strong>, ②피해자의 <strong>처벌불원 의사</strong>(처벌불원서), ③<strong>향후 민·형사상 청구 포기</strong> 문구를 포함해야 합니다.</p>\n<p>처벌불원서는 피해자가 직접 작성하여 수사기관에 제출해야 효력이 있습니다. 합의금은 <strong>계좌이체</strong>로 지급하고 이체 내역을 보관하세요. 현금 지급 시 영수증을 반드시 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 포함: 합의금 지급 내역 + 처벌불원서 + 민·형사 청구 포기 문구</blockquote>',
+          '<p><strong style="color:#1e3a5f">처벌불원서와 합의금 지급 내역을 가능한 한 포함하세요</strong></p>\n<p>합의서에는 ①<strong>합의금 금액과 지급 방법</strong>, ②피해자의 <strong>처벌불원 의사</strong>(처벌불원서), ③<strong>향후 민·형사상 청구 포기</strong> 문구를 포함해야 합니다.</p>\n<p>처벌불원서는 피해자가 직접 작성하여 수사기관에 제출해야 효력이 있습니다. 합의금은 <strong>계좌이체</strong>로 지급하고 이체 내역을 보관하세요. 현금 지급 시 영수증을 가능한 한 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 포함: 합의금 지급 내역 + 처벌불원서 + 민·형사 청구 포기 문구</blockquote>',
       },
       {
         title: '합의 시기와 변호사 활용을 검토하세요',
@@ -297,12 +297,12 @@ export const assaultPages: SpokePage[] = [
       {
         title: '정당방위 요건(형법 제21조)을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">현재의 부당한 침해에 대한 방어행위여야 합니다</strong></p>\n<p><strong>형법 제21조</strong>에 따라 정당방위가 인정되려면 ①<strong>현재의 부당한 침해</strong>가 존재하고, ②자기 또는 타인의 <strong>법익을 방어</strong>하기 위한 것이며, ③방어행위에 <strong>상당한 이유</strong>가 있어야 합니다.</p>\n<p>"현재의 침해"란 공격이 <strong>진행 중이거나 급박</strong>한 상태를 의미합니다. 공격이 이미 끝난 후의 반격은 정당방위가 아니라 보복에 해당합니다. 이 구분이 매우 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">3가지 요건: ①현재의 부당한 침해 ②법익 방어 목적 ③상당한 이유(비례성)</blockquote>',
+          '<p><strong style="color:#1e3a5f">현재의 부당한 침해에 대한 방어행위여야 합니다</strong></p>\n<p><strong>형법 제21조</strong>에 따라 정당방위가 인정되려면 ①<strong>현재의 부당한 침해</strong>가 존재하고, ②자기 또는 타인의 <strong>법익을 방어</strong>하기 위한 것이며, ③방어행위에 <strong>상당한 이유</strong>가 있어야 합니다.</p>\n<p>"현재의 침해"란 공격이 <strong>진행 중이거나 급박</strong>한 상태를 의미합니다. 공격이 이미 끝난 후의 반격은 정당방위가 아니라 보복에 해당할 소지가 있습니다. 이 구분이 매우 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">3가지 요건: ①현재의 부당한 침해 ②법익 방어 목적 ③상당한 이유(비례성)</blockquote>',
       },
       {
         title: '정당방위에 필요한 증거를 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">CCTV, 목격자 진술, 112 신고 기록이 핵심입니다</strong></p>\n<p>정당방위를 주장하려면 <strong>상대방이 먼저 공격했음</strong>을 증명해야 합니다. ①현장 <strong>CCTV 영상</strong>(가장 강력한 증거), ②<strong>목격자 진술</strong>(연락처를 반드시 확보), ③<strong>112 신고 기록</strong>(내가 먼저 신고한 사실은 방어 의사를 뒷받침)이 핵심입니다.</p>\n<p>폭행 직후 본인의 <strong>부상 상태를 사진·동영상으로 기록</strong>하세요. 상대방으로부터 협박이나 위협을 받은 <strong>문자·녹음</strong>도 선제 공격 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: CCTV 영상, 목격자 진술, 112 신고 기록, 부상 사진·녹음</blockquote>',
+          '<p><strong style="color:#1e3a5f">CCTV, 목격자 진술, 112 신고 기록이 핵심입니다</strong></p>\n<p>정당방위를 주장하려면 <strong>상대방이 먼저 공격했음</strong>을 증명해야 합니다. ①현장 <strong>CCTV 영상</strong>(가장 강력한 증거), ②<strong>목격자 진술</strong>(연락처를 가능한 한 확보), ③<strong>112 신고 기록</strong>(내가 먼저 신고한 사실은 방어 의사를 뒷받침)이 핵심입니다.</p>\n<p>폭행 직후 본인의 <strong>부상 상태를 사진·동영상으로 기록</strong>하세요. 상대방으로부터 협박이나 위협을 받은 <strong>문자·녹음</strong>도 선제 공격 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: CCTV 영상, 목격자 진술, 112 신고 기록, 부상 사진·녹음</blockquote>',
       },
       {
         title: '방위행위의 상당성(과잉방위)에 주의하세요',
@@ -328,7 +328,7 @@ export const assaultPages: SpokePage[] = [
         summary:
           '관련 사례에서도 CCTV가 없었으나 현장 목격자 2명이 상대방의 선제 공격을 진술하여, 피고인의 방어행위가 정당방위로 인정된 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 현장에서 목격자 연락처를 반드시 확보해두세요.',
+          '비슷한 상황이라면 현장에서 목격자 연락처를 가능한 한 확보해두세요.',
       },
     ],
     faq: [
@@ -346,7 +346,7 @@ export const assaultPages: SpokePage[] = [
       },
       {
         question: '상대방도 다쳤는데 정당방위가 되나요?',
-        answer: '방어행위의 <strong>상당성 범위 내</strong>라면 상대가 다쳤더라도 정당방위가 인정됩니다.',
+        answer: '방어행위의 <strong>상당성 범위 내</strong>라면 상대가 다쳤더라도 정당방위가 인정될 수 있습니다.',
       },
       {
         question: '과잉방위란 무엇인가요?',
@@ -405,7 +405,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '쌍방폭행의 처벌 기준을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">쌍방폭행은 양쪽 모두 폭행죄가 성립합니다</strong></p>\n<p>쌍방폭행이란 <strong>양쪽 모두 공격 의사</strong>를 가지고 서로 때린 경우를 말합니다. 이 경우 양쪽 모두에게 <strong>폭행죄(형법 제260조)</strong>가 성립하며, 상해가 발생하면 <strong>상해죄(형법 제257조)</strong>로 격상됩니다.</p>\n<p>먼저 때린 쪽의 <strong>책임이 더 크게</strong> 인정됩니다. 다만 "먼저 맞았으니까 때려도 된다"는 것은 아닙니다. 나중에 때린 행위도 <strong>방어가 아닌 공격</strong>으로 판단되면 쌍방폭행이 됩니다. 양쪽 모두 고소·피고소인이 되는 상황이 발생합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">쌍방폭행: 양쪽 모두 폭행죄/상해죄 성립 | 먼저 때린 쪽 책임 더 큼</blockquote>',
+          '<p><strong style="color:#1e3a5f">쌍방폭행은 양쪽 모두 폭행죄가 성립할 수 있습니다</strong></p>\n<p>쌍방폭행이란 <strong>양쪽 모두 공격 의사</strong>를 가지고 서로 때린 경우를 말합니다. 이 경우 양쪽 모두에게 <strong>폭행죄(형법 제260조)</strong>가 성립하며, 상해가 발생하면 <strong>상해죄(형법 제257조)</strong>로 격상됩니다.</p>\n<p>먼저 때린 쪽의 <strong>책임이 더 크게</strong> 인정될 수 있습니다. 다만 "먼저 맞았으니까 때려도 된다"는 것은 아닙니다. 나중에 때린 행위도 <strong>방어가 아닌 공격</strong>으로 판단되면 쌍방폭행이 됩니다. 양쪽 모두 고소·피고소인이 되는 상황이 발생합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">쌍방폭행: 양쪽 모두 폭행죄/상해죄 성립 | 먼저 때린 쪽 책임 더 큼</blockquote>',
       },
       {
         title: '정당방위 인정 요건을 확인하세요',
@@ -415,7 +415,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '정당방위를 주장하기 위한 증거를 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">상대방의 선제 공격과 내 방어 의사를 증명해야 합니다</strong></p>\n<p>정당방위를 주장하려면 ①<strong>상대방이 먼저 공격했음</strong>을 증명하는 증거(CCTV 영상이 가장 강력), ②<strong>목격자 진술</strong>(현장에서 연락처를 반드시 확보), ③<strong>112 신고 기록</strong>(내가 먼저 신고한 사실이 방어 의사를 뒷받침)이 핵심입니다.</p>\n<p>폭행 직후 <strong>본인의 부상 상태를 사진·동영상으로 기록</strong>하세요. 병원에서 <strong>진단서</strong>를 발급받아 상대방의 공격으로 인한 부상을 증명하는 것도 중요합니다. CCTV는 보통 <strong>30일</strong> 내에 덮어씌워지므로 경찰에 즉시 보존 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: CCTV 보존 요청 + 목격자 연락처 + 112 신고 기록 + 부상 사진·진단서</blockquote>',
+          '<p><strong style="color:#1e3a5f">상대방의 선제 공격과 내 방어 의사를 증명해야 합니다</strong></p>\n<p>정당방위를 주장하려면 ①<strong>상대방이 먼저 공격했음</strong>을 증명하는 증거(CCTV 영상이 가장 강력), ②<strong>목격자 진술</strong>(현장에서 연락처를 가능한 한 확보), ③<strong>112 신고 기록</strong>(내가 먼저 신고한 사실이 방어 의사를 뒷받침)이 핵심입니다.</p>\n<p>폭행 직후 <strong>본인의 부상 상태를 사진·동영상으로 기록</strong>하세요. 병원에서 <strong>진단서</strong>를 발급받아 상대방의 공격으로 인한 부상을 증명하는 것도 중요합니다. CCTV는 보통 <strong>30일</strong> 내에 덮어씌워지므로 경찰에 즉시 보존 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: CCTV 보존 요청 + 목격자 연락처 + 112 신고 기록 + 부상 사진·진단서</blockquote>',
       },
       {
         title: '경찰 조사에서의 대응 전략을 세우세요',
@@ -512,7 +512,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '합의서 작성 시 반드시 포함해야 할 내용',
         content:
-          '<p><strong style="color:#1e3a5f">합의금, 처벌불원, 추가 청구 포기, 향후 치료비 조항을 명시하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액과 지급 방법</strong>(일시불 또는 분할), ②피해자의 <strong>"처벌불원" 의사</strong>(처벌불원서 별도 작성), ③<strong>민·형사상 추가 청구 포기</strong> 문구, ④<strong>향후 치료비 처리 조항</strong>을 반드시 포함하세요.</p>\n<p>향후 치료비 조항은 양쪽 모두에게 중요합니다. "향후 치료비는 가해자가 추가 부담한다" 또는 "합의금에 향후 치료비가 포함되어 있다"를 <strong>명확히 기재</strong>해야 나중에 분쟁이 없습니다. 합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 포함: 합의금 + 처벌불원 + 추가 청구 포기 + 향후 치료비 조항 + 공증 권장</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의금, 처벌불원, 추가 청구 포기, 향후 치료비 조항을 명시하세요</strong></p>\n<p>합의서에는 ①<strong>합의 금액과 지급 방법</strong>(일시불 또는 분할), ②피해자의 <strong>"처벌불원" 의사</strong>(처벌불원서 별도 작성), ③<strong>민·형사상 추가 청구 포기</strong> 문구, ④<strong>향후 치료비 처리 조항</strong>을 가능한 한 포함하세요.</p>\n<p>향후 치료비 조항은 양쪽 모두에게 중요합니다. "향후 치료비는 가해자가 추가 부담한다" 또는 "합의금에 향후 치료비가 포함되어 있다"를 <strong>명확히 기재</strong>해야 나중에 분쟁이 없습니다. 합의서는 <strong>공증</strong>을 받아두는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 포함: 합의금 + 처벌불원 + 추가 청구 포기 + 향후 치료비 조항 + 공증 권장</blockquote>',
       },
       {
         title: '합의 절차와 양형 자료 제출을 확인하세요',
@@ -559,7 +559,7 @@ export const assaultPages: SpokePage[] = [
       },
       {
         question: '상해죄의 처벌 수위는 어느 정도인가요?',
-        answer: '<strong>7년 이하 징역, 10년 이하 자격정지, 1,000만원 이하 벌금</strong>입니다. 중상해는 가중처벌됩니다.',
+        answer: '<strong>7년 이하 징역, 10년 이하 자격정지, 1,000만원 이하 벌금</strong>입니다. 중상해는 가중처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '향후 치료비는 합의금에 포함시켜야 하나요?',
@@ -608,7 +608,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '목격자와 신고 기록 — 제3자의 진술이 증명력을 높입니다',
         content:
-          '<p><strong style="color:#1e3a5f">목격자의 연락처를 반드시 확보하세요</strong></p>\n<p>현장에 목격자가 있었다면 <strong>연락처를 확보</strong>하세요. 시간이 지나면 목격자를 찾기 어렵습니다. 목격자가 사건 경위를 진술해주면, 피해자 진술의 신빙성이 크게 높아집니다. 주변 상가 직원, 행인, 동행인 등을 확인하세요.</p>\n<p>112 신고 기록도 중요한 증거입니다. 폭행 직후 <strong>112에 신고하면 신고 시각, 내용이 기록</strong>으로 남습니다. 이 기록은 사건 발생 사실과 시점을 증명하는 자료가 됩니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">폭행 피해 증거 수집이 필요하다면 <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 폭행 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 목격자 연락처, 112 신고 기록, 주변 상가·행인 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">목격자의 연락처를 가능한 한 확보하세요</strong></p>\n<p>현장에 목격자가 있었다면 <strong>연락처를 확보</strong>하세요. 시간이 지나면 목격자를 찾기 어렵습니다. 목격자가 사건 경위를 진술해주면, 피해자 진술의 신빙성이 크게 높아집니다. 주변 상가 직원, 행인, 동행인 등을 확인하세요.</p>\n<p>112 신고 기록도 중요한 증거입니다. 폭행 직후 <strong>112에 신고하면 신고 시각, 내용이 기록</strong>으로 남습니다. 이 기록은 사건 발생 사실과 시점을 증명하는 자료가 됩니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">폭행 피해 증거 수집이 필요하다면 <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 폭행 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 목격자 연락처, 112 신고 기록, 주변 상가·행인 확인</blockquote>',
       },
       {
         title: '대화 기록과 녹음 — 가해자의 발언이 증거가 됩니다',
@@ -629,7 +629,7 @@ export const assaultPages: SpokePage[] = [
         summary:
           '가해자가 법정에서 폭행 사실을 부인했으나, 사건 직후 보낸 "때려서 미안하다"는 카카오톡 메시지가 증거로 채택되어 유죄가 인정된 사례입니다.',
         takeaway:
-          '비슷한 상황이라면 가해자와의 대화 내용을 삭제하지 말고, 폭행 사실 인정 발언이 담긴 메시지를 반드시 보관하세요.',
+          '비슷한 상황이라면 가해자와의 대화 내용을 삭제하지 말고, 폭행 사실 인정 발언이 담긴 메시지를 가능한 한 보관하세요.',
       },
     ],
     faq: [
@@ -794,7 +794,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '합의는 빠를수록 유리합니다',
         content:
-          '<p><strong style="color:#1e3a5f">폭행죄는 반의사불벌죄이므로 합의하면 처벌을 피할 수 있습니다</strong></p>\n<p><strong>폭행죄</strong>(형법 제260조)는 반의사불벌죄입니다. 피해자가 처벌을 원하지 않으면 공소가 기각됩니다. 따라서 합의가 가장 확실한 해결책입니다. 다만 <strong>상해죄</strong>(형법 제257조)는 반의사불벌죄가 아니므로 합의해도 기소될 수 있습니다.</p>\n<p>합의금은 <strong>치료비 + 위자료</strong>가 기본입니다. 진단 2주 기준 통상 <strong>50만~200만원</strong> 수준이며, 상해 정도에 따라 달라집니다. 합의서에는 반드시 <strong>"처벌을 원하지 않는다"</strong>는 문구를 포함시키세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 폭행죄 = 반의사불벌 → 합의 시 공소기각 | 상해죄 = 합의해도 기소 가능 | 합의서에 처벌불원 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">폭행죄는 반의사불벌죄이므로 합의하면 처벌을 피할 수 있습니다</strong></p>\n<p><strong>폭행죄</strong>(형법 제260조)는 반의사불벌죄입니다. 피해자가 처벌을 원하지 않으면 공소가 기각됩니다. 따라서 합의가 가장 확실한 해결책입니다. 다만 <strong>상해죄</strong>(형법 제257조)는 반의사불벌죄가 아니므로 합의해도 기소될 수 있습니다.</p>\n<p>합의금은 <strong>치료비 + 위자료</strong>가 기본입니다. 진단 2주 기준 통상 <strong>50만~200만원</strong> 수준이며, 상해 정도에 따라 달라집니다. 합의서에는 가능한 한 <strong>"처벌을 원하지 않는다"</strong>는 문구를 포함시키세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 폭행죄 = 반의사불벌 → 합의 시 공소기각 | 상해죄 = 합의해도 기소 가능 | 합의서에 처벌불원 필수</blockquote>',
       },
       {
         title: '양형에 유리한 요소를 준비하세요',
@@ -937,7 +937,7 @@ export const assaultPages: SpokePage[] = [
       },
       {
         question: '형사고소와 민사소송 둘 다 해야 하나요?',
-        answer: '반드시 둘 다 해야 하는 것은 아닙니다. 다만 <strong>병행하면 합의 가능성과 배상금</strong>이 높아집니다.',
+        answer: '가능한 한 둘 다 해야 하는 것은 아닙니다. 다만 <strong>병행하면 합의 가능성과 배상금</strong>이 높아집니다.',
       },
       {
         question: '합의하면 형사고소를 취소해야 하나요?',
@@ -994,7 +994,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '청구할 수 있는 항목과 금액 기준을 파악하세요',
         content:
-          '<p><strong style="color:#1e3a5f">치료비, 일실수입, 위자료 3가지를 항목별로 산정하세요</strong></p>\n<p><strong>치료비</strong>는 진료비, 약제비, 입원비, 통원교통비, 간병비까지 포함됩니다. 실비로 청구하되 <strong>영수증 원본</strong>을 반드시 보관하세요. <strong>일실수입</strong>은 치료 기간 동안 일하지 못해 발생한 수입 손실이며, 재직증명서와 급여명세서로 산정합니다.</p>\n<p><strong>위자료</strong>는 정신적 고통에 대한 배상으로, 법원은 상해 정도, 가해 동기, 피해자 나이 등을 종합 고려합니다. 폭행 피해 위자료는 통상 <strong>100만~500만원</strong> 수준이며, 중상해의 경우 <strong>1,000만원 이상</strong>도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">항목: ①치료비(실비) ②일실수입(급여손실) ③위자료(100만~500만원+) | 영수증·급여명세서 필수</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">폭행 피해 치료비 청구 금액이 궁금하시다면, 지금 상황에 맞는 예상 금액을 <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+          '<p><strong style="color:#1e3a5f">치료비, 일실수입, 위자료 3가지를 항목별로 산정하세요</strong></p>\n<p><strong>치료비</strong>는 진료비, 약제비, 입원비, 통원교통비, 간병비까지 포함됩니다. 실비로 청구하되 <strong>영수증 원본</strong>을 가능한 한 보관하세요. <strong>일실수입</strong>은 치료 기간 동안 일하지 못해 발생한 수입 손실이며, 재직증명서와 급여명세서로 산정합니다.</p>\n<p><strong>위자료</strong>는 정신적 고통에 대한 배상으로, 법원은 상해 정도, 가해 동기, 피해자 나이 등을 종합 고려합니다. 폭행 피해 위자료는 통상 <strong>100만~500만원</strong> 수준이며, 중상해의 경우 <strong>1,000만원 이상</strong>도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">항목: ①치료비(실비) ②일실수입(급여손실) ③위자료(100만~500만원+) | 영수증·급여명세서 필수</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">폭행 피해 치료비 청구 금액이 궁금하시다면, 지금 상황에 맞는 예상 금액을 <a href="/diagnosis/assault" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
       },
       {
         title: '진단서 기간별 합의금 시세를 참고하세요',
@@ -1004,7 +1004,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '후유장해가 남으면 추가 청구가 가능합니다',
         content:
-          '<p><strong style="color:#1e3a5f">치료 종결 후에도 후유장해에 대해 별도로 청구할 수 있습니다</strong></p>\n<p>치료가 끝난 후에도 <strong>후유장해</strong>(관절 운동 제한, 흉터, 신경 손상 등)가 남으면 이에 대한 <strong>추가 손해배상</strong>을 청구할 수 있습니다. 후유장해 진단서를 발급받아 장해 등급을 확인하세요.</p>\n<p>합의서를 작성할 때 반드시 <strong>"향후 발생하는 후유장해에 대한 추가 청구권은 포기하지 않는다"</strong>는 문구를 넣으세요. 이 문구가 없으면 추가 치료비 청구가 어려워질 수 있습니다. 민사 소송을 통해 청구하면 법원이 <strong>향후 치료비</strong>까지 인정하는 경우도 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">중요: 합의서에 "추가 청구권 유보" 문구 필수 | 후유장해 진단서 발급</blockquote>',
+          '<p><strong style="color:#1e3a5f">치료 종결 후에도 후유장해에 대해 별도로 청구할 수 있습니다</strong></p>\n<p>치료가 끝난 후에도 <strong>후유장해</strong>(관절 운동 제한, 흉터, 신경 손상 등)가 남으면 이에 대한 <strong>추가 손해배상</strong>을 청구할 수 있습니다. 후유장해 진단서를 발급받아 장해 등급을 확인하세요.</p>\n<p>합의서를 작성할 때 가능한 한 <strong>"향후 발생하는 후유장해에 대한 추가 청구권은 포기하지 않는다"</strong>는 문구를 넣으세요. 이 문구가 없으면 추가 치료비 청구가 어려워질 수 있습니다. 민사 소송을 통해 청구하면 법원이 <strong>향후 치료비</strong>까지 인정하는 경우도 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">중요: 합의서에 "추가 청구권 유보" 문구 필수 | 후유장해 진단서 발급</blockquote>',
       },
     ],
     cases: [
@@ -1020,7 +1020,7 @@ export const assaultPages: SpokePage[] = [
         summary:
           '관련 사례에서도 폭행 합의 후 6개월 뒤 디스크 후유증이 발견되어 추가 손해배상 소송을 제기한 경우, 합의서에 "추가 청구권 유보" 문구가 있어 후유장해에 대한 추가 배상이 인정된 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 합의서 작성 시 반드시 "향후 후유장해에 대한 추가 청구권을 유보한다"는 문구를 포함시키세요.',
+          '비슷한 상황이라면 합의서 작성 시 가능한 한 "향후 후유장해에 대한 추가 청구권을 유보한다"는 문구를 포함시키세요.',
       },
     ],
     faq: [
@@ -1101,7 +1101,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '무고죄 반대고소를 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">허위 고소임이 명백하다면 무고죄(형법 제156조)로 반대고소할 수 있습니다</strong></p>\n<p><strong>무고죄</strong>는 타인에게 형사처벌을 받게 할 목적으로 허위 사실을 신고하는 범죄입니다. <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 해당합니다. CCTV에 폭행 장면이 없거나, 목격자가 "폭행은 없었다"고 진술한다면 무고죄 성립 가능성이 높아집니다.</p>\n<p>반대고소 시에는 ①고소인의 진술이 거짓이라는 증거, ②고소인이 허위임을 <strong>인식하고 있었다는 정황</strong>(예: 지인에게 "고소로 압박하겠다"고 말한 메시지)이 있으면 더욱 유리합니다. 무고죄와 함께 <strong>명예훼손</strong>이나 <strong>민사 손해배상</strong>도 병행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: ☑ 허위 증거 확보 ☑ 고소인의 허위 인식 정황 ☑ 무고죄 반대고소장 작성</blockquote>',
+          '<p><strong style="color:#1e3a5f">허위 고소임이 명백하다면 무고죄(형법 제156조)로 반대고소할 수 있습니다</strong></p>\n<p><strong>무고죄</strong>는 타인에게 형사처벌을 받게 할 목적으로 허위 사실을 신고하는 범죄입니다. <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 해당할 소지가 있습니다. CCTV에 폭행 장면이 없거나, 목격자가 "폭행은 없었다"고 진술한다면 무고죄 성립 가능성이 높아집니다.</p>\n<p>반대고소 시에는 ①고소인의 진술이 거짓이라는 증거, ②고소인이 허위임을 <strong>인식하고 있었다는 정황</strong>(예: 지인에게 "고소로 압박하겠다"고 말한 메시지)이 있으면 더욱 유리합니다. 무고죄와 함께 <strong>명예훼손</strong>이나 <strong>민사 손해배상</strong>도 병행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: ☑ 허위 증거 확보 ☑ 고소인의 허위 인식 정황 ☑ 무고죄 반대고소장 작성</blockquote>',
       },
     ],
     cases: [
@@ -1143,7 +1143,7 @@ export const assaultPages: SpokePage[] = [
       },
       {
         question: '경찰 조사에서 변호사를 동석시킬 수 있나요?',
-        answer: '피의자는 <strong>변호인 동석권</strong>이 보장됩니다. 조사 전에 반드시 변호사 동석을 요청하세요.',
+        answer: '피의자는 <strong>변호인 동석권</strong>이 보장됩니다. 조사 전에 가능한 한 변호사 동석을 요청하세요.',
       },
       {
         question: '폭행 무고로 민사 손해배상도 청구할 수 있나요?',
@@ -1184,7 +1184,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '폭행죄의 성립 요건을 정확히 알아야 방어할 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">상대방의 신체에 유형력을 행사하면 폭행죄가 성립합니다</strong></p>\n<p><strong>형법 제260조</strong>는 "사람의 신체에 대하여 폭행을 가한 자"를 2년 이하 징역, 500만원 이하 벌금, 구류 또는 과료에 처하도록 규정하고 있습니다. 여기서 <strong>폭행</strong>이란 신체에 대한 유형력의 행사를 의미하며, 때리는 것뿐 아니라 밀치기, 멱살 잡기, 물건 던지기 등도 포함됩니다.</p>\n<p>중요한 점은 폭행죄는 <strong>반의사불벌죄</strong>라는 것입니다. 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다(형법 제260조 제3항). 따라서 합의를 통해 고소 취하를 받으면 사건이 종결됩니다. 다만 <strong>상해</strong>가 발생한 경우에는 상해죄(형법 제257조)로 진행되며, 이는 반의사불벌죄가 아닙니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">폭행죄: 반의사불벌죄(합의 시 공소 불가) | 상해죄: 반의사불벌죄 아님 | 밀치기도 폭행</blockquote>',
+          '<p><strong style="color:#1e3a5f">상대방의 신체에 유형력을 행사하면 폭행죄가 성립할 수 있습니다</strong></p>\n<p><strong>형법 제260조</strong>는 "사람의 신체에 대하여 폭행을 가한 자"를 2년 이하 징역, 500만원 이하 벌금, 구류 또는 과료에 처하도록 규정하고 있습니다. 여기서 <strong>폭행</strong>이란 신체에 대한 유형력의 행사를 의미하며, 때리는 것뿐 아니라 밀치기, 멱살 잡기, 물건 던지기 등도 포함됩니다.</p>\n<p>중요한 점은 폭행죄는 <strong>반의사불벌죄</strong>라는 것입니다. 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다(형법 제260조 제3항). 따라서 합의를 통해 고소 취하를 받으면 사건이 종결됩니다. 다만 <strong>상해</strong>가 발생한 경우에는 상해죄(형법 제257조)로 진행되며, 이는 반의사불벌죄가 아닙니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">폭행죄: 반의사불벌죄(합의 시 공소 불가) | 상해죄: 반의사불벌죄 아님 | 밀치기도 폭행</blockquote>',
       },
       {
         title: '정당방위가 인정될 수 있는지 검토하세요',
@@ -1199,7 +1199,7 @@ export const assaultPages: SpokePage[] = [
       {
         title: '합의를 할지, 재판으로 갈지 전략을 세우세요',
         content:
-          '<p><strong style="color:#1e3a5f">폭행죄는 합의하면 끝나지만, 상해죄는 합의해도 검찰 판단이 필요합니다</strong></p>\n<p>폭행 사실이 인정되고 정당방위가 어려운 상황이라면, <strong>빠른 합의</strong>가 최선의 전략입니다. 폭행죄는 반의사불벌죄이므로 피해자가 합의서에 "처벌을 원하지 않는다"고 기재하면 검찰이 공소를 제기할 수 없습니다. 합의금은 피해 정도, 치료비, 정신적 고통 등을 고려하여 결정합니다.</p>\n<p>반대로, 상대방의 주장이 허위이거나 과장된 경우에는 <strong>적극적으로 다투는 것</strong>이 낫습니다. CCTV, 목격자 진술 등으로 상대방의 주장을 반박하고, 경우에 따라 <strong>무고죄(형법 제156조)</strong>나 <strong>공갈죄(형법 제350조)</strong>로 반대고소도 검토할 수 있습니다. 합의를 할 때는 반드시 <strong>합의서에 "향후 민·형사상 일체의 이의를 제기하지 않는다"</strong>는 조항을 포함시키세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">폭행죄: 합의 → 공소 불가 | 상해죄: 합의해도 기소 가능 | 허위 주장 시 반대고소 검토</blockquote>',
+          '<p><strong style="color:#1e3a5f">폭행죄는 합의하면 끝나지만, 상해죄는 합의해도 검찰 판단이 필요합니다</strong></p>\n<p>폭행 사실이 인정되고 정당방위가 어려운 상황이라면, <strong>빠른 합의</strong>가 최선의 전략입니다. 폭행죄는 반의사불벌죄이므로 피해자가 합의서에 "처벌을 원하지 않는다"고 기재하면 검찰이 공소를 제기할 수 없습니다. 합의금은 피해 정도, 치료비, 정신적 고통 등을 고려하여 결정합니다.</p>\n<p>반대로, 상대방의 주장이 허위이거나 과장된 경우에는 <strong>적극적으로 다투는 것</strong>이 낫습니다. CCTV, 목격자 진술 등으로 상대방의 주장을 반박하고, 경우에 따라 <strong>무고죄(형법 제156조)</strong>나 <strong>공갈죄(형법 제350조)</strong>로 반대고소도 검토할 수 있습니다. 합의를 할 때는 가능한 한 <strong>합의서에 "향후 민·형사상 일체의 이의를 제기하지 않는다"</strong>는 조항을 포함시키세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">폭행죄: 합의 → 공소 불가 | 상해죄: 합의해도 기소 가능 | 허위 주장 시 반대고소 검토</blockquote>',
       },
     ],
     cases: [
@@ -1215,17 +1215,17 @@ export const assaultPages: SpokePage[] = [
         summary:
           '관련 사례에서도 폭행 가해자가 피해자의 치료비 전액과 합의금을 지급하고, 피해자가 "처벌을 원하지 않는다"는 합의서를 경찰에 제출하여 검찰에서 공소권 없음 처분을 받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 피해자와 조속히 합의하고, 합의서에 "처벌 불원" 문구와 함께 향후 민·형사 이의 포기 조항을 반드시 포함시키세요.',
+          '비슷한 상황이라면 피해자와 조속히 합의하고, 합의서에 "처벌 불원" 문구와 함께 향후 민·형사 이의 포기 조항을 가능한 한 포함시키세요.',
       },
     ],
     faq: [
       {
         question: '밀치기만 했는데도 폭행죄가 되나요?',
-        answer: '밀치기도 <strong>신체에 대한 유형력 행사</strong>에 해당하여 폭행죄가 성립합니다. 접촉 없이 물건을 던진 경우도 폭행에 해당할 수 있습니다.',
+        answer: '밀치기도 <strong>신체에 대한 유형력 행사</strong>에 해당하여 폭행죄가 성립할 수 있습니다. 접촉 없이 물건을 던진 경우도 폭행에 해당할 수 있습니다.',
       },
       {
         question: '서로 때린 경우(쌍방폭행) 어떻게 되나요?',
-        answer: '쌍방폭행이라도 <strong>각자 폭행죄</strong>가 성립합니다. 다만 쌍방 합의하면 양쪽 모두 공소가 기각됩니다. 쌍방과실이 인정되면 양형에 참작됩니다.',
+        answer: '쌍방폭행이라도 <strong>각자 폭행죄</strong>가 성립할 수 있습니다. 다만 쌍방 합의하면 양쪽 모두 공소가 기각됩니다. 쌍방과실이 인정되면 양형에 참작됩니다.',
       },
       {
         question: '폭행으로 전과 기록이 남나요?',

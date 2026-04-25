@@ -18,12 +18,12 @@ export const spokesBatch41Labor: SpokePage[] = [
         '고위험 임신 진단으로 퇴사해야 할 때 실업급여가 인정되는 의학적 요건과 진단서 제출, 신청 순서를 지금 확인하세요.',
     },
     intro:
-      '<p>고위험 임신 진단을 받고 "계속 근무하면 위험하다"는 의사 소견이 나와도 출산휴가 대신 퇴사를 고민하게 됩니다. 고용보험법 시행규칙 제101조의2는 "질병·부상으로 업무 수행이 곤란한 경우"를 정당한 이직 사유로 명시해, 고위험 임신 진단서가 있으면 자발적 퇴사여도 실업급여가 인정됩니다.</p>',
+      '<p>고위험 임신 진단을 받고 "계속 근무하면 위험하다"는 의사 소견이 나와도 출산휴가 대신 퇴사를 고민하게 됩니다. 고용보험법 시행규칙 제101조의2는 "질병·부상으로 업무 수행이 곤란한 경우"를 정당한 이직 사유로 명시해, 고위험 임신 진단서가 있으면 자발적 퇴사여도 실업급여가 인정될 수 있습니다.</p>',
     sections: [
       {
         title: '고위험 임신 — 정당한 이직 사유 요건',
         content:
-          '<p><strong style="color:#1e3a5f">업무 수행이 의학적으로 곤란하고 사업주가 전환배치 등 대안을 제공하지 않은 경우 정당한 사유로 인정됩니다.</strong></p>\n<ul>\n<li><strong>의학적 기준</strong> — 조기진통·전치태반·임신성고혈압 등 주치의 진단이 필요한 상태.</li>\n<li><strong>업무 부적합</strong> — 장시간 서 있기·야간근무·중량물 취급 등 위험 요소가 있을 것.</li>\n<li><strong>대안 부재</strong> — 사업주에 경감·전환 요청했으나 거절된 경우 유리.</li>\n<li><strong>근거 조항</strong> — 고용보험법 시행규칙 제101조의2 별표2 제1호 마목.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 단순 "힘들어서"가 아니라 "의학적으로 계속 근무가 태아·산모에 위험"이 명확해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">업무 수행이 의학적으로 곤란하고 사업주가 전환배치 등 대안을 제공하지 않은 경우 정당한 사유로 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>의학적 기준</strong> — 조기진통·전치태반·임신성고혈압 등 주치의 진단이 필요한 상태.</li>\n<li><strong>업무 부적합</strong> — 장시간 서 있기·야간근무·중량물 취급 등 위험 요소가 있을 것.</li>\n<li><strong>대안 부재</strong> — 사업주에 경감·전환 요청했으나 거절된 경우 유리.</li>\n<li><strong>근거 조항</strong> — 고용보험법 시행규칙 제101조의2 별표2 제1호 마목.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 단순 "힘들어서"가 아니라 "의학적으로 계속 근무가 태아·산모에 위험"이 명확해야 합니다.</blockquote>',
       },
       {
         title: '증빙 서류 — 고용센터 제출 자료',
@@ -110,7 +110,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       {
         title: '통근 왕복 3시간 기준 — 정당 이직 사유',
         content:
-          '<p><strong style="color:#1e3a5f">편도 1시간 30분, 왕복 3시간 이상의 대중교통 통근이면 수급자격이 인정됩니다.</strong></p>\n<ul>\n<li><strong>기준 시간</strong> — 편도 1시간 30분 이상(왕복 3시간) 대중교통 기준.</li>\n<li><strong>이동 수단</strong> — 자차 아닌 대중교통 기준이 원칙. 대중교통 없는 지역은 도보·택시 포함.</li>\n<li><strong>불가피성</strong> — 본인 이사가 아닌 가족 이사·배우자 발령 등도 인정.</li>\n<li><strong>근거 조항</strong> — 고용보험법 시행규칙 제101조의2 별표2 제2호 마목.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "네이버·카카오맵 대중교통 최단 경로" 기준 소요시간으로 판단합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">편도 1시간 30분, 왕복 3시간 이상의 대중교통 통근이면 수급자격이 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>기준 시간</strong> — 편도 1시간 30분 이상(왕복 3시간) 대중교통 기준.</li>\n<li><strong>이동 수단</strong> — 자차 아닌 대중교통 기준이 원칙. 대중교통 없는 지역은 도보·택시 포함.</li>\n<li><strong>불가피성</strong> — 본인 이사가 아닌 가족 이사·배우자 발령 등도 인정.</li>\n<li><strong>근거 조항</strong> — 고용보험법 시행규칙 제101조의2 별표2 제2호 마목.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "네이버·카카오맵 대중교통 최단 경로" 기준 소요시간으로 판단합니다.</blockquote>',
       },
       {
         title: '이사 불가피성 — 인정되는 사유',
@@ -139,7 +139,7 @@ export const spokesBatch41Labor: SpokePage[] = [
     ],
     faq: [
       {
-        question: '왕복 3시간 딱 넘으면 무조건 되나요?',
+        question: '왕복 3시간 딱 넘으면 원칙적으로 되나요?',
         answer:
           '<strong>시간 요건 + 이사 불가피성 둘 다 필요합니다.</strong> "단순 선택 이사"는 인정되지 않을 수 있습니다.',
       },
@@ -151,7 +151,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       {
         question: '이사 전에 퇴사하면 어떻게 되나요?',
         answer:
-          '<strong>실제 이사가 확정된 상태여야 인정됩니다.</strong> 계약서·임대차계약서 등 예정 증빙이 필요합니다.',
+          '<strong>실제 이사가 확정된 상태여야 인정될 수 있습니다.</strong> 계약서·임대차계약서 등 예정 증빙이 필요합니다.',
       },
       {
         question: '전세 계약 만료로 어쩔 수 없이 이사한 경우도 되나요?',
@@ -192,7 +192,7 @@ export const spokesBatch41Labor: SpokePage[] = [
         '계약만료로 재취업 후 또 계약만료를 맞은 경우 실업급여 재신청 가능 여부와 18개월·180일 요건을 지금 확인하세요.',
     },
     intro:
-      '<p>1년 계약직이 끝나 다른 회사에 들어갔는데 또 계약만료를 맞으면 "실업급여는 한 번 받았는데 또 될까" 혼란스럽습니다. 고용보험법 제40조는 이직일 이전 18개월 동안 180일 이상 피보험단위기간이면 재신청이 가능하다고 규정해, 단기 계약을 반복하는 경우에도 수급자격이 자주 인정됩니다.</p>',
+      '<p>1년 계약직이 끝나 다른 회사에 들어갔는데 또 계약만료를 맞으면 "실업급여는 한 번 받았는데 또 될까" 혼란스럽습니다. 고용보험법 제40조는 이직일 이전 18개월 동안 180일 이상 피보험단위기간이면 재신청이 가능하다고 규정해, 단기 계약을 반복하는 경우에도 수급자격이 자주 인정될 수 있습니다.</p>',
     sections: [
       {
         title: '재신청 가능 요건 — 18개월·180일',
@@ -202,7 +202,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       {
         title: '계약만료 비갱신 — 정당 이직 인정',
         content:
-          '<p><strong style="color:#1e3a5f">계약만료는 자발적 이직이 아니므로 수급자격이 자동 인정됩니다.</strong></p>\n<ul>\n<li><strong>근로계약서 확인</strong> — 계약기간 명시 조항과 만료일 확인.</li>\n<li><strong>회사의 비갱신 통보</strong> — 서면·문자로 갱신 거부 의사 확인.</li>\n<li><strong>갱신기대권 판단</strong> — 반복 갱신 관행·계속 고용 기대 증거가 있으면 부당해고 구제 가능.</li>\n<li><strong>파견·용역</strong> — 원청 계약 만료로 파견직이 종료된 경우도 비자발 이직.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 이전 수급 내역과 재신청 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">계약만료는 자발적 이직이 아니므로 수급자격이 자동 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>근로계약서 확인</strong> — 계약기간 명시 조항과 만료일 확인.</li>\n<li><strong>회사의 비갱신 통보</strong> — 서면·문자로 갱신 거부 의사 확인.</li>\n<li><strong>갱신기대권 판단</strong> — 반복 갱신 관행·계속 고용 기대 증거가 있으면 부당해고 구제 가능.</li>\n<li><strong>파견·용역</strong> — 원청 계약 만료로 파견직이 종료된 경우도 비자발 이직.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 이전 수급 내역과 재신청 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '소정급여일수 재산정 — 실질 수령액 비교',
@@ -760,7 +760,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       {
         question: '매월이 아닌 분기 지급도 가능한가요?',
         answer:
-          '<strong>1~3개월 주기면 정기성 인정됩니다.</strong> 반기·연 1회는 별도 판단.',
+          '<strong>1~3개월 주기면 정기성 인정될 수 있습니다.</strong> 반기·연 1회는 별도 판단.',
       },
       {
         question: '회사가 "통상임금 제외" 조항 넣었는데요?',
@@ -842,7 +842,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       {
         question: '식권은 판매가 안 되는데도 임금인가요?',
         answer:
-          '<strong>환가성이 없어도 정기·일률 지급이면 임금성 인정됩니다.</strong>',
+          '<strong>환가성이 없어도 정기·일률 지급이면 임금성 인정될 수 있습니다.</strong>',
       },
       {
         question: '월 20만원 비과세 한도라 문제없다고 하는데요?',
@@ -1101,14 +1101,14 @@ export const spokesBatch41Labor: SpokePage[] = [
     ],
     faq: [
       {
-        question: '취업규칙에 "3회 결근 시 해고"라고 있으면 무조건 해고되나요?',
+        question: '취업규칙에 "3회 결근 시 해고"라고 있으면 원칙적으로 해고되나요?',
         answer:
           '<strong>아닙니다. 구체 사유·비례 심사 통과해야 정당합니다.</strong>',
       },
       {
         question: '병가라도 연락 없이 결근하면 해고인가요?',
         answer:
-          '<strong>응급상황 증명 가능하면 불가피성 인정됩니다.</strong> 진단서·응급실 기록 확보 필수.',
+          '<strong>응급상황 증명 가능하면 불가피성 인정될 수 있습니다.</strong> 진단서·응급실 기록 확보 필수.',
       },
       {
         question: '회사가 서면 해고통지 안 했는데요?',
@@ -1169,7 +1169,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       {
         title: '증빙 수집 — 핵심 자료',
         content:
-          '<p><strong style="color:#1e3a5f">임금피크제 동의서와 해고 사유 비교가 결정적 증거입니다.</strong></p>\n<ul>\n<li><strong>임금피크제 동의서</strong> — "정년 O세까지 고용 보장" 문구 확인.</li>\n<li><strong>취업규칙 원문</strong> — 정년·임금피크 조항 인용.</li>\n<li><strong>해고 사유서</strong> — 근기법 제27조 서면 통지.</li>\n<li><strong>업무 평가 기록</strong> — 임금피크제 이후 업무 내용·평가 이력.</li>\n<li><strong>회사 재정 자료</strong> — 경영상 해고라면 실질 재정 악화 여부 확인.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 임금피크제 동의 시 받은 문서는 반드시 사본 보관하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금피크제 동의서와 해고 사유 비교가 결정적 증거입니다.</strong></p>\n<ul>\n<li><strong>임금피크제 동의서</strong> — "정년 O세까지 고용 보장" 문구 확인.</li>\n<li><strong>취업규칙 원문</strong> — 정년·임금피크 조항 인용.</li>\n<li><strong>해고 사유서</strong> — 근기법 제27조 서면 통지.</li>\n<li><strong>업무 평가 기록</strong> — 임금피크제 이후 업무 내용·평가 이력.</li>\n<li><strong>회사 재정 자료</strong> — 경영상 해고라면 실질 재정 악화 여부 확인.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 임금피크제 동의 시 받은 문서는 가능한 한 사본 보관하세요.</blockquote>',
       },
       {
         title: '구제 절차 — 노동위 + 연령차별 병행',

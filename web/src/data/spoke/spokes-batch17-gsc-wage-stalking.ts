@@ -22,15 +22,15 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
     meta: {
       title: '야근수당 미지급 신고 전 증거 5가지 체크리스트 | 로앤가이드',
       description:
-        '매달 야근하는데 수당이 한 푼도 안 나오시나요? 노동청 신고 전 반드시 확보해야 할 5가지 핵심 증거와 수집 요령을 정리했습니다. 지금 확인하세요.',
+        '매달 야근하는데 수당이 한 푼도 안 나오시나요? 노동청 신고 전 가능한 한 확보해야 할 5가지 핵심 증거와 수집 요령을 정리했습니다. 지금 확인하세요.',
     },
     intro:
-      '퇴근 시간이 지나도 사무실 불이 꺼지지 않습니다. 야근은 일상인데 급여명세서에는 연장근로수당 항목이 늘 0원입니다. 노동청에 신고하려 해도 증거가 부족하면 받아들여지지 않을까 걱정됩니다. 신고 전에 반드시 확보해야 할 5가지 증거를 확인해보세요.',
+      '퇴근 시간이 지나도 사무실 불이 꺼지지 않습니다. 야근은 일상인데 급여명세서에는 연장근로수당 항목이 늘 0원입니다. 노동청에 신고하려 해도 증거가 부족하면 받아들여지지 않을까 걱정됩니다. 신고 전에 가능한 한 확보해야 할 5가지 증거를 확인해보세요.',
     sections: [
       {
         title: '첫째, 근로계약서와 취업규칙에서 소정근로시간을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제17조에 따라 사용자는 근로계약 체결 시 소정근로시간을 서면으로 명시해야 합니다</strong></p>\n<p>야근수당 청구의 출발점은 <strong>본인의 소정근로시간이 몇 시간인지 확인</strong>하는 것입니다. 근로계약서에 "09시~18시, 주 40시간"으로 되어 있다면, 18시 이후 근무는 모두 연장근로에 해당합니다.</p>\n<p>취업규칙이나 단체협약에 다른 규정이 있는지도 함께 확인하세요. 계약서를 받지 못했다면 <strong>회사에 서면 교부를 요청하고, 요청 내역을 캡처</strong>해두는 것이 첫 번째 증거입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 ①: 근로계약서 + 취업규칙 → 소정근로시간 확인이 연장근로 판단의 기준</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제17조에 따라 사용자는 근로계약 체결 시 소정근로시간을 서면으로 명시해야 합니다</strong></p>\n<p>야근수당 청구의 출발점은 <strong>본인의 소정근로시간이 몇 시간인지 확인</strong>하는 것입니다. 근로계약서에 "09시~18시, 주 40시간"으로 되어 있다면, 18시 이후 근무는 모두 연장근로에 해당할 소지가 있습니다.</p>\n<p>취업규칙이나 단체협약에 다른 규정이 있는지도 함께 확인하세요. 계약서를 받지 못했다면 <strong>회사에 서면 교부를 요청하고, 요청 내역을 캡처</strong>해두는 것이 첫 번째 증거입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 ①: 근로계약서 + 취업규칙 → 소정근로시간 확인이 연장근로 판단의 기준</blockquote>',
       },
       {
         title: '둘째, 출퇴근 기록과 PC 사용 로그를 확보하세요',
@@ -163,7 +163,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
       {
         question: '포괄임금제는 어떤 업종에서만 허용되나요?',
         answer:
-          '법적으로 업종 제한은 없지만, 판례상 <strong>근로시간 산정이 어려운 감시·단속적 근로</strong>에 한해 유효성이 인정됩니다. 일반 사무직에 적용된 포괄임금제는 무효로 판단될 가능성이 높습니다.',
+          '법적으로 업종 제한은 없지만, 판례상 <strong>근로시간 산정이 어려운 감시·단속적 근로</strong>에 한해 유효성이 인정될 수 있습니다. 일반 사무직에 적용된 포괄임금제는 무효로 판단될 가능성이 높습니다.',
       },
       {
         question: '월급에 "고정 OT 20시간 포함"이라고 적혀 있는데 20시간을 넘기면 어떻게 되나요?',
@@ -247,7 +247,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
         summary:
           '대법원 2022다255454 사건(2026.01.29 선고)에서 법원은 퇴직금 청구권의 소멸시효 3년이 경과한 경우, 사용자가 시효 완성 전에 권리행사를 곤란하게 하였거나 시효를 원용하지 않을 것 같은 태도를 보인 특별한 사정이 없으면 소멸시효 주장이 유효하다고 판시했습니다.',
         takeaway:
-          '퇴사 후 3년의 시효가 매우 중요합니다. 시효 만료 전에 반드시 내용증명 발송이나 진정 접수로 시효를 중단시키세요.',
+          '퇴사 후 3년의 시효가 매우 중요합니다. 시효 만료 전에 가능한 한 내용증명 발송이나 진정 접수로 시효를 중단시키세요.',
       },
     ],
     faq: [
@@ -314,7 +314,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
       {
         title: '셋째, 근로자가 직접 작성한 근무 일지도 증거가 됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">법원은 근로자가 일관되게 작성한 자체 근무 기록도 증거로 인정합니다</strong></p>\n<p>매일 퇴근 후 <strong>스마트폰 메모 앱이나 엑셀에 출근·퇴근·휴게시간을 기록</strong>해두세요. 3개월 이상 일관되게 작성된 기록은 법원에서 상당한 증거력을 인정받습니다.</p>\n<p>흔한 실수는 <strong>나중에 한꺼번에 기록을 만드는 것</strong>입니다. 파일 생성일자와 수정일자가 동일하면 신뢰도가 떨어집니다. 반드시 매일 기록하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">함정 주의: 소급 작성 기록은 신뢰도 ↓ → 매일 실시간 기록이 핵심</blockquote>',
+          '<p><strong style="color:#1e3a5f">법원은 근로자가 일관되게 작성한 자체 근무 기록도 증거로 인정합니다</strong></p>\n<p>매일 퇴근 후 <strong>스마트폰 메모 앱이나 엑셀에 출근·퇴근·휴게시간을 기록</strong>해두세요. 3개월 이상 일관되게 작성된 기록은 법원에서 상당한 증거력을 인정받습니다.</p>\n<p>흔한 실수는 <strong>나중에 한꺼번에 기록을 만드는 것</strong>입니다. 파일 생성일자와 수정일자가 동일하면 신뢰도가 떨어집니다. 가능한 한 매일 기록하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">함정 주의: 소급 작성 기록은 신뢰도 ↓ → 매일 실시간 기록이 핵심</blockquote>',
       },
       {
         title: '넷째, 동료의 확인 진술과 근무 패턴 증거를 확보하세요',
@@ -324,7 +324,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
       {
         title: '다섯째, 노동청 조사 시 사업주에게 입증 책임이 전환될 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제48조에 따라 사용자에게는 근로시간 기록·보존 의무가 있습니다</strong></p>\n<p>사용자가 법정 의무인 <strong>근로시간 기록을 하지 않은 경우</strong>, 근로감독관은 근로자의 주장을 기초로 조사를 진행합니다. 기록 의무를 위반한 사업주에게 불리하게 작용하는 것입니다.</p>\n<p>근로자가 제출한 대체 증거(메시지, 자체 기록, 동료 진술)를 토대로 근로감독관이 <strong>사업주에게 반증 자료 제출</strong>을 요구합니다. 사업주가 반증하지 못하면 근로자의 주장이 인정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">유리한 점: 사용자 기록 의무 위반 → 근로자 주장 기반 조사 진행</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제48조에 따라 사용자에게는 근로시간 기록·보존 의무가 있습니다</strong></p>\n<p>사용자가 법정 의무인 <strong>근로시간 기록을 하지 않은 경우</strong>, 근로감독관은 근로자의 주장을 기초로 조사를 진행합니다. 기록 의무를 위반한 사업주에게 불리하게 작용하는 것입니다.</p>\n<p>근로자가 제출한 대체 증거(메시지, 자체 기록, 동료 진술)를 토대로 근로감독관이 <strong>사업주에게 반증 자료 제출</strong>을 요구합니다. 사업주가 반증하지 못하면 근로자의 주장이 인정될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">유리한 점: 사용자 기록 의무 위반 → 근로자 주장 기반 조사 진행</blockquote>',
       },
     ],
     cases: [
@@ -401,7 +401,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
       {
         title: '셋째, 상대방의 거부 의사 표시 시점을 특정하세요',
         content:
-          '<p><strong style="color:#1e3a5f">상대방이 "연락하지 말라"고 명확히 말한 시점이 스토킹 성립의 기준선입니다</strong></p>\n<p>스토킹행위는 <strong>"상대방의 의사에 반하여"</strong> 행해져야 성립합니다. 상대방이 거부 의사를 표시한 시점 이전의 연락은 원칙적으로 스토킹에 해당하지 않습니다.</p>\n<p>거부 의사가 <strong>명시적으로 표현된 메시지</strong>가 있다면 그 시점을 특정하세요. 만약 명시적 거부 없이 바로 신고한 경우, 이 점이 방어의 핵심 포인트가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 거부 의사 표시 시점 전후의 연락 내용을 구분해서 정리</blockquote>',
+          '<p><strong style="color:#1e3a5f">상대방이 "연락하지 말라"고 명확히 말한 시점이 스토킹 성립의 기준선입니다</strong></p>\n<p>스토킹행위는 <strong>"상대방의 의사에 반하여"</strong> 행해져야 성립할 수 있습니다. 상대방이 거부 의사를 표시한 시점 이전의 연락은 원칙적으로 스토킹에 해당하지 않습니다.</p>\n<p>거부 의사가 <strong>명시적으로 표현된 메시지</strong>가 있다면 그 시점을 특정하세요. 만약 명시적 거부 없이 바로 신고한 경우, 이 점이 방어의 핵심 포인트가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 거부 의사 표시 시점 전후의 연락 내용을 구분해서 정리</blockquote>',
       },
       {
         title: '넷째, 연락 빈도와 내용이 통상적 범위였음을 정리하세요',
@@ -420,7 +420,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
         summary:
           '대법원 2022도12037 사건(2023.05.18 선고)에서 법원은 전화를 걸어 벨소리를 울리게 하거나 부재중 전화 문구가 표시되도록 한 행위도 상대방의 의사에 반하여 불안감을 일으키면 스토킹행위에 해당한다고 판시했습니다.',
         takeaway:
-          '통화 내용과 관계없이 반복된 전화 자체가 스토킹으로 인정될 수 있습니다. 연락 빈도와 상대방의 거부 여부가 핵심이므로, 거부 의사 이전의 정상 대화 기록을 반드시 확보하세요.',
+          '통화 내용과 관계없이 반복된 전화 자체가 스토킹으로 인정될 수 있습니다. 연락 빈도와 상대방의 거부 여부가 핵심이므로, 거부 의사 이전의 정상 대화 기록을 가능한 한 확보하세요.',
       },
     ],
     faq: [
@@ -491,7 +491,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
           '<p><strong style="color:#1e3a5f">대법원은 행위자와 상대방의 관계, 행위 경위, 태양 등을 종합하여 객관적으로 판단합니다</strong></p>\n<p>"밥은 먹었어?"라는 안부 문자 1건과 "무시하면 가만 안 둔다"는 위협 메시지는 법적 평가가 완전히 다릅니다. <strong>객관적·일반적 관점에서 불안감을 일으키기에 충분한 정도</strong>인지가 기준입니다.</p>\n<p>이별 후의 감정적 메시지도 내용과 빈도에 따라 달라집니다. <strong>하루 1~2회 안부와 하루 수십 회 전화는</strong> 같은 이별 후 연락이라도 법적 평가가 완전히 다릅니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">판단 기준 ②: 연락의 빈도·시간대·내용 → 객관적 불안감 기준</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/stalking" style="color:#1565c0;font-weight:600">내 연락 행위가 스토킹에 해당하는지 무료 진단받기 &rarr;</a>\n</div>',
       },
       {
-        title: '셋째, "지속적 또는 반복적"이어야 스토킹범죄가 성립합니다',
+        title: '셋째, "지속적 또는 반복적"이어야 스토킹범죄가 성립할 수 있습니다',
         content:
           '<p><strong style="color:#1e3a5f">1회성 연락만으로는 스토킹범죄가 아닌 스토킹행위에 그칩니다</strong></p>\n<p>스토킹처벌법은 스토킹행위가 <strong>"지속적 또는 반복적"</strong>으로 이루어져야 비로소 "스토킹범죄"로 처벌합니다. 이별 후 단 1회 전화를 건 것만으로 바로 형사처벌 대상이 되지는 않습니다.</p>\n<p>다만 1회 연락이라도 <strong>경고 조치 이후 재차 연락하면 반복성이 인정</strong>될 수 있습니다. 경찰의 경고나 잠정조치를 받았다면 이후 연락을 완전히 중단해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">판단 기준 ③: 지속성·반복성 → 1회 행위와 반복 행위의 법적 차이</blockquote>',
       },
@@ -503,7 +503,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
       {
         title: '다섯째, 이미 경고·잠정조치를 받았다면 변호사 상담이 급선무입니다',
         content:
-          '<p><strong style="color:#1e3a5f">잠정조치(접근금지) 위반 시 2년 이하 징역 또는 2천만원 이하 벌금에 처해집니다</strong></p>\n<p>경찰의 <strong>긴급응급조치</strong>나 법원의 <strong>잠정조치</strong>를 받은 상태에서 연락하면 별도의 범죄가 성립합니다. 이 경우 본래 스토킹 혐의와 별도로 가중 처벌됩니다.</p>\n<p>혐의를 받고 있다면, 즉시 <strong>형사 전문 변호사와 상담</strong>하세요. 조사 대응, 합의 가능성, 잠정조치 해제 신청 등 종합적인 전략이 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">경고: 잠정조치 중 연락 = 별도 범죄 → 절대 금지</blockquote>',
+          '<p><strong style="color:#1e3a5f">잠정조치(접근금지) 위반 시 2년 이하 징역 또는 2천만원 이하 벌금에 처해집니다</strong></p>\n<p>경찰의 <strong>긴급응급조치</strong>나 법원의 <strong>잠정조치</strong>를 받은 상태에서 연락하면 별도의 범죄가 성립할 수 있습니다. 이 경우 본래 스토킹 혐의와 별도로 가중 처벌 대상으로 검토될 수 있습니다.</p>\n<p>혐의를 받고 있다면, 즉시 <strong>형사 전문 변호사와 상담</strong>하세요. 조사 대응, 합의 가능성, 잠정조치 해제 신청 등 종합적인 전략이 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">경고: 잠정조치 중 연락 = 별도 범죄 → 절대 금지</blockquote>',
       },
     ],
     cases: [
@@ -570,7 +570,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
       {
         title: '첫째, 변호사 선임 또는 최소한 사전 상담을 받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">피의자는 변호인의 조력을 받을 권리가 헌법상 보장되어 있습니다</strong></p>\n<p>스토킹 혐의로 경찰 조사를 받기 전, <strong>형사 전문 변호사와 반드시 상담</strong>하세요. 어떤 사실을 인정하고 어떤 부분을 다툴지, 진술의 범위를 미리 정하는 것이 핵심입니다.</p>\n<p>선임이 어려우면 <strong>대한법률구조공단(132) 무료 상담</strong>을 먼저 이용하세요. 변호사 없이 조사에 임하면 불리한 진술이 조서에 기록될 위험이 큽니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비 ①: 변호사 상담 → 진술 범위 확정 → 조사 전략 수립</blockquote>',
+          '<p><strong style="color:#1e3a5f">피의자는 변호인의 조력을 받을 권리가 헌법상 보장되어 있습니다</strong></p>\n<p>스토킹 혐의로 경찰 조사를 받기 전, <strong>형사 전문 변호사와 가능한 한 상담</strong>하세요. 어떤 사실을 인정하고 어떤 부분을 다툴지, 진술의 범위를 미리 정하는 것이 핵심입니다.</p>\n<p>선임이 어려우면 <strong>대한법률구조공단(132) 무료 상담</strong>을 먼저 이용하세요. 변호사 없이 조사에 임하면 불리한 진술이 조서에 기록될 위험이 큽니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비 ①: 변호사 상담 → 진술 범위 확정 → 조사 전략 수립</blockquote>',
       },
       {
         title: '둘째, 상대방과 주고받은 모든 대화 기록을 시간순으로 정리하세요',
@@ -590,7 +590,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
       {
         title: '다섯째, 합의 가능성을 열어두되 조건은 변호사를 통해 진행하세요',
         content:
-          '<p><strong style="color:#1e3a5f">초범 스토킹 사건에서 합의는 기소유예 또는 선고유예를 이끌어내는 가장 중요한 요소입니다</strong></p>\n<p>피해자와의 <strong>합의</strong>는 검사의 처분과 법원의 양형에 결정적 영향을 미칩니다. 다만 직접 연락하면 오히려 2차 스토킹 혐의가 될 수 있으므로, <strong>반드시 변호사를 통해</strong> 진행하세요.</p>\n<p>합의금 수준은 사안마다 다르지만, 초범이고 실질적 피해가 크지 않은 경우 <strong>기소유예(형사기록 없음)</strong> 처분을 기대할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비 ⑤: 합의 의향 → 변호사 경유 → 기소유예 목표</blockquote>',
+          '<p><strong style="color:#1e3a5f">초범 스토킹 사건에서 합의는 기소유예 또는 선고유예를 이끌어내는 가장 중요한 요소입니다</strong></p>\n<p>피해자와의 <strong>합의</strong>는 검사의 처분과 법원의 양형에 결정적 영향을 미칩니다. 다만 직접 연락하면 오히려 2차 스토킹 혐의가 될 수 있으므로, <strong>가능한 한 변호사를 통해</strong> 진행하세요.</p>\n<p>합의금 수준은 사안마다 다르지만, 초범이고 실질적 피해가 크지 않은 경우 <strong>기소유예(형사기록 없음)</strong> 처분을 기대할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비 ⑤: 합의 의향 → 변호사 경유 → 기소유예 목표</blockquote>',
       },
     ],
     cases: [
@@ -599,7 +599,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
         summary:
           '대법원 2023도6411 사건(2023.09.27 선고)에서 법원은 행위가 객관적·일반적으로 불안감 또는 공포심을 일으키기에 충분하면, 상대방의 현실적 불안감 여부와 관계없이 스토킹행위에 해당한다고 판시했습니다.',
         takeaway:
-          '본인은 악의가 없었더라도 객관적으로 불안감을 줄 수 있는 행위였다면 스토킹이 성립합니다. 행위의 빈도와 태양을 중심으로 방어 전략을 세우세요.',
+          '본인은 악의가 없었더라도 객관적으로 불안감을 줄 수 있는 행위였다면 스토킹이 성립할 수 있습니다. 행위의 빈도와 태양을 중심으로 방어 전략을 세우세요.',
       },
     ],
     faq: [
@@ -621,7 +621,7 @@ export const spokesBatch17GscWageStalking: SpokePage[] = [
       {
         question: '조사 전에 피해자에게 사과 문자를 보내도 되나요?',
         answer:
-          '<strong>절대 안 됩니다</strong>. 직접 연락하면 추가 스토킹 혐의가 될 수 있습니다. 사과와 합의 의향은 반드시 변호사를 통해 전달하세요.',
+          '<strong>절대 안 됩니다</strong>. 직접 연락하면 추가 스토킹 혐의가 될 수 있습니다. 사과와 합의 의향은 가능한 한 변호사를 통해 전달하세요.',
       },
       {
         question: '긴급응급조치를 받았는데 어떻게 해야 하나요?',

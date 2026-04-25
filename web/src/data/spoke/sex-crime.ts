@@ -13,7 +13,7 @@ export const sexCrimePages: SpokePage[] = [
         '성추행 혐의로 경찰 출석 요구를 받으셨나요? 변호사 선임, 합의 절차, 처벌 수위(10년 이하 징역), 진술 준비까지 지금 확인하세요.',
     },
     intro:
-      '회식 자리에서 있었던 일로 성추행 혐의로 고소되었습니다. 경찰에서 출석 요구서가 왔는데, 어떻게 대응해야 할지 막막합니다. 혐의를 받고 있다면 경찰 조사 전에 반드시 확인해야 할 사항들을 정리해보세요.',
+      '회식 자리에서 있었던 일로 성추행 혐의로 고소되었습니다. 경찰에서 출석 요구서가 왔는데, 어떻게 대응해야 할지 막막합니다. 혐의를 받고 있다면 경찰 조사 전에 가능한 한 확인해야 할 사항들을 정리해보세요.',
     sections: [
       {
         title: '경찰 출석 전 즉시 변호사를 선임하세요',
@@ -139,7 +139,7 @@ export const sexCrimePages: SpokePage[] = [
       {
         title: '반드시 변호사 상담을 받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">성범죄 무고 사건은 전문 변호사의 조력이 필수입니다</strong></p>\n<p>성범죄 무고 사건은 <strong>원 사건 방어와 반대고소를 동시에 진행</strong>해야 하는 복잡한 사안입니다. 전문 변호사는 ①원 사건에서 <strong>혐의없음 처분</strong>을 받기 위한 전략을 수립하고, ②<strong>무고죄 고소의 적정 시기</strong>를 판단합니다.</p>\n<p>무고죄는 <strong>입증 책임이 고소인(본인)에게</strong> 있으므로 충분한 증거 수집이 선행되어야 합니다. 혼자 판단하여 섣불리 반대고소를 하면 오히려 불리해질 수 있으니 <strong>반드시 전문가와 상의</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 원 사건 방어 + 반대고소 병행 | 입증 책임은 본인 | 전문 변호사 상담 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">성범죄 무고 사건은 전문 변호사의 조력이 필수입니다</strong></p>\n<p>성범죄 무고 사건은 <strong>원 사건 방어와 반대고소를 동시에 진행</strong>해야 하는 복잡한 사안입니다. 전문 변호사는 ①원 사건에서 <strong>혐의없음 처분</strong>을 받기 위한 전략을 수립하고, ②<strong>무고죄 고소의 적정 시기</strong>를 판단합니다.</p>\n<p>무고죄는 <strong>입증 책임이 고소인(본인)에게</strong> 있으므로 충분한 증거 수집이 선행되어야 합니다. 혼자 판단하여 섣불리 반대고소를 하면 오히려 불리해질 수 있으니 <strong>가능한 한 전문가와 상의</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 원 사건 방어 + 반대고소 병행 | 입증 책임은 본인 | 전문 변호사 상담 필수</blockquote>',
       },
     ],
     cases: [
@@ -335,7 +335,7 @@ export const sexCrimePages: SpokePage[] = [
       {
         title: '추행 직후 모든 증거를 즉시 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">CCTV, 목격자, 카톡 기록을 지금 바로 확보하세요</strong></p>\n<p>강제추행 피해를 입었다면 가장 먼저 <strong>현장 주변 CCTV</strong>를 확인하세요. CCTV는 보통 <strong>30일</strong> 내에 덮어씌워지므로 빠른 확인이 필수입니다. 경찰에 CCTV 보존 요청을 하면 덮어쓰기를 방지할 수 있습니다.</p>\n<p><strong>목격자</strong>가 있으면 연락처를 반드시 받아두세요. 범행 직후 가해자에게 보낸 <strong>문자·카카오톡</strong> 메시지, 지인에게 피해 사실을 알린 기록도 증거가 됩니다. 당시 입고 있던 <strong>의류</strong>는 세탁하지 말고 보관하세요. DNA 등 증거가 남아 있을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시 확보: CCTV 보존 요청, 목격자 연락처, 문자·카톡 기록, 의류 보관</blockquote>',
+          '<p><strong style="color:#1e3a5f">CCTV, 목격자, 카톡 기록을 지금 바로 확보하세요</strong></p>\n<p>강제추행 피해를 입었다면 가장 먼저 <strong>현장 주변 CCTV</strong>를 확인하세요. CCTV는 보통 <strong>30일</strong> 내에 덮어씌워지므로 빠른 확인이 필수입니다. 경찰에 CCTV 보존 요청을 하면 덮어쓰기를 방지할 수 있습니다.</p>\n<p><strong>목격자</strong>가 있으면 연락처를 가능한 한 받아두세요. 범행 직후 가해자에게 보낸 <strong>문자·카카오톡</strong> 메시지, 지인에게 피해 사실을 알린 기록도 증거가 됩니다. 당시 입고 있던 <strong>의류</strong>는 세탁하지 말고 보관하세요. DNA 등 증거가 남아 있을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시 확보: CCTV 보존 요청, 목격자 연락처, 문자·카톡 기록, 의류 보관</blockquote>',
       },
       {
         title: '경찰에 신고하고 고소장을 제출하세요',
@@ -426,7 +426,7 @@ export const sexCrimePages: SpokePage[] = [
       title: '성범죄 초범 처벌 수위와 대응 방법 총정리 | 로앤가이드',
       description: '성범죄 초범이면 처벌이 가벼울까요? 양형 기준, 신상정보 등록, 수강명령, 변호사 선임의 중요성까지 지금 확인하세요.',
     },
-    intro: '성범죄 혐의로 처음 경찰 출석 요구를 받았습니다. 초범이면 처벌이 가벼운지, 신상등록이 되는지, 어떻게 대응해야 하는지 알 수 없어 불안합니다. 혐의를 받고 있다면 초범이라도 반드시 확인해야 할 사항을 정리해보세요.',
+    intro: '성범죄 혐의로 처음 경찰 출석 요구를 받았습니다. 초범이면 처벌이 가벼운지, 신상등록이 되는지, 어떻게 대응해야 하는지 알 수 없어 불안합니다. 혐의를 받고 있다면 초범이라도 가능한 한 확인해야 할 사항을 정리해보세요.',
     timelineSteps: ['처벌 수위 확인', '부수 처분 파악', '변호사 선임', '진술·합의 대응'],
     sections: [
       {
@@ -437,17 +437,17 @@ export const sexCrimePages: SpokePage[] = [
       {
         title: '신상정보 등록과 수강명령 — 초범도 예외가 아닙니다',
         content:
-          '<p><strong style="color:#1e3a5f">유죄 판결 시 초범이라도 신상정보 등록과 수강명령이 부과됩니다</strong></p>\n<p>성범죄로 유죄 판결(벌금형 포함)을 받으면 <strong>성범죄자 신상정보 등록</strong> 대상이 됩니다. 등록 기간은 형량에 따라 <strong>20년(징역 3년 초과)</strong>, <strong>15년(3년 이하)</strong>, <strong>10년(벌금)</strong>으로 구분됩니다. 기간 중 <strong>매년 정보 갱신</strong>이 의무입니다.</p>\n<p><strong>성폭력 치료 프로그램 수강명령</strong>(최대 500시간)과 <strong>취업제한 명령</strong>(아동·청소년 관련 기관, 최대 10년)도 함께 부과됩니다. 초범이라도 이러한 부수 처분은 <strong>자동으로 부과</strong>되므로 반드시 인지하고 있어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">부수 처분: 신상등록 10~20년 + 수강명령 최대 500시간 + 취업제한 최대 10년</blockquote>',
+          '<p><strong style="color:#1e3a5f">유죄 판결 시 초범이라도 신상정보 등록과 수강명령이 부과됩니다</strong></p>\n<p>성범죄로 유죄 판결(벌금형 포함)을 받으면 <strong>성범죄자 신상정보 등록</strong> 대상이 됩니다. 등록 기간은 형량에 따라 <strong>20년(징역 3년 초과)</strong>, <strong>15년(3년 이하)</strong>, <strong>10년(벌금)</strong>으로 구분됩니다. 기간 중 <strong>매년 정보 갱신</strong>이 의무입니다.</p>\n<p><strong>성폭력 치료 프로그램 수강명령</strong>(최대 500시간)과 <strong>취업제한 명령</strong>(아동·청소년 관련 기관, 최대 10년)도 함께 부과됩니다. 초범이라도 이러한 부수 처분은 <strong>자동으로 부과</strong>되므로 가능한 한 인지하고 있어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">부수 처분: 신상등록 10~20년 + 수강명령 최대 500시간 + 취업제한 최대 10년</blockquote>',
       },
       {
         title: '변호사 선임이 왜 중요한지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">초범일수록 첫 대응이 결과를 결정합니다</strong></p>\n<p>성범죄는 첫 경찰 진술이 수사와 재판 전체를 좌우합니다. <strong>변호사 없이 한 최초 진술</strong>이 불리하게 작용하여 벌금형으로 끝날 사안이 징역형이 되는 경우가 실무에서 빈번합니다. 초범이라도 <strong>반드시 첫 조사 전에 변호사를 선임</strong>하세요.</p>\n<p>변호사는 ①<strong>사안 분석과 방어 전략 수립</strong>, ②<strong>경찰 조사 동석</strong>(부당한 질문 대응), ③<strong>합의 협상 대리</strong>(직접 연락은 2차 가해로 간주), ④<strong>양형 의견서·반성문 작성</strong>을 지원합니다. 경제적 여건이 어려우면 <strong>국선변호인</strong> 신청이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 첫 조사 전 변호사 선임 → 진술 전략 수립 → 합의 대리 → 양형 자료 준비</blockquote>',
+          '<p><strong style="color:#1e3a5f">초범일수록 첫 대응이 결과를 결정합니다</strong></p>\n<p>성범죄는 첫 경찰 진술이 수사와 재판 전체를 좌우합니다. <strong>변호사 없이 한 최초 진술</strong>이 불리하게 작용하여 벌금형으로 끝날 사안이 징역형이 되는 경우가 실무에서 빈번합니다. 초범이라도 <strong>가능한 한 첫 조사 전에 변호사를 선임</strong>하세요.</p>\n<p>변호사는 ①<strong>사안 분석과 방어 전략 수립</strong>, ②<strong>경찰 조사 동석</strong>(부당한 질문 대응), ③<strong>합의 협상 대리</strong>(직접 연락은 2차 가해로 간주), ④<strong>양형 의견서·반성문 작성</strong>을 지원합니다. 경제적 여건이 어려우면 <strong>국선변호인</strong> 신청이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 첫 조사 전 변호사 선임 → 진술 전략 수립 → 합의 대리 → 양형 자료 준비</blockquote>',
       },
       {
         title: '진술 준비와 합의 전략을 세우세요',
         content:
-          '<p><strong style="color:#1e3a5f">일관된 진술과 진정성 있는 합의 노력이 양형의 핵심입니다</strong></p>\n<p>경찰 조사 시 ①<strong>기억나지 않는 부분은 추측하지 마세요</strong>. "기억이 불분명합니다"라고 답하는 것이 안전합니다. ②<strong>모든 질문에 답변할 의무는 없으며</strong> 묵비권을 행사할 수 있습니다. ③변호사와 사전에 정리한 내용을 벗어나는 질문에는 신중하게 대응하세요.</p>\n<p>합의를 진행할 때는 반드시 <strong>변호사를 통해 연락</strong>하세요. 피해자에게 직접 연락하면 <strong>2차 가해</strong>로 간주되어 오히려 불리해집니다. 합의서에는 <strong>처벌불원 의사</strong>를 포함시키고, <strong>반성문</strong>과 <strong>재발 방지 서약서</strong>를 양형 자료로 법원에 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">진술: 추측 금지, 묵비권 가능 | 합의: 변호사 통해 연락 + 반성문·서약서 제출</blockquote>',
+          '<p><strong style="color:#1e3a5f">일관된 진술과 진정성 있는 합의 노력이 양형의 핵심입니다</strong></p>\n<p>경찰 조사 시 ①<strong>기억나지 않는 부분은 추측하지 마세요</strong>. "기억이 불분명합니다"라고 답하는 것이 안전합니다. ②<strong>모든 질문에 답변할 의무는 없으며</strong> 묵비권을 행사할 수 있습니다. ③변호사와 사전에 정리한 내용을 벗어나는 질문에는 신중하게 대응하세요.</p>\n<p>합의를 진행할 때는 가능한 한 <strong>변호사를 통해 연락</strong>하세요. 피해자에게 직접 연락하면 <strong>2차 가해</strong>로 간주되어 오히려 불리해집니다. 합의서에는 <strong>처벌불원 의사</strong>를 포함시키고, <strong>반성문</strong>과 <strong>재발 방지 서약서</strong>를 양형 자료로 법원에 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">진술: 추측 금지, 묵비권 가능 | 합의: 변호사 통해 연락 + 반성문·서약서 제출</blockquote>',
       },
     ],
     cases: [
@@ -463,7 +463,7 @@ export const sexCrimePages: SpokePage[] = [
         summary:
           '관련 사례에서도 초범 피의자가 변호사 없이 경찰 조사에 출석하여 "장난이었다"고 진술한 것이 반성 없는 태도로 평가되어, 벌금형이 가능했던 사안에서 징역 8월에 집행유예 2년이 선고된 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 반드시 변호사와 상담한 후 진술 방향을 정하세요.',
+          '비슷한 상황이라면 가능한 한 변호사와 상담한 후 진술 방향을 정하세요.',
       },
     ],
     faq: [
@@ -633,7 +633,7 @@ export const sexCrimePages: SpokePage[] = [
       {
         title: '무고죄 반대고소를 준비하세요 — 허위 신고에는 법적 책임이 따릅니다',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제156조 무고죄는 10년 이하 징역에 처해집니다</strong></p>\n<p>허위 성폭력 신고가 명백하다면 <strong>형법 제156조 무고죄</strong>로 반대고소할 수 있습니다. 무고죄는 "허위 사실을 신고하여 타인이 형사처분을 받게 할 목적"이 있어야 성립합니다. 성폭력 무고는 일반 무고보다 실무상 엄하게 처벌되는 경향이 있습니다.</p>\n<p>반대고소는 원래 혐의에 대한 <strong>무혐의·무죄 결과가 나온 후</strong>에 하는 것이 일반적입니다. 다만 허위 동기와 알리바이가 명확한 경우에는 수사 진행 중에도 반대고소가 가능합니다. 무고죄 외에 <strong>명예훼손죄</strong>도 함께 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 무고죄(형법 제156조) 반대고소 + 명예훼손 검토, 무혐의 후 진행이 유리</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제156조 무고죄는 10년 이하 징역에 처해집니다</strong></p>\n<p>허위 성폭력 신고가 명백하다면 <strong>형법 제156조 무고죄</strong>로 반대고소할 수 있습니다. 무고죄는 "허위 사실을 신고하여 타인이 형사처분을 받게 할 목적"이 있어야 성립할 수 있습니다. 성폭력 무고는 일반 무고보다 실무상 엄하게 처벌되는 경향이 있습니다.</p>\n<p>반대고소는 원래 혐의에 대한 <strong>무혐의·무죄 결과가 나온 후</strong>에 하는 것이 일반적입니다. 다만 허위 동기와 알리바이가 명확한 경우에는 수사 진행 중에도 반대고소가 가능합니다. 무고죄 외에 <strong>명예훼손죄</strong>도 함께 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 무고죄(형법 제156조) 반대고소 + 명예훼손 검토, 무혐의 후 진행이 유리</blockquote>',
       },
     ],
     cases: [
@@ -652,7 +652,7 @@ export const sexCrimePages: SpokePage[] = [
       },
       {
         question: '무고죄 성립 요건은 무엇인가요?',
-        answer: '형법 제156조에 따라 <strong>허위 사실임을 알면서</strong> 형사처벌 목적으로 신고한 경우 성립합니다.',
+        answer: '형법 제156조에 따라 <strong>허위 사실임을 알면서</strong> 형사처벌 목적으로 신고한 경우 성립할 수 있습니다.',
       },
       {
         question: '성범죄 무혐의를 받으면 기록이 남나요?',
@@ -709,7 +709,7 @@ export const sexCrimePages: SpokePage[] = [
       {
         title: '신고 직후 증거보전과 피해자 지원 연결',
         content:
-          '<p><strong style="color:#1e3a5f">신고 후 72시간 이내가 증거 확보의 골든타임입니다</strong></p>\n<p>112 신고 또는 경찰서 방문 접수 직후, <strong>원스톱지원센터</strong>(해바라기센터)에서 의료 지원과 증거채취를 동시에 받을 수 있습니다. 진료 기록, 상해 진단서, 디지털 증거(메시지·통화내역)를 이 단계에서 확보하는 것이 핵심입니다.</p>\n<p>경찰은 접수 즉시 <strong>피해자 보호명령</strong>을 신청할 수 있으며, 가해자 접근 금지·통신 금지 등의 조치가 가능합니다. <strong>피해자 국선변호사</strong>는 신고 단계부터 무료로 선임할 수 있으니 반드시 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 해바라기센터 증거채취 → 진단서 발급 → 피해자 국선변호사 신청 → 보호명령 요청</blockquote>',
+          '<p><strong style="color:#1e3a5f">신고 후 72시간 이내가 증거 확보의 골든타임입니다</strong></p>\n<p>112 신고 또는 경찰서 방문 접수 직후, <strong>원스톱지원센터</strong>(해바라기센터)에서 의료 지원과 증거채취를 동시에 받을 수 있습니다. 진료 기록, 상해 진단서, 디지털 증거(메시지·통화내역)를 이 단계에서 확보하는 것이 핵심입니다.</p>\n<p>경찰은 접수 즉시 <strong>피해자 보호명령</strong>을 신청할 수 있으며, 가해자 접근 금지·통신 금지 등의 조치가 가능합니다. <strong>피해자 국선변호사</strong>는 신고 단계부터 무료로 선임할 수 있으니 가능한 한 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 해바라기센터 증거채취 → 진단서 발급 → 피해자 국선변호사 신청 → 보호명령 요청</blockquote>',
       },
       {
         title: '경찰 조사와 검찰 송치 단계',
@@ -740,7 +740,7 @@ export const sexCrimePages: SpokePage[] = [
         summary:
           '피해자가 통지제도를 신청하여 공판 일정과 결과를 실시간으로 안내받았고, 양형 단계에서 피해 진술서를 서면 제출하여 가해자에게 실형이 선고되었습니다.',
         takeaway:
-          '비슷한 상황이라면 기소 직후 피해자 통지제도를 신청하고, 양형 의견서를 반드시 제출하세요.',
+          '비슷한 상황이라면 기소 직후 피해자 통지제도를 신청하고, 양형 의견서를 가능한 한 제출하세요.',
       },
     ],
     faq: [
@@ -757,7 +757,7 @@ export const sexCrimePages: SpokePage[] = [
       {
         question: '피해자도 법정에 직접 나가야 하나요?',
         answer:
-          '반드시 출석할 필요는 없습니다. <strong>영상 증인신문, 차폐시설, 서면 진술</strong> 등 비대면 방식을 선택할 수 있습니다.',
+          '가능한 한 출석할 필요는 없습니다. <strong>영상 증인신문, 차폐시설, 서면 진술</strong> 등 비대면 방식을 선택할 수 있습니다.',
       },
       {
         question: '피해자 국선변호사는 어떻게 신청하나요?',
@@ -926,7 +926,7 @@ export const sexCrimePages: SpokePage[] = [
       {
         title: '미성년자 피해는 시효 특례가 적용됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">미성년자 성범죄는 피해자가 성년이 된 날부터 시효가 시작됩니다</strong></p>\n<p><strong>성폭력처벌법 제21조</strong>에 따라 13세 미만 아동·청소년 대상 성범죄는 <strong>DNA 증거가 확인될 때까지 공소시효가 정지</strong>됩니다. 또한 미성년자 피해자에 대해서는 피해자가 <strong>만 19세(성년)에 도달한 날</strong>부터 공소시효가 기산됩니다.</p>\n<p>예를 들어 만 14세에 피해를 당했다면, 공소시효는 만 19세가 된 날부터 계산합니다. 강간 기준 10년이면 <strong>만 29세까지</strong> 고소할 수 있습니다. 미성년 시절 피해를 성인이 되어 신고하는 경우가 많으니 반드시 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">특례: 미성년자 → 성년 도달 후 시효 기산 | DNA 확인 시 시효 정지</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 사건의 공소시효가 아직 남아 있는지 궁금하다면, <a href="/diagnosis/sex-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 빠르게 확인해보세요.</p>',
+          '<p><strong style="color:#1e3a5f">미성년자 성범죄는 피해자가 성년이 된 날부터 시효가 시작됩니다</strong></p>\n<p><strong>성폭력처벌법 제21조</strong>에 따라 13세 미만 아동·청소년 대상 성범죄는 <strong>DNA 증거가 확인될 때까지 공소시효가 정지</strong>됩니다. 또한 미성년자 피해자에 대해서는 피해자가 <strong>만 19세(성년)에 도달한 날</strong>부터 공소시효가 기산됩니다.</p>\n<p>예를 들어 만 14세에 피해를 당했다면, 공소시효는 만 19세가 된 날부터 계산합니다. 강간 기준 10년이면 <strong>만 29세까지</strong> 고소할 수 있습니다. 미성년 시절 피해를 성인이 되어 신고하는 경우가 많으니 가능한 한 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">특례: 미성년자 → 성년 도달 후 시효 기산 | DNA 확인 시 시효 정지</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 사건의 공소시효가 아직 남아 있는지 궁금하다면, <a href="/diagnosis/sex-crime" style="color:#2563eb;font-weight:600">무료 진단</a>으로 빠르게 확인해보세요.</p>',
       },
       {
         title: '시효 정지·연장 사유를 알아두세요',
@@ -1027,7 +1027,7 @@ export const sexCrimePages: SpokePage[] = [
       {
         title: '합의 진행 시 반드시 지켜야 할 원칙을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">피해자에게 직접 연락하면 2차 가해로 추가 처벌될 수 있습니다</strong></p>\n<p>합의를 진행하려면 반드시 <strong>변호사를 통해</strong> 연락해야 합니다. 가해자가 피해자에게 직접 전화, 문자, SNS로 연락하는 행위는 <strong>보복범죄(특정범죄가중처벌법)</strong>나 <strong>스토킹</strong>으로 추가 수사를 받을 수 있습니다.</p>\n<p>합의서에는 ①<strong>합의금 액수</strong>, ②<strong>처벌불원 의사</strong>, ③<strong>민사 청구 포기</strong> 여부를 명확히 기재하세요. 합의금은 일반적으로 강제추행 <strong>500만~3,000만 원</strong>, 강간 <strong>3,000만~1억 원</strong> 수준이나 사건에 따라 크게 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 변호사 통해 연락 | 합의서에 처벌불원 명시 | 직접 연락 절대 금지</blockquote>',
+          '<p><strong style="color:#1e3a5f">피해자에게 직접 연락하면 2차 가해로 추가 처벌될 수 있습니다</strong></p>\n<p>합의를 진행하려면 가능한 한 <strong>변호사를 통해</strong> 연락해야 합니다. 가해자가 피해자에게 직접 전화, 문자, SNS로 연락하는 행위는 <strong>보복범죄(특정범죄가중처벌법)</strong>나 <strong>스토킹</strong>으로 추가 수사를 받을 수 있습니다.</p>\n<p>합의서에는 ①<strong>합의금 액수</strong>, ②<strong>처벌불원 의사</strong>, ③<strong>민사 청구 포기</strong> 여부를 명확히 기재하세요. 합의금은 일반적으로 강제추행 <strong>500만~3,000만 원</strong>, 강간 <strong>3,000만~1억 원</strong> 수준이나 사건에 따라 크게 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 변호사 통해 연락 | 합의서에 처벌불원 명시 | 직접 연락 절대 금지</blockquote>',
       },
     ],
     comparison: {
@@ -1084,12 +1084,12 @@ export const sexCrimePages: SpokePage[] = [
         summary:
           '피해자와 합의하지 못한 강제추행 사건에서 법원은 일반영역 양형을 적용하여 징역 2년의 실형을 선고하였습니다. 초범이었으나 합의 부재가 양형에 불리하게 작용하였습니다.',
         takeaway:
-          '비슷한 상황이라면 합의가 어렵더라도 공탁, 반성문, 치료 프로그램 등 대안적 감경 사유를 반드시 준비하세요.',
+          '비슷한 상황이라면 합의가 어렵더라도 공탁, 반성문, 치료 프로그램 등 대안적 감경 사유를 가능한 한 준비하세요.',
       },
     ],
     faq: [
       {
-        question:'성범죄에서 합의하면 무조건 집행유예를 받을 수 있나요?',
+        question:'성범죄에서 합의하면 원칙적으로 집행유예를 받을 수 있나요?',
         answer:'아닙니다. 합의는 양형 감경 사유일 뿐 집행유예를 보장하지 않습니다. 범행 경위, 전과, 피해 정도 등이 종합적으로 고려됩니다.',
       },
       {
@@ -1110,14 +1110,14 @@ export const sexCrimePages: SpokePage[] = [
       },
       {
         question:'직접 피해자에게 연락해서 합의하면 안 되나요?',
-        answer:'절대 안 됩니다. 직접 연락은 2차 가해, 보복범죄, 스토킹으로 추가 처벌을 받을 수 있습니다. 반드시 변호사를 통해 진행하세요.',
+        answer:'절대 안 됩니다. 직접 연락은 2차 가해, 보복범죄, 스토킹으로 추가 처벌을 받을 수 있습니다. 가능한 한 변호사를 통해 진행하세요.',
       },
       {
         question:'전자발찌 부착은 합의하면 면할 수 있나요?',
         answer:'합의로 형량이 낮아져 징역 3년 미만이 되면 전자장치 부착 청구 대상에서 벗어날 가능성이 높아집니다.',
       },
       {
-        question:'합의서에 반드시 포함해야 할 내용은 무엇인가요?',
+        question:'합의서에 가능한 한 포함해야 할 내용은 무엇인가요?',
         answer:'합의금 액수, 피해자의 처벌불원 의사, 민사 손해배상 청구 포기 여부를 명확히 기재해야 합니다.',
       },
     ],
@@ -1187,7 +1187,7 @@ export const sexCrimePages: SpokePage[] = [
     faq: [
       {
         question: '강제추행 신고 후 합의를 요청받으면 어떻게 해야 하나요?',
-        answer: '합의 여부는 피해자의 자유이며, 합의를 거부해도 수사와 재판은 정상적으로 진행됩니다. 합의를 고려한다면 반드시 <strong>변호사를 통해</strong> 적정 금액과 조건을 협의하세요.',
+        answer: '합의 여부는 피해자의 자유이며, 합의를 거부해도 수사와 재판은 정상적으로 진행됩니다. 합의를 고려한다면 가능한 한 <strong>변호사를 통해</strong> 적정 금액과 조건을 협의하세요.',
       },
       {
         question: '피해 사실을 증명할 물리적 증거가 없어도 처벌이 가능한가요?',

@@ -39,7 +39,7 @@ export const spokesBatch17GscFraud: SpokePage[] = [
       {
         title: '넷째, 합의금 산정 기준과 합의서 작성 시 주의점을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의금은 편취 금액 + 위자료(10~30%) + 지연이자가 기본 구조입니다</strong></p>\n<p>합의금은 단순히 편취 금액만 돌려주는 것이 아닙니다. <strong>편취 금액 전액 반환</strong>에 더해 정신적 피해에 대한 위자료(통상 편취 금액의 10~30%), 변제 지연에 따른 이자를 포함하는 것이 실무 관행입니다.</p>\n<p>합의서에는 반드시 <strong>"처벌을 원하지 않는다"</strong>는 문구(처벌불원서)가 포함되어야 감형 효과가 극대화됩니다. 단순히 돈만 돌려주는 "변제"와 처벌불원이 포함된 "합의"는 법적 효과가 <strong>완전히 다릅니다</strong>.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 변제(돈만 반환) ≠ 합의(처벌불원 포함) — 감경 효과 차이 큼</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의금은 편취 금액 + 위자료(10~30%) + 지연이자가 기본 구조입니다</strong></p>\n<p>합의금은 단순히 편취 금액만 돌려주는 것이 아닙니다. <strong>편취 금액 전액 반환</strong>에 더해 정신적 피해에 대한 위자료(통상 편취 금액의 10~30%), 변제 지연에 따른 이자를 포함하는 것이 실무 관행입니다.</p>\n<p>합의서에는 가능한 한 <strong>"처벌을 원하지 않는다"</strong>는 문구(처벌불원서)가 포함되어야 감형 효과가 극대화됩니다. 단순히 돈만 돌려주는 "변제"와 처벌불원이 포함된 "합의"는 법적 효과가 <strong>완전히 다릅니다</strong>.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 변제(돈만 반환) ≠ 합의(처벌불원 포함) — 감경 효과 차이 큼</blockquote>',
       },
       {
         title: '다섯째, 합의가 어려울 때 차선책도 준비하세요',
@@ -286,12 +286,12 @@ export const spokesBatch17GscFraud: SpokePage[] = [
       {
         title: '첫째, 공탁과 합의의 법적 의미부터 구분하세요',
         content:
-          '<p><strong style="color:#1e3a5f">공탁은 "일방적 변제", 합의는 "쌍방 합의"입니다</strong></p>\n<p><strong>공탁</strong>은 피해자의 동의 없이 법원 공탁소에 편취 금액 상당액을 맡기는 것입니다. 피해자가 합의를 거부하거나 연락이 안 될 때 활용하는 <strong>차선책</strong>입니다.</p>\n<p><strong>합의</strong>는 피해자와 직접 만나 금전 보상에 대한 합의서를 작성하고, 피해자로부터 <strong>처벌불원서</strong>를 받는 것입니다. 합의에는 반드시 피해자의 자발적 동의가 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 차이: 공탁(피해자 동의 불필요) vs 합의(피해자 동의 필수)</blockquote>',
+          '<p><strong style="color:#1e3a5f">공탁은 "일방적 변제", 합의는 "쌍방 합의"입니다</strong></p>\n<p><strong>공탁</strong>은 피해자의 동의 없이 법원 공탁소에 편취 금액 상당액을 맡기는 것입니다. 피해자가 합의를 거부하거나 연락이 안 될 때 활용하는 <strong>차선책</strong>입니다.</p>\n<p><strong>합의</strong>는 피해자와 직접 만나 금전 보상에 대한 합의서를 작성하고, 피해자로부터 <strong>처벌불원서</strong>를 받는 것입니다. 합의에는 가능한 한 피해자의 자발적 동의가 필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 차이: 공탁(피해자 동의 불필요) vs 합의(피해자 동의 필수)</blockquote>',
       },
       {
         title: '둘째, 감형 효과의 차이가 가장 중요합니다',
         content:
-          '<p><strong style="color:#1e3a5f">합의(처벌불원)는 특별감경인자, 공탁은 일반감경사유입니다</strong></p>\n<p>양형위원회 기준에서 <strong>합의 + 처벌불원</strong>은 "피해 회복"이라는 특별감경인자에 해당합니다. 양형 범위 자체가 한 단계 내려가는 효과가 있습니다.</p>\n<p>반면 <strong>공탁</strong>은 "상당 부분 피해 회복" 또는 "피해 회복을 위한 진지한 노력"으로 분류됩니다. 양형에 긍정적으로 반영되지만, 합의만큼 양형 범위를 움직이는 힘은 없습니다. 실무적으로 <strong>합의 대비 50~70%</strong> 정도의 감경 효과로 봅니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감경 효과: 합의(100%) > 공탁(50~70%) > 부분 변제(30~40%)</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">공탁과 합의 중 내 상황에 유리한 쪽을 확인하세요</strong><br/>\n<a href="/diagnosis/fraud" style="color:#1565c0;font-weight:600">AI로 최적의 감형 전략 분석받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">합의(처벌불원)는 특별감경인자, 공탁은 일반감경사유입니다</strong></p>\n<p>양형위원회 기준에서 <strong>합의 + 처벌불원</strong>은 "피해 회복"이라는 특별감경인자에 해당할 소지가 있습니다. 양형 범위 자체가 한 단계 내려가는 효과가 있습니다.</p>\n<p>반면 <strong>공탁</strong>은 "상당 부분 피해 회복" 또는 "피해 회복을 위한 진지한 노력"으로 분류됩니다. 양형에 긍정적으로 반영되지만, 합의만큼 양형 범위를 움직이는 힘은 없습니다. 실무적으로 <strong>합의 대비 50~70%</strong> 정도의 감경 효과로 봅니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감경 효과: 합의(100%) > 공탁(50~70%) > 부분 변제(30~40%)</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">공탁과 합의 중 내 상황에 유리한 쪽을 확인하세요</strong><br/>\n<a href="/diagnosis/fraud" style="color:#1565c0;font-weight:600">AI로 최적의 감형 전략 분석받기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 비용 구조가 다릅니다',
@@ -315,7 +315,7 @@ export const spokesBatch17GscFraud: SpokePage[] = [
         summary:
           '대법원 2024도18441(대법원, 2025.03.27) 사건에서 법원은 카드론 대출 과정에서 사람에 대한 기망행위가 수반되지 않으면 사기죄가 성립하지 않는다고 판시했습니다. 이 판결은 사기죄의 성립 요건을 엄격하게 본 사례입니다.',
         takeaway:
-          '공탁이나 합의를 준비하면서도, 혐의 자체를 다툴 수 있는 여지가 있는지 반드시 검토하세요. 기망행위의 고의가 없었다면 무죄 주장이 더 유리할 수 있습니다.',
+          '공탁이나 합의를 준비하면서도, 혐의 자체를 다툴 수 있는 여지가 있는지 가능한 한 검토하세요. 기망행위의 고의가 없었다면 무죄 주장이 더 유리할 수 있습니다.',
       },
     ],
     faq: [
@@ -333,7 +333,7 @@ export const spokesBatch17GscFraud: SpokePage[] = [
       },
       {
         question: '합의서를 쓸 때 꼭 들어가야 하는 내용은 뭔가요?',
-        answer: '합의 금액, 지급 방법, <strong>"향후 일체의 민·형사상 이의를 제기하지 않는다"</strong>는 문구, 처벌불원 의사가 반드시 포함되어야 합니다.',
+        answer: '합의 금액, 지급 방법, <strong>"향후 일체의 민·형사상 이의를 제기하지 않는다"</strong>는 문구, 처벌불원 의사가 가능한 한 포함되어야 합니다.',
       },
       {
         question: '공탁과 합의를 동시에 진행해도 되나요?',

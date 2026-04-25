@@ -71,7 +71,7 @@ export const spokesBatch33Unemployment: SpokePage[] = [
       {
         question: '실업급여 수급 중 소득이 생기면 금액이 줄어드나요?',
         answer:
-          '<strong>수급 기간 중 근로소득이 발생하면 구직급여가 감액되거나 지급이 중단될 수 있습니다.</strong> 1일 3시간 미만, 월 60시간 미만의 단시간 근로는 일정 금액까지 허용되지만, 이를 초과하면 취업으로 간주되어 해당 기간의 구직급여가 지급되지 않습니다. 반드시 고용센터에 신고해야 합니다.',
+          '<strong>수급 기간 중 근로소득이 발생하면 구직급여가 감액되거나 지급이 중단될 수 있습니다.</strong> 1일 3시간 미만, 월 60시간 미만의 단시간 근로는 일정 금액까지 허용되지만, 이를 초과하면 취업으로 간주되어 해당 기간의 구직급여가 지급되지 않습니다. 가능한 한 고용센터에 신고해야 합니다.',
       },
       {
         question: '이직확인서에 기재된 임금이 실제보다 적으면 어떻게 하나요?',
@@ -126,17 +126,17 @@ export const spokesBatch33Unemployment: SpokePage[] = [
       {
         title: '근로조건 관련 예외 사유 4가지',
         content:
-          '<p><strong style="color:#1e3a5f">근로조건이 채용 시와 달라졌거나 현저히 낮아진 경우, 자진 퇴사해도 정당한 이직으로 인정됩니다.</strong></p>\n<ol>\n<li><strong>임금 체불·삭감</strong> — 이직일 전 1년 이내 2개월 이상 임금의 일부가 체불되었거나, 임금이 당초 근로조건보다 현저히 낮아진 경우</li>\n<li><strong>근로조건 일방 변경</strong> — 소정근로시간, 근무장소, 업무 내용 등이 채용 시 제시된 조건과 크게 달라진 경우</li>\n<li><strong>최저임금 미달</strong> — 사용자가 최저임금법상 최저임금에 미달하는 임금을 지급한 경우</li>\n<li><strong>연장근로 강제</strong> — 근로기준법에서 정한 연장근로 제한을 위반하여 장시간 근로를 강요받은 경우</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "2개월 이상"은 연속이 아닌 누적 기준이며, 임금의 일부라도 지급이 지연되면 체불에 해당합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로조건이 채용 시와 달라졌거나 현저히 낮아진 경우, 자진 퇴사해도 정당한 이직으로 인정될 수 있습니다.</strong></p>\n<ol>\n<li><strong>임금 체불·삭감</strong> — 이직일 전 1년 이내 2개월 이상 임금의 일부가 체불되었거나, 임금이 당초 근로조건보다 현저히 낮아진 경우</li>\n<li><strong>근로조건 일방 변경</strong> — 소정근로시간, 근무장소, 업무 내용 등이 채용 시 제시된 조건과 크게 달라진 경우</li>\n<li><strong>최저임금 미달</strong> — 사용자가 최저임금법상 최저임금에 미달하는 임금을 지급한 경우</li>\n<li><strong>연장근로 강제</strong> — 근로기준법에서 정한 연장근로 제한을 위반하여 장시간 근로를 강요받은 경우</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "2개월 이상"은 연속이 아닌 누적 기준이며, 임금의 일부라도 지급이 지연되면 체불에 해당할 소지가 있습니다</blockquote>',
       },
       {
         title: '사업장 환경·사용자 귀책 관련 예외 사유 4가지',
         content:
-          '<p><strong style="color:#1e3a5f">사업장의 불법·부당한 환경이나 사용자의 위법행위로 퇴사한 경우에도 수급자격이 인정됩니다.</strong></p>\n<ol>\n<li><strong>직장 내 괴롭힘·성희롱</strong> — 사용자 또는 동료로부터 성적 괴롭힘, 직장 내 괴롭힘을 당하고 사용자가 적절한 조치를 취하지 않은 경우</li>\n<li><strong>사업장 이전</strong> — 사업장이 이전하여 통근이 현저히 곤란해진 경우 (통상 왕복 3시간 이상)</li>\n<li><strong>사업주의 불법행위 강요</strong> — 사업주가 법령 위반을 지시하거나 부당한 행위를 강요한 경우</li>\n<li><strong>경영 악화로 인한 폐업·휴업</strong> — 사업장 폐업이 확실하거나 대량 감원이 예정되어 자진 퇴사한 경우</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 내 퇴사 사유가 예외에 해당하는지 AI가 판단해드립니다</strong></p>\n<p style="margin:0;font-size:0.95em">퇴사 경위를 입력하면 비자발적 이직 인정 가능성과 준비할 증빙을 안내받을 수 있습니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사업장의 불법·부당한 환경이나 사용자의 위법행위로 퇴사한 경우에도 수급자격이 인정될 수 있습니다.</strong></p>\n<ol>\n<li><strong>직장 내 괴롭힘·성희롱</strong> — 사용자 또는 동료로부터 성적 괴롭힘, 직장 내 괴롭힘을 당하고 사용자가 적절한 조치를 취하지 않은 경우</li>\n<li><strong>사업장 이전</strong> — 사업장이 이전하여 통근이 현저히 곤란해진 경우 (통상 왕복 3시간 이상)</li>\n<li><strong>사업주의 불법행위 강요</strong> — 사업주가 법령 위반을 지시하거나 부당한 행위를 강요한 경우</li>\n<li><strong>경영 악화로 인한 폐업·휴업</strong> — 사업장 폐업이 확실하거나 대량 감원이 예정되어 자진 퇴사한 경우</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 내 퇴사 사유가 예외에 해당하는지 AI가 판단해드립니다</strong></p>\n<p style="margin:0;font-size:0.95em">퇴사 경위를 입력하면 비자발적 이직 인정 가능성과 준비할 증빙을 안내받을 수 있습니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '개인 사정 관련 예외 사유 4가지',
         content:
-          '<p><strong style="color:#1e3a5f">건강, 가족 돌봄, 통근 곤란 등 개인적 사정이라도 불가피한 경우 정당한 이직으로 인정됩니다.</strong></p>\n<ol>\n<li><strong>본인 건강 악화</strong> — 업무와 관련 없는 질병·부상으로 업무 수행이 곤란하고, 사업주가 적절한 배치전환을 하지 않은 경우</li>\n<li><strong>가족 간호·간병</strong> — 배우자, 부모, 자녀 등 부양가족의 질병·부상으로 간호가 필요하여 계속 근무가 곤란한 경우</li>\n<li><strong>임신·출산·육아</strong> — 임신, 출산, 만 8세 이하 자녀 양육을 위해 퇴사한 경우. 다만 육아휴직 신청이 가능했으나 하지 않은 경우는 제외될 수 있습니다</li>\n<li><strong>병역의무 이행</strong> — 군입대, 소집 등 병역의무 이행을 위해 퇴사한 경우. 전역 후 고용보험 가입 이력이 합산됩니다</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인 포인트: 건강 사유는 의사 진단서(업무 수행이 곤란하다는 소견 포함)가 필수 증빙이며, 가족 돌봄은 가족관계증명서와 진단서를 함께 제출해야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">건강, 가족 돌봄, 통근 곤란 등 개인적 사정이라도 불가피한 경우 정당한 이직으로 인정될 수 있습니다.</strong></p>\n<ol>\n<li><strong>본인 건강 악화</strong> — 업무와 관련 없는 질병·부상으로 업무 수행이 곤란하고, 사업주가 적절한 배치전환을 하지 않은 경우</li>\n<li><strong>가족 간호·간병</strong> — 배우자, 부모, 자녀 등 부양가족의 질병·부상으로 간호가 필요하여 계속 근무가 곤란한 경우</li>\n<li><strong>임신·출산·육아</strong> — 임신, 출산, 만 8세 이하 자녀 양육을 위해 퇴사한 경우. 다만 육아휴직 신청이 가능했으나 하지 않은 경우는 제외될 수 있습니다</li>\n<li><strong>병역의무 이행</strong> — 군입대, 소집 등 병역의무 이행을 위해 퇴사한 경우. 전역 후 고용보험 가입 이력이 합산됩니다</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인 포인트: 건강 사유는 의사 진단서(업무 수행이 곤란하다는 소견 포함)가 필수 증빙이며, 가족 돌봄은 가족관계증명서와 진단서를 함께 제출해야 합니다</blockquote>',
       },
       {
         title: '예외 사유 입증 방법과 신청 절차',
@@ -167,17 +167,17 @@ export const spokesBatch33Unemployment: SpokePage[] = [
       {
         question: '권고사직을 받았는데도 사직서를 쓰면 자발적 퇴사가 되나요?',
         answer:
-          '<strong>권고사직은 사용자의 권유에 의한 이직이므로 비자발적 퇴사에 해당합니다.</strong> 다만 사직서에 "개인 사유"로 기재되면 분쟁이 생길 수 있으므로, "회사 권유에 의한 사직"임을 명시하거나 권고사직 확인서를 별도로 받아두는 것이 좋습니다.',
+          '<strong>권고사직은 사용자의 권유에 의한 이직이므로 비자발적 퇴사에 해당할 소지가 있습니다.</strong> 다만 사직서에 "개인 사유"로 기재되면 분쟁이 생길 수 있으므로, "회사 권유에 의한 사직"임을 명시하거나 권고사직 확인서를 별도로 받아두는 것이 좋습니다.',
       },
       {
         question: '통근시간이 길어져서 퇴사한 경우 얼마나 길어야 인정되나요?',
         answer:
-          '<strong>사업장 이전 등으로 통상 왕복 3시간 이상의 통근이 필요해진 경우 정당한 이직으로 인정됩니다.</strong> 대중교통 경로 검색 결과, 교통카드 이용 내역 등으로 통근시간을 증빙해야 합니다. 본인이 이사한 경우는 해당되지 않으며, 사업장이 이전한 경우에 한합니다.',
+          '<strong>사업장 이전 등으로 통상 왕복 3시간 이상의 통근이 필요해진 경우 정당한 이직으로 인정될 수 있습니다.</strong> 대중교통 경로 검색 결과, 교통카드 이용 내역 등으로 통근시간을 증빙해야 합니다. 본인이 이사한 경우는 해당되지 않으며, 사업장이 이전한 경우에 한합니다.',
       },
       {
         question: '직장 내 괴롭힘으로 퇴사했는데 증빙이 없으면 어떻게 하나요?',
         answer:
-          '<strong>녹취, 문자, 이메일, 동료 진술서, 사내 신고 기록 등 가능한 증빙을 최대한 확보해야 합니다.</strong> 고용노동부에 직장 내 괴롭힘 신고를 한 기록이 있으면 유력한 증빙이 됩니다. 퇴사 전에 반드시 증거를 확보해두고, 고용센터 면담 시 구체적인 경위를 소명하세요.',
+          '<strong>녹취, 문자, 이메일, 동료 진술서, 사내 신고 기록 등 가능한 증빙을 최대한 확보해야 합니다.</strong> 고용노동부에 직장 내 괴롭힘 신고를 한 기록이 있으면 유력한 증빙이 됩니다. 퇴사 전에 가능한 한 증거를 확보해두고, 고용센터 면담 시 구체적인 경위를 소명하세요.',
       },
       {
         question: '수습기간 중 퇴사해도 실업급여 예외 사유가 적용되나요?',

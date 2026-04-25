@@ -38,7 +38,7 @@ export const spokesBatch21_15to21: SpokePage[] = [
       {
         title: '체크 3: 중간정산·퇴직연금 전환 이력을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">중간정산을 받았다면 해당 기간은 퇴직금 산정에서 제외됩니다</strong></p>\n<p>근로자퇴직급여보장법 제8조 제2항에 따라 <strong>주택 구입, 전세금 마련, 6개월 이상 요양</strong> 등의 사유로 중간정산이 가능합니다. 중간정산 후에는 그 시점부터 새롭게 근속연수가 계산되므로, 과거 중간정산 이력과 금액을 반드시 확인하세요.</p>\n<p>퇴직연금(DC형)에 가입된 경우 회사가 매년 불입한 금액이 퇴직금에 해당하므로, <strong>퇴직연금 운용 계좌의 적립금</strong>을 별도로 확인해야 합니다. DB형은 퇴사 시 회사가 일괄 정산합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">중간정산 이후 기간만 퇴직금 산정 / DC형은 적립금 별도 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">중간정산을 받았다면 해당 기간은 퇴직금 산정에서 제외됩니다</strong></p>\n<p>근로자퇴직급여보장법 제8조 제2항에 따라 <strong>주택 구입, 전세금 마련, 6개월 이상 요양</strong> 등의 사유로 중간정산이 가능합니다. 중간정산 후에는 그 시점부터 새롭게 근속연수가 계산되므로, 과거 중간정산 이력과 금액을 가능한 한 확인하세요.</p>\n<p>퇴직연금(DC형)에 가입된 경우 회사가 매년 불입한 금액이 퇴직금에 해당하므로, <strong>퇴직연금 운용 계좌의 적립금</strong>을 별도로 확인해야 합니다. DB형은 퇴사 시 회사가 일괄 정산합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">중간정산 이후 기간만 퇴직금 산정 / DC형은 적립금 별도 확인</blockquote>',
       },
       {
         title: '체크 4: 퇴직금 지급 기한과 지연이자를 확인하세요',
@@ -194,7 +194,7 @@ export const spokesBatch21_15to21: SpokePage[] = [
       {
         title: '지역별 환산보증금 기준금액 (2024년 기준)',
         content:
-          '<p><strong style="color:#1e3a5f">환산보증금이 아래 기준 이하이면 상가임대차보호법이 전면 적용됩니다</strong></p>\n<table style="width:100%;border-collapse:collapse;margin:12px 0">\n<thead><tr style="background:#f0f4f8"><th style="padding:10px;border:1px solid #ddd;text-align:left">지역</th><th style="padding:10px;border:1px solid #ddd;text-align:right">기준금액</th></tr></thead>\n<tbody>\n<tr><td style="padding:10px;border:1px solid #ddd">서울특별시</td><td style="padding:10px;border:1px solid #ddd;text-align:right"><strong>9억원</strong></td></tr>\n<tr><td style="padding:10px;border:1px solid #ddd">수도권 과밀억제권역</td><td style="padding:10px;border:1px solid #ddd;text-align:right"><strong>6억 9천만원</strong></td></tr>\n<tr><td style="padding:10px;border:1px solid #ddd">광역시(군 지역 제외)</td><td style="padding:10px;border:1px solid #ddd;text-align:right"><strong>5억 4천만원</strong></td></tr>\n<tr><td style="padding:10px;border:1px solid #ddd">그 외 지역</td><td style="padding:10px;border:1px solid #ddd;text-align:right"><strong>3억 7천만원</strong></td></tr>\n</tbody></table>\n<p>위 기준금액은 <strong>시행령 개정</strong>에 따라 변경될 수 있습니다. 계약 체결 시점의 기준을 적용하므로 최신 기준을 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">서울 9억 / 수도권 6.9억 / 광역시 5.4억 / 그 외 3.7억</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">내 상가 환산보증금 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">환산보증금이 아래 기준 이하이면 상가임대차보호법이 전면 적용됩니다</strong></p>\n<table style="width:100%;border-collapse:collapse;margin:12px 0">\n<thead><tr style="background:#f0f4f8"><th style="padding:10px;border:1px solid #ddd;text-align:left">지역</th><th style="padding:10px;border:1px solid #ddd;text-align:right">기준금액</th></tr></thead>\n<tbody>\n<tr><td style="padding:10px;border:1px solid #ddd">서울특별시</td><td style="padding:10px;border:1px solid #ddd;text-align:right"><strong>9억원</strong></td></tr>\n<tr><td style="padding:10px;border:1px solid #ddd">수도권 과밀억제권역</td><td style="padding:10px;border:1px solid #ddd;text-align:right"><strong>6억 9천만원</strong></td></tr>\n<tr><td style="padding:10px;border:1px solid #ddd">광역시(군 지역 제외)</td><td style="padding:10px;border:1px solid #ddd;text-align:right"><strong>5억 4천만원</strong></td></tr>\n<tr><td style="padding:10px;border:1px solid #ddd">그 외 지역</td><td style="padding:10px;border:1px solid #ddd;text-align:right"><strong>3억 7천만원</strong></td></tr>\n</tbody></table>\n<p>위 기준금액은 <strong>시행령 개정</strong>에 따라 변경될 수 있습니다. 계약 체결 시점의 기준을 적용하므로 최신 기준을 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">서울 9억 / 수도권 6.9억 / 광역시 5.4억 / 그 외 3.7억</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">내 상가 환산보증금 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '환산보증금 초과 시에도 적용되는 보호 규정',
@@ -213,7 +213,7 @@ export const spokesBatch21_15to21: SpokePage[] = [
         summary:
           '대법원 2020다263635 사건(2021.05.27 선고)에서 법원은 임차인이 임대차기간 중 3기 차임액에 이르도록 차임을 연체한 사실이 있으면, 갱신 요구 당시 연체액이 3기에 미달하더라도 임대인이 갱신을 거절할 수 있고, 이에 따라 권리금 회수기회 보호의무도 부담하지 않는다고 판시했습니다.',
         takeaway:
-          '환산보증금과 무관하게 차임 연체가 누적되면 갱신요구권과 권리금 보호 모두 잃을 수 있습니다. 차임은 반드시 정기적으로 납부하세요.',
+          '환산보증금과 무관하게 차임 연체가 누적되면 갱신요구권과 권리금 보호 모두 잃을 수 있습니다. 차임은 가능한 한 정기적으로 납부하세요.',
       },
     ],
     faq: [

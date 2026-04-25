@@ -31,12 +31,12 @@ export const spokesBatch21_8to14: SpokePage[] = [
       {
         title: '해고예고수당이란? — 30일분 통상임금의 의미',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제26조에 따라 사용자가 근로자를 해고하려면 적어도 30일 전에 예고해야 하고, 예고하지 않으면 30일분 이상의 통상임금을 지급해야 합니다</strong></p>\n<p>해고예고수당의 핵심 요소 3가지:</p>\n<ul>\n<li><strong>통상임금 기준</strong> — 기본급 + 고정수당(직무수당, 직책수당 등) + 고정상여금이 포함됩니다. 연장근로수당이나 실적급은 포함되지 않습니다</li>\n<li><strong>30일분 산정</strong> — 일급 통상임금 × 30일로 계산합니다. 월급제 근로자는 월 통상임금 자체가 30일분에 해당합니다</li>\n<li><strong>지급 시점</strong> — 해고와 동시에 즉시 지급해야 합니다. 퇴직 후 14일 이내가 아니라 해고 시점입니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">공식: 해고예고수당 = 1일 통상임금 × 30일</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제26조에 따라 사용자가 근로자를 해고하려면 적어도 30일 전에 예고해야 하고, 예고하지 않으면 30일분 이상의 통상임금을 지급해야 합니다</strong></p>\n<p>해고예고수당의 핵심 요소 3가지:</p>\n<ul>\n<li><strong>통상임금 기준</strong> — 기본급 + 고정수당(직무수당, 직책수당 등) + 고정상여금이 포함됩니다. 연장근로수당이나 실적급은 포함되지 않습니다</li>\n<li><strong>30일분 산정</strong> — 일급 통상임금 × 30일로 계산합니다. 월급제 근로자는 월 통상임금 자체가 30일분에 해당할 소지가 있습니다</li>\n<li><strong>지급 시점</strong> — 해고와 동시에 즉시 지급해야 합니다. 퇴직 후 14일 이내가 아니라 해고 시점입니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">공식: 해고예고수당 = 1일 통상임금 × 30일</blockquote>',
       },
       {
         title: '해고예고수당 계산 실전 예시',
         content:
-          '<p><strong style="color:#1e3a5f">월 기본급 250만 원, 직무수당 30만 원인 근로자가 예고 없이 해고된 경우 해고예고수당은 약 280만 원입니다</strong></p>\n<p>단계별 계산 방법:</p>\n<ul>\n<li><strong>1단계: 통상임금 확인</strong> — 기본급 250만 원 + 직무수당 30만 원 = 월 통상임금 280만 원</li>\n<li><strong>2단계: 1일 통상임금</strong> — 280만 원 ÷ (월 소정근로시간 209시간 ÷ 8시간) = 약 107,177원</li>\n<li><strong>3단계: 30일분 산정</strong> — 107,177원 × 30일 = 약 3,215,310원</li>\n</ul>\n<p>월급제로 고정급만 받는 경우에는 <strong>월 통상임금 전액이 해고예고수당</strong>에 해당하므로 계산이 단순합니다. 다만 시급제·일급제 근로자는 반드시 소정근로시간을 기준으로 환산해야 합니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/dismissal" style="color:#1565c0;font-weight:600">해고예고수당 청구 가능성 무료 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">월 기본급 250만 원, 직무수당 30만 원인 근로자가 예고 없이 해고된 경우 해고예고수당은 약 280만 원입니다</strong></p>\n<p>단계별 계산 방법:</p>\n<ul>\n<li><strong>1단계: 통상임금 확인</strong> — 기본급 250만 원 + 직무수당 30만 원 = 월 통상임금 280만 원</li>\n<li><strong>2단계: 1일 통상임금</strong> — 280만 원 ÷ (월 소정근로시간 209시간 ÷ 8시간) = 약 107,177원</li>\n<li><strong>3단계: 30일분 산정</strong> — 107,177원 × 30일 = 약 3,215,310원</li>\n</ul>\n<p>월급제로 고정급만 받는 경우에는 <strong>월 통상임금 전액이 해고예고수당</strong>에 해당하므로 계산이 단순합니다. 다만 시급제·일급제 근로자는 가능한 한 소정근로시간을 기준으로 환산해야 합니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/dismissal" style="color:#1565c0;font-weight:600">해고예고수당 청구 가능성 무료 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '해고예고수당 청구 기한과 방법',
@@ -46,7 +46,7 @@ export const spokesBatch21_8to14: SpokePage[] = [
       {
         title: '해고예고 예외 — 수당을 받을 수 없는 4가지 경우',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제26조 단서에 따라 일정한 경우에는 해고예고 의무가 면제됩니다</strong></p>\n<ul>\n<li><strong>일용근로자로서 3개월 미만 근무</strong> — 3개월 이상 계속 근무한 일용직은 예고 대상입니다</li>\n<li><strong>2개월 이내 기간제 근로자</strong> — 계약기간이 2개월 이내인 경우 예외입니다</li>\n<li><strong>월급이 고용노동부 고시금액 미만</strong> — 매월 정해진 금액에 미달하는 경우입니다</li>\n<li><strong>천재사변 또는 근로자 귀책사유</strong> — 사업 계속이 불가능하거나 근로자에게 중대한 귀책사유가 있는 경우입니다. 단, 근로자 귀책사유는 노동위원회 인정을 받아야 합니다</li>\n</ul>\n<p>수습기간 중이더라도 <strong>3개월을 초과하여 근무한 경우에는 해고예고 의무가 적용</strong>됩니다. 회사가 "수습이라 예고수당 안 줘도 된다"고 주장하면 반드시 확인하세요.</p>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제26조 단서에 따라 일정한 경우에는 해고예고 의무가 면제됩니다</strong></p>\n<ul>\n<li><strong>일용근로자로서 3개월 미만 근무</strong> — 3개월 이상 계속 근무한 일용직은 예고 대상입니다</li>\n<li><strong>2개월 이내 기간제 근로자</strong> — 계약기간이 2개월 이내인 경우 예외입니다</li>\n<li><strong>월급이 고용노동부 고시금액 미만</strong> — 매월 정해진 금액에 미달하는 경우입니다</li>\n<li><strong>천재사변 또는 근로자 귀책사유</strong> — 사업 계속이 불가능하거나 근로자에게 중대한 귀책사유가 있는 경우입니다. 단, 근로자 귀책사유는 노동위원회 인정을 받아야 합니다</li>\n</ul>\n<p>수습기간 중이더라도 <strong>3개월을 초과하여 근무한 경우에는 해고예고 의무가 적용</strong>됩니다. 회사가 "수습이라 예고수당 안 줘도 된다"고 주장하면 가능한 한 확인하세요.</p>',
       },
     ],
     cases: [
@@ -124,7 +124,7 @@ export const spokesBatch21_8to14: SpokePage[] = [
       {
         title: '해고 무효가 인정되면 받을 수 있는 것',
         content:
-          '<p><strong style="color:#1e3a5f">해고가 무효로 확인되면 원직 복직과 해고 기간 동안의 임금 전액을 받을 수 있습니다</strong></p>\n<ul>\n<li><strong>원직 복직</strong> — 노동위원회 구제명령 또는 법원 판결로 종전 직위·직급으로 복귀합니다</li>\n<li><strong>임금 상당액 지급</strong> — 해고된 날부터 복직일까지의 임금 전액을 받습니다. 구제절차가 수년간 진행되면 수천만 원에 달할 수 있습니다</li>\n<li><strong>금전보상명령</strong> — 복직을 원하지 않으면 근로기준법 제30조 제3항에 따라 금전보상을 받을 수도 있습니다</li>\n</ul>\n<p><strong>구제신청 기한은 해고일로부터 3개월 이내</strong>이므로 반드시 기한 내에 신청하세요. 3개월이 지나면 민사소송만 가능하고 절차가 길어집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">해고 무효 효과: 복직 + 밀린 임금 전액 + 금전보상 선택 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">해고가 무효로 확인되면 원직 복직과 해고 기간 동안의 임금 전액을 받을 수 있습니다</strong></p>\n<ul>\n<li><strong>원직 복직</strong> — 노동위원회 구제명령 또는 법원 판결로 종전 직위·직급으로 복귀합니다</li>\n<li><strong>임금 상당액 지급</strong> — 해고된 날부터 복직일까지의 임금 전액을 받습니다. 구제절차가 수년간 진행되면 수천만 원에 달할 수 있습니다</li>\n<li><strong>금전보상명령</strong> — 복직을 원하지 않으면 근로기준법 제30조 제3항에 따라 금전보상을 받을 수도 있습니다</li>\n</ul>\n<p><strong>구제신청 기한은 해고일로부터 3개월 이내</strong>이므로 가능한 한 기한 내에 신청하세요. 3개월이 지나면 민사소송만 가능하고 절차가 길어집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">해고 무효 효과: 복직 + 밀린 임금 전액 + 금전보상 선택 가능</blockquote>',
       },
       {
         title: '부당해고 구제신청 vs 민사소송 — 어떤 것이 유리한가',
@@ -144,7 +144,7 @@ export const spokesBatch21_8to14: SpokePage[] = [
     faq: [
       {
         question: '구두로 "내일부터 나오지 마"라고 한 것도 해고인가요?',
-        answer: '구두 통보도 해고에 해당합니다. 다만 <strong>서면 통지가 없는 해고는 그 자체로 무효</strong>입니다. 근로기준법 제27조는 해고 사유와 시기를 반드시 서면으로 통지하도록 규정하고 있습니다.',
+        answer: '구두 통보도 해고에 해당할 소지가 있습니다. 다만 <strong>서면 통지가 없는 해고는 그 자체로 무효</strong>입니다. 근로기준법 제27조는 해고 사유와 시기를 반드시 서면으로 통지하도록 규정하고 있습니다.',
       },
       {
         question: '수습 기간 중 해고도 부당해고로 다툴 수 있나요?',

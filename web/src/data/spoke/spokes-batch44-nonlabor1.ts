@@ -339,7 +339,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
           '<strong>가능하지만 일부 변제는 강한 무혐의 증거입니다.</strong> 횟수·비율 증빙 필수.',
       },
       {
-        question: '차용증 없으면 무조건 불리한가요?',
+        question: '차용증 없으면 원칙적으로 불리한가요?',
         answer:
           '<strong>카톡·문자만으로도 차용 입증 가능, 차용 목적·기일 기록이 관건.</strong>',
       },
@@ -387,7 +387,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
       {
         title: '감형 판단 기준 — 법원 양형 5요소',
         content:
-          '<p><strong style="color:#1e3a5f">법원 양형위원회 사기범죄 기준표 기준, 합의·변제 여부가 감경 요인입니다.</strong></p>\n<ul>\n<li><strong>피해 회복 정도</strong> — 전액 변제 시 강한 감경, 50% 이상 일부 변제도 참작.</li>\n<li><strong>처벌불원 여부</strong> — 피해자 합의·고소 취하 시 감경, 필수는 아님.</li>\n<li><strong>진지한 반성</strong> — 반성문·자수·자진 변제 시 가중 감경.</li>\n<li><strong>초범·전과</strong> — 동종 전과 없으면 감경, 집행유예 요건 충족.</li>\n<li><strong>피해 규모</strong> — 1억 원 미만 일반 사기, 5억 원 이상 특경법 가중.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사기죄 감형 1순위는 "피해 회복", 일부 변제라도 반드시 기록 남기기.</blockquote>',
+          '<p><strong style="color:#1e3a5f">법원 양형위원회 사기범죄 기준표 기준, 합의·변제 여부가 감경 요인입니다.</strong></p>\n<ul>\n<li><strong>피해 회복 정도</strong> — 전액 변제 시 강한 감경, 50% 이상 일부 변제도 참작.</li>\n<li><strong>처벌불원 여부</strong> — 피해자 합의·고소 취하 시 감경, 필수는 아님.</li>\n<li><strong>진지한 반성</strong> — 반성문·자수·자진 변제 시 가중 감경.</li>\n<li><strong>초범·전과</strong> — 동종 전과 없으면 감경, 집행유예 요건 충족.</li>\n<li><strong>피해 규모</strong> — 1억 원 미만 일반 사기, 5억 원 이상 특경법 가중.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사기죄 감형 1순위는 "피해 회복", 일부 변제라도 가능한 한 기록 남기기.</blockquote>',
       },
       {
         title: '일부 변제 전략 — 분할 납입 구조화',
@@ -426,7 +426,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
           '<strong>형사공탁으로 양형 감경 주장 가능합니다.</strong> 1심 변론종결 전 공탁.',
       },
       {
-        question: '공탁하면 무조건 집행유예 받나요?',
+        question: '공탁하면 원칙적으로 집행유예 받나요?',
         answer:
           '<strong>절대적이지 않습니다.</strong> 초범·반성·가족상황 등 종합 고려 필요.',
       },
@@ -474,7 +474,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
       {
         title: '출퇴근 산재 인정 요건 — 5가지',
         content:
-          '<p><strong style="color:#1e3a5f">산업재해보상보험법 제37조 제1항 제3호, 출퇴근 중 사고도 산재 인정됩니다.</strong></p>\n<ul>\n<li><strong>통상적 경로·방법</strong> — 평소 이용하는 경로·교통수단 이용 중 사고.</li>\n<li><strong>사적 일탈 없음</strong> — 출퇴근 목적 외 장소·시간 이탈은 불인정(병원·은행 등 일상용무 제외).</li>\n<li><strong>근로자 지위 유지</strong> — 재택·원격근무자도 인정, 일용·파트타임 포함.</li>\n<li><strong>사업주 지배관계 불요</strong> — 개인 차량·대중교통·도보 모두 해당.</li>\n<li><strong>공상처리와 구분</strong> — 회사 측 공상은 민사, 산재는 근로복지공단 공적보험.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 출퇴근 산재는 근로자의 권리, 회사 눈치 보지 말고 근로복지공단에 직접 신청.</blockquote>',
+          '<p><strong style="color:#1e3a5f">산업재해보상보험법 제37조 제1항 제3호, 출퇴근 중 사고도 산재 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>통상적 경로·방법</strong> — 평소 이용하는 경로·교통수단 이용 중 사고.</li>\n<li><strong>사적 일탈 없음</strong> — 출퇴근 목적 외 장소·시간 이탈은 불인정(병원·은행 등 일상용무 제외).</li>\n<li><strong>근로자 지위 유지</strong> — 재택·원격근무자도 인정, 일용·파트타임 포함.</li>\n<li><strong>사업주 지배관계 불요</strong> — 개인 차량·대중교통·도보 모두 해당.</li>\n<li><strong>공상처리와 구분</strong> — 회사 측 공상은 민사, 산재는 근로복지공단 공적보험.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 출퇴근 산재는 근로자의 권리, 회사 눈치 보지 말고 근로복지공단에 직접 신청.</blockquote>',
       },
       {
         title: '동시청구 절차 — 산재 + 자동차보험 5단계',
@@ -515,7 +515,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
       {
         question: '퇴근 후 친구 만나러 다른 길로 간 경우도 산재인가요?',
         answer:
-          '<strong>사적 일탈로 불인정됩니다.</strong> 통상 경로 이탈 시점부터 제외.',
+          '<strong>사적 일탈로 불인정될 수 있습니다.</strong> 통상 경로 이탈 시점부터 제외.',
       },
       {
         question: '재택근무자도 출퇴근 산재 가능한가요?',
@@ -571,7 +571,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
       {
         title: '형사책임 — 12대 중과실 여부',
         content:
-          '<p><strong style="color:#1e3a5f">카풀 중 중과실 사고는 합의 여부와 무관하게 형사 입건됩니다.</strong></p>\n<ul>\n<li><strong>12대 중과실 해당</strong> — 신호위반·중앙선침범·과속 20km/h 등, 합의 불문 형사.</li>\n<li><strong>어린이 안전띠·카시트 미착용</strong> — 도로교통법 제50조, 과태료 6만 원 + 과실 가중.</li>\n<li><strong>음주·무면허</strong> — 카풀 유무 무관 가중처벌.</li>\n<li><strong>종합보험 가입</strong> — 비중과실·비중상이면 공소권 없음(교특법 제4조).</li>\n<li><strong>피해자 처벌불원서</strong> — 형사 감경 요소, 합의금 별도.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 어린이 카풀은 반드시 카시트·안전띠 착용 확인, 미착용 사고는 과실 크게 증가.</blockquote>',
+          '<p><strong style="color:#1e3a5f">카풀 중 중과실 사고는 합의 여부와 무관하게 형사 입건됩니다.</strong></p>\n<ul>\n<li><strong>12대 중과실 해당</strong> — 신호위반·중앙선침범·과속 20km/h 등, 합의 불문 형사.</li>\n<li><strong>어린이 안전띠·카시트 미착용</strong> — 도로교통법 제50조, 과태료 6만 원 + 과실 가중.</li>\n<li><strong>음주·무면허</strong> — 카풀 유무 무관 가중처벌.</li>\n<li><strong>종합보험 가입</strong> — 비중과실·비중상이면 공소권 없음(교특법 제4조).</li>\n<li><strong>피해자 처벌불원서</strong> — 형사 감경 요소, 합의금 별도.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 어린이 카풀은 가능한 한 카시트·안전띠 착용 확인, 미착용 사고는 과실 크게 증가.</blockquote>',
       },
       {
         title: '부모 사이 합의 — 카풀 사고 후 처리',
@@ -909,7 +909,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
       {
         title: '한국 법원 관할 — 4가지 인정 기준',
         content:
-          '<p><strong style="color:#1e3a5f">국제사법 제2조 실질적 관련성 + 자녀 상거소 기준으로 한국 관할이 인정됩니다.</strong></p>\n<ul>\n<li><strong>자녀 한국 거주</strong> — 자녀 상거소가 한국이면 한국 가정법원 관할.</li>\n<li><strong>원고 상거소 한국</strong> — 한국에서 1년 이상 거주 + 생활 기반.</li>\n<li><strong>피고 한국 거주</strong> — 외국인이어도 한국 체류 중이면 인정.</li>\n<li><strong>혼인신고 한국</strong> — 한국 가족관계등록부 기재 사실.</li>\n<li><strong>응소 사정</strong> — 외국인 피고가 한국 법원 응소 시 관할 강화.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 자녀가 한국 거주 중이면 한국 법원이 양육권 결정 관할 가장 확실.</blockquote>',
+          '<p><strong style="color:#1e3a5f">국제사법 제2조 실질적 관련성 + 자녀 상거소 기준으로 한국 관할이 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>자녀 한국 거주</strong> — 자녀 상거소가 한국이면 한국 가정법원 관할.</li>\n<li><strong>원고 상거소 한국</strong> — 한국에서 1년 이상 거주 + 생활 기반.</li>\n<li><strong>피고 한국 거주</strong> — 외국인이어도 한국 체류 중이면 인정.</li>\n<li><strong>혼인신고 한국</strong> — 한국 가족관계등록부 기재 사실.</li>\n<li><strong>응소 사정</strong> — 외국인 피고가 한국 법원 응소 시 관할 강화.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 자녀가 한국 거주 중이면 한국 법원이 양육권 결정 관할 가장 확실.</blockquote>',
       },
       {
         title: '양육권 결정 기준 — 자녀 복리 우선',
@@ -940,7 +940,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
       {
         question: '외국인 남편이 본국에 있는데 양육권 소송 가능한가요?',
         answer:
-          '<strong>자녀·원고가 한국 거주면 한국 법원 관할 인정됩니다.</strong>',
+          '<strong>자녀·원고가 한국 거주면 한국 법원 관할 인정될 수 있습니다.</strong>',
       },
       {
         question: '양육권 결정 시 국적 차이가 불리하게 작용하나요?',
@@ -1132,7 +1132,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
           '<strong>부부 공동재산으로 전환, 분할 대상에 포함됩니다.</strong>',
       },
       {
-        question: '상속재산 증식분은 무조건 분할인가요?',
+        question: '상속재산 증식분은 원칙적으로 분할인가요?',
         answer:
           '<strong>단순 시세 상승은 특유재산 유지, 재투자 증식만 분할 가능.</strong>',
       },
@@ -1206,7 +1206,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
       {
         question: '합의서 없이 구두 약속만 해도 되나요?',
         answer:
-          '<strong>가능하지만 분쟁 시 입증 어려움, 반드시 서면 작성 권장.</strong>',
+          '<strong>가능하지만 분쟁 시 입증 어려움, 가능한 한 서면 작성 권장.</strong>',
       },
       {
         question: '공증까지 해야 하나요?',

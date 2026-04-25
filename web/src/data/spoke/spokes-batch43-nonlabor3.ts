@@ -30,12 +30,12 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
       {
         title: '전환율 — 주임법 제7조의2 상한 확인',
         content:
-          '<p><strong style="color:#1e3a5f">주택임대차보호법 제7조의2는 전세→월세 전환율의 법정 상한을 규정합니다.</strong></p>\n<ul>\n<li><strong>① 상한 공식</strong> — (한국은행 기준금리 + 대통령령 비율) 또는 연 10% 중 낮은 금액.</li>\n<li><strong>② 현재 기준</strong> — 2026년 기준 기준금리 약 3.0% + 2%p = 연 5.0% 수준이 상한.</li>\n<li><strong>③ 예시 계산</strong> — 보증금 1억 원 전환 시 월 41.6만 원(1억×5%÷12) 이상은 무효.</li>\n<li><strong>④ 초과 지급분</strong> — 임차인은 임대인에게 부당이득반환청구 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 임대인이 "시세"를 근거로 상한을 넘기려 해도 법정 전환율이 우선합니다. 월세 계산서에 반드시 상한 확인.</blockquote>',
+          '<p><strong style="color:#1e3a5f">주택임대차보호법 제7조의2는 전세→월세 전환율의 법정 상한을 규정합니다.</strong></p>\n<ul>\n<li><strong>① 상한 공식</strong> — (한국은행 기준금리 + 대통령령 비율) 또는 연 10% 중 낮은 금액.</li>\n<li><strong>② 현재 기준</strong> — 2026년 기준 기준금리 약 3.0% + 2%p = 연 5.0% 수준이 상한.</li>\n<li><strong>③ 예시 계산</strong> — 보증금 1억 원 전환 시 월 41.6만 원(1억×5%÷12) 이상은 무효.</li>\n<li><strong>④ 초과 지급분</strong> — 임차인은 임대인에게 부당이득반환청구 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 임대인이 "시세"를 근거로 상한을 넘기려 해도 법정 전환율이 우선합니다. 월세 계산서에 가능한 한 상한 확인.</blockquote>',
       },
       {
         title: '반환 시점과 방법 — 언제·어떻게 받나',
         content:
-          '<p><strong style="color:#1e3a5f">전환 차액은 전환 합의일 또는 잔금 처리 시점에 즉시 반환받는 것이 원칙입니다.</strong></p>\n<ul>\n<li><strong>합의서 필수 기재</strong> — 전환 대상 금액·월세 환산액·반환 기일·지연 시 이자율.</li>\n<li><strong>계좌이체 원칙</strong> — 현금 수령 금지, 반드시 임차인 명의 계좌로 입금.</li>\n<li><strong>지연 시 이자</strong> — 상법상 연 6% 또는 약정 이자, 소송 시 연 12%(소송촉진법) 적용.</li>\n<li><strong>세무서 신고</strong> — 월세 전환 후 확정일자 재발급, 월세 세액공제 자격 유지.</li>\n<li><strong>보증금 잔액</strong> — 잔여 보증금도 임대인 대출·근저당 설정 여부 재확인.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 전세 월세 전환율·반환 절차·차액 계산을 정리해드립니다.</p>\n<a href="/chat?domain=jeonse" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">전환 차액은 전환 합의일 또는 잔금 처리 시점에 즉시 반환받는 것이 원칙입니다.</strong></p>\n<ul>\n<li><strong>합의서 필수 기재</strong> — 전환 대상 금액·월세 환산액·반환 기일·지연 시 이자율.</li>\n<li><strong>계좌이체 원칙</strong> — 현금 수령 금지, 가능한 한 임차인 명의 계좌로 입금.</li>\n<li><strong>지연 시 이자</strong> — 상법상 연 6% 또는 약정 이자, 소송 시 연 12%(소송촉진법) 적용.</li>\n<li><strong>세무서 신고</strong> — 월세 전환 후 확정일자 재발급, 월세 세액공제 자격 유지.</li>\n<li><strong>보증금 잔액</strong> — 잔여 보증금도 임대인 대출·근저당 설정 여부 재확인.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 전세 월세 전환율·반환 절차·차액 계산을 정리해드립니다.</p>\n<a href="/chat?domain=jeonse" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '임대인이 반환 미루면 — 단계별 대응',
@@ -54,14 +54,14 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
         summary:
           '대법원 2024다302217 사건(대법원, 2025.03.27 선고)에서 법원은 소멸시효가 완성된 연체차임과 임대차보증금 사이의 상계 내지 공제 여부를 다루며, 시효 완성 주장이 가능한 범위와 당사자 간 공제 합의의 효력 기준을 정리했습니다.',
         takeaway:
-          '월세 전환 후 연체가 쌓여도 3년 시효 경과분은 보증금에서 자동 공제되지 않을 수 있으므로, 반환 청구 시 시효 주장을 반드시 검토해야 합니다.',
+          '월세 전환 후 연체가 쌓여도 3년 시효 경과분은 보증금에서 자동 공제되지 않을 수 있으므로, 반환 청구 시 시효 주장을 가능한 한 검토해야 합니다.',
       },
     ],
     faq: [
       {
         question: '집주인이 "전환하면 월세가 더 싸진다"며 유도하는데 유리한가요?',
         answer:
-          '<strong>세전 기준 월세 환산액이 법정 전환율보다 낮으면 유리할 수 있지만, 대부분은 임대인이 더 이익입니다.</strong> 반드시 연 5% 환산과 비교하세요.',
+          '<strong>세전 기준 월세 환산액이 법정 전환율보다 낮으면 유리할 수 있지만, 대부분은 임대인이 더 이익입니다.</strong> 가능한 한 연 5% 환산과 비교하세요.',
       },
       {
         question: '전환 시 확정일자와 전입신고는 다시 해야 하나요?',
@@ -132,7 +132,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
       {
         title: '실제로 챙길 것 — 매매 소식 듣는 즉시',
         content:
-          '<p><strong style="color:#1e3a5f">매매 사실을 인지한 뒤 14일 이내에 아래 5가지를 반드시 확보하세요.</strong></p>\n<ol>\n<li><strong>1단계 — 등기부등본 열람</strong> — 새 소유자 이름·주소·매매대금 확인(인터넷등기소).</li>\n<li><strong>2단계 — 이전 집주인 연락처 보관</strong> — 승계 거절 분쟁 시 증인 역할.</li>\n<li><strong>3단계 — 새 집주인 서면 통지</strong> — 계약 조건·보증금·잔여 기간 내용증명 발송.</li>\n<li><strong>4단계 — 대항력 증빙</strong> — 주민등록등본·전입신고일·확정일자 스캔 보관.</li>\n<li><strong>5단계 — 보증금 반환 예정일 확인</strong> — 계약 종료 시점 공식 문서로 확인.</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 새 집주인이 근저당·대출을 설정할 수 있으므로, 매매 직후 등기부 재확인이 중요합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">매매 사실을 인지한 뒤 14일 이내에 아래 5가지를 가능한 한 확보하세요.</strong></p>\n<ol>\n<li><strong>1단계 — 등기부등본 열람</strong> — 새 소유자 이름·주소·매매대금 확인(인터넷등기소).</li>\n<li><strong>2단계 — 이전 집주인 연락처 보관</strong> — 승계 거절 분쟁 시 증인 역할.</li>\n<li><strong>3단계 — 새 집주인 서면 통지</strong> — 계약 조건·보증금·잔여 기간 내용증명 발송.</li>\n<li><strong>4단계 — 대항력 증빙</strong> — 주민등록등본·전입신고일·확정일자 스캔 보관.</li>\n<li><strong>5단계 — 보증금 반환 예정일 확인</strong> — 계약 종료 시점 공식 문서로 확인.</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 새 집주인이 근저당·대출을 설정할 수 있으므로, 매매 직후 등기부 재확인이 중요합니다.</blockquote>',
       },
       {
         title: '새 집주인이 보증금 반환 거부하면 — 대응',
@@ -224,7 +224,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
       {
         title: '감액 심판이 제기되면 — 양육자 대응 4단계',
         content:
-          '<p><strong style="color:#1e3a5f">전 배우자가 법원에 감액 청구하면 반드시 답변서와 증거를 제출해야 합니다.</strong></p>\n<ol>\n<li><strong>1단계 — 답변서 제출</strong> — 30일 이내, 감액 불가 논리·증거 목록 제출.</li>\n<li><strong>2단계 — 상대 재산조회</strong> — 국민연금·건강보험·사업장 매출 등 법원을 통해 조회.</li>\n<li><strong>3단계 — 자녀 지출 증빙</strong> — 학원비·치료비·학교 행사비 영수증 체계화.</li>\n<li><strong>4단계 — 양육비 산정기준표 비교</strong> — 서울가정법원 기준표로 현 금액 적정성 입증.</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 대한법률구조공단·여성가족부 양육비이행관리원에서 무료 법률 지원 이용 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">전 배우자가 법원에 감액 청구하면 가능한 한 답변서와 증거를 제출해야 합니다.</strong></p>\n<ol>\n<li><strong>1단계 — 답변서 제출</strong> — 30일 이내, 감액 불가 논리·증거 목록 제출.</li>\n<li><strong>2단계 — 상대 재산조회</strong> — 국민연금·건강보험·사업장 매출 등 법원을 통해 조회.</li>\n<li><strong>3단계 — 자녀 지출 증빙</strong> — 학원비·치료비·학교 행사비 영수증 체계화.</li>\n<li><strong>4단계 — 양육비 산정기준표 비교</strong> — 서울가정법원 기준표로 현 금액 적정성 입증.</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 대한법률구조공단·여성가족부 양육비이행관리원에서 무료 법률 지원 이용 가능합니다.</blockquote>',
       },
       {
         title: '임의 감액·지연 시 — 강제집행 수단',
@@ -250,7 +250,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
       {
         question: '감액 심판이 제기됐는데 답변서를 안 내면 어떻게 되나요?',
         answer:
-          '<strong>일방적으로 상대 주장이 받아들여져 감액 결정이 날 수 있습니다.</strong> 반드시 기한 내 답변서 + 증거 제출 필수.',
+          '<strong>일방적으로 상대 주장이 받아들여져 감액 결정이 날 수 있습니다.</strong> 가능한 한 기한 내 답변서 + 증거 제출 필수.',
       },
       {
         question: '상대가 재혼해서 새 자녀가 생겼다는 이유로 감액을 요구할 수 있나요?',
@@ -270,7 +270,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
       {
         question: '감액을 받아들여 합의해도 되나요?',
         answer:
-          '<strong>합의해도 반드시 가정법원 조정·심판으로 공식화해야 효력이 있습니다.</strong> 구두 합의는 분쟁 재발 위험이 큽니다.',
+          '<strong>합의해도 가능한 한 가정법원 조정·심판으로 공식화해야 효력이 있습니다.</strong> 구두 합의는 분쟁 재발 위험이 큽니다.',
       },
     ],
     cta: {
@@ -390,7 +390,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
     meta: {
       title: '파산 가상화폐 신고 의무 4가지 체크 | 로앤가이드',
       description:
-        '개인파산 신청 시 보유 가상화폐는 반드시 재산으로 신고해야 하고, 누락·은닉 시 면책 불허가·형사 처벌 위험이 있습니다. 신고 기준을 지금 확인하세요.',
+        '개인파산 신청 시 보유 가상화폐는 가능한 한 재산으로 신고해야 하고, 누락·은닉 시 면책 불허가·형사 처벌 위험이 있습니다. 신고 기준을 지금 확인하세요.',
     },
     intro:
       '<p>비트코인·이더리움 같은 가상자산을 가지고 있는 상태에서 파산을 신청할 때 가장 흔한 질문이 "거래소 외 개인 지갑도 공개해야 하나"입니다. 결론은 전부 공개입니다. 채무자 회생 및 파산에 관한 법률 제382조는 "채무자 소유의 모든 재산"을 파산재단으로 규정하고, 제564조는 설명의무 위반 시 면책 불허가 사유로 삼습니다. 은닉이 드러나면 면책이 취소되는 것은 물론 형사 처벌 대상이 됩니다.</p>',
@@ -582,7 +582,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
       {
         title: '자전거 vs 전동킥보드 — 처벌 기준 차이',
         content:
-          '<p><strong style="color:#1e3a5f">일반 자전거는 범칙금 3만 원, 전동킥보드는 일반 음주운전과 동일한 처벌입니다.</strong></p>\n<ul>\n<li><strong>① 일반 자전거</strong> — 도로교통법 제156조 제11호, 범칙금 3만 원(측정거부 10만 원).</li>\n<li><strong>② 전동킥보드·전동이륜보드</strong> — 원동기장치자전거 분류, 음주운전 형사 처벌 대상.</li>\n<li><strong>③ PM 처벌 수위</strong> — 0.03% 이상 시 5년 이하 징역 또는 2,000만 원 이하 벌금.</li>\n<li><strong>④ 면허 영향</strong> — PM 음주는 자동차 운전면허 결격사유에 영향.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "자전거 같아 보여도 모터 달린 기기"는 전부 PM으로 분류되어 자동차 음주운전과 같은 잣대로 처벌됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">일반 자전거는 범칙금 3만 원, 전동킥보드는 일반 음주운전과 동일한 처벌입니다.</strong></p>\n<ul>\n<li><strong>① 일반 자전거</strong> — 도로교통법 제156조 제11호, 범칙금 3만 원(측정거부 10만 원).</li>\n<li><strong>② 전동킥보드·전동이륜보드</strong> — 원동기장치자전거 분류, 음주운전 형사 처벌 대상.</li>\n<li><strong>③ PM 처벌 수위</strong> — 0.03% 이상 시 5년 이하 징역 또는 2,000만 원 이하 벌금.</li>\n<li><strong>④ 면허 영향</strong> — PM 음주는 자동차 운전면허 결격사유에 영향.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "자전거 같아 보여도 모터 달린 기기"는 전부 PM으로 분류되어 자동차 음주운전과 같은 잣대로 처벌 대상으로 검토될 수 있습니다.</blockquote>',
       },
       {
         title: '면허 영향 — 자동차 운전면허 연관성',
@@ -592,7 +592,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
       {
         title: '사고 시 책임 — 민사·형사 복합 적용',
         content:
-          '<p><strong style="color:#1e3a5f">음주 상태 사고는 보험 면책 + 중과실로 형사 처벌 가중됩니다.</strong></p>\n<ol>\n<li><strong>1단계 — 민사 책임</strong> — 피해자 치료비·위자료 전액 본인 부담(자전거 보험 면책).</li>\n<li><strong>2단계 — 형사 처벌</strong> — 자전거 상해 시 과실치상(형법 제266조) 또는 중과실치상(제268조).</li>\n<li><strong>3단계 — PM 사고</strong> — 교통사고처리특례법 음주운전 조항, 합의해도 기소.</li>\n<li><strong>4단계 — 사망 사고</strong> — 위험운전치사상(특가법 제5조의11) 1~30년 징역.</li>\n<li><strong>5단계 — 현장 이탈</strong> — 뺑소니 가중 처벌, 구속 수사 원칙.</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 자전거 자체 보험이 있어도 음주운전 시 면책 조항 있으므로, 약관을 반드시 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">음주 상태 사고는 보험 면책 + 중과실로 형사 처벌 가중됩니다.</strong></p>\n<ol>\n<li><strong>1단계 — 민사 책임</strong> — 피해자 치료비·위자료 전액 본인 부담(자전거 보험 면책).</li>\n<li><strong>2단계 — 형사 처벌</strong> — 자전거 상해 시 과실치상(형법 제266조) 또는 중과실치상(제268조).</li>\n<li><strong>3단계 — PM 사고</strong> — 교통사고처리특례법 음주운전 조항, 합의해도 기소.</li>\n<li><strong>4단계 — 사망 사고</strong> — 위험운전치사상(특가법 제5조의11) 1~30년 징역.</li>\n<li><strong>5단계 — 현장 이탈</strong> — 뺑소니 가중 처벌, 구속 수사 원칙.</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 자전거 자체 보험이 있어도 음주운전 시 면책 조항 있으므로, 약관을 가능한 한 확인하세요.</blockquote>',
       },
       {
         title: '혐의를 받고 있다면 — 초기 대응 4가지',

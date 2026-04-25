@@ -35,7 +35,7 @@ export const spokesBatch26_25to29: SpokePage[] = [
       {
         title: '기소 전 대응 4단계',
         content:
-          '<p><strong style="color:#1e3a5f">형사기소를 피하거나 처벌을 최소화하려면 아래 순서대로 행동해야 합니다.</strong></p>\n<ol>\n<li><strong>1단계: 변호사 선임 — 사고 직후 72시간 이내</strong>: 피해자와의 합의 방법, 경찰 조사 대응, 사고 사실 확인 등 모든 과정에서 변호사 조력이 필요합니다. 혼자 진술하다가 불리한 기록이 남으면 나중에 번복하기 어렵습니다</li>\n<li><strong>2단계: 피해자 합의 시도 — 검사 송치 전까지</strong>: 경찰이 사건을 검사에게 송치하기 전에 합의가 이루어지면 기소 가능성이 크게 낮아집니다. 합의금 수준은 부상 정도, 치료비, 향후치료비, 위자료를 기준으로 산정합니다. 직접 접촉보다 변호사를 통한 협상이 효과적입니다</li>\n<li><strong>3단계: 서류 준비 — 합의 전후</strong>: 교통사고확인서, 진단서, 사고 당시 CCTV·블랙박스 영상, 자동차 보험 증권을 확보하세요. 블랙박스 영상은 덮어써지기 전에 반드시 백업해두어야 합니다</li>\n<li><strong>4단계: 검찰 송치 후 불기소 또는 약식기소 대응</strong>: 합의가 이루어졌더라도 검사가 공소를 제기할 수 있습니다. 이 경우 변호사를 통해 불기소 처분 또는 약식명령(벌금)으로 마무리될 수 있도록 탄원서, 반성문, 합의서를 제출합니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">교통사고 가해자 형사처벌 가능성과 합의 전략을 AI가 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">형사기소를 피하거나 처벌을 최소화하려면 아래 순서대로 행동해야 합니다.</strong></p>\n<ol>\n<li><strong>1단계: 변호사 선임 — 사고 직후 72시간 이내</strong>: 피해자와의 합의 방법, 경찰 조사 대응, 사고 사실 확인 등 모든 과정에서 변호사 조력이 필요합니다. 혼자 진술하다가 불리한 기록이 남으면 나중에 번복하기 어렵습니다</li>\n<li><strong>2단계: 피해자 합의 시도 — 검사 송치 전까지</strong>: 경찰이 사건을 검사에게 송치하기 전에 합의가 이루어지면 기소 가능성이 크게 낮아집니다. 합의금 수준은 부상 정도, 치료비, 향후치료비, 위자료를 기준으로 산정합니다. 직접 접촉보다 변호사를 통한 협상이 효과적입니다</li>\n<li><strong>3단계: 서류 준비 — 합의 전후</strong>: 교통사고확인서, 진단서, 사고 당시 CCTV·블랙박스 영상, 자동차 보험 증권을 확보하세요. 블랙박스 영상은 덮어써지기 전에 가능한 한 백업해두어야 합니다</li>\n<li><strong>4단계: 검찰 송치 후 불기소 또는 약식기소 대응</strong>: 합의가 이루어졌더라도 검사가 공소를 제기할 수 있습니다. 이 경우 변호사를 통해 불기소 처분 또는 약식명령(벌금)으로 마무리될 수 있도록 탄원서, 반성문, 합의서를 제출합니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">교통사고 가해자 형사처벌 가능성과 합의 전략을 AI가 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '준비서류 체크리스트',
@@ -66,7 +66,7 @@ export const spokesBatch26_25to29: SpokePage[] = [
       {
         question: '경찰 조사 시 어떻게 진술해야 불리하지 않나요?',
         answer:
-          '<strong>경찰 조사 전 반드시 변호사와 상담하세요.</strong> 사고 경위를 설명할 때 자신에게 불리한 내용을 불필요하게 언급하지 말고, 사실관계가 불분명한 부분은 "정확히 기억하지 못한다"고 진술하는 것이 안전합니다. 섣불리 과실을 인정하는 진술을 하면 나중에 번복하기 어렵습니다.',
+          '<strong>경찰 조사 전 가능한 한 변호사와 상담하세요.</strong> 사고 경위를 설명할 때 자신에게 불리한 내용을 불필요하게 언급하지 말고, 사실관계가 불분명한 부분은 "정확히 기억하지 못한다"고 진술하는 것이 안전합니다. 섣불리 과실을 인정하는 진술을 하면 나중에 번복하기 어렵습니다.',
       },
       {
         question: '피해자 측에서 합의를 거부하면 어떻게 해야 하나요?',
@@ -119,12 +119,12 @@ export const spokesBatch26_25to29: SpokePage[] = [
       {
         title: '뺑소니(특가법 도주치상) 성립 요건 — 내 상황에 해당하나',
         content:
-          '<p><strong style="color:#1e3a5f">뺑소니는 단순히 현장을 떠나는 것이 아닙니다. 아래 3가지 요소가 모두 충족되어야 성립합니다.</strong></p>\n<ol>\n<li><strong>교통사고 발생</strong> — 자동차 운전 중 타인에게 상해를 입히거나 재산상 손해를 발생시켜야 합니다</li>\n<li><strong>피해 인식 또는 인식 가능성</strong> — 피해자가 다쳤다는 사실을 알았거나 알 수 있었음에도 구호 조치 없이 현장을 이탈해야 합니다. 몰랐다는 주장은 당시 상황, 충격 정도, 블랙박스 영상 등으로 판단합니다</li>\n<li><strong>구호조치 미이행</strong> — 피해자를 구호하거나 신원을 밝히는 등 필요한 조치를 전혀 취하지 않아야 합니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "몰랐다"는 주장이 인정되려면 충격이 경미했다는 객관적 증거(블랙박스 영상, 차량 손상 정도, 주변 목격자 진술)가 있어야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">뺑소니는 단순히 현장을 떠나는 것이 아닙니다. 아래 3가지 요소가 모두 충족되어야 성립할 수 있습니다.</strong></p>\n<ol>\n<li><strong>교통사고 발생</strong> — 자동차 운전 중 타인에게 상해를 입히거나 재산상 손해를 발생시켜야 합니다</li>\n<li><strong>피해 인식 또는 인식 가능성</strong> — 피해자가 다쳤다는 사실을 알았거나 알 수 있었음에도 구호 조치 없이 현장을 이탈해야 합니다. 몰랐다는 주장은 당시 상황, 충격 정도, 블랙박스 영상 등으로 판단합니다</li>\n<li><strong>구호조치 미이행</strong> — 피해자를 구호하거나 신원을 밝히는 등 필요한 조치를 전혀 취하지 않아야 합니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "몰랐다"는 주장이 인정되려면 충격이 경미했다는 객관적 증거(블랙박스 영상, 차량 손상 정도, 주변 목격자 진술)가 있어야 합니다</blockquote>',
       },
       {
         title: '24시간 내 대응 3단계',
         content:
-          '<p><strong style="color:#1e3a5f">뺑소니 혐의를 받고 있다면 지체 없이 아래 3가지를 실행하세요.</strong></p>\n<ol>\n<li><strong>1단계: 변호사 선임 즉시</strong> — 경찰 출석 전에 반드시 형사 전문 변호사를 선임하세요. 뺑소니 사건은 초기 조사에서 무엇을 인정하고 무엇을 다투느냐에 따라 결과가 크게 달라집니다. 혼자 진술하다가 불필요하게 인식 사실을 인정하면 나중에 번복이 어렵습니다</li>\n<li><strong>2단계: 블랙박스·CCTV 영상 확보</strong> — 사고 당시 영상은 뺑소니 혐의를 다투는 가장 중요한 증거입니다. 본인 차량 블랙박스는 즉시 SD카드를 분리하고, 사고 지점 인근 교통 CCTV 영상은 경찰 또는 변호사를 통해 확보 요청하세요. 영상이 덮어써지기 전에 행동해야 합니다</li>\n<li><strong>3단계: 피해자 구호 의사 표명</strong> — 아직 피해자와 연락이 닿지 않았다면 경찰을 통해 적극적인 구호 의사를 밝히고, 치료비 지원 의사를 표명하세요. 사고 인지 후 자진신고 또는 적극적 구호 시도는 양형에서 긍정적으로 반영됩니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">뺑소니 혐의 성립 여부와 대응 방법을 AI가 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">뺑소니 혐의를 받고 있다면 지체 없이 아래 3가지를 실행하세요.</strong></p>\n<ol>\n<li><strong>1단계: 변호사 선임 즉시</strong> — 경찰 출석 전에 가능한 한 형사 전문 변호사를 선임하세요. 뺑소니 사건은 초기 조사에서 무엇을 인정하고 무엇을 다투느냐에 따라 결과가 크게 달라집니다. 혼자 진술하다가 불필요하게 인식 사실을 인정하면 나중에 번복이 어렵습니다</li>\n<li><strong>2단계: 블랙박스·CCTV 영상 확보</strong> — 사고 당시 영상은 뺑소니 혐의를 다투는 가장 중요한 증거입니다. 본인 차량 블랙박스는 즉시 SD카드를 분리하고, 사고 지점 인근 교통 CCTV 영상은 경찰 또는 변호사를 통해 확보 요청하세요. 영상이 덮어써지기 전에 행동해야 합니다</li>\n<li><strong>3단계: 피해자 구호 의사 표명</strong> — 아직 피해자와 연락이 닿지 않았다면 경찰을 통해 적극적인 구호 의사를 밝히고, 치료비 지원 의사를 표명하세요. 사고 인지 후 자진신고 또는 적극적 구호 시도는 양형에서 긍정적으로 반영됩니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">뺑소니 혐의 성립 여부와 대응 방법을 AI가 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '특가법 도주치상과 일반 도주 — 처벌 수위 비교',
@@ -138,7 +138,7 @@ export const spokesBatch26_25to29: SpokePage[] = [
         summary:
           '서울서부지법 2023노1354 사건(서울서부지법, 2024.08.22 선고)에서 법원은 피고인이 유턴 가능 구역이 아닌 중앙선 실선 구간에서 불법유턴을 하다가 오토바이 사고를 일으켰는데, 피해자의 과실도 있었지만 피고인의 불법유턴과 사고 사이에 상당인과관계를 인정하고, 구호조치 없이 도주한 행위를 특가법 위반(도주치상)으로 판단했습니다. 법원은 피해자에게도 과실이 있다는 점이 피고인의 과실 면제 근거가 되지 않는다고 명확히 했습니다.',
         takeaway:
-          '피해자에게도 과실이 있다는 사정은 운전자의 구호조치 의무를 면제하지 않습니다. 사고가 발생했다면 과실 비율과 무관하게 구호조치를 취해야 하며, 이를 하지 않으면 도주로 인정됩니다.',
+          '피해자에게도 과실이 있다는 사정은 운전자의 구호조치 의무를 면제하지 않습니다. 사고가 발생했다면 과실 비율과 무관하게 구호조치를 취해야 하며, 이를 하지 않으면 도주로 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -227,14 +227,14 @@ export const spokesBatch26_25to29: SpokePage[] = [
     ],
     faq: [
       {
-        question: '백색실선 침범 사고인데 종합보험이 없으면 무조건 형사처벌인가요?',
+        question: '백색실선 침범 사고인데 종합보험이 없으면 원칙적으로 형사처벌인가요?',
         answer:
           '<strong>종합보험이 없어도 피해자가 처벌을 원하지 않으면(반의사불벌죄) 기소되지 않습니다.</strong> 피해자와 합의하고 처벌불원서를 받으면 형사처벌을 피할 수 있습니다. 다만 합의에 실패하면 형사처벌이 불가피할 수 있으므로 최대한 빨리 합의를 시도하세요.',
       },
       {
         question: '백색실선 침범이면서 동시에 과속도 했는데 어떻게 되나요?',
         answer:
-          '<strong>속도위반(제한속도 20km/h 초과)은 12대 중과실에 해당합니다.</strong> 백색실선 침범 자체는 12대 중과실이 아니지만, 과속이 함께 인정되면 처벌특례가 배제되어 합의와 무관하게 기소될 수 있습니다. 과속 여부를 사고 기록과 블랙박스로 확인하세요.',
+          '<strong>속도위반(제한속도 20km/h 초과)은 12대 중과실에 해당할 소지가 있습니다.</strong> 백색실선 침범 자체는 12대 중과실이 아니지만, 과속이 함께 인정되면 처벌특례가 배제되어 합의와 무관하게 기소될 수 있습니다. 과속 여부를 사고 기록과 블랙박스로 확인하세요.',
       },
       {
         question: '교량 위에서 백색실선을 넘어 앞지르기를 하다가 사고가 났는데 다른가요?',
@@ -287,12 +287,12 @@ export const spokesBatch26_25to29: SpokePage[] = [
       {
         title: '합의금 청구 4단계',
         content:
-          '<p><strong style="color:#1e3a5f">보행자·자전거 피해자가 합의금을 제대로 받으려면 아래 순서를 따르세요.</strong></p>\n<ol>\n<li><strong>1단계: 치료 종결까지 합의 금지 — 치료 중</strong>: 치료가 끝나기 전에 합의서에 서명하면 향후치료비와 후유장해 보상금을 받을 수 없습니다. "향후 일체의 청구를 하지 않겠다"는 조항이 포함되어 있기 때문입니다. 의사에게 "완치 예상 기간"과 "후유증 가능성"을 반드시 물어보세요</li>\n<li><strong>2단계: 합의금 항목 내역서 요청 — 보험사 제안 직후</strong>: 보험사에 합의금 산정 내역을 항목별로 서면으로 요청하세요. 치료비·휴업손해·위자료가 각각 얼마인지 확인합니다. 내역서 없이 구두로만 금액을 제안하는 경우 서면 요청을 거부할 수 없습니다</li>\n<li><strong>3단계: 유사 판례 기준과 비교 — 합의 전</strong>: 전치 기간과 부상 부위가 유사한 판례를 2~3건 찾아 법원 기준 위자료와 비교하세요. 판례 기준보다 보험사 제안이 낮다면 협상의 근거가 됩니다</li>\n<li><strong>4단계: 분쟁조정 또는 소송 — 협상 결렬 시</strong>: 합의금 차이가 크다면 금융감독원 자동차보험 분쟁조정위원회에 조정을 신청하거나, 교통사고 소송을 제기할 수 있습니다. 소송에서는 보험사 제안보다 더 많은 금액이 인정되는 경우가 많습니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">보행자·자전거 피해자 합의금 적정 금액을 AI가 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">보행자·자전거 피해자가 합의금을 제대로 받으려면 아래 순서를 따르세요.</strong></p>\n<ol>\n<li><strong>1단계: 치료 종결까지 합의 금지 — 치료 중</strong>: 치료가 끝나기 전에 합의서에 서명하면 향후치료비와 후유장해 보상금을 받을 수 없습니다. "향후 일체의 청구를 하지 않겠다"는 조항이 포함되어 있기 때문입니다. 의사에게 "완치 예상 기간"과 "후유증 가능성"을 가능한 한 물어보세요</li>\n<li><strong>2단계: 합의금 항목 내역서 요청 — 보험사 제안 직후</strong>: 보험사에 합의금 산정 내역을 항목별로 서면으로 요청하세요. 치료비·휴업손해·위자료가 각각 얼마인지 확인합니다. 내역서 없이 구두로만 금액을 제안하는 경우 서면 요청을 거부할 수 없습니다</li>\n<li><strong>3단계: 유사 판례 기준과 비교 — 합의 전</strong>: 전치 기간과 부상 부위가 유사한 판례를 2~3건 찾아 법원 기준 위자료와 비교하세요. 판례 기준보다 보험사 제안이 낮다면 협상의 근거가 됩니다</li>\n<li><strong>4단계: 분쟁조정 또는 소송 — 협상 결렬 시</strong>: 합의금 차이가 크다면 금융감독원 자동차보험 분쟁조정위원회에 조정을 신청하거나, 교통사고 소송을 제기할 수 있습니다. 소송에서는 보험사 제안보다 더 많은 금액이 인정되는 경우가 많습니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">보행자·자전거 피해자 합의금 적정 금액을 AI가 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '보행자·자전거 피해자 특별 유의사항',
         content:
-          '<p><strong style="color:#1e3a5f">보행자와 자전거 피해자는 자동차 탑승자와 다른 점이 있습니다. 아래 내용을 꼭 확인하세요.</strong></p>\n<ul>\n<li><strong>과실 비율이 낮습니다</strong> — 횡단보도에서 사고가 난 경우 보행자 과실은 통상 0~20%로 매우 낮게 인정됩니다. 과실 비율이 낮을수록 더 많은 보상을 받을 수 있습니다</li>\n<li><strong>자전거도 차량 보험으로 보상받습니다</strong> — 자전거 운전 중 자동차에 의한 사고는 자동차 보험으로 보상됩니다. 자전거에는 별도 보험이 없어도 가해 차량 보험에서 모든 항목을 청구할 수 있습니다</li>\n<li><strong>14주 이상 진단은 중상해로 분류됩니다</strong> — 전치 14주 이상이면 중상해로 분류되어 위자료 기준이 높아지고, 일부 사안에서는 가해자가 12대 중과실 없이도 더 엄격한 책임을 부담합니다</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">보행자와 자전거 피해자는 자동차 탑승자와 다른 점이 있습니다. 아래 내용을 꼭 확인하세요.</strong></p>\n<ul>\n<li><strong>과실 비율이 낮습니다</strong> — 횡단보도에서 사고가 난 경우 보행자 과실은 통상 0~20%로 매우 낮게 인정될 수 있습니다. 과실 비율이 낮을수록 더 많은 보상을 받을 수 있습니다</li>\n<li><strong>자전거도 차량 보험으로 보상받습니다</strong> — 자전거 운전 중 자동차에 의한 사고는 자동차 보험으로 보상됩니다. 자전거에는 별도 보험이 없어도 가해 차량 보험에서 모든 항목을 청구할 수 있습니다</li>\n<li><strong>14주 이상 진단은 중상해로 분류됩니다</strong> — 전치 14주 이상이면 중상해로 분류되어 위자료 기준이 높아지고, 일부 사안에서는 가해자가 12대 중과실 없이도 더 엄격한 책임을 부담합니다</li>\n</ul>',
       },
     ],
     cases: [
@@ -376,7 +376,7 @@ export const spokesBatch26_25to29: SpokePage[] = [
       {
         title: '손해배상 청구 5단계',
         content:
-          '<p><strong style="color:#1e3a5f">중앙선 침범 사고 피해자로서 손해배상을 청구하는 과정입니다.</strong></p>\n<ol>\n<li><strong>1단계: 증거 확보 — 사고 직후</strong>: 사고 현장 사진, 블랙박스 영상, 목격자 연락처, 경찰 교통사고확인서를 즉시 확보하세요. 중앙선 침범 여부를 확인할 수 있는 CCTV 영상 보존 신청도 빠를수록 좋습니다</li>\n<li><strong>2단계: 진단서·치료비 기록 정리 — 치료 중</strong>: 입원·통원 치료비, 진단서, 향후치료비 소견서를 모두 보관합니다. 사망 사고라면 가족관계증명서와 소득 자료도 준비합니다</li>\n<li><strong>3단계: 보험사 청구 — 치료 종결 후</strong>: 가해 차량 보험사에 치료비·위자료·휴업손해를 청구합니다. 종합보험 처리 결과와 보험사 지급 내역서를 반드시 받아두세요</li>\n<li><strong>4단계: 가해자 개인 추가 청구 검토 — 보험 처리 후</strong>: 보험사 지급분이 실손해보다 낮다면 가해자 개인에게 추가 손해배상을 청구할 수 있습니다. 가해자의 재산 현황(부동산·예금 등)을 확인하세요</li>\n<li><strong>5단계: 파산 여부 확인 및 비면책채권 주장 — 필요시</strong>: 가해자가 파산·면책결정을 받았다면 면책결정이 확정되기 전에 이의신청이 가능합니다. 이미 확정되었다면 "중대한 과실"을 주장하는 소송을 검토하세요</li>\n</ol>',
+          '<p><strong style="color:#1e3a5f">중앙선 침범 사고 피해자로서 손해배상을 청구하는 과정입니다.</strong></p>\n<ol>\n<li><strong>1단계: 증거 확보 — 사고 직후</strong>: 사고 현장 사진, 블랙박스 영상, 목격자 연락처, 경찰 교통사고확인서를 즉시 확보하세요. 중앙선 침범 여부를 확인할 수 있는 CCTV 영상 보존 신청도 빠를수록 좋습니다</li>\n<li><strong>2단계: 진단서·치료비 기록 정리 — 치료 중</strong>: 입원·통원 치료비, 진단서, 향후치료비 소견서를 모두 보관합니다. 사망 사고라면 가족관계증명서와 소득 자료도 준비합니다</li>\n<li><strong>3단계: 보험사 청구 — 치료 종결 후</strong>: 가해 차량 보험사에 치료비·위자료·휴업손해를 청구합니다. 종합보험 처리 결과와 보험사 지급 내역서를 가능한 한 받아두세요</li>\n<li><strong>4단계: 가해자 개인 추가 청구 검토 — 보험 처리 후</strong>: 보험사 지급분이 실손해보다 낮다면 가해자 개인에게 추가 손해배상을 청구할 수 있습니다. 가해자의 재산 현황(부동산·예금 등)을 확인하세요</li>\n<li><strong>5단계: 파산 여부 확인 및 비면책채권 주장 — 필요시</strong>: 가해자가 파산·면책결정을 받았다면 면책결정이 확정되기 전에 이의신청이 가능합니다. 이미 확정되었다면 "중대한 과실"을 주장하는 소송을 검토하세요</li>\n</ol>',
       },
     ],
     cases: [
@@ -407,7 +407,7 @@ export const spokesBatch26_25to29: SpokePage[] = [
       {
         question: '중앙선 침범 사고에서 피해자에게도 과실이 있으면 보상이 줄어드나요?',
         answer:
-          '<strong>피해자의 과실이 인정되면 과실 비율만큼 보상액에서 공제됩니다.</strong> 그러나 중앙선 침범 사고에서 피해자의 과실 비율은 통상 0~20%로 매우 낮게 인정됩니다. 피해자가 제한속도를 크게 초과하거나 신호를 위반한 경우가 아닌 한 과실 비율이 낮게 산정됩니다.',
+          '<strong>피해자의 과실이 인정되면 과실 비율만큼 보상액에서 공제됩니다.</strong> 그러나 중앙선 침범 사고에서 피해자의 과실 비율은 통상 0~20%로 매우 낮게 인정될 수 있습니다. 피해자가 제한속도를 크게 초과하거나 신호를 위반한 경우가 아닌 한 과실 비율이 낮게 산정됩니다.',
       },
       {
         question: '소송을 하지 않고도 손해배상을 받을 방법이 있나요?',

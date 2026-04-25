@@ -35,7 +35,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
       },
       {
         title: '육아휴직급여 신청 기한 — 12개월 제척기간',
-        content: '<p><strong style="color:#1e3a5f">육아휴직을 이미 사용한 경우, 육아휴직 종료 후 12개월 이내에 반드시 급여를 신청해야 합니다.</strong></p>\n<p>대법원 2018두47264 사건(대법원, 2021.03.18 선고)에서 법원은 구 고용보험법 제70조 제2항에서 정한 육아휴직급여 신청기간은 훈시규정이 아닌 강행규정인 "제척기간"이라고 판시했습니다. 즉, 육아휴직이 끝난 날부터 12개월이 지나면 급여를 받을 권리가 소멸합니다.</p>\n<p>육아휴직 종료 후 복직 없이 퇴사하거나, 회사 복직 압박으로 복직 직후 퇴사한 경우라도 육아휴직급여 신청기간은 육아휴직 종료일부터 12개월입니다. 퇴사 전에 미리 신청하거나, 퇴사 직후 고용센터를 방문해 처리해야 합니다.</p>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 임신·육아 퇴사 상황의 실업급여 인정 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+        content: '<p><strong style="color:#1e3a5f">육아휴직을 이미 사용한 경우, 육아휴직 종료 후 12개월 이내에 가능한 한 급여를 신청해야 합니다.</strong></p>\n<p>대법원 2018두47264 사건(대법원, 2021.03.18 선고)에서 법원은 구 고용보험법 제70조 제2항에서 정한 육아휴직급여 신청기간은 훈시규정이 아닌 강행규정인 "제척기간"이라고 판시했습니다. 즉, 육아휴직이 끝난 날부터 12개월이 지나면 급여를 받을 권리가 소멸합니다.</p>\n<p>육아휴직 종료 후 복직 없이 퇴사하거나, 회사 복직 압박으로 복직 직후 퇴사한 경우라도 육아휴직급여 신청기간은 육아휴직 종료일부터 12개월입니다. 퇴사 전에 미리 신청하거나, 퇴사 직후 고용센터를 방문해 처리해야 합니다.</p>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 임신·육아 퇴사 상황의 실업급여 인정 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '임신·육아 퇴사 시 실업급여 신청 절차',
@@ -50,7 +50,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
       {
         title: '대법원 2018두47264 — 육아휴직급여 신청기간 제척기간',
         summary: '대법원 2018두47264 사건(대법원, 2021.03.18 선고)에서 법원은 육아휴직급여 신청기간을 정한 고용보험법 제70조 제2항은 강행규정으로서 제척기간에 해당한다고 판시했습니다. 육아휴직이 종료된 날부터 12개월이 지나면 급여 청구권이 소멸하며, 이 기간은 연장되거나 정지되지 않습니다.',
-        takeaway: '비슷한 상황이라면 육아휴직 종료 후 12개월 이내에 반드시 급여를 신청하세요. 퇴사 후 바쁜 상황에서도 기한을 놓치면 급여 수급이 불가능해집니다.',
+        takeaway: '비슷한 상황이라면 육아휴직 종료 후 12개월 이내에 가능한 한 급여를 신청하세요. 퇴사 후 바쁜 상황에서도 기한을 놓치면 급여 수급이 불가능해집니다.',
       },
     ],
     faq: [
@@ -64,7 +64,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
       },
       {
         question: '육아 사유 퇴사 후 실업급여를 받으면서 재취업 활동을 해야 하나요?',
-        answer: '구직급여는 구직활동 의사가 있어야 받을 수 있습니다. 아이를 돌보며 파트타임 일자리나 재택근무 일자리를 찾는 활동도 재취업 활동으로 인정됩니다. 고용센터 상담을 통해 맞는 방법을 확인해보세요.',
+        answer: '구직급여는 구직활동 의사가 있어야 받을 수 있습니다. 아이를 돌보며 파트타임 일자리나 재택근무 일자리를 찾는 활동도 재취업 활동으로 인정될 수 있습니다. 고용센터 상담을 통해 맞는 방법을 확인해보세요.',
       },
       {
         question: '남편이 육아를 주로 담당해서 제가 퇴사한 경우도 인정되나요?',
@@ -303,7 +303,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
     sections: [
       {
         title: '임금삭감으로 인한 자진퇴사 인정 기준',
-        content: '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2 제1호 (가)목에 따르면, 이직일 전 1년 이내에 2개월 이상 실제 근로조건이 채용 시 제시된 근로조건보다 낮아진 경우 정당한 이직 사유로 인정됩니다.</strong></p>\n<ul>\n<li><strong>기준 1: 임금 하락 폭이 현저해야 합니다</strong> — 단순한 성과급 미지급은 인정받기 어렵습니다. 기본급이나 고정급이 채용 당시보다 낮아졌거나, 실질 임금이 현저히 감소한 경우가 해당됩니다</li>\n<li><strong>기준 2: 2개월 이상 지속되어야 합니다</strong> — 일시적인 삭감이 아니라 이직일 전 1년 이내에 2개월 이상 해당 상태가 지속되어야 합니다</li>\n<li><strong>기준 3: 장래에 확정된 경우도 포함됩니다</strong> — 아직 임금이 삭감되지 않았더라도, 단체협약이나 취업규칙 변경으로 2개월 이상 삭감이 확정된 경우에도 인정됩니다</li>\n<li><strong>기준 4: 임금 체불은 별도 사유</strong> — 2개월 이상 임금을 지급받지 못한 경우는 "임금 체불"로서 별도로 정당한 이직 사유가 됩니다. 임금 삭감과 체불 중 해당하는 경우를 정확히 구분하여 신청하세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 이직일 전 1년 이내에 2개월 이상 근로조건 저하 + 입증 자료가 핵심입니다</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2 제1호 (가)목에 따르면, 이직일 전 1년 이내에 2개월 이상 실제 근로조건이 채용 시 제시된 근로조건보다 낮아진 경우 정당한 이직 사유로 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>기준 1: 임금 하락 폭이 현저해야 합니다</strong> — 단순한 성과급 미지급은 인정받기 어렵습니다. 기본급이나 고정급이 채용 당시보다 낮아졌거나, 실질 임금이 현저히 감소한 경우가 해당됩니다</li>\n<li><strong>기준 2: 2개월 이상 지속되어야 합니다</strong> — 일시적인 삭감이 아니라 이직일 전 1년 이내에 2개월 이상 해당 상태가 지속되어야 합니다</li>\n<li><strong>기준 3: 장래에 확정된 경우도 포함됩니다</strong> — 아직 임금이 삭감되지 않았더라도, 단체협약이나 취업규칙 변경으로 2개월 이상 삭감이 확정된 경우에도 인정될 수 있습니다</li>\n<li><strong>기준 4: 임금 체불은 별도 사유</strong> — 2개월 이상 임금을 지급받지 못한 경우는 "임금 체불"로서 별도로 정당한 이직 사유가 됩니다. 임금 삭감과 체불 중 해당하는 경우를 정확히 구분하여 신청하세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 이직일 전 1년 이내에 2개월 이상 근로조건 저하 + 입증 자료가 핵심입니다</blockquote>',
       },
       {
         title: '임금삭감 자진퇴사 인정 판례 — 46% 이상 하락',
@@ -328,7 +328,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
       },
       {
         question: '임금이 삭감된 지 1개월 만에 퇴사했는데 2개월 이상 지속 요건을 충족 못하면 어떻게 되나요?',
-        answer: '실제 삭감이 2개월 미만이더라도, 단체협약이나 취업규칙 변경으로 장래에 2개월 이상 삭감이 확정된 경우라면 인정될 수 있습니다. 또한 임금 삭감과 동시에 다른 정당한 이직 사유(괴롭힘, 근무조건 변경 등)가 있다면 복합 사유로 신청할 수 있습니다.',
+        answer: '실제 삭감이 2개월 미만이더라도, 단체협약이나 취업규칙 변경으로 장래에 2개월 이상 삭감이 확정된 경우라면 인정될 수 있습니다. 또한 임금 삭감과 동시에 다른 정당한 이직 사유(괴롭힘, 근원칙적으로 변경 등)가 있다면 복합 사유로 신청할 수 있습니다.',
       },
       {
         question: '구두로만 임금 삭감을 통보받았는데 증빙이 없으면 어떻게 하나요?',
@@ -501,7 +501,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
     sections: [
       {
         title: '일용직 실업급여 수급 조건 5가지',
-        content: '<p><strong style="color:#1e3a5f">일용직 근로자는 고용보험법 제40조에 따른 수급 요건과 함께 일용직 특별 요건도 충족해야 합니다.</strong></p>\n<ol>\n<li><strong>이직일 이전 18개월 동안 피보험 단위기간이 180일 이상이어야 합니다</strong> — 일용직의 피보험 단위기간은 "실제 근로일수"로 계산합니다. 고용보험료를 납부한 날이 180일 이상이어야 합니다</li>\n<li><strong>수급자격 인정신청일 이전 1개월 동안 10일 미만 근무해야 합니다</strong> — 일용직의 경우 수급자격 인정신청일 이전 1개월 동안 실제 근로일수가 10일 미만이어야 "실업 상태"로 인정됩니다</li>\n<li><strong>이직일 전 3개월간 근로한 사업주에게 재고용되지 않아야 합니다</strong> — 종전 사업주에게 재고용이 거부된 경우 또는 이직 당시 일용근로자가 계속하여 고용되기를 원하지 않는다는 의사를 밝힌 경우는 예외입니다</li>\n<li><strong>수급자격 인정신청일 이전 14일간 연속하여 근무하지 않아야 합니다</strong> — 14일 연속 근무 중에는 실업 상태로 인정되지 않습니다</li>\n<li><strong>근로의 의사와 능력이 있어야 하고, 적극적 구직활동을 해야 합니다</strong> — 일반 근로자와 동일하게 구직활동 요건이 적용됩니다</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 18개월 내 실제 근로일 180일 이상 + 신청일 이전 1개월간 10일 미만 근무가 핵심 조건입니다</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">일용직 근로자는 고용보험법 제40조에 따른 수급 요건과 함께 일용직 특별 요건도 충족해야 합니다.</strong></p>\n<ol>\n<li><strong>이직일 이전 18개월 동안 피보험 단위기간이 180일 이상이어야 합니다</strong> — 일용직의 피보험 단위기간은 "실제 근로일수"로 계산합니다. 고용보험료를 납부한 날이 180일 이상이어야 합니다</li>\n<li><strong>수급자격 인정신청일 이전 1개월 동안 10일 미만 근무해야 합니다</strong> — 일용직의 경우 수급자격 인정신청일 이전 1개월 동안 실제 근로일수가 10일 미만이어야 "실업 상태"로 인정될 수 있습니다</li>\n<li><strong>이직일 전 3개월간 근로한 사업주에게 재고용되지 않아야 합니다</strong> — 종전 사업주에게 재고용이 거부된 경우 또는 이직 당시 일용근로자가 계속하여 고용되기를 원하지 않는다는 의사를 밝힌 경우는 예외입니다</li>\n<li><strong>수급자격 인정신청일 이전 14일간 연속하여 근무하지 않아야 합니다</strong> — 14일 연속 근무 중에는 실업 상태로 인정되지 않습니다</li>\n<li><strong>근로의 의사와 능력이 있어야 하고, 적극적 구직활동을 해야 합니다</strong> — 일반 근로자와 동일하게 구직활동 요건이 적용됩니다</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 18개월 내 실제 근로일 180일 이상 + 신청일 이전 1개월간 10일 미만 근무가 핵심 조건입니다</blockquote>',
       },
       {
         title: '일용직 피보험 단위기간 계산 방법',

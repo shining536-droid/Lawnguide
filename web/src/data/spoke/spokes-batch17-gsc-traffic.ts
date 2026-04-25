@@ -21,7 +21,7 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
         '보험사에서 합의 연락이 왔는데 빨리 끝내고 싶은 마음, 이해합니다. 하지만 급한 합의가 수백만 원 손해로 이어질 수 있습니다. 꼭 확인할 5가지를 지금 확인하세요',
     },
     intro:
-      '사고 후 일주일, 보험사 담당자에게서 전화가 옵니다. "빨리 합의하시면 편하실 거예요." 몸은 아직 아프고, 치료비 걱정에 빨리 끝내고 싶은 마음이 큽니다. 그런데 이 순간 서명하면 나중에 후유증이 발견되어도 추가 보상을 받기 어렵습니다. 합의 전에 반드시 확인해야 할 사항을 정리해보세요.',
+      '사고 후 일주일, 보험사 담당자에게서 전화가 옵니다. "빨리 합의하시면 편하실 거예요." 몸은 아직 아프고, 치료비 걱정에 빨리 끝내고 싶은 마음이 큽니다. 그런데 이 순간 서명하면 나중에 후유증이 발견되어도 추가 보상을 받기 어렵습니다. 합의 전에 가능한 한 확인해야 할 사항을 정리해보세요.',
     sections: [
       {
         title: '첫째, 치료가 끝나기 전에 합의하면 후유장해 보상을 놓칩니다',
@@ -41,7 +41,7 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
       {
         title: '넷째, 합의 전 확인해야 할 3가지 서류를 반드시 챙기세요',
         content:
-          '<p><strong style="color:#1e3a5f">진단서, 소견서, 치료비 영수증이 합의금 산정의 기본입니다</strong></p>\n<p>합의를 검토하기 전에 반드시 <strong>3가지 서류</strong>를 준비하세요. ①진료기록 감정서 또는 후유장해진단서, ②주치의 소견서(향후 치료계획 포함), ③치료비 전체 영수증입니다.</p>\n<p>특히 <strong>향후치료비 소견서</strong>가 중요합니다. "앞으로 6개월간 주 2회 물리치료가 필요하다"는 의사 소견이 있으면 그 비용을 합의금에 포함시킬 수 있습니다. 서류 없이 구두 합의는 절대 하지 마세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 서류: ①후유장해진단서 ②주치의 소견서 ③치료비 영수증 전부</blockquote>',
+          '<p><strong style="color:#1e3a5f">진단서, 소견서, 치료비 영수증이 합의금 산정의 기본입니다</strong></p>\n<p>합의를 검토하기 전에 가능한 한 <strong>3가지 서류</strong>를 준비하세요. ①진료기록 감정서 또는 후유장해진단서, ②주치의 소견서(향후 치료계획 포함), ③치료비 전체 영수증입니다.</p>\n<p>특히 <strong>향후치료비 소견서</strong>가 중요합니다. "앞으로 6개월간 주 2회 물리치료가 필요하다"는 의사 소견이 있으면 그 비용을 합의금에 포함시킬 수 있습니다. 서류 없이 구두 합의는 절대 하지 마세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 서류: ①후유장해진단서 ②주치의 소견서 ③치료비 영수증 전부</blockquote>',
       },
       {
         title: '다섯째, 합의를 서두르게 만드는 보험사 멘트에 속지 마세요',
@@ -111,12 +111,12 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
         '합의서에 서명하려는데 이대로 써도 되는지 불안하시죠. 놓치면 수백만 원 손해 보는 합의서 필수 기재 항목과 함정 조항 7가지를 지금 확인하세요',
     },
     intro:
-      '보험사에서 보내온 합의서, 숫자와 법률 용어로 가득합니다. "여기 서명만 하시면 됩니다"라는 말에 그냥 사인하려는 순간, 잠깐 멈추세요. 합의서 한 줄이 향후 수백만 원의 추가 보상 가능성을 막을 수 있습니다. 서명 전 반드시 확인해야 할 항목을 정리해보세요.',
+      '보험사에서 보내온 합의서, 숫자와 법률 용어로 가득합니다. "여기 서명만 하시면 됩니다"라는 말에 그냥 사인하려는 순간, 잠깐 멈추세요. 합의서 한 줄이 향후 수백만 원의 추가 보상 가능성을 막을 수 있습니다. 서명 전 가능한 한 확인해야 할 항목을 정리해보세요.',
     sections: [
       {
         title: '첫째, 합의금 항목이 세부적으로 나뉘어 있는지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">치료비, 위자료, 휴업손해, 향후치료비가 각각 구분되어야 합니다</strong></p>\n<p>합의서에 "합의금 총 000만 원"이라고만 적혀 있다면 위험합니다. <strong>항목별 산정 근거</strong>가 없으면 어떤 손해가 빠졌는지 확인할 수 없고, 나중에 이의를 제기하기도 어렵습니다.</p>\n<p>반드시 ①기지급 치료비, ②위자료, ③휴업손해(일실수입), ④향후치료비, ⑤교통비·간병비 등 <strong>항목별 금액</strong>이 기재되어 있는지 확인하세요. 항목이 빠져 있으면 보험사에 세부 내역서를 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 항목: 치료비 + 위자료 + 휴업손해 + 향후치료비 + 교통비·간병비</blockquote>',
+          '<p><strong style="color:#1e3a5f">치료비, 위자료, 휴업손해, 향후치료비가 각각 구분되어야 합니다</strong></p>\n<p>합의서에 "합의금 총 000만 원"이라고만 적혀 있다면 위험합니다. <strong>항목별 산정 근거</strong>가 없으면 어떤 손해가 빠졌는지 확인할 수 없고, 나중에 이의를 제기하기도 어렵습니다.</p>\n<p>가능한 한 ①기지급 치료비, ②위자료, ③휴업손해(일실수입), ④향후치료비, ⑤교통비·간병비 등 <strong>항목별 금액</strong>이 기재되어 있는지 확인하세요. 항목이 빠져 있으면 보험사에 세부 내역서를 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 항목: 치료비 + 위자료 + 휴업손해 + 향후치료비 + 교통비·간병비</blockquote>',
       },
       {
         title: '둘째, 부제소 합의 조항의 범위를 꼼꼼히 읽으세요',
@@ -131,12 +131,12 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
       {
         title: '넷째, 후유장해 등급 판정이 완료되었는지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">후유장해 등급에 따라 합의금이 수천만 원 차이 납니다</strong></p>\n<p>치료가 끝나도 남은 장해가 있다면 <strong>후유장해 등급 판정</strong>을 받아야 합니다. 자동차보험 후유장해 등급은 1급~14급까지 있으며, 등급에 따라 위자료와 일실수입이 크게 달라집니다.</p>\n<p>보험사가 등급 판정 없이 합의를 진행하려 한다면, <strong>반드시 등급 판정을 먼저 받으세요</strong>. 자동차손해배상 보장법 시행령 별표에 따라 등급별 보험금 한도가 정해져 있으므로, 등급 없이 합의하면 큰 손해를 볼 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: 치료 종결 → 후유장해 진단 → 등급 판정 → 그 후 합의</blockquote>',
+          '<p><strong style="color:#1e3a5f">후유장해 등급에 따라 합의금이 수천만 원 차이 납니다</strong></p>\n<p>치료가 끝나도 남은 장해가 있다면 <strong>후유장해 등급 판정</strong>을 받아야 합니다. 자동차보험 후유장해 등급은 1급~14급까지 있으며, 등급에 따라 위자료와 일실수입이 크게 달라집니다.</p>\n<p>보험사가 등급 판정 없이 합의를 진행하려 한다면, <strong>가능한 한 등급 판정을 먼저 받으세요</strong>. 자동차손해배상 보장법 시행령 별표에 따라 등급별 보험금 한도가 정해져 있으므로, 등급 없이 합의하면 큰 손해를 볼 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: 치료 종결 → 후유장해 진단 → 등급 판정 → 그 후 합의</blockquote>',
       },
       {
         title: '다섯째, 합의서 사본을 반드시 본인이 보관하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의서 원본 또는 사본이 없으면 분쟁 시 불리합니다</strong></p>\n<p>합의서에 서명한 후 반드시 <strong>사본 1부를 본인이 보관</strong>하세요. 간혹 보험사가 합의서를 가져가고 사본을 주지 않는 경우가 있는데, 이는 나중에 분쟁이 생겼을 때 큰 불이익이 됩니다.</p>\n<p>합의서 서명 전에 <strong>휴대폰으로 전체 내용을 촬영</strong>해두는 것도 좋습니다. 합의 과정에서 보험사 담당자와 나눈 통화 내용이 중요한 경우도 있으므로, 주요 통화는 녹음(사전 고지 후)하거나 문자로 확인을 남기세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보관 체크: 합의서 사본 + 합의 과정 통화 기록 + 세부 내역서</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">합의서 서명 전, 빠진 항목이 없는지 확인하세요</strong><br/>\n<a href="/diagnosis/traffic-accident" style="color:#1565c0;font-weight:600">AI가 내 상황에 맞는 합의서 체크리스트를 만들어드립니다 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">합의서 원본 또는 사본이 없으면 분쟁 시 불리합니다</strong></p>\n<p>합의서에 서명한 후 가능한 한 <strong>사본 1부를 본인이 보관</strong>하세요. 간혹 보험사가 합의서를 가져가고 사본을 주지 않는 경우가 있는데, 이는 나중에 분쟁이 생겼을 때 큰 불이익이 됩니다.</p>\n<p>합의서 서명 전에 <strong>휴대폰으로 전체 내용을 촬영</strong>해두는 것도 좋습니다. 합의 과정에서 보험사 담당자와 나눈 통화 내용이 중요한 경우도 있으므로, 주요 통화는 녹음(사전 고지 후)하거나 문자로 확인을 남기세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보관 체크: 합의서 사본 + 합의 과정 통화 기록 + 세부 내역서</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">합의서 서명 전, 빠진 항목이 없는지 확인하세요</strong><br/>\n<a href="/diagnosis/traffic-accident" style="color:#1565c0;font-weight:600">AI가 내 상황에 맞는 합의서 체크리스트를 만들어드립니다 &rarr;</a>\n</div>',
       },
     ],
     cases: [
@@ -167,7 +167,7 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
       {
         question: '합의서와 면책증서의 차이가 뭔가요?',
         answer:
-          '합의서는 양측이 합의 내용을 정리한 문서이고, 면책증서는 가해자(보험사)의 책임을 면제하는 문서입니다. 면책증서에 서명하면 향후 추가 청구가 완전히 차단되므로, 면책증서인지 합의서인지 반드시 구분하세요.',
+          '합의서는 양측이 합의 내용을 정리한 문서이고, 면책증서는 가해자(보험사)의 책임을 면제하는 문서입니다. 면책증서에 서명하면 향후 추가 청구가 완전히 차단되므로, 면책증서인지 합의서인지 가능한 한 구분하세요.',
       },
       {
         question: '합의금 입금까지 보통 얼마나 걸리나요?',
@@ -302,7 +302,7 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
       {
         title: '첫째, 보험사에 합의금 산정 내역서를 요청하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의금이 어떻게 계산되었는지 근거를 확인하는 것이 첫 단계입니다</strong></p>\n<p>보험사가 합의금을 제시할 때 <strong>"총 000만 원"</strong>이라는 숫자만 알려주는 경우가 많습니다. 반드시 <strong>산정 내역서</strong>를 요청하세요. 치료비, 위자료, 휴업손해, 향후치료비 등 항목별 금액과 산정 근거가 기재되어야 합니다.</p>\n<p>내역서를 받으면 빠진 항목이 없는지, 과실비율이 정확한지, 위자료가 법원 기준에 맞는지 하나씩 대조하세요. <strong>항목별로 이의가 있는 부분</strong>을 정리해두면 다음 단계 협상에서 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요청할 것: 항목별 산정 내역서 + 과실비율 적용 근거 + 위자료 산정 기준</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의금이 어떻게 계산되었는지 근거를 확인하는 것이 첫 단계입니다</strong></p>\n<p>보험사가 합의금을 제시할 때 <strong>"총 000만 원"</strong>이라는 숫자만 알려주는 경우가 많습니다. 가능한 한 <strong>산정 내역서</strong>를 요청하세요. 치료비, 위자료, 휴업손해, 향후치료비 등 항목별 금액과 산정 근거가 기재되어야 합니다.</p>\n<p>내역서를 받으면 빠진 항목이 없는지, 과실비율이 정확한지, 위자료가 법원 기준에 맞는지 하나씩 대조하세요. <strong>항목별로 이의가 있는 부분</strong>을 정리해두면 다음 단계 협상에서 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요청할 것: 항목별 산정 내역서 + 과실비율 적용 근거 + 위자료 산정 기준</blockquote>',
       },
       {
         title: '둘째, 손해사정사를 선임하거나 직접 적정 합의금을 산정하세요',
@@ -341,7 +341,7 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
         summary:
           '대법원 2022다235009 사건(2025.05.15 선고)에서 법원은 국민건강보험공단이 교통사고 피해자에게 보험급여를 한 후 책임보험금 청구권을 대위하는 경우, 대위 범위는 공단부담금 한도 내에서 가해자의 책임비율에 해당하는 금액으로 제한된다고 판시했습니다.',
         takeaway:
-          '보험사가 합의금을 산정할 때 건강보험 공단부담금 공제 등을 이유로 금액을 낮추는 경우가 있습니다. 공제 항목과 방식이 법원 기준에 맞는지 반드시 확인하세요.',
+          '보험사가 합의금을 산정할 때 건강보험 공단부담금 공제 등을 이유로 금액을 낮추는 경우가 있습니다. 공제 항목과 방식이 법원 기준에 맞는지 가능한 한 확인하세요.',
       },
     ],
     faq: [

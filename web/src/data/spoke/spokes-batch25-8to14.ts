@@ -42,7 +42,7 @@ export const spokesBatch25_8to14: SpokePage[] = [
       {
         title: '이의신청(심사청구) 절차와 기한',
         content:
-          '<p><strong style="color:#1e3a5f">거절 처분에 불복할 경우 90일 이내에 고용보험심사위원회에 심사청구를 할 수 있습니다.</strong></p>\n<ul>\n<li><strong>심사청구서 작성</strong> — 거절 처분 통보서 사본, 이의 사유, 증빙 서류(근로조건 저하 증거, 의료 소견서 등)를 첨부합니다</li>\n<li><strong>제출처</strong> — 관할 지방고용노동관서 또는 고용보험심사위원회에 서면·온라인으로 제출합니다</li>\n<li><strong>처리 기간</strong> — 심사청구 접수 후 60일 이내에 결정이 내려지며, 심사청구가 기각되면 재심사청구(90일 이내)도 가능합니다</li>\n<li><strong>행정소송</strong> — 재심사청구도 기각된 경우 행정소송을 제기할 수 있으며, 재판에서 거절 처분이 위법하다는 판결을 받으면 수급자격이 인정됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 심사청구 기한(90일)을 놓치면 더 이상 불복할 수 없으므로 거절 통보를 받는 즉시 기한을 확인하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">거절 처분에 불복할 경우 90일 이내에 고용보험심사위원회에 심사청구를 할 수 있습니다.</strong></p>\n<ul>\n<li><strong>심사청구서 작성</strong> — 거절 처분 통보서 사본, 이의 사유, 증빙 서류(근로조건 저하 증거, 의료 소견서 등)를 첨부합니다</li>\n<li><strong>제출처</strong> — 관할 지방고용노동관서 또는 고용보험심사위원회에 서면·온라인으로 제출합니다</li>\n<li><strong>처리 기간</strong> — 심사청구 접수 후 60일 이내에 결정이 내려지며, 심사청구가 기각되면 재심사청구(90일 이내)도 가능합니다</li>\n<li><strong>행정소송</strong> — 재심사청구도 기각된 경우 행정소송을 제기할 수 있으며, 재판에서 거절 처분이 위법하다는 판결을 받으면 수급자격이 인정될 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 심사청구 기한(90일)을 놓치면 더 이상 불복할 수 없으므로 거절 통보를 받는 즉시 기한을 확인하세요</blockquote>',
       },
     ],
     cases: [
@@ -51,7 +51,7 @@ export const spokesBatch25_8to14: SpokePage[] = [
         summary:
           '서울행정법원 2014구합2270 사건(서울행법, 2014.07.03 선고)에서 법원은 인바운드 상담원이 멀티부서 이동 지시를 받고 퇴사한 사안에서, 부서이동으로 월 평균 임금이 46% 이상 하락하는 것은 근로조건 저하에 해당하므로 정당한 이직 사유로 인정된다고 판시했습니다.',
         takeaway:
-          '자발적 퇴사라도 임금 하락, 근로조건 저하가 입증되면 실업급여 수급자격이 인정될 수 있으므로, 퇴사 전후 근로조건 변동 증거를 반드시 확보하세요.',
+          '자발적 퇴사라도 임금 하락, 근로조건 저하가 입증되면 실업급여 수급자격이 인정될 수 있으므로, 퇴사 전후 근로조건 변동 증거를 가능한 한 확보하세요.',
       },
     ],
     faq: [
@@ -78,7 +78,7 @@ export const spokesBatch25_8to14: SpokePage[] = [
       {
         question: '고용보험에 미가입된 상태였는데 실업급여를 받을 수 있나요?',
         answer:
-          '<strong>사업주가 고용보험 가입 의무를 이행하지 않은 경우 소급 가입이 가능합니다.</strong> 근로복지공단에 피보험자격 확인 청구를 하면 가입 여부를 조사하고, 확인되면 소급 적용하여 피보험기간이 인정됩니다.',
+          '<strong>사업주가 고용보험 가입 의무를 이행하지 않은 경우 소급 가입이 가능합니다.</strong> 근로복지공단에 피보험자격 확인 청구를 하면 가입 여부를 조사하고, 확인되면 소급 적용하여 피보험기간이 인정될 수 있습니다.',
       },
     ],
     cta: {
@@ -121,12 +121,12 @@ export const spokesBatch25_8to14: SpokePage[] = [
       {
         title: '인정받기 위한 증거 확보 전략',
         content:
-          '<p><strong style="color:#1e3a5f">퇴사 전에 정당한 이직 사유를 뒷받침할 증거를 반드시 확보해야 합니다.</strong></p>\n<ul>\n<li><strong>임금 체불</strong> — 급여명세서, 통장 거래내역, 사업주에게 임금 지급을 요구한 카카오톡·이메일</li>\n<li><strong>근로조건 변경</strong> — 변경 전후 근로계약서, 인사발령 통지서, 급여 차이를 보여주는 자료</li>\n<li><strong>괴롭힘·성희롱</strong> — 녹취록, 카카오톡 대화, 목격자 진술서, 사업주에게 시정 요구한 내역</li>\n<li><strong>질병·부상</strong> — 진단서(업무수행 곤란 명시), 의사 소견서</li>\n<li><strong>통근 곤란</strong> — 사업장 이전 전후 주소지 확인, 교통수단별 소요시간 증빙</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 퇴사 사유의 인정 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">퇴사 전에 정당한 이직 사유를 뒷받침할 증거를 가능한 한 확보해야 합니다.</strong></p>\n<ul>\n<li><strong>임금 체불</strong> — 급여명세서, 통장 거래내역, 사업주에게 임금 지급을 요구한 카카오톡·이메일</li>\n<li><strong>근로조건 변경</strong> — 변경 전후 근로계약서, 인사발령 통지서, 급여 차이를 보여주는 자료</li>\n<li><strong>괴롭힘·성희롱</strong> — 녹취록, 카카오톡 대화, 목격자 진술서, 사업주에게 시정 요구한 내역</li>\n<li><strong>질병·부상</strong> — 진단서(업무수행 곤란 명시), 의사 소견서</li>\n<li><strong>통근 곤란</strong> — 사업장 이전 전후 주소지 확인, 교통수단별 소요시간 증빙</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 퇴사 사유의 인정 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '사직서 작성 시 주의사항과 고용센터 신고 절차',
         content:
-          '<p><strong style="color:#1e3a5f">사직서 사유란에 "일신상의 사유"만 쓰면 자발적 퇴사로 분류되어 불리해질 수 있습니다.</strong></p>\n<ul>\n<li><strong>사직서 작성</strong> — "임금 2개월 이상 체불로 인한 퇴직", "사업장 이전으로 통근 곤란" 등 구체적 사유를 명시하세요</li>\n<li><strong>이직확인서 확인</strong> — 사업주가 제출하는 이직확인서에 이직 사유가 "자발적 퇴사(정당한 사유)"로 기재되었는지 반드시 확인하세요. 사업주가 허위 기재하면 고용센터에 정정 요청이 가능합니다</li>\n<li><strong>고용센터 상담</strong> — 퇴사 전 관할 고용센터에 방문하여 본인 사유가 정당한 이직 사유에 해당하는지 사전 상담을 받으면 거절 가능성을 줄일 수 있습니다</li>\n<li><strong>수급자격 인정 교육</strong> — 수급자격이 인정되면 워크넷에서 구직등록 후 수급자격 인정 교육(온라인)을 이수해야 급여가 지급됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 퇴사 전에 고용센터 사전 상담을 받으면 필요한 증거와 절차를 미리 안내받을 수 있어 거절 확률이 낮아집니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">사직서 사유란에 "일신상의 사유"만 쓰면 자발적 퇴사로 분류되어 불리해질 수 있습니다.</strong></p>\n<ul>\n<li><strong>사직서 작성</strong> — "임금 2개월 이상 체불로 인한 퇴직", "사업장 이전으로 통근 곤란" 등 구체적 사유를 명시하세요</li>\n<li><strong>이직확인서 확인</strong> — 사업주가 제출하는 이직확인서에 이직 사유가 "자발적 퇴사(정당한 사유)"로 기재되었는지 가능한 한 확인하세요. 사업주가 허위 기재하면 고용센터에 정정 요청이 가능합니다</li>\n<li><strong>고용센터 상담</strong> — 퇴사 전 관할 고용센터에 방문하여 본인 사유가 정당한 이직 사유에 해당하는지 사전 상담을 받으면 거절 가능성을 줄일 수 있습니다</li>\n<li><strong>수급자격 인정 교육</strong> — 수급자격이 인정되면 워크넷에서 구직등록 후 수급자격 인정 교육(온라인)을 이수해야 급여가 지급됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 퇴사 전에 고용센터 사전 상담을 받으면 필요한 증거와 절차를 미리 안내받을 수 있어 거절 확률이 낮아집니다</blockquote>',
       },
     ],
     cases: [
@@ -135,7 +135,7 @@ export const spokesBatch25_8to14: SpokePage[] = [
         summary:
           '울산지법 2013구합2840 사건(울산지법, 2014.04.24 선고)에서 법원은 같은 그룹 베트남 법인으로 전출되어 근무하다 퇴직한 근로자가 국내 회사 퇴직일로부터 12개월이 지난 후 수급자격을 신청한 사안에서, 전출 시 퇴직금이 지급되고 고용보험 피보험자격이 상실되었으므로 국내 회사와 고용관계가 끝난 시점이 이직 시점이라고 판시했습니다.',
         takeaway:
-          '해외법인 전출이나 계열사 이동 시 국내 고용관계 종료 시점이 실업급여 수급기간의 기산점이 되므로, 전출 시점에 고용보험 자격 변동을 반드시 확인하세요.',
+          '해외법인 전출이나 계열사 이동 시 국내 고용관계 종료 시점이 실업급여 수급기간의 기산점이 되므로, 전출 시점에 고용보험 자격 변동을 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -305,7 +305,7 @@ export const spokesBatch25_8to14: SpokePage[] = [
       {
         question: '카카오톡 대화가 법적 증거로 인정되나요?',
         answer:
-          '<strong>네, 카카오톡 대화는 민사·형사 절차에서 증거로 인정됩니다.</strong> 다만 날짜·시간·발신자가 식별 가능해야 하며, 대화 맥락이 왜곡되지 않도록 전후 대화를 함께 캡처하는 것이 중요합니다.',
+          '<strong>네, 카카오톡 대화는 민사·형사 절차에서 증거로 인정될 수 있습니다.</strong> 다만 날짜·시간·발신자가 식별 가능해야 하며, 대화 맥락이 왜곡되지 않도록 전후 대화를 함께 캡처하는 것이 중요합니다.',
       },
       {
         question: '통장 입금자명이 사장 개인이름인데 괜찮나요?',
@@ -374,7 +374,7 @@ export const spokesBatch25_8to14: SpokePage[] = [
       {
         title: '4단계: 민사소송과 지연이자 청구',
         content:
-          '<p><strong style="color:#1e3a5f">노동청 진정으로 해결되지 않으면 민사소송을 제기하여 미지급 임금과 지연이자를 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>소액사건심판</strong> — 체불 금액이 3,000만 원 이하면 소액사건심판으로 간편하게 청구할 수 있습니다. 변호사 없이도 진행 가능합니다</li>\n<li><strong>지연이자</strong> — 근로기준법 제37조에 따라 퇴직 후 14일이 지나도 미지급된 임금에는 연 20%의 지연이자가 붙습니다. 재직 중 체불도 퇴직 후 14일 경과 시점부터 지연이자가 발생합니다</li>\n<li><strong>체당금 제도</strong> — 사업주가 파산하거나 지급 능력이 없는 경우 근로복지공단에 체당금(최대 1,000만 원)을 신청할 수 있습니다</li>\n<li><strong>형사고소</strong> — 진정과 별개로 사업주를 임금체불죄(근로기준법 제109조)로 형사고소할 수도 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 임금채권의 소멸시효는 3년이므로, 체불이 발생한 시점부터 3년 이내에 반드시 청구해야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">노동청 진정으로 해결되지 않으면 민사소송을 제기하여 미지급 임금과 지연이자를 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>소액사건심판</strong> — 체불 금액이 3,000만 원 이하면 소액사건심판으로 간편하게 청구할 수 있습니다. 변호사 없이도 진행 가능합니다</li>\n<li><strong>지연이자</strong> — 근로기준법 제37조에 따라 퇴직 후 14일이 지나도 미지급된 임금에는 연 20%의 지연이자가 붙습니다. 재직 중 체불도 퇴직 후 14일 경과 시점부터 지연이자가 발생합니다</li>\n<li><strong>체당금 제도</strong> — 사업주가 파산하거나 지급 능력이 없는 경우 근로복지공단에 체당금(최대 1,000만 원)을 신청할 수 있습니다</li>\n<li><strong>형사고소</strong> — 진정과 별개로 사업주를 임금체불죄(근로기준법 제109조)로 형사고소할 수도 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 임금채권의 소멸시효는 3년이므로, 체불이 발생한 시점부터 3년 이내에 가능한 한 청구해야 합니다</blockquote>',
       },
     ],
     cases: [
@@ -390,12 +390,12 @@ export const spokesBatch25_8to14: SpokePage[] = [
       {
         question: '전액이 아니라 일부만 체불이어도 신고할 수 있나요?',
         answer:
-          '<strong>네, 1원이라도 약정 임금에서 부족하면 임금체불에 해당합니다.</strong> 전액 미지급이든 일부 미지급이든 근로기준법 위반으로 처벌 대상이며, 노동청 진정이 가능합니다.',
+          '<strong>네, 1원이라도 약정 임금에서 부족하면 임금체불에 해당할 소지가 있습니다.</strong> 전액 미지급이든 일부 미지급이든 근로기준법 위반으로 처벌 대상이며, 노동청 진정이 가능합니다.',
       },
       {
         question: '경영 어려움을 이유로 월급을 깎아도 되나요?',
         answer:
-          '<strong>사업주가 일방적으로 임금을 삭감하는 것은 근로기준법 위반입니다.</strong> 임금 변경은 근로자의 서면 동의가 필요하며, 동의 없이 삭감된 차액은 체불에 해당합니다.',
+          '<strong>사업주가 일방적으로 임금을 삭감하는 것은 근로기준법 위반입니다.</strong> 임금 변경은 근로자의 서면 동의가 필요하며, 동의 없이 삭감된 차액은 체불에 해당할 소지가 있습니다.',
       },
       {
         question: '재직 중에 신고하면 회사에서 불이익을 받지 않나요?',
@@ -465,7 +465,7 @@ export const spokesBatch25_8to14: SpokePage[] = [
       {
         title: '4~5단계: 근로감독관 조사와 이후 절차',
         content:
-          '<p><strong style="color:#1e3a5f">진정 접수 후 근로감독관이 조사를 진행하며, 결과에 따라 시정명령 또는 검찰 송치가 이루어집니다.</strong></p>\n<ul>\n<li><strong>조사 기간</strong> — 진정 접수 후 통상 25일~40일 이내에 조사가 완료됩니다. 사안이 복잡하면 기간이 연장될 수 있습니다</li>\n<li><strong>사업주 출석 요구</strong> — 근로감독관이 사업주에게 출석 요구서를 발송하고, 체불 사실 여부를 확인합니다</li>\n<li><strong>시정 명령</strong> — 체불이 확인되면 사업주에게 14일 이내 시정 명령이 내려집니다. 이 기간에 지급하면 형사처벌 없이 종결됩니다</li>\n<li><strong>검찰 송치</strong> — 시정 명령을 이행하지 않으면 검찰에 사건이 송치됩니다. 사업주는 3년 이하 징역 또는 3천만 원 이하 벌금에 처해질 수 있습니다</li>\n<li><strong>지연이자 청구</strong> — 별도의 민사소송을 통해 퇴직 후 14일 경과 시점부터 연 20%의 지연이자를 청구할 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 근로감독관 조사 시 사업주가 합의를 제안할 수 있습니다. 합의금이 체불 금액 전액과 지연이자를 포함하는지 반드시 확인하고, 합의서에 "잔여 채권 없음"이라는 문구가 있으면 주의하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">진정 접수 후 근로감독관이 조사를 진행하며, 결과에 따라 시정명령 또는 검찰 송치가 이루어집니다.</strong></p>\n<ul>\n<li><strong>조사 기간</strong> — 진정 접수 후 통상 25일~40일 이내에 조사가 완료됩니다. 사안이 복잡하면 기간이 연장될 수 있습니다</li>\n<li><strong>사업주 출석 요구</strong> — 근로감독관이 사업주에게 출석 요구서를 발송하고, 체불 사실 여부를 확인합니다</li>\n<li><strong>시정 명령</strong> — 체불이 확인되면 사업주에게 14일 이내 시정 명령이 내려집니다. 이 기간에 지급하면 형사처벌 없이 종결됩니다</li>\n<li><strong>검찰 송치</strong> — 시정 명령을 이행하지 않으면 검찰에 사건이 송치됩니다. 사업주는 3년 이하 징역 또는 3천만 원 이하 벌금에 처해질 수 있습니다</li>\n<li><strong>지연이자 청구</strong> — 별도의 민사소송을 통해 퇴직 후 14일 경과 시점부터 연 20%의 지연이자를 청구할 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 근로감독관 조사 시 사업주가 합의를 제안할 수 있습니다. 합의금이 체불 금액 전액과 지연이자를 포함하는지 가능한 한 확인하고, 합의서에 "잔여 채권 없음"이라는 문구가 있으면 주의하세요</blockquote>',
       },
     ],
     cases: [

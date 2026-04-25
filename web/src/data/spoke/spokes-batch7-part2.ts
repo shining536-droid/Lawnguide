@@ -31,7 +31,7 @@ export const batch7Part2Pages: SpokePage[] = [
       {
         title: '"고의"가 없으면 무죄가 될 수 있나요',
         content:
-          '<p><strong style="color:#1e3a5f">고의는 인식(알면서 행한 것)으로 충분하고, 성적 목적은 별도 요건이 아닙니다</strong></p>\n<p>강제추행죄는 <strong>미필적 고의</strong>로도 성립합니다. 즉 "성적 수치심을 주겠다"는 목적이 없었더라도, 자신의 행위가 추행에 해당할 수 있다는 것을 인식하면서도 행했다면 고의가 인정될 수 있습니다. "장난이었다", "성적 의도가 없었다"는 주장은 고의를 부정하는 데 한계가 있을 수 있습니다.</p>\n<p>다만 <strong>오인가능성</strong>이 있는 상황(ex: 어두운 곳에서 우연히 신체 접촉)이나 상대방이 동의한 것으로 합리적으로 믿을 만한 사정이 있었다면 고의 부재 또는 착오 주장이 가능합니다. 이 부분은 구체적인 정황과 증거로 다투어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: "성적 의도가 없었다"는 주장만으로는 부족 — 구체적인 상황 입증이 필요</blockquote>',
+          '<p><strong style="color:#1e3a5f">고의는 인식(알면서 행한 것)으로 충분하고, 성적 목적은 별도 요건이 아닙니다</strong></p>\n<p>강제추행죄는 <strong>미필적 고의</strong>로도 성립할 수 있습니다. 즉 "성적 수치심을 주겠다"는 목적이 없었더라도, 자신의 행위가 추행에 해당할 수 있다는 것을 인식하면서도 행했다면 고의가 인정될 수 있습니다. "장난이었다", "성적 의도가 없었다"는 주장은 고의를 부정하는 데 한계가 있을 수 있습니다.</p>\n<p>다만 <strong>오인가능성</strong>이 있는 상황(ex: 어두운 곳에서 우연히 신체 접촉)이나 상대방이 동의한 것으로 합리적으로 믿을 만한 사정이 있었다면 고의 부재 또는 착오 주장이 가능합니다. 이 부분은 구체적인 정황과 증거로 다투어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: "성적 의도가 없었다"는 주장만으로는 부족 — 구체적인 상황 입증이 필요</blockquote>',
       },
       {
         title: '피의자 입장에서 준비해야 할 것들',
@@ -79,7 +79,7 @@ export const batch7Part2Pages: SpokePage[] = [
       {
         question: '조사에서 진술을 거부할 수 있나요?',
         answer:
-          '피의자는 <strong>묵비권(진술 거부권)</strong>이 있습니다. 진술하기 전에 반드시 변호사와 상의하세요.',
+          '피의자는 <strong>묵비권(진술 거부권)</strong>이 있습니다. 진술하기 전에 가능한 한 변호사와 상의하세요.',
       },
       {
         question: '고소 취소가 가능한가요?',
@@ -136,7 +136,7 @@ export const batch7Part2Pages: SpokePage[] = [
       {
         title: '허위사실이라면 — 더 무거운 처벌과 민사책임',
         content:
-          '<p><strong style="color:#1e3a5f">허위사실 적시는 형사처벌에 더해 민사 손해배상까지 따라옵니다</strong></p>\n<p>허위사실 명예훼손은 <strong>고의로 거짓 내용을 퍼뜨려</strong> 상대방의 명예를 훼손하는 행위입니다. 형사처벌뿐 아니라 민사상 불법행위로 손해배상 책임도 지게 됩니다. 온라인에서 허위사실을 유포한 경우 정보통신망법 제70조 제2항에 따라 <strong>7년 이하 징역 또는 5,000만원 이하 벌금</strong>으로 가중처벌됩니다.</p>\n<p>피고소인(내가 고소를 당한 경우) 입장에서는 자신이 적시한 내용이 <strong>진실</strong>임을 입증하거나, 진실이라고 믿을 만한 합리적인 이유(상당한 이유)가 있었음을 주장하는 것이 방어의 핵심입니다. 온라인에서 이미 유포된 내용이라면 즉시 삭제 요청을 하는 것도 피해 최소화에 도움됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">허위사실 온라인: 7년 이하 징역 또는 5,000만원 이하 벌금 (정보통신망법)</blockquote>',
+          '<p><strong style="color:#1e3a5f">허위사실 적시는 형사처벌에 더해 민사 손해배상까지 따라옵니다</strong></p>\n<p>허위사실 명예훼손은 <strong>고의로 거짓 내용을 퍼뜨려</strong> 상대방의 명예를 훼손하는 행위입니다. 형사처벌뿐 아니라 민사상 불법행위로 손해배상 책임도 지게 됩니다. 온라인에서 허위사실을 유포한 경우 정보통신망법 제70조 제2항에 따라 <strong>7년 이하 징역 또는 5,000만원 이하 벌금</strong>으로 가중처벌 대상으로 검토될 수 있습니다.</p>\n<p>피고소인(내가 고소를 당한 경우) 입장에서는 자신이 적시한 내용이 <strong>진실</strong>임을 입증하거나, 진실이라고 믿을 만한 합리적인 이유(상당한 이유)가 있었음을 주장하는 것이 방어의 핵심입니다. 온라인에서 이미 유포된 내용이라면 즉시 삭제 요청을 하는 것도 피해 최소화에 도움됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">허위사실 온라인: 7년 이하 징역 또는 5,000만원 이하 벌금 (정보통신망법)</blockquote>',
       },
       {
         title: '고소를 당했을 때 대응 전략',

@@ -35,12 +35,12 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
       {
         title: '재택근무 근로시간 입증 전략',
         content:
-          '<p><strong style="color:#1e3a5f">디지털 흔적이 가장 강력한 증거입니다. 퇴사 전에 확보하세요.</strong></p>\n<ul>\n<li><strong>VPN 로그</strong> — IT 부서에 VPN 접속 기록을 요청하세요. 회사가 보유하고 있으므로 소송 시 법원에 문서제출명령을 신청할 수도 있습니다.</li>\n<li><strong>메신저 대화 캡처</strong> — 퇴근 시간 이후 업무 지시 메시지를 캡처하세요. 날짜와 시간이 표시되어야 합니다.</li>\n<li><strong>이메일 발송 기록</strong> — 업무 관련 이메일의 발송 시간이 증거가 됩니다.</li>\n<li><strong>업무 일지 자작</strong> — 매일 근로 시작·종료 시간을 기록해두면 보충 증거가 됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 회사 시스템의 디지털 기록은 퇴사하면 접근이 불가능해집니다. 재직 중에 반드시 확보하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">디지털 흔적이 가장 강력한 증거입니다. 퇴사 전에 확보하세요.</strong></p>\n<ul>\n<li><strong>VPN 로그</strong> — IT 부서에 VPN 접속 기록을 요청하세요. 회사가 보유하고 있으므로 소송 시 법원에 문서제출명령을 신청할 수도 있습니다.</li>\n<li><strong>메신저 대화 캡처</strong> — 퇴근 시간 이후 업무 지시 메시지를 캡처하세요. 날짜와 시간이 표시되어야 합니다.</li>\n<li><strong>이메일 발송 기록</strong> — 업무 관련 이메일의 발송 시간이 증거가 됩니다.</li>\n<li><strong>업무 일지 자작</strong> — 매일 근로 시작·종료 시간을 기록해두면 보충 증거가 됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 회사 시스템의 디지털 기록은 퇴사하면 접근이 불가능해집니다. 재직 중에 가능한 한 확보하세요.</blockquote>',
       },
       {
         title: '사업장 밖 간주근로제와 포괄임금의 차이',
         content:
-          '<p><strong style="color:#1e3a5f">재택근무에 간주근로시간제가 적용되는 경우와 포괄임금의 차이를 구분하세요.</strong></p>\n<ul>\n<li><strong>간주근로시간제</strong> — 근로기준법 제58조에 따라, 사업장 밖에서 근무하여 근로시간 산정이 어려운 경우 소정근로시간을 일한 것으로 간주합니다. 노사 서면합의가 필요합니다.</li>\n<li><strong>포괄임금</strong> — 법률 근거가 없는 약정으로, 판례에 의해 제한적으로만 유효합니다.</li>\n<li><strong>핵심 차이</strong> — 간주근로시간제는 법적 근거가 있고, 포괄임금은 판례에 의한 예외입니다. 간주근로시간제 요건을 갖추지 못한 채 포괄임금만 적용하면 이중으로 위법합니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">재택근무에 간주근로시간제가 적용되는 경우와 포괄임금의 차이를 구분하세요.</strong></p>\n<ul>\n<li><strong>간주근로시간제</strong> — 근로기준법 제58조에 따라, 사업장 밖에서 근무하여 근로시간 산정이 어려운 경우 소정근로시간을 일한 것으로 간주합니다. 노사 서면합의가 필요합니다.</li>\n<li><strong>포괄임금</strong> — 법률 근거가 없는 약정으로, 판례에 의해 제한적으로만 유효합니다.</li>\n<li><strong>핵심 차이</strong> — 간주근로시간제는 법적 근거가 있고, 포괄임금은 판례에 의한 예외입니다. 간주근로시간제 요건을 갖추지 못한 채 포괄임금만 적용하면 이중으로 위법 소지가 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -203,7 +203,7 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
       {
         title: '택시 공제조합 상대 시 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">택시 공제조합은 일반 보험사보다 합의금이 낮은 경우가 많습니다.</strong></p>\n<ul>\n<li><strong>낮은 합의금 제시</strong> — 공제조합은 합의금을 최소화하려는 경향이 있습니다. 첫 제시 금액을 그대로 수용하지 마세요.</li>\n<li><strong>자차보험 자기부담금</strong> — 쌍방과실 사고에서 자차보험 자기부담금도 상대 과실분만큼 청구 가능합니다.</li>\n<li><strong>합의 전 반드시 확인</strong> — 후유장해가 남을 수 있으므로 치료가 완전히 종료된 후 합의하세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">택시 공제조합은 일반 보험사보다 합의금이 낮은 경우가 많습니다.</strong></p>\n<ul>\n<li><strong>낮은 합의금 제시</strong> — 공제조합은 합의금을 최소화하려는 경향이 있습니다. 첫 제시 금액을 그대로 수용하지 마세요.</li>\n<li><strong>자차보험 자기부담금</strong> — 쌍방과실 사고에서 자차보험 자기부담금도 상대 과실분만큼 청구 가능합니다.</li>\n<li><strong>합의 전 가능한 한 확인</strong> — 후유장해가 남을 수 있으므로 치료가 완전히 종료된 후 합의하세요.</li>\n</ul>',
       },
       {
         title: '택시 승객만 해당되는 특수한 보상 항목',
@@ -282,7 +282,7 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
       {
         title: '산재 인정 기준 4가지',
         content:
-          '<p><strong style="color:#1e3a5f">배달 업무와 사고 사이에 인과관계가 인정되면 산재입니다.</strong></p>\n<ol>\n<li><strong>업무 수행 중 사고</strong> — 배달 콜을 수락한 후 픽업·배달·복귀 과정에서 발생한 사고.</li>\n<li><strong>업무 대기 중 사고</strong> — 앱에 로그인하여 콜을 대기하는 중에 발생한 사고도 업무 관련성이 인정됩니다.</li>\n<li><strong>이동 경로상 사고</strong> — 합리적 배달 경로에서 벗어나지 않는 한 인과관계가 인정됩니다.</li>\n<li><strong>장비 결함 사고</strong> — 배달 가방, 오토바이 등 업무 장비의 결함으로 인한 사고도 포함됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>배달라이더 산재 인정 가능성, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">사고 상황을 입력하면 산재 인정 가능성과 보상 범위를 무료로 확인합니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">배달 업무와 사고 사이에 인과관계가 인정되면 산재입니다.</strong></p>\n<ol>\n<li><strong>업무 수행 중 사고</strong> — 배달 콜을 수락한 후 픽업·배달·복귀 과정에서 발생한 사고.</li>\n<li><strong>업무 대기 중 사고</strong> — 앱에 로그인하여 콜을 대기하는 중에 발생한 사고도 업무 관련성이 인정될 수 있습니다.</li>\n<li><strong>이동 경로상 사고</strong> — 합리적 배달 경로에서 벗어나지 않는 한 인과관계가 인정될 수 있습니다.</li>\n<li><strong>장비 결함 사고</strong> — 배달 가방, 오토바이 등 업무 장비의 결함으로 인한 사고도 포함됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>배달라이더 산재 인정 가능성, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">사고 상황을 입력하면 산재 인정 가능성과 보상 범위를 무료로 확인합니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '산재보험 보상 범위',
@@ -313,7 +313,7 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
       {
         question: '배달 대기 중(콜 수락 전) 사고도 산재인가요?',
         answer:
-          '<p>앱에 로그인하여 배달 대기 중인 상태는 업무 관련성이 인정됩니다. 다만 개인 용무를 위해 이동 중이었다면 인과관계가 부정될 수 있습니다.</p>',
+          '<p>앱에 로그인하여 배달 대기 중인 상태는 업무 관련성이 인정될 수 있습니다. 다만 개인 용무를 위해 이동 중이었다면 인과관계가 부정될 수 있습니다.</p>',
       },
       {
         question: '상대 차량 보험으로 치료받고 있는데 산재도 신청해야 하나요?',
@@ -361,7 +361,7 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
       {
         title: '고속도로 다중추돌 과실비율 결정 원칙',
         content:
-          '<p><strong style="color:#1e3a5f">다중추돌에서 각 차량의 과실은 추돌 순서, 속도, 안전거리 유지 여부로 결정됩니다.</strong></p>\n<ul>\n<li><strong>최초 추돌 차량</strong> — 가장 높은 과실을 부담합니다(70~100%). 급정거·차선변경 등 원인을 제공한 차량.</li>\n<li><strong>후속 추돌 차량</strong> — 안전거리 미유지로 과실이 인정되지만(20~50%), 최초 추돌 차량보다 낮습니다.</li>\n<li><strong>정차 중 추돌된 차량</strong> — 정상 정차 후 뒤에서 추돌된 경우 과실이 0%에 가깝습니다.</li>\n<li><strong>최초 급정거 원인 차량</strong> — 급정거의 원인이 된 차량(갑작스런 끼어들기 등)이 별도로 있으면 해당 차량에도 과실이 배분됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 다중추돌에서 "내가 뒤에서 부딪혔으니 무조건 내 과실"은 아닙니다. 최초 추돌 원인과 각 차량의 안전거리 유지 여부가 핵심입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">다중추돌에서 각 차량의 과실은 추돌 순서, 속도, 안전거리 유지 여부로 결정됩니다.</strong></p>\n<ul>\n<li><strong>최초 추돌 차량</strong> — 가장 높은 과실을 부담합니다(70~100%). 급정거·차선변경 등 원인을 제공한 차량.</li>\n<li><strong>후속 추돌 차량</strong> — 안전거리 미유지로 과실이 인정되지만(20~50%), 최초 추돌 차량보다 낮습니다.</li>\n<li><strong>정차 중 추돌된 차량</strong> — 정상 정차 후 뒤에서 추돌된 경우 과실이 0%에 가깝습니다.</li>\n<li><strong>최초 급정거 원인 차량</strong> — 급정거의 원인이 된 차량(갑작스런 끼어들기 등)이 별도로 있으면 해당 차량에도 과실이 배분됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 다중추돌에서 "내가 뒤에서 부딪혔으니 원칙적으로 내 과실"은 아닙니다. 최초 추돌 원인과 각 차량의 안전거리 유지 여부가 핵심입니다.</blockquote>',
       },
       {
         title: '과실비율에 영향을 미치는 5가지 요소',
@@ -385,7 +385,7 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
         summary:
           '대법원 2025도8137 사건(대법원, 2025.12.11 선고)에서 법원은 혈중알코올농도 처벌 기준치 판단에 관하여, 위드마크 공식 적용 시 유리한 조건을 적용해야 한다고 판시했습니다.',
         takeaway:
-          '다중추돌 사고에서 상대 차량이 음주운전이었다면 과실비율이 크게 유리해집니다. 경찰 조사에서 상대 음주 여부를 반드시 확인하세요.',
+          '다중추돌 사고에서 상대 차량이 음주운전이었다면 과실비율이 크게 유리해집니다. 경찰 조사에서 상대 음주 여부를 가능한 한 확인하세요.',
       },
     ],
     faq: [

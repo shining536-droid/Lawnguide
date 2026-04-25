@@ -120,7 +120,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       {
         title: '자산 신고 — 솔직성이 핵심',
         content:
-          '<p><strong style="color:#1e3a5f">자산 신고는 반드시 솔직·정확해야 면책이 보장됩니다.</strong></p>\n<ul>\n<li><strong>자산 목록</strong> — 부동산·차량·예금·보험·주식·암호화폐 전체.</li>\n<li><strong>명의 은닉 금지</strong> — 가족·타인 명의 은닉은 면책 취소 사유.</li>\n<li><strong>최근 이전</strong> — 파산 신청 전 자산 이전은 사해행위 취소 대상.</li>\n<li><strong>추가 발견</strong> — 신고 후 추가 발견 시 법원에 즉시 보고.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 자산 은닉은 형사 처벌·면책 취소로 이어질 수 있어 반드시 솔직하게 신고하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">자산 신고는 가능한 한 솔직·정확해야 면책이 보장됩니다.</strong></p>\n<ul>\n<li><strong>자산 목록</strong> — 부동산·차량·예금·보험·주식·암호화폐 전체.</li>\n<li><strong>명의 은닉 금지</strong> — 가족·타인 명의 은닉은 면책 취소 사유.</li>\n<li><strong>최근 이전</strong> — 파산 신청 전 자산 이전은 사해행위 취소 대상.</li>\n<li><strong>추가 발견</strong> — 신고 후 추가 발견 시 법원에 즉시 보고.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 자산 은닉은 형사 처벌·면책 취소로 이어질 수 있어 가능한 한 솔직하게 신고하세요.</blockquote>',
       },
       {
         title: '실무 절차 — 자산 평가·환가',
@@ -197,7 +197,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       {
         title: '변제계획 변경 요건',
         content:
-          '<p><strong style="color:#1e3a5f">인가 후 변경은 중대한 사정 변경이 있어야 가능합니다.</strong></p>\n<ul>\n<li><strong>소득 감소</strong> — 실직·업종 변경·매출 하락.</li>\n<li><strong>가족 부양</strong> — 자녀·부모 부양 추가.</li>\n<li><strong>질병</strong> — 본인·가족 질병으로 의료비 증가.</li>\n<li><strong>단순 부담</strong> — 단순히 힘들다는 이유는 불인정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 객관적 증빙이 있어야 변경이 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">인가 후 변경은 중대한 사정 변경이 있어야 가능합니다.</strong></p>\n<ul>\n<li><strong>소득 감소</strong> — 실직·업종 변경·매출 하락.</li>\n<li><strong>가족 부양</strong> — 자녀·부모 부양 추가.</li>\n<li><strong>질병</strong> — 본인·가족 질병으로 의료비 증가.</li>\n<li><strong>단순 부담</strong> — 단순히 힘들다는 이유는 불인정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 객관적 증빙이 있어야 변경이 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '변경 방식 — 감액·기간 연장·유예',
@@ -212,7 +212,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       {
         title: '변경 거부 시 대응',
         content:
-          '<p><strong style="color:#1e3a5f">변경 신청이 거부되면 다른 경로를 검토합니다.</strong></p>\n<ul>\n<li><strong>항고</strong> — 변경 거부 결정에 대한 항고.</li>\n<li><strong>파산 전환</strong> — 변제 불가능하면 개인파산 전환 검토.</li>\n<li><strong>채권자 협의</strong> — 주요 채권자와 개별 협의.</li>\n<li><strong>전문가 조력</strong> — 변호사·회생위원과 재설계.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 변제계획 무단 중단은 회생 취소 사유이므로 반드시 절차를 거치세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">변경 신청이 거부되면 다른 경로를 검토합니다.</strong></p>\n<ul>\n<li><strong>항고</strong> — 변경 거부 결정에 대한 항고.</li>\n<li><strong>파산 전환</strong> — 변제 불가능하면 개인파산 전환 검토.</li>\n<li><strong>채권자 협의</strong> — 주요 채권자와 개별 협의.</li>\n<li><strong>전문가 조력</strong> — 변호사·회생위원과 재설계.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 변제계획 무단 중단은 회생 취소 사유이므로 가능한 한 절차를 거치세요.</blockquote>',
       },
     ],
     cases: [
@@ -422,7 +422,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       {
         question: '공고·배당 절차를 안 하면 어떻게 되나요?',
         answer:
-          '<strong>상속인이 개인 책임을 질 수 있습니다.</strong> 반드시 전 절차 이행이 필요합니다.',
+          '<strong>상속인이 개인 책임을 질 수 있습니다.</strong> 가능한 한 전 절차 이행이 필요합니다.',
       },
     ],
     cta: {
@@ -632,7 +632,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       {
         title: '명예훼손 성립 요건',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제307조·정보통신망법 제70조는 명예훼손 성립 요건을 정합니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 불특정·다수에게 전파 가능성.</li>\n<li><strong>사실·허위사실 적시</strong> — 구체적 사실 언급.</li>\n<li><strong>명예 훼손</strong> — 사회적 평판 하락 위험.</li>\n<li><strong>고의</strong> — 인식하고 작성한 행위.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 공연성·사실 적시·훼손 결과·고의가 모두 충족돼야 성립합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제307조·정보통신망법 제70조는 명예훼손 성립 요건을 정합니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 불특정·다수에게 전파 가능성.</li>\n<li><strong>사실·허위사실 적시</strong> — 구체적 사실 언급.</li>\n<li><strong>명예 훼손</strong> — 사회적 평판 하락 위험.</li>\n<li><strong>고의</strong> — 인식하고 작성한 행위.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 공연성·사실 적시·훼손 결과·고의가 모두 충족돼야 성립할 수 있습니다.</blockquote>',
       },
       {
         title: '위법성 조각 사유 — 공익·진실',
@@ -647,7 +647,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       {
         title: '실무 대응 — 수사 단계 전략',
         content:
-          '<p><strong style="color:#1e3a5f">초기 대응이 처벌 여부를 결정합니다.</strong></p>\n<ul>\n<li><strong>변호사 조력</strong> — 조사 전 반드시 변호사 상담.</li>\n<li><strong>진술 일관성</strong> — 경찰·검찰·법원 진술 일관성 유지.</li>\n<li><strong>공익성 주장</strong> — 구직자 보호·산업 투명성 목적 강조.</li>\n<li><strong>반대 증거 대비</strong> — 회사 측 반박 증거 예측·대응.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 감정적 표현·인신공격은 위법성 조각이 어려우므로 초기 리뷰 표현이 중요합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">초기 대응이 처벌 여부를 결정합니다.</strong></p>\n<ul>\n<li><strong>변호사 조력</strong> — 조사 전 가능한 한 변호사 상담.</li>\n<li><strong>진술 일관성</strong> — 경찰·검찰·법원 진술 일관성 유지.</li>\n<li><strong>공익성 주장</strong> — 구직자 보호·산업 투명성 목적 강조.</li>\n<li><strong>반대 증거 대비</strong> — 회사 측 반박 증거 예측·대응.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 감정적 표현·인신공격은 위법성 조각이 어려우므로 초기 리뷰 표현이 중요합니다.</blockquote>',
       },
     ],
     cases: [
@@ -801,7 +801,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
         '연예인·정치인·공인 명예훼손 판단 기준과 일반인과의 차이를 정리했습니다. 표현의 자유 한계를 지금 확인하세요.',
     },
     intro:
-      '<p>연예인·정치인 등 공인에 대한 비판은 일반인보다 표현의 자유가 넓게 인정되지만 허용 범위를 넘어서면 명예훼손이 성립합니다. 실무 판단 기준과 방어 전략을 정리합니다.</p>',
+      '<p>연예인·정치인 등 공인에 대한 비판은 일반인보다 표현의 자유가 넓게 인정되지만 허용 범위를 넘어서면 명예훼손이 성립할 수 있습니다. 실무 판단 기준과 방어 전략을 정리합니다.</p>',
     sections: [
       {
         title: '공인의 범위 — 정치인·연예인·기업인',

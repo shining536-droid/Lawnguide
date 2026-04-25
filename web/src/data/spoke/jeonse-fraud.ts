@@ -28,7 +28,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '임대인 본인이 맞는지, 건물 소유자인지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">계약서상 임대인과 등기부등본 소유자가 일치하는지 확인하세요</strong></p>\n<p>전세사기의 대표적 수법 중 하나가 <strong>소유자가 아닌 사람</strong>이 임대인을 사칭하는 것입니다. 등기부등본 갑구의 소유자 이름과 계약서의 임대인 이름이 일치하는지 반드시 확인하세요.</p>\n<p>대리인이 계약하는 경우에는 <strong>위임장과 인감증명서</strong>를 확인해야 합니다. 법인 소유 건물이면 법인등기부등본도 떼보세요. 건축물대장(정부24)에서 건물 용도가 주거용인지도 확인해두면 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 등기부등본(소유자 확인), 임대차계약서, 건축물대장(gov.kr)</blockquote>',
+          '<p><strong style="color:#1e3a5f">계약서상 임대인과 등기부등본 소유자가 일치하는지 확인하세요</strong></p>\n<p>전세사기의 대표적 수법 중 하나가 <strong>소유자가 아닌 사람</strong>이 임대인을 사칭하는 것입니다. 등기부등본 갑구의 소유자 이름과 계약서의 임대인 이름이 일치하는지 가능한 한 확인하세요.</p>\n<p>대리인이 계약하는 경우에는 <strong>위임장과 인감증명서</strong>를 확인해야 합니다. 법인 소유 건물이면 법인등기부등본도 떼보세요. 건축물대장(정부24)에서 건물 용도가 주거용인지도 확인해두면 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 등기부등본(소유자 확인), 임대차계약서, 건축물대장(gov.kr)</blockquote>',
       },
       {
         title: '전세보증금 반환보증보험 가입 가능 여부를 확인하세요',
@@ -49,7 +49,7 @@ export const jeonseFraudPages: SpokePage[] = [
         summary:
           '관련 사례에서도 임대인이라고 주장한 사람이 실제 소유자가 아니거나, 위조된 위임장을 사용한 경우가 자주 문제 됩니다.',
         takeaway:
-          '비슷한 상황이라면 등기부등본 소유자와 계약 당사자의 일치 여부를 반드시 확인하세요.',
+          '비슷한 상황이라면 등기부등본 소유자와 계약 당사자의 일치 여부를 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -114,7 +114,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '피해자 인정 요건부터 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">전세사기피해자 지원 특별법의 요건을 먼저 확인하세요</strong></p>\n<p>「전세사기피해자 지원 및 주거안정에 관한 특별법」 제2조에 따라, 보증금 미반환과 임대인의 사기 정황, 경매·공매 진행 등이 피해자 인정의 핵심 요건입니다.</p>\n<p>피해자 유형(일반 임차인, 최우선변제 대상 등)에 따라 지원 범위가 달라질 수 있으므로 <strong>본인의 유형</strong>을 먼저 파악하세요. 신청 기한도 있으므로 특별법 시행령에서 기한을 반드시 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 특별법 요건 확인, 본인 피해 유형 파악, 신청 기한 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">전세사기피해자 지원 특별법의 요건을 먼저 확인하세요</strong></p>\n<p>「전세사기피해자 지원 및 주거안정에 관한 특별법」 제2조에 따라, 보증금 미반환과 임대인의 사기 정황, 경매·공매 진행 등이 피해자 인정의 핵심 요건입니다.</p>\n<p>피해자 유형(일반 임차인, 최우선변제 대상 등)에 따라 지원 범위가 달라질 수 있으므로 <strong>본인의 유형</strong>을 먼저 파악하세요. 신청 기한도 있으므로 특별법 시행령에서 기한을 가능한 한 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 특별법 요건 확인, 본인 피해 유형 파악, 신청 기한 확인</blockquote>',
       },
       {
         title: '기본 서류를 준비하세요 — 계약서, 등기부등본, 전입신고 확인서',
@@ -155,7 +155,7 @@ export const jeonseFraudPages: SpokePage[] = [
       },
       {
         question: '신청 기한이 있나요?',
-        answer: '특별법에 따른 <strong>신청 기한</strong>이 있으므로 시행령에서 반드시 확인하세요. 기한 경과 시 지원이 제한될 수 있습니다.',
+        answer: '특별법에 따른 <strong>신청 기한</strong>이 있으므로 시행령에서 가능한 한 확인하세요. 기한 경과 시 지원이 제한될 수 있습니다.',
       },
       {
         question: '피해자 인정을 받으면 어떤 지원을 받나요?',
@@ -225,7 +225,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '계약 전이라면 이렇게 예방하세요',
         content:
-          '<p><strong style="color:#1e3a5f">계약 전 등기부등본 확인은 필수입니다</strong></p>\n<p>계약 전에 반드시 등기부등본을 확인하고, 보증금이 시세의 <strong>70% 이하</strong>인지 확인하세요. 전세보증보험 가입 가능 여부를 사전에 확인하는 것도 좋은 방법입니다.</p>\n<p>계약 후에는 <strong>전입신고와 확정일자</strong>를 즉시 완료하세요. 대법원 인터넷등기소에서 부동산 변동 알림 서비스를 신청해두면 등기 변동 시 문자로 알려줍니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 등기부등본, 실거래가 확인, 전세보증보험 사전 문의</blockquote>',
+          '<p><strong style="color:#1e3a5f">계약 전 등기부등본 확인은 필수입니다</strong></p>\n<p>계약 전에 가능한 한 등기부등본을 확인하고, 보증금이 시세의 <strong>70% 이하</strong>인지 확인하세요. 전세보증보험 가입 가능 여부를 사전에 확인하는 것도 좋은 방법입니다.</p>\n<p>계약 후에는 <strong>전입신고와 확정일자</strong>를 즉시 완료하세요. 대법원 인터넷등기소에서 부동산 변동 알림 서비스를 신청해두면 등기 변동 시 문자로 알려줍니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 등기부등본, 실거래가 확인, 전세보증보험 사전 문의</blockquote>',
       },
     ],
     cases: [
@@ -307,7 +307,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '피해자 인정 요건부터 확인하세요 — 전세사기피해자지원법 기준',
         content:
-          '<p><strong style="color:#1e3a5f">특별법이 정한 요건을 충족해야 피해자로 인정됩니다</strong></p>\n<p>「전세사기피해자 지원 및 주거안정에 관한 특별법」에 따라 ①<strong>보증금 미반환</strong>, ②임대인의 <strong>사기 정황</strong>(다중 계약, 깡통전세 등), ③경매·공매 진행 또는 보증금 회수 불가 상태 등이 핵심 요건입니다.</p>\n<p>피해자 유형(일반 임차인, 소액임차인, 최우선변제 대상 등)에 따라 <strong>지원 범위가 달라질 수 있으므로</strong> 본인의 상황을 먼저 파악하세요. 신청 기한도 시행령에서 반드시 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: ①보증금 미반환 ②사기 정황 ③경매/보증금 회수 불가 — 특별법 제2조</blockquote>',
+          '<p><strong style="color:#1e3a5f">특별법이 정한 요건을 충족해야 피해자로 인정될 수 있습니다</strong></p>\n<p>「전세사기피해자 지원 및 주거안정에 관한 특별법」에 따라 ①<strong>보증금 미반환</strong>, ②임대인의 <strong>사기 정황</strong>(다중 계약, 깡통전세 등), ③경매·공매 진행 또는 보증금 회수 불가 상태 등이 핵심 요건입니다.</p>\n<p>피해자 유형(일반 임차인, 소액임차인, 최우선변제 대상 등)에 따라 <strong>지원 범위가 달라질 수 있으므로</strong> 본인의 상황을 먼저 파악하세요. 신청 기한도 시행령에서 가능한 한 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: ①보증금 미반환 ②사기 정황 ③경매/보증금 회수 불가 — 특별법 제2조</blockquote>',
       },
       {
         title: 'LH 또는 주거복지센터에 신청하세요',
@@ -348,7 +348,7 @@ export const jeonseFraudPages: SpokePage[] = [
       },
       {
         question: '신청 기한이 있나요?',
-        answer: '특별법 시행령에 따른 <strong>신청 기한</strong>이 있으므로 반드시 확인하세요. 기한 경과 시 지원이 제한됩니다.',
+        answer: '특별법 시행령에 따른 <strong>신청 기한</strong>이 있으므로 가능한 한 확인하세요. 기한 경과 시 지원이 제한됩니다.',
       },
       {
         question: '피해자 인정까지 얼마나 걸리나요?',
@@ -419,7 +419,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '체크리스트를 정리하세요 — 등기, 시세, 보험, 세금체납',
         content:
-          '<p><strong style="color:#1e3a5f">계약 전 반드시 확인해야 할 4가지 항목을 점검하세요</strong></p>\n<p>①<strong>등기부등본</strong>: 근저당·가등기·신탁·가압류 여부, 소유자와 임대인 일치 여부. ②<strong>시세 확인</strong>: 보증금이 시세의 70~80% 이하인지 확인. ③<strong>보증보험</strong>: HUG/SGI 가입 가능 여부 사전 확인. ④<strong>임대인 세금체납</strong>: 국세·지방세 완납증명서 요청(미납 시 보증금보다 세금이 우선 변제될 수 있음).</p>\n<p>이 4가지를 모두 통과해야 안전한 전세 계약입니다. 하나라도 불안하면 <strong>계약을 재검토</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크리스트: ①등기부등본 ②시세 대비 비율 ③보증보험 가입 ④세금체납 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">계약 전 가능한 한 확인해야 할 4가지 항목을 점검하세요</strong></p>\n<p>①<strong>등기부등본</strong>: 근저당·가등기·신탁·가압류 여부, 소유자와 임대인 일치 여부. ②<strong>시세 확인</strong>: 보증금이 시세의 70~80% 이하인지 확인. ③<strong>보증보험</strong>: HUG/SGI 가입 가능 여부 사전 확인. ④<strong>임대인 세금체납</strong>: 국세·지방세 완납증명서 요청(미납 시 보증금보다 세금이 우선 변제될 수 있음).</p>\n<p>이 4가지를 모두 통과해야 안전한 전세 계약입니다. 하나라도 불안하면 <strong>계약을 재검토</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크리스트: ①등기부등본 ②시세 대비 비율 ③보증보험 가입 ④세금체납 확인</blockquote>',
       },
     ],
     cases: [
@@ -428,14 +428,14 @@ export const jeonseFraudPages: SpokePage[] = [
         summary:
           '관련 사례에서도 등기부등본에 신탁 등기가 설정되어 있었으나 이를 확인하지 않고 계약하여 임대차 보호를 받지 못한 경우가 있습니다. 신탁사의 동의 없는 계약은 대항력이 인정되지 않았습니다.',
         takeaway:
-          '비슷한 상황이라면 등기부등본 갑구에 신탁 등기가 있는지 반드시 확인하고, 있다면 신탁사에 임대 동의 여부를 확인하세요.',
+          '비슷한 상황이라면 등기부등본 갑구에 신탁 등기가 있는지 가능한 한 확인하고, 있다면 신탁사에 임대 동의 여부를 확인하세요.',
       },
       {
         title: '보증보험 가입으로 보증금을 보전한 사례',
         summary:
           '관련 사례에서도 임대인이 보증금을 반환하지 못했으나, 전세보증금 반환보증보험에 가입되어 있어 HUG로부터 보증금을 전액 돌려받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 계약 전 보증보험 가입 가능 여부를 반드시 확인하고, 가능하면 즉시 가입하세요.',
+          '비슷한 상황이라면 계약 전 보증보험 가입 가능 여부를 가능한 한 확인하고, 가능하면 즉시 가입하세요.',
       },
     ],
     faq: [
@@ -456,8 +456,8 @@ export const jeonseFraudPages: SpokePage[] = [
         answer: '임대인에게 <strong>국세·지방세 완납증명서</strong> 제출을 요청하세요. 미납 시 보증금보다 세금이 우선 변제됩니다.',
       },
       {
-        question: '신탁 등기가 있으면 무조건 위험한가요?',
-        answer: '신탁사의 <strong>임대 동의</strong>가 있으면 계약이 보호될 수 있습니다. 반드시 신탁사에 확인하세요.',
+        question: '신탁 등기가 있으면 원칙적으로 위험한가요?',
+        answer: '신탁사의 <strong>임대 동의</strong>가 있으면 계약이 보호될 수 있습니다. 가능한 한 신탁사에 확인하세요.',
       },
       {
         question: '공인중개사를 통하면 안전한가요?',
@@ -506,7 +506,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '경찰 신고 — 사기죄 고소장 접수 방법',
         content:
-          '<p><strong style="color:#1e3a5f">관할 경찰서 민원실 또는 사이버수사대에 사기죄(형법 제347조) 고소장을 제출하세요</strong></p>\n<p>고소장에는 <strong>피고소인(임대인) 인적사항, 사기 경위(계약 시점·보증금 금액·기망 행위), 증거 목록</strong>을 기재합니다. 임대인이 계약 당시 이미 과다 채무 상태였거나, 보증금을 돌려줄 의사·능력이 없었음을 보여주는 정황이 핵심입니다.</p>\n<p>경찰서 방문이 어렵다면 <strong>경찰청 사이버수사국 온라인 신고</strong>(ecrm.police.go.kr)도 가능합니다. 다만 전세사기 전담 수사팀이 있는 관할서에 직접 접수하는 것이 수사 속도에 유리합니다. 고소장 접수 후에는 <strong>사건번호</strong>를 반드시 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 고소장 + 증거서류를 함께 제출하면 수사 착수가 빨라집니다. 사건번호를 메모해두세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">관할 경찰서 민원실 또는 사이버수사대에 사기죄(형법 제347조) 고소장을 제출하세요</strong></p>\n<p>고소장에는 <strong>피고소인(임대인) 인적사항, 사기 경위(계약 시점·보증금 금액·기망 행위), 증거 목록</strong>을 기재합니다. 임대인이 계약 당시 이미 과다 채무 상태였거나, 보증금을 돌려줄 의사·능력이 없었음을 보여주는 정황이 핵심입니다.</p>\n<p>경찰서 방문이 어렵다면 <strong>경찰청 사이버수사국 온라인 신고</strong>(ecrm.police.go.kr)도 가능합니다. 다만 전세사기 전담 수사팀이 있는 관할서에 직접 접수하는 것이 수사 속도에 유리합니다. 고소장 접수 후에는 <strong>사건번호</strong>를 가능한 한 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 고소장 + 증거서류를 함께 제출하면 수사 착수가 빨라집니다. 사건번호를 메모해두세요.</blockquote>',
       },
       {
         title: '피해자 인정 신청 — 전세사기피해자법 활용',
@@ -528,7 +528,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '대항력 있는 임차인의 우선변제권 — 주택임대차보호법 제3조·제3조의2',
         summary: '전입신고와 확정일자를 갖춘 임차인이 경매 절차에서 선순위 근저당보다 후순위임에도 소액보증금 우선변제를 받은 사례입니다. 대항력과 확정일자의 선후가 배당 순서를 결정합니다.',
-        takeaway: '전입신고와 확정일자를 빠짐없이 완료하고, 경매 시 배당요구 기한을 반드시 확인하세요.',
+        takeaway: '전입신고와 확정일자를 빠짐없이 완료하고, 경매 시 배당요구 기한을 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -593,12 +593,12 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '전세사기 — 처음부터 돌려줄 생각이 없었던 경우',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제347조 사기죄는 계약 당시의 기망 의도를 처벌합니다</strong></p>\n<p>전세사기는 임대인이 <strong>계약 시점부터 보증금을 돌려줄 의사나 능력이 없었음에도</strong> 이를 숨기고 계약을 체결한 경우에 해당합니다. 핵심은 "계약 당시의 기망 의도"입니다. 이미 과다 채무 상태이거나 다른 세입자 보증금으로 돌려막기를 하고 있었다면 사기에 해당할 수 있습니다.</p>\n<p>사기죄가 인정되면 <strong>10년 이하의 징역 또는 2,000만 원 이하의 벌금</strong>에 처해집니다. 형사 고소를 통해 수사가 시작되며, 구속 수사도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 구분: "계약할 때부터 속일 의도가 있었는가?"가 사기죄 성립의 관건입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제347조 사기죄는 계약 당시의 기망 의도를 처벌합니다</strong></p>\n<p>전세사기는 임대인이 <strong>계약 시점부터 보증금을 돌려줄 의사나 능력이 없었음에도</strong> 이를 숨기고 계약을 체결한 경우에 해당할 소지가 있습니다. 핵심은 "계약 당시의 기망 의도"입니다. 이미 과다 채무 상태이거나 다른 세입자 보증금으로 돌려막기를 하고 있었다면 사기에 해당할 수 있습니다.</p>\n<p>사기죄가 인정되면 <strong>10년 이하의 징역 또는 2,000만 원 이하의 벌금</strong>에 처해집니다. 형사 고소를 통해 수사가 시작되며, 구속 수사도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 구분: "계약할 때부터 속일 의도가 있었는가?"가 사기죄 성립의 관건입니다.</blockquote>',
       },
       {
         title: '보증금 미반환 — 사정이 생겨 못 돌려주는 경우',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제544조에 따른 채무불이행은 민사 문제입니다</strong></p>\n<p>임대인이 계약 당시에는 반환 의사와 능력이 있었으나 <strong>이후 경제적 사정 변동(집값 하락, 후속 세입자 미확보 등)</strong>으로 보증금을 돌려주지 못하는 경우입니다. 이는 형사상 사기가 아니라 민사상 채무불이행에 해당합니다.</p>\n<p>이 경우 임대인을 형사 고소해도 <strong>"사기의 고의가 인정되지 않는다"</strong>는 이유로 불기소 처분될 가능성이 높습니다. 대신 민사소송(보증금반환청구)을 통해 해결해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 구분: 계약 당시에는 정상적이었으나 이후 사정이 변한 경우 → 민사 해결이 원칙입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제544조에 따른 채무불이행은 민사 문제입니다</strong></p>\n<p>임대인이 계약 당시에는 반환 의사와 능력이 있었으나 <strong>이후 경제적 사정 변동(집값 하락, 후속 세입자 미확보 등)</strong>으로 보증금을 돌려주지 못하는 경우입니다. 이는 형사상 사기가 아니라 민사상 채무불이행에 해당할 소지가 있습니다.</p>\n<p>이 경우 임대인을 형사 고소해도 <strong>"사기의 고의가 인정되지 않는다"</strong>는 이유로 불기소 처분될 가능성이 높습니다. 대신 민사소송(보증금반환청구)을 통해 해결해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 구분: 계약 당시에는 정상적이었으나 이후 사정이 변한 경우 → 민사 해결이 원칙입니다.</blockquote>',
       },
       {
         title: '구분 기준 — 사기인지 미반환인지 판단하는 방법',
@@ -634,7 +634,7 @@ export const jeonseFraudPages: SpokePage[] = [
       },
       {
         question: '내용증명을 보내면 효과가 있나요?',
-        answer: '내용증명 자체에 법적 강제력은 없지만, <strong>반환 의사 확인과 소송 증거 확보</strong> 차원에서 반드시 보내세요.',
+        answer: '내용증명 자체에 법적 강제력은 없지만, <strong>반환 의사 확인과 소송 증거 확보</strong> 차원에서 가능한 한 보내세요.',
       },
       {
         question: '임차권등기명령은 언제 신청하나요?',
@@ -686,22 +686,22 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '출석 요구를 받았다면 — 30일 이내에 변호사 상담과 자료 정리를 마치세요',
         content:
-          '<p><strong style="color:#1e3a5f">경찰 출석 전 변호사 상담과 소명 자료 준비가 가장 중요합니다</strong></p>\n<p>경찰로부터 출석 요구서를 받으면 통상 <strong>30일 이내</strong>에 출석해야 합니다. 이 기간 안에 반드시 <strong>형사전문 변호사 상담</strong>을 받으세요. 전세사기(형법 제347조)의 핵심 쟁점은 "계약 당시 보증금을 돌려줄 의사와 능력이 있었는가"입니다.</p>\n<p>보증금 반환 의사가 있었음을 증명할 수 있는 자료를 정리하세요. <strong>계약 당시 재정 상태(등기부등본, 대출 잔액 증명서, 소득 증빙)</strong>, 보증금 반환을 위해 노력한 기록(매매 시도, 대출 상담 내역, 세입자와의 연락 기록)이 핵심입니다. 시세 하락이 원인이라면 <strong>계약 당시와 현재의 KB시세·실거래가 비교 자료</strong>도 준비하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 출석 요구 후 30일 이내 | 준비: 변호사 상담, 계약 당시 재정 증빙, 반환 노력 기록, 시세 비교 자료</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰 출석 전 변호사 상담과 소명 자료 준비가 가장 중요합니다</strong></p>\n<p>경찰로부터 출석 요구서를 받으면 통상 <strong>30일 이내</strong>에 출석해야 합니다. 이 기간 안에 가능한 한 <strong>형사전문 변호사 상담</strong>을 받으세요. 전세사기(형법 제347조)의 핵심 쟁점은 "계약 당시 보증금을 돌려줄 의사와 능력이 있었는가"입니다.</p>\n<p>보증금 반환 의사가 있었음을 증명할 수 있는 자료를 정리하세요. <strong>계약 당시 재정 상태(등기부등본, 대출 잔액 증명서, 소득 증빙)</strong>, 보증금 반환을 위해 노력한 기록(매매 시도, 대출 상담 내역, 세입자와의 연락 기록)이 핵심입니다. 시세 하락이 원인이라면 <strong>계약 당시와 현재의 KB시세·실거래가 비교 자료</strong>도 준비하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 출석 요구 후 30일 이내 | 준비: 변호사 상담, 계약 당시 재정 증빙, 반환 노력 기록, 시세 비교 자료</blockquote>',
       },
       {
         title: '경찰 조사 단계 — 진술 내용이 재판까지 영향을 미칩니다',
         content:
-          '<p><strong style="color:#1e3a5f">경찰 진술은 검찰 송치와 재판의 핵심 증거가 되므로 신중하게 준비하세요</strong></p>\n<p>경찰 조사에서 가장 중요한 것은 <strong>"사기의 고의가 없었다"</strong>는 점을 일관되게 소명하는 것입니다. 계약 당시 보증금을 돌려줄 수 있는 상태였고, 이후 <strong>부동산 시세 하락</strong>이라는 예측 불가능한 사정으로 반환이 어려워졌다는 점을 구체적으로 설명해야 합니다.</p>\n<p>"잘 모르겠다", "기억이 안 난다"는 식의 모호한 답변은 불리하게 작용합니다. 변호사와 함께 <strong>진술서를 사전에 작성</strong>하고, 조사 시 변호인 동석을 요청하세요. 세입자에게 보증금 반환을 위해 노력한 기록(내용증명 회신, 분할 반환 제안 문자 등)이 있다면 반드시 제출하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">전세사기 혐의 대응, 기한별로 무엇을 준비해야 하는지 궁금하다면 <a href="/diagnosis/jeonse-fraud" style="color:#2563eb;font-weight:600">무료 진단</a>에서 상황을 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사기 고의 부정 + 반환 노력 증명 | 진술서 사전 작성 + 변호인 동석 요청</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰 진술은 검찰 송치와 재판의 핵심 증거가 되므로 신중하게 준비하세요</strong></p>\n<p>경찰 조사에서 가장 중요한 것은 <strong>"사기의 고의가 없었다"</strong>는 점을 일관되게 소명하는 것입니다. 계약 당시 보증금을 돌려줄 수 있는 상태였고, 이후 <strong>부동산 시세 하락</strong>이라는 예측 불가능한 사정으로 반환이 어려워졌다는 점을 구체적으로 설명해야 합니다.</p>\n<p>"잘 모르겠다", "기억이 안 난다"는 식의 모호한 답변은 불리하게 작용합니다. 변호사와 함께 <strong>진술서를 사전에 작성</strong>하고, 조사 시 변호인 동석을 요청하세요. 세입자에게 보증금 반환을 위해 노력한 기록(내용증명 회신, 분할 반환 제안 문자 등)이 있다면 가능한 한 제출하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">전세사기 혐의 대응, 기한별로 무엇을 준비해야 하는지 궁금하다면 <a href="/diagnosis/jeonse-fraud" style="color:#2563eb;font-weight:600">무료 진단</a>에서 상황을 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사기 고의 부정 + 반환 노력 증명 | 진술서 사전 작성 + 변호인 동석 요청</blockquote>',
       },
       {
         title: '기소 전 합의 — 검찰 송치 후 기소 결정 전이 가장 중요한 타이밍입니다',
         content:
-          '<p><strong style="color:#1e3a5f">검찰 송치 후 기소 전까지가 합의의 골든타임입니다</strong></p>\n<p>경찰 수사가 완료되면 사건이 <strong>검찰에 송치</strong>됩니다. 검찰은 송치 후 통상 <strong>1~3개월</strong> 내에 기소 여부를 결정합니다. 이 기간이 합의를 시도할 수 있는 가장 중요한 시점입니다. 보증금 전액 반환이 어렵더라도 <strong>일부 반환 + 분할 상환 계획서</strong>를 제시하면 불기소(기소유예) 가능성이 높아집니다.</p>\n<p>합의는 반드시 <strong>변호사를 통해</strong> 진행하세요. 직접 세입자에게 연락하면 오히려 추가적인 문제가 될 수 있습니다. 합의금과 분할 상환 조건을 구체적으로 기재한 <strong>합의서</strong>를 작성하고, 세입자의 <strong>처벌불원서</strong>를 받아두세요. 전세사기는 반의사불벌죄가 아니지만, 합의 여부는 검찰의 기소 판단에 큰 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 타이밍: 검찰 송치 후~기소 결정 전(1~3개월) | 준비: 일부 반환 + 분할 상환 계획서 + 처벌불원서</blockquote>',
+          '<p><strong style="color:#1e3a5f">검찰 송치 후 기소 전까지가 합의의 골든타임입니다</strong></p>\n<p>경찰 수사가 완료되면 사건이 <strong>검찰에 송치</strong>됩니다. 검찰은 송치 후 통상 <strong>1~3개월</strong> 내에 기소 여부를 결정합니다. 이 기간이 합의를 시도할 수 있는 가장 중요한 시점입니다. 보증금 전액 반환이 어렵더라도 <strong>일부 반환 + 분할 상환 계획서</strong>를 제시하면 불기소(기소유예) 가능성이 높아집니다.</p>\n<p>합의는 가능한 한 <strong>변호사를 통해</strong> 진행하세요. 직접 세입자에게 연락하면 오히려 추가적인 문제가 될 수 있습니다. 합의금과 분할 상환 조건을 구체적으로 기재한 <strong>합의서</strong>를 작성하고, 세입자의 <strong>처벌불원서</strong>를 받아두세요. 전세사기는 반의사불벌죄가 아니지만, 합의 여부는 검찰의 기소 판단에 큰 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 타이밍: 검찰 송치 후~기소 결정 전(1~3개월) | 준비: 일부 반환 + 분할 상환 계획서 + 처벌불원서</blockquote>',
       },
       {
         title: '기소 후 재판 — 선처 자료를 체계적으로 준비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">기소되더라도 양형 자료에 따라 벌금형·집행유예·실형이 갈립니다</strong></p>\n<p>사기죄(형법 제347조)로 기소되면 <strong>10년 이하 징역 또는 2,000만 원 이하 벌금</strong>에 해당합니다. 다만 실무에서는 보증금 규모, 피해자 수, 반환 노력, 합의 여부에 따라 양형이 크게 달라집니다. 보증금 <strong>1억 원 미만</strong>이고 초범이며 합의가 이루어진 경우 벌금형이나 집행유예가 선고되는 사례가 많습니다.</p>\n<p>재판에서 유리한 양형 자료를 준비하세요. ①<strong>반성문</strong>, ②보증금 반환 노력 증빙(매매 시도, 대출 상담), ③세입자와의 <strong>합의서 및 처벌불원서</strong>, ④계약 당시 정상적 재정 상태 증명, ⑤<strong>시세 하락 자료</strong>(감정원·KB 시세 추이). 보증금의 일부라도 공탁하면 반성의 진정성을 인정받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">양형 자료: 반성문, 합의서, 처벌불원서, 보증금 일부 공탁, 시세 하락 증빙, 반환 노력 기록</blockquote>',
+          '<p><strong style="color:#1e3a5f">기소되더라도 양형 자료에 따라 벌금형·집행유예·실형이 갈립니다</strong></p>\n<p>사기죄(형법 제347조)로 기소되면 <strong>10년 이하 징역 또는 2,000만 원 이하 벌금</strong>에 해당할 소지가 있습니다. 다만 실무에서는 보증금 규모, 피해자 수, 반환 노력, 합의 여부에 따라 양형이 크게 달라집니다. 보증금 <strong>1억 원 미만</strong>이고 초범이며 합의가 이루어진 경우 벌금형이나 집행유예가 선고되는 사례가 많습니다.</p>\n<p>재판에서 유리한 양형 자료를 준비하세요. ①<strong>반성문</strong>, ②보증금 반환 노력 증빙(매매 시도, 대출 상담), ③세입자와의 <strong>합의서 및 처벌불원서</strong>, ④계약 당시 정상적 재정 상태 증명, ⑤<strong>시세 하락 자료</strong>(감정원·KB 시세 추이). 보증금의 일부라도 공탁하면 반성의 진정성을 인정받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">양형 자료: 반성문, 합의서, 처벌불원서, 보증금 일부 공탁, 시세 하락 증빙, 반환 노력 기록</blockquote>',
       },
     ],
     cases: [
@@ -727,11 +727,11 @@ export const jeonseFraudPages: SpokePage[] = [
       },
       {
         question: '경찰 출석 요구를 무시하면 어떻게 되나요?',
-        answer: '정당한 사유 없이 출석을 거부하면 <strong>체포영장</strong>이 발부될 수 있습니다. 반드시 기한 내에 출석하세요.',
+        answer: '정당한 사유 없이 출석을 거부하면 <strong>체포영장</strong>이 발부될 수 있습니다. 가능한 한 기한 내에 출석하세요.',
       },
       {
         question: '세입자와 직접 합의해도 되나요?',
-        answer: '직접 연락은 오히려 불리할 수 있습니다. 반드시 <strong>변호사를 통해</strong> 합의를 진행하세요.',
+        answer: '직접 연락은 오히려 불리할 수 있습니다. 가능한 한 <strong>변호사를 통해</strong> 합의를 진행하세요.',
       },
       {
         question: '보증금 일부만 돌려줘도 합의가 되나요?',
@@ -794,7 +794,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '병행 전략 — 형사고소와 민사소송을 동시에 진행하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형사+민사+특별법 피해자 인정을 병행하는 것이 가장 효과적입니다</strong></p>\n<p>형사고소와 민사소송은 <strong>별개 절차</strong>이므로 동시에 진행할 수 있습니다. 실무에서 가장 효과적인 전략은 ①<strong>형사고소</strong>로 임대인에게 합의 압박을 가하면서, ②<strong>민사소송</strong>(또는 지급명령 신청)으로 보증금 반환 판결을 확보하고, ③<strong>전세사기피해자 인정 신청</strong>으로 경매유예·법률지원 등을 받는 것입니다.</p>\n<p>민사소송 전에 <strong>임차권등기명령</strong>을 신청하면 이사 후에도 대항력을 유지할 수 있습니다. 경매가 진행 중이라면 <strong>배당요구 종기일 이전에 배당요구서</strong>를 반드시 제출하세요. 기한을 놓치면 배당에서 제외됩니다. 보증보험(HUG·SGI)에 가입된 경우에는 보험금 청구도 동시에 진행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">병행 전략: 형사고소(압박) + 민사소송(판결 확보) + 피해자 인정(지원) + 임차권등기(대항력 보전)</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사+민사+특별법 피해자 인정을 병행하는 것이 가장 효과적입니다</strong></p>\n<p>형사고소와 민사소송은 <strong>별개 절차</strong>이므로 동시에 진행할 수 있습니다. 실무에서 가장 효과적인 전략은 ①<strong>형사고소</strong>로 임대인에게 합의 압박을 가하면서, ②<strong>민사소송</strong>(또는 지급명령 신청)으로 보증금 반환 판결을 확보하고, ③<strong>전세사기피해자 인정 신청</strong>으로 경매유예·법률지원 등을 받는 것입니다.</p>\n<p>민사소송 전에 <strong>임차권등기명령</strong>을 신청하면 이사 후에도 대항력을 유지할 수 있습니다. 경매가 진행 중이라면 <strong>배당요구 종기일 이전에 배당요구서</strong>를 가능한 한 제출하세요. 기한을 놓치면 배당에서 제외됩니다. 보증보험(HUG·SGI)에 가입된 경우에는 보험금 청구도 동시에 진행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">병행 전략: 형사고소(압박) + 민사소송(판결 확보) + 피해자 인정(지원) + 임차권등기(대항력 보전)</blockquote>',
       },
     ],
     comparison: {
@@ -884,7 +884,7 @@ export const jeonseFraudPages: SpokePage[] = [
       },
       {
         question: '배당요구 기한을 놓치면 어떻게 되나요?',
-        answer: '경매 배당에서 <strong>제외</strong>됩니다. 배당요구 종기일을 반드시 확인하고 기한 전에 신청하세요.',
+        answer: '경매 배당에서 <strong>제외</strong>됩니다. 배당요구 종기일을 가능한 한 확인하고 기한 전에 신청하세요.',
       },
       {
         question: '무료 법률상담은 어디서 받나요?',
@@ -921,12 +921,12 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         title: '경매 절차의 전체 흐름을 먼저 파악하세요',
         content:
-          '<p><strong style="color:#1e3a5f">경매는 개시결정 → 감정평가 → 매각(입찰) → 대금납부 → 배당 순서로 진행됩니다</strong></p>\n<p>채권자(은행 등)가 <strong>경매신청</strong>을 하면 법원이 경매개시결정을 내립니다. 이후 감정평가사가 부동산 가치를 산정하고, 법원이 <strong>최저매각가격</strong>을 정해 입찰을 진행합니다. 낙찰자가 대금을 납부하면, 법원이 배당기일을 지정해 채권자들에게 돈을 나눠줍니다.</p>\n<p>개시결정부터 배당까지 보통 <strong>6개월~1년</strong>이 걸립니다. 유찰이 반복되면 더 길어질 수 있습니다. 이 기간 동안 임차인은 반드시 권리신고를 하고 배당요구를 해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">흐름: 경매개시 → 감정평가 → 입찰(매각) → 대금납부 → 배당기일</blockquote>',
+          '<p><strong style="color:#1e3a5f">경매는 개시결정 → 감정평가 → 매각(입찰) → 대금납부 → 배당 순서로 진행됩니다</strong></p>\n<p>채권자(은행 등)가 <strong>경매신청</strong>을 하면 법원이 경매개시결정을 내립니다. 이후 감정평가사가 부동산 가치를 산정하고, 법원이 <strong>최저매각가격</strong>을 정해 입찰을 진행합니다. 낙찰자가 대금을 납부하면, 법원이 배당기일을 지정해 채권자들에게 돈을 나눠줍니다.</p>\n<p>개시결정부터 배당까지 보통 <strong>6개월~1년</strong>이 걸립니다. 유찰이 반복되면 더 길어질 수 있습니다. 이 기간 동안 임차인은 가능한 한 권리신고를 하고 배당요구를 해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">흐름: 경매개시 → 감정평가 → 입찰(매각) → 대금납부 → 배당기일</blockquote>',
       },
       {
         title: '확정일자와 전입신고로 우선변제권을 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">전입신고 + 확정일자 + 점유를 모두 갖춰야 우선변제권이 인정됩니다</strong></p>\n<p><strong>주택임대차보호법 제3조의2</strong>에 따라 임차인이 ①<strong>전입신고</strong>, ②<strong>확정일자</strong>, ③실제 <strong>점유(거주)</strong>를 모두 갖추면 경매에서 후순위 채권자보다 먼저 보증금을 배당받을 수 있습니다. 우선변제권의 순위는 확정일자와 전입신고 중 <strong>늦은 날의 다음 날</strong>부터 발생합니다.</p>\n<p>근저당 설정일이 내 확정일자보다 앞서면 근저당권자가 먼저 배당받습니다. 이 경우 남은 금액에서만 배당받게 되므로, 선순위 채권 합계를 반드시 확인하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 우선변제권 순위가 어떻게 되는지 확인하고 싶다면 <a href="/diagnosis/jeonse-fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 점검해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 전입신고일 + 확정일자일 중 늦은 날의 다음 날부터 우선변제권 발생</blockquote>',
+          '<p><strong style="color:#1e3a5f">전입신고 + 확정일자 + 점유를 모두 갖춰야 우선변제권이 인정될 수 있습니다</strong></p>\n<p><strong>주택임대차보호법 제3조의2</strong>에 따라 임차인이 ①<strong>전입신고</strong>, ②<strong>확정일자</strong>, ③실제 <strong>점유(거주)</strong>를 모두 갖추면 경매에서 후순위 채권자보다 먼저 보증금을 배당받을 수 있습니다. 우선변제권의 순위는 확정일자와 전입신고 중 <strong>늦은 날의 다음 날</strong>부터 발생합니다.</p>\n<p>근저당 설정일이 내 확정일자보다 앞서면 근저당권자가 먼저 배당받습니다. 이 경우 남은 금액에서만 배당받게 되므로, 선순위 채권 합계를 가능한 한 확인하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 우선변제권 순위가 어떻게 되는지 확인하고 싶다면 <a href="/diagnosis/jeonse-fraud" style="color:#2563eb;font-weight:600">무료 진단</a>으로 점검해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 전입신고일 + 확정일자일 중 늦은 날의 다음 날부터 우선변제권 발생</blockquote>',
       },
       {
         title: '소액임차인이라면 최우선변제를 받을 수 있습니다',
@@ -959,7 +959,7 @@ export const jeonseFraudPages: SpokePage[] = [
       {
         question: '경매 배당요구는 언제까지 해야 하나요?',
         answer:
-          '법원이 정한 배당요구 종기까지 신청해야 합니다. 배당요구 종기는 경매개시결정 등기 후 법원이 공고하며, 보통 첫 매각기일 이전입니다. 기한을 놓치면 배당에서 제외될 수 있으므로 법원 공고를 반드시 확인하세요.',
+          '법원이 정한 배당요구 종기까지 신청해야 합니다. 배당요구 종기는 경매개시결정 등기 후 법원이 공고하며, 보통 첫 매각기일 이전입니다. 기한을 놓치면 배당에서 제외될 수 있으므로 법원 공고를 가능한 한 확인하세요.',
       },
       {
         question: '확정일자를 받지 않았으면 배당을 못 받나요?',

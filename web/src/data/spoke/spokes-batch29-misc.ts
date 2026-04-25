@@ -41,7 +41,7 @@ export const spokesBatch29Misc: SpokePage[] = [
       {
         title: '자전거 사고 증거 확보 방법',
         content:
-          '<p><strong style="color:#1e3a5f">사고 직후 현장 증거를 최대한 확보하세요.</strong></p>\n<ul>\n<li><strong>사고 현장 사진</strong> — 도로 상태, 자전거 파손, 부상 부위를 촬영합니다.</li>\n<li><strong>블랙박스·CCTV</strong> — 상대 차량 블랙박스, 주변 상가·아파트 CCTV를 확보 요청합니다.</li>\n<li><strong>경찰 신고</strong> — 반드시 112에 신고하여 사고 접수를 받으세요. 교통사고 조사 기록이 과실비율 판단의 기초가 됩니다.</li>\n<li><strong>목격자 연락처</strong> — 사고를 목격한 행인의 연락처를 받아두세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">사고 직후 현장 증거를 최대한 확보하세요.</strong></p>\n<ul>\n<li><strong>사고 현장 사진</strong> — 도로 상태, 자전거 파손, 부상 부위를 촬영합니다.</li>\n<li><strong>블랙박스·CCTV</strong> — 상대 차량 블랙박스, 주변 상가·아파트 CCTV를 확보 요청합니다.</li>\n<li><strong>경찰 신고</strong> — 가능한 한 112에 신고하여 사고 접수를 받으세요. 교통사고 조사 기록이 과실비율 판단의 기초가 됩니다.</li>\n<li><strong>목격자 연락처</strong> — 사고를 목격한 행인의 연락처를 받아두세요.</li>\n</ul>',
       },
     ],
     cases: [
@@ -100,7 +100,7 @@ export const spokesBatch29Misc: SpokePage[] = [
         '자녀가 교통사고를 당했다면, 어린이 보호구역 가중처벌과 보상 청구 방법을 지금 확인하세요.',
     },
     intro:
-      '<p>초등학교 앞에서 아이가 차에 치여 다리가 부러졌습니다. 아이가 횡단보도를 건너고 있었는데 우회전 차량이 멈추지 않았습니다. 어린이 보호구역(스쿨존)에서의 사고는 특정범죄가중처벌법에 따라 가중처벌되며, 보상도 더 높게 인정됩니다.</p>',
+      '<p>초등학교 앞에서 아이가 차에 치여 다리가 부러졌습니다. 아이가 횡단보도를 건너고 있었는데 우회전 차량이 멈추지 않았습니다. 어린이 보호구역(스쿨존)에서의 사고는 특정범죄가중처벌법에 따라 가중처벌되며, 보상도 더 높게 인정될 수 있습니다.</p>',
     timelineSteps: [
       '1단계: 119 신고·응급 치료',
       '2단계: 경찰 사고 접수·블랙박스 확보',
@@ -111,17 +111,17 @@ export const spokesBatch29Misc: SpokePage[] = [
       {
         title: '어린이 보호구역 사고의 법적 효과',
         content:
-          '<p><strong style="color:#1e3a5f">스쿨존 사고는 민식이법(특가법 제5조의13)에 따라 가중처벌됩니다.</strong></p>\n<ul>\n<li><strong>사망 시</strong> — 무기징역 또는 3년 이상의 징역</li>\n<li><strong>상해 시</strong> — 1년 이상 15년 이하의 징역 또는 500만원~3,000만원 벌금</li>\n<li><strong>보험 면책 불가</strong> — 12대 중과실에 해당하여 종합보험에 가입했어도 형사처벌이 면제되지 않습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 어린이 보호구역 사고에서 운전자의 과실은 거의 100% 인정됩니다. 어린이의 과실은 거의 인정되지 않습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">스쿨존 사고는 민식이법(특가법 제5조의13)에 따라 가중처벌 대상으로 검토될 수 있습니다.</strong></p>\n<ul>\n<li><strong>사망 시</strong> — 무기징역 또는 3년 이상의 징역</li>\n<li><strong>상해 시</strong> — 1년 이상 15년 이하의 징역 또는 500만원~3,000만원 벌금</li>\n<li><strong>보험 면책 불가</strong> — 12대 중과실에 해당하여 종합보험에 가입했어도 형사처벌이 면제되지 않습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 어린이 보호구역 사고에서 운전자의 과실은 거의 100% 인정될 수 있습니다. 어린이의 과실은 거의 인정되지 않습니다.</blockquote>',
       },
       {
         title: '어린이 교통사고 보상 항목',
         content:
-          '<p><strong style="color:#1e3a5f">성인보다 더 높은 보상이 인정되는 항목이 있습니다.</strong></p>\n<ul>\n<li><strong>치료비</strong> — 입원·통원·재활 치료비 전액</li>\n<li><strong>후유장해 보상</strong> — 성장기 아동의 장해는 향후 수십 년의 노동능력 상실로 보상액이 큽니다.</li>\n<li><strong>위자료</strong> — 어린이 본인 + 부모의 위자료가 각각 인정됩니다.</li>\n<li><strong>간병비</strong> — 입원 중 부모의 간병에 대한 비용도 청구 가능합니다.</li>\n<li><strong>성장장해</strong> — 골절 등으로 성장판이 손상되면 성장장해에 대한 보상도 추가됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>어린이 교통사고 보상 예상액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">사고 경위와 부상 정도를 입력하면 예상 보상액을 무료로 확인하세요.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">성인보다 더 높은 보상이 인정되는 항목이 있습니다.</strong></p>\n<ul>\n<li><strong>치료비</strong> — 입원·통원·재활 치료비 전액</li>\n<li><strong>후유장해 보상</strong> — 성장기 아동의 장해는 향후 수십 년의 노동능력 상실로 보상액이 큽니다.</li>\n<li><strong>위자료</strong> — 어린이 본인 + 부모의 위자료가 각각 인정될 수 있습니다.</li>\n<li><strong>간병비</strong> — 입원 중 부모의 간병에 대한 비용도 청구 가능합니다.</li>\n<li><strong>성장장해</strong> — 골절 등으로 성장판이 손상되면 성장장해에 대한 보상도 추가됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>어린이 교통사고 보상 예상액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">사고 경위와 부상 정도를 입력하면 예상 보상액을 무료로 확인하세요.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '부모가 해야 할 일 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">사고 직후 부모가 즉시 해야 할 행동입니다.</strong></p>\n<ul>\n<li><strong>119·112 동시 신고</strong> — 응급 치료와 사고 접수를 동시에 진행하세요.</li>\n<li><strong>CCTV·블랙박스 확보 요청</strong> — 스쿨존에는 CCTV가 설치되어 있으므로 경찰에 확보를 요청하세요.</li>\n<li><strong>진단서 발급</strong> — 초진 진단서를 반드시 발급받으세요. 진단 주수가 보상과 형사처벌에 영향을 줍니다.</li>\n<li><strong>보험회사 합의 서두르지 마세요</strong> — 치료가 끝나기 전에 합의하면 향후 치료비를 못 받을 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">사고 직후 부모가 즉시 해야 할 행동입니다.</strong></p>\n<ul>\n<li><strong>119·112 동시 신고</strong> — 응급 치료와 사고 접수를 동시에 진행하세요.</li>\n<li><strong>CCTV·블랙박스 확보 요청</strong> — 스쿨존에는 CCTV가 설치되어 있으므로 경찰에 확보를 요청하세요.</li>\n<li><strong>진단서 발급</strong> — 초진 진단서를 가능한 한 발급받으세요. 진단 주수가 보상과 형사처벌에 영향을 줍니다.</li>\n<li><strong>보험회사 합의 서두르지 마세요</strong> — 치료가 끝나기 전에 합의하면 향후 치료비를 못 받을 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -130,7 +130,7 @@ export const spokesBatch29Misc: SpokePage[] = [
         summary:
           '대법원 2025도4428 사건(대법원, 2025.08.14 선고)에서 법원은 사업주의 안전·보건조치 의무를 엄격히 해석하면서, 사고 예방을 위한 주의의무의 범위를 판시했습니다.',
         takeaway:
-          '교통사고에서도 운전자의 주의의무는 매우 높게 요구됩니다. 특히 어린이 보호구역에서는 서행·일시정지 의무를 위반하면 거의 100% 과실로 인정됩니다.',
+          '교통사고에서도 운전자의 주의의무는 매우 높게 요구됩니다. 특히 어린이 보호구역에서는 서행·일시정지 의무를 위반하면 거의 100% 과실로 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -333,7 +333,7 @@ export const spokesBatch29Misc: SpokePage[] = [
       {
         title: '면접교섭권은 법적 권리입니다',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제837조의2에 따라 비양육친은 자녀를 만날 권리가 있습니다.</strong></p>\n<p>면접교섭권은 부모의 권리인 동시에 자녀의 권리이기도 합니다. 양육친이 정당한 이유 없이 면접교섭을 거부하는 것은 위법합니다.</p>\n<ul>\n<li><strong>이행명령 신청</strong> — 법원에 면접교섭 이행명령을 신청할 수 있습니다.</li>\n<li><strong>간접강제</strong> — 이행명령에도 불구하고 거부하면, 1회 불이행 시 일정 금액을 지급하도록 간접강제를 신청할 수 있습니다.</li>\n<li><strong>과태료</strong> — 정당한 이유 없이 면접교섭을 방해하면 1,000만원 이하의 과태료가 부과됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 면접교섭 거부는 과태료와 간접강제의 대상이 됩니다. 법원의 도움을 받으세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제837조의2에 따라 비양육친은 자녀를 만날 권리가 있습니다.</strong></p>\n<p>면접교섭권은 부모의 권리인 동시에 자녀의 권리이기도 합니다. 양육친이 정당한 이유 없이 면접교섭을 거부하는 것은 위법 소지가 있습니다.</p>\n<ul>\n<li><strong>이행명령 신청</strong> — 법원에 면접교섭 이행명령을 신청할 수 있습니다.</li>\n<li><strong>간접강제</strong> — 이행명령에도 불구하고 거부하면, 1회 불이행 시 일정 금액을 지급하도록 간접강제를 신청할 수 있습니다.</li>\n<li><strong>과태료</strong> — 정당한 이유 없이 면접교섭을 방해하면 1,000만원 이하의 과태료가 부과됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 면접교섭 거부는 과태료와 간접강제의 대상이 됩니다. 법원의 도움을 받으세요.</blockquote>',
       },
       {
         title: '면접교섭 이행 강제 절차',
@@ -500,7 +500,7 @@ export const spokesBatch29Misc: SpokePage[] = [
         summary:
           '대법원 2023다266031 사건(대법원, 2024.12.12 선고)에서 법원은 채무자 회생 및 파산에 관한 법률 제566조 제7호의 비면책채권인 "채무자가 악의로 채권자목록에 기재하지 아니한 청구권"의 범위를 판시했습니다.',
         takeaway:
-          '세금은 대표적인 비면책채권입니다. 회생이든 파산이든 세금 채무는 완전히 없어지지 않으므로, 변제계획 수립 시 세금 납부 방안을 반드시 포함하세요.',
+          '세금은 대표적인 비면책채권입니다. 회생이든 파산이든 세금 채무는 완전히 없어지지 않으므로, 변제계획 수립 시 세금 납부 방안을 가능한 한 포함하세요.',
       },
     ],
     faq: [
@@ -733,7 +733,7 @@ export const spokesBatch29Misc: SpokePage[] = [
     ],
     faq: [
       {
-        question: '집주인이 "직접 살겠다"고 하면 무조건 나가야 하나요?',
+        question: '집주인이 "직접 살겠다"고 하면 원칙적으로 나가야 하나요?',
         answer:
           '<p>실거주 목적이 진짜인지 확인이 필요합니다. 갱신 거절 후 실제로 살지 않으면 손해배상을 청구할 수 있으므로, 이후 해당 주택 상태를 확인하세요.</p>',
       },

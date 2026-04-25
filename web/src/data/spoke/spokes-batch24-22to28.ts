@@ -37,7 +37,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
       {
         title: '2단계 — 상황별 우선순위를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">가해자의 재산 상태와 증거 확보 여부가 순서를 결정합니다</strong></p>\n<p>투자 사기에서 가장 중요한 건 <strong>돈을 실제로 돌려받을 수 있는가</strong>입니다. 가해자가 재산을 숨기거나 빼돌리면 민사 판결을 받아도 집행할 대상이 없습니다.</p>\n<ul>\n<li><strong>형사고소 먼저</strong>가 유리한 경우 — 가해자가 재산을 은닉하거나 도주할 가능성이 있을 때. 수사기관이 계좌 추적·출국금지·체포 조치를 할 수 있습니다</li>\n<li><strong>민사소송 먼저</strong>가 유리한 경우 — 가해자의 부동산·예금 등 재산이 확인되고, 빠르게 <strong>가압류</strong>로 재산을 동결해야 할 때</li>\n<li><strong>동시 진행</strong>이 유리한 경우 — 증거가 충분하고 금액이 클 때. 형사 수사 기록이 민사 증거로 바로 연결됩니다</li>\n<li><strong>주의</strong> — 형사 합의 시 민사 청구권 포기 조항이 들어가는 경우가 있으므로, 합의서 내용을 반드시 확인하세요</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 투자 사기 피해 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">가해자의 재산 상태와 증거 확보 여부가 순서를 결정합니다</strong></p>\n<p>투자 사기에서 가장 중요한 건 <strong>돈을 실제로 돌려받을 수 있는가</strong>입니다. 가해자가 재산을 숨기거나 빼돌리면 민사 판결을 받아도 집행할 대상이 없습니다.</p>\n<ul>\n<li><strong>형사고소 먼저</strong>가 유리한 경우 — 가해자가 재산을 은닉하거나 도주할 가능성이 있을 때. 수사기관이 계좌 추적·출국금지·체포 조치를 할 수 있습니다</li>\n<li><strong>민사소송 먼저</strong>가 유리한 경우 — 가해자의 부동산·예금 등 재산이 확인되고, 빠르게 <strong>가압류</strong>로 재산을 동결해야 할 때</li>\n<li><strong>동시 진행</strong>이 유리한 경우 — 증거가 충분하고 금액이 클 때. 형사 수사 기록이 민사 증거로 바로 연결됩니다</li>\n<li><strong>주의</strong> — 형사 합의 시 민사 청구권 포기 조항이 들어가는 경우가 있으므로, 합의서 내용을 가능한 한 확인하세요</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 투자 사기 피해 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '3단계 — 절차별 준비사항을 정리하세요',
@@ -76,7 +76,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
       {
         question: '투자 사기인지 단순 투자 실패인지 어떻게 구별하나요?',
         answer:
-          '핵심은 <strong>기망 행위</strong>입니다. 처음부터 돈을 돌려줄 의사 없이 수익률을 거짓으로 보장했다면 사기죄가 성립합니다. 반면 실제로 투자를 시도했으나 손실이 발생한 경우라면 민사 분쟁에 해당할 수 있습니다.',
+          '핵심은 <strong>기망 행위</strong>입니다. 처음부터 돈을 돌려줄 의사 없이 수익률을 거짓으로 보장했다면 사기죄가 성립할 수 있습니다. 반면 실제로 투자를 시도했으나 손실이 발생한 경우라면 민사 분쟁에 해당할 수 있습니다.',
       },
       {
         question: '가해자가 재산을 빼돌리고 있는데 어떻게 막나요?',
@@ -86,12 +86,12 @@ export const spokesBatch24_22to28: SpokePage[] = [
       {
         question: '형사 합의할 때 민사 청구권을 포기해야 하나요?',
         answer:
-          '합의서에 <strong>"민사상 일체의 청구를 포기한다"</strong>는 조항이 포함되면, 이후 민사소송이 어려워질 수 있습니다. 합의서 작성 시 반드시 이 조항을 확인하고, 전액 배상이 아니라면 민사 청구권 유보 문구를 넣으세요.',
+          '합의서에 <strong>"민사상 일체의 청구를 포기한다"</strong>는 조항이 포함되면, 이후 민사소송이 어려워질 수 있습니다. 합의서 작성 시 가능한 한 이 조항을 확인하고, 전액 배상이 아니라면 민사 청구권 유보 문구를 넣으세요.',
       },
       {
         question: '피해금액이 적어도 형사고소가 가능한가요?',
         answer:
-          '가능합니다. 사기죄는 피해 금액에 관계없이 성립합니다. 다만 소액 피해의 경우 수사 우선순위가 낮아질 수 있으므로, 같은 가해자에게 피해를 입은 다른 피해자들과 <strong>공동 고소</strong>를 하면 수사력이 집중됩니다.',
+          '가능합니다. 사기죄는 피해 금액에 관계없이 성립할 수 있습니다. 다만 소액 피해의 경우 수사 우선순위가 낮아질 수 있으므로, 같은 가해자에게 피해를 입은 다른 피해자들과 <strong>공동 고소</strong>를 하면 수사력이 집중됩니다.',
       },
     ],
     cta: {
@@ -255,7 +255,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
       {
         question: '한쪽이 법원에 출석하지 않으면 어떻게 되나요?',
         answer:
-          '협의이혼은 <strong>반드시 쌍방 출석</strong>이 필요합니다. 한쪽이 출석하지 않으면 이혼 의사 확인이 불가능합니다. 대리인 출석은 허용되지 않으며, 일정을 재조율해야 합니다.',
+          '협의이혼은 <strong>가능한 한 쌍방 출석</strong>이 필요합니다. 한쪽이 출석하지 않으면 이혼 의사 확인이 불가능합니다. 대리인 출석은 허용되지 않으며, 일정을 재조율해야 합니다.',
       },
       {
         question: '협의이혼 비용은 얼마나 드나요?',
@@ -477,7 +477,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
       {
         title: '기각 사유 1~2 — 소득 부족과 채무 초과를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">개인회생은 변제 능력이 있어야 인가됩니다</strong></p>\n<p>개인회생은 파산과 달리 <strong>3~5년간 소득의 일부로 채무를 변제</strong>하는 제도입니다. 따라서 일정한 소득이 있어야 하고, 채무 총액이 법정 한도를 넘지 않아야 합니다.</p>\n<ul>\n<li><strong>기각 사유 ① 소득 부족</strong> — 변제계획에 따라 매월 일정 금액을 납부할 수 있는 소득이 있어야 합니다. 무직이거나 소득이 극히 적으면 변제 능력이 없다고 판단되어 기각될 수 있습니다</li>\n<li><strong>방지법</strong> — 신청 전에 안정적인 소득(근로·사업·프리랜서 등)을 확보하세요. 일용직이라도 지속적 소득 증빙이 가능하면 인정됩니다</li>\n<li><strong>기각 사유 ② 채무 한도 초과</strong> — 담보채무 15억원, 무담보채무 10억원을 초과하면 개인회생을 신청할 수 없습니다</li>\n<li><strong>방지법</strong> — 채무 총액이 한도에 가까우면 정확한 잔액을 확인하세요. 한도 초과 시에는 파산·면책 절차를 검토해야 합니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">소득 증빙 확보 + 채무 한도(담보 15억/무담보 10억) 확인 → 기각 사유 ①② 방지</blockquote>',
+          '<p><strong style="color:#1e3a5f">개인회생은 변제 능력이 있어야 인가됩니다</strong></p>\n<p>개인회생은 파산과 달리 <strong>3~5년간 소득의 일부로 채무를 변제</strong>하는 제도입니다. 따라서 일정한 소득이 있어야 하고, 채무 총액이 법정 한도를 넘지 않아야 합니다.</p>\n<ul>\n<li><strong>기각 사유 ① 소득 부족</strong> — 변제계획에 따라 매월 일정 금액을 납부할 수 있는 소득이 있어야 합니다. 무직이거나 소득이 극히 적으면 변제 능력이 없다고 판단되어 기각될 수 있습니다</li>\n<li><strong>방지법</strong> — 신청 전에 안정적인 소득(근로·사업·프리랜서 등)을 확보하세요. 일용직이라도 지속적 소득 증빙이 가능하면 인정될 수 있습니다</li>\n<li><strong>기각 사유 ② 채무 한도 초과</strong> — 담보채무 15억원, 무담보채무 10억원을 초과하면 개인회생을 신청할 수 없습니다</li>\n<li><strong>방지법</strong> — 채무 총액이 한도에 가까우면 정확한 잔액을 확인하세요. 한도 초과 시에는 파산·면책 절차를 검토해야 합니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">소득 증빙 확보 + 채무 한도(담보 15억/무담보 10억) 확인 → 기각 사유 ①② 방지</blockquote>',
       },
       {
         title: '기각 사유 3~4 — 허위 신고와 면책 불허 사유를 피하세요',
@@ -496,7 +496,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
         summary:
           '대법원 2024다221042 사건(대법원, 2025.10.16. 선고)에서 법원은 개인회생 면책 결정을 받은 채무자는 변제계획에 따라 변제한 것을 제외하고 개인회생채권자에 대한 채무의 책임이 면제되지만, 채권자목록에 누락된 보증인의 권리에 대해서는 별도 검토가 필요하다고 판시했습니다.',
         takeaway:
-          '채권자 목록을 빠짐없이 작성해야 면책의 효력을 온전히 받을 수 있습니다. 보증인이 있는 채무도 반드시 채권자 목록에 포함하세요.',
+          '채권자 목록을 빠짐없이 작성해야 면책의 효력을 온전히 받을 수 있습니다. 보증인이 있는 채무도 가능한 한 채권자 목록에 포함하세요.',
       },
     ],
     faq: [

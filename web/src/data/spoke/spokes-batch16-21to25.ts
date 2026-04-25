@@ -28,7 +28,7 @@ export const spokesBatch16Pages21to25: SpokePage[] = [
       {
         title: '셋째, 합의가 안 되면 분쟁조정이나 소송을 진행하세요',
         content:
-          '<p><strong style="color:#1e3a5f">손해배상 청구권 소멸시효는 사고일로부터 3년입니다</strong></p>\n<p>보험사와 합의가 되지 않으면 <strong>손해보험협회 분쟁조정</strong> 또는 <strong>금융감독원 분쟁조정위원회</strong>에 조정을 신청할 수 있습니다. 조정으로도 해결되지 않으면 <strong>민사소송</strong>을 제기해야 합니다.</p>\n<p>민법 제766조에 따라 손해배상 청구권의 소멸시효는 <strong>손해 및 가해자를 안 날로부터 3년</strong>입니다. 후유증의 경우 증상이 확정된 시점(증상고정일)부터 기산되는 경우도 있으므로, 시효가 임박했다면 <strong>즉시 소송을 제기</strong>하여 시효를 중단시키세요. 소송에서는 법원 감정을 통해 객관적 장해율이 산정되므로, 보험사 자문보다 유리한 결과를 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 분쟁조정 → 소송 순서 | 소멸시효 3년(증상고정일 기산) 반드시 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">손해배상 청구권 소멸시효는 사고일로부터 3년입니다</strong></p>\n<p>보험사와 합의가 되지 않으면 <strong>손해보험협회 분쟁조정</strong> 또는 <strong>금융감독원 분쟁조정위원회</strong>에 조정을 신청할 수 있습니다. 조정으로도 해결되지 않으면 <strong>민사소송</strong>을 제기해야 합니다.</p>\n<p>민법 제766조에 따라 손해배상 청구권의 소멸시효는 <strong>손해 및 가해자를 안 날로부터 3년</strong>입니다. 후유증의 경우 증상이 확정된 시점(증상고정일)부터 기산되는 경우도 있으므로, 시효가 임박했다면 <strong>즉시 소송을 제기</strong>하여 시효를 중단시키세요. 소송에서는 법원 감정을 통해 객관적 장해율이 산정되므로, 보험사 자문보다 유리한 결과를 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 분쟁조정 → 소송 순서 | 소멸시효 3년(증상고정일 기산) 가능한 한 확인</blockquote>',
       },
       {
         title: '후유장해 등급별 보상 범위를 확인하세요',
@@ -64,7 +64,7 @@ export const spokesBatch16Pages21to25: SpokePage[] = [
       },
       {
         question: '후유장해 보상금과 합의금은 다른 건가요?',
-        answer: '후유장해 보상금은 장해등급에 따른 <strong>법정 기준</strong>이고, 합의금은 치료비·위자료·일실수입 등을 포함한 <strong>총 보상액</strong>입니다. 합의 시 후유장해 보상금이 적정한지 반드시 확인하세요.',
+        answer: '후유장해 보상금은 장해등급에 따른 <strong>법정 기준</strong>이고, 합의금은 치료비·위자료·일실수입 등을 포함한 <strong>총 보상액</strong>입니다. 합의 시 후유장해 보상금이 적정한지 가능한 한 확인하세요.',
       },
     ],
     cta: {
@@ -120,12 +120,12 @@ export const spokesBatch16Pages21to25: SpokePage[] = [
         summary:
           '대법원 2022다235009 사건(2025.5.15 선고)에서, 법원은 교통사고 손해배상에서 과실비율에 따른 책임보험금 대위 범위를 판단하면서, 피해자의 실제 과실 비율이 보상 범위에 직접적으로 영향을 미친다고 판시했습니다.',
         takeaway:
-          '비슷한 상황이라면 과실비율 10%p 차이로도 보상금이 수백만 원 달라질 수 있으므로, 불합리한 과실비율에는 반드시 이의를 제기하세요.',
+          '비슷한 상황이라면 과실비율 10%p 차이로도 보상금이 수백만 원 달라질 수 있으므로, 불합리한 과실비율에는 가능한 한 이의를 제기하세요.',
       },
     ],
     faq: [
       {
-        question: '보험사가 정한 과실비율에 반드시 동의해야 하나요?',
+        question: '보험사가 정한 과실비율에 가능한 한 동의해야 하나요?',
         answer: '<strong>아닙니다.</strong> 보험사 과실비율은 법적 구속력이 없는 "의견"일 뿐입니다. 동의하지 않으면 이의를 제기하고 분쟁조정·소송으로 다툴 수 있습니다.',
       },
       {
@@ -183,7 +183,7 @@ export const spokesBatch16Pages21to25: SpokePage[] = [
       {
         title: '둘째, 권리금 회수 기회를 보장받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">임대인은 임차인의 권리금 회수를 방해할 수 없습니다</strong></p>\n<p><strong>상가건물 임대차보호법 제10조의4</strong>에 따라 임대인은 임차인이 주선한 <strong>신규 임차인과의 계약 체결을 정당한 사유 없이 거부</strong>해서는 안 됩니다. 임대인이 권리금을 요구하거나, 임차인이 주선한 사람과의 계약을 거절하거나, 현저히 높은 차임을 요구하여 계약을 방해하는 행위는 모두 <strong>권리금 회수 방해행위</strong>에 해당합니다.</p>\n<p>갱신이 거절되더라도 임대차기간 만료 <strong>6개월 전부터 만료 시까지</strong> 신규 임차인을 주선할 권리가 있습니다. 신규 임차인 후보를 찾아 임대인에게 <strong>서면으로 통보</strong>하세요. 임대인이 거부하면 이것이 손해배상의 근거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 신규 임차인 주선 → 임대인에게 서면 통보 → 거부 시 증거 확보</blockquote>',
+          '<p><strong style="color:#1e3a5f">임대인은 임차인의 권리금 회수를 방해할 수 없습니다</strong></p>\n<p><strong>상가건물 임대차보호법 제10조의4</strong>에 따라 임대인은 임차인이 주선한 <strong>신규 임차인과의 계약 체결을 정당한 사유 없이 거부</strong>해서는 안 됩니다. 임대인이 권리금을 요구하거나, 임차인이 주선한 사람과의 계약을 거절하거나, 현저히 높은 차임을 요구하여 계약을 방해하는 행위는 모두 <strong>권리금 회수 방해행위</strong>에 해당할 소지가 있습니다.</p>\n<p>갱신이 거절되더라도 임대차기간 만료 <strong>6개월 전부터 만료 시까지</strong> 신규 임차인을 주선할 권리가 있습니다. 신규 임차인 후보를 찾아 임대인에게 <strong>서면으로 통보</strong>하세요. 임대인이 거부하면 이것이 손해배상의 근거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 신규 임차인 주선 → 임대인에게 서면 통보 → 거부 시 증거 확보</blockquote>',
       },
       {
         title: '셋째, 권리금 회수 방해 시 손해배상을 청구하세요',
@@ -261,17 +261,17 @@ export const spokesBatch16Pages21to25: SpokePage[] = [
       {
         title: '둘째, 위약금 범위를 정확히 산정하세요',
         content:
-          '<p><strong style="color:#1e3a5f">계약서에 위약금 조항이 있는지 반드시 확인하세요</strong></p>\n<p>부동산 매매 계약에서 위약금은 크게 두 가지로 나뉩니다. <strong>약정 해제권 행사</strong>(계약금 해제)의 경우 매수인은 <strong>계약금 포기</strong>, 매도인은 <strong>계약금 배액 배상</strong>이 기본입니다. 매매대금의 10%가 계약금인 경우가 일반적이므로, 5억 원 아파트라면 매수인의 위약금은 5,000만 원입니다.</p>\n<p>계약서에 별도 <strong>위약벌 조항</strong>이 있으면(예: "위약 시 매매대금의 20% 지급") 이 조항이 적용됩니다. 다만 위약금이 부당하게 과다한 경우 <strong>민법 제398조 제2항</strong>에 따라 법원에 <strong>감액을 청구</strong>할 수 있습니다. 법원은 계약 내용, 채무불이행 경위, 당사자의 지위, 실손해액 등을 종합하여 감액 여부를 결정합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 계약금 해제 → 계약금 포기/배액배상 | 위약벌 조항 확인 | 과다 위약금은 감액 청구 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">계약서에 위약금 조항이 있는지 가능한 한 확인하세요</strong></p>\n<p>부동산 매매 계약에서 위약금은 크게 두 가지로 나뉩니다. <strong>약정 해제권 행사</strong>(계약금 해제)의 경우 매수인은 <strong>계약금 포기</strong>, 매도인은 <strong>계약금 배액 배상</strong>이 기본입니다. 매매대금의 10%가 계약금인 경우가 일반적이므로, 5억 원 아파트라면 매수인의 위약금은 5,000만 원입니다.</p>\n<p>계약서에 별도 <strong>위약벌 조항</strong>이 있으면(예: "위약 시 매매대금의 20% 지급") 이 조항이 적용됩니다. 다만 위약금이 부당하게 과다한 경우 <strong>민법 제398조 제2항</strong>에 따라 법원에 <strong>감액을 청구</strong>할 수 있습니다. 법원은 계약 내용, 채무불이행 경위, 당사자의 지위, 실손해액 등을 종합하여 감액 여부를 결정합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 계약금 해제 → 계약금 포기/배액배상 | 위약벌 조항 확인 | 과다 위약금은 감액 청구 가능</blockquote>',
       },
       {
         title: '셋째, 계약 해제를 서면으로 통보하고 분쟁에 대비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">해제 의사표시는 반드시 서면(내용증명)으로 하세요</strong></p>\n<p>계약 해제는 상대방에게 <strong>일방적 의사표시</strong>로 할 수 있지만, 증거 확보를 위해 반드시 <strong>내용증명 우편</strong>으로 보내세요. 내용증명에는 "민법 제565조에 따라 계약금을 포기하고 본 계약을 해제합니다"라는 내용과 함께 계약 내용, 해제 사유를 명시하세요.</p>\n<p>상대방이 해제를 다투면 <strong>민사소송</strong>으로 갈 수 있습니다. 이 경우 이행착수 여부가 핵심 쟁점이 됩니다. 중도금 수수 내역, 등기 서류 교부 여부, 대출 실행 기록 등 <strong>이행착수 시점을 입증할 증거</strong>를 미리 확보해두세요. 채무불이행으로 인한 해제라면 상대방의 <strong>이행 최고</strong>(이행을 독촉하는 서면)를 먼저 보내야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 내용증명으로 해제 통보 → 이행착수 증거 확보 → 채무불이행 해제 시 이행최고 선행</blockquote>',
+          '<p><strong style="color:#1e3a5f">해제 의사표시는 가능한 한 서면(내용증명)으로 하세요</strong></p>\n<p>계약 해제는 상대방에게 <strong>일방적 의사표시</strong>로 할 수 있지만, 증거 확보를 위해 가능한 한 <strong>내용증명 우편</strong>으로 보내세요. 내용증명에는 "민법 제565조에 따라 계약금을 포기하고 본 계약을 해제합니다"라는 내용과 함께 계약 내용, 해제 사유를 명시하세요.</p>\n<p>상대방이 해제를 다투면 <strong>민사소송</strong>으로 갈 수 있습니다. 이 경우 이행착수 여부가 핵심 쟁점이 됩니다. 중도금 수수 내역, 등기 서류 교부 여부, 대출 실행 기록 등 <strong>이행착수 시점을 입증할 증거</strong>를 미리 확보해두세요. 채무불이행으로 인한 해제라면 상대방의 <strong>이행 최고</strong>(이행을 독촉하는 서면)를 먼저 보내야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 내용증명으로 해제 통보 → 이행착수 증거 확보 → 채무불이행 해제 시 이행최고 선행</blockquote>',
       },
       {
         title: '상대방의 계약 해제에 대응하는 방법도 알아두세요',
         content:
-          '<p><strong style="color:#1e3a5f">부당한 해제 통보를 받았다면 이행에 착수한 사실을 증명하세요</strong></p>\n<p>내가 계약을 해제하려는 것이 아니라, <strong>상대방이 일방적으로 해제를 통보</strong>한 경우라면 대응 방법이 다릅니다. 핵심은 내가 이미 <strong>이행에 착수</strong>했음을 증명하는 것입니다. 중도금을 지급했거나, 잔금 마련을 위해 대출을 실행했거나, 이사 준비를 위해 기존 주택의 매매계약을 체결한 사실 등이 이행의 착수에 해당합니다.</p>\n<p>이행에 착수한 후에는 상대방의 <strong>계약금 해제가 불가능</strong>하므로, 상대방에게 <strong>계약 이행을 최고</strong>하고, 이행하지 않으면 채무불이행을 이유로 <strong>손해배상</strong>(매매대금 차액, 중개수수료 등)을 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">상대방의 부당 해제 → 이행착수 증명 → 이행최고 → 손해배상 청구</blockquote>',
+          '<p><strong style="color:#1e3a5f">부당한 해제 통보를 받았다면 이행에 착수한 사실을 증명하세요</strong></p>\n<p>내가 계약을 해제하려는 것이 아니라, <strong>상대방이 일방적으로 해제를 통보</strong>한 경우라면 대응 방법이 다릅니다. 핵심은 내가 이미 <strong>이행에 착수</strong>했음을 증명하는 것입니다. 중도금을 지급했거나, 잔금 마련을 위해 대출을 실행했거나, 이사 준비를 위해 기존 주택의 매매계약을 체결한 사실 등이 이행의 착수에 해당할 소지가 있습니다.</p>\n<p>이행에 착수한 후에는 상대방의 <strong>계약금 해제가 불가능</strong>하므로, 상대방에게 <strong>계약 이행을 최고</strong>하고, 이행하지 않으면 채무불이행을 이유로 <strong>손해배상</strong>(매매대금 차액, 중개수수료 등)을 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">상대방의 부당 해제 → 이행착수 증명 → 이행최고 → 손해배상 청구</blockquote>',
       },
     ],
     cases: [
@@ -339,7 +339,7 @@ export const spokesBatch16Pages21to25: SpokePage[] = [
       {
         title: '2단계: 매도인에게 하자를 통지하세요',
         content:
-          '<p><strong style="color:#1e3a5f">하자 발견 후 6개월 이내에 통지해야 합니다</strong></p>\n<p><strong>민법 제580조·제582조</strong>에 따라 매수인은 매매 목적물에 하자가 있을 때 <strong>하자 발견일로부터 6개월 이내</strong>에 매도인에게 하자를 통지하고 손해배상 또는 계약 해제를 청구할 수 있습니다. 이 6개월 기한을 놓치면 <strong>하자담보책임을 물을 수 없으므로</strong> 반드시 기한 내에 통지하세요.</p>\n<p>통지는 반드시 <strong>내용증명 우편</strong>으로 보내세요. "본 부동산에 아래와 같은 하자가 발견되었으므로, 민법 제580조에 따라 하자보수 또는 손해배상을 청구합니다"라는 내용과 함께 하자의 구체적 내용, 발견 일시, 증거 목록을 기재하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 하자 발견 후 6개월 이내 내용증명 발송 필수 | 하자 내용·발견일·증거 목록 기재</blockquote>',
+          '<p><strong style="color:#1e3a5f">하자 발견 후 6개월 이내에 통지해야 합니다</strong></p>\n<p><strong>민법 제580조·제582조</strong>에 따라 매수인은 매매 목적물에 하자가 있을 때 <strong>하자 발견일로부터 6개월 이내</strong>에 매도인에게 하자를 통지하고 손해배상 또는 계약 해제를 청구할 수 있습니다. 이 6개월 기한을 놓치면 <strong>하자담보책임을 물을 수 없으므로</strong> 가능한 한 기한 내에 통지하세요.</p>\n<p>통지는 가능한 한 <strong>내용증명 우편</strong>으로 보내세요. "본 부동산에 아래와 같은 하자가 발견되었으므로, 민법 제580조에 따라 하자보수 또는 손해배상을 청구합니다"라는 내용과 함께 하자의 구체적 내용, 발견 일시, 증거 목록을 기재하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 하자 발견 후 6개월 이내 내용증명 발송 필수 | 하자 내용·발견일·증거 목록 기재</blockquote>',
       },
       {
         title: '3단계: 하자보수 또는 손해배상을 청구하세요',

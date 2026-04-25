@@ -74,7 +74,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         question: '외국에서 먼저 이혼 판결을 받았는데 국내에서 효력이 있나요?',
         answer:
-          '<strong>외국판결 승인 요건(관할·공서양속 등)을 충족해야 합니다.</strong> 국내 법원의 별도 승인 절차(민사소송법 제217조)를 거쳐야 효력이 인정됩니다.',
+          '<strong>외국판결 승인 요건(관할·공서양속 등)을 충족해야 합니다.</strong> 국내 법원의 별도 승인 절차(민사소송법 제217조)를 거쳐야 효력이 인정될 수 있습니다.',
       },
     ],
     cta: {
@@ -134,7 +134,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
         summary:
           '대법원 2024므10370 사건(대법원, 2024.05.30 선고)에서 법원은 재산분할 시 시가감정 결과를 합리적으로 반영해 금액을 산정해야 하며, 시점별 가액 변동이 큰 경우 법원이 공평에 부합하는 기준을 선택할 수 있다고 판시했습니다.',
         takeaway:
-          '가상자산처럼 시세 변동이 큰 재산도 감정·평가 결과를 바탕으로 분할 금액이 산정되며, 법원의 재량이 인정됩니다.',
+          '가상자산처럼 시세 변동이 큰 재산도 감정·평가 결과를 바탕으로 분할 금액이 산정되며, 법원의 재량이 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -197,7 +197,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         title: '사실혼 성립 — 인정되는 4가지 요건',
         content:
-          '<p><strong style="color:#1e3a5f">사실혼은 혼인의사·부부공동생활·혼인장애 없음이 모두 인정되어야 성립합니다.</strong></p>\n<ul>\n<li><strong>혼인의 의사</strong> — 단순 동거가 아닌 결혼 의사 일치. 결혼식·혼약·가족 소개 등 정황.</li>\n<li><strong>부부공동생활 실체</strong> — 같은 주소·생활비 공동 부담·재산 혼합·친지 인정.</li>\n<li><strong>혼인 장애 사유 없음</strong> — 중혼·근친혼·미성년 등 법적 장애 없어야 함.</li>\n<li><strong>객관적 외관</strong> — 이웃·친지·직장 등 주변 사람이 부부로 인식하는 수준.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 단순 동거·연인 관계는 사실혼이 아닙니다. "혼인 의사 + 부부공동생활" 두 요건이 핵심입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사실혼은 혼인의사·부부공동생활·혼인장애 없음이 모두 인정되어야 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>혼인의 의사</strong> — 단순 동거가 아닌 결혼 의사 일치. 결혼식·혼약·가족 소개 등 정황.</li>\n<li><strong>부부공동생활 실체</strong> — 같은 주소·생활비 공동 부담·재산 혼합·친지 인정.</li>\n<li><strong>혼인 장애 사유 없음</strong> — 중혼·근친혼·미성년 등 법적 장애 없어야 함.</li>\n<li><strong>객관적 외관</strong> — 이웃·친지·직장 등 주변 사람이 부부로 인식하는 수준.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 단순 동거·연인 관계는 사실혼이 아닙니다. "혼인 의사 + 부부공동생활" 두 요건이 핵심입니다.</blockquote>',
       },
       {
         title: '분할 대상 재산 — 기준시점은 사실혼 해소일',
@@ -207,12 +207,12 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         title: '위자료 청구 — 유책 사실혼 파기',
         content:
-          '<p><strong style="color:#1e3a5f">상대방의 일방적 파기·부정행위·폭행 등 유책 사유가 있으면 위자료를 별도로 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>일방적 파기</strong> — 정당한 이유 없이 동거 거부·축출 시 파기 책임.</li>\n<li><strong>부정행위</strong> — 제3자와의 교제·부정은 민법상 불법행위로 위자료 발생.</li>\n<li><strong>폭행·학대</strong> — 형사 고소 병행 가능. 의료기록·신고 이력이 증거.</li>\n<li><strong>위자료 수준</strong> — 1,000만원~5,000만원이 일반적. 기간·유책 정도 따라 조정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 사실혼은 법률혼과 달리 "정당한 사유 없는 파기"만으로도 위자료가 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">상대방의 일방적 파기·부정행위·폭행 등 유책 사유가 있으면 위자료를 별도로 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>일방적 파기</strong> — 정당한 이유 없이 동거 거부·축출 시 파기 책임.</li>\n<li><strong>부정행위</strong> — 제3자와의 교제·부정은 민법상 불법행위로 위자료 발생.</li>\n<li><strong>폭행·학대</strong> — 형사 고소 병행 가능. 의료기록·신고 이력이 증거.</li>\n<li><strong>위자료 수준</strong> — 1,000만원~5,000만원이 일반적. 기간·유책 정도 따라 조정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 사실혼은 법률혼과 달리 "정당한 사유 없는 파기"만으로도 위자료가 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '입증 자료 — 사실혼을 증명하는 핵심 증거',
         content:
-          '<p><strong style="color:#1e3a5f">혼인신고가 없는 만큼 사실혼 성립 증거를 충실히 준비해야 재산분할·위자료 모두 인정됩니다.</strong></p>\n<ul>\n<li><strong>결혼식·혼약 증거</strong> — 청첩장·사진·하객 명단·웨딩홀 계약서.</li>\n<li><strong>공동 생활 기록</strong> — 주민등록등본(같은 주소), 건강보험 피부양자 등록.</li>\n<li><strong>재산 공동 형성</strong> — 공동 계좌·공동 명의 계약·공동 대출 서류.</li>\n<li><strong>주변 진술</strong> — 가족·친지·이웃·직장 동료의 인우보증서·진술서.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: SNS·카카오톡 사진, 생활비 송금 내역도 사실혼 입증에 핵심입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">혼인신고가 없는 만큼 사실혼 성립 증거를 충실히 준비해야 재산분할·위자료 모두 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>결혼식·혼약 증거</strong> — 청첩장·사진·하객 명단·웨딩홀 계약서.</li>\n<li><strong>공동 생활 기록</strong> — 주민등록등본(같은 주소), 건강보험 피부양자 등록.</li>\n<li><strong>재산 공동 형성</strong> — 공동 계좌·공동 명의 계약·공동 대출 서류.</li>\n<li><strong>주변 진술</strong> — 가족·친지·이웃·직장 동료의 인우보증서·진술서.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: SNS·카카오톡 사진, 생활비 송금 내역도 사실혼 입증에 핵심입니다.</blockquote>',
       },
     ],
     cases: [
@@ -221,7 +221,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
         summary:
           '대법원 2022므11027 사건(대법원, 2024.01.04 선고)에서 법원은 사실혼 해소에 따른 재산분할 대상과 액수는 사실혼이 해소된 날을 기준으로 산정해야 하며, 해소 후 변동이 있어도 원칙적으로 반영하지 않는다고 판시했습니다.',
         takeaway:
-          '사실혼 재산분할은 "해소일"의 가액으로 고정되므로, 해소일 시점의 시세·잔고 자료를 반드시 확보해야 합니다.',
+          '사실혼 재산분할은 "해소일"의 가액으로 고정되므로, 해소일 시점의 시세·잔고 자료를 가능한 한 확보해야 합니다.',
       },
     ],
     faq: [
@@ -243,7 +243,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         question: '퇴직금·연금도 사실혼 재산분할 대상인가요?',
         answer:
-          '<strong>포함됩니다.</strong> 혼인 기간(사실혼 포함) 중 형성된 퇴직금·국민연금 분할청구권은 재산분할 대상으로 인정됩니다.',
+          '<strong>포함됩니다.</strong> 혼인 기간(사실혼 포함) 중 형성된 퇴직금·국민연금 분할청구권은 재산분할 대상으로 인정될 수 있습니다.',
       },
       {
         question: '사실혼 재산분할 청구 기한이 있나요?',
@@ -315,7 +315,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         question: '이행명령 없이 바로 감치 신청이 가능한가요?',
         answer:
-          '<strong>불가능합니다.</strong> 가사소송법상 이행명령 후에도 정당한 사유 없이 위반할 때 감치가 가능하므로, 이행명령 단계를 반드시 거쳐야 합니다.',
+          '<strong>불가능합니다.</strong> 가사소송법상 이행명령 후에도 정당한 사유 없이 위반할 때 감치가 가능하므로, 이행명령 단계를 가능한 한 거쳐야 합니다.',
       },
       {
         question: '상대방이 실직했다고 하면 감치가 안 되나요?',
@@ -371,7 +371,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         title: '증액 인정 요건 — 사정변경의 실질 판단',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제837조 제5항에 따라 자녀의 복리에 필요한 경우 법원은 양육비를 변경할 수 있습니다.</strong></p>\n<ul>\n<li><strong>자녀 성장·교육비 증가</strong> — 초→중→고 진학에 따른 교육비 상승.</li>\n<li><strong>물가 상승</strong> — 전년 대비 누적 5% 이상 인상 시 고려 요인.</li>\n<li><strong>양육자 소득 감소</strong> — 실직·질병 등으로 양육자 부담 과중.</li>\n<li><strong>비양육자 소득 증가</strong> — 이직·승진으로 소득이 크게 늘어난 경우.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 물가 단독만으로는 부족하고 자녀 성장·소득 변동 중 복수 요인이 겹쳐야 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제837조 제5항에 따라 자녀의 복리에 필요한 경우 법원은 양육비를 변경할 수 있습니다.</strong></p>\n<ul>\n<li><strong>자녀 성장·교육비 증가</strong> — 초→중→고 진학에 따른 교육비 상승.</li>\n<li><strong>물가 상승</strong> — 전년 대비 누적 5% 이상 인상 시 고려 요인.</li>\n<li><strong>양육자 소득 감소</strong> — 실직·질병 등으로 양육자 부담 과중.</li>\n<li><strong>비양육자 소득 증가</strong> — 이직·승진으로 소득이 크게 늘어난 경우.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 물가 단독만으로는 부족하고 자녀 성장·소득 변동 중 복수 요인이 겹쳐야 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '증액 산정 — 양육비 산정기준표 재적용',
@@ -417,7 +417,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         question: '증액 인정되면 소급해서 받을 수 있나요?',
         answer:
-          '<strong>원칙적으로 심판청구일부터 인정됩니다.</strong> 소급분은 드물게 인정되므로, 사정변경이 발생하면 즉시 청구하는 것이 유리합니다.',
+          '<strong>원칙적으로 심판청구일부터 인정될 수 있습니다.</strong> 소급분은 드물게 인정되므로, 사정변경이 발생하면 즉시 청구하는 것이 유리합니다.',
       },
       {
         question: '증액 심판에 변호사가 꼭 필요한가요?',
@@ -499,12 +499,12 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         question: '개문사고도 뺑소니가 되나요?',
         answer:
-          '<strong>사고 후 구호조치 없이 자리 이탈하면 특가법상 도주치상(뺑소니)로 처벌됩니다.</strong> 반드시 119 신고·경찰 신고·신원 공유부터 하세요.',
+          '<strong>사고 후 구호조치 없이 자리 이탈하면 특가법상 도주치상(뺑소니)로 처벌 대상으로 검토될 수 있습니다.</strong> 가능한 한 119 신고·경찰 신고·신원 공유부터 하세요.',
       },
       {
         question: '자전거 사고인데 자전거 측 과실도 인정되나요?',
         answer:
-          '<strong>속도·진로 위반 등 입증되면 10~20% 인정됩니다.</strong> 역주행·인도 주행·음주 등은 자전거 측 과실 가산 사유입니다.',
+          '<strong>속도·진로 위반 등 입증되면 10~20% 인정될 수 있습니다.</strong> 역주행·인도 주행·음주 등은 자전거 측 과실 가산 사유입니다.',
       },
       {
         question: '형사 처벌이 확정되면 어떻게 대응하나요?',
@@ -560,7 +560,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         title: '보험 처리·분쟁 — 과실비율 조정',
         content:
-          '<p><strong style="color:#1e3a5f">보험사 제시안이 부당하면 손해보험협회 구상금분쟁심의위원회 또는 민사소송으로 다툴 수 있습니다.</strong></p>\n<ul>\n<li><strong>1차 — 보험사 교차심의</strong> — 양 측 보험사 협의로 과실 결정.</li>\n<li><strong>2차 — 구상금분쟁심의위</strong> — 협의 불발 시 심의 청구.</li>\n<li><strong>3차 — 민사소송</strong> — 심의 결과 불복 시 법원 판단.</li>\n<li><strong>자차 자기부담금</strong> — 쌍방과실 시 상대방에게 직접 청구 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 합의금 서명 전 반드시 변호사 검토. 한 번 서명하면 추가 청구가 어려워집니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">보험사 제시안이 부당하면 손해보험협회 구상금분쟁심의위원회 또는 민사소송으로 다툴 수 있습니다.</strong></p>\n<ul>\n<li><strong>1차 — 보험사 교차심의</strong> — 양 측 보험사 협의로 과실 결정.</li>\n<li><strong>2차 — 구상금분쟁심의위</strong> — 협의 불발 시 심의 청구.</li>\n<li><strong>3차 — 민사소송</strong> — 심의 결과 불복 시 법원 판단.</li>\n<li><strong>자차 자기부담금</strong> — 쌍방과실 시 상대방에게 직접 청구 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 합의금 서명 전 가능한 한 변호사 검토. 한 번 서명하면 추가 청구가 어려워집니다.</blockquote>',
       },
     ],
     cases: [
@@ -627,7 +627,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
         '횡단보도 녹색신호에서 보행자를 치어 사망에 이르게 한 운전자는 특례법 배제 기소 대상입니다. 5단계 대응을 지금 확인하세요.',
     },
     intro:
-      '<p>횡단보도 녹색신호에 진입하는 보행자를 미처 보지 못해 사고가 나면 경미한 부상이라도 운전자는 신호위반으로 기소될 위험이 큽니다. 특히 보행자가 사망한 경우 합의 여부와 무관하게 교통사고처리특례법 제3조 제1항에 따라 반드시 기소됩니다. 녹색신호 보행자 사망사고 5단계 대응을 정리합니다.</p>',
+      '<p>횡단보도 녹색신호에 진입하는 보행자를 미처 보지 못해 사고가 나면 경미한 부상이라도 운전자는 신호위반으로 기소될 위험이 큽니다. 특히 보행자가 사망한 경우 합의 여부와 무관하게 교통사고처리특례법 제3조 제1항에 따라 가능한 한 기소됩니다. 녹색신호 보행자 사망사고 5단계 대응을 정리합니다.</p>',
     sections: [
       {
         title: '특례법 배제 — 사망사고는 기소 대상',
@@ -673,7 +673,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         question: '경찰에서 진술하기 전 변호사 선임이 필요한가요?',
         answer:
-          '<strong>반드시 권장됩니다.</strong> 초기 진술이 그대로 형사 기록에 남아 향후 방어에 결정적 영향을 미치므로 변호인 동석 하에 진술하세요.',
+          '<strong>가능한 한 권장됩니다.</strong> 초기 진술이 그대로 형사 기록에 남아 향후 방어에 결정적 영향을 미치므로 변호인 동석 하에 진술하세요.',
       },
       {
         question: '집행유예 받을 가능성이 있나요?',
@@ -711,7 +711,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
     meta: {
       title: '스쿨존 사고 처벌 — 민식이법 4가지 핵심 기준 | 로앤가이드',
       description:
-        '어린이 보호구역에서 어린이 사고를 낸 경우 민식이법(특가법)으로 가중처벌됩니다. 4가지 판단 기준과 대응 순서를 지금 확인하세요.',
+        '어린이 보호구역에서 어린이 사고를 낸 경우 민식이법(특가법)으로 가중처벌 대상으로 검토될 수 있습니다. 4가지 판단 기준과 대응 순서를 지금 확인하세요.',
     },
     intro:
       '<p>어린이 보호구역에서 시속 30km 이하로 주행했더라도 어린이가 갑자기 튀어나와 사고가 나면 운전자는 민식이법(특정범죄가중처벌등에관한법률 제5조의13)으로 가중처벌될 수 있습니다. 어린이 중상해 시 1년 이상 15년 이하 징역, 사망 시 무기 또는 3년 이상 징역까지 처해질 수 있습니다. 스쿨존 사고의 4대 핵심 기준을 정리합니다.</p>',
@@ -729,7 +729,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         title: '방어 포인트 — 인과관계·주의의무 이행',
         content:
-          '<p><strong style="color:#1e3a5f">민식이법이 적용되더라도 "안전운전 의무를 다했고 피할 수 없었다"는 점을 입증하면 감경 또는 무죄가 가능합니다.</strong></p>\n<ul>\n<li><strong>제한속도 준수</strong> — 블랙박스 속도·GPS 로그 확보.</li>\n<li><strong>전방주시 이행</strong> — 휴대전화 사용·내비 조작 없음 입증.</li>\n<li><strong>서행 및 일시정지</strong> — 횡단보도 진입 전 서행·정지 여부.</li>\n<li><strong>돌발 상황</strong> — 어린이가 갑자기 튀어나와 예측 불가능성 입증.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 블랙박스·교차로 CCTV·속도 기록은 사고 직후 반드시 확보하세요. 며칠 지나면 복구가 어렵습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">민식이법이 적용되더라도 "안전운전 의무를 다했고 피할 수 없었다"는 점을 입증하면 감경 또는 무죄가 가능합니다.</strong></p>\n<ul>\n<li><strong>제한속도 준수</strong> — 블랙박스 속도·GPS 로그 확보.</li>\n<li><strong>전방주시 이행</strong> — 휴대전화 사용·내비 조작 없음 입증.</li>\n<li><strong>서행 및 일시정지</strong> — 횡단보도 진입 전 서행·정지 여부.</li>\n<li><strong>돌발 상황</strong> — 어린이가 갑자기 튀어나와 예측 불가능성 입증.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 블랙박스·교차로 CCTV·속도 기록은 사고 직후 가능한 한 확보하세요. 며칠 지나면 복구가 어렵습니다.</blockquote>',
       },
       {
         title: '양형 감경 — 합의·탄원·반성',
@@ -806,7 +806,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         title: '기본 과실비율 — 후진자 책임이 큰 이유',
         content:
-          '<p><strong style="color:#1e3a5f">도로교통법 제18조는 후진 시 반드시 후방 안전 확인 의무를 규정합니다.</strong></p>\n<ul>\n<li><strong>후진 차량 vs 진행 차량</strong> — 기본 70~80% : 20~30%.</li>\n<li><strong>후진 차량 vs 보행자</strong> — 기본 90~100% : 0~10%.</li>\n<li><strong>주차장 통로 폭</strong> — 좁은 통로일수록 후진자 주의의무 가중.</li>\n<li><strong>속도·시야</strong> — 급후진·시야 차단 시 후진자 과실 +10%.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 주차장은 일반도로가 아니지만 도로교통법의 안전운전 의무는 동일하게 적용됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">도로교통법 제18조는 후진 시 가능한 한 후방 안전 확인 의무를 규정합니다.</strong></p>\n<ul>\n<li><strong>후진 차량 vs 진행 차량</strong> — 기본 70~80% : 20~30%.</li>\n<li><strong>후진 차량 vs 보행자</strong> — 기본 90~100% : 0~10%.</li>\n<li><strong>주차장 통로 폭</strong> — 좁은 통로일수록 후진자 주의의무 가중.</li>\n<li><strong>속도·시야</strong> — 급후진·시야 차단 시 후진자 과실 +10%.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 주차장은 일반도로가 아니지만 도로교통법의 안전운전 의무는 동일하게 적용됩니다.</blockquote>',
       },
       {
         title: '형사책임 — 주차장도 교특법 대상',
@@ -840,14 +840,14 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
           '<strong>적용됩니다.</strong> 주차장은 "도로 외 구역"이지만 안전운전 의무·음주운전 금지·뺑소니 처벌은 도로와 동일하게 적용됩니다.',
       },
       {
-        question: '후진자만 무조건 책임지나요?',
+        question: '후진자만 원칙적으로 책임지나요?',
         answer:
           '<strong>원칙은 후진자 책임이 크지만 상대의 과속·시야 방해·부주의가 입증되면 10~30% 과실 상계가 가능합니다.</strong>',
       },
       {
         question: '주차 중 접촉 후 자리를 뜨면 뺑소니인가요?',
         answer:
-          '<strong>인적 피해 없이 물피만 있으면 "사고 후 미조치"로 범칙금·벌점이 부과됩니다.</strong> 인적 피해가 있다면 도주치상(뺑소니)로 가중 처벌됩니다.',
+          '<strong>인적 피해 없이 물피만 있으면 "사고 후 미조치"로 범칙금·벌점이 부과됩니다.</strong> 인적 피해가 있다면 도주치상(뺑소니)로 가중 처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: 'CCTV가 없으면 과실 증명이 어려운가요?',
@@ -980,7 +980,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       {
         title: '묵시적 갱신 성립 — 주임법 제6조',
         content:
-          '<p><strong style="color:#1e3a5f">임대인이 계약 종료 6개월 ~ 2개월 전 사이 갱신 거절·조건 변경 통지를 하지 않으면 묵시적 갱신이 성립합니다.</strong></p>\n<ul>\n<li><strong>통지 없음</strong> — 6개월~2개월 전 통지 미이행 시 자동 갱신.</li>\n<li><strong>동일 조건</strong> — 전세금·월세·기간(2년)이 이전과 동일.</li>\n<li><strong>갱신 거절 사유 제한</strong> — 임대인의 실거주 등 정당 사유 없이는 거절 불가.</li>\n<li><strong>계약갱신요구권과 구별</strong> — 갱신요구권(1회)과 별개, 자동 갱신은 횟수 제한 없음.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "말 한 마디 없이" 지나갔다면 갱신된 것으로 간주됩니다. 임차인에게 유리한 제도입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임대인이 계약 종료 6개월 ~ 2개월 전 사이 갱신 거절·조건 변경 통지를 하지 않으면 묵시적 갱신이 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>통지 없음</strong> — 6개월~2개월 전 통지 미이행 시 자동 갱신.</li>\n<li><strong>동일 조건</strong> — 전세금·월세·기간(2년)이 이전과 동일.</li>\n<li><strong>갱신 거절 사유 제한</strong> — 임대인의 실거주 등 정당 사유 없이는 거절 불가.</li>\n<li><strong>계약갱신요구권과 구별</strong> — 갱신요구권(1회)과 별개, 자동 갱신은 횟수 제한 없음.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "말 한 마디 없이" 지나갔다면 갱신된 것으로 간주됩니다. 임차인에게 유리한 제도입니다.</blockquote>',
       },
       {
         title: '중도 해지권 — 임차인만의 권리',

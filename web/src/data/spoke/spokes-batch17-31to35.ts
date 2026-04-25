@@ -56,7 +56,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
         summary:
           '대법원 2024마5496 사건(대법원, 2024.06.07)에서 법원은 지급명령이 채무자에게 송달되기 전에 한 이의신청은 부적법하지만, 그 후 채무자에게 지급명령이 적법하게 송달되면 그 하자는 치유된다고 판시했습니다.',
         takeaway:
-          '지급명령의 효력은 송달 시점부터 발생합니다. 송달이 정상적으로 이루어졌는지 확인하고, 이의신청 기간 2주가 경과한 후 확정 여부를 반드시 확인하세요.',
+          '지급명령의 효력은 송달 시점부터 발생합니다. 송달이 정상적으로 이루어졌는지 확인하고, 이의신청 기간 2주가 경과한 후 확정 여부를 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -110,7 +110,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
       {
         title: '첫째, 소액소송 대상인지 먼저 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">청구금액 3,000만원 이하면 소액소송이 가능합니다</strong></p>\n<p>소액사건심판법에 따라 청구금액이 <strong>3,000만원 이하</strong>인 금전 청구는 소액소송으로 처리됩니다. 중고거래 사기의 경우 대부분 이 범위에 해당합니다. 피고(판매자)의 <strong>주소지 관할 법원</strong>에 소장을 제출합니다.</p>\n<p>다만 판매자 주소를 알아야 합니다. 판매자가 실명과 주소를 공개하지 않은 경우, 경찰 수사를 통해 <strong>신원 확인</strong>이 선행되어야 합니다. 형사 고소와 민사 소송은 <strong>별도의 절차</strong>이므로 동시에 진행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조건: 청구금액 3,000만원 이하 + 피고 주소 확인 | 형사·민사 병행 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">청구금액 3,000만원 이하면 소액소송이 가능합니다</strong></p>\n<p>소액사건심판법에 따라 청구금액이 <strong>3,000만원 이하</strong>인 금전 청구는 소액소송으로 처리됩니다. 중고거래 사기의 경우 대부분 이 범위에 해당할 소지가 있습니다. 피고(판매자)의 <strong>주소지 관할 법원</strong>에 소장을 제출합니다.</p>\n<p>다만 판매자 주소를 알아야 합니다. 판매자가 실명과 주소를 공개하지 않은 경우, 경찰 수사를 통해 <strong>신원 확인</strong>이 선행되어야 합니다. 형사 고소와 민사 소송은 <strong>별도의 절차</strong>이므로 동시에 진행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조건: 청구금액 3,000만원 이하 + 피고 주소 확인 | 형사·민사 병행 가능</blockquote>',
       },
       {
         title: '둘째, 증거를 체계적으로 확보하세요',
@@ -194,7 +194,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
       {
         title: '첫째, 경찰 조사에서 진술권을 정확히 행사하세요',
         content:
-          '<p><strong style="color:#1e3a5f">첫 조사에서의 진술이 재판 결과에 큰 영향을 줍니다</strong></p>\n<p>경찰로부터 출석 요구를 받으면 <strong>피의자 신분</strong>으로 조사를 받게 됩니다. 헌법상 <strong>진술거부권</strong>이 보장되므로, 준비 없이 진술하는 것은 위험합니다. 조사 전 반드시 변호사와 상담하세요.</p>\n<p>성매매알선등행위의처벌에관한법률 제19조 제2항 제1호에 따라 성매매 알선은 <strong>7년 이하의 징역 또는 7,000만원 이하의 벌금</strong>에 처해집니다. 영업으로 한 경우에는 <strong>3년 이상의 유기징역</strong>까지 가능합니다. 혐의 내용과 증거 상황에 따라 대응 전략이 크게 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 진술거부권 행사 가능 | 변호사 상담 후 조사 출석 | 첫 진술이 중요</blockquote>',
+          '<p><strong style="color:#1e3a5f">첫 조사에서의 진술이 재판 결과에 큰 영향을 줍니다</strong></p>\n<p>경찰로부터 출석 요구를 받으면 <strong>피의자 신분</strong>으로 조사를 받게 됩니다. 헌법상 <strong>진술거부권</strong>이 보장되므로, 준비 없이 진술하는 것은 위험합니다. 조사 전 가능한 한 변호사와 상담하세요.</p>\n<p>성매매알선등행위의처벌에관한법률 제19조 제2항 제1호에 따라 성매매 알선은 <strong>7년 이하의 징역 또는 7,000만원 이하의 벌금</strong>에 처해집니다. 영업으로 한 경우에는 <strong>3년 이상의 유기징역</strong>까지 가능합니다. 혐의 내용과 증거 상황에 따라 대응 전략이 크게 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 진술거부권 행사 가능 | 변호사 상담 후 조사 출석 | 첫 진술이 중요</blockquote>',
       },
       {
         title: '둘째, 검찰 송치 후 기소 여부가 결정됩니다',
@@ -287,7 +287,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
       {
         title: '셋째, 알선자에 대한 처벌이 가장 무겁습니다',
         content:
-          '<p><strong style="color:#1e3a5f">알선·매개·방조는 매수·매도와 별개로 가중처벌됩니다</strong></p>\n<p>성매매처벌법 제19조 제2항 제1호에 따라 <strong>영업으로 성매매를 알선</strong>한 사람은 <strong>7년 이하의 징역 또는 7,000만원 이하의 벌금</strong>에 처해집니다. 매수·매도(1년 이하)와 비교하면 <strong>7배 이상</strong> 무거운 형량입니다.</p>\n<p>업소 운영자, 앱/사이트 운영자, 중개자 등이 모두 알선 혐의에 해당합니다. 영업 목적이 아닌 단순 알선이라도 <strong>3년 이하의 징역 또는 3,000만원 이하의 벌금</strong>이 적용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">알선: 영업 목적 7년/7,000만원 | 단순 알선 3년/3,000만원 | 매수·매도보다 훨씬 무거움</blockquote>',
+          '<p><strong style="color:#1e3a5f">알선·매개·방조는 매수·매도와 별개로 가중처벌 대상으로 검토될 수 있습니다</strong></p>\n<p>성매매처벌법 제19조 제2항 제1호에 따라 <strong>영업으로 성매매를 알선</strong>한 사람은 <strong>7년 이하의 징역 또는 7,000만원 이하의 벌금</strong>에 처해집니다. 매수·매도(1년 이하)와 비교하면 <strong>7배 이상</strong> 무거운 형량입니다.</p>\n<p>업소 운영자, 앱/사이트 운영자, 중개자 등이 모두 알선 혐의에 해당할 소지가 있습니다. 영업 목적이 아닌 단순 알선이라도 <strong>3년 이하의 징역 또는 3,000만원 이하의 벌금</strong>이 적용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">알선: 영업 목적 7년/7,000만원 | 단순 알선 3년/3,000만원 | 매수·매도보다 훨씬 무거움</blockquote>',
       },
       {
         title: '넷째, 전과 기록과 신상정보 공개에 차이가 있습니다',
@@ -336,7 +336,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
         summary:
           '대법원 2020도3626 사건(대법원, 2023.06.29)에서 법원은 성매매 알선은 당사자들의 의사를 연결하여 더 이상 알선자의 개입 없이도 성매매에 이를 수 있을 정도의 주선행위만 있으면 성립하며, 성매수자에게 실제 성매매 의사가 없었더라도 알선죄가 성립한다고 판시했습니다.',
         takeaway:
-          '알선죄는 실제 성매매 성사 여부와 관계없이 주선행위만으로 성립합니다. 매수자·매도자와 알선자는 처벌 수위가 크게 다르니 자신의 법적 지위를 정확히 파악하세요.',
+          '알선죄는 실제 성매매 성사 여부와 관계없이 주선행위만으로 성립할 수 있습니다. 매수자·매도자와 알선자는 처벌 수위가 크게 다르니 자신의 법적 지위를 정확히 파악하세요.',
       },
     ],
     faq: [
@@ -406,7 +406,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
       {
         title: '다섯째, 입찰 당일 체크리스트를 최종 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">서류 하나라도 빠지면 입찰이 무효가 됩니다</strong></p>\n<p>입찰 당일에는 법원 도착 후 ①<strong>입찰표 수령·작성</strong>, ②<strong>보증금 봉투 밀봉</strong>, ③<strong>입찰표 봉투 밀봉·제출</strong> 순서로 진행합니다. 입찰 마감 시각까지 제출해야 하며, 보통 <strong>오전 10시~11시</strong>에 마감합니다.</p>\n<p>입찰 전에 반드시 <strong>매각물건명세서, 현황조사보고서, 감정평가서</strong>를 확인하세요. 이 3가지 문서는 대법원 경매정보 사이트(www.courtauction.go.kr)에서 열람할 수 있으며, 물건의 <strong>권리관계, 점유현황, 시세</strong>를 파악하는 핵심 자료입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">최종 체크: 입찰표 + 보증금 + 신분증 + 도장 + (법인·대리 시 추가서류) | 입찰 마감 시각 엄수</blockquote>',
+          '<p><strong style="color:#1e3a5f">서류 하나라도 빠지면 입찰이 무효가 됩니다</strong></p>\n<p>입찰 당일에는 법원 도착 후 ①<strong>입찰표 수령·작성</strong>, ②<strong>보증금 봉투 밀봉</strong>, ③<strong>입찰표 봉투 밀봉·제출</strong> 순서로 진행합니다. 입찰 마감 시각까지 제출해야 하며, 보통 <strong>오전 10시~11시</strong>에 마감합니다.</p>\n<p>입찰 전에 가능한 한 <strong>매각물건명세서, 현황조사보고서, 감정평가서</strong>를 확인하세요. 이 3가지 문서는 대법원 경매정보 사이트(www.courtauction.go.kr)에서 열람할 수 있으며, 물건의 <strong>권리관계, 점유현황, 시세</strong>를 파악하는 핵심 자료입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">최종 체크: 입찰표 + 보증금 + 신분증 + 도장 + (법인·대리 시 추가서류) | 입찰 마감 시각 엄수</blockquote>',
       },
     ],
     cases: [
@@ -433,7 +433,7 @@ export const spokesBatch17_31to35: SpokePage[] = [
       },
       {
         question: '입찰표를 잘못 기재하면 수정할 수 있나요?',
-        answer: '입찰표 제출 후에는 <strong>수정·취소가 불가능</strong>합니다. 금액을 잘못 기재하면 무효 처리될 수 있으니 제출 전에 반드시 확인하세요.',
+        answer: '입찰표 제출 후에는 <strong>수정·취소가 불가능</strong>합니다. 금액을 잘못 기재하면 무효 처리될 수 있으니 제출 전에 가능한 한 확인하세요.',
       },
       {
         question: '낙찰 후 잔금은 언제까지 내야 하나요?',

@@ -257,12 +257,12 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         title: '회전교차로 통행 원칙과 우선순위',
         content:
-          '<p><strong style="color:#1e3a5f">회전교차로에서는 이미 진행 중인 차량이 진입하려는 차량보다 우선합니다.</strong></p>\n<ul>\n<li><strong>진행 차량 우선</strong> — 도로교통법 제25조의2에 따라 회전교차로에 이미 진입하여 회전 중인 차량이 우선합니다. 진입하려는 차량은 회전 차량에게 양보해야 합니다.</li>\n<li><strong>서행 의무</strong> — 회전교차로에 진입할 때와 회전할 때 모두 서행해야 합니다. 제한속도를 초과하면 과실이 가중됩니다.</li>\n<li><strong>좌회전 금지</strong> — 회전교차로에서는 반시계 방향(우회전)으로만 진행해야 합니다. 역주행(좌회전)은 중대한 과실로 100% 과실이 인정될 수 있습니다.</li>\n<li><strong>일시정지 후 진입</strong> — 회전교차로 진입 시 양보선에서 일시정지하거나 서행하며 회전 중인 차량이 없는지 확인한 후 진입해야 합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 회전교차로의 기본 원칙은 "이미 회전 중인 차량이 우선"입니다. 진입 시 반드시 회전 차량을 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">회전교차로에서는 이미 진행 중인 차량이 진입하려는 차량보다 우선합니다.</strong></p>\n<ul>\n<li><strong>진행 차량 우선</strong> — 도로교통법 제25조의2에 따라 회전교차로에 이미 진입하여 회전 중인 차량이 우선합니다. 진입하려는 차량은 회전 차량에게 양보해야 합니다.</li>\n<li><strong>서행 의무</strong> — 회전교차로에 진입할 때와 회전할 때 모두 서행해야 합니다. 제한속도를 초과하면 과실이 가중됩니다.</li>\n<li><strong>좌회전 금지</strong> — 회전교차로에서는 반시계 방향(우회전)으로만 진행해야 합니다. 역주행(좌회전)은 중대한 과실로 100% 과실이 인정될 수 있습니다.</li>\n<li><strong>일시정지 후 진입</strong> — 회전교차로 진입 시 양보선에서 일시정지하거나 서행하며 회전 중인 차량이 없는지 확인한 후 진입해야 합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 회전교차로의 기본 원칙은 "이미 회전 중인 차량이 우선"입니다. 진입 시 가능한 한 회전 차량을 확인하세요.</blockquote>',
       },
       {
         title: '유형별 과실비율 산정 기준 4가지',
         content:
-          '<p><strong style="color:#1e3a5f">사고 유형에 따라 기본 과실비율이 달라지며, 수정요소에 의해 조정됩니다.</strong></p>\n<ul>\n<li><strong>진입 차량 vs 회전 차량</strong> — 진입 차량이 회전 중인 차량과 충돌한 경우, 진입 차량의 기본 과실이 70~80%입니다. 회전 차량도 전방주시의무가 있으므로 20~30% 과실이 인정됩니다.</li>\n<li><strong>동시 진입 차량 간 충돌</strong> — 두 차량이 거의 동시에 진입하여 충돌한 경우, 좌측(회전 내측) 차량이 50~60%, 우측(회전 외측) 차량이 40~50%의 과실이 인정되는 경향입니다.</li>\n<li><strong>회전 중 차선 변경 사고</strong> — 2차로 회전교차로에서 차선을 변경하다가 사고가 난 경우, 차선 변경 차량의 과실이 60~70%로 산정됩니다.</li>\n<li><strong>회전교차로 출구 사고</strong> — 출구에서 나가려는 차량과 계속 회전하는 차량이 충돌한 경우, 출구 차량의 방향지시등 미사용, 급차선변경 등이 과실 가중 요소가 됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사고 유형에 따라 기본 과실비율이 달라지며, 수정요소에 의해 조정됩니다.</strong></p>\n<ul>\n<li><strong>진입 차량 vs 회전 차량</strong> — 진입 차량이 회전 중인 차량과 충돌한 경우, 진입 차량의 기본 과실이 70~80%입니다. 회전 차량도 전방주시의무가 있으므로 20~30% 과실이 인정될 수 있습니다.</li>\n<li><strong>동시 진입 차량 간 충돌</strong> — 두 차량이 거의 동시에 진입하여 충돌한 경우, 좌측(회전 내측) 차량이 50~60%, 우측(회전 외측) 차량이 40~50%의 과실이 인정되는 경향입니다.</li>\n<li><strong>회전 중 차선 변경 사고</strong> — 2차로 회전교차로에서 차선을 변경하다가 사고가 난 경우, 차선 변경 차량의 과실이 60~70%로 산정됩니다.</li>\n<li><strong>회전교차로 출구 사고</strong> — 출구에서 나가려는 차량과 계속 회전하는 차량이 충돌한 경우, 출구 차량의 방향지시등 미사용, 급차선변경 등이 과실 가중 요소가 됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '과실비율 수정요소와 증거 확보',
@@ -288,7 +288,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         question: '회전교차로에서 역주행 차량과 사고가 나면 과실비율은요?',
         answer:
-          '<p>역주행(시계 방향 진행)은 도로교통법의 중대한 위반이므로, 역주행 차량에 90~100%의 과실이 인정됩니다. 상대방 차량은 예상하기 어려운 상황이므로 과실이 거의 없거나 매우 적습니다.</p>',
+          '<p>역주행(시계 방향 진행)은 도로교통법의 중대한 위반이므로, 역주행 차량에 90~100%의 과실이 인정될 수 있습니다. 상대방 차량은 예상하기 어려운 상황이므로 과실이 거의 없거나 매우 적습니다.</p>',
       },
       {
         question: '회전교차로 사고도 교통사고처리특례법이 적용되나요?',
@@ -436,7 +436,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         question: '할부금을 연체하면 신용에 영향이 있나요?',
         answer:
-          '<p>항변권을 정당하게 행사하여 할부금 지급을 거절한 경우, 이를 연체로 처리하는 것은 부당합니다. 다만 항변권 행사 전에 서면 통지를 하지 않으면 연체로 처리될 수 있으므로, 반드시 내용증명으로 통지하세요.</p>',
+          '<p>항변권을 정당하게 행사하여 할부금 지급을 거절한 경우, 이를 연체로 처리하는 것은 부당합니다. 다만 항변권 행사 전에 서면 통지를 하지 않으면 연체로 처리될 수 있으므로, 가능한 한 내용증명으로 통지하세요.</p>',
       },
       {
         question: '신용카드 할부와 캐피탈 할부는 항변권 적용이 다른가요?',
@@ -479,12 +479,12 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         title: '보증금 사기 예방 체크리스트 5가지',
         content:
-          '<p><strong style="color:#1e3a5f">계약 전에 아래 5가지를 반드시 확인하면 보증금 사기의 대부분을 예방할 수 있습니다.</strong></p>\n<ul>\n<li><strong>등기부등본 확인</strong> — 계약 당일 등기부등본을 발급받아 소유자, 근저당권, 가압류 등을 확인합니다. 계약 직전에 근저당이 설정된 경우 주의해야 합니다.</li>\n<li><strong>임대인 본인 확인</strong> — 신분증과 등기부상 소유자를 대조합니다. 대리인이 나온 경우 위임장과 인감증명서를 반드시 확인하세요.</li>\n<li><strong>선순위 권리관계 확인</strong> — 이미 설정된 근저당, 다른 임차인의 보증금 합계가 시세의 70%를 넘으면 보증금 회수가 어려울 수 있습니다.</li>\n<li><strong>전세보증보험 가입</strong> — HUG(주택도시보증공사), SGI서울보증 등의 전세보증보험에 가입하면 임대인의 보증금 미반환 시 보증기관이 대신 지급합니다.</li>\n<li><strong>확정일자·전입신고</strong> — 계약 후 즉시 전입신고와 확정일자를 받으면 대항력과 우선변제권이 확보됩니다. 이사 당일 바로 처리하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 등기부등본은 계약 직전(당일)에 확인해야 합니다. 며칠 전 확인한 등기부는 그 사이 변동이 생길 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">계약 전에 아래 5가지를 가능한 한 확인하면 보증금 사기의 대부분을 예방할 수 있습니다.</strong></p>\n<ul>\n<li><strong>등기부등본 확인</strong> — 계약 당일 등기부등본을 발급받아 소유자, 근저당권, 가압류 등을 확인합니다. 계약 직전에 근저당이 설정된 경우 주의해야 합니다.</li>\n<li><strong>임대인 본인 확인</strong> — 신분증과 등기부상 소유자를 대조합니다. 대리인이 나온 경우 위임장과 인감증명서를 가능한 한 확인하세요.</li>\n<li><strong>선순위 권리관계 확인</strong> — 이미 설정된 근저당, 다른 임차인의 보증금 합계가 시세의 70%를 넘으면 보증금 회수가 어려울 수 있습니다.</li>\n<li><strong>전세보증보험 가입</strong> — HUG(주택도시보증공사), SGI서울보증 등의 전세보증보험에 가입하면 임대인의 보증금 미반환 시 보증기관이 대신 지급합니다.</li>\n<li><strong>확정일자·전입신고</strong> — 계약 후 즉시 전입신고와 확정일자를 받으면 대항력과 우선변제권이 확보됩니다. 이사 당일 바로 처리하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 등기부등본은 계약 직전(당일)에 확인해야 합니다. 며칠 전 확인한 등기부는 그 사이 변동이 생길 수 있습니다.</blockquote>',
       },
       {
         title: '피해 발생 시 긴급 대응과 형사고소',
         content:
-          '<p><strong style="color:#1e3a5f">보증금 사기가 확인되면 즉시 형사고소하고, 재산 보전 조치를 취해야 합니다.</strong></p>\n<ul>\n<li><strong>사기죄 형사고소</strong> — 임대인이 처음부터 보증금을 돌려줄 의사나 능력이 없었다면 사기죄(형법 제347조, 10년 이하 징역 또는 2천만원 이하 벌금)에 해당합니다.</li>\n<li><strong>가압류 신청</strong> — 임대인의 다른 재산(부동산, 예금, 차량 등)에 대한 가압류를 신청하여 재산 도피를 차단합니다.</li>\n<li><strong>출국금지 신청</strong> — 임대인이 해외로 도피할 우려가 있으면 검찰에 출국금지를 요청합니다.</li>\n<li><strong>피해자 연대</strong> — 같은 임대인에게 피해를 입은 다른 임차인과 연대하면, 수사와 소송에서 유리해집니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">보증금 사기가 확인되면 즉시 형사고소하고, 재산 보전 조치를 취해야 합니다.</strong></p>\n<ul>\n<li><strong>사기죄 형사고소</strong> — 임대인이 처음부터 보증금을 돌려줄 의사나 능력이 없었다면 사기죄(형법 제347조, 10년 이하 징역 또는 2천만원 이하 벌금)에 해당할 소지가 있습니다.</li>\n<li><strong>가압류 신청</strong> — 임대인의 다른 재산(부동산, 예금, 차량 등)에 대한 가압류를 신청하여 재산 도피를 차단합니다.</li>\n<li><strong>출국금지 신청</strong> — 임대인이 해외로 도피할 우려가 있으면 검찰에 출국금지를 요청합니다.</li>\n<li><strong>피해자 연대</strong> — 같은 임대인에게 피해를 입은 다른 임차인과 연대하면, 수사와 소송에서 유리해집니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '민사소송과 경매 배당을 통한 피해 회복',
@@ -510,17 +510,17 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         question: '집주인이 아닌 사람과 계약했는데 사기인가요?',
         answer:
-          '<p>소유자가 아닌 사람이 임대인으로 계약한 경우, 소유자의 위임이 없었다면 무권대리로서 계약이 무효이며, 사기에 해당할 수 있습니다. 반드시 등기부상 소유자와 계약 당사자가 일치하는지 확인하세요.</p>',
+          '<p>소유자가 아닌 사람이 임대인으로 계약한 경우, 소유자의 위임이 없었다면 무권대리로서 계약이 무효이며, 사기에 해당할 수 있습니다. 가능한 한 등기부상 소유자와 계약 당사자가 일치하는지 확인하세요.</p>',
       },
       {
         question: '이중계약(같은 집에 여러 명과 전세 계약)도 사기인가요?',
         answer:
-          '<p>네, 같은 부동산에 대해 보증금 반환 능력을 초과하여 여러 임차인과 계약하고 보증금을 편취하는 것은 사기죄에 해당합니다. 특히 보증금 총액이 시세를 초과하면 사기 의도가 인정되기 쉽습니다.</p>',
+          '<p>네, 같은 부동산에 대해 보증금 반환 능력을 초과하여 여러 임차인과 계약하고 보증금을 편취하는 것은 사기죄에 해당할 소지가 있습니다. 특히 보증금 총액이 시세를 초과하면 사기 의도가 인정되기 쉽습니다.</p>',
       },
       {
         question: '깡통전세(근저당이 시세를 초과)도 사기에 해당하나요?',
         answer:
-          '<p>근저당 설정 자체가 사기는 아니지만, 임대인이 보증금 반환 능력이 없음을 알면서도 이를 숨기고 계약한 경우에는 사기죄가 성립할 수 있습니다. 계약 전 선순위 권리 총액을 반드시 확인하세요.</p>',
+          '<p>근저당 설정 자체가 사기는 아니지만, 임대인이 보증금 반환 능력이 없음을 알면서도 이를 숨기고 계약한 경우에는 사기죄가 성립할 수 있습니다. 계약 전 선순위 권리 총액을 가능한 한 확인하세요.</p>',
       },
     ],
     cta: { text: '보증금 사기 피해 구제 AI 분석', link: '/chat?domain=fraud' },
@@ -558,7 +558,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         title: '변제계획에 양육비를 반영하는 방법',
         content:
-          '<p><strong style="color:#1e3a5f">개인회생 변제계획을 수립할 때, 양육비 지출을 고려하여 가용소득을 산정해야 합니다.</strong></p>\n<ul>\n<li><strong>가용소득 산정</strong> — 총소득에서 생활비와 양육비를 공제한 나머지가 변제에 사용됩니다. 양육비는 필수 지출로 인정됩니다.</li>\n<li><strong>양육비 금액 소명</strong> — 법원에 양육비 지급 사실을 소명해야 합니다. 양육비 심판 결정문, 공정증서, 합의서 등을 제출합니다.</li>\n<li><strong>과다 양육비 문제</strong> — 양육비가 과다하게 책정되어 변제 가능 금액이 지나치게 줄어들면, 법원이 양육비 감액을 권고하거나 변제계획 인가를 거절할 수 있습니다.</li>\n<li><strong>양육비 변경 심판</strong> — 개인회생으로 경제 상황이 변한 경우, 가정법원에 양육비 감액 심판을 청구할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=rehabilitation" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">개인회생 변제계획을 수립할 때, 양육비 지출을 고려하여 가용소득을 산정해야 합니다.</strong></p>\n<ul>\n<li><strong>가용소득 산정</strong> — 총소득에서 생활비와 양육비를 공제한 나머지가 변제에 사용됩니다. 양육비는 필수 지출로 인정될 수 있습니다.</li>\n<li><strong>양육비 금액 소명</strong> — 법원에 양육비 지급 사실을 소명해야 합니다. 양육비 심판 결정문, 공정증서, 합의서 등을 제출합니다.</li>\n<li><strong>과다 양육비 문제</strong> — 양육비가 과다하게 책정되어 변제 가능 금액이 지나치게 줄어들면, 법원이 양육비 감액을 권고하거나 변제계획 인가를 거절할 수 있습니다.</li>\n<li><strong>양육비 변경 심판</strong> — 개인회생으로 경제 상황이 변한 경우, 가정법원에 양육비 감액 심판을 청구할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=rehabilitation" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '양육비 미납 시 불이익과 대응',
@@ -572,7 +572,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
         summary:
           '대법원 2024다221042 사건(대법원, 2025.10.16 선고)에서 법원은 보증인이 있는 개인회생채권에 관하여 채무자가 변제계획에 따른 변제를 완료하여 면책결정을 받은 경우, 개인회생채권자목록에 보증인이 누락되었더라도 면책결정의 효력이 보증인의 구상금채권에 미친다고 판시했습니다.',
         takeaway:
-          '개인회생 면책은 일반 채무에는 효력이 미치지만, 양육비·부양료 같은 비면책채권에는 미치지 않습니다. 면책 후에도 양육비 납부 의무는 계속되므로, 변제계획 수립 시 양육비를 반드시 반영하세요.',
+          '개인회생 면책은 일반 채무에는 효력이 미치지만, 양육비·부양료 같은 비면책채권에는 미치지 않습니다. 면책 후에도 양육비 납부 의무는 계속되므로, 변제계획 수립 시 양육비를 가능한 한 반영하세요.',
       },
     ],
     faq: [
@@ -775,7 +775,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         title: '1~2단계: 관리사무소 민원과 층간소음 측정',
         content:
-          '<p><strong style="color:#1e3a5f">법적 대응의 첫 단계는 관리사무소 민원과 객관적인 소음 측정 기록을 확보하는 것입니다.</strong></p>\n<ul>\n<li><strong>관리사무소 민원 접수</strong> — 서면으로 민원을 접수하고, 접수 내역을 보관합니다. 구두 민원은 증거가 남지 않으므로 반드시 서면(이메일, 문자 포함)으로 남기세요.</li>\n<li><strong>소음 기록 작성</strong> — 날짜, 시간, 소음 종류, 지속 시간을 기록합니다. 스마트폰 소음측정 앱(데시벨X 등)으로 소음 수준을 측정하여 기록합니다.</li>\n<li><strong>층간소음 이웃사이센터</strong> — 한국환경공단 층간소음 이웃사이센터(1661-2642)에 신고하면, 전문 기관의 소음 측정 서비스를 받을 수 있습니다.</li>\n<li><strong>법적 기준</strong> — 공동주택 층간소음 기준은 직접충격음 1분 등가소음도 43dB(A)을 초과하면 위반입니다(주간 기준). 야간(22시~06시)은 38dB(A)입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 소음 기록은 최소 2주 이상 지속적으로 작성해야 법적 대응 시 증거력이 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">법적 대응의 첫 단계는 관리사무소 민원과 객관적인 소음 측정 기록을 확보하는 것입니다.</strong></p>\n<ul>\n<li><strong>관리사무소 민원 접수</strong> — 서면으로 민원을 접수하고, 접수 내역을 보관합니다. 구두 민원은 증거가 남지 않으므로 가능한 한 서면(이메일, 문자 포함)으로 남기세요.</li>\n<li><strong>소음 기록 작성</strong> — 날짜, 시간, 소음 종류, 지속 시간을 기록합니다. 스마트폰 소음측정 앱(데시벨X 등)으로 소음 수준을 측정하여 기록합니다.</li>\n<li><strong>층간소음 이웃사이센터</strong> — 한국환경공단 층간소음 이웃사이센터(1661-2642)에 신고하면, 전문 기관의 소음 측정 서비스를 받을 수 있습니다.</li>\n<li><strong>법적 기준</strong> — 공동주택 층간소음 기준은 직접충격음 1분 등가소음도 43dB(A)을 초과하면 위반입니다(주간 기준). 야간(22시~06시)은 38dB(A)입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 소음 기록은 최소 2주 이상 지속적으로 작성해야 법적 대응 시 증거력이 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '3단계: 환경분쟁조정위원회 조정 신청',
@@ -821,7 +821,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         question: '윗집이 아이가 뛰는 소리인데도 법적 대응이 가능한가요?',
         answer:
-          '<p>아이의 활동음도 기준치를 초과하면 층간소음에 해당합니다. 다만 법원은 아이의 연령, 소음 발생 시간대, 양육자의 주의 노력 등을 종합하여 판단하므로, 일반적인 생활 소음보다 관용적으로 판단하는 경향이 있습니다.</p>',
+          '<p>아이의 활동음도 기준치를 초과하면 층간소음에 해당할 소지가 있습니다. 다만 법원은 아이의 연령, 소음 발생 시간대, 양육자의 주의 노력 등을 종합하여 판단하므로, 일반적인 생활 소음보다 관용적으로 판단하는 경향이 있습니다.</p>',
       },
     ],
     cta: { text: '층간소음 법적 대응 전략 AI 분석', link: '/chat?domain=neighbor-dispute' },

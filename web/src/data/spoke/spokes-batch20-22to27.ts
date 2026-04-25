@@ -37,7 +37,7 @@ export const spokesBatch20_22to27: SpokePage[] = [
       {
         title: '3단계 — 변론 기일 출석과 진술 준비',
         content:
-          '<p><strong style="color:#1e3a5f">소액사건은 보통 1회 변론으로 종결되므로, 첫 기일 준비가 결과를 좌우합니다</strong></p>\n<p>법원에서 기일 통지서가 오면 반드시 출석하세요. 원고가 불출석하면 <strong>소 취하 간주</strong>될 수 있습니다. 변론 기일에는 증거 원본(차용증, 통장 사본 등)을 지참하고, 판사의 질문에 핵심만 간결하게 답변합니다.</p>\n<p>상대방이 답변서를 제출했다면 미리 읽고 <strong>반박 포인트를 메모</strong>해 두세요. "돈을 빌린 적 없다", "이미 갚았다" 등 예상 반론에 대한 재반박 증거를 한 세트로 준비하면 변론이 유리해집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 기일 출석 + 증거 원본 지참 + 상대 답변서 반박 준비</blockquote>',
+          '<p><strong style="color:#1e3a5f">소액사건은 보통 1회 변론으로 종결되므로, 첫 기일 준비가 결과를 좌우합니다</strong></p>\n<p>법원에서 기일 통지서가 오면 가능한 한 출석하세요. 원고가 불출석하면 <strong>소 취하 간주</strong>될 수 있습니다. 변론 기일에는 증거 원본(차용증, 통장 사본 등)을 지참하고, 판사의 질문에 핵심만 간결하게 답변합니다.</p>\n<p>상대방이 답변서를 제출했다면 미리 읽고 <strong>반박 포인트를 메모</strong>해 두세요. "돈을 빌린 적 없다", "이미 갚았다" 등 예상 반론에 대한 재반박 증거를 한 세트로 준비하면 변론이 유리해집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 기일 출석 + 증거 원본 지참 + 상대 답변서 반박 준비</blockquote>',
       },
       {
         title: '4단계 — 판결 선고 후 확정과 강제집행 신청',
@@ -51,7 +51,7 @@ export const spokesBatch20_22to27: SpokePage[] = [
         summary:
           '대법원 2024마5496 사건(2024.06.07 선고)에서 법원은 지급명령이 채무자에게 송달되기 전에 한 이의신청은 부적법하지만, 이후 적법하게 송달되면 그 하자가 치유된다고 판시했습니다.',
         takeaway:
-          '소액소송·지급명령 절차에서는 송달이 핵심입니다. 상대 주소가 정확한지 반드시 확인하고, 이사불명인 경우 주민등록초본으로 최신 주소를 조회한 뒤 소장을 접수하세요.',
+          '소액소송·지급명령 절차에서는 송달이 핵심입니다. 상대 주소가 정확한지 가능한 한 확인하고, 이사불명인 경우 주민등록초본으로 최신 주소를 조회한 뒤 소장을 접수하세요.',
       },
     ],
     faq: [
@@ -106,7 +106,7 @@ export const spokesBatch20_22to27: SpokePage[] = [
       description: '실업급여 수급 중 알바를 하면 급여가 끊길까 걱정된다면, 가능한 조건 3가지를 지금 확인하세요.',
     },
     intro:
-      '퇴사 후 실업급여를 받고 있는데 생활비가 빠듯합니다. 편의점이나 배달 알바를 하고 싶지만, 알바를 하면 실업급여가 끊기는 건 아닌지 불안합니다. 결론부터 말하면, 일정 조건을 지키면 알바를 하면서도 실업급여를 받을 수 있습니다. 단, 신고를 빠뜨리면 부정수급으로 적발되어 최대 5배 추가징수까지 당할 수 있으니 반드시 아래 기준을 확인하세요.',
+      '퇴사 후 실업급여를 받고 있는데 생활비가 빠듯합니다. 편의점이나 배달 알바를 하고 싶지만, 알바를 하면 실업급여가 끊기는 건 아닌지 불안합니다. 결론부터 말하면, 일정 조건을 지키면 알바를 하면서도 실업급여를 받을 수 있습니다. 단, 신고를 빠뜨리면 부정수급으로 적발되어 최대 5배 추가징수까지 당할 수 있으니 가능한 한 아래 기준을 확인하세요.',
     sections: [
       {
         title: '조건 1 — 월 60시간 미만, 주 15시간 미만의 단기 근로만 가능합니다',
@@ -116,7 +116,7 @@ export const spokesBatch20_22to27: SpokePage[] = [
       {
         title: '조건 2 — 실업인정일에 반드시 근로 사실을 신고하세요',
         content:
-          '<p><strong style="color:#1e3a5f">알바를 한 날은 실업인정 신청서의 근로 일수에 정확히 기재해야 합니다</strong></p>\n<p>실업인정일(보통 2주마다)에 고용센터에 출석하거나 온라인으로 실업인정을 신청할 때, 알바를 한 날짜와 시간, 수입 금액을 <strong>빠짐없이 기재</strong>해야 합니다. 근로한 날은 실업급여가 지급되지 않고, 그만큼 수급 기간이 뒤로 연장됩니다.</p>\n<p>신고하지 않고 알바 소득을 숨기면 <strong>부정수급</strong>에 해당합니다. 고용보험법 제62조에 따라 이미 받은 급여의 반환은 물론, 부정수급액의 최대 5배까지 추가 징수될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 근로일 기재 → 해당 일수 급여 미지급 → 수급 기간 연장</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/chat?domain=unemployment" style="color:#1565c0;font-weight:600">내 알바 조건이 실업급여에 영향을 주는지 AI로 확인하기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">알바를 한 날은 실업인정 신청서의 근로 일수에 정확히 기재해야 합니다</strong></p>\n<p>실업인정일(보통 2주마다)에 고용센터에 출석하거나 온라인으로 실업인정을 신청할 때, 알바를 한 날짜와 시간, 수입 금액을 <strong>빠짐없이 기재</strong>해야 합니다. 근로한 날은 실업급여가 지급되지 않고, 그만큼 수급 기간이 뒤로 연장됩니다.</p>\n<p>신고하지 않고 알바 소득을 숨기면 <strong>부정수급</strong>에 해당할 소지가 있습니다. 고용보험법 제62조에 따라 이미 받은 급여의 반환은 물론, 부정수급액의 최대 5배까지 추가 징수될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 근로일 기재 → 해당 일수 급여 미지급 → 수급 기간 연장</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/chat?domain=unemployment" style="color:#1565c0;font-weight:600">내 알바 조건이 실업급여에 영향을 주는지 AI로 확인하기 &rarr;</a>\n</div>',
       },
       {
         title: '조건 3 — 3개월 이상 계속 근로하면 취업으로 전환됩니다',
@@ -126,7 +126,7 @@ export const spokesBatch20_22to27: SpokePage[] = [
       {
         title: '알바 소득이 실업급여 금액에 미치는 영향',
         content:
-          '<p><strong style="color:#1e3a5f">알바 소득에 따라 해당 일의 구직급여가 감액되거나 전액 지급 정지될 수 있습니다</strong></p>\n<p>알바를 한 날의 소득이 <strong>구직급여 일액</strong> 이상이면 해당 일의 급여는 지급되지 않습니다. 소득이 구직급여 일액 미만이면 차액만큼 감액 지급되는 구조입니다. 예를 들어, 구직급여 일액이 66,000원인데 알바로 4만 원을 벌었다면 26,000원만 지급됩니다.</p>\n<p>다만 알바를 하지 않은 날에는 구직급여가 <strong>정상적으로 전액 지급</strong>됩니다. 알바 소득이 적더라도 반드시 정직하게 신고하세요. 고용센터는 국세청·건보공단 자료를 통해 미신고 소득을 추적합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 근로일 소득 ≥ 구직급여 일액 → 해당일 미지급 / 소득 < 일액 → 차액 지급</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">부정수급 위험 없이 알바하려면</strong><br/>\n<a href="/diagnosis/unemployment" style="color:#1565c0;font-weight:600">내 상황에서 알바 가능 여부 AI로 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">알바 소득에 따라 해당 일의 구직급여가 감액되거나 전액 지급 정지될 수 있습니다</strong></p>\n<p>알바를 한 날의 소득이 <strong>구직급여 일액</strong> 이상이면 해당 일의 급여는 지급되지 않습니다. 소득이 구직급여 일액 미만이면 차액만큼 감액 지급되는 구조입니다. 예를 들어, 구직급여 일액이 66,000원인데 알바로 4만 원을 벌었다면 26,000원만 지급됩니다.</p>\n<p>다만 알바를 하지 않은 날에는 구직급여가 <strong>정상적으로 전액 지급</strong>됩니다. 알바 소득이 적더라도 가능한 한 정직하게 신고하세요. 고용센터는 국세청·건보공단 자료를 통해 미신고 소득을 추적합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 근로일 소득 ≥ 구직급여 일액 → 해당일 미지급 / 소득 < 일액 → 차액 지급</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">부정수급 위험 없이 알바하려면</strong><br/>\n<a href="/diagnosis/unemployment" style="color:#1565c0;font-weight:600">내 상황에서 알바 가능 여부 AI로 진단받기 &rarr;</a>\n</div>',
       },
     ],
     cases: [
@@ -135,14 +135,14 @@ export const spokesBatch20_22to27: SpokePage[] = [
         summary:
           '대구지법 2018구합23680 사건(2019.04.17 선고)에서 법원은 수급자가 일본에 체류하면서 형이 대리로 재취업 노력신고를 한 행위가 고용보험법 제61조의 "거짓이나 그 밖의 부정한 방법"에 해당한다고 판시했습니다.',
         takeaway:
-          '실업급여 수급 중에는 모든 신고를 반드시 본인이 직접 해야 합니다. 알바 사실을 숨기거나 대리 신고를 하면 부정수급으로 적발되어 급여 반환 및 추가 징수 처분을 받을 수 있습니다.',
+          '실업급여 수급 중에는 모든 신고를 가능한 한 본인이 직접 해야 합니다. 알바 사실을 숨기거나 대리 신고를 하면 부정수급으로 적발되어 급여 반환 및 추가 징수 처분을 받을 수 있습니다.',
       },
     ],
     faq: [
       {
         question: '배달 앱 알바도 실업급여에 영향을 주나요?',
         answer:
-          '배달 앱은 프리랜서(특수형태근로)로 분류되지만, <strong>소득이 발생하면 실업인정 시 반드시 신고</strong>해야 합니다. 배달 건수가 많아 주 15시간 이상 활동하면 취업으로 간주될 수 있으므로, 활동 시간을 기록해 두세요.',
+          '배달 앱은 프리랜서(특수형태근로)로 분류되지만, <strong>소득이 발생하면 실업인정 시 가능한 한 신고</strong>해야 합니다. 배달 건수가 많아 주 15시간 이상 활동하면 취업으로 간주될 수 있으므로, 활동 시간을 기록해 두세요.',
       },
       {
         question: '알바를 하면 실업급여 수급 기간이 줄어드나요?',
@@ -152,7 +152,7 @@ export const spokesBatch20_22to27: SpokePage[] = [
       {
         question: '일용직 알바도 신고해야 하나요?',
         answer:
-          '<strong>네, 반드시 신고해야 합니다.</strong> 일용직이든 단기 아르바이트든 소득이 발생하면 실업인정 시 근로 사실을 기재해야 합니다. 일용직의 경우 사업주가 근로내용확인신고를 하므로 고용센터에서 교차검증이 이루어집니다.',
+          '<strong>네, 가능한 한 신고해야 합니다.</strong> 일용직이든 단기 아르바이트든 소득이 발생하면 실업인정 시 근로 사실을 기재해야 합니다. 일용직의 경우 사업주가 근로내용확인신고를 하므로 고용센터에서 교차검증이 이루어집니다.',
       },
       {
         question: '알바를 하다 그만두면 실업급여가 다시 나오나요?',
@@ -205,12 +205,12 @@ export const spokesBatch20_22to27: SpokePage[] = [
       {
         title: '함정 3 — 수급자격 인정 교육을 빠뜨리면 일정이 1~2주 더 밀립니다',
         content:
-          '<p><strong style="color:#1e3a5f">고용센터에서 수급자격 인정을 받으려면 의무교육(온라인 또는 집합)을 반드시 이수해야 합니다</strong></p>\n<p>고용센터 방문 시 <strong>수급자격 인정 교육</strong> 일정을 안내받습니다. 이 교육을 이수하지 않으면 수급자격 인정이 완료되지 않아, 실업급여 지급이 추가로 1~2주 지연됩니다. 교육은 온라인으로도 수강 가능하니 안내받은 즉시 이수하세요.</p>\n<p>교육 미이수로 인한 지연은 12개월 마감선에 그대로 반영됩니다. 퇴직 후 10~11개월째에 신청하는 분들은 <strong>교육 일정 하나 때문에 남은 수급 일수를 통째로 잃을 수 있습니다</strong>.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 수급자격 인정 교육 미이수 = 지급 지연 → 12개월 마감에 직격탄</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용센터에서 수급자격 인정을 받으려면 의무교육(온라인 또는 집합)을 가능한 한 이수해야 합니다</strong></p>\n<p>고용센터 방문 시 <strong>수급자격 인정 교육</strong> 일정을 안내받습니다. 이 교육을 이수하지 않으면 수급자격 인정이 완료되지 않아, 실업급여 지급이 추가로 1~2주 지연됩니다. 교육은 온라인으로도 수강 가능하니 안내받은 즉시 이수하세요.</p>\n<p>교육 미이수로 인한 지연은 12개월 마감선에 그대로 반영됩니다. 퇴직 후 10~11개월째에 신청하는 분들은 <strong>교육 일정 하나 때문에 남은 수급 일수를 통째로 잃을 수 있습니다</strong>.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 수급자격 인정 교육 미이수 = 지급 지연 → 12개월 마감에 직격탄</blockquote>',
       },
       {
         title: '기한 임박 시 긴급 대처법',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직 후 10개월이 넘었다면 지금 당장 아래 순서로 움직이세요</strong></p>\n<ul>\n<li><strong>오늘 중</strong> 워크넷 구직등록 완료</li>\n<li><strong>내일</strong> 관할 고용센터 방문하여 수급자격 인정 신청</li>\n<li><strong>당일 또는 다음 날</strong> 수급자격 인정 교육 온라인 이수</li>\n<li>첫 실업인정일에 반드시 출석하여 구직활동 보고</li>\n</ul>\n<p>이직확인서가 아직 처리되지 않았다면 <strong>고용센터에 사업주 촉구를 요청</strong>하세요. 고용보험법 제42조에 따라 사업주는 이직확인서를 지체 없이 제출할 의무가 있으며, 미제출 시 과태료 부과 대상입니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">기한 임박 긴급 확인</strong><br/>\n<a href="/diagnosis/unemployment" style="color:#1565c0;font-weight:600">남은 수급 기간과 금액 AI로 빠르게 계산하기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">퇴직 후 10개월이 넘었다면 지금 당장 아래 순서로 움직이세요</strong></p>\n<ul>\n<li><strong>오늘 중</strong> 워크넷 구직등록 완료</li>\n<li><strong>내일</strong> 관할 고용센터 방문하여 수급자격 인정 신청</li>\n<li><strong>당일 또는 다음 날</strong> 수급자격 인정 교육 온라인 이수</li>\n<li>첫 실업인정일에 가능한 한 출석하여 구직활동 보고</li>\n</ul>\n<p>이직확인서가 아직 처리되지 않았다면 <strong>고용센터에 사업주 촉구를 요청</strong>하세요. 고용보험법 제42조에 따라 사업주는 이직확인서를 지체 없이 제출할 의무가 있으며, 미제출 시 과태료 부과 대상입니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">기한 임박 긴급 확인</strong><br/>\n<a href="/diagnosis/unemployment" style="color:#1565c0;font-weight:600">남은 수급 기간과 금액 AI로 빠르게 계산하기 &rarr;</a>\n</div>',
       },
     ],
     cases: [
@@ -399,7 +399,7 @@ export const spokesBatch20_22to27: SpokePage[] = [
       {
         question: '계약직인데 계약만료로 퇴사하면 자동으로 수급 가능한가요?',
         answer:
-          '네, <strong>계약 기간 만료로 인한 퇴직</strong>은 비자발적 이직으로 분류되어 수급 자격이 인정됩니다. 다만 사업주가 재계약을 제안했는데 본인이 거절한 경우에는 자발적 퇴사로 처리될 수 있으니 이직확인서 내용을 꼭 확인하세요.',
+          '네, <strong>계약 기간 만료로 인한 퇴직</strong>은 비자발적 이직으로 분류되어 수급 자격이 인정될 수 있습니다. 다만 사업주가 재계약을 제안했는데 본인이 거절한 경우에는 자발적 퇴사로 처리될 수 있으니 이직확인서 내용을 꼭 확인하세요.',
       },
       {
         question: '여러 직장의 고용보험 가입 기간을 합산할 수 있나요?',
@@ -462,7 +462,7 @@ export const spokesBatch20_22to27: SpokePage[] = [
       {
         title: '총 수령액 시뮬레이션 — 수급 일수별 최대 금액',
         content:
-          '<p><strong style="color:#1e3a5f">수급 일수에 상한액을 곱하면 받을 수 있는 최대 총액을 알 수 있습니다</strong></p>\n<ul>\n<li>120일 × 66,000원 = <strong>최대 7,920,000원</strong></li>\n<li>150일 × 66,000원 = <strong>최대 9,900,000원</strong></li>\n<li>180일 × 66,000원 = <strong>최대 11,880,000원</strong></li>\n<li>210일 × 66,000원 = <strong>최대 13,860,000원</strong></li>\n<li>240일 × 66,000원 = <strong>최대 15,840,000원</strong></li>\n<li>270일 × 66,000원 = <strong>최대 17,820,000원</strong></li>\n</ul>\n<p>최대 270일 수급 시 <strong>약 1,782만 원</strong>까지 받을 수 있습니다. 신청이 늦어져 12개월 마감선에 걸리면 이 금액의 상당 부분을 잃게 되므로, 반드시 퇴사 직후 신청을 시작하세요.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 조건에 맞는 정확한 금액은</strong><br/>\n<a href="/diagnosis/unemployment" style="color:#1565c0;font-weight:600">AI가 퇴직 전 급여 기준으로 정확히 계산해드립니다 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">수급 일수에 상한액을 곱하면 받을 수 있는 최대 총액을 알 수 있습니다</strong></p>\n<ul>\n<li>120일 × 66,000원 = <strong>최대 7,920,000원</strong></li>\n<li>150일 × 66,000원 = <strong>최대 9,900,000원</strong></li>\n<li>180일 × 66,000원 = <strong>최대 11,880,000원</strong></li>\n<li>210일 × 66,000원 = <strong>최대 13,860,000원</strong></li>\n<li>240일 × 66,000원 = <strong>최대 15,840,000원</strong></li>\n<li>270일 × 66,000원 = <strong>최대 17,820,000원</strong></li>\n</ul>\n<p>최대 270일 수급 시 <strong>약 1,782만 원</strong>까지 받을 수 있습니다. 신청이 늦어져 12개월 마감선에 걸리면 이 금액의 상당 부분을 잃게 되므로, 가능한 한 퇴사 직후 신청을 시작하세요.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 조건에 맞는 정확한 금액은</strong><br/>\n<a href="/diagnosis/unemployment" style="color:#1565c0;font-weight:600">AI가 퇴직 전 급여 기준으로 정확히 계산해드립니다 &rarr;</a>\n</div>',
       },
     ],
     cases: [

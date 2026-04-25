@@ -110,7 +110,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       {
         title: '전보명령 — 정당성 판단 3기준',
         content:
-          '<p><strong style="color:#1e3a5f">전보명령의 적법성은 업무상 필요성·생활상 불이익·절차적 합리성으로 판단합니다.</strong></p>\n<ul>\n<li><strong>업무상 필요성</strong> — 인력 배치·구조조정 등 합리적 사유가 있는지 확인합니다.</li>\n<li><strong>생활상 불이익</strong> — 출퇴근·가족 동반·주거 이전 부담을 종합 고려합니다.</li>\n<li><strong>절차적 합리성</strong> — 협의·사전 통보·대체 제안 여부를 확인합니다.</li>\n<li><strong>근로계약 범위</strong> — 계약서상 근무지 특정 여부가 전보 가능성을 좌우합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 세 기준 중 하나라도 부족하면 전보명령 자체가 무효이며, 거부를 이유로 한 해고도 부당해고입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">전보명령의 적법성은 업무상 필요성·생활상 불이익·절차적 합리성으로 판단합니다.</strong></p>\n<ul>\n<li><strong>업무상 필요성</strong> — 인력 배치·구조조정 등 합리적 사유가 있는지 확인합니다.</li>\n<li><strong>생활상 불이익</strong> — 출퇴근·가족 동반·주거 이전 부담을 종합 고려합니다.</li>\n<li><strong>절차적 합리성</strong> — 협의·사전 통보·대체 제안 여부를 확인합니다.</li>\n<li><strong>근로계약 범위</strong> — 계약서상 근무지 특정 여부가 전보 가능성을 좌우합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 세 기준 중 하나라도 부족하면 전보명령 자체가 무효이며, 거부를 이유로 한 해고도 부당해고로 검토될 수 있습니다.</blockquote>',
       },
       {
         title: '전보 통보 직후 — 지금 할 일 3개',
@@ -125,7 +125,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       {
         title: '해고 후 대응 — 구제신청 실무',
         content:
-          '<p><strong style="color:#1e3a5f">거부를 이유로 해고당했다면 3개월 이내 구제신청이 핵심입니다.</strong></p>\n<ul>\n<li><strong>해고 통보서 확보</strong> — 해고 사유가 명시된 서면을 반드시 받아둡니다.</li>\n<li><strong>전보 부당성 입증</strong> — 업무상 필요성·불이익 자료를 패키지로 준비.</li>\n<li><strong>구제명령 효과</strong> — 원직복귀 + 해고 기간 임금상당액 지급.</li>\n<li><strong>화해 가능성</strong> — 심문 전 화해로 금전 보상·복직 협상이 가능합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 해고 통보일이 불명확하면 예고수당 청구도 함께 검토하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">거부를 이유로 해고당했다면 3개월 이내 구제신청이 핵심입니다.</strong></p>\n<ul>\n<li><strong>해고 통보서 확보</strong> — 해고 사유가 명시된 서면을 가능한 한 받아둡니다.</li>\n<li><strong>전보 부당성 입증</strong> — 업무상 필요성·불이익 자료를 패키지로 준비.</li>\n<li><strong>구제명령 효과</strong> — 원직복귀 + 해고 기간 임금상당액 지급.</li>\n<li><strong>화해 가능성</strong> — 심문 전 화해로 금전 보상·복직 협상이 가능합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 해고 통보일이 불명확하면 예고수당 청구도 함께 검토하세요.</blockquote>',
       },
     ],
     cases: [
@@ -202,7 +202,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       {
         title: '병가 중 해고 — 지금 할 일 3개',
         content:
-          '<p><strong style="color:#1e3a5f">해고 통보를 받은 즉시 치료를 최우선으로 하되 3가지 증거를 확보합니다.</strong></p>\n<ul>\n<li><strong>해고 통보서 확보</strong> — 해고 사유·시점이 명시된 서면을 반드시 받아둡니다.</li>\n<li><strong>진단서·치료 기록</strong> — 병명·치료 기간·예상 복귀일이 담긴 진단서를 준비합니다.</li>\n<li><strong>업무 관련성 입증</strong> — 과로·스트레스·사고가 원인이면 산재 신청을 병행합니다.</li>\n<li><strong>상담 병행</strong> — 3개월 기한 내 구제신청 여부를 전문가와 빠르게 판단.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 병가 해고의 위법성과 대응을 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">해고 통보를 받은 즉시 치료를 최우선으로 하되 3가지 증거를 확보합니다.</strong></p>\n<ul>\n<li><strong>해고 통보서 확보</strong> — 해고 사유·시점이 명시된 서면을 가능한 한 받아둡니다.</li>\n<li><strong>진단서·치료 기록</strong> — 병명·치료 기간·예상 복귀일이 담긴 진단서를 준비합니다.</li>\n<li><strong>업무 관련성 입증</strong> — 과로·스트레스·사고가 원인이면 산재 신청을 병행합니다.</li>\n<li><strong>상담 병행</strong> — 3개월 기한 내 구제신청 여부를 전문가와 빠르게 판단.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 병가 해고의 위법성과 대응을 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '산재 신청 병행 — 해고 무효화 지렛대',
@@ -632,7 +632,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       {
         title: '감액 가능성 — 3가지 판단 포인트',
         content:
-          '<p><strong style="color:#1e3a5f">양육비 감액은 사정변경이 입증되어야 인정됩니다.</strong></p>\n<ul>\n<li><strong>계부모 친양자 입양</strong> — 친양자 입양 시 친부(생부) 양육 의무가 사실상 이전될 수 있음.</li>\n<li><strong>양육 환경 변화</strong> — 새 가정의 경제력·돌봄 환경 개선은 보조 요소.</li>\n<li><strong>지급자 사정 변경</strong> — 지급자의 소득 감소·건강 악화도 감액 사유.</li>\n<li><strong>자녀 복리 우선</strong> — 감액이 자녀 복리를 침해하지 않아야 합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 단순 재혼은 사유가 아니며, 친양자 입양이 핵심 변곡점입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">양육비 감액은 사정변경이 입증되어야 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>계부모 친양자 입양</strong> — 친양자 입양 시 친부(생부) 양육 의무가 사실상 이전될 수 있음.</li>\n<li><strong>양육 환경 변화</strong> — 새 가정의 경제력·돌봄 환경 개선은 보조 요소.</li>\n<li><strong>지급자 사정 변경</strong> — 지급자의 소득 감소·건강 악화도 감액 사유.</li>\n<li><strong>자녀 복리 우선</strong> — 감액이 자녀 복리를 침해하지 않아야 합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 단순 재혼은 사유가 아니며, 친양자 입양이 핵심 변곡점입니다.</blockquote>',
       },
       {
         title: '감액 청구 절차 — 지금 할 일 3개',
@@ -647,7 +647,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       {
         title: '감액이 어려운 경우 — 흔한 오해',
         content:
-          '<p><strong style="color:#1e3a5f">감액이 인정되지 않는 대표 사례를 미리 알아두면 불필요한 소송을 피할 수 있습니다.</strong></p>\n<ul>\n<li><strong>단순 재혼</strong> — 재혼 사실만으로는 감액 사유 불인정.</li>\n<li><strong>일반입양만 한 경우</strong> — 친생부 양육 의무 존속이 원칙.</li>\n<li><strong>상대방 소득 증가</strong> — 감액 사유 아님. 오히려 자녀 환경 개선 요인으로만 평가.</li>\n<li><strong>면접교섭 거부</strong> — 면접교섭 거부와 양육비는 별개 의무입니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 일방 감액은 이행명령·감치 대상이 될 수 있어 반드시 법적 절차로 해결하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">감액이 인정되지 않는 대표 사례를 미리 알아두면 불필요한 소송을 피할 수 있습니다.</strong></p>\n<ul>\n<li><strong>단순 재혼</strong> — 재혼 사실만으로는 감액 사유 불인정.</li>\n<li><strong>일반입양만 한 경우</strong> — 친생부 양육 의무 존속이 원칙.</li>\n<li><strong>상대방 소득 증가</strong> — 감액 사유 아님. 오히려 자녀 환경 개선 요인으로만 평가.</li>\n<li><strong>면접교섭 거부</strong> — 면접교섭 거부와 양육비는 별개 의무입니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 일방 감액은 이행명령·감치 대상이 될 수 있어 가능한 한 법적 절차로 해결하세요.</blockquote>',
       },
     ],
     cases: [
@@ -750,7 +750,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       {
         question: '공유 킥보드 이용 중 사고면 업체 책임인가요?',
         answer:
-          '<strong>이용자 과실이 1차적입니다.</strong> 업체 관리 부실이 있는 경우 제한적으로 책임이 인정됩니다.',
+          '<strong>이용자 과실이 1차적입니다.</strong> 업체 관리 부실이 있는 경우 제한적으로 책임이 인정될 수 있습니다.',
       },
       {
         question: '가해자가 연락 안 되면요?',
@@ -852,12 +852,12 @@ export const spokesBatch40Labor2: SpokePage[] = [
       {
         question: '가벼운 접촉사고도 뺑소니인가요?',
         answer:
-          '<strong>구호 의무 위반 여부가 기준입니다.</strong> 인적 피해가 있는데 도주하면 뺑소니에 해당합니다.',
+          '<strong>구호 의무 위반 여부가 기준입니다.</strong> 인적 피해가 있는데 도주하면 뺑소니에 해당할 소지가 있습니다.',
       },
       {
         question: '후유장해 추가 청구도 가능한가요?',
         answer:
-          '<strong>합의 이후라도 예견 못한 후유증은 추가 청구가 가능할 수 있습니다.</strong> 합의서 문구를 반드시 확인하세요.',
+          '<strong>합의 이후라도 예견 못한 후유증은 추가 청구가 가능할 수 있습니다.</strong> 합의서 문구를 가능한 한 확인하세요.',
       },
     ],
     cta: {

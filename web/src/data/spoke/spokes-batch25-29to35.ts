@@ -121,7 +121,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
       {
         title: '2단계 — 지급정지 요청부터 피해금 환급까지 절차를 따라가세요',
         content:
-          '<p><strong style="color:#1e3a5f">지급정지 → 경찰 신고 → 채권소멸 공고 → 환급 결정의 4단계를 거칩니다</strong></p>\n<ul>\n<li><strong>1단계: 지급정지 요청</strong> — 피해자가 금융기관(은행 콜센터)에 전화하면 사기이용계좌에 대해 즉시 지급정지가 걸립니다. 경찰(112)에 전화해도 경찰이 금융기관에 지급정지를 요청할 수 있습니다</li>\n<li><strong>2단계: 경찰 신고</strong> — 지급정지 후 반드시 경찰에 피해 신고를 해야 합니다. 경찰 사건접수 확인서가 있어야 환급 절차가 진행됩니다</li>\n<li><strong>3단계: 채권소멸 공고</strong> — 금융감독원이 사기이용계좌의 명의인(사기범 또는 대포통장 명의자)에게 채권소멸 공고를 합니다. 공고 기간은 2개월이며, 이 기간 내에 이의신청이 없으면 해당 금액에 대한 명의인의 권리가 소멸합니다</li>\n<li><strong>4단계: 피해금 환급</strong> — 채권소멸 공고 기간이 끝나면 금융감독원이 피해자에게 환급 결정을 합니다. 피해자가 여러 명이면 피해 금액 비율로 나누어 환급됩니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 보이스피싱 피해 상황에 맞는 대응 전략을 안내해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">지급정지 → 경찰 신고 → 채권소멸 공고 → 환급 결정의 4단계를 거칩니다</strong></p>\n<ul>\n<li><strong>1단계: 지급정지 요청</strong> — 피해자가 금융기관(은행 콜센터)에 전화하면 사기이용계좌에 대해 즉시 지급정지가 걸립니다. 경찰(112)에 전화해도 경찰이 금융기관에 지급정지를 요청할 수 있습니다</li>\n<li><strong>2단계: 경찰 신고</strong> — 지급정지 후 가능한 한 경찰에 피해 신고를 해야 합니다. 경찰 사건접수 확인서가 있어야 환급 절차가 진행됩니다</li>\n<li><strong>3단계: 채권소멸 공고</strong> — 금융감독원이 사기이용계좌의 명의인(사기범 또는 대포통장 명의자)에게 채권소멸 공고를 합니다. 공고 기간은 2개월이며, 이 기간 내에 이의신청이 없으면 해당 금액에 대한 명의인의 권리가 소멸합니다</li>\n<li><strong>4단계: 피해금 환급</strong> — 채권소멸 공고 기간이 끝나면 금융감독원이 피해자에게 환급 결정을 합니다. 피해자가 여러 명이면 피해 금액 비율로 나누어 환급됩니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 보이스피싱 피해 상황에 맞는 대응 전략을 안내해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '3단계 — 지급정지 후에도 추가로 해야 할 3가지를 확인하세요',
@@ -162,7 +162,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
       {
         question: '피해 금액이 소액(50만 원 이하)이어도 지급정지와 환급이 가능한가요?',
         answer:
-          '금액에 관계없이 지급정지와 환급 절차를 이용할 수 있습니다. 소액이라도 경찰 신고와 지급정지를 반드시 진행하세요. 같은 사기 계좌에 다른 피해자가 있을 수 있어 수사에도 도움이 됩니다.',
+          '금액에 관계없이 지급정지와 환급 절차를 이용할 수 있습니다. 소액이라도 경찰 신고와 지급정지를 가능한 한 진행하세요. 같은 사기 계좌에 다른 피해자가 있을 수 있어 수사에도 도움이 됩니다.',
       },
     ],
     cta: {
@@ -195,12 +195,12 @@ export const spokesBatch25_29to35: SpokePage[] = [
         '사기 고소를 준비하는데 경찰이 어떤 증거를 중요하게 보는지 모르겠다면 핵심 증거 5가지를 지금 확인하세요.',
     },
     intro:
-      '<p>분명히 속았는데 경찰에 신고하면 "민사로 해결하라"는 말만 들을까 봐 걱정됩니다.</p><p>사기 고소가 받아들여지려면 "처음부터 속일 의도가 있었다"는 점을 입증해야 하는데, 어떤 증거를 갖춰야 경찰이 수사에 착수하는지 막막합니다.</p><p>형법 제347조 사기죄는 기망행위, 착오, 재산 처분, 재산상 이익의 4가지 요건을 모두 충족해야 성립합니다. 경찰은 이 요건을 입증할 수 있는 증거가 있는지를 기준으로 사건을 판단합니다.</p><p>경찰 수사에서 실제로 중요하게 보는 핵심 증거 5가지를 정리해드립니다.</p>',
+      '<p>분명히 속았는데 경찰에 신고하면 "민사로 해결하라"는 말만 들을까 봐 걱정됩니다.</p><p>사기 고소가 받아들여지려면 "처음부터 속일 의도가 있었다"는 점을 입증해야 하는데, 어떤 증거를 갖춰야 경찰이 수사에 착수하는지 막막합니다.</p><p>형법 제347조 사기죄는 기망행위, 착오, 재산 처분, 재산상 이익의 4가지 요건을 모두 충족해야 성립할 수 있습니다. 경찰은 이 요건을 입증할 수 있는 증거가 있는지를 기준으로 사건을 판단합니다.</p><p>경찰 수사에서 실제로 중요하게 보는 핵심 증거 5가지를 정리해드립니다.</p>',
     sections: [
       {
         title: '핵심 증거 1~3 — 기망 의도와 거래 경위를 입증하는 증거',
         content:
-          '<p><strong style="color:#1e3a5f">사기죄의 핵심은 "처음부터 속일 의도가 있었는가"입니다 — 이를 입증할 3가지 증거를 확인하세요</strong></p>\n<ul>\n<li><strong>① 대화 내역(카카오톡·문자·이메일)</strong> — 상대방이 거짓 약속을 한 대화 기록이 가장 직접적인 증거입니다. "반드시 갚겠다", "투자 수익률 200% 보장" 등 허위 진술이 담긴 메시지를 캡처하세요. 날짜·시간·발신자가 명확히 보여야 합니다</li>\n<li><strong>② 송금 내역(계좌이체 확인서)</strong> — 언제, 얼마를 보냈는지 객관적으로 증명하는 자료입니다. 인터넷뱅킹 이체내역, 무통장입금증, 카드결제 영수증 등을 출력해두세요. 현금을 직접 전달한 경우에는 차용증이나 영수증이 핵심 증거가 됩니다</li>\n<li><strong>③ 상대방의 재산·신용 상태</strong> — "갚을 능력이 없으면서 돈을 빌렸다"는 점이 입증되면 기망 의도를 추정할 수 있습니다. 상대방이 이미 다수의 채무를 지고 있었거나, 다른 피해자에게도 같은 수법을 사용했다면 강력한 정황 증거가 됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대화 내역 + 송금 내역 + 상대방 재산 상태 = 기망 의도 입증의 3종 세트</blockquote>',
+          '<p><strong style="color:#1e3a5f">사기죄의 핵심은 "처음부터 속일 의도가 있었는가"입니다 — 이를 입증할 3가지 증거를 확인하세요</strong></p>\n<ul>\n<li><strong>① 대화 내역(카카오톡·문자·이메일)</strong> — 상대방이 거짓 약속을 한 대화 기록이 가장 직접적인 증거입니다. "가능한 한 갚겠다", "투자 수익률 200% 보장" 등 허위 진술이 담긴 메시지를 캡처하세요. 날짜·시간·발신자가 명확히 보여야 합니다</li>\n<li><strong>② 송금 내역(계좌이체 확인서)</strong> — 언제, 얼마를 보냈는지 객관적으로 증명하는 자료입니다. 인터넷뱅킹 이체내역, 무통장입금증, 카드결제 영수증 등을 출력해두세요. 현금을 직접 전달한 경우에는 차용증이나 영수증이 핵심 증거가 됩니다</li>\n<li><strong>③ 상대방의 재산·신용 상태</strong> — "갚을 능력이 없으면서 돈을 빌렸다"는 점이 입증되면 기망 의도를 추정할 수 있습니다. 상대방이 이미 다수의 채무를 지고 있었거나, 다른 피해자에게도 같은 수법을 사용했다면 강력한 정황 증거가 됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대화 내역 + 송금 내역 + 상대방 재산 상태 = 기망 의도 입증의 3종 세트</blockquote>',
       },
       {
         title: '핵심 증거 4~5 — 피해 규모와 반복성을 증명하는 증거',
@@ -231,7 +231,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
       {
         question: '경찰이 "민사로 해결하라"고 하면 어떻게 해야 하나요?',
         answer:
-          '고소장을 서면으로 제출하면 경찰은 반드시 접수해야 합니다(수사 거부 불가). 구두 신고 시 거절당했다면 서면 고소장을 작성해서 경찰서 민원실에 직접 제출하세요. 접수 후에도 수사가 지연되면 검찰에 항고할 수 있습니다.',
+          '고소장을 서면으로 제출하면 경찰은 가능한 한 접수해야 합니다(수사 거부 불가). 구두 신고 시 거절당했다면 서면 고소장을 작성해서 경찰서 민원실에 직접 제출하세요. 접수 후에도 수사가 지연되면 검찰에 항고할 수 있습니다.',
       },
       {
         question: '차용증이 없으면 사기 고소가 어려운가요?',
@@ -246,7 +246,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
       {
         question: '피해 금액이 100만 원 이하 소액이어도 경찰이 수사하나요?',
         answer:
-          '금액에 관계없이 사기죄는 성립합니다. 다만 소액 사건은 수사 우선순위에서 밀릴 수 있으므로, 다른 피해자를 찾아 공동 고소하거나, 증거를 체계적으로 정리해서 제출하면 수사 진행 가능성이 높아집니다.',
+          '금액에 관계없이 사기죄는 성립할 수 있습니다. 다만 소액 사건은 수사 우선순위에서 밀릴 수 있으므로, 다른 피해자를 찾아 공동 고소하거나, 증거를 체계적으로 정리해서 제출하면 수사 진행 가능성이 높아집니다.',
       },
     ],
     cta: {
@@ -310,7 +310,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
       {
         question: '중고거래 사기 금액이 10만 원인데도 형사 고소가 되나요?',
         answer:
-          '금액에 관계없이 사기죄는 성립합니다. 다만 10만 원 정도의 소액이면 경찰 수사 우선순위에서 밀릴 수 있으므로, 같은 판매자에게 피해를 입은 다른 피해자를 찾아 공동 고소하면 효과적입니다.',
+          '금액에 관계없이 사기죄는 성립할 수 있습니다. 다만 10만 원 정도의 소액이면 경찰 수사 우선순위에서 밀릴 수 있으므로, 같은 판매자에게 피해를 입은 다른 피해자를 찾아 공동 고소하면 효과적입니다.',
       },
       {
         question: '당근마켓 채팅 기록이 삭제되면 증거로 쓸 수 없나요?',
@@ -325,7 +325,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
       {
         question: '택배로 다른 물건(벽돌 등)을 보낸 경우도 사기인가요?',
         answer:
-          '의도적으로 다른 물건을 보낸 것이라면 명백한 사기입니다. 택배 개봉 영상을 촬영해두면 결정적 증거가 됩니다. 운송장 번호, 발송인 정보, 택배 박스 사진도 함께 보관하세요.',
+          '의도적으로 다른 물건을 보낸 것이라면 명백한 사기로 검토될 수 있습니다. 택배 개봉 영상을 촬영해두면 결정적 증거가 됩니다. 운송장 번호, 발송인 정보, 택배 박스 사진도 함께 보관하세요.',
       },
       {
         question: '안전결제를 이용했는데도 사기를 당할 수 있나요?',
@@ -373,7 +373,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
       {
         title: '금지 행동 4~5 — 소득 축소 신고와 허위 서류 제출',
         content:
-          '<p><strong style="color:#1e3a5f">법원은 소득 자료와 채무 내역의 진실성을 철저히 검증합니다</strong></p>\n<ul>\n<li><strong>④ 소득 축소·허위 신고</strong> — 변제금을 줄이기 위해 실제 소득보다 낮게 신고하거나, 부업 소득을 누락하면 법원이 허위 신청으로 판단합니다. 법원은 국민건강보험공단 소득 자료, 국세청 자료, 통장 입금 내역 등을 교차 검증하므로 허위 신고는 반드시 발각됩니다</li>\n<li><strong>⑤ 채무 목록 누락</strong> — 일부 채무를 고의로 빠뜨리면 "채권자 목록에 기재하지 아니한 청구권"으로서 면책에서 제외됩니다(채무자 회생법 제566조 제7호). 사채, 지인 대여금, 보증채무 등도 빠짐없이 기재해야 합니다</li>\n<li><strong>추가 주의사항</strong> — 신청 전 도박, 투기, 과소비 등 낭비 행위도 면책 불허가 사유에 해당합니다. 법원은 최근 1~2년간의 신용카드 사용 내역, 통장 거래 내역을 전부 확인합니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 개인회생 신청 전 주의사항을 체크해드립니다.</p>\n<a href="/chat?domain=rehabilitation" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">법원은 소득 자료와 채무 내역의 진실성을 철저히 검증합니다</strong></p>\n<ul>\n<li><strong>④ 소득 축소·허위 신고</strong> — 변제금을 줄이기 위해 실제 소득보다 낮게 신고하거나, 부업 소득을 누락하면 법원이 허위 신청으로 판단합니다. 법원은 국민건강보험공단 소득 자료, 국세청 자료, 통장 입금 내역 등을 교차 검증하므로 허위 신고는 가능한 한 발각됩니다</li>\n<li><strong>⑤ 채무 목록 누락</strong> — 일부 채무를 고의로 빠뜨리면 "채권자 목록에 기재하지 아니한 청구권"으로서 면책에서 제외됩니다(채무자 회생법 제566조 제7호). 사채, 지인 대여금, 보증채무 등도 빠짐없이 기재해야 합니다</li>\n<li><strong>추가 주의사항</strong> — 신청 전 도박, 투기, 과소비 등 낭비 행위도 면책 불허가 사유에 해당할 소지가 있습니다. 법원은 최근 1~2년간의 신용카드 사용 내역, 통장 거래 내역을 전부 확인합니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 개인회생 신청 전 주의사항을 체크해드립니다.</p>\n<a href="/chat?domain=rehabilitation" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '신청 전 올바른 준비 방법 3가지를 확인하세요',
@@ -476,7 +476,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
     ],
     faq: [
       {
-        question: '보정 기한이 지나면 무조건 각하되나요?',
+        question: '보정 기한이 지나면 원칙적으로 각하되나요?',
         answer:
           '원칙적으로 기한 내 보정하지 않으면 각하됩니다. 다만 기한 경과 직후라면 바로 보정서를 제출하면서 기한 도과 사유를 소명하면 법원이 받아주는 경우도 있습니다. 가능한 기한 내에 제출하세요.',
       },

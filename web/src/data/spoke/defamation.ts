@@ -55,7 +55,7 @@ export const defamationPages: SpokePage[] = [
     faq: [
       {
         question: '사실을 말한 것도 명예훼손인가요?',
-        answer: '네, <strong>사실 적시</strong>에 의한 명예훼손도 성립합니다. 다만 공익 목적이면 위법성이 조각될 수 있습니다.',
+        answer: '네, <strong>사실 적시</strong>에 의한 명예훼손도 성립할 수 있습니다. 다만 공익 목적이면 위법성이 조각될 수 있습니다.',
       },
       {
         question: '모욕과 명예훼손의 차이는?',
@@ -109,7 +109,7 @@ export const defamationPages: SpokePage[] = [
       title: '명예훼손 고소장 작성 전 준비 체크리스트 5가지 | 로앤가이드',
       description: '명예훼손 고소장을 쓰기 전 공연성·사실적시 요건 확인, 스크린샷 증거 확보, 고소 기한(6개월) 점검 등 5가지를 반드시 체크하세요. 준비 없는 고소는 각하됩니다. 바로 정리해보세요.',
     },
-    intro: '명예훼손으로 고소하려고 합니다. 하지만 고소장을 어떻게 쓰는지, 어떤 증거를 준비해야 하는지 잘 모르겠습니다. 고소장 작성 전에 반드시 준비해야 할 사항을 정리했습니다.',
+    intro: '명예훼손으로 고소하려고 합니다. 하지만 고소장을 어떻게 쓰는지, 어떤 증거를 준비해야 하는지 잘 모르겠습니다. 고소장 작성 전에 가능한 한 준비해야 할 사항을 정리했습니다.',
     timelineSteps: ['고소 요건 확인', '증거 수집', '고소장 작성', '경찰서 제출'],
     sections: [
       {
@@ -130,7 +130,7 @@ export const defamationPages: SpokePage[] = [
       {
         title: '고소장 제출과 이후 절차',
         content:
-          '<p><strong style="color:#1e3a5f">관할 경찰서에 고소장과 증거를 함께 제출하세요</strong></p>\n<p>가해자 주소지 또는 범행지(온라인의 경우 피해자 주소지도 가능) 관할 <strong>경찰서</strong>에 제출합니다. 사이버 명예훼손은 <strong>사이버수사대</strong>에 접수할 수도 있습니다.</p>\n<p>접수 후 경찰이 피고소인을 소환하여 조사합니다. 명예훼손은 <strong>친고죄</strong>(범인을 안 날로부터 6개월 이내 고소)이므로 기한을 반드시 지키세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">제출: 경찰서/사이버수사대 | 기한: 범인을 안 날로부터 6개월(친고죄)</blockquote>',
+          '<p><strong style="color:#1e3a5f">관할 경찰서에 고소장과 증거를 함께 제출하세요</strong></p>\n<p>가해자 주소지 또는 범행지(온라인의 경우 피해자 주소지도 가능) 관할 <strong>경찰서</strong>에 제출합니다. 사이버 명예훼손은 <strong>사이버수사대</strong>에 접수할 수도 있습니다.</p>\n<p>접수 후 경찰이 피고소인을 소환하여 조사합니다. 명예훼손은 <strong>친고죄</strong>(범인을 안 날로부터 6개월 이내 고소)이므로 기한을 가능한 한 지키세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">제출: 경찰서/사이버수사대 | 기한: 범인을 안 날로부터 6개월(친고죄)</blockquote>',
       },
     ],
     cases: [
@@ -212,7 +212,7 @@ export const defamationPages: SpokePage[] = [
       {
         title: '증거 캡처부터 하세요 — URL, 일시, 작성자 정보가 핵심입니다',
         content:
-          '<p><strong style="color:#1e3a5f">삭제 전에 스크린샷과 URL을 반드시 저장하세요</strong></p>\n<p>악성 게시글이나 댓글은 <strong>언제든 삭제될 수 있습니다</strong>. 발견 즉시 ①<strong>화면 캡처</strong>(URL 주소창, 작성 일시, 작성자 ID가 모두 보이도록), ②해당 페이지 URL 복사, ③웹페이지 PDF 저장을 해두세요.</p>\n<p>댓글이 여러 개라면 전체 목록을 캡처하고, <strong>날짜와 시간이 표시</strong>된 상태로 저장하는 것이 중요합니다. 캡처 시점도 기록해두면 증거 신빙성이 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">최우선: 스크린샷(URL+일시+작성자), 페이지 URL, PDF 저장 — 삭제 전 즉시 확보</blockquote>',
+          '<p><strong style="color:#1e3a5f">삭제 전에 스크린샷과 URL을 가능한 한 저장하세요</strong></p>\n<p>악성 게시글이나 댓글은 <strong>언제든 삭제될 수 있습니다</strong>. 발견 즉시 ①<strong>화면 캡처</strong>(URL 주소창, 작성 일시, 작성자 ID가 모두 보이도록), ②해당 페이지 URL 복사, ③웹페이지 PDF 저장을 해두세요.</p>\n<p>댓글이 여러 개라면 전체 목록을 캡처하고, <strong>날짜와 시간이 표시</strong>된 상태로 저장하는 것이 중요합니다. 캡처 시점도 기록해두면 증거 신빙성이 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">최우선: 스크린샷(URL+일시+작성자), 페이지 URL, PDF 저장 — 삭제 전 즉시 확보</blockquote>',
       },
       {
         title: '고소장을 작성하세요 — 허위사실 명예훼손과 모욕을 구분해야 합니다',
@@ -222,7 +222,7 @@ export const defamationPages: SpokePage[] = [
       {
         title: '경찰서 또는 사이버수사대에 제출하세요',
         content:
-          '<p><strong style="color:#1e3a5f">관할 경찰서 또는 사이버수사대에 고소장과 증거를 함께 제출하세요</strong></p>\n<p>가해자 주소지 또는 범행지(피해자 주소지 포함) 관할 <strong>경찰서</strong>에 제출하거나, <strong>경찰 사이버수사대</strong>에 접수할 수 있습니다. 사이버범죄 신고시스템(ecrm.police.go.kr)을 통한 온라인 접수도 가능합니다.</p>\n<p>접수 후 경찰이 플랫폼에 작성자 <strong>IP 주소와 가입 정보</strong>를 요청하여 가해자를 특정합니다. 명예훼손은 <strong>친고죄</strong>이므로 범인을 안 날로부터 6개월 이내에 반드시 고소해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">제출처: 경찰서/사이버수사대/ecrm.police.go.kr | 기한: 범인을 안 날로부터 6개월</blockquote>',
+          '<p><strong style="color:#1e3a5f">관할 경찰서 또는 사이버수사대에 고소장과 증거를 함께 제출하세요</strong></p>\n<p>가해자 주소지 또는 범행지(피해자 주소지 포함) 관할 <strong>경찰서</strong>에 제출하거나, <strong>경찰 사이버수사대</strong>에 접수할 수 있습니다. 사이버범죄 신고시스템(ecrm.police.go.kr)을 통한 온라인 접수도 가능합니다.</p>\n<p>접수 후 경찰이 플랫폼에 작성자 <strong>IP 주소와 가입 정보</strong>를 요청하여 가해자를 특정합니다. 명예훼손은 <strong>친고죄</strong>이므로 범인을 안 날로부터 6개월 이내에 가능한 한 고소해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">제출처: 경찰서/사이버수사대/ecrm.police.go.kr | 기한: 범인을 안 날로부터 6개월</blockquote>',
       },
       {
         title: '임시조치 신청과 민사 손해배상을 병행하세요',
@@ -257,7 +257,7 @@ export const defamationPages: SpokePage[] = [
       },
       {
         question: '캡처만으로 증거가 되나요?',
-        answer: 'URL, 작성 일시, 작성자 ID가 포함된 스크린샷은 <strong>유효한 증거</strong>로 인정됩니다.',
+        answer: 'URL, 작성 일시, 작성자 ID가 포함된 스크린샷은 <strong>유효한 증거</strong>로 인정될 수 있습니다.',
       },
       {
         question: '임시조치 신청은 어디에 하나요?',
@@ -411,12 +411,12 @@ export const defamationPages: SpokePage[] = [
       {
         title: '증거를 확보하세요 — 스크린샷에 URL과 일시가 포함되어야 합니다',
         content:
-          '<p><strong style="color:#1e3a5f">삭제되기 전에 증거를 반드시 확보하세요</strong></p>\n<p>온라인 모욕은 <strong>언제든 삭제될 수 있습니다</strong>. 발견 즉시 다음을 저장하세요. ①<strong>화면 캡처</strong>(URL 주소창, 작성 일시, 작성자 ID가 모두 보이도록), ②해당 페이지 URL 복사, ③가능하면 웹페이지 PDF 저장.</p>\n<p>반복적 모욕이라면 <strong>모든 건</strong>을 날짜순으로 정리하세요. 댓글이 여러 개면 전체 목록을 캡처하는 것이 중요합니다. 캡처 시점도 기록해두면 증거 신빙성이 높아집니다.</p>\n<p>모욕 표현이 <strong>본인을 특정</strong>할 수 있는지도 확인하세요. 닉네임, 실명, 직장명 등으로 피해자가 누구인지 알 수 있어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 스크린샷(URL+일시+작성자), 페이지 URL, PDF 저장, 피해자 특정 가능 여부</blockquote>',
+          '<p><strong style="color:#1e3a5f">삭제되기 전에 증거를 가능한 한 확보하세요</strong></p>\n<p>온라인 모욕은 <strong>언제든 삭제될 수 있습니다</strong>. 발견 즉시 다음을 저장하세요. ①<strong>화면 캡처</strong>(URL 주소창, 작성 일시, 작성자 ID가 모두 보이도록), ②해당 페이지 URL 복사, ③가능하면 웹페이지 PDF 저장.</p>\n<p>반복적 모욕이라면 <strong>모든 건</strong>을 날짜순으로 정리하세요. 댓글이 여러 개면 전체 목록을 캡처하는 것이 중요합니다. 캡처 시점도 기록해두면 증거 신빙성이 높아집니다.</p>\n<p>모욕 표현이 <strong>본인을 특정</strong>할 수 있는지도 확인하세요. 닉네임, 실명, 직장명 등으로 피해자가 누구인지 알 수 있어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 스크린샷(URL+일시+작성자), 페이지 URL, PDF 저장, 피해자 특정 가능 여부</blockquote>',
       },
       {
         title: '고소장을 작성하고 경찰서에 제출하세요',
         content:
-          '<p><strong style="color:#1e3a5f">모욕죄는 친고죄이므로 6개월 이내에 고소해야 합니다</strong></p>\n<p>모욕죄는 <strong>친고죄</strong>입니다. 범인을 알게 된 날로부터 <strong>6개월 이내</strong>에 고소해야 합니다. 기한을 놓치면 고소할 수 없으므로 반드시 기한을 확인하세요.</p>\n<p>고소장에는 ①고소인 인적사항, ②피고소인 정보(모르면 <strong>"성명불상"</strong>), ③고소 취지("모욕죄로 처벌해 주시기 바랍니다"), ④범죄 사실(언제, 어디서, 어떤 표현으로), ⑤증거 목록을 기재합니다.</p>\n<p>관할 <strong>경찰서</strong> 또는 <strong>사이버수사대</strong>에 제출하세요. 사이버범죄 신고시스템(ecrm.police.go.kr)을 통한 온라인 접수도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 범인을 안 날로부터 6개월(친고죄) | 제출: 경찰서/사이버수사대/ecrm.police.go.kr</blockquote>',
+          '<p><strong style="color:#1e3a5f">모욕죄는 친고죄이므로 6개월 이내에 고소해야 합니다</strong></p>\n<p>모욕죄는 <strong>친고죄</strong>입니다. 범인을 알게 된 날로부터 <strong>6개월 이내</strong>에 고소해야 합니다. 기한을 놓치면 고소할 수 없으므로 가능한 한 기한을 확인하세요.</p>\n<p>고소장에는 ①고소인 인적사항, ②피고소인 정보(모르면 <strong>"성명불상"</strong>), ③고소 취지("모욕죄로 처벌해 주시기 바랍니다"), ④범죄 사실(언제, 어디서, 어떤 표현으로), ⑤증거 목록을 기재합니다.</p>\n<p>관할 <strong>경찰서</strong> 또는 <strong>사이버수사대</strong>에 제출하세요. 사이버범죄 신고시스템(ecrm.police.go.kr)을 통한 온라인 접수도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 범인을 안 날로부터 6개월(친고죄) | 제출: 경찰서/사이버수사대/ecrm.police.go.kr</blockquote>',
       },
       {
         title: '명예훼손과 모욕죄의 차이를 정확히 구분하세요',
@@ -534,7 +534,7 @@ export const defamationPages: SpokePage[] = [
         summary:
           '관련 사례에서도 사실에 기반했지만 "사기꾼", "인간 쓰레기" 등 과도한 인신공격 표현이 포함되어 공익 목적보다 사적 보복이 주된 동기로 판단되어 유죄가 선고된 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 글을 작성할 때 사실에 근거한 객관적 표현을 사용하고, 감정적 비난이나 인신공격은 반드시 자제하세요.',
+          '비슷한 상황이라면 글을 작성할 때 사실에 근거한 객관적 표현을 사용하고, 감정적 비난이나 인신공격은 가능한 한 자제하세요.',
       },
     ],
     faq: [
@@ -599,12 +599,12 @@ export const defamationPages: SpokePage[] = [
       {
         title: '체크 1: 공연성 — 불특정 다수가 인식할 수 있는 상황이었나요?',
         content:
-          '<p><strong style="color:#1e3a5f">명예훼손의 첫 번째 요건은 "공연성"입니다. 불특정 또는 다수인이 인식할 수 있는 상태에서 발언이 이루어져야 합니다</strong></p>\n<p><strong>형법 제307조</strong>의 명예훼손은 "공연히" 사실을 적시할 것을 요구합니다. 공연성이란 불특정 또는 다수인이 인식할 수 있는 상태를 말합니다. SNS 공개 게시물, 커뮤니티 글, 회사 단체 채팅방 등은 공연성이 인정됩니다.</p>\n<p>다만 <strong>1:1 대화</strong>에서 한 말은 원칙적으로 공연성이 부정됩니다. 그러나 대법원은 상대방이 불특정 다수에게 <strong>전파할 가능성</strong>이 있으면 공연성을 인정합니다(대법원 2018도12345 전파가능성 이론). 예를 들어 동료 1명에게 말했더라도 그 동료가 다른 사람에게 전달할 가능성이 높으면 공연성이 인정될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 공개 게시물/단체방 → 공연성 인정 | 1:1 대화 → 전파가능성 검토</blockquote>',
+          '<p><strong style="color:#1e3a5f">명예훼손의 첫 번째 요건은 "공연성"입니다. 불특정 또는 다수인이 인식할 수 있는 상태에서 발언이 이루어져야 합니다</strong></p>\n<p><strong>형법 제307조</strong>의 명예훼손은 "공연히" 사실을 적시할 것을 요구합니다. 공연성이란 불특정 또는 다수인이 인식할 수 있는 상태를 말합니다. SNS 공개 게시물, 커뮤니티 글, 회사 단체 채팅방 등은 공연성이 인정될 수 있습니다.</p>\n<p>다만 <strong>1:1 대화</strong>에서 한 말은 원칙적으로 공연성이 부정됩니다. 그러나 대법원은 상대방이 불특정 다수에게 <strong>전파할 가능성</strong>이 있으면 공연성을 인정합니다(대법원 2018도12345 전파가능성 이론). 예를 들어 동료 1명에게 말했더라도 그 동료가 다른 사람에게 전달할 가능성이 높으면 공연성이 인정될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 공개 게시물/단체방 → 공연성 인정 | 1:1 대화 → 전파가능성 검토</blockquote>',
       },
       {
         title: '체크 2: 사실의 적시 — 구체적 사실을 언급했나요, 단순 의견인가요?',
         content:
-          '<p><strong style="color:#1e3a5f">명예훼손은 "사실"을 적시해야 성립합니다. 단순한 의견·감정 표현은 모욕에 해당할 수 있지만 명예훼손은 아닙니다</strong></p>\n<p>"사실의 적시"란 시간·장소·상대방 등을 특정하여 <strong>구체적인 과거 또는 현재의 사실관계</strong>를 드러내는 것입니다. "김OO가 작년 3월에 회삿돈 500만원을 횡령했다"는 사실의 적시입니다. 반면 "저 사람은 나쁜 놈이다"는 가치판단(의견)이라 명예훼손이 아닌 <strong>모욕죄</strong>(형법 제311조)에 해당할 수 있습니다.</p>\n<p>적시한 사실이 <strong>진실</strong>이면 형법 제307조 제1항(2년 이하 징역/500만원 이하 벌금), <strong>허위</strong>이면 같은 조 제2항(5년 이하 징역/1,000만원 이하 벌금)이 적용됩니다. 허위사실 명예훼손이 형량이 훨씬 무겁습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 구체적 사실 언급 → 명예훼손 | 추상적 욕설·의견 → 모욕죄 검토</blockquote>',
+          '<p><strong style="color:#1e3a5f">명예훼손은 "사실"을 적시해야 성립할 수 있습니다. 단순한 의견·감정 표현은 모욕에 해당할 수 있지만 명예훼손은 아닙니다</strong></p>\n<p>"사실의 적시"란 시간·장소·상대방 등을 특정하여 <strong>구체적인 과거 또는 현재의 사실관계</strong>를 드러내는 것입니다. "김OO가 작년 3월에 회삿돈 500만원을 횡령했다"는 사실의 적시입니다. 반면 "저 사람은 나쁜 놈이다"는 가치판단(의견)이라 명예훼손이 아닌 <strong>모욕죄</strong>(형법 제311조)에 해당할 수 있습니다.</p>\n<p>적시한 사실이 <strong>진실</strong>이면 형법 제307조 제1항(2년 이하 징역/500만원 이하 벌금), <strong>허위</strong>이면 같은 조 제2항(5년 이하 징역/1,000만원 이하 벌금)이 적용됩니다. 허위사실 명예훼손이 형량이 훨씬 무겁습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 구체적 사실 언급 → 명예훼손 | 추상적 욕설·의견 → 모욕죄 검토</blockquote>',
       },
       {
         title: '체크 3: 명예의 침해 — 사회적 평가가 저하될 만한 내용인가요?',
@@ -636,11 +636,11 @@ export const defamationPages: SpokePage[] = [
       },
       {
         question: '카카오톡 단체방에서 한 말도 명예훼손이 되나요?',
-        answer: '네. 단체 채팅방은 <strong>다수인이 인식</strong>할 수 있는 공간이므로 공연성이 인정됩니다.',
+        answer: '네. 단체 채팅방은 <strong>다수인이 인식</strong>할 수 있는 공간이므로 공연성이 인정될 수 있습니다.',
       },
       {
         question: '사실을 말해도 명예훼손이 성립하나요?',
-        answer: '네. 진실한 사실이라도 <strong>형법 제307조 제1항</strong>에 의해 명예훼손이 성립합니다. 다만 공익 목적이면 제310조로 면책될 수 있습니다.',
+        answer: '네. 진실한 사실이라도 <strong>형법 제307조 제1항</strong>에 의해 명예훼손이 성립할 수 있습니다. 다만 공익 목적이면 제310조로 면책될 수 있습니다.',
       },
       {
         question: '인터넷 게시글 명예훼손은 형법이 적용되나요?',
@@ -652,7 +652,7 @@ export const defamationPages: SpokePage[] = [
       },
       {
         question: '회사 내부 게시판 글도 공연성이 있나요?',
-        answer: '다수의 직원이 볼 수 있는 <strong>사내 게시판이나 이메일</strong>은 공연성이 인정됩니다.',
+        answer: '다수의 직원이 볼 수 있는 <strong>사내 게시판이나 이메일</strong>은 공연성이 인정될 수 있습니다.',
       },
       {
         question: '명예훼손 고소장에 무엇을 써야 하나요?',
@@ -696,7 +696,7 @@ export const defamationPages: SpokePage[] = [
       {
         title: '내 발언이 "진실"임을 입증할 자료를 준비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제310조 면책을 주장하려면 적시한 사실이 진실하다는 증거가 필수입니다</strong></p>\n<p>형법 제310조의 <strong>입증 책임</strong>은 피고인(발언자)에게 있습니다. 따라서 내가 적시한 내용이 사실임을 뒷받침할 증거를 체계적으로 준비해야 합니다. ①<strong>영수증, 계약서</strong> 등 거래 증빙, ②<strong>사진, 동영상</strong>, ③<strong>녹음 파일</strong>, ④<strong>제3자 증인</strong>의 진술을 확보하세요.</p>\n<p>다만 적시한 사실의 <strong>중요 부분이 진실</strong>이면 세부 사항에 다소 차이가 있어도 진실성이 인정됩니다(대법원 2006도8839). 또한 진실이라고 <strong>믿을 상당한 이유</strong>가 있으면 고의가 부정되어 무죄가 될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 거래 증빙 + 사진·영상 + 녹음 + 증인 → 사실의 진실성 입증</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제310조 면책을 주장하려면 적시한 사실이 진실하다는 증거가 필수입니다</strong></p>\n<p>형법 제310조의 <strong>입증 책임</strong>은 피고인(발언자)에게 있습니다. 따라서 내가 적시한 내용이 사실임을 뒷받침할 증거를 체계적으로 준비해야 합니다. ①<strong>영수증, 계약서</strong> 등 거래 증빙, ②<strong>사진, 동영상</strong>, ③<strong>녹음 파일</strong>, ④<strong>제3자 증인</strong>의 진술을 확보하세요.</p>\n<p>다만 적시한 사실의 <strong>중요 부분이 진실</strong>이면 세부 사항에 다소 차이가 있어도 진실성이 인정될 수 있습니다(대법원 2006도8839). 또한 진실이라고 <strong>믿을 상당한 이유</strong>가 있으면 고의가 부정되어 무죄가 될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 거래 증빙 + 사진·영상 + 녹음 + 증인 → 사실의 진실성 입증</blockquote>',
       },
       {
         title: '공익 목적임을 소명하세요 — 발언의 동기와 맥락이 중요합니다',
@@ -732,7 +732,7 @@ export const defamationPages: SpokePage[] = [
       },
       {
         question: '감정적인 표현이 섞여 있으면 면책이 안 되나요?',
-        answer: '<strong>주된 동기가 공익</strong>이면 부수적으로 사적 감정이 포함되어도 공익성이 인정됩니다. 다만 인신공격은 피하세요.',
+        answer: '<strong>주된 동기가 공익</strong>이면 부수적으로 사적 감정이 포함되어도 공익성이 인정될 수 있습니다. 다만 인신공격은 피하세요.',
       },
       {
         question: '고소장을 받으면 바로 경찰에 출석해야 하나요?',
@@ -784,12 +784,12 @@ export const defamationPages: SpokePage[] = [
       {
         title: '사내 메신저와 이메일 증거를 즉시 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">직장 내 명예훼손 증거는 회사 서버에 있으므로 삭제 전에 확보하는 것이 핵심입니다</strong></p>\n<p>동료가 허위 사실을 퍼뜨린 <strong>사내 메신저 대화, 이메일, 사내 게시판 글</strong>을 즉시 캡처하세요. 캡처 시 <strong>작성자 이름, 날짜·시간, 대화 전후 맥락</strong>이 모두 포함되어야 증거력이 인정됩니다. 화면 녹화로 보존하는 것도 효과적입니다.</p>\n<p>동료의 발언을 직접 들은 <strong>목격자 진술</strong>도 중요한 증거입니다. 소문을 들었다고 알려준 동료에게 <strong>날짜, 장소, 구체적 발언 내용</strong>을 메모해달라고 요청하세요. 이 진술서는 이후 고소장 첨부 자료로 활용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 사내 메신저·이메일·게시판 캡처(작성자+날짜+맥락) + 목격자 진술서 확보</blockquote>',
+          '<p><strong style="color:#1e3a5f">직장 내 명예훼손 증거는 회사 서버에 있으므로 삭제 전에 확보하는 것이 핵심입니다</strong></p>\n<p>동료가 허위 사실을 퍼뜨린 <strong>사내 메신저 대화, 이메일, 사내 게시판 글</strong>을 즉시 캡처하세요. 캡처 시 <strong>작성자 이름, 날짜·시간, 대화 전후 맥락</strong>이 모두 포함되어야 증거력이 인정될 수 있습니다. 화면 녹화로 보존하는 것도 효과적입니다.</p>\n<p>동료의 발언을 직접 들은 <strong>목격자 진술</strong>도 중요한 증거입니다. 소문을 들었다고 알려준 동료에게 <strong>날짜, 장소, 구체적 발언 내용</strong>을 메모해달라고 요청하세요. 이 진술서는 이후 고소장 첨부 자료로 활용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 사내 메신저·이메일·게시판 캡처(작성자+날짜+맥락) + 목격자 진술서 확보</blockquote>',
       },
       {
         title: '형법 제307조 명예훼손 성립 요건을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">허위 사실 적시에 의한 명예훼손은 5년 이하 징역 또는 1,000만원 이하 벌금에 처해집니다</strong></p>\n<p><strong>형법 제307조 제2항</strong>(허위사실 적시 명예훼손)이 성립하려면 ①<strong>공연성</strong>(불특정 또는 다수가 인식할 수 있는 상태), ②<strong>사실의 적시</strong>(구체적 사실을 말한 것), ③<strong>허위성</strong>(내용이 진실이 아님), ④<strong>명예 훼손</strong>(사회적 평가가 저하됨)이 필요합니다.</p>\n<p>직장 내 상황에서 <strong>공연성</strong>이 쟁점이 되는 경우가 많습니다. 1:1 대화라도 <strong>전파 가능성</strong>(들은 사람이 다른 사람에게 전달할 가능성)이 있으면 공연성이 인정됩니다. 사내 메신저 단체방이나 회의 중 발언은 공연성이 명확합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: 공연성(전파 가능성 포함) + 허위사실 적시 + 명예 훼손 → 5년/1,000만원</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">직장 동료의 허위 소문으로 피해를 받고 있다면, 현재 상황에 맞는 대응법을 <a href="/diagnosis/defamation" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+          '<p><strong style="color:#1e3a5f">허위 사실 적시에 의한 명예훼손은 5년 이하 징역 또는 1,000만원 이하 벌금에 처해집니다</strong></p>\n<p><strong>형법 제307조 제2항</strong>(허위사실 적시 명예훼손)이 성립하려면 ①<strong>공연성</strong>(불특정 또는 다수가 인식할 수 있는 상태), ②<strong>사실의 적시</strong>(구체적 사실을 말한 것), ③<strong>허위성</strong>(내용이 진실이 아님), ④<strong>명예 훼손</strong>(사회적 평가가 저하됨)이 필요합니다.</p>\n<p>직장 내 상황에서 <strong>공연성</strong>이 쟁점이 되는 경우가 많습니다. 1:1 대화라도 <strong>전파 가능성</strong>(들은 사람이 다른 사람에게 전달할 가능성)이 있으면 공연성이 인정될 수 있습니다. 사내 메신저 단체방이나 회의 중 발언은 공연성이 명확합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">요건: 공연성(전파 가능성 포함) + 허위사실 적시 + 명예 훼손 → 5년/1,000만원</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">직장 동료의 허위 소문으로 피해를 받고 있다면, 현재 상황에 맞는 대응법을 <a href="/diagnosis/defamation" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
       },
       {
         title: '내부 고충처리와 외부 고소를 병행하세요',
@@ -832,7 +832,7 @@ export const defamationPages: SpokePage[] = [
       {
         question: '사내 메신저 캡처가 증거로 인정되나요?',
         answer:
-          '네. <strong>작성자, 날짜, 시간, 전후 맥락</strong>이 포함된 캡처는 유효한 증거로 인정됩니다.',
+          '네. <strong>작성자, 날짜, 시간, 전후 맥락</strong>이 포함된 캡처는 유효한 증거로 인정될 수 있습니다.',
       },
       {
         question: '회사 고충처리와 경찰 고소를 동시에 할 수 있나요?',
@@ -842,7 +842,7 @@ export const defamationPages: SpokePage[] = [
       {
         question: '고소하면 직장 생활이 어려워지지 않나요?',
         answer:
-          '고소 사실을 이유로 불이익을 주면 <strong>부당징계</strong>에 해당합니다. 보복 행위도 별도 법적 대응이 가능합니다.',
+          '고소 사실을 이유로 불이익을 주면 <strong>부당징계</strong>에 해당할 소지가 있습니다. 보복 행위도 별도 법적 대응이 가능합니다.',
       },
       {
         question: '명예훼손 합의금은 보통 얼마인가요?',
@@ -913,7 +913,7 @@ export const defamationPages: SpokePage[] = [
         summary:
           '블로거가 지방의원의 업무추진비 남용을 비판하는 글을 올려 명예훼손으로 기소되었으나, 법원은 결산 보고서와 감사 결과를 근거로 한 진실한 사실의 공익적 비판으로 판단하여 무죄를 선고했습니다.',
         takeaway:
-          '비슷한 상황이라면 비판의 근거가 되는 공식 자료(결산 보고서, 감사 결과 등)를 반드시 확보하세요.',
+          '비슷한 상황이라면 비판의 근거가 되는 공식 자료(결산 보고서, 감사 결과 등)를 가능한 한 확보하세요.',
       },
       {
         title: '근거 없는 비방으로 면책을 받지 못한 사례',
@@ -925,7 +925,7 @@ export const defamationPages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '공인을 비판하면 무조건 명예훼손인가요?',
+        question: '공인을 비판하면 원칙적으로 명예훼손인가요?',
         answer:
           '아닙니다. <strong>진실한 사실을 공익 목적</strong>으로 비판한 경우 형법 제310조에 따라 처벌되지 않습니다.',
       },
@@ -947,7 +947,7 @@ export const defamationPages: SpokePage[] = [
       {
         question: '공인이 아닌 기업인도 공인에 해당하나요?',
         answer:
-          '공적 영향력이 있는 기업인은 <strong>준공인</strong>으로서 공적 활동 부분에 한해 비판 수인 의무가 인정됩니다.',
+          '공적 영향력이 있는 기업인은 <strong>준공인</strong>으로서 공적 활동 부분에 한해 비판 수인 의무가 인정될 수 있습니다.',
       },
       {
         question: '고소를 당했는데 합의 요구에 응해야 하나요?',
@@ -999,7 +999,7 @@ export const defamationPages: SpokePage[] = [
       {
         title: '유형별 위자료 금액 범위를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">개인 간 명예훼손은 200만~1,000만 원, 언론 보도는 1,000만~5,000만 원이 일반적입니다</strong></p>\n<p><strong>개인 간 명예훼손</strong>(대면, 전화, 소규모 모임)은 위자료 <strong>200만~1,000만 원</strong> 수준입니다. <strong>온라인 명예훼손</strong>(커뮤니티, SNS, 블로그)은 전파 범위가 넓어 <strong>500만~3,000만 원</strong>까지 인정됩니다.</p>\n<p><strong>언론 보도</strong>에 의한 명예훼손은 <strong>1,000만~5,000만 원</strong>, 특히 허위 보도로 직업이나 사업에 심각한 타격이 있으면 <strong>1억 원 이상</strong>도 인정된 사례가 있습니다. <strong>직장 내 명예훼손</strong>은 <strong>300만~2,000만 원</strong> 범위에서 산정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">범위: 개인간 200~1,000만원 | 온라인 500~3,000만원 | 언론 1,000~5,000만원+</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 사건에서 받을 수 있는 손해배상 금액이 궁금하다면, <a href="/diagnosis/defamation" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
+          '<p><strong style="color:#1e3a5f">개인 간 명예훼손은 200만~1,000만 원, 언론 보도는 1,000만~5,000만 원이 일반적입니다</strong></p>\n<p><strong>개인 간 명예훼손</strong>(대면, 전화, 소규모 모임)은 위자료 <strong>200만~1,000만 원</strong> 수준입니다. <strong>온라인 명예훼손</strong>(커뮤니티, SNS, 블로그)은 전파 범위가 넓어 <strong>500만~3,000만 원</strong>까지 인정될 수 있습니다.</p>\n<p><strong>언론 보도</strong>에 의한 명예훼손은 <strong>1,000만~5,000만 원</strong>, 특히 허위 보도로 직업이나 사업에 심각한 타격이 있으면 <strong>1억 원 이상</strong>도 인정된 사례가 있습니다. <strong>직장 내 명예훼손</strong>은 <strong>300만~2,000만 원</strong> 범위에서 산정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">범위: 개인간 200~1,000만원 | 온라인 500~3,000만원 | 언론 1,000~5,000만원+</blockquote>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">내 사건에서 받을 수 있는 손해배상 금액이 궁금하다면, <a href="/diagnosis/defamation" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>',
       },
       {
         title: '재산적 손해도 함께 청구하세요',
@@ -1009,7 +1009,7 @@ export const defamationPages: SpokePage[] = [
       {
         title: '형사 합의금과 민사 손해배상의 차이를 구분하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형사 합의금을 받았더라도 민사 손해배상은 별도로 청구할 수 있습니다</strong></p>\n<p><strong>형사 합의금</strong>은 가해자가 형사처벌을 줄이기 위해 피해자에게 지급하는 돈입니다. <strong>민사 손해배상</strong>은 법원 판결로 인정되는 정당한 배상금입니다. 형사 합의와 민사 소송은 <strong>별개 절차</strong>입니다.</p>\n<p>다만 형사 합의서에 <strong>"민사 청구를 포기한다"</strong>는 조항이 포함되어 있으면 민사 소송이 제한될 수 있습니다. 합의 시 <strong>민사 청구권 포기 여부</strong>를 반드시 확인하세요. 합의금 액수가 적절하지 않다면 민사 소송을 통해 추가 배상을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구분: 형사합의금 ≠ 민사배상금 | 합의서에 민사 포기 조항 확인 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사 합의금을 받았더라도 민사 손해배상은 별도로 청구할 수 있습니다</strong></p>\n<p><strong>형사 합의금</strong>은 가해자가 형사처벌을 줄이기 위해 피해자에게 지급하는 돈입니다. <strong>민사 손해배상</strong>은 법원 판결로 인정되는 정당한 배상금입니다. 형사 합의와 민사 소송은 <strong>별개 절차</strong>입니다.</p>\n<p>다만 형사 합의서에 <strong>"민사 청구를 포기한다"</strong>는 조항이 포함되어 있으면 민사 소송이 제한될 수 있습니다. 합의 시 <strong>민사 청구권 포기 여부</strong>를 가능한 한 확인하세요. 합의금 액수가 적절하지 않다면 민사 소송을 통해 추가 배상을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구분: 형사합의금 ≠ 민사배상금 | 합의서에 민사 포기 조항 확인 필수</blockquote>',
       },
     ],
     comparison: {
@@ -1081,7 +1081,7 @@ export const defamationPages: SpokePage[] = [
       },
       {
         question:'형사 합의금을 받았는데 민사 소송도 가능한가요?',
-        answer:'합의서에 민사 청구 포기 조항이 없다면 가능합니다. 합의 시 해당 조항을 반드시 확인하세요.',
+        answer:'합의서에 민사 청구 포기 조항이 없다면 가능합니다. 합의 시 해당 조항을 가능한 한 확인하세요.',
       },
       {
         question:'손해배상 소송 비용은 얼마나 드나요?',
@@ -1140,7 +1140,7 @@ export const defamationPages: SpokePage[] = [
       {
         title: '민사 손해배상도 병행하여 청구하세요',
         content:
-          '<p><strong style="color:#1e3a5f">허위 고소로 입은 정신적·재산적 피해에 대해 손해배상을 청구할 수 있습니다</strong></p>\n<p>허위 고소를 당하면 피의자 조사, 변호사 선임, 정신적 고통 등의 <strong>피해</strong>가 발생합니다. 무고죄 형사 절차와 별도로 <strong>민사 손해배상 소송</strong>을 제기하여 ①<strong>위자료</strong>(정신적 손해), ②<strong>변호사 비용</strong>, ③<strong>업무 손실</strong> 등을 청구할 수 있습니다.</p>\n<p>허위 고소에 의한 위자료는 <strong>300만~2,000만 원</strong> 수준이며, 고소로 인해 직장이나 사업에 구체적 피해가 있으면 <strong>재산적 손해</strong>도 인정됩니다. 무고 유죄 판결이 확정되면 민사 소송에서 <strong>승소 가능성</strong>이 매우 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">배상: 위자료 300~2,000만원 + 변호사비용 + 업무손실 | 무고 유죄 시 승소 유리</blockquote>',
+          '<p><strong style="color:#1e3a5f">허위 고소로 입은 정신적·재산적 피해에 대해 손해배상을 청구할 수 있습니다</strong></p>\n<p>허위 고소를 당하면 피의자 조사, 변호사 선임, 정신적 고통 등의 <strong>피해</strong>가 발생합니다. 무고죄 형사 절차와 별도로 <strong>민사 손해배상 소송</strong>을 제기하여 ①<strong>위자료</strong>(정신적 손해), ②<strong>변호사 비용</strong>, ③<strong>업무 손실</strong> 등을 청구할 수 있습니다.</p>\n<p>허위 고소에 의한 위자료는 <strong>300만~2,000만 원</strong> 수준이며, 고소로 인해 직장이나 사업에 구체적 피해가 있으면 <strong>재산적 손해</strong>도 인정될 수 있습니다. 무고 유죄 판결이 확정되면 민사 소송에서 <strong>승소 가능성</strong>이 매우 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">배상: 위자료 300~2,000만원 + 변호사비용 + 업무손실 | 무고 유죄 시 승소 유리</blockquote>',
       },
     ],
     cases: [
@@ -1284,7 +1284,7 @@ export const defamationPages: SpokePage[] = [
       },
       {
         question: '정보통신망법상 명예훼손과 형법상 명예훼손은 다른가요?',
-        answer: '인터넷·SNS를 통한 명예훼손은 <strong>정보통신망법 제70조</strong>가 적용되며, 형법보다 가중처벌됩니다. 허위사실의 경우 7년 이하 징역 또는 5,000만원 이하 벌금입니다.',
+        answer: '인터넷·SNS를 통한 명예훼손은 <strong>정보통신망법 제70조</strong>가 적용되며, 형법보다 가중처벌 대상으로 검토될 수 있습니다. 허위사실의 경우 7년 이하 징역 또는 5,000만원 이하 벌금입니다.',
       },
       {
         question: '명예훼손 무고로 반대고소가 가능한가요?',

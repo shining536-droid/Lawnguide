@@ -40,12 +40,12 @@ export const spokesBatch33Labor: SpokePage[] = [
       {
         title: '평균임금에 포함되는 6가지 항목',
         content:
-          '<p><strong style="color:#1e3a5f">계속적·정기적으로 지급되고 사용자에게 지급의무가 있는 금품은 임금으로서 평균임금에 포함됩니다.</strong></p>\n<ol>\n<li><strong>기본급</strong> — 근로계약서에 명시된 월 기본급 전액이 포함됩니다</li>\n<li><strong>고정 수당</strong> — 직책수당, 자격수당, 가족수당, 근속수당 등 매월 고정 지급되는 수당이 포함됩니다</li>\n<li><strong>식대·교통비</strong> — 전 직원에게 일률적·정기적으로 지급되는 식대, 교통보조비는 임금에 해당합니다</li>\n<li><strong>연장·야간·휴일근로수당</strong> — 퇴직 전 3개월간 실제 지급된 연장근로수당, 야간수당, 휴일수당이 포함됩니다</li>\n<li><strong>정기상여금</strong> — 지급 시기와 금액이 확정되어 매년 정기적으로 지급되는 상여금은 포함됩니다. 다만 3개월분 평균임금 산정 시 연간 상여금을 12로 나누어 3개월분을 반영합니다</li>\n<li><strong>목표 인센티브(고정형)</strong> — 지급 규모가 사전에 확정된 고정적 금원으로서 근로성과의 사후적 정산에 해당하는 인센티브는 임금에 포함됩니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 급여 항목별 포함 여부를 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">계속적·정기적으로 지급되고 사용자에게 지급의무가 있는 금품은 임금으로서 평균임금에 포함됩니다.</strong></p>\n<ol>\n<li><strong>기본급</strong> — 근로계약서에 명시된 월 기본급 전액이 포함됩니다</li>\n<li><strong>고정 수당</strong> — 직책수당, 자격수당, 가족수당, 근속수당 등 매월 고정 지급되는 수당이 포함됩니다</li>\n<li><strong>식대·교통비</strong> — 전 직원에게 일률적·정기적으로 지급되는 식대, 교통보조비는 임금에 해당할 소지가 있습니다</li>\n<li><strong>연장·야간·휴일근로수당</strong> — 퇴직 전 3개월간 실제 지급된 연장근로수당, 야간수당, 휴일수당이 포함됩니다</li>\n<li><strong>정기상여금</strong> — 지급 시기와 금액이 확정되어 매년 정기적으로 지급되는 상여금은 포함됩니다. 다만 3개월분 평균임금 산정 시 연간 상여금을 12로 나누어 3개월분을 반영합니다</li>\n<li><strong>목표 인센티브(고정형)</strong> — 지급 규모가 사전에 확정된 고정적 금원으로서 근로성과의 사후적 정산에 해당하는 인센티브는 임금에 포함됩니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 급여 항목별 포함 여부를 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '평균임금에서 제외되는 항목과 흔한 착각',
         content:
-          '<p><strong style="color:#1e3a5f">경영성과에 따라 지급 여부가 달라지거나, 은혜적·임의적으로 지급되는 금품은 평균임금에서 제외됩니다.</strong></p>\n<ul>\n<li><strong>성과 인센티브(변동형)</strong> — EVA 등 경영성과에 연동되어 지급률이 크게 변동하는 인센티브는 근로의 대가가 아닌 경영성과 분배로 보아 제외됩니다</li>\n<li><strong>특별성과급</strong> — 당기순이익 실현을 조건으로 지급되는 특별성과급은 임금이 아니라 이익 배분에 해당합니다</li>\n<li><strong>경조사비·축의금</strong> — 회사가 복리후생 차원에서 일시적으로 지급하는 경조사비는 제외됩니다</li>\n<li><strong>실비변상 성격의 금품</strong> — 출장비, 출장일비, 여비 등 실비를 보전하는 성격의 금품은 임금이 아닙니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: "매달 받았으니까 당연히 포함"이 아닙니다. 지급의무가 확정되어 있고 근로의 대가인지가 핵심 판단 기준입니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">경영성과에 따라 지급 여부가 달라지거나, 은혜적·임의적으로 지급되는 금품은 평균임금에서 제외됩니다.</strong></p>\n<ul>\n<li><strong>성과 인센티브(변동형)</strong> — EVA 등 경영성과에 연동되어 지급률이 크게 변동하는 인센티브는 근로의 대가가 아닌 경영성과 분배로 보아 제외됩니다</li>\n<li><strong>특별성과급</strong> — 당기순이익 실현을 조건으로 지급되는 특별성과급은 임금이 아니라 이익 배분에 해당할 소지가 있습니다</li>\n<li><strong>경조사비·축의금</strong> — 회사가 복리후생 차원에서 일시적으로 지급하는 경조사비는 제외됩니다</li>\n<li><strong>실비변상 성격의 금품</strong> — 출장비, 출장일비, 여비 등 실비를 보전하는 성격의 금품은 임금이 아닙니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: "매달 받았으니까 당연히 포함"이 아닙니다. 지급의무가 확정되어 있고 근로의 대가인지가 핵심 판단 기준입니다</blockquote>',
       },
       {
         title: '실전 계산 예시와 확인 방법',
@@ -59,14 +59,14 @@ export const spokesBatch33Labor: SpokePage[] = [
         summary:
           '대법원 2021다248299 사건(대법원, 2026.01.29 선고)에서 법원은 상여기초금액에 연동하여 지급되는 "목표 인센티브"는 지급 규모가 사전에 확정된 고정적 금원으로서 근로의 대가인 임금에 해당한다고 판시했습니다. 반면 EVA의 20%를 재원으로 삼아 지급되는 "성과 인센티브"는 근로제공과 밀접한 관련성이 없어 평균임금 산정 기초가 되는 임금으로 볼 수 없다고 했습니다.',
         takeaway:
-          '인센티브가 평균임금에 포함되려면 지급 규모가 사전에 확정되어 있고 근로제공과 직접 관련되어야 합니다. 변동형 성과급은 제외될 수 있으므로 본인이 받는 인센티브의 성격을 반드시 확인하세요.',
+          '인센티브가 평균임금에 포함되려면 지급 규모가 사전에 확정되어 있고 근로제공과 직접 관련되어야 합니다. 변동형 성과급은 제외될 수 있으므로 본인이 받는 인센티브의 성격을 가능한 한 확인하세요.',
       },
     ],
     faq: [
       {
         question: '상여금이 평균임금에 포함되려면 어떤 조건을 갖춰야 하나요?',
         answer:
-          '<strong>지급 시기·금액이 확정되어 정기적·계속적으로 지급되고, 사용자에게 지급의무가 있어야 합니다.</strong> 취업규칙이나 단체협약에 "매년 설·추석에 기본급의 100%를 지급한다"고 명시되어 있으면 임금에 해당합니다. 반면 사장 재량으로 주는 특별 보너스는 제외됩니다.',
+          '<strong>지급 시기·금액이 확정되어 정기적·계속적으로 지급되고, 사용자에게 지급의무가 있어야 합니다.</strong> 취업규칙이나 단체협약에 "매년 설·추석에 기본급의 100%를 지급한다"고 명시되어 있으면 임금에 해당할 소지가 있습니다. 반면 사장 재량으로 주는 특별 보너스는 제외됩니다.',
       },
       {
         question: '퇴직 전 3개월에 무급휴직이 포함되면 어떻게 계산하나요?',
@@ -175,7 +175,7 @@ export const spokesBatch33Labor: SpokePage[] = [
       {
         question: '퇴직금 청구 시 지연이자도 같이 받을 수 있나요?',
         answer:
-          '<strong>퇴직일로부터 14일이 지나도 지급되지 않으면 연 20%의 지연이자가 발생합니다.</strong> 노동청 진정이나 민사소송에서 원금과 함께 지연이자도 청구할 수 있습니다. 체불 기간이 길수록 이자가 커지므로 반드시 함께 청구하세요.',
+          '<strong>퇴직일로부터 14일이 지나도 지급되지 않으면 연 20%의 지연이자가 발생합니다.</strong> 노동청 진정이나 민사소송에서 원금과 함께 지연이자도 청구할 수 있습니다. 체불 기간이 길수록 이자가 커지므로 가능한 한 함께 청구하세요.',
       },
     ],
     cta: {
@@ -223,7 +223,7 @@ export const spokesBatch33Labor: SpokePage[] = [
       {
         title: '3단계: 조사와 시정지시 (D+14~D+40)',
         content:
-          '<p><strong style="color:#1e3a5f">근로감독관이 사업주를 출석시켜 조사한 뒤, 체불이 확인되면 14일 이내 지급을 명하는 시정지시를 내립니다.</strong></p>\n<ul>\n<li><strong>사업주 출석 조사</strong> — 근로감독관이 사업주에게 출석 요구서를 발송하고, 임금대장·근로계약서 등 자료 제출을 요구합니다</li>\n<li><strong>합의 권유</strong> — 조사 과정에서 사업주가 분할 지급이나 일부 감액을 제안할 수 있습니다. 합의 시 지급 기한과 미이행 조치를 반드시 합의서에 명시하세요</li>\n<li><strong>시정지시</strong> — 체불이 인정되면 근로감독관이 사업주에게 14일 이내 전액 지급을 지시합니다</li>\n<li><strong>불이행 시</strong> — 시정지시를 이행하지 않으면 사법처리(검찰 송치) 절차로 전환됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: 합의 시 "원금 80%만 받겠다"는 식의 감액 합의는 나중에 나머지 20%를 청구하기 어려울 수 있으니 신중하게 판단하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로감독관이 사업주를 출석시켜 조사한 뒤, 체불이 확인되면 14일 이내 지급을 명하는 시정지시를 내립니다.</strong></p>\n<ul>\n<li><strong>사업주 출석 조사</strong> — 근로감독관이 사업주에게 출석 요구서를 발송하고, 임금대장·근로계약서 등 자료 제출을 요구합니다</li>\n<li><strong>합의 권유</strong> — 조사 과정에서 사업주가 분할 지급이나 일부 감액을 제안할 수 있습니다. 합의 시 지급 기한과 미이행 조치를 가능한 한 합의서에 명시하세요</li>\n<li><strong>시정지시</strong> — 체불이 인정되면 근로감독관이 사업주에게 14일 이내 전액 지급을 지시합니다</li>\n<li><strong>불이행 시</strong> — 시정지시를 이행하지 않으면 사법처리(검찰 송치) 절차로 전환됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: 합의 시 "원금 80%만 받겠다"는 식의 감액 합의는 나중에 나머지 20%를 청구하기 어려울 수 있으니 신중하게 판단하세요</blockquote>',
       },
       {
         title: '4~5단계: 사법처리와 강제집행 (D+40 이후)',
@@ -396,12 +396,12 @@ export const spokesBatch33Labor: SpokePage[] = [
       {
         title: '1단계: 해고 직후 즉시 해야 할 일 (D-Day~D+3)',
         content:
-          '<p><strong style="color:#1e3a5f">해고 통보를 받은 직후 3일 안에 증거를 확보하고, 해고의 부당성을 판단하는 것이 가장 중요합니다.</strong></p>\n<ul>\n<li><strong>해고 통지서 확보</strong> — 해고 사유와 시기가 기재된 서면 통지를 요구하세요. 구두 해고인 경우 대화 내용을 녹취하거나 문자로 "해고 사유를 서면으로 알려 달라"고 요청하세요</li>\n<li><strong>증거 수집</strong> — 근로계약서, 급여명세서, 출퇴근 기록, 업무 이메일, 인사평가 자료 등을 확보합니다. 회사 계정이 차단되기 전에 필요한 자료를 복사해두세요</li>\n<li><strong>해고 사유 확인</strong> — 해고 사유가 근로기준법 제23조의 "정당한 이유"에 해당하는지 확인합니다. 서면 통지 없는 해고, 30일 전 예고 없는 즉시 해고는 절차적으로 위법합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">핵심: 해고 통보 후 "사직서를 쓰라"는 요구에 응하지 마세요. 사직서를 제출하면 자발적 퇴직으로 처리되어 구제신청이 어려워집니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">해고 통보를 받은 직후 3일 안에 증거를 확보하고, 해고의 부당성을 판단하는 것이 가장 중요합니다.</strong></p>\n<ul>\n<li><strong>해고 통지서 확보</strong> — 해고 사유와 시기가 기재된 서면 통지를 요구하세요. 구두 해고인 경우 대화 내용을 녹취하거나 문자로 "해고 사유를 서면으로 알려 달라"고 요청하세요</li>\n<li><strong>증거 수집</strong> — 근로계약서, 급여명세서, 출퇴근 기록, 업무 이메일, 인사평가 자료 등을 확보합니다. 회사 계정이 차단되기 전에 필요한 자료를 복사해두세요</li>\n<li><strong>해고 사유 확인</strong> — 해고 사유가 근로기준법 제23조의 "정당한 이유"에 해당하는지 확인합니다. 서면 통지 없는 해고, 30일 전 예고 없는 즉시 해고는 절차적으로 위법 소지가 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">핵심: 해고 통보 후 "사직서를 쓰라"는 요구에 응하지 마세요. 사직서를 제출하면 자발적 퇴직으로 처리되어 구제신청이 어려워집니다</blockquote>',
       },
       {
         title: '2단계: 지방노동위원회 구제신청 (해고일로부터 3개월 이내)',
         content:
-          '<p><strong style="color:#1e3a5f">부당해고 구제신청은 해고일로부터 3개월 이내에 관할 지방노동위원회에 제출해야 합니다.</strong></p>\n<ul>\n<li><strong>신청서 작성</strong> — 해고 경위, 해고 사유의 부당성, 요구사항(복직 또는 금전보상)을 구체적으로 기재합니다</li>\n<li><strong>제척기간 3개월</strong> — 해고일로부터 3개월이 지나면 구제신청을 할 수 없습니다. 이 기간은 연장되지 않으므로 반드시 기한 내에 신청하세요</li>\n<li><strong>금전보상명령</strong> — 복직을 원하지 않으면 해고기간 동안 받을 수 있었던 임금 상당액 이상의 금전보상을 신청할 수 있습니다(근로기준법 제30조 제3항)</li>\n<li><strong>심문 절차</strong> — 노동위원회가 양 당사자를 출석시켜 심문하고, 약 60~90일 내에 판정합니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 해고 사유의 부당성 여부를 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">부당해고 구제신청은 해고일로부터 3개월 이내에 관할 지방노동위원회에 제출해야 합니다.</strong></p>\n<ul>\n<li><strong>신청서 작성</strong> — 해고 경위, 해고 사유의 부당성, 요구사항(복직 또는 금전보상)을 구체적으로 기재합니다</li>\n<li><strong>제척기간 3개월</strong> — 해고일로부터 3개월이 지나면 구제신청을 할 수 없습니다. 이 기간은 연장되지 않으므로 가능한 한 기한 내에 신청하세요</li>\n<li><strong>금전보상명령</strong> — 복직을 원하지 않으면 해고기간 동안 받을 수 있었던 임금 상당액 이상의 금전보상을 신청할 수 있습니다(근로기준법 제30조 제3항)</li>\n<li><strong>심문 절차</strong> — 노동위원회가 양 당사자를 출석시켜 심문하고, 약 60~90일 내에 판정합니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 해고 사유의 부당성 여부를 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '3~4단계: 중앙노동위원회 재심과 행정소송',
@@ -514,7 +514,7 @@ export const spokesBatch33Labor: SpokePage[] = [
         summary:
           '대법원 2017다16778 사건(대법원, 2018.09.13 선고)에서 법원은 사용자가 근로자를 해고하면서 30일 전에 예고를 하지 않은 경우, 해고가 유효한지와 관계없이 해고예고수당을 지급해야 한다고 판시했습니다. 해고가 부당해고에 해당하여 효력이 없더라도 근로자가 해고예고수당을 부당이득으로 반환할 의무는 없다고 했습니다.',
         takeaway:
-          '해고예고수당은 해고의 유·무효와 무관하게 받을 수 있는 법적 권리입니다. 즉시 해고를 통보받았다면 부당해고 다툼과 별도로 해고예고수당 30일분을 반드시 청구하세요.',
+          '해고예고수당은 해고의 유·무효와 무관하게 받을 수 있는 법적 권리입니다. 즉시 해고를 통보받았다면 부당해고 다툼과 별도로 해고예고수당 30일분을 가능한 한 청구하세요.',
       },
     ],
     faq: [

@@ -139,7 +139,7 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
       {
         title: '대기기간 중 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">대기기간 중에도 취업하면 반드시 신고해야 합니다.</strong></p>\n<ul>\n<li><strong>취업 시 신고</strong> — 대기기간 중 취업하면 실업급여 수급자격이 소멸합니다. 반드시 고용센터에 신고하세요.</li>\n<li><strong>아르바이트 주의</strong> — 대기기간 중 단기 아르바이트를 하면 취업으로 간주될 수 있습니다.</li>\n<li><strong>해외 출국 제한</strong> — 대기기간 중 해외 출국은 실업급여 수급에 영향을 줄 수 있으므로 사전 확인이 필요합니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">대기기간 중에도 취업하면 가능한 한 신고해야 합니다.</strong></p>\n<ul>\n<li><strong>취업 시 신고</strong> — 대기기간 중 취업하면 실업급여 수급자격이 소멸합니다. 가능한 한 고용센터에 신고하세요.</li>\n<li><strong>아르바이트 주의</strong> — 대기기간 중 단기 아르바이트를 하면 취업으로 간주될 수 있습니다.</li>\n<li><strong>해외 출국 제한</strong> — 대기기간 중 해외 출국은 실업급여 수급에 영향을 줄 수 있으므로 사전 확인이 필요합니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -277,7 +277,7 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
       {
         title: '근로조건 일방변경이 정당한 이직 사유인 기준',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2에 따라 근로조건의 불이익 변경은 정당한 이직 사유입니다.</strong></p>\n<p>"사업주가 근로조건을 위반하거나 근로자에게 불리하게 근로조건을 변경한 경우"에 해당합니다.</p>\n<ul>\n<li><strong>근무시간 변경</strong> — 주간에서 야간으로, 또는 교대근무 패턴의 일방 변경</li>\n<li><strong>업무 내용 변경</strong> — 채용 시 합의된 업무와 전혀 다른 업무로 배치전환</li>\n<li><strong>근무지 변경</strong> — 통근이 현저히 곤란해지는 원거리 전근</li>\n<li><strong>급여 삭감</strong> — 동의 없는 일방적인 급여 인하</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 근로계약서에 명시된 조건을 사업주가 일방적으로 불이익하게 변경한 경우, 이를 이유로 퇴사하면 실업급여 수급이 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2에 따라 근로조건의 불이익 변경은 정당한 이직 사유입니다.</strong></p>\n<p>"사업주가 근로조건을 위반하거나 근로자에게 불리하게 근로조건을 변경한 경우"에 해당할 소지가 있습니다.</p>\n<ul>\n<li><strong>근무시간 변경</strong> — 주간에서 야간으로, 또는 교대근무 패턴의 일방 변경</li>\n<li><strong>업무 내용 변경</strong> — 채용 시 합의된 업무와 전혀 다른 업무로 배치전환</li>\n<li><strong>근무지 변경</strong> — 통근이 현저히 곤란해지는 원거리 전근</li>\n<li><strong>급여 삭감</strong> — 동의 없는 일방적인 급여 인하</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 근로계약서에 명시된 조건을 사업주가 일방적으로 불이익하게 변경한 경우, 이를 이유로 퇴사하면 실업급여 수급이 가능합니다.</blockquote>',
       },
       {
         title: '증거 수집과 신청 절차',

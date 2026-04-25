@@ -41,7 +41,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
       {
         title: '넷째, 손해배상 청구의 범위와 금액을 파악하세요',
         content:
-          '<p><strong style="color:#1e3a5f">일조권 침해 손해배상은 재산적 손해와 정신적 손해로 나뉩니다</strong></p>\n<p><strong>재산적 손해</strong>는 주택 가치 하락분으로, 감정평가를 통해 산정합니다. 일반적으로 주택 시가의 <strong>5~20%</strong> 범위에서 인정됩니다. <strong>정신적 손해(위자료)</strong>는 세대당 <strong>100만~500만원</strong> 수준이 일반적입니다.</p>\n<p>침해 정도가 심할수록(일조 차단 시간이 길수록) 배상 금액이 높아집니다. 아파트 단지 전체가 피해를 입은 대규모 사건에서는 세대당 <strong>1,000만원 이상</strong>이 인정된 사례도 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">배상 범위: 재산적 손해(시가 5~20% 하락) + 위자료(100만~500만원)</blockquote>',
+          '<p><strong style="color:#1e3a5f">일조권 침해 손해배상은 재산적 손해와 정신적 손해로 나뉩니다</strong></p>\n<p><strong>재산적 손해</strong>는 주택 가치 하락분으로, 감정평가를 통해 산정합니다. 일반적으로 주택 시가의 <strong>5~20%</strong> 범위에서 인정될 수 있습니다. <strong>정신적 손해(위자료)</strong>는 세대당 <strong>100만~500만원</strong> 수준이 일반적입니다.</p>\n<p>침해 정도가 심할수록(일조 차단 시간이 길수록) 배상 금액이 높아집니다. 아파트 단지 전체가 피해를 입은 대규모 사건에서는 세대당 <strong>1,000만원 이상</strong>이 인정된 사례도 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">배상 범위: 재산적 손해(시가 5~20% 하락) + 위자료(100만~500만원)</blockquote>',
       },
       {
         title: '다섯째, 관할 구청과 환경분쟁조정위원회를 활용하세요',
@@ -55,7 +55,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
         summary:
           '대법원 2014다57846 사건(대법원, 2016.11.25)에서 법원은 "소음이 민법 제217조의 생활방해에 해당하며, 참을 한도를 넘는지는 피해의 성질과 정도, 가해행위의 공공성, 방지조치 가능성, 공법상 규제기준 위반 여부, 지역성, 토지이용의 선후관계 등 모든 사정을 종합적으로 고려하여 판단해야 한다"고 판시했습니다.',
         takeaway:
-          '일조권 침해도 같은 법리가 적용됩니다. 참을 한도 초과 여부를 입증하려면 침해 정도를 객관적 수치로 소명하는 것이 핵심입니다. 일조 분석 보고서를 반드시 준비하세요.',
+          '일조권 침해도 같은 법리가 적용됩니다. 참을 한도 초과 여부를 입증하려면 침해 정도를 객관적 수치로 소명하는 것이 핵심입니다. 일조 분석 보고서를 가능한 한 준비하세요.',
       },
     ],
     faq: [
@@ -231,7 +231,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
     faq: [
       {
         question: '매도인이 "하자를 몰랐다"고 하면 책임이 없나요?',
-        answer: '아닙니다. 하자담보책임은 매도인의 <strong>과실 여부와 관계없이</strong> 성립합니다. 매도인이 몰랐어도 객관적 하자가 존재하면 배상 의무가 있습니다.',
+        answer: '아닙니다. 하자담보책임은 매도인의 <strong>과실 여부와 관계없이</strong> 성립할 수 있습니다. 매도인이 몰랐어도 객관적 하자가 존재하면 배상 의무가 있습니다.',
       },
       {
         question: '매매계약서에 "현 상태 인도" 조항이 있으면 청구가 안 되나요?',
@@ -282,7 +282,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
       {
         title: '둘째, 이행 최고 내용증명을 발송하세요',
         content:
-          '<p><strong style="color:#1e3a5f">내용증명으로 이행 최고와 해제 의사를 동시에 전달하세요</strong></p>\n<p>내용증명에 반드시 포함할 사항: ①<strong>미지급 중도금 금액과 지급기일</strong>, ②<strong>"본 서면 도달 후 14일 이내에 지급하지 않으면 계약을 해제한다"</strong>는 최고 및 해제 예고, ③<strong>계약 해제 시 계약금 몰취</strong> 안내입니다.</p>\n<p>이행 최고와 해제 의사를 <strong>하나의 내용증명에 조건부로 기재</strong>할 수 있습니다. "기한 내 미이행 시 별도 통지 없이 해제된 것으로 본다"고 명시하면 추가 해제 통보가 불필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">내용증명 포인트: 미지급 금액 + 14일 최고 + 미이행 시 자동 해제 조건</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong>💬 매수인이 중도금을 안 냅니다. 지금 뭘 해야 할까요?</strong><br/>AI가 계약 상황을 분석하고 최적의 대응 방법을 안내해드립니다.<br/><a href="/diagnosis/real-estate-sale" style="color:#1e3a5f;font-weight:bold">👉 내 상황 무료 진단받기</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">내용증명으로 이행 최고와 해제 의사를 동시에 전달하세요</strong></p>\n<p>내용증명에 가능한 한 포함할 사항: ①<strong>미지급 중도금 금액과 지급기일</strong>, ②<strong>"본 서면 도달 후 14일 이내에 지급하지 않으면 계약을 해제한다"</strong>는 최고 및 해제 예고, ③<strong>계약 해제 시 계약금 몰취</strong> 안내입니다.</p>\n<p>이행 최고와 해제 의사를 <strong>하나의 내용증명에 조건부로 기재</strong>할 수 있습니다. "기한 내 미이행 시 별도 통지 없이 해제된 것으로 본다"고 명시하면 추가 해제 통보가 불필요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">내용증명 포인트: 미지급 금액 + 14일 최고 + 미이행 시 자동 해제 조건</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong>💬 매수인이 중도금을 안 냅니다. 지금 뭘 해야 할까요?</strong><br/>AI가 계약 상황을 분석하고 최적의 대응 방법을 안내해드립니다.<br/><a href="/diagnosis/real-estate-sale" style="color:#1e3a5f;font-weight:bold">👉 내 상황 무료 진단받기</a>\n</div>',
       },
       {
         title: '셋째, 계약 해제 후 계약금 몰취 권리를 확보하세요',
@@ -297,7 +297,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
       {
         title: '다섯째, 매도인이 주의해야 할 실수를 피하세요',
         content:
-          '<p><strong style="color:#1e3a5f">이행 최고 없는 해제, 이중계약, 이행 거절은 매도인에게 불리하게 작용합니다</strong></p>\n<p>가장 흔한 실수 3가지: ①<strong>이행 최고 없이 바로 해제 통보</strong> → 해제 무효 위험. ②<strong>매수인 미이행 중 다른 사람과 계약</strong> → 이중매매로 배임죄 성립 가능(특경법 적용 시 가중처벌). ③<strong>매수인이 늦게라도 이행하겠다고 할 때 수령 거절</strong> → 매도인 귀책으로 전환될 수 있습니다.</p>\n<p>반드시 <strong>내용증명으로 절차를 밟고</strong>, 해제가 확정될 때까지 제3자와 새 계약을 체결하지 마세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 최고 없는 해제 ✗ | 해제 전 이중계약 ✗ | 수령 거절 ✗</blockquote>',
+          '<p><strong style="color:#1e3a5f">이행 최고 없는 해제, 이중계약, 이행 거절은 매도인에게 불리하게 작용합니다</strong></p>\n<p>가장 흔한 실수 3가지: ①<strong>이행 최고 없이 바로 해제 통보</strong> → 해제 무효 위험. ②<strong>매수인 미이행 중 다른 사람과 계약</strong> → 이중매매로 배임죄 성립 가능(특경법 적용 시 가중처벌). ③<strong>매수인이 늦게라도 이행하겠다고 할 때 수령 거절</strong> → 매도인 귀책으로 전환될 수 있습니다.</p>\n<p>가능한 한 <strong>내용증명으로 절차를 밟고</strong>, 해제가 확정될 때까지 제3자와 새 계약을 체결하지 마세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 최고 없는 해제 ✗ | 해제 전 이중계약 ✗ | 수령 거절 ✗</blockquote>',
       },
     ],
     cases: [
@@ -306,7 +306,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
         summary:
           '대법원 2017도17494 사건(대법원, 2018.05.17)에서 법원은 "부동산 매도인이 매수인에게 소유권이전등기를 해주기 전에 제3자에게 이중으로 매도하여 소유권이전등기를 넘겨준 행위는 배임죄에 해당한다"고 판시했습니다.',
         takeaway:
-          '매수인의 중도금 미지급에 화가 나더라도 계약이 적법하게 해제되기 전에 제3자와 새 매매계약을 체결하면 배임죄로 처벌받을 수 있습니다. 반드시 절차를 지키세요.',
+          '매수인의 중도금 미지급에 화가 나더라도 계약이 적법하게 해제되기 전에 제3자와 새 매매계약을 체결하면 배임죄로 처벌받을 수 있습니다. 가능한 한 절차를 지키세요.',
       },
     ],
     faq: [
@@ -391,7 +391,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
         summary:
           '대법원 2020다258893 사건(대법원, 2024.06.13)에서 법원은 "공동저당권과 동순위로 배당받는 채권이 있는 경우, 각 부동산의 경매대가는 매각대금에서 경매비용과 선순위채권뿐 아니라 동순위채권에 안분되어야 할 금액까지 공제한 잔액을 말한다"고 판시했습니다.',
         takeaway:
-          '배당 순위가 복잡한 경우 동순위 채권의 안분 계산이 결과를 크게 좌우합니다. 배당표를 꼼꼼히 확인하고, 계산이 의심되면 배당기일에 반드시 이의를 제기하세요.',
+          '배당 순위가 복잡한 경우 동순위 채권의 안분 계산이 결과를 크게 좌우합니다. 배당표를 꼼꼼히 확인하고, 계산이 의심되면 배당기일에 가능한 한 이의를 제기하세요.',
       },
     ],
     faq: [
@@ -401,7 +401,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
       },
       {
         question: '근저당권자는 배당요구를 안 해도 되나요?',
-        answer: '근저당권자는 법률상 배당요구 없이도 배당받을 수 있지만, <strong>권리 확인을 위해 배당요구서를 제출하는 것이 안전</strong>합니다. 채권계산서는 반드시 제출하세요.',
+        answer: '근저당권자는 법률상 배당요구 없이도 배당받을 수 있지만, <strong>권리 확인을 위해 배당요구서를 제출하는 것이 안전</strong>합니다. 채권계산서는 가능한 한 제출하세요.',
       },
       {
         question: '가압류만 한 채권자도 배당받을 수 있나요?',

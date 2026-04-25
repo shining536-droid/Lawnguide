@@ -286,7 +286,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         title: '진짜 사용자 — 원청에 책임 묻는 4가지 징표',
         content:
-          '<p><strong style="color:#1e3a5f">근로의 실질이 원청 지휘·감독 아래 있었다면 묵시적 근로계약이 인정됩니다.</strong></p>\n<ul>\n<li><strong>업무지시 출처</strong> — 일일 업무·작업 지시가 원청 직원에게서 직접 나옴.</li>\n<li><strong>근태 통제</strong> — 출근시간·휴가 승인을 원청이 결정.</li>\n<li><strong>장비·시설 제공</strong> — 작업도구·전산권한·사옥 출입카드 모두 원청 발급.</li>\n<li><strong>독립성 결여</strong> — 하청업체에 자체 전문성·자본·인력관리 시스템이 없음.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 4개 징표 중 3개 이상이면 묵시적 근로계약·위장도급으로 평가될 가능성이 큽니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로의 실질이 원청 지휘·감독 아래 있었다면 묵시적 근로계약이 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>업무지시 출처</strong> — 일일 업무·작업 지시가 원청 직원에게서 직접 나옴.</li>\n<li><strong>근태 통제</strong> — 출근시간·휴가 승인을 원청이 결정.</li>\n<li><strong>장비·시설 제공</strong> — 작업도구·전산권한·사옥 출입카드 모두 원청 발급.</li>\n<li><strong>독립성 결여</strong> — 하청업체에 자체 전문성·자본·인력관리 시스템이 없음.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 4개 징표 중 3개 이상이면 묵시적 근로계약·위장도급으로 평가될 가능성이 큽니다.</blockquote>',
       },
       {
         title: '5단계 대응 — 폐업·해고 통보 직후',
@@ -301,7 +301,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         title: '구제 결과 — 원청 직접고용·소급 임금·해고무효',
         content:
-          '<p><strong style="color:#1e3a5f">묵시적 근로계약 인정 시 처음부터 원청 근로자로 취급됩니다.</strong></p>\n<ul>\n<li><strong>원청 직접고용</strong> — 파견 2년 초과 시 직접고용 의제, 원청에 정규직 채용 의무.</li>\n<li><strong>해고무효</strong> — 정리해고 4요건을 원청 기준으로 다시 검토, 미충족 시 무효.</li>\n<li><strong>소급 임금 차액</strong> — 원청 정규직 호봉 기준 차액·연장수당 등 일괄 청구.</li>\n<li><strong>퇴직금 소급</strong> — 묵시적 근로 시작일부터 계속근로기간 합산.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 하청업체 폐업으로 사라져도 원청 책임은 별도로 남으므로 원청을 반드시 피신청인에 포함하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">묵시적 근로계약 인정 시 처음부터 원청 근로자로 취급됩니다.</strong></p>\n<ul>\n<li><strong>원청 직접고용</strong> — 파견 2년 초과 시 직접고용 의제, 원청에 정규직 채용 의무.</li>\n<li><strong>해고무효</strong> — 정리해고 4요건을 원청 기준으로 다시 검토, 미충족 시 무효.</li>\n<li><strong>소급 임금 차액</strong> — 원청 정규직 호봉 기준 차액·연장수당 등 일괄 청구.</li>\n<li><strong>퇴직금 소급</strong> — 묵시적 근로 시작일부터 계속근로기간 합산.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 하청업체 폐업으로 사라져도 원청 책임은 별도로 남으므로 원청을 가능한 한 피신청인에 포함하세요.</blockquote>',
       },
     ],
     cases: [
@@ -324,7 +324,7 @@ export const spokesBatch45Labor: SpokePage[] = [
           '<strong>가능합니다.</strong> 계약서 형식보다 업무 지시·근태 통제의 실질을 보므로 메일·메신저·출입기록이 핵심 증거입니다.',
       },
       {
-        question: '파견 2년 초과면 무조건 직접고용이 되나요?',
+        question: '파견 2년 초과면 원칙적으로 직접고용이 되나요?',
         answer:
           '<strong>파견법 제6조의2에 따라 직접고용 의무가 발생합니다.</strong> 단, 파견 허용 업무·기간 요건을 충족해야 하므로 사안별 검토가 필요해요.',
       },
@@ -369,7 +369,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         title: '절차하자 — 어떤 절차를 빠뜨리면 무효인가',
         content:
-          '<p><strong style="color:#1e3a5f">근기법 + 취업규칙 + 단체협약 3중 절차 중 하나라도 빠지면 절차하자입니다.</strong></p>\n<ul>\n<li><strong>서면 통보</strong> — 근기법 제27조: 해고 사유와 시기를 반드시 서면으로(이메일 OK).</li>\n<li><strong>30일 예고</strong> — 근기법 제26조: 30일 전 예고 또는 통상임금 30일분 지급.</li>\n<li><strong>징계 절차</strong> — 취업규칙·단협상의 징계위원회 회부·소명기회 부여.</li>\n<li><strong>점진적 징계</strong> — 시말서·경고·정직 등 경한 처분 없이 곧바로 해고는 비례성 위반.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사유가 정당해도 절차 위반만으로 해고는 무효가 됩니다(대법원 일관된 입장).</blockquote>',
+          '<p><strong style="color:#1e3a5f">근기법 + 취업규칙 + 단체협약 3중 절차 중 하나라도 빠지면 절차하자입니다.</strong></p>\n<ul>\n<li><strong>서면 통보</strong> — 근기법 제27조: 해고 사유와 시기를 가능한 한 서면으로(이메일 OK).</li>\n<li><strong>30일 예고</strong> — 근기법 제26조: 30일 전 예고 또는 통상임금 30일분 지급.</li>\n<li><strong>징계 절차</strong> — 취업규칙·단협상의 징계위원회 회부·소명기회 부여.</li>\n<li><strong>점진적 징계</strong> — 시말서·경고·정직 등 경한 처분 없이 곧바로 해고는 비례성 위반.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사유가 정당해도 절차 위반만으로 해고는 무효가 됩니다(대법원 일관된 입장).</blockquote>',
       },
       {
         title: '5단계 대응 — 통보 직후 해야 할 일',
@@ -452,7 +452,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         title: '상여금이 임금이라는 4가지 징표',
         content:
-          '<p><strong style="color:#1e3a5f">정기성·일률성·고정성 셋이 모이면 임금으로 인정됩니다.</strong></p>\n<ul>\n<li><strong>정기성</strong> — 분기·반기·연 단위로 매 회기마다 지급된 이력.</li>\n<li><strong>일률성</strong> — 일정 직급·근속 이상에게 동일 기준으로 지급.</li>\n<li><strong>고정성</strong> — 회사 임의 평가가 아니라 사전에 정해진 기준에 따라 산정.</li>\n<li><strong>관행 형성</strong> — 3년 이상 같은 방식으로 지급되었으면 근로조건의 일부로 굳어짐.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 임금성이 인정되면 일방 중단은 근로조건 불이익변경으로 무효 처분 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">정기성·일률성·고정성 셋이 모이면 임금으로 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>정기성</strong> — 분기·반기·연 단위로 매 회기마다 지급된 이력.</li>\n<li><strong>일률성</strong> — 일정 직급·근속 이상에게 동일 기준으로 지급.</li>\n<li><strong>고정성</strong> — 회사 임의 평가가 아니라 사전에 정해진 기준에 따라 산정.</li>\n<li><strong>관행 형성</strong> — 3년 이상 같은 방식으로 지급되었으면 근로조건의 일부로 굳어짐.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 임금성이 인정되면 일방 중단은 근로조건 불이익변경으로 무효 처분 가능합니다.</blockquote>',
       },
       {
         title: '5단계 대응 — 중단 통보 직후 해야 할 일',
@@ -487,7 +487,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         question: '상여금이 인사평가에 따라 달라지는 구조면 임금이 아닌가요?',
         answer:
-          '<strong>완전 임의 평가형이면 임금성이 약합니다.</strong> 다만 최저 보장액·기본 산정 기준이 있다면 그 범위 내에서는 임금으로 인정됩니다.',
+          '<strong>완전 임의 평가형이면 임금성이 약합니다.</strong> 다만 최저 보장액·기본 산정 기준이 있다면 그 범위 내에서는 임금으로 인정될 수 있습니다.',
       },
       {
         question: '같은 부서 동료들과 함께 청구해도 되나요?',
@@ -585,7 +585,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         question: '회사가 "다른 직원 평균보다 적어서" 차감했다는데?',
         answer:
-          '<strong>약속한 산정기준에 평균 비교가 명시되지 않았다면 차감 불가입니다.</strong> 사후 임의 차감은 임금체불에 해당합니다.',
+          '<strong>약속한 산정기준에 평균 비교가 명시되지 않았다면 차감 불가입니다.</strong> 사후 임의 차감은 임금체불에 해당할 소지가 있습니다.',
       },
     ],
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
@@ -628,7 +628,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         title: 'Q. 통상임금에도 산입되나요?',
         content:
-          '<p><strong style="color:#1e3a5f">A. 정기·일률·고정성을 갖추면 통상임금에도 포함됩니다.</strong></p>\n<ul>\n<li><strong>정기성</strong> — 매월 동일 회기에 지급.</li>\n<li><strong>일률성</strong> — 일정 직급·외근직 전원에게 같은 기준으로 지급.</li>\n<li><strong>고정성</strong> — 사전에 정해진 정액으로 출근 일수와 무관하게 지급.</li>\n<li><strong>연장수당 재산정</strong> — 산입되면 연장·야간·휴일수당이 일괄 재계산되어 차액 발생.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 통상임금 산입 차액은 임금 본체보다 청구액이 더 클 수 있어 반드시 함께 점검하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. 정기·일률·고정성을 갖추면 통상임금에도 포함됩니다.</strong></p>\n<ul>\n<li><strong>정기성</strong> — 매월 동일 회기에 지급.</li>\n<li><strong>일률성</strong> — 일정 직급·외근직 전원에게 같은 기준으로 지급.</li>\n<li><strong>고정성</strong> — 사전에 정해진 정액으로 출근 일수와 무관하게 지급.</li>\n<li><strong>연장수당 재산정</strong> — 산입되면 연장·야간·휴일수당이 일괄 재계산되어 차액 발생.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 통상임금 산입 차액은 임금 본체보다 청구액이 더 클 수 있어 가능한 한 함께 점검하세요.</blockquote>',
       },
       {
         title: 'Q. 회사가 "유가 인상에 따른 일시 조정"이라는데?',
@@ -696,7 +696,7 @@ export const spokesBatch45Labor: SpokePage[] = [
         '배우자가 타지역 발령으로 동거 곤란해져 사직했다면 정당한 이직사유로 실업급여를 받는 정확한 신청 순서를 지금 확인하세요.',
     },
     intro:
-      '<p>"남편이 부산으로 발령났는데 우리 회사는 서울이라 더는 출근이 어려웠어요"라는 사연이 늘고 있습니다. 자진퇴사라도 배우자 발령에 따른 동거 목적의 거주 이전은 고용보험법 시행규칙 제101조의2 정당한 이직사유에 해당합니다. 발령 공문·전입신고·통근시간 입증 셋을 갖추면 자진퇴사라도 수급자격이 인정됩니다.</p>',
+      '<p>"남편이 부산으로 발령났는데 우리 회사는 서울이라 더는 출근이 어려웠어요"라는 사연이 늘고 있습니다. 자진퇴사라도 배우자 발령에 따른 동거 목적의 거주 이전은 고용보험법 시행규칙 제101조의2 정당한 이직사유에 해당할 소지가 있습니다. 발령 공문·전입신고·통근시간 입증 셋을 갖추면 자진퇴사라도 수급자격이 인정될 수 있습니다.</p>',
     sections: [
       {
         title: '정당이직 — 어떤 요건을 갖추어야 하나',
@@ -724,7 +724,7 @@ export const spokesBatch45Labor: SpokePage[] = [
         title: '판례 — 정당한 이직사유 인정 사례',
         summary:
           '대법원 2018두63235 사건(대법원, 2020 선고)에서 법원은 자발적 이직이라도 사회통념상 정당한 사정이 있다면 구직급여 수급자격이 제한되지 않으며, 가족 동거를 위한 거주 이전 등 시행규칙 별표2 사유는 정당이직으로 평가된다는 취지로 판시했습니다.',
-        takeaway: '자진퇴사 코드여도 정당이직 사유 입증이면 실업급여 수급권이 인정됩니다.',
+        takeaway: '자진퇴사 코드여도 정당이직 사유 입증이면 실업급여 수급권이 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -779,7 +779,7 @@ export const spokesBatch45Labor: SpokePage[] = [
         '장애가족·중증환자 돌봄 때문에 사직했다면 정당이직사유로 실업급여 수급자격을 받는 입증 포인트를 지금 확인하세요.',
     },
     intro:
-      '<p>"어머니가 뇌졸중으로 쓰러져서 24시간 돌봄이 필요한데 회사를 못 다니겠더라고요"라는 사연이 적지 않습니다. 가족 간병·돌봄을 위한 자진퇴사도 고용보험법 시행규칙 별표2 정당이직사유에 해당합니다. 장애 등록증·진단서·돌봄 필요성 입증 셋이 갖춰지면 수급자격이 인정되고, 심사 단계에서 거부되어도 이의신청·심사청구로 회복 가능합니다.</p>',
+      '<p>"어머니가 뇌졸중으로 쓰러져서 24시간 돌봄이 필요한데 회사를 못 다니겠더라고요"라는 사연이 적지 않습니다. 가족 간병·돌봄을 위한 자진퇴사도 고용보험법 시행규칙 별표2 정당이직사유에 해당할 소지가 있습니다. 장애 등록증·진단서·돌봄 필요성 입증 셋이 갖춰지면 수급자격이 인정되고, 심사 단계에서 거부되어도 이의신청·심사청구로 회복 가능합니다.</p>',
     sections: [
       {
         title: 'Q. 어떤 가족·어떤 상태가 돌봄 사유로 인정되나요?',
@@ -807,7 +807,7 @@ export const spokesBatch45Labor: SpokePage[] = [
         title: '판례 — 자발적 이직과 정당한 이직사유 판단',
         summary:
           '대법원 2018두63235 사건(대법원, 2020 선고)에서 법원은 자발적 이직이라도 사회통념상 정당한 사정이 있다면 구직급여 수급자격이 제한되지 않으며, 가족 간병·중증환자 돌봄 등 시행규칙 별표2 사유는 정당이직으로 평가된다는 취지로 판시했습니다.',
-        takeaway: '돌봄 사유는 표준 입증자료만 갖추면 자진퇴사 코드라도 수급권이 인정됩니다.',
+        takeaway: '돌봄 사유는 표준 입증자료만 갖추면 자진퇴사 코드라도 수급권이 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -834,7 +834,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         question: '본인이 외동인 경우 입증이 더 쉬운가요?',
         answer:
-          '<strong>네, 가족관계증명서로 외동임이 확인되면 "대체인력 부재"가 자동 인정됩니다.</strong> 형제자매가 있다면 그들의 돌봄 불가 사유서를 첨부하세요.',
+          '<strong>네, 가족관계증명서로 외동임이 확인되면 "대체인력 부재"가 자동 인정될 수 있습니다.</strong> 형제자매가 있다면 그들의 돌봄 불가 사유서를 첨부하세요.',
       },
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
@@ -867,7 +867,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         title: '계속근로 합산 — 어떤 징표를 갖추어야 하나',
         content:
-          '<p><strong style="color:#1e3a5f">본사·해외법인이 동일 사용자로 평가되는 4가지 핵심 징표입니다.</strong></p>\n<ul>\n<li><strong>인사명령 출처</strong> — 파견·복귀 명령이 본사 인사팀에서 발행.</li>\n<li><strong>임금 부담</strong> — 급여·상여·복리후생을 본사가 부담하거나 본사 계좌로 입금.</li>\n<li><strong>복귀 약정</strong> — 파견계약·인사발령서에 복귀 시점·직무가 명시.</li>\n<li><strong>지휘·감독</strong> — 일상 업무 보고를 본사 임원에게 하고 평가도 본사가 진행.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 4개 중 3개 이상이면 계속근로기간 합산이 거의 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">본사·해외법인이 동일 사용자로 평가되는 4가지 핵심 징표입니다.</strong></p>\n<ul>\n<li><strong>인사명령 출처</strong> — 파견·복귀 명령이 본사 인사팀에서 발행.</li>\n<li><strong>임금 부담</strong> — 급여·상여·복리후생을 본사가 부담하거나 본사 계좌로 입금.</li>\n<li><strong>복귀 약정</strong> — 파견계약·인사발령서에 복귀 시점·직무가 명시.</li>\n<li><strong>지휘·감독</strong> — 일상 업무 보고를 본사 임원에게 하고 평가도 본사가 진행.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 4개 중 3개 이상이면 계속근로기간 합산이 거의 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '5단계 입증 — 합산 청구 준비 순서',
@@ -965,7 +965,7 @@ export const spokesBatch45Labor: SpokePage[] = [
       {
         title: 'Q. 분할·영업양도일 때는 어떻게 다른가요?',
         content:
-          '<p><strong style="color:#1e3a5f">A. 분할은 원칙적 승계, 영업양도는 특약 우선이지만 배제특약은 무효입니다.</strong></p>\n<ul>\n<li><strong>분할</strong> — 사업부문이 이전되면 그 사업부 근로자의 근로관계도 자동 승계.</li>\n<li><strong>영업양도</strong> — 양도·양수 당사자 특약 가능. 단, 근로자 배제 특약은 사해적 해고로 무효.</li>\n<li><strong>인적 분할</strong> — 분할 시 본인이 어느 법인 소속이 되는지 사전 통지 필요.</li>\n<li><strong>물적 분할</strong> — 모회사-자회사 구조로 변경 시 모회사가 기존 근로관계 유지.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 합병·분할·영업양도 어느 형태든 "원래 입사일이 기산일"이 원칙이며, 단절은 예외적·엄격하게 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. 분할은 원칙적 승계, 영업양도는 특약 우선이지만 배제특약은 무효입니다.</strong></p>\n<ul>\n<li><strong>분할</strong> — 사업부문이 이전되면 그 사업부 근로자의 근로관계도 자동 승계.</li>\n<li><strong>영업양도</strong> — 양도·양수 당사자 특약 가능. 단, 근로자 배제 특약은 사해적 해고로 무효.</li>\n<li><strong>인적 분할</strong> — 분할 시 본인이 어느 법인 소속이 되는지 사전 통지 필요.</li>\n<li><strong>물적 분할</strong> — 모회사-자회사 구조로 변경 시 모회사가 기존 근로관계 유지.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 합병·분할·영업양도 어느 형태든 "원래 입사일이 기산일"이 원칙이며, 단절은 예외적·엄격하게 인정될 수 있습니다.</blockquote>',
       },
     ],
     cases: [

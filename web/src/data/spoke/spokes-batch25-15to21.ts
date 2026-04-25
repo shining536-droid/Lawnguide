@@ -51,7 +51,7 @@ export const spokesBatch25_15to21: SpokePage[] = [
         summary:
           '대법원 2023다206138 사건(2024.10.25 선고)에서 법원은 정액사납금제 택시운전기사의 소정근로시간을 산정할 때 최저임금법 특례 조항에 따라 노사가 합의한 소정근로시간의 효력을 판단해야 한다고 판시했습니다.',
         takeaway:
-          '근로계약서에 기재된 근로시간과 실제 근로시간이 다르면 임금 산정에 직접 영향을 미칩니다. 4대보험 미가입 사업장에서는 실제 근로시간을 입증할 수 있는 자료가 더욱 중요하므로, 출퇴근 기록과 업무 기록을 반드시 확보하세요.',
+          '근로계약서에 기재된 근로시간과 실제 근로시간이 다르면 임금 산정에 직접 영향을 미칩니다. 4대보험 미가입 사업장에서는 실제 근로시간을 입증할 수 있는 자료가 더욱 중요하므로, 출퇴근 기록과 업무 기록을 가능한 한 확보하세요.',
       },
     ],
     faq: [
@@ -162,7 +162,7 @@ export const spokesBatch25_15to21: SpokePage[] = [
       {
         question: '퇴직금 소멸시효 3년은 언제부터 계산되나요?',
         answer:
-          '<strong>퇴직일 다음 날부터 3년입니다.</strong> 「근로자퇴직급여보장법」 제10조에 따라 퇴직금 청구권은 퇴직일로부터 3년간 행사하지 않으면 시효로 소멸합니다. 노동청 진정을 해도 소멸시효는 중단되지 않으므로, 시효가 임박하면 반드시 민사소송을 제기하세요.',
+          '<strong>퇴직일 다음 날부터 3년입니다.</strong> 「근로자퇴직급여보장법」 제10조에 따라 퇴직금 청구권은 퇴직일로부터 3년간 행사하지 않으면 시효로 소멸합니다. 노동청 진정을 해도 소멸시효는 중단되지 않으므로, 시효가 임박하면 가능한 한 민사소송을 제기하세요.',
       },
     ],
     cta: {
@@ -200,17 +200,17 @@ export const spokesBatch25_15to21: SpokePage[] = [
       {
         title: '퇴직금 계산의 기본 원리: 평균임금이란',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직금은 "1일 평균임금 × 30일 × (재직일수 ÷ 365)"로 계산됩니다. 핵심은 "평균임금에 무엇이 포함되느냐"입니다</strong></p>\n<ul>\n<li><strong>평균임금의 정의</strong> — 「근로기준법」 제2조 제1항 제6호에 따라 평균임금이란 "이를 산정하여야 할 사유가 발생한 날 이전 3개월간에 그 근로자에게 지급된 임금의 총액을 그 기간의 총일수로 나눈 금액"입니다</li>\n<li><strong>임금의 범위</strong> — 임금이란 사용자가 근로의 대가로 근로자에게 지급하는 일체의 금품을 말합니다. 명칭에 관계없이 ①근로의 대가성 ②정기성 ③일률성 ④고정성 요건을 모두 충족하면 임금에 해당합니다</li>\n<li><strong>판단 기준</strong> — 해당 금품의 명칭이 아니라 실질적 성격으로 판단합니다. 회사가 "복리후생비"라고 이름 붙였더라도 실질이 근로의 대가라면 평균임금에 포함됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 퇴직금 = 평균임금 기반 / 평균임금 = 퇴직 전 3개월 임금총액 ÷ 총일수</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직금은 "1일 평균임금 × 30일 × (재직일수 ÷ 365)"로 계산됩니다. 핵심은 "평균임금에 무엇이 포함되느냐"입니다</strong></p>\n<ul>\n<li><strong>평균임금의 정의</strong> — 「근로기준법」 제2조 제1항 제6호에 따라 평균임금이란 "이를 산정하여야 할 사유가 발생한 날 이전 3개월간에 그 근로자에게 지급된 임금의 총액을 그 기간의 총일수로 나눈 금액"입니다</li>\n<li><strong>임금의 범위</strong> — 임금이란 사용자가 근로의 대가로 근로자에게 지급하는 일체의 금품을 말합니다. 명칭에 관계없이 ①근로의 대가성 ②정기성 ③일률성 ④고정성 요건을 모두 충족하면 임금에 해당할 소지가 있습니다</li>\n<li><strong>판단 기준</strong> — 해당 금품의 명칭이 아니라 실질적 성격으로 판단합니다. 회사가 "복리후생비"라고 이름 붙였더라도 실질이 근로의 대가라면 평균임금에 포함됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 퇴직금 = 평균임금 기반 / 평균임금 = 퇴직 전 3개월 임금총액 ÷ 총일수</blockquote>',
       },
       {
         title: '포함되는 항목 vs 제외되는 항목',
         content:
-          '<p><strong style="color:#1e3a5f">같은 이름이라도 지급 방식에 따라 포함 여부가 달라집니다. 대표적인 항목별로 정리합니다</strong></p>\n<ul>\n<li><strong>포함 ✅ 기본급</strong> — 근로의 대가로 매월 고정 지급되는 금액으로, 반드시 포함됩니다</li>\n<li><strong>포함 ✅ 고정 수당(식대·교통비·직책수당)</strong> — 전 직원에게 일률적·정기적으로 지급되면 평균임금에 포함됩니다. 월 20만원 고정 식대, 월 10만원 교통비가 대표적입니다</li>\n<li><strong>포함 ✅ 정기 상여금</strong> — 취업규칙이나 단체협약에 따라 매 분기 또는 매년 정기적으로 지급되는 상여금은 포함됩니다. 지급 조건이 사전에 확정된 경우입니다</li>\n<li><strong>포함 ✅ 연장·야간·휴일 근로수당</strong> — 실제 근로의 대가로 지급되므로 포함됩니다</li>\n<li><strong>제외 ❌ 경영성과급(인센티브)</strong> — 경영 실적에 따라 지급 여부와 금액이 결정되는 성과급은 근로의 대가가 아닌 성과 분배이므로 제외될 수 있습니다</li>\n<li><strong>제외 ❌ 실비 변상 성격의 금품</strong> — 출장비, 접대비 등 실비를 보전하는 금품은 근로의 대가가 아니므로 제외됩니다</li>\n<li><strong>제외 ❌ 일시적·우발적 금품</strong> — 경조사비, 포상금 등 일시적으로 지급된 금품은 정기성·고정성이 없으므로 제외됩니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 급여 항목별 포함 여부를 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">같은 이름이라도 지급 방식에 따라 포함 여부가 달라집니다. 대표적인 항목별로 정리합니다</strong></p>\n<ul>\n<li><strong>포함 ✅ 기본급</strong> — 근로의 대가로 매월 고정 지급되는 금액으로, 가능한 한 포함됩니다</li>\n<li><strong>포함 ✅ 고정 수당(식대·교통비·직책수당)</strong> — 전 직원에게 일률적·정기적으로 지급되면 평균임금에 포함됩니다. 월 20만원 고정 식대, 월 10만원 교통비가 대표적입니다</li>\n<li><strong>포함 ✅ 정기 상여금</strong> — 취업규칙이나 단체협약에 따라 매 분기 또는 매년 정기적으로 지급되는 상여금은 포함됩니다. 지급 조건이 사전에 확정된 경우입니다</li>\n<li><strong>포함 ✅ 연장·야간·휴일 근로수당</strong> — 실제 근로의 대가로 지급되므로 포함됩니다</li>\n<li><strong>제외 ❌ 경영성과급(인센티브)</strong> — 경영 실적에 따라 지급 여부와 금액이 결정되는 성과급은 근로의 대가가 아닌 성과 분배이므로 제외될 수 있습니다</li>\n<li><strong>제외 ❌ 실비 변상 성격의 금품</strong> — 출장비, 접대비 등 실비를 보전하는 금품은 근로의 대가가 아니므로 제외됩니다</li>\n<li><strong>제외 ❌ 일시적·우발적 금품</strong> — 경조사비, 포상금 등 일시적으로 지급된 금품은 정기성·고정성이 없으므로 제외됩니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 급여 항목별 포함 여부를 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '회사가 퇴직금을 적게 계산했을 때 대응 방법',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직금 정산서를 받으면 반드시 급여명세서와 대조해보세요. 포함 항목이 누락되었다면 차액을 청구할 수 있습니다</strong></p>\n<ul>\n<li><strong>급여명세서 대조</strong> — 퇴직 전 3개월간의 급여명세서를 꺼내 항목별로 합산하세요. 기본급 + 고정수당 + 정기상여금(3개월 환산분)이 정산서에 반영되어 있는지 확인합니다</li>\n<li><strong>차액 산출 후 내용증명 발송</strong> — 포함되어야 할 항목이 빠져 있다면, 정확한 차액을 계산하여 회사에 내용증명을 보내세요. "평균임금 산정 시 누락된 항목이 있으므로 14일 이내에 차액을 지급해주십시오"라는 내용입니다</li>\n<li><strong>미해결 시 노동청 진정 또는 소송</strong> — 회사가 차액 지급을 거부하면 관할 노동청에 임금체불 진정을 접수하거나, 퇴직금 차액 청구소송을 제기할 수 있습니다. 급여명세서, 근로계약서, 취업규칙이 핵심 증거입니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: 급여명세서 대조 → 차액 산출 → 내용증명 → 노동청 진정/소송</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직금 정산서를 받으면 가능한 한 급여명세서와 대조해보세요. 포함 항목이 누락되었다면 차액을 청구할 수 있습니다</strong></p>\n<ul>\n<li><strong>급여명세서 대조</strong> — 퇴직 전 3개월간의 급여명세서를 꺼내 항목별로 합산하세요. 기본급 + 고정수당 + 정기상여금(3개월 환산분)이 정산서에 반영되어 있는지 확인합니다</li>\n<li><strong>차액 산출 후 내용증명 발송</strong> — 포함되어야 할 항목이 빠져 있다면, 정확한 차액을 계산하여 회사에 내용증명을 보내세요. "평균임금 산정 시 누락된 항목이 있으므로 14일 이내에 차액을 지급해주십시오"라는 내용입니다</li>\n<li><strong>미해결 시 노동청 진정 또는 소송</strong> — 회사가 차액 지급을 거부하면 관할 노동청에 임금체불 진정을 접수하거나, 퇴직금 차액 청구소송을 제기할 수 있습니다. 급여명세서, 근로계약서, 취업규칙이 핵심 증거입니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: 급여명세서 대조 → 차액 산출 → 내용증명 → 노동청 진정/소송</blockquote>',
       },
     ],
     cases: [
@@ -363,7 +363,7 @@ export const spokesBatch25_15to21: SpokePage[] = [
       {
         title: '절대 서명하면 안 되는 불리한 조항 5가지',
         content:
-          '<p><strong style="color:#1e3a5f">아래 5가지 조항이 합의서에 포함되어 있다면 서명을 보류하고 전문가 검토를 받으세요. 서명 후에는 번복이 매우 어렵습니다</strong></p>\n<ul>\n<li><strong>1. 포괄적 권리포기 조항</strong> — "향후 일체의 민·형사상 청구를 포기한다"는 문구입니다. 이 조항에 서명하면 퇴직금 차액, 미지급 수당, 부당해고 구제신청까지 모두 포기하게 됩니다. 반드시 삭제하거나 "본 합의에서 정한 사항에 한한다"로 범위를 제한하세요</li>\n<li><strong>2. 자발적 사직 기재</strong> — 이직 사유가 "자발적 사직"으로 기재되면 실업급여 수급이 불가능합니다. 반드시 "회사 권고에 의한 퇴직" 또는 "경영상 사유에 의한 이직"으로 명시되어야 합니다</li>\n<li><strong>3. 비밀유지 + 위약금 조항</strong> — "퇴직 경위를 제3자에게 공개할 경우 위약금 ○○만원을 지급한다"는 조항입니다. 과도한 비밀유지 의무는 향후 소송에서 증거 제출을 방해하고, 동료와의 정보 공유도 차단합니다</li>\n<li><strong>4. 퇴직금 정산 포기 또는 모호한 정산 조항</strong> — "퇴직금을 포함한 일체의 정산을 완료했음을 확인한다"는 문구입니다. 실제 퇴직금이 입금되지 않았는데도 서명하면 나중에 청구하기 어려워집니다. 구체적인 금액과 지급일이 명시되어야 합니다</li>\n<li><strong>5. 경업금지 조항</strong> — "퇴직 후 ○년간 동종업계에 취업하지 않는다"는 조항입니다. 보상 없는 경업금지는 무효일 가능성이 높지만, 서명 자체가 향후 취업에 심리적 압박이 됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 5가지: 포괄 포기 / 자발적 사직 / 비밀유지+위약금 / 정산 모호 / 경업금지</blockquote>',
+          '<p><strong style="color:#1e3a5f">아래 5가지 조항이 합의서에 포함되어 있다면 서명을 보류하고 전문가 검토를 받으세요. 서명 후에는 번복이 매우 어렵습니다</strong></p>\n<ul>\n<li><strong>1. 포괄적 권리포기 조항</strong> — "향후 일체의 민·형사상 청구를 포기한다"는 문구입니다. 이 조항에 서명하면 퇴직금 차액, 미지급 수당, 부당해고 구제신청까지 모두 포기하게 됩니다. 가능한 한 삭제하거나 "본 합의에서 정한 사항에 한한다"로 범위를 제한하세요</li>\n<li><strong>2. 자발적 사직 기재</strong> — 이직 사유가 "자발적 사직"으로 기재되면 실업급여 수급이 불가능합니다. 가능한 한 "회사 권고에 의한 퇴직" 또는 "경영상 사유에 의한 이직"으로 명시되어야 합니다</li>\n<li><strong>3. 비밀유지 + 위약금 조항</strong> — "퇴직 경위를 제3자에게 공개할 경우 위약금 ○○만원을 지급한다"는 조항입니다. 과도한 비밀유지 의무는 향후 소송에서 증거 제출을 방해하고, 동료와의 정보 공유도 차단합니다</li>\n<li><strong>4. 퇴직금 정산 포기 또는 모호한 정산 조항</strong> — "퇴직금을 포함한 일체의 정산을 완료했음을 확인한다"는 문구입니다. 실제 퇴직금이 입금되지 않았는데도 서명하면 나중에 청구하기 어려워집니다. 구체적인 금액과 지급일이 명시되어야 합니다</li>\n<li><strong>5. 경업금지 조항</strong> — "퇴직 후 ○년간 동종업계에 취업하지 않는다"는 조항입니다. 보상 없는 경업금지는 무효일 가능성이 높지만, 서명 자체가 향후 취업에 심리적 압박이 됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 5가지: 포괄 포기 / 자발적 사직 / 비밀유지+위약금 / 정산 모호 / 경업금지</blockquote>',
       },
       {
         title: '합의서에 반드시 포함되어야 할 유리한 조항',
@@ -373,7 +373,7 @@ export const spokesBatch25_15to21: SpokePage[] = [
       {
         title: '서명 전에 반드시 확보해야 할 것들',
         content:
-          '<p><strong style="color:#1e3a5f">합의서 서명은 되돌리기 매우 어렵습니다. 서명 전에 아래 3가지를 반드시 확보하세요</strong></p>\n<ul>\n<li><strong>검토 시간 확보(최소 3일)</strong> — "지금 당장 서명해라"는 압박에 응하지 마세요. 「민법」 제110조에 따라 강박에 의한 의사표시는 취소할 수 있지만, 입증이 어렵습니다. 최소 3일의 검토 기간을 요청하고, 그 사이에 노무사나 변호사의 검토를 받으세요</li>\n<li><strong>합의 과정 기록</strong> — 합의서 교부 과정, 회사의 요구 내용, 압박 상황 등을 녹음하거나 문자로 남기세요. 나중에 합의서 무효를 다툴 때 핵심 증거가 됩니다</li>\n<li><strong>합의서 사본 확보</strong> — 서명 전 합의서 전문을 사진 촬영하거나 사본을 요구하세요. 서명 후에도 서명본 1부를 반드시 보관해야 합니다. 회사가 사본 제공을 거부하면, 이 자체가 불리한 조항이 있다는 간접 증거입니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절대 원칙: 읽지 않은 합의서에 서명하지 않는다 → 3일 검토 → 전문가 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의서 서명은 되돌리기 매우 어렵습니다. 서명 전에 아래 3가지를 가능한 한 확보하세요</strong></p>\n<ul>\n<li><strong>검토 시간 확보(최소 3일)</strong> — "지금 당장 서명해라"는 압박에 응하지 마세요. 「민법」 제110조에 따라 강박에 의한 의사표시는 취소할 수 있지만, 입증이 어렵습니다. 최소 3일의 검토 기간을 요청하고, 그 사이에 노무사나 변호사의 검토를 받으세요</li>\n<li><strong>합의 과정 기록</strong> — 합의서 교부 과정, 회사의 요구 내용, 압박 상황 등을 녹음하거나 문자로 남기세요. 나중에 합의서 무효를 다툴 때 핵심 증거가 됩니다</li>\n<li><strong>합의서 사본 확보</strong> — 서명 전 합의서 전문을 사진 촬영하거나 사본을 요구하세요. 서명 후에도 서명본 1부를 가능한 한 보관해야 합니다. 회사가 사본 제공을 거부하면, 이 자체가 불리한 조항이 있다는 간접 증거입니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절대 원칙: 읽지 않은 합의서에 서명하지 않는다 → 3일 검토 → 전문가 확인</blockquote>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch25_15to21: SpokePage[] = [
         summary:
           '대법원 2025두33276 사건(2025.10.16 선고)에서 법원은 근로자가 구제신청을 할 당시 이미 정년에 이르거나 근로계약이 종료된 경우에는 구제명령을 받을 이익이 소멸한다고 판시했습니다.',
         takeaway:
-          '합의서에 서명하여 근로관계가 종료되면, 이후에 부당해고 구제신청을 하더라도 구제이익이 소멸할 수 있습니다. 서명 전에 부당해고 여부를 반드시 검토하고, 구제신청을 먼저 해둔 뒤 합의 여부를 결정하는 것이 유리합니다.',
+          '합의서에 서명하여 근로관계가 종료되면, 이후에 부당해고 구제신청을 하더라도 구제이익이 소멸할 수 있습니다. 서명 전에 부당해고 여부를 가능한 한 검토하고, 구제신청을 먼저 해둔 뒤 합의 여부를 결정하는 것이 유리합니다.',
       },
     ],
     faq: [
@@ -442,17 +442,17 @@ export const spokesBatch25_15to21: SpokePage[] = [
       {
         title: '수습기간 해고, 법적으로 허용되는 범위',
         content:
-          '<p><strong style="color:#1e3a5f">수습기간이라고 해서 자유롭게 해고할 수 있는 것이 아닙니다. 「근로기준법」에 따른 정당한 사유가 필요합니다</strong></p>\n<ul>\n<li><strong>수습기간의 법적 성격</strong> — 수습기간은 근로자의 업무 적합성을 평가하는 기간입니다. 다만 수습 중이라 해도 근로계약은 이미 성립한 상태이므로, 해고 시 정당한 사유가 필요합니다(「근로기준법」 제23조)</li>\n<li><strong>해고예고 의무 완화</strong> — 3개월 이내의 수습기간에는 30일 전 해고예고 의무가 면제됩니다(「근로기준법」 제35조 제3호). 그러나 이는 예고 의무만 면제하는 것이지, 정당한 사유 없이 해고할 수 있다는 뜻이 아닙니다</li>\n<li><strong>정당성 판단 기준 완화</strong> — 대법원 판례에 따르면 수습기간 중 해고의 정당성은 본채용 근로자보다 다소 넓게 인정됩니다. 하지만 "다소 넓게"이지 "자유롭게"가 아닙니다. 객관적이고 합리적인 이유가 있어야 합니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 수습기간 = 해고예고 면제 ≠ 자유로운 해고 / 정당한 사유 필요</blockquote>',
+          '<p><strong style="color:#1e3a5f">수습기간이라고 해서 자유롭게 해고할 수 있는 것이 아닙니다. 「근로기준법」에 따른 정당한 사유가 필요합니다</strong></p>\n<ul>\n<li><strong>수습기간의 법적 성격</strong> — 수습기간은 근로자의 업무 적합성을 평가하는 기간입니다. 다만 수습 중이라 해도 근로계약은 이미 성립한 상태이므로, 해고 시 정당한 사유가 필요합니다(「근로기준법」 제23조)</li>\n<li><strong>해고예고 의무 완화</strong> — 3개월 이내의 수습기간에는 30일 전 해고예고 의무가 면제됩니다(「근로기준법」 제35조 제3호). 그러나 이는 예고 의무만 면제하는 것이지, 정당한 사유 없이 해고할 수 있다는 뜻이 아닙니다</li>\n<li><strong>정당성 판단 기준 완화</strong> — 대법원 판례에 따르면 수습기간 중 해고의 정당성은 본채용 근로자보다 다소 넓게 인정될 수 있습니다. 하지만 "다소 넓게"이지 "자유롭게"가 아닙니다. 객관적이고 합리적인 이유가 있어야 합니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 수습기간 = 해고예고 면제 ≠ 자유로운 해고 / 정당한 사유 필요</blockquote>',
       },
       {
         title: '부당해고로 인정되는 4가지 경우',
         content:
-          '<p><strong style="color:#1e3a5f">아래 4가지 중 하나라도 해당되면 부당해고를 주장할 수 있습니다. 본인의 상황과 대조해보세요</strong></p>\n<ul>\n<li><strong>1. 평가 기준이 없거나 통보하지 않은 경우</strong> — 수습 평가 기준, 평가 시기, 본채용 전환 조건 등을 미리 고지하지 않았다면 해고의 정당성이 크게 약해집니다. "무엇을 기준으로 부적격 판정을 했는지"를 회사가 입증해야 합니다</li>\n<li><strong>2. 교육·지도 없이 바로 해고한 경우</strong> — 업무 미숙을 이유로 해고하려면, 그 전에 충분한 교육과 개선 기회를 제공했어야 합니다. 교육 없이 "실력이 부족하다"는 이유만으로 해고하면 부당해고로 인정될 가능성이 높습니다</li>\n<li><strong>3. 차별적 해고인 경우</strong> — 같은 수습기간에 있는 다른 직원은 본채용 전환되었는데, 본인만 해고되었다면 합리적 근거가 있어야 합니다. 성별, 나이, 출신 등 차별적 사유에 해당하면 부당해고입니다</li>\n<li><strong>4. 수습기간 경과 후 해고인 경우</strong> — 수습기간이 만료되어 본채용으로 전환된 뒤에 해고한 것이라면, 일반 해고와 동일한 엄격한 기준이 적용됩니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 수습 해고의 부당성 여부를 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">아래 4가지 중 하나라도 해당되면 부당해고를 주장할 수 있습니다. 본인의 상황과 대조해보세요</strong></p>\n<ul>\n<li><strong>1. 평가 기준이 없거나 통보하지 않은 경우</strong> — 수습 평가 기준, 평가 시기, 본채용 전환 조건 등을 미리 고지하지 않았다면 해고의 정당성이 크게 약해집니다. "무엇을 기준으로 부적격 판정을 했는지"를 회사가 입증해야 합니다</li>\n<li><strong>2. 교육·지도 없이 바로 해고한 경우</strong> — 업무 미숙을 이유로 해고하려면, 그 전에 충분한 교육과 개선 기회를 제공했어야 합니다. 교육 없이 "실력이 부족하다"는 이유만으로 해고하면 부당해고로 인정될 가능성이 높습니다</li>\n<li><strong>3. 차별적 해고인 경우</strong> — 같은 수습기간에 있는 다른 직원은 본채용 전환되었는데, 본인만 해고되었다면 합리적 근거가 있어야 합니다. 성별, 나이, 출신 등 차별적 사유에 해당하면 부당해고로 검토될 수 있습니다</li>\n<li><strong>4. 수습기간 경과 후 해고인 경우</strong> — 수습기간이 만료되어 본채용으로 전환된 뒤에 해고한 것이라면, 일반 해고와 동일한 엄격한 기준이 적용됩니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 수습 해고의 부당성 여부를 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '수습 해고 후 대응 절차 3단계',
         content:
-          '<p><strong style="color:#1e3a5f">부당해고라고 판단되면 즉시 행동해야 합니다. 구제신청 기한은 해고일로부터 3개월입니다</strong></p>\n<ul>\n<li><strong>1단계: 해고 사유 서면 요구</strong> — 「근로기준법」 제27조에 따라 해고 시 서면으로 해고 사유와 시기를 통지해야 합니다. 서면 통지가 없으면 그 자체로 부당해고에 해당합니다. 회사에 서면 해고 통지서를 요구하세요</li>\n<li><strong>2단계: 증거 확보</strong> — 근로계약서(수습 조건 명시 여부), 수습 평가서, 업무 관련 대화 기록, 교육 이수 내역을 확보하세요. 해고 통보 시 대화를 녹음해두면 핵심 증거가 됩니다</li>\n<li><strong>3단계: 부당해고 구제신청</strong> — 해고일로부터 3개월 이내에 관할 지방노동위원회에 구제신청을 접수합니다. 비용은 무료이며, 노동위원회가 해고의 정당성을 판단합니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: 해고 사유 서면 요구 → 증거 확보 → 3개월 내 구제신청</blockquote>',
+          '<p><strong style="color:#1e3a5f">부당해고라고 판단되면 즉시 행동해야 합니다. 구제신청 기한은 해고일로부터 3개월입니다</strong></p>\n<ul>\n<li><strong>1단계: 해고 사유 서면 요구</strong> — 「근로기준법」 제27조에 따라 해고 시 서면으로 해고 사유와 시기를 통지해야 합니다. 서면 통지가 없으면 그 자체로 부당해고에 해당할 소지가 있습니다. 회사에 서면 해고 통지서를 요구하세요</li>\n<li><strong>2단계: 증거 확보</strong> — 근로계약서(수습 조건 명시 여부), 수습 평가서, 업무 관련 대화 기록, 교육 이수 내역을 확보하세요. 해고 통보 시 대화를 녹음해두면 핵심 증거가 됩니다</li>\n<li><strong>3단계: 부당해고 구제신청</strong> — 해고일로부터 3개월 이내에 관할 지방노동위원회에 구제신청을 접수합니다. 비용은 무료이며, 노동위원회가 해고의 정당성을 판단합니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">순서: 해고 사유 서면 요구 → 증거 확보 → 3개월 내 구제신청</blockquote>',
       },
     ],
     cases: [
@@ -518,7 +518,7 @@ export const spokesBatch25_15to21: SpokePage[] = [
     meta: {
       title: '교통사고 합의금, 바로 합의하면 안 되는 이유 5가지 | 로앤가이드',
       description:
-        '교통사고 후 보험사에서 합의금을 제시했는데 바로 사인하려는 분이라면, 합의 전 반드시 확인할 5가지를 지금 확인하세요.',
+        '교통사고 후 보험사에서 합의금을 제시했는데 바로 사인하려는 분이라면, 합의 전 가능한 한 확인할 5가지를 지금 확인하세요.',
     },
     intro:
       '<p>교통사고 후 일주일, 보험회사 담당자가 전화를 합니다. "빨리 합의하시면 ○○만원 드릴게요. 더 미루면 금액이 줄어들 수도 있어요." 아직 허리가 아프고 병원 치료 중인데, 금액이 적정한 건지 판단이 안 됩니다. 보험사의 첫 합의금 제안을 바로 수락하면 절대 안 되는 이유를 정리해드립니다.</p>',

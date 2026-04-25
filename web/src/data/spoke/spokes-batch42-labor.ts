@@ -124,7 +124,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       {
         title: '시용 종료 본채용 거부 — 해고로 인정되는 이유',
         content:
-          '<p><strong style="color:#1e3a5f">시용계약은 본채용을 전제로 한 근로계약이므로 거부는 해고에 해당합니다.</strong></p>\n<ul>\n<li><strong>법적 성질</strong> — "해약권 유보부 근로계약"으로 근로계약 관계 이미 성립.</li>\n<li><strong>해고 기준 완화</strong> — 적격성 판단은 정직원보다 기준 완화되나 자의 금지.</li>\n<li><strong>서면 통지 의무</strong> — 근기법 제27조 — 시용도 서면 해고통지서 필수.</li>\n<li><strong>구제신청 가능</strong> — 통보일로부터 3개월 이내 지노위.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "수습이니까 마음대로 자를 수 있다"는 회사 주장은 법적으로 틀립니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">시용계약은 본채용을 전제로 한 근로계약이므로 거부는 해고에 해당할 소지가 있습니다.</strong></p>\n<ul>\n<li><strong>법적 성질</strong> — "해약권 유보부 근로계약"으로 근로계약 관계 이미 성립.</li>\n<li><strong>해고 기준 완화</strong> — 적격성 판단은 정직원보다 기준 완화되나 자의 금지.</li>\n<li><strong>서면 통지 의무</strong> — 근기법 제27조 — 시용도 서면 해고통지서 필수.</li>\n<li><strong>구제신청 가능</strong> — 통보일로부터 3개월 이내 지노위.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "수습이니까 마음대로 자를 수 있다"는 회사 주장은 법적으로 틀립니다.</blockquote>',
       },
       {
         title: '5단계 대응 — 통보 당일부터 72시간 골든타임',
@@ -327,7 +327,7 @@ export const spokesBatch42Labor: SpokePage[] = [
     ],
     faq: [
       {
-        question: '계약서에 "업무상 필요 시 전환 가능" 있으면 무조건 따라야 하나요?',
+        question: '계약서에 "업무상 필요 시 전환 가능" 있으면 원칙적으로 따라야 하나요?',
         answer:
           '<strong>아니요, 업무상 필요성과 불이익 비교가 적용됩니다.</strong> 포괄 조항이 있어도 본질적 불이익이 크면 무효가 될 수 있습니다.',
       },
@@ -395,7 +395,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       {
         title: '연봉 감액 수용 거부 — 법적 선택지',
         content:
-          '<p><strong style="color:#1e3a5f">원칙적으로 근로자 동의 없는 임금 감액은 무효입니다.</strong></p>\n<ul>\n<li><strong>개별 동의 원칙</strong> — 근로계약의 본질적 조건이므로 개별 서면 동의 필수.</li>\n<li><strong>거부 시 효과</strong> — 기존 계약 유지, 회사가 감액하면 임금체불.</li>\n<li><strong>취업규칙 불이익 변경</strong> — 집단적 감액은 과반수 동의 필요(근기법 제94조).</li>\n<li><strong>실업급여 연관</strong> — 임금 10% 이상 감액 후 퇴사면 자발적 퇴사여도 수급 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 감액 동의서 서명 전에 반드시 법률 상담을 받아보세요. 일단 서명하면 뒤집기 어렵습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">원칙적으로 근로자 동의 없는 임금 감액은 무효입니다.</strong></p>\n<ul>\n<li><strong>개별 동의 원칙</strong> — 근로계약의 본질적 조건이므로 개별 서면 동의 필수.</li>\n<li><strong>거부 시 효과</strong> — 기존 계약 유지, 회사가 감액하면 임금체불.</li>\n<li><strong>취업규칙 불이익 변경</strong> — 집단적 감액은 과반수 동의 필요(근기법 제94조).</li>\n<li><strong>실업급여 연관</strong> — 임금 10% 이상 감액 후 퇴사면 자발적 퇴사여도 수급 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 감액 동의서 서명 전에 가능한 한 법률 상담을 받아보세요. 일단 서명하면 뒤집기 어렵습니다.</blockquote>',
       },
       {
         title: '구제 절차 — 해고로 다툴 때',
@@ -559,7 +559,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       {
         title: '임금성 인정 요건 4가지',
         content:
-          '<p><strong style="color:#1e3a5f">지급의무·계속성·정기성·일정 기준이 있으면 임금으로 인정됩니다.</strong></p>\n<ul>\n<li><strong>지급의무성</strong> — 계약·취업규칙·관행으로 회사가 지급할 의무를 부담.</li>\n<li><strong>계속성</strong> — 매년 또는 일정 주기로 반복 지급된 이력.</li>\n<li><strong>정기성</strong> — 지급 시점이 일정하거나 예측 가능.</li>\n<li><strong>일정 기준</strong> — 매출·평가·근속 등 객관적 지급 기준 존재.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "회사 재량"이라고 써 있어도 관행화됐다면 임금성 인정 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">지급의무·계속성·정기성·일정 기준이 있으면 임금으로 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>지급의무성</strong> — 계약·취업규칙·관행으로 회사가 지급할 의무를 부담.</li>\n<li><strong>계속성</strong> — 매년 또는 일정 주기로 반복 지급된 이력.</li>\n<li><strong>정기성</strong> — 지급 시점이 일정하거나 예측 가능.</li>\n<li><strong>일정 기준</strong> — 매출·평가·근속 등 객관적 지급 기준 존재.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "회사 재량"이라고 써 있어도 관행화됐다면 임금성 인정 가능합니다.</blockquote>',
       },
       {
         title: '증빙 수집 — 계약·규정·관행',
@@ -835,7 +835,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       {
         title: '소송·분쟁 시 쟁점 — 주주총회 결의 유효성',
         content:
-          '<p><strong style="color:#1e3a5f">주총 결의 하자가 있으면 퇴직금 지급 자체가 무효가 될 수 있습니다.</strong></p>\n<ul>\n<li><strong>결의 부존재</strong> — 주총 실제 개최되지 않았다면 지급 청구 불가.</li>\n<li><strong>결의 취소</strong> — 통지 누락·의결권 미보장 등은 취소 사유.</li>\n<li><strong>소수주주 반발</strong> — 과도한 한도 설정은 소수주주 대표소송 가능.</li>\n<li><strong>세무조사 리스크</strong> — 결의서 부재·형식 하자면 손금불산입 추징.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 1인 주주 회사도 주총 의사록은 반드시 작성·보관해야 세무 방어 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">주총 결의 하자가 있으면 퇴직금 지급 자체가 무효가 될 수 있습니다.</strong></p>\n<ul>\n<li><strong>결의 부존재</strong> — 주총 실제 개최되지 않았다면 지급 청구 불가.</li>\n<li><strong>결의 취소</strong> — 통지 누락·의결권 미보장 등은 취소 사유.</li>\n<li><strong>소수주주 반발</strong> — 과도한 한도 설정은 소수주주 대표소송 가능.</li>\n<li><strong>세무조사 리스크</strong> — 결의서 부재·형식 하자면 손금불산입 추징.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 1인 주주 회사도 주총 의사록은 가능한 한 작성·보관해야 세무 방어 가능합니다.</blockquote>',
       },
     ],
     cases: [
@@ -844,7 +844,7 @@ export const spokesBatch42Labor: SpokePage[] = [
         summary:
           '대법원 2025다214605 사건(대법원, 2025.12.11 선고)에서 법원은 상법 제388조가 강행규정이므로 주식회사 정관에서 이사의 보수에 관하여 주주총회 결의로 정한다고 규정한 경우 주총 결의 없이는 이사 보수·퇴직금 청구가 허용되지 않는다고 판시했습니다. 정관·주총 결의 요건을 갖추지 못하면 지급 자체가 무효입니다.',
         takeaway:
-          '퇴직금 지급 전 반드시 정관·주주총회 결의 형식을 점검하세요.',
+          '퇴직금 지급 전 가능한 한 정관·주주총회 결의 형식을 점검하세요.',
       },
     ],
     faq: [
@@ -958,7 +958,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       {
         question: '단기 계약 여러 건 합쳐서 180일 만드는 게 가능한가요?',
         answer:
-          '<strong>네, 사업장 여러 곳 이력 합산 가능합니다.</strong> 다만 최종 이직이 비자발적이거나 정당한 사유여야 수급자격이 인정됩니다.',
+          '<strong>네, 사업장 여러 곳 이력 합산 가능합니다.</strong> 다만 최종 이직이 비자발적이거나 정당한 사유여야 수급자격이 인정될 수 있습니다.',
       },
     ],
     cta: {

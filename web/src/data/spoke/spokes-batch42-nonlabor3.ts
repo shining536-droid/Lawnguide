@@ -120,7 +120,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
       {
         title: '변경 신청 요건 — 사정변경 3가지 기준',
         content:
-          '<p><strong style="color:#1e3a5f">소득 20% 이상 감소·지출 30% 이상 증가·가용소득 구조 변동 중 하나면 인정됩니다.</strong></p>\n<ul>\n<li><strong>① 소득 감소</strong> — 실직·이직·급여삭감·휴직 등으로 월 실수령액이 인가 당시 대비 20% 이상 감소.</li>\n<li><strong>② 지출 증가</strong> — 의료비·부양가족 추가·임차료 인상 등 객관 증빙 가능한 증가.</li>\n<li><strong>③ 부양가족 변동</strong> — 자녀 출생·가족 실직 등 부양 인원 변화.</li>\n<li><strong>근거 조항</strong> — 채무자 회생 및 파산에 관한 법률 제619조·규칙 제85조.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 변경은 변제금 "감액"만이 아니라 "기간 연장"(최대 5년)·"변제 중단 유예"도 포함합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">소득 20% 이상 감소·지출 30% 이상 증가·가용소득 구조 변동 중 하나면 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>① 소득 감소</strong> — 실직·이직·급여삭감·휴직 등으로 월 실수령액이 인가 당시 대비 20% 이상 감소.</li>\n<li><strong>② 지출 증가</strong> — 의료비·부양가족 추가·임차료 인상 등 객관 증빙 가능한 증가.</li>\n<li><strong>③ 부양가족 변동</strong> — 자녀 출생·가족 실직 등 부양 인원 변화.</li>\n<li><strong>근거 조항</strong> — 채무자 회생 및 파산에 관한 법률 제619조·규칙 제85조.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 변경은 변제금 "감액"만이 아니라 "기간 연장"(최대 5년)·"변제 중단 유예"도 포함합니다.</blockquote>',
       },
       {
         title: '제출 서류 — 소득·지출 변화 증빙 핵심',
@@ -135,7 +135,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
       {
         title: '실패 시 대안 — 변제 유예·면책·파산 전환',
         content:
-          '<p><strong style="color:#1e3a5f">변경이 기각되거나 소득이 더 급격히 감소했다면 다음 단계를 준비해야 합니다.</strong></p>\n<ul>\n<li><strong>변제 유예</strong> — 최대 1년 변제금 납부 중단(법원 허가 필요).</li>\n<li><strong>조기 면책</strong> — 변제율 70% 이상 이행 시 조기 면책 검토 가능.</li>\n<li><strong>파산 전환</strong> — 소득 지속 불가 시 회생 폐지 → 개인파산 신청.</li>\n<li><strong>재신청</strong> — 회생 폐지 후 최소 5년 경과 시 다시 개인회생 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 무단 변제 중단은 회생 폐지 후 채권 전액이 되살아나므로 반드시 법원 승인을 받고 유예하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">변경이 기각되거나 소득이 더 급격히 감소했다면 다음 단계를 준비해야 합니다.</strong></p>\n<ul>\n<li><strong>변제 유예</strong> — 최대 1년 변제금 납부 중단(법원 허가 필요).</li>\n<li><strong>조기 면책</strong> — 변제율 70% 이상 이행 시 조기 면책 검토 가능.</li>\n<li><strong>파산 전환</strong> — 소득 지속 불가 시 회생 폐지 → 개인파산 신청.</li>\n<li><strong>재신청</strong> — 회생 폐지 후 최소 5년 경과 시 다시 개인회생 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 무단 변제 중단은 회생 폐지 후 채권 전액이 되살아나므로 가능한 한 법원 승인을 받고 유예하세요.</blockquote>',
       },
     ],
     cases: [
@@ -144,7 +144,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
         summary:
           '대법원 2024다221042 사건(대법원, 2025.10.16 선고)에서 법원은 개인회생채권자목록에 기재되지 아니한 청구권에 면책결정의 효력이 미치지 않음이 원칙이나, 보증인이 인가결정 후 전액 대위변제했고 채무자가 누락 사실을 몰랐던 경우 등 사정을 종합해 효력을 달리 판단할 수 있다고 판시했습니다.',
         takeaway:
-          '변제계획 변경·인가 후 절차에서도 채권자목록 정확성이 결정적이므로, 누락된 보증인·채권자가 있으면 변경안에 반드시 추가 반영해야 합니다.',
+          '변제계획 변경·인가 후 절차에서도 채권자목록 정확성이 결정적이므로, 누락된 보증인·채권자가 있으면 변경안에 가능한 한 추가 반영해야 합니다.',
       },
     ],
     faq: [
@@ -156,7 +156,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
       {
         question: '변제 기간을 5년으로 늘리면 총 변제액이 늘지 않나요?',
         answer:
-          '<strong>기간을 늘려도 총 변제액은 가용소득 × 기간 범위에서 정해지므로 반드시 증가하진 않습니다.</strong> 월 부담은 확실히 감소.',
+          '<strong>기간을 늘려도 총 변제액은 가용소득 × 기간 범위에서 정해지므로 가능한 한 증가하진 않습니다.</strong> 월 부담은 확실히 감소.',
       },
       {
         question: '변경 신청 중에 변제금을 못 내면 회생이 폐지되나요?',
@@ -258,7 +258,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
       {
         question: '면책 정보를 조기에 삭제하는 방법이 있나요?',
         answer:
-          '<strong>법정 5년 기간은 단축 불가이며 어떤 업체의 "조기 삭제" 광고는 사기입니다.</strong> 신용회복은 시간 + 성실 이행만이 정답.',
+          '<strong>법정 5년 기간은 단축 불가이며 어떤 업체의 "조기 삭제" 광고는 사기로 검토될 수 있습니다.</strong> 신용회복은 시간 + 성실 이행만이 정답.',
       },
       {
         question: '햇살론을 받으면 신용점수에 도움이 되나요?',
@@ -304,7 +304,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
       {
         title: '신청 서류와 기관 — 경찰·검찰·법원 경로',
         content:
-          '<p><strong style="color:#1e3a5f">피해자 신청 또는 수사기관 직권으로 진행되며, 결정은 반드시 법원(판사)이 합니다.</strong></p>\n<ul>\n<li><strong>신청서</strong> — 피해자 신청서(경찰서 비치) 또는 변호인 대리 신청서.</li>\n<li><strong>고소·신고 접수증</strong> — 스토킹 범죄 신고·고소 접수 확인 필수.</li>\n<li><strong>증거자료</strong> — 문자·카톡 캡처·통화녹음·CCTV·위치추적 로그.</li>\n<li><strong>피해 경위서</strong> — 시간순 사건 기록, 일시·장소·방법·심리적 피해 기재.</li>\n<li><strong>의료기록</strong> — 정신과 상담·수면제 처방 등 피해 객관화 자료.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 잠정조치 신청 요건과 증거 목록을 정리해드립니다.</p>\n<a href="/chat?domain=stalking" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">피해자 신청 또는 수사기관 직권으로 진행되며, 결정은 가능한 한 법원(판사)이 합니다.</strong></p>\n<ul>\n<li><strong>신청서</strong> — 피해자 신청서(경찰서 비치) 또는 변호인 대리 신청서.</li>\n<li><strong>고소·신고 접수증</strong> — 스토킹 범죄 신고·고소 접수 확인 필수.</li>\n<li><strong>증거자료</strong> — 문자·카톡 캡처·통화녹음·CCTV·위치추적 로그.</li>\n<li><strong>피해 경위서</strong> — 시간순 사건 기록, 일시·장소·방법·심리적 피해 기재.</li>\n<li><strong>의료기록</strong> — 정신과 상담·수면제 처방 등 피해 객관화 자료.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 잠정조치 신청 요건과 증거 목록을 정리해드립니다.</p>\n<a href="/chat?domain=stalking" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '신청 절차 — 경찰 신고부터 결정까지 4단계',
@@ -323,7 +323,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
         summary:
           '대법원 2025모3144 사건(대법원, 2025.12.11 선고)에서 법원은 스토킹범죄의 처벌 등에 관한 법률상 잠정조치 결정(연장·종류 변경 포함)에 대한 항고의 절차적 쟁점을 정리하며, 피해자 보호 공백이 없도록 원심법원의 조치 기준을 제시했습니다.',
         takeaway:
-          '잠정조치는 연장·변경 결정도 가능해 3개월이 지나도 피해자 보호가 계속 이어질 수 있으므로, 필요하면 연장 신청을 반드시 준비하세요.',
+          '잠정조치는 연장·변경 결정도 가능해 3개월이 지나도 피해자 보호가 계속 이어질 수 있으므로, 필요하면 연장 신청을 가능한 한 준비하세요.',
       },
     ],
     faq: [
@@ -417,7 +417,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
       {
         question: '측정을 거부했는데 나중에 혈액 검사로 음주가 확인되지 않으면 처벌이 풀리나요?',
         answer:
-          '<strong>아닙니다, 측정 거부 자체가 독립 범죄로 처벌됩니다.</strong> 혈중알코올농도 0%여도 거부죄는 별도로 성립합니다.',
+          '<strong>아닙니다, 측정 거부 자체가 독립 범죄로 처벌 대상으로 검토될 수 있습니다.</strong> 혈중알코올농도 0%여도 거부죄는 별도로 성립할 수 있습니다.',
       },
       {
         question: '처분 통지를 못 받았으면 90일 기한이 안 지나간 건가요?',

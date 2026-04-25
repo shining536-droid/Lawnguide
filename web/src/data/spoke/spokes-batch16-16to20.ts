@@ -27,7 +27,7 @@ export const spokesBatch16Pages16to20: SpokePage[] = [
       {
         title: '1단계: 파산 신청서를 법원에 접수하세요',
         content:
-          '<p><strong style="color:#1e3a5f">파산 신청만으로 압류가 자동 해제되지는 않습니다</strong></p>\n<p>채무자 회생 및 파산에 관한 법률에 따라 지방법원에 <strong>파산 신청서</strong>를 접수합니다. 이때 채권자 목록, 재산 목록, 수입·지출 내역서를 함께 제출해야 합니다. 신청서 접수만으로는 기존 압류가 바로 풀리지 않으므로, 다음 단계를 반드시 진행해야 합니다.</p>\n<p>신청 시 <strong>인지대·송달료</strong>(약 3만~5만 원)가 필요하며, 법률구조공단(132)을 통해 무료 법률 지원을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 채권자 목록 작성 → 재산·수입 내역 정리 → 파산 신청서 접수</blockquote>',
+          '<p><strong style="color:#1e3a5f">파산 신청만으로 압류가 자동 해제되지는 않습니다</strong></p>\n<p>채무자 회생 및 파산에 관한 법률에 따라 지방법원에 <strong>파산 신청서</strong>를 접수합니다. 이때 채권자 목록, 재산 목록, 수입·지출 내역서를 함께 제출해야 합니다. 신청서 접수만으로는 기존 압류가 바로 풀리지 않으므로, 다음 단계를 가능한 한 진행해야 합니다.</p>\n<p>신청 시 <strong>인지대·송달료</strong>(약 3만~5만 원)가 필요하며, 법률구조공단(132)을 통해 무료 법률 지원을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 채권자 목록 작성 → 재산·수입 내역 정리 → 파산 신청서 접수</blockquote>',
       },
       {
         title: '2단계: 중지명령 또는 금지명령을 신청하세요',
@@ -161,7 +161,7 @@ export const spokesBatch16Pages16to20: SpokePage[] = [
         summary:
           '대법원 2025마7576 사건(2026.01.09 선고)에서 법원은 면책결정의 확정은 "채무가 소멸한 경우"에 준한다고 판시하면서, 면책 후 채무불이행자명부 등재신청을 기각해야 한다고 했습니다. 이는 면책 후 신용 회복의 법적 근거가 됩니다.',
         takeaway:
-          '면책 결정이 확정되면 채무불이행자명부에서도 이름을 말소할 수 있으므로, 면책 결정문을 반드시 보관하세요.',
+          '면책 결정이 확정되면 채무불이행자명부에서도 이름을 말소할 수 있으므로, 면책 결정문을 가능한 한 보관하세요.',
       },
     ],
     faq: [
@@ -277,7 +277,7 @@ export const spokesBatch16Pages16to20: SpokePage[] = [
       {
         question: '자수하면 바로 구속되나요?',
         answer:
-          '자수했다고 반드시 구속되는 것은 아닙니다. 초범이고 도주 우려가 없다면 <strong>불구속 수사</strong>로 진행될 가능성이 높습니다.',
+          '자수했다고 가능한 한 구속되는 것은 아닙니다. 초범이고 도주 우려가 없다면 <strong>불구속 수사</strong>로 진행될 가능성이 높습니다.',
       },
       {
         question: '자수 후 집행유예를 받을 가능성은?',
@@ -348,7 +348,7 @@ export const spokesBatch16Pages16to20: SpokePage[] = [
       {
         title: '주차 분쟁: 관리규약과 법적 조치를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">공동주택 주차 문제는 관리규약이 1차 기준입니다</strong></p>\n<p>아파트·빌라의 주차 분쟁은 먼저 <strong>관리규약</strong>을 확인하세요. 대부분의 관리규약에는 주차 구역 배정, 방문차량 관리, 위반 시 조치 등이 규정되어 있습니다. 규약 위반 차량에 대해 관리사무소에 <strong>견인 조치</strong>를 요청할 수 있습니다.</p>\n<p>지정 주차구역에 반복적으로 무단 주차하는 경우, <strong>도로교통법 제32~34조</strong>에 따라 경찰에 신고할 수 있습니다(사유지 내부는 적용 제한). 주차 분쟁이 <strong>기물 파손</strong>이나 <strong>폭행</strong>으로 번지면 형사 사건이 되므로, 반드시 <strong>CCTV 영상과 사진</strong>을 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주차 대응: 관리규약 확인 → 관리사무소 견인 요청 → 반복 시 경찰 신고</blockquote>',
+          '<p><strong style="color:#1e3a5f">공동주택 주차 문제는 관리규약이 1차 기준입니다</strong></p>\n<p>아파트·빌라의 주차 분쟁은 먼저 <strong>관리규약</strong>을 확인하세요. 대부분의 관리규약에는 주차 구역 배정, 방문차량 관리, 위반 시 조치 등이 규정되어 있습니다. 규약 위반 차량에 대해 관리사무소에 <strong>견인 조치</strong>를 요청할 수 있습니다.</p>\n<p>지정 주차구역에 반복적으로 무단 주차하는 경우, <strong>도로교통법 제32~34조</strong>에 따라 경찰에 신고할 수 있습니다(사유지 내부는 적용 제한). 주차 분쟁이 <strong>기물 파손</strong>이나 <strong>폭행</strong>으로 번지면 형사 사건이 되므로, 가능한 한 <strong>CCTV 영상과 사진</strong>을 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주차 대응: 관리규약 확인 → 관리사무소 견인 요청 → 반복 시 경찰 신고</blockquote>',
       },
       {
         title: '분쟁이 심해지면 환경분쟁조정이나 민사소송을 검토하세요',
@@ -446,7 +446,7 @@ export const spokesBatch16Pages16to20: SpokePage[] = [
       {
         title: '중간정산 신청 시 필요한 서류를 준비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">사유를 증명하는 서류가 반드시 필요합니다</strong></p>\n<p>주택 구입의 경우 <strong>매매계약서</strong>와 <strong>무주택 확인서</strong>(등기부등본)를, 전세금의 경우 <strong>임대차계약서</strong>와 <strong>무주택 확인서</strong>를 제출해야 합니다.</p>\n<p>질병·부상의 경우 <strong>진단서</strong>와 <strong>6개월 이상 요양 필요 소견서</strong>가 필요합니다. 파산·개인회생의 경우 <strong>법원 결정문 사본</strong>을 제출합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주택: 매매계약서+등기부등본 | 전세: 임대차계약서+무주택확인 | 질병: 진단서+소견서 | 파산: 결정문</blockquote>',
+          '<p><strong style="color:#1e3a5f">사유를 증명하는 서류가 가능한 한 필요합니다</strong></p>\n<p>주택 구입의 경우 <strong>매매계약서</strong>와 <strong>무주택 확인서</strong>(등기부등본)를, 전세금의 경우 <strong>임대차계약서</strong>와 <strong>무주택 확인서</strong>를 제출해야 합니다.</p>\n<p>질병·부상의 경우 <strong>진단서</strong>와 <strong>6개월 이상 요양 필요 소견서</strong>가 필요합니다. 파산·개인회생의 경우 <strong>법원 결정문 사본</strong>을 제출합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주택: 매매계약서+등기부등본 | 전세: 임대차계약서+무주택확인 | 질병: 진단서+소견서 | 파산: 결정문</blockquote>',
       },
       {
         title: '중간정산 금액 계산 방법을 알아두세요',

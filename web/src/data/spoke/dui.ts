@@ -120,7 +120,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '벌금형이라도 전과가 남습니다',
         content:
-          '<p><strong style="color:#1e3a5f">벌금도 형사처벌이므로 전과 기록이 남습니다</strong></p>\n<p>벌금은 <strong>형사처벌</strong>이므로 수사경력조회에 평생 남습니다. 다만 취업 시 제출하는 범죄경력조회에는 일정 기간(벌금형은 5년) 후 삭제됩니다.</p>\n<p><strong>공무원, 교원, 법조인</strong> 등은 벌금형도 결격사유에 해당할 수 있으므로 본인의 직종에 따른 영향을 반드시 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">참고: 수사경력 → 평생 기록 | 범죄경력 → 벌금 5년 후 삭제</blockquote>',
+          '<p><strong style="color:#1e3a5f">벌금도 형사처벌이므로 전과 기록이 남습니다</strong></p>\n<p>벌금은 <strong>형사처벌</strong>이므로 수사경력조회에 평생 남습니다. 다만 취업 시 제출하는 범죄경력조회에는 일정 기간(벌금형은 5년) 후 삭제됩니다.</p>\n<p><strong>공무원, 교원, 법조인</strong> 등은 벌금형도 결격사유에 해당할 수 있으므로 본인의 직종에 따른 영향을 가능한 한 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">참고: 수사경력 → 평생 기록 | 범죄경력 → 벌금 5년 후 삭제</blockquote>',
       },
       {
         title: '양형에 유리한 정상을 최대한 준비하세요',
@@ -385,7 +385,7 @@ export const duiPages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '2회 음주운전이면 무조건 실형인가요?',
+        question: '2회 음주운전이면 원칙적으로 실형인가요?',
         answer: '법정형 하한이 <strong>징역 2년</strong>이지만, 감경 요소가 인정되면 집행유예나 벌금형도 가능합니다.',
       },
       {
@@ -639,12 +639,12 @@ export const duiPages: SpokePage[] = [
       {
         title: '0.03% 이상 0.08% 미만 — 면허 정지와 벌금형 구간',
         content:
-          '<p><strong style="color:#1e3a5f">혈중알코올농도 0.03% 이상 0.08% 미만은 면허 정지 대상입니다</strong></p>\n<p><strong>도로교통법 제44조 제4항</strong>에 따라 혈중알코올농도 0.03% 이상이면 음주운전에 해당합니다. 이 구간은 형사처벌로 <strong>1년 이하 징역 또는 500만원 이하 벌금</strong>(도로교통법 제148조의2 제3항 제1호)이 법정형입니다. 초범이고 사고가 없으면 통상 벌금 300~500만원 수준에서 약식명령이 나옵니다.</p>\n<p>행정처분은 <strong>면허 정지 100일</strong>입니다. 정지 기간 중 운전하면 무면허운전으로 별도 처벌을 받게 됩니다. 다만 이 구간은 음주운전 교육을 이수하면 정지 기간을 일부 감경받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사: 1년 이하 징역 / 500만원 이하 벌금 | 행정: 면허 정지 100일</blockquote>',
+          '<p><strong style="color:#1e3a5f">혈중알코올농도 0.03% 이상 0.08% 미만은 면허 정지 대상입니다</strong></p>\n<p><strong>도로교통법 제44조 제4항</strong>에 따라 혈중알코올농도 0.03% 이상이면 음주운전에 해당할 소지가 있습니다. 이 구간은 형사처벌로 <strong>1년 이하 징역 또는 500만원 이하 벌금</strong>(도로교통법 제148조의2 제3항 제1호)이 법정형입니다. 초범이고 사고가 없으면 통상 벌금 300~500만원 수준에서 약식명령이 나옵니다.</p>\n<p>행정처분은 <strong>면허 정지 100일</strong>입니다. 정지 기간 중 운전하면 무면허운전으로 별도 처벌을 받게 됩니다. 다만 이 구간은 음주운전 교육을 이수하면 정지 기간을 일부 감경받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사: 1년 이하 징역 / 500만원 이하 벌금 | 행정: 면허 정지 100일</blockquote>',
       },
       {
         title: '0.08% 이상 0.2% 미만 — 면허 취소와 실형 가능 구간',
         content:
-          '<p><strong style="color:#1e3a5f">0.08% 이상부터는 면허가 취소되고 처벌이 대폭 강화됩니다</strong></p>\n<p><strong>도로교통법 제148조의2 제3항 제2호</strong>에 따라 혈중알코올농도 0.08% 이상 0.2% 미만이면 <strong>1년 이상 2년 이하 징역 또는 500만원 이상 1,000만원 이하 벌금</strong>에 해당합니다. 초범이라도 약식 벌금이 500만원 이상이 되며, 음주 사고가 수반되면 정식 재판으로 넘어갈 수 있습니다.</p>\n<p>행정처분은 <strong>면허 취소</strong>이며, 결격기간 1년이 적용됩니다. 취소된 면허를 다시 취득하려면 결격기간 경과 후 학과·기능·도로주행 시험을 다시 치러야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사: 1~2년 징역 / 500~1,000만원 벌금 | 행정: 면허 취소(결격 1년)</blockquote>',
+          '<p><strong style="color:#1e3a5f">0.08% 이상부터는 면허가 취소되고 처벌이 대폭 강화됩니다</strong></p>\n<p><strong>도로교통법 제148조의2 제3항 제2호</strong>에 따라 혈중알코올농도 0.08% 이상 0.2% 미만이면 <strong>1년 이상 2년 이하 징역 또는 500만원 이상 1,000만원 이하 벌금</strong>에 해당할 소지가 있습니다. 초범이라도 약식 벌금이 500만원 이상이 되며, 음주 사고가 수반되면 정식 재판으로 넘어갈 수 있습니다.</p>\n<p>행정처분은 <strong>면허 취소</strong>이며, 결격기간 1년이 적용됩니다. 취소된 면허를 다시 취득하려면 결격기간 경과 후 학과·기능·도로주행 시험을 다시 치러야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사: 1~2년 징역 / 500~1,000만원 벌금 | 행정: 면허 취소(결격 1년)</blockquote>',
       },
       {
         title: '0.2% 이상 또는 측정 거부 — 가장 무거운 처벌 구간',
@@ -654,7 +654,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '2회 이상 적발 시 — 가중 처벌과 결격기간 연장',
         content:
-          '<p><strong style="color:#1e3a5f">음주운전 재범은 법정형이 대폭 가중되고 결격기간도 늘어납니다</strong></p>\n<p>10년 이내에 2회 이상 음주운전으로 적발되면 <strong>도로교통법 제148조의2 제1항</strong>에 따라 <strong>2년 이상 5년 이하 징역 또는 1,000만원 이상 2,000만원 이하 벌금</strong>이 부과됩니다. 혈중알코올농도와 관계없이 최고 구간 처벌이 적용되는 것입니다.</p>\n<p>면허 결격기간도 <strong>2년</strong>으로 연장되고, 3회 이상이면 <strong>3년</strong>입니다. 음주운전 전과가 있는 상태에서 다시 적발되면 구속 가능성이 매우 높으므로, 재범 상황이라면 반드시 변호사 선임을 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재범: 혈중농도 불문 2~5년 징역 / 1,000~2,000만원 벌금 | 결격 2~3년</blockquote>',
+          '<p><strong style="color:#1e3a5f">음주운전 재범은 법정형이 대폭 가중되고 결격기간도 늘어납니다</strong></p>\n<p>10년 이내에 2회 이상 음주운전으로 적발되면 <strong>도로교통법 제148조의2 제1항</strong>에 따라 <strong>2년 이상 5년 이하 징역 또는 1,000만원 이상 2,000만원 이하 벌금</strong>이 부과됩니다. 혈중알코올농도와 관계없이 최고 구간 처벌이 적용되는 것입니다.</p>\n<p>면허 결격기간도 <strong>2년</strong>으로 연장되고, 3회 이상이면 <strong>3년</strong>입니다. 음주운전 전과가 있는 상태에서 다시 적발되면 구속 가능성이 매우 높으므로, 재범 상황이라면 가능한 한 변호사 선임을 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">재범: 혈중농도 불문 2~5년 징역 / 1,000~2,000만원 벌금 | 결격 2~3년</blockquote>',
       },
     ],
     cases: [
@@ -742,7 +742,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '3단계: 합의서를 법적으로 유효하게 작성하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의서에는 합의 내용, 처벌 의사, 서명이 반드시 포함되어야 합니다</strong></p>\n<p>합의서에 기재할 핵심 항목은 ①<strong>사고 일시·장소</strong>, ②<strong>합의금 금액과 지급 방법</strong>, ③<strong>피해자의 처벌불원 의사</strong>(「가해자의 처벌을 원하지 않습니다」), ④<strong>양 당사자 서명·날인</strong>입니다. 처벌불원 의사가 명시되어야 법원이 감형 자료로 인정합니다.</p>\n<p>합의금은 현금 지급보다 <strong>계좌이체</strong>로 하여 증거를 남기세요. 가능하면 <strong>공증</strong>을 받아두면 나중에 합의 사실을 부인당할 위험이 줄어듭니다. 합의서 2부를 작성해 각 1부씩 보관합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 기재: 사고 내역 + 합의금 + 처벌불원 의사 + 서명날인 + 지급 증빙</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의서에는 합의 내용, 처벌 의사, 서명이 가능한 한 포함되어야 합니다</strong></p>\n<p>합의서에 기재할 핵심 항목은 ①<strong>사고 일시·장소</strong>, ②<strong>합의금 금액과 지급 방법</strong>, ③<strong>피해자의 처벌불원 의사</strong>(「가해자의 처벌을 원하지 않습니다」), ④<strong>양 당사자 서명·날인</strong>입니다. 처벌불원 의사가 명시되어야 법원이 감형 자료로 인정합니다.</p>\n<p>합의금은 현금 지급보다 <strong>계좌이체</strong>로 하여 증거를 남기세요. 가능하면 <strong>공증</strong>을 받아두면 나중에 합의 사실을 부인당할 위험이 줄어듭니다. 합의서 2부를 작성해 각 1부씩 보관합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 기재: 사고 내역 + 합의금 + 처벌불원 의사 + 서명날인 + 지급 증빙</blockquote>',
       },
       {
         title: '4단계: 합의서를 수사기관·법원에 제출하세요 — 감형의 핵심 자료입니다',
@@ -825,7 +825,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '실수 1·2: 현장 변명과 음주측정 거부',
         content:
-          '<p><strong style="color:#1e3a5f">현장에서 "조금밖에 안 마셨다"는 변명은 음주 사실을 인정하는 증거가 됩니다</strong></p>\n<p>단속 현장에서 당황하여 <strong>"한 잔만 마셨다", "바로 근처인데"</strong>라고 말하는 순간 음주운전 사실을 스스로 인정하는 셈입니다. 경찰 바디캠에 모두 녹화되며, 이후 재판에서 증거로 사용됩니다. 현장에서는 <strong>불필요한 발언을 삼가세요</strong>.</p>\n<p><strong>음주측정 거부</strong>는 더 큰 실수입니다. 도로교통법 제148조의2에 따라 측정 거부 자체가 <strong>1년 이상 6년 이하 징역 또는 500만원 이상 3,000만원 이하 벌금</strong>으로 처벌됩니다. 이는 음주운전 처벌보다 오히려 무거울 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 현장 발언 = 바디캠 증거 | 측정 거부 = 별도 범죄(1~6년 징역)</blockquote>',
+          '<p><strong style="color:#1e3a5f">현장에서 "조금밖에 안 마셨다"는 변명은 음주 사실을 인정하는 증거가 됩니다</strong></p>\n<p>단속 현장에서 당황하여 <strong>"한 잔만 마셨다", "바로 근처인데"</strong>라고 말하는 순간 음주운전 사실을 스스로 인정하는 셈입니다. 경찰 바디캠에 모두 녹화되며, 이후 재판에서 증거로 사용됩니다. 현장에서는 <strong>불필요한 발언을 삼가세요</strong>.</p>\n<p><strong>음주측정 거부</strong>는 더 큰 실수입니다. 도로교통법 제148조의2에 따라 측정 거부 자체가 <strong>1년 이상 6년 이하 징역 또는 500만원 이상 3,000만원 이하 벌금</strong>으로 처벌 대상으로 검토될 수 있습니다. 이는 음주운전 처벌보다 오히려 무거울 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 현장 발언 = 바디캠 증거 | 측정 거부 = 별도 범죄(1~6년 징역)</blockquote>',
       },
       {
         title: '실수 3: SNS에 관련 글을 올리는 것',
@@ -835,7 +835,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '실수 4: 피해자 합의를 미루거나 무시하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">인적 피해가 있는 음주운전에서 합의 여부는 양형에 결정적 영향을 줍니다</strong></p>\n<p>사고로 피해자가 있는 경우, <strong>합의를 미루면 미룰수록</strong> 재판에서 불리해집니다. 검찰과 법원은 "피해 회복 노력"을 중요한 양형 요소로 보기 때문입니다. 특히 <strong>기소 전 합의</strong>가 완료되면 약식기소(벌금형)로 처리될 가능성이 높아집니다.</p>\n<p>합의는 반드시 <strong>변호사를 통해</strong> 진행하세요. 직접 연락하면 피해자에게 부담을 주어 오히려 합의가 어려워집니다. 합의서에는 <strong>처벌불원 의사, 합의 금액, 추가 청구 없음</strong>을 명시해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 기소 전 합의 → 약식기소 가능성↑ | 변호사 통해 진행 | 합의서에 처벌불원 명시</blockquote>',
+          '<p><strong style="color:#1e3a5f">인적 피해가 있는 음주운전에서 합의 여부는 양형에 결정적 영향을 줍니다</strong></p>\n<p>사고로 피해자가 있는 경우, <strong>합의를 미루면 미룰수록</strong> 재판에서 불리해집니다. 검찰과 법원은 "피해 회복 노력"을 중요한 양형 요소로 보기 때문입니다. 특히 <strong>기소 전 합의</strong>가 완료되면 약식기소(벌금형)로 처리될 가능성이 높아집니다.</p>\n<p>합의는 가능한 한 <strong>변호사를 통해</strong> 진행하세요. 직접 연락하면 피해자에게 부담을 주어 오히려 합의가 어려워집니다. 합의서에는 <strong>처벌불원 의사, 합의 금액, 추가 청구 없음</strong>을 명시해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 기소 전 합의 → 약식기소 가능성↑ | 변호사 통해 진행 | 합의서에 처벌불원 명시</blockquote>',
       },
       {
         title: '실수 5: 면허 행정처분을 방치하는 것',
@@ -940,7 +940,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '형사합의와 민사 보상은 별개입니다',
         content:
-          '<p><strong style="color:#1e3a5f">가해자와 형사합의를 했더라도 민사 손해배상은 따로 청구할 수 있습니다</strong></p>\n<p>형사합의는 가해자의 <strong>형사처벌을 감경</strong>하는 데 영향을 주는 것이고, 보험사를 통한 민사 보상과는 별개입니다. 형사합의서에 <strong>"민사상 청구권을 포기한다"는 문구</strong>가 포함되어 있지 않다면, 추가로 민사 소송이 가능합니다.</p>\n<p>다만 형사합의금을 받을 때는 합의서 내용을 <strong>반드시 변호사와 검토</strong>하세요. "일체의 민·형사상 이의를 제기하지 않는다"는 포괄적 문구가 들어가면 민사 보상에 영향을 줄 수 있습니다. 합의서 작성 시 <strong>민사 청구권 유보 조항</strong>을 명시하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형사합의 ≠ 민사 보상 | 합의서에 "민사 청구권 유보" 명시 | 포괄적 권리 포기 문구 주의</blockquote>',
+          '<p><strong style="color:#1e3a5f">가해자와 형사합의를 했더라도 민사 손해배상은 따로 청구할 수 있습니다</strong></p>\n<p>형사합의는 가해자의 <strong>형사처벌을 감경</strong>하는 데 영향을 주는 것이고, 보험사를 통한 민사 보상과는 별개입니다. 형사합의서에 <strong>"민사상 청구권을 포기한다"는 문구</strong>가 포함되어 있지 않다면, 추가로 민사 소송이 가능합니다.</p>\n<p>다만 형사합의금을 받을 때는 합의서 내용을 <strong>가능한 한 변호사와 검토</strong>하세요. "일체의 민·형사상 이의를 제기하지 않는다"는 포괄적 문구가 들어가면 민사 보상에 영향을 줄 수 있습니다. 합의서 작성 시 <strong>민사 청구권 유보 조항</strong>을 명시하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형사합의 ≠ 민사 보상 | 합의서에 "민사 청구권 유보" 명시 | 포괄적 권리 포기 문구 주의</blockquote>',
       },
       {
         title: '무보험·뺑소니 시 정부보장사업을 활용하세요',
@@ -1036,7 +1036,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '행정심판 청구 기한을 반드시 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">면허 취소·정지 처분을 안 날로부터 90일 이내에 청구해야 합니다</strong></p>\n<p><strong>행정심판법 제27조</strong>에 따라 면허 취소·정지 처분이 있음을 <strong>안 날부터 90일</strong>, 처분이 있은 날부터 <strong>180일</strong> 이내에 행정심판을 청구해야 합니다. 이 기간이 지나면 심판 청구 자체가 불가능합니다.</p>\n<p>처분 통지서를 받은 날짜를 반드시 기록해두세요. 우편 수령일이 기산점이 됩니다. 기한이 촉박한 경우 <strong>온라인 행정심판(중앙행정심판위원회 홈페이지)</strong>으로 신속하게 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 처분을 안 날부터 90일 | 처분일부터 180일 | 기한 경과 시 청구 불가</blockquote>',
+          '<p><strong style="color:#1e3a5f">면허 취소·정지 처분을 안 날로부터 90일 이내에 청구해야 합니다</strong></p>\n<p><strong>행정심판법 제27조</strong>에 따라 면허 취소·정지 처분이 있음을 <strong>안 날부터 90일</strong>, 처분이 있은 날부터 <strong>180일</strong> 이내에 행정심판을 청구해야 합니다. 이 기간이 지나면 심판 청구 자체가 불가능합니다.</p>\n<p>처분 통지서를 받은 날짜를 가능한 한 기록해두세요. 우편 수령일이 기산점이 됩니다. 기한이 촉박한 경우 <strong>온라인 행정심판(중앙행정심판위원회 홈페이지)</strong>으로 신속하게 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기한: 처분을 안 날부터 90일 | 처분일부터 180일 | 기한 경과 시 청구 불가</blockquote>',
       },
       {
         title: '행정심판에서 감경받을 수 있는 사유를 준비하세요',
@@ -1136,7 +1136,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '보험사 과실 주장에 적극 대응하세요',
         content:
-          '<p><strong style="color:#1e3a5f">보험사는 보상금을 줄이기 위해 과실을 높게 주장하는 경우가 많습니다</strong></p>\n<p>보험사의 과실 산정은 <strong>법적 구속력이 없습니다</strong>. 보험사가 제시하는 과실비율에 동의하지 않으면 ①<strong>손해사정사</strong>에게 별도 감정을 의뢰하거나, ②<strong>교통사고 과실비율 분쟁심의위원회</strong>(손해보험협회)에 심의를 청구할 수 있습니다.</p>\n<p>CCTV 영상, 블랙박스 영상, 사고 현장 사진, 목격자 진술 등 <strong>객관적 증거</strong>를 확보하세요. 특히 <strong>사고 당시 가해자의 혈중알코올농도</strong> 자료는 과실 산정에 결정적입니다. 경찰 사고조사 결과보고서도 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 보험사 과실에 동의 금지 | 손해사정사 감정 | 분쟁심의위원회 청구</blockquote>',
+          '<p><strong style="color:#1e3a5f">보험사는 보상금을 줄이기 위해 과실을 높게 주장하는 경우가 많습니다</strong></p>\n<p>보험사의 과실 산정은 <strong>법적 구속력이 없습니다</strong>. 보험사가 제시하는 과실비율에 동의하지 않으면 ①<strong>손해사정사</strong>에게 별도 감정을 의뢰하거나, ②<strong>교통사고 과실비율 분쟁심의위원회</strong>(손해보험협회)에 심의를 청구할 수 있습니다.</p>\n<p>CCTV 영상, 블랙박스 영상, 사고 현장 사진, 목격자 진술 등 <strong>객관적 증거</strong>를 확보하세요. 특히 <strong>사고 당시 가해자의 혈중알코올농도</strong> 자료는 과실 산정에 결정적입니다. 경찰 사고조사 결과보고서도 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 보험사 과실에 동의 금지 | 손해사정사 감정 | 분쟁심의위원회 청구</blockquote>',
       },
       {
         title: '과실 상계 후에도 받을 수 있는 보상을 확인하세요',
@@ -1313,7 +1313,7 @@ export const duiPages: SpokePage[] = [
       {
         title: '적발 직후 — 측정 결과와 조서 내용을 반드시 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">혈중알코올농도 수치와 조서 기재 내용이 모든 것의 출발점입니다</strong></p>\n<p><strong>도로교통법 제44조</strong>에 따라 경찰은 호흡 측정 또는 혈액 채취로 혈중알코올농도를 측정합니다. 측정 결과지를 반드시 수령하고, 수치를 정확히 기록해두세요. 경찰 조서에는 음주 시작·종료 시간, 음주량, 주행 거리, 사고 여부 등이 기재됩니다.</p>\n<p>조서 작성 시 불리한 진술을 강요받을 필요는 없습니다. <strong>형사소송법상 진술거부권</strong>이 있으며, 조서에 서명하기 전에 기재 내용을 반드시 확인하세요. 사실과 다른 내용이 있으면 정정을 요구할 수 있습니다. 이 단계에서 기록한 정보가 이후 행정심판과 형사재판 모두에 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">측정 결과지 수령 | 조서 내용 확인 후 서명 | 음주 시간·양·주행 거리 메모</blockquote>',
+          '<p><strong style="color:#1e3a5f">혈중알코올농도 수치와 조서 기재 내용이 모든 것의 출발점입니다</strong></p>\n<p><strong>도로교통법 제44조</strong>에 따라 경찰은 호흡 측정 또는 혈액 채취로 혈중알코올농도를 측정합니다. 측정 결과지를 가능한 한 수령하고, 수치를 정확히 기록해두세요. 경찰 조서에는 음주 시작·종료 시간, 음주량, 주행 거리, 사고 여부 등이 기재됩니다.</p>\n<p>조서 작성 시 불리한 진술을 강요받을 필요는 없습니다. <strong>형사소송법상 진술거부권</strong>이 있으며, 조서에 서명하기 전에 기재 내용을 가능한 한 확인하세요. 사실과 다른 내용이 있으면 정정을 요구할 수 있습니다. 이 단계에서 기록한 정보가 이후 행정심판과 형사재판 모두에 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">측정 결과지 수령 | 조서 내용 확인 후 서명 | 음주 시간·양·주행 거리 메모</blockquote>',
       },
       {
         title: '48시간 이내 — 면허 처분과 행정절차를 파악하세요',
@@ -1344,7 +1344,7 @@ export const duiPages: SpokePage[] = [
         summary:
           '관련 사례에서도 최초 조서에 기재된 음주량이 실제보다 과다하게 기록되어 있었으나, 피의자가 정정을 요구하여 수정된 경우가 있습니다. 조서의 음주량 기재는 위드마크 공식 적용에 영향을 미칩니다.',
         takeaway:
-          '비슷한 상황이라면 조서에 서명하기 전에 기재 내용을 꼼꼼히 확인하고, 사실과 다른 부분은 반드시 정정을 요구하세요.',
+          '비슷한 상황이라면 조서에 서명하기 전에 기재 내용을 꼼꼼히 확인하고, 사실과 다른 부분은 가능한 한 정정을 요구하세요.',
       },
     ],
     faq: [

@@ -43,7 +43,7 @@ export const spokesBatch21_29to35: SpokePage[] = [
       {
         title: '지금 당장 해야 할 3가지 행동',
         content:
-          '<p><strong style="color:#1e3a5f">위급한 상황에서는 다음 순서대로 행동하세요</strong></p>\n<ul>\n<li><strong>1. 112 신고</strong> — "스토킹 피해입니다. 긴급응급조치를 요청합니다"라고 명확히 말하세요. 스토킹이라는 단어를 반드시 사용하세요</li>\n<li><strong>2. 안전한 장소로 이동</strong> — 편의점, 경비실, 이웃집 등 사람이 있는 곳으로 이동하세요. 혼자 있지 마세요</li>\n<li><strong>3. 증거 확보</strong> — 가능하다면 가해자의 행위를 녹음·촬영하세요. 어려우면 112 통화 녹음만으로도 증거가 됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 위험한 상황이라면</strong><br/>\n<a href="/diagnosis/stalking" style="color:#1565c0;font-weight:600">스토킹 피해 긴급 대응 무료 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">위급한 상황에서는 다음 순서대로 행동하세요</strong></p>\n<ul>\n<li><strong>1. 112 신고</strong> — "스토킹 피해입니다. 긴급응급조치를 요청합니다"라고 명확히 말하세요. 스토킹이라는 단어를 가능한 한 사용하세요</li>\n<li><strong>2. 안전한 장소로 이동</strong> — 편의점, 경비실, 이웃집 등 사람이 있는 곳으로 이동하세요. 혼자 있지 마세요</li>\n<li><strong>3. 증거 확보</strong> — 가능하다면 가해자의 행위를 녹음·촬영하세요. 어려우면 112 통화 녹음만으로도 증거가 됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 위험한 상황이라면</strong><br/>\n<a href="/diagnosis/stalking" style="color:#1565c0;font-weight:600">스토킹 피해 긴급 대응 무료 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '긴급응급조치 이후 — 잠정조치로 보호 강화',

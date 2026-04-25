@@ -127,7 +127,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '유족급여 수급 자격과 순위',
         content:
-          '<p><strong style="color:#1e3a5f">산업재해보상보험법 제62조에 따르면 근로자가 업무상 재해로 사망한 경우 유족에게 유족급여를 지급합니다</strong></p>\n<p>유족급여 수급권자의 순위는 법률로 정해져 있습니다.</p>\n<ul>\n<li><strong>1순위</strong> — 배우자(사실혼 포함). 근로자 사망 당시 그에 의해 부양되고 있던 배우자가 최우선 수급권자입니다</li>\n<li><strong>2순위</strong> — 자녀. 25세 미만이거나 장애인인 자녀가 해당합니다</li>\n<li><strong>3순위</strong> — 부모. 60세 이상이거나 장애인인 경우에 해당합니다</li>\n<li><strong>4순위</strong> — 손자녀, 조부모, 형제자매 순서로 수급 자격이 부여됩니다</li>\n</ul>\n<p><strong>부양 요건:</strong> 근로자 사망 당시 근로자의 수입으로 생계를 같이하고 있던 유족에게 우선권이 있습니다. 동일 순위가 2명 이상이면 균등하게 분배됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">수급 순위: 배우자 → 자녀 → 부모 → 손자녀·조부모·형제자매</blockquote>',
+          '<p><strong style="color:#1e3a5f">산업재해보상보험법 제62조에 따르면 근로자가 업무상 재해로 사망한 경우 유족에게 유족급여를 지급합니다</strong></p>\n<p>유족급여 수급권자의 순위는 법률로 정해져 있습니다.</p>\n<ul>\n<li><strong>1순위</strong> — 배우자(사실혼 포함). 근로자 사망 당시 그에 의해 부양되고 있던 배우자가 최우선 수급권자입니다</li>\n<li><strong>2순위</strong> — 자녀. 25세 미만이거나 장애인인 자녀가 해당합니다</li>\n<li><strong>3순위</strong> — 부모. 60세 이상이거나 장애인인 경우에 해당할 소지가 있습니다</li>\n<li><strong>4순위</strong> — 손자녀, 조부모, 형제자매 순서로 수급 자격이 부여됩니다</li>\n</ul>\n<p><strong>부양 요건:</strong> 근로자 사망 당시 근로자의 수입으로 생계를 같이하고 있던 유족에게 우선권이 있습니다. 동일 순위가 2명 이상이면 균등하게 분배됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">수급 순위: 배우자 → 자녀 → 부모 → 손자녀·조부모·형제자매</blockquote>',
       },
       {
         title: '연금형 vs 일시금형 선택 기준',
@@ -137,7 +137,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '장의비와 추가 보상',
         content:
-          '<p><strong style="color:#1e3a5f">유족급여 외에도 장의비, 사업주 손해배상 등 추가 보상을 받을 수 있습니다</strong></p>\n<ul>\n<li><strong>장의비</strong> — 평균임금의 120일분을 장례를 치른 유족에게 지급합니다. 유족급여와 별도로 지급되므로 반드시 함께 청구하세요</li>\n<li><strong>사업주 손해배상</strong> — 사업주의 안전조치 의무 위반이 사망 원인인 경우, 산재보험 급여와 별도로 사업주를 상대로 민사 손해배상을 청구할 수 있습니다. 위자료와 일실수입 중 산재보험으로 보전되지 않은 부분을 청구합니다</li>\n<li><strong>제3자 손해배상</strong> — 제3자의 행위로 사고가 발생한 경우 그 제3자에게도 손해배상을 청구할 수 있습니다. 산재보험 급여를 받더라도 부족분은 추가 청구가 가능합니다</li>\n<li><strong>특별유족급여</strong> — 진폐 등 직업성 질병으로 사망한 경우, 요건을 충족하면 특별유족급여를 추가로 받을 수 있습니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">추가 보상: 장의비(120일분) + 사업주 손해배상 + 제3자 배상 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">유족급여 외에도 장의비, 사업주 손해배상 등 추가 보상을 받을 수 있습니다</strong></p>\n<ul>\n<li><strong>장의비</strong> — 평균임금의 120일분을 장례를 치른 유족에게 지급합니다. 유족급여와 별도로 지급되므로 가능한 한 함께 청구하세요</li>\n<li><strong>사업주 손해배상</strong> — 사업주의 안전조치 의무 위반이 사망 원인인 경우, 산재보험 급여와 별도로 사업주를 상대로 민사 손해배상을 청구할 수 있습니다. 위자료와 일실수입 중 산재보험으로 보전되지 않은 부분을 청구합니다</li>\n<li><strong>제3자 손해배상</strong> — 제3자의 행위로 사고가 발생한 경우 그 제3자에게도 손해배상을 청구할 수 있습니다. 산재보험 급여를 받더라도 부족분은 추가 청구가 가능합니다</li>\n<li><strong>특별유족급여</strong> — 진폐 등 직업성 질병으로 사망한 경우, 요건을 충족하면 특별유족급여를 추가로 받을 수 있습니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">추가 보상: 장의비(120일분) + 사업주 손해배상 + 제3자 배상 가능</blockquote>',
       },
       {
         title: '불승인 시 불복 절차',
@@ -151,7 +151,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
         summary:
           '대법원 2023다297141 사건(대법원, 2024.08.22 선고)에서 법원은 산재보험 급여를 받았더라도 사업주의 안전배려의무 위반이 인정되면 유족이 산재보험으로 보전되지 않은 손해에 대해 별도로 사업주에게 손해배상을 청구할 수 있다고 판시했습니다.',
         takeaway:
-          '산재보험 급여와 별도로 사업주 책임이 있다면 추가 손해배상이 가능합니다. 유족급여를 받은 뒤에도 사업주 과실이 있는지 반드시 확인하세요.',
+          '산재보험 급여와 별도로 사업주 책임이 있다면 추가 손해배상이 가능합니다. 유족급여를 받은 뒤에도 사업주 과실이 있는지 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -216,7 +216,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '직업병 인정 5가지 핵심 기준',
         content:
-          '<p><strong style="color:#1e3a5f">산업재해보상보험법 시행령 별표 3에 업무상 질병의 인정 기준이 구체적으로 열거되어 있습니다</strong></p>\n<p>직업병으로 산재 인정을 받으려면 아래 5가지를 종합적으로 판단합니다.</p>\n<ul>\n<li><strong>유해인자 노출</strong> — 업무 환경에서 화학물질, 분진, 소음, 진동, 반복 동작 등 질병을 유발할 수 있는 유해인자에 노출되었는지 확인합니다</li>\n<li><strong>노출 기간과 강도</strong> — 유해인자에 충분한 기간 동안 일정 수준 이상 노출되었는지가 중요합니다. 단기간 노출로도 발병할 수 있는 급성 중독과, 수년간 노출이 필요한 만성 질환을 구분합니다</li>\n<li><strong>의학적 인과관계</strong> — 해당 유해인자가 그 질병을 유발할 수 있다는 의학적 근거가 있어야 합니다. 다만 반드시 명확한 증명이 아니라 상당인과관계가 있으면 인정됩니다</li>\n<li><strong>발병 시점</strong> — 유해인자 노출 시작 후 의학적으로 타당한 시기에 발병했는지 확인합니다. 퇴직 후 발병한 경우에도 잠복기가 인정되면 산재로 인정됩니다</li>\n<li><strong>다른 원인 배제</strong> — 개인적 질환이나 업무 외 원인만으로 발병했다고 볼 수 없어야 합니다. 다만 업무상 원인이 다른 원인과 복합적으로 작용한 경우에도 인정될 수 있습니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">5가지 기준: 유해인자 노출 + 노출 기간·강도 + 의학적 인과관계 + 발병 시점 + 다른 원인 배제</blockquote>',
+          '<p><strong style="color:#1e3a5f">산업재해보상보험법 시행령 별표 3에 업무상 질병의 인정 기준이 구체적으로 열거되어 있습니다</strong></p>\n<p>직업병으로 산재 인정을 받으려면 아래 5가지를 종합적으로 판단합니다.</p>\n<ul>\n<li><strong>유해인자 노출</strong> — 업무 환경에서 화학물질, 분진, 소음, 진동, 반복 동작 등 질병을 유발할 수 있는 유해인자에 노출되었는지 확인합니다</li>\n<li><strong>노출 기간과 강도</strong> — 유해인자에 충분한 기간 동안 일정 수준 이상 노출되었는지가 중요합니다. 단기간 노출로도 발병할 수 있는 급성 중독과, 수년간 노출이 필요한 만성 질환을 구분합니다</li>\n<li><strong>의학적 인과관계</strong> — 해당 유해인자가 그 질병을 유발할 수 있다는 의학적 근거가 있어야 합니다. 다만 가능한 한 명확한 증명이 아니라 상당인과관계가 있으면 인정될 수 있습니다</li>\n<li><strong>발병 시점</strong> — 유해인자 노출 시작 후 의학적으로 타당한 시기에 발병했는지 확인합니다. 퇴직 후 발병한 경우에도 잠복기가 인정되면 산재로 인정될 수 있습니다</li>\n<li><strong>다른 원인 배제</strong> — 개인적 질환이나 업무 외 원인만으로 발병했다고 볼 수 없어야 합니다. 다만 업무상 원인이 다른 원인과 복합적으로 작용한 경우에도 인정될 수 있습니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">5가지 기준: 유해인자 노출 + 노출 기간·강도 + 의학적 인과관계 + 발병 시점 + 다른 원인 배제</blockquote>',
       },
       {
         title: '주요 직업병 유형과 인정 사례',
@@ -257,7 +257,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         question: '근골격계 질환(허리디스크)도 직업병으로 인정되나요?',
         answer:
-          '<strong>반복적인 중량물 취급, 부적절한 작업 자세 등 업무상 원인이 인정되면 근골격계 질환도 직업병으로 인정됩니다.</strong> 단, 퇴행성 변화(노화)와의 구별이 쟁점이 되므로 업무 내용과 근무 기간을 구체적으로 입증해야 합니다.',
+          '<strong>반복적인 중량물 취급, 부적절한 작업 자세 등 업무상 원인이 인정되면 근골격계 질환도 직업병으로 인정될 수 있습니다.</strong> 단, 퇴행성 변화(노화)와의 구별이 쟁점이 되므로 업무 내용과 근무 기간을 구체적으로 입증해야 합니다.',
       },
       {
         question: '특수건강검진에서 이상이 발견되면 바로 산재 신청이 되나요?',
@@ -399,7 +399,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '등급별 연금 금액 기준',
         content:
-          '<p><strong style="color:#1e3a5f">상병보상연금은 폐질등급에 따라 금액이 달라지며, 휴업급여(70%)보다 높은 비율로 지급됩니다</strong></p>\n<ul>\n<li><strong>제1급</strong> — 평균임금의 329일분(연액). 월 기준으로 환산하면 평균임금의 약 90%에 해당합니다</li>\n<li><strong>제2급</strong> — 평균임금의 291일분(연액). 월 기준으로 환산하면 평균임금의 약 80%에 해당합니다</li>\n<li><strong>제3급</strong> — 평균임금의 257일분(연액). 월 기준으로 환산하면 평균임금의 약 70%에 해당합니다</li>\n</ul>\n<p><strong>계산 예시:</strong> 평균임금이 1일 10만 원인 근로자가 제1급 판정을 받으면, 연간 3,290만 원(10만 원 &times; 329일), 월 약 274만 원을 수령합니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 상병보상연금 금액이 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 상병보상연금 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">상병보상연금은 폐질등급에 따라 금액이 달라지며, 휴업급여(70%)보다 높은 비율로 지급됩니다</strong></p>\n<ul>\n<li><strong>제1급</strong> — 평균임금의 329일분(연액). 월 기준으로 환산하면 평균임금의 약 90%에 해당할 소지가 있습니다</li>\n<li><strong>제2급</strong> — 평균임금의 291일분(연액). 월 기준으로 환산하면 평균임금의 약 80%에 해당할 소지가 있습니다</li>\n<li><strong>제3급</strong> — 평균임금의 257일분(연액). 월 기준으로 환산하면 평균임금의 약 70%에 해당할 소지가 있습니다</li>\n</ul>\n<p><strong>계산 예시:</strong> 평균임금이 1일 10만 원인 근로자가 제1급 판정을 받으면, 연간 3,290만 원(10만 원 &times; 329일), 월 약 274만 원을 수령합니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 상병보상연금 금액이 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 상병보상연금 무료 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '전환 절차와 시점',
@@ -483,7 +483,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '과태료 vs 벌금 — 행정 vs 형사 제재 구분',
         content:
-          '<p><strong style="color:#1e3a5f">과태료는 행정 제재이고 벌금은 형사 처벌입니다. 혐의를 받고 있다면 어떤 제재에 해당하는지부터 구분해야 합니다</strong></p>\n<ul>\n<li><strong>과태료</strong> — 행정법상 의무 위반에 대한 금전적 제재입니다. 전과 기록이 남지 않습니다. 산업안전보건법상 서류 미비, 교육 미실시, 신고 의무 위반 등이 과태료 대상입니다</li>\n<li><strong>벌금</strong> — 형사 처벌로, 유죄 판결 시 전과 기록이 남습니다. 안전조치 의무 위반으로 근로자가 다치거나 사망한 경우 벌금 또는 징역형이 부과됩니다</li>\n<li><strong>중복 부과</strong> — 같은 위반행위에 대해 과태료와 벌금이 동시에 부과되지는 않습니다. 형사 처벌이 진행되면 과태료 부과가 면제될 수 있습니다</li>\n<li><strong>양벌규정</strong> — 위반행위를 한 사람(안전관리자, 현장소장 등)뿐 아니라 사업주(법인)도 함께 처벌받습니다. 법인에게는 벌금형이, 행위자에게는 징역형 또는 벌금형이 부과됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 구분: 과태료 = 행정 제재(전과 없음) / 벌금 = 형사 처벌(전과 기록)</blockquote>',
+          '<p><strong style="color:#1e3a5f">과태료는 행정 제재이고 벌금은 형사 처벌입니다. 혐의를 받고 있다면 어떤 제재에 해당하는지부터 구분해야 합니다</strong></p>\n<ul>\n<li><strong>과태료</strong> — 행정법상 의무 위반에 대한 금전적 제재입니다. 전과 기록이 남지 않습니다. 산업안전보건법상 서류 미비, 교육 미실시, 신고 의무 위반 등이 과태료 대상입니다</li>\n<li><strong>벌금</strong> — 형사 처벌로, 유죄 판결 시 전과 기록이 남습니다. 안전조치 의무 위반으로 근로자가 다치거나 사망한 경우 벌금 또는 징역형이 부과됩니다</li>\n<li><strong>중복 부과</strong> — 같은 위반행위에 대해 과태료와 벌금이 동시에 부과되지는 않습니다. 형사 처벌이 진행되면 과태료 부과가 면제될 수 있습니다</li>\n<li><strong>양벌규정</strong> — 위반행위를 한 사람(안전관리자, 현장소장 등)뿐 아니라 사업주(법인)도 함께 처벌 대상으로 검토될 수 있습니다. 법인에게는 벌금형이, 행위자에게는 징역형 또는 벌금형이 부과됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 구분: 과태료 = 행정 제재(전과 없음) / 벌금 = 형사 처벌(전과 기록)</blockquote>',
       },
       {
         title: '주요 위반유형별 과태료 금액',
@@ -524,7 +524,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         question: '안전관리자를 선임하지 않으면 과태료가 얼마인가요?',
         answer:
-          '안전관리자 미선임 시 <strong>과태료 500만 원</strong>이 부과됩니다. 보건관리자, 안전보건관리책임자도 각각 미선임 시 동일한 과태료가 부과되므로, 법정 선임 의무를 반드시 확인하세요.',
+          '안전관리자 미선임 시 <strong>과태료 500만 원</strong>이 부과됩니다. 보건관리자, 안전보건관리책임자도 각각 미선임 시 동일한 과태료가 부과되므로, 법정 선임 의무를 가능한 한 확인하세요.',
       },
       {
         question: '근로감독 전에 서류를 보완하면 과태료를 피할 수 있나요?',
@@ -572,7 +572,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '위험성평가 사업주 의무 5가지 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">산업안전보건법 제36조에 따라 사업주는 유해·위험요인을 찾아내어 위험성을 결정하고 필요한 조치를 해야 합니다</strong></p>\n<p>혐의를 받고 있다면 아래 5가지를 이행했는지 즉시 점검하세요.</p>\n<ul>\n<li><strong>최초 위험성평가 실시</strong> — 사업 개시 시 또는 새로운 유해·위험요인이 발생한 때 최초 위험성평가를 실시해야 합니다. 사업장 전체의 유해·위험요인을 빠짐없이 파악하는 것이 핵심입니다</li>\n<li><strong>정기 위험성평가</strong> — 최초 평가 이후 매년 1회 이상 정기적으로 재실시해야 합니다. 전년도 평가 결과를 검토하고 변경 사항을 반영합니다</li>\n<li><strong>수시 위험성평가</strong> — 산업재해 발생, 설비 변경, 새로운 유해물질 도입 시 즉시 수시 평가를 실시해야 합니다</li>\n<li><strong>근로자 참여</strong> — 위험성평가 시 해당 작업에 종사하는 근로자를 반드시 참여시켜야 합니다. 근로자 의견 청취 기록이 없으면 적법한 평가로 인정되지 않을 수 있습니다</li>\n<li><strong>기록 보존</strong> — 위험성평가 결과와 조치 내용을 문서로 기록하고 3년간 보존해야 합니다. 전자문서도 인정됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">5가지 체크: 최초 평가 + 정기 평가(매년) + 수시 평가 + 근로자 참여 + 기록 보존(3년)</blockquote>',
+          '<p><strong style="color:#1e3a5f">산업안전보건법 제36조에 따라 사업주는 유해·위험요인을 찾아내어 위험성을 결정하고 필요한 조치를 해야 합니다</strong></p>\n<p>혐의를 받고 있다면 아래 5가지를 이행했는지 즉시 점검하세요.</p>\n<ul>\n<li><strong>최초 위험성평가 실시</strong> — 사업 개시 시 또는 새로운 유해·위험요인이 발생한 때 최초 위험성평가를 실시해야 합니다. 사업장 전체의 유해·위험요인을 빠짐없이 파악하는 것이 핵심입니다</li>\n<li><strong>정기 위험성평가</strong> — 최초 평가 이후 매년 1회 이상 정기적으로 재실시해야 합니다. 전년도 평가 결과를 검토하고 변경 사항을 반영합니다</li>\n<li><strong>수시 위험성평가</strong> — 산업재해 발생, 설비 변경, 새로운 유해물질 도입 시 즉시 수시 평가를 실시해야 합니다</li>\n<li><strong>근로자 참여</strong> — 위험성평가 시 해당 작업에 종사하는 근로자를 가능한 한 참여시켜야 합니다. 근로자 의견 청취 기록이 없으면 적법한 평가로 인정되지 않을 수 있습니다</li>\n<li><strong>기록 보존</strong> — 위험성평가 결과와 조치 내용을 문서로 기록하고 3년간 보존해야 합니다. 전자문서도 인정될 수 있습니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">5가지 체크: 최초 평가 + 정기 평가(매년) + 수시 평가 + 근로자 참여 + 기록 보존(3년)</blockquote>',
       },
       {
         title: '미이행 시 제재와 벌금',
@@ -596,7 +596,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
         summary:
           '대법원 2025도15060 사건(대법원, 2025.10.23 선고)에서 법원은 중대재해처벌법상 안전보건관리체계 구축 의무에는 위험성평가 실시가 핵심 요소로 포함되며, 경영책임자가 위험성평가 체계를 마련하지 않은 것은 법 제4조의 안전보건 확보 의무를 이행하지 않은 것에 해당한다고 판시했습니다.',
         takeaway:
-          '위험성평가는 중대재해처벌법 이행의 핵심 증거입니다. 형식적 서류가 아니라 실질적으로 위험요인을 파악하고 대책을 수립한 기록이 있어야 안전보건관리체계를 구축한 것으로 인정됩니다.',
+          '위험성평가는 중대재해처벌법 이행의 핵심 증거입니다. 형식적 서류가 아니라 실질적으로 위험요인을 파악하고 대책을 수립한 기록이 있어야 안전보건관리체계를 구축한 것으로 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -623,7 +623,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         question: '건설 현장도 위험성평가를 해야 하나요?',
         answer:
-          '<strong>건설 현장은 공종 변경이 잦아 수시 위험성평가가 특히 중요합니다.</strong> 공사 착공 전 최초 평가, 공종 변경 시 수시 평가를 실시해야 합니다. 건설업은 사고 빈도가 높아 위험성평가 미이행 시 더 엄격하게 처벌됩니다.',
+          '<strong>건설 현장은 공종 변경이 잦아 수시 위험성평가가 특히 중요합니다.</strong> 공사 착공 전 최초 평가, 공종 변경 시 수시 평가를 실시해야 합니다. 건설업은 사고 빈도가 높아 위험성평가 미이행 시 더 엄격하게 처벌 대상으로 검토될 수 있습니다.',
       },
     ],
     cta: {

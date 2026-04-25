@@ -36,7 +36,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '파트타임도 퇴직금 대상: 핵심 요건 2가지',
         content:
-          '<p><strong style="color:#1e3a5f">주 15시간 이상 근무하며 1년 이상 계속 근로한 파트타임 근로자는 퇴직금을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>주 15시간 기준</strong> — 4주를 평균하여 소정근로시간이 주 15시간 이상이면 퇴직금 대상입니다. 주마다 근무시간이 다르더라도 4주 평균으로 판단합니다</li>\n<li><strong>1년 이상 계속근로</strong> — 입사일부터 퇴사일까지 1년 이상이면 충족합니다. 중간에 계약 갱신이 있어도 실질적으로 계속 근무했다면 합산됩니다</li>\n<li><strong>고용형태 무관</strong> — 시급제, 일급제, 아르바이트 명목이어도 근로계약관계가 인정되면 퇴직금 대상입니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "알바라서 퇴직금이 없다"는 것은 법적 근거가 없습니다. 주 15시간 이상 + 1년 이상이면 반드시 퇴직금을 받을 수 있습니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">주 15시간 이상 근무하며 1년 이상 계속 근로한 파트타임 근로자는 퇴직금을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>주 15시간 기준</strong> — 4주를 평균하여 소정근로시간이 주 15시간 이상이면 퇴직금 대상입니다. 주마다 근무시간이 다르더라도 4주 평균으로 판단합니다</li>\n<li><strong>1년 이상 계속근로</strong> — 입사일부터 퇴사일까지 1년 이상이면 충족합니다. 중간에 계약 갱신이 있어도 실질적으로 계속 근무했다면 합산됩니다</li>\n<li><strong>고용형태 무관</strong> — 시급제, 일급제, 아르바이트 명목이어도 근로계약관계가 인정되면 퇴직금 대상입니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "알바라서 퇴직금이 없다"는 것은 법적 근거가 없습니다. 주 15시간 이상 + 1년 이상이면 가능한 한 퇴직금을 받을 수 있습니다</blockquote>',
       },
       {
         title: '파트타임 퇴직금 계산법: 평균임금 × 근속연수',
@@ -118,7 +118,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '근속기간: 출산·육아휴직 기간 전부 포함',
         content:
-          '<p><strong style="color:#1e3a5f">출산전후휴가, 유산·사산휴가, 육아휴직 기간은 모두 계속근로기간에 포함됩니다.</strong></p>\n<ul>\n<li><strong>출산전후휴가(90일)</strong> — 근로기준법 제74조에 따른 법정 휴가로 근속기간에 당연 포함됩니다</li>\n<li><strong>육아휴직(최대 1년)</strong> — 남녀고용평등법 제19조에 따라 육아휴직 기간도 근속기간에 포함됩니다</li>\n<li><strong>배우자 출산휴가(10일)</strong> — 근로기준법 제18조의2에 따른 법정 휴가로 마찬가지로 근속기간에 산입됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 휴직 기간이 근속연수에서 빠진다면 이는 위법입니다. 퇴직금 산정 시 반드시 포함되어야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">출산전후휴가, 유산·사산휴가, 육아휴직 기간은 모두 계속근로기간에 포함됩니다.</strong></p>\n<ul>\n<li><strong>출산전후휴가(90일)</strong> — 근로기준법 제74조에 따른 법정 휴가로 근속기간에 당연 포함됩니다</li>\n<li><strong>육아휴직(최대 1년)</strong> — 남녀고용평등법 제19조에 따라 육아휴직 기간도 근속기간에 포함됩니다</li>\n<li><strong>배우자 출산휴가(10일)</strong> — 근로기준법 제18조의2에 따른 법정 휴가로 마찬가지로 근속기간에 산입됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 휴직 기간이 근속연수에서 빠진다면 이는 위법입니다. 퇴직금 산정 시 가능한 한 포함되어야 합니다</blockquote>',
       },
       {
         title: '평균임금 산정: 휴직 기간은 제외하고 계산',
@@ -128,7 +128,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '회사가 휴직 기간을 퇴직금에서 빼면 어떻게 대응할까',
         content:
-          '<p><strong style="color:#1e3a5f">출산·육아휴직 기간을 근속기간에서 제외한 퇴직금 산정은 위법이며, 차액을 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>차액 계산</strong> — 회사가 산정한 퇴직금과 휴직 기간을 포함한 정확한 퇴직금의 차이를 산출합니다</li>\n<li><strong>내용증명 발송</strong> — 차액 지급을 요구하는 내용증명을 회사에 보냅니다</li>\n<li><strong>노동청 진정</strong> — 14일 내 미지급 시 임금체불로 고용노동지청에 진정합니다</li>\n<li><strong>노동위원회 구제신청</strong> — 부당해고 등과 연계된 경우 노동위원회에도 구제신청이 가능합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 퇴직금 영수증에 서명하기 전 반드시 근속기간에 휴직 기간이 포함되어 있는지 확인하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">출산·육아휴직 기간을 근속기간에서 제외한 퇴직금 산정은 위법이며, 차액을 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>차액 계산</strong> — 회사가 산정한 퇴직금과 휴직 기간을 포함한 정확한 퇴직금의 차이를 산출합니다</li>\n<li><strong>내용증명 발송</strong> — 차액 지급을 요구하는 내용증명을 회사에 보냅니다</li>\n<li><strong>노동청 진정</strong> — 14일 내 미지급 시 임금체불로 고용노동지청에 진정합니다</li>\n<li><strong>노동위원회 구제신청</strong> — 부당해고 등과 연계된 경우 노동위원회에도 구제신청이 가능합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 퇴직금 영수증에 서명하기 전 가능한 한 근속기간에 휴직 기간이 포함되어 있는지 확인하세요</blockquote>',
       },
     ],
     cases: [
@@ -159,7 +159,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         question: '둘째 출산으로 연속 휴직을 했는데 근속기간이 끊기나요?',
         answer:
-          '<strong>연속 휴직이라도 근속기간은 끊기지 않습니다.</strong> 첫째 육아휴직 종료 직후 둘째 출산휴가를 연이어 사용해도 전체 기간이 계속근로기간으로 인정됩니다.',
+          '<strong>연속 휴직이라도 근속기간은 끊기지 않습니다.</strong> 첫째 육아휴직 종료 직후 둘째 출산휴가를 연이어 사용해도 전체 기간이 계속근로기간으로 인정될 수 있습니다.',
       },
       {
         question: '퇴직금 정산서를 이미 받았는데 휴직 기간이 빠져 있으면 어떻게 하나요?',
@@ -210,7 +210,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '사업주 거부 시 실전 대응법',
         content:
-          '<p><strong style="color:#1e3a5f">소규모 사업장이라도 퇴직금 미지급은 형사처벌 대상이며 적극 대응이 가능합니다.</strong></p>\n<ul>\n<li><strong>증거 확보</strong> — 근로계약서가 없더라도 급여 입금 내역, 출근 사진, 카카오톡 업무 지시 내역 등으로 근로관계를 증명할 수 있습니다</li>\n<li><strong>노동청 진정</strong> — 관할 고용노동지청에 무료로 진정서를 제출합니다. 근로감독관이 사업장을 조사합니다</li>\n<li><strong>형사처벌</strong> — 퇴직금 미지급은 3년 이하 징역 또는 3,000만원 이하 벌금에 해당합니다</li>\n<li><strong>소액사건심판</strong> — 체불금이 3,000만원 이하면 소액사건심판으로 빠르게 판결을 받을 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 소규모 사업장일수록 근로계약서 없이 구두 계약하는 경우가 많으므로 근무 증빙 자료를 평소에 보관하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">소규모 사업장이라도 퇴직금 미지급은 형사처벌 대상이며 적극 대응이 가능합니다.</strong></p>\n<ul>\n<li><strong>증거 확보</strong> — 근로계약서가 없더라도 급여 입금 내역, 출근 사진, 카카오톡 업무 지시 내역 등으로 근로관계를 증명할 수 있습니다</li>\n<li><strong>노동청 진정</strong> — 관할 고용노동지청에 무료로 진정서를 제출합니다. 근로감독관이 사업장을 조사합니다</li>\n<li><strong>형사처벌</strong> — 퇴직금 미지급은 3년 이하 징역 또는 3,000만원 이하 벌금에 해당할 소지가 있습니다</li>\n<li><strong>소액사건심판</strong> — 체불금이 3,000만원 이하면 소액사건심판으로 빠르게 판결을 받을 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 소규모 사업장일수록 근로계약서 없이 구두 계약하는 경우가 많으므로 근무 증빙 자료를 평소에 보관하세요</blockquote>',
       },
     ],
     cases: [
@@ -296,7 +296,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
         summary:
           '대법원 2021다248299 사건(대법원, 2026.01.29 선고)에서 법원은 사용자가 근로자에게 지급하는 금품이 임금에 해당하려면 근로의 대가로 지급되는 것이어야 하고, 계속적·정기적으로 지급되며 단체협약·취업규칙 등에 의해 사용자에게 지급의무가 있어야 한다고 판시했습니다.',
         takeaway:
-          '성과급이 매년 관행적으로 전 직원에게 지급되어 왔다면 "근로의 대가"에 해당하여 퇴직금 산정 시 반드시 포함시켜야 합니다.',
+          '성과급이 매년 관행적으로 전 직원에게 지급되어 왔다면 "근로의 대가"에 해당하여 퇴직금 산정 시 가능한 한 포함시켜야 합니다.',
       },
     ],
     faq: [
@@ -364,7 +364,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '외국인 퇴직금 실전 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">출국 전 퇴직금 관련 서류를 반드시 확보하고 대리인을 지정해두세요.</strong></p>\n<ul>\n<li><strong>증거 확보</strong> — 근로계약서, 급여명세서, 통장 입금 내역, 출퇴근 기록을 사본으로 보관합니다</li>\n<li><strong>대리인 위임장</strong> — 출국 후에도 퇴직금을 청구할 수 있도록 한국에 있는 지인이나 외국인근로자지원센터에 위임장을 작성해둡니다</li>\n<li><strong>세금 처리</strong> — 비거주자인 외국인 근로자의 퇴직소득세는 원천징수되며, 한국과 모국 간 조세협약에 따라 이중과세가 방지됩니다</li>\n<li><strong>지원 기관</strong> — 외국인근로자지원센터(1644-0644), 대한법률구조공단(132), 외국인력상담센터(1350)에서 무료 상담이 가능합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 출국 후에는 증거 수집과 소송 진행이 매우 어려우므로 출국 전에 가능한 모든 조치를 완료하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">출국 전 퇴직금 관련 서류를 가능한 한 확보하고 대리인을 지정해두세요.</strong></p>\n<ul>\n<li><strong>증거 확보</strong> — 근로계약서, 급여명세서, 통장 입금 내역, 출퇴근 기록을 사본으로 보관합니다</li>\n<li><strong>대리인 위임장</strong> — 출국 후에도 퇴직금을 청구할 수 있도록 한국에 있는 지인이나 외국인근로자지원센터에 위임장을 작성해둡니다</li>\n<li><strong>세금 처리</strong> — 비거주자인 외국인 근로자의 퇴직소득세는 원천징수되며, 한국과 모국 간 조세협약에 따라 이중과세가 방지됩니다</li>\n<li><strong>지원 기관</strong> — 외국인근로자지원센터(1644-0644), 대한법률구조공단(132), 외국인력상담센터(1350)에서 무료 상담이 가능합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 출국 후에는 증거 수집과 소송 진행이 매우 어려우므로 출국 전에 가능한 모든 조치를 완료하세요</blockquote>',
       },
     ],
     cases: [
@@ -472,7 +472,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         question: '체당금 신청 중에 사업주가 일부 지급하면 어떻게 되나요?',
         answer:
-          '<strong>사업주가 지급한 금액을 제외한 잔액에 대해서만 체당금이 지급됩니다.</strong> 사업주로부터 받은 금액을 공단에 반드시 알려야 하며, 미신고 시 부정수급으로 환수될 수 있습니다.',
+          '<strong>사업주가 지급한 금액을 제외한 잔액에 대해서만 체당금이 지급됩니다.</strong> 사업주로부터 받은 금액을 공단에 가능한 한 알려야 하며, 미신고 시 부정수급으로 환수될 수 있습니다.',
       },
       {
         question: '대한법률구조공단에서 무료 소송 지원을 받을 수 있나요?',
@@ -756,7 +756,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '수습 해지와 임금체불: 주의할 점',
         content:
-          '<p><strong style="color:#1e3a5f">수습 기간 종료 후 전환 거부(해고)가 되더라도 이미 근무한 기간의 임금은 전액 지급되어야 합니다.</strong></p>\n<ul>\n<li><strong>근무한 만큼 지급</strong> — 수습 기간 중 해지되더라도 실제 근무일수에 해당하는 임금은 반드시 받아야 합니다</li>\n<li><strong>수습 해지 통보</strong> — 수습 3개월 이내 해지는 해고예고(30일 전)가 면제되지만, 임금 지급 의무는 면제되지 않습니다</li>\n<li><strong>교육 비용 공제 금지</strong> — "교육비를 빼겠다"는 주장은 근로기준법 위반입니다. 회사 업무를 위한 교육 비용은 사업주 부담이며 임금에서 공제할 수 없습니다</li>\n<li><strong>퇴직금</strong> — 수습 기간을 포함해 1년 이상 근무했다면 퇴직금도 받을 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "수습 기간이라 임금을 줄 의무가 없다"는 회사의 주장은 법적 근거가 없습니다. 근로를 제공했다면 반드시 임금을 받아야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">수습 기간 종료 후 전환 거부(해고)가 되더라도 이미 근무한 기간의 임금은 전액 지급되어야 합니다.</strong></p>\n<ul>\n<li><strong>근무한 만큼 지급</strong> — 수습 기간 중 해지되더라도 실제 근무일수에 해당하는 임금은 가능한 한 받아야 합니다</li>\n<li><strong>수습 해지 통보</strong> — 수습 3개월 이내 해지는 해고예고(30일 전)가 면제되지만, 임금 지급 의무는 면제되지 않습니다</li>\n<li><strong>교육 비용 공제 금지</strong> — "교육비를 빼겠다"는 주장은 근로기준법 위반입니다. 회사 업무를 위한 교육 비용은 사업주 부담이며 임금에서 공제할 수 없습니다</li>\n<li><strong>퇴직금</strong> — 수습 기간을 포함해 1년 이상 근무했다면 퇴직금도 받을 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "수습 기간이라 임금을 줄 의무가 없다"는 회사의 주장은 법적 근거가 없습니다. 근로를 제공했다면 가능한 한 임금을 받아야 합니다</blockquote>',
       },
     ],
     cases: [
@@ -823,7 +823,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '커미션이 임금인지 판단하는 3가지 기준',
         content:
-          '<p><strong style="color:#1e3a5f">커미션이 근로기준법상 "임금"에 해당하려면 근로의 대가로서 계속적·정기적으로 지급되어야 합니다.</strong></p>\n<ol>\n<li><strong>근로의 대가인가</strong> — 근로자가 제공한 영업 활동의 대가로 지급되는 것인지, 사용자의 은혜적 급부인지 판단합니다. 고정급 없이 커미션만 받는 경우에도 근로의 대가로 인정됩니다</li>\n<li><strong>계속적·정기적 지급인가</strong> — 매월 또는 매 분기 정기적으로 지급되는 구조라면 임금성이 인정됩니다. 일회성 보너스와는 구별됩니다</li>\n<li><strong>지급 의무가 있는가</strong> — 취업규칙, 급여규정, 근로계약서에 커미션 지급 기준이 명시되어 있다면 사용자에게 지급의무가 있는 임금입니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 커미션 지급 기준이 계약서나 규정에 명시되어 있다면 "임금"으로 인정될 가능성이 높습니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">커미션이 근로기준법상 "임금"에 해당하려면 근로의 대가로서 계속적·정기적으로 지급되어야 합니다.</strong></p>\n<ol>\n<li><strong>근로의 대가인가</strong> — 근로자가 제공한 영업 활동의 대가로 지급되는 것인지, 사용자의 은혜적 급부인지 판단합니다. 고정급 없이 커미션만 받는 경우에도 근로의 대가로 인정될 수 있습니다</li>\n<li><strong>계속적·정기적 지급인가</strong> — 매월 또는 매 분기 정기적으로 지급되는 구조라면 임금성이 인정될 수 있습니다. 일회성 보너스와는 구별됩니다</li>\n<li><strong>지급 의무가 있는가</strong> — 취업규칙, 급여규정, 근로계약서에 커미션 지급 기준이 명시되어 있다면 사용자에게 지급의무가 있는 임금입니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 커미션 지급 기준이 계약서나 규정에 명시되어 있다면 "임금"으로 인정될 가능성이 높습니다</blockquote>',
       },
       {
         title: '커미션 미지급 시 청구 4단계',
@@ -849,7 +849,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         question: '커미션만 받고 고정급이 없는 경우에도 임금으로 인정되나요?',
         answer:
-          '<strong>고정급 없이 커미션만 받더라도 근로계약에 따른 근로의 대가라면 임금으로 인정됩니다.</strong> 다만 완전한 도급 계약(프리랜서)으로 판단될 수도 있으므로 실질적 근로관계(출퇴근 관리, 업무 지시 등)를 증명하는 것이 중요합니다.',
+          '<strong>고정급 없이 커미션만 받더라도 근로계약에 따른 근로의 대가라면 임금으로 인정될 수 있습니다.</strong> 다만 완전한 도급 계약(프리랜서)으로 판단될 수도 있으므로 실질적 근로관계(출퇴근 관리, 업무 지시 등)를 증명하는 것이 중요합니다.',
       },
       {
         question: '회사가 "실적 미달이라 커미션이 0원"이라고 하면?',
@@ -869,7 +869,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         question: '프리랜서 계약을 했는데 사실은 출퇴근 관리를 받습니다',
         answer:
-          '<strong>계약 명칭이 프리랜서라도 실질적으로 사용자의 지휘·감독을 받으면 근로자로 인정됩니다.</strong> 출퇴근 시간 지정, 업무 방법 지시, 전속성 등이 인정되면 근로기준법의 보호를 받으며 커미션도 임금으로 청구할 수 있습니다.',
+          '<strong>계약 명칭이 프리랜서라도 실질적으로 사용자의 지휘·감독을 받으면 근로자로 인정될 수 있습니다.</strong> 출퇴근 시간 지정, 업무 방법 지시, 전속성 등이 인정되면 근로기준법의 보호를 받으며 커미션도 임금으로 청구할 수 있습니다.',
       },
     ],
     cta: {

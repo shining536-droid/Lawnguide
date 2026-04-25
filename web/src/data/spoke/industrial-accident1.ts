@@ -23,7 +23,7 @@ export const industrialAccident1Pages: SpokePage[] = [
       {
         title: '휴업급여로 쉬는 동안의 소득을 보전받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">취업하지 못한 기간에 대해 평균임금의 70%가 지급됩니다</strong></p>\n<p><strong>산업재해보상보험법 제52조</strong>에 따라 요양으로 취업하지 못한 기간에 대해 <strong>평균임금의 70%</strong>를 휴업급여로 받을 수 있습니다. 요양급여 승인 후 별도로 청구해야 합니다.</p>\n<p>휴업급여 청구는 14일 이상 요양한 경우에 해당합니다. 의사의 소견서와 출근하지 못한 기간을 증명하는 자료를 함께 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: 14일 이상 요양 시 → 평균임금 70% 휴업급여 → 별도 청구 필요</blockquote>',
+          '<p><strong style="color:#1e3a5f">취업하지 못한 기간에 대해 평균임금의 70%가 지급됩니다</strong></p>\n<p><strong>산업재해보상보험법 제52조</strong>에 따라 요양으로 취업하지 못한 기간에 대해 <strong>평균임금의 70%</strong>를 휴업급여로 받을 수 있습니다. 요양급여 승인 후 별도로 청구해야 합니다.</p>\n<p>휴업급여 청구는 14일 이상 요양한 경우에 해당할 소지가 있습니다. 의사의 소견서와 출근하지 못한 기간을 증명하는 자료를 함께 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: 14일 이상 요양 시 → 평균임금 70% 휴업급여 → 별도 청구 필요</blockquote>',
       },
       {
         title: '치료가 끝나면 장해급여 판정을 받으세요',
@@ -63,7 +63,7 @@ export const industrialAccident1Pages: SpokePage[] = [
       },
       {
         question: '출퇴근 중 사고도 산재인가요?',
-        answer: '2018년부터 <strong>출퇴근 재해</strong>도 산재로 인정됩니다. 합리적 경로와 방법이어야 합니다.',
+        answer: '2018년부터 <strong>출퇴근 재해</strong>도 산재로 인정될 수 있습니다. 합리적 경로와 방법이어야 합니다.',
       },
       {
         question: '요양급여 신청 후 승인까지 얼마나 걸리나요?',

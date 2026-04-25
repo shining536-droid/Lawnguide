@@ -47,14 +47,14 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
         summary:
           '대법원 2022다253515 사건(대법원, 2023.05.11 선고)에서 법원은 야간 무단횡단 + 고도 음주 보행자 사고에서 보행자 과실을 55%까지 인정하며, 운전자의 속도 준수·전방주시 여부가 핵심 판단 기준이라고 판시했습니다.',
         takeaway:
-          '음주·무단횡단이 입증되면 보행자 과실이 50%를 넘을 수 있으나, 운전자 기본 주의의무 이행도 반드시 함께 평가됩니다.',
+          '음주·무단횡단이 입증되면 보행자 과실이 50%를 넘을 수 있으나, 운전자 기본 주의의무 이행도 가능한 한 함께 평가됩니다.',
       },
     ],
     faq: [
       {
         question: '보행자가 술에 취했다는 사실을 어떻게 입증하나요?',
         answer:
-          '<strong>경찰 현장 음주감지, 응급실 혈중알코올 기록, 블랙박스의 비틀거림 영상이 핵심 증거입니다.</strong> 사고 직후 경찰에게 반드시 음주 측정을 요청하세요.',
+          '<strong>경찰 현장 음주감지, 응급실 혈중알코올 기록, 블랙박스의 비틀거림 영상이 핵심 증거입니다.</strong> 사고 직후 경찰에게 가능한 한 음주 측정을 요청하세요.',
       },
       {
         question: '블랙박스 없는 경우 과실 다툼이 가능한가요?',
@@ -64,7 +64,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         question: '보행자가 사망한 경우 과실비율이 의미 있나요?',
         answer:
-          '<strong>손해액이 크므로 과실 조정의 경제적 영향이 매우 큽니다.</strong> 민사 배상 범위를 좁히려면 반드시 보행자 과실 입증이 필요합니다.',
+          '<strong>손해액이 크므로 과실 조정의 경제적 영향이 매우 큽니다.</strong> 민사 배상 범위를 좁히려면 가능한 한 보행자 과실 입증이 필요합니다.',
       },
       {
         question: '구상금분쟁심의위원회 결과에 불복할 수 있나요?',
@@ -141,7 +141,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         question: '자전거 사고도 뺑소니가 적용되나요?',
         answer:
-          '<strong>적용됩니다.</strong> 사고 후 구호조치 없이 도주하면 특정범죄가중법상 도주치상으로 가중 처벌됩니다.',
+          '<strong>적용됩니다.</strong> 사고 후 구호조치 없이 도주하면 특정범죄가중법상 도주치상으로 가중 처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '어린이가 자전거로 다른 사람을 다치게 하면 누가 책임지나요?',
@@ -207,7 +207,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         title: '합의 전 체크 — 보험사의 저속 논리 대응',
         content:
-          '<p><strong style="color:#1e3a5f">보험사가 자주 쓰는 4가지 논리와 대응법을 숙지해야 합니다.</strong></p>\n<ul>\n<li><strong>"범퍼 파손 없으니 부상 없음"</strong> — 차체 손상과 인체 손상은 비례하지 않는다는 의학 통계로 반박.</li>\n<li><strong>"지연 통증은 인과관계 없음"</strong> — 편타성 손상의 지연 증상은 의학적으로 흔한 현상.</li>\n<li><strong>"기왕증이라 기여도 낮음"</strong> — 기왕증이 있어도 사고로 악화된 부분은 배상 대상.</li>\n<li><strong>"단순 염좌라 금액 적음"</strong> — 염좌도 치료기간·휴업손해·위자료 청구 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 합의서 서명 전 반드시 치료 경과·후유장해 가능성을 확인하세요. 한 번 합의하면 추가 청구가 원칙적으로 불가합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">보험사가 자주 쓰는 4가지 논리와 대응법을 숙지해야 합니다.</strong></p>\n<ul>\n<li><strong>"범퍼 파손 없으니 부상 없음"</strong> — 차체 손상과 인체 손상은 비례하지 않는다는 의학 통계로 반박.</li>\n<li><strong>"지연 통증은 인과관계 없음"</strong> — 편타성 손상의 지연 증상은 의학적으로 흔한 현상.</li>\n<li><strong>"기왕증이라 기여도 낮음"</strong> — 기왕증이 있어도 사고로 악화된 부분은 배상 대상.</li>\n<li><strong>"단순 염좌라 금액 적음"</strong> — 염좌도 치료기간·휴업손해·위자료 청구 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 합의서 서명 전 가능한 한 치료 경과·후유장해 가능성을 확인하세요. 한 번 합의하면 추가 청구가 원칙적으로 불가합니다.</blockquote>',
       },
       {
         title: '후유장해 진단 — 장기적 배상 청구 기준',
@@ -221,14 +221,14 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
         summary:
           '대법원 2023다215648 사건(대법원, 2023.08.31 선고)에서 법원은 시속 약 7km 충돌로 편타성 손상을 입은 피해자에게 사고와 증상 간 인과관계를 인정하고 치료비·위자료·일실수입 청구를 전부 인정했습니다.',
         takeaway:
-          '충돌 속도만으로 부상 부정 논리는 받아들여지지 않으며, 의학적 소견이 있으면 정당한 배상이 인정됩니다.',
+          '충돌 속도만으로 부상 부정 논리는 받아들여지지 않으며, 의학적 소견이 있으면 정당한 배상이 인정될 수 있습니다.',
       },
     ],
     faq: [
       {
         question: '사고 당일 멀쩡했는데 며칠 뒤 아프면 배상받나요?',
         answer:
-          '<strong>가능합니다.</strong> 편타성 손상의 지연 증상은 의학적으로 흔하며, 진료기록이 일관되면 인과관계가 인정됩니다.',
+          '<strong>가능합니다.</strong> 편타성 손상의 지연 증상은 의학적으로 흔하며, 진료기록이 일관되면 인과관계가 인정될 수 있습니다.',
       },
       {
         question: '보험사가 합의금 50만원 제시했는데 적정한가요?',
@@ -299,7 +299,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         title: '회수 현실 — 기대치와 현실적 목표',
         content:
-          '<p><strong style="color:#1e3a5f">100% 회수는 어렵지만 일부 회수 + 형사처벌이 현실적 목표입니다.</strong></p>\n<ul>\n<li><strong>전액 회수</strong> — 국내 거래소에서 동결된 경우에 한해 가능성 있음.</li>\n<li><strong>일부 회수</strong> — 공범 합의·범죄수익 환수 조치로 부분 회복.</li>\n<li><strong>형사처벌</strong> — 피해자가 다수여도 한 명이 고소해 수사가 시작되면 공범 체인 전체 검거 가능.</li>\n<li><strong>민사소송</strong> — 형사 확정 후 가해자 재산 강제집행으로 배상.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "100% 회수" "전액 환급" 광고하는 리커버리 업체는 2차 사기일 가능성이 높으니 반드시 경찰·검찰·변호사를 통하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">100% 회수는 어렵지만 일부 회수 + 형사처벌이 현실적 목표입니다.</strong></p>\n<ul>\n<li><strong>전액 회수</strong> — 국내 거래소에서 동결된 경우에 한해 가능성 있음.</li>\n<li><strong>일부 회수</strong> — 공범 합의·범죄수익 환수 조치로 부분 회복.</li>\n<li><strong>형사처벌</strong> — 피해자가 다수여도 한 명이 고소해 수사가 시작되면 공범 체인 전체 검거 가능.</li>\n<li><strong>민사소송</strong> — 형사 확정 후 가해자 재산 강제집행으로 배상.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "100% 회수" "전액 환급" 광고하는 리커버리 업체는 2차 사기일 가능성이 높으니 가능한 한 경찰·검찰·변호사를 통하세요.</blockquote>',
       },
     ],
     cases: [
@@ -386,7 +386,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         title: '형사책임 — 방조·명의대여 혐의 회피',
         content:
-          '<p><strong style="color:#1e3a5f">지급정지 해제만이 아니라 형사 혐의 회피도 함께 고려해야 합니다.</strong></p>\n<ul>\n<li><strong>전자금융거래법 제6조</strong> — 통장·카드 양도·대여 금지. 위반 시 3년 이하 징역 또는 2천만원 이하 벌금.</li>\n<li><strong>사기방조</strong> — "몰랐다"는 항변이 허술하면 방조 혐의로 전환될 수 있음.</li>\n<li><strong>대응 원칙</strong> — 모든 거래의 정당성을 서면·통화 녹취·문자로 입증.</li>\n<li><strong>조사 출석</strong> — 경찰 조사 전 반드시 변호사와 진술 방향 점검.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "내 통장을 빌려주고 수수료를 받은 경우"는 이미 전자금융거래법 위반 가능성이 매우 큽니다. 단순 오인이 아닌 사안은 반드시 변호인 동반.</blockquote>',
+          '<p><strong style="color:#1e3a5f">지급정지 해제만이 아니라 형사 혐의 회피도 함께 고려해야 합니다.</strong></p>\n<ul>\n<li><strong>전자금융거래법 제6조</strong> — 통장·카드 양도·대여 금지. 위반 시 3년 이하 징역 또는 2천만원 이하 벌금.</li>\n<li><strong>사기방조</strong> — "몰랐다"는 항변이 허술하면 방조 혐의로 전환될 수 있음.</li>\n<li><strong>대응 원칙</strong> — 모든 거래의 정당성을 서면·통화 녹취·문자로 입증.</li>\n<li><strong>조사 출석</strong> — 경찰 조사 전 가능한 한 변호사와 진술 방향 점검.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "내 통장을 빌려주고 수수료를 받은 경우"는 이미 전자금융거래법 위반 가능성이 매우 큽니다. 단순 오인이 아닌 사안은 가능한 한 변호인 동반.</blockquote>',
       },
     ],
     cases: [
@@ -463,7 +463,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         title: '조사 전 4가지 필수 준비',
         content:
-          '<p><strong style="color:#1e3a5f">첫 조사 진술이 기록되면 뒤집기가 매우 어렵습니다. 반드시 준비 후 출석하세요.</strong></p>\n<ul>\n<li><strong>1. 경위서 정리</strong> — 통장을 누구에게·언제·왜 건넸는지 시간순으로.</li>\n<li><strong>2. 대화 기록 수집</strong> — 카카오톡·텔레그램·문자 등 당시 대화 복원.</li>\n<li><strong>3. 보상·수수료 기록</strong> — 받은 금액이 있다면 액수·시점·방법.</li>\n<li><strong>4. 변호인 선임</strong> — 첫 조사 전 변호사 상담. 형사공공변호인 제도도 활용 가능.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 대포통장 혐의의 방어 포인트를 분석해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">첫 조사 진술이 기록되면 뒤집기가 매우 어렵습니다. 가능한 한 준비 후 출석하세요.</strong></p>\n<ul>\n<li><strong>1. 경위서 정리</strong> — 통장을 누구에게·언제·왜 건넸는지 시간순으로.</li>\n<li><strong>2. 대화 기록 수집</strong> — 카카오톡·텔레그램·문자 등 당시 대화 복원.</li>\n<li><strong>3. 보상·수수료 기록</strong> — 받은 금액이 있다면 액수·시점·방법.</li>\n<li><strong>4. 변호인 선임</strong> — 첫 조사 전 변호사 상담. 형사공공변호인 제도도 활용 가능.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 대포통장 혐의의 방어 포인트를 분석해드립니다.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '주요 방어 논리 — 인식 수준·대가성·수익성',
@@ -494,7 +494,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         question: '조사에서 뭐라고 말해야 하나요?',
         answer:
-          '<strong>사실 그대로 시간순으로 진술하세요.</strong> 다만 진술 방향은 반드시 조사 전 변호사와 점검하세요.',
+          '<strong>사실 그대로 시간순으로 진술하세요.</strong> 다만 진술 방향은 가능한 한 조사 전 변호사와 점검하세요.',
       },
       {
         question: '전자금융거래법 벌금이면 전과가 남나요?',
@@ -545,7 +545,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         title: '사기죄 성립 여부 — 기망·편취의사 판단',
         content:
-          '<p><strong style="color:#1e3a5f">처음부터 배송 의사가 없었거나 무리한 판매였다면 사기죄가 성립합니다.</strong></p>\n<ul>\n<li><strong>기망행위</strong> — "재고 있음" "즉시 발송"이라 속이고 주문 받음.</li>\n<li><strong>편취의사</strong> — 주문 시점에 배송 능력·의지가 없었음.</li>\n<li><strong>단순 지연 차이</strong> — 배송 가능하나 늦는 경우는 민사 문제일 수 있음.</li>\n<li><strong>다수 피해자 존재</strong> — 동일 패턴 반복 시 편취 의사 인정 용이.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 판매자 연락 두절 + 다수 피해 + 계정 잠적 = 사기 가능성 매우 높음.</blockquote>',
+          '<p><strong style="color:#1e3a5f">처음부터 배송 의사가 없었거나 무리한 판매였다면 사기죄가 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>기망행위</strong> — "재고 있음" "즉시 발송"이라 속이고 주문 받음.</li>\n<li><strong>편취의사</strong> — 주문 시점에 배송 능력·의지가 없었음.</li>\n<li><strong>단순 지연 차이</strong> — 배송 가능하나 늦는 경우는 민사 문제일 수 있음.</li>\n<li><strong>다수 피해자 존재</strong> — 동일 패턴 반복 시 편취 의사 인정 용이.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 판매자 연락 두절 + 다수 피해 + 계정 잠적 = 사기 가능성 매우 높음.</blockquote>',
       },
       {
         title: '환불 우선 — 카드·간편결제·현금이체별 대응',
@@ -816,7 +816,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         title: '경우 3 — 면책 진행 중 자산 취득',
         content:
-          '<p><strong style="color:#1e3a5f">파산 선고 후 ~ 면책 결정 전에 새로 생긴 자산은 파산재단 편입 여부가 쟁점입니다.</strong></p>\n<ul>\n<li><strong>급여·일반 소득</strong> — 파산 선고 이후의 소득은 원칙적으로 자유재산(파산재단 미편입).</li>\n<li><strong>상속</strong> — 선고 후 상속은 파산재단 편입 원칙, 다만 자유재산 한도 내 공제 가능.</li>\n<li><strong>복권 당첨·대물 취득</strong> — 재단 편입 가능성이 커 관재인과 협의 필요.</li>\n<li><strong>신고 의무</strong> — 법원·관재인에 즉시 신고.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 면책 결정 전에는 자산 변동 상황을 무조건 관재인에 보고하는 것이 안전합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">파산 선고 후 ~ 면책 결정 전에 새로 생긴 자산은 파산재단 편입 여부가 쟁점입니다.</strong></p>\n<ul>\n<li><strong>급여·일반 소득</strong> — 파산 선고 이후의 소득은 원칙적으로 자유재산(파산재단 미편입).</li>\n<li><strong>상속</strong> — 선고 후 상속은 파산재단 편입 원칙, 다만 자유재산 한도 내 공제 가능.</li>\n<li><strong>복권 당첨·대물 취득</strong> — 재단 편입 가능성이 커 관재인과 협의 필요.</li>\n<li><strong>신고 의무</strong> — 법원·관재인에 즉시 신고.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 면책 결정 전에는 자산 변동 상황을 원칙적으로 관재인에 보고하는 것이 안전합니다.</blockquote>',
       },
       {
         title: '면책 취소 청구 — 요건과 기한',
@@ -908,7 +908,7 @@ export const spokesBatch40Nonlabor1: SpokePage[] = [
       {
         title: '소멸시효·감면·체납처분 중지 5단계',
         content:
-          '<p><strong style="color:#1e3a5f">장기 체납의 경우 소멸시효와 체납처분 중지로 부담을 줄일 수 있습니다.</strong></p>\n<ul>\n<li><strong>1단계: 국세 소멸시효 확인</strong> — 원칙 5년, 5억 원 이상 10년. 중단·정지 사유 여부 확인.</li>\n<li><strong>2단계: 재산조사·체납처분 중지</strong> — 재산 없음 + 생활 곤란 시 체납처분 중지 요청.</li>\n<li><strong>3단계: 납세자 권리 구제</strong> — 조세심판원 심판·행정소송 활용.</li>\n<li><strong>4단계: 근로장려금 연계</strong> — 근로장려·자녀장려금 수급으로 일부 상쇄 가능.</li>\n<li><strong>5단계: 재기지원제도</strong> — 신용회복위원회·지자체 재기 지원 사업 병행.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "세금도 파산으로 사라진다"고 주장하는 업체는 거짓 정보입니다. 세금은 반드시 별도 루트로 접근해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">장기 체납의 경우 소멸시효와 체납처분 중지로 부담을 줄일 수 있습니다.</strong></p>\n<ul>\n<li><strong>1단계: 국세 소멸시효 확인</strong> — 원칙 5년, 5억 원 이상 10년. 중단·정지 사유 여부 확인.</li>\n<li><strong>2단계: 재산조사·체납처분 중지</strong> — 재산 없음 + 생활 곤란 시 체납처분 중지 요청.</li>\n<li><strong>3단계: 납세자 권리 구제</strong> — 조세심판원 심판·행정소송 활용.</li>\n<li><strong>4단계: 근로장려금 연계</strong> — 근로장려·자녀장려금 수급으로 일부 상쇄 가능.</li>\n<li><strong>5단계: 재기지원제도</strong> — 신용회복위원회·지자체 재기 지원 사업 병행.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "세금도 파산으로 사라진다"고 주장하는 업체는 거짓 정보입니다. 세금은 가능한 한 별도 루트로 접근해야 합니다.</blockquote>',
       },
     ],
     cases: [

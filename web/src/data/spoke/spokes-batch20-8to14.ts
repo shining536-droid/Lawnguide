@@ -26,12 +26,12 @@ export const spokesBatch20_8to14: SpokePage[] = [
       {
         title: '실수 1: 감정적으로 가해학생 부모에게 직접 연락하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">학교폭력예방법 제20조에 따라 학교폭력 사건은 학교장에게 신고하여 공식 절차로 처리해야 합니다</strong></p>\n<p>아이가 피해를 입으면 즉시 가해학생 부모에게 항의하고 싶은 마음이 듭니다. 그러나 <strong>감정적인 직접 연락은 오히려 역효과</strong>를 냅니다. 대화 내용이 녹음되어 "협박" 또는 "명예훼손"으로 역고소당하는 사례도 있습니다.</p>\n<p>가해 측 부모와의 직접 대화는 <strong>합의 과정에서 불리한 증거</strong>로 활용될 수 있습니다. 반드시 학교 또는 교육청에 공식 신고한 뒤, 절차에 따라 대응하세요. 모든 의사소통은 문서(카카오톡, 문자)로 기록을 남기는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 가해 측 직접 연락 자제 → 학교·교육청 공식 신고 → 대화 기록 보관</blockquote>',
+          '<p><strong style="color:#1e3a5f">학교폭력예방법 제20조에 따라 학교폭력 사건은 학교장에게 신고하여 공식 절차로 처리해야 합니다</strong></p>\n<p>아이가 피해를 입으면 즉시 가해학생 부모에게 항의하고 싶은 마음이 듭니다. 그러나 <strong>감정적인 직접 연락은 오히려 역효과</strong>를 냅니다. 대화 내용이 녹음되어 "협박" 또는 "명예훼손"으로 역고소당하는 사례도 있습니다.</p>\n<p>가해 측 부모와의 직접 대화는 <strong>합의 과정에서 불리한 증거</strong>로 활용될 수 있습니다. 가능한 한 학교 또는 교육청에 공식 신고한 뒤, 절차에 따라 대응하세요. 모든 의사소통은 문서(카카오톡, 문자)로 기록을 남기는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 가해 측 직접 연락 자제 → 학교·교육청 공식 신고 → 대화 기록 보관</blockquote>',
       },
       {
         title: '실수 2: 증거를 확보하지 않고 신고부터 하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">심의위원회에서 증거가 없으면 "사실 확인 불가"로 종결될 수 있습니다</strong></p>\n<p>신고 전에 반드시 확보해야 할 증거: <strong>①피해 부위 사진(날짜가 표시되도록 촬영) ②병원 진단서(상해진단서) ③목격자 진술(친구, 교사) ④카카오톡·SNS 메시지 캡처 ⑤CCTV 확인 요청</strong></p>\n<p>특히 <strong>의료기록은 48시간 이내</strong>에 확보하는 것이 중요합니다. 시간이 지나면 상해와 학교폭력 사이의 인과관계 입증이 어려워집니다. 정신적 피해도 소아정신과 진료 기록으로 남겨두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 순서: 상해 사진 → 48시간 내 진단서 → 목격자 확보 → SNS 캡처 → CCTV 요청</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/school-violence" style="color:#1565c0;font-weight:600">우리 아이 학교폭력 상황 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">심의위원회에서 증거가 없으면 "사실 확인 불가"로 종결될 수 있습니다</strong></p>\n<p>신고 전에 가능한 한 확보해야 할 증거: <strong>①피해 부위 사진(날짜가 표시되도록 촬영) ②병원 진단서(상해진단서) ③목격자 진술(친구, 교사) ④카카오톡·SNS 메시지 캡처 ⑤CCTV 확인 요청</strong></p>\n<p>특히 <strong>의료기록은 48시간 이내</strong>에 확보하는 것이 중요합니다. 시간이 지나면 상해와 학교폭력 사이의 인과관계 입증이 어려워집니다. 정신적 피해도 소아정신과 진료 기록으로 남겨두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 순서: 상해 사진 → 48시간 내 진단서 → 목격자 확보 → SNS 캡처 → CCTV 요청</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/school-violence" style="color:#1565c0;font-weight:600">우리 아이 학교폭력 상황 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '실수 3: 아이에게 반복적으로 사건을 캐묻는 것',
@@ -46,7 +46,7 @@ export const spokesBatch20_8to14: SpokePage[] = [
       {
         title: '실수 5: 합의를 서두르거나 비공식 합의를 하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">비공식 합의는 법적 효력이 약하고, 심의위원회 결정 전 합의는 조치 수위에 영향을 줍니다</strong></p>\n<p>가해 측에서 "조용히 합의하자"고 제안하는 경우가 많습니다. 그러나 <strong>공식 절차 없이 합의하면 재발 시 대응이 어렵고</strong>, 생기부 기재도 되지 않아 가해학생에 대한 교육적 조치가 누락됩니다.</p>\n<p>합의는 반드시 <strong>심의위원회 결정 이후</strong>에 진행하세요. 합의서 작성 시에는 ①합의금액 ②재발 방지 약속 ③위반 시 조치사항을 명시하고, 가능하면 변호사의 검토를 받는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 원칙: 심의위원회 결정 후 합의 → 합의서에 재발 방지 명시 → 변호사 검토</blockquote>',
+          '<p><strong style="color:#1e3a5f">비공식 합의는 법적 효력이 약하고, 심의위원회 결정 전 합의는 조치 수위에 영향을 줍니다</strong></p>\n<p>가해 측에서 "조용히 합의하자"고 제안하는 경우가 많습니다. 그러나 <strong>공식 절차 없이 합의하면 재발 시 대응이 어렵고</strong>, 생기부 기재도 되지 않아 가해학생에 대한 교육적 조치가 누락됩니다.</p>\n<p>합의는 가능한 한 <strong>심의위원회 결정 이후</strong>에 진행하세요. 합의서 작성 시에는 ①합의금액 ②재발 방지 약속 ③위반 시 조치사항을 명시하고, 가능하면 변호사의 검토를 받는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 원칙: 심의위원회 결정 후 합의 → 합의서에 재발 방지 명시 → 변호사 검토</blockquote>',
       },
     ],
     cases: [
@@ -149,7 +149,7 @@ export const spokesBatch20_8to14: SpokePage[] = [
       },
       {
         question: '아이가 사이버 괴롭힘(카톡 따돌림)을 당하는 경우도 학교폭력인가요?',
-        answer: '<strong>학교폭력예방법 제2조에 따라 사이버 괴롭힘도 학교폭력에 해당합니다</strong>. 카카오톡 단톡방 따돌림, SNS 비방, 온라인 유포 등 정보통신망을 이용한 괴롭힘 행위 모두 신고 대상입니다.',
+        answer: '<strong>학교폭력예방법 제2조에 따라 사이버 괴롭힘도 학교폭력에 해당할 소지가 있습니다</strong>. 카카오톡 단톡방 따돌림, SNS 비방, 온라인 유포 등 정보통신망을 이용한 괴롭힘 행위 모두 신고 대상입니다.',
       },
     ],
     cta: {
@@ -192,7 +192,7 @@ export const spokesBatch20_8to14: SpokePage[] = [
       {
         title: '2단계: 의견서와 소명자료를 체계적으로 준비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">심의위원회에서 가해학생 측은 서면 의견서를 제출하고 구두로 의견을 진술할 수 있습니다</strong></p>\n<p>의견서에 포함할 내용: <strong>①사건 경위에 대한 아이 측 입장 ②사건에 이르게 된 배경과 맥락 ③반성과 재발 방지 의지 ④피해학생과의 관계 회복 노력 ⑤평소 학교생활 태도 관련 자료</strong></p>\n<p>효과적인 소명자료: <strong>①담임교사·주변 교사의 의견서 ②상담 기록 ③봉사활동 기록 ④반성문(아이가 직접 작성) ⑤합의서(합의가 이루어진 경우)</strong>. 특히 사건 후 전문 상담을 받은 기록이 있으면 반드시 첨부하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비 자료: 의견서 + 반성문 + 상담기록 + 교사 의견서 + 합의 노력 증빙</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/school-violence" style="color:#1565c0;font-weight:600">우리 아이 학교폭력 상황 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">심의위원회에서 가해학생 측은 서면 의견서를 제출하고 구두로 의견을 진술할 수 있습니다</strong></p>\n<p>의견서에 포함할 내용: <strong>①사건 경위에 대한 아이 측 입장 ②사건에 이르게 된 배경과 맥락 ③반성과 재발 방지 의지 ④피해학생과의 관계 회복 노력 ⑤평소 학교생활 태도 관련 자료</strong></p>\n<p>효과적인 소명자료: <strong>①담임교사·주변 교사의 의견서 ②상담 기록 ③봉사활동 기록 ④반성문(아이가 직접 작성) ⑤합의서(합의가 이루어진 경우)</strong>. 특히 사건 후 전문 상담을 받은 기록이 있으면 가능한 한 첨부하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비 자료: 의견서 + 반성문 + 상담기록 + 교사 의견서 + 합의 노력 증빙</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/school-violence" style="color:#1565c0;font-weight:600">우리 아이 학교폭력 상황 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '3단계: 심의위원회 당일 진술 전략을 세우세요',
@@ -211,7 +211,7 @@ export const spokesBatch20_8to14: SpokePage[] = [
         summary:
           '제주지법 2019구합6370 사건(2020.12.15 선고)에서 법원은 학부모대표위원이 학부모전체회의가 아닌 학부모대표회의에서 선출되었고, 학교폭력책임교사가 위원으로 참여한 자치위원회의 의결은 위법하게 구성된 위원회에 의한 것이므로 해당 처분은 위법하다고 판시했습니다.',
         takeaway:
-          '혐의를 받고 있다면 심의위원회의 구성 절차가 적법한지도 반드시 확인하세요. 위원회 구성에 하자가 있으면 조치 자체를 취소시킬 수 있는 중요한 방어 수단이 됩니다.',
+          '혐의를 받고 있다면 심의위원회의 구성 절차가 적법한지도 가능한 한 확인하세요. 위원회 구성에 하자가 있으면 조치 자체를 취소시킬 수 있는 중요한 방어 수단이 됩니다.',
       },
     ],
     faq: [
@@ -266,7 +266,7 @@ export const spokesBatch20_8to14: SpokePage[] = [
       {
         title: '1단계: 조치 결정 통보서를 꼼꼼히 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">학교폭력예방법 제17조의2 제1항에 따라 가해학생 측은 심의위원회 조치에 대해 행정심판을 청구할 수 있습니다</strong></p>\n<p>통보서에서 확인할 사항: <strong>①조치 내용(몇 호 조치인지) ②조치 사유 ③불복 절차 안내 ④통보 일자</strong>. 통보 일자가 행정심판 청구 기한의 기산점이므로 반드시 기록해두세요.</p>\n<p>불복을 검토할 근거: <strong>①사실관계 오인 ②조치의 과잉(비례원칙 위반) ③절차적 하자(위원회 구성·운영 문제) ④새로운 증거 발견</strong>. 이 중 하나라도 해당되면 불복의 실익이 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 조치 내용 → 통보 일자 기록 → 불복 사유 검토 → 변호사 상담</blockquote>',
+          '<p><strong style="color:#1e3a5f">학교폭력예방법 제17조의2 제1항에 따라 가해학생 측은 심의위원회 조치에 대해 행정심판을 청구할 수 있습니다</strong></p>\n<p>통보서에서 확인할 사항: <strong>①조치 내용(몇 호 조치인지) ②조치 사유 ③불복 절차 안내 ④통보 일자</strong>. 통보 일자가 행정심판 청구 기한의 기산점이므로 가능한 한 기록해두세요.</p>\n<p>불복을 검토할 근거: <strong>①사실관계 오인 ②조치의 과잉(비례원칙 위반) ③절차적 하자(위원회 구성·운영 문제) ④새로운 증거 발견</strong>. 이 중 하나라도 해당되면 불복의 실익이 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 조치 내용 → 통보 일자 기록 → 불복 사유 검토 → 변호사 상담</blockquote>',
       },
       {
         title: '2단계: 15일 이내에 행정심판을 청구하세요',
@@ -295,7 +295,7 @@ export const spokesBatch20_8to14: SpokePage[] = [
       },
       {
         question: '행정심판 기간 동안 아이는 학교에 다닐 수 있나요?',
-        answer: '집행정지가 인용되지 않으면 <strong>조치는 그대로 집행</strong>됩니다. 전학 조치를 받았다면 행정심판 중에도 전학을 가야 합니다. 따라서 행정심판 청구와 동시에 집행정지 신청을 반드시 함께 하세요.',
+        answer: '집행정지가 인용되지 않으면 <strong>조치는 그대로 집행</strong>됩니다. 전학 조치를 받았다면 행정심판 중에도 전학을 가야 합니다. 따라서 행정심판 청구와 동시에 집행정지 신청을 가능한 한 함께 하세요.',
       },
       {
         question: '행정심판과 행정소송의 차이점은 무엇인가요?',
@@ -435,7 +435,7 @@ export const spokesBatch20_8to14: SpokePage[] = [
         summary:
           '대법원 2021다219529 사건(2021.09.16 선고)에서 법원은 근로자가 동료 여성 근로자를 성적 대상으로 한 발언을 유포한 행위가 직장 내 성희롱에 해당하며, 간접적인 방법으로 성적 굴욕감을 느낄 수 있는 환경을 조성하는 경우도 성적 언동에 포함된다고 판시했습니다.',
         takeaway:
-          '직접적인 신체 접촉 없이 성적 발언이나 소문 유포도 성희롱으로 인정됩니다. 간접적 피해도 증거를 확보하여 신고할 수 있으니, 주변에서 들은 성적 발언도 기록으로 남겨두세요.',
+          '직접적인 신체 접촉 없이 성적 발언이나 소문 유포도 성희롱으로 인정될 수 있습니다. 간접적 피해도 증거를 확보하여 신고할 수 있으니, 주변에서 들은 성적 발언도 기록으로 남겨두세요.',
       },
     ],
     faq: [
@@ -483,12 +483,12 @@ export const spokesBatch20_8to14: SpokePage[] = [
       title: '성희롱 신고 후 2차 가해 대응법 4가지 | 로앤가이드',
       description: '성희롱을 신고했는데 부서 이동, 따돌림 등 2차 피해가 걱정된다면, 법이 보장하는 보호 수단과 대응 방법 4가지를 지금 확인하세요.',
     },
-    intro: '용기를 내어 직장 내 성희롱을 신고했습니다. 그런데 신고 이후 갑자기 부서 이동 통보를 받았고, 동료들은 "왜 일을 크게 만드냐"며 거리를 두기 시작합니다. 피해자인데 오히려 불이익을 받는 상황, 이것이 바로 2차 가해입니다. 법으로 보호받을 수 있는 방법을 반드시 알아두세요.',
+    intro: '용기를 내어 직장 내 성희롱을 신고했습니다. 그런데 신고 이후 갑자기 부서 이동 통보를 받았고, 동료들은 "왜 일을 크게 만드냐"며 거리를 두기 시작합니다. 피해자인데 오히려 불이익을 받는 상황, 이것이 바로 2차 가해입니다. 법으로 보호받을 수 있는 방법을 가능한 한 알아두세요.',
     sections: [
       {
         title: '2차 가해 유형 1: 신고를 이유로 한 인사상 불이익',
         content:
-          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제2항에 따라 사업주는 성희롱 피해 근로자에게 해고·전보·징계 등 불리한 조치를 해서는 안 됩니다. 위반 시 3년 이하의 징역 또는 3천만원 이하의 벌금에 처합니다</strong></p>\n<p>가장 흔한 2차 가해 유형은 <strong>인사상 불이익</strong>입니다. 부서 전환, 직위 해제, 성과 평가 하락, 승진 누락, 계약 미갱신 등이 이에 해당합니다.</p>\n<p>불이익 조치를 받았다면: <strong>①인사 명령서·통보문을 즉시 보관 ②성희롱 신고 시점과 불이익 조치 시점의 근접성을 기록 ③이전 인사 평가·근무 성적과 비교 자료 확보</strong>. 남녀고용평등법 제30조에 따라 <strong>불리한 조치가 성희롱과 무관하다는 증명 책임은 사업주</strong>에게 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 인사 명령서 보관 → 시점 근접성 기록 → 이전 평가 비교 → 사업주 증명책임 활용</blockquote>',
+          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제2항에 따라 사업주는 성희롱 피해 근로자에게 해고·전보·징계 등 불리한 조치를 해서는 안 됩니다. 위반 시 3년 이하의 징역 또는 3천만원 이하의 벌금에 처합니다</strong></p>\n<p>가장 흔한 2차 가해 유형은 <strong>인사상 불이익</strong>입니다. 부서 전환, 직위 해제, 성과 평가 하락, 승진 누락, 계약 미갱신 등이 이에 해당할 소지가 있습니다.</p>\n<p>불이익 조치를 받았다면: <strong>①인사 명령서·통보문을 즉시 보관 ②성희롱 신고 시점과 불이익 조치 시점의 근접성을 기록 ③이전 인사 평가·근무 성적과 비교 자료 확보</strong>. 남녀고용평등법 제30조에 따라 <strong>불리한 조치가 성희롱과 무관하다는 증명 책임은 사업주</strong>에게 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 인사 명령서 보관 → 시점 근접성 기록 → 이전 평가 비교 → 사업주 증명책임 활용</blockquote>',
       },
       {
         title: '2차 가해 유형 2: 동료에 의한 따돌림과 비밀 누설',
@@ -498,12 +498,12 @@ export const spokesBatch20_8to14: SpokePage[] = [
       {
         title: '2차 가해 유형 3: 피해자를 도운 동료에 대한 보복',
         content:
-          '<p><strong style="color:#1e3a5f">대법원 판례에 따르면 사업주가 피해자를 도운 동료에게 부당한 불이익을 줌으로써 피해자에게 정신적 고통을 입히면, 피해자도 사업주에게 손해배상을 청구할 수 있습니다</strong></p>\n<p>목격자 진술을 해준 동료가 갑자기 불리한 부서로 발령받거나 징계를 받는 경우가 있습니다. 이는 <strong>간접적으로 피해자를 압박</strong>하는 효과를 가져, 피해자에 대한 2차 가해로 인정됩니다.</p>\n<p>동료에 대한 보복을 발견하면: <strong>①해당 동료에게 증거 보관을 권유 ②사업주에게 보복 조치 철회를 서면으로 요구 ③고용노동부에 진정 ④민사상 손해배상 청구 검토</strong></p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 동료 보복 사실 확인 → 서면 철회 요구 → 고용노동부 진정 → 손해배상 검토</blockquote>',
+          '<p><strong style="color:#1e3a5f">대법원 판례에 따르면 사업주가 피해자를 도운 동료에게 부당한 불이익을 줌으로써 피해자에게 정신적 고통을 입히면, 피해자도 사업주에게 손해배상을 청구할 수 있습니다</strong></p>\n<p>목격자 진술을 해준 동료가 갑자기 불리한 부서로 발령받거나 징계를 받는 경우가 있습니다. 이는 <strong>간접적으로 피해자를 압박</strong>하는 효과를 가져, 피해자에 대한 2차 가해로 인정될 수 있습니다.</p>\n<p>동료에 대한 보복을 발견하면: <strong>①해당 동료에게 증거 보관을 권유 ②사업주에게 보복 조치 철회를 서면으로 요구 ③고용노동부에 진정 ④민사상 손해배상 청구 검토</strong></p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 동료 보복 사실 확인 → 서면 철회 요구 → 고용노동부 진정 → 손해배상 검토</blockquote>',
       },
       {
         title: '2차 가해 유형 4: 조사 과정에서의 피해자 비난',
         content:
-          '<p><strong style="color:#1e3a5f">대법원 판례에 따르면 법원은 성희롱 소송 심리 시 "성인지 감수성"을 잃지 말아야 하며, 2차 피해에 대한 피해자의 불안감을 고려해야 합니다</strong></p>\n<p>사내 조사 과정에서 <strong>"왜 그때 거부하지 않았느냐" "옷차림에 문제가 있었던 것 아니냐"</strong> 같은 질문을 받는 것도 2차 가해에 해당합니다. 성희롱 피해자가 즉시 거부 의사를 표시하지 못하는 것은 권력관계상 충분히 있을 수 있는 일이며, 이를 피해자 탓으로 돌리는 것은 위법합니다.</p>\n<p>조사 과정에서 부당한 대우를 받으면: <strong>①조사 내용을 녹음(적법) ②부당한 질문 내용을 상세히 기록 ③조사 담당자의 태도가 부적절하면 조사 중단 요청 ④외부 기관(고용노동부, 국가인권위)에 추가 진정</strong></p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조사 시 주의: 조사 내용 녹음 → 부당 질문 기록 → 중단 요청 가능 → 외부 기관 진정</blockquote>',
+          '<p><strong style="color:#1e3a5f">대법원 판례에 따르면 법원은 성희롱 소송 심리 시 "성인지 감수성"을 잃지 말아야 하며, 2차 피해에 대한 피해자의 불안감을 고려해야 합니다</strong></p>\n<p>사내 조사 과정에서 <strong>"왜 그때 거부하지 않았느냐" "옷차림에 문제가 있었던 것 아니냐"</strong> 같은 질문을 받는 것도 2차 가해에 해당할 소지가 있습니다. 성희롱 피해자가 즉시 거부 의사를 표시하지 못하는 것은 권력관계상 충분히 있을 수 있는 일이며, 이를 피해자 탓으로 돌리는 것은 위법 소지가 있습니다.</p>\n<p>조사 과정에서 부당한 대우를 받으면: <strong>①조사 내용을 녹음(적법) ②부당한 질문 내용을 상세히 기록 ③조사 담당자의 태도가 부적절하면 조사 중단 요청 ④외부 기관(고용노동부, 국가인권위)에 추가 진정</strong></p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조사 시 주의: 조사 내용 녹음 → 부당 질문 기록 → 중단 요청 가능 → 외부 기관 진정</blockquote>',
       },
     ],
     cases: [

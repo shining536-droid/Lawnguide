@@ -30,7 +30,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         title: '법원이 적용하는 기여도 산정 기준',
         content:
-          '<p><strong style="color:#1e3a5f">법원은 부부 각자의 재산 형성 기여도를 종합적으로 판단하여 분할 비율을 정합니다.</strong></p>\n<ul>\n<li><strong>경제적 기여</strong> — 소득 활동을 통해 재산 형성에 직접 기여한 정도입니다. 맞벌이 부부는 소득 비율이 중요한 참고자료가 됩니다.</li>\n<li><strong>가사노동 기여</strong> — 전업주부의 가사노동, 육아, 가정 관리도 경제적 기여와 동등하게 평가됩니다. 판례상 전업주부의 기여도는 통상 30~50%로 인정됩니다.</li>\n<li><strong>혼인 기간</strong> — 혼인 기간이 길수록 공동 형성 재산으로 인정되는 범위가 넓어집니다. 20년 이상 장기 혼인의 경우 50:50에 가까운 분할이 이루어지는 경향이 있습니다.</li>\n<li><strong>재산 감소 원인</strong> — 일방의 낭비, 도박, 은닉 행위가 있으면 그 부분을 고려하여 상대방에게 유리하게 조정합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>내 재산분할 비율, AI가 예측해 드립니다</strong></p>\n<p style="margin:0;font-size:0.95em">혼인 기간과 재산 현황을 입력하면 예상 분할 비율을 무료로 확인하세요.</p>\n<a href="/chat?domain=divorce" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">법원은 부부 각자의 재산 형성 기여도를 종합적으로 판단하여 분할 비율을 정합니다.</strong></p>\n<ul>\n<li><strong>경제적 기여</strong> — 소득 활동을 통해 재산 형성에 직접 기여한 정도입니다. 맞벌이 부부는 소득 비율이 중요한 참고자료가 됩니다.</li>\n<li><strong>가사노동 기여</strong> — 전업주부의 가사노동, 육아, 가정 관리도 경제적 기여와 동등하게 평가됩니다. 판례상 전업주부의 기여도는 통상 30~50%로 인정될 수 있습니다.</li>\n<li><strong>혼인 기간</strong> — 혼인 기간이 길수록 공동 형성 재산으로 인정되는 범위가 넓어집니다. 20년 이상 장기 혼인의 경우 50:50에 가까운 분할이 이루어지는 경향이 있습니다.</li>\n<li><strong>재산 감소 원인</strong> — 일방의 낭비, 도박, 은닉 행위가 있으면 그 부분을 고려하여 상대방에게 유리하게 조정합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>내 재산분할 비율, AI가 예측해 드립니다</strong></p>\n<p style="margin:0;font-size:0.95em">혼인 기간과 재산 현황을 입력하면 예상 분할 비율을 무료로 확인하세요.</p>\n<a href="/chat?domain=divorce" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '재산분할 청구 절차와 시효',
@@ -222,7 +222,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
         summary:
           '대법원 2024스876 사건(대법원, 2026.01.15 선고)에서 법원은 이혼 당사자 일방이 사망하더라도 재산분할의무는 상속인에게 승계된다고 판시하며, 이혼 후 재산적 의무의 이행을 강하게 보호했습니다.',
         takeaway:
-          '양육비뿐 아니라 재산분할도 상대방이 사망한 후 상속인에게 청구할 수 있습니다. 이혼 후 재산적 권리를 포기하지 말고, 기한 내에 반드시 청구하세요.',
+          '양육비뿐 아니라 재산분할도 상대방이 사망한 후 상속인에게 청구할 수 있습니다. 이혼 후 재산적 권리를 포기하지 말고, 기한 내에 가능한 한 청구하세요.',
       },
     ],
     faq: [
@@ -282,7 +282,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         title: '적극적 손해 — 치료비와 실비 보상',
         content:
-          '<p><strong style="color:#1e3a5f">실제 지출된 치료비와 향후 치료비가 적극적 손해에 해당합니다.</strong></p>\n<ul>\n<li><strong>기왕치료비</strong> — 사고 시점부터 현재까지 실제 지출된 병원비, 약제비, 한방치료비, 물리치료비 등 전액이 포함됩니다.</li>\n<li><strong>향후치료비</strong> — 의사 소견서에 따라 향후 필요한 수술비, 재활치료비, 보조기구 비용 등을 산정합니다. 의료감정을 통해 금액이 확정됩니다.</li>\n<li><strong>개호비</strong> — 중상해로 일상생활이 어려운 경우, 간병인 비용(개호비)도 청구할 수 있습니다. 가족이 간병한 경우에도 인정됩니다.</li>\n<li><strong>기타 실비</strong> — 교통비, 보조기구 구입비, 차량 수리비(또는 시가 배상) 등도 적극적 손해에 포함됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 치료 중이라면 합의를 서두르지 마세요. 향후 치료비가 확정된 후 합의해야 정당한 보상을 받을 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">실제 지출된 치료비와 향후 치료비가 적극적 손해에 해당할 소지가 있습니다.</strong></p>\n<ul>\n<li><strong>기왕치료비</strong> — 사고 시점부터 현재까지 실제 지출된 병원비, 약제비, 한방치료비, 물리치료비 등 전액이 포함됩니다.</li>\n<li><strong>향후치료비</strong> — 의사 소견서에 따라 향후 필요한 수술비, 재활치료비, 보조기구 비용 등을 산정합니다. 의료감정을 통해 금액이 확정됩니다.</li>\n<li><strong>개호비</strong> — 중상해로 일상생활이 어려운 경우, 간병인 비용(개호비)도 청구할 수 있습니다. 가족이 간병한 경우에도 인정될 수 있습니다.</li>\n<li><strong>기타 실비</strong> — 교통비, 보조기구 구입비, 차량 수리비(또는 시가 배상) 등도 적극적 손해에 포함됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 치료 중이라면 합의를 서두르지 마세요. 향후 치료비가 확정된 후 합의해야 정당한 보상을 받을 수 있습니다.</blockquote>',
       },
       {
         title: '소극적 손해 — 휴업손해와 일실수익',
@@ -292,12 +292,12 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         title: '위자료와 과실상계',
         content:
-          '<p><strong style="color:#1e3a5f">정신적 고통에 대한 위자료와 피해자 과실에 따른 감액이 최종 금액을 결정합니다.</strong></p>\n<ul>\n<li><strong>위자료</strong> — 사고로 인한 정신적 고통에 대한 배상입니다. 부상 정도, 후유장해 등급, 가해자의 태도 등을 고려하여 산정합니다. 사망 사고의 경우 유족에게도 고유의 위자료가 인정됩니다.</li>\n<li><strong>과실상계</strong> — 피해자에게도 과실이 있으면 그 비율만큼 보상금이 감액됩니다. 예: 과실비율 30%면 총 손해액의 70%만 보상받습니다.</li>\n<li><strong>과실비율 기준</strong> — 도로교통공단의 과실비율 인정기준표가 일반적으로 적용되며, 블랙박스 영상이 결정적 증거가 됩니다.</li>\n<li><strong>손익공제</strong> — 자동차보험에서 이미 지급받은 치료비, 산재보험 급여 등은 중복 수령이 불가하므로 공제됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 보험사가 제시하는 과실비율에 반드시 동의할 필요는 없습니다. 블랙박스나 CCTV 영상을 확보하여 과실비율을 다툴 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">정신적 고통에 대한 위자료와 피해자 과실에 따른 감액이 최종 금액을 결정합니다.</strong></p>\n<ul>\n<li><strong>위자료</strong> — 사고로 인한 정신적 고통에 대한 배상입니다. 부상 정도, 후유장해 등급, 가해자의 태도 등을 고려하여 산정합니다. 사망 사고의 경우 유족에게도 고유의 위자료가 인정될 수 있습니다.</li>\n<li><strong>과실상계</strong> — 피해자에게도 과실이 있으면 그 비율만큼 보상금이 감액됩니다. 예: 과실비율 30%면 총 손해액의 70%만 보상받습니다.</li>\n<li><strong>과실비율 기준</strong> — 도로교통공단의 과실비율 인정기준표가 일반적으로 적용되며, 블랙박스 영상이 결정적 증거가 됩니다.</li>\n<li><strong>손익공제</strong> — 자동차보험에서 이미 지급받은 치료비, 산재보험 급여 등은 중복 수령이 불가하므로 공제됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 보험사가 제시하는 과실비율에 가능한 한 동의할 필요는 없습니다. 블랙박스나 CCTV 영상을 확보하여 과실비율을 다툴 수 있습니다.</blockquote>',
       },
       {
         title: '보상금 산정 시 꼭 챙겨야 할 사항',
         content:
-          '<p><strong style="color:#1e3a5f">보험사 합의 전에 반드시 아래 사항을 확인해야 손해를 줄일 수 있습니다.</strong></p>\n<ul>\n<li><strong>후유장해 진단</strong> — 치료가 종결되면 후유장해 진단을 받으세요. 노동능력상실률에 따라 일실수익이 수천만원 이상 차이 날 수 있습니다.</li>\n<li><strong>소득 입증 자료</strong> — 원천징수영수증, 소득금액증명원, 사업자 매출 자료 등으로 사고 전 소득을 입증합니다. 소득 자료가 없으면 통계소득(도시일용노임)이 적용됩니다.</li>\n<li><strong>합의 시기</strong> — 치료 중 조기 합의는 불리합니다. 최소 치료 종결 후, 후유장해가 확정된 시점에 합의하세요.</li>\n<li><strong>보험사 제시액 검증</strong> — 보험사 제시액은 자체 기준이며, 법원 기준보다 낮은 경우가 많습니다. AI 상담이나 전문가 조언을 통해 적정 금액을 확인한 후 협상하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">팁: 보험사 합의가 불만족스러우면 손해배상소송을 제기할 수 있습니다. 소송 시 법원 감정을 통해 정확한 손해액이 산정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">보험사 합의 전에 가능한 한 아래 사항을 확인해야 손해를 줄일 수 있습니다.</strong></p>\n<ul>\n<li><strong>후유장해 진단</strong> — 치료가 종결되면 후유장해 진단을 받으세요. 노동능력상실률에 따라 일실수익이 수천만원 이상 차이 날 수 있습니다.</li>\n<li><strong>소득 입증 자료</strong> — 원천징수영수증, 소득금액증명원, 사업자 매출 자료 등으로 사고 전 소득을 입증합니다. 소득 자료가 없으면 통계소득(도시일용노임)이 적용됩니다.</li>\n<li><strong>합의 시기</strong> — 치료 중 조기 합의는 불리합니다. 최소 치료 종결 후, 후유장해가 확정된 시점에 합의하세요.</li>\n<li><strong>보험사 제시액 검증</strong> — 보험사 제시액은 자체 기준이며, 법원 기준보다 낮은 경우가 많습니다. AI 상담이나 전문가 조언을 통해 적정 금액을 확인한 후 협상하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">팁: 보험사 합의가 불만족스러우면 손해배상소송을 제기할 수 있습니다. 소송 시 법원 감정을 통해 정확한 손해액이 산정됩니다.</blockquote>',
       },
     ],
     cases: [
@@ -323,7 +323,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         question: '소득이 없는 전업주부도 휴업손해를 받을 수 있나요?',
         answer:
-          '<p>네, 전업주부도 도시일용노임 기준으로 휴업손해가 산정됩니다. 2026년 기준 도시일용노임은 일 약 15만원 수준이며, 가사노동의 경제적 가치가 인정됩니다.</p>',
+          '<p>네, 전업주부도 도시일용노임 기준으로 휴업손해가 산정됩니다. 2026년 기준 도시일용노임은 일 약 15만원 수준이며, 가사노동의 경제적 가치가 인정될 수 있습니다.</p>',
       },
       {
         question: '블랙박스가 없으면 과실비율을 다툴 수 없나요?',
@@ -455,7 +455,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         title: '3단계: 치료와 서류 준비',
         content:
-          '<p><strong style="color:#1e3a5f">충분히 치료받으면서 보험금 청구에 필요한 서류를 차근차근 모읍니다.</strong></p>\n<ul>\n<li><strong>병원 치료</strong> — 사고 당일 반드시 병원에 가세요. 초기 진단서가 사고와 부상의 인과관계를 입증하는 핵심 증거입니다. MRI, CT 등 정밀검사를 빠뜨리지 마세요.</li>\n<li><strong>진단서·소견서</strong> — 상해진단서(초진), 후유장해진단서(치료 종결 후), 향후치료비 소견서가 필요합니다.</li>\n<li><strong>비용 영수증</strong> — 치료비 영수증, 약제비, 교통비(택시 영수증 등), 보조기구 구입비 영수증을 모두 보관합니다.</li>\n<li><strong>소득 증빙</strong> — 휴업손해 청구를 위해 재직증명서, 급여명세서, 소득금액증명원 등을 준비합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>보험금 청구 서류 체크리스트 AI가 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">사고 유형과 부상 정도를 입력하면 필요한 서류 목록을 무료로 정리해 드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">충분히 치료받으면서 보험금 청구에 필요한 서류를 차근차근 모읍니다.</strong></p>\n<ul>\n<li><strong>병원 치료</strong> — 사고 당일 가능한 한 병원에 가세요. 초기 진단서가 사고와 부상의 인과관계를 입증하는 핵심 증거입니다. MRI, CT 등 정밀검사를 빠뜨리지 마세요.</li>\n<li><strong>진단서·소견서</strong> — 상해진단서(초진), 후유장해진단서(치료 종결 후), 향후치료비 소견서가 필요합니다.</li>\n<li><strong>비용 영수증</strong> — 치료비 영수증, 약제비, 교통비(택시 영수증 등), 보조기구 구입비 영수증을 모두 보관합니다.</li>\n<li><strong>소득 증빙</strong> — 휴업손해 청구를 위해 재직증명서, 급여명세서, 소득금액증명원 등을 준비합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>보험금 청구 서류 체크리스트 AI가 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">사고 유형과 부상 정도를 입력하면 필요한 서류 목록을 무료로 정리해 드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '4단계: 보험금 청구와 합의 협상',
@@ -534,7 +534,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         title: '사기죄 성립 요건과 고소 전 확인사항',
         content:
-          '<p><strong style="color:#1e3a5f">사기죄는 기망행위 → 착오 → 재산 처분 → 재산상 이익의 4단계가 모두 입증되어야 합니다.</strong></p>\n<ul>\n<li><strong>기망행위</strong> — 상대방이 처음부터 속일 의도로 거짓말을 했는지가 핵심입니다. 단순히 약속을 안 지킨 것만으로는 사기죄가 아닐 수 있습니다.</li>\n<li><strong>편취 의사</strong> — 돈을 빌릴 당시 갚을 능력이나 의사가 없었음을 증명해야 합니다. 차용 당시의 경제 상태, 다른 채무 현황, 용도 허위 진술 등이 증거가 됩니다.</li>\n<li><strong>민사와 구별</strong> — 돈을 빌리고 안 갚는 것은 민사 채무불이행이고, 처음부터 갚을 의사 없이 빌린 것이 사기입니다. 이 구별이 수사 초기에 결정적입니다.</li>\n<li><strong>금액 기준</strong> — 사기 금액이 5억원 이상이면 특정경제범죄가중처벌법이 적용되어 형이 가중됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "처음부터 속일 의도가 있었다"는 점을 입증하는 증거가 고소의 성패를 좌우합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사기죄는 기망행위 → 착오 → 재산 처분 → 재산상 이익의 4단계가 모두 입증되어야 합니다.</strong></p>\n<ul>\n<li><strong>기망행위</strong> — 상대방이 처음부터 속일 의도로 거짓말을 했는지가 핵심입니다. 단순히 약속을 안 지킨 것만으로는 사기죄가 아닐 수 있습니다.</li>\n<li><strong>편취 의사</strong> — 돈을 빌릴 당시 갚을 능력이나 의사가 없었음을 증명해야 합니다. 차용 당시의 경제 상태, 다른 채무 현황, 용도 허위 진술 등이 증거가 됩니다.</li>\n<li><strong>민사와 구별</strong> — 돈을 빌리고 안 갚는 것은 민사 채무불이행이고, 처음부터 갚을 의사 없이 빌린 것이 사기로 검토될 수 있습니다. 이 구별이 수사 초기에 결정적입니다.</li>\n<li><strong>금액 기준</strong> — 사기 금액이 5억원 이상이면 특정경제범죄가중처벌법이 적용되어 형이 가중됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "처음부터 속일 의도가 있었다"는 점을 입증하는 증거가 고소의 성패를 좌우합니다.</blockquote>',
       },
       {
         title: '고소장 작성과 접수 절차',
@@ -558,14 +558,14 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
         summary:
           '대법원 2022도1862 사건(대법원, 2026.01.29 선고)에서 법원은 컴퓨터에 정보를 입력하는 행위가 재산적 처분행위를 하는 사람을 직접 대상으로 한 것이 아니더라도, 그 정보처리 결과를 통해 사람을 착오에 빠뜨렸다면 사기죄의 기망행위에 해당한다고 판시했습니다.',
         takeaway:
-          '온라인이나 시스템을 통한 간접적 기망도 사기죄가 성립합니다. 인터넷 사기 피해를 입었다면 "컴퓨터로 한 거라 사기가 아니다"라는 가해자 주장에 흔들리지 마세요.',
+          '온라인이나 시스템을 통한 간접적 기망도 사기죄가 성립할 수 있습니다. 인터넷 사기 피해를 입었다면 "컴퓨터로 한 거라 사기가 아니다"라는 가해자 주장에 흔들리지 마세요.',
       },
     ],
     faq: [
       {
         question: '돈을 빌려주고 못 받으면 다 사기인가요?',
         answer:
-          '<p>아닙니다. 빌려줄 당시 상대방에게 갚을 의사와 능력이 있었다면 단순 채무불이행(민사)이지 사기죄가 아닙니다. 처음부터 갚을 의사 없이 속여서 빌린 경우에만 사기죄가 성립합니다. 이 구별이 고소 성패를 결정합니다.</p>',
+          '<p>아닙니다. 빌려줄 당시 상대방에게 갚을 의사와 능력이 있었다면 단순 채무불이행(민사)이지 사기죄가 아닙니다. 처음부터 갚을 의사 없이 속여서 빌린 경우에만 사기죄가 성립할 수 있습니다. 이 구별이 고소 성패를 결정합니다.</p>',
       },
       {
         question: '고소장은 변호사 없이도 쓸 수 있나요?',
@@ -652,7 +652,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
     ],
     faq: [
       {
-        question: '경찰 출석 요구를 받으면 반드시 가야 하나요?',
+        question: '경찰 출석 요구를 받으면 가능한 한 가야 하나요?',
         answer:
           '<p>경찰의 출석 요구는 강제가 아니지만, 불응하면 체포영장이 발부될 수 있습니다. 날짜 조정은 가능하므로 충분히 준비한 후 출석하되, 무작정 피하지는 마세요.</p>',
       },
@@ -791,7 +791,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         title: '파산 신청 요건과 절차',
         content:
-          '<p><strong style="color:#1e3a5f">지급불능(채무를 갚을 수 없는 상태)이면 누구나 파산을 신청할 수 있습니다.</strong></p>\n<ul>\n<li><strong>지급불능</strong> — 채무자의 재산과 소득으로 모든 채무를 변제할 수 없는 상태를 말합니다. 채무 금액이 재산보다 많으면 인정됩니다.</li>\n<li><strong>신청서류</strong> — 파산·면책 신청서, 채권자목록, 재산목록, 수입·지출 명세서, 진술서 등을 법원에 제출합니다.</li>\n<li><strong>파산선고</strong> — 법원이 지급불능을 인정하면 파산을 선고합니다. 재산이 거의 없으면 동시폐지(파산관재인 선임 없이 바로 면책 절차로)로 진행됩니다.</li>\n<li><strong>면책신청</strong> — 파산선고 후 면책을 신청합니다. 대부분 파산신청과 동시에 면책신청을 합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 파산선고만으로는 채무가 소멸하지 않습니다. 면책결정이 확정되어야 비로소 채무 변제 책임이 면제됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">지급불능(채무를 갚을 수 없는 상태)이면 누구나 파산을 신청할 수 있습니다.</strong></p>\n<ul>\n<li><strong>지급불능</strong> — 채무자의 재산과 소득으로 모든 채무를 변제할 수 없는 상태를 말합니다. 채무 금액이 재산보다 많으면 인정될 수 있습니다.</li>\n<li><strong>신청서류</strong> — 파산·면책 신청서, 채권자목록, 재산목록, 수입·지출 명세서, 진술서 등을 법원에 제출합니다.</li>\n<li><strong>파산선고</strong> — 법원이 지급불능을 인정하면 파산을 선고합니다. 재산이 거의 없으면 동시폐지(파산관재인 선임 없이 바로 면책 절차로)로 진행됩니다.</li>\n<li><strong>면책신청</strong> — 파산선고 후 면책을 신청합니다. 대부분 파산신청과 동시에 면책신청을 합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 파산선고만으로는 채무가 소멸하지 않습니다. 면책결정이 확정되어야 비로소 채무 변제 책임이 면제됩니다.</blockquote>',
       },
       {
         title: '면책 요건 5가지와 불허가 사유',
@@ -875,7 +875,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         title: '1단계: 내용증명 발송과 반환 요구',
         content:
-          '<p><strong style="color:#1e3a5f">계약 만료 전에 갱신 거절 통보를 하고, 만료 후에는 내용증명으로 반환을 요구합니다.</strong></p>\n<ul>\n<li><strong>갱신 거절 통보</strong> — 계약 만료 6개월~2개월 전에 임대인에게 갱신 거절 의사를 통보해야 합니다. 통보하지 않으면 자동 갱신될 수 있습니다.</li>\n<li><strong>내용증명 발송</strong> — 계약 만료일 또는 이후 즉시 내용증명으로 보증금 반환을 요구합니다. 반환 기한(통상 2주)을 명시하고, 불이행 시 법적 조치를 취하겠다고 기재합니다.</li>\n<li><strong>대항력 유지</strong> — 보증금을 받기 전까지 전입신고와 점유(거주)를 유지하세요. 이사 가면 대항력과 우선변제권을 잃을 수 있습니다.</li>\n<li><strong>임차권등기명령</strong> — 이사를 해야 하지만 보증금을 못 받은 경우, 법원에 임차권등기명령을 신청하면 이사 후에도 대항력을 유지할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보증금을 받기 전에 이사하면 우선변제권을 잃습니다. 반드시 임차권등기명령을 먼저 받으세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">계약 만료 전에 갱신 거절 통보를 하고, 만료 후에는 내용증명으로 반환을 요구합니다.</strong></p>\n<ul>\n<li><strong>갱신 거절 통보</strong> — 계약 만료 6개월~2개월 전에 임대인에게 갱신 거절 의사를 통보해야 합니다. 통보하지 않으면 자동 갱신될 수 있습니다.</li>\n<li><strong>내용증명 발송</strong> — 계약 만료일 또는 이후 즉시 내용증명으로 보증금 반환을 요구합니다. 반환 기한(통상 2주)을 명시하고, 불이행 시 법적 조치를 취하겠다고 기재합니다.</li>\n<li><strong>대항력 유지</strong> — 보증금을 받기 전까지 전입신고와 점유(거주)를 유지하세요. 이사 가면 대항력과 우선변제권을 잃을 수 있습니다.</li>\n<li><strong>임차권등기명령</strong> — 이사를 해야 하지만 보증금을 못 받은 경우, 법원에 임차권등기명령을 신청하면 이사 후에도 대항력을 유지할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보증금을 받기 전에 이사하면 우선변제권을 잃습니다. 가능한 한 임차권등기명령을 먼저 받으세요.</blockquote>',
       },
       {
         title: '2단계: 임차권등기명령과 보증보험',
@@ -911,7 +911,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         question: '이사를 가면 보증금을 못 받게 되나요?',
         answer:
-          '<p>이사하면서 전입신고를 옮기면 대항력과 우선변제권을 잃을 수 있습니다. 이사 전에 반드시 임차권등기명령을 받아두세요. 등기가 완료되면 이사 후에도 권리가 유지됩니다.</p>',
+          '<p>이사하면서 전입신고를 옮기면 대항력과 우선변제권을 잃을 수 있습니다. 이사 전에 가능한 한 임차권등기명령을 받아두세요. 등기가 완료되면 이사 후에도 권리가 유지됩니다.</p>',
       },
       {
         question: '전세보증금 반환보증은 어디서 가입하나요?',
@@ -921,7 +921,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         question: '확정일자가 없으면 보증금을 못 받나요?',
         answer:
-          '<p>확정일자가 없어도 보증금 반환 청구는 가능합니다. 다만 경매 시 우선변제권을 주장하려면 확정일자가 필요합니다. 확정일자는 주민센터나 인터넷등기소에서 600원에 받을 수 있으니 반드시 받아두세요.</p>',
+          '<p>확정일자가 없어도 보증금 반환 청구는 가능합니다. 다만 경매 시 우선변제권을 주장하려면 확정일자가 필요합니다. 확정일자는 주민센터나 인터넷등기소에서 600원에 받을 수 있으니 가능한 한 받아두세요.</p>',
       },
       {
         question: '임대인이 파산하면 보증금을 못 받나요?',

@@ -37,7 +37,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
       {
         title: '1단계 — 해고 통보 내용을 즉시 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">서면 통지가 없다면 그 자체로 절차 위반입니다</strong></p>\n<p><strong>근로기준법 제27조</strong>에 따라 사용자는 해고 사유와 시기를 반드시 <strong>서면으로</strong> 통지해야 합니다. 카카오톡 메시지, 구두 통보, 문자만으로 한 해고는 절차 위반으로 부당해고에 해당합니다.</p>\n<ul>\n<li>서면 해고통지서가 있다면 사본을 즉시 보관하세요</li>\n<li>구두로 통보받았다면 <strong>날짜·장소·발언 내용·상대방</strong>을 메모하고, 가능하면 대화 직후 녹음 파일이나 통화 기록을 남기세요</li>\n<li>카카오톡·이메일이라면 스크린샷을 클라우드에 백업하세요. 상대방이 메시지를 삭제할 수 있습니다</li>\n<li>동료가 목격했다면 연락처를 따로 메모해 두세요. 나중에 참고인 진술을 받을 수 있습니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 서면 없는 해고 = 절차 위반 → 부당해고 주장 가능 | 모든 증거를 해고 당일 확보하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">서면 통지가 없다면 그 자체로 절차 위반입니다</strong></p>\n<p><strong>근로기준법 제27조</strong>에 따라 사용자는 해고 사유와 시기를 가능한 한 <strong>서면으로</strong> 통지해야 합니다. 카카오톡 메시지, 구두 통보, 문자만으로 한 해고는 절차 위반으로 부당해고에 해당할 소지가 있습니다.</p>\n<ul>\n<li>서면 해고통지서가 있다면 사본을 즉시 보관하세요</li>\n<li>구두로 통보받았다면 <strong>날짜·장소·발언 내용·상대방</strong>을 메모하고, 가능하면 대화 직후 녹음 파일이나 통화 기록을 남기세요</li>\n<li>카카오톡·이메일이라면 스크린샷을 클라우드에 백업하세요. 상대방이 메시지를 삭제할 수 있습니다</li>\n<li>동료가 목격했다면 연락처를 따로 메모해 두세요. 나중에 참고인 진술을 받을 수 있습니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 서면 없는 해고 = 절차 위반 → 부당해고 주장 가능 | 모든 증거를 해고 당일 확보하세요</blockquote>',
       },
       {
         title: '2단계 — 부당해고 여부를 판단하는 기준을 확인하세요',
@@ -52,7 +52,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
       {
         title: '5인 미만 사업장과 계약직의 대응 방법',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 해고 제한 규정은 5인 이상 사업장에만 적용됩니다. 상황에 따라 대응 방법이 달라집니다</strong></p>\n<ul>\n<li><strong>5인 미만 사업장</strong> — 근로기준법 제23조(부당해고 금지)가 적용되지 않습니다. 그러나 <strong>서면 해고통지 의무, 해고예고수당</strong>은 5인 미만에도 적용됩니다. 또한 민사소송으로 근로계약 위반을 주장하거나, 고용보험 수급에는 영향이 없습니다</li>\n<li><strong>계약직(기간제)의 경우</strong> — 계약 기간 중 해고는 별도의 정당한 사유가 있어야 합니다. 계약 만료 형식이더라도 사실상 해고라면 구제 대상이 될 수 있습니다</li>\n<li><strong>수습 기간 중 해고</strong> — 수습 3개월 이내라도 정당한 이유 없이 해고할 수 없습니다. 다만 해고예고 의무는 면제됩니다</li>\n<li><strong>권고사직 압박의 경우</strong> — 사용자가 사직서를 강요했다면 <strong>강제된 사직</strong>으로 해고와 동일하게 다툴 수 있습니다. 사직서에 서명하기 전에 반드시 확인하세요</li>\n</ul>\n<p>내부링크: <a href="/guide/dismissal/unfair-dismissal-first-steps">부당해고 즉시 대응 3가지</a> | <a href="/guide/dismissal/dismissal-notice-pay">해고예고수당 청구 방법</a></p>',
+          '<p><strong style="color:#1e3a5f">근로기준법 해고 제한 규정은 5인 이상 사업장에만 적용됩니다. 상황에 따라 대응 방법이 달라집니다</strong></p>\n<ul>\n<li><strong>5인 미만 사업장</strong> — 근로기준법 제23조(부당해고 금지)가 적용되지 않습니다. 그러나 <strong>서면 해고통지 의무, 해고예고수당</strong>은 5인 미만에도 적용됩니다. 또한 민사소송으로 근로계약 위반을 주장하거나, 고용보험 수급에는 영향이 없습니다</li>\n<li><strong>계약직(기간제)의 경우</strong> — 계약 기간 중 해고는 별도의 정당한 사유가 있어야 합니다. 계약 만료 형식이더라도 사실상 해고라면 구제 대상이 될 수 있습니다</li>\n<li><strong>수습 기간 중 해고</strong> — 수습 3개월 이내라도 정당한 이유 없이 해고할 수 없습니다. 다만 해고예고 의무는 면제됩니다</li>\n<li><strong>권고사직 압박의 경우</strong> — 사용자가 사직서를 강요했다면 <strong>강제된 사직</strong>으로 해고와 동일하게 다툴 수 있습니다. 사직서에 서명하기 전에 가능한 한 확인하세요</li>\n</ul>\n<p>내부링크: <a href="/guide/dismissal/unfair-dismissal-first-steps">부당해고 즉시 대응 3가지</a> | <a href="/guide/dismissal/dismissal-notice-pay">해고예고수당 청구 방법</a></p>',
       },
     ],
     cases: [
@@ -61,14 +61,14 @@ export const spokesBatch23_22to28: SpokePage[] = [
         summary:
           '대법원 2025두33276 사건(대법원, 2025.10.16. 선고)에서 법원은 근로자가 부당해고 구제신청을 할 당시 이미 정년 도달, 근로계약 만료, 폐업 등으로 근로계약관계가 종료하여 근로자 지위에서 벗어난 경우에는 구제명령을 받을 이익이 소멸한다고 판시했습니다.',
         takeaway:
-          '구제신청 기한(3개월)뿐 아니라, 신청 시점에 근로자 지위가 유지되고 있어야 구제 이익이 인정됩니다. 계약 만료·정년 도달 전에 신청하는 것이 중요합니다.',
+          '구제신청 기한(3개월)뿐 아니라, 신청 시점에 근로자 지위가 유지되고 있어야 구제 이익이 인정될 수 있습니다. 계약 만료·정년 도달 전에 신청하는 것이 중요합니다.',
       },
     ],
     faq: [
       {
         question: '해고 통보 당일 바로 구제신청을 해야 하나요?',
         answer:
-          '반드시 당일일 필요는 없지만, <strong>해고일로부터 3개월 이내</strong>에 반드시 신청해야 합니다. 증거 수집에 1~2주가 소요되더라도 기한 내에 접수하면 됩니다. 단, 기한을 넘기면 구제신청 자체가 각하됩니다.',
+          '가능한 한 당일일 필요는 없지만, <strong>해고일로부터 3개월 이내</strong>에 가능한 한 신청해야 합니다. 증거 수집에 1~2주가 소요되더라도 기한 내에 접수하면 됩니다. 단, 기한을 넘기면 구제신청 자체가 각하됩니다.',
       },
       {
         question: '구제신청과 형사 고소를 동시에 할 수 있나요?',
@@ -78,7 +78,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
       {
         question: '회사가 퇴직금을 빨리 주겠다고 하는데 사직서를 써야 하나요?',
         answer:
-          '<strong>사직서에 서명하기 전에 반드시 확인하세요.</strong> 사직서를 자의로 제출하면 부당해고 구제신청에서 불리하게 작용할 수 있습니다. 퇴직금 수령과 부당해고 다툼은 별개이므로, 퇴직금을 받더라도 구제신청 권리는 유지됩니다.',
+          '<strong>사직서에 서명하기 전에 가능한 한 확인하세요.</strong> 사직서를 자의로 제출하면 부당해고 구제신청에서 불리하게 작용할 수 있습니다. 퇴직금 수령과 부당해고 다툼은 별개이므로, 퇴직금을 받더라도 구제신청 권리는 유지됩니다.',
       },
       {
         question: '노동위원회 구제신청이 기각되면 어떻게 되나요?',
@@ -136,7 +136,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
       {
         title: '홈쇼핑 호스트 판례 — 프리랜서라도 근로자가 될 수 있다',
         content:
-          '<p><strong style="color:#1e3a5f">서울중앙지법 2023가합96954 사건에서 프리랜서 쇼핑호스트의 근로자성이 다투어졌습니다</strong></p>\n<p>홈쇼핑 회사와 위촉계약을 맺고 활동한 쇼핑호스트 乙씨가 계약 해지(해고무효확인)를 다툰 사건입니다. 법원은 이 사안에서 쇼핑호스트가 <strong>개인적 역량을 자율적으로 발휘하여 업무를 수행하며, 회사가 구체적이고 직접적인 지휘·감독을 했다고 볼 수 없다</strong>고 판단하여 근로자성을 부정했습니다.</p>\n<p>반면, 다른 사례에서는 동일한 프리랜서 형식이라도 출퇴근 지시, 업무 수행 방식의 구체적 통제, 전속성, 보수의 임금성 등이 인정되면 근로자로 인정됩니다.</p>\n<ul>\n<li><strong>근로자성 인정 요소</strong>: 사용자 지시에 따른 업무 수행, 취업규칙 적용, 전속 근무, 보수 고정성, 4대 보험 가입 여부</li>\n<li><strong>근로자성 부정 요소</strong>: 업무 수행 자율성, 복수 거래처 동시 작업, 결과물 단위 보수, 사업자등록 보유</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 맞춤 대응 전략을 세워드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">서울중앙지법 2023가합96954 사건에서 프리랜서 쇼핑호스트의 근로자성이 다투어졌습니다</strong></p>\n<p>홈쇼핑 회사와 위촉계약을 맺고 활동한 쇼핑호스트 乙씨가 계약 해지(해고무효확인)를 다툰 사건입니다. 법원은 이 사안에서 쇼핑호스트가 <strong>개인적 역량을 자율적으로 발휘하여 업무를 수행하며, 회사가 구체적이고 직접적인 지휘·감독을 했다고 볼 수 없다</strong>고 판단하여 근로자성을 부정했습니다.</p>\n<p>반면, 다른 사례에서는 동일한 프리랜서 형식이라도 출퇴근 지시, 업무 수행 방식의 구체적 통제, 전속성, 보수의 임금성 등이 인정되면 근로자로 인정될 수 있습니다.</p>\n<ul>\n<li><strong>근로자성 인정 요소</strong>: 사용자 지시에 따른 업무 수행, 취업규칙 적용, 전속 근무, 보수 고정성, 4대 보험 가입 여부</li>\n<li><strong>근로자성 부정 요소</strong>: 업무 수행 자율성, 복수 거래처 동시 작업, 결과물 단위 보수, 사업자등록 보유</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 맞춤 대응 전략을 세워드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '해고 무효가 인정됐을 때 받을 수 있는 것들',
@@ -175,7 +175,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
           '<strong>30일분 통상임금(해고예고수당)</strong>을 청구할 수 있습니다. 계산식은 통상임금 × 30일입니다. 3개월 미만 근무자, 일용직 등은 적용 제외될 수 있습니다.',
       },
       {
-        question: '서면 해고통지를 받지 못하면 무조건 무효인가요?',
+        question: '서면 해고통지를 받지 못하면 원칙적으로 무효인가요?',
         answer:
           '원칙적으로 서면 통지 없는 해고는 무효입니다. 다만 사용자가 나중에 서면을 보내면서 해고 효력을 주장하는 경우도 있어, 해고 시점과 서면 발송 시점이 중요한 쟁점이 됩니다. <strong>서면을 받지 못했다면 즉시 증거로 남겨두세요.</strong>',
       },
@@ -268,7 +268,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
       {
         question: '신고하지 않고 합의만 받아도 되나요?',
         answer:
-          '가능합니다. 가해자 측에서 합의금을 제안할 수도 있습니다. 다만 합의서를 작성할 때 <strong>향후 민·형사 일체 청구 포기 조항</strong>이 들어가면 이후 추가 구제가 어려울 수 있으니 내용을 반드시 확인하세요.',
+          '가능합니다. 가해자 측에서 합의금을 제안할 수도 있습니다. 다만 합의서를 작성할 때 <strong>향후 민·형사 일체 청구 포기 조항</strong>이 들어가면 이후 추가 구제가 어려울 수 있으니 내용을 가능한 한 확인하세요.',
       },
       {
         question: '퇴직 후에도 신고할 수 있나요?',
@@ -326,7 +326,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
       {
         title: '4단계 — 무고죄 고소 가능 여부 확인',
         content:
-          '<p><strong style="color:#1e3a5f">신고 내용이 명백히 허위이고 고의성이 입증될 때만 무고죄 고소가 가능합니다</strong></p>\n<p>무고죄(형법 제156조)는 타인을 형사처분이나 징계에 받게 할 목적으로 허위 사실을 신고할 때 성립합니다(10년 이하 징역 또는 1,500만원 이하 벌금). 그러나 무고죄 고소는 요건이 엄격합니다.</p>\n<ul>\n<li><strong>허위성</strong> — 신고된 사실이 객관적으로 허위임이 입증되어야 합니다. 단순히 성희롱 여부가 다투어지는 것만으로는 부족합니다</li>\n<li><strong>고의성</strong> — 신고인이 신고 내용이 허위라는 사실을 알면서 신고했음이 입증되어야 합니다. 오인이나 과장으로 신고한 경우는 무고가 성립하지 않습니다</li>\n<li><strong>실무적 어려움</strong> — 성희롱 사건에서 무고죄 고소가 인정되는 경우는 극히 드뭅니다. 먼저 조사 결과를 기다리고, 결과가 나온 후 무고 여부를 판단하는 것이 현실적입니다</li>\n<li><strong>명예훼손 민사 청구</strong> — 무고죄 형사 고소 대신, 허위 신고로 인한 명예훼손을 이유로 손해배상 청구가 더 현실적인 대응일 수 있습니다</li>\n</ul>\n<p>참고 링크: <a href="/guide/sexual-harassment/workplace-harassment-report-procedure">직장 성희롱 신고 절차</a> | <a href="/guide/sexual-harassment/workplace-harassment-first-check">성희롱 피해 시 먼저 확인할 것</a></p>',
+          '<p><strong style="color:#1e3a5f">신고 내용이 명백히 허위이고 고의성이 입증될 때만 무고죄 고소가 가능합니다</strong></p>\n<p>무고죄(형법 제156조)는 타인을 형사처분이나 징계에 받게 할 목적으로 허위 사실을 신고할 때 성립할 수 있습니다(10년 이하 징역 또는 1,500만원 이하 벌금). 그러나 무고죄 고소는 요건이 엄격합니다.</p>\n<ul>\n<li><strong>허위성</strong> — 신고된 사실이 객관적으로 허위임이 입증되어야 합니다. 단순히 성희롱 여부가 다투어지는 것만으로는 부족합니다</li>\n<li><strong>고의성</strong> — 신고인이 신고 내용이 허위라는 사실을 알면서 신고했음이 입증되어야 합니다. 오인이나 과장으로 신고한 경우는 무고가 성립하지 않습니다</li>\n<li><strong>실무적 어려움</strong> — 성희롱 사건에서 무고죄 고소가 인정되는 경우는 극히 드뭅니다. 먼저 조사 결과를 기다리고, 결과가 나온 후 무고 여부를 판단하는 것이 현실적입니다</li>\n<li><strong>명예훼손 민사 청구</strong> — 무고죄 형사 고소 대신, 허위 신고로 인한 명예훼손을 이유로 손해배상 청구가 더 현실적인 대응일 수 있습니다</li>\n</ul>\n<p>참고 링크: <a href="/guide/sexual-harassment/workplace-harassment-report-procedure">직장 성희롱 신고 절차</a> | <a href="/guide/sexual-harassment/workplace-harassment-first-check">성희롱 피해 시 먼저 확인할 것</a></p>',
       },
     ],
     cases: [
@@ -335,7 +335,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
         summary:
           '관련 사례에서 회사가 피신고인에게 소명 기회를 부여하지 않고 징계 처분을 내렸습니다. 노동위원회는 취업규칙상 징계 절차를 위반하였으므로 징계 처분의 효력이 없다고 판정하여, 피신고인이 복직·소급 임금 지급을 받은 경우가 있습니다.',
         takeaway:
-          '성희롱으로 신고되어 징계를 받더라도, 회사가 정한 절차를 지키지 않은 징계는 무효로 다툴 수 있습니다. 소명 기회 제공 여부를 반드시 확인하세요.',
+          '성희롱으로 신고되어 징계를 받더라도, 회사가 정한 절차를 지키지 않은 징계는 무효로 다툴 수 있습니다. 소명 기회 제공 여부를 가능한 한 확인하세요.',
       },
     ],
     faq: [

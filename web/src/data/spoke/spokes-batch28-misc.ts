@@ -28,7 +28,7 @@ export const spokesBatch28Misc: SpokePage[] = [
       },
       {
         title: '과실비율 산정 기준',
-        content: '<p><strong style="color:#1e3a5f">전동킥보드 사고의 과실비율은 차량 대 보행자 기준을 준용하되, 세부 상황에 따라 달라집니다.</strong></p>\n<ol>\n<li><strong>횡단보도 사고</strong> — 보행자 신호에 건너다 킥보드에 치인 경우 킥보드 운전자 과실이 100%에 가깝습니다.</li>\n<li><strong>인도 주행 사고</strong> — 인도에서 킥보드를 타다 보행자를 친 경우에도 킥보드 운전자에게 높은 과실이 인정됩니다.</li>\n<li><strong>차도 역주행</strong> — 킥보드가 역주행하다 발생한 사고는 킥보드 운전자 과실 80~100%로 산정됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>전동킥보드 사고 과실비율, AI가 분석합니다</strong></p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+        content: '<p><strong style="color:#1e3a5f">전동킥보드 사고의 과실비율은 차량 대 보행자 기준을 준용하되, 세부 상황에 따라 달라집니다.</strong></p>\n<ol>\n<li><strong>횡단보도 사고</strong> — 보행자 신호에 건너다 킥보드에 치인 경우 킥보드 운전자 과실이 100%에 가깝습니다.</li>\n<li><strong>인도 주행 사고</strong> — 인도에서 킥보드를 타다 보행자를 친 경우에도 킥보드 운전자에게 높은 과실이 인정될 수 있습니다.</li>\n<li><strong>차도 역주행</strong> — 킥보드가 역주행하다 발생한 사고는 킥보드 운전자 과실 80~100%로 산정됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>전동킥보드 사고 과실비율, AI가 분석합니다</strong></p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '보상 청구 절차',
@@ -83,9 +83,9 @@ export const spokesBatch28Misc: SpokePage[] = [
     ],
     cases: [{ title: '판례 — 쌍방과실 보험자대위 기준', summary: '대법원 2022다287284 사건(대법원, 2026.01.29 선고)에서 법원은 보험사의 대위청구에서 피보험자의 과실이 있는 경우에도 보험금 지급 범위 내에서 제3자에 대한 손해배상 청구를 대위할 수 있다고 판시했습니다.', takeaway: '비슷한 상황이라면 보험사가 산정한 과실비율에 동의하기 어려울 때 손해사정사를 통한 재검토를 받으세요.' }],
     faq: [
-      { question: '주차장은 도로가 아닌데 도로교통법이 적용되나요?', answer: '<p>불특정 다수가 이용하는 주차장은 도로교통법상 "도로"로 인정됩니다. 따라서 교통사고처리특례법도 적용됩니다.</p>' },
-      { question: '주차된 내 차를 치고 간 경우 어떻게 하나요?', answer: '<p>뺑소니에 해당합니다. CCTV 영상으로 가해 차량을 특정한 뒤 경찰 신고와 보험 접수를 동시에 진행하세요.</p>' },
-      { question: '후진하다 부딪히면 무조건 내 과실인가요?', answer: '<p>후진 차량 과실이 높지만 100%는 아닙니다. 상대 차량도 주의의무 위반이 있으면 과실이 조정됩니다.</p>' },
+      { question: '주차장은 도로가 아닌데 도로교통법이 적용되나요?', answer: '<p>불특정 다수가 이용하는 주차장은 도로교통법상 "도로"로 인정될 수 있습니다. 따라서 교통사고처리특례법도 적용됩니다.</p>' },
+      { question: '주차된 내 차를 치고 간 경우 어떻게 하나요?', answer: '<p>뺑소니에 해당할 소지가 있습니다. CCTV 영상으로 가해 차량을 특정한 뒤 경찰 신고와 보험 접수를 동시에 진행하세요.</p>' },
+      { question: '후진하다 부딪히면 원칙적으로 내 과실인가요?', answer: '<p>후진 차량 과실이 높지만 100%는 아닙니다. 상대 차량도 주의의무 위반이 있으면 과실이 조정됩니다.</p>' },
       { question: '주차장 사고도 자차보험 처리가 되나요?', answer: '<p>네, 자차보험(자기차량손해)에 가입되어 있다면 과실 여부와 관계없이 내 차 수리비를 보험으로 처리할 수 있습니다.</p>' },
       { question: '상대방이 연락이 안 되면 어떻게 하나요?', answer: '<p>차량번호로 보험사를 조회(1644-2255)하여 상대 보험사에 직접 사고 접수를 할 수 있습니다.</p>' },
     ],
@@ -116,7 +116,7 @@ export const spokesBatch28Misc: SpokePage[] = [
     sections: [
       {
         title: '민식이법 처벌 기준',
-        content: '<p><strong style="color:#1e3a5f">특정범죄 가중처벌 등에 관한 법률(민식이법) 제5조의13에 따라 어린이보호구역 사고는 가중처벌됩니다.</strong></p>\n<ul>\n<li><strong>사망 사고</strong> — 무기 또는 3년 이상의 징역. 일반 교통사고보다 형량이 크게 높습니다.</li>\n<li><strong>상해 사고</strong> — 1년 이상 15년 이하의 징역 또는 500만원 이상 3,000만원 이하의 벌금.</li>\n<li><strong>적용 요건</strong> — ①어린이보호구역 내 ②안전운전 의무 위반 ③13세 미만 어린이 피해자. 세 가지가 모두 충족돼야 합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 민식이법 적용 요건 3가지를 모두 충족하는지 먼저 확인하세요.</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">특정범죄 가중처벌 등에 관한 법률(민식이법) 제5조의13에 따라 어린이보호구역 사고는 가중처벌 대상으로 검토될 수 있습니다.</strong></p>\n<ul>\n<li><strong>사망 사고</strong> — 무기 또는 3년 이상의 징역. 일반 교통사고보다 형량이 크게 높습니다.</li>\n<li><strong>상해 사고</strong> — 1년 이상 15년 이하의 징역 또는 500만원 이상 3,000만원 이하의 벌금.</li>\n<li><strong>적용 요건</strong> — ①어린이보호구역 내 ②안전운전 의무 위반 ③13세 미만 어린이 피해자. 세 가지가 모두 충족돼야 합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 민식이법 적용 요건 3가지를 모두 충족하는지 먼저 확인하세요.</blockquote>',
       },
       {
         title: '수사 단계 대응 방법',
@@ -164,7 +164,7 @@ export const spokesBatch28Misc: SpokePage[] = [
     sections: [
       {
         title: '황혼이혼 재산분할 기준',
-        content: '<p><strong style="color:#1e3a5f">혼인 기간이 길수록 재산분할 비율이 높아지는 경향이 있습니다.</strong></p>\n<ul>\n<li><strong>기여도 인정</strong> — 전업주부도 가사노동, 자녀 양육에 대한 기여도가 인정됩니다. 30년 이상 혼인이면 40~50% 기여도가 인정되는 경우가 많습니다.</li>\n<li><strong>분할 대상</strong> — 부동산, 예금, 주식, 보험해약환급금, 퇴직금(예상 퇴직금 포함), 사업체 가치 등 혼인 중 형성된 모든 재산이 대상입니다.</li>\n<li><strong>특유재산 구분</strong> — 혼인 전 취득 재산, 상속·증여받은 재산은 원칙적으로 분할 대상에서 제외됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 혼인 기간이 길수록 전업주부의 기여도가 높게 인정됩니다.</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">혼인 기간이 길수록 재산분할 비율이 높아지는 경향이 있습니다.</strong></p>\n<ul>\n<li><strong>기여도 인정</strong> — 전업주부도 가사노동, 자녀 양육에 대한 기여도가 인정될 수 있습니다. 30년 이상 혼인이면 40~50% 기여도가 인정되는 경우가 많습니다.</li>\n<li><strong>분할 대상</strong> — 부동산, 예금, 주식, 보험해약환급금, 퇴직금(예상 퇴직금 포함), 사업체 가치 등 혼인 중 형성된 모든 재산이 대상입니다.</li>\n<li><strong>특유재산 구분</strong> — 혼인 전 취득 재산, 상속·증여받은 재산은 원칙적으로 분할 대상에서 제외됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 혼인 기간이 길수록 전업주부의 기여도가 높게 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '국민연금 분할 방법',
@@ -177,7 +177,7 @@ export const spokesBatch28Misc: SpokePage[] = [
     ],
     cases: [{ title: '판례 — 재산분할의무 승계', summary: '대법원 2024스876 사건(대법원, 2026.01.15 선고)에서 법원은 이혼 후 재산분할의무가 상속인에게 승계될 수 있다고 판시하며, 혼인 중 형성된 재산에 대한 분할 청구권을 폭넓게 인정했습니다.', takeaway: '비슷한 상황이라면 이혼 전 공동재산 목록을 꼼꼼히 작성하고, 특히 퇴직금과 연금도 분할 대상에 포함시키세요.' }],
     faq: [
-      { question: '전업주부도 재산의 절반을 받을 수 있나요?', answer: '<p>혼인 기간, 가사노동 기여도에 따라 30~50%까지 인정됩니다. 30년 이상이면 50%에 가까운 비율이 인정되는 경향입니다.</p>' },
+      { question: '전업주부도 재산의 절반을 받을 수 있나요?', answer: '<p>혼인 기간, 가사노동 기여도에 따라 30~50%까지 인정될 수 있습니다. 30년 이상이면 50%에 가까운 비율이 인정되는 경향입니다.</p>' },
       { question: '국민연금 분할은 언제 신청하나요?', answer: '<p>이혼이 확정된 후 국민연금공단에 신청합니다. 단, 본인이 60세에 도달해야 실제 수령이 시작됩니다.</p>' },
       { question: '배우자가 재산을 숨기면 어떻게 하나요?', answer: '<p>가정법원에 재산조회 신청을 하면 은행·증권·보험 등 금융자산을 조회할 수 있습니다.</p>' },
       { question: '위자료도 별도로 받을 수 있나요?', answer: '<p>네, 상대방에게 이혼 사유(부정행위, 학대 등)가 있으면 재산분할과 별도로 위자료를 청구할 수 있습니다.</p>' },
@@ -265,7 +265,7 @@ export const spokesBatch28Misc: SpokePage[] = [
       },
       {
         title: '양육비이행관리원과 추가 지원',
-        content: '<p><strong style="color:#1e3a5f">양육비이행관리원과 지자체 지원을 함께 활용하세요.</strong></p>\n<ul>\n<li><strong>양육비이행관리원</strong> — 양육비 청구 소송 지원, 재산 조회·강제집행 지원, 한시적 양육비 긴급지원(월 20만원)을 제공합니다.</li>\n<li><strong>조손가정 지원</strong> — 지자체별로 조손가정 대상 생활비·교육비·의료비 지원 제도가 있습니다. 주민센터에 문의하세요.</li>\n<li><strong>아동양육 한시지원</strong> — 만 18세 미만 아동을 양육하는 조부모는 아동수당, 양육수당을 신청할 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 양육비 청구와 함께 조손가정 지원 제도도 반드시 확인하세요.</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">양육비이행관리원과 지자체 지원을 함께 활용하세요.</strong></p>\n<ul>\n<li><strong>양육비이행관리원</strong> — 양육비 청구 소송 지원, 재산 조회·강제집행 지원, 한시적 양육비 긴급지원(월 20만원)을 제공합니다.</li>\n<li><strong>조손가정 지원</strong> — 지자체별로 조손가정 대상 생활비·교육비·의료비 지원 제도가 있습니다. 주민센터에 문의하세요.</li>\n<li><strong>아동양육 한시지원</strong> — 만 18세 미만 아동을 양육하는 조부모는 아동수당, 양육수당을 신청할 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 양육비 청구와 함께 조손가정 지원 제도도 가능한 한 확인하세요.</blockquote>',
       },
     ],
     cases: [{ title: '판례 — 과거 양육비 청구 인정', summary: '대법원 2023스637 사건(대법원, 2024.10.08 선고)에서 법원은 이혼 후 16년간 자녀를 혼자 양육한 청구인이 상대 부모에게 과거 양육비를 청구한 사건에서, 과거 양육비의 분담 비율은 쌍방의 경제적 능력과 양육 기여도를 고려하여 정한다고 판시했습니다.', takeaway: '비슷한 상황이라면 과거 양육에 들어간 비용 내역(교육비, 의료비, 생활비 등)을 정리하여 과거 양육비도 함께 청구하세요.' }],
@@ -404,17 +404,17 @@ export const spokesBatch28Misc: SpokePage[] = [
       },
       {
         title: '보증금 보호 실전 대응',
-        content: '<p><strong style="color:#1e3a5f">이사 가기 전에 반드시 보호 조치를 취하세요.</strong></p>\n<ol>\n<li><strong>전세보증보험 확인</strong> — HUG(주택도시보증공사) 또는 SGI(서울보증보험) 보증보험에 가입했다면 보증기관에 보증금 반환을 청구합니다.</li>\n<li><strong>임차권등기명령</strong> — 계약 종료 후 보증금을 못 받았다면 법원에 임차권등기명령을 신청하세요. 이사를 가더라도 대항력과 우선변제권이 유지됩니다.</li>\n<li><strong>내용증명 발송</strong> — 임대인에게 보증금 반환을 요구하는 내용증명을 발송합니다. 법적 절차의 시작점이 됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>역전세 보증금 보호 전략, AI가 정리합니다</strong></p>\n<a href="/chat?domain=jeonse" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+        content: '<p><strong style="color:#1e3a5f">이사 가기 전에 가능한 한 보호 조치를 취하세요.</strong></p>\n<ol>\n<li><strong>전세보증보험 확인</strong> — HUG(주택도시보증공사) 또는 SGI(서울보증보험) 보증보험에 가입했다면 보증기관에 보증금 반환을 청구합니다.</li>\n<li><strong>임차권등기명령</strong> — 계약 종료 후 보증금을 못 받았다면 법원에 임차권등기명령을 신청하세요. 이사를 가더라도 대항력과 우선변제권이 유지됩니다.</li>\n<li><strong>내용증명 발송</strong> — 임대인에게 보증금 반환을 요구하는 내용증명을 발송합니다. 법적 절차의 시작점이 됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>역전세 보증금 보호 전략, AI가 정리합니다</strong></p>\n<a href="/chat?domain=jeonse" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '보증금 반환소송과 경매',
-        content: '<p><strong style="color:#1e3a5f">임대인이 계속 보증금을 돌려주지 않으면 법적 절차를 진행합니다.</strong></p>\n<ul>\n<li><strong>보증금 반환소송</strong> — 소액사건(3,000만원 이하)은 간편 소송, 그 이상은 일반 민사소송으로 진행합니다.</li>\n<li><strong>강제집행</strong> — 판결 확정 후 임대인의 부동산, 예금 등을 압류하여 강제집행합니다.</li>\n<li><strong>경매 배당</strong> — 해당 주택이 경매에 넘어가면 배당 순위에 따라 보증금을 배당받습니다. 확정일자가 있으면 우선변제권이 인정됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 확정일자와 전입신고가 우선변제권의 핵심이므로 반드시 유지하세요.</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">임대인이 계속 보증금을 돌려주지 않으면 법적 절차를 진행합니다.</strong></p>\n<ul>\n<li><strong>보증금 반환소송</strong> — 소액사건(3,000만원 이하)은 간편 소송, 그 이상은 일반 민사소송으로 진행합니다.</li>\n<li><strong>강제집행</strong> — 판결 확정 후 임대인의 부동산, 예금 등을 압류하여 강제집행합니다.</li>\n<li><strong>경매 배당</strong> — 해당 주택이 경매에 넘어가면 배당 순위에 따라 보증금을 배당받습니다. 확정일자가 있으면 우선변제권이 인정될 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 확정일자와 전입신고가 우선변제권의 핵심이므로 가능한 한 유지하세요.</blockquote>',
       },
     ],
-    cases: [{ title: '판례 — 임차인 대항력 요건', summary: '대법원 2025다213466 사건(대법원, 2026.01.08 선고)에서 법원은 주민등록의 전입신고가 임차인의 대항력 요건이 되려면 전입신고가 적법하게 이루어져야 하며, 전입신고만으로 대항력이 자동 성립하는 것이 아니라 실제 거주 사실이 뒷받침되어야 한다고 판시했습니다.', takeaway: '비슷한 상황이라면 전입신고 유지와 실제 거주 사실을 반드시 확인하세요. 대항력이 없으면 보증금 보호가 어려워집니다.' }],
+    cases: [{ title: '판례 — 임차인 대항력 요건', summary: '대법원 2025다213466 사건(대법원, 2026.01.08 선고)에서 법원은 주민등록의 전입신고가 임차인의 대항력 요건이 되려면 전입신고가 적법하게 이루어져야 하며, 전입신고만으로 대항력이 자동 성립하는 것이 아니라 실제 거주 사실이 뒷받침되어야 한다고 판시했습니다.', takeaway: '비슷한 상황이라면 전입신고 유지와 실제 거주 사실을 가능한 한 확인하세요. 대항력이 없으면 보증금 보호가 어려워집니다.' }],
     faq: [
       { question: '전세보증보험에 가입 안 했으면 어떻게 하나요?', answer: '<p>임차권등기명령을 먼저 신청한 뒤 보증금 반환소송을 진행하세요. 이사 전 임차권등기명령이 핵심입니다.</p>' },
-      { question: '이사를 가면 대항력을 잃나요?', answer: '<p>네, 원칙적으로 전입신고를 유지해야 대항력이 있습니다. 이사 전에 반드시 임차권등기명령을 받으세요.</p>' },
+      { question: '이사를 가면 대항력을 잃나요?', answer: '<p>네, 원칙적으로 전입신고를 유지해야 대항력이 있습니다. 이사 전에 가능한 한 임차권등기명령을 받으세요.</p>' },
       { question: '임대인이 파산하면 보증금은 어떻게 되나요?', answer: '<p>대항력과 우선변제권이 있으면 파산 절차에서도 우선적으로 배당받을 수 있습니다.</p>' },
       { question: '역전세 상황에서 계약 갱신을 해야 하나요?', answer: '<p>갱신보다는 보증금 반환을 받는 것이 유리합니다. 갱신하면 반환 시기가 더 늦어질 수 있습니다.</p>' },
       { question: '보증금 반환소송 비용은 얼마나 드나요?', answer: '<p>인지대와 송달료를 합쳐 소액사건은 수만원, 일반소송은 수십만원 수준입니다. 승소하면 상대방에게 청구할 수 있습니다.</p>' },
@@ -454,7 +454,7 @@ export const spokesBatch28Misc: SpokePage[] = [
       },
       {
         title: '배당이 부족할 때 대응',
-        content: '<p><strong style="color:#1e3a5f">경매 낙찰가가 낮아 전액 배당을 받지 못하면 추가 대응이 필요합니다.</strong></p>\n<ul>\n<li><strong>부족분 청구</strong> — 배당으로 보증금 전액을 받지 못하면 임대인에게 부족분을 별도로 청구할 수 있습니다.</li>\n<li><strong>배당이의</strong> — 배당표에 이의가 있으면 배당기일에 이의를 제기하고 배당이의 소송을 진행합니다.</li>\n<li><strong>전세보증보험</strong> — 보증보험에 가입했다면 보증기관에 부족분을 청구할 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 배당요구 기한을 반드시 지키고, 부족분은 임대인에게 별도로 청구하세요.</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">경매 낙찰가가 낮아 전액 배당을 받지 못하면 추가 대응이 필요합니다.</strong></p>\n<ul>\n<li><strong>부족분 청구</strong> — 배당으로 보증금 전액을 받지 못하면 임대인에게 부족분을 별도로 청구할 수 있습니다.</li>\n<li><strong>배당이의</strong> — 배당표에 이의가 있으면 배당기일에 이의를 제기하고 배당이의 소송을 진행합니다.</li>\n<li><strong>전세보증보험</strong> — 보증보험에 가입했다면 보증기관에 부족분을 청구할 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 배당요구 기한을 가능한 한 지키고, 부족분은 임대인에게 별도로 청구하세요.</blockquote>',
       },
     ],
     cases: [{ title: '판례 — 중개사 확인설명 의무', summary: '대법원 2024다283668 사건(대법원, 2025.12.04 선고)에서 법원은 부동산 중개업자가 임대차계약 중개 시 해당 부동산의 임대차보증금 채무 규모를 정확히 확인·설명할 의무가 있으며, 이를 위반하여 임차인에게 손해가 발생한 경우 배상 책임이 있다고 판시했습니다.', takeaway: '비슷한 상황이라면 계약 당시 중개사가 선순위 근저당, 기존 임차인 정보를 충분히 설명했는지 확인하세요. 설명 의무 위반이면 중개사에게도 손해배상을 청구할 수 있습니다.' }],
@@ -493,7 +493,7 @@ export const spokesBatch28Misc: SpokePage[] = [
     sections: [
       {
         title: 'CCTV 사생활 침해의 법적 기준',
-        content: '<p><strong style="color:#1e3a5f">개인 CCTV가 타인의 사생활 영역을 촬영하면 불법이 될 수 있습니다.</strong></p>\n<ul>\n<li><strong>개인정보보호법</strong> — 공개된 장소에서 CCTV를 설치·운영하려면 안내판을 설치해야 합니다. 개인 주거 공간을 촬영하면 개인정보 침해에 해당합니다.</li>\n<li><strong>촬영 범위</strong> — 자기 소유 공간만 촬영하는 것은 합법이지만, 이웃 집 현관·창문·마당까지 촬영하면 사생활 침해입니다.</li>\n<li><strong>수인한도</strong> — 법원은 촬영 목적, 범위, 필요성, 피해 정도를 종합하여 수인한도 초과 여부를 판단합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 이웃의 CCTV가 내 주거 영역을 촬영하면 사생활 침해로 법적 조치가 가능합니다.</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">개인 CCTV가 타인의 사생활 영역을 촬영하면 불법이 될 수 있습니다.</strong></p>\n<ul>\n<li><strong>개인정보보호법</strong> — 공개된 장소에서 CCTV를 설치·운영하려면 안내판을 설치해야 합니다. 개인 주거 공간을 촬영하면 개인정보 침해에 해당할 소지가 있습니다.</li>\n<li><strong>촬영 범위</strong> — 자기 소유 공간만 촬영하는 것은 합법이지만, 이웃 집 현관·창문·마당까지 촬영하면 사생활 침해입니다.</li>\n<li><strong>수인한도</strong> — 법원은 촬영 목적, 범위, 필요성, 피해 정도를 종합하여 수인한도 초과 여부를 판단합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #1e3a5f;padding:12px;margin:16px 0;background:#f8f9fa"><strong>핵심 요약</strong> — 이웃의 CCTV가 내 주거 영역을 촬영하면 사생활 침해로 법적 조치가 가능합니다.</blockquote>',
       },
       {
         title: '대응 절차',
@@ -551,7 +551,7 @@ export const spokesBatch28Misc: SpokePage[] = [
     ],
     cases: [{ title: '판례 — 수인한도 기준 판단', summary: '수원지방법원 2019가6588 사건(2019.09.09 선고)에서 법원은 환경오염피해 및 시설물 관리 의무와 관련하여 수인한도를 넘는 생활 방해에 대해 손해배상 책임을 인정했습니다.', takeaway: '비슷한 상황이라면 공용시설 사적 사용으로 인한 구체적 피해(통행 방해, 주차 불가 등)를 기록하세요. 수인한도를 넘는 피해 입증이 소송에서 핵심입니다.' }],
     faq: [
-      { question: '복도에 신발장을 놓는 것도 문제가 되나요?', answer: '<p>관리규약에 금지 규정이 있으면 위반입니다. 또한 피난통로를 좁히면 소방법 위반에 해당합니다.</p>' },
+      { question: '복도에 신발장을 놓는 것도 문제가 되나요?', answer: '<p>관리규약에 금지 규정이 있으면 위반입니다. 또한 피난통로를 좁히면 소방법 위반에 해당할 소지가 있습니다.</p>' },
       { question: '관리사무소가 조치를 안 하면 어떻게 하나요?', answer: '<p>입주자대표회의에 안건 상정을 요청하고, 소방통로 방해는 119에 직접 신고할 수 있습니다.</p>' },
       { question: '공용 주차장에 개인 물건을 놓으면 법적 문제가 되나요?', answer: '<p>주차장은 전체 입주자의 공유이므로 특정인이 독점 사용할 수 없습니다. 관리규약 위반으로 제거를 요구할 수 있습니다.</p>' },
       { question: '개인이 직접 소송을 걸 수 있나요?', answer: '<p>네, 구분소유자라면 공용부분에 대한 방해배제를 개인이 직접 청구할 수 있습니다.</p>' },

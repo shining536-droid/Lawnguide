@@ -130,12 +130,12 @@ export const spokesBatch37Nonlabor2: SpokePage[] = [
       {
         title: '송달 주소 관리 — 자택으로 설정하세요',
         content:
-          '<p><strong style="color:#1e3a5f">법원 서류의 송달 주소를 본인 자택으로 지정하고, 등기 수령을 안정적으로 받을 수 있는 상태를 유지해야 합니다.</strong></p>\n<ul>\n<li><strong>자택 주소 기재</strong> — 회생 신청서·채권자 명부 등에 송달 주소를 반드시 자택으로 기재합니다.</li>\n<li><strong>직장 주소 회피</strong> — 직장 주소를 기재하면 법원 등기우편이 회사로 가게 되어 인사팀이 인지할 수 있습니다.</li>\n<li><strong>등기 수령 확인</strong> — 자택에서 등기 수령이 가능한 시간대를 확보하거나, 가족에게 수령 권한을 미리 안내해둡니다.</li>\n<li><strong>변경 시 신고</strong> — 절차 진행 중 주소가 변경되면 법원에 즉시 주소 변경 신고를 해야 합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 부득이하게 가족에게 알려지는 것이 걱정된다면 변호사 사무소 주소를 송달 장소로 지정하는 옵션도 검토할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">법원 서류의 송달 주소를 본인 자택으로 지정하고, 등기 수령을 안정적으로 받을 수 있는 상태를 유지해야 합니다.</strong></p>\n<ul>\n<li><strong>자택 주소 기재</strong> — 회생 신청서·채권자 명부 등에 송달 주소를 가능한 한 자택으로 기재합니다.</li>\n<li><strong>직장 주소 회피</strong> — 직장 주소를 기재하면 법원 등기우편이 회사로 가게 되어 인사팀이 인지할 수 있습니다.</li>\n<li><strong>등기 수령 확인</strong> — 자택에서 등기 수령이 가능한 시간대를 확보하거나, 가족에게 수령 권한을 미리 안내해둡니다.</li>\n<li><strong>변경 시 신고</strong> — 절차 진행 중 주소가 변경되면 법원에 즉시 주소 변경 신고를 해야 합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 부득이하게 가족에게 알려지는 것이 걱정된다면 변호사 사무소 주소를 송달 장소로 지정하는 옵션도 검토할 수 있습니다.</blockquote>',
       },
       {
         title: '회생 이유 해고·불이익 방어',
         content:
-          '<p><strong style="color:#1e3a5f">회생 신청을 이유로 해고·불이익을 주는 것은 부당해고로 노동위원회 구제가 가능합니다.</strong></p>\n<ul>\n<li><strong>근로기준법 제23조</strong> — 정당한 이유 없이 해고·감봉·강등·전직 등 불이익을 줄 수 없습니다. 회생 신청은 적법한 절차로 정당한 이유가 되지 않습니다.</li>\n<li><strong>사직 강요 무효</strong> — 회생을 이유로 사직서 서명을 강요당한 경우, 의사 형성의 자유가 침해된 서명은 무효 주장이 가능합니다.</li>\n<li><strong>노동위원회 구제</strong> — 해고 통지일로부터 3개월 이내에 지방노동위원회에 부당해고 구제신청을 제출합니다.</li>\n<li><strong>증거 확보</strong> — 회생 인지 후 불이익이 발생한 시점·경위를 기록하고, 관련 이메일·카톡 등을 보관합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 사직서 서명을 요구받으면 즉석에서 서명하지 말고 반드시 전문가 상담을 받은 뒤 판단하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">회생 신청을 이유로 해고·불이익을 주는 것은 부당해고로 노동위원회 구제가 가능합니다.</strong></p>\n<ul>\n<li><strong>근로기준법 제23조</strong> — 정당한 이유 없이 해고·감봉·강등·전직 등 불이익을 줄 수 없습니다. 회생 신청은 적법한 절차로 정당한 이유가 되지 않습니다.</li>\n<li><strong>사직 강요 무효</strong> — 회생을 이유로 사직서 서명을 강요당한 경우, 의사 형성의 자유가 침해된 서명은 무효 주장이 가능합니다.</li>\n<li><strong>노동위원회 구제</strong> — 해고 통지일로부터 3개월 이내에 지방노동위원회에 부당해고 구제신청을 제출합니다.</li>\n<li><strong>증거 확보</strong> — 회생 인지 후 불이익이 발생한 시점·경위를 기록하고, 관련 이메일·카톡 등을 보관합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 사직서 서명을 요구받으면 즉석에서 서명하지 말고 가능한 한 전문가 상담을 받은 뒤 판단하세요.</blockquote>',
       },
     ],
     cases: [
@@ -299,7 +299,7 @@ export const spokesBatch37Nonlabor2: SpokePage[] = [
       {
         title: '중대한 과실의 판단 기준',
         content:
-          '<p><strong style="color:#1e3a5f">특별한정승인은 중대한 과실 없이 채무 초과 사실을 몰랐어야 인정됩니다.</strong></p>\n<ul>\n<li><strong>중과실의 기준</strong> — 조금만 주의를 기울였으면 알 수 있었던 채무를 조사하지 않은 경우 중대한 과실로 판단됩니다.</li>\n<li><strong>통상 과실 인정</strong> — 피상속인과 평소 교류가 적었거나, 피상속인이 채무를 숨긴 경우 등은 통상 과실로 중과실 아닌 경우가 많습니다.</li>\n<li><strong>조사 의무의 범위</strong> — 상속인에게 요구되는 조사 의무는 일반인 수준이며, 전문적 조사 의무는 없습니다.</li>\n<li><strong>피상속인의 은닉</strong> — 피상속인이 의도적으로 채무를 숨긴 경우엔 상속인의 중과실 인정이 어렵습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 특별한정승인 청구 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=inheritance" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">특별한정승인은 중대한 과실 없이 채무 초과 사실을 몰랐어야 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>중과실의 기준</strong> — 조금만 주의를 기울였으면 알 수 있었던 채무를 조사하지 않은 경우 중대한 과실로 판단됩니다.</li>\n<li><strong>통상 과실 인정</strong> — 피상속인과 평소 교류가 적었거나, 피상속인이 채무를 숨긴 경우 등은 통상 과실로 중과실 아닌 경우가 많습니다.</li>\n<li><strong>조사 의무의 범위</strong> — 상속인에게 요구되는 조사 의무는 일반인 수준이며, 전문적 조사 의무는 없습니다.</li>\n<li><strong>피상속인의 은닉</strong> — 피상속인이 의도적으로 채무를 숨긴 경우엔 상속인의 중과실 인정이 어렵습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 특별한정승인 청구 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=inheritance" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '특별한정승인 신고 절차',
@@ -381,12 +381,12 @@ export const spokesBatch37Nonlabor2: SpokePage[] = [
       {
         title: '명예훼손의 법적 요건 — 공연성·특정성·사실 적시',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제307조의 명예훼손죄는 공연성, 특정성, 사실·허위 사실 적시의 세 가지 요건이 충족되어야 성립합니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 불특정 또는 다수인이 인식할 수 있는 상태. 판례는 "전파 가능성 있음"도 공연성으로 인정합니다.</li>\n<li><strong>특정성</strong> — 피해자가 누구인지 특정 가능해야 합니다. 이름·직책·별명 등으로 특정됩니다.</li>\n<li><strong>사실 적시</strong> — 사실이든 허위든 상관없이 성립하나, 허위 사실은 법정형이 가중됩니다(제309조).</li>\n<li><strong>단순 의견·추상적 욕설</strong> — 사실 적시가 아닌 의견 표명·모욕적 표현은 모욕죄(제311조)로 처리될 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 카톡 단체방도 3인 이상 참여 시 공연성이 인정되어 명예훼손이 성립할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제307조의 명예훼손죄는 공연성, 특정성, 사실·허위 사실 적시의 세 가지 요건이 충족되어야 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 불특정 또는 다수인이 인식할 수 있는 상태. 판례는 "전파 가능성 있음"도 공연성으로 인정합니다.</li>\n<li><strong>특정성</strong> — 피해자가 누구인지 특정 가능해야 합니다. 이름·직책·별명 등으로 특정됩니다.</li>\n<li><strong>사실 적시</strong> — 사실이든 허위든 상관없이 성립하나, 허위 사실은 법정형이 가중됩니다(제309조).</li>\n<li><strong>단순 의견·추상적 욕설</strong> — 사실 적시가 아닌 의견 표명·모욕적 표현은 모욕죄(제311조)로 처리될 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 카톡 단체방도 3인 이상 참여 시 공연성이 인정되어 명예훼손이 성립할 수 있습니다.</blockquote>',
       },
       {
         title: '단체방 공연성 판단 — 3인 이상이 핵심',
         content:
-          '<p><strong style="color:#1e3a5f">카톡 단체방의 공연성은 참여자 수와 전파 가능성을 종합 고려해 판단됩니다.</strong></p>\n<ul>\n<li><strong>3인 이상 단톡방</strong> — 본인과 상대방을 제외한 제3자가 있으면 공연성이 인정될 가능성이 높습니다.</li>\n<li><strong>전파 가능성</strong> — 참여자들이 내용을 외부에 전달할 가능성이 있는 관계(회사 동료·동호회 등)라면 공연성이 강하게 인정됩니다.</li>\n<li><strong>폐쇄적 소수 관계</strong> — 가족 간 단톡방처럼 폐쇄적 관계에서는 공연성이 부정될 수 있으나, 구체적 사안에 따라 다릅니다.</li>\n<li><strong>공개 플랫폼</strong> — 오픈채팅방·회사 공개 채널은 공연성이 명백합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 단톡방 명예훼손 성립 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=defamation" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">카톡 단체방의 공연성은 참여자 수와 전파 가능성을 종합 고려해 판단됩니다.</strong></p>\n<ul>\n<li><strong>3인 이상 단톡방</strong> — 본인과 상대방을 제외한 제3자가 있으면 공연성이 인정될 가능성이 높습니다.</li>\n<li><strong>전파 가능성</strong> — 참여자들이 내용을 외부에 전달할 가능성이 있는 관계(회사 동료·동호회 등)라면 공연성이 강하게 인정될 수 있습니다.</li>\n<li><strong>폐쇄적 소수 관계</strong> — 가족 간 단톡방처럼 폐쇄적 관계에서는 공연성이 부정될 수 있으나, 구체적 사안에 따라 다릅니다.</li>\n<li><strong>공개 플랫폼</strong> — 오픈채팅방·회사 공개 채널은 공연성이 명백합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 단톡방 명예훼손 성립 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=defamation" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '증거 확보와 보관 — 원본·캡처·공증',
@@ -468,7 +468,7 @@ export const spokesBatch37Nonlabor2: SpokePage[] = [
       {
         title: '스토킹의 법적 정의와 직장 내 적용',
         content:
-          '<p><strong style="color:#1e3a5f">스토킹처벌법은 피해자에게 불안감·공포심을 주는 특정 행위를 스토킹으로 규정하며, 직장 내 관계도 적용 대상입니다.</strong></p>\n<ul>\n<li><strong>스토킹처벌법 제2조</strong> — 접근·경로 따라다니기, 의사 반하는 연락, 물건 두기·지켜보기 등이 스토킹행위로 규정됩니다.</li>\n<li><strong>반복성 요건</strong> — "지속적 또는 반복적"이어야 스토킹범죄로 처벌됩니다.</li>\n<li><strong>직장 동료 포함</strong> — 상사·동료·거래처 등 직장 관계자도 스토킹 가해자가 될 수 있으며, 업무 관계를 이유로 예외가 인정되지 않습니다.</li>\n<li><strong>처벌</strong> — 3년 이하 징역 또는 3,000만 원 이하 벌금. 흉기·위험한 물건 사용 시 5년 이하 징역.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 직장 관계라도 의사에 반하는 반복적 연락·접근은 스토킹범죄로 처벌됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">스토킹처벌법은 피해자에게 불안감·공포심을 주는 특정 행위를 스토킹으로 규정하며, 직장 내 관계도 적용 대상입니다.</strong></p>\n<ul>\n<li><strong>스토킹처벌법 제2조</strong> — 접근·경로 따라다니기, 의사 반하는 연락, 물건 두기·지켜보기 등이 스토킹행위로 규정됩니다.</li>\n<li><strong>반복성 요건</strong> — "지속적 또는 반복적"이어야 스토킹범죄로 처벌 대상으로 검토될 수 있습니다.</li>\n<li><strong>직장 동료 포함</strong> — 상사·동료·거래처 등 직장 관계자도 스토킹 가해자가 될 수 있으며, 업무 관계를 이유로 예외가 인정되지 않습니다.</li>\n<li><strong>처벌</strong> — 3년 이하 징역 또는 3,000만 원 이하 벌금. 흉기·위험한 물건 사용 시 5년 이하 징역.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 직장 관계라도 의사에 반하는 반복적 연락·접근은 스토킹범죄로 처벌 대상으로 검토될 수 있습니다.</blockquote>',
       },
       {
         title: '사내 신고 절차 — 직장 내 괴롭힘 연계',
@@ -509,7 +509,7 @@ export const spokesBatch37Nonlabor2: SpokePage[] = [
       {
         question: '스토킹 가해자가 해고됐는데도 계속 연락하면 어떻게 하나요?',
         answer:
-          '<strong>고용관계 종료와 무관하게 스토킹 성립합니다.</strong> 퇴사 후에도 접근금지 잠정조치·긴급응급조치를 요청할 수 있으며, 위반 시 별도 처벌됩니다.',
+          '<strong>고용관계 종료와 무관하게 스토킹 성립할 수 있습니다.</strong> 퇴사 후에도 접근금지 잠정조치·긴급응급조치를 요청할 수 있으며, 위반 시 별도 처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '가해자가 고위 임원이라 회사가 불이익을 줄 것 같은데 어떻게 해야 하나요?',

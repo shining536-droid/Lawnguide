@@ -101,7 +101,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       {
         title: '실수 1: 상대방 몰래 녹음하면 불법이라고 생각하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">통신비밀보호법상 대화 당사자가 직접 녹음하는 것은 합법입니다</strong></p>\n<p>많은 분들이 녹음은 무조건 불법이라고 오해합니다. 하지만 <strong>내가 참여한 대화를 내가 녹음</strong>하는 것은 합법입니다. 상대방이 전화로 협박하거나, 대면 상황에서 위협적 발언을 하면 <strong>즉시 녹음을 시작</strong>하세요.</p>\n<p>단, <strong>제3자 간의 대화를 몰래 녹음</strong>(예: 상대방과 다른 사람의 통화를 도청)하면 통신비밀보호법 위반으로 처벌받을 수 있습니다. 내가 직접 참여한 대화만 녹음하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합법 녹음: 내가 참여한 대화를 직접 녹음 → OK | 제3자 대화 도청 → 불법</blockquote>',
+          '<p><strong style="color:#1e3a5f">통신비밀보호법상 대화 당사자가 직접 녹음하는 것은 합법입니다</strong></p>\n<p>많은 분들이 녹음은 원칙적으로 불법이라고 오해합니다. 하지만 <strong>내가 참여한 대화를 내가 녹음</strong>하는 것은 합법입니다. 상대방이 전화로 협박하거나, 대면 상황에서 위협적 발언을 하면 <strong>즉시 녹음을 시작</strong>하세요.</p>\n<p>단, <strong>제3자 간의 대화를 몰래 녹음</strong>(예: 상대방과 다른 사람의 통화를 도청)하면 통신비밀보호법 위반으로 처벌받을 수 있습니다. 내가 직접 참여한 대화만 녹음하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합법 녹음: 내가 참여한 대화를 직접 녹음 → OK | 제3자 대화 도청 → 불법</blockquote>',
       },
       {
         title: '실수 2: CCTV·블랙박스 영상만 믿고 다른 증거를 안 모으는 것',
@@ -130,7 +130,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
         summary:
           '대법원 2024도19106 사건(2025.04.24 선고)에서 법원은 수사기관이 전자정보를 복제·탐색할 때 피압수자뿐 아니라 변호인에게도 별도로 참여 기회를 보장해야 하며, 이를 위반하면 원칙적으로 위법수집증거에 해당한다고 판시했습니다.',
         takeaway:
-          '스토킹 증거는 합법적 절차를 거쳐야 법정에서 인정됩니다. 수사기관조차 적법절차를 위반하면 증거능력이 부정되므로, 피해자도 불법적 방법으로 수집한 증거는 재판에서 사용할 수 없다는 점을 꼭 기억하세요.',
+          '스토킹 증거는 합법적 절차를 거쳐야 법정에서 인정될 수 있습니다. 수사기관조차 적법절차를 위반하면 증거능력이 부정되므로, 피해자도 불법적 방법으로 수집한 증거는 재판에서 사용할 수 없다는 점을 꼭 기억하세요.',
       },
     ],
     faq: [
@@ -183,7 +183,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       {
         title: '첫째, 교통사고 사실확인원을 가장 먼저 발급받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">교통사고 사실확인원은 보험금 청구의 가장 기본적인 서류입니다</strong></p>\n<p>사고 후 경찰에 신고했다면 <strong>교통사고 사실확인원</strong>을 경찰서 또는 경찰청 교통민원포털(efine.go.kr)에서 발급받을 수 있습니다. 이 서류에는 사고 일시·장소, 차량 정보, 과실 관계 등이 기재됩니다.</p>\n<p>경찰 신고 없이 합의한 경우에는 <strong>상호합의서</strong>(보험사 양식)와 블랙박스 영상으로 대체할 수 있습니다. 다만 사고 규모가 크거나 상해가 있는 경우에는 반드시 경찰 신고 후 사실확인원을 발급받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">사실확인원: 경찰 신고 → efine.go.kr 발급 | 미신고 시 상호합의서+블랙박스</blockquote>',
+          '<p><strong style="color:#1e3a5f">교통사고 사실확인원은 보험금 청구의 가장 기본적인 서류입니다</strong></p>\n<p>사고 후 경찰에 신고했다면 <strong>교통사고 사실확인원</strong>을 경찰서 또는 경찰청 교통민원포털(efine.go.kr)에서 발급받을 수 있습니다. 이 서류에는 사고 일시·장소, 차량 정보, 과실 관계 등이 기재됩니다.</p>\n<p>경찰 신고 없이 합의한 경우에는 <strong>상호합의서</strong>(보험사 양식)와 블랙박스 영상으로 대체할 수 있습니다. 다만 사고 규모가 크거나 상해가 있는 경우에는 가능한 한 경찰 신고 후 사실확인원을 발급받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">사실확인원: 경찰 신고 → efine.go.kr 발급 | 미신고 시 상호합의서+블랙박스</blockquote>',
       },
       {
         title: '둘째, 진단서와 진료비 세부내역서를 발급받으세요',
@@ -198,7 +198,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       {
         title: '넷째, 소득 관련 서류를 준비하면 휴업손해도 보상받을 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">사고로 일하지 못한 기간의 소득 손실(휴업손해)은 별도로 청구해야 합니다</strong></p>\n<p>직장인은 <strong>재직증명서, 급여명세서(최근 3개월), 원천징수영수증</strong>을 준비하세요. 자영업자는 <strong>사업자등록증, 소득금액증명원, 부가세 과세표준증명원</strong>이 필요합니다.</p>\n<p>휴업손해는 <strong>진단서상 치료기간</strong>과 소득자료를 기준으로 산정됩니다. 무직자도 <strong>일용근로임금</strong>을 기준으로 산정받을 수 있으니 반드시 청구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">직장인: 재직증명서+급여명세서+원천징수 | 자영업: 사업자등록증+소득금액증명</blockquote>',
+          '<p><strong style="color:#1e3a5f">사고로 일하지 못한 기간의 소득 손실(휴업손해)은 별도로 청구해야 합니다</strong></p>\n<p>직장인은 <strong>재직증명서, 급여명세서(최근 3개월), 원천징수영수증</strong>을 준비하세요. 자영업자는 <strong>사업자등록증, 소득금액증명원, 부가세 과세표준증명원</strong>이 필요합니다.</p>\n<p>휴업손해는 <strong>진단서상 치료기간</strong>과 소득자료를 기준으로 산정됩니다. 무직자도 <strong>일용근로임금</strong>을 기준으로 산정받을 수 있으니 가능한 한 청구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">직장인: 재직증명서+급여명세서+원천징수 | 자영업: 사업자등록증+소득금액증명</blockquote>',
       },
       {
         title: '다섯째, 보험금 청구서와 기타 서류를 제출하세요',
@@ -261,7 +261,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       {
         title: '첫째, 고용보험법 제58조가 정한 "정당한 이직 사유"에 해당하면 수급 가능합니다',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 제58조 및 시행규칙 별표2에서 자발적 퇴사도 수급자격을 인정하는 사유를 열거하고 있습니다</strong></p>\n<p>"자발적 퇴사 = 실업급여 불가"라는 것은 <strong>흔한 오해</strong>입니다. 고용보험법은 비자발적 퇴사뿐 아니라, <strong>정당한 사유가 있는 자발적 퇴사</strong>에도 실업급여 수급자격을 인정합니다.</p>\n<p>핵심은 <strong>"피보험자가 이직하기 전에 이직 회피 노력을 했는가"</strong>입니다. 회사에 시정을 요구하거나, 노동위원회에 진정을 하는 등 합리적 노력을 했음에도 문제가 해결되지 않아 퇴사한 경우에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 정당한 사유 + 이직 회피 노력 → 자발적 퇴사도 실업급여 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 제58조 및 시행규칙 별표2에서 자발적 퇴사도 수급자격을 인정하는 사유를 열거하고 있습니다</strong></p>\n<p>"자발적 퇴사 = 실업급여 불가"라는 것은 <strong>흔한 오해</strong>입니다. 고용보험법은 비자발적 퇴사뿐 아니라, <strong>정당한 사유가 있는 자발적 퇴사</strong>에도 실업급여 수급자격을 인정합니다.</p>\n<p>핵심은 <strong>"피보험자가 이직하기 전에 이직 회피 노력을 했는가"</strong>입니다. 회사에 시정을 요구하거나, 노동위원회에 진정을 하는 등 합리적 노력을 했음에도 문제가 해결되지 않아 퇴사한 경우에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 정당한 사유 + 이직 회피 노력 → 자발적 퇴사도 실업급여 가능</blockquote>',
       },
       {
         title: '둘째, 실업급여가 인정되는 5가지 주요 자발적 퇴사 사유를 확인하세요',
@@ -271,7 +271,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       {
         title: '셋째, "이직 회피 노력"을 증명할 수 있어야 합니다',
         content:
-          '<p><strong style="color:#1e3a5f">단순히 "힘들어서 그만뒀다"만으로는 인정받기 어렵습니다</strong></p>\n<p>고용센터는 <strong>"퇴사 전에 문제 해결을 위해 어떤 노력을 했느냐"</strong>를 중점적으로 심사합니다. 따라서 다음과 같은 증거를 미리 확보해두세요.</p>\n<p>①회사에 <strong>시정 요구한 이메일·내용증명</strong> ②<strong>노동부 진정·고소 기록</strong> ③의사 <strong>소견서·진단서</strong>(건강 사유) ④<strong>임금체불 내역</strong>(급여명세서, 통장 기록) ⑤<strong>근로계약서와 실제 근무조건 비교 자료</strong></p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 시정 요구 기록 + 노동부 진정 + 의사 소견서 + 임금 관련 자료</blockquote>',
+          '<p><strong style="color:#1e3a5f">단순히 "힘들어서 그만뒀다"만으로는 인정받기 어렵습니다</strong></p>\n<p>고용센터는 <strong>"퇴사 전에 문제 해결을 위해 어떤 노력을 했느냐"</strong>를 중점적으로 심사합니다. 따라서 다음과 같은 증거를 미리 확보해두세요.</p>\n<p>①회사에 <strong>시정 요구한 이메일·내용증명</strong> ②<strong>노동부 진정·고소 기록</strong> ③의사 <strong>소견서·진단서</strong>(건강 사유) ④<strong>임금체불 내역</strong>(급여명세서, 통장 기록) ⑤<strong>근로계약서와 실제 근원칙적으로 비교 자료</strong></p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 시정 요구 기록 + 노동부 진정 + 의사 소견서 + 임금 관련 자료</blockquote>',
       },
       {
         title: '넷째, 이직확인서의 "이직 사유" 코드를 반드시 확인하세요',
@@ -353,7 +353,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       {
         title: '넷째, 지연이자 연 20%도 함께 청구하세요',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제37조에 따라 퇴직 후 14일이 지나면 미지급 임금에 연 20% 지연이자가 붙습니다</strong></p>\n<p>퇴직 후 14일이 경과해도 임금을 지급하지 않으면 <strong>지연이자 연 20%</strong>가 가산됩니다. 예를 들어 400만원을 1년간 체불당했다면 지연이자만 <strong>80만원</strong>입니다.</p>\n<p>지연이자는 <strong>퇴직일 다음 날부터 15일째 되는 날</strong>부터 지급 완료일까지 적용됩니다. 체불기간이 길수록 지연이자가 커지므로, 원금과 함께 반드시 청구하세요. 다만 <strong>재직 중 체불</strong>에는 연 20%가 아닌 민법상 <strong>연 5%</strong>가 적용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지연이자: 퇴직 후 14일 초과 체불 → 연 20% | 재직 중 체불 → 연 5%</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제37조에 따라 퇴직 후 14일이 지나면 미지급 임금에 연 20% 지연이자가 붙습니다</strong></p>\n<p>퇴직 후 14일이 경과해도 임금을 지급하지 않으면 <strong>지연이자 연 20%</strong>가 가산됩니다. 예를 들어 400만원을 1년간 체불당했다면 지연이자만 <strong>80만원</strong>입니다.</p>\n<p>지연이자는 <strong>퇴직일 다음 날부터 15일째 되는 날</strong>부터 지급 완료일까지 적용됩니다. 체불기간이 길수록 지연이자가 커지므로, 원금과 함께 가능한 한 청구하세요. 다만 <strong>재직 중 체불</strong>에는 연 20%가 아닌 민법상 <strong>연 5%</strong>가 적용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지연이자: 퇴직 후 14일 초과 체불 → 연 20% | 재직 중 체불 → 연 5%</blockquote>',
       },
     ],
     cases: [
@@ -362,7 +362,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
         summary:
           '대법원 2025다214605 사건(2025.12.11 선고)에서 법원은 상법 제388조는 이사의 보수에 관한 강행규정이며, 정관에서 주주총회 결의로 보수를 정하도록 규정한 경우 주주총회 결의 없이는 보수청구권을 행사할 수 없다고 판시했습니다.',
         takeaway:
-          '임금채권은 법에서 정한 절차와 기한에 따라 권리를 행사해야 합니다. 소멸시효 3년이 경과하면 강행규정에 의해 권리가 소멸될 수 있으므로, 기한 내에 반드시 청구 조치를 취하세요.',
+          '임금채권은 법에서 정한 절차와 기한에 따라 권리를 행사해야 합니다. 소멸시효 3년이 경과하면 강행규정에 의해 권리가 소멸될 수 있으므로, 기한 내에 가능한 한 청구 조치를 취하세요.',
       },
     ],
     faq: [

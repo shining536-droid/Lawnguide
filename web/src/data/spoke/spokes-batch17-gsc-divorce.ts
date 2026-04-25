@@ -30,7 +30,7 @@ export const spokesBatch17GscDivorce: SpokePage[] = [
       {
         title: '둘째, 미성년 자녀가 있다면 양육·친권 관련 서류가 추가됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">미성년 자녀가 있는 부부는 양육에 관한 협의서를 반드시 첨부해야 합니다</strong></p>\n<p>양육자 지정, 양육비 부담, 면접교섭권 등을 기재한 <strong>자녀 양육에 관한 협의서</strong>를 작성하세요. 법원에서 제공하는 양식이 있으니 그대로 활용하면 됩니다.</p>\n<p>양육비 산정은 <strong>양육비 산정기준표</strong>(법원행정처 발간)를 참고하되, 부모 쌍방의 소득증빙(근로소득원천징수영수증 또는 소득금액증명원)을 첨부하면 심사가 빨라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 양육 협의서 + 양육비 부담 조서 + 소득증빙 + 기본증명서(자녀)</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">서류 누락 없이 준비하고 싶다면</strong><br/>\n<a href="/diagnosis/divorce" style="color:#1565c0;font-weight:600">내 상황에 맞는 필수 서류 확인하기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">미성년 자녀가 있는 부부는 양육에 관한 협의서를 가능한 한 첨부해야 합니다</strong></p>\n<p>양육자 지정, 양육비 부담, 면접교섭권 등을 기재한 <strong>자녀 양육에 관한 협의서</strong>를 작성하세요. 법원에서 제공하는 양식이 있으니 그대로 활용하면 됩니다.</p>\n<p>양육비 산정은 <strong>양육비 산정기준표</strong>(법원행정처 발간)를 참고하되, 부모 쌍방의 소득증빙(근로소득원천징수영수증 또는 소득금액증명원)을 첨부하면 심사가 빨라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 양육 협의서 + 양육비 부담 조서 + 소득증빙 + 기본증명서(자녀)</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">서류 누락 없이 준비하고 싶다면</strong><br/>\n<a href="/diagnosis/divorce" style="color:#1565c0;font-weight:600">내 상황에 맞는 필수 서류 확인하기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 재산분할 합의서와 위자료 약정서를 별도로 준비하세요',
@@ -40,7 +40,7 @@ export const spokesBatch17GscDivorce: SpokePage[] = [
       {
         title: '넷째, 주민등록등본과 신분증을 빠뜨리지 마세요',
         content:
-          '<p><strong style="color:#1e3a5f">신분증과 주민등록등본은 법원 방문 시 반드시 지참해야 합니다</strong></p>\n<p>부부 모두의 <strong>주민등록등본</strong>(주소지 동일 여부 확인용)과 <strong>신분증 원본</strong>(주민등록증, 운전면허증, 여권 중 택1)을 준비하세요. 대리인이 출석하는 경우 위임장과 인감증명서가 추가로 필요합니다.</p>\n<p>외국인 배우자가 있는 경우에는 <strong>외국인등록사실증명서</strong>와 해당 국가의 가족관계 서류(번역·공증 포함)가 필요합니다. 이 서류는 발급에 시간이 걸리니 최소 2주 전에 준비를 시작하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 주민등록등본 + 신분증 원본(양측) + (외국인) 등록사실증명·번역공증</blockquote>',
+          '<p><strong style="color:#1e3a5f">신분증과 주민등록등본은 법원 방문 시 가능한 한 지참해야 합니다</strong></p>\n<p>부부 모두의 <strong>주민등록등본</strong>(주소지 동일 여부 확인용)과 <strong>신분증 원본</strong>(주민등록증, 운전면허증, 여권 중 택1)을 준비하세요. 대리인이 출석하는 경우 위임장과 인감증명서가 추가로 필요합니다.</p>\n<p>외국인 배우자가 있는 경우에는 <strong>외국인등록사실증명서</strong>와 해당 국가의 가족관계 서류(번역·공증 포함)가 필요합니다. 이 서류는 발급에 시간이 걸리니 최소 2주 전에 준비를 시작하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 주민등록등본 + 신분증 원본(양측) + (외국인) 등록사실증명·번역공증</blockquote>',
       },
       {
         title: '다섯째, 서류 발급처와 유효기간을 한눈에 정리합니다',
@@ -54,14 +54,14 @@ export const spokesBatch17GscDivorce: SpokePage[] = [
         summary:
           '대법원 2023므11819 사건(2023.12.21 선고)에서 법원은 협의이혼 후 민법 제839조의2에 따라 2년 이내에 재산분할청구를 하여야 하며, 제척기간 내 이루어진 청구에 대하여 제척기간 준수의 효력이 인정된다고 판시했습니다.',
         takeaway:
-          '협의이혼 시 재산분할 합의를 하지 못했다면, 이혼 확정 후 2년 이내에 반드시 청구해야 합니다. 서류 준비 단계에서 재산분할 합의서도 함께 작성해두면 별도 소송을 피할 수 있습니다.',
+          '협의이혼 시 재산분할 합의를 하지 못했다면, 이혼 확정 후 2년 이내에 가능한 한 청구해야 합니다. 서류 준비 단계에서 재산분할 합의서도 함께 작성해두면 별도 소송을 피할 수 있습니다.',
       },
     ],
     faq: [
       {
         question: '협의이혼 서류는 부부가 따로 준비해도 되나요?',
         answer:
-          '각자 발급받을 수 있는 서류(가족관계증명서, 주민등록등본 등)는 따로 준비해도 됩니다. 다만 이혼의사확인 신청서와 양육 협의서는 반드시 양측이 함께 서명·날인해야 하므로, 서명 일정을 사전에 조율하세요.',
+          '각자 발급받을 수 있는 서류(가족관계증명서, 주민등록등본 등)는 따로 준비해도 됩니다. 다만 이혼의사확인 신청서와 양육 협의서는 가능한 한 양측이 함께 서명·날인해야 하므로, 서명 일정을 사전에 조율하세요.',
       },
       {
         question: '법원에 제출하는 서류에 인감도장이 필요한가요?',
@@ -125,7 +125,7 @@ export const spokesBatch17GscDivorce: SpokePage[] = [
       {
         title: '셋째, 숙려기간 단축 신청 절차와 필요 서류를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">숙려기간 단축은 관할 가정법원에 서면으로 신청합니다</strong></p>\n<p><strong>숙려기간 단축 신청서</strong>에 단축 사유를 구체적으로 기재하고, 이를 뒷받침하는 소명자료를 첨부하세요.</p>\n<ul>\n<li>가정폭력: <strong>진단서, 고소장 접수증명원, 피해자 보호명령 결정문, 112 신고 기록</strong></li>\n<li>긴급한 사정: <strong>출국 예정 항공권, 해외 취업 계약서, 의사 소견서</strong></li>\n</ul>\n<p>법원은 소명자료를 검토한 후 <strong>단축 여부와 단축 기간을 재량으로 결정</strong>합니다. 반드시 1주일로 단축되는 것이 아니며, 사안에 따라 2주~1개월 등 다양합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 단축 신청서 작성 → 소명자료 첨부 → 법원 재량 결정</blockquote>',
+          '<p><strong style="color:#1e3a5f">숙려기간 단축은 관할 가정법원에 서면으로 신청합니다</strong></p>\n<p><strong>숙려기간 단축 신청서</strong>에 단축 사유를 구체적으로 기재하고, 이를 뒷받침하는 소명자료를 첨부하세요.</p>\n<ul>\n<li>가정폭력: <strong>진단서, 고소장 접수증명원, 피해자 보호명령 결정문, 112 신고 기록</strong></li>\n<li>긴급한 사정: <strong>출국 예정 항공권, 해외 취업 계약서, 의사 소견서</strong></li>\n</ul>\n<p>법원은 소명자료를 검토한 후 <strong>단축 여부와 단축 기간을 재량으로 결정</strong>합니다. 가능한 한 1주일로 단축되는 것이 아니며, 사안에 따라 2주~1개월 등 다양합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 단축 신청서 작성 → 소명자료 첨부 → 법원 재량 결정</blockquote>',
       },
       {
         title: '넷째, 숙려기간 중에도 할 수 있는 일이 있습니다',
@@ -201,12 +201,12 @@ export const spokesBatch17GscDivorce: SpokePage[] = [
         '재산분할 비율이 50:50이 아닐 수도 있다는 사실, 알고 계셨나요? 비율을 바꾸는 5가지 핵심 요소와 입증 방법을 정리했습니다. 지금 확인하세요.',
     },
     intro:
-      '이혼 재산분할 비율은 무조건 반반일 거라고 생각했는데, 변호사에게 "30:70이 나올 수도 있다"는 말을 들었습니다. 맞벌이였는데도 비율이 달라질 수 있는 건지, 어떤 요소가 비율에 영향을 주는지 불안합니다. 재산분할 비율을 결정하는 핵심 기준을 확인해보세요.',
+      '이혼 재산분할 비율은 원칙적으로 반반일 거라고 생각했는데, 변호사에게 "30:70이 나올 수도 있다"는 말을 들었습니다. 맞벌이였는데도 비율이 달라질 수 있는 건지, 어떤 요소가 비율에 영향을 주는지 불안합니다. 재산분할 비율을 결정하는 핵심 기준을 확인해보세요.',
     sections: [
       {
         title: '첫째, 혼인 중 재산 형성에 대한 기여도가 가장 중요합니다',
         content:
-          '<p><strong style="color:#1e3a5f">법원은 재산의 형성과 유지에 각 배우자가 얼마나 기여했는지를 가장 먼저 봅니다</strong></p>\n<p>기여도는 단순히 소득만을 의미하지 않습니다. <strong>가사노동, 육아, 시부모 부양</strong> 등 비경제적 기여도 재산 형성에 대한 기여로 인정됩니다.</p>\n<p>맞벌이 부부라면 기여도가 비슷하게 평가되어 <strong>50:50에 가까운 비율</strong>이 나오는 경우가 많습니다. 반면 한쪽이 전업주부였더라도 혼인 기간이 길수록 기여도가 높게 평가될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 소득 기여 + 가사·육아 기여 + 부양 기여 → 종합적으로 평가</blockquote>',
+          '<p><strong style="color:#1e3a5f">법원은 재산의 형성과 유지에 각 배우자가 얼마나 기여했는지를 가장 먼저 봅니다</strong></p>\n<p>기여도는 단순히 소득만을 의미하지 않습니다. <strong>가사노동, 육아, 시부모 부양</strong> 등 비경제적 기여도 재산 형성에 대한 기여로 인정될 수 있습니다.</p>\n<p>맞벌이 부부라면 기여도가 비슷하게 평가되어 <strong>50:50에 가까운 비율</strong>이 나오는 경우가 많습니다. 반면 한쪽이 전업주부였더라도 혼인 기간이 길수록 기여도가 높게 평가될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 소득 기여 + 가사·육아 기여 + 부양 기여 → 종합적으로 평가</blockquote>',
       },
       {
         title: '둘째, 혼인 기간과 특유재산 여부가 비율에 영향을 줍니다',
@@ -297,7 +297,7 @@ export const spokesBatch17GscDivorce: SpokePage[] = [
       {
         title: '첫째, 부동산 등기부등본부터 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">배우자 명의의 부동산은 등기부등본으로 정확한 소유 관계를 확인할 수 있습니다</strong></p>\n<p><strong>인터넷 등기소</strong>(대법원 등기정보센터)에서 배우자 이름과 주소를 알면 부동산 등기부등본을 열람할 수 있습니다. 소유권, 근저당, 가압류 등 권리관계를 확인하세요.</p>\n<p>혼인 중 취득한 부동산은 명의와 관계없이 <strong>재산분할 대상</strong>입니다. 등기부등본에서 <strong>취득 시기</strong>(혼인 전인지 후인지)와 <strong>담보 설정 현황</strong>을 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인 항목: 소유자 명의 + 취득일자 + 근저당 설정 금액 + 가압류 여부</blockquote>',
+          '<p><strong style="color:#1e3a5f">배우자 명의의 부동산은 등기부등본으로 정확한 소유 관계를 확인할 수 있습니다</strong></p>\n<p><strong>인터넷 등기소</strong>(대법원 등기정보센터)에서 배우자 이름과 주소를 알면 부동산 등기부등본을 열람할 수 있습니다. 소유권, 근저당, 가압류 등 권리관계를 확인하세요.</p>\n<p>혼인 중 취득한 부동산은 명의와 관계없이 <strong>재산분할 대상</strong>입니다. 등기부등본에서 <strong>취득 시기</strong>(혼인 전인지 후인지)와 <strong>담보 설정 현황</strong>을 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인 항목: 소유자 명의 + 취득일자 + 근저당 설정 금액 + 가압류 여부</blockquote>',
       },
       {
         title: '둘째, 금융재산은 소송 전에 최대한 파악해두세요',

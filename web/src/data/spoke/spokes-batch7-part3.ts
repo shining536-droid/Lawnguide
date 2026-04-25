@@ -126,7 +126,7 @@ export const batch7Part3Pages: SpokePage[] = [
       {
         title: '합의금은 어떤 항목으로 구성되나요',
         content:
-          '<p><strong style="color:#1e3a5f">치료비·위자료·휴업손해를 합산한 금액이 합의금의 기준이 됩니다</strong></p>\n<p>폭행 피해 합의금은 크게 세 가지 항목으로 구성됩니다. 첫째, <strong>치료비</strong>: 실제 지출된 치료비 영수증 전액이 기본입니다. 향후 치료가 예상된다면 예상 치료비도 포함됩니다. 코뼈 골절의 경우 성형 교정 비용이 수백만 원이 될 수 있으므로 반드시 포함시키세요.</p>\n<p>둘째, <strong>휴업손해</strong>: 치료 기간에 일을 못 한 경우 소득 손실액을 청구할 수 있습니다. 직장인이라면 급여명세서, 자영업자라면 소득 증빙 서류를 준비하세요. 셋째, <strong>위자료</strong>: 신체적 고통, 정신적 충격, 일상 불편에 대한 보상입니다. 상해 정도와 폭행의 경위에 따라 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">공식: 치료비 전액 + 휴업손해 + 위자료 = 최소 합의금 기준</blockquote>',
+          '<p><strong style="color:#1e3a5f">치료비·위자료·휴업손해를 합산한 금액이 합의금의 기준이 됩니다</strong></p>\n<p>폭행 피해 합의금은 크게 세 가지 항목으로 구성됩니다. 첫째, <strong>치료비</strong>: 실제 지출된 치료비 영수증 전액이 기본입니다. 향후 치료가 예상된다면 예상 치료비도 포함됩니다. 코뼈 골절의 경우 성형 교정 비용이 수백만 원이 될 수 있으므로 가능한 한 포함시키세요.</p>\n<p>둘째, <strong>휴업손해</strong>: 치료 기간에 일을 못 한 경우 소득 손실액을 청구할 수 있습니다. 직장인이라면 급여명세서, 자영업자라면 소득 증빙 서류를 준비하세요. 셋째, <strong>위자료</strong>: 신체적 고통, 정신적 충격, 일상 불편에 대한 보상입니다. 상해 정도와 폭행의 경위에 따라 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">공식: 치료비 전액 + 휴업손해 + 위자료 = 최소 합의금 기준</blockquote>',
       },
       {
         title: '상해 정도별 실무 합의금 범위',
@@ -169,7 +169,7 @@ export const batch7Part3Pages: SpokePage[] = [
       {
         question: '타박상만 있는 경미한 폭행도 합의금 청구가 가능한가요?',
         answer:
-          '치료비와 위자료를 포함해 <strong>청구할 수 있습니다</strong>. 진단서와 치료 영수증을 반드시 챙기세요.',
+          '치료비와 위자료를 포함해 <strong>청구할 수 있습니다</strong>. 진단서와 치료 영수증을 가능한 한 챙기세요.',
       },
       {
         question: '가해자가 합의금을 안 주면 어떻게 되나요?',
@@ -189,7 +189,7 @@ export const batch7Part3Pages: SpokePage[] = [
       {
         question: '합의서를 쓰기 전에 확인해야 할 내용은 무엇인가요?',
         answer:
-          '"향후 일체의 민·형사상 이의를 제기하지 않는다"는 <strong>포기 조항의 범위</strong>를 반드시 확인하세요. 후유증에 대한 추가 청구 가능 여부도 명시해야 합니다.',
+          '"향후 일체의 민·형사상 이의를 제기하지 않는다"는 <strong>포기 조항의 범위</strong>를 가능한 한 확인하세요. 후유증에 대한 추가 청구 가능 여부도 명시해야 합니다.',
       },
       {
         question: '공소시효가 있나요?',
@@ -231,12 +231,12 @@ export const batch7Part3Pages: SpokePage[] = [
       {
         title: '마약류 관련 행위 유형별 법정형 — 투약이 가장 낮지만 절대 경미하지 않습니다',
         content:
-          '<p><strong style="color:#1e3a5f">투약·소지·수수·매매는 모두 마약류 관리법으로 처벌됩니다</strong></p>\n<p>마약류 범죄는 <strong>마약류 관리에 관한 법률</strong>이 적용됩니다. 행위 유형별 법정형을 보면: <strong>투약</strong>(본인이 직접 사용)은 10년 이하 징역 또는 1억원 이하 벌금, <strong>소지</strong>(마약류를 보유)는 10년 이하 징역 또는 1억원 이하 벌금, <strong>수수</strong>(받거나 주는 행위)는 10년 이하 징역 또는 1억원 이하 벌금, <strong>매매</strong>(사고 파는 행위)는 무기 또는 5년 이상 징역입니다.</p>\n<p>투약과 소지는 법정형이 같지만, 실무에서는 투약자를 <strong>피해자로 보는 시각</strong>도 있어 선처 가능성이 소지보다 높은 경우가 있습니다. 하지만 마약류 범죄는 초범이라도 실형 선고 사례가 많으니 결코 가볍게 보면 안 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 투약도 10년 이하 징역 — 초범이라도 집행유예 아닌 실형 사례 있음</blockquote>',
+          '<p><strong style="color:#1e3a5f">투약·소지·수수·매매는 모두 마약류 관리법으로 처벌 대상으로 검토될 수 있습니다</strong></p>\n<p>마약류 범죄는 <strong>마약류 관리에 관한 법률</strong>이 적용됩니다. 행위 유형별 법정형을 보면: <strong>투약</strong>(본인이 직접 사용)은 10년 이하 징역 또는 1억원 이하 벌금, <strong>소지</strong>(마약류를 보유)는 10년 이하 징역 또는 1억원 이하 벌금, <strong>수수</strong>(받거나 주는 행위)는 10년 이하 징역 또는 1억원 이하 벌금, <strong>매매</strong>(사고 파는 행위)는 무기 또는 5년 이상 징역입니다.</p>\n<p>투약과 소지는 법정형이 같지만, 실무에서는 투약자를 <strong>피해자로 보는 시각</strong>도 있어 선처 가능성이 소지보다 높은 경우가 있습니다. 하지만 마약류 범죄는 초범이라도 실형 선고 사례가 많으니 결코 가볍게 보면 안 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 투약도 10년 이하 징역 — 초범이라도 집행유예 아닌 실형 사례 있음</blockquote>',
       },
       {
         title: '마약 종류에 따른 차이 — 대마·향정·마약은 다릅니다',
         content:
-          '<p><strong style="color:#1e3a5f">마약류는 마약·향정신성의약품·대마로 나뉘고 처벌 수준이 다릅니다</strong></p>\n<p>마약류 관리법은 마약류를 <strong>마약</strong>(헤로인, 코카인 등), <strong>향정신성의약품</strong>(필로폰/메스암페타민, 엑스터시 등), <strong>대마</strong>로 분류합니다. 같은 투약 행위라도 마약 종류에 따라 처벌이 다릅니다.</p>\n<p>국내에서 가장 많이 적발되는 <strong>필로폰(메스암페타민)</strong>은 향정신성의약품으로 투약·소지 시 10년 이하 징역 또는 1억원 이하 벌금입니다. 대마 투약·흡연은 5년 이하 징역 또는 5,000만원 이하 벌금으로 법정형이 낮습니다. 다만 대마도 결코 가벼운 범죄가 아니며, 해외에서 합법인 국가에서 경험했더라도 국내에서 처벌됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필로폰 투약: 10년·1억원 / 대마 투약: 5년·5,000만원 — 대마도 처벌됩니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">마약류는 마약·향정신성의약품·대마로 나뉘고 처벌 수준이 다릅니다</strong></p>\n<p>마약류 관리법은 마약류를 <strong>마약</strong>(헤로인, 코카인 등), <strong>향정신성의약품</strong>(필로폰/메스암페타민, 엑스터시 등), <strong>대마</strong>로 분류합니다. 같은 투약 행위라도 마약 종류에 따라 처벌이 다릅니다.</p>\n<p>국내에서 가장 많이 적발되는 <strong>필로폰(메스암페타민)</strong>은 향정신성의약품으로 투약·소지 시 10년 이하 징역 또는 1억원 이하 벌금입니다. 대마 투약·흡연은 5년 이하 징역 또는 5,000만원 이하 벌금으로 법정형이 낮습니다. 다만 대마도 결코 가벼운 범죄가 아니며, 해외에서 합법인 국가에서 경험했더라도 국내에서 처벌 대상으로 검토될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필로폰 투약: 10년·1억원 / 대마 투약: 5년·5,000만원 — 대마도 처벌 대상으로 검토될 수 있습니다</blockquote>',
       },
       {
         title: '매매·제조는 가중처벌 — 영리 목적이면 훨씬 무겁습니다',
@@ -246,7 +246,7 @@ export const batch7Part3Pages: SpokePage[] = [
       {
         title: '수사 단계에서 피의자가 알아야 할 것들',
         content:
-          '<p><strong style="color:#1e3a5f">자백 전에 반드시 변호사와 상담하세요</strong></p>\n<p>마약 수사에서는 소변·모발 감정이 핵심 증거가 됩니다. 소변 검사는 투약 후 수일 내, 모발 검사는 수개월 전까지 추적 가능합니다. 수사기관의 임의 동행 요구 시에는 <strong>동행 거부권</strong>이 있으며, 체포된 경우에는 <strong>진술 거부권(묵비권)</strong>이 있습니다.</p>\n<p>마약 범죄는 자백이 유죄 인정의 주요 근거가 되는 경우가 많습니다. 자백 여부와 내용이 구형과 양형에 결정적 영향을 미치므로, 조사 전에 <strong>반드시 변호사와 상담</strong>하고 대응 방향을 정한 뒤 진술하세요. 자수는 형을 감경받을 수 있는 사유가 됩니다(마약류관리법 제67조).</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 조사 전 변호사 상담 — 진술 내용이 혐의와 형량을 결정합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">자백 전에 가능한 한 변호사와 상담하세요</strong></p>\n<p>마약 수사에서는 소변·모발 감정이 핵심 증거가 됩니다. 소변 검사는 투약 후 수일 내, 모발 검사는 수개월 전까지 추적 가능합니다. 수사기관의 임의 동행 요구 시에는 <strong>동행 거부권</strong>이 있으며, 체포된 경우에는 <strong>진술 거부권(묵비권)</strong>이 있습니다.</p>\n<p>마약 범죄는 자백이 유죄 인정의 주요 근거가 되는 경우가 많습니다. 자백 여부와 내용이 구형과 양형에 결정적 영향을 미치므로, 조사 전에 <strong>가능한 한 변호사와 상담</strong>하고 대응 방향을 정한 뒤 진술하세요. 자수는 형을 감경받을 수 있는 사유가 됩니다(마약류관리법 제67조).</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 조사 전 변호사 상담 — 진술 내용이 혐의와 형량을 결정합니다</blockquote>',
       },
     ],
     comparison: {
@@ -290,7 +290,7 @@ export const batch7Part3Pages: SpokePage[] = [
       {
         title: '소지와 투약이 동시에 인정된 사례',
         summary:
-          '관련 사례에서도 현장에서 마약류가 발견된 경우 소지와 투약이 함께 기소되어 형량이 가중된 경우가 있습니다. 소변 감정에서 양성이 나오면 투약이 사실상 인정됩니다.',
+          '관련 사례에서도 현장에서 마약류가 발견된 경우 소지와 투약이 함께 기소되어 형량이 가중된 경우가 있습니다. 소변 감정에서 양성이 나오면 투약이 사실상 인정될 수 있습니다.',
         takeaway:
           '비슷한 상황이라면 자신이 어떤 혐의를 받고 있는지 정확히 파악한 뒤 변호사 조력을 받아 대응하세요.',
       },
@@ -309,7 +309,7 @@ export const batch7Part3Pages: SpokePage[] = [
       {
         question: '택배로 받기만 했는데 매매로 처벌받나요?',
         answer:
-          '대가를 지불하고 구매한 경우 <strong>매매의 매수</strong>에 해당합니다. 단순 수령이라도 마약류임을 알면서 받았다면 최소한 수수죄가 성립합니다.',
+          '대가를 지불하고 구매한 경우 <strong>매매의 매수</strong>에 해당할 소지가 있습니다. 단순 수령이라도 마약류임을 알면서 받았다면 최소한 수수죄가 성립할 수 있습니다.',
       },
       {
         question: '투약·소지·매매가 동시에 적발되면 형량은 어떻게 되나요?',
@@ -319,7 +319,7 @@ export const batch7Part3Pages: SpokePage[] = [
       {
         question: '심부름으로 전달만 했는데 매매 공범이 되나요?',
         answer:
-          '됩니다. 마약류를 전달하는 행위는 <strong>매매의 공동정범 또는 방조범</strong>으로 인정됩니다. "내용물을 몰랐다"는 항변은 정황 증거로 반박되는 경우가 대부분입니다.',
+          '됩니다. 마약류를 전달하는 행위는 <strong>매매의 공동정범 또는 방조범</strong>으로 인정될 수 있습니다. "내용물을 몰랐다"는 항변은 정황 증거로 반박되는 경우가 대부분입니다.',
       },
       {
         question: '수사 중 혐의가 소지에서 매매로 바뀔 수 있나요?',

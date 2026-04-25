@@ -121,7 +121,7 @@ export const spokesBatch35Unemployment: SpokePage[] = [
       {
         title: '대기기간 중 할 수 있는 일',
         content:
-          '<p><strong style="color:#1e3a5f">대기기간에도 구직활동은 가능하며, 이 기간의 구직활동이 이후 실업인정에 도움이 됩니다.</strong></p>\n<ul>\n<li><strong>구직활동</strong> — 워크넷 이력서 등록, 채용 공고 지원, 면접 참석 등은 자유롭게 할 수 있습니다. 대기기간 중 구직활동도 이후 실업인정 시 인정받을 수 있습니다</li>\n<li><strong>직업훈련</strong> — 고용센터에서 안내받은 직업훈련 프로그램에 참여할 수 있으며, 이는 구직활동으로 인정됩니다</li>\n<li><strong>고용센터 상담</strong> — 취업 상담, 직업심리검사, 취업지원 프로그램 등에 참여할 수 있습니다</li>\n<li><strong>개인 활동</strong> — 건강검진, 자격증 공부, 자기계발 등 개인적인 활동은 제한 없이 할 수 있습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 대기기간 중 가능한 활동과 주의사항을 안내해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">대기기간에도 구직활동은 가능하며, 이 기간의 구직활동이 이후 실업인정에 도움이 됩니다.</strong></p>\n<ul>\n<li><strong>구직활동</strong> — 워크넷 이력서 등록, 채용 공고 지원, 면접 참석 등은 자유롭게 할 수 있습니다. 대기기간 중 구직활동도 이후 실업인정 시 인정받을 수 있습니다</li>\n<li><strong>직업훈련</strong> — 고용센터에서 안내받은 직업훈련 프로그램에 참여할 수 있으며, 이는 구직활동으로 인정될 수 있습니다</li>\n<li><strong>고용센터 상담</strong> — 취업 상담, 직업심리검사, 취업지원 프로그램 등에 참여할 수 있습니다</li>\n<li><strong>개인 활동</strong> — 건강검진, 자격증 공부, 자기계발 등 개인적인 활동은 제한 없이 할 수 있습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 대기기간 중 가능한 활동과 주의사항을 안내해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '대기기간 중 하면 안 되는 일',
@@ -131,7 +131,7 @@ export const spokesBatch35Unemployment: SpokePage[] = [
       {
         title: '대기기간 이후 첫 실업인정일 준비',
         content:
-          '<p><strong style="color:#1e3a5f">대기기간이 끝나면 첫 번째 실업인정일에 고용센터를 방문하여 구직활동 실적을 보고해야 합니다.</strong></p>\n<ul>\n<li><strong>첫 실업인정일 확인</strong> — 수급자격 인정 시 고용센터에서 첫 실업인정일을 안내합니다. 대기기간 종료 후 1~2주 이내에 지정됩니다</li>\n<li><strong>구직활동 실적 준비</strong> — 첫 실업인정 시에는 최소 1회 이상의 구직활동 실적이 필요합니다. 워크넷 입사지원, 면접 참석, 직업훈련 수강 등이 인정됩니다</li>\n<li><strong>실업인정 신고서 작성</strong> — 대기기간 중 소득 발생 여부, 취업 여부, 구직활동 내용을 사실대로 기재합니다</li>\n<li><strong>온라인 실업인정</strong> — 고용24(www.work24.go.kr)에서 온라인으로 실업인정을 받을 수 있습니다. 첫 회는 반드시 고용센터 방문이 필요한 경우가 있으므로 사전에 확인하세요</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 대기기간 중에도 구직활동을 해두면 첫 실업인정일에 여유 있게 실적을 제출할 수 있습니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">대기기간이 끝나면 첫 번째 실업인정일에 고용센터를 방문하여 구직활동 실적을 보고해야 합니다.</strong></p>\n<ul>\n<li><strong>첫 실업인정일 확인</strong> — 수급자격 인정 시 고용센터에서 첫 실업인정일을 안내합니다. 대기기간 종료 후 1~2주 이내에 지정됩니다</li>\n<li><strong>구직활동 실적 준비</strong> — 첫 실업인정 시에는 최소 1회 이상의 구직활동 실적이 필요합니다. 워크넷 입사지원, 면접 참석, 직업훈련 수강 등이 인정될 수 있습니다</li>\n<li><strong>실업인정 신고서 작성</strong> — 대기기간 중 소득 발생 여부, 취업 여부, 구직활동 내용을 사실대로 기재합니다</li>\n<li><strong>온라인 실업인정</strong> — 고용24(www.work24.go.kr)에서 온라인으로 실업인정을 받을 수 있습니다. 첫 회는 가능한 한 고용센터 방문이 필요한 경우가 있으므로 사전에 확인하세요</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 대기기간 중에도 구직활동을 해두면 첫 실업인정일에 여유 있게 실적을 제출할 수 있습니다</blockquote>',
       },
     ],
     cases: [
@@ -140,14 +140,14 @@ export const spokesBatch35Unemployment: SpokePage[] = [
         summary:
           '대법원 2020두31323 사건(대법원, 2020.05.14 선고)에서 법원은 취업사실 신고의무 위반으로 부정수급 제재 기준을 판시했습니다. 대기기간을 포함한 수급 전 과정에서 취업 또는 소득 발생 사실을 정확하게 신고할 의무가 있다는 점을 확인한 판결입니다.',
         takeaway:
-          '대기기간 중이라도 취업하거나 소득이 발생하면 반드시 신고해야 하며, 미신고 시 부정수급으로 처리되어 추징과 제재를 받을 수 있습니다.',
+          '대기기간 중이라도 취업하거나 소득이 발생하면 가능한 한 신고해야 하며, 미신고 시 부정수급으로 처리되어 추징과 제재를 받을 수 있습니다.',
       },
     ],
     faq: [
       {
         question: '대기기간에 일했으면 신고해야 하나요?',
         answer:
-          '<strong>반드시 신고해야 합니다.</strong> 대기기간 중 근로를 제공하고 대가를 받았다면 실업인정 신고서에 해당 내용을 기재해야 합니다. 미신고 시 부정수급에 해당하며, 최대 5배 추징과 형사 처벌을 받을 수 있습니다.',
+          '<strong>가능한 한 신고해야 합니다.</strong> 대기기간 중 근로를 제공하고 대가를 받았다면 실업인정 신고서에 해당 내용을 기재해야 합니다. 미신고 시 부정수급에 해당하며, 최대 5배 추징과 형사 처벌을 받을 수 있습니다.',
       },
       {
         question: '7일 시작일은 언제인가요?',
@@ -200,7 +200,7 @@ export const spokesBatch35Unemployment: SpokePage[] = [
       {
         title: '임신 시 수급기간 연장 요건',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 제52조에 따라 임신·출산·육아 등 대통령령으로 정하는 사유로 취업이 불가능한 기간은 수급기간이 연장됩니다.</strong></p>\n<ul>\n<li><strong>연장 사유</strong> — 임신으로 인해 취업이 곤란한 경우 수급기간(이직일 다음 날부터 12개월) 내에 받지 못한 잔여 급여를 연장된 기간에 받을 수 있습니다</li>\n<li><strong>연장 기간</strong> — 취업이 불가능한 기간만큼 수급기간이 연장되며, 최대 4년까지 연장이 가능합니다. 임신·출산·육아를 합산하여 계산합니다</li>\n<li><strong>신청 방법</strong> — 관할 고용센터에 수급기간 연장 신청서와 임신 확인서(산부인과 진단서)를 제출합니다</li>\n<li><strong>신청 시기</strong> — 수급기간이 만료되기 전에 신청해야 합니다. 이미 수급기간이 지난 후에는 연장 신청이 불가능하므로 조기에 신청하세요</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 수급기간 연장은 자동이 아닙니다. 반드시 수급기간 만료 전에 고용센터에 신청서를 제출해야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 제52조에 따라 임신·출산·육아 등 대통령령으로 정하는 사유로 취업이 불가능한 기간은 수급기간이 연장됩니다.</strong></p>\n<ul>\n<li><strong>연장 사유</strong> — 임신으로 인해 취업이 곤란한 경우 수급기간(이직일 다음 날부터 12개월) 내에 받지 못한 잔여 급여를 연장된 기간에 받을 수 있습니다</li>\n<li><strong>연장 기간</strong> — 취업이 불가능한 기간만큼 수급기간이 연장되며, 최대 4년까지 연장이 가능합니다. 임신·출산·육아를 합산하여 계산합니다</li>\n<li><strong>신청 방법</strong> — 관할 고용센터에 수급기간 연장 신청서와 임신 확인서(산부인과 진단서)를 제출합니다</li>\n<li><strong>신청 시기</strong> — 수급기간이 만료되기 전에 신청해야 합니다. 이미 수급기간이 지난 후에는 연장 신청이 불가능하므로 조기에 신청하세요</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 수급기간 연장은 자동이 아닙니다. 가능한 한 수급기간 만료 전에 고용센터에 신청서를 제출해야 합니다</blockquote>',
       },
       {
         title: '출산 전후 실업인정 특례',
@@ -210,19 +210,19 @@ export const spokesBatch35Unemployment: SpokePage[] = [
       {
         title: '출산 후 수급 재개 절차',
         content:
-          '<p><strong style="color:#1e3a5f">출산 후 수급을 재개하려면 고용센터에 출산 사실을 통보하고 실업인정을 다시 시작해야 합니다.</strong></p>\n<ul>\n<li><strong>출산 통보</strong> — 출산 후 관할 고용센터에 출생증명서 또는 가족관계증명서를 제출하여 출산 사실을 통보합니다</li>\n<li><strong>수급 재개 신청</strong> — 출산 후 구직활동이 가능해진 시점에 고용센터에 수급 재개를 신청합니다. 연장된 수급기간 내라면 잔여 급여를 계속 받을 수 있습니다</li>\n<li><strong>구직활동 재개</strong> — 수급 재개 후에는 일반 수급자와 동일하게 실업인정일마다 구직활동 실적을 보고해야 합니다</li>\n<li><strong>육아 사유 추가 연장</strong> — 출산 후 육아로 인해 구직활동이 어려우면 육아 사유로 수급기간을 추가 연장할 수 있습니다. 이 경우에도 수급기간 만료 전에 신청해야 합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 연장된 수급기간이 만료되면 잔여 급여가 있더라도 더 이상 지급되지 않으므로 기한을 반드시 확인하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">출산 후 수급을 재개하려면 고용센터에 출산 사실을 통보하고 실업인정을 다시 시작해야 합니다.</strong></p>\n<ul>\n<li><strong>출산 통보</strong> — 출산 후 관할 고용센터에 출생증명서 또는 가족관계증명서를 제출하여 출산 사실을 통보합니다</li>\n<li><strong>수급 재개 신청</strong> — 출산 후 구직활동이 가능해진 시점에 고용센터에 수급 재개를 신청합니다. 연장된 수급기간 내라면 잔여 급여를 계속 받을 수 있습니다</li>\n<li><strong>구직활동 재개</strong> — 수급 재개 후에는 일반 수급자와 동일하게 실업인정일마다 구직활동 실적을 보고해야 합니다</li>\n<li><strong>육아 사유 추가 연장</strong> — 출산 후 육아로 인해 구직활동이 어려우면 육아 사유로 수급기간을 추가 연장할 수 있습니다. 이 경우에도 수급기간 만료 전에 신청해야 합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 연장된 수급기간이 만료되면 잔여 급여가 있더라도 더 이상 지급되지 않으므로 기한을 가능한 한 확인하세요</blockquote>',
       },
       {
         title: '육아휴직급여와의 관계',
         content:
-          '<p><strong style="color:#1e3a5f">실업급여와 육아휴직급여는 중복 수급이 불가능하며, 상황에 따라 유리한 급여를 선택해야 합니다.</strong></p>\n<ul>\n<li><strong>중복 수급 불가</strong> — 육아휴직급여를 받는 동안에는 실업급여를 동시에 받을 수 없습니다. 육아휴직급여가 종료된 후 실업 상태라면 실업급여를 신청할 수 있습니다</li>\n<li><strong>급여 비교</strong> — 육아휴직급여는 통상임금의 80%(상한 월 150만 원)이며, 실업급여(구직급여)는 이직 전 평균임금의 60%(상한 일 66,000원)입니다. 본인의 임금 수준에 따라 유리한 급여가 달라집니다</li>\n<li><strong>신청 기한 주의</strong> — 육아휴직급여의 청구권은 휴직 종료일 다음 날부터 12개월 이내에 행사해야 합니다. 이 기한은 제척기간으로 연장이 불가능합니다</li>\n<li><strong>전환 시 상담</strong> — 실업급여 수급 중 재취업 후 육아휴직을 하는 경우, 또는 육아휴직 후 퇴사하여 실업급여를 받으려는 경우에는 고용센터에서 개별 상담을 받으세요</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 육아휴직급여와 실업급여 중 어느 것이 유리한지는 개인 상황에 따라 다르므로 반드시 금액을 비교한 뒤 선택하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">실업급여와 육아휴직급여는 중복 수급이 불가능하며, 상황에 따라 유리한 급여를 선택해야 합니다.</strong></p>\n<ul>\n<li><strong>중복 수급 불가</strong> — 육아휴직급여를 받는 동안에는 실업급여를 동시에 받을 수 없습니다. 육아휴직급여가 종료된 후 실업 상태라면 실업급여를 신청할 수 있습니다</li>\n<li><strong>급여 비교</strong> — 육아휴직급여는 통상임금의 80%(상한 월 150만 원)이며, 실업급여(구직급여)는 이직 전 평균임금의 60%(상한 일 66,000원)입니다. 본인의 임금 수준에 따라 유리한 급여가 달라집니다</li>\n<li><strong>신청 기한 주의</strong> — 육아휴직급여의 청구권은 휴직 종료일 다음 날부터 12개월 이내에 행사해야 합니다. 이 기한은 제척기간으로 연장이 불가능합니다</li>\n<li><strong>전환 시 상담</strong> — 실업급여 수급 중 재취업 후 육아휴직을 하는 경우, 또는 육아휴직 후 퇴사하여 실업급여를 받으려는 경우에는 고용센터에서 개별 상담을 받으세요</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 육아휴직급여와 실업급여 중 어느 것이 유리한지는 개인 상황에 따라 다르므로 가능한 한 금액을 비교한 뒤 선택하세요</blockquote>',
       },
     ],
     cases: [
       {
         title: '판례 — 육아휴직급여 청구권 행사기간의 제척기간 성격',
         summary:
-          '대법원 2018두47264 사건(대법원, 2021.03.18 선고)에서 법원은 육아휴직급여 청구권 행사기간(12개월)이 제척기간이며 강행규정이라고 판시했습니다. 출산·육아 관련 급여는 신청 기한이 엄격하게 적용되므로 기한 내 반드시 청구해야 한다는 점을 확인한 판결입니다.',
+          '대법원 2018두47264 사건(대법원, 2021.03.18 선고)에서 법원은 육아휴직급여 청구권 행사기간(12개월)이 제척기간이며 강행규정이라고 판시했습니다. 출산·육아 관련 급여는 신청 기한이 엄격하게 적용되므로 기한 내 가능한 한 청구해야 한다는 점을 확인한 판결입니다.',
         takeaway:
           '임신·출산 관련 급여(실업급여 연장, 육아휴직급여 등)는 신청 기한이 법적으로 엄격하게 정해져 있으므로, 기한을 놓치지 않도록 미리 일정을 확인하고 조기에 신청하세요.',
       },
@@ -231,7 +231,7 @@ export const spokesBatch35Unemployment: SpokePage[] = [
       {
         question: '임신으로 구직활동이 어려우면 면제되나요?',
         answer:
-          '<strong>임신으로 인해 구직활동이 곤란하다고 인정되면 구직활동 요건이 면제될 수 있습니다.</strong> 고용센터에 임신 확인서를 제출하고 면제를 신청하세요. 임신 주수, 건강 상태 등을 고려하여 담당자가 면제 여부를 결정합니다. 특히 임신 후기에는 사실상 면제가 인정됩니다.',
+          '<strong>임신으로 인해 구직활동이 곤란하다고 인정되면 구직활동 요건이 면제될 수 있습니다.</strong> 고용센터에 임신 확인서를 제출하고 면제를 신청하세요. 임신 주수, 건강 상태 등을 고려하여 담당자가 면제 여부를 결정합니다. 특히 임신 후기에는 사실상 면제가 인정될 수 있습니다.',
       },
       {
         question: '출산 직후에도 실업인정을 받아야 하나요?',

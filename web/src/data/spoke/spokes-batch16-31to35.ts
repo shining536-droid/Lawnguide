@@ -20,7 +20,7 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
       {
         title: '1단계. 유포된 영상의 증거를 즉시 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">삭제 요청 전에 증거부터 남겨야 합니다</strong></p>\n<p>유포된 영상의 <strong>URL, 게시자 아이디, 게시 일시</strong>를 캡처하세요. 화면 녹화로 해당 페이지 전체를 기록해두면 더 확실합니다. 메신저로 유포된 경우에는 대화방 캡처와 함께 <strong>발신자 정보</strong>를 반드시 저장하세요.</p>\n<p>증거 확보 없이 삭제만 요청하면 나중에 고소·손해배상 청구 시 <strong>피해 입증이 어려워집니다</strong>. 성폭력범죄의 처벌 등에 관한 특례법 제14조의3에 따라 딥페이크 영상 유포는 5년 이하의 징역 또는 5천만원 이하의 벌금에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: URL 캡처, 게시자 ID 기록, 화면 녹화, 메신저 대화 저장</blockquote>',
+          '<p><strong style="color:#1e3a5f">삭제 요청 전에 증거부터 남겨야 합니다</strong></p>\n<p>유포된 영상의 <strong>URL, 게시자 아이디, 게시 일시</strong>를 캡처하세요. 화면 녹화로 해당 페이지 전체를 기록해두면 더 확실합니다. 메신저로 유포된 경우에는 대화방 캡처와 함께 <strong>발신자 정보</strong>를 가능한 한 저장하세요.</p>\n<p>증거 확보 없이 삭제만 요청하면 나중에 고소·손해배상 청구 시 <strong>피해 입증이 어려워집니다</strong>. 성폭력범죄의 처벌 등에 관한 특례법 제14조의3에 따라 딥페이크 영상 유포는 5년 이하의 징역 또는 5천만원 이하의 벌금에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: URL 캡처, 게시자 ID 기록, 화면 녹화, 메신저 대화 저장</blockquote>',
       },
       {
         title: '2단계. 방송통신심의위원회에 삭제 요청을 신청하세요',
@@ -113,7 +113,7 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
       {
         title: '둘째, 채권추심법 위반으로 금융감독원에 신고하세요',
         content:
-          '<p><strong style="color:#1e3a5f">위법한 추심은 채권의 공정한 추심에 관한 법률로 처벌됩니다</strong></p>\n<p>채권의 공정한 추심에 관한 법률 제9조에 따라, 채권자가 <strong>심야 시간(21시~08시)</strong>에 전화하거나, 채무자의 <strong>직장·가족</strong>에 연락하거나, 폭언·협박을 하는 것은 위법 추심입니다. 위반 시 <strong>3년 이하의 징역 또는 3천만원 이하의 벌금</strong>에 처할 수 있습니다.</p>\n<p>위법 추심 증거(통화 녹음, 문자 캡처, 방문 기록)를 모아 <strong>금융감독원(전화 1332)</strong>에 신고하세요. 금융감독원이 해당 채권추심업체에 시정명령을 내리면 추심이 중단됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">위법 추심: 심야 전화, 직장 연락, 폭언 → 금감원 1332 신고</blockquote>',
+          '<p><strong style="color:#1e3a5f">위법한 추심은 채권의 공정한 추심에 관한 법률로 처벌 대상으로 검토될 수 있습니다</strong></p>\n<p>채권의 공정한 추심에 관한 법률 제9조에 따라, 채권자가 <strong>심야 시간(21시~08시)</strong>에 전화하거나, 채무자의 <strong>직장·가족</strong>에 연락하거나, 폭언·협박을 하는 것은 위법 추심입니다. 위반 시 <strong>3년 이하의 징역 또는 3천만원 이하의 벌금</strong>에 처할 수 있습니다.</p>\n<p>위법 추심 증거(통화 녹음, 문자 캡처, 방문 기록)를 모아 <strong>금융감독원(전화 1332)</strong>에 신고하세요. 금융감독원이 해당 채권추심업체에 시정명령을 내리면 추심이 중단됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">위법 추심: 심야 전화, 직장 연락, 폭언 → 금감원 1332 신고</blockquote>',
       },
       {
         title: '셋째, 개시결정 후에는 강제집행 자동 중지됩니다',
@@ -192,12 +192,12 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
       {
         title: '2단계. 경매 법원에 배당 요구를 신청하세요',
         content:
-          '<p><strong style="color:#1e3a5f">배당 요구 종기일까지 반드시 신청해야 합니다</strong></p>\n<p>경매가 개시되면 법원이 <strong>배당 요구 종기일</strong>을 정합니다. 이 기한까지 집행법원에 <strong>배당 요구서</strong>를 제출해야 합니다. 기한을 놓치면 우선변제권이 있어도 <strong>배당에서 제외</strong>될 수 있습니다.</p>\n<p>배당 요구서에는 임대차 계약서 사본, 확정일자 증명, 전입세대 열람내역을 첨부합니다. 민사집행법 제148조에 따라 배당 요구를 한 채권자만 배당을 받을 수 있으므로 <strong>기한 준수가 가장 중요</strong>합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 배당 요구 종기일 전에 반드시 신청 | 첨부: 계약서 + 확정일자 + 전입세대 열람</blockquote>',
+          '<p><strong style="color:#1e3a5f">배당 요구 종기일까지 가능한 한 신청해야 합니다</strong></p>\n<p>경매가 개시되면 법원이 <strong>배당 요구 종기일</strong>을 정합니다. 이 기한까지 집행법원에 <strong>배당 요구서</strong>를 제출해야 합니다. 기한을 놓치면 우선변제권이 있어도 <strong>배당에서 제외</strong>될 수 있습니다.</p>\n<p>배당 요구서에는 임대차 계약서 사본, 확정일자 증명, 전입세대 열람내역을 첨부합니다. 민사집행법 제148조에 따라 배당 요구를 한 채권자만 배당을 받을 수 있으므로 <strong>기한 준수가 가장 중요</strong>합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 배당 요구 종기일 전에 가능한 한 신청 | 첨부: 계약서 + 확정일자 + 전입세대 열람</blockquote>',
       },
       {
         title: '3단계. 배당기일에 출석하여 배당표를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">배당표에 기재된 금액이 맞는지 반드시 확인해야 합니다</strong></p>\n<p>경매 낙찰 후 법원은 <strong>배당기일</strong>을 지정합니다. 배당기일에 출석하면 법원이 작성한 <strong>배당표</strong>를 확인할 수 있습니다. 배당표에는 각 채권자가 받을 금액이 기재됩니다.</p>\n<p>배당 순서는 ①<strong>최우선변제권자(소액임차인)</strong>, ②확정일자 기준 <strong>우선변제권자</strong>, ③근저당권자, ④일반채권자 순입니다. 전세사기 피해자가 전세사기피해자법에 따라 <strong>피해자로 인정</strong>받으면 우선 매수권 행사도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">배당 순서: 최우선변제 → 확정일자 우선변제 → 근저당 → 일반채권</blockquote>',
+          '<p><strong style="color:#1e3a5f">배당표에 기재된 금액이 맞는지 가능한 한 확인해야 합니다</strong></p>\n<p>경매 낙찰 후 법원은 <strong>배당기일</strong>을 지정합니다. 배당기일에 출석하면 법원이 작성한 <strong>배당표</strong>를 확인할 수 있습니다. 배당표에는 각 채권자가 받을 금액이 기재됩니다.</p>\n<p>배당 순서는 ①<strong>최우선변제권자(소액임차인)</strong>, ②확정일자 기준 <strong>우선변제권자</strong>, ③근저당권자, ④일반채권자 순입니다. 전세사기 피해자가 전세사기피해자법에 따라 <strong>피해자로 인정</strong>받으면 우선 매수권 행사도 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">배당 순서: 최우선변제 → 확정일자 우선변제 → 근저당 → 일반채권</blockquote>',
       },
       {
         title: '4단계. 배당액이 부족하면 배당이의를 신청하세요',
@@ -207,7 +207,7 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
       {
         title: '전세사기 피해자 특별법 혜택도 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">전세사기 피해자로 인정되면 추가 지원을 받을 수 있습니다</strong></p>\n<p>전세사기피해자 지원 및 주거안정에 관한 특별법에 따라 <strong>피해자로 결정</strong>되면 ①경매절차에서 <strong>우선 매수권</strong>, ②긴급 주거 지원(임시 거처), ③<strong>전세피해 지원센터</strong> 법률 상담을 이용할 수 있습니다.</p>\n<p>피해자 결정 신청은 주소지 관할 <strong>LH(한국토지주택공사)</strong> 또는 전세피해지원위원회에 합니다. 경매가 진행 중이더라도 피해자 결정을 받으면 <strong>우선 매수를 통해 주거를 유지</strong>할 수 있으니 반드시 신청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">특별법 혜택: 우선 매수권 + 긴급 주거 지원 + 무료 법률 상담</blockquote>',
+          '<p><strong style="color:#1e3a5f">전세사기 피해자로 인정되면 추가 지원을 받을 수 있습니다</strong></p>\n<p>전세사기피해자 지원 및 주거안정에 관한 특별법에 따라 <strong>피해자로 결정</strong>되면 ①경매절차에서 <strong>우선 매수권</strong>, ②긴급 주거 지원(임시 거처), ③<strong>전세피해 지원센터</strong> 법률 상담을 이용할 수 있습니다.</p>\n<p>피해자 결정 신청은 주소지 관할 <strong>LH(한국토지주택공사)</strong> 또는 전세피해지원위원회에 합니다. 경매가 진행 중이더라도 피해자 결정을 받으면 <strong>우선 매수를 통해 주거를 유지</strong>할 수 있으니 가능한 한 신청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">특별법 혜택: 우선 매수권 + 긴급 주거 지원 + 무료 법률 상담</blockquote>',
       },
     ],
     cases: [
@@ -352,7 +352,7 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
       title: '명예훼손 고소당했을 때 대응 전략 4가지 | 로앤가이드',
       description: '명예훼손 혐의를 받고 있다면 경찰 조사에서 무엇을 말해야 할까요? 위법성 조각 사유부터 합의 전략까지 4가지 대응법을 지금 확인하세요.',
     },
-    intro: '경찰서에서 출석 요구서가 왔습니다. 인터넷에 쓴 글이 명예훼손이라며 누군가 고소했다는 내용입니다. 사실을 말했을 뿐인데 고소를 당하다니 당황스럽습니다. 혐의를 받고 있다면 경찰 조사 전에 반드시 알아야 할 대응 방법을 정리했습니다.',
+    intro: '경찰서에서 출석 요구서가 왔습니다. 인터넷에 쓴 글이 명예훼손이라며 누군가 고소했다는 내용입니다. 사실을 말했을 뿐인데 고소를 당하다니 당황스럽습니다. 혐의를 받고 있다면 경찰 조사 전에 가능한 한 알아야 할 대응 방법을 정리했습니다.',
     sections: [
       {
         title: '먼저 고소 내용과 적용 법조항을 정확히 파악하세요',
@@ -372,7 +372,7 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
       {
         title: '셋째, 합의를 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">명예훼손은 합의 여부가 처벌에 큰 영향을 미칩니다</strong></p>\n<p>형법상 명예훼손은 <strong>친고죄</strong>로 고소인이 고소를 취하하면 공소 자체가 불가능합니다. 정보통신망법상 명예훼손은 <strong>반의사불벌죄</strong>로 피해자가 처벌을 원하지 않으면 처벌할 수 없습니다. 따라서 합의를 통해 고소 취하를 이끌어내면 <strong>형사처벌을 피할 수 있습니다</strong>.</p>\n<p>합의 시에는 ①<strong>게시글 삭제</strong>, ②<strong>합의금 지급</strong>, ③<strong>재발 방지 약속</strong> 등을 조건으로 협의합니다. 합의서에는 반드시 "고소를 취하한다"는 문구와 <strong>"향후 동일한 사안으로 민·형사상 책임을 묻지 않는다"</strong>는 부제소 합의 내용을 포함하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">친고죄: 고소 취하 → 공소 불가 | 합의서: 고소 취하 + 부제소 합의 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">명예훼손은 합의 여부가 처벌에 큰 영향을 미칩니다</strong></p>\n<p>형법상 명예훼손은 <strong>친고죄</strong>로 고소인이 고소를 취하하면 공소 자체가 불가능합니다. 정보통신망법상 명예훼손은 <strong>반의사불벌죄</strong>로 피해자가 처벌을 원하지 않으면 처벌할 수 없습니다. 따라서 합의를 통해 고소 취하를 이끌어내면 <strong>형사처벌을 피할 수 있습니다</strong>.</p>\n<p>합의 시에는 ①<strong>게시글 삭제</strong>, ②<strong>합의금 지급</strong>, ③<strong>재발 방지 약속</strong> 등을 조건으로 협의합니다. 합의서에는 가능한 한 "고소를 취하한다"는 문구와 <strong>"향후 동일한 사안으로 민·형사상 책임을 묻지 않는다"</strong>는 부제소 합의 내용을 포함하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">친고죄: 고소 취하 → 공소 불가 | 합의서: 고소 취하 + 부제소 합의 필수</blockquote>',
       },
       {
         title: '넷째, 혐의가 억울하다면 무고 역고소를 검토하세요',
@@ -392,10 +392,10 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
     faq: [
       {
         question: '사실을 말했는데도 명예훼손이 되나요?',
-        answer: '사실이라도 <strong>공연히 적시</strong>하여 타인의 명예를 훼손하면 처벌됩니다. 다만 진실한 사실이고 공공의 이익을 위한 것이면 <strong>위법성이 조각</strong>될 수 있습니다.',
+        answer: '사실이라도 <strong>공연히 적시</strong>하여 타인의 명예를 훼손하면 처벌 대상으로 검토될 수 있습니다. 다만 진실한 사실이고 공공의 이익을 위한 것이면 <strong>위법성이 조각</strong>될 수 있습니다.',
       },
       {
-        question: '경찰 조사에 반드시 출석해야 하나요?',
+        question: '경찰 조사에 가능한 한 출석해야 하나요?',
         answer: '출석 요구에 정당한 사유 없이 불응하면 <strong>체포영장</strong>이 발부될 수 있습니다. 일정 조율은 가능하지만 출석은 해야 합니다.',
       },
       {

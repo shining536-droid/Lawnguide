@@ -12,7 +12,7 @@ export const trafficAccidentPages: SpokePage[] = [
       title: '교통사고 합의 전 체크리스트·합의 후 후유증 추가 청구 | 로앤가이드',
       description: '교통사고 합의 후 후유증이 생기면 추가 청구할 수 있을까요? 합의 전 5가지 필수 확인사항과 후유증 추가 보상 방법을 지금 확인하세요.',
     },
-    intro: '교통사고로 3개월째 치료 중인데, 보험회사에서 합의하자고 연락이 왔습니다. 금액이 적정한지 모르겠고, 나중에 후유증이 생기면 어떻게 하는지도 걱정됩니다. 합의서에 서명하기 전에 아래 항목을 반드시 확인하세요.',
+    intro: '교통사고로 3개월째 치료 중인데, 보험회사에서 합의하자고 연락이 왔습니다. 금액이 적정한지 모르겠고, 나중에 후유증이 생기면 어떻게 하는지도 걱정됩니다. 합의서에 서명하기 전에 아래 항목을 가능한 한 확인하세요.',
     timelineSteps: ['치료 종결 확인', '합의금 항목 파악', '과실비율 확인', '합의서 검토'],
     sections: [
       {
@@ -138,7 +138,7 @@ export const trafficAccidentPages: SpokePage[] = [
         summary:
           '관련 사례에서도 보험회사가 70:30(본인 과실 70%)으로 제시했으나, 블랙박스 영상을 분석한 결과 상대 차량의 신호 위반이 확인되어 법원이 과실비율을 20:80으로 변경한 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 블랙박스 영상을 즉시 확보하고, 상대 차량 블랙박스와 주변 CCTV도 반드시 확인하세요.',
+          '비슷한 상황이라면 블랙박스 영상을 즉시 확보하고, 상대 차량 블랙박스와 주변 CCTV도 가능한 한 확인하세요.',
       },
       {
         title: '분쟁조정위원회에서 과실비율이 조정된 사례',
@@ -221,17 +221,17 @@ export const trafficAccidentPages: SpokePage[] = [
       {
         title: '보상금 6대 항목을 빠짐없이 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">치료비·휴업손해·위자료·향후치료비·간병비·교통비 — 6가지를 모두 확인하세요</strong></p>\n<p>교통사고 부상 보상금은 다음 항목으로 구성됩니다. ①<strong>치료비</strong>: 실제 지출된 병원비 전액(입원비, 수술비, 약제비, 재활치료비 포함). ②<strong>휴업손해</strong>: 치료 기간 동안 일하지 못해 발생한 소득 손실. ③<strong>위자료</strong>: 정신적 고통에 대한 배상(부상 정도에 따라 수백만~수천만원).</p>\n<p>④<strong>향후치료비</strong>: 치료 종결 후에도 추가 치료가 필요한 경우의 예상 비용. ⑤<strong>간병비</strong>: 거동이 어려워 간병이 필요한 경우(가족 간병도 청구 가능). ⑥<strong>교통비</strong>: 통원 치료를 위한 교통비(택시비 영수증 보관). 보험사가 제시한 합의금이 이 6가지를 모두 포함하는지 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">6대 항목: 치료비 + 휴업손해 + 위자료 + 향후치료비 + 간병비 + 교통비</blockquote>',
+          '<p><strong style="color:#1e3a5f">치료비·휴업손해·위자료·향후치료비·간병비·교통비 — 6가지를 모두 확인하세요</strong></p>\n<p>교통사고 부상 보상금은 다음 항목으로 구성됩니다. ①<strong>치료비</strong>: 실제 지출된 병원비 전액(입원비, 수술비, 약제비, 재활치료비 포함). ②<strong>휴업손해</strong>: 치료 기간 동안 일하지 못해 발생한 소득 손실. ③<strong>위자료</strong>: 정신적 고통에 대한 배상(부상 정도에 따라 수백만~수천만원).</p>\n<p>④<strong>향후치료비</strong>: 치료 종결 후에도 추가 치료가 필요한 경우의 예상 비용. ⑤<strong>간병비</strong>: 거동이 어려워 간병이 필요한 경우(가족 간병도 청구 가능). ⑥<strong>교통비</strong>: 통원 치료를 위한 교통비(택시비 영수증 보관). 보험사가 제시한 합의금이 이 6가지를 모두 포함하는지 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">6대 항목: 치료비 + 휴업손해 + 위자료 + 향후치료비 + 간병비 + 교통비</blockquote>',
       },
       {
         title: '후유장해 등급이 인정되면 보상금이 크게 달라집니다',
         content:
-          '<p><strong style="color:#1e3a5f">후유장해가 남으면 일실수입과 장해위자료가 추가됩니다</strong></p>\n<p>치료가 끝난 후에도 통증, 운동 제한, 신경 증상 등이 남으면 <strong>후유장해</strong>에 해당합니다. <strong>자동차손해배상보장법 시행령</strong>은 후유장해를 1~14급으로 분류하며, 등급에 따라 보상 금액이 크게 달라집니다.</p>\n<p>후유장해가 인정되면 ①<strong>일실수입</strong>(노동능력상실률에 따른 미래 소득 손실)과 ②<strong>장해위자료</strong>가 추가됩니다. 예를 들어 30대 직장인이 노동능력상실률 15%를 인정받으면 일실수입만 수천만원에 달할 수 있습니다. 보험사 자체 감정과 별도로 <strong>독립적인 의료 감정</strong>을 받아보는 것이 좋습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">교통사고 보상금이 적절한지 확신이 없다면, 지금 상황에 맞는 보상 항목을 <a href="/diagnosis/traffic-accident" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">후유장해: 1~14급 분류 → 일실수입 + 장해위자료 추가 | 독립 의료 감정 권장</blockquote>',
+          '<p><strong style="color:#1e3a5f">후유장해가 남으면 일실수입과 장해위자료가 추가됩니다</strong></p>\n<p>치료가 끝난 후에도 통증, 운동 제한, 신경 증상 등이 남으면 <strong>후유장해</strong>에 해당할 소지가 있습니다. <strong>자동차손해배상보장법 시행령</strong>은 후유장해를 1~14급으로 분류하며, 등급에 따라 보상 금액이 크게 달라집니다.</p>\n<p>후유장해가 인정되면 ①<strong>일실수입</strong>(노동능력상실률에 따른 미래 소득 손실)과 ②<strong>장해위자료</strong>가 추가됩니다. 예를 들어 30대 직장인이 노동능력상실률 15%를 인정받으면 일실수입만 수천만원에 달할 수 있습니다. 보험사 자체 감정과 별도로 <strong>독립적인 의료 감정</strong>을 받아보는 것이 좋습니다.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">교통사고 보상금이 적절한지 확신이 없다면, 지금 상황에 맞는 보상 항목을 <a href="/diagnosis/traffic-accident" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">후유장해: 1~14급 분류 → 일실수입 + 장해위자료 추가 | 독립 의료 감정 권장</blockquote>',
       },
       {
         title: '보험사 합의 전에 반드시 확인해야 할 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">성급한 합의, 과소 평가된 휴업손해, 부제소 합의 조항을 주의하세요</strong></p>\n<p>첫째, <strong>치료가 완전히 끝나기 전에 합의하지 마세요</strong>. 합의 후 추가 치료가 필요해지면 비용을 받기 매우 어렵습니다. 의사에게 치료 종결 소견과 향후 치료 필요 여부를 반드시 확인하세요.</p>\n<p>둘째, 보험사가 <strong>휴업손해를 과소 평가</strong>하는 경우가 많습니다. 소득 증빙(급여명세서, 소득금액증명원, 세금신고서)을 꼼꼼히 제출하세요. 무직자나 가정주부도 <strong>일용노임 기준</strong>으로 휴업손해를 청구할 수 있습니다. 셋째, 합의서의 <strong>"향후 일체의 이의를 제기하지 않는다"는 부제소 합의 조항</strong>을 확인하세요. 서명하면 추가 청구가 거의 불가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: ①치료 종결 전 합의 금지 ②휴업손해 소득 증빙 철저 ③부제소 합의 조항 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">성급한 합의, 과소 평가된 휴업손해, 부제소 합의 조항을 주의하세요</strong></p>\n<p>첫째, <strong>치료가 완전히 끝나기 전에 합의하지 마세요</strong>. 합의 후 추가 치료가 필요해지면 비용을 받기 매우 어렵습니다. 의사에게 치료 종결 소견과 향후 치료 필요 여부를 가능한 한 확인하세요.</p>\n<p>둘째, 보험사가 <strong>휴업손해를 과소 평가</strong>하는 경우가 많습니다. 소득 증빙(급여명세서, 소득금액증명원, 세금신고서)을 꼼꼼히 제출하세요. 무직자나 가정주부도 <strong>일용노임 기준</strong>으로 휴업손해를 청구할 수 있습니다. 셋째, 합의서의 <strong>"향후 일체의 이의를 제기하지 않는다"는 부제소 합의 조항</strong>을 확인하세요. 서명하면 추가 청구가 거의 불가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: ①치료 종결 전 합의 금지 ②휴업손해 소득 증빙 철저 ③부제소 합의 조항 확인</blockquote>',
       },
       {
         title: '합의가 안 되면 소송이나 분쟁조정을 활용하세요',
@@ -328,7 +328,7 @@ export const trafficAccidentPages: SpokePage[] = [
       {
         title: '1단계: 사고 현장 조치와 증거 확보',
         content:
-          '<p><strong style="color:#1e3a5f">사고 직후 경찰 신고(112)와 현장 증거 확보가 합의의 출발점입니다.</strong></p>\n<p>교통사고가 발생하면 도로교통법 제54조에 따라 운전자는 즉시 정차하고 부상자를 구호해야 합니다. 피해자는 반드시 경찰에 신고(112)하여 교통사고 사실확인원을 발급받아야 합니다. 이 서류가 없으면 이후 보험 처리와 합의 과정에서 사고 사실 자체를 입증하기 어려울 수 있습니다.</p>\n<p>현장에서는 블랙박스 영상, 사고 차량과 부상 부위 사진, 목격자 연락처를 확보하세요. 상대 차량의 보험사와 차량번호도 반드시 메모해두어야 합니다. 경미한 접촉사고라도 나중에 통증이 나타날 수 있으므로 현장에서 "괜찮다"고 말하지 않는 것이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">현장 조치: 112 신고 → 사실확인원 발급 / 블랙박스·사진·목격자 확보 / 현장에서 합의하지 말 것</blockquote>',
+          '<p><strong style="color:#1e3a5f">사고 직후 경찰 신고(112)와 현장 증거 확보가 합의의 출발점입니다.</strong></p>\n<p>교통사고가 발생하면 도로교통법 제54조에 따라 운전자는 즉시 정차하고 부상자를 구호해야 합니다. 피해자는 가능한 한 경찰에 신고(112)하여 교통사고 사실확인원을 발급받아야 합니다. 이 서류가 없으면 이후 보험 처리와 합의 과정에서 사고 사실 자체를 입증하기 어려울 수 있습니다.</p>\n<p>현장에서는 블랙박스 영상, 사고 차량과 부상 부위 사진, 목격자 연락처를 확보하세요. 상대 차량의 보험사와 차량번호도 가능한 한 메모해두어야 합니다. 경미한 접촉사고라도 나중에 통증이 나타날 수 있으므로 현장에서 "괜찮다"고 말하지 않는 것이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">현장 조치: 112 신고 → 사실확인원 발급 / 블랙박스·사진·목격자 확보 / 현장에서 합의하지 말 것</blockquote>',
       },
       {
         title: '2단계: 보험 접수와 충분한 치료',
@@ -343,7 +343,7 @@ export const trafficAccidentPages: SpokePage[] = [
       {
         title: '4단계: 합의 협상과 합의서 작성',
         content:
-          '<p><strong style="color:#1e3a5f">보험사 제시 금액을 그대로 받아들이지 말고, 산정한 손해액을 근거로 협상하세요.</strong></p>\n<p>보험사는 자체 기준으로 합의금을 제시하지만, 이 금액이 피해자의 실제 손해를 충분히 반영하지 못하는 경우가 많습니다. 직접 산정한 손해액 내역서를 제시하며 구체적으로 협상하세요. 협상이 어려우면 손해사정사에게 의뢰하거나 법률 상담을 받는 것도 방법입니다.</p>\n<p>합의가 성립되면 합의서를 작성합니다. 합의서에는 합의금 총액, 지급 시기, 향후 일체의 청구를 포기한다는 부제소 합의 조항이 포함됩니다. 한번 합의서에 서명하면 추가 청구가 극히 어려우므로, 서명 전 반드시 내용을 꼼꼼히 확인하세요. 후유장해가 예상되면 "향후 발견되는 후유장해에 대해서는 별도 협의한다"는 단서 조항을 넣는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 협상: 손해액 내역서 기반 / 합의서 서명 전 후유장해 단서 조항 삽입 검토 / 서명 후 추가 청구 어려움</blockquote>',
+          '<p><strong style="color:#1e3a5f">보험사 제시 금액을 그대로 받아들이지 말고, 산정한 손해액을 근거로 협상하세요.</strong></p>\n<p>보험사는 자체 기준으로 합의금을 제시하지만, 이 금액이 피해자의 실제 손해를 충분히 반영하지 못하는 경우가 많습니다. 직접 산정한 손해액 내역서를 제시하며 구체적으로 협상하세요. 협상이 어려우면 손해사정사에게 의뢰하거나 법률 상담을 받는 것도 방법입니다.</p>\n<p>합의가 성립되면 합의서를 작성합니다. 합의서에는 합의금 총액, 지급 시기, 향후 일체의 청구를 포기한다는 부제소 합의 조항이 포함됩니다. 한번 합의서에 서명하면 추가 청구가 극히 어려우므로, 서명 전 가능한 한 내용을 꼼꼼히 확인하세요. 후유장해가 예상되면 "향후 발견되는 후유장해에 대해서는 별도 협의한다"는 단서 조항을 넣는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 협상: 손해액 내역서 기반 / 합의서 서명 전 후유장해 단서 조항 삽입 검토 / 서명 후 추가 청구 어려움</blockquote>',
       },
     ],
     cases: [
@@ -352,7 +352,7 @@ export const trafficAccidentPages: SpokePage[] = [
         summary:
           '관련 사례에서도 교통사고 피해자 G씨가 사고 후 2개월 만에 보험사의 합의 제안을 수락했으나, 6개월 뒤 디스크 탈출증이 확인되어 추가 치료비를 청구했지만 합의서의 부제소 합의 조항으로 인해 추가 보상을 받지 못한 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 치료가 완전히 종결되고 후유장해 여부가 확인된 후 합의를 진행하되, 불가피하게 조기 합의 시 후유장해 관련 단서 조항을 반드시 삽입하세요.',
+          '비슷한 상황이라면 치료가 완전히 종결되고 후유장해 여부가 확인된 후 합의를 진행하되, 불가피하게 조기 합의 시 후유장해 관련 단서 조항을 가능한 한 삽입하세요.',
       },
       {
         title: '손해사정사 의뢰 후 합의금을 3배 인상받은 사례',

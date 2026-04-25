@@ -24,12 +24,12 @@ export const spokesBatch7Pages11to15: SpokePage[] = [
       {
         title: '계약 만료 2개월 전: 계약 종료 의사를 서면으로 통보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">묵시적 갱신을 막으려면 만료 2개월 전에 반드시 서면 통보해야 합니다</strong></p>\n<p><strong>주택임대차보호법 제6조</strong>에 따라 임차인이 계약 만료 <strong>2개월 전</strong>까지 해지 의사를 통보하지 않으면 동일 조건으로 묵시적 갱신됩니다. 내용증명 우편 또는 문자(카카오 공식 채널)로 <strong>계약 갱신 거절 및 보증금 반환 요청</strong>을 서면으로 남기세요.</p>\n<p>통보 시 ①<strong>임대차 계약 만료일</strong>, ②<strong>보증금 금액</strong>, ③<strong>반환 요청 계좌</strong>를 명시하세요. 문자 발송 시 발신번호·날짜·내용이 보존되는 카카오 공식 채널을 활용하면 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 만료 2개월 전 내용증명 발송 | 계약일·보증금·반환 계좌 명시 | 묵시적 갱신 방지</blockquote>',
+          '<p><strong style="color:#1e3a5f">묵시적 갱신을 막으려면 만료 2개월 전에 가능한 한 서면 통보해야 합니다</strong></p>\n<p><strong>주택임대차보호법 제6조</strong>에 따라 임차인이 계약 만료 <strong>2개월 전</strong>까지 해지 의사를 통보하지 않으면 동일 조건으로 묵시적 갱신됩니다. 내용증명 우편 또는 문자(카카오 공식 채널)로 <strong>계약 갱신 거절 및 보증금 반환 요청</strong>을 서면으로 남기세요.</p>\n<p>통보 시 ①<strong>임대차 계약 만료일</strong>, ②<strong>보증금 금액</strong>, ③<strong>반환 요청 계좌</strong>를 명시하세요. 문자 발송 시 발신번호·날짜·내용이 보존되는 카카오 공식 채널을 활용하면 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 만료 2개월 전 내용증명 발송 | 계약일·보증금·반환 계좌 명시 | 묵시적 갱신 방지</blockquote>',
       },
       {
         title: '계약 만료일: 이사 전 임차권등기명령을 신청하세요',
         content:
-          '<p><strong style="color:#1e3a5f">이사 전 임차권등기명령을 신청해야 대항력과 우선변제권이 유지됩니다</strong></p>\n<p>보증금을 돌려받지 못한 채 이사를 가면 <strong>전입신고 효력이 사라져</strong> 우선변제권을 잃게 됩니다. <strong>임차권등기명령</strong>을 신청하면 이사 후에도 기존 대항력·우선변제권이 유지됩니다.</p>\n<p>신청은 주택 소재지 <strong>관할 지방법원</strong>에 합니다. 신청 비용은 수만 원 수준이며, 인용 결정 후 등기부에 임차권이 기재됩니다. 이사 후 전출하기 전에 <strong>등기부등본에 임차권 기재 여부</strong>를 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 보증금 미반환 시 이사 전 임차권등기명령 신청 | 등기 완료 후 이사·전출</blockquote>',
+          '<p><strong style="color:#1e3a5f">이사 전 임차권등기명령을 신청해야 대항력과 우선변제권이 유지됩니다</strong></p>\n<p>보증금을 돌려받지 못한 채 이사를 가면 <strong>전입신고 효력이 사라져</strong> 우선변제권을 잃게 됩니다. <strong>임차권등기명령</strong>을 신청하면 이사 후에도 기존 대항력·우선변제권이 유지됩니다.</p>\n<p>신청은 주택 소재지 <strong>관할 지방법원</strong>에 합니다. 신청 비용은 수만 원 수준이며, 인용 결정 후 등기부에 임차권이 기재됩니다. 이사 후 전출하기 전에 <strong>등기부등본에 임차권 기재 여부</strong>를 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 보증금 미반환 시 이사 전 임차권등기명령 신청 | 등기 완료 후 이사·전출</blockquote>',
       },
       {
         title: '보증금 반환 거부 시: 법적 절차를 즉시 시작하세요',
@@ -77,7 +77,7 @@ export const spokesBatch7Pages11to15: SpokePage[] = [
       {
         question: '전세가 경매로 넘어가면 보증금을 못 받나요?',
         answer:
-          '<strong>전입신고+확정일자</strong>가 있으면 경매 배당에서 우선변제권이 인정됩니다. 순위에 따라 배당받을 수 있습니다.',
+          '<strong>전입신고+확정일자</strong>가 있으면 경매 배당에서 우선변제권이 인정될 수 있습니다. 순위에 따라 배당받을 수 있습니다.',
       },
       {
         question: '보증금 일부만 돌려준다고 하면 어떻게 하나요?',
@@ -130,7 +130,7 @@ export const spokesBatch7Pages11to15: SpokePage[] = [
       {
         title: '카드빚도 개인파산 신청이 가능합니다',
         content:
-          '<p><strong style="color:#1e3a5f">신용카드 채무는 개인파산·면책 신청의 가장 일반적인 사유입니다</strong></p>\n<p><strong>채무자회생법 제305조</strong>에 따라 지급불능 상태의 채무자는 법원에 파산을 신청할 수 있습니다. 카드빚, 현금서비스, 카드론은 모두 신청 대상 채무에 해당합니다. <strong>지급불능</strong>이란 현재 소득과 재산으로 채무를 정상적으로 상환할 수 없는 상태를 말합니다.</p>\n<p>법원은 ①월 소득, ②생활비, ③채무 총액, ④재산 상태를 종합하여 지급불능 여부를 판단합니다. 일반적으로 소득에서 최저생계비를 제외한 금액으로 <strong>5년 내 전체 채무를 상환할 수 없는 경우</strong> 지급불능으로 인정됩니다. 자신의 상황을 숨김없이 법원에 제출하는 것이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 카드빚도 파산 신청 가능 | 지급불능 = 5년 내 상환 불가 상태 | 법원이 종합 판단</blockquote>',
+          '<p><strong style="color:#1e3a5f">신용카드 채무는 개인파산·면책 신청의 가장 일반적인 사유입니다</strong></p>\n<p><strong>채무자회생법 제305조</strong>에 따라 지급불능 상태의 채무자는 법원에 파산을 신청할 수 있습니다. 카드빚, 현금서비스, 카드론은 모두 신청 대상 채무에 해당할 소지가 있습니다. <strong>지급불능</strong>이란 현재 소득과 재산으로 채무를 정상적으로 상환할 수 없는 상태를 말합니다.</p>\n<p>법원은 ①월 소득, ②생활비, ③채무 총액, ④재산 상태를 종합하여 지급불능 여부를 판단합니다. 일반적으로 소득에서 최저생계비를 제외한 금액으로 <strong>5년 내 전체 채무를 상환할 수 없는 경우</strong> 지급불능으로 인정될 수 있습니다. 자신의 상황을 숨김없이 법원에 제출하는 것이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 카드빚도 파산 신청 가능 | 지급불능 = 5년 내 상환 불가 상태 | 법원이 종합 판단</blockquote>',
       },
       {
         title: '개인파산 vs 개인회생: 어느 것이 맞나요?',
@@ -145,7 +145,7 @@ export const spokesBatch7Pages11to15: SpokePage[] = [
       {
         title: '파산 신청 전 반드시 알아야 할 불이익',
         content:
-          '<p><strong style="color:#1e3a5f">파산은 면책 결정 전까지 일정한 법적 제약이 따릅니다</strong></p>\n<p>파산선고 후 ①<strong>공무원·금융기관 취업 제한</strong>(복권 전), ②법인 이사·감사 자격 제한, ③여권 발급 제한(일부 경우)이 적용될 수 있습니다. 단, 대부분의 일반 취업에는 제한이 없습니다.</p>\n<p>파산 신청 시 <strong>면책 불허 사유</strong>(사기적 채무 증가, 도박 채무 등)가 있으면 면책이 거부될 수 있습니다. 카드 돌려막기는 면책 불허 사유가 아닌 경우가 많지만, 신청 전 법률 전문가와 반드시 상담하세요. 법률구조공단의 무료 법률구조 서비스를 활용하면 비용 부담 없이 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불이익: 파산 중 공직·금융기관 취업 제한 | 복권 후 해소 | 도박·사기 채무는 면책 불허 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">파산은 면책 결정 전까지 일정한 법적 제약이 따릅니다</strong></p>\n<p>파산선고 후 ①<strong>공무원·금융기관 취업 제한</strong>(복권 전), ②법인 이사·감사 자격 제한, ③여권 발급 제한(일부 경우)이 적용될 수 있습니다. 단, 대부분의 일반 취업에는 제한이 없습니다.</p>\n<p>파산 신청 시 <strong>면책 불허 사유</strong>(사기적 채무 증가, 도박 채무 등)가 있으면 면책이 거부될 수 있습니다. 카드 돌려막기는 면책 불허 사유가 아닌 경우가 많지만, 신청 전 법률 전문가와 가능한 한 상담하세요. 법률구조공단의 무료 법률구조 서비스를 활용하면 비용 부담 없이 신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불이익: 파산 중 공직·금융기관 취업 제한 | 복권 후 해소 | 도박·사기 채무는 면책 불허 가능</blockquote>',
       },
     ],
     cases: [

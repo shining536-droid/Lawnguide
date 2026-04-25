@@ -42,7 +42,7 @@ export const spokesBatch19_8to14: SpokePage[] = [
       {
         title: '넷째, 압수·수색이 진행된 경우 영장 내용을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형사소송법 제114조에 따라 압수·수색에는 반드시 영장이 필요하며, 영장에 기재된 범위를 초과할 수 없습니다</strong></p>\n<p>경찰이 휴대폰이나 개인 물품을 압수한 경우, <strong>압수목록 교부서</strong>를 반드시 받으세요. 영장 없이 임의로 휴대폰을 열람한 경우 해당 증거는 위법수집증거에 해당할 수 있습니다.</p>\n<p>영장에는 <strong>①압수·수색 대상 ②범죄 혐의 ③집행 기한</strong>이 명시됩니다. 영장에 기재되지 않은 물건이 압수되었거나, 집행 기한이 경과한 후 집행된 경우 변호사를 통해 이의신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 영장 제시 여부 → 압수목록 교부 → 영장 범위 초과 여부 → 이의신청 가능성</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사소송법 제114조에 따라 압수·수색에는 가능한 한 영장이 필요하며, 영장에 기재된 범위를 초과할 수 없습니다</strong></p>\n<p>경찰이 휴대폰이나 개인 물품을 압수한 경우, <strong>압수목록 교부서</strong>를 가능한 한 받으세요. 영장 없이 임의로 휴대폰을 열람한 경우 해당 증거는 위법수집증거에 해당할 수 있습니다.</p>\n<p>영장에는 <strong>①압수·수색 대상 ②범죄 혐의 ③집행 기한</strong>이 명시됩니다. 영장에 기재되지 않은 물건이 압수되었거나, 집행 기한이 경과한 후 집행된 경우 변호사를 통해 이의신청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: 영장 제시 여부 → 압수목록 교부 → 영장 범위 초과 여부 → 이의신청 가능성</blockquote>',
       },
     ],
     cases: [
@@ -51,7 +51,7 @@ export const spokesBatch19_8to14: SpokePage[] = [
         summary:
           '대법원 2023도8752 사건(2023.10.18 선고)에서 법원은 압수·수색 영장에 기재된 집행 기한을 경과하여 집행한 경우 이는 영장주의 원칙에 위배되며, 해당 절차에서 수집된 증거의 증거능력이 부정될 수 있다고 판시했습니다.',
         takeaway:
-          '경찰이 압수·수색을 진행했다면 영장의 집행 기한과 범위를 반드시 확인하세요. 기한이 지난 영장으로 압수된 증거는 재판에서 배제될 수 있으므로, 변호사에게 영장 사본을 보여주고 적법성을 검토받으세요.',
+          '경찰이 압수·수색을 진행했다면 영장의 집행 기한과 범위를 가능한 한 확인하세요. 기한이 지난 영장으로 압수된 증거는 재판에서 배제될 수 있으므로, 변호사에게 영장 사본을 보여주고 적법성을 검토받으세요.',
       },
     ],
     faq: [
@@ -178,7 +178,7 @@ export const spokesBatch19_8to14: SpokePage[] = [
       {
         title: '첫째, 사고 직후 증거를 확보하고 병원 치료를 받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">사고 현장의 증거는 시간이 지나면 사라지므로, 치료와 동시에 증거 확보를 병행해야 합니다</strong></p>\n<p>사고 직후 해야 할 일: <strong>①사고 현장 사진·동영상 촬영(기계, 자재, 작업 환경) ②동료 목격자 이름·연락처 확보 ③사고 일시·경위를 메모(스마트폰 녹음도 가능) ④119 또는 병원 이송 → 진료</strong></p>\n<p>병원에서는 반드시 <strong>"직장에서 작업 중 다쳤다"</strong>고 정확히 말하세요. 초진 기록에 업무 관련성이 기재되어야 산재 승인에 유리합니다. <strong>산재 지정병원</strong>을 이용하면 본인 부담 없이 치료를 시작할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시: 현장 사진 → 목격자 확보 → 사고 경위 메모 → 병원에서 "작업 중 부상" 고지</blockquote>',
+          '<p><strong style="color:#1e3a5f">사고 현장의 증거는 시간이 지나면 사라지므로, 치료와 동시에 증거 확보를 병행해야 합니다</strong></p>\n<p>사고 직후 해야 할 일: <strong>①사고 현장 사진·동영상 촬영(기계, 자재, 작업 환경) ②동료 목격자 이름·연락처 확보 ③사고 일시·경위를 메모(스마트폰 녹음도 가능) ④119 또는 병원 이송 → 진료</strong></p>\n<p>병원에서는 가능한 한 <strong>"직장에서 작업 중 다쳤다"</strong>고 정확히 말하세요. 초진 기록에 업무 관련성이 기재되어야 산재 승인에 유리합니다. <strong>산재 지정병원</strong>을 이용하면 본인 부담 없이 치료를 시작할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">즉시: 현장 사진 → 목격자 확보 → 사고 경위 메모 → 병원에서 "작업 중 부상" 고지</blockquote>',
       },
       {
         title: '둘째, 회사에 산재 신고를 요청하고 비협조 시 직접 신청하세요',

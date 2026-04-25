@@ -53,7 +53,7 @@ export const spokesBatch18_11to15: SpokePage[] = [
         summary:
           '대법원 2025도11906 사건(2026.01.15 선고)에서 법원은 부정한 이익을 얻거나 보유자에게 손해를 입힐 목적으로 영업비밀을 넘겨주는 행위 자체로 범죄가 성립하며, 이후 실제 사용 여부는 범죄 성립과 무관하다고 판시했습니다.',
         takeaway:
-          '사기 관련 범죄에서도 편취 행위가 완료된 시점에 범죄가 성립합니다. 실제 이득을 본 시점이 아니라 기망행위 완료 시점이 공소시효 기산점이 되므로, 정확한 범행 완료일을 특정하는 것이 중요합니다.',
+          '사기 관련 범죄에서도 편취 행위가 완료된 시점에 범죄가 성립할 수 있습니다. 실제 이득을 본 시점이 아니라 기망행위 완료 시점이 공소시효 기산점이 되므로, 정확한 범행 완료일을 특정하는 것이 중요합니다.',
       },
     ],
     faq: [
@@ -122,7 +122,7 @@ export const spokesBatch18_11to15: SpokePage[] = [
       {
         title: '넷째, 장해등급 결정 통보를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">장해등급은 1~14급으로 나뉘며, 등급에 따라 급여 종류와 금액이 달라집니다</strong></p>\n<p>1~3급은 <strong>장해연금</strong>이 지급되고, 4~7급은 연금 또는 일시금 중 선택할 수 있으며, 8~14급은 <strong>장해일시금</strong>으로 지급됩니다. 등급이 높을수록(1급에 가까울수록) 보상액이 큽니다.</p>\n<p>결정 통보서에는 <strong>인정된 장해 부위, 적용된 등급 기준, 산정 금액</strong>이 기재됩니다. 통보서를 받으면 인정된 장해 내용이 실제 증상과 일치하는지 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">등급 체계: 1~3급 연금 / 4~7급 선택 / 8~14급 일시금 → 통보 내용 반드시 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">장해등급은 1~14급으로 나뉘며, 등급에 따라 급여 종류와 금액이 달라집니다</strong></p>\n<p>1~3급은 <strong>장해연금</strong>이 지급되고, 4~7급은 연금 또는 일시금 중 선택할 수 있으며, 8~14급은 <strong>장해일시금</strong>으로 지급됩니다. 등급이 높을수록(1급에 가까울수록) 보상액이 큽니다.</p>\n<p>결정 통보서에는 <strong>인정된 장해 부위, 적용된 등급 기준, 산정 금액</strong>이 기재됩니다. 통보서를 받으면 인정된 장해 내용이 실제 증상과 일치하는지 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">등급 체계: 1~3급 연금 / 4~7급 선택 / 8~14급 일시금 → 통보 내용 가능한 한 확인</blockquote>',
       },
       {
         title: '다섯째, 등급에 불복하면 90일 이내에 심사 청구하세요',
@@ -271,12 +271,12 @@ export const spokesBatch18_11to15: SpokePage[] = [
       {
         title: '첫째, 전세 보증금이 시세보다 현저히 낮은지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">시세 대비 70% 이하의 저렴한 전세는 사기 가능성을 의심해야 합니다</strong></p>\n<p>전세 사기범들은 피해자를 유인하기 위해 <strong>시세보다 20~30% 이상 저렴한 보증금</strong>을 제시합니다. 국토교통부 실거래가 공개시스템이나 KB부동산에서 주변 시세를 반드시 비교하세요.</p>\n<p>"급매라서 싸다", "곧 올릴 거니까 지금이 기회"라는 말로 <strong>계약을 서두르면 더욱 주의</strong>하세요. 정상적인 전세라면 집주인이 일방적으로 가격을 낮출 이유가 없습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 1: 시세 대비 보증금이 70% 이하 → 실거래가 공개시스템에서 비교 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">시세 대비 70% 이하의 저렴한 전세는 사기 가능성을 의심해야 합니다</strong></p>\n<p>전세 사기범들은 피해자를 유인하기 위해 <strong>시세보다 20~30% 이상 저렴한 보증금</strong>을 제시합니다. 국토교통부 실거래가 공개시스템이나 KB부동산에서 주변 시세를 가능한 한 비교하세요.</p>\n<p>"급매라서 싸다", "곧 올릴 거니까 지금이 기회"라는 말로 <strong>계약을 서두르면 더욱 주의</strong>하세요. 정상적인 전세라면 집주인이 일방적으로 가격을 낮출 이유가 없습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 1: 시세 대비 보증금이 70% 이하 → 실거래가 공개시스템에서 비교 확인</blockquote>',
       },
       {
         title: '둘째, 등기부등본상 근저당·가압류 설정을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">등기부등본 을구에 근저당이 과도하게 설정되어 있으면 보증금 반환이 불가능합니다</strong></p>\n<p>대법원 인터넷등기소에서 <strong>등기부등본</strong>을 발급받아 을구(소유권 이외의 권리)를 확인하세요. 근저당 설정액과 전세보증금을 합산한 금액이 <strong>매매시세의 70~80%를 초과</strong>하면 보증금 회수가 어려울 수 있습니다.</p>\n<p><strong>가압류, 압류, 가처분</strong> 기재도 반드시 확인하세요. 이런 기재가 있으면 집주인의 재정 상태가 불안하다는 의미이며, 경매로 넘어갈 가능성이 높습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 2: 근저당+보증금 합산 > 매매시세 70~80% → 보증금 미회수 위험</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/jeonse" style="color:#1565c0;font-weight:600">내 전세 계약 안전성 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">등기부등본 을구에 근저당이 과도하게 설정되어 있으면 보증금 반환이 불가능합니다</strong></p>\n<p>대법원 인터넷등기소에서 <strong>등기부등본</strong>을 발급받아 을구(소유권 이외의 권리)를 확인하세요. 근저당 설정액과 전세보증금을 합산한 금액이 <strong>매매시세의 70~80%를 초과</strong>하면 보증금 회수가 어려울 수 있습니다.</p>\n<p><strong>가압류, 압류, 가처분</strong> 기재도 가능한 한 확인하세요. 이런 기재가 있으면 집주인의 재정 상태가 불안하다는 의미이며, 경매로 넘어갈 가능성이 높습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 2: 근저당+보증금 합산 > 매매시세 70~80% → 보증금 미회수 위험</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/jeonse" style="color:#1565c0;font-weight:600">내 전세 계약 안전성 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 집주인의 세금 체납 여부를 확인하세요',
@@ -286,12 +286,12 @@ export const spokesBatch18_11to15: SpokePage[] = [
       {
         title: '넷째, 대리계약·위임장 진위를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">집주인 본인이 아닌 대리인과 계약할 때는 위임장 진위를 반드시 확인하세요</strong></p>\n<p>전세 사기의 대표적 수법 중 하나가 <strong>가짜 위임장으로 집주인을 사칭</strong>하는 것입니다. 대리계약 시 집주인의 인감증명서(3개월 이내 발급)와 위임장 원본, 대리인 신분증을 반드시 대조하세요.</p>\n<p>가능하면 <strong>집주인에게 직접 전화</strong>하여 위임 사실을 확인하고, 통화 내용을 녹음해두세요. 집주인 확인이 불가능하면 계약을 보류하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 4: 위임장+인감증명서 확인 → 집주인 직접 통화 확인 → 불가 시 계약 보류</blockquote>',
+          '<p><strong style="color:#1e3a5f">집주인 본인이 아닌 대리인과 계약할 때는 위임장 진위를 가능한 한 확인하세요</strong></p>\n<p>전세 사기의 대표적 수법 중 하나가 <strong>가짜 위임장으로 집주인을 사칭</strong>하는 것입니다. 대리계약 시 집주인의 인감증명서(3개월 이내 발급)와 위임장 원본, 대리인 신분증을 가능한 한 대조하세요.</p>\n<p>가능하면 <strong>집주인에게 직접 전화</strong>하여 위임 사실을 확인하고, 통화 내용을 녹음해두세요. 집주인 확인이 불가능하면 계약을 보류하는 것이 안전합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 4: 위임장+인감증명서 확인 → 집주인 직접 통화 확인 → 불가 시 계약 보류</blockquote>',
       },
       {
         title: '다섯째, 전입신고·확정일자와 전세보증보험 가입 가능 여부를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">주택임대차보호법에 따라 전입신고와 확정일자가 있어야 대항력과 우선변제권을 갖습니다</strong></p>\n<p>계약 당일 <strong>전입신고와 확정일자</strong>를 동시에 받아야 합니다. 특히 잔금일에 전입신고를 해야 다음 날 0시부터 대항력이 생기므로, 잔금 지급과 동시에 전입신고하세요.</p>\n<p><strong>전세보증보험(HUG, SGI 등)</strong> 가입 가능 여부도 반드시 확인하세요. 보험 가입이 안 되는 주택은 그만큼 위험 요소가 크다는 의미입니다. 가입 불가 사유가 근저당 과다, 다주택자 물건, 위반건축물 등이면 계약을 재고하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 5~7: 전입신고+확정일자 즉시 / 전세보증보험 가입 가능 여부 / 위반건축물 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">주택임대차보호법에 따라 전입신고와 확정일자가 있어야 대항력과 우선변제권을 갖습니다</strong></p>\n<p>계약 당일 <strong>전입신고와 확정일자</strong>를 동시에 받아야 합니다. 특히 잔금일에 전입신고를 해야 다음 날 0시부터 대항력이 생기므로, 잔금 지급과 동시에 전입신고하세요.</p>\n<p><strong>전세보증보험(HUG, SGI 등)</strong> 가입 가능 여부도 가능한 한 확인하세요. 보험 가입이 안 되는 주택은 그만큼 위험 요소가 크다는 의미입니다. 가입 불가 사유가 근저당 과다, 다주택자 물건, 위반건축물 등이면 계약을 재고하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크 5~7: 전입신고+확정일자 즉시 / 전세보증보험 가입 가능 여부 / 위반건축물 확인</blockquote>',
       },
     ],
     cases: [
@@ -354,7 +354,7 @@ export const spokesBatch18_11to15: SpokePage[] = [
       {
         title: 'Q1. 전세사기 고소장에 반드시 들어가야 하는 항목은 무엇인가요?',
         content:
-          '<p><strong style="color:#1e3a5f">고소장에는 고소인·피고소인 정보, 범죄사실, 적용 법조, 증거목록이 반드시 포함되어야 합니다</strong></p>\n<p>고소장의 필수 항목은 5가지입니다. ①<strong>고소인(피해자) 인적사항</strong>: 성명, 주민등록번호, 주소, 연락처 ②<strong>피고소인(가해자) 정보</strong>: 집주인 성명, 주소, 연락처 ③<strong>범죄사실</strong>: 사기 경위를 시간순으로 서술 ④<strong>적용 법조</strong>: 형법 제347조(사기죄) ⑤<strong>증거목록</strong></p>\n<p>피고소인의 주소를 모르면 <strong>"주소 불상"으로 기재</strong>하고, 알고 있는 정보(전화번호, 부동산 주소 등)를 최대한 적으세요. 수사기관이 이를 토대로 피고소인을 특정합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">5가지 필수: 고소인 정보 / 피고소인 정보 / 범죄사실 / 적용 법조 / 증거목록</blockquote>',
+          '<p><strong style="color:#1e3a5f">고소장에는 고소인·피고소인 정보, 범죄사실, 적용 법조, 증거목록이 가능한 한 포함되어야 합니다</strong></p>\n<p>고소장의 필수 항목은 5가지입니다. ①<strong>고소인(피해자) 인적사항</strong>: 성명, 주민등록번호, 주소, 연락처 ②<strong>피고소인(가해자) 정보</strong>: 집주인 성명, 주소, 연락처 ③<strong>범죄사실</strong>: 사기 경위를 시간순으로 서술 ④<strong>적용 법조</strong>: 형법 제347조(사기죄) ⑤<strong>증거목록</strong></p>\n<p>피고소인의 주소를 모르면 <strong>"주소 불상"으로 기재</strong>하고, 알고 있는 정보(전화번호, 부동산 주소 등)를 최대한 적으세요. 수사기관이 이를 토대로 피고소인을 특정합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">5가지 필수: 고소인 정보 / 피고소인 정보 / 범죄사실 / 적용 법조 / 증거목록</blockquote>',
       },
       {
         title: 'Q2. 범죄사실은 어떻게 서술해야 하나요?',

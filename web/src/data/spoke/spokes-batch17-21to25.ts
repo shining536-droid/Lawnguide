@@ -34,7 +34,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         title: '첫째, 교통사고 합의금을 구성하는 5가지 항목을 파악하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의금은 단일 금액이 아니라 5가지 손해 항목의 합산입니다</strong></p>\n<p>교통사고 합의금은 크게 <strong>치료비</strong>, <strong>휴업손해(일실수입)</strong>, <strong>위자료</strong>, <strong>향후 치료비</strong>, <strong>기타 손해</strong>로 구성됩니다. 보험사가 제시하는 금액은 이 항목들을 합산한 것이지만, 각 항목의 산정 근거를 공개하지 않는 경우가 많습니다.</p>\n<p>따라서 합의 전에 반드시 <strong>항목별 내역서</strong>를 요청하세요. 내역서 없이 총액만 제시하면 어떤 항목이 과소 산정됐는지 알 수 없습니다. 내역서를 받으면 각 항목을 아래 기준으로 직접 검증할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 합의금 = 치료비 + 휴업손해 + 위자료 + 향후 치료비 + 기타 손해 → 항목별 내역서를 반드시 요청</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의금은 단일 금액이 아니라 5가지 손해 항목의 합산입니다</strong></p>\n<p>교통사고 합의금은 크게 <strong>치료비</strong>, <strong>휴업손해(일실수입)</strong>, <strong>위자료</strong>, <strong>향후 치료비</strong>, <strong>기타 손해</strong>로 구성됩니다. 보험사가 제시하는 금액은 이 항목들을 합산한 것이지만, 각 항목의 산정 근거를 공개하지 않는 경우가 많습니다.</p>\n<p>따라서 합의 전에 가능한 한 <strong>항목별 내역서</strong>를 요청하세요. 내역서 없이 총액만 제시하면 어떤 항목이 과소 산정됐는지 알 수 없습니다. 내역서를 받으면 각 항목을 아래 기준으로 직접 검증할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 합의금 = 치료비 + 휴업손해 + 위자료 + 향후 치료비 + 기타 손해 → 항목별 내역서를 가능한 한 요청</blockquote>',
       },
       {
         title: '둘째, 치료비와 휴업손해를 정확히 계산하세요',
@@ -49,7 +49,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         title: '넷째, 향후 치료비와 일실수입은 장기 손해를 반영합니다',
         content:
-          '<p><strong style="color:#1e3a5f">치료가 끝나지 않았다면 향후 치료비를 포함하여 합의해야 합니다</strong></p>\n<p><strong>향후 치료비</strong>는 현재 치료가 종료되지 않았거나 추가 수술이 예상되는 경우에 청구합니다. 주치의의 <strong>향후 치료 소견서</strong>에 예상 치료 기간과 비용을 기재받으세요. 보험사는 이 항목을 누락시키는 경우가 많으므로 반드시 확인하세요.</p>\n<p><strong>일실수입</strong>은 후유장해로 인한 미래 소득 감소분입니다. 장해율, 현재 나이, 가동 연한(통상 <strong>만 65세</strong>)을 기준으로 계산합니다. 예를 들어 35세 직장인이 노동능력 상실률 20%를 인정받으면, 잔여 가동 연한 30년간 소득의 20%를 현재 가치로 환산하여 청구합니다. 이 금액은 수천만 원에서 수억 원까지 차이가 납니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">향후 치료비 + 일실수입 = 장기 손해 → 합의 전 반드시 포함 여부 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">치료가 끝나지 않았다면 향후 치료비를 포함하여 합의해야 합니다</strong></p>\n<p><strong>향후 치료비</strong>는 현재 치료가 종료되지 않았거나 추가 수술이 예상되는 경우에 청구합니다. 주치의의 <strong>향후 치료 소견서</strong>에 예상 치료 기간과 비용을 기재받으세요. 보험사는 이 항목을 누락시키는 경우가 많으므로 가능한 한 확인하세요.</p>\n<p><strong>일실수입</strong>은 후유장해로 인한 미래 소득 감소분입니다. 장해율, 현재 나이, 가동 연한(통상 <strong>만 65세</strong>)을 기준으로 계산합니다. 예를 들어 35세 직장인이 노동능력 상실률 20%를 인정받으면, 잔여 가동 연한 30년간 소득의 20%를 현재 가치로 환산하여 청구합니다. 이 금액은 수천만 원에서 수억 원까지 차이가 납니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">향후 치료비 + 일실수입 = 장기 손해 → 합의 전 가능한 한 포함 여부 확인</blockquote>',
       },
       {
         title: '다섯째, 보험사 제시 금액과 직접 산정 금액을 비교하세요',
@@ -90,7 +90,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         question: '과실비율이 합의금에 얼마나 영향을 미치나요?',
         answer:
-          '과실비율은 <strong>총 손해액에 직접 곱해집니다</strong>. 예를 들어 총 손해액 5,000만 원에 내 과실 30%라면 합의금은 3,500만 원이 됩니다. 과실비율 10% 차이로 수백만 원이 달라지므로 반드시 다투세요.',
+          '과실비율은 <strong>총 손해액에 직접 곱해집니다</strong>. 예를 들어 총 손해액 5,000만 원에 내 과실 30%라면 합의금은 3,500만 원이 됩니다. 과실비율 10% 차이로 수백만 원이 달라지므로 가능한 한 다투세요.',
       },
     ],
     cta: {
@@ -202,7 +202,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         question: '소송하면 보험사가 불이익을 주나요?',
         answer:
-          '<strong>불이익을 줄 수 없습니다.</strong> 보험사는 법적 의무에 따라 보상해야 하며, 소송을 이유로 치료비 지급을 중단하거나 불이익을 주는 행위는 보험업법 위반에 해당합니다.',
+          '<strong>불이익을 줄 수 없습니다.</strong> 보험사는 법적 의무에 따라 보상해야 하며, 소송을 이유로 치료비 지급을 중단하거나 불이익을 주는 행위는 보험업법 위반에 해당할 소지가 있습니다.',
       },
       {
         question: '소송 중에도 합의할 수 있나요?',
@@ -278,12 +278,12 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         title: '셋째, 합의금은 원금 + 지연이자 + 위로금으로 산정하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의금에 지연이자와 정신적 손해를 포함해야 적정 금액입니다</strong></p>\n<p>임금체불 합의금의 적정 범위는 <strong>체불 원금 + 지연이자 + 위로금(원금의 10~30%)</strong>입니다. 위로금은 법적 의무는 아니지만, 노동청 진정이나 소송 시 사업주에게 <strong>형사처벌(3년 이하 징역 또는 3,000만 원 이하 벌금)</strong>이 가능하므로 합의 과정에서 협상력으로 작용합니다.</p>\n<p>예시: 체불 원금 900만 원 + 지연이자 90만 원(6개월) + 위로금 180만 원(원금의 20%) = <strong>합의금 1,170만 원</strong>. 사업주가 위로금을 거부하더라도 최소한 <strong>원금 + 지연이자</strong>는 반드시 받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">적정 합의금 = 체불 원금 + 지연이자(연 20%) + 위로금(원금의 10~30%)</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의금에 지연이자와 정신적 손해를 포함해야 적정 금액입니다</strong></p>\n<p>임금체불 합의금의 적정 범위는 <strong>체불 원금 + 지연이자 + 위로금(원금의 10~30%)</strong>입니다. 위로금은 법적 의무는 아니지만, 노동청 진정이나 소송 시 사업주에게 <strong>형사처벌(3년 이하 징역 또는 3,000만 원 이하 벌금)</strong>이 가능하므로 합의 과정에서 협상력으로 작용합니다.</p>\n<p>예시: 체불 원금 900만 원 + 지연이자 90만 원(6개월) + 위로금 180만 원(원금의 20%) = <strong>합의금 1,170만 원</strong>. 사업주가 위로금을 거부하더라도 최소한 <strong>원금 + 지연이자</strong>는 가능한 한 받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">적정 합의금 = 체불 원금 + 지연이자(연 20%) + 위로금(원금의 10~30%)</blockquote>',
       },
       {
         title: '넷째, 합의서 작성 시 반드시 포함해야 할 조항이 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">지급 기한, 불이행 시 조치, 추가 청구권 포기 범위를 명시하세요</strong></p>\n<p>합의서에는 다음 5가지를 반드시 포함하세요. (1) <strong>합의금 총액</strong>과 항목별 내역, (2) <strong>지급 기한</strong>(가급적 합의일로부터 7일 이내), (3) 기한 내 미지급 시 <strong>노동청 진정 및 민사소송 진행</strong> 조항, (4) 합의금 <strong>수령 방법</strong>(계좌이체), (5) 근로자의 <strong>추가 청구 포기 범위</strong>(합의 대상 임금에 한정).</p>\n<p>분할 지급은 가급적 피하세요. 불가피하게 분할 합의할 경우 <strong>1회라도 미지급 시 잔액 전액 즉시 이행</strong> 조항을 넣으세요. 합의서는 공증받으면 불이행 시 별도 소송 없이 바로 <strong>강제집행</strong>이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수 조항: 금액·내역 + 지급기한 + 미지급 시 조치 + 수령방법 + 포기범위</blockquote>',
+          '<p><strong style="color:#1e3a5f">지급 기한, 불이행 시 조치, 추가 청구권 포기 범위를 명시하세요</strong></p>\n<p>합의서에는 다음 5가지를 가능한 한 포함하세요. (1) <strong>합의금 총액</strong>과 항목별 내역, (2) <strong>지급 기한</strong>(가급적 합의일로부터 7일 이내), (3) 기한 내 미지급 시 <strong>노동청 진정 및 민사소송 진행</strong> 조항, (4) 합의금 <strong>수령 방법</strong>(계좌이체), (5) 근로자의 <strong>추가 청구 포기 범위</strong>(합의 대상 임금에 한정).</p>\n<p>분할 지급은 가급적 피하세요. 불가피하게 분할 합의할 경우 <strong>1회라도 미지급 시 잔액 전액 즉시 이행</strong> 조항을 넣으세요. 합의서는 공증받으면 불이행 시 별도 소송 없이 바로 <strong>강제집행</strong>이 가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수 조항: 금액·내역 + 지급기한 + 미지급 시 조치 + 수령방법 + 포기범위</blockquote>',
       },
       {
         title: '다섯째, 합의가 안 되면 노동청 진정을 즉시 제기하세요',
@@ -415,7 +415,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         question: '카카오톡 대화도 증거로 인정되나요?',
         answer:
-          '<strong>인정됩니다.</strong> 사업주가 "다음 달에 준다", "조금만 기다려라"라고 말한 카카오톡 대화는 체불 사실을 인정한 증거로 활용됩니다. <strong>스크린샷과 원본 파일</strong>을 모두 보관하세요.',
+          '<strong>인정될 수 있습니다.</strong> 사업주가 "다음 달에 준다", "조금만 기다려라"라고 말한 카카오톡 대화는 체불 사실을 인정한 증거로 활용됩니다. <strong>스크린샷과 원본 파일</strong>을 모두 보관하세요.',
       },
       {
         question: '녹음은 불법 아닌가요?',
@@ -491,7 +491,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         title: '넷째, 고소 전에 증거를 확보해야 구속까지 연결됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">반복성과 불안감을 입증하는 증거가 구속 결정에 영향을 줍니다</strong></p>\n<p>스토킹처벌법상 스토킹행위는 <strong>"반복적으로" 불안감 또는 공포심을 일으키는 행위</strong>입니다. 대법원 2025도36 판례에 따르면, 피해자가 실제로 인식하지 못했더라도 객관적으로 불안감을 일으키기에 충분하면 스토킹행위에 해당합니다.</p>\n<p>확보해야 할 증거: (1) <strong>전화·문자·카카오톡 기록</strong>(일시, 횟수, 내용 캡처), (2) <strong>CCTV·블랙박스 영상</strong>(집·직장 앞 대기 장면), (3) <strong>112 신고 이력</strong>(반복 신고 기록), (4) <strong>목격자 진술</strong>, (5) <strong>진단서</strong>(불안장애, 수면장애 등). 증거가 많을수록 검사의 영장 청구와 법원의 구속 결정 가능성이 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: 반복된 연락 기록 + CCTV 영상 + 112 신고 이력 + 진단서</blockquote>',
+          '<p><strong style="color:#1e3a5f">반복성과 불안감을 입증하는 증거가 구속 결정에 영향을 줍니다</strong></p>\n<p>스토킹처벌법상 스토킹행위는 <strong>"반복적으로" 불안감 또는 공포심을 일으키는 행위</strong>입니다. 대법원 2025도36 판례에 따르면, 피해자가 실제로 인식하지 못했더라도 객관적으로 불안감을 일으키기에 충분하면 스토킹행위에 해당할 소지가 있습니다.</p>\n<p>확보해야 할 증거: (1) <strong>전화·문자·카카오톡 기록</strong>(일시, 횟수, 내용 캡처), (2) <strong>CCTV·블랙박스 영상</strong>(집·직장 앞 대기 장면), (3) <strong>112 신고 이력</strong>(반복 신고 기록), (4) <strong>목격자 진술</strong>, (5) <strong>진단서</strong>(불안장애, 수면장애 등). 증거가 많을수록 검사의 영장 청구와 법원의 구속 결정 가능성이 높아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: 반복된 연락 기록 + CCTV 영상 + 112 신고 이력 + 진단서</blockquote>',
       },
       {
         title: '다섯째, 처벌 수위와 보호 방법을 함께 확인하세요',
@@ -517,7 +517,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         question: '접근금지 조치를 받았는데 또 연락이 옵니다. 어떻게 하나요?',
         answer:
-          '<strong>즉시 112에 신고하세요.</strong> 긴급응급조치 위반은 1년 이하 징역, 잠정조치 위반은 2년 이하 징역으로 처벌됩니다. 위반 증거(문자 캡처 등)를 반드시 보관하세요.',
+          '<strong>즉시 112에 신고하세요.</strong> 긴급응급조치 위반은 1년 이하 징역, 잠정조치 위반은 2년 이하 징역으로 처벌 대상으로 검토될 수 있습니다. 위반 증거(문자 캡처 등)를 가능한 한 보관하세요.',
       },
       {
         question: '고소를 취소하면 처벌이 안 되나요?',
@@ -527,7 +527,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         question: '전 연인의 연락이 스토킹에 해당하나요?',
         answer:
-          '헤어진 후 <strong>상대방이 원하지 않는데도 반복적으로</strong> 전화·문자·방문하면 스토킹행위에 해당합니다. "안부 차 연락했다"는 변명은 법적으로 통하지 않습니다.',
+          '헤어진 후 <strong>상대방이 원하지 않는데도 반복적으로</strong> 전화·문자·방문하면 스토킹행위에 해당할 소지가 있습니다. "안부 차 연락했다"는 변명은 법적으로 통하지 않습니다.',
       },
       {
         question: '증거가 전화 기록밖에 없는데 신고할 수 있나요?',

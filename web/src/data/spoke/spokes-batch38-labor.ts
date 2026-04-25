@@ -42,12 +42,12 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         title: '퇴직 위로금·명예퇴직금의 영향',
         content:
-          '<p><strong style="color:#1e3a5f">회사가 권고사직 조건으로 지급하는 추가 위로금·명예퇴직금도 원칙적으로 실업급여 수급에 영향을 주지 않습니다.</strong></p>\n<ul>\n<li><strong>임금성 없음</strong> — 위로금은 근로의 대가가 아닌 일회성 보상이므로 수급 중 소득 신고 대상이 아닙니다.</li>\n<li><strong>비자발 사유 중요</strong> — 이직확인서의 퇴직 사유가 "권고사직·경영상 해고" 등 비자발로 표기되어야 합니다.</li>\n<li><strong>자진퇴사 위장 주의</strong> — "위로금 주는 대신 자진퇴사로 처리하자"는 협상은 실업급여 자격을 잃게 하므로 수용하면 안 됩니다.</li>\n<li><strong>서면 확보</strong> — 권고사직 합의서·해직 통지서 등 서면 증빙을 반드시 남겨두세요.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 퇴직금·위로금 수령이 실업급여에 미치는 영향을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">회사가 권고사직 조건으로 지급하는 추가 위로금·명예퇴직금도 원칙적으로 실업급여 수급에 영향을 주지 않습니다.</strong></p>\n<ul>\n<li><strong>임금성 없음</strong> — 위로금은 근로의 대가가 아닌 일회성 보상이므로 수급 중 소득 신고 대상이 아닙니다.</li>\n<li><strong>비자발 사유 중요</strong> — 이직확인서의 퇴직 사유가 "권고사직·경영상 해고" 등 비자발로 표기되어야 합니다.</li>\n<li><strong>자진퇴사 위장 주의</strong> — "위로금 주는 대신 자진퇴사로 처리하자"는 협상은 실업급여 자격을 잃게 하므로 수용하면 안 됩니다.</li>\n<li><strong>서면 확보</strong> — 권고사직 합의서·해직 통지서 등 서면 증빙을 가능한 한 남겨두세요.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 퇴직금·위로금 수령이 실업급여에 미치는 영향을 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '수급 중 취업·근로 시 감액 규정',
         content:
-          '<p><strong style="color:#1e3a5f">수급 기간 중 단기 취업·근로 소득이 발생하면 해당 일수만큼 급여가 감액·중단됩니다.</strong></p>\n<ul>\n<li><strong>취업신고 의무</strong> — 고용보험법 제44조: 취업한 날부터는 구직급여를 받을 수 없으며, 반드시 고용센터에 취업신고를 해야 합니다.</li>\n<li><strong>단기 알바</strong> — 일용근로·단기 알바도 신고 대상이며, 해당 일수 급여가 부지급 처리됩니다.</li>\n<li><strong>부정수급 제재</strong> — 미신고 시 부정수급으로 최대 5배 추징 + 형사 처벌(1년 이하 징역 또는 300만 원 이하 벌금).</li>\n<li><strong>재취업 성공 시</strong> — 소정급여일수의 1/2 이상 남긴 채 재취업하면 조기재취업수당을 받을 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 퇴직금 수령 자체는 영향 없지만, 수급 중 취업·근로 소득은 반드시 신고해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">수급 기간 중 단기 취업·근로 소득이 발생하면 해당 일수만큼 급여가 감액·중단됩니다.</strong></p>\n<ul>\n<li><strong>취업신고 의무</strong> — 고용보험법 제44조: 취업한 날부터는 구직급여를 받을 수 없으며, 가능한 한 고용센터에 취업신고를 해야 합니다.</li>\n<li><strong>단기 알바</strong> — 일용근로·단기 알바도 신고 대상이며, 해당 일수 급여가 부지급 처리됩니다.</li>\n<li><strong>부정수급 제재</strong> — 미신고 시 부정수급으로 최대 5배 추징 + 형사 처벌(1년 이하 징역 또는 300만 원 이하 벌금).</li>\n<li><strong>재취업 성공 시</strong> — 소정급여일수의 1/2 이상 남긴 채 재취업하면 조기재취업수당을 받을 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 퇴직금 수령 자체는 영향 없지만, 수급 중 취업·근로 소득은 가능한 한 신고해야 합니다.</blockquote>',
       },
       {
         title: '신청 절차와 타이밍',
@@ -226,7 +226,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         title: '심사 단계에서 주의할 점',
         content:
-          '<p><strong style="color:#1e3a5f">가족 사업장 퇴사자는 일반 근로자보다 심사가 엄격하므로 증빙 자료를 체계적으로 준비해야 합니다.</strong></p>\n<ul>\n<li><strong>담당자 사전 상담</strong> — 신청 전에 고용센터 담당자와 상담해 필요한 서류를 정확히 파악.</li>\n<li><strong>자료 일관성</strong> — 근로계약서·급여 이체·업무 지시 기록이 모두 일관된 내용이어야 합니다.</li>\n<li><strong>허위 진술 금지</strong> — 가족과 짜고 허위 이직 사유를 제출하면 부정수급으로 처벌됩니다.</li>\n<li><strong>불수리 시 이의신청</strong> — 수급자격 불인정 시 90일 이내에 심사청구·재심사청구를 할 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 가족 회사 퇴사자는 노무사·변호사 상담을 받은 뒤 신청하는 것이 수급 확률을 높이는 길입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">가족 사업장 퇴사자는 일반 근로자보다 심사가 엄격하므로 증빙 자료를 체계적으로 준비해야 합니다.</strong></p>\n<ul>\n<li><strong>담당자 사전 상담</strong> — 신청 전에 고용센터 담당자와 상담해 필요한 서류를 정확히 파악.</li>\n<li><strong>자료 일관성</strong> — 근로계약서·급여 이체·업무 지시 기록이 모두 일관된 내용이어야 합니다.</li>\n<li><strong>허위 진술 금지</strong> — 가족과 짜고 허위 이직 사유를 제출하면 부정수급으로 처벌 대상으로 검토될 수 있습니다.</li>\n<li><strong>불수리 시 이의신청</strong> — 수급자격 불인정 시 90일 이내에 심사청구·재심사청구를 할 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 가족 회사 퇴사자는 노무사·변호사 상담을 받은 뒤 신청하는 것이 수급 확률을 높이는 길입니다.</blockquote>',
       },
     ],
     cases: [
@@ -308,7 +308,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         title: '임원 퇴직금의 상법상 별도 요건',
         content:
-          '<p><strong style="color:#1e3a5f">등기 임원의 퇴직금은 상법 제388조에 따라 주주총회 결의 또는 정관 규정이 있어야 효력이 있습니다.</strong></p>\n<ul>\n<li><strong>상법 제388조 강행규정</strong> — 이사 보수는 정관에 정하거나 주주총회 결의로 정해야 합니다.</li>\n<li><strong>무효 시 근로자 기간 합산</strong> — 주주총회 결의 없이 정해진 임원퇴직금은 무효가 되므로, 근로자 기간 전체를 합산해 퇴직금을 청구할 수 있습니다.</li>\n<li><strong>이중 청구 가능성</strong> — 실질이 근로자 + 형식이 임원인 경우, 근로자 기간 퇴직금 + 임원 기간 임원퇴직금을 모두 청구할 수 있는 사례도 있습니다.</li>\n<li><strong>주주총회 의사록 확인</strong> — 임원 발령 시 주주총회 결의·정관 개정 여부를 반드시 확인하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 주주총회 의사록·정관 사본을 미리 확보해 임원 퇴직금 규정의 적법성을 점검하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">등기 임원의 퇴직금은 상법 제388조에 따라 주주총회 결의 또는 정관 규정이 있어야 효력이 있습니다.</strong></p>\n<ul>\n<li><strong>상법 제388조 강행규정</strong> — 이사 보수는 정관에 정하거나 주주총회 결의로 정해야 합니다.</li>\n<li><strong>무효 시 근로자 기간 합산</strong> — 주주총회 결의 없이 정해진 임원퇴직금은 무효가 되므로, 근로자 기간 전체를 합산해 퇴직금을 청구할 수 있습니다.</li>\n<li><strong>이중 청구 가능성</strong> — 실질이 근로자 + 형식이 임원인 경우, 근로자 기간 퇴직금 + 임원 기간 임원퇴직금을 모두 청구할 수 있는 사례도 있습니다.</li>\n<li><strong>주주총회 의사록 확인</strong> — 임원 발령 시 주주총회 결의·정관 개정 여부를 가능한 한 확인하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 주주총회 의사록·정관 사본을 미리 확보해 임원 퇴직금 규정의 적법성을 점검하세요.</blockquote>',
       },
       {
         title: '청구 전략과 소멸시효',
@@ -329,7 +329,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         question: '직함만 "이사"로 바뀌었는데 근로자로 인정되나요?',
         answer:
-          '<strong>실제 업무 수행 방식이 근로자와 동일하면 인정됩니다.</strong> 형식적 임원 직함은 중요하지 않고, 사용자의 지휘·감독 하에서 일했는지가 핵심입니다.',
+          '<strong>실제 업무 수행 방식이 근로자와 동일하면 인정될 수 있습니다.</strong> 형식적 임원 직함은 중요하지 않고, 사용자의 지휘·감독 하에서 일했는지가 핵심입니다.',
       },
       {
         question: '임원 승진 시 "과거 근속 포기" 서명했는데 무효 가능한가요?',
@@ -400,7 +400,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         title: '실무 절차 — 노동청 진정·민사 병행',
         content:
-          '<p><strong style="color:#1e3a5f">상계된 퇴직금은 노동청 진정과 민사 지급명령을 병행해 회수하는 것이 가장 효율적입니다.</strong></p>\n<ul>\n<li><strong>1단계: 내용증명</strong> — 공제된 금액의 반환을 요구하는 내용증명을 회사에 발송.</li>\n<li><strong>2단계: 노동청 진정</strong> — 관할 고용노동지청에 임금체불 진정 접수.</li>\n<li><strong>3단계: 민사 지급명령</strong> — 회사가 응하지 않으면 지급명령 신청으로 확정판결과 동일한 효력 확보.</li>\n<li><strong>4단계: 강제집행</strong> — 회사 계좌·부동산에 대한 가압류·강제집행으로 실질 회수.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 3년 소멸시효를 지켜야 하며, 시효 중단을 위해 민사 절차를 반드시 병행하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">상계된 퇴직금은 노동청 진정과 민사 지급명령을 병행해 회수하는 것이 가장 효율적입니다.</strong></p>\n<ul>\n<li><strong>1단계: 내용증명</strong> — 공제된 금액의 반환을 요구하는 내용증명을 회사에 발송.</li>\n<li><strong>2단계: 노동청 진정</strong> — 관할 고용노동지청에 임금체불 진정 접수.</li>\n<li><strong>3단계: 민사 지급명령</strong> — 회사가 응하지 않으면 지급명령 신청으로 확정판결과 동일한 효력 확보.</li>\n<li><strong>4단계: 강제집행</strong> — 회사 계좌·부동산에 대한 가압류·강제집행으로 실질 회수.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 3년 소멸시효를 지켜야 하며, 시효 중단을 위해 민사 절차를 가능한 한 병행하세요.</blockquote>',
       },
     ],
     cases: [
@@ -477,7 +477,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         title: '노동청 진정과 비교 — 적합한 경우',
         content:
-          '<p><strong style="color:#1e3a5f">단순 체불 금액 다툼은 노동청 진정이, 지위·자격 분쟁은 노동위원회가 유리합니다.</strong></p>\n<ul>\n<li><strong>노동청 진정 적합</strong> — 체불 금액·기간이 명확하고, 사용자가 지급 의무 자체는 인정하는 경우.</li>\n<li><strong>노동위원회 조정 적합</strong> — 근로자성이 쟁점(프리랜서·파견 등)이거나, 양측이 조정 의지가 있는 경우.</li>\n<li><strong>진정은 형사 압박</strong> — 노동청 진정 결과 시정 거부 시 형사 입건되므로 사용자에게 압박 효과 큼.</li>\n<li><strong>조정은 자발 합의</strong> — 조정은 강제력이 약해 사용자가 거부하면 조정 불성립됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 사안에 맞는 절차(노동청 vs 노동위)를 안내해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">단순 체불 금액 다툼은 노동청 진정이, 지위·자격 분쟁은 노동위원회가 유리합니다.</strong></p>\n<ul>\n<li><strong>노동청 진정 적합</strong> — 체불 금액·기간이 명확하고, 사용자가 지급 의무 자체는 인정하는 경우.</li>\n<li><strong>노동위원회 조정 적합</strong> — 근로자성이 쟁점(프리랜서·파견 등)이거나, 양측이 조정 의지가 있는 경우.</li>\n<li><strong>진정은 형사 압박</strong> — 노동청 진정 결과 시정 거부 시 형사 입건되므로 사용자에게 압박 효과 큼.</li>\n<li><strong>조정은 자발 합의</strong> — 조정은 강제력이 약해 사용자가 거부하면 조정 불성립할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 사안에 맞는 절차(노동청 vs 노동위)를 안내해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '조정 신청 절차와 조정조서',
@@ -513,7 +513,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         question: '조정조서와 민사 판결의 효력 차이는?',
         answer:
-          '<strong>집행력 측면에서 동일합니다.</strong> 조정조서로도 강제집행이 가능하며 민사 판결과 동일한 효력이 인정됩니다.',
+          '<strong>집행력 측면에서 동일합니다.</strong> 조정조서로도 강제집행이 가능하며 민사 판결과 동일한 효력이 인정될 수 있습니다.',
       },
       {
         question: '프리랜서도 노동위원회에 신청 가능한가요?',
@@ -590,7 +590,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         question: '식대가 비과세인데 임금에 포함되나요?',
         answer:
-          '<strong>세법상 비과세와 근로기준법상 임금성은 별개 개념입니다.</strong> 세금이 면제되더라도 정기·일률 지급이면 임금으로 인정됩니다.',
+          '<strong>세법상 비과세와 근로기준법상 임금성은 별개 개념입니다.</strong> 세금이 면제되더라도 정기·일률 지급이면 임금으로 인정될 수 있습니다.',
       },
       {
         question: '식권으로 받는 경우는?',
@@ -830,7 +830,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       {
         title: '절차 하자 — 서면통지·소명 기회',
         content:
-          '<p><strong style="color:#1e3a5f">해고 사유가 정당해도 절차를 지키지 않으면 무효가 됩니다.</strong></p>\n<ul>\n<li><strong>서면 통지 의무</strong> — 근로기준법 제27조: 해고 사유와 시기를 서면으로 통지해야 효력 발생.</li>\n<li><strong>인사위원회·소명 기회</strong> — 취업규칙에 절차가 있으면 반드시 준수해야 함.</li>\n<li><strong>해고 예고</strong> — 3개월 이상 근속자는 30일 전 예고 또는 30일분 해고예고수당 지급.</li>\n<li><strong>사유 구체성</strong> — "근태 불량" 같은 추상적 사유는 부족. 구체적 일시·행위 기재 필요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 해고 통지 즉시 "해고 사유서" 서면 교부를 요청하고 미수령 시 증거로 남기세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">해고 사유가 정당해도 절차를 지키지 않으면 무효가 됩니다.</strong></p>\n<ul>\n<li><strong>서면 통지 의무</strong> — 근로기준법 제27조: 해고 사유와 시기를 서면으로 통지해야 효력 발생.</li>\n<li><strong>인사위원회·소명 기회</strong> — 취업규칙에 절차가 있으면 가능한 한 준수해야 함.</li>\n<li><strong>해고 예고</strong> — 3개월 이상 근속자는 30일 전 예고 또는 30일분 해고예고수당 지급.</li>\n<li><strong>사유 구체성</strong> — "근태 불량" 같은 추상적 사유는 부족. 구체적 일시·행위 기재 필요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 해고 통지 즉시 "해고 사유서" 서면 교부를 요청하고 미수령 시 증거로 남기세요.</blockquote>',
       },
       {
         title: '구제 절차와 증거 준비',

@@ -133,7 +133,7 @@ export const digitalSexCrimePages: SpokePage[] = [
       {
         title: '경찰에 신고하고 증거를 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">경찰 신고와 동시에 URL, 스크린샷 등 증거를 체계적으로 확보하세요</strong></p>\n<p>불법촬영물 유포는 <strong>성폭력처벌법 제14조</strong>에 따라 <strong>7년 이하 징역 또는 5,000만원 이하 벌금</strong>에 처해집니다. 경찰에 신고할 때 다음 증거를 함께 제출하세요.</p>\n<p>①유포된 게시물의 <strong>URL</strong>(가능한 모든 사이트), ②<strong>스크린샷</strong>(작성자 ID, 게시 일시, 조회수 포함), ③<strong>유포 경로</strong>(사이트명, 채팅방 등), ④본인 확인이 가능한 <strong>신분증</strong>을 준비하세요. 스크린샷에는 반드시 <strong>날짜와 시간</strong>이 표시되도록 하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: URL + 스크린샷(날짜·시간) + 유포 경로 | 처벌: 7년/5,000만원</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰 신고와 동시에 URL, 스크린샷 등 증거를 체계적으로 확보하세요</strong></p>\n<p>불법촬영물 유포는 <strong>성폭력처벌법 제14조</strong>에 따라 <strong>7년 이하 징역 또는 5,000만원 이하 벌금</strong>에 처해집니다. 경찰에 신고할 때 다음 증거를 함께 제출하세요.</p>\n<p>①유포된 게시물의 <strong>URL</strong>(가능한 모든 사이트), ②<strong>스크린샷</strong>(작성자 ID, 게시 일시, 조회수 포함), ③<strong>유포 경로</strong>(사이트명, 채팅방 등), ④본인 확인이 가능한 <strong>신분증</strong>을 준비하세요. 스크린샷에는 가능한 한 <strong>날짜와 시간</strong>이 표시되도록 하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: URL + 스크린샷(날짜·시간) + 유포 경로 | 처벌: 7년/5,000만원</blockquote>',
       },
       {
         title: '유포금지 가처분을 신청하고 추가 유포를 모니터링하세요',
@@ -232,17 +232,17 @@ export const digitalSexCrimePages: SpokePage[] = [
       {
         title: '경찰 신고 — 112에 즉시 신고하세요',
         content:
-          '<p><strong style="color:#1e3a5f">성폭력범죄의 처벌 등에 관한 특례법 제14조 위반으로 112에 신고하세요</strong></p>\n<p>몰래카메라를 이용한 촬영은 <strong>카메라등이용촬영죄</strong>에 해당하며, 7년 이하의 징역 또는 5,000만 원 이하의 벌금에 처해집니다(성폭력처벌법 제14조 제1항). 112에 전화하여 "불법 촬영 기기를 발견했다"고 신고하면 경찰이 출동합니다.</p>\n<p>경찰이 도착하면 기기를 <strong>증거물로 수거</strong>하고, 내부 저장 데이터와 연결된 서버·클라우드를 분석합니다. 숙소·건물 관리자에게도 연락하여 CCTV 영상 확보를 요청하세요. 설치자를 특정하는 데 <strong>건물 출입 기록과 CCTV</strong>가 결정적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 방법: 112 전화 → "불법촬영 기기 발견" 신고 → 경찰 출동 대기 → 진술서 작성. 신고 시 사건번호를 반드시 받아두세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">성폭력범죄의 처벌 등에 관한 특례법 제14조 위반으로 112에 신고하세요</strong></p>\n<p>몰래카메라를 이용한 촬영은 <strong>카메라등이용촬영죄</strong>에 해당하며, 7년 이하의 징역 또는 5,000만 원 이하의 벌금에 처해집니다(성폭력처벌법 제14조 제1항). 112에 전화하여 "불법 촬영 기기를 발견했다"고 신고하면 경찰이 출동합니다.</p>\n<p>경찰이 도착하면 기기를 <strong>증거물로 수거</strong>하고, 내부 저장 데이터와 연결된 서버·클라우드를 분석합니다. 숙소·건물 관리자에게도 연락하여 CCTV 영상 확보를 요청하세요. 설치자를 특정하는 데 <strong>건물 출입 기록과 CCTV</strong>가 결정적입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 방법: 112 전화 → "불법촬영 기기 발견" 신고 → 경찰 출동 대기 → 진술서 작성. 신고 시 사건번호를 가능한 한 받아두세요.</blockquote>',
       },
       {
         title: '유포 여부 확인 — 디지털성범죄피해자지원센터 활용',
         content:
-          '<p><strong style="color:#1e3a5f">촬영물이 유포되었는지 확인하고, 유포된 경우 즉시 삭제 지원을 요청하세요</strong></p>\n<p><strong>디지털성범죄피해자지원센터</strong>(전화 02-735-8994)에 연락하면 촬영물의 온라인 유포 여부를 모니터링하고, 유포된 경우 <strong>삭제 지원</strong>을 받을 수 있습니다. 한국여성인권진흥원이 운영하며 24시간 상담이 가능합니다.</p>\n<p>성폭력처벌법 제14조 제2항에 따라 촬영물을 <strong>유포한 자는 7년 이하의 징역 또는 5,000만 원 이하의 벌금</strong>에 처해집니다. 영리 목적 유포는 3년 이상의 유기징역으로 가중 처벌됩니다. 방송통신심의위원회를 통해 해당 게시물에 대한 <strong>접속 차단 및 삭제 요청</strong>도 병행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지원센터: 디지털성범죄피해자지원센터(02-735-8994), 여성긴급전화(1366), 방송통신심의위원회(www.kocsc.or.kr)</blockquote>',
+          '<p><strong style="color:#1e3a5f">촬영물이 유포되었는지 확인하고, 유포된 경우 즉시 삭제 지원을 요청하세요</strong></p>\n<p><strong>디지털성범죄피해자지원센터</strong>(전화 02-735-8994)에 연락하면 촬영물의 온라인 유포 여부를 모니터링하고, 유포된 경우 <strong>삭제 지원</strong>을 받을 수 있습니다. 한국여성인권진흥원이 운영하며 24시간 상담이 가능합니다.</p>\n<p>성폭력처벌법 제14조 제2항에 따라 촬영물을 <strong>유포한 자는 7년 이하의 징역 또는 5,000만 원 이하의 벌금</strong>에 처해집니다. 영리 목적 유포는 3년 이상의 유기징역으로 가중 처벌 대상으로 검토될 수 있습니다. 방송통신심의위원회를 통해 해당 게시물에 대한 <strong>접속 차단 및 삭제 요청</strong>도 병행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지원센터: 디지털성범죄피해자지원센터(02-735-8994), 여성긴급전화(1366), 방송통신심의위원회(www.kocsc.or.kr)</blockquote>',
       },
       {
         title: '피해 구제 — 손해배상 청구와 피해자 보호',
         content:
-          '<p><strong style="color:#1e3a5f">형사 고소와 별도로 민사 손해배상 청구가 가능합니다</strong></p>\n<p>불법촬영 피해자는 촬영자(및 유포자)를 상대로 <strong>정신적 피해에 대한 위자료</strong>를 청구할 수 있습니다. 불법촬영 사건의 위자료는 피해 정도에 따라 <strong>수백만 원에서 수천만 원</strong>까지 인정됩니다. 촬영물이 유포된 경우 배상액이 크게 증가합니다.</p>\n<p>숙소에서 발생한 경우 <strong>숙소 운영자의 관리 책임</strong>도 물을 수 있습니다. 숙소 운영자가 정기적인 점검을 소홀히 했다면 공동불법행위에 따른 손해배상 책임이 인정될 수 있습니다. 법률구조공단(132)에서 무료 법률 지원을 받아 소송을 진행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">피해 구제: 형사 고소(성폭력처벌법 제14조) + 민사 손해배상 청구 + 숙소 운영자 책임 추궁을 병행하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사 고소와 별도로 민사 손해배상 청구가 가능합니다</strong></p>\n<p>불법촬영 피해자는 촬영자(및 유포자)를 상대로 <strong>정신적 피해에 대한 위자료</strong>를 청구할 수 있습니다. 불법촬영 사건의 위자료는 피해 정도에 따라 <strong>수백만 원에서 수천만 원</strong>까지 인정될 수 있습니다. 촬영물이 유포된 경우 배상액이 크게 증가합니다.</p>\n<p>숙소에서 발생한 경우 <strong>숙소 운영자의 관리 책임</strong>도 물을 수 있습니다. 숙소 운영자가 정기적인 점검을 소홀히 했다면 공동불법행위에 따른 손해배상 책임이 인정될 수 있습니다. 법률구조공단(132)에서 무료 법률 지원을 받아 소송을 진행할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">피해 구제: 형사 고소(성폭력처벌법 제14조) + 민사 손해배상 청구 + 숙소 운영자 책임 추궁을 병행하세요.</blockquote>',
       },
     ],
     cases: [
@@ -320,7 +320,7 @@ export const digitalSexCrimePages: SpokePage[] = [
       {
         title: '증거를 먼저 확보한 뒤 경찰에 신고하세요',
         content:
-          '<p><strong style="color:#1e3a5f">삭제 요청 전에 반드시 증거 화면을 캡처해두어야 합니다</strong></p>\n<p>딥페이크 영상의 <strong>URL, 게시자 계정명, 게시 날짜, 화면 캡처</strong>를 먼저 저장하세요. 삭제 후에는 증거 확보가 어려우므로 이 단계를 절대 건너뛰지 마세요. 스크린 녹화도 함께 해두면 더 확실합니다.</p>\n<p>증거를 확보했으면 가까운 <strong>경찰서 사이버수사팀</strong>에 방문하거나 <strong>사이버범죄 신고시스템(ECRM)</strong>을 통해 온라인으로 신고하세요. <strong>성폭력범죄의 처벌 등에 관한 특례법 제14조의2</strong>(허위영상물 등의 반포)에 따라 가해자는 <strong>5년 이하 징역 또는 5,000만 원 이하 벌금</strong>에 처해집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 확보: URL · 계정명 · 캡처 · 녹화 | 신고: 경찰서 사이버수사팀 또는 ECRM | 처벌: 5년 이하 징역/5,000만 원 이하 벌금</blockquote>',
+          '<p><strong style="color:#1e3a5f">삭제 요청 전에 가능한 한 증거 화면을 캡처해두어야 합니다</strong></p>\n<p>딥페이크 영상의 <strong>URL, 게시자 계정명, 게시 날짜, 화면 캡처</strong>를 먼저 저장하세요. 삭제 후에는 증거 확보가 어려우므로 이 단계를 절대 건너뛰지 마세요. 스크린 녹화도 함께 해두면 더 확실합니다.</p>\n<p>증거를 확보했으면 가까운 <strong>경찰서 사이버수사팀</strong>에 방문하거나 <strong>사이버범죄 신고시스템(ECRM)</strong>을 통해 온라인으로 신고하세요. <strong>성폭력범죄의 처벌 등에 관한 특례법 제14조의2</strong>(허위영상물 등의 반포)에 따라 가해자는 <strong>5년 이하 징역 또는 5,000만 원 이하 벌금</strong>에 처해집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 확보: URL · 계정명 · 캡처 · 녹화 | 신고: 경찰서 사이버수사팀 또는 ECRM | 처벌: 5년 이하 징역/5,000만 원 이하 벌금</blockquote>',
       },
       {
         title: '디지털성범죄피해자지원센터에 삭제를 요청하세요',
@@ -335,7 +335,7 @@ export const digitalSexCrimePages: SpokePage[] = [
       {
         title: '가해자 처벌과 손해배상까지 진행하세요',
         content:
-          '<p><strong style="color:#1e3a5f">딥페이크 제작·유포자는 형사 처벌과 민사 손해배상 모두 가능합니다</strong></p>\n<p><strong>성폭력처벌법 제14조의2</strong>에 따라 딥페이크 영상을 <strong>제작</strong>한 자도 처벌 대상이며, <strong>영리 목적으로 유포</strong>한 경우에는 <strong>7년 이하 징역</strong>으로 가중 처벌됩니다. 수사 과정에서 경찰은 IP 추적, 계정 정보 확인 등으로 가해자를 특정합니다.</p>\n<p>형사 절차와 별도로 가해자에게 <strong>정신적 피해에 대한 손해배상</strong>(민법 제750조·제751조)을 청구할 수 있습니다. 피해로 인한 <strong>심리 상담비, 치료비, 업무 손실</strong> 등을 구체적으로 산정하여 청구하세요. <strong>여성긴급전화 1366</strong>에서도 법률 지원을 연계받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사: 제작 5년 이하 징역 · 영리 유포 7년 이하 | 민사: 손해배상 청구 | 지원: 여성긴급전화 1366</blockquote>',
+          '<p><strong style="color:#1e3a5f">딥페이크 제작·유포자는 형사 처벌과 민사 손해배상 모두 가능합니다</strong></p>\n<p><strong>성폭력처벌법 제14조의2</strong>에 따라 딥페이크 영상을 <strong>제작</strong>한 자도 처벌 대상이며, <strong>영리 목적으로 유포</strong>한 경우에는 <strong>7년 이하 징역</strong>으로 가중 처벌 대상으로 검토될 수 있습니다. 수사 과정에서 경찰은 IP 추적, 계정 정보 확인 등으로 가해자를 특정합니다.</p>\n<p>형사 절차와 별도로 가해자에게 <strong>정신적 피해에 대한 손해배상</strong>(민법 제750조·제751조)을 청구할 수 있습니다. 피해로 인한 <strong>심리 상담비, 치료비, 업무 손실</strong> 등을 구체적으로 산정하여 청구하세요. <strong>여성긴급전화 1366</strong>에서도 법률 지원을 연계받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사: 제작 5년 이하 징역 · 영리 유포 7년 이하 | 민사: 손해배상 청구 | 지원: 여성긴급전화 1366</blockquote>',
       },
     ],
     cases: [
@@ -409,7 +409,7 @@ export const digitalSexCrimePages: SpokePage[] = [
     type: '상황형',
     meta: {
       title: '전 연인 영상 유포 협박 — 즉시 대응법 총정리 | 로앤가이드',
-      description: '전 연인이 사적 영상 유포를 협박한다면 대화 녹음·캡처 → 경찰 신고 → 삭제 지원 요청으로 대응하세요. 성폭력처벌법 제14조 제2항 기준 3년 이하 징역에 해당합니다. 지금 확인하세요.',
+      description: '전 연인이 사적 영상 유포를 협박한다면 대화 녹음·캡처 → 경찰 신고 → 삭제 지원 요청으로 대응하세요. 성폭력처벌법 제14조 제2항 기준 3년 이하 징역에 해당할 소지가 있습니다. 지금 확인하세요.',
     },
     intro: '이별 후 전 연인에게서 메시지가 왔습니다. "우리가 찍었던 영상, 뿌려버릴 수도 있어." 심장이 멈추는 기분입니다. 아직 유포되지 않았을 수도 있고, 이미 일부가 퍼졌을 수도 있습니다. 당장 전화를 해서 사정해야 할 것 같지만, 감정적으로 대응하면 상황이 더 나빠질 수 있습니다. 지금 가장 먼저 해야 할 것은 증거를 확보하고 법적 절차를 밟는 것입니다.',
     timelineSteps: ['협박 증거 확보', '경찰 신고·접근금지', '유포 차단·삭제 지원', '형사·민사 법적 조치'],
@@ -417,7 +417,7 @@ export const digitalSexCrimePages: SpokePage[] = [
       {
         title: '협박 메시지를 삭제하지 말고 모두 저장하세요',
         content:
-          '<p><strong style="color:#1e3a5f">협박 증거를 확보하는 것이 법적 대응의 첫걸음입니다</strong></p>\n<p>전 연인이 카카오톡, 문자, DM 등으로 영상 유포를 협박하는 메시지를 보냈다면, 절대로 삭제하지 마세요. 해당 메시지를 <strong>스크린샷으로 캡처</strong>하되, 반드시 ①<strong>상대방 프로필(이름·ID)</strong>, ②<strong>메시지 내용 전체</strong>, ③<strong>발송 날짜와 시간</strong>이 모두 화면에 표시되도록 하세요.</p>\n<p>전화 통화로 협박한 경우에도 <strong>통화 녹음</strong>이 증거로 인정됩니다. 대한민국에서는 대화 당사자인 본인이 녹음하는 것이 합법입니다. 이후 추가 연락이 오면 녹음 앱을 켜두세요. 협박 내용을 날짜별로 정리한 <strong>일지</strong>를 작성해두면 수사와 재판에서 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 확보: 메시지 스크린샷(프로필+날짜+시간) | 통화 녹음 | 협박 일지 작성</blockquote>',
+          '<p><strong style="color:#1e3a5f">협박 증거를 확보하는 것이 법적 대응의 첫걸음입니다</strong></p>\n<p>전 연인이 카카오톡, 문자, DM 등으로 영상 유포를 협박하는 메시지를 보냈다면, 절대로 삭제하지 마세요. 해당 메시지를 <strong>스크린샷으로 캡처</strong>하되, 가능한 한 ①<strong>상대방 프로필(이름·ID)</strong>, ②<strong>메시지 내용 전체</strong>, ③<strong>발송 날짜와 시간</strong>이 모두 화면에 표시되도록 하세요.</p>\n<p>전화 통화로 협박한 경우에도 <strong>통화 녹음</strong>이 증거로 인정될 수 있습니다. 대한민국에서는 대화 당사자인 본인이 녹음하는 것이 합법입니다. 이후 추가 연락이 오면 녹음 앱을 켜두세요. 협박 내용을 날짜별로 정리한 <strong>일지</strong>를 작성해두면 수사와 재판에서 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 확보: 메시지 스크린샷(프로필+날짜+시간) | 통화 녹음 | 협박 일지 작성</blockquote>',
       },
       {
         title: '경찰에 즉시 신고하고 접근금지를 요청하세요',
@@ -462,11 +462,11 @@ export const digitalSexCrimePages: SpokePage[] = [
       },
       {
         question: '상대방이 영상을 삭제했다고 하면 고소를 취하해야 하나요?',
-        answer: '삭제 여부를 확인할 수 없고, 복사본이 존재할 수 있습니다. 고소 취하는 <strong>변호사와 상의</strong> 후 결정하세요. 합의서에 재유포 금지 조항과 위약벌 조항을 반드시 포함해야 합니다.',
+        answer: '삭제 여부를 확인할 수 없고, 복사본이 존재할 수 있습니다. 고소 취하는 <strong>변호사와 상의</strong> 후 결정하세요. 합의서에 재유포 금지 조항과 위약벌 조항을 가능한 한 포함해야 합니다.',
       },
       {
         question: '교제 중 동의하에 촬영한 영상도 유포하면 처벌되나요?',
-        answer: '네. 촬영 당시 동의가 있었더라도 <strong>유포에 대한 동의가 없으면</strong> 성폭력처벌법 제14조 위반으로 처벌됩니다.',
+        answer: '네. 촬영 당시 동의가 있었더라도 <strong>유포에 대한 동의가 없으면</strong> 성폭력처벌법 제14조 위반으로 처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '디지털성범죄피해자지원센터 이용은 무료인가요?',
@@ -518,7 +518,7 @@ export const digitalSexCrimePages: SpokePage[] = [
       {
         title: '결백을 입증할 증거를 즉시 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">휴대폰 갤러리, CCTV, 목격자 증언이 핵심 방어 증거입니다</strong></p>\n<p>가장 강력한 방어 증거는 <strong>휴대폰 포렌식 결과</strong>입니다. 촬영한 사실이 없다면 갤러리, 최근 삭제된 파일, 카메라 앱 로그 등에서 <strong>촬영 이력이 없음</strong>이 확인됩니다. 경찰이 휴대폰 제출을 요구하면, <strong>영장 없이는 거부</strong>할 수 있지만, 결백을 입증하려면 자발적 제출이 유리할 수 있습니다. 이 판단은 반드시 변호사와 상의하세요.</p>\n<p>현장 <strong>CCTV</strong>가 있다면 보존을 요청하세요. 대부분의 CCTV는 <strong>30일 이내</strong>에 덮어쓰기되므로, 시간이 지나면 증거가 사라집니다. 당시 함께 있던 <strong>동행인이나 목격자</strong>의 연락처를 확보하고, 진술서 작성을 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 확보: 휴대폰 포렌식(촬영 이력 없음 입증) | CCTV 보존 요청(30일 이내) | 목격자 진술서</blockquote>',
+          '<p><strong style="color:#1e3a5f">휴대폰 갤러리, CCTV, 목격자 증언이 핵심 방어 증거입니다</strong></p>\n<p>가장 강력한 방어 증거는 <strong>휴대폰 포렌식 결과</strong>입니다. 촬영한 사실이 없다면 갤러리, 최근 삭제된 파일, 카메라 앱 로그 등에서 <strong>촬영 이력이 없음</strong>이 확인됩니다. 경찰이 휴대폰 제출을 요구하면, <strong>영장 없이는 거부</strong>할 수 있지만, 결백을 입증하려면 자발적 제출이 유리할 수 있습니다. 이 판단은 가능한 한 변호사와 상의하세요.</p>\n<p>현장 <strong>CCTV</strong>가 있다면 보존을 요청하세요. 대부분의 CCTV는 <strong>30일 이내</strong>에 덮어쓰기되므로, 시간이 지나면 증거가 사라집니다. 당시 함께 있던 <strong>동행인이나 목격자</strong>의 연락처를 확보하고, 진술서 작성을 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거 확보: 휴대폰 포렌식(촬영 이력 없음 입증) | CCTV 보존 요청(30일 이내) | 목격자 진술서</blockquote>',
       },
       {
         title: '수사 단계에서 변호사와 함께 체계적으로 방어하세요',
@@ -528,7 +528,7 @@ export const digitalSexCrimePages: SpokePage[] = [
       {
         title: '허위 신고자에 대한 무고죄 반소를 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">고의로 허위 신고한 경우 형법 제156조 무고죄로 처벌받을 수 있습니다</strong></p>\n<p><strong>형법 제156조(무고죄)</strong>는 타인으로 하여금 형사처분을 받게 할 목적으로 허위 사실을 신고한 자를 <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 처하도록 규정합니다. 상대방이 촬영 사실이 없음을 알면서도 고의로 신고한 경우, 무고죄로 <strong>맞고소</strong>할 수 있습니다.</p>\n<p>다만 무고죄가 성립하려면 신고 내용이 <strong>객관적 사실에 반하고</strong>, 신고자에게 <strong>허위 인식</strong>이 있었음을 입증해야 합니다(대법원 2006도2961). 단순히 오해로 신고한 경우에는 무고죄가 성립하지 않을 수 있습니다. 무고죄 반소 여부는 반드시 변호사와 상의하여 전략적으로 판단하세요. 민사적으로도 <strong>허위 신고로 인한 손해배상</strong>(민법 제750조)을 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">반소: 무고죄(형법 제156조, 10년↓) | 요건: 허위 사실 + 고의 | 민사 손해배상도 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">고의로 허위 신고한 경우 형법 제156조 무고죄로 처벌받을 수 있습니다</strong></p>\n<p><strong>형법 제156조(무고죄)</strong>는 타인으로 하여금 형사처분을 받게 할 목적으로 허위 사실을 신고한 자를 <strong>10년 이하 징역 또는 1,500만원 이하 벌금</strong>에 처하도록 규정합니다. 상대방이 촬영 사실이 없음을 알면서도 고의로 신고한 경우, 무고죄로 <strong>맞고소</strong>할 수 있습니다.</p>\n<p>다만 무고죄가 성립하려면 신고 내용이 <strong>객관적 사실에 반하고</strong>, 신고자에게 <strong>허위 인식</strong>이 있었음을 입증해야 합니다(대법원 2006도2961). 단순히 오해로 신고한 경우에는 무고죄가 성립하지 않을 수 있습니다. 무고죄 반소 여부는 가능한 한 변호사와 상의하여 전략적으로 판단하세요. 민사적으로도 <strong>허위 신고로 인한 손해배상</strong>(민법 제750조)을 청구할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">반소: 무고죄(형법 제156조, 10년↓) | 요건: 허위 사실 + 고의 | 민사 손해배상도 가능</blockquote>',
       },
     ],
     cases: [
@@ -549,7 +549,7 @@ export const digitalSexCrimePages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '현장에서 경찰이 휴대폰을 보여달라고 하면 반드시 보여줘야 하나요?',
+        question: '현장에서 경찰이 휴대폰을 보여달라고 하면 가능한 한 보여줘야 하나요?',
         answer: '<strong>압수수색영장</strong> 없이는 휴대폰 제출을 거부할 수 있습니다. 다만 결백 입증을 위해 자발적 제출이 유리할 수 있으므로, 변호사와 상의 후 결정하세요.',
       },
       {

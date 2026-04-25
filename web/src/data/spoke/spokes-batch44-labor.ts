@@ -37,7 +37,7 @@ export const spokesBatch44Labor: SpokePage[] = [
       {
         title: '갱신기대권 — 어떤 기간제에게 인정되나',
         content:
-          '<p><strong style="color:#1e3a5f">기간제법 제4조와 판례상 4가지 징표 중 2개 이상이면 갱신기대권이 인정됩니다.</strong></p>\n<ul>\n<li><strong>반복 갱신</strong> — 1년 계약을 2~3회 이상 반복 갱신한 이력.</li>\n<li><strong>갱신 조항</strong> — 계약서에 "평가 후 갱신", "특별한 사정 없으면 연장" 문구.</li>\n<li><strong>업무 상시성</strong> — 업무 자체가 한시적이지 않고 상시·반복적 성격.</li>\n<li><strong>관행·구두 약속</strong> — 상사·인사팀의 "별일 없으면 계속 간다" 구두 언급.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 갱신기대권이 인정되면 합리적 이유 없는 갱신거절은 실질 해고로 취급됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">기간제법 제4조와 판례상 4가지 징표 중 2개 이상이면 갱신기대권이 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>반복 갱신</strong> — 1년 계약을 2~3회 이상 반복 갱신한 이력.</li>\n<li><strong>갱신 조항</strong> — 계약서에 "평가 후 갱신", "특별한 사정 없으면 연장" 문구.</li>\n<li><strong>업무 상시성</strong> — 업무 자체가 한시적이지 않고 상시·반복적 성격.</li>\n<li><strong>관행·구두 약속</strong> — 상사·인사팀의 "별일 없으면 계속 간다" 구두 언급.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 갱신기대권이 인정되면 합리적 이유 없는 갱신거절은 실질 해고로 취급됩니다.</blockquote>',
       },
       {
         title: '5단계 대응 — 갱신거절 통보 직후 해야 할 일',
@@ -155,7 +155,7 @@ export const spokesBatch44Labor: SpokePage[] = [
       {
         question: '통지서에 취업규칙 조항 번호만 적혀 있으면 특정된 건가요?',
         answer:
-          '<strong>조항 번호만으로는 부족합니다.</strong> 그 조항에 해당하는 구체적 행위·일시·결과가 함께 기재되어야 특정성이 인정됩니다.',
+          '<strong>조항 번호만으로는 부족합니다.</strong> 그 조항에 해당하는 구체적 행위·일시·결과가 함께 기재되어야 특정성이 인정될 수 있습니다.',
       },
       {
         question: '해고일 이후 회사가 "정정 통지서"를 다시 줘도 되나요?',
@@ -221,7 +221,7 @@ export const spokesBatch44Labor: SpokePage[] = [
       {
         title: '사직 의사 철회 — 언제까지 가능한가',
         content:
-          '<p><strong style="color:#1e3a5f">근로관계 종료의 법적 성격에 따라 철회 시점이 달라집니다.</strong></p>\n<ul>\n<li><strong>청약형 사직</strong> — 회사가 수리(승낙)하기 전까지 철회 가능.</li>\n<li><strong>해지통고형 사직</strong> — 도달 후 일방적 철회 불가, 강박·착오 주장으로 취소 필요.</li>\n<li><strong>합의해지</strong> — 양 당사자 의사 합치 후에는 일방 철회 불가, 실질 강박이면 취소 주장.</li>\n<li><strong>기준 판례</strong> — 대법원 2023두41864 — 제척기간·기간경과 주장도 실질 판단.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 철회 의사는 반드시 내용증명·이메일로 기록을 남겨 "강박 상태였다"는 주장과 결합하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로관계 종료의 법적 성격에 따라 철회 시점이 달라집니다.</strong></p>\n<ul>\n<li><strong>청약형 사직</strong> — 회사가 수리(승낙)하기 전까지 철회 가능.</li>\n<li><strong>해지통고형 사직</strong> — 도달 후 일방적 철회 불가, 강박·착오 주장으로 취소 필요.</li>\n<li><strong>합의해지</strong> — 양 당사자 의사 합치 후에는 일방 철회 불가, 실질 강박이면 취소 주장.</li>\n<li><strong>기준 판례</strong> — 대법원 2023두41864 — 제척기간·기간경과 주장도 실질 판단.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 철회 의사는 가능한 한 내용증명·이메일로 기록을 남겨 "강박 상태였다"는 주장과 결합하세요.</blockquote>',
       },
       {
         title: '합의금 받았는데도 구제신청 가능할까',
@@ -242,7 +242,7 @@ export const spokesBatch44Labor: SpokePage[] = [
       {
         question: '사직서를 제출한 당일 바로 철회하면 되나요?',
         answer:
-          '<strong>회사가 수리하기 전이라면 자유롭게 철회 가능합니다.</strong> 반드시 내용증명·이메일로 증거를 남기세요.',
+          '<strong>회사가 수리하기 전이라면 자유롭게 철회 가능합니다.</strong> 가능한 한 내용증명·이메일로 증거를 남기세요.',
       },
       {
         question: '면담 녹음을 몰래 했는데 증거로 쓸 수 있나요?',
@@ -308,7 +308,7 @@ export const spokesBatch44Labor: SpokePage[] = [
       {
         title: '성과급 고정성 판단 — 삭감이 위법한 경우',
         content:
-          '<p><strong style="color:#1e3a5f">성과급에 고정성이 있으면 일방적 삭감은 취업규칙 불이익 변경에 해당합니다.</strong></p>\n<ul>\n<li><strong>정기성·일률성·고정성</strong> — 매년 일정 기준·비율로 지급되어 왔다면 임금성 인정.</li>\n<li><strong>취업규칙 변경 절차</strong> — 불이익 변경은 과반수 근로자 동의 필요(근기법 제94조).</li>\n<li><strong>개별 동의</strong> — 동의서 없이 성과급 체계를 변경하면 효력 흠결.</li>\n<li><strong>근로조건 저하</strong> — 기본급은 그대로라도 실수령액 감소면 저하로 판단.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 최근 3~5년 성과급 지급 이력과 산정 방식을 표로 정리하면 고정성 입증에 유리합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">성과급에 고정성이 있으면 일방적 삭감은 취업규칙 불이익 변경에 해당할 소지가 있습니다.</strong></p>\n<ul>\n<li><strong>정기성·일률성·고정성</strong> — 매년 일정 기준·비율로 지급되어 왔다면 임금성 인정.</li>\n<li><strong>취업규칙 변경 절차</strong> — 불이익 변경은 과반수 근로자 동의 필요(근기법 제94조).</li>\n<li><strong>개별 동의</strong> — 동의서 없이 성과급 체계를 변경하면 효력 흠결.</li>\n<li><strong>근로조건 저하</strong> — 기본급은 그대로라도 실수령액 감소면 저하로 판단.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 최근 3~5년 성과급 지급 이력과 산정 방식을 표로 정리하면 고정성 입증에 유리합니다.</blockquote>',
       },
       {
         title: '감봉·강등 vs 평가 — 구분 실익',
@@ -487,7 +487,7 @@ export const spokesBatch44Labor: SpokePage[] = [
       {
         title: '제외되는 유형 — 성과형·인센티브형',
         content:
-          '<p><strong style="color:#1e3a5f">순수 성과 연동·개인 실적형은 고정성이 부정되어 통상임금에서 제외됩니다.</strong></p>\n<ul>\n<li><strong>순수 성과급</strong> — 개인 매출·KPI에 100% 연동되어 사전 확정 불가한 금액.</li>\n<li><strong>경영성과 연동</strong> — 회사 당기순이익 기반으로 변동, 고정성 부정.</li>\n<li><strong>1회성 특별상여</strong> — 특정 행사·창립기념 등 일회성 지급은 정기성 부정.</li>\n<li><strong>재량적 포상</strong> — 관리자 재량으로 선별 지급되면 일률성 부정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 같은 "생산장려금"이라도 사업장별 산정식이 다르므로 규정 원문을 반드시 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">순수 성과 연동·개인 실적형은 고정성이 부정되어 통상임금에서 제외됩니다.</strong></p>\n<ul>\n<li><strong>순수 성과급</strong> — 개인 매출·KPI에 100% 연동되어 사전 확정 불가한 금액.</li>\n<li><strong>경영성과 연동</strong> — 회사 당기순이익 기반으로 변동, 고정성 부정.</li>\n<li><strong>1회성 특별상여</strong> — 특정 행사·창립기념 등 일회성 지급은 정기성 부정.</li>\n<li><strong>재량적 포상</strong> — 관리자 재량으로 선별 지급되면 일률성 부정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 같은 "생산장려금"이라도 사업장별 산정식이 다르므로 규정 원문을 가능한 한 확인하세요.</blockquote>',
       },
     ],
     cases: [
@@ -574,7 +574,7 @@ export const spokesBatch44Labor: SpokePage[] = [
       {
         title: '포괄임금제에 포함돼 있어도 다툴 수 있나',
         content:
-          '<p><strong style="color:#1e3a5f">포괄임금제 동의가 있어도 "실제 근로시간이 계산 가능"하면 무효 다툼이 가능합니다.</strong></p>\n<ul>\n<li><strong>원칙</strong> — 근로시간 산정이 가능한 업무는 포괄임금제 무효(대법원 2010다91046).</li>\n<li><strong>수당 부족</strong> — 실제 연장·야간 수당이 법정 기준 미달이면 차액 청구 가능.</li>\n<li><strong>동의 방식</strong> — 취업규칙·계약서에 명시적 동의 없으면 포괄임금 불성립.</li>\n<li><strong>최저기준 원칙</strong> — 포괄임금으로 법정 최저 수당 이하 지급하면 위법.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 포괄임금 계약서가 있어도 실질이 법정 기준 미달이면 차액은 반드시 청구 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">포괄임금제 동의가 있어도 "실제 근로시간이 계산 가능"하면 무효 다툼이 가능합니다.</strong></p>\n<ul>\n<li><strong>원칙</strong> — 근로시간 산정이 가능한 업무는 포괄임금제 무효(대법원 2010다91046).</li>\n<li><strong>수당 부족</strong> — 실제 연장·야간 수당이 법정 기준 미달이면 차액 청구 가능.</li>\n<li><strong>동의 방식</strong> — 취업규칙·계약서에 명시적 동의 없으면 포괄임금 불성립.</li>\n<li><strong>최저기준 원칙</strong> — 포괄임금으로 법정 최저 수당 이하 지급하면 위법.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 포괄임금 계약서가 있어도 실질이 법정 기준 미달이면 차액은 가능한 한 청구 가능합니다.</blockquote>',
       },
     ],
     cases: [
@@ -931,7 +931,7 @@ export const spokesBatch44Labor: SpokePage[] = [
         summary:
           '대법원 2024다294705 사건(대법원, 2025.05.29 선고)에서 법원은 퇴직금 청구에 대한 소멸시효 항변이 권리남용에 해당하는지 여부를 판단함에 있어 사용자의 정보 은폐·고지의무 위반 정황을 실질 평가해야 한다고 판시했습니다. 3년 도과도 상황에 따라 다툴 수 있습니다.',
         takeaway:
-          '소멸시효 항변만으로 퇴직금 청구가 무조건 막히지 않으니 권리남용 가능성을 반드시 검토하세요.',
+          '소멸시효 항변만으로 퇴직금 청구가 원칙적으로 막히지 않으니 권리남용 가능성을 가능한 한 검토하세요.',
       },
     ],
     faq: [

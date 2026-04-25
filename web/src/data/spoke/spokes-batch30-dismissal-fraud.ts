@@ -35,7 +35,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         title: '수습 해고를 당했을 때 대응 절차',
         content:
-          '<p><strong style="color:#1e3a5f">해고 통보를 받았다면 30일 이내에 증거를 확보하고, 3개월 이내에 구제를 신청하세요.</strong></p>\n<ul>\n<li><strong>해고 사유 서면 요구</strong> — 근로기준법 제27조에 따라 해고 사유와 시기를 서면으로 통지해야 합니다. 서면 없는 해고는 그 자체로 부당해고입니다.</li>\n<li><strong>수습 평가 기록 확보</strong> — 수습 평가표, 면담 기록, 업무 일지 등을 요청하세요. 평가 기록이 없다면 객관적 사유 부재의 증거가 됩니다.</li>\n<li><strong>부당해고 구제신청</strong> — 해고일로부터 3개월 이내에 지방노동위원회에 구제신청서를 제출하세요.</li>\n<li><strong>실업급여 신청</strong> — 비자발적 이직에 해당하므로 실업급여 수급이 가능합니다. 이직확인서의 이직 사유를 반드시 확인하세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">해고 통보를 받았다면 30일 이내에 증거를 확보하고, 3개월 이내에 구제를 신청하세요.</strong></p>\n<ul>\n<li><strong>해고 사유 서면 요구</strong> — 근로기준법 제27조에 따라 해고 사유와 시기를 서면으로 통지해야 합니다. 서면 없는 해고는 그 자체로 부당해고로 검토될 수 있습니다.</li>\n<li><strong>수습 평가 기록 확보</strong> — 수습 평가표, 면담 기록, 업무 일지 등을 요청하세요. 평가 기록이 없다면 객관적 사유 부재의 증거가 됩니다.</li>\n<li><strong>부당해고 구제신청</strong> — 해고일로부터 3개월 이내에 지방노동위원회에 구제신청서를 제출하세요.</li>\n<li><strong>실업급여 신청</strong> — 비자발적 이직에 해당하므로 실업급여 수급이 가능합니다. 이직확인서의 이직 사유를 가능한 한 확인하세요.</li>\n</ul>',
       },
     ],
     cases: [
@@ -104,17 +104,17 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         title: '정년 퇴직이 적법하려면',
         content:
-          '<p><strong style="color:#1e3a5f">적법한 정년 퇴직은 취업규칙·단체협약에 명확한 정년 규정이 있어야 합니다.</strong></p>\n<ul>\n<li><strong>정년 규정 존재 여부</strong> — 취업규칙 또는 단체협약에 정년(만 60세 이상)이 명시되어 있어야 합니다. 고용상 연령차별금지법은 정년을 60세 이상으로 정하도록 강제합니다.</li>\n<li><strong>일률적 적용</strong> — 같은 조건의 근로자에게 정년이 일률적으로 적용되어야 합니다. 특정인만 퇴직시키면 해고에 해당합니다.</li>\n<li><strong>정년 도달 시점</strong> — 정년 도달일이 명확해야 합니다. "대략 그 시기"가 아니라 구체적 날짜를 기준으로 판단합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 정년 규정이 없거나 60세 미만으로 정해져 있다면, 정년 퇴직을 이유로 한 퇴직 강요는 부당해고에 해당합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">적법한 정년 퇴직은 취업규칙·단체협약에 명확한 정년 규정이 있어야 합니다.</strong></p>\n<ul>\n<li><strong>정년 규정 존재 여부</strong> — 취업규칙 또는 단체협약에 정년(만 60세 이상)이 명시되어 있어야 합니다. 고용상 연령차별금지법은 정년을 60세 이상으로 정하도록 강제합니다.</li>\n<li><strong>일률적 적용</strong> — 같은 조건의 근로자에게 정년이 일률적으로 적용되어야 합니다. 특정인만 퇴직시키면 해고에 해당할 소지가 있습니다.</li>\n<li><strong>정년 도달 시점</strong> — 정년 도달일이 명확해야 합니다. "대략 그 시기"가 아니라 구체적 날짜를 기준으로 판단합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 정년 규정이 없거나 60세 미만으로 정해져 있다면, 정년 퇴직을 이유로 한 퇴직 강요는 부당해고에 해당할 소지가 있습니다.</blockquote>',
       },
       {
         title: '정년 퇴직을 가장한 해고를 판별하는 3가지 기준',
         content:
-          '<p><strong style="color:#1e3a5f">아래 상황에 해당하면 정년 퇴직이 아닌 사실상 해고입니다.</strong></p>\n<ol>\n<li><strong>정년 규정 미달</strong> — 취업규칙상 정년이 60세 미만이면 해당 규정 자체가 무효입니다. 무효 규정에 따른 퇴직 강요는 부당해고입니다.</li>\n<li><strong>선별적 적용</strong> — 같은 나이의 다른 근로자는 계속 근무하는데 특정인만 퇴직시키면 해고에 해당합니다.</li>\n<li><strong>정년 전 퇴직 강요</strong> — 정년에 도달하지 않았는데 "곧 정년이니 미리 나가라"는 것은 권고사직 또는 해고입니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>정년 퇴직인지 부당해고인지, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">취업규칙과 퇴직 경위를 입력하면 구제 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">아래 상황에 해당하면 정년 퇴직이 아닌 사실상 해고입니다.</strong></p>\n<ol>\n<li><strong>정년 규정 미달</strong> — 취업규칙상 정년이 60세 미만이면 해당 규정 자체가 무효입니다. 무효 규정에 따른 퇴직 강요는 부당해고로 검토될 수 있습니다.</li>\n<li><strong>선별적 적용</strong> — 같은 나이의 다른 근로자는 계속 근무하는데 특정인만 퇴직시키면 해고에 해당할 소지가 있습니다.</li>\n<li><strong>정년 전 퇴직 강요</strong> — 정년에 도달하지 않았는데 "곧 정년이니 미리 나가라"는 것은 권고사직 또는 해고입니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>정년 퇴직인지 부당해고인지, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">취업규칙과 퇴직 경위를 입력하면 구제 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '정년 퇴직 후 재고용과 촉탁직 전환',
         content:
-          '<p><strong style="color:#1e3a5f">정년 후에도 재고용 제도나 촉탁직 전환으로 계속 근무할 수 있습니다.</strong></p>\n<ul>\n<li><strong>재고용 제도</strong> — 단체협약이나 취업규칙에 정년 후 재고용 규정이 있다면 사용자는 이를 이행할 의무가 있습니다.</li>\n<li><strong>촉탁직 전환</strong> — 정년 후 촉탁직으로 전환하면서 임금·근로조건을 대폭 낮추면 불이익 변경에 해당할 수 있습니다.</li>\n<li><strong>퇴직금 정산</strong> — 정년 퇴직 시 퇴직금은 반드시 지급해야 합니다. 재고용 시에도 이전 근속기간에 대한 퇴직금은 정산됩니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">정년 후에도 재고용 제도나 촉탁직 전환으로 계속 근무할 수 있습니다.</strong></p>\n<ul>\n<li><strong>재고용 제도</strong> — 단체협약이나 취업규칙에 정년 후 재고용 규정이 있다면 사용자는 이를 이행할 의무가 있습니다.</li>\n<li><strong>촉탁직 전환</strong> — 정년 후 촉탁직으로 전환하면서 임금·근로조건을 대폭 낮추면 불이익 변경에 해당할 수 있습니다.</li>\n<li><strong>퇴직금 정산</strong> — 정년 퇴직 시 퇴직금은 가능한 한 지급해야 합니다. 재고용 시에도 이전 근속기간에 대한 퇴직금은 정산됩니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -178,7 +178,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         title: '징계 절차에서 반드시 지켜야 할 4가지',
         content:
-          '<p><strong style="color:#1e3a5f">절차 위반이 하나라도 있으면 징계해고 자체가 무효가 될 수 있습니다.</strong></p>\n<ol>\n<li><strong>출석 통지</strong> — 징계위원회 개최 사실과 일시·장소를 사전에 서면으로 통지해야 합니다. 통지 없이 열린 징계위원회는 무효입니다.</li>\n<li><strong>소명 기회 부여</strong> — 근로자에게 징계 사유에 대해 소명할 기회를 반드시 주어야 합니다. 소명 없이 내린 징계는 적법절차 위반입니다.</li>\n<li><strong>징계위원 구성의 공정성</strong> — 취업규칙에 정한 위원 수와 자격을 갖춰야 합니다. 편향된 위원 구성도 절차 위반입니다.</li>\n<li><strong>징계 사유의 서면 통지</strong> — 어떤 행위가 징계 대상인지 구체적으로 서면 통지해야 합니다. 막연히 "근무태도 불량"으로는 부족합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대법원은 징계 사유가 인정되더라도 징계 절차에 중대한 하자가 있으면 해당 징계처분은 무효라고 일관되게 판시합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">절차 위반이 하나라도 있으면 징계해고 자체가 무효가 될 수 있습니다.</strong></p>\n<ol>\n<li><strong>출석 통지</strong> — 징계위원회 개최 사실과 일시·장소를 사전에 서면으로 통지해야 합니다. 통지 없이 열린 징계위원회는 무효입니다.</li>\n<li><strong>소명 기회 부여</strong> — 근로자에게 징계 사유에 대해 소명할 기회를 가능한 한 주어야 합니다. 소명 없이 내린 징계는 적법절차 위반입니다.</li>\n<li><strong>징계위원 구성의 공정성</strong> — 취업규칙에 정한 위원 수와 자격을 갖춰야 합니다. 편향된 위원 구성도 절차 위반입니다.</li>\n<li><strong>징계 사유의 서면 통지</strong> — 어떤 행위가 징계 대상인지 구체적으로 서면 통지해야 합니다. 막연히 "근무태도 불량"으로는 부족합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대법원은 징계 사유가 인정되더라도 징계 절차에 중대한 하자가 있으면 해당 징계처분은 무효라고 일관되게 판시합니다.</blockquote>',
       },
       {
         title: '징계 절차 위반을 입증하는 방법',
@@ -252,7 +252,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
         '회사가 폐업하거나 사업을 축소하면서 해고를 통보받았다면, 미지급 임금과 퇴직금 확보 방법을 지금 확인하세요.',
     },
     intro:
-      '<p>출근했더니 "회사 사정이 어려워 문을 닫는다"는 공지가 붙어 있었습니다. 밀린 월급 2개월치, 퇴직금도 못 받았는데 사장은 연락이 안 됩니다. 사업장이 폐업하거나 축소될 때 근로자가 반드시 확보해야 할 권리와 대응 절차를 정리합니다.</p>',
+      '<p>출근했더니 "회사 사정이 어려워 문을 닫는다"는 공지가 붙어 있었습니다. 밀린 월급 2개월치, 퇴직금도 못 받았는데 사장은 연락이 안 됩니다. 사업장이 폐업하거나 축소될 때 근로자가 가능한 한 확보해야 할 권리와 대응 절차를 정리합니다.</p>',
     sections: [
       {
         title: '폐업·축소 시 사용자의 법적 의무 5가지',
@@ -341,7 +341,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         title: '혐의를 받고 있을 때 4단계 대응법',
         content:
-          '<p><strong style="color:#1e3a5f">경찰 조사 전에 반드시 준비해야 할 사항을 단계별로 정리합니다.</strong></p>\n<ol>\n<li><strong>변호사 선임</strong> — 경찰 조사 전에 반드시 형사 전문 변호사를 선임하세요. 초기 조사에서의 진술이 재판 결과에 결정적 영향을 미칩니다.</li>\n<li><strong>통장 양도 경위 정리</strong> — 언제, 누구에게, 어떤 경위로 통장을 빌려주었는지 시간순으로 정리하세요. 취업 사기, 대출 사기에 속아서 빌려준 경우 피해자 입장을 주장할 수 있습니다.</li>\n<li><strong>미필적 고의 반박 준비</strong> — 검찰은 "보이스피싱에 이용될 수 있다는 것을 알 수 있었다"고 미필적 고의를 주장합니다. 통장을 빌려준 구체적 사정(취업 사기 피해, 대출 조건으로 요구 등)을 입증하세요.</li>\n<li><strong>피해자 배상 검토</strong> — 혐의가 인정될 가능성이 있다면, 피해자에 대한 배상을 통해 형량을 줄이는 전략도 함께 검토하세요.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>보이스피싱 대포통장 혐의, AI가 방어 전략을 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">통장 양도 경위와 혐의 내용을 입력하면 대응 방향을 무료로 확인하세요.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">경찰 조사 전에 가능한 한 준비해야 할 사항을 단계별로 정리합니다.</strong></p>\n<ol>\n<li><strong>변호사 선임</strong> — 경찰 조사 전에 가능한 한 형사 전문 변호사를 선임하세요. 초기 조사에서의 진술이 재판 결과에 결정적 영향을 미칩니다.</li>\n<li><strong>통장 양도 경위 정리</strong> — 언제, 누구에게, 어떤 경위로 통장을 빌려주었는지 시간순으로 정리하세요. 취업 사기, 대출 사기에 속아서 빌려준 경우 피해자 입장을 주장할 수 있습니다.</li>\n<li><strong>미필적 고의 반박 준비</strong> — 검찰은 "보이스피싱에 이용될 수 있다는 것을 알 수 있었다"고 미필적 고의를 주장합니다. 통장을 빌려준 구체적 사정(취업 사기 피해, 대출 조건으로 요구 등)을 입증하세요.</li>\n<li><strong>피해자 배상 검토</strong> — 혐의가 인정될 가능성이 있다면, 피해자에 대한 배상을 통해 형량을 줄이는 전략도 함께 검토하세요.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>보이스피싱 대포통장 혐의, AI가 방어 전략을 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">통장 양도 경위와 혐의 내용을 입력하면 대응 방향을 무료로 확인하세요.</p>\n<a href="/chat?domain=fraud" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '경찰 조사에서 주의할 점',
@@ -367,7 +367,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         question: '통장을 빌려주고 10만원을 받았는데 어떤 혐의인가요?',
         answer:
-          '<p>대가를 받고 통장을 양도하면 전자금융거래법 위반이 성립합니다. 해당 통장이 사기에 이용되었다면 사기 방조 혐의도 추가됩니다.</p>',
+          '<p>대가를 받고 통장을 양도하면 전자금융거래법 위반이 성립할 수 있습니다. 해당 통장이 사기에 이용되었다면 사기 방조 혐의도 추가됩니다.</p>',
       },
       {
         question: '첫 범행이면 실형을 피할 수 있나요?',
@@ -434,7 +434,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
         summary:
           '대법원 2022도1862 사건(대법원, 2026.01.29 선고)에서 법원은 수익 보장을 약속하며 투자금을 모집한 행위에 대해, 투자 구조 자체가 수익 실현이 불가능한 구조였다면 기망 행위에 해당한다고 판시했습니다.',
         takeaway:
-          '수익 실현이 구조적으로 불가능한 투자를 권유한 것은 사기입니다. 투자 구조의 허구성을 입증하는 것이 핵심입니다.',
+          '수익 실현이 구조적으로 불가능한 투자를 권유한 것은 사기로 검토될 수 있습니다. 투자 구조의 허구성을 입증하는 것이 핵심입니다.',
       },
     ],
     faq: [
@@ -494,7 +494,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         title: '연애빙자 사기가 성립하는 요건',
         content:
-          '<p><strong style="color:#1e3a5f">연인 사이의 금전 거래가 모두 사기는 아닙니다. 아래 요건이 충족되어야 사기죄가 성립합니다.</strong></p>\n<ul>\n<li><strong>기망 행위</strong> — 처음부터 갚을 의사나 능력 없이 거짓말로 돈을 빌린 것이어야 합니다. "사업 자금"이라고 했지만 실제로는 도박에 썼다면 기망입니다.</li>\n<li><strong>편취 의사</strong> — 돈을 빌릴 때 이미 갚을 의사가 없었음을 입증해야 합니다. 빌릴 당시의 재산 상태, 직업 유무, 다른 채무 상황이 핵심입니다.</li>\n<li><strong>처분 행위와 손해</strong> — 피해자가 기망에 속아 돈을 교부하고, 그로 인해 재산적 손해가 발생해야 합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 연애빙자 사기의 핵심 쟁점은 "돈을 빌릴 당시 갚을 의사가 있었는가"입니다. 빌릴 당시의 경제 상황을 입증하는 것이 사기와 단순 채무를 가르는 기준입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">연인 사이의 금전 거래가 모두 사기는 아닙니다. 아래 요건이 충족되어야 사기죄가 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>기망 행위</strong> — 처음부터 갚을 의사나 능력 없이 거짓말로 돈을 빌린 것이어야 합니다. "사업 자금"이라고 했지만 실제로는 도박에 썼다면 기망입니다.</li>\n<li><strong>편취 의사</strong> — 돈을 빌릴 때 이미 갚을 의사가 없었음을 입증해야 합니다. 빌릴 당시의 재산 상태, 직업 유무, 다른 채무 상황이 핵심입니다.</li>\n<li><strong>처분 행위와 손해</strong> — 피해자가 기망에 속아 돈을 교부하고, 그로 인해 재산적 손해가 발생해야 합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 연애빙자 사기의 핵심 쟁점은 "돈을 빌릴 당시 갚을 의사가 있었는가"입니다. 빌릴 당시의 경제 상황을 입증하는 것이 사기와 단순 채무를 가르는 기준입니다.</blockquote>',
       },
       {
         title: '연애빙자 사기 증거 수집 체크리스트',
@@ -530,7 +530,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         question: '상대방이 일부를 갚았어도 사기인가요?',
         answer:
-          '<p>일부 변제는 편취 의사를 부정하는 근거가 될 수 있지만, 나머지 금액에 대해 처음부터 갚을 의사가 없었다면 사기가 성립합니다. 전체 거래 맥락에서 판단합니다.</p>',
+          '<p>일부 변제는 편취 의사를 부정하는 근거가 될 수 있지만, 나머지 금액에 대해 처음부터 갚을 의사가 없었다면 사기가 성립할 수 있습니다. 전체 거래 맥락에서 판단합니다.</p>',
       },
       {
         question: '교제 중 준 선물도 돌려받을 수 있나요?',
@@ -540,7 +540,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         question: '연애빙자 사기 피해 금액이 얼마 이상이어야 고소할 수 있나요?',
         answer:
-          '<p>금액 제한은 없습니다. 다만 피해 금액이 클수록 수사기관이 적극적으로 수사하는 경향이 있습니다. 소액이라도 상습성이 인정되면 중하게 처벌됩니다.</p>',
+          '<p>금액 제한은 없습니다. 다만 피해 금액이 클수록 수사기관이 적극적으로 수사하는 경향이 있습니다. 소액이라도 상습성이 인정되면 중하게 처벌 대상으로 검토될 수 있습니다.</p>',
       },
     ],
     cta: { text: '연애빙자 사기 고소 가능성 AI로 확인하기', link: '/chat?domain=fraud' },

@@ -26,17 +26,17 @@ export const spokesBatch18_31to35: SpokePage[] = [
       {
         title: '첫째, 피해 사실과 상해진단서 내용을 정확히 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제257조에 따라 상해죄는 7년 이하의 징역, 10년 이하의 자격정지 또는 1천만원 이하의 벌금에 처합니다</strong></p>\n<p>합의를 시작하기 전에 피해자가 제출한 <strong>상해진단서의 내용과 치료 기간</strong>을 반드시 확인하세요. 진단서상 상해 부위와 피해자 주장이 일치하는지, 치료 기간이 실제 상해 정도에 비해 과도하지 않은지 검토해야 합니다.</p>\n<p>진단서는 피해자의 <strong>주관적 통증 호소</strong>에 의존해 발급되는 경우도 있으므로, 진단 일자와 상해 발생 시점 사이의 간격, 기왕증 유무 등을 꼼꼼히 살펴야 합니다. 진단서 내용에 따라 합의금 수준이 크게 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 진단서 치료 기간 → 상해 부위 일치 여부 → 기왕증 존부 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제257조에 따라 상해죄는 7년 이하의 징역, 10년 이하의 자격정지 또는 1천만원 이하의 벌금에 처합니다</strong></p>\n<p>합의를 시작하기 전에 피해자가 제출한 <strong>상해진단서의 내용과 치료 기간</strong>을 가능한 한 확인하세요. 진단서상 상해 부위와 피해자 주장이 일치하는지, 치료 기간이 실제 상해 정도에 비해 과도하지 않은지 검토해야 합니다.</p>\n<p>진단서는 피해자의 <strong>주관적 통증 호소</strong>에 의존해 발급되는 경우도 있으므로, 진단 일자와 상해 발생 시점 사이의 간격, 기왕증 유무 등을 꼼꼼히 살펴야 합니다. 진단서 내용에 따라 합의금 수준이 크게 달라집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 진단서 치료 기간 → 상해 부위 일치 여부 → 기왕증 존부 확인</blockquote>',
       },
       {
         title: '둘째, 변호사를 선임하고 합의 의사를 공식적으로 전달하세요',
         content:
-          '<p><strong style="color:#1e3a5f">직접 피해자에게 연락하면 2차 피해로 간주될 수 있으므로 반드시 변호사를 통해 접촉하세요</strong></p>\n<p>수사 단계에서 피해자에게 직접 연락하면 <strong>증거인멸 시도나 협박</strong>으로 오해받을 수 있습니다. 변호사를 선임한 뒤 수사기관이나 피해자 측 대리인을 통해 합의 의사를 전달하는 것이 안전합니다.</p>\n<p>합의 의사를 전달할 때는 <strong>진심어린 반성의 표현</strong>과 함께 치료비 선지급 의사를 밝히면 합의 성공 확률이 높아집니다. 피해자 입장에서 가해자의 태도가 합의 수락 여부를 결정하는 핵심 요소입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 변호사 선임 → 수사기관 경유 합의 제안 → 치료비 선지급 제안</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/chat?domain=assault" style="color:#1565c0;font-weight:600">내 상해 사건 합의 전략 AI로 분석받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">직접 피해자에게 연락하면 2차 피해로 간주될 수 있으므로 가능한 한 변호사를 통해 접촉하세요</strong></p>\n<p>수사 단계에서 피해자에게 직접 연락하면 <strong>증거인멸 시도나 협박</strong>으로 오해받을 수 있습니다. 변호사를 선임한 뒤 수사기관이나 피해자 측 대리인을 통해 합의 의사를 전달하는 것이 안전합니다.</p>\n<p>합의 의사를 전달할 때는 <strong>진심어린 반성의 표현</strong>과 함께 치료비 선지급 의사를 밝히면 합의 성공 확률이 높아집니다. 피해자 입장에서 가해자의 태도가 합의 수락 여부를 결정하는 핵심 요소입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 변호사 선임 → 수사기관 경유 합의 제안 → 치료비 선지급 제안</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/chat?domain=assault" style="color:#1565c0;font-weight:600">내 상해 사건 합의 전략 AI로 분석받기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 합의금을 협상하고 법적 효력 있는 합의서를 작성하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의서에는 피해자의 처벌불원 의사가 반드시 포함되어야 형사처분에 실질적 영향을 미칩니다</strong></p>\n<p>합의금은 <strong>치료비 실비 + 위자료</strong>로 구성됩니다. 진단서상 치료 기간이 2주 이하인 경미한 상해의 경우 100~300만원, 4주 이상 중상해의 경우 500~2,000만원 이상이 일반적인 범위입니다. 다만 구체적 사안에 따라 편차가 큽니다.</p>\n<p>합의서에는 ①합의금 액수 ②지급 방법 ③<strong>피해자의 처벌불원 의사</strong> ④향후 민·형사상 이의제기 포기 조항을 포함해야 합니다. 특히 폭행죄(형법 제260조)는 반의사불벌죄이므로 합의 후 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수 항목: 합의금 + 처벌불원서 + 민형사 이의포기 조항</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의서에는 피해자의 처벌불원 의사가 가능한 한 포함되어야 형사처분에 실질적 영향을 미칩니다</strong></p>\n<p>합의금은 <strong>치료비 실비 + 위자료</strong>로 구성됩니다. 진단서상 치료 기간이 2주 이하인 경미한 상해의 경우 100~300만원, 4주 이상 중상해의 경우 500~2,000만원 이상이 일반적인 범위입니다. 다만 구체적 사안에 따라 편차가 큽니다.</p>\n<p>합의서에는 ①합의금 액수 ②지급 방법 ③<strong>피해자의 처벌불원 의사</strong> ④향후 민·형사상 이의제기 포기 조항을 포함해야 합니다. 특히 폭행죄(형법 제260조)는 반의사불벌죄이므로 합의 후 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수 항목: 합의금 + 처벌불원서 + 민형사 이의포기 조항</blockquote>',
       },
       {
         title: '넷째, 합의서를 수사기관에 제출하고 처분 결과를 확인하세요',
@@ -108,7 +108,7 @@ export const spokesBatch18_31to35: SpokePage[] = [
       {
         title: '소득·재산 증빙 서류 5가지를 빠짐없이 챙기세요',
         content:
-          '<p><strong style="color:#1e3a5f">지급불능 상태를 증명하려면 소득 대비 채무가 과도함을 보여주는 자료가 필요합니다</strong></p>\n<p>소득 관련 서류는 ⑥<strong>소득금액증명원</strong>(국세청 홈택스 발급) ⑦<strong>급여명세서 또는 소득확인증명서</strong>(최근 3개월분) ⑧<strong>건강보험자격득실확인서</strong>입니다. 무직인 경우에는 고용보험 이력서와 구직 활동 증빙을 함께 제출합니다.</p>\n<p>재산 관련 서류는 ⑨<strong>부동산등기사항증명서</strong>(본인 명의 부동산이 있는 경우) ⑩<strong>금융거래확인서</strong>(전 금융기관 예금잔액·대출잔액 조회, 신용정보원 또는 각 은행에서 발급)입니다. 예금이 소액이라도 반드시 신고해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">소득 3종 + 재산 2종: 소득금액증명 + 급여명세서 + 건강보험 + 부동산등기 + 금융거래확인</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/chat?domain=bankruptcy" style="color:#1565c0;font-weight:600">내 상황에 파산 신청이 가능한지 AI로 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">지급불능 상태를 증명하려면 소득 대비 채무가 과도함을 보여주는 자료가 필요합니다</strong></p>\n<p>소득 관련 서류는 ⑥<strong>소득금액증명원</strong>(국세청 홈택스 발급) ⑦<strong>급여명세서 또는 소득확인증명서</strong>(최근 3개월분) ⑧<strong>건강보험자격득실확인서</strong>입니다. 무직인 경우에는 고용보험 이력서와 구직 활동 증빙을 함께 제출합니다.</p>\n<p>재산 관련 서류는 ⑨<strong>부동산등기사항증명서</strong>(본인 명의 부동산이 있는 경우) ⑩<strong>금융거래확인서</strong>(전 금융기관 예금잔액·대출잔액 조회, 신용정보원 또는 각 은행에서 발급)입니다. 예금이 소액이라도 가능한 한 신고해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">소득 3종 + 재산 2종: 소득금액증명 + 급여명세서 + 건강보험 + 부동산등기 + 금융거래확인</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/chat?domain=bankruptcy" style="color:#1565c0;font-weight:600">내 상황에 파산 신청이 가능한지 AI로 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '채무 증빙 및 기타 필수 서류 5가지를 마무리하세요',
@@ -176,7 +176,7 @@ export const spokesBatch18_31to35: SpokePage[] = [
       {
         title: '첫째, 아동·청소년 대상 주요 성범죄의 법정형을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">아동·청소년의 성보호에 관한 법률은 일반 성범죄보다 가중 처벌을 규정하고 있습니다</strong></p>\n<p>주요 죄명별 법정형은 다음과 같습니다. ①<strong>아동·청소년 강간</strong>: 무기징역 또는 5년 이상 유기징역 ②<strong>아동·청소년 강제추행</strong>: 2년 이상 유기징역 또는 1천만원~3천만원 벌금 ③<strong>13세 미만 미성년자 의제강간</strong>: 무기징역 또는 5년 이상 유기징역 ④<strong>아동·청소년 성착취물 제작</strong>: 무기징역 또는 5년 이상 유기징역 ⑤<strong>아동·청소년 성착취물 배포</strong>: 3년 이상 유기징역 ⑥<strong>아동·청소년 성착취물 소지</strong>: 1년 이상 유기징역 ⑦<strong>아동·청소년 대상 성매매</strong>: 1년 이상 유기징역.</p>\n<p>19세 미만의 사람이 아동·청소년에 해당하며, 가해자가 19세 이상일 때 13세 이상 16세 미만에 대해서도 의제강간·의제추행이 성립합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 아동 강간 무기/5년 이상 | 강제추행 2년 이상 | 성착취물 제작 5년 이상</blockquote>',
+          '<p><strong style="color:#1e3a5f">아동·청소년의 성보호에 관한 법률은 일반 성범죄보다 가중 처벌을 규정하고 있습니다</strong></p>\n<p>주요 죄명별 법정형은 다음과 같습니다. ①<strong>아동·청소년 강간</strong>: 무기징역 또는 5년 이상 유기징역 ②<strong>아동·청소년 강제추행</strong>: 2년 이상 유기징역 또는 1천만원~3천만원 벌금 ③<strong>13세 미만 미성년자 의제강간</strong>: 무기징역 또는 5년 이상 유기징역 ④<strong>아동·청소년 성착취물 제작</strong>: 무기징역 또는 5년 이상 유기징역 ⑤<strong>아동·청소년 성착취물 배포</strong>: 3년 이상 유기징역 ⑥<strong>아동·청소년 성착취물 소지</strong>: 1년 이상 유기징역 ⑦<strong>아동·청소년 대상 성매매</strong>: 1년 이상 유기징역.</p>\n<p>19세 미만의 사람이 아동·청소년에 해당하며, 가해자가 19세 이상일 때 13세 이상 16세 미만에 대해서도 의제강간·의제추행이 성립할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 아동 강간 무기/5년 이상 | 강제추행 2년 이상 | 성착취물 제작 5년 이상</blockquote>',
       },
       {
         title: '둘째, 형사처벌 외 부가처분의 범위를 파악하세요',
@@ -201,7 +201,7 @@ export const spokesBatch18_31to35: SpokePage[] = [
     faq: [
       {
         question: '미성년자와 동의하에 관계했어도 처벌되나요?',
-        answer: '네, <strong>13세 미만은 동의 여부와 무관하게 의제강간·의제추행</strong>이 성립합니다. 가해자가 19세 이상이고 피해자가 13세 이상 16세 미만인 경우에도 마찬가지입니다. 피해자의 동의는 법적으로 효력이 없습니다.',
+        answer: '네, <strong>13세 미만은 동의 여부와 무관하게 의제강간·의제추행</strong>이 성립할 수 있습니다. 가해자가 19세 이상이고 피해자가 13세 이상 16세 미만인 경우에도 마찬가지입니다. 피해자의 동의는 법적으로 효력이 없습니다.',
       },
       {
         question: '아동성범죄도 집행유예가 가능한가요?',
@@ -244,7 +244,7 @@ export const spokesBatch18_31to35: SpokePage[] = [
       {
         title: '실수 1. URL 없이 화면만 캡처하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">게시물의 URL(웹주소)이 포함되지 않은 캡처는 증거 특정이 불가능합니다</strong></p>\n<p>많은 피해자가 급한 마음에 <strong>화면 일부만 캡처</strong>합니다. 하지만 URL이 빠지면 해당 게시물이 어디에 게시되었는지 특정할 수 없어 수사기관이 삭제 요청이나 추적을 진행하기 어렵습니다.</p>\n<p>캡처할 때는 반드시 <strong>브라우저 주소창이 보이는 상태에서 전체 화면을 캡처</strong>하세요. 모바일의 경우 앱 내 스크린샷보다 브라우저로 접속한 뒤 URL이 노출된 상태에서 캡처하는 것이 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수: URL 포함 전체 화면 캡처 → 게시물 위치 특정 가능하게</blockquote>',
+          '<p><strong style="color:#1e3a5f">게시물의 URL(웹주소)이 포함되지 않은 캡처는 증거 특정이 불가능합니다</strong></p>\n<p>많은 피해자가 급한 마음에 <strong>화면 일부만 캡처</strong>합니다. 하지만 URL이 빠지면 해당 게시물이 어디에 게시되었는지 특정할 수 없어 수사기관이 삭제 요청이나 추적을 진행하기 어렵습니다.</p>\n<p>캡처할 때는 가능한 한 <strong>브라우저 주소창이 보이는 상태에서 전체 화면을 캡처</strong>하세요. 모바일의 경우 앱 내 스크린샷보다 브라우저로 접속한 뒤 URL이 노출된 상태에서 캡처하는 것이 좋습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수: URL 포함 전체 화면 캡처 → 게시물 위치 특정 가능하게</blockquote>',
       },
       {
         title: '실수 2. 캡처 일시를 기록하지 않는 것',
@@ -355,7 +355,7 @@ export const spokesBatch18_31to35: SpokePage[] = [
       },
       {
         question: '사업주가 현장에 없었어도 형사처벌을 받나요?',
-        answer: '사업주가 현장에 없었더라도 <strong>안전관리체계 구축·이행의무를 위반</strong>했다면 처벌됩니다. 중대재해처벌법은 경영책임자에게 안전·보건 관리체계를 구축하고 필요한 인력·예산을 확보할 의무를 부과하고 있으므로, 현장 부재가 면책 사유가 되지 않습니다.',
+        answer: '사업주가 현장에 없었더라도 <strong>안전관리체계 구축·이행의무를 위반</strong>했다면 처벌 대상으로 검토될 수 있습니다. 중대재해처벌법은 경영책임자에게 안전·보건 관리체계를 구축하고 필요한 인력·예산을 확보할 의무를 부과하고 있으므로, 현장 부재가 면책 사유가 되지 않습니다.',
       },
       {
         question: '근로자의 과실이 있어도 사업주 책임이 인정되나요?',

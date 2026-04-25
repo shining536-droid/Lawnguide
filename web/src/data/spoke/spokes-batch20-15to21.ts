@@ -33,7 +33,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
       {
         title: '2단계: 회사 내 성희롱 고충처리 창구에 신고하세요',
         content:
-          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조에 따라 사업주는 성희롱 사실 확인 시 지체 없이 조사를 실시해야 합니다</strong></p>\n<p>회사 내 <strong>성희롱 고충상담원</strong> 또는 <strong>인사팀</strong>에 서면으로 신고하세요. 구두 신고만으로는 기록이 남지 않으므로 반드시 <strong>이메일이나 내용증명 형태</strong>로 제출하는 것이 좋습니다.</p>\n<p>회사가 조사를 시작하면 <strong>피해자 보호 조치</strong>(근무 장소 변경, 유급휴가 등)를 요청할 수 있습니다. 사업주가 성희롱 확인 후 적절한 조치를 하지 않으면 <strong>500만원 이하의 과태료</strong>가 부과됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 요령: 서면 신고(이메일) → 접수 확인서 수령 → 피해자 보호 조치 요청</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">내 성희롱 피해 상황 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조에 따라 사업주는 성희롱 사실 확인 시 지체 없이 조사를 실시해야 합니다</strong></p>\n<p>회사 내 <strong>성희롱 고충상담원</strong> 또는 <strong>인사팀</strong>에 서면으로 신고하세요. 구두 신고만으로는 기록이 남지 않으므로 가능한 한 <strong>이메일이나 내용증명 형태</strong>로 제출하는 것이 좋습니다.</p>\n<p>회사가 조사를 시작하면 <strong>피해자 보호 조치</strong>(근무 장소 변경, 유급휴가 등)를 요청할 수 있습니다. 사업주가 성희롱 확인 후 적절한 조치를 하지 않으면 <strong>500만원 이하의 과태료</strong>가 부과됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 요령: 서면 신고(이메일) → 접수 확인서 수령 → 피해자 보호 조치 요청</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">내 성희롱 피해 상황 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '3단계: 외부 기관에 진정·고소를 병행하세요',
@@ -43,7 +43,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
       {
         title: '4단계: 보복 조치에 대비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제2항은 성희롱 피해를 주장한 근로자에 대한 불이익 조치를 명시적으로 금지합니다</strong></p>\n<p>성희롱 신고 후 <strong>전보, 평가 불이익, 따돌림, 해고</strong> 등이 발생하면 이는 <strong>2차 피해</strong>에 해당합니다. 이러한 조치가 있었다면 날짜와 내용을 즉시 기록하고, 고용노동부에 추가 진정하세요.</p>\n<p>사업주가 피해자에게 불리한 조치를 하면 <strong>3년 이하의 징역 또는 3천만원 이하의 벌금</strong>에 처해질 수 있습니다(남녀고용평등법 제37조 제2항). 불리한 조치가 성희롱과 무관하다는 증명 책임은 <strong>사업주에게</strong> 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보복 대비: 불이익 발생 시 즉시 기록 → 고용노동부 추가 진정 → 증명 책임은 사업주</blockquote>',
+          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제2항은 성희롱 피해를 주장한 근로자에 대한 불이익 조치를 명시적으로 금지합니다</strong></p>\n<p>성희롱 신고 후 <strong>전보, 평가 불이익, 따돌림, 해고</strong> 등이 발생하면 이는 <strong>2차 피해</strong>에 해당할 소지가 있습니다. 이러한 조치가 있었다면 날짜와 내용을 즉시 기록하고, 고용노동부에 추가 진정하세요.</p>\n<p>사업주가 피해자에게 불리한 조치를 하면 <strong>3년 이하의 징역 또는 3천만원 이하의 벌금</strong>에 처해질 수 있습니다(남녀고용평등법 제37조 제2항). 불리한 조치가 성희롱과 무관하다는 증명 책임은 <strong>사업주에게</strong> 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보복 대비: 불이익 발생 시 즉시 기록 → 고용노동부 추가 진정 → 증명 책임은 사업주</blockquote>',
       },
     ],
     cases: [
@@ -52,7 +52,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
         summary:
           '대법원 2021다219529 사건(2021.09.16 선고)에서 법원은 동료 근로자들이 여성 근로자를 성적 대상으로 한 발언을 유포한 행위가 남녀고용평등법상 직장 내 성희롱에 해당하며, 간접적인 방법(다른 사람을 통한 전파)으로 성적 굴욕감을 느끼게 하는 환경 조성도 성적 언동에 포함된다고 판시했습니다.',
         takeaway:
-          '직접 대면하지 않은 간접적 성희롱도 위법합니다. 동료 간 성적 소문 유포도 회사의 사용자책임이 인정되므로, 피해 사실을 적극적으로 기록하고 회사에 조치를 요구하세요.',
+          '직접 대면하지 않은 간접적 성희롱도 위법 소지가 있습니다. 동료 간 성적 소문 유포도 회사의 사용자책임이 인정되므로, 피해 사실을 적극적으로 기록하고 회사에 조치를 요구하세요.',
       },
     ],
     faq: [
@@ -113,7 +113,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
       {
         title: '둘째, 사내 조사 시 진술권과 방어권을 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">혐의를 받는 사람도 충분한 소명 기회와 방어권이 보장되어야 합니다</strong></p>\n<p>조사 시 <strong>구체적인 혐의 내용을 서면으로 요청</strong>하세요. "어떤 행위가 문제인지" 정확히 알아야 방어할 수 있습니다. 구체적 혐의 없이 포괄적 질문만 받는 경우 "혐의 내용을 특정해달라"고 요청할 권리가 있습니다.</p>\n<p>진술 내용은 <strong>조사 기록에 서명하기 전에 반드시 확인</strong>하세요. 본인이 말한 내용과 다르게 기재된 부분이 있다면 수정을 요구하세요. 조사위원의 유도 질문에 "예/아니오"로만 답하지 말고 <strong>맥락을 함께 설명</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">방어 핵심: 혐의 서면 확인 → 충분한 소명 → 조사 기록 서명 전 확인</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">내 성희롱 혐의 상황 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">혐의를 받는 사람도 충분한 소명 기회와 방어권이 보장되어야 합니다</strong></p>\n<p>조사 시 <strong>구체적인 혐의 내용을 서면으로 요청</strong>하세요. "어떤 행위가 문제인지" 정확히 알아야 방어할 수 있습니다. 구체적 혐의 없이 포괄적 질문만 받는 경우 "혐의 내용을 특정해달라"고 요청할 권리가 있습니다.</p>\n<p>진술 내용은 <strong>조사 기록에 서명하기 전에 가능한 한 확인</strong>하세요. 본인이 말한 내용과 다르게 기재된 부분이 있다면 수정을 요구하세요. 조사위원의 유도 질문에 "예/아니오"로만 답하지 말고 <strong>맥락을 함께 설명</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">방어 핵심: 혐의 서면 확인 → 충분한 소명 → 조사 기록 서명 전 확인</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">내 성희롱 혐의 상황 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 징계위원회 절차에서 방어권을 행사하세요',
@@ -146,7 +146,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
       },
       {
         question: '징계 수위가 너무 높은데 불복할 수 있나요?',
-        answer: '징계 양정이 해당 행위에 비해 <strong>현저히 과중하면 부당징계</strong>에 해당합니다. 징계 통보를 받은 날부터 3개월 이내에 노동위원회에 구제 신청을 하면 징계의 적정성을 심사받을 수 있습니다.',
+        answer: '징계 양정이 해당 행위에 비해 <strong>현저히 과중하면 부당징계</strong>에 해당할 소지가 있습니다. 징계 통보를 받은 날부터 3개월 이내에 노동위원회에 구제 신청을 하면 징계의 적정성을 심사받을 수 있습니다.',
       },
       {
         question: '사내 조사 중에 피해자와 합의할 수 있나요?',
@@ -218,7 +218,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
     faq: [
       {
         question: '성희롱 징계 기준은 법률에 명시되어 있나요?',
-        answer: '남녀고용평등법은 <strong>사업주의 조치 의무만 규정</strong>하고 구체적 징계 양정은 각 회사의 취업규칙에 위임합니다. 공무원은 징계업무 처리 지침에 양정 기준이 있습니다. 따라서 본인 회사의 취업규칙 징계 양정표를 반드시 확인하세요.',
+        answer: '남녀고용평등법은 <strong>사업주의 조치 의무만 규정</strong>하고 구체적 징계 양정은 각 회사의 취업규칙에 위임합니다. 공무원은 징계업무 처리 지침에 양정 기준이 있습니다. 따라서 본인 회사의 취업규칙 징계 양정표를 가능한 한 확인하세요.',
       },
       {
         question: '초범인데도 해고될 수 있나요?',
@@ -309,7 +309,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
       },
       {
         question: '지급명령에 상대방이 이의하면 인지대를 추가로 내야 하나요?',
-        answer: '네, 소송으로 이행되면 <strong>소송 인지대에서 이미 납부한 지급명령 인지대를 뺀 차액</strong>을 보정해야 합니다. 기한 내에 보정하지 않으면 지급명령신청서가 각하되므로 반드시 기한을 지키세요.',
+        answer: '네, 소송으로 이행되면 <strong>소송 인지대에서 이미 납부한 지급명령 인지대를 뺀 차액</strong>을 보정해야 합니다. 기한 내에 보정하지 않으면 지급명령신청서가 각하되므로 가능한 한 기한을 지키세요.',
       },
       {
         question: '소액소송에서 변호사 없이 직접 할 수 있나요?',
@@ -355,12 +355,12 @@ export const spokesBatch20_15to21: SpokePage[] = [
       {
         title: '서류별 준비 요령과 흔한 실수',
         content:
-          '<p><strong style="color:#1e3a5f">서류 준비 시 가장 흔한 실수는 부본 누락과 증거 원본·사본 혼동입니다</strong></p>\n<p><strong>소장 부본 누락</strong>: 피고가 2명이면 소장 원본 1부 + 부본 2부 = 총 3부입니다. 부본이 부족하면 보정 명령이 나옵니다.</p>\n<p><strong>증거 서류는 사본으로 제출</strong>하되, 원본은 반드시 보관하세요. 법원이 원본 대조를 요구하면 변론기일에 가지고 가야 합니다.</p>\n<p><strong>인지대 계산 오류</strong>: 전자소송(ecourt.go.kr)으로 제출하면 인지대가 자동 계산되어 편리합니다. 종이 소장은 수입인지를 구매하여 소장에 첨부하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">실수 방지: 부본 수 확인 / 증거는 사본 제출·원본 보관 / 전자소송으로 인지대 자동 계산</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/small-claims" style="color:#1565c0;font-weight:600">내 소액소송 준비 상황 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">서류 준비 시 가장 흔한 실수는 부본 누락과 증거 원본·사본 혼동입니다</strong></p>\n<p><strong>소장 부본 누락</strong>: 피고가 2명이면 소장 원본 1부 + 부본 2부 = 총 3부입니다. 부본이 부족하면 보정 명령이 나옵니다.</p>\n<p><strong>증거 서류는 사본으로 제출</strong>하되, 원본은 가능한 한 보관하세요. 법원이 원본 대조를 요구하면 변론기일에 가지고 가야 합니다.</p>\n<p><strong>인지대 계산 오류</strong>: 전자소송(ecourt.go.kr)으로 제출하면 인지대가 자동 계산되어 편리합니다. 종이 소장은 수입인지를 구매하여 소장에 첨부하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">실수 방지: 부본 수 확인 / 증거는 사본 제출·원본 보관 / 전자소송으로 인지대 자동 계산</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/small-claims" style="color:#1565c0;font-weight:600">내 소액소송 준비 상황 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '차용증이 없을 때 대체할 수 있는 증거 목록',
         content:
-          '<p><strong style="color:#1e3a5f">차용증이 없어도 소송이 불가능한 것은 아닙니다 — 간접 증거를 최대한 모으세요</strong></p>\n<ul>\n<li><strong>계좌이체 내역</strong>: 돈이 오간 사실 자체를 증명하는 가장 강력한 증거</li>\n<li><strong>카카오톡·문자 대화</strong>: "돈 빌려줘", "다음 달에 갚을게" 등의 대화가 차용증을 대신</li>\n<li><strong>녹음 파일</strong>: 상대방이 채무를 인정한 대화를 녹음(1인 녹음은 적법)</li>\n<li><strong>증인 진술서</strong>: 돈을 빌려줄 때 동석한 제3자의 서면 진술</li>\n<li><strong>독촉 이메일·내용증명</strong>: 변제를 요구한 사실과 상대방의 반응</li>\n</ul>\n<p>이 중 <strong>계좌이체 내역 + 대화 캡처</strong> 조합이 가장 강력합니다. 계좌이체만으로는 "선물이었다"고 반박당할 수 있으므로, 반드시 대여 의사가 드러나는 대화를 함께 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">차용증 없을 때: 이체내역 + 대화캡처 + 녹음 + 증인 → 복합 증거로 입증</blockquote>',
+          '<p><strong style="color:#1e3a5f">차용증이 없어도 소송이 불가능한 것은 아닙니다 — 간접 증거를 최대한 모으세요</strong></p>\n<ul>\n<li><strong>계좌이체 내역</strong>: 돈이 오간 사실 자체를 증명하는 가장 강력한 증거</li>\n<li><strong>카카오톡·문자 대화</strong>: "돈 빌려줘", "다음 달에 갚을게" 등의 대화가 차용증을 대신</li>\n<li><strong>녹음 파일</strong>: 상대방이 채무를 인정한 대화를 녹음(1인 녹음은 적법)</li>\n<li><strong>증인 진술서</strong>: 돈을 빌려줄 때 동석한 제3자의 서면 진술</li>\n<li><strong>독촉 이메일·내용증명</strong>: 변제를 요구한 사실과 상대방의 반응</li>\n</ul>\n<p>이 중 <strong>계좌이체 내역 + 대화 캡처</strong> 조합이 가장 강력합니다. 계좌이체만으로는 "선물이었다"고 반박당할 수 있으므로, 가능한 한 대여 의사가 드러나는 대화를 함께 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">차용증 없을 때: 이체내역 + 대화캡처 + 녹음 + 증인 → 복합 증거로 입증</blockquote>',
       },
     ],
     cases: [
@@ -435,7 +435,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
       {
         title: '보정 명령을 받았을 때 대응 방법',
         content:
-          '<p><strong style="color:#1e3a5f">보정 명령 기한(보통 7~14일)을 반드시 지키세요 — 기한 도과 시 소장이 각하됩니다</strong></p>\n<p>보정 명령서에는 <strong>무엇을 보정해야 하는지</strong> 구체적으로 기재되어 있습니다. "청구 원인을 특정하라", "인지를 보정하라", "피고 주소를 보정하라" 등 사유별로 대응하세요.</p>\n<p>보정서는 <strong>"○○법원 ○○ 사건의 보정 명령에 따라 다음과 같이 보정합니다"</strong>로 시작하여, 누락·오류 부분을 수정한 내용을 기재합니다. 전자소송이면 온라인으로, 종이 소장이면 법원에 직접 접수하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보정 대응: 기한 확인 → 보정 사유 파악 → 보정서 작성·제출 → 접수 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">보정 명령 기한(보통 7~14일)을 가능한 한 지키세요 — 기한 도과 시 소장이 각하됩니다</strong></p>\n<p>보정 명령서에는 <strong>무엇을 보정해야 하는지</strong> 구체적으로 기재되어 있습니다. "청구 원인을 특정하라", "인지를 보정하라", "피고 주소를 보정하라" 등 사유별로 대응하세요.</p>\n<p>보정서는 <strong>"○○법원 ○○ 사건의 보정 명령에 따라 다음과 같이 보정합니다"</strong>로 시작하여, 누락·오류 부분을 수정한 내용을 기재합니다. 전자소송이면 온라인으로, 종이 소장이면 법원에 직접 접수하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">보정 대응: 기한 확인 → 보정 사유 파악 → 보정서 작성·제출 → 접수 확인</blockquote>',
       },
     ],
     cases: [
@@ -525,7 +525,7 @@ export const spokesBatch20_15to21: SpokePage[] = [
     faq: [
       {
         question: '돈을 안 갚으면 사기죄로 고소할 수 있나요?',
-        answer: '단순히 돈을 빌려가고 안 갚는 것만으로는 <strong>사기죄가 성립하지 않습니다</strong>. 사기죄는 "처음부터 갚을 의사나 능력 없이 빌린 경우"에 성립합니다. 빌릴 당시 변제 의사가 있었다면 민사 문제이므로 소액소송이나 지급명령으로 해결해야 합니다.',
+        answer: '단순히 돈을 빌려가고 안 갚는 것만으로는 <strong>사기죄가 성립하지 않습니다</strong>. 사기죄는 "처음부터 갚을 의사나 능력 없이 빌린 경우"에 성립할 수 있습니다. 빌릴 당시 변제 의사가 있었다면 민사 문제이므로 소액소송이나 지급명령으로 해결해야 합니다.',
       },
       {
         question: '상대방에게 재산이 없으면 어떻게 하나요?',

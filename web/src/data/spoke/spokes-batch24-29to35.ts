@@ -77,7 +77,7 @@ export const spokesBatch24_29to35: SpokePage[] = [
           '가능합니다. 개인회생 변제계획 이행 중 소득이 급감하거나 질병 등으로 변제를 계속할 수 없게 되면 법원에 폐지를 신청한 뒤 파산·면책을 별도로 신청할 수 있습니다. 다만 절차가 처음부터 다시 시작되므로 시간과 비용이 추가됩니다.',
       },
       {
-        question: '자동차가 있는데 파산하면 반드시 압류되나요?',
+        question: '자동차가 있는데 파산하면 가능한 한 압류되나요?',
         answer:
           '파산 시 자동차는 원칙적으로 환가 대상이지만, 차량 가액이 낮거나(보통 500만 원 이하) 생계에 필수적인 경우 자유재산으로 인정받을 수 있습니다. 법원에 자유재산 확장 신청을 하면 검토 후 결정합니다.',
       },
@@ -160,7 +160,7 @@ export const spokesBatch24_29to35: SpokePage[] = [
       {
         question: '목격자가 나중에 진술을 번복하면 어떻게 되나요?',
         answer:
-          '목격자 진술은 서면으로 받아두는 것이 좋습니다. 사실확인서에 서명·날인을 받아두면 나중에 번복하더라도 초기 진술의 증거력이 인정됩니다. 가능하면 진술 과정을 녹음(상대방 동의 불요)해두면 더 확실합니다.',
+          '목격자 진술은 서면으로 받아두는 것이 좋습니다. 사실확인서에 서명·날인을 받아두면 나중에 번복하더라도 초기 진술의 증거력이 인정될 수 있습니다. 가능하면 진술 과정을 녹음(상대방 동의 불요)해두면 더 확실합니다.',
       },
       {
         question: '상대방 블랙박스 영상 제출을 강제할 수 있나요?',
@@ -229,7 +229,7 @@ export const spokesBatch24_29to35: SpokePage[] = [
       {
         title: '3단계 — 잠정조치가 유지되는 동안 추가 보호 방법을 준비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">잠정조치만으로 끝이 아니라, 고소·피해자 보호명령·안전조치를 병행해야 실질적 보호가 됩니다</strong></p>\n<ul>\n<li><strong>고소장 제출</strong> — 경찰 신고와 별도로 고소장을 작성해 제출하세요. 스토킹범죄는 반의사불벌죄가 아니므로 처벌을 원한다는 의사를 명확히 해야 수사가 적극적으로 진행됩니다</li>\n<li><strong>피해자 보호명령</strong> — 법원에 별도로 피해자 보호명령을 신청할 수 있습니다. 접근·연락 금지, 주거지 퇴거 등을 명할 수 있으며 최대 6개월(연장 가능)간 효력이 유지됩니다</li>\n<li><strong>스마트워치 등 안전장비</strong> — 관할 경찰서 여성청소년수사팀에 요청하면 위치추적 스마트워치 등 안전장비를 대여받을 수 있습니다</li>\n<li><strong>주거지 보안 강화</strong> — 현관 비밀번호 변경, 보안카메라 설치, 1인 가구 무료 잠금장치 지원사업(지자체별) 등을 활용하세요</li>\n<li><strong>위반 시 대응</strong> — 가해자가 잠정조치를 위반하면 즉시 112에 신고하세요. 위반 자체가 별도 범죄(2년 이하 징역 또는 2천만 원 이하 벌금)로 처벌됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">잠정조치 + 고소 + 보호명령 = 3중 보호 체계로 실질적 안전 확보</blockquote>',
+          '<p><strong style="color:#1e3a5f">잠정조치만으로 끝이 아니라, 고소·피해자 보호명령·안전조치를 병행해야 실질적 보호가 됩니다</strong></p>\n<ul>\n<li><strong>고소장 제출</strong> — 경찰 신고와 별도로 고소장을 작성해 제출하세요. 스토킹범죄는 반의사불벌죄가 아니므로 처벌을 원한다는 의사를 명확히 해야 수사가 적극적으로 진행됩니다</li>\n<li><strong>피해자 보호명령</strong> — 법원에 별도로 피해자 보호명령을 신청할 수 있습니다. 접근·연락 금지, 주거지 퇴거 등을 명할 수 있으며 최대 6개월(연장 가능)간 효력이 유지됩니다</li>\n<li><strong>스마트워치 등 안전장비</strong> — 관할 경찰서 여성청소년수사팀에 요청하면 위치추적 스마트워치 등 안전장비를 대여받을 수 있습니다</li>\n<li><strong>주거지 보안 강화</strong> — 현관 비밀번호 변경, 보안카메라 설치, 1인 가구 무료 잠금장치 지원사업(지자체별) 등을 활용하세요</li>\n<li><strong>위반 시 대응</strong> — 가해자가 잠정조치를 위반하면 즉시 112에 신고하세요. 위반 자체가 별도 범죄(2년 이하 징역 또는 2천만 원 이하 벌금)로 처벌 대상으로 검토될 수 있습니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">잠정조치 + 고소 + 보호명령 = 3중 보호 체계로 실질적 안전 확보</blockquote>',
       },
     ],
     cases: [
@@ -255,7 +255,7 @@ export const spokesBatch24_29to35: SpokePage[] = [
       {
         question: '가해자가 잠정조치를 위반하면 바로 체포되나요?',
         answer:
-          '잠정조치 위반 시 2년 이하 징역 또는 2천만 원 이하 벌금으로 처벌됩니다. 위반 현장에서 현행범 체포가 가능하며, 112에 즉시 신고하면 됩니다. 위반 사실을 입증할 수 있도록 녹화·캡처 등 증거를 확보해두세요.',
+          '잠정조치 위반 시 2년 이하 징역 또는 2천만 원 이하 벌금으로 처벌 대상으로 검토될 수 있습니다. 위반 현장에서 현행범 체포가 가능하며, 112에 즉시 신고하면 됩니다. 위반 사실을 입증할 수 있도록 녹화·캡처 등 증거를 확보해두세요.',
       },
       {
         question: '스토킹 피해자 무료 법률 지원을 받을 수 있나요?',
@@ -303,12 +303,12 @@ export const spokesBatch24_29to35: SpokePage[] = [
       {
         title: '1단계 — 스토킹죄 성립 요건과 증거를 먼저 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">차단 후에도 반복적으로 연락하는 행위는 스토킹처벌법상 스토킹행위에 해당합니다</strong></p>\n<ul>\n<li><strong>스토킹행위 요건</strong> — ①상대방의 의사에 반하여, ②정당한 이유 없이, ③반복적으로 접근·연락하는 행위입니다. "차단"이라는 행위 자체가 "연락을 원하지 않는다"는 의사 표시로 인정됩니다</li>\n<li><strong>처벌 수위</strong> — 스토킹범죄(반복적 스토킹행위)는 3년 이하 징역 또는 3천만 원 이하 벌금에 처합니다. 흉기 등 위험한 물건을 휴대하면 5년 이하 징역 또는 5천만 원 이하 벌금입니다</li>\n<li><strong>핵심 증거</strong> — ①차단 기록(전화·SNS 차단 캡처), ②차단 후 새 번호·계정으로 온 연락 캡처, ③"연락하지 마세요"라고 명시적으로 거부한 메시지, ④반복 횟수와 기간을 보여주는 기록을 확보하세요</li>\n<li><strong>거부 의사 남기기</strong> — 아직 명확한 거부 메시지를 보내지 않았다면 "더 이상 연락하지 마세요. 연락을 계속하면 법적 조치를 하겠습니다"라는 메시지를 한 번 보내고 캡처해두세요. 이것이 "의사에 반한다"는 증거가 됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">차단 기록 + 차단 후 연락 캡처 + 거부 메시지 = 스토킹 입증 3대 증거</blockquote>',
+          '<p><strong style="color:#1e3a5f">차단 후에도 반복적으로 연락하는 행위는 스토킹처벌법상 스토킹행위에 해당할 소지가 있습니다</strong></p>\n<ul>\n<li><strong>스토킹행위 요건</strong> — ①상대방의 의사에 반하여, ②정당한 이유 없이, ③반복적으로 접근·연락하는 행위입니다. "차단"이라는 행위 자체가 "연락을 원하지 않는다"는 의사 표시로 인정될 수 있습니다</li>\n<li><strong>처벌 수위</strong> — 스토킹범죄(반복적 스토킹행위)는 3년 이하 징역 또는 3천만 원 이하 벌금에 처합니다. 흉기 등 위험한 물건을 휴대하면 5년 이하 징역 또는 5천만 원 이하 벌금입니다</li>\n<li><strong>핵심 증거</strong> — ①차단 기록(전화·SNS 차단 캡처), ②차단 후 새 번호·계정으로 온 연락 캡처, ③"연락하지 마세요"라고 명시적으로 거부한 메시지, ④반복 횟수와 기간을 보여주는 기록을 확보하세요</li>\n<li><strong>거부 의사 남기기</strong> — 아직 명확한 거부 메시지를 보내지 않았다면 "더 이상 연락하지 마세요. 연락을 계속하면 법적 조치를 하겠습니다"라는 메시지를 한 번 보내고 캡처해두세요. 이것이 "의사에 반한다"는 증거가 됩니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">차단 기록 + 차단 후 연락 캡처 + 거부 메시지 = 스토킹 입증 3대 증거</blockquote>',
       },
       {
         title: '2단계 — 112 신고와 경찰 조치를 요청하세요',
         content:
-          '<p><strong style="color:#1e3a5f">스토킹 행위가 확인되면 112 신고로 즉시 긴급응급조치를 받을 수 있습니다</strong></p>\n<ul>\n<li><strong>112 신고</strong> — "전 연인이 차단했는데도 반복적으로 연락을 해서 스토킹 피해를 받고 있습니다"라고 구체적으로 말하세요. 경찰은 즉시 긴급응급조치(접근 금지, 연락 금지)를 실시할 수 있습니다</li>\n<li><strong>고소장 제출</strong> — 경찰서 여성청소년수사팀에 고소장을 제출하세요. 증거(캡처, 녹음 파일)를 함께 제출하면 수사가 빠르게 진행됩니다</li>\n<li><strong>잠정조치 청구</strong> — 신고 후 48시간 이내에 검사가 법원에 잠정조치(접근 금지, 연락 금지, 유치 등)를 청구합니다. 법원 결정이 나면 가해자에게 공식 고지됩니다</li>\n<li><strong>위반 시 처벌</strong> — 잠정조치를 위반하면 2년 이하 징역 또는 2천만 원 이하 벌금으로 별도 처벌됩니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 전 연인 스토킹 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=stalking" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">스토킹 행위가 확인되면 112 신고로 즉시 긴급응급조치를 받을 수 있습니다</strong></p>\n<ul>\n<li><strong>112 신고</strong> — "전 연인이 차단했는데도 반복적으로 연락을 해서 스토킹 피해를 받고 있습니다"라고 구체적으로 말하세요. 경찰은 즉시 긴급응급조치(접근 금지, 연락 금지)를 실시할 수 있습니다</li>\n<li><strong>고소장 제출</strong> — 경찰서 여성청소년수사팀에 고소장을 제출하세요. 증거(캡처, 녹음 파일)를 함께 제출하면 수사가 빠르게 진행됩니다</li>\n<li><strong>잠정조치 청구</strong> — 신고 후 48시간 이내에 검사가 법원에 잠정조치(접근 금지, 연락 금지, 유치 등)를 청구합니다. 법원 결정이 나면 가해자에게 공식 고지됩니다</li>\n<li><strong>위반 시 처벌</strong> — 잠정조치를 위반하면 2년 이하 징역 또는 2천만 원 이하 벌금으로 별도 처벌 대상으로 검토될 수 있습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 전 연인 스토킹 상황에 맞는 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=stalking" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '3단계 — 보호명령 신청과 장기적 안전 대책을 마련하세요',
@@ -481,7 +481,7 @@ export const spokesBatch24_29to35: SpokePage[] = [
       {
         title: '3단계 — 수사·재판 단계별 대응 전략을 준비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">측정 거부 사건도 감경 사유를 확보하면 벌금형이나 집행유예를 받을 수 있습니다</strong></p>\n<ul>\n<li><strong>경찰 조사 대응</strong> — 측정 거부 경위, 음주량, 운전 경로 등을 질문받습니다. 진술거부권을 행사할 수 있지만, 반성의 태도를 보여주세요. 변호인 입회를 반드시 요청하세요</li>\n<li><strong>감경 자료 준비</strong> — ①초범 여부, ②사고 미발생, ③알코올 치료 프로그램 수강 증명, ④반성문·탄원서, ⑤안정적 직업·부양가족 자료를 준비하세요. 특히 알코올 치료 수강은 법원에서 가장 실질적인 감경 요소로 평가됩니다</li>\n<li><strong>양형 기준</strong> — 측정 거부 초범이면서 사고가 없는 경우 벌금형(500만~1,000만 원)으로 끝나는 경우도 있습니다. 반면 2회 이상이거나 사고를 동반하면 실형 가능성이 높아집니다</li>\n<li><strong>면허 회복</strong> — 면허 취소 후 결격 기간(최소 2년) 경과 시 운전면허시험에 재응시할 수 있습니다. 행정심판을 통해 취소 처분을 다투는 것도 검토해보세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">변호인 확보 → 절차 위법 여부 검토 → 감경 자료(치료 수강) 확보 → 양형 대응</blockquote>',
+          '<p><strong style="color:#1e3a5f">측정 거부 사건도 감경 사유를 확보하면 벌금형이나 집행유예를 받을 수 있습니다</strong></p>\n<ul>\n<li><strong>경찰 조사 대응</strong> — 측정 거부 경위, 음주량, 운전 경로 등을 질문받습니다. 진술거부권을 행사할 수 있지만, 반성의 태도를 보여주세요. 변호인 입회를 가능한 한 요청하세요</li>\n<li><strong>감경 자료 준비</strong> — ①초범 여부, ②사고 미발생, ③알코올 치료 프로그램 수강 증명, ④반성문·탄원서, ⑤안정적 직업·부양가족 자료를 준비하세요. 특히 알코올 치료 수강은 법원에서 가장 실질적인 감경 요소로 평가됩니다</li>\n<li><strong>양형 기준</strong> — 측정 거부 초범이면서 사고가 없는 경우 벌금형(500만~1,000만 원)으로 끝나는 경우도 있습니다. 반면 2회 이상이거나 사고를 동반하면 실형 가능성이 높아집니다</li>\n<li><strong>면허 회복</strong> — 면허 취소 후 결격 기간(최소 2년) 경과 시 운전면허시험에 재응시할 수 있습니다. 행정심판을 통해 취소 처분을 다투는 것도 검토해보세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">변호인 확보 → 절차 위법 여부 검토 → 감경 자료(치료 수강) 확보 → 양형 대응</blockquote>',
       },
     ],
     cases: [

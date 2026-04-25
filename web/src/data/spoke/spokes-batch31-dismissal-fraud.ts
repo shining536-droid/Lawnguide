@@ -25,12 +25,12 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         title: '프리랜서와 근로자, 실질로 판단하는 5가지 기준',
         content:
-          '<p><strong style="color:#1e3a5f">계약서 형식이 아니라 일하는 방식의 실질로 근로자성을 판단합니다.</strong></p>\n<ol>\n<li><strong>업무 지시·감독 여부</strong> — 업무 내용을 사용자가 정하고, 수행 과정에서 상당한 지휘·감독이 있다면 근로자에 가깝습니다. 단순 결과물 납품과는 다릅니다.</li>\n<li><strong>근무시간·장소 구속</strong> — 출퇴근 시간이 정해져 있고, 지정된 장소에서 일해야 한다면 종속적 관계의 징표입니다.</li>\n<li><strong>보수의 성격</strong> — 기본급·고정급이 있으면 근로 대가성이 인정됩니다. 실적에 따른 수수료만 받는다면 도급에 가깝습니다.</li>\n<li><strong>대체 근로 가능 여부</strong> — 본인이 직접 일해야 하고 제3자를 대신 투입할 수 없다면 근로자성이 강화됩니다.</li>\n<li><strong>전속성과 계속성</strong> — 다른 회사 일을 자유롭게 할 수 없고, 장기간 계속 근무했다면 근로자로 인정될 가능성이 높습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대법원은 "전체적으로 보아 임금을 목적으로 종속적 관계에서 근로를 제공했다면, 일부 징표가 결여되어도 근로자"라고 판시합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">계약서 형식이 아니라 일하는 방식의 실질로 근로자성을 판단합니다.</strong></p>\n<ol>\n<li><strong>업무 지시·감독 여부</strong> — 업무 내용을 사용자가 정하고, 수행 과정에서 상당한 지휘·감독이 있다면 근로자에 가깝습니다. 단순 결과물 납품과는 다릅니다.</li>\n<li><strong>근무시간·장소 구속</strong> — 출퇴근 시간이 정해져 있고, 지정된 장소에서 일해야 한다면 종속적 관계의 징표입니다.</li>\n<li><strong>보수의 성격</strong> — 기본급·고정급이 있으면 근로 대가성이 인정될 수 있습니다. 실적에 따른 수수료만 받는다면 도급에 가깝습니다.</li>\n<li><strong>대체 근로 가능 여부</strong> — 본인이 직접 일해야 하고 제3자를 대신 투입할 수 없다면 근로자성이 강화됩니다.</li>\n<li><strong>전속성과 계속성</strong> — 다른 회사 일을 자유롭게 할 수 없고, 장기간 계속 근무했다면 근로자로 인정될 가능성이 높습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대법원은 "전체적으로 보아 임금을 목적으로 종속적 관계에서 근로를 제공했다면, 일부 징표가 결여되어도 근로자"라고 판시합니다.</blockquote>',
       },
       {
         title: '프리랜서도 부당해고 구제를 신청할 수 있는 경우',
         content:
-          '<p><strong style="color:#1e3a5f">근로자성이 인정되면 해고예고, 서면통지, 정당한 사유 등 모든 해고 보호를 받습니다.</strong></p>\n<ul>\n<li><strong>계약 해지 = 해고</strong> — 실질적 근로자에 대한 일방적 계약 종료는 해고에 해당합니다. 서면 통지 없이 해고하면 그 자체로 부당합니다.</li>\n<li><strong>영업양도 시 승계</strong> — 사업이 양도되면 근로관계는 양수인에게 포괄 승계됩니다. 양도를 이유로 한 해고는 정당한 사유가 아닙니다.</li>\n<li><strong>협동조합 조합원도 해당</strong> — 협동조합 조합원이라도 실질적으로 종속적 관계에서 근로를 제공했다면 근로자로 인정될 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>프리랜서 계약인데 해고당했다면, AI가 근로자성을 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">근무 형태를 입력하면 부당해고 구제 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">근로자성이 인정되면 해고예고, 서면통지, 정당한 사유 등 모든 해고 보호를 받습니다.</strong></p>\n<ul>\n<li><strong>계약 해지 = 해고</strong> — 실질적 근로자에 대한 일방적 계약 종료는 해고에 해당할 소지가 있습니다. 서면 통지 없이 해고하면 그 자체로 부당합니다.</li>\n<li><strong>영업양도 시 승계</strong> — 사업이 양도되면 근로관계는 양수인에게 포괄 승계됩니다. 양도를 이유로 한 해고는 정당한 사유가 아닙니다.</li>\n<li><strong>협동조합 조합원도 해당</strong> — 협동조합 조합원이라도 실질적으로 종속적 관계에서 근로를 제공했다면 근로자로 인정될 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>프리랜서 계약인데 해고당했다면, AI가 근로자성을 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">근무 형태를 입력하면 부당해고 구제 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '근로자성 입증을 위한 증거 확보 방법',
@@ -51,7 +51,7 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         question: '3.3% 사업소득세를 원천징수 당하면 근로자가 아닌 건가요?',
         answer:
-          '<p>아닙니다. 근로소득세 대신 사업소득세를 원천징수했더라도, 실질적으로 종속적 관계에서 근로를 제공했다면 근로자로 인정됩니다. 세금 처리 방식은 판단 요소 중 하나일 뿐 결정적이지 않습니다.</p>',
+          '<p>아닙니다. 근로소득세 대신 사업소득세를 원천징수했더라도, 실질적으로 종속적 관계에서 근로를 제공했다면 근로자로 인정될 수 있습니다. 세금 처리 방식은 판단 요소 중 하나일 뿐 결정적이지 않습니다.</p>',
       },
       {
         question: '프리랜서 계약서에 "근로관계 아님"이라고 써 있으면 불리한가요?',
@@ -61,7 +61,7 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         question: '프리랜서인데 4대 보험 미가입이면 구제신청이 안 되나요?',
         answer:
-          '<p>4대 보험 미가입은 근로자성 부정의 결정적 사유가 아닙니다. 다른 종속적 관계의 징표가 충분하면 근로자로 인정됩니다.</p>',
+          '<p>4대 보험 미가입은 근로자성 부정의 결정적 사유가 아닙니다. 다른 종속적 관계의 징표가 충분하면 근로자로 인정될 수 있습니다.</p>',
       },
       {
         question: '프리랜서로 1년 이상 일했는데 퇴직금도 받을 수 있나요?',
@@ -145,7 +145,7 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         question: '정년 후 촉탁직 전환을 거부당했는데 구제할 수 있나요?',
         answer:
-          '<p>단체협약이나 취업규칙에 촉탁직 전환 규정이 있다면 이행을 요구할 수 있습니다. 규정이 없으면 재고용은 사용자의 재량에 해당합니다.</p>',
+          '<p>단체협약이나 취업규칙에 촉탁직 전환 규정이 있다면 이행을 요구할 수 있습니다. 규정이 없으면 재고용은 사용자의 재량에 해당할 소지가 있습니다.</p>',
       },
     ],
     cta: { text: '정년 후 구제 가능성 AI로 확인하기', link: '/chat?domain=dismissal' },
@@ -183,7 +183,7 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         title: '사무실 미제공이 부당노동행위가 되는 경우',
         content:
-          '<p><strong style="color:#1e3a5f">사무실 제공 거부에 지배·개입 의사가 인정되면 부당노동행위에 해당합니다.</strong></p>\n<ol>\n<li><strong>지배·개입 의사</strong> — 노조 활동을 약화시키려는 의도로 사무실 제공을 거부하면 노동조합법 제81조 제4호의 부당노동행위에 해당합니다.</li>\n<li><strong>합리적 이유 부재</strong> — 사옥 이전·리모델링 등 합리적 사유 없이 장기간 사무실을 제공하지 않으면 부당노동행위 의사가 추정됩니다.</li>\n<li><strong>사후 제공이 면책 사유 아님</strong> — 뒤늦게 사무실을 제공했더라도, 그 전의 미제공 행위가 부당노동행위에 해당하지 않게 되는 것은 아닙니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>노조 사무실 퇴거 요구, 부당노동행위인지 AI가 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">단체협약 내용과 퇴거 경위를 입력하면 구제 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사무실 제공 거부에 지배·개입 의사가 인정되면 부당노동행위에 해당할 소지가 있습니다.</strong></p>\n<ol>\n<li><strong>지배·개입 의사</strong> — 노조 활동을 약화시키려는 의도로 사무실 제공을 거부하면 노동조합법 제81조 제4호의 부당노동행위에 해당할 소지가 있습니다.</li>\n<li><strong>합리적 이유 부재</strong> — 사옥 이전·리모델링 등 합리적 사유 없이 장기간 사무실을 제공하지 않으면 부당노동행위 의사가 추정됩니다.</li>\n<li><strong>사후 제공이 면책 사유 아님</strong> — 뒤늦게 사무실을 제공했더라도, 그 전의 미제공 행위가 부당노동행위에 해당하지 않게 되는 것은 아닙니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>노조 사무실 퇴거 요구, 부당노동행위인지 AI가 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">단체협약 내용과 퇴거 경위를 입력하면 구제 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '노조 사무실 퇴거 요구 시 대응 절차',
@@ -214,7 +214,7 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         question: '복수노조 상황에서 한 노조에만 사무실을 안 주면 어떻게 되나요?',
         answer:
-          '<p>합리적 이유 없이 특정 노조에만 사무실을 미제공하면 차별적 지배·개입으로 부당노동행위가 성립합니다.</p>',
+          '<p>합리적 이유 없이 특정 노조에만 사무실을 미제공하면 차별적 지배·개입으로 부당노동행위가 성립할 수 있습니다.</p>',
       },
       {
         question: '부당노동행위 구제신청 기간(3개월)이 지나면 방법이 없나요?',
@@ -341,7 +341,7 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         title: '구제신청 시 실무 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">구제신청서 작성 시 아래 사항을 빠짐없이 기재하세요.</strong></p>\n<ul>\n<li><strong>구체적 사실 기재</strong> — 구제신청서에 부당노동행위를 구성하는 구체적 사실(언제, 어떤 불이익을, 누구에게)을 상세히 기재하세요. 민사소송의 청구취지처럼 엄격할 필요는 없지만, 어떤 구제를 구하는지 알 수 있어야 합니다.</li>\n<li><strong>노조 활동 이력 정리</strong> — 노조 가입 시점, 활동 내역, 불이익 처분 시기를 시간순으로 정리하세요.</li>\n<li><strong>비교 대상 확보</strong> — 같은 직급·경력의 비조합원 인사고과와 비교하면 차별을 입증하기 쉽습니다.</li>\n<li><strong>기간 도과 방지</strong> — 가장 최근의 불이익 행위(임금 지급일)로부터 3개월 이내에 반드시 신청하세요. 기간이 임박했다면 즉시 접수하고 보완서류는 나중에 제출할 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">구제신청서 작성 시 아래 사항을 빠짐없이 기재하세요.</strong></p>\n<ul>\n<li><strong>구체적 사실 기재</strong> — 구제신청서에 부당노동행위를 구성하는 구체적 사실(언제, 어떤 불이익을, 누구에게)을 상세히 기재하세요. 민사소송의 청구취지처럼 엄격할 필요는 없지만, 어떤 구제를 구하는지 알 수 있어야 합니다.</li>\n<li><strong>노조 활동 이력 정리</strong> — 노조 가입 시점, 활동 내역, 불이익 처분 시기를 시간순으로 정리하세요.</li>\n<li><strong>비교 대상 확보</strong> — 같은 직급·경력의 비조합원 인사고과와 비교하면 차별을 입증하기 쉽습니다.</li>\n<li><strong>기간 도과 방지</strong> — 가장 최근의 불이익 행위(임금 지급일)로부터 3개월 이내에 가능한 한 신청하세요. 기간이 임박했다면 즉시 접수하고 보완서류는 나중에 제출할 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -410,7 +410,7 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         title: '범죄단체 구성·가입죄 성립 요건',
         content:
-          '<p><strong style="color:#1e3a5f">범죄단체 가입·활동은 단순 사기 방조보다 훨씬 무거운 처벌을 받습니다.</strong></p>\n<ul>\n<li><strong>범죄단체의 정의</strong> — 폭력행위 등 처벌에 관한 법률 제4조에 규정된 범죄행위를 목적으로 하는 단체입니다. 지휘체계, 역할 분담, 조직적 의사결정 구조가 있어야 합니다.</li>\n<li><strong>구성·가입 행위</strong> — 범죄단체를 만들거나 이에 가입하는 행위 자체가 범죄입니다. 실제 범죄를 실행하지 않아도 처벌됩니다.</li>\n<li><strong>구성원 활동</strong> — 범죄단체의 내부 규율과 통솔 체계에 따라 조직적·집단적 의사결정에 기초한 적극적 활동을 의미합니다.</li>\n<li><strong>포괄일죄</strong> — 구성·가입과 활동은 하나의 포괄일죄로 처리됩니다. 가입 후 활동까지 이어지면 하나의 죄로 묶입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 단순히 돈을 전달하거나 통장을 빌려준 것과, 조직에 "가입"하여 지휘체계 아래 활동한 것은 법적으로 완전히 다릅니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">범죄단체 가입·활동은 단순 사기 방조보다 훨씬 무거운 처벌을 받습니다.</strong></p>\n<ul>\n<li><strong>범죄단체의 정의</strong> — 폭력행위 등 처벌에 관한 법률 제4조에 규정된 범죄행위를 목적으로 하는 단체입니다. 지휘체계, 역할 분담, 조직적 의사결정 구조가 있어야 합니다.</li>\n<li><strong>구성·가입 행위</strong> — 범죄단체를 만들거나 이에 가입하는 행위 자체가 범죄입니다. 실제 범죄를 실행하지 않아도 처벌 대상으로 검토될 수 있습니다.</li>\n<li><strong>구성원 활동</strong> — 범죄단체의 내부 규율과 통솔 체계에 따라 조직적·집단적 의사결정에 기초한 적극적 활동을 의미합니다.</li>\n<li><strong>포괄일죄</strong> — 구성·가입과 활동은 하나의 포괄일죄로 처리됩니다. 가입 후 활동까지 이어지면 하나의 죄로 묶입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 단순히 돈을 전달하거나 통장을 빌려준 것과, 조직에 "가입"하여 지휘체계 아래 활동한 것은 법적으로 완전히 다릅니다.</blockquote>',
       },
       {
         title: '단순 가담과 범죄단체 가입의 차이점',
@@ -441,17 +441,17 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         question: '범죄단체 가입죄의 형량은 얼마나 되나요?',
         answer:
-          '<p>폭력행위 등 처벌에 관한 법률 제4조에 따라 범죄단체 구성원은 그 범죄단체를 이용한 범죄의 실행 여부와 무관하게 처벌됩니다. 형량은 사안에 따라 다르지만 중형이 선고될 수 있습니다.</p>',
+          '<p>폭력행위 등 처벌에 관한 법률 제4조에 따라 범죄단체 구성원은 그 범죄단체를 이용한 범죄의 실행 여부와 무관하게 처벌 대상으로 검토될 수 있습니다. 형량은 사안에 따라 다르지만 중형이 선고될 수 있습니다.</p>',
       },
       {
         question: '조직을 탈퇴하면 처벌을 피할 수 있나요?',
         answer:
-          '<p>탈퇴하더라도 가입·활동 기간의 행위에 대해서는 처벌됩니다. 다만 탈퇴 시점이 명확하면 공소시효 기산점과 양형에 영향을 줄 수 있습니다.</p>',
+          '<p>탈퇴하더라도 가입·활동 기간의 행위에 대해서는 처벌 대상으로 검토될 수 있습니다. 다만 탈퇴 시점이 명확하면 공소시효 기산점과 양형에 영향을 줄 수 있습니다.</p>',
       },
       {
         question: '단순 사기 방조와 범죄단체 활동의 형량 차이는 얼마나 되나요?',
         answer:
-          '<p>사기 방조는 정범의 형에서 감경되지만, 범죄단체 가입·활동은 독립된 중범죄로 가중처벌됩니다. 실형 여부와 형량에서 큰 차이가 납니다.</p>',
+          '<p>사기 방조는 정범의 형에서 감경되지만, 범죄단체 가입·활동은 독립된 중범죄로 가중처벌 대상으로 검토될 수 있습니다. 실형 여부와 형량에서 큰 차이가 납니다.</p>',
       },
     ],
     cta: { text: '범죄단체 가입 혐의 방어 전략 AI로 확인하기', link: '/chat?domain=fraud' },
@@ -594,7 +594,7 @@ export const spokesBatch31DismissalFraud: SpokePage[] = [
       {
         question: '집행유예를 받았다가 취소된 경우도 누범인가요?',
         answer:
-          '<p>집행유예가 취소되어 실형을 살았다면, 그 집행 종료 후 3년 내 재범 시 누범에 해당합니다. 집행유예 기간 중 재범하여 취소된 경우와 구분해야 합니다.</p>',
+          '<p>집행유예가 취소되어 실형을 살았다면, 그 집행 종료 후 3년 내 재범 시 누범에 해당할 소지가 있습니다. 집행유예 기간 중 재범하여 취소된 경우와 구분해야 합니다.</p>',
       },
       {
         question: '누범이 적용되면 집행유예가 절대 불가능한가요?',

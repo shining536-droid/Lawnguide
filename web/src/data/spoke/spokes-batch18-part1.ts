@@ -20,7 +20,7 @@ export const spokesBatch18Part1Pages: SpokePage[] = [
       title: '폭행 고소 대응 3단계 — 초기 진술부터 합의까지 | 로앤가이드',
       description: '폭행 혐의로 고소장을 받고 어디서부터 시작해야 할지 막막하다면, 경찰 출석 전 준비사항과 대응 절차를 확인하세요. 지금 확인하세요.',
     },
-    intro: '어제 경찰서에서 출석 요구서가 왔습니다. 상대방이 폭행으로 고소를 했다는 겁니다. 그날 일이 억울하기도 하고, 막상 경찰서에 가려니 무슨 말을 해야 할지 모르겠습니다. 혐의를 받고 있다면, 첫 진술 전에 반드시 확인해야 할 사항을 정리해보세요.',
+    intro: '어제 경찰서에서 출석 요구서가 왔습니다. 상대방이 폭행으로 고소를 했다는 겁니다. 그날 일이 억울하기도 하고, 막상 경찰서에 가려니 무슨 말을 해야 할지 모르겠습니다. 혐의를 받고 있다면, 첫 진술 전에 가능한 한 확인해야 할 사항을 정리해보세요.',
     sections: [
       {
         title: '첫째, 출석 전에 당일 상황을 시간순으로 정리하세요',
@@ -35,12 +35,12 @@ export const spokesBatch18Part1Pages: SpokePage[] = [
       {
         title: '셋째, 합의 가능성을 검토하고 반의사불벌 적용 여부를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">폭행죄는 반의사불벌죄로, 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다</strong></p>\n<p>형법 제260조 제3항에 따라 단순폭행죄는 <strong>반의사불벌죄</strong>입니다. 피해자가 처벌불원서를 제출하면 형사처벌을 면할 수 있으므로, 합의를 적극 검토하세요.</p>\n<p>합의금은 피해 정도, 치료비, 정신적 피해를 종합적으로 고려하여 정합니다. 합의서에는 <strong>"처벌을 원하지 않는다"는 문구</strong>를 반드시 포함시키고, 합의서 원본과 처벌불원서를 수사기관에 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 절차: 피해자 접촉 → 합의금 협의 → 합의서+처벌불원서 → 수사기관 제출</blockquote>',
+          '<p><strong style="color:#1e3a5f">폭행죄는 반의사불벌죄로, 피해자가 처벌을 원하지 않으면 공소를 제기할 수 없습니다</strong></p>\n<p>형법 제260조 제3항에 따라 단순폭행죄는 <strong>반의사불벌죄</strong>입니다. 피해자가 처벌불원서를 제출하면 형사처벌을 면할 수 있으므로, 합의를 적극 검토하세요.</p>\n<p>합의금은 피해 정도, 치료비, 정신적 피해를 종합적으로 고려하여 정합니다. 합의서에는 <strong>"처벌을 원하지 않는다"는 문구</strong>를 가능한 한 포함시키고, 합의서 원본과 처벌불원서를 수사기관에 제출하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의 절차: 피해자 접촉 → 합의금 협의 → 합의서+처벌불원서 → 수사기관 제출</blockquote>',
       },
       {
         title: '넷째, 정당방위 주장이 가능한지 증거를 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제21조에 따라 자기 또는 타인의 법익에 대한 현재의 부당한 침해를 방어하기 위한 행위는 정당방위로 인정됩니다</strong></p>\n<p>상대방이 먼저 폭행을 가했고 이에 대응한 것이라면 <strong>정당방위</strong>를 주장할 수 있습니다. 다만 법원은 정당방위 인정에 엄격한 기준을 적용하므로, 방어 행위가 상당성을 갖추었는지가 핵심입니다.</p>\n<p>정당방위를 입증하려면 <strong>상대방의 선제 공격을 증명할 CCTV, 목격자 진술, 상해진단서</strong> 등이 필요합니다. 내가 입은 부상도 반드시 병원에서 진단서를 발급받아 두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정당방위 입증: 상대방 선제 공격 증명 → 방어 행위 상당성 → CCTV·목격자·진단서</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제21조에 따라 자기 또는 타인의 법익에 대한 현재의 부당한 침해를 방어하기 위한 행위는 정당방위로 인정될 수 있습니다</strong></p>\n<p>상대방이 먼저 폭행을 가했고 이에 대응한 것이라면 <strong>정당방위</strong>를 주장할 수 있습니다. 다만 법원은 정당방위 인정에 엄격한 기준을 적용하므로, 방어 행위가 상당성을 갖추었는지가 핵심입니다.</p>\n<p>정당방위를 입증하려면 <strong>상대방의 선제 공격을 증명할 CCTV, 목격자 진술, 상해진단서</strong> 등이 필요합니다. 내가 입은 부상도 가능한 한 병원에서 진단서를 발급받아 두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">정당방위 입증: 상대방 선제 공격 증명 → 방어 행위 상당성 → CCTV·목격자·진단서</blockquote>',
       },
       {
         title: '다섯째, 상해로 죄명이 변경될 가능성에 대비하세요',
@@ -202,7 +202,7 @@ export const spokesBatch18Part1Pages: SpokePage[] = [
       {
         title: '첫째, 혐의 내용과 적용 법조문을 정확히 파악하세요',
         content:
-          '<p><strong style="color:#1e3a5f">아동·청소년의 성보호에 관한 법률에 따라 아동·청소년 대상 성범죄는 가중처벌됩니다</strong></p>\n<p>먼저 출석요구서에 기재된 <strong>죄명과 적용 법조문</strong>을 확인하세요. 아동·청소년 성보호법은 19세 미만의 사람을 대상으로 한 성범죄를 일반 성범죄보다 무겁게 처벌합니다.</p>\n<p>성착취물 소지, 카메라 이용 촬영, 강제추행 등 <strong>혐의 유형에 따라 법정형이 크게 다릅니다</strong>. 자신에게 적용되는 정확한 죄명을 파악해야 효과적인 방어 전략을 세울 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인 사항: 출석요구서 죄명 → 적용 법조문 → 법정형 범위 파악</blockquote>',
+          '<p><strong style="color:#1e3a5f">아동·청소년의 성보호에 관한 법률에 따라 아동·청소년 대상 성범죄는 가중처벌 대상으로 검토될 수 있습니다</strong></p>\n<p>먼저 출석요구서에 기재된 <strong>죄명과 적용 법조문</strong>을 확인하세요. 아동·청소년 성보호법은 19세 미만의 사람을 대상으로 한 성범죄를 일반 성범죄보다 무겁게 처벌합니다.</p>\n<p>성착취물 소지, 카메라 이용 촬영, 강제추행 등 <strong>혐의 유형에 따라 법정형이 크게 다릅니다</strong>. 자신에게 적용되는 정확한 죄명을 파악해야 효과적인 방어 전략을 세울 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인 사항: 출석요구서 죄명 → 적용 법조문 → 법정형 범위 파악</blockquote>',
       },
       {
         title: '둘째, 변호인을 선임하고 출석 전 방어 전략을 수립하세요',
@@ -212,7 +212,7 @@ export const spokesBatch18Part1Pages: SpokePage[] = [
       {
         title: '셋째, 경찰 조사에서 진술 원칙을 지키세요',
         content:
-          '<p><strong style="color:#1e3a5f">진술의 일관성이 수사 결과와 재판에 결정적 영향을 미칩니다</strong></p>\n<p>변호인과 미리 합의한 <strong>진술 범위를 벗어나는 답변은 하지 마세요</strong>. 수사관의 유도 질문에 감정적으로 대응하면 불리한 진술이 기록될 수 있습니다.</p>\n<p>특히 "혹시 그런 적 있지 않느냐"는 식의 <strong>추정적 질문에는 명확히 부인</strong>하세요. 조서 작성 후에는 반드시 전문을 읽고, 자신의 말과 다르게 기재된 부분은 수정을 요구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">진술 원칙: 변호인 합의 범위 내 답변 → 유도질문 주의 → 조서 전문 확인 후 서명</blockquote>',
+          '<p><strong style="color:#1e3a5f">진술의 일관성이 수사 결과와 재판에 결정적 영향을 미칩니다</strong></p>\n<p>변호인과 미리 합의한 <strong>진술 범위를 벗어나는 답변은 하지 마세요</strong>. 수사관의 유도 질문에 감정적으로 대응하면 불리한 진술이 기록될 수 있습니다.</p>\n<p>특히 "혹시 그런 적 있지 않느냐"는 식의 <strong>추정적 질문에는 명확히 부인</strong>하세요. 조서 작성 후에는 가능한 한 전문을 읽고, 자신의 말과 다르게 기재된 부분은 수정을 요구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">진술 원칙: 변호인 합의 범위 내 답변 → 유도질문 주의 → 조서 전문 확인 후 서명</blockquote>',
       },
       {
         title: '넷째, 구속 여부와 보석 가능성을 미리 파악하세요',
@@ -362,10 +362,10 @@ export const spokesBatch18Part1Pages: SpokePage[] = [
       {
         title: '첫째, 한국 법률은 사실 적시도 명예훼손으로 처벌합니다',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제307조 제1항에 따라 공연히 사실을 적시하여 사람의 명예를 훼손한 자는 2년 이하의 징역이나 금고 또는 500만원 이하의 벌금에 처합니다</strong></p>\n<p>많은 사람들이 "사실이면 문제없다"고 생각하지만, <strong>한국 형법은 사실 적시에 의한 명예훼손도 별도 범죄</strong>로 규정하고 있습니다. 허위사실 적시(제307조 제2항)보다 형량은 낮지만 엄연히 처벌 대상입니다.</p>\n<p>핵심 요건은 3가지입니다. ①<strong>공연성</strong>(불특정 또는 다수인이 인식할 수 있는 상태) ②<strong>사실의 적시</strong>(구체적 사실 표현) ③<strong>명예훼손</strong>(사회적 평가 저하). 이 세 가지가 충족되면 사실이어도 처벌됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">3가지 요건: 공연성 + 사실의 적시 + 명예훼손(사회적 평가 저하)</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제307조 제1항에 따라 공연히 사실을 적시하여 사람의 명예를 훼손한 자는 2년 이하의 징역이나 금고 또는 500만원 이하의 벌금에 처합니다</strong></p>\n<p>많은 사람들이 "사실이면 문제없다"고 생각하지만, <strong>한국 형법은 사실 적시에 의한 명예훼손도 별도 범죄</strong>로 규정하고 있습니다. 허위사실 적시(제307조 제2항)보다 형량은 낮지만 엄연히 처벌 대상입니다.</p>\n<p>핵심 요건은 3가지입니다. ①<strong>공연성</strong>(불특정 또는 다수인이 인식할 수 있는 상태) ②<strong>사실의 적시</strong>(구체적 사실 표현) ③<strong>명예훼손</strong>(사회적 평가 저하). 이 세 가지가 충족되면 사실이어도 처벌 대상으로 검토될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">3가지 요건: 공연성 + 사실의 적시 + 명예훼손(사회적 평가 저하)</blockquote>',
       },
       {
-        title: '둘째, 비방 목적이 있으면 정보통신망법으로 가중처벌됩니다',
+        title: '둘째, 비방 목적이 있으면 정보통신망법으로 가중처벌 대상으로 검토될 수 있습니다',
         content:
           '<p><strong style="color:#1e3a5f">정보통신망 이용촉진 및 정보보호 등에 관한 법률 제70조 제1항에 따라 인터넷에서의 사실 적시 명예훼손은 3년 이하의 징역 또는 3천만원 이하의 벌금에 처합니다</strong></p>\n<p>SNS, 블로그, 온라인 커뮤니티 등 <strong>정보통신망을 통해</strong> 사실을 적시한 경우에는 형법이 아닌 정보통신망법이 적용되며, <strong>형량이 더 무겁습니다</strong>.</p>\n<p>여기서 추가로 필요한 요건은 <strong>"비방할 목적"</strong>입니다. 법원은 표현의 동기, 경위, 방법, 내용 등을 종합적으로 판단하여 비방 목적을 인정합니다. 단순히 사실 전달이 아니라 상대방을 깎아내리려는 의도가 있었는지가 핵심입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">인터넷 명예훼손: 비방 목적 + 사실 적시 → 3년 이하 징역 또는 3천만원 이하 벌금</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/defamation" style="color:#1565c0;font-weight:600">내 명예훼손 혐의 상황 진단받기 &rarr;</a>\n</div>',
       },
@@ -386,7 +386,7 @@ export const spokesBatch18Part1Pages: SpokePage[] = [
       },
       {
         title: '명예훼손 고소당했을 때 가장 먼저 할 일',
-        content: '<p><strong style="color:#1e3a5f">고소 통지를 받았다면 당황하지 말고 3가지를 먼저 확인하세요.</strong></p>\n<ul>\n<li><strong>게시물 즉시 삭제 여부 판단</strong> — 게시물을 삭제하면 반성의 표시로 참작될 수 있지만, 증거 보전 차원에서 스크린샷을 먼저 남겨두세요. 삭제 자체가 불리하게 작용하지는 않습니다</li>\n<li><strong>작성 경위와 목적 정리</strong> — 왜 그 글을 썼는지, 공익 목적이었는지, 사실 확인을 어떻게 했는지를 시간순으로 정리하세요. 경찰 조사 전에 정리해두면 일관된 진술이 가능합니다</li>\n<li><strong>변호사 상담</strong> — 경찰 출석 전에 반드시 변호사 상담을 받으세요. 첫 진술이 사건의 방향을 결정하므로 혼자 판단하지 마세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 스크린샷 보관 → 작성 경위 정리 → 변호사 상담 후 출석</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">고소 통지를 받았다면 당황하지 말고 3가지를 먼저 확인하세요.</strong></p>\n<ul>\n<li><strong>게시물 즉시 삭제 여부 판단</strong> — 게시물을 삭제하면 반성의 표시로 참작될 수 있지만, 증거 보전 차원에서 스크린샷을 먼저 남겨두세요. 삭제 자체가 불리하게 작용하지는 않습니다</li>\n<li><strong>작성 경위와 목적 정리</strong> — 왜 그 글을 썼는지, 공익 목적이었는지, 사실 확인을 어떻게 했는지를 시간순으로 정리하세요. 경찰 조사 전에 정리해두면 일관된 진술이 가능합니다</li>\n<li><strong>변호사 상담</strong> — 경찰 출석 전에 가능한 한 변호사 상담을 받으세요. 첫 진술이 사건의 방향을 결정하므로 혼자 판단하지 마세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 스크린샷 보관 → 작성 경위 정리 → 변호사 상담 후 출석</blockquote>',
       },
     ],
     cases: [

@@ -33,7 +33,7 @@ export const inheritancePages: SpokePage[] = [
       {
         title: '상속 포기 후 다음 순위 상속인에게 알리세요',
         content:
-          '<p><strong style="color:#1e3a5f">상속 포기 시 다음 순위 상속인에게 상속이 넘어갑니다</strong></p>\n<p>상속을 포기하면 <strong>처음부터 상속인이 아닌 것</strong>으로 봅니다. 따라서 다음 순위 상속인(예: 부모 → 형제자매)에게 상속이 넘어갑니다.</p>\n<p>다음 순위 상속인도 빚을 물려받지 않으려면 <strong>역시 3개월 이내에 상속 포기</strong>를 해야 합니다. 반드시 알려주세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 포기 → 다음 순위 상속인에게 전이 | 다음 순위도 포기 필요</blockquote>',
+          '<p><strong style="color:#1e3a5f">상속 포기 시 다음 순위 상속인에게 상속이 넘어갑니다</strong></p>\n<p>상속을 포기하면 <strong>처음부터 상속인이 아닌 것</strong>으로 봅니다. 따라서 다음 순위 상속인(예: 부모 → 형제자매)에게 상속이 넘어갑니다.</p>\n<p>다음 순위 상속인도 빚을 물려받지 않으려면 <strong>역시 3개월 이내에 상속 포기</strong>를 해야 합니다. 가능한 한 알려주세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 포기 → 다음 순위 상속인에게 전이 | 다음 순위도 포기 필요</blockquote>',
       },
     ],
     cases: [
@@ -49,7 +49,7 @@ export const inheritancePages: SpokePage[] = [
         summary:
           '관련 사례에서도 1순위 상속인(자녀)이 포기한 후 2순위(부모), 3순위(형제자매)까지 순차적으로 상속 포기하여 빚 상속을 방지한 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 상속 포기 시 다음 순위 상속인들에게 반드시 알려 함께 포기 절차를 진행하세요.',
+          '비슷한 상황이라면 상속 포기 시 다음 순위 상속인들에게 가능한 한 알려 함께 포기 절차를 진행하세요.',
       },
     ],
     faq: [
@@ -228,7 +228,7 @@ export const inheritancePages: SpokePage[] = [
       {
         title: '한정승인 수리 후 채권자 공고와 변제 절차를 진행하세요',
         content:
-          '<p><strong style="color:#1e3a5f">수리 후 5일 이내에 채권자 공고를 해야 합니다</strong></p>\n<p><strong>민법 제1032조</strong>에 따라 한정승인이 수리되면 <strong>5일 이내</strong>에 일반 채권자에 대한 공고를 해야 합니다. 공고는 <strong>관보 또는 신문</strong>에 게재하며, 비용은 수십만원 수준입니다. 알고 있는 채권자에게는 개별적으로 <strong>최고(催告)</strong>도 해야 합니다.</p>\n<p>공고 기간은 <strong>2개월 이상</strong>입니다. 공고 기간이 지나면 채권자에게 상속 재산에서 <strong>우선순위에 따라 변제</strong>를 진행합니다. 변제 후 남은 재산이 있으면 상속인이 취득합니다. 채권자 공고를 하지 않으면 한정승인의 효력에 문제가 생길 수 있으니 반드시 이행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">채권자 공고: 수리 후 5일 내 신문 게재(2개월 이상) → 우선순위 변제 → 잔여 재산 상속</blockquote>',
+          '<p><strong style="color:#1e3a5f">수리 후 5일 이내에 채권자 공고를 해야 합니다</strong></p>\n<p><strong>민법 제1032조</strong>에 따라 한정승인이 수리되면 <strong>5일 이내</strong>에 일반 채권자에 대한 공고를 해야 합니다. 공고는 <strong>관보 또는 신문</strong>에 게재하며, 비용은 수십만원 수준입니다. 알고 있는 채권자에게는 개별적으로 <strong>최고(催告)</strong>도 해야 합니다.</p>\n<p>공고 기간은 <strong>2개월 이상</strong>입니다. 공고 기간이 지나면 채권자에게 상속 재산에서 <strong>우선순위에 따라 변제</strong>를 진행합니다. 변제 후 남은 재산이 있으면 상속인이 취득합니다. 채권자 공고를 하지 않으면 한정승인의 효력에 문제가 생길 수 있으니 가능한 한 이행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">채권자 공고: 수리 후 5일 내 신문 게재(2개월 이상) → 우선순위 변제 → 잔여 재산 상속</blockquote>',
       },
     ],
     cases: [
@@ -328,12 +328,12 @@ export const inheritancePages: SpokePage[] = [
       {
         title: '3개월이 지났다면 특별한정승인을 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">채무 초과 사실을 나중에 알았다면 안 날로부터 3개월 이내에 특별한정승인이 가능합니다</strong></p>\n<p>상속포기·한정승인 기한 3개월이 지났더라도, <strong>상속 채무가 상속 재산을 초과하는 사실을 중대한 과실 없이 나중에 알게 된 경우</strong>에는 <strong>특별한정승인</strong>(민법 제1019조 제3항)을 신청할 수 있습니다. <strong>그 사실을 안 날로부터 3개월 이내</strong>에 가정법원에 신청해야 합니다.</p>\n<p>특별한정승인이 인정되려면 ①<strong>채무 초과 사실을 몰랐다는 점</strong>, ②<strong>모른 데 중대한 과실이 없었다는 점</strong>을 소명해야 합니다. 채무 독촉 통지서, 우편 수령일, 금융거래 조회 결과 등 <strong>"언제 알게 되었는지"를 입증할 자료</strong>를 반드시 보관하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">특별한정승인: 민법 제1019조 제3항 | 채무 초과를 안 날로부터 3개월 이내 | 중대한 과실 없음 소명 필요</blockquote>',
+          '<p><strong style="color:#1e3a5f">채무 초과 사실을 나중에 알았다면 안 날로부터 3개월 이내에 특별한정승인이 가능합니다</strong></p>\n<p>상속포기·한정승인 기한 3개월이 지났더라도, <strong>상속 채무가 상속 재산을 초과하는 사실을 중대한 과실 없이 나중에 알게 된 경우</strong>에는 <strong>특별한정승인</strong>(민법 제1019조 제3항)을 신청할 수 있습니다. <strong>그 사실을 안 날로부터 3개월 이내</strong>에 가정법원에 신청해야 합니다.</p>\n<p>특별한정승인이 인정되려면 ①<strong>채무 초과 사실을 몰랐다는 점</strong>, ②<strong>모른 데 중대한 과실이 없었다는 점</strong>을 소명해야 합니다. 채무 독촉 통지서, 우편 수령일, 금융거래 조회 결과 등 <strong>"언제 알게 되었는지"를 입증할 자료</strong>를 가능한 한 보관하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">특별한정승인: 민법 제1019조 제3항 | 채무 초과를 안 날로부터 3개월 이내 | 중대한 과실 없음 소명 필요</blockquote>',
       },
       {
         title: '상속포기 시 다음 순위 상속인에게 알려주세요',
         content:
-          '<p><strong style="color:#1e3a5f">내가 상속을 포기하면 채무가 다음 순위 상속인에게 넘어갑니다</strong></p>\n<p>상속포기는 처음부터 상속인이 아니었던 것으로 간주되므로, <strong>다음 순위 상속인</strong>(자녀 → 부모 → 형제자매 → 4촌 이내 방계혈족)에게 상속권이 이전됩니다. 1순위인 자녀 전원이 포기하면 2순위인 <strong>피상속인의 부모</strong>에게, 부모도 포기하면 <strong>형제자매</strong>에게 채무가 넘어갑니다.</p>\n<p>따라서 상속포기를 했다면 반드시 <strong>다음 순위 상속인에게 알려서</strong> 그들도 기한 내에 상속포기 또는 한정승인을 할 수 있도록 해야 합니다. 알리지 않으면 예상치 못한 가족 간 분쟁이 발생할 수 있습니다. 모든 순위의 상속인이 포기하면 채무는 <strong>상속재산 범위 내에서만 청산</strong>됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">상속 순위: 자녀 → 부모 → 형제자매 | 포기 시 다음 순위에 통지 필수 | 전원 포기 → 재산 범위 내 청산</blockquote>',
+          '<p><strong style="color:#1e3a5f">내가 상속을 포기하면 채무가 다음 순위 상속인에게 넘어갑니다</strong></p>\n<p>상속포기는 처음부터 상속인이 아니었던 것으로 간주되므로, <strong>다음 순위 상속인</strong>(자녀 → 부모 → 형제자매 → 4촌 이내 방계혈족)에게 상속권이 이전됩니다. 1순위인 자녀 전원이 포기하면 2순위인 <strong>피상속인의 부모</strong>에게, 부모도 포기하면 <strong>형제자매</strong>에게 채무가 넘어갑니다.</p>\n<p>따라서 상속포기를 했다면 가능한 한 <strong>다음 순위 상속인에게 알려서</strong> 그들도 기한 내에 상속포기 또는 한정승인을 할 수 있도록 해야 합니다. 알리지 않으면 예상치 못한 가족 간 분쟁이 발생할 수 있습니다. 모든 순위의 상속인이 포기하면 채무는 <strong>상속재산 범위 내에서만 청산</strong>됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">상속 순위: 자녀 → 부모 → 형제자매 | 포기 시 다음 순위에 통지 필수 | 전원 포기 → 재산 범위 내 청산</blockquote>',
       },
     ],
     cases: [
@@ -371,7 +371,7 @@ export const inheritancePages: SpokePage[] = [
       },
       {
         question: '내가 상속포기하면 빚은 어떻게 되나요?',
-        answer: '다음 순위 상속인에게 넘어갑니다. <strong>자녀 전원 포기 → 피상속인의 부모 → 형제자매</strong> 순서입니다. 반드시 다음 순위에 알려주세요.',
+        answer: '다음 순위 상속인에게 넘어갑니다. <strong>자녀 전원 포기 → 피상속인의 부모 → 형제자매</strong> 순서입니다. 가능한 한 다음 순위에 알려주세요.',
       },
       {
         question: '한정승인하면 채권자 공고를 꼭 해야 하나요?',
@@ -561,7 +561,7 @@ export const inheritancePages: SpokePage[] = [
       {
         title: '가정법원 심판청구와 수리 절차',
         content:
-          '<p><strong style="color:#1e3a5f">피상속인의 마지막 주소지 관할 가정법원에 심판청구서를 접수하면, 법원이 심사 후 수리 결정을 내립니다.</strong></p>\n<p>관할법원은 피상속인의 최후 주소지를 관할하는 가정법원입니다. 접수 후 법원은 서류를 심사하고, 보정이 필요하면 보정명령을 내립니다. 심사에는 통상 1~2개월이 소요되며, 문제가 없으면 상속포기 수리 심판이 확정됩니다.</p>\n<p>수리 결정이 확정되면 상속인 지위가 소급하여 소멸하므로, 피상속인의 채무에 대한 변제 의무가 없어집니다. 수리 결정문은 추후 채권자의 변제 요구에 대응하기 위한 중요한 증거이므로 반드시 보관하세요. 상속 포기 후에는 후순위 상속인에게 상속권이 넘어가므로, 해당 친족에게 알려주어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">관할: 피상속인 최후 주소지 가정법원 / 심사 1~2개월 / 수리 후 후순위 상속인에게 통지 필요</blockquote>',
+          '<p><strong style="color:#1e3a5f">피상속인의 마지막 주소지 관할 가정법원에 심판청구서를 접수하면, 법원이 심사 후 수리 결정을 내립니다.</strong></p>\n<p>관할법원은 피상속인의 최후 주소지를 관할하는 가정법원입니다. 접수 후 법원은 서류를 심사하고, 보정이 필요하면 보정명령을 내립니다. 심사에는 통상 1~2개월이 소요되며, 문제가 없으면 상속포기 수리 심판이 확정됩니다.</p>\n<p>수리 결정이 확정되면 상속인 지위가 소급하여 소멸하므로, 피상속인의 채무에 대한 변제 의무가 없어집니다. 수리 결정문은 추후 채권자의 변제 요구에 대응하기 위한 중요한 증거이므로 가능한 한 보관하세요. 상속 포기 후에는 후순위 상속인에게 상속권이 넘어가므로, 해당 친족에게 알려주어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">관할: 피상속인 최후 주소지 가정법원 / 심사 1~2개월 / 수리 후 후순위 상속인에게 통지 필요</blockquote>',
       },
       {
         title: '기한 도과 시 대응: 특별한정승인',
@@ -594,7 +594,7 @@ export const inheritancePages: SpokePage[] = [
       {
         question: '상속 포기를 하면 다른 가족에게 빚이 넘어가나요?',
         answer:
-          '네. 상속 포기 시 <strong>후순위 상속인</strong>에게 상속권이 이전됩니다. 자녀 전원이 포기하면 부모에게, 부모도 포기하면 형제자매에게 넘어가므로 관련 친족에게 반드시 알려야 합니다.',
+          '네. 상속 포기 시 <strong>후순위 상속인</strong>에게 상속권이 이전됩니다. 자녀 전원이 포기하면 부모에게, 부모도 포기하면 형제자매에게 넘어가므로 관련 친족에게 가능한 한 알려야 합니다.',
       },
       {
         question: '상속 포기 전에 피상속인의 채무를 확인하는 방법이 있나요?',
@@ -619,7 +619,7 @@ export const inheritancePages: SpokePage[] = [
       {
         question: '상속 포기와 상속재산 분할협의는 다른 건가요?',
         answer:
-          '완전히 다릅니다. <strong>상속재산 분할협의</strong>에서 "나는 안 받겠다"고 하는 것은 법적 상속 포기가 아닙니다. 법적 효력이 있는 상속 포기는 반드시 가정법원에 심판청구를 해야 합니다.',
+          '완전히 다릅니다. <strong>상속재산 분할협의</strong>에서 "나는 안 받겠다"고 하는 것은 법적 상속 포기가 아닙니다. 법적 효력이 있는 상속 포기는 가능한 한 가정법원에 심판청구를 해야 합니다.',
       },
       {
         question: '3개월 기한 내에 서류를 다 준비하기 어려우면 어떻게 하나요?',

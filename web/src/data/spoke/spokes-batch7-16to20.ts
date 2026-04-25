@@ -74,7 +74,7 @@ export const spokesBatch7Pages16to20: SpokePage[] = [
       {
         question: '임금 체불이 얼마나 되어야 정당한 사유로 인정되나요?',
         answer:
-          '<strong>2개월 이상</strong> 임금이 지급되지 않은 경우가 대표적인 정당한 사유로 인정됩니다.',
+          '<strong>2개월 이상</strong> 임금이 지급되지 않은 경우가 대표적인 정당한 사유로 인정될 수 있습니다.',
       },
       {
         question: '건강 이유로 퇴사했는데 어떤 진단서가 필요한가요?',
@@ -150,7 +150,7 @@ export const spokesBatch7Pages16to20: SpokePage[] = [
       {
         title: '권고사직을 거부하면 어떻게 되나요?',
         content:
-          '<p><strong style="color:#1e3a5f">권고사직 거부는 합법이며, 거부 후 해고하면 부당해고가 됩니다</strong></p>\n<p>근로자는 권고사직을 <strong>거부할 권리</strong>가 있습니다. 회사가 사직서를 쓰지 않으면 해고하겠다고 해도, 정당한 해고 사유가 없으면 이는 <strong>부당해고</strong>에 해당합니다. 협박성 권고사직에는 "사직서를 쓸 의사가 없다"는 의사를 <strong>서면 또는 문자</strong>로 분명히 밝히세요.</p>\n<p>이후 해고가 이루어지면 해고일로부터 <strong>3개월 이내에 지방노동위원회에 구제신청</strong>을 하세요. 구제신청이 인용되면 원직 복직 또는 금전보상을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 거부 의사 서면 통보 | 해고 시 3개월 내 구제신청 | 원직 복직·금전보상 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">권고사직 거부는 합법이며, 거부 후 해고하면 부당해고가 됩니다</strong></p>\n<p>근로자는 권고사직을 <strong>거부할 권리</strong>가 있습니다. 회사가 사직서를 쓰지 않으면 해고하겠다고 해도, 정당한 해고 사유가 없으면 이는 <strong>부당해고</strong>에 해당할 소지가 있습니다. 협박성 권고사직에는 "사직서를 쓸 의사가 없다"는 의사를 <strong>서면 또는 문자</strong>로 분명히 밝히세요.</p>\n<p>이후 해고가 이루어지면 해고일로부터 <strong>3개월 이내에 지방노동위원회에 구제신청</strong>을 하세요. 구제신청이 인용되면 원직 복직 또는 금전보상을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 거부 의사 서면 통보 | 해고 시 3개월 내 구제신청 | 원직 복직·금전보상 가능</blockquote>',
       },
       {
         title: '부당해고 구제신청 방법과 절차',
@@ -164,7 +164,7 @@ export const spokesBatch7Pages16to20: SpokePage[] = [
         summary:
           '관련 사례에서도 근로자가 회사 권유로 사직서를 제출했으나 사직서에 "일신상의 사유"로 기재된 경우, 고용센터에서 권고사직 사실을 입증하는 메신저 대화 기록을 제출하여 비자발적 이직으로 인정받고 실업급여를 수급한 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 권고사직 관련 대화(문자·카카오톡 등)를 반드시 보존하세요. 사직서 표현보다 실질이 중요합니다.',
+          '비슷한 상황이라면 권고사직 관련 대화(문자·카카오톡 등)를 가능한 한 보존하세요. 사직서 표현보다 실질이 중요합니다.',
       },
       {
         title: '권고사직 거부 후 해고가 부당해고로 인정된 사례',
@@ -188,7 +188,7 @@ export const spokesBatch7Pages16to20: SpokePage[] = [
       {
         question: '해고를 구두로 통보받았는데 유효한가요?',
         answer:
-          '구두 해고는 <strong>서면 통지 요건 미충족</strong>으로 그 자체가 부당해고입니다. 서면 통지를 요청하세요.',
+          '구두 해고는 <strong>서면 통지 요건 미충족</strong>으로 그 자체가 부당해고로 검토될 수 있습니다. 서면 통지를 요청하세요.',
       },
       {
         question: '해고예고기간 30일을 지키지 않으면 어떻게 되나요?',

@@ -324,7 +324,7 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2022다220014 사건에서 법원은 거래소에 예탁된 가상자산에 대한 반환청구권은 재산권으로서 상속 대상이 된다고 판시했습니다. 단순한 "계정 권한"이 아니라 재산적 가치로 상속된다는 의미입니다.',
         takeaway:
-          '거래소 보유 코인은 상속재산 목록에 반드시 포함해 세무·분할 절차를 밟아야 합니다.',
+          '거래소 보유 코인은 상속재산 목록에 가능한 한 포함해 세무·분할 절차를 밟아야 합니다.',
       },
     ],
     faq: [
@@ -387,7 +387,7 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
       {
         title: '공연성·특정성 — 성립 요건 먼저',
         content:
-          '<p><strong style="color:#1e3a5f">단톡방 인원수·성격에 따라 공연성 인정 여부가 달라집니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 불특정 다수 또는 전파 가능성 있는 특정 다수에게 도달.</li>\n<li><strong>단톡방 성격</strong> — 회사·학교 등 구성원 수·접근성·주제 범위가 판단 기준.</li>\n<li><strong>특정성</strong> — 피해자를 알아볼 수 있게 지칭(실명·별명·사진 등).</li>\n<li><strong>허위/사실</strong> — 사실적시 명예훼손(형법 제307조 제1항) vs 허위(제2항) 구분.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "소수 친구만 있는 카톡"이라도 전파 가능성이 인정되면 공연성이 성립합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">단톡방 인원수·성격에 따라 공연성 인정 여부가 달라집니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 불특정 다수 또는 전파 가능성 있는 특정 다수에게 도달.</li>\n<li><strong>단톡방 성격</strong> — 회사·학교 등 구성원 수·접근성·주제 범위가 판단 기준.</li>\n<li><strong>특정성</strong> — 피해자를 알아볼 수 있게 지칭(실명·별명·사진 등).</li>\n<li><strong>허위/사실</strong> — 사실적시 명예훼손(형법 제307조 제1항) vs 허위(제2항) 구분.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "소수 친구만 있는 카톡"이라도 전파 가능성이 인정되면 공연성이 성립할 수 있습니다.</blockquote>',
       },
       {
         title: '캡처 증거능력 5단계 확보 절차',
@@ -423,7 +423,7 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
       {
         question: '닉네임·프로필만 나와 있어도 특정성이 인정되나요?',
         answer:
-          '<strong>평소 불리는 별칭·직장·연령 등 주변 정보로 특정할 수 있으면 인정됩니다.</strong> 같은 대화방 사람들이 누구를 가리키는지 알면 충분합니다.',
+          '<strong>평소 불리는 별칭·직장·연령 등 주변 정보로 특정할 수 있으면 인정될 수 있습니다.</strong> 같은 대화방 사람들이 누구를 가리키는지 알면 충분합니다.',
       },
       {
         question: '사실만 말했는데도 명예훼손인가요?',
@@ -474,7 +474,7 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
       {
         title: '신속삭제 경로 — 플랫폼별 창구',
         content:
-          '<p><strong style="color:#1e3a5f">방심위·디성센터·경찰 사이버수사대·플랫폼 자체 신고를 동시에 진행하세요.</strong></p>\n<ul>\n<li><strong>디지털성범죄피해자지원센터(디성센터)</strong> — 24시간 상담·삭제 지원 공공기관.</li>\n<li><strong>방송통신심의위원회</strong> — 불법·유해 정보 시정요구, 국내 플랫폼에 구속력.</li>\n<li><strong>해외 플랫폼</strong> — X·텔레그램·디스코드 자체 신고 양식 + NCMEC 국제 공조.</li>\n<li><strong>경찰 사이버수사대</strong> — 112 또는 사이버수사 직접 접수.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 국내 플랫폼은 시정요구 즉시 이행률이 높으니 방심위 신고를 반드시 병행하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">방심위·디성센터·경찰 사이버수사대·플랫폼 자체 신고를 동시에 진행하세요.</strong></p>\n<ul>\n<li><strong>디지털성범죄피해자지원센터(디성센터)</strong> — 24시간 상담·삭제 지원 공공기관.</li>\n<li><strong>방송통신심의위원회</strong> — 불법·유해 정보 시정요구, 국내 플랫폼에 구속력.</li>\n<li><strong>해외 플랫폼</strong> — X·텔레그램·디스코드 자체 신고 양식 + NCMEC 국제 공조.</li>\n<li><strong>경찰 사이버수사대</strong> — 112 또는 사이버수사 직접 접수.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 국내 플랫폼은 시정요구 즉시 이행률이 높으니 방심위 신고를 가능한 한 병행하세요.</blockquote>',
       },
       {
         title: '5단계 대응 — 첫 24시간 행동',
@@ -576,7 +576,7 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
       {
         title: 'Q4·Q5. 삭제·합의·소송 — 선택지',
         content:
-          '<p><strong style="color:#1e3a5f">삭제·사과·합의 조합이 초기 처벌 위험을 크게 낮춥니다.</strong></p>\n<ul>\n<li><strong>Q4. 지금 삭제해도 되나</strong> — 증거는 이미 회사가 확보했을 가능성 높아 삭제는 보조 수단.</li>\n<li><strong>합의 시도</strong> — 삭제·사과문 + 소정 금액으로 고소 취하 유도.</li>\n<li><strong>Q5. 변호사 필요 여부</strong> — 피의자 조사 전 반드시 상담, 진술서 작성 동행 권장.</li>\n<li><strong>회사 보복 징계</strong> — 재직 중 징계는 부당노동행위 병행 검토.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 섣부른 "사과문 작성"은 혐의 인정으로 해석될 수 있어 문안은 변호사와 함께 만들어야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">삭제·사과·합의 조합이 초기 처벌 위험을 크게 낮춥니다.</strong></p>\n<ul>\n<li><strong>Q4. 지금 삭제해도 되나</strong> — 증거는 이미 회사가 확보했을 가능성 높아 삭제는 보조 수단.</li>\n<li><strong>합의 시도</strong> — 삭제·사과문 + 소정 금액으로 고소 취하 유도.</li>\n<li><strong>Q5. 변호사 필요 여부</strong> — 피의자 조사 전 가능한 한 상담, 진술서 작성 동행 권장.</li>\n<li><strong>회사 보복 징계</strong> — 재직 중 징계는 부당노동행위 병행 검토.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 섣부른 "사과문 작성"은 혐의 인정으로 해석될 수 있어 문안은 변호사와 함께 만들어야 합니다.</blockquote>',
       },
     ],
     cases: [

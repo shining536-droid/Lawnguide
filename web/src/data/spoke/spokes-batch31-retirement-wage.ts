@@ -48,7 +48,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '평균임금에 포함되어야 할 항목',
         content:
-          '<p><strong style="color:#1e3a5f">명칭이 아니라 지급의 실질로 판단합니다. 정기적·일률적·고정적으로 지급된 금품은 평균임금에 포함됩니다.</strong></p>\n<ul>\n<li><strong>정기 상여금</strong> — 매 분기 또는 매년 지급되는 상여금이 취업규칙이나 단체협약에 규정되어 있다면 임금에 해당합니다.</li>\n<li><strong>식대·교통비·직책수당</strong> — 전 직원에게 일률적으로 지급되는 경우 근로의 대상으로 인정됩니다.</li>\n<li><strong>연장·야간·휴일근로수당</strong> — 실제 발생한 초과근로에 대한 수당은 당연히 포함됩니다.</li>\n<li><strong>성과급(인센티브)</strong> — 지급 조건이 사전에 정해져 있고 계속·반복적으로 지급되었다면 평균임금 산정 기초에 포함됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 회사가 "이건 상여금이니 임금이 아니다"라고 주장해도, 지급의 정기성·일률성·고정성이 인정되면 평균임금에 넣어야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">명칭이 아니라 지급의 실질로 판단합니다. 정기적·일률적·고정적으로 지급된 금품은 평균임금에 포함됩니다.</strong></p>\n<ul>\n<li><strong>정기 상여금</strong> — 매 분기 또는 매년 지급되는 상여금이 취업규칙이나 단체협약에 규정되어 있다면 임금에 해당할 소지가 있습니다.</li>\n<li><strong>식대·교통비·직책수당</strong> — 전 직원에게 일률적으로 지급되는 경우 근로의 대상으로 인정될 수 있습니다.</li>\n<li><strong>연장·야간·휴일근로수당</strong> — 실제 발생한 초과근로에 대한 수당은 당연히 포함됩니다.</li>\n<li><strong>성과급(인센티브)</strong> — 지급 조건이 사전에 정해져 있고 계속·반복적으로 지급되었다면 평균임금 산정 기초에 포함됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 회사가 "이건 상여금이니 임금이 아니다"라고 주장해도, 지급의 정기성·일률성·고정성이 인정되면 평균임금에 넣어야 합니다.</blockquote>',
       },
       {
         title: '평균임금에서 제외되는 항목',
@@ -58,7 +58,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '평균임금 산정에 이의가 있을 때 대응 절차',
         content:
-          '<p><strong style="color:#1e3a5f">회사와 협의 → 노동부 진정 → 민사소송 순서로 대응합니다.</strong></p>\n<ol>\n<li><strong>1단계: 급여명세서 확인</strong> — 퇴직 전 3개월 급여명세서에서 누락 항목을 특정합니다. 통장 입금 내역과 대조하세요.</li>\n<li><strong>2단계: 회사에 이의 제기</strong> — 서면으로 구체적 항목과 금액을 명시하여 재산정을 요청합니다.</li>\n<li><strong>3단계: 고용노동부 진정</strong> — 회사가 거부하면 관할 노동지청에 퇴직금 미지급 진정을 제기합니다. 근로감독관이 평균임금 산정의 적정성을 조사합니다.</li>\n<li><strong>4단계: 민사소송</strong> — 진정으로 해결되지 않으면 퇴직금 차액 지급 청구 소송을 제기합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 급여명세서, 근로계약서, 취업규칙, 통장 거래내역이 핵심 증거입니다. 퇴직 전에 반드시 확보하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">회사와 협의 → 노동부 진정 → 민사소송 순서로 대응합니다.</strong></p>\n<ol>\n<li><strong>1단계: 급여명세서 확인</strong> — 퇴직 전 3개월 급여명세서에서 누락 항목을 특정합니다. 통장 입금 내역과 대조하세요.</li>\n<li><strong>2단계: 회사에 이의 제기</strong> — 서면으로 구체적 항목과 금액을 명시하여 재산정을 요청합니다.</li>\n<li><strong>3단계: 고용노동부 진정</strong> — 회사가 거부하면 관할 노동지청에 퇴직금 미지급 진정을 제기합니다. 근로감독관이 평균임금 산정의 적정성을 조사합니다.</li>\n<li><strong>4단계: 민사소송</strong> — 진정으로 해결되지 않으면 퇴직금 차액 지급 청구 소송을 제기합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 급여명세서, 근로계약서, 취업규칙, 통장 거래내역이 핵심 증거입니다. 퇴직 전에 가능한 한 확보하세요.</blockquote>',
       },
     ],
     cases: [
@@ -127,7 +127,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '임원 퇴직금 지급의 법적 요건',
         content:
-          '<p><strong style="color:#1e3a5f">상법 제388조는 강행규정으로, 이사 보수는 반드시 정관 또는 주주총회 결의로 정해야 합니다.</strong></p>\n<ul>\n<li><strong>정관 규정</strong> — 정관에 임원 퇴직금 지급 기준이 명시되어 있으면 그에 따라 지급합니다.</li>\n<li><strong>주주총회 결의</strong> — 정관에 "주주총회에서 정한다"라고 되어 있으면 반드시 주주총회 결의를 거쳐야 합니다. 결의 없이 지급하면 무효입니다.</li>\n<li><strong>이사회 결의만으로는 부족</strong> — 이사회가 자체적으로 퇴직금을 정하는 것은 상법 위반입니다. 주주가 알지 못한 채 과다한 퇴직금을 결정하는 것을 방지하기 위한 규정입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 주주총회 결의가 없으면 아무리 오래 근무했어도 임원 퇴직금 청구권 자체가 인정되지 않을 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">상법 제388조는 강행규정으로, 이사 보수는 가능한 한 정관 또는 주주총회 결의로 정해야 합니다.</strong></p>\n<ul>\n<li><strong>정관 규정</strong> — 정관에 임원 퇴직금 지급 기준이 명시되어 있으면 그에 따라 지급합니다.</li>\n<li><strong>주주총회 결의</strong> — 정관에 "주주총회에서 정한다"라고 되어 있으면 가능한 한 주주총회 결의를 거쳐야 합니다. 결의 없이 지급하면 무효입니다.</li>\n<li><strong>이사회 결의만으로는 부족</strong> — 이사회가 자체적으로 퇴직금을 정하는 것은 상법 위반입니다. 주주가 알지 못한 채 과다한 퇴직금을 결정하는 것을 방지하기 위한 규정입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 주주총회 결의가 없으면 아무리 오래 근무했어도 임원 퇴직금 청구권 자체가 인정되지 않을 수 있습니다.</blockquote>',
       },
       {
         title: '과다퇴직금의 세무 리스크',
@@ -137,7 +137,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '임원 퇴직금 분쟁 시 대응 방법',
         content:
-          '<p><strong style="color:#1e3a5f">임원이라도 근로자성이 인정되면 근로기준법상 퇴직금을 별도로 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>근로자성 판단</strong> — 등기이사라도 실질적으로 사용자의 지휘·감독을 받으며 근로를 제공한 경우 근로자로 인정될 수 있습니다.</li>\n<li><strong>이중 지위</strong> — 이사이면서 근로자인 경우, 이사로서의 퇴직금과 근로자로서의 퇴직금을 각각 청구할 수 있습니다.</li>\n<li><strong>정관 규정 확인</strong> — 퇴임 전에 정관의 퇴직금 규정과 주주총회 의사록을 반드시 확인하세요. 결의가 없으면 퇴임 전에 주주총회를 개최하여 결의를 받아야 합니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">임원이라도 근로자성이 인정되면 근로기준법상 퇴직금을 별도로 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>근로자성 판단</strong> — 등기이사라도 실질적으로 사용자의 지휘·감독을 받으며 근로를 제공한 경우 근로자로 인정될 수 있습니다.</li>\n<li><strong>이중 지위</strong> — 이사이면서 근로자인 경우, 이사로서의 퇴직금과 근로자로서의 퇴직금을 각각 청구할 수 있습니다.</li>\n<li><strong>정관 규정 확인</strong> — 퇴임 전에 정관의 퇴직금 규정과 주주총회 의사록을 가능한 한 확인하세요. 결의가 없으면 퇴임 전에 주주총회를 개최하여 결의를 받아야 합니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -146,7 +146,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
         summary:
           '대법원 2025다214605 사건(대법원, 2025.12.11 선고)에서 법원은 상법 제388조는 강행규정이며, 정관에서 이사의 보수를 주주총회 결의로 정한다고 규정한 경우 주주총회 결의 없이는 이사가 보수청구권을 행사할 수 없다고 판시했습니다.',
         takeaway:
-          '임원 퇴직금을 확실하게 받으려면 퇴임 전에 정관 규정과 주주총회 결의를 반드시 확인해야 합니다. 결의 없이 지급받은 퇴직금은 반환 청구 대상이 될 수 있습니다.',
+          '임원 퇴직금을 확실하게 받으려면 퇴임 전에 정관 규정과 주주총회 결의를 가능한 한 확인해야 합니다. 결의 없이 지급받은 퇴직금은 반환 청구 대상이 될 수 있습니다.',
       },
     ],
     faq: [
@@ -211,7 +211,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '명예퇴직 신청 시 확인할 사항',
         content:
-          '<p><strong style="color:#1e3a5f">명예퇴직 신청은 철회가 어렵기 때문에 사전 검토가 중요합니다.</strong></p>\n<ul>\n<li><strong>승인 여부</strong> — 명예퇴직은 신청한다고 반드시 승인되는 것이 아닙니다. 기관의 인력 사정에 따라 거부될 수 있습니다.</li>\n<li><strong>건강보험 전환</strong> — 퇴직 후 직장건강보험에서 지역건강보험으로 전환됩니다. 보험료가 크게 올라갈 수 있습니다.</li>\n<li><strong>퇴직 후 취업 제한</strong> — 공무원은 퇴직 후 일정 기간 관련 기관 취업이 제한됩니다(공직자윤리법). 명예퇴직해도 동일하게 적용됩니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">명예퇴직 신청은 철회가 어렵기 때문에 사전 검토가 중요합니다.</strong></p>\n<ul>\n<li><strong>승인 여부</strong> — 명예퇴직은 신청한다고 가능한 한 승인되는 것이 아닙니다. 기관의 인력 사정에 따라 거부될 수 있습니다.</li>\n<li><strong>건강보험 전환</strong> — 퇴직 후 직장건강보험에서 지역건강보험으로 전환됩니다. 보험료가 크게 올라갈 수 있습니다.</li>\n<li><strong>퇴직 후 취업 제한</strong> — 공무원은 퇴직 후 일정 기간 관련 기관 취업이 제한됩니다(공직자윤리법). 명예퇴직해도 동일하게 적용됩니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -285,7 +285,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '불법파견과 퇴직금 청구',
         content:
-          '<p><strong style="color:#1e3a5f">허용되지 않는 업무에 파견된 경우(불법파견), 처음부터 사용업체의 근로자로 인정됩니다.</strong></p>\n<ul>\n<li><strong>불법파견 업종</strong> — 제조업 직접생산공정, 건설현장, 항만하역 등 파견이 금지된 업종에서 일했다면 불법파견에 해당합니다.</li>\n<li><strong>위장도급</strong> — 도급계약 형식이지만 실질적으로 사용업체의 지휘·감독을 받았다면 파견으로 인정됩니다.</li>\n<li><strong>퇴직금 전액 사용업체 청구</strong> — 불법파견이 인정되면 근무 시작 시점부터 사용업체의 근로자이므로 전체 기간의 퇴직금을 사용업체에 청구할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>파견직 퇴직금 청구 대상, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">파견기간, 업종, 근무형태를 입력하면 직접고용간주 해당 여부를 무료로 확인합니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">허용되지 않는 업무에 파견된 경우(불법파견), 처음부터 사용업체의 근로자로 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>불법파견 업종</strong> — 제조업 직접생산공정, 건설현장, 항만하역 등 파견이 금지된 업종에서 일했다면 불법파견에 해당할 소지가 있습니다.</li>\n<li><strong>위장도급</strong> — 도급계약 형식이지만 실질적으로 사용업체의 지휘·감독을 받았다면 파견으로 인정될 수 있습니다.</li>\n<li><strong>퇴직금 전액 사용업체 청구</strong> — 불법파견이 인정되면 근무 시작 시점부터 사용업체의 근로자이므로 전체 기간의 퇴직금을 사용업체에 청구할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>파견직 퇴직금 청구 대상, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">파견기간, 업종, 근무형태를 입력하면 직접고용간주 해당 여부를 무료로 확인합니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '증거 확보와 청구 절차',
@@ -428,7 +428,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '소멸시효 도과 후에도 청구 가능한 예외 사유',
         content:
-          '<p><strong style="color:#1e3a5f">사용자의 소멸시효 주장이 신의칙에 반하면 시효 완성을 인정하지 않습니다.</strong></p>\n<ul>\n<li><strong>사용자의 기망</strong> — 회사가 "나중에 주겠다", "따로 정산하겠다"며 의도적으로 청구를 지연시킨 경우, 시효 항변이 권리남용에 해당합니다.</li>\n<li><strong>근로자성 분쟁</strong> — 프리랜서로 계약했지만 실질적으로 근로자였던 경우, 근로자성이 확인된 시점부터 시효가 기산될 수 있습니다.</li>\n<li><strong>객관적 장애사유</strong> — 소멸시효 기간 내에 권리를 행사할 수 없는 객관적 사정이 있었다면 그 기간은 시효 진행에서 제외됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 시효가 지났더라도 "왜 시효 내에 청구하지 못했는지"를 구체적으로 입증하면 받을 수 있는 가능성이 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사용자의 소멸시효 주장이 신의칙에 반하면 시효 완성을 인정하지 않습니다.</strong></p>\n<ul>\n<li><strong>사용자의 기망</strong> — 회사가 "나중에 주겠다", "따로 정산하겠다"며 의도적으로 청구를 지연시킨 경우, 시효 항변이 권리남용에 해당할 소지가 있습니다.</li>\n<li><strong>근로자성 분쟁</strong> — 프리랜서로 계약했지만 실질적으로 근로자였던 경우, 근로자성이 확인된 시점부터 시효가 기산될 수 있습니다.</li>\n<li><strong>객관적 장애사유</strong> — 소멸시효 기간 내에 권리를 행사할 수 없는 객관적 사정이 있었다면 그 기간은 시효 진행에서 제외됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 시효가 지났더라도 "왜 시효 내에 청구하지 못했는지"를 구체적으로 입증하면 받을 수 있는 가능성이 있습니다.</blockquote>',
       },
       {
         title: '신의칙 위반이 인정되는 구체적 상황',
@@ -459,7 +459,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         question: '내용증명을 보내면 소멸시효가 중단되나요?',
         answer:
-          '<p>내용증명 자체는 소멸시효 중단 사유인 "최고"에 해당합니다. 다만 최고 후 6개월 이내에 소송을 제기해야 시효가 중단됩니다. 내용증명만으로는 영구적 중단이 되지 않습니다.</p>',
+          '<p>내용증명 자체는 소멸시효 중단 사유인 "최고"에 해당할 소지가 있습니다. 다만 최고 후 6개월 이내에 소송을 제기해야 시효가 중단됩니다. 내용증명만으로는 영구적 중단이 되지 않습니다.</p>',
       },
       {
         question: '회사가 "나중에 주겠다"고 한 메시지가 있으면 효과가 있나요?',
@@ -497,7 +497,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
         '회사가 성과급은 임금이 아니라며 지급을 거부하고 있다면, 임금성 판단 기준과 청구 방법을 지금 확인하세요.',
     },
     intro:
-      '<p>매년 받던 성과급을 올해 회사가 지급하지 않겠다고 통보했습니다. "성과급은 회사 재량이지 임금이 아니다"라는 설명뿐입니다. 하지만 입사 이래 10년간 한 번도 빠짐없이 지급되었습니다. 대법원 판례에 따르면 지급 조건이 사전에 정해져 있고 정기적·계속적으로 지급된 성과급은 근로의 대상인 "임금"으로 인정됩니다.</p>',
+      '<p>매년 받던 성과급을 올해 회사가 지급하지 않겠다고 통보했습니다. "성과급은 회사 재량이지 임금이 아니다"라는 설명뿐입니다. 하지만 입사 이래 10년간 한 번도 빠짐없이 지급되었습니다. 대법원 판례에 따르면 지급 조건이 사전에 정해져 있고 정기적·계속적으로 지급된 성과급은 근로의 대상인 "임금"으로 인정될 수 있습니다.</p>',
     sections: [
       {
         title: '성과급이 임금으로 인정되는 기준',
@@ -507,7 +507,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '성과급이 임금이 아닌 경우',
         content:
-          '<p><strong style="color:#1e3a5f">지급 여부와 금액이 전적으로 사용자의 재량에 달린 일시적 보상금은 임금이 아닙니다.</strong></p>\n<ul>\n<li><strong>순수 재량 보상</strong> — 지급 기준 없이 대표이사가 그때그때 결정하는 "특별 보너스"는 은혜적 금품입니다.</li>\n<li><strong>1회성 격려금</strong> — 프로젝트 성공 등 특정 사유에 1회만 지급된 금품은 정기성이 없어 임금으로 보기 어렵습니다.</li>\n<li><strong>복리후생적 성격</strong> — 경조사비, 동호회 지원금 등은 근로의 대상이 아닌 복리후생에 해당합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>내 성과급이 임금인지, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">지급 이력, 규정, 산정 방식을 입력하면 임금성 여부를 무료로 분석합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">지급 여부와 금액이 전적으로 사용자의 재량에 달린 일시적 보상금은 임금이 아닙니다.</strong></p>\n<ul>\n<li><strong>순수 재량 보상</strong> — 지급 기준 없이 대표이사가 그때그때 결정하는 "특별 보너스"는 은혜적 금품입니다.</li>\n<li><strong>1회성 격려금</strong> — 프로젝트 성공 등 특정 사유에 1회만 지급된 금품은 정기성이 없어 임금으로 보기 어렵습니다.</li>\n<li><strong>복리후생적 성격</strong> — 경조사비, 동호회 지원금 등은 근로의 대상이 아닌 복리후생에 해당할 소지가 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>내 성과급이 임금인지, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">지급 이력, 규정, 산정 방식을 입력하면 임금성 여부를 무료로 분석합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '성과급 미지급 시 대응 절차',
@@ -612,7 +612,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         question: '재직 중에도 차액을 청구할 수 있나요?',
         answer:
-          '<p>네. 최저임금 미달 차액은 재직 중에도 청구 가능합니다. 불이익이 걱정되면 익명으로 노동부에 신고할 수도 있습니다. 최저임금 위반 신고를 이유로 한 불이익 처분은 부당해고에 해당합니다.</p>',
+          '<p>네. 최저임금 미달 차액은 재직 중에도 청구 가능합니다. 불이익이 걱정되면 익명으로 노동부에 신고할 수도 있습니다. 최저임금 위반 신고를 이유로 한 불이익 처분은 부당해고에 해당할 소지가 있습니다.</p>',
       },
       {
         question: '사업주가 모르고 최저임금을 위반한 경우에도 처벌되나요?',
@@ -655,7 +655,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '관행 수당 중단이 유효한 경우',
         content:
-          '<p><strong style="color:#1e3a5f">아래 경우에는 회사가 수당을 중단하더라도 위법이 아닐 수 있습니다.</strong></p>\n<ul>\n<li><strong>취업규칙 변경 절차</strong> — 근로자 과반수의 동의를 받아 취업규칙을 변경하여 수당을 폐지한 경우</li>\n<li><strong>노사합의</strong> — 단체협약 개정을 통해 수당 항목을 삭제한 경우</li>\n<li><strong>규범 의식 부재</strong> — 관행이 있었더라도 "반드시 지급해야 한다"는 규범 의식이 형성되지 않았다면 근로계약 내용으로 인정되지 않습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>중단된 수당이 임금인지, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">지급 이력, 대상 범위, 중단 경위를 입력하면 근로계약 인정 여부를 무료로 분석합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">아래 경우에는 회사가 수당을 중단하더라도 위법이 아닐 수 있습니다.</strong></p>\n<ul>\n<li><strong>취업규칙 변경 절차</strong> — 근로자 과반수의 동의를 받아 취업규칙을 변경하여 수당을 폐지한 경우</li>\n<li><strong>노사합의</strong> — 단체협약 개정을 통해 수당 항목을 삭제한 경우</li>\n<li><strong>규범 의식 부재</strong> — 관행이 있었더라도 "가능한 한 지급해야 한다"는 규범 의식이 형성되지 않았다면 근로계약 내용으로 인정되지 않습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>중단된 수당이 임금인지, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">지급 이력, 대상 범위, 중단 경위를 입력하면 근로계약 인정 여부를 무료로 분석합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '수당 중단 시 대응 절차',
@@ -691,7 +691,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         question: '신입사원에게는 해당 수당이 지급되지 않았어도 관행인가요?',
         answer:
-          '<p>신입사원 제외가 처음부터 일관된 관행이었다면 전 직원 적용 요건을 충족하지 못할 수 있습니다. 반대로 기존 직원 전체에게 적용되었다면 해당 범위 내에서 관행이 인정됩니다.</p>',
+          '<p>신입사원 제외가 처음부터 일관된 관행이었다면 전 직원 적용 요건을 충족하지 못할 수 있습니다. 반대로 기존 직원 전체에게 적용되었다면 해당 범위 내에서 관행이 인정될 수 있습니다.</p>',
       },
     ],
     cta: { text: '관행 수당 임금성 여부 AI로 확인하기', link: '/chat?domain=wage' },
@@ -734,7 +734,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '강제집행으로 실제 회수하기',
         content:
-          '<p><strong style="color:#1e3a5f">판결이나 지급명령을 받아도 사업주가 안 주면 강제집행으로 받아야 합니다.</strong></p>\n<ul>\n<li><strong>채권 압류</strong> — 사업주의 은행 예금, 매출채권 등을 압류하여 직접 추심합니다. 사업자등록번호를 알면 거래 은행을 조회할 수 있습니다.</li>\n<li><strong>재산 조회</strong> — 법원에 재산명시·재산조회를 신청하면 사업주의 부동산, 차량, 예금 등을 확인할 수 있습니다.</li>\n<li><strong>형사처벌 압박</strong> — 임금체불은 3년 이하 징역 또는 3천만원 이하 벌금의 형사범죄입니다. 형사고소를 통해 실질적인 압박을 가할 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">판결이나 지급명령을 받아도 사업주가 안 주면 강제집행으로 받아야 합니다.</strong></p>\n<ul>\n<li><strong>채권 압류</strong> — 사업주의 은행 예금, 매출채권 등을 압류하여 직접 추심합니다. 사업자등록번호를 알면 거래 은행을 조회할 수 있습니다.</li>\n<li><strong>재산 조회</strong> — 법원에 재산명시·재산조회를 신청하면 사업주의 부동산, 차량, 예금 등을 확인할 수 있습니다.</li>\n<li><strong>형사처벌 압박</strong> — 임금체불은 3년 이하 징역 또는 3천만원 이하 벌금의 형사처벌 대상으로 검토될 수 있습니다. 형사고소를 통해 실질적인 압박을 가할 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -808,7 +808,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '소송 절차와 전략',
         content:
-          '<p><strong style="color:#1e3a5f">신의칙 주장은 반드시 소송에서 다투어야 합니다.</strong></p>\n<ul>\n<li><strong>소 제기</strong> — 임금 지급 청구 소송을 제기하면서 "피고의 소멸시효 항변은 신의칙에 반하여 허용될 수 없다"고 주장합니다.</li>\n<li><strong>입증 전략</strong> — 시효 기간 중 사업주의 행위(약속, 기망, 방해)를 시간순으로 정리하여 제출합니다.</li>\n<li><strong>예비적 청구</strong> — 신의칙 주장이 받아들여지지 않을 경우를 대비하여, 불법행위 손해배상(10년 시효)을 예비적으로 청구하는 전략도 고려합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신의칙은 예외적 법리이므로 증거가 핵심입니다. "사업주가 시효를 유도했다"는 정황이 명확할수록 유리합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">신의칙 주장은 가능한 한 소송에서 다투어야 합니다.</strong></p>\n<ul>\n<li><strong>소 제기</strong> — 임금 지급 청구 소송을 제기하면서 "피고의 소멸시효 항변은 신의칙에 반하여 허용될 수 없다"고 주장합니다.</li>\n<li><strong>입증 전략</strong> — 시효 기간 중 사업주의 행위(약속, 기망, 방해)를 시간순으로 정리하여 제출합니다.</li>\n<li><strong>예비적 청구</strong> — 신의칙 주장이 받아들여지지 않을 경우를 대비하여, 불법행위 손해배상(10년 시효)을 예비적으로 청구하는 전략도 고려합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신의칙은 예외적 법리이므로 증거가 핵심입니다. "사업주가 시효를 유도했다"는 정황이 명확할수록 유리합니다.</blockquote>',
       },
     ],
     cases: [

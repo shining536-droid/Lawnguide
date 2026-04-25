@@ -35,12 +35,12 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '180일 요건의 법적 근거와 기산점',
         content:
-          '<p><strong style="color:#1e3a5f">실업급여(구직급여)는 이직일 이전 18개월 동안 피보험단위기간이 통산 180일 이상이어야 수급 자격이 인정됩니다.</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 고용보험법 제40조 제1항 제1호는 이직일 이전 18개월간 피보험단위기간 180일 이상을 구직급여 수급요건으로 규정합니다.</li>\n<li><strong>기산점은 이직일</strong> — 신청일이 아니라 퇴사한 날(이직일)이 기준입니다. 이직일로부터 18개월을 역산해 그 기간 내 피보험단위기간을 계산합니다.</li>\n<li><strong>피보험단위기간의 정의</strong> — 고용보험에 가입된 상태에서 임금을 지급받은 날로, 단순 재직일과 다릅니다. 무급 휴직일·결근일은 제외됩니다.</li>\n<li><strong>18개월의 연장</strong> — 질병·부상·임신·출산 등으로 근로를 제공할 수 없었던 기간이 30일 이상이면 그 일수만큼 18개월이 연장될 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 퇴사일 기준으로 역산 18개월 안에 유급으로 일한 날이 통산 180일 이상이어야 신청 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">실업급여(구직급여)는 이직일 이전 18개월 동안 피보험단위기간이 통산 180일 이상이어야 수급 자격이 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 고용보험법 제40조 제1항 제1호는 이직일 이전 18개월간 피보험단위기간 180일 이상을 구직급여 수급요건으로 규정합니다.</li>\n<li><strong>기산점은 이직일</strong> — 신청일이 아니라 퇴사한 날(이직일)이 기준입니다. 이직일로부터 18개월을 역산해 그 기간 내 피보험단위기간을 계산합니다.</li>\n<li><strong>피보험단위기간의 정의</strong> — 고용보험에 가입된 상태에서 임금을 지급받은 날로, 단순 재직일과 다릅니다. 무급 휴직일·결근일은 제외됩니다.</li>\n<li><strong>18개월의 연장</strong> — 질병·부상·임신·출산 등으로 근로를 제공할 수 없었던 기간이 30일 이상이면 그 일수만큼 18개월이 연장될 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 퇴사일 기준으로 역산 18개월 안에 유급으로 일한 날이 통산 180일 이상이어야 신청 가능합니다.</blockquote>',
       },
       {
         title: '유급일 산정 방식 — 주휴일·연차·공휴일도 포함',
         content:
-          '<p><strong style="color:#1e3a5f">피보험단위기간은 실제 출근일이 아니라 유급 처리된 모든 날을 합산합니다.</strong></p>\n<ul>\n<li><strong>주 5일 근무자의 유급일</strong> — 주 5일 출근자도 주휴일(보통 일요일)이 유급으로 처리되므로 주 6일이 피보험단위기간으로 인정됩니다.</li>\n<li><strong>연차·공가 포함</strong> — 연차휴가·공가·출산휴가 등 유급으로 처리된 모든 날이 포함됩니다.</li>\n<li><strong>환산 기준</strong> — 주 5일 근무자는 약 30주(7개월)면 180일이 차며, 단시간 근로자는 주 소정근로시간 비례로 계산됩니다.</li>\n<li><strong>제외되는 날</strong> — 무급 휴직, 무급 결근, 주 15시간 미만 단시간 근로일은 제외되거나 감액 계산됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 180일 요건 충족 여부를 유급일 기준으로 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">피보험단위기간은 실제 출근일이 아니라 유급 처리된 모든 날을 합산합니다.</strong></p>\n<ul>\n<li><strong>주 5일 근무자의 유급일</strong> — 주 5일 출근자도 주휴일(보통 일요일)이 유급으로 처리되므로 주 6일이 피보험단위기간으로 인정될 수 있습니다.</li>\n<li><strong>연차·공가 포함</strong> — 연차휴가·공가·출산휴가 등 유급으로 처리된 모든 날이 포함됩니다.</li>\n<li><strong>환산 기준</strong> — 주 5일 근무자는 약 30주(7개월)면 180일이 차며, 단시간 근로자는 주 소정근로시간 비례로 계산됩니다.</li>\n<li><strong>제외되는 날</strong> — 무급 휴직, 무급 결근, 주 15시간 미만 단시간 근로일은 제외되거나 감액 계산됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 180일 요건 충족 여부를 유급일 기준으로 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '여러 회사 근무 이력 합산 규칙',
@@ -59,19 +59,19 @@ export const spokesBatch37Labor: SpokePage[] = [
         summary:
           '대법원 2018두47264 사건(대법원, 2021.03.18 선고)에서 법원은 고용보험법상 구직급여 청구권의 수급자격 판단은 이직일을 기준으로 하며, 이직일을 기준으로 피보험단위기간과 수급기간이 계산된다는 원칙을 확인했습니다.',
         takeaway:
-          '180일 요건 충족 여부는 반드시 퇴사일(이직일)을 기준으로 역산 18개월 내 유급일을 합산해 판단해야 하며, 퇴사 전 재직 이력의 고용보험 가입 여부를 꼼꼼히 확인하는 것이 중요합니다.',
+          '180일 요건 충족 여부는 가능한 한 퇴사일(이직일)을 기준으로 역산 18개월 내 유급일을 합산해 판단해야 하며, 퇴사 전 재직 이력의 고용보험 가입 여부를 꼼꼼히 확인하는 것이 중요합니다.',
       },
     ],
     faq: [
       {
         question: '주 5일 근무로 몇 개월이면 180일이 채워지나요?',
         answer:
-          '<strong>약 7개월(30주)이면 180일이 채워집니다.</strong> 주 5일 근무자도 주휴일이 유급으로 포함되므로 주 6일이 인정됩니다. 30주 × 6일 = 180일입니다. 연차·공휴일 사용 여부에 따라 다소 차이가 있을 수 있습니다.',
+          '<strong>약 7개월(30주)이면 180일이 채워집니다.</strong> 주 5일 근무자도 주휴일이 유급으로 포함되므로 주 6일이 인정될 수 있습니다. 30주 × 6일 = 180일입니다. 연차·공휴일 사용 여부에 따라 다소 차이가 있을 수 있습니다.',
       },
       {
         question: '수습기간도 180일에 포함되나요?',
         answer:
-          '<strong>네, 수습기간도 고용보험에 가입되어 있다면 포함됩니다.</strong> 수습 여부와 관계없이 임금을 지급받고 고용보험에 가입된 날이면 피보험단위기간에 포함됩니다. 고용보험 가입 여부를 반드시 확인하세요.',
+          '<strong>네, 수습기간도 고용보험에 가입되어 있다면 포함됩니다.</strong> 수습 여부와 관계없이 임금을 지급받고 고용보험에 가입된 날이면 피보험단위기간에 포함됩니다. 고용보험 가입 여부를 가능한 한 확인하세요.',
       },
       {
         question: '전 직장 퇴직금이 정산됐는데 합산 가능한가요?',
@@ -127,7 +127,7 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '임신·출산이 수급기간 연장 사유가 되는 법적 근거',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 시행령 제66조는 임신·출산·육아를 수급기간 연장 사유로 명시적으로 규정하고 있습니다.</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 고용보험법 제48조 제2항과 시행령 제66조는 본인의 질병·부상, 임신·출산·육아 등으로 즉시 재취업이 어려운 경우 수급기간을 연장할 수 있다고 규정합니다.</li>\n<li><strong>수급기간의 원칙</strong> — 원래 수급기간은 이직일 다음 날부터 12개월이며, 이 기간 내에 소정급여일수를 모두 받아야 합니다.</li>\n<li><strong>연장의 효과</strong> — 임신·출산 사유로 인한 연장 기간 동안은 급여 지급이 일시 정지되며, 사유 해소 후 남은 일수만큼 재개됩니다.</li>\n<li><strong>최대 4년</strong> — 모든 연장 사유를 합산해도 총 수급기간은 4년을 넘을 수 없습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 임신·출산은 법이 보장하는 연장 사유이며, 자격 상실로 이어지지 않습니다. 반드시 사전에 연장 신청을 해야 보호됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 시행령 제66조는 임신·출산·육아를 수급기간 연장 사유로 명시적으로 규정하고 있습니다.</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 고용보험법 제48조 제2항과 시행령 제66조는 본인의 질병·부상, 임신·출산·육아 등으로 즉시 재취업이 어려운 경우 수급기간을 연장할 수 있다고 규정합니다.</li>\n<li><strong>수급기간의 원칙</strong> — 원래 수급기간은 이직일 다음 날부터 12개월이며, 이 기간 내에 소정급여일수를 모두 받아야 합니다.</li>\n<li><strong>연장의 효과</strong> — 임신·출산 사유로 인한 연장 기간 동안은 급여 지급이 일시 정지되며, 사유 해소 후 남은 일수만큼 재개됩니다.</li>\n<li><strong>최대 4년</strong> — 모든 연장 사유를 합산해도 총 수급기간은 4년을 넘을 수 없습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 임신·출산은 법이 보장하는 연장 사유이며, 자격 상실로 이어지지 않습니다. 가능한 한 사전에 연장 신청을 해야 보호됩니다.</blockquote>',
       },
       {
         title: '연장 신청 시기와 필수 서류',
@@ -137,7 +137,7 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '출산휴가 급여와의 관계 — 중복 수령 불가',
         content:
-          '<p><strong style="color:#1e3a5f">출산휴가 급여와 실업급여는 동시에 받을 수 없으며, 출산휴가 급여가 지급되는 기간에는 실업급여가 자동 정지됩니다.</strong></p>\n<ul>\n<li><strong>동시 수령 금지</strong> — 고용보험법에서는 출산전후휴가 급여·육아휴직 급여와 구직급여를 중복 지급하지 않습니다.</li>\n<li><strong>전환 선택 가능</strong> — 퇴사 직후 출산한 경우 출산전후휴가 급여 수급 조건을 갖추고 있다면 그 급여를 먼저 받고, 이후 실업급여를 연장된 범위에서 받을 수 있습니다.</li>\n<li><strong>유리한 쪽 선택</strong> — 두 급여의 일일 지급액과 지급 기간을 비교해 총 수령액이 큰 쪽을 우선 선택하는 것이 실무적입니다.</li>\n<li><strong>사전 확인 필수</strong> — 출산휴가 급여 수급요건을 갖추었는지 고용센터 또는 건강보험공단에서 미리 확인하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 출산휴가 급여와 실업급여 중 먼저 받은 쪽을 바꾸기는 어렵습니다. 신청 전에 반드시 상담하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">출산휴가 급여와 실업급여는 동시에 받을 수 없으며, 출산휴가 급여가 지급되는 기간에는 실업급여가 자동 정지됩니다.</strong></p>\n<ul>\n<li><strong>동시 수령 금지</strong> — 고용보험법에서는 출산전후휴가 급여·육아휴직 급여와 구직급여를 중복 지급하지 않습니다.</li>\n<li><strong>전환 선택 가능</strong> — 퇴사 직후 출산한 경우 출산전후휴가 급여 수급 조건을 갖추고 있다면 그 급여를 먼저 받고, 이후 실업급여를 연장된 범위에서 받을 수 있습니다.</li>\n<li><strong>유리한 쪽 선택</strong> — 두 급여의 일일 지급액과 지급 기간을 비교해 총 수령액이 큰 쪽을 우선 선택하는 것이 실무적입니다.</li>\n<li><strong>사전 확인 필수</strong> — 출산휴가 급여 수급요건을 갖추었는지 고용센터 또는 건강보험공단에서 미리 확인하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 출산휴가 급여와 실업급여 중 먼저 받은 쪽을 바꾸기는 어렵습니다. 신청 전에 가능한 한 상담하세요.</blockquote>',
       },
       {
         title: '사유 해소 후 급여 재개 방법',
@@ -219,7 +219,7 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '간이대지급금 제도의 법적 근거와 지원 한도',
         content:
-          '<p><strong style="color:#1e3a5f">임금채권보장법은 체불 임금·퇴직금에 대해 국가가 사업주를 대신해 일부를 선지급하는 제도를 규정하고 있습니다.</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 임금채권보장법 제7조의2와 시행령은 재직자·퇴직자 모두에게 간이대지급금을 지급할 수 있도록 규정합니다.</li>\n<li><strong>지급 한도</strong> — 임금·퇴직금 합산 최대 1,000만 원이며, 이 중 퇴직금 항목은 700만 원 한도입니다.</li>\n<li><strong>선지급의 성격</strong> — 국가가 먼저 근로자에게 지급하고, 이후 사업주에게 구상권을 행사합니다. 사업주 재산 유무와 관계없이 지급됩니다.</li>\n<li><strong>일반 대지급금과 차이</strong> — 회사가 도산한 경우엔 일반 대지급금 절차로 진행되며, 한도·요건이 다릅니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 간이대지급금은 회사 재산 유무와 무관하게 국가가 선지급합니다. 포기하지 말고 반드시 신청하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금채권보장법은 체불 임금·퇴직금에 대해 국가가 사업주를 대신해 일부를 선지급하는 제도를 규정하고 있습니다.</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 임금채권보장법 제7조의2와 시행령은 재직자·퇴직자 모두에게 간이대지급금을 지급할 수 있도록 규정합니다.</li>\n<li><strong>지급 한도</strong> — 임금·퇴직금 합산 최대 1,000만 원이며, 이 중 퇴직금 항목은 700만 원 한도입니다.</li>\n<li><strong>선지급의 성격</strong> — 국가가 먼저 근로자에게 지급하고, 이후 사업주에게 구상권을 행사합니다. 사업주 재산 유무와 관계없이 지급됩니다.</li>\n<li><strong>일반 대지급금과 차이</strong> — 회사가 도산한 경우엔 일반 대지급금 절차로 진행되며, 한도·요건이 다릅니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 간이대지급금은 회사 재산 유무와 무관하게 국가가 선지급합니다. 포기하지 말고 가능한 한 신청하세요.</blockquote>',
       },
       {
         title: '신청 요건 — 체불확인서 또는 확정판결',
@@ -321,7 +321,7 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '지연이자·소멸시효 주의',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직금 차액은 지연이자(연 20%)를 함께 청구할 수 있고, 소멸시효는 퇴직일로부터 3년입니다.</strong></p>\n<ul>\n<li><strong>지연이자</strong> — 근로기준법 제37조: 퇴직일 다음 날부터 14일 이내 미지급 시 연 20%의 지연이자가 발생합니다.</li>\n<li><strong>소멸시효 3년</strong> — 근로기준법 제49조: 임금·퇴직금 청구권은 3년이 지나면 소멸합니다.</li>\n<li><strong>시효 중단</strong> — 민사소송 제기, 지급명령 신청, 내용증명 발송 등으로 시효가 중단됩니다.</li>\n<li><strong>장기 체불 시 이익</strong> — 3년 가까이 된 체불 건은 지연이자만으로도 큰 금액이 되므로, 반드시 이자까지 계산해 청구하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 노동청 진정만으로는 시효 중단 효력이 약할 수 있습니다. 병행해서 민사 절차까지 진행하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직금 차액은 지연이자(연 20%)를 함께 청구할 수 있고, 소멸시효는 퇴직일로부터 3년입니다.</strong></p>\n<ul>\n<li><strong>지연이자</strong> — 근로기준법 제37조: 퇴직일 다음 날부터 14일 이내 미지급 시 연 20%의 지연이자가 발생합니다.</li>\n<li><strong>소멸시효 3년</strong> — 근로기준법 제49조: 임금·퇴직금 청구권은 3년이 지나면 소멸합니다.</li>\n<li><strong>시효 중단</strong> — 민사소송 제기, 지급명령 신청, 내용증명 발송 등으로 시효가 중단됩니다.</li>\n<li><strong>장기 체불 시 이익</strong> — 3년 가까이 된 체불 건은 지연이자만으로도 큰 금액이 되므로, 가능한 한 이자까지 계산해 청구하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 노동청 진정만으로는 시효 중단 효력이 약할 수 있습니다. 병행해서 민사 절차까지 진행하세요.</blockquote>',
       },
     ],
     cases: [
@@ -480,12 +480,12 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '대기시간과 휴게시간의 법적 구분',
         content:
-          '<p><strong style="color:#1e3a5f">대기시간은 근로시간에 포함되고, 휴게시간은 근로시간에서 제외된다는 점이 가장 큰 차이입니다.</strong></p>\n<ul>\n<li><strong>대기시간의 정의</strong> — 근로기준법 제50조 제3항: 근로시간에는 근로자가 사용자의 지휘·감독 아래 있는 대기시간이 포함됩니다.</li>\n<li><strong>휴게시간의 정의</strong> — 근로기준법 제54조: 근로자가 자유롭게 사용할 수 있는 시간이어야 합니다. 식사·외출 등 자유 이용이 보장되어야 휴게시간입니다.</li>\n<li><strong>핵심 판단 요소</strong> — 장소 이탈 가능 여부, 호출 복귀 의무 여부, 사용자 지휘·감독의 지속성.</li>\n<li><strong>명칭의 무의미</strong> — 회사가 "휴게시간"이라고 불러도 실질이 대기시간이면 근로시간으로 인정됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 자유 이용 가능성이 없으면 대기시간, 자유 이용이 보장되면 휴게시간입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">대기시간은 근로시간에 포함되고, 휴게시간은 근로시간에서 제외된다는 점이 가장 큰 차이입니다.</strong></p>\n<ul>\n<li><strong>대기시간의 정의</strong> — 근로기준법 제50조 제3항: 근로시간에는 근로자가 사용자의 지휘·감독 아래 있는 대기시간이 포함됩니다.</li>\n<li><strong>휴게시간의 정의</strong> — 근로기준법 제54조: 근로자가 자유롭게 사용할 수 있는 시간이어야 합니다. 식사·외출 등 자유 이용이 보장되어야 휴게시간입니다.</li>\n<li><strong>핵심 판단 요소</strong> — 장소 이탈 가능 여부, 호출 복귀 의무 여부, 사용자 지휘·감독의 지속성.</li>\n<li><strong>명칭의 무의미</strong> — 회사가 "휴게시간"이라고 불러도 실질이 대기시간이면 근로시간으로 인정될 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 자유 이용 가능성이 없으면 대기시간, 자유 이용이 보장되면 휴게시간입니다.</blockquote>',
       },
       {
         title: '대표적인 근로시간 인정 사례',
         content:
-          '<p><strong style="color:#1e3a5f">실무에서 대기시간이 근로시간으로 인정되는 대표적 상황들은 다음과 같습니다.</strong></p>\n<ul>\n<li><strong>운전직 대기</strong> — 다음 배차를 기다리며 차량·대기실에서 머무는 시간은 근로시간으로 인정됩니다.</li>\n<li><strong>경비원 야간 대기</strong> — 야간 순찰 사이 대기시간도 사용자의 지휘·감독이 지속되면 근로시간입니다.</li>\n<li><strong>판매직 고객 대기</strong> — 매장 내 고객 응대를 위해 대기하는 시간은 근로시간입니다.</li>\n<li><strong>교대 대기</strong> — 교대 근무자 간 인수인계를 위한 대기시간도 근로시간입니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 대기시간이 근로시간에 포함되는지 분석해드립니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">실무에서 대기시간이 근로시간으로 인정되는 대표적 상황들은 다음과 같습니다.</strong></p>\n<ul>\n<li><strong>운전직 대기</strong> — 다음 배차를 기다리며 차량·대기실에서 머무는 시간은 근로시간으로 인정될 수 있습니다.</li>\n<li><strong>경비원 야간 대기</strong> — 야간 순찰 사이 대기시간도 사용자의 지휘·감독이 지속되면 근로시간입니다.</li>\n<li><strong>판매직 고객 대기</strong> — 매장 내 고객 응대를 위해 대기하는 시간은 근로시간입니다.</li>\n<li><strong>교대 대기</strong> — 교대 근무자 간 인수인계를 위한 대기시간도 근로시간입니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 대기시간이 근로시간에 포함되는지 분석해드립니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '휴게시간 분할 운영의 위법성',
@@ -567,17 +567,17 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '해고 정당성의 법적 기준',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제23조는 해고에 정당한 이유가 있어야 하며, 사회통념상 고용관계를 계속할 수 없을 정도의 중대한 사유가 필요합니다.</strong></p>\n<ul>\n<li><strong>징계해고의 요건</strong> — 취업규칙 등에 징계 사유가 명시되어 있어야 하고, 사회통념상 정당성이 인정되어야 합니다.</li>\n<li><strong>비례의 원칙</strong> — 징계 수준은 비위의 경중에 비례해야 하며, 경미한 사안에 해고를 적용하면 양정 과다로 부당해고가 될 수 있습니다.</li>\n<li><strong>절차 준수</strong> — 취업규칙상 인사위원회·소명 기회 등 절차를 반드시 거쳐야 합니다.</li>\n<li><strong>서면 통지</strong> — 근로기준법 제27조: 해고 사유와 시기를 서면으로 통지해야 효력이 발생합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 해고가 정당하려면 사유의 중대성·비례성·절차 준수가 모두 충족되어야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제23조는 해고에 정당한 이유가 있어야 하며, 사회통념상 고용관계를 계속할 수 없을 정도의 중대한 사유가 필요합니다.</strong></p>\n<ul>\n<li><strong>징계해고의 요건</strong> — 취업규칙 등에 징계 사유가 명시되어 있어야 하고, 사회통념상 정당성이 인정되어야 합니다.</li>\n<li><strong>비례의 원칙</strong> — 징계 수준은 비위의 경중에 비례해야 하며, 경미한 사안에 해고를 적용하면 양정 과다로 부당해고가 될 수 있습니다.</li>\n<li><strong>절차 준수</strong> — 취업규칙상 인사위원회·소명 기회 등 절차를 가능한 한 거쳐야 합니다.</li>\n<li><strong>서면 통지</strong> — 근로기준법 제27조: 해고 사유와 시기를 서면으로 통지해야 효력이 발생합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 해고가 정당하려면 사유의 중대성·비례성·절차 준수가 모두 충족되어야 합니다.</blockquote>',
       },
       {
         title: '사실 적시 vs 허위 사실 — 징계 수위가 다릅니다',
         content:
-          '<p><strong style="color:#1e3a5f">사실을 적시한 경우와 허위 사실을 유포한 경우는 법적 평가와 징계 수위가 크게 다릅니다.</strong></p>\n<ul>\n<li><strong>사실 적시</strong> — 형법상 명예훼손죄가 성립할 수 있지만 공공의 이익을 위한 것이면 위법성이 조각됩니다(형법 제310조). 해고 정당성도 공익성·진실성에 따라 달라집니다.</li>\n<li><strong>허위 사실</strong> — 회사에 구체적 손해가 발생했다면 해고 정당성이 인정되기 쉽고, 형사적으로도 가중 처벌됩니다.</li>\n<li><strong>의견 표명</strong> — 단순 의견 표명·감정 표현은 사실 적시와 달리 명예훼손이 성립하지 않을 가능성이 있습니다.</li>\n<li><strong>공익성 판단</strong> — 내부 부조리·위법 행위를 고발하는 내용이라면 공익 목적이 인정되어 징계 정당성이 약해집니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 상황의 해고 정당성을 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사실을 적시한 경우와 허위 사실을 유포한 경우는 법적 평가와 징계 수위가 크게 다릅니다.</strong></p>\n<ul>\n<li><strong>사실 적시</strong> — 형법상 명예훼손죄가 성립할 수 있지만 공공의 이익을 위한 것이면 위법성이 조각됩니다(형법 제310조). 해고 정당성도 공익성·진실성에 따라 달라집니다.</li>\n<li><strong>허위 사실</strong> — 회사에 구체적 손해가 발생했다면 해고 정당성이 인정되기 쉽고, 형사적으로도 가중 처벌 대상으로 검토될 수 있습니다.</li>\n<li><strong>의견 표명</strong> — 단순 의견 표명·감정 표현은 사실 적시와 달리 명예훼손이 성립하지 않을 가능성이 있습니다.</li>\n<li><strong>공익성 판단</strong> — 내부 부조리·위법 행위를 고발하는 내용이라면 공익 목적이 인정되어 징계 정당성이 약해집니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인 상황의 해고 정당성을 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '회사 특정성 — 익명 게시도 처벌 가능',
         content:
-          '<p><strong style="color:#1e3a5f">익명 커뮤니티에 올린 글이라도 회사·직책·동료가 특정 가능하면 명예훼손이 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>특정성 기준</strong> — 글의 내용, 게시된 커뮤니티의 성격, 회사 규모 등을 종합적으로 고려해 제3자가 해당 회사·인물을 알 수 있는지 판단합니다.</li>\n<li><strong>블라인드 특징</strong> — 블라인드는 회사 인증 기반이므로 동종 업계·내부 구성원에게 특정성이 높게 인정됩니다.</li>\n<li><strong>추적 가능성</strong> — 경찰·검찰 수사 단계에서 IP·계정 추적이 이루어지면 작성자 신원이 드러날 수 있습니다.</li>\n<li><strong>증거 제출 의무</strong> — 회사가 해고 사유로 특정성을 주장하려면 글 내용·게시 시각·특정성 근거 자료를 제시해야 합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "익명이니 안전하다"는 오판은 위험합니다. 작성 단계부터 특정성·사실성·표현 수위를 점검해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">익명 커뮤니티에 올린 글이라도 회사·직책·동료가 특정 가능하면 명예훼손이 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>특정성 기준</strong> — 글의 내용, 게시된 커뮤니티의 성격, 회사 규모 등을 종합적으로 고려해 제3자가 해당 회사·인물을 알 수 있는지 판단합니다.</li>\n<li><strong>블라인드 특징</strong> — 블라인드는 회사 인증 기반이므로 동종 업계·내부 구성원에게 특정성이 높게 인정될 수 있습니다.</li>\n<li><strong>추적 가능성</strong> — 경찰·검찰 수사 단계에서 IP·계정 추적이 이루어지면 작성자 신원이 드러날 수 있습니다.</li>\n<li><strong>증거 제출 의무</strong> — 회사가 해고 사유로 특정성을 주장하려면 글 내용·게시 시각·특정성 근거 자료를 제시해야 합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "익명이니 안전하다"는 오판은 위험합니다. 작성 단계부터 특정성·사실성·표현 수위를 점검해야 합니다.</blockquote>',
       },
       {
         title: '해고 후 구제 절차 — 3개월 이내 노동위원회',

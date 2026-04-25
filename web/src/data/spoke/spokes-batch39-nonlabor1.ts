@@ -15,10 +15,10 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
     meta: {
       title: '가정폭력 이혼 증거 수집 체크리스트 | 로앤가이드',
       description:
-        '가정폭력 이혼에서 반드시 확보해야 할 증거를 정리했습니다. 의료기록·녹취·112 기록까지 체계적으로 지금 확인하세요.',
+        '가정폭력 이혼에서 가능한 한 확보해야 할 증거를 정리했습니다. 의료기록·녹취·112 기록까지 체계적으로 지금 확인하세요.',
     },
     intro:
-      '<p>가정폭력으로 이혼을 결심한 순간 가장 중요한 것은 증거 확보입니다. 증거가 부실하면 법원에서 위자료·양육권·보호명령 등에서 불리해질 수 있어 체계적·안전하게 증거를 수집해야 합니다. 실무에서 반드시 확보해야 할 자료와 순서를 정리합니다.</p>',
+      '<p>가정폭력으로 이혼을 결심한 순간 가장 중요한 것은 증거 확보입니다. 증거가 부실하면 법원에서 위자료·양육권·보호명령 등에서 불리해질 수 있어 체계적·안전하게 증거를 수집해야 합니다. 실무에서 가능한 한 확보해야 할 자료와 순서를 정리합니다.</p>',
     sections: [
       {
         title: '의료 기록 — 가장 객관적인 핵심 증거',
@@ -197,7 +197,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       {
         title: '일시불 양육비 — 장점과 단점',
         content:
-          '<p><strong style="color:#1e3a5f">일시불은 수령 확실성이 크지만 향후 조정이 어려운 단점이 있습니다.</strong></p>\n<ul>\n<li><strong>장점</strong> — 즉시 전액 확보·상대방 자산 악화 리스크 방지.</li>\n<li><strong>단점</strong> — 자녀 성장에 따른 비용 증가 반영 어려움.</li>\n<li><strong>증액 청구</strong> — 일시불 합의서에 증액 청구 유보 조항 필수.</li>\n<li><strong>세금 영향</strong> — 세법상 양육비는 과세 제외지만 별도 증빙 준비.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 일시불 합의 전 반드시 장래 증액 청구권 유보 조항을 포함하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">일시불은 수령 확실성이 크지만 향후 조정이 어려운 단점이 있습니다.</strong></p>\n<ul>\n<li><strong>장점</strong> — 즉시 전액 확보·상대방 자산 악화 리스크 방지.</li>\n<li><strong>단점</strong> — 자녀 성장에 따른 비용 증가 반영 어려움.</li>\n<li><strong>증액 청구</strong> — 일시불 합의서에 증액 청구 유보 조항 필수.</li>\n<li><strong>세금 영향</strong> — 세법상 양육비는 과세 제외지만 별도 증빙 준비.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 일시불 합의 전 가능한 한 장래 증액 청구권 유보 조항을 포함하세요.</blockquote>',
       },
       {
         title: '월정액 vs 일시불 — 비교',
@@ -238,12 +238,12 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       {
         question: '공정증서 없이 받아도 되나요?',
         answer:
-          '<strong>가능하지만 집행이 어려워 분쟁 시 불리합니다.</strong> 반드시 공정증서 작성을 권장합니다.',
+          '<strong>가능하지만 집행이 어려워 분쟁 시 불리합니다.</strong> 가능한 한 공정증서 작성을 권장합니다.',
       },
       {
         question: '상대방이 파산 위험 있으면 일시불이 유리한가요?',
         answer:
-          '<strong>네, 수령 확실성이 크므로 일시불이 유리할 수 있습니다.</strong> 다만 증액 청구권 유보는 반드시 확보.',
+          '<strong>네, 수령 확실성이 크므로 일시불이 유리할 수 있습니다.</strong> 다만 증액 청구권 유보는 가능한 한 확보.',
       },
       {
         question: '양육비 산정기준표는 어디서 보나요?',
@@ -581,7 +581,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       {
         question: '내 과실이 0이어도 다툴 여지 있나요?',
         answer:
-          '<strong>보험사의 과실 주장에는 반드시 블랙박스·CCTV 영상으로 반박하세요.</strong>',
+          '<strong>보험사의 과실 주장에는 가능한 한 블랙박스·CCTV 영상으로 반박하세요.</strong>',
       },
       {
         question: '도로공사 책임도 물을 수 있나요?',
@@ -647,7 +647,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       {
         title: '실무 대응 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">긴급자동차 사고는 일반 사고와 청구 절차가 달라 별도 체크리스트가 필요합니다.</strong></p>\n<ul>\n<li><strong>경찰 신고</strong> — 일반 교통사고처럼 경찰 신고.</li>\n<li><strong>상대 기관 확인</strong> — 소방서·경찰서·119 소속 여부.</li>\n<li><strong>블랙박스 보존</strong> — 긴급주행 입증에 필수.</li>\n<li><strong>법률 상담</strong> — 국가배상·긴급특례 복합 쟁점.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 긴급자동차 사고는 "내 잘못이라 포기"하지 말고 반드시 법률 상담을 받으세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">긴급자동차 사고는 일반 사고와 청구 절차가 달라 별도 체크리스트가 필요합니다.</strong></p>\n<ul>\n<li><strong>경찰 신고</strong> — 일반 교통사고처럼 경찰 신고.</li>\n<li><strong>상대 기관 확인</strong> — 소방서·경찰서·119 소속 여부.</li>\n<li><strong>블랙박스 보존</strong> — 긴급주행 입증에 필수.</li>\n<li><strong>법률 상담</strong> — 국가배상·긴급특례 복합 쟁점.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 긴급자동차 사고는 "내 잘못이라 포기"하지 말고 가능한 한 법률 상담을 받으세요.</blockquote>',
       },
     ],
     cases: [
@@ -656,7 +656,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
         summary:
           '대법원 2024다206521 사건(대법원, 2024.09.26 선고)에서 법원은 긴급자동차라도 안전 주행 의무가 완전히 면제되지 않으며 통상 차량과의 과실 판단에서 경광등·사이렌 작동 여부가 핵심 기준이라고 판시했습니다.',
         takeaway:
-          '긴급자동차 사고는 특례가 있어도 과실 0은 드물며 반드시 입증 절차가 필요합니다.',
+          '긴급자동차 사고는 특례가 있어도 과실 0은 드물며 가능한 한 입증 절차가 필요합니다.',
       },
     ],
     faq: [
@@ -770,7 +770,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       {
         question: '미착용 인정 후 합의해도 다툴 수 있나요?',
         answer:
-          '<strong>합의 전 반드시 변호사 상담을 받고 서명하세요.</strong>',
+          '<strong>합의 전 가능한 한 변호사 상담을 받고 서명하세요.</strong>',
       },
     ],
     cta: {
@@ -1031,7 +1031,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       {
         question: '피해 금액이 적어도 신고하나요?',
         answer:
-          '<strong>네, 반드시 신고해야 유사 피해 확산을 막을 수 있습니다.</strong>',
+          '<strong>네, 가능한 한 신고해야 유사 피해 확산을 막을 수 있습니다.</strong>',
       },
     ],
     cta: {
@@ -1067,7 +1067,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       {
         title: '보이스피싱 보험 — 가입 현황과 유형',
         content:
-          '<p><strong style="color:#1e3a5f">은행 자동 가입 보험, 민간 생활보험 특약, 단체 보험 등 다양한 상품이 있습니다.</strong></p>\n<ul>\n<li><strong>은행 자동 가입</strong> — 일부 은행 고객 대상 자동 보장.</li>\n<li><strong>생활보험 특약</strong> — 금융사기 보장 특약.</li>\n<li><strong>단체 보험</strong> — 기업·협회 단체 가입.</li>\n<li><strong>가입 확인</strong> — 본인 가입 여부를 각 보험사에 조회.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 본인도 모르는 보험이 있을 수 있으므로 반드시 모든 보험사에 조회하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">은행 자동 가입 보험, 민간 생활보험 특약, 단체 보험 등 다양한 상품이 있습니다.</strong></p>\n<ul>\n<li><strong>은행 자동 가입</strong> — 일부 은행 고객 대상 자동 보장.</li>\n<li><strong>생활보험 특약</strong> — 금융사기 보장 특약.</li>\n<li><strong>단체 보험</strong> — 기업·협회 단체 가입.</li>\n<li><strong>가입 확인</strong> — 본인 가입 여부를 각 보험사에 조회.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 본인도 모르는 보험이 있을 수 있으므로 가능한 한 모든 보험사에 조회하세요.</blockquote>',
       },
       {
         title: '청구 요건·한도',
@@ -1205,7 +1205,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       {
         question: '소액 피해도 신고해야 하나요?',
         answer:
-          '<strong>네, 반드시 신고해야 유사 피해 확산을 막고 사업자 추적이 가능해집니다.</strong>',
+          '<strong>네, 가능한 한 신고해야 유사 피해 확산을 막고 사업자 추적이 가능해집니다.</strong>',
       },
     ],
     cta: {

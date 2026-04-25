@@ -63,7 +63,7 @@ export const schoolViolencePages: SpokePage[] = [
       {
         question: '학교 밖에서 발생한 폭력도 학교폭력인가요?',
         answer:
-          '네, 학생 간에 발생한 것이면 <strong>장소와 무관하게</strong> 학교폭력에 해당합니다.',
+          '네, 학생 간에 발생한 것이면 <strong>장소와 무관하게</strong> 학교폭력에 해당할 소지가 있습니다.',
       },
       {
         question: '가해학생 조치는 학생부에 기록되나요?',
@@ -88,7 +88,7 @@ export const schoolViolencePages: SpokePage[] = [
       {
         question: '사이버 폭력(카톡 단톡방 따돌림 등)도 신고 대상인가요?',
         answer:
-          '네, <strong>사이버 따돌림, 악성 메시지, 허위 사실 유포</strong> 등도 학교폭력에 해당합니다.',
+          '네, <strong>사이버 따돌림, 악성 메시지, 허위 사실 유포</strong> 등도 학교폭력에 해당할 소지가 있습니다.',
       },
       {
         question: '무료 법률상담은 어디서 받나요?',
@@ -471,7 +471,7 @@ export const schoolViolencePages: SpokePage[] = [
       {
         title: '조치에 불복하려면 재심과 행정소송을 활용하세요',
         content:
-          '<p><strong style="color:#1e3a5f">부당한 조치를 받았다면 15일 이내에 재심을 청구할 수 있습니다</strong></p>\n<p>심의위원회의 조치 결과에 불복하는 경우 <strong>조치 통보를 받은 날로부터 15일 이내</strong>에 시·도 <strong>학생징계조정위원회</strong>에 재심을 청구해야 합니다. 재심에서도 기각되면 <strong>행정소송</strong>을 제기할 수 있으며, 소송 기한은 재심 결과 통보일로부터 <strong>90일 이내</strong>입니다.</p>\n<p>재심 청구 시에는 기존 심의에서 제출한 증거에 더해 <strong>새로운 증거</strong>(추가 목격자 진술, 전문가 소견 등)를 보강하는 것이 효과적입니다. 행정소송 단계에서는 반드시 변호사의 조력을 받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불복: 재심 15일 이내(학생징계조정위원회) → 행정소송 90일 이내 | 새 증거 보강 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">부당한 조치를 받았다면 15일 이내에 재심을 청구할 수 있습니다</strong></p>\n<p>심의위원회의 조치 결과에 불복하는 경우 <strong>조치 통보를 받은 날로부터 15일 이내</strong>에 시·도 <strong>학생징계조정위원회</strong>에 재심을 청구해야 합니다. 재심에서도 기각되면 <strong>행정소송</strong>을 제기할 수 있으며, 소송 기한은 재심 결과 통보일로부터 <strong>90일 이내</strong>입니다.</p>\n<p>재심 청구 시에는 기존 심의에서 제출한 증거에 더해 <strong>새로운 증거</strong>(추가 목격자 진술, 전문가 소견 등)를 보강하는 것이 효과적입니다. 행정소송 단계에서는 가능한 한 변호사의 조력을 받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불복: 재심 15일 이내(학생징계조정위원회) → 행정소송 90일 이내 | 새 증거 보강 필수</blockquote>',
       },
       {
         title: '허위 신고자에 대한 법적 조치도 검토하세요',
@@ -560,12 +560,12 @@ export const schoolViolencePages: SpokePage[] = [
       {
         title: '먼저 아이를 안정시키고 증거를 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">아이의 심리적 안정이 최우선이고, 동시에 증거 확보의 골든타임을 놓치면 안 됩니다</strong></p>\n<p>아이가 폭행을 당한 사실을 알게 되면, 먼저 <strong>아이를 안심시키세요</strong>. "네 잘못이 아니야", "엄마 아빠가 반드시 해결해줄게"라는 말이 중요합니다. 아이가 자책하거나 보복이 두려워 숨기는 경우가 많으므로, <strong>편안한 분위기</strong>에서 천천히 이야기를 들으세요.</p>\n<p>동시에 <strong>증거를 즉시 확보</strong>해야 합니다. ① 멍, 상처, 찢어진 옷 등을 <strong>사진·동영상으로 촬영</strong>(날짜 표시) ② <strong>병원에 가서 진단서</strong>를 발급받으세요(상해진단서, 치료비 영수증) ③ 아이의 진술을 <strong>육성 녹음 또는 메모</strong>로 기록(누가, 언제, 어디서, 어떻게 때렸는지)</p>\n<p>특히 <strong>진단서는 48시간 이내에 발급</strong>받는 것이 좋습니다. 시간이 지나면 상처가 치유되어 피해 정도를 입증하기 어려워집니다. 병원에서 <strong>"학교폭력 피해 사실"</strong>을 언급하면 진단서에 기재됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">골든타임: 아이 안정 → 상처 사진 촬영 → 48시간 내 진단서 발급 → 아이 진술 기록</blockquote>',
+          '<p><strong style="color:#1e3a5f">아이의 심리적 안정이 최우선이고, 동시에 증거 확보의 골든타임을 놓치면 안 됩니다</strong></p>\n<p>아이가 폭행을 당한 사실을 알게 되면, 먼저 <strong>아이를 안심시키세요</strong>. "네 잘못이 아니야", "엄마 아빠가 가능한 한 해결해줄게"라는 말이 중요합니다. 아이가 자책하거나 보복이 두려워 숨기는 경우가 많으므로, <strong>편안한 분위기</strong>에서 천천히 이야기를 들으세요.</p>\n<p>동시에 <strong>증거를 즉시 확보</strong>해야 합니다. ① 멍, 상처, 찢어진 옷 등을 <strong>사진·동영상으로 촬영</strong>(날짜 표시) ② <strong>병원에 가서 진단서</strong>를 발급받으세요(상해진단서, 치료비 영수증) ③ 아이의 진술을 <strong>육성 녹음 또는 메모</strong>로 기록(누가, 언제, 어디서, 어떻게 때렸는지)</p>\n<p>특히 <strong>진단서는 48시간 이내에 발급</strong>받는 것이 좋습니다. 시간이 지나면 상처가 치유되어 피해 정도를 입증하기 어려워집니다. 병원에서 <strong>"학교폭력 피해 사실"</strong>을 언급하면 진단서에 기재됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">골든타임: 아이 안정 → 상처 사진 촬영 → 48시간 내 진단서 발급 → 아이 진술 기록</blockquote>',
       },
       {
         title: '학교에 공식적으로 신고하세요',
         content:
-          '<p><strong style="color:#1e3a5f">학교폭력예방법에 따라 학교는 신고를 접수하고 즉시 조치할 의무가 있습니다</strong></p>\n<p>학교폭력예방 및 대책에 관한 법률(학교폭력예방법) 제20조에 따라 <strong>누구든지 학교폭력 사실을 알게 된 경우 학교에 신고</strong>할 수 있습니다. 담임교사에게 구두로 알리는 것만으로는 부족합니다. 반드시 <strong>서면(학교폭력 피해 신고서)</strong>으로 공식 접수하세요.</p>\n<p>신고 방법: ① <strong>학교 방문</strong>하여 학교폭력 피해 신고서 제출 ② <strong>117(학교폭력 신고센터)</strong>에 전화 ③ <strong>교육청 학교폭력 온라인 신고</strong>(Wee센터). 학교는 신고를 접수하면 <strong>14일 이내에 학교폭력 심의위원회(학폭위)</strong> 개최 여부를 결정해야 합니다.</p>\n<p>학교 신고 시 <strong>접수 확인서(접수번호, 접수일자)</strong>를 반드시 받으세요. 학교가 신고를 축소하거나 무마하려는 경우가 있으므로, <strong>서면 기록</strong>이 중요합니다. 학교가 적절히 대응하지 않으면 교육지원청에 직접 심의를 요청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 요령: 서면 신고서 제출 → 접수번호 확보 → 미대응 시 교육지원청 직접 신청</blockquote>',
+          '<p><strong style="color:#1e3a5f">학교폭력예방법에 따라 학교는 신고를 접수하고 즉시 조치할 의무가 있습니다</strong></p>\n<p>학교폭력예방 및 대책에 관한 법률(학교폭력예방법) 제20조에 따라 <strong>누구든지 학교폭력 사실을 알게 된 경우 학교에 신고</strong>할 수 있습니다. 담임교사에게 구두로 알리는 것만으로는 부족합니다. 가능한 한 <strong>서면(학교폭력 피해 신고서)</strong>으로 공식 접수하세요.</p>\n<p>신고 방법: ① <strong>학교 방문</strong>하여 학교폭력 피해 신고서 제출 ② <strong>117(학교폭력 신고센터)</strong>에 전화 ③ <strong>교육청 학교폭력 온라인 신고</strong>(Wee센터). 학교는 신고를 접수하면 <strong>14일 이내에 학교폭력 심의위원회(학폭위)</strong> 개최 여부를 결정해야 합니다.</p>\n<p>학교 신고 시 <strong>접수 확인서(접수번호, 접수일자)</strong>를 가능한 한 받으세요. 학교가 신고를 축소하거나 무마하려는 경우가 있으므로, <strong>서면 기록</strong>이 중요합니다. 학교가 적절히 대응하지 않으면 교육지원청에 직접 심의를 요청할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 요령: 서면 신고서 제출 → 접수번호 확보 → 미대응 시 교육지원청 직접 신청</blockquote>',
       },
       {
         title: '학교폭력 심의위원회(학폭위) 절차를 준비하세요',

@@ -112,7 +112,7 @@ export const spokesBatch17_6to10: SpokePage[] = [
       {
         title: '둘째, 30일분 통상임금을 계산하세요',
         content:
-          '<p><strong style="color:#1e3a5f">통상임금 = 기본급 + 정기적·일률적·고정적으로 지급되는 수당을 기준으로 계산합니다</strong></p>\n<p><strong>월급제</strong>인 경우: 해고예고수당 = 월 통상임금 × 1개월분. 예를 들어 월 통상임금이 300만원이면 해고예고수당은 <strong>300만원</strong>입니다.</p>\n<p><strong>시급제</strong>인 경우: 해고예고수당 = 1일 통상임금(시급 × 1일 소정근로시간) × 30일. 시급 10,030원, 1일 8시간 근무라면 10,030 × 8 × 30 = <strong>2,407,200원</strong>입니다.</p>\n<p>15일 전에 예고했다면 나머지 <strong>15일분</strong>만 지급하면 됩니다. 부분 예고도 인정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">월급제: 월 통상임금 × 1 | 시급제: 시급 × 8시간 × 30일 | 부분 예고 시 미예고 일수분만</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/dismissal" style="color:#1565c0;font-weight:600">내 해고 상황에 맞는 수당 계산과 청구 전략 확인하기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">통상임금 = 기본급 + 정기적·일률적·고정적으로 지급되는 수당을 기준으로 계산합니다</strong></p>\n<p><strong>월급제</strong>인 경우: 해고예고수당 = 월 통상임금 × 1개월분. 예를 들어 월 통상임금이 300만원이면 해고예고수당은 <strong>300만원</strong>입니다.</p>\n<p><strong>시급제</strong>인 경우: 해고예고수당 = 1일 통상임금(시급 × 1일 소정근로시간) × 30일. 시급 10,030원, 1일 8시간 근무라면 10,030 × 8 × 30 = <strong>2,407,200원</strong>입니다.</p>\n<p>15일 전에 예고했다면 나머지 <strong>15일분</strong>만 지급하면 됩니다. 부분 예고도 인정될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">월급제: 월 통상임금 × 1 | 시급제: 시급 × 8시간 × 30일 | 부분 예고 시 미예고 일수분만</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/dismissal" style="color:#1565c0;font-weight:600">내 해고 상황에 맞는 수당 계산과 청구 전략 확인하기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 3년 이내에 반드시 청구하세요',
@@ -146,7 +146,7 @@ export const spokesBatch17_6to10: SpokePage[] = [
       },
       {
         question: '구두로 해고 통보를 받았는데 해고예고수당을 받을 수 있나요?',
-        answer: '<strong>구두 해고도 해고에 해당합니다.</strong> 다만 입증이 어려울 수 있으므로, 해고 통보 내용을 녹음하거나 문자·이메일로 해고 사실을 확인하는 메시지를 보내두세요.',
+        answer: '<strong>구두 해고도 해고에 해당할 소지가 있습니다.</strong> 다만 입증이 어려울 수 있으므로, 해고 통보 내용을 녹음하거나 문자·이메일로 해고 사실을 확인하는 메시지를 보내두세요.',
       },
       {
         question: '권고사직도 해고예고수당 대상인가요?',
@@ -191,7 +191,7 @@ export const spokesBatch17_6to10: SpokePage[] = [
       {
         title: '둘째, 해고 절차를 위반하면 무효입니다',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제27조에 따라 해고는 반드시 서면으로 해고 사유와 해고 시기를 통지해야 합니다</strong></p>\n<p>회사가 <strong>해고 사유와 시기를 서면으로 통지하지 않은 해고</strong>는 그 자체로 무효입니다. 구두 통보, 문자 메시지만으로는 서면 통지 요건을 충족하지 못합니다.</p>\n<p>또한 취업규칙이나 단체협약에 징계위원회 절차가 규정되어 있다면, <strong>징계위원회를 거치지 않은 해고</strong>도 절차 위반으로 무효가 됩니다. 해고 통지서를 받지 못했다면 반드시 서면 교부를 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 서면 통지 필수(사유+시기 명시) | 징계위원회 미개최 시에도 무효</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/dismissal" style="color:#1565c0;font-weight:600">내 해고가 무효에 해당하는지 확인하기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제27조에 따라 해고는 반드시 서면으로 해고 사유와 해고 시기를 통지해야 합니다</strong></p>\n<p>회사가 <strong>해고 사유와 시기를 서면으로 통지하지 않은 해고</strong>는 그 자체로 무효입니다. 구두 통보, 문자 메시지만으로는 서면 통지 요건을 충족하지 못합니다.</p>\n<p>또한 취업규칙이나 단체협약에 징계위원회 절차가 규정되어 있다면, <strong>징계위원회를 거치지 않은 해고</strong>도 절차 위반으로 무효가 됩니다. 해고 통지서를 받지 못했다면 가능한 한 서면 교부를 요청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 서면 통지 필수(사유+시기 명시) | 징계위원회 미개최 시에도 무효</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/dismissal" style="color:#1565c0;font-weight:600">내 해고가 무효에 해당하는지 확인하기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 경영상 해고도 요건을 갖추지 않으면 무효입니다',
@@ -221,14 +221,14 @@ export const spokesBatch17_6to10: SpokePage[] = [
     faq: [
       {
         question: '수습 기간 중 해고도 부당해고에 해당할 수 있나요?',
-        answer: '<strong>수습 기간이라도 해고 제한이 적용됩니다.</strong> 다만 법원은 수습 기간 중 해고 기준을 다소 완화하여 적용합니다. 그러나 합리적 평가 없이 일방적으로 해고하면 부당해고로 인정됩니다.',
+        answer: '<strong>수습 기간이라도 해고 제한이 적용됩니다.</strong> 다만 법원은 수습 기간 중 해고 기준을 다소 완화하여 적용합니다. 그러나 합리적 평가 없이 일방적으로 해고하면 부당해고로 인정될 수 있습니다.',
       },
       {
         question: '구제신청 3개월 기한을 넘기면 방법이 없나요?',
         answer: '노동위원회 구제신청은 3개월이 지나면 각하되지만, <strong>민사법원에 해고무효확인 소송</strong>은 별도로 제기할 수 있습니다. 소멸시효(3년) 이내라면 임금 청구도 가능합니다.',
       },
       {
-        question: '해고 무효가 확정되면 회사에 반드시 복직해야 하나요?',
+        question: '해고 무효가 확정되면 회사에 가능한 한 복직해야 하나요?',
         answer: '복직이 곤란한 경우 <strong>금전보상명령</strong>을 신청할 수 있습니다. 해고기간 동안의 임금 상당액 이상의 금품을 회사로부터 받는 방식입니다.',
       },
       {
@@ -269,7 +269,7 @@ export const spokesBatch17_6to10: SpokePage[] = [
       {
         title: '첫째, 수급자격 인정 후 취업지원 설명회에 참석하세요',
         content:
-          '<p><strong style="color:#1e3a5f">고용센터에서 수급자격이 인정되면 취업지원 설명회(실업급여 교육)에 반드시 참석해야 합니다</strong></p>\n<p>수급자격 인정신청일로부터 <strong>14일 이내</strong>에 고용센터에서 취업지원 설명회가 진행됩니다. 이 교육에서 <strong>실업인정일 일정표, 구직활동 방법, 부정수급 주의사항</strong>을 안내받습니다.</p>\n<p>교육을 수료하지 않으면 첫 실업급여가 지급되지 않으므로 반드시 참석하세요. 교육 후 <strong>1차 실업인정일</strong>이 지정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수: 취업지원 설명회 참석 → 실업인정일 일정표 수령 → 1차 인정일 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용센터에서 수급자격이 인정되면 취업지원 설명회(실업급여 교육)에 가능한 한 참석해야 합니다</strong></p>\n<p>수급자격 인정신청일로부터 <strong>14일 이내</strong>에 고용센터에서 취업지원 설명회가 진행됩니다. 이 교육에서 <strong>실업인정일 일정표, 구직활동 방법, 부정수급 주의사항</strong>을 안내받습니다.</p>\n<p>교육을 수료하지 않으면 첫 실업급여가 지급되지 않으므로 가능한 한 참석하세요. 교육 후 <strong>1차 실업인정일</strong>이 지정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수: 취업지원 설명회 참석 → 실업인정일 일정표 수령 → 1차 인정일 확인</blockquote>',
       },
       {
         title: '둘째, 실업인정일마다 구직활동 실적을 제출하세요',
@@ -289,7 +289,7 @@ export const spokesBatch17_6to10: SpokePage[] = [
       {
         title: '다섯째, 부정수급에 해당하지 않도록 주의하세요',
         content:
-          '<p><strong style="color:#1e3a5f">허위 구직활동 신고 시 지급받은 급여의 최대 5배를 반환해야 합니다</strong></p>\n<p>고용보험법 제62조에 따라 거짓이나 부정한 방법으로 구직급여를 받은 경우 ①<strong>이미 지급된 급여 전액 반환</strong> + ②<strong>추가징수(최대 5배)</strong> + ③<strong>남은 급여 지급 제한</strong>의 불이익이 있습니다.</p>\n<p>실제로 입사 지원을 하지 않고 허위로 지원 내역을 기재하거나, <strong>취업 중인 사실을 숨기고 급여를 수령</strong>하면 부정수급에 해당합니다. 단기 아르바이트라도 반드시 <strong>취업 사실을 신고</strong>하세요. 일부 소득은 공제 후 급여를 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 허위 신고 시 최대 5배 반환 | 단기 알바도 반드시 신고 | 소득 공제 후 수급 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">허위 구직활동 신고 시 지급받은 급여의 최대 5배를 반환해야 합니다</strong></p>\n<p>고용보험법 제62조에 따라 거짓이나 부정한 방법으로 구직급여를 받은 경우 ①<strong>이미 지급된 급여 전액 반환</strong> + ②<strong>추가징수(최대 5배)</strong> + ③<strong>남은 급여 지급 제한</strong>의 불이익이 있습니다.</p>\n<p>실제로 입사 지원을 하지 않고 허위로 지원 내역을 기재하거나, <strong>취업 중인 사실을 숨기고 급여를 수령</strong>하면 부정수급에 해당할 소지가 있습니다. 단기 아르바이트라도 가능한 한 <strong>취업 사실을 신고</strong>하세요. 일부 소득은 공제 후 급여를 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 허위 신고 시 최대 5배 반환 | 단기 알바도 가능한 한 신고 | 소득 공제 후 수급 가능</blockquote>',
       },
     ],
     cases: [
@@ -298,13 +298,13 @@ export const spokesBatch17_6to10: SpokePage[] = [
         summary:
           '대구지법 2018구합23680 사건(대구지법, 2019.4.17 선고)에서 법원은 수급자격자가 해외에 체류하면서 형이 대리로 인터넷을 통해 재취업 노력신고를 한 것은 고용보험법 제61조 제1항의 "거짓이나 그 밖의 부정한 방법"으로 구직급여를 받은 경우에 해당한다고 판시했습니다.',
         takeaway:
-          '구직활동 신고는 반드시 본인이 직접 해야 합니다. 해외 체류나 부득이한 사정이 있더라도 제3자가 대리 신고하면 부정수급으로 처분될 수 있습니다.',
+          '구직활동 신고는 가능한 한 본인이 직접 해야 합니다. 해외 체류나 부득이한 사정이 있더라도 제3자가 대리 신고하면 부정수급으로 처분될 수 있습니다.',
       },
     ],
     faq: [
       {
         question: '워크넷에서 입사 지원만 해도 구직활동으로 인정되나요?',
-        answer: '<strong>네, 인정됩니다.</strong> 워크넷·사람인·잡코리아 등 구인구직 사이트를 통한 입사 지원이 가장 일반적인 구직활동입니다. 다만 동일 회사에 반복 지원하는 것은 인정되지 않을 수 있습니다.',
+        answer: '<strong>네, 인정될 수 있습니다.</strong> 워크넷·사람인·잡코리아 등 구인구직 사이트를 통한 입사 지원이 가장 일반적인 구직활동입니다. 다만 동일 회사에 반복 지원하는 것은 인정되지 않을 수 있습니다.',
       },
       {
         question: '실업인정일에 병원 진료가 있으면 어떻게 하나요?',
@@ -312,7 +312,7 @@ export const spokesBatch17_6to10: SpokePage[] = [
       },
       {
         question: '단기 아르바이트를 하면 실업급여가 끊기나요?',
-        answer: '<strong>바로 끊기지는 않습니다.</strong> 주 15시간 미만의 단기 근로는 취업한 것으로 보지 않을 수 있으며, 근로 일수에 해당하는 급여만 차감됩니다. 다만 <strong>반드시 취업 사실을 신고</strong>해야 합니다.',
+        answer: '<strong>바로 끊기지는 않습니다.</strong> 주 15시간 미만의 단기 근로는 취업한 것으로 보지 않을 수 있으며, 근로 일수에 해당하는 급여만 차감됩니다. 다만 <strong>가능한 한 취업 사실을 신고</strong>해야 합니다.',
       },
       {
         question: '구직활동을 못 해서 실업인정일에 신고를 못 하면?',
@@ -320,7 +320,7 @@ export const spokesBatch17_6to10: SpokePage[] = [
       },
       {
         question: '직업훈련 중이면 별도 구직활동을 안 해도 되나요?',
-        answer: '<strong>직업훈련 수강 자체가 구직활동으로 인정됩니다.</strong> 국비지원 직업훈련을 수강 중이라면 별도의 입사 지원 없이도 실업인정을 받을 수 있습니다.',
+        answer: '<strong>직업훈련 수강 자체가 구직활동으로 인정될 수 있습니다.</strong> 국비지원 직업훈련을 수강 중이라면 별도의 입사 지원 없이도 실업인정을 받을 수 있습니다.',
       },
     ],
     cta: {
@@ -349,9 +349,9 @@ export const spokesBatch17_6to10: SpokePage[] = [
     intro: '2년간 일했던 계약직 자리의 계약기간이 끝났습니다. 회사에서는 계약 갱신을 하지 않겠다고 통보했습니다. 자발적으로 그만둔 것이 아닌데, 실업급여를 받을 수 있는 걸까요? 계약만료 후 실업급여 수급 가능 여부를 확인해보세요.',
     sections: [
       {
-        title: '첫째, 계약만료는 비자발적 이직으로 인정됩니다',
+        title: '첫째, 계약만료는 비자발적 이직으로 인정될 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2에 따라 기간제 근로계약의 만료는 비자발적 이직 사유에 해당합니다</strong></p>\n<p>계약기간 만료로 인한 퇴사는 <strong>"자발적 퇴사"가 아닙니다</strong>. 고용보험법상 수급자격 제한 사유인 "자기 사정으로 이직"에 해당하지 않으므로, 다른 요건을 충족하면 실업급여를 받을 수 있습니다.</p>\n<p>다만, 회사가 계약 갱신을 제안했는데 <strong>근로자가 갱신을 거부</strong>한 경우에는 자발적 이직으로 볼 수 있어 주의가 필요합니다. 갱신 제안의 <strong>근로조건이 이전보다 현저히 불리</strong>한 경우에는 거부하더라도 비자발적 이직으로 인정될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 계약만료 = 비자발적 이직 | 예외: 갱신 제안을 근로자가 거부한 경우 자발적 이직 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2에 따라 기간제 근로계약의 만료는 비자발적 이직 사유에 해당할 소지가 있습니다</strong></p>\n<p>계약기간 만료로 인한 퇴사는 <strong>"자발적 퇴사"가 아닙니다</strong>. 고용보험법상 수급자격 제한 사유인 "자기 사정으로 이직"에 해당하지 않으므로, 다른 요건을 충족하면 실업급여를 받을 수 있습니다.</p>\n<p>다만, 회사가 계약 갱신을 제안했는데 <strong>근로자가 갱신을 거부</strong>한 경우에는 자발적 이직으로 볼 수 있어 주의가 필요합니다. 갱신 제안의 <strong>근로조건이 이전보다 현저히 불리</strong>한 경우에는 거부하더라도 비자발적 이직으로 인정될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">원칙: 계약만료 = 비자발적 이직 | 예외: 갱신 제안을 근로자가 거부한 경우 자발적 이직 가능</blockquote>',
       },
       {
         title: '둘째, 실업급여 수급 3가지 요건을 확인하세요',

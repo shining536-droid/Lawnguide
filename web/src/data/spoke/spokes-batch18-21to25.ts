@@ -34,12 +34,12 @@ export const spokesBatch18_21to25: SpokePage[] = [
       {
         title: '셋째, 14일 규정 위반 시 사용자에게 형사 처벌이 가능합니다',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제109조에 따라 퇴직금 미지급 시 3년 이하 징역 또는 3천만원 이하 벌금에 처해질 수 있습니다</strong></p>\n<p>퇴직금을 기한 내에 지급하지 않는 것은 <strong>형사범죄</strong>에 해당합니다. 고용노동부에 진정을 제기하면 근로감독관이 사업장을 조사하고, 시정명령에도 불구하고 미지급이 계속되면 <strong>검찰 송치(사법처리)</strong>로 진행됩니다.</p>\n<p>진정 접수 방법은 3가지입니다. <strong>①고용노동부 민원마당 홈페이지(온라인) ②관할 고용노동지청 방문 ③우편 접수</strong>. 접수 후 통상 25일 이내에 처리되며, 사업주가 즉시 지급하면 종결됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사처벌: 3년 이하 징역 또는 3천만원 이하 벌금 → 고용노동부 진정으로 시작</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제109조에 따라 퇴직금 미지급 시 3년 이하 징역 또는 3천만원 이하 벌금에 처해질 수 있습니다</strong></p>\n<p>퇴직금을 기한 내에 지급하지 않는 것은 <strong>형사범죄</strong>에 해당할 소지가 있습니다. 고용노동부에 진정을 제기하면 근로감독관이 사업장을 조사하고, 시정명령에도 불구하고 미지급이 계속되면 <strong>검찰 송치(사법처리)</strong>로 진행됩니다.</p>\n<p>진정 접수 방법은 3가지입니다. <strong>①고용노동부 민원마당 홈페이지(온라인) ②관할 고용노동지청 방문 ③우편 접수</strong>. 접수 후 통상 25일 이내에 처리되며, 사업주가 즉시 지급하면 종결됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형사처벌: 3년 이하 징역 또는 3천만원 이하 벌금 → 고용노동부 진정으로 시작</blockquote>',
       },
       {
         title: '넷째, 평균임금 산정 시 포함되는 항목을 반드시 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직금은 1일 평균임금 x 30일 x (재직일수/365)로 계산됩니다</strong></p>\n<p>퇴직금 산정의 기초가 되는 <strong>평균임금</strong>에는 기본급뿐 아니라 정기상여금, 연차수당, 식대, 교통비 등 <strong>근로의 대가로 지급된 모든 금품</strong>이 포함됩니다. 회사가 기본급만으로 계산했다면 차액을 청구할 수 있습니다.</p>\n<p>평균임금은 <strong>퇴직일 이전 3개월간 지급된 임금 총액</strong>을 그 기간의 총 일수로 나누어 산정합니다. 상여금은 지급 주기에 따라 3개월분으로 안분하여 포함합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">평균임금 = 퇴직 전 3개월 임금 총액 / 일수 → 상여금·수당 누락 여부 반드시 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직금은 1일 평균임금 x 30일 x (재직일수/365)로 계산됩니다</strong></p>\n<p>퇴직금 산정의 기초가 되는 <strong>평균임금</strong>에는 기본급뿐 아니라 정기상여금, 연차수당, 식대, 교통비 등 <strong>근로의 대가로 지급된 모든 금품</strong>이 포함됩니다. 회사가 기본급만으로 계산했다면 차액을 청구할 수 있습니다.</p>\n<p>평균임금은 <strong>퇴직일 이전 3개월간 지급된 임금 총액</strong>을 그 기간의 총 일수로 나누어 산정합니다. 상여금은 지급 주기에 따라 3개월분으로 안분하여 포함합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">평균임금 = 퇴직 전 3개월 임금 총액 / 일수 → 상여금·수당 누락 여부 가능한 한 확인</blockquote>',
       },
       {
         title: '다섯째, 퇴직금 지급 기한 관련 주의사항을 정리하세요',
@@ -75,7 +75,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       },
       {
         question: '퇴직금을 일부만 받았는데 14일 규정 위반인가요?',
-        answer: '<strong>미지급 잔액</strong>이 있다면 그 부분에 대해 14일 규정 위반이 성립합니다. 차액과 지연이자를 함께 청구할 수 있으니 급여명세서와 입금 내역을 비교해두세요.',
+        answer: '<strong>미지급 잔액</strong>이 있다면 그 부분에 대해 14일 규정 위반이 성립할 수 있습니다. 차액과 지연이자를 함께 청구할 수 있으니 급여명세서와 입금 내역을 비교해두세요.',
       },
     ],
     cta: {
@@ -117,7 +117,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       {
         title: '첫째, 환산보증금이 지역별 기준 이하인지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">상가건물임대차보호법 제2조 제1항에 따라 환산보증금이 기준 이하인 상가만 보호 대상입니다</strong></p>\n<p>환산보증금은 <strong>보증금 + (월차임 x 100)</strong>으로 계산합니다. 예를 들어 보증금 2억, 월세 300만원이면 환산보증금은 5억원입니다. 서울 기준 9억원 이하이므로 보호 대상에 해당합니다.</p>\n<p>지역별 기준은 <strong>서울 9억, 수도권 과밀억제권역(과천·성남·안양 등) 6억 9천만원, 광역시(인천·부산 제외 군지역) 5억 4천만원, 기타 3억 7천만원</strong>입니다. 기준 초과 시 민법이 적용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">환산보증금 = 보증금 + (월차임 x 100) → 지역별 기준 이하 = 보호법 적용</blockquote>',
+          '<p><strong style="color:#1e3a5f">상가건물임대차보호법 제2조 제1항에 따라 환산보증금이 기준 이하인 상가만 보호 대상입니다</strong></p>\n<p>환산보증금은 <strong>보증금 + (월차임 x 100)</strong>으로 계산합니다. 예를 들어 보증금 2억, 월세 300만원이면 환산보증금은 5억원입니다. 서울 기준 9억원 이하이므로 보호 대상에 해당할 소지가 있습니다.</p>\n<p>지역별 기준은 <strong>서울 9억, 수도권 과밀억제권역(과천·성남·안양 등) 6억 9천만원, 광역시(인천·부산 제외 군지역) 5억 4천만원, 기타 3억 7천만원</strong>입니다. 기준 초과 시 민법이 적용됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">환산보증금 = 보증금 + (월차임 x 100) → 지역별 기준 이하 = 보호법 적용</blockquote>',
       },
       {
         title: '둘째, 차임 인상 제한은 적용 대상에서만 보호됩니다',
@@ -127,7 +127,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       {
         title: '셋째, 계약갱신요구권은 보호법 적용 상가만 보장됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">보호법 적용 시 최초 임대차 포함 10년간 갱신을 요구할 수 있습니다(제10조)</strong></p>\n<p>보호법이 적용되면 임차인은 <strong>최초 계약일부터 10년</strong>까지 계약갱신을 요구할 수 있고, 임대인은 정당한 사유 없이 거절할 수 없습니다. 비적용 상가는 갱신요구권 자체가 없으므로 계약 만료 시 퇴거 요구에 대항하기 어렵습니다.</p>\n<p>갱신요구 시기는 <strong>계약 만료 6개월~1개월 전</strong>까지입니다. 이 기간을 놓치면 갱신요구권을 행사할 수 없으니 달력에 반드시 표시해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">적용: 10년간 갱신요구권 | 비적용: 갱신요구권 없음 → 만료 시 퇴거 위험</blockquote>',
+          '<p><strong style="color:#1e3a5f">보호법 적용 시 최초 임대차 포함 10년간 갱신을 요구할 수 있습니다(제10조)</strong></p>\n<p>보호법이 적용되면 임차인은 <strong>최초 계약일부터 10년</strong>까지 계약갱신을 요구할 수 있고, 임대인은 정당한 사유 없이 거절할 수 없습니다. 비적용 상가는 갱신요구권 자체가 없으므로 계약 만료 시 퇴거 요구에 대항하기 어렵습니다.</p>\n<p>갱신요구 시기는 <strong>계약 만료 6개월~1개월 전</strong>까지입니다. 이 기간을 놓치면 갱신요구권을 행사할 수 없으니 달력에 가능한 한 표시해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">적용: 10년간 갱신요구권 | 비적용: 갱신요구권 없음 → 만료 시 퇴거 위험</blockquote>',
       },
       {
         title: '넷째, 권리금 보호는 환산보증금 기준과 관계없이 적용됩니다',
@@ -146,7 +146,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
         summary:
           '대법원 2022다202498 사건(2022.08.11 선고)에서 법원은 임대인이 신규 임차인과 임대차계약 체결을 위한 협의 과정에서 철거·재건축 계획을 고지한 것만으로는 권리금 회수방해에 해당하지 않지만, 정당한 사유 없이 임차인이 주선할 신규 임차인과 계약을 체결하지 않겠다는 의사를 확정적으로 표시하면 손해배상 책임이 인정된다고 판시했습니다.',
         takeaway:
-          '임대인이 철거를 이유로 신규 임차인을 거부하더라도 무조건 정당한 사유가 되는 것은 아닙니다. 내용증명으로 신규 임차인 주선 사실을 통보하고, 거절 경위를 문서로 남기세요.',
+          '임대인이 철거를 이유로 신규 임차인을 거부하더라도 원칙적으로 정당한 사유가 되는 것은 아닙니다. 내용증명으로 신규 임차인 주선 사실을 통보하고, 거절 경위를 문서로 남기세요.',
       },
     ],
     faq: [
@@ -156,7 +156,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       },
       {
         question: '부가세(VAT)가 포함된 월세로 환산보증금을 계산하나요?',
-        answer: '환산보증금 계산 시 월차임은 <strong>부가가치세를 제외한 금액</strong>을 기준으로 합니다. 임대차계약서에 부가세 포함 여부를 반드시 확인하세요.',
+        answer: '환산보증금 계산 시 월차임은 <strong>부가가치세를 제외한 금액</strong>을 기준으로 합니다. 임대차계약서에 부가세 포함 여부를 가능한 한 확인하세요.',
       },
       {
         question: '보증금 없이 월세만 내는 상가도 보호법 적용 대상인가요?',
@@ -242,7 +242,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
         answer: '학교폭력예방법에 따라 <strong>가해학생이 긍정적 행동 변화를 보이면 심의위원회가 조치 변경</strong>을 할 수 있습니다. 조치가 경감되면 그에 맞는 삭제 시기가 적용되므로, 특별교육 성실 이수 등을 증명하세요.',
       },
       {
-        question: '생기부 기록이 남아 있으면 대학 입시에 반드시 불이익이 있나요?',
+        question: '생기부 기록이 남아 있으면 대학 입시에 가능한 한 불이익이 있나요?',
         answer: '대학마다 심사 기준이 다릅니다. <strong>학생부종합전형</strong>에서는 불이익이 있을 수 있지만, 수능 위주 전형은 영향이 적습니다. 구체적 영향은 지원 대학의 입학처에 확인하세요.',
       },
       {
@@ -279,7 +279,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       {
         title: '첫째, 고소장을 작성하세요 — 필수 기재 항목 5가지',
         content:
-          '<p><strong style="color:#1e3a5f">고소장에는 고소인·피고소인 정보, 범죄 사실, 처벌 의사를 명시해야 합니다</strong></p>\n<p>고소장에 반드시 기재해야 할 항목은 <strong>①고소인(피해자) 인적사항 ②피고소인(가해자) 인적사항 ③범죄 사실(일시, 장소, 행위 내용) ④적용 법조 ⑤처벌을 원하는 의사표시</strong>입니다.</p>\n<p>범죄 사실은 <strong>6하 원칙(누가, 언제, 어디서, 무엇을, 어떻게, 왜)</strong>에 따라 구체적으로 작성하세요. 감정적 표현보다 객관적 사실을 중심으로 기술하는 것이 수사에 도움이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">고소장 5가지: 고소인 정보 / 피고소인 정보 / 범죄 사실 / 적용 법조 / 처벌 의사</blockquote>',
+          '<p><strong style="color:#1e3a5f">고소장에는 고소인·피고소인 정보, 범죄 사실, 처벌 의사를 명시해야 합니다</strong></p>\n<p>고소장에 가능한 한 기재해야 할 항목은 <strong>①고소인(피해자) 인적사항 ②피고소인(가해자) 인적사항 ③범죄 사실(일시, 장소, 행위 내용) ④적용 법조 ⑤처벌을 원하는 의사표시</strong>입니다.</p>\n<p>범죄 사실은 <strong>6하 원칙(누가, 언제, 어디서, 무엇을, 어떻게, 왜)</strong>에 따라 구체적으로 작성하세요. 감정적 표현보다 객관적 사실을 중심으로 기술하는 것이 수사에 도움이 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">고소장 5가지: 고소인 정보 / 피고소인 정보 / 범죄 사실 / 적용 법조 / 처벌 의사</blockquote>',
       },
       {
         title: '둘째, 범행 관련 증거자료를 체계적으로 정리하세요',
@@ -299,7 +299,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       {
         title: '다섯째, 국선변호사와 피해자 지원 제도를 활용하세요',
         content:
-          '<p><strong style="color:#1e3a5f">성폭력 피해자는 국선변호사를 무료로 선임할 수 있습니다</strong></p>\n<p>성폭력범죄의처벌등에관한특례법 제27조에 따라 성폭력 피해자는 수사 단계부터 <strong>국선변호사</strong>를 무료로 지원받을 수 있습니다. 경찰서나 해바라기센터에서 신청하면 됩니다.</p>\n<p>추가로 활용할 수 있는 지원 제도는 다음과 같습니다. <strong>①한국성폭력상담소(02-338-5801) ②여성긴급전화 1366 ③대한법률구조공단(132) 무료 법률 상담</strong>. 혼자 준비하기 어렵다면 반드시 전문가의 도움을 받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지원 제도: 국선변호사 무료 / 해바라기센터 1899-3075 / 여성긴급전화 1366</blockquote>',
+          '<p><strong style="color:#1e3a5f">성폭력 피해자는 국선변호사를 무료로 선임할 수 있습니다</strong></p>\n<p>성폭력범죄의처벌등에관한특례법 제27조에 따라 성폭력 피해자는 수사 단계부터 <strong>국선변호사</strong>를 무료로 지원받을 수 있습니다. 경찰서나 해바라기센터에서 신청하면 됩니다.</p>\n<p>추가로 활용할 수 있는 지원 제도는 다음과 같습니다. <strong>①한국성폭력상담소(02-338-5801) ②여성긴급전화 1366 ③대한법률구조공단(132) 무료 법률 상담</strong>. 혼자 준비하기 어렵다면 가능한 한 전문가의 도움을 받으세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">지원 제도: 국선변호사 무료 / 해바라기센터 1899-3075 / 여성긴급전화 1366</blockquote>',
       },
     ],
     cases: [
@@ -318,7 +318,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       },
       {
         question: '증거가 없으면 고소해도 소용없나요?',
-        answer: '증거가 부족하더라도 <strong>고소 자체는 가능</strong>합니다. 피해자 진술의 일관성과 신빙성도 중요한 증거로 인정됩니다. 다만 보강 증거가 있을수록 수사와 기소에 유리하므로 가능한 증거를 최대한 확보하세요.',
+        answer: '증거가 부족하더라도 <strong>고소 자체는 가능</strong>합니다. 피해자 진술의 일관성과 신빙성도 중요한 증거로 인정될 수 있습니다. 다만 보강 증거가 있을수록 수사와 기소에 유리하므로 가능한 증거를 최대한 확보하세요.',
       },
       {
         question: '고소 후 합의하면 처벌이 안 되나요?',
@@ -330,7 +330,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       },
       {
         question: '고소 사실이 주변에 알려질 수 있나요?',
-        answer: '성폭력 피해자의 신원은 <strong>성폭력범죄의처벌등에관한특례법 제24조</strong>에 의해 보호됩니다. 수사기관과 언론은 피해자의 신원을 공개할 수 없으며, 위반 시 처벌됩니다.',
+        answer: '성폭력 피해자의 신원은 <strong>성폭력범죄의처벌등에관한특례법 제24조</strong>에 의해 보호됩니다. 수사기관과 언론은 피해자의 신원을 공개할 수 없으며, 위반 시 처벌 대상으로 검토될 수 있습니다.',
       },
     ],
     cta: {
@@ -360,9 +360,9 @@ export const spokesBatch18_21to25: SpokePage[] = [
     intro: '직장 상사에게 성희롱을 당했습니다. 신고하고 싶지만, 회사에서 불이익을 당할까봐 두렵습니다. "신고하면 오히려 잘리는 거 아닌가?" 걱정이 앞섭니다. 법은 성희롱 피해자를 어떻게 보호하는지 확인해보세요.',
     sections: [
       {
-        title: '첫째, 성희롱 피해 신고를 이유로 불이익 조치를 하면 형사처벌됩니다',
+        title: '첫째, 성희롱 피해 신고를 이유로 불이익 조치를 하면 형사처벌 대상으로 검토될 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제6항에 따라 피해 신고를 이유로 한 불이익 조치는 3년 이하 징역 또는 3천만원 이하 벌금에 해당합니다</strong></p>\n<p>법률은 성희롱 피해를 주장하거나 신고한 근로자에 대해 <strong>해고, 전보, 징계, 그 밖의 불이익 조치</strong>를 금지하고 있습니다. 여기서 "불이익 조치"에는 직접적인 해고뿐 아니라 <strong>부서 이동, 업무 배제, 성과 평가 불이익</strong> 등도 포함됩니다.</p>\n<p>사업주가 이를 위반하면 <strong>3년 이하 징역 또는 3천만원 이하 벌금</strong>이라는 형사 처벌을 받게 됩니다. 단순 징계가 아닌 형사범죄에 해당하므로 보호 효과가 강력합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불이익 금지: 해고·전보·징계·성과 불이익 모두 포함 → 위반 시 3년 이하 징역</blockquote>',
+          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제6항에 따라 피해 신고를 이유로 한 불이익 조치는 3년 이하 징역 또는 3천만원 이하 벌금에 해당할 소지가 있습니다</strong></p>\n<p>법률은 성희롱 피해를 주장하거나 신고한 근로자에 대해 <strong>해고, 전보, 징계, 그 밖의 불이익 조치</strong>를 금지하고 있습니다. 여기서 "불이익 조치"에는 직접적인 해고뿐 아니라 <strong>부서 이동, 업무 배제, 성과 평가 불이익</strong> 등도 포함됩니다.</p>\n<p>사업주가 이를 위반하면 <strong>3년 이하 징역 또는 3천만원 이하 벌금</strong>이라는 형사 처벌을 받게 됩니다. 단순 징계가 아닌 형사범죄에 해당하므로 보호 효과가 강력합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">불이익 금지: 해고·전보·징계·성과 불이익 모두 포함 → 위반 시 3년 이하 징역</blockquote>',
       },
       {
         title: '둘째, 사업주는 신고 즉시 조사하고 피해자 보호 조치를 해야 합니다',
@@ -377,12 +377,12 @@ export const spokesBatch18_21to25: SpokePage[] = [
       {
         title: '넷째, 2차 피해(소문·따돌림)도 법적으로 금지됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제7항에 따라 성희롱 피해 사실 유포 등 2차 피해도 금지됩니다</strong></p>\n<p>동료나 상사가 <strong>"누가 신고했다더라" "과민반응 아닌가"</strong> 등으로 피해 사실을 소문내거나, 피해자를 따돌리는 행위도 법으로 금지됩니다. 이른바 <strong>2차 피해</strong>에 해당합니다.</p>\n<p>2차 피해가 발생하면 <strong>사업주가 즉시 조치</strong>를 취해야 하며, 방치하면 과태료가 부과됩니다. 2차 피해 사실도 날짜·내용·목격자를 기록하고, 필요하면 추가 진정을 제기하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">2차 피해: 사실 유포·따돌림 금지 → 사업주 방치 시 과태료 → 추가 진정 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제7항에 따라 성희롱 피해 사실 유포 등 2차 피해도 금지됩니다</strong></p>\n<p>동료나 상사가 <strong>"누가 신고했다더라" "과민반응 아닌가"</strong> 등으로 피해 사실을 소문내거나, 피해자를 따돌리는 행위도 법으로 금지됩니다. 이른바 <strong>2차 피해</strong>에 해당할 소지가 있습니다.</p>\n<p>2차 피해가 발생하면 <strong>사업주가 즉시 조치</strong>를 취해야 하며, 방치하면 과태료가 부과됩니다. 2차 피해 사실도 날짜·내용·목격자를 기록하고, 필요하면 추가 진정을 제기하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">2차 피해: 사실 유포·따돌림 금지 → 사업주 방치 시 과태료 → 추가 진정 가능</blockquote>',
       },
       {
         title: '다섯째, 신고 전에 증거를 확보하고 전문 상담을 받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">신고 전 준비가 충분할수록 보호받을 가능성이 높아집니다</strong></p>\n<p>신고 전에 반드시 <strong>피해 일지(날짜, 시간, 장소, 발언 내용, 목격자)</strong>를 작성하고, 가능하면 녹취나 문자 기록을 확보하세요. 대화 참여자 본인의 녹음은 적법합니다.</p>\n<p>무료 상담 기관을 먼저 활용하세요. <strong>①여성긴급전화 1366 ②한국성폭력상담소(02-338-5801) ③대한법률구조공단(132)</strong>에서 신고 전략과 증거 확보 방법에 대한 조언을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 피해일지 작성 + 녹취·문자 확보 + 전문 상담(1366 / 132) → 서면 신고</blockquote>',
+          '<p><strong style="color:#1e3a5f">신고 전 준비가 충분할수록 보호받을 가능성이 높아집니다</strong></p>\n<p>신고 전에 가능한 한 <strong>피해 일지(날짜, 시간, 장소, 발언 내용, 목격자)</strong>를 작성하고, 가능하면 녹취나 문자 기록을 확보하세요. 대화 참여자 본인의 녹음은 적법합니다.</p>\n<p>무료 상담 기관을 먼저 활용하세요. <strong>①여성긴급전화 1366 ②한국성폭력상담소(02-338-5801) ③대한법률구조공단(132)</strong>에서 신고 전략과 증거 확보 방법에 대한 조언을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 피해일지 작성 + 녹취·문자 확보 + 전문 상담(1366 / 132) → 서면 신고</blockquote>',
       },
     ],
     cases: [
@@ -391,7 +391,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
         summary:
           '대법원 2025도3890 사건(2025.07.18 선고)에서 법원은 성적 수치심을 주는 성희롱 등의 성적 학대행위는 신체 접촉 없이 언어적·정서적 방법으로도 성립할 수 있으며, 피해자가 해당 내용을 인식할 수 있는 상태에 이르렀다면 기수가 성립한다고 판시했습니다.',
         takeaway:
-          '직접적인 신체 접촉이 없었더라도 언어적 성희롱이 반복되면 법적 책임이 인정됩니다. 피해 사실을 구체적으로 기록하고 신고 전 전문 상담을 받으세요.',
+          '직접적인 신체 접촉이 없었더라도 언어적 성희롱이 반복되면 법적 책임이 인정될 수 있습니다. 피해 사실을 구체적으로 기록하고 신고 전 전문 상담을 받으세요.',
       },
     ],
     faq: [

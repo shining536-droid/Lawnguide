@@ -139,7 +139,7 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       {
         title: '출입국 시 추가 확인 사항',
         content:
-          '<p><strong style="color:#1e3a5f">여권 발급 후 해외여행 시에도 출입국 심사에서 추가 서류가 요구될 수 있어 사전 준비가 필요합니다.</strong></p>\n<ul>\n<li><strong>출국금지 조회</strong> — 법무부 출입국·외국인청 또는 정부24에서 자녀 출국금지 여부 사전 확인.</li>\n<li><strong>상대방 출국금지 신청 대비</strong> — 상대방이 아동 납치 방지 차원으로 출국금지를 신청할 수 있음.</li>\n<li><strong>지참 서류</strong> — 이혼 판결문·친권 단독 행사 허가서·가족관계증명서·자녀 신분증 등.</li>\n<li><strong>공항 도착 여유</strong> — 서류 확인 시간이 걸릴 수 있으므로 최소 3시간 전 공항 도착 권장.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 공항에서 당일 출국금지를 알게 되면 여행이 좌절되므로 반드시 사전 조회가 필요합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">여권 발급 후 해외여행 시에도 출입국 심사에서 추가 서류가 요구될 수 있어 사전 준비가 필요합니다.</strong></p>\n<ul>\n<li><strong>출국금지 조회</strong> — 법무부 출입국·외국인청 또는 정부24에서 자녀 출국금지 여부 사전 확인.</li>\n<li><strong>상대방 출국금지 신청 대비</strong> — 상대방이 아동 납치 방지 차원으로 출국금지를 신청할 수 있음.</li>\n<li><strong>지참 서류</strong> — 이혼 판결문·친권 단독 행사 허가서·가족관계증명서·자녀 신분증 등.</li>\n<li><strong>공항 도착 여유</strong> — 서류 확인 시간이 걸릴 수 있으므로 최소 3시간 전 공항 도착 권장.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 공항에서 당일 출국금지를 알게 되면 여행이 좌절되므로 가능한 한 사전 조회가 필요합니다.</blockquote>',
       },
     ],
     cases: [
@@ -211,7 +211,7 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       {
         title: '자전거의 법적 지위 — 도로교통법상 "차"',
         content:
-          '<p><strong style="color:#1e3a5f">도로교통법 제2조 제17호는 자전거를 "차"로 규정하므로 자동차와 유사한 운전자 의무와 책임이 부과됩니다.</strong></p>\n<ul>\n<li><strong>운전자 의무</strong> — 안전운전·신호준수·사고 시 구호조치 의무.</li>\n<li><strong>뺑소니 적용</strong> — 사고 후 신원·연락처를 남기지 않고 떠나면 "사고 미조치(뺑소니)"로 형사 처벌 대상.</li>\n<li><strong>인적 피해 시</strong> — 피해자 부상 시 교통사고특례법·업무상과실치상 적용 가능.</li>\n<li><strong>물적 피해만</strong> — 차량 손상만 있으면 민사 배상이 주된 쟁점.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 자전거라고 안일하게 떠나면 뺑소니로 처벌받을 수 있습니다. 현장에서 연락처를 반드시 남기세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">도로교통법 제2조 제17호는 자전거를 "차"로 규정하므로 자동차와 유사한 운전자 의무와 책임이 부과됩니다.</strong></p>\n<ul>\n<li><strong>운전자 의무</strong> — 안전운전·신호준수·사고 시 구호조치 의무.</li>\n<li><strong>뺑소니 적용</strong> — 사고 후 신원·연락처를 남기지 않고 떠나면 "사고 미조치(뺑소니)"로 형사 처벌 대상.</li>\n<li><strong>인적 피해 시</strong> — 피해자 부상 시 교통사고특례법·업무상과실치상 적용 가능.</li>\n<li><strong>물적 피해만</strong> — 차량 손상만 있으면 민사 배상이 주된 쟁점.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 자전거라고 안일하게 떠나면 뺑소니로 처벌받을 수 있습니다. 현장에서 연락처를 가능한 한 남기세요.</blockquote>',
       },
       {
         title: '현장 대응 — 연락처 교환·사진 촬영',
@@ -221,12 +221,12 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       {
         title: '보험 처리 — 자전거보험·일상배상책임보험',
         content:
-          '<p><strong style="color:#1e3a5f">본인·가족의 자전거보험·일상배상책임보험·자동차보험 특약을 확인하면 수리비를 보험으로 처리할 수 있습니다.</strong></p>\n<ul>\n<li><strong>자전거보험</strong> — 직접 가입한 자전거보험의 대물배상 한도 내에서 처리 가능.</li>\n<li><strong>일상배상책임보험</strong> — 가정용 종합보험에 포함된 경우가 많으며, 자전거로 인한 대물 손해도 보상됩니다.</li>\n<li><strong>자동차보험 특약</strong> — 본인·가족의 자동차보험에 "자전거 배상 특약"이 있을 수 있습니다.</li>\n<li><strong>가족 명의 포함</strong> — 부모·배우자의 보험에 본인이 피보험자로 포함될 수 있으므로 가족 보험도 확인.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 현장에서 현금 합의는 피하고, 반드시 보험 처리·합의서 절차를 거치세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">본인·가족의 자전거보험·일상배상책임보험·자동차보험 특약을 확인하면 수리비를 보험으로 처리할 수 있습니다.</strong></p>\n<ul>\n<li><strong>자전거보험</strong> — 직접 가입한 자전거보험의 대물배상 한도 내에서 처리 가능.</li>\n<li><strong>일상배상책임보험</strong> — 가정용 종합보험에 포함된 경우가 많으며, 자전거로 인한 대물 손해도 보상됩니다.</li>\n<li><strong>자동차보험 특약</strong> — 본인·가족의 자동차보험에 "자전거 배상 특약"이 있을 수 있습니다.</li>\n<li><strong>가족 명의 포함</strong> — 부모·배우자의 보험에 본인이 피보험자로 포함될 수 있으므로 가족 보험도 확인.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 현장에서 현금 합의는 피하고, 가능한 한 보험 처리·합의서 절차를 거치세요.</blockquote>',
       },
       {
         title: '합의서 작성 — 후속 청구 방지',
         content:
-          '<p><strong style="color:#1e3a5f">수리비 견적 확인 후 합의서를 작성할 때는 민·형사 전체에 대한 포괄 문구를 포함해야 재청구 위험을 줄일 수 있습니다.</strong></p>\n<ul>\n<li><strong>수리견적 확인</strong> — 정비소 견적서를 받아 정확한 손해액 산정.</li>\n<li><strong>합의서 필수 항목</strong> — 사고 일시·장소·당사자 정보·배상액·지급 방식·민형사 포기 조항.</li>\n<li><strong>포괄 합의 문구</strong> — "이 사건에 관한 일체의 민·형사상 이의를 제기하지 않는다" 기재.</li>\n<li><strong>공증 활용</strong> — 금액이 크면 공증을 받아 분쟁 방지.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 부분 합의·구두 합의는 후일 피해자가 추가 청구할 수 있으니 반드시 서면으로 완결하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">수리비 견적 확인 후 합의서를 작성할 때는 민·형사 전체에 대한 포괄 문구를 포함해야 재청구 위험을 줄일 수 있습니다.</strong></p>\n<ul>\n<li><strong>수리견적 확인</strong> — 정비소 견적서를 받아 정확한 손해액 산정.</li>\n<li><strong>합의서 필수 항목</strong> — 사고 일시·장소·당사자 정보·배상액·지급 방식·민형사 포기 조항.</li>\n<li><strong>포괄 합의 문구</strong> — "이 사건에 관한 일체의 민·형사상 이의를 제기하지 않는다" 기재.</li>\n<li><strong>공증 활용</strong> — 금액이 크면 공증을 받아 분쟁 방지.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 부분 합의·구두 합의는 후일 피해자가 추가 청구할 수 있으니 가능한 한 서면으로 완결하세요.</blockquote>',
       },
     ],
     cases: [
@@ -242,7 +242,7 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       {
         question: '자전거 사고도 경찰 신고해야 하나요?',
         answer:
-          '<strong>인적 피해가 있으면 필수, 물적 피해만이면 양측 합의 시 신고 없이 가능합니다.</strong> 합의가 어렵거나 뺑소니 의혹이 있으면 반드시 신고하세요.',
+          '<strong>인적 피해가 있으면 필수, 물적 피해만이면 양측 합의 시 신고 없이 가능합니다.</strong> 합의가 어렵거나 뺑소니 의혹이 있으면 가능한 한 신고하세요.',
       },
       {
         question: '자전거로 주차된 차만 긁었는데 뺑소니인가요?',
@@ -395,12 +395,12 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       {
         title: '3단계: 공장초기화·새 SIM 발급',
         content:
-          '<p><strong style="color:#1e3a5f">피싱 앱은 일반 삭제로 제거되지 않으므로 공장초기화가 필수입니다.</strong></p>\n<ul>\n<li><strong>공장초기화(Factory Reset)</strong> — 모든 앱·데이터를 제거. 수리센터·통신사 대리점에서 지원.</li>\n<li><strong>연락처 백업 주의</strong> — SMS·연락처에 악성 데이터가 있을 수 있으므로 신중하게 백업.</li>\n<li><strong>새 SIM 카드 발급</strong> — 통신사 대리점에서 새 SIM 발급으로 이전 번호의 악성 링크 차단.</li>\n<li><strong>OS 업데이트</strong> — 초기화 후 최신 OS·보안 패치 적용.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 삭제만 한 뒤 재사용하면 잔존 악성코드로 재피해가 발생할 수 있으니 반드시 초기화하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">피싱 앱은 일반 삭제로 제거되지 않으므로 공장초기화가 필수입니다.</strong></p>\n<ul>\n<li><strong>공장초기화(Factory Reset)</strong> — 모든 앱·데이터를 제거. 수리센터·통신사 대리점에서 지원.</li>\n<li><strong>연락처 백업 주의</strong> — SMS·연락처에 악성 데이터가 있을 수 있으므로 신중하게 백업.</li>\n<li><strong>새 SIM 카드 발급</strong> — 통신사 대리점에서 새 SIM 발급으로 이전 번호의 악성 링크 차단.</li>\n<li><strong>OS 업데이트</strong> — 초기화 후 최신 OS·보안 패치 적용.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 삭제만 한 뒤 재사용하면 잔존 악성코드로 재피해가 발생할 수 있으니 가능한 한 초기화하세요.</blockquote>',
       },
       {
         title: '4단계: 개인정보 보호·명의도용 대비',
         content:
-          '<p><strong style="color:#1e3a5f">금전 유출 외에도 개인정보·인증서가 노출됐을 가능성이 크므로 명의도용 차단 조치를 반드시 해야 합니다.</strong></p>\n<ul>\n<li><strong>개인정보노출자 등록</strong> — 금융감독원 "개인정보노출자 사고예방 시스템"(pd.fss.or.kr)에 등록.</li>\n<li><strong>공인인증서·금융인증서 폐기</strong> — 즉시 모든 인증서 폐기·재발급.</li>\n<li><strong>신용정보원 조회</strong> — 명의로 개설된 계좌·카드 확인. 신규 대출 시도 차단.</li>\n<li><strong>휴대폰 명의도용 차단</strong> — 한국정보통신진흥협회 "명의도용 방지 서비스"로 신규 개통 차단.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 명의도용 조치를 미루면 며칠 뒤 본인 명의의 대출·카드 개설·가상화폐 피해가 추가 발생할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">금전 유출 외에도 개인정보·인증서가 노출됐을 가능성이 크므로 명의도용 차단 조치를 가능한 한 해야 합니다.</strong></p>\n<ul>\n<li><strong>개인정보노출자 등록</strong> — 금융감독원 "개인정보노출자 사고예방 시스템"(pd.fss.or.kr)에 등록.</li>\n<li><strong>공인인증서·금융인증서 폐기</strong> — 즉시 모든 인증서 폐기·재발급.</li>\n<li><strong>신용정보원 조회</strong> — 명의로 개설된 계좌·카드 확인. 신규 대출 시도 차단.</li>\n<li><strong>휴대폰 명의도용 차단</strong> — 한국정보통신진흥협회 "명의도용 방지 서비스"로 신규 개통 차단.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 명의도용 조치를 미루면 며칠 뒤 본인 명의의 대출·카드 개설·가상화폐 피해가 추가 발생할 수 있습니다.</blockquote>',
       },
     ],
     cases: [
@@ -467,12 +467,12 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
         'SNS로 당첨 메시지 받고 수수료를 송금한 경우 사기죄 성립과 회수 방법을 정리했습니다. 증거·지급정지 절차를 지금 확인하세요.',
     },
     intro:
-      '<p>인스타그램·페이스북·카카오톡으로 "당첨됐으니 수수료를 입금하라"는 메시지를 받고 송금한 경우 전형적 SNS 사기에 해당합니다. 사기죄 성립 요건이 명확하고 형사 고소·민사 환수가 가능하지만, 시간이 지날수록 회수 가능성이 낮아집니다. 피해 즉시 대응과 회수 경로를 정리합니다.</p>',
+      '<p>인스타그램·페이스북·카카오톡으로 "당첨됐으니 수수료를 입금하라"는 메시지를 받고 송금한 경우 전형적 SNS 사기에 해당할 소지가 있습니다. 사기죄 성립 요건이 명확하고 형사 고소·민사 환수가 가능하지만, 시간이 지날수록 회수 가능성이 낮아집니다. 피해 즉시 대응과 회수 경로를 정리합니다.</p>',
     sections: [
       {
         title: 'SNS 당첨 사기의 기망 구조',
         content:
-          '<p><strong style="color:#1e3a5f">SNS 당첨 사기는 "허위 당첨 통지 + 수수료·세금 명목 선입금 요구"의 구조를 취하며 전형적 사기죄 구성요건을 충족합니다.</strong></p>\n<ul>\n<li><strong>허위 당첨 통지</strong> — 실제로 당첨된 사실이 없는데 허위 메시지로 피해자를 기망.</li>\n<li><strong>수수료·세금 명목</strong> — 당첨금 지급 전 사전 입금이 필요하다는 명목으로 돈을 요구.</li>\n<li><strong>압박 전술</strong> — "오늘 내 입금 안 하면 당첨 취소" 등 시간 압박으로 판단력 저하 유도.</li>\n<li><strong>해외·대포통장 활용</strong> — 범인 추적이 어려운 해외 계정·대포통장을 경유해 피해금 이동.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 정식 복권·이벤트는 사전 수수료를 요구하지 않습니다. 수수료 요구는 100% 사기입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">SNS 당첨 사기는 "허위 당첨 통지 + 수수료·세금 명목 선입금 요구"의 구조를 취하며 전형적 사기죄 구성요건을 충족합니다.</strong></p>\n<ul>\n<li><strong>허위 당첨 통지</strong> — 실제로 당첨된 사실이 없는데 허위 메시지로 피해자를 기망.</li>\n<li><strong>수수료·세금 명목</strong> — 당첨금 지급 전 사전 입금이 필요하다는 명목으로 돈을 요구.</li>\n<li><strong>압박 전술</strong> — "오늘 내 입금 안 하면 당첨 취소" 등 시간 압박으로 판단력 저하 유도.</li>\n<li><strong>해외·대포통장 활용</strong> — 범인 추적이 어려운 해외 계정·대포통장을 경유해 피해금 이동.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 정식 복권·이벤트는 사전 수수료를 요구하지 않습니다. 수수료 요구는 100% 사기로 검토될 수 있습니다.</blockquote>',
       },
       {
         title: '피해 즉시 대응 — 지급정지·증거 보전',
@@ -503,7 +503,7 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       {
         question: '수수료 10만 원만 송금했는데 신고할 가치가 있나요?',
         answer:
-          '<strong>네, 금액과 무관하게 사기죄 성립됩니다.</strong> 본인 피해 금액이 작아도 같은 범인이 다수 피해자에게 사기를 저지를 수 있으므로 반드시 신고하세요.',
+          '<strong>네, 금액과 무관하게 사기죄 성립할 수 있습니다.</strong> 본인 피해 금액이 작아도 같은 범인이 다수 피해자에게 사기를 저지를 수 있으므로 가능한 한 신고하세요.',
       },
       {
         question: '범인이 해외에 있으면 회수가 어려운가요?',
@@ -559,7 +559,7 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       {
         title: '부부별산제 — 배우자 개인 채무와의 분리',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제830조는 부부별산제를 원칙으로 하며, 배우자의 단독 채무는 본인에게 법적 책임이 없습니다.</strong></p>\n<ul>\n<li><strong>별산제 원칙</strong> — 결혼 전 취득 재산과 결혼 후 단독 명의 재산은 각자의 특유재산.</li>\n<li><strong>단독 채무의 분리</strong> — 배우자가 단독으로 진 빚은 배우자 개인 책임.</li>\n<li><strong>공동 채무의 예외</strong> — 일상가사(식료품·주거비 등)로 인한 채무는 부부 연대 책임(민법 제832조).</li>\n<li><strong>연대보증 주의</strong> — 본인이 연대보증한 배우자 채무는 본인 책임이므로 사전 확인 필수.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 배우자의 단독 채무는 본인 개인회생에 직접적 영향이 없으나 연대보증·공동명의 여부를 반드시 점검해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제830조는 부부별산제를 원칙으로 하며, 배우자의 단독 채무는 본인에게 법적 책임이 없습니다.</strong></p>\n<ul>\n<li><strong>별산제 원칙</strong> — 결혼 전 취득 재산과 결혼 후 단독 명의 재산은 각자의 특유재산.</li>\n<li><strong>단독 채무의 분리</strong> — 배우자가 단독으로 진 빚은 배우자 개인 책임.</li>\n<li><strong>공동 채무의 예외</strong> — 일상가사(식료품·주거비 등)로 인한 채무는 부부 연대 책임(민법 제832조).</li>\n<li><strong>연대보증 주의</strong> — 본인이 연대보증한 배우자 채무는 본인 책임이므로 사전 확인 필수.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 배우자의 단독 채무는 본인 개인회생에 직접적 영향이 없으나 연대보증·공동명의 여부를 가능한 한 점검해야 합니다.</blockquote>',
       },
       {
         title: '가계소득 산정 — 변제계획 영향',
@@ -779,7 +779,7 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       {
         question: '미성년자 입양도 성인 입양과 상속권이 같나요?',
         answer:
-          '<strong>상속권에는 차이가 없습니다.</strong> 나이와 무관하게 입양 성립 후에는 친자녀와 동일한 상속권이 인정됩니다.',
+          '<strong>상속권에는 차이가 없습니다.</strong> 나이와 무관하게 입양 성립 후에는 친자녀와 동일한 상속권이 인정될 수 있습니다.',
       },
       {
         question: '입양 취소되면 상속권도 사라지나요?',

@@ -40,12 +40,12 @@ export const spokesBatch19_29to35: SpokePage[] = [
       {
         title: '2단계 — 소변·모발 검사에 성실히 응하되 결과를 꼼꼼히 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">소변검사 양성이 나와도 확인검사(정밀검사)에서 뒤집히는 경우가 있습니다</strong></p>\n<p>수사기관은 <strong>소변검사(간이시약검사)와 모발검사</strong>를 실시합니다. 간이검사 양성만으로 유죄가 확정되는 것이 아닙니다. 국립과학수사연구원의 정밀 감정 결과가 나와야 증거력이 인정됩니다.</p>\n<p>검사를 거부하면 <strong>영장을 통한 강제 채취</strong>가 진행되므로 오히려 불리하게 작용합니다. 검사에 응하되, 감정 결과서를 반드시 확인하고 검출 물질의 종류와 농도를 변호사와 함께 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 간이검사 ≠ 최종 결과 → 정밀 감정 결과 확인 → 물질·농도 분석</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/chat?domain=drug-crime" style="color:#1565c0;font-weight:600">내 마약 사건 수사 대응 전략 AI로 분석받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">소변검사 양성이 나와도 확인검사(정밀검사)에서 뒤집히는 경우가 있습니다</strong></p>\n<p>수사기관은 <strong>소변검사(간이시약검사)와 모발검사</strong>를 실시합니다. 간이검사 양성만으로 유죄가 확정되는 것이 아닙니다. 국립과학수사연구원의 정밀 감정 결과가 나와야 증거력이 인정될 수 있습니다.</p>\n<p>검사를 거부하면 <strong>영장을 통한 강제 채취</strong>가 진행되므로 오히려 불리하게 작용합니다. 검사에 응하되, 감정 결과서를 가능한 한 확인하고 검출 물질의 종류와 농도를 변호사와 함께 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 간이검사 ≠ 최종 결과 → 정밀 감정 결과 확인 → 물질·농도 분석</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/chat?domain=drug-crime" style="color:#1565c0;font-weight:600">내 마약 사건 수사 대응 전략 AI로 분석받기 &rarr;</a>\n</div>',
       },
       {
         title: '3단계 — 경찰 조사에서 진술 전략을 수립하세요',
         content:
-          '<p><strong style="color:#1e3a5f">피의자 조사 시 묵비권(헌법 제12조 제2항)을 행사할 수 있으며, 진술은 신중하게 해야 합니다</strong></p>\n<p>피의자 조사에서 가장 흔한 실수는 <strong>"한 번만 했다" "지인이 줬다"</strong>처럼 범행 자체를 인정하는 진술을 먼저 하는 것입니다. 변호사와 사전에 합의한 진술 범위 내에서만 답변하세요. 모르는 것은 "기억나지 않습니다"로 답해도 됩니다.</p>\n<p>조사 후 <strong>피의자신문조서</strong>에 서명하기 전, 내용을 반드시 꼼꼼히 읽고 잘못된 부분은 정정을 요구하세요. 조서에 서명한 뒤에는 번복이 매우 어렵습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사전 협의 범위만 진술 → 조서 내용 확인 후 서명 → 변호인 입회 요청</blockquote>',
+          '<p><strong style="color:#1e3a5f">피의자 조사 시 묵비권(헌법 제12조 제2항)을 행사할 수 있으며, 진술은 신중하게 해야 합니다</strong></p>\n<p>피의자 조사에서 가장 흔한 실수는 <strong>"한 번만 했다" "지인이 줬다"</strong>처럼 범행 자체를 인정하는 진술을 먼저 하는 것입니다. 변호사와 사전에 합의한 진술 범위 내에서만 답변하세요. 모르는 것은 "기억나지 않습니다"로 답해도 됩니다.</p>\n<p>조사 후 <strong>피의자신문조서</strong>에 서명하기 전, 내용을 가능한 한 꼼꼼히 읽고 잘못된 부분은 정정을 요구하세요. 조서에 서명한 뒤에는 번복이 매우 어렵습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사전 협의 범위만 진술 → 조서 내용 확인 후 서명 → 변호인 입회 요청</blockquote>',
       },
       {
         title: '4~5단계 — 검찰 송치 후 양형 자료를 확보하세요',
@@ -76,7 +76,7 @@ export const spokesBatch19_29to35: SpokePage[] = [
       {
         question: '변호사 없이 조사를 받아도 되나요?',
         answer:
-          '법적으로는 가능하지만 <strong>매우 불리합니다</strong>. 수사관의 질문에 무방비 상태로 답하면 의도치 않게 불리한 진술을 남길 수 있고, 이후 재판에서 번복이 극히 어렵습니다. 반드시 변호인 입회하에 조사를 받으세요.',
+          '법적으로는 가능하지만 <strong>매우 불리합니다</strong>. 수사관의 질문에 무방비 상태로 답하면 의도치 않게 불리한 진술을 남길 수 있고, 이후 재판에서 번복이 극히 어렵습니다. 가능한 한 변호인 입회하에 조사를 받으세요.',
       },
       {
         question: '소변검사를 거부할 수 있나요?',
@@ -119,7 +119,7 @@ export const spokesBatch19_29to35: SpokePage[] = [
       {
         title: '첫째, 간이검사와 정밀검사의 차이를 이해하세요',
         content:
-          '<p><strong style="color:#1e3a5f">간이시약검사(면역측정법)는 위양성(false positive) 가능성이 있어 정밀 감정이 필수입니다</strong></p>\n<p>경찰이 현장에서 실시하는 소변 간이검사는 <strong>선별검사(스크리닝)</strong>에 불과합니다. 일부 의약품(감기약, 진통제, 수면제 등)을 복용해도 양성 반응이 나올 수 있습니다. 간이검사 양성 후에는 반드시 <strong>국립과학수사연구원의 정밀 감정</strong>(기체크로마토그래피-질량분석법)을 거칩니다.</p>\n<p>정밀 감정에서 음성이 확인되면 혐의가 해소됩니다. 양성이 나오더라도 <strong>검출 물질의 종류와 농도</strong>에 따라 법적 판단이 달라지므로, 감정 결과서를 반드시 확보하여 변호사와 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 간이검사 양성 ≠ 유죄 → 정밀감정 결과 대기 → 검출 물질·농도 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">간이시약검사(면역측정법)는 위양성(false positive) 가능성이 있어 정밀 감정이 필수입니다</strong></p>\n<p>경찰이 현장에서 실시하는 소변 간이검사는 <strong>선별검사(스크리닝)</strong>에 불과합니다. 일부 의약품(감기약, 진통제, 수면제 등)을 복용해도 양성 반응이 나올 수 있습니다. 간이검사 양성 후에는 가능한 한 <strong>국립과학수사연구원의 정밀 감정</strong>(기체크로마토그래피-질량분석법)을 거칩니다.</p>\n<p>정밀 감정에서 음성이 확인되면 혐의가 해소됩니다. 양성이 나오더라도 <strong>검출 물질의 종류와 농도</strong>에 따라 법적 판단이 달라지므로, 감정 결과서를 가능한 한 확보하여 변호사와 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 간이검사 양성 ≠ 유죄 → 정밀감정 결과 대기 → 검출 물질·농도 확인</blockquote>',
       },
       {
         title: '둘째, 처방약 복용 이력이 있다면 즉시 증거를 확보하세요',
@@ -198,7 +198,7 @@ export const spokesBatch19_29to35: SpokePage[] = [
       {
         title: '첫째, 임차권등기명령을 신청해서 대항력을 보전하세요',
         content:
-          '<p><strong style="color:#1e3a5f">주택임대차보호법 제3조의3에 따라 임차권등기명령이 완료되면 이사를 가도 대항력과 우선변제권이 유지됩니다</strong></p>\n<p>보증금을 받지 못한 상태에서 이사를 하면 <strong>전입신고가 말소되어 대항력을 잃습니다</strong>. 이를 방지하려면 관할 법원에 <strong>임차권등기명령</strong>을 신청하세요. 임차권등기가 완료되면 이사를 가더라도 보증금에 대한 우선변제권이 유지됩니다.</p>\n<p>신청에 필요한 서류는 ①임대차계약서 사본 ②전입세대확인서 ③보증금 반환 최고 내용증명 등입니다. 신청 비용은 <strong>약 2~5만 원</strong> 수준이며, 법원에서 1~2주 내에 결정이 나옵니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 이사 전에 반드시 임차권등기명령 신청 → 대항력 보전 → 안전하게 이사</blockquote>',
+          '<p><strong style="color:#1e3a5f">주택임대차보호법 제3조의3에 따라 임차권등기명령이 완료되면 이사를 가도 대항력과 우선변제권이 유지됩니다</strong></p>\n<p>보증금을 받지 못한 상태에서 이사를 하면 <strong>전입신고가 말소되어 대항력을 잃습니다</strong>. 이를 방지하려면 관할 법원에 <strong>임차권등기명령</strong>을 신청하세요. 임차권등기가 완료되면 이사를 가더라도 보증금에 대한 우선변제권이 유지됩니다.</p>\n<p>신청에 필요한 서류는 ①임대차계약서 사본 ②전입세대확인서 ③보증금 반환 최고 내용증명 등입니다. 신청 비용은 <strong>약 2~5만 원</strong> 수준이며, 법원에서 1~2주 내에 결정이 나옵니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 이사 전에 가능한 한 임차권등기명령 신청 → 대항력 보전 → 안전하게 이사</blockquote>',
       },
       {
         title: '둘째, 내용증명을 발송하고 보증금 반환을 공식 요청하세요',
@@ -222,7 +222,7 @@ export const spokesBatch19_29to35: SpokePage[] = [
         summary:
           '주택임대차보호법 제3조의3에 따르면, 임대차가 끝난 후 보증금을 돌려받지 못한 임차인은 임차주택 소재지 관할 법원에 임차권등기명령을 신청할 수 있으며, 이 등기가 마쳐진 이후에는 이사를 가더라도 대항력과 우선변제권이 유지됩니다.',
         takeaway:
-          '보증금을 못 받은 상태에서 무작정 이사하면 법적 보호를 잃습니다. 반드시 임차권등기명령을 먼저 신청한 뒤 이사하고, 동시에 보증금 반환 소송을 진행하세요.',
+          '보증금을 못 받은 상태에서 무작정 이사하면 법적 보호를 잃습니다. 가능한 한 임차권등기명령을 먼저 신청한 뒤 이사하고, 동시에 보증금 반환 소송을 진행하세요.',
       },
     ],
     faq: [

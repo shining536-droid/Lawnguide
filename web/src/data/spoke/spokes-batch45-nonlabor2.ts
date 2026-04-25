@@ -33,7 +33,7 @@ export const spokesBatch45Nonlabor2: SpokePage[] = [
       {
         title: '온라인 외도 — 어디까지 부정행위로 인정되나',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제840조 제1호 부정행위는 성관계뿐 아니라 부부 신뢰를 깨는 일체의 행위를 포함합니다.</strong></p>\n<ul>\n<li><strong>지속적 애정 표현</strong> — "사랑해", "보고싶어" 류 메시지 다수 + 1대1 이모지·사진 교환.</li>\n<li><strong>성적 표현</strong> — 노골적 사진·영상·음성 메시지·통화 녹취.</li>\n<li><strong>현실 만남 약속</strong> — 호텔·여행지 예약·KTX 동승 등 만남 정황.</li>\n<li><strong>금전적 지원</strong> — 명품·송금·생활비 지원 — 부부 공동재산 유출.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 직접 성관계 증거가 없어도 위 4가지 패턴이 누적되면 부정행위로 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제840조 제1호 부정행위는 성관계뿐 아니라 부부 신뢰를 깨는 일체의 행위를 포함합니다.</strong></p>\n<ul>\n<li><strong>지속적 애정 표현</strong> — "사랑해", "보고싶어" 류 메시지 다수 + 1대1 이모지·사진 교환.</li>\n<li><strong>성적 표현</strong> — 노골적 사진·영상·음성 메시지·통화 녹취.</li>\n<li><strong>현실 만남 약속</strong> — 호텔·여행지 예약·KTX 동승 등 만남 정황.</li>\n<li><strong>금전적 지원</strong> — 명품·송금·생활비 지원 — 부부 공동재산 유출.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 직접 성관계 증거가 없어도 위 4가지 패턴이 누적되면 부정행위로 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '5단계 수집 — 합법 범위에서 증거 확보하기',
@@ -149,7 +149,7 @@ export const spokesBatch45Nonlabor2: SpokePage[] = [
     ],
     faq: [
       {
-        question: '협의이혼하면 무조건 F-6-3로 변경되나요?',
+        question: '협의이혼하면 원칙적으로 F-6-3로 변경되나요?',
         answer:
           '<strong>협의이혼만으로는 F-6-3 자격이 자동 부여되지 않습니다.</strong> 한국인 배우자 귀책 자료를 별도로 제출해야 하며, 자녀 양육 중이라면 F-6-2가 더 안정적입니다.',
       },
@@ -166,7 +166,7 @@ export const spokesBatch45Nonlabor2: SpokePage[] = [
       {
         question: '본국으로 돌아간 뒤 한국 법원에 이혼 소송을 낼 수 있나요?',
         answer:
-          '<strong>한국에 상거소·재산이 있거나 한국인 배우자가 한국 거주 중이면 한국 법원 관할이 인정됩니다.</strong> 송달은 영사 송달·공시송달로 진행됩니다.',
+          '<strong>한국에 상거소·재산이 있거나 한국인 배우자가 한국 거주 중이면 한국 법원 관할이 인정될 수 있습니다.</strong> 송달은 영사 송달·공시송달로 진행됩니다.',
       },
       {
         question: '가정폭력 피해자인데 이혼 전에 미리 보호받을 수 있나요?',
@@ -405,7 +405,7 @@ export const spokesBatch45Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2017두62716 사건(대법원, 2020.12.30 선고)에서 법원은 해외에 보유한 재산도 거주자 사망 시 한국 상속세 과세대상이며 외국에서 납부한 세액을 공제하는 방식의 처분이 정당하다고 판단했습니다. 해외재산 누락 신고는 추징·가산세로 이어집니다.',
         takeaway:
-          '해외 자산도 반드시 한국 상속세 신고 대상이며, 현지 세금은 별도로 공제 가능하니 누락 없이 신고하세요.',
+          '해외 자산도 가능한 한 한국 상속세 신고 대상이며, 현지 세금은 별도로 공제 가능하니 누락 없이 신고하세요.',
       },
     ],
     faq: [
@@ -604,7 +604,7 @@ export const spokesBatch45Nonlabor2: SpokePage[] = [
           '<strong>분할협의서로 자유롭게 정할 수 있습니다.</strong> 다만 시가와 협의금액 차이가 크면 증여세가 부과될 수 있어 사전 검토 필수.',
       },
       {
-        question: '가업상속공제를 받으면 무조건 7년간 운영해야 하나요?',
+        question: '가업상속공제를 받으면 원칙적으로 7년간 운영해야 하나요?',
         answer:
           '<strong>사후관리 7년이 원칙입니다.</strong> 일부 자산 처분은 허용되나 비율·고용 유지 등 세부 요건 미충족 시 공제 추징됩니다.',
       },

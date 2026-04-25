@@ -137,7 +137,7 @@ export const spokesBatch16_11to15: SpokePage[] = [
         summary:
           '대법원 2024마5324 사건(대법원, 2024.05.30)에서 법원은 "채무자가 지급명령 정본을 송달받은 후 변호사를 선임하여 이의신청을 하였으나 채권자가 인지를 보정하지 않아 신청서가 각하된 경우에도, 변호사 보수는 소송비용에 포함될 수 있다"고 판시했습니다.',
         takeaway:
-          '비슷한 상황이라면 지급명령 이의 후 소송 전환 시 인지 보정을 반드시 기한 내에 하세요. 보정하지 않으면 각하되고 상대방 비용까지 부담할 수 있습니다.',
+          '비슷한 상황이라면 지급명령 이의 후 소송 전환 시 인지 보정을 가능한 한 기한 내에 하세요. 보정하지 않으면 각하되고 상대방 비용까지 부담할 수 있습니다.',
       },
     ],
     faq: [
@@ -193,7 +193,7 @@ export const spokesBatch16_11to15: SpokePage[] = [
       {
         title: '부정수급 처분의 내용을 정확히 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">반환명령과 추가징수는 별개의 처분입니다</strong></p>\n<p><strong>고용보험법 제62조</strong>에 따라 거짓이나 부정한 방법으로 구직급여를 받으면 ①<strong>지급제한</strong>(남은 급여 중단), ②<strong>반환명령</strong>(이미 받은 금액 반환), ③<strong>추가징수</strong>(부정수급액의 최대 5배)가 부과될 수 있습니다.</p>\n<p>처분 통지서에서 <strong>어느 기간</strong>의 급여가 부정수급으로 인정되었는지, 추가징수 배율이 몇 배인지 반드시 확인하세요. 부정수급 기간 이외에 정상 수급한 부분까지 반환 대상에 포함되었다면 이의를 제기할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: ①지급제한 범위 ②반환 대상 기간 ③추가징수 배율(최대 5배)</blockquote>',
+          '<p><strong style="color:#1e3a5f">반환명령과 추가징수는 별개의 처분입니다</strong></p>\n<p><strong>고용보험법 제62조</strong>에 따라 거짓이나 부정한 방법으로 구직급여를 받으면 ①<strong>지급제한</strong>(남은 급여 중단), ②<strong>반환명령</strong>(이미 받은 금액 반환), ③<strong>추가징수</strong>(부정수급액의 최대 5배)가 부과될 수 있습니다.</p>\n<p>처분 통지서에서 <strong>어느 기간</strong>의 급여가 부정수급으로 인정되었는지, 추가징수 배율이 몇 배인지 가능한 한 확인하세요. 부정수급 기간 이외에 정상 수급한 부분까지 반환 대상에 포함되었다면 이의를 제기할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">확인: ①지급제한 범위 ②반환 대상 기간 ③추가징수 배율(최대 5배)</blockquote>',
       },
       {
         title: '부정수급에 해당하는지 법적 요건을 검토하세요',
@@ -217,7 +217,7 @@ export const spokesBatch16_11to15: SpokePage[] = [
         summary:
           '대구지법 2018구합23680 사건(대구지법, 2019.04.17)에서 법원은 "수급자격자가 해외에 체류하면서 제3자의 대리 신청을 통하여 구직급여를 지급받은 것은 거짓이나 부정한 방법에 해당한다"고 판시하여 반환명령 처분이 적법하다고 판단했습니다.',
         takeaway:
-          '비슷한 상황이라면 재취업 노력신고는 반드시 본인이 직접 해야 합니다. 대리 신고는 그 자체로 부정수급에 해당할 수 있습니다.',
+          '비슷한 상황이라면 재취업 노력신고는 가능한 한 본인이 직접 해야 합니다. 대리 신고는 그 자체로 부정수급에 해당할 수 있습니다.',
       },
     ],
     faq: [
@@ -235,11 +235,11 @@ export const spokesBatch16_11to15: SpokePage[] = [
       },
       {
         question: '부정수급 환수금을 안 내면 어떻게 되나요?',
-        answer: '<strong>국세 체납처분</strong>의 예에 따라 재산을 압류당할 수 있습니다. 납부가 어려우면 반드시 분할납부를 신청하세요.',
+        answer: '<strong>국세 체납처분</strong>의 예에 따라 재산을 압류당할 수 있습니다. 납부가 어려우면 가능한 한 분할납부를 신청하세요.',
       },
       {
-        question: '고용센터 조사에 반드시 출석해야 하나요?',
-        answer: '출석 요구를 받으면 <strong>반드시 출석</strong>해야 합니다. 불출석 시 불리한 처분을 받을 수 있습니다.',
+        question: '고용센터 조사에 가능한 한 출석해야 하나요?',
+        answer: '출석 요구를 받으면 <strong>가능한 한 출석</strong>해야 합니다. 불출석 시 불리한 처분을 받을 수 있습니다.',
       },
       {
         question: '무료 법률상담은 어디서 받나요?',
@@ -277,22 +277,22 @@ export const spokesBatch16_11to15: SpokePage[] = [
       {
         title: '정당한 이직 사유 1: 임금 체불·삭감',
         content:
-          '<p><strong style="color:#1e3a5f">임금이 체불되거나 30% 이상 삭감되면 정당한 이직입니다</strong></p>\n<p><strong>고용보험법 시행규칙 별표 2</strong>에 따라 이직일 전 1년 이내에 <strong>2개월 이상 임금이 체불</strong>되었거나, 임금이 채용 시보다 <strong>15% 이상 감소</strong>한 경우 정당한 이직 사유로 인정됩니다.</p>\n<p>급여명세서, 근로계약서, 계좌이체 내역을 비교하여 <strong>실제 임금 감소 사실</strong>을 증명하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: 2개월 이상 임금 체불 또는 15% 이상 임금 감소 → 정당한 이직</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금이 체불되거나 30% 이상 삭감되면 정당한 이직입니다</strong></p>\n<p><strong>고용보험법 시행규칙 별표 2</strong>에 따라 이직일 전 1년 이내에 <strong>2개월 이상 임금이 체불</strong>되었거나, 임금이 채용 시보다 <strong>15% 이상 감소</strong>한 경우 정당한 이직 사유로 인정될 수 있습니다.</p>\n<p>급여명세서, 근로계약서, 계좌이체 내역을 비교하여 <strong>실제 임금 감소 사실</strong>을 증명하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">기준: 2개월 이상 임금 체불 또는 15% 이상 임금 감소 → 정당한 이직</blockquote>',
       },
       {
         title: '정당한 이직 사유 2: 근로조건 위반',
         content:
-          '<p><strong style="color:#1e3a5f">채용 시 약속한 근로조건과 실제가 다르면 인정됩니다</strong></p>\n<p>채용 공고나 근로계약서에 명시된 <strong>업무 내용, 근무 장소, 근로시간</strong>이 실제와 현저히 달라진 경우 정당한 이직 사유에 해당합니다.</p>\n<p>예를 들어 서울 근무로 채용되었는데 지방 사업장으로 <strong>일방적으로 전보</strong>된 경우, 사무직으로 채용되었는데 현장 노동으로 <strong>업무가 변경</strong>된 경우 등이 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증빙: 근로계약서 vs 실제 근무조건 비교 | 전보 명령서, 업무 변경 통지</blockquote>',
+          '<p><strong style="color:#1e3a5f">채용 시 약속한 근로조건과 실제가 다르면 인정될 수 있습니다</strong></p>\n<p>채용 공고나 근로계약서에 명시된 <strong>업무 내용, 근무 장소, 근로시간</strong>이 실제와 현저히 달라진 경우 정당한 이직 사유에 해당할 소지가 있습니다.</p>\n<p>예를 들어 서울 근무로 채용되었는데 지방 사업장으로 <strong>일방적으로 전보</strong>된 경우, 사무직으로 채용되었는데 현장 노동으로 <strong>업무가 변경</strong>된 경우 등이 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증빙: 근로계약서 vs 실제 근원칙적으로 비교 | 전보 명령서, 업무 변경 통지</blockquote>',
       },
       {
         title: '정당한 이직 사유 3: 직장 내 괴롭힘·성희롱',
         content:
-          '<p><strong style="color:#1e3a5f">괴롭힘이나 성희롱 피해로 퇴사한 경우 인정됩니다</strong></p>\n<p>직장 내 <strong>괴롭힘(근로기준법 제76조의2)</strong>이나 <strong>성희롱</strong>을 당해 사업주에게 신고했으나 적절한 조치가 이루어지지 않아 퇴사한 경우 정당한 이직입니다.</p>\n<p>괴롭힘 증거로 <strong>녹음, 메신저 캡처, 진단서, 동료 진술서</strong> 등을 준비하세요. 사업주에게 개선을 요청한 기록이 있으면 더 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조건: 괴롭힘·성희롱 사실 + 사업주 미조치 → 정당한 이직</blockquote>',
+          '<p><strong style="color:#1e3a5f">괴롭힘이나 성희롱 피해로 퇴사한 경우 인정될 수 있습니다</strong></p>\n<p>직장 내 <strong>괴롭힘(근로기준법 제76조의2)</strong>이나 <strong>성희롱</strong>을 당해 사업주에게 신고했으나 적절한 조치가 이루어지지 않아 퇴사한 경우 정당한 이직입니다.</p>\n<p>괴롭힘 증거로 <strong>녹음, 메신저 캡처, 진단서, 동료 진술서</strong> 등을 준비하세요. 사업주에게 개선을 요청한 기록이 있으면 더 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조건: 괴롭힘·성희롱 사실 + 사업주 미조치 → 정당한 이직</blockquote>',
       },
       {
         title: '정당한 이직 사유 4: 건강 악화·통근 곤란',
         content:
-          '<p><strong style="color:#1e3a5f">질병으로 업무 수행이 불가능하거나 왕복 3시간 이상 통근이면 인정됩니다</strong></p>\n<p><strong>의사의 소견서</strong>에 "현 업무 수행이 곤란하다"는 내용이 있으면 건강 사유로 인정됩니다. 사업주에게 <strong>직종 전환이나 휴직</strong>을 요청했으나 거부된 경우에도 해당합니다.</p>\n<p>또한 사업장 이전 등으로 <strong>왕복 통근시간이 3시간 이상</strong>이 된 경우에도 정당한 이직 사유입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">건강: 의사 소견서 필수 | 통근: 왕복 3시간 이상 기준</blockquote>',
+          '<p><strong style="color:#1e3a5f">질병으로 업무 수행이 불가능하거나 왕복 3시간 이상 통근이면 인정될 수 있습니다</strong></p>\n<p><strong>의사의 소견서</strong>에 "현 업무 수행이 곤란하다"는 내용이 있으면 건강 사유로 인정될 수 있습니다. 사업주에게 <strong>직종 전환이나 휴직</strong>을 요청했으나 거부된 경우에도 해당합니다.</p>\n<p>또한 사업장 이전 등으로 <strong>왕복 통근시간이 3시간 이상</strong>이 된 경우에도 정당한 이직 사유입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">건강: 의사 소견서 필수 | 통근: 왕복 3시간 이상 기준</blockquote>',
       },
       {
         title: '정당한 이직 사유 5: 사업주의 위법행위',
@@ -311,7 +311,7 @@ export const spokesBatch16_11to15: SpokePage[] = [
         summary:
           '서울행정법원 2014구합2270 사건(서울행법, 2014.07.03)에서 법원은 "멀티부서 이동으로 월 평균 임금이 46% 이상 하락하게 된 경우, 근로조건 저하에 따른 정당한 이직 사유에 해당하므로 수급자격 불인정 처분은 위법하다"고 판시했습니다.',
         takeaway:
-          '비슷한 상황이라면 채용 시 근로조건과 퇴사 시점의 근로조건을 비교한 증빙 자료를 반드시 준비하세요.',
+          '비슷한 상황이라면 채용 시 근로조건과 퇴사 시점의 근로조건을 비교한 증빙 자료를 가능한 한 준비하세요.',
       },
     ],
     faq: [
@@ -367,7 +367,7 @@ export const spokesBatch16_11to15: SpokePage[] = [
       {
         title: '첫째, 절대로 사직서에 서명하지 마세요',
         content:
-          '<p><strong style="color:#1e3a5f">사직서에 서명하면 "자발적 퇴사"가 되어 구제가 어려워집니다</strong></p>\n<p>권고사직은 법적으로 <strong>합의 해지</strong>입니다. 회사가 "퇴사하라"고 권유하는 것이지 강제할 수 없습니다. 근로자가 거부하면 회사는 <strong>정당한 해고 사유와 절차</strong>를 갖추어야만 퇴직시킬 수 있습니다.</p>\n<p>사직서에 서명하면 자발적 퇴사로 처리되어 <strong>부당해고 구제신청이 불가능</strong>해지고, 실업급여 수급도 제한될 수 있습니다. 어떤 압박을 받더라도 즉석에서 서명하지 마세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사직서 서명 = 자발적 퇴사 | 거부 가능 | 서명 전 반드시 상담</blockquote>',
+          '<p><strong style="color:#1e3a5f">사직서에 서명하면 "자발적 퇴사"가 되어 구제가 어려워집니다</strong></p>\n<p>권고사직은 법적으로 <strong>합의 해지</strong>입니다. 회사가 "퇴사하라"고 권유하는 것이지 강제할 수 없습니다. 근로자가 거부하면 회사는 <strong>정당한 해고 사유와 절차</strong>를 갖추어야만 퇴직시킬 수 있습니다.</p>\n<p>사직서에 서명하면 자발적 퇴사로 처리되어 <strong>부당해고 구제신청이 불가능</strong>해지고, 실업급여 수급도 제한될 수 있습니다. 어떤 압박을 받더라도 즉석에서 서명하지 마세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사직서 서명 = 자발적 퇴사 | 거부 가능 | 서명 전 가능한 한 상담</blockquote>',
       },
       {
         title: '둘째, 권고사직 압박의 증거를 확보하세요',
@@ -382,12 +382,12 @@ export const spokesBatch16_11to15: SpokePage[] = [
       {
         title: '사실상 해고가 이루어지면 노동위원회에 구제신청하세요',
         content:
-          '<p><strong style="color:#1e3a5f">강제된 권고사직은 부당해고로 인정될 수 있습니다</strong></p>\n<p>사직서를 쓰지 않았는데 회사가 일방적으로 <strong>퇴직 처리</strong>하거나, 사실상 근무를 못 하게 한다면 이는 <strong>해고</strong>에 해당합니다. 해고일로부터 <strong>3개월 이내</strong>에 노동위원회에 부당해고 구제신청을 하세요.</p>\n<p>사직의 의사 없이 강압에 의해 사직서를 제출한 경우에도, 법원은 이를 <strong>비진의 의사표시(민법 제107조)</strong>로 보아 무효로 판단한 사례가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 해고일부터 3개월 이내 노동위원회 신청 | 강제 사직서 → 무효 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">강제된 권고사직은 부당해고로 인정될 수 있습니다</strong></p>\n<p>사직서를 쓰지 않았는데 회사가 일방적으로 <strong>퇴직 처리</strong>하거나, 사실상 근무를 못 하게 한다면 이는 <strong>해고</strong>에 해당할 소지가 있습니다. 해고일로부터 <strong>3개월 이내</strong>에 노동위원회에 부당해고 구제신청을 하세요.</p>\n<p>사직의 의사 없이 강압에 의해 사직서를 제출한 경우에도, 법원은 이를 <strong>비진의 의사표시(민법 제107조)</strong>로 보아 무효로 판단한 사례가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 해고일부터 3개월 이내 노동위원회 신청 | 강제 사직서 → 무효 가능</blockquote>',
       },
       {
         title: '퇴직 조건을 협상할 수도 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">퇴사를 수용할 경우 반드시 조건을 문서화하세요</strong></p>\n<p>만약 퇴사를 받아들이기로 결정했다면, <strong>퇴직금 추가 지급, 위로금, 권고사직 확인서</strong>(실업급여 수급용) 등의 조건을 협상하세요.</p>\n<p>합의서에 ①권고사직 사실 확인, ②퇴직금·위로금 금액, ③이직확인서 발급 약속, ④잔여 연차수당 정산을 반드시 <strong>서면으로 명시</strong>하세요. 구두 약속은 나중에 번복될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">협상: 퇴직금 추가·위로금·권고사직 확인서·연차수당 → 반드시 합의서 작성</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴사를 수용할 경우 가능한 한 조건을 문서화하세요</strong></p>\n<p>만약 퇴사를 받아들이기로 결정했다면, <strong>퇴직금 추가 지급, 위로금, 권고사직 확인서</strong>(실업급여 수급용) 등의 조건을 협상하세요.</p>\n<p>합의서에 ①권고사직 사실 확인, ②퇴직금·위로금 금액, ③이직확인서 발급 약속, ④잔여 연차수당 정산을 가능한 한 <strong>서면으로 명시</strong>하세요. 구두 약속은 나중에 번복될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">협상: 퇴직금 추가·위로금·권고사직 확인서·연차수당 → 가능한 한 합의서 작성</blockquote>',
       },
     ],
     cases: [

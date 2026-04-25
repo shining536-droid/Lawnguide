@@ -123,7 +123,7 @@ export const spokesBatch23_29to35: SpokePage[] = [
       {
         title: '권고사직이 실업급여 수급 대상이 되는 이유',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 제58조에 따라 비자발적 퇴직자는 실업급여 수급 자격을 갖습니다. 권고사직은 사용자의 권유에 의한 퇴직이므로 비자발적 퇴직에 해당합니다</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 고용보험법 시행규칙 별표2는 수급 자격이 있는 이직 사유를 열거하고 있습니다. "사업주의 권고에 의한 이직"은 명시적으로 수급 자격 있는 이직 사유로 분류됩니다</li>\n<li><strong>사직서를 썼어도 수급 가능</strong> — 형식상 사직서를 제출했더라도 회사가 먼저 퇴직을 권유했다는 사실이 인정되면 비자발적 퇴직으로 처리됩니다. 사직서 제출 = 자발적 퇴직이라는 공식은 성립하지 않습니다</li>\n<li><strong>이직확인서 이직 사유 코드</strong> — 사업주가 이직확인서에 이직 사유를 "권고사직(코드 23)" 또는 "경영상 필요에 의한 권고사직(코드 23)"으로 기재하면 자동으로 수급 자격이 인정됩니다</li>\n<li><strong>이직 사유가 잘못 기재된 경우</strong> — "개인 사유(코드 11)"로 기재되면 자발적 퇴직으로 처리되어 실업급여를 받을 수 없습니다. 이 경우 고용센터에 이의 신청을 하고 권고사직 사실을 증명해야 합니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">권고사직 = 비자발적 퇴직 → 수급 자격 인정 | 단, 이직확인서 이직 사유 코드 확인 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 제58조에 따라 비자발적 퇴직자는 실업급여 수급 자격을 갖습니다. 권고사직은 사용자의 권유에 의한 퇴직이므로 비자발적 퇴직에 해당할 소지가 있습니다</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 고용보험법 시행규칙 별표2는 수급 자격이 있는 이직 사유를 열거하고 있습니다. "사업주의 권고에 의한 이직"은 명시적으로 수급 자격 있는 이직 사유로 분류됩니다</li>\n<li><strong>사직서를 썼어도 수급 가능</strong> — 형식상 사직서를 제출했더라도 회사가 먼저 퇴직을 권유했다는 사실이 인정되면 비자발적 퇴직으로 처리됩니다. 사직서 제출 = 자발적 퇴직이라는 공식은 성립하지 않습니다</li>\n<li><strong>이직확인서 이직 사유 코드</strong> — 사업주가 이직확인서에 이직 사유를 "권고사직(코드 23)" 또는 "경영상 필요에 의한 권고사직(코드 23)"으로 기재하면 자동으로 수급 자격이 인정될 수 있습니다</li>\n<li><strong>이직 사유가 잘못 기재된 경우</strong> — "개인 사유(코드 11)"로 기재되면 자발적 퇴직으로 처리되어 실업급여를 받을 수 없습니다. 이 경우 고용센터에 이의 신청을 하고 권고사직 사실을 증명해야 합니다</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">권고사직 = 비자발적 퇴직 → 수급 자격 인정 | 단, 이직확인서 이직 사유 코드 확인 필수</blockquote>',
       },
       {
         title: '권고사직 증거 수집과 이의신청 방법',
@@ -138,7 +138,7 @@ export const spokesBatch23_29to35: SpokePage[] = [
       {
         title: '권고사직과 구분해야 할 상황들',
         content:
-          '<p><strong style="color:#1e3a5f">모든 사직서 제출이 실업급여 수급 대상이 되는 것은 아닙니다. 자발적 퇴직으로 판단될 수 있는 상황을 미리 파악하세요</strong></p>\n<ul>\n<li><strong>계약 연장 거절</strong> — 계약 만료 시 사업주가 연장 의사를 밝혔는데 근로자가 스스로 거절한 경우 자발적 퇴직으로 볼 수 있어 실업급여 수급이 어렵습니다</li>\n<li><strong>더 좋은 직장으로의 이직</strong> — 다른 직장이 결정된 상태에서 자발적으로 퇴사한 경우 비수급 대상입니다</li>\n<li><strong>희망퇴직 자원</strong> — 회사가 희망퇴직자를 모집했을 때 본인이 자원한 경우, 형식적으로는 권고사직이지만 실질이 자발적 퇴직으로 볼 수 있어 심사 기준이 엄격합니다. 단, 희망퇴직이라도 구조조정 목적이라면 수급 자격이 인정되는 사례가 많습니다</li>\n<li><strong>개인 사정에 의한 사직</strong> — 건강, 가족 돌봄 등 불가피한 사유라도 원칙적으로는 자발적 퇴직. 다만 고용보험법 시행규칙에서 정한 특정 불가피 사유에 해당하면 수급 자격이 인정됩니다</li>\n</ul>\n<p>관련 페이지: <a href="/guide/unemployment/application-to-payment-full-procedure">실업급여 신청부터 수급까지 전체 절차</a> | <a href="/guide/unemployment/voluntary-resignation-benefit-eligible-cases">자발적 퇴사도 실업급여 받는 경우</a> | <a href="/guide/unemployment/resigned-where-to-start-application">퇴사 후 실업급여 어디부터</a></p>',
+          '<p><strong style="color:#1e3a5f">모든 사직서 제출이 실업급여 수급 대상이 되는 것은 아닙니다. 자발적 퇴직으로 판단될 수 있는 상황을 미리 파악하세요</strong></p>\n<ul>\n<li><strong>계약 연장 거절</strong> — 계약 만료 시 사업주가 연장 의사를 밝혔는데 근로자가 스스로 거절한 경우 자발적 퇴직으로 볼 수 있어 실업급여 수급이 어렵습니다</li>\n<li><strong>더 좋은 직장으로의 이직</strong> — 다른 직장이 결정된 상태에서 자발적으로 퇴사한 경우 비수급 대상입니다</li>\n<li><strong>희망퇴직 자원</strong> — 회사가 희망퇴직자를 모집했을 때 본인이 자원한 경우, 형식적으로는 권고사직이지만 실질이 자발적 퇴직으로 볼 수 있어 심사 기준이 엄격합니다. 단, 희망퇴직이라도 구조조정 목적이라면 수급 자격이 인정되는 사례가 많습니다</li>\n<li><strong>개인 사정에 의한 사직</strong> — 건강, 가족 돌봄 등 불가피한 사유라도 원칙적으로는 자발적 퇴직. 다만 고용보험법 시행규칙에서 정한 특정 불가피 사유에 해당하면 수급 자격이 인정될 수 있습니다</li>\n</ul>\n<p>관련 페이지: <a href="/guide/unemployment/application-to-payment-full-procedure">실업급여 신청부터 수급까지 전체 절차</a> | <a href="/guide/unemployment/voluntary-resignation-benefit-eligible-cases">자발적 퇴사도 실업급여 받는 경우</a> | <a href="/guide/unemployment/resigned-where-to-start-application">퇴사 후 실업급여 어디부터</a></p>',
       },
     ],
     cases: [
@@ -227,7 +227,7 @@ export const spokesBatch23_29to35: SpokePage[] = [
       {
         title: '실업급여 대상 여부 자가 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">고용센터 방문 전에 아래 조건을 먼저 확인하세요. 모두 충족해야 수급 자격이 인정됩니다</strong></p>\n<ul>\n<li>이직일 이전 18개월 내 <strong>피보험 기간 합산 180일 이상</strong>인가? (단시간 근로자는 24개월 내 합산)</li>\n<li>이직 사유가 <strong>비자발적 퇴직</strong>인가? (권고사직, 해고, 계약 만료, 회사 폐업, 근로 조건 불이익 변경 등)</li>\n<li>이직 후 <strong>즉시 취업하지 않고 구직 중</strong>인가?</li>\n<li>퇴직 후 <strong>12개월이 경과하지 않았는가</strong>?</li>\n<li>이전에 받은 실업급여를 <strong>부정수급한 사실이 없는가</strong>?</li>\n</ul>\n<p>관련 페이지: <a href="/guide/unemployment/application-to-payment-full-procedure">실업급여 신청부터 수급까지 전체 절차</a> | <a href="/guide/unemployment/recommended-resignation-unemployment-benefit">권고사직 실업급여 받는 법</a> | <a href="/guide/unemployment/voluntary-resignation-benefit-eligible-cases">자발적 퇴사도 실업급여 받는 경우</a></p>',
+          '<p><strong style="color:#1e3a5f">고용센터 방문 전에 아래 조건을 먼저 확인하세요. 모두 충족해야 수급 자격이 인정될 수 있습니다</strong></p>\n<ul>\n<li>이직일 이전 18개월 내 <strong>피보험 기간 합산 180일 이상</strong>인가? (단시간 근로자는 24개월 내 합산)</li>\n<li>이직 사유가 <strong>비자발적 퇴직</strong>인가? (권고사직, 해고, 계약 만료, 회사 폐업, 근로 조건 불이익 변경 등)</li>\n<li>이직 후 <strong>즉시 취업하지 않고 구직 중</strong>인가?</li>\n<li>퇴직 후 <strong>12개월이 경과하지 않았는가</strong>?</li>\n<li>이전에 받은 실업급여를 <strong>부정수급한 사실이 없는가</strong>?</li>\n</ul>\n<p>관련 페이지: <a href="/guide/unemployment/application-to-payment-full-procedure">실업급여 신청부터 수급까지 전체 절차</a> | <a href="/guide/unemployment/recommended-resignation-unemployment-benefit">권고사직 실업급여 받는 법</a> | <a href="/guide/unemployment/voluntary-resignation-benefit-eligible-cases">자발적 퇴사도 실업급여 받는 경우</a></p>',
       },
     ],
     cases: [
@@ -246,7 +246,7 @@ export const spokesBatch23_29to35: SpokePage[] = [
           '가도 되지만, 이직확인서 처리가 완료되지 않은 상태라면 수급자격 신청이 접수되지 않을 수 있습니다. 사업주가 이직확인서를 제출하는 데 최대 10일이 소요될 수 있으므로, 고용보험 홈페이지에서 이직확인서 처리 현황을 확인한 후 방문하는 것이 효율적입니다.',
       },
       {
-        question: '고용센터는 어디를 가야 하나요? 반드시 회사 근처여야 하나요?',
+        question: '고용센터는 어디를 가야 하나요? 가능한 한 회사 근처여야 하나요?',
         answer:
           '아닙니다. 거주지 관할 또는 구직 희망 지역 관할 고용센터 어디서나 신청 가능합니다. 가까운 고용센터를 고용노동부 홈페이지(moel.go.kr)에서 검색하거나 고용24 앱에서 확인할 수 있습니다.',
       },
@@ -300,7 +300,7 @@ export const spokesBatch23_29to35: SpokePage[] = [
         '양육비를 한 번도 받지 못했는데 어디서 어떻게 시작해야 하는지 막막하다면 가정법원 접수 전 준비사항을 지금 확인하세요.',
     },
     intro:
-      '<p>이혼 후 아이를 혼자 키우고 있는데, 전 배우자에게 한 번도 양육비를 받은 적이 없습니다.</p><p>청구하고 싶은데 어떤 서류를 준비해야 하는지, 어디에 신청해야 하는지, 혼자 할 수 있는 건지 막막합니다.</p><p>양육비 청구는 가정법원이 담당하며, 반드시 변호사가 있어야 하는 것은 아닙니다. 준비 서류와 신청 경로를 미리 파악하면 혼자서도 첫 단계를 진행할 수 있습니다.</p><p>양육비 청구를 처음 시작하는 분들을 위한 3단계 안내를 드립니다.</p>',
+      '<p>이혼 후 아이를 혼자 키우고 있는데, 전 배우자에게 한 번도 양육비를 받은 적이 없습니다.</p><p>청구하고 싶은데 어떤 서류를 준비해야 하는지, 어디에 신청해야 하는지, 혼자 할 수 있는 건지 막막합니다.</p><p>양육비 청구는 가정법원이 담당하며, 가능한 한 변호사가 있어야 하는 것은 아닙니다. 준비 서류와 신청 경로를 미리 파악하면 혼자서도 첫 단계를 진행할 수 있습니다.</p><p>양육비 청구를 처음 시작하는 분들을 위한 3단계 안내를 드립니다.</p>',
     sections: [
       {
         title: '1단계 — 청구 전 준비 서류를 챙기세요',

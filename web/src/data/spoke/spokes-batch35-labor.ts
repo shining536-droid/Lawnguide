@@ -40,12 +40,12 @@ export const spokesBatch35Labor: SpokePage[] = [
       {
         title: '목표 인센티브 vs 성과 인센티브 구분',
         content:
-          '<p><strong style="color:#1e3a5f">개인별 목표 달성에 따른 인센티브는 임금으로, 회사 전체 경영성과에 따른 인센티브는 임금이 아닐 수 있습니다.</strong></p>\n<ol>\n<li><strong>목표 인센티브(PI)</strong> — 개인이나 팀의 업무 목표 달성률에 따라 지급되는 금품입니다. 근로 제공과 직접 연결되고, 지급 기준이 사전에 정해져 있으면 근로의 대가인 임금에 해당합니다</li>\n<li><strong>성과 인센티브(PS/EVA)</strong> — 회사의 영업이익, 경제적 부가가치(EVA) 등 경영성과에 연동되어 지급되는 금품입니다. 개인 근로와 직접 관련 없이 회사 실적에 따라 결정되면 경영성과 분배금으로 임금에 해당하지 않을 수 있습니다</li>\n<li><strong>혼합형 인센티브</strong> — 개인 성과와 회사 실적이 혼합된 기준으로 지급되는 경우, 개인 근로 기여 비율이 높으면 임금으로 판단될 가능성이 큽니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 인센티브 유형별 퇴직금 포함 여부를 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">개인별 목표 달성에 따른 인센티브는 임금으로, 회사 전체 경영성과에 따른 인센티브는 임금이 아닐 수 있습니다.</strong></p>\n<ol>\n<li><strong>목표 인센티브(PI)</strong> — 개인이나 팀의 업무 목표 달성률에 따라 지급되는 금품입니다. 근로 제공과 직접 연결되고, 지급 기준이 사전에 정해져 있으면 근로의 대가인 임금에 해당할 소지가 있습니다</li>\n<li><strong>성과 인센티브(PS/EVA)</strong> — 회사의 영업이익, 경제적 부가가치(EVA) 등 경영성과에 연동되어 지급되는 금품입니다. 개인 근로와 직접 관련 없이 회사 실적에 따라 결정되면 경영성과 분배금으로 임금에 해당하지 않을 수 있습니다</li>\n<li><strong>혼합형 인센티브</strong> — 개인 성과와 회사 실적이 혼합된 기준으로 지급되는 경우, 개인 근로 기여 비율이 높으면 임금으로 판단될 가능성이 큽니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 인센티브 유형별 퇴직금 포함 여부를 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '특별성과급과 정기상여금 판단',
         content:
-          '<p><strong style="color:#1e3a5f">매년 관행적으로 지급된 특별성과급은 임금으로 인정될 가능성이 높고, 재량적 일시금은 제외될 수 있습니다.</strong></p>\n<ul>\n<li><strong>정기상여금</strong> — 설·추석 상여금처럼 정기적으로 지급되고, 취업규칙이나 근로계약에 지급 근거가 있으면 임금에 해당합니다. 금액이 매번 달라지더라도 지급 자체가 확정되어 있으면 임금입니다</li>\n<li><strong>관행적 특별성과급</strong> — 취업규칙에 명시되지 않았더라도 3년 이상 매년 전 직원에게 지급된 실적이 있으면 노사 관행으로 임금성이 인정될 수 있습니다</li>\n<li><strong>사용자 재량 일시금</strong> — 대표이사가 그때그때 결정하여 일부 직원에게만 지급하는 포상금, 격려금은 임금으로 보기 어렵습니다</li>\n<li><strong>계약서 문구의 한계</strong> — 근로계약서에 "인센티브는 임금이 아니다"라고 기재되어 있어도, 실질적으로 근로의 대가라면 법적으로는 임금으로 판단됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: 임금 여부를 다투려면 지급 내역, 사내 규정, 지급 기준표 등을 반드시 확보해야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">매년 관행적으로 지급된 특별성과급은 임금으로 인정될 가능성이 높고, 재량적 일시금은 제외될 수 있습니다.</strong></p>\n<ul>\n<li><strong>정기상여금</strong> — 설·추석 상여금처럼 정기적으로 지급되고, 취업규칙이나 근로계약에 지급 근거가 있으면 임금에 해당할 소지가 있습니다. 금액이 매번 달라지더라도 지급 자체가 확정되어 있으면 임금입니다</li>\n<li><strong>관행적 특별성과급</strong> — 취업규칙에 명시되지 않았더라도 3년 이상 매년 전 직원에게 지급된 실적이 있으면 노사 관행으로 임금성이 인정될 수 있습니다</li>\n<li><strong>사용자 재량 일시금</strong> — 대표이사가 그때그때 결정하여 일부 직원에게만 지급하는 포상금, 격려금은 임금으로 보기 어렵습니다</li>\n<li><strong>계약서 문구의 한계</strong> — 근로계약서에 "인센티브는 임금이 아니다"라고 기재되어 있어도, 실질적으로 근로의 대가라면 법적으로는 임금으로 판단됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: 임금 여부를 다투려면 지급 내역, 사내 규정, 지급 기준표 등을 가능한 한 확보해야 합니다</blockquote>',
       },
       {
         title: '퇴직금 차액 청구 절차',
@@ -64,14 +64,14 @@ export const spokesBatch35Labor: SpokePage[] = [
     ],
     faq: [
       {
-        question: '매년 받았으면 무조건 임금인가요?',
+        question: '매년 받았으면 원칙적으로 임금인가요?',
         answer:
           '<strong>매년 받았다는 사실만으로 임금이 되는 것은 아닙니다.</strong> 정기성은 임금 판단의 한 요소일 뿐이고, 지급 조건이 개인의 근로 제공과 연결되는지가 핵심입니다. 다만 3년 이상 관행적으로 전 직원에게 지급되었다면 노사 관행으로 임금성이 인정될 가능성이 높아집니다.',
       },
       {
         question: '회사가 "인센티브는 임금 아니다"라고 하면 어떻게 하나요?',
         answer:
-          '<strong>회사의 주장과 관계없이 실질적인 지급 조건으로 판단합니다.</strong> 근로계약서나 취업규칙에 "임금이 아니다"라고 적혀 있어도 실제로 근로의 대가로 정기적·일률적으로 지급되었다면 법적으로 임금에 해당합니다. 지급 내역서, 급여명세서, 사내 규정을 증거로 확보하세요.',
+          '<strong>회사의 주장과 관계없이 실질적인 지급 조건으로 판단합니다.</strong> 근로계약서나 취업규칙에 "임금이 아니다"라고 적혀 있어도 실제로 근로의 대가로 정기적·일률적으로 지급되었다면 법적으로 임금에 해당할 소지가 있습니다. 지급 내역서, 급여명세서, 사내 규정을 증거로 확보하세요.',
       },
       {
         question: '퇴직금 차액 청구 시효는 얼마인가요?',
@@ -129,7 +129,7 @@ export const spokesBatch35Labor: SpokePage[] = [
       {
         title: '합산 안 되는 경우',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직금을 완전히 정산받고 상당 기간 후 재입사한 경우에는 근속기간이 합산되지 않습니다.</strong></p>\n<ul>\n<li><strong>퇴직금 완전 정산</strong> — 퇴사 시 퇴직금을 전액 지급받았다면 이전 근로관계는 청산된 것으로 봅니다. 재입사 후에는 새로운 계속근로기간이 시작됩니다</li>\n<li><strong>상당한 공백 기간</strong> — 수개월 이상의 공백 기간이 있고, 그 사이에 다른 직장에 근무하거나 구직활동을 했다면 근로관계의 단절이 인정됩니다</li>\n<li><strong>완전히 다른 업무</strong> — 재입사 후 이전과 전혀 다른 부서에서 다른 업무를 수행하고, 근로조건도 새로 정한 경우에는 별개의 근로관계로 볼 수 있습니다</li>\n<li><strong>자발적 퇴사 후 재입사</strong> — 근로자가 자발적으로 퇴직한 뒤 퇴직금을 수령하고, 일정 기간 후 재입사한 경우에는 합산이 어렵습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: 퇴직금을 받았더라도 그 금액이 실제 퇴직금에 미달하는 경우, 미정산 부분에 대해서는 합산 주장이 가능할 수 있습니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직금을 완전히 정산받고 상당 기간 후 재입사한 경우에는 근속기간이 합산되지 않습니다.</strong></p>\n<ul>\n<li><strong>퇴직금 완전 정산</strong> — 퇴사 시 퇴직금을 전액 지급받았다면 이전 근로관계는 청산된 것으로 봅니다. 재입사 후에는 새로운 계속근로기간이 시작됩니다</li>\n<li><strong>상당한 공백 기간</strong> — 수개월 이상의 공백 기간이 있고, 그 사이에 다른 직장에 근무하거나 구직활동을 했다면 근로관계의 단절이 인정될 수 있습니다</li>\n<li><strong>완전히 다른 업무</strong> — 재입사 후 이전과 전혀 다른 부서에서 다른 업무를 수행하고, 근로조건도 새로 정한 경우에는 별개의 근로관계로 볼 수 있습니다</li>\n<li><strong>자발적 퇴사 후 재입사</strong> — 근로자가 자발적으로 퇴직한 뒤 퇴직금을 수령하고, 일정 기간 후 재입사한 경우에는 합산이 어렵습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: 퇴직금을 받았더라도 그 금액이 실제 퇴직금에 미달하는 경우, 미정산 부분에 대해서는 합산 주장이 가능할 수 있습니다</blockquote>',
       },
       {
         title: '합산 여부 확인 방법과 청구 절차',
@@ -148,7 +148,7 @@ export const spokesBatch35Labor: SpokePage[] = [
     ],
     faq: [
       {
-        question: '중간에 퇴직금을 받았으면 무조건 근속기간이 리셋되나요?',
+        question: '중간에 퇴직금을 받았으면 원칙적으로 근속기간이 리셋되나요?',
         answer:
           '<strong>퇴직금을 완전히 정산받았다면 원칙적으로 리셋됩니다.</strong> 다만 퇴직금 지급이 회사 편의에 의한 형식적 정산이었거나, 실질적 근로관계 단절 없이 계속 근무했다면 합산을 주장할 수 있습니다. 퇴직금 정산 경위와 공백 기간의 실태가 중요합니다.',
       },
@@ -208,7 +208,7 @@ export const spokesBatch35Labor: SpokePage[] = [
       {
         title: '보복 유형과 판단 기준',
         content:
-          '<p><strong style="color:#1e3a5f">명시적 해고뿐 아니라 은근한 업무 배제, 평가 불이익, 분위기 조성도 보복에 해당할 수 있습니다.</strong></p>\n<ol>\n<li><strong>명시적 보복</strong> — 신고 직후 해고, 권고사직 요구, 징계처분 등 직접적인 불이익입니다. 신고와 시간적 근접성이 분명하면 보복 추정이 강합니다</li>\n<li><strong>간접적 보복</strong> — 핵심 업무 배제, 한직 발령, 근무 장소 변경, 야근·특근 배정 제외 등으로 실질적 근로조건을 악화시키는 경우입니다</li>\n<li><strong>분위기 보복</strong> — 동료에게 신고 사실을 유포하여 따돌림을 유도하거나, 회의에서 공개적으로 망신을 주는 행위도 불이익 처분에 해당합니다</li>\n<li><strong>판단 기준</strong> — 법원은 (1) 신고와 불이익 사이의 시간적 근접성, (2) 신고 전후 처우 변화, (3) 사용자의 보복 의사 표현, (4) 동종 사안에서의 통상적 처우와의 비교를 종합하여 판단합니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 상황이 보복에 해당하는지 분석해드립니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">명시적 해고뿐 아니라 은근한 업무 배제, 평가 불이익, 분위기 조성도 보복에 해당할 수 있습니다.</strong></p>\n<ol>\n<li><strong>명시적 보복</strong> — 신고 직후 해고, 권고사직 요구, 징계처분 등 직접적인 불이익입니다. 신고와 시간적 근접성이 분명하면 보복 추정이 강합니다</li>\n<li><strong>간접적 보복</strong> — 핵심 업무 배제, 한직 발령, 근무 장소 변경, 야근·특근 배정 제외 등으로 실질적 근로조건을 악화시키는 경우입니다</li>\n<li><strong>분위기 보복</strong> — 동료에게 신고 사실을 유포하여 따돌림을 유도하거나, 회의에서 공개적으로 망신을 주는 행위도 불이익 처분에 해당할 소지가 있습니다</li>\n<li><strong>판단 기준</strong> — 법원은 (1) 신고와 불이익 사이의 시간적 근접성, (2) 신고 전후 처우 변화, (3) 사용자의 보복 의사 표현, (4) 동종 사안에서의 통상적 처우와의 비교를 종합하여 판단합니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 상황이 보복에 해당하는지 분석해드립니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '보복 발생 시 대응 3단계',
@@ -227,14 +227,14 @@ export const spokesBatch35Labor: SpokePage[] = [
         summary:
           '대법원 2022다257238 사건(대법원, 2025.07.18 선고)에서 법원은 격일제 근무자의 최저임금 적용 방법을 판시하면서, 근로자가 법적으로 보장된 최저임금 권리를 주장하는 것은 정당한 권리행사라는 점을 확인했습니다.',
         takeaway:
-          '임금 관련 권리를 주장하는 것은 정당한 행위이며, 이를 이유로 불이익을 가하는 것은 위법합니다. 신고 전에 자신의 청구가 정당한 근거에 기반하는지 확인하면 보복 대응에서도 유리합니다.',
+          '임금 관련 권리를 주장하는 것은 정당한 행위이며, 이를 이유로 불이익을 가하는 것은 위법 소지가 있습니다. 신고 전에 자신의 청구가 정당한 근거에 기반하는지 확인하면 보복 대응에서도 유리합니다.',
       },
     ],
     faq: [
       {
         question: '해고가 아닌 은근한 업무 배제나 압박도 보복에 해당하나요?',
         answer:
-          '<strong>명시적 해고가 아니더라도 실질적으로 불이익한 처분이면 보복에 해당합니다.</strong> 핵심 업무 배제, 한직 발령, 승진 누락, 성과평가 불이익 등도 근기법 제104조가 금지하는 "그 밖의 불이익한 처분"에 포함됩니다. 신고 전후의 처우 변화를 비교할 수 있는 자료를 반드시 확보하세요.',
+          '<strong>명시적 해고가 아니더라도 실질적으로 불이익한 처분이면 보복에 해당할 소지가 있습니다.</strong> 핵심 업무 배제, 한직 발령, 승진 누락, 성과평가 불이익 등도 근기법 제104조가 금지하는 "그 밖의 불이익한 처분"에 포함됩니다. 신고 전후의 처우 변화를 비교할 수 있는 자료를 가능한 한 확보하세요.',
       },
       {
         question: '신고한 당사자가 아닌 동료에게 불이익을 주는 것도 위반인가요?',
@@ -244,7 +244,7 @@ export const spokesBatch35Labor: SpokePage[] = [
       {
         question: '신고 철회를 요구하는 것도 불법인가요?',
         answer:
-          '<strong>신고 철회를 강요하거나 철회 조건으로 불이익을 암시하는 것은 위법합니다.</strong> 특히 "신고를 취하하지 않으면 해고하겠다"는 식의 발언은 근기법 제104조 위반에 해당할 수 있으며, 강요죄(형법 제324조)로도 문제될 수 있습니다.',
+          '<strong>신고 철회를 강요하거나 철회 조건으로 불이익을 암시하는 것은 위법 소지가 있습니다.</strong> 특히 "신고를 취하하지 않으면 해고하겠다"는 식의 발언은 근기법 제104조 위반에 해당할 수 있으며, 강요죄(형법 제324조)로도 문제될 수 있습니다.',
       },
       {
         question: '보복이 있었다는 입증 책임은 누구에게 있나요?',
@@ -292,12 +292,12 @@ export const spokesBatch35Labor: SpokePage[] = [
       {
         title: '단기 근로자도 임금 청구가 가능한 이유',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법은 근로 기간이나 근로계약서 작성 여부와 관계없이 실제로 근로를 제공한 모든 근로자의 임금 청구권을 보장합니다.</strong></p>\n<ul>\n<li><strong>근로자의 범위</strong> — 근로기준법 제2조에 따라 직업의 종류와 관계없이 임금을 목적으로 사업이나 사업장에서 근로를 제공하는 자는 모두 근로자입니다. 하루만 일했어도 해당됩니다</li>\n<li><strong>계약서 불요</strong> — 근로계약은 구두로도 성립합니다. 근로계약서 미작성은 사용자의 의무 위반(근기법 제17조, 500만 원 이하 과태료)이지 근로자의 권리를 제한하는 사유가 아닙니다</li>\n<li><strong>임금 지급 원칙</strong> — 임금은 직접, 통화로, 전액을, 매월 1회 이상 일정 기일에 지급해야 합니다(근기법 제43조). 이를 위반하면 3년 이하 징역 또는 3천만 원 이하 벌금에 처합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">핵심: "금액이 적으니까 신고해도 소용없다"는 잘못된 생각입니다. 고용노동부는 금액과 관계없이 모든 임금체불 진정을 접수합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법은 근로 기간이나 근로계약서 작성 여부와 관계없이 실제로 근로를 제공한 모든 근로자의 임금 청구권을 보장합니다.</strong></p>\n<ul>\n<li><strong>근로자의 범위</strong> — 근로기준법 제2조에 따라 직업의 종류와 관계없이 임금을 목적으로 사업이나 사업장에서 근로를 제공하는 자는 모두 근로자입니다. 하루만 일했어도 해당됩니다</li>\n<li><strong>계약서 불요</strong> — 근로계약은 구두로도 성립할 수 있습니다. 근로계약서 미작성은 사용자의 의무 위반(근기법 제17조, 500만 원 이하 과태료)이지 근로자의 권리를 제한하는 사유가 아닙니다</li>\n<li><strong>임금 지급 원칙</strong> — 임금은 직접, 통화로, 전액을, 매월 1회 이상 일정 기일에 지급해야 합니다(근기법 제43조). 이를 위반하면 3년 이하 징역 또는 3천만 원 이하 벌금에 처합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">핵심: "금액이 적으니까 신고해도 소용없다"는 잘못된 생각입니다. 고용노동부는 금액과 관계없이 모든 임금체불 진정을 접수합니다</blockquote>',
       },
       {
         title: '증거 확보 방법 (근로계약서 없어도)',
         content:
-          '<p><strong style="color:#1e3a5f">근로계약서가 없어도 카카오톡 대화, 계좌이체 기록, 사진, 동료 진술 등으로 근로 사실을 입증할 수 있습니다.</strong></p>\n<ol>\n<li><strong>카카오톡·문자 대화</strong> — 출근 시간 약속, 업무 지시, 급여 약속 관련 대화 내용을 캡처합니다. 상대방이 채팅방을 나가기 전에 반드시 저장하세요</li>\n<li><strong>계좌이체·현금 기록</strong> — 이전에 받은 적이 있다면 급여 입금 내역을 확보합니다. 교통비, 식비 등 관련 지출 기록도 근무 사실을 뒷받침합니다</li>\n<li><strong>사진·영상</strong> — 근무 현장 사진, 작업 결과물 사진, 출퇴근 시 촬영한 사진이 유용합니다. 위치 정보와 시간이 포함된 사진이 증거력이 높습니다</li>\n<li><strong>동료·목격자 진술</strong> — 함께 일한 동료나 현장을 목격한 사람의 진술서를 확보합니다. 연락처와 함께 "○○ 날 ○○에서 함께 일했다"는 내용을 기재합니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 증거 상태로 청구 가능 여부를 분석해드립니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">근로계약서가 없어도 카카오톡 대화, 계좌이체 기록, 사진, 동료 진술 등으로 근로 사실을 입증할 수 있습니다.</strong></p>\n<ol>\n<li><strong>카카오톡·문자 대화</strong> — 출근 시간 약속, 업무 지시, 급여 약속 관련 대화 내용을 캡처합니다. 상대방이 채팅방을 나가기 전에 가능한 한 저장하세요</li>\n<li><strong>계좌이체·현금 기록</strong> — 이전에 받은 적이 있다면 급여 입금 내역을 확보합니다. 교통비, 식비 등 관련 지출 기록도 근무 사실을 뒷받침합니다</li>\n<li><strong>사진·영상</strong> — 근무 현장 사진, 작업 결과물 사진, 출퇴근 시 촬영한 사진이 유용합니다. 위치 정보와 시간이 포함된 사진이 증거력이 높습니다</li>\n<li><strong>동료·목격자 진술</strong> — 함께 일한 동료나 현장을 목격한 사람의 진술서를 확보합니다. 연락처와 함께 "○○ 날 ○○에서 함께 일했다"는 내용을 기재합니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 증거 상태로 청구 가능 여부를 분석해드립니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '고용노동부 진정·고소 절차',
@@ -376,7 +376,7 @@ export const spokesBatch35Labor: SpokePage[] = [
       {
         title: '근기법 제27조 서면통지 요건',
         content:
-          '<p><strong style="color:#1e3a5f">사용자가 근로자를 해고하려면 해고 사유와 해고 시기를 서면으로 통지해야 하며, 이를 위반한 해고는 무효입니다.</strong></p>\n<ul>\n<li><strong>서면통지의 필수 기재사항</strong> — 근로기준법 제27조에 따라 (1) 해고 사유와 (2) 해고 시기가 반드시 기재되어야 합니다. 두 가지 중 하나라도 빠지면 서면통지 요건을 충족하지 못합니다</li>\n<li><strong>서면의 의미</strong> — 대법원은 "서면"을 근로자가 해고 사유를 명확하게 인식하고 이에 적절히 대응할 수 있도록 하는 문서로 해석합니다. 형식보다 내용의 특정성이 중요합니다</li>\n<li><strong>위반 효과</strong> — 서면통지 요건을 갖추지 못한 해고는 해고 사유의 정당성 여부와 관계없이 그 자체로 무효입니다. 즉 정당한 사유가 있더라도 서면통지를 하지 않았으면 부당해고입니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">핵심: 서면통지는 절차적 요건이므로, 서면 없는 해고는 실질적 사유가 있어도 무효입니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">사용자가 근로자를 해고하려면 해고 사유와 해고 시기를 서면으로 통지해야 하며, 이를 위반한 해고는 무효입니다.</strong></p>\n<ul>\n<li><strong>서면통지의 필수 기재사항</strong> — 근로기준법 제27조에 따라 (1) 해고 사유와 (2) 해고 시기가 가능한 한 기재되어야 합니다. 두 가지 중 하나라도 빠지면 서면통지 요건을 충족하지 못합니다</li>\n<li><strong>서면의 의미</strong> — 대법원은 "서면"을 근로자가 해고 사유를 명확하게 인식하고 이에 적절히 대응할 수 있도록 하는 문서로 해석합니다. 형식보다 내용의 특정성이 중요합니다</li>\n<li><strong>위반 효과</strong> — 서면통지 요건을 갖추지 못한 해고는 해고 사유의 정당성 여부와 관계없이 그 자체로 무효입니다. 즉 정당한 사유가 있더라도 서면통지를 하지 않았으면 부당해고로 검토될 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">핵심: 서면통지는 절차적 요건이므로, 서면 없는 해고는 실질적 사유가 있어도 무효입니다</blockquote>',
       },
       {
         title: '카톡·이메일이 서면에 해당하는지',
@@ -407,12 +407,12 @@ export const spokesBatch35Labor: SpokePage[] = [
       {
         question: '구두로만 해고 통보를 받았는데 유효한가요?',
         answer:
-          '<strong>구두 해고는 서면통지 요건을 갖추지 못했으므로 무효입니다.</strong> 근기법 제27조는 해고 사유와 시기를 반드시 서면으로 통지하도록 규정하고 있으며, 이를 위반한 해고는 정당한 사유가 있더라도 효력이 없습니다.',
+          '<strong>구두 해고는 서면통지 요건을 갖추지 못했으므로 무효입니다.</strong> 근기법 제27조는 해고 사유와 시기를 가능한 한 서면으로 통지하도록 규정하고 있으며, 이를 위반한 해고는 정당한 사유가 있더라도 효력이 없습니다.',
       },
       {
         question: '카톡에 "내일부터 안 나와도 된다"고 했다면 해고인가요?',
         answer:
-          '<strong>맥락에 따라 해고로 볼 수 있습니다.</strong> 사용자가 근로관계를 일방적으로 종료하려는 의사 표시라면 해고에 해당합니다. 다만 서면통지 요건(해고 사유·시기 기재)을 갖추지 못했으므로 부당해고로 다툴 수 있습니다.',
+          '<strong>맥락에 따라 해고로 볼 수 있습니다.</strong> 사용자가 근로관계를 일방적으로 종료하려는 의사 표시라면 해고에 해당할 소지가 있습니다. 다만 서면통지 요건(해고 사유·시기 기재)을 갖추지 못했으므로 부당해고로 다툴 수 있습니다.',
       },
       {
         question: '회사가 사직서를 쓰라고 하는데 어떻게 해야 하나요?',
@@ -470,7 +470,7 @@ export const spokesBatch35Labor: SpokePage[] = [
       {
         title: '합병 전후 근로조건 변경 제한',
         content:
-          '<p><strong style="color:#1e3a5f">합병 후에도 기존 근로조건은 원칙적으로 유지되며, 불이익한 변경은 근로자 동의가 필요합니다.</strong></p>\n<ul>\n<li><strong>근로조건 유지 원칙</strong> — 승계된 근로관계의 내용(임금, 근로시간, 직급 등)은 원칙적으로 합병 전과 동일하게 유지되어야 합니다</li>\n<li><strong>취업규칙 변경</strong> — 합병 후 통합 취업규칙을 적용하면서 기존 근로자에게 불이익한 내용이 포함된 경우, 근로자 과반수의 동의가 필요합니다(근기법 제94조)</li>\n<li><strong>임금 체계 통합</strong> — 합병 후 임금 체계를 통합하면서 기존 근로자의 임금이 감소하는 경우, 경과 조치(보전 수당 등) 없는 즉시 변경은 불이익 변경에 해당합니다</li>\n<li><strong>직급·직위 변경</strong> — 합병 후 직급 체계를 통합하면서 기존 직위보다 낮은 직급을 부여하는 것은 인사권 남용으로 부당전보에 해당할 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: 합병 계약서에 "근로조건을 존속회사 기준으로 통일한다"는 조항이 있어도 근로자 개별 동의 없이는 불이익 변경이 불가합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">합병 후에도 기존 근로조건은 원칙적으로 유지되며, 불이익한 변경은 근로자 동의가 필요합니다.</strong></p>\n<ul>\n<li><strong>근로조건 유지 원칙</strong> — 승계된 근로관계의 내용(임금, 근로시간, 직급 등)은 원칙적으로 합병 전과 동일하게 유지되어야 합니다</li>\n<li><strong>취업규칙 변경</strong> — 합병 후 통합 취업규칙을 적용하면서 기존 근로자에게 불이익한 내용이 포함된 경우, 근로자 과반수의 동의가 필요합니다(근기법 제94조)</li>\n<li><strong>임금 체계 통합</strong> — 합병 후 임금 체계를 통합하면서 기존 근로자의 임금이 감소하는 경우, 경과 조치(보전 수당 등) 없는 즉시 변경은 불이익 변경에 해당할 소지가 있습니다</li>\n<li><strong>직급·직위 변경</strong> — 합병 후 직급 체계를 통합하면서 기존 직위보다 낮은 직급을 부여하는 것은 인사권 남용으로 부당전보에 해당할 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">주의: 합병 계약서에 "근로조건을 존속회사 기준으로 통일한다"는 조항이 있어도 근로자 개별 동의 없이는 불이익 변경이 불가합니다</blockquote>',
       },
       {
         title: '부당해고 구제와 원직복직',
@@ -484,14 +484,14 @@ export const spokesBatch35Labor: SpokePage[] = [
         summary:
           '대법원 2023두54914 사건(대법원, 2026.01.29 선고)에서 법원은 협동조합 조합원이라 하더라도 실질적 근로관계가 인정되면 근로자에 해당하며, 영업양도 시 근로관계는 양수인에게 승계된다고 판시했습니다.',
         takeaway:
-          '합병·영업양도 시 형식적인 고용 형태(조합원, 위촉직 등)와 관계없이 실질적 근로관계가 있으면 승계 대상입니다. 합병을 이유로 한 해고 시 승계 원칙 위반 여부를 반드시 확인하세요.',
+          '합병·영업양도 시 형식적인 고용 형태(조합원, 위촉직 등)와 관계없이 실질적 근로관계가 있으면 승계 대상입니다. 합병을 이유로 한 해고 시 승계 원칙 위반 여부를 가능한 한 확인하세요.',
       },
     ],
     faq: [
       {
         question: '합병 후 급여가 줄어들면 어떻게 하나요?',
         answer:
-          '<strong>근로자 동의 없는 임금 감소는 불이익 변경에 해당합니다.</strong> 합병 후 임금 체계 통합 과정에서 기존 임금이 줄어든다면 근로자 과반수의 동의가 필요합니다. 동의 없이 일방적으로 감액되었다면 임금 차액을 청구할 수 있습니다.',
+          '<strong>근로자 동의 없는 임금 감소는 불이익 변경에 해당할 소지가 있습니다.</strong> 합병 후 임금 체계 통합 과정에서 기존 임금이 줄어든다면 근로자 과반수의 동의가 필요합니다. 동의 없이 일방적으로 감액되었다면 임금 차액을 청구할 수 있습니다.',
       },
       {
         question: '분할 시 어느 회사로 소속되나요?',

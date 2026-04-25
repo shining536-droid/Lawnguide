@@ -125,7 +125,7 @@ export const sanggaPages: SpokePage[] = [
       {
         title: '갱신요구권을 서면으로 행사하세요',
         content:
-          '<p><strong style="color:#1e3a5f">내용증명으로 갱신 요구 의사를 명확히 전달하세요</strong></p>\n<p>갱신 요구는 반드시 <strong>서면</strong>으로 하세요. 내용증명 우편이 가장 확실합니다. "상가임대차보호법 제10조에 따라 계약 갱신을 요구합니다"라고 명시하세요.</p>\n<p>임대인이 거절하면 그 <strong>거절 사유</strong>를 서면으로 받아두세요. 이후 분쟁조정이나 소송에서 핵심 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 내용증명으로 갱신 요구, 거절 사유 서면 확보</blockquote>',
+          '<p><strong style="color:#1e3a5f">내용증명으로 갱신 요구 의사를 명확히 전달하세요</strong></p>\n<p>갱신 요구는 가능한 한 <strong>서면</strong>으로 하세요. 내용증명 우편이 가장 확실합니다. "상가임대차보호법 제10조에 따라 계약 갱신을 요구합니다"라고 명시하세요.</p>\n<p>임대인이 거절하면 그 <strong>거절 사유</strong>를 서면으로 받아두세요. 이후 분쟁조정이나 소송에서 핵심 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 내용증명으로 갱신 요구, 거절 사유 서면 확보</blockquote>',
       },
       {
         title: '부당한 거절이면 분쟁조정이나 소송으로 다투세요',
@@ -146,7 +146,7 @@ export const sanggaPages: SpokePage[] = [
         summary:
           '관련 사례에서도 임차인이 갱신 요구 기간(만료 6개월~1개월 전)을 놓쳐 갱신요구권을 행사하지 못한 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 계약 만료일을 확인하고, 만료 6개월 전에 반드시 갱신 요구를 하세요.',
+          '비슷한 상황이라면 계약 만료일을 확인하고, 만료 6개월 전에 가능한 한 갱신 요구를 하세요.',
       },
     ],
     faq: [
@@ -236,7 +236,7 @@ export const sanggaPages: SpokePage[] = [
         summary:
           '관련 사례에서도 임차인이 보증금을 돌려받지 못한 채 이사해야 했으나, 임차권등기명령을 통해 대항력을 유지하고 이후 경매에서 우선 배당받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 이사 전에 반드시 임차권등기명령을 신청하세요.',
+          '비슷한 상황이라면 이사 전에 가능한 한 임차권등기명령을 신청하세요.',
       },
       {
         title: '지급명령으로 빠르게 보증금을 회수한 사례',
@@ -265,7 +265,7 @@ export const sanggaPages: SpokePage[] = [
       },
       {
         question: '확정일자는 꼭 받아야 하나요?',
-        answer: '확정일자가 있어야 <strong>우선변제권</strong>이 생깁니다. 반드시 받아두세요.',
+        answer: '확정일자가 있어야 <strong>우선변제권</strong>이 생깁니다. 가능한 한 받아두세요.',
       },
       {
         question: '새 세입자가 안 들어오면 보증금을 못 받나요?',

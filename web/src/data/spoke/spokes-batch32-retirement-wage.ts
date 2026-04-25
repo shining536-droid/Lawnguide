@@ -50,7 +50,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '임금피크제 적용 전 퇴직금을 지키는 방법',
         content:
-          '<p><strong style="color:#1e3a5f">임금피크제 적용은 근로자퇴직급여보장법 제8조에 따른 중간정산 사유에 해당합니다.</strong></p>\n<ol>\n<li><strong>중간정산 신청</strong> — 임금피크제 적용 직전에 사용자에게 퇴직금 중간정산을 요청합니다. 임금이 줄어드는 경우는 법정 중간정산 사유에 해당하므로 사용자가 거부할 수 없습니다.</li>\n<li><strong>확정기여형(DC) 전환</strong> — DC형으로 전환하면 매년 연봉의 1/12 이상을 적립하므로, 감소 전 기간의 적립금은 보존됩니다.</li>\n<li><strong>임금피크제 합의서 확인</strong> — 임금피크제 도입 시 퇴직금 산정 방식에 대한 별도 합의가 있는지 확인하세요. 일부 사업장은 감소 전 급여를 기준으로 퇴직금을 산정하기로 합의하기도 합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>임금피크제 적용 후 퇴직금이 얼마나 줄어드는지, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">감소 전후 급여와 근속연수를 입력하면 퇴직금 차이를 무료로 분석합니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">임금피크제 적용은 근로자퇴직급여보장법 제8조에 따른 중간정산 사유에 해당할 소지가 있습니다.</strong></p>\n<ol>\n<li><strong>중간정산 신청</strong> — 임금피크제 적용 직전에 사용자에게 퇴직금 중간정산을 요청합니다. 임금이 줄어드는 경우는 법정 중간정산 사유에 해당하므로 사용자가 거부할 수 없습니다.</li>\n<li><strong>확정기여형(DC) 전환</strong> — DC형으로 전환하면 매년 연봉의 1/12 이상을 적립하므로, 감소 전 기간의 적립금은 보존됩니다.</li>\n<li><strong>임금피크제 합의서 확인</strong> — 임금피크제 도입 시 퇴직금 산정 방식에 대한 별도 합의가 있는지 확인하세요. 일부 사업장은 감소 전 급여를 기준으로 퇴직금을 산정하기로 합의하기도 합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>임금피크제 적용 후 퇴직금이 얼마나 줄어드는지, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">감소 전후 급여와 근속연수를 입력하면 퇴직금 차이를 무료로 분석합니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '임금피크제 자체의 유효성 확인',
@@ -64,7 +64,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
         summary:
           '대법원 2018다200709 사건(대법원, 2019.11.14 선고)에서 법원은 근로기준법 제94조에 따른 집단적 동의를 받아 근로자에게 불리한 내용으로 취업규칙이 변경된 경우, 변경된 취업규칙의 기준에 따라 그보다 유리한 근로조건을 정한 기존의 개별 근로계약의 내용도 변경된다고 판시했습니다.',
         takeaway:
-          '임금피크제가 적법한 절차(근로자 과반수 동의)를 거쳐 도입되었다면, 변경된 임금을 기준으로 퇴직금이 산정됩니다. 도입 절차의 적법성을 반드시 확인하세요.',
+          '임금피크제가 적법한 절차(근로자 과반수 동의)를 거쳐 도입되었다면, 변경된 임금을 기준으로 퇴직금이 산정됩니다. 도입 절차의 적법성을 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -91,7 +91,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         question: '임금피크제 적용 후 퇴직금 중간정산을 회사가 거부할 수 있나요?',
         answer:
-          '<p>근로자퇴직급여보장법 시행령 제3조에 따라 임금이 줄어드는 경우는 중간정산 사유에 해당합니다. 법정 사유이므로 사용자가 정당한 이유 없이 거부할 수 없습니다.</p>',
+          '<p>근로자퇴직급여보장법 시행령 제3조에 따라 임금이 줄어드는 경우는 중간정산 사유에 해당할 소지가 있습니다. 법정 사유이므로 사용자가 정당한 이유 없이 거부할 수 없습니다.</p>',
       },
     ],
     cta: { text: '임금피크제 퇴직금 영향 AI로 계산하기', link: '/chat?domain=retirement' },
@@ -134,7 +134,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '합병·양도 시 근로자가 지금 해야 할 일',
         content:
-          '<p><strong style="color:#1e3a5f">합병·양도 과정에서 퇴직금을 지키려면 다음 3가지를 반드시 확인하세요.</strong></p>\n<ol>\n<li><strong>근로관계 승계 여부 확인</strong> — 새 회사에서 기존 근로조건(근속연수, 임금, 직급 등)을 그대로 인정하는지 서면으로 확인받으세요.</li>\n<li><strong>퇴직금 정산 제안 거부</strong> — 양도 시 퇴직금을 먼저 정산하자는 제안은 신중하게 판단하세요. 정산 후 재입사하면 근속연수가 초기화될 수 있습니다.</li>\n<li><strong>근로계약서 재작성 시 주의</strong> — 새 회사와 근로계약서를 다시 쓸 때, 기존 입사일을 기준으로 근속연수를 인정하는 조항이 포함되었는지 확인하세요.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 양도 전 근로계약서, 급여명세서, 사내 공지문 등을 반드시 보관하세요. 나중에 근속연수를 다툴 때 핵심 증거가 됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">합병·양도 과정에서 퇴직금을 지키려면 다음 3가지를 가능한 한 확인하세요.</strong></p>\n<ol>\n<li><strong>근로관계 승계 여부 확인</strong> — 새 회사에서 기존 근로조건(근속연수, 임금, 직급 등)을 그대로 인정하는지 서면으로 확인받으세요.</li>\n<li><strong>퇴직금 정산 제안 거부</strong> — 양도 시 퇴직금을 먼저 정산하자는 제안은 신중하게 판단하세요. 정산 후 재입사하면 근속연수가 초기화될 수 있습니다.</li>\n<li><strong>근로계약서 재작성 시 주의</strong> — 새 회사와 근로계약서를 다시 쓸 때, 기존 입사일을 기준으로 근속연수를 인정하는 조항이 포함되었는지 확인하세요.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 양도 전 근로계약서, 급여명세서, 사내 공지문 등을 가능한 한 보관하세요. 나중에 근속연수를 다툴 때 핵심 증거가 됩니다.</blockquote>',
       },
     ],
     cases: [
@@ -203,7 +203,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '예외 — 실질적 분할 약정으로 인정되는 경우',
         content:
-          '<p><strong style="color:#1e3a5f">단, 실질적으로 퇴직금의 중간정산에 해당하는 경우에는 유효하게 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>중간정산 요건 충족</strong> — 법정 중간정산 사유에 해당하고 근로자가 서면으로 요청한 경우에는 유효한 퇴직금 정산으로 인정됩니다.</li>\n<li><strong>확정기여형(DC) 퇴직연금</strong> — DC형 퇴직연금의 부담금 납입은 적법한 퇴직금 제도이므로 분할지급과 다릅니다.</li>\n<li><strong>명칭이 아닌 실질 판단</strong> — 급여에 \'퇴직금\'이라는 명칭이 붙어 있어도 실질적으로 임금의 일부에 불과하다면 분할지급 약정 자체가 성립하지 않습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>월급에 포함된 퇴직금 분할분, 별도 청구가 가능한지 AI가 분석합니다</strong></p>\n<p style="margin:0;font-size:0.95em">급여 구조와 근로계약 내용을 입력하면 추가 청구 가능 금액을 무료로 확인합니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">단, 실질적으로 퇴직금의 중간정산에 해당하는 경우에는 유효하게 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>중간정산 요건 충족</strong> — 법정 중간정산 사유에 해당하고 근로자가 서면으로 요청한 경우에는 유효한 퇴직금 정산으로 인정될 수 있습니다.</li>\n<li><strong>확정기여형(DC) 퇴직연금</strong> — DC형 퇴직연금의 부담금 납입은 적법한 퇴직금 제도이므로 분할지급과 다릅니다.</li>\n<li><strong>명칭이 아닌 실질 판단</strong> — 급여에 \'퇴직금\'이라는 명칭이 붙어 있어도 실질적으로 임금의 일부에 불과하다면 분할지급 약정 자체가 성립하지 않습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>월급에 포함된 퇴직금 분할분, 별도 청구가 가능한지 AI가 분석합니다</strong></p>\n<p style="margin:0;font-size:0.95em">급여 구조와 근로계약 내용을 입력하면 추가 청구 가능 금액을 무료로 확인합니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '퇴직금 분할지급 무효 주장 절차',
@@ -351,12 +351,12 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '징계해고와 퇴직금 수급권의 관계',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직금 수급권은 해고 사유에 영향을 받지 않습니다. 징계해고든 권고사직이든 1년 이상 근무했다면 퇴직금을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>퇴직금의 법적 성격</strong> — 퇴직금은 계속근로에 대한 후불적 임금입니다. 해고 사유가 징계이든 경영상 이유이든 관계없이, 1년 이상 계속근로 후 퇴직하면 퇴직금 청구권이 발생합니다.</li>\n<li><strong>퇴직금 포기 약정 무효</strong> — "징계해고 시 퇴직금을 지급하지 않는다"는 취업규칙이나 근로계약 조항은 근로기준법에 위반되어 무효입니다.</li>\n<li><strong>공무원과의 차이</strong> — 공무원은 파면 시 퇴직금(퇴직급여)이 감액되는 규정이 있지만, 민간 근로자는 이러한 규정이 적용되지 않습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "징계해고라서 퇴직금이 없다"는 말은 법적 근거가 없습니다. 퇴직금은 반드시 지급되어야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직금 수급권은 해고 사유에 영향을 받지 않습니다. 징계해고든 권고사직이든 1년 이상 근무했다면 퇴직금을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>퇴직금의 법적 성격</strong> — 퇴직금은 계속근로에 대한 후불적 임금입니다. 해고 사유가 징계이든 경영상 이유이든 관계없이, 1년 이상 계속근로 후 퇴직하면 퇴직금 청구권이 발생합니다.</li>\n<li><strong>퇴직금 포기 약정 무효</strong> — "징계해고 시 퇴직금을 지급하지 않는다"는 취업규칙이나 근로계약 조항은 근로기준법에 위반되어 무효입니다.</li>\n<li><strong>공무원과의 차이</strong> — 공무원은 파면 시 퇴직금(퇴직급여)이 감액되는 규정이 있지만, 민간 근로자는 이러한 규정이 적용되지 않습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "징계해고라서 퇴직금이 없다"는 말은 법적 근거가 없습니다. 퇴직금은 가능한 한 지급되어야 합니다.</blockquote>',
       },
       {
         title: '징계해고 시 퇴직금 청구 절차',
         content:
-          '<p><strong style="color:#1e3a5f">징계해고를 당했더라도 퇴직금 청구 절차는 일반 퇴직과 동일합니다.</strong></p>\n<ol>\n<li><strong>퇴직금 지급 요청</strong> — 해고일로부터 14일 이내에 퇴직금이 지급되어야 합니다. 서면으로 지급을 요청하세요.</li>\n<li><strong>미지급 시 노동부 진정</strong> — 14일이 지나도 지급하지 않으면 관할 노동지청에 퇴직금 미지급 진정을 제기합니다.</li>\n<li><strong>지연이자 청구</strong> — 퇴직일로부터 14일이 지나면 연 20%의 지연이자가 발생합니다.</li>\n<li><strong>형사고소 병행</strong> — 퇴직금 미지급은 근로기준법 위반으로 3년 이하의 징역 또는 3천만원 이하의 벌금에 해당합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>징계해고 후 퇴직금 청구 방법, AI가 즉시 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">해고 경위와 근무 기간을 입력하면 퇴직금 청구 절차와 예상 금액을 무료로 확인합니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">징계해고를 당했더라도 퇴직금 청구 절차는 일반 퇴직과 동일합니다.</strong></p>\n<ol>\n<li><strong>퇴직금 지급 요청</strong> — 해고일로부터 14일 이내에 퇴직금이 지급되어야 합니다. 서면으로 지급을 요청하세요.</li>\n<li><strong>미지급 시 노동부 진정</strong> — 14일이 지나도 지급하지 않으면 관할 노동지청에 퇴직금 미지급 진정을 제기합니다.</li>\n<li><strong>지연이자 청구</strong> — 퇴직일로부터 14일이 지나면 연 20%의 지연이자가 발생합니다.</li>\n<li><strong>형사고소 병행</strong> — 퇴직금 미지급은 근로기준법 위반으로 3년 이하의 징역 또는 3천만원 이하의 벌금에 해당할 소지가 있습니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>징계해고 후 퇴직금 청구 방법, AI가 즉시 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">해고 경위와 근무 기간을 입력하면 퇴직금 청구 절차와 예상 금액을 무료로 확인합니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '부당 징계해고 시 추가 대응',
@@ -370,7 +370,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
         summary:
           '대법원 2018다21821 사건(대법원, 2018.07.12 선고)에서 법원은 퇴직금은 계속근로에 대한 후불적 임금 성질을 가지며, 최종 퇴직 시 발생하는 퇴직금청구권을 미리 포기하기로 하는 약정은 무효라고 판시했습니다.',
         takeaway:
-          '취업규칙이나 근로계약서에 "징계해고 시 퇴직금을 지급하지 않는다"는 조항이 있더라도 무효입니다. 퇴직금은 어떤 사유로 퇴직하든 반드시 지급되어야 합니다.',
+          '취업규칙이나 근로계약서에 "징계해고 시 퇴직금을 지급하지 않는다"는 조항이 있더라도 무효입니다. 퇴직금은 어떤 사유로 퇴직하든 가능한 한 지급되어야 합니다.',
       },
     ],
     faq: [
@@ -430,7 +430,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '연차 사용촉진 제도와 수당 청구의 관계',
         content:
-          '<p><strong style="color:#1e3a5f">사용자가 적법하게 연차 사용촉진 절차를 이행했다면, 미사용 연차에 대한 수당 보상 의무가 면제됩니다.</strong></p>\n<ul>\n<li><strong>사용촉진 절차</strong> — ①연차 사용 기간 만료 6개월 전 미사용 일수 통보 + 사용 시기 지정 촉구, ②근로자가 10일 이내 미지정 시 사용자가 지정 — 이 두 단계를 모두 이행해야 합니다.</li>\n<li><strong>절차 미비 시</strong> — 촉구를 서면으로 하지 않았거나, 기한을 지키지 않았거나, 일부 절차를 누락했다면 사용촉진이 무효가 되어 수당을 지급해야 합니다.</li>\n<li><strong>퇴직 시 특례</strong> — 퇴직으로 인해 발생한 연차(당해년도분)는 사용촉진 대상이 아니므로, 퇴직 시 반드시 수당으로 지급되어야 합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>미사용 연차수당이 얼마인지, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">남은 연차 일수와 통상임금을 입력하면 청구 가능 금액을 무료로 확인합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사용자가 적법하게 연차 사용촉진 절차를 이행했다면, 미사용 연차에 대한 수당 보상 의무가 면제됩니다.</strong></p>\n<ul>\n<li><strong>사용촉진 절차</strong> — ①연차 사용 기간 만료 6개월 전 미사용 일수 통보 + 사용 시기 지정 촉구, ②근로자가 10일 이내 미지정 시 사용자가 지정 — 이 두 단계를 모두 이행해야 합니다.</li>\n<li><strong>절차 미비 시</strong> — 촉구를 서면으로 하지 않았거나, 기한을 지키지 않았거나, 일부 절차를 누락했다면 사용촉진이 무효가 되어 수당을 지급해야 합니다.</li>\n<li><strong>퇴직 시 특례</strong> — 퇴직으로 인해 발생한 연차(당해년도분)는 사용촉진 대상이 아니므로, 퇴직 시 가능한 한 수당으로 지급되어야 합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>미사용 연차수당이 얼마인지, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">남은 연차 일수와 통상임금을 입력하면 청구 가능 금액을 무료로 확인합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '미사용 연차수당 청구 절차',
@@ -514,7 +514,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '건설업 외 업종에서의 원청 책임',
         content:
-          '<p><strong style="color:#1e3a5f">건설업 외 업종에서는 근로기준법 제44조에 따라 직상 수급인이 하수급인과 연대하여 임금 지급 의무를 부담합니다.</strong></p>\n<ul>\n<li><strong>일반 업종 적용</strong> — 제조업, 서비스업 등에서도 도급 관계에서 하수급인 근로자에 대한 직상 수급인의 연대 책임이 인정됩니다.</li>\n<li><strong>직상 수급인의 범위</strong> — 원도급인(발주자)이 아닌, 하수급인에게 직접 하도급을 준 직상 수급인이 책임을 부담합니다.</li>\n<li><strong>증거 확보 핵심</strong> — 도급 계약서, 하도급 계약서, 작업 지시 기록이 핵심 증거입니다. 근로를 제공한 현장과 기간을 증명할 수 있는 자료를 꼼꼼히 보관하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 건설업이 아니어도 하도급 구조에서 원청 연대 책임이 인정될 수 있습니다. 도급 관계를 증명하는 서류가 핵심입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">건설업 외 업종에서는 근로기준법 제44조에 따라 직상 수급인이 하수급인과 연대하여 임금 지급 의무를 부담합니다.</strong></p>\n<ul>\n<li><strong>일반 업종 적용</strong> — 제조업, 서비스업 등에서도 도급 관계에서 하수급인 근로자에 대한 직상 수급인의 연대 책임이 인정될 수 있습니다.</li>\n<li><strong>직상 수급인의 범위</strong> — 원도급인(발주자)이 아닌, 하수급인에게 직접 하도급을 준 직상 수급인이 책임을 부담합니다.</li>\n<li><strong>증거 확보 핵심</strong> — 도급 계약서, 하도급 계약서, 작업 지시 기록이 핵심 증거입니다. 근로를 제공한 현장과 기간을 증명할 수 있는 자료를 꼼꼼히 보관하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 건설업이 아니어도 하도급 구조에서 원청 연대 책임이 인정될 수 있습니다. 도급 관계를 증명하는 서류가 핵심입니다.</blockquote>',
       },
     ],
     cases: [
@@ -583,7 +583,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '14일 경과 시 사용자에게 가해지는 제재',
         content:
-          '<p><strong style="color:#1e3a5f">14일이 지나면 연 20% 지연이자와 형사처벌이 동시에 가능합니다.</strong></p>\n<ul>\n<li><strong>지연이자</strong> — 근로기준법 제37조에 따라 미지급 금액에 대해 퇴직일로부터 14일이 지난 날부터 연 20%의 지연이자가 발생합니다. 100만원이 1개월 지연되면 약 16,667원의 이자가 추가됩니다.</li>\n<li><strong>형사처벌</strong> — 임금 미지급은 근로기준법 제109조 위반으로 3년 이하의 징역 또는 3,000만원 이하의 벌금에 해당합니다.</li>\n<li><strong>사업주 명단 공개</strong> — 고용노동부는 임금체불 사업주 명단을 공개할 수 있으며, 이는 사업 운영에 큰 불이익이 됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>14일 초과 미지급 금액과 지연이자, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">퇴직일과 미지급 금액을 입력하면 지연이자와 대응 방법을 무료로 안내합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">14일이 지나면 연 20% 지연이자와 형사처벌이 동시에 가능합니다.</strong></p>\n<ul>\n<li><strong>지연이자</strong> — 근로기준법 제37조에 따라 미지급 금액에 대해 퇴직일로부터 14일이 지난 날부터 연 20%의 지연이자가 발생합니다. 100만원이 1개월 지연되면 약 16,667원의 이자가 추가됩니다.</li>\n<li><strong>형사처벌</strong> — 임금 미지급은 근로기준법 제109조 위반으로 3년 이하의 징역 또는 3,000만원 이하의 벌금에 해당할 소지가 있습니다.</li>\n<li><strong>사업주 명단 공개</strong> — 고용노동부는 임금체불 사업주 명단을 공개할 수 있으며, 이는 사업 운영에 큰 불이익이 됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>14일 초과 미지급 금액과 지연이자, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">퇴직일과 미지급 금액을 입력하면 지연이자와 대응 방법을 무료로 안내합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '최종급여 미지급 시 대응 절차',
@@ -597,7 +597,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
         summary:
           '대법원 2024다294705 사건(대법원, 2025.05.29 선고)에서 법원은 채무자가 소멸시효 완성을 주장하는 것이 신의성실의 원칙에 반하여 권리남용으로서 허용될 수 없는 경우가 있으며, 채권자의 권리행사를 방해하거나 시효완성 후 채무를 승인하였다면 시효 항변이 배척될 수 있다고 판시했습니다.',
         takeaway:
-          '사업주가 "3년 소멸시효가 지났다"고 주장하더라도, 지급을 약속하며 시간을 끌었거나 채권 행사를 방해한 경우에는 시효 항변이 인정되지 않을 수 있습니다. 사업주와의 통화·문자 기록을 반드시 보관하세요.',
+          '사업주가 "3년 소멸시효가 지났다"고 주장하더라도, 지급을 약속하며 시간을 끌었거나 채권 행사를 방해한 경우에는 시효 항변이 인정되지 않을 수 있습니다. 사업주와의 통화·문자 기록을 가능한 한 보관하세요.',
       },
     ],
     faq: [
@@ -667,7 +667,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '택배·배달기사의 근로자성 확인',
         content:
-          '<p><strong style="color:#1e3a5f">수당을 청구하려면 먼저 근로기준법상 근로자에 해당하는지 확인해야 합니다.</strong></p>\n<ul>\n<li><strong>근로자성 판단 기준</strong> — 사용자의 지휘·감독을 받으며, 출퇴근 시간이 정해져 있고, 업무 내용이 사용자에 의해 결정되며, 보수가 근로의 대상이라면 근로자로 인정됩니다.</li>\n<li><strong>특수고용 여부</strong> — 택배·배달기사가 개인사업자로 계약되어 있더라도, 실질적으로 회사의 지휘·감독을 받는다면 근로자로 인정될 수 있습니다.</li>\n<li><strong>산재보험 적용</strong> — 택배기사, 배달대행기사 등은 산업재해보상보험법에 따라 특수형태근로종사자로 산재보험이 적용됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "위탁계약"이라고 되어 있어도 실질적으로 근로자라면 포괄임금 무효를 주장하고 수당을 청구할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">수당을 청구하려면 먼저 근로기준법상 근로자에 해당하는지 확인해야 합니다.</strong></p>\n<ul>\n<li><strong>근로자성 판단 기준</strong> — 사용자의 지휘·감독을 받으며, 출퇴근 시간이 정해져 있고, 업무 내용이 사용자에 의해 결정되며, 보수가 근로의 대상이라면 근로자로 인정될 수 있습니다.</li>\n<li><strong>특수고용 여부</strong> — 택배·배달기사가 개인사업자로 계약되어 있더라도, 실질적으로 회사의 지휘·감독을 받는다면 근로자로 인정될 수 있습니다.</li>\n<li><strong>산재보험 적용</strong> — 택배기사, 배달대행기사 등은 산업재해보상보험법에 따라 특수형태근로종사자로 산재보험이 적용됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "위탁계약"이라고 되어 있어도 실질적으로 근로자라면 포괄임금 무효를 주장하고 수당을 청구할 수 있습니다.</blockquote>',
       },
     ],
     cases: [
@@ -736,7 +736,7 @@ export const spokesBatch32RetirementWage: SpokePage[] = [
       {
         title: '교대근무 야간·연장수당 계산법',
         content:
-          '<p><strong style="color:#1e3a5f">교대근무에서 발생하는 각종 수당을 정확히 계산하는 방법입니다.</strong></p>\n<ul>\n<li><strong>야간근로수당</strong> — 밤 10시~아침 6시 사이 근로에 대해 통상임금의 50%를 가산합니다. 야간 조(예: 20시~08시) 근무 시 10시간 중 8시간이 야간근로에 해당합니다.</li>\n<li><strong>연장근로수당</strong> — 1일 8시간, 1주 40시간을 초과하는 근로에 통상임금의 50%를 가산합니다. 12시간 근무 시 4시간이 연장근로입니다.</li>\n<li><strong>야간+연장 중복</strong> — 야간 시간대에 연장근로를 한 경우, 야간 가산(50%) + 연장 가산(50%) = 통상임금의 100%를 추가로 지급해야 합니다.</li>\n<li><strong>휴일근로수당</strong> — 교대 스케줄상 주휴일에 근무한 경우, 8시간 이내는 50%, 8시간 초과는 100%를 가산합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>교대근무 수당이 제대로 나오고 있는지, AI가 즉시 검증합니다</strong></p>\n<p style="margin:0;font-size:0.95em">교대 패턴과 급여를 입력하면 정상 수당과 차액을 무료로 계산합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">교대근무에서 발생하는 각종 수당을 정확히 계산하는 방법입니다.</strong></p>\n<ul>\n<li><strong>야간근로수당</strong> — 밤 10시~아침 6시 사이 근로에 대해 통상임금의 50%를 가산합니다. 야간 조(예: 20시~08시) 근무 시 10시간 중 8시간이 야간근로에 해당할 소지가 있습니다.</li>\n<li><strong>연장근로수당</strong> — 1일 8시간, 1주 40시간을 초과하는 근로에 통상임금의 50%를 가산합니다. 12시간 근무 시 4시간이 연장근로입니다.</li>\n<li><strong>야간+연장 중복</strong> — 야간 시간대에 연장근로를 한 경우, 야간 가산(50%) + 연장 가산(50%) = 통상임금의 100%를 추가로 지급해야 합니다.</li>\n<li><strong>휴일근로수당</strong> — 교대 스케줄상 주휴일에 근무한 경우, 8시간 이내는 50%, 8시간 초과는 100%를 가산합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>교대근무 수당이 제대로 나오고 있는지, AI가 즉시 검증합니다</strong></p>\n<p style="margin:0;font-size:0.95em">교대 패턴과 급여를 입력하면 정상 수당과 차액을 무료로 계산합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '차액 수당 청구 절차',

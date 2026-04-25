@@ -19,7 +19,7 @@ export const childSexCrimePages: SpokePage[] = [
       {
         title: '신고의무자인지 확인하고 즉시 신고하세요',
         content:
-          '<p><strong style="color:#1e3a5f">아동청소년성보호법에 따라 직무상 아동성범죄를 알게 된 사람은 반드시 신고해야 합니다</strong></p>\n<p><strong>아동·청소년의 성보호에 관한 법률</strong>(아동청소년성보호법) 제34조에 따라 <strong>신고의무자</strong>에 해당하는 사람은 아동·청소년 대상 성범죄를 알게 된 경우 즉시 신고해야 합니다. 신고의무자에는 <strong>교사, 의사, 사회복지사, 유치원·어린이집 종사자, 학원 강사, 체육시설 종사자</strong> 등이 포함됩니다.</p>\n<p>신고는 <strong>112(경찰)</strong> 또는 <strong>117(학대 신고)</strong>로 할 수 있습니다. 신고의무자가 신고하지 않으면 <strong>300만원 이하 과태료</strong>가 부과됩니다. 신고자의 신분은 법적으로 보호됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고: 112 또는 117 | 신고의무자: 교사, 의사, 사회복지사 등 | 미신고 시 300만원 과태료</blockquote>',
+          '<p><strong style="color:#1e3a5f">아동청소년성보호법에 따라 직무상 아동성범죄를 알게 된 사람은 가능한 한 신고해야 합니다</strong></p>\n<p><strong>아동·청소년의 성보호에 관한 법률</strong>(아동청소년성보호법) 제34조에 따라 <strong>신고의무자</strong>에 해당하는 사람은 아동·청소년 대상 성범죄를 알게 된 경우 즉시 신고해야 합니다. 신고의무자에는 <strong>교사, 의사, 사회복지사, 유치원·어린이집 종사자, 학원 강사, 체육시설 종사자</strong> 등이 포함됩니다.</p>\n<p>신고는 <strong>112(경찰)</strong> 또는 <strong>117(학대 신고)</strong>로 할 수 있습니다. 신고의무자가 신고하지 않으면 <strong>300만원 이하 과태료</strong>가 부과됩니다. 신고자의 신분은 법적으로 보호됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고: 112 또는 117 | 신고의무자: 교사, 의사, 사회복지사 등 | 미신고 시 300만원 과태료</blockquote>',
       },
       {
         title: '해바라기센터에서 원스톱 지원을 받으세요',
@@ -77,12 +77,12 @@ export const childSexCrimePages: SpokePage[] = [
       {
         question: '가해자가 가족(친족)인 경우에도 신고해야 하나요?',
         answer:
-          '네, 친족에 의한 성범죄는 <strong>가중처벌</strong>되며, 신고의무자는 반드시 신고해야 합니다.',
+          '네, 친족에 의한 성범죄는 <strong>가중처벌</strong>되며, 신고의무자는 가능한 한 신고해야 합니다.',
       },
       {
         question: '피해 아동의 신원은 보호되나요?',
         answer:
-          '네, 아동 피해자의 <strong>신원, 사진, 영상 등은 공개가 금지</strong>됩니다. 위반 시 처벌됩니다.',
+          '네, 아동 피해자의 <strong>신원, 사진, 영상 등은 공개가 금지</strong>됩니다. 위반 시 처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '가해자의 취업 제한은 어떻게 되나요?',

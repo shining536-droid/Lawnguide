@@ -63,7 +63,7 @@ export const stalkingPages: SpokePage[] = [
       {
         question: '전 연인의 반복 연락도 스토킹인가요?',
         answer:
-          '상대방이 <strong>거부 의사를 밝혔는데도</strong> 반복적으로 연락하거나 접근하면 스토킹에 해당합니다.',
+          '상대방이 <strong>거부 의사를 밝혔는데도</strong> 반복적으로 연락하거나 접근하면 스토킹에 해당할 소지가 있습니다.',
       },
       {
         question: '스토킹처벌법은 언제부터 시행되었나요?',
@@ -124,7 +124,7 @@ export const stalkingPages: SpokePage[] = [
       {
         title: '스토킹행위에 해당하는지 먼저 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">반복적인 접근·연락·추적이 핵심 요건입니다</strong></p>\n<p><strong>스토킹범죄의 처벌 등에 관한 법률</strong>에서 스토킹행위란 상대방의 의사에 반하여 ①<strong>접근하거나 미행</strong>하는 행위, ②주거·직장·학교 등 <strong>부근에서 배회·대기</strong>하는 행위, ③우편·전화·문자·SNS 등으로 <strong>반복 연락</strong>하는 행위, ④물건을 놓아두거나 <strong>배달</strong>하는 행위를 말합니다.</p>\n<p>이러한 행위가 <strong>반복적으로</strong> 이루어져야 스토킹범죄가 성립합니다. 한 번의 연락은 스토킹으로 인정되기 어렵지만, 거부 의사를 밝힌 뒤에도 <strong>지속적으로 반복</strong>되면 스토킹에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 요건: 의사에 반하여 + 접근/연락/미행/배회 + 반복적 행위</blockquote>',
+          '<p><strong style="color:#1e3a5f">반복적인 접근·연락·추적이 핵심 요건입니다</strong></p>\n<p><strong>스토킹범죄의 처벌 등에 관한 법률</strong>에서 스토킹행위란 상대방의 의사에 반하여 ①<strong>접근하거나 미행</strong>하는 행위, ②주거·직장·학교 등 <strong>부근에서 배회·대기</strong>하는 행위, ③우편·전화·문자·SNS 등으로 <strong>반복 연락</strong>하는 행위, ④물건을 놓아두거나 <strong>배달</strong>하는 행위를 말합니다.</p>\n<p>이러한 행위가 <strong>반복적으로</strong> 이루어져야 스토킹범죄가 성립할 수 있습니다. 한 번의 연락은 스토킹으로 인정되기 어렵지만, 거부 의사를 밝힌 뒤에도 <strong>지속적으로 반복</strong>되면 스토킹에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 요건: 의사에 반하여 + 접근/연락/미행/배회 + 반복적 행위</blockquote>',
       },
       {
         title: '처벌 수위 — 3년 이하 징역, 3,000만원 이하 벌금',
@@ -139,7 +139,7 @@ export const stalkingPages: SpokePage[] = [
       {
         title: 'CCTV·메시지·통화기록으로 증거를 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">반복성을 증명하는 날짜별 기록이 가장 중요합니다</strong></p>\n<p>스토킹 증거는 <strong>반복성과 지속성</strong>을 보여주는 것이 핵심입니다. ①문자·카카오톡·SNS DM 등 <strong>연락 내역 스크린샷</strong>(날짜·시간 포함), ②부재중 전화 <strong>통화 기록</strong>, ③집이나 직장 앞 CCTV 영상, ④직접 촬영한 사진·동영상을 확보하세요.</p>\n<p><strong>피해 일지</strong>를 작성하는 것을 권장합니다. "몇 월 몇 일, 몇 시에 어떤 행위가 있었다"는 식으로 정리하면 수사와 재판에서 유리합니다. 거부 의사를 <strong>문자로 명확히 전달한 기록</strong>도 반드시 남겨두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 연락 캡처(날짜 포함), 통화 기록, CCTV, 사진, 피해 일지, 거부 의사 기록</blockquote>',
+          '<p><strong style="color:#1e3a5f">반복성을 증명하는 날짜별 기록이 가장 중요합니다</strong></p>\n<p>스토킹 증거는 <strong>반복성과 지속성</strong>을 보여주는 것이 핵심입니다. ①문자·카카오톡·SNS DM 등 <strong>연락 내역 스크린샷</strong>(날짜·시간 포함), ②부재중 전화 <strong>통화 기록</strong>, ③집이나 직장 앞 CCTV 영상, ④직접 촬영한 사진·동영상을 확보하세요.</p>\n<p><strong>피해 일지</strong>를 작성하는 것을 권장합니다. "몇 월 몇 일, 몇 시에 어떤 행위가 있었다"는 식으로 정리하면 수사와 재판에서 유리합니다. 거부 의사를 <strong>문자로 명확히 전달한 기록</strong>도 가능한 한 남겨두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증거: 연락 캡처(날짜 포함), 통화 기록, CCTV, 사진, 피해 일지, 거부 의사 기록</blockquote>',
       },
     ],
     cases: [
@@ -161,7 +161,7 @@ export const stalkingPages: SpokePage[] = [
     faq: [
       {
         question: '스토킹 처벌 수위는 어느 정도인가요?',
-        answer: '상대방이 <strong>거부 의사를 밝혔는데도</strong> 반복적으로 연락하거나 접근하면 스토킹에 해당합니다.',
+        answer: '상대방이 <strong>거부 의사를 밝혔는데도</strong> 반복적으로 연락하거나 접근하면 스토킹에 해당할 소지가 있습니다.',
       },
       {
         question: '몇 번 이상 연락해야 스토킹인가요?',
@@ -223,7 +223,7 @@ export const stalkingPages: SpokePage[] = [
       {
         title: '전 연인의 반복 연락 — 스토킹에 해당하는 기준은 이렇습니다',
         content:
-          '<p><strong style="color:#1e3a5f">거부 의사를 밝혔는데도 반복적으로 연락하면 스토킹에 해당합니다</strong></p>\n<p><strong>스토킹범죄의 처벌 등에 관한 법률</strong>(스토킹처벌법)에서 스토킹행위란 상대방의 의사에 반하여 ①접근하거나 미행하는 행위, ②주거·직장 부근에서 배회·대기하는 행위, ③우편·전화·문자·SNS 등으로 <strong>반복 연락</strong>하는 행위, ④물건을 놓아두거나 배달하는 행위를 말합니다.</p>\n<p>핵심 요건은 <strong>"상대방의 의사에 반하여"</strong>와 <strong>"반복적"</strong>입니다. 한 번의 연락은 스토킹으로 인정되기 어렵지만, <strong>거부 의사를 명확히 전달한 이후에도 연락이 계속</strong>되면 스토킹에 해당합니다. "연락하지 마세요"라는 문자를 보낸 뒤에도 계속 연락이 온다면 이 요건을 충족합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">판단 기준: 거부 의사 + 반복적 연락·접근 = 스토킹 해당 | 1회는 인정 어려움</blockquote>',
+          '<p><strong style="color:#1e3a5f">거부 의사를 밝혔는데도 반복적으로 연락하면 스토킹에 해당할 소지가 있습니다</strong></p>\n<p><strong>스토킹범죄의 처벌 등에 관한 법률</strong>(스토킹처벌법)에서 스토킹행위란 상대방의 의사에 반하여 ①접근하거나 미행하는 행위, ②주거·직장 부근에서 배회·대기하는 행위, ③우편·전화·문자·SNS 등으로 <strong>반복 연락</strong>하는 행위, ④물건을 놓아두거나 배달하는 행위를 말합니다.</p>\n<p>핵심 요건은 <strong>"상대방의 의사에 반하여"</strong>와 <strong>"반복적"</strong>입니다. 한 번의 연락은 스토킹으로 인정되기 어렵지만, <strong>거부 의사를 명확히 전달한 이후에도 연락이 계속</strong>되면 스토킹에 해당할 소지가 있습니다. "연락하지 마세요"라는 문자를 보낸 뒤에도 계속 연락이 온다면 이 요건을 충족합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">판단 기준: 거부 의사 + 반복적 연락·접근 = 스토킹 해당 | 1회는 인정 어려움</blockquote>',
       },
       {
         title: '스토킹 증거를 어떻게 모아야 하나요',
@@ -254,7 +254,7 @@ export const stalkingPages: SpokePage[] = [
         summary:
           '관련 사례에서도 피해자가 "다시는 연락하지 마세요"라는 문자를 보낸 기록이 남아 있었고, 그 이후 수십 통의 전화와 문자가 온 사실이 확인되어 스토킹 유죄가 인정된 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 거부 의사를 반드시 문자로 명확히 전달하고 그 기록을 보관하세요.',
+          '비슷한 상황이라면 거부 의사를 가능한 한 문자로 명확히 전달하고 그 기록을 보관하세요.',
       },
     ],
     faq: [
@@ -286,7 +286,7 @@ export const stalkingPages: SpokePage[] = [
       {
         question: '직접 만나서 협박한 적은 없는데도 스토킹인가요?',
         answer:
-          '직접 대면이 아니어도 <strong>전화·문자·SNS를 통한 반복 연락</strong>만으로 스토킹이 성립합니다.',
+          '직접 대면이 아니어도 <strong>전화·문자·SNS를 통한 반복 연락</strong>만으로 스토킹이 성립할 수 있습니다.',
       },
       {
         question: '피해자 보호 서비스는 어떤 것이 있나요?',
@@ -327,12 +327,12 @@ export const stalkingPages: SpokePage[] = [
       {
         title: '경찰 출석 전 — 변호사 상담부터 받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">스토킹처벌법은 2021년 시행된 비교적 새로운 법률로, 처벌 범위가 넓습니다</strong></p>\n<p>경찰 출석 전에 반드시 <strong>형사전문 변호사 상담</strong>을 받으세요. 스토킹처벌법(스토킹범죄의 처벌 등에 관한 법률)은 상대방에게 <strong>불안감이나 공포심을 유발하는 반복적 행위</strong>를 광범위하게 처벌합니다. 본인이 가볍게 여긴 연락이나 접근도 법적으로는 스토킹에 해당할 수 있습니다.</p>\n<p>출석 전에 <strong>상대방과의 연락 내역(카카오톡, 문자, 통화 기록), 만남 경위, 관계의 맥락</strong>을 정리하세요. 진술서를 미리 작성해 가면 출석조사에서 불리한 발언을 줄일 수 있습니다. 경찰 조사에서의 진술이 이후 재판에 결정적 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 경찰 출석 전 변호사 상담 → 연락 내역 정리 → 진술서 사전 작성. 조사에서 "그냥 좋아해서 연락한 것뿐"이라는 식의 변명은 불리하게 작용합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">스토킹처벌법은 2021년 시행된 비교적 새로운 법률로, 처벌 범위가 넓습니다</strong></p>\n<p>경찰 출석 전에 가능한 한 <strong>형사전문 변호사 상담</strong>을 받으세요. 스토킹처벌법(스토킹범죄의 처벌 등에 관한 법률)은 상대방에게 <strong>불안감이나 공포심을 유발하는 반복적 행위</strong>를 광범위하게 처벌합니다. 본인이 가볍게 여긴 연락이나 접근도 법적으로는 스토킹에 해당할 수 있습니다.</p>\n<p>출석 전에 <strong>상대방과의 연락 내역(카카오톡, 문자, 통화 기록), 만남 경위, 관계의 맥락</strong>을 정리하세요. 진술서를 미리 작성해 가면 출석조사에서 불리한 발언을 줄일 수 있습니다. 경찰 조사에서의 진술이 이후 재판에 결정적 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 경찰 출석 전 변호사 상담 → 연락 내역 정리 → 진술서 사전 작성. 조사에서 "그냥 좋아해서 연락한 것뿐"이라는 식의 변명은 불리하게 작용합니다.</blockquote>',
       },
       {
         title: '잠정조치·긴급응급조치 — 즉시 이행이 필수입니다',
         content:
-          '<p><strong style="color:#1e3a5f">잠정조치를 위반하면 별도의 처벌(2년 이하 징역 또는 2,000만 원 이하 벌금)을 받습니다</strong></p>\n<p>경찰이나 법원이 <strong>접근금지, 연락금지, 100미터 이내 접근 제한</strong> 등 잠정조치를 내릴 수 있습니다. 잠정조치는 최대 2개월이며, 2개월 단위로 연장되어 총 6개월까지 유지됩니다. 긴급응급조치는 경찰이 현장에서 즉시 내리는 것으로, 이에 불응하면 과태료가 부과됩니다.</p>\n<p>잠정조치가 내려지면 <strong>상대방에게 어떤 방식으로든 연락하거나 접근해서는 안 됩니다</strong>. 공통 지인을 통한 간접 연락, SNS 팔로우, 상대방 주거지·직장 근처 배회도 위반에 해당합니다. 잠정조치 위반 시 스토킹 본 혐의와는 별개로 추가 처벌을 받게 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">경고: 잠정조치 위반은 별도 범죄입니다. 간접적 접근(지인 통한 연락, SNS 활동)도 위반으로 판단될 수 있으니 철저히 준수하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">잠정조치를 위반하면 별도의 처벌(2년 이하 징역 또는 2,000만 원 이하 벌금)을 받습니다</strong></p>\n<p>경찰이나 법원이 <strong>접근금지, 연락금지, 100미터 이내 접근 제한</strong> 등 잠정조치를 내릴 수 있습니다. 잠정조치는 최대 2개월이며, 2개월 단위로 연장되어 총 6개월까지 유지됩니다. 긴급응급조치는 경찰이 현장에서 즉시 내리는 것으로, 이에 불응하면 과태료가 부과됩니다.</p>\n<p>잠정조치가 내려지면 <strong>상대방에게 어떤 방식으로든 연락하거나 접근해서는 안 됩니다</strong>. 공통 지인을 통한 간접 연락, SNS 팔로우, 상대방 주거지·직장 근처 배회도 위반에 해당할 소지가 있습니다. 잠정조치 위반 시 스토킹 본 혐의와는 별개로 추가 처벌을 받게 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">경고: 잠정조치 위반은 별도 범죄입니다. 간접적 접근(지인 통한 연락, SNS 활동)도 위반으로 판단될 수 있으니 철저히 준수하세요.</blockquote>',
       },
       {
         title: '혐의 대응 전략 — 스토킹 구성요건 검토',
@@ -342,7 +342,7 @@ export const stalkingPages: SpokePage[] = [
       {
         title: '처벌 수위와 감경 요소 — 선처를 위한 준비',
         content:
-          '<p><strong style="color:#1e3a5f">스토킹범죄는 3년 이하의 징역 또는 3,000만 원 이하의 벌금에 처해집니다</strong></p>\n<p>스토킹처벌법 제18조에 따른 형량입니다. 흉기를 사용하거나 2인 이상이 공동으로 범행한 경우에는 <strong>5년 이하의 징역 또는 5,000만 원 이하의 벌금</strong>으로 가중 처벌됩니다. 초범이고 행위가 경미한 경우에는 벌금형이나 기소유예가 가능하지만, 반복 행위가 입증되면 실형도 선고됩니다.</p>\n<p>감경을 위해서는 <strong>①진심 어린 반성문 작성, ②피해자에 대한 간접적 사과(변호사를 통한 합의 시도), ③재범 방지를 위한 상담 프로그램 수강, ④잠정조치 성실 이행 기록</strong>이 도움이 됩니다. 다만 스토킹범죄는 반의사불벌죄가 아니므로, 피해자와 합의하더라도 검찰이 기소할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감경 전략: 반성문 + 상담 프로그램 수강 + 잠정조치 이행 + 변호사를 통한 합의 시도. 직접 피해자에게 연락하는 것은 절대 금물입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">스토킹범죄는 3년 이하의 징역 또는 3,000만 원 이하의 벌금에 처해집니다</strong></p>\n<p>스토킹처벌법 제18조에 따른 형량입니다. 흉기를 사용하거나 2인 이상이 공동으로 범행한 경우에는 <strong>5년 이하의 징역 또는 5,000만 원 이하의 벌금</strong>으로 가중 처벌 대상으로 검토될 수 있습니다. 초범이고 행위가 경미한 경우에는 벌금형이나 기소유예가 가능하지만, 반복 행위가 입증되면 실형도 선고됩니다.</p>\n<p>감경을 위해서는 <strong>①진심 어린 반성문 작성, ②피해자에 대한 간접적 사과(변호사를 통한 합의 시도), ③재범 방지를 위한 상담 프로그램 수강, ④잠정조치 성실 이행 기록</strong>이 도움이 됩니다. 다만 스토킹범죄는 반의사불벌죄가 아니므로, 피해자와 합의하더라도 검찰이 기소할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">감경 전략: 반성문 + 상담 프로그램 수강 + 잠정조치 이행 + 변호사를 통한 합의 시도. 직접 피해자에게 연락하는 것은 절대 금물입니다.</blockquote>',
       },
     ],
     cases: [
@@ -368,7 +368,7 @@ export const stalkingPages: SpokePage[] = [
       },
       {
         question: '카카오톡 메시지만 보낸 것도 스토킹인가요?',
-        answer: '네, <strong>정보통신망을 이용한 반복적 연락</strong>도 스토킹에 해당합니다. 대면 접촉이 없어도 성립합니다.',
+        answer: '네, <strong>정보통신망을 이용한 반복적 연락</strong>도 스토킹에 해당할 소지가 있습니다. 대면 접촉이 없어도 성립할 수 있습니다.',
       },
       {
         question: '잠정조치 기간 동안 무엇을 해야 하나요?',
@@ -420,7 +420,7 @@ export const stalkingPages: SpokePage[] = [
       {
         title: '디지털 증거부터 확보하세요 — 문자·카톡·SNS DM이 핵심입니다',
         content:
-          '<p><strong style="color:#1e3a5f">디지털 연락 기록은 스토킹의 반복성을 증명하는 가장 강력한 증거입니다</strong></p>\n<p>스토킹처벌법에서 핵심 요건은 <strong>"반복성"</strong>입니다. 문자, 카카오톡, 인스타그램 DM, 페이스북 메시지 등 모든 연락 내역을 <strong>날짜와 시간이 보이도록 캡처</strong>하세요. 차단 후 새 번호나 새 계정으로 온 연락은 "차단을 우회했다"는 강력한 증거가 됩니다.</p>\n<p>부재중 전화 기록은 <strong>통신사 통화 내역 조회</strong>로 확보할 수 있습니다. SKT·KT·LGU+ 앱이나 고객센터에서 최근 6개월 통화 기록을 출력하세요. 거부 의사를 전달한 문자("다시 연락하지 마세요")는 반드시 캡처해서 보관하세요. 그 이후 모든 연락이 스토킹 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">디지털 증거: 메시지 캡처(날짜·시간 포함), 통화 내역(통신사 조회), 차단 기록, 거부 의사 문자 캡처</blockquote>',
+          '<p><strong style="color:#1e3a5f">디지털 연락 기록은 스토킹의 반복성을 증명하는 가장 강력한 증거입니다</strong></p>\n<p>스토킹처벌법에서 핵심 요건은 <strong>"반복성"</strong>입니다. 문자, 카카오톡, 인스타그램 DM, 페이스북 메시지 등 모든 연락 내역을 <strong>날짜와 시간이 보이도록 캡처</strong>하세요. 차단 후 새 번호나 새 계정으로 온 연락은 "차단을 우회했다"는 강력한 증거가 됩니다.</p>\n<p>부재중 전화 기록은 <strong>통신사 통화 내역 조회</strong>로 확보할 수 있습니다. SKT·KT·LGU+ 앱이나 고객센터에서 최근 6개월 통화 기록을 출력하세요. 거부 의사를 전달한 문자("다시 연락하지 마세요")는 가능한 한 캡처해서 보관하세요. 그 이후 모든 연락이 스토킹 증거가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">디지털 증거: 메시지 캡처(날짜·시간 포함), 통화 내역(통신사 조회), 차단 기록, 거부 의사 문자 캡처</blockquote>',
       },
       {
         title: 'CCTV와 물리적 증거 — 미행과 배회를 증명하세요',
@@ -477,7 +477,7 @@ export const stalkingPages: SpokePage[] = [
       },
       {
         question: '피해 일지는 법적 효력이 있나요?',
-        answer: '피해 일지는 <strong>참고 자료</strong>로서 증거력이 인정됩니다. 다른 증거(CCTV, 메시지)와 함께 제출하면 증거력이 더 높아집니다.',
+        answer: '피해 일지는 <strong>참고 자료</strong>로서 증거력이 인정될 수 있습니다. 다른 증거(CCTV, 메시지)와 함께 제출하면 증거력이 더 높아집니다.',
       },
       {
         question: '무료 법률상담은 어디서 받나요?',
@@ -520,7 +520,7 @@ export const stalkingPages: SpokePage[] = [
       {
         title: '2단계: 112에 신고하고 긴급응급조치를 받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">경찰은 현장에서 즉시 긴급응급조치를 취할 수 있습니다</strong></p>\n<p>스토킹처벌법 제4조에 따라 경찰관은 스토킹 행위 신고를 받으면 현장에서 <strong>긴급응급조치</strong>를 할 수 있습니다. 긴급응급조치에는 ① 스토킹 행위의 <strong>중단 통보</strong> ② 피해자로부터 <strong>100미터 이내 접근 금지</strong> ③ <strong>전기통신(전화·문자·SNS) 접근 금지</strong>가 포함됩니다.</p>\n<p>112에 전화할 때는 <strong>"스토킹처벌법에 따른 스토킹 피해 신고"</strong>라고 명확히 말하세요. 단순 "미행" 신고와는 경찰의 대응 수준이 다릅니다. 신고 접수번호를 반드시 메모해두세요.</p>\n<p>경찰이 현장에 도착하면 준비한 증거를 보여주고, <strong>피해 경위서</strong>를 작성합니다. 이때 "얼마 전부터, 몇 회, 어떤 방식"이라는 구체적 진술이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 요령: "스토킹처벌법 위반" 명시 → 증거 제시 → 긴급응급조치 요청 → 접수번호 메모</blockquote>',
+          '<p><strong style="color:#1e3a5f">경찰은 현장에서 즉시 긴급응급조치를 취할 수 있습니다</strong></p>\n<p>스토킹처벌법 제4조에 따라 경찰관은 스토킹 행위 신고를 받으면 현장에서 <strong>긴급응급조치</strong>를 할 수 있습니다. 긴급응급조치에는 ① 스토킹 행위의 <strong>중단 통보</strong> ② 피해자로부터 <strong>100미터 이내 접근 금지</strong> ③ <strong>전기통신(전화·문자·SNS) 접근 금지</strong>가 포함됩니다.</p>\n<p>112에 전화할 때는 <strong>"스토킹처벌법에 따른 스토킹 피해 신고"</strong>라고 명확히 말하세요. 단순 "미행" 신고와는 경찰의 대응 수준이 다릅니다. 신고 접수번호를 가능한 한 메모해두세요.</p>\n<p>경찰이 현장에 도착하면 준비한 증거를 보여주고, <strong>피해 경위서</strong>를 작성합니다. 이때 "얼마 전부터, 몇 회, 어떤 방식"이라는 구체적 진술이 중요합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">신고 요령: "스토킹처벌법 위반" 명시 → 증거 제시 → 긴급응급조치 요청 → 접수번호 메모</blockquote>',
       },
       {
         title: '3단계: 잠정조치(접근금지)를 신청하세요',
@@ -530,7 +530,7 @@ export const stalkingPages: SpokePage[] = [
       {
         title: '4단계: 형사 고소를 진행하고 피해자 보호를 요청하세요',
         content:
-          '<p><strong style="color:#1e3a5f">고소장 제출로 가해자를 처벌하고 피해자 보호제도를 활용하세요</strong></p>\n<p>스토킹처벌법 제3조에 따라 <strong>스토킹 범죄</strong>는 3년 이하의 징역 또는 3천만 원 이하의 벌금에 처해집니다. 흉기를 사용하거나 2인 이상이 공동으로 한 경우에는 <strong>5년 이하의 징역 또는 5천만 원 이하의 벌금</strong>으로 가중 처벌됩니다.</p>\n<p>고소장에는 ① 가해자 인적사항 ② 피해 일시·장소·방법 ③ 증거 목록 ④ 처벌 의사를 기재합니다. 경찰서 민원실에 직접 제출하거나 우편으로 발송할 수 있습니다.</p>\n<p>범죄피해자보호법에 따라 <strong>신변보호</strong>(자택 주변 순찰 강화), <strong>주거지원</strong>(피해자 보호시설 연계), <strong>법률지원</strong>(국선 변호사 선임)도 요청하세요. 스토킹 피해자는 <strong>범죄피해자 지원센터(1577-1295)</strong>에서 무료 상담과 지원을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">최종 보호: 형사 고소 + 신변보호 + 주거지원 + 법률지원(범죄피해자 지원센터 1577-1295)</blockquote>',
+          '<p><strong style="color:#1e3a5f">고소장 제출로 가해자를 처벌하고 피해자 보호제도를 활용하세요</strong></p>\n<p>스토킹처벌법 제3조에 따라 <strong>스토킹 범죄</strong>는 3년 이하의 징역 또는 3천만 원 이하의 벌금에 처해집니다. 흉기를 사용하거나 2인 이상이 공동으로 한 경우에는 <strong>5년 이하의 징역 또는 5천만 원 이하의 벌금</strong>으로 가중 처벌 대상으로 검토될 수 있습니다.</p>\n<p>고소장에는 ① 가해자 인적사항 ② 피해 일시·장소·방법 ③ 증거 목록 ④ 처벌 의사를 기재합니다. 경찰서 민원실에 직접 제출하거나 우편으로 발송할 수 있습니다.</p>\n<p>범죄피해자보호법에 따라 <strong>신변보호</strong>(자택 주변 순찰 강화), <strong>주거지원</strong>(피해자 보호시설 연계), <strong>법률지원</strong>(국선 변호사 선임)도 요청하세요. 스토킹 피해자는 <strong>범죄피해자 지원센터(1577-1295)</strong>에서 무료 상담과 지원을 받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">최종 보호: 형사 고소 + 신변보호 + 주거지원 + 법률지원(범죄피해자 지원센터 1577-1295)</blockquote>',
       },
     ],
     cases: [
@@ -578,7 +578,7 @@ export const stalkingPages: SpokePage[] = [
       {
         question: '스토킹 처벌 수위는 어느 정도인가요?',
         answer:
-          '스토킹 행위는 <strong>3년 이하 징역 또는 3천만 원 이하 벌금</strong>, 흉기 사용이나 공동범행 시 <strong>5년 이하 징역 또는 5천만 원 이하 벌금</strong>입니다. 반의사불벌죄가 아니므로 피해자가 처벌 불원해도 처벌됩니다.',
+          '스토킹 행위는 <strong>3년 이하 징역 또는 3천만 원 이하 벌금</strong>, 흉기 사용이나 공동범행 시 <strong>5년 이하 징역 또는 5천만 원 이하 벌금</strong>입니다. 반의사불벌죄가 아니므로 피해자가 처벌 불원해도 처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '스토킹 피해자가 이사 비용을 지원받을 수 있나요?',
@@ -637,7 +637,7 @@ export const stalkingPages: SpokePage[] = [
       {
         title: '무고죄(형법 제156조) 역고소를 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">명백한 허위신고라면 무고죄로 역고소할 수 있습니다</strong></p>\n<p>형법 제156조에 따라 <strong>타인으로 하여금 형사처분을 받게 할 목적</strong>으로 허위 사실을 신고한 자는 <strong>10년 이하의 징역 또는 1,500만 원 이하의 벌금</strong>에 처해집니다. 상대방이 스토킹이 아님을 알면서도 악의적으로 신고한 경우에 해당합니다.</p>\n<p>무고죄 역고소를 위해서는 ① 상대방의 신고 내용이 <strong>객관적 사실과 다르다는 증거</strong> ② 상대방에게 <strong>허위 신고의 고의</strong>가 있었다는 정황 증거(예: 보복 목적 메시지, 제3자 증언 등)가 필요합니다.</p>\n<p>다만 무고죄는 <strong>"허위임을 알면서" 신고한 경우</strong>에만 성립합니다. 상대방이 주관적으로 불안을 느껴 신고한 것이라면 무고죄 성립이 어려울 수 있으므로, 반드시 변호사와 상의하여 역고소 여부를 결정하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">무고죄: 허위 사실 + 형사처분 목적 + 고의 → 10년 이하 징역, 반드시 변호사 상담 후 결정</blockquote>',
+          '<p><strong style="color:#1e3a5f">명백한 허위신고라면 무고죄로 역고소할 수 있습니다</strong></p>\n<p>형법 제156조에 따라 <strong>타인으로 하여금 형사처분을 받게 할 목적</strong>으로 허위 사실을 신고한 자는 <strong>10년 이하의 징역 또는 1,500만 원 이하의 벌금</strong>에 처해집니다. 상대방이 스토킹이 아님을 알면서도 악의적으로 신고한 경우에 해당할 소지가 있습니다.</p>\n<p>무고죄 역고소를 위해서는 ① 상대방의 신고 내용이 <strong>객관적 사실과 다르다는 증거</strong> ② 상대방에게 <strong>허위 신고의 고의</strong>가 있었다는 정황 증거(예: 보복 목적 메시지, 제3자 증언 등)가 필요합니다.</p>\n<p>다만 무고죄는 <strong>"허위임을 알면서" 신고한 경우</strong>에만 성립할 수 있습니다. 상대방이 주관적으로 불안을 느껴 신고한 것이라면 무고죄 성립이 어려울 수 있으므로, 가능한 한 변호사와 상의하여 역고소 여부를 결정하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">무고죄: 허위 사실 + 형사처분 목적 + 고의 → 10년 이하 징역, 가능한 한 변호사 상담 후 결정</blockquote>',
       },
     ],
     cases: [
@@ -680,7 +680,7 @@ export const stalkingPages: SpokePage[] = [
       {
         question: '상대방이 거부 의사를 밝힌 적이 없는데도 스토킹이 성립하나요?',
         answer:
-          '스토킹은 <strong>"상대방의 의사에 반하여" 반복적으로</strong> 행위해야 성립합니다. 거부 의사가 명시적으로 전달된 기록이 없다면, 스토킹 성립이 어려울 수 있습니다.',
+          '스토킹은 <strong>"상대방의 의사에 반하여" 반복적으로</strong> 행위해야 성립할 수 있습니다. 거부 의사가 명시적으로 전달된 기록이 없다면, 스토킹 성립이 어려울 수 있습니다.',
       },
       {
         question: '무고죄 역고소는 언제 하는 것이 좋은가요?',
@@ -767,7 +767,7 @@ export const stalkingPages: SpokePage[] = [
       {
         question: '거부 의사를 받은 적이 없는데도 스토킹이 될 수 있나요?',
         answer:
-          '스토킹은 <strong>"상대방의 의사에 반하여"</strong> 행위해야 성립합니다. 다만 명시적 거부가 아니라 <strong>묵시적 거부</strong>(차단, 무시 등)도 인정될 수 있으므로 주의가 필요합니다.',
+          '스토킹은 <strong>"상대방의 의사에 반하여"</strong> 행위해야 성립할 수 있습니다. 다만 명시적 거부가 아니라 <strong>묵시적 거부</strong>(차단, 무시 등)도 인정될 수 있으므로 주의가 필요합니다.',
       },
       {
         question: '문자 2~3통만 보냈는데도 반복적 연락에 해당하나요?',
@@ -792,7 +792,7 @@ export const stalkingPages: SpokePage[] = [
       {
         question: '상대방이 먼저 연락해놓고 나중에 스토킹으로 신고할 수 있나요?',
         answer:
-          '상대방이 먼저 연락한 기록이 있다면 <strong>스토킹 성립을 부정하는 강력한 증거</strong>가 됩니다. 해당 연락 기록을 반드시 캡처하여 보관하세요.',
+          '상대방이 먼저 연락한 기록이 있다면 <strong>스토킹 성립을 부정하는 강력한 증거</strong>가 됩니다. 해당 연락 기록을 가능한 한 캡처하여 보관하세요.',
       },
       {
         question: '경찰에서 긴급응급조치(접근금지)가 내려졌는데 어떻게 해야 하나요?',

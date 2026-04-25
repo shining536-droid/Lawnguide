@@ -21,7 +21,7 @@ export const batch7Part1Pages: SpokePage[] = [
       {
         title: '입금 내역과 대화 기록을 지금 즉시 저장하세요',
         content:
-          '<p><strong style="color:#1e3a5f">증거가 삭제되기 전에 모든 기록을 확보하는 것이 최우선입니다</strong></p>\n<p>가상화폐 투자사기에서 가장 먼저 해야 할 일은 <strong>증거 보전</strong>입니다. 상대방과 나눈 모든 대화(SNS 채팅, 카카오톡, 텔레그램 등)를 캡처하고, 가능하다면 대화 내보내기 기능으로 파일로 저장합니다.</p>\n<p>내가 사용한 <strong>가짜 투자 플랫폼</strong>의 URL, 화면, 입금 요구 내역도 모두 캡처해두세요. 은행 이체 내역서(이체확인서)와 가상화폐 거래소의 출금 내역도 반드시 확보합니다. 상대방 계좌번호, 전화번호, 닉네임, 가입된 플랫폼 정보를 모두 기록해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 대화 캡처·내보내기, 플랫폼 화면, 이체 내역서, 상대방 연락처·계좌 정보</blockquote>',
+          '<p><strong style="color:#1e3a5f">증거가 삭제되기 전에 모든 기록을 확보하는 것이 최우선입니다</strong></p>\n<p>가상화폐 투자사기에서 가장 먼저 해야 할 일은 <strong>증거 보전</strong>입니다. 상대방과 나눈 모든 대화(SNS 채팅, 카카오톡, 텔레그램 등)를 캡처하고, 가능하다면 대화 내보내기 기능으로 파일로 저장합니다.</p>\n<p>내가 사용한 <strong>가짜 투자 플랫폼</strong>의 URL, 화면, 입금 요구 내역도 모두 캡처해두세요. 은행 이체 내역서(이체확인서)와 가상화폐 거래소의 출금 내역도 가능한 한 확보합니다. 상대방 계좌번호, 전화번호, 닉네임, 가입된 플랫폼 정보를 모두 기록해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">준비: 대화 캡처·내보내기, 플랫폼 화면, 이체 내역서, 상대방 연락처·계좌 정보</blockquote>',
       },
       {
         title: '경찰 신고와 고소장 제출 — 빠를수록 좋습니다',
@@ -64,7 +64,7 @@ export const batch7Part1Pages: SpokePage[] = [
       {
         question: '가상화폐로 입금했을 때도 사기죄가 성립하나요?',
         answer:
-          '가상화폐도 <strong>재산상 가치가 있는 재물</strong>에 해당하므로 형법상 사기죄가 성립합니다.',
+          '가상화폐도 <strong>재산상 가치가 있는 재물</strong>에 해당하므로 형법상 사기죄가 성립할 수 있습니다.',
       },
       {
         question: '상대방 신원을 모르는데 고소가 가능한가요?',
@@ -74,7 +74,7 @@ export const batch7Part1Pages: SpokePage[] = [
       {
         question: '피해 금액이 크면 가중처벌되나요?',
         answer:
-          '특정경제범죄가중처벌법에 따라 피해액 <strong>5억 원 이상은 3년 이상 징역</strong>, 50억 원 이상은 5년 이상 징역으로 가중처벌됩니다.',
+          '특정경제범죄가중처벌법에 따라 피해액 <strong>5억 원 이상은 3년 이상 징역</strong>, 50억 원 이상은 5년 이상 징역으로 가중처벌 대상으로 검토될 수 있습니다.',
       },
       {
         question: '피해 사실을 주변에 알려도 되나요?',
@@ -84,12 +84,12 @@ export const batch7Part1Pages: SpokePage[] = [
       {
         question: '텔레그램으로 연락하던 상대방인데 추적이 되나요?',
         answer:
-          '텔레그램은 기본적으로 익명이지만 수사기관의 법적 요청에 일부 정보를 제공합니다. <strong>대화 내용 캡처</strong>를 반드시 보존해두세요.',
+          '텔레그램은 기본적으로 익명이지만 수사기관의 법적 요청에 일부 정보를 제공합니다. <strong>대화 내용 캡처</strong>를 가능한 한 보존해두세요.',
       },
       {
         question: '피해금 회수 전문업체에 의뢰해도 되나요?',
         answer:
-          '공인된 자격 없는 업체에 의뢰하는 것은 <strong>2차 사기</strong> 위험이 있습니다. 반드시 변호사나 법무사 등 공인 전문가를 통하세요.',
+          '공인된 자격 없는 업체에 의뢰하는 것은 <strong>2차 사기</strong> 위험이 있습니다. 가능한 한 변호사나 법무사 등 공인 전문가를 통하세요.',
       },
       {
         question: '금융감독원에 신고하면 도움이 되나요?',
@@ -141,7 +141,7 @@ export const batch7Part1Pages: SpokePage[] = [
       {
         title: '형사처벌 외에도 — 행정처분과 직업적 영향을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">면허 처분과 직업적 영향은 형사처벌과 별도로 진행됩니다</strong></p>\n<p>형사처벌과 <strong>행정처분(면허 정지·취소)</strong>은 별개입니다. 벌금형이 나왔다고 면허 처분이 사라지는 것이 아닙니다. 0.08% 이상이면 면허 취소이며, 1~3년의 결격기간 후 재취득해야 합니다.</p>\n<p>공무원, 교원, 의료인, 군인 등 특수 직종은 벌금형도 징계 사유가 될 수 있습니다. 운수업·택시·화물 등 <strong>운전 관련 직종</strong>은 면허 취소로 직업 자체가 위협받을 수 있습니다. 취업규칙과 관련 법령을 반드시 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 형사처벌 + 행정처분 + 직업 영향 세 가지가 동시에 진행될 수 있음</blockquote>',
+          '<p><strong style="color:#1e3a5f">면허 처분과 직업적 영향은 형사처벌과 별도로 진행됩니다</strong></p>\n<p>형사처벌과 <strong>행정처분(면허 정지·취소)</strong>은 별개입니다. 벌금형이 나왔다고 면허 처분이 사라지는 것이 아닙니다. 0.08% 이상이면 면허 취소이며, 1~3년의 결격기간 후 재취득해야 합니다.</p>\n<p>공무원, 교원, 의료인, 군인 등 특수 직종은 벌금형도 징계 사유가 될 수 있습니다. 운수업·택시·화물 등 <strong>운전 관련 직종</strong>은 면허 취소로 직업 자체가 위협받을 수 있습니다. 취업규칙과 관련 법령을 가능한 한 확인해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 형사처벌 + 행정처분 + 직업 영향 세 가지가 동시에 진행될 수 있음</blockquote>',
       },
     ],
     comparison: {

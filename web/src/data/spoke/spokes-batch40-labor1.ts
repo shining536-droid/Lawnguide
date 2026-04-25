@@ -18,7 +18,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
         '임금이 10% 이상 삭감되어 퇴사할 때 자발적 이직이라도 실업급여가 인정되는 기준과 증빙, 신청 순서를 지금 확인하세요.',
     },
     intro:
-      '<p>갑자기 월급이 10% 넘게 깎이면 "계속 다닐 수 없는데 실업급여는 받을 수 있을까" 고민이 커집니다. 고용보험법 시행규칙 제101조의2는 임금 삭감을 "수급자격이 제한되지 않는 정당한 이직 사유"로 규정하고 있어, 증빙만 확보하면 자발적 퇴사라도 수급이 인정됩니다.</p>',
+      '<p>갑자기 월급이 10% 넘게 깎이면 "계속 다닐 수 없는데 실업급여는 받을 수 있을까" 고민이 커집니다. 고용보험법 시행규칙 제101조의2는 임금 삭감을 "수급자격이 제한되지 않는 정당한 이직 사유"로 규정하고 있어, 증빙만 확보하면 자발적 퇴사라도 수급이 인정될 수 있습니다.</p>',
     sections: [
       {
         title: '임금 삭감 — 정당한 이직 사유의 판단 기준',
@@ -38,7 +38,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         title: '실무 체크리스트 — 삭감 전 대응 전략',
         content:
-          '<p><strong style="color:#1e3a5f">삭감 통보를 받았다면 즉시 대응하지 말고 증거 확보부터 하세요.</strong></p>\n<ul>\n<li><strong>즉시 퇴사 금지</strong> — 최소 1~2개월은 삭감된 임금으로 실지급 받아 기록 남김.</li>\n<li><strong>서명·도장 금지</strong> — "임금 변경 동의서" 서명은 수급자격을 훼손.</li>\n<li><strong>노동청 진정 병행</strong> — 일방적 삭감은 근로기준법 위반, 진정 자료가 증빙이 됨.</li>\n<li><strong>동료 진술서</strong> — 같은 회사 내 다수가 삭감당한 경우 공동 진술 확보.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 삭감에 동의한 서류가 있으면 수급자격이 제한될 수 있으니 서명 전 반드시 검토하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">삭감 통보를 받았다면 즉시 대응하지 말고 증거 확보부터 하세요.</strong></p>\n<ul>\n<li><strong>즉시 퇴사 금지</strong> — 최소 1~2개월은 삭감된 임금으로 실지급 받아 기록 남김.</li>\n<li><strong>서명·도장 금지</strong> — "임금 변경 동의서" 서명은 수급자격을 훼손.</li>\n<li><strong>노동청 진정 병행</strong> — 일방적 삭감은 근로기준법 위반, 진정 자료가 증빙이 됨.</li>\n<li><strong>동료 진술서</strong> — 같은 회사 내 다수가 삭감당한 경우 공동 진술 확보.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 삭감에 동의한 서류가 있으면 수급자격이 제한될 수 있으니 서명 전 가능한 한 검토하세요.</blockquote>',
       },
     ],
     cases: [
@@ -47,14 +47,14 @@ export const spokesBatch40Labor1: SpokePage[] = [
         summary:
           '대법원 2022두58193 사건(대법원, 2023.05.18 선고)에서 법원은 근로자 동의 없는 일방적 임금 삭감은 중대한 근로조건 저하에 해당하며, 이로 인한 이직은 수급자격이 제한되지 않는 정당한 사유라고 판시했습니다.',
         takeaway:
-          '임금 삭감 증빙만 확보하면 자발적 퇴사여도 실업급여가 인정됩니다.',
+          '임금 삭감 증빙만 확보하면 자발적 퇴사여도 실업급여가 인정될 수 있습니다.',
       },
     ],
     faq: [
       {
         question: '정확히 몇 % 삭감되어야 인정되나요?',
         answer:
-          '<strong>기본급 또는 통상임금 기준 10% 이상 삭감이면 인정됩니다.</strong> 성과급 변동은 제외됩니다.',
+          '<strong>기본급 또는 통상임금 기준 10% 이상 삭감이면 인정될 수 있습니다.</strong> 성과급 변동은 제외됩니다.',
       },
       {
         question: '삭감 후 바로 퇴사해야 하나요?',
@@ -110,7 +110,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         title: '직장 내 괴롭힘 — 실업급여 인정 요건',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법상 "직장 내 괴롭힘"에 해당하고, 그로 인해 근로 계속이 곤란할 정도여야 정당한 사유로 인정됩니다.</strong></p>\n<ul>\n<li><strong>괴롭힘 정의</strong> — 직장 내 지위·관계 우위를 이용해 신체·정신적 고통을 주는 행위.</li>\n<li><strong>대표 유형</strong> — 폭언, 모욕, 따돌림, 업무 배제, 과도한 업무 부과 등.</li>\n<li><strong>지속성·반복성</strong> — 1회성 언쟁이 아닌 반복적·지속적 행위가 핵심.</li>\n<li><strong>근거 조항</strong> — 고용보험법 시행규칙 제101조의2 별표2 제1호 다목·라목.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "참을 수 있는 수준"을 넘는다는 객관적 자료가 있어야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법상 "직장 내 괴롭힘"에 해당하고, 그로 인해 근로 계속이 곤란할 정도여야 정당한 사유로 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>괴롭힘 정의</strong> — 직장 내 지위·관계 우위를 이용해 신체·정신적 고통을 주는 행위.</li>\n<li><strong>대표 유형</strong> — 폭언, 모욕, 따돌림, 업무 배제, 과도한 업무 부과 등.</li>\n<li><strong>지속성·반복성</strong> — 1회성 언쟁이 아닌 반복적·지속적 행위가 핵심.</li>\n<li><strong>근거 조항</strong> — 고용보험법 시행규칙 제101조의2 별표2 제1호 다목·라목.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "참을 수 있는 수준"을 넘는다는 객관적 자료가 있어야 합니다.</blockquote>',
       },
       {
         title: '증빙 수집 — 폭언·따돌림의 객관화',
@@ -125,7 +125,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         title: '실무 체크리스트 — 퇴사 전 준비',
         content:
-          '<p><strong style="color:#1e3a5f">버티기 어려운 상황이라도 "조용히 나가지 않기"가 핵심입니다.</strong></p>\n<ul>\n<li><strong>일일 기록</strong> — 날짜·시간·장소·가해자·발언 내용을 일지로 작성.</li>\n<li><strong>병원 방문</strong> — 정신과·내과에서 진단서·소견서 받아두기.</li>\n<li><strong>사내 시스템 활용</strong> — 서면 신고는 반드시 사본 보관.</li>\n<li><strong>사직서 사유</strong> — "직장 내 괴롭힘으로 인한 퇴사"로 명시.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "개인사유"로 사직서 쓰면 수급자격 심사에서 불리합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">버티기 어려운 상황이라도 "조용히 나가지 않기"가 핵심입니다.</strong></p>\n<ul>\n<li><strong>일일 기록</strong> — 날짜·시간·장소·가해자·발언 내용을 일지로 작성.</li>\n<li><strong>병원 방문</strong> — 정신과·내과에서 진단서·소견서 받아두기.</li>\n<li><strong>사내 시스템 활용</strong> — 서면 신고는 가능한 한 사본 보관.</li>\n<li><strong>사직서 사유</strong> — "직장 내 괴롭힘으로 인한 퇴사"로 명시.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "개인사유"로 사직서 쓰면 수급자격 심사에서 불리합니다.</blockquote>',
       },
     ],
     cases: [
@@ -192,7 +192,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
         '주52시간제 위반으로 퇴사할 때 실업급여가 인정되는 조건과 증빙 자료, 노동청 진정 순서를 지금 확인하세요.',
     },
     intro:
-      '<p>주 60시간 넘게 일하다 건강이 무너져 퇴사를 결심하면 "자발적 퇴사라 실업급여는 어려울 것"이라 포기하기 쉽습니다. 근로기준법 제53조 위반(주52시간 초과)은 고용보험법 시행규칙이 정한 "현저한 근로조건 저하"에 해당해, 증빙만 있으면 자발적 퇴사도 수급이 인정됩니다.</p>',
+      '<p>주 60시간 넘게 일하다 건강이 무너져 퇴사를 결심하면 "자발적 퇴사라 실업급여는 어려울 것"이라 포기하기 쉽습니다. 근로기준법 제53조 위반(주52시간 초과)은 고용보험법 시행규칙이 정한 "현저한 근로조건 저하"에 해당해, 증빙만 있으면 자발적 퇴사도 수급이 인정될 수 있습니다.</p>',
     sections: [
       {
         title: '주52시간 위반 — 수급자격 인정 요건',
@@ -207,7 +207,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         title: '신청 순서 — 노동청 진정 + 실업급여',
         content:
-          '<p><strong style="color:#1e3a5f">주52시간 위반은 근로기준법 위반 범죄이므로 노동청 진정이 최강 증빙입니다.</strong></p>\n<ul>\n<li><strong>1단계 — 근로시간 자료 수집</strong> — 퇴사 전 출퇴근·메신저 기록 확보.</li>\n<li><strong>2단계 — 노동청 진정</strong> — 관할 노동지청에 근기법 제53조 위반 진정.</li>\n<li><strong>3단계 — 사직서 사유 명시</strong> — "주52시간 초과 근로로 인한 이직"으로 기재.</li>\n<li><strong>4단계 — 고용센터 신청</strong> — 진정 접수증 + 근로시간 증빙 일괄 제출.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 진정 결과 "시정명령"이 나오면 수급자격은 거의 확정적으로 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">주52시간 위반은 근로기준법 위반 범죄이므로 노동청 진정이 최강 증빙입니다.</strong></p>\n<ul>\n<li><strong>1단계 — 근로시간 자료 수집</strong> — 퇴사 전 출퇴근·메신저 기록 확보.</li>\n<li><strong>2단계 — 노동청 진정</strong> — 관할 노동지청에 근기법 제53조 위반 진정.</li>\n<li><strong>3단계 — 사직서 사유 명시</strong> — "주52시간 초과 근로로 인한 이직"으로 기재.</li>\n<li><strong>4단계 — 고용센터 신청</strong> — 진정 접수증 + 근로시간 증빙 일괄 제출.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 진정 결과 "시정명령"이 나오면 수급자격은 거의 확정적으로 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '실무 체크리스트 — 퇴사 전 자료 정리',
@@ -233,7 +233,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         question: '연장수당은 받았는데 시간만 초과한 경우는요?',
         answer:
-          '<strong>수당 지급과 별개로 52시간 상한 위반 자체가 사유입니다.</strong> 돈 받았어도 인정됩니다.',
+          '<strong>수당 지급과 별개로 52시간 상한 위반 자체가 사유입니다.</strong> 돈 받았어도 인정될 수 있습니다.',
       },
       {
         question: '몇 시간까지 괜찮고 몇 시간부터 문제인가요?',
@@ -279,7 +279,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
         '임금이 2개월 이상 체불되어 퇴사할 때 실업급여가 인정되는 기준과 증빙 서류, 노동청 진정 순서를 지금 확인하세요.',
     },
     intro:
-      '<p>월급이 한두 달 밀리면 "조금만 더 버텨보자" 싶지만, 2개월 이상 체불되면 생활이 무너집니다. 고용보험법 시행규칙 제101조의2는 "이직 전 1년 이내 2개월 이상 임금이 체불된 경우"를 정당한 이직 사유로 명시해, 자발적 퇴사라도 실업급여가 인정됩니다.</p>',
+      '<p>월급이 한두 달 밀리면 "조금만 더 버텨보자" 싶지만, 2개월 이상 체불되면 생활이 무너집니다. 고용보험법 시행규칙 제101조의2는 "이직 전 1년 이내 2개월 이상 임금이 체불된 경우"를 정당한 이직 사유로 명시해, 자발적 퇴사라도 실업급여가 인정될 수 있습니다.</p>',
     sections: [
       {
         title: '2개월 체불 — 실업급여 인정 기준',
@@ -320,7 +320,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         question: '임금 일부만 체불된 경우도 되나요?',
         answer:
-          '<strong>평균 임금의 30% 이상 미지급이 2개월 이상이면 인정됩니다.</strong>',
+          '<strong>평균 임금의 30% 이상 미지급이 2개월 이상이면 인정될 수 있습니다.</strong>',
       },
       {
         question: '체불임금 받고 나면 실업급여 못 받나요?',
@@ -407,7 +407,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         question: '시급에 주휴수당 포함이라고 들었어요.',
         answer:
-          '<strong>근로계약서에 구체적으로 명시되어 있어야 인정됩니다.</strong> 구두 약속은 효력이 약합니다.',
+          '<strong>근로계약서에 구체적으로 명시되어 있어야 인정될 수 있습니다.</strong> 구두 약속은 효력이 약합니다.',
       },
       {
         question: '주 15시간 미만이면 주휴수당 없나요?',
@@ -487,7 +487,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
         summary:
           '대법원 2023다207816 사건(대법원, 2024.01.11 선고)에서 법원은 교대근무자에게 정기적으로 지급된 야간근로 가산수당은 평균임금 산정 기초에 포함되어야 하며, 이를 누락한 퇴직금 지급은 위법하다고 판시했습니다.',
         takeaway:
-          '교대근무자는 야간수당이 퇴직금에 반영됐는지 반드시 확인해야 합니다.',
+          '교대근무자는 야간수당이 퇴직금에 반영됐는지 가능한 한 확인해야 합니다.',
       },
     ],
     faq: [
@@ -581,7 +581,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         question: '분기 지급 인센티브도 포함되나요?',
         answer:
-          '<strong>3개월 이내 주기라면 정기성 인정됩니다.</strong> 반기·연 1회 지급은 별도 판단.',
+          '<strong>3개월 이내 주기라면 정기성 인정될 수 있습니다.</strong> 반기·연 1회 지급은 별도 판단.',
       },
       {
         question: '달성률에 따라 변동되는데도 포함되나요?',
@@ -760,7 +760,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         question: '야간 전담 근무자도 가산수당 받나요?',
         answer:
-          '<strong>네, 상시 야간근무자도 가산수당은 반드시 지급됩니다.</strong> "야간 전담이니 가산 없음"은 위법.',
+          '<strong>네, 상시 야간근무자도 가산수당은 가능한 한 지급됩니다.</strong> "야간 전담이니 가산 없음"은 위법.',
       },
       {
         question: '감시단속 업무는 왜 제외인가요?',

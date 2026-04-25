@@ -209,7 +209,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       {
         title: '유리한 퇴직일 선택 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직일을 결정하기 전에 아래 3가지를 반드시 확인하세요.</strong></p>\n<ul>\n<li><strong>상여금·성과급 지급월 확인</strong> — 상여금이 지급된 달이 퇴직 전 3개월에 포함되도록 퇴직일을 조정하세요.</li>\n<li><strong>연차수당 발생 시점</strong> — 미사용 연차수당은 퇴직으로 발생하므로 연차가 많이 남았을 때 퇴직하면 유리합니다.</li>\n<li><strong>근속연수 기준일</strong> — 근속연수가 정확히 N년이 되는 날 이후에 퇴직해야 1년이 온전히 반영됩니다. 하루 차이로 1년치 퇴직금이 줄어들 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 퇴직일을 한 달만 조정해도 퇴직금이 크게 달라집니다. 급하지 않다면 상여금 지급 직후를 퇴직일로 정하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직일을 결정하기 전에 아래 3가지를 가능한 한 확인하세요.</strong></p>\n<ul>\n<li><strong>상여금·성과급 지급월 확인</strong> — 상여금이 지급된 달이 퇴직 전 3개월에 포함되도록 퇴직일을 조정하세요.</li>\n<li><strong>연차수당 발생 시점</strong> — 미사용 연차수당은 퇴직으로 발생하므로 연차가 많이 남았을 때 퇴직하면 유리합니다.</li>\n<li><strong>근속연수 기준일</strong> — 근속연수가 정확히 N년이 되는 날 이후에 퇴직해야 1년이 온전히 반영됩니다. 하루 차이로 1년치 퇴직금이 줄어들 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 퇴직일을 한 달만 조정해도 퇴직금이 크게 달라집니다. 급하지 않다면 상여금 지급 직후를 퇴직일로 정하세요.</blockquote>',
       },
     ],
     cases: [
@@ -218,7 +218,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
         summary:
           '대법원 2025다214605 사건(대법원, 2025.12.11 선고)에서 법원은 퇴직금 산정 시 정기적·일률적으로 지급된 상여금은 평균임금에 포함해야 한다고 판시하면서, 평균임금 산정 기간에 지급된 상여금 전액이 포함된다고 확인했습니다.',
         takeaway:
-          '정기 상여금이 퇴직 전 3개월 안에 지급되었다면 반드시 평균임금에 포함시켜야 합니다. 회사가 상여금을 제외하고 퇴직금을 계산하면 차액을 청구하세요.',
+          '정기 상여금이 퇴직 전 3개월 안에 지급되었다면 가능한 한 평균임금에 포함시켜야 합니다. 회사가 상여금을 제외하고 퇴직금을 계산하면 차액을 청구하세요.',
       },
     ],
     faq: [
@@ -309,7 +309,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       {
         question: '사장님이 "프리랜서였다"고 주장하면 어떡하나요?',
         answer:
-          '<p>프리랜서인지 근로자인지는 계약 명칭이 아니라 실질로 판단합니다. 출퇴근 시간이 정해져 있고, 사장님의 지시를 받았고, 다른 일을 할 수 없었다면 근로자로 인정됩니다.</p>',
+          '<p>프리랜서인지 근로자인지는 계약 명칭이 아니라 실질로 판단합니다. 출퇴근 시간이 정해져 있고, 사장님의 지시를 받았고, 다른 일을 할 수 없었다면 근로자로 인정될 수 있습니다.</p>',
       },
       {
         question: '퇴직한 지 2년이 넘었는데 지금이라도 청구할 수 있나요?',
@@ -357,12 +357,12 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       {
         title: 'RSU와 퇴직금: 임금성 판단 기준',
         content:
-          '<p><strong style="color:#1e3a5f">RSU(양도제한조건부주식)는 스톡옵션보다 임금성이 인정될 가능성이 상대적으로 높습니다.</strong></p>\n<p>RSU는 일정 기간 근무(베스팅)를 조건으로 주식을 확정적으로 지급하는 구조입니다. 근로의 대가로 정기적으로 지급되는 성격이 강할수록 임금으로 인정될 가능성이 높아집니다.</p>\n<ul>\n<li><strong>베스팅 완료분</strong> — 이미 베스팅이 완료되어 소유권이 이전된 RSU의 가치는 해당 시점의 급여로 볼 여지가 있습니다.</li>\n<li><strong>미베스팅분</strong> — 퇴직으로 소멸하는 미베스팅 RSU는 퇴직금 산정에 포함되지 않습니다.</li>\n<li><strong>현금 결제형</strong> — RSU를 주식 대신 현금으로 지급하는 경우 임금성이 더 강하게 인정됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>스톡옵션·RSU 퇴직금 포함 여부, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">보상 구조, 지급 조건, 베스팅 스케줄을 입력하면 퇴직금 포함 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">RSU(양도제한조건부주식)는 스톡옵션보다 임금성이 인정될 가능성이 상대적으로 높습니다.</strong></p>\n<p>RSU는 일정 기간 근무(베스팅)를 조건으로 주식을 확정적으로 지급하는 구조입니다. 근로의 대가로 정기적으로 지급되는 성격이 강할수록 임금으로 인정될 가능성이 높아집니다.</p>\n<ul>\n<li><strong>베스팅 완료분</strong> — 이미 베스팅이 완료되어 소유권이 이전된 RSU의 가치는 해당 시점의 급여로 볼 여지가 있습니다.</li>\n<li><strong>미베스팅분</strong> — 퇴직으로 소멸하는 미베스팅 RSU는 퇴직금 산정에 포함되지 않습니다.</li>\n<li><strong>현금 결제형</strong> — RSU를 주식 대신 현금으로 지급하는 경우 임금성이 더 강하게 인정될 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>스톡옵션·RSU 퇴직금 포함 여부, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">보상 구조, 지급 조건, 베스팅 스케줄을 입력하면 퇴직금 포함 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '퇴직 시 스톡옵션·RSU 관련 체크 포인트',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직 전에 주식보상 계약서의 퇴직 관련 조항을 반드시 확인하세요.</strong></p>\n<ul>\n<li><strong>퇴직 시 미행사 옵션 처리</strong> — 대부분의 스톡옵션은 퇴직 후 90일 이내에 행사해야 합니다. 기간 내 행사하지 않으면 소멸됩니다.</li>\n<li><strong>베스팅 가속 조항</strong> — 퇴직 사유에 따라 미베스팅 RSU가 즉시 베스팅되는 "가속 베스팅" 조항이 있는지 확인하세요.</li>\n<li><strong>퇴직금 별도 협상</strong> — 스톡옵션·RSU가 퇴직금에 포함되지 않더라도, 퇴직 위로금이나 특별 보상으로 협상할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 스톡옵션·RSU 계약서의 퇴직 조항(행사 기한, 베스팅 가속, 매수청구권)을 퇴직 전에 꼼꼼히 읽으세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직 전에 주식보상 계약서의 퇴직 관련 조항을 가능한 한 확인하세요.</strong></p>\n<ul>\n<li><strong>퇴직 시 미행사 옵션 처리</strong> — 대부분의 스톡옵션은 퇴직 후 90일 이내에 행사해야 합니다. 기간 내 행사하지 않으면 소멸됩니다.</li>\n<li><strong>베스팅 가속 조항</strong> — 퇴직 사유에 따라 미베스팅 RSU가 즉시 베스팅되는 "가속 베스팅" 조항이 있는지 확인하세요.</li>\n<li><strong>퇴직금 별도 협상</strong> — 스톡옵션·RSU가 퇴직금에 포함되지 않더라도, 퇴직 위로금이나 특별 보상으로 협상할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 스톡옵션·RSU 계약서의 퇴직 조항(행사 기한, 베스팅 가속, 매수청구권)을 퇴직 전에 꼼꼼히 읽으세요.</blockquote>',
       },
     ],
     cases: [
@@ -589,7 +589,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       {
         title: '지연이자 청구 방법',
         content:
-          '<p><strong style="color:#1e3a5f">노동부 진정, 민사소송, 지급명령 신청 시 지연이자를 함께 청구하세요.</strong></p>\n<ul>\n<li><strong>노동부 진정 시</strong> — 진정서에 "미지급 임금 OOO원 및 지연이자"를 명시하세요. 근로감독관이 지연이자 포함 지급을 시정명령합니다.</li>\n<li><strong>민사소송 시</strong> — 소장에 "미지급 임금 OOO원 및 이에 대한 퇴직일 이후 14일이 경과한 날부터 다 갚는 날까지 연 14.6%의 비율에 의한 금원"으로 기재합니다.</li>\n<li><strong>지급명령 신청</strong> — 소액사건(3,000만원 이하)은 법원에 지급명령을 신청하면 간편하게 집행권원을 확보할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 많은 근로자가 원금만 청구하고 지연이자를 빠뜨립니다. 반드시 함께 청구하세요. 금액이 클수록 이자도 상당합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">노동부 진정, 민사소송, 지급명령 신청 시 지연이자를 함께 청구하세요.</strong></p>\n<ul>\n<li><strong>노동부 진정 시</strong> — 진정서에 "미지급 임금 OOO원 및 지연이자"를 명시하세요. 근로감독관이 지연이자 포함 지급을 시정명령합니다.</li>\n<li><strong>민사소송 시</strong> — 소장에 "미지급 임금 OOO원 및 이에 대한 퇴직일 이후 14일이 경과한 날부터 다 갚는 날까지 연 14.6%의 비율에 의한 금원"으로 기재합니다.</li>\n<li><strong>지급명령 신청</strong> — 소액사건(3,000만원 이하)은 법원에 지급명령을 신청하면 간편하게 집행권원을 확보할 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 많은 근로자가 원금만 청구하고 지연이자를 빠뜨립니다. 가능한 한 함께 청구하세요. 금액이 클수록 이자도 상당합니다.</blockquote>',
       },
     ],
     cases: [
@@ -672,7 +672,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
         summary:
           '대법원 2022다257238 사건(대법원, 2025.07.18 선고)에서 법원은 임금체불이 반의사불벌죄이므로 근로자가 처벌 불원 의사를 표시하면 공소를 제기할 수 없다고 확인하면서도, 지급 완료 전 처벌불원서 작성은 신중해야 한다고 덧붙였습니다.',
         takeaway:
-          '임금을 전액 수령하기 전에 처벌불원서를 작성하면 안 됩니다. 반드시 전액 입금 확인 후에 처벌불원서를 제출하세요.',
+          '임금을 전액 수령하기 전에 처벌불원서를 작성하면 안 됩니다. 가능한 한 전액 입금 확인 후에 처벌불원서를 제출하세요.',
       },
     ],
     faq: [

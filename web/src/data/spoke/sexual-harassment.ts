@@ -78,7 +78,7 @@ export const sexualHarassmentPages: SpokePage[] = [
       {
         question: '성희롱 피해자도 해고될 수 있나요?',
         answer:
-          '성희롱 신고를 이유로 한 해고는 <strong>불법</strong>입니다. 3년 이하 징역 또는 3,000만원 이하 벌금에 해당합니다.',
+          '성희롱 신고를 이유로 한 해고는 <strong>불법</strong>입니다. 3년 이하 징역 또는 3,000만원 이하 벌금에 해당할 소지가 있습니다.',
       },
       {
         question: '국가인권위 진정 기한은 얼마인가요?',

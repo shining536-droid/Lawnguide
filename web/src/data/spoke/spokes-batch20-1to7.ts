@@ -26,7 +26,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       description: '개인파산 신청 전에 재산을 처분하면 면책이 안 될 수 있다는 사실이 걱정된다면 면책 불허 사유 3가지를 지금 확인하세요.',
     },
     intro:
-      '<p>파산 신청을 앞두고 남은 재산이라도 가족에게 넘겨두려는 생각이 들 수 있습니다. "어차피 빚을 못 갚으니 내 이름에서 빼놓자"는 판단이지만, 이 행동이 면책 불허의 결정적 사유가 될 수 있습니다. 법원은 파산 신청 전 재산 은닉·처분 행위를 매우 엄격하게 심사합니다. 실수 하나로 면책 기회를 영영 잃을 수 있으니 반드시 확인하세요.</p>',
+      '<p>파산 신청을 앞두고 남은 재산이라도 가족에게 넘겨두려는 생각이 들 수 있습니다. "어차피 빚을 못 갚으니 내 이름에서 빼놓자"는 판단이지만, 이 행동이 면책 불허의 결정적 사유가 될 수 있습니다. 법원은 파산 신청 전 재산 은닉·처분 행위를 매우 엄격하게 심사합니다. 실수 하나로 면책 기회를 영영 잃을 수 있으니 가능한 한 확인하세요.</p>',
     sections: [
       {
         title: '파산 전 재산 처분이 면책 불허로 이어지는 3가지 사유',
@@ -36,7 +36,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       {
         title: '법원은 어떻게 재산 처분 사실을 알아내나요?',
         content:
-          '<p><strong style="color:#1e3a5f">파산관재인은 채무자의 최근 2~5년간 금융거래 내역, 부동산 등기이전 기록, 자동차 명의변경 이력을 전수 조사합니다</strong></p>\n<p>법원에서 선임한 파산관재인은 다음 자료를 확인합니다.</p>\n<ul>\n<li><strong>금융거래 조회</strong> — 전 금융기관 입출금 내역을 조회해 대규모 인출·이체를 추적합니다</li>\n<li><strong>부동산 등기 이력</strong> — 신청일 기준 최근 수년간의 소유권 이전 기록을 확인합니다</li>\n<li><strong>자동차·보험 조회</strong> — 차량 명의변경, 보험 해지환급금 수령 내역도 조사 대상입니다</li>\n<li><strong>가족 재산 조사</strong> — 배우자와 직계가족의 재산 변동도 확인할 수 있습니다</li>\n</ul>\n<p>"소액이니 괜찮겠지"라는 판단은 위험합니다. 50만 원짜리 보험 해지환급금 인출도 문제가 될 수 있습니다. <strong>파산 신청 전 재산 관련 행위는 반드시 전문가 상담 후 결정</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조사 범위: 금융거래 전수 + 부동산 등기 + 보험·차량 + 가족 재산 변동</blockquote>',
+          '<p><strong style="color:#1e3a5f">파산관재인은 채무자의 최근 2~5년간 금융거래 내역, 부동산 등기이전 기록, 자동차 명의변경 이력을 전수 조사합니다</strong></p>\n<p>법원에서 선임한 파산관재인은 다음 자료를 확인합니다.</p>\n<ul>\n<li><strong>금융거래 조회</strong> — 전 금융기관 입출금 내역을 조회해 대규모 인출·이체를 추적합니다</li>\n<li><strong>부동산 등기 이력</strong> — 신청일 기준 최근 수년간의 소유권 이전 기록을 확인합니다</li>\n<li><strong>자동차·보험 조회</strong> — 차량 명의변경, 보험 해지환급금 수령 내역도 조사 대상입니다</li>\n<li><strong>가족 재산 조사</strong> — 배우자와 직계가족의 재산 변동도 확인할 수 있습니다</li>\n</ul>\n<p>"소액이니 괜찮겠지"라는 판단은 위험합니다. 50만 원짜리 보험 해지환급금 인출도 문제가 될 수 있습니다. <strong>파산 신청 전 재산 관련 행위는 가능한 한 전문가 상담 후 결정</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조사 범위: 금융거래 전수 + 부동산 등기 + 보험·차량 + 가족 재산 변동</blockquote>',
       },
       {
         title: '이미 처분했다면 지금 할 수 있는 3가지',
@@ -55,7 +55,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
         summary:
           '대법원 2021다265010 사건(2022.03.17 선고)에서 법원은 채무자가 파산 신청 직전 소유 부동산을 배우자에게 시가 이하로 매도한 행위에 대해, 채권자를 해하는 재산 감소 행위에 해당하여 면책을 불허한다고 판시했습니다.',
         takeaway:
-          '파산 신청 전 가족에게 재산을 넘기는 행위는 금액과 관계없이 면책 불허 사유가 됩니다. 재산 관련 행위는 반드시 전문가 상담 후 진행하세요.',
+          '파산 신청 전 가족에게 재산을 넘기는 행위는 금액과 관계없이 면책 불허 사유가 됩니다. 재산 관련 행위는 가능한 한 전문가 상담 후 진행하세요.',
       },
     ],
     faq: [
@@ -119,7 +119,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       {
         title: '1단계 — 내 빚이 정확히 얼마인지 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">채무 정리의 첫걸음은 총 채무액을 정확히 파악하는 것입니다. 신용정보원 "올크레딧"에서 무료 조회가 가능합니다</strong></p>\n<p>많은 분이 빚의 총액을 정확히 모릅니다. 대출 원금, 미납 이자, 연체 가산금까지 합산해야 정확한 수치가 나옵니다.</p>\n<ul>\n<li><strong>신용정보 조회</strong> — 한국신용정보원(www.credit4u.or.kr)에서 본인의 전체 채무 내역을 무료로 확인하세요</li>\n<li><strong>채무 목록 작성</strong> — 채권자명, 원금, 이자율, 연체 기간, 담보 유무를 엑셀이나 메모장에 정리하세요</li>\n<li><strong>사채·지인 빚 포함</strong> — 제도권 금융뿐 아니라 사채업체, 지인에게 빌린 돈도 반드시 포함하세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">첫 단계: 신용정보원에서 전체 채무 조회 → 채무 목록 작성</blockquote>',
+          '<p><strong style="color:#1e3a5f">채무 정리의 첫걸음은 총 채무액을 정확히 파악하는 것입니다. 신용정보원 "올크레딧"에서 무료 조회가 가능합니다</strong></p>\n<p>많은 분이 빚의 총액을 정확히 모릅니다. 대출 원금, 미납 이자, 연체 가산금까지 합산해야 정확한 수치가 나옵니다.</p>\n<ul>\n<li><strong>신용정보 조회</strong> — 한국신용정보원(www.credit4u.or.kr)에서 본인의 전체 채무 내역을 무료로 확인하세요</li>\n<li><strong>채무 목록 작성</strong> — 채권자명, 원금, 이자율, 연체 기간, 담보 유무를 엑셀이나 메모장에 정리하세요</li>\n<li><strong>사채·지인 빚 포함</strong> — 제도권 금융뿐 아니라 사채업체, 지인에게 빌린 돈도 가능한 한 포함하세요</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">첫 단계: 신용정보원에서 전체 채무 조회 → 채무 목록 작성</blockquote>',
       },
       {
         title: '2단계 — 내 상황에 맞는 채무 정리 방법을 선택하세요',
@@ -243,7 +243,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       {
         question: '체크리스트에 3개만 해당되면 파산은 안 되나요?',
         answer:
-          '<strong>반드시 안 되는 것은 아닙니다.</strong> 체크리스트는 대략적인 기준이며, 구체적인 소득·채무·생활 상황에 따라 법원의 판단이 달라질 수 있습니다. 정확한 판단은 전문가 상담이 필요합니다.',
+          '<strong>가능한 한 안 되는 것은 아닙니다.</strong> 체크리스트는 대략적인 기준이며, 구체적인 소득·채무·생활 상황에 따라 법원의 판단이 달라질 수 있습니다. 정확한 판단은 전문가 상담이 필요합니다.',
       },
       {
         question: '파산 신청 비용은 얼마나 드나요?',
@@ -305,7 +305,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       {
         title: '채무 목록 작성법 — 가장 중요하고 실수가 많은 부분',
         content:
-          '<p><strong style="color:#1e3a5f">채무 목록은 파산 신청서에서 가장 중요한 부분입니다. 누락된 채권자는 면책 대상에서 빠질 수 있습니다</strong></p>\n<ul>\n<li><strong>모든 채권자 기재</strong> — 은행, 카드사, 대부업체, 사채업자, 지인까지 예외 없이 기재하세요. 한국신용정보원(www.credit4u.or.kr)에서 조회한 결과를 기준으로 합니다</li>\n<li><strong>채무액 정확히 기재</strong> — 원금과 이자를 구분해서 기재합니다. 정확한 금액을 모르면 채권자에게 "채무확인서"를 요청하세요</li>\n<li><strong>담보채무 구분</strong> — 주택담보대출, 자동차 할부 등 담보가 있는 채무는 별도로 구분 기재합니다</li>\n<li><strong>보증채무 포함</strong> — 타인의 대출에 연대보증을 선 경우도 채무 목록에 포함해야 합니다</li>\n</ul>\n<p><strong>흔한 실수:</strong> 소액 채무나 오래된 채무를 빠뜨리는 것입니다. 누락된 채권자에 대해서는 면책 효력이 미치지 않을 수 있으므로 반드시 전수 기재하세요.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/bankruptcy" style="color:#1565c0;font-weight:600">파산 신청서 작성 전 무료 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">채무 목록은 파산 신청서에서 가장 중요한 부분입니다. 누락된 채권자는 면책 대상에서 빠질 수 있습니다</strong></p>\n<ul>\n<li><strong>모든 채권자 기재</strong> — 은행, 카드사, 대부업체, 사채업자, 지인까지 예외 없이 기재하세요. 한국신용정보원(www.credit4u.or.kr)에서 조회한 결과를 기준으로 합니다</li>\n<li><strong>채무액 정확히 기재</strong> — 원금과 이자를 구분해서 기재합니다. 정확한 금액을 모르면 채권자에게 "채무확인서"를 요청하세요</li>\n<li><strong>담보채무 구분</strong> — 주택담보대출, 자동차 할부 등 담보가 있는 채무는 별도로 구분 기재합니다</li>\n<li><strong>보증채무 포함</strong> — 타인의 대출에 연대보증을 선 경우도 채무 목록에 포함해야 합니다</li>\n</ul>\n<p><strong>흔한 실수:</strong> 소액 채무나 오래된 채무를 빠뜨리는 것입니다. 누락된 채권자에 대해서는 면책 효력이 미치지 않을 수 있으므로 가능한 한 전수 기재하세요.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/bankruptcy" style="color:#1565c0;font-weight:600">파산 신청서 작성 전 무료 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '채무 발생 경위서 작성 요령',
@@ -315,7 +315,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       {
         title: '신청서 제출 전 최종 점검 사항',
         content:
-          '<p><strong style="color:#1e3a5f">제출 전 아래 사항을 반드시 확인하세요. 보정 명령이 나오면 절차가 1~2개월 지연됩니다</strong></p>\n<ul>\n<li><strong>서명·날인 확인</strong> — 신청인 서명란에 빠짐없이 서명 또는 날인했는지 확인</li>\n<li><strong>첨부서류 완비</strong> — 주민등록등본, 가족관계증명서, 소득금액증명원, 재산세 과세증명서, 통장 거래내역서 등</li>\n<li><strong>인지대·송달료 납부</strong> — 파산 신청 인지대 1,000원 + 면책 신청 인지대 2,000원 + 송달료(채권자 수 × 4,200원 × 3회분)</li>\n<li><strong>관할 법원 확인</strong> — 신청인 주소지 관할 지방법원 파산부에 제출합니다</li>\n</ul>\n<p>양식은 대한민국 법원 전자민원센터(efiling.scourt.go.kr)에서 다운로드할 수 있습니다. <strong>전자제출(온라인)도 가능</strong>하니 법원 방문이 어려운 경우 활용하세요.</p>',
+          '<p><strong style="color:#1e3a5f">제출 전 아래 사항을 가능한 한 확인하세요. 보정 명령이 나오면 절차가 1~2개월 지연됩니다</strong></p>\n<ul>\n<li><strong>서명·날인 확인</strong> — 신청인 서명란에 빠짐없이 서명 또는 날인했는지 확인</li>\n<li><strong>첨부서류 완비</strong> — 주민등록등본, 가족관계증명서, 소득금액증명원, 재산세 과세증명서, 통장 거래내역서 등</li>\n<li><strong>인지대·송달료 납부</strong> — 파산 신청 인지대 1,000원 + 면책 신청 인지대 2,000원 + 송달료(채권자 수 × 4,200원 × 3회분)</li>\n<li><strong>관할 법원 확인</strong> — 신청인 주소지 관할 지방법원 파산부에 제출합니다</li>\n</ul>\n<p>양식은 대한민국 법원 전자민원센터(efiling.scourt.go.kr)에서 다운로드할 수 있습니다. <strong>전자제출(온라인)도 가능</strong>하니 법원 방문이 어려운 경우 활용하세요.</p>',
       },
     ],
     cases: [
@@ -324,7 +324,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
         summary:
           '대법원 2018다239110 사건(2019.04.25 선고)에서 법원은 채무자가 파산 신청 시 채무 목록에 기재하지 않은 채권자의 채무에 대해서는 면책의 효력이 미치지 않는다고 판시했습니다.',
         takeaway:
-          '채무 목록 작성 시 단 한 건의 채무도 빠뜨리면 안 됩니다. 소액이라도, 오래된 채무라도 반드시 기재해야 면책 효력이 적용됩니다.',
+          '채무 목록 작성 시 단 한 건의 채무도 빠뜨리면 안 됩니다. 소액이라도, 오래된 채무라도 가능한 한 기재해야 면책 효력이 적용됩니다.',
       },
     ],
     faq: [
@@ -412,7 +412,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
         summary:
           '대법원 2018도12603 사건(2019.07.25 선고)에서 법원은 매도인이 매수인에게 소유권이전등기를 해줄 의무가 있음에도 제3자에게 이중으로 매도하여 소유권이전등기를 마쳐준 행위는 배임죄에 해당한다고 판시했습니다.',
         takeaway:
-          '이중매매는 단순 계약 위반이 아니라 형사범죄입니다. 피해를 당했다면 민사 소송과 함께 배임죄 고소를 병행하세요.',
+          '이중매매는 단순 계약 위반이 아니라 형사처벌 대상으로 검토될 수 있습니다. 피해를 당했다면 민사 소송과 함께 배임죄 고소를 병행하세요.',
       },
     ],
     faq: [
@@ -488,7 +488,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       {
         title: '2단계 — 취득세를 신고하고 납부하세요',
         content:
-          '<p><strong style="color:#1e3a5f">부동산 취득 후 60일 이내에 취득세를 신고·납부해야 합니다. 미신고 시 가산세가 부과됩니다</strong></p>\n<ul>\n<li><strong>취득세율</strong> — 주택의 경우 취득가액에 따라 1~3% (조정대상지역 2주택 이상 8~12%)</li>\n<li><strong>신고 방법</strong> — 위택스(www.wetax.go.kr) 또는 부동산 소재지 구청 세무과에서 신고</li>\n<li><strong>납부 기한</strong> — 취득일(잔금일)로부터 60일 이내. 기한 초과 시 20% 가산세</li>\n<li><strong>농어촌특별세·지방교육세</strong> — 취득세와 함께 납부해야 합니다</li>\n</ul>\n<p>취득세 납부 영수증은 <strong>등기 신청 시 첨부 서류</strong>이므로 반드시 보관하세요.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">이전등기 관련 무료 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">부동산 취득 후 60일 이내에 취득세를 신고·납부해야 합니다. 미신고 시 가산세가 부과됩니다</strong></p>\n<ul>\n<li><strong>취득세율</strong> — 주택의 경우 취득가액에 따라 1~3% (조정대상지역 2주택 이상 8~12%)</li>\n<li><strong>신고 방법</strong> — 위택스(www.wetax.go.kr) 또는 부동산 소재지 구청 세무과에서 신고</li>\n<li><strong>납부 기한</strong> — 취득일(잔금일)로부터 60일 이내. 기한 초과 시 20% 가산세</li>\n<li><strong>농어촌특별세·지방교육세</strong> — 취득세와 함께 납부해야 합니다</li>\n</ul>\n<p>취득세 납부 영수증은 <strong>등기 신청 시 첨부 서류</strong>이므로 가능한 한 보관하세요.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">이전등기 관련 무료 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '3단계 — 등기신청서를 작성하세요',
@@ -591,7 +591,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       {
         title: '등기부등본 발급 방법과 비용',
         content:
-          '<p><strong style="color:#1e3a5f">등기부등본은 인터넷등기소에서 24시간 발급 가능하며, 수수료는 700원입니다</strong></p>\n<ul>\n<li><strong>인터넷등기소</strong> — www.iros.go.kr에서 부동산 소재지를 입력하면 즉시 열람(500원) 또는 발급(700원)이 가능합니다</li>\n<li><strong>등기소 방문</strong> — 전국 등기소에서 직접 발급받을 수 있습니다 (수수료 1,000원)</li>\n<li><strong>정부24</strong> — www.gov.kr에서도 발급 가능합니다</li>\n</ul>\n<p><strong>계약 당일에 반드시 최신 등기부를 확인하세요.</strong> 등기부는 실시간으로 변경될 수 있으므로, 이전에 확인한 등본을 그대로 신뢰하면 안 됩니다. 특히 잔금일에는 잔금 지급 직전에 한 번 더 확인하는 것이 안전합니다.</p>',
+          '<p><strong style="color:#1e3a5f">등기부등본은 인터넷등기소에서 24시간 발급 가능하며, 수수료는 700원입니다</strong></p>\n<ul>\n<li><strong>인터넷등기소</strong> — www.iros.go.kr에서 부동산 소재지를 입력하면 즉시 열람(500원) 또는 발급(700원)이 가능합니다</li>\n<li><strong>등기소 방문</strong> — 전국 등기소에서 직접 발급받을 수 있습니다 (수수료 1,000원)</li>\n<li><strong>정부24</strong> — www.gov.kr에서도 발급 가능합니다</li>\n</ul>\n<p><strong>계약 당일에 가능한 한 최신 등기부를 확인하세요.</strong> 등기부는 실시간으로 변경될 수 있으므로, 이전에 확인한 등본을 그대로 신뢰하면 안 됩니다. 특히 잔금일에는 잔금 지급 직전에 한 번 더 확인하는 것이 안전합니다.</p>',
       },
     ],
     cases: [
@@ -612,7 +612,7 @@ export const spokesBatch20_1to7: SpokePage[] = [
       {
         question: '근저당 설정 금액이 매매가보다 적으면 안전한가요?',
         answer:
-          '근저당 채권최고액이 매매가의 <strong>60% 이하</strong>면 비교적 안전하지만, 잔금일에 근저당이 말소되는지 반드시 확인해야 합니다. 매도인의 잔금 수령과 동시에 말소하는 것이 일반적입니다.',
+          '근저당 채권최고액이 매매가의 <strong>60% 이하</strong>면 비교적 안전하지만, 잔금일에 근저당이 말소되는지 가능한 한 확인해야 합니다. 매도인의 잔금 수령과 동시에 말소하는 것이 일반적입니다.',
       },
       {
         question: '등기부에 "예고등기"가 있으면 어떤 의미인가요?',

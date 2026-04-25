@@ -34,17 +34,17 @@ export const spokesBatch25_22to28: SpokePage[] = [
       {
         title: '렌터카 보험 종류별 보장 범위 구분',
         content:
-          '<p><strong style="color:#1e3a5f">렌터카 이용 시 적용되는 보험은 크게 기본보험, 자차보험(CDW), 완전면책보험(슈퍼CDW) 3가지로 나뉩니다.</strong></p>\n<ol>\n<li><strong>기본보험(대인·대물)</strong> — 렌터카 요금에 포함된 기본 보험으로, 상대방 피해(대인·대물)를 보장합니다. 단, 본인 차량 수리비는 보장되지 않습니다</li>\n<li><strong>자차보험(CDW)</strong> — 렌터카 차량 파손 시 수리비를 보장하지만, 자기부담금(면책금)이 있습니다. 일반적으로 20만~50만 원 수준입니다</li>\n<li><strong>완전면책보험(슈퍼CDW)</strong> — 자기부담금 0원으로, 차량 파손·도난 시 추가 비용이 발생하지 않습니다. 다만 음주운전, 무면허 등 면책 사유에 해당하면 보장이 제외됩니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 렌터카 계약서에 어떤 보험에 가입했는지 반드시 확인하세요. 보험 종류에 따라 자기부담금이 0원부터 수백만 원까지 달라집니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">렌터카 이용 시 적용되는 보험은 크게 기본보험, 자차보험(CDW), 완전면책보험(슈퍼CDW) 3가지로 나뉩니다.</strong></p>\n<ol>\n<li><strong>기본보험(대인·대물)</strong> — 렌터카 요금에 포함된 기본 보험으로, 상대방 피해(대인·대물)를 보장합니다. 단, 본인 차량 수리비는 보장되지 않습니다</li>\n<li><strong>자차보험(CDW)</strong> — 렌터카 차량 파손 시 수리비를 보장하지만, 자기부담금(면책금)이 있습니다. 일반적으로 20만~50만 원 수준입니다</li>\n<li><strong>완전면책보험(슈퍼CDW)</strong> — 자기부담금 0원으로, 차량 파손·도난 시 추가 비용이 발생하지 않습니다. 다만 음주운전, 무면허 등 면책 사유에 해당하면 보장이 제외됩니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 렌터카 계약서에 어떤 보험에 가입했는지 가능한 한 확인하세요. 보험 종류에 따라 자기부담금이 0원부터 수백만 원까지 달라집니다</blockquote>',
       },
       {
         title: '렌터카 사고 시 보험 처리 절차 4단계',
         content:
-          '<p><strong style="color:#1e3a5f">렌터카 사고가 발생하면 아래 4단계를 순서대로 진행해야 불필요한 추가 비용을 방지할 수 있습니다.</strong></p>\n<ul>\n<li><strong>1단계: 사고 현장 조치</strong> — 경찰 신고(112) → 사고 현장 사진 촬영 → 상대방 정보 확인(보험사, 연락처). 경미한 사고라도 반드시 경찰 신고를 해두세요</li>\n<li><strong>2단계: 렌터카 업체 연락</strong> — 사고 발생 즉시 렌터카 업체 긴급연락처로 사고 접수합니다. 접수 지연 시 보험 적용이 거부될 수 있습니다</li>\n<li><strong>3단계: 보험 적용 확인</strong> — 본인 자동차보험의 "타차담보(다른 자동차 운전 담보)" 특약이 있는지 확인합니다. 있으면 본인 보험으로 처리 가능합니다</li>\n<li><strong>4단계: 수리비·휴차료 정산</strong> — 렌터카 업체가 청구하는 수리비, 휴차료(영업손실), 면책금의 적정성을 확인합니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 렌터카 보험 적용 여부와 자기부담금 범위를 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">렌터카 사고가 발생하면 아래 4단계를 순서대로 진행해야 불필요한 추가 비용을 방지할 수 있습니다.</strong></p>\n<ul>\n<li><strong>1단계: 사고 현장 조치</strong> — 경찰 신고(112) → 사고 현장 사진 촬영 → 상대방 정보 확인(보험사, 연락처). 경미한 사고라도 가능한 한 경찰 신고를 해두세요</li>\n<li><strong>2단계: 렌터카 업체 연락</strong> — 사고 발생 즉시 렌터카 업체 긴급연락처로 사고 접수합니다. 접수 지연 시 보험 적용이 거부될 수 있습니다</li>\n<li><strong>3단계: 보험 적용 확인</strong> — 본인 자동차보험의 "타차담보(다른 자동차 운전 담보)" 특약이 있는지 확인합니다. 있으면 본인 보험으로 처리 가능합니다</li>\n<li><strong>4단계: 수리비·휴차료 정산</strong> — 렌터카 업체가 청구하는 수리비, 휴차료(영업손실), 면책금의 적정성을 확인합니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 렌터카 보험 적용 여부와 자기부담금 범위를 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '렌터카 업체 과다 청구 시 대응 방법',
         content:
-          '<p><strong style="color:#1e3a5f">렌터카 업체가 수리비, 휴차료, 감가상각비를 과다하게 청구하는 경우에는 적정성을 따져볼 필요가 있습니다.</strong></p>\n<ul>\n<li><strong>수리비 과다 청구</strong> — 업체 지정 정비소가 아닌 독립 정비소 견적을 받아 비교하세요. 보험사에 수리비 감정을 요청할 수도 있습니다</li>\n<li><strong>휴차료 분쟁</strong> — 휴차료는 실제 영업 손실을 기준으로 산정해야 하며, 수리 기간이 과도하게 길면 합리적 수리기간만큼만 인정됩니다</li>\n<li><strong>감가상각비 청구</strong> — 사고로 인한 차량 가치 하락분을 청구하는 경우가 있는데, 경미한 사고에서는 인정되지 않는 경우가 많습니다</li>\n<li><strong>한국소비자원 분쟁조정</strong> — 렌터카 업체와 합의가 안 되면 한국소비자원(1372)에 분쟁조정을 신청할 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 사고 현장 사진, 경찰 사고접수증, 렌터카 계약서는 분쟁 발생 시 가장 중요한 증거이므로 반드시 보관하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">렌터카 업체가 수리비, 휴차료, 감가상각비를 과다하게 청구하는 경우에는 적정성을 따져볼 필요가 있습니다.</strong></p>\n<ul>\n<li><strong>수리비 과다 청구</strong> — 업체 지정 정비소가 아닌 독립 정비소 견적을 받아 비교하세요. 보험사에 수리비 감정을 요청할 수도 있습니다</li>\n<li><strong>휴차료 분쟁</strong> — 휴차료는 실제 영업 손실을 기준으로 산정해야 하며, 수리 기간이 과도하게 길면 합리적 수리기간만큼만 인정될 수 있습니다</li>\n<li><strong>감가상각비 청구</strong> — 사고로 인한 차량 가치 하락분을 청구하는 경우가 있는데, 경미한 사고에서는 인정되지 않는 경우가 많습니다</li>\n<li><strong>한국소비자원 분쟁조정</strong> — 렌터카 업체와 합의가 안 되면 한국소비자원(1372)에 분쟁조정을 신청할 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 사고 현장 사진, 경찰 사고접수증, 렌터카 계약서는 분쟁 발생 시 가장 중요한 증거이므로 가능한 한 보관하세요</blockquote>',
       },
     ],
     cases: [
@@ -75,7 +75,7 @@ export const spokesBatch25_22to28: SpokePage[] = [
       {
         question: '렌터카 사고 후 경찰 신고를 안 하면 어떻게 되나요?',
         answer:
-          '<strong>경찰 신고를 하지 않으면 보험 처리가 거부되거나, 과실 판정에서 불리해질 수 있습니다.</strong> 경미한 접촉사고라도 반드시 112에 신고하고 사고접수번호를 받아두세요. 이 번호가 보험 청구와 과실 판정의 기본 자료가 됩니다.',
+          '<strong>경찰 신고를 하지 않으면 보험 처리가 거부되거나, 과실 판정에서 불리해질 수 있습니다.</strong> 경미한 접촉사고라도 가능한 한 112에 신고하고 사고접수번호를 받아두세요. 이 번호가 보험 청구와 과실 판정의 기본 자료가 됩니다.',
       },
     ],
     cta: {
@@ -108,7 +108,7 @@ export const spokesBatch25_22to28: SpokePage[] = [
         '교통사고 후 통원치료를 너무 적게 받으면 합의금이 줄어드는 건 아닌지 걱정된다면 적정 치료 기준 4가지를 지금 확인하세요',
     },
     intro:
-      '<p>교통사고 후 허리가 아파서 정형외과에 다니고 있습니다. 보험사 담당자는 "치료가 너무 길다"고 하고, 주변에서는 "더 다녀야 합의금이 올라간다"고 합니다. 통원치료 횟수가 합의금에 직접 영향을 미치는 것은 사실이지만, 무조건 많이 다닌다고 유리한 것은 아닙니다. 치료의 적정성과 의학적 근거가 더 중요합니다.</p>',
+      '<p>교통사고 후 허리가 아파서 정형외과에 다니고 있습니다. 보험사 담당자는 "치료가 너무 길다"고 하고, 주변에서는 "더 다녀야 합의금이 올라간다"고 합니다. 통원치료 횟수가 합의금에 직접 영향을 미치는 것은 사실이지만, 원칙적으로 많이 다닌다고 유리한 것은 아닙니다. 치료의 적정성과 의학적 근거가 더 중요합니다.</p>',
     sections: [
       {
         title: '통원치료 횟수가 합의금에 미치는 영향 구조',
@@ -365,12 +365,12 @@ export const spokesBatch25_22to28: SpokePage[] = [
       {
         title: '숙려기간 단축이 가능한 3가지 경우',
         content:
-          '<p><strong style="color:#1e3a5f">가정법원은 아래 사유가 인정되면 숙려기간의 단축 또는 면제를 결정할 수 있습니다(민법 제836조의2 제3항).</strong></p>\n<ul>\n<li><strong>가정폭력</strong> — 배우자의 폭행, 학대 등 가정폭력이 있는 경우 숙려기간 단축 또는 면제 사유에 해당합니다. 경찰 신고 기록, 진단서, 피해자보호명령 등이 증빙이 됩니다</li>\n<li><strong>그 밖의 급박한 사정</strong> — 배우자의 약물중독, 도박중독, 심각한 정신질환 등으로 정상적인 혼인생활이 불가능하고 즉시 이혼이 필요한 경우입니다</li>\n<li><strong>당사자 쌍방의 신청</strong> — 부부 양쪽이 모두 단축을 신청하고, 법원이 사정을 고려하여 인정하는 경우입니다. 다만 단순히 "빨리 이혼하고 싶다"는 이유만으로는 인정되지 않습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 숙려기간 단축 가능성과 필요 서류를 분석해드립니다.</p>\n<a href="/chat?domain=divorce" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">가정법원은 아래 사유가 인정되면 숙려기간의 단축 또는 면제를 결정할 수 있습니다(민법 제836조의2 제3항).</strong></p>\n<ul>\n<li><strong>가정폭력</strong> — 배우자의 폭행, 학대 등 가정폭력이 있는 경우 숙려기간 단축 또는 면제 사유에 해당할 소지가 있습니다. 경찰 신고 기록, 진단서, 피해자보호명령 등이 증빙이 됩니다</li>\n<li><strong>그 밖의 급박한 사정</strong> — 배우자의 약물중독, 도박중독, 심각한 정신질환 등으로 정상적인 혼인생활이 불가능하고 즉시 이혼이 필요한 경우입니다</li>\n<li><strong>당사자 쌍방의 신청</strong> — 부부 양쪽이 모두 단축을 신청하고, 법원이 사정을 고려하여 인정하는 경우입니다. 다만 단순히 "빨리 이혼하고 싶다"는 이유만으로는 인정되지 않습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 숙려기간 단축 가능성과 필요 서류를 분석해드립니다.</p>\n<a href="/chat?domain=divorce" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '숙려기간 단축 신청 절차와 준비서류',
         content:
-          '<p><strong style="color:#1e3a5f">숙려기간 단축 신청은 협의이혼 의사확인 신청과 함께 또는 이후에 별도로 가정법원에 제출합니다.</strong></p>\n<ul>\n<li><strong>신청서 작성</strong> — 가정법원에 "숙려기간 단축(면제) 신청서"를 제출합니다. 단축 사유, 구체적 사실관계, 증빙자료 목록을 기재합니다</li>\n<li><strong>증빙서류</strong> — 가정폭력: 진단서, 경찰 신고 접수증, 피해자보호명령 결정문 / 기타 사유: 의사 진단서, 치료 기록, 약물·도박 관련 증빙</li>\n<li><strong>법원 판단</strong> — 법원이 서면 심리 또는 심문 기일을 거쳐 단축 여부를 결정합니다. 가정폭력 사유가 명확하면 1~2주 내에 결정이 나오는 경우가 많습니다</li>\n<li><strong>단축 후 절차</strong> — 단축이 인정되면 즉시 또는 단축된 기간 경과 후 이혼 의사 확인 기일이 지정됩니다. 양 당사자가 출석하여 이혼 의사를 확인하면 이혼이 성립합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 숙려기간 단축이 인정되지 않아도 재판이혼으로 전환하면 숙려기간 없이 이혼을 진행할 수 있습니다. 다만 재판이혼은 소송 절차가 필요합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">숙려기간 단축 신청은 협의이혼 의사확인 신청과 함께 또는 이후에 별도로 가정법원에 제출합니다.</strong></p>\n<ul>\n<li><strong>신청서 작성</strong> — 가정법원에 "숙려기간 단축(면제) 신청서"를 제출합니다. 단축 사유, 구체적 사실관계, 증빙자료 목록을 기재합니다</li>\n<li><strong>증빙서류</strong> — 가정폭력: 진단서, 경찰 신고 접수증, 피해자보호명령 결정문 / 기타 사유: 의사 진단서, 치료 기록, 약물·도박 관련 증빙</li>\n<li><strong>법원 판단</strong> — 법원이 서면 심리 또는 심문 기일을 거쳐 단축 여부를 결정합니다. 가정폭력 사유가 명확하면 1~2주 내에 결정이 나오는 경우가 많습니다</li>\n<li><strong>단축 후 절차</strong> — 단축이 인정되면 즉시 또는 단축된 기간 경과 후 이혼 의사 확인 기일이 지정됩니다. 양 당사자가 출석하여 이혼 의사를 확인하면 이혼이 성립할 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 숙려기간 단축이 인정되지 않아도 재판이혼으로 전환하면 숙려기간 없이 이혼을 진행할 수 있습니다. 다만 재판이혼은 소송 절차가 필요합니다</blockquote>',
       },
     ],
     cases: [
@@ -386,7 +386,7 @@ export const spokesBatch25_22to28: SpokePage[] = [
       {
         question: '가정폭력이 있으면 숙려기간이 완전히 면제되나요?',
         answer:
-          '<strong>법원이 판단하여 단축 또는 면제를 결정합니다.</strong> 가정폭력의 정도가 심하고 증빙이 명확하면 숙려기간이 면제되어 바로 이혼 의사 확인 기일이 잡힐 수 있습니다. 경찰 신고 기록과 진단서를 반드시 첨부하세요.',
+          '<strong>법원이 판단하여 단축 또는 면제를 결정합니다.</strong> 가정폭력의 정도가 심하고 증빙이 명확하면 숙려기간이 면제되어 바로 이혼 의사 확인 기일이 잡힐 수 있습니다. 경찰 신고 기록과 진단서를 가능한 한 첨부하세요.',
       },
       {
         question: '숙려기간 중에 배우자가 이혼 의사를 철회하면 어떻게 되나요?',

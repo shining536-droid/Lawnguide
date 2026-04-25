@@ -486,7 +486,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
       {
         title: '초과근무수당 계산 기준',
         content:
-          '<p><strong style="color:#1e3a5f">연장·야간·휴일근로 시 통상임금의 50% 이상을 가산해야 합니다.</strong></p>\n<ul>\n<li><strong>연장근로</strong> — 1일 8시간, 1주 40시간을 초과한 근로입니다. 통상임금의 50% 가산 지급합니다.</li>\n<li><strong>야간근로</strong> — 오후 10시~오전 6시 사이의 근로입니다. 통상임금의 50% 가산 지급합니다.</li>\n<li><strong>휴일근로</strong> — 근로기준법상 유급휴일(주휴일, 공휴일)에 근로한 경우입니다. 8시간 이내는 50%, 초과분은 100% 가산합니다.</li>\n<li><strong>중복 가산</strong> — 야간 + 연장이 겹치면 각각 50%씩 총 100%를 가산합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 5인 이상 사업장에서 연장·야간·휴일수당을 지급하지 않으면 임금체불에 해당합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">연장·야간·휴일근로 시 통상임금의 50% 이상을 가산해야 합니다.</strong></p>\n<ul>\n<li><strong>연장근로</strong> — 1일 8시간, 1주 40시간을 초과한 근로입니다. 통상임금의 50% 가산 지급합니다.</li>\n<li><strong>야간근로</strong> — 오후 10시~오전 6시 사이의 근로입니다. 통상임금의 50% 가산 지급합니다.</li>\n<li><strong>휴일근로</strong> — 근로기준법상 유급휴일(주휴일, 공휴일)에 근로한 경우입니다. 8시간 이내는 50%, 초과분은 100% 가산합니다.</li>\n<li><strong>중복 가산</strong> — 야간 + 연장이 겹치면 각각 50%씩 총 100%를 가산합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 5인 이상 사업장에서 연장·야간·휴일수당을 지급하지 않으면 임금체불에 해당할 소지가 있습니다.</blockquote>',
       },
       {
         title: '미지급 수당 증거 확보 방법',
@@ -522,7 +522,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
       {
         question: '재직 중에 미지급 수당을 청구하면 불이익을 받나요?',
         answer:
-          '<p>법적으로 임금 청구를 이유로 불이익을 주는 것은 위법합니다. 다만 관계가 걱정되면 퇴직 후 청구하거나 익명 신고를 활용할 수 있습니다.</p>',
+          '<p>법적으로 임금 청구를 이유로 불이익을 주는 것은 위법 소지가 있습니다. 다만 관계가 걱정되면 퇴직 후 청구하거나 익명 신고를 활용할 수 있습니다.</p>',
       },
       {
         question: '3년 전 야근수당도 소급 청구 가능한가요?',
@@ -592,7 +592,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
       {
         question: '사직서를 안 내면 마지막 급여를 안 줘도 되나요?',
         answer:
-          '<p>아닙니다. 사직서 제출과 임금 지급은 별개 문제입니다. 근로를 제공한 대가인 임금은 반드시 지급해야 합니다.</p>',
+          '<p>아닙니다. 사직서 제출과 임금 지급은 별개 문제입니다. 근로를 제공한 대가인 임금은 가능한 한 지급해야 합니다.</p>',
       },
       {
         question: '퇴직금과 급여를 동시에 미지급하면 둘 다 청구하나요?',

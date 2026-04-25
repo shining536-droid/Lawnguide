@@ -21,7 +21,7 @@ export const spokesBatch9Part2Pages: SpokePage[] = [
       {
         title: 'Q. 마약 초범도 실형을 받나요?',
         content:
-          '<p><strong style="color:#1e3a5f">A. 마약 종류와 양, 행위 유형에 따라 다르지만 초범이라면 집행유예 가능성이 있습니다</strong></p>\n<p><strong>마약류관리에관한법률 제60조</strong>는 마약류를 투약·소지·매매한 자를 처벌합니다. 향정신성의약품(필로폰 등) 투약은 10년 이하 징역, 대마초 흡연은 5년 이하 징역이 법정형입니다. 초범이라도 법정형 자체가 높기 때문에 무조건 가벼운 처벌을 받는 것은 아닙니다.</p>\n<p>다만 <strong>양형위원회 양형기준</strong>에 따르면, 초범 + 소량 투약 + 자발적 자수·치료 의지가 인정되는 경우 <strong>집행유예</strong>가 선고되는 비율이 높습니다. 반대로 매매·밀수입에 관여하거나 상습성이 인정되면 초범이라도 실형 가능성이 큽니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 초범 + 소량 투약 + 치료 의지 → 집행유예 가능 | 매매·상습 → 실형</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. 마약 종류와 양, 행위 유형에 따라 다르지만 초범이라면 집행유예 가능성이 있습니다</strong></p>\n<p><strong>마약류관리에관한법률 제60조</strong>는 마약류를 투약·소지·매매한 자를 처벌합니다. 향정신성의약품(필로폰 등) 투약은 10년 이하 징역, 대마초 흡연은 5년 이하 징역이 법정형입니다. 초범이라도 법정형 자체가 높기 때문에 원칙적으로 가벼운 처벌을 받는 것은 아닙니다.</p>\n<p>다만 <strong>양형위원회 양형기준</strong>에 따르면, 초범 + 소량 투약 + 자발적 자수·치료 의지가 인정되는 경우 <strong>집행유예</strong>가 선고되는 비율이 높습니다. 반대로 매매·밀수입에 관여하거나 상습성이 인정되면 초범이라도 실형 가능성이 큽니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 초범 + 소량 투약 + 치료 의지 → 집행유예 가능 | 매매·상습 → 실형</blockquote>',
       },
       {
         title: 'Q. 집행유예를 받으려면 어떤 조건을 갖춰야 하나요?',
@@ -57,7 +57,7 @@ export const spokesBatch9Part2Pages: SpokePage[] = [
     ],
     faq: [
       {
-        question: '마약 초범이면 무조건 집행유예를 받나요?',
+        question: '마약 초범이면 원칙적으로 집행유예를 받나요?',
         answer:
           '무조건은 아닙니다. <strong>마약 종류, 양, 행위 유형(투약·소지·매매)</strong>에 따라 달라지며, 매매에 관여하면 초범이라도 실형 가능성이 높습니다.',
       },

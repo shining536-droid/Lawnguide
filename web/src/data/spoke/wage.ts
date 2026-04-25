@@ -18,7 +18,7 @@ export const wagePages: SpokePage[] = [
       {
         title: '근로관계를 증명할 수 있는 서류를 먼저 모으세요',
         content:
-          '<p><strong style="color:#1e3a5f">근로계약서와 급여 관련 서류가 핵심입니다</strong></p>\n<p><strong>근로계약서</strong>가 가장 중요합니다. 없으면 채용 문자, 카카오톡 대화, 이메일 등 <strong>근로관계를 증명할 자료</strong>가 필요합니다. 급여명세서, 통장 입금 내역(급여 이체 기록)도 반드시 확보하세요.</p>\n<p>4대보험 가입 확인서도 근로관계 증명에 도움이 됩니다. 국민연금공단이나 건강보험공단에서 확인할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 서류: 근로계약서, 급여명세서, 통장 입금 내역, 4대보험 가입 확인서</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로계약서와 급여 관련 서류가 핵심입니다</strong></p>\n<p><strong>근로계약서</strong>가 가장 중요합니다. 없으면 채용 문자, 카카오톡 대화, 이메일 등 <strong>근로관계를 증명할 자료</strong>가 필요합니다. 급여명세서, 통장 입금 내역(급여 이체 기록)도 가능한 한 확보하세요.</p>\n<p>4대보험 가입 확인서도 근로관계 증명에 도움이 됩니다. 국민연금공단이나 건강보험공단에서 확인할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 서류: 근로계약서, 급여명세서, 통장 입금 내역, 4대보험 가입 확인서</blockquote>',
       },
       {
         title: '체불 금액을 구체적으로 정리하세요',
@@ -33,7 +33,7 @@ export const wagePages: SpokePage[] = [
       {
         title: '지급 불이행 시 형사처벌과 추가 구제 절차',
         content:
-          '<p><strong style="color:#1e3a5f">임금체불은 형사범죄입니다</strong></p>\n<p>근로기준법 제109조에 따라 임금체불은 <strong>3년 이하 징역 또는 3,000만원 이하 벌금</strong>에 해당합니다. 사업주가 지급 지시에도 불구하고 지급하지 않으면 형사처벌이 진행됩니다.</p>\n<p>사업주가 지급 능력이 없는 경우 <strong>체당금 제도</strong>(근로복지공단)를 통해 최대 1,000만원까지 국가가 대신 지급하는 것도 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 형사처벌(3년/3,000만원) | 체당금(최대 1,000만원) 제도 활용</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금체불은 형사범죄입니다</strong></p>\n<p>근로기준법 제109조에 따라 임금체불은 <strong>3년 이하 징역 또는 3,000만원 이하 벌금</strong>에 해당할 소지가 있습니다. 사업주가 지급 지시에도 불구하고 지급하지 않으면 형사처벌이 진행됩니다.</p>\n<p>사업주가 지급 능력이 없는 경우 <strong>체당금 제도</strong>(근로복지공단)를 통해 최대 1,000만원까지 국가가 대신 지급하는 것도 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 형사처벌(3년/3,000만원) | 체당금(최대 1,000만원) 제도 활용</blockquote>',
       },
     ],
     cases: [
@@ -49,7 +49,7 @@ export const wagePages: SpokePage[] = [
         summary:
           '관련 사례에서도 사업주가 폐업하여 지급 능력이 없었으나, 근로복지공단 체당금 제도를 통해 밀린 임금을 받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 사업주의 지급 능력이 없더라도 체당금 제도를 반드시 확인해보세요.',
+          '비슷한 상황이라면 사업주의 지급 능력이 없더라도 체당금 제도를 가능한 한 확인해보세요.',
       },
     ],
     faq: [
@@ -146,7 +146,7 @@ export const wagePages: SpokePage[] = [
         summary:
           '관련 사례에서도 퇴직 후 14일이 지나 밀린 급여에 대해 연 20% 지연이자까지 포함하여 지급받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 지연이자(연 20%)도 반드시 함께 청구하세요.',
+          '비슷한 상황이라면 지연이자(연 20%)도 가능한 한 함께 청구하세요.',
       },
     ],
     faq: [
@@ -222,7 +222,7 @@ export const wagePages: SpokePage[] = [
       {
         title: '고용노동부에 임금체불 진정을 접수하세요',
         content:
-          '<p><strong style="color:#1e3a5f">노동청 진정이 가장 효과적인 방법입니다</strong></p>\n<p>내용증명 후에도 지급하지 않으면 사업장 소재지 관할 <strong>고용노동청</strong>에 진정을 접수하세요. 방문, 우편, 온라인(<strong>고용노동부 민원마당</strong> minwon.moel.go.kr) 모두 가능합니다.</p>\n<p>진정 접수 후 <strong>근로감독관</strong>이 사업주를 출석시켜 조사합니다. 체불 사실이 확인되면 시정 지시가 나옵니다. 시정 지시에도 불이행하면 <strong>형사입건</strong>됩니다. 근로기준법 제109조에 따라 임금체불은 <strong>3년 이하 징역 또는 3,000만원 이하 벌금</strong>에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">접수: 고용노동청 방문/우편/온라인 → 근로감독관 조사 → 시정 지시 → 불이행 시 형사입건</blockquote>',
+          '<p><strong style="color:#1e3a5f">노동청 진정이 가장 효과적인 방법입니다</strong></p>\n<p>내용증명 후에도 지급하지 않으면 사업장 소재지 관할 <strong>고용노동청</strong>에 진정을 접수하세요. 방문, 우편, 온라인(<strong>고용노동부 민원마당</strong> minwon.moel.go.kr) 모두 가능합니다.</p>\n<p>진정 접수 후 <strong>근로감독관</strong>이 사업주를 출석시켜 조사합니다. 체불 사실이 확인되면 시정 지시가 나옵니다. 시정 지시에도 불이행하면 <strong>형사입건</strong>됩니다. 근로기준법 제109조에 따라 임금체불은 <strong>3년 이하 징역 또는 3,000만원 이하 벌금</strong>에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">접수: 고용노동청 방문/우편/온라인 → 근로감독관 조사 → 시정 지시 → 불이행 시 형사입건</blockquote>',
       },
       {
         title: '사업주가 못 준다면 체당금 제도와 소송을 검토하세요',
@@ -236,14 +236,14 @@ export const wagePages: SpokePage[] = [
         summary:
           '관련 사례에서도 퇴사 후 4개월간 급여를 받지 못한 근로자가 고용노동청에 진정하여, 근로감독관의 시정 지시 후 사업주가 밀린 급여 전액과 연 20% 지연이자까지 지급한 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 지연이자(연 20%)도 반드시 함께 청구하고, 노동청 진정을 주저하지 마세요.',
+          '비슷한 상황이라면 지연이자(연 20%)도 가능한 한 함께 청구하고, 노동청 진정을 주저하지 마세요.',
       },
       {
         title: '폐업한 회사의 밀린 급여를 체당금으로 받은 사례',
         summary:
           '관련 사례에서도 사업주가 폐업하여 지급 능력이 없었으나, 근로복지공단 체당금 제도를 통해 퇴직 전 3개월분 임금과 퇴직금을 지급받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 사업주의 지급 능력이 없더라도 체당금 제도(근로복지공단 1588-0075)를 반드시 확인하세요.',
+          '비슷한 상황이라면 사업주의 지급 능력이 없더라도 체당금 제도(근로복지공단 1588-0075)를 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -265,7 +265,7 @@ export const wagePages: SpokePage[] = [
       },
       {
         question: '사장이 "네가 손해를 끼쳤으니 공제하겠다"고 하면?',
-        answer: '손해배상과 임금은 <strong>별개</strong>입니다. 임금에서 일방적으로 공제하는 것은 위법합니다.',
+        answer: '손해배상과 임금은 <strong>별개</strong>입니다. 임금에서 일방적으로 공제하는 것은 위법 소지가 있습니다.',
       },
       {
         question: '체당금 신청은 어떻게 하나요?',
@@ -314,7 +314,7 @@ export const wagePages: SpokePage[] = [
       {
         title: '수습 기간이라도 최저임금의 90% 이상 지급해야 합니다',
         content:
-          '<p><strong style="color:#1e3a5f">수습 감액은 제한적으로만 허용됩니다</strong></p>\n<p>1년 이상의 근로계약을 체결한 경우, 수습 기간(최초 <strong>3개월</strong>) 중에는 최저임금의 <strong>90%</strong>까지 감액이 가능합니다(최저임금법 제5조 제2항). 다만 단순노무업무(청소, 경비, 가사 등)는 수습 감액이 <strong>적용되지 않습니다</strong>.</p>\n<p>1년 미만의 근로계약이나, 수습 3개월이 지난 후에는 <strong>100% 최저임금</strong>을 지급해야 합니다. "수습이니까"라는 이유로 최저임금의 90% 미만을 지급하는 것은 위법입니다. 급여명세서와 근로계약서의 <strong>계약 기간</strong>을 반드시 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">수습 감액: 1년 이상 계약 + 최초 3개월만 + 90%까지만 | 단순노무는 감액 불가</blockquote>',
+          '<p><strong style="color:#1e3a5f">수습 감액은 제한적으로만 허용됩니다</strong></p>\n<p>1년 이상의 근로계약을 체결한 경우, 수습 기간(최초 <strong>3개월</strong>) 중에는 최저임금의 <strong>90%</strong>까지 감액이 가능합니다(최저임금법 제5조 제2항). 다만 단순노무업무(청소, 경비, 가사 등)는 수습 감액이 <strong>적용되지 않습니다</strong>.</p>\n<p>1년 미만의 근로계약이나, 수습 3개월이 지난 후에는 <strong>100% 최저임금</strong>을 지급해야 합니다. "수습이니까"라는 이유로 최저임금의 90% 미만을 지급하는 것은 위법입니다. 급여명세서와 근로계약서의 <strong>계약 기간</strong>을 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">수습 감액: 1년 이상 계약 + 최초 3개월만 + 90%까지만 | 단순노무는 감액 불가</blockquote>',
       },
       {
         title: '고용노동부에 최저임금 위반으로 신고하세요',
@@ -514,12 +514,12 @@ export const wagePages: SpokePage[] = [
       {
         title: '실수 1·2: 체불 사실 부인과 근로감독관 조사 무시',
         content:
-          '<p><strong style="color:#1e3a5f">체불 사실을 무작정 부인하거나 근로감독관 출석을 무시하면 상황이 악화됩니다</strong></p>\n<p>첫 번째 실수는 <strong>"월급을 준 적 있다"며 체불 사실 자체를 부인</strong>하는 것입니다. 근로감독관은 계좌 이체 내역, 급여대장 등 객관적 자료로 확인하므로 거짓 진술은 신뢰를 잃게 만듭니다. 일부만 지급했다면 그 금액을 인정하고 나머지 체불분에 대해 성실히 소명하세요.</p>\n<p>두 번째 실수는 <strong>근로감독관의 출석 요구를 무시</strong>하는 것입니다. 출석에 응하지 않으면 <strong>과태료 부과</strong>는 물론, 사업주에게 불리한 판단이 내려질 수 있습니다. 지정된 날짜에 출석이 어려우면 반드시 <strong>사전에 일정 변경을 요청</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 체불 부인 → 신뢰 상실 | 출석 무시 → 과태료 + 불리한 판단 | 성실한 소명이 핵심</blockquote>',
+          '<p><strong style="color:#1e3a5f">체불 사실을 무작정 부인하거나 근로감독관 출석을 무시하면 상황이 악화됩니다</strong></p>\n<p>첫 번째 실수는 <strong>"월급을 준 적 있다"며 체불 사실 자체를 부인</strong>하는 것입니다. 근로감독관은 계좌 이체 내역, 급여대장 등 객관적 자료로 확인하므로 거짓 진술은 신뢰를 잃게 만듭니다. 일부만 지급했다면 그 금액을 인정하고 나머지 체불분에 대해 성실히 소명하세요.</p>\n<p>두 번째 실수는 <strong>근로감독관의 출석 요구를 무시</strong>하는 것입니다. 출석에 응하지 않으면 <strong>과태료 부과</strong>는 물론, 사업주에게 불리한 판단이 내려질 수 있습니다. 지정된 날짜에 출석이 어려우면 가능한 한 <strong>사전에 일정 변경을 요청</strong>하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 체불 부인 → 신뢰 상실 | 출석 무시 → 과태료 + 불리한 판단 | 성실한 소명이 핵심</blockquote>',
       },
       {
         title: '실수 3·4: 합의서 부실 작성과 지연이자 미지급',
         content:
-          '<p><strong style="color:#1e3a5f">합의서 한 줄이 잘못되면 분쟁이 재발하고, 지연이자를 빠뜨리면 추가 청구를 받습니다</strong></p>\n<p>세 번째 실수는 <strong>합의서를 대충 작성</strong>하는 것입니다. 합의서에는 ①<strong>체불 금액의 구체적 내역</strong>(기본급·수당·퇴직금 구분), ②<strong>지급 일정</strong>, ③<strong>"이 외 추가 청구를 하지 않는다"는 부제소 합의 문구</strong>가 반드시 포함되어야 합니다. 구두 합의만으로는 나중에 분쟁이 재발할 수 있습니다.</p>\n<p>네 번째 실수는 <strong>지연이자를 지급하지 않는 것</strong>입니다. 근로기준법 제37조에 따라 퇴직일로부터 14일 이내에 임금을 지급하지 않으면 <strong>연 20%의 지연이자</strong>가 발생합니다. 원금만 지급하면 근로자가 지연이자를 별도로 청구할 수 있으므로, 합의 시 지연이자까지 포함하여 정산하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">임금체불로 혐의를 받고 있다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/wage" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수: 체불 내역 · 지급 일정 · 부제소 합의 | 지연이자: 연 20%(근로기준법 제37조)</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의서 한 줄이 잘못되면 분쟁이 재발하고, 지연이자를 빠뜨리면 추가 청구를 받습니다</strong></p>\n<p>세 번째 실수는 <strong>합의서를 대충 작성</strong>하는 것입니다. 합의서에는 ①<strong>체불 금액의 구체적 내역</strong>(기본급·수당·퇴직금 구분), ②<strong>지급 일정</strong>, ③<strong>"이 외 추가 청구를 하지 않는다"는 부제소 합의 문구</strong>가 가능한 한 포함되어야 합니다. 구두 합의만으로는 나중에 분쟁이 재발할 수 있습니다.</p>\n<p>네 번째 실수는 <strong>지연이자를 지급하지 않는 것</strong>입니다. 근로기준법 제37조에 따라 퇴직일로부터 14일 이내에 임금을 지급하지 않으면 <strong>연 20%의 지연이자</strong>가 발생합니다. 원금만 지급하면 근로자가 지연이자를 별도로 청구할 수 있으므로, 합의 시 지연이자까지 포함하여 정산하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">임금체불로 혐의를 받고 있다면, 지금 상황에 맞는 대응 방법을 <a href="/diagnosis/wage" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">합의서 필수: 체불 내역 · 지급 일정 · 부제소 합의 | 지연이자: 연 20%(근로기준법 제37조)</blockquote>',
       },
       {
         title: '실수 5: 신고한 직원에 대한 보복 조치',
@@ -613,12 +613,12 @@ export const wagePages: SpokePage[] = [
       {
         title: '연장근로 가산수당 50% — 법이 보장하는 권리입니다',
         content:
-          '<p><strong style="color:#1e3a5f">근로기준법 제56조에 따라 연장근로에는 통상임금의 50%를 가산하여 지급해야 합니다</strong></p>\n<p><strong>근로기준법 제56조 제1항</strong>은 연장근로(1주 40시간, 1일 8시간 초과 근로)에 대해 <strong>통상임금의 50% 이상</strong>을 가산하여 지급하도록 규정합니다. 야간근로(오후 10시~오전 6시)는 별도로 50%가 추가 가산됩니다.</p>\n<p>예를 들어 통상시급이 15,000원인 근로자가 하루 2시간 연장근로를 하면 <strong>15,000 × 1.5 × 2 = 45,000원</strong>을 받아야 합니다. 야간까지 포함되면 <strong>15,000 × 2.0 × 해당 시간</strong>으로 계산됩니다. 이 수당을 지급하지 않는 것은 임금체불에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 연장근로 50% 가산 + 야간근로 50% 추가 가산 | 미지급 시 임금체불</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로기준법 제56조에 따라 연장근로에는 통상임금의 50%를 가산하여 지급해야 합니다</strong></p>\n<p><strong>근로기준법 제56조 제1항</strong>은 연장근로(1주 40시간, 1일 8시간 초과 근로)에 대해 <strong>통상임금의 50% 이상</strong>을 가산하여 지급하도록 규정합니다. 야간근로(오후 10시~오전 6시)는 별도로 50%가 추가 가산됩니다.</p>\n<p>예를 들어 통상시급이 15,000원인 근로자가 하루 2시간 연장근로를 하면 <strong>15,000 × 1.5 × 2 = 45,000원</strong>을 받아야 합니다. 야간까지 포함되면 <strong>15,000 × 2.0 × 해당 시간</strong>으로 계산됩니다. 이 수당을 지급하지 않는 것은 임금체불에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 연장근로 50% 가산 + 야간근로 50% 추가 가산 | 미지급 시 임금체불</blockquote>',
       },
       {
         title: '포괄임금제라도 실제 근로시간이 초과하면 차액을 받을 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">포괄임금제는 실제 연장근로시간이 약정 시간을 넘으면 무효입니다</strong></p>\n<p><strong>포괄임금제</strong>란 기본급에 연장·야간·휴일수당을 포함하여 일정 금액을 지급하는 방식입니다. 그러나 대법원은 포괄임금 약정이 근로자에게 불이익하거나, <strong>실제 연장근로시간이 약정 시간을 초과</strong>하면 그 차액을 별도로 지급해야 한다고 판시하고 있습니다.</p>\n<p>예를 들어 포괄임금에 월 20시간 연장근로 수당이 포함되어 있는데 실제로 월 40시간 야근했다면, <strong>초과 20시간분의 가산수당</strong>을 청구할 수 있습니다. 근로계약서에 포괄임금 약정 내용이 명시되어 있는지, 약정 시간이 몇 시간인지를 반드시 확인하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">야근 수당을 제대로 받고 있는지 확신이 없다면, 지금 상황에 맞는 청구 가능 금액을 <a href="/diagnosis/wage" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">포괄임금제: 실제 근로시간 > 약정 시간 → 차액 청구 가능 | 근로계약서 약정 확인 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">포괄임금제는 실제 연장근로시간이 약정 시간을 넘으면 무효입니다</strong></p>\n<p><strong>포괄임금제</strong>란 기본급에 연장·야간·휴일수당을 포함하여 일정 금액을 지급하는 방식입니다. 그러나 대법원은 포괄임금 약정이 근로자에게 불이익하거나, <strong>실제 연장근로시간이 약정 시간을 초과</strong>하면 그 차액을 별도로 지급해야 한다고 판시하고 있습니다.</p>\n<p>예를 들어 포괄임금에 월 20시간 연장근로 수당이 포함되어 있는데 실제로 월 40시간 야근했다면, <strong>초과 20시간분의 가산수당</strong>을 청구할 수 있습니다. 근로계약서에 포괄임금 약정 내용이 명시되어 있는지, 약정 시간이 몇 시간인지를 가능한 한 확인하세요.</p>\n<p style="margin-top:12px;padding:12px 16px;background:#eef6ff;border-radius:8px;font-size:0.95em">야근 수당을 제대로 받고 있는지 확신이 없다면, 지금 상황에 맞는 청구 가능 금액을 <a href="/diagnosis/wage" style="color:#2563eb;font-weight:600">무료 진단</a>으로 확인해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">포괄임금제: 실제 근로시간 > 약정 시간 → 차액 청구 가능 | 근로계약서 약정 확인 필수</blockquote>',
       },
       {
         title: '출퇴근 기록과 메신저 대화 — 증거 확보가 승패를 가릅니다',
@@ -637,7 +637,7 @@ export const wagePages: SpokePage[] = [
         summary:
           '관련 사례에서도 포괄임금제로 월 20시간 연장근로 수당이 포함된 계약이었으나, 실제 월 50시간 이상 야근한 것이 출퇴근 기록과 이메일로 입증되어 초과분 30시간의 가산수당을 전액 지급받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 포괄임금제라 하더라도 실제 근로시간이 약정을 초과하면 차액을 청구할 수 있으므로, 출퇴근 기록을 반드시 확보하세요.',
+          '비슷한 상황이라면 포괄임금제라 하더라도 실제 근로시간이 약정을 초과하면 차액을 청구할 수 있으므로, 출퇴근 기록을 가능한 한 확보하세요.',
       },
       {
         title: '카카오톡 업무 지시 내역으로 야근 수당을 받은 사례',

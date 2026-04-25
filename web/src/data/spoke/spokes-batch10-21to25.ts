@@ -26,17 +26,17 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         title: '실수 2 — 보험사의 첫 제안 금액을 그대로 수락하는 것',
         content:
-          '<p><strong style="color:#1e3a5f">보험사의 초기 합의금은 적정 보상액의 50~70% 수준인 경우가 많습니다</strong></p>\n<p>보험사는 손해사정 전문가가 산출한 금액이 아닌, <strong>내부 기준표에 따른 최소 금액</strong>을 먼저 제시합니다. 위자료, 휴업손해, 향후치료비, 개호비 등 법적으로 인정되는 항목을 누락하거나 축소하는 경우가 빈번합니다.</p>\n<p>자동차손해배상보장법 제3조에 따라 피해자는 <strong>실손해액 전부를 배상받을 권리</strong>가 있습니다. 합의 전에 반드시 손해사정사나 변호사를 통해 적정 보상 금액을 산출받으세요. 실제로 초기 제안 대비 <strong>2~3배 이상 올라간 사례</strong>도 드물지 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보험사 첫 제안을 기준으로 삼지 말고, 별도 손해사정을 받은 뒤 협상하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">보험사의 초기 합의금은 적정 보상액의 50~70% 수준인 경우가 많습니다</strong></p>\n<p>보험사는 손해사정 전문가가 산출한 금액이 아닌, <strong>내부 기준표에 따른 최소 금액</strong>을 먼저 제시합니다. 위자료, 휴업손해, 향후치료비, 개호비 등 법적으로 인정되는 항목을 누락하거나 축소하는 경우가 빈번합니다.</p>\n<p>자동차손해배상보장법 제3조에 따라 피해자는 <strong>실손해액 전부를 배상받을 권리</strong>가 있습니다. 합의 전에 가능한 한 손해사정사나 변호사를 통해 적정 보상 금액을 산출받으세요. 실제로 초기 제안 대비 <strong>2~3배 이상 올라간 사례</strong>도 드물지 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 보험사 첫 제안을 기준으로 삼지 말고, 별도 손해사정을 받은 뒤 협상하세요</blockquote>',
       },
       {
         title: '실수 3 — 후유장해 등급 판정을 받지 않는 것',
         content:
-          '<p><strong style="color:#1e3a5f">후유장해 등급 하나로 보상금이 수천만 원 차이가 납니다</strong></p>\n<p>교통사고로 인한 후유장해는 맥브라이드 장해평가표 또는 AMA 기준에 따라 <strong>1~14급</strong>으로 분류됩니다. 보험사는 후유장해 등급 판정 절차를 적극적으로 안내하지 않는 경우가 있어, 피해자가 직접 요청하지 않으면 등급 없이 합의가 진행됩니다.</p>\n<p>예를 들어 경추 디스크 후유장해 <strong>12급을 받으면 약 1,500만~2,500만 원</strong>의 추가 보상이 발생하지만, 등급 판정을 받지 않으면 이 금액이 전혀 반영되지 않습니다. 치료 종결 후 <strong>정형외과·신경외과 전문의의 후유장해 진단서</strong>를 반드시 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 치료 종결 후 후유장해 등급 판정 → 등급별 노동능력상실률 반영 → 보상금 산정</blockquote>',
+          '<p><strong style="color:#1e3a5f">후유장해 등급 하나로 보상금이 수천만 원 차이가 납니다</strong></p>\n<p>교통사고로 인한 후유장해는 맥브라이드 장해평가표 또는 AMA 기준에 따라 <strong>1~14급</strong>으로 분류됩니다. 보험사는 후유장해 등급 판정 절차를 적극적으로 안내하지 않는 경우가 있어, 피해자가 직접 요청하지 않으면 등급 없이 합의가 진행됩니다.</p>\n<p>예를 들어 경추 디스크 후유장해 <strong>12급을 받으면 약 1,500만~2,500만 원</strong>의 추가 보상이 발생하지만, 등급 판정을 받지 않으면 이 금액이 전혀 반영되지 않습니다. 치료 종결 후 <strong>정형외과·신경외과 전문의의 후유장해 진단서</strong>를 가능한 한 받아두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 치료 종결 후 후유장해 등급 판정 → 등급별 노동능력상실률 반영 → 보상금 산정</blockquote>',
       },
       {
         title: '실수 4 — 합의서 내용을 꼼꼼히 확인하지 않는 것',
         content:
-          '<p><strong style="color:#1e3a5f">"일체의 민·형사상 이의를 제기하지 않는다"는 문구가 있으면 추가 청구가 차단됩니다</strong></p>\n<p>합의서에 포함된 <strong>부제소 합의 조항</strong>은 향후 후유증이 발견되더라도 추가 손해배상을 청구할 수 없게 만듭니다. 대법원(2005다5812)은 "합의 당시 예상할 수 없었던 손해"에 한해 추가 청구를 인정했지만, 입증 부담이 피해자에게 있어 현실적으로 어렵습니다.</p>\n<p>합의서에 서명하기 전에 반드시 <strong>"본 합의는 현재까지 확인된 손해에 한하며, 향후 새로운 후유증이 발견될 경우 별도 협의한다"</strong>는 단서 조항을 넣어달라고 요청하세요. 보험사가 거부하면 이는 곧 후유증 가능성을 인지하고 있다는 의미이므로 합의를 서두르지 마세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 부제소 합의 조항 삭제 또는 후유증 단서 조항 추가를 반드시 요청하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">"일체의 민·형사상 이의를 제기하지 않는다"는 문구가 있으면 추가 청구가 차단됩니다</strong></p>\n<p>합의서에 포함된 <strong>부제소 합의 조항</strong>은 향후 후유증이 발견되더라도 추가 손해배상을 청구할 수 없게 만듭니다. 대법원(2005다5812)은 "합의 당시 예상할 수 없었던 손해"에 한해 추가 청구를 인정했지만, 입증 부담이 피해자에게 있어 현실적으로 어렵습니다.</p>\n<p>합의서에 서명하기 전에 가능한 한 <strong>"본 합의는 현재까지 확인된 손해에 한하며, 향후 새로운 후유증이 발견될 경우 별도 협의한다"</strong>는 단서 조항을 넣어달라고 요청하세요. 보험사가 거부하면 이는 곧 후유증 가능성을 인지하고 있다는 의미이므로 합의를 서두르지 마세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 부제소 합의 조항 삭제 또는 후유증 단서 조항 추가를 가능한 한 요청하세요</blockquote>',
       },
     ],
     cases: [
@@ -52,7 +52,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
         summary:
           '관련 사례에서 보험사가 제시한 합의금 1,200만 원에 대해 피해자가 독립 손해사정사에게 의뢰한 결과 적정 보상액이 3,100만 원으로 산출되었습니다. 이후 협상을 통해 최종 2,800만 원에 합의가 이루어졌습니다.',
         takeaway:
-          '비슷한 상황이라면 보험사 제안을 수락하기 전에 반드시 독립 손해사정 또는 변호사 상담을 받으세요.',
+          '비슷한 상황이라면 보험사 제안을 수락하기 전에 가능한 한 독립 손해사정 또는 변호사 상담을 받으세요.',
       },
     ],
     faq: [
@@ -89,7 +89,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         question: '합의서에 꼭 넣어야 할 조항은 무엇인가요?',
         answer:
-          '<strong>합의 범위(현재 확인된 손해 한정), 후유증 발생 시 재협의 조항, 치료비 정산 내역</strong>을 반드시 포함시키세요. "일체의 이의를 제기하지 않는다"는 포괄적 면책 조항은 삭제를 요청하세요.',
+          '<strong>합의 범위(현재 확인된 손해 한정), 후유증 발생 시 재협의 조항, 치료비 정산 내역</strong>을 가능한 한 포함시키세요. "일체의 이의를 제기하지 않는다"는 포괄적 면책 조항은 삭제를 요청하세요.',
       },
       {
         question: '소송과 합의 중 어느 쪽이 유리한가요?',
@@ -144,7 +144,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         title: '한정승인 시 반드시 피해야 할 실수 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">재산 처분, 재산목록 누락, 공고 절차 미이행은 한정승인을 무효로 만들 수 있습니다</strong></p>\n<p><strong>실수 1: 상속재산 처분.</strong> 한정승인 전후에 피상속인의 예금을 인출하거나 부동산을 매각하면 민법 제1026조에 따라 <strong>단순승인으로 간주</strong>됩니다. 장례비 사용은 사회통념상 상당한 범위에서 허용되지만(대법원 2016다224998), 범위를 넘으면 위험합니다.</p>\n<p><strong>실수 2: 재산목록 고의 누락.</strong> 한정승인 후 상속재산을 은닉하거나 고의로 재산목록에서 빠뜨리면 단순승인으로 간주됩니다. 안심상속원스톱서비스를 활용하여 빠짐없이 조회하세요.</p>\n<p><strong>실수 3: 채권자 공고 미이행.</strong> 채권자 공고를 하지 않으면 배당 변제 절차가 적법하지 않게 되어, 채권자가 직접 소송을 제기할 수 있습니다. 공고는 반드시 기한 내에 진행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">금지: 재산 처분 → 단순승인 | 재산목록 누락 → 단순승인 | 공고 미이행 → 채권자 소송</blockquote>',
+          '<p><strong style="color:#1e3a5f">재산 처분, 재산목록 누락, 공고 절차 미이행은 한정승인을 무효로 만들 수 있습니다</strong></p>\n<p><strong>실수 1: 상속재산 처분.</strong> 한정승인 전후에 피상속인의 예금을 인출하거나 부동산을 매각하면 민법 제1026조에 따라 <strong>단순승인으로 간주</strong>됩니다. 장례비 사용은 사회통념상 상당한 범위에서 허용되지만(대법원 2016다224998), 범위를 넘으면 위험합니다.</p>\n<p><strong>실수 2: 재산목록 고의 누락.</strong> 한정승인 후 상속재산을 은닉하거나 고의로 재산목록에서 빠뜨리면 단순승인으로 간주됩니다. 안심상속원스톱서비스를 활용하여 빠짐없이 조회하세요.</p>\n<p><strong>실수 3: 채권자 공고 미이행.</strong> 채권자 공고를 하지 않으면 배당 변제 절차가 적법하지 않게 되어, 채권자가 직접 소송을 제기할 수 있습니다. 공고는 가능한 한 기한 내에 진행하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">금지: 재산 처분 → 단순승인 | 재산목록 누락 → 단순승인 | 공고 미이행 → 채권자 소송</blockquote>',
       },
     ],
     comparison: {
@@ -189,7 +189,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         question: '채권자 공고를 안 하면 어떻게 되나요?',
         answer:
-          '공고를 하지 않으면 한정승인 자체가 무효가 되지는 않지만, <strong>채권자가 직접 소송을 제기</strong>할 수 있어 배당 절차가 복잡해집니다. 반드시 기한 내에 공고하세요.',
+          '공고를 하지 않으면 한정승인 자체가 무효가 되지는 않지만, <strong>채권자가 직접 소송을 제기</strong>할 수 있어 배당 절차가 복잡해집니다. 가능한 한 기한 내에 공고하세요.',
       },
       {
         question: '특별한정승인은 3개월 기한이 지나도 가능한가요?',
@@ -239,7 +239,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         title: '단계 1 — 증거부터 확보하세요, 기억이 생생할 때',
         content:
-          '<p><strong style="color:#1e3a5f">성희롱 발생 직후 일시, 장소, 행위 내용, 목격자를 기록하는 것이 가장 중요합니다</strong></p>\n<p>성희롱 사건은 시간이 지나면 기억이 흐려지고, 가해자가 부인하면 "말 대 말"이 됩니다. 사건 발생 즉시 <strong>날짜, 시간, 장소, 구체적 행위, 당시 주변에 있던 사람</strong>을 메모로 기록하세요. 스마트폰 메모장에 작성하면 자동으로 타임스탬프가 남아 증거력이 높아집니다.</p>\n<p>가해자와의 문자, 카카오톡, 이메일 등 <strong>성적 발언이 담긴 메시지</strong>가 있으면 반드시 캡처해두세요. 회식 후 택시 영수증, CCTV가 있는 장소의 영상 보존 요청도 유효합니다. 남녀고용평등법 제14조에 따라 <strong>사업주는 성희롱 신고를 받으면 즉시 조사할 의무</strong>가 있으므로, 증거가 충분할수록 조사가 유리하게 진행됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 기록(일시·장소·내용·목격자) + 메시지 캡처 + CCTV 보존 요청 = 초기 증거 3종</blockquote>',
+          '<p><strong style="color:#1e3a5f">성희롱 발생 직후 일시, 장소, 행위 내용, 목격자를 기록하는 것이 가장 중요합니다</strong></p>\n<p>성희롱 사건은 시간이 지나면 기억이 흐려지고, 가해자가 부인하면 "말 대 말"이 됩니다. 사건 발생 즉시 <strong>날짜, 시간, 장소, 구체적 행위, 당시 주변에 있던 사람</strong>을 메모로 기록하세요. 스마트폰 메모장에 작성하면 자동으로 타임스탬프가 남아 증거력이 높아집니다.</p>\n<p>가해자와의 문자, 카카오톡, 이메일 등 <strong>성적 발언이 담긴 메시지</strong>가 있으면 가능한 한 캡처해두세요. 회식 후 택시 영수증, CCTV가 있는 장소의 영상 보존 요청도 유효합니다. 남녀고용평등법 제14조에 따라 <strong>사업주는 성희롱 신고를 받으면 즉시 조사할 의무</strong>가 있으므로, 증거가 충분할수록 조사가 유리하게 진행됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 기록(일시·장소·내용·목격자) + 메시지 캡처 + CCTV 보존 요청 = 초기 증거 3종</blockquote>',
       },
       {
         title: '단계 2 — 사내 신고 절차를 활용하세요',
@@ -254,7 +254,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         title: '단계 4 — 법적 대응을 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형사 고소, 민사 손해배상, 근로기준법상 구제를 병행할 수 있습니다</strong></p>\n<p>성희롱이 강제추행(형법 제298조) 수준이면 <strong>형사 고소</strong>가 가능합니다. 강제추행은 10년 이하 징역 또는 1,500만 원 이하 벌금에 해당합니다. 물리적 접촉 없이 성적 발언만 있었더라도 <strong>남녀고용평등법 위반</strong>으로 사업주 처벌을 요청할 수 있습니다.</p>\n<p>민사소송으로 <strong>위자료(정신적 손해배상)</strong>를 청구할 수 있으며, 판례상 직장 내 성희롱 위자료는 <strong>300만~3,000만 원</strong> 수준입니다. 성희롱으로 퇴직하게 된 경우 <strong>일실소득(소득 손실)</strong>까지 청구할 수 있습니다. 법률구조공단(132)을 통한 무료 법률 지원도 활용해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형사 고소(강제추행) + 민사 위자료(300~3,000만 원) + 사업주 처벌 요청 병행 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사 고소, 민사 손해배상, 근로기준법상 구제를 병행할 수 있습니다</strong></p>\n<p>성희롱이 강제추행(형법 제298조) 수준이면 <strong>형사 고소</strong>가 가능합니다. 강제추행은 10년 이하 징역 또는 1,500만 원 이하 벌금에 해당할 소지가 있습니다. 물리적 접촉 없이 성적 발언만 있었더라도 <strong>남녀고용평등법 위반</strong>으로 사업주 처벌을 요청할 수 있습니다.</p>\n<p>민사소송으로 <strong>위자료(정신적 손해배상)</strong>를 청구할 수 있으며, 판례상 직장 내 성희롱 위자료는 <strong>300만~3,000만 원</strong> 수준입니다. 성희롱으로 퇴직하게 된 경우 <strong>일실소득(소득 손실)</strong>까지 청구할 수 있습니다. 법률구조공단(132)을 통한 무료 법률 지원도 활용해보세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형사 고소(강제추행) + 민사 위자료(300~3,000만 원) + 사업주 처벌 요청 병행 가능</blockquote>',
       },
     ],
     cases: [
@@ -270,7 +270,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
         summary:
           '관련 사례에서 가해자가 회식 자리에서의 신체 접촉을 부인했으나, 피해자가 보관한 가해자의 사과 문자메시지와 동석자 진술로 강제추행이 인정되어 징역 6개월 집행유예 2년이 선고되었습니다.',
         takeaway:
-          '비슷한 상황이라면 가해자가 사과하거나 인정하는 메시지를 반드시 캡처해두세요.',
+          '비슷한 상황이라면 가해자가 사과하거나 인정하는 메시지를 가능한 한 캡처해두세요.',
       },
     ],
     faq: [
@@ -282,7 +282,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         question: '말로만 한 성희롱도 신고할 수 있나요?',
         answer:
-          '신체 접촉 없이 <strong>성적 농담, 음란한 발언, 외모에 대한 성적 평가</strong> 등 언어적 성희롱도 남녀고용평등법상 성희롱에 해당합니다. 증거(녹음, 메시지 등)가 있으면 신고와 법적 대응이 가능합니다.',
+          '신체 접촉 없이 <strong>성적 농담, 음란한 발언, 외모에 대한 성적 평가</strong> 등 언어적 성희롱도 남녀고용평등법상 성희롱에 해당할 소지가 있습니다. 증거(녹음, 메시지 등)가 있으면 신고와 법적 대응이 가능합니다.',
       },
       {
         question: '신고하면 회사에서 불이익을 받지 않을까요?',
@@ -292,7 +292,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         question: '증거가 없으면 신고해도 소용없나요?',
         answer:
-          '직접 증거가 없더라도 <strong>피해 직후 주변에 알린 사실, 심리상담 기록, 진료 기록</strong> 등 정황 증거가 인정됩니다. 국가인권위원회는 증거 부담을 피해자에게만 지우지 않고, 가해자에게도 소명 의무를 부과합니다.',
+          '직접 증거가 없더라도 <strong>피해 직후 주변에 알린 사실, 심리상담 기록, 진료 기록</strong> 등 정황 증거가 인정될 수 있습니다. 국가인권위원회는 증거 부담을 피해자에게만 지우지 않고, 가해자에게도 소명 의무를 부과합니다.',
       },
       {
         question: '퇴사 후에도 성희롱 신고가 가능한가요?',
@@ -347,7 +347,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         title: '자수 감형의 법적 근거 — 형법 제52조와 마약류관리법',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제52조에 따라 자수하면 법률상 감경 사유로 형의 1/2까지 감경될 수 있습니다</strong></p>\n<p><strong>형법 제52조 제1항</strong>은 "죄를 범한 후 수사기관에 발각되기 전에 자수한 때에는 그 형을 감경할 수 있다"고 규정합니다. 이는 임의적 감경이므로 반드시 감경되는 것은 아니지만, 실무상 자수는 매우 유력한 감형 사유로 작용합니다.</p>\n<p>마약류관리법 제40조의2는 <strong>마약류 사범이 수사기관에 자진 신고한 경우 형을 감경할 수 있다</strong>고 별도로 규정하고 있습니다. 자수와 자진 신고가 중첩되면 감경 폭이 더 커질 수 있습니다. 대법원 양형기준에 따르면 자수는 <strong>"특별감경인자"</strong>로 분류되어 양형 범위 자체를 낮추는 효과가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">근거: 형법 제52조(임의적 감경) + 마약류관리법 제40조의2(자진 신고 감경) = 이중 감경 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제52조에 따라 자수하면 법률상 감경 사유로 형의 1/2까지 감경될 수 있습니다</strong></p>\n<p><strong>형법 제52조 제1항</strong>은 "죄를 범한 후 수사기관에 발각되기 전에 자수한 때에는 그 형을 감경할 수 있다"고 규정합니다. 이는 임의적 감경이므로 가능한 한 감경되는 것은 아니지만, 실무상 자수는 매우 유력한 감형 사유로 작용합니다.</p>\n<p>마약류관리법 제40조의2는 <strong>마약류 사범이 수사기관에 자진 신고한 경우 형을 감경할 수 있다</strong>고 별도로 규정하고 있습니다. 자수와 자진 신고가 중첩되면 감경 폭이 더 커질 수 있습니다. 대법원 양형기준에 따르면 자수는 <strong>"특별감경인자"</strong>로 분류되어 양형 범위 자체를 낮추는 효과가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">근거: 형법 제52조(임의적 감경) + 마약류관리법 제40조의2(자진 신고 감경) = 이중 감경 가능</blockquote>',
       },
       {
         title: '감형 폭 — 마약 종류·초범 여부에 따른 실제 수치',
@@ -357,7 +357,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         title: '자수의 시기와 방법 — 타이밍이 감형을 결정합니다',
         content:
-          '<p><strong style="color:#1e3a5f">수사기관에 발각되기 "전"에 자수해야 형법상 자수로 인정됩니다</strong></p>\n<p>자수가 인정되려면 <strong>수사기관이 범인으로 특정하기 전에 스스로 출석</strong>해야 합니다. 이미 내사가 시작되었거나 공범이 진술하여 수사 대상자로 올라간 뒤 출석하면 "자수"가 아닌 <strong>"자백"</strong>에 해당하여 감경 폭이 줄어듭니다. 자백도 양형에 긍정적이지만 자수에 비해 효과가 작습니다.</p>\n<p>자수 방법은 <strong>관할 경찰서 또는 검찰청에 직접 출석</strong>하여 진술하는 것이 원칙입니다. 출석 전에 변호사와 상담하여 진술 범위를 정하는 것이 중요합니다. 자수 시 <strong>마약류 잔량을 함께 제출</strong>하면 증거인멸 의지가 없음을 보여줘 추가 감경 요소가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 발각 전 자수 &gt; 발각 후 자백 | 변호사 상담 후 출석 | 잔량 제출로 성의 표시</blockquote>',
+          '<p><strong style="color:#1e3a5f">수사기관에 발각되기 "전"에 자수해야 형법상 자수로 인정될 수 있습니다</strong></p>\n<p>자수가 인정되려면 <strong>수사기관이 범인으로 특정하기 전에 스스로 출석</strong>해야 합니다. 이미 내사가 시작되었거나 공범이 진술하여 수사 대상자로 올라간 뒤 출석하면 "자수"가 아닌 <strong>"자백"</strong>에 해당하여 감경 폭이 줄어듭니다. 자백도 양형에 긍정적이지만 자수에 비해 효과가 작습니다.</p>\n<p>자수 방법은 <strong>관할 경찰서 또는 검찰청에 직접 출석</strong>하여 진술하는 것이 원칙입니다. 출석 전에 변호사와 상담하여 진술 범위를 정하는 것이 중요합니다. 자수 시 <strong>마약류 잔량을 함께 제출</strong>하면 증거인멸 의지가 없음을 보여줘 추가 감경 요소가 됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 발각 전 자수 &gt; 발각 후 자백 | 변호사 상담 후 출석 | 잔량 제출로 성의 표시</blockquote>',
       },
       {
         title: '자수 외 추가 감형 요소 — 치료 프로그램과 반성',
@@ -383,7 +383,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
     ],
     faq: [
       {
-        question: '자수하면 반드시 감형을 받나요?',
+        question: '자수하면 가능한 한 감형을 받나요?',
         answer:
           '형법 제52조의 자수 감경은 <strong>임의적 감경</strong>이므로 법관의 재량에 따라 감경 여부가 결정됩니다. 다만 실무상 자수는 매우 유력한 감형 사유이며, 양형위원회 기준에서도 특별감경인자로 분류됩니다.',
       },
@@ -400,7 +400,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         question: '변호사 없이 자수해도 되나요?',
         answer:
-          '가능하지만 <strong>권장하지 않습니다</strong>. 자수 시 진술 내용에 따라 추가 혐의가 확대될 수 있으므로, 반드시 변호사와 상담하여 진술 범위를 사전에 정한 뒤 출석하세요.',
+          '가능하지만 <strong>권장하지 않습니다</strong>. 자수 시 진술 내용에 따라 추가 혐의가 확대될 수 있으므로, 가능한 한 변호사와 상담하여 진술 범위를 사전에 정한 뒤 출석하세요.',
       },
       {
         question: '자수 시 소변검사나 모발검사를 받아야 하나요?',
@@ -465,7 +465,7 @@ export const spokesBatch10Pages21to25: SpokePage[] = [
       {
         title: '증거 3 — 메시지·SNS 기록으로 관계와 맥락을 증명하세요',
         content:
-          '<p><strong style="color:#1e3a5f">신고자와의 메시지, SNS 대화에서 허위신고의 동기나 모순점을 찾을 수 있습니다</strong></p>\n<p>카카오톡, 인스타그램 DM, 학교 커뮤니티 앱 등에서 <strong>신고자와의 대화 기록</strong>을 전수 확인하세요. "너 신고할 거야"라는 사전 위협 메시지, 사건 후 정상적으로 대화를 나눈 기록 등은 허위신고의 정황 증거가 됩니다.</p>\n<p>특히 신고자가 다른 학생에게 보낸 메시지에서 <strong>"걔를 엮어서 신고하자"</strong>와 같은 내용이 발견되면 매우 유력한 반박 증거가 됩니다. 자녀의 메시지뿐 아니라 <strong>같은 반 학생들 사이에 공유된 메시지</strong>도 확인해보세요. 캡처 시 반드시 날짜·시간·발신자가 보이도록 전체 화면을 저장하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신고자 위협 메시지 + 사건 후 정상 대화 + 공모 정황 메시지 = 허위신고 반박</blockquote>',
+          '<p><strong style="color:#1e3a5f">신고자와의 메시지, SNS 대화에서 허위신고의 동기나 모순점을 찾을 수 있습니다</strong></p>\n<p>카카오톡, 인스타그램 DM, 학교 커뮤니티 앱 등에서 <strong>신고자와의 대화 기록</strong>을 전수 확인하세요. "너 신고할 거야"라는 사전 위협 메시지, 사건 후 정상적으로 대화를 나눈 기록 등은 허위신고의 정황 증거가 됩니다.</p>\n<p>특히 신고자가 다른 학생에게 보낸 메시지에서 <strong>"걔를 엮어서 신고하자"</strong>와 같은 내용이 발견되면 매우 유력한 반박 증거가 됩니다. 자녀의 메시지뿐 아니라 <strong>같은 반 학생들 사이에 공유된 메시지</strong>도 확인해보세요. 캡처 시 가능한 한 날짜·시간·발신자가 보이도록 전체 화면을 저장하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 신고자 위협 메시지 + 사건 후 정상 대화 + 공모 정황 메시지 = 허위신고 반박</blockquote>',
       },
       {
         title: '증거 4 — 심의위원회 대응 서류를 체계적으로 준비하세요',

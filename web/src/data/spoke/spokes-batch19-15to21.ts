@@ -38,7 +38,7 @@ export const spokesBatch19_15to21: SpokePage[] = [
       {
         title: '셋째, 추가 의학 소견서와 동료 진술서를 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">재심사에서 가장 중요한 것은 "새로운 증거"입니다 — 같은 자료만 제출하면 같은 결과가 나옵니다</strong></p>\n<p>불승인 사유가 의학적 인과관계 부족이라면 <strong>주치의 의학 소견서</strong>를 새로 받으세요. 기존 진단서와 달리 "업무로 인해 해당 상병이 발생·악화되었다"는 내용을 명시적으로 기재해야 합니다.</p>\n<p>사고 경위가 쟁점이면 <strong>동료 근로자 진술서</strong>와 <strong>CCTV 영상</strong>, <strong>작업일지</strong>를 추가 확보하세요. 진술서에는 사고 일시·장소·경위·목격 상황을 구체적으로 기재하고, 진술인의 서명·연락처를 반드시 포함하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: 의학 소견서(인과관계 명시) + 동료 진술서 + CCTV·작업일지</blockquote>',
+          '<p><strong style="color:#1e3a5f">재심사에서 가장 중요한 것은 "새로운 증거"입니다 — 같은 자료만 제출하면 같은 결과가 나옵니다</strong></p>\n<p>불승인 사유가 의학적 인과관계 부족이라면 <strong>주치의 의학 소견서</strong>를 새로 받으세요. 기존 진단서와 달리 "업무로 인해 해당 상병이 발생·악화되었다"는 내용을 명시적으로 기재해야 합니다.</p>\n<p>사고 경위가 쟁점이면 <strong>동료 근로자 진술서</strong>와 <strong>CCTV 영상</strong>, <strong>작업일지</strong>를 추가 확보하세요. 진술서에는 사고 일시·장소·경위·목격 상황을 구체적으로 기재하고, 진술인의 서명·연락처를 가능한 한 포함하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심 증거: 의학 소견서(인과관계 명시) + 동료 진술서 + CCTV·작업일지</blockquote>',
       },
       {
         title: '넷째, 재심사 기각 시 행정소송까지 고려하세요',
@@ -52,7 +52,7 @@ export const spokesBatch19_15to21: SpokePage[] = [
         summary:
           '대법원 2024두50063 사건(2025.12.11 선고)에서 법원은 산재 장해등급 판정 시 의학적 소견뿐 아니라 근로자의 실제 노동능력 상실 정도와 직업적 특수성을 종합적으로 고려해야 하며, 공단의 자문의 소견만으로 장해등급을 낮게 인정한 원처분은 위법하다고 판시했습니다.',
         takeaway:
-          '산재 장해등급이 낮게 나왔더라도 실제 노동능력 상실 정도를 입증하면 재심사·행정소송에서 등급이 상향될 수 있습니다. 주치의 소견서와 직업 특수성 자료를 반드시 준비하세요.',
+          '산재 장해등급이 낮게 나왔더라도 실제 노동능력 상실 정도를 입증하면 재심사·행정소송에서 등급이 상향될 수 있습니다. 주치의 소견서와 직업 특수성 자료를 가능한 한 준비하세요.',
       },
     ],
     faq: [
@@ -108,7 +108,7 @@ export const spokesBatch19_15to21: SpokePage[] = [
       {
         title: '첫째, 산업안전보건법상 안전·보건조치의무 위반 책임을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">산업안전보건법 제38조·제39조에 따라 사업주는 안전·보건 조치 의무를 부담하며, 위반 시 형사처벌을 받습니다</strong></p>\n<p>사업주는 추락·감전·화재 등의 위험을 방지하기 위해 안전난간, 보호구, 환기장치 등의 <strong>안전조치</strong>를 해야 합니다. 이를 위반하여 근로자가 사망하면 <strong>7년 이하의 징역 또는 1억원 이하의 벌금</strong>에 처합니다.</p>\n<p>안전조치 의무는 <strong>설비 설치만으로 충족되지 않습니다</strong>. 보호구를 지급했더라도 착용 여부를 감독하지 않았거나, 안전교육을 형식적으로만 실시했다면 의무 위반으로 인정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">산안법: 안전조치 위반 + 사망 → 7년 이하 징역 / 1억원 이하 벌금</blockquote>',
+          '<p><strong style="color:#1e3a5f">산업안전보건법 제38조·제39조에 따라 사업주는 안전·보건 조치 의무를 부담하며, 위반 시 형사처벌을 받습니다</strong></p>\n<p>사업주는 추락·감전·화재 등의 위험을 방지하기 위해 안전난간, 보호구, 환기장치 등의 <strong>안전조치</strong>를 해야 합니다. 이를 위반하여 근로자가 사망하면 <strong>7년 이하의 징역 또는 1억원 이하의 벌금</strong>에 처합니다.</p>\n<p>안전조치 의무는 <strong>설비 설치만으로 충족되지 않습니다</strong>. 보호구를 지급했더라도 착용 여부를 감독하지 않았거나, 안전교육을 형식적으로만 실시했다면 의무 위반으로 인정될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">산안법: 안전조치 위반 + 사망 → 7년 이하 징역 / 1억원 이하 벌금</blockquote>',
       },
       {
         title: '둘째, 중대재해처벌법상 경영책임자 처벌 가능성을 확인하세요',
@@ -118,7 +118,7 @@ export const spokesBatch19_15to21: SpokePage[] = [
       {
         title: '셋째, 형법상 업무상과실치사상죄 적용 가능성을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제268조에 따라 업무상 과실로 사람을 사상에 이르게 한 자는 5년 이하의 금고 또는 2천만원 이하의 벌금에 처합니다</strong></p>\n<p>산안법과 중대재해법과 별도로 <strong>형법상 업무상과실치사상죄</strong>도 경합하여 적용됩니다. 사업주가 사업 운영에서 요구되는 <strong>주의의무를 다하지 않아</strong> 근로자가 사상에 이른 경우 성립합니다.</p>\n<p>양형에서 <strong>감경 요소</strong>로 고려되는 사항은 ①평소 안전관리 수준 ②사고 후 피해 보상 노력 ③재발 방지 조치 ④전과 유무 ⑤반성 태도입니다. 특히 피해자(유족)와의 <strong>합의 여부</strong>가 양형에 가장 큰 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형법: 업무상과실치사상 → 5년 이하 금고 / 2천만원 이하 벌금 + 합의가 핵심 감경 요소</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제268조에 따라 업무상 과실로 사람을 사상에 이르게 한 자는 5년 이하의 금고 또는 2천만원 이하의 벌금에 처합니다</strong></p>\n<p>산안법과 중대재해법과 별도로 <strong>형법상 업무상과실치사상죄</strong>도 경합하여 적용됩니다. 사업주가 사업 운영에서 요구되는 <strong>주의의무를 다하지 않아</strong> 근로자가 사상에 이른 경우 성립할 수 있습니다.</p>\n<p>양형에서 <strong>감경 요소</strong>로 고려되는 사항은 ①평소 안전관리 수준 ②사고 후 피해 보상 노력 ③재발 방지 조치 ④전과 유무 ⑤반성 태도입니다. 특히 피해자(유족)와의 <strong>합의 여부</strong>가 양형에 가장 큰 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">형법: 업무상과실치사상 → 5년 이하 금고 / 2천만원 이하 벌금 + 합의가 핵심 감경 요소</blockquote>',
       },
       {
         title: '넷째, 형사책임 경감을 위한 실질적 대응 전략을 수립하세요',
@@ -142,7 +142,7 @@ export const spokesBatch19_15to21: SpokePage[] = [
       },
       {
         question: '하도급 업체 근로자가 다쳐도 원청 사업주 책임인가요?',
-        answer: '산업안전보건법 제63조에 따라 <strong>도급인은 관계수급인 근로자의 안전·보건 조치 의무</strong>가 있습니다. 원청이 작업장 안전관리를 총괄하거나 하청 근로자의 작업 방법을 실질적으로 지배하는 경우 형사책임이 인정됩니다.',
+        answer: '산업안전보건법 제63조에 따라 <strong>도급인은 관계수급인 근로자의 안전·보건 조치 의무</strong>가 있습니다. 원청이 작업장 안전관리를 총괄하거나 하청 근로자의 작업 방법을 실질적으로 지배하는 경우 형사책임이 인정될 수 있습니다.',
       },
       {
         question: '산재보험에 가입했으면 형사책임이 줄어드나요?',

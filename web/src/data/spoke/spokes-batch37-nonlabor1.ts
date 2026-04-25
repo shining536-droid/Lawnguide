@@ -120,7 +120,7 @@ export const spokesBatch37Nonlabor1: SpokePage[] = [
       {
         title: '디지털 증거의 적법성 판단 기준',
         content:
-          '<p><strong style="color:#1e3a5f">이혼소송에서 민사 증거능력은 비교적 관대하지만, 취득 과정이 명백히 위법하면 증거능력이 부정되고 본인이 형사 처벌을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>정보통신망법 제49조</strong> — 타인의 비밀을 침해·도용·누설하는 행위는 형사 처벌 대상입니다.</li>\n<li><strong>통신비밀보호법</strong> — 동의 없는 통신 내용 청취·녹음·공개는 형사 처벌 대상이며, 본인이 당사자가 아닌 제3자 간 대화 녹음이 이에 해당합니다.</li>\n<li><strong>주거침입·컴퓨터사용죄</strong> — 배우자 계정에 무단 로그인해 메시지를 열람하는 행위는 형사 처벌 위험이 있습니다.</li>\n<li><strong>민사 증거능력</strong> — 위법 수집 증거라도 민사에서 당연 배제되지 않으나, 신의칙·공서양속에 반하는 경우 증거능력이 제한됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 민사 증거능력보다 형사 처벌 위험이 더 큽니다. 증거 확보 방법은 적법성 기준에서 점검해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">이혼소송에서 민사 증거능력은 비교적 관대하지만, 취득 과정이 명백히 위법하면 증거능력이 부정되고 본인이 형사 처벌을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>정보통신망법 제49조</strong> — 타인의 비밀을 침해·도용·누설하는 행위는 형사 처벌 대상입니다.</li>\n<li><strong>통신비밀보호법</strong> — 동의 없는 통신 내용 청취·녹음·공개는 형사 처벌 대상이며, 본인이 당사자가 아닌 제3자 간 대화 녹음이 이에 해당할 소지가 있습니다.</li>\n<li><strong>주거침입·컴퓨터사용죄</strong> — 배우자 계정에 무단 로그인해 메시지를 열람하는 행위는 형사 처벌 위험이 있습니다.</li>\n<li><strong>민사 증거능력</strong> — 위법 수집 증거라도 민사에서 당연 배제되지 않으나, 신의칙·공서양속에 반하는 경우 증거능력이 제한됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 민사 증거능력보다 형사 처벌 위험이 더 큽니다. 증거 확보 방법은 적법성 기준에서 점검해야 합니다.</blockquote>',
       },
       {
         title: '적법하게 확보할 수 있는 디지털 증거',
@@ -135,7 +135,7 @@ export const spokesBatch37Nonlabor1: SpokePage[] = [
       {
         title: '위법 수집 증거의 리스크',
         content:
-          '<p><strong style="color:#1e3a5f">배우자의 휴대폰·계정을 몰래 열거나 비밀번호를 푸는 행위는 형사 처벌 위험이 크므로 주의해야 합니다.</strong></p>\n<ul>\n<li><strong>정보통신망 침해</strong> — 배우자 계정에 무단 로그인해 메시지를 열람·복사하면 정보통신망법 위반으로 처벌될 수 있습니다.</li>\n<li><strong>스파이웨어·도청 앱 사용</strong> — 배우자 몰래 감시 앱을 설치하는 행위는 통신비밀보호법 위반으로 엄격히 처벌됩니다.</li>\n<li><strong>민사 반소 위험</strong> — 불법 증거 수집으로 인해 상대방이 역으로 손해배상 소송을 제기할 수 있습니다.</li>\n<li><strong>유책 판단 역전</strong> — 불법 수집 자료를 사용하면 오히려 본인이 혼인 파탄의 일부 책임으로 판단될 수도 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "이혼에 유리한 증거"보다 "적법하게 확보된 증거"가 실무에서 더 강력합니다. 위법 행위는 반드시 피하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">배우자의 휴대폰·계정을 몰래 열거나 비밀번호를 푸는 행위는 형사 처벌 위험이 크므로 주의해야 합니다.</strong></p>\n<ul>\n<li><strong>정보통신망 침해</strong> — 배우자 계정에 무단 로그인해 메시지를 열람·복사하면 정보통신망법 위반으로 처벌될 수 있습니다.</li>\n<li><strong>스파이웨어·도청 앱 사용</strong> — 배우자 몰래 감시 앱을 설치하는 행위는 통신비밀보호법 위반으로 엄격히 처벌 대상으로 검토될 수 있습니다.</li>\n<li><strong>민사 반소 위험</strong> — 불법 증거 수집으로 인해 상대방이 역으로 손해배상 소송을 제기할 수 있습니다.</li>\n<li><strong>유책 판단 역전</strong> — 불법 수집 자료를 사용하면 오히려 본인이 혼인 파탄의 일부 책임으로 판단될 수도 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "이혼에 유리한 증거"보다 "적법하게 확보된 증거"가 실무에서 더 강력합니다. 위법 행위는 가능한 한 피하세요.</blockquote>',
       },
     ],
     cases: [
@@ -207,7 +207,7 @@ export const spokesBatch37Nonlabor1: SpokePage[] = [
       {
         title: '임산부 교통사고의 특수성과 보상 범위',
         content:
-          '<p><strong style="color:#1e3a5f">임신 중 교통사고는 일반 피해와 다른 특수 손해가 발생하므로, 배상 범위가 확장됩니다.</strong></p>\n<ul>\n<li><strong>산모 위자료 가산</strong> — 임신 상태에서의 정신적 고통은 일반인보다 훨씬 크며, 법원도 이를 위자료 산정에서 가중 요소로 반영합니다.</li>\n<li><strong>치료 제약으로 인한 손해</strong> — 임신 중에는 약물·정밀검사가 제한되어 적시 치료가 어려워지는 점이 손해로 인정됩니다.</li>\n<li><strong>조산·유산 가능성</strong> — 사고 충격으로 조산·유산이 발생하면 별도의 손해배상 청구가 가능합니다.</li>\n<li><strong>향후 출산·육아 관련 추가 손해</strong> — 합의 시점에 예견할 수 없었던 출산·양육 관련 추가 손해에 대해서도 후속 청구가 가능합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 임산부 교통사고는 일반 사고 대비 손해 범위가 크므로, 초기 합의를 서두르지 말고 예상 가능한 모든 항목을 점검해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임신 중 교통사고는 일반 피해와 다른 특수 손해가 발생하므로, 배상 범위가 확장됩니다.</strong></p>\n<ul>\n<li><strong>산모 위자료 가산</strong> — 임신 상태에서의 정신적 고통은 일반인보다 훨씬 크며, 법원도 이를 위자료 산정에서 가중 요소로 반영합니다.</li>\n<li><strong>치료 제약으로 인한 손해</strong> — 임신 중에는 약물·정밀검사가 제한되어 적시 치료가 어려워지는 점이 손해로 인정될 수 있습니다.</li>\n<li><strong>조산·유산 가능성</strong> — 사고 충격으로 조산·유산이 발생하면 별도의 손해배상 청구가 가능합니다.</li>\n<li><strong>향후 출산·육아 관련 추가 손해</strong> — 합의 시점에 예견할 수 없었던 출산·양육 관련 추가 손해에 대해서도 후속 청구가 가능합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 임산부 교통사고는 일반 사고 대비 손해 범위가 크므로, 초기 합의를 서두르지 말고 예상 가능한 모든 항목을 점검해야 합니다.</blockquote>',
       },
       {
         title: '태아 손해의 법적 지위와 청구 방법',
@@ -217,12 +217,12 @@ export const spokesBatch37Nonlabor1: SpokePage[] = [
       {
         title: '인과관계 입증 — 의학적 자료가 핵심',
         content:
-          '<p><strong style="color:#1e3a5f">사고와 태아 피해·유산·조산 사이의 인과관계는 의학적 자료로 입증해야 배상이 인정됩니다.</strong></p>\n<ul>\n<li><strong>사고 전후 진료 기록</strong> — 사고 직전 산전 검사 결과와 사고 직후 진료 기록을 대조하여 상태 변화를 입증합니다.</li>\n<li><strong>주치의 소견서</strong> — 사고 충격이 태아·산모에 미친 영향에 대한 전문의 소견이 가장 중요한 증거입니다.</li>\n<li><strong>영상 검사 기록</strong> — 초음파·CT·MRI 등 영상 검사로 외상성 손상을 입증합니다. 임신 중 제한된 검사일지라도 사후 영상 기록은 의미가 큽니다.</li>\n<li><strong>정신건강 상담 기록</strong> — 스트레스로 인한 정신적 피해는 상담·진료 기록으로 입증합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 보험회사가 "기저 질환이 원인"이라고 주장할 수 있으므로, 사고 전 건강 상태를 입증할 산전 검사 기록을 반드시 확보하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사고와 태아 피해·유산·조산 사이의 인과관계는 의학적 자료로 입증해야 배상이 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>사고 전후 진료 기록</strong> — 사고 직전 산전 검사 결과와 사고 직후 진료 기록을 대조하여 상태 변화를 입증합니다.</li>\n<li><strong>주치의 소견서</strong> — 사고 충격이 태아·산모에 미친 영향에 대한 전문의 소견이 가장 중요한 증거입니다.</li>\n<li><strong>영상 검사 기록</strong> — 초음파·CT·MRI 등 영상 검사로 외상성 손상을 입증합니다. 임신 중 제한된 검사일지라도 사후 영상 기록은 의미가 큽니다.</li>\n<li><strong>정신건강 상담 기록</strong> — 스트레스로 인한 정신적 피해는 상담·진료 기록으로 입증합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 보험회사가 "기저 질환이 원인"이라고 주장할 수 있으므로, 사고 전 건강 상태를 입증할 산전 검사 기록을 가능한 한 확보하세요.</blockquote>',
       },
       {
         title: '합의·청구 시 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">임산부 교통사고는 장기 손해가 발생할 수 있으므로, 초기 합의를 서두르지 말아야 합니다.</strong></p>\n<ul>\n<li><strong>관찰 기간 확보</strong> — 출산 이후까지 상태를 관찰하여 추가 손해 가능성을 점검한 후 합의하는 것이 안전합니다.</li>\n<li><strong>부제소 합의 조심</strong> — "향후 일체 이의를 제기하지 않는다"는 조항이 있는 합의서는 예견할 수 없었던 후발 손해에만 예외가 인정됩니다. 불리한 조항은 피해야 합니다.</li>\n<li><strong>소멸시효</strong> — 불법행위 손해배상 청구권은 "손해·가해자를 안 날로부터 3년, 불법행위일로부터 10년" 이내 행사해야 합니다.</li>\n<li><strong>분쟁 조정</strong> — 보험회사와 협의가 안 되면 금융감독원 분쟁조정위원회 또는 손해보험협회 조정을 활용할 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 임신 중 사고는 예견할 수 없는 손해가 많으므로, 최소 출산 후 6개월 정도 상태를 지켜본 후 합의 여부를 결정하는 것이 안전합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임산부 교통사고는 장기 손해가 발생할 수 있으므로, 초기 합의를 서두르지 말아야 합니다.</strong></p>\n<ul>\n<li><strong>관찰 기간 확보</strong> — 출산 이후까지 상태를 관찰하여 추가 손해 가능성을 점검한 후 합의하는 것이 안전합니다.</li>\n<li><strong>부제소 합의 조심</strong> — "향후 일체 이의를 제기하지 않는다"는 조항이 있는 합의서는 예견할 수 없었던 후발 손해에만 예외가 인정될 수 있습니다. 불리한 조항은 피해야 합니다.</li>\n<li><strong>소멸시효</strong> — 불법행위 손해배상 청구권은 "손해·가해자를 안 날로부터 3년, 불법행위일로부터 10년" 이내 행사해야 합니다.</li>\n<li><strong>분쟁 조정</strong> — 보험회사와 협의가 안 되면 금융감독원 분쟁조정위원회 또는 손해보험협회 조정을 활용할 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 임신 중 사고는 예견할 수 없는 손해가 많으므로, 최소 출산 후 6개월 정도 상태를 지켜본 후 합의 여부를 결정하는 것이 안전합니다.</blockquote>',
       },
     ],
     cases: [
@@ -243,7 +243,7 @@ export const spokesBatch37Nonlabor1: SpokePage[] = [
       {
         question: '유산이 바로 발생하지 않고 시간이 지나서 발생했으면 어떻게 되나요?',
         answer:
-          '<strong>시간 경과가 있어도 인과관계가 입증되면 배상 가능합니다.</strong> 의사 소견과 연속된 진료 기록으로 사고와의 관련성을 증명하면 인정됩니다.',
+          '<strong>시간 경과가 있어도 인과관계가 입증되면 배상 가능합니다.</strong> 의사 소견과 연속된 진료 기록으로 사고와의 관련성을 증명하면 인정될 수 있습니다.',
       },
       {
         question: '산모가 경미한 부상이라면 위자료가 적은가요?',
@@ -299,7 +299,7 @@ export const spokesBatch37Nonlabor1: SpokePage[] = [
       {
         title: '경찰 신고와 보험사 접수 — 늦더라도 해야 하는 이유',
         content:
-          '<p><strong style="color:#1e3a5f">사고 수일 또는 수주 후라도 경찰 신고와 보험사 접수는 반드시 진행해야 합니다.</strong></p>\n<ul>\n<li><strong>경찰 신고</strong> — 교통사고 사실 확인원이 발급되면 사고 사실을 공식적으로 증명할 수 있습니다. 지연 신고 사유를 함께 기재합니다.</li>\n<li><strong>가해자 보험사 접수</strong> — 가해자 보험사에 사고 사실과 부상 소견을 통보하면 손해 사정 절차가 시작됩니다.</li>\n<li><strong>본인 보험 청구</strong> — 자기신체사고 담보·상해담보가 있으면 본인 보험사에도 청구할 수 있습니다.</li>\n<li><strong>신고 사유 기록</strong> — 왜 즉시 신고하지 못했는지(경미하다고 판단·출장 등 사정) 상세히 기록해두면 보험사 협상에서 도움이 됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 지연 신고 상황의 보상 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사고 수일 또는 수주 후라도 경찰 신고와 보험사 접수는 가능한 한 진행해야 합니다.</strong></p>\n<ul>\n<li><strong>경찰 신고</strong> — 교통사고 사실 확인원이 발급되면 사고 사실을 공식적으로 증명할 수 있습니다. 지연 신고 사유를 함께 기재합니다.</li>\n<li><strong>가해자 보험사 접수</strong> — 가해자 보험사에 사고 사실과 부상 소견을 통보하면 손해 사정 절차가 시작됩니다.</li>\n<li><strong>본인 보험 청구</strong> — 자기신체사고 담보·상해담보가 있으면 본인 보험사에도 청구할 수 있습니다.</li>\n<li><strong>신고 사유 기록</strong> — 왜 즉시 신고하지 못했는지(경미하다고 판단·출장 등 사정) 상세히 기록해두면 보험사 협상에서 도움이 됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 지연 신고 상황의 보상 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=traffic-accident" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '증거 확보 — 공백을 보완하는 방법',
@@ -340,7 +340,7 @@ export const spokesBatch37Nonlabor1: SpokePage[] = [
       {
         question: '보험사가 "기존 질환"이라고 주장하면 어떻게 하나요?',
         answer:
-          '<strong>사고 이전 건강 상태와 이후 상태를 비교·입증합니다.</strong> 건강검진 결과·이전 진료 기록을 제시해 사고 전에는 문제없었음을 증명하면 인과관계가 인정됩니다.',
+          '<strong>사고 이전 건강 상태와 이후 상태를 비교·입증합니다.</strong> 건강검진 결과·이전 진료 기록을 제시해 사고 전에는 문제없었음을 증명하면 인과관계가 인정될 수 있습니다.',
       },
       {
         question: '지연 신고가 본인 과실로 작용하나요?',
@@ -396,7 +396,7 @@ export const spokesBatch37Nonlabor1: SpokePage[] = [
       {
         title: '소멸시효와 동업 계약 해지',
         content:
-          '<p><strong style="color:#1e3a5f">형사 공소시효와 민사 소멸시효를 지키면서 동업 계약도 적법하게 해지해야 합니다.</strong></p>\n<ul>\n<li><strong>형사 공소시효</strong> — 사기·횡령·배임은 법정형 10년 이하이므로 공소시효 7년, 특경법 가중 시 10년. 초과 시 형사 처벌 불가.</li>\n<li><strong>민사 소멸시효</strong> — 불법행위 손해배상은 3년(손해·가해자 인지 시), 부당이득반환은 10년. 이 기간 안에 제소해야 합니다.</li>\n<li><strong>동업 계약 해지</strong> — 동업 계약 해지 절차를 거치지 않으면 향후 추가 분쟁의 소지가 있습니다. 해지 통보·합의서 작성이 필요합니다.</li>\n<li><strong>청산 절차</strong> — 동업 자산·부채를 정확히 정리한 후 분배 절차를 거쳐야 하며, 법인 동업인 경우 청산 등기까지 요구됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 분쟁 상태에서 섣불리 합의서에 서명하면 추가 청구권이 포기될 수 있으므로 반드시 변호사 검토 후 진행하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">형사 공소시효와 민사 소멸시효를 지키면서 동업 계약도 적법하게 해지해야 합니다.</strong></p>\n<ul>\n<li><strong>형사 공소시효</strong> — 사기·횡령·배임은 법정형 10년 이하이므로 공소시효 7년, 특경법 가중 시 10년. 초과 시 형사 처벌 불가.</li>\n<li><strong>민사 소멸시효</strong> — 불법행위 손해배상은 3년(손해·가해자 인지 시), 부당이득반환은 10년. 이 기간 안에 제소해야 합니다.</li>\n<li><strong>동업 계약 해지</strong> — 동업 계약 해지 절차를 거치지 않으면 향후 추가 분쟁의 소지가 있습니다. 해지 통보·합의서 작성이 필요합니다.</li>\n<li><strong>청산 절차</strong> — 동업 자산·부채를 정확히 정리한 후 분배 절차를 거쳐야 하며, 법인 동업인 경우 청산 등기까지 요구됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 분쟁 상태에서 섣불리 합의서에 서명하면 추가 청구권이 포기될 수 있으므로 가능한 한 변호사 검토 후 진행하세요.</blockquote>',
       },
     ],
     cases: [

@@ -63,7 +63,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '건설 일용직 실업급여 수급 요건 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">건설 일용직 근로자의 실업급여 수급 요건은 일반 근로자와 약간 다릅니다.</strong></p>\n<ol>\n<li><strong>피보험기간 요건</strong> — 이직일 이전 18개월 중 피보험 단위기간이 합산하여 180일 이상이어야 합니다. 일용직은 실제 근로한 날만 피보험기간으로 산정되므로 근로내역확인서로 정확히 확인하세요.</li>\n<li><strong>비자발적 이직</strong> — 공사 종료, 계약 만료, 원청 사정으로 인한 해고 등 본인 의사에 반한 이직이어야 합니다. 단, 일용직은 1개월 미만 단기 계약 종료 시 대부분 비자발적 이직으로 인정됩니다.</li>\n<li><strong>수급자격 제한 기간</strong> — 마지막 근로일로부터 다음 날 기준으로, 최종 이직일 이전 1개월 동안 근로일수가 10일 미만이어야 합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 일용직 180일 요건은 달력 기준이 아니라 실제 근로일 기준입니다. 고용보험 홈페이지에서 근로내역확인서를 출력하면 정확한 일수를 확인할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">건설 일용직 근로자의 실업급여 수급 요건은 일반 근로자와 약간 다릅니다.</strong></p>\n<ol>\n<li><strong>피보험기간 요건</strong> — 이직일 이전 18개월 중 피보험 단위기간이 합산하여 180일 이상이어야 합니다. 일용직은 실제 근로한 날만 피보험기간으로 산정되므로 근로내역확인서로 정확히 확인하세요.</li>\n<li><strong>비자발적 이직</strong> — 공사 종료, 계약 만료, 원청 사정으로 인한 해고 등 본인 의사에 반한 이직이어야 합니다. 단, 일용직은 1개월 미만 단기 계약 종료 시 대부분 비자발적 이직으로 인정될 수 있습니다.</li>\n<li><strong>수급자격 제한 기간</strong> — 마지막 근로일로부터 다음 날 기준으로, 최종 이직일 이전 1개월 동안 근로일수가 10일 미만이어야 합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 일용직 180일 요건은 달력 기준이 아니라 실제 근로일 기준입니다. 고용보험 홈페이지에서 근로내역확인서를 출력하면 정확한 일수를 확인할 수 있습니다.</blockquote>',
       },
       {
         title: '신청 전 준비서류 체크리스트',
@@ -78,7 +78,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '건설 일용직이 자주 놓치는 실수 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">수급자격을 갖추고도 실업급여를 못 받는 경우가 있습니다.</strong></p>\n<ul>\n<li><strong>신청 시기를 놓치는 경우</strong> — 마지막 근로일 다음 날부터 12개월 이내에 신청해야 합니다. 다른 현장에서 일하면서 미루다가 기한을 넘기는 경우가 많습니다.</li>\n<li><strong>고용보험 미가입 현장에서 일한 경우</strong> — 사업주가 신고하지 않아 고용보험에 가입되지 않은 경우, 근로복지공단에 피보험자격 확인청구를 하면 소급 가입이 가능합니다.</li>\n<li><strong>수급 중 일용근로 미신고</strong> — 구직급여 수급 중 일용직으로 일한 날은 반드시 실업인정 시 신고해야 합니다. 미신고는 부정수급으로 처벌받을 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">수급자격을 갖추고도 실업급여를 못 받는 경우가 있습니다.</strong></p>\n<ul>\n<li><strong>신청 시기를 놓치는 경우</strong> — 마지막 근로일 다음 날부터 12개월 이내에 신청해야 합니다. 다른 현장에서 일하면서 미루다가 기한을 넘기는 경우가 많습니다.</li>\n<li><strong>고용보험 미가입 현장에서 일한 경우</strong> — 사업주가 신고하지 않아 고용보험에 가입되지 않은 경우, 근로복지공단에 피보험자격 확인청구를 하면 소급 가입이 가능합니다.</li>\n<li><strong>수급 중 일용근로 미신고</strong> — 구직급여 수급 중 일용직으로 일한 날은 가능한 한 실업인정 시 신고해야 합니다. 미신고는 부정수급으로 처벌받을 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -87,7 +87,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
         summary:
           '대구지법 2018구합23680 사건(대구지법, 2019.04.17 선고)에서 법원은 수급자격자가 해외 체류 중 제3자가 대리로 재취업 노력신고를 한 것은 고용보험법 제61조의 "거짓이나 그 밖의 부정한 방법"에 해당한다고 판시했습니다. 본인이 직접 구직활동을 신고해야 하며, 대리 신청은 부정수급으로 반환 대상이 됩니다.',
         takeaway:
-          '건설 일용직도 실업인정 출석일과 구직활동 신고를 반드시 본인이 직접 해야 합니다. 타인에게 대리 신고를 맡기면 부정수급으로 처벌받을 수 있으니 주의하세요.',
+          '건설 일용직도 실업인정 출석일과 구직활동 신고를 가능한 한 본인이 직접 해야 합니다. 타인에게 대리 신고를 맡기면 부정수급으로 처벌받을 수 있으니 주의하세요.',
       },
     ],
     faq: [
@@ -104,7 +104,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         question: '실업급여를 받으면서 다른 건설 현장에서 일용직으로 일해도 되나요?',
         answer:
-          '<p>월 60시간 미만 또는 주 15시간 미만이면 수급하면서 일할 수 있습니다. 다만 일한 날은 실업인정 시 반드시 신고해야 하고, 해당일의 구직급여는 지급되지 않습니다.</p>',
+          '<p>월 60시간 미만 또는 주 15시간 미만이면 수급하면서 일할 수 있습니다. 다만 일한 날은 실업인정 시 가능한 한 신고해야 하고, 해당일의 구직급여는 지급되지 않습니다.</p>',
       },
       {
         question: '건설 일용직 구직급여 1일 수급액은 어떻게 계산하나요?',
@@ -114,7 +114,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         question: '공사가 끝나서 일이 없어진 것도 비자발적 이직인가요?',
         answer:
-          '<p>네, 공사 종료로 인한 계약 만료는 비자발적 이직으로 인정됩니다. 이직확인서에 "계약 만료" 또는 "공사 종료"로 기재되므로 별도의 증빙이 필요하지 않습니다.</p>',
+          '<p>네, 공사 종료로 인한 계약 만료는 비자발적 이직으로 인정될 수 있습니다. 이직확인서에 "계약 만료" 또는 "공사 종료"로 기재되므로 별도의 증빙이 필요하지 않습니다.</p>',
       },
     ],
     cta: { text: '건설 일용직 실업급여 자격 AI로 즉시 확인하기', link: '/chat?domain=unemployment' },
@@ -237,12 +237,12 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '소득신고와 실업인정 시 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">나머지 직장에서의 근로 사실을 반드시 실업인정 시 신고해야 합니다.</strong></p>\n<p>실업급여를 수급하면서 다른 곳에서 근로하는 경우, 실업인정일마다 해당 기간 중 일한 날과 소득을 신고해야 합니다. 신고하지 않으면 부정수급으로 처벌받을 수 있습니다.</p>\n<ol>\n<li><strong>근로일 신고</strong> — 나머지 직장에서 일한 날짜를 모두 기재합니다.</li>\n<li><strong>소득 신고</strong> — 해당 기간 중 받은 급여 금액을 기재합니다.</li>\n<li><strong>취업 상태 변경 신고</strong> — 나머지 직장의 근로시간이 늘어나 주 15시간 이상이 되면 즉시 신고해야 합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>투잡 실직 후 수급 가능 여부, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">각 직장의 근로시간과 이직 사유를 입력하면 수급 가능 여부를 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">나머지 직장에서의 근로 사실을 가능한 한 실업인정 시 신고해야 합니다.</strong></p>\n<p>실업급여를 수급하면서 다른 곳에서 근로하는 경우, 실업인정일마다 해당 기간 중 일한 날과 소득을 신고해야 합니다. 신고하지 않으면 부정수급으로 처벌받을 수 있습니다.</p>\n<ol>\n<li><strong>근로일 신고</strong> — 나머지 직장에서 일한 날짜를 모두 기재합니다.</li>\n<li><strong>소득 신고</strong> — 해당 기간 중 받은 급여 금액을 기재합니다.</li>\n<li><strong>취업 상태 변경 신고</strong> — 나머지 직장의 근로시간이 늘어나 주 15시간 이상이 되면 즉시 신고해야 합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>투잡 실직 후 수급 가능 여부, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">각 직장의 근로시간과 이직 사유를 입력하면 수급 가능 여부를 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '투잡 실업급여에서 흔한 실수',
         content:
-          '<p><strong style="color:#1e3a5f">겸업 상태의 실업급여 신청에서 자주 발생하는 실수 3가지를 확인하세요.</strong></p>\n<ul>\n<li><strong>나머지 직장을 신고하지 않는 경우</strong> — 고용보험 시스템에서 취업 사실이 확인되면 부정수급으로 처벌받습니다. 반드시 솔직하게 신고하세요.</li>\n<li><strong>주된 직장이 아닌 부업 쪽을 기준으로 신청하는 경우</strong> — 피보험기간이 더 긴 직장, 즉 주된 직장을 기준으로 신청해야 수급액이 유리합니다.</li>\n<li><strong>두 직장 모두 고용보험에 가입되어 있는지 확인하지 않는 경우</strong> — 고용보험 이중가입이 되어 있으면 주된 직장 기준으로 수급자격을 신청할 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">겸업 상태의 실업급여 신청에서 자주 발생하는 실수 3가지를 확인하세요.</strong></p>\n<ul>\n<li><strong>나머지 직장을 신고하지 않는 경우</strong> — 고용보험 시스템에서 취업 사실이 확인되면 부정수급으로 처벌 대상으로 검토될 수 있습니다. 가능한 한 솔직하게 신고하세요.</li>\n<li><strong>주된 직장이 아닌 부업 쪽을 기준으로 신청하는 경우</strong> — 피보험기간이 더 긴 직장, 즉 주된 직장을 기준으로 신청해야 수급액이 유리합니다.</li>\n<li><strong>두 직장 모두 고용보험에 가입되어 있는지 확인하지 않는 경우</strong> — 고용보험 이중가입이 되어 있으면 주된 직장 기준으로 수급자격을 신청할 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -251,7 +251,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
         summary:
           '대법원 2018도2429 사건(대법원, 2018.06.28 선고)에서 법원은 고용보험법 제116조 제2항의 처벌 대상은 실업급여·육아휴직급여·출산전후휴가급여를 부정하게 수급한 경우에 한정된다고 판시했습니다. 취업 사실을 숨기고 구직급여를 수령하면 부정수급으로 처벌 대상이 됩니다.',
         takeaway:
-          '투잡 중 한 곳을 잃고 실업급여를 신청할 때는 나머지 직장의 근로 사실을 반드시 신고하세요. 미신고 시 부정수급으로 형사처벌과 반환·추가징수 대상이 됩니다.',
+          '투잡 중 한 곳을 잃고 실업급여를 신청할 때는 나머지 직장의 근로 사실을 가능한 한 신고하세요. 미신고 시 부정수급으로 형사처벌과 반환·추가징수 대상이 됩니다.',
       },
     ],
     faq: [
@@ -268,7 +268,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         question: '프리랜서로 부업하면서 실업급여를 받을 수 있나요?',
         answer:
-          '<p>프리랜서 소득이 있더라도 월 소득이 구직급여 일액 미만이고 주 15시간 미만으로 활동한다면 수급 가능합니다. 다만 소득과 활동 내역을 반드시 실업인정 시 신고해야 합니다.</p>',
+          '<p>프리랜서 소득이 있더라도 월 소득이 구직급여 일액 미만이고 주 15시간 미만으로 활동한다면 수급 가능합니다. 다만 소득과 활동 내역을 가능한 한 실업인정 시 신고해야 합니다.</p>',
       },
       {
         question: '나머지 직장도 곧 그만둘 예정인데 어떻게 신청하나요?',
@@ -330,7 +330,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
         summary:
           '광주고법 2018누1338 사건(광주고법, 2018.10.24 선고)에서 법원은 임기제 공무원의 고용보험 가입신청기간이 소속기관장의 의무 해태로 지났더라도, 가입대상자가 그 사유를 안 날부터 3개월 내에 가입신청을 할 수 있다고 판시했습니다. 가입기간 보호의 실질적 해석을 적용한 사례입니다.',
         takeaway:
-          '외국인 근로자도 사업주의 미신고로 고용보험 가입이 누락된 경우, 피보험자격 확인청구를 통해 소급 가입을 받을 수 있습니다. 가입기간은 수급자격의 핵심이므로 반드시 확인하세요.',
+          '외국인 근로자도 사업주의 미신고로 고용보험 가입이 누락된 경우, 피보험자격 확인청구를 통해 소급 가입을 받을 수 있습니다. 가입기간은 수급자격의 핵심이므로 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -480,7 +480,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '반복수급 횟수를 줄이는 방법',
         content:
-          '<p><strong style="color:#1e3a5f">반복수급 제한에 걸리지 않으려면 다음 사항을 확인하세요.</strong></p>\n<ul>\n<li><strong>5년 경과 확인</strong> — 과거 수급 시점부터 5년이 지났다면 해당 수급 횟수는 제외됩니다. 이전 수급 종료일을 정확히 확인하세요.</li>\n<li><strong>조기재취업수당 활용</strong> — 빠르게 재취업하면 조기재취업수당을 받을 수 있고, 다음 실직 시 반복수급 제한에 걸릴 확률도 줄어듭니다.</li>\n<li><strong>예외 사유 소명</strong> — 이직 사유가 사업장 도산이나 체불 등 예외에 해당하면 반드시 증빙 서류를 제출하세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">반복수급 제한에 걸리지 않으려면 다음 사항을 확인하세요.</strong></p>\n<ul>\n<li><strong>5년 경과 확인</strong> — 과거 수급 시점부터 5년이 지났다면 해당 수급 횟수는 제외됩니다. 이전 수급 종료일을 정확히 확인하세요.</li>\n<li><strong>조기재취업수당 활용</strong> — 빠르게 재취업하면 조기재취업수당을 받을 수 있고, 다음 실직 시 반복수급 제한에 걸릴 확률도 줄어듭니다.</li>\n<li><strong>예외 사유 소명</strong> — 이직 사유가 사업장 도산이나 체불 등 예외에 해당하면 가능한 한 증빙 서류를 제출하세요.</li>\n</ul>',
       },
     ],
     cases: [
@@ -506,7 +506,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         question: '회사 폐업으로 실직했는데도 반복수급 제한이 적용되나요?',
         answer:
-          '<p>사업장 도산·폐업은 예외 사유에 해당합니다. 도산 사실을 증빙할 수 있으면 해당 수급 횟수에서 제외되므로 반복수급 제한이 적용되지 않을 수 있습니다.</p>',
+          '<p>사업장 도산·폐업은 예외 사유에 해당할 소지가 있습니다. 도산 사실을 증빙할 수 있으면 해당 수급 횟수에서 제외되므로 반복수급 제한이 적용되지 않을 수 있습니다.</p>',
       },
       {
         question: '반복수급 제한은 언제부터 적용되나요?',
@@ -549,7 +549,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '구직활동으로 인정되는 온라인 강의 기준',
         content:
-          '<p><strong style="color:#1e3a5f">모든 온라인 강의가 구직활동으로 인정되는 것은 아닙니다. 아래 조건을 충족해야 합니다.</strong></p>\n<ol>\n<li><strong>직업능력개발 관련 강의</strong> — 구직 분야와 관련된 직무교육, 자격증 준비, 직업훈련이어야 합니다. 취미·교양 강의는 인정되지 않습니다.</li>\n<li><strong>공인된 교육기관의 강의</strong> — HRD-Net(직업훈련포털), K-MOOC, 한국고용정보원 등 공인된 기관의 강의가 인정됩니다. 일반 유튜브 강의는 인정되지 않습니다.</li>\n<li><strong>수강 완료 증빙</strong> — 수강완료증, 수료증, 학습 이력 등 수강 사실을 증명할 수 있어야 합니다.</li>\n<li><strong>실업인정 기간 중 수강</strong> — 해당 실업인정 기간(보통 1~4주) 내에 수강한 강의여야 합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: HRD-Net이나 K-MOOC에서 직무 관련 강의를 수강하면 구직활동으로 인정받기 가장 확실합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">모든 온라인 강의가 구직활동으로 인정되는 것은 아닙니다. 아래 조건을 충족해야 합니다.</strong></p>\n<ol>\n<li><strong>직업능력개발 관련 강의</strong> — 구직 분야와 관련된 직무교육, 자격증 준비, 직업훈련이어야 합니다. 취미·교양 강의는 인정되지 않습니다.</li>\n<li><strong>공인된 교육기관의 강의</strong> — HRD-Net(직업훈련포털), K-MOOC, 한국고용정보원 등 공인된 기관의 강의가 인정될 수 있습니다. 일반 유튜브 강의는 인정되지 않습니다.</li>\n<li><strong>수강 완료 증빙</strong> — 수강완료증, 수료증, 학습 이력 등 수강 사실을 증명할 수 있어야 합니다.</li>\n<li><strong>실업인정 기간 중 수강</strong> — 해당 실업인정 기간(보통 1~4주) 내에 수강한 강의여야 합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: HRD-Net이나 K-MOOC에서 직무 관련 강의를 수강하면 구직활동으로 인정받기 가장 확실합니다.</blockquote>',
       },
       {
         title: '온라인 강의 구직활동 신고 방법',
@@ -559,19 +559,19 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '온라인 강의만으로 구직활동이 충분한가',
         content:
-          '<p><strong style="color:#1e3a5f">온라인 강의 수강은 구직활동 1회로 인정되지만, 매번 같은 방식만 사용하면 주의를 받을 수 있습니다.</strong></p>\n<p>고용센터는 다양한 구직활동을 권장합니다. 온라인 강의 외에도 입사지원, 채용박람회 참석, 직업상담 등을 병행하는 것이 좋습니다.</p>\n<ul>\n<li><strong>1~2차 실업인정</strong> — 온라인 강의 수강만으로도 충분히 인정됩니다.</li>\n<li><strong>3차 이후</strong> — 입사지원, 면접 참석 등 적극적 구직활동을 병행하세요.</li>\n<li><strong>직업훈련 수강</strong> — 고용센터 지정 직업훈련 과정에 참여하면 훈련연장급여도 받을 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">온라인 강의 수강은 구직활동 1회로 인정되지만, 매번 같은 방식만 사용하면 주의를 받을 수 있습니다.</strong></p>\n<p>고용센터는 다양한 구직활동을 권장합니다. 온라인 강의 외에도 입사지원, 채용박람회 참석, 직업상담 등을 병행하는 것이 좋습니다.</p>\n<ul>\n<li><strong>1~2차 실업인정</strong> — 온라인 강의 수강만으로도 충분히 인정될 수 있습니다.</li>\n<li><strong>3차 이후</strong> — 입사지원, 면접 참석 등 적극적 구직활동을 병행하세요.</li>\n<li><strong>직업훈련 수강</strong> — 고용센터 지정 직업훈련 과정에 참여하면 훈련연장급여도 받을 수 있습니다.</li>\n</ul>',
       },
       {
         title: '인정되지 않는 구직활동 사례',
         content:
-          '<p><strong style="color:#1e3a5f">다음과 같은 활동은 구직활동으로 인정되지 않으니 주의하세요.</strong></p>\n<ul>\n<li><strong>취미·교양 강의</strong> — 요리, 미술, 음악 등 직무와 무관한 강의는 인정되지 않습니다.</li>\n<li><strong>단순 영상 시청</strong> — 유튜브 강의, 무료 영상 콘텐츠 시청은 수료증이 발급되지 않으므로 인정이 어렵습니다.</li>\n<li><strong>수강 증빙이 불가능한 강의</strong> — 수강완료증이나 수료증이 발급되지 않는 강의는 증빙이 어려워 인정받기 힘듭니다.</li>\n<li><strong>동일 강의 반복 수강</strong> — 같은 강의를 여러 번 수강하는 것은 1회만 인정됩니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">다음과 같은 활동은 구직활동으로 인정되지 않으니 주의하세요.</strong></p>\n<ul>\n<li><strong>취미·교양 강의</strong> — 요리, 미술, 음악 등 직무와 무관한 강의는 인정되지 않습니다.</li>\n<li><strong>단순 영상 시청</strong> — 유튜브 강의, 무료 영상 콘텐츠 시청은 수료증이 발급되지 않으므로 인정이 어렵습니다.</li>\n<li><strong>수강 증빙이 불가능한 강의</strong> — 수강완료증이나 수료증이 발급되지 않는 강의는 증빙이 어려워 인정받기 힘듭니다.</li>\n<li><strong>동일 강의 반복 수강</strong> — 같은 강의를 여러 번 수강하는 것은 1회만 인정될 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
       {
         title: '판례 — 구직활동 진정성과 부정수급',
         summary:
-          '대구지법 2018구합23680 사건(대구지법, 2019.04.17 선고)에서 법원은 해외 체류 중 제3자가 대리로 재취업 노력신고를 한 것은 구직활동의 진정성이 없는 부정수급에 해당한다고 판시했습니다. 구직활동은 반드시 본인이 직접 수행하고 신고해야 합니다.',
+          '대구지법 2018구합23680 사건(대구지법, 2019.04.17 선고)에서 법원은 해외 체류 중 제3자가 대리로 재취업 노력신고를 한 것은 구직활동의 진정성이 없는 부정수급에 해당한다고 판시했습니다. 구직활동은 가능한 한 본인이 직접 수행하고 신고해야 합니다.',
         takeaway:
           '온라인 강의도 본인이 직접 수강해야 합니다. 타인이 대신 수강하거나 허위 수료증을 제출하면 부정수급으로 처벌받을 수 있습니다. 수강 기록과 수료증을 정확히 보관하세요.',
       },
@@ -580,12 +580,12 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         question: 'HRD-Net 외에 어떤 사이트의 강의가 인정되나요?',
         answer:
-          '<p>K-MOOC, 한국산업인력공단 온라인교육, 대한상공회의소 온라인교육, 공공기관 운영 직무교육 등이 인정됩니다. 관할 고용센터에 미리 문의하면 정확한 인정 여부를 확인할 수 있습니다.</p>',
+          '<p>K-MOOC, 한국산업인력공단 온라인교육, 대한상공회의소 온라인교육, 공공기관 운영 직무교육 등이 인정될 수 있습니다. 관할 고용센터에 미리 문의하면 정확한 인정 여부를 확인할 수 있습니다.</p>',
       },
       {
         question: '한 번의 실업인정 기간에 온라인 강의 몇 개까지 인정되나요?',
         answer:
-          '<p>구직활동 인정 횟수는 실업인정 기간별로 1~2회 이상이면 됩니다. 온라인 강의 여러 개를 수강했어도 같은 기간이면 1~2회로 인정됩니다. 다른 유형의 구직활동과 병행하면 더 좋습니다.</p>',
+          '<p>구직활동 인정 횟수는 실업인정 기간별로 1~2회 이상이면 됩니다. 온라인 강의 여러 개를 수강했어도 같은 기간이면 1~2회로 인정될 수 있습니다. 다른 유형의 구직활동과 병행하면 더 좋습니다.</p>',
       },
       {
         question: '자격증 시험 공부를 위한 인강도 인정되나요?',
@@ -633,12 +633,12 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '통근곤란 증빙서류 준비',
         content:
-          '<p><strong style="color:#1e3a5f">통근곤란 사유로 실업급여를 신청하려면 아래 증빙서류를 반드시 준비하세요.</strong></p>\n<ul>\n<li><strong>사업장 이전 확인서</strong> — 회사 이전 공문, 사업자등록증 변경 내역 등으로 사업장 이전 사실을 증빙합니다.</li>\n<li><strong>통근시간 증빙</strong> — 네이버 지도, 카카오맵 등에서 대중교통 경로 검색 결과를 캡처하세요. 출발지(자택)에서 도착지(사업장)까지의 편도 소요시간이 표시되어야 합니다.</li>\n<li><strong>주민등록등본</strong> — 현재 거주지를 확인하기 위한 서류입니다.</li>\n<li><strong>주거 이전 사유 증빙(해당 시)</strong> — 배우자 전근 발령, 부모 간병 사실 확인서 등을 준비하세요.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>통근곤란 사유 인정 가능성, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">통근시간, 이전 사유, 거주지 정보를 입력하면 수급 가능 여부를 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">통근곤란 사유로 실업급여를 신청하려면 아래 증빙서류를 가능한 한 준비하세요.</strong></p>\n<ul>\n<li><strong>사업장 이전 확인서</strong> — 회사 이전 공문, 사업자등록증 변경 내역 등으로 사업장 이전 사실을 증빙합니다.</li>\n<li><strong>통근시간 증빙</strong> — 네이버 지도, 카카오맵 등에서 대중교통 경로 검색 결과를 캡처하세요. 출발지(자택)에서 도착지(사업장)까지의 편도 소요시간이 표시되어야 합니다.</li>\n<li><strong>주민등록등본</strong> — 현재 거주지를 확인하기 위한 서류입니다.</li>\n<li><strong>주거 이전 사유 증빙(해당 시)</strong> — 배우자 전근 발령, 부모 간병 사실 확인서 등을 준비하세요.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>통근곤란 사유 인정 가능성, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">통근시간, 이전 사유, 거주지 정보를 입력하면 수급 가능 여부를 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '통근곤란 퇴사 전 확인할 것 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">통근곤란 사유로 퇴사하기 전에 반드시 아래 사항을 확인하세요.</strong></p>\n<ul>\n<li><strong>회사에 배치전환 요청</strong> — 사업장 이전으로 통근이 곤란해졌다면 먼저 회사에 가까운 지점이나 재택근무 전환을 요청하세요. 회사가 거부한 사실이 있으면 정당한 이직 사유로 인정받기 더 쉽습니다.</li>\n<li><strong>이직확인서 기재 사항 확인</strong> — 퇴사 시 이직확인서에 "사업장 이전에 따른 통근곤란"이 이직 사유로 기재되는지 회사와 미리 협의하세요.</li>\n<li><strong>3개월 내 퇴사 권장</strong> — 사업장 이전 후 너무 오래 근무하면 "통근곤란을 감수한 것"으로 판단될 수 있습니다. 이전 후 3개월 이내에 퇴사하는 것이 인정 가능성이 높습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">통근곤란 사유로 퇴사하기 전에 가능한 한 아래 사항을 확인하세요.</strong></p>\n<ul>\n<li><strong>회사에 배치전환 요청</strong> — 사업장 이전으로 통근이 곤란해졌다면 먼저 회사에 가까운 지점이나 재택근무 전환을 요청하세요. 회사가 거부한 사실이 있으면 정당한 이직 사유로 인정받기 더 쉽습니다.</li>\n<li><strong>이직확인서 기재 사항 확인</strong> — 퇴사 시 이직확인서에 "사업장 이전에 따른 통근곤란"이 이직 사유로 기재되는지 회사와 미리 협의하세요.</li>\n<li><strong>3개월 내 퇴사 권장</strong> — 사업장 이전 후 너무 오래 근무하면 "통근곤란을 감수한 것"으로 판단될 수 있습니다. 이전 후 3개월 이내에 퇴사하는 것이 인정 가능성이 높습니다.</li>\n</ul>',
       },
     ],
     cases: [

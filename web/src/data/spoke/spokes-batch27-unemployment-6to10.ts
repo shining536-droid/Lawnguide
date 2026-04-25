@@ -272,7 +272,7 @@ export const spokesBatch27Unemployment_6to10: SpokePage[] = [
       {
         title: '비자발적 폐업으로 인정되는 사유',
         content:
-          '<p><strong style="color:#1e3a5f">아래 사유 중 하나에 해당하면 비자발적 폐업으로 인정됩니다.</strong></p>\n<ul>\n<li>매출액이 직전 연도 대비 20% 이상 감소</li>\n<li>연속 6개월 이상 적자 발생</li>\n<li>자연재해, 화재 등으로 영업 불가</li>\n<li>건강 악화로 사업 운영이 어려운 경우</li>\n<li>도시 재개발, 건물 철거 등 외부 요인</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>내 폐업 사유가 수급 조건에 해당하는지 AI가 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">폐업 사유와 고용보험 가입 기간을 입력하면 수급 가능 여부를 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">아래 사유 중 하나에 해당하면 비자발적 폐업으로 인정될 수 있습니다.</strong></p>\n<ul>\n<li>매출액이 직전 연도 대비 20% 이상 감소</li>\n<li>연속 6개월 이상 적자 발생</li>\n<li>자연재해, 화재 등으로 영업 불가</li>\n<li>건강 악화로 사업 운영이 어려운 경우</li>\n<li>도시 재개발, 건물 철거 등 외부 요인</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>내 폐업 사유가 수급 조건에 해당하는지 AI가 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">폐업 사유와 고용보험 가입 기간을 입력하면 수급 가능 여부를 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '수급 금액과 기간',

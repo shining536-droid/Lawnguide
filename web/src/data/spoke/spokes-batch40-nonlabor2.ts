@@ -221,7 +221,7 @@ export const spokesBatch40Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2022다203096 사건(대법원, 2022.11.17 선고)에서 법원은 친권자와 미성년 자녀의 이익이 상반되는 사안에서 특별대리인을 선임하지 않고 친권자가 자녀를 대리해 한 법률행위는 무효라고 판시했습니다.',
         takeaway:
-          '미성년자 상속포기·한정승인에서 이해충돌이 있는 경우 반드시 특별대리인 절차를 거쳐야 효력이 유지됩니다.',
+          '미성년자 상속포기·한정승인에서 이해충돌이 있는 경우 가능한 한 특별대리인 절차를 거쳐야 효력이 유지됩니다.',
       },
     ],
     faq: [
@@ -284,7 +284,7 @@ export const spokesBatch40Nonlabor2: SpokePage[] = [
       {
         title: '리뷰가 명예훼손이 되는 기준 — 4가지 요건',
         content:
-          '<p><strong style="color:#1e3a5f">명예훼손죄는 "공연성 + 사실(또는 허위) 적시 + 특정인 명예 훼손"이 요건이며, 리뷰는 공연성이 거의 자동으로 충족됩니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 온라인에 공개 게시한 이상 불특정 다수에게 전파된다고 보아 공연성 인정.</li>\n<li><strong>특정성</strong> — 상호·위치·직원 명이 식별 가능하면 특정 인정. 익명 표현이라도 맥락상 식별되면 같음.</li>\n<li><strong>사실 vs 의견</strong> — 객관 서술은 사실적시, 가치판단은 의견으로 구별. 경계가 애매하면 법원 판단.</li>\n<li><strong>허위사실</strong> — 거짓을 알고 올렸다면 허위사실 적시 가중처벌(정통법 제70조 제2항).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 단순히 "맛없다" "불친절하다"는 의견이지만, "사장이 음식에 침을 뱉었다"는 사실적시에 해당합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">명예훼손죄는 "공연성 + 사실(또는 허위) 적시 + 특정인 명예 훼손"이 요건이며, 리뷰는 공연성이 거의 자동으로 충족됩니다.</strong></p>\n<ul>\n<li><strong>공연성</strong> — 온라인에 공개 게시한 이상 불특정 다수에게 전파된다고 보아 공연성 인정.</li>\n<li><strong>특정성</strong> — 상호·위치·직원 명이 식별 가능하면 특정 인정. 익명 표현이라도 맥락상 식별되면 같음.</li>\n<li><strong>사실 vs 의견</strong> — 객관 서술은 사실적시, 가치판단은 의견으로 구별. 경계가 애매하면 법원 판단.</li>\n<li><strong>허위사실</strong> — 거짓을 알고 올렸다면 허위사실 적시 가중처벌(정통법 제70조 제2항).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 단순히 "맛없다" "불친절하다"는 의견이지만, "사장이 음식에 침을 뱉었다"는 사실적시에 해당할 소지가 있습니다.</blockquote>',
       },
       {
         title: '방어 논리 — 공공이익·진실성 항변',
@@ -325,7 +325,7 @@ export const spokesBatch40Nonlabor2: SpokePage[] = [
       {
         question: '경험이 맞지만 표현이 거칠면 처벌되나요?',
         answer:
-          '<strong>사실이 진실이어도 모욕적 표현은 별도로 모욕죄가 될 수 있습니다.</strong> 욕설·인신공격은 반드시 피해야 합니다.',
+          '<strong>사실이 진실이어도 모욕적 표현은 별도로 모욕죄가 될 수 있습니다.</strong> 욕설·인신공격은 가능한 한 피해야 합니다.',
       },
       {
         question: '점주가 과한 손해배상 청구를 하면?',
@@ -371,7 +371,7 @@ export const spokesBatch40Nonlabor2: SpokePage[] = [
       {
         title: '직장 내 험담이 명예훼손이 되는 기준',
         content:
-          '<p><strong style="color:#1e3a5f">직장 내 대화도 "공연성" 요건이 충족되면 명예훼손에 해당합니다.</strong></p>\n<ul>\n<li><strong>공연성 판단</strong> — 당사자 외 다른 동료·상사 등 제3자가 있는 자리면 공연성 인정.</li>\n<li><strong>전파가능성 이론</strong> — 1:1 대화라도 전파 가능한 관계이면 공연성 인정 판례 다수.</li>\n<li><strong>단톡방·사내메신저</strong> — 참여자가 여러 명인 단톡방에 허위사실을 올리면 공연성 자동 인정.</li>\n<li><strong>구분</strong> — 확인된 사실 vs 평가·의견 vs 허위사실 구분이 대응 방향을 결정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "직장 내부"라는 이유로 명예훼손이 되지 않는 것이 아닙니다. 누가, 어디서, 어떤 관계에서 들었는지가 결정합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">직장 내 대화도 "공연성" 요건이 충족되면 명예훼손에 해당할 소지가 있습니다.</strong></p>\n<ul>\n<li><strong>공연성 판단</strong> — 당사자 외 다른 동료·상사 등 제3자가 있는 자리면 공연성 인정.</li>\n<li><strong>전파가능성 이론</strong> — 1:1 대화라도 전파 가능한 관계이면 공연성 인정 판례 다수.</li>\n<li><strong>단톡방·사내메신저</strong> — 참여자가 여러 명인 단톡방에 허위사실을 올리면 공연성 자동 인정.</li>\n<li><strong>구분</strong> — 확인된 사실 vs 평가·의견 vs 허위사실 구분이 대응 방향을 결정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "직장 내부"라는 이유로 명예훼손이 되지 않는 것이 아닙니다. 누가, 어디서, 어떤 관계에서 들었는지가 결정합니다.</blockquote>',
       },
       {
         title: '증거 수집 — 직장 환경 특성 반영',
@@ -504,7 +504,7 @@ export const spokesBatch40Nonlabor2: SpokePage[] = [
       {
         question: '가족·직장에 연락하면 어떻게 되나요?',
         answer:
-          '<strong>제3자를 이용한 접근도 스토킹으로 인정됩니다.</strong> 가족·직장의 진술·캡처를 추가 증거로 확보하세요.',
+          '<strong>제3자를 이용한 접근도 스토킹으로 인정될 수 있습니다.</strong> 가족·직장의 진술·캡처를 추가 증거로 확보하세요.',
       },
       {
         question: '신고했는데 가해자가 사과하면 취하해야 하나요?',
@@ -581,7 +581,7 @@ export const spokesBatch40Nonlabor2: SpokePage[] = [
       {
         question: '임대인과 합의로 중도해지하면?',
         answer:
-          '<strong>합의서에 수수료 부담을 명시하지 않으면 각자 부담이 원칙입니다.</strong> 합의 시점에 반드시 문서화하세요.',
+          '<strong>합의서에 수수료 부담을 명시하지 않으면 각자 부담이 원칙입니다.</strong> 합의 시점에 가능한 한 문서화하세요.',
       },
       {
         question: '묵시갱신 해지 3개월 전에 나가려면?',

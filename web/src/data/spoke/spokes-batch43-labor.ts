@@ -349,7 +349,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         question: '취업규칙에 "SNS 사용 제한" 조항이 있으면 자동으로 유효한가요?',
         answer:
-          '<strong>추상·포괄적 조항은 효력이 제한됩니다.</strong> 구체적 금지행위가 명시되어야 징계 근거로 인정됩니다.',
+          '<strong>추상·포괄적 조항은 효력이 제한됩니다.</strong> 구체적 금지행위가 명시되어야 징계 근거로 인정될 수 있습니다.',
       },
     ],
     cta: {
@@ -380,7 +380,7 @@ export const spokesBatch43Labor: SpokePage[] = [
         '서비스직·콜센터에서 고객 민원 단 1건으로 해고 통보를 받았다면 양정 과잉과 회사의 보호 의무 위반을 기준으로 다투는 방법을 지금 확인하세요.',
     },
     intro:
-      '<p>"고객이 블랙컨슈머인 걸 회사도 아는데, 민원 한 건 올라왔다고 저를 해고했어요"라는 상담을 자주 받습니다. 대법원은 단발적 민원만으로 해고하는 것은 비례원칙에 반한다고 일관되게 보고 있습니다. 감정노동자 보호법·산업안전보건법은 오히려 회사에게 민원 근로자를 보호할 의무를 지웁니다. 해고 통보가 있었다면 반드시 다퉈야 합니다.</p>',
+      '<p>"고객이 블랙컨슈머인 걸 회사도 아는데, 민원 한 건 올라왔다고 저를 해고했어요"라는 상담을 자주 받습니다. 대법원은 단발적 민원만으로 해고하는 것은 비례원칙에 반한다고 일관되게 보고 있습니다. 감정노동자 보호법·산업안전보건법은 오히려 회사에게 민원 근로자를 보호할 의무를 지웁니다. 해고 통보가 있었다면 가능한 한 다퉈야 합니다.</p>',
     sections: [
       {
         title: '고객 민원 해고가 부당한 5가지 이유',
@@ -518,7 +518,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         question: '회식에서 술을 마셔도 근무시간이 되나요?',
         answer:
-          '<strong>음주 여부는 근무시간 판단과 무관합니다.</strong> 업무 관련성·강제성이 있으면 인정됩니다.',
+          '<strong>음주 여부는 근무시간 판단과 무관합니다.</strong> 업무 관련성·강제성이 있으면 인정될 수 있습니다.',
       },
       {
         question: '퇴사 후에 청구해도 되나요?',
@@ -559,7 +559,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '임금 공제가 허용되는 예외 — 4가지 요건',
         content:
-          '<p><strong style="color:#1e3a5f">법령·단체협약·근로자 개별 동의가 있어도 까다로운 요건을 갖춰야 합니다.</strong></p>\n<ul>\n<li><strong>1. 법령 근거</strong> — 세금·4대보험 등 법정 공제만 무조건 허용.</li>\n<li><strong>2. 단체협약</strong> — 노조와의 단체협약에 명시된 공제(조합비 등).</li>\n<li><strong>3. 개별 서면 동의</strong> — 근로자 자유의사에 의한 구체적·개별적 서면.</li>\n<li><strong>4. 근로자 이익 부합</strong> — 공제가 근로자에게 실질 이익이 되어야 유효.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 입사 시 "동의서" 일괄 서명은 자유의사 부족으로 무효 가능성이 큽니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">법령·단체협약·근로자 개별 동의가 있어도 까다로운 요건을 갖춰야 합니다.</strong></p>\n<ul>\n<li><strong>1. 법령 근거</strong> — 세금·4대보험 등 법정 공제만 원칙적으로 허용.</li>\n<li><strong>2. 단체협약</strong> — 노조와의 단체협약에 명시된 공제(조합비 등).</li>\n<li><strong>3. 개별 서면 동의</strong> — 근로자 자유의사에 의한 구체적·개별적 서면.</li>\n<li><strong>4. 근로자 이익 부합</strong> — 공제가 근로자에게 실질 이익이 되어야 유효.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 입사 시 "동의서" 일괄 서명은 자유의사 부족으로 무효 가능성이 큽니다.</blockquote>',
       },
       {
         title: '유니폼비 공제가 불법인 이유 3가지',
@@ -646,7 +646,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '교육기간이 근로시간이 되는 5가지 기준',
         content:
-          '<p><strong style="color:#1e3a5f">필수성·강제성·지휘감독 3요소를 종합해 판단합니다.</strong></p>\n<ul>\n<li><strong>1. 업무 필수성</strong> — 업무 수행을 위해 반드시 이수해야 하는 교육인지.</li>\n<li><strong>2. 강제 참석</strong> — 불참 시 채용 취소·불이익 있으면 강제성 인정.</li>\n<li><strong>3. 사용자 지휘</strong> — 회사 지정 장소·시간·강사·커리큘럼 여부.</li>\n<li><strong>4. 근로 준비성</strong> — 교육 내용이 실제 업무와 직결되는지.</li>\n<li><strong>5. 수료 필수</strong> — 수료 후 정식 채용이 전제되면 근로 시작으로 볼 수 있음.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "교육은 근로가 아니다"라는 회사 주장은 강제 수준이면 통하지 않습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">필수성·강제성·지휘감독 3요소를 종합해 판단합니다.</strong></p>\n<ul>\n<li><strong>1. 업무 필수성</strong> — 업무 수행을 위해 가능한 한 이수해야 하는 교육인지.</li>\n<li><strong>2. 강제 참석</strong> — 불참 시 채용 취소·불이익 있으면 강제성 인정.</li>\n<li><strong>3. 사용자 지휘</strong> — 회사 지정 장소·시간·강사·커리큘럼 여부.</li>\n<li><strong>4. 근로 준비성</strong> — 교육 내용이 실제 업무와 직결되는지.</li>\n<li><strong>5. 수료 필수</strong> — 수료 후 정식 채용이 전제되면 근로 시작으로 볼 수 있음.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "교육은 근로가 아니다"라는 회사 주장은 강제 수준이면 통하지 않습니다.</blockquote>',
       },
       {
         title: '무급 교육 vs 유급 교육 — 판단 기준',
@@ -682,7 +682,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         question: '교육 후 시험 떨어지면 채용 취소된다는데 이것도 강제성인가요?',
         answer:
-          '<strong>불이익(채용 취소)을 전제로 한 교육은 강제성이 강하게 인정됩니다.</strong> 실질 근로로 볼 가능성 큼.',
+          '<strong>불이익(채용 취소)을 전제로 한 교육은 강제성이 강하게 인정될 수 있습니다.</strong> 실질 근로로 볼 가능성 큼.',
       },
       {
         question: '사내 온라인 강의를 퇴근 후 이수 의무화하면 어떤가요?',
@@ -692,7 +692,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         question: '해외 연수 3개월을 무급으로 갔다 왔는데 청구 가능한가요?',
         answer:
-          '<strong>회사 지정 해외 연수는 대부분 근로시간에 해당합니다.</strong> 최소 최저임금 기준 청구 가능.',
+          '<strong>회사 지정 해외 연수는 대부분 근로시간에 해당할 소지가 있습니다.</strong> 최소 최저임금 기준 청구 가능.',
       },
       {
         question: '교육 후 3년 넘게 지났는데 청구 가능한가요?',
@@ -835,7 +835,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '실무 체크 — 계약서·임금명세서 확인',
         content:
-          '<p><strong style="color:#1e3a5f">임금명세서 3개월치 원본 확보가 가장 먼저 할 일입니다.</strong></p>\n<ul>\n<li><strong>명세서 항목 분리</strong> — 기본급·직책수당·성과급 항목별 금액.</li>\n<li><strong>상여금 반영</strong> — 연 지급 상여의 3/12를 평균임금에 더하는지 확인.</li>\n<li><strong>미지급 수당</strong> — 야근·휴일수당 미지급분은 별도 청구와 평균임금 포함 병행.</li>\n<li><strong>통상임금 소송</strong> — 통상임금 범위 확대 판결 활용해 퇴직금 소급 증액 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 퇴직금 수령 시 "이의 없음" 서명 전 반드시 재계산 확인, 서명 후 번복 어려움.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금명세서 3개월치 원본 확보가 가장 먼저 할 일입니다.</strong></p>\n<ul>\n<li><strong>명세서 항목 분리</strong> — 기본급·직책수당·성과급 항목별 금액.</li>\n<li><strong>상여금 반영</strong> — 연 지급 상여의 3/12를 평균임금에 더하는지 확인.</li>\n<li><strong>미지급 수당</strong> — 야근·휴일수당 미지급분은 별도 청구와 평균임금 포함 병행.</li>\n<li><strong>통상임금 소송</strong> — 통상임금 범위 확대 판결 활용해 퇴직금 소급 증액 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 퇴직금 수령 시 "이의 없음" 서명 전 가능한 한 재계산 확인, 서명 후 번복 어려움.</blockquote>',
       },
     ],
     cases: [
@@ -931,7 +931,7 @@ export const spokesBatch43Labor: SpokePage[] = [
         summary:
           '대법원 2018두47264 사건(대법원, 2021.03.18 선고)에서 법원은 고용보험법 제70조 제2항의 급여 신청기간(종료 후 12개월 이내) 규정이 강행규정인지 훈시규정인지 해석하며, 법정 기한 준수가 수급의 필수 요건임을 확인했습니다.',
         takeaway:
-          '계약 만료 후 12개월 이내 반드시 신청해야 하며 기한 경과 시 청구권이 소멸할 수 있습니다.',
+          '계약 만료 후 12개월 이내 가능한 한 신청해야 하며 기한 경과 시 청구권이 소멸할 수 있습니다.',
       },
     ],
     faq: [
@@ -958,7 +958,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         question: '프리랜서 전환 후 수급 신청 되나요?',
         answer:
-          '<strong>프리랜서 소득이 수급일액 초과하면 부분 정지됩니다.</strong> 시작 전 반드시 신고.',
+          '<strong>프리랜서 소득이 수급일액 초과하면 부분 정지됩니다.</strong> 시작 전 가능한 한 신고.',
       },
     ],
     cta: {
@@ -1009,7 +1009,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '주의사항 — 놓치기 쉬운 포인트',
         content:
-          '<p><strong style="color:#1e3a5f">폐업은 자동이 아니라 증빙 제출이 필요합니다.</strong></p>\n<ul>\n<li><strong>사업주 잠적</strong> — 근로감독관 신고로 체불 확인서 발급, 이직확인 대체.</li>\n<li><strong>4대보험 미가입</strong> — 소급 가입 요청으로 피보험단위기간 인정 가능.</li>\n<li><strong>폐업 전 임금 일부 수령</strong> — 수령한 부분은 체당금에서 차감.</li>\n<li><strong>12개월 시효</strong> — 폐업 후 12개월 지나면 실업급여 청구권 소멸.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 사업주와 연락이 닿아도 "자진 퇴사"로 기재 유도에 응하지 말고 반드시 "폐업"으로 주장하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">폐업은 자동이 아니라 증빙 제출이 필요합니다.</strong></p>\n<ul>\n<li><strong>사업주 잠적</strong> — 근로감독관 신고로 체불 확인서 발급, 이직확인 대체.</li>\n<li><strong>4대보험 미가입</strong> — 소급 가입 요청으로 피보험단위기간 인정 가능.</li>\n<li><strong>폐업 전 임금 일부 수령</strong> — 수령한 부분은 체당금에서 차감.</li>\n<li><strong>12개월 시효</strong> — 폐업 후 12개월 지나면 실업급여 청구권 소멸.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 사업주와 연락이 닿아도 "자진 퇴사"로 기재 유도에 응하지 말고 가능한 한 "폐업"으로 주장하세요.</blockquote>',
       },
     ],
     cases: [

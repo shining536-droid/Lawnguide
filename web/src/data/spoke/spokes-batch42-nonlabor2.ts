@@ -136,7 +136,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
       {
         title: '실무 주의점 — 서명 전 체크',
         content:
-          '<p><strong style="color:#1e3a5f">합의 전에 과실 확정과 치료 종결 시점을 반드시 나눠 생각하세요.</strong></p>\n<ul>\n<li><strong>대인·대물 분리</strong> — 대물은 빠른 수리 위해 먼저, 대인은 치료 완료 후 합의.</li>\n<li><strong>렌트카 비용</strong> — 과실비율 따라 자부담 달라짐, 수리기간 7~14일 내 환원.</li>\n<li><strong>수리 견적서</strong> — 중고차 시세하락(격락손해)은 별도 청구 가능.</li>\n<li><strong>소멸시효</strong> — 3년 내 청구, 후유증은 증상 확정일부터.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 뒤차가 무보험·책임보험만인 경우 정부보장사업(손해보험협회) 청구를 검토해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의 전에 과실 확정과 치료 종결 시점을 가능한 한 나눠 생각하세요.</strong></p>\n<ul>\n<li><strong>대인·대물 분리</strong> — 대물은 빠른 수리 위해 먼저, 대인은 치료 완료 후 합의.</li>\n<li><strong>렌트카 비용</strong> — 과실비율 따라 자부담 달라짐, 수리기간 7~14일 내 환원.</li>\n<li><strong>수리 견적서</strong> — 중고차 시세하락(격락손해)은 별도 청구 가능.</li>\n<li><strong>소멸시효</strong> — 3년 내 청구, 후유증은 증상 확정일부터.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 뒤차가 무보험·책임보험만인 경우 정부보장사업(손해보험협회) 청구를 검토해야 합니다.</blockquote>',
       },
     ],
     cases: [
@@ -310,7 +310,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
       {
         title: '실무 체크리스트 — 합의 전 주의',
         content:
-          '<p><strong style="color:#1e3a5f">합의서 작성 전에 격락손해 유보 문구를 반드시 넣으세요.</strong></p>\n<ul>\n<li><strong>유보 문구</strong> — "수리비 외 시세하락 손해는 별도 청구" 명시.</li>\n<li><strong>소멸시효</strong> — 사고일 기준 3년 내 청구.</li>\n<li><strong>리스·렌탈 차량</strong> — 소유주(리스사·렌탈사)가 청구권자, 계약서 확인.</li>\n<li><strong>할증 피하기</strong> — 가해자 보험사 대물만 청구, 피해자 보험 할증 무관.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 일반 종합합의서는 "일체 청구권 포기" 조항이 있어 격락손해도 차단될 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의서 작성 전에 격락손해 유보 문구를 가능한 한 넣으세요.</strong></p>\n<ul>\n<li><strong>유보 문구</strong> — "수리비 외 시세하락 손해는 별도 청구" 명시.</li>\n<li><strong>소멸시효</strong> — 사고일 기준 3년 내 청구.</li>\n<li><strong>리스·렌탈 차량</strong> — 소유주(리스사·렌탈사)가 청구권자, 계약서 확인.</li>\n<li><strong>할증 피하기</strong> — 가해자 보험사 대물만 청구, 피해자 보험 할증 무관.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 일반 종합합의서는 "일체 청구권 포기" 조항이 있어 격락손해도 차단될 수 있습니다.</blockquote>',
       },
     ],
     cases: [
@@ -319,7 +319,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2024다272941 사건(대법원, 2025.01.09 선고)에서 법원은 자동차 충돌로 발생한 손해배상이 통상의 책임보험금과 사고 결과 사이에 인과관계가 단절되지 않는다는 원칙을 확인하며, 수리 후 남은 교환가치 감소도 배상 범위에 포함된다는 법리를 유지했습니다.',
         takeaway:
-          '수리비로 끝이 아니라 "시장 평가 하락"도 손해로 인정됩니다.',
+          '수리비로 끝이 아니라 "시장 평가 하락"도 손해로 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -397,7 +397,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
       {
         title: '실무 체크리스트 — 사고 직후',
         content:
-          '<p><strong style="color:#1e3a5f">자동차 사고와 동일하게 경찰 신고와 증거 확보가 기본입니다.</strong></p>\n<ul>\n<li><strong>112 신고</strong> — 인적 피해 있으면 반드시 신고, 뺑소니 방지.</li>\n<li><strong>상대 신원 확보</strong> — 연락처·사진·PM 번호(공유 PM은 앱 기록).</li>\n<li><strong>병원 진료</strong> — 통증 없어도 24시간 내 진료, 상해진단서 확보.</li>\n<li><strong>CCTV 보존 요청</strong> — 24~72시간 내 도로·주변 상가 CCTV 보존 요청.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: PM은 음주운전·무면허·헬멧 미착용 시 과실 가중, 처벌 가중도 있으니 주의하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">자동차 사고와 동일하게 경찰 신고와 증거 확보가 기본입니다.</strong></p>\n<ul>\n<li><strong>112 신고</strong> — 인적 피해 있으면 가능한 한 신고, 뺑소니 방지.</li>\n<li><strong>상대 신원 확보</strong> — 연락처·사진·PM 번호(공유 PM은 앱 기록).</li>\n<li><strong>병원 진료</strong> — 통증 없어도 24시간 내 진료, 상해진단서 확보.</li>\n<li><strong>CCTV 보존 요청</strong> — 24~72시간 내 도로·주변 상가 CCTV 보존 요청.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: PM은 음주운전·무면허·헬멧 미착용 시 과실 가중, 처벌 가중도 있으니 주의하세요.</blockquote>',
       },
     ],
     cases: [

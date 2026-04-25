@@ -30,7 +30,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         title: '디지털 자산 상속 범위 — 무엇이 상속되나',
         content:
-          '<p><strong style="color:#1e3a5f">디지털 자산은 재산가치 유무에 따라 상속 가능 여부가 달라집니다.</strong></p>\n<ul>\n<li><strong>상속 가능 (재산권)</strong> — 가상자산(비트코인·이더리움), 간편결제 잔액, 포인트·마일리지(약관 허용 시), 블로그·유튜브 수익 정산금.</li>\n<li><strong>열람만 가능 (일신전속 아님)</strong> — 이메일 본문, SNS 게시글, 클라우드 저장 사진·동영상.</li>\n<li><strong>일신전속(상속 불가)</strong> — 네이버 블로그 이웃관계, 게임 캐릭터 등 약관상 양도 금지.</li>\n<li><strong>근거 조문</strong> — 민법 제1005조(상속재산 범위), 통신비밀보호법 제3조(열람 제한).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 가상자산은 수천만 원~수억 원에 달할 수 있어 상속세 신고에 반드시 포함해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">디지털 자산은 재산가치 유무에 따라 상속 가능 여부가 달라집니다.</strong></p>\n<ul>\n<li><strong>상속 가능 (재산권)</strong> — 가상자산(비트코인·이더리움), 간편결제 잔액, 포인트·마일리지(약관 허용 시), 블로그·유튜브 수익 정산금.</li>\n<li><strong>열람만 가능 (일신전속 아님)</strong> — 이메일 본문, SNS 게시글, 클라우드 저장 사진·동영상.</li>\n<li><strong>일신전속(상속 불가)</strong> — 네이버 블로그 이웃관계, 게임 캐릭터 등 약관상 양도 금지.</li>\n<li><strong>근거 조문</strong> — 민법 제1005조(상속재산 범위), 통신비밀보호법 제3조(열람 제한).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 가상자산은 수천만 원~수억 원에 달할 수 있어 상속세 신고에 가능한 한 포함해야 합니다.</blockquote>',
       },
       {
         title: '통신사·플랫폼별 신청 순서',
@@ -117,7 +117,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         title: '대습상속 성립 요건 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제1001조에 따라 아래 3가지 요건이 모두 충족돼야 대습상속이 성립합니다.</strong></p>\n<ul>\n<li><strong>피대습자 선사망·결격</strong> — 상속인이 될 직계비속(자녀)이 피상속인 사망 전에 먼저 사망하거나 결격사유 해당.</li>\n<li><strong>대습자의 직계비속 지위</strong> — 먼저 사망한 자녀의 자녀(손자녀), 손자녀가 여럿이면 공동 대습.</li>\n<li><strong>대습자 배우자도 대습상속</strong> — 먼저 사망한 자녀의 배우자(며느리·사위)도 대습상속인(민법 제1003조 제2항).</li>\n<li><strong>제외 사유</strong> — 단순 상속포기자의 자녀는 대습상속 대상 아님(자녀가 사망한 경우만 해당).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "먼저 사망"은 피상속인 사망 전 사망을 의미하며, 동시 사망한 경우에도 대습상속이 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제1001조에 따라 아래 3가지 요건이 모두 충족돼야 대습상속이 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>피대습자 선사망·결격</strong> — 상속인이 될 직계비속(자녀)이 피상속인 사망 전에 먼저 사망하거나 결격사유 해당.</li>\n<li><strong>대습자의 직계비속 지위</strong> — 먼저 사망한 자녀의 자녀(손자녀), 손자녀가 여럿이면 공동 대습.</li>\n<li><strong>대습자 배우자도 대습상속</strong> — 먼저 사망한 자녀의 배우자(며느리·사위)도 대습상속인(민법 제1003조 제2항).</li>\n<li><strong>제외 사유</strong> — 단순 상속포기자의 자녀는 대습상속 대상 아님(자녀가 사망한 경우만 해당).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "먼저 사망"은 피상속인 사망 전 사망을 의미하며, 동시 사망한 경우에도 대습상속이 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '법정상속분 계산 공식',
@@ -132,7 +132,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         title: '분쟁 실무 — 자주 놓치는 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">대습상속은 복잡해서 분쟁이 잦으므로 아래 3가지를 반드시 확인하세요.</strong></p>\n<ul>\n<li><strong>피대습자 생전 증여 합산</strong> — 아버지가 생전 받은 증여도 손자의 특별수익에 합산(민법 제1008조 유추).</li>\n<li><strong>대습상속과 유류분</strong> — 손자 유류분 = 대습된 법정상속분 × 1/2.</li>\n<li><strong>상속등기 기한</strong> — 2025년 개정 부동산등기법 시행으로 상속 안 날부터 3년 내 등기 의무(위반 시 과태료).</li>\n<li><strong>증명 서류</strong> — 피대습자 기본증명서(사망 기재), 제적등본 필요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 대습상속인이 여럿일 때 전원 동의 없이는 상속재산 처분 불가하므로 초기부터 협의체를 구성하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">대습상속은 복잡해서 분쟁이 잦으므로 아래 3가지를 가능한 한 확인하세요.</strong></p>\n<ul>\n<li><strong>피대습자 생전 증여 합산</strong> — 아버지가 생전 받은 증여도 손자의 특별수익에 합산(민법 제1008조 유추).</li>\n<li><strong>대습상속과 유류분</strong> — 손자 유류분 = 대습된 법정상속분 × 1/2.</li>\n<li><strong>상속등기 기한</strong> — 2025년 개정 부동산등기법 시행으로 상속 안 날부터 3년 내 등기 의무(위반 시 과태료).</li>\n<li><strong>증명 서류</strong> — 피대습자 기본증명서(사망 기재), 제적등본 필요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 대습상속인이 여럿일 때 전원 동의 없이는 상속재산 처분 불가하므로 초기부터 협의체를 구성하세요.</blockquote>',
       },
     ],
     cases: [
@@ -209,7 +209,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         title: '기여분 인정 요건 — 특별한 기여여야',
         content:
-          '<p><strong style="color:#1e3a5f">통상적 부양을 넘어선 "특별한 기여"일 때만 기여분이 인정됩니다.</strong></p>\n<ul>\n<li><strong>특별 부양형</strong> — 10년 이상 동거 간병, 치매·중병 부모 직접 수발(간병인 대체 수준).</li>\n<li><strong>재산 증가 기여형</strong> — 가업에 무보수 노동, 피상속인 재산 관리·증식에 직접 기여.</li>\n<li><strong>통상 부양은 제외</strong> — 명절 방문, 월 생활비 보조 등은 인정 곤란.</li>\n<li><strong>산정 방법</strong> — 법원 재량으로 상속재산 10~50% 범위 통상 인정.</li>\n<li><strong>절차</strong> — 상속재산분할협의 불발 시 가정법원에 기여분 심판 청구(단독 심판 불가).</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">특별수익·기여분 주장 가능 여부와 입증 자료 체크리스트를 AI가 정리해드립니다.</p>\n<a href="/chat?domain=inheritance" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">통상적 부양을 넘어선 "특별한 기여"일 때만 기여분이 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>특별 부양형</strong> — 10년 이상 동거 간병, 치매·중병 부모 직접 수발(간병인 대체 수준).</li>\n<li><strong>재산 증가 기여형</strong> — 가업에 무보수 노동, 피상속인 재산 관리·증식에 직접 기여.</li>\n<li><strong>통상 부양은 제외</strong> — 명절 방문, 월 생활비 보조 등은 인정 곤란.</li>\n<li><strong>산정 방법</strong> — 법원 재량으로 상속재산 10~50% 범위 통상 인정.</li>\n<li><strong>절차</strong> — 상속재산분할협의 불발 시 가정법원에 기여분 심판 청구(단독 심판 불가).</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">특별수익·기여분 주장 가능 여부와 입증 자료 체크리스트를 AI가 정리해드립니다.</p>\n<a href="/chat?domain=inheritance" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '구체적 상속분 계산 공식',
@@ -219,7 +219,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         title: '입증 자료·청구 절차',
         content:
-          '<p><strong style="color:#1e3a5f">특별수익·기여분은 주장하는 측이 입증책임을 집니다.</strong></p>\n<ul>\n<li><strong>특별수익 입증</strong> — 계좌이체 내역, 등기부등본(증여등기), 증여세 신고서, 가족 문자·녹취.</li>\n<li><strong>기여분 입증</strong> — 간병 일지, 병원 기록, 동거 증빙(주민등록등본), 가업 노동 증명.</li>\n<li><strong>청구 절차</strong> — 상속재산분할심판 청구와 동시에 기여분 청구(단독 불가, 민법 제1008조의2 제4항).</li>\n<li><strong>관할 법원</strong> — 피상속인 최후주소지 관할 가정법원.</li>\n<li><strong>소멸시효</strong> — 상속재산분할청구권은 제척기간 없음(단 상속회복청구는 3년·10년).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 기여분 심판은 반드시 상속재산분할심판과 병합 청구해야 하며 단독 청구하면 각하됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">특별수익·기여분은 주장하는 측이 입증책임을 집니다.</strong></p>\n<ul>\n<li><strong>특별수익 입증</strong> — 계좌이체 내역, 등기부등본(증여등기), 증여세 신고서, 가족 문자·녹취.</li>\n<li><strong>기여분 입증</strong> — 간병 일지, 병원 기록, 동거 증빙(주민등록등본), 가업 노동 증명.</li>\n<li><strong>청구 절차</strong> — 상속재산분할심판 청구와 동시에 기여분 청구(단독 불가, 민법 제1008조의2 제4항).</li>\n<li><strong>관할 법원</strong> — 피상속인 최후주소지 관할 가정법원.</li>\n<li><strong>소멸시효</strong> — 상속재산분할청구권은 제척기간 없음(단 상속회복청구는 3년·10년).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 기여분 심판은 가능한 한 상속재산분할심판과 병합 청구해야 하며 단독 청구하면 각하됩니다.</blockquote>',
       },
     ],
     cases: [
@@ -235,7 +235,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         question: '형이 결혼할 때 아파트 받은 것도 특별수익인가요?',
         answer:
-          '<strong>네, 전형적 특별수익에 해당합니다.</strong> 현재 시가로 평가해 형의 상속분에서 공제하며 20년 전 증여도 동일하게 적용됩니다.',
+          '<strong>네, 전형적 특별수익에 해당할 소지가 있습니다.</strong> 현재 시가로 평가해 형의 상속분에서 공제하며 20년 전 증여도 동일하게 적용됩니다.',
       },
       {
         question: '10년 넘게 부모님 간병한 경우 기여분 얼마나 인정되나요?',
@@ -306,7 +306,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         title: '세금·송금 주의점',
         content:
-          '<p><strong style="color:#1e3a5f">이중과세 방지와 송금 한도 규정을 반드시 확인하세요.</strong></p>\n<ul>\n<li><strong>한국 상속세</strong> — 피상속인이 국내 거주자면 전 세계 재산, 비거주자면 국내 재산만 과세.</li>\n<li><strong>해외 상속세 이중과세</strong> — 미국·캐나다는 상속세 없음, 일부 유럽국은 조세조약으로 공제.</li>\n<li><strong>해외 송금</strong> — 거주자 증여는 연간 10만 달러 한도, 상속은 한도 없음(외환신고 필요).</li>\n<li><strong>취득세</strong> — 상속 취득세 2.8%(지방교육세 포함), 무주택자 감면 미적용.</li>\n<li><strong>양도소득세</strong> — 상속받은 부동산 양도 시 취득가액은 "상속개시 당시 평가액".</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 미국 시민권자는 FBAR(해외계좌 신고) 대상이 될 수 있으니 한국 상속재산 취득 후 미국 세무사에게도 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">이중과세 방지와 송금 한도 규정을 가능한 한 확인하세요.</strong></p>\n<ul>\n<li><strong>한국 상속세</strong> — 피상속인이 국내 거주자면 전 세계 재산, 비거주자면 국내 재산만 과세.</li>\n<li><strong>해외 상속세 이중과세</strong> — 미국·캐나다는 상속세 없음, 일부 유럽국은 조세조약으로 공제.</li>\n<li><strong>해외 송금</strong> — 거주자 증여는 연간 10만 달러 한도, 상속은 한도 없음(외환신고 필요).</li>\n<li><strong>취득세</strong> — 상속 취득세 2.8%(지방교육세 포함), 무주택자 감면 미적용.</li>\n<li><strong>양도소득세</strong> — 상속받은 부동산 양도 시 취득가액은 "상속개시 당시 평가액".</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 미국 시민권자는 FBAR(해외계좌 신고) 대상이 될 수 있으니 한국 상속재산 취득 후 미국 세무사에게도 확인하세요.</blockquote>',
       },
     ],
     cases: [
@@ -393,7 +393,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         title: '민사 손해배상·실무 주의점',
         content:
-          '<p><strong style="color:#1e3a5f">매출 감소가 입증되면 재산상 손해까지 청구 가능합니다.</strong></p>\n<ul>\n<li><strong>위자료 범위</strong> — 악성 리뷰 1건 기준 300만~2,000만 원, 다수·반복 시 가중.</li>\n<li><strong>재산손해</strong> — 매출 감소분(리뷰 전후 카드매출 비교), 광고비 증가분 청구 가능.</li>\n<li><strong>가처분 신청</strong> — 긴급 시 게시물 삭제 가처분(민사, 1~2주 내 결정).</li>\n<li><strong>증거 보전</strong> — 플랫폼이 삭제할 수 있으니 캡처·URL 즉시 보관, 공증사무소 공증 권장.</li>\n<li><strong>소멸시효</strong> — 민사 불법행위 손해배상은 안 날부터 3년, 사건일부터 10년.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 삭제 전 반드시 캡처·URL 확보. 플랫폼 삭제 후 증거가 사라지면 형사·민사 모두 어려워집니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">매출 감소가 입증되면 재산상 손해까지 청구 가능합니다.</strong></p>\n<ul>\n<li><strong>위자료 범위</strong> — 악성 리뷰 1건 기준 300만~2,000만 원, 다수·반복 시 가중.</li>\n<li><strong>재산손해</strong> — 매출 감소분(리뷰 전후 카드매출 비교), 광고비 증가분 청구 가능.</li>\n<li><strong>가처분 신청</strong> — 긴급 시 게시물 삭제 가처분(민사, 1~2주 내 결정).</li>\n<li><strong>증거 보전</strong> — 플랫폼이 삭제할 수 있으니 캡처·URL 즉시 보관, 공증사무소 공증 권장.</li>\n<li><strong>소멸시효</strong> — 민사 불법행위 손해배상은 안 날부터 3년, 사건일부터 10년.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 삭제 전 가능한 한 캡처·URL 확보. 플랫폼 삭제 후 증거가 사라지면 형사·민사 모두 어려워집니다.</blockquote>',
       },
     ],
     cases: [
@@ -429,7 +429,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         question: '경쟁업체가 쓴 리뷰라는 증거는 어떻게 찾나요?',
         answer:
-          '<strong>경찰 고소 후 IP 조회로 확인합니다.</strong> 동일 IP 대역이나 계정 생성 패턴이 경쟁업체와 일치하면 업무방해죄까지 성립합니다.',
+          '<strong>경찰 고소 후 IP 조회로 확인합니다.</strong> 동일 IP 대역이나 계정 생성 패턴이 경쟁업체와 일치하면 업무방해죄까지 성립할 수 있습니다.',
       },
     ],
     cta: {
@@ -567,7 +567,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         title: '합의·실무 체크포인트',
         content:
-          '<p><strong style="color:#1e3a5f">합의 시 재발방지 의무와 삭제 확약을 반드시 포함하세요.</strong></p>\n<ul>\n<li><strong>합의서 필수 조항</strong> — 모든 캡처·전파본 삭제 확인, 재유포 금지, 위반 시 가중 위약금(통상 5배).</li>\n<li><strong>합의금 범위</strong> — 단순 유포 300만~1,000만 원, 전사적 유포 1,000만~3,000만 원.</li>\n<li><strong>사내 징계 병행</strong> — 회사의 징계와 별개 절차이므로 합의에 "징계 유지" 명시.</li>\n<li><strong>처벌불원서</strong> — 반의사불벌죄(모욕·사실적시 명예훼손)는 처벌불원 제출 시 불기소, 정보통신망법 허위사실은 반의사불벌 아님.</li>\n<li><strong>소멸시효</strong> — 민사 안 날부터 3년, 형사 공소시효 5~10년.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 합의 전 유포 범위·대상자 다 특정된 상태여야 함. 성급한 합의는 새 피해자 발견 시 추가 대응을 막습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의 시 재발방지 의무와 삭제 확약을 가능한 한 포함하세요.</strong></p>\n<ul>\n<li><strong>합의서 필수 조항</strong> — 모든 캡처·전파본 삭제 확인, 재유포 금지, 위반 시 가중 위약금(통상 5배).</li>\n<li><strong>합의금 범위</strong> — 단순 유포 300만~1,000만 원, 전사적 유포 1,000만~3,000만 원.</li>\n<li><strong>사내 징계 병행</strong> — 회사의 징계와 별개 절차이므로 합의에 "징계 유지" 명시.</li>\n<li><strong>처벌불원서</strong> — 반의사불벌죄(모욕·사실적시 명예훼손)는 처벌불원 제출 시 불기소, 정보통신망법 허위사실은 반의사불벌 아님.</li>\n<li><strong>소멸시효</strong> — 민사 안 날부터 3년, 형사 공소시효 5~10년.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 합의 전 유포 범위·대상자 다 특정된 상태여야 함. 성급한 합의는 새 피해자 발견 시 추가 대응을 막습니다.</blockquote>',
       },
     ],
     cases: [
@@ -576,7 +576,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
         summary:
           '대법원 2022도14571 사건(대법원, 2024.01.04 선고)에서 법원은 소수의 사람에게 발언했더라도 상대방이 불특정 또는 다수인에게 전파할 가능성이 객관적으로 인정되면 모욕죄의 "공연성"이 인정된다고 판시했습니다. 단톡방 발언·캡처 유포에도 동일 법리가 적용됩니다.',
         takeaway:
-          '단톡방이 비공개라도 전파 가능성 있으면 명예훼손·모욕 성립합니다.',
+          '단톡방이 비공개라도 전파 가능성 있으면 명예훼손·모욕 성립할 수 있습니다.',
       },
     ],
     faq: [
@@ -593,7 +593,7 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       {
         question: '단톡방 대화는 비공개인데 유포가 공연성이 되나요?',
         answer:
-          '<strong>네, 전파 가능성이 있으면 공연성 인정됩니다.</strong> 대법원 2022도14571이 명시적으로 소수 대상 발언도 공연성을 인정합니다.',
+          '<strong>네, 전파 가능성이 있으면 공연성 인정될 수 있습니다.</strong> 대법원 2022도14571이 명시적으로 소수 대상 발언도 공연성을 인정합니다.',
       },
       {
         question: '캡처만 받고 퍼뜨리지 않은 사람도 처벌되나요?',

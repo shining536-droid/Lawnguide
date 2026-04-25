@@ -140,7 +140,7 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
       {
         question: '호흡측정 거부 후 혈액검사만 받아도 되나요?',
         answer:
-          '<p>호흡측정을 거부하면 음주측정거부죄(1년 이상 5년 이하 징역 또는 500만원 이상 2천만원 이하 벌금)가 성립합니다. 호흡측정 후 결과에 이의가 있으면 혈액검사를 요청하는 것이 안전합니다.</p>',
+          '<p>호흡측정을 거부하면 음주측정거부죄(1년 이상 5년 이하 징역 또는 500만원 이상 2천만원 이하 벌금)가 성립할 수 있습니다. 호흡측정 후 결과에 이의가 있으면 혈액검사를 요청하는 것이 안전합니다.</p>',
       },
       {
         question: '위드마크 공식 감정 비용은 얼마인가요?',
@@ -267,7 +267,7 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
       {
         title: '제3자 위자료 청구의 법적 근거',
         content:
-          '<p><strong style="color:#1e3a5f">배우자의 불륜 상대방(상간자)은 부부공동생활을 침해한 불법행위로 손해배상 책임을 집니다.</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 민법 제750조(불법행위) 및 제751조(재산 이외의 손해배상)에 따라 청구합니다.</li>\n<li><strong>청구 요건</strong> — 상간자가 상대방의 혼인 사실을 알면서(또는 알 수 있었으면서) 부정행위를 한 경우입니다.</li>\n<li><strong>독립적 청구</strong> — 배우자에 대한 위자료와 별도로 상간자에게 따로 청구할 수 있습니다.</li>\n<li><strong>이혼 여부 불문</strong> — 이혼하지 않고도 상간자에 대한 위자료 청구가 가능합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 상간자가 "혼인 사실을 몰랐다"고 주장하더라도, 알 수 있었던 정황이 있으면 책임이 인정됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">배우자의 불륜 상대방(상간자)은 부부공동생활을 침해한 불법행위로 손해배상 책임을 집니다.</strong></p>\n<ul>\n<li><strong>법적 근거</strong> — 민법 제750조(불법행위) 및 제751조(재산 이외의 손해배상)에 따라 청구합니다.</li>\n<li><strong>청구 요건</strong> — 상간자가 상대방의 혼인 사실을 알면서(또는 알 수 있었으면서) 부정행위를 한 경우입니다.</li>\n<li><strong>독립적 청구</strong> — 배우자에 대한 위자료와 별도로 상간자에게 따로 청구할 수 있습니다.</li>\n<li><strong>이혼 여부 불문</strong> — 이혼하지 않고도 상간자에 대한 위자료 청구가 가능합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 상간자가 "혼인 사실을 몰랐다"고 주장하더라도, 알 수 있었던 정황이 있으면 책임이 인정될 수 있습니다.</blockquote>',
       },
       {
         title: '위자료 금액 산정 기준',
@@ -291,7 +291,7 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
         summary:
           '대법원 2025므10716 사건(대법원)에서 법원은 제3자가 부부 일방과 부정행위를 하여 부부공동생활을 침해한 경우 다른 배우자에 대하여 불법행위 책임을 진다고 판시하며, 혼인관계가 실질적으로 유지되고 있었는지를 기준으로 판단해야 한다고 밝혔습니다.',
         takeaway:
-          '혼인관계가 사실상 유지되고 있는 상태에서 제3자와의 부정행위가 이루어졌다면 상간자의 손해배상 책임이 인정됩니다. 별거 중이었더라도 이혼 의사가 확정되지 않았으면 청구 가능합니다.',
+          '혼인관계가 사실상 유지되고 있는 상태에서 제3자와의 부정행위가 이루어졌다면 상간자의 손해배상 책임이 인정될 수 있습니다. 별거 중이었더라도 이혼 의사가 확정되지 않았으면 청구 가능합니다.',
       },
     ],
     faq: [
@@ -303,7 +303,7 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
       {
         question: '상간자가 "합의 하에 관계했다"고 주장하면 어떻게 되나요?',
         answer:
-          '<p>배우자와 상간자 사이의 합의는 피해 배우자에 대한 불법행위 책임을 면하는 사유가 되지 않습니다. 부부공동생활을 침해한 사실이 인정되면 위자료 책임이 성립합니다.</p>',
+          '<p>배우자와 상간자 사이의 합의는 피해 배우자에 대한 불법행위 책임을 면하는 사유가 되지 않습니다. 부부공동생활을 침해한 사실이 인정되면 위자료 책임이 성립할 수 있습니다.</p>',
       },
       {
         question: '이혼하지 않고도 상간자에게 위자료를 청구할 수 있나요?',
@@ -356,7 +356,7 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
       {
         title: '상속인 상대 재산분할 청구 시 준비사항',
         content:
-          '<p><strong style="color:#1e3a5f">상속인을 상대로 재산분할을 청구할 때 필요한 준비가 있습니다.</strong></p>\n<ul>\n<li><strong>상속인 확인</strong> — 전 배우자의 가족관계증명서로 상속인(자녀, 부모 등)을 특정합니다.</li>\n<li><strong>재산 현황 파악</strong> — 이혼 당시 재산목록, 부동산 등기부등본, 금융 거래내역을 확보합니다.</li>\n<li><strong>이혼 확정 증명</strong> — 이혼 판결문 확정증명원 또는 이혼신고수리증명서를 준비합니다.</li>\n<li><strong>기여도 입증 자료</strong> — 혼인 중 재산 형성에 기여한 증거(소득 증빙, 가사노동, 자녀 양육 등)를 정리합니다.</li>\n<li><strong>제척기간 확인</strong> — 이혼 후 2년의 제척기간이 지나지 않았는지 반드시 확인합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 상속인이 상속포기를 하면 재산분할 청구 대상이 달라지므로 상속관계를 먼저 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">상속인을 상대로 재산분할을 청구할 때 필요한 준비가 있습니다.</strong></p>\n<ul>\n<li><strong>상속인 확인</strong> — 전 배우자의 가족관계증명서로 상속인(자녀, 부모 등)을 특정합니다.</li>\n<li><strong>재산 현황 파악</strong> — 이혼 당시 재산목록, 부동산 등기부등본, 금융 거래내역을 확보합니다.</li>\n<li><strong>이혼 확정 증명</strong> — 이혼 판결문 확정증명원 또는 이혼신고수리증명서를 준비합니다.</li>\n<li><strong>기여도 입증 자료</strong> — 혼인 중 재산 형성에 기여한 증거(소득 증빙, 가사노동, 자녀 양육 등)를 정리합니다.</li>\n<li><strong>제척기간 확인</strong> — 이혼 후 2년의 제척기간이 지나지 않았는지 가능한 한 확인합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 상속인이 상속포기를 하면 재산분할 청구 대상이 달라지므로 상속관계를 먼저 확인하세요.</blockquote>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
       {
         question: '재산분할 2년 제척기간이 임박한데 어떻게 해야 하나요?',
         answer:
-          '<p>제척기간은 연장이나 중단이 불가능하므로, 기간 내에 반드시 가정법원에 재산분할 심판을 청구해야 합니다. 서류가 부족하더라도 일단 청구서를 먼저 접수하고 증빙은 나중에 보정하세요.</p>',
+          '<p>제척기간은 연장이나 중단이 불가능하므로, 기간 내에 가능한 한 가정법원에 재산분할 심판을 청구해야 합니다. 서류가 부족하더라도 일단 청구서를 먼저 접수하고 증빙은 나중에 보정하세요.</p>',
       },
       {
         question: '상속인이 상속포기를 하면 재산분할은 불가능한가요?',

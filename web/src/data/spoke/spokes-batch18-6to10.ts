@@ -20,12 +20,12 @@ export const spokesBatch18_6to10: SpokePage[] = [
       title: '디지털성범죄 신고 증거 7가지 — 확보 순서 총정리 | 로앤가이드',
       description: '디지털성범죄 피해를 당했는데 어떤 증거부터 모아야 할지 모르겠다면, 경찰 신고 전 반드시 확보해야 할 필수 증거 7가지와 캡처·저장·제출 방법을 지금 확인하세요.',
     },
-    intro: '누군가 내 사진을 합성해서 유포하고 있다는 사실을 알게 됐습니다. 당장 경찰에 신고하고 싶지만, 막상 무엇을 가져가야 할지 막막합니다. 증거가 부족하면 수사가 제대로 진행되지 않을 수 있어 사전 준비가 중요합니다. 신고 전 반드시 확보해야 할 증거 목록을 정리해보세요.',
+    intro: '누군가 내 사진을 합성해서 유포하고 있다는 사실을 알게 됐습니다. 당장 경찰에 신고하고 싶지만, 막상 무엇을 가져가야 할지 막막합니다. 증거가 부족하면 수사가 제대로 진행되지 않을 수 있어 사전 준비가 중요합니다. 신고 전 가능한 한 확보해야 할 증거 목록을 정리해보세요.',
     sections: [
       {
         title: '첫째, 불법 촬영물·합성물의 화면 캡처와 URL을 확보하세요',
         content:
-          '<p><strong style="color:#1e3a5f">성폭력범죄의처벌등에관한특례법 제14조에 따라 불법촬영물 유포는 7년 이하의 징역 또는 5천만원 이하의 벌금에 해당합니다</strong></p>\n<p>피해 영상이나 이미지를 발견하면 <strong>삭제되기 전에 화면 캡처</strong>를 해야 합니다. 캡처 시 반드시 <strong>URL(웹주소), 게시일시, 작성자 닉네임</strong>이 함께 보이도록 찍으세요.</p>\n<p>캡처한 파일에는 <strong>날짜와 시간이 자동 기록</strong>되는 기기를 사용하고, 원본 파일을 별도 USB나 클라우드에 백업해두세요. 웹사이트가 해외 서버라면 한국어와 함께 원문 페이지도 캡처하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: URL 포함 캡처 → 게시일시·작성자 표시 → USB·클라우드 이중 백업</blockquote>',
+          '<p><strong style="color:#1e3a5f">성폭력범죄의처벌등에관한특례법 제14조에 따라 불법촬영물 유포는 7년 이하의 징역 또는 5천만원 이하의 벌금에 해당할 소지가 있습니다</strong></p>\n<p>피해 영상이나 이미지를 발견하면 <strong>삭제되기 전에 화면 캡처</strong>를 해야 합니다. 캡처 시 가능한 한 <strong>URL(웹주소), 게시일시, 작성자 닉네임</strong>이 함께 보이도록 찍으세요.</p>\n<p>캡처한 파일에는 <strong>날짜와 시간이 자동 기록</strong>되는 기기를 사용하고, 원본 파일을 별도 USB나 클라우드에 백업해두세요. 웹사이트가 해외 서버라면 한국어와 함께 원문 페이지도 캡처하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: URL 포함 캡처 → 게시일시·작성자 표시 → USB·클라우드 이중 백업</blockquote>',
       },
       {
         title: '둘째, 가해자와의 대화 기록·협박 메시지를 모두 저장하세요',
@@ -128,7 +128,7 @@ export const spokesBatch18_6to10: SpokePage[] = [
       {
         title: '다섯째, 해고 사유서 양식 — 이 항목이 포함되어야 합니다',
         content:
-          '<p><strong style="color:#1e3a5f">유효한 해고 사유서에는 최소 4가지 필수 항목이 포함되어야 합니다</strong></p>\n<p>해고 사유서에 반드시 포함되어야 할 항목: <strong>①해고 대상 근로자 인적사항 ②구체적 해고 사유(사유가 복수인 경우 각각 기재) ③해고 시기(해고 효력 발생일) ④사용자 서명 또는 직인</strong></p>\n<p>해고 사유가 <strong>"근무 태도 불량" 등 추상적 문구</strong>로만 기재된 경우에도 서면 통지 의무를 다하지 못한 것으로 볼 수 있습니다. 사유는 <strong>구체적 사실관계</strong>(일시, 행위, 규정 위반 내용)가 적시되어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 항목: 근로자 정보 + 구체적 사유 + 해고 시기 + 사용자 서명</blockquote>',
+          '<p><strong style="color:#1e3a5f">유효한 해고 사유서에는 최소 4가지 필수 항목이 포함되어야 합니다</strong></p>\n<p>해고 사유서에 가능한 한 포함되어야 할 항목: <strong>①해고 대상 근로자 인적사항 ②구체적 해고 사유(사유가 복수인 경우 각각 기재) ③해고 시기(해고 효력 발생일) ④사용자 서명 또는 직인</strong></p>\n<p>해고 사유가 <strong>"근무 태도 불량" 등 추상적 문구</strong>로만 기재된 경우에도 서면 통지 의무를 다하지 못한 것으로 볼 수 있습니다. 사유는 <strong>구체적 사실관계</strong>(일시, 행위, 규정 위반 내용)가 적시되어야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">필수 항목: 근로자 정보 + 구체적 사유 + 해고 시기 + 사용자 서명</blockquote>',
       },
     ],
     cases: [
@@ -197,7 +197,7 @@ export const spokesBatch18_6to10: SpokePage[] = [
       {
         title: '셋째, 미성년 자녀가 있으면 양육에 관한 협의서를 준비하세요',
         content:
-          '<p><strong style="color:#1e3a5f">미성년 자녀가 있는 경우 양육자 지정·양육비·면접교섭권에 대한 합의가 반드시 필요합니다</strong></p>\n<p>민법 제836조의2에 따라 미성년 자녀가 있는 부부는 <strong>①친권자 지정 ②양육자 지정 ③양육비 부담 ④면접교섭권 행사 방법</strong>에 대해 협의해야 합니다. 이 합의 내용을 <strong>양육사항 협의서</strong>에 작성합니다.</p>\n<p>양육비 금액은 <strong>양육비 산정기준표</strong>(대법원 제공)를 참고하세요. 합의가 되지 않으면 법원이 직권으로 결정하며, 이 경우 <strong>이혼 숙려기간이 3개월로 연장</strong>될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">양육 합의: 친권자 + 양육자 + 양육비 + 면접교섭권 → 미합의 시 숙려기간 3개월</blockquote>',
+          '<p><strong style="color:#1e3a5f">미성년 자녀가 있는 경우 양육자 지정·양육비·면접교섭권에 대한 합의가 가능한 한 필요합니다</strong></p>\n<p>민법 제836조의2에 따라 미성년 자녀가 있는 부부는 <strong>①친권자 지정 ②양육자 지정 ③양육비 부담 ④면접교섭권 행사 방법</strong>에 대해 협의해야 합니다. 이 합의 내용을 <strong>양육사항 협의서</strong>에 작성합니다.</p>\n<p>양육비 금액은 <strong>양육비 산정기준표</strong>(대법원 제공)를 참고하세요. 합의가 되지 않으면 법원이 직권으로 결정하며, 이 경우 <strong>이혼 숙려기간이 3개월로 연장</strong>될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">양육 합의: 친권자 + 양육자 + 양육비 + 면접교섭권 → 미합의 시 숙려기간 3개월</blockquote>',
       },
       {
         title: '넷째, 재산분할과 위자료에 관한 합의서를 작성하세요',
@@ -270,7 +270,7 @@ export const spokesBatch18_6to10: SpokePage[] = [
       {
         title: '첫째, 마약류관리법상 투약·흡연죄의 법정형을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">마약류 관리에 관한 법률 제60조에 따라 향정신성의약품 투약은 10년 이하의 징역에 해당합니다</strong></p>\n<p>마약류관리법은 마약류를 <strong>마약, 향정신성의약품, 대마</strong> 3가지로 분류하며, 각각 법정형이 다릅니다. 필로폰(메스암페타민)은 <strong>향정신성의약품</strong>에 해당하여 투약 시 10년 이하의 징역에 처해집니다.</p>\n<p>대마 흡연은 <strong>5년 이하의 징역</strong>으로 상대적으로 법정형이 낮습니다. 법정형의 범위 내에서 실제 선고형은 <strong>양형기준에 따라 결정</strong>되며, 초범 여부가 중요한 양형 요소입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법정형: 향정(필로폰) 투약 10년 이하 징역 / 대마 흡연 5년 이하 징역 → 초범 감경 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">마약류 관리에 관한 법률 제60조에 따라 향정신성의약품 투약은 10년 이하의 징역에 해당할 소지가 있습니다</strong></p>\n<p>마약류관리법은 마약류를 <strong>마약, 향정신성의약품, 대마</strong> 3가지로 분류하며, 각각 법정형이 다릅니다. 필로폰(메스암페타민)은 <strong>향정신성의약품</strong>에 해당하여 투약 시 10년 이하의 징역에 처해집니다.</p>\n<p>대마 흡연은 <strong>5년 이하의 징역</strong>으로 상대적으로 법정형이 낮습니다. 법정형의 범위 내에서 실제 선고형은 <strong>양형기준에 따라 결정</strong>되며, 초범 여부가 중요한 양형 요소입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법정형: 향정(필로폰) 투약 10년 이하 징역 / 대마 흡연 5년 이하 징역 → 초범 감경 가능</blockquote>',
       },
       {
         title: '둘째, 양형위원회 양형기준에서 초범 감경 요소를 확인하세요',
@@ -304,8 +304,8 @@ export const spokesBatch18_6to10: SpokePage[] = [
     ],
     faq: [
       {
-        question: '마약 초범이면 반드시 집행유예가 나오나요?',
-        answer: '<strong>초범이라고 반드시 집행유예가 나오는 것은 아닙니다</strong>. 투약 횟수, 마약류 종류, 반성 정도, 재활 의지 등을 종합적으로 고려합니다. 다만 초범 + 단순 소량 투약 + 재활 참여의 경우 집행유예 비율이 높은 편입니다.',
+        question: '마약 초범이면 가능한 한 집행유예가 나오나요?',
+        answer: '<strong>초범이라고 가능한 한 집행유예가 나오는 것은 아닙니다</strong>. 투약 횟수, 마약류 종류, 반성 정도, 재활 의지 등을 종합적으로 고려합니다. 다만 초범 + 단순 소량 투약 + 재활 참여의 경우 집행유예 비율이 높은 편입니다.',
       },
       {
         question: '마약 초범인데 모발검사에서 양성이 나왔습니다. 어떻게 해야 하나요?',
@@ -317,7 +317,7 @@ export const spokesBatch18_6to10: SpokePage[] = [
       },
       {
         question: '지인이 강제로 투약하게 했는데도 처벌받나요?',
-        answer: '강제 투약의 경우에도 <strong>본인의 투약 사실 자체는 범죄</strong>에 해당합니다. 다만 강요에 의한 투약이었다는 점은 <strong>양형에서 유리한 감경 사유</strong>가 될 수 있으며, 강요한 사람에 대한 별도 고소도 가능합니다.',
+        answer: '강제 투약의 경우에도 <strong>본인의 투약 사실 자체는 범죄</strong>에 해당할 소지가 있습니다. 다만 강요에 의한 투약이었다는 점은 <strong>양형에서 유리한 감경 사유</strong>가 될 수 있으며, 강요한 사람에 대한 별도 고소도 가능합니다.',
       },
       {
         question: '마약 투약 후 자수하면 형이 줄어드나요?',
@@ -359,7 +359,7 @@ export const spokesBatch18_6to10: SpokePage[] = [
       {
         title: '둘째, 임시운전증명서 기간 내에 처분 사전통지서가 발송됩니다',
         content:
-          '<p><strong style="color:#1e3a5f">경찰청 운전면허행정처분과에서 우편으로 사전통지서를 보냅니다</strong></p>\n<p>적발 후 약 <strong>2~3주 이내</strong>에 처분 사전통지서가 등기우편으로 발송됩니다. 통지서에는 <strong>예정된 처분 내용(면허 정지/취소), 처분 사유, 의견제출 기한</strong>이 기재되어 있습니다.</p>\n<p>통지서를 수령하면 <strong>의견제출 기한(보통 10일)</strong>을 반드시 확인하세요. 이 기한 내에 의견을 제출하지 않으면 통지서대로 처분이 확정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">사전통지: 적발 후 2~3주 → 예정 처분·사유·기한 기재 → 의견제출 기한 10일</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/dui" style="color:#1565c0;font-weight:600">내 음주운전 면허처분 대응법 진단받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">경찰청 운전면허행정처분과에서 우편으로 사전통지서를 보냅니다</strong></p>\n<p>적발 후 약 <strong>2~3주 이내</strong>에 처분 사전통지서가 등기우편으로 발송됩니다. 통지서에는 <strong>예정된 처분 내용(면허 정지/취소), 처분 사유, 의견제출 기한</strong>이 기재되어 있습니다.</p>\n<p>통지서를 수령하면 <strong>의견제출 기한(보통 10일)</strong>을 가능한 한 확인하세요. 이 기한 내에 의견을 제출하지 않으면 통지서대로 처분이 확정됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">사전통지: 적발 후 2~3주 → 예정 처분·사유·기한 기재 → 의견제출 기한 10일</blockquote>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">지금 바로 확인하세요</strong><br/>\n<a href="/diagnosis/dui" style="color:#1565c0;font-weight:600">내 음주운전 면허처분 대응법 진단받기 &rarr;</a>\n</div>',
       },
       {
         title: '셋째, 의견제출서를 작성하여 감경을 요청하세요',

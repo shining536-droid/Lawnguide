@@ -57,12 +57,12 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '강요에 의한 사직이 비자발적 이직인 이유',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2에 따라 사업주의 강요·권유에 의한 사직은 비자발적 이직으로 인정됩니다.</strong></p>\n<p>형식적으로 사직서를 제출했더라도, 실질적으로 근로자의 자유로운 의사에 의한 것이 아니라 사업주의 압박이나 강요에 의한 것이라면 이는 비자발적 이직에 해당합니다. 고용센터는 사직서 제출 경위와 전후 상황을 종합적으로 판단합니다.</p>\n<ol>\n<li><strong>징계해고 위협 후 사직 강요</strong> — "사직서를 안 쓰면 징계처리 하겠다"는 식의 압박이 있었다면, 실질적으로 해고와 다름없어 비자발적 이직으로 봅니다.</li>\n<li><strong>근로조건 악화로 인한 사직 유도</strong> — 부서 전환, 업무 배제, 임금 삭감 등으로 근로조건을 의도적으로 악화시켜 사직을 유도한 경우도 포함됩니다.</li>\n<li><strong>퇴직 권고 반복</strong> — 상사나 인사부서가 반복적으로 퇴직을 권유한 경우, 근로자의 자유로운 의사 결정이 제한된 것으로 볼 수 있습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사직서를 썼어도 사업주의 강요가 입증되면 비자발적 이직으로 인정받아 실업급여를 받을 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2에 따라 사업주의 강요·권유에 의한 사직은 비자발적 이직으로 인정될 수 있습니다.</strong></p>\n<p>형식적으로 사직서를 제출했더라도, 실질적으로 근로자의 자유로운 의사에 의한 것이 아니라 사업주의 압박이나 강요에 의한 것이라면 이는 비자발적 이직에 해당할 소지가 있습니다. 고용센터는 사직서 제출 경위와 전후 상황을 종합적으로 판단합니다.</p>\n<ol>\n<li><strong>징계해고 위협 후 사직 강요</strong> — "사직서를 안 쓰면 징계처리 하겠다"는 식의 압박이 있었다면, 실질적으로 해고와 다름없어 비자발적 이직으로 봅니다.</li>\n<li><strong>근로조건 악화로 인한 사직 유도</strong> — 부서 전환, 업무 배제, 임금 삭감 등으로 근로조건을 의도적으로 악화시켜 사직을 유도한 경우도 포함됩니다.</li>\n<li><strong>퇴직 권고 반복</strong> — 상사나 인사부서가 반복적으로 퇴직을 권유한 경우, 근로자의 자유로운 의사 결정이 제한된 것으로 볼 수 있습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사직서를 썼어도 사업주의 강요가 입증되면 비자발적 이직으로 인정받아 실업급여를 받을 수 있습니다.</blockquote>',
       },
       {
         title: '강요 사직 입증을 위한 증거 확보 방법',
         content:
-          '<p><strong style="color:#1e3a5f">사직서 제출 전후의 정황 증거를 최대한 확보하세요. 퇴사 후에는 수집이 어렵습니다.</strong></p>\n<ul>\n<li><strong>대화 녹음</strong> — 사직을 강요하는 상사와의 대화를 녹음하세요. 본인이 참여한 대화 녹음은 증거로 인정됩니다.</li>\n<li><strong>문자·이메일·카톡 캡처</strong> — "사직서를 내라", "더 이상 여기서 일할 수 없다" 등의 메시지를 캡처합니다.</li>\n<li><strong>동료 진술서</strong> — 강요 상황을 목격하거나 알고 있는 동료에게 진술서를 받아두세요.</li>\n<li><strong>인사 관련 문서</strong> — 사직서 제출 직전의 부당한 인사발령, 업무 배제 통보 등의 문서를 확보합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>사업주 강요 사직, 실업급여 수급 가능성을 AI가 즉시 분석합니다</strong></p>\n<p style="margin:0;font-size:0.95em">퇴사 경위와 보유 증거를 입력하면 비자발적 이직 인정 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사직서 제출 전후의 정황 증거를 최대한 확보하세요. 퇴사 후에는 수집이 어렵습니다.</strong></p>\n<ul>\n<li><strong>대화 녹음</strong> — 사직을 강요하는 상사와의 대화를 녹음하세요. 본인이 참여한 대화 녹음은 증거로 인정될 수 있습니다.</li>\n<li><strong>문자·이메일·카톡 캡처</strong> — "사직서를 내라", "더 이상 여기서 일할 수 없다" 등의 메시지를 캡처합니다.</li>\n<li><strong>동료 진술서</strong> — 강요 상황을 목격하거나 알고 있는 동료에게 진술서를 받아두세요.</li>\n<li><strong>인사 관련 문서</strong> — 사직서 제출 직전의 부당한 인사발령, 업무 배제 통보 등의 문서를 확보합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>사업주 강요 사직, 실업급여 수급 가능성을 AI가 즉시 분석합니다</strong></p>\n<p style="margin:0;font-size:0.95em">퇴사 경위와 보유 증거를 입력하면 비자발적 이직 인정 가능성을 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '이직확인서 사유가 "자발적 퇴사"로 잘못 기재된 경우',
@@ -72,7 +72,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '강요 사직 근로자가 놓치기 쉬운 실수 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">사직서 제출 전 증거 확보가 가장 중요합니다.</strong></p>\n<ul>\n<li><strong>사직서에 "일신상의 사유"라고 기재</strong> — 강요 상황을 기재하지 않고 "개인 사정"으로 쓰면 자발적 퇴사의 증거가 됩니다. 사직서에 "사업주 권유에 따라" 또는 "근로조건 악화로 인해"라고 명시하세요.</li>\n<li><strong>합의서 무조건 서명</strong> — 퇴직 합의서에 "자발적 퇴사에 동의한다"는 조항이 있으면 추후 이의신청이 어려워집니다. 서명 전 내용을 반드시 확인하세요.</li>\n<li><strong>퇴사 후 바로 신청하지 않음</strong> — 퇴직일 다음 날부터 12개월 이내에 실업급여를 신청해야 합니다. 기한을 놓치면 수급권이 소멸됩니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">사직서 제출 전 증거 확보가 가장 중요합니다.</strong></p>\n<ul>\n<li><strong>사직서에 "일신상의 사유"라고 기재</strong> — 강요 상황을 기재하지 않고 "개인 사정"으로 쓰면 자발적 퇴사의 증거가 됩니다. 사직서에 "사업주 권유에 따라" 또는 "근로조건 악화로 인해"라고 명시하세요.</li>\n<li><strong>합의서 원칙적으로 서명</strong> — 퇴직 합의서에 "자발적 퇴사에 동의한다"는 조항이 있으면 추후 이의신청이 어려워집니다. 서명 전 내용을 가능한 한 확인하세요.</li>\n<li><strong>퇴사 후 바로 신청하지 않음</strong> — 퇴직일 다음 날부터 12개월 이내에 실업급여를 신청해야 합니다. 기한을 놓치면 수급권이 소멸됩니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -81,7 +81,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
         summary:
           '서울행법 2014구합2270 사건(서울행정법원, 2014.07.03 선고)에서 법원은 사업주의 부서이동 지시로 임금이 46% 이상 하락할 것이 예상되어 퇴사한 근로자에게 고용보험법 시행규칙 별표2에 따라 정당한 이직 사유에 해당한다며 실업급여 수급자격을 인정했습니다.',
         takeaway:
-          '사업주가 사직을 직접 강요하지 않더라도, 근로조건을 의도적으로 악화시켜 퇴사를 유도한 경우에도 비자발적 이직으로 인정됩니다. 임금 삭감, 부당한 인사이동 등의 증거를 확보하세요.',
+          '사업주가 사직을 직접 강요하지 않더라도, 근로조건을 의도적으로 악화시켜 퇴사를 유도한 경우에도 비자발적 이직으로 인정될 수 있습니다. 임금 삭감, 부당한 인사이동 등의 증거를 확보하세요.',
       },
     ],
     faq: [
@@ -141,7 +141,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '정신건강 사유가 정당한 이직으로 인정되는 조건',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2 제1호 (나)목에 따라 본인의 질병·부상으로 업무를 수행하기 어려운 경우는 정당한 이직 사유입니다.</strong></p>\n<p>우울증, 번아웃 증후군, 불안장애, 공황장애 등 정신건강 질환도 신체 질병과 동일하게 정당한 이직 사유로 인정됩니다. 다만 의료기관의 진단이 필수적이며, 업무와 질병의 연관성을 소명해야 합니다.</p>\n<ol>\n<li><strong>의사 진단서 필수</strong> — 정신건강의학과에서 발급받은 진단서가 있어야 합니다. "업무 수행이 곤란하다"는 의사 소견이 핵심입니다.</li>\n<li><strong>치료 기간 중 업무 어려움</strong> — 치료를 받았으나 업무 수행이 여전히 곤란하다는 점을 보여야 합니다. 통원 기록, 처방전 등이 증거가 됩니다.</li>\n<li><strong>사업주에게 배치전환 요청</strong> — 퇴사 전 사업주에게 업무 경감이나 부서이동을 요청했으나 거부당한 기록이 있으면 유리합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 우울증·번아웃도 의사 진단서가 있으면 정당한 이직 사유로 실업급여 수급이 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험법 시행규칙 별표2 제1호 (나)목에 따라 본인의 질병·부상으로 업무를 수행하기 어려운 경우는 정당한 이직 사유입니다.</strong></p>\n<p>우울증, 번아웃 증후군, 불안장애, 공황장애 등 정신건강 질환도 신체 질병과 동일하게 정당한 이직 사유로 인정될 수 있습니다. 다만 의료기관의 진단이 필수적이며, 업무와 질병의 연관성을 소명해야 합니다.</p>\n<ol>\n<li><strong>의사 진단서 필수</strong> — 정신건강의학과에서 발급받은 진단서가 있어야 합니다. "업무 수행이 곤란하다"는 의사 소견이 핵심입니다.</li>\n<li><strong>치료 기간 중 업무 어려움</strong> — 치료를 받았으나 업무 수행이 여전히 곤란하다는 점을 보여야 합니다. 통원 기록, 처방전 등이 증거가 됩니다.</li>\n<li><strong>사업주에게 배치전환 요청</strong> — 퇴사 전 사업주에게 업무 경감이나 부서이동을 요청했으나 거부당한 기록이 있으면 유리합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 우울증·번아웃도 의사 진단서가 있으면 정당한 이직 사유로 실업급여 수급이 가능합니다.</blockquote>',
       },
       {
         title: '퇴사 전 반드시 준비할 체크리스트',
@@ -215,12 +215,12 @@ export const spokesBatch31Unemployment: SpokePage[] = [
         '파견근로 계약이 종료되어 실업급여를 받으려면 파견사업주와 사용사업주 관계를 정확히 알아야 합니다. 수급 조건을 지금 확인하세요.',
     },
     intro:
-      '<p>1년간 파견직으로 근무한 공장에서 계약 만료를 통보받았습니다. 파견회사에서는 다른 사업장 배치를 약속했지만, 한 달이 지나도 새 배치가 나오지 않습니다. 파견 계약이 끝난 건데 실업급여를 받을 수 있는지, 파견회사와 공장 중 어디에서 이직확인서를 받아야 하는지 혼란스럽습니다. 파견근로자의 고용보험 가입 사업주는 파견사업주이며, 파견계약 종료는 비자발적 이직 사유에 해당합니다.</p>',
+      '<p>1년간 파견직으로 근무한 공장에서 계약 만료를 통보받았습니다. 파견회사에서는 다른 사업장 배치를 약속했지만, 한 달이 지나도 새 배치가 나오지 않습니다. 파견 계약이 끝난 건데 실업급여를 받을 수 있는지, 파견회사와 공장 중 어디에서 이직확인서를 받아야 하는지 혼란스럽습니다. 파견근로자의 고용보험 가입 사업주는 파견사업주이며, 파견계약 종료는 비자발적 이직 사유에 해당할 소지가 있습니다.</p>',
     sections: [
       {
         title: '파견근로자의 실업급여 수급 구조 이해',
         content:
-          '<p><strong style="color:#1e3a5f">파견근로자의 고용보험 가입 주체는 파견사업주(파견회사)이며, 이직확인서도 파견사업주가 발급합니다.</strong></p>\n<p>파견근로자보호법에 따라 파견근로자는 파견사업주와 근로계약을 맺고 사용사업주의 사업장에서 근무합니다. 고용보험 가입과 실업급여 관련 의무는 파견사업주에게 있습니다.</p>\n<ol>\n<li><strong>파견계약 종료 = 비자발적 이직</strong> — 사용사업주와의 파견계약이 종료되어 배치 해지된 경우, 근로자의 귀책사유가 아니므로 비자발적 이직에 해당합니다.</li>\n<li><strong>파견사업주 미배치</strong> — 파견계약 종료 후 파견사업주가 새 사업장을 배치하지 않으면, 이것도 실질적 이직 사유가 됩니다.</li>\n<li><strong>피보험기간 산정</strong> — 여러 사용사업주에서 근무했더라도 파견사업주가 동일하면 피보험기간은 연속으로 합산됩니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 파견계약 종료로 일을 잃었다면 실업급여 수급이 가능합니다. 파견회사에 이직확인서를 요청하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">파견근로자의 고용보험 가입 주체는 파견사업주(파견회사)이며, 이직확인서도 파견사업주가 발급합니다.</strong></p>\n<p>파견근로자보호법에 따라 파견근로자는 파견사업주와 근로계약을 맺고 사용사업주의 사업장에서 근무합니다. 고용보험 가입과 실업급여 관련 의무는 파견사업주에게 있습니다.</p>\n<ol>\n<li><strong>파견계약 종료 = 비자발적 이직</strong> — 사용사업주와의 파견계약이 종료되어 배치 해지된 경우, 근로자의 귀책사유가 아니므로 비자발적 이직에 해당할 소지가 있습니다.</li>\n<li><strong>파견사업주 미배치</strong> — 파견계약 종료 후 파견사업주가 새 사업장을 배치하지 않으면, 이것도 실질적 이직 사유가 됩니다.</li>\n<li><strong>피보험기간 산정</strong> — 여러 사용사업주에서 근무했더라도 파견사업주가 동일하면 피보험기간은 연속으로 합산됩니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 파견계약 종료로 일을 잃었다면 실업급여 수급이 가능합니다. 파견회사에 이직확인서를 요청하세요.</blockquote>',
       },
       {
         title: '파견근로자 실업급여 신청 3단계',
@@ -320,7 +320,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         question: '사업 양도양수인지 폐업인지 구분이 안 돼요. 어떻게 확인하나요?',
         answer:
-          '<p>사업자등록이 폐업 처리되고 새 사업자가 동일 장소에서 사업을 시작했다면 양도양수보다 폐업에 가깝습니다. 사업자등록증 변경 여부를 확인하세요. 폐업이면 별도 증빙 없이 비자발적 이직으로 인정됩니다.</p>',
+          '<p>사업자등록이 폐업 처리되고 새 사업자가 동일 장소에서 사업을 시작했다면 양도양수보다 폐업에 가깝습니다. 사업자등록증 변경 여부를 확인하세요. 폐업이면 별도 증빙 없이 비자발적 이직으로 인정될 수 있습니다.</p>',
       },
       {
         question: '양수인이 6개월 수습 기간을 두겠다고 하는데 이건 근로조건 변경인가요?',
@@ -340,7 +340,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         question: '양도양수 후 근무지가 변경되면 통근 곤란으로 퇴사할 수 있나요?',
         answer:
-          '<p>네, 양도양수 후 사업장 위치가 변경되어 왕복 3시간 이상 통근이 필요하면 통근 곤란 사유로 정당한 이직이 인정됩니다.</p>',
+          '<p>네, 양도양수 후 사업장 위치가 변경되어 왕복 3시간 이상 통근이 필요하면 통근 곤란 사유로 정당한 이직이 인정될 수 있습니다.</p>',
       },
     ],
     cta: { text: '사업양도양수 퇴사 실업급여 자격 AI로 확인하기', link: '/chat?domain=unemployment' },
@@ -368,7 +368,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
         '여러 사업장에서 단시간 근무했다면 피보험기간 합산으로 실업급여 180일 요건을 충족할 수 있는지 지금 확인하세요.',
     },
     intro:
-      '<p>오전에는 카페에서, 오후에는 학원에서 파트타임으로 일했습니다. 두 곳 모두 고용보험에 가입되어 있었는데, 카페가 폐업하면서 한 곳에서의 근무가 끝났습니다. 한 곳에서만 4개월 일해서 180일이 안 되는데, 두 곳의 피보험기간을 합산하면 180일을 넘깁니다. 고용보험법 제41조에 따르면 복수 사업장의 피보험기간은 합산이 가능하며, 합산하여 180일 이상이면 실업급여 수급자격이 인정됩니다.</p>',
+      '<p>오전에는 카페에서, 오후에는 학원에서 파트타임으로 일했습니다. 두 곳 모두 고용보험에 가입되어 있었는데, 카페가 폐업하면서 한 곳에서의 근무가 끝났습니다. 한 곳에서만 4개월 일해서 180일이 안 되는데, 두 곳의 피보험기간을 합산하면 180일을 넘깁니다. 고용보험법 제41조에 따르면 복수 사업장의 피보험기간은 합산이 가능하며, 합산하여 180일 이상이면 실업급여 수급자격이 인정될 수 있습니다.</p>',
     sections: [
       {
         title: '복수 사업장 피보험기간 합산 원리',
@@ -447,17 +447,17 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '일용근로자·초단시간 근로자의 실업급여 수급 특례',
         content:
-          '<p><strong style="color:#1e3a5f">일용근로자는 이직일 이전 18개월 중 피보험 단위기간 180일 이상이면 실업급여를 받을 수 있습니다.</strong></p>\n<p>일용근로자란 1개월 미만 동안 고용되는 근로자를 말합니다(고용보험법 제2조). 일용근로자의 실업급여 수급 요건은 일반 근로자와 다소 다릅니다.</p>\n<ol>\n<li><strong>피보험기간 180일</strong> — 이직일 이전 18개월 중 피보험 단위기간이 통산 180일 이상이어야 합니다. 여러 사업장의 근무일수를 합산합니다.</li>\n<li><strong>수급자격 신청일 이전 1개월간 근로일수 10일 미만</strong> — 최근 1개월간 일한 날이 10일 미만이어야 실업 상태로 인정됩니다.</li>\n<li><strong>최종 이직일 이전 기준기간 내 90일 이상 근로</strong> — 수급자격 신청일 이전 1개월간 일용근로 내역이 있어야 합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계절근로도 일용근로 피보험기간을 합산하면 180일을 채울 수 있습니다. 근로내역 신고가 핵심입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">일용근로자는 이직일 이전 18개월 중 피보험 단위기간 180일 이상이면 실업급여를 받을 수 있습니다.</strong></p>\n<p>일용근로자란 1개월 미만 동안 고용되는 근로자를 말합니다(고용보험법 제2조). 일용근로자의 실업급여 수급 요건은 일반 근로자와 다소 다릅니다.</p>\n<ol>\n<li><strong>피보험기간 180일</strong> — 이직일 이전 18개월 중 피보험 단위기간이 통산 180일 이상이어야 합니다. 여러 사업장의 근무일수를 합산합니다.</li>\n<li><strong>수급자격 신청일 이전 1개월간 근로일수 10일 미만</strong> — 최근 1개월간 일한 날이 10일 미만이어야 실업 상태로 인정될 수 있습니다.</li>\n<li><strong>최종 이직일 이전 기준기간 내 90일 이상 근로</strong> — 수급자격 신청일 이전 1개월간 일용근로 내역이 있어야 합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계절근로도 일용근로 피보험기간을 합산하면 180일을 채울 수 있습니다. 근로내역 신고가 핵심입니다.</blockquote>',
       },
       {
         title: '단기반복 근로자의 피보험기간 관리 방법',
         content:
-          '<p><strong style="color:#1e3a5f">사업주가 일용근로자의 근로내역을 매월 고용보험에 신고해야 피보험기간이 인정됩니다.</strong></p>\n<ul>\n<li><strong>근로내역 확인</strong> — 사업주가 매월 근로내역을 신고하고 있는지 고용보험 피보험자격 확인서를 통해 확인하세요.</li>\n<li><strong>미신고 시 대응</strong> — 사업주가 근로내역을 신고하지 않으면 고용센터에 피보험자격 확인 청구를 하세요. 3년 이내의 근무기간은 소급하여 인정받을 수 있습니다.</li>\n<li><strong>급여명세서 보관</strong> — 급여명세서, 출퇴근 기록, 급여 입금 내역 등을 보관하면 미신고 기간의 근무 사실을 입증할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>계절근로·단기반복 실업급여 수급 자격, AI가 즉시 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">근무 이력과 기간을 입력하면 피보험기간 합산 결과와 수급 가능성을 무료로 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사업주가 일용근로자의 근로내역을 매월 고용보험에 신고해야 피보험기간이 인정될 수 있습니다.</strong></p>\n<ul>\n<li><strong>근로내역 확인</strong> — 사업주가 매월 근로내역을 신고하고 있는지 고용보험 피보험자격 확인서를 통해 확인하세요.</li>\n<li><strong>미신고 시 대응</strong> — 사업주가 근로내역을 신고하지 않으면 고용센터에 피보험자격 확인 청구를 하세요. 3년 이내의 근무기간은 소급하여 인정받을 수 있습니다.</li>\n<li><strong>급여명세서 보관</strong> — 급여명세서, 출퇴근 기록, 급여 입금 내역 등을 보관하면 미신고 기간의 근무 사실을 입증할 수 있습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>계절근로·단기반복 실업급여 수급 자격, AI가 즉시 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">근무 이력과 기간을 입력하면 피보험기간 합산 결과와 수급 가능성을 무료로 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '계절근로자가 주의할 점 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">짧은 근무기간이 반복되는 만큼, 피보험기간 관리와 신청 시기가 특히 중요합니다.</strong></p>\n<ul>\n<li><strong>신청 시기 놓치지 않기</strong> — 마지막 근무 종료일부터 12개월 이내에 실업급여를 신청해야 합니다. 계절이 끝나고 방심하다가 기한을 놓치는 경우가 많습니다.</li>\n<li><strong>반복 수급 제한</strong> — 최근 3년간 3회 이상 실업급여를 받으면 소정급여일수의 50%가 감액됩니다. 계절근로자는 매년 반복 수급할 수 있으니 이 규정을 숙지하세요.</li>\n<li><strong>고용보험 미가입 사업장 주의</strong> — 소규모 계절 사업장은 고용보험에 가입하지 않는 경우가 있습니다. 근무 시작 시 고용보험 가입 여부를 반드시 확인하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계절근로자는 매번 근로내역 신고 여부를 확인하고, 3회 이상 반복 수급 시 감액 규정을 기억하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">짧은 근무기간이 반복되는 만큼, 피보험기간 관리와 신청 시기가 특히 중요합니다.</strong></p>\n<ul>\n<li><strong>신청 시기 놓치지 않기</strong> — 마지막 근무 종료일부터 12개월 이내에 실업급여를 신청해야 합니다. 계절이 끝나고 방심하다가 기한을 놓치는 경우가 많습니다.</li>\n<li><strong>반복 수급 제한</strong> — 최근 3년간 3회 이상 실업급여를 받으면 소정급여일수의 50%가 감액됩니다. 계절근로자는 매년 반복 수급할 수 있으니 이 규정을 숙지하세요.</li>\n<li><strong>고용보험 미가입 사업장 주의</strong> — 소규모 계절 사업장은 고용보험에 가입하지 않는 경우가 있습니다. 근무 시작 시 고용보험 가입 여부를 가능한 한 확인하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계절근로자는 매번 근로내역 신고 여부를 확인하고, 3회 이상 반복 수급 시 감액 규정을 기억하세요.</blockquote>',
       },
     ],
     cases: [
@@ -466,7 +466,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
         summary:
           '대법원 2012두22904 사건(대법원, 2013.02.28 선고)에서 법원은 고용보험의 보험관계는 법령에서 예외로 규정한 사업을 제외하고는 사업 개시로 당연히 성립한다고 판시하며, 보험료 부과·고지 권한의 위임·위탁에 따른 피고적격을 확인했습니다.',
         takeaway:
-          '계절 사업장도 사업 개시와 동시에 고용보험관계가 당연히 성립합니다. 사업주가 가입하지 않았다고 해도 보험관계는 존재하므로, 미가입 사실을 고용센터에 신고하면 소급 가입이 가능합니다.',
+          '계절 사업장도 사업 개시와 동시에 고용보험관계가 당연히 성립할 수 있습니다. 사업주가 가입하지 않았다고 해도 보험관계는 존재하므로, 미가입 사실을 고용센터에 신고하면 소급 가입이 가능합니다.',
       },
     ],
     faq: [
@@ -526,12 +526,12 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '인턴·수습 기간의 고용보험 적용 여부 확인',
         content:
-          '<p><strong style="color:#1e3a5f">인턴이라도 근로계약을 맺고 급여를 받으면 고용보험 적용 대상입니다.</strong></p>\n<p>인턴, 수습, 견습 등 명칭과 관계없이 사용종속관계에서 근로를 제공하고 임금을 받으면 근로기준법상 근로자에 해당합니다. 근로자에 해당하면 고용보험 가입 의무가 있습니다.</p>\n<ol>\n<li><strong>☑ 근로계약서 확인</strong> — 인턴 계약서에 "근로계약"이라고 명시되어 있으면 고용보험 적용 대상입니다. "위촉계약"이나 "자원봉사"로 되어 있으면 적용이 어려울 수 있습니다.</li>\n<li><strong>☑ 급여명세서 확인</strong> — 급여에서 고용보험료가 공제되었다면 가입된 것입니다. 고용보험료는 급여의 0.9%입니다.</li>\n<li><strong>☑ 4대보험 가입 확인</strong> — 4대 사회보험 정보연계센터에서 본인의 고용보험 가입 여부를 직접 조회할 수 있습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 인턴이라는 명칭이 아니라 실질적 근로관계 여부가 기준입니다. 급여명세서에서 고용보험료 공제를 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">인턴이라도 근로계약을 맺고 급여를 받으면 고용보험 적용 대상입니다.</strong></p>\n<p>인턴, 수습, 견습 등 명칭과 관계없이 사용종속관계에서 근로를 제공하고 임금을 받으면 근로기준법상 근로자에 해당할 소지가 있습니다. 근로자에 해당하면 고용보험 가입 의무가 있습니다.</p>\n<ol>\n<li><strong>☑ 근로계약서 확인</strong> — 인턴 계약서에 "근로계약"이라고 명시되어 있으면 고용보험 적용 대상입니다. "위촉계약"이나 "자원봉사"로 되어 있으면 적용이 어려울 수 있습니다.</li>\n<li><strong>☑ 급여명세서 확인</strong> — 급여에서 고용보험료가 공제되었다면 가입된 것입니다. 고용보험료는 급여의 0.9%입니다.</li>\n<li><strong>☑ 4대보험 가입 확인</strong> — 4대 사회보험 정보연계센터에서 본인의 고용보험 가입 여부를 직접 조회할 수 있습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 인턴이라는 명칭이 아니라 실질적 근로관계 여부가 기준입니다. 급여명세서에서 고용보험료 공제를 확인하세요.</blockquote>',
       },
       {
         title: '인턴 종료 후 실업급여 수급 조건 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">아래 4가지 조건을 모두 충족하면 인턴 종료 후에도 실업급여를 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>☑ 고용보험 가입</strong> — 인턴 기간 동안 고용보험에 가입되어 있어야 합니다.</li>\n<li><strong>☑ 피보험기간 180일 이상</strong> — 이직일 이전 18개월 중 피보험기간이 180일 이상이어야 합니다. 인턴 기간만으로 180일이 안 되면 이전 직장의 피보험기간과 합산합니다.</li>\n<li><strong>☑ 비자발적 이직</strong> — 인턴 계약 만료, 정규직 전환 거부, 수습 해지 등은 비자발적 이직에 해당합니다.</li>\n<li><strong>☑ 근로의 의사와 능력</strong> — 재취업 의사가 있고 근로 능력이 있어야 합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>인턴·수습 종료 실업급여 수급 가능 여부, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">인턴 근무기간과 계약 형태를 입력하면 수급 자격을 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">아래 4가지 조건을 모두 충족하면 인턴 종료 후에도 실업급여를 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>☑ 고용보험 가입</strong> — 인턴 기간 동안 고용보험에 가입되어 있어야 합니다.</li>\n<li><strong>☑ 피보험기간 180일 이상</strong> — 이직일 이전 18개월 중 피보험기간이 180일 이상이어야 합니다. 인턴 기간만으로 180일이 안 되면 이전 직장의 피보험기간과 합산합니다.</li>\n<li><strong>☑ 비자발적 이직</strong> — 인턴 계약 만료, 정규직 전환 거부, 수습 해지 등은 비자발적 이직에 해당할 소지가 있습니다.</li>\n<li><strong>☑ 근로의 의사와 능력</strong> — 재취업 의사가 있고 근로 능력이 있어야 합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>인턴·수습 종료 실업급여 수급 가능 여부, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">인턴 근무기간과 계약 형태를 입력하면 수급 자격을 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '인턴이 실업급여를 못 받는 경우와 대처법',
@@ -557,7 +557,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         question: '정규직 전환 심사에서 탈락하면 해고인가요, 계약만료인가요?',
         answer:
-          '<p>인턴 계약서에 "정규직 전환 심사 후 결정"이라고 되어 있다면 계약 만료에 해당합니다. 별도의 정규직 근로계약 없이 인턴 계약이 종료된 것이므로 비자발적 이직으로 봅니다.</p>',
+          '<p>인턴 계약서에 "정규직 전환 심사 후 결정"이라고 되어 있다면 계약 만료에 해당할 소지가 있습니다. 별도의 정규직 근로계약 없이 인턴 계약이 종료된 것이므로 비자발적 이직으로 봅니다.</p>',
       },
       {
         question: '수습 기간 중에 해고당하면 실업급여를 받을 수 있나요?',
@@ -605,12 +605,12 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '징계해고와 실업급여의 관계: 중대한 귀책사유란',
         content:
-          '<p><strong style="color:#1e3a5f">징계해고 = 실업급여 불가가 아닙니다. 고용보험법 시행규칙 별표2에 규정된 중대한 귀책사유에 해당하는 경우에만 수급이 제한됩니다.</strong></p>\n<p>많은 분이 징계해고면 무조건 실업급여를 못 받는다고 오해하지만, 실제로는 "중대한 귀책사유"에 해당하는 극히 제한된 경우에만 수급자격이 제한됩니다.</p>\n<table style="width:100%;border-collapse:collapse;margin:12px 0">\n<tr style="background:#f0f4f8"><th style="padding:8px;border:1px solid #ddd;text-align:left">해고 사유</th><th style="padding:8px;border:1px solid #ddd;text-align:left">실업급여</th></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">횡령, 배임, 절도 등 형사범죄</td><td style="padding:8px;border:1px solid #ddd">수급 제한 가능</td></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">정당한 사유 없는 장기 무단결근</td><td style="padding:8px;border:1px solid #ddd">수급 제한 가능</td></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">사업에 막대한 지장을 초래한 경우</td><td style="padding:8px;border:1px solid #ddd">수급 제한 가능</td></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">일반 사규 위반, 성과 미달</td><td style="padding:8px;border:1px solid #ddd">수급 가능</td></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">경미한 과실, 단순 실수</td><td style="padding:8px;border:1px solid #ddd">수급 가능</td></tr>\n</table>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 징계해고라도 대부분의 경우 실업급여 수급이 가능합니다. 중대한 귀책사유에 해당하는지가 핵심입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">징계해고 = 실업급여 불가가 아닙니다. 고용보험법 시행규칙 별표2에 규정된 중대한 귀책사유에 해당하는 경우에만 수급이 제한됩니다.</strong></p>\n<p>많은 분이 징계해고면 원칙적으로 실업급여를 못 받는다고 오해하지만, 실제로는 "중대한 귀책사유"에 해당하는 극히 제한된 경우에만 수급자격이 제한됩니다.</p>\n<table style="width:100%;border-collapse:collapse;margin:12px 0">\n<tr style="background:#f0f4f8"><th style="padding:8px;border:1px solid #ddd;text-align:left">해고 사유</th><th style="padding:8px;border:1px solid #ddd;text-align:left">실업급여</th></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">횡령, 배임, 절도 등 형사범죄</td><td style="padding:8px;border:1px solid #ddd">수급 제한 가능</td></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">정당한 사유 없는 장기 무단결근</td><td style="padding:8px;border:1px solid #ddd">수급 제한 가능</td></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">사업에 막대한 지장을 초래한 경우</td><td style="padding:8px;border:1px solid #ddd">수급 제한 가능</td></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">일반 사규 위반, 성과 미달</td><td style="padding:8px;border:1px solid #ddd">수급 가능</td></tr>\n<tr><td style="padding:8px;border:1px solid #ddd">경미한 과실, 단순 실수</td><td style="padding:8px;border:1px solid #ddd">수급 가능</td></tr>\n</table>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 징계해고라도 대부분의 경우 실업급여 수급이 가능합니다. 중대한 귀책사유에 해당하는지가 핵심입니다.</blockquote>',
       },
       {
         title: '징계해고 후 실업급여 신청 절차',
         content:
-          '<p><strong style="color:#1e3a5f">징계해고도 해고이므로 비자발적 이직에 해당합니다. 이직확인서를 요청하고 고용센터에 신청하세요.</strong></p>\n<ol>\n<li><strong>이직확인서 발급 요청</strong> — 사업주에게 이직확인서를 요청합니다. 징계해고도 이직확인서 발급 의무가 있습니다.</li>\n<li><strong>이직 사유 확인</strong> — 이직확인서의 이직 사유 코드가 "징계해고"로 기재되어 있는지 확인합니다. 사업주가 "중대한 귀책사유"로 기재할 수 있으니 주의하세요.</li>\n<li><strong>고용센터 수급자격 심사</strong> — 고용센터에서 징계해고 사유가 중대한 귀책사유에 해당하는지를 심사합니다. 해당하지 않으면 수급자격이 인정됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>징계해고 실업급여 수급 가능 여부, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">징계 사유와 해고 경위를 입력하면 중대한 귀책사유 해당 여부를 무료로 분석하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">징계해고도 해고이므로 비자발적 이직에 해당할 소지가 있습니다. 이직확인서를 요청하고 고용센터에 신청하세요.</strong></p>\n<ol>\n<li><strong>이직확인서 발급 요청</strong> — 사업주에게 이직확인서를 요청합니다. 징계해고도 이직확인서 발급 의무가 있습니다.</li>\n<li><strong>이직 사유 확인</strong> — 이직확인서의 이직 사유 코드가 "징계해고"로 기재되어 있는지 확인합니다. 사업주가 "중대한 귀책사유"로 기재할 수 있으니 주의하세요.</li>\n<li><strong>고용센터 수급자격 심사</strong> — 고용센터에서 징계해고 사유가 중대한 귀책사유에 해당하는지를 심사합니다. 해당하지 않으면 수급자격이 인정될 수 있습니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>징계해고 실업급여 수급 가능 여부, AI가 즉시 판단합니다</strong></p>\n<p style="margin:0;font-size:0.95em">징계 사유와 해고 경위를 입력하면 중대한 귀책사유 해당 여부를 무료로 분석하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '부당해고 구제신청과 실업급여 병행 가능 여부',

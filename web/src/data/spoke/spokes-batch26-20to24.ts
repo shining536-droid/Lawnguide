@@ -30,7 +30,7 @@ export const spokesBatch26_20to24: SpokePage[] = [
       {
         title: '재고용 기대권이 인정되는 3가지 조건',
         content:
-          '<p><strong style="color:#1e3a5f">기대권이 인정되려면 아래 3가지 조건 중 최소 2가지 이상이 충족되어야 합니다. 본인의 상황과 대조해보세요.</strong></p>\n<ol>\n<li><strong>관행적 재고용 존재</strong> — 같은 사업장에서 정년 이후 재고용이 관행적으로 이루어져 왔다는 사실이 있어야 합니다. 동료의 재고용 사례, 내부 규정, 인사 담당자의 발언 등이 증거가 됩니다</li>\n<li><strong>개별 합의 또는 약속</strong> — 사용자가 특정 근로자에게 재고용을 약속하거나 재고용을 전제로 한 업무 배정을 했다면 기대권이 더 강하게 인정됩니다. 문자, 이메일, 회의록 등 서면 기록을 확보하세요</li>\n<li><strong>단체협약 또는 취업규칙 규정</strong> — 단체협약이나 취업규칙에 "정년 후 계속고용" 또는 "재고용 우선권" 조항이 있다면 기대권이 법적으로 보호됩니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 기대권은 단순한 기대감이 아닙니다. 회사의 관행, 약속, 규정이라는 객관적 근거가 있어야 법적으로 인정받을 수 있습니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">기대권이 인정되려면 아래 3가지 조건 중 최소 2가지 이상이 충족되어야 합니다. 본인의 상황과 대조해보세요.</strong></p>\n<ol>\n<li><strong>관행적 재고용 존재</strong> — 같은 사업장에서 정년 이후 재고용이 관행적으로 이루어져 왔다는 사실이 있어야 합니다. 동료의 재고용 사례, 내부 규정, 인사 담당자의 발언 등이 증거가 됩니다</li>\n<li><strong>개별 합의 또는 약속</strong> — 사용자가 특정 근로자에게 재고용을 약속하거나 재고용을 전제로 한 업무 배정을 했다면 기대권이 더 강하게 인정될 수 있습니다. 문자, 이메일, 회의록 등 서면 기록을 확보하세요</li>\n<li><strong>단체협약 또는 취업규칙 규정</strong> — 단체협약이나 취업규칙에 "정년 후 계속고용" 또는 "재고용 우선권" 조항이 있다면 기대권이 법적으로 보호됩니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 기대권은 단순한 기대감이 아닙니다. 회사의 관행, 약속, 규정이라는 객관적 근거가 있어야 법적으로 인정받을 수 있습니다</blockquote>',
       },
       {
         title: '거절의 합리성 여부: 이유가 없으면 무효',
@@ -119,7 +119,7 @@ export const spokesBatch26_20to24: SpokePage[] = [
       {
         title: '갱신 기대권이 있다면 해고와 동일하게 판단',
         content:
-          '<p><strong style="color:#1e3a5f">2년이 되지 않았더라도, 갱신 기대권이 형성된 경우 갱신 거절은 부당해고와 동일하게 다툴 수 있습니다.</strong></p>\n<ul>\n<li><strong>갱신 기대권이 인정되는 경우</strong> — 계약이 반복 갱신되어 온 경우, 갱신 거절 사유를 들어본 적 없는 경우, 업무가 상시·반복적 성격인 경우에는 기대권이 인정됩니다</li>\n<li><strong>무기계약 회피 목적이 명백한 경우</strong> — 2년 만료 직전 계약을 해지하거나, 다른 기간제 근로자로 교체하는 경우에는 법원이 탈법 의도를 강하게 의심합니다</li>\n<li><strong>정당한 사유 없는 거절은 무효</strong> — 대구고법 2023나13849 사건에서 법원은 기간제 총 사용 기간이 2년을 초과해 무기계약으로 전환된 근로자에 대한 갱신 거절은 부당해고라고 판시했습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 무기계약 전환 여부와 갱신 기대권 인정 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">2년이 되지 않았더라도, 갱신 기대권이 형성된 경우 갱신 거절은 부당해고와 동일하게 다툴 수 있습니다.</strong></p>\n<ul>\n<li><strong>갱신 기대권이 인정되는 경우</strong> — 계약이 반복 갱신되어 온 경우, 갱신 거절 사유를 들어본 적 없는 경우, 업무가 상시·반복적 성격인 경우에는 기대권이 인정될 수 있습니다</li>\n<li><strong>무기계약 회피 목적이 명백한 경우</strong> — 2년 만료 직전 계약을 해지하거나, 다른 기간제 근로자로 교체하는 경우에는 법원이 탈법 의도를 강하게 의심합니다</li>\n<li><strong>정당한 사유 없는 거절은 무효</strong> — 대구고법 2023나13849 사건에서 법원은 기간제 총 사용 기간이 2년을 초과해 무기계약으로 전환된 근로자에 대한 갱신 거절은 부당해고라고 판시했습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 무기계약 전환 여부와 갱신 기대권 인정 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '갱신 거절 후 대응 4단계',
@@ -133,7 +133,7 @@ export const spokesBatch26_20to24: SpokePage[] = [
         summary:
           '대구고법 2023나13849 사건(대구고등법원, 2024.03.27 선고)에서 법원은 기간제 근로자가 동일 사업장에서 총 2년을 초과하여 근무하였고 업무의 상시·반복적 성격을 인정하여 무기계약으로 전환되었다고 판단했습니다. 이후 이루어진 갱신 거절은 정당한 사유 없는 해고에 해당하며, 기간제법 위반으로 무효라고 판시했습니다.',
         takeaway:
-          '기간제 총 사용 기간 2년 초과, 상시·반복적 업무, 갱신 기대권이 모두 인정되면 갱신 거절은 부당해고입니다. 회사가 의도적으로 2년 직전에 계약을 해지하는 경우에도 동일하게 탈법 행위로 다툴 수 있습니다.',
+          '기간제 총 사용 기간 2년 초과, 상시·반복적 업무, 갱신 기대권이 모두 인정되면 갱신 거절은 부당해고로 검토될 수 있습니다. 회사가 의도적으로 2년 직전에 계약을 해지하는 경우에도 동일하게 탈법 행위로 다툴 수 있습니다.',
       },
     ],
     faq: [
@@ -193,12 +193,12 @@ export const spokesBatch26_20to24: SpokePage[] = [
       {
         title: '육아기 근로자 해고 금지 5가지 법적 보호',
         content:
-          '<p><strong style="color:#1e3a5f">남녀고용평등법과 근로기준법은 육아기 근로자에게 아래 5가지 보호를 제공하고 있습니다.</strong></p>\n<ol>\n<li><strong>육아휴직 중 해고 금지</strong> — 육아휴직 기간 중 해고는 절대적으로 금지됩니다(남녀고용평등법 제19조). 기간제 계약이 만료되더라도 육아휴직 중에는 원칙적으로 계약 종료가 제한됩니다</li>\n<li><strong>복직 후 30일간 해고 금지</strong> — 출산 후 여성은 출산 전후 휴가 종료 후 30일 동안 해고하지 못합니다(근로기준법 제23조)</li>\n<li><strong>육아기 근무시간 단축 신청 거부 불가</strong> — 만 8세 이하(초등 2학년) 자녀가 있는 근로자는 근무시간 단축을 신청할 수 있으며, 사업주는 허용하는 것이 원칙입니다(남녀고용평등법 제19조의2)</li>\n<li><strong>불이익 처우 금지</strong> — 육아휴직이나 근무시간 단축을 이유로 해고, 인사 불이익, 임금 삭감 등을 하면 형사 처벌 대상이 됩니다(남녀고용평등법 제37조)</li>\n<li><strong>사업주 배려의무</strong> — 대법원은 육아기 근로자를 해고하거나 시용 기간 중 본채용을 거절하려면 사업주가 배려의무를 다했는지를 엄격하게 심사해야 한다고 판시했습니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 육아기 해고는 일반 해고보다 훨씬 엄격한 기준이 적용됩니다. "업무 효율", "인력 감축" 등 경영상 사유를 들어도 배려의무를 다하지 않으면 부당해고입니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">남녀고용평등법과 근로기준법은 육아기 근로자에게 아래 5가지 보호를 제공하고 있습니다.</strong></p>\n<ol>\n<li><strong>육아휴직 중 해고 금지</strong> — 육아휴직 기간 중 해고는 절대적으로 금지됩니다(남녀고용평등법 제19조). 기간제 계약이 만료되더라도 육아휴직 중에는 원칙적으로 계약 종료가 제한됩니다</li>\n<li><strong>복직 후 30일간 해고 금지</strong> — 출산 후 여성은 출산 전후 휴가 종료 후 30일 동안 해고하지 못합니다(근로기준법 제23조)</li>\n<li><strong>육아기 근무시간 단축 신청 거부 불가</strong> — 만 8세 이하(초등 2학년) 자녀가 있는 근로자는 근무시간 단축을 신청할 수 있으며, 사업주는 허용하는 것이 원칙입니다(남녀고용평등법 제19조의2)</li>\n<li><strong>불이익 처우 금지</strong> — 육아휴직이나 근무시간 단축을 이유로 해고, 인사 불이익, 임금 삭감 등을 하면 형사 처벌 대상이 됩니다(남녀고용평등법 제37조)</li>\n<li><strong>사업주 배려의무</strong> — 대법원은 육아기 근로자를 해고하거나 시용 기간 중 본채용을 거절하려면 사업주가 배려의무를 다했는지를 엄격하게 심사해야 한다고 판시했습니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 육아기 해고는 일반 해고보다 훨씬 엄격한 기준이 적용됩니다. "업무 효율", "인력 감축" 등 경영상 사유를 들어도 배려의무를 다하지 않으면 부당해고로 검토될 수 있습니다</blockquote>',
       },
       {
         title: '배려의무란 무엇인가: 해고 전 사업주가 해야 할 것들',
         content:
-          '<p><strong style="color:#1e3a5f">대법원 2019두59349 사건에서 법원은 육아기 근로자에 대한 사업주의 배려의무가 구체적으로 어떤 내용인지를 명시했습니다.</strong></p>\n<ul>\n<li><strong>업무 조정 시도</strong> — 해고 전에 근무 장소 변경, 업무 재배치, 근무시간 조정 등을 시도해야 합니다. 이런 시도 없이 바로 해고하면 배려의무 위반입니다</li>\n<li><strong>단축 근무 시간 허용</strong> — 육아기 근무시간 단축을 신청한 경우 최대 주 15시간까지 단축이 허용되며, 사업주가 거부할 수 있는 사유는 제한적입니다</li>\n<li><strong>복직 후 동일하거나 유사한 업무 배치</strong> — 육아휴직 복직 후 종전과 동일하거나 유사한 업무에 복귀시켜야 하며, 이를 이유 없이 거부하면 불이익 처우에 해당합니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 육아기 해고의 부당성과 구제 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">대법원 2019두59349 사건에서 법원은 육아기 근로자에 대한 사업주의 배려의무가 구체적으로 어떤 내용인지를 명시했습니다.</strong></p>\n<ul>\n<li><strong>업무 조정 시도</strong> — 해고 전에 근무 장소 변경, 업무 재배치, 근무시간 조정 등을 시도해야 합니다. 이런 시도 없이 바로 해고하면 배려의무 위반입니다</li>\n<li><strong>단축 근무 시간 허용</strong> — 육아기 근무시간 단축을 신청한 경우 최대 주 15시간까지 단축이 허용되며, 사업주가 거부할 수 있는 사유는 제한적입니다</li>\n<li><strong>복직 후 동일하거나 유사한 업무 배치</strong> — 육아휴직 복직 후 종전과 동일하거나 유사한 업무에 복귀시켜야 하며, 이를 이유 없이 거부하면 불이익 처우에 해당할 소지가 있습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 육아기 해고의 부당성과 구제 가능성을 분석해드립니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '육아기 해고 후 즉시 해야 할 3가지',
@@ -277,7 +277,7 @@ export const spokesBatch26_20to24: SpokePage[] = [
       {
         title: '근로자성 판단 4가지 핵심 기준',
         content:
-          '<p><strong style="color:#1e3a5f">대법원은 계약서 명칭(위탁계약, 도급계약, 프리랜서 계약)에 상관없이 아래 4가지 기준으로 근로자성을 판단합니다.</strong></p>\n<ol>\n<li><strong>지휘·감독 여부</strong> — 플랫폼이 업무 수행 방식, 시간, 장소 등을 구체적으로 지시하고 통제했다면 근로자성이 강합니다. "앱으로 접속하면 배차가 자동으로 배정되고, 거부하면 패널티가 있다"는 구조가 대표적입니다</li>\n<li><strong>보수의 성격</strong> — 수수료나 수익 배분 방식이 아니라 고정 급여 또는 시간당 단가 형태로 보수를 받았다면 임금 성격이 인정됩니다</li>\n<li><strong>전속성·의존성</strong> — 해당 플랫폼에만 전속되어 다른 업체와 계약이 사실상 불가능했거나, 소득 대부분이 해당 플랫폼에서 나왔다면 근로자성이 인정될 가능성이 높습니다</li>\n<li><strong>비용 부담 주체</strong> — 업무에 필요한 장비, 차량, 도구의 구입 및 유지 비용을 회사가 부담했거나 실질적으로 지원했다면 근로자성 징표입니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 계약서에 "근로자가 아니다"라고 명시되어 있어도 실질이 근로자라면 부당해고 구제가 가능합니다. 계약서 명칭보다 실제 근무 형태가 중요합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">대법원은 계약서 명칭(위탁계약, 도급계약, 프리랜서 계약)에 상관없이 아래 4가지 기준으로 근로자성을 판단합니다.</strong></p>\n<ol>\n<li><strong>지휘·감독 여부</strong> — 플랫폼이 업무 수행 방식, 시간, 장소 등을 구체적으로 지시하고 통제했다면 근로자성이 강합니다. "앱으로 접속하면 배차가 자동으로 배정되고, 거부하면 패널티가 있다"는 구조가 대표적입니다</li>\n<li><strong>보수의 성격</strong> — 수수료나 수익 배분 방식이 아니라 고정 급여 또는 시간당 단가 형태로 보수를 받았다면 임금 성격이 인정될 수 있습니다</li>\n<li><strong>전속성·의존성</strong> — 해당 플랫폼에만 전속되어 다른 업체와 계약이 사실상 불가능했거나, 소득 대부분이 해당 플랫폼에서 나왔다면 근로자성이 인정될 가능성이 높습니다</li>\n<li><strong>비용 부담 주체</strong> — 업무에 필요한 장비, 차량, 도구의 구입 및 유지 비용을 회사가 부담했거나 실질적으로 지원했다면 근로자성 징표입니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 계약서에 "근로자가 아니다"라고 명시되어 있어도 실질이 근로자라면 부당해고 구제가 가능합니다. 계약서 명칭보다 실제 근무 형태가 중요합니다</blockquote>',
       },
       {
         title: '플랫폼 드라이버·배달기사도 근로자로 인정된다',
@@ -294,7 +294,7 @@ export const spokesBatch26_20to24: SpokePage[] = [
       {
         title: '판례 — 플랫폼 드라이버 근로자성 인정',
         summary:
-          '대법원 2024두32973 사건(대법원, 2024.07.25 선고)에서 법원은 카풀·차량공유 플랫폼 드라이버가 플랫폼의 구체적인 지시·감독 하에 업무를 수행하고, 수익의 대부분을 해당 플랫폼에서 얻으며 전속성이 높은 경우 근로기준법상 근로자에 해당한다고 판시했습니다. 계약서 명칭이 "위탁계약"이더라도 실질적 종속 관계가 인정되면 근로자성이 인정됩니다.',
+          '대법원 2024두32973 사건(대법원, 2024.07.25 선고)에서 법원은 카풀·차량공유 플랫폼 드라이버가 플랫폼의 구체적인 지시·감독 하에 업무를 수행하고, 수익의 대부분을 해당 플랫폼에서 얻으며 전속성이 높은 경우 근로기준법상 근로자에 해당한다고 판시했습니다. 계약서 명칭이 "위탁계약"이더라도 실질적 종속 관계가 인정되면 근로자성이 인정될 수 있습니다.',
         takeaway:
           '플랫폼 노동자도 실질적인 지휘·감독, 전속성, 수익 의존도가 인정되면 근로기준법의 보호를 받습니다. 계약해지가 해고에 해당하면 부당해고 구제신청이 가능합니다.',
       },
@@ -366,7 +366,7 @@ export const spokesBatch26_20to24: SpokePage[] = [
       {
         title: '노동위원회 구제신청 시 핵심 주장',
         content:
-          '<p><strong style="color:#1e3a5f">노동위원회 구제신청 시 아래 3가지 주장을 중심으로 사건을 구성하면 인용 가능성이 높아집니다.</strong></p>\n<ol>\n<li><strong>평가의 객관성 결여 주장</strong>: 평가 기준이 불명확하거나 평가자가 주관적으로 판단했다는 사실을 구체적인 증거와 함께 제출합니다. 동료 진술서, 과거 평가 결과 비교, 평가 기준 미공지 사실 등이 근거가 됩니다</li>\n<li><strong>개선 기회 미부여 주장</strong>: 성과 부진 통보 후 해고까지의 기간이 짧거나 실질적인 지원이 없었다는 사실을 입증합니다. "PIP(성과개선계획)를 통보받았는데 실행 기간이 1개월에 불과했다"는 사례는 개선 기회 미부여에 해당합니다</li>\n<li><strong>해고의 최후수단성 결여 주장</strong>: 배치 전환, 직무 교육 등 다른 수단을 시도하지 않고 바로 해고했다는 사실을 주장합니다. 해고는 최후의 수단이어야 한다는 근로기준법의 원칙을 근거로 활용하세요</li>\n</ol>',
+          '<p><strong style="color:#1e3a5f">노동위원회 구제신청 시 아래 3가지 주장을 중심으로 사건을 구성하면 인용 가능성이 높아집니다.</strong></p>\n<ol>\n<li><strong>평가의 객관성 결여 주장</strong>: 평가 기준이 불명확하거나 평가자가 주관적으로 판단했다는 사실을 구체적인 증거와 함께 제출합니다. 동료 진술서, 과거 평가 결과 비교, 평가 기준 미공지 사실 등이 근거가 됩니다</li>\n<li><strong>개선 기회 미부여 주장</strong>: 성과 부진 통보 후 해고까지의 기간이 짧거나 실질적인 지원이 없었다는 사실을 입증합니다. "PIP(성과개선계획)를 통보받았는데 실행 기간이 1개월에 불과했다"는 사례는 개선 기회 미부여에 해당할 소지가 있습니다</li>\n<li><strong>해고의 최후수단성 결여 주장</strong>: 배치 전환, 직무 교육 등 다른 수단을 시도하지 않고 바로 해고했다는 사실을 주장합니다. 해고는 최후의 수단이어야 한다는 근로기준법의 원칙을 근거로 활용하세요</li>\n</ol>',
       },
     ],
     cases: [

@@ -18,12 +18,12 @@ export const dismissalPages: SpokePage[] = [
       {
         title: '첫째, 해고 사유와 시기를 서면으로 받으세요',
         content:
-          '<p><strong style="color:#1e3a5f">해고는 서면으로 통지해야 효력이 있습니다</strong></p>\n<p><strong>근로기준법 제27조</strong>에 따라 사용자는 해고 사유와 시기를 <strong>서면으로</strong> 통지해야 합니다. 구두 해고는 그 자체로 부당해고입니다.</p>\n<p>사업주가 서면 통지를 거부하면, 해고 통보를 받은 <strong>일시, 장소, 말한 내용</strong>을 메모하세요. 녹음이 가능하다면 대화를 녹음해두세요(본인이 당사자인 대화 녹음은 합법입니다).</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 해고 통지서 서면 요청, 구두 해고 시 일시·장소·내용 기록, 녹음</blockquote>',
+          '<p><strong style="color:#1e3a5f">해고는 서면으로 통지해야 효력이 있습니다</strong></p>\n<p><strong>근로기준법 제27조</strong>에 따라 사용자는 해고 사유와 시기를 <strong>서면으로</strong> 통지해야 합니다. 구두 해고는 그 자체로 부당해고로 검토될 수 있습니다.</p>\n<p>사업주가 서면 통지를 거부하면, 해고 통보를 받은 <strong>일시, 장소, 말한 내용</strong>을 메모하세요. 녹음이 가능하다면 대화를 녹음해두세요(본인이 당사자인 대화 녹음은 합법입니다).</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 해고 통지서 서면 요청, 구두 해고 시 일시·장소·내용 기록, 녹음</blockquote>',
       },
       {
         title: '둘째, 부당해고의 증거를 수집하세요',
         content:
-          '<p><strong style="color:#1e3a5f">근무 성과와 해고 경위를 증명할 자료를 모으세요</strong></p>\n<p>인사평가 기록, 업무 실적 자료, 동료와의 대화 내역 등 <strong>정상적으로 근무했음을 증명</strong>할 자료를 확보하세요. 사업주가 주장하는 해고 사유가 사실과 다르다는 것을 입증하는 것이 중요합니다.</p>\n<p>취업규칙, 단체협약도 확인하세요. 해고 절차(징계위원회 개최 등)를 지키지 않았다면 <strong>절차적 부당해고</strong>에 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 인사평가, 업무 실적, 해고 경위 기록, 취업규칙·징계 절차 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">근무 성과와 해고 경위를 증명할 자료를 모으세요</strong></p>\n<p>인사평가 기록, 업무 실적 자료, 동료와의 대화 내역 등 <strong>정상적으로 근무했음을 증명</strong>할 자료를 확보하세요. 사업주가 주장하는 해고 사유가 사실과 다르다는 것을 입증하는 것이 중요합니다.</p>\n<p>취업규칙, 단체협약도 확인하세요. 해고 절차(징계위원회 개최 등)를 지키지 않았다면 <strong>절차적 부당해고</strong>에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">체크: 인사평가, 업무 실적, 해고 경위 기록, 취업규칙·징계 절차 확인</blockquote>',
       },
       {
         title: '셋째, 노동위원회에 구제신청을 하세요',
@@ -42,7 +42,7 @@ export const dismissalPages: SpokePage[] = [
         summary:
           '관련 사례에서도 사업주가 구두로만 해고를 통보하고 서면 통지를 하지 않아, 절차적 위반으로 부당해고가 인정되어 근로자가 복직된 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 해고 통지가 서면으로 이루어졌는지 반드시 확인하세요.',
+          '비슷한 상황이라면 해고 통지가 서면으로 이루어졌는지 가능한 한 확인하세요.',
       },
       {
         title: '구제신청 기한(3개월)을 놓쳐 각하된 사례',

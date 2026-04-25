@@ -49,7 +49,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         title: '회수 전략 — 민사 vs 합의',
         content:
-          '<p><strong style="color:#1e3a5f">소액이면 민사 소송보다 합의 종용이 현실적, 10만 원 이하는 소액심판으로 3주 내 집행권원 확보.</strong></p>\n<ul>\n<li><strong>3만 원대 피해</strong> — 지급명령(인지대 1,000원), 이의 없으면 14일 후 확정.</li>\n<li><strong>10만 원대 피해</strong> — 소액심판(3,000만 원 이하), 1회 변론으로 판결.</li>\n<li><strong>피의자 합의 제안</strong> — 원금 + 위자 20~30% 표준, 처벌불원서 작성 조건.</li>\n<li><strong>피의자 재산 추적</strong> — 형사 수사 진행 시 계좌 압수수색으로 숨긴 재산 발견.</li>\n<li><strong>배상명령 신청</strong> — 형사 재판 1심 변론 종결 전, 인지대 없이 판결문으로 강제집행.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "돈만 돌려주면 취하"는 구두 약속 금지, 반드시 합의서 작성 후 입금 확인.</blockquote>',
+          '<p><strong style="color:#1e3a5f">소액이면 민사 소송보다 합의 종용이 현실적, 10만 원 이하는 소액심판으로 3주 내 집행권원 확보.</strong></p>\n<ul>\n<li><strong>3만 원대 피해</strong> — 지급명령(인지대 1,000원), 이의 없으면 14일 후 확정.</li>\n<li><strong>10만 원대 피해</strong> — 소액심판(3,000만 원 이하), 1회 변론으로 판결.</li>\n<li><strong>피의자 합의 제안</strong> — 원금 + 위자 20~30% 표준, 처벌불원서 작성 조건.</li>\n<li><strong>피의자 재산 추적</strong> — 형사 수사 진행 시 계좌 압수수색으로 숨긴 재산 발견.</li>\n<li><strong>배상명령 신청</strong> — 형사 재판 1심 변론 종결 전, 인지대 없이 판결문으로 강제집행.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "돈만 돌려주면 취하"는 구두 약속 금지, 가능한 한 합의서 작성 후 입금 확인.</blockquote>',
       },
     ],
     cases: [
@@ -58,7 +58,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
         summary:
           '대법원 2025도15768 사건(대법원, 2026.01.15 선고)에서 법원은 상품권업체를 운영하면서 보이스피싱·인터넷도박 조직의 의뢰에 따라 자금세탁을 해주고 수수료를 받은 행위에 대해, 사기 범행 실행자가 아니더라도 범죄수익 은닉 규제법 위반이 성립한다고 판시했습니다. 상품권 수취 계좌 운영자도 형사 책임을 지는 흐름입니다.',
         takeaway:
-          '기프티콘 사기 계좌 운영자도 공범·자금세탁범으로 추가 처벌되므로 고소 시 반드시 계좌주 정보를 파악해야 합니다.',
+          '기프티콘 사기 계좌 운영자도 공범·자금세탁범으로 추가 처벌되므로 고소 시 가능한 한 계좌주 정보를 파악해야 합니다.',
       },
     ],
     faq: [
@@ -223,7 +223,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         title: '재발 방지 — 자동결제 관리 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">카드·간편결제 자동결제 목록 월 1회 점검이 가장 확실한 예방입니다.</strong></p>\n<ul>\n<li><strong>카드사 조회</strong> — 각 카드사 앱 "자동납부 관리" 메뉴, 모든 등록 건 표시.</li>\n<li><strong>간편결제 정리</strong> — 카카오페이·네이버페이·토스 "구독·정기결제" 별도 관리.</li>\n<li><strong>가상계좌·문화상품권</strong> — 무료체험 시 사용, 카드 정보 노출 차단.</li>\n<li><strong>해지 증거 보관</strong> — 해지 확인 이메일·SMS를 6개월 이상 보관.</li>\n<li><strong>앱 삭제 ≠ 해지</strong> — 앱 지워도 자동결제 유지, 반드시 별도 해지 절차.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 네이버플러스·쿠팡와우 등 대형 업체도 해지 버튼 숨김 논란 있음, 정기 점검 필수.</blockquote>',
+          '<p><strong style="color:#1e3a5f">카드·간편결제 자동결제 목록 월 1회 점검이 가장 확실한 예방입니다.</strong></p>\n<ul>\n<li><strong>카드사 조회</strong> — 각 카드사 앱 "자동납부 관리" 메뉴, 모든 등록 건 표시.</li>\n<li><strong>간편결제 정리</strong> — 카카오페이·네이버페이·토스 "구독·정기결제" 별도 관리.</li>\n<li><strong>가상계좌·문화상품권</strong> — 무료체험 시 사용, 카드 정보 노출 차단.</li>\n<li><strong>해지 증거 보관</strong> — 해지 확인 이메일·SMS를 6개월 이상 보관.</li>\n<li><strong>앱 삭제 ≠ 해지</strong> — 앱 지워도 자동결제 유지, 가능한 한 별도 해지 절차.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 네이버플러스·쿠팡와우 등 대형 업체도 해지 버튼 숨김 논란 있음, 정기 점검 필수.</blockquote>',
       },
     ],
     cases: [
@@ -232,7 +232,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
         summary:
           '대법원 2022도11923 사건(대법원, 2025.08.14 선고)에서 법원은 혐의사실 관련성 구분 없이 휴대전화 저장 전자정보를 엑셀파일로 생성·저장하는 방식의 압수수색은 위법하며, 그로 인한 증거는 사기 공소사실 유죄 증거로 쓸 수 없다고 판시했습니다. 디지털 결제 관련 사기 사건에서 증거능력 요건이 엄격해졌습니다.',
         takeaway:
-          '자동결제 관련 증거는 적법 절차로 수집·보관해야 형사 사건에서 인정됩니다.',
+          '자동결제 관련 증거는 적법 절차로 수집·보관해야 형사 사건에서 인정될 수 있습니다.',
       },
     ],
     faq: [
@@ -259,7 +259,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         question: '카드 해지하면 자동결제 중단되나요?',
         answer:
-          '<strong>새 카드로 자동 갱신되는 경우 있습니다.</strong> 업체 측 해지 절차 반드시 병행.',
+          '<strong>새 카드로 자동 갱신되는 경우 있습니다.</strong> 업체 측 해지 절차 가능한 한 병행.',
       },
     ],
     cta: {
@@ -382,7 +382,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         title: '즉시 지급정지 — 30분 골든타임',
         content:
-          '<p><strong style="color:#1e3a5f">송금 30분 이내 지급정지 성공률이 가장 높고, 72시간 넘으면 회수 거의 불가능합니다.</strong></p>\n<ul>\n<li><strong>은행 콜센터</strong> — 송금은행 24시간 고객센터, "전기통신금융사기" 신고로 즉시 정지.</li>\n<li><strong>112 신고</strong> — 경찰 신고 시 자동으로 지급정지 연계 시스템 작동.</li>\n<li><strong>1332 신고</strong> — 금융감독원 24시간 상담, 지급정지 및 피해구제 절차 안내.</li>\n<li><strong>모바일뱅킹 자체 신고</strong> — 각 은행 앱 "보이스피싱 신고" 버튼, 즉시 접수.</li>\n<li><strong>피의자 추가 연락</strong> — "돈 돌려준다"는 추가 연락 받지 말고 무조건 차단.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 한 번 송금하면 추가 송금 요구가 반드시 옵니다. 절대 응하지 말고 신고부터.</blockquote>',
+          '<p><strong style="color:#1e3a5f">송금 30분 이내 지급정지 성공률이 가장 높고, 72시간 넘으면 회수 거의 불가능합니다.</strong></p>\n<ul>\n<li><strong>은행 콜센터</strong> — 송금은행 24시간 고객센터, "전기통신금융사기" 신고로 즉시 정지.</li>\n<li><strong>112 신고</strong> — 경찰 신고 시 자동으로 지급정지 연계 시스템 작동.</li>\n<li><strong>1332 신고</strong> — 금융감독원 24시간 상담, 지급정지 및 피해구제 절차 안내.</li>\n<li><strong>모바일뱅킹 자체 신고</strong> — 각 은행 앱 "보이스피싱 신고" 버튼, 즉시 접수.</li>\n<li><strong>피의자 추가 연락</strong> — "돈 돌려준다"는 추가 연락 받지 말고 원칙적으로 차단.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 한 번 송금하면 추가 송금 요구가 가능한 한 옵니다. 절대 응하지 말고 신고부터.</blockquote>',
       },
       {
         title: '피해금 환급 — 통신사기피해환급법',
@@ -413,7 +413,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         question: '선입금한 수수료가 소액이어도 신고하나요?',
         answer:
-          '<strong>금액 불문 반드시 신고하세요.</strong> 동일 수법 피해자 다수면 조직범죄 수사 연결.',
+          '<strong>금액 불문 가능한 한 신고하세요.</strong> 동일 수법 피해자 다수면 조직범죄 수사 연결.',
       },
       {
         question: '피해금 환급 신청하면 전액 돌아오나요?',
@@ -433,7 +433,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         question: '카드대출도 선입금 요구하면 사기인가요?',
         answer:
-          '<strong>100% 사기입니다.</strong> 모든 금융사는 선입금 요구하지 않습니다.',
+          '<strong>100% 사기로 검토될 수 있습니다.</strong> 모든 금융사는 선입금 요구하지 않습니다.',
       },
     ],
     cta: {
@@ -464,7 +464,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
         '자동차와 자전거 사고에서 중상을 입었을 때 과실비율과 보상 범위, 합의금 산정 기준을 지금 확인하세요.',
     },
     intro:
-      '<p>자전거 라이딩 중 좌회전 차량에 부딪혀 전치 12주 진단을 받으면 보험사와 과실비율 싸움이 시작됩니다. 자동차 대 자전거 사고는 "자동차가 약자 보호 의무 있다"는 일반론이 있지만, 자전거의 역주행·무신호 진입 시 자전거 과실이 30~60%까지 인정됩니다. 중상 여부에 따라 교통사고처리특례법 제3조 12대 중과실 적용도 달라집니다.</p>',
+      '<p>자전거 라이딩 중 좌회전 차량에 부딪혀 전치 12주 진단을 받으면 보험사와 과실비율 싸움이 시작됩니다. 자동차 대 자전거 사고는 "자동차가 약자 보호 의무 있다"는 일반론이 있지만, 자전거의 역주행·무신호 진입 시 자전거 과실이 30~60%까지 인정될 수 있습니다. 중상 여부에 따라 교통사고처리특례법 제3조 12대 중과실 적용도 달라집니다.</p>',
     sections: [
       {
         title: '과실비율 기준 — 6가지 상황별',
@@ -484,7 +484,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         title: '합의 전략 — 보험사·피의자 협상',
         content:
-          '<p><strong style="color:#1e3a5f">보험사 제시액의 1.5~2배까지 협상 가능, 중상일수록 법률 자문 필수.</strong></p>\n<ul>\n<li><strong>보험사 제시액 거부</strong> — 1차 제시는 최저선, 협상·재감정 반드시 요구.</li>\n<li><strong>후유장해 진단</strong> — 치료 종결 6개월 후 장해진단서 발급, 합의금 상승.</li>\n<li><strong>형사합의금 별도</strong> — 운전자 처벌불원 대가, 200~1,500만 원.</li>\n<li><strong>변호사 선임</strong> — 중상·후유장해 시 필수, 성공보수 10~20%.</li>\n<li><strong>민사 소송</strong> — 합의 결렬 시 제기, 치료 종결 후 소장.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 합의서에 "이후 어떠한 청구도 하지 않음" 부제소 특약 있으면 후유장해도 추가 청구 불가.</blockquote>',
+          '<p><strong style="color:#1e3a5f">보험사 제시액의 1.5~2배까지 협상 가능, 중상일수록 법률 자문 필수.</strong></p>\n<ul>\n<li><strong>보험사 제시액 거부</strong> — 1차 제시는 최저선, 협상·재감정 가능한 한 요구.</li>\n<li><strong>후유장해 진단</strong> — 치료 종결 6개월 후 장해진단서 발급, 합의금 상승.</li>\n<li><strong>형사합의금 별도</strong> — 운전자 처벌불원 대가, 200~1,500만 원.</li>\n<li><strong>변호사 선임</strong> — 중상·후유장해 시 필수, 성공보수 10~20%.</li>\n<li><strong>민사 소송</strong> — 합의 결렬 시 제기, 치료 종결 후 소장.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 합의서에 "이후 어떠한 청구도 하지 않음" 부제소 특약 있으면 후유장해도 추가 청구 불가.</blockquote>',
       },
     ],
     cases: [
@@ -658,7 +658,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         title: '뺑소니 의심 — 상대 잠수 시',
         content:
-          '<p><strong style="color:#1e3a5f">도로교통법 제54조 사고 후 조치 불이행은 형사처벌 대상입니다.</strong></p>\n<ul>\n<li><strong>뺑소니 성립 요건</strong> — 인적피해 없이도 물적피해 + 미조치 시 형사 입건.</li>\n<li><strong>CCTV 확보</strong> — 주차장·주변 상가 CCTV 72시간 내 요청.</li>\n<li><strong>차량번호 추적</strong> — 경찰 신고 후 차적 조회로 가해자 특정.</li>\n<li><strong>처벌</strong> — 물적피해 뺑소니 5년 이하 금고·1,500만 원 이하 벌금.</li>\n<li><strong>보험 처리</strong> — 가해자 특정 후 상대 대물로 처리, 가해자 미특정 시 자차.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 내가 살짝 찍고 연락처 안 남긴 채 자리 뜨면 뺑소니 성립, 반드시 연락처 남길 것.</blockquote>',
+          '<p><strong style="color:#1e3a5f">도로교통법 제54조 사고 후 조치 불이행은 형사처벌 대상입니다.</strong></p>\n<ul>\n<li><strong>뺑소니 성립 요건</strong> — 인적피해 없이도 물적피해 + 미조치 시 형사 입건.</li>\n<li><strong>CCTV 확보</strong> — 주차장·주변 상가 CCTV 72시간 내 요청.</li>\n<li><strong>차량번호 추적</strong> — 경찰 신고 후 차적 조회로 가해자 특정.</li>\n<li><strong>처벌</strong> — 물적피해 뺑소니 5년 이하 금고·1,500만 원 이하 벌금.</li>\n<li><strong>보험 처리</strong> — 가해자 특정 후 상대 대물로 처리, 가해자 미특정 시 자차.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 내가 살짝 찍고 연락처 안 남긴 채 자리 뜨면 뺑소니 성립, 가능한 한 연락처 남길 것.</blockquote>',
       },
     ],
     cases: [

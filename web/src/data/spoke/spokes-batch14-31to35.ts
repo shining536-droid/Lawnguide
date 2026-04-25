@@ -94,7 +94,7 @@ export const spokesBatch14Pages31to35: SpokePage[] = [
       },
       {
         title: '2단계 — 형사 고소로 가해자를 압박하세요',
-        content: '<p><strong style="color:#1e3a5f">형법 제347조에 따르면 사기죄는 10년 이하의 징역 또는 2천만 원 이하의 벌금에 처합니다. 피해 금액이 5억 원 이상이면 특정경제범죄 가중처벌법이 적용되어 3년 이상의 징역에 해당합니다.</strong></p>\n<p>관할 경찰서(피해자 주소지 또는 범죄 발생지)에 고소장을 접수합니다. 사이버사기는 경찰청 사이버수사국(ecrm.police.go.kr)에서 온라인 접수도 가능합니다. 고소장에는 기망 행위(어떻게 속였는지), 처분 행위(어떻게 돈을 보냈는지), 편취 금액을 구체적으로 기재합니다.</p>\n<p>고소장 접수 후 통상 2~4주 내에 경찰로부터 첫 연락이 옵니다. 조사 시 1단계에서 확보한 증거를 함께 제출하세요. <strong>고소장을 넣으면 가해자에게 출석 요구가 나가므로</strong>, 합의 협상에서 유리한 위치를 점할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형사 고소는 가해자를 처벌하는 것뿐 아니라, 합의와 피해 회수를 위한 가장 강력한 압박 수단입니다.</blockquote>'
+        content: '<p><strong style="color:#1e3a5f">형법 제347조에 따르면 사기죄는 10년 이하의 징역 또는 2천만 원 이하의 벌금에 처합니다. 피해 금액이 5억 원 이상이면 특정경제범죄 가중처벌법이 적용되어 3년 이상의 징역에 해당할 소지가 있습니다.</strong></p>\n<p>관할 경찰서(피해자 주소지 또는 범죄 발생지)에 고소장을 접수합니다. 사이버사기는 경찰청 사이버수사국(ecrm.police.go.kr)에서 온라인 접수도 가능합니다. 고소장에는 기망 행위(어떻게 속였는지), 처분 행위(어떻게 돈을 보냈는지), 편취 금액을 구체적으로 기재합니다.</p>\n<p>고소장 접수 후 통상 2~4주 내에 경찰로부터 첫 연락이 옵니다. 조사 시 1단계에서 확보한 증거를 함께 제출하세요. <strong>고소장을 넣으면 가해자에게 출석 요구가 나가므로</strong>, 합의 협상에서 유리한 위치를 점할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 형사 고소는 가해자를 처벌하는 것뿐 아니라, 합의와 피해 회수를 위한 가장 강력한 압박 수단입니다.</blockquote>'
       },
       {
         title: '3단계 — 민사소송으로 돈을 돌려받으세요',
@@ -104,14 +104,14 @@ export const spokesBatch14Pages31to35: SpokePage[] = [
     cases: [
       {
         title: '서울북부지법 2024고단3486 사건 (2025.11.06 선고)',
-        summary: '이 사건에서 법원은 고시텔 양도 시 빈대 발생 사실을 알고 있으면서도 매수인에게 전혀 알리지 않은 피고인에게 사기죄를 인정했습니다. 거래에서 반드시 고지해야 할 중요한 사항을 숨긴 것 자체가 기망 행위에 해당한다고 판시했습니다.',
-        takeaway: '사기죄는 적극적으로 거짓말한 경우뿐 아니라, 중요한 사실을 숨긴 경우에도 성립합니다. 상대방이 "거짓말은 안 했다"고 주장해도, 고지 의무 있는 사실을 숨겼다면 충분히 사기 고소가 가능합니다.'
+        summary: '이 사건에서 법원은 고시텔 양도 시 빈대 발생 사실을 알고 있으면서도 매수인에게 전혀 알리지 않은 피고인에게 사기죄를 인정했습니다. 거래에서 가능한 한 고지해야 할 중요한 사항을 숨긴 것 자체가 기망 행위에 해당한다고 판시했습니다.',
+        takeaway: '사기죄는 적극적으로 거짓말한 경우뿐 아니라, 중요한 사실을 숨긴 경우에도 성립할 수 있습니다. 상대방이 "거짓말은 안 했다"고 주장해도, 고지 의무 있는 사실을 숨겼다면 충분히 사기 고소가 가능합니다.'
       }
     ],
     faq: [
       {
         question: '상대방이 "갚겠다"고 하면 사기가 아닌 건가요?',
-        answer: '단순히 변제 의사를 밝힌다고 사기가 아닌 것은 아닙니다. <strong>처음부터 갚을 의사나 능력이 없었는데 돈을 빌린 것</strong>이 입증되면 사기죄가 성립합니다. 차용 당시의 경제 상황, 다른 채무 여부, 변제 계획의 구체성 등이 판단 기준이 됩니다.'
+        answer: '단순히 변제 의사를 밝힌다고 사기가 아닌 것은 아닙니다. <strong>처음부터 갚을 의사나 능력이 없었는데 돈을 빌린 것</strong>이 입증되면 사기죄가 성립할 수 있습니다. 차용 당시의 경제 상황, 다른 채무 여부, 변제 계획의 구체성 등이 판단 기준이 됩니다.'
       },
       {
         question: '피해 금액이 적어도 고소할 수 있나요?',
@@ -166,7 +166,7 @@ export const spokesBatch14Pages31to35: SpokePage[] = [
       },
       {
         title: '3단계 — 임차권등기명령을 신청하세요',
-        content: '<p><strong style="color:#1e3a5f">주택임대차보호법 제3조의3에 따르면, 임대차 기간이 끝난 후 보증금을 반환받지 못한 임차인은 관할 법원에 임차권등기명령을 신청할 수 있습니다.</strong></p>\n<p>임차권등기명령의 최대 장점은 <strong>이사를 나가도 대항력과 우선변제권이 유지</strong>된다는 것입니다. 등기 없이 이사를 나가면 대항력을 잃게 되므로, 새 집으로 옮겨야 하는 상황이라면 반드시 임차권등기명령부터 신청하세요.</p>\n<p>신청에 필요한 서류는 임대차계약서 사본, 주민등록등본, 건물등기사항전부증명서, 내용증명(보증금 반환 최고) 등입니다. 신청 후 통상 1~2주 내에 결정이 나옵니다. 비용은 등록면허세와 법원 수수료를 합해 약 3만~5만 원 수준입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 이사 나가기 전에 반드시 임차권등기명령을 신청하세요. 대항력을 잃으면 보증금 회수가 극히 어려워집니다.</blockquote>\n\n<div style="margin-top:20px;padding:16px 20px;background:linear-gradient(135deg,#1e3a5f 0%,#2d5a8e 100%);border-radius:12px;text-align:center">\n<p style="margin:0;color:#ffd700;font-weight:bold;font-size:1.05em">전세사기 피해 대응이 막막하다면</p>\n<p style="margin:6px 0 0;color:#fff;font-size:0.95em"><a href="/diagnosis/jeonse-fraud" style="color:#ffd700;text-decoration:underline">로앤가이드에서 내 상황에 맞는 대응 순서를 확인해보세요 &rarr;</a></p>\n</div>'
+        content: '<p><strong style="color:#1e3a5f">주택임대차보호법 제3조의3에 따르면, 임대차 기간이 끝난 후 보증금을 반환받지 못한 임차인은 관할 법원에 임차권등기명령을 신청할 수 있습니다.</strong></p>\n<p>임차권등기명령의 최대 장점은 <strong>이사를 나가도 대항력과 우선변제권이 유지</strong>된다는 것입니다. 등기 없이 이사를 나가면 대항력을 잃게 되므로, 새 집으로 옮겨야 하는 상황이라면 가능한 한 임차권등기명령부터 신청하세요.</p>\n<p>신청에 필요한 서류는 임대차계약서 사본, 주민등록등본, 건물등기사항전부증명서, 내용증명(보증금 반환 최고) 등입니다. 신청 후 통상 1~2주 내에 결정이 나옵니다. 비용은 등록면허세와 법원 수수료를 합해 약 3만~5만 원 수준입니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 이사 나가기 전에 가능한 한 임차권등기명령을 신청하세요. 대항력을 잃으면 보증금 회수가 극히 어려워집니다.</blockquote>\n\n<div style="margin-top:20px;padding:16px 20px;background:linear-gradient(135deg,#1e3a5f 0%,#2d5a8e 100%);border-radius:12px;text-align:center">\n<p style="margin:0;color:#ffd700;font-weight:bold;font-size:1.05em">전세사기 피해 대응이 막막하다면</p>\n<p style="margin:6px 0 0;color:#fff;font-size:0.95em"><a href="/diagnosis/jeonse-fraud" style="color:#ffd700;text-decoration:underline">로앤가이드에서 내 상황에 맞는 대응 순서를 확인해보세요 &rarr;</a></p>\n</div>'
       },
       {
         title: '4단계 — 전세사기피해자법 피해자 인정 신청',
