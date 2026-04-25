@@ -1,0 +1,246 @@
+{
+  "source": "양육비이행관리원 (Korea Child Support Agency, CSA)",
+  "source_urls": [
+    "https://www.childsupport.or.kr/lay1/S1T8C9/contents.do",
+    "https://www.childsupport.or.kr/lay1/S1T15C16/contents.do",
+    "https://www.childsupport.or.kr/lay1/S1T15C17/contents.do",
+    "https://www.childsupport.or.kr/lay1/S1T15C120/contents.do",
+    "https://www.childsupport.or.kr/lay1/S1T15C121/contents.do",
+    "https://www.childsupport.or.kr/lay1/S1T134C136/contents.do"
+  ],
+  "fetched_at": "2026-04-25",
+  "category": "절차/서식",
+  "address": "서울특별시 중구 퇴계로 173 (남산스퀘어) 24층 (04554)",
+  "phone": "1644-6621",
+  "procedures": [
+    {
+      "id": "csa-overall-flow",
+      "name": "양육비 이행확보 지원 전체 흐름",
+      "domain": "child-support",
+      "applies_to": "이혼·비혼 한부모 (양육비 채권자)",
+      "steps": [
+        {
+          "step": 1,
+          "title": "지원신청",
+          "description": "양육비이행관리원에 온라인·우편·방문 신청. 신청서 + 구비서류 제출."
+        },
+        {
+          "step": 2,
+          "title": "상담·합의지원",
+          "description": "비양육친 연락처 확인 후 합의 시도. 합의 성립 시 협의서·공정증서 작성."
+        },
+        {
+          "step": 3,
+          "title": "법률지원 (집행권원 확보)",
+          "description": "합의 불성립 시 자녀인지청구·양육비청구소송·친권자/양육자 지정 청구 등 소송 지원. 판결문·심판문·조정조서·공정증서 등 집행권원 확보."
+        },
+        {
+          "step": 4,
+          "title": "추심지원 (강제집행)",
+          "description": "집행권원 확보 후 이행명령·직접지급명령·담보제공명령 신청, 재산조사 및 압류·경매 진행."
+        },
+        {
+          "step": 5,
+          "title": "제재조치",
+          "description": "지속 불이행 시 운전면허정지·출국금지·명단공개·채무불이행자명부 등재 등 행정·민사 제재."
+        }
+      ]
+    },
+    {
+      "id": "csa-investigation",
+      "name": "조사정보 지원 절차 (주소·근무지·소득·재산 조사)",
+      "domain": "child-support",
+      "steps": [
+        {
+          "step": 1,
+          "title": "기본조사",
+          "description": "관련 기관에 주소·근무지 협조 요청, 채무자 면담으로 소득·재산 청취."
+        },
+        {
+          "step": 2,
+          "title": "기관협조 또는 법원 조회신청",
+          "description": "채무자 동의 시 기관에 정보 직접 확인. 거부 시 가사소송법상 재산명시명령·재산조회 신청."
+        },
+        {
+          "step": 3,
+          "title": "추심 및 소송",
+          "description": "확보된 정보로 양육비 지급청구·강제집행 진행."
+        },
+        {
+          "step": 4,
+          "title": "현장기동반 출장",
+          "description": "고액·상습 미지급, 감치 미집행, 사회적 파장 사건은 직접 채무자 방문하여 이행 촉구."
+        }
+      ]
+    },
+    {
+      "id": "csa-legal-orders",
+      "name": "가사소송법상 양육비 이행 명령 종류",
+      "domain": "child-support",
+      "orders": [
+        {
+          "name": "이행명령 (가사소송법 제64조)",
+          "applies": "확정된 양육비 미이행 시 법원이 이행 명령. 위반 시 1천만원 이하 과태료.",
+          "deadline": "심판·조정 확정 후 언제든 신청"
+        },
+        {
+          "name": "감치명령 (가사소송법 제68조)",
+          "applies": "이행명령에도 불구하고 정당한 사유 없이 3기 이상 미이행 시. 30일 이하 감치.",
+          "deadline": "이행명령 미이행 후"
+        },
+        {
+          "name": "직접지급명령 (가사소송법 제63조의2)",
+          "applies": "정기적 급여 받는 채무자에 대해 사용자(회사) 가 양육비 채권자에게 직접 지급하도록 법원이 명령.",
+          "deadline": "확정 양육비 채권 보유 시"
+        },
+        {
+          "name": "담보제공명령 (가사소송법 제63조의3)",
+          "applies": "장래 양육비 미지급 우려 시 법원이 채무자에게 담보 제공 명령.",
+          "deadline": "양육비 심판·조정 단계"
+        },
+        {
+          "name": "일시금지급명령 (가사소송법 제63조의3 제4항)",
+          "applies": "담보제공명령에도 미이행 시 채권자가 일시금 지급명령 신청 가능.",
+          "deadline": "담보제공명령 미이행 후"
+        }
+      ]
+    },
+    {
+      "id": "csa-sanctions",
+      "name": "양육비 미지급 행정 제재조치",
+      "domain": "child-support",
+      "sanctions": [
+        {
+          "type": "운전면허정지",
+          "agency": "경찰청",
+          "duration": "100일 정지",
+          "trigger": "감치결정(2021.6.10 ~), 이행명령(2024.9.27 ~), 일시금지급명령(2025.7.1 ~) 대상자",
+          "exception": "생계유지를 직접 목적으로 면허를 사용하는 경우 제외"
+        },
+        {
+          "type": "출국금지",
+          "agency": "법무부",
+          "duration": "6개월 이내 (연장 가능)",
+          "trigger": "감치결정 당시 채무액 3,000만원 이상 OR 3기 이상 미이행",
+          "exception": "전액 이행 또는 강제집행으로 채무 소멸 시 해제"
+        },
+        {
+          "type": "명단공개",
+          "agency": "성평등가족부",
+          "duration": "3년간 공개",
+          "trigger": "감치결정 후 미이행자 (대통령령 정한 사유 제외)",
+          "exception": "전액 이행 시 해제 / 채무자 사망 등 대통령령 사유 시 미공개"
+        },
+        {
+          "type": "채무불이행자명부 등재",
+          "agency": "법원",
+          "duration": "신용정보 기록",
+          "trigger": "확정된 양육비 채무 6개월 이상 미이행",
+          "effect": "신용도 하락, 금융거래 제한"
+        },
+        {
+          "type": "세금환급금 압류·추심",
+          "agency": "국세청·법원",
+          "trigger": "확정 양육비 채권 보유자",
+          "effect": "환급 시 양육비 채권자에 우선 지급"
+        }
+      ]
+    },
+    {
+      "id": "csa-prepay-program",
+      "name": "양육비 선지급 제도",
+      "domain": "child-support",
+      "applies_to": "정기 양육비 지급권 있으나 미이행으로 받지 못하는 한부모 가족 (소득 중위 150% 이하)",
+      "description": "국가가 양육비를 먼저 지급하고, 후에 비양육친에게 국세체납처분 절차로 회수.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "선지급 신청",
+          "description": "온라인 또는 우편 신청 (신청서 + 소득증빙)."
+        },
+        {
+          "step": 2,
+          "title": "심사",
+          "description": "소득기준·양육비 채권 확정 여부 확인."
+        },
+        {
+          "step": 3,
+          "title": "선지급",
+          "description": "국가가 정기 양육비 지급."
+        },
+        {
+          "step": 4,
+          "title": "구상권 행사",
+          "description": "비양육친에게 국세체납처분으로 회수."
+        }
+      ]
+    }
+  ],
+  "required_documents": [
+    {
+      "category": "신청자(양육친) 본인",
+      "items": [
+        "양육비 이행확보 지원 신청서 (.hwp)",
+        "신분증 사본",
+        "주민등록등본",
+        "혼인관계증명서·기본증명서",
+        "가족관계증명서"
+      ]
+    },
+    {
+      "category": "양육비 채권 입증",
+      "items": [
+        "양육비 협의서·공정증서",
+        "양육비 심판·판결문 (확정증명서 포함)",
+        "조정조서·화해조서",
+        "양육비 미지급 내역 (계좌이체 내역·문자·카톡 등)"
+      ]
+    },
+    {
+      "category": "비양육친 정보 (있는 경우)",
+      "items": [
+        "비양육친 인적사항·주소",
+        "근무지·연락처",
+        "재산 추정 자료"
+      ]
+    }
+  ],
+  "key_deadlines": [
+    {
+      "label": "선지급 신청 소득기준",
+      "value": "기준 중위소득 150% 이하"
+    },
+    {
+      "label": "감치명령 요건",
+      "value": "이행명령 후 정당한 사유 없이 3기 이상 미이행"
+    },
+    {
+      "label": "출국금지 채무 기준",
+      "value": "감치결정 당시 3,000만원 이상 OR 3기 이상 미이행"
+    },
+    {
+      "label": "명단공개 기간",
+      "value": "3년"
+    },
+    {
+      "label": "운전면허정지 기간",
+      "value": "100일"
+    }
+  ],
+  "common_mistakes": [
+    "공정증서 없이 합의만 하고 미이행 시 강제집행 불가",
+    "이행명령 신청 전에 감치 시도 → 단계 누락으로 기각",
+    "비양육친 주소 모른다고 포기 → 양육비이행관리원 통해 주소조회 가능",
+    "재산조회 없이 압류 시도 → 압류 대상 특정 안 됨"
+  ],
+  "form_downloads": [
+    {
+      "name": "양육비 이행확보 지원 신청서",
+      "url": "https://www.childsupport.or.kr/direct_download.do?file_nm=application_form01.hwp&path=/upload/2020"
+    },
+    {
+      "name": "구비서류 작성 안내",
+      "url": "https://www.childsupport.or.kr/board.do?sa=filedownload&sno=23120&pos=1"
+    }
+  ]
+}

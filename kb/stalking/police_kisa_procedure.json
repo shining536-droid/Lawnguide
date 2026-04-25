@@ -1,0 +1,184 @@
+{
+  "source": "경찰청 사이버범죄 신고시스템(ECRM) + KISA 보호나라",
+  "source_urls": [
+    "https://ecrm.police.go.kr/minwon/main",
+    "https://ecrm.police.go.kr/minwon/crs/quick/cyber1",
+    "https://ecrm.police.go.kr/minwon/crs/quick/process",
+    "https://ecrm.police.go.kr/minwon/crs/quick/vichelp",
+    "https://www.boho.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133"
+  ],
+  "fetched_at": "2026-04-25",
+  "category": "절차/서식/주의보",
+  "contacts": {
+    "사이버범죄 민원": "182 (유료)",
+    "보이스피싱 통합신고": "112",
+    "해킹/스팸/개인정보침해": "118 (KISA)",
+    "법률상담": "132 (대한법률구조공단)"
+  },
+  "crime_categories": [
+    {
+      "category": "정보통신망 침해",
+      "items": ["해킹", "DDoS", "악성프로그램 배포", "계정도용", "자료유출/훼손"]
+    },
+    {
+      "category": "정보통신망 이용 (사이버사기)",
+      "items": ["직거래 사기", "쇼핑몰 사기", "게임 사기", "전기통신금융사기 (피싱·파밍·스미싱·메모리해킹·몸캠피싱)", "개인정보 침해", "저작권 침해", "스팸"]
+    },
+    {
+      "category": "불법 콘텐츠",
+      "items": ["사이버성폭력 (음란물·아동성착취물·불법촬영물)", "사이버도박", "사이버 명예훼손·모욕", "사이버스토킹", "청소년유해매체물"]
+    }
+  ],
+  "procedures": [
+    {
+      "id": "ecrm-report-flow",
+      "name": "사이버범죄 신고 처리 4단계",
+      "domain": "fraud",
+      "steps": [
+        {
+          "step": 1,
+          "title": "온라인 접수",
+          "description": "ecrm.police.go.kr 사이버범죄 신고시스템 접속, 신고서 작성. 직접 피해자만 가능 (대리인은 경찰서 방문 또는 국민신문고)."
+        },
+        {
+          "step": 2,
+          "title": "경찰서 방문",
+          "description": "신고 후 관할 경찰서 또는 사이버수사팀 방문. 신분증·증빙서류 지참."
+        },
+        {
+          "step": 3,
+          "title": "조사 (경찰서)",
+          "description": "진술조서 작성, 추가 증거 제출, 필요 시 보충조사."
+        },
+        {
+          "step": 4,
+          "title": "종결",
+          "description": "수사 결과 통보 (송치 또는 불송치). 합의·기소 여부에 따라 후속 절차."
+        }
+      ],
+      "notes": [
+        "민사 분쟁(환불·배송지연·개인간 분쟁)은 사이버범죄 신고 대상 아님",
+        "신고 후 사건사고사실확인원 발급 가능 → 금융사·통신사 환불 신청 필수서류"
+      ]
+    },
+    {
+      "id": "voice-phishing-recovery",
+      "name": "보이스피싱(피싱) 피해 환급 절차",
+      "domain": "fraud",
+      "steps": [
+        {
+          "step": 1,
+          "title": "지급정지 신청 (가장 시급)",
+          "description": "사기 계좌 관리은행 또는 112 통합신고에 즉시 전화하여 지급정지 신청. 잔액이 남아있어야 환급 가능.",
+          "deadline": "송금 직후 즉시 (분 단위)"
+        },
+        {
+          "step": 2,
+          "title": "경찰서 신고",
+          "description": "관할 경찰서 또는 사이버수사팀 방문하여 피해 신고."
+        },
+        {
+          "step": 3,
+          "title": "사건사고사실확인원 발급",
+          "description": "경찰로부터 확인원 발급받음 (지급정지 → 채권소멸 → 환급의 핵심 서류)."
+        },
+        {
+          "step": 4,
+          "title": "은행 피해구제신청",
+          "description": "사기 계좌 관리은행 방문, 피해구제신청서 작성 + 확인원 제출."
+        },
+        {
+          "step": 5,
+          "title": "채권소멸공고 후 환급",
+          "description": "금감원이 2개월 채권소멸공고 → 종결 후 잔액 한도 내에서 환급. 피해자 다수 시 안분.",
+          "deadline": "신청 후 약 2~3개월"
+        }
+      ],
+      "warnings": [
+        "잔액 0원이면 환급 불가",
+        "신고 늦으면 인출되어 환급액 0원 가능성",
+        "본인이 직접 송금한 경우만 대상 (대출사기·코인사기는 별도 절차)"
+      ]
+    },
+    {
+      "id": "smishing-recovery",
+      "name": "스미싱(소액결제 부정청구) 피해 절차",
+      "domain": "fraud",
+      "steps": [
+        {
+          "step": 1,
+          "title": "경찰 사이버수사팀 신고",
+          "description": "관할 사이버수사팀 방문, 피해 신고."
+        },
+        {
+          "step": 2,
+          "title": "사건사고사실확인원 발급",
+          "description": "환불 절차의 필수서류."
+        },
+        {
+          "step": 3,
+          "title": "통신사 고객센터 방문",
+          "description": "SKT/KT/LG U+ 고객센터, 통신과금 정정요구 신청 + 확인원 첨부."
+        },
+        {
+          "step": 4,
+          "title": "환불 처리",
+          "description": "통상 14일 이내 결제 취소 또는 환불.",
+          "deadline": "신청 후 14일 이내"
+        }
+      ],
+      "warnings": ["콘텐츠 구매 후 단순 변심은 구제 대상 아님"]
+    },
+    {
+      "id": "memory-hacking-recovery",
+      "name": "메모리해킹 피해 절차",
+      "domain": "fraud",
+      "steps": [
+        {
+          "step": 1,
+          "title": "경찰 신고 + 확인원 발급",
+          "description": "일반 피싱과 동일."
+        },
+        {
+          "step": 2,
+          "title": "금융회사 피해구제신청",
+          "description": "해당 금융사에 피해구제신청서 제출."
+        },
+        {
+          "step": 3,
+          "title": "금융회사 보상 판단",
+          "description": "범죄자 인출 여부와 무관하게 '지급대상' 인정 시 보상."
+        }
+      ],
+      "notes": ["일반 보이스피싱과 달리 잔액 없어도 보상 가능"]
+    }
+  ],
+  "victim_protection": {
+    "보상금": "범죄 신고자 최대 5억원 (경찰청)",
+    "신변보호": "위해 우려 시 신변보호 조치 가능",
+    "법률상담": "132 평일 9~18시 무료"
+  },
+  "kisa_recent_advisories": [
+    {
+      "title": "카카오톡 사칭 악성코드 유포 주의권고",
+      "date": "2026-04-15",
+      "domain": "fraud"
+    },
+    {
+      "title": "고유가 피해 지원금 사칭 피싱 주의 권고",
+      "date": "2026-04-16",
+      "domain": "fraud"
+    },
+    {
+      "title": "국내 중소기업 대상 신규 랜섬웨어 범죄 확산",
+      "date": "2026-04-16",
+      "domain": "fraud"
+    }
+  ],
+  "common_mistakes": [
+    "송금 직후 지급정지 안 하고 경찰서부터 가서 환급 기회 놓침",
+    "스미싱 결제내역 확인 없이 통신사부터 방문 → 확인원 없으니 처리 거절",
+    "민사 분쟁(환불·배송)을 사이버범죄로 신고 → 비접수 처리",
+    "대리인이 ECRM 직접 신고 시도 → 본인만 가능"
+  ]
+}
