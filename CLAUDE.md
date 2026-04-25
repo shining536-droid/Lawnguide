@@ -262,10 +262,13 @@
 - 톤: "~확인해보세요" / "~정리해보세요"
 - 커밋 메시지 한글로
 
-## Vercel 배포 주의사항 (2026-04-24 사고 회고)
+## Vercel 배포 주의사항 (2026-04-24 사고 회고 + 2026-04-26 procedure 사고)
 - **`web/next.config.js` 에 `output: 'standalone'` 절대 금지** — Docker/self-hosting 전용. Vercel 에선 Vercel 자체 번들러가 SSG/서버리스 자동 분리하므로 불필요. 활성화 시 1253개 prerender 된 /guide/[domain]/[slug] HTML/RSC 가 함수 번들에 모두 포함되어 250MB 한도 초과 → 빌드 실패
 - **`web/src/` 에 dead code (미호출 export 함수) 두지 말 것** — Next.js NFT(File Tracing)가 정의만 봐도 의존성을 트레이스함. 예: `kbDir()`+`getLegalFacts()` 가 미사용이었지만 NFT가 kb/ 405MB 를 번들에 포함시킴
-- `.vercelignore` 유지 (kb/, content/, *.py, scripts/ 제외) — 안전망
+- **`web/src/` 에서 `fs.readFileSync(path.join(..., 'kb', ...))` 같이 kb/ 를 런타임 참조하는 코드 절대 금지** — dynamic 라우트(`ƒ`) 가 이런 경로를 쓰면 NFT 가 kb/ 전체를 함수 번들에 끌어와 250MB 초과 (2026-04-26 procedure-data.ts 사고). `.vercelignore` 가 업로드는 막아도 NFT 는 여전히 트레이스함.
+  - 해결: 데이터를 빌드타임에 단일 TS 상수로 사전생성 → `web/src/data/procedure-data-generated.ts` 처럼 import 만 사용. 재생성: `node scripts/generate-procedure-data.mjs`
+  - 패턴: `web/src/data/spoke/*.ts`, `web/src/data/procedure-data-generated.ts` (둘 다 컴파일러가 정확히 트리쉐이크)
+- `.vercelignore` 유지 (kb/, content/, *.py, scripts/ 제외) — 안전망 (NFT 와 별개로 업로드 방지)
 - 스포크 1500개 넘기면 Vercel 함수 번들 한계 다시 점검 필요 (현재 1253개)
 
 ## URL 규칙
