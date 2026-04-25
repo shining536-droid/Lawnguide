@@ -313,9 +313,30 @@
 판례 = 신뢰 근거, 기관 자료 = 사용자가 할 일. 두 데이터를 결합해 글의 실용성을 극대화한다.
 
 ### 적용 도메인 및 소스 파일
-- **jeonse / jeonse-fraud** → `kb/jeonse-fraud/hug_procedure.json`, `kb/jeonse/hug_procedure.json` (HUG 주택도시보증공사)
-- **child-support** → `kb/child-support/csa_procedure.json` (양육비이행관리원)
-- **fraud / stalking / digital-sex-crime** → `kb/{domain}/police_kisa_procedure.json` (경찰청 ECRM + KISA 보호나라)
+- **jeonse / jeonse-fraud** →
+  - `hug_procedure.json` (HUG 주택도시보증공사 - 보증이행 5단계)
+  - `jeonsesagi_procedure.json` (전세사기피해지원센터 + 주임분조위 - 피해자 결정·분쟁조정)
+  - `klac_procedure.json` (KLAC 임차권등기명령·보증금반환소송)
+- **child-support** →
+  - `csa_procedure.json` (양육비이행관리원 - 추심·제재·선지급)
+  - `family_court_procedure.json` (가정법원 - 협의/재판이혼)
+- **fraud / stalking / digital-sex-crime** →
+  - `police_kisa_procedure.json` (경찰청 ECRM + KISA - 신고·환급)
+  - `fss_procedure.json` (fraud only - 금감원 분쟁조정·보이스피싱 환급)
+  - `kca_procedure.json` (fraud + small-claims - 한국소비자원 피해구제)
+  - `pidrc_procedure.json` (digital-sex-crime + defamation - 개인정보분쟁조정)
+- **wage / dismissal / retirement** → `molab_procedure.json` (고용노동부 - 진정·간이/도산대지급금·해고예고수당)
+- **dismissal** → `nlrc_procedure.json` (노동위 - 부당해고 구제 8단계)
+- **industrial-accident** → `comwel_procedure.json` (근로복지공단 - 요양·휴업·장해·유족급여)
+- **rehabilitation / bankruptcy** → `klac_procedure.json` (KLAC 회생·파산 무료지원)
+- **small-claims** →
+  - `klac_procedure.json` (지급명령 5단계)
+  - `kca_procedure.json` (한국소비자원)
+  - `comm_procedure.json` (통신·콘텐츠분쟁조정)
+- **divorce** → `family_court_procedure.json` (협의/재판이혼 + 위자료/재산분할 시효)
+- **defamation** → `pidrc_procedure.json` (개인정보 분쟁조정)
+- **school-violence** → `sv_procedure.json` (학폭 사안처리 - 신고·자체해결·심의위·처분 1~9호·재심)
+- **neighbor-dispute** → `ecc_procedure.json` (환경분쟁조정 - 층간소음 측정·알선/조정/재정/중재)
 
 ### 필수 활용 (해당 도메인 글 생성 시)
 

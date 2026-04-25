@@ -1,0 +1,104 @@
+{
+  "source": "개인정보분쟁조정위원회(PIDRC, kopico.go.kr) + 개인정보보호위원회",
+  "source_urls": [
+    "https://www.kopico.go.kr/",
+    "https://www.kopico.go.kr/intro/disputeMediatIntro.do",
+    "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=47",
+    "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=48"
+  ],
+  "fetched_at": "2026-04-25",
+  "category": "절차/서식",
+  "contact": {
+    "개인정보보호위원회 콜센터": "1833-6972",
+    "개인정보 침해신고": "118 (국번없이)"
+  },
+  "procedures": [
+    {
+      "id": "pidrc-individual-mediation",
+      "name": "개인정보 분쟁조정 신청 절차 (개인)",
+      "domain": "digital-sex-crime",
+      "applies_to": "개인정보 유출·무단수집·동의 없는 제3자 제공·삭제 거부 등 침해 피해자",
+      "steps": [
+        {
+          "step": 1,
+          "title": "분쟁조정 신청",
+          "description": "kopico.go.kr 온라인 신청 또는 우편 (별지 제1호 서식, 대리인은 제2호). 무료.",
+          "deadline": "침해사실 인지 후 빠를수록 유리"
+        },
+        {
+          "step": 2,
+          "title": "사실조사·의견청취",
+          "description": "분쟁조정위원회가 양측 의견청취 + 증거수집 + 전문가 자문."
+        },
+        {
+          "step": 3,
+          "title": "조정안 작성",
+          "description": "위원회가 양측에 합당한 조정안 제시.",
+          "deadline": "신청일로부터 60일 이내 (의결로 연장 가능)"
+        },
+        {
+          "step": 4,
+          "title": "수락 결정",
+          "description": "양측 모두 수락 시 조정 성립, 재판상 화해 효력 (집행권원).",
+          "deadline": "조정안 통지 후 15일 이내"
+        },
+        {
+          "step": 5,
+          "title": "불성립 시 소송 또는 집단분쟁조정",
+          "description": "수락 거부 시 민사소송. 다수 피해자(50명 이상) 시 집단분쟁조정 신청 가능."
+        }
+      ]
+    },
+    {
+      "id": "pidrc-collective-mediation",
+      "name": "개인정보 집단분쟁조정 절차",
+      "domain": "digital-sex-crime",
+      "applies_to": "동일 사건으로 50명 이상 피해 (대량 유출·해킹 등)",
+      "steps": [
+        {
+          "step": 1,
+          "title": "신청 자격자",
+          "description": "정보주체·국가기관·소비자단체·비영리민간단체."
+        },
+        {
+          "step": 2,
+          "title": "공고",
+          "description": "개시 결정 후 14일 이상 공고하여 추가 참가자 모집."
+        },
+        {
+          "step": 3,
+          "title": "조정안 작성·수락",
+          "description": "일반분쟁조정과 동일하나 처리기한 60일 + 30일 연장 가능."
+        }
+      ]
+    }
+  ],
+  "applicable_to_defamation": {
+    "note": "명예훼손·온라인 사칭 사건에서 가해자가 개인정보(주소·전화번호) 무단 공개한 경우에도 활용 가능. 단, 명예훼손 자체는 방심위·언론중재위 또는 형사고소·민사소송이 정공법.",
+    "domain": "defamation"
+  },
+  "required_documents": [
+    {
+      "category": "분쟁조정 신청",
+      "items": [
+        "분쟁조정신청서 (별지 제1호)",
+        "대리인 신청 시 위임장 + 별지 제2호",
+        "신분증 사본",
+        "침해사실 입증자료 (스크린샷·이메일·통보문)",
+        "사업자(피신청인) 인적사항·연락처"
+      ]
+    }
+  ],
+  "key_deadlines": [
+    {"label": "조정안 작성", "value": "신청일로부터 60일 (연장 가능)"},
+    {"label": "조정안 수락", "value": "통지 후 15일 이내"},
+    {"label": "집단분쟁조정 공고", "value": "최소 14일"},
+    {"label": "신고 대표 번호", "value": "118 (국번없이)"}
+  ],
+  "common_mistakes": [
+    "유출·침해 인지 후 시간 끌면 증거 소실 → 캡처·녹취 즉시",
+    "분쟁조정 결과를 일방적 강제 효력으로 오해 → 양측 수락 필요",
+    "다수 피해자 사건에서 개별 신청만 → 집단분쟁조정으로 효율화 가능",
+    "사업자 폐업·연락두절 시 분쟁조정 한계 → 형사고소·집단소송 병행"
+  ]
+}

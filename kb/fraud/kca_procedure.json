@@ -1,0 +1,80 @@
+{
+  "source": "한국소비자원(KCA) + 소비자24",
+  "source_urls": [
+    "https://www.kca.go.kr/odr/",
+    "https://www.kca.go.kr/odr/pg/ma/pgProcssInfo2.do",
+    "https://www.kca.go.kr/odr/link/pg/pr/osPgStpSobiGuidW.do",
+    "https://www.consumer.go.kr/"
+  ],
+  "fetched_at": "2026-04-25",
+  "category": "절차/서식",
+  "contact": {
+    "한국소비자원 상담": "1372 (국번없이)",
+    "소비자24": "consumer.go.kr"
+  },
+  "procedures": [
+    {
+      "id": "kca-damage-relief",
+      "name": "한국소비자원 피해구제 신청 절차",
+      "domain": "fraud",
+      "applies_to": "사업자와 분쟁(환불·교환·A/S·온라인쇼핑·중고거래·서비스)",
+      "steps": [
+        {
+          "step": 1,
+          "title": "사전 상담",
+          "description": "1372 소비자상담센터 또는 consumer.go.kr 에 먼저 상담. 자율 해결 시도."
+        },
+        {
+          "step": 2,
+          "title": "피해구제 신청",
+          "description": "방문·우편·팩스·인터넷(kca.go.kr)으로 신청서 + 증빙 제출."
+        },
+        {
+          "step": 3,
+          "title": "사실조사·합의권고",
+          "description": "한국소비자원이 양측 의견 청취 + 사실조사 + 합의권고.",
+          "deadline": "30일 이내 처리 (의료·보험·농어업·시험검사 사건은 90일까지 연장)"
+        },
+        {
+          "step": 4,
+          "title": "분쟁조정 회부",
+          "description": "30일(또는 연장된 90일) 내 합의 불성립 시 소비자분쟁조정위원회 회부."
+        },
+        {
+          "step": 5,
+          "title": "조정안 작성 및 결정",
+          "description": "분쟁조정위가 조정안 작성. 양측 수락 시 재판상 화해 효력.",
+          "deadline": "조정 신청일로부터 30일 이내"
+        }
+      ],
+      "key_facts": [
+        "사전 상담 단계 거쳐야 피해구제 가능",
+        "조정안 거부 시 민사소송으로",
+        "신청·조정 모두 무료"
+      ]
+    }
+  ],
+  "required_documents": [
+    {
+      "category": "피해구제 신청",
+      "items": [
+        "피해구제신청서 (kca.go.kr 양식)",
+        "신분증",
+        "거래·계약·구매 영수증",
+        "피해 입증자료 (사진·녹취·이메일·계좌이체내역)",
+        "사업자 인적사항·연락처"
+      ]
+    }
+  ],
+  "key_deadlines": [
+    {"label": "피해구제 처리", "value": "30일 (의료·보험 등 60~90일까지 연장)"},
+    {"label": "분쟁조정 결정", "value": "신청일로부터 30일"},
+    {"label": "조정안 수락 기한", "value": "통지 후 15일 내"}
+  ],
+  "common_mistakes": [
+    "사전 상담 없이 바로 피해구제 신청 → 반려 가능",
+    "사업자 인적사항 모름 → 사실조사 지연",
+    "온라인쇼핑은 청약철회권(전자상거래법 7일) 별도 활용 가능한데 모름",
+    "조정안 수락 15일 시한 도과 → 거부로 간주"
+  ]
+}
