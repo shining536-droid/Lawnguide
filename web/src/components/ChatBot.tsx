@@ -528,6 +528,12 @@ function getDomainSpecificAgency(domain: string | null): React.ReactNode {
     wage: { name: '고용노동부', desc: '임금체불 신고 및 근로감독', phone: '1350' },
     dismissal: { name: '고용노동부', desc: '부당해고 구제 신청', phone: '1350' },
     retirement: { name: '고용노동부', desc: '퇴직금 체불 신고', phone: '1350' },
+    fraud: { name: '경찰청 사이버수사국', desc: '사이버사기·보이스피싱 신고', phone: '182' },
+    defamation: { name: '경찰청 사이버수사국', desc: '명예훼손·모욕 신고', phone: '182' },
+    'drug-crime': { name: '경찰청', desc: '마약 신고 및 상담', phone: '112' },
+    dui: { name: '경찰청', desc: '음주운전 관련 안내', phone: '112' },
+    assault: { name: '경찰청', desc: '폭행 사건 신고 및 상담', phone: '112' },
+    prostitution: { name: '경찰청', desc: '성매매 관련 신고 및 상담', phone: '112' },
     'industrial-accident1': { name: '근로복지공단', desc: '산재보험 급여 신청', phone: '1588-0075' },
     'industrial-accident2': { name: '근로복지공단', desc: '산재보험 급여 신청', phone: '1588-0075' },
     'jeonse-fraud': { name: '전세피해지원센터', desc: '전세사기 피해 상담 및 지원', phone: '1533-8119' },
@@ -1934,6 +1940,96 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
                     {getDomainSpecificAgency(selectedDomain)}
                   </div>
                 </div>
+
+                {/* 6.5. 공식 절차 (procedure 데이터 — 단정형 금지, 가능형으로) */}
+                {selectedDomain && procedureData?.[selectedDomain] && (() => {
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                  const proc: any = procedureData[selectedDomain];
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                  const flow: any = proc.primary_flow ?? proc.all_flows?.[0];
+                  const agencyText: string = (proc.agency_names ?? []).slice(0, 2).join(' · ') || '공식 기관';
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                  const deadlines: any[] = (proc.key_deadlines ?? []).slice(0, 6);
+                  return (
+                    <>
+                      {flow?.steps?.length > 0 && (
+                        <div className="px-6 py-5 border-b border-gray-100 bg-indigo-50/40">
+                          <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
+                            <span>📋</span> 공식 절차 기준으로 보면
+                          </h4>
+                          <p className="text-[12px] text-gray-500 mb-3">
+                            {agencyText} 안내 절차를 참고하면, 다음 흐름을 검토해볼 수 있습니다.
+                          </p>
+                          <ol className="space-y-2.5">
+                            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                            {flow.steps.slice(0, 6).map((s: any, i: number) => (
+                              <li key={i} className="flex gap-3">
+                                <span className="flex-shrink-0 w-5 h-5 rounded-full bg-indigo-600 text-white text-[11px] font-bold flex items-center justify-center mt-0.5">{s.step ?? i + 1}</span>
+                                <div className="flex-1 min-w-0">
+                                  <p className="text-[14px] font-medium text-gray-900">{s.title}</p>
+                                  {s.deadline && <p className="text-[12px] text-indigo-700 mt-0.5">⏱ {s.deadline}</p>}
+                                </div>
+                              </li>
+                            ))}
+                          </ol>
+                        </div>
+                      )}
+                      {deadlines.length > 0 && (
+                        <div className="px-6 py-5 border-b border-gray-100">
+                          <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
+                            <span>⏱</span> 기간·기한
+                          </h4>
+                          <p className="text-[12px] text-gray-500 mb-3">
+                            기관 안내 기준의 일반적인 기한입니다. 본인 사건 기한은 별도 확인하는 것이 좋습니다.
+                          </p>
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                            {deadlines.map((d: any, i: number) => (
+                              <div key={i} className="border-l-4 border-rose-300 bg-rose-50 rounded-r px-3 py-2">
+                                <p className="text-[11px] text-rose-700 font-medium">{d.label}</p>
+                                <p className="text-[13px] text-gray-900 font-semibold mt-0.5">{d.value}</p>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {(proc.agency_names?.length ?? 0) > 0 && (
+                        <details className="px-6 py-5 border-b border-gray-100 group">
+                          <summary className="cursor-pointer list-none flex items-center justify-between">
+                            <div>
+                              <h4 className="font-semibold text-gray-800 flex items-center gap-2">
+                                <span>🏛️</span> 신청·상담 경로
+                              </h4>
+                              <p className="text-[12px] text-gray-500 mt-0.5">아래 기관에서 절차 안내·상담을 확인하실 수 있습니다.</p>
+                            </div>
+                            <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </summary>
+                          <ul className="mt-3 space-y-2">
+                            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                            {proc.agency_names.slice(0, 4).map((name: string, i: number) => {
+                              const url = proc.source_urls?.[i];
+                              return (
+                                <li key={i} className="flex items-start gap-2 text-[13px]">
+                                  <span className="text-blue-500 mt-0.5">▸</span>
+                                  <div className="flex-1 min-w-0">
+                                    <p className="text-gray-800 font-medium">{name}</p>
+                                    {url && (
+                                      <a href={url} target="_blank" rel="noopener noreferrer" className="text-[11px] text-blue-600 hover:underline break-all">
+                                        {url.replace(/^https?:\/\//, '').split('/')[0]}
+                                      </a>
+                                    )}
+                                  </div>
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        </details>
+                      )}
+                    </>
+                  );
+                })()}
 
                 {/* 7. 상담 연결 CTA */}
                 <div className="px-6 py-5 border-b border-gray-100">
