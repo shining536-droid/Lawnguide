@@ -1,0 +1,172 @@
+{
+  "source": "근로복지공단 (Korea Workers' Compensation & Welfare Service)",
+  "source_urls": [
+    "https://www.comwel.or.kr/comwel/comp/recu/appl01.jsp",
+    "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A05007&CappBizCD=14900000261",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575"
+  ],
+  "fetched_at": "2026-04-25",
+  "category": "절차/서식",
+  "contact": {
+    "근로복지공단 대표": "1588-0075",
+    "산재보험 콜센터": "052-704-7900"
+  },
+  "procedures": [
+    {
+      "id": "comwel-medical-care",
+      "name": "산재 요양급여 신청 절차",
+      "domain": "industrial-accident",
+      "applies_to": "업무상 부상·질병 입은 근로자",
+      "steps": [
+        {
+          "step": 1,
+          "title": "산재보험 의료기관 진료",
+          "description": "산재 지정 의료기관에서 진료 + 요양급여신청소견서 작성."
+        },
+        {
+          "step": 2,
+          "title": "요양급여신청서 제출",
+          "description": "신청서 + 소견서 + 사업주 확인란 → 근로복지공단 (방문·우편·온라인 토탈서비스)."
+        },
+        {
+          "step": 3,
+          "title": "공단 심사",
+          "description": "업무상 재해 여부·인과관계 검토. 업무상 질병은 업무상질병판정위원회 심의 거침.",
+          "deadline": "신청 후 7일 내 결정 (질병 심의·조사 기간은 산입 제외)"
+        },
+        {
+          "step": 4,
+          "title": "승인 시 의료기관 직접 지급",
+          "description": "공단이 의료기관에 진료비 지급. 본인부담금 없음 (단 비급여·간병료는 별도)."
+        },
+        {
+          "step": 5,
+          "title": "불승인 시 불복 절차",
+          "description": "심사청구(공단 산재심사위) → 재심사청구(산재재심사위) → 행정소송 순.",
+          "deadline": "처분 통보 후 90일 이내 (심사·재심사·행정소송 각각)"
+        }
+      ]
+    },
+    {
+      "id": "comwel-temp-disability",
+      "name": "휴업급여 청구 절차",
+      "domain": "industrial-accident",
+      "applies_to": "산재 요양으로 4일 이상 취업 못한 근로자",
+      "steps": [
+        {
+          "step": 1,
+          "title": "휴업급여청구서 제출",
+          "description": "근로복지공단에 청구서 + 진료확인 자료 제출. 매월 단위로 청구."
+        },
+        {
+          "step": 2,
+          "title": "지급 결정·송금",
+          "description": "평균임금의 70%를 휴업기간 일수만큼. 본인 계좌 입금.",
+          "deadline": "청구 후 통상 7~14일"
+        }
+      ],
+      "key_facts": [
+        "1일분 = 평균임금의 70%",
+        "취업하지 못한 4일째부터 지급 (3일은 사업주 부담)",
+        "최저보장 + 최고보장 적용 (산재법 시행령)"
+      ]
+    },
+    {
+      "id": "comwel-disability-grade",
+      "name": "장해급여 청구 절차",
+      "domain": "industrial-accident",
+      "steps": [
+        {
+          "step": 1,
+          "title": "치유 후 장해진단",
+          "description": "치료 종결 후 산재 의료기관에서 장해진단."
+        },
+        {
+          "step": 2,
+          "title": "장해급여청구서 + 진단서 제출",
+          "description": "근로복지공단에 청구."
+        },
+        {
+          "step": 3,
+          "title": "장해등급 판정",
+          "description": "1~14급 장해등급 판정 → 일시금 또는 연금."
+        }
+      ]
+    },
+    {
+      "id": "comwel-survivor",
+      "name": "유족급여·장의비 청구 절차",
+      "domain": "industrial-accident",
+      "applies_to": "업무상 재해로 사망한 근로자의 유족",
+      "steps": [
+        {
+          "step": 1,
+          "title": "유족급여청구서 + 사망진단서 제출",
+          "description": "유족 1순위(배우자·자녀·부모) 우선 청구. 청구권은 사망일로부터 5년 시효."
+        },
+        {
+          "step": 2,
+          "title": "공단 심사·결정",
+          "description": "업무상 재해 여부 + 유족 자격 확인."
+        },
+        {
+          "step": 3,
+          "title": "지급",
+          "description": "유족연금 (평균임금 × 일정율) 또는 일시금. 장의비 별도 지급."
+        }
+      ]
+    }
+  ],
+  "required_documents": [
+    {
+      "category": "요양급여",
+      "items": [
+        "요양급여신청서",
+        "요양급여신청소견서 (산재 지정 의료기관 작성)",
+        "사업주 확인 (재해 발생 사실)",
+        "근로계약서·급여명세서 (평균임금 산정용)",
+        "재해경위서 + 사고 입증자료 (현장사진·CCTV·진술서)"
+      ]
+    },
+    {
+      "category": "휴업급여",
+      "items": [
+        "휴업급여청구서",
+        "요양·취업 불가 진료확인서",
+        "본인 계좌 통장 사본"
+      ]
+    },
+    {
+      "category": "장해급여",
+      "items": [
+        "장해급여청구서",
+        "장해진단서",
+        "치유종결 확인서"
+      ]
+    },
+    {
+      "category": "유족급여",
+      "items": [
+        "유족급여청구서",
+        "사망진단서",
+        "가족관계증명서·기본증명서",
+        "유족 자격 입증서류"
+      ]
+    }
+  ],
+  "key_deadlines": [
+    {"label": "요양급여 결정", "value": "신청 후 7일 (질병 심의·조사 제외)"},
+    {"label": "휴업급여 지급 시작", "value": "재해 4일째부터"},
+    {"label": "휴업급여 일액", "value": "평균임금의 70%"},
+    {"label": "심사청구·재심사청구·행정소송", "value": "각 처분일로부터 90일 이내"},
+    {"label": "유족급여 시효", "value": "사망일로부터 5년"},
+    {"label": "요양급여 시효", "value": "재해일로부터 3년"}
+  ],
+  "common_mistakes": [
+    "사업주 동의 없으면 산재 신청 불가하다고 오해 → 근로자 단독 신청 가능",
+    "공상처리(회사 자체 처리) 합의 후 산재 신청 권리 포기 → 별도 권리, 포기 안 됨",
+    "출퇴근 사고는 산재 아니라고 오해 → 통근재해 인정 (2018.1.1 이후)",
+    "심사청구 90일 시한 도과 → 불복 길 막힘",
+    "업무상 질병 입증 어려움 포기 → 인정기준·역학조사 활용 가능"
+  ]
+}
