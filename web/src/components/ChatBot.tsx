@@ -522,32 +522,33 @@ function getFactComment(key: string, val: string): string | null {
 
 /* ─────────────── Domain-Specific Agency ─────────────── */
 
+const DOMAIN_AGENCY_DATA: Record<string, { name: string; desc: string; phone: string }> = {
+  wage: { name: '고용노동부', desc: '임금체불 신고 및 근로감독', phone: '1350' },
+  dismissal: { name: '고용노동부', desc: '부당해고 구제 신청', phone: '1350' },
+  retirement: { name: '고용노동부', desc: '퇴직금 체불 신고', phone: '1350' },
+  fraud: { name: '경찰청 사이버수사국', desc: '사이버사기·보이스피싱 신고', phone: '182' },
+  defamation: { name: '경찰청 사이버수사국', desc: '명예훼손·모욕 신고', phone: '182' },
+  'drug-crime': { name: '경찰청', desc: '마약 신고 및 상담', phone: '112' },
+  dui: { name: '경찰청', desc: '음주운전 관련 안내', phone: '112' },
+  assault: { name: '경찰청', desc: '폭행 사건 신고 및 상담', phone: '112' },
+  prostitution: { name: '경찰청', desc: '성매매 관련 신고 및 상담', phone: '112' },
+  'industrial-accident1': { name: '근로복지공단', desc: '산재보험 급여 신청', phone: '1588-0075' },
+  'industrial-accident2': { name: '근로복지공단', desc: '산재보험 급여 신청', phone: '1588-0075' },
+  'jeonse-fraud': { name: '전세피해지원센터', desc: '전세사기 피해 상담 및 지원', phone: '1533-8119' },
+  jeonse: { name: '주택임대차분쟁조정위원회', desc: '보증금 분쟁 조정', phone: '1644-7788' },
+  'school-violence': { name: '학교폭력신고센터', desc: '학교폭력 상담 및 신고', phone: '117' },
+  'sexual-harassment': { name: '고용노동부', desc: '직장 내 성희롱 신고', phone: '1350' },
+  stalking: { name: '여성긴급전화', desc: '스토킹 피해 상담', phone: '1366' },
+  'sex-crime': { name: '여성긴급전화', desc: '성폭력 피해 상담', phone: '1366' },
+  'digital-sex-crime': { name: '디지털성범죄피해자지원센터', desc: '영상 삭제 지원 및 상담', phone: '02-735-8994' },
+  'child-sex-crime': { name: '아동보호전문기관', desc: '아동학대 신고 및 상담', phone: '112' },
+  'neighbor-dispute': { name: '환경분쟁조정위원회', desc: '소음 분쟁 조정', phone: '02-2110-6565' },
+  unemployment: { name: '고용센터', desc: '실업급여 신청 안내', phone: '1350' },
+};
+
 function getDomainSpecificAgency(domain: string | null): React.ReactNode {
   if (!domain) return null;
-  const agencies: Record<string, { name: string; desc: string; phone: string }> = {
-    wage: { name: '고용노동부', desc: '임금체불 신고 및 근로감독', phone: '1350' },
-    dismissal: { name: '고용노동부', desc: '부당해고 구제 신청', phone: '1350' },
-    retirement: { name: '고용노동부', desc: '퇴직금 체불 신고', phone: '1350' },
-    fraud: { name: '경찰청 사이버수사국', desc: '사이버사기·보이스피싱 신고', phone: '182' },
-    defamation: { name: '경찰청 사이버수사국', desc: '명예훼손·모욕 신고', phone: '182' },
-    'drug-crime': { name: '경찰청', desc: '마약 신고 및 상담', phone: '112' },
-    dui: { name: '경찰청', desc: '음주운전 관련 안내', phone: '112' },
-    assault: { name: '경찰청', desc: '폭행 사건 신고 및 상담', phone: '112' },
-    prostitution: { name: '경찰청', desc: '성매매 관련 신고 및 상담', phone: '112' },
-    'industrial-accident1': { name: '근로복지공단', desc: '산재보험 급여 신청', phone: '1588-0075' },
-    'industrial-accident2': { name: '근로복지공단', desc: '산재보험 급여 신청', phone: '1588-0075' },
-    'jeonse-fraud': { name: '전세피해지원센터', desc: '전세사기 피해 상담 및 지원', phone: '1533-8119' },
-    jeonse: { name: '주택임대차분쟁조정위원회', desc: '보증금 분쟁 조정', phone: '1644-7788' },
-    'school-violence': { name: '학교폭력신고센터', desc: '학교폭력 상담 및 신고', phone: '117' },
-    'sexual-harassment': { name: '고용노동부', desc: '직장 내 성희롱 신고', phone: '1350' },
-    stalking: { name: '여성긴급전화', desc: '스토킹 피해 상담', phone: '1366' },
-    'sex-crime': { name: '여성긴급전화', desc: '성폭력 피해 상담', phone: '1366' },
-    'digital-sex-crime': { name: '디지털성범죄피해자지원센터', desc: '영상 삭제 지원 및 상담', phone: '02-735-8994' },
-    'child-sex-crime': { name: '아동보호전문기관', desc: '아동학대 신고 및 상담', phone: '112' },
-    'neighbor-dispute': { name: '환경분쟁조정위원회', desc: '소음 분쟁 조정', phone: '02-2110-6565' },
-    unemployment: { name: '고용센터', desc: '실업급여 신청 안내', phone: '1350' },
-  };
-  const agency = agencies[domain];
+  const agency = DOMAIN_AGENCY_DATA[domain];
   if (!agency) return null;
   return (
     <a href={`tel:${agency.phone}`} className="flex items-center justify-between bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors">
@@ -576,6 +577,124 @@ function getPerspectiveCTAButton(perspectiveKey: string | null): string {
     case 'falsely_accused': return '억울한 신고 대응 상담받기';
     default: return '고소/신고 전 상담받기';
   }
+}
+
+/* ─────────────── subtype → ResultEntry adapter ─────────────── */
+/**
+ * subtype-result 데이터를 legacy ChatResultCard 가 받는 ResultEntry 모양으로 변환.
+ * 모든 결과화면을 ChatResultCard 한 곳으로 통합하기 위해 추가 (2026-04-26).
+ *
+ * 톤 안전장치: 모든 fabricated 텍스트는 가능형·준비 안내형. 판단형 금지.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function buildSubtypeResultEntry(
+  subtypeResult: SubtypeResultData,
+  domain: string | null,
+  perspectiveKey: string | null,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+): any {
+  const reqDocs = subtypeResult.requiredDocs ?? [];
+  const userEv = subtypeResult.userEvidence ?? [];
+
+  // first_action.items: top 3 required docs as 보관/확보 안내
+  const firstActionItems = reqDocs.slice(0, 3).map((doc) =>
+    evidenceMatches(userEv, doc) ? `${doc} 보관 상태를 확인해보세요` : `${doc}을(를) 확보해보세요`,
+  );
+
+  // checklist: required docs with status from evidence match
+  const checklistPriority = reqDocs.map((doc) => ({
+    label: doc,
+    status: evidenceMatches(userEv, doc) ? 'has' : 'need',
+    note: '',
+  }));
+
+  // timeline: 관점별 4단계 generic
+  const timelineByPerspective: Record<string, { label: string; desc: string; active?: boolean }[]> = {
+    offender: [
+      { label: '쟁점 정리', desc: '사실관계 시간순 정리', active: true },
+      { label: '진술 준비', desc: '진술서·답변서 검토' },
+      { label: '조사 대응', desc: '경찰·검찰 조사 응대' },
+      { label: '결과 확인', desc: '처분·합의 검토' },
+    ],
+    falsely_accused: [
+      { label: '정상 거래 입증', desc: '자료 시간순 정리', active: true },
+      { label: '자료 정리', desc: '메시지·이체 내역 보존' },
+      { label: '조사 대응', desc: '관련자 진술 확보' },
+      { label: '결과 확인', desc: '오해 해소·처분 확인' },
+    ],
+    victim: [
+      { label: '증거 확보', desc: '캡처·영수증·녹음 보존', active: true },
+      { label: '신고·접수', desc: '경찰·기관 신고' },
+      { label: '조사', desc: '진술·자료 제출' },
+      { label: '결과 확인', desc: '처분·구제·환급' },
+    ],
+  };
+  const timeline = timelineByPerspective[perspectiveKey ?? 'victim'] ?? timelineByPerspective.victim;
+
+  // 주의할 점 (caution) 관점별 3개 generic
+  const cautionByPerspective: Record<string, string[]> = {
+    offender: [
+      '초기 진술이 사건 방향을 좌우할 수 있어 신중하게 정리하는 것이 좋습니다',
+      '관련 자료는 가능한 한 보존해두는 것이 도움이 됩니다',
+      '합의 시기와 조건은 변호사 상담 후 결정하는 것이 좋습니다',
+    ],
+    falsely_accused: [
+      '정상 거래의 시간순 흐름을 정리해두는 것이 좋습니다',
+      '관련자 진술이나 메시지를 가능한 한 보존해두는 것이 도움이 됩니다',
+      '신고 내용에 대한 답변서는 검토 후 작성하는 것이 좋습니다',
+    ],
+    victim: [
+      '증거가 삭제·변조되기 전에 가능한 한 캡처해두는 것이 좋습니다',
+      '시한이 짧은 신고·구제 절차가 있을 수 있어 빠른 확인이 도움이 됩니다',
+      '합의 결정은 자료 검토 후 진행하는 것이 좋습니다',
+    ],
+  };
+  const cautionItems = cautionByPerspective[perspectiveKey ?? 'victim'] ?? cautionByPerspective.victim;
+
+  // 무료 상담 기관 — domain-specific + 132
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const publicConnections: any[] = [
+    { name: '대한법률구조공단', phone: '132', note: '무료 법률상담 및 소송대리 지원' },
+  ];
+  const dsAgency = DOMAIN_AGENCY_DATA[domain ?? ''];
+  if (dsAgency) {
+    publicConnections.push({
+      name: dsAgency.name,
+      phone: dsAgency.phone,
+      note: dsAgency.desc,
+    });
+  }
+
+  return {
+    type_id: 'SUBTYPE',
+    type_name: `${subtypeResult.perspectiveLabel} · ${subtypeResult.subtypeLabel}`,
+    status_summary: subtypeResult.summary || '입력하신 내용은 상담 전 정리가 필요한 상황으로 보입니다.',
+    risk_level: '결과 확인이 필요한 상황입니다',
+    first_action: {
+      title: '🔥 지금 가장 먼저 할 일',
+      items: firstActionItems,
+    },
+    key_checkpoints: [],
+    timeline_steps: timeline,
+    actions: {
+      today: [],
+      this_week: [],
+      caution: cautionItems,
+      do_not: [],
+      important: [],
+    },
+    documents: [],
+    checklist_priority: checklistPriority,
+    checklist_optional: [],
+    related_systems: [],
+    connections: {
+      public: publicConnections,
+      professional: [],
+    },
+    legal_basis: subtypeResult.legalBasis ? [subtypeResult.legalBasis] : [],
+    disclaimer:
+      '이 결과는 입력하신 내용을 바탕으로 한 준비 안내입니다. 사실관계와 증거에 따라 실제 판단은 달라질 수 있으며, 정확한 법률 판단은 전문가 상담을 받으시기 바랍니다.',
+  };
 }
 
 /* ─────────────── Evidence Fuzzy Matching ─────────────── */
@@ -1831,216 +1950,18 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
 
       case 'subtype-result':
         return (
-          <div key={msg.id} className="w-full space-y-4">
-            {/* New flow result card - restructured */}
+          <div key={msg.id} className="w-full">
+            {/* 통합: subtype-result 도 ChatResultCard 사용 (2026-04-26).
+                두 분기 동기화 사고 방지 + 모든 도메인 동일 디자인 + procedure 자동 표시. */}
             {msg.subtypeResult && (
-              <div className="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
-                {/* 1. Header - 상단 요약 */}
-                <div className="bg-primary-600 px-6 py-4 text-white">
-                  <h3 className="text-lg font-bold">상황 정리 결과</h3>
-                  <p className="text-sm text-primary-100 mt-1">
-                    {msg.subtypeResult.perspectiveLabel} &middot; {msg.subtypeResult.subtypeLabel}
-                  </p>
-                </div>
-
-                {/* 2. 지금 가장 먼저 할 일 */}
-                <div className="px-6 py-5 border-b border-gray-100 bg-amber-50">
-                  <h4 className="font-bold text-gray-800 mb-3 flex items-center gap-2">
-                    <span>🔥</span> 지금 가장 먼저 할 일
-                  </h4>
-                  <ol className="space-y-2">
-                    {(msg.subtypeResult.requiredDocs.slice(0, 3)).map((doc, i) => (
-                      <li key={i} className="flex items-start gap-2 text-[14px]">
-                        <span className="flex-shrink-0 w-5 h-5 rounded-full bg-amber-500 text-white text-[12px] font-bold flex items-center justify-center mt-0.5">{i + 1}</span>
-                        <span className="text-gray-800">{
-                          evidenceMatches(msg.subtypeResult!.userEvidence, doc)
-                            ? `${doc} 보관 상태 확인`
-                            : `${doc} 확보`
-                        }</span>
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-
-                {/* 3. 준비서류 - 3구역 분리 */}
-                {msg.subtypeResult.requiredDocs.length > 0 && (
-                  <SubtypeDocChecklist
-                    requiredDocs={msg.subtypeResult.requiredDocs}
-                    userEvidence={msg.subtypeResult.userEvidence}
-                  />
-                )}
-
-                {/* 4. 확인된 사실 + 의미 코멘트 */}
-                {Object.keys(msg.subtypeResult.factAnswers).length > 0 && (
-                  <div className="px-6 py-5 border-b border-gray-100">
-                    <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                      <span>📋</span> 확인된 사실
-                    </h4>
-                    <div className="space-y-3">
-                      {Object.entries(msg.subtypeResult.factAnswers).map(([key, val]) => {
-                        const koreanLabel = factCheckIdToKorean(key, selectedDomain, selectedPerspectiveKey, subtypesData, selectedSubtype);
-                        const comment = getFactComment(key, val);
-                        return (
-                          <div key={key}>
-                            <div className="flex items-center gap-2 text-[14px]">
-                              <span className={`w-2 h-2 rounded-full flex-shrink-0 ${val === '모름' ? 'bg-gray-300' : 'bg-primary-500'}`} />
-                              <span className="text-gray-600">{koreanLabel}:</span>
-                              <span className={`font-medium ${val === '모름' ? 'text-gray-400' : 'text-gray-800'}`}>{val}</span>
-                            </div>
-                            {comment && <p className="text-[12px] text-gray-500 ml-4 mt-0.5">→ {comment}</p>}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-
-                {/* 5. 법적 쟁점 - 부드럽게 */}
-                <div className="px-6 py-5 border-b border-gray-100">
-                  <h4 className="font-semibold text-gray-800 mb-2 flex items-center gap-2">
-                    <span>⚖️</span> 관련 쟁점
-                  </h4>
-                  <p className="text-[14px] text-gray-700 leading-relaxed">{msg.subtypeResult.summary}</p>
-                  {msg.subtypeResult.legalBasis && (
-                    <p className="text-[12px] text-gray-400 mt-2">관련 법률: {msg.subtypeResult.legalBasis}</p>
-                  )}
-                </div>
-
-                {/* 5.5 주요 판단 요소 */}
-                {selectedDomain && DOMAIN_JUDGMENT_FACTORS[selectedDomain] && (
-                  <div className="px-6 py-5 border-b border-gray-100">
-                    <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
-                      <span>🔍</span> 주요 판단 요소
-                    </h4>
-                    <p className="text-[12px] text-gray-400 mb-3">보통 이런 요소가 함께 검토됩니다</p>
-                    <div className="space-y-2">
-                      {DOMAIN_JUDGMENT_FACTORS[selectedDomain].map((factor, i) => (
-                        <div key={i} className="flex items-start gap-2.5">
-                          <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-primary-50 text-primary-600 flex items-center justify-center text-[11px] font-bold">✓</span>
-                          <span className="text-[14px] text-gray-700">{factor}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {/* 6. 무료기관 + CTA */}
-                <div className="px-6 py-5 border-b border-gray-100">
-                  <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                    <span>📞</span> 무료 상담 기관
-                  </h4>
-                  <div className="space-y-2">
-                    <a href="tel:132" className="flex items-center justify-between bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors">
-                      <div>
-                        <p className="text-[14px] font-medium text-gray-800">대한법률구조공단</p>
-                        <p className="text-[12px] text-gray-500">무료 법률상담 및 소송대리 지원</p>
-                      </div>
-                      <span className="flex-shrink-0 bg-primary-600 text-white text-[13px] font-medium px-3 py-1.5 rounded-lg">132</span>
-                    </a>
-                    {getDomainSpecificAgency(selectedDomain)}
-                  </div>
-                </div>
-
-                {/* 6.5. 이렇게 진행됩니다 (procedure 데이터 — 단정형 금지, 가능형 / 기한은 단계 안에 자연스럽게 통합) */}
-                {selectedDomain && procedureData?.[selectedDomain] && (() => {
-                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                  const proc: any = procedureData[selectedDomain];
-                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                  const flow: any = proc.primary_flow ?? proc.all_flows?.[0];
-                  const agencyText: string = (proc.agency_names ?? []).slice(0, 2).join(' · ') || '공식 기관';
-                  return (
-                    <>
-                      {flow?.steps?.length > 0 && (
-                        <div className="px-6 py-5 border-b border-gray-100 bg-indigo-50/40">
-                          <h4 className="font-semibold text-gray-800 mb-1 flex items-center gap-2">
-                            <span>📋</span> 이렇게 진행됩니다
-                          </h4>
-                          <p className="text-[12px] text-gray-500 mb-3">
-                            {agencyText} 안내 절차를 참고하면, 다음 흐름으로 진행됩니다.
-                          </p>
-                          <ol className="space-y-2.5">
-                            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-                            {flow.steps.slice(0, 6).map((s: any, i: number) => (
-                              <li key={i} className="flex gap-3">
-                                <span className="flex-shrink-0 w-5 h-5 rounded-full bg-indigo-600 text-white text-[11px] font-bold flex items-center justify-center mt-0.5">{s.step ?? i + 1}</span>
-                                <div className="flex-1 min-w-0">
-                                  <p className="text-[14px] font-medium text-gray-900">
-                                    {s.title}
-                                    {s.deadline && <span className="text-[13px] font-normal text-indigo-700 ml-1">({s.deadline})</span>}
-                                  </p>
-                                </div>
-                              </li>
-                            ))}
-                          </ol>
-                        </div>
-                      )}
-                      {(proc.agency_names?.length ?? 0) > 0 && (
-                        <details className="px-6 py-5 border-b border-gray-100 group">
-                          <summary className="cursor-pointer list-none flex items-center justify-between">
-                            <div>
-                              <h4 className="font-semibold text-gray-800 flex items-center gap-2">
-                                <span>🏛️</span> 신청·상담 경로
-                              </h4>
-                              <p className="text-[12px] text-gray-500 mt-0.5">아래 기관에서 절차 안내·상담을 확인하실 수 있습니다.</p>
-                            </div>
-                            <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                            </svg>
-                          </summary>
-                          <ul className="mt-3 space-y-2">
-                            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-                            {proc.agency_names.slice(0, 4).map((name: string, i: number) => {
-                              const url = proc.source_urls?.[i];
-                              return (
-                                <li key={i} className="flex items-start gap-2 text-[13px]">
-                                  <span className="text-blue-500 mt-0.5">▸</span>
-                                  <div className="flex-1 min-w-0">
-                                    <p className="text-gray-800 font-medium">{name}</p>
-                                    {url && (
-                                      <a href={url} target="_blank" rel="noopener noreferrer" className="text-[11px] text-blue-600 hover:underline break-all">
-                                        {url.replace(/^https?:\/\//, '').split('/')[0]}
-                                      </a>
-                                    )}
-                                  </div>
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </details>
-                      )}
-                    </>
-                  );
-                })()}
-
-                {/* 7. 상담 연결 CTA */}
-                <div className="px-6 py-5 border-b border-gray-100">
-                  <p className="text-[14px] text-gray-600 leading-relaxed mb-3">
-                    {getPerspectiveCTAText(selectedPerspectiveKey)}
-                  </p>
-                  <button
-                    onClick={() => alert('전문가 매칭 서비스는 현재 준비 중입니다.\n대한법률구조공단(132)에 전화하시면 무료로 상담받으실 수 있습니다.')}
-                    className="w-full rounded-xl bg-amber-500 hover:bg-amber-600 px-6 py-3.5 text-white font-bold text-[15px] transition-colors shadow-md"
-                  >
-                    {getPerspectiveCTAButton(selectedPerspectiveKey)}
-                  </button>
-                  <button
-                    onClick={handleRestart}
-                    className="w-full mt-2 rounded-xl border border-gray-200 px-6 py-3 text-[14px] font-medium text-primary-600 hover:bg-primary-50 transition-colors"
-                  >
-                    다른 문제 상담하기
-                  </button>
-                </div>
-
-                {/* 8. 한계 문구 */}
-                <div className="px-6 py-4 bg-gray-50">
-                  <p className="text-[12px] text-gray-400 leading-relaxed">
-                    이 결과는 입력하신 내용을 바탕으로 한 준비 안내입니다. 사실관계와 증거에 따라 실제 판단은 달라질 수 있으며, 정확한 법률 판단은 전문가 상담을 받으시기 바랍니다.
-                  </p>
-                </div>
-              </div>
+              <ChatResultCard
+                result={buildSubtypeResultEntry(msg.subtypeResult, selectedDomain, selectedPerspectiveKey)}
+                answers={msg.answers ?? {}}
+                domainName={domainMeta?.name ?? ''}
+                procedure={selectedDomain ? procedureData?.[selectedDomain] : undefined}
+                onRestart={handleRestart}
+              />
             )}
-
-            {/* Legacy result card removed - new flow result is sufficient */}
           </div>
         );
 

@@ -401,39 +401,21 @@ export default function ChatResultCard({ result, answers, domainName, procedure,
             </div>
           )}
 
-          {/* Today actions */}
-          {result.actions.today && result.actions.today.length > 0 && (
-            <div className="mb-3">
+          {/* 지금 할 일 단일 박스 — today + this_week 통합 우선순위 순 (2026-04-26 통합 결정) */}
+          {((result.actions.today?.length ?? 0) + (result.actions.this_week?.length ?? 0)) > 0 && (
+            <div>
               <p className="text-sm font-semibold text-red-600 mb-2 flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-red-500" />
-                오늘 할 일
+                지금 할 일 (우선순위 순)
               </p>
-              <ul className="space-y-1.5 pl-1">
-                {result.actions.today.map((item, i) => (
+              <ol className="space-y-1.5 pl-1">
+                {[...(result.actions.today ?? []), ...(result.actions.this_week ?? [])].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
-                    <span className="text-red-400 mt-0.5">●</span>
+                    <span className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 text-red-700 text-[11px] font-bold flex items-center justify-center mt-0.5">{i + 1}</span>
                     <span>{item}</span>
                   </li>
                 ))}
-              </ul>
-            </div>
-          )}
-
-          {/* This week actions */}
-          {result.actions.this_week && result.actions.this_week.length > 0 && (
-            <div>
-              <p className="text-sm font-semibold text-blue-600 mb-2 flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-blue-500" />
-                이번 주 할 일
-              </p>
-              <ul className="space-y-1.5 pl-1">
-                {result.actions.this_week.map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
-                    <span className="text-blue-400 mt-0.5">●</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
+              </ol>
             </div>
           )}
 
