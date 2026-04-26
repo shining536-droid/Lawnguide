@@ -1,6 +1,7 @@
 /**
  * Procedure data accessors. Data is pre-generated at build time
- * (scripts/generate-procedure-data.mjs) into procedure-data-generated.ts
+ * (scripts/generate-procedure-data.mjs) into procedure-data-generated.ts.
+ * Currently 25 domains covered (2026-04-26: 17 → 25, +assault·sex-crime·child-sex-crime·prostitution·drug-crime·dui·inheritance·sangga).
  * to avoid runtime fs.readFileSync of kb/ — that triggered Next.js File Tracing
  * to include the entire kb/ directory in the serverless bundle and exceed
  * the 250MB Vercel limit.

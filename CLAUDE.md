@@ -340,6 +340,14 @@
 - **defamation** → `pidrc_procedure.json` (개인정보 분쟁조정)
 - **school-violence** → `sv_procedure.json` (학폭 사안처리 - 신고·자체해결·심의위·처분 1~9호·재심)
 - **neighbor-dispute** → `ecc_procedure.json` (환경분쟁조정 - 층간소음 측정·알선/조정/재정/중재)
+- **assault** → `criminal_procedure.json` (경찰·검찰·법원·범죄피해자지원·국선변호인·민사손배)
+- **sex-crime** → `criminal_procedure.json` (성폭력 신고·해바라기·디지털성착취 신고)
+- **child-sex-crime** → `criminal_procedure.json` (아동 보호 우선 톤·신고의무자·공소시효 정지)
+- **prostitution** → `criminal_procedure.json` (강제 성매매·알선 처벌·보호처분)
+- **drug-crime** → `criminal_procedure.json` (자수·자진신고 감경·치료보호)
+- **dui** → `criminal_procedure.json` (형사 + 행정심판 90일 별도 트랙)
+- **inheritance** → `family_court_procedure.json` (상속포기·한정승인 3개월·상속세 6개월)
+- **sangga** → `sangga_procedure.json` (상가 분쟁조정 60일·권리금·갱신요구권)
 
 ### 필수 활용 (해당 도메인 글 생성 시)
 

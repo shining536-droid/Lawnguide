@@ -35,6 +35,15 @@ const DOMAIN_FILES = {
   defamation: ['pidrc_procedure.json'],
   'school-violence': ['sv_procedure.json'],
   'neighbor-dispute': ['ecc_procedure.json'],
+  // 2026-04-26: 4순위 부족 도메인 보강 (8개)
+  assault: ['criminal_procedure.json'],
+  'sex-crime': ['criminal_procedure.json'],
+  'child-sex-crime': ['criminal_procedure.json'],
+  prostitution: ['criminal_procedure.json'],
+  'drug-crime': ['criminal_procedure.json'],
+  dui: ['criminal_procedure.json'],
+  inheritance: ['family_court_procedure.json'],
+  sangga: ['sangga_procedure.json'],
 };
 
 function shortSource(label) {
