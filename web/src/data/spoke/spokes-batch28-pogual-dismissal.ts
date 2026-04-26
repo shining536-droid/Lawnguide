@@ -496,7 +496,7 @@ export const spokesBatch28PogualDismissal: SpokePage[] = [
       {
         title: '임신 중 해고가 금지되는 법적 근거',
         content:
-          '<p><strong style="color:#1e3a5f">임신 중인 여성 근로자에 대한 해고는 절대적으로 금지됩니다.</strong></p>\n<ol>\n<li><strong>근로기준법 제23조 제2항</strong> — 사용자는 임신 중인 여성에 대하여 산전·산후 휴가 기간과 그 후 30일간은 해고하지 못합니다.</li>\n<li><strong>남녀고용평등법 제11조</strong> — 임신·출산·육아를 이유로 한 해고나 불리한 처우를 금지합니다.</li>\n<li><strong>위반 시 처벌</strong> — 근로기준법 위반 시 5년 이하 징역 또는 5천만원 이하 벌금, 남녀고용평등법 위반 시 3년 이하 징역 또는 3천만원 이하 벌금에 처합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "경영 악화", "성과 부진" 등 다른 사유를 내세우더라도, 임신 기간 중에는 해고 자체가 불가능합니다. 해고 사유의 정당성 여부와 관계없이 금지됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임신 중인 여성 근로자에 대한 해고는 절대적으로 금지됩니다.</strong></p>\n<ol>\n<li><strong>근로기준법 제23조 제2항</strong> — 사용자는 임신 중인 여성에 대하여 산전·산후 휴가 기간과 그 후 30일간은 해고하지 못합니다.</li>\n<li><strong>남녀고용평등법 제11조</strong> — 임신·출산·육아를 이유로 한 해고나 불리한 처우를 금지합니다.</li>\n<li><strong>위반 시 처벌</strong> — 근로기준법 위반 시 5년 이하 징역 또는 5천만원 이하 벌금, 남녀고용평등법 위반 시 3년 이하 징역 또는 3천만원 이하 벌금에 처할 수 있습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "경영 악화", "성과 부진" 등 다른 사유를 내세우더라도, 임신 기간 중에는 해고 자체가 불가능합니다. 해고 사유의 정당성 여부와 관계없이 금지됩니다.</blockquote>',
       },
       {
         title: '구제 방법 3가지',

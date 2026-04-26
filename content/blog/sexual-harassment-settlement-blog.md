@@ -1,6 +1,6 @@
 ---
 title: "성희롱 합의, 급하게 서명하지 마세요"
-title_alt_1: "성희롱 합의서 작성 전 반드시 확인할 3가지"
+title_alt_1: "성희롱 합의서 작성 전 가능한 한 확인할 3가지"
 title_alt_2: "성희롱 피해 합의, 서두르면 손해 보는 이유"
 domain: "sexual-harassment"
 category: "victim"

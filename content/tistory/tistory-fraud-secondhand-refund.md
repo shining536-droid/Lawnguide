@@ -53,8 +53,8 @@ naver_pair: "fraud-secondhand-refund-blog.md"
 
 📌 **관련 글 더 보기**
 - [사기죄로 고소당했을 때, 방어 전략 3가지](https://lawnguide.tistory.com/73)
-- [사기죄로 신고당했을 때 반드시 챙겨야 할 3가지](https://lawnguide.tistory.com/77)
-- [사기 피의자 경찰 출석 전 반드시 알아야 할 3가지](https://lawnguide.tistory.com/78)
+- [사기죄로 신고당했을 때 가능한 한 챙겨야 할 3가지](https://lawnguide.tistory.com/77)
+- [사기 피의자 경찰 출석 전 가능한 한 알아야 할 3가지](https://lawnguide.tistory.com/78)
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=fraud

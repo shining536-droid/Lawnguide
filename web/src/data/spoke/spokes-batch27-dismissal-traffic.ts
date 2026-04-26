@@ -161,7 +161,7 @@ export const spokesBatch27DismissalTraffic: SpokePage[] = [
       { question: '노조에 가입만 하고 활동은 안 했는데도 보호되나요?', answer: '<p>네, 노조 가입 자체만으로도 보호 대상입니다. 가입을 이유로 한 불이익 처우는 부당노동행위입니다.</p>' },
       { question: '부당노동행위 구제신청과 부당해고 구제신청을 동시에 할 수 있나요?', answer: '<p>네, 두 가지를 동시에 신청할 수 있습니다. 실무적으로 함께 신청하는 경우가 많습니다.</p>' },
       { question: '노조 활동을 이유로 전보 배치한 것도 구제 대상인가요?', answer: '<p>해고가 아니더라도 전보, 감봉, 승진 누락 등 불이익 처우는 부당노동행위로 구제 대상입니다.</p>' },
-      { question: '형사 고발하면 사업주가 처벌받나요?', answer: '<p>부당노동행위가 인정되면 2년 이하 징역 또는 2,000만원 이하 벌금에 처합니다. 검찰이 기소 여부를 판단합니다.</p>' },
+      { question: '형사 고발하면 사업주가 처벌받나요?', answer: '<p>부당노동행위가 인정되면 2년 이하 징역 또는 2,000만원 이하 벌금에 처할 수 있습니다. 검찰이 기소 여부를 판단합니다.</p>' },
     ],
     cta: { text: '노조 보복 해고 부당노동행위 구제 AI로 확인하기', link: '/chat?domain=dismissal' },
     internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '부당해고 구제신청', href: '/guide/dismissal/dismissal-unfair-relief-application' }, { label: '직장 내 괴롭힘 해고', href: '/guide/dismissal/dismissal-workplace-bullying-remedies' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],

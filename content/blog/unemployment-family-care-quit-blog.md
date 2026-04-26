@@ -1,7 +1,7 @@
 ---
 title: "부모님 간병 때문에 퇴사하면 실업급여 받나요?"
 title_alt_1: "가족 간병 퇴사 실업급여 — 진단서+가족관계증명서 준비"
-title_alt_2: "간병 퇴사도 정당한 이직 사유로 인정됩니다"
+title_alt_2: "간병 퇴사도 정당한 이직 사유로 인정될 수 있습니다"
 domain: "unemployment"
 category: "victim"
 date: "2026-04-12"

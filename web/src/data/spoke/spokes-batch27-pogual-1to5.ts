@@ -62,12 +62,12 @@ export const spokesBatch27Pogual_1to5: SpokePage[] = [
       {
         title: '신고 전 준비해야 할 증거 목록',
         content:
-          '<p><strong style="color:#1e3a5f">익명신고라도 구체적인 증거가 있으면 감독 효과가 크게 높아집니다.</strong></p>\n<ul>\n<li><strong>근로계약서 사본</strong> — 포괄임금 약정 조항이 기재된 부분을 캡처합니다.</li>\n<li><strong>급여명세서 또는 통장 입금내역</strong> — 기본급과 수당이 구분되지 않은 점을 보여주는 자료입니다.</li>\n<li><strong>출퇴근 기록</strong> — 출입카드 기록, PC 로그온·오프 시간, 카카오톡 업무 지시 시간 등 실제 근로시간을 입증하는 자료입니다.</li>\n<li><strong>동료 근로자 진술</strong> — 같은 사업장의 다른 근로자가 동일한 피해를 겪고 있다면 추가 신고가 효과적입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 증거가 부족해도 익명신고 자체는 접수됩니다. 감독관이 사업장 조사 시 사용자 측 기록을 직접 확인합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">익명신고라도 구체적인 증거가 있으면 감독 효과가 크게 높아집니다.</strong></p>\n<ul>\n<li><strong>근로계약서 사본</strong> — 포괄임금 약정 조항이 기재된 부분을 캡처할 수 있습니다.</li>\n<li><strong>급여명세서 또는 통장 입금내역</strong> — 기본급과 수당이 구분되지 않은 점을 보여주는 자료입니다.</li>\n<li><strong>출퇴근 기록</strong> — 출입카드 기록, PC 로그온·오프 시간, 카카오톡 업무 지시 시간 등 실제 근로시간을 입증하는 자료입니다.</li>\n<li><strong>동료 근로자 진술</strong> — 같은 사업장의 다른 근로자가 동일한 피해를 겪고 있다면 추가 신고가 효과적입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 증거가 부족해도 익명신고 자체는 접수됩니다. 감독관이 사업장 조사 시 사용자 측 기록을 직접 확인합니다.</blockquote>',
       },
       {
         title: '신고 후 보복이 걱정된다면',
         content:
-          '<p><strong style="color:#1e3a5f">임금체불 신고를 이유로 한 불이익 처우는 형사처벌 대상입니다.</strong></p>\n<ul>\n<li><strong>근로기준법 제109조</strong> — 임금체불 신고를 이유로 해고하거나 불이익을 주면 5년 이하의 징역 또는 5천만원 이하의 벌금에 처합니다.</li>\n<li><strong>부당해고 구제신청</strong> — 불이익이 발생하면 노동위원회에 부당해고 구제신청을 할 수 있습니다(해고일로부터 3개월 이내).</li>\n<li><strong>공익신고자 보호법</strong> — 포괄임금 오남용 신고는 공익신고에 해당하여 국민권익위원회의 보호를 받을 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">임금체불 신고를 이유로 한 불이익 처우는 형사처벌 대상입니다.</strong></p>\n<ul>\n<li><strong>근로기준법 제109조</strong> — 임금체불 신고를 이유로 해고하거나 불이익을 주면 5년 이하의 징역 또는 5천만원 이하의 벌금에 처할 수 있습니다.</li>\n<li><strong>부당해고 구제신청</strong> — 불이익이 발생하면 노동위원회에 부당해고 구제신청을 할 수 있습니다(해고일로부터 3개월 이내).</li>\n<li><strong>공익신고자 보호법</strong> — 포괄임금 오남용 신고는 공익신고에 해당하여 국민권익위원회의 보호를 받을 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -331,7 +331,7 @@ export const spokesBatch27Pogual_1to5: SpokePage[] = [
       {
         title: '근로자가 사전에 준비할 6가지',
         content:
-          '<p><strong style="color:#1e3a5f">기획감독이 나오기 전에 아래 6가지를 미리 준비하세요.</strong></p>\n<ol>\n<li><strong>근로계약서 사본 확보</strong> — 포괄임금 약정 조항이 있는 원본을 보관합니다.</li>\n<li><strong>급여명세서 전체 기간 확보</strong> — 입사 후 지금까지 받은 모든 급여명세서를 출력하거나 캡처합니다.</li>\n<li><strong>출퇴근 기록 정리</strong> — 출입카드, PC 로그온/오프, 업무 메신저 기록을 날짜별로 정리합니다.</li>\n<li><strong>실제 연장근로시간 계산</strong> — 주당 평균 연장근로시간을 산출하여 메모합니다.</li>\n<li><strong>차액 예상 금액 산정</strong> — 약정액과 실제 법정수당의 차이를 미리 계산해둡니다.</li>\n<li><strong>진술서 초안 작성</strong> — 감독관 면담 시 객관적 사실 위주로 진술할 내용을 미리 정리합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>기획감독 대비 증거 점검, AI가 도와드립니다</strong></p>\n<p style="margin:0;font-size:0.95em">내 사업장이 감독 대상인지, 어떤 증거를 준비해야 하는지 무료로 확인하세요.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">기획감독이 나오기 전에 아래 6가지를 미리 준비하세요.</strong></p>\n<ol>\n<li><strong>근로계약서 사본 확보</strong> — 포괄임금 약정 조항이 있는 원본을 보관합니다.</li>\n<li><strong>급여명세서 전체 기간 확보</strong> — 입사 후 지금까지 받은 모든 급여명세서를 출력하거나 캡처할 수 있습니다.</li>\n<li><strong>출퇴근 기록 정리</strong> — 출입카드, PC 로그온/오프, 업무 메신저 기록을 날짜별로 정리합니다.</li>\n<li><strong>실제 연장근로시간 계산</strong> — 주당 평균 연장근로시간을 산출하여 메모합니다.</li>\n<li><strong>차액 예상 금액 산정</strong> — 약정액과 실제 법정수당의 차이를 미리 계산해둡니다.</li>\n<li><strong>진술서 초안 작성</strong> — 감독관 면담 시 객관적 사실 위주로 진술할 내용을 미리 정리합니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>기획감독 대비 증거 점검, AI가 도와드립니다</strong></p>\n<p style="margin:0;font-size:0.95em">내 사업장이 감독 대상인지, 어떤 증거를 준비해야 하는지 무료로 확인하세요.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '감독관 면담 시 주의사항',

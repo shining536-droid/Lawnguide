@@ -106,7 +106,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
       {
         title: '첫째, 성매매 초범의 처벌 수위를 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">성매매알선등행위의처벌에관한법률 제21조 제1항에 따라 성매매를 한 사람은 1년 이하의 징역이나 300만원 이하의 벌금에 처합니다</strong></p>\n<p>성매매는 <strong>단순 매수</strong>(성을 사는 행위)의 경우 위 법정형이 적용됩니다. 초범이고 단순 매수에 해당하면 벌금형이나 기소유예로 처리되는 경우가 많습니다.</p>\n<p>다만 <strong>아동·청소년 대상 성매매</strong>는 아동·청소년의 성보호에 관한 법률이 적용되어 훨씬 무거운 처벌을 받습니다. 상대방의 나이를 가능한 한 확인해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">단순 성매매: 1년 이하 징역 또는 300만원 이하 벌금 | 아동 대상은 가중 처벌</blockquote>',
+          '<p><strong style="color:#1e3a5f">성매매알선등행위의처벌에관한법률 제21조 제1항에 따라 성매매를 한 사람은 1년 이하의 징역이나 300만원 이하의 벌금에 처할 수 있습니다</strong></p>\n<p>성매매는 <strong>단순 매수</strong>(성을 사는 행위)의 경우 위 법정형이 적용됩니다. 초범이고 단순 매수에 해당하면 벌금형이나 기소유예로 처리되는 경우가 많습니다.</p>\n<p>다만 <strong>아동·청소년 대상 성매매</strong>는 아동·청소년의 성보호에 관한 법률이 적용되어 훨씬 무거운 처벌을 받습니다. 상대방의 나이를 가능한 한 확인해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">단순 성매매: 1년 이하 징역 또는 300만원 이하 벌금 | 아동 대상은 가중 처벌</blockquote>',
       },
       {
         title: '둘째, 기소유예를 받기 위한 3가지 핵심 조건을 확인하세요',

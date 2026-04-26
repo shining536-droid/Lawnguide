@@ -496,7 +496,7 @@ export const spokesBatch17_21to25: SpokePage[] = [
       {
         title: '다섯째, 처벌 수위와 보호 방법을 함께 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">스토킹범죄는 3년 이하의 징역 또는 3,000만 원 이하의 벌금입니다</strong></p>\n<p>스토킹처벌법 제18조에 따라 스토킹범죄(반복적 스토킹행위)는 <strong>3년 이하의 징역 또는 3,000만 원 이하의 벌금</strong>에 처합니다. 흉기 등 위험한 물건을 사용하면 <strong>5년 이하의 징역 또는 5,000만 원 이하의 벌금</strong>으로 가중됩니다.</p>\n<p>고소와 별도로 피해자 보호를 위해 <strong>스마트워치 안심 서비스</strong>(경찰 112에 문의), <strong>주소지 변경 후 열람 제한</strong>(주민센터에서 신청), <strong>피해자 국선 변호사</strong>(검찰청에 신청) 등을 활용하세요. 특히 스마트워치는 위급 시 버튼 하나로 112에 자동 신고되므로, 접근금지 조치 기간 중 꼭 활용하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">처벌: 3년 이하 징역 / 흉기 사용 시 5년 이하 징역 | 피해자 보호: 스마트워치 + 주소 열람 제한 + 국선변호사</blockquote>',
+          '<p><strong style="color:#1e3a5f">스토킹범죄는 3년 이하의 징역 또는 3,000만 원 이하의 벌금입니다</strong></p>\n<p>스토킹처벌법 제18조에 따라 스토킹범죄(반복적 스토킹행위)는 <strong>3년 이하의 징역 또는 3,000만 원 이하의 벌금</strong>에 처할 수 있습니다. 흉기 등 위험한 물건을 사용하면 <strong>5년 이하의 징역 또는 5,000만 원 이하의 벌금</strong>으로 가중됩니다.</p>\n<p>고소와 별도로 피해자 보호를 위해 <strong>스마트워치 안심 서비스</strong>(경찰 112에 문의), <strong>주소지 변경 후 열람 제한</strong>(주민센터에서 신청), <strong>피해자 국선 변호사</strong>(검찰청에 신청) 등을 활용하세요. 특히 스마트워치는 위급 시 버튼 하나로 112에 자동 신고되므로, 접근금지 조치 기간 중 꼭 활용하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">처벌: 3년 이하 징역 / 흉기 사용 시 5년 이하 징역 | 피해자 보호: 스마트워치 + 주소 열람 제한 + 국선변호사</blockquote>',
       },
     ],
     cases: [

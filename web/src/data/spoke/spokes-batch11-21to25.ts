@@ -21,7 +21,7 @@ export const spokesBatch11Pages21to25: SpokePage[] = [
       {
         title: '초범이라도 마약 투약은 형사처벌 대상입니다',
         content:
-          '<p><strong style="color:#1e3a5f">마약류관리법은 투약 1회라도 형사처벌을 규정하고 있습니다</strong></p>\n<p>마약류 관리에 관한 법률에 따르면, 향정신성의약품을 투약한 자는 <strong>10년 이하의 징역 또는 1억원 이하의 벌금</strong>에 처합니다. 대마의 경우 <strong>5년 이하의 징역 또는 5천만원 이하의 벌금</strong>입니다. "처음이니까 괜찮겠지"라는 생각은 법적으로 전혀 통하지 않습니다.</p>\n<p>특히 소변검사, 모발검사 등 과학적 감정 결과가 양성이면 투약 사실 자체를 부인하기 어렵습니다. 수사기관은 통화기록, 메신저 대화, CCTV 등 다양한 방법으로 투약 정황을 입증합니다. 혐의를 받고 있다면 초기 대응이 이후 양형에 큰 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 향정신성의약품 투약 = 10년 이하 징역 또는 1억원 이하 벌금 / 초범도 예외 없음</blockquote>',
+          '<p><strong style="color:#1e3a5f">마약류관리법은 투약 1회라도 형사처벌을 규정하고 있습니다</strong></p>\n<p>마약류 관리에 관한 법률에 따르면, 향정신성의약품을 투약한 자는 <strong>10년 이하의 징역 또는 1억원 이하의 벌금</strong>에 처할 수 있습니다. 대마의 경우 <strong>5년 이하의 징역 또는 5천만원 이하의 벌금</strong>입니다. "처음이니까 괜찮겠지"라는 생각은 법적으로 전혀 통하지 않습니다.</p>\n<p>특히 소변검사, 모발검사 등 과학적 감정 결과가 양성이면 투약 사실 자체를 부인하기 어렵습니다. 수사기관은 통화기록, 메신저 대화, CCTV 등 다양한 방법으로 투약 정황을 입증합니다. 혐의를 받고 있다면 초기 대응이 이후 양형에 큰 영향을 미칩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 향정신성의약품 투약 = 10년 이하 징역 또는 1억원 이하 벌금 / 초범도 예외 없음</blockquote>',
       },
       {
         title: '초범 양형 기준 — 집행유예를 받을 수 있는 조건',

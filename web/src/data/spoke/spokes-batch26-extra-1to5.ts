@@ -254,7 +254,7 @@ export const spokesBatch26Extra_1to5: SpokePage[] = [
       {
         title: '야근 시간 증거 확보하는 법',
         content:
-          '<p><strong style="color:#1e3a5f">야근 시간을 입증할 증거가 있어야 차액 청구에서 유리합니다.</strong></p>\n<ul>\n<li><strong>PC 로그온·오프 기록</strong> — 회사 컴퓨터 로그 또는 사내 업무 시스템 접속 기록을 캡처합니다.</li>\n<li><strong>업무 메신저 기록</strong> — 카카오톡 업무 채팅, 슬랙, 카카오워크 등에서 야근 중 주고받은 메시지 날짜·시간을 저장합니다.</li>\n<li><strong>출입카드 기록</strong> — 사무실 출입 기록이 있는 경우 퇴사 전에 보관하거나 사진으로 기록합니다.</li>\n<li><strong>야근 식대·교통비 영수증</strong> — 회사 지원 야근 식대 또는 택시비 영수증도 간접 증거가 됩니다.</li>\n<li><strong>이메일 발신 기록</strong> — 야간 시간대에 발송된 업무 이메일도 유력한 증거입니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">야근 시간을 입증할 증거가 있어야 차액 청구에서 유리합니다.</strong></p>\n<ul>\n<li><strong>PC 로그온·오프 기록</strong> — 회사 컴퓨터 로그 또는 사내 업무 시스템 접속 기록을 캡처할 수 있습니다.</li>\n<li><strong>업무 메신저 기록</strong> — 카카오톡 업무 채팅, 슬랙, 카카오워크 등에서 야근 중 주고받은 메시지 날짜·시간을 저장합니다.</li>\n<li><strong>출입카드 기록</strong> — 사무실 출입 기록이 있는 경우 퇴사 전에 보관하거나 사진으로 기록합니다.</li>\n<li><strong>야근 식대·교통비 영수증</strong> — 회사 지원 야근 식대 또는 택시비 영수증도 간접 증거가 됩니다.</li>\n<li><strong>이메일 발신 기록</strong> — 야간 시간대에 발송된 업무 이메일도 유력한 증거입니다.</li>\n</ul>',
       },
       {
         title: '임금체불 신고 4단계',

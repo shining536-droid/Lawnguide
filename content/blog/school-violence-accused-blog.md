@@ -1,7 +1,7 @@
 ---
 title: "학교폭력 가해자로 지목되었다면, 부모가 먼저 할 3가지"
 title_alt_1: "우리 아이가 학폭 가해자라고요? 대응법 정리"
-title_alt_2: "학교폭력 가해 통보, 부모가 반드시 알아야 할 것"
+title_alt_2: "학교폭력 가해 통보, 부모가 가능한 한 알아야 할 것"
 domain: "school-violence"
 category: "offender"
 date: "2026-04-05"

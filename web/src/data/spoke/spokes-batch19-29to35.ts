@@ -35,7 +35,7 @@ export const spokesBatch19_29to35: SpokePage[] = [
       {
         title: '1단계 — 출석 요구를 받으면 즉시 변호사를 선임하세요',
         content:
-          '<p><strong style="color:#1e3a5f">마약류관리에관한법률에 따라 향정신성의약품 투약은 1년 이상의 유기징역에 처합니다</strong></p>\n<p>경찰 출석 요구서를 받으면 <strong>출석일 전에 마약 전문 변호사를 선임</strong>하는 것이 가장 중요합니다. 초기 조사에서의 진술이 이후 재판까지 증거로 사용되기 때문에 변호인 조력 없이 혼자 대응하면 불리한 진술을 남길 위험이 큽니다.</p>\n<p>변호사 선임 후에는 <strong>사건 경위를 정리</strong>하고, 진술 범위와 묵비권 행사 여부를 사전에 협의하세요. 출석 전까지 관련 증거(통화기록, 지인 진술 등)를 미리 확보해두면 방어에 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 변호사 선임 → 진술 범위 사전 협의 → 관련 증거 확보</blockquote>',
+          '<p><strong style="color:#1e3a5f">마약류관리에관한법률에 따라 향정신성의약품 투약은 1년 이상의 유기징역에 처할 수 있습니다</strong></p>\n<p>경찰 출석 요구서를 받으면 <strong>출석일 전에 마약 전문 변호사를 선임</strong>하는 것이 가장 중요합니다. 초기 조사에서의 진술이 이후 재판까지 증거로 사용되기 때문에 변호인 조력 없이 혼자 대응하면 불리한 진술을 남길 위험이 큽니다.</p>\n<p>변호사 선임 후에는 <strong>사건 경위를 정리</strong>하고, 진술 범위와 묵비권 행사 여부를 사전에 협의하세요. 출석 전까지 관련 증거(통화기록, 지인 진술 등)를 미리 확보해두면 방어에 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 출석 전 변호사 선임 → 진술 범위 사전 협의 → 관련 증거 확보</blockquote>',
       },
       {
         title: '2단계 — 소변·모발 검사에 성실히 응하되 결과를 꼼꼼히 확인하세요',

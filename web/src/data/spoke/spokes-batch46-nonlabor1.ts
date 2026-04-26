@@ -133,7 +133,7 @@ export const spokesBatch46Nonlabor1: SpokePage[] = [
       {
         title: '예방·재발 방지 — 다시 옮기기 전에 점검할 것',
         content:
-          '<p><strong style="color:#1e3a5f">시드 노출이 의심되면 남은 자산은 즉시 새 지갑으로 옮겨야 추가 피해를 막을 수 있습니다.</strong></p>\n<ul>\n<li><strong>새 시드 생성</strong> — 도난당한 시드는 영구 노출 상태로 보고 폐기, 새 하드웨어 지갑 + 새 시드 발급.</li>\n<li><strong>패스프레이즈 추가</strong> — 시드 + 패스프레이즈 조합은 시드만 알아도 인출이 어려워질 수 있습니다.</li>\n<li><strong>다중 서명(멀티시그)</strong> — 2-of-3 멀티시그로 단일 시드 노출만으로는 인출 불가하게 설정.</li>\n<li><strong>거래 알림 설정</strong> — 거래소·익스플로러 푸시 알림으로 인출 즉시 감지 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 중고로 산 하드웨어 지갑은 절대 그대로 사용하지 말고 반드시 펌웨어 초기화 후 새 시드를 생성하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">시드 노출이 의심되면 남은 자산은 즉시 새 지갑으로 옮겨야 추가 피해를 막을 수 있습니다.</strong></p>\n<ul>\n<li><strong>새 시드 생성</strong> — 도난당한 시드는 영구 노출 상태로 보고 폐기, 새 하드웨어 지갑 + 새 시드 발급.</li>\n<li><strong>패스프레이즈 추가</strong> — 시드 + 패스프레이즈 조합은 시드만 알아도 인출이 어려워질 수 있습니다.</li>\n<li><strong>다중 서명(멀티시그)</strong> — 2-of-3 멀티시그로 단일 시드 노출만으로는 인출 불가하게 설정.</li>\n<li><strong>거래 알림 설정</strong> — 거래소·익스플로러 푸시 알림으로 인출 즉시 감지 가능.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 중고로 산 하드웨어 지갑은 절대 그대로 사용하지 말고 가능한 한 펌웨어 초기화 후 새 시드를 생성하세요.</blockquote>',
       },
     ],
     cases: [
@@ -632,7 +632,7 @@ export const spokesBatch46Nonlabor1: SpokePage[] = [
       {
         title: '안전벨트 미착용 — 보상이 깎이나요?',
         content:
-          '<p><strong style="color:#1e3a5f">안전벨트 미착용은 동승자 과실로 5~30% 감액될 수 있습니다.</strong></p>\n<ul>\n<li><strong>일반 도로</strong> — 미착용 시 5~10% 감액, 부상 정도와 직접 관련 시 더 큰 감액.</li>\n<li><strong>고속도로</strong> — 미착용 자체가 도로교통법 위반, 감액 폭이 더 클 수 있음.</li>\n<li><strong>뒷좌석</strong> — 뒷좌석 안전벨트 미착용도 도로교통법상 위반, 동승자 과실 반영.</li>\n<li><strong>운전자 측 책임</strong> — 운전자가 동승자 안전벨트 착용을 확인하지 않은 책임도 일부 검토.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 안전벨트 미착용으로 감액되더라도 청구권 자체는 살아 있으니 보상은 반드시 청구하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">안전벨트 미착용은 동승자 과실로 5~30% 감액될 수 있습니다.</strong></p>\n<ul>\n<li><strong>일반 도로</strong> — 미착용 시 5~10% 감액, 부상 정도와 직접 관련 시 더 큰 감액.</li>\n<li><strong>고속도로</strong> — 미착용 자체가 도로교통법 위반, 감액 폭이 더 클 수 있음.</li>\n<li><strong>뒷좌석</strong> — 뒷좌석 안전벨트 미착용도 도로교통법상 위반, 동승자 과실 반영.</li>\n<li><strong>운전자 측 책임</strong> — 운전자가 동승자 안전벨트 착용을 확인하지 않은 책임도 일부 검토.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 안전벨트 미착용으로 감액되더라도 청구권 자체는 살아 있으니 보상은 가능한 한 청구하세요.</blockquote>',
       },
       {
         title: '운전자가 가족·친구일 때 — 인간관계 대응',

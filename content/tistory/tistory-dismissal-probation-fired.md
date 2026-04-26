@@ -52,7 +52,7 @@ naver_pair: "dismissal-probation-fired-blog.md"
 
 
 📌 **관련 글 더 보기**
-- [부당해고 통보 후 48시간 내 반드시 해야 할 대응 절차](https://lawnguide.tistory.com/33)
+- [부당해고 통보 후 48시간 내 가능한 한 해야 할 대응 절차](https://lawnguide.tistory.com/33)
 - [갑작스러운 해고, 이 3가지부터 하세요](https://lawnguide.tistory.com/36)
 - [해고 당했을 때 바로 실행할 대응 순서](https://lawnguide.tistory.com/114)
 

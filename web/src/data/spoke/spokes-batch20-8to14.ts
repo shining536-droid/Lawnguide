@@ -488,7 +488,7 @@ export const spokesBatch20_8to14: SpokePage[] = [
       {
         title: '2차 가해 유형 1: 신고를 이유로 한 인사상 불이익',
         content:
-          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제2항에 따라 사업주는 성희롱 피해 근로자에게 해고·전보·징계 등 불리한 조치를 해서는 안 됩니다. 위반 시 3년 이하의 징역 또는 3천만원 이하의 벌금에 처합니다</strong></p>\n<p>가장 흔한 2차 가해 유형은 <strong>인사상 불이익</strong>입니다. 부서 전환, 직위 해제, 성과 평가 하락, 승진 누락, 계약 미갱신 등이 이에 해당할 소지가 있습니다.</p>\n<p>불이익 조치를 받았다면: <strong>①인사 명령서·통보문을 즉시 보관 ②성희롱 신고 시점과 불이익 조치 시점의 근접성을 기록 ③이전 인사 평가·근무 성적과 비교 자료 확보</strong>. 남녀고용평등법 제30조에 따라 <strong>불리한 조치가 성희롱과 무관하다는 증명 책임은 사업주</strong>에게 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 인사 명령서 보관 → 시점 근접성 기록 → 이전 평가 비교 → 사업주 증명책임 활용</blockquote>',
+          '<p><strong style="color:#1e3a5f">남녀고용평등법 제14조 제2항에 따라 사업주는 성희롱 피해 근로자에게 해고·전보·징계 등 불리한 조치를 해서는 안 됩니다. 위반 시 3년 이하의 징역 또는 3천만원 이하의 벌금에 처할 수 있습니다</strong></p>\n<p>가장 흔한 2차 가해 유형은 <strong>인사상 불이익</strong>입니다. 부서 전환, 직위 해제, 성과 평가 하락, 승진 누락, 계약 미갱신 등이 이에 해당할 소지가 있습니다.</p>\n<p>불이익 조치를 받았다면: <strong>①인사 명령서·통보문을 즉시 보관 ②성희롱 신고 시점과 불이익 조치 시점의 근접성을 기록 ③이전 인사 평가·근무 성적과 비교 자료 확보</strong>. 남녀고용평등법 제30조에 따라 <strong>불리한 조치가 성희롱과 무관하다는 증명 책임은 사업주</strong>에게 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">대응: 인사 명령서 보관 → 시점 근접성 기록 → 이전 평가 비교 → 사업주 증명책임 활용</blockquote>',
       },
       {
         title: '2차 가해 유형 2: 동료에 의한 따돌림과 비밀 누설',

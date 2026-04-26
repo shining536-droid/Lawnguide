@@ -1,7 +1,7 @@
 ---
 title: "보증채무도 개인회생에 포함되나요? 핵심 3가지"
 title_alt_1: "보증 선 빚, 개인회생으로 해결 가능할까요"
-title_alt_2: "보증채무 개인회생 신청 전 반드시 알아야 할 것"
+title_alt_2: "보증채무 개인회생 신청 전 가능한 한 알아야 할 것"
 date: "2026-04-09"
 domain: "rehabilitation"
 slug: "rehabilitation-guarantor-debt-included"

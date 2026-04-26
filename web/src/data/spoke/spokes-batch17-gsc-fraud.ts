@@ -24,7 +24,7 @@ export const spokesBatch17GscFraud: SpokePage[] = [
       {
         title: '첫째, 사기죄 기본 양형 기준부터 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">형법 제347조 사기죄는 10년 이하의 징역 또는 2천만원 이하의 벌금에 처합니다</strong></p>\n<p>사기죄의 양형은 <strong>편취 금액</strong>에 따라 크게 달라집니다. 대법원 양형위원회 기준으로 일반사기 1억원 미만은 징역 6월~1년6월이 기본 양형 범위입니다. 1억원 이상 5억원 미만은 1년~3년, 5억원 이상은 3년~7년이 기본 범위입니다.</p>\n<p>여기서 <strong>합의 여부</strong>가 가장 큰 감경 요소로 작용합니다. 양형위원회는 "피해 회복"을 특별감경인자로 분류하고 있어, 합의 성사 시 양형 범위 자체가 한 단계 낮아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 편취 금액별 기본 양형 범위 확인 → 합의는 특별감경인자</blockquote>',
+          '<p><strong style="color:#1e3a5f">형법 제347조 사기죄는 10년 이하의 징역 또는 2천만원 이하의 벌금에 처할 수 있습니다</strong></p>\n<p>사기죄의 양형은 <strong>편취 금액</strong>에 따라 크게 달라집니다. 대법원 양형위원회 기준으로 일반사기 1억원 미만은 징역 6월~1년6월이 기본 양형 범위입니다. 1억원 이상 5억원 미만은 1년~3년, 5억원 이상은 3년~7년이 기본 범위입니다.</p>\n<p>여기서 <strong>합의 여부</strong>가 가장 큰 감경 요소로 작용합니다. 양형위원회는 "피해 회복"을 특별감경인자로 분류하고 있어, 합의 성사 시 양형 범위 자체가 한 단계 낮아집니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 편취 금액별 기본 양형 범위 확인 → 합의는 특별감경인자</blockquote>',
       },
       {
         title: '둘째, 합의 유무에 따른 형량 차이를 수치로 비교하세요',

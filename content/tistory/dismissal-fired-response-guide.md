@@ -1,7 +1,7 @@
 ---
 title: "해고 당했을 때 바로 실행할 대응 순서"
 title_alt_1: "갑자기 잘렸다면, 이 순서대로 움직이세요"
-title_alt_2: "해고 통보 직후 반드시 챙겨야 할 것들"
+title_alt_2: "해고 통보 직후 가능한 한 챙겨야 할 것들"
 domain: "dismissal"
 category: "victim"
 date: "2026-04-04"

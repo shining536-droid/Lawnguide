@@ -1,7 +1,7 @@
 ---
 title: "정년퇴직인데 사실상 해고 아닌가요?"
 title_alt_1: "정년퇴직 통보 받았는데, 부당해고로 다툴 수 있나요"
-title_alt_2: "정년 전에 퇴직 강요당했다면 해고에 해당합니다"
+title_alt_2: "정년 전에 퇴직 강요당했다면 해고에 해당할 소지가 있습니다"
 domain: "dismissal"
 category: "victim"
 date: "2026-04-13"

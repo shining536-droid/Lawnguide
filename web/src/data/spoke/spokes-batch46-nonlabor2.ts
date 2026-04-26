@@ -66,7 +66,7 @@ export const spokesBatch46Nonlabor2: SpokePage[] = [
           '<strong>본인이 60세에 도달해야 수급이 시작됩니다.</strong> 다만 분할 청구 자체는 이혼 확정 후 5년 내에 국민연금공단에 해두는 것이 안전합니다.',
       },
       {
-        question: '시댁에서 받은 상속 재산은 무조건 못 받나요?',
+        question: '시댁에서 받은 상속 재산은 원칙적으로 못 받나요?',
         answer:
           '<strong>원칙적으로 특유재산이라 분할 대상이 아닐 가능성이 높습니다.</strong> 다만 혼인 중 가액 유지·증가에 기여했다면 일부 산입될 소지가 있어요.',
       },
@@ -365,7 +365,7 @@ export const spokesBatch46Nonlabor2: SpokePage[] = [
       {
         title: 'Q. 의붓자식은 계부 상속을 받을 수 있나요?',
         content:
-          '<p><strong style="color:#1e3a5f">A. 입양 여부에 따라 결과가 갈립니다.</strong></p>\n<ul>\n<li><strong>친양자 입양</strong> — 친양자 입양이 됐다면 친자녀와 동일한 상속권이 인정됩니다.</li>\n<li><strong>일반 입양(보통양자)</strong> — 일반 입양도 양친에 대한 상속권이 인정될 수 있습니다.</li>\n<li><strong>입양 없이 사실상 부자관계</strong> — 입양 절차 없이 함께 산 의붓자식은 원칙적으로 상속권이 없습니다.</li>\n<li><strong>기여분 청구 여지</strong> — 입양 없어도 장기 부양·간병 시 기여분 청구로 일부 받을 수 있는 길이 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 가족관계증명서·입양관계증명서를 먼저 발급받아 본인의 법적 위치부터 확인해보세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. 입양 여부에 따라 결과가 갈립니다.</strong></p>\n<ul>\n<li><strong>친양자 입양</strong> — 친양자 입양이 됐다면 친자녀와 동일한 상속권이 인정될 수 있습니다.</li>\n<li><strong>일반 입양(보통양자)</strong> — 일반 입양도 양친에 대한 상속권이 인정될 수 있습니다.</li>\n<li><strong>입양 없이 사실상 부자관계</strong> — 입양 절차 없이 함께 산 의붓자식은 원칙적으로 상속권이 없습니다.</li>\n<li><strong>기여분 청구 여지</strong> — 입양 없어도 장기 부양·간병 시 기여분 청구로 일부 받을 수 있는 길이 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 가족관계증명서·입양관계증명서를 먼저 발급받아 본인의 법적 위치부터 확인해보세요.</blockquote>',
       },
       {
         title: 'Q. 입양 여부는 어떻게 확인하나요?',
@@ -581,7 +581,7 @@ export const spokesBatch46Nonlabor2: SpokePage[] = [
       {
         question: '아버지 재혼 후 입양된 의붓동생도 같은 지분인가요?',
         answer:
-          '<strong>친양자·일반양자 입양이 됐다면 친자녀와 동일한 1순위 상속권이 인정됩니다.</strong> 입양관계증명서로 입양 형태를 먼저 확인하세요.',
+          '<strong>친양자·일반양자 입양이 됐다면 친자녀와 동일한 1순위 상속권이 인정될 수 있습니다.</strong> 입양관계증명서로 입양 형태를 먼저 확인하세요.',
       },
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },

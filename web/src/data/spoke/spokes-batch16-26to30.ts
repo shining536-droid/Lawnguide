@@ -212,7 +212,7 @@ export const spokesBatch16Pages26to30: SpokePage[] = [
       {
         title: '잠정조치를 위반하면 어떻게 되나요?',
         content:
-          '<p><strong style="color:#1e3a5f">잠정조치 위반 시 2년 이하의 징역 또는 2천만 원 이하의 벌금에 처합니다</strong></p>\n<p>스토킹처벌법 제19조 제2항에 따라 법원의 잠정조치를 위반한 사람은 <strong>2년 이하의 징역 또는 2천만 원 이하의 벌금</strong>에 처합니다. 이는 잠정조치의 실효성을 담보하는 강력한 제재입니다.</p>\n<p>만약 잠정조치가 내려졌음에도 스토킹행위자가 접근금지를 어기고 찾아오거나 연락을 한다면, ① <strong>즉시 112에 신고</strong>하세요. ② 경찰에 <strong>잠정조치 결정문 사본</strong>을 제시하세요. ③ <strong>위반 증거</strong>(문자, 방문 CCTV 등)를 확보하세요. 잠정조치 위반은 별도의 범죄이므로 추가 처벌이 가능하며, 유치장 유치 등 더 강력한 잠정조치로 변경될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 잠정조치 위반 = 별도 범죄 → 즉시 112 신고 + 위반 증거 확보</blockquote>',
+          '<p><strong style="color:#1e3a5f">잠정조치 위반 시 2년 이하의 징역 또는 2천만 원 이하의 벌금에 처할 수 있습니다</strong></p>\n<p>스토킹처벌법 제19조 제2항에 따라 법원의 잠정조치를 위반한 사람은 <strong>2년 이하의 징역 또는 2천만 원 이하의 벌금</strong>에 처할 수 있습니다. 이는 잠정조치의 실효성을 담보하는 강력한 제재입니다.</p>\n<p>만약 잠정조치가 내려졌음에도 스토킹행위자가 접근금지를 어기고 찾아오거나 연락을 한다면, ① <strong>즉시 112에 신고</strong>하세요. ② 경찰에 <strong>잠정조치 결정문 사본</strong>을 제시하세요. ③ <strong>위반 증거</strong>(문자, 방문 CCTV 등)를 확보하세요. 잠정조치 위반은 별도의 범죄이므로 추가 처벌이 가능하며, 유치장 유치 등 더 강력한 잠정조치로 변경될 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 잠정조치 위반 = 별도 범죄 → 즉시 112 신고 + 위반 증거 확보</blockquote>',
       },
     ],
     cases: [
@@ -248,7 +248,7 @@ export const spokesBatch16Pages26to30: SpokePage[] = [
       {
         question: '스토킹 가해자에 대한 처벌은 어느 정도인가요?',
         answer:
-          '<strong>스토킹범죄는 3년 이하의 징역 또는 3천만 원 이하의 벌금에 처합니다.</strong> 스토킹처벌법 제18조에 따른 형벌이며, 흉기 등을 사용한 경우 5년 이하의 징역 또는 5천만 원 이하의 벌금으로 가중됩니다. 잠정조치 위반은 별도로 2년 이하 징역 또는 2천만 원 이하 벌금입니다.',
+          '<strong>스토킹범죄는 3년 이하의 징역 또는 3천만 원 이하의 벌금에 처할 수 있습니다.</strong> 스토킹처벌법 제18조에 따른 형벌이며, 흉기 등을 사용한 경우 5년 이하의 징역 또는 5천만 원 이하의 벌금으로 가중됩니다. 잠정조치 위반은 별도로 2년 이하 징역 또는 2천만 원 이하 벌금입니다.',
       },
       {
         question: '무료 상담은 어디서 받을 수 있나요?',
@@ -388,7 +388,7 @@ export const spokesBatch16Pages26to30: SpokePage[] = [
       {
         title: '둘째, 고용노동부에 진정·고소를 제기하세요',
         content:
-          '<p><strong style="color:#1e3a5f">임금체불은 근로기준법 제109조 위반으로 형사처벌 대상입니다</strong></p>\n<p>근로기준법 제109조에 따라 임금을 지급하지 않은 사용자는 <strong>3년 이하의 징역 또는 3천만 원 이하의 벌금</strong>에 처합니다. 피해 근로자는 <strong>사업장 소재지 관할 고용노동청</strong>에 진정(민원)이나 고소를 제기할 수 있습니다.</p>\n<p>고용노동부 진정의 효과: ① 근로감독관이 사업장을 조사하여 <strong>시정 명령</strong>을 내립니다. ② 사업주가 시정하지 않으면 <strong>검찰 송치</strong>됩니다. ③ 형사 절차가 진행되면 사업주에게 <strong>합의 동기</strong>가 생겨 임금을 받을 가능성이 높아집니다.</p>\n<p>중요한 점은, 고용노동부 진정 자체가 <strong>민사상 소멸시효를 중단시키지는 않는다</strong>는 것입니다. 따라서 진정과 별도로 내용증명, 소송, 지급명령 등의 민사 조치를 병행해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 고용노동부 진정 = 형사 압박 → 별도로 민사 시효 중단 조치 병행 필수</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금체불은 근로기준법 제109조 위반으로 형사처벌 대상입니다</strong></p>\n<p>근로기준법 제109조에 따라 임금을 지급하지 않은 사용자는 <strong>3년 이하의 징역 또는 3천만 원 이하의 벌금</strong>에 처할 수 있습니다. 피해 근로자는 <strong>사업장 소재지 관할 고용노동청</strong>에 진정(민원)이나 고소를 제기할 수 있습니다.</p>\n<p>고용노동부 진정의 효과: ① 근로감독관이 사업장을 조사하여 <strong>시정 명령</strong>을 내립니다. ② 사업주가 시정하지 않으면 <strong>검찰 송치</strong>됩니다. ③ 형사 절차가 진행되면 사업주에게 <strong>합의 동기</strong>가 생겨 임금을 받을 가능성이 높아집니다.</p>\n<p>중요한 점은, 고용노동부 진정 자체가 <strong>민사상 소멸시효를 중단시키지는 않는다</strong>는 것입니다. 따라서 진정과 별도로 내용증명, 소송, 지급명령 등의 민사 조치를 병행해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 고용노동부 진정 = 형사 압박 → 별도로 민사 시효 중단 조치 병행 필수</blockquote>',
       },
       {
         title: '셋째, 지급명령 신청 또는 소액소송을 제기하세요',

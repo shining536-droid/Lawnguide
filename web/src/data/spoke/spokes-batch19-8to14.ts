@@ -101,7 +101,7 @@ export const spokesBatch19_8to14: SpokePage[] = [
       {
         title: '첫째, 성매매처벌법상 기본 법정형을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">성매매알선등행위의처벌에관한법률 제21조 제1항에 따라 성매매를 한 사람은 1년 이하의 징역이나 300만원 이하의 벌금·구류 또는 과료에 처합니다</strong></p>\n<p>이는 성매매 <strong>매수자와 매도자 모두에게 동일하게 적용</strong>되는 법정형입니다. 다만 실제 선고형은 <strong>초범 여부, 범행 경위, 반성 정도</strong>에 따라 크게 달라집니다.</p>\n<p>초범 단순 매수의 경우 통상적으로 <strong>벌금 100만~200만원</strong> 선에서 약식명령이 내려지는 경우가 많습니다. 기소유예 처분을 받으면 벌금 없이 사건이 종결됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법정형: 1년 이하 징역 또는 300만원 이하 벌금 → 초범 실제 양형: 벌금 100~200만원 또는 기소유예</blockquote>',
+          '<p><strong style="color:#1e3a5f">성매매알선등행위의처벌에관한법률 제21조 제1항에 따라 성매매를 한 사람은 1년 이하의 징역이나 300만원 이하의 벌금·구류 또는 과료에 처할 수 있습니다</strong></p>\n<p>이는 성매매 <strong>매수자와 매도자 모두에게 동일하게 적용</strong>되는 법정형입니다. 다만 실제 선고형은 <strong>초범 여부, 범행 경위, 반성 정도</strong>에 따라 크게 달라집니다.</p>\n<p>초범 단순 매수의 경우 통상적으로 <strong>벌금 100만~200만원</strong> 선에서 약식명령이 내려지는 경우가 많습니다. 기소유예 처분을 받으면 벌금 없이 사건이 종결됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법정형: 1년 이하 징역 또는 300만원 이하 벌금 → 초범 실제 양형: 벌금 100~200만원 또는 기소유예</blockquote>',
       },
       {
         title: '둘째, 초범 기소유예율과 그 조건을 파악하세요',

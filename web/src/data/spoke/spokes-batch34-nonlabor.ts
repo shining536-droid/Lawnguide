@@ -193,7 +193,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         title: '3단계: 형사고소와 국제공조',
         content:
-          '<p><strong style="color:#1e3a5f">양육권이 있는 부모의 동의 없이 자녀를 국외로 데려가는 행위는 형사 처벌 대상이 될 수 있습니다.</strong></p>\n<ul>\n<li><strong>미성년자 약취·유인죄</strong> — 형법 제287조에 따라 미성년자를 약취 또는 유인한 자는 10년 이하의 징역에 처합니다. 양육권이 없는 부모가 자녀를 데려간 경우에도 적용될 수 있습니다.</li>\n<li><strong>인터폴 적색수배</strong> — 형사고소 후, 상대방이 해외에 있으면 인터폴을 통한 국제공조 수사를 요청할 수 있습니다.</li>\n<li><strong>영사 지원 요청</strong> — 자녀가 체류하는 국가의 한국 대사관·영사관에 자녀 보호와 소재 파악을 요청할 수 있습니다.</li>\n<li><strong>국제 변호사 네트워크</strong> — 상대국에서의 법적 대응을 위해 해당 국가 변호사를 선임하고, 국내 변호사와 협력하여 동시 진행하는 것이 효과적입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 국제 자녀 탈취 사건은 시간이 지날수록 반환이 어려워지므로, 발생 즉시 법률 전문가의 도움을 받아 대응해야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">양육권이 있는 부모의 동의 없이 자녀를 국외로 데려가는 행위는 형사 처벌 대상이 될 수 있습니다.</strong></p>\n<ul>\n<li><strong>미성년자 약취·유인죄</strong> — 형법 제287조에 따라 미성년자를 약취 또는 유인한 자는 10년 이하의 징역에 처할 수 있습니다. 양육권이 없는 부모가 자녀를 데려간 경우에도 적용될 수 있습니다.</li>\n<li><strong>인터폴 적색수배</strong> — 형사고소 후, 상대방이 해외에 있으면 인터폴을 통한 국제공조 수사를 요청할 수 있습니다.</li>\n<li><strong>영사 지원 요청</strong> — 자녀가 체류하는 국가의 한국 대사관·영사관에 자녀 보호와 소재 파악을 요청할 수 있습니다.</li>\n<li><strong>국제 변호사 네트워크</strong> — 상대국에서의 법적 대응을 위해 해당 국가 변호사를 선임하고, 국내 변호사와 협력하여 동시 진행하는 것이 효과적입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 국제 자녀 탈취 사건은 시간이 지날수록 반환이 어려워지므로, 발생 즉시 법률 전문가의 도움을 받아 대응해야 합니다.</blockquote>',
       },
     ],
     cases: [

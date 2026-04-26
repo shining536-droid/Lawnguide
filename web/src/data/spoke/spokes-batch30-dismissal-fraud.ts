@@ -336,7 +336,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         title: '대포통장 관련 혐의의 종류와 처벌',
         content:
-          '<p><strong style="color:#1e3a5f">통장을 빌려주기만 해도 여러 혐의가 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>전자금융거래법 위반</strong> — 접근매체(통장·카드·OTP)를 양도·대여하면 5년 이하 징역 또는 3,000만원 이하 벌금에 처합니다.</li>\n<li><strong>사기 방조</strong> — 대포통장이 사기에 이용된 사실을 알았거나 알 수 있었다면 사기죄의 방조범으로 처벌됩니다. 형법 제347조 사기죄(10년 이하 징역 또는 2,000만원 이하 벌금)의 방조는 정범의 1/2까지 감경됩니다.</li>\n<li><strong>범죄수익은닉규제법 위반</strong> — 범죄수익의 이전·은닉을 돕는 행위로 5년 이하 징역 또는 3,000만원 이하 벌금입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "몰랐다"는 주장만으로는 부족합니다. 구체적으로 어떤 상황에서 통장을 빌려주었는지, 대가를 받았는지가 혐의 판단의 핵심입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">통장을 빌려주기만 해도 여러 혐의가 성립할 수 있습니다.</strong></p>\n<ul>\n<li><strong>전자금융거래법 위반</strong> — 접근매체(통장·카드·OTP)를 양도·대여하면 5년 이하 징역 또는 3,000만원 이하 벌금에 처할 수 있습니다.</li>\n<li><strong>사기 방조</strong> — 대포통장이 사기에 이용된 사실을 알았거나 알 수 있었다면 사기죄의 방조범으로 처벌됩니다. 형법 제347조 사기죄(10년 이하 징역 또는 2,000만원 이하 벌금)의 방조는 정범의 1/2까지 감경됩니다.</li>\n<li><strong>범죄수익은닉규제법 위반</strong> — 범죄수익의 이전·은닉을 돕는 행위로 5년 이하 징역 또는 3,000만원 이하 벌금입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: "몰랐다"는 주장만으로는 부족합니다. 구체적으로 어떤 상황에서 통장을 빌려주었는지, 대가를 받았는지가 혐의 판단의 핵심입니다.</blockquote>',
       },
       {
         title: '혐의를 받고 있을 때 4단계 대응법',

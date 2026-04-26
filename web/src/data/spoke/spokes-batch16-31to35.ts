@@ -279,7 +279,7 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
       {
         title: '2단계. 명예훼손 성립 요건을 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">모든 악플이 명예훼손은 아닙니다</strong></p>\n<p>형법상 명예훼손이 성립하려면 ①<strong>공연성</strong>(불특정 다수가 볼 수 있는 공간), ②<strong>사실 또는 허위사실의 적시</strong>, ③<strong>타인의 사회적 평가를 저하</strong>시키는 내용이어야 합니다. 단순한 욕설이나 감정 표현은 <strong>모욕죄</strong>(형법 제311조)에 해당할 수 있습니다.</p>\n<p>인터넷 게시판은 공연성이 인정되며, 정보통신망법 제70조에 따르면 정보통신망을 통한 명예훼손은 <strong>7년 이하의 징역 또는 5천만원 이하의 벌금</strong>(허위사실), <strong>3년 이하의 징역 또는 3천만원 이하의 벌금</strong>(사실 적시)에 처합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구분: 사실 적시 명예훼손 vs 허위사실 명예훼손 vs 모욕 | 인터넷 = 공연성 인정</blockquote>',
+          '<p><strong style="color:#1e3a5f">모든 악플이 명예훼손은 아닙니다</strong></p>\n<p>형법상 명예훼손이 성립하려면 ①<strong>공연성</strong>(불특정 다수가 볼 수 있는 공간), ②<strong>사실 또는 허위사실의 적시</strong>, ③<strong>타인의 사회적 평가를 저하</strong>시키는 내용이어야 합니다. 단순한 욕설이나 감정 표현은 <strong>모욕죄</strong>(형법 제311조)에 해당할 수 있습니다.</p>\n<p>인터넷 게시판은 공연성이 인정되며, 정보통신망법 제70조에 따르면 정보통신망을 통한 명예훼손은 <strong>7년 이하의 징역 또는 5천만원 이하의 벌금</strong>(허위사실), <strong>3년 이하의 징역 또는 3천만원 이하의 벌금</strong>(사실 적시)에 처할 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구분: 사실 적시 명예훼손 vs 허위사실 명예훼손 vs 모욕 | 인터넷 = 공연성 인정</blockquote>',
       },
       {
         title: '3단계. 고소장을 작성하세요',
@@ -377,7 +377,7 @@ export const spokesBatch16Pages31to35: SpokePage[] = [
       {
         title: '넷째, 혐의가 억울하다면 무고 역고소를 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">사실과 다르게 신고되었다면 무고죄로 맞고소할 수 있습니다</strong></p>\n<p>고소인이 <strong>허위 사실</strong>로 고소한 경우, 형법 제156조(무고죄)로 <strong>역고소</strong>할 수 있습니다. 무고죄는 10년 이하의 징역 또는 1,500만원 이하의 벌금에 처합니다.</p>\n<p>다만 무고죄가 성립하려면 고소인이 <strong>"허위인 것을 알면서"</strong> 고소했음을 입증해야 합니다. 단순히 고소 내용이 사실과 다른 정도로는 부족하고, 고소인에게 <strong>해를 끼칠 목적</strong>이 있었음을 증명해야 합니다. 무고 역고소는 신중하게 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">무고죄 요건: 허위 사실 인식 + 해할 목적 | 신중한 검토 필요</blockquote>',
+          '<p><strong style="color:#1e3a5f">사실과 다르게 신고되었다면 무고죄로 맞고소할 수 있습니다</strong></p>\n<p>고소인이 <strong>허위 사실</strong>로 고소한 경우, 형법 제156조(무고죄)로 <strong>역고소</strong>할 수 있습니다. 무고죄는 10년 이하의 징역 또는 1,500만원 이하의 벌금에 처할 수 있습니다.</p>\n<p>다만 무고죄가 성립하려면 고소인이 <strong>"허위인 것을 알면서"</strong> 고소했음을 입증해야 합니다. 단순히 고소 내용이 사실과 다른 정도로는 부족하고, 고소인에게 <strong>해를 끼칠 목적</strong>이 있었음을 증명해야 합니다. 무고 역고소는 신중하게 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">무고죄 요건: 허위 사실 인식 + 해할 목적 | 신중한 검토 필요</blockquote>',
       },
     ],
     cases: [

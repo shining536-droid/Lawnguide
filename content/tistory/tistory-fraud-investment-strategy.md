@@ -27,7 +27,7 @@ naver_pair: "fraud-investment-criminal-civil-blog.md"
 
 👉 고소장에 투자 권유 경위, 수익 보장 문구, 송금 내역, 연락두절 시점을 날짜순으로 구체적으로 적으세요.
 
-⚠️ 형사 절차에서는 처벌만 가능해요. 돈을 실제로 돌려받으려면 민사소송이 반드시 병행돼야 해요.
+⚠️ 형사 절차에서는 처벌만 가능해요. 돈을 실제로 돌려받으려면 민사소송이 가능한 한 병행돼야 해요.
 
 ---
 
@@ -53,8 +53,8 @@ naver_pair: "fraud-investment-criminal-civil-blog.md"
 
 📌 **관련 글 더 보기**
 - [사기죄로 고소당했을 때, 방어 전략 3가지](https://lawnguide.tistory.com/73)
-- [사기죄로 신고당했을 때 반드시 챙겨야 할 3가지](https://lawnguide.tistory.com/77)
-- [사기 피의자 경찰 출석 전 반드시 알아야 할 3가지](https://lawnguide.tistory.com/78)
+- [사기죄로 신고당했을 때 가능한 한 챙겨야 할 3가지](https://lawnguide.tistory.com/77)
+- [사기 피의자 경찰 출석 전 가능한 한 알아야 할 3가지](https://lawnguide.tistory.com/78)
 
 💬 변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.
 👉 AI 무료 상담 시작 → https://www.lawnguide.co.kr/chat?domain=fraud

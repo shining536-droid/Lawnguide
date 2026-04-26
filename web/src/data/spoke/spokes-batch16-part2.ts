@@ -185,7 +185,7 @@ export const spokesBatch16Part2Pages: SpokePage[] = [
       {
         title: '성매매 초범의 법정 처벌 수위',
         content:
-          '<p><strong style="color:#1e3a5f">성매매처벌법상 성매매 단순 행위는 1년 이하 징역 또는 300만 원 이하 벌금입니다</strong></p>\n<p><strong>성매매알선등행위의처벌에관한법률(성매매처벌법) 제21조 제1항</strong>에 따라 성매매를 한 사람은 <strong>1년 이하의 징역</strong>이나 <strong>300만 원 이하의 벌금</strong>, 구류 또는 과료에 처합니다. 이것은 단순 성매매 행위자에 대한 처벌이며, 알선이나 강요는 별도의 중형이 적용됩니다.</p>\n<p>실무적으로 초범의 경우 <strong>벌금 100~200만 원</strong> 선에서 약식명령이 나오는 경우가 많습니다. 다만 이 경우에도 <strong>벌금형은 전과 기록에 남습니다.</strong> 전과 기록이 남지 않는 결과를 원한다면 기소유예 또는 보호처분을 받아야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법정형: 1년 이하 징역 / 300만 원 이하 벌금 | 초범 실무: 벌금 100~200만 원 또는 기소유예</blockquote>',
+          '<p><strong style="color:#1e3a5f">성매매처벌법상 성매매 단순 행위는 1년 이하 징역 또는 300만 원 이하 벌금입니다</strong></p>\n<p><strong>성매매알선등행위의처벌에관한법률(성매매처벌법) 제21조 제1항</strong>에 따라 성매매를 한 사람은 <strong>1년 이하의 징역</strong>이나 <strong>300만 원 이하의 벌금</strong>, 구류 또는 과료에 처할 수 있습니다. 이것은 단순 성매매 행위자에 대한 처벌이며, 알선이나 강요는 별도의 중형이 적용됩니다.</p>\n<p>실무적으로 초범의 경우 <strong>벌금 100~200만 원</strong> 선에서 약식명령이 나오는 경우가 많습니다. 다만 이 경우에도 <strong>벌금형은 전과 기록에 남습니다.</strong> 전과 기록이 남지 않는 결과를 원한다면 기소유예 또는 보호처분을 받아야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법정형: 1년 이하 징역 / 300만 원 이하 벌금 | 초범 실무: 벌금 100~200만 원 또는 기소유예</blockquote>',
       },
       {
         title: '초범이 받을 수 있는 3가지 감경 결과',
@@ -268,7 +268,7 @@ export const spokesBatch16Part2Pages: SpokePage[] = [
       {
         title: '남녀고용평등법이 보장하는 보복 금지 원칙',
         content:
-          '<p><strong style="color:#1e3a5f">성희롱 피해 신고를 이유로 한 불이익 조치는 법으로 금지됩니다</strong></p>\n<p><strong>남녀고용평등과 일·가정 양립 지원에 관한 법률(남녀고용평등법) 제14조 제2항</strong>에 따라, 사업주는 직장 내 성희롱과 관련하여 피해를 입은 근로자 또는 성희롱 피해 발생을 주장하는 근로자에게 <strong>해고나 그 밖의 불리한 조치</strong>를 해서는 안 됩니다.</p>\n<p>불리한 조치에는 해고, 징계, 정직, 감봉, 부서 전환, 업무 배제, 근무 평가 하락, 승진 누락 등이 포함됩니다. 이를 위반한 사업주는 <strong>3년 이하의 징역 또는 3천만 원 이하의 벌금</strong>(남녀고용평등법 제37조 제2항)에 처합니다.</p>\n<p>중요한 점은 <strong>증명책임이 사업주에게 있다</strong>는 것입니다. 남녀고용평등법 제30조에 따라, 불리한 조치가 성희롱과 관련 없거나 정당한 사유가 있다는 점을 사업주가 증명해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 불이익 조치의 정당성 증명 → 사업주 책임 | 위반 시: 3년 이하 징역 / 3천만 원 이하 벌금</blockquote>',
+          '<p><strong style="color:#1e3a5f">성희롱 피해 신고를 이유로 한 불이익 조치는 법으로 금지됩니다</strong></p>\n<p><strong>남녀고용평등과 일·가정 양립 지원에 관한 법률(남녀고용평등법) 제14조 제2항</strong>에 따라, 사업주는 직장 내 성희롱과 관련하여 피해를 입은 근로자 또는 성희롱 피해 발생을 주장하는 근로자에게 <strong>해고나 그 밖의 불리한 조치</strong>를 해서는 안 됩니다.</p>\n<p>불리한 조치에는 해고, 징계, 정직, 감봉, 부서 전환, 업무 배제, 근무 평가 하락, 승진 누락 등이 포함됩니다. 이를 위반한 사업주는 <strong>3년 이하의 징역 또는 3천만 원 이하의 벌금</strong>(남녀고용평등법 제37조 제2항)에 처할 수 있습니다.</p>\n<p>중요한 점은 <strong>증명책임이 사업주에게 있다</strong>는 것입니다. 남녀고용평등법 제30조에 따라, 불리한 조치가 성희롱과 관련 없거나 정당한 사유가 있다는 점을 사업주가 증명해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 불이익 조치의 정당성 증명 → 사업주 책임 | 위반 시: 3년 이하 징역 / 3천만 원 이하 벌금</blockquote>',
       },
       {
         title: '보복으로 의심되는 조치가 있다면 즉시 증거를 확보하세요',

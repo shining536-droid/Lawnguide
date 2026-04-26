@@ -391,7 +391,7 @@ export const spokesBatch37Nonlabor2: SpokePage[] = [
       {
         title: '증거 확보와 보관 — 원본·캡처·공증',
         content:
-          '<p><strong style="color:#1e3a5f">단체방 명예훼손은 대화 내용의 원본 보존이 가장 중요하며, 증거 확보 방식에 따라 증명력이 달라집니다.</strong></p>\n<ul>\n<li><strong>전체 맥락 캡처</strong> — 문제 발언뿐 아니라 전후 맥락을 포함해 캡처합니다. 맥락이 없으면 발언의 의미가 왜곡 해석될 수 있습니다.</li>\n<li><strong>화면 녹화</strong> — 스크롤을 포함한 화면 녹화로 연속성을 보존하면 증명력이 높아집니다.</li>\n<li><strong>참여자 명단 확인</strong> — 단톡방 참여자 수·목록을 캡처해 공연성 입증에 활용합니다.</li>\n<li><strong>공증 또는 증거보전</strong> — 중요한 발언은 공증인 사무소에서 공증을 받거나 법원 증거보전 신청을 활용합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 상대방이 대화를 삭제할 가능성이 있으므로 발견 즉시 모든 자료를 백업하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">단체방 명예훼손은 대화 내용의 원본 보존이 가장 중요하며, 증거 확보 방식에 따라 증명력이 달라집니다.</strong></p>\n<ul>\n<li><strong>전체 맥락 캡처</strong> — 문제 발언뿐 아니라 전후 맥락을 포함해 캡처할 수 있습니다. 맥락이 없으면 발언의 의미가 왜곡 해석될 수 있습니다.</li>\n<li><strong>화면 녹화</strong> — 스크롤을 포함한 화면 녹화로 연속성을 보존하면 증명력이 높아집니다.</li>\n<li><strong>참여자 명단 확인</strong> — 단톡방 참여자 수·목록을 캡처해 공연성 입증에 활용합니다.</li>\n<li><strong>공증 또는 증거보전</strong> — 중요한 발언은 공증인 사무소에서 공증을 받거나 법원 증거보전 신청을 활용합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 상대방이 대화를 삭제할 가능성이 있으므로 발견 즉시 모든 자료를 백업하세요.</blockquote>',
       },
       {
         title: '고소·합의·민사 병행',
