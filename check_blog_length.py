@@ -91,6 +91,7 @@ CTA_TABLE: dict[str, tuple[str, str]] = {
     "bankruptcy": ("파산 면책 가능성, AI로 점검하기", "/chat?domain=bankruptcy"),
     "assault": ("폭행 증거 수집 순서, AI로 정리하기", "/chat?domain=assault"),
     "sex-crime": ("성범죄 피해 대응 순서, AI로 정리하기", "/chat?domain=sex-crime"),
+    "industrial-accident": ("산재 인정 가능성, AI로 점검하기", "/chat?domain=industrial-accident"),
 }
 
 KB_ROOT = Path("kb")

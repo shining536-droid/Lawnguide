@@ -113,7 +113,7 @@ export const spokesBatch48Traffic: SpokePage[] = [
       {
         title: 'Q. 사고 후 자리를 뜨면 무조건 뺑소니인가요?',
         content:
-          '<p><strong style="color:#1e3a5f">A. 도주 의사가 인정되어야 뺑소니가 성립합니다. 단순히 자리를 떴다고 모두 처벌되는 것은 아닙니다.</strong></p>\n<ul>\n<li><strong>특정범죄가중처벌법 제5조의3</strong> — 사고 후 도주(뺑소니)는 가중처벌 대상이지만 "도주 의사" 가 핵심 요건입니다.</li>\n<li><strong>도주의 객관적 요소</strong> — 사상자 구호 미조치, 신원 확인 회피, 현장 이탈 등이 종합 판단됩니다.</li>\n<li><strong>도주 부정 사례</strong> — 상대방과 인적사항 교환, 보험사 호출, 단순한 위치 이동 등은 도주가 아닐 소지가 있습니다.</li>\n<li><strong>혐의를 받고 있다면</strong> 즉시 사실관계와 도주 의사 부인 자료부터 정리하는 것이 우선입니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "도주 의사 없음"을 입증할 객관적 자료(통화기록·블랙박스·증언) 가 사건의 결과를 가르는 분기점입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. 도주 의사가 인정되어야 뺑소니가 성립할 수 있습니다. 단순히 자리를 떴다고 모두 처벌되는 것은 아닙니다.</strong></p>\n<ul>\n<li><strong>특정범죄가중처벌법 제5조의3</strong> — 사고 후 도주(뺑소니)는 가중처벌 대상이지만 "도주 의사" 가 핵심 요건입니다.</li>\n<li><strong>도주의 객관적 요소</strong> — 사상자 구호 미조치, 신원 확인 회피, 현장 이탈 등이 종합 판단됩니다.</li>\n<li><strong>도주 부정 사례</strong> — 상대방과 인적사항 교환, 보험사 호출, 단순한 위치 이동 등은 도주가 아닐 소지가 있습니다.</li>\n<li><strong>혐의를 받고 있다면</strong> 즉시 사실관계와 도주 의사 부인 자료부터 정리하는 것이 우선입니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "도주 의사 없음"을 입증할 객관적 자료(통화기록·블랙박스·증언) 가 사건의 결과를 가르는 분기점입니다.</blockquote>',
       },
       {
         title: 'Q. 어떤 자료로 도주 의사가 없었음을 입증할 수 있나요?',
@@ -244,7 +244,7 @@ export const spokesBatch48Traffic: SpokePage[] = [
           '<strong>사망사고는 결격기간 5년, 일반 취소는 1년이 통상입니다.</strong> 결격기간이 끝나도 운전면허 시험을 다시 봐야 해요.',
       },
       {
-        question: '기소되면 무조건 실형인가요?',
+        question: '기소되면 원칙적으로 실형인가요?',
         answer:
           '<strong>아닙니다.</strong> 합의·초범·반성 등이 인정되면 벌금 또는 집행유예로 처리되는 사례가 많습니다. 양형 자료에 따라 결과가 크게 달라져요.',
       },
@@ -289,7 +289,7 @@ export const spokesBatch48Traffic: SpokePage[] = [
       {
         title: '합의금 산정 기준과 보험사의 역할',
         content:
-          '<p><strong style="color:#1e3a5f">합의금은 보험사 대인배상 + 형사합의금으로 이원화됩니다.</strong></p>\n<ul>\n<li><strong>보험사 대인배상</strong> — 치료비·일실수입·위자료를 보험사가 약관에 따라 지급, 가해자 부담 없음.</li>\n<li><strong>형사합의금</strong> — 처벌불원 의사를 받기 위한 별도 금액, 보험사 배상과 별개로 가해자가 부담.</li>\n<li><strong>형사합의금 수준</strong> — 사건별 차이 크지만 경상 200만~500만 원, 중상해 1,000만~3,000만 원 수준이 검토되는 사례가 있습니다.</li>\n<li><strong>합의서 문구</strong> — "처벌을 원치 않습니다"가 명시되어야 양형 효과가 인정됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 합의금이 부담스럽다면 분할 지급도 가능하지만, 처벌불원 의사가 합의금 완납 조건부면 양형 효과가 늦어질 소지가 있어요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의금은 보험사 대인배상 + 형사합의금으로 이원화됩니다.</strong></p>\n<ul>\n<li><strong>보험사 대인배상</strong> — 치료비·일실수입·위자료를 보험사가 약관에 따라 지급, 가해자 부담 없음.</li>\n<li><strong>형사합의금</strong> — 처벌불원 의사를 받기 위한 별도 금액, 보험사 배상과 별개로 가해자가 부담.</li>\n<li><strong>형사합의금 수준</strong> — 사건별 차이 크지만 경상 200만~500만 원, 중상해 1,000만~3,000만 원 수준이 검토되는 사례가 있습니다.</li>\n<li><strong>합의서 문구</strong> — "처벌을 원치 않습니다"가 명시되어야 양형 효과가 인정될 수 있습니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 합의금이 부담스럽다면 분할 지급도 가능하지만, 처벌불원 의사가 합의금 완납 조건부면 양형 효과가 늦어질 소지가 있어요.</blockquote>',
       },
       {
         title: '📌 이렇게 진행됩니다 — 12대 중과실 사건 처리 흐름',
@@ -317,7 +317,7 @@ export const spokesBatch48Traffic: SpokePage[] = [
           '<strong>형사합의금은 보험사 약관 대상이 아니라 가해자 본인이 부담하는 것이 원칙입니다.</strong> 다만 일부 특약(형사합의금 지원)이 있으면 일정 한도까지 지급되는 경우도 있습니다.',
       },
       {
-        question: '합의 안 하면 무조건 실형인가요?',
+        question: '합의 안 하면 원칙적으로 실형인가요?',
         answer:
           '<strong>아닙니다.</strong> 결과의 중대성·전과·반성 등 양형 요소가 종합 판단되며, 경상에 초범이면 벌금형으로 처리되는 사례도 많습니다.',
       },

@@ -338,7 +338,7 @@ export const spokesBatch47WageUnemp: SpokePage[] = [
       {
         question: '실업급여를 받으면서 구직활동을 하지 않아도 되나요?',
         answer:
-          '<strong>반드시 구직활동을 해야 합니다.</strong> 실업인정일마다 구직활동 내용(구직 지원서 제출, 취업 상담 등)을 보고해야 급여가 지급됩니다. 미이행 시 해당 기간 급여가 지급되지 않을 수 있습니다.',
+          '<strong>가능한 한 구직활동을 해야 합니다.</strong> 실업인정일마다 구직활동 내용(구직 지원서 제출, 취업 상담 등)을 보고해야 급여가 지급됩니다. 미이행 시 해당 기간 급여가 지급되지 않을 수 있습니다.',
       },
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
@@ -422,7 +422,7 @@ export const spokesBatch47WageUnemp: SpokePage[] = [
       {
         question: '직장 내 괴롭힘으로 정당이직이 인정되면 피보험 단위기간 요건도 면제되나요?',
         answer:
-          '<strong>면제되지 않습니다.</strong> 정당이직이 인정돼도 이직 전 18개월 내 피보험 단위기간 180일 이상(고용보험법 제40조)은 반드시 충족해야 구직급여를 받을 수 있습니다.',
+          '<strong>면제되지 않습니다.</strong> 정당이직이 인정돼도 이직 전 18개월 내 피보험 단위기간 180일 이상(고용보험법 제40조)은 가능한 한 충족해야 구직급여를 받을 수 있습니다.',
       },
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },

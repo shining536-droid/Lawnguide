@@ -47,7 +47,7 @@ export const spokesBatch48Misc: SpokePage[] = [
       {
         title: '흔한 실수 — 통산 청구를 막는 함정',
         content:
-          '<p><strong style="color:#1e3a5f">아래 3가지를 피하면 청구가 훨씬 수월해집니다.</strong></p>\n<ul>\n<li><strong>회사가 만든 "전환 동의서" 무심코 서명</strong> — "전환 시 이전 기간을 정산받음에 동의함" 같은 문구가 들어 있으면 후일 분쟁의 빌미가 됩니다. 서명 전 반드시 노동상담을 받아보는 것이 좋습니다.</li>\n<li><strong>중간정산을 받았다고만 알고 동의서·수령액을 확인 안 함</strong> — 적법 중간정산이 아니면 효력이 없을 수 있습니다. 동의서·실수령액 영수증을 확인하세요.</li>\n<li><strong>퇴직금 청구권 시효 3년 경과</strong> — 퇴직일로부터 3년 내에 청구해야 합니다. 시효가 임박했다면 내용증명으로 시효 중단 조치를 우선 검토하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 무료 상담은 대한법률구조공단 132 또는 고용노동부 1350에서 받아보실 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">아래 3가지를 피하면 청구가 훨씬 수월해집니다.</strong></p>\n<ul>\n<li><strong>회사가 만든 "전환 동의서" 무심코 서명</strong> — "전환 시 이전 기간을 정산받음에 동의함" 같은 문구가 들어 있으면 후일 분쟁의 빌미가 됩니다. 서명 전 가능한 한 노동상담을 받아보는 것이 좋습니다.</li>\n<li><strong>중간정산을 받았다고만 알고 동의서·수령액을 확인 안 함</strong> — 적법 중간정산이 아니면 효력이 없을 수 있습니다. 동의서·실수령액 영수증을 확인하세요.</li>\n<li><strong>퇴직금 청구권 시효 3년 경과</strong> — 퇴직일로부터 3년 내에 청구해야 합니다. 시효가 임박했다면 내용증명으로 시효 중단 조치를 우선 검토하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 무료 상담은 대한법률구조공단 132 또는 고용노동부 1350에서 받아보실 수 있습니다.</blockquote>',
       },
     ],
     cases: [

@@ -279,7 +279,7 @@ export const spokesBatch47Traffic: SpokePage[] = [
       {
         title: '합의 전 — 후유증 증상이 있으면 치료를 먼저 완료하세요',
         content:
-          '<p><strong style="color:#1e3a5f">합의는 치료 종결 후 하는 것이 원칙입니다. 치료가 남은 상태에서 합의하면 추가 청구가 어렵습니다.</strong></p>\n<ul>\n<li><strong>치료 종결 시기</strong> — 증상이 남아 있으면 "향후 치료비 및 후유장해" 항목을 합의서에 포함시키거나 합의를 미뤄야 합니다.</li>\n<li><strong>후유장해 진단서</strong> — 치료 종결 후 정형외과·신경외과에서 후유장해 진단서 발급(보험사 제출용, 자동차보험 ABI 기준).</li>\n<li><strong>MRI·CT 검사</strong> — 저속이라도 경추·요추 CT·MRI 결과가 있으면 손해 입증이 훨씬 강해집니다.</li>\n<li><strong>합의서 문언 확인</strong> — "향후 어떠한 청구도 하지 않겠다"는 포괄 합의서는 후유증 청구를 막을 수 있으니 문구를 반드시 확인하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 합의서에 "현재 나타난 증상에 한정"하는 문구를 넣거나, 치료 완료 후 합의하는 것이 가장 안전합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의는 치료 종결 후 하는 것이 원칙입니다. 치료가 남은 상태에서 합의하면 추가 청구가 어렵습니다.</strong></p>\n<ul>\n<li><strong>치료 종결 시기</strong> — 증상이 남아 있으면 "향후 치료비 및 후유장해" 항목을 합의서에 포함시키거나 합의를 미뤄야 합니다.</li>\n<li><strong>후유장해 진단서</strong> — 치료 종결 후 정형외과·신경외과에서 후유장해 진단서 발급(보험사 제출용, 자동차보험 ABI 기준).</li>\n<li><strong>MRI·CT 검사</strong> — 저속이라도 경추·요추 CT·MRI 결과가 있으면 손해 입증이 훨씬 강해집니다.</li>\n<li><strong>합의서 문언 확인</strong> — "향후 어떠한 청구도 하지 않겠다"는 포괄 합의서는 후유증 청구를 막을 수 있으니 문구를 가능한 한 확인하세요.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 합의서에 "현재 나타난 증상에 한정"하는 문구를 넣거나, 치료 완료 후 합의하는 것이 가장 안전합니다.</blockquote>',
       },
       {
         title: '이미 합의했다면 — 취소·추가 청구 가능한가요?',
@@ -319,7 +319,7 @@ export const spokesBatch47Traffic: SpokePage[] = [
       {
         question: '한의원 치료비도 보험 처리가 되나요?',
         answer:
-          '<strong>자동차보험 대인배상에서 한방 치료비도 통상 인정됩니다.</strong> 단, 과다 청구로 의심받지 않도록 치료기록을 성실하게 유지하는 것이 중요합니다.',
+          '<strong>자동차보험 대인배상에서 한방 치료비도 통상 인정될 수 있습니다.</strong> 단, 과다 청구로 의심받지 않도록 치료기록을 성실하게 유지하는 것이 중요합니다.',
       },
       {
         question: '치료 종결 전 보험사가 합의를 압박하면 어떻게 해야 하나요?',
@@ -405,7 +405,7 @@ export const spokesBatch47Traffic: SpokePage[] = [
           '<strong>사건별로 다르지만 통상 10~20% 과실상계 적용 사례가 있습니다.</strong> 과실 여부는 사고 경위와 결합해 종합 판단됩니다.',
       },
       {
-        question: '동승자가 합의 없이 무조건 소송하면 어떻게 하나요?',
+        question: '동승자가 합의 없이 원칙적으로 소송하면 어떻게 하나요?',
         answer:
           '<strong>보험사가 소송에 응대하고 법원이 과실과 손해를 판단합니다.</strong> 대인배상 한도 내라면 개인 부담 없이 처리되는 경우가 많아요.',
       },

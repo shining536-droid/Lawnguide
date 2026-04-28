@@ -10599,5 +10599,53 @@
     "type": "도박채무면책형",
     "channel": "blog",
     "slug": "rehabilitation-gambling-debt-blog"
+  },
+  {
+    "판례ID": "2020도5813",
+    "domain": "defamation",
+    "perspective": "victim",
+    "type": "Q&A형",
+    "channel": "seo",
+    "slug": "defamation-group-chat-insult-evidence"
+  },
+  {
+    "판례ID": "2018도15868",
+    "domain": "defamation",
+    "perspective": "victim",
+    "type": "비교형",
+    "channel": "seo",
+    "slug": "defamation-online-comment-information-network-act"
+  },
+  {
+    "판례ID": "2014고정1619",
+    "domain": "defamation",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "defamation-anonymous-board-ip-tracking"
+  },
+  {
+    "판례ID": "2023다258672",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "jeonse-one-month-notice-implicit-renewal"
+  },
+  {
+    "판례ID": "2021다251929",
+    "domain": "jeonse",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "jeonse-landlord-sold-deposit-successor-liability"
+  },
+  {
+    "판례ID": "2025으517",
+    "domain": "child-support",
+    "perspective": "victim",
+    "type": "절차형",
+    "channel": "seo",
+    "slug": "child-support-enforcement-attach-imprison"
   }
 ]

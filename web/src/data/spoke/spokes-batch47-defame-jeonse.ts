@@ -227,7 +227,7 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
     ],
     faq: [
       {
-        question: '상대방 동의 없이 대화 캡처를 올리면 무조건 위법인가요?',
+        question: '상대방 동의 없이 대화 캡처를 올리면 원칙적으로 위법인가요?',
         answer:
           '<strong>당연히 위법이라고 단정할 수는 없습니다.</strong> 공익성·진실성이 인정되면 위법성이 조각될 수 있으나, 사적 대화는 공익성 인정 범위가 좁아 신중해야 해요.',
       },
@@ -277,7 +277,7 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
       {
         title: '임대인 파산 시 보증금 회수 구조 이해',
         content:
-          '<p><strong style="color:#1e3a5f">파산 절차에서 임차인 보증금은 아래 우선순위로 회수 경로가 결정됩니다.</strong></p>\n<ul>\n<li><strong>소액임차인 최우선변제</strong> — 주택임대차보호법 제8조. 지역별 소액보증금 한도 내 금액은 파산 배당에서 다른 채권자보다 우선. 서울 기준 5,500만원 이하 보증금의 경우 1,650만원까지 최우선변제 검토 가능.</li>\n<li><strong>확정일자 우선변제</strong> — 대항요건(전입신고+점유) + 확정일자를 갖춘 임차인은 후순위 채권자보다 우선해 보증금 변제.</li>\n<li><strong>일반 파산채권</strong> — 위 두 요건 미충족 시 일반 채권자와 동순위 → 배당 비율만큼 회수.</li>\n<li><strong>HUG 보증보험 가입자</strong> — 전세보증금반환보증에 가입된 경우 HUG 이행청구로 별도 회수 가능 (파산 무관).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 전입신고·점유 유지·확정일자 3가지가 우선변제권을 지키는 기본 조건입니다. 이사 전 임차권등기명령을 반드시 마쳐야 합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">파산 절차에서 임차인 보증금은 아래 우선순위로 회수 경로가 결정됩니다.</strong></p>\n<ul>\n<li><strong>소액임차인 최우선변제</strong> — 주택임대차보호법 제8조. 지역별 소액보증금 한도 내 금액은 파산 배당에서 다른 채권자보다 우선. 서울 기준 5,500만원 이하 보증금의 경우 1,650만원까지 최우선변제 검토 가능.</li>\n<li><strong>확정일자 우선변제</strong> — 대항요건(전입신고+점유) + 확정일자를 갖춘 임차인은 후순위 채권자보다 우선해 보증금 변제.</li>\n<li><strong>일반 파산채권</strong> — 위 두 요건 미충족 시 일반 채권자와 동순위 → 배당 비율만큼 회수.</li>\n<li><strong>HUG 보증보험 가입자</strong> — 전세보증금반환보증에 가입된 경우 HUG 이행청구로 별도 회수 가능 (파산 무관).</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 전입신고·점유 유지·확정일자 3가지가 우선변제권을 지키는 기본 조건입니다. 이사 전 임차권등기명령을 가능한 한 마쳐야 합니다.</blockquote>',
       },
       {
         title: '📌 이렇게 진행됩니다 — HUG·KLAC 절차 통합',
@@ -287,7 +287,7 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
       {
         title: '준비서류 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">파산 절차 참가와 HUG 이행청구에 필요한 서류를 미리 준비하세요.</strong></p>\n<ul>\n<li><strong>임차권등기명령 신청</strong> — 임차권등기명령 신청서 + 전세계약서(확정일자 날인) + 주민등록등본 또는 초본 + 건물등기부등본 + 계약 종료 증명자료(내용증명·문자).</li>\n<li><strong>파산채권 신고</strong> — 채권신고서 + 전세계약서 + 확정일자 증명 + 임차권등기 완료 등기부등본.</li>\n<li><strong>HUG 이행청구</strong> — 이행청구서 + 전세계약서 + 임차권등기 완료 등기부등본 + 주민등록등본(발급 1개월 이내) + 보증 가입증서. 청구 후 24시간 이내 서류 제출 권장.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">⚠️ 흔한 실수: 파산관재인 선임 이후 임의로 이사하면 대항력이 소멸해 우선변제권을 잃을 수 있습니다. 이사 전 반드시 임차권등기를 완료하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">파산 절차 참가와 HUG 이행청구에 필요한 서류를 미리 준비하세요.</strong></p>\n<ul>\n<li><strong>임차권등기명령 신청</strong> — 임차권등기명령 신청서 + 전세계약서(확정일자 날인) + 주민등록등본 또는 초본 + 건물등기부등본 + 계약 종료 증명자료(내용증명·문자).</li>\n<li><strong>파산채권 신고</strong> — 채권신고서 + 전세계약서 + 확정일자 증명 + 임차권등기 완료 등기부등본.</li>\n<li><strong>HUG 이행청구</strong> — 이행청구서 + 전세계약서 + 임차권등기 완료 등기부등본 + 주민등록등본(발급 1개월 이내) + 보증 가입증서. 청구 후 24시간 이내 서류 제출 권장.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">⚠️ 흔한 실수: 파산관재인 선임 이후 임의로 이사하면 대항력이 소멸해 우선변제권을 잃을 수 있습니다. 이사 전 가능한 한 임차권등기를 완료하세요.</blockquote>',
       },
       {
         title: '파산 면책 결정 후에도 보증금 청구가 가능한가요?',
@@ -318,7 +318,7 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
       {
         question: '파산채권 신고 기한을 놓치면 어떻게 되나요?',
         answer:
-          '<strong>파산채권 신고 기한을 넘기면 배당에서 제외될 수 있습니다.</strong> 파산관재인이 통지한 채권신고 기한을 반드시 확인하고 기한 내 신고하세요.',
+          '<strong>파산채권 신고 기한을 넘기면 배당에서 제외될 수 있습니다.</strong> 파산관재인이 통지한 채권신고 기한을 가능한 한 확인하고 기한 내 신고하세요.',
       },
       {
         question: 'HUG 이행청구와 파산채권 신고를 동시에 해도 되나요?',
@@ -361,7 +361,7 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
       {
         title: 'Q. 임대인이 실거주를 이유로 갱신을 거절할 수 있는 요건은?',
         content:
-          '<p><strong style="color:#1e3a5f">A. 주택임대차보호법 제6조의3 제1항 제8호에 따라 아래 요건이 충족될 때만 거절이 가능합니다.</strong></p>\n<ul>\n<li><strong>실거주 주체</strong> — 임대인 본인, 직계존속, 직계비속이 실제 거주할 경우만 인정. 형제·지인은 불가.</li>\n<li><strong>통지 기한</strong> — 계약 만료 6개월~2개월 전 사이에 갱신 거절 의사를 통지해야 유효. 이 기간을 넘기면 자동갱신.</li>\n<li><strong>실거주 이행</strong> — 거절 후 실제로 입주해야 하며, 제3자에게 임대하면 손해배상 의무 발생.</li>\n<li><strong>임차인 우선갱신권</strong> — 임차인은 최초 2년 + 1회 2년(총 4년)의 갱신 청구권이 있어, 이 기간 내 갱신 거절은 엄격히 제한됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 통지 시기와 실거주 의무 이행 여부 두 가지를 반드시 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. 주택임대차보호법 제6조의3 제1항 제8호에 따라 아래 요건이 충족될 때만 거절이 가능합니다.</strong></p>\n<ul>\n<li><strong>실거주 주체</strong> — 임대인 본인, 직계존속, 직계비속이 실제 거주할 경우만 인정. 형제·지인은 불가.</li>\n<li><strong>통지 기한</strong> — 계약 만료 6개월~2개월 전 사이에 갱신 거절 의사를 통지해야 유효. 이 기간을 넘기면 자동갱신.</li>\n<li><strong>실거주 이행</strong> — 거절 후 실제로 입주해야 하며, 제3자에게 임대하면 손해배상 의무 발생.</li>\n<li><strong>임차인 우선갱신권</strong> — 임차인은 최초 2년 + 1회 2년(총 4년)의 갱신 청구권이 있어, 이 기간 내 갱신 거절은 엄격히 제한됩니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 통지 시기와 실거주 의무 이행 여부 두 가지를 가능한 한 확인하세요.</blockquote>',
       },
       {
         title: 'Q. 이주비·중개수수료·이사비를 청구할 수 있나요?',
@@ -397,7 +397,7 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
       {
         question: '임대인 직계비속이 입주하겠다고 하는 경우도 갱신 거절 사유가 되나요?',
         answer:
-          '<strong>직계존속·직계비속은 갱신 거절 사유에 해당합니다.</strong> 다만 실제로 입주했는지를 이후에 확인해야 허위 거절 여부를 판단할 수 있어요.',
+          '<strong>직계존속·직계비속은 갱신 거절 사유에 해당할 소지가 있습니다.</strong> 다만 실제로 입주했는지를 이후에 확인해야 허위 거절 여부를 판단할 수 있어요.',
       },
       {
         question: '갱신 기간 2년이 아직 남아있는데 임대인이 갱신을 거절한다고요',

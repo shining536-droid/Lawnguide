@@ -46,6 +46,10 @@ CATEGORIES = {
     "005": {"name": "민사일반", "domains": ["small-claims"]},
     "010": {"name": "민사소송", "domains": ["small-claims"]},
     "011": {"name": "친척", "domains": ["child-support", "divorce"]},
+    "008": {"name": "계약", "domains": ["fraud", "jeonse", "sangga", "real-estate-sale"]},
+    "007": {"name": "채권", "domains": ["fraud", "small-claims"]},
+    "013": {"name": "가사소송", "domains": ["divorce", "child-support"]},
+    "015": {"name": "민사집행", "domains": ["small-claims", "fraud"]},
 }
 
 PRIORITY_1 = ["018", "019", "001"]

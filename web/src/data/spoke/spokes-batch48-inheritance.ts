@@ -127,7 +127,7 @@ export const spokesBatch48Inheritance: SpokePage[] = [
       {
         title: 'Q. 유류분 청구는 언제까지 해야 하나요?',
         content:
-          '<p><strong style="color:#1e3a5f">A. "안 날" 1년, 상속개시 후 10년이 최종 기한입니다. 시효 관리가 핵심입니다.</strong></p>\n<ul>\n<li><strong>주관적 기한 (안 날 1년)</strong> — 유류분 침해 사실(증여·유증 등)을 안 날부터 1년 내 청구. 사망 사실만 안 것으로는 부족하고 침해 사실을 인지해야 시작.</li>\n<li><strong>객관적 기한 (10년)</strong> — 상속개시일(피상속인 사망일)부터 10년이 최종 기한. 침해 사실을 몰라도 10년이 지나면 청구권 소멸.</li>\n<li><strong>청구 방법</strong> — 내용증명으로 반환청구 의사 통지 후 협의. 불응 시 가정법원 유류분 반환청구 소송.</li>\n<li><strong>2024년 헌재 결정</strong> — 형제자매 유류분 조항 위헌 결정으로 형제자매 간 유류분은 더 이상 인정 안 됨. 자녀·배우자·부모는 그대로 유지.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "곧 협의하자"고 말로만 하다가 1년이 지나면 청구권이 소멸할 소지가 있습니다. 의사 표시는 반드시 내용증명으로 남기는 것이 안전합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. "안 날" 1년, 상속개시 후 10년이 최종 기한입니다. 시효 관리가 핵심입니다.</strong></p>\n<ul>\n<li><strong>주관적 기한 (안 날 1년)</strong> — 유류분 침해 사실(증여·유증 등)을 안 날부터 1년 내 청구. 사망 사실만 안 것으로는 부족하고 침해 사실을 인지해야 시작.</li>\n<li><strong>객관적 기한 (10년)</strong> — 상속개시일(피상속인 사망일)부터 10년이 최종 기한. 침해 사실을 몰라도 10년이 지나면 청구권 소멸.</li>\n<li><strong>청구 방법</strong> — 내용증명으로 반환청구 의사 통지 후 협의. 불응 시 가정법원 유류분 반환청구 소송.</li>\n<li><strong>2024년 헌재 결정</strong> — 형제자매 유류분 조항 위헌 결정으로 형제자매 간 유류분은 더 이상 인정 안 됨. 자녀·배우자·부모는 그대로 유지.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: "곧 협의하자"고 말로만 하다가 1년이 지나면 청구권이 소멸할 소지가 있습니다. 의사 표시는 가능한 한 내용증명으로 남기는 것이 안전합니다.</blockquote>',
       },
     ],
     cases: [
@@ -318,7 +318,7 @@ export const spokesBatch48Inheritance: SpokePage[] = [
       {
         question: '예금이 적은데 채권자가 많아요. 안 갚아도 되나요?',
         answer:
-          '<strong>한정승인을 했다면 상속재산 한도까지만 변제하면 됩니다.</strong> 부족분은 변제 의무 없이 면책되지만 절차(공고·안분)는 반드시 거쳐야 효력이 유지됩니다.',
+          '<strong>한정승인을 했다면 상속재산 한도까지만 변제하면 됩니다.</strong> 부족분은 변제 의무 없이 면책되지만 절차(공고·안분)는 가능한 한 거쳐야 효력이 유지됩니다.',
       },
       {
         question: '청산 후 새 채권자가 나타나면 어떻게 하나요?',
