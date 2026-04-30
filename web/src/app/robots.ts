@@ -6,7 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: '/diagnosis/',
       },
     ],
     sitemap: 'https://www.lawnguide.co.kr/sitemap.xml',
