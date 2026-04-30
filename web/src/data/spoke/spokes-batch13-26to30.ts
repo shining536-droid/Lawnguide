@@ -293,7 +293,7 @@ export const spokesBatch13Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '소액소송 진단하기', href: '/diagnosis/small-claims' },
       { label: '소액소송 가이드', href: '/guide/small-claims' },
-      { label: '소액소송 소장 양식', href: '/spoke/small-claims/complaint-form-template-and-example' },
+      { label: '소액소송 소장 양식', href: '/guide/small-claims/small-claims-complaint-template' },
       { label: '소액소송 vs 지급명령 비교', href: '/spoke/small-claims/small-claims-vs-payment-order-comparison' },
       { label: '빌려준 돈 소액소송 방법', href: '/spoke/small-claims/lending-money-not-returned-lawsuit' }
     ]

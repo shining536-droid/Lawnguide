@@ -120,6 +120,11 @@ const nextConfig = {
         destination: '/guide/child-sex-crime/mandatory-reporting-procedure',
         permanent: true,
       },
+      {
+        source: '/spoke/:path*',
+        destination: '/guide/:path*',
+        permanent: true,
+      },
     ];
   },
 
