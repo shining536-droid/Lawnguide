@@ -332,7 +332,7 @@ export const spokesBatch10Pages11to15: SpokePage[] = [
   {
     domain: 'stalking',
     slug: 'stalking-accused-where-to-start',
-    keyword: '스토킹 고소당했을때',
+    keyword: '스토킹 고소당했을 때',
     questionKeyword: '스토킹으로 고소당했을 때 어디부터 해야 하나요?',
     ctaKeyword: '스토킹 고소 대응 방법 확인',
     type: '어디부터형',
