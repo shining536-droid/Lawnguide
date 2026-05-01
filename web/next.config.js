@@ -121,6 +121,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/guide/unemployment/voluntary-resignation-benefit-possible',
+        destination: '/guide/unemployment/unemployment-voluntary-quit-benefits',
+        permanent: true,
+      },
+      {
         source: '/spoke/:path*',
         destination: '/guide/:path*',
         permanent: true,

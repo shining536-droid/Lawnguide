@@ -245,6 +245,8 @@ export const spokesBatch18_26to30: SpokePage[] = [
       { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
     ],
   },
+  // ─── voluntary-resignation-benefit-possible — REMOVED 2026-05-01 (canonical = unemployment-voluntary-quit-benefits, redirect added in next.config.js) ───
+  /*
   {
     domain: 'unemployment',
     slug: 'voluntary-resignation-benefit-possible',
@@ -322,6 +324,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       { label: '실업급여 신청 기간 놓치면 못 받는 함정', href: '/guide/unemployment/missing-application-deadline-trap' },
     ],
   },
+  */
   {
     domain: 'wage',
     slug: 'unpaid-wage-3year-limitation',
