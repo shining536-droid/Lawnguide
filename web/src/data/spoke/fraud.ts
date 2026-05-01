@@ -1635,7 +1635,9 @@ export const fraudPages: SpokePage[] = [
       { label: '폭행 첫 대응 가이드', href: '/guide/assault/assault-charged-first-response' },
     ],
   },
-  {
+    // ─── fraud-charge-rebuttal — REMOVED 2026-05-01 (canonical = fraud-accused-defense-strategy-guide, redirect added in next.config.js) ───
+  /*
+{
     domain: 'fraud',
     slug: 'fraud-charge-rebuttal',
     keyword: '사기 혐의를 받았을 때 반박하는 방법',
@@ -1732,4 +1734,5 @@ export const fraudPages: SpokePage[] = [
       { label: '채무불이행과 사기 구별 체크리스트', href: '/guide/fraud/loan-default-vs-fraud-checklist' },
     ],
   },
+  */
 ];

@@ -9,7 +9,9 @@ import { SpokePage } from '../spoke-pages';
 
 export const spokesBatch42Nonlabor3: SpokePage[] = [
   // ─── 1. child-support / child-support-direct-payment-order-procedure ───
-  {
+    // ─── child-support-direct-payment-order-procedure — REMOVED 2026-05-01 (canonical = child-support-direct-payment-order-process, redirect added in next.config.js) ───
+  /*
+{
     domain: 'child-support',
     slug: 'child-support-direct-payment-order-procedure',
     keyword: '양육비 직접지급명령 신청 절차',
@@ -99,6 +101,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
       { label: '과거 양육비 소멸시효 정리', href: '/guide/child-support/child-support-overdue-collection' },
     ],
   },
+  */
 
   // ─── 2. rehabilitation / rehabilitation-post-approval-income-decrease-modify ───
   {

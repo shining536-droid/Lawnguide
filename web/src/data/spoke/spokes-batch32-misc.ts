@@ -238,7 +238,9 @@ export const spokesBatch32Misc: SpokePage[] = [
   },
 
   // ── 교통사고 4. 무단횡단 보행자 과실 비율 ──
-  {
+    // ─── traffic-accident-pedestrian-jaywalking-fault — REMOVED 2026-05-01 (canonical = traffic-accident-pedestrian-cross-jaywalk, redirect added in next.config.js) ───
+  /*
+{
     domain: 'traffic-accident',
     slug: 'traffic-accident-pedestrian-jaywalking-fault',
     keyword: '무단횡단 보행자 과실 비율',
@@ -310,6 +312,7 @@ export const spokesBatch32Misc: SpokePage[] = [
       { label: '과실 다툼 증거', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
     ],
   },
+  */
 
   // ── 교통사고 5. 대리운전·카풀 사고 책임 ──
   {

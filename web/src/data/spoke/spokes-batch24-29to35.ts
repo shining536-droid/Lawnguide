@@ -13,7 +13,9 @@ export const spokesBatch24_29to35: SpokePage[] = [
   // ───────────────────────────────────────────
   // 29. rehabilitation / rehabilitation-vs-bankruptcy-choice
   // ───────────────────────────────────────────
-  {
+    // ─── rehabilitation-vs-bankruptcy-choice — REMOVED 2026-05-01 (canonical = rehabilitation-vs-bankruptcy, redirect added in next.config.js) ───
+  /*
+{
     domain: 'rehabilitation',
     slug: 'rehabilitation-vs-bankruptcy-choice',
     keyword: '개인회생 파산 선택 기준',
@@ -104,6 +106,7 @@ export const spokesBatch24_29to35: SpokePage[] = [
       { label: '파산하면 집과 차를 잃나요', href: '/guide/bankruptcy/will-i-lose-house-and-car' },
     ],
   },
+  */
 
   // ───────────────────────────────────────────
   // 30. traffic-accident / accident-settlement-fair-amount

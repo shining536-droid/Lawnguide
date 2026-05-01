@@ -126,6 +126,36 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/guide/child-support/child-support-direct-payment-order-procedure',
+        destination: '/guide/child-support/child-support-direct-payment-order-process',
+        permanent: true,
+      },
+      {
+        source: '/guide/fraud/fraud-prosecution-procedure-overview',
+        destination: '/guide/fraud/fraud-complaint-procedure-comprehensive',
+        permanent: true,
+      },
+      {
+        source: '/guide/fraud/fraud-charge-rebuttal',
+        destination: '/guide/fraud/fraud-accused-defense-strategy-guide',
+        permanent: true,
+      },
+      {
+        source: '/guide/retirement/retirement-statute-expired-revival',
+        destination: '/guide/retirement/retirement-statute-of-limitations',
+        permanent: true,
+      },
+      {
+        source: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-choice',
+        destination: '/guide/rehabilitation/rehabilitation-vs-bankruptcy',
+        permanent: true,
+      },
+      {
+        source: '/guide/traffic-accident/traffic-accident-pedestrian-jaywalking-fault',
+        destination: '/guide/traffic-accident/traffic-accident-pedestrian-cross-jaywalk',
+        permanent: true,
+      },
+      {
         source: '/spoke/:path*',
         destination: '/guide/:path*',
         permanent: true,

@@ -409,7 +409,9 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
   },
 
   // ── 퇴직금 6. 소멸시효 도과 후 퇴직금 청구 ──
-  {
+    // ─── retirement-statute-expired-revival — REMOVED 2026-05-01 (canonical = retirement-statute-of-limitations, redirect added in next.config.js) ───
+  /*
+{
     domain: 'retirement',
     slug: 'retirement-statute-expired-revival',
     keyword: '퇴직금 소멸시효 지난 후 청구',
@@ -481,6 +483,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       { label: '퇴직금 중간정산', href: '/guide/retirement/retirement-interim-settlement-guide' },
     ],
   },
+  */
 
   // ── 임금체불 7. 성과급 임금성 미지급 청구 ──
   {

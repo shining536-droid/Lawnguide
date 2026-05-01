@@ -1,7 +1,9 @@
 import { SpokePage } from '../spoke-pages';
 
 export const spokesBatch12Part1Pages: SpokePage[] = [
-  {
+    // ─── fraud-prosecution-procedure-overview — REMOVED 2026-05-01 (canonical = fraud-complaint-procedure-comprehensive, redirect added in next.config.js) ───
+  /*
+{
     domain: 'fraud',
     slug: 'fraud-prosecution-procedure-overview',
     keyword: '사기죄 고소 절차 총정리',
@@ -93,6 +95,7 @@ export const spokesBatch12Part1Pages: SpokePage[] = [
       { label: '사기 유형별 식별 가이드', href: '/spoke/fraud/fraud-scam-identification-guide' },
     ],
   },
+  */
   {
     domain: 'fraud',
     slug: 'online-shopping-fraud-response',
