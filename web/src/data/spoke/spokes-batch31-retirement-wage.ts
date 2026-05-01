@@ -569,7 +569,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
     type: '수치기한형',
     perspective: 'victim',
     meta: {
-      title: '포괄임금 최저임금 미달 판단법과 차액 청구 3단계 | 로앤가이드',
+      title: '내 포괄임금이 최저임금 미달인가요? 판단·청구 정리 | 로앤가이드',
       description:
         '포괄임금으로 받는 급여가 최저임금에 미달하는 것 같아 걱정된다면, 판단 방법과 차액 청구법을 지금 확인하세요.',
     },
@@ -630,6 +630,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       { label: '임금체불 소멸시효', href: '/guide/wage/unpaid-wage-statute-of-limitations' },
       { label: '임금체불 지연이자', href: '/guide/wage/unpaid-wage-settlement-delayed-interest' },
       { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
+          { label: '포괄임금 최저임금 자가진단 4단계', href: '/guide/wage/wage-pogual-minimum-wage-test' },
     ],
   },
 

@@ -293,6 +293,7 @@ export const spokesBatch27Pogual_1to5: SpokePage[] = [
       { label: '포괄임금 초과근무 계산법', href: '/guide/wage/wage-pogual-overtime-calculation-method' },
       { label: '2026 포괄임금 지침 체크리스트', href: '/guide/wage/wage-pogual-2026-guideline-checklist' },
       { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
+          { label: '포괄임금 최저임금 미달 판단·청구 종합', href: '/guide/wage/unpaid-wage-minimum-wage-comprehensive' },
     ],
   },
 

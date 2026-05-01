@@ -6,7 +6,9 @@ import { SpokePage } from '../spoke-pages';
 
 export const spokesBatch32Misc: SpokePage[] = [
   // ── 임금체불 1. 야간·연장근로수당 정확한 계산법 ──
-  {
+    // ─── wage-night-overtime-exact-calculation — REMOVED 2026-05-01 (canonical = overtime-pay-calculation-claim, redirect added in next.config.js) ───
+  /*
+{
     domain: 'wage',
     slug: 'wage-night-overtime-exact-calculation',
     keyword: '야간 연장근로수당 정확한 계산법',
@@ -83,6 +85,7 @@ export const spokesBatch32Misc: SpokePage[] = [
       { label: '임금체불 진정 전 체크리스트', href: '/guide/wage/wage-complaint-pre-filing-checklist' },
     ],
   },
+  */
 
   // ── 임금체불 2. 사업주 재산 압류 임금 회수 ──
   {

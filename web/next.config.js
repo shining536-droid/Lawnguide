@@ -156,6 +156,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/guide/wage/wage-night-overtime-exact-calculation',
+        destination: '/guide/wage/overtime-pay-calculation-claim',
+        permanent: true,
+      },
+      {
         source: '/spoke/:path*',
         destination: '/guide/:path*',
         permanent: true,
