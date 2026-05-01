@@ -26,8 +26,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const spoke: MetadataRoute.Sitemap = SPOKE_PAGES.map((p) => ({
     url: `${baseUrl}/guide/${p.domain}/${p.slug}`,
     lastModified,
-    changeFrequency: 'weekly' as const,
-    priority: 0.6,
+    changeFrequency: 'daily' as const,
+    priority: 0.8,
   }));
 
   return [...home, ...guide, ...spoke];
