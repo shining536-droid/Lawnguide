@@ -5,6 +5,7 @@ import { isValidDomain, getDomainMeta } from '@/lib/domains';
 import { getSpokePage, getSpokePagesByDomain, SPOKE_PAGES } from '@/data/spoke-pages';
 import { loadProcedureForDomain } from '@/lib/procedure-data';
 import SpokeProcedureBlock from '@/components/SpokeProcedureBlock';
+import { inSameCluster, hasProcedure } from '@/lib/cluster';
 
 interface PageProps {
   params: { domain: string; slug: string };
@@ -44,7 +45,11 @@ export default function GuideSpokePage({ params }: PageProps) {
   const page = getSpokePage(params.domain, params.slug);
   if (!page) notFound();
   const domainMeta = getDomainMeta(params.domain);
-  const siblings = getSpokePagesByDomain(params.domain).filter((p) => p.slug !== params.slug);
+  const sameDomain = getSpokePagesByDomain(params.domain).filter((p) => p.slug !== params.slug);
+  const crossDomain = SPOKE_PAGES.filter(
+    (p) => p.domain !== params.domain && inSameCluster(params.domain, p.domain)
+  );
+  const siblings = [...sameDomain, ...crossDomain];
 
   // Structured Data: Article
   const articleJsonLd = {
@@ -301,43 +306,86 @@ export default function GuideSpokePage({ params }: PageProps) {
           </Link>
         </section>
 
-        {/* Related Spoke Pages - Smart Recommendations */}
+        {/* Related Spoke Pages - Smart Recommendations
+            ─ 같은 도메인 3개 + 같은 클러스터 cross-domain 2개 = 5개 추천
+            ─ 사용자가 자기 도메인 깊이 + 옆 도메인 탐색 동시에 가능
+            ─ score: same type +1, same perspective +1, has procedure +0.5, randomize +0.5 */}
         {siblings.length > 0 && (() => {
-          // Score siblings by relevance: same type > same perspective > different
-          const scored = siblings.map((s) => {
+          const scoreItem = (s: typeof page) => {
             let score = 0;
-            if (s.type === page.type) score += 2;
+            if (s.type === page.type) score += 1;
             if (s.perspective && page.perspective && s.perspective === page.perspective) score += 1;
-            // Randomize within same score for variety
+            if (hasProcedure(s.domain)) score += 0.5;
             score += Math.random() * 0.5;
-            return { ...s, score };
-          }).sort((a, b) => b.score - a.score);
-          const recommended = scored.slice(0, 3);
-          const rest = scored.slice(3);
+            return score;
+          };
+          // 같은 도메인 풀에서 top 3
+          const sameDomainScored = sameDomain
+            .map((s) => ({ ...s, score: scoreItem(s) + 2 /* same domain bonus */ }))
+            .sort((a, b) => b.score - a.score);
+          const sameDomainTop3 = sameDomainScored.slice(0, 3);
+
+          // cross-domain 풀에서 top 2
+          const crossDomainScored = crossDomain
+            .map((s) => ({ ...s, score: scoreItem(s) + 1.5 /* cross cluster bonus */ }))
+            .sort((a, b) => b.score - a.score);
+          const crossDomainTop2 = crossDomainScored.slice(0, 2);
+
+          // 더보기에는 같은 도메인 나머지
+          const sameDomainRest = sameDomainScored.slice(3);
+
           return (
             <section className="bg-white rounded-xl p-6 shadow-sm">
               <h2 className="text-lg font-semibold text-gray-900 mb-3">📌 이 글을 읽은 분이 함께 본 글</h2>
-              <ul className="space-y-3">
-                {recommended.map((s) => (
-                  <li key={s.slug}>
-                    <Link
-                      href={`/guide/${s.domain}/${s.slug}`}
-                      className="flex items-start gap-2 text-blue-600 hover:text-blue-800 hover:underline text-sm"
-                    >
-                      <span className="text-blue-400 mt-0.5">▸</span>
-                      <span>{s.questionKeyword || s.keyword}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              {rest.length > 0 && (
+              {sameDomainTop3.length > 0 && (
+                <ul className="space-y-3">
+                  {sameDomainTop3.map((s) => (
+                    <li key={`${s.domain}/${s.slug}`}>
+                      <Link
+                        href={`/guide/${s.domain}/${s.slug}`}
+                        className="flex items-start gap-2 text-blue-600 hover:text-blue-800 hover:underline text-sm"
+                      >
+                        <span className="text-blue-400 mt-0.5">▸</span>
+                        <span>{s.questionKeyword || s.keyword}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {crossDomainTop2.length > 0 && (
+                <>
+                  <h3 className="mt-5 mb-3 text-sm font-semibold text-gray-700">🔗 함께 검토하면 좋은 다른 분야 글</h3>
+                  <ul className="space-y-3">
+                    {crossDomainTop2.map((s) => {
+                      const otherDomainMeta = getDomainMeta(s.domain);
+                      return (
+                        <li key={`${s.domain}/${s.slug}`}>
+                          <Link
+                            href={`/guide/${s.domain}/${s.slug}`}
+                            className="flex items-start gap-2 text-blue-600 hover:text-blue-800 hover:underline text-sm"
+                          >
+                            <span className="text-blue-400 mt-0.5">▸</span>
+                            <span>
+                              <span className="inline-block px-1.5 py-0.5 mr-1.5 text-xs rounded bg-gray-100 text-gray-600">
+                                {otherDomainMeta?.name || s.domain}
+                              </span>
+                              {s.questionKeyword || s.keyword}
+                            </span>
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </>
+              )}
+              {sameDomainRest.length > 0 && (
                 <details className="mt-4">
                   <summary className="text-sm text-gray-500 cursor-pointer hover:text-gray-700">
-                    {domainMeta?.name} 관련 글 {rest.length}개 더보기
+                    {domainMeta?.name} 관련 글 {sameDomainRest.length}개 더보기
                   </summary>
                   <ul className="mt-2 space-y-2">
-                    {rest.map((s) => (
-                      <li key={s.slug}>
+                    {sameDomainRest.map((s) => (
+                      <li key={`${s.domain}/${s.slug}`}>
                         <Link
                           href={`/guide/${s.domain}/${s.slug}`}
                           className="text-blue-600 hover:underline text-sm"
