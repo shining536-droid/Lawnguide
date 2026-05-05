@@ -340,6 +340,19 @@ import { spokesBatch55Inheritance } from './spoke/spokes-batch55-inheritance';
 import { spokesBatch55Defamation } from './spoke/spokes-batch55-defamation';
 import { spokesBatch55JeonseStalking } from './spoke/spokes-batch55-jeonse-stalking';
 import { spokesBatch55AssaultCsDui } from './spoke/spokes-batch55-assault-cs-dui';
+import { spokesBatch56DismissalA } from './spoke/spokes-batch56-dismissal-a';
+import { spokesBatch56DismissalB } from './spoke/spokes-batch56-dismissal-b';
+import { spokesBatch56WageUnemp } from './spoke/spokes-batch56-wage-unemp';
+import { spokesBatch56Retire } from './spoke/spokes-batch56-retire';
+import { spokesBatch56FraudA } from './spoke/spokes-batch56-fraud-a';
+import { spokesBatch56FraudB } from './spoke/spokes-batch56-fraud-b';
+import { spokesBatch56TrafficA } from './spoke/spokes-batch56-traffic-a';
+import { spokesBatch56TrafficB } from './spoke/spokes-batch56-traffic-b';
+import { spokesBatch56Divorce } from './spoke/spokes-batch56-divorce';
+import { spokesBatch56Inheritance } from './spoke/spokes-batch56-inheritance';
+import { spokesBatch56Defamation } from './spoke/spokes-batch56-defamation';
+import { spokesBatch56JeonseStalking } from './spoke/spokes-batch56-jeonse-stalking';
+import { spokesBatch56AssaultCsDui } from './spoke/spokes-batch56-assault-cs-dui';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -637,6 +650,19 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch55Defamation,
   ...spokesBatch55JeonseStalking,
   ...spokesBatch55AssaultCsDui,
+  ...spokesBatch56DismissalA,
+  ...spokesBatch56DismissalB,
+  ...spokesBatch56WageUnemp,
+  ...spokesBatch56Retire,
+  ...spokesBatch56FraudA,
+  ...spokesBatch56FraudB,
+  ...spokesBatch56TrafficA,
+  ...spokesBatch56TrafficB,
+  ...spokesBatch56Divorce,
+  ...spokesBatch56Inheritance,
+  ...spokesBatch56Defamation,
+  ...spokesBatch56JeonseStalking,
+  ...spokesBatch56AssaultCsDui,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
