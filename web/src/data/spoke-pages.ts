@@ -326,6 +326,20 @@ import { spokesBatch54InheritanceDefamation } from './spoke/spokes-batch54-inher
 import { spokesBatch54WageUnempRetire } from './spoke/spokes-batch54-wage-unemp-retire';
 import { spokesBatch54JeonseStalkingAssaultCS } from './spoke/spokes-batch54-jeonse-stalking-assault-cs';
 import { spokesBatch54FairAllowance } from './spoke/spokes-batch54-fair-allowance';
+import { spokesBatch55DismissalA } from './spoke/spokes-batch55-dismissal-a';
+import { spokesBatch55DismissalB } from './spoke/spokes-batch55-dismissal-b';
+import { spokesBatch55WageUnemp } from './spoke/spokes-batch55-wage-unemp';
+import { spokesBatch55Retire } from './spoke/spokes-batch55-retire';
+import { spokesBatch55FraudA } from './spoke/spokes-batch55-fraud-a';
+import { spokesBatch55FraudB } from './spoke/spokes-batch55-fraud-b';
+import { spokesBatch55TrafficA } from './spoke/spokes-batch55-traffic-a';
+import { spokesBatch55TrafficB } from './spoke/spokes-batch55-traffic-b';
+import { spokesBatch55DivorceA } from './spoke/spokes-batch55-divorce-a';
+import { spokesBatch55DivorceB } from './spoke/spokes-batch55-divorce-b';
+import { spokesBatch55Inheritance } from './spoke/spokes-batch55-inheritance';
+import { spokesBatch55Defamation } from './spoke/spokes-batch55-defamation';
+import { spokesBatch55JeonseStalking } from './spoke/spokes-batch55-jeonse-stalking';
+import { spokesBatch55AssaultCsDui } from './spoke/spokes-batch55-assault-cs-dui';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -609,6 +623,20 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch54WageUnempRetire,
   ...spokesBatch54JeonseStalkingAssaultCS,
   ...spokesBatch54FairAllowance,
+  ...spokesBatch55DismissalA,
+  ...spokesBatch55DismissalB,
+  ...spokesBatch55WageUnemp,
+  ...spokesBatch55Retire,
+  ...spokesBatch55FraudA,
+  ...spokesBatch55FraudB,
+  ...spokesBatch55TrafficA,
+  ...spokesBatch55TrafficB,
+  ...spokesBatch55DivorceA,
+  ...spokesBatch55DivorceB,
+  ...spokesBatch55Inheritance,
+  ...spokesBatch55Defamation,
+  ...spokesBatch55JeonseStalking,
+  ...spokesBatch55AssaultCsDui,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
