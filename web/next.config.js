@@ -3,6 +3,30 @@ const nextConfig = {
   // output: 'standalone' 제거: Vercel 자체 번들러가 SSG/서버리스 분리 처리.
   // standalone 모드는 1253개 prerender 된 /guide/[domain]/[slug] 가 .next/server/app 에 모두 들어가
   // 서버리스 함수 번들 크기 219MB → 250MB 한도 초과 원인이었음 (2026-04-24).
+
+  // outputFileTracingExcludes: 함수 번들 NFT(File Tracing)에서 데이터 디렉토리를 명시적으로 제외.
+  // 정적 import 는 막지 못하지만, 4/26 procedure-data.ts 사고처럼 fs.readFileSync 또는 dynamic 라우트가
+  // 실수로 kb/, content/ 를 끌어오는 경우 폭발 반경을 축소하는 안전망. 0 위험, 패시브 보호.
+  // 패턴은 web/ 와 monorepo root 양쪽에서 매칭되도록 ../prefix 와 prefix 없는 형태 둘 다 포함.
+  experimental: {
+    outputFileTracingExcludes: {
+      '*': [
+        '../kb/**/*',
+        '../content/**/*',
+        '../scripts/**/*',
+        '../__pycache__/**/*',
+        '../*.py',
+        '../publish_*_results_*.json',
+        '../naver_cookies_*.json',
+        '../tistory_cookies_*.json',
+        'kb/**/*',
+        'content/**/*',
+        'scripts/**/*',
+        '__pycache__/**/*',
+      ],
+    },
+  },
+
   images: {
     formats: ['image/webp'],
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days
