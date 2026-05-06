@@ -189,6 +189,27 @@ const nextConfig = {
         destination: '/guide/:path*',
         permanent: true,
       },
+      // /spcke/ 오타 URL 정정 (2025년 외부 백링크에서 유입된 GSC 크롤링 흔적)
+      // 슬러그가 변경된 페이지는 명시적으로 새 슬러그로 매핑
+      {
+        source: '/spcke/small-claims/complaint-form-template-and-example',
+        destination: '/guide/small-claims/small-claims-complaint-template',
+        permanent: true,
+      },
+      // 나머지 /spcke/* 는 /guide/ 같은 슬러그로 fallback (slug 보존되는 케이스용)
+      {
+        source: '/spcke/:path*',
+        destination: '/guide/:path*',
+        permanent: true,
+      },
+      // non-www → www 강제 301 — Vercel 기본 308+Refresh 헤더 대신 깨끗한 301 응답
+      // GSC '리디렉션 오류' 라벨 (308+Refresh 듀얼 메커니즘 영향) 회피 목적
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'lawnguide.co.kr' }],
+        destination: 'https://www.lawnguide.co.kr/:path*',
+        statusCode: 301,
+      },
     ];
   },
 
