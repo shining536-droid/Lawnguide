@@ -269,7 +269,19 @@
   - 해결: 데이터를 빌드타임에 단일 TS 상수로 사전생성 → `web/src/data/procedure-data-generated.ts` 처럼 import 만 사용. 재생성: `node scripts/generate-procedure-data.mjs`
   - 패턴: `web/src/data/spoke/*.ts`, `web/src/data/procedure-data-generated.ts` (둘 다 컴파일러가 정확히 트리쉐이크)
 - `.vercelignore` 유지 (kb/, content/, *.py, scripts/ 제외) — 안전망 (NFT 와 별개로 업로드 방지)
-- 스포크 1500개 넘기면 Vercel 함수 번들 한계 다시 점검 필요 (현재 1253개)
+- `next.config.js` `experimental.outputFileTracingExcludes` 유지 (kb/, content/, scripts/, __pycache__/, *.py 제외) — 함수 번들 NFT 보호막 (정적 import 는 못 막지만 사고 시 폭발 반경 축소). 2026-05-06 적용
+
+### 함수 번들 한계 모니터링 (2026-05-06 진단 결과 갱신)
+- 250MB = AWS Lambda 강제 제한 (Vercel Pro 업그레이드해도 동일)
+- **현재 (2026-05-06, 스포크 1,800개)**: 함수 번들 NFT 16.13 MB / 250 MB (6.5%). chunks/978.js = 15.34 MB (SPOKE_PAGES 공유 청크). SSG 1,761개는 CDN 정적 자산이라 함수 번들 무관
+- **추세**: 일 40개 페이스 → 함수 번들 +0.34 MB/일, +10 MB/월. 250MB 도달까지 약 687일 (1.9년)
+- **점검 트리거 (다음 중 하나라도 해당 시 데이터 외부화·코드 분리 검토)**:
+  1. `chunks/978.js` 또는 SPOKE_PAGES 공유 청크 > 100 MB (스포크 약 9,000개 시점)
+  2. NFT 추적 결과 함수 번들 > 150 MB (안전마진 60%)
+  3. `kb/`, `content/`, 또는 무거운 데이터 디렉토리가 함수 NFT 에 노출된 흔적 발견 (4/26 procedure-data.ts 사고 패턴 재발)
+  4. `web/src/` 신규 코드가 import 으로 무거운 데이터를 함수 번들에 끌어옴 (PR 리뷰 시 차단 권장)
+- 위 1·2 조건 미충족이면 일일루틴 평소 진행 가능. SSG 페이지 수 증가는 함수 한계와 무관 (CDN 비용 증가만 영향)
+- 측정 방법: `cd web && npx next build` 후 `ls -la .next/server/chunks/*.js | sort -k5 -n -r | head` 와 `cat .next/server/app/guide/\[domain\]/\[slug\]/page.js.nft.json | python -c "import sys,json; d=json.load(sys.stdin); print(len(d['files']))"`
 
 ## URL 규칙
 - 모든 절대 URL은 https://www.lawnguide.co.kr 사용
