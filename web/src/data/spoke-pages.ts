@@ -367,6 +367,7 @@ import { spokesBatch58Inheritance } from './spoke/spokes-batch58-inheritance';
 import { spokesBatch58Defamation } from './spoke/spokes-batch58-defamation';
 import { spokesBatch58JeonseStalking } from './spoke/spokes-batch58-jeonse-stalking';
 import { spokesBatch58AssaultCsDui } from './spoke/spokes-batch58-assault-cs-dui';
+import { spokesBatch58NewsChildcare } from './spoke/spokes-batch58-news-childcare';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -691,6 +692,7 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch58Defamation,
   ...spokesBatch58JeonseStalking,
   ...spokesBatch58AssaultCsDui,
+  ...spokesBatch58NewsChildcare,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
