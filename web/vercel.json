@@ -1,18 +1,5 @@
 {
   "framework": "nextjs",
   "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "redirects": [
-    {
-      "source": "/:path(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "lawnguide.co.kr"
-        }
-      ],
-      "destination": "https://www.lawnguide.co.kr/:path",
-      "permanent": true
-    }
-  ]
+  "outputDirectory": ".next"
 }
