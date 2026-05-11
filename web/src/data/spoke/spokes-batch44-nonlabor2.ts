@@ -882,7 +882,7 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
     },
     internalLinks: [
       { label: '양육비이행관리원 지원', href: '/guide/child-support/child-support-enforcement-agency' },
-      { label: '양육비 이행명령·감치', href: '/guide/child-support/child-support-contempt-detention' },
+      { label: '양육비 이행명령·감치', href: '/guide/child-support/child-support-contempt-detention-procedure' },
       { label: '양육비 한시적 긴급지원', href: '/guide/child-support/child-support-emergency-aid' },
       { label: '국제공조 절차 개관', href: '/guide/child-support/child-support-international-cooperation' },
       { label: '이혼 판결 집행 절차', href: '/guide/child-support/child-support-judgment-enforcement' },
@@ -968,11 +968,11 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
       link: '/chat?domain=rehabilitation',
     },
     internalLinks: [
-      { label: '개인회생 신청 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements' },
+      { label: '개인회생 신청 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
       { label: '변제계획 수립 가이드', href: '/guide/rehabilitation/rehabilitation-repayment-plan' },
       { label: '부부 공동채무 처리', href: '/guide/rehabilitation/rehabilitation-couple-joint-debt' },
       { label: '신용회복위원회 조정', href: '/guide/rehabilitation/rehabilitation-credit-recovery-adjust' },
-      { label: '개인파산과의 차이', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-compare' },
+      { label: '개인파산과의 차이', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-choice' },
     ],
   },
 
@@ -1143,10 +1143,10 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
     },
     internalLinks: [
       { label: '스토킹처벌법 기본 구조', href: '/guide/stalking/stalking-law-basic-structure' },
-      { label: '잠정조치·응급조치 신청', href: '/guide/stalking/stalking-emergency-measure-request' },
+      { label: '잠정조치·응급조치 신청', href: '/guide/stalking/stalking-emergency-measure-rejected' },
       { label: '사이버 스토킹 수사 절차', href: '/guide/stalking/stalking-cyber-investigation' },
       { label: '피해자 심리·법률 지원', href: '/guide/stalking/stalking-victim-support-program' },
-      { label: '접근금지·통신금지 가처분', href: '/guide/stalking/stalking-restraining-order' },
+      { label: '접근금지·통신금지 가처분', href: '/guide/stalking/stalking-penalty-restraining-order' },
     ],
   },
 

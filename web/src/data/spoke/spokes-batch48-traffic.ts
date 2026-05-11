@@ -85,7 +85,7 @@ export const spokesBatch48Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-documents' },
+      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '교통사고 12대 중과실 정리', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '야간 무단횡단 보행자 과실', href: '/guide/traffic-accident/traffic-accident-pedestrian-jaywalk-night-fault' },

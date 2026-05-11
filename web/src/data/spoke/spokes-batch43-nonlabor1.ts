@@ -528,7 +528,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-guide' },
+      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '중상 사고 합의금 산정법', href: '/guide/traffic-accident/severe-injury-settlement-calculation' },
       { label: '12대 중과실 처벌 정리', href: '/guide/traffic-accident/12-serious-negligence-types' },
       { label: '후유장해 진단 절차', href: '/guide/traffic-accident/permanent-disability-diagnosis-procedure' },
@@ -616,7 +616,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '교통사고 CCTV 확보 순서', href: '/guide/traffic-accident/cctv-evidence-acquisition' },
-      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-guide' },
+      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '손보협회 분쟁심의 신청법', href: '/guide/traffic-accident/insurance-dispute-committee-apply' },
       { label: '사고 직후 현장 대응 체크리스트', href: '/guide/traffic-accident/scene-response-checklist' },
       { label: '교통사고 목격자 진술서 양식', href: '/guide/traffic-accident/witness-statement-template' },
@@ -789,7 +789,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-guide' },
+      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '교통사고 위자료 산정 기준', href: '/guide/traffic-accident/pain-and-suffering-calculation' },
       { label: '대물배상 보상 범위', href: '/guide/traffic-accident/property-damage-coverage-scope' },
       { label: '사고 합의서 작성 템플릿', href: '/guide/traffic-accident/settlement-agreement-template' },
@@ -877,7 +877,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '고령운전자 면허 규정 정리', href: '/guide/traffic-accident/elderly-driver-license-rules' },
-      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-guide' },
+      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '12대 중과실 처벌 정리', href: '/guide/traffic-accident/12-serious-negligence-types' },
       { label: '교통사고 형사합의금 시세', href: '/guide/traffic-accident/criminal-settlement-amount-standard' },
       { label: '급발진 입증 절차', href: '/guide/traffic-accident/sudden-acceleration-proof-procedure' },

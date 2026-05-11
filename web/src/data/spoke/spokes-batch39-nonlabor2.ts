@@ -83,8 +83,8 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
     },
     internalLinks: [
       { label: '개인회생 절차 A to Z', href: '/guide/rehabilitation/rehabilitation-procedure-atoz' },
-      { label: '회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements' },
-      { label: '회생 vs 파산 비교', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-comparison' },
+      { label: '회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
+      { label: '회생 vs 파산 비교', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-choice' },
       { label: '가용소득 산정', href: '/guide/rehabilitation/rehabilitation-minimum-income-requirement' },
       { label: '변제계획 설계', href: '/guide/rehabilitation/rehabilitation-procedure-simple' },
     ],
@@ -258,8 +258,8 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
     internalLinks: [
       { label: '회생 절차 A to Z', href: '/guide/rehabilitation/rehabilitation-procedure-atoz' },
       { label: '변제 부족 시 대응', href: '/guide/rehabilitation/rehabilitation-payment-default' },
-      { label: '회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements' },
-      { label: '회생 vs 파산', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-comparison' },
+      { label: '회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
+      { label: '회생 vs 파산', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-choice' },
       { label: '가용소득 산정', href: '/guide/rehabilitation/rehabilitation-minimum-income-requirement' },
     ],
   },
@@ -343,7 +343,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       link: '/chat?domain=bankruptcy',
     },
     internalLinks: [
-      { label: '파산 면책 후 생활', href: '/guide/bankruptcy/bankruptcy-discharged-registry' },
+      { label: '파산 면책 후 생활', href: '/guide/bankruptcy/bankruptcy-discharged-debt-registry' },
       { label: '파산 신청 서류', href: '/guide/bankruptcy/bankruptcy-application-documents-list' },
       { label: '파산 vs 회생', href: '/guide/bankruptcy/bankruptcy-vs-rehabilitation-which-fits' },
       { label: '파산 면제 재산', href: '/guide/bankruptcy/bankruptcy-exempt-property' },
@@ -430,8 +430,8 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       link: '/chat?domain=inheritance',
     },
     internalLinks: [
-      { label: '한정승인 가이드', href: '/guide/inheritance/inheritance-limited-acceptance-guide' },
-      { label: '상속포기 vs 한정승인', href: '/guide/inheritance/inheritance-limited-vs-renunciation' },
+      { label: '한정승인 가이드', href: '/guide/inheritance/inheritance-limited-acceptance-post-debt' },
+      { label: '상속포기 vs 한정승인', href: '/guide/inheritance/inheritance-limited-vs-renounce' },
       { label: '상속 빚 처리', href: '/guide/inheritance/inheritance-debt-acceptance-rejection' },
       { label: '상속 3개월 기한', href: '/guide/inheritance/inheritance-renunciation-3months' },
       { label: '상속 서류 준비', href: '/guide/inheritance/inheritance-registration-docs-guide' },
@@ -517,8 +517,8 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       link: '/chat?domain=inheritance',
     },
     internalLinks: [
-      { label: '상속포기 vs 한정승인', href: '/guide/inheritance/inheritance-limited-vs-renunciation' },
-      { label: '한정승인 가이드', href: '/guide/inheritance/inheritance-limited-acceptance-guide' },
+      { label: '상속포기 vs 한정승인', href: '/guide/inheritance/inheritance-limited-vs-renounce' },
+      { label: '한정승인 가이드', href: '/guide/inheritance/inheritance-limited-acceptance-post-debt' },
       { label: '상속 3개월 기한', href: '/guide/inheritance/inheritance-renunciation-3months' },
       { label: '상속 빚 처리', href: '/guide/inheritance/inheritance-debt-acceptance-rejection' },
       { label: '상속 분쟁 시작', href: '/guide/inheritance/inheritance-dispute-first-step' },
@@ -604,8 +604,8 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       link: '/chat?domain=inheritance',
     },
     internalLinks: [
-      { label: '상속포기 vs 한정승인', href: '/guide/inheritance/inheritance-limited-vs-renunciation' },
-      { label: '한정승인 가이드', href: '/guide/inheritance/inheritance-limited-acceptance-guide' },
+      { label: '상속포기 vs 한정승인', href: '/guide/inheritance/inheritance-limited-vs-renounce' },
+      { label: '한정승인 가이드', href: '/guide/inheritance/inheritance-limited-acceptance-post-debt' },
       { label: '상속 3개월 기한', href: '/guide/inheritance/inheritance-renunciation-3months' },
       { label: '상속 빚 처리', href: '/guide/inheritance/inheritance-debt-acceptance-rejection' },
       { label: '상속포기 연쇄', href: '/guide/inheritance/inheritance-renunciation-deadline' },
@@ -695,7 +695,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       { label: '진실 공익 방어', href: '/guide/defamation/defamation-truth-defense' },
       { label: '공익 목적 방어', href: '/guide/defamation/defamation-public-interest-defense' },
       { label: '회사 리뷰 쟁점', href: '/guide/defamation/defamation-company-review-accused' },
-      { label: '합의금 기준', href: '/guide/defamation/defamation-settlement-range' },
+      { label: '합의금 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
     ],
   },
 
@@ -779,8 +779,8 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
     },
     internalLinks: [
       { label: '스토킹 신고 절차', href: '/guide/stalking/stalking-report-restraining' },
-      { label: '긴급응급조치', href: '/guide/stalking/stalking-emergency-measure-apply' },
-      { label: '스토킹 증거 수집', href: '/guide/stalking/stalking-evidence-collection' },
+      { label: '긴급응급조치', href: '/guide/stalking/stalking-emergency-measure-application' },
+      { label: '스토킹 증거 수집', href: '/guide/stalking/stalking-evidence-collection-faq' },
       { label: '접근금지 위반 처벌', href: '/guide/stalking/stalking-restraining-order-violation-penalty' },
       { label: '스토킹 피해자 지원', href: '/guide/stalking/stalking-first-response-guide' },
     ],
@@ -869,7 +869,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       { label: '진실 공익 방어', href: '/guide/defamation/defamation-truth-defense' },
       { label: '공익 목적 방어', href: '/guide/defamation/defamation-public-interest-defense' },
       { label: '온라인 명예훼손 증거', href: '/guide/defamation/defamation-online-evidence-guide' },
-      { label: '합의금 기준', href: '/guide/defamation/defamation-settlement-range' },
+      { label: '합의금 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
     ],
   },
 
@@ -1041,7 +1041,7 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
     internalLinks: [
       { label: '전세 → 월세 전환 기본', href: '/guide/jeonse/jeonse-monthly-conversion' },
       { label: '전세 갱신 거절 대응', href: '/guide/jeonse/jeonse-renewal-landlord-refusal' },
-      { label: '임대료 5% 상한', href: '/guide/jeonse/jeonse-reverse-gap-response' },
+      { label: '임대료 5% 상한', href: '/guide/jeonse/jeonse-reverse-gap-tenant-response' },
       { label: '전세 특약 조항', href: '/guide/jeonse/jeonse-special-agreement' },
       { label: '분쟁조정위원회', href: '/guide/jeonse/jeonse-deposit-priority-competing' },
     ],

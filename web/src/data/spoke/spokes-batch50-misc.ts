@@ -252,7 +252,7 @@ export const spokesBatch50Misc: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
-      { label: '쌍방폭행 합의 작성법', href: '/guide/assault/assault-mutual-fight-settlement' },
+      { label: '쌍방폭행 합의 작성법', href: '/guide/assault/assault-mutual-fight-settlement-amount' },
       { label: '상해 의료 진단서 입증', href: '/guide/assault/assault-injury-medical-evidence' },
       { label: '폭행 민사 손해배상 청구', href: '/guide/assault/assault-civil-damages-claim' },
       { label: '형사조정 절차 안내', href: '/guide/assault/assault-criminal-mediation' },
@@ -337,7 +337,7 @@ export const spokesBatch50Misc: SpokePage[] = [
       { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
       { label: '상해 의료 진단서 입증', href: '/guide/assault/assault-injury-medical-evidence' },
       { label: '폭행 민사 손해배상 청구', href: '/guide/assault/assault-civil-damages-claim' },
-      { label: '쌍방폭행 합의 작성법', href: '/guide/assault/assault-mutual-fight-settlement' },
+      { label: '쌍방폭행 합의 작성법', href: '/guide/assault/assault-mutual-fight-settlement-amount' },
       { label: '형사조정 절차 안내', href: '/guide/assault/assault-criminal-mediation' },
     ],
   },
@@ -419,7 +419,7 @@ export const spokesBatch50Misc: SpokePage[] = [
     internalLinks: [
       { label: '양육비 산정 기준표 가이드', href: '/guide/child-support/child-support-amount-calculation-guide' },
       { label: '양육비 미지급 강제집행', href: '/guide/child-support/child-support-execution-non-payment' },
-      { label: '비양육친 외국 거주 회수', href: '/guide/child-support/child-support-foreign-resident-collection' },
+      { label: '비양육친 외국 거주 회수', href: '/guide/child-support/child-support-foreign-spouse-collection' },
       { label: '가정법원 양육비 조정 절차', href: '/guide/child-support/child-support-court-mediation' },
       { label: '양육비이행관리원 신청 안내', href: '/guide/child-support/child-support-csa-procedure-guide' },
     ],

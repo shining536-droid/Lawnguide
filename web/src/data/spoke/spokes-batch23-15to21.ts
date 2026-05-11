@@ -105,7 +105,7 @@ export const spokesBatch23_15to21: SpokePage[] = [
       { label: '사업주 산재 신고 의무', href: '/guide/industrial-accident2/employer-report-obligation-process' },
       { label: '중대재해 사업주 대응 절차', href: '/guide/industrial-accident2/serious-accident-employer-response' },
       { label: '안전보건 위반 처벌 수위', href: '/guide/industrial-accident2/workplace-safety-violation-penalty' },
-      { label: '산재 피해 근로자 권리', href: '/guide/industrial-accident1/workers-comp-medical-claim-process' },
+      { label: '산재 피해 근로자 권리', href: '/guide/industrial-accident1/workers-comp-claim-process' },
     ],
   },
 

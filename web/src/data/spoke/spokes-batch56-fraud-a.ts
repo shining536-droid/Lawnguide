@@ -256,7 +256,7 @@ export const spokesBatch56FraudA: SpokePage[] = [
       { label: '직거래 가계약금 잠적', href: '/guide/fraud/fraud-real-estate-direct-deal-deposit-vanish' },
       { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-required-documents' },
       { label: '소액심판 1천만원 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
-      { label: '온라인 쇼핑몰 환불 사기', href: '/guide/fraud/fraud-online-shopping-fraud-refund' },
+      { label: '온라인 쇼핑몰 환불 사기', href: '/guide/fraud/online-shopping-fraud-refund' },
     ],
   },
 ];

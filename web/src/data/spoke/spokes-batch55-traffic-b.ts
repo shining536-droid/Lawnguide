@@ -82,8 +82,8 @@ export const spokesBatch55TrafficB: SpokePage[] = [
     ],
     cta: { text: '후유증 추가 청구 가능한지 AI로 점검하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim' },
-      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-checklist' },
+      { label: '교통사고 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim-settlement' },
+      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
       { label: '교통사고 신체감정 절차', href: '/guide/traffic-accident/traffic-accident-physical-examination' },
       { label: '교통사고 노동능력상실률', href: '/guide/traffic-accident/traffic-accident-labor-capacity-loss' },
       { label: '교통사고 손해배상 시효', href: '/guide/traffic-accident/traffic-accident-damages-statute' },
@@ -169,7 +169,7 @@ export const spokesBatch55TrafficB: SpokePage[] = [
       { label: '교통사고 민사손해배상 절차', href: '/guide/traffic-accident/traffic-accident-civil-damages-procedure' },
       { label: '자동차보험 분쟁조정 신청', href: '/guide/traffic-accident/traffic-accident-insurance-dispute' },
       { label: '교통사고 위자료 산정', href: '/guide/traffic-accident/traffic-accident-consolation-money' },
-      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-checklist' },
+      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
     ],
   },
 ];

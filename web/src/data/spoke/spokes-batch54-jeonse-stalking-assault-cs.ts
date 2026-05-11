@@ -421,7 +421,7 @@ export const spokesBatch54JeonseStalkingAssaultCS: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 양형 기준 정리', href: '/guide/assault/assault-sentencing-criteria' },
-      { label: '폭행 합의금 산정', href: '/guide/assault/assault-settlement-amount' },
+      { label: '폭행 합의금 산정', href: '/guide/assault/assault-settlement-amount-guide' },
       { label: '폭행 형사조정 활용', href: '/guide/assault/assault-criminal-mediation' },
       { label: '폭행 초범 양형 감경', href: '/guide/assault/assault-first-offense-mitigation' },
       { label: '상호 폭행 합의금 산정', href: '/guide/assault/assault-mutual-fight-settlement-amount' },
@@ -504,7 +504,7 @@ export const spokesBatch54JeonseStalkingAssaultCS: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 양형 기준 정리', href: '/guide/assault/assault-sentencing-criteria' },
-      { label: '폭행 합의금 산정', href: '/guide/assault/assault-settlement-amount' },
+      { label: '폭행 합의금 산정', href: '/guide/assault/assault-settlement-amount-guide' },
       { label: '술자리 우발 폭행 합의 시점', href: '/guide/assault/assault-drunken-uvulval-pre-settlement-sentencing' },
       { label: '상호 폭행 합의금 산정', href: '/guide/assault/assault-mutual-fight-settlement-amount' },
       { label: '노약자 폭행 가중처벌', href: '/guide/assault/assault-elderly-victim-aggravated-sentencing' },
@@ -588,7 +588,7 @@ export const spokesBatch54JeonseStalkingAssaultCS: SpokePage[] = [
     internalLinks: [
       { label: '양육비이행관리원 추심 절차', href: '/guide/child-support/child-support-agency-collection-procedure' },
       { label: '양육비 직접지급명령 신청', href: '/guide/child-support/child-support-direct-payment-third-party-employer' },
-      { label: '양육비 이행명령 신청', href: '/guide/child-support/child-support-enforcement-order' },
+      { label: '양육비 이행명령 신청', href: '/guide/child-support/child-support-enforcement-order-apply' },
       { label: '양육비 감치명령 절차', href: '/guide/child-support/child-support-detention-order' },
       { label: '양육비 미지급 종합 대응', href: '/guide/child-support/child-support-non-payment-comprehensive' },
     ],
@@ -669,7 +669,7 @@ export const spokesBatch54JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비 산정기준표 적용', href: '/guide/child-support/child-support-calculation-standard' },
+      { label: '양육비 산정기준표 적용', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 변경심판 절차', href: '/guide/child-support/child-support-modification-procedure' },
       { label: '양육비 감액·증액 수입 변동', href: '/guide/child-support/child-support-modification-employer-income-change' },
       { label: '양육비 직접지급명령 신청', href: '/guide/child-support/child-support-direct-payment-third-party-employer' },

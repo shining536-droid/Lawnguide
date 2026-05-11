@@ -82,7 +82,7 @@ export const spokesBatch18_31to35: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '폭행·상해 진단', href: '/diagnosis/assault' },
-      { label: '상해죄 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount' },
+      { label: '상해죄 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount-guide' },
       { label: '상해죄 초범 처벌 수위', href: '/guide/assault/first-offense-assault-penalty' },
       { label: '폭행죄 고소 취하 절차', href: '/guide/assault/assault-charge-withdrawal-process' },
     ],

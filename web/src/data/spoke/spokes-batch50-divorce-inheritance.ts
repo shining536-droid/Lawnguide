@@ -420,8 +420,8 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited' },
-      { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing' },
+      { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
+      { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '상속 빚 발견 시 대응', href: '/guide/inheritance/inheritance-overdue-debt-discovery' },
       { label: '상속 분할 비율 산정', href: '/guide/inheritance/inheritance-property-division-formula' },
       { label: '상속 빚이 더 많을 때', href: '/guide/inheritance/inheritance-debt-more-than-asset' },
@@ -503,8 +503,8 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing' },
-      { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited' },
+      { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
+      { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
       { label: '상속재산 분할협의 절차', href: '/guide/inheritance/inheritance-property-division-formula' },
       { label: '상속 빚 발견 시 대응', href: '/guide/inheritance/inheritance-overdue-debt-discovery' },
       { label: '상속 빚이 더 많을 때', href: '/guide/inheritance/inheritance-debt-more-than-asset' },
@@ -586,8 +586,8 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited' },
-      { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing' },
+      { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
+      { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '상속 분할 비율 산정', href: '/guide/inheritance/inheritance-property-division-formula' },
       { label: '상속 빚 발견 시 대응', href: '/guide/inheritance/inheritance-overdue-debt-discovery' },
       { label: '상속 빚이 더 많을 때', href: '/guide/inheritance/inheritance-debt-more-than-asset' },
@@ -669,8 +669,8 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing' },
-      { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited' },
+      { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
+      { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
       { label: '상속 분할 비율 산정', href: '/guide/inheritance/inheritance-property-division-formula' },
       { label: '상속 빚 발견 시 대응', href: '/guide/inheritance/inheritance-overdue-debt-discovery' },
       { label: '상속 빚이 더 많을 때', href: '/guide/inheritance/inheritance-debt-more-than-asset' },

@@ -88,9 +88,9 @@ export const spokesBatch48DefameJeonse: SpokePage[] = [
     internalLinks: [
       { label: '명예훼손 위법성조각사유 총정리', href: '/guide/defamation/defamation-illegality-exception' },
       { label: '잡플래닛 후기 명예훼손 혐의 대응', href: '/guide/defamation/defamation-job-review-app-defense' },
-      { label: '명예훼손 합의금 협상 기준', href: '/guide/defamation/defamation-settlement-amount-standard' },
+      { label: '명예훼손 합의금 협상 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
       { label: '온라인 명예훼손 형사 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
-      { label: '명예훼손 증거 수집 방법', href: '/guide/defamation/defamation-evidence-collection' },
+      { label: '명예훼손 증거 수집 방법', href: '/guide/defamation/online-defamation-evidence-collection' },
     ],
   },
 
@@ -172,7 +172,7 @@ export const spokesBatch48DefameJeonse: SpokePage[] = [
     internalLinks: [
       { label: '직장 내 괴롭힘 신고 절차', href: '/guide/dismissal/dismissal-workplace-bullying-report' },
       { label: '모욕죄 형사 고소 준비서류', href: '/guide/defamation/defamation-insult-criminal-procedure' },
-      { label: '명예훼손 증거 수집 방법', href: '/guide/defamation/defamation-evidence-collection' },
+      { label: '명예훼손 증거 수집 방법', href: '/guide/defamation/online-defamation-evidence-collection' },
       { label: '온라인 명예훼손 형사 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
       { label: '명예훼손 손해배상 청구 절차', href: '/guide/defamation/defamation-civil-damages-claim' },
     ],
@@ -255,9 +255,9 @@ export const spokesBatch48DefameJeonse: SpokePage[] = [
     cta: { text: '삭제·합의·방어 포인트, AI로 먼저 점검하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '온라인 명예훼손 형사 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
-      { label: '명예훼손 게시글 삭제 청구 방법', href: '/guide/defamation/defamation-deletion-request-procedure' },
+      { label: '명예훼손 게시글 삭제 청구 방법', href: '/guide/defamation/defamation-online-post-deletion-request-procedure' },
       { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-civil-damages-claim' },
-      { label: '명예훼손 증거 수집 체크리스트', href: '/guide/defamation/defamation-evidence-collection' },
+      { label: '명예훼손 증거 수집 체크리스트', href: '/guide/defamation/online-defamation-evidence-collection' },
       { label: '네이버카페 익명ID 신원공개 청구', href: '/guide/defamation/defamation-cafe-id-disclosure-request' },
     ],
   },

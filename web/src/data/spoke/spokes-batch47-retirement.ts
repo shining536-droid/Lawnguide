@@ -88,7 +88,7 @@ export const spokesBatch47Retirement: SpokePage[] = [
     internalLinks: [
       {
         label: '퇴직금 평균임금 산정 기준',
-        href: '/guide/retirement/retirement-average-wage-calculation',
+        href: '/guide/retirement/retirement-severance-tax-calculation',
       },
       {
         label: '중간정산 퇴직금 합산 여부',
@@ -188,7 +188,7 @@ export const spokesBatch47Retirement: SpokePage[] = [
     internalLinks: [
       {
         label: '퇴직금 평균임금 산정 기준',
-        href: '/guide/retirement/retirement-average-wage-calculation',
+        href: '/guide/retirement/retirement-severance-tax-calculation',
       },
       {
         label: '퇴직금 미지급 진정 절차',

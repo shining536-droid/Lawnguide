@@ -675,7 +675,7 @@ export const spokesBatch46Nonlabor3: SpokePage[] = [
       { label: '면책 불허가 사유와 대응', href: '/guide/bankruptcy/bankruptcy-discharge-denial-grounds' },
       { label: 'KLAC 무료 파산 지원', href: '/guide/bankruptcy/bankruptcy-klac-free-support' },
       { label: '채권자목록 누락 방지', href: '/guide/bankruptcy/bankruptcy-creditor-list-completeness' },
-      { label: '파산과 회생의 차이 점검', href: '/guide/bankruptcy/bankruptcy-rehabilitation-comparison' },
+      { label: '파산과 회생의 차이 점검', href: '/guide/bankruptcy/bankruptcy-vs-rehabilitation-comparison' },
     ],
   },
 

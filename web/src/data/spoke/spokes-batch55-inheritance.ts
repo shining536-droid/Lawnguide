@@ -86,7 +86,7 @@ export const spokesBatch55Inheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '한정승인 vs 상속포기 차이', href: '/guide/inheritance/inheritance-limited-acceptance-vs-renunciation' },
+      { label: '한정승인 vs 상속포기 차이', href: '/guide/inheritance/inheritance-limited-acceptance-vs-renunciation-choice' },
       { label: '특별한정승인 신청 요건', href: '/guide/inheritance/inheritance-special-limited-acceptance-requirements' },
       { label: '상속재산 청산 공고·안분변제', href: '/guide/inheritance/inheritance-liquidation-notice-procedure' },
       { label: '상속포기 후 차순위 상속인', href: '/guide/inheritance/inheritance-renunciation-next-order-heir' },
@@ -172,7 +172,7 @@ export const spokesBatch55Inheritance: SpokePage[] = [
       { label: '자필유언 5요건 점검', href: '/guide/inheritance/inheritance-handwritten-will-five-requirements' },
       { label: '공정증서 유언 작성 절차', href: '/guide/inheritance/inheritance-notarized-will-procedure' },
       { label: '유언 검인절차 단계', href: '/guide/inheritance/inheritance-will-probate-procedure' },
-      { label: '유언무효확인의 소', href: '/guide/inheritance/inheritance-will-invalidity-lawsuit' },
+      { label: '유언무효확인의 소', href: '/guide/inheritance/inheritance-will-validity-dispute' },
       { label: '유류분 부족분 청구 절차', href: '/guide/inheritance/inheritance-yuryubun-shortage-claim-procedure' },
     ],
   },

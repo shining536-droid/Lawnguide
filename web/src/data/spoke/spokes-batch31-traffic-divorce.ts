@@ -484,7 +484,7 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
       { label: '양육비 청구 시작', href: '/guide/child-support/child-support-claim-where-to-start' },
       { label: '양육비 강제집행', href: '/guide/child-support/child-support-enforcement-method' },
       { label: '양육비 산정 기준', href: '/guide/child-support/child-support-calculation-table' },
-      { label: '양육비 소송 절차', href: '/guide/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 소송 절차', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: '양육비 체납 추심', href: '/guide/child-support/child-support-overdue-collection' },
     ],
   },

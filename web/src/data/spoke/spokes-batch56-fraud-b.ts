@@ -86,7 +86,7 @@ export const spokesBatch56FraudB: SpokePage[] = [
     internalLinks: [
       { label: '학원 수강료 환불 거부', href: '/guide/fraud/fraud-academy-tuition-refund-refusal-dispute' },
       { label: '인터넷 자격강의 환불', href: '/guide/fraud/fraud-online-cert-class-refund' },
-      { label: '온라인 쇼핑몰 환불 사기', href: '/guide/fraud/fraud-online-shopping-fraud-refund' },
+      { label: '온라인 쇼핑몰 환불 사기', href: '/guide/fraud/online-shopping-fraud-refund' },
       { label: '구독 자동결제 환불', href: '/guide/fraud/fraud-subscription-autorenewal-deceptive' },
       { label: '온라인 카페 회비 환불', href: '/guide/fraud/fraud-online-cafe-membership-fee-recovery' },
     ],

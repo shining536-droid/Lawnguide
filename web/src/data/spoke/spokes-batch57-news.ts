@@ -256,7 +256,7 @@ export const spokesBatch57News: SpokePage[] = [
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
       { label: '스토킹 잠정조치 신청', href: '/guide/stalking/stalking-emergency-protective-measures' },
-      { label: '스토킹 증거 수집', href: '/guide/stalking/stalking-evidence-collection' },
+      { label: '스토킹 증거 수집', href: '/guide/stalking/stalking-evidence-collection-faq' },
       { label: '전 연인 지속 연락 대응', href: '/guide/stalking/stalking-ex-persistent-contact' },
       { label: '24시간 지속 추적 형사', href: '/guide/stalking/stalking-repeat-following-criminal-2025' },
       { label: '스토킹 접근금지 위반', href: '/guide/stalking/stalking-protective-order-violation' },
@@ -338,7 +338,7 @@ export const spokesBatch57News: SpokePage[] = [
     ],
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹 입건 후 대응', href: '/guide/stalking/stalking-accused-defense' },
+      { label: '스토킹 입건 후 대응', href: '/guide/stalking/stalking-accused-response' },
       { label: '잠정조치 위반 처벌', href: '/guide/stalking/stalking-protective-order-violation' },
       { label: '피해자 미인지 스토킹', href: '/guide/stalking/stalking-no-victim-awareness-supreme-2025' },
       { label: '스토킹 합의 시기', href: '/guide/stalking/stalking-settlement-timing' },

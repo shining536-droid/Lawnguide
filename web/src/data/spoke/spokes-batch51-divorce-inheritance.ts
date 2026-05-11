@@ -419,8 +419,8 @@ export const spokesBatch51DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '한정승인 vs 상속포기 비교', href: '/guide/inheritance/inheritance-renunciation-vs-limited' },
-      { label: '상속세 6개월 신고기한', href: '/guide/inheritance/inheritance-tax-six-month-filing' },
+      { label: '한정승인 vs 상속포기 비교', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
+      { label: '상속세 6개월 신고기한', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '차명계좌·은닉자산 추적 절차', href: '/guide/inheritance/inheritance-trust-account-hidden-asset' },
       { label: '해외자산 상속 신고기한', href: '/guide/inheritance/inheritance-overseas-asset-declaration' },
       { label: '부동산 공동상속 분할 분쟁', href: '/guide/inheritance/inheritance-real-estate-co-owners-dispute' },
@@ -502,8 +502,8 @@ export const spokesBatch51DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '한정승인 vs 상속포기 비교', href: '/guide/inheritance/inheritance-renunciation-vs-limited' },
-      { label: '상속세 6개월 신고기한', href: '/guide/inheritance/inheritance-tax-six-month-filing' },
+      { label: '한정승인 vs 상속포기 비교', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
+      { label: '상속세 6개월 신고기한', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '차명계좌·은닉자산 추적 절차', href: '/guide/inheritance/inheritance-trust-account-hidden-asset' },
       { label: '무자녀 백숙부·이모 상속 순위', href: '/guide/inheritance/inheritance-uncle-aunt-childless-priority' },
       { label: '해외자산 상속 신고기한', href: '/guide/inheritance/inheritance-overseas-asset-declaration' },
@@ -585,8 +585,8 @@ export const spokesBatch51DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '한정승인 vs 상속포기 비교', href: '/guide/inheritance/inheritance-renunciation-vs-limited' },
-      { label: '상속세 6개월 신고기한', href: '/guide/inheritance/inheritance-tax-six-month-filing' },
+      { label: '한정승인 vs 상속포기 비교', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
+      { label: '상속세 6개월 신고기한', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '무자녀 백숙부·이모 상속 순위', href: '/guide/inheritance/inheritance-uncle-aunt-childless-priority' },
       { label: '부동산 공동상속 분할 분쟁', href: '/guide/inheritance/inheritance-real-estate-co-owners-dispute' },
       { label: '차명계좌·은닉자산 추적 절차', href: '/guide/inheritance/inheritance-trust-account-hidden-asset' },

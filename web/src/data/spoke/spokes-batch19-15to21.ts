@@ -244,7 +244,7 @@ export const spokesBatch19_15to21: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '양육비 진단', href: '/diagnosis/child-support' },
-      { label: '양육비 청구 소송 절차', href: '/guide/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 청구 소송 절차', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 미지급 강제집행', href: '/guide/child-support/child-support-enforcement-method' },
     ],

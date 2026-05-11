@@ -171,7 +171,7 @@ export const spokesBatch55AssaultCsDui: SpokePage[] = [
     internalLinks: [
       { label: '폭행 사건 종합 대응 가이드', href: '/guide/assault/assault-comprehensive-guide' },
       { label: '폭행 진단서·증거 수집 절차', href: '/guide/assault/assault-evidence-medical-certificate' },
-      { label: '데이트폭력 신변보호조치', href: '/guide/assault/assault-dating-violence-protection' },
+      { label: '데이트폭력 신변보호조치', href: '/guide/assault/assault-dating-violence-victim-protection' },
       { label: '폭행 형사고소 절차', href: '/guide/assault/assault-criminal-complaint-procedure' },
       { label: '쌍방폭행 정당방위 인정 기준', href: '/guide/assault/assault-mutual-self-defense-criteria' },
     ],
@@ -337,7 +337,7 @@ export const spokesBatch55AssaultCsDui: SpokePage[] = [
     internalLinks: [
       { label: '양육비 종합 가이드', href: '/guide/child-support/child-support-comprehensive-guide' },
       { label: '양육비이행관리원 신청 절차', href: '/guide/child-support/child-support-csa-application' },
-      { label: '양육비 직접지급명령 절차', href: '/guide/child-support/child-support-direct-payment-order' },
+      { label: '양육비 직접지급명령 절차', href: '/guide/child-support/child-support-direct-payment-order-process' },
       { label: '양육비 산정기준표 계산', href: '/guide/child-support/child-support-calculation-table' },
       { label: '협의이혼 양육비 합의 작성', href: '/guide/child-support/child-support-divorce-agreement' },
     ],
@@ -502,8 +502,8 @@ export const spokesBatch55AssaultCsDui: SpokePage[] = [
     cta: { text: '음주운전 행정심판 준비서류, AI로 체크하기', link: '/chat?domain=dui' },
     internalLinks: [
       { label: '음주운전 종합 대응 가이드', href: '/guide/dui/dui-comprehensive-guide' },
-      { label: '음주운전 행정심판 절차', href: '/guide/dui/dui-administrative-appeal-procedure' },
-      { label: '음주측정 거부와 처벌', href: '/guide/dui/dui-measurement-refusal-penalty' },
+      { label: '음주운전 행정심판 절차', href: '/guide/dui/dui-administrative-license-procedure' },
+      { label: '음주측정 거부와 처벌', href: '/guide/dui/dui-measurement-refusal-penalty-appeal' },
       { label: '음주운전 형사처벌 양형', href: '/guide/dui/dui-criminal-sentencing' },
       { label: '음주운전 면허 취소 구제', href: '/guide/dui/dui-license-cancellation-relief' },
     ],

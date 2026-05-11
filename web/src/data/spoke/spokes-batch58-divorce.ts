@@ -91,7 +91,7 @@ export const spokesBatch58Divorce: SpokePage[] = [
       { label: '숨긴 재산 추적', href: '/guide/divorce/divorce-hidden-asset-discovery' },
       { label: '재산처분 사유 입증', href: '/guide/divorce/divorce-asset-disposal-grounds' },
       { label: '재산분할 기준시점', href: '/guide/divorce/divorce-property-division-cutoff-date' },
-      { label: '재산분할 vs 위자료', href: '/guide/divorce/divorce-property-division-vs-alimony-comparison' },
+      { label: '재산분할 vs 위자료', href: '/guide/divorce/property-division-vs-alimony-comparison' },
       { label: '배우자 사업 채무 연대보증', href: '/guide/divorce/divorce-spouse-business-debt-cosign' },
     ],
   },
@@ -337,7 +337,7 @@ export const spokesBatch58Divorce: SpokePage[] = [
     ],
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '협의이혼 양육 합의서', href: '/guide/divorce/divorce-custody-agreement-prep' },
+      { label: '협의이혼 양육 합의서', href: '/guide/divorce/custody-agreement-prep' },
       { label: '양육비 산정기준표', href: '/guide/divorce/child-support-calculation-standard' },
       { label: '양육비 미지급 감치명령', href: '/guide/divorce/child-support-enforcement-contempt-order' },
       { label: '협의이혼 절차', href: '/guide/divorce/consensual-divorce-process' },

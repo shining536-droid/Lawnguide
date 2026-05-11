@@ -169,7 +169,7 @@ export const spokesBatch48Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '코인 사기 피해 증거 수집', href: '/guide/fraud/fraud-crypto-rug-pull-evidence' },
-      { label: '투자 사기 유형별 대응', href: '/guide/fraud/fraud-investment-scam-response' },
+      { label: '투자 사기 유형별 대응', href: '/guide/fraud/fraud-sns-investment-scam-response' },
       { label: '전기통신금융사기 환급 신청', href: '/guide/fraud/fraud-telecom-financial-payment-suspension' },
       { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
       { label: '사기 피해 증거 수집 순서', href: '/guide/fraud/fraud-evidence-collection-order' },

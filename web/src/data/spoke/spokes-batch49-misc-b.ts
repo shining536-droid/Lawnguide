@@ -171,7 +171,7 @@ export const spokesBatch49MiscB: SpokePage[] = [
       { label: '면책 불허가 사유 정리', href: '/guide/bankruptcy/bankruptcy-discharge-denial-reasons' },
       { label: 'KLAC 무료 파산 지원', href: '/guide/bankruptcy/bankruptcy-klac-free-support' },
       { label: '파산 vs 회생 선택 기준', href: '/guide/bankruptcy/bankruptcy-vs-rehabilitation-comparison' },
-      { label: '파산 신청 후 신용 회복 흐름', href: '/guide/bankruptcy/bankruptcy-credit-recovery-after' },
+      { label: '파산 신청 후 신용 회복 흐름', href: '/guide/bankruptcy/bankruptcy-credit-recovery-steps' },
     ],
   },
 

@@ -336,7 +336,7 @@ export const spokesBatch49Fraud: SpokePage[] = [
     internalLinks: [
       { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
       { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
-      { label: '리딩방·투자 사기 대응', href: '/guide/fraud/fraud-investment-scam-response' },
+      { label: '리딩방·투자 사기 대응', href: '/guide/fraud/fraud-sns-investment-scam-response' },
       { label: '소액사건 지급명령 신청', href: '/guide/fraud/fraud-payment-order-small-claims' },
       { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
     ],

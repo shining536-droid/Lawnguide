@@ -84,7 +84,7 @@ export const spokesBatch55Retire: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 계산기 평균임금 통상임금', href: '/guide/retirement/retirement-calculation-average-ordinary-wage' },
       { label: '퇴직금 미지급 진정 절차', href: '/guide/retirement/retirement-unpaid-complaint-procedure' },
-      { label: '아르바이트·계약직 퇴직금 적용', href: '/guide/retirement/retirement-parttime-contract-eligibility' },
+      { label: '아르바이트·계약직 퇴직금 적용', href: '/guide/retirement/retirement-part-time-eligibility' },
       { label: '체당금(대지급금) 신청 5단계', href: '/guide/retirement/retirement-substitute-payment-5steps' },
       { label: '퇴직금 시효 3년 보전 절차', href: '/guide/retirement/retirement-statute-near-expiry-preserve' },
     ],

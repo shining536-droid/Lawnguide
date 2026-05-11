@@ -181,7 +181,7 @@ export const spokesBatch59DivorceInheritance: SpokePage[] = [
       { label: '재산분할 항목 종합', href: '/guide/divorce/divorce-property-division-comprehensive' },
       { label: '재판 후 누락재산 추가청구', href: '/guide/divorce/divorce-post-judgment-property-omission-claim' },
       { label: '협의이혼 절차 안내', href: '/guide/divorce/consensual-divorce-process' },
-      { label: '재산분할 vs 위자료', href: '/guide/divorce/divorce-property-division-vs-alimony-comparison' },
+      { label: '재산분할 vs 위자료', href: '/guide/divorce/property-division-vs-alimony-comparison' },
     ],
   },
 
@@ -264,7 +264,7 @@ export const spokesBatch59DivorceInheritance: SpokePage[] = [
       { label: '위장이혼 사해행위', href: '/guide/divorce/divorce-sham-divorce-creditor-fraudulent-transfer' },
       { label: '재산처분 사유 입증', href: '/guide/divorce/divorce-asset-disposal-grounds' },
       { label: '배우자 자산 미공개', href: '/guide/divorce/divorce-husband-rejected-property-disclose' },
-      { label: '재산분할 vs 위자료', href: '/guide/divorce/divorce-property-division-vs-alimony-comparison' },
+      { label: '재산분할 vs 위자료', href: '/guide/divorce/property-division-vs-alimony-comparison' },
     ],
   },
 

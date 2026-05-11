@@ -85,11 +85,11 @@ export const spokesBatch47Misc: SpokePage[] = [
     ],
     cta: { text: '양육비 못 받을 때 다음 단계, AI로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비 이행명령 신청 절차', href: '/guide/child-support/child-support-enforcement-order-steps' },
+      { label: '양육비 이행명령 신청 절차', href: '/guide/child-support/child-support-enforcement-order-apply' },
       { label: '감치명령 신청 요건', href: '/guide/child-support/child-support-detention-order-requirements' },
       { label: '양육비이행관리원 무료 지원', href: '/guide/child-support/child-support-csa-free-support' },
       { label: '양육비 강제집행 재산 조회', href: '/guide/child-support/child-support-asset-investigation' },
-      { label: '양육비 산정기준표 활용법', href: '/guide/child-support/child-support-calculation-standard' },
+      { label: '양육비 산정기준표 활용법', href: '/guide/child-support/child-support-calculation-table' },
     ],
   },
 
@@ -168,9 +168,9 @@ export const spokesBatch47Misc: SpokePage[] = [
     ],
     cta: { text: '개인회생 신청 자격, AI로 점검하기', link: '/chat?domain=rehabilitation' },
     internalLinks: [
-      { label: '개인회생 신청 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements' },
+      { label: '개인회생 신청 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
       { label: '변제계획안 작성 포인트', href: '/guide/rehabilitation/rehabilitation-repayment-plan-writing' },
-      { label: '개인회생 vs 파산 선택 기준', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-comparison' },
+      { label: '개인회생 vs 파산 선택 기준', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-choice' },
       { label: 'KLAC 법률구조 무료 지원', href: '/guide/rehabilitation/rehabilitation-klac-free-support' },
       { label: '자영업 폐업 후 파산 절차', href: '/guide/bankruptcy/bankruptcy-self-employed-closing-procedure' },
     ],
@@ -412,7 +412,7 @@ export const spokesBatch47Misc: SpokePage[] = [
     ],
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹처벌법 잠정조치 신청 방법', href: '/guide/stalking/stalking-provisional-measures-application' },
+      { label: '스토킹처벌법 잠정조치 신청 방법', href: '/guide/stalking/stalking-provisional-measure-application-effect' },
       { label: '피해자보호명령 신청 절차', href: '/guide/stalking/stalking-victim-protection-order' },
       { label: '온라인 스토킹 증거 수집법', href: '/guide/stalking/stalking-online-evidence-collection' },
       { label: '스토킹 고소 후 수사 흐름', href: '/guide/stalking/stalking-criminal-complaint-investigation' },

@@ -88,8 +88,8 @@ export const spokesBatch50Traffic: SpokePage[] = [
       { label: '자전거 vs 보행자 사고 합의', href: '/guide/traffic-accident/traffic-accident-bicycle-pedestrian-settlement' },
       { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
-      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-documents' },
-      { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-personal-injury-claim' },
+      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
+      { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
     ],
   },
 
@@ -168,8 +168,8 @@ export const spokesBatch50Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-personal-injury-claim' },
-      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-documents' },
+      { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
+      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
@@ -252,8 +252,8 @@ export const spokesBatch50Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
-      { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-personal-injury-claim' },
-      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-documents' },
+      { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
+      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
       { label: '음주운전 차량 동승자 자기보험 보상', href: '/guide/traffic-accident/traffic-accident-drunk-passenger-self-insurance' },
     ],
@@ -337,8 +337,8 @@ export const spokesBatch50Traffic: SpokePage[] = [
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
       { label: '후방 추돌 + 급정거 과실 분배', href: '/guide/traffic-accident/traffic-accident-rear-end-sudden-brake-fault' },
-      { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-personal-injury-claim' },
-      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-documents' },
+      { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
+      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
     ],
   },
 

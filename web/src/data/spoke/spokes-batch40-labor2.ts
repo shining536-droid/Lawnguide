@@ -82,7 +82,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '부당해고 구제신청 전체 절차', href: '/guide/dismissal/unfair-dismissal-remedy-procedure' },
+      { label: '부당해고 구제신청 전체 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '해고 정당성 4요건', href: '/guide/dismissal/dismissal-justification-requirements' },
       { label: '권고사직 응하면 안 되는 경우', href: '/guide/dismissal/recommended-resignation-caution' },
       { label: '해고예고수당 청구 방법', href: '/guide/dismissal/dismissal-advance-notice-pay' },
@@ -169,7 +169,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '부당해고 구제신청 절차', href: '/guide/dismissal/unfair-dismissal-remedy-procedure' },
+      { label: '부당해고 구제신청 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '부당전보 구제신청 기준', href: '/guide/dismissal/unfair-transfer-remedy' },
       { label: '근로계약서 근무지 조항', href: '/guide/dismissal/employment-contract-workplace-clause' },
       { label: '해고 사유서 요구 방법', href: '/guide/dismissal/dismissal-reason-written-request' },
@@ -256,7 +256,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '부당해고 구제신청 절차', href: '/guide/dismissal/unfair-dismissal-remedy-procedure' },
+      { label: '부당해고 구제신청 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '업무상 재해 해고 금지', href: '/guide/dismissal/work-injury-dismissal-prohibition' },
       { label: '산재 신청과 해고 구제 병행', href: '/guide/dismissal/workers-comp-with-remedy' },
       { label: '해고 사유서 요구 방법', href: '/guide/dismissal/dismissal-reason-written-request' },
@@ -434,7 +434,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       { label: '민법 840조 사유별 증거', href: '/guide/divorce/divorce-cause-evidence' },
       { label: '이혼 조정 전치주의', href: '/guide/divorce/mediation-first-principle' },
       { label: '위자료·재산분할 병합 청구', href: '/guide/divorce/alimony-property-combined-claim' },
-      { label: '유책배우자 이혼 청구', href: '/guide/divorce/at-fault-spouse-divorce' },
+      { label: '유책배우자 이혼 청구', href: '/guide/divorce/at-fault-spouse-divorce-filing' },
     ],
   },
 
@@ -520,7 +520,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       { label: '친권·양육권 판단 기준', href: '/guide/divorce/custody-decision-criteria' },
       { label: '면접교섭권 실무', href: '/guide/divorce/visitation-rights-practice' },
       { label: '친권자 변경 청구', href: '/guide/divorce/custodian-change-petition' },
-      { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation' },
+      { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '이혼가족 심리상담 지원', href: '/guide/divorce/divorce-family-counseling' },
     ],
   },
@@ -608,7 +608,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       { label: '양육비이행관리원 활용', href: '/guide/child-support/support-agency-guide' },
       { label: '재산명시·재산조회', href: '/guide/child-support/property-disclosure-inquiry' },
       { label: '양육비 감치 제재', href: '/guide/child-support/detention-sanction' },
-      { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation' },
+      { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
     ],
   },
 
@@ -693,7 +693,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
     internalLinks: [
       { label: '양육비 변경심판 청구 절차', href: '/guide/child-support/amount-change-petition' },
       { label: '친양자 입양과 양육비', href: '/guide/child-support/full-adoption-support' },
-      { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation' },
+      { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '면접교섭과 양육비 관계', href: '/guide/child-support/visitation-vs-support' },
       { label: '사정변경 인정 사례', href: '/guide/child-support/change-of-circumstances-cases' },
     ],

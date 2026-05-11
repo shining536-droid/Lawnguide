@@ -305,11 +305,11 @@ export const spokesBatch29Misc: SpokePage[] = [
     ],
     cta: { text: '양육비 증액 가능성 AI로 즉시 확인하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '양육비 산정 기준', href: '/guide/child-support/child-support-calculation-guide' },
-      { label: '양육비 강제집행', href: '/guide/child-support/child-support-enforcement-guide' },
+      { label: '양육비 산정 기준', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 강제집행', href: '/guide/child-support/child-support-enforcement-method' },
       { label: '이혼 재산분할', href: '/guide/divorce/divorce-property-division-scope-faq' },
       { label: '면접교섭권', href: '/guide/divorce/divorce-child-custody-father-strategy' },
-      { label: '양육비이행관리원', href: '/guide/child-support/child-support-enforcement-order' },
+      { label: '양육비이행관리원', href: '/guide/child-support/child-support-enforcement-order-apply' },
     ],
   },
 
@@ -380,8 +380,8 @@ export const spokesBatch29Misc: SpokePage[] = [
     cta: { text: '면접교섭권 이행 강제 AI로 즉시 확인하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '양육권 아버지 전략', href: '/guide/divorce/divorce-child-custody-father-strategy' },
-      { label: '양육비 산정 기준', href: '/guide/child-support/child-support-calculation-guide' },
-      { label: '양육비 강제집행', href: '/guide/child-support/child-support-enforcement-guide' },
+      { label: '양육비 산정 기준', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 강제집행', href: '/guide/child-support/child-support-enforcement-method' },
       { label: '이혼 재산분할', href: '/guide/divorce/divorce-property-division-scope-faq' },
       { label: '이혼 상담 준비', href: '/guide/divorce/divorce-consultation-prep' },
     ],

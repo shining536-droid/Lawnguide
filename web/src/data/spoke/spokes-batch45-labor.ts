@@ -425,8 +425,8 @@ export const spokesBatch45Labor: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '해고 서면통보 의무', href: '/guide/dismissal/dismissal-written-notice-requirement' },
-      { label: '징계위 소명기회 누락', href: '/guide/dismissal/dismissal-disciplinary-hearing-omission' },
-      { label: '해고예고와 30일 임금', href: '/guide/dismissal/dismissal-30day-notice-pay' },
+      { label: '징계위 소명기회 누락', href: '/guide/dismissal/dismissal-disciplinary-hearing-rights' },
+      { label: '해고예고와 30일 임금', href: '/guide/dismissal/dismissal-notice-pay' },
       { label: '비례성 원칙과 징계', href: '/guide/dismissal/dismissal-proportionality-principle' },
       { label: '부당해고 구제신청 절차', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
     ],
@@ -1005,7 +1005,7 @@ export const spokesBatch45Labor: SpokePage[] = [
     ],
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      { label: '합병·양도 시 근로관계 승계', href: '/guide/retirement/retirement-merger-acquisition-succession' },
+      { label: '합병·양도 시 근로관계 승계', href: '/guide/retirement/retirement-business-acquisition-succession' },
       { label: '계속근로기간 합산 기준', href: '/guide/retirement/retirement-continuous-service-rules' },
       { label: '중간정산 효력 다툼', href: '/guide/retirement/retirement-mid-settlement-validity' },
       { label: '평균임금 산정 방법', href: '/guide/retirement/retirement-average-wage-calc' },

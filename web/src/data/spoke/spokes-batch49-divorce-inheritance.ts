@@ -337,7 +337,7 @@ export const spokesBatch49DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '외도 입증 증거 수집 가이드', href: '/guide/divorce/divorce-affair-evidence-collection' },
+      { label: '외도 입증 증거 수집 가이드', href: '/guide/divorce/divorce-online-affair-evidence-collection' },
       { label: '상간자 위자료 청구 절차', href: '/guide/divorce/divorce-third-party-alimony' },
       { label: '이혼 후 위자료 청구 시효', href: '/guide/divorce/divorce-alimony-claim-deadline' },
       { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },

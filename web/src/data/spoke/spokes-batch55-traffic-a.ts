@@ -250,7 +250,7 @@ export const spokesBatch55TrafficA: SpokePage[] = [
     cta: { text: '후유증 추가 청구 가능한지 AI로 점검하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '뺑소니 정부보장사업 청구', href: '/guide/traffic-accident/traffic-accident-hit-and-run-government-compensation' },
-      { label: '교통사고 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim' },
+      { label: '교통사고 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim-settlement' },
       { label: '교통사고 합의금 산정', href: '/guide/traffic-accident/traffic-accident-settlement-calculation' },
       { label: '도로 낙하물 노상방치물 책임', href: '/guide/traffic-accident/traffic-accident-road-debris-fallen-object-liability' },
       { label: '교통사고 피해자 1차 대응', href: '/guide/traffic-accident/traffic-accident-victim-first-response' },

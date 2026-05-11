@@ -252,7 +252,7 @@ export const spokesBatch54Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '음주 혈중알코올 측정 시점', href: '/guide/traffic-accident/traffic-accident-dui-blood-test-timing' },
-      { label: '음주운전 형사 절차', href: '/guide/traffic-accident/traffic-accident-dui-criminal-process' },
+      { label: '음주운전 형사 절차', href: '/guide/traffic-accident/traffic-accident-drowsy-driving-criminal-process' },
       { label: '음주운전 면허 행정심판', href: '/guide/traffic-accident/traffic-accident-dui-license-administrative' },
       { label: '교통사고 가해자 형사 1차 대응', href: '/guide/traffic-accident/traffic-accident-offender-criminal-charge-response' },
       { label: '교통사고 형사·민사 절차', href: '/guide/traffic-accident/traffic-accident-criminal-civil-procedure' },

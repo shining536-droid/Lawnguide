@@ -705,7 +705,7 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
     internalLinks: [
       { label: '면책결정 후 강제집행정지', href: '/guide/bankruptcy/bankruptcy-stay-of-execution-after-discharge' },
       { label: '압류금지 채권 범위', href: '/guide/bankruptcy/bankruptcy-attachment-prohibited-claims' },
-      { label: '비면책채권 확인', href: '/guide/bankruptcy/bankruptcy-non-dischargeable-debts' },
+      { label: '비면책채권 확인', href: '/guide/bankruptcy/bankruptcy-non-dischargeable-debt-types' },
       { label: '행복지킴이통장 개설', href: '/guide/bankruptcy/bankruptcy-happy-protection-account' },
       { label: '면책결정 후 신용 회복', href: '/guide/bankruptcy/bankruptcy-credit-rebuild-after-discharge' },
     ],

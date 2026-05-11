@@ -86,7 +86,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       { label: '가정폭력 대피·보호명령', href: '/guide/divorce/divorce-domestic-violence-escape' },
       { label: '접근금지 가처분', href: '/guide/divorce/divorce-restraining-order' },
       { label: '이혼 재산분할 기본', href: '/guide/divorce/divorce-property-division-basics' },
-      { label: '자녀 양육권 전략', href: '/guide/divorce/divorce-custody-mother-strategy' },
+      { label: '자녀 양육권 전략', href: '/guide/divorce/divorce-child-custody-father-strategy' },
     ],
   },
 
@@ -171,7 +171,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
     internalLinks: [
       { label: '이혼 시작 가이드', href: '/guide/divorce/divorce-first-step-guide' },
       { label: '국제결혼 이혼 절차', href: '/guide/divorce/divorce-international-marriage-procedure' },
-      { label: '자녀 양육권 전략', href: '/guide/divorce/divorce-custody-mother-strategy' },
+      { label: '자녀 양육권 전략', href: '/guide/divorce/divorce-child-custody-father-strategy' },
       { label: '재산분할 기본', href: '/guide/divorce/divorce-property-division-basics' },
       { label: '해외 재산 분할', href: '/guide/divorce/divorce-overseas-asset-division' },
     ],
@@ -256,10 +256,10 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       link: '/chat?domain=child-support',
     },
     internalLinks: [
-      { label: '양육비 계산 가이드', href: '/guide/child-support/child-support-calculation-guide' },
-      { label: '양육비 집행 절차', href: '/guide/child-support/child-support-enforcement-guide' },
+      { label: '양육비 계산 가이드', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 집행 절차', href: '/guide/child-support/child-support-enforcement-method' },
       { label: '양육비 증액 심판', href: '/guide/child-support/child-support-modification' },
-      { label: '양육비 직접지급명령', href: '/guide/child-support/child-support-enforcement-order' },
+      { label: '양육비 직접지급명령', href: '/guide/child-support/child-support-enforcement-order-apply' },
       { label: '공정증서 활용법', href: '/guide/divorce/divorce-consensual-documents-needed' },
     ],
   },
@@ -431,9 +431,9 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '이혼 시작 가이드', href: '/guide/divorce/divorce-first-step-guide' },
-      { label: '조정 vs 재판이혼', href: '/guide/divorce/divorce-mediation-vs-trial' },
+      { label: '조정 vs 재판이혼', href: '/guide/divorce/divorce-mediation-vs-trial-strategy' },
       { label: '재산분할 준비', href: '/guide/divorce/divorce-property-division-preparation' },
-      { label: '자녀 양육권 전략', href: '/guide/divorce/divorce-custody-mother-strategy' },
+      { label: '자녀 양육권 전략', href: '/guide/divorce/divorce-child-custody-father-strategy' },
       { label: '이혼 위자료 기준', href: '/guide/divorce/divorce-alimony-how-much' },
     ],
   },
@@ -519,7 +519,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
     internalLinks: [
       { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-check' },
       { label: '보험 약관 해석', href: '/guide/traffic-accident/traffic-accident-insurance-duty' },
-      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
+      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-additional-treatment-cost' },
       { label: '교통사고 손해배상', href: '/guide/traffic-accident/traffic-accident-settlement-fair-amount' },
     ],
@@ -604,9 +604,9 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
+      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '블랙박스 증거 확보', href: '/guide/traffic-accident/traffic-dashcam-evidence' },
-      { label: '고속도로 사고 대응', href: '/guide/traffic-accident/traffic-accident-highway-multi' },
+      { label: '고속도로 사고 대응', href: '/guide/traffic-accident/traffic-accident-highway-multi-collision' },
       { label: '추돌 사고 책임', href: '/guide/traffic-accident/traffic-accident-rear-end-fault-ratio' },
       { label: '사고 합의 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-check' },
     ],
@@ -691,7 +691,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
+      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '사고 합의 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-check' },
       { label: '대인·대물 보상 구조', href: '/guide/traffic-accident/traffic-accident-insurance-duty' },
       { label: '공무 중 사고 대응', href: '/guide/traffic-accident/traffic-accident-insurance-negotiation' },
@@ -778,7 +778,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
+      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '사고 합의 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-check' },
       { label: '승객 보상', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
       { label: '후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-additional-treatment-cost' },
@@ -865,7 +865,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '교통사고 보상 절차', href: '/guide/traffic-accident/traffic-accident-settlement-process' },
+      { label: '교통사고 보상 절차', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '사고 합의 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-check' },
       { label: '대인·대물 보상', href: '/guide/traffic-accident/traffic-accident-insurance-duty' },
       { label: '후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-additional-treatment-cost' },
@@ -956,7 +956,7 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       { label: '암호화폐 사기', href: '/guide/fraud/fraud-crypto-scam-report' },
       { label: '사기죄 성립 요건', href: '/guide/fraud/fraud-establishment-what-counts' },
       { label: '피해자 증거 수집', href: '/guide/fraud/fraud-victim-evidence-timeline' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-documents' },
+      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -1039,11 +1039,11 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
       link: '/chat?domain=fraud',
     },
     internalLinks: [
-      { label: '로맨스 스캠 증거', href: '/guide/fraud/fraud-romance-scam-evidence' },
+      { label: '로맨스 스캠 증거', href: '/guide/fraud/fraud-dating-romance-scam-evidence' },
       { label: '보이스피싱 대응', href: '/guide/fraud/fraud-voice-phishing-freeze' },
       { label: '투자 사기 대응', href: '/guide/fraud/fraud-investment-criminal-civil' },
       { label: '피해자 증거 타임라인', href: '/guide/fraud/fraud-victim-evidence-timeline' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-documents' },
+      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -1127,10 +1127,10 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '보이스피싱 대응', href: '/guide/fraud/fraud-voice-phishing-freeze' },
-      { label: '피해구제 신청', href: '/guide/fraud/fraud-voice-phishing-relief-application' },
-      { label: '보이스피싱 회수', href: '/guide/fraud/fraud-voice-phishing-recovery' },
+      { label: '피해구제 신청', href: '/guide/fraud/fraud-voice-phishing-relief-law-application' },
+      { label: '보이스피싱 회수', href: '/guide/fraud/fraud-elderly-voice-phishing-recovery' },
       { label: '금융사기 증거', href: '/guide/fraud/fraud-victim-evidence-timeline' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-documents' },
+      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -1215,9 +1215,9 @@ export const spokesBatch39Nonlabor1: SpokePage[] = [
     internalLinks: [
       { label: '온라인 쇼핑 사기', href: '/guide/fraud/fraud-online-shopping-scam' },
       { label: '피해자 증거 타임라인', href: '/guide/fraud/fraud-victim-evidence-timeline' },
-      { label: '피해구제 신청', href: '/guide/fraud/fraud-voice-phishing-relief-application' },
+      { label: '피해구제 신청', href: '/guide/fraud/fraud-voice-phishing-relief-law-application' },
       { label: '중고거래 사기 대응', href: '/guide/fraud/fraud-secondhand-refund' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-documents' },
+      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 ];

@@ -173,7 +173,7 @@ export const spokesBatch30Misc: SpokePage[] = [
     cta: { text: '양육비 변경 가능 여부 AI로 바로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육비 청구 시작', href: '/guide/child-support/child-support-claim-where-to-start' },
-      { label: '양육비 산정 기준', href: '/guide/child-support/child-support-calculation-standard' },
+      { label: '양육비 산정 기준', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 이행명령', href: '/guide/child-support/child-support-enforcement-order-apply' },
       { label: '양육비 증액 방법', href: '/guide/child-support/child-support-increase-request-method' },
       { label: '이혼 재산분할', href: '/guide/divorce/divorce-property-division-scope-faq' },

@@ -839,7 +839,7 @@ export const spokesBatch46Labor: SpokePage[] = [
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
-      { label: '거주이전 정당이직 인정', href: '/guide/unemployment/unemployment-relocation-just-cause' },
+      { label: '거주이전 정당이직 인정', href: '/guide/unemployment/unemployment-spouse-relocation-just-cause' },
       { label: '이직확인서 코드 정정', href: '/guide/unemployment/unemployment-departure-code-correction' },
       { label: '출국·해외체류 시 처리', href: '/guide/unemployment/unemployment-overseas-stay-process' },
       { label: '심사청구·재심사청구 절차', href: '/guide/unemployment/unemployment-review-procedure' },

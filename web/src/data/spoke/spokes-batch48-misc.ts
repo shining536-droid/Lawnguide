@@ -171,7 +171,7 @@ export const spokesBatch48Misc: SpokePage[] = [
     cta: { text: '퇴직금 포함 항목, AI로 먼저 확인하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: '퇴직금 중간정산 적법 사유', href: '/guide/retirement/retirement-interim-settlement-2024-rules' },
-      { label: '평균임금 산정 기준', href: '/guide/retirement/retirement-average-wage-criteria' },
+      { label: '평균임금 산정 기준', href: '/guide/retirement/retirement-average-wage-dispute' },
       { label: '퇴직금 미지급 시 도산대지급금', href: '/guide/retirement/retirement-unpaid-substitute-payment' },
       { label: '임금체불 노동청 진정 절차', href: '/guide/wage/wage-unpaid-labor-office-complaint' },
       { label: '퇴직금 시효 관리법', href: '/guide/retirement/retirement-claim-expiration' },
@@ -336,8 +336,8 @@ export const spokesBatch48Misc: SpokePage[] = [
     ],
     cta: { text: '개인회생 신청 자격, AI로 점검하기', link: '/chat?domain=rehabilitation' },
     internalLinks: [
-      { label: '개인회생 신청 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements' },
-      { label: '회생 vs 파산 선택 기준', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-comparison' },
+      { label: '개인회생 신청 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
+      { label: '회생 vs 파산 선택 기준', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-choice' },
       { label: '변제계획안 작성 포인트', href: '/guide/rehabilitation/rehabilitation-repayment-plan-writing' },
       { label: 'KLAC 법률구조 무료 지원', href: '/guide/rehabilitation/rehabilitation-klac-free-support' },
       { label: '카드론 채무 정리 옵션 비교', href: '/guide/rehabilitation/rehabilitation-card-loan-included' },

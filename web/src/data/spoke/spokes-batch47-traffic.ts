@@ -85,7 +85,7 @@ export const spokesBatch47Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-documents' },
+      { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '쌍방과실 비율 다툼 방법', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '자차보험 자기부담금 청구', href: '/guide/traffic-accident/traffic-accident-self-deductible-claim' },
       { label: '소액심판 신청 절차', href: '/guide/traffic-accident/traffic-accident-small-claims-procedure' },
@@ -252,7 +252,7 @@ export const spokesBatch47Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '교통사고 12대 중과실 정리', href: '/guide/traffic-accident/traffic-accident-12-major-fault' },
-      { label: '교통사고 합의금 산정 기준', href: '/guide/traffic-accident/traffic-accident-settlement-criteria' },
+      { label: '교통사고 합의금 산정 기준', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '교통사고 형사합의 절차', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
       { label: '야간 사이클 과실 기준', href: '/guide/traffic-accident/traffic-accident-night-cycling-fault-share' },
       { label: '주차장 기둥 충돌 책임', href: '/guide/traffic-accident/traffic-accident-parking-pillar-fault' },
@@ -334,7 +334,7 @@ export const spokesBatch47Traffic: SpokePage[] = [
     ],
     cta: { text: '후유증 추가 청구 가능한지 AI로 점검하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-documents' },
+      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '교통사고 후유장해 진단 절차', href: '/guide/traffic-accident/traffic-accident-disability-diagnosis' },
       { label: '손해보험 분쟁조정 신청 방법', href: '/guide/traffic-accident/traffic-accident-insurance-dispute' },
       { label: '동승자 부상 운전자 책임', href: '/guide/traffic-accident/traffic-accident-passenger-injury-driver-fault' },
@@ -417,7 +417,7 @@ export const spokesBatch47Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-documents' },
+      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '저속 추돌 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-low-speed-rear-end-aftereffect' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '야간 무단횡단 과실 기준', href: '/guide/traffic-accident/traffic-accident-pedestrian-jaywalk-night-fault' },

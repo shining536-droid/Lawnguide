@@ -87,7 +87,7 @@ export const spokesBatch61AssaultCsDui: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 첫 대응', href: '/guide/assault/assault-victim-where-to-start' },
-      { label: '폭행 증거 수집', href: '/guide/assault/assault-victim-evidence-collection' },
+      { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '합의금 산정', href: '/guide/assault/assault-settlement-amount-guide' },
       { label: '약자 피해 보호', href: '/guide/assault/assault-mental-disability-victim-protect' },
       { label: '재범 가중 처벌', href: '/guide/assault/assault-repeat-offense-escalation' },
@@ -243,7 +243,7 @@ export const spokesBatch61AssaultCsDui: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 첫 대응', href: '/guide/assault/assault-victim-where-to-start' },
-      { label: '증거 수집', href: '/guide/assault/assault-victim-evidence-collection' },
+      { label: '증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '합의금 산정', href: '/guide/assault/assault-settlement-amount-guide' },
       { label: '재범 가중', href: '/guide/assault/assault-repeat-offense-escalation' },
       { label: 'CCTV vs 진단서', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },

@@ -98,7 +98,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
       { label: '임차권등기명령 신청 방법', href: '/guide/jeonse/jeonse-lease-registration-order' },
       { label: '전세 계약 갱신 거절 사유', href: '/guide/jeonse/jeonse-renewal-refusal-grounds' },
       { label: '월세 세액공제 요건 정리', href: '/guide/jeonse/jeonse-monthly-rent-tax-deduction' },
-      { label: '보증금 지연이자 청구 가이드', href: '/guide/jeonse/jeonse-deposit-delay-interest' },
+      { label: '보증금 지연이자 청구 가이드', href: '/guide/jeonse/jeonse-deposit-delay-interest-claim' },
     ],
   },
 
@@ -280,7 +280,7 @@ export const spokesBatch43Nonlabor3: SpokePage[] = [
     internalLinks: [
       { label: '양육비 이행명령·감치 절차', href: '/guide/child-support/child-support-enforcement-contempt-order' },
       { label: '양육비 직접지급명령 신청 절차', href: '/guide/child-support/child-support-direct-payment-order-procedure' },
-      { label: '양육비 산정기준표 활용법', href: '/guide/child-support/child-support-calculation-table-use' },
+      { label: '양육비 산정기준표 활용법', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 체납 명단 공개 신청', href: '/guide/child-support/child-support-overdue-name-disclosure' },
       { label: '양육비 이행관리원 무료 지원', href: '/guide/child-support/child-support-enforcement-method' },
     ],

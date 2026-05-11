@@ -179,7 +179,7 @@ export const spokesBatch26_34to35: SpokePage[] = [
       { label: '개인파산 가이드', href: '/guide/bankruptcy' },
       { label: '개인회생 가이드', href: '/guide/rehabilitation' },
       { label: '임금체불 가이드', href: '/guide/wage' },
-      { label: '파산 면책 비면책채권 확인', href: '/guide/bankruptcy/bankruptcy-non-dischargeable-debts' },
+      { label: '파산 면책 비면책채권 확인', href: '/guide/bankruptcy/bankruptcy-non-dischargeable-debt-types' },
     ],
   },
 ];

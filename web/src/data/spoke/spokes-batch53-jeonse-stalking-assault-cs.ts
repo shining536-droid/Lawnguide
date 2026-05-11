@@ -258,7 +258,7 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
       { label: '잠정조치·접근금지 신청', href: '/guide/stalking/stalking-temporary-measures' },
       { label: '헤어진 연인 반복 접근 대응', href: '/guide/stalking/stalking-ex-lover-court-approach-ban' },
       { label: '스토킹 처벌 수위와 양형', href: '/guide/stalking/stalking-penalty-overview' },
-      { label: '디지털 증거 보전 절차', href: '/guide/stalking/stalking-evidence-collection' },
+      { label: '디지털 증거 보전 절차', href: '/guide/stalking/stalking-evidence-collection-faq' },
     ],
   },
 
@@ -341,7 +341,7 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
       { label: '잠정조치·접근금지 신청', href: '/guide/stalking/stalking-temporary-measures' },
       { label: '직장 동료 스토킹 대응', href: '/guide/stalking/stalking-coworker-repeated-approach' },
       { label: '스토킹 처벌 수위와 양형', href: '/guide/stalking/stalking-penalty-overview' },
-      { label: '스토킹 증거 수집 가이드', href: '/guide/stalking/stalking-evidence-collection' },
+      { label: '스토킹 증거 수집 가이드', href: '/guide/stalking/stalking-evidence-collection-faq' },
     ],
   },
 
@@ -420,7 +420,7 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
-      { label: '폭행죄 합의금 산정 기준', href: '/guide/assault/assault-settlement-amount' },
+      { label: '폭행죄 합의금 산정 기준', href: '/guide/assault/assault-settlement-amount-guide' },
       { label: '폭행 형사조정 절차', href: '/guide/assault/assault-criminal-mediation' },
       { label: '단체 폭행 가담 책임', href: '/guide/assault/assault-group-attack-joint-liability' },
       { label: '정당방위 인정 절차', href: '/guide/assault/assault-self-defense-recognition' },
@@ -504,7 +504,7 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 양형 기준 정리', href: '/guide/assault/assault-sentencing-criteria' },
-      { label: '폭행 합의금 산정', href: '/guide/assault/assault-settlement-amount' },
+      { label: '폭행 합의금 산정', href: '/guide/assault/assault-settlement-amount-guide' },
       { label: '폭행 형사조정 활용', href: '/guide/assault/assault-criminal-mediation' },
       { label: '폭행 초범 양형 감경', href: '/guide/assault/assault-first-offense-mitigation' },
       { label: '국선변호인 신청 절차', href: '/guide/assault/assault-public-defender-procedure' },
@@ -587,7 +587,7 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육비이행관리원 추심 절차', href: '/guide/child-support/child-support-agency-collection-procedure' },
-      { label: '양육비 이행명령 신청', href: '/guide/child-support/child-support-enforcement-order' },
+      { label: '양육비 이행명령 신청', href: '/guide/child-support/child-support-enforcement-order-apply' },
       { label: '양육비 감치명령 절차', href: '/guide/child-support/child-support-detention-order' },
       { label: '양육비 직접지급 vs 이행관리원 비교', href: '/guide/child-support/child-support-direct-vs-agency-comparison' },
       { label: '양육비 미지급 종합 대응', href: '/guide/child-support/child-support-non-payment-comprehensive' },
@@ -669,7 +669,7 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비 산정기준표 적용', href: '/guide/child-support/child-support-calculation-standard' },
+      { label: '양육비 산정기준표 적용', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 변경심판 절차', href: '/guide/child-support/child-support-modification-procedure' },
       { label: '양육비 미지급 종합 대응', href: '/guide/child-support/child-support-non-payment-comprehensive' },
       { label: '양육비 직접지급명령 신청', href: '/guide/child-support/child-support-direct-payment-order-procedure' },

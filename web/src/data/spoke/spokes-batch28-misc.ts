@@ -281,7 +281,7 @@ export const spokesBatch28Misc: SpokePage[] = [
       { label: '양육비 청구 어디부터', href: '/guide/child-support/child-support-claim-where-to-start' },
       { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 강제집행', href: '/guide/child-support/child-support-enforcement-methods' },
-      { label: '양육비 소송 절차', href: '/guide/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 소송 절차', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: '양육비 미납 추심', href: '/guide/child-support/child-support-overdue-collection' },
     ],
   },

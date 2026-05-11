@@ -249,7 +249,7 @@ export const spokesBatch18_6to10: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '이혼 진단', href: '/diagnosis/divorce' },
       { label: '협의이혼 준비서류 체크리스트', href: '/guide/divorce/consensual-divorce-required-documents-checklist' },
-      { label: '이혼 재산분할 절차', href: '/guide/divorce/divorce-property-division' },
+      { label: '이혼 재산분할 절차', href: '/guide/divorce/divorce-elderly-property-division' },
       { label: '양육비 산정 기준과 청구 방법', href: '/guide/divorce/child-custody-support' },
     ],
   },

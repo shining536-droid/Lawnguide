@@ -85,7 +85,7 @@ export const spokesBatch26_30to33: SpokePage[] = [
     internalLinks: [
       { label: '로앤가이드 홈', href: '/' },
       { label: '이혼 법률 가이드', href: '/guide/divorce' },
-      { label: '재산분할 청구 절차', href: '/guide/divorce/property-division' },
+      { label: '재산분할 청구 절차', href: '/guide/divorce/property-division-ratio' },
       { label: '상속 법률 가이드', href: '/guide/inheritance' },
       { label: '양육비 청구 가이드', href: '/guide/child-support' },
     ],
@@ -169,7 +169,7 @@ export const spokesBatch26_30to33: SpokePage[] = [
     internalLinks: [
       { label: '로앤가이드 홈', href: '/' },
       { label: '이혼 법률 가이드', href: '/guide/divorce' },
-      { label: '재산분할 청구 방법', href: '/guide/divorce/property-division' },
+      { label: '재산분할 청구 방법', href: '/guide/divorce/property-division-ratio' },
       { label: '양육비 청구 가이드', href: '/guide/child-support' },
       { label: '상속 법률 가이드', href: '/guide/inheritance' },
     ],
@@ -248,7 +248,7 @@ export const spokesBatch26_30to33: SpokePage[] = [
     internalLinks: [
       { label: '로앤가이드 홈', href: '/' },
       { label: '이혼 법률 가이드', href: '/guide/divorce' },
-      { label: '재산분할 청구 방법', href: '/guide/divorce/property-division' },
+      { label: '재산분할 청구 방법', href: '/guide/divorce/property-division-ratio' },
       { label: '양육비 청구 가이드', href: '/guide/child-support' },
       { label: '상속 법률 가이드', href: '/guide/inheritance' },
     ],
@@ -333,7 +333,7 @@ export const spokesBatch26_30to33: SpokePage[] = [
       { label: '로앤가이드 홈', href: '/' },
       { label: '이혼 법률 가이드', href: '/guide/divorce' },
       { label: '양육비 청구 가이드', href: '/guide/child-support' },
-      { label: '재산분할 청구 방법', href: '/guide/divorce/property-division' },
+      { label: '재산분할 청구 방법', href: '/guide/divorce/property-division-ratio' },
       { label: '상속 법률 가이드', href: '/guide/inheritance' },
     ],
   },

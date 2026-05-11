@@ -90,9 +90,9 @@ export const spokesBatch56Divorce: SpokePage[] = [
     internalLinks: [
       { label: '재산분할 항목 종합', href: '/guide/divorce/divorce-property-division-comprehensive' },
       { label: '위자료 산정 표준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
-      { label: '협의이혼 절차', href: '/guide/divorce/divorce-consensual-divorce-process' },
+      { label: '협의이혼 절차', href: '/guide/divorce/consensual-divorce-process' },
       { label: '재판이혼 vs 협의이혼', href: '/guide/divorce/divorce-mediation-vs-trial-strategy' },
-      { label: '재산분할 vs 위자료', href: '/guide/divorce/divorce-property-division-vs-alimony-comparison' },
+      { label: '재산분할 vs 위자료', href: '/guide/divorce/property-division-vs-alimony-comparison' },
     ],
   },
 
@@ -171,7 +171,7 @@ export const spokesBatch56Divorce: SpokePage[] = [
     ],
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '협의이혼 양육 합의서', href: '/guide/divorce/divorce-custody-agreement-prep' },
+      { label: '협의이혼 양육 합의서', href: '/guide/divorce/custody-agreement-prep' },
       { label: '자녀 13세 이상 의견', href: '/guide/divorce/divorce-teenager-custody-own-choice' },
       { label: '아버지 양육권 전략', href: '/guide/divorce/divorce-child-custody-father-strategy' },
       { label: '이혼 후 양육권 변경', href: '/guide/divorce/divorce-custody-modification-after-divorce' },
@@ -256,7 +256,7 @@ export const spokesBatch56Divorce: SpokePage[] = [
     internalLinks: [
       { label: '재산분할 종합 가이드', href: '/guide/divorce/divorce-property-division-comprehensive' },
       { label: '숨긴 재산 추적', href: '/guide/divorce/divorce-hidden-asset-discovery' },
-      { label: '재산분할 vs 위자료', href: '/guide/divorce/divorce-property-division-vs-alimony-comparison' },
+      { label: '재산분할 vs 위자료', href: '/guide/divorce/property-division-vs-alimony-comparison' },
       { label: '재산처분 사유 입증', href: '/guide/divorce/divorce-asset-disposal-grounds' },
       { label: '특유재산 분할 제외', href: '/guide/divorce/divorce-special-property-exclusion-criteria' },
     ],

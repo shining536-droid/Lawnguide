@@ -178,7 +178,7 @@ export const spokesBatch47WageUnemp: SpokePage[] = [
       { label: '봉사료·팁 통상임금 포함 기준', href: '/guide/wage/wage-tip-service-charge-base-inclusion' },
       { label: '임금체불 진정 전 체크리스트', href: '/guide/wage/wage-complaint-pre-filing-checklist' },
       { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-report-procedure-timeline' },
-      { label: '포괄임금 야근수당 청구', href: '/guide/wage/wage-overtime-pay-calculation-claim' },
+      { label: '포괄임금 야근수당 청구', href: '/guide/wage/overtime-pay-calculation-claim' },
       { label: '수당 환수 일방 공제 위법', href: '/guide/wage/wage-commission-clawback-illegal' },
     ],
   },

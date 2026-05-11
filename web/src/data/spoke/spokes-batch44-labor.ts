@@ -184,7 +184,7 @@ export const spokesBatch44Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '해고 서면 통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
-      { label: '해고예고수당 청구', href: '/guide/dismissal/dismissal-notice-pay-claim' },
+      { label: '해고예고수당 청구', href: '/guide/dismissal/dismissal-notice-pay' },
       { label: '구두 해고 증빙', href: '/guide/dismissal/dismissal-verbal-evidence' },
       { label: '부당해고 구제신청 절차', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
       { label: '해고 후 실업급여 신청', href: '/guide/dismissal/dismissal-unemployment-benefit-apply' },
@@ -357,7 +357,7 @@ export const spokesBatch44Labor: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '징계 양정 과잉 다툼', href: '/guide/dismissal/dismissal-disciplinary-excess-defense' },
+      { label: '징계 양정 과잉 다툼', href: '/guide/dismissal/dismissal-disciplinary-excessive' },
       { label: '감봉·강등 구제신청', href: '/guide/dismissal/dismissal-demotion-reduction-remedy' },
       { label: '성과급 통상임금 산입', href: '/guide/wage/wage-bonus-ordinary-inclusion' },
       { label: '취업규칙 불이익 변경', href: '/guide/wage/wage-rules-disadvantageous-change' },
@@ -619,7 +619,7 @@ export const spokesBatch44Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '당직·숙직 근로시간 판단', href: '/guide/wage/wage-duty-shift-working-time' },
-      { label: '야간근로 가산수당 기준', href: '/guide/wage/wage-night-shift-premium' },
+      { label: '야간근로 가산수당 기준', href: '/guide/wage/wage-night-shift-premium-claim' },
       { label: '포괄임금제 무효 다툼', href: '/guide/wage/wage-comprehensive-invalid-dispute' },
       { label: '연장근로 상한·수당', href: '/guide/wage/wage-overtime-limit-premium' },
       { label: '임금체불 진정 절차', href: '/guide/wage/wage-complaint-procedure' },

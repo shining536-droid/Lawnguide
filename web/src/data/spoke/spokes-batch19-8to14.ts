@@ -238,7 +238,7 @@ export const spokesBatch19_8to14: SpokePage[] = [
     },
     internalLinks: [
       { label: '산업재해 가이드', href: '/guide/industrial-accident1' },
-      { label: '산재 요양급여 신청 절차와 기한', href: '/guide/industrial-accident1/workers-comp-medical-claim-process' },
+      { label: '산재 요양급여 신청 절차와 기한', href: '/guide/industrial-accident1/workers-comp-claim-process' },
       { label: '출퇴근 사고 산재 인정 기준', href: '/guide/industrial-accident1/commute-accident-recognition' },
       { label: '산재 장해급여 등급 판정 절차', href: '/guide/industrial-accident1/disability-benefit-grade-process' },
       { label: '사업주 형사책임과 손해배상', href: '/guide/industrial-accident1/employer-criminal-liability-accident' },

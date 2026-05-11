@@ -365,7 +365,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
     internalLinks: [
       { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 청구 어디서 시작', href: '/guide/child-support/child-support-claim-where-to-start' },
-      { label: '양육비 소송 절차 안내', href: '/guide/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 소송 절차 안내', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: '이혼 재산분할 범위 FAQ', href: '/guide/divorce/divorce-property-division-scope-faq' },
       { label: '가정폭력 이혼 절차 안내', href: '/guide/divorce/domestic-violence-divorce-process' },
     ],

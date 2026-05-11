@@ -435,7 +435,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       link: '/chat?domain=retirement',
     },
     internalLinks: [
-      { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation-full' },
+      { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '평균임금 산정 포함 항목', href: '/guide/retirement/average-wage-inclusion-items' },
       { label: '퇴직금 미지급 청구 순서', href: '/guide/retirement/retirement-pay-unpaid-claim' },
       { label: '주휴수당 계산 방법', href: '/guide/wage/weekly-holiday-pay-calculation' },
@@ -522,7 +522,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       link: '/chat?domain=retirement',
     },
     internalLinks: [
-      { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation-full' },
+      { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '평균임금 산정 포함 항목', href: '/guide/retirement/average-wage-inclusion-items' },
       { label: '야간근로 50% 가산수당', href: '/guide/wage/wage-night-work-50-percent-extra' },
       { label: '포괄임금제 연장수당 청구', href: '/guide/wage/comprehensive-wage-overtime-claim' },
@@ -609,7 +609,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
       link: '/chat?domain=retirement',
     },
     internalLinks: [
-      { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation-full' },
+      { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '평균임금 산정 포함 항목', href: '/guide/retirement/average-wage-inclusion-items' },
       { label: '성과급 통상임금 해당 기준', href: '/guide/wage/performance-bonus-ordinary-wage' },
       { label: '퇴직금 미지급 청구 순서', href: '/guide/retirement/retirement-pay-unpaid-claim' },

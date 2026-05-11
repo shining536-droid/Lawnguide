@@ -89,7 +89,7 @@ export const spokesBatch46Nonlabor2: SpokePage[] = [
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '재산분할 청구 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
-      { label: '국민연금 분할연금 수급', href: '/guide/divorce/divorce-pension-split-claim' },
+      { label: '국민연금 분할연금 수급', href: '/guide/divorce/divorce-pension-split-formula' },
       { label: '특유재산과 기여도 평가', href: '/guide/divorce/divorce-special-property-contribution' },
       { label: '사해행위 취소로 은닉 재산 환수', href: '/guide/divorce/divorce-fraudulent-transfer-cancel' },
       { label: '협의이혼 의사확인 절차', href: '/guide/divorce/divorce-mutual-consent-procedure' },
@@ -340,7 +340,7 @@ export const spokesBatch46Nonlabor2: SpokePage[] = [
       { label: '재산분할 2년 제척기간 정리', href: '/guide/divorce/divorce-property-division-2year-deadline' },
       { label: '사해행위 취소로 은닉 재산 환수', href: '/guide/divorce/divorce-fraudulent-transfer-cancel' },
       { label: '시가·처가 명의 차명재산', href: '/guide/divorce/divorce-in-laws-nominee-asset' },
-      { label: '추가 재산분할 청구 절차', href: '/guide/divorce/divorce-additional-property-division' },
+      { label: '추가 재산분할 청구 절차', href: '/guide/divorce/divorce-cohabitation-property-division' },
       { label: '가상자산 이혼 분할', href: '/guide/divorce/divorce-cryptocurrency-division' },
     ],
   },
@@ -503,7 +503,7 @@ export const spokesBatch46Nonlabor2: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '한정승인 vs 상속포기 선택', href: '/guide/inheritance/inheritance-limited-vs-renunciation' },
+      { label: '한정승인 vs 상속포기 선택', href: '/guide/inheritance/inheritance-limited-vs-renounce' },
       { label: '특별한정승인 신청 요건', href: '/guide/inheritance/inheritance-special-limited-acceptance' },
       { label: '안심상속 원스톱 서비스', href: '/guide/inheritance/inheritance-anshim-onestop-service' },
       { label: '재산목록 누락 단순승인 의제', href: '/guide/inheritance/inheritance-omitted-asset-simple-acceptance' },

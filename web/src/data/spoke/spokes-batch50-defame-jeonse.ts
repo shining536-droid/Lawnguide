@@ -90,7 +90,7 @@ export const spokesBatch50DefameJeonse: SpokePage[] = [
       { label: '온라인 명예훼손 형사 대응', href: '/guide/defamation/defamation-online-criminal-response' },
       { label: '온라인 후기 명예훼손 형사', href: '/guide/defamation/defamation-online-review-criminal' },
       { label: '명예훼손 게시글 삭제 요청', href: '/guide/defamation/defamation-deletion-request-platform' },
-      { label: '단톡방 모욕·명예훼손 캡처', href: '/guide/defamation/defamation-group-chat-insult-capture' },
+      { label: '단톡방 모욕·명예훼손 캡처', href: '/guide/defamation/defamation-pta-groupchat-insult-charged' },
     ],
   },
 
@@ -174,7 +174,7 @@ export const spokesBatch50DefameJeonse: SpokePage[] = [
       { label: '온라인 명예훼손 형사 대응', href: '/guide/defamation/defamation-online-criminal-response' },
       { label: '온라인 후기 명예훼손 형사', href: '/guide/defamation/defamation-online-review-criminal' },
       { label: '명예훼손 게시글 삭제 요청', href: '/guide/defamation/defamation-deletion-request-platform' },
-      { label: '단톡방 모욕·명예훼손 캡처', href: '/guide/defamation/defamation-group-chat-insult-capture' },
+      { label: '단톡방 모욕·명예훼손 캡처', href: '/guide/defamation/defamation-pta-groupchat-insult-charged' },
     ],
   },
 
@@ -258,7 +258,7 @@ export const spokesBatch50DefameJeonse: SpokePage[] = [
       { label: '온라인 명예훼손 형사 대응', href: '/guide/defamation/defamation-online-criminal-response' },
       { label: '온라인 후기 명예훼손 형사', href: '/guide/defamation/defamation-online-review-criminal' },
       { label: '명예훼손 게시글 삭제 요청', href: '/guide/defamation/defamation-deletion-request-platform' },
-      { label: '단톡방 모욕·명예훼손 캡처', href: '/guide/defamation/defamation-group-chat-insult-capture' },
+      { label: '단톡방 모욕·명예훼손 캡처', href: '/guide/defamation/defamation-pta-groupchat-insult-charged' },
     ],
   },
 
@@ -339,7 +339,7 @@ export const spokesBatch50DefameJeonse: SpokePage[] = [
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '집주인이 집을 팔았어요 보증금 반환', href: '/guide/jeonse/jeonse-landlord-sold-deposit' },
-      { label: '계약 만료 1개월 전 통보 갱신 거절', href: '/guide/jeonse/jeonse-one-month-notice-renewal' },
+      { label: '계약 만료 1개월 전 통보 갱신 거절', href: '/guide/jeonse/jeonse-one-month-notice-implicit-renewal' },
       { label: '보증금 미반환 시 우선변제권', href: '/guide/jeonse/jeonse-deposit-not-returned-priority' },
       { label: '주택임대차 우선변제 청구 절차', href: '/guide/jeonse/jeonse-priority-payment-claim' },
       { label: '월세 공제 분쟁 방어', href: '/guide/jeonse/jeonse-rent-deduction-defense' },
@@ -423,7 +423,7 @@ export const spokesBatch50DefameJeonse: SpokePage[] = [
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '집주인이 집을 팔았어요 보증금 반환', href: '/guide/jeonse/jeonse-landlord-sold-deposit' },
-      { label: '계약 만료 1개월 전 통보 갱신 거절', href: '/guide/jeonse/jeonse-one-month-notice-renewal' },
+      { label: '계약 만료 1개월 전 통보 갱신 거절', href: '/guide/jeonse/jeonse-one-month-notice-implicit-renewal' },
       { label: '보증금 미반환 시 우선변제권', href: '/guide/jeonse/jeonse-deposit-not-returned-priority' },
       { label: '주택임대차 우선변제 청구 절차', href: '/guide/jeonse/jeonse-priority-payment-claim' },
       { label: '월세 공제 분쟁 방어', href: '/guide/jeonse/jeonse-rent-deduction-defense' },

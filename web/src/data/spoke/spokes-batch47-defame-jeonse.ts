@@ -90,7 +90,7 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
       { label: '명예훼손 위법성조각사유 정리', href: '/guide/defamation/defamation-illegality-exception' },
       { label: '사이버 명예훼손 손해배상 청구', href: '/guide/defamation/defamation-cyber-damages-claim' },
       { label: '개인정보 무단 공개 대응 방법', href: '/guide/defamation/defamation-personal-info-disclosure' },
-      { label: '명예훼손 증거 수집 체크리스트', href: '/guide/defamation/defamation-evidence-collection' },
+      { label: '명예훼손 증거 수집 체크리스트', href: '/guide/defamation/online-defamation-evidence-collection' },
     ],
   },
 
@@ -173,7 +173,7 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
       { label: '명예훼손 위법성조각사유 총정리', href: '/guide/defamation/defamation-illegality-exception' },
       { label: '온라인 명예훼손 형사 대응 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
       { label: '사이버 명예훼손 고소 대응 준비', href: '/guide/defamation/defamation-cyber-accusation-defense' },
-      { label: '명예훼손 합의금과 기준', href: '/guide/defamation/defamation-settlement-amount-standard' },
+      { label: '명예훼손 합의금과 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
       { label: '명예훼손 피해자 손해배상 청구', href: '/guide/defamation/defamation-civil-damages-claim' },
     ],
   },
@@ -251,8 +251,8 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
     internalLinks: [
       { label: '온라인 명예훼손 형사 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
       { label: '명예훼손 위법성조각사유 총정리', href: '/guide/defamation/defamation-illegality-exception' },
-      { label: '카카오톡 캡처 증거 수집 방법', href: '/guide/defamation/defamation-evidence-collection' },
-      { label: '명예훼손 합의금 협상 기준', href: '/guide/defamation/defamation-settlement-amount-standard' },
+      { label: '카카오톡 캡처 증거 수집 방법', href: '/guide/defamation/online-defamation-evidence-collection' },
+      { label: '명예훼손 합의금 협상 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
       { label: '사이버 명예훼손 피해자 대응', href: '/guide/defamation/defamation-cyber-damages-claim' },
     ],
   },

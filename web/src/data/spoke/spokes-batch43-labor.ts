@@ -98,7 +98,7 @@ export const spokesBatch43Labor: SpokePage[] = [
     internalLinks: [
       { label: '사생활 침해·징계 과잉 방어', href: '/guide/dismissal/dismissal-privacy-violation-defense' },
       { label: '해고 서면 통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
-      { label: '징계 양정 과잉 다툼', href: '/guide/dismissal/dismissal-disciplinary-excess-defense' },
+      { label: '징계 양정 과잉 다툼', href: '/guide/dismissal/dismissal-disciplinary-excessive' },
       { label: '부당해고 구제신청 절차', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
       { label: '해고 후 실업급여 신청', href: '/guide/dismissal/dismissal-unemployment-benefit-apply' },
     ],
@@ -271,7 +271,7 @@ export const spokesBatch43Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '보복성 인사 전보 다툼', href: '/guide/dismissal/dismissal-retaliatory-transfer-defense' },
-      { label: '공익신고자 신분보장 제도', href: '/guide/dismissal/dismissal-whistleblower-status-protection' },
+      { label: '공익신고자 신분보장 제도', href: '/guide/dismissal/dismissal-whistleblower-retaliation-protection' },
       { label: '부당해고 구제신청 절차', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
       { label: '금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
       { label: '해고 서면 통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
@@ -357,7 +357,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '징계 양정 과잉 다툼', href: '/guide/dismissal/dismissal-disciplinary-excess-defense' },
+      { label: '징계 양정 과잉 다툼', href: '/guide/dismissal/dismissal-disciplinary-excessive' },
       { label: '사생활 침해·징계 방어', href: '/guide/dismissal/dismissal-privacy-violation-defense' },
       { label: '부당해고 구제신청 절차', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
       { label: '해고 서면 통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
@@ -444,7 +444,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '징계 양정 과잉 다툼', href: '/guide/dismissal/dismissal-disciplinary-excess-defense' },
+      { label: '징계 양정 과잉 다툼', href: '/guide/dismissal/dismissal-disciplinary-excessive' },
       { label: '감정노동자 보호 제도', href: '/guide/dismissal/dismissal-emotional-labor-protection' },
       { label: '부당해고 구제신청 절차', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
       { label: '해고 서면 통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
@@ -794,7 +794,7 @@ export const spokesBatch43Labor: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 계산 방법', href: '/guide/retirement/retirement-calculation-method' },
       { label: '체당금 신청 절차', href: '/guide/retirement/retirement-substitute-payment-procedure' },
-      { label: '퇴직금 분할 지급 무효', href: '/guide/retirement/retirement-split-payment-invalid' },
+      { label: '퇴직금 분할 지급 무효', href: '/guide/retirement/retirement-installment-payment-invalid' },
       { label: '평균임금 산정 기준', href: '/guide/retirement/retirement-average-wage-standard' },
       { label: '퇴직금 청구 내용증명', href: '/guide/retirement/retirement-claim-certified-mail' },
     ],
@@ -882,7 +882,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       { label: '평균임금 산정 기준', href: '/guide/retirement/retirement-average-wage-standard' },
       { label: '통상임금 범위 확대', href: '/guide/retirement/retirement-ordinary-wage-scope' },
       { label: '퇴직금 계산 방법', href: '/guide/retirement/retirement-calculation-method' },
-      { label: '상여금 퇴직금 반영', href: '/guide/retirement/retirement-bonus-calculation' },
+      { label: '상여금 퇴직금 반영', href: '/guide/retirement/retirement-bonus-included-calculation' },
       { label: '퇴직금 재계산 청구', href: '/guide/retirement/retirement-recalculation-claim' },
     ],
   },

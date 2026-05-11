@@ -346,7 +346,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       { label: '양육비 감치명령 신청', href: '/guide/child-support/child-support-enforcement-contempt-order' },
       { label: '양육비 강제집행 방법', href: '/guide/child-support/child-support-enforcement-method' },
       { label: '양육비 미지급 대응', href: '/guide/child-support/child-support-non-payment' },
-      { label: '양육비 소송 절차', href: '/guide/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 소송 절차', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: '양육비 급여 압류 절차', href: '/guide/child-support/child-support-overdue-salary-seizure-procedure' },
     ],
   },
@@ -434,7 +434,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
       { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '소득 변경 양육비 조정', href: '/guide/child-support/child-support-modification-income-change' },
       { label: '양육비 계산·증액', href: '/guide/child-support/child-support-calculation-increase' },
-      { label: '양육비 계산 기준', href: '/guide/child-support/child-support-calculation-standard' },
+      { label: '양육비 계산 기준', href: '/guide/child-support/child-support-calculation-table' },
     ],
   },
 

@@ -303,7 +303,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     ],
     cta: { text: '회전교차로 사고 과실비율 AI 분석', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의 절차', href: '/guide/traffic-accident/traffic-accident-settlement-process' },
+      { label: '교통사고 합의 절차', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '보험사 보상 요령', href: '/guide/traffic-accident/traffic-insurance-claim-guide' },
       { label: '음주운전 사고 대응', href: '/guide/dui/dui-accident-victim-compensation' },
       { label: '교통사고 형사합의', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
@@ -377,7 +377,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     ],
     cta: { text: '대중교통 사고 보상 전략 AI 분석', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의 절차', href: '/guide/traffic-accident/traffic-accident-settlement-process' },
+      { label: '교통사고 합의 절차', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '교통사고 증거 확보', href: '/guide/traffic-accident/traffic-accident-evidence-collection' },
       { label: '보험사 보상 요령', href: '/guide/traffic-accident/traffic-insurance-claim-guide' },
       { label: '교통사고 형사합의', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
@@ -599,8 +599,8 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     ],
     cta: { text: '개인회생 양육비 대응 전략 AI 분석', link: '/chat?domain=rehabilitation' },
     internalLinks: [
-      { label: '개인회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements' },
-      { label: '개인회생 절차 안내', href: '/guide/rehabilitation/rehabilitation-application-process' },
+      { label: '개인회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
+      { label: '개인회생 절차 안내', href: '/guide/rehabilitation/rehabilitation-application-procedure-atoz' },
       { label: '파산 면책 요건', href: '/guide/bankruptcy/bankruptcy-discharge-requirements-comprehensive' },
       { label: '양육비 증액 방법', href: '/guide/divorce/divorce-child-support-increase' },
       { label: '이혼 어디서부터', href: '/guide/divorce/decided-divorce-where-to-begin' },
@@ -674,8 +674,8 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     cta: { text: '상속 채무 면책 가능성 AI 분석', link: '/chat?domain=bankruptcy' },
     internalLinks: [
       { label: '파산 면책 요건', href: '/guide/bankruptcy/bankruptcy-discharge-requirements-comprehensive' },
-      { label: '개인회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements' },
-      { label: '개인회생 절차 안내', href: '/guide/rehabilitation/rehabilitation-application-process' },
+      { label: '개인회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
+      { label: '개인회생 절차 안내', href: '/guide/rehabilitation/rehabilitation-application-procedure-atoz' },
       { label: '이혼 재산분할 기준', href: '/guide/divorce/divorce-property-division-comprehensive' },
       { label: '소액 소송 절차', href: '/guide/small-claims/small-claims-lawsuit-guide' },
     ],

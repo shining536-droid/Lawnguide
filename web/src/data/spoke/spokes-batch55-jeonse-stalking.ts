@@ -252,9 +252,9 @@ export const spokesBatch55JeonseStalking: SpokePage[] = [
     internalLinks: [
       { label: '스토킹 고소 대응 종합 가이드', href: '/guide/stalking/stalking-comprehensive-guide' },
       { label: '직장 동료 호감 거절 후 추적 대응', href: '/guide/stalking/stalking-coworker-rejected-pursuit-procedure' },
-      { label: '옛 배우자 양육권 빌미 접근', href: '/guide/stalking/stalking-ex-spouse-custody-pretext' },
+      { label: '옛 배우자 양육권 빌미 접근', href: '/guide/stalking/stalking-ex-spouse-custody-dispute-pretext' },
       { label: '같은 공동체 내 스토킹 분리 트랙', href: '/guide/stalking/stalking-shared-community-school-church' },
-      { label: '스토킹 잠정조치 신청 절차', href: '/guide/stalking/stalking-emergency-protection-order' },
+      { label: '스토킹 잠정조치 신청 절차', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
     ],
   },
 
@@ -336,8 +336,8 @@ export const spokesBatch55JeonseStalking: SpokePage[] = [
       { label: '스토킹 고소 대응 종합 가이드', href: '/guide/stalking/stalking-comprehensive-guide' },
       { label: 'SNS 차단 우회 스토킹 5단계', href: '/guide/stalking/stalking-sns-dm-block-fake-account-repeat' },
       { label: '직장 동료 호감 거절 후 추적', href: '/guide/stalking/stalking-coworker-rejected-pursuit-procedure' },
-      { label: '옛 배우자 양육권 빌미 접근', href: '/guide/stalking/stalking-ex-spouse-custody-pretext' },
-      { label: '스토킹 잠정조치 신청 절차', href: '/guide/stalking/stalking-emergency-protection-order' },
+      { label: '옛 배우자 양육권 빌미 접근', href: '/guide/stalking/stalking-ex-spouse-custody-dispute-pretext' },
+      { label: '스토킹 잠정조치 신청 절차', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
     ],
   },
 ];

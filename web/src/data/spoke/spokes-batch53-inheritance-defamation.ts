@@ -343,7 +343,7 @@ export const spokesBatch53InheritanceDefamation: SpokePage[] = [
     ],
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
-      { label: '직장내 명예훼손 대응', href: '/guide/defamation/defamation-workplace-response' },
+      { label: '직장내 명예훼손 대응', href: '/guide/defamation/defamation-workplace-rumor-response' },
       { label: '메신저 명예훼손 대응', href: '/guide/defamation/defamation-messenger-response' },
       { label: '동료 험담 명예훼손', href: '/guide/defamation/defamation-coworker-rumor' },
       { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },

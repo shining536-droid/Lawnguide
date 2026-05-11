@@ -364,7 +364,7 @@ export const spokesBatch23_29to35: SpokePage[] = [
       link: '/chat?domain=child-support',
     },
     internalLinks: [
-      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
       { label: '이혼 재산분할 절차', href: '/guide/divorce/divorce-property-division-procedure' },
       { label: '돈 못 받았을 때 어디부터', href: '/guide/small-claims/unpaid-money-where-to-start' },

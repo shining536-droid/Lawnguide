@@ -169,7 +169,7 @@ export const spokesBatch18_11to15: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '산재 진단', href: '/diagnosis/industrial-accident1' },
       { label: '산재 신청 절차 총정리', href: '/guide/industrial-accident1/workers-comp-claim-process' },
-      { label: '산재 요양급여 청구 방법', href: '/guide/industrial-accident1/workers-comp-medical-claim-process' },
+      { label: '산재 요양급여 청구 방법', href: '/guide/industrial-accident1/workers-comp-claim-process' },
       { label: '출퇴근 산재 인정 기준', href: '/guide/industrial-accident1/commute-accident-recognition' },
     ],
   },

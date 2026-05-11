@@ -795,7 +795,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '블랙박스 없는 사고 입증', href: '/guide/traffic-accident/traffic-accident-no-blackbox-proof-dispute' },
-      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-guide' },
+      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '과실비율분쟁심의 절차', href: '/guide/traffic-accident/fault-ratio-dispute-mediation' },
       { label: '교통사고분석보고서 활용법', href: '/guide/traffic-accident/police-analysis-report-use' },
       { label: '교통사고 합의금 산정 기준', href: '/guide/traffic-accident/settlement-calculation-guide' },

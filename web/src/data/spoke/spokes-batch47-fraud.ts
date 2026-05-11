@@ -86,7 +86,7 @@ export const spokesBatch47Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '보이스피싱 피해 환급 절차', href: '/guide/fraud/fraud-voice-phishing-recovery-comprehensive' },
-      { label: '해외 투자 사기 대응 순서', href: '/guide/fraud/fraud-investment-scam-response' },
+      { label: '해외 투자 사기 대응 순서', href: '/guide/fraud/fraud-sns-investment-scam-response' },
       { label: '사기 고소 준비서류 정리', href: '/guide/fraud/fraud-complaint-documents-checklist' },
       { label: '전기통신금융사기 지급정지', href: '/guide/fraud/fraud-telecom-financial-payment-suspension' },
       { label: '사기 피해 합의금 산정', href: '/guide/fraud/fraud-settlement-amount-calculation' },
@@ -172,7 +172,7 @@ export const spokesBatch47Fraud: SpokePage[] = [
       { label: '사기 피해 증거 수집 순서', href: '/guide/fraud/fraud-evidence-collection-order' },
       { label: '전기통신금융사기 환급 신청', href: '/guide/fraud/fraud-telecom-financial-payment-suspension' },
       { label: '코인 사기 피해 대응', href: '/guide/fraud/fraud-crypto-rug-pull-evidence' },
-      { label: '투자 사기 유형별 대응', href: '/guide/fraud/fraud-investment-scam-response' },
+      { label: '투자 사기 유형별 대응', href: '/guide/fraud/fraud-sns-investment-scam-response' },
     ],
   },
 
@@ -417,7 +417,7 @@ export const spokesBatch47Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '투자 사기 유형별 대응 순서', href: '/guide/fraud/fraud-investment-scam-response' },
+      { label: '투자 사기 유형별 대응 순서', href: '/guide/fraud/fraud-sns-investment-scam-response' },
       { label: '금감원 분쟁조정 신청 절차', href: '/guide/fraud/fraud-fss-dispute-procedure' },
       { label: '사기 피해 증거 수집 순서', href: '/guide/fraud/fraud-evidence-collection-order' },
       { label: '유사수신 피해 신고 방법', href: '/guide/fraud/fraud-illegal-fundraising-report' },

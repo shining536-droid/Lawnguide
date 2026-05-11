@@ -421,7 +421,7 @@ export const spokesBatch58AssaultCsDui: SpokePage[] = [
       { label: '양육비 미지급 형사', href: '/guide/child-support/child-support-non-payment-criminal' },
       { label: '양육비 시효 확인', href: '/guide/child-support/child-support-statute-limitation-check' },
       { label: '양육비 일시금 청구', href: '/guide/child-support/child-support-periodic-to-lump-sum-modification' },
-      { label: '한정승인 절차', href: '/guide/inheritance/inheritance-limited-acceptance-procedure' },
+      { label: '한정승인 절차', href: '/guide/inheritance/inheritance-limited-acceptance-post-debt' },
       { label: '양육비 잠적 추적', href: '/guide/child-support/child-support-disappear-tracking-procedure' },
     ],
   },

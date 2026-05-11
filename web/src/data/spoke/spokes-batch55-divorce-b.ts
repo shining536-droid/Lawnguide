@@ -86,8 +86,8 @@ export const spokesBatch55DivorceB: SpokePage[] = [
     internalLinks: [
       { label: '이혼 후 양육비 미지급 통합 절차', href: '/guide/divorce/divorce-post-divorce-child-support-non-payment-full-procedure' },
       { label: '양육비 변경청구 사유', href: '/guide/child-support/child-support-modification-grounds' },
-      { label: '양육비 직접지급명령', href: '/guide/child-support/child-support-direct-payment-order' },
-      { label: '양육비 이행명령·감치', href: '/guide/child-support/child-support-enforcement-order' },
+      { label: '양육비 직접지급명령', href: '/guide/child-support/child-support-direct-payment-order-process' },
+      { label: '양육비 이행명령·감치', href: '/guide/child-support/child-support-enforcement-order-apply' },
       { label: '양육비이행관리원 신청', href: '/guide/child-support/child-support-agency-application' },
     ],
   },
@@ -169,7 +169,7 @@ export const spokesBatch55DivorceB: SpokePage[] = [
     internalLinks: [
       { label: '사실혼 잠적·사망 시 청구', href: '/guide/divorce/divorce-de-facto-marriage-disappearance-death' },
       { label: '재산분할 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
-      { label: '위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation' },
+      { label: '위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
       { label: '재산명시·재산조회 절차', href: '/guide/divorce/divorce-property-disclosure-procedure' },
       { label: '협의이혼 준비서류', href: '/guide/divorce/divorce-agreement-documents' },
     ],
