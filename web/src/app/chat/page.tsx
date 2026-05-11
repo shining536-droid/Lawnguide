@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import ChatBot from '@/components/ChatBot';
+import ChatStartTracker from '@/components/ChatStartTracker';
 import { DOMAINS, getQuestions, getBranches, getResults } from '@/lib/domains';
 import { loadAllProcedureData } from '@/lib/procedure-data';
 
@@ -98,6 +99,7 @@ export default function ChatPage({ searchParams }: PageProps) {
 
   return (
     <div className="bg-gray-50 min-h-[calc(100vh-4rem)]">
+      <ChatStartTracker domain={searchParams.domain} />
       {showWelcome && (
         <section className="border-b border-gray-200 bg-white px-4 pt-6 pb-4">
           <div className="mx-auto max-w-3xl">

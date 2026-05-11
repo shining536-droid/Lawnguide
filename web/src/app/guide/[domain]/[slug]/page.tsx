@@ -6,6 +6,8 @@ import { getSpokePage, getSpokePagesByDomain, SPOKE_PAGES } from '@/data/spoke-p
 import { loadProcedureForDomain } from '@/lib/procedure-data';
 import SpokeProcedureBlock from '@/components/SpokeProcedureBlock';
 import { inSameCluster, hasProcedure } from '@/lib/cluster';
+import CtaButton from '@/components/CtaButton';
+import ScrollDepthTracker from '@/components/ScrollDepthTracker';
 
 interface PageProps {
   params: { domain: string; slug: string };
@@ -127,6 +129,7 @@ export default function GuideSpokePage({ params }: PageProps) {
 
   return (
     <main className="min-h-screen bg-gray-50">
+      <ScrollDepthTracker pageSlug={page.slug} pageDomain={page.domain} />
       {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"
@@ -203,12 +206,15 @@ export default function GuideSpokePage({ params }: PageProps) {
                   <strong style={{ color: '#D97706' }}>전문가</strong>도 함께{' '}
                   <strong style={{ color: '#D97706' }}>안내</strong>해드립니다.
                 </p>
-                <Link
+                <CtaButton
                   href={`/diagnosis/${page.domain}`}
+                  ctaType="mid_diagnosis"
+                  pageSlug={page.slug}
+                  pageDomain={page.domain}
                   className="inline-block bg-blue-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-blue-700 transition-colors text-sm"
                 >
                   AI 무료 상담 시작 →
-                </Link>
+                </CtaButton>
               </section>
             )}
           </div>
@@ -298,12 +304,15 @@ export default function GuideSpokePage({ params }: PageProps) {
             <strong style={{ color: '#D97706' }}>전문가</strong>도 함께{' '}
             <strong style={{ color: '#D97706' }}>안내</strong>해드립니다.
           </p>
-          <Link
+          <CtaButton
             href={page.cta.link}
+            ctaType="bottom_diagnosis"
+            pageSlug={page.slug}
+            pageDomain={page.domain}
             className="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
           >
             AI 무료 상담 시작 →
-          </Link>
+          </CtaButton>
         </section>
 
         {/* Related Spoke Pages - Smart Recommendations
