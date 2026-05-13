@@ -404,6 +404,13 @@ import { spokesBatch63Traffic } from './spoke/spokes-batch63-traffic';
 import { spokesBatch63DivorceInheritance } from './spoke/spokes-batch63-divorce-inheritance';
 import { spokesBatch63DefameJeonseStalking } from './spoke/spokes-batch63-defame-jeonse-stalking';
 import { spokesBatch63AssaultCsDui } from './spoke/spokes-batch63-assault-cs-dui';
+import { spokesBatch64Dismissal } from './spoke/spokes-batch64-dismissal';
+import { spokesBatch64WageUnempRetire } from './spoke/spokes-batch64-wage-unemp-retire';
+import { spokesBatch64Fraud } from './spoke/spokes-batch64-fraud';
+import { spokesBatch64Traffic } from './spoke/spokes-batch64-traffic';
+import { spokesBatch64DivorceInheritance } from './spoke/spokes-batch64-divorce-inheritance';
+import { spokesBatch64DefameJeonseStalking } from './spoke/spokes-batch64-defame-jeonse-stalking';
+import { spokesBatch64AssaultCsDui } from './spoke/spokes-batch64-assault-cs-dui';
 
 export const SPOKE_PAGES: SpokePage[] = [
   ...jeonsePages,
@@ -765,6 +772,13 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch63DivorceInheritance,
   ...spokesBatch63DefameJeonseStalking,
   ...spokesBatch63AssaultCsDui,
+  ...spokesBatch64Dismissal,
+  ...spokesBatch64WageUnempRetire,
+  ...spokesBatch64Fraud,
+  ...spokesBatch64Traffic,
+  ...spokesBatch64DivorceInheritance,
+  ...spokesBatch64DefameJeonseStalking,
+  ...spokesBatch64AssaultCsDui,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
