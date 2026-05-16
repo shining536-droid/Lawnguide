@@ -7,6 +7,7 @@
 
 import asyncio
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -48,6 +49,11 @@ POST_PUBLISH_WAIT_MAX = 90000
 CTA_TEXT = "내 상황 무료로 정리하기"
 CTA_BASE_URL = "https://www.lawnguide.co.kr/chat"
 NAVER_REGISTRY_FILE = "naver_url_registry.json"
+
+# CTA 삽입 빈도 (2026-05-15 메인 노출 폭락 회복책)
+# 0.5 = 50% (2개 중 1개에만 CTA 삽입), 0.33 = 33%, 1.0 = 모든 글
+# filename 해시 기반 deterministic 선택 — 같은 파일은 항상 같은 결과
+CTA_INSERT_FREQUENCY = 0.5
 
 
 # ── 마크다운 → 순수 텍스트 변환 ──────────────────────
@@ -592,6 +598,17 @@ def get_cta_url(domain: str = "") -> str:
     if domain:
         return f"{CTA_BASE_URL}?domain={domain}"
     return CTA_BASE_URL
+
+
+def should_insert_cta(filename: str, frequency: float = CTA_INSERT_FREQUENCY) -> bool:
+    """파일명 해시 기반 deterministic 선택. frequency=0.5 → 50% 삽입.
+    같은 파일은 항상 같은 결과 (재발행 시 일관성)."""
+    if frequency >= 1.0:
+        return True
+    if frequency <= 0.0:
+        return False
+    h = int(hashlib.md5(filename.encode('utf-8')).hexdigest(), 16)
+    return (h % 100) < int(frequency * 100)
 
 
 async def type_single_cta(page, domain: str = ""):
@@ -1402,9 +1419,12 @@ async def write_and_publish(page, post: dict, scheduled_time: datetime, blog_id:
         await upload_tip_cards(page, post['filename'])
         await page.wait_for_timeout(random.randint(500, 1000))
 
-        # CTA 1회만 삽입 (구분선 + 도메인별 문구 + URL)
-        await type_single_cta(page, domain=post_domain)
-        await page.wait_for_timeout(random.randint(500, 1000))
+        # CTA 1회만 삽입 (구분선 + 도메인별 문구 + URL) — 빈도 조절 적용 (2026-05-15~)
+        if should_insert_cta(post['filename']):
+            await type_single_cta(page, domain=post_domain)
+            await page.wait_for_timeout(random.randint(500, 1000))
+        else:
+            print(f"    📝 CTA 생략 (빈도 {CTA_INSERT_FREQUENCY:.0%} — 메인 노출 회복용)")
 
         await page.wait_for_timeout(random.randint(500, 1000))
 
@@ -1471,7 +1491,7 @@ async def load_cookies(context):
 
 # ── 메인 ────────────────────────────────────────────
 async def main():
-    global BLOG_ID, CONTENT_DIR
+    global BLOG_ID, CONTENT_DIR, CTA_INSERT_FREQUENCY
 
     parser = argparse.ArgumentParser(description='로앤가이드 네이버 블로그 즉시발행')
     parser.add_argument('--content-dir', default=CONTENT_DIR, help='md 파일 폴더 경로')
@@ -1481,10 +1501,15 @@ async def main():
     parser.add_argument('--dry-run', action='store_true', help='실제 발행하지 않고 파싱만 확인')
     parser.add_argument('--all', action='store_true', help='모든 md 파일 발행')
     parser.add_argument('--files', nargs='+', help='특정 파일만 발행')
+    parser.add_argument('--cta-frequency', type=float, default=None,
+                        help=f'CTA 삽입 빈도 (0.0~1.0). 기본={CTA_INSERT_FREQUENCY}. 1.0=모든 글, 0.5=절반, 0.33=1/3.')
     args = parser.parse_args()
 
     BLOG_ID = args.blog_id
     CONTENT_DIR = args.content_dir
+    if args.cta_frequency is not None:
+        CTA_INSERT_FREQUENCY = max(0.0, min(1.0, args.cta_frequency))
+        print(f"📌 CTA 삽입 빈도: {CTA_INSERT_FREQUENCY:.0%} (CLI 오버라이드)")
 
     # 이전 results 파일에서 발행 완료된 파일명 + 마지막 예약일 로드
     published_files = set()
