@@ -243,6 +243,46 @@ def _extract_field(text: str, pattern: re.Pattern[str]) -> str | None:
     return m.group(1) if m else None
 
 
+def count_paragraph_clumps(text: str) -> tuple[list[int], list[int]]:
+    """Detect wall-of-text paragraphs (2026-05-16 rule).
+
+    네이버/티스토리 모바일 가독성을 위해 단락 1개가 너무 길면 안 됨.
+    "한 문장 = 한 단락" 원칙 (직접 연결되는 짧은 2문장 묶음은 OK).
+
+    Returns (warn_lengths, block_lengths):
+      - warn_lengths: 단락 길이 180~280자 영역 (가독성 경고)
+      - block_lengths: 단락 길이 280자 초과 (차단, wall of text)
+    Skips: bullet items (-/*/숫자.), headers(#), bold-only lines, 인용(>), 빈 줄.
+    """
+    body = _strip_to_body(text)
+    paragraphs = re.split(r"\n\s*\n", body)
+    warn: list[int] = []
+    block: list[int] = []
+    SKIP_PREFIX = ("- ", "* ", "## ", "### ", "#### ", "> ", "|", "---")
+    for para in paragraphs:
+        first = para.lstrip().split("\n", 1)[0]
+        if not first.strip():
+            continue
+        # 불릿·헤더·테이블·구분선·인용 스킵
+        if first.startswith(SKIP_PREFIX):
+            continue
+        # 숫자 불릿(1. 2. 3.) 스킵
+        if re.match(r"^\d+\.\s", first):
+            continue
+        # bold-only line (**왜 중요한가요?**) — 단독 강조 라벨은 스킵
+        if re.match(r"^\*\*[^*]+\*\*\s*$", first):
+            continue
+        # 본문 단락의 글자수 (마크다운·공백 제외)
+        clean = MARKDOWN_SYMBOLS_RE.sub("", para)
+        clean = WHITESPACE_RE.sub("", clean)
+        chars = len(clean)
+        if chars > 280:
+            block.append(chars)
+        elif chars > 180:
+            warn.append(chars)
+    return warn, block
+
+
 def count_body_chars(text: str) -> int:
     body = _strip_to_body(text)
     body = MARKDOWN_SYMBOLS_RE.sub("", body)
@@ -458,6 +498,8 @@ class Report(NamedTuple):
     category: str | None
     already_published_at: str | None
     length_category: str  # short | medium | long (default: long)
+    clump_warn: list[int]   # 단락 180~280자 (경고)
+    clump_block: list[int]  # 단락 >280자 (차단, wall of text)
 
     @property
     def is_tistory(self) -> bool:
@@ -500,6 +542,12 @@ class Report(NamedTuple):
             errs.append(
                 f"filename 이미 발행됨 ({self.already_published_at}) — 슬러그 변경(예: -v2 추가) 후 재시도"
             )
+        # 단락 뭉침 차단 (모바일 가독성, 5/15 메인 노출 폭락 회복 규칙)
+        if self.clump_block:
+            errs.append(
+                f"단락 뭉침 {len(self.clump_block)}개 (각 {max(self.clump_block)}자, >280자) — "
+                "wall of text 차단. 문장마다 단락 분리 필요"
+            )
         return errs
 
     @property
@@ -524,6 +572,12 @@ class Report(NamedTuple):
         missing_accused = [v for v in self.perspective_violations if "단정적 유죄" not in v]
         if missing_accused:
             warns.extend(missing_accused)
+        # 단락 뭉침 경고 (180~280자 영역)
+        if self.clump_warn:
+            warns.append(
+                f"단락 뭉침 경고 {len(self.clump_warn)}개 (최대 {max(self.clump_warn)}자, 180~280자) — "
+                "문장마다 단락 분리 권장"
+            )
         return warns
 
 
@@ -553,6 +607,7 @@ def analyze_file(path: Path) -> Report:
     already_at: str | None = None
     if published_at and file_date and published_at < file_date:
         already_at = published_at
+    clump_warn, clump_block = count_paragraph_clumps(text)
     return Report(
         path=path,
         body_chars=body_chars,
@@ -571,6 +626,8 @@ def analyze_file(path: Path) -> Report:
         category=category,
         already_published_at=already_at,
         length_category=length_category,
+        clump_warn=clump_warn,
+        clump_block=clump_block,
     )
 
 
