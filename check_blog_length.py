@@ -38,12 +38,36 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     except Exception:
         pass
 
-MIN_CHARS = 1500           # 하한: 미만 시 차단
-RECOMMENDED_MIN = 1700     # 권장 하한
-RECOMMENDED_MAX = 1800     # 권장 상한
-MAX_CHARS = 2200           # 상한: 초과 시 경고
-INTRO_MIN_CHARS = 100   # 목표 150~200, 하한 100
-TIP_MIN_CHARS = 300     # 목표 400~450, 하한 300
+# ── 분량 카테고리 (2026-05-16 도입, 시범 5/16~5/22) ──────
+# frontmatter length_category 필드로 short / medium / long 분기.
+# 누락 시 기본값 = long (기존 글 하위호환).
+#
+#   short  = 단순 자격/조건 질문 (50% 분배) - 800~1,200자 목표
+#   medium = 절차/방법 질문 (30% 분배)     - 1,200~1,500자 목표
+#   long   = 분쟁 대응/종합 (20% 분배)     - 1,500~1,800자 목표 (기존)
+CATEGORY_RULES: dict[str, dict[str, int]] = {
+    "short": {
+        "min": 700, "rec_min": 800, "rec_max": 1200, "max": 1400,
+        "intro_min": 50, "tip_required": 0, "subsections_required": 0,
+    },
+    "medium": {
+        "min": 1000, "rec_min": 1200, "rec_max": 1500, "max": 1700,
+        "intro_min": 80, "tip_required": 2, "subsections_required": 2,
+    },
+    "long": {
+        "min": 1500, "rec_min": 1700, "rec_max": 1800, "max": 2200,
+        "intro_min": 100, "tip_required": 3, "subsections_required": 4,
+    },
+}
+DEFAULT_CATEGORY = "long"
+
+# 기존 상수 (하위호환: long 카테고리 값)
+MIN_CHARS = CATEGORY_RULES["long"]["min"]
+RECOMMENDED_MIN = CATEGORY_RULES["long"]["rec_min"]
+RECOMMENDED_MAX = CATEGORY_RULES["long"]["rec_max"]
+MAX_CHARS = CATEGORY_RULES["long"]["max"]
+INTRO_MIN_CHARS = CATEGORY_RULES["long"]["intro_min"]
+TIP_MIN_CHARS = 300
 
 FRONTMATTER_RE = re.compile(r"^---\n.*?\n---\n", re.DOTALL)
 MARKDOWN_SYMBOLS_RE = re.compile(r"[#*`\[\]()\-=>|_!]")
@@ -182,6 +206,7 @@ MUGO_REQUIRED_PATTERNS = [
     r"무고",
 ]
 CATEGORY_RE = re.compile(r'^category:\s*"([^"]+)"', re.MULTILINE)
+LENGTH_CATEGORY_RE = re.compile(r'^length_category:\s*"?([a-z]+)"?', re.MULTILINE)
 
 # ── cases.json 로딩 캐시 ────────────────────────────────
 _CASES_CACHE: dict[str, set[str]] = {}
@@ -225,7 +250,7 @@ def count_body_chars(text: str) -> int:
     return len(body)
 
 
-def check_empathy_intro(text: str) -> tuple[bool, int, bool]:
+def check_empathy_intro(text: str, intro_min: int = INTRO_MIN_CHARS) -> tuple[bool, int, bool]:
     body = _strip_to_body(text)
     m = FIRST_TIP_RE.search(body)
     intro_raw = body[:m.start()] if m else body[:500]
@@ -233,22 +258,34 @@ def check_empathy_intro(text: str) -> tuple[bool, int, bool]:
     intro_clean = WHITESPACE_RE.sub("", intro_clean)
     chars = len(intro_clean)
     has_hook = bool(EMPATHY_HOOK_RE.search(intro_raw))
-    has_intro = chars >= INTRO_MIN_CHARS and has_hook
+    has_intro = chars >= intro_min and has_hook
     return has_intro, chars, has_hook
 
 
-def check_tip_sections(text: str, is_tistory: bool) -> tuple[int, list[tuple[int, list[str]]]]:
+def check_tip_sections(
+    text: str,
+    is_tistory: bool,
+    subsections_required: int = 4,
+) -> tuple[int, list[tuple[int, list[str]]]]:
     """Return (tip_count, [(tip_index, missing_subsections)]).
 
-    Blog (네이버): requires 4 sub-sections (왜중요/쉽게설명/바로할일/흔한실수).
-    Tistory: requires 2 sub-sections (바로할일/흔한실수).
+    subsections_required:
+      - 4 (long blog default): 왜중요/쉽게설명/바로할일/흔한실수 모두 필수
+      - 2 (medium blog or tistory): 바로할일/흔한실수 만 필수
+      - 0 (short blog): Tip 자체가 선택사항 → 누락 검사 X
+    Tistory always uses TISTORY_SUBSECTIONS (2개) regardless of category.
     """
     body = _strip_to_body(text)
     case_match = re.search(r"(?:📌|### )\s*\*?\*?\s*(?:실제\s*판례|실제로 이런 판례)", body)
     tip_region = body[:case_match.start()] if case_match else body
     parts = TIP_SPLIT_RE.split(tip_region)
     tips = [p for p in parts if FIRST_TIP_RE.match(p)]
-    markers = TISTORY_SUBSECTIONS if is_tistory else BLOG_SUBSECTIONS
+    if subsections_required == 0:
+        return len(tips), []
+    if is_tistory or subsections_required <= 2:
+        markers = TISTORY_SUBSECTIONS
+    else:
+        markers = BLOG_SUBSECTIONS
     results: list[tuple[int, list[str]]] = []
     for i, tip in enumerate(tips, start=1):
         missing: list[str] = []
@@ -420,30 +457,38 @@ class Report(NamedTuple):
     perspective_violations: list[str]
     category: str | None
     already_published_at: str | None
+    length_category: str  # short | medium | long (default: long)
 
     @property
     def is_tistory(self) -> bool:
         return "tistory" in str(self.path).lower()
 
     @property
+    def rules(self) -> dict[str, int]:
+        return CATEGORY_RULES.get(self.length_category, CATEGORY_RULES[DEFAULT_CATEGORY])
+
+    @property
     def blocking_errors(self) -> list[str]:
         errs: list[str] = []
-        if self.body_chars < MIN_CHARS:
-            errs.append(f"본문 {self.body_chars}자 (<{MIN_CHARS})")
+        rules = self.rules
+        cat_label = f"[{self.length_category}]"
+        if self.body_chars < rules["min"]:
+            errs.append(f"본문 {self.body_chars}자 (<{rules['min']}) {cat_label}")
         if not self.has_intro:
             reasons = []
-            if self.intro_chars < INTRO_MIN_CHARS:
-                reasons.append(f"도입 {self.intro_chars}자")
-            if not self.has_intro and self.intro_chars >= INTRO_MIN_CHARS:
+            if self.intro_chars < rules["intro_min"]:
+                reasons.append(f"도입 {self.intro_chars}자 (<{rules['intro_min']})")
+            if not self.has_intro and self.intro_chars >= rules["intro_min"]:
                 reasons.append("공감어미 없음")
-            errs.append(f"공감도입 부족 ({', '.join(reasons) or '누락'})")
-        if self.tip_count < 3:
-            errs.append(f"Tip {self.tip_count}개 (<3)")
-        if self.missing_subsections:
+            errs.append(f"공감도입 부족 {cat_label} ({', '.join(reasons) or '누락'})")
+        if rules["tip_required"] > 0 and self.tip_count < rules["tip_required"]:
+            errs.append(f"Tip {self.tip_count}개 (<{rules['tip_required']}) {cat_label}")
+        # 서브섹션 검사는 tip_required>0 인 카테고리에서만 (short 는 Tip 자체가 선택사항)
+        if rules["tip_required"] > 0 and self.missing_subsections:
             items = ", ".join(
                 f"Tip{i}:{'/'.join(m)}" for i, m in self.missing_subsections
             )
-            errs.append(f"서브섹션 누락 [{items}]")
+            errs.append(f"서브섹션 누락 {cat_label} [{items}]")
         if self.cta_violations:
             errs.append("CTA: " + "; ".join(self.cta_violations))
         # 단정적 유죄 표현은 차단 (가해자/무고 관점 오류)
@@ -460,8 +505,9 @@ class Report(NamedTuple):
     @property
     def warnings(self) -> list[str]:
         warns: list[str] = []
-        if self.body_chars > MAX_CHARS:
-            warns.append(f"본문 {self.body_chars}자 (>{MAX_CHARS})")
+        rules = self.rules
+        if self.body_chars > rules["max"]:
+            warns.append(f"본문 {self.body_chars}자 (>{rules['max']}) [{self.length_category}]")
         if self.unknown_cases:
             warns.append(f"판례 사건번호 kb에 없음: {', '.join(self.unknown_cases)}")
         if self.title_overlaps:
@@ -485,10 +531,15 @@ def analyze_file(path: Path) -> Report:
     text = path.read_text(encoding="utf-8")
     domain = _extract_field(text, DOMAIN_RE)
     category = _extract_field(text, CATEGORY_RE)
+    raw_length_cat = _extract_field(text, LENGTH_CATEGORY_RE)
+    length_category = raw_length_cat if raw_length_cat in CATEGORY_RULES else DEFAULT_CATEGORY
+    rules = CATEGORY_RULES[length_category]
     body_chars = count_body_chars(text)
-    has_intro, intro_chars, _ = check_empathy_intro(text)
+    has_intro, intro_chars, _ = check_empathy_intro(text, intro_min=rules["intro_min"])
     is_tistory = "tistory" in str(path).lower()
-    tip_count, missing = check_tip_sections(text, is_tistory)
+    tip_count, missing = check_tip_sections(
+        text, is_tistory, subsections_required=rules["subsections_required"]
+    )
     nums, unknown = check_case_numbers(text, domain)
     cta_v = check_cta(text, domain, is_tistory)
     overlaps = check_title_overlap(text, path, domain)
@@ -519,6 +570,7 @@ def analyze_file(path: Path) -> Report:
         perspective_violations=persp_v,
         category=category,
         already_published_at=already_at,
+        length_category=length_category,
     )
 
 
@@ -595,7 +647,13 @@ def main() -> int:
         return 1 if bad else 0
 
     print(f"[check_blog_length] {header}")
-    print(f"  목표: 본문 {MIN_CHARS}~{MAX_CHARS}자 (권장 {RECOMMENDED_MIN}~{RECOMMENDED_MAX}) / 공감도입 ≥{INTRO_MIN_CHARS}자 / Tip 3개+4서브섹션 / 판례 kb검증 / CTA / 제목중복 / 톤 / 가해자 표현")
+    print(
+        "  목표 (length_category 분기): "
+        f"short {CATEGORY_RULES['short']['min']}~{CATEGORY_RULES['short']['max']}자(권장 {CATEGORY_RULES['short']['rec_min']}~{CATEGORY_RULES['short']['rec_max']}) / "
+        f"medium {CATEGORY_RULES['medium']['min']}~{CATEGORY_RULES['medium']['max']}자(권장 {CATEGORY_RULES['medium']['rec_min']}~{CATEGORY_RULES['medium']['rec_max']}) / "
+        f"long {CATEGORY_RULES['long']['min']}~{CATEGORY_RULES['long']['max']}자(권장 {CATEGORY_RULES['long']['rec_min']}~{CATEGORY_RULES['long']['rec_max']})"
+    )
+    print(f"  + 공감도입(카테고리별 ≥) / Tip(short 0개·medium 2개·long 3개) / 판례 kb검증 / CTA / 제목중복 / 톤 / 가해자 표현")
     print(f"  OK          {len(reports) - len(bad):>3}개")
     print(f"  차단(block) {len(bad):>3}개")
     print(f"  경고(warn)  {len(warn):>3}개")
