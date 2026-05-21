@@ -1,0 +1,1362 @@
+{
+  "hubs": [
+    "unemployment",
+    "retirement",
+    "wage",
+    "dismissal",
+    "jeonse",
+    "jeonse-fraud",
+    "traffic-accident",
+    "defamation",
+    "stalking",
+    "divorce",
+    "child-support"
+  ],
+  "spokes": [
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-recurring-illness-extension-treatment-track",
+      "batch": 71
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-part-time-multi-employer-insured-day-aggregation-track",
+      "batch": 70
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-job-search-activity-recognition-rejected-objection-track",
+      "batch": 69
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-separation-code-employer-refuse-correction-track",
+      "batch": 68
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-private-academy-instructor-contract-end-track",
+      "batch": 67
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-recurring-illness-quit-medical-track",
+      "batch": 66
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-spouse-relocation-job-transfer-resign-track",
+      "batch": 65
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-child-care-school-time-mismatch-track",
+      "batch": 64
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-commute-1-5hour-public-transit-quit-track",
+      "batch": 63
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-recommended-resignation-eligibility-track",
+      "batch": 62
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-job-mismatch-quit-just-cause-track",
+      "batch": 61
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-employer-no-closure-report-de-facto-shutdown",
+      "batch": 60
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-self-employed-voluntary-insured-closure",
+      "batch": 59
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-after-childcare-leave-eligibility",
+      "batch": 58
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-180days-trap-long-leave",
+      "batch": 58
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-childcare-leave-recommend-resignation-protection",
+      "batch": 58
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-wage-unpaid-30percent-quit",
+      "batch": 58
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-working-hours-cut-30percent-quit",
+      "batch": 56
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-separation-code-recommendation-to-voluntary-correction",
+      "batch": 55
+    },
+    {
+      "domain": "unemployment",
+      "slug": "fixed-term-contract-1year-vs-fair-allowance",
+      "batch": 54
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-short-part-time-unreport-rescue",
+      "batch": 54
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-pregnancy-maternity-just-cause",
+      "batch": 54
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-recommendation-vs-resignation-boundary",
+      "batch": 53
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-fraud-claim-recovery-procedure",
+      "batch": 53
+    },
+    {
+      "domain": "unemployment",
+      "slug": "unemployment-cohabit-spouse-resignation-rescue",
+      "batch": 52
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-merger-succession-tenure-recount-track",
+      "batch": 71
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-bonus-included-average-wage-dispute-track",
+      "batch": 71
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-taxi-alternate-day-driver-average-wage-allocation-track",
+      "batch": 70
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-registered-director-continued-employee-status-tenure-track",
+      "batch": 70
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-honorary-retirement-coercion-agreement-rescission-track",
+      "batch": 69
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-fixed-term-renewal-chain-tenure-aggregation-track",
+      "batch": 69
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-collective-agreement-cap-individual-claim-track",
+      "batch": 68
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-fixed-term-contract-gap-tenure-link-track",
+      "batch": 68
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-foreign-currency-bonus-fluctuation-track",
+      "batch": 67
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-meal-card-prepaid-welfare-included-track",
+      "batch": 67
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-pre-retirement-bonus-average-wage-skip-track",
+      "batch": 66
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-probation-included-tenure-track",
+      "batch": 66
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-db-to-dc-pension-conversion-loss-track",
+      "batch": 65
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-overseas-assignment-period-included-track",
+      "batch": 65
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-merger-acquisition-succession-claim-track",
+      "batch": 64
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-multiple-business-affiliated-aggregation-track",
+      "batch": 64
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-rotation-shift-allowance-included-track",
+      "batch": 63
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-business-suspension-period-average-wage-track",
+      "batch": 63
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-db-investment-loss-responsibility-track",
+      "batch": 62
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-self-employed-transition-payout-track",
+      "batch": 62
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-interim-settle-recalculation-track",
+      "batch": 61
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-foreign-worker-departure-payout-track",
+      "batch": 61
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-db-to-dc-conversion-loss-shortfall",
+      "batch": 60
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-honorary-quit-extra-claim-waiver-invalid",
+      "batch": 60
+    },
+    {
+      "domain": "retirement",
+      "slug": "retirement-annual-salary-includes-severance-invalid",
+      "batch": 59
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-bonus-target-impossible-revised-mid-year-track",
+      "batch": 71
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-shift-night-difference-no-applied-claim-track",
+      "batch": 71
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-meal-transport-allowance-ordinary-wage-inclusion-track",
+      "batch": 70
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-overtime-no-prior-approval-tacit-acceptance-claim-track",
+      "batch": 70
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-comprehensive-cap-overtime-over-claim-track",
+      "batch": 69
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-business-trip-overseas-allowance-unilateral-cut-track",
+      "batch": 69
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-business-loss-compensation-deduction-illegal-track",
+      "batch": 68
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-workplace-shutdown-60percent-allowance-track",
+      "batch": 68
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-base-salary-hidden-allowance-revealed-track",
+      "batch": 67
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-yearend-bonus-customary-revoke-track",
+      "batch": 67
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-holiday-work-50-50-additional-pay-track",
+      "batch": 66
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-piece-rate-pay-minimum-wage-floor-track",
+      "batch": 66
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-incentive-target-unilateral-revise-track",
+      "batch": 65
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-night-shift-allowance-base-included-track",
+      "batch": 65
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-pay-cut-agreement-coercion-revoke-track",
+      "batch": 64
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-bonus-customary-payment-refusal-track",
+      "batch": 64
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-annual-leave-unused-payout-claim-track",
+      "batch": 63
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-business-trip-allowance-ordinary-wage-track",
+      "batch": 63
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-meal-allowance-ordinary-wage-track",
+      "batch": 62
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-holiday-allowance-saturday-sunday-track",
+      "batch": 62
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-attendance-incentive-deduction-illegal-track",
+      "batch": 61
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-comprehensive-pay-overtime-cap-excess-track",
+      "batch": 61
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-alternate-day-shift-overtime-night-holiday-claim",
+      "batch": 60
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-employer-early-dismissal-shutdown-pay",
+      "batch": 60
+    },
+    {
+      "domain": "wage",
+      "slug": "wage-comprehensive-night-holiday-overtime-shortfall",
+      "batch": 59
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-pip-impossible-target-after-low-rating-fire-track",
+      "batch": 71
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-overseas-relocation-refuse-then-fire-track",
+      "batch": 71
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-coworker-romance-disclosed-fire-track",
+      "batch": 71
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-customer-named-bad-review-blame-fire-track",
+      "batch": 71
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-religious-headscarf-uniform-violation-fire-track",
+      "batch": 71
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-warning-suspension-stacking-fire-track",
+      "batch": 70
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-team-disbandment-only-one-laid-off-track",
+      "batch": 70
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-private-errand-refusal-retaliation-track",
+      "batch": 70
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-rule-violation-targeted-disciplinary-fire-track",
+      "batch": 70
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-employer-insolvency-bankruptcy-deferred-pay-track",
+      "batch": 70
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-fertility-treatment-leave-fire-track",
+      "batch": 69
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-retention-bonus-clawback-resign-pressure-track",
+      "batch": 69
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-second-job-rule-violation-fire-track",
+      "batch": 69
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-investigation-indefinite-standby-resign-pressure-track",
+      "batch": 69
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-non-compete-clause-violation-fire-track",
+      "batch": 69
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-maternity-return-one-week-resign-pressure",
+      "batch": 68
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-merger-acquirer-sole-fire-track",
+      "batch": 68
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-branch-consolidation-sole-target-track",
+      "batch": 68
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-frequent-sickleave-capability-lack-track",
+      "batch": 68
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-union-join-eval-rating-drop-track",
+      "batch": 68
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-pre-retirement-immediate-firing-payout-escape-track",
+      "batch": 67
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-annual-leave-coerced-use-absent-fire-track",
+      "batch": 67
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-internal-messenger-private-chat-fire-track",
+      "batch": 67
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-callcenter-qa-score-failure-fire-track",
+      "batch": 67
+    },
+    {
+      "domain": "dismissal",
+      "slug": "dismissal-contractor-conversion-eve-fire-track",
+      "batch": 67
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-bank-mortgage-foreclosure-deposit-priority-track",
+      "batch": 71
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-house-fire-damage-deposit-recovery-rebuilding-track",
+      "batch": 71
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-landlord-refuse-move-out-transfer-registration-track",
+      "batch": 70
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-implicit-renewal-landlord-rent-increase-demand-refuse-track",
+      "batch": 70
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-small-amount-tenant-priority-payment-region-cap-track",
+      "batch": 69
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-landlord-death-incapacity-deposit-return-procedure-track",
+      "batch": 69
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-underwater-kkangtong-pre-contract-risk-check-track",
+      "batch": 68
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-hug-guarantee-denial-rejection-response-track",
+      "batch": 68
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-deposit-return-delay-monthly-interest-claim-track",
+      "batch": 67
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-key-money-cash-receipt-no-paper-track",
+      "batch": 67
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-landlord-relative-substitute-tenant-track",
+      "batch": 66
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-monthly-rent-conversion-deposit-cap-track",
+      "batch": 66
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-multi-household-officetel-residence-proof-track",
+      "batch": 65
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-landlord-tax-arrears-priority-loss-track",
+      "batch": 65
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-fixed-term-end-renewal-refusal-no-reason-track",
+      "batch": 64
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-landlord-individual-bankruptcy-deposit-track",
+      "batch": 64
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-newbuild-late-mortgage-priority-loss-track",
+      "batch": 63
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-broker-deposit-misappropriation-track",
+      "batch": 63
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-renewal-rent-increase-cap-overrun-track",
+      "batch": 62
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-landlord-abroad-emigrate-track",
+      "batch": 62
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-partial-return-deposit-court-track",
+      "batch": 61
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-landlord-bankruptcy-priority-payment-track",
+      "batch": 61
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-empty-deposit-gap-investment-pre-contract-identification",
+      "batch": 60
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-hug-guarantee-claim-rejected-review-pass-strategy",
+      "batch": 60
+    },
+    {
+      "domain": "jeonse",
+      "slug": "jeonse-landlord-death-heirs-renunciation-deposit-risk",
+      "batch": 59
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-complaint-writing",
+      "batch": 18
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-auction-priority-repayment",
+      "batch": 16
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-deposit-priority-order",
+      "batch": 15
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-broker-liability",
+      "batch": 15
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-deposit-not-returned-response",
+      "batch": 14
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-where-to-start",
+      "batch": 14
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "empty-jeonse-verification-method",
+      "batch": 12
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-relief-timeline",
+      "batch": 11
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-first-check",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-victim-application-docs",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "shell-jeonse-check-response",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-victim-recognition-process",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "shell-jeonse-verification-checklist",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-report-procedure",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-vs-deposit-default",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-landlord-accused-response",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-civil-vs-criminal",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-auction-bidding-guide",
+      "batch": 0
+    },
+    {
+      "domain": "jeonse-fraud",
+      "slug": "jeonse-fraud-multiple-victim-joint",
+      "batch": 0
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-bicycle-rider-vs-pedestrian-crosswalk-claim-track",
+      "batch": 71
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-night-rural-unlit-road-pedestrian-collision-track",
+      "batch": 71
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-cargo-truck-overload-blind-spot-cyclist-track",
+      "batch": 71
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-school-zone-30kmh-over-minor-injury-track",
+      "batch": 71
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-tunnel-multi-vehicle-chain-collision-fault-track",
+      "batch": 71
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-unprotected-left-turn-straight-collision-fault-track",
+      "batch": 70
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-jaywalking-fatal-pedestrian-accused-criminal-civil-track",
+      "batch": 70
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-traffic-signal-yellow-light-intersection-entry-fault-track",
+      "batch": 70
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-kindergarten-school-bus-child-alighting-injury-track",
+      "batch": 70
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-delivery-rider-platform-employment-status-injury-track",
+      "batch": 70
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-rear-end-chain-emergency-brake-fault-distribution-track",
+      "batch": 69
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-roundabout-entry-exit-yield-violation-track",
+      "batch": 69
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-mountain-road-fallen-rock-state-liability-track",
+      "batch": 69
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-electric-scooter-sidewalk-pedestrian-collision-track",
+      "batch": 69
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-shared-bicycle-rental-defect-liability-track",
+      "batch": 69
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-drunk-driver-companion-passenger-liability-track",
+      "batch": 68
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-pm-kickboard-insurance-coverage-track",
+      "batch": 68
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-unsignalized-intersection-right-angle-priority-track",
+      "batch": 68
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-infant-carseat-nonuse-settlement-reduction-track",
+      "batch": 68
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-vehicle-flood-damage-insurance-dispute-track",
+      "batch": 68
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-electric-wheelchair-pedestrian-track",
+      "batch": 67
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-airbag-non-deploy-defect-claim-track",
+      "batch": 67
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-fog-multi-vehicle-fault-distribution-track",
+      "batch": 67
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-tow-truck-cargo-loading-collision-track",
+      "batch": 67
+    },
+    {
+      "domain": "traffic-accident",
+      "slug": "traffic-accident-cargo-tarp-failure-debris-track",
+      "batch": 67
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-medical-malpractice-anonymous-blog-doctor-victim-track",
+      "batch": 71
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-employee-glassdoor-style-anonymous-review-company-accused-track",
+      "batch": 71
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-celebrity-tabloid-rumor-personal-life-track",
+      "batch": 71
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-kakaotalk-private-groupchat-screenshot-leak-public-victim-track",
+      "batch": 70
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-corporate-internal-anonymous-board-post-accused-disciplinary-track",
+      "batch": 70
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-falsely-accused-counter-fact-disprove-victim-track",
+      "batch": 70
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-foreign-review-site-cross-border-restaurant-track",
+      "batch": 69
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-online-community-poll-vote-target-track",
+      "batch": 69
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-deceased-criticism-bereaved-emotional-damage-track",
+      "batch": 69
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-delivery-app-low-star-revenge-review-accused-track",
+      "batch": 68
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-mom-cafe-academy-warning-info-share-accused-track",
+      "batch": 68
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-livestream-chat-screen-capture-secondary-spread-victim-track",
+      "batch": 68
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-naver-cafe-real-experience-comment-accused-track",
+      "batch": 67
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-chatbot-ai-generated-content-track",
+      "batch": 67
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-broadcast-press-victim-secondary-leak-track",
+      "batch": 67
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-revenge-photo-distribute-threat-accused-track",
+      "batch": 66
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-employee-real-feedback-platform-accused-track",
+      "batch": 66
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-political-poster-citizen-criticism-accused-track",
+      "batch": 66
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-medical-malpractice-online-review-track",
+      "batch": 65
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-political-public-figure-criticism-comment-track",
+      "batch": 65
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-livestream-realtime-record-evidence-track",
+      "batch": 65
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-celebrity-public-figure-criticism-track",
+      "batch": 64
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-deceased-person-track",
+      "batch": 64
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-online-stalking-mass-comment-track",
+      "batch": 64
+    },
+    {
+      "domain": "defamation",
+      "slug": "defamation-momcafe-realname-criticism-track",
+      "batch": 63
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-coworker-after-work-following-route-track",
+      "batch": 71
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-online-game-voice-chat-repeat-private-message-track",
+      "batch": 71
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-ex-lover-sns-secondary-account-repeated-approach-track",
+      "batch": 70
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-coworker-commute-route-following-track",
+      "batch": 70
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-online-game-stalker-griefing-track",
+      "batch": 69
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-private-investigator-third-party-commissioned-track",
+      "batch": 69
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-ex-spouse-visitation-handover-pretext-track",
+      "batch": 68
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-provisional-measure-violation-recidivism-aggravation-track",
+      "batch": 68
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-online-game-voice-chat-track",
+      "batch": 67
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-rental-property-landlord-resident-track",
+      "batch": 67
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-workplace-coworker-after-resign-track",
+      "batch": 66
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-delivery-rider-customer-info-misuse-track",
+      "batch": 66
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-celebrity-fan-private-info-tracking-track",
+      "batch": 65
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-online-game-real-life-doxxing-track",
+      "batch": 65
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-ex-spouse-child-handover-recontact-track",
+      "batch": 64
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-online-game-channel-rejection-track",
+      "batch": 64
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-pt-trainer-member-track",
+      "batch": 63
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-academy-teacher-student-parent-track",
+      "batch": 63
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-coworker-quit-force-track",
+      "batch": 62
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-multiple-anonymous-account-track",
+      "batch": 62
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-dating-app-rejection-message-flood-track",
+      "batch": 61
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-realtor-customer-repeated-visit-track",
+      "batch": 61
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-supervisor-employer-vicarious-liability-occupational-safety-track",
+      "batch": 60
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-visitation-rights-pretext-recontact-family-vs-criminal-track",
+      "batch": 60
+    },
+    {
+      "domain": "stalking",
+      "slug": "stalking-ex-lover-recontact-provisional-1-vs-2-compare",
+      "batch": 59
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-international-marriage-cultural-conflict-track",
+      "batch": 71
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-stepfamily-adopted-child-custody-track",
+      "batch": 71
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-domestic-violence-emergency-shelter-immediate-divorce-track",
+      "batch": 71
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-spouse-startup-cofounder-equity-asset-division-track",
+      "batch": 71
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-domestic-violence-protection-order-emergency-parallel-divorce-petition-track",
+      "batch": 70
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-de-facto-marriage-breakup-asset-share-evidence-track",
+      "batch": 70
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-remarriage-environment-change-custodian-change-petition-track",
+      "batch": 70
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-foreign-spouse-consensual-divorce-jurisdiction-document-track",
+      "batch": 70
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-spouse-online-multiple-mistress-emotional-affair-track",
+      "batch": 69
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-stepchild-adoption-cancel-asset-division-track",
+      "batch": 69
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-spouse-gambling-addiction-marital-debt-share-track",
+      "batch": 69
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-pet-custody-multiple-pets-care-distribution-track",
+      "batch": 69
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-cooling-period-new-partner-fault-shift-track",
+      "batch": 68
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-visitation-refused-court-enforcement-fine-track",
+      "batch": 68
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-affair-spouse-settled-third-party-additional-claim-track",
+      "batch": 68
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-national-pension-split-ratio-separate-decision-track",
+      "batch": 68
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-spouse-economic-abuse-financial-control-track",
+      "batch": 67
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-spouse-game-screen-addiction-divorce-track",
+      "batch": 67
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-spouse-cult-religion-excessive-donation-track",
+      "batch": 67
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-spouse-employee-stock-option-vesting-asset-division-track",
+      "batch": 67
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-marriage-fake-document-cancel-track",
+      "batch": 66
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-pet-custody-companion-animal-track",
+      "batch": 66
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-ivf-frozen-embryo-disposition-track",
+      "batch": 66
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-childless-property-division-housewife-track",
+      "batch": 66
+    },
+    {
+      "domain": "divorce",
+      "slug": "divorce-cooling-period-domestic-violence-waiver-track",
+      "batch": 65
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-step-parent-adoption-cancel-pre-existing-track",
+      "batch": 71
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-college-tuition-adult-child-extension-track",
+      "batch": 71
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-modification-petition-payer-remarriage-job-loss-track",
+      "batch": 70
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-direct-payment-order-family-court-no-csa-track",
+      "batch": 70
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-payer-cohabitant-income-imputation-track",
+      "batch": 69
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-arrears-lump-sum-payment-credit-restoration-track",
+      "batch": 69
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-non-payer-credit-information-registration-track",
+      "batch": 68
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-modification-payer-disability-income-drop-track",
+      "batch": 68
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-payer-bankruptcy-non-dischargeable-track",
+      "batch": 67
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-overseas-payer-currency-exchange-loss-track",
+      "batch": 67
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-private-school-tuition-additional-track",
+      "batch": 66
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-non-cash-payment-property-recognition-track",
+      "batch": 66
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-cohabitation-paternity-recognition-claim-track",
+      "batch": 65
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-overseas-flee-non-payer-collection-track",
+      "batch": 65
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-college-tuition-special-claim-track",
+      "batch": 64
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-disabled-child-extension-track",
+      "batch": 64
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-license-points-passport-restriction-track",
+      "batch": 63
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-pre-payment-emergency-medium-income-track",
+      "batch": 63
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-claim-assignment-recovery-track",
+      "batch": 62
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-custodian-change-arrears-track",
+      "batch": 62
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-paternity-recognition-back-claim-track",
+      "batch": 61
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-economic-shock-modification-track",
+      "batch": 61
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-lump-sum-paid-additional-claim-possibility",
+      "batch": 60
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-hague-convention-overseas-cross-border-claim",
+      "batch": 60
+    },
+    {
+      "domain": "child-support",
+      "slug": "child-support-calculation-table-add-deduct-factors",
+      "batch": 59
+    }
+  ]
+}
