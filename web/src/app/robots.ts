@@ -8,9 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: [
-      'https://www.lawnguide.co.kr/sitemap.xml',
-      'https://www.lawnguide.co.kr/sitemap-priority.xml',
-    ],
+    sitemap: 'https://www.lawnguide.co.kr/sitemap.xml',
   };
 }
