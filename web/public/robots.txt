@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://www.lawnguide.co.kr/sitemap.xml
+
+#DaumWebMasterTool:2a7035b475ac0cfc8cebe12e2be64dc0fc8a4086dd836711ff99d422150aebab:rZ9zMOXwQqQoqgAOxi52gA==
