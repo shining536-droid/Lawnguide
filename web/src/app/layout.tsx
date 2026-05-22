@@ -25,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta name="google-site-verification" content="vL9P2IwiUGewHLUXc8epNWxdLtdZNtkAkim3QyaPiFU" />
         <meta name="naver-site-verification" content="c6424ae4789dfde31cbd8118570b55c09dcb2f24" />
+        <meta name="naver-site-verification" content="3370cd24c2b12a5868d3e2bf9b28afb807031f55" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1e40af" />
         <link rel="manifest" href="/manifest.json" />
