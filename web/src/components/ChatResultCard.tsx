@@ -31,6 +31,8 @@ interface ChatResultCardProps {
   result: ResultEntry;
   answers: Record<string, string>;
   domainName: string;
+  /** 도메인 키 (예: fraud, dismissal). GA4 guide_domain 파라미터용. 없으면 domainName 사용 */
+  domainKey?: string;
   procedure?: DomainProcedure;
   onRestart?: () => void;
 }
@@ -280,7 +282,7 @@ function ProcedureDeadlinesSection({ deadlines, sourceUrls }: { deadlines: { lab
 }
 
 /* ─── Main Component ─── */
-export default function ChatResultCard({ result, answers, domainName, procedure, onRestart }: ChatResultCardProps) {
+export default function ChatResultCard({ result, answers, domainName, domainKey, procedure, onRestart }: ChatResultCardProps) {
   // Connect diagnosis answers to document checklist
   // Parse user's existing docs/evidence from answers
   const userExistingDocs = new Set<string>();
@@ -315,6 +317,52 @@ export default function ChatResultCard({ result, answers, domainName, procedure,
 
   const toggleDoc = useCallback((index: number) => {
     setCheckedDocs((prev) => ({ ...prev, [index]: !prev[index] }));
+  }, []);
+
+  /* ─── 전문가 상담 안내(베타) 모달 ─── */
+  const [expertModalOpen, setExpertModalOpen] = useState(false);
+  const [waitlistConfirmed, setWaitlistConfirmed] = useState(false);
+
+  // GA4 이벤트 공통 파라미터로 전송
+  const trackExpertEvent = useCallback(
+    (eventName: string, buttonText: string) => {
+      if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+        window.gtag('event', eventName, {
+          page_path: window.location.pathname,
+          guide_domain: domainKey ?? domainName,
+          cta_location: 'result_bottom',
+          button_text: buttonText,
+        });
+      }
+    },
+    [domainKey, domainName]
+  );
+
+  const handleExpertCtaClick = useCallback(() => {
+    // 기존 cta_click 이벤트 유지
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'cta_click', {
+        cta_type: 'expert_match',
+        page_path: window.location.pathname,
+        guide_domain: domainKey ?? domainName,
+        cta_location: 'result_bottom',
+        button_text: '전문가 매칭 요청하기',
+      });
+    }
+    // 모달 표시 + 노출 이벤트
+    setWaitlistConfirmed(false);
+    setExpertModalOpen(true);
+    trackExpertEvent('expert_modal_view', '전문가 매칭 요청하기');
+  }, [domainKey, domainName, trackExpertEvent]);
+
+  const handleWaitlistClick = useCallback(() => {
+    trackExpertEvent('expert_waitlist_click', '전문가 연결 알림 신청');
+    setWaitlistConfirmed(true);
+  }, [trackExpertEvent]);
+
+  const closeExpertModal = useCallback(() => {
+    setExpertModalOpen(false);
+    setWaitlistConfirmed(false);
   }, []);
 
   const handleCopyLink = async () => {
@@ -543,9 +591,13 @@ export default function ChatResultCard({ result, answers, domainName, procedure,
         <div className="pt-6 border-t border-gray-100">
           <div className="bg-gradient-to-r from-amber-50 to-amber-100 rounded-xl p-5 text-center">
             <p className="text-gray-600 text-sm mb-2">변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.</p>
-            <p className="text-gray-800 font-bold mb-1">전문 변호사 상담이 필요하다면</p>
-            <p className="text-gray-600 text-sm mb-4">준비된 상태로 상담받으면 결과가 달라집니다</p>
-            <button className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3.5 px-6 rounded-xl w-full transition-colors text-base shadow-md hover:shadow-lg">
+            <p className="text-gray-800 font-bold mb-1">변호사 상담을 검토 중이라면</p>
+            <p className="text-gray-600 text-sm mb-4">준비된 상태로 상담받으면 도움이 됩니다</p>
+            <button
+              type="button"
+              onClick={handleExpertCtaClick}
+              className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3.5 px-6 rounded-xl w-full transition-colors text-base shadow-md hover:shadow-lg"
+            >
               전문가 매칭 요청하기
             </button>
           </div>
@@ -587,6 +639,56 @@ export default function ChatResultCard({ result, answers, domainName, procedure,
           </button>
         )}
       </div>
+
+      {/* ═══ 전문가 상담 안내(베타) 모달 ═══ */}
+      {expertModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="expert-modal-title"
+          onClick={closeExpertModal}
+        >
+          <div
+            className="bg-white rounded-2xl shadow-xl w-full max-w-sm p-6"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h4 id="expert-modal-title" className="text-lg font-bold text-gray-900 mb-3">
+              전문가 상담 안내 베타 준비 중입니다
+            </h4>
+            <p className="text-sm text-gray-600 leading-relaxed mb-5">
+              로앤가이드는 현재 상담 전 상황 정리와 증거 체크를 먼저 도와드리고 있습니다.
+              전문가 상담 안내 기능은 베타 서비스로 준비 중입니다.
+            </p>
+
+            {waitlistConfirmed && (
+              <div className="bg-green-50 border border-green-200 rounded-xl p-3 mb-4">
+                <p className="text-sm text-green-800 font-medium">
+                  알림 신청 의향이 확인되었습니다. 베타 기능은 준비 중입니다.
+                </p>
+              </div>
+            )}
+
+            <div className="flex flex-col gap-2">
+              <button
+                type="button"
+                onClick={handleWaitlistClick}
+                disabled={waitlistConfirmed}
+                className="bg-amber-500 hover:bg-amber-600 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold py-3 px-4 rounded-xl w-full transition-colors"
+              >
+                전문가 연결 알림 신청
+              </button>
+              <button
+                type="button"
+                onClick={closeExpertModal}
+                className="text-sm text-gray-600 hover:text-gray-800 bg-gray-100 hover:bg-gray-200 py-2.5 px-4 rounded-xl w-full transition-colors font-medium"
+              >
+                닫기
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

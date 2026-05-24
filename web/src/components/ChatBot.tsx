@@ -1944,7 +1944,7 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
       case 'result':
         return (
           <div key={msg.id} className="w-full">
-            {msg.result && <ChatResultCard result={msg.result} answers={msg.answers ?? {}} domainName={domainMeta?.name ?? ''} procedure={selectedDomain ? procedureData?.[selectedDomain] : undefined} onRestart={handleRestart} />}
+            {msg.result && <ChatResultCard result={msg.result} answers={msg.answers ?? {}} domainName={domainMeta?.name ?? ''} domainKey={selectedDomain ?? undefined} procedure={selectedDomain ? procedureData?.[selectedDomain] : undefined} onRestart={handleRestart} />}
           </div>
         );
 
@@ -1958,6 +1958,7 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
                 result={buildSubtypeResultEntry(msg.subtypeResult, selectedDomain, selectedPerspectiveKey)}
                 answers={msg.answers ?? {}}
                 domainName={domainMeta?.name ?? ''}
+                domainKey={selectedDomain ?? undefined}
                 procedure={selectedDomain ? procedureData?.[selectedDomain] : undefined}
                 onRestart={handleRestart}
               />
