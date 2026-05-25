@@ -469,12 +469,19 @@ import { spokesBatch74DefameJeonseStalking } from './spoke/spokes-batch74-defame
 import { spokesBatch74AssaultDui } from './spoke/spokes-batch74-assault-dui';
 import { spokesBatch75Fraud } from './spoke/spokes-batch75-fraud';
 import { spokesBatch76Fraud } from './spoke/spokes-batch76-fraud';
+import { spokesBatch77Fraud } from './spoke/spokes-batch77-fraud';
 import { spokesBatch76SexCrime } from './spoke/spokes-batch76-sex-crime';
 import { spokesBatch76AssaultDui } from './spoke/spokes-batch76-assault-dui';
 import { spokesBatch76DivorceInheritTraffic } from './spoke/spokes-batch76-divorce-inherit-traffic';
 import { spokesBatch76DefameJeonseFraud } from './spoke/spokes-batch76-defame-jeonsefraud';
 import { spokesBatch76Dismissal } from './spoke/spokes-batch76-dismissal';
 import { spokesBatch76WageUnempRetireIa } from './spoke/spokes-batch76-wage-unemp-retire-ia';
+import { spokesBatch77SexCrime } from './spoke/spokes-batch77-sex-crime';
+import { spokesBatch77AssaultDui } from './spoke/spokes-batch77-assault-dui';
+import { spokesBatch77DivorceInheritTraffic } from './spoke/spokes-batch77-divorce-inherit-traffic';
+import { spokesBatch77DefameJeonseFraud } from './spoke/spokes-batch77-defame-jeonsefraud';
+import { spokesBatch77Dismissal } from './spoke/spokes-batch77-dismissal';
+import { spokesBatch77WageUnempRetireIa } from './spoke/spokes-batch77-wage-unemp-retire-ia';
 import { spokesBatch75DivorceInherit } from './spoke/spokes-batch75-divorce-inherit';
 import { spokesBatch75DefameJeonseFraudStalking } from './spoke/spokes-batch75-defame-jeonsefraud-stalking';
 import { spokesBatch75AssaultDui } from './spoke/spokes-batch75-assault-dui';
@@ -907,6 +914,7 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch74AssaultDui,
   ...spokesBatch75Fraud,
   ...spokesBatch76Fraud,
+  ...spokesBatch77Fraud,
   ...spokesBatch75DivorceInherit,
   ...spokesBatch75DefameJeonseFraudStalking,
   ...spokesBatch75AssaultDui,
@@ -919,6 +927,12 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch76DefameJeonseFraud,
   ...spokesBatch76Dismissal,
   ...spokesBatch76WageUnempRetireIa,
+  ...spokesBatch77SexCrime,
+  ...spokesBatch77AssaultDui,
+  ...spokesBatch77DivorceInheritTraffic,
+  ...spokesBatch77DefameJeonseFraud,
+  ...spokesBatch77Dismissal,
+  ...spokesBatch77WageUnempRetireIa,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
