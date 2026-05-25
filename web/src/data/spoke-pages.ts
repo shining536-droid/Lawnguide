@@ -470,6 +470,13 @@ import { spokesBatch74AssaultDui } from './spoke/spokes-batch74-assault-dui';
 import { spokesBatch75Fraud } from './spoke/spokes-batch75-fraud';
 import { spokesBatch76Fraud } from './spoke/spokes-batch76-fraud';
 import { spokesBatch77Fraud } from './spoke/spokes-batch77-fraud';
+import { spokesBatch78Fraud } from './spoke/spokes-batch78-fraud';
+import { spokesBatch78SexCrime } from './spoke/spokes-batch78-sex-crime';
+import { spokesBatch78AssaultDui } from './spoke/spokes-batch78-assault-dui';
+import { spokesBatch78DivorceInheritTraffic } from './spoke/spokes-batch78-divorce-inherit-traffic';
+import { spokesBatch78DefameJeonseFraud } from './spoke/spokes-batch78-defame-jeonsefraud';
+import { spokesBatch78Dismissal } from './spoke/spokes-batch78-dismissal';
+import { spokesBatch78WageUnempRetireIa } from './spoke/spokes-batch78-wage-unemp-retire-ia';
 import { spokesBatch76SexCrime } from './spoke/spokes-batch76-sex-crime';
 import { spokesBatch76AssaultDui } from './spoke/spokes-batch76-assault-dui';
 import { spokesBatch76DivorceInheritTraffic } from './spoke/spokes-batch76-divorce-inherit-traffic';
@@ -915,6 +922,13 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch75Fraud,
   ...spokesBatch76Fraud,
   ...spokesBatch77Fraud,
+  ...spokesBatch78Fraud,
+  ...spokesBatch78SexCrime,
+  ...spokesBatch78AssaultDui,
+  ...spokesBatch78DivorceInheritTraffic,
+  ...spokesBatch78DefameJeonseFraud,
+  ...spokesBatch78Dismissal,
+  ...spokesBatch78WageUnempRetireIa,
   ...spokesBatch75DivorceInherit,
   ...spokesBatch75DefameJeonseFraudStalking,
   ...spokesBatch75AssaultDui,
