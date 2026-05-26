@@ -20,6 +20,14 @@
   3. spoke-pages.ts에서 import하는 파일이 전부 staged/committed 상태인지 확인
   4. `cd web && npx next build` 성공 확인
   5. 4단계 전부 통과 후에만 push
+- **push 후 필수: IndexNow ping (Vercel 배포 완료 후):**
+  - 전체 흐름: 스포크 batch 생성 → `cd web && npx next build` → `git status` 확인 → main push → (Vercel 배포 완료 후) `python scripts/indexnow_ping.py`
+  - 그날 최신 batch의 `/guide` URL을 Bing·네이버 IndexNow에 제출 (Google 미지원 — Search Console 색인요청과 별개)
+  - 스크립트가 최신 batch 자동 감지 + 중복 제거 → 하루 마지막에 한 번만 돌려도 동일, 두 번 돌려도 안전
+  - 대상: 본사이트 `https://www.lawnguide.co.kr/guide/...` URL만 (네이버 블로그·티스토리는 IndexNow 대상 아님)
+  - 응답 200/202 = 정상. 제출 이력 로그: `scripts/indexnow_submitted.log`(gitignore). 키 로드: `$env:INDEXNOW_KEY` 또는 `scripts/.indexnow_key`(gitignore, 하드코딩 금지)
+  - 공개 키 파일 `web/public/{key}.txt` 는 소유검증용이라 공개 배포 정상 (삭제·변경 금지)
+  - ⚠️ IndexNow는 색인·순위 보장이 아니라 URL 변경 알림·크롤링 발견 가속용
 
 ### 네이버 블로그 (시범 25개/일, 2026-05-16~2026-05-22)
 
@@ -294,7 +302,7 @@
   ```
 
 ### 일일루틴 발행 범위
-- SEO 스포크: 생성 → 빌드 확인 → 커밋 → push까지 완료
+- SEO 스포크: 생성 → 빌드 확인 → 커밋 → push → (Vercel 배포 후) `python scripts/indexnow_ping.py` 까지 완료
 - 네이버/티스토리 블로그: 파일 생성까지만. 발행 명령어 안내 후 사용자가 직접 실행
 
 ### 규칙
