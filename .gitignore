@@ -2,3 +2,7 @@ node_modules
 .next
 web/node_modules
 web/.next
+
+# IndexNow (manual ping) — local key + submission history, never commit
+scripts/.indexnow_key
+scripts/indexnow_submitted.log
