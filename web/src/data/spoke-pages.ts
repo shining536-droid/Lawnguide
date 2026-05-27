@@ -484,6 +484,13 @@ import { spokesBatch79DefameJeonseFraud } from './spoke/spokes-batch79-defame-je
 import { spokesBatch79DivorceInheritTraffic } from './spoke/spokes-batch79-divorce-inherit-traffic';
 import { spokesBatch79Dismissal } from './spoke/spokes-batch79-dismissal';
 import { spokesBatch79WageUnempRetire } from './spoke/spokes-batch79-wage-unemp-retire';
+import { spokesBatch80SexCrime } from './spoke/spokes-batch80-sex-crime';
+import { spokesBatch80Fraud } from './spoke/spokes-batch80-fraud';
+import { spokesBatch80DefameJeonseFraud } from './spoke/spokes-batch80-defame-jeonsefraud';
+import { spokesBatch80AssaultDui } from './spoke/spokes-batch80-assault-dui';
+import { spokesBatch80DivorceInheritTraffic } from './spoke/spokes-batch80-divorce-inherit-traffic';
+import { spokesBatch80Dismissal } from './spoke/spokes-batch80-dismissal';
+import { spokesBatch80WageUnempRetireIa } from './spoke/spokes-batch80-wage-unemp-retire-ia';
 import { spokesBatch76SexCrime } from './spoke/spokes-batch76-sex-crime';
 import { spokesBatch76AssaultDui } from './spoke/spokes-batch76-assault-dui';
 import { spokesBatch76DivorceInheritTraffic } from './spoke/spokes-batch76-divorce-inherit-traffic';
@@ -943,6 +950,13 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch79DivorceInheritTraffic,
   ...spokesBatch79Dismissal,
   ...spokesBatch79WageUnempRetire,
+  ...spokesBatch80SexCrime,
+  ...spokesBatch80Fraud,
+  ...spokesBatch80DefameJeonseFraud,
+  ...spokesBatch80AssaultDui,
+  ...spokesBatch80DivorceInheritTraffic,
+  ...spokesBatch80Dismissal,
+  ...spokesBatch80WageUnempRetireIa,
   ...spokesBatch75DivorceInherit,
   ...spokesBatch75DefameJeonseFraudStalking,
   ...spokesBatch75AssaultDui,
