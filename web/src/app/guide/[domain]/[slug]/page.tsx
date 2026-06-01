@@ -211,6 +211,7 @@ export default function GuideSpokePage({ params }: PageProps) {
                   ctaType="mid_diagnosis"
                   pageSlug={page.slug}
                   pageDomain={page.domain}
+                  ctaLocation="guide_mid"
                   className="inline-block bg-blue-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-blue-700 transition-colors text-sm"
                 >
                   AI 무료 상담 시작 →
@@ -309,6 +310,7 @@ export default function GuideSpokePage({ params }: PageProps) {
             ctaType="bottom_diagnosis"
             pageSlug={page.slug}
             pageDomain={page.domain}
+            ctaLocation="guide_bottom"
             className="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
           >
             AI 무료 상담 시작 →

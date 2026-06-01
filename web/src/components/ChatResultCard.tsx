@@ -325,9 +325,10 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
 
   // GA4 이벤트 공통 파라미터로 전송
   const trackExpertEvent = useCallback(
-    (eventName: string, buttonText: string) => {
+    (eventName: string, buttonText: string, ctaType: string) => {
       if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
         window.gtag('event', eventName, {
+          cta_type: ctaType,
           page_path: window.location.pathname,
           guide_domain: domainKey ?? domainName,
           cta_location: 'result_bottom',
@@ -352,11 +353,11 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
     // 모달 표시 + 노출 이벤트
     setWaitlistConfirmed(false);
     setExpertModalOpen(true);
-    trackExpertEvent('expert_modal_view', '전문가 매칭 요청하기');
+    trackExpertEvent('expert_modal_view', '전문가 매칭 요청하기', 'expert_match');
   }, [domainKey, domainName, trackExpertEvent]);
 
   const handleWaitlistClick = useCallback(() => {
-    trackExpertEvent('expert_waitlist_click', '전문가 연결 알림 신청');
+    trackExpertEvent('expert_waitlist_click', '전문가 연결 알림 신청', 'expert_waitlist');
     setWaitlistConfirmed(true);
   }, [trackExpertEvent]);
 
