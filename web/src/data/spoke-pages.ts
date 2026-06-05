@@ -519,6 +519,10 @@ import { spokesBatch87FraudSexCrime } from './spoke/spokes-batch87-fraud-sexcrim
 import { spokesBatch87AssaultDuiJeonseFraud } from './spoke/spokes-batch87-assault-dui-jeonsefraud';
 import { spokesBatch87DefameDivorceInheritTraffic } from './spoke/spokes-batch87-defame-divorce-inherit-traffic';
 import { spokesBatch87Labor } from './spoke/spokes-batch87-labor';
+import { spokesBatch88FraudSexCrime } from './spoke/spokes-batch88-fraud-sexcrime';
+import { spokesBatch88AssaultDuiJeonseFraud } from './spoke/spokes-batch88-assault-dui-jeonsefraud';
+import { spokesBatch88DefameDivorceInheritTraffic } from './spoke/spokes-batch88-defame-divorce-inherit-traffic';
+import { spokesBatch88Labor } from './spoke/spokes-batch88-labor';
 import { spokesBatch76SexCrime } from './spoke/spokes-batch76-sex-crime';
 import { spokesBatch76AssaultDui } from './spoke/spokes-batch76-assault-dui';
 import { spokesBatch76DivorceInheritTraffic } from './spoke/spokes-batch76-divorce-inherit-traffic';
@@ -1013,6 +1017,10 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch87AssaultDuiJeonseFraud,
   ...spokesBatch87DefameDivorceInheritTraffic,
   ...spokesBatch87Labor,
+  ...spokesBatch88FraudSexCrime,
+  ...spokesBatch88AssaultDuiJeonseFraud,
+  ...spokesBatch88DefameDivorceInheritTraffic,
+  ...spokesBatch88Labor,
   ...spokesBatch75DivorceInherit,
   ...spokesBatch75DefameJeonseFraudStalking,
   ...spokesBatch75AssaultDui,
