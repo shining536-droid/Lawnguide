@@ -21,7 +21,14 @@ export const metadata: Metadata = {
   title: 'AI 법률 도우미 | 로앤가이드',
   description:
     '어떤 법률 문제든 대화하듯 편하게 물어보세요. 31개 분야 무료 AI 법률 진단으로 지금 해야 할 일을 3분 안에 정리해드립니다.',
-  robots: { index: true, follow: true },
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: {
+      index: false,
+      follow: true,
+    },
+  },
   alternates: {
     canonical: 'https://www.lawnguide.co.kr/chat',
   },
