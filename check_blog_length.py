@@ -84,6 +84,8 @@ EMPATHY_HOOK_RE = re.compile(
 CASE_NUMBER_RE = re.compile(
     r"\b(20\d{2}(?:다|도|두|스|므|모|노|고합|구합|허|드|누|누라|하|마|재)(?:\d+))\b"
 )
+# 고용보험심사위 재결 전용 ("2023재결 제44호") — check_case_numbers 에서 domain=='unemployment' 한정 사용
+JAEGYEOL_RE = re.compile(r"20\d{2}재결\s*제?\s*\d+\s*호")
 BLOG_SUBSECTIONS = [
     ("왜 중요", r"왜\s*중요|중요한가요"),
     ("쉽게 설명", r"쉽게\s*설명|쉽게\s*풀어|쉬운\s*설명"),
@@ -344,7 +346,10 @@ def check_case_numbers(text: str, domain: str | None) -> tuple[list[str], list[s
     If domain has no cases.json, all numbers are "not checkable" and returned as empty.
     """
     body = _strip_to_body(text)
-    nums = sorted(set(CASE_NUMBER_RE.findall(body)))
+    found = set(CASE_NUMBER_RE.findall(body))
+    if domain == "unemployment":                     # 재결 번호는 unemployment 한정 추출
+        found |= set(JAEGYEOL_RE.findall(body))
+    nums = sorted(found)
     if not domain:
         return nums, []
     known = _load_cases(domain)
