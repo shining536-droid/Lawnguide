@@ -84,6 +84,17 @@ EMPATHY_HOOK_RE = re.compile(
 CASE_NUMBER_RE = re.compile(
     r"\b(20\d{2}(?:다|도|두|스|므|모|노|고합|구합|허|드|누|누라|하|마|재)(?:\d+))\b"
 )
+# divorce/wage 하급심 뒷방 완화 — 도메인 가드.
+# domain ∉ _CASE_EXTRA 이면 suf == _CASE_BASE → regex 가 CASE_NUMBER_RE 와 byte-동일(Δ=0 보장).
+_CASE_BASE = r"다|도|두|스|므|모|노|고합|구합|허|드|누|누라|하|마|재"
+_CASE_EXTRA = {
+    "divorce": r"르|드단|드합|느합",   # 가사 하급심 (브 제외 — 상속재산분할 성격, 순도 우선)
+    "wage":    r"나|가합|가단",        # 민사 하급심
+}
+def _case_re(domain: str | None):
+    extra = _CASE_EXTRA.get(domain or "", "")
+    suf = _CASE_BASE + ("|" + extra if extra else "")
+    return re.compile(rf"\b(20\d{{2}}(?:{suf})(?:\d+))\b")
 # 고용보험심사위 재결 전용 ("2023재결 제44호") — check_case_numbers 에서 domain=='unemployment' 한정 사용
 JAEGYEOL_RE = re.compile(r"20\d{2}재결\s*제?\s*\d+\s*호")
 BLOG_SUBSECTIONS = [
@@ -346,7 +357,7 @@ def check_case_numbers(text: str, domain: str | None) -> tuple[list[str], list[s
     If domain has no cases.json, all numbers are "not checkable" and returned as empty.
     """
     body = _strip_to_body(text)
-    found = set(CASE_NUMBER_RE.findall(body))
+    found = set(_case_re(domain).findall(body))
     if domain == "unemployment":                     # 재결 번호는 unemployment 한정 추출
         found |= set(JAEGYEOL_RE.findall(body))
     nums = sorted(found)
