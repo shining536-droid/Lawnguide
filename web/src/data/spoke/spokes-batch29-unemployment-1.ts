@@ -402,7 +402,7 @@ export const spokesBatch29Unemployment1: SpokePage[] = [
     cta: { text: '수습 해고 실업급여 자격 AI로 즉시 확인하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
-      { label: '수습기간 부당해고', href: '/guide/dismissal/dismissal-probation-unfair-cases' },
+      { label: '수습기간 해고 부당해고 인정', href: '/guide/dismissal/probation-dismissal-unfair-recognition-cases' },
       { label: '이직확인서 분쟁', href: '/guide/unemployment/unemployment-separation-confirmation-dispute' },
       { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' },
       { label: '부당해고 구제신청', href: '/guide/dismissal/dismissal-restructuring-unfair-criteria' },

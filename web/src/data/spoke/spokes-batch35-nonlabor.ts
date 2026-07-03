@@ -422,7 +422,7 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
     internalLinks: [
       { label: '사기 피해 고소장 핵심 증거 5가지', href: '/guide/fraud/fraud-complaint-police-key-evidence-5' },
       { label: '사기죄 민사소송 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
-      { label: '전세사기 피해 구제 타임라인', href: '/guide/jeonse/jeonse-fraud-relief-timeline' },
+      { label: '주택임대차 종합 가이드', href: '/guide/jeonse' },
       { label: '중고거래 사기 환불 방법', href: '/guide/fraud/secondhand-trade-fraud-refund-method' },
       { label: '사기 피해 어디서부터 시작할까', href: '/guide/fraud/fraud-accused-defense-strategy-guide' },
     ],
@@ -749,7 +749,7 @@ export const spokesBatch35Nonlabor: SpokePage[] = [
     },
     internalLinks: [
       { label: '전세보증금 반환 종합 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
-      { label: '전세사기 피해 구제 타임라인', href: '/guide/jeonse/jeonse-fraud-relief-timeline' },
+      { label: '주택임대차 종합 가이드', href: '/guide/jeonse' },
       { label: '전세보증금 우선변제 순위', href: '/guide/jeonse/jeonse-deposit-priority-competing' },
       { label: '전세 계약 특약 체크리스트', href: '/guide/jeonse/jeonse-contract-special-agreement-checklist' },
       { label: '전세 임대인 변경 시 대응', href: '/guide/jeonse/jeonse-landlord-change-deposit-risk' },

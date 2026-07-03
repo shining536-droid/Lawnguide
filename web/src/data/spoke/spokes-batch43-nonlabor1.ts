@@ -93,10 +93,10 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=fraud',
     },
     internalLinks: [
-      { label: '사기 고소장 작성 5가지 증거', href: '/guide/fraud/fraud-complaint-5-evidence-items' },
+      { label: '사기 고소 경찰 증거', href: '/guide/fraud/fraud-complaint-police-key-evidence-5' },
       { label: '사기 신고 후 수사 절차', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
       { label: '사기 합의 수락 기준', href: '/guide/fraud/fraud-secondhand-settlement-accept-criteria' },
-      { label: '소액 사기 민사 절차', href: '/guide/fraud/fraud-small-amount-civil-procedure' },
+      { label: '사기 피해 민사소송 진행 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
       { label: '사기죄 공소시효 기간표', href: '/guide/fraud/fraud-statute-of-limitations-period' },
     ],
   },
@@ -180,7 +180,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=fraud',
     },
     internalLinks: [
-      { label: '사기 고소장 작성 5가지 증거', href: '/guide/fraud/fraud-complaint-5-evidence-items' },
+      { label: '사기 고소 경찰 증거', href: '/guide/fraud/fraud-complaint-police-key-evidence-5' },
       { label: '중고거래 사기 합의 수락 기준', href: '/guide/fraud/fraud-secondhand-settlement-accept-criteria' },
       { label: '사기 민사·형사 순서', href: '/guide/fraud/fraud-civil-criminal-sequence-decision' },
       { label: '사기죄 공소시효 기간표', href: '/guide/fraud/fraud-statute-of-limitations-period' },
@@ -267,11 +267,11 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=fraud',
     },
     internalLinks: [
-      { label: '전자상거래 사기 대응 절차', href: '/guide/fraud/ecommerce-fraud-response-procedure' },
+      { label: '가짜 쇼핑몰 사기', href: '/guide/fraud/fraud-fake-ecommerce-site-response' },
       { label: '사기 민사·형사 순서', href: '/guide/fraud/fraud-civil-criminal-sequence-decision' },
       { label: '사기 합의 수락 기준', href: '/guide/fraud/fraud-secondhand-settlement-accept-criteria' },
-      { label: '소액 사기 민사 절차', href: '/guide/fraud/fraud-small-amount-civil-procedure' },
-      { label: '소비자분쟁조정 신청법', href: '/guide/fraud/consumer-dispute-mediation-apply' },
+      { label: '사기 피해 민사소송 진행 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -354,7 +354,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=fraud',
     },
     internalLinks: [
-      { label: '사기 고소장 작성 5가지 증거', href: '/guide/fraud/fraud-complaint-5-evidence-items' },
+      { label: '사기 고소 경찰 증거', href: '/guide/fraud/fraud-complaint-police-key-evidence-5' },
       { label: '기프티콘 재판매 사기 대응', href: '/guide/fraud/fraud-gift-card-resale-scam-response' },
       { label: '보이스피싱 지급정지 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
       { label: '사기 민사·형사 순서', href: '/guide/fraud/fraud-civil-criminal-sequence-decision' },
@@ -442,7 +442,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '보이스피싱 지급정지 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
-      { label: '사기 고소장 작성 5가지 증거', href: '/guide/fraud/fraud-complaint-5-evidence-items' },
+      { label: '사기 고소 경찰 증거', href: '/guide/fraud/fraud-complaint-police-key-evidence-5' },
       { label: '사기 민사·형사 순서', href: '/guide/fraud/fraud-civil-criminal-sequence-decision' },
       { label: '사기 신고 후 수사 절차', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
       { label: '사기죄 공소시효 기간표', href: '/guide/fraud/fraud-statute-of-limitations-period' },
@@ -529,10 +529,10 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
-      { label: '중상 사고 합의금 산정법', href: '/guide/traffic-accident/severe-injury-settlement-calculation' },
-      { label: '12대 중과실 처벌 정리', href: '/guide/traffic-accident/12-serious-negligence-types' },
-      { label: '후유장해 진단 절차', href: '/guide/traffic-accident/permanent-disability-diagnosis-procedure' },
-      { label: '교통사고 형사합의금 시세', href: '/guide/traffic-accident/criminal-settlement-amount-standard' },
+      { label: '교통사고 합의금 적정 금액 산정법', href: '/guide/traffic-accident/settlement-amount-calculation' },
+      { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
+      { label: '교통사고 형사 민사 절차 비교', href: '/guide/traffic-accident/traffic-accident-criminal-civil-procedure' },
+      { label: '교통사고 형사합의금 민사손배 이중지급', href: '/guide/traffic-accident/traffic-criminal-settlement-vs-civil-double-pay' },
     ],
   },
 
@@ -615,11 +615,11 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '교통사고 CCTV 확보 순서', href: '/guide/traffic-accident/cctv-evidence-acquisition' },
+      { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
       { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
-      { label: '손보협회 분쟁심의 신청법', href: '/guide/traffic-accident/insurance-dispute-committee-apply' },
-      { label: '사고 직후 현장 대응 체크리스트', href: '/guide/traffic-accident/scene-response-checklist' },
-      { label: '교통사고 목격자 진술서 양식', href: '/guide/traffic-accident/witness-statement-template' },
+      { label: '블랙박스 데이터 복구 사고 입증', href: '/guide/traffic-accident/traffic-accident-dashcam-data-recovery-insurance-dispute' },
+      { label: '교통사고 합의 전 확인해야 할 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
+      { label: '뺑소니 피의자 특정 목격자 확보', href: '/guide/traffic-accident/traffic-accident-hit-and-run-identify-witness' },
     ],
   },
 
@@ -702,11 +702,11 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '교통사고 자차보험 할증 기준', href: '/guide/traffic-accident/insurance-premium-increase-standard' },
-      { label: '물적피해 뺑소니 처벌 정리', href: '/guide/traffic-accident/property-damage-hit-and-run-punishment' },
-      { label: '사고 합의서 작성 템플릿', href: '/guide/traffic-accident/settlement-agreement-template' },
-      { label: '주차장 사고 과실비율 기준', href: '/guide/traffic-accident/parking-lot-accident-fault-ratio' },
-      { label: '교통사고 CCTV 확보 순서', href: '/guide/traffic-accident/cctv-evidence-acquisition' },
+      { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
+      { label: '뺑소니 사실과 다른 신고', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
+      { label: '교통사고 합의서 작성 전 확인 항목', href: '/guide/traffic-accident/traffic-settlement-agreement-checklist' },
+      { label: '주차장 후진 보행자 과실비율 판단', href: '/guide/traffic-accident/traffic-accident-parking-lot-reversing-pedestrian-fault-ratio-track' },
+      { label: '블랙박스 증거 활용 교통사고', href: '/guide/traffic-accident/traffic-accident-dashcam-evidence-guide' },
     ],
   },
 
@@ -790,10 +790,10 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
-      { label: '교통사고 위자료 산정 기준', href: '/guide/traffic-accident/pain-and-suffering-calculation' },
-      { label: '대물배상 보상 범위', href: '/guide/traffic-accident/property-damage-coverage-scope' },
-      { label: '사고 합의서 작성 템플릿', href: '/guide/traffic-accident/settlement-agreement-template' },
-      { label: '민사 소액심판 절차', href: '/guide/traffic-accident/small-claims-civil-procedure' },
+      { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
+      { label: '자전거 가해자 자동차 손상 배상', href: '/guide/traffic-accident/traffic-accident-bicycle-car-damage' },
+      { label: '교통사고 합의서 작성 전 확인 항목', href: '/guide/traffic-accident/traffic-settlement-agreement-checklist' },
+      { label: '교통사고 형사 민사 절차 비교', href: '/guide/traffic-accident/traffic-accident-criminal-civil-procedure' },
     ],
   },
 
@@ -876,11 +876,11 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '고령운전자 면허 규정 정리', href: '/guide/traffic-accident/elderly-driver-license-rules' },
+      { label: '고령운전자 사고 쟁점', href: '/guide/traffic-accident/traffic-accident-elderly-driver-fault' },
       { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
-      { label: '12대 중과실 처벌 정리', href: '/guide/traffic-accident/12-serious-negligence-types' },
-      { label: '교통사고 형사합의금 시세', href: '/guide/traffic-accident/criminal-settlement-amount-standard' },
-      { label: '급발진 입증 절차', href: '/guide/traffic-accident/sudden-acceleration-proof-procedure' },
+      { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
+      { label: '교통사고 합의금 적정 금액 산정법', href: '/guide/traffic-accident/settlement-amount-calculation' },
+      { label: '급발진 페달 오조작 입증', href: '/guide/traffic-accident/traffic-accident-sudden-acceleration-pedal-misoperation' },
     ],
   },
 ];

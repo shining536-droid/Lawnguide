@@ -87,11 +87,11 @@ export const spokesBatch51DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '재산분할 청구 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
       { label: '혼전 재산계약 효력 분쟁', href: '/guide/divorce/divorce-prenup-property-validity' },
       { label: '국제이혼 관할·송달 절차', href: '/guide/divorce/divorce-international-jurisdiction-spouse' },
       { label: '특유재산 재산분할 제외 기준', href: '/guide/divorce/divorce-special-property-exclusion-criteria' },
-      { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
     ],
   },
 
@@ -170,11 +170,11 @@ export const spokesBatch51DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
       { label: '협의이혼 의사확인 절차', href: '/guide/divorce/consensual-divorce-process' },
       { label: '재산명시·금융조회 신청 절차', href: '/guide/divorce/divorce-husband-rejected-property-disclose' },
       { label: '외도 부인 배우자 증거 보강', href: '/guide/divorce/divorce-affair-denial-evidence-strengthening' },
-      { label: '재산분할 청구 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
     ],
   },
 
@@ -254,10 +254,10 @@ export const spokesBatch51DivorceInheritance: SpokePage[] = [
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '재산명시·금융조회 신청 절차', href: '/guide/divorce/divorce-husband-rejected-property-disclose' },
-      { label: '재산분할 청구 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
       { label: '특유재산 재산분할 제외 기준', href: '/guide/divorce/divorce-special-property-exclusion-criteria' },
       { label: '재산분할 비율 산정 핵심 요소', href: '/guide/divorce/property-division-ratio-key-factors' },
-      { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
     ],
   },
 
@@ -338,9 +338,9 @@ export const spokesBatch51DivorceInheritance: SpokePage[] = [
     internalLinks: [
       { label: '국민연금 분할연금 신청 절차', href: '/guide/divorce/divorce-pension-split-formula' },
       { label: '사실혼 파기 위자료 청구 절차', href: '/guide/divorce/divorce-de-facto-marriage-alimony-claim' },
-      { label: '재산분할 청구 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
       { label: '협의이혼 의사확인 절차', href: '/guide/divorce/consensual-divorce-process' },
-      { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
     ],
   },
 

@@ -88,7 +88,7 @@ export const spokesBatch52JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
-      { label: '임차권등기명령 신청 절차', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전세보증금 반환 종합 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
       { label: '임대인 변경 시 보증금 리스크', href: '/guide/jeonse/jeonse-landlord-change-deposit-risk' },
       { label: '소액임차인 최우선변제 요건', href: '/guide/jeonse/jeonse-tenant-registration-requirement' },
@@ -175,7 +175,7 @@ export const spokesBatch52JeonseStalkingAssaultCS: SpokePage[] = [
       { label: '다세대주택 임대차 보증금 우선순위', href: '/guide/jeonse/jeonse-deposit-priority-competing' },
       { label: '경매 우선변제 절차 안내', href: '/guide/jeonse-fraud/jeonse-fraud-auction-priority-repayment' },
       { label: '공인중개사 책임 추궁', href: '/guide/jeonse/jeonse-broker-liability-failure' },
-      { label: '임차권등기명령 절차', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
     ],
   },
 

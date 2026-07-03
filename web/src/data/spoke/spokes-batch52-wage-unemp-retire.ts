@@ -255,7 +255,7 @@ export const spokesBatch52WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '포괄임금 24시간 격일제 위법', href: '/guide/wage/wage-pogual-irregular-shift-time-illegal' },
       { label: '포괄임금 공장 시프트 위법', href: '/guide/wage/wage-pogual-factory-shift' },
-      { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-night-allowance-illegal' },
+      { label: '야간 휴일 연장근로수당 미지급 청구 판단', href: '/guide/wage/wage-night-holiday-overtime-allowance-unpaid-claim-track' },
       { label: '야간근로 50% 가산 청구', href: '/guide/wage/wage-night-work-50-percent-extra' },
       { label: '주 52시간 초과 연장수당', href: '/guide/wage/wage-overtime-over-weekly-52' },
     ],

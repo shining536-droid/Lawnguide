@@ -247,7 +247,7 @@ export const spokesBatch61DefameJeonseStalking: SpokePage[] = [
       { label: '명예훼손 종합', href: '/guide/defamation/defamation-requirements-checklist' },
       { label: '합의 영향', href: '/guide/defamation/defamation-spreader-accused-mitigation-settlement-track' },
       { label: '진실 적시 다툼', href: '/guide/defamation/defamation-truth-still-guilty' },
-      { label: 'SNS 익명 후기', href: '/guide/defamation/defamation-private-instagram-trash-talk-blog' },
+      { label: '인스타 비공개 계정 비방 전파가능성', href: '/guide/defamation/defamation-instagram-private-account-defamation-spread-risk' },
     ],
   },
 

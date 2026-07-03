@@ -83,11 +83,11 @@ export const spokesBatch55FraudA: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
-      { label: '소액심판 1천만원 절차', href: '/guide/fraud/fraud-small-claims-court-procedure' },
-      { label: '친구 빌려주고 잠적 회수', href: '/guide/fraud/fraud-friend-loan-disappear-recovery' },
-      { label: '전세사기 피해 대응 순서', href: '/guide/jeonse-fraud/jeonse-fraud-victim-recovery-steps' },
-      { label: '이중계약 사기 대응', href: '/guide/fraud/fraud-double-contract-real-estate' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '친구 지인 빌려준 돈 잠적 회수', href: '/guide/fraud/fraud-friend-loan-vanish-recovery' },
+      { label: '공인중개사 이중계약 보증금 회수 절차', href: '/guide/jeonse-fraud/jeonse-fraud-agent-double-contract-deposit-recovery-track' },
+      { label: '부동산 이중계약 사기 계약금 회수', href: '/guide/fraud/fraud-real-estate-deposit-double-contract' },
     ],
   },
 
@@ -167,10 +167,10 @@ export const spokesBatch55FraudA: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '메신저피싱 가족사칭 환급', href: '/guide/fraud/fraud-messenger-family-impersonation-recovery' },
-      { label: '보이스피싱 환급 5단계', href: '/guide/fraud/fraud-voice-phishing-recovery-steps' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
-      { label: '사이버범죄 신고 절차', href: '/guide/fraud/fraud-cyber-crime-report-procedure' },
-      { label: '대포통장 송금 회수', href: '/guide/fraud/fraud-mule-account-recovery' },
+      { label: '보이스피싱 피해금 환급 절차', href: '/guide/fraud/voice-phishing-fund-recovery-process' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '구인 빙자 대포통장 명의대여 사기', href: '/guide/fraud/fraud-job-offer-mule-account-track' },
     ],
   },
 
@@ -249,11 +249,11 @@ export const spokesBatch55FraudA: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '친구 빌려주고 잠적 회수', href: '/guide/fraud/fraud-friend-loan-disappear-recovery' },
-      { label: '차용증 없는 사기 입증', href: '/guide/fraud/fraud-without-loan-document-proof' },
-      { label: '지급명령 신청 절차', href: '/guide/fraud/fraud-payment-order-procedure' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
-      { label: '사해행위취소 소송', href: '/guide/fraud/fraud-fraudulent-transfer-cancellation' },
+      { label: '친구 지인 빌려준 돈 잠적 회수', href: '/guide/fraud/fraud-friend-loan-vanish-recovery' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '콘서트·스포츠 티켓 양도 결제 후 취소 잠적 사기', href: '/guide/fraud/fraud-ticket-bot-resale-payment-block-cancel-track' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
+      { label: '콘서트 티켓 양도 미이행 사기', href: '/guide/fraud/fraud-concert-ticket-resale-no-transfer-track' },
     ],
   },
 ];

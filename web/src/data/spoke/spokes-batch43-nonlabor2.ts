@@ -89,11 +89,11 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       link: '/chat?domain=inheritance',
     },
     internalLinks: [
-      { label: '상속재산 분할 절차', href: '/guide/inheritance/inheritance-division-procedure' },
-      { label: '상속세 신고 가이드', href: '/guide/inheritance/inheritance-tax-filing-guide' },
-      { label: '안심상속 원스톱서비스', href: '/guide/inheritance/inheritance-onestop-service' },
+      { label: '상속 종합 가이드', href: '/guide/inheritance' },
+      { label: '상속세 신고기한 도과 가산세', href: '/guide/inheritance/inheritance-tax-late-filing-penalty-relief' },
+      { label: '상속포기 한정승인 선택', href: '/guide/inheritance/inheritance-acceptance-renunciation-decision-track' },
       { label: '상속 한정승인 절차', href: '/guide/inheritance/inheritance-limited-acceptance-post-debt' },
-      { label: '가상자산 상속 평가', href: '/guide/inheritance/inheritance-virtual-asset-valuation' },
+      { label: '상속 미술품 컬렉션 평가 분쟁', href: '/guide/inheritance/inheritance-art-collection-valuation-dispute-track' },
     ],
   },
 
@@ -178,9 +178,9 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
     internalLinks: [
       { label: '상속 순위와 법정상속분', href: '/guide/inheritance/inheritance-order-legal-share' },
       { label: '상속 한정승인 절차', href: '/guide/inheritance/inheritance-limited-acceptance-post-debt' },
-      { label: '유류분 반환 청구 절차', href: '/guide/inheritance/inheritance-legal-reserve-claim' },
-      { label: '상속재산 분할 협의', href: '/guide/inheritance/inheritance-division-agreement' },
-      { label: '미성년 상속인 특별대리인', href: '/guide/inheritance/inheritance-minor-special-representative' },
+      { label: '유류분 반환 청구', href: '/guide/inheritance/inheritance-legal-reserve-claim-track' },
+      { label: '상속재산분할협의서 무효', href: '/guide/inheritance/inheritance-division-agreement-defect-invalidation' },
+      { label: '미성년 상속인 성년 후 특별한정승인', href: '/guide/inheritance/inheritance-minor-special-limited-acceptance-after-majority-track' },
     ],
   },
 
@@ -263,11 +263,11 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       link: '/chat?domain=inheritance',
     },
     internalLinks: [
-      { label: '상속재산 분할 협의', href: '/guide/inheritance/inheritance-division-agreement' },
-      { label: '유류분 반환 청구 절차', href: '/guide/inheritance/inheritance-legal-reserve-claim' },
+      { label: '상속재산 분할협의 무효', href: '/guide/inheritance/inheritance-division-agreement-void-track' },
+      { label: '생전 증여 유류분 반환청구 판단', href: '/guide/inheritance/inheritance-lifetime-gift-legal-reserve-claim-track' },
       { label: '상속 순위와 법정상속분', href: '/guide/inheritance/inheritance-order-legal-share' },
-      { label: '상속재산 분할심판 청구', href: '/guide/inheritance/inheritance-division-trial' },
-      { label: '기여분 인정 기준', href: '/guide/inheritance/inheritance-contribution-standards' },
+      { label: '상속재산분할심판 기여분', href: '/guide/inheritance/inheritance-property-division-trial-contribution-portion-spouse-caregiving-track' },
+      { label: '상속 종합 가이드', href: '/guide/inheritance' },
     ],
   },
 
@@ -350,11 +350,11 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       link: '/chat?domain=inheritance',
     },
     internalLinks: [
-      { label: '상속세 신고 가이드', href: '/guide/inheritance/inheritance-tax-filing-guide' },
-      { label: '상속재산 분할 협의', href: '/guide/inheritance/inheritance-division-agreement' },
-      { label: '안심상속 원스톱서비스', href: '/guide/inheritance/inheritance-onestop-service' },
+      { label: '상속세 6개월 신고', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
+      { label: '상속재산분할협의서 무효', href: '/guide/inheritance/inheritance-division-agreement-defect-invalidation' },
+      { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '상속등기 절차', href: '/guide/inheritance/inheritance-registration-procedure-docs' },
-      { label: '재외국민 상속 서류', href: '/guide/inheritance/inheritance-overseas-korean-documents' },
+      { label: '해외거주 상속인 국내 재산', href: '/guide/inheritance/inheritance-foreign-resident-korean-property' },
     ],
   },
 
@@ -437,11 +437,11 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       link: '/chat?domain=defamation',
     },
     internalLinks: [
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-criminal-complaint' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
       { label: '명예훼손 증거 수집', href: '/guide/defamation/online-defamation-evidence-collection' },
-      { label: '온라인 게시물 삭제 요청', href: '/guide/defamation/defamation-online-post-removal' },
-      { label: '정보통신망법 명예훼손', href: '/guide/defamation/defamation-information-network-act' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-damages-claim' },
+      { label: '아파트 입주민 온라인 카페 허위 글 명예훼손 신고', href: '/guide/defamation/defamation-apartment-resident-online-cafe-false-post-report-track' },
+      { label: '인터넷 댓글 명예훼손 정통망법 형법 비교', href: '/guide/defamation/defamation-online-comment-information-network-act' },
+      { label: '명예훼손 손해배상 금액 기준과 판례', href: '/guide/defamation/defamation-damages-amount-standard' },
     ],
   },
 
@@ -524,11 +524,11 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       link: '/chat?domain=defamation',
     },
     internalLinks: [
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-criminal-complaint' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
       { label: '명예훼손 증거 수집', href: '/guide/defamation/online-defamation-evidence-collection' },
       { label: '사이버 명예훼손 대응', href: '/guide/defamation/defamation-accused-response' },
-      { label: '정보통신망법 명예훼손', href: '/guide/defamation/defamation-information-network-act' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-damages-claim' },
+      { label: '인터넷 댓글 명예훼손 정통망법 형법 비교', href: '/guide/defamation/defamation-online-comment-information-network-act' },
+      { label: '직장 내 허위 소문 명예훼손 입증', href: '/guide/defamation/defamation-false-rumor-workplace-claim' },
     ],
   },
 
@@ -611,11 +611,11 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       link: '/chat?domain=defamation',
     },
     internalLinks: [
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-criminal-complaint' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
       { label: '직장 내 명예훼손 대응', href: '/guide/defamation/defamation-workplace-rumor-response' },
       { label: '명예훼손 증거 수집', href: '/guide/defamation/online-defamation-evidence-collection' },
-      { label: '모욕죄와 명예훼손 차이', href: '/guide/defamation/defamation-vs-insult' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-damages-claim' },
+      { label: '회사 단톡방 욕설 모욕 명예훼손 구분', href: '/guide/defamation/defamation-company-chat-insult-vs-defamation' },
+      { label: '유튜브 댓글 실명 비방 신원조회 손해배상', href: '/guide/defamation/defamation-youtube-realname-attack-civil-damages-victim' },
     ],
   },
 ];

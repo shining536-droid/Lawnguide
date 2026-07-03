@@ -86,7 +86,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       { label: '임신 실업급여 연장 제도', href: '/guide/unemployment/unemployment-pregnancy-benefit-extension' },
       { label: '출산전후휴가 급여 신청', href: '/guide/unemployment/unemployment-maternity-voluntary-quit' },
       { label: '실업급여 신청 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
-      { label: '이직확인서 정정 방법', href: '/guide/unemployment/employment-insurance-separation-certificate' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
     ],
   },
 
@@ -173,7 +173,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       { label: '통근 곤란 퇴사 실업급여', href: '/guide/unemployment/unemployment-commute-hardship-quit' },
       { label: '사업장 이전 퇴사 수급', href: '/guide/unemployment/unemployment-workplace-relocation-forced-quit' },
       { label: '실업급여 신청 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
-      { label: '이직확인서 정정 방법', href: '/guide/unemployment/employment-insurance-separation-certificate' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
     ],
   },
 
@@ -350,7 +350,7 @@ export const spokesBatch41Labor: SpokePage[] = [
     internalLinks: [
       { label: '권고사직 함정 이직확인서', href: '/guide/dismissal/dismissal-recommended-resign-trap' },
       { label: '사업주 강제 사직 실업급여', href: '/guide/unemployment/unemployment-employer-forced-resignation' },
-      { label: '이직확인서 정정 방법', href: '/guide/unemployment/employment-insurance-separation-certificate' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '이직확인서 분쟁 대응', href: '/guide/unemployment/unemployment-separation-confirmation-dispute' },
       { label: '자발적 퇴사 예외 사례 정리', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
     ],

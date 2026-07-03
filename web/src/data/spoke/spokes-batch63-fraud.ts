@@ -85,11 +85,11 @@ export const spokesBatch63Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '보이스피싱 환급', href: '/guide/fraud/fraud-voice-phishing-refund' },
-      { label: '계좌 지급정지', href: '/guide/fraud/fraud-account-payment-stop' },
+      { label: '보이스피싱 보험사 환급', href: '/guide/fraud/fraud-voice-phishing-insurance-refund' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '피싱앱 즉시 대응', href: '/guide/fraud/fraud-phishing-app-immediate-response' },
-      { label: '금감원 분쟁조정', href: '/guide/fraud/fraud-fss-dispute-mediation' },
-      { label: '사이버수사대 신고', href: '/guide/fraud/fraud-cyber-investigation-report' },
+      { label: '직장 동료 코인투자 권유 사기', href: '/guide/fraud/fraud-coworker-coin-investment-loss-dispute' },
+      { label: '가상화폐 투자 사기 신고 증거', href: '/guide/fraud/fraud-crypto-investment-scam-report' },
     ],
   },
 
@@ -165,7 +165,7 @@ export const spokesBatch63Fraud: SpokePage[] = [
     internalLinks: [
       { label: '중고차 사기 증거', href: '/guide/fraud/used-car-fraud-evidence-prep' },
       { label: '계약취소 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
-      { label: '소비자원 분쟁조정', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '사기 vs 계약위반', href: '/guide/fraud/fraud-debt-vs-crime-distinction' },
       { label: '중고차 주행거리 조작', href: '/guide/fraud/fraud-used-car-mileage-history-tampering' },
     ],
@@ -248,8 +248,8 @@ export const spokesBatch63Fraud: SpokePage[] = [
     internalLinks: [
       { label: '헬스장 폐업 회원권', href: '/guide/fraud/fraud-gym-closure-membership-refund' },
       { label: '학원 갑작스러운 폐업', href: '/guide/fraud/fraud-cram-school-sudden-close-recovery' },
-      { label: '소비자원 분쟁조정', href: '/guide/fraud/fraud-complaint-procedure' },
-      { label: '피해자 결집', href: '/guide/fraud/fraud-victim-group-action' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '온라인 강의 환불', href: '/guide/fraud/fraud-online-cert-class-refund' },
     ],
   },
@@ -326,9 +326,9 @@ export const spokesBatch63Fraud: SpokePage[] = [
     internalLinks: [
       { label: '취업 알선 사기', href: '/guide/fraud/fraud-fake-job-deposit-recover' },
       { label: '취업 보증금 사기', href: '/guide/fraud/fraud-job-recruit-deposit-scam' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
-      { label: '피해자 결집', href: '/guide/fraud/fraud-victim-group-action' },
-      { label: '사이버수사대 신고', href: '/guide/fraud/fraud-cyber-investigation-report' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '임대인 잠적 사기 신고', href: '/guide/fraud/fraud-rental-deposit-vanish-report' },
     ],
   },
 

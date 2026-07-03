@@ -173,7 +173,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       { label: '소정급여일수 계산 가이드', href: '/guide/unemployment/unemployment-180days-insurance-period-calc' },
       { label: '조기재취업수당 요건', href: '/guide/unemployment/unemployment-early-reemployment-bonus' },
       { label: '수급기간 연장 사유 정리', href: '/guide/unemployment/benefit-period-extension-cases' },
-      { label: '장애인 특별연장 심사', href: '/guide/unemployment/unemployment-disability-special-benefit' },
+      { label: '장애인 근로자 실업급여 특례 요건 수급 절차', href: '/guide/unemployment/unemployment-disability-worker-special-eligibility' },
     ],
   },
 
@@ -518,10 +518,10 @@ export const spokesBatch39Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '퇴직금 청구 시작 가이드', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
-      { label: '중간정산 요건 상세', href: '/guide/retirement/retirement-interim-settlement-eligible-7' },
+      { label: '퇴직금 중간정산 가능한 경우 7가지', href: '/guide/retirement/interim-settlement-7-eligible-cases' },
       { label: '퇴직금 계산 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
       { label: '퇴직금 14일 지급 원칙', href: '/guide/retirement/retirement-pay-14day-rule-detail' },
-      { label: '퇴직금 강제집행 절차', href: '/guide/retirement/retirement-pay-overdue-14days' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
     ],
   },
 
@@ -606,9 +606,9 @@ export const spokesBatch39Labor: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 계산 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
       { label: '평균임금 산정 분쟁', href: '/guide/retirement/retirement-average-wage-dispute' },
-      { label: '상여금 평균임금 포함', href: '/guide/retirement/retirement-bonus-included' },
+      { label: '정기보너스 평균임금 산입', href: '/guide/retirement/retirement-bonus-included-average-wage-dispute-track' },
       { label: '성과급 평균임금', href: '/guide/retirement/retirement-bonus-performance-included' },
-      { label: '퇴직금 재계산 오류', href: '/guide/retirement/retirement-recalculation-error' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
     ],
   },
 
@@ -692,10 +692,10 @@ export const spokesBatch39Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '사업 양도 퇴직금', href: '/guide/retirement/retirement-business-transfer-responsibility' },
-      { label: '합병 후 근속 승계', href: '/guide/retirement/retirement-merger-successor' },
-      { label: '회사 분할 근속', href: '/guide/retirement/retirement-company-split-claim' },
+      { label: '회사 합병 양도 퇴직금 승계', href: '/guide/retirement/retirement-merger-successor-liability' },
+      { label: '폐업 사업장 퇴직금 체당금', href: '/guide/retirement/retirement-company-closure-claim' },
       { label: '퇴직금 계산 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
-      { label: '중간정산 요건', href: '/guide/retirement/retirement-interim-settlement-eligible-7' },
+      { label: '퇴직금 중간정산 가능한 경우 7가지', href: '/guide/retirement/interim-settlement-7-eligible-cases' },
     ],
   },
 
@@ -780,9 +780,9 @@ export const spokesBatch39Labor: SpokePage[] = [
     internalLinks: [
       { label: '야근수당 계산 방법', href: '/guide/wage/wage-night-overtime-exact-calculation' },
       { label: '주휴수당 지급 기준', href: '/guide/wage/wage-minimum-weekly-holiday-included' },
-      { label: '임금체불 청구 절차', href: '/guide/wage/wage-report-to-labor-ministry' },
+      { label: '월급 밀림 노동청 신고 절차 방법', href: '/guide/wage/delayed-salary-labor-office-report' },
       { label: '통상임금 판단 기준', href: '/guide/wage/wage-holiday-special-pay-claim' },
-      { label: '연장근로수당 계산', href: '/guide/wage/wage-overtime-pay-calculation' },
+      { label: '야근수당 연장근로수당 계산법 청구', href: '/guide/wage/overtime-pay-calculation-claim' },
     ],
   },
 
@@ -868,8 +868,8 @@ export const spokesBatch39Labor: SpokePage[] = [
       { label: '포괄임금 야근수당 청구', href: '/guide/wage/wage-pogual-overtime-difference-claim' },
       { label: '포괄임금 사례별 유효성', href: '/guide/wage/wage-pogual-supreme-court-void-cases' },
       { label: '통상임금 기준', href: '/guide/wage/wage-holiday-special-pay-claim' },
-      { label: '임금체불 청구 절차', href: '/guide/wage/wage-report-to-labor-ministry' },
-      { label: '연장근로 계산', href: '/guide/wage/wage-overtime-pay-calculation' },
+      { label: '월급 밀림 노동청 신고 절차 방법', href: '/guide/wage/delayed-salary-labor-office-report' },
+      { label: '야근수당 연장근로수당 계산법 청구', href: '/guide/wage/overtime-pay-calculation-claim' },
     ],
   },
 
@@ -954,9 +954,9 @@ export const spokesBatch39Labor: SpokePage[] = [
     internalLinks: [
       { label: '성과급 임금성 상세', href: '/guide/wage/unpaid-wage-performance-bonus-claim' },
       { label: '통상임금 판단 기준', href: '/guide/wage/wage-holiday-special-pay-claim' },
-      { label: '임금체불 청구 절차', href: '/guide/wage/wage-report-to-labor-ministry' },
-      { label: '상여금 평균임금 포함', href: '/guide/retirement/retirement-bonus-included' },
-      { label: '재직 중 임금체불 대응', href: '/guide/wage/wage-retaliation-after-complaint' },
+      { label: '월급 밀림 노동청 신고 절차 방법', href: '/guide/wage/delayed-salary-labor-office-report' },
+      { label: '성과급 퇴직금 포함', href: '/guide/retirement/retirement-bonus-included-calculation' },
+      { label: '임금체불 진정 후 절차', href: '/guide/wage/wage-complaint-after-filing-procedure' },
     ],
   },
 
@@ -1039,11 +1039,11 @@ export const spokesBatch39Labor: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '부당해고 구제 절차', href: '/guide/dismissal/dismissal-relief-application-how' },
+      { label: '해고예고수당 미지급 부당해고 구제', href: '/guide/dismissal/dismissal-relief-application-notice-pay-unpaid-track' },
       { label: '계약직 2년 전환', href: '/guide/dismissal/dismissal-fixed-term-2year-conversion' },
       { label: '갱신기대권 인정 사례', href: '/guide/dismissal/dismissal-fixed-term-renewal-right' },
       { label: '해고 서면 통지 요건', href: '/guide/dismissal/dismissal-verbal-only-no-document' },
-      { label: '부당해고 구제 3개월', href: '/guide/dismissal/dismissal-unfair-relief' },
+      { label: '부당해고 구제신청 절차와 기간', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
     ],
   },
 
@@ -1126,7 +1126,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '부당해고 구제 절차', href: '/guide/dismissal/dismissal-relief-application-how' },
+      { label: '해고예고수당 미지급 부당해고 구제', href: '/guide/dismissal/dismissal-relief-application-notice-pay-unpaid-track' },
       { label: '경영상 해고 요건', href: '/guide/dismissal/dismissal-restructuring-unfair-criteria' },
       { label: '해고 서면 통지', href: '/guide/dismissal/dismissal-verbal-only-no-document' },
       { label: '해고예고 30일', href: '/guide/dismissal/dismissal-notice-pay' },
@@ -1213,7 +1213,7 @@ export const spokesBatch39Labor: SpokePage[] = [
       link: '/chat?domain=dismissal',
     },
     internalLinks: [
-      { label: '부당해고 구제 절차', href: '/guide/dismissal/dismissal-relief-application-how' },
+      { label: '해고예고수당 미지급 부당해고 구제', href: '/guide/dismissal/dismissal-relief-application-notice-pay-unpaid-track' },
       { label: '병가·휴직 중 해고', href: '/guide/dismissal/dismissal-sick-leave-return-fired' },
       { label: '산재 치료 중 해고', href: '/guide/dismissal/dismissal-continuous-unfair-labor' },
       { label: '해고 서면 통지 요건', href: '/guide/dismissal/dismissal-verbal-only-no-document' },

@@ -94,7 +94,7 @@ export const spokesBatch92Labor: SpokePage[] = [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '임금피크 개별동의 필요', href: '/guide/dismissal/dismissal-wage-peak-age-extension-fired' },
       { label: '징계 양정 과중 다툼', href: '/guide/dismissal/dismissal-disciplinary-severity-excessive-track' },
-      { label: '해고 서면통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
+      { label: '구두 해고 서면통지 누락 효력 판단', href: '/guide/dismissal/dismissal-verbal-notice-no-written-document-track' },
     ],
   },
 
@@ -177,7 +177,7 @@ export const spokesBatch92Labor: SpokePage[] = [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '프리랜서 근로자 지위', href: '/guide/dismissal/dismissal-freelancer-worker-status' },
       { label: '플랫폼 종사자 권리', href: '/guide/dismissal/dismissal-platform-worker-rights' },
-      { label: '해고 서면통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
+      { label: '구두 통보 서면통지 누락 해고 효력 판단', href: '/guide/dismissal/dismissal-verbal-notice-written-procedure-omission-track' },
     ],
   },
 
@@ -258,7 +258,7 @@ export const spokesBatch92Labor: SpokePage[] = [
     internalLinks: [
       { label: '해고 도메인 허브', href: '/guide/dismissal' },
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '해고 서면통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
+      { label: '이메일 해고통보 서면통지 효력 판단', href: '/guide/dismissal/dismissal-email-notice-written-procedure-effect-track' },
       { label: '구두 해고 서면 없음', href: '/guide/dismissal/dismissal-verbal-only-no-document' },
       { label: '서면통지 사유 모호 다툼', href: '/guide/dismissal/dismissal-written-notice-vague-reason-track' },
     ],
@@ -340,10 +340,10 @@ export const spokesBatch92Labor: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '임금 도메인 허브', href: '/guide/wage' },
-      { label: '임금체불 대응 절차', href: '/guide/wage/wage-unpaid-response-procedure' },
+      { label: '연차수당 못 받았을 때 대응 방법', href: '/guide/wage/annual-leave-pay-unpaid-response' },
       { label: '하도급 원청 책임 다툼', href: '/guide/wage/wage-subcontract-original-liability' },
       { label: '실질 근로자 임금 청구', href: '/guide/wage/wage-freelancer-worker-status-claim' },
-      { label: '도산 대지급금 신청', href: '/guide/wage/wage-unpaid-wage-guarantee-fund-application' },
+      { label: '체당금 임금채권보장기금 신청', href: '/guide/wage/unpaid-wage-guarantee-fund-application' },
     ],
   },
 
@@ -423,9 +423,9 @@ export const spokesBatch92Labor: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '임금 도메인 허브', href: '/guide/wage' },
-      { label: '임금체불 대응 절차', href: '/guide/wage/wage-unpaid-response-procedure' },
+      { label: '임금체불 신고당한 사업주가 저지르는 실수', href: '/guide/wage/unpaid-wage-employer-response' },
       { label: '실질 근로자 임금 청구', href: '/guide/wage/wage-freelancer-worker-status-claim' },
-      { label: '연장·야간수당 재산정', href: '/guide/wage/wage-overtime-recalculation-track' },
+      { label: '보상휴가제 연장근로수당', href: '/guide/wage/wage-comp-time-substitute-overtime-illegal' },
       { label: '하도급 원청 책임 다툼', href: '/guide/wage/wage-subcontract-original-liability' },
     ],
   },
@@ -506,7 +506,7 @@ export const spokesBatch92Labor: SpokePage[] = [
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '실업급여 도메인 허브', href: '/guide/unemployment' },
-      { label: '실업급여 수급요건 정리', href: '/guide/unemployment/unemployment-eligibility-requirements' },
+      { label: '전역 군인 실업급여 수급 자격', href: '/guide/unemployment/unemployment-military-discharge-eligibility' },
       { label: '부정수급 환수 추가징수', href: '/guide/unemployment/unemployment-fraud-recovery-additional-collection-track' },
       { label: '부지급 처분 이의 절차', href: '/guide/unemployment/unemployment-benefit-rejection-appeal-procedure' },
       { label: '부정수급 환수 통지 대응', href: '/guide/unemployment/unemployment-fraud-collection-notice-appeal' },
@@ -589,7 +589,7 @@ export const spokesBatch92Labor: SpokePage[] = [
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '실업급여 도메인 허브', href: '/guide/unemployment' },
-      { label: '실업급여 수급요건 정리', href: '/guide/unemployment/unemployment-eligibility-requirements' },
+      { label: '계절근로자 실업급여 자격', href: '/guide/unemployment/unemployment-seasonal-worker-eligibility' },
       { label: '구직급여 기초일액 산정', href: '/guide/unemployment/unemployment-job-benefit-base-daily-wage-track' },
       { label: '실업급여 일액·일수 정리', href: '/guide/unemployment/benefit-duration-and-daily-amount' },
       { label: '부지급 처분 이의 절차', href: '/guide/unemployment/unemployment-benefit-rejection-appeal-procedure' },
@@ -838,10 +838,10 @@ export const spokesBatch92Labor: SpokePage[] = [
     cta: { text: '산재 신청 절차, AI로 정리하기', link: '/chat?domain=industrial-accident' },
     internalLinks: [
       { label: '산재 도메인 허브', href: '/guide/industrial-accident' },
-      { label: '산재 평균임금 산정 정리', href: '/guide/industrial-accident/industrial-accident-average-wage-calculation' },
-      { label: '장해급여 등급·청구 절차', href: '/guide/industrial-accident/industrial-accident-disability-benefit-procedure' },
-      { label: '산재 보험급여 심사청구', href: '/guide/industrial-accident/industrial-accident-review-request-procedure' },
-      { label: '진폐 직업병 인정 절차', href: '/guide/industrial-accident/industrial-accident-pneumoconiosis-recognition-track' },
+      { label: '진폐 장해급여 평균임금 증감', href: '/guide/industrial-accident/industrial-accident-pneumoconiosis-wage-increase-track' },
+      { label: '재요양 후 장해등급 변경 재해위로금', href: '/guide/industrial-accident/industrial-accident-disability-grade-change-recovery-condolence-track' },
+      { label: '출퇴근 차량 사고 업무상 재해 요양급여 절차', href: '/guide/industrial-accident/industrial-accident-commute-vehicle-disaster-recognition-track' },
+      { label: '회사 행사 참여 중 부상 업무상 재해 인정 절차', href: '/guide/industrial-accident/industrial-accident-company-event-participation-injury-recognition-track' },
     ],
   },
 ];

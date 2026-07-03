@@ -86,10 +86,10 @@ export const spokesBatch54Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '중고차 미터기 조작 사기', href: '/guide/fraud/fraud-used-car-odometer-rollback' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: 'SNS 광고 환불 거부 사기', href: '/guide/fraud/fraud-sns-ad-product-refund-blocked' },
       { label: '명품 가품 판매 사기 환불', href: '/guide/fraud/fraud-luxury-fake-counterfeit' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -172,7 +172,7 @@ export const spokesBatch54Fraud: SpokePage[] = [
       { label: '보이스피싱 환급법 적용', href: '/guide/fraud/fraud-voice-phishing-relief-law-application' },
       { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
       { label: '계좌 동결 48시간 대응', href: '/guide/fraud/fraud-account-freeze-48hr-response' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -421,7 +421,7 @@ export const spokesBatch54Fraud: SpokePage[] = [
       { label: '차용증 있는 대여 형사·민사', href: '/guide/fraud/fraud-loan-with-promissory-note-criminal-civil' },
       { label: '잠적한 채무자 추적', href: '/guide/fraud/fraud-personal-loan-flight-pursuit' },
       { label: '사기 민사 소송 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 ];

@@ -85,11 +85,11 @@ export const spokesBatch48Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
-      { label: '소액사건 지급명령 신청', href: '/guide/fraud/fraud-payment-order-small-claims' },
-      { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
-      { label: '가압류 신청 절차', href: '/guide/fraud/fraud-provisional-seizure-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
+      { label: '물품대금 미지급 사기 무고 방어', href: '/guide/fraud/fraud-goods-payment-default-falsely-accused-defense' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
   },
 
@@ -170,9 +170,9 @@ export const spokesBatch48Fraud: SpokePage[] = [
     internalLinks: [
       { label: '코인 사기 피해 증거 수집', href: '/guide/fraud/fraud-crypto-rug-pull-evidence' },
       { label: '투자 사기 유형별 대응', href: '/guide/fraud/fraud-sns-investment-scam-response' },
-      { label: '전기통신금융사기 환급 신청', href: '/guide/fraud/fraud-telecom-financial-payment-suspension' },
-      { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
-      { label: '사기 피해 증거 수집 순서', href: '/guide/fraud/fraud-evidence-collection-order' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '투자 사기 피해 증거 모으는 법', href: '/guide/fraud/investment-fraud-evidence-collection' },
     ],
   },
 
@@ -251,11 +251,11 @@ export const spokesBatch48Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
-      { label: '소액사건 지급명령 신청', href: '/guide/fraud/fraud-payment-order-small-claims' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '단순 채무불이행 vs 사기 구분', href: '/guide/fraud/loan-default-vs-fraud-checklist' },
-      { label: '사기 합의금 산정 기준', href: '/guide/fraud/fraud-settlement-amount-calculation' },
-      { label: '가압류 신청 절차', href: '/guide/fraud/fraud-provisional-seizure-procedure' },
+      { label: '사기 합의하면 형량 얼마나 줄어드나', href: '/guide/fraud/fraud-settlement-sentencing-impact' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
   },
 
@@ -334,11 +334,11 @@ export const spokesBatch48Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 합의금 산정 기준', href: '/guide/fraud/fraud-settlement-amount-calculation' },
-      { label: '가압류 신청 절차', href: '/guide/fraud/fraud-provisional-seizure-procedure' },
-      { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
-      { label: '소액사건 지급명령 신청', href: '/guide/fraud/fraud-payment-order-small-claims' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 피해 민사소송 진행 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '해외직구 대행 가상자산 결제 잠적 사기', href: '/guide/fraud/fraud-overseas-agent-crypto-payment-vanish-track' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -419,9 +419,9 @@ export const spokesBatch48Fraud: SpokePage[] = [
     internalLinks: [
       { label: '국제 로맨스 스캠 피해 회복', href: '/guide/fraud/fraud-international-romance-marriage-recovery' },
       { label: '데이팅 로맨스 스캠 증거', href: '/guide/fraud/fraud-dating-romance-scam-evidence' },
-      { label: '보이스피싱 환급 절차', href: '/guide/fraud/fraud-voice-phishing-recovery-comprehensive' },
-      { label: '사기 피해 증거 수집 순서', href: '/guide/fraud/fraud-evidence-collection-order' },
-      { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
+      { label: '고령자 보이스피싱 피해 구제', href: '/guide/fraud/fraud-elderly-voice-phishing-recovery' },
+      { label: '투자 사기 피해 증거 모으는 법', href: '/guide/fraud/investment-fraud-evidence-collection' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
     ],
   },
 ];

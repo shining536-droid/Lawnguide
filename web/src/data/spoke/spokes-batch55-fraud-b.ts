@@ -86,8 +86,8 @@ export const spokesBatch55FraudB: SpokePage[] = [
     internalLinks: [
       { label: '중고차 미터기·사고이력 은폐 사기', href: '/guide/fraud/fraud-used-car-meter-history-concealed' },
       { label: '중고차 미터기 조작 사기 환불', href: '/guide/fraud/fraud-used-car-odometer-rollback' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
       { label: 'SNS 광고 환불 거부 사기', href: '/guide/fraud/fraud-sns-ad-product-refund-blocked' },
     ],
   },
@@ -167,8 +167,8 @@ export const spokesBatch55FraudB: SpokePage[] = [
     ],
     cta: { text: '합의가 형량에 미치는 영향, AI로 확인하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '중고차 미터기·사고이력 은폐 사기', href: '/guide/fraud/fraud-used-car-meter-history-concealed' },
       { label: 'SNS 광고 환불 거부 사기', href: '/guide/fraud/fraud-sns-ad-product-refund-blocked' },
       { label: '명품 가품 판매 사기 환불', href: '/guide/fraud/fraud-luxury-fake-counterfeit' },

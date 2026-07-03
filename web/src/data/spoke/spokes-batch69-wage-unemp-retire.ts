@@ -253,7 +253,7 @@ export const spokesBatch69WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '구직활동 인정 유형', href: '/guide/unemployment/unemployment-job-search-recognized-types' },
       { label: '구직활동 위반 취소', href: '/guide/unemployment/unemployment-job-search-violation-cancel' },
-      { label: '실업급여 이의신청', href: '/guide/unemployment/unemployment-objection-procedure' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '부지급 처분 이의', href: '/guide/unemployment/unemployment-wrongful-denial-appeal-procedure' },
       { label: '실업인정 결석', href: '/guide/unemployment/unemployment-missed-attendance' },
     ],
@@ -420,8 +420,8 @@ export const spokesBatch69WageUnempRetire: SpokePage[] = [
       { label: '계약 공백 연결', href: '/guide/retirement/retirement-fixed-term-contract-gap-tenure-link-track' },
       { label: '재입사 계속근로', href: '/guide/retirement/retirement-rehire-continuous-service-calculation' },
       { label: '비정규직 합산', href: '/guide/retirement/retirement-non-regular-converted-merge' },
-      { label: '평균임금 계산', href: '/guide/retirement/retirement-average-wage-calculation' },
-      { label: '퇴직금 청구 절차', href: '/guide/retirement/retirement-payment-claim-procedure' },
+      { label: '평균임금 산정 기준 퇴직금 판단', href: '/guide/retirement/retirement-pay-average-wage-base-calculation-track' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
     ],
   },
 ];

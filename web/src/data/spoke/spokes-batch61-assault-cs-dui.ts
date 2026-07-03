@@ -321,7 +321,7 @@ export const spokesBatch61AssaultCsDui: SpokePage[] = [
     cta: { text: '양육비 못 받을 때 다음 단계, AI로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육비 산정', href: '/guide/child-support/child-support-lump-sum-negotiation' },
-      { label: '미지급 양육비', href: '/guide/child-support/child-support-non-payment' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
       { label: '이행명령 집행', href: '/guide/child-support/child-support-overdue-salary-seizure-procedure' },
       { label: '감치명령', href: '/guide/child-support/child-support-license-suspension-petition-procedure' },
       { label: '양육비 종합', href: '/guide/child-support/child-support-lawsuit-process' },
@@ -399,7 +399,7 @@ export const spokesBatch61AssaultCsDui: SpokePage[] = [
     cta: { text: '양육비 못 받을 때 다음 단계, AI로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '소득 변화 변경', href: '/guide/child-support/child-support-modification-employer-income-change' },
-      { label: '미지급 양육비', href: '/guide/child-support/child-support-non-payment' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
       { label: '감치명령', href: '/guide/child-support/child-support-license-suspension-petition-procedure' },
       { label: '재혼 양육비', href: '/guide/child-support/child-support-paying-parent-remarriage-newchild-reduction' },
       { label: '양육비 종합', href: '/guide/child-support/child-support-lawsuit-process' },

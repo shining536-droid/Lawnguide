@@ -87,11 +87,11 @@ export const spokesBatch43Divorce: SpokePage[] = [
       link: '/chat?domain=divorce',
     },
     internalLinks: [
-      { label: '재산분할 기여도 산정 기준표', href: '/guide/divorce/divorce-property-division-contribution' },
-      { label: '협의이혼 준비서류 체크리스트', href: '/guide/divorce/divorce-consensual-documents' },
-      { label: '재산분할 청구권 소멸시효 2년', href: '/guide/divorce/divorce-property-claim-limitation' },
+      { label: '혼인 중 상속재산 재산분할 대상 여부 판단', href: '/guide/divorce/divorce-inherited-asset-property-division-contribution-track' },
+      { label: '협의이혼 준비서류 체크리스트', href: '/guide/divorce/consensual-divorce-required-documents-checklist' },
+      { label: '협의이혼 후 재산분할 2년 시효', href: '/guide/divorce/divorce-consensual-property-division-2year-claim' },
       { label: '이혼 후 추가 재산분할 청구', href: '/guide/divorce/divorce-omitted-asset-additional-claim' },
-      { label: '특유재산과 공동재산 구분', href: '/guide/divorce/divorce-separate-property-distinction' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
     ],
   },
 
@@ -174,11 +174,11 @@ export const spokesBatch43Divorce: SpokePage[] = [
       link: '/chat?domain=divorce',
     },
     internalLinks: [
-      { label: '협의이혼 절차와 서류 총정리', href: '/guide/divorce/divorce-consensual-procedure' },
-      { label: '재판상 이혼 6가지 사유', href: '/guide/divorce/divorce-judicial-grounds-6items' },
-      { label: '해외 송달 공시송달 절차', href: '/guide/divorce/divorce-public-service-procedure' },
+      { label: '협의이혼 의사 철회 시점 절차', href: '/guide/divorce/divorce-consensual-intent-withdrawal-procedure' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '자녀 양육권 친권 이혼 절차', href: '/guide/divorce/divorce-child-custody-parental-procedure-track' },
       { label: '외국인 배우자 체류자격 변경', href: '/guide/divorce/divorce-foreign-spouse-visa-issue' },
-      { label: '이혼 후 가족관계등록 정리', href: '/guide/divorce/divorce-family-registry-update' },
+      { label: '양육비 직접 청구 vs 이행관리원 비교', href: '/guide/divorce/child-support-direct-vs-agency-comparison' },
     ],
   },
 
@@ -262,10 +262,10 @@ export const spokesBatch43Divorce: SpokePage[] = [
     },
     internalLinks: [
       { label: '재산분할 대상 포함 재산 총정리', href: '/guide/divorce/divorce-property-division-scope-faq' },
-      { label: '협의이혼 합의서 필수 조항', href: '/guide/divorce/divorce-consensual-agreement-clauses' },
-      { label: '자녀 양육권과 면접교섭', href: '/guide/divorce/divorce-child-custody-visitation' },
+      { label: '협의이혼 양육 합의 미합의 차단', href: '/guide/divorce/divorce-consensual-no-custody-agreement-blocked' },
+      { label: '조부모 면접교섭권', href: '/guide/divorce/divorce-child-custody-grandparent-visitation-track' },
       { label: '이혼 위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
-      { label: '이혼 조정·소송 절차 비교', href: '/guide/divorce/divorce-mediation-vs-litigation' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
     ],
   },
 
@@ -348,11 +348,11 @@ export const spokesBatch43Divorce: SpokePage[] = [
       link: '/chat?domain=divorce',
     },
     internalLinks: [
-      { label: '재판상 이혼 6가지 사유 총정리', href: '/guide/divorce/divorce-judicial-grounds-6items' },
-      { label: '가정폭력 접근금지 신청 절차', href: '/guide/divorce/divorce-protection-order-procedure' },
-      { label: '이혼 위자료 증거 수집법', href: '/guide/divorce/divorce-alimony-evidence-collection' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '가정폭력 피해자보호명령 임시조치 절차', href: '/guide/divorce/divorce-domestic-violence-victim-protection-order-procedure' },
+      { label: '외도 위자료 증거 수집 상간자', href: '/guide/divorce/divorce-alimony-affair-evidence-collection-trial' },
       { label: '외도 위자료 증거 5가지', href: '/guide/divorce/divorce-affair-alimony-evidence-5items' },
-      { label: '별거 후 이혼 절차 준비', href: '/guide/divorce/divorce-separation-before-procedure' },
+      { label: '협의이혼 의사확인 후 이혼신고 전 철회 절차', href: '/guide/divorce/divorce-consensual-confirmation-then-withdrawal-before-registration-track' },
     ],
   },
 ];

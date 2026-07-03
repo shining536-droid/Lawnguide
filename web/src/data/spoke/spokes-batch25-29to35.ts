@@ -340,7 +340,7 @@ export const spokesBatch25_29to35: SpokePage[] = [
     internalLinks: [
       { label: '중고거래 사기 환불받는 방법', href: '/guide/fraud/secondhand-trade-fraud-refund-method' },
       { label: '중고거래 사기 증거 확보법', href: '/guide/fraud/used-market-fraud-evidence' },
-      { label: '소액 사기 소액심판 청구', href: '/guide/fraud/used-goods-fraud-small-claims' },
+      { label: '중고차 사기 증거 수집 체크리스트', href: '/guide/fraud/used-car-fraud-evidence-prep' },
       { label: '사기 고소장 준비 방법', href: '/guide/fraud/fraud-complaint-preparation' },
       { label: '사기 피해 어디서부터 시작해야 하나요', href: '/guide/fraud/fraud-victim-where-to-start' },
     ],

@@ -86,10 +86,10 @@ export const spokesBatch47Dismissal: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '부당해고 구제신청 절차 종합', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
-      { label: '해고 사전 통지 절차 위반', href: '/guide/dismissal/dismissal-notice-procedure-violation' },
-      { label: '수습 기간 근로계약 조건', href: '/guide/dismissal/dismissal-probation-contract-conditions' },
-      { label: '인사평가 급락의 위법성', href: '/guide/dismissal/dismissal-evaluation-drop-illegality' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '징계위원회 절차 위반 해고', href: '/guide/dismissal/dismissal-disciplinary-procedure-violation-track' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
+      { label: '상대평가 하위등급 해고', href: '/guide/dismissal/dismissal-evaluation-rank-bottom-firing-track' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -169,10 +169,10 @@ export const spokesBatch47Dismissal: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '부당해고 구제신청 절차 종합', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
-      { label: '장애 차별 국가인권위 진정 절차', href: '/guide/dismissal/dismissal-disability-discrimination-complaint' },
-      { label: '해고 이유 요청 및 서면 통지 의무', href: '/guide/dismissal/dismissal-written-notice-obligation' },
-      { label: '직장 내 차별 다툼 포인트', href: '/guide/dismissal/dismissal-workplace-discrimination-relief' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '장애 정당한 편의제공 차별 해고', href: '/guide/dismissal/dismissal-disability-reasonable-accommodation-discrimination-track' },
+      { label: '구두 통보 서면통지 누락 해고 효력 판단', href: '/guide/dismissal/dismissal-verbal-notice-written-procedure-omission-track' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -252,10 +252,10 @@ export const spokesBatch47Dismissal: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '부당해고 구제신청 절차 종합', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
-      { label: '부당노동행위 구제신청 절차', href: '/guide/dismissal/dismissal-unfair-labor-practice-relief' },
-      { label: '해고 절차 흠결 다툼', href: '/guide/dismissal/dismissal-procedure-defect-relief' },
-      { label: '노동위 심문 준비 방법', href: '/guide/dismissal/dismissal-nlrc-hearing-preparation' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당노동행위 계속 구제신청 기간', href: '/guide/dismissal/dismissal-continuous-unfair-labor' },
+      { label: '징계 절차 위반 해고 정당성 판단', href: '/guide/dismissal/dismissal-disciplinary-procedure-defect-track' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -330,10 +330,10 @@ export const spokesBatch47Dismissal: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '부당해고 구제신청 절차 종합', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
-      { label: '장애 차별 국가인권위 진정 절차', href: '/guide/dismissal/dismissal-disability-discrimination-complaint' },
-      { label: '대기발령 구제신청 절차', href: '/guide/dismissal/dismissal-standby-order-relief' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
-      { label: '해고 이유 서면 청구 방법', href: '/guide/dismissal/dismissal-written-reason-request' },
+      { label: '장애 정당한 편의제공 차별 해고', href: '/guide/dismissal/dismissal-disability-reasonable-accommodation-discrimination-track' },
+      { label: '대기발령 후 면직 서면통지 누락', href: '/guide/dismissal/dismissal-standby-order-then-discharge-procedural-track' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
+      { label: '해고 사유서 요청 방법과 양식', href: '/guide/dismissal/dismissal-reason-request-template' },
     ],
   },
 
@@ -413,10 +413,10 @@ export const spokesBatch47Dismissal: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '부당해고 구제신청 절차 종합', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
-      { label: '연장근로 동의와 임금체불 진정', href: '/guide/wage/wage-overtime-consent-complaint' },
-      { label: '강제 근로 금지와 고용노동부 신고', href: '/guide/dismissal/dismissal-forced-labor-complaint' },
-      { label: '주 52시간 초과 위반 신고 절차', href: '/guide/wage/wage-52hour-violation-report' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '야근 휴일 동의서 강요 무효', href: '/guide/wage/wage-overtime-consent-coercion-invalid' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 ];

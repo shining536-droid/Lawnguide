@@ -87,10 +87,10 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
-      { label: '폭행 형사 고소', href: '/guide/assault/assault-complaint-procedure' },
-      { label: '손해배상 청구', href: '/guide/assault/assault-damage-claim' },
-      { label: '난폭운전·보복운전', href: '/guide/assault/assault-road-rage-traffic-law' },
-      { label: '범죄피해자 지원', href: '/guide/assault/assault-victim-support-program' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
+      { label: '과장된 상해 주장 무고 대응법', href: '/guide/assault/assault-exaggerated-injury-claim' },
+      { label: '고속도로 보복 정차 폭행', href: '/guide/assault/assault-highway-road-rage-stop-track' },
+      { label: '장애인 폭행 가중 처벌', href: '/guide/assault/assault-disabled-victim-aggravated-penalty' },
     ],
   },
 
@@ -170,10 +170,10 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
-      { label: '응급의료 방해 가중', href: '/guide/assault/assault-emergency-medical-aggravated' },
-      { label: '의료진 폭행', href: '/guide/assault/assault-medical-staff-protection' },
-      { label: '직장 내 폭행 산재', href: '/guide/assault/assault-workplace-industrial-accident' },
-      { label: '범죄피해자 지원', href: '/guide/assault/assault-victim-support-program' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
+      { label: '의료진 폭행 응급실', href: '/guide/assault/assault-medical-staff-patient-hospital-track' },
+      { label: '직장 회식 말다툼 쌍방폭행 무고 방어', href: '/guide/assault/assault-workplace-dinner-argument-mutual-falsely-accused-defense' },
+      { label: '장애인 폭행 가중처벌', href: '/guide/assault/assault-disabled-victim-aggravated-track' },
     ],
   },
 
@@ -253,10 +253,10 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
-      { label: '공무집행방해', href: '/guide/assault/assault-public-official-obstruction' },
-      { label: '특수공무집행방해', href: '/guide/assault/assault-special-public-obstruction' },
-      { label: '공무상 재해', href: '/guide/assault/assault-public-officer-injury-claim' },
-      { label: '범죄피해자 지원', href: '/guide/assault/assault-victim-support-program' },
+      { label: '공무집행 중 공무원 폭행', href: '/guide/assault/assault-public-official-on-duty-resistance-track' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
+      { label: '과장된 상해 주장 무고 대응법', href: '/guide/assault/assault-exaggerated-injury-claim' },
+      { label: '요양보호사 환자 보호자 폭행 피해', href: '/guide/assault/assault-elder-care-worker-patient-attacker-victim-track' },
     ],
   },
 
@@ -336,10 +336,10 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육비 계산', href: '/guide/child-support/child-support-calculation-table' },
-      { label: '양육비 변경 심판', href: '/guide/child-support/child-support-modification-claim' },
-      { label: '특별경비 분담', href: '/guide/child-support/child-support-special-expenses' },
-      { label: '양육비이행관리원', href: '/guide/child-support/child-support-enforcement-agency' },
-      { label: '이행명령', href: '/guide/child-support/child-support-enforcement-order' },
+      { label: '조부모 양육비 청구 방법', href: '/guide/child-support/child-support-grandparent-custody-claim' },
+      { label: '대학 등록금 특별 청구', href: '/guide/child-support/child-support-college-tuition-special-claim-track' },
+      { label: '양육비 강제집행 압류 이행명령 감치', href: '/guide/child-support/child-support-enforcement-attach-imprison' },
+      { label: '양육비 이행명령 위반 제재', href: '/guide/child-support/child-support-enforcement-contempt-order' },
     ],
   },
 
@@ -419,10 +419,10 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육비 계산', href: '/guide/child-support/child-support-calculation-table' },
-      { label: '양육비 일시금', href: '/guide/child-support/child-support-lump-sum-payment' },
-      { label: '미성년자 재산 관리', href: '/guide/child-support/child-support-minor-property-management' },
-      { label: '양육비 변경 심판', href: '/guide/child-support/child-support-modification-claim' },
-      { label: '양육비이행관리원', href: '/guide/child-support/child-support-enforcement-agency' },
+      { label: '미지급 양육비 일시 청산 신용 회복', href: '/guide/child-support/child-support-arrears-lump-sum-payment-credit-restoration-track' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
+      { label: '양육비 외국 거주 헤이그 협약 청구', href: '/guide/child-support/child-support-hague-convention-overseas-cross-border-claim' },
+      { label: '양육비 강제집행 방법과 절차', href: '/guide/child-support/child-support-enforcement-method' },
     ],
   },
 
@@ -501,11 +501,11 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     ],
     cta: { text: '음주운전 행정심판 준비서류, AI로 체크하기', link: '/chat?domain=dui' },
     internalLinks: [
-      { label: '음주운전 행정심판', href: '/guide/dui/dui-administrative-appeal' },
-      { label: '음주운전 방조', href: '/guide/dui/dui-aiding-abetting-passenger' },
-      { label: '음주 동승 책임', href: '/guide/dui/dui-passenger-liability' },
-      { label: '면허 정지·취소', href: '/guide/dui/dui-license-suspension-revocation' },
-      { label: '음주운전 형사 방어', href: '/guide/dui/dui-criminal-defense' },
+      { label: '음주운전 행정심판 준비서류와 절차', href: '/guide/dui/dui-administrative-appeal-required-docs' },
+      { label: '음주운전 동승자 방조죄', href: '/guide/dui/dui-passenger-acknowledge-aiding-abetting-track' },
+      { label: '음주운전 종합 가이드', href: '/guide/dui' },
+      { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },
+      { label: '음주운전 적발 후 형사 절차 총정리', href: '/guide/dui/dui-criminal-procedure-overview' },
     ],
   },
 ];

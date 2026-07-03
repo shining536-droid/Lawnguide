@@ -87,10 +87,10 @@ export const spokesBatch76Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '온라인 거래 사기 대응', href: '/guide/fraud/fraud-online-transaction-response' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '차용증 있는 사기 민사 구분', href: '/guide/fraud/fraud-loan-with-promissory-note-criminal-civil' },
     ],
   },
 
@@ -170,10 +170,10 @@ export const spokesBatch76Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '온라인 거래 사기 대응', href: '/guide/fraud/fraud-online-transaction-response' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기 형사 부대 배상명령', href: '/guide/fraud/fraud-victim-criminal-attached-civil-claim' },
     ],
   },
 
@@ -253,10 +253,10 @@ export const spokesBatch76Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '온라인 거래 사기 대응', href: '/guide/fraud/fraud-online-transaction-response' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '중고거래 사기 형사 고소', href: '/guide/fraud/secondhand-fraud-criminal-before-civil' },
     ],
   },
 
@@ -336,10 +336,10 @@ export const spokesBatch76Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '온라인 거래 사기 대응', href: '/guide/fraud/fraud-online-transaction-response' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '형사 고소 vs 민사 소송 어떤 것이 유리한가', href: '/guide/fraud/criminal-vs-civil-fraud-lawsuit' },
     ],
   },
 
@@ -419,10 +419,10 @@ export const spokesBatch76Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '온라인 거래 사기 대응', href: '/guide/fraud/fraud-online-transaction-response' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '지인 금전대여 사기 vs 민사 구분', href: '/guide/fraud/fraud-acquaintance-loan-civil-vs-criminal' },
     ],
   },
 
@@ -502,10 +502,10 @@ export const spokesBatch76Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '온라인 거래 사기 대응', href: '/guide/fraud/fraud-online-transaction-response' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기 민사 형사 순서', href: '/guide/fraud/fraud-civil-criminal-sequence-decision' },
     ],
   },
 ];

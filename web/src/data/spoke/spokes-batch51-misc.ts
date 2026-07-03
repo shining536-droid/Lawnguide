@@ -87,7 +87,7 @@ export const spokesBatch51Misc: SpokePage[] = [
       { label: '술집 쌍방폭행 합의 절차', href: '/guide/assault/assault-bar-fight-mutual-injury-settle' },
       { label: '노부모 가정폭력 임시조치', href: '/guide/assault/assault-elderly-parent-domestic-protect' },
       { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
-      { label: '상해진단서 발급과 활용', href: '/guide/assault/assault-injury-medical-evidence' },
+      { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
     ],
   },
 
@@ -167,7 +167,7 @@ export const spokesBatch51Misc: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
-      { label: '상해진단서 발급과 활용', href: '/guide/assault/assault-injury-medical-evidence' },
+      { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
       { label: '노부모 가정폭력 임시조치', href: '/guide/assault/assault-elderly-parent-domestic-protect' },
       { label: '술집 쌍방폭행 합의 절차', href: '/guide/assault/assault-bar-fight-mutual-injury-settle' },
     ],
@@ -249,10 +249,10 @@ export const spokesBatch51Misc: SpokePage[] = [
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '비양육친 외국 거주 회수', href: '/guide/child-support/child-support-foreign-spouse-collection' },
-      { label: '양육비 산정 기준표 가이드', href: '/guide/child-support/child-support-amount-calculation-guide' },
-      { label: '양육비 미지급 강제집행', href: '/guide/child-support/child-support-execution-non-payment' },
-      { label: '가정법원 양육비 조정 절차', href: '/guide/child-support/child-support-court-mediation' },
-      { label: '양육비이행관리원 신청 안내', href: '/guide/child-support/child-support-csa-procedure-guide' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
+      { label: '양육비 직접지급명령 가정법원', href: '/guide/child-support/child-support-direct-payment-order-family-court-no-csa-track' },
+      { label: '양육비 채무자 명단공개 절차', href: '/guide/child-support/child-support-public-disclosure-debtor-list-procedure' },
     ],
   },
 
@@ -332,10 +332,10 @@ export const spokesBatch51Misc: SpokePage[] = [
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '비양육친 외국 거주 회수', href: '/guide/child-support/child-support-foreign-spouse-collection' },
-      { label: '양육비 미지급 강제집행', href: '/guide/child-support/child-support-execution-non-payment' },
-      { label: '양육비 산정 기준표 가이드', href: '/guide/child-support/child-support-amount-calculation-guide' },
-      { label: '가정법원 양육비 조정 절차', href: '/guide/child-support/child-support-court-mediation' },
-      { label: '양육비이행관리원 신청 안내', href: '/guide/child-support/child-support-csa-procedure-guide' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
+      { label: '양육비 산정기준표 가산 감산 사유', href: '/guide/child-support/child-support-calculation-table-add-deduct-factors' },
+      { label: '양육비 직접지급명령 가정법원', href: '/guide/child-support/child-support-direct-payment-order-family-court-no-csa-track' },
+      { label: '양육비 감치 신청', href: '/guide/child-support/child-support-contempt-detention-procedure' },
     ],
   },
 ];

@@ -339,8 +339,8 @@ export const spokesBatch54WageUnempRetire: SpokePage[] = [
       { label: '부정수급 환수 통보 대응', href: '/guide/unemployment/unemployment-fraud-claim-recovery-procedure' },
       { label: '부정수급 처벌 대응', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
       { label: '실업급여 정당이직 사유', href: '/guide/unemployment/unemployment-voluntary-quit-benefits' },
-      { label: '실업급여 수급자격 점검', href: '/guide/unemployment/unemployment-eligibility-check-guide' },
-      { label: '재취업 활동 신고 방법', href: '/guide/unemployment/unemployment-reemployment-activity-report' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '실업급여 수급 중 재취업 남은 급여 처리', href: '/guide/unemployment/reemployment-during-benefits-remaining' },
     ],
   },
 
@@ -423,7 +423,7 @@ export const spokesBatch54WageUnempRetire: SpokePage[] = [
       { label: '권고사직 vs 자진퇴사 경계', href: '/guide/unemployment/unemployment-recommendation-vs-resignation-boundary' },
       { label: '임신 자진퇴사 수급자격', href: '/guide/unemployment/unemployment-pregnancy-resignation-eligibility' },
       { label: '임신 고위험 자진퇴사', href: '/guide/unemployment/unemployment-pregnancy-high-risk-quit' },
-      { label: '실업급여 수급자격 점검', href: '/guide/unemployment/unemployment-eligibility-check-guide' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
     ],
   },
 

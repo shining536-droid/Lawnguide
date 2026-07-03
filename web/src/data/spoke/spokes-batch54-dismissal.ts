@@ -170,7 +170,7 @@ export const spokesBatch54Dismissal: SpokePage[] = [
     internalLinks: [
       { label: '시용기간 차별 평가 정규직 전환 거절', href: '/guide/dismissal/dismissal-probation-period-bias-fired' },
       { label: '해고예고수당 청구 절차', href: '/guide/dismissal/dismissal-notice-pay' },
-      { label: '5인 미만 사업장 부당해고', href: '/guide/dismissal/dismissal-under-5-employee-workplace' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
       { label: '해고통보서 사유 부실 다툼', href: '/guide/dismissal/dismissal-incomplete-reason-letter' },
       { label: '시용기간 해고 확인권', href: '/guide/dismissal/dismissal-trial-period-fired-confirmation-right' },
     ],
@@ -334,7 +334,7 @@ export const spokesBatch54Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '취업규칙 면직사유 한정 다툼', href: '/guide/dismissal/dismissal-rule-of-employment-cause-limited' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
       { label: '단일 위반 징계해고 비례성', href: '/guide/dismissal/dismissal-single-violation-disciplinary-fire' },
       { label: '징계위원회 출석 절차 권리', href: '/guide/dismissal/dismissal-disciplinary-hearing-rights' },
       { label: '경고 누적 해고 효력 다툼 5가지', href: '/guide/dismissal/dismissal-warning-letter-cumulative-validity' },

@@ -171,7 +171,7 @@ export const spokesBatch53WageUnempRetire: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '물류·창고 야간 포괄임금 위법', href: '/guide/wage/wage-pogual-warehouse-logistics-shift-illegal' },
-      { label: '연장근로 동의 범위 한계', href: '/guide/wage/wage-overtime-consent-scope' },
+      { label: '야근 휴일 동의서 강요 무효', href: '/guide/wage/wage-overtime-consent-coercion-invalid' },
       { label: '연차수당 통상임금 영향', href: '/guide/wage/wage-annual-leave-pay-calculation' },
       { label: '임금 지연이자 연 20% 청구', href: '/guide/wage/wage-late-payment-interest-claim' },
       { label: '퇴직 후 미지급 수당 청구', href: '/guide/wage/wage-resigned-unpaid-allowance-claim' },
@@ -338,9 +338,9 @@ export const spokesBatch53WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '실업급여 정당이직 사유 가이드', href: '/guide/unemployment/unemployment-voluntary-quit-benefits' },
       { label: '부정수급 환수·반환 대응', href: '/guide/unemployment/unemployment-fraud-claim-recovery-procedure' },
-      { label: '명예퇴직 정당이직 다툼', href: '/guide/unemployment/unemployment-honorary-retirement-justified' },
-      { label: '권고사직 위로금 협상', href: '/guide/dismissal/dismissal-recommendation-settlement-negotiation' },
-      { label: '실업급여 수급자격 점검', href: '/guide/unemployment/unemployment-eligibility-check-guide' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
+      { label: '계약만료 후 실업급여 수급 가능 여부', href: '/guide/unemployment/contract-expiry-benefit-eligibility' },
     ],
   },
 
@@ -422,8 +422,8 @@ export const spokesBatch53WageUnempRetire: SpokePage[] = [
       { label: '권고사직 vs 자진퇴사 경계', href: '/guide/unemployment/unemployment-recommendation-vs-resignation-boundary' },
       { label: '부정수급 처벌 대응', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
       { label: '실업급여 정당이직 사유', href: '/guide/unemployment/unemployment-voluntary-quit-benefits' },
-      { label: '실업급여 수급자격 점검', href: '/guide/unemployment/unemployment-eligibility-check-guide' },
-      { label: '재취업 활동 신고 방법', href: '/guide/unemployment/unemployment-reemployment-activity-report' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '실업급여 구직활동 인정 절차', href: '/guide/unemployment/job-search-activity-recognition-procedure' },
     ],
   },
 

@@ -92,9 +92,9 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
-      { label: '재판상 이혼 사유', href: '/guide/divorce/divorce-judicial-grounds-track' },
-      { label: '혼인 파탄 책임 판단', href: '/guide/divorce/divorce-marriage-breakdown-track' },
-      { label: '채무 재산분할 판단', href: '/guide/divorce/divorce-debt-division-track' },
+      { label: '배우자 공동재산 무단처분 이혼 사유 성립 3가지 판단기준', href: '/guide/divorce/divorce-asset-disposal-grounds' },
+      { label: '부정행위 혼인파탄 위자료 판단', href: '/guide/divorce/divorce-adultery-marriage-breakdown-alimony-track' },
+      { label: '사업실패 채무 재산분할', href: '/guide/divorce/divorce-business-failure-debt-division-track' },
       { label: '이혼 위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
     ],
   },
@@ -176,10 +176,10 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
-      { label: '재판상 이혼 사유', href: '/guide/divorce/divorce-judicial-grounds-track' },
-      { label: '혼인 파탄 책임 판단', href: '/guide/divorce/divorce-marriage-breakdown-track' },
+      { label: '시부모 동거 갈등 이혼 사유 인정', href: '/guide/divorce/divorce-in-law-cohabitation-conflict-grounds-track' },
+      { label: '가정폭력 혼인파탄 위자료 판단', href: '/guide/divorce/divorce-domestic-violence-marriage-breakdown-alimony-track' },
       { label: '이혼 위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
-      { label: '양육비 산정·청구 절차', href: '/guide/divorce/divorce-child-support-calculation-track' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
     ],
   },
 
@@ -261,9 +261,9 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     internalLinks: [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
       { label: '이혼 위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
-      { label: '상간자 위자료 청구', href: '/guide/divorce/divorce-affair-partner-alimony-track' },
-      { label: '재판상 이혼 사유', href: '/guide/divorce/divorce-judicial-grounds-track' },
-      { label: '위자료 소멸시효 정리', href: '/guide/divorce/divorce-alimony-prescription-track' },
+      { label: '외도 위자료 증거 5가지', href: '/guide/divorce/divorce-affair-alimony-evidence-5items' },
+      { label: '이혼소송 기각 재제소 항소', href: '/guide/divorce/divorce-petition-rejected-grounds-retry' },
+      { label: '이혼 위자료 청구 시효', href: '/guide/divorce/divorce-alimony-claim-prescription-period-track' },
     ],
   },
 
@@ -345,9 +345,9 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     internalLinks: [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
       { label: '재판상 이혼 절차', href: '/guide/divorce/trial-divorce-lawsuit-procedure' },
-      { label: '재산분할 대상 범위', href: '/guide/divorce/divorce-property-division-scope' },
-      { label: '재판상 이혼 사유', href: '/guide/divorce/divorce-judicial-grounds-track' },
-      { label: '양육·친권 결정 절차', href: '/guide/divorce/divorce-custody-decision-track' },
+      { label: '이혼 시 재산분할 대상은 무엇인가요?', href: '/guide/divorce/divorce-property-division-scope-faq' },
+      { label: '배우자 지속 폭력 이혼 사유', href: '/guide/divorce/divorce-spouse-continuous-domestic-violence-grounds-track' },
+      { label: '국민연금 분할 비율 별도 결정', href: '/guide/divorce/divorce-national-pension-split-ratio-separate-decision-track' },
     ],
   },
 
@@ -428,10 +428,10 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '명예훼손 대응 순서, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 종합 가이드', href: '/guide/defamation' },
-      { label: '명예훼손 공연성 판단', href: '/guide/defamation/defamation-publicity-track' },
-      { label: '정보통신망법 명예훼손', href: '/guide/defamation/defamation-network-act-track' },
+      { label: '아파트 입주자 게시글 명예훼손', href: '/guide/defamation/defamation-apartment-bulletin-track' },
+      { label: '온라인 카페 익명글 허위사실 명예훼손', href: '/guide/defamation/defamation-anonymous-cafe-false-fact-network-act-track' },
       { label: '온라인 게시물 삭제 요청', href: '/guide/defamation/defamation-online-post-deletion-request-procedure' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-damages-claim-track' },
+      { label: '유튜브 댓글 실명 비방 신원조회 손해배상', href: '/guide/defamation/defamation-youtube-realname-attack-civil-damages-victim' },
     ],
   },
 
@@ -512,9 +512,9 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '명예훼손 대응 순서, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 종합 가이드', href: '/guide/defamation' },
-      { label: '정보통신망법 명예훼손', href: '/guide/defamation/defamation-network-act-track' },
-      { label: '허위사실 적시 명예훼손', href: '/guide/defamation/defamation-false-fact-track' },
-      { label: '공공의 이익 위법성조각', href: '/guide/defamation/defamation-public-interest-track' },
+      { label: '인터넷 댓글 명예훼손 정통망법 형법 비교', href: '/guide/defamation/defamation-online-comment-information-network-act' },
+      { label: '맘카페 허위사실 명예훼손 신고', href: '/guide/defamation/defamation-mom-cafe-false-fact-report-track' },
+      { label: '언론 인터뷰 공익 사실적시 명예훼손 무고 방어', href: '/guide/defamation/defamation-press-interview-public-interest-fact-falsely-accused-defense' },
       { label: '온라인 게시물 삭제 요청', href: '/guide/defamation/defamation-online-post-deletion-request-procedure' },
     ],
   },
@@ -596,9 +596,9 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '명예훼손 대응 순서, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 종합 가이드', href: '/guide/defamation' },
-      { label: '허위사실 적시 명예훼손', href: '/guide/defamation/defamation-false-fact-track' },
-      { label: '정보통신망법 명예훼손', href: '/guide/defamation/defamation-network-act-track' },
-      { label: '피해자 특정 판단', href: '/guide/defamation/defamation-victim-identification-track' },
+      { label: '오픈채팅방 허위사실 유포 명예훼손 신고', href: '/guide/defamation/defamation-open-chat-false-fact-spread-report-track' },
+      { label: '온라인 카페 익명글 허위사실 명예훼손', href: '/guide/defamation/defamation-anonymous-cafe-false-fact-network-act-track' },
+      { label: '단톡방 험담 캡처 외부 유포 명예훼손', href: '/guide/defamation/defamation-kakaotalk-private-groupchat-screenshot-leak-public-victim-track' },
       { label: '온라인 게시물 삭제 요청', href: '/guide/defamation/defamation-online-post-deletion-request-procedure' },
     ],
   },
@@ -680,10 +680,10 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '명예훼손 대응 순서, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 종합 가이드', href: '/guide/defamation' },
-      { label: '공공의 이익 위법성조각', href: '/guide/defamation/defamation-public-interest-track' },
-      { label: '명예훼손 고소 대응', href: '/guide/defamation/defamation-accused-response-track' },
-      { label: '진실한 사실 적시 명예훼손', href: '/guide/defamation/defamation-true-fact-track' },
-      { label: '무고죄 대응 절차', href: '/guide/defamation/defamation-false-accusation-response-track' },
+      { label: '상품 후기 사실적시 공익 명예훼손 무고 방어', href: '/guide/defamation/defamation-product-review-true-statement-public-interest-falsely-accused-defense' },
+      { label: '명예훼손으로 고소당했을 때 대응법', href: '/guide/defamation/defamation-accused-response' },
+      { label: '언론 인터뷰 사실적시 공익 명예훼손 무고 방어', href: '/guide/defamation/defamation-media-interview-true-fact-public-interest-falsely-accused-defense' },
+      { label: '이웃 허위신고 명예훼손 대응 체크리스트', href: '/guide/defamation/defamation-false-accusation-neighbor' },
     ],
   },
 
@@ -764,10 +764,10 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
       { label: '상속 종합 가이드', href: '/guide/inheritance' },
-      { label: '상속재산 분할협의 절차', href: '/guide/inheritance/inheritance-division-agreement-procedure' },
-      { label: '상속분·법정상속 정리', href: '/guide/inheritance/inheritance-statutory-share-track' },
-      { label: '상속등기 절차', href: '/guide/inheritance/inheritance-registration-procedure' },
-      { label: '유류분 반환 청구 절차', href: '/guide/inheritance/inheritance-forced-share-claim-track' },
+      { label: '상속재산분할협의서 무효', href: '/guide/inheritance/inheritance-division-agreement-defect-invalidation' },
+      { label: '장기 간병 기여분 청구', href: '/guide/inheritance/inheritance-elder-care-decade-contribution-share-track' },
+      { label: '상속 등기 절차와 필요 서류 총정리', href: '/guide/inheritance/inheritance-registration-procedure-docs' },
+      { label: '유류분 부족분 반환 청구', href: '/guide/inheritance/inheritance-forced-share-shortfall-claim-track' },
     ],
   },
 
@@ -848,10 +848,10 @@ export const spokesBatch95DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
-      { label: '과실비율 산정 기준', href: '/guide/traffic-accident/traffic-accident-fault-ratio-standard' },
-      { label: '치료비·손해 산정', href: '/guide/traffic-accident/traffic-accident-damages-calculation' },
-      { label: '일실수입·노동능력상실 산정', href: '/guide/traffic-accident/traffic-accident-lost-income-track' },
-      { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-checklist' },
+      { label: '자전거 횡단보도 통행 사고 과실비율 판단', href: '/guide/traffic-accident/traffic-accident-bicycle-crosswalk-crossing-fault-ratio-track' },
+      { label: '교통사고 보상금 산정 기준 총정리', href: '/guide/traffic-accident/traffic-accident-compensation-calculation-guide' },
+      { label: '자영업자 교통사고 휴업손해', href: '/guide/traffic-accident/traffic-accident-lost-wage-self-employed' },
+      { label: '영유아 카시트 미착용 합의금', href: '/guide/traffic-accident/traffic-accident-infant-carseat-nonuse-settlement-reduction-track' },
     ],
   },
 ];

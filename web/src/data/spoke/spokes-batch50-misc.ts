@@ -85,11 +85,11 @@ export const spokesBatch50Misc: SpokePage[] = [
     ],
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹 형사 고소 절차', href: '/guide/stalking/stalking-criminal-prosecution-process' },
-      { label: '스토킹 피해자 보호조치', href: '/guide/stalking/stalking-victim-protection-order' },
-      { label: '스토킹 증거 수집 체크리스트', href: '/guide/stalking/stalking-evidence-collection-checklist' },
-      { label: '온라인 메시지 스크린샷 보존법', href: '/guide/stalking/stalking-online-message-screenshot' },
-      { label: '직장 스토킹 보호 절차', href: '/guide/stalking/stalking-workplace-protection' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
+      { label: '스토킹 잠정조치 긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
+      { label: '스토킹 증거 수집할 때 흔히 하는 실수', href: '/guide/stalking/evidence-collection-common-mistakes' },
+      { label: '온라인 게임 보이스 채팅 게임 외 추적 스토킹', href: '/guide/stalking/stalking-online-game-voice-chat-repeat-private-message-track' },
+      { label: '직장 동료 퇴사 후 스토킹', href: '/guide/stalking/stalking-workplace-coworker-after-resign-track' },
     ],
   },
 
@@ -168,11 +168,11 @@ export const spokesBatch50Misc: SpokePage[] = [
     ],
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹 피해자 보호조치', href: '/guide/stalking/stalking-victim-protection-order' },
-      { label: '스토킹 형사 고소 절차', href: '/guide/stalking/stalking-criminal-prosecution-process' },
-      { label: '스토킹 증거 수집 체크리스트', href: '/guide/stalking/stalking-evidence-collection-checklist' },
-      { label: '온라인 메시지 스크린샷 보존법', href: '/guide/stalking/stalking-online-message-screenshot' },
-      { label: '직장 스토킹 보호 절차', href: '/guide/stalking/stalking-workplace-protection' },
+      { label: '스토킹 잠정조치 긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
+      { label: '스토킹 증거 수집 방법 FAQ', href: '/guide/stalking/stalking-evidence-collection-faq' },
+      { label: '온라인 게임 보이스 채팅 게임 외 추적 스토킹', href: '/guide/stalking/stalking-online-game-voice-chat-repeat-private-message-track' },
+      { label: '직장 동료 스토킹 처벌 인사조치', href: '/guide/stalking/stalking-workplace-coworker-criminal' },
     ],
   },
 
@@ -253,9 +253,9 @@ export const spokesBatch50Misc: SpokePage[] = [
     internalLinks: [
       { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
       { label: '쌍방폭행 합의 작성법', href: '/guide/assault/assault-mutual-fight-settlement-amount' },
-      { label: '상해 의료 진단서 입증', href: '/guide/assault/assault-injury-medical-evidence' },
-      { label: '폭행 민사 손해배상 청구', href: '/guide/assault/assault-civil-damages-claim' },
-      { label: '형사조정 절차 안내', href: '/guide/assault/assault-criminal-mediation' },
+      { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
+      { label: '폭행 형사고소 vs 민사소송 비교', href: '/guide/assault/assault-criminal-vs-civil-claim' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
     ],
   },
 
@@ -335,10 +335,10 @@ export const spokesBatch50Misc: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/guide/assault' },
     internalLinks: [
       { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
-      { label: '상해 의료 진단서 입증', href: '/guide/assault/assault-injury-medical-evidence' },
-      { label: '폭행 민사 손해배상 청구', href: '/guide/assault/assault-civil-damages-claim' },
+      { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
+      { label: '폭행 형사고소 vs 민사소송 비교', href: '/guide/assault/assault-criminal-vs-civil-claim' },
       { label: '쌍방폭행 합의 작성법', href: '/guide/assault/assault-mutual-fight-settlement-amount' },
-      { label: '형사조정 절차 안내', href: '/guide/assault/assault-criminal-mediation' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
     ],
   },
 
@@ -417,11 +417,11 @@ export const spokesBatch50Misc: SpokePage[] = [
     ],
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비 산정 기준표 가이드', href: '/guide/child-support/child-support-amount-calculation-guide' },
-      { label: '양육비 미지급 강제집행', href: '/guide/child-support/child-support-execution-non-payment' },
+      { label: '양육비 산정 기준과 증액 청구 방법', href: '/guide/child-support/child-support-calculation-increase' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
       { label: '비양육친 외국 거주 회수', href: '/guide/child-support/child-support-foreign-spouse-collection' },
-      { label: '가정법원 양육비 조정 절차', href: '/guide/child-support/child-support-court-mediation' },
-      { label: '양육비이행관리원 신청 안내', href: '/guide/child-support/child-support-csa-procedure-guide' },
+      { label: '양육비 직접지급명령 가정법원', href: '/guide/child-support/child-support-direct-payment-order-family-court-no-csa-track' },
+      { label: '양육비 연체 급여 압류', href: '/guide/child-support/child-support-overdue-salary-seizure-procedure' },
     ],
   },
 ];

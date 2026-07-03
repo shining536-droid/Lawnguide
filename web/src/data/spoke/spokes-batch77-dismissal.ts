@@ -86,8 +86,8 @@ export const spokesBatch77Dismissal: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
-      { label: '기간제 갱신거절', href: '/guide/dismissal/dismissal-fixed-term-renewal-refusal' },
-      { label: '사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '기간제 갱신기대권 갱신거절 부당해고 판단', href: '/guide/dismissal/dismissal-fixed-term-renewal-expectation-refusal-track' },
+      { label: '권고사직 사인 후 철회 의사표시 하자', href: '/guide/dismissal/dismissal-resignation-after-recommendation-revoke' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
     ],
   },
@@ -169,8 +169,8 @@ export const spokesBatch77Dismissal: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
-      { label: '기간제 갱신거절', href: '/guide/dismissal/dismissal-fixed-term-renewal-refusal' },
-      { label: '사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '기간제 갱신기대권 부당해고', href: '/guide/dismissal/dismissal-fixed-term-renewal-refusal-track' },
+      { label: '권고사직 동의서 사직서 철회', href: '/guide/dismissal/dismissal-resignation-letter-signed-revoke-window' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
     ],
   },
@@ -252,8 +252,8 @@ export const spokesBatch77Dismissal: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
-      { label: '기간제 갱신거절', href: '/guide/dismissal/dismissal-fixed-term-renewal-refusal' },
-      { label: '사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '기간제 갱신기대권 갱신거절 부당해고 판단', href: '/guide/dismissal/dismissal-fixed-term-renewal-expectation-refusal-track' },
+      { label: '사직서 강요 후 수리 사실상 해고', href: '/guide/dismissal/dismissal-resignation-pressure-letter-coerced-acceptance-track' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
     ],
   },
@@ -335,8 +335,8 @@ export const spokesBatch77Dismissal: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
-      { label: '기간제 갱신거절', href: '/guide/dismissal/dismissal-fixed-term-renewal-refusal' },
-      { label: '사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '기간제 갱신기대권 부당해고', href: '/guide/dismissal/dismissal-fixed-term-renewal-refusal-track' },
+      { label: '권고사직 거부 후 압박 해고', href: '/guide/dismissal/dismissal-recommended-resignation-refused-pressure' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
     ],
   },

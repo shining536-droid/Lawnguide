@@ -85,11 +85,11 @@ export const spokesBatch68Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: '복직 시 원직 박탈', href: '/guide/dismissal/dismissal-leave-return-position-deprived' },
       { label: '권고사직 거부 압박', href: '/guide/dismissal/dismissal-recommended-resignation-refused-pressure' },
-      { label: '해고 증거 수집', href: '/guide/dismissal/dismissal-evidence-collection' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '부당해고 증거 수집 방법', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 
@@ -168,11 +168,11 @@ export const spokesBatch68Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: '회사 합병과 직무 폐지', href: '/guide/dismissal/dismissal-company-merger-position-loss' },
       { label: '협력업체 합병 정리해고 방어', href: '/guide/dismissal/dismissal-cooperation-merger-redundancy-defense' },
-      { label: '해고 증거 수집', href: '/guide/dismissal/dismissal-evidence-collection' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '부당해고 증거 수집 방법', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 
@@ -251,11 +251,11 @@ export const spokesBatch68Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: '사업장 폐쇄와 정리해고', href: '/guide/dismissal/dismissal-workplace-closure-layoff' },
       { label: '정리해고 50일 협의 위반', href: '/guide/dismissal/dismissal-collective-redundancy-50days-consultation-violation' },
       { label: '구조조정 부당 기준', href: '/guide/dismissal/dismissal-restructuring-unfair-criteria' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 
@@ -334,7 +334,7 @@ export const spokesBatch68Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: '병가 중 해고', href: '/guide/dismissal/dismissal-during-sick-leave' },
       { label: '병가 복귀 후 해고', href: '/guide/dismissal/dismissal-sick-leave-return-fired' },
       { label: '저성과자 해고 방어', href: '/guide/dismissal/dismissal-low-performance-defense' },
@@ -417,11 +417,11 @@ export const spokesBatch68Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: '노조 활동 보복 해고', href: '/guide/dismissal/dismissal-union-activity-retaliation' },
       { label: '노조 가입·활동 해고', href: '/guide/dismissal/dismissal-union-membership-activity-cause' },
       { label: '하위 등급 평가 해고', href: '/guide/dismissal/dismissal-evaluation-rank-bottom-firing-track' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 ];

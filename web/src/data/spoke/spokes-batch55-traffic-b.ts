@@ -84,9 +84,9 @@ export const spokesBatch55TrafficB: SpokePage[] = [
     internalLinks: [
       { label: '교통사고 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim-settlement' },
       { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
-      { label: '교통사고 신체감정 절차', href: '/guide/traffic-accident/traffic-accident-physical-examination' },
-      { label: '교통사고 노동능력상실률', href: '/guide/traffic-accident/traffic-accident-labor-capacity-loss' },
-      { label: '교통사고 손해배상 시효', href: '/guide/traffic-accident/traffic-accident-damages-statute' },
+      { label: '자전거 전동킥보드 사고 보상', href: '/guide/traffic-accident/traffic-accident-bicycle-escooter-liability-range' },
+      { label: '운전 중 의식 소실 사고', href: '/guide/traffic-accident/traffic-accident-driver-sudden-loss-consciousness-track' },
+      { label: '자전거 보행자 가해 책임', href: '/guide/traffic-accident/traffic-accident-bicycle-hits-pedestrian-liability' },
     ],
   },
 
@@ -165,10 +165,10 @@ export const spokesBatch55TrafficB: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 형사합의 가이드', href: '/guide/traffic-accident/traffic-accident-criminal-settlement-guide' },
-      { label: '교통사고 민사손해배상 절차', href: '/guide/traffic-accident/traffic-accident-civil-damages-procedure' },
-      { label: '자동차보험 분쟁조정 신청', href: '/guide/traffic-accident/traffic-accident-insurance-dispute' },
-      { label: '교통사고 위자료 산정', href: '/guide/traffic-accident/traffic-accident-consolation-money' },
+      { label: '백색실선 침범 교통사고 형사처벌 여부 3가지 기준', href: '/guide/traffic-accident/traffic-accident-lane-violation-criminal-penalty' },
+      { label: '교통사고 형사 민사 절차 비교', href: '/guide/traffic-accident/traffic-accident-criminal-civil-procedure' },
+      { label: '자동차 침수 보험금 분쟁', href: '/guide/traffic-accident/traffic-accident-vehicle-flood-damage-insurance-dispute-track' },
+      { label: '자전거 야간 라이트 없이 충돌', href: '/guide/traffic-accident/traffic-accident-bicycle-night-light-collision-track' },
       { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
     ],
   },

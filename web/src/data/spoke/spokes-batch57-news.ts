@@ -175,8 +175,8 @@ export const spokesBatch57News: SpokePage[] = [
       { label: '상여금 퇴직금 포함 기준', href: '/guide/retirement/retirement-bonus-included-calculation' },
       { label: 'TAI/OPI 임금성 점검', href: '/guide/wage/wage-tai-opi-supreme-court-ruling-2026' },
       { label: '식대·자가운전보조금 통상임금', href: '/guide/wage/wage-self-driving-allowance-ordinary-wage' },
-      { label: '퇴직금 미지급 신고 절차', href: '/guide/retirement/retirement-unpaid-report-procedure' },
-      { label: '평균임금 재산정 절차', href: '/guide/retirement/retirement-average-wage-recalculation' },
+      { label: '퇴직금 미지급 신고 절차 4단계 타임라인', href: '/guide/retirement/unpaid-retirement-report-procedure' },
+      { label: '상여 평균임금 산입 퇴직금 재산정 채권보호', href: '/guide/retirement/retirement-average-wage-bonus-inclusion-recalculation-track' },
     ],
   },
 
@@ -257,9 +257,9 @@ export const spokesBatch57News: SpokePage[] = [
     internalLinks: [
       { label: '스토킹 잠정조치 신청', href: '/guide/stalking/stalking-emergency-protective-measures' },
       { label: '스토킹 증거 수집', href: '/guide/stalking/stalking-evidence-collection-faq' },
-      { label: '전 연인 지속 연락 대응', href: '/guide/stalking/stalking-ex-persistent-contact' },
+      { label: '전 연인 계속 연락 법적 대응', href: '/guide/stalking/ex-persistent-contact-legal-action' },
       { label: '24시간 지속 추적 형사', href: '/guide/stalking/stalking-repeat-following-criminal-2025' },
-      { label: '스토킹 접근금지 위반', href: '/guide/stalking/stalking-protective-order-violation' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
     ],
   },
 
@@ -339,9 +339,9 @@ export const spokesBatch57News: SpokePage[] = [
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
       { label: '스토킹 입건 후 대응', href: '/guide/stalking/stalking-accused-response' },
-      { label: '잠정조치 위반 처벌', href: '/guide/stalking/stalking-protective-order-violation' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
       { label: '피해자 미인지 스토킹', href: '/guide/stalking/stalking-no-victim-awareness-supreme-2025' },
-      { label: '스토킹 합의 시기', href: '/guide/stalking/stalking-settlement-timing' },
+      { label: '스토킹 고소하면 바로 구속되나요', href: '/guide/stalking/does-filing-lead-to-immediate-arrest' },
       { label: '스토킹 접근 금지', href: '/guide/stalking/stalking-emergency-protective-measures' },
     ],
   },
@@ -421,11 +421,11 @@ export const spokesBatch57News: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제 절차', href: '/guide/dismissal/dismissal-unfair-relief' },
-      { label: '하청 부당해고 원청 책임', href: '/guide/dismissal/dismissal-no-contract-remedies' },
+      { label: '부당해고 구제신청 절차와 기간', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
+      { label: '근로계약서 미작성 근로자 권리 구제', href: '/guide/dismissal/no-employment-contract-remedies' },
       { label: '쟁의 손해배상 분담', href: '/guide/wage/wage-yellow-envelope-claim-expansion-2026' },
-      { label: '해고일 3개월 시효', href: '/guide/dismissal/dismissal-three-month-deadline' },
-      { label: '금전보상명령', href: '/guide/dismissal/dismissal-monetary-compensation-order' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -505,7 +505,7 @@ export const spokesBatch57News: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '노란봉투법 부당해고', href: '/guide/dismissal/dismissal-yellow-envelope-act-2026' },
-      { label: '쟁의행위 정당성 판단', href: '/guide/wage/wage-strike-legality' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
       { label: 'TAI/OPI 임금성 점검', href: '/guide/wage/wage-tai-opi-supreme-court-ruling-2026' },
       { label: '임금체불 노동청 진정', href: '/guide/wage/wage-payslip-nondelivery-report' },
       { label: '2026 최저임금 적용', href: '/guide/wage/wage-minimum-2026-10320-explained' },
@@ -589,7 +589,7 @@ export const spokesBatch57News: SpokePage[] = [
     internalLinks: [
       { label: '2026 최저임금 월급 환산', href: '/guide/wage/wage-minimum-2026-monthly-calculation' },
       { label: '식대 통상임금 산입', href: '/guide/wage/wage-self-driving-allowance-ordinary-wage' },
-      { label: '주휴수당 미지급 청구', href: '/guide/wage/wage-weekly-holiday-pay' },
+      { label: '주휴수당 안 줄 때 청구 방법', href: '/guide/wage/weekly-holiday-pay-claim-guide' },
       { label: '임금체불 노동청 진정', href: '/guide/wage/wage-payslip-nondelivery-report' },
       { label: 'TAI/OPI 임금성 점검', href: '/guide/wage/wage-tai-opi-supreme-court-ruling-2026' },
     ],
@@ -671,7 +671,7 @@ export const spokesBatch57News: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '2026 최저임금 차액 청구', href: '/guide/wage/wage-minimum-2026-10320-explained' },
-      { label: '주휴수당 미지급', href: '/guide/wage/wage-weekly-holiday-pay' },
+      { label: '주휴수당 안 줄 때 청구 방법', href: '/guide/wage/weekly-holiday-pay-claim-guide' },
       { label: '식대 통상임금 산입', href: '/guide/wage/wage-self-driving-allowance-ordinary-wage' },
       { label: '연장수당 정확 계산', href: '/guide/wage/wage-night-overtime-exact-calculation' },
       { label: '임금체불 노동청 진정', href: '/guide/wage/wage-payslip-nondelivery-report' },

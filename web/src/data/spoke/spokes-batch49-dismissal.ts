@@ -172,7 +172,7 @@ export const spokesBatch49Dismissal: SpokePage[] = [
       { label: '권고사직 함정 회피 가이드', href: '/guide/dismissal/dismissal-recommended-resign-trap' },
       { label: '정년 임박 해고 잔여임금 청구', href: '/guide/dismissal/dismissal-near-retirement-age-fired-claim' },
       { label: '구두 해고 서면 미통지 무효', href: '/guide/dismissal/dismissal-verbal-only-no-document' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -255,7 +255,7 @@ export const spokesBatch49Dismissal: SpokePage[] = [
       { label: '구제신청 3개월 도과 민사 전환', href: '/guide/dismissal/dismissal-relief-period-expired-civil-route' },
       { label: '5인 미만 부당해고 우회 경로', href: '/guide/dismissal/dismissal-under-five-employees-relief-paths' },
       { label: '경영상 정리해고 기준 다툼', href: '/guide/dismissal/dismissal-restructuring-unfair-criteria' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -338,7 +338,7 @@ export const spokesBatch49Dismissal: SpokePage[] = [
       { label: '권고사직 강요 사직서 무효', href: '/guide/dismissal/dismissal-forced-resignation-letter-invalidation' },
       { label: '정년 임박 해고 잔여임금 청구', href: '/guide/dismissal/dismissal-near-retirement-age-fired-claim' },
       { label: '시용 본채용 거부 기대권', href: '/guide/dismissal/dismissal-trial-period-fired-confirmation-right' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -421,7 +421,7 @@ export const spokesBatch49Dismissal: SpokePage[] = [
       { label: '계약직 갱신거부 기대권 다툼', href: '/guide/dismissal/dismissal-contract-renewal-expectation-relief' },
       { label: '구두 해고 서면 미통지 무효', href: '/guide/dismissal/dismissal-verbal-only-no-document' },
       { label: '출산휴가 후 복직 거부 다툼', href: '/guide/dismissal/dismissal-pregnancy-rehire-rejected-relief' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 ];

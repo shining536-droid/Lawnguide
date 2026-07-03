@@ -285,7 +285,7 @@ export const spokesBatch23_22to28: SpokePage[] = [
       { label: '직장 성희롱 신고 절차 5단계', href: '/guide/sexual-harassment/workplace-harassment-report-procedure' },
       { label: '회식 중 신체 접촉 성희롱 대응', href: '/guide/sexual-harassment/physical-contact-at-company-dinner' },
       { label: '성희롱 무고 대응법', href: '/guide/sexual-harassment/harassment-false-accusation-defense' },
-      { label: '성희롱 합의금 기준과 합의서', href: '/guide/sexual-harassment/sexual-harassment-settlement' },
+      { label: '성희롱 합의 절차 주의사항', href: '/guide/sexual-harassment/harassment-settlement-procedure' },
     ],
   },
 
@@ -482,8 +482,8 @@ export const spokesBatch23_22to28: SpokePage[] = [
       { label: '소액소송 자주 묻는 질문 총정리', href: '/guide/small-claims/small-claims-faq-guide' },
       { label: '소장 제출부터 판결까지 6단계', href: '/guide/small-claims/complaint-to-judgment-full-procedure' },
       { label: '돈 빌려줬는데 안 갚을 때 소송', href: '/guide/small-claims/lending-money-not-returned-lawsuit' },
-      { label: '물품대금 미지급 대응 방법', href: '/guide/small-claims/goods-payment-not-received' },
-      { label: '사기죄 고소 전 준비할 것', href: '/guide/fraud/fraud-evidence-checklist' },
+      { label: '소액사건재판 종합 가이드', href: '/guide/small-claims' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 ];

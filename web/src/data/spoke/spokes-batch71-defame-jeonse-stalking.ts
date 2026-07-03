@@ -91,7 +91,7 @@ export const spokesBatch71DefameJeonseStalking: SpokePage[] = [
       { label: '온라인 삭제 가처분', href: '/guide/defamation/defamation-online-false-deletion-injunction' },
       { label: '익명 게시판 IP 추적', href: '/guide/defamation/defamation-anonymous-board-ip-tracking' },
       { label: '손해배상 산정', href: '/guide/defamation/defamation-damages-amount-standard' },
-      { label: '리뷰 폭탄 영업방해', href: '/guide/defamation/defamation-anonymous-review-bombing-business-victim' },
+      { label: '잡플래닛 블라인드 익명 후기 회사 명예훼손 고소', href: '/guide/defamation/defamation-employee-glassdoor-style-anonymous-review-company-accused-track' },
     ],
   },
 

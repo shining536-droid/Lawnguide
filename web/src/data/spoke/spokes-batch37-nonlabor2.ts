@@ -94,7 +94,7 @@ export const spokesBatch37Nonlabor2: SpokePage[] = [
     internalLinks: [
       { label: '개인파산 신청 전 점검', href: '/guide/bankruptcy' },
       { label: '파산 면책 절차 가이드', href: '/guide/bankruptcy' },
-      { label: '파산·회생 중 선택', href: '/guide/rehabilitation/bankruptcy-vs-rehabilitation-comparison' },
+      { label: '개인회생 종합 가이드', href: '/guide/rehabilitation' },
       { label: '상속 채무 면책 가이드', href: '/guide/bankruptcy/bankruptcy-inheritance-debt-discharge-guide' },
       { label: '파산 후 신용 회복', href: '/guide/bankruptcy' },
     ],

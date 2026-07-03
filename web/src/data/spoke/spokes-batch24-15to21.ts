@@ -604,9 +604,9 @@ export const spokesBatch24_15to21: SpokePage[] = [
     internalLinks: [
       { label: '사기 민사소송 절차 안내', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
       { label: '사기죄 고소 절차 개요', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
-      { label: '사기 신고 증거 체크리스트', href: '/guide/fraud/fraud-report-evidence-checklist' },
-      { label: '사기 합의 협상 가이드', href: '/guide/fraud/fraud-settlement-negotiation-guide' },
-      { label: '온라인 사기 증거 보전 방법', href: '/guide/fraud/online-fraud-evidence-preservation' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 혐의 방어 전략 총정리', href: '/guide/fraud/fraud-accused-defense-strategy-guide' },
+      { label: '투자 사기 피해 증거 모으는 법', href: '/guide/fraud/investment-fraud-evidence-collection' },
     ],
   },
 ];

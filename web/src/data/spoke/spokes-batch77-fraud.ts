@@ -88,9 +88,9 @@ export const spokesBatch77Fraud: SpokePage[] = [
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '중고차 주행거리 조작 사기', href: '/guide/fraud/fraud-used-car-odometer-rollback' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '차용증 있는 사기 민사 구분', href: '/guide/fraud/fraud-loan-with-promissory-note-criminal-civil' },
     ],
   },
 
@@ -171,9 +171,9 @@ export const spokesBatch77Fraud: SpokePage[] = [
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '온라인 사기 피해 환급', href: '/guide/fraud/fraud-online-shopping-fake-store-recovery' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기 형사 부대 배상명령', href: '/guide/fraud/fraud-victim-criminal-attached-civil-claim' },
     ],
   },
 
@@ -255,8 +255,8 @@ export const spokesBatch77Fraud: SpokePage[] = [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '보이스피싱 수금책 방어', href: '/guide/fraud/fraud-voice-phishing-money-mule-defense' },
       { label: '대포통장 가담 방어', href: '/guide/fraud/fraud-money-mule-accused-defense' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -338,8 +338,8 @@ export const spokesBatch77Fraud: SpokePage[] = [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '투자 다단계 피해 환수', href: '/guide/fraud/fraud-mlm-investment-recovery' },
       { label: '유사수신 투자 피해', href: '/guide/fraud/fraud-investment-mlm-structure' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -420,9 +420,9 @@ export const spokesBatch77Fraud: SpokePage[] = [
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '가족 명의 휴대폰 개통 사기', href: '/guide/fraud/fraud-family-mobile-line-identity-theft-installment-track' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '투자 사기 형사고소 민사소송 비교', href: '/guide/fraud/investment-fraud-criminal-vs-civil' },
     ],
   },
 
@@ -504,8 +504,8 @@ export const spokesBatch77Fraud: SpokePage[] = [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '게임 아이템 계정 회수 사기', href: '/guide/fraud/fraud-game-item-account-reclaim-track' },
       { label: '중고거래 사기 대응', href: '/guide/fraud/fraud-second-hand-goods-noshow-platform' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 ];

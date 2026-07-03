@@ -88,7 +88,7 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
-      { label: '임차권등기명령 신청 절차', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전세보증금 반환 종합 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
       { label: '묵시적 갱신 종료 절차', href: '/guide/jeonse/jeonse-implicit-renewal-termination' },
       { label: '묵시적 갱신 중개수수료 부담', href: '/guide/jeonse/jeonse-implicit-renewal-broker-fee-burden' },
@@ -172,10 +172,10 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '전세보증금 반환 종합 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
-      { label: '임차권등기명령 신청 절차', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전세 원상복구 범위 정리', href: '/guide/jeonse/jeonse-implicit-renewal-termination' },
       { label: '임대차분쟁조정 활용', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
-      { label: '소액 보증금 반환소송', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '전세 일부 보증금 반환', href: '/guide/jeonse/jeonse-partial-deposit-return-response' },
     ],
   },
 
@@ -254,10 +254,10 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹 신고 절차 안내', href: '/guide/stalking/stalking-report-procedure' },
-      { label: '잠정조치·접근금지 신청', href: '/guide/stalking/stalking-temporary-measures' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
+      { label: '스토킹 피해자 긴급응급조치와 잠정조치 신청', href: '/guide/stalking/stalking-emergency-protective-measures' },
       { label: '헤어진 연인 반복 접근 대응', href: '/guide/stalking/stalking-ex-lover-court-approach-ban' },
-      { label: '스토킹 처벌 수위와 양형', href: '/guide/stalking/stalking-penalty-overview' },
+      { label: '스토킹 처벌 기준과 접근금지 신청 방법', href: '/guide/stalking/stalking-penalty-restraining-order' },
       { label: '디지털 증거 보전 절차', href: '/guide/stalking/stalking-evidence-collection-faq' },
     ],
   },
@@ -337,10 +337,10 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹 신고 절차 안내', href: '/guide/stalking/stalking-report-procedure' },
-      { label: '잠정조치·접근금지 신청', href: '/guide/stalking/stalking-temporary-measures' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
+      { label: '스토킹 긴급응급조치 요청', href: '/guide/stalking/emergency-protective-measures' },
       { label: '직장 동료 스토킹 대응', href: '/guide/stalking/stalking-coworker-repeated-approach' },
-      { label: '스토킹 처벌 수위와 양형', href: '/guide/stalking/stalking-penalty-overview' },
+      { label: '스토킹 처벌 기준과 접근금지 신청 방법', href: '/guide/stalking/stalking-penalty-restraining-order' },
       { label: '스토킹 증거 수집 가이드', href: '/guide/stalking/stalking-evidence-collection-faq' },
     ],
   },
@@ -421,10 +421,10 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행죄 합의금 산정 기준', href: '/guide/assault/assault-settlement-amount-guide' },
-      { label: '폭행 형사조정 절차', href: '/guide/assault/assault-criminal-mediation' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '단체 폭행 가담 책임', href: '/guide/assault/assault-group-attack-joint-liability' },
       { label: '정당방위 인정 절차', href: '/guide/assault/assault-self-defense-recognition' },
-      { label: '폭행죄 양형 기준', href: '/guide/assault/assault-sentencing-criteria' },
+      { label: '동아리 집단폭행 양형 합의', href: '/guide/assault/assault-club-group-collective-sentencing' },
     ],
   },
 
@@ -503,11 +503,11 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
-      { label: '폭행 양형 기준 정리', href: '/guide/assault/assault-sentencing-criteria' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '폭행 합의금 산정', href: '/guide/assault/assault-settlement-amount-guide' },
-      { label: '폭행 형사조정 활용', href: '/guide/assault/assault-criminal-mediation' },
-      { label: '폭행 초범 양형 감경', href: '/guide/assault/assault-first-offense-mitigation' },
-      { label: '국선변호인 신청 절차', href: '/guide/assault/assault-public-defender-procedure' },
+      { label: '외국인 폭행 피해 통역 형사', href: '/guide/assault/assault-foreign-victim-translator-criminal' },
+      { label: '폭행 초범 처벌', href: '/guide/assault/assault-first-offense-penalty' },
+      { label: '폭행 피해 직후 증거 확보 절차', href: '/guide/assault/assault-evidence-collection-procedure' },
     ],
   },
 
@@ -586,11 +586,11 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     ],
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비이행관리원 추심 절차', href: '/guide/child-support/child-support-agency-collection-procedure' },
+      { label: '양육비이행관리원 추심 한계', href: '/guide/child-support/child-support-agency-collection-limits' },
       { label: '양육비 이행명령 신청', href: '/guide/child-support/child-support-enforcement-order-apply' },
-      { label: '양육비 감치명령 절차', href: '/guide/child-support/child-support-detention-order' },
-      { label: '양육비 직접지급 vs 이행관리원 비교', href: '/guide/child-support/child-support-direct-vs-agency-comparison' },
-      { label: '양육비 미지급 종합 대응', href: '/guide/child-support/child-support-non-payment-comprehensive' },
+      { label: '양육비 미지급 감치명령 신청', href: '/guide/child-support/child-support-detention-order-3-times-unpaid' },
+      { label: '양육비 직접지급명령 사용자 거부', href: '/guide/child-support/child-support-direct-payment-employer-refusal' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
     ],
   },
 
@@ -670,10 +670,10 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육비 산정기준표 적용', href: '/guide/child-support/child-support-calculation-table' },
-      { label: '양육비 변경심판 절차', href: '/guide/child-support/child-support-modification-procedure' },
-      { label: '양육비 미지급 종합 대응', href: '/guide/child-support/child-support-non-payment-comprehensive' },
+      { label: '양육비 감액 증액 수입 변동', href: '/guide/child-support/child-support-modification-employer-income-change' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
       { label: '양육비 직접지급명령 신청', href: '/guide/child-support/child-support-direct-payment-order-procedure' },
-      { label: '양육비이행관리원 무료 지원', href: '/guide/child-support/child-support-agency-collection-procedure' },
+      { label: '양육비이행관리원 추심 한계', href: '/guide/child-support/child-support-agency-collection-limits' },
     ],
   },
 ];

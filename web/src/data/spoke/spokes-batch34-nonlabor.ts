@@ -304,10 +304,10 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     cta: { text: '회전교차로 사고 과실비율 AI 분석', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '교통사고 합의 절차', href: '/guide/traffic-accident/accident-settlement-process' },
-      { label: '보험사 보상 요령', href: '/guide/traffic-accident/traffic-insurance-claim-guide' },
-      { label: '음주운전 사고 대응', href: '/guide/dui/dui-accident-victim-compensation' },
-      { label: '교통사고 형사합의', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
-      { label: '교통사고 증거 확보', href: '/guide/traffic-accident/traffic-accident-evidence-collection' },
+      { label: '건강보험 급여 후 책임보험금 대위 피해자 청구', href: '/guide/traffic-accident/traffic-accident-health-insurance-subrogation-liability-claim-track' },
+      { label: '음주운전 사고 피해자인데 과실 있다고 할 때', href: '/guide/dui/dui-accident-victim-fault-dispute' },
+      { label: '어린이보호구역 12대 중과실 형사 보험 면책', href: '/guide/traffic-accident/traffic-accident-child-zone-12-major-criminal-insurance-block' },
+      { label: '블랙박스 변조 의심', href: '/guide/traffic-accident/traffic-accident-dashcam-altered-evidence-track' },
     ],
   },
 
@@ -378,10 +378,10 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     cta: { text: '대중교통 사고 보상 전략 AI 분석', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '교통사고 합의 절차', href: '/guide/traffic-accident/accident-settlement-process' },
-      { label: '교통사고 증거 확보', href: '/guide/traffic-accident/traffic-accident-evidence-collection' },
-      { label: '보험사 보상 요령', href: '/guide/traffic-accident/traffic-insurance-claim-guide' },
-      { label: '교통사고 형사합의', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
-      { label: '음주운전 사고 대응', href: '/guide/dui/dui-accident-victim-compensation' },
+      { label: '블랙박스 증거 활용 교통사고', href: '/guide/traffic-accident/traffic-accident-dashcam-evidence-guide' },
+      { label: '교통사고 보험금 청구 절차 총정리', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
+      { label: '어린이보호구역 12대 중과실 형사', href: '/guide/traffic-accident/traffic-accident-child-zone-12-major-faults-criminal' },
+      { label: '음주사고 보행자 피해 보상 체크리스트', href: '/guide/dui/dui-pedestrian-victim-compensation' },
     ],
   },
 
@@ -451,11 +451,11 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     ],
     cta: { text: '할부금융 사기 구제 전략 AI 분석', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 피해 증거 수집', href: '/guide/fraud/fraud-victim-evidence-guide' },
-      { label: '사기 합의 절차', href: '/guide/fraud/fraud-settlement-amount-guide' },
-      { label: '중고거래 사기 대응', href: '/guide/fraud/used-trading-fraud-response' },
-      { label: '보이스피싱 대응', href: '/guide/fraud/voice-phishing-victim-response' },
-      { label: '투자 사기 대응', href: '/guide/fraud/investment-fraud-recovery-steps' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '위탁판매 대금 정산 지연 사기 무고 방어', href: '/guide/fraud/fraud-consignment-sale-settlement-delay-falsely-accused-defense' },
+      { label: '대출사기 피싱 당했을 때 대처법', href: '/guide/fraud/loan-fraud-response-guide' },
+      { label: '보이스피싱 피해 발생 시 즉시 대응법', href: '/guide/fraud/voice-phishing-immediate-response' },
+      { label: '중고거래 지급정지 복구', href: '/guide/fraud/fraud-account-freeze-recovery-steps' },
     ],
   },
 
@@ -525,11 +525,11 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     ],
     cta: { text: '보증금 사기 피해 구제 AI 분석', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 피해 증거 수집', href: '/guide/fraud/fraud-victim-evidence-guide' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '전세보증금 반환 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
-      { label: '사기 합의 절차', href: '/guide/fraud/fraud-settlement-amount-guide' },
-      { label: '보이스피싱 대응', href: '/guide/fraud/voice-phishing-victim-response' },
-      { label: '투자 사기 대응', href: '/guide/fraud/investment-fraud-recovery-steps' },
+      { label: '사기 공탁 합의 차이', href: '/guide/fraud/fraud-deposit-vs-settlement-difference' },
+      { label: '보이스피싱 피해 발생 시 즉시 대응법', href: '/guide/fraud/voice-phishing-immediate-response' },
+      { label: '다단계 투자 환수', href: '/guide/fraud/fraud-mlm-investment-recovery' },
     ],
   },
 
@@ -677,7 +677,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       { label: '개인회생 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
       { label: '개인회생 절차 안내', href: '/guide/rehabilitation/rehabilitation-application-procedure-atoz' },
       { label: '이혼 재산분할 기준', href: '/guide/divorce/divorce-property-division-comprehensive' },
-      { label: '소액 소송 절차', href: '/guide/small-claims/small-claims-lawsuit-guide' },
+      { label: '소액소송 자주 묻는 질문과 절차 총정리', href: '/guide/small-claims/small-claims-faq-guide' },
     ],
   },
 
@@ -748,10 +748,10 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     cta: { text: '임대인 변경 보증금 보호 AI 분석', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '전세보증금 반환 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
-      { label: '임차권등기명령 절차', href: '/guide/jeonse/jeonse-registration-order-procedure' },
-      { label: '전세사기 예방 가이드', href: '/guide/jeonse/jeonse-fraud-prevention-checklist' },
-      { label: '소액임차인 보호', href: '/guide/jeonse/small-deposit-tenant-protection' },
-      { label: '경매 보증금 배당', href: '/guide/jeonse/jeonse-auction-distribution-guide' },
+      { label: '임차권등기명령 신청 절차와 비용', href: '/guide/jeonse/lease-registration-order-process' },
+      { label: '주택임대차 종합 가이드', href: '/guide/jeonse' },
+      { label: '경매 소액임차인 최우선변제', href: '/guide/jeonse/jeonse-auction-small-deposit-priority-repay' },
+      { label: '전세 경매 우선변제 배당요구', href: '/guide/jeonse/jeonse-auction-priority-distribution-procedure' },
     ],
   },
 
@@ -826,9 +826,9 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     ],
     cta: { text: '층간소음 법적 대응 전략 AI 분석', link: '/chat?domain=neighbor-dispute' },
     internalLinks: [
-      { label: '층간소음 법적 대응', href: '/guide/neighbor-dispute/floor-noise-legal-action-guide' },
+      { label: '반려동물 소음 악취 법적 대응', href: '/guide/neighbor-dispute/pet-noise-smell-legal-action' },
       { label: '층간소음 증거 확보', href: '/guide/neighbor-dispute/neighbor-noise-evidence-app-recording' },
-      { label: '소액 소송 절차', href: '/guide/small-claims/small-claims-lawsuit-guide' },
+      { label: '소액소송 온라인 접수 방법 총정리', href: '/guide/small-claims/small-claims-online-filing-guide' },
       { label: '이웃 분쟁 해결', href: '/guide/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
       { label: 'CCTV 사생활 분쟁', href: '/guide/neighbor-dispute/neighbor-cctv-privacy-dispute' },
     ],

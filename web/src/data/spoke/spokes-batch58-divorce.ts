@@ -339,7 +339,7 @@ export const spokesBatch58Divorce: SpokePage[] = [
     internalLinks: [
       { label: '협의이혼 양육 합의서', href: '/guide/divorce/custody-agreement-prep' },
       { label: '양육비 산정기준표', href: '/guide/divorce/child-support-calculation-standard' },
-      { label: '양육비 미지급 감치명령', href: '/guide/divorce/child-support-enforcement-contempt-order' },
+      { label: '양육비 무재산 강제집행', href: '/guide/divorce/divorce-child-support-no-asset-enforcement' },
       { label: '협의이혼 절차', href: '/guide/divorce/consensual-divorce-process' },
       { label: '재판이혼 vs 협의이혼', href: '/guide/divorce/consensual-vs-trial-divorce' },
     ],

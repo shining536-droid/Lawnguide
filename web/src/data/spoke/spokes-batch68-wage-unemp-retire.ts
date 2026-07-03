@@ -85,11 +85,11 @@ export const spokesBatch68WageUnempRetire: SpokePage[] = [
     ],
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
-      { label: '임금체불 신고', href: '/guide/wage/wage-unpaid-complaint-procedure' },
-      { label: '임금 시효', href: '/guide/wage/wage-claim-statute-of-limitations' },
+      { label: '임금체불 형사고소 절차', href: '/guide/wage/unpaid-wage-criminal-complaint-procedure' },
+      { label: '임금체불 1년 경과 소멸시효', href: '/guide/wage/wage-unpaid-one-year-statute-claim' },
       { label: '징벌 공제 금지', href: '/guide/wage/wage-penalty-deduction-prohibition-claim' },
       { label: '유니폼 비용 공제', href: '/guide/wage/wage-uniform-cost-deducted-illegal' },
-      { label: '간이대지급금', href: '/guide/wage/wage-simplified-replacement-payment' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
     ],
   },
 
@@ -168,11 +168,11 @@ export const spokesBatch68WageUnempRetire: SpokePage[] = [
     ],
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
-      { label: '임금체불 신고', href: '/guide/wage/wage-unpaid-complaint-procedure' },
-      { label: '평균임금 계산', href: '/guide/wage/wage-ordinary-wage-calculation' },
+      { label: '임금체불 형사고소 절차', href: '/guide/wage/unpaid-wage-criminal-complaint-procedure' },
+      { label: '정기상여금 통상임금 산입 임금 판단', href: '/guide/wage/wage-regular-bonus-ordinary-wage-inclusion-track' },
       { label: '대기명령 평균임금', href: '/guide/wage/wage-standby-order-average-wage-restoration' },
       { label: '조기 단축 휴업', href: '/guide/wage/wage-employer-early-dismissal-shutdown-pay' },
-      { label: '임금 시효', href: '/guide/wage/wage-claim-statute-of-limitations' },
+      { label: '체불임금 소멸시효 3년 — 기한 전 반드시 할 일', href: '/guide/wage/unpaid-wage-statute-of-limitations' },
     ],
   },
 
@@ -251,11 +251,11 @@ export const spokesBatch68WageUnempRetire: SpokePage[] = [
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
-      { label: '이직확인서 정정', href: '/guide/unemployment/unemployment-separation-document-correction' },
+      { label: '이직사유 코드 정정 거부 회사 강제', href: '/guide/unemployment/unemployment-separation-code-employer-refuse-correction-track' },
       { label: '권고사직 입증', href: '/guide/unemployment/unemployment-recommended-resign-proof-method' },
       { label: '권고사직 vs 자진퇴사', href: '/guide/unemployment/unemployment-recommendation-vs-resignation-boundary' },
-      { label: '실업급여 이의신청', href: '/guide/unemployment/unemployment-objection-procedure' },
-      { label: '실업급여 수급자격', href: '/guide/unemployment/unemployment-eligibility-requirements' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '계약 갱신 거절 실업급여', href: '/guide/unemployment/unemployment-contract-non-renewal-eligibility' },
     ],
   },
 
@@ -334,8 +334,8 @@ export const spokesBatch68WageUnempRetire: SpokePage[] = [
     ],
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      { label: '평균임금 계산', href: '/guide/retirement/retirement-average-wage-calculation' },
-      { label: '퇴직금 청구 절차', href: '/guide/retirement/retirement-payment-claim-procedure' },
+      { label: '평균임금 산정 기준 퇴직금 판단', href: '/guide/retirement/retirement-pay-average-wage-base-calculation-track' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '퇴직금 일부 지급 합의 무효', href: '/guide/retirement/retirement-partial-payment-agreement-void-5reasons' },
       { label: '포기 합의 무효', href: '/guide/retirement/retirement-waiver-agreement-invalid' },
       { label: '퇴직금 시효', href: '/guide/retirement/retirement-statute-of-limitations' },
@@ -417,8 +417,8 @@ export const spokesBatch68WageUnempRetire: SpokePage[] = [
     ],
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      { label: '평균임금 계산', href: '/guide/retirement/retirement-average-wage-calculation' },
-      { label: '퇴직금 청구 절차', href: '/guide/retirement/retirement-payment-claim-procedure' },
+      { label: '평균임금 산정 퇴직금', href: '/guide/retirement/retirement-average-wage-calculation-track' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '재입사 계속근로', href: '/guide/retirement/retirement-rehire-continuous-service-calculation' },
       { label: '1년 미만 계속근로', href: '/guide/retirement/retirement-under-1-year-continuous-service-claim' },
       { label: '퇴직금 시효', href: '/guide/retirement/retirement-statute-of-limitations' },

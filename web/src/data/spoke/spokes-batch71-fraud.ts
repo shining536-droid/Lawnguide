@@ -90,11 +90,11 @@ export const spokesBatch71Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '라이브 위조품', href: '/guide/fraud/fraud-livestream-counterfeit-purchase' },
       { label: 'SNS 쇼핑 미배송', href: '/guide/fraud/fraud-sns-shopping-no-delivery' },
-      { label: '소비자분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사이버 사기 신고', href: '/guide/fraud/fraud-cyber-complaint-ecrm' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
     ],
   },
 
@@ -178,11 +178,11 @@ export const spokesBatch71Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '사기 시효', href: '/guide/fraud/fraud-statute-of-limitations-period' },
-      { label: '명품 중고거래', href: '/guide/fraud/fraud-secondhand-luxury-purchase' },
-      { label: '소비자분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사이버 사기 신고', href: '/guide/fraud/fraud-cyber-complaint-ecrm' },
+      { label: '중고 명품백 가품 판매 사기', href: '/guide/fraud/fraud-secondhand-luxury-bag-counterfeit-track' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 경찰 증거', href: '/guide/fraud/fraud-complaint-police-key-evidence-5' },
     ],
   },
 
@@ -266,11 +266,11 @@ export const spokesBatch71Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '피해자 어디서부터', href: '/guide/fraud/fraud-victim-where-to-start' },
-      { label: '소비자분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사이버 사기 신고', href: '/guide/fraud/fraud-cyber-complaint-ecrm' },
-      { label: '집단 고소', href: '/guide/fraud/fraud-group-complaint' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
+      { label: 'SNS 명품 공구 사기', href: '/guide/fraud/fraud-sns-luxury-group-buy-track' },
     ],
   },
 
@@ -354,11 +354,11 @@ export const spokesBatch71Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '대출 브로커 선납', href: '/guide/fraud/fraud-loan-broker-upfront-fee-vanish-track' },
       { label: '보이스피싱 환급', href: '/guide/fraud/fraud-voice-phishing-money-laundering-defense' },
       { label: '피해자 어디서부터', href: '/guide/fraud/fraud-victim-where-to-start' },
-      { label: '사이버 사기 신고', href: '/guide/fraud/fraud-cyber-complaint-ecrm' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -442,11 +442,11 @@ export const spokesBatch71Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
-      { label: '명품 중고거래', href: '/guide/fraud/fraud-secondhand-luxury-purchase' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '중고 명품 가품 사기', href: '/guide/fraud/fraud-secondhand-luxury-counterfeit-track' },
       { label: '사기 시효', href: '/guide/fraud/fraud-statute-of-limitations-period' },
-      { label: '소비자분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사이버 사기 신고', href: '/guide/fraud/fraud-cyber-complaint-ecrm' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 무고 방어 무고죄 역고소', href: '/guide/fraud/fraud-falsely-accused-defense-counter-complaint' },
     ],
   },
 ];

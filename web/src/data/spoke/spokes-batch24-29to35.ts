@@ -280,7 +280,7 @@ export const spokesBatch24_29to35: SpokePage[] = [
       { label: '스토킹 피해 어디부터 시작', href: '/guide/stalking/stalking-victim-where-to-start' },
       { label: '전 연인 연락, 스토킹일까', href: '/guide/stalking/ex-keeps-contacting-is-it-stalking' },
       { label: '스토킹 증거 수집 방법', href: '/guide/stalking/stalking-evidence-collection-faq' },
-      { label: '스토킹 보호명령 신청', href: '/guide/stalking/stalking-protection-order-request' },
+      { label: '스토킹 잠정조치 긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
     ],
   },
 
@@ -446,9 +446,9 @@ export const spokesBatch24_29to35: SpokePage[] = [
     internalLinks: [
       { label: '음주운전 형사절차 개요', href: '/guide/dui/dui-criminal-procedure-overview' },
       { label: '음주 교통사고 대응', href: '/guide/dui/dui-traffic-accident-response' },
-      { label: '음주운전 초범 처벌 기준', href: '/guide/dui/dui-first-offense-penalty-guide' },
-      { label: '면허 취소·정지 회복', href: '/guide/dui/dui-license-suspension-reinstatement' },
-      { label: '혈중알코올농도 계산', href: '/guide/dui/dui-blood-alcohol-calculation' },
+      { label: '0.03% 경계 수치 음주운전 초범', href: '/guide/dui/dui-borderline-bac-003-first-offense-track' },
+      { label: '음주 면허정지 이의신청', href: '/guide/dui/dui-license-suspension-objection-track' },
+      { label: '음주 상승기 혈중알코올 처벌', href: '/guide/dui/dui-blood-alcohol-rising-track' },
     ],
   },
 
@@ -530,9 +530,9 @@ export const spokesBatch24_29to35: SpokePage[] = [
     internalLinks: [
       { label: '음주운전 형사절차 개요', href: '/guide/dui/dui-criminal-procedure-overview' },
       { label: '음주 교통사고 대응', href: '/guide/dui/dui-traffic-accident-response' },
-      { label: '혈중알코올농도 계산', href: '/guide/dui/dui-blood-alcohol-calculation' },
-      { label: '음주운전 초범 처벌 기준', href: '/guide/dui/dui-first-offense-penalty-guide' },
-      { label: '면허 취소·정지 회복', href: '/guide/dui/dui-license-suspension-reinstatement' },
+      { label: '혈중알코올 상승기 음주운전 여부', href: '/guide/dui/dui-rising-blood-alcohol-curve-falsely-accused-defense' },
+      { label: '음주운전 초범 처벌 수준과 대응 방법', href: '/guide/dui/dui-first-offense' },
+      { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },
     ],
   },
 ];

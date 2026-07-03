@@ -89,7 +89,7 @@ export const spokesBatch48Traffic: SpokePage[] = [
       { label: '교통사고 12대 중과실 정리', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '야간 무단횡단 보행자 과실', href: '/guide/traffic-accident/traffic-accident-pedestrian-jaywalk-night-fault' },
-      { label: '교통사고 형사합의 절차', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
+      { label: '무단횡단 보행자 사망 가해자 방어', href: '/guide/traffic-accident/traffic-accident-jaywalking-fatal-pedestrian-accused-criminal-civil-track' },
     ],
   },
 
@@ -168,10 +168,10 @@ export const spokesBatch48Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 형사합의 절차', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
+      { label: '백색실선 침범 교통사고 형사처벌 여부 3가지 기준', href: '/guide/traffic-accident/traffic-accident-lane-violation-criminal-penalty' },
       { label: '교통사고 12대 중과실 정리', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
       { label: '졸음운전 사고 형사 처벌', href: '/guide/traffic-accident/traffic-accident-drowsy-driving-criminal-process' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '보복운전 블박 입증', href: '/guide/traffic-accident/traffic-accident-road-rage-blackbox-proof-track' },
       { label: '음주운전 혈액검사 시점 다툼', href: '/guide/traffic-accident/traffic-accident-dui-blood-test-timing' },
     ],
   },
@@ -252,7 +252,7 @@ export const spokesBatch48Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '교통사고 12대 중과실 정리', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
-      { label: '교통사고 형사합의 절차', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
+      { label: '교통사고 가해자 형사처벌 기소 전 대응 4단계', href: '/guide/traffic-accident/traffic-accident-offender-criminal-charge-response' },
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '음주운전 혈액검사 시점 다툼', href: '/guide/traffic-accident/traffic-accident-dui-blood-test-timing' },
       { label: '다중추돌 과실 분쟁', href: '/guide/traffic-accident/traffic-accident-multi-vehicle-pile-up-fault' },
@@ -334,7 +334,7 @@ export const spokesBatch48Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 형사합의 절차', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
+      { label: '보복운전 형사 처벌', href: '/guide/traffic-accident/traffic-accident-revenge-driving-criminal' },
       { label: '졸음운전 사고 형사 처벌', href: '/guide/traffic-accident/traffic-accident-drowsy-driving-criminal-process' },
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '음주운전 혈액검사 시점 다툼', href: '/guide/traffic-accident/traffic-accident-dui-blood-test-timing' },
@@ -418,8 +418,8 @@ export const spokesBatch48Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
-      { label: '손해보험 분쟁조정 신청 방법', href: '/guide/traffic-accident/traffic-accident-insurance-dispute' },
+      { label: '교통사고 과실비율 다툼 방법과 증거 확보', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
+      { label: '자동차 침수 보험금 분쟁', href: '/guide/traffic-accident/traffic-accident-vehicle-flood-damage-insurance-dispute-track' },
       { label: '저속 추돌 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-low-speed-rear-end-aftereffect' },
       { label: '자전거 보행자 충돌 합의', href: '/guide/traffic-accident/traffic-accident-bicycle-pedestrian-settlement' },
     ],

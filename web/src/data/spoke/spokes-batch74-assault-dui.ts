@@ -89,9 +89,9 @@ export const spokesBatch74AssaultDui: SpokePage[] = [
     internalLinks: [
       { label: '폭행 고소 절차', href: '/guide/assault/assault-victim-where-to-start' },
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection-procedure' },
-      { label: '업무상 과실치상', href: '/guide/assault/assault-business-negligence' },
-      { label: '폭행 합의금', href: '/guide/assault/assault-settlement-amount' },
-      { label: '폭행 민사 배상', href: '/guide/assault/assault-civil-damages' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
+      { label: '폭행 합의금 산정 피해 정도 전과 재범', href: '/guide/assault/assault-settlement-amount-factors-prior-record-injury-degree' },
+      { label: '폭행 형사고소 vs 민사소송 비교', href: '/guide/assault/assault-criminal-vs-civil-claim' },
     ],
   },
 
@@ -171,10 +171,10 @@ export const spokesBatch74AssaultDui: SpokePage[] = [
     cta: { text: '합의금과 대응 전략, AI로 확인하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 고소 절차', href: '/guide/assault/assault-victim-where-to-start' },
-      { label: '특수상해 가중처벌', href: '/guide/assault/assault-special-injury-aggravation' },
-      { label: '폭행 합의금', href: '/guide/assault/assault-settlement-amount' },
-      { label: '폭행 양형 기준', href: '/guide/assault/assault-sentencing-guidelines' },
-      { label: '심신미약 평가', href: '/guide/assault/assault-diminished-capacity' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
+      { label: '폭행 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount-guide' },
+      { label: '동아리 집단폭행 양형 합의', href: '/guide/assault/assault-club-group-collective-sentencing' },
+      { label: '폭행 가해 지목 CCTV·진단서 없음 방어', href: '/guide/assault/assault-accused-witness-only-no-physical-evidence-defense-track' },
     ],
   },
 
@@ -254,10 +254,10 @@ export const spokesBatch74AssaultDui: SpokePage[] = [
     cta: { text: '합의금과 대응 전략, AI로 확인하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 고소 절차', href: '/guide/assault/assault-victim-where-to-start' },
-      { label: '폭행 합의금', href: '/guide/assault/assault-settlement-amount' },
-      { label: '항공보안법 폭행', href: '/guide/assault/assault-aviation-security-law' },
-      { label: '폭행 양형 기준', href: '/guide/assault/assault-sentencing-guidelines' },
-      { label: '폭행 민사 배상', href: '/guide/assault/assault-civil-damages' },
+      { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
+      { label: '술자리 우발 폭행 합의 형량', href: '/guide/assault/assault-drunken-uvulval-pre-settlement-sentencing' },
+      { label: '폭행 형사고소 vs 민사소송 비교', href: '/guide/assault/assault-criminal-vs-civil-claim' },
     ],
   },
 
@@ -336,11 +336,11 @@ export const spokesBatch74AssaultDui: SpokePage[] = [
     ],
     cta: { text: '음주운전 행정심판 준비서류, AI로 체크하기', link: '/chat?domain=dui' },
     internalLinks: [
-      { label: '음주운전 형사 절차', href: '/guide/dui/dui-criminal-procedure' },
-      { label: '음주운전 행정심판', href: '/guide/dui/dui-administrative-appeal' },
-      { label: '음주운전 양형 기준', href: '/guide/dui/dui-sentencing-guidelines' },
-      { label: '윤창호법 가중처벌', href: '/guide/dui/dui-yoonchangho-aggravation' },
-      { label: '음주운전 면허 처분', href: '/guide/dui/dui-license-suspension' },
+      { label: '음주운전 적발 후 형사 절차 총정리', href: '/guide/dui/dui-criminal-procedure-overview' },
+      { label: '2회 음주 면허취소 행정심판', href: '/guide/dui/dui-second-revoke-administrative-appeal' },
+      { label: '음주운전 종합 가이드', href: '/guide/dui' },
+      { label: '음주 뺑소니 가중처벌', href: '/guide/dui/dui-hit-and-run-aggravation-track' },
+      { label: '음주 면허정지 이의신청', href: '/guide/dui/dui-license-suspension-objection-track' },
     ],
   },
 ];

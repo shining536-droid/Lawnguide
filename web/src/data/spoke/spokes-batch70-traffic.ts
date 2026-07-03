@@ -85,8 +85,8 @@ export const spokesBatch70Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의', href: '/guide/traffic-accident/traffic-accident-settlement-procedure' },
-      { label: '과실 비율', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
+      { label: '교통사고 형사 민사 절차 비교', href: '/guide/traffic-accident/traffic-accident-criminal-civil-procedure' },
+      { label: '횡단보도 보행자 사고 과실비율 판단', href: '/guide/traffic-accident/traffic-accident-crosswalk-pedestrian-fault-ratio-track' },
       { label: '보험 청구', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
       { label: '교차로 좌회전', href: '/guide/traffic-accident/traffic-accident-intersection-left-turn' },
       { label: '신호 위반', href: '/guide/traffic-accident/traffic-accident-signal-violation-fault-negotiation' },
@@ -168,7 +168,7 @@ export const spokesBatch70Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의', href: '/guide/traffic-accident/traffic-accident-settlement-procedure' },
+      { label: '차량 시세하락 손해배상', href: '/guide/traffic-accident/traffic-accident-diminished-value-claim-procedure' },
       { label: '12대 중과실', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
       { label: '형사·민사 절차', href: '/guide/traffic-accident/traffic-accident-criminal-civil-procedure' },
       { label: '가해자 형사', href: '/guide/traffic-accident/traffic-accident-offender-criminal-charge-response' },
@@ -251,8 +251,8 @@ export const spokesBatch70Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의', href: '/guide/traffic-accident/traffic-accident-settlement-procedure' },
-      { label: '과실 비율', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
+      { label: '영유아 카시트 미착용 합의금', href: '/guide/traffic-accident/traffic-accident-infant-carseat-nonuse-settlement-reduction-track' },
+      { label: '교통사고 과실비율 다툴 때 증거와 이의절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '신호 위반 처벌', href: '/guide/traffic-accident/traffic-accident-signal-violation-criminal-impact' },
       { label: '신호 위반 협상', href: '/guide/traffic-accident/traffic-accident-signal-violation-fault-negotiation' },
       { label: '교차로 좌회전', href: '/guide/traffic-accident/traffic-accident-intersection-left-turn' },
@@ -334,11 +334,11 @@ export const spokesBatch70Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의', href: '/guide/traffic-accident/traffic-accident-settlement-procedure' },
+      { label: '교통사고 합의 후 후유증 추가 청구 방법', href: '/guide/traffic-accident/traffic-accident-post-settlement-additional-claim' },
       { label: '스쿨존', href: '/guide/traffic-accident/traffic-accident-school-zone-child' },
       { label: '어린이 보행자', href: '/guide/traffic-accident/traffic-accident-child-pedestrian-claim' },
       { label: '통학버스', href: '/guide/traffic-accident/traffic-accident-school-bus-compensation' },
-      { label: '손해배상 청구', href: '/guide/traffic-accident/traffic-accident-damage-claim' },
+      { label: '교통사고 보험금 청구 절차 총정리', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
     ],
   },
 
@@ -417,11 +417,11 @@ export const spokesBatch70Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 합의', href: '/guide/traffic-accident/traffic-accident-settlement-procedure' },
+      { label: '교통사고 합의 시 흔히 하는 실수', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '배달 라이더 산재', href: '/guide/traffic-accident/traffic-accident-delivery-rider-workers-comp' },
       { label: '출퇴근 산재', href: '/guide/traffic-accident/traffic-accident-commute-work-injury-double-claim' },
       { label: '오토바이 보상', href: '/guide/traffic-accident/traffic-accident-motorcycle-helmet-injury' },
-      { label: '손해배상 청구', href: '/guide/traffic-accident/traffic-accident-damage-claim' },
+      { label: '교통사고 보험금 청구 절차 총정리', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
     ],
   },
 ];

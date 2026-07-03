@@ -173,8 +173,8 @@ export const spokesBatch69DivorceInheritance: SpokePage[] = [
       { label: '의붓자녀 양육권', href: '/guide/divorce/divorce-step-child-custody-claim' },
       { label: '의붓자녀 양육비', href: '/guide/divorce/divorce-stepchild-support-after-divorce' },
       { label: '재산분할 종합', href: '/guide/divorce/divorce-property-division-comprehensive' },
-      { label: '재판이혼 절차', href: '/guide/divorce/divorce-litigation-procedure' },
-      { label: '협의이혼 절차', href: '/guide/divorce/divorce-mediation-procedure' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
+      { label: '협의이혼 거부 재판상 이혼', href: '/guide/divorce/divorce-mediation-refused-trial-procedure' },
     ],
   },
 
@@ -340,7 +340,7 @@ export const spokesBatch69DivorceInheritance: SpokePage[] = [
       { label: '반려동물 양육 판례', href: '/guide/divorce/divorce-pet-custody-dispute-ruling' },
       { label: '반려동물 면접', href: '/guide/divorce/divorce-pet-visitation-agreement-template' },
       { label: '재산분할 종합', href: '/guide/divorce/divorce-property-division-comprehensive' },
-      { label: '협의이혼 절차', href: '/guide/divorce/divorce-mediation-procedure' },
+      { label: '협의이혼 거부 재판상 이혼', href: '/guide/divorce/divorce-mediation-refused-trial-procedure' },
     ],
   },
 
@@ -505,7 +505,7 @@ export const spokesBatch69DivorceInheritance: SpokePage[] = [
       { label: '보험수익자 변경 분쟁', href: '/guide/inheritance/inheritance-life-insurance-beneficiary-change-dispute' },
       { label: '보험수익자 분쟁', href: '/guide/inheritance/inheritance-life-insurance-beneficiary-dispute' },
       { label: '보험수익자 우선순위', href: '/guide/inheritance/inheritance-life-insurance-beneficiary-priority-track' },
-      { label: '유류분 반환', href: '/guide/inheritance/inheritance-yuryubun-procedure' },
+      { label: '유류분 부족분 청구 절차', href: '/guide/inheritance/inheritance-yuryubun-shortage-claim-procedure' },
       { label: '유류분 산정', href: '/guide/inheritance/inheritance-pre-death-gift-yuryubun-calculation' },
     ],
   },
@@ -587,7 +587,7 @@ export const spokesBatch69DivorceInheritance: SpokePage[] = [
     internalLinks: [
       { label: '부동산 평가 분쟁', href: '/guide/inheritance/inheritance-real-estate-valuation-dispute' },
       { label: '비상장주식 평가', href: '/guide/inheritance/inheritance-business-share-evaluation' },
-      { label: '상속재산 분할', href: '/guide/inheritance/inheritance-division-procedure' },
+      { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '상속세 신고 기한', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '상속재산 조회', href: '/guide/inheritance/inheritance-asset-inquiry-method' },
     ],

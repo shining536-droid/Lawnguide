@@ -256,8 +256,8 @@ export const spokesBatch76WageUnempRetireIa: SpokePage[] = [
       { label: '실업급여 수급요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '구직활동 인정 범위', href: '/guide/unemployment/unemployment-job-search-recognized-types' },
       { label: '수급 중 소득', href: '/guide/unemployment/unemployment-side-income-during-benefit' },
-      { label: '실업급여 신청 절차', href: '/guide/unemployment/unemployment-application-process' },
-      { label: '자진퇴사 수급 가능', href: '/guide/unemployment/voluntary-resignation-eligibility' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '임신 중 권고사직 실업급여', href: '/guide/unemployment/unemployment-pregnancy-resignation-eligibility' },
     ],
   },
 
@@ -339,8 +339,8 @@ export const spokesBatch76WageUnempRetireIa: SpokePage[] = [
       { label: '실업급여 수급요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '구직활동 인정 범위', href: '/guide/unemployment/unemployment-job-search-recognized-types' },
       { label: '수급 중 소득', href: '/guide/unemployment/unemployment-side-income-during-benefit' },
-      { label: '실업급여 신청 절차', href: '/guide/unemployment/unemployment-application-process' },
-      { label: '자진퇴사 수급 가능', href: '/guide/unemployment/voluntary-resignation-eligibility' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '권고사직 실업급여 수급', href: '/guide/unemployment/unemployment-recommended-resignation-eligibility-track' },
     ],
   },
 
@@ -422,8 +422,8 @@ export const spokesBatch76WageUnempRetireIa: SpokePage[] = [
       { label: '퇴직금 진정', href: '/guide/retirement/retirement-pay-complaint' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '1년 미만 수급', href: '/guide/retirement/retirement-less-than-1year-eligibility' },
-      { label: '기간제 합산', href: '/guide/retirement/retirement-fixed-term-aggregation' },
-      { label: '중간정산', href: '/guide/retirement/retirement-interim-settlement' },
+      { label: '위임 형식 근로자성 계속근로 통산 퇴직금', href: '/guide/retirement/retirement-fixed-term-continuous-service-aggregation-track' },
+      { label: '퇴직금 중간정산 조건과 신청 방법', href: '/guide/retirement/retirement-interim-settlement-guide' },
     ],
   },
 
@@ -505,8 +505,8 @@ export const spokesBatch76WageUnempRetireIa: SpokePage[] = [
       { label: '퇴직금 진정', href: '/guide/retirement/retirement-pay-complaint' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '1년 미만 수급', href: '/guide/retirement/retirement-less-than-1year-eligibility' },
-      { label: '기간제 합산', href: '/guide/retirement/retirement-fixed-term-aggregation' },
-      { label: '중간정산', href: '/guide/retirement/retirement-interim-settlement' },
+      { label: '단기 계약 연속 체결 퇴직금', href: '/guide/retirement/retirement-fixed-term-contract-aggregation-track' },
+      { label: '퇴직금 중간정산 무효', href: '/guide/retirement/retirement-interim-settlement-invalid-track' },
     ],
   },
 
@@ -586,10 +586,10 @@ export const spokesBatch76WageUnempRetireIa: SpokePage[] = [
     cta: { text: '산재 요양급여 신청 순서, AI로 정리하기', link: '/chat?domain=industrial-accident1' },
     internalLinks: [
       { label: '산재 신청 절차', href: '/guide/industrial-accident1/workers-comp-claim-process' },
-      { label: '장해급여', href: '/guide/industrial-accident1/workers-comp-disability-benefits' },
-      { label: '산재 구비서류', href: '/guide/industrial-accident1/workers-comp-required-documents' },
+      { label: '산재 상병보상연금 전환 기준 금액', href: '/guide/industrial-accident1/workers-comp-temporary-disability' },
+      { label: '산재 유족급여 신청 절차 자격', href: '/guide/industrial-accident1/workers-comp-survivor-benefit' },
       { label: '직업병 인정', href: '/guide/industrial-accident1/occupational-disease-recognition' },
-      { label: '요양급여 치료', href: '/guide/industrial-accident1/workers-comp-medical-treatment' },
+      { label: '산재 휴업급여 신청 조건 금액', href: '/guide/industrial-accident1/workers-comp-leave-benefit' },
     ],
   },
 ];

@@ -91,8 +91,8 @@ export const spokesBatch47WageUnemp: SpokePage[] = [
     ],
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
-      { label: '통상임금 계산 방법 총정리', href: '/guide/wage/wage-ordinary-wage-calculation-guide' },
-      { label: '연장수당 미지급 노동청 진정 절차', href: '/guide/wage/wage-overtime-report-procedure-timeline' },
+      { label: '출장수당 통상임금 포함', href: '/guide/wage/wage-business-trip-allowance-ordinary-wage-track' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '임금체불 진정 전 체크리스트', href: '/guide/wage/wage-complaint-pre-filing-checklist' },
       { label: '퇴직금 평균임금 산정 기준', href: '/guide/wage/wage-annual-leave-pay-calculation' },
       { label: '최저임금 위반 신고 절차', href: '/guide/wage/wage-piece-rate-minimum-violation' },
@@ -177,7 +177,7 @@ export const spokesBatch47WageUnemp: SpokePage[] = [
     internalLinks: [
       { label: '봉사료·팁 통상임금 포함 기준', href: '/guide/wage/wage-tip-service-charge-base-inclusion' },
       { label: '임금체불 진정 전 체크리스트', href: '/guide/wage/wage-complaint-pre-filing-checklist' },
-      { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-report-procedure-timeline' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '포괄임금 야근수당 청구', href: '/guide/wage/overtime-pay-calculation-claim' },
       { label: '수당 환수 일방 공제 위법', href: '/guide/wage/wage-commission-clawback-illegal' },
     ],
@@ -263,7 +263,7 @@ export const spokesBatch47WageUnemp: SpokePage[] = [
       { label: '임금체불 진정 전 체크리스트', href: '/guide/wage/wage-complaint-pre-filing-checklist' },
       { label: '봉사료 통상임금 포함 기준', href: '/guide/wage/wage-tip-service-charge-base-inclusion' },
       { label: '임금 소멸시효 3년 청구', href: '/guide/wage/unpaid-wage-statute-of-limitations' },
-      { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-report-procedure-timeline' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
     ],
   },
 

@@ -937,7 +937,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
     cta: { text: '전세보증금 반환 방법 AI로 확인하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '보증금 반환 절차', href: '/guide/jeonse/deposit-return-process' },
-      { label: '보증금 미반환 대응', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전입신고 요건', href: '/guide/jeonse/jeonse-tenant-registration-requirement' },
       { label: '계약 만료 반환 절차', href: '/guide/jeonse/lease-expiry-deposit-return-steps' },
       { label: '회생 vs 파산 비교', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-choice' },

@@ -101,9 +101,9 @@ export const spokesBatch24_22to28: SpokePage[] = [
     internalLinks: [
       { label: '사기 민사소송 절차 안내', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
       { label: '사기 형사고소 절차 정리', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
-      { label: '사기 신고 증거 체크리스트', href: '/guide/fraud/fraud-report-evidence-checklist' },
-      { label: '사기 합의금 협상 가이드', href: '/guide/fraud/fraud-settlement-negotiation-guide' },
-      { label: '투자 사기 피해금 회수 전략', href: '/guide/fraud/investment-fraud-recovery-strategy' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소당했는데 합의하면 처벌 안 받나요', href: '/guide/fraud/fraud-accused-settlement-penalty' },
+      { label: '가상화폐 투자사기 피해 대응 방법', href: '/guide/fraud/crypto-investment-fraud-response' },
     ],
   },
 
@@ -189,11 +189,11 @@ export const spokesBatch24_22to28: SpokePage[] = [
       link: '/chat?domain=fraud',
     },
     internalLinks: [
-      { label: '사기 신고 증거 체크리스트', href: '/guide/fraud/fraud-report-evidence-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '사기 형사고소 절차 정리', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
       { label: '사기 민사소송 절차 안내', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
-      { label: '사기 합의금 협상 가이드', href: '/guide/fraud/fraud-settlement-negotiation-guide' },
-      { label: '온라인 사기 증거 보전 방법', href: '/guide/fraud/online-fraud-evidence-preservation' },
+      { label: '동업자금 정산 사기 고소 무고', href: '/guide/fraud/fraud-business-settlement-falsely-accused-defense' },
+      { label: '인터넷 쇼핑 사기 환불받는 절차', href: '/guide/fraud/online-shopping-fraud-refund' },
     ],
   },
 
@@ -277,7 +277,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
       { label: '이혼 재산분할 범위 FAQ', href: '/guide/divorce/divorce-property-division-scope-faq' },
       { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 청구 어디서 시작', href: '/guide/child-support/child-support-claim-where-to-start' },
-      { label: '이혼 위자료 가이드', href: '/guide/divorce/divorce-alimony-guide' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
     ],
   },
 
@@ -451,7 +451,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
       { label: '가정폭력 이혼 절차 안내', href: '/guide/divorce/domestic-violence-divorce-process' },
       { label: '퇴직금 계산 방법', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
-      { label: '이혼 위자료 가이드', href: '/guide/divorce/divorce-alimony-guide' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
     ],
   },
 

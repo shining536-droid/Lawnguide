@@ -86,8 +86,8 @@ export const spokesBatch75Dismissal: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
-      { label: '계약직 갱신 거절 대응', href: '/guide/dismissal/dismissal-fixed-term-renewal-refusal' },
-      { label: '권고사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '기간제 갱신기대권 갱신거절 부당해고 판단', href: '/guide/dismissal/dismissal-fixed-term-renewal-expectation-refusal-track' },
+      { label: '권고사직 동의서 사직서 철회', href: '/guide/dismissal/dismissal-resignation-letter-signed-revoke-window' },
       { label: '퇴직금 계산과 청구', href: '/guide/retirement/retirement-pay-calculation' },
     ],
   },
@@ -171,7 +171,7 @@ export const spokesBatch75Dismissal: SpokePage[] = [
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
       { label: '징계 청문 권리', href: '/guide/dismissal/dismissal-disciplinary-hearing-rights' },
       { label: '징계 과도성 다툼', href: '/guide/dismissal/dismissal-disciplinary-excessive' },
-      { label: '권고사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '사직서 강요 후 수리 사실상 해고', href: '/guide/dismissal/dismissal-resignation-pressure-letter-coerced-acceptance-track' },
     ],
   },
 
@@ -251,9 +251,9 @@ export const spokesBatch75Dismissal: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '부당해고 구제절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '정리해고 4요건', href: '/guide/dismissal/dismissal-economic-4-requirements' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
-      { label: '권고사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '권고사직 거부 후 압박 해고', href: '/guide/dismissal/dismissal-recommended-resignation-refused-pressure' },
       { label: '퇴직금 계산과 청구', href: '/guide/retirement/retirement-pay-calculation' },
     ],
   },
@@ -334,10 +334,10 @@ export const spokesBatch75Dismissal: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '부당해고 구제절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '정리해고 4요건', href: '/guide/dismissal/dismissal-economic-4-requirements' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
       { label: '임금체불 진정 절차', href: '/guide/wage/unpaid-wage-complaint-docs' },
-      { label: '권고사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '권고사직 사인 후 철회 의사표시 하자', href: '/guide/dismissal/dismissal-resignation-after-recommendation-revoke' },
     ],
   },
 ];

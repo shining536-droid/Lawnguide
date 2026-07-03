@@ -85,11 +85,11 @@ export const spokesBatch71WageUnempRetire: SpokePage[] = [
     ],
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
-      { label: '연말상여 관행 폐지', href: '/guide/wage/wage-yearend-bonus-customary-revoke' },
-      { label: '성과급 미지급', href: '/guide/wage/wage-performance-bonus-unpaid' },
-      { label: '연봉 일방 삭감', href: '/guide/wage/wage-annual-salary-unilateral-cut' },
-      { label: '취업규칙 불이익 변경', href: '/guide/wage/wage-rules-disadvantage-change' },
-      { label: '인센티브 미지급', href: '/guide/wage/wage-incentive-unpaid-claim' },
+      { label: '연말 상여금 관행 일방 폐지', href: '/guide/wage/wage-yearend-bonus-customary-revoke-track' },
+      { label: '성과급 임금성 미지급 청구', href: '/guide/wage/unpaid-wage-performance-bonus-claim' },
+      { label: '해외출장수당 일방 삭감', href: '/guide/wage/wage-business-trip-overseas-allowance-unilateral-cut-track' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
+      { label: '인센티브 성과급 미지급 청구', href: '/guide/wage/wage-incentive-bonus-unpaid-claim' },
     ],
   },
 
@@ -170,9 +170,9 @@ export const spokesBatch71WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '야간연장 정확 산정', href: '/guide/wage/wage-night-overtime-exact-calculation' },
       { label: '연장근로 미지급', href: '/guide/wage/wage-overtime-unpaid-claim' },
-      { label: '포괄임금제 무효', href: '/guide/wage/wage-comprehensive-wage-invalid' },
-      { label: '연장수당 산정법', href: '/guide/wage/wage-overtime-pay-calculation' },
-      { label: '교대근무 수당', href: '/guide/wage/wage-shift-work-allowance-track' },
+      { label: '포괄임금 최저임금 미달 차액', href: '/guide/wage/unpaid-wage-minimum-wage-comprehensive' },
+      { label: '야근수당 연장근로수당 계산법 청구', href: '/guide/wage/overtime-pay-calculation-claim' },
+      { label: '고정 야간근로수당 통상임금 산입', href: '/guide/wage/wage-fixed-night-shift-allowance-claim' },
     ],
   },
 
@@ -253,9 +253,9 @@ export const spokesBatch71WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '특별 연장급여', href: '/guide/unemployment/unemployment-special-extended-benefit' },
       { label: '훈련 연장급여', href: '/guide/unemployment/unemployment-training-extended-benefit' },
-      { label: '질병 자진퇴사', href: '/guide/unemployment/unemployment-medical-self-quit' },
-      { label: '임신·출산 연장', href: '/guide/unemployment/unemployment-pregnancy-extension-track' },
-      { label: '수급기간 만료', href: '/guide/unemployment/unemployment-benefit-period-expiry' },
+      { label: '재발성 질병 자진퇴사 실업급여', href: '/guide/unemployment/unemployment-recurring-illness-quit-medical-track' },
+      { label: '실업급여 임신 출산 수급기간 연장 요건', href: '/guide/unemployment/pregnancy-childbirth-extension' },
+      { label: '실업급여 수급기간 연장 가능한 4가지 경우', href: '/guide/unemployment/benefit-period-extension-cases' },
     ],
   },
 
@@ -334,11 +334,11 @@ export const spokesBatch71WageUnempRetire: SpokePage[] = [
     ],
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      { label: '영업양도 근속', href: '/guide/retirement/retirement-business-transfer-tenure' },
-      { label: '계열사 전적 통산', href: '/guide/retirement/retirement-affiliate-transfer-tenure' },
-      { label: '재입사 근속 통산', href: '/guide/retirement/retirement-re-employment-tenure-aggregation' },
-      { label: '소멸회사 퇴직금', href: '/guide/retirement/retirement-dissolved-company-claim' },
-      { label: '중간정산 효력', href: '/guide/retirement/retirement-interim-settlement-effect' },
+      { label: '사업양도 합병 퇴직금 책임', href: '/guide/retirement/retirement-business-transfer-responsibility' },
+      { label: '계열사 전출입 계속근로 인정 퇴직금 판단', href: '/guide/retirement/retirement-pay-affiliate-transfer-continuous-service-track' },
+      { label: '계약직 반복 갱신 근속 합산', href: '/guide/retirement/retirement-fixed-term-renewal-chain-tenure-aggregation-track' },
+      { label: '5인 미만 소규모 퇴직금 청구', href: '/guide/retirement/retirement-small-company-no-fund-claim' },
+      { label: '퇴직금 중간정산 효력 재산정 판단', href: '/guide/retirement/retirement-pay-interim-settlement-validity-recalculation-track' },
     ],
   },
 
@@ -420,8 +420,8 @@ export const spokesBatch71WageUnempRetire: SpokePage[] = [
       { label: '영업커미션 산입', href: '/guide/retirement/retirement-sales-commission-included' },
       { label: '스톡옵션 산입', href: '/guide/retirement/retirement-stock-option-included' },
       { label: '평균임금 분쟁', href: '/guide/retirement/retirement-average-wage-dispute' },
-      { label: '명절 상여금 산입', href: '/guide/retirement/retirement-holiday-bonus-included' },
-      { label: '인센티브 평균임금', href: '/guide/retirement/retirement-incentive-average-wage' },
+      { label: '경영성과급 평균임금 퇴직금 차액', href: '/guide/retirement/retirement-bonus-included-supreme-2026' },
+      { label: '인센티브 성과급 퇴직금 포함 여부 평균임금', href: '/guide/retirement/retirement-incentive-bonus-average-wage-inclusion' },
     ],
   },
 ];

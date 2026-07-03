@@ -91,10 +91,10 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
-      { label: '재산분할 대상 범위', href: '/guide/divorce/divorce-property-division-scope' },
+      { label: '상속 재산 재산분할 대상', href: '/guide/divorce/divorce-inheritance-property-division-scope' },
       { label: '재산분할 기준 시점', href: '/guide/divorce/divorce-property-division-cutoff-date' },
       { label: '숨긴 재산 분할', href: '/guide/divorce/divorce-hidden-asset-division-track' },
-      { label: '재산명시·조회 신청', href: '/guide/divorce/divorce-property-disclosure-order' },
+      { label: '재산 은닉 추적 분할', href: '/guide/divorce/divorce-hidden-asset-property-tracing-track' },
     ],
   },
 
@@ -175,8 +175,8 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     internalLinks: [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
       { label: '이혼 위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
-      { label: '재판상 이혼 사유', href: '/guide/divorce/divorce-judicial-grounds-track' },
-      { label: '혼인 파탄 책임 판단', href: '/guide/divorce/divorce-marriage-breakdown-track' },
+      { label: '배우자 도박 채무 누적 이혼 사유', href: '/guide/divorce/divorce-spouse-gambling-debt-accumulation-grounds-track' },
+      { label: '장기 별거 후 이혼 청구', href: '/guide/divorce/divorce-long-separation-marriage-breakdown-track' },
       { label: '재산분할 제척기간', href: '/guide/divorce/divorce-consensual-property-division-2year-claim' },
     ],
   },
@@ -340,10 +340,10 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
-      { label: '재산분할 대상 범위', href: '/guide/divorce/divorce-property-division-scope' },
+      { label: '이혼 시 재산분할 대상은 무엇인가요?', href: '/guide/divorce/divorce-property-division-scope-faq' },
       { label: '재산 처분 방지·가압류', href: '/guide/divorce/divorce-asset-transfer-prevention-attachment' },
       { label: '숨긴 재산 추적', href: '/guide/divorce/divorce-hidden-asset-property-tracing-track' },
-      { label: '재산명시·조회 신청', href: '/guide/divorce/divorce-property-disclosure-order' },
+      { label: '이혼 재산명시 재산조회 신청', href: '/guide/divorce/divorce-husband-rejected-property-disclose' },
     ],
   },
 
@@ -423,10 +423,10 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 종합 가이드', href: '/guide/defamation' },
-      { label: '명예훼손 고소 대응', href: '/guide/defamation/defamation-accusation-response-track' },
-      { label: '명예훼손 합의·처분', href: '/guide/defamation/defamation-settlement-track' },
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-complaint-procedure-track' },
-      { label: '진실한 사실 적시 방어', href: '/guide/defamation/defamation-truth-defense-track' },
+      { label: '직장 내 험담 명예훼손 대응', href: '/guide/defamation/defamation-workplace-rumor-response' },
+      { label: '명예훼손 합의금 적정 금액 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
+      { label: '딥페이크 피해 신속삭제', href: '/guide/defamation/defamation-deepfake-victim-takedown-procedure' },
+      { label: '온라인 후기 사실적시 명예훼손 진실성 항변', href: '/guide/defamation/defamation-online-review-truth-defense' },
     ],
   },
 
@@ -506,9 +506,9 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 종합 가이드', href: '/guide/defamation' },
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-complaint-procedure-track' },
-      { label: '정보통신망법 명예훼손', href: '/guide/defamation/defamation-network-act-track' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-damages-claim-track' },
+      { label: '헬스 트레이너 항의 명예훼손', href: '/guide/defamation/defamation-fitness-trainer-online-complaint-accused-track' },
+      { label: '인터넷 댓글 명예훼손 정통망법 형법 비교', href: '/guide/defamation/defamation-online-comment-information-network-act' },
+      { label: '유튜브 댓글 실명 비방 신원조회 손해배상', href: '/guide/defamation/defamation-youtube-realname-attack-civil-damages-victim' },
       { label: '온라인 게시물 삭제 요청', href: '/guide/defamation/defamation-online-post-deletion-request-procedure' },
     ],
   },
@@ -589,10 +589,10 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 종합 가이드', href: '/guide/defamation' },
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-complaint-procedure-track' },
-      { label: '허위사실 적시 명예훼손', href: '/guide/defamation/defamation-false-fact-track' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-damages-claim-track' },
-      { label: '명예훼손 고소 대응', href: '/guide/defamation/defamation-accusation-response-track' },
+      { label: '카톡 단체방 명예훼손 고소', href: '/guide/defamation/defamation-group-chat-leak-complaint' },
+      { label: '유튜브 댓글 허위사실 유포', href: '/guide/defamation/defamation-youtube-comment-false-fact-track' },
+      { label: '명예훼손 손해배상 금액 기준과 판례', href: '/guide/defamation/defamation-damages-amount-standard' },
+      { label: '명예훼손으로 고소당했을 때 대응법', href: '/guide/defamation/defamation-accused-response' },
     ],
   },
 
@@ -672,10 +672,10 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 종합 가이드', href: '/guide/defamation' },
-      { label: '명예훼손 고소 대응', href: '/guide/defamation/defamation-accusation-response-track' },
-      { label: '모욕죄 성립 요건', href: '/guide/defamation/defamation-insult-track' },
-      { label: '공공의 이익 위법성조각', href: '/guide/defamation/defamation-public-interest-track' },
-      { label: '명예훼손 합의·처분', href: '/guide/defamation/defamation-settlement-track' },
+      { label: '이웃 허위신고 명예훼손 대응 체크리스트', href: '/guide/defamation/defamation-false-accusation-neighbor' },
+      { label: '온라인 모욕죄 고소 방법과 처벌 수위', href: '/guide/defamation/online-insult-lawsuit-penalty' },
+      { label: '공익목적 면책', href: '/guide/defamation/public-interest-immunity' },
+      { label: '명예훼손 유포자 정상참작 합의', href: '/guide/defamation/defamation-spreader-accused-mitigation-settlement-track' },
     ],
   },
 
@@ -755,7 +755,7 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '상속 기여분·분할 쟁점, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
       { label: '상속 종합 가이드', href: '/guide/inheritance' },
-      { label: '상속재산분할 절차', href: '/guide/inheritance/inheritance-estate-division-procedure' },
+      { label: '상속세 분납 연부연납 절차', href: '/guide/inheritance/inheritance-tax-installment-procedure' },
       { label: '기여분 산정·청구', href: '/guide/inheritance/inheritance-contribution-share-claim-track' },
       { label: '법정상속 순위·비율', href: '/guide/inheritance/inheritance-order-legal-share' },
       { label: '상속재산 조회 방법', href: '/guide/inheritance/inheritance-asset-inquiry-method' },
@@ -838,9 +838,9 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
-      { label: '치료비·손해 산정', href: '/guide/traffic-accident/traffic-accident-damages-calculation' },
+      { label: '교통사고 보상금 산정 기준 총정리', href: '/guide/traffic-accident/traffic-accident-compensation-calculation-guide' },
       { label: '후유장해 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim-settlement' },
-      { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-checklist' },
+      { label: '교통사고 합의 전 확인해야 할 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
       { label: '교통사고 형사·민사 절차', href: '/guide/traffic-accident/traffic-accident-criminal-civil-procedure' },
     ],
   },

@@ -44,7 +44,7 @@ export const spokesBatch27DismissalTraffic: SpokePage[] = [
       { question: '5인 미만 사업장이면 구제신청이 안 되나요?', answer: '<p>노동위원회 구제신청은 불가하지만, 남녀고용평등법 위반으로 고용노동청에 신고할 수 있고 민사소송도 가능합니다.</p>' },
     ],
     cta: { text: '육아휴직 복귀 후 해고 구제 방법 AI로 확인하기', link: '/chat?domain=dismissal' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '부당해고 구제신청', href: '/guide/dismissal/dismissal-unfair-relief-application' }, { label: '해고사유서 요청법', href: '/guide/dismissal/dismissal-reason-request-template' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' }, { label: '해고사유서 요청법', href: '/guide/dismissal/dismissal-reason-request-template' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],
   },
 
   // ── 2. 정리해고 대상자 선정 부당성 ──
@@ -84,7 +84,7 @@ export const spokesBatch27DismissalTraffic: SpokePage[] = [
       { question: '정리해고 위로금을 받으면 구제신청을 못하나요?', answer: '<p>위로금 수령이 해고에 대한 동의로 볼 수 있으므로 신중해야 합니다. 다만 "해고에 대한 이의를 포기하지 않는다"는 유보를 하면 구제신청이 가능합니다.</p>' },
     ],
     cta: { text: '정리해고 부당성 여부 AI로 분석하기', link: '/chat?domain=dismissal' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '부당해고 구제신청', href: '/guide/dismissal/dismissal-unfair-relief-application' }, { label: '해고사유서 요청', href: '/guide/dismissal/dismissal-reason-request-template' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' }, { label: '해고사유서 요청', href: '/guide/dismissal/dismissal-reason-request-template' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],
   },
 
   // ── 3. 구두 해고 대처 ──
@@ -124,7 +124,7 @@ export const spokesBatch27DismissalTraffic: SpokePage[] = [
       { question: '5인 미만 사업장이면 서면 해고통지 의무가 없나요?', answer: '<p>서면 해고통지 의무는 5인 미만에도 적용됩니다. 다만 노동위원회 구제신청은 불가하고 민사소송으로 다투어야 합니다.</p>' },
     ],
     cta: { text: '구두 해고 대응 방법 AI로 확인하기', link: '/chat?domain=dismissal' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '해고사유서 요청', href: '/guide/dismissal/dismissal-reason-request-template' }, { label: '부당해고 구제신청', href: '/guide/dismissal/dismissal-unfair-relief-application' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '해고사유서 요청', href: '/guide/dismissal/dismissal-reason-request-template' }, { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],
   },
 
   // ── 4. 노조 활동 보복 해고 ──
@@ -164,7 +164,7 @@ export const spokesBatch27DismissalTraffic: SpokePage[] = [
       { question: '형사 고발하면 사업주가 처벌받나요?', answer: '<p>부당노동행위가 인정되면 2년 이하 징역 또는 2,000만원 이하 벌금에 처할 수 있습니다. 검찰이 기소 여부를 판단합니다.</p>' },
     ],
     cta: { text: '노조 보복 해고 부당노동행위 구제 AI로 확인하기', link: '/chat?domain=dismissal' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '부당해고 구제신청', href: '/guide/dismissal/dismissal-unfair-relief-application' }, { label: '직장 내 괴롭힘 해고', href: '/guide/dismissal/dismissal-workplace-bullying-remedies' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '해고 가이드', href: '/guide/dismissal' }, { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' }, { label: '직장 내 괴롭힘 신고 절차', href: '/guide/dismissal/workplace-bullying-complaint-procedure' }, { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' }],
   },
 
   // ══════════ 교통사고 3개 ══════════

@@ -89,8 +89,8 @@ export const spokesBatch68AssaultCsDui: SpokePage[] = [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '직장 내 폭행', href: '/guide/assault/assault-workplace-drinking-coworker-track' },
       { label: '특수폭행 위험물건', href: '/guide/assault/assault-armed-special-aggravated-weapon-bring-distinction' },
-      { label: '사용자책임 손해배상', href: '/guide/assault/assault-employer-liability' },
-      { label: '범죄피해자 지원', href: '/guide/assault/assault-victim-support-program' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
+      { label: '시내버스 노인 젊은 승객 폭행 피해', href: '/guide/assault/assault-public-bus-senior-young-quarrel-victim-track' },
     ],
   },
 
@@ -173,7 +173,7 @@ export const spokesBatch68AssaultCsDui: SpokePage[] = [
       { label: '폭처법 공동폭행', href: '/guide/assault/assault-club-group-collective-sentencing' },
       { label: '폭행 가해자 첫 대응', href: '/guide/assault/assault-charged-first-response' },
       { label: '특수폭행 위험물건', href: '/guide/assault/assault-armed-special-aggravated-weapon-bring-distinction' },
-      { label: '국선변호인 신청', href: '/guide/assault/assault-public-defender-application' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
     ],
   },
 
@@ -256,7 +256,7 @@ export const spokesBatch68AssaultCsDui: SpokePage[] = [
       { label: '정당방위 vs 과잉방위', href: '/guide/assault/assault-self-defense-vs-excessive-evidence-track' },
       { label: '폭행 무고 방어', href: '/guide/assault/assault-false-accusation-defense' },
       { label: '폭행 가해자 첫 대응', href: '/guide/assault/assault-charged-first-response' },
-      { label: '국선변호인 신청', href: '/guide/assault/assault-public-defender-application' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
     ],
   },
 
@@ -335,11 +335,11 @@ export const spokesBatch68AssaultCsDui: SpokePage[] = [
     ],
     cta: { text: '양육비 못 받을 때 다음 단계, AI로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비 추심', href: '/guide/child-support/child-support-arrears-collection' },
-      { label: '이행명령·감치', href: '/guide/child-support/child-support-enforcement-order' },
+      { label: '외국 거주 배우자 양육비 회수 헤이그', href: '/guide/child-support/child-support-foreign-spouse-collection' },
+      { label: '양육비 이행명령 위반 제재', href: '/guide/child-support/child-support-enforcement-contempt-order' },
       { label: '명단 공개', href: '/guide/child-support/child-support-public-disclosure-debtor-list-procedure' },
       { label: '출국금지', href: '/guide/child-support/child-support-non-payer-overseas-residence' },
-      { label: '양육비이행관리원', href: '/guide/child-support/child-support-enforcement-agency' },
+      { label: '양육비 강제집행 방법과 절차', href: '/guide/child-support/child-support-enforcement-method' },
     ],
   },
 
@@ -418,11 +418,11 @@ export const spokesBatch68AssaultCsDui: SpokePage[] = [
     ],
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비 변경 심판', href: '/guide/child-support/child-support-modification-claim' },
-      { label: '양육비 산정기준표', href: '/guide/child-support/child-support-calculation-standard' },
+      { label: '친부 사망 후 계모 양육비 청구', href: '/guide/child-support/child-support-step-mother-bio-father-deceased-claim-track' },
+      { label: '양육비 산정 기준과 증액 청구 방법', href: '/guide/child-support/child-support-calculation-increase' },
       { label: '채무자 수입 감소', href: '/guide/child-support/child-support-ex-unemployed-reduction-refuse' },
       { label: '재혼 시 감액', href: '/guide/child-support/child-support-ex-remarriage-reduction-possible' },
-      { label: '협의·임시 처분', href: '/guide/child-support/child-support-interim-modification' },
+      { label: '양육비 감액 증액 수입 변동', href: '/guide/child-support/child-support-modification-employer-income-change' },
     ],
   },
 
@@ -505,7 +505,7 @@ export const spokesBatch68AssaultCsDui: SpokePage[] = [
       { label: '채혈·영장', href: '/guide/dui/dui-test-refusal-warrant-blood-extraction' },
       { label: '위드마크 공식', href: '/guide/dui/dui-widmark-rising-phase-defense' },
       { label: '행정심판 90일', href: '/guide/dui/dui-administrative-trial-90day-mitigation' },
-      { label: '음주운전 형사 방어', href: '/guide/dui/dui-criminal-defense' },
+      { label: '음주운전 종합 가이드', href: '/guide/dui' },
     ],
   },
 ];

@@ -170,7 +170,7 @@ export const spokesBatch71Dismissal: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '원거리 발령 거부', href: '/guide/dismissal/dismissal-business-relocation-distant-refuse' },
-      { label: '권고사직 압박 철회', href: '/guide/dismissal/dismissal-resignation-pressure-revoke' },
+      { label: '권고사직 동의서 사직서 철회', href: '/guide/dismissal/dismissal-resignation-letter-signed-revoke-window' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
       { label: '징계 청문 권리', href: '/guide/dismissal/dismissal-disciplinary-hearing-rights' },
     ],

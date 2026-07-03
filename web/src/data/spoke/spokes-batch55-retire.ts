@@ -82,11 +82,11 @@ export const spokesBatch55Retire: SpokePage[] = [
     ],
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      { label: '퇴직금 계산기 평균임금 통상임금', href: '/guide/retirement/retirement-calculation-average-ordinary-wage' },
-      { label: '퇴직금 미지급 진정 절차', href: '/guide/retirement/retirement-unpaid-complaint-procedure' },
+      { label: '평균임금 산정 퇴직금', href: '/guide/retirement/retirement-average-wage-calculation-track' },
+      { label: '퇴직금 미지급 신고 절차 4단계 타임라인', href: '/guide/retirement/unpaid-retirement-report-procedure' },
       { label: '아르바이트·계약직 퇴직금 적용', href: '/guide/retirement/retirement-part-time-eligibility' },
-      { label: '체당금(대지급금) 신청 5단계', href: '/guide/retirement/retirement-substitute-payment-5steps' },
-      { label: '퇴직금 시효 3년 보전 절차', href: '/guide/retirement/retirement-statute-near-expiry-preserve' },
+      { label: '폐업 도산 도산대지급금', href: '/guide/retirement/retirement-business-closure-substitute-payment' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
     ],
   },
 
@@ -165,11 +165,11 @@ export const spokesBatch55Retire: SpokePage[] = [
     ],
     cta: { text: '퇴직금 포함 항목, AI로 먼저 확인하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      { label: '퇴직금 계산기 평균임금 통상임금', href: '/guide/retirement/retirement-calculation-average-ordinary-wage' },
-      { label: 'DC형 퇴직연금 평균임금 차액', href: '/guide/retirement/retirement-dc-wage-cut-loss' },
-      { label: '퇴직금 시효 3년 보전 절차', href: '/guide/retirement/retirement-statute-near-expiry-preserve' },
-      { label: '퇴직금 미지급 진정 절차', href: '/guide/retirement/retirement-unpaid-complaint-procedure' },
-      { label: '계속근로 통산 1년 미만 후 재입사', href: '/guide/retirement/retirement-continuous-service-rejoining' },
+      { label: '평균임금 산정 퇴직금', href: '/guide/retirement/retirement-average-wage-calculation-track' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
+      { label: '명예퇴직 후 퇴직급여 미청구 소멸시효', href: '/guide/retirement/retirement-honorary-retire-unclaimed-benefit-statute-track' },
+      { label: '퇴직금 미지급 신고 절차 4단계 타임라인', href: '/guide/retirement/unpaid-retirement-report-procedure' },
+      { label: '계속근로기간 단절 퇴직금', href: '/guide/retirement/retirement-continuous-service-interruption-track' },
     ],
   },
 ];

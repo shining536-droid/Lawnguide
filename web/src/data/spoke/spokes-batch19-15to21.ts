@@ -84,8 +84,8 @@ export const spokesBatch19_15to21: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '산업재해 진단', href: '/diagnosis/industrial-accident1' },
-      { label: '산재 신청 절차 가이드', href: '/guide/industrial-accident1/work-injury-claim-process' },
-      { label: '산재 보상금 산정 기준', href: '/guide/industrial-accident1/industrial-accident-compensation-calculation' },
+      { label: '산재보험 요양급여 신청 절차와 기한', href: '/guide/industrial-accident1/workers-comp-claim-process' },
+      { label: '출퇴근 재해 산재 인정', href: '/guide/industrial-accident1/industrial-accident-commute-injury-recognition-track' },
       { label: '산재 사업주 형사책임', href: '/guide/industrial-accident1/employer-criminal-liability-accident' },
     ],
   },

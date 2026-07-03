@@ -96,7 +96,7 @@ export const spokesBatch54InheritanceDefamation: SpokePage[] = [
     internalLinks: [
       { label: '유류분 청구 절차', href: '/guide/inheritance/inheritance-forced-share-lawsuit-guide' },
       { label: '유류분 10년 시효 한도', href: '/guide/inheritance/inheritance-forced-share-10year-limit' },
-      { label: '특별수익과 상속분 조정', href: '/guide/inheritance/inheritance-special-benefit-adjustment' },
+      { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '상속재산분할 조정·심판', href: '/guide/inheritance/inheritance-division-mediation-tribunal' },
       { label: '유류분 증여 산정 범위', href: '/guide/inheritance/inheritance-forced-share-gift-calculation-scope' },
     ],
@@ -179,8 +179,8 @@ export const spokesBatch54InheritanceDefamation: SpokePage[] = [
     internalLinks: [
       { label: '상속재산분할 조정·심판', href: '/guide/inheritance/inheritance-division-mediation-tribunal' },
       { label: '유류분 청구 절차', href: '/guide/inheritance/inheritance-forced-share-lawsuit-guide' },
-      { label: '협의분할 조정 절차', href: '/guide/inheritance/inheritance-agreement-division-mediation' },
-      { label: '특별수익과 상속분 조정', href: '/guide/inheritance/inheritance-special-benefit-adjustment' },
+      { label: '상속재산 분할협의 무효', href: '/guide/inheritance/inheritance-division-agreement-void-track' },
+      { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '단순승인 후 숨은 채무 회수', href: '/guide/inheritance/inheritance-simple-approval-hidden-debt-recovery' },
     ],
   },
@@ -344,10 +344,10 @@ export const spokesBatch54InheritanceDefamation: SpokePage[] = [
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '온라인 댓글 정통망법 위반', href: '/guide/defamation/defamation-online-comment-information-network-act' },
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
       { label: '익명 게시판 작성자 추적', href: '/guide/defamation/defamation-anonymous-board-tracking' },
-      { label: '명예훼손 임시조치 신청', href: '/guide/defamation/defamation-temporary-measure-request' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-civil-damages-procedure' },
+      { label: '네이버카페 익명 아이디 신원공개 청구', href: '/guide/defamation/defamation-cafe-id-disclosure-request' },
+      { label: '유튜브 댓글 실명 비방 신원조회 손해배상', href: '/guide/defamation/defamation-youtube-realname-attack-civil-damages-victim' },
     ],
   },
 
@@ -429,7 +429,7 @@ export const spokesBatch54InheritanceDefamation: SpokePage[] = [
       { label: '명예훼손 가해자 방어 절차', href: '/guide/defamation/defamation-accused-defense-strategy' },
       { label: '단톡방 명예훼손 4요건', href: '/guide/defamation/defamation-group-chat-requirements-4items' },
       { label: '진실성 항변 다툼', href: '/guide/defamation/defamation-accused-truth-defense-argument' },
-      { label: '명예훼손 합의 협상', href: '/guide/defamation/defamation-settlement-negotiation' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
       { label: '회사 사내 험담 명예훼손', href: '/guide/defamation/defamation-coworker-spread-victim' },
     ],
   },
@@ -509,11 +509,11 @@ export const spokesBatch54InheritanceDefamation: SpokePage[] = [
     ],
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
-      { label: '명예훼손 임시조치 신청', href: '/guide/defamation/defamation-temporary-measure-request' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
       { label: '익명 게시판 작성자 추적', href: '/guide/defamation/defamation-anonymous-board-tracking' },
       { label: '명예훼손 게시물 삭제 가처분', href: '/guide/defamation/defamation-online-false-deletion-injunction' },
       { label: '학교 학부모 단톡방 명예훼손', href: '/guide/defamation/defamation-school-parent-chat-defamation' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-civil-damages-procedure' },
+      { label: '유튜브 댓글 실명 비방 신원조회 손해배상', href: '/guide/defamation/defamation-youtube-realname-attack-civil-damages-victim' },
     ],
   },
 ];

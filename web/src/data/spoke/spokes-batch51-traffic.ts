@@ -86,7 +86,7 @@ export const spokesBatch51Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '터널 다중추돌 책임 분배', href: '/guide/traffic-accident/traffic-accident-tunnel-pile-up-multi' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '보복운전 블박 입증', href: '/guide/traffic-accident/traffic-accident-road-rage-blackbox-proof-track' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-rear-end-fault-ratio' },
       { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
       { label: '무보험차 사고 정부보장사업', href: '/guide/traffic-accident/traffic-accident-uninsured-vehicle-claim' },
@@ -168,11 +168,11 @@ export const spokesBatch51Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '교통사고 형사합의 절차', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
+      { label: '무단횡단 보행자 사망 가해자 방어', href: '/guide/traffic-accident/traffic-accident-jaywalking-fatal-pedestrian-accused-criminal-civil-track' },
       { label: '신호위반 12대 중과실 합의 영향', href: '/guide/traffic-accident/traffic-accident-signal-violation-criminal-impact' },
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '교통사고 12대 중과실 정리', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '블랙박스 변조 의심', href: '/guide/traffic-accident/traffic-accident-dashcam-altered-evidence-track' },
     ],
   },
 
@@ -252,7 +252,7 @@ export const spokesBatch51Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '자전거 vs 보행자 사고 과실비율 9가지 케이스', href: '/guide/traffic-accident/traffic-accident-bicycle-pedestrian-fault-table' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '블랙박스 증거 활용 교통사고', href: '/guide/traffic-accident/traffic-accident-dashcam-evidence-guide' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-rear-end-fault-ratio' },
       { label: '보행자 무단횡단 사고 처벌', href: '/guide/traffic-accident/traffic-accident-pedestrian-cross-jaywalk' },
       { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
@@ -336,7 +336,7 @@ export const spokesBatch51Traffic: SpokePage[] = [
     internalLinks: [
       { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
       { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '교통사고 과실비율 다툼 방법과 증거 확보', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
       { label: '무보험차 사고 정부보장사업', href: '/guide/traffic-accident/traffic-accident-uninsured-vehicle-claim' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-rear-end-fault-ratio' },
     ],
@@ -418,7 +418,7 @@ export const spokesBatch51Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '자전거 vs 보행자 사고 과실비율 9가지 케이스', href: '/guide/traffic-accident/traffic-accident-bicycle-pedestrian-fault-table' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '블랙박스 없는 사고 입증', href: '/guide/traffic-accident/traffic-accident-no-blackbox-proof-dispute' },
       { label: '무보험차 사고 정부보장사업', href: '/guide/traffic-accident/traffic-accident-uninsured-vehicle-claim' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-rear-end-fault-ratio' },
       { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },

@@ -95,7 +95,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
     internalLinks: [
       { label: '교통사고 과실비율 분쟁 대응', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '블랙박스 증거 활용법', href: '/guide/traffic-accident/traffic-accident-dashcam-evidence-guide' },
-      { label: '교통사고 합의 전 준비사항', href: '/guide/traffic-accident/traffic-accident-settlement-before' },
+      { label: '합의 후 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim-settlement' },
       { label: '과실 분쟁 증거 수집', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
       { label: '교차로 좌회전 과실비율', href: '/guide/traffic-accident/traffic-accident-intersection-left-turn' },
     ],
@@ -184,7 +184,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
       { label: '교통사고 증거 수집 가이드', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
       { label: '블랙박스 활용법', href: '/guide/traffic-accident/traffic-accident-dashcam-evidence-guide' },
       { label: '교통사고 보험 청구 종합', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
-      { label: '과실 분쟁 심의위원회', href: '/guide/traffic-accident/traffic-accident-fault-commission' },
+      { label: '자전거도로 차량 충돌 과실비율 판단', href: '/guide/traffic-accident/traffic-accident-bicycle-lane-car-collision-fault-ratio-track' },
     ],
   },
 
@@ -271,7 +271,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
       { label: '차선위반 형사처벌', href: '/guide/traffic-accident/traffic-accident-lane-violation-criminal-penalty' },
       { label: '어린이 보행자 사고 청구', href: '/guide/traffic-accident/traffic-accident-child-pedestrian-claim' },
       { label: '블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-dashcam-evidence-guide' },
-      { label: '교통사고 합의 전 체크', href: '/guide/traffic-accident/traffic-accident-settlement-before' },
+      { label: '자전거 보행자 충돌 합의', href: '/guide/traffic-accident/traffic-accident-bicycle-pedestrian-settlement' },
     ],
   },
 
@@ -358,7 +358,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
       { label: '보험 청구 종합 가이드', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
       { label: '교통사고 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-treatment-claim' },
       { label: '자영업자 소득상실 청구', href: '/guide/traffic-accident/traffic-accident-lost-wage-self-employed' },
-      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-before' },
+      { label: '영유아 카시트 미착용 합의금', href: '/guide/traffic-accident/traffic-accident-infant-carseat-nonuse-settlement-reduction-track' },
     ],
   },
 
@@ -876,7 +876,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
       link: '/chat?domain=jeonse',
     },
     internalLinks: [
-      { label: '보증금 미반환 대응', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '보증금 반환 종합 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
       { label: '전세 계약 종료 절차', href: '/guide/jeonse/jeonse-contract-termination-procedure' },
       { label: '보증금 보증보험 가이드', href: '/guide/jeonse/jeonse-deposit-guarantee-insurance-guide' },

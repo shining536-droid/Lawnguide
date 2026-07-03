@@ -87,8 +87,8 @@ export const spokesBatch53Fraud: SpokePage[] = [
     internalLinks: [
       { label: '부동산 임대 보증금 사기 대응', href: '/guide/fraud/fraud-rental-deposit-scam-prevention' },
       { label: '공인중개사 보증금 횡령', href: '/guide/fraud/fraud-realtor-deposit-embezzlement' },
-      { label: '가압류 신청 절차', href: '/guide/fraud/fraud-provisional-seizure-procedure' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
       { label: '사기 형사 부대 배상명령', href: '/guide/fraud/fraud-victim-criminal-attached-civil-claim' },
     ],
   },
@@ -171,8 +171,8 @@ export const spokesBatch53Fraud: SpokePage[] = [
       { label: '국제결혼·로맨스 사기 회수', href: '/guide/fraud/fraud-international-romance-marriage-recovery' },
       { label: '결혼 전제 송금 회수', href: '/guide/fraud/fraud-romance-marriage-promise-recovery' },
       { label: '데이팅앱 송금 사기', href: '/guide/fraud/fraud-dating-app-money-loss' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -254,8 +254,8 @@ export const spokesBatch53Fraud: SpokePage[] = [
       { label: '라이브커머스 가품 사기', href: '/guide/fraud/fraud-livestream-counterfeit-purchase' },
       { label: '중고 명품 모조품 항변', href: '/guide/fraud/fraud-second-hand-luxury-replica-defense' },
       { label: 'SNS 광고 환불 거부 사기', href: '/guide/fraud/fraud-sns-ad-product-refund-blocked' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -337,8 +337,8 @@ export const spokesBatch53Fraud: SpokePage[] = [
       { label: '취업 사기 보증금 회수', href: '/guide/fraud/fraud-fake-job-deposit-recover' },
       { label: '채용 사기 보증금 합격 통보', href: '/guide/fraud/fraud-employment-job-offer-deposit-scam' },
       { label: '취업 사기 대응 절차', href: '/guide/fraud/fraud-employment-scam-response' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 

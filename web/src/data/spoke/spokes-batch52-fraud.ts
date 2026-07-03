@@ -86,10 +86,10 @@ export const spokesBatch52Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '투자 집단소송 절차 안내', href: '/guide/fraud/fraud-investment-collective-action' },
-      { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '가압류 신청 절차', href: '/guide/fraud/fraud-provisional-seizure-procedure' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 피해 민사소송 진행 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -171,8 +171,8 @@ export const spokesBatch52Fraud: SpokePage[] = [
       { label: 'SNS 쇼핑몰 미배송 대응', href: '/guide/fraud/fraud-sns-shopping-no-delivery' },
       { label: '가짜 온라인 쇼핑몰 대응', href: '/guide/fraud/fraud-fake-online-shopping-mall' },
       { label: '해외구매대행 사기 회수', href: '/guide/fraud/fraud-overseas-shipping-money-scam' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -338,7 +338,7 @@ export const spokesBatch52Fraud: SpokePage[] = [
       { label: '딥페이크 사칭 송금 회수', href: '/guide/fraud/fraud-deepfake-impersonation-money' },
       { label: '계좌 동결 48시간 대응', href: '/guide/fraud/fraud-account-freeze-48hr-response' },
       { label: '계좌 동결 회복 단계', href: '/guide/fraud/fraud-account-freeze-recovery-steps' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -417,11 +417,11 @@ export const spokesBatch52Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '온라인 카페·커뮤니티 회비 환급', href: '/guide/fraud/fraud-online-cafe-membership-fee-recovery' },
       { label: 'SNS 광고 환불 거부 사기', href: '/guide/fraud/fraud-sns-ad-product-refund-blocked' },
       { label: '사기 형사 부대 배상명령', href: '/guide/fraud/fraud-victim-criminal-attached-civil-claim' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 ];

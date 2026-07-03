@@ -90,11 +90,11 @@ export const spokesBatch70Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '코인 거래소 출금정지', href: '/guide/fraud/fraud-crypto-exchange-withdrawal-refuse-track' },
       { label: 'NFT 발행자 잠적', href: '/guide/fraud/fraud-nft-issuer-vanish-rugpull' },
-      { label: '집단 고소', href: '/guide/fraud/fraud-group-complaint' },
-      { label: '사이버 사기 신고', href: '/guide/fraud/fraud-cyber-complaint-ecrm' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 무고 방어 무고죄 역고소', href: '/guide/fraud/fraud-falsely-accused-defense-counter-complaint' },
     ],
   },
 
@@ -178,11 +178,11 @@ export const spokesBatch70Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '카카오 가족 사칭', href: '/guide/fraud/fraud-kakao-family-impersonation-100man' },
       { label: '메신저 사칭 환수', href: '/guide/fraud/fraud-messenger-family-impersonation-recovery' },
-      { label: '사이버 사기 신고', href: '/guide/fraud/fraud-cyber-complaint-ecrm' },
-      { label: '소비자분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '직장 동료 코인투자 권유 사기', href: '/guide/fraud/fraud-coworker-coin-investment-loss-dispute' },
     ],
   },
 
@@ -266,11 +266,11 @@ export const spokesBatch70Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '대출 브로커 선납', href: '/guide/fraud/fraud-loan-broker-upfront-fee-vanish-track' },
       { label: '부동산 이중계약', href: '/guide/fraud/fraud-real-estate-double-contract-recovery-track' },
-      { label: '소비자분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '사이버 사기 신고', href: '/guide/fraud/fraud-cyber-complaint-ecrm' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '투자 사기 고소 준비자료', href: '/guide/fraud/fraud-investment-complaint-prep-5items' },
     ],
   },
 
@@ -354,7 +354,7 @@ export const spokesBatch70Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '거짓 고소 방어', href: '/guide/fraud/fraud-falsely-accused-defense-counter-complaint' },
       { label: '사업 분쟁 방어', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
       { label: '채무 vs 범죄 구별', href: '/guide/fraud/fraud-debt-vs-crime-distinction' },
@@ -442,11 +442,11 @@ export const spokesBatch70Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: 'SNS 쇼핑 미배송', href: '/guide/fraud/fraud-sns-shopping-no-delivery' },
       { label: '라이브 위조품', href: '/guide/fraud/fraud-livestream-counterfeit-purchase' },
-      { label: '소비자분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
-      { label: '집단 고소', href: '/guide/fraud/fraud-group-complaint' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '단체 투자 사기 공동 회수', href: '/guide/fraud/fraud-elderly-group-investment-scam' },
     ],
   },
 ];

@@ -71,7 +71,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
     ],
     cta: { text: '권고사직 서류 검토 AI로 즉시 시작하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '권고사직 체크리스트', href: '/guide/dismissal/dismissal-recommended-resignation-check' },
+      { label: '권고사직 합의서 작성 주의사항', href: '/guide/dismissal/recommended-resignation-agreement-tips' },
       { label: '부당해고 증거 수집', href: '/guide/dismissal/dismissal-verbal-only-no-document' },
       { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' },
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
@@ -149,7 +149,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       { label: '출산휴가 복귀 해고', href: '/guide/dismissal/dismissal-maternity-return-fired' },
       { label: '부당해고 구제', href: '/guide/dismissal/dismissal-restructuring-unfair-criteria' },
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
-      { label: '권고사직 체크', href: '/guide/dismissal/dismissal-recommended-resignation-check' },
+      { label: '권고사직서 쓰기 전 확인사항', href: '/guide/dismissal/recommended-resignation-before-signing' },
     ],
   },
 
@@ -376,7 +376,7 @@ export const spokesBatch29DismissalPogual: SpokePage[] = [
       { label: '해고예고수당 계산', href: '/guide/dismissal/dismissal-notice-pay' },
       { label: '부당해고 구제', href: '/guide/dismissal/dismissal-restructuring-unfair-criteria' },
       { label: '해고사유서 요청', href: '/guide/dismissal/dismissal-reason-request-template' },
-      { label: '수습해고 대응', href: '/guide/dismissal/dismissal-probation-unfair-cases' },
+      { label: '수습기간 해고 부당해고 인정', href: '/guide/dismissal/probation-dismissal-unfair-recognition-cases' },
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
     ],
   },

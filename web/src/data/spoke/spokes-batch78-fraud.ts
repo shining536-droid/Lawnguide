@@ -87,10 +87,10 @@ export const spokesBatch78Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '구독 자동갱신 기만', href: '/guide/fraud/fraud-subscription-autorenewal-deceptive' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '중고거래 사기 형사 고소', href: '/guide/fraud/secondhand-fraud-criminal-before-civil' },
     ],
   },
 
@@ -172,8 +172,8 @@ export const spokesBatch78Fraud: SpokePage[] = [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '해외구매대행 이중청구', href: '/guide/fraud/fraud-overseas-buying-agent-double-billing-disappear-track' },
       { label: '가상자산 추적 절차', href: '/guide/fraud/fraud-crypto-mixer-tracing-steps' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -255,8 +255,8 @@ export const spokesBatch78Fraud: SpokePage[] = [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '가상자산 추적 절차', href: '/guide/fraud/fraud-crypto-mixer-tracing-steps' },
       { label: '거래소 인출 거부', href: '/guide/fraud/fraud-crypto-exchange-withdrawal-refuse-track' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -338,8 +338,8 @@ export const spokesBatch78Fraud: SpokePage[] = [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
       { label: '투자 사기 증거 수집', href: '/guide/fraud/investment-fraud-evidence-collection' },
       { label: '투자 피해 집단 대응', href: '/guide/fraud/fraud-investment-collective-action' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -422,7 +422,7 @@ export const spokesBatch78Fraud: SpokePage[] = [
       { label: '채무불이행 vs 사기 구분', href: '/guide/fraud/fraud-debt-vs-crime-distinction' },
       { label: '무고 방어 전략', href: '/guide/fraud/fraud-false-accusation-defense' },
       { label: '동업 횡령 다툼', href: '/guide/fraud/fraud-partnership-embezzlement-crime' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -502,10 +502,10 @@ export const spokesBatch78Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 고소 절차', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '소비자 분쟁조정', href: '/guide/fraud/fraud-consumer-dispute-mediation' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: 'SNS 광고 제품 환불 거부', href: '/guide/fraud/fraud-sns-ad-product-refund-blocked' },
-      { label: '사기 피해 환급', href: '/guide/fraud/fraud-victim-refund-procedure' },
-      { label: '사기죄 형사 절차', href: '/guide/fraud/fraud-criminal-procedure' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
+      { label: '형사 고소 vs 민사 소송 어떤 것이 유리한가', href: '/guide/fraud/criminal-vs-civil-fraud-lawsuit' },
     ],
   },
 ];

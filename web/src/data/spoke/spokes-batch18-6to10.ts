@@ -250,7 +250,7 @@ export const spokesBatch18_6to10: SpokePage[] = [
       { label: '이혼 진단', href: '/diagnosis/divorce' },
       { label: '협의이혼 준비서류 체크리스트', href: '/guide/divorce/consensual-divorce-required-documents-checklist' },
       { label: '이혼 재산분할 절차', href: '/guide/divorce/divorce-elderly-property-division' },
-      { label: '양육비 산정 기준과 청구 방법', href: '/guide/divorce/child-custody-support' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
     ],
   },
   {
@@ -331,9 +331,9 @@ export const spokesBatch18_6to10: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '마약 사건 진단', href: '/diagnosis/drug-crime' },
-      { label: '마약 사건 첫 대응 가이드', href: '/guide/drug-crime/drug-crime-first-response' },
-      { label: '마약 수사 절차와 처벌 기준', href: '/guide/drug-crime/drug-crime-investigation-process' },
-      { label: '마약 사건 변호사 선임 시 확인사항', href: '/guide/drug-crime/drug-crime-lawyer-checklist' },
+      { label: '마약 초범 처벌 수위와 대응 방법', href: '/guide/drug-crime/drug-crime-first-offense-sentencing' },
+      { label: '마약 모발검사 양성 대응 방법', href: '/guide/drug-crime/drug-crime-hair-test-positive-defense' },
+      { label: '마약 사건 변호사 방어 전략', href: '/guide/drug-crime/drug-charge-lawyer-defense-strategy' },
     ],
   },
   {
@@ -415,9 +415,9 @@ export const spokesBatch18_6to10: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '음주운전 진단', href: '/diagnosis/dui' },
-      { label: '음주운전 적발 후 첫 48시간 대응법', href: '/guide/dui/dui-first-48hours' },
-      { label: '음주운전 초범 면허 처분 대응법', href: '/guide/dui/dui-first-license' },
-      { label: '음주운전 2회 적발 시 대응법', href: '/guide/dui/dui-second-offense' },
+      { label: '음주운전 종합 가이드', href: '/guide/dui' },
+      { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },
+      { label: '음주운전 2회 재범 가중처벌', href: '/guide/dui/dui-second-offense-aggravated-track' },
     ],
   },
 ];

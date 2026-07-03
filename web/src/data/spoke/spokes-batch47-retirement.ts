@@ -86,26 +86,11 @@ export const spokesBatch47Retirement: SpokePage[] = [
     ],
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      {
-        label: '퇴직금 평균임금 산정 기준',
-        href: '/guide/retirement/retirement-severance-tax-calculation',
-      },
-      {
-        label: '중간정산 퇴직금 합산 여부',
-        href: '/guide/retirement/retirement-interim-settlement-inclusion',
-      },
-      {
-        label: '근로자퇴직급여보장법 IRP 의무지급',
-        href: '/guide/retirement/retirement-irp-mandatory-payment',
-      },
-      {
-        label: '퇴직금 미지급 진정 절차',
-        href: '/guide/retirement/retirement-unpaid-complaint-procedure',
-      },
-      {
-        label: '취업규칙 불이익 변경 무효 다툼',
-        href: '/guide/dismissal/dismissal-work-rules-disadvantageous-change',
-      },
+      { label: '퇴직금 평균임금 산정 기준', href: '/guide/retirement/retirement-severance-tax-calculation' },
+      { label: '퇴직금 중간정산 법정 사유', href: '/guide/retirement/retirement-interim-settlement-2024-rules' },
+      { label: 'IRP 의무이전 퇴직소득세 절세', href: '/guide/retirement/retirement-irp-mandatory-rollover-tax' },
+      { label: '퇴직금 미지급 신고 절차 4단계 타임라인', href: '/guide/retirement/unpaid-retirement-report-procedure' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 
@@ -186,26 +171,11 @@ export const spokesBatch47Retirement: SpokePage[] = [
     ],
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      {
-        label: '퇴직금 평균임금 산정 기준',
-        href: '/guide/retirement/retirement-severance-tax-calculation',
-      },
-      {
-        label: '퇴직금 미지급 진정 절차',
-        href: '/guide/retirement/retirement-unpaid-complaint-procedure',
-      },
-      {
-        label: '간이대지급금 신청 조건',
-        href: '/guide/retirement/retirement-simple-payment-eligibility',
-      },
-      {
-        label: '파견근로자 퇴직금 산정',
-        href: '/guide/retirement/retirement-dispatch-worker-calculation',
-      },
-      {
-        label: '퇴직금 소멸시효 3년 정리',
-        href: '/guide/retirement/retirement-statute-of-limitations',
-      },
+      { label: '퇴직금 평균임금 산정 기준', href: '/guide/retirement/retirement-severance-tax-calculation' },
+      { label: '퇴직금 미지급 신고 절차 4단계 타임라인', href: '/guide/retirement/unpaid-retirement-report-procedure' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
+      { label: '파견근로자 퇴직금 직접고용', href: '/guide/retirement/retirement-dispatch-worker-employer' },
+      { label: '퇴직금 소멸시효 3년 정리', href: '/guide/retirement/retirement-statute-of-limitations' },
     ],
   },
 ];

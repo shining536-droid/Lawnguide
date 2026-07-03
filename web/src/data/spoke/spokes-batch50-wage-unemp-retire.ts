@@ -89,7 +89,7 @@ export const spokesBatch50WageUnempRetire: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '임금체불 1년 경과 시효 청구', href: '/guide/wage/wage-unpaid-one-year-statute-claim' },
-      { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-report-procedure-timeline' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '식대·교통비 임의 중단 대응', href: '/guide/wage/wage-meal-transport-suddenly-stopped' },
       { label: '인센티브 기준 사후 변경 청구', href: '/guide/wage/wage-incentive-criteria-changed-after' },
       { label: '연봉 동결 일방 통보 대응', href: '/guide/wage/wage-salary-freeze-unilateral-notice' },
@@ -258,7 +258,7 @@ export const spokesBatch50WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '임금체불 1년 경과 시효 청구', href: '/guide/wage/wage-unpaid-one-year-statute-claim' },
       { label: '임금체불 진정 전 체크리스트', href: '/guide/wage/wage-complaint-pre-filing-checklist' },
-      { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-report-procedure-timeline' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '식대·교통비 임의 중단 대응', href: '/guide/wage/wage-meal-transport-suddenly-stopped' },
       { label: '인센티브 기준 사후 변경 청구', href: '/guide/wage/wage-incentive-criteria-changed-after' },
     ],
@@ -510,9 +510,9 @@ export const spokesBatch50WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '퇴직소득세 근속연수공제 환급', href: '/guide/retirement/retirement-tax-tenure-deduction-refund' },
       { label: '명예퇴직금 환수 재취업 제한 무효', href: '/guide/retirement/retirement-honorary-pay-recoupment-job-restriction' },
-      { label: '퇴직금 중간정산 후 합산', href: '/guide/retirement/retirement-interim-settlement-aggregation' },
-      { label: '퇴직금 시효 3년 청구', href: '/guide/retirement/retirement-pay-three-year-statute' },
-      { label: '퇴직금 계산 평균임금 산정', href: '/guide/retirement/retirement-pay-average-wage-calculation' },
+      { label: '퇴직금 중간정산 후 재정산', href: '/guide/retirement/retirement-interim-settlement-redo-conditions' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
+      { label: '평균임금 산정 기준 퇴직금 판단', href: '/guide/retirement/retirement-pay-average-wage-base-calculation-track' },
     ],
   },
 
@@ -593,9 +593,9 @@ export const spokesBatch50WageUnempRetire: SpokePage[] = [
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: '퇴직소득세 근속연수공제 환급', href: '/guide/retirement/retirement-tax-tenure-deduction-refund' },
-      { label: '퇴직금 중간정산 후 합산', href: '/guide/retirement/retirement-interim-settlement-aggregation' },
-      { label: '퇴직금 계산 평균임금 산정', href: '/guide/retirement/retirement-pay-average-wage-calculation' },
-      { label: '퇴직금 시효 3년 청구', href: '/guide/retirement/retirement-pay-three-year-statute' },
+      { label: '퇴직금 중간정산 요건 효력', href: '/guide/retirement/retirement-interim-settlement-requirement-track' },
+      { label: '평균임금 산정 기준 퇴직금 판단', href: '/guide/retirement/retirement-pay-average-wage-base-calculation-track' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '명예퇴직금 환수 재취업 제한 무효', href: '/guide/retirement/retirement-honorary-pay-recoupment-job-restriction' },
     ],
   },

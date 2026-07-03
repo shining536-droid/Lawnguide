@@ -84,9 +84,9 @@ export const spokesBatch40Labor1: SpokePage[] = [
     internalLinks: [
       { label: '자발적 퇴사 예외 사례 정리', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
       { label: '실업급여 신청 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
-      { label: '이직확인서 정정 방법', href: '/guide/unemployment/employment-insurance-separation-certificate' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '임금 체불 실업급여 요건', href: '/guide/unemployment/unemployment-wage-unpaid-2months-quit' },
-      { label: '임금체불 대응 순서', href: '/guide/wage/wage-unpaid-response-order' },
+      { label: '연차수당 못 받았을 때 대응 방법', href: '/guide/wage/annual-leave-pay-unpaid-response' },
     ],
   },
 
@@ -170,10 +170,10 @@ export const spokesBatch40Labor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '자발적 퇴사 예외 사례 정리', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
-      { label: '직장 내 괴롭힘 신고 절차', href: '/guide/wage/workplace-bullying-report-procedure' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '실업급여 신청 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
-      { label: '이직확인서 정정 방법', href: '/guide/unemployment/employment-insurance-separation-certificate' },
-      { label: '부당해고 구제신청 순서', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
     ],
   },
 
@@ -259,8 +259,8 @@ export const spokesBatch40Labor1: SpokePage[] = [
       { label: '자발적 퇴사 예외 사례 정리', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
       { label: '주52시간 초과 연장수당 계산', href: '/guide/wage/wage-overtime-over-weekly-52' },
       { label: '실업급여 신청 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
-      { label: '포괄임금제 연장수당 청구', href: '/guide/wage/comprehensive-wage-overtime-claim' },
-      { label: '이직확인서 정정 방법', href: '/guide/unemployment/employment-insurance-separation-certificate' },
+      { label: '포괄임금제 야근수당 청구', href: '/guide/wage/comprehensive-wage-overtime-response' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
     ],
   },
 
@@ -349,10 +349,10 @@ export const spokesBatch40Labor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '자발적 퇴사 예외 사례 정리', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
-      { label: '임금체불 대응 순서', href: '/guide/wage/wage-unpaid-response-order' },
-      { label: '간이대지급금 신청 방법', href: '/guide/wage/wage-simplified-substitute-payment' },
+      { label: '임금체불 신고당한 사업주가 저지르는 실수', href: '/guide/wage/unpaid-wage-employer-response' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
       { label: '실업급여 신청 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
-      { label: '이직확인서 정정 방법', href: '/guide/unemployment/employment-insurance-separation-certificate' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
     ],
   },
 
@@ -436,10 +436,10 @@ export const spokesBatch40Labor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '평균임금 산정 포함 항목', href: '/guide/retirement/average-wage-inclusion-items' },
-      { label: '퇴직금 미지급 청구 순서', href: '/guide/retirement/retirement-pay-unpaid-claim' },
-      { label: '주휴수당 계산 방법', href: '/guide/wage/weekly-holiday-pay-calculation' },
-      { label: '통상임금 포함 범위', href: '/guide/wage/ordinary-wage-scope' },
+      { label: '상여 평균임금 산입 퇴직금 재산정 채권보호', href: '/guide/retirement/retirement-average-wage-bonus-inclusion-recalculation-track' },
+      { label: '퇴직금 노동청 신고 민사청구 차이', href: '/guide/retirement/retirement-pay-labor-report-vs-civil-claim' },
+      { label: '주휴수당 안 줄 때 청구 방법', href: '/guide/wage/weekly-holiday-pay-claim-guide' },
+      { label: '성과급 통상임금 편입 범위', href: '/guide/wage/wage-performance-bonus-ordinary-wage-scope' },
     ],
   },
 
@@ -523,10 +523,10 @@ export const spokesBatch40Labor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '평균임금 산정 포함 항목', href: '/guide/retirement/average-wage-inclusion-items' },
+      { label: '상여금 포함 평균임금 퇴직금', href: '/guide/retirement/retirement-average-wage-bonus-inclusion-track' },
       { label: '야간근로 50% 가산수당', href: '/guide/wage/wage-night-work-50-percent-extra' },
-      { label: '포괄임금제 연장수당 청구', href: '/guide/wage/comprehensive-wage-overtime-claim' },
-      { label: '퇴직금 미지급 청구 순서', href: '/guide/retirement/retirement-pay-unpaid-claim' },
+      { label: '연장근로수당 야간수당 미지급 청구', href: '/guide/wage/unpaid-wage-overtime-claim' },
+      { label: '퇴직금 청구 어디부터 시작해야 하나', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
     ],
   },
 
@@ -610,10 +610,10 @@ export const spokesBatch40Labor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '퇴직금 계산 전체 절차', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '평균임금 산정 포함 항목', href: '/guide/retirement/average-wage-inclusion-items' },
-      { label: '성과급 통상임금 해당 기준', href: '/guide/wage/performance-bonus-ordinary-wage' },
-      { label: '퇴직금 미지급 청구 순서', href: '/guide/retirement/retirement-pay-unpaid-claim' },
-      { label: '영업수당 계산 방법', href: '/guide/wage/sales-commission-calculation' },
+      { label: '상여금 퇴직금 평균임금 산입', href: '/guide/retirement/retirement-bonus-average-wage-inclusion-track' },
+      { label: '성과급 통상임금 편입 범위', href: '/guide/wage/wage-performance-bonus-ordinary-wage-scope' },
+      { label: '퇴직금 노동청 신고 민사청구 차이', href: '/guide/retirement/retirement-pay-labor-report-vs-civil-claim' },
+      { label: '영업직 커미션 미지급 청구', href: '/guide/wage/wage-unpaid-commission-sales' },
     ],
   },
 
@@ -696,10 +696,10 @@ export const spokesBatch40Labor1: SpokePage[] = [
       link: '/chat?domain=wage',
     },
     internalLinks: [
-      { label: '연장근로 50% 가산 계산법', href: '/guide/wage/overtime-wage-calculation' },
+      { label: '임금체불 지연이자 14.6%', href: '/guide/wage/unpaid-wage-delay-interest-calculation' },
       { label: '야간근로 50% 가산수당', href: '/guide/wage/wage-night-work-50-percent-extra' },
-      { label: '통상임금 포함 범위', href: '/guide/wage/ordinary-wage-scope' },
-      { label: '임금체불 대응 순서', href: '/guide/wage/wage-unpaid-response-order' },
+      { label: '성과급 통상임금 편입 범위', href: '/guide/wage/wage-performance-bonus-ordinary-wage-scope' },
+      { label: '연차수당 못 받았을 때 대응 방법', href: '/guide/wage/annual-leave-pay-unpaid-response' },
       { label: '주52시간 초과 연장수당', href: '/guide/wage/wage-overtime-over-weekly-52' },
     ],
   },
@@ -784,10 +784,10 @@ export const spokesBatch40Labor1: SpokePage[] = [
     },
     internalLinks: [
       { label: '휴일근로 150% 가산 계산법', href: '/guide/wage/wage-holiday-work-150-percent-calculation' },
-      { label: '연장근로 50% 가산 계산법', href: '/guide/wage/overtime-wage-calculation' },
+      { label: '연장근로수당 계산법 내가 받아야 할 금액', href: '/guide/wage/wage-pogual-overtime-calculation-method' },
       { label: '야간근로 퇴직금 평균임금', href: '/guide/retirement/retirement-night-shift-average-wage' },
-      { label: '임금체불 대응 순서', href: '/guide/wage/wage-unpaid-response-order' },
-      { label: '포괄임금제 연장수당 청구', href: '/guide/wage/comprehensive-wage-overtime-claim' },
+      { label: '임금체불 신고당한 사업주가 저지르는 실수', href: '/guide/wage/unpaid-wage-employer-response' },
+      { label: '포괄임금 약정시간 초과분 별도 청구', href: '/guide/wage/wage-comprehensive-cap-overtime-over-claim-track' },
     ],
   },
 
@@ -875,11 +875,11 @@ export const spokesBatch40Labor1: SpokePage[] = [
       link: '/chat?domain=wage',
     },
     internalLinks: [
-      { label: '연장근로 50% 가산 계산법', href: '/guide/wage/overtime-wage-calculation' },
+      { label: '포괄임금제 야근수당 청구', href: '/guide/wage/comprehensive-wage-overtime-response' },
       { label: '휴일근로 150% 가산 계산법', href: '/guide/wage/wage-holiday-work-150-percent-calculation' },
       { label: '야간근로 50% 가산수당', href: '/guide/wage/wage-night-work-50-percent-extra' },
       { label: '주52시간 위반 퇴사 실업급여', href: '/guide/unemployment/unemployment-weekly-52-hour-violation-quit' },
-      { label: '임금체불 대응 순서', href: '/guide/wage/wage-unpaid-response-order' },
+      { label: '연차수당 못 받았을 때 대응 방법', href: '/guide/wage/annual-leave-pay-unpaid-response' },
     ],
   },
 ];

@@ -85,7 +85,7 @@ export const spokesBatch56Retire: SpokePage[] = [
       { label: '평균임금 산정 분쟁', href: '/guide/retirement/retirement-average-wage-dispute' },
       { label: '징계해고 후 퇴직금', href: '/guide/retirement/retirement-disciplinary-fired-pay' },
       { label: '퇴직금 계산식 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
-      { label: '정년 후 재고용 거절 영향', href: '/guide/retirement/retirement-post-retirement-rehire-rights' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '근속 30년 퇴직금 산정', href: '/guide/retirement/retirement-comprehensive-calculation-formula' },
     ],
   },

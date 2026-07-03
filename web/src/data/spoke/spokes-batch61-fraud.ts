@@ -395,7 +395,7 @@ export const spokesBatch61Fraud: SpokePage[] = [
       { label: '미배송 사기 회수', href: '/guide/fraud/fraud-sns-shopping-no-delivery' },
       { label: 'SNS 광고 환불 거부', href: '/guide/fraud/fraud-sns-ad-product-refund-blocked' },
       { label: '사기 고소 준비', href: '/guide/fraud/fraud-victim-where-to-start' },
-      { label: '한국소비자원 분쟁조정', href: '/guide/small-claims/small-claims-where-to-start' },
+      { label: '소액소송 직접 하는 법 — 소장 작성부터 판결까지', href: '/guide/small-claims/small-claims-self-filing-guide' },
       { label: '범죄피해자 부대청구', href: '/guide/fraud/fraud-victim-criminal-attached-civil-claim' },
     ],
   },

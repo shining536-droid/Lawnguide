@@ -97,7 +97,7 @@ export const spokesBatch34Labor: SpokePage[] = [
       link: '/chat?domain=unemployment',
     },
     internalLinks: [
-      { label: '실업급여 전체 절차 가이드', href: '/guide/unemployment/unemployment-full-process' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '자발적 퇴사 실업급여 수급 조건', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
       { label: '실업급여 부정수급 제재 안내', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
       { label: '실업급여 신청부터 지급까지 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
@@ -181,7 +181,7 @@ export const spokesBatch34Labor: SpokePage[] = [
       link: '/chat?domain=unemployment',
     },
     internalLinks: [
-      { label: '실업급여 전체 절차 가이드', href: '/guide/unemployment/unemployment-full-process' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '자발적 퇴사 실업급여 수급 조건', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
       { label: '실업급여 신청부터 지급까지 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
       { label: '권고사직 실업급여 안내', href: '/guide/unemployment/recommended-resignation-unemployment-benefit' },
@@ -270,7 +270,7 @@ export const spokesBatch34Labor: SpokePage[] = [
       link: '/chat?domain=unemployment',
     },
     internalLinks: [
-      { label: '실업급여 전체 절차 가이드', href: '/guide/unemployment/unemployment-full-process' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '자발적 퇴사 실업급여 수급 조건', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
       { label: '실업급여 부정수급 제재 안내', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
       { label: '실업급여 신청부터 지급까지 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
@@ -706,10 +706,10 @@ export const spokesBatch34Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '부당해고 구제 절차 가이드', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '해고 당했을 때 대응 가이드', href: '/guide/dismissal/dismissal-fired-response-guide' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
       { label: '퇴직금 청구 어디서부터 시작할까', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
       { label: '임금체불 어디서부터 시작할까', href: '/guide/wage/unpaid-wage-where-to-start' },
-      { label: '실업급여 전체 절차 가이드', href: '/guide/unemployment/unemployment-full-process' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
     ],
   },
 
@@ -795,7 +795,7 @@ export const spokesBatch34Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '부당해고 구제 절차 가이드', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '해고 당했을 때 대응 가이드', href: '/guide/dismissal/dismissal-fired-response-guide' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
       { label: '수습 최저임금 위반 구제', href: '/guide/wage/unpaid-wage-probation-minimum-wage-violation' },
       { label: '자발적 퇴사 실업급여 수급 조건', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
       { label: '퇴직금 청구 어디서부터 시작할까', href: '/guide/retirement/retirement-pay-claim-where-to-start' },

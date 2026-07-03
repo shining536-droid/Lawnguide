@@ -85,10 +85,10 @@ export const spokesBatch55DivorceA: SpokePage[] = [
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '국제결혼 이혼 절차', href: '/guide/divorce/divorce-international-marriage-procedure' },
-      { label: '협의이혼 준비서류 체크리스트', href: '/guide/divorce/divorce-uncontested-document-checklist' },
-      { label: '재판상 이혼 사유 6가지', href: '/guide/divorce/divorce-judicial-grounds-six-cases' },
-      { label: '외국인 배우자 양육자 지정', href: '/guide/divorce/divorce-foreign-parent-custody' },
-      { label: '이혼 후 외국 본국 신고', href: '/guide/divorce/divorce-foreign-registration-after' },
+      { label: '협의이혼 서류 체크리스트', href: '/guide/divorce/uncontested-divorce-document-checklist' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '외국인 배우자 양육권 국제관할', href: '/guide/divorce/divorce-foreign-spouse-custody-jurisdiction' },
+      { label: '이혼 후 발견된 재산 추가 분할', href: '/guide/divorce/divorce-asset-discovered-after-trial' },
     ],
   },
 
@@ -169,9 +169,9 @@ export const spokesBatch55DivorceA: SpokePage[] = [
     internalLinks: [
       { label: '황혼이혼 30년 재산분할', href: '/guide/divorce/divorce-late-life-30years-property-division' },
       { label: '황혼이혼 가사노동 기여도', href: '/guide/divorce/divorce-late-life-housework-contribution-proof' },
-      { label: '특유재산과 기여도 평가', href: '/guide/divorce/divorce-special-property-contribution' },
+      { label: '혼인 전 재산 증가분 기여도 재산분할 판단', href: '/guide/divorce/divorce-premarital-property-increase-contribution-division-track' },
       { label: '연금분할 청구 기한', href: '/guide/divorce/divorce-pension-division-timeline' },
-      { label: '재산분할 2년 제척기간', href: '/guide/divorce/divorce-property-division-2years-deadline' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
     ],
   },
 ];

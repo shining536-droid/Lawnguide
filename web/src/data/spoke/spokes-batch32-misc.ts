@@ -917,7 +917,7 @@ export const spokesBatch32Misc: SpokePage[] = [
     cta: { text: '전대차 보증금 보호 가능 여부 AI로 확인하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '보증금 반환 절차', href: '/guide/jeonse/deposit-return-process' },
-      { label: '보증금 미반환 대응', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전입신고 필수 요건', href: '/guide/jeonse/jeonse-tenant-registration-requirement' },
       { label: '계약갱신 거절 대응', href: '/guide/jeonse/jeonse-renewal-landlord-refusal' },
       { label: '계약만료 보증금 반환', href: '/guide/jeonse/lease-expiry-deposit-return-steps' },
@@ -991,7 +991,7 @@ export const spokesBatch32Misc: SpokePage[] = [
     cta: { text: '임대인 세금체납 위험도 AI로 분석하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '보증금 반환 절차', href: '/guide/jeonse/deposit-return-process' },
-      { label: '보증금 미반환 대응', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전입신고 필수 요건', href: '/guide/jeonse/jeonse-tenant-registration-requirement' },
       { label: '계약갱신 거절 대응', href: '/guide/jeonse/jeonse-renewal-landlord-refusal' },
       { label: '계약만료 보증금 반환', href: '/guide/jeonse/lease-expiry-deposit-return-steps' },

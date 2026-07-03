@@ -83,8 +83,8 @@ export const spokesBatch55DismissalB: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '정리해고 4요건 점검', href: '/guide/dismissal/dismissal-collective-redundancy-criteria' },
-      { label: '경영상 해고 협의 의무', href: '/guide/dismissal/dismissal-management-consultation' },
+      { label: '경영상 정리해고 50일 협의 위반', href: '/guide/dismissal/dismissal-collective-redundancy-50days-consultation-violation' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
       { label: '해고통보서 사유 부실 다툼', href: '/guide/dismissal/dismissal-incomplete-reason-letter' },
       { label: '권고사직 거부 후 압박 해고', href: '/guide/dismissal/dismissal-recommended-resignation-refused-pressure' },
       { label: '입사 1년 미만 부당해고 구제', href: '/guide/dismissal/dismissal-under-1year-tenure-relief-eligibility' },
@@ -166,11 +166,11 @@ export const spokesBatch55DismissalB: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '시용기간 본채용 거부 다툼', href: '/guide/dismissal/dismissal-trial-period-rejection-criteria' },
-      { label: '수습 평가 부재 부당해고', href: '/guide/dismissal/dismissal-probation-evaluation-missing' },
+      { label: '산재 종결 후 복직거부', href: '/guide/dismissal/dismissal-injury-recovery-period-rejection' },
+      { label: '수습기간 평가 본채용 거부 부당해고 판단', href: '/guide/dismissal/dismissal-probation-evaluation-final-hire-refusal-track' },
       { label: '입사 1년 미만 부당해고 구제', href: '/guide/dismissal/dismissal-under-1year-tenure-relief-eligibility' },
       { label: '해고통보서 사유 부실 다툼', href: '/guide/dismissal/dismissal-incomplete-reason-letter' },
-      { label: '근로계약서 시용 명시 점검', href: '/guide/dismissal/dismissal-trial-clause-check' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 
@@ -249,11 +249,11 @@ export const spokesBatch55DismissalB: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '폐업 해고 구제 가능 여부', href: '/guide/dismissal/dismissal-shutdown-relief-availability' },
-      { label: '정리해고 4요건 점검', href: '/guide/dismissal/dismissal-collective-redundancy-criteria' },
-      { label: '경영상 해고 협의 의무', href: '/guide/dismissal/dismissal-management-consultation' },
-      { label: '노조활동 부당노동행위 다툼', href: '/guide/dismissal/dismissal-union-activity-unfair-labor' },
-      { label: '체불임금·해고예고수당 청구', href: '/guide/dismissal/dismissal-unpaid-wage-notice-pay' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
+      { label: '정리해고 사전통지 누락', href: '/guide/dismissal/dismissal-collective-redundancy-50plus-one-omitted-notice' },
+      { label: '관리직 강등 후 해고', href: '/guide/dismissal/dismissal-management-position-change-pretext' },
+      { label: '노조 활동 보복 해고 부당노동행위', href: '/guide/dismissal/dismissal-union-activity-retaliation' },
+      { label: '해고예고수당 미지급 부당해고 구제', href: '/guide/dismissal/dismissal-relief-application-notice-pay-unpaid-track' },
     ],
   },
 ];

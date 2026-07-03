@@ -239,7 +239,7 @@ export const spokesBatch61Traffic: SpokePage[] = [
       { label: '주차장 사고 과실', href: '/guide/traffic-accident/traffic-accident-reverse-public-road-vs-parking-lot-track-split' },
       { label: '교통사고 첫 대응', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
       { label: '교통사고 합의 실수', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
-      { label: '시설 사고 보상', href: '/guide/small-claims/small-claims-where-to-start' },
+      { label: '소액소송 vs 지급명령 어떤 게 유리한가', href: '/guide/small-claims/small-claims-vs-payment-order' },
       { label: '낙하물 사고', href: '/guide/traffic-accident/traffic-accident-road-debris-fallen-object-liability' },
     ],
   },

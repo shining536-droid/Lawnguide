@@ -85,11 +85,11 @@ export const spokesBatch63Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
-      { label: '징계해고 절차', href: '/guide/dismissal/dismissal-disciplinary-procedure' },
-      { label: '해고 증거 수집', href: '/guide/dismissal/dismissal-evidence-collection' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
+      { label: '징계절차 위반 해고', href: '/guide/dismissal/dismissal-disciplinary-procedure-track' },
+      { label: '부당해고 증거 수집 방법', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
       { label: '구제절차 종합', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 
@@ -163,11 +163,11 @@ export const spokesBatch63Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: '5인 미만 사업장', href: '/guide/dismissal/dismissal-under-five-employees-relief-paths' },
       { label: '해고예고수당', href: '/guide/dismissal/dismissal-notice-pay' },
       { label: '수습 해고 정당성', href: '/guide/dismissal/probation-dismissal-legality' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 
@@ -241,11 +241,11 @@ export const spokesBatch63Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
-      { label: '경영상 해고 요건', href: '/guide/dismissal/dismissal-redundancy-requirements' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
       { label: '직제 개편 위장', href: '/guide/dismissal/dismissal-restructuring-position-elimination' },
-      { label: '해고 증거 수집', href: '/guide/dismissal/dismissal-evidence-collection' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '부당해고 증거 수집 방법', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
+      { label: '부당해고 구제절차 전체 흐름 총정리', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
     ],
   },
 
@@ -319,11 +319,11 @@ export const spokesBatch63Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: '괴롭힘 신고 보복', href: '/guide/dismissal/dismissal-bullying-report-retaliation' },
       { label: '직장 내 괴롭힘 절차', href: '/guide/dismissal/workplace-bullying-complaint-procedure' },
       { label: '내부고발 보복', href: '/guide/dismissal/dismissal-whistleblower-retaliation' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 
@@ -402,11 +402,11 @@ export const spokesBatch63Dismissal: SpokePage[] = [
     ],
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
-      { label: '부당해고 구제신청', href: '/guide/dismissal/unfair-dismissal-relief-application' },
+      { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: 'SNS 비판 정당성', href: '/guide/dismissal/dismissal-sns-criticism-legitimacy' },
-      { label: '징계해고 절차', href: '/guide/dismissal/dismissal-disciplinary-procedure' },
+      { label: '징계위원회 절차 누락 부당해고 판단', href: '/guide/dismissal/dismissal-disciplinary-committee-procedure-omission-track' },
       { label: '소명 기회 위반', href: '/guide/dismissal/dismissal-disciplinary-warning-no-defense-chance' },
-      { label: '노동위 절차', href: '/guide/dismissal/dismissal-labor-commission-procedure' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],
   },
 ];

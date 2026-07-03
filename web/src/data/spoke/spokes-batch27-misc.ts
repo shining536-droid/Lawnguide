@@ -43,7 +43,7 @@ export const spokesBatch27Misc: SpokePage[] = [
       { question: '양육비는 어느 나라 기준으로 산정되나요?', answer: '<p>자녀가 한국에 거주하면 한국법 기준으로 양육비가 산정됩니다.</p>' },
     ],
     cta: { text: '국제결혼 이혼 절차 AI로 확인하기', link: '/chat?domain=divorce' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '이혼 가이드', href: '/guide/divorce' }, { label: '이혼 상담 준비', href: '/guide/divorce/divorce-consultation-prep' }, { label: '재산분할', href: '/guide/divorce/divorce-property-division-scope-faq' }, { label: '양육비 청구', href: '/guide/divorce/child-support-claim-where-to-start' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '이혼 가이드', href: '/guide/divorce' }, { label: '이혼 상담 준비', href: '/guide/divorce/divorce-consultation-prep' }, { label: '재산분할', href: '/guide/divorce/divorce-property-division-scope-faq' }, { label: '이혼 후 과거 양육비 소급 청구 3단계 절차', href: '/guide/divorce/divorce-past-child-support-claim-years-later' }],
   },
 
   {
@@ -82,7 +82,7 @@ export const spokesBatch27Misc: SpokePage[] = [
       { question: '대학교 등록금도 양육비에 포함되나요?', answer: '<p>대학 등록금은 별도의 교육비로 청구할 수 있으며, 법원이 양쪽 부모의 경제력을 고려하여 분담 비율을 정합니다.</p>' },
     ],
     cta: { text: '과거 양육비 소급 청구 금액 AI로 계산하기', link: '/chat?domain=child-support' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '양육비 가이드', href: '/guide/child-support' }, { label: '양육비 계산 기준', href: '/guide/divorce/child-support-calculation-standard' }, { label: '양육비 강제집행', href: '/guide/divorce/child-support-enforcement-methods' }, { label: '양육비이행관리원', href: '/guide/child-support/child-support-direct-vs-agency-comparison' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '양육비 가이드', href: '/guide/child-support' }, { label: '양육비 계산 기준', href: '/guide/divorce/child-support-calculation-standard' }, { label: '양육비 이행확보 방법 총정리', href: '/guide/divorce/divorce-child-support-enforcement-guide' }, { label: '양육비이행관리원 추심 한계', href: '/guide/child-support/child-support-agency-collection-limits' }],
   },
 
   {
@@ -242,7 +242,7 @@ export const spokesBatch27Misc: SpokePage[] = [
       { question: '위자료는 얼마나 받을 수 있나요?', answer: '<p>층간소음 위자료는 통상 100~500만원 수준이며, 소음의 정도와 기간에 따라 달라집니다.</p>' },
     ],
     cta: { text: '층간소음 법적 대응 방법 AI로 확인하기', link: '/chat?domain=neighbor-dispute' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' }, { label: '층간소음 법적 절차', href: '/guide/neighbor-dispute/neighbor-dispute-noise-legal-steps' }, { label: '소음 기준치', href: '/guide/neighbor-dispute/neighbor-noise-decibel-standard-guide' }, { label: '반려동물 소음', href: '/guide/neighbor-dispute/neighbor-dispute-pet-noise-smell' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' }, { label: '층간소음 관리사무소 민원 법적 조치 절차', href: '/guide/neighbor-dispute/neighbor-noise-management-office-legal-action' }, { label: '층간소음 기준 데시벨', href: '/guide/neighbor-dispute/floor-noise-decibel-standard' }, { label: '층간소음 외 이웃 분쟁 해결 — 악취·반려동물·주차', href: '/guide/neighbor-dispute/neighbor-dispute-smell-pet-parking' }],
   },
 
   {
@@ -281,7 +281,7 @@ export const spokesBatch27Misc: SpokePage[] = [
       { question: '전자담배도 간접흡연에 해당하나요?', answer: '<p>전자담배 에어로졸도 유해물질을 포함하므로 간접흡연 피해로 인정될 수 있습니다.</p>' },
     ],
     cta: { text: '간접흡연 피해 법적 대응 방법 AI로 확인하기', link: '/chat?domain=neighbor-dispute' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' }, { label: '층간소음 증거 수집', href: '/guide/neighbor-dispute/neighbor-noise-evidence-app-recording' }, { label: '층간소음 법적 절차', href: '/guide/neighbor-dispute/neighbor-dispute-noise-legal-steps' }, { label: '반려동물 소음·냄새', href: '/guide/neighbor-dispute/neighbor-dispute-pet-noise-smell' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' }, { label: '층간소음 증거 수집', href: '/guide/neighbor-dispute/neighbor-noise-evidence-app-recording' }, { label: '리모델링 공사소음 손해배상', href: '/guide/neighbor-dispute/neighbor-dispute-renovation-noise-claim' }, { label: '층간소음 외 이웃 분쟁 해결 — 악취·반려동물·주차', href: '/guide/neighbor-dispute/neighbor-dispute-smell-pet-parking' }],
   },
 
 ];

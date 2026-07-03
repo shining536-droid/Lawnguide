@@ -83,10 +83,10 @@ export const spokesBatch55DismissalA: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '해고통보서 사유 부실 다툼', href: '/guide/dismissal/dismissal-incomplete-reason-letter' },
-      { label: '해고예고수당 30일분 청구 절차', href: '/guide/dismissal/dismissal-30day-notice-pay-claim' },
+      { label: '해고예고수당 미지급 30일 위반', href: '/guide/dismissal/dismissal-notice-pay-30days-violation-claim' },
       { label: '입사 1년 미만 부당해고 구제', href: '/guide/dismissal/dismissal-under-1year-tenure-relief-eligibility' },
-      { label: '5인 미만 사업장 해고 다툼', href: '/guide/dismissal/dismissal-under-five-civil-track' },
-      { label: '구두 해고 통보 효력 다툼', href: '/guide/dismissal/dismissal-verbal-notice-validity' },
+      { label: '5인 미만 사업장 부당해고 우회', href: '/guide/dismissal/dismissal-under-five-employees-relief-paths' },
+      { label: '구두 해고 통보 대응', href: '/guide/dismissal/dismissal-verbal-fire-no-notice-track' },
     ],
   },
 
@@ -166,9 +166,9 @@ export const spokesBatch55DismissalA: SpokePage[] = [
     cta: { text: '사직서 쓰기 전 확인할 것, AI로 점검하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '권고사직 거부 후 압박 해고', href: '/guide/dismissal/dismissal-recommended-resignation-refused-pressure' },
-      { label: '사직서 자필 작성 비진의 무효 다툼', href: '/guide/dismissal/dismissal-resignation-letter-non-genuine' },
-      { label: '실질적 해고 vs 의원면직 구분', href: '/guide/dismissal/dismissal-de-facto-vs-voluntary' },
-      { label: '권고사직 코드 실업급여 정정', href: '/guide/dismissal/dismissal-recommended-unemployment-code' },
+      { label: '권고사직 강요 사직서 무효', href: '/guide/dismissal/dismissal-forced-resignation-letter-invalidation' },
+      { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
+      { label: '권고사직 서류 함정 주의', href: '/guide/dismissal/dismissal-recommended-resign-trap' },
       { label: '카톡 해고 통보 서면통지 위반', href: '/guide/dismissal/dismissal-text-message-tomorrow-no-come-illegal' },
     ],
   },

@@ -94,8 +94,8 @@ export const spokesBatch23_8to14: SpokePage[] = [
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
       { label: '경매 입찰 전 체크리스트', href: '/guide/real-estate-auction/pre-bidding-checklist' },
       { label: '경매 초보자 흔한 실수 5가지', href: '/guide/real-estate-auction/beginner-auction-common-mistakes' },
-      { label: '경매 낙찰 후 잔금 절차', href: '/guide/real-estate-auction/after-winning-bid-process' },
-      { label: '경매 권리분석 방법', href: '/guide/real-estate-auction/auction-rights-analysis' },
+      { label: '경매 낙찰 후 명도 소송 절차', href: '/guide/real-estate-auction/eviction-after-winning-bid' },
+      { label: '경매 입찰 전 권리분석 필수 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
     ],
   },
 
@@ -175,8 +175,8 @@ export const spokesBatch23_8to14: SpokePage[] = [
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
       { label: '경매 입찰 전 체크리스트', href: '/guide/real-estate-auction/pre-bidding-checklist' },
       { label: '경매 세입자 있는 물건 대처법', href: '/guide/real-estate-auction/auction-property-with-tenant' },
-      { label: '경매 권리분석 총정리', href: '/guide/real-estate-auction/auction-rights-analysis' },
-      { label: '경매 낙찰 후 잔금 절차', href: '/guide/real-estate-auction/after-winning-bid-process' },
+      { label: '경매 입찰 전 권리분석 필수 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
+      { label: '경매 낙찰 후 명도 소송 절차', href: '/guide/real-estate-auction/eviction-after-winning-bid' },
     ],
   },
 
@@ -264,7 +264,7 @@ export const spokesBatch23_8to14: SpokePage[] = [
       { label: '윗집 층간소음 대처법', href: '/guide/neighbor-dispute/unbearable-upstairs-noise-response' },
       { label: '층간소음 신고부터 조정까지 절차', href: '/guide/neighbor-dispute/floor-noise-report-to-mediation-procedure' },
       { label: '층간소음 피해 어디부터 시작해야 하나', href: '/guide/neighbor-dispute/floor-noise-victim-where-to-start' },
-      { label: '이웃 간 분쟁 손해배상 청구', href: '/guide/neighbor-dispute/neighbor-noise-damage-claim' },
+      { label: '리모델링 공사소음 손해배상', href: '/guide/neighbor-dispute/neighbor-dispute-renovation-noise-claim' },
     ],
   },
 

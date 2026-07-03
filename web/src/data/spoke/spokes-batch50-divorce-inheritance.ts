@@ -88,11 +88,11 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '재산분할 청구 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
       { label: '외도 부인 배우자 증거 보강', href: '/guide/divorce/divorce-affair-denial-evidence-strengthening' },
-      { label: '양육비 미지급 강제집행 절차', href: '/guide/divorce/child-support-enforcement-process' },
+      { label: '양육비 무재산 강제집행', href: '/guide/divorce/divorce-child-support-no-asset-enforcement' },
       { label: '사실혼 파기 위자료 청구 절차', href: '/guide/divorce/divorce-de-facto-marriage-alimony-claim' },
-      { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
     ],
   },
 
@@ -173,9 +173,9 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     internalLinks: [
       { label: '특유재산 재산분할 제외 기준', href: '/guide/divorce/divorce-special-property-exclusion-criteria' },
       { label: '재산분할 비율 산정 핵심 요소', href: '/guide/divorce/property-division-ratio-key-factors' },
-      { label: '재산분할 청구 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
       { label: '협의이혼 의사확인 절차', href: '/guide/divorce/consensual-divorce-process' },
-      { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
     ],
   },
 
@@ -256,9 +256,9 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     internalLinks: [
       { label: '재산분할 비율 산정 핵심 요소', href: '/guide/divorce/property-division-ratio-key-factors' },
       { label: '특유재산 재산분할 제외 기준', href: '/guide/divorce/divorce-special-property-exclusion-criteria' },
-      { label: '재산분할 청구 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
       { label: '협의이혼 의사확인 절차', href: '/guide/divorce/consensual-divorce-process' },
-      { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
     ],
   },
 
@@ -337,11 +337,11 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '양육비 미지급 강제집행 절차', href: '/guide/divorce/child-support-enforcement-process' },
-      { label: '친권자·양육권 지정 기준', href: '/guide/divorce/divorce-custody-criteria' },
-      { label: '면접교섭권 행사 절차', href: '/guide/divorce/divorce-visitation-procedure' },
+      { label: '양육비 이행확보 방법 총정리', href: '/guide/divorce/divorce-child-support-enforcement-guide' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '조부모 면접교섭', href: '/guide/divorce/divorce-grandparent-visitation-custody-track' },
       { label: '협의이혼 의사확인 절차', href: '/guide/divorce/consensual-divorce-process' },
-      { label: '재판상 이혼 절차 총정리', href: '/guide/divorce/divorce-litigation-procedure-comprehensive' },
+      { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
     ],
   },
 
@@ -422,9 +422,9 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     internalLinks: [
       { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
       { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
-      { label: '상속 빚 발견 시 대응', href: '/guide/inheritance/inheritance-overdue-debt-discovery' },
-      { label: '상속 분할 비율 산정', href: '/guide/inheritance/inheritance-property-division-formula' },
-      { label: '상속 빚이 더 많을 때', href: '/guide/inheritance/inheritance-debt-more-than-asset' },
+      { label: '부모 사망 후 숨겨진 빚 발견했을 때', href: '/guide/inheritance/inheritance-hidden-debt-discovery' },
+      { label: '상속재산분할심판 기여분', href: '/guide/inheritance/inheritance-property-division-trial-contribution-portion-spouse-caregiving-track' },
+      { label: '상속재산 채무 비교 불명 결정', href: '/guide/inheritance/inheritance-debt-vs-asset-unclear-decision-track' },
     ],
   },
 
@@ -505,9 +505,9 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     internalLinks: [
       { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
-      { label: '상속재산 분할협의 절차', href: '/guide/inheritance/inheritance-property-division-formula' },
-      { label: '상속 빚 발견 시 대응', href: '/guide/inheritance/inheritance-overdue-debt-discovery' },
-      { label: '상속 빚이 더 많을 때', href: '/guide/inheritance/inheritance-debt-more-than-asset' },
+      { label: '상속재산분할심판 기여분', href: '/guide/inheritance/inheritance-property-division-trial-contribution-portion-spouse-caregiving-track' },
+      { label: '부모 사망 후 숨겨진 빚 발견했을 때', href: '/guide/inheritance/inheritance-hidden-debt-discovery' },
+      { label: '상속채무 초과 한정승인 신청 절차', href: '/guide/inheritance/inheritance-debt-over-asset-limited-acceptance-procedure-track' },
     ],
   },
 
@@ -588,9 +588,9 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     internalLinks: [
       { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
       { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
-      { label: '상속 분할 비율 산정', href: '/guide/inheritance/inheritance-property-division-formula' },
-      { label: '상속 빚 발견 시 대응', href: '/guide/inheritance/inheritance-overdue-debt-discovery' },
-      { label: '상속 빚이 더 많을 때', href: '/guide/inheritance/inheritance-debt-more-than-asset' },
+      { label: '상속재산분할심판 기여분', href: '/guide/inheritance/inheritance-property-division-trial-contribution-portion-spouse-caregiving-track' },
+      { label: '부모 사망 후 숨겨진 빚 발견했을 때', href: '/guide/inheritance/inheritance-hidden-debt-discovery' },
+      { label: '상속재산 채무 비교 불명 결정', href: '/guide/inheritance/inheritance-debt-vs-asset-unclear-decision-track' },
     ],
   },
 
@@ -671,9 +671,9 @@ export const spokesBatch50DivorceInheritance: SpokePage[] = [
     internalLinks: [
       { label: '상속세 6개월 신고 절차', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '한정승인 필요서류 정리', href: '/guide/inheritance/inheritance-renunciation-vs-limited-comparison' },
-      { label: '상속 분할 비율 산정', href: '/guide/inheritance/inheritance-property-division-formula' },
-      { label: '상속 빚 발견 시 대응', href: '/guide/inheritance/inheritance-overdue-debt-discovery' },
-      { label: '상속 빚이 더 많을 때', href: '/guide/inheritance/inheritance-debt-more-than-asset' },
+      { label: '상속재산분할심판 기여분', href: '/guide/inheritance/inheritance-property-division-trial-contribution-portion-spouse-caregiving-track' },
+      { label: '부모 사망 후 숨겨진 빚 발견했을 때', href: '/guide/inheritance/inheritance-hidden-debt-discovery' },
+      { label: '상속채무 초과 한정승인 신청 절차', href: '/guide/inheritance/inheritance-debt-over-asset-limited-acceptance-procedure-track' },
     ],
   },
 ];

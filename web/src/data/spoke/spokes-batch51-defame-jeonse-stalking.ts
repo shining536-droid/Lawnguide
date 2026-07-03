@@ -92,7 +92,7 @@ export const spokesBatch51DefameJeonseStalking: SpokePage[] = [
       { label: '공인 비판 명예훼손 방어', href: '/guide/defamation/defamation-public-figure-criticism-protect' },
       { label: '익명 작성자 신원확인 절차', href: '/guide/defamation/defamation-anonymous-poster-identity-trace' },
       { label: '명예훼손 고소장 작성 가이드', href: '/guide/defamation/defamation-complaint-writing-guide' },
-      { label: '온라인 명예훼손 형사 대응', href: '/guide/defamation/defamation-online-criminal-response' },
+      { label: '악플로 명예훼손 당했을 때 대응법', href: '/guide/defamation/online-defamation-response' },
     ],
   },
 
@@ -175,8 +175,8 @@ export const spokesBatch51DefameJeonseStalking: SpokePage[] = [
       { label: '온라인 후기 사실 명예훼손 항변', href: '/guide/defamation/defamation-online-review-truth-defense' },
       { label: '공인 비판 명예훼손 방어', href: '/guide/defamation/defamation-public-figure-criticism-protect' },
       { label: '익명 작성자 신원확인 절차', href: '/guide/defamation/defamation-anonymous-poster-identity-trace' },
-      { label: '온라인 명예훼손 형사 대응', href: '/guide/defamation/defamation-online-criminal-response' },
-      { label: '명예훼손 게시글 삭제 요청', href: '/guide/defamation/defamation-deletion-request-platform' },
+      { label: '악플로 명예훼손 당했을 때 대응법', href: '/guide/defamation/online-defamation-response' },
+      { label: '온라인 게시글 삭제 요청 절차', href: '/guide/defamation/defamation-online-post-deletion-request-procedure' },
     ],
   },
 
@@ -259,8 +259,8 @@ export const spokesBatch51DefameJeonseStalking: SpokePage[] = [
       { label: '익명 작성자 신원확인 절차', href: '/guide/defamation/defamation-anonymous-poster-identity-trace' },
       { label: '직장 내 허위 소문 명예훼손', href: '/guide/defamation/defamation-false-rumor-workplace-claim' },
       { label: '명예훼손 고소장 작성 가이드', href: '/guide/defamation/defamation-complaint-writing-guide' },
-      { label: '온라인 명예훼손 형사 대응', href: '/guide/defamation/defamation-online-criminal-response' },
-      { label: '명예훼손 게시글 삭제 요청', href: '/guide/defamation/defamation-deletion-request-platform' },
+      { label: '악플로 명예훼손 당했을 때 대응법', href: '/guide/defamation/online-defamation-response' },
+      { label: '온라인 게시글 삭제 요청 절차', href: '/guide/defamation/defamation-online-post-deletion-request-procedure' },
     ],
   },
 
@@ -340,9 +340,9 @@ export const spokesBatch51DefameJeonseStalking: SpokePage[] = [
     ],
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
-      { label: '집주인이 집을 팔았어요 보증금 반환', href: '/guide/jeonse/jeonse-landlord-sold-deposit' },
-      { label: '보증금 미반환 시 우선변제권', href: '/guide/jeonse/jeonse-deposit-not-returned-priority' },
-      { label: '주택임대차 우선변제 청구 절차', href: '/guide/jeonse/jeonse-priority-payment-claim' },
+      { label: '전세 계약 중 집 매매 새 집주인 보증금', href: '/guide/jeonse/jeonse-house-sold-new-landlord-deposit' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
+      { label: '다가구주택 보증금 우선변제 소액임차인', href: '/guide/jeonse/jeonse-multi-family-priority-claim' },
       { label: '보증금 도배·청소비 부당공제', href: '/guide/jeonse/jeonse-deposit-illegal-deduction-fight' },
       { label: '보증금 미반환 대위변제 회수', href: '/guide/jeonse/jeonse-tenant-substitute-payment-recovery' },
     ],
@@ -425,10 +425,10 @@ export const spokesBatch51DefameJeonseStalking: SpokePage[] = [
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '미등기 신축 주택 보증금 보호', href: '/guide/jeonse/jeonse-housing-not-registered-deposit' },
-      { label: '보증금 미반환 시 우선변제권', href: '/guide/jeonse/jeonse-deposit-not-returned-priority' },
-      { label: '주택임대차 우선변제 청구 절차', href: '/guide/jeonse/jeonse-priority-payment-claim' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
+      { label: '다가구주택 우선변제 HUG 미가입', href: '/guide/jeonse/jeonse-multifamily-priority-payment-no-hug' },
       { label: '보증금 미반환 대위변제 회수', href: '/guide/jeonse/jeonse-tenant-substitute-payment-recovery' },
-      { label: '집주인이 집을 팔았어요 보증금 반환', href: '/guide/jeonse/jeonse-landlord-sold-deposit' },
+      { label: '임대인 매도 양수인 보증금 승계 책임', href: '/guide/jeonse/jeonse-landlord-sold-deposit-successor-liability' },
     ],
   },
 
@@ -510,9 +510,9 @@ export const spokesBatch51DefameJeonseStalking: SpokePage[] = [
     internalLinks: [
       { label: '이별 후 메시지 반복 스토킹', href: '/guide/stalking/stalking-ex-partner-message-criminal' },
       { label: '잠정조치·긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
-      { label: '스토킹 형사 고소 절차', href: '/guide/stalking/stalking-criminal-prosecution-process' },
-      { label: '스토킹 피해자 보호조치', href: '/guide/stalking/stalking-victim-protection-order' },
-      { label: '스토킹 증거 수집 체크리스트', href: '/guide/stalking/stalking-evidence-collection-checklist' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
+      { label: '스토킹 피해자 인지 무관 처벌', href: '/guide/stalking/stalking-no-victim-awareness-supreme-2025' },
+      { label: '스토킹 증거 수집할 때 흔히 하는 실수', href: '/guide/stalking/evidence-collection-common-mistakes' },
     ],
   },
 
@@ -595,8 +595,8 @@ export const spokesBatch51DefameJeonseStalking: SpokePage[] = [
       { label: '직장 동료 스토킹 처벌·인사조치', href: '/guide/stalking/stalking-workplace-coworker-criminal' },
       { label: '이별 후 메시지 반복 스토킹', href: '/guide/stalking/stalking-ex-partner-message-criminal' },
       { label: '잠정조치·긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
-      { label: '스토킹 형사 고소 절차', href: '/guide/stalking/stalking-criminal-prosecution-process' },
-      { label: '스토킹 피해자 보호조치', href: '/guide/stalking/stalking-victim-protection-order' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
+      { label: '스토킹 피해 대응 완벽 체크리스트', href: '/guide/stalking/stalking-victim-checklist' },
     ],
   },
 ];

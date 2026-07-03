@@ -89,7 +89,7 @@ export const spokesBatch48Dismissal: SpokePage[] = [
       { label: '출산휴가 중 해고 보호', href: '/guide/dismissal/dismissal-maternity-return-fired' },
       { label: '육아휴직 후 해고 다툼', href: '/guide/dismissal/dismissal-parental-leave-fired' },
       { label: '임신 보호 부당해고 구제', href: '/guide/dismissal/dismissal-pregnancy-protection' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -172,7 +172,7 @@ export const spokesBatch48Dismissal: SpokePage[] = [
       { label: '경영상 정리해고 기준 다툼', href: '/guide/dismissal/dismissal-restructuring-unfair-criteria' },
       { label: '사업장 폐쇄 정리해고 다툼', href: '/guide/dismissal/dismissal-workplace-closure-layoff' },
       { label: '권고사직 함정 회피 가이드', href: '/guide/dismissal/dismissal-recommended-resign-trap' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -255,7 +255,7 @@ export const spokesBatch48Dismissal: SpokePage[] = [
       { label: '징계 사유 비례성 원칙 다툼', href: '/guide/dismissal/dismissal-disciplinary-excessive' },
       { label: '징계위원회 절차 권리', href: '/guide/dismissal/dismissal-disciplinary-hearing-rights' },
       { label: '구두 해고 서면 미통지 무효', href: '/guide/dismissal/dismissal-verbal-only-no-document' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -338,7 +338,7 @@ export const spokesBatch48Dismissal: SpokePage[] = [
       { label: '기간제 갱신권 인정 다툼', href: '/guide/dismissal/dismissal-fixed-term-renewal-right' },
       { label: '계약직 부당해고 5요건 확인', href: '/guide/dismissal/dismissal-part-time-unfair' },
       { label: '구두 해고 서면 미통지 무효', href: '/guide/dismissal/dismissal-verbal-only-no-document' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 
@@ -421,7 +421,7 @@ export const spokesBatch48Dismissal: SpokePage[] = [
       { label: '징계 사유 비례성 원칙 다툼', href: '/guide/dismissal/dismissal-disciplinary-excessive' },
       { label: '징계위원회 절차 권리', href: '/guide/dismissal/dismissal-disciplinary-hearing-rights' },
       { label: '부당해고 증거 수집 방법', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
-      { label: '금전보상명령 신청 절차', href: '/guide/dismissal/dismissal-monetary-compensation-procedure' },
+      { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
     ],
   },
 ];

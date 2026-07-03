@@ -91,10 +91,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 도메인 허브', href: '/guide/fraud' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-criminal-complaint-procedure' },
-      { label: '선결제·폐업 거래사기 대응', href: '/guide/fraud/fraud-online-deal-response-track' },
-      { label: '결제 이의·환불 절차', href: '/guide/fraud/fraud-payment-dispute-track' },
-      { label: '피해금 환급 절차', href: '/guide/fraud/fraud-victim-refund-procedure' },
+      { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '동업 수익 배분 분쟁 사기 고의 무고 방어', href: '/guide/fraud/fraud-joint-business-profit-share-dispute-falsely-accused-defense' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
   },
 
@@ -174,10 +174,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 도메인 허브', href: '/guide/fraud' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-criminal-complaint-procedure' },
-      { label: '온라인 거래사기 대응', href: '/guide/fraud/fraud-online-deal-response-track' },
-      { label: '편취액 산정 쟁점', href: '/guide/fraud/fraud-loss-amount-track' },
-      { label: '피해금 환급 절차', href: '/guide/fraud/fraud-victim-refund-procedure' },
+      { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '친구 사업 손실 차용금 사기', href: '/guide/fraud/fraud-loan-friend-business-loss-not-paying' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
   },
 
@@ -257,10 +257,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 도메인 허브', href: '/guide/fraud' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-criminal-complaint-procedure' },
-      { label: '온라인 거래사기 대응', href: '/guide/fraud/fraud-online-deal-response-track' },
-      { label: '편취액 산정 쟁점', href: '/guide/fraud/fraud-loss-amount-track' },
-      { label: '피해금 환급 절차', href: '/guide/fraud/fraud-victim-refund-procedure' },
+      { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '사모펀드 원금 손실 사기', href: '/guide/fraud/fraud-private-equity-fund-principal-loss-track' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
   },
 
@@ -340,10 +340,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 도메인 허브', href: '/guide/fraud' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-criminal-complaint-procedure' },
-      { label: '투자사기 대응', href: '/guide/fraud/fraud-investment-scam-response-track' },
-      { label: '계좌 지급정지·피해구제', href: '/guide/fraud/fraud-payment-suspension-relief-track' },
-      { label: '피해금 환급 절차', href: '/guide/fraud/fraud-victim-refund-procedure' },
+      { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
+      { label: 'SNS 투자 사기 피해 구제 증거 확보', href: '/guide/fraud/fraud-sns-investment-scam-response' },
+      { label: '해외직구 대행 가상자산 결제 잠적 사기', href: '/guide/fraud/fraud-overseas-agent-crypto-payment-vanish-track' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
   },
 
@@ -423,10 +423,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 도메인 허브', href: '/guide/fraud' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-criminal-complaint-procedure' },
-      { label: '온라인 거래사기 대응', href: '/guide/fraud/fraud-online-deal-response-track' },
-      { label: '결제 이의·환불 절차', href: '/guide/fraud/fraud-payment-dispute-track' },
-      { label: '피해금 환급 절차', href: '/guide/fraud/fraud-victim-refund-procedure' },
+      { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '개인 과외 선결제 수업 미실시', href: '/guide/fraud/fraud-private-tutor-pre-payment-lessons-no-show-track' },
+      { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
   },
 
@@ -506,10 +506,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기 도메인 허브', href: '/guide/fraud' },
-      { label: '사기 고소 절차', href: '/guide/fraud/fraud-criminal-complaint-procedure' },
-      { label: '편취 고의 입증', href: '/guide/fraud/fraud-intent-proof-track' },
-      { label: '민사 채무불이행과 사기 구별', href: '/guide/fraud/fraud-civil-debt-distinction-track' },
-      { label: '수사 진술 대응', href: '/guide/fraud/fraud-investigation-statement-response' },
+      { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
+      { label: '사기 피의자 편취의사 방어', href: '/guide/fraud/fraud-accused-comprehensive-intent-defense' },
+      { label: '채무불이행과 사기죄 구분 기준', href: '/guide/fraud/fraud-debt-vs-crime-distinction' },
+      { label: '사기 고소당했을때', href: '/guide/fraud/fraud-accused-response' },
     ],
   },
 
@@ -589,10 +589,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '성범죄 피해 대응 순서, AI로 정리하기', link: '/chat?domain=sex-crime' },
     internalLinks: [
       { label: '성범죄 도메인 허브', href: '/guide/sex-crime' },
-      { label: '강제추행 신고 절차', href: '/guide/sex-crime/sex-crime-indecent-assault-report-procedure' },
+      { label: '심야버스 승객 추행 신고', href: '/guide/sex-crime/sex-crime-late-night-bus-passenger-touch-report-track' },
       { label: '마사지샵 추행 대응', href: '/guide/sex-crime/sex-crime-massage-shop-track' },
-      { label: '추행 증거 보전', href: '/guide/sex-crime/sex-crime-evidence-preservation-track' },
-      { label: '피해 손해배상 청구', href: '/guide/sex-crime/sex-crime-civil-damages-track' },
+      { label: '성범죄 디지털 증거 보존기한 정리', href: '/guide/sex-crime/sex-crime-digital-evidence-timeline' },
+      { label: '헬스장 PT 트레이너 추행', href: '/guide/sex-crime/sex-crime-gym-pt-trainer-track' },
     ],
   },
 
@@ -672,10 +672,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '성범죄 피해 대응 순서, AI로 정리하기', link: '/chat?domain=sex-crime' },
     internalLinks: [
       { label: '성범죄 도메인 허브', href: '/guide/sex-crime' },
-      { label: '강제추행 신고 절차', href: '/guide/sex-crime/sex-crime-indecent-assault-report-procedure' },
+      { label: '도서관 열람실 추행 신고', href: '/guide/sex-crime/sex-crime-library-reading-room-touch-report-track' },
       { label: '택시 승객 추행 대응', href: '/guide/sex-crime/sex-crime-taxi-passenger-track' },
-      { label: '추행 증거 보전', href: '/guide/sex-crime/sex-crime-evidence-preservation-track' },
-      { label: '피해 손해배상 청구', href: '/guide/sex-crime/sex-crime-civil-damages-track' },
+      { label: '성범죄 디지털 증거 보존기한 정리', href: '/guide/sex-crime/sex-crime-digital-evidence-timeline' },
+      { label: '병원 진료 의료인 신체접촉 진료범위 초과 추행', href: '/guide/sex-crime/sex-crime-hospital-treatment-doctor-inappropriate-act-track' },
     ],
   },
 
@@ -755,10 +755,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '성범죄 피해 대응 순서, AI로 정리하기', link: '/chat?domain=sex-crime' },
     internalLinks: [
       { label: '성범죄 도메인 허브', href: '/guide/sex-crime' },
-      { label: '불법촬영·합성물 신고 절차', href: '/guide/sex-crime/sex-crime-illegal-filming-report-procedure' },
-      { label: '촬영물·합성물 삭제 지원', href: '/guide/sex-crime/sex-crime-image-deletion-support-track' },
-      { label: '촬영·전시 증거 보전', href: '/guide/sex-crime/sex-crime-evidence-preservation-track' },
-      { label: '피해 손해배상 청구', href: '/guide/sex-crime/sex-crime-civil-damages-track' },
+      { label: '탈의실 불법촬영', href: '/guide/sex-crime/sex-crime-changing-room-illegal-filming-track' },
+      { label: '딥페이크 합성 성착취물 제작', href: '/guide/sex-crime/sex-crime-deepfake-synthetic-image-track' },
+      { label: '성범죄 디지털 증거 보존기한 정리', href: '/guide/sex-crime/sex-crime-digital-evidence-timeline' },
+      { label: '병실 입원환자 추행', href: '/guide/sex-crime/sex-crime-hospital-ward-inpatient-track' },
     ],
   },
 
@@ -838,10 +838,10 @@ export const spokesBatch91FraudSexCrime: SpokePage[] = [
     cta: { text: '성범죄 피해 대응 순서, AI로 정리하기', link: '/chat?domain=sex-crime' },
     internalLinks: [
       { label: '성범죄 도메인 허브', href: '/guide/sex-crime' },
-      { label: '강제추행 무고 방어', href: '/guide/sex-crime/sex-crime-false-accusation-defense-track' },
-      { label: '추행 해당성 다툼', href: '/guide/sex-crime/sex-crime-indecency-standard-track' },
-      { label: '수사 진술 대응', href: '/guide/sex-crime/sex-crime-investigation-statement-response' },
-      { label: '국선변호인 선임', href: '/guide/sex-crime/sex-crime-public-defender-track' },
+      { label: '성범죄 무고를 당했을 때 반대고소 가능한지', href: '/guide/sex-crime/sex-crime-false-accusation-counter' },
+      { label: '찜질방 사우나 강제추행', href: '/guide/sex-crime/sex-crime-jjimjilbang-sauna-track' },
+      { label: '성범죄 초범 처벌 수위와 대응 방법', href: '/guide/sex-crime/sex-crime-first-offense-response' },
+      { label: '공중화장실 불법촬영', href: '/guide/sex-crime/sex-crime-public-restroom-hidden-camera-track' },
     ],
   },
 ];

@@ -88,8 +88,8 @@ export const spokesBatch50Fraud: SpokePage[] = [
       { label: '가짜 온라인 쇼핑몰 대응 가이드', href: '/guide/fraud/fraud-fake-online-shopping-mall' },
       { label: '온라인 카페·커뮤니티 회비 환급', href: '/guide/fraud/fraud-online-cafe-membership-fee-recovery' },
       { label: '보이스피싱 100만원 이상 환급', href: '/guide/fraud/fraud-voice-phishing-100m-plus-recovery' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -171,8 +171,8 @@ export const spokesBatch50Fraud: SpokePage[] = [
       { label: '리딩방·투자 사기 대응', href: '/guide/fraud/fraud-sns-investment-scam-response' },
       { label: '투자 사기 다수 피해자 공동 대응', href: '/guide/fraud/fraud-investment-collective-action' },
       { label: '온라인 카페·커뮤니티 회비 환급', href: '/guide/fraud/fraud-online-cafe-membership-fee-recovery' },
-      { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 
@@ -252,9 +252,9 @@ export const spokesBatch50Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '가짜 시공업자 선입금 회수', href: '/guide/fraud/fraud-fake-contractor-home-repair-prepayment' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
-      { label: '가압류 신청 절차', href: '/guide/fraud/fraud-provisional-seizure-procedure' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '사기 피해 민사소송 진행 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
       { label: '사기 형사 부대 배상명령', href: '/guide/fraud/fraud-victim-criminal-attached-civil-claim' },
     ],
   },
@@ -338,7 +338,7 @@ export const spokesBatch50Fraud: SpokePage[] = [
       { label: '중고거래 에스크로 미사용 대응', href: '/guide/fraud/fraud-secondhand-escrow-fallback-response' },
       { label: '보이스피싱 100만원 이상 환급', href: '/guide/fraud/fraud-voice-phishing-100m-plus-recovery' },
       { label: '가짜 온라인 쇼핑몰 대응', href: '/guide/fraud/fraud-fake-online-shopping-mall' },
-      { label: '소액사건 지급명령 신청', href: '/guide/fraud/fraud-payment-order-small-claims' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
     ],
   },
 
@@ -419,9 +419,9 @@ export const spokesBatch50Fraud: SpokePage[] = [
     internalLinks: [
       { label: '상품권 재판매 사기 대응', href: '/guide/fraud/fraud-gift-card-resale-scam-response' },
       { label: '가짜 온라인 쇼핑몰 대응', href: '/guide/fraud/fraud-fake-online-shopping-mall' },
-      { label: '소비자원 피해구제 신청 절차', href: '/guide/fraud/fraud-consumer-protection-relief' },
-      { label: '공동 고소 절차 안내', href: '/guide/fraud/fraud-joint-complaint-procedure' },
-      { label: '사기 고소장 작성 방법', href: '/guide/fraud/fraud-complaint-documents-checklist' },
+      { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
     ],
   },
 ];

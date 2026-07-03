@@ -85,10 +85,10 @@ export const spokesBatch55DivorceB: SpokePage[] = [
     cta: { text: '양육비 못 받을 때 다음 단계, AI로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '이혼 후 양육비 미지급 통합 절차', href: '/guide/divorce/divorce-post-divorce-child-support-non-payment-full-procedure' },
-      { label: '양육비 변경청구 사유', href: '/guide/child-support/child-support-modification-grounds' },
+      { label: '양육비 감액 심판 재혼 실직', href: '/guide/child-support/child-support-modification-petition-payer-remarriage-job-loss-track' },
       { label: '양육비 직접지급명령', href: '/guide/child-support/child-support-direct-payment-order-process' },
       { label: '양육비 이행명령·감치', href: '/guide/child-support/child-support-enforcement-order-apply' },
-      { label: '양육비이행관리원 신청', href: '/guide/child-support/child-support-agency-application' },
+      { label: '양육비이행관리원 추심 한계', href: '/guide/child-support/child-support-agency-collection-limits' },
     ],
   },
 
@@ -167,11 +167,11 @@ export const spokesBatch55DivorceB: SpokePage[] = [
     ],
     cta: { text: '재산분할·양육비 쟁점, AI로 먼저 점검하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '사실혼 잠적·사망 시 청구', href: '/guide/divorce/divorce-de-facto-marriage-disappearance-death' },
-      { label: '재산분할 2년 제척기간', href: '/guide/divorce/divorce-property-division-2year-deadline' },
+      { label: '사실혼 해소 재산분할 입증', href: '/guide/divorce/divorce-de-facto-marriage-breakup-asset-share-evidence-track' },
+      { label: '재산분할 제척기간 2년 누락 재산 추가 청구', href: '/guide/divorce/divorce-property-division-2year-deadline-omitted-asset-track' },
       { label: '위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
-      { label: '재산명시·재산조회 절차', href: '/guide/divorce/divorce-property-disclosure-procedure' },
-      { label: '협의이혼 준비서류', href: '/guide/divorce/divorce-agreement-documents' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '양육권 합의 전 정리할 것', href: '/guide/divorce/custody-agreement-prep' },
     ],
   },
 ];

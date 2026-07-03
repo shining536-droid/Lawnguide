@@ -97,7 +97,7 @@ export const spokesBatch53InheritanceDefamation: SpokePage[] = [
       { label: '유언 효력 다툼 절차', href: '/guide/inheritance/inheritance-will-validity-dispute' },
       { label: '유류분 청구 절차', href: '/guide/inheritance/inheritance-forced-share-lawsuit-guide' },
       { label: '상속재산분할 조정·심판', href: '/guide/inheritance/inheritance-division-mediation-tribunal' },
-      { label: '특별수익과 상속분 조정', href: '/guide/inheritance/inheritance-special-benefit-adjustment' },
+      { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '단순승인 후 숨은 채무 회수', href: '/guide/inheritance/inheritance-simple-approval-hidden-debt-recovery' },
     ],
   },
@@ -179,8 +179,8 @@ export const spokesBatch53InheritanceDefamation: SpokePage[] = [
     internalLinks: [
       { label: '상속재산분할 조정·심판', href: '/guide/inheritance/inheritance-division-mediation-tribunal' },
       { label: '유류분 청구 절차', href: '/guide/inheritance/inheritance-forced-share-lawsuit-guide' },
-      { label: '특별수익과 상속분 조정', href: '/guide/inheritance/inheritance-special-benefit-adjustment' },
-      { label: '협의분할 조정 절차', href: '/guide/inheritance/inheritance-agreement-division-mediation' },
+      { label: '상속 종합 가이드', href: '/guide/inheritance' },
+      { label: '상속재산분할협의서 무효', href: '/guide/inheritance/inheritance-division-agreement-defect-invalidation' },
       { label: '단순승인 후 숨은 채무 회수', href: '/guide/inheritance/inheritance-simple-approval-hidden-debt-recovery' },
     ],
   },
@@ -344,10 +344,10 @@ export const spokesBatch53InheritanceDefamation: SpokePage[] = [
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '직장내 명예훼손 대응', href: '/guide/defamation/defamation-workplace-rumor-response' },
-      { label: '메신저 명예훼손 대응', href: '/guide/defamation/defamation-messenger-response' },
-      { label: '동료 험담 명예훼손', href: '/guide/defamation/defamation-coworker-rumor' },
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-civil-damages-procedure' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
+      { label: '직장 동료 허위 소문 명예훼손 신고', href: '/guide/defamation/defamation-workplace-coworker-false-rumor-report-track' },
+      { label: '고객 공개항의 명예훼손 무고', href: '/guide/defamation/defamation-customer-public-complaint-falsely-accused-defense' },
+      { label: '유튜브 댓글 실명 비방 신원조회 손해배상', href: '/guide/defamation/defamation-youtube-realname-attack-civil-damages-victim' },
     ],
   },
 
@@ -428,9 +428,9 @@ export const spokesBatch53InheritanceDefamation: SpokePage[] = [
     internalLinks: [
       { label: '익명 게시판 IP 추적', href: '/guide/defamation/defamation-anonymous-board-ip-tracking' },
       { label: '익명 게시판 대응', href: '/guide/defamation/defamation-anonymous-board-counter' },
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
-      { label: '명예훼손 임시조치 신청', href: '/guide/defamation/defamation-temporary-measure-request' },
-      { label: '명예훼손 손해배상 청구', href: '/guide/defamation/defamation-civil-damages-procedure' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
+      { label: '네이버카페 익명 아이디 신원공개 청구', href: '/guide/defamation/defamation-cafe-id-disclosure-request' },
+      { label: '유튜브 댓글 실명 비방 신원조회 손해배상', href: '/guide/defamation/defamation-youtube-realname-attack-civil-damages-victim' },
     ],
   },
 
@@ -510,10 +510,10 @@ export const spokesBatch53InheritanceDefamation: SpokePage[] = [
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손 가해자 방어 절차', href: '/guide/defamation/defamation-accused-defense-strategy' },
-      { label: '메신저 명예훼손 대응', href: '/guide/defamation/defamation-messenger-response' },
-      { label: '명예훼손 합의 협상', href: '/guide/defamation/defamation-settlement-negotiation' },
-      { label: '명예훼손 처벌 수위', href: '/guide/defamation/defamation-punishment-level' },
-      { label: '명예훼손 고소 절차', href: '/guide/defamation/defamation-criminal-complaint-procedure' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
+      { label: '명예훼손 합의금 적정 금액 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
+      { label: '투표지 사진 촬영 처벌', href: '/guide/defamation/voting-booth-photo-prohibition-punishment' },
+      { label: '헬스 트레이너 항의 명예훼손', href: '/guide/defamation/defamation-fitness-trainer-online-complaint-accused-track' },
     ],
   },
 ];

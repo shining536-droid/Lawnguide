@@ -83,11 +83,11 @@ export const spokesBatch55TrafficA: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '횡단보도 보행자 보호의무', href: '/guide/traffic-accident/traffic-accident-crosswalk-pedestrian-protection' },
+      { label: '자전거 횡단보도 보행자 충돌 주의의무', href: '/guide/traffic-accident/traffic-accident-bicycle-crosswalk-pedestrian-collision-track' },
       { label: '11대 중과실 합의 영향', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
       { label: '교통사고 가해자 형사 1차 대응', href: '/guide/traffic-accident/traffic-accident-offender-criminal-charge-response' },
       { label: '어린이보호구역 어린이 사고', href: '/guide/traffic-accident/traffic-accident-school-zone-child' },
-      { label: '교통사고 합의금 산정', href: '/guide/traffic-accident/traffic-accident-settlement-calculation' },
+      { label: '교통사고 보상금 산정 기준 총정리', href: '/guide/traffic-accident/traffic-accident-compensation-calculation-guide' },
     ],
   },
 
@@ -249,11 +249,11 @@ export const spokesBatch55TrafficA: SpokePage[] = [
     ],
     cta: { text: '후유증 추가 청구 가능한지 AI로 점검하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '뺑소니 정부보장사업 청구', href: '/guide/traffic-accident/traffic-accident-hit-and-run-government-compensation' },
+      { label: '뺑소니 사고 도주', href: '/guide/traffic-accident/traffic-accident-hit-and-run-track' },
       { label: '교통사고 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim-settlement' },
-      { label: '교통사고 합의금 산정', href: '/guide/traffic-accident/traffic-accident-settlement-calculation' },
+      { label: '교통사고 합의 후 후유증 추가 청구 방법', href: '/guide/traffic-accident/traffic-accident-post-settlement-additional-claim' },
       { label: '도로 낙하물 노상방치물 책임', href: '/guide/traffic-accident/traffic-accident-road-debris-fallen-object-liability' },
-      { label: '교통사고 피해자 1차 대응', href: '/guide/traffic-accident/traffic-accident-victim-first-response' },
+      { label: '뺑소니 혐의 24시간 내 대응 3단계', href: '/guide/traffic-accident/traffic-accident-hitandrun-charge-first-response' },
     ],
   },
 ];

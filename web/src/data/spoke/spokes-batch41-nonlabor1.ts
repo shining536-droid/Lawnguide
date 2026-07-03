@@ -345,7 +345,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
     internalLinks: [
       { label: '양육비 감치명령 신청', href: '/guide/child-support/child-support-enforcement-contempt-order' },
       { label: '양육비 강제집행 방법', href: '/guide/child-support/child-support-enforcement-method' },
-      { label: '양육비 미지급 대응', href: '/guide/child-support/child-support-non-payment' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
       { label: '양육비 소송 절차', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: '양육비 급여 압류 절차', href: '/guide/child-support/child-support-overdue-salary-seizure-procedure' },
     ],
@@ -1041,7 +1041,7 @@ export const spokesBatch41Nonlabor1: SpokePage[] = [
     internalLinks: [
       { label: '묵시적 갱신 복비 부담', href: '/guide/jeonse/jeonse-implicit-renewal-broker-fee-burden' },
       { label: '전세 계약 해지 절차', href: '/guide/jeonse/jeonse-contract-termination-procedure' },
-      { label: '보증금 미반환 대응', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '갱신 거절 대응', href: '/guide/jeonse/jeonse-renewal-landlord-refusal' },
       { label: '계약 종료 후 보증금', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
     ],

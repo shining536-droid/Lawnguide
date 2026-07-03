@@ -86,7 +86,7 @@ export const spokesBatch50Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '자전거 vs 보행자 사고 합의', href: '/guide/traffic-accident/traffic-accident-bicycle-pedestrian-settlement' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '블랙박스 없는 사고 입증', href: '/guide/traffic-accident/traffic-accident-no-blackbox-proof-dispute' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
@@ -170,7 +170,7 @@ export const spokesBatch50Traffic: SpokePage[] = [
     internalLinks: [
       { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
       { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '보복운전 블박 입증', href: '/guide/traffic-accident/traffic-accident-road-rage-blackbox-proof-track' },
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
     ],
@@ -254,7 +254,7 @@ export const spokesBatch50Traffic: SpokePage[] = [
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
       { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '블랙박스 증거 활용 교통사고', href: '/guide/traffic-accident/traffic-accident-dashcam-evidence-guide' },
       { label: '음주운전 차량 동승자 자기보험 보상', href: '/guide/traffic-accident/traffic-accident-drunk-passenger-self-insurance' },
     ],
   },
@@ -335,7 +335,7 @@ export const spokesBatch50Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '쌍방과실 비율 다툼 절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '교통사고 과실비율 다툼 방법과 증거 확보', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
       { label: '후방 추돌 + 급정거 과실 분배', href: '/guide/traffic-accident/traffic-accident-rear-end-sudden-brake-fault' },
       { label: '교통사고 인적 손해 배상 청구', href: '/guide/traffic-accident/traffic-accident-passenger-injury-claim' },
       { label: '교통사고 합의 전 준비서류', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
@@ -418,10 +418,10 @@ export const spokesBatch50Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '신호위반 12대 중과실 합의 영향', href: '/guide/traffic-accident/traffic-accident-signal-violation-criminal-impact' },
-      { label: '교통사고 형사합의 절차', href: '/guide/traffic-accident/traffic-accident-criminal-settlement' },
+      { label: '졸음운전 형사처벌', href: '/guide/traffic-accident/traffic-accident-drowsy-driving-criminal-process' },
       { label: '뺑소니 사실과 다른 신고 방어', href: '/guide/traffic-accident/traffic-accident-hit-and-run-falsely-accused' },
       { label: '교통사고 12대 중과실 정리', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
-      { label: '교통사고 블랙박스 증거 활용', href: '/guide/traffic-accident/traffic-accident-blackbox-evidence' },
+      { label: '블랙박스 없는 사고 입증', href: '/guide/traffic-accident/traffic-accident-no-blackbox-proof-dispute' },
     ],
   },
 ];

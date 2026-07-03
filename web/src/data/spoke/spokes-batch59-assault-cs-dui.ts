@@ -420,7 +420,7 @@ export const spokesBatch59AssaultCsDui: SpokePage[] = [
     internalLinks: [
       { label: '양육비 면허정지·출국금지', href: '/guide/child-support/child-support-license-suspension-petition-procedure' },
       { label: '양육비 감치명령 절차', href: '/guide/child-support/child-support-detention-order-3-times-unpaid' },
-      { label: '양육비 미지급 형사 고소', href: '/guide/child-support/child-support-non-payment-criminal' },
+      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
       { label: '이행관리원 추심 한계', href: '/guide/child-support/child-support-agency-collection-limits' },
       { label: '양육비 잠적 추적', href: '/guide/child-support/child-support-disappear-tracking-procedure' },
     ],

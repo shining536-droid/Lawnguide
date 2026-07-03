@@ -80,9 +80,9 @@ export const spokesBatch95Labor: SpokePage[] = [
     internalLinks: [
       { label: '해고 도메인 허브', href: '/guide/dismissal' },
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '권고사직 강요 대응', href: '/guide/dismissal/dismissal-forced-resignation-response' },
-      { label: '경영상 정리해고 요건', href: '/guide/dismissal/dismissal-managerial-layoff-requirement' },
-      { label: '해고 서면통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
+      { label: '간접강요 사실상 해고', href: '/guide/dismissal/dismissal-constructive-forced-resignation' },
+      { label: '경영상 긴박한 필요 정리해고 요건 판단', href: '/guide/dismissal/dismissal-managerial-urgent-necessity-layoff-requirement-track' },
+      { label: '구두 통보 서면통지 누락 해고 효력 판단', href: '/guide/dismissal/dismissal-verbal-notice-written-procedure-omission-track' },
     ],
   },
 
@@ -163,9 +163,9 @@ export const spokesBatch95Labor: SpokePage[] = [
     internalLinks: [
       { label: '해고 도메인 허브', href: '/guide/dismissal' },
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '영업양도 근로관계 승계', href: '/guide/dismissal/dismissal-business-transfer-succession' },
-      { label: '승계 제외 특약 효력', href: '/guide/dismissal/dismissal-succession-exclusion-agreement' },
-      { label: '해고 서면통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
+      { label: '영업양도 고용승계 거부', href: '/guide/dismissal/dismissal-business-transfer-employment-succession-refused' },
+      { label: '권고사직 합의서 불리한 조항', href: '/guide/dismissal/resignation-agreement-5-unfavorable-clauses' },
+      { label: '서면 해고통지 사유 부실기재', href: '/guide/dismissal/dismissal-written-notice-vague-reason-track' },
     ],
   },
 
@@ -246,9 +246,9 @@ export const spokesBatch95Labor: SpokePage[] = [
     internalLinks: [
       { label: '해고 도메인 허브', href: '/guide/dismissal' },
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '단체협약 사전 합의 조항', href: '/guide/dismissal/dismissal-prior-agreement-clause' },
-      { label: '노조 동의권 남용 판단', href: '/guide/dismissal/dismissal-union-consent-abuse' },
-      { label: '해고 서면통지 요건', href: '/guide/dismissal/dismissal-written-notice-requirement' },
+      { label: '경업금지 약정 위반 명목 해고', href: '/guide/dismissal/dismissal-non-compete-clause-violation-fire-track' },
+      { label: '취업규칙 불이익변경 집단동의', href: '/guide/dismissal/dismissal-rule-change-collective-consent-track' },
+      { label: '이메일 해고통보 서면통지 효력 판단', href: '/guide/dismissal/dismissal-email-notice-written-procedure-effect-track' },
     ],
   },
 
@@ -328,10 +328,10 @@ export const spokesBatch95Labor: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '임금 도메인 허브', href: '/guide/wage' },
-      { label: '임금체불 진정 절차', href: '/guide/wage/wage-unpaid-complaint-procedure' },
-      { label: '통상임금 판단 기준', href: '/guide/wage/wage-ordinary-wage-criteria' },
-      { label: '연장·휴일 가산수당', href: '/guide/wage/wage-overtime-holiday-premium' },
-      { label: '정기상여금 통상임금 산입', href: '/guide/wage/wage-regular-bonus-inclusion' },
+      { label: '임금체불 형사고소 절차', href: '/guide/wage/unpaid-wage-criminal-complaint-procedure' },
+      { label: '식권 식대카드 통상임금', href: '/guide/wage/wage-meal-ticket-card-ordinary-wage' },
+      { label: '야간 휴일 연장 가산수당 미지급', href: '/guide/wage/wage-night-holiday-overtime-premium-track' },
+      { label: '정기상여금 평균임금 산입 임금 판단', href: '/guide/wage/wage-regular-bonus-average-wage-inclusion-track' },
     ],
   },
 
@@ -411,10 +411,10 @@ export const spokesBatch95Labor: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '임금 도메인 허브', href: '/guide/wage' },
-      { label: '임금체불 진정 절차', href: '/guide/wage/wage-unpaid-complaint-procedure' },
-      { label: '포괄임금제 유효 요건', href: '/guide/wage/wage-inclusive-wage-validity' },
-      { label: '연장·휴일 가산수당', href: '/guide/wage/wage-overtime-holiday-premium' },
-      { label: '고정연장수당 미지급', href: '/guide/wage/wage-fixed-overtime-shortfall' },
+      { label: '임금체불 형사고소 절차', href: '/guide/wage/unpaid-wage-criminal-complaint-procedure' },
+      { label: '4대보험 미가입 임금체불 동시 신고', href: '/guide/wage/no-social-insurance-wage-complaint-together' },
+      { label: '야간 휴일 연장 가산수당 미지급', href: '/guide/wage/wage-night-holiday-overtime-premium-track' },
+      { label: '포괄임금 고정연장수당 미달 임금 판단', href: '/guide/wage/wage-comprehensive-salary-fixed-overtime-shortfall-track' },
     ],
   },
 
@@ -494,10 +494,10 @@ export const spokesBatch95Labor: SpokePage[] = [
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: 'unemployment 도메인 허브', href: '/guide/unemployment' },
-      { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-eligibility-requirements' },
-      { label: '직장내 괴롭힘 자진퇴사', href: '/guide/unemployment/unemployment-workplace-bullying-separation' },
+      { label: '사업장 이전 통근곤란 자진퇴사 구직급여 절차', href: '/guide/unemployment/unemployment-worksite-relocation-commute-resignation-eligibility-track' },
+      { label: '직장 내 괴롭힘 퇴사 실업급여', href: '/guide/unemployment/unemployment-workplace-bullying-evidence-quit' },
       { label: '부정수급 반환 추가징수', href: '/guide/unemployment/unemployment-fraud-additional-collection-discretion-track' },
-      { label: '실업급여 신청 절차', href: '/guide/unemployment/unemployment-application-procedure' },
+      { label: '실업급여 신청에서 수급까지 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
     ],
   },
 
@@ -577,10 +577,10 @@ export const spokesBatch95Labor: SpokePage[] = [
     cta: { text: '실업급여 신청 순서, AI로 먼저 정리하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: 'unemployment 도메인 허브', href: '/guide/unemployment' },
-      { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-eligibility-requirements' },
-      { label: '질병 자진퇴사 수급', href: '/guide/unemployment/unemployment-illness-separation-eligibility' },
-      { label: '구직급여 평균임금 산정', href: '/guide/unemployment/unemployment-average-wage-calculation' },
-      { label: '실업급여 신청 절차', href: '/guide/unemployment/unemployment-application-procedure' },
+      { label: '자발적 퇴사도 실업급여 받는 5가지 사유', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
+      { label: '질병 이직 구직급여', href: '/guide/unemployment/unemployment-illness-separation-track' },
+      { label: '구직급여 기초일액 산정 곤란', href: '/guide/unemployment/unemployment-base-daily-wage-calc-difficulty-track' },
+      { label: '실업급여 신청에서 수급까지 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
     ],
   },
 
@@ -660,10 +660,10 @@ export const spokesBatch95Labor: SpokePage[] = [
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: 'retirement 도메인 허브', href: '/guide/retirement' },
-      { label: '퇴직금 청구 절차', href: '/guide/retirement/retirement-pay-claim-procedure' },
-      { label: '계속근로기간 산정', href: '/guide/retirement/retirement-continuous-service-calculation' },
-      { label: '시용·수습기간 통산', href: '/guide/retirement/retirement-probation-period-inclusion' },
-      { label: '퇴직금 평균임금 산정', href: '/guide/retirement/retirement-average-wage-calculation' },
+      { label: '퇴직금 청구 어디부터 시작해야 하나', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
+      { label: '퇴사 재입사 퇴직금 근속기간 합산 여부', href: '/guide/retirement/retirement-rehire-continuous-service-calculation' },
+      { label: '수습기간 퇴직금', href: '/guide/retirement/retirement-probation-period-calculation' },
+      { label: '평균임금 산정 기준 퇴직금 판단', href: '/guide/retirement/retirement-pay-average-wage-base-calculation-track' },
     ],
   },
 
@@ -743,10 +743,10 @@ export const spokesBatch95Labor: SpokePage[] = [
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: 'retirement 도메인 허브', href: '/guide/retirement' },
-      { label: '퇴직금 청구 절차', href: '/guide/retirement/retirement-pay-claim-procedure' },
-      { label: '퇴직금 포기 약정 효력', href: '/guide/retirement/retirement-pay-waiver-validity' },
-      { label: '퇴직금 정산 합의 해석', href: '/guide/retirement/retirement-settlement-agreement' },
-      { label: '퇴직금 평균임금 산정', href: '/guide/retirement/retirement-average-wage-calculation' },
+      { label: '퇴직금 청구 어디부터 시작해야 하나', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
+      { label: '중간정산 후 퇴직금 차액 재산정 판단', href: '/guide/retirement/retirement-pay-intermediate-settlement-validity-recalc-track' },
+      { label: '퇴직금 중간정산 누적기간 부정', href: '/guide/retirement/retirement-dc-mid-settlement-cumulative-denied' },
+      { label: '평균임금 산정 퇴직금', href: '/guide/retirement/retirement-average-wage-calculation-track' },
     ],
   },
 
@@ -826,10 +826,10 @@ export const spokesBatch95Labor: SpokePage[] = [
     cta: { text: '산재 신청 순서, AI로 정리하기', link: '/chat?domain=industrial-accident' },
     internalLinks: [
       { label: 'industrial-accident 도메인 허브', href: '/guide/industrial-accident' },
-      { label: '산재 요양급여 신청', href: '/guide/industrial-accident/industrial-accident-medical-care-benefit' },
-      { label: '산재 제3자 구상권', href: '/guide/industrial-accident/industrial-accident-third-party-subrogation' },
-      { label: '건설현장 산재 인정', href: '/guide/industrial-accident/industrial-accident-construction-site' },
-      { label: '산재 휴업급여 청구', href: '/guide/industrial-accident/industrial-accident-temporary-disability-benefit' },
+      { label: '업무상 정신질환 산재', href: '/guide/industrial-accident/industrial-accident-mental-stress-disorder-track' },
+      { label: '업무상 스트레스 정신질환 산재', href: '/guide/industrial-accident/industrial-accident-mental-stress-track' },
+      { label: '근골격계 질환 산재', href: '/guide/industrial-accident/industrial-accident-musculoskeletal-repetitive-track' },
+      { label: '재요양 후 장해등급 변경 재해위로금', href: '/guide/industrial-accident/industrial-accident-disability-grade-change-recovery-condolence-track' },
     ],
   },
 ];

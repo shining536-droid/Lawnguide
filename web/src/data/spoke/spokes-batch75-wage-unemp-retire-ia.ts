@@ -338,8 +338,8 @@ export const spokesBatch75WageUnempRetireIa: SpokePage[] = [
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '인정되는 구직활동 유형', href: '/guide/unemployment/unemployment-job-search-recognized-types' },
       { label: '수급 중 부수입·근로', href: '/guide/unemployment/unemployment-side-income-during-benefit' },
-      { label: '실업급여 신청 절차', href: '/guide/unemployment/unemployment-application-process' },
-      { label: '자발적 퇴사 수급 자격', href: '/guide/unemployment/voluntary-resignation-eligibility' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '직장내괴롭힘 자진퇴사 수급', href: '/guide/unemployment/unemployment-harassment-voluntary-resignation-track' },
     ],
   },
 
@@ -421,8 +421,8 @@ export const spokesBatch75WageUnempRetireIa: SpokePage[] = [
       { label: '퇴직금 미지급 신고', href: '/guide/retirement/retirement-pay-complaint' },
       { label: '퇴직금 계산법', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '1년 미만 퇴직금 수급', href: '/guide/retirement/retirement-less-than-1year-eligibility' },
-      { label: '단기 계약 근속 합산', href: '/guide/retirement/retirement-fixed-term-aggregation' },
-      { label: '퇴직금 중간정산 요건', href: '/guide/retirement/retirement-interim-settlement' },
+      { label: '단기 계약 연속 체결 퇴직금', href: '/guide/retirement/retirement-fixed-term-contract-aggregation-track' },
+      { label: '퇴직금 중간정산 법정 사유', href: '/guide/retirement/retirement-interim-settlement-2024-rules' },
     ],
   },
 
@@ -502,10 +502,10 @@ export const spokesBatch75WageUnempRetireIa: SpokePage[] = [
     cta: { text: '산재 요양급여 신청 순서, AI로 정리하기', link: '/chat?domain=industrial-accident1' },
     internalLinks: [
       { label: '산재 요양급여 신청 절차', href: '/guide/industrial-accident1/workers-comp-claim-process' },
-      { label: '산재 장해급여 청구', href: '/guide/industrial-accident1/workers-comp-disability-benefits' },
-      { label: '산재 신청 준비서류', href: '/guide/industrial-accident1/workers-comp-required-documents' },
+      { label: '산재 상병보상연금 전환 기준 금액', href: '/guide/industrial-accident1/workers-comp-temporary-disability' },
+      { label: '산재 휴업급여 신청 조건 금액', href: '/guide/industrial-accident1/workers-comp-leave-benefit' },
       { label: '업무상 질병 인정 기준', href: '/guide/industrial-accident1/occupational-disease-recognition' },
-      { label: '산재 의료기관 이용', href: '/guide/industrial-accident1/workers-comp-medical-treatment' },
+      { label: '산재 직업재활 급여 종류 신청', href: '/guide/industrial-accident1/workers-comp-rehabilitation' },
     ],
   },
 ];

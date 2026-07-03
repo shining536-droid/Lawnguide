@@ -165,7 +165,7 @@ export const spokesBatch63WageUnempRetire: SpokePage[] = [
       { label: '자차운전수당 통상임금', href: '/guide/wage/wage-self-driving-allowance-ordinary-wage' },
       { label: '출장비 갑자기 중단', href: '/guide/wage/wage-business-trip-perdiem-suddenly-stopped' },
       { label: '통상임금 산정', href: '/guide/wage/wage-ordinary-wage-bonus-included' },
-      { label: '연장·휴일근로 가산', href: '/guide/wage/wage-holiday-overtime-allowance' },
+      { label: '야간 휴일 연장근로수당 미지급 청구 판단', href: '/guide/wage/wage-night-holiday-overtime-allowance-unpaid-claim-track' },
     ],
   },
 
@@ -242,8 +242,8 @@ export const spokesBatch63WageUnempRetire: SpokePage[] = [
       { label: '통근 2시간 사업장 이전', href: '/guide/unemployment/unemployment-commute-2hour-relocation-quit' },
       { label: '통근 곤란 일반', href: '/guide/unemployment/unemployment-commute-hardship-quit' },
       { label: '사업장 이전 강제 자진퇴사', href: '/guide/unemployment/unemployment-workplace-relocation-forced-quit' },
-      { label: '실업급여 수급요건', href: '/guide/unemployment/unemployment-eligibility-requirements' },
-      { label: '이직확인서 정정', href: '/guide/unemployment/unemployment-departure-cert-correction' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
+      { label: '이직사유 자진퇴사 정정', href: '/guide/unemployment/unemployment-separation-code-recommendation-to-voluntary-correction' },
     ],
   },
 

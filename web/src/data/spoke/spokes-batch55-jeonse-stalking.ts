@@ -84,7 +84,7 @@ export const spokesBatch55JeonseStalking: SpokePage[] = [
     ],
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
-      { label: '임차권등기명령 신청 절차', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전세보증금 반환 종합 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
       { label: '전세 만기 후 점유 계속 대응', href: '/guide/jeonse/jeonse-occupation-after-termination-deposit' },
       { label: '묵시적 갱신 후 임차인 해지 통지', href: '/guide/jeonse/jeonse-implicit-renewal-tenant-termination-notice' },
@@ -171,7 +171,7 @@ export const spokesBatch55JeonseStalking: SpokePage[] = [
       { label: '전세보증금 반환 종합 가이드', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },
       { label: '임차권등기 후 보증금 미반환 강제집행', href: '/guide/jeonse/jeonse-after-rental-rights-registration-still-unpaid' },
       { label: '전세 만기 후 점유 계속 대응', href: '/guide/jeonse/jeonse-occupation-after-termination-deposit' },
-      { label: '임차권등기명령 신청 절차', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
     ],
   },
 
@@ -250,7 +250,7 @@ export const spokesBatch55JeonseStalking: SpokePage[] = [
     ],
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹 고소 대응 종합 가이드', href: '/guide/stalking/stalking-comprehensive-guide' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
       { label: '직장 동료 호감 거절 후 추적 대응', href: '/guide/stalking/stalking-coworker-rejected-pursuit-procedure' },
       { label: '옛 배우자 양육권 빌미 접근', href: '/guide/stalking/stalking-ex-spouse-custody-dispute-pretext' },
       { label: '같은 공동체 내 스토킹 분리 트랙', href: '/guide/stalking/stalking-shared-community-school-church' },
@@ -333,7 +333,7 @@ export const spokesBatch55JeonseStalking: SpokePage[] = [
     ],
     cta: { text: '접근금지·처벌 가능성, AI로 확인하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹 고소 대응 종합 가이드', href: '/guide/stalking/stalking-comprehensive-guide' },
+      { label: '스토킹 종합 가이드', href: '/guide/stalking' },
       { label: 'SNS 차단 우회 스토킹 5단계', href: '/guide/stalking/stalking-sns-dm-block-fake-account-repeat' },
       { label: '직장 동료 호감 거절 후 추적', href: '/guide/stalking/stalking-coworker-rejected-pursuit-procedure' },
       { label: '옛 배우자 양육권 빌미 접근', href: '/guide/stalking/stalking-ex-spouse-custody-dispute-pretext' },

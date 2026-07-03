@@ -86,11 +86,11 @@ export const spokesBatch55Defamation: SpokePage[] = [
     ],
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
-      { label: '명예훼손 가해자 방어 절차', href: '/guide/defamation/defamation-accused-defense-procedure' },
-      { label: '정통망법 70조 비방 목적', href: '/guide/defamation/defamation-icnnsa-purpose-defense' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
+      { label: '사실적시 공익 목적 게시 명예훼손 책임 무고 방어', href: '/guide/defamation/defamation-true-fact-public-interest-purpose-falsely-accused-defense' },
       { label: '명예훼손 합의금 산정', href: '/guide/defamation/defamation-settlement-amount-guide' },
-      { label: '모욕죄와 명예훼손 차이', href: '/guide/defamation/defamation-insult-difference' },
-      { label: '반의사불벌 처벌불원 제출', href: '/guide/defamation/defamation-no-punishment-request' },
+      { label: '단톡방 욕설 경멸 표현 모욕', href: '/guide/defamation/defamation-groupchat-insult-contempt-expression-track' },
+      { label: '투표지 사진 촬영 처벌', href: '/guide/defamation/voting-booth-photo-prohibition-punishment' },
     ],
   },
 
@@ -169,11 +169,11 @@ export const spokesBatch55Defamation: SpokePage[] = [
     ],
     cta: { text: '삭제·합의·방어 포인트, AI로 먼저 점검하기', link: '/chat?domain=defamation' },
     internalLinks: [
-      { label: '사실적시 명예훼손 위법성 조각', href: '/guide/defamation/defamation-truth-public-interest-defense' },
-      { label: '정통망법 70조 비방 목적', href: '/guide/defamation/defamation-icnnsa-purpose-defense' },
-      { label: '댓글 삭제·임시조치 절차', href: '/guide/defamation/defamation-comment-takedown-procedure' },
+      { label: '소비자 고발글 진실 공익 위법성 조각 방어', href: '/guide/defamation/defamation-consumer-complaint-truth-public-interest-falsely-accused-defense' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
+      { label: '딥페이크 피해 신속삭제', href: '/guide/defamation/defamation-deepfake-victim-takedown-procedure' },
       { label: '명예훼손 합의금 산정', href: '/guide/defamation/defamation-settlement-amount-guide' },
-      { label: '반의사불벌 처벌불원 제출', href: '/guide/defamation/defamation-no-punishment-request' },
+      { label: '네이버카페 익명 아이디 신원공개 청구', href: '/guide/defamation/defamation-cafe-id-disclosure-request' },
     ],
   },
 
@@ -252,11 +252,11 @@ export const spokesBatch55Defamation: SpokePage[] = [
     ],
     cta: { text: '명예훼손 고소당했을 때 대응, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
-      { label: '모욕죄 친고 6개월 시한', href: '/guide/defamation/defamation-insult-6month-statute' },
-      { label: '단톡방 명예훼손 공연성', href: '/guide/defamation/defamation-groupchat-publicity' },
-      { label: '명예훼손 민사 손해배상', href: '/guide/defamation/defamation-civil-damages-claim' },
-      { label: '사용자책임 학원·회사 책임', href: '/guide/defamation/defamation-employer-liability' },
-      { label: '명예훼손 고소장 작성법', href: '/guide/defamation/defamation-complaint-drafting' },
+      { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
+      { label: '학원 학부모 단톡방 험담', href: '/guide/defamation/defamation-academy-parent-groupchat-track' },
+      { label: '유튜브 댓글 실명 비방 신원조회 손해배상', href: '/guide/defamation/defamation-youtube-realname-attack-civil-damages-victim' },
+      { label: '블라인드 익명 회사 후기 명예훼손', href: '/guide/defamation/defamation-blind-app-anonymous-employer-criticism' },
+      { label: '카톡 단체방 명예훼손 고소', href: '/guide/defamation/defamation-group-chat-leak-complaint' },
     ],
   },
 ];

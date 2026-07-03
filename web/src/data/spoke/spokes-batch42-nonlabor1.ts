@@ -707,7 +707,7 @@ export const spokesBatch42Nonlabor1: SpokePage[] = [
       { label: '면접교섭 거부 대응', href: '/guide/divorce/divorce-visitation-denied-response' },
       { label: '조부모 면접교섭권 가이드', href: '/guide/divorce/divorce-grandparent-visitation-rights-guide' },
       { label: '양육비 강제집행', href: '/guide/divorce/divorce-child-support-enforcement-guide' },
-      { label: '양육비 이행명령 감치', href: '/guide/divorce/child-support-enforcement-contempt-order' },
+      { label: '양육비 무재산 강제집행', href: '/guide/divorce/divorce-child-support-no-asset-enforcement' },
       { label: '친권자 변경 청구 기준', href: '/guide/divorce/divorce-teenager-custody-own-choice' },
     ],
   },

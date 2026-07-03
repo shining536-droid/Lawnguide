@@ -83,8 +83,8 @@ export const spokesBatch18_31to35: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '폭행·상해 진단', href: '/diagnosis/assault' },
       { label: '상해죄 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount-guide' },
-      { label: '상해죄 초범 처벌 수위', href: '/guide/assault/first-offense-assault-penalty' },
-      { label: '폭행죄 고소 취하 절차', href: '/guide/assault/assault-charge-withdrawal-process' },
+      { label: '폭행 초범 처벌', href: '/guide/assault/assault-first-offense-penalty' },
+      { label: '폭행 종합 가이드', href: '/guide/assault' },
     ],
   },
   {
@@ -154,9 +154,9 @@ export const spokesBatch18_31to35: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '개인파산 진단', href: '/diagnosis/bankruptcy' },
-      { label: '개인파산 면책 조건과 절차', href: '/guide/bankruptcy/personal-bankruptcy-discharge-conditions' },
-      { label: '파산 신청 후 생활 제한 사항', href: '/guide/bankruptcy/post-bankruptcy-restrictions' },
-      { label: '개인회생과 파산 차이 비교', href: '/guide/bankruptcy/rehabilitation-vs-bankruptcy-comparison' },
+      { label: '개인파산 종합 가이드', href: '/guide/bankruptcy' },
+      { label: '면책 후 자산 발견', href: '/guide/bankruptcy/bankruptcy-post-discharge-asset-found' },
+      { label: '개인파산 vs 개인회생 어떤 게 나에게 맞나', href: '/guide/bankruptcy/bankruptcy-vs-rehabilitation-comparison' },
     ],
   },
   {
@@ -223,9 +223,9 @@ export const spokesBatch18_31to35: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '아동성범죄 진단', href: '/diagnosis/child-sex-crime' },
-      { label: '아동성착취물 소지 처벌 기준', href: '/guide/child-sex-crime/child-exploitation-material-penalty' },
-      { label: '미성년자 의제강간 성립 요건', href: '/guide/child-sex-crime/statutory-rape-requirements' },
-      { label: '성범죄 신상공개 기준과 절차', href: '/guide/child-sex-crime/sex-offender-disclosure-criteria' },
+      { label: '아동성범죄 혐의 처벌 수위', href: '/guide/child-sex-crime/child-crime-charge-penalty-level' },
+      { label: '아동성범죄 종합 가이드', href: '/guide/child-sex-crime' },
+      { label: '학원 강사에 의한 아동 성추행 발견 시 대처', href: '/guide/child-sex-crime/academy-teacher-molestation-response' },
     ],
   },
   {
@@ -305,9 +305,9 @@ export const spokesBatch18_31to35: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '디지털 성범죄 진단', href: '/diagnosis/digital-sex-crime' },
-      { label: '불법촬영 피해 신고 절차', href: '/guide/digital-sex-crime/illegal-filming-report-procedure' },
-      { label: '디지털 성범죄 영상 삭제 요청 방법', href: '/guide/digital-sex-crime/digital-sex-crime-video-deletion' },
-      { label: '불법촬영 가해자 처벌 수위', href: '/guide/digital-sex-crime/illegal-filming-penalty-level' },
+      { label: '불법촬영 피해 발견 시 신고 및 삭제 요청 절차', href: '/guide/digital-sex-crime/hidden-camera-report-and-deletion-procedure' },
+      { label: '몸캠피싱 피해 대처법 긴급 가이드', href: '/guide/digital-sex-crime/digital-sex-crime-sextortion-response' },
+      { label: '불법촬영물 삭제 지원 신청 방법과 절차', href: '/guide/digital-sex-crime/illegal-filming-deletion-support' },
     ],
   },
   {
@@ -377,9 +377,9 @@ export const spokesBatch18_31to35: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '산업재해 진단', href: '/diagnosis/industrial-accident1' },
-      { label: '산재 신청 절차 가이드', href: '/guide/industrial-accident1/work-injury-claim-process' },
-      { label: '산재 보상금 산정 기준', href: '/guide/industrial-accident1/industrial-accident-compensation-calculation' },
-      { label: '중대재해처벌법 적용 기준', href: '/guide/industrial-accident1/serious-accident-law-criteria' },
+      { label: '산재보험 요양급여 신청 절차와 기한', href: '/guide/industrial-accident1/workers-comp-claim-process' },
+      { label: '출퇴근 재해 산재 인정', href: '/guide/industrial-accident1/industrial-accident-commute-injury-recognition-track' },
+      { label: '산업재해보상보험 I 종합 가이드', href: '/guide/industrial-accident1' },
     ],
   },
 ];

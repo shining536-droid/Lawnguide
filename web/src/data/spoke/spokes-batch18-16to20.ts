@@ -247,7 +247,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
       { label: '부동산 경매 진단', href: '/diagnosis/real-estate-auction' },
       { label: '경매 절차 전체 가이드', href: '/guide/real-estate-auction' },
       { label: '경매 권리분석 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
-      { label: '경매 낙찰 후 명도 절차', href: '/guide/real-estate-auction/auction-eviction-procedure' },
+      { label: '부동산 경매 입찰 절차와 준비 방법', href: '/guide/real-estate-auction/auction-bidding-procedure' },
     ],
   },
   {

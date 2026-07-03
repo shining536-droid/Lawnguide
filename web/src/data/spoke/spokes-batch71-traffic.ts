@@ -89,7 +89,7 @@ export const spokesBatch71Traffic: SpokePage[] = [
       { label: '보험 청구', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
       { label: '자전거-보행자 과실', href: '/guide/traffic-accident/traffic-bicycle-pedestrian-collision-fault' },
       { label: '횡단보도 무단횡단', href: '/guide/traffic-accident/traffic-accident-pedestrian-cross-jaywalk' },
-      { label: '교통사고 합의', href: '/guide/traffic-accident/traffic-accident-settlement-procedure' },
+      { label: '12대 중과실 합의 영향', href: '/guide/traffic-accident/traffic-accident-12-major-faults-settlement-impact' },
     ],
   },
 
@@ -169,7 +169,7 @@ export const spokesBatch71Traffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '교통사고 시작점', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
-      { label: '과실 비율', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
+      { label: '진로변경 차로변경 충돌 과실비율 판단', href: '/guide/traffic-accident/traffic-accident-lane-change-collision-fault-ratio-track' },
       { label: '보험 청구', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
       { label: '야간 보행자', href: '/guide/traffic-accident/traffic-accident-night-no-light-pedestrian' },
       { label: '무단횡단', href: '/guide/traffic-accident/traffic-accident-pedestrian-cross-jaywalk' },
@@ -254,8 +254,8 @@ export const spokesBatch71Traffic: SpokePage[] = [
       { label: '교통사고 시작점', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
       { label: '보험 청구', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
       { label: '자전거-보행자 과실', href: '/guide/traffic-accident/traffic-bicycle-pedestrian-collision-fault' },
-      { label: '과실 비율', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
-      { label: '교통사고 합의', href: '/guide/traffic-accident/traffic-accident-settlement-procedure' },
+      { label: '오토바이 중앙선 추월 과실비율 판단', href: '/guide/traffic-accident/traffic-accident-motorcycle-centerline-overtaking-fault-ratio-track' },
+      { label: '합의 후 후유증 추가 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim-settlement' },
     ],
   },
 
@@ -419,9 +419,9 @@ export const spokesBatch71Traffic: SpokePage[] = [
     internalLinks: [
       { label: '교통사고 시작점', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
       { label: '보험 청구', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
-      { label: '과실 비율', href: '/guide/traffic-accident/traffic-accident-fault-ratio' },
-      { label: '후방 추돌 100:0', href: '/guide/traffic-accident/traffic-accident-rear-end-100to0' },
-      { label: '교통사고 합의', href: '/guide/traffic-accident/traffic-accident-settlement-procedure' },
+      { label: '이륜차 차로 사이 주행 사고 과실비율 판단', href: '/guide/traffic-accident/traffic-accident-motorcycle-lane-filtering-fault-ratio-track' },
+      { label: '후미추돌 연쇄 다중추돌', href: '/guide/traffic-accident/traffic-accident-multi-vehicle-rear-end-chain-track' },
+      { label: '자전거 보행자 충돌 합의', href: '/guide/traffic-accident/traffic-accident-bicycle-pedestrian-settlement' },
     ],
   },
 ];

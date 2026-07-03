@@ -86,7 +86,7 @@ export const assaultPages: SpokePage[] = [
       { label: '폭행/상해 가이드', href: '/guide/assault' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },
       { label: '폭행 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount-process' },
-      { label: '폭행 가해자 방어 전략', href: '/guide/assault/assault-accused-defense-strategy' },
+      { label: '폭행 혐의로 고소당했을 때 어디부터 해야 하나', href: '/guide/assault/accused-of-assault-where-to-start' },
       { label: '정당방위 인정 기준과 준비 포인트', href: '/guide/assault/self-defense-criteria' },
     ],
   },

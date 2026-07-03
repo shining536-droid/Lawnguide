@@ -622,7 +622,7 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       { label: '개인회생 신청 서류', href: '/guide/rehabilitation/rehabilitation-application-required-docs' },
       { label: '개인회생 채권자 추심 중단', href: '/guide/rehabilitation/rehabilitation-creditor-collection-stop' },
       { label: '개인회생 기각 사유 예방', href: '/guide/rehabilitation/rehabilitation-rejection-reasons-prevention' },
-      { label: '회생·파산 선택 비교', href: '/guide/rehabilitation/bankruptcy-vs-rehabilitation-comparison' },
+      { label: '개인회생 종합 가이드', href: '/guide/rehabilitation' },
     ],
   },
 
@@ -705,7 +705,7 @@ export const spokesBatch38Nonlabor: SpokePage[] = [
       link: '/chat?domain=bankruptcy',
     },
     internalLinks: [
-      { label: '파산·회생 선택 비교', href: '/guide/rehabilitation/bankruptcy-vs-rehabilitation-comparison' },
+      { label: '개인회생 종합 가이드', href: '/guide/rehabilitation' },
       { label: '개인회생 신청 절차', href: '/guide/rehabilitation/rehabilitation-application-procedure-atoz' },
       { label: '파산 면책 불허가 채무', href: '/guide/bankruptcy/bankruptcy-non-dischargeable-debt-types' },
       { label: '회생 보증채무 포함', href: '/guide/rehabilitation/rehabilitation-suretyship-debt-included' },

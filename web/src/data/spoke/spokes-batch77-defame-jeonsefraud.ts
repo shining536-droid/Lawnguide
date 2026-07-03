@@ -422,7 +422,7 @@ export const spokesBatch77DefameJeonseFraud: SpokePage[] = [
     cta: { text: '전세사기 피해 대응 순서, AI로 정리하기', link: '/chat?domain=jeonse-fraud' },
     internalLinks: [
       { label: '전세사기 첫 확인', href: '/guide/jeonse-fraud/jeonse-fraud-first-check' },
-      { label: '전세사기 가짜 임대인 대응', href: '/guide/jeonse-fraud/fraud-fake-landlord-impersonation-victim' },
+      { label: '중개인 가짜 임대인 행세 보증금 회수 판단', href: '/guide/jeonse-fraud/jeonse-fraud-agent-fake-landlord-impersonation-deposit-track' },
       { label: '전세사기 피해자 인정 절차', href: '/guide/jeonse-fraud/jeonse-fraud-victim-recognition-process' },
       { label: '전세사기 신고 절차', href: '/guide/jeonse-fraud/jeonse-fraud-report-procedure' },
       { label: '전세사기 민사 vs 형사', href: '/guide/jeonse-fraud/jeonse-fraud-civil-vs-criminal' },

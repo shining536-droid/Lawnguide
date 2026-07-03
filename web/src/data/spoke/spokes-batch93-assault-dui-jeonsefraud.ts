@@ -78,10 +78,10 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행·상해 도메인 허브', href: '/guide/assault' },
-      { label: '상해진단서 증명력 기준', href: '/guide/assault/assault-injury-certificate-evidence' },
-      { label: '폭행·상해 고소 절차', href: '/guide/assault/assault-injury-complaint-procedure' },
-      { label: '블랙박스·CCTV 확보', href: '/guide/assault/assault-blackbox-cctv-evidence' },
-      { label: '치료비·위자료 손해배상', href: '/guide/assault/assault-medical-damages-claim' },
+      { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
+      { label: '주차 시비 밀침 상해 신고', href: '/guide/assault/assault-parking-dispute-pushing-injury-track' },
+      { label: '공동주택 엘리베이터 폭행 CCTV', href: '/guide/assault/assault-apartment-elevator-cctv-evidence-track' },
+      { label: '폭행 피해 치료비 청구 기한과 금액 기준', href: '/guide/assault/assault-medical-cost-timeline' },
     ],
   },
   {
@@ -159,10 +159,10 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행·상해 도메인 허브', href: '/guide/assault' },
-      { label: '특수상해·흉기 휴대 기준', href: '/guide/assault/assault-special-injury-weapon-standard' },
-      { label: '협박·특수협박 대응', href: '/guide/assault/assault-intimidation-response' },
-      { label: '폭행·상해 고소 절차', href: '/guide/assault/assault-injury-complaint-procedure' },
-      { label: 'CCTV·영상 확보', href: '/guide/assault/assault-cctv-evidence-secure' },
+      { label: '특수폭행 흉기 위험한 물건 가중 분기', href: '/guide/assault/assault-armed-special-aggravated-weapon-bring-distinction' },
+      { label: '폭행 가해자로 입건됐을 때 첫 대응', href: '/guide/assault/assault-charged-first-response' },
+      { label: '주차 시비 폭행', href: '/guide/assault/assault-parking-dispute-shove-injury-track' },
+      { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
     ],
   },
   {
@@ -240,10 +240,10 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행·상해 도메인 허브', href: '/guide/assault' },
-      { label: '보복 운전 대응 절차', href: '/guide/assault/assault-road-rage-response' },
-      { label: '공무집행방해 성립 기준', href: '/guide/assault/assault-obstruction-of-duty-standard' },
-      { label: '블랙박스·CCTV 확보', href: '/guide/assault/assault-blackbox-cctv-evidence' },
-      { label: '폭행·상해 고소 절차', href: '/guide/assault/assault-injury-complaint-procedure' },
+      { label: '보복운전 시비 쌍방폭행 무고 방어', href: '/guide/assault/assault-road-rage-retaliation-mutual-falsely-accused-defense' },
+      { label: '공무집행 중 공무원 폭행', href: '/guide/assault/assault-public-official-on-duty-resistance-track' },
+      { label: '공동주택 엘리베이터 폭행 CCTV', href: '/guide/assault/assault-apartment-elevator-cctv-evidence-track' },
+      { label: '주차장 시비 폭행 상해 신고', href: '/guide/assault/assault-parking-lot-confrontation-injury-report-track' },
     ],
   },
   {
@@ -322,9 +322,9 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '폭행·상해 도메인 허브', href: '/guide/assault' },
       { label: '사실과 다른 고소 방어', href: '/guide/assault/assault-false-accusation-defense' },
-      { label: '상해진단서 증명력 기준', href: '/guide/assault/assault-injury-certificate-evidence' },
-      { label: '경찰 조사 대응', href: '/guide/assault/assault-police-investigation-response' },
-      { label: '국선변호인·방어권', href: '/guide/assault/assault-public-defender-rights' },
+      { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
+      { label: '폭행 가해자로 입건됐을 때 첫 대응', href: '/guide/assault/assault-charged-first-response' },
+      { label: '목욕탕 사우나 자리 시비 폭행 상해 신고', href: '/guide/assault/assault-public-bath-sauna-seat-dispute-strike-report-track' },
     ],
   },
   {
@@ -403,9 +403,9 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '음주운전 도메인 허브', href: '/guide/dui' },
       { label: '음주측정 거부 처벌', href: '/guide/dui/dui-measurement-refusal-track' },
-      { label: '음주측정 상당한 이유 기준', href: '/guide/dui/dui-reasonable-grounds-standard' },
-      { label: '음주운전 행정심판 절차', href: '/guide/dui/dui-administrative-appeal-procedure' },
-      { label: '면허취소·정지 기준', href: '/guide/dui/dui-license-revocation-suspension-standard' },
+      { label: '음주 사고 후 도주 적용법조 다툼', href: '/guide/dui/dui-accident-leave-scene-track' },
+      { label: '음주운전 면허 행정처분 절차', href: '/guide/dui/dui-administrative-license-procedure' },
+      { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },
     ],
   },
 // ─── 1. dui-off-road-parking-lot-track ───
@@ -485,9 +485,9 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '음주운전 도메인 허브', href: '/guide/dui' },
       { label: '음주측정 거부 처벌', href: '/guide/dui/dui-measurement-refusal-track' },
-      { label: '음주운전 행정심판 절차', href: '/guide/dui/dui-administrative-appeal-procedure' },
-      { label: '면허취소·정지 기준', href: '/guide/dui/dui-license-revocation-suspension-standard' },
-      { label: '음주운전 양형·감경', href: '/guide/dui/dui-sentencing-mitigation-factors' },
+      { label: '음주 면허취소 행정심판 재량권', href: '/guide/dui/dui-administrative-suspension-appeal-track' },
+      { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },
+      { label: '음주운전 행정심판 90일 면허취소 감경', href: '/guide/dui/dui-administrative-trial-90day-mitigation' },
     ],
   },
 
@@ -568,9 +568,9 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '음주운전 도메인 허브', href: '/guide/dui' },
       { label: '도로 외 장소 음주운전', href: '/guide/dui/dui-off-road-parking-lot-track' },
-      { label: '음주운전 행정심판 절차', href: '/guide/dui/dui-administrative-appeal-procedure' },
-      { label: '면허취소·정지 기준', href: '/guide/dui/dui-license-revocation-suspension-standard' },
-      { label: '음주운전 양형·감경', href: '/guide/dui/dui-sentencing-mitigation-factors' },
+      { label: '2회 음주 면허취소 행정심판', href: '/guide/dui/dui-second-revoke-administrative-appeal' },
+      { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },
+      { label: '음주운전 행정심판 90일 면허취소 감경', href: '/guide/dui/dui-administrative-trial-90day-mitigation' },
     ],
   },
 
@@ -650,10 +650,10 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '전세사기 피해 대응 순서, AI로 정리하기', link: '/chat?domain=jeonse-fraud' },
     internalLinks: [
       { label: '전세사기 도메인 허브', href: '/guide/jeonse-fraud' },
-      { label: '대항력·우선변제권 기준', href: '/guide/jeonse-fraud/jeonse-fraud-opposing-power-priority-standard' },
-      { label: '확정일자·전입신고 순서', href: '/guide/jeonse-fraud/jeonse-fraud-fixed-date-move-in-order' },
-      { label: '전세보증보험 면책 분쟁', href: '/guide/jeonse-fraud/jeonse-fraud-guarantee-exemption-dispute' },
-      { label: '전세사기 피해자 결정 신청', href: '/guide/jeonse-fraud/jeonse-fraud-victim-decision-application' },
+      { label: '법인 임차 직원 거주 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-corporate-lease-employee-opposing-power-track' },
+      { label: '전입 지연 대항력 후순위', href: '/guide/jeonse-fraud/jeonse-fraud-late-move-in-priority-loss-track' },
+      { label: '보증보험 미가입 전세사기 대항요건 존속', href: '/guide/jeonse-fraud/jeonse-fraud-guarantee-insurance-unsubscribed-track' },
+      { label: '전세사기 피해자 인정 신청 전 준비 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },
     ],
   },
 
@@ -733,10 +733,10 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '전세사기 피해 대응 순서, AI로 정리하기', link: '/chat?domain=jeonse-fraud' },
     internalLinks: [
       { label: '전세사기 도메인 허브', href: '/guide/jeonse-fraud' },
-      { label: '다가구주택 선순위 확인', href: '/guide/jeonse-fraud/jeonse-fraud-multi-household-priority-check' },
-      { label: '중개사 설명의무·배상책임', href: '/guide/jeonse-fraud/jeonse-fraud-broker-explanation-liability' },
-      { label: '확정일자·전입신고 순서', href: '/guide/jeonse-fraud/jeonse-fraud-fixed-date-move-in-order' },
-      { label: '전세사기 피해자 결정 신청', href: '/guide/jeonse-fraud/jeonse-fraud-victim-decision-application' },
+      { label: '다가구주택 후순위 보증금 우선변제 판단', href: '/guide/jeonse-fraud/jeonse-fraud-multi-household-junior-priority-deposit-track' },
+      { label: '중개보조원 보증금 횡령 사용자책임', href: '/guide/jeonse-fraud/jeonse-fraud-broker-assistant-officetel-employer-liability-track' },
+      { label: '전세사기 보증금 배당 순위 정리', href: '/guide/jeonse-fraud/jeonse-fraud-deposit-priority-order' },
+      { label: '전세사기 피해자 인정 신청 전 준비 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },
     ],
   },
 
@@ -816,10 +816,10 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '전세사기 피해 대응 순서, AI로 정리하기', link: '/chat?domain=jeonse-fraud' },
     internalLinks: [
       { label: '전세사기 도메인 허브', href: '/guide/jeonse-fraud' },
-      { label: '임차권등기명령 절차', href: '/guide/jeonse-fraud/jeonse-fraud-lease-registration-order-procedure' },
-      { label: '보증금반환소송 순서', href: '/guide/jeonse-fraud/jeonse-fraud-deposit-return-lawsuit-order' },
-      { label: '보증금 소멸시효 관리', href: '/guide/jeonse-fraud/jeonse-fraud-deposit-prescription-management' },
-      { label: '전세사기 피해자 결정 신청', href: '/guide/jeonse-fraud/jeonse-fraud-victim-decision-application' },
+      { label: '임차권등기 비용 임대인 청구 회수', href: '/guide/jeonse-fraud/jeonse-fraud-lease-registration-cost-claim-recovery-track' },
+      { label: '전세사기 보증금 배당 순위 정리', href: '/guide/jeonse-fraud/jeonse-fraud-deposit-priority-order' },
+      { label: '관리비 과다부과 사기', href: '/guide/jeonse-fraud/jeonse-fraud-management-fee-inflate-track' },
+      { label: '전세사기 피해자 인정 신청 전 준비 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },
     ],
   },
 ];

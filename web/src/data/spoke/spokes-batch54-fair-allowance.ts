@@ -361,7 +361,7 @@ export const spokesBatch54FairAllowance: SpokePage[] = [
       { label: '공정수당 6단계 지급액', href: '/guide/wage/fair-allowance-amount-calculation' },
       { label: '공정수당 민간 적용', href: '/guide/wage/fair-allowance-public-vs-private' },
       { label: '기간제 만료 정당이직', href: '/guide/unemployment/unemployment-fixed-term-expire-voluntary-distinguish' },
-      { label: '실업급여 수급자격 점검', href: '/guide/unemployment/unemployment-eligibility-check-guide' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
     ],
   },
 

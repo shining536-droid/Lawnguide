@@ -87,11 +87,11 @@ export const spokesBatch48Misc: SpokePage[] = [
     ],
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      { label: '퇴직금 계산법과 평균임금 기준', href: '/guide/retirement/retirement-calculation-average-wage' },
+      { label: '평균임금 산정 퇴직금', href: '/guide/retirement/retirement-average-wage-calculation-track' },
       { label: '퇴직금 중간정산 사유와 절차', href: '/guide/retirement/retirement-interim-settlement-guide' },
-      { label: '계약직 퇴직금 청구 권리', href: '/guide/retirement/retirement-fixed-term-eligibility' },
-      { label: '퇴직금 미지급 노동청 진정', href: '/guide/retirement/retirement-unpaid-labor-office-complaint' },
-      { label: '평균임금 vs 통상임금 차이', href: '/guide/retirement/retirement-average-vs-ordinary-wage' },
+      { label: '위임 형식 근로자성 계속근로 통산 퇴직금', href: '/guide/retirement/retirement-fixed-term-continuous-service-aggregation-track' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
+      { label: '퇴직금 평균임금 산정 분쟁', href: '/guide/retirement/retirement-average-wage-dispute' },
     ],
   },
 
@@ -172,9 +172,9 @@ export const spokesBatch48Misc: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 중간정산 적법 사유', href: '/guide/retirement/retirement-interim-settlement-2024-rules' },
       { label: '평균임금 산정 기준', href: '/guide/retirement/retirement-average-wage-dispute' },
-      { label: '퇴직금 미지급 시 도산대지급금', href: '/guide/retirement/retirement-unpaid-substitute-payment' },
-      { label: '임금체불 노동청 진정 절차', href: '/guide/wage/wage-unpaid-labor-office-complaint' },
-      { label: '퇴직금 시효 관리법', href: '/guide/retirement/retirement-claim-expiration' },
+      { label: '폐업 도산 도산대지급금', href: '/guide/retirement/retirement-business-closure-substitute-payment' },
+      { label: '집단 임금체불 공동진정', href: '/guide/wage/unpaid-wage-collective-complaint' },
+      { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
     ],
   },
 
@@ -253,11 +253,11 @@ export const spokesBatch48Misc: SpokePage[] = [
     ],
     cta: { text: '양육비 못 받을 때 다음 단계, AI로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비이행관리원 무료 지원', href: '/guide/child-support/child-support-csa-free-support' },
+      { label: '양육비 직접지급명령 가정법원', href: '/guide/child-support/child-support-direct-payment-order-family-court-no-csa-track' },
       { label: '양육비 직접지급명령 절차', href: '/guide/child-support/child-support-direct-payment-order-process' },
-      { label: '양육비 강제집행 재산 조회', href: '/guide/child-support/child-support-asset-investigation' },
-      { label: '양육비 한시적 긴급지원 제도', href: '/guide/child-support/child-support-emergency-support' },
-      { label: '국제 이혼·양육 사건 관할', href: '/guide/divorce/divorce-international-jurisdiction' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 선지급제 중위소득 150%', href: '/guide/child-support/child-support-pre-payment-emergency-medium-income-track' },
+      { label: '외국인 배우자 이혼 국제재판관할 송달 절차', href: '/guide/divorce/divorce-foreign-spouse-international-jurisdiction' },
     ],
   },
 
@@ -338,8 +338,8 @@ export const spokesBatch48Misc: SpokePage[] = [
     internalLinks: [
       { label: '개인회생 신청 자격 요건', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
       { label: '회생 vs 파산 선택 기준', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy-choice' },
-      { label: '변제계획안 작성 포인트', href: '/guide/rehabilitation/rehabilitation-repayment-plan-writing' },
-      { label: 'KLAC 법률구조 무료 지원', href: '/guide/rehabilitation/rehabilitation-klac-free-support' },
+      { label: '개인회생 변제계획 작성 기준 총정리', href: '/guide/rehabilitation/rehabilitation-repayment-plan-comprehensive' },
+      { label: '개인회생 종합 가이드', href: '/guide/rehabilitation' },
       { label: '카드론 채무 정리 옵션 비교', href: '/guide/rehabilitation/rehabilitation-card-loan-included' },
     ],
   },
@@ -419,11 +419,11 @@ export const spokesBatch48Misc: SpokePage[] = [
     ],
     cta: { text: '파산 신청 절차와 서류, AI로 정리하기', link: '/chat?domain=bankruptcy' },
     internalLinks: [
-      { label: '파산 신청 절차와 준비서류', href: '/guide/bankruptcy/bankruptcy-personal-filing-procedure' },
-      { label: '파산 면책 비면책채권 구분', href: '/guide/bankruptcy/bankruptcy-non-dischargeable-claims' },
-      { label: 'KLAC 무료 회생·파산 지원', href: '/guide/bankruptcy/bankruptcy-klac-free-support' },
-      { label: '면책 불허가 사유 점검표', href: '/guide/bankruptcy/bankruptcy-discharge-denial-reasons' },
-      { label: '파산 후 신용 회복 절차', href: '/guide/bankruptcy/bankruptcy-after-credit-recovery' },
+      { label: '개인파산 종합 가이드', href: '/guide/bankruptcy' },
+      { label: '파산 면책 안 되는 채무 종류', href: '/guide/bankruptcy/non-dischargeable-debts-after-bankruptcy' },
+      { label: '파산 가상화폐 신고 의무', href: '/guide/bankruptcy/bankruptcy-cryptocurrency-holdings-disclosure' },
+      { label: '면책불허가 사유 판례', href: '/guide/bankruptcy/discharge-denial-reasons-key-cases' },
+      { label: '파산 면책 후 신용 회복', href: '/guide/bankruptcy/bankruptcy-credit-recovery-steps' },
     ],
   },
 
@@ -503,10 +503,10 @@ export const spokesBatch48Misc: SpokePage[] = [
     cta: { text: '산재 인정 가능성, AI로 점검하기', link: '/chat?domain=industrial-accident' },
     internalLinks: [
       { label: '통근재해 우회로 인정 기준', href: '/guide/industrial-accident/industrial-accident-commute-detour-coverage' },
-      { label: '산재 요양급여 신청 절차', href: '/guide/industrial-accident/industrial-accident-medical-care-application' },
-      { label: '산재 휴업급여 계산법', href: '/guide/industrial-accident/industrial-accident-disability-benefit-calculation' },
-      { label: '산재 불승인 심사청구 절차', href: '/guide/industrial-accident/industrial-accident-appeal-procedure' },
-      { label: '산재 vs 자동차보험 차이', href: '/guide/industrial-accident/industrial-accident-vs-auto-insurance' },
+      { label: '출퇴근 경로 사고 업무상 재해 인정 요양급여 절차', href: '/guide/industrial-accident/industrial-accident-commute-route-accident-recognition-track' },
+      { label: '재요양 후 장해등급 변경 재해위로금', href: '/guide/industrial-accident/industrial-accident-disability-grade-change-recovery-condolence-track' },
+      { label: '산업재해 인정 거부 시 불복 절차', href: '/guide/industrial-accident/industrial-accident-denial-appeal' },
+      { label: '출퇴근 경로 이탈 중 부상 업무상 재해 인정 절차', href: '/guide/industrial-accident/industrial-accident-commute-route-detour-injury-recognition-track' },
     ],
   },
 
@@ -588,8 +588,8 @@ export const spokesBatch48Misc: SpokePage[] = [
       { label: '음주운전 행정심판 준비서류', href: '/guide/dui/dui-administrative-appeal-required-docs' },
       { label: '음주운전 면허 청문 절차', href: '/guide/dui/dui-administrative-license-hearing' },
       { label: '음주운전 행정처분 절차', href: '/guide/dui/dui-administrative-license-procedure' },
-      { label: '음주운전 형사 처벌 기준', href: '/guide/dui/dui-criminal-penalty-standards' },
-      { label: '음주운전 합의·반성 요소', href: '/guide/dui/dui-settlement-mitigation-factors' },
+      { label: '음주운전 종합 가이드', href: '/guide/dui' },
+      { label: '음주운전 행정심판 90일 면허취소 감경', href: '/guide/dui/dui-administrative-trial-90day-mitigation' },
     ],
   },
 ];

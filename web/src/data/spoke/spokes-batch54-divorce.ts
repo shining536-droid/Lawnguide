@@ -88,7 +88,7 @@ export const spokesBatch54Divorce: SpokePage[] = [
       { label: '황혼이혼 재산분할 연금', href: '/guide/divorce/divorce-elderly-property-division' },
       { label: '연금분할 청구 기한', href: '/guide/divorce/divorce-pension-division-timeline' },
       { label: '국민연금 분할연금 신청', href: '/guide/divorce/divorce-pension-split-formula' },
-      { label: '특유재산과 기여도 평가', href: '/guide/divorce/divorce-special-property-contribution' },
+      { label: '부모 경제적 지원 재산분할 기여 반영', href: '/guide/divorce/divorce-parents-financial-support-property-contribution-track' },
     ],
   },
 
@@ -253,8 +253,8 @@ export const spokesBatch54Divorce: SpokePage[] = [
       { label: '가정폭력 긴급피난처', href: '/guide/divorce/divorce-domestic-violence-emergency-shelter' },
       { label: '가정폭력 증거 수집', href: '/guide/divorce/divorce-domestic-violence-evidence-collection' },
       { label: '가정폭력 보호명령 병행', href: '/guide/divorce/divorce-domestic-violence-protection-order-parallel' },
-      { label: '재판상 이혼 사유', href: '/guide/divorce/divorce-litigation-grounds-civil-840' },
-      { label: '협의이혼 준비 절차', href: '/guide/divorce/divorce-consensual-procedure-step-by-step' },
+      { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '협의이혼 의사 철회 시점 절차', href: '/guide/divorce/divorce-consensual-intent-withdrawal-procedure' },
     ],
   },
 

@@ -622,7 +622,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       { label: '포괄임금 수당 미지급', href: '/guide/wage/comprehensive-wage-overtime-response' },
       { label: '퇴사 후 임금 진정', href: '/guide/wage/post-resignation-wage-complaint-procedure' },
       { label: '평균임금 분쟁', href: '/guide/retirement/retirement-average-wage-dispute' },
-      { label: '임금체불 소액 소송', href: '/guide/wage/missing-cause-of-action-leads-to-dismissal' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
     ],
   },
 

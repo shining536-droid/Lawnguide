@@ -172,9 +172,9 @@ export const spokesBatch78DefameJeonseFraud: SpokePage[] = [
     ],
     cta: { text: '명예훼손 대응 포인트, AI로 정리하기', link: '/chat?domain=defamation' },
     internalLinks: [
-      { label: '단톡방 모욕 증거', href: '/guide/defamation/group-chat-insult-evidence' },
+      { label: '단톡방 욕설 명예훼손 모욕죄 성립', href: '/guide/defamation/defamation-group-chat-insult-evidence' },
       { label: '명예훼손 피해자 시작', href: '/guide/defamation/defamation-victim-where-to-start' },
-      { label: '단톡방 캡처 증거 가치', href: '/guide/defamation/group-chat-screenshot-evidence-value' },
+      { label: '단톡방 캡처 명예훼손 증거', href: '/guide/defamation/defamation-group-chat-screenshot-evidence-value' },
       { label: '온라인 모욕 고소·처벌', href: '/guide/defamation/online-insult-lawsuit-penalty' },
       { label: '명예훼손 합의금 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
     ],

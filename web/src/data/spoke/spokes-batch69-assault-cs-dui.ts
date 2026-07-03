@@ -335,11 +335,11 @@ export const spokesBatch69AssaultCsDui: SpokePage[] = [
     ],
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육비 산정기준표', href: '/guide/child-support/child-support-calculation-standard' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
       { label: '비양육친 재혼 증액', href: '/guide/child-support/child-support-non-custodial-remarry-income-increase' },
       { label: '양육비 변경 심판', href: '/guide/child-support/child-support-modification-income-change' },
       { label: '재혼 시 감액 다툼', href: '/guide/child-support/child-support-ex-remarriage-reduction-possible' },
-      { label: '양육비이행관리원', href: '/guide/child-support/child-support-enforcement-agency' },
+      { label: '양육비 미지급 시 강제집행 방법 3가지', href: '/guide/child-support/child-support-enforcement-methods' },
     ],
   },
 
@@ -422,7 +422,7 @@ export const spokesBatch69AssaultCsDui: SpokePage[] = [
       { label: '명단공개 절차', href: '/guide/child-support/child-support-public-disclosure-debtor-list-procedure' },
       { label: '출국금지 해외 거주', href: '/guide/child-support/child-support-non-payer-overseas-residence' },
       { label: '운전면허 정지', href: '/guide/child-support/child-support-license-suspension-petition-procedure' },
-      { label: '양육비이행관리원', href: '/guide/child-support/child-support-enforcement-agency' },
+      { label: '해외 거주 양육비 강제집행', href: '/guide/child-support/child-support-overseas-parent-enforcement' },
     ],
   },
 

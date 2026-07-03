@@ -90,7 +90,7 @@ export const spokesBatch26_34to35: SpokePage[] = [
       { label: '개인회생 가이드', href: '/guide/rehabilitation' },
       { label: '개인파산 가이드', href: '/guide/bankruptcy' },
       { label: '임금체불 가이드', href: '/guide/wage' },
-      { label: '개인회생 신청 자격 확인', href: '/guide/rehabilitation/rehabilitation-qualification-check' },
+      { label: '개인회생 신청 전 확인할 것 5가지', href: '/guide/rehabilitation/rehabilitation-pre-check' },
     ],
   },
 

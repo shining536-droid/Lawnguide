@@ -89,7 +89,7 @@ export const spokesBatch48WageUnemp: SpokePage[] = [
       { label: '임금체불 진정 전 체크리스트', href: '/guide/wage/wage-complaint-pre-filing-checklist' },
       { label: '봉사료·팁 통상임금 포함 기준', href: '/guide/wage/wage-tip-service-charge-base-inclusion' },
       { label: '식대·교통비 임의 중단 대응', href: '/guide/wage/wage-meal-transport-suddenly-stopped' },
-      { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-report-procedure-timeline' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '수당 환수 일방 공제 위법', href: '/guide/wage/wage-commission-clawback-illegal' },
     ],
   },
@@ -256,7 +256,7 @@ export const spokesBatch48WageUnemp: SpokePage[] = [
     internalLinks: [
       { label: '식대·교통비 임의 중단 대응', href: '/guide/wage/wage-meal-transport-suddenly-stopped' },
       { label: '해외출장수당 미지급 청구', href: '/guide/wage/wage-overseas-business-trip-allowance-recovery' },
-      { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-report-procedure-timeline' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '봉사료·팁 통상임금 포함 기준', href: '/guide/wage/wage-tip-service-charge-base-inclusion' },
       { label: '성과급 최저임금 위반 신고', href: '/guide/wage/wage-piece-rate-minimum-violation' },
     ],

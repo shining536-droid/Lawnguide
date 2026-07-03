@@ -466,7 +466,7 @@ export const spokesBatch31Misc: SpokePage[] = [
     ],
     cta: { text: '전세 대항력 요건 체크 AI로 바로 확인하기', link: '/chat?domain=jeonse' },
     internalLinks: [
-      { label: '전세 보증금 미반환 대응', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전세보증보험 청구', href: '/guide/jeonse/jeonse-insurance-claim-checklist' },
       { label: '전세 갱신 거절 대응', href: '/guide/jeonse/jeonse-renewal-landlord-refusal' },
       { label: '전세 경매 배당 우선순위', href: '/guide/jeonse/jeonse-auction-deposit-priority' },
@@ -545,7 +545,7 @@ export const spokesBatch31Misc: SpokePage[] = [
     ],
     cta: { text: '중개사 의무 위반 손해배상 가능성 AI로 확인하기', link: '/chat?domain=jeonse' },
     internalLinks: [
-      { label: '전세 보증금 미반환 대응', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전세보증보험 청구', href: '/guide/jeonse/jeonse-insurance-claim-checklist' },
       { label: '전세 갱신 거절 대응', href: '/guide/jeonse/jeonse-renewal-landlord-refusal' },
       { label: '전세 경매 배당 우선순위', href: '/guide/jeonse/jeonse-auction-deposit-priority' },

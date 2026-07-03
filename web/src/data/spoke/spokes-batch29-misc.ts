@@ -755,11 +755,11 @@ export const spokesBatch29Misc: SpokePage[] = [
     ],
     cta: { text: '계약갱신 거절 대응법 AI로 즉시 확인하기', link: '/chat?domain=jeonse' },
     internalLinks: [
-      { label: '전세 보증금 미반환', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전세사기 대응', href: '/guide/jeonse-fraud/jeonse-fraud-where-to-start' },
       { label: '역전세 대응', href: '/guide/jeonse/jeonse-reverse-gap-tenant-response' },
       { label: '보증보험 청구', href: '/guide/jeonse/jeonse-insurance-claim-checklist' },
-      { label: '임대차분쟁조정', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '미등기 신축 주택 보증금 보호', href: '/guide/jeonse/jeonse-housing-not-registered-deposit' },
     ],
   },
 
@@ -829,7 +829,7 @@ export const spokesBatch29Misc: SpokePage[] = [
     ],
     cta: { text: '보증금 우선변제 순위 AI로 즉시 확인하기', link: '/chat?domain=jeonse' },
     internalLinks: [
-      { label: '전세 보증금 미반환', href: '/guide/jeonse/jeonse-deposit-not-returned-response' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' },
       { label: '전세 경매 우선변제', href: '/guide/jeonse/jeonse-auction-deposit-priority' },
       { label: '전세보증보험', href: '/guide/jeonse/jeonse-insurance-claim-checklist' },
       { label: '전세사기 대응', href: '/guide/jeonse-fraud/jeonse-fraud-where-to-start' },

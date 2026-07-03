@@ -336,7 +336,7 @@ export const spokesBatch56AssaultCsDui: SpokePage[] = [
     cta: { text: '양육비 못 받을 때 다음 단계, AI로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '직접지급명령 절차', href: '/guide/child-support/child-support-direct-payment-order-procedure' },
-      { label: '직접지급명령 vs 이행관리원', href: '/guide/child-support/child-support-direct-vs-agency-comparison' },
+      { label: '양육비 직접지급명령 절차', href: '/guide/child-support/child-support-direct-payment-order-process' },
       { label: '제3자 사용자 직접지급', href: '/guide/child-support/child-support-direct-payment-third-party-employer' },
       { label: '미지급 급여 압류 절차', href: '/guide/child-support/child-support-overdue-salary-seizure-procedure' },
       { label: '양육비 감치명령 절차', href: '/guide/child-support/child-support-contempt-detention-procedure' },

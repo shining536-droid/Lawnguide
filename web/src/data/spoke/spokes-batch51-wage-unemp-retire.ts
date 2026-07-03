@@ -89,9 +89,9 @@ export const spokesBatch51WageUnempRetire: SpokePage[] = [
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '보상휴가제 위장 연장수당 청구', href: '/guide/wage/wage-comp-time-substitute-overtime-illegal' },
-      { label: '연장수당 미지급 신고 절차', href: '/guide/wage/wage-overtime-night-allowance-illegal' },
+      { label: '야간 휴일 연장근로수당 미지급 청구 판단', href: '/guide/wage/wage-night-holiday-overtime-allowance-unpaid-claim-track' },
       { label: '임금 지연이자 연 20% 청구', href: '/guide/wage/wage-late-payment-interest-claim' },
-      { label: '급여명세서 누락·미발급 위반', href: '/guide/wage/wage-payslip-incomplete-violation' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
       { label: '퇴직 후 임금 미지급 지연', href: '/guide/wage/wage-resignation-final-pay-delay' },
     ],
   },
@@ -175,8 +175,8 @@ export const spokesBatch51WageUnempRetire: SpokePage[] = [
       { label: '상여금 지급조건 일방 변경 차별', href: '/guide/wage/wage-bonus-condition-changed-discrimination' },
       { label: '보상휴가제 위장 연장수당 청구', href: '/guide/wage/wage-comp-time-substitute-overtime-illegal' },
       { label: '임금 지연이자 연 20% 청구', href: '/guide/wage/wage-late-payment-interest-claim' },
-      { label: '급여명세서 누락·미발급 위반', href: '/guide/wage/wage-payslip-incomplete-violation' },
-      { label: '임금체불 1년 경과 시효 청구', href: '/guide/wage/wage-deferred-payment-interest' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
+      { label: '월급 일부만 지급 대처법', href: '/guide/wage/partial-salary-payment-response-steps' },
     ],
   },
 
@@ -258,7 +258,7 @@ export const spokesBatch51WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '상여금 지급조건 일방 변경 차별', href: '/guide/wage/wage-bonus-condition-changed-discrimination' },
       { label: '인센티브 사후 취소 차액 청구', href: '/guide/wage/wage-incentive-revocation-after-meeting-target' },
-      { label: '임금체불 진정 전 체크리스트', href: '/guide/wage/wage-payslip-incomplete-violation' },
+      { label: '임금 종합 가이드', href: '/guide/wage' },
       { label: '임금 지연이자 연 20% 청구', href: '/guide/wage/wage-late-payment-interest-claim' },
       { label: '보상휴가제 위장 연장수당 청구', href: '/guide/wage/wage-comp-time-substitute-overtime-illegal' },
     ],
