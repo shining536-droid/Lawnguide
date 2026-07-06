@@ -298,7 +298,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       {
         title: '직무 전환 효력 — 동의 필요한 경우와 예외',
         content:
-          '<p><strong style="color:#1e3a5f">직무·근무지 변경이 근로계약 본질에 해당하면 개별 동의 필수입니다.</strong></p>\n<ul>\n<li><strong>원칙 — 개별 동의</strong> — 계약서에 직무·장소가 특정됐으면 변경 시 동의 필요.</li>\n<li><strong>예외 — 포괄 조항</strong> — "업무상 필요 시 전환 가능" 조항이 있어도 업무상 필요성·근로자 생활상 불이익 비교 필수.</li>\n<li><strong>판단 기준</strong> — 대법원 2013다1921 "업무상 필요성 vs 불이익 비교형량".</li>\n<li><strong>임금 불이익</strong> — 전환으로 임금 10% 이상 감소면 본질적 변경으로 인정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "창고로 가라"가 원래 사무직 계약의 본질을 흔들면 그 지시 자체가 무효일 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">직무·근무지 변경이 근로계약 본질에 해당하면 개별 동의 필수입니다.</strong></p>\n<ul>\n<li><strong>원칙 — 개별 동의</strong> — 계약서에 직무·장소가 특정됐으면 변경 시 동의 필요.</li>\n<li><strong>예외 — 포괄 조항</strong> — "업무상 필요 시 전환 가능" 조항이 있어도 업무상 필요성·근로자 생활상 불이익 비교 필수.</li>\n<li><strong>동의 없는 전적은 무효</strong> — 대법원 2005두9873은 다른 기업으로 소속을 옮기는 전적은 특별한 사정이 없는 한 근로자의 동의가 있어야 효력이 생긴다고 보았습니다.</li>\n<li><strong>임금 불이익</strong> — 전환으로 임금 10% 이상 감소면 본질적 변경으로 인정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "창고로 가라"가 원래 사무직 계약의 본질을 흔들면 그 지시 자체가 무효일 수 있습니다.</blockquote>',
       },
       {
         title: '4단계 대응 — 거절 시점부터 해고까지',
