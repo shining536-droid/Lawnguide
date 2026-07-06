@@ -90,6 +90,9 @@ _CASE_BASE = r"다|도|두|스|므|모|노|고합|구합|허|드|누|누라|하|
 _CASE_EXTRA = {
     "divorce": r"르|드단|드합|느합",   # 가사 하급심 (브 제외 — 상속재산분할 성격, 순도 우선)
     "wage":    r"나|가합|가단",        # 민사 하급심
+    "jeonse":       r"나|가합|가단|가소",   # 민사 하급심 (조세 누/구/행은 접미사에서 자동배제)
+    "jeonse-fraud": r"나|가합|가단|가소",   # jeonse 공유풀
+    "defamation":   r"고단|고정",          # 형사 하급심 (노·고합은 _CASE_BASE에 이미 有)
 }
 def _case_re(domain: str | None):
     extra = _CASE_EXTRA.get(domain or "", "")
