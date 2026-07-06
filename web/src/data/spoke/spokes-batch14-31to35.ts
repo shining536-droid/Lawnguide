@@ -70,8 +70,8 @@ export const spokesBatch14Pages31to35: SpokePage[] = [
       { label: '사기 피해 어디부터 시작해야 하나', href: '/spoke/fraud/fraud-victim-where-to-start' },
       { label: '사기죄 고소 절차 총정리', href: '/spoke/fraud/fraud-prosecution-procedure-overview' },
       { label: '사기 피해 민사소송 진행 절차', href: '/spoke/fraud/fraud-civil-lawsuit-procedure' },
-      { label: '사기 고소 vs 고발 차이점', href: '/spoke/fraud/fraud-accusation-vs-report-difference' },
-      { label: '사기 피해금 강제집행 절차', href: '/spoke/fraud/fraud-damage-enforcement-procedure' }
+      { label: 'fraud 도메인 허브', href: '/guide/fraud' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' }
     ]
   },
   {

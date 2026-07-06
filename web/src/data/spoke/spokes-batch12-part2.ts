@@ -77,11 +77,11 @@ export const spokesBatch12Part2Pages: SpokePage[] = [
       link: '/diagnosis/dui',
     },
     internalLinks: [
-      { label: '음주운전 초범 처벌 기준', href: '/spoke/dui/dui-first-offense-penalty-guide' },
-      { label: '음주운전 면허 취소 절차', href: '/spoke/dui/dui-license-revocation-process' },
+      { label: '0.03% 경계 수치 음주운전 초범', href: '/guide/dui/dui-borderline-bac-003-first-offense-track' },
+      { label: '장애인 음주 면허취소 행정심판', href: '/guide/dui/dui-disabled-license-revocation-livelihood-appeal-track' },
       { label: '음주운전 형사 절차 총정리', href: '/spoke/dui/dui-criminal-procedure-overview' },
       { label: '음주운전 2회 이상 처벌', href: '/spoke/dui/dui-second-offense-penalty' },
-      { label: '음주 측정 분쟁 대응', href: '/spoke/dui/dui-measurement-dispute-guide' },
+      { label: 'dui 도메인 허브', href: '/guide/dui' },
     ],
   },
 
@@ -164,10 +164,10 @@ export const spokesBatch12Part2Pages: SpokePage[] = [
       link: '/diagnosis/dui',
     },
     internalLinks: [
-      { label: '음주운전 초범 처벌 가이드', href: '/spoke/dui/dui-first-offense-penalty-guide' },
-      { label: '음주운전 면허 취소 절차', href: '/spoke/dui/dui-license-revocation-process' },
+      { label: '0.03% 경계 수치 음주운전 초범', href: '/guide/dui/dui-borderline-bac-003-first-offense-track' },
+      { label: '장애인 음주 면허취소 행정심판', href: '/guide/dui/dui-disabled-license-revocation-livelihood-appeal-track' },
       { label: '음주운전 형사 절차 총정리', href: '/spoke/dui/dui-criminal-procedure-overview' },
-      { label: '음주 측정 분쟁 대응', href: '/spoke/dui/dui-measurement-dispute-guide' },
+      { label: 'dui 도메인 허브', href: '/guide/dui' },
       { label: '음주운전 2회 이상 처벌', href: '/spoke/dui/dui-second-offense-penalty' },
     ],
   },

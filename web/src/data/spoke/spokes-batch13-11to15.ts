@@ -239,7 +239,7 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
       { label: '부동산매매 가이드', href: '/guide/real-estate-sale' },
       { label: '매매계약서 필수 특약 체크리스트', href: '/spoke/real-estate-sale/sale-contract-essential-clauses' },
       { label: '매매계약 해제 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '부동산 매매 분쟁 시작 가이드', href: '/spoke/real-estate-sale/sale-dispute-where-to-start' },
+      { label: '부동산 매매계약 실수 함정 주의사항', href: '/guide/real-estate-sale/common-mistakes-in-sale-contract' },
     ],
   },
   {

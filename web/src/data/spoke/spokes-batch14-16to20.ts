@@ -143,7 +143,7 @@ export const spokesBatch14Pages16to20: SpokePage[] = [
     },
     internalLinks: [
       { label: '양육비 미지급 시 강제집행 방법', href: '/spoke/child-support/child-support-enforcement-method' },
-      { label: '양육비 이행확보 제도 활용법', href: '/spoke/child-support/child-support-compliance-system' },
+      { label: '성인 자녀 과거 양육비 소급 청구', href: '/guide/child-support/child-support-adult-child-retroactive' },
       { label: '양육비 관련 주요 판례 분석', href: '/spoke/child-support/child-support-case-analysis' },
       { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
       { label: '양육비 가이드', href: '/guide/child-support' }

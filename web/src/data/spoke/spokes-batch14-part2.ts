@@ -81,10 +81,10 @@ export const spokesBatch14Part2Pages: SpokePage[] = [
     },
     internalLinks: [
       { label: '성폭력 피해 고소 절차', href: '/spoke/sex-crime/sexual-violence-complaint-process' },
-      { label: '성폭력 피해 증거 수집 체크리스트', href: '/spoke/sex-crime/victim-evidence-collection-checklist' },
-      { label: '성범죄 피해자 국선변호사 신청', href: '/spoke/sex-crime/victim-public-defender-docs' },
-      { label: '성폭력 형사고소 vs 민사소송 비교', href: '/spoke/sex-crime/criminal-complaint-vs-civil-suit' },
-      { label: '성범죄 손해배상 소송 준비 서류', href: '/spoke/sex-crime/damage-lawsuit-preparation-docs' },
+      { label: 'sex-crime 도메인 허브', href: '/guide/sex-crime' },
+      { label: '성폭력 피해자 국선변호사 신청 방법', href: '/guide/sex-crime/sexual-assault-public-defender' },
+      { label: '성폭력 피해 고소 시 필요한 서류', href: '/guide/sex-crime/victim-complaint-required-docs' },
+      { label: '강제추행 피해 증거 확보와 고소 절차', href: '/guide/sex-crime/forced-groping-evidence-lawsuit' },
     ],
   },
 
@@ -181,9 +181,9 @@ export const spokesBatch14Part2Pages: SpokePage[] = [
     internalLinks: [
       { label: '강제추행 기준이 정확히 뭔가요', href: '/spoke/sex-crime/what-exactly-is-sexual-assault-qa' },
       { label: '성폭력 피해 고소 절차', href: '/spoke/sex-crime/sexual-violence-complaint-process' },
-      { label: '성범죄 피해자 국선변호사 신청', href: '/spoke/sex-crime/victim-public-defender-docs' },
-      { label: '성범죄 유형별 법정형 기준', href: '/spoke/sex-crime/sex-crime-type-statutory-penalty' },
-      { label: '성폭력 피해 증거 수집 체크리스트', href: '/spoke/sex-crime/victim-evidence-collection-checklist' },
+      { label: '성폭력 피해자 국선변호사 신청 방법', href: '/guide/sex-crime/sexual-assault-public-defender' },
+      { label: 'sex-crime 도메인 허브', href: '/guide/sex-crime' },
+      { label: '강제추행 피해 증거 확보와 고소 절차', href: '/guide/sex-crime/forced-groping-evidence-lawsuit' },
     ],
   },
 

@@ -69,9 +69,9 @@ export const spokesBatch13Pages31to35: SpokePage[] = [
     internalLinks: [
       { label: '부동산 경매 입찰 절차와 준비 방법', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
       { label: '경매 물건 점유자가 안 나갈 때 대응법', href: '/spoke/real-estate-auction/occupant-refuses-to-leave' },
-      { label: '전세보증금 반환 절차 가이드', href: '/spoke/jeonse/jeonse-deposit-return-process' },
-      { label: '소액사건 재판 신청 가이드', href: '/spoke/neighbor-dispute/small-claims-easy-guide' },
-      { label: '전세 경매 시 우선변제 순위', href: '/spoke/jeonse/jeonse-auction-priority' }
+      { label: '보증금 못 받았을 때 해결 순서', href: '/guide/jeonse/deposit-return-process' },
+      { label: 'neighbor-dispute 도메인 허브', href: '/guide/neighbor-dispute' },
+      { label: '경매 시 전세보증금 우선변제', href: '/guide/jeonse/jeonse-auction-deposit-priority' }
     ]
   },
   {
@@ -141,9 +141,9 @@ export const spokesBatch13Pages31to35: SpokePage[] = [
     internalLinks: [
       { label: '경매 낙찰 후 명도 소송 절차', href: '/spoke/real-estate-auction/eviction-after-winning-bid' },
       { label: '부동산 경매 입찰 절차와 준비 방법', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
-      { label: '전세보증금 반환 절차 가이드', href: '/spoke/jeonse/jeonse-deposit-return-process' },
-      { label: '전입신고의 중요성과 대항력', href: '/spoke/jeonse/jeonse-move-in-report-importance' },
-      { label: '전세 경매 시 우선변제 순위', href: '/spoke/jeonse/jeonse-auction-priority' }
+      { label: '보증금 못 받았을 때 해결 순서', href: '/guide/jeonse/deposit-return-process' },
+      { label: 'jeonse 도메인 허브', href: '/guide/jeonse' },
+      { label: '경매 시 전세보증금 우선변제', href: '/guide/jeonse/jeonse-auction-deposit-priority' }
     ]
   },
   {

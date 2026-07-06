@@ -67,11 +67,11 @@ export const spokesBatch12Pages31to35: SpokePage[] = [
       link: '/diagnosis/jeonse'
     },
     internalLinks: [
-      { label: '전세보증금 반환 절차 가이드', href: '/spoke/jeonse/jeonse-deposit-return-process' },
+      { label: '보증금 못 받았을 때 해결 순서', href: '/guide/jeonse/deposit-return-process' },
       { label: '전세보증금 반환 소송 준비 서류', href: '/spoke/jeonse/deposit-lawsuit-docs' },
-      { label: '전세 우선변제권 요건과 확인법', href: '/spoke/jeonse/jeonse-special-priority' },
-      { label: '전세 경매 시 우선변제 순위', href: '/spoke/jeonse/jeonse-auction-priority' },
-      { label: '전입신고의 중요성과 대항력', href: '/spoke/jeonse/jeonse-move-in-report-importance' }
+      { label: 'jeonse 도메인 허브', href: '/guide/jeonse' },
+      { label: '경매 시 전세보증금 우선변제', href: '/guide/jeonse/jeonse-auction-deposit-priority' },
+      { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' }
     ]
   },
   {
@@ -144,10 +144,10 @@ export const spokesBatch12Pages31to35: SpokePage[] = [
     },
     internalLinks: [
       { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
-      { label: '양육비 미지급 강제집행 방법', href: '/spoke/child-support/child-support-enforcement-guide' },
-      { label: '양육비 변경(증감) 절차', href: '/spoke/child-support/child-support-modification' },
-      { label: '양육비 합의서 작성 가이드', href: '/spoke/child-support/child-support-agreement-template' },
-      { label: '양육비 체납 추심 방법', href: '/spoke/child-support/child-support-arrears-collection' }
+      { label: 'child-support 도메인 허브', href: '/guide/child-support' },
+      { label: '실직 후 양육비 변경 청구', href: '/guide/child-support/child-support-economic-shock-modification-track' },
+      { label: '양육비 청구 심판 신청서 작성법', href: '/guide/child-support/child-support-claim-form-template' },
+      { label: '양육비이행관리원 추심 한계', href: '/guide/child-support/child-support-agency-collection-limits' }
     ]
   },
   {
@@ -217,9 +217,9 @@ export const spokesBatch12Pages31to35: SpokePage[] = [
     internalLinks: [
       { label: '양육비 산정 기준표와 계산 방법', href: '/spoke/child-support/child-support-calculation-table' },
       { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
-      { label: '양육비 미지급 강제집행 방법', href: '/spoke/child-support/child-support-enforcement-guide' },
-      { label: '양육비 합의서 작성 가이드', href: '/spoke/child-support/child-support-agreement-template' },
-      { label: '양육비 변경(증감) 절차', href: '/spoke/child-support/child-support-modification' }
+      { label: 'child-support 도메인 허브', href: '/guide/child-support' },
+      { label: '양육비 청구 심판 신청서 작성법', href: '/guide/child-support/child-support-claim-form-template' },
+      { label: '실직 후 양육비 변경 청구', href: '/guide/child-support/child-support-economic-shock-modification-track' }
     ]
   },
   {
@@ -287,11 +287,11 @@ export const spokesBatch12Pages31to35: SpokePage[] = [
       link: '/diagnosis/sexual-harassment'
     },
     internalLinks: [
-      { label: '성희롱 가해자 지목 시 첫 대응법', href: '/spoke/sexual-harassment/sexual-harassment-accused-response' },
+      { label: 'sexual-harassment 도메인 허브', href: '/guide/sexual-harassment' },
       { label: '직장 내 성희롱 신고 절차', href: '/spoke/sexual-harassment/workplace-harassment-report-procedure' },
-      { label: '성희롱 증거 수집 가이드', href: '/spoke/sexual-harassment/sexual-harassment-evidence-guide' },
-      { label: '성희롱 불이익 조치 보호', href: '/spoke/sexual-harassment/sexual-harassment-retaliation-protection' },
-      { label: '성희롱 사업주 책임 기준', href: '/spoke/sexual-harassment/sexual-harassment-company-liability' }
+      { label: '온라인 메신저 성희롱 증거 수집', href: '/guide/sexual-harassment/online-harassment-evidence' },
+      { label: '직장 내 성희롱 신고 후 보복 방지', href: '/guide/sexual-harassment/workplace-harassment-retaliation-protection' },
+      { label: '회식 자리에서 신체 접촉 성희롱 해당', href: '/guide/sexual-harassment/physical-contact-at-company-dinner' }
     ]
   },
 ];

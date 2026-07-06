@@ -340,7 +340,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
       { label: '부동산 매매 진단', href: '/diagnosis/real-estate-sale' },
       { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
       { label: '매매 하자 발견 시 손해배상 청구', href: '/spoke/real-estate-sale/sale-defect-discovery-damage-claim' },
-      { label: '부동산 매매 분쟁 시작 가이드', href: '/spoke/real-estate-sale/sale-dispute-where-to-start' },
+      { label: 'real-estate-sale 도메인 허브', href: '/guide/real-estate-sale' },
     ],
   },
 

@@ -65,9 +65,9 @@ export const spokesBatch13Pages21to25: SpokePage[] = [
     internalLinks: [
       { label: '산재 요양급여 신청 절차와 기한', href: '/spoke/industrial-accident1/workers-comp-medical-claim-process' },
       { label: '산재 당했는데 어디부터 해야 하나', href: '/spoke/industrial-accident1/injured-where-to-start' },
-      { label: '산재보험 vs 민사소송 비교', href: '/spoke/industrial-accident1/workers-comp-vs-civil-lawsuit' },
+      { label: '산재보험 요양급여 신청 절차와 기한', href: '/guide/industrial-accident1/workers-comp-claim-process' },
       { label: '산재 불승인 후 재심사 청구', href: '/spoke/industrial-accident1/reapply-after-rejection' },
-      { label: '산재 신청 기한과 소멸시효', href: '/spoke/industrial-accident1/claim-deadline-and-statute' }
+      { label: 'industrial-accident1 도메인 허브', href: '/guide/industrial-accident1' }
     ]
   },
   {
@@ -137,9 +137,9 @@ export const spokesBatch13Pages21to25: SpokePage[] = [
     internalLinks: [
       { label: '성매매 적발됐는데 어디부터 해야 하나', href: '/spoke/prostitution/caught-where-to-start' },
       { label: '성매매 단속 적발 후 형사 절차', href: '/spoke/prostitution/prostitution-arrest-criminal-process' },
-      { label: '성매매 기소유예 받는 방법', href: '/spoke/prostitution/deferred-prosecution-method' },
-      { label: '성매매 경찰 조사 전 체크리스트', href: '/spoke/prostitution/police-investigation-checklist' },
-      { label: '성매매 단속 시 흔히 하는 대응 실수', href: '/spoke/prostitution/common-response-mistakes-during-raid' }
+      { label: 'prostitution 도메인 허브', href: '/guide/prostitution' },
+      { label: '성매매 알선 혐의 수사부터 재판까지', href: '/guide/prostitution/solicitation-investigation-to-trial' },
+      { label: '성매매 단속 초범 처벌 수위', href: '/guide/prostitution/first-offense-raid-penalty-level' }
     ]
   },
 ];

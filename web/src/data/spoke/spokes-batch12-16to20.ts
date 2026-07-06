@@ -69,9 +69,9 @@ export const spokesBatch12Pages16to20: SpokePage[] = [
       link: '/diagnosis/sex-crime'
     },
     internalLinks: [
-      { label: '성범죄 피해자 고소 가이드', href: '/spoke/sex-crime/sex-crime-victim-complaint-guide' },
+      { label: '성폭력 피해 고소 절차와 방법', href: '/guide/sex-crime/sexual-violence-complaint-process' },
       { label: '성범죄 가이드', href: '/guide/sex-crime' },
-      { label: '직장 내 성폭력 대응법', href: '/spoke/sex-crime/workplace-sexual-assault-response' },
+      { label: '허위 성폭력 신고 대응 방법', href: '/guide/sex-crime/false-sexual-assault-report-response' },
       { label: '강제추행 무죄 판결 판례', href: '/spoke/sex-crime/sexual-assault-acquittal-cases' },
       { label: '로앤가이드 홈', href: '/' }
     ]
@@ -144,7 +144,7 @@ export const spokesBatch12Pages16to20: SpokePage[] = [
     },
     internalLinks: [
       { label: '강제추행 수사~재판 절차', href: '/spoke/sex-crime/sexual-assault-investigation-to-trial' },
-      { label: '성범죄 혐의 초기 대응법', href: '/spoke/sex-crime/sex-crime-accused-first-steps' },
+      { label: '성범죄 초범 처벌 수위와 대응 방법', href: '/guide/sex-crime/sex-crime-first-offense-response' },
       { label: '강제추행 무죄 판결 판례', href: '/spoke/sex-crime/sexual-assault-acquittal-cases' },
       { label: '성범죄 무고 대응 방법', href: '/spoke/sex-crime/sex-crime-false-accusation-defense' },
       { label: '성범죄 가이드', href: '/guide/sex-crime' }
@@ -220,7 +220,7 @@ export const spokesBatch12Pages16to20: SpokePage[] = [
       { label: '성범죄 무고 대응 방법', href: '/spoke/sex-crime/sex-crime-false-accusation-defense' },
       { label: '강제추행 수사~재판 절차', href: '/spoke/sex-crime/sexual-assault-investigation-to-trial' },
       { label: '술자리 강제추행 대응법', href: '/spoke/sex-crime/drinking-party-assault-response' },
-      { label: '성범죄 혐의 초기 대응법', href: '/spoke/sex-crime/sex-crime-accused-first-steps' },
+      { label: '성범죄 초범 처벌 수위와 대응 방법', href: '/guide/sex-crime/sex-crime-first-offense-response' },
       { label: '성범죄 가이드', href: '/guide/sex-crime' }
     ]
   },
@@ -301,8 +301,8 @@ export const spokesBatch12Pages16to20: SpokePage[] = [
     internalLinks: [
       { label: '명예훼손 피해 어디부터', href: '/spoke/defamation/defamation-victim-where-to-start' },
       { label: '명예훼손 고소장 작성법', href: '/spoke/defamation/defamation-complaint-writing-guide' },
-      { label: '익명 게시글 작성자 특정', href: '/spoke/defamation/defamation-anonymous-poster-identification' },
-      { label: '명예훼손 합의 절차', href: '/spoke/defamation/defamation-settlement-process' },
+      { label: '인터넷 게시글 작성자 특정 방법', href: '/guide/defamation/anonymous-poster-identification' },
+      { label: '명예훼손 합의금 적정 금액 기준', href: '/guide/defamation/defamation-settlement-amount-guide' },
       { label: '명예훼손 가이드', href: '/guide/defamation' }
     ]
   }

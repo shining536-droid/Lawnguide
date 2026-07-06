@@ -553,7 +553,7 @@ export const spokesBatch15Pages16to20: SpokePage[] = [
       { label: '학교폭력 심의위 절차', href: '/spoke/school-violence/report-to-committee-procedure' },
       { label: '학교폭력 기록 삭제 가능 여부', href: '/spoke/school-violence/can-school-record-be-deleted' },
       { label: '학교 맞은 아이 초기 대응', href: '/spoke/school-violence/child-beaten-at-school-response' },
-      { label: '학교폭력 피해자 대응 체크리스트', href: '/spoke/school-violence/victim-response-complete-checklist' },
+      { label: 'school-violence 도메인 허브', href: '/guide/school-violence' },
     ],
   },
 ];

@@ -72,10 +72,10 @@ export const spokesBatch12Pages21to25: SpokePage[] = [
     },
     internalLinks: [
       { label: '명예훼손 피해 어디부터 시작해야 하나', href: '/spoke/defamation/defamation-victim-where-to-start' },
-      { label: '명예훼손 합의 절차 가이드', href: '/spoke/defamation/defamation-settlement-process' },
+      { label: 'defamation 도메인 허브', href: '/guide/defamation' },
       { label: '명예훼손 고소장 작성법', href: '/spoke/defamation/defamation-complaint-writing-guide' },
-      { label: '명예훼손 사실 적시 vs 허위사실 항변', href: '/spoke/defamation/defamation-truth-defense' },
-      { label: '익명 게시글 작성자 특정 방법', href: '/spoke/defamation/defamation-anonymous-poster-identification' }
+      { label: '명예훼손 진실적시 항변', href: '/guide/defamation/defamation-accused-truth-defense-argument' },
+      { label: '인터넷 게시글 작성자 특정 방법', href: '/guide/defamation/anonymous-poster-identification' }
     ]
   },
   {
@@ -144,9 +144,9 @@ export const spokesBatch12Pages21to25: SpokePage[] = [
     },
     internalLinks: [
       { label: '스토킹 신고부터 접근금지까지 절차', href: '/spoke/stalking/stalking-report-and-restraining-order' },
-      { label: '스토킹 증거 수집 가이드', href: '/spoke/stalking/stalking-evidence-collection-guide' },
-      { label: '스토킹 보호명령 가이드', href: '/spoke/stalking/stalking-protection-order-guide' },
-      { label: '스토킹 긴급조치 안내', href: '/spoke/stalking/stalking-emergency-measures' },
+      { label: '스토킹 증거 수집할 때 흔히 하는', href: '/guide/stalking/evidence-collection-common-mistakes' },
+      { label: '스토킹 잠정조치 긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
+      { label: '스토킹 피해자 긴급응급조치 요청 방법', href: '/guide/stalking/emergency-protective-measures' },
       { label: '헤어진 연인 연락 스토킹 해당 여부', href: '/spoke/stalking/ex-keeps-contacting-is-it-stalking' }
     ]
   },
@@ -215,10 +215,10 @@ export const spokesBatch12Pages21to25: SpokePage[] = [
       link: '/diagnosis/digital-sex-crime'
     },
     internalLinks: [
-      { label: '디지털성범죄 증거 수집 가이드', href: '/spoke/digital-sex-crime/digital-sex-crime-evidence-guide' },
+      { label: 'digital-sex-crime 도메인 허브', href: '/guide/digital-sex-crime' },
       { label: '피해영상 삭제 지원 절차', href: '/spoke/digital-sex-crime/victim-video-deletion-support-procedure' },
-      { label: '리벤지포르노 법적 대응', href: '/spoke/digital-sex-crime/revenge-porn-legal-response' },
-      { label: '딥페이크 피해자 보호 가이드', href: '/spoke/digital-sex-crime/deepfake-victim-protection' },
+      { label: '딥페이크 합성물 유포 시 법적 대응', href: '/guide/digital-sex-crime/deepfake-distribution-legal-response' },
+      { label: '딥페이크 피해 영상 유포 차단과 삭제', href: '/guide/digital-sex-crime/deepfake-distribution-block-deletion' },
       { label: '불법촬영 신고 및 삭제 절차', href: '/spoke/digital-sex-crime/hidden-camera-report-and-deletion-procedure' }
     ]
   }
