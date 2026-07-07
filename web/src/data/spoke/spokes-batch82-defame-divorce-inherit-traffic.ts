@@ -175,7 +175,6 @@ export const spokesBatch82DefameDivorceInheritTraffic: SpokePage[] = [
     internalLinks: [
       { label: '상속 재산 재산분할 대상', href: '/guide/divorce/divorce-inheritance-property-division-scope' },
       { label: '혼인 중 상속재산 재산분할 대상 여부 판단', href: '/guide/divorce/divorce-inherited-asset-property-division-contribution-track' },
-      { label: '이혼 사업 채무 재산분할 대상 제외', href: '/guide/divorce/divorce-business-debt-marital-property-allocation-track' },
       { label: '협의이혼 서류 체크리스트', href: '/guide/divorce/uncontested-divorce-document-checklist' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
     ],
@@ -256,7 +255,6 @@ export const spokesBatch82DefameDivorceInheritTraffic: SpokePage[] = [
     ],
     cta: { text: '재산분할·양육비 쟁점, AI로 먼저 점검하기', link: '/chat?domain=divorce' },
     internalLinks: [
-      { label: '배우자 합의금 수령 후 상간자 위자료 청구', href: '/guide/divorce/divorce-infidelity-evidence-consolation-claim-track' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
       { label: '시부모 동거 갈등 이혼 사유 인정', href: '/guide/divorce/divorce-in-law-cohabitation-conflict-grounds-track' },
@@ -343,7 +341,6 @@ export const spokesBatch82DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '양육비 청구 준비 체크리스트', href: '/guide/child-support/child-support-claim-checklist' },
       { label: '양육비 이행명령 위반 제재', href: '/guide/child-support/child-support-enforcement-contempt-order' },
       { label: '협의이혼 서류 체크리스트', href: '/guide/divorce/uncontested-divorce-document-checklist' },
-      { label: '협의이혼 후 과거 양육비 분담 청구', href: '/guide/divorce/divorce-post-custody-relocation-visitation-dispute-track' },
     ],
   },
 

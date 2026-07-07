@@ -71,11 +71,11 @@ export const spokesBatch14Pages11to15: SpokePage[] = [
       link: '/diagnosis/digital-sex-crime'
     },
     internalLinks: [
-      { label: '디지털 성범죄 피해 어디부터 시작해야 하나', href: '/spoke/digital-sex-crime/digital-sex-crime-where-to-start' },
-      { label: '불법촬영 피해 신고 시 필요한 증거 목록', href: '/spoke/digital-sex-crime/report-required-evidence-list' },
-      { label: '불법촬영 증거 캡처 시 흔히 하는 실수', href: '/spoke/digital-sex-crime/screenshot-evidence-common-mistakes' },
+      { label: '디지털 성범죄 피해 어디부터 시작해야 하나', href: '/guide/digital-sex-crime/digital-sex-crime-where-to-start' },
+      { label: '불법촬영 피해 신고 시 필요한 증거 목록', href: '/guide/digital-sex-crime/report-required-evidence-list' },
+      { label: '불법촬영 증거 캡처 시 흔히 하는 실수', href: '/guide/digital-sex-crime/screenshot-evidence-common-mistakes' },
       { label: 'digital-sex-crime 도메인 허브', href: '/guide/digital-sex-crime' },
-      { label: '디지털 성범죄 피해영상 삭제 지원 서비스 이용 절차', href: '/spoke/digital-sex-crime/victim-video-deletion-support-procedure' }
+      { label: '디지털 성범죄 피해영상 삭제 지원 서비스 이용 절차', href: '/guide/digital-sex-crime/victim-video-deletion-support-procedure' }
     ]
   },
   {
@@ -155,11 +155,11 @@ export const spokesBatch14Pages11to15: SpokePage[] = [
       link: '/diagnosis/digital-sex-crime'
     },
     internalLinks: [
-      { label: '유포된 영상 완전 삭제 가능한가요?', href: '/spoke/digital-sex-crime/complete-deletion-possible' },
-      { label: '불법촬영 피해 신고 시 필요한 증거 목록', href: '/spoke/digital-sex-crime/report-required-evidence-list' },
+      { label: '유포된 영상 완전 삭제 가능한가요?', href: '/guide/digital-sex-crime/complete-deletion-possible' },
+      { label: '불법촬영 피해 신고 시 필요한 증거 목록', href: '/guide/digital-sex-crime/report-required-evidence-list' },
       { label: 'digital-sex-crime 도메인 허브', href: '/guide/digital-sex-crime' },
       { label: '딥페이크 피해 영상 유포 차단과 삭제', href: '/guide/digital-sex-crime/deepfake-distribution-block-deletion' },
-      { label: '디지털 성범죄 피해 어디부터 시작해야 하나', href: '/spoke/digital-sex-crime/digital-sex-crime-where-to-start' }
+      { label: '디지털 성범죄 피해 어디부터 시작해야 하나', href: '/guide/digital-sex-crime/digital-sex-crime-where-to-start' }
     ]
   },
   {
@@ -228,9 +228,9 @@ export const spokesBatch14Pages11to15: SpokePage[] = [
       link: '/diagnosis/child-support'
     },
     internalLinks: [
-      { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
-      { label: '양육비 산정 기준표와 계산 방법', href: '/spoke/child-support/child-support-calculation-table' },
-      { label: '양육비 청구 어디부터 시작해야 하나', href: '/spoke/child-support/child-support-claim-where-to-start' },
+      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-process' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 청구 어디부터 시작해야 하나', href: '/guide/child-support/child-support-claim-where-to-start' },
       { label: 'child-support 도메인 허브', href: '/guide/child-support' },
       { label: '성인 자녀 과거 양육비 소급 청구', href: '/guide/child-support/child-support-adult-child-retroactive' }
     ]
@@ -296,11 +296,11 @@ export const spokesBatch14Pages11to15: SpokePage[] = [
       link: '/diagnosis/child-support'
     },
     internalLinks: [
-      { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
-      { label: '양육비 산정 기준표와 계산 방법', href: '/spoke/child-support/child-support-calculation-table' },
+      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-process' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
       { label: 'child-support 도메인 허브', href: '/guide/child-support' },
-      { label: '양육비 강제집행 방법과 절차', href: '/spoke/child-support/child-support-enforcement-method' },
-      { label: '양육비 청구 어디부터 시작해야 하나', href: '/spoke/child-support/child-support-claim-where-to-start' }
+      { label: '양육비 강제집행 방법과 절차', href: '/guide/child-support/child-support-enforcement-method' },
+      { label: '양육비 청구 어디부터 시작해야 하나', href: '/guide/child-support/child-support-claim-where-to-start' }
     ]
   },
   {
@@ -380,11 +380,11 @@ export const spokesBatch14Pages11to15: SpokePage[] = [
       link: '/diagnosis/child-support'
     },
     internalLinks: [
-      { label: '양육비 청구 심판 신청서 작성법', href: '/spoke/child-support/child-support-claim-form-template' },
-      { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
-      { label: '양육비 산정 기준표와 계산 방법', href: '/spoke/child-support/child-support-calculation-table' },
-      { label: '양육비 강제집행 방법과 절차', href: '/spoke/child-support/child-support-enforcement-method' },
-      { label: '양육비 청구 어디부터 시작해야 하나', href: '/spoke/child-support/child-support-claim-where-to-start' }
+      { label: '양육비 청구 심판 신청서 작성법', href: '/guide/child-support/child-support-claim-form-template' },
+      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-process' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 강제집행 방법과 절차', href: '/guide/child-support/child-support-enforcement-method' },
+      { label: '양육비 청구 어디부터 시작해야 하나', href: '/guide/child-support/child-support-claim-where-to-start' }
     ]
   }
 ];

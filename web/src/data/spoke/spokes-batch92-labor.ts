@@ -838,7 +838,6 @@ export const spokesBatch92Labor: SpokePage[] = [
     cta: { text: '산재 신청 절차, AI로 정리하기', link: '/chat?domain=industrial-accident' },
     internalLinks: [
       { label: '산재 도메인 허브', href: '/guide/industrial-accident' },
-      { label: '진폐 장해급여 평균임금 증감', href: '/guide/industrial-accident/industrial-accident-pneumoconiosis-wage-increase-track' },
       { label: '재요양 후 장해등급 변경 재해위로금', href: '/guide/industrial-accident/industrial-accident-disability-grade-change-recovery-condolence-track' },
       { label: '출퇴근 차량 사고 업무상 재해 요양급여 절차', href: '/guide/industrial-accident/industrial-accident-commute-vehicle-disaster-recognition-track' },
       { label: '회사 행사 참여 중 부상 업무상 재해 인정 절차', href: '/guide/industrial-accident/industrial-accident-company-event-participation-injury-recognition-track' },

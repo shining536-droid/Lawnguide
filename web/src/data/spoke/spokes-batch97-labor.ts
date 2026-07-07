@@ -259,7 +259,6 @@ export const spokesBatch97Labor: SpokePage[] = [
       { label: '해고 도메인 허브', href: '/guide/dismissal' },
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '구두 해고 서면통지 누락 효력 판단', href: '/guide/dismissal/dismissal-verbal-notice-no-written-document-track' },
-      { label: '구두 해고 통보 부당해고', href: '/guide/dismissal/dismissal-verbal-notice-track' },
       { label: '노조 가입 노조활동 사유 해고', href: '/guide/dismissal/dismissal-union-membership-activity-cause' },
     ],
   },
@@ -675,7 +674,6 @@ export const spokesBatch97Labor: SpokePage[] = [
       { label: '해외파견 근로자 퇴직금 청구', href: '/guide/retirement/retirement-overseas-dispatch-claim' },
       { label: '퇴직금 분할 월지급 약정 효력 판단', href: '/guide/retirement/retirement-pay-monthly-divided-agreement-validity-track' },
       { label: 'DB DC 전환 손실 부담금 차액', href: '/guide/retirement/retirement-db-to-dc-conversion-loss-shortfall' },
-      { label: '일용직 계속근로 퇴직금', href: '/guide/retirement/retirement-daily-worker-continuity-track' },
     ],
   },
 

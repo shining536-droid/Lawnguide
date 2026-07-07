@@ -84,7 +84,6 @@ export const spokesBatch62AssaultCsDui: SpokePage[] = [
     ],
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
-      { label: '형제자매 폭행 가정폭력', href: '/guide/assault/assault-domestic-sibling-violence-victim-track' },
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '데이트폭력 신변보호 접근금지', href: '/guide/assault/assault-dating-violence-victim-protection' },
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
@@ -396,7 +395,6 @@ export const spokesBatch62AssaultCsDui: SpokePage[] = [
     ],
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
-      { label: '양육자 변경 후 미수령 정산', href: '/guide/child-support/child-support-custodian-change-arrears-track' },
       { label: '사실혼 친자관계 인지청구 양육비', href: '/guide/child-support/child-support-cohabitation-paternity-claim' },
       { label: '양육비 이행명령 신청 방법', href: '/guide/child-support/child-support-enforcement-order-apply' },
       { label: '사실혼 자녀 인지청구 + 양육비', href: '/guide/child-support/child-support-cohabitation-paternity-recognition-claim-track' },

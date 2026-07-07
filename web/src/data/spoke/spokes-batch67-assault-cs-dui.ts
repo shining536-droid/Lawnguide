@@ -170,7 +170,6 @@ export const spokesBatch67AssaultCsDui: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
-      { label: '놀이공원 직원 고객 폭행', href: '/guide/assault/assault-amusement-park-staff-customer-track' },
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '폭행 혐의로 고소당했을 때 어디부터 해야 하나', href: '/guide/assault/assault-accused-where-to-start' },
       { label: '정신 지적 장애 피해자 폭행 보호', href: '/guide/assault/assault-mental-disability-victim-protect' },
@@ -336,7 +335,6 @@ export const spokesBatch67AssaultCsDui: SpokePage[] = [
     cta: { text: '양육비 못 받을 때 다음 단계, AI로 확인하기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육의무자 해외 도주 추심', href: '/guide/child-support/child-support-overseas-flee-non-payer-collection-track' },
-      { label: '양육비 채무자 파산 비면책', href: '/guide/child-support/child-support-payer-bankruptcy-non-dischargeable-track' },
       { label: '양육비 이행명령 신청 방법', href: '/guide/child-support/child-support-enforcement-order-apply' },
       { label: '양육비 미지급 시 강제집행 방법 3가지', href: '/guide/child-support/child-support-enforcement-methods' },
       { label: '장애 자녀 성년 후 양육비', href: '/guide/child-support/child-support-disabled-child-extension-track' },

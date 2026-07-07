@@ -856,7 +856,6 @@ export const spokesBatch81AssaultDuiJeonseFraud: SpokePage[] = [
       { label: '다세대 빌라왕 보증금 미반환', href: '/guide/jeonse-fraud/jeonse-fraud-multi-rental-villa-king-deposit-claim-track' },
       { label: '전세사기 당했을 때 어디부터 해야 하나', href: '/guide/jeonse-fraud/jeonse-fraud-where-to-start' },
       { label: '전세사기 피해 종합 가이드', href: '/guide/jeonse-fraud' },
-      { label: '전세보증금반환보증 이행청구', href: '/guide/jeonse-fraud/jeonse-fraud-deposit-protection-insurance-claim-process-track' },
     ],
   },
 ];

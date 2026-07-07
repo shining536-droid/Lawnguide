@@ -412,7 +412,6 @@ export const spokesBatch96Labor: SpokePage[] = [
     internalLinks: [
       { label: '임금 도메인 허브', href: '/guide/wage' },
       { label: '임금체불 형사고소 절차', href: '/guide/wage/unpaid-wage-criminal-complaint-procedure' },
-      { label: '최저임금 미달 임금 청구', href: '/guide/wage/wage-minimum-wage-shortfall-track' },
       { label: '성과급제·도급 최저임금 위반', href: '/guide/wage/wage-piece-rate-minimum-violation' },
       { label: '임금체불 소멸시효 신의칙', href: '/guide/wage/unpaid-wage-employer-statute-bad-faith' },
     ],

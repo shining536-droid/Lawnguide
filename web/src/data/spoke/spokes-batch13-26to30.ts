@@ -69,9 +69,9 @@ export const spokesBatch13Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 진단하기', href: '/diagnosis/retirement' },
       { label: '퇴직금 가이드', href: '/guide/retirement' },
-      { label: '퇴직금 미지급 시 신고 절차', href: '/spoke/retirement/unpaid-retirement-report-procedure' },
-      { label: '퇴직금 14일 지급 기한 규정', href: '/spoke/retirement/retirement-pay-14day-rule-detail' },
-      { label: '퇴직금 체불 진정서 작성법', href: '/spoke/retirement/retirement-pay-complaint-writing' }
+      { label: '퇴직금 미지급 시 신고 절차', href: '/guide/retirement/unpaid-retirement-report-procedure' },
+      { label: '퇴직금 14일 지급 기한 규정', href: '/guide/retirement/retirement-pay-14day-rule-detail' },
+      { label: '퇴직금 체불 진정서 작성법', href: '/guide/retirement/retirement-pay-complaint-writing' }
     ]
   },
   {
@@ -101,8 +101,8 @@ export const spokesBatch13Pages26to30: SpokePage[] = [
         content: '<p><strong style="color:#1e3a5f">시정지시를 불이행하면 근로감독관이 사업주를 검찰에 송치합니다. 근로기준법 제109조에 따라 퇴직금 미지급은 3년 이하 징역 또는 3,000만 원 이하 벌금에 해당할 소지가 있습니다.</strong></p>\n<p>근로감독관은 시정 기한까지 불이행한 사업주를 검찰에 <strong>사법 송치</strong>합니다. 근로자도 별도로 경찰서에 형사고소장을 제출하여 수사를 촉진할 수 있습니다. 형사절차가 시작되면 사업주에게 상당한 심리적·법적 압박이 가해지므로, 이 단계에서 <strong>합의(퇴직금 전액 지급)</strong>가 이루어지는 경우가 많습니다.</p>\n<p>그러나 형사처벌은 사업주에 대한 제재일 뿐, 형사 절차만으로 퇴직금을 받을 수 있는 것은 아닙니다. 사업주가 벌금형을 받더라도 퇴직금 지급 의무가 자동으로 이행되는 것이 아니므로, 실제 금전 회수를 위해서는 민사절차를 병행해야 합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 시정 불이행 → 검찰 송치 | 형사 압박으로 합의 가능성 높음 | 실제 회수는 민사 병행 필요</blockquote>'
       },
       {
-        title: '4단계 — 민사 회수: 지급명령·소송·체당금',
-        content: '<p><strong style="color:#1e3a5f">퇴직금을 실제로 돌려받으려면 지급명령이나 민사소송을 통해 강제집행 권원을 확보해야 합니다. 사업주가 도산했다면 체당금 제도를 활용하세요.</strong></p>\n<p><strong>지급명령</strong>은 가장 빠르고 저렴한 방법입니다. 법원에 신청서를 제출하면 사업주에게 송달되고, 2주 이내에 이의가 없으면 확정됩니다. 인지대가 소송의 1/10 수준이며, 확정 후 바로 강제집행이 가능합니다. 사업주가 이의를 신청하면 자동으로 소송으로 전환됩니다.</p>\n<p>소송 시에는 퇴직금 원금뿐 아니라 <strong>근로기준법 제37조에 따른 지연이자(연 20%)</strong>도 함께 청구하세요. 퇴직일 15일째부터 실제 지급일까지 연 20%가 적용되므로 지체 기간이 길수록 청구 금액이 커집니다.</p>\n<p>사업주가 도산하거나 지급 능력이 없는 경우에는 <strong>근로복지공단 체당금 제도</strong>를 활용합니다. 퇴직금과 미지급 임금 합쳐 최대 1,000만 원까지 국가가 대신 지급합니다. 간이대지급금(소액체당금)은 노동부 확인서만으로 신청할 수 있어 더 빠릅니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 지급명령(2~4주 확정) → 강제집행 | 지연이자 연 20% 추가 청구 | 도산 시 체당금 최대 1,000만 원</blockquote>'
+        title: '4단계 — 민사 회수: 지급명령·소송·대지급금',
+        content: '<p><strong style="color:#1e3a5f">퇴직금을 실제로 돌려받으려면 지급명령이나 민사소송을 통해 강제집행 권원을 확보해야 합니다. 사업주가 도산했다면 대지급금 제도를 활용하세요.</strong></p>\n<p><strong>지급명령</strong>은 가장 빠르고 저렴한 방법입니다. 법원에 신청서를 제출하면 사업주에게 송달되고, 2주 이내에 이의가 없으면 확정됩니다. 인지대가 소송의 1/10 수준이며, 확정 후 바로 강제집행이 가능합니다. 사업주가 이의를 신청하면 자동으로 소송으로 전환됩니다.</p>\n<p>소송 시에는 퇴직금 원금뿐 아니라 <strong>근로기준법 제37조에 따른 지연이자(연 20%)</strong>도 함께 청구하세요. 퇴직일 15일째부터 실제 지급일까지 연 20%가 적용되므로 지체 기간이 길수록 청구 금액이 커집니다.</p>\n<p>사업주가 도산하거나 지급 능력이 없는 경우에는 <strong>근로복지공단 대지급금 제도</strong>를 활용합니다. 퇴직금과 미지급 임금 합쳐 최대 1,000만 원까지 국가가 대신 지급합니다. 간이대지급금(간이대지급금)은 노동부 확인서만으로 신청할 수 있어 더 빠릅니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 지급명령(2~4주 확정) → 강제집행 | 지연이자 연 20% 추가 청구 | 도산 시 대지급금 최대 1,000만 원</blockquote>'
       }
     ],
     cases: [
@@ -122,7 +122,7 @@ export const spokesBatch13Pages26to30: SpokePage[] = [
         answer: '사업주가 금액을 다투지 않을 것으로 예상되면 <strong>지급명령이 더 빠르고 저렴</strong>합니다. 사업주가 이의를 신청할 가능성이 높다면 처음부터 소액소송(3,000만 원 이하)을 제기하는 것이 시간을 절약할 수 있습니다.'
       },
       {
-        question: '체당금 신청 조건은 무엇인가요?',
+        question: '대지급금 신청 조건은 무엇인가요?',
         answer: '사업주가 <strong>도산(파산, 폐업 등)하거나 도산에 준하는 사실인정</strong>을 받은 경우 신청할 수 있습니다. 고용노동부에서 체불 확인 후 근로복지공단에 신청하며, 최종 3년간의 퇴직금이 대상입니다.'
       },
       {
@@ -131,7 +131,7 @@ export const spokesBatch13Pages26to30: SpokePage[] = [
       },
       {
         question: '강제집행으로 실제로 돈을 받을 수 있나요?',
-        answer: '사업주에게 재산(부동산, 예금, 매출채권 등)이 있다면 <strong>압류·추심으로 실제 회수가 가능</strong>합니다. 재산이 없다면 체당금 제도를 활용하거나, 사업주의 향후 재산을 추적하여 집행할 수 있습니다.'
+        answer: '사업주에게 재산(부동산, 예금, 매출채권 등)이 있다면 <strong>압류·추심으로 실제 회수가 가능</strong>합니다. 재산이 없다면 대지급금 제도를 활용하거나, 사업주의 향후 재산을 추적하여 집행할 수 있습니다.'
       },
       {
         question: '진정과 민사소송을 동시에 진행할 수 있나요?',
@@ -145,9 +145,9 @@ export const spokesBatch13Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 진단하기', href: '/diagnosis/retirement' },
       { label: '퇴직금 가이드', href: '/guide/retirement' },
-      { label: '퇴직금 계산 방법과 공식', href: '/spoke/retirement/retirement-pay-formula-guide' },
-      { label: '퇴직금 14일 규정 상세', href: '/spoke/retirement/retirement-pay-14day-rule-detail' },
-      { label: '퇴직금 체불 진정서 작성법', href: '/spoke/retirement/retirement-pay-complaint-writing' }
+      { label: '퇴직금 계산 방법과 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
+      { label: '퇴직금 14일 규정 상세', href: '/guide/retirement/retirement-pay-14day-rule-detail' },
+      { label: '퇴직금 체불 진정서 작성법', href: '/guide/retirement/retirement-pay-complaint-writing' }
     ]
   },
   {
@@ -217,9 +217,9 @@ export const spokesBatch13Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '상가임대차 진단하기', href: '/diagnosis/sangga' },
       { label: '상가임대차 가이드', href: '/guide/sangga' },
-      { label: '상가 보증금 반환 절차', href: '/spoke/sangga/commercial-deposit-return-process' },
-      { label: '상가 권리금 회수 절차', href: '/spoke/sangga/key-money-recovery-timeline' },
-      { label: '상가 계약갱신 거절 대응', href: '/spoke/sangga/commercial-lease-renewal-rejection' }
+      { label: '상가 보증금 반환 절차', href: '/guide/sangga/commercial-deposit-return-process' },
+      { label: '상가 권리금 회수 절차', href: '/guide/sangga/key-money-recovery-timeline' },
+      { label: '상가 계약갱신 거절 대응', href: '/guide/sangga/commercial-lease-renewal-rejection' }
     ]
   },
   {
@@ -294,8 +294,8 @@ export const spokesBatch13Pages26to30: SpokePage[] = [
       { label: '소액소송 진단하기', href: '/diagnosis/small-claims' },
       { label: '소액소송 가이드', href: '/guide/small-claims' },
       { label: '소액소송 소장 양식', href: '/guide/small-claims/small-claims-complaint-template' },
-      { label: '소액소송 vs 지급명령 비교', href: '/spoke/small-claims/small-claims-vs-payment-order-comparison' },
-      { label: '빌려준 돈 소액소송 방법', href: '/spoke/small-claims/lending-money-not-returned-lawsuit' }
+      { label: '소액소송 vs 지급명령 비교', href: '/guide/small-claims/small-claims-vs-payment-order-comparison' },
+      { label: '빌려준 돈 소액소송 방법', href: '/guide/small-claims/lending-money-not-returned-lawsuit' }
     ]
   },
 ];

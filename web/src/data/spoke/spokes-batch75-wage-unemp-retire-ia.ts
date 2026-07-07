@@ -300,7 +300,7 @@ export const spokesBatch75WageUnempRetireIa: SpokePage[] = [
     ],
     cases: [
       {
-        title: '판례 — 실업급여 수급자격 불인정 처분 영역',
+        title: '재결례 — 실업급여 수급자격 불인정 처분 영역',
         summary:
           '고용보험심사위원회 2023재결 제44호(2023.06.21) 영역에서 위원회는 실업급여 수급자격 불인정 처분 취소 청구 사건에서, 자발적 이직이라도 시행규칙 [별표 2]에 명시된 정당한 사유에 해당하면 수급 자격이 인정되어야 하고, 배우자·부양 친족 동거를 위한 거소 이전 사유는 객관 자료로 통근 불가능과 실제 이주가 입증되면 정당한 사유 평가가 가능하다고 본 사례 흐름이 있습니다.',
         takeaway: '배우자 발령 + 통근 불가 + 실제 이주 결합 시 정당한 자발적 이직 인정 영역 — 신청·심사 청구 권장.',
@@ -421,7 +421,6 @@ export const spokesBatch75WageUnempRetireIa: SpokePage[] = [
       { label: '퇴직금 미지급 신고', href: '/guide/retirement/retirement-pay-complaint' },
       { label: '퇴직금 계산법', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '1년 미만 퇴직금 수급', href: '/guide/retirement/retirement-less-than-1year-eligibility' },
-      { label: '단기 계약 연속 체결 퇴직금', href: '/guide/retirement/retirement-fixed-term-contract-aggregation-track' },
       { label: '퇴직금 중간정산 법정 사유', href: '/guide/retirement/retirement-interim-settlement-2024-rules' },
     ],
   },

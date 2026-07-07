@@ -258,7 +258,6 @@ export const spokesBatch93FraudSexCrime: SpokePage[] = [
     internalLinks: [
       { label: '사기 도메인 허브', href: '/guide/fraud' },
       { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
-      { label: '코인 리딩방 투자 사기', href: '/guide/fraud/fraud-crypto-signal-room-investment-track' },
       { label: '웨딩 벤더 선예약금 잠적', href: '/guide/fraud/fraud-wedding-vendor-photographer-dress-deposit-loss-track' },
       { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
@@ -508,7 +507,6 @@ export const spokesBatch93FraudSexCrime: SpokePage[] = [
       { label: '사기 도메인 허브', href: '/guide/fraud' },
       { label: '사기 무고 방어 전략', href: '/guide/fraud/fraud-false-accusation-defense' },
       { label: '투자금 회수 지연 사기 고의 무고 방어', href: '/guide/fraud/fraud-investment-return-delay-intent-falsely-accused-defense' },
-      { label: '동업자금 회수 분쟁 사기 무고', href: '/guide/fraud/fraud-joint-venture-fund-recovery-falsely-accused-defense' },
       { label: '가짜 쇼핑몰 사기', href: '/guide/fraud/fraud-fake-ecommerce-site-response' },
     ],
   },

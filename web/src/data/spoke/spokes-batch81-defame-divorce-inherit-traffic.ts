@@ -512,7 +512,6 @@ export const spokesBatch81DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '삭제·합의·방어 포인트, AI로 먼저 점검하기', link: '/chat?domain=defamation' },
     internalLinks: [
       { label: '명예훼손/모욕 종합 가이드', href: '/guide/defamation' },
-      { label: '유튜브 댓글 익명 악플 명예훼손 정통망법', href: '/guide/defamation/defamation-youtube-comment-anonymous-malicious-victim-track' },
       { label: '공인 비판했다가 명예훼손 고소당했을 때', href: '/guide/defamation/defamation-accused-public-criticism' },
       { label: '익명 게시판 반박글 명예훼손', href: '/guide/defamation/defamation-anonymous-board-counter' },
       { label: '고인 비방 사자명예훼손 유족 피해', href: '/guide/defamation/defamation-deceased-criticism-bereaved-emotional-damage-track' },

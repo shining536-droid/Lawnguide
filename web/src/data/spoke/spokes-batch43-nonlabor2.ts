@@ -354,7 +354,6 @@ export const spokesBatch43Nonlabor2: SpokePage[] = [
       { label: '상속재산분할협의서 무효', href: '/guide/inheritance/inheritance-division-agreement-defect-invalidation' },
       { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '상속등기 절차', href: '/guide/inheritance/inheritance-registration-procedure-docs' },
-      { label: '해외거주 상속인 국내 재산', href: '/guide/inheritance/inheritance-foreign-resident-korean-property' },
     ],
   },
 

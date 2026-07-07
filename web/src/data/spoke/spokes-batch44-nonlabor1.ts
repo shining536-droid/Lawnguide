@@ -361,7 +361,6 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
     internalLinks: [
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '사기 혐의 방어 전략 총정리', href: '/guide/fraud/fraud-accused-defense-strategy-guide' },
-      { label: '사기 피의자 편취의사 방어', href: '/guide/fraud/fraud-accused-comprehensive-intent-defense' },
       { label: '중고거래 사기 합의 수락 기준', href: '/guide/fraud/fraud-secondhand-settlement-accept-criteria' },
       { label: '사기죄 공소시효 기간표', href: '/guide/fraud/fraud-statute-of-limitations-period' },
     ],

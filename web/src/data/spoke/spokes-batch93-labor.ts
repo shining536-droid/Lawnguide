@@ -164,7 +164,6 @@ export const spokesBatch93Labor: SpokePage[] = [
       { label: '해고 도메인 허브', href: '/guide/dismissal' },
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '경영상 긴박한 필요 정리해고 요건 판단', href: '/guide/dismissal/dismissal-managerial-urgent-necessity-layoff-requirement-track' },
-      { label: '괴롭힘 신고 보복 해고', href: '/guide/dismissal/dismissal-bullying-report-retaliation-track' },
       { label: '구두 해고 서면통지 누락 효력 판단', href: '/guide/dismissal/dismissal-verbal-notice-no-written-document-track' },
     ],
   },
@@ -331,7 +330,6 @@ export const spokesBatch93Labor: SpokePage[] = [
       { label: '임금체불 형사고소 절차', href: '/guide/wage/unpaid-wage-criminal-complaint-procedure' },
       { label: '야간 휴일 연장 가산수당 미지급', href: '/guide/wage/wage-night-holiday-overtime-premium-track' },
       { label: '최저임금 미달 임금 청구', href: '/guide/wage/wage-minimum-wage-shortfall-track' },
-      { label: '포괄임금 약정 연장수당', href: '/guide/wage/wage-inclusive-pay-overtime-track' },
     ],
   },
 
@@ -494,7 +492,6 @@ export const spokesBatch93Labor: SpokePage[] = [
     internalLinks: [
       { label: 'unemployment 도메인 허브', href: '/guide/unemployment' },
       { label: '자영업 폐업 후 실업급여', href: '/guide/unemployment/unemployment-self-employed-closure-eligibility' },
-      { label: '권고사직 구직급여 수급', href: '/guide/unemployment/unemployment-recommended-resignation-track' },
       { label: '실업급여 신청에서 수급까지 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
       { label: '부정수급 반환 추가징수', href: '/guide/unemployment/unemployment-fraud-additional-collection-discretion-track' },
     ],
@@ -742,7 +739,6 @@ export const spokesBatch93Labor: SpokePage[] = [
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: 'retirement 도메인 허브', href: '/guide/retirement' },
-      { label: '등기임원 퇴직금 근로자성', href: '/guide/retirement/retirement-executive-worker-status-track' },
       { label: '퇴사 재입사 퇴직금 근속기간 합산 여부', href: '/guide/retirement/retirement-rehire-continuous-service-calculation' },
       { label: '평균임금 산정 기준 퇴직금 판단', href: '/guide/retirement/retirement-pay-average-wage-base-calculation-track' },
       { label: '겸직 기간 근로자성', href: '/guide/retirement/retirement-concurrent-job-worker-status-track' },

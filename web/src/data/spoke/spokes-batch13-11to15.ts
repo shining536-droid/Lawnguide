@@ -71,9 +71,9 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },
-      { label: '교통사고 합의 절차', href: '/spoke/traffic-accident/accident-settlement-process' },
-      { label: '교통사고 과실 분쟁 증거 확보법', href: '/spoke/traffic-accident/traffic-accident-fault-dispute-evidence' },
-      { label: '블랙박스 없는 과실 입증 방법', href: '/spoke/traffic-accident/no-dashcam-fault-proof' },
+      { label: '교통사고 합의 절차', href: '/guide/traffic-accident/accident-settlement-process' },
+      { label: '교통사고 과실 분쟁 증거 확보법', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
+      { label: '블랙박스 없는 과실 입증 방법', href: '/guide/traffic-accident/no-dashcam-fault-proof' },
     ],
   },
   {
@@ -151,9 +151,9 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },
-      { label: '교통사고 과실비율 산정 기준', href: '/spoke/traffic-accident/fault-ratio-calculation-criteria' },
-      { label: '교통사고 당했는데 어디부터', href: '/spoke/traffic-accident/traffic-accident-where-to-start' },
-      { label: '교통사고 합의 전 체크리스트', href: '/spoke/traffic-accident/accident-settlement-checklist' },
+      { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
+      { label: '교통사고 당했는데 어디부터', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
+      { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
     ],
   },
   {
@@ -237,8 +237,8 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '부동산매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '매매계약서 필수 특약 체크리스트', href: '/spoke/real-estate-sale/sale-contract-essential-clauses' },
-      { label: '매매계약 해제 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매계약서 필수 특약 체크리스트', href: '/guide/real-estate-sale/sale-contract-essential-clauses' },
+      { label: '매매계약 해제 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
       { label: '부동산 매매계약 실수 함정 주의사항', href: '/guide/real-estate-sale/common-mistakes-in-sale-contract' },
     ],
   },
@@ -317,9 +317,9 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '부동산매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '매매계약 해제 계약금 반환', href: '/spoke/real-estate-sale/contract-cancellation-deposit-return' },
-      { label: '매매계약 해제 시 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매계약 체결 전 등기부등본 확인', href: '/spoke/real-estate-sale/registry-check-before-contract' },
+      { label: '매매계약 해제 계약금 반환', href: '/guide/real-estate-sale/contract-cancellation-deposit-return' },
+      { label: '매매계약 해제 시 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매계약 체결 전 등기부등본 확인', href: '/guide/real-estate-sale/registry-check-before-contract' },
     ],
   },
 ];

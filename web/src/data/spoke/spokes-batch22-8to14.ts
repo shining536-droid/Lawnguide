@@ -43,7 +43,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '사업주 과실 입증 핵심 포인트',
         content:
-          '<p><strong style="color:#1e3a5f">민사 손해배상에서 가장 중요한 것은 사업주의 안전조치 의무 위반을 구체적으로 입증하는 것입니다</strong></p>\n<ul>\n<li><strong>산업안전보건법 위반 확인</strong> — 안전난간 미설치, 안전모 미지급, 작업 중지 미이행 등 사업주의 법적 의무 위반 사항을 특정합니다. 근로감독관의 시정명령 이력이 있으면 강력한 증거가 됩니다</li>\n<li><strong>안전교육 실시 여부</strong> — 사업주가 해당 작업에 대한 안전교육을 실시했는지, 교육 기록이 있는지 확인합니다. 교육 미실시는 과실의 핵심 근거입니다</li>\n<li><strong>작업환경 자료 확보</strong> — 사고 현장 사진, CCTV 영상, 작업지시서, 안전점검 일지 등을 확보합니다. 사고 직후 자료가 훼손되기 전에 빠르게 수집해야 합니다</li>\n<li><strong>동료 증언 확보</strong> — 같은 현장에서 일한 동료의 진술서를 받아둡니다. 평소 안전장비 미비나 위험 작업 강요 사실을 확인해줄 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">사업주 과실 입증이 어렵다면</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">산재 민사 손해배상 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">민사 손해배상에서 가장 중요한 것은 사업주의 안전조치 의무 위반을 구체적으로 입증하는 것입니다</strong></p>\n<ul>\n<li><strong>산업안전보건법 위반 확인</strong> — 안전난간 미설치, 안전모 미지급, 작업 중지 미이행 등 사업주의 법적 의무 위반 사항을 특정합니다. 근로감독관의 시정명령 이력이 있으면 강력한 증거가 됩니다</li>\n<li><strong>안전교육 실시 여부</strong> — 사업주가 해당 작업에 대한 안전교육을 실시했는지, 교육 기록이 있는지 확인합니다. 교육 미실시는 과실의 핵심 근거입니다</li>\n<li><strong>작업환경 자료 확보</strong> — 사고 현장 사진, CCTV 영상, 작업지시서, 안전점검 일지 등을 확보합니다. 사고 직후 자료가 훼손되기 전에 빠르게 수집해야 합니다</li>\n<li><strong>동료 증언 확보</strong> — 같은 현장에서 일한 동료의 진술서를 받아둡니다. 평소 안전장비 미비나 위험 작업 강요 사실을 확인해줄 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">사업주 과실 입증이 어렵다면</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">산재 민사 손해배상 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '손해배상 청구 항목과 금액 산정',
@@ -93,15 +93,15 @@ export const spokesBatch22_8to14: SpokePage[] = [
       },
     ],
     cta: {
-      text: '산재 민사 손해배상 무료 상담받기',
+      text: '산재 민사 손해배상 상담받기',
       link: '/diagnosis/industrial-accident2',
     },
     internalLinks: [
       { label: '중대재해·산업안전 가이드', href: '/guide/industrial-accident2' },
-      { label: '사업주 산재 보고 의무 절차', href: '/spoke/industrial-accident2/employer-report-obligation-process' },
-      { label: '중대재해 사업주 대응법', href: '/spoke/industrial-accident2/serious-accident-employer-response' },
-      { label: '안전보건 위반 과태료·벌금 기준', href: '/spoke/industrial-accident2/workplace-safety-violation-penalty' },
-      { label: '위험성평가 사업주 의무', href: '/spoke/industrial-accident2/risk-assessment-employer-obligation' },
+      { label: '사업주 산재 보고 의무 절차', href: '/guide/industrial-accident2/employer-report-obligation-process' },
+      { label: '중대재해 사업주 대응법', href: '/guide/industrial-accident2/serious-accident-employer-response' },
+      { label: '안전보건 위반 과태료·벌금 기준', href: '/guide/industrial-accident2/workplace-safety-violation-penalty' },
+      { label: '위험성평가 사업주 의무', href: '/guide/industrial-accident2/risk-assessment-employer-obligation' },
     ],
   },
 
@@ -132,7 +132,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '중대재해처벌법 경영책임자 처벌 기준',
         content:
-          '<p><strong style="color:#1e3a5f">중대재해처벌법은 사업주가 아닌 "경영책임자 등"에게 안전보건관리체계 구축 의무를 부과하고, 이를 위반하여 사망사고가 발생하면 처벌합니다</strong></p>\n<ul>\n<li><strong>경영책임자의 범위</strong> — 대표이사, 사업을 대표하고 총괄하는 권한과 책임이 있는 사람. 안전보건에 관한 업무를 담당하는 임원도 포함될 수 있습니다</li>\n<li><strong>안전보건확보의무 4가지</strong> — ① 안전보건 목표·경영방침 설정 ② 안전보건 전담 인력 배치 ③ 유해·위험요인 확인·개선 절차 마련 ④ 안전보건 관련 예산 편성·집행</li>\n<li><strong>처벌 수위</strong> — 사망 1명 이상 발생 시 1년 이상 징역 또는 10억 원 이하 벌금. 동일 위반으로 5년 이내 재발 시 형의 1/2까지 가중됩니다</li>\n<li><strong>50인 미만 적용 시기</strong> — 상시 근로자 50인 미만 사업장은 2027년 1월 1일부터 적용됩니다. 50인 이상은 이미 적용 중입니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">사망사고로 형사 혐의를 받고 있다면</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">사망사고 사업주 처벌 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">중대재해처벌법은 사업주가 아닌 "경영책임자 등"에게 안전보건관리체계 구축 의무를 부과하고, 이를 위반하여 사망사고가 발생하면 처벌합니다</strong></p>\n<ul>\n<li><strong>경영책임자의 범위</strong> — 대표이사, 사업을 대표하고 총괄하는 권한과 책임이 있는 사람. 안전보건에 관한 업무를 담당하는 임원도 포함될 수 있습니다</li>\n<li><strong>안전보건확보의무 4가지</strong> — ① 안전보건 목표·경영방침 설정 ② 안전보건 전담 인력 배치 ③ 유해·위험요인 확인·개선 절차 마련 ④ 안전보건 관련 예산 편성·집행</li>\n<li><strong>처벌 수위</strong> — 사망 1명 이상 발생 시 1년 이상 징역 또는 10억 원 이하 벌금. 동일 위반으로 5년 이내 재발 시 형의 1/2까지 가중됩니다</li>\n<li><strong>50인 미만 적용 시기</strong> — 상시 근로자 50인 미만 사업장은 2027년 1월 1일부터 적용됩니다. 50인 이상은 이미 적용 중입니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">사망사고로 형사 혐의를 받고 있다면</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">사망사고 사업주 처벌 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '양형에 영향을 미치는 요소',
@@ -182,15 +182,15 @@ export const spokesBatch22_8to14: SpokePage[] = [
       },
     ],
     cta: {
-      text: '사망사고 사업주 처벌 무료 상담받기',
+      text: '사망사고 사업주 처벌 상담받기',
       link: '/diagnosis/industrial-accident2',
     },
     internalLinks: [
       { label: '중대재해·산업안전 가이드', href: '/guide/industrial-accident2' },
-      { label: '사업주 산재 보고 의무 절차', href: '/spoke/industrial-accident2/employer-report-obligation-process' },
-      { label: '중대재해 사업주 대응법', href: '/spoke/industrial-accident2/serious-accident-employer-response' },
-      { label: '안전보건 위반 과태료·벌금 기준', href: '/spoke/industrial-accident2/workplace-safety-violation-penalty' },
-      { label: '위험성평가 사업주 의무', href: '/spoke/industrial-accident2/risk-assessment-employer-obligation' },
+      { label: '사업주 산재 보고 의무 절차', href: '/guide/industrial-accident2/employer-report-obligation-process' },
+      { label: '중대재해 사업주 대응법', href: '/guide/industrial-accident2/serious-accident-employer-response' },
+      { label: '안전보건 위반 과태료·벌금 기준', href: '/guide/industrial-accident2/workplace-safety-violation-penalty' },
+      { label: '위험성평가 사업주 의무', href: '/guide/industrial-accident2/risk-assessment-employer-obligation' },
     ],
   },
 
@@ -221,7 +221,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '안전관리자·보건관리자 자격 요건',
         content:
-          '<p><strong style="color:#1e3a5f">안전관리자와 보건관리자는 아무나 선임할 수 없습니다. 법에서 정한 자격 요건을 갖춘 사람만 선임할 수 있습니다</strong></p>\n<ul>\n<li><strong>안전관리자 자격</strong> — ① 산업안전기사 또는 산업안전산업기사 ② 산업안전지도사 ③ 건설안전기사(건설업) ④ 관련 학과 졸업 후 실무 경력자. 업종에 따라 요구되는 자격이 다릅니다</li>\n<li><strong>보건관리자 자격</strong> — ① 산업보건지도사 ② 산업위생관리기사 또는 산업위생관리산업기사 ③ 의사·간호사 ④ 산업위생 관련 학과 졸업자</li>\n<li><strong>위탁 가능 여부</strong> — 300인 미만 사업장은 안전관리·보건관리 업무를 전문기관(안전보건대행기관)에 위탁할 수 있습니다. 위탁하더라도 사업주의 책임은 면제되지 않습니다</li>\n<li><strong>겸직 제한</strong> — 안전관리자는 안전관리 업무만 전담해야 하며, 다른 업무와 겸직이 원칙적으로 금지됩니다(일부 예외 있음)</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">안전관리 체계 구축 의무가 불분명하다면</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">안전보건관리 체계 구축 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">안전관리자와 보건관리자는 아무나 선임할 수 없습니다. 법에서 정한 자격 요건을 갖춘 사람만 선임할 수 있습니다</strong></p>\n<ul>\n<li><strong>안전관리자 자격</strong> — ① 산업안전기사 또는 산업안전산업기사 ② 산업안전지도사 ③ 건설안전기사(건설업) ④ 관련 학과 졸업 후 실무 경력자. 업종에 따라 요구되는 자격이 다릅니다</li>\n<li><strong>보건관리자 자격</strong> — ① 산업보건지도사 ② 산업위생관리기사 또는 산업위생관리산업기사 ③ 의사·간호사 ④ 산업위생 관련 학과 졸업자</li>\n<li><strong>위탁 가능 여부</strong> — 300인 미만 사업장은 안전관리·보건관리 업무를 전문기관(안전보건대행기관)에 위탁할 수 있습니다. 위탁하더라도 사업주의 책임은 면제되지 않습니다</li>\n<li><strong>겸직 제한</strong> — 안전관리자는 안전관리 업무만 전담해야 하며, 다른 업무와 겸직이 원칙적으로 금지됩니다(일부 예외 있음)</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">안전관리 체계 구축 의무가 불분명하다면</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">안전보건관리 체계 구축 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '산업안전보건위원회 설치 기준',
@@ -271,15 +271,15 @@ export const spokesBatch22_8to14: SpokePage[] = [
       },
     ],
     cta: {
-      text: '안전보건관리 체계 구축 무료 상담받기',
+      text: '안전보건관리 체계 구축 상담받기',
       link: '/diagnosis/industrial-accident2',
     },
     internalLinks: [
       { label: '중대재해·산업안전 가이드', href: '/guide/industrial-accident2' },
-      { label: '사업주 산재 보고 의무 절차', href: '/spoke/industrial-accident2/employer-report-obligation-process' },
-      { label: '중대재해 사업주 대응법', href: '/spoke/industrial-accident2/serious-accident-employer-response' },
-      { label: '안전보건 위반 과태료·벌금 기준', href: '/spoke/industrial-accident2/workplace-safety-violation-penalty' },
-      { label: '위험성평가 사업주 의무', href: '/spoke/industrial-accident2/risk-assessment-employer-obligation' },
+      { label: '사업주 산재 보고 의무 절차', href: '/guide/industrial-accident2/employer-report-obligation-process' },
+      { label: '중대재해 사업주 대응법', href: '/guide/industrial-accident2/serious-accident-employer-response' },
+      { label: '안전보건 위반 과태료·벌금 기준', href: '/guide/industrial-accident2/workplace-safety-violation-penalty' },
+      { label: '위험성평가 사업주 의무', href: '/guide/industrial-accident2/risk-assessment-employer-obligation' },
     ],
   },
 
@@ -316,7 +316,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '증거 수집 — 데시벨 측정과 영상 기록',
         content:
-          '<p><strong style="color:#1e3a5f">공사 소음·진동 피해를 입증하려면 객관적 측정 자료와 생활 피해 기록을 체계적으로 남겨야 합니다</strong></p>\n<ul>\n<li><strong>데시벨 측정 앱</strong> — 스마트폰 앱(NIOSH SLM, 소음측정기 등)으로 일상적으로 측정하고 기록합니다. 법적 증거력은 약하지만 초기 자료로 활용 가능합니다</li>\n<li><strong>전문 기관 측정</strong> — 한국환경공단 또는 민간 측정 대행업체에 의뢰하면 법적 효력이 있는 측정 성적서를 받을 수 있습니다. 비용은 30~50만 원 수준입니다</li>\n<li><strong>영상·녹음 기록</strong> — 소음이 심한 시간대에 날짜, 시각이 표시되는 영상을 촬영합니다. 창문이 흔들리거나 벽에 금이 가는 장면도 기록하세요</li>\n<li><strong>피해 일지 작성</strong> — 소음 발생 시각, 지속 시간, 피해 내용(수면 방해, 업무 불가 등)을 매일 기록합니다. 병원 진료 기록(두통, 불면증 등)이 있으면 더 강력한 증거가 됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">공사 소음 피해 대응이 어렵다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">공사 소음 피해 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">공사 소음·진동 피해를 입증하려면 객관적 측정 자료와 생활 피해 기록을 체계적으로 남겨야 합니다</strong></p>\n<ul>\n<li><strong>데시벨 측정 앱</strong> — 스마트폰 앱(NIOSH SLM, 소음측정기 등)으로 일상적으로 측정하고 기록합니다. 법적 증거력은 약하지만 초기 자료로 활용 가능합니다</li>\n<li><strong>전문 기관 측정</strong> — 한국환경공단 또는 민간 측정 대행업체에 의뢰하면 법적 효력이 있는 측정 성적서를 받을 수 있습니다. 비용은 30~50만 원 수준입니다</li>\n<li><strong>영상·녹음 기록</strong> — 소음이 심한 시간대에 날짜, 시각이 표시되는 영상을 촬영합니다. 창문이 흔들리거나 벽에 금이 가는 장면도 기록하세요</li>\n<li><strong>피해 일지 작성</strong> — 소음 발생 시각, 지속 시간, 피해 내용(수면 방해, 업무 불가 등)을 매일 기록합니다. 병원 진료 기록(두통, 불면증 등)이 있으면 더 강력한 증거가 됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">공사 소음 피해 대응이 어렵다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">공사 소음 피해 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '지자체 민원과 공사 중지 요청',
@@ -366,15 +366,15 @@ export const spokesBatch22_8to14: SpokePage[] = [
       },
     ],
     cta: {
-      text: '공사 소음 피해 무료 상담받기',
+      text: '공사 소음 피해 상담받기',
       link: '/diagnosis/neighbor-dispute',
     },
     internalLinks: [
       { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' },
-      { label: '층간소음 분쟁 대응법', href: '/spoke/neighbor-dispute/floor-noise-dispute-response' },
-      { label: '악취·반려동물·주차 분쟁 해결법', href: '/spoke/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
-      { label: '층간소음 피해 어디부터 시작하나', href: '/spoke/neighbor-dispute/floor-noise-victim-where-to-start' },
-      { label: '층간소음 데시벨 기준', href: '/spoke/neighbor-dispute/floor-noise-decibel-standard' },
+      { label: '층간소음 분쟁 대응법', href: '/guide/neighbor-dispute/floor-noise-dispute-response' },
+      { label: '악취·반려동물·주차 분쟁 해결법', href: '/guide/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
+      { label: '층간소음 피해 어디부터 시작하나', href: '/guide/neighbor-dispute/floor-noise-victim-where-to-start' },
+      { label: '층간소음 데시벨 기준', href: '/guide/neighbor-dispute/floor-noise-decibel-standard' },
     ],
   },
 
@@ -405,7 +405,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '피해 금액 산정과 증거 확보',
         content:
-          '<p><strong style="color:#1e3a5f">배상받으려면 피해 금액을 구체적으로 산정하고 증거를 체계적으로 확보해야 합니다</strong></p>\n<ul>\n<li><strong>물적 피해</strong> — 벽지·장판·천장 도배 비용, 가전제품 수리·교체 비용, 가구 피해 등. 인테리어 업체에서 수리 견적서를 받아두세요</li>\n<li><strong>수리비 견적</strong> — 최소 2곳 이상의 업체에서 견적을 받으면 금액의 객관성이 높아집니다. 피해 부위별로 항목을 나누어 견적서를 작성받으세요</li>\n<li><strong>사진·영상 기록</strong> — 누수 발생 직후, 피해 확산 과정, 수리 전후의 사진을 날짜별로 정리합니다. 피해 가전의 모델명·구매 시기도 기록합니다</li>\n<li><strong>위자료</strong> — 누수로 인한 생활 불편, 정신적 고통도 위자료로 청구할 수 있습니다. 다만 법원이 인정하는 위자료 금액은 50~200만 원 수준으로 높지 않은 편입니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">누수 피해 배상 절차가 막막하다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">누수 손해배상 청구 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">배상받으려면 피해 금액을 구체적으로 산정하고 증거를 체계적으로 확보해야 합니다</strong></p>\n<ul>\n<li><strong>물적 피해</strong> — 벽지·장판·천장 도배 비용, 가전제품 수리·교체 비용, 가구 피해 등. 인테리어 업체에서 수리 견적서를 받아두세요</li>\n<li><strong>수리비 견적</strong> — 최소 2곳 이상의 업체에서 견적을 받으면 금액의 객관성이 높아집니다. 피해 부위별로 항목을 나누어 견적서를 작성받으세요</li>\n<li><strong>사진·영상 기록</strong> — 누수 발생 직후, 피해 확산 과정, 수리 전후의 사진을 날짜별로 정리합니다. 피해 가전의 모델명·구매 시기도 기록합니다</li>\n<li><strong>위자료</strong> — 누수로 인한 생활 불편, 정신적 고통도 위자료로 청구할 수 있습니다. 다만 법원이 인정하는 위자료 금액은 50~200만 원 수준으로 높지 않은 편입니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">누수 피해 배상 절차가 막막하다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">누수 손해배상 청구 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '관리사무소·하자보수 보증 활용',
@@ -455,15 +455,15 @@ export const spokesBatch22_8to14: SpokePage[] = [
       },
     ],
     cta: {
-      text: '누수 손해배상 청구 무료 상담받기',
+      text: '누수 손해배상 청구 상담받기',
       link: '/diagnosis/neighbor-dispute',
     },
     internalLinks: [
       { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' },
-      { label: '층간소음 분쟁 대응법', href: '/spoke/neighbor-dispute/floor-noise-dispute-response' },
-      { label: '악취·반려동물·주차 분쟁 해결법', href: '/spoke/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
-      { label: '층간소음 피해 어디부터 시작하나', href: '/spoke/neighbor-dispute/floor-noise-victim-where-to-start' },
-      { label: '공사 소음·진동 피해 대응법', href: '/spoke/neighbor-dispute/construction-noise-vibration-response' },
+      { label: '층간소음 분쟁 대응법', href: '/guide/neighbor-dispute/floor-noise-dispute-response' },
+      { label: '악취·반려동물·주차 분쟁 해결법', href: '/guide/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
+      { label: '층간소음 피해 어디부터 시작하나', href: '/guide/neighbor-dispute/floor-noise-victim-where-to-start' },
+      { label: '공사 소음·진동 피해 대응법', href: '/guide/neighbor-dispute/construction-noise-vibration-response' },
     ],
   },
 
@@ -494,7 +494,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '민법상 경계 관련 권리',
         content:
-          '<p><strong style="color:#1e3a5f">민법은 인접 토지 소유자 간의 경계에 관한 여러 규정을 두고 있으며, 이를 알아야 분쟁을 유리하게 해결할 수 있습니다</strong></p>\n<ul>\n<li><strong>경계침범 금지(민법 제214조)</strong> — 소유자는 소유권을 방해하는 자에게 방해 제거를 청구할 수 있습니다. 옆집이 경계를 넘어 건물이나 담장을 설치했다면 철거를 요구할 수 있습니다</li>\n<li><strong>경계선 부근의 건축 제한(민법 제242조)</strong> — 건물을 축조할 때 경계로부터 반 미터(50cm) 이상의 거리를 두어야 합니다. 위반 시 변경이나 철거를 청구할 수 있으나, 건축 착수 후 1년 경과 또는 건물 완성 후에는 손해배상만 청구할 수 있습니다</li>\n<li><strong>담장·울타리 설치 비용(민법 제237조)</strong> — 인접 토지 소유자는 공동 비용으로 경계를 표시할 수 있습니다. 담장 설치 비용은 양측이 반반 부담하는 것이 원칙입니다</li>\n<li><strong>취득시효(민법 제245조)</strong> — 타인의 토지를 20년간(등기부 취득시효) 또는 10년간(등기 취득시효) 평온·공연하게 점유하면 소유권을 취득할 수 있습니다. 오랫동안 경계를 넘어 사용한 경우 문제가 됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">경계 분쟁 해결이 어렵다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">경계 분쟁 해결 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">민법은 인접 토지 소유자 간의 경계에 관한 여러 규정을 두고 있으며, 이를 알아야 분쟁을 유리하게 해결할 수 있습니다</strong></p>\n<ul>\n<li><strong>경계침범 금지(민법 제214조)</strong> — 소유자는 소유권을 방해하는 자에게 방해 제거를 청구할 수 있습니다. 옆집이 경계를 넘어 건물이나 담장을 설치했다면 철거를 요구할 수 있습니다</li>\n<li><strong>경계선 부근의 건축 제한(민법 제242조)</strong> — 건물을 축조할 때 경계로부터 반 미터(50cm) 이상의 거리를 두어야 합니다. 위반 시 변경이나 철거를 청구할 수 있으나, 건축 착수 후 1년 경과 또는 건물 완성 후에는 손해배상만 청구할 수 있습니다</li>\n<li><strong>담장·울타리 설치 비용(민법 제237조)</strong> — 인접 토지 소유자는 공동 비용으로 경계를 표시할 수 있습니다. 담장 설치 비용은 양측이 반반 부담하는 것이 원칙입니다</li>\n<li><strong>취득시효(민법 제245조)</strong> — 타인의 토지를 20년간(등기부 취득시효) 또는 10년간(등기 취득시효) 평온·공연하게 점유하면 소유권을 취득할 수 있습니다. 오랫동안 경계를 넘어 사용한 경우 문제가 됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">경계 분쟁 해결이 어렵다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">경계 분쟁 해결 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '담장 설치·비용 분담 기준',
@@ -544,15 +544,15 @@ export const spokesBatch22_8to14: SpokePage[] = [
       },
     ],
     cta: {
-      text: '경계 분쟁 해결 무료 상담받기',
+      text: '경계 분쟁 해결 상담받기',
       link: '/diagnosis/neighbor-dispute',
     },
     internalLinks: [
       { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' },
-      { label: '층간소음 분쟁 대응법', href: '/spoke/neighbor-dispute/floor-noise-dispute-response' },
-      { label: '악취·반려동물·주차 분쟁 해결법', href: '/spoke/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
-      { label: '층간소음 피해 어디부터 시작하나', href: '/spoke/neighbor-dispute/floor-noise-victim-where-to-start' },
-      { label: '공사 소음·진동 피해 대응법', href: '/spoke/neighbor-dispute/construction-noise-vibration-response' },
+      { label: '층간소음 분쟁 대응법', href: '/guide/neighbor-dispute/floor-noise-dispute-response' },
+      { label: '악취·반려동물·주차 분쟁 해결법', href: '/guide/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
+      { label: '층간소음 피해 어디부터 시작하나', href: '/guide/neighbor-dispute/floor-noise-victim-where-to-start' },
+      { label: '공사 소음·진동 피해 대응법', href: '/guide/neighbor-dispute/construction-noise-vibration-response' },
     ],
   },
 
@@ -583,7 +583,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '관리규약과 전용사용권 확인',
         content:
-          '<p><strong style="color:#1e3a5f">공동주택 주차 분쟁에서는 관리규약에 전용사용권이 어떻게 규정되어 있는지가 분쟁 해결의 핵심입니다</strong></p>\n<ul>\n<li><strong>전용사용권의 근거</strong> — 관리규약, 분양계약서, 입주자대표회의 결의에 의해 특정 세대에 주차 구역이 배정될 수 있습니다. 전용사용권이 인정되면 타인의 주차를 법적으로 배제할 수 있습니다</li>\n<li><strong>관리규약 확인 방법</strong> — 관리사무소에 관리규약 사본을 요청하거나, 국토교통부 공동주택관리정보시스템(K-apt)에서 확인할 수 있습니다</li>\n<li><strong>전용사용권이 없는 경우</strong> — 관리규약에 전용사용권 규정이 없으면 "선착순" 원칙이 적용되는 것이 일반적입니다. 이 경우 특정 구역 독점 주장이 어렵습니다</li>\n<li><strong>규약 개정 제안</strong> — 현재 규약에 주차 규정이 미비하다면 입주자대표회의에 관리규약 개정을 제안할 수 있습니다. 입주자 과반수 서면 동의로 개정이 가능합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">주차 분쟁 법적 대응이 어렵다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">주차 분쟁 대응 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">공동주택 주차 분쟁에서는 관리규약에 전용사용권이 어떻게 규정되어 있는지가 분쟁 해결의 핵심입니다</strong></p>\n<ul>\n<li><strong>전용사용권의 근거</strong> — 관리규약, 분양계약서, 입주자대표회의 결의에 의해 특정 세대에 주차 구역이 배정될 수 있습니다. 전용사용권이 인정되면 타인의 주차를 법적으로 배제할 수 있습니다</li>\n<li><strong>관리규약 확인 방법</strong> — 관리사무소에 관리규약 사본을 요청하거나, 국토교통부 공동주택관리정보시스템(K-apt)에서 확인할 수 있습니다</li>\n<li><strong>전용사용권이 없는 경우</strong> — 관리규약에 전용사용권 규정이 없으면 "선착순" 원칙이 적용되는 것이 일반적입니다. 이 경우 특정 구역 독점 주장이 어렵습니다</li>\n<li><strong>규약 개정 제안</strong> — 현재 규약에 주차 규정이 미비하다면 입주자대표회의에 관리규약 개정을 제안할 수 있습니다. 입주자 과반수 서면 동의로 개정이 가능합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">주차 분쟁 법적 대응이 어렵다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">주차 분쟁 대응 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '관리사무소·경찰 신고 절차',
@@ -633,15 +633,15 @@ export const spokesBatch22_8to14: SpokePage[] = [
       },
     ],
     cta: {
-      text: '주차 분쟁 대응 무료 상담받기',
+      text: '주차 분쟁 대응 상담받기',
       link: '/diagnosis/neighbor-dispute',
     },
     internalLinks: [
       { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' },
-      { label: '층간소음 분쟁 대응법', href: '/spoke/neighbor-dispute/floor-noise-dispute-response' },
-      { label: '악취·반려동물·주차 분쟁 해결법', href: '/spoke/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
-      { label: '층간소음 피해 어디부터 시작하나', href: '/spoke/neighbor-dispute/floor-noise-victim-where-to-start' },
-      { label: '공사 소음·진동 피해 대응법', href: '/spoke/neighbor-dispute/construction-noise-vibration-response' },
+      { label: '층간소음 분쟁 대응법', href: '/guide/neighbor-dispute/floor-noise-dispute-response' },
+      { label: '악취·반려동물·주차 분쟁 해결법', href: '/guide/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
+      { label: '층간소음 피해 어디부터 시작하나', href: '/guide/neighbor-dispute/floor-noise-victim-where-to-start' },
+      { label: '공사 소음·진동 피해 대응법', href: '/guide/neighbor-dispute/construction-noise-vibration-response' },
     ],
   },
 ];

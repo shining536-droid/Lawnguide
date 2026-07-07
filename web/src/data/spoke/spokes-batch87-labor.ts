@@ -505,7 +505,6 @@ export const spokesBatch87Labor: SpokePage[] = [
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
-      { label: '직장내 괴롭힘 자진퇴사 수급', href: '/guide/unemployment/unemployment-harassment-resignation-track' },
       { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '실업급여 거절 사유 5가지', href: '/guide/unemployment/benefit-application-rejection-5-reasons' },
       { label: '조기재취업수당', href: '/guide/unemployment/unemployment-early-reemployment-allowance-track' },

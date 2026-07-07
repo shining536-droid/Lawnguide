@@ -37,7 +37,7 @@ export const spokesBatch22_15to21: SpokePage[] = [
       {
         title: '증거 수집 — 소음 측정과 영상 기록',
         content:
-          '<p><strong style="color:#1e3a5f">법적 대응의 성패는 객관적 증거에 달려 있습니다. 소음 측정과 영상 기록을 체계적으로 확보하세요</strong></p>\n<ul>\n<li><strong>소음 측정 앱 활용</strong> — 스마트폰 소음 측정 앱(데시벨X, NIOSH SLM 등)으로 소음 발생 시간·크기를 꾸준히 기록합니다. 법적 증거로 쓰려면 환경부 인증 소음측정기 대여도 고려하세요</li>\n<li><strong>영상·음성 녹음</strong> — 소음 발생 시점을 동영상으로 촬영합니다. 촬영 시 날짜·시각이 화면에 표시되도록 설정하고, 벽 너머에서 들리는 짖는 소리를 그대로 녹음합니다</li>\n<li><strong>소음 일지 작성</strong> — 발생 날짜, 시작·종료 시간, 지속 시간, 측정 데시벨을 표로 정리합니다. 최소 2~4주간 기록하면 "반복적·지속적 피해"를 입증하기 유리합니다</li>\n<li><strong>악취 관련 증거</strong> — 악취가 심한 경우 환경부 악취 민원 신고(환경부 콜센터 1577-8866)를 통해 공식 측정을 요청할 수 있습니다. 측정 결과는 강력한 증거가 됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">증거를 모았는데 다음 단계가 막막하다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">반려동물 소음 피해 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">법적 대응의 성패는 객관적 증거에 달려 있습니다. 소음 측정과 영상 기록을 체계적으로 확보하세요</strong></p>\n<ul>\n<li><strong>소음 측정 앱 활용</strong> — 스마트폰 소음 측정 앱(데시벨X, NIOSH SLM 등)으로 소음 발생 시간·크기를 꾸준히 기록합니다. 법적 증거로 쓰려면 환경부 인증 소음측정기 대여도 고려하세요</li>\n<li><strong>영상·음성 녹음</strong> — 소음 발생 시점을 동영상으로 촬영합니다. 촬영 시 날짜·시각이 화면에 표시되도록 설정하고, 벽 너머에서 들리는 짖는 소리를 그대로 녹음합니다</li>\n<li><strong>소음 일지 작성</strong> — 발생 날짜, 시작·종료 시간, 지속 시간, 측정 데시벨을 표로 정리합니다. 최소 2~4주간 기록하면 "반복적·지속적 피해"를 입증하기 유리합니다</li>\n<li><strong>악취 관련 증거</strong> — 악취가 심한 경우 환경부 악취 민원 신고(환경부 콜센터 1577-8866)를 통해 공식 측정을 요청할 수 있습니다. 측정 결과는 강력한 증거가 됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">증거를 모았는데 다음 단계가 막막하다면</strong><br/>\n<a href="/diagnosis/neighbor-dispute" style="color:#1565c0;font-weight:600">반려동물 소음 피해 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '관리사무소·지자체 신고 절차',
@@ -87,15 +87,15 @@ export const spokesBatch22_15to21: SpokePage[] = [
       },
     ],
     cta: {
-      text: '반려동물 소음 피해 무료 상담받기',
+      text: '반려동물 소음 피해 상담받기',
       link: '/diagnosis/neighbor-dispute',
     },
     internalLinks: [
       { label: '이웃분쟁 가이드', href: '/guide/neighbor-dispute' },
-      { label: '층간소음 분쟁 대응법', href: '/spoke/neighbor-dispute/floor-noise-dispute-response' },
-      { label: '반려동물·악취·주차 분쟁', href: '/spoke/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
-      { label: '층간소음 피해자 어디부터', href: '/spoke/neighbor-dispute/floor-noise-victim-where-to-start' },
-      { label: '공사 소음·진동 대응법', href: '/spoke/neighbor-dispute/construction-noise-vibration-response' },
+      { label: '층간소음 분쟁 대응법', href: '/guide/neighbor-dispute/floor-noise-dispute-response' },
+      { label: '반려동물·악취·주차 분쟁', href: '/guide/neighbor-dispute/neighbor-dispute-smell-pet-parking' },
+      { label: '층간소음 피해자 어디부터', href: '/guide/neighbor-dispute/floor-noise-victim-where-to-start' },
+      { label: '공사 소음·진동 대응법', href: '/guide/neighbor-dispute/construction-noise-vibration-response' },
     ],
   },
 
@@ -126,7 +126,7 @@ export const spokesBatch22_15to21: SpokePage[] = [
       {
         title: '허위 유치권 판별 5가지 체크포인트',
         content:
-          '<p><strong style="color:#1e3a5f">유치권 신고가 있다고 원칙적으로 피할 필요는 없습니다. 아래 5가지를 체크하면 허위 유치권을 상당 부분 걸러낼 수 있습니다</strong></p>\n<ul>\n<li><strong>① 점유 여부 확인</strong> — 유치권의 핵심 요건은 "현실적 점유"입니다. 현장을 방문하여 유치권자가 실제로 건물을 점유하고 있는지 확인합니다. 현수막만 걸어놓고 아무도 없으면 점유가 인정되지 않을 가능성이 높습니다</li>\n<li><strong>② 공사 실체 확인</strong> — 유치권의 피담보채권이 공사대금이라면, 실제 공사가 이루어졌는지 건축물대장, 인허가 이력, 현장 상태를 확인합니다. 공사 흔적이 없으면 허위 가능성이 큽니다</li>\n<li><strong>③ 채권 금액의 적정성</strong> — 신고된 유치권 금액이 실제 공사 규모에 비해 과도한지 검토합니다. 건물 면적 대비 공사대금이 비정상적으로 크면 과장된 것일 수 있습니다</li>\n<li><strong>④ 점유 시기와 경매 개시 시기</strong> — 경매 개시결정 이후에 점유를 시작한 유치권은 경매 절차에서 대항할 수 없습니다(대법원 판례). 점유 시작 시기를 가능한 한 확인하세요</li>\n<li><strong>⑤ 채무자와의 관계</strong> — 유치권자가 채무자의 친인척이거나 관련 법인이면 허위 유치권 가능성이 높습니다. 법인등기부를 열람하여 대표자·주주 관계를 확인합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">유치권 물건 입찰 여부가 고민된다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 유치권 분석 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">유치권 신고가 있다고 원칙적으로 피할 필요는 없습니다. 아래 5가지를 체크하면 허위 유치권을 상당 부분 걸러낼 수 있습니다</strong></p>\n<ul>\n<li><strong>① 점유 여부 확인</strong> — 유치권의 핵심 요건은 "현실적 점유"입니다. 현장을 방문하여 유치권자가 실제로 건물을 점유하고 있는지 확인합니다. 현수막만 걸어놓고 아무도 없으면 점유가 인정되지 않을 가능성이 높습니다</li>\n<li><strong>② 공사 실체 확인</strong> — 유치권의 피담보채권이 공사대금이라면, 실제 공사가 이루어졌는지 건축물대장, 인허가 이력, 현장 상태를 확인합니다. 공사 흔적이 없으면 허위 가능성이 큽니다</li>\n<li><strong>③ 채권 금액의 적정성</strong> — 신고된 유치권 금액이 실제 공사 규모에 비해 과도한지 검토합니다. 건물 면적 대비 공사대금이 비정상적으로 크면 과장된 것일 수 있습니다</li>\n<li><strong>④ 점유 시기와 경매 개시 시기</strong> — 경매 개시결정 이후에 점유를 시작한 유치권은 경매 절차에서 대항할 수 없습니다(대법원 판례). 점유 시작 시기를 가능한 한 확인하세요</li>\n<li><strong>⑤ 채무자와의 관계</strong> — 유치권자가 채무자의 친인척이거나 관련 법인이면 허위 유치권 가능성이 높습니다. 법인등기부를 열람하여 대표자·주주 관계를 확인합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">유치권 물건 입찰 여부가 고민된다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 유치권 분석 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '유치권 있는 물건 입찰 시 전략',
@@ -176,15 +176,15 @@ export const spokesBatch22_15to21: SpokePage[] = [
       },
     ],
     cta: {
-      text: '경매 유치권 분석 무료 상담받기',
+      text: '경매 유치권 분석 상담받기',
       link: '/diagnosis/real-estate-auction',
     },
     internalLinks: [
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
-      { label: '경매 입찰 절차 안내', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
-      { label: '경매 권리분석 체크리스트', href: '/spoke/real-estate-auction/auction-rights-analysis-checklist' },
-      { label: '낙찰 후 명도 절차', href: '/spoke/real-estate-auction/eviction-after-winning-bid' },
-      { label: '경매 초보 흔한 실수', href: '/spoke/real-estate-auction/beginner-auction-common-mistakes' },
+      { label: '경매 입찰 절차 안내', href: '/guide/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 권리분석 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
+      { label: '낙찰 후 명도 절차', href: '/guide/real-estate-auction/eviction-after-winning-bid' },
+      { label: '경매 초보 흔한 실수', href: '/guide/real-estate-auction/beginner-auction-common-mistakes' },
     ],
   },
 
@@ -215,7 +215,7 @@ export const spokesBatch22_15to21: SpokePage[] = [
       {
         title: '보증금 반환이 가능한 예외 상황',
         content:
-          '<p><strong style="color:#1e3a5f">보증금 몰수가 원칙이지만, 매각 절차에 하자가 있으면 보증금을 돌려받을 수 있는 예외가 있습니다</strong></p>\n<ul>\n<li><strong>매각물건명세서 오류</strong> — 법원이 작성한 매각물건명세서에 중요한 권리관계가 누락되거나 잘못 기재되어, 이를 믿고 입찰한 경우 매각불허가 사유가 됩니다</li>\n<li><strong>현황조사보고서 하자</strong> — 집행관의 현황조사 내용과 실제 현황이 크게 다른 경우. 예를 들어 점유자가 없다고 기재했는데 실제로 점유자가 있는 경우</li>\n<li><strong>감정평가 중대 오류</strong> — 감정가에 중대한 착오가 있어 매각가격이 부당하게 형성된 경우</li>\n<li><strong>경매 절차상 위법</strong> — 매각기일 공고가 적법하지 않거나, 이해관계인에 대한 통지가 누락된 경우 등 절차적 하자가 있는 경우</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">보증금 반환 가능 여부가 불확실하다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 보증금 회수 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">보증금 몰수가 원칙이지만, 매각 절차에 하자가 있으면 보증금을 돌려받을 수 있는 예외가 있습니다</strong></p>\n<ul>\n<li><strong>매각물건명세서 오류</strong> — 법원이 작성한 매각물건명세서에 중요한 권리관계가 누락되거나 잘못 기재되어, 이를 믿고 입찰한 경우 매각불허가 사유가 됩니다</li>\n<li><strong>현황조사보고서 하자</strong> — 집행관의 현황조사 내용과 실제 현황이 크게 다른 경우. 예를 들어 점유자가 없다고 기재했는데 실제로 점유자가 있는 경우</li>\n<li><strong>감정평가 중대 오류</strong> — 감정가에 중대한 착오가 있어 매각가격이 부당하게 형성된 경우</li>\n<li><strong>경매 절차상 위법</strong> — 매각기일 공고가 적법하지 않거나, 이해관계인에 대한 통지가 누락된 경우 등 절차적 하자가 있는 경우</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">보증금 반환 가능 여부가 불확실하다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 보증금 회수 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '매각불허가 신청 절차',
@@ -265,15 +265,15 @@ export const spokesBatch22_15to21: SpokePage[] = [
       },
     ],
     cta: {
-      text: '경매 보증금 회수 무료 상담받기',
+      text: '경매 보증금 회수 상담받기',
       link: '/diagnosis/real-estate-auction',
     },
     internalLinks: [
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
-      { label: '경매 입찰 절차 안내', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
-      { label: '경매 권리분석 체크리스트', href: '/spoke/real-estate-auction/auction-rights-analysis-checklist' },
-      { label: '낙찰 후 명도 절차', href: '/spoke/real-estate-auction/eviction-after-winning-bid' },
-      { label: '경매 초보 흔한 실수', href: '/spoke/real-estate-auction/beginner-auction-common-mistakes' },
+      { label: '경매 입찰 절차 안내', href: '/guide/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 권리분석 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
+      { label: '낙찰 후 명도 절차', href: '/guide/real-estate-auction/eviction-after-winning-bid' },
+      { label: '경매 초보 흔한 실수', href: '/guide/real-estate-auction/beginner-auction-common-mistakes' },
     ],
   },
 
@@ -304,7 +304,7 @@ export const spokesBatch22_15to21: SpokePage[] = [
       {
         title: '대출 한도 결정 요소 — LTV·DTI·DSR',
         content:
-          '<p><strong style="color:#1e3a5f">경매 대출도 일반 주택담보대출과 동일한 규제를 받으며, LTV·DTI·DSR 3가지 비율이 한도를 결정합니다</strong></p>\n<ul>\n<li><strong>LTV(담보인정비율)</strong> — 담보물건 가치 대비 대출 비율입니다. 규제지역은 40~50%, 비규제지역은 70%까지 가능합니다. 경매에서는 낙찰가가 아닌 감정가 또는 시세 기준으로 산정하는 경우가 많습니다</li>\n<li><strong>DTI(총부채상환비율)</strong> — 연소득 대비 연간 원리금 상환액 비율입니다. 규제지역은 40~50% 이내여야 합니다. 기존 대출의 이자 상환액도 포함되므로, 다른 대출이 있으면 한도가 줄어듭니다</li>\n<li><strong>DSR(총부채원리금상환비율)</strong> — DTI보다 엄격한 기준으로, 모든 대출의 원리금 상환액을 합산합니다. 은행권은 DSR 40%, 2금융권은 50%가 상한입니다</li>\n<li><strong>경매 특수 사항</strong> — 선순위 전세보증금이나 유치권이 있으면 실질 담보 가치가 줄어들어 대출 한도가 낮아집니다. 입찰 전에 권리분석 후 대출 가능 금액을 확인해야 합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">대출 한도를 미리 알고 싶다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 대출 준비 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">경매 대출도 일반 주택담보대출과 동일한 규제를 받으며, LTV·DTI·DSR 3가지 비율이 한도를 결정합니다</strong></p>\n<ul>\n<li><strong>LTV(담보인정비율)</strong> — 담보물건 가치 대비 대출 비율입니다. 규제지역은 40~50%, 비규제지역은 70%까지 가능합니다. 경매에서는 낙찰가가 아닌 감정가 또는 시세 기준으로 산정하는 경우가 많습니다</li>\n<li><strong>DTI(총부채상환비율)</strong> — 연소득 대비 연간 원리금 상환액 비율입니다. 규제지역은 40~50% 이내여야 합니다. 기존 대출의 이자 상환액도 포함되므로, 다른 대출이 있으면 한도가 줄어듭니다</li>\n<li><strong>DSR(총부채원리금상환비율)</strong> — DTI보다 엄격한 기준으로, 모든 대출의 원리금 상환액을 합산합니다. 은행권은 DSR 40%, 2금융권은 50%가 상한입니다</li>\n<li><strong>경매 특수 사항</strong> — 선순위 전세보증금이나 유치권이 있으면 실질 담보 가치가 줄어들어 대출 한도가 낮아집니다. 입찰 전에 권리분석 후 대출 가능 금액을 확인해야 합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">대출 한도를 미리 알고 싶다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 대출 준비 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '낙찰 전 사전 승인과 준비 서류',
@@ -354,15 +354,15 @@ export const spokesBatch22_15to21: SpokePage[] = [
       },
     ],
     cta: {
-      text: '경매 대출 준비 무료 상담받기',
+      text: '경매 대출 준비 상담받기',
       link: '/diagnosis/real-estate-auction',
     },
     internalLinks: [
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
-      { label: '경매 입찰 절차 안내', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
-      { label: '경매 권리분석 체크리스트', href: '/spoke/real-estate-auction/auction-rights-analysis-checklist' },
-      { label: '낙찰 후 명도 절차', href: '/spoke/real-estate-auction/eviction-after-winning-bid' },
-      { label: '경매 초보 흔한 실수', href: '/spoke/real-estate-auction/beginner-auction-common-mistakes' },
+      { label: '경매 입찰 절차 안내', href: '/guide/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 권리분석 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
+      { label: '낙찰 후 명도 절차', href: '/guide/real-estate-auction/eviction-after-winning-bid' },
+      { label: '경매 초보 흔한 실수', href: '/guide/real-estate-auction/beginner-auction-common-mistakes' },
     ],
   },
 
@@ -399,7 +399,7 @@ export const spokesBatch22_15to21: SpokePage[] = [
       {
         title: '배당 순위와 우선순위',
         content:
-          '<p><strong style="color:#1e3a5f">경매 대금은 법에서 정한 순위에 따라 배당되며, 순위가 높은 채권자부터 전액을 배당받고 남은 금액이 다음 순위로 넘어갑니다</strong></p>\n<ul>\n<li><strong>1순위 — 집행비용</strong> — 경매 절차에 든 비용(감정료, 공고료 등)이 가장 먼저 공제됩니다</li>\n<li><strong>2순위 — 최우선변제 임금·퇴직금</strong> — 최종 3개월분 임금과 최종 3년분 퇴직금은 다른 모든 채권에 우선하여 배당됩니다</li>\n<li><strong>3순위 — 소액임차인 최우선변제금</strong> — 주택임대차보호법 또는 상가건물임대차보호법에 따른 소액임차인의 최우선변제금</li>\n<li><strong>4순위 — 당해세(재산세·종합부동산세 등)</strong> — 해당 부동산에 부과된 국세·지방세</li>\n<li><strong>5순위 이하</strong> — 근저당권·전세권(설정일 순서), 일반 조세, 일반 채권 순서로 배당됩니다. 같은 순위 내에서는 채권액 비율에 따라 안분 배당합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 채권의 배당 순위가 궁금하다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 배당금 수령 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">경매 대금은 법에서 정한 순위에 따라 배당되며, 순위가 높은 채권자부터 전액을 배당받고 남은 금액이 다음 순위로 넘어갑니다</strong></p>\n<ul>\n<li><strong>1순위 — 집행비용</strong> — 경매 절차에 든 비용(감정료, 공고료 등)이 가장 먼저 공제됩니다</li>\n<li><strong>2순위 — 최우선변제 임금·퇴직금</strong> — 최종 3개월분 임금과 최종 3년분 퇴직금은 다른 모든 채권에 우선하여 배당됩니다</li>\n<li><strong>3순위 — 소액임차인 최우선변제금</strong> — 주택임대차보호법 또는 상가건물임대차보호법에 따른 소액임차인의 최우선변제금</li>\n<li><strong>4순위 — 당해세(재산세·종합부동산세 등)</strong> — 해당 부동산에 부과된 국세·지방세</li>\n<li><strong>5순위 이하</strong> — 근저당권·전세권(설정일 순서), 일반 조세, 일반 채권 순서로 배당됩니다. 같은 순위 내에서는 채권액 비율에 따라 안분 배당합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 채권의 배당 순위가 궁금하다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 배당금 수령 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '배당표 열람과 이의신청',
@@ -449,15 +449,15 @@ export const spokesBatch22_15to21: SpokePage[] = [
       },
     ],
     cta: {
-      text: '경매 배당금 수령 무료 상담받기',
+      text: '경매 배당금 수령 상담받기',
       link: '/diagnosis/real-estate-auction',
     },
     internalLinks: [
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
-      { label: '경매 입찰 절차 안내', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
-      { label: '경매 권리분석 체크리스트', href: '/spoke/real-estate-auction/auction-rights-analysis-checklist' },
-      { label: '낙찰 후 명도 절차', href: '/spoke/real-estate-auction/eviction-after-winning-bid' },
-      { label: '경매 초보 흔한 실수', href: '/spoke/real-estate-auction/beginner-auction-common-mistakes' },
+      { label: '경매 입찰 절차 안내', href: '/guide/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 권리분석 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
+      { label: '낙찰 후 명도 절차', href: '/guide/real-estate-auction/eviction-after-winning-bid' },
+      { label: '경매 초보 흔한 실수', href: '/guide/real-estate-auction/beginner-auction-common-mistakes' },
     ],
   },
 
@@ -488,7 +488,7 @@ export const spokesBatch22_15to21: SpokePage[] = [
       {
         title: '물건 분석 — 권리분석 기초',
         content:
-          '<p><strong style="color:#1e3a5f">경매에서 가장 중요한 것이 권리분석입니다. 낙찰받은 후 인수해야 할 권리가 무엇인지 정확히 파악해야 손해를 피할 수 있습니다</strong></p>\n<ul>\n<li><strong>등기부등본 확인</strong> — 갑구(소유권 관련)와 을구(근저당·전세권 등)를 확인합니다. 경매 개시결정보다 먼저 설정된 권리 중 인수되는 것이 있는지 확인해야 합니다</li>\n<li><strong>말소기준권리</strong> — 경매로 소멸하는 권리와 낙찰자가 인수하는 권리를 나누는 기준입니다. 최선순위 (근)저당권·가압류·경매 개시결정 중 가장 빠른 것이 말소기준권리가 됩니다. 이보다 후순위 권리는 소멸합니다</li>\n<li><strong>임차인 분석</strong> — 대항력(전입+점유) 있는 임차인이 말소기준권리보다 먼저 전입신고했다면, 낙찰자가 보증금을 인수합니다. 이 금액을 실질 취득가에 포함해야 합니다</li>\n<li><strong>특수 권리 주의</strong> — 유치권, 법정지상권, 분묘기지권, 지역권 등은 경매로 소멸하지 않습니다. 초보자는 이런 특수 권리가 없는 깨끗한 물건부터 시작하세요</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">권리분석이 어렵게 느껴진다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 초보 시작 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">경매에서 가장 중요한 것이 권리분석입니다. 낙찰받은 후 인수해야 할 권리가 무엇인지 정확히 파악해야 손해를 피할 수 있습니다</strong></p>\n<ul>\n<li><strong>등기부등본 확인</strong> — 갑구(소유권 관련)와 을구(근저당·전세권 등)를 확인합니다. 경매 개시결정보다 먼저 설정된 권리 중 인수되는 것이 있는지 확인해야 합니다</li>\n<li><strong>말소기준권리</strong> — 경매로 소멸하는 권리와 낙찰자가 인수하는 권리를 나누는 기준입니다. 최선순위 (근)저당권·가압류·경매 개시결정 중 가장 빠른 것이 말소기준권리가 됩니다. 이보다 후순위 권리는 소멸합니다</li>\n<li><strong>임차인 분석</strong> — 대항력(전입+점유) 있는 임차인이 말소기준권리보다 먼저 전입신고했다면, 낙찰자가 보증금을 인수합니다. 이 금액을 실질 취득가에 포함해야 합니다</li>\n<li><strong>특수 권리 주의</strong> — 유치권, 법정지상권, 분묘기지권, 지역권 등은 경매로 소멸하지 않습니다. 초보자는 이런 특수 권리가 없는 깨끗한 물건부터 시작하세요</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">권리분석이 어렵게 느껴진다면</strong><br/>\n<a href="/diagnosis/real-estate-auction" style="color:#1565c0;font-weight:600">경매 초보 시작 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '입찰가 결정과 보증금 준비',
@@ -538,15 +538,15 @@ export const spokesBatch22_15to21: SpokePage[] = [
       },
     ],
     cta: {
-      text: '경매 초보 시작 무료 상담받기',
+      text: '경매 초보 시작 상담받기',
       link: '/diagnosis/real-estate-auction',
     },
     internalLinks: [
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
-      { label: '경매 입찰 절차 안내', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
-      { label: '경매 권리분석 체크리스트', href: '/spoke/real-estate-auction/auction-rights-analysis-checklist' },
-      { label: '낙찰 후 명도 절차', href: '/spoke/real-estate-auction/eviction-after-winning-bid' },
-      { label: '경매 초보 흔한 실수', href: '/spoke/real-estate-auction/beginner-auction-common-mistakes' },
+      { label: '경매 입찰 절차 안내', href: '/guide/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 권리분석 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
+      { label: '낙찰 후 명도 절차', href: '/guide/real-estate-auction/eviction-after-winning-bid' },
+      { label: '경매 초보 흔한 실수', href: '/guide/real-estate-auction/beginner-auction-common-mistakes' },
     ],
   },
 
@@ -577,7 +577,7 @@ export const spokesBatch22_15to21: SpokePage[] = [
       {
         title: '지역별·시기별 보증금 한도액',
         content:
-          '<p><strong style="color:#1e3a5f">소액임차인 최우선변제는 보증금이 일정 금액 이하인 임차인에게만 적용되며, 지역과 시기에 따라 기준이 다릅니다</strong></p>\n<ul>\n<li><strong>서울특별시</strong> — 보증금 6,500만 원 이하인 임차인이 소액임차인에 해당하며, 최우선변제 한도는 2,200만 원입니다(2024년 기준)</li>\n<li><strong>과밀억제권역(수도권 일부)</strong> — 보증금 5,500만 원 이하, 최우선변제 한도 1,900만 원</li>\n<li><strong>광역시·세종·용인·화성·김포</strong> — 보증금 3,800만 원 이하, 최우선변제 한도 1,300만 원</li>\n<li><strong>그 밖의 지역</strong> — 보증금 3,000만 원 이하, 최우선변제 한도 1,000만 원</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 보증금이 우선변제 대상인지 확인하고 싶다면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 보증금 우선변제 무료 상담받기 &rarr;</a>\n</div>\n<p><strong>주의:</strong> 위 기준은 임대차계약서상 보증금 총액 기준입니다. 월세를 보증금으로 환산(월세 × 100)한 금액을 합산하여 판단합니다. 예를 들어 보증금 3,000만 원 + 월세 30만 원이면 환산보증금은 6,000만 원입니다.</p>',
+          '<p><strong style="color:#1e3a5f">소액임차인 최우선변제는 보증금이 일정 금액 이하인 임차인에게만 적용되며, 지역과 시기에 따라 기준이 다릅니다</strong></p>\n<ul>\n<li><strong>서울특별시</strong> — 보증금 6,500만 원 이하인 임차인이 소액임차인에 해당하며, 최우선변제 한도는 2,200만 원입니다(2024년 기준)</li>\n<li><strong>과밀억제권역(수도권 일부)</strong> — 보증금 5,500만 원 이하, 최우선변제 한도 1,900만 원</li>\n<li><strong>광역시·세종·용인·화성·김포</strong> — 보증금 3,800만 원 이하, 최우선변제 한도 1,300만 원</li>\n<li><strong>그 밖의 지역</strong> — 보증금 3,000만 원 이하, 최우선변제 한도 1,000만 원</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 보증금이 우선변제 대상인지 확인하고 싶다면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 보증금 우선변제 상담받기 &rarr;</a>\n</div>\n<p><strong>주의:</strong> 위 기준은 임대차계약서상 보증금 총액 기준입니다. 월세를 보증금으로 환산(월세 × 100)한 금액을 합산하여 판단합니다. 예를 들어 보증금 3,000만 원 + 월세 30만 원이면 환산보증금은 6,000만 원입니다.</p>',
       },
       {
         title: '확정일자와 대항력 차이',
@@ -627,15 +627,15 @@ export const spokesBatch22_15to21: SpokePage[] = [
       },
     ],
     cta: {
-      text: '상가 보증금 우선변제 무료 상담받기',
+      text: '상가 보증금 우선변제 상담받기',
       link: '/diagnosis/sangga',
     },
     internalLinks: [
       { label: '상가임대차 가이드', href: '/guide/sangga' },
-      { label: '상가 보증금 반환 절차', href: '/spoke/sangga/commercial-deposit-return-process' },
-      { label: '상가 권리금 분쟁 대응', href: '/spoke/sangga/commercial-lease-key-money' },
-      { label: '상가 임대차 갱신 거절 대응', href: '/spoke/sangga/commercial-lease-renewal-rejection' },
-      { label: '상가 임대차 해지 절차', href: '/spoke/sangga/commercial-lease-termination-procedure' },
+      { label: '상가 보증금 반환 절차', href: '/guide/sangga/commercial-deposit-return-process' },
+      { label: '상가 권리금 분쟁 대응', href: '/guide/sangga/commercial-lease-key-money' },
+      { label: '상가 임대차 갱신 거절 대응', href: '/guide/sangga/commercial-lease-renewal-rejection' },
+      { label: '상가 임대차 해지 절차', href: '/guide/sangga/commercial-lease-termination-procedure' },
     ],
   },
 ];

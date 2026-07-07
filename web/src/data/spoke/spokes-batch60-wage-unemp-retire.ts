@@ -335,7 +335,6 @@ export const spokesBatch60WageUnempRetire: SpokePage[] = [
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
-      { label: '명예퇴직 합의 후 별도 퇴직금 청구', href: '/guide/retirement/retirement-honorary-quit-extra-claim-waiver-invalid' },
       { label: '평균임금 상여 연차 다툼', href: '/guide/retirement/retirement-average-wage-bonus-dispute' },
       { label: '퇴직금 14일 지급 규칙', href: '/guide/retirement/retirement-pay-14day-rule-detail' },
       { label: '퇴직금 노동청 vs 민사', href: '/guide/retirement/retirement-pay-labor-report-vs-civil-claim' },

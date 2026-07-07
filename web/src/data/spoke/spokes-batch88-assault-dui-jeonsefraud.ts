@@ -341,7 +341,6 @@ export const spokesBatch88AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '폭처법 공동폭행 공모공동정범', href: '/guide/assault/assault-multi-attacker-pokchoebop-joint-liability-evidence-track' },
-      { label: '다중 가담 집단 폭행', href: '/guide/assault/assault-collective-multiple-participant-track' },
       { label: '공동주택 엘리베이터 폭행 CCTV', href: '/guide/assault/assault-apartment-elevator-cctv-evidence-track' },
       { label: '층간소음 윗집 방문 현관 폭행 피해', href: '/guide/assault/assault-upstairs-neighbor-visit-doorway-noise-victim-track' },
     ],
@@ -591,7 +590,6 @@ export const spokesBatch88AssaultDuiJeonseFraud: SpokePage[] = [
       { label: '음주 면허취소 행정심판 재량권', href: '/guide/dui/dui-administrative-suspension-appeal-track' },
       { label: '음주운전 종합 가이드', href: '/guide/dui' },
       { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },
-      { label: '음주 면허정지 이의신청', href: '/guide/dui/dui-license-suspension-objection-track' },
       { label: '음주 면허취소 행정심판 측정 정확성', href: '/guide/dui/dui-license-revocation-appeal-track' },
     ],
   },
@@ -672,7 +670,6 @@ export const spokesBatch88AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '전세사기 피해 대응 순서, AI로 정리하기', link: '/chat?domain=jeonse-fraud' },
     internalLinks: [
       { label: '법인 임차 직원 거주 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-corporate-lease-employee-opposing-power-track' },
-      { label: '갭투자 대규모 전세사기 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-mass-gap-investment-track' },
       { label: '임차권등기 비용 임대인 청구 회수', href: '/guide/jeonse-fraud/jeonse-fraud-lease-registration-cost-claim-recovery-track' },
       { label: '보증보험 미가입 전세사기', href: '/guide/jeonse-fraud/jeonse-fraud-guarantee-insurance-unsubscribed-track' },
       { label: '다가구주택 선순위 근저당 보증금 회수 판단', href: '/guide/jeonse-fraud/jeonse-fraud-multifamily-senior-mortgage-deposit-track' },
@@ -756,7 +753,6 @@ export const spokesBatch88AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '전대차 임대인 동의 보증금 회수 절차', href: '/guide/jeonse-fraud/jeonse-fraud-sublease-landlord-consent-deposit-recovery-track' },
       { label: '법인 임차 직원 거주 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-corporate-tenant-opposing-power-track' },
-      { label: '위임장 위조 전세사기 임대인 파산 면책', href: '/guide/jeonse-fraud/jeonse-fraud-power-of-attorney-forgery-track' },
       { label: '선순위 근저당 경매 배당 보증금 회수 절차', href: '/guide/jeonse-fraud/jeonse-fraud-priority-mortgage-auction-distribution-recovery-track' },
       { label: '갭투자 대규모 전세사기 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-mass-gap-investment-track' },
     ],

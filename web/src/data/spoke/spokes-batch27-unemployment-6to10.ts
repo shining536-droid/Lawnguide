@@ -108,7 +108,7 @@ export const spokesBatch27Unemployment_6to10: SpokePage[] = [
       '2단계: 이직확인서 대체 방법 확인',
       '3단계: 관할 고용센터 방문 신청',
       '4단계: 실업인정 및 급여 수령',
-      '5단계: 체당금(밀린 임금·퇴직금) 별도 신청',
+      '5단계: 대지급금(밀린 임금·퇴직금) 별도 신청',
     ],
     sections: [
       {
@@ -117,9 +117,9 @@ export const spokesBatch27Unemployment_6to10: SpokePage[] = [
           '<p><strong style="color:#1e3a5f">사업주와 연락이 안 되면 고용센터에서 직권으로 이직확인서를 대체할 수 있습니다.</strong></p>\n<ul>\n<li><strong>고용센터 직권 확인</strong> — 사업주가 이직확인서를 발급하지 않거나 연락이 안 되면, 고용센터가 건강보험 자격상실 기록, 4대보험 기록 등으로 직권 확인합니다.</li>\n<li><strong>이직확인서 청구</strong> — 사업주에게 이직확인서 발급을 서면으로 요청하고, 14일 이내 미발급 시 고용센터에 신고하면 과태료가 부과됩니다.</li>\n<li><strong>필요 서류</strong> — 신분증, 근로계약서, 급여명세서, 4대보험 가입 확인서 등을 가지고 고용센터에 방문하세요.</li>\n</ul>',
       },
       {
-        title: '폐업 사업장 체당금 신청',
+        title: '폐업 사업장 대지급금 신청',
         content:
-          '<p><strong style="color:#1e3a5f">밀린 임금과 퇴직금은 근로복지공단에서 체당금으로 지급받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>일반체당금</strong> — 사업주의 파산·회생이 확인된 경우, 최종 3개월분 임금 + 최종 3년분 퇴직금 + 최종 3개월분 휴업수당 중 미지급액을 지급받습니다.</li>\n<li><strong>간이대지급금</strong> — 소규모 사업장(상시 근로자 수에 따라) 사업주의 도산등사실인정을 받으면 신청 가능합니다.</li>\n<li><strong>신청처</strong> — 근로복지공단 관할 지사에 신청합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>폐업 사업장 실업급여+체당금, AI가 절차를 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">사업장 상황을 입력하면 받을 수 있는 급여와 절차를 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">밀린 임금과 퇴직금은 근로복지공단에서 대지급금으로 지급받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>도산대지급금</strong> — 사업주의 파산·회생이 확인된 경우, 최종 3개월분 임금 + 최종 3년분 퇴직금 + 최종 3개월분 휴업수당 중 미지급액을 지급받습니다.</li>\n<li><strong>간이대지급금</strong> — 소규모 사업장(상시 근로자 수에 따라) 사업주의 도산등사실인정을 받으면 신청 가능합니다.</li>\n<li><strong>신청처</strong> — 근로복지공단 관할 지사에 신청합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>폐업 사업장 실업급여+대지급금, AI가 절차를 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">사업장 상황을 입력하면 받을 수 있는 급여와 절차를 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '폐업 확인이 안 될 때',
@@ -146,15 +146,15 @@ export const spokesBatch27Unemployment_6to10: SpokePage[] = [
         answer: '<p>고용보험 미가입 상태였다면 근로복지공단에 피보험자격 확인 청구를 하여 소급 가입 처리를 받을 수 있습니다. 근로계약서, 급여 입금내역 등이 증거가 됩니다.</p>',
       },
       {
-        question: '체당금과 실업급여를 동시에 받을 수 있나요?',
-        answer: '<p>네, 체당금(밀린 임금·퇴직금)과 실업급여는 별개 제도이므로 동시 수급이 가능합니다.</p>',
+        question: '대지급금과 실업급여를 동시에 받을 수 있나요?',
+        answer: '<p>네, 대지급금(밀린 임금·퇴직금)과 실업급여는 별개 제도이므로 동시 수급이 가능합니다.</p>',
       },
       {
         question: '폐업한 회사의 밀린 월급은 어떻게 받나요?',
-        answer: '<p>관할 고용노동청에 임금체불 진정을 접수하고, 근로복지공단에 체당금을 신청하세요. 두 절차를 동시에 진행할 수 있습니다.</p>',
+        answer: '<p>관할 고용노동청에 임금체불 진정을 접수하고, 근로복지공단에 대지급금을 신청하세요. 두 절차를 동시에 진행할 수 있습니다.</p>',
       },
     ],
-    cta: { text: '회사 폐업 시 실업급여·체당금 절차 AI로 확인하기', link: '/chat?domain=unemployment' },
+    cta: { text: '회사 폐업 시 실업급여·대지급금 절차 AI로 확인하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '실업급여 가이드', href: '/guide/unemployment' },

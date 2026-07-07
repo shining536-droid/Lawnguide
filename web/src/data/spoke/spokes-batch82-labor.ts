@@ -175,7 +175,6 @@ export const spokesBatch82Labor: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '부당해고 금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
-      { label: '장애 정당한 편의제공 차별 해고', href: '/guide/dismissal/dismissal-disability-reasonable-accommodation-discrimination-track' },
       { label: '부당해고 인용 후 임금상당액 누락', href: '/guide/dismissal/dismissal-back-pay-supplemental-claim-after-relief' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
     ],
@@ -425,7 +424,6 @@ export const spokesBatch82Labor: SpokePage[] = [
       { label: '수습 최저임금 미달 임금 차액 청구 판단', href: '/guide/wage/wage-probation-period-minimum-wage-shortfall-claim-track' },
       { label: '야간 휴일 연장근로수당 미지급 청구 판단', href: '/guide/wage/wage-night-holiday-overtime-allowance-unpaid-claim-track' },
       { label: '임금 종합 가이드', href: '/guide/wage' },
-      { label: '교대 소정근로시간 단축 합의 최저임금', href: '/guide/wage/wage-shift-worker-night-allowance-recognition-track' },
       { label: '임금체불 진정 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
     ],
   },
@@ -756,7 +754,6 @@ export const spokesBatch82Labor: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '겸직 위탁 근로자성 퇴직금', href: '/guide/retirement/retirement-concurrent-job-worker-status-track' },
-      { label: '위임 형식 근로자성 계속근로 통산 퇴직금', href: '/guide/retirement/retirement-fixed-term-continuous-service-aggregation-track' },
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '퇴직금 노동청 신고 민사청구 차이', href: '/guide/retirement/retirement-pay-labor-report-vs-civil-claim' },
     ],

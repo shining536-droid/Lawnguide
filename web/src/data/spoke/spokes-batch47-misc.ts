@@ -248,7 +248,6 @@ export const spokesBatch47Misc: SpokePage[] = [
     internalLinks: [
       { label: '개인파산 종합 가이드', href: '/guide/bankruptcy' },
       { label: '파산 면책 불허가 채무 유형', href: '/guide/bankruptcy/bankruptcy-non-dischargeable-debt-types' },
-      { label: '파산 후 이혼 재산분할 영향', href: '/guide/bankruptcy/bankruptcy-divorce-property-impact' },
       { label: '처분 재산 대상재산 분할', href: '/guide/divorce/divorce-disposed-asset-substitute-property-division-track' },
       { label: '파산 면책 후 신용회복 절차와 기간', href: '/guide/bankruptcy/bankruptcy-credit-recovery-timeline' },
     ],
@@ -330,7 +329,6 @@ export const spokesBatch47Misc: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=industrial-accident' },
     internalLinks: [
       { label: '출퇴근 교통사고 산재', href: '/guide/industrial-accident/industrial-accident-commute-disaster-track' },
-      { label: '통근재해 우회로 인정', href: '/guide/industrial-accident/industrial-accident-commute-detour-coverage' },
       { label: '산업재해 인정 거부 시 불복 절차', href: '/guide/industrial-accident/industrial-accident-denial-appeal' },
       { label: '출퇴근 사고 산재 인정', href: '/guide/industrial-accident/industrial-accident-commute-injury-track' },
       { label: '재요양 후 장해등급 변경 재해위로금', href: '/guide/industrial-accident/industrial-accident-disability-grade-change-recovery-condolence-track' },

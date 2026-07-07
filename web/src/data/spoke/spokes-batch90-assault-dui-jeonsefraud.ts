@@ -175,7 +175,6 @@ export const spokesBatch90AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '폭행 가해자로 입건됐을 때 첫 대응', href: '/guide/assault/assault-charged-first-response' },
-      { label: '복도 소음 시비 폭행', href: '/guide/assault/assault-neighbor-noise-hallway-track' },
       { label: '공동주택 엘리베이터 폭행 CCTV', href: '/guide/assault/assault-apartment-elevator-cctv-evidence-track' },
       { label: '데이트폭력 신변보호 접근금지', href: '/guide/assault/assault-dating-violence-victim-protection' },
     ],

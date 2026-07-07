@@ -424,7 +424,6 @@ export const spokesBatch26_25to29: SpokePage[] = [
       { label: '보행자·자전거 피해자 합의금 청구', href: '/guide/traffic-accident/traffic-accident-pedestrian-cyclist-victim-compensation' },
       { label: '교통사고 과실비율 다투는 법', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: 'insurance 종합 가이드', href: '/guide/insurance' },
-      { label: '중앙선 침범 교통사고 피해자 손해배상 청구 5단계', href: '/guide/traffic-accident/traffic-accident-centerline-violation-victim-lawsuit' },
     ],
   },
 ];

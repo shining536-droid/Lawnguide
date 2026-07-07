@@ -556,7 +556,6 @@ export const spokesBatch63DefameJeonseStalking: SpokePage[] = [
       { label: '스토킹 종합 가이드', href: '/guide/stalking' },
       { label: '스토킹 긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-measure-application' },
       { label: '미성년자 스토킹 피해 보호자 신고', href: '/guide/stalking/stalking-minor-victim-guardian-report-track' },
-      { label: '학원 강사 학생 학부모 스토킹', href: '/guide/stalking/stalking-academy-teacher-student-parent-track' },
       { label: '아이가 성범죄 피해를 말했을 때 어디부터', href: '/guide/child-sex-crime/child-disclosed-abuse-where-to-start' },
     ],
   },

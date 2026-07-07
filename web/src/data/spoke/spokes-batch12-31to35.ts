@@ -68,7 +68,7 @@ export const spokesBatch12Pages31to35: SpokePage[] = [
     },
     internalLinks: [
       { label: '보증금 못 받았을 때 해결 순서', href: '/guide/jeonse/deposit-return-process' },
-      { label: '전세보증금 반환 소송 준비 서류', href: '/spoke/jeonse/deposit-lawsuit-docs' },
+      { label: '전세보증금 반환 소송 준비 서류', href: '/guide/jeonse/deposit-lawsuit-docs' },
       { label: 'jeonse 도메인 허브', href: '/guide/jeonse' },
       { label: '경매 시 전세보증금 우선변제', href: '/guide/jeonse/jeonse-auction-deposit-priority' },
       { label: '보증금 미반환 임차권등기 후 이사', href: '/guide/jeonse/jeonse-deposit-not-returned-move-out-procedure' }
@@ -143,7 +143,7 @@ export const spokesBatch12Pages31to35: SpokePage[] = [
       link: '/diagnosis/child-support'
     },
     internalLinks: [
-      { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: 'child-support 도메인 허브', href: '/guide/child-support' },
       { label: '실직 후 양육비 변경 청구', href: '/guide/child-support/child-support-economic-shock-modification-track' },
       { label: '양육비 청구 심판 신청서 작성법', href: '/guide/child-support/child-support-claim-form-template' },
@@ -215,8 +215,8 @@ export const spokesBatch12Pages31to35: SpokePage[] = [
       link: '/diagnosis/child-support'
     },
     internalLinks: [
-      { label: '양육비 산정 기준표와 계산 방법', href: '/spoke/child-support/child-support-calculation-table' },
-      { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: 'child-support 도메인 허브', href: '/guide/child-support' },
       { label: '양육비 청구 심판 신청서 작성법', href: '/guide/child-support/child-support-claim-form-template' },
       { label: '실직 후 양육비 변경 청구', href: '/guide/child-support/child-support-economic-shock-modification-track' }
@@ -288,10 +288,9 @@ export const spokesBatch12Pages31to35: SpokePage[] = [
     },
     internalLinks: [
       { label: 'sexual-harassment 도메인 허브', href: '/guide/sexual-harassment' },
-      { label: '직장 내 성희롱 신고 절차', href: '/spoke/sexual-harassment/workplace-harassment-report-procedure' },
+      { label: '직장 내 성희롱 신고 절차', href: '/guide/sexual-harassment/workplace-harassment-report-procedure' },
       { label: '온라인 메신저 성희롱 증거 수집', href: '/guide/sexual-harassment/online-harassment-evidence' },
       { label: '직장 내 성희롱 신고 후 보복 방지', href: '/guide/sexual-harassment/workplace-harassment-retaliation-protection' },
-      { label: '회식 자리에서 신체 접촉 성희롱 해당', href: '/guide/sexual-harassment/physical-contact-at-company-dinner' }
     ]
   },
 ];

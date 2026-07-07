@@ -37,7 +37,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '금액 계산법 — 평균임금의 70% 기준',
         content:
-          '<p><strong style="color:#1e3a5f">휴업급여는 1일당 평균임금의 70%를 지급합니다. 평균임금이란 재해 발생일 이전 3개월간 지급받은 임금 총액을 그 기간의 총일수로 나눈 금액입니다</strong></p>\n<ul>\n<li><strong>기본 계산</strong> — 월급 300만 원(3개월 합계 900만 원)인 경우, 평균임금 = 900만 원 &divide; 92일(3개월) = 약 97,826원. 1일 휴업급여 = 97,826원 &times; 70% = 약 68,478원</li>\n<li><strong>최저 보상 기준</strong> — 평균임금의 70%가 최저임금에 미달하면 최저임금액을 휴업급여로 지급합니다. 2026년 최저임금은 시간급 10,320원(일급 82,560원, 8시간 기준)입니다</li>\n<li><strong>고령자 감액</strong> — 61세 이후부터 매년 2%포인트씩 감액되어 65세 이후에는 평균임금의 62%를 지급합니다</li>\n<li><strong>부분 휴업급여</strong> — 취업이 일부 가능하여 실제 근로한 경우, 실제 소득과 평균임금 70%의 차액을 지급합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 휴업급여 금액이 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 휴업급여 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">휴업급여는 1일당 평균임금의 70%를 지급합니다. 평균임금이란 재해 발생일 이전 3개월간 지급받은 임금 총액을 그 기간의 총일수로 나눈 금액입니다</strong></p>\n<ul>\n<li><strong>기본 계산</strong> — 월급 300만 원(3개월 합계 900만 원)인 경우, 평균임금 = 900만 원 &divide; 92일(3개월) = 약 97,826원. 1일 휴업급여 = 97,826원 &times; 70% = 약 68,478원</li>\n<li><strong>최저 보상 기준</strong> — 평균임금의 70%가 최저임금에 미달하면 최저임금액을 휴업급여로 지급합니다. 2026년 최저임금은 시간급 10,320원(일급 82,560원, 8시간 기준)입니다</li>\n<li><strong>고령자 감액</strong> — 61세 이후부터 매년 2%포인트씩 감액되어 65세 이후에는 평균임금의 62%를 지급합니다</li>\n<li><strong>부분 휴업급여</strong> — 취업이 일부 가능하여 실제 근로한 경우, 실제 소득과 평균임금 70%의 차액을 지급합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 휴업급여 금액이 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 휴업급여 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '신청 절차와 필요 서류',
@@ -87,15 +87,15 @@ export const spokesBatch22_1to7: SpokePage[] = [
       },
     ],
     cta: {
-      text: '산재 휴업급여 무료 상담받기',
+      text: '산재 휴업급여 상담받기',
       link: '/diagnosis/industrial-accident1',
     },
     internalLinks: [
       { label: '산재보상 가이드', href: '/guide/industrial-accident1' },
-      { label: '산재보험 청구 절차 총정리', href: '/spoke/industrial-accident1/workers-comp-claim-process' },
-      { label: '산재 장해등급 판정 절차', href: '/spoke/industrial-accident1/disability-benefit-grade-process' },
-      { label: '산재 불승인 후 재신청 방법', href: '/spoke/industrial-accident1/reapply-after-rejection' },
-      { label: '산재 사고 어디부터 시작해야 하나', href: '/spoke/industrial-accident1/injured-where-to-start' },
+      { label: '산재보험 청구 절차 총정리', href: '/guide/industrial-accident1/workers-comp-claim-process' },
+      { label: '산재 장해등급 판정 절차', href: '/guide/industrial-accident1/disability-benefit-grade-process' },
+      { label: '산재 불승인 후 재신청 방법', href: '/guide/industrial-accident1/reapply-after-rejection' },
+      { label: '산재 사고 어디부터 시작해야 하나', href: '/guide/industrial-accident1/injured-where-to-start' },
     ],
   },
 
@@ -132,7 +132,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '연금형 vs 일시금형 선택 기준',
         content:
-          '<p><strong style="color:#1e3a5f">유족급여는 연금 또는 일시금 중 선택할 수 있습니다. 연금이 총 수령액이 더 크지만, 상황에 따라 일시금이 유리할 수 있습니다</strong></p>\n<ul>\n<li><strong>유족보상연금</strong> — 기본금액(급여기초연액의 47%) + 가산금액(수급자격자 1인당 5%, 최대 20%)을 매월 나누어 지급합니다. 급여기초연액은 평균임금 &times; 365일입니다</li>\n<li><strong>유족보상일시금</strong> — 평균임금의 1,300일분을 한 번에 지급합니다. 연금 수급자격자가 없거나 수급자격자가 일시금을 원하는 경우 선택할 수 있습니다</li>\n<li><strong>선택 기준</strong> — 연금은 약 4~5년 수급하면 일시금 총액을 넘깁니다. 유족의 나이가 젊거나 부양할 자녀가 있으면 연금이 유리합니다. 급하게 목돈이 필요한 경우에는 일시금 50%를 선지급받을 수도 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">유족급여 유형 선택이 고민된다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 유족급여 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">유족급여는 연금 또는 일시금 중 선택할 수 있습니다. 연금이 총 수령액이 더 크지만, 상황에 따라 일시금이 유리할 수 있습니다</strong></p>\n<ul>\n<li><strong>유족보상연금</strong> — 기본금액(급여기초연액의 47%) + 가산금액(수급자격자 1인당 5%, 최대 20%)을 매월 나누어 지급합니다. 급여기초연액은 평균임금 &times; 365일입니다</li>\n<li><strong>유족보상일시금</strong> — 평균임금의 1,300일분을 한 번에 지급합니다. 연금 수급자격자가 없거나 수급자격자가 일시금을 원하는 경우 선택할 수 있습니다</li>\n<li><strong>선택 기준</strong> — 연금은 약 4~5년 수급하면 일시금 총액을 넘깁니다. 유족의 나이가 젊거나 부양할 자녀가 있으면 연금이 유리합니다. 급하게 목돈이 필요한 경우에는 일시금 50%를 선지급받을 수도 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">유족급여 유형 선택이 고민된다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 유족급여 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '장의비와 추가 보상',
@@ -182,15 +182,15 @@ export const spokesBatch22_1to7: SpokePage[] = [
       },
     ],
     cta: {
-      text: '산재 유족급여 무료 상담받기',
+      text: '산재 유족급여 상담받기',
       link: '/diagnosis/industrial-accident1',
     },
     internalLinks: [
       { label: '산재보상 가이드', href: '/guide/industrial-accident1' },
-      { label: '산재보험 청구 절차 총정리', href: '/spoke/industrial-accident1/workers-comp-claim-process' },
-      { label: '산재 장해등급 판정 절차', href: '/spoke/industrial-accident1/disability-benefit-grade-process' },
-      { label: '산재 불승인 후 재신청 방법', href: '/spoke/industrial-accident1/reapply-after-rejection' },
-      { label: '산재 사고 어디부터 시작해야 하나', href: '/spoke/industrial-accident1/injured-where-to-start' },
+      { label: '산재보험 청구 절차 총정리', href: '/guide/industrial-accident1/workers-comp-claim-process' },
+      { label: '산재 장해등급 판정 절차', href: '/guide/industrial-accident1/disability-benefit-grade-process' },
+      { label: '산재 불승인 후 재신청 방법', href: '/guide/industrial-accident1/reapply-after-rejection' },
+      { label: '산재 사고 어디부터 시작해야 하나', href: '/guide/industrial-accident1/injured-where-to-start' },
     ],
   },
 
@@ -221,7 +221,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '주요 직업병 유형과 인정 사례',
         content:
-          '<p><strong style="color:#1e3a5f">직업병은 화학적·물리적·생물학적·인체공학적 원인으로 크게 나눌 수 있습니다</strong></p>\n<ul>\n<li><strong>근골격계 질환</strong> — 반복 작업, 무리한 자세, 중량물 취급으로 인한 요통, 수근관증후군, 회전근개 손상 등. 제조업·물류업 종사자에게 가장 많이 발생합니다</li>\n<li><strong>호흡기 질환</strong> — 분진(진폐증), 석면(석면폐증, 악성중피종), 화학물질 흡입으로 인한 천식 등. 건설업·광업 종사자에게 흔합니다</li>\n<li><strong>뇌심혈관 질환</strong> — 장시간 근무, 교대근무, 업무 스트레스로 인한 뇌출혈, 심근경색 등. 과로사가 대표적입니다</li>\n<li><strong>정신 질환</strong> — 업무상 극심한 스트레스나 외상 사건으로 인한 우울증, 외상후스트레스장애(PTSD). 2019년부터 인정 범위가 확대되었습니다</li>\n<li><strong>암</strong> — 석면(폐암, 중피종), 벤젠(백혈병), 방사선(각종 암) 등 발암물질 노출에 의한 직업성 암. 잠복기가 수십 년일 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 질병이 직업병으로 인정될 수 있는지 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">직업병 산재 인정 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">직업병은 화학적·물리적·생물학적·인체공학적 원인으로 크게 나눌 수 있습니다</strong></p>\n<ul>\n<li><strong>근골격계 질환</strong> — 반복 작업, 무리한 자세, 중량물 취급으로 인한 요통, 수근관증후군, 회전근개 손상 등. 제조업·물류업 종사자에게 가장 많이 발생합니다</li>\n<li><strong>호흡기 질환</strong> — 분진(진폐증), 석면(석면폐증, 악성중피종), 화학물질 흡입으로 인한 천식 등. 건설업·광업 종사자에게 흔합니다</li>\n<li><strong>뇌심혈관 질환</strong> — 장시간 근무, 교대근무, 업무 스트레스로 인한 뇌출혈, 심근경색 등. 과로사가 대표적입니다</li>\n<li><strong>정신 질환</strong> — 업무상 극심한 스트레스나 외상 사건으로 인한 우울증, 외상후스트레스장애(PTSD). 2019년부터 인정 범위가 확대되었습니다</li>\n<li><strong>암</strong> — 석면(폐암, 중피종), 벤젠(백혈병), 방사선(각종 암) 등 발암물질 노출에 의한 직업성 암. 잠복기가 수십 년일 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 질병이 직업병으로 인정될 수 있는지 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">직업병 산재 인정 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '직업병 입증 자료 준비법',
@@ -271,15 +271,15 @@ export const spokesBatch22_1to7: SpokePage[] = [
       },
     ],
     cta: {
-      text: '직업병 산재 인정 무료 상담받기',
+      text: '직업병 산재 인정 상담받기',
       link: '/diagnosis/industrial-accident1',
     },
     internalLinks: [
       { label: '산재보상 가이드', href: '/guide/industrial-accident1' },
-      { label: '산재보험 청구 절차 총정리', href: '/spoke/industrial-accident1/workers-comp-claim-process' },
-      { label: '산재 불승인 후 재신청 방법', href: '/spoke/industrial-accident1/reapply-after-rejection' },
-      { label: '출퇴근 재해 인정 기준', href: '/spoke/industrial-accident1/commute-accident-recognition' },
-      { label: '산재 사고 어디부터 시작해야 하나', href: '/spoke/industrial-accident1/injured-where-to-start' },
+      { label: '산재보험 청구 절차 총정리', href: '/guide/industrial-accident1/workers-comp-claim-process' },
+      { label: '산재 불승인 후 재신청 방법', href: '/guide/industrial-accident1/reapply-after-rejection' },
+      { label: '출퇴근 재해 인정 기준', href: '/guide/industrial-accident1/commute-accident-recognition' },
+      { label: '산재 사고 어디부터 시작해야 하나', href: '/guide/industrial-accident1/injured-where-to-start' },
     ],
   },
 
@@ -310,7 +310,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '직업훈련수당 신청 조건과 금액',
         content:
-          '<p><strong style="color:#1e3a5f">직업훈련수당은 산재 근로자가 새로운 직업 기술을 습득하는 데 필요한 비용과 생활비를 지원합니다</strong></p>\n<ul>\n<li><strong>신청 자격</strong> — 장해등급 1~12급 판정을 받은 산재 근로자로서, 직업훈련이 필요하다고 인정된 경우. 요양 중이거나 요양 종결 후 모두 신청 가능합니다</li>\n<li><strong>훈련 과정</strong> — 근로복지공단이 인정한 직업훈련기관의 과정을 이수해야 합니다. 한국폴리텍대학, 산재의료원 부설 직업훈련시설 등이 대표적입니다</li>\n<li><strong>지급 금액</strong> — 훈련기간 동안 매월 최저임금액에 해당하는 금액을 지급합니다. 2026년 기준 월 약 215만 원(최저임금 10,320원 &times; 209시간)입니다</li>\n<li><strong>훈련비 별도 지원</strong> — 수업료, 교재비, 실습비 등 훈련에 필요한 비용은 실비 기준으로 별도 지급됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">직업훈련수당 신청이 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 직업재활 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">직업훈련수당은 산재 근로자가 새로운 직업 기술을 습득하는 데 필요한 비용과 생활비를 지원합니다</strong></p>\n<ul>\n<li><strong>신청 자격</strong> — 장해등급 1~12급 판정을 받은 산재 근로자로서, 직업훈련이 필요하다고 인정된 경우. 요양 중이거나 요양 종결 후 모두 신청 가능합니다</li>\n<li><strong>훈련 과정</strong> — 근로복지공단이 인정한 직업훈련기관의 과정을 이수해야 합니다. 한국폴리텍대학, 산재의료원 부설 직업훈련시설 등이 대표적입니다</li>\n<li><strong>지급 금액</strong> — 훈련기간 동안 매월 최저임금액에 해당하는 금액을 지급합니다. 2026년 기준 월 약 215만 원(최저임금 10,320원 &times; 209시간)입니다</li>\n<li><strong>훈련비 별도 지원</strong> — 수업료, 교재비, 실습비 등 훈련에 필요한 비용은 실비 기준으로 별도 지급됩니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">직업훈련수당 신청이 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 직업재활 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '직장복귀지원금 대상과 절차',
@@ -360,15 +360,15 @@ export const spokesBatch22_1to7: SpokePage[] = [
       },
     ],
     cta: {
-      text: '산재 직업재활 무료 상담받기',
+      text: '산재 직업재활 상담받기',
       link: '/diagnosis/industrial-accident1',
     },
     internalLinks: [
       { label: '산재보상 가이드', href: '/guide/industrial-accident1' },
-      { label: '산재보험 청구 절차 총정리', href: '/spoke/industrial-accident1/workers-comp-claim-process' },
-      { label: '산재 장해등급 판정 절차', href: '/spoke/industrial-accident1/disability-benefit-grade-process' },
-      { label: '산재 휴업급여 신청 조건과 금액', href: '/spoke/industrial-accident1/workers-comp-leave-benefit' },
-      { label: '산재 사고 어디부터 시작해야 하나', href: '/spoke/industrial-accident1/injured-where-to-start' },
+      { label: '산재보험 청구 절차 총정리', href: '/guide/industrial-accident1/workers-comp-claim-process' },
+      { label: '산재 장해등급 판정 절차', href: '/guide/industrial-accident1/disability-benefit-grade-process' },
+      { label: '산재 휴업급여 신청 조건과 금액', href: '/guide/industrial-accident1/workers-comp-leave-benefit' },
+      { label: '산재 사고 어디부터 시작해야 하나', href: '/guide/industrial-accident1/injured-where-to-start' },
     ],
   },
 
@@ -399,7 +399,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '등급별 연금 금액 기준',
         content:
-          '<p><strong style="color:#1e3a5f">상병보상연금은 폐질등급에 따라 금액이 달라지며, 휴업급여(70%)보다 높은 비율로 지급됩니다</strong></p>\n<ul>\n<li><strong>제1급</strong> — 평균임금의 329일분(연액). 월 기준으로 환산하면 평균임금의 약 90%에 해당할 소지가 있습니다</li>\n<li><strong>제2급</strong> — 평균임금의 291일분(연액). 월 기준으로 환산하면 평균임금의 약 80%에 해당할 소지가 있습니다</li>\n<li><strong>제3급</strong> — 평균임금의 257일분(연액). 월 기준으로 환산하면 평균임금의 약 70%에 해당할 소지가 있습니다</li>\n</ul>\n<p><strong>계산 예시:</strong> 평균임금이 1일 10만 원인 근로자가 제1급 판정을 받으면, 연간 3,290만 원(10만 원 &times; 329일), 월 약 274만 원을 수령합니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 상병보상연금 금액이 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 상병보상연금 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">상병보상연금은 폐질등급에 따라 금액이 달라지며, 휴업급여(70%)보다 높은 비율로 지급됩니다</strong></p>\n<ul>\n<li><strong>제1급</strong> — 평균임금의 329일분(연액). 월 기준으로 환산하면 평균임금의 약 90%에 해당할 소지가 있습니다</li>\n<li><strong>제2급</strong> — 평균임금의 291일분(연액). 월 기준으로 환산하면 평균임금의 약 80%에 해당할 소지가 있습니다</li>\n<li><strong>제3급</strong> — 평균임금의 257일분(연액). 월 기준으로 환산하면 평균임금의 약 70%에 해당할 소지가 있습니다</li>\n</ul>\n<p><strong>계산 예시:</strong> 평균임금이 1일 10만 원인 근로자가 제1급 판정을 받으면, 연간 3,290만 원(10만 원 &times; 329일), 월 약 274만 원을 수령합니다.</p>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내 상병보상연금 금액이 궁금하다면</strong><br/>\n<a href="/diagnosis/industrial-accident1" style="color:#1565c0;font-weight:600">산재 상병보상연금 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '전환 절차와 시점',
@@ -449,15 +449,15 @@ export const spokesBatch22_1to7: SpokePage[] = [
       },
     ],
     cta: {
-      text: '산재 상병보상연금 무료 상담받기',
+      text: '산재 상병보상연금 상담받기',
       link: '/diagnosis/industrial-accident1',
     },
     internalLinks: [
       { label: '산재보상 가이드', href: '/guide/industrial-accident1' },
-      { label: '산재 휴업급여 신청 조건과 금액', href: '/spoke/industrial-accident1/workers-comp-leave-benefit' },
-      { label: '산재 장해등급 판정 절차', href: '/spoke/industrial-accident1/disability-benefit-grade-process' },
-      { label: '산재보험 청구 절차 총정리', href: '/spoke/industrial-accident1/workers-comp-claim-process' },
-      { label: '산재 불승인 후 재신청 방법', href: '/spoke/industrial-accident1/reapply-after-rejection' },
+      { label: '산재 휴업급여 신청 조건과 금액', href: '/guide/industrial-accident1/workers-comp-leave-benefit' },
+      { label: '산재 장해등급 판정 절차', href: '/guide/industrial-accident1/disability-benefit-grade-process' },
+      { label: '산재보험 청구 절차 총정리', href: '/guide/industrial-accident1/workers-comp-claim-process' },
+      { label: '산재 불승인 후 재신청 방법', href: '/guide/industrial-accident1/reapply-after-rejection' },
     ],
   },
 
@@ -488,7 +488,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '주요 위반유형별 과태료 금액',
         content:
-          '<p><strong style="color:#1e3a5f">산업안전보건법 시행령 별표 35에 위반유형별 과태료 금액이 상세히 규정되어 있습니다</strong></p>\n<ul>\n<li><strong>안전보건교육 미실시</strong> — 1회 위반 시 과태료 50만 원, 2회 100만 원, 3회 이상 150만 원. 채용 시 교육, 작업내용 변경 시 교육, 특별교육 등 종류별로 각각 부과됩니다</li>\n<li><strong>작업환경측정 미실시</strong> — 1회 위반 시 과태료 300만 원, 2회 600만 원, 3회 이상 1,000만 원</li>\n<li><strong>건강검진(특수건강검진) 미실시</strong> — 1회 위반 시 과태료 300만 원, 2회 600만 원, 3회 이상 1,000만 원</li>\n<li><strong>위험성평가 미실시</strong> — 1회 위반 시 과태료 300만 원, 2회 600만 원, 3회 이상 1,000만 원</li>\n<li><strong>산업재해 발생 미보고·허위 보고</strong> — 1회 위반 시 과태료 1,500만 원. 사망사고 미보고는 형사 처벌 대상이 될 수 있습니다</li>\n<li><strong>안전보건관리체계 미구축</strong> — 안전보건관리책임자, 관리감독자, 안전관리자 미선임 시 과태료 500만 원</li>\n<li><strong>물질안전보건자료(MSDS) 미비치</strong> — 1회 위반 시 과태료 300만 원</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">혐의를 받고 있다면 즉시 확인하세요</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">안전보건 위반 과태료 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">산업안전보건법 시행령 별표 35에 위반유형별 과태료 금액이 상세히 규정되어 있습니다</strong></p>\n<ul>\n<li><strong>안전보건교육 미실시</strong> — 1회 위반 시 과태료 50만 원, 2회 100만 원, 3회 이상 150만 원. 채용 시 교육, 작업내용 변경 시 교육, 특별교육 등 종류별로 각각 부과됩니다</li>\n<li><strong>작업환경측정 미실시</strong> — 1회 위반 시 과태료 300만 원, 2회 600만 원, 3회 이상 1,000만 원</li>\n<li><strong>건강검진(특수건강검진) 미실시</strong> — 1회 위반 시 과태료 300만 원, 2회 600만 원, 3회 이상 1,000만 원</li>\n<li><strong>위험성평가 미실시</strong> — 1회 위반 시 과태료 300만 원, 2회 600만 원, 3회 이상 1,000만 원</li>\n<li><strong>산업재해 발생 미보고·허위 보고</strong> — 1회 위반 시 과태료 1,500만 원. 사망사고 미보고는 형사 처벌 대상이 될 수 있습니다</li>\n<li><strong>안전보건관리체계 미구축</strong> — 안전보건관리책임자, 관리감독자, 안전관리자 미선임 시 과태료 500만 원</li>\n<li><strong>물질안전보건자료(MSDS) 미비치</strong> — 1회 위반 시 과태료 300만 원</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">혐의를 받고 있다면 즉시 확인하세요</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">안전보건 위반 과태료 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '중대재해처벌법상 가중 처벌 기준',
@@ -538,15 +538,15 @@ export const spokesBatch22_1to7: SpokePage[] = [
       },
     ],
     cta: {
-      text: '안전보건 위반 과태료 무료 상담받기',
+      text: '안전보건 위반 과태료 상담받기',
       link: '/diagnosis/industrial-accident2',
     },
     internalLinks: [
       { label: '산업안전(사업주) 가이드', href: '/guide/industrial-accident2' },
-      { label: '사업주 산재 신고 의무와 절차', href: '/spoke/industrial-accident2/employer-report-obligation-process' },
-      { label: '중대재해 발생 시 사업주 대응법', href: '/spoke/industrial-accident2/serious-accident-employer-response' },
-      { label: '하도급 산재 원청 책임 범위', href: '/spoke/industrial-accident2/subcontractor-accident-main-employer-duty' },
-      { label: '사업주가 놓치기 쉬운 안전의무', href: '/spoke/industrial-accident2/commonly-missed-safety-obligations' },
+      { label: '사업주 산재 신고 의무와 절차', href: '/guide/industrial-accident2/employer-report-obligation-process' },
+      { label: '중대재해 발생 시 사업주 대응법', href: '/guide/industrial-accident2/serious-accident-employer-response' },
+      { label: '하도급 산재 원청 책임 범위', href: '/guide/industrial-accident2/subcontractor-accident-main-employer-duty' },
+      { label: '사업주가 놓치기 쉬운 안전의무', href: '/guide/industrial-accident2/commonly-missed-safety-obligations' },
     ],
   },
 
@@ -577,7 +577,7 @@ export const spokesBatch22_1to7: SpokePage[] = [
       {
         title: '미이행 시 제재와 벌금',
         content:
-          '<p><strong style="color:#1e3a5f">위험성평가를 실시하지 않으면 과태료가 부과되고, 사고 발생 시 형사 처벌이 크게 가중됩니다</strong></p>\n<ul>\n<li><strong>과태료</strong> — 위험성평가 미실시 시 1차 300만 원, 2차 600만 원, 3차 1,000만 원의 과태료가 부과됩니다</li>\n<li><strong>안전조치 의무 위반</strong> — 위험성평가 미실시 자체가 산업안전보건법 제38조(안전조치) 및 제39조(보건조치) 위반의 근거가 됩니다. 위반 시 5년 이하의 징역 또는 5천만 원 이하의 벌금입니다</li>\n<li><strong>사고 발생 시 가중</strong> — 위험성평가를 하지 않은 상태에서 산업재해가 발생하면, 사업주가 안전의무를 다하지 않았다는 강력한 증거가 됩니다. 형사 처벌 양형에서 불리하게 작용합니다</li>\n<li><strong>중대재해처벌법 적용</strong> — 위험성평가 미이행은 안전보건관리체계 미구축의 핵심 증거입니다. 사망사고 발생 시 경영책임자에게 1년 이상 징역 또는 10억 원 이하 벌금이 부과될 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">혐의를 받고 있다면 즉시 확인하세요</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">위험성평가 의무 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">위험성평가를 실시하지 않으면 과태료가 부과되고, 사고 발생 시 형사 처벌이 크게 가중됩니다</strong></p>\n<ul>\n<li><strong>과태료</strong> — 위험성평가 미실시 시 1차 300만 원, 2차 600만 원, 3차 1,000만 원의 과태료가 부과됩니다</li>\n<li><strong>안전조치 의무 위반</strong> — 위험성평가 미실시 자체가 산업안전보건법 제38조(안전조치) 및 제39조(보건조치) 위반의 근거가 됩니다. 위반 시 5년 이하의 징역 또는 5천만 원 이하의 벌금입니다</li>\n<li><strong>사고 발생 시 가중</strong> — 위험성평가를 하지 않은 상태에서 산업재해가 발생하면, 사업주가 안전의무를 다하지 않았다는 강력한 증거가 됩니다. 형사 처벌 양형에서 불리하게 작용합니다</li>\n<li><strong>중대재해처벌법 적용</strong> — 위험성평가 미이행은 안전보건관리체계 미구축의 핵심 증거입니다. 사망사고 발생 시 경영책임자에게 1년 이상 징역 또는 10억 원 이하 벌금이 부과될 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">혐의를 받고 있다면 즉시 확인하세요</strong><br/>\n<a href="/diagnosis/industrial-accident2" style="color:#1565c0;font-weight:600">위험성평가 의무 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '올바른 위험성평가 실시 방법',
@@ -627,15 +627,15 @@ export const spokesBatch22_1to7: SpokePage[] = [
       },
     ],
     cta: {
-      text: '위험성평가 의무 무료 상담받기',
+      text: '위험성평가 의무 상담받기',
       link: '/diagnosis/industrial-accident2',
     },
     internalLinks: [
       { label: '산업안전(사업주) 가이드', href: '/guide/industrial-accident2' },
-      { label: '사업주 산재 신고 의무와 절차', href: '/spoke/industrial-accident2/employer-report-obligation-process' },
-      { label: '중대재해 발생 시 사업주 대응법', href: '/spoke/industrial-accident2/serious-accident-employer-response' },
-      { label: '안전보건 위반 과태료·벌금 기준', href: '/spoke/industrial-accident2/workplace-safety-violation-penalty' },
-      { label: '사업주가 놓치기 쉬운 안전의무', href: '/spoke/industrial-accident2/commonly-missed-safety-obligations' },
+      { label: '사업주 산재 신고 의무와 절차', href: '/guide/industrial-accident2/employer-report-obligation-process' },
+      { label: '중대재해 발생 시 사업주 대응법', href: '/guide/industrial-accident2/serious-accident-employer-response' },
+      { label: '안전보건 위반 과태료·벌금 기준', href: '/guide/industrial-accident2/workplace-safety-violation-penalty' },
+      { label: '사업주가 놓치기 쉬운 안전의무', href: '/guide/industrial-accident2/commonly-missed-safety-obligations' },
     ],
   },
 ];

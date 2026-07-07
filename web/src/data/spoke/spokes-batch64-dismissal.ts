@@ -414,7 +414,6 @@ export const spokesBatch64Dismissal: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제신청서 작성 방법 양식', href: '/guide/dismissal/unfair-dismissal-relief-application-form' },
       { label: '의료휴직 복귀 거부', href: '/guide/dismissal/dismissal-medical-leave-return-deployment-refused-track' },
-      { label: '산재 요양 후 복직 거부', href: '/guide/dismissal/dismissal-workers-comp-return-fail-track' },
       { label: '부당해고 증거 수집 방법', href: '/guide/dismissal/dismissal-unfair-evidence-collection' },
       { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
     ],

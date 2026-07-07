@@ -740,7 +740,6 @@ export const spokesBatch97AssaultDuiJeonseFraud: SpokePage[] = [
       { label: '전세사기 도메인 허브', href: '/guide/jeonse-fraud' },
       { label: '법인 임차 직원 거주 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-corporate-tenant-opposing-power-track' },
       { label: '법인 임대인 파산 전세사기', href: '/guide/jeonse-fraud/jeonse-fraud-corporate-landlord-bankruptcy-track' },
-      { label: '가짜 임대인 위임장 전세사기 보증금', href: '/guide/jeonse-fraud/jeonse-fraud-fake-landlord-mandate-track' },
       { label: '전세사기 다수 피해자 공동 대응 방법', href: '/guide/jeonse-fraud/jeonse-fraud-multiple-victim-joint' },
     ],
   },

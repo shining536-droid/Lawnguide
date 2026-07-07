@@ -670,7 +670,6 @@ export const spokesBatch53JeonseStalkingAssaultCS: SpokePage[] = [
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육비 산정기준표 적용', href: '/guide/child-support/child-support-calculation-table' },
-      { label: '양육비 감액 증액 수입 변동', href: '/guide/child-support/child-support-modification-employer-income-change' },
       { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
       { label: '양육비 직접지급명령 신청', href: '/guide/child-support/child-support-direct-payment-order-procedure' },
       { label: '양육비이행관리원 추심 한계', href: '/guide/child-support/child-support-agency-collection-limits' },

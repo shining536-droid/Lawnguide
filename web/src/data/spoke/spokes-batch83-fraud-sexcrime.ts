@@ -506,7 +506,6 @@ export const spokesBatch83FraudSexCrime: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
-      { label: '대포통장 명의대여 방조 무고 방어', href: '/guide/fraud/fraud-account-name-lending-unwitting-falsely-accused-defense' },
       { label: '투자금 회수 지연 사기 고의 무고 방어', href: '/guide/fraud/fraud-investment-return-delay-intent-falsely-accused-defense' },
       { label: '허위 매물 부동산 사기 대응 형사고소', href: '/guide/fraud/fraud-rental-fake-listing-response' },
       { label: '지인 투자금 원금보장 약속 사기 무고', href: '/guide/fraud/fraud-acquaintance-principal-guarantee-falsely-accused-defense' },

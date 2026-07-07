@@ -879,7 +879,6 @@ export const spokesBatch44Labor: SpokePage[] = [
       link: '/chat?domain=unemployment',
     },
     internalLinks: [
-      { label: '근로시간 감소 자진퇴사', href: '/guide/unemployment/unemployment-working-hours-reduction-voluntary' },
       { label: '자발적 퇴사 실업급여 예외 사유 총정리', href: '/guide/unemployment/unemployment-voluntary-quit-exception-comprehensive' },
       { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '이직확인서 오기 정정 이의신청', href: '/guide/unemployment/unemployment-separation-confirmation-dispute' },
@@ -967,7 +966,6 @@ export const spokesBatch44Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
-      { label: '도급 실제사용자 퇴직금', href: '/guide/retirement/retirement-outsourcing-true-employer-liability' },
       { label: '퇴직금 청구 소멸시효 3년', href: '/guide/retirement/retirement-claim-statute-limitation-track' },
       { label: '일용직 계속근로 퇴직금', href: '/guide/retirement/retirement-daily-worker-continuity-track' },
       { label: '퇴직금 청구 방법 비교 노동청 법원', href: '/guide/retirement/retirement-claim-channel-comparison' },
@@ -1055,7 +1053,6 @@ export const spokesBatch44Labor: SpokePage[] = [
     internalLinks: [
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '퇴직금 IRP 이전 일시금 연금 세제', href: '/guide/retirement/retirement-deferred-pension-irp-rollover-tax-track' },
-      { label: 'DC형 퇴직연금 일시금 연금 세금', href: '/guide/retirement/retirement-dc-pension-payout-choice-tax' },
       { label: '퇴직금 중간정산 후 재정산', href: '/guide/retirement/retirement-interim-settlement-redo-conditions' },
       { label: '미사용 연차수당 퇴직금 포함', href: '/guide/retirement/retirement-annual-leave-payout-included' },
     ],

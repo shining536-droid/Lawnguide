@@ -271,7 +271,6 @@ export const spokesBatch43Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '해고근로자 종합 가이드', href: '/guide/dismissal' },
-      { label: '공익신고자 신분보장 제도', href: '/guide/dismissal/dismissal-whistleblower-retaliation-protection' },
       { label: '부당해고 구제신청 절차', href: '/guide/dismissal/dismissal-relief-procedure-comprehensive' },
       { label: '금전보상명령 신청', href: '/guide/dismissal/dismissal-unfair-monetary-compensation' },
       { label: '구두 통보 서면통지 누락 해고 효력 판단', href: '/guide/dismissal/dismissal-verbal-notice-written-procedure-omission-track' },

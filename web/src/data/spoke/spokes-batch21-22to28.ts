@@ -93,10 +93,10 @@ export const spokesBatch21_22to28: SpokePage[] = [
     },
     internalLinks: [
       { label: '개인회생 가이드', href: '/guide/rehabilitation' },
-      { label: '개인회생 자격요건 FAQ', href: '/spoke/rehabilitation/rehabilitation-eligibility-requirements-faq' },
-      { label: '개인회생 신청 절차 A to Z', href: '/spoke/rehabilitation/rehabilitation-application-procedure-atoz' },
-      { label: '개인회생 변제금 계산법', href: '/spoke/rehabilitation/rehabilitation-payment-calculation' },
-      { label: '개인회생 기각 사유와 예방법', href: '/spoke/rehabilitation/rehabilitation-rejection-reasons-prevention' },
+      { label: '개인회생 자격요건 FAQ', href: '/guide/rehabilitation/rehabilitation-eligibility-requirements-faq' },
+      { label: '개인회생 신청 절차 A to Z', href: '/guide/rehabilitation/rehabilitation-application-procedure-atoz' },
+      { label: '개인회생 변제금 계산법', href: '/guide/rehabilitation/rehabilitation-payment-calculation' },
+      { label: '개인회생 기각 사유와 예방법', href: '/guide/rehabilitation/rehabilitation-rejection-reasons-prevention' },
     ],
   },
 

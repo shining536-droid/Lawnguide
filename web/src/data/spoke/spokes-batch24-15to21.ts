@@ -205,7 +205,7 @@ export const spokesBatch24_15to21: SpokePage[] = [
       {
         title: '미지급 시 법적 대응 절차',
         content:
-          '<p><strong style="color:#1e3a5f">「근로기준법」 제36조에 따라 사용자는 퇴직일로부터 14일 이내에 퇴직금을 지급해야 합니다. 미지급 시 지연이자(연 20%)가 가산됩니다</strong></p>\n<ul>\n<li><strong>1단계: 내용증명 발송</strong> — 회사에 퇴직금 지급을 요청하는 내용증명을 보내세요. 퇴직일, 근속 기간, 청구 금액을 명시합니다. 내용증명 자체가 법적 효력은 없지만, 이후 진정·소송에서 "지급을 요청했다"는 증거가 됩니다</li>\n<li><strong>2단계: 노동청 진정 제기</strong> — 관할 지방고용노동청에 임금체불 진정서를 제출합니다. 근로계약서, 급여명세서, 퇴직금 미지급 증빙(퇴직 후 통장 내역)을 첨부하세요. 근로감독관이 사실 조사 후 시정 명령을 내립니다</li>\n<li><strong>3단계: 체당금 제도 활용</strong> — 회사가 도산·폐업한 경우 「임금채권보장법」에 따라 고용노동부에서 퇴직금을 대신 지급(체당금)합니다. 퇴직일 기준 최종 3년분의 퇴직금, 최종 3개월분의 임금, 최종 3년분의 휴업수당이 대상입니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 퇴직금 계산과 미지급 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">「근로기준법」 제36조에 따라 사용자는 퇴직일로부터 14일 이내에 퇴직금을 지급해야 합니다. 미지급 시 지연이자(연 20%)가 가산됩니다</strong></p>\n<ul>\n<li><strong>1단계: 내용증명 발송</strong> — 회사에 퇴직금 지급을 요청하는 내용증명을 보내세요. 퇴직일, 근속 기간, 청구 금액을 명시합니다. 내용증명 자체가 법적 효력은 없지만, 이후 진정·소송에서 "지급을 요청했다"는 증거가 됩니다</li>\n<li><strong>2단계: 노동청 진정 제기</strong> — 관할 지방고용노동청에 임금체불 진정서를 제출합니다. 근로계약서, 급여명세서, 퇴직금 미지급 증빙(퇴직 후 통장 내역)을 첨부하세요. 근로감독관이 사실 조사 후 시정 명령을 내립니다</li>\n<li><strong>3단계: 대지급금 제도 활용</strong> — 회사가 도산·폐업한 경우 「임금채권보장법」에 따라 고용노동부에서 퇴직금을 대신 지급(대지급금)합니다. 퇴직일 기준 최종 3년분의 퇴직금, 최종 3개월분의 임금, 최종 3년분의 휴업수당이 대상입니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 퇴직금 계산과 미지급 대응 전략을 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '퇴직금 소멸시효와 지연이자',
@@ -241,7 +241,7 @@ export const spokesBatch24_15to21: SpokePage[] = [
       {
         question: '회사가 폐업했는데 퇴직금을 받을 수 있나요?',
         answer:
-          '<strong>체당금 제도를 활용하세요.</strong> 회사가 도산하거나 폐업한 경우 「임금채권보장법」에 따라 고용노동부에서 최종 3년분의 퇴직금을 대신 지급합니다. 관할 고용센터에 체당금 지급 청구서를 제출하면 됩니다.',
+          '<strong>대지급금 제도를 활용하세요.</strong> 회사가 도산하거나 폐업한 경우 「임금채권보장법」에 따라 고용노동부에서 최종 3년분의 퇴직금을 대신 지급합니다. 관할 고용센터에 대지급금 지급 청구서를 제출하면 됩니다.',
       },
       {
         question: '퇴직금 계산이 맞는지 어떻게 확인하나요?',

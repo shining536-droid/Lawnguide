@@ -173,7 +173,6 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       { label: '파산 면책 보유 가능 재산', href: '/guide/bankruptcy/bankruptcy-personal-property-exempt' },
       { label: '개인파산 신청 시 필요한 서류 전체 목록', href: '/guide/bankruptcy/application-required-documents-full-list' },
       { label: '개인파산 vs 개인회생 어떤 게 나에게 맞나', href: '/guide/bankruptcy/bankruptcy-vs-rehabilitation-comparison' },
-      { label: '소액 자산 개인파산', href: '/guide/bankruptcy/bankruptcy-small-asset-procedure' },
     ],
   },
 
@@ -1039,7 +1038,6 @@ export const spokesBatch39Nonlabor2: SpokePage[] = [
       link: '/chat?domain=jeonse',
     },
     internalLinks: [
-      { label: '전세 월세 전환 계산', href: '/guide/jeonse/jeonse-monthly-conversion-calculation' },
       { label: '전세 갱신 거절 대응', href: '/guide/jeonse/jeonse-renewal-landlord-refusal' },
       { label: '임대료 5% 상한', href: '/guide/jeonse/jeonse-reverse-gap-tenant-response' },
       { label: '전세 특약사항 체크리스트', href: '/guide/jeonse/jeonse-contract-special-agreement-checklist' },

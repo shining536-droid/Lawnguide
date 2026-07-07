@@ -171,7 +171,6 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     internalLinks: [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '폭행 종합 가이드', href: '/guide/assault' },
-      { label: '의료진 폭행 응급실', href: '/guide/assault/assault-medical-staff-patient-hospital-track' },
       { label: '직장 회식 말다툼 쌍방폭행 무고 방어', href: '/guide/assault/assault-workplace-dinner-argument-mutual-falsely-accused-defense' },
       { label: '장애인 폭행 가중처벌', href: '/guide/assault/assault-disabled-victim-aggravated-track' },
     ],
@@ -253,7 +252,6 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
-      { label: '공무집행 중 공무원 폭행', href: '/guide/assault/assault-public-official-on-duty-resistance-track' },
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '과장된 상해 주장 무고 대응법', href: '/guide/assault/assault-exaggerated-injury-claim' },
       { label: '요양보호사 환자 보호자 폭행 피해', href: '/guide/assault/assault-elder-care-worker-patient-attacker-victim-track' },
@@ -420,7 +418,6 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     internalLinks: [
       { label: '양육비 계산', href: '/guide/child-support/child-support-calculation-table' },
       { label: '미지급 양육비 일시 청산 신용 회복', href: '/guide/child-support/child-support-arrears-lump-sum-payment-credit-restoration-track' },
-      { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
       { label: '양육비 외국 거주 헤이그 협약 청구', href: '/guide/child-support/child-support-hague-convention-overseas-cross-border-claim' },
       { label: '양육비 강제집행 방법과 절차', href: '/guide/child-support/child-support-enforcement-method' },
     ],
@@ -502,7 +499,6 @@ export const spokesBatch66AssaultCsDui: SpokePage[] = [
     cta: { text: '음주운전 행정심판 준비서류, AI로 체크하기', link: '/chat?domain=dui' },
     internalLinks: [
       { label: '음주운전 행정심판 준비서류와 절차', href: '/guide/dui/dui-administrative-appeal-required-docs' },
-      { label: '음주운전 동승자 방조죄', href: '/guide/dui/dui-passenger-acknowledge-aiding-abetting-track' },
       { label: '음주운전 종합 가이드', href: '/guide/dui' },
       { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },
       { label: '음주운전 적발 후 형사 절차 총정리', href: '/guide/dui/dui-criminal-procedure-overview' },

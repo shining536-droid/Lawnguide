@@ -420,7 +420,6 @@ export const spokesBatch65DefameJeonseStalking: SpokePage[] = [
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '임대인 사망 후견 보증금 반환', href: '/guide/jeonse/jeonse-landlord-death-incapacity-deposit-return-procedure-track' },
-      { label: '임대인 국세 체납 보증금 우선순위', href: '/guide/jeonse/jeonse-landlord-tax-arrears-priority-loss-track' },
       { label: '소액임차인 우선변제 지역별 한도', href: '/guide/jeonse/jeonse-small-amount-tenant-priority-payment-region-cap-track' },
       { label: '전세 경매 우선변제 배당요구', href: '/guide/jeonse/jeonse-auction-priority-distribution-procedure' },
       { label: '전세사기 피해자 인정 신청 전 준비 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },

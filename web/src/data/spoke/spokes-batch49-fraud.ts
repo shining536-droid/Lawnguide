@@ -85,7 +85,6 @@ export const spokesBatch49Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '보이스피싱 100만원 이상 환급', href: '/guide/fraud/fraud-voice-phishing-100m-plus-recovery' },
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '보이스피싱 피해 발생 시 즉시 대응법', href: '/guide/fraud/voice-phishing-immediate-response' },
       { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
@@ -252,7 +251,6 @@ export const spokesBatch49Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
-      { label: '학원 수강료 환불 거부 분쟁조정', href: '/guide/fraud/fraud-academy-tuition-refund-refusal-dispute' },
       { label: '개인 과외 선결제 수업 미실시', href: '/guide/fraud/fraud-private-tutor-pre-payment-lessons-no-show-track' },
       { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
       { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },

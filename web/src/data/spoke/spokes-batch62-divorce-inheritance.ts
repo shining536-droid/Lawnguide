@@ -241,7 +241,6 @@ export const spokesBatch62DivorceInheritance: SpokePage[] = [
     cta: { text: '재산분할·양육비 쟁점, AI로 먼저 점검하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
-      { label: '양육권 단독 공동', href: '/guide/divorce/divorce-custody-sole-vs-joint-track' },
       { label: '아버지 양육권 확보 절차 가이드', href: '/guide/divorce/divorce-child-custody-father-strategy' },
       { label: '반려동물 면접교섭 합의', href: '/guide/divorce/divorce-pet-visitation-agreement-template' },
       { label: '양육권 친권 다툼', href: '/guide/divorce/divorce-child-custody-parental-track' },
@@ -552,7 +551,6 @@ export const spokesBatch62DivorceInheritance: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '디지털 자산 가상화폐 상속', href: '/guide/inheritance/inheritance-digital-asset-crypto-account-track' },
       { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '비상장주식 상속 평가 방법', href: '/guide/inheritance/inheritance-business-share-evaluation' },
       { label: '한정승인 후 채권자 대응', href: '/guide/inheritance/inheritance-limited-acceptance-creditor-response' },

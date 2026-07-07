@@ -216,7 +216,7 @@ export const spokesBatch68WageUnempRetire: SpokePage[] = [
     ],
     cases: [
       {
-        title: '판례 — 이직사유 분쟁과 직권 평가',
+        title: '재결례 — 이직사유 분쟁과 직권 평가',
         summary:
           '고용보험심사위원회 2022재결 제139호(고용보험심사위원회, 2022.10.13 선고) 영역에서 위원회는 고용보험 피보험자가 부지급처분 취소를 청구한 사안에서 사업주가 이직확인서에 기재한 사유와 실제 이직 정황이 다른 경우 직권 조사를 통해 이직사유를 평가할 여지가 있다고 본 사례 흐름이 있습니다.',
         takeaway: '회사 이직확인서 코드와 무관하게 정황 자료로 비자발 이직 평가 가능. 직권 조사·이의신청 트랙 가능 영역.',
@@ -251,7 +251,6 @@ export const spokesBatch68WageUnempRetire: SpokePage[] = [
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
-      { label: '이직사유 코드 정정 거부 회사 강제', href: '/guide/unemployment/unemployment-separation-code-employer-refuse-correction-track' },
       { label: '권고사직 입증', href: '/guide/unemployment/unemployment-recommended-resign-proof-method' },
       { label: '권고사직 vs 자진퇴사', href: '/guide/unemployment/unemployment-recommendation-vs-resignation-boundary' },
       { label: '실업급여 종합 가이드', href: '/guide/unemployment' },

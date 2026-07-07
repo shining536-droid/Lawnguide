@@ -505,7 +505,6 @@ export const spokesBatch84Labor: SpokePage[] = [
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
-      { label: '직장내괴롭힘 자진퇴사 수급', href: '/guide/unemployment/unemployment-harassment-voluntary-resignation-track' },
       { label: '직장내 괴롭힘 사직 구직급여 정당한 사유 절차', href: '/guide/unemployment/unemployment-workplace-harassment-resignation-eligibility-track' },
       { label: '실업급여 거절 사유 5가지', href: '/guide/unemployment/benefit-application-rejection-5-reasons' },
       { label: '이직사유 코드 정정 거부 회사 강제', href: '/guide/unemployment/unemployment-separation-code-employer-refuse-correction-track' },
@@ -588,7 +587,6 @@ export const spokesBatch84Labor: SpokePage[] = [
     ],
     cta: { text: '실업급여 신청 순서, AI로 먼저 정리하기', link: '/chat?domain=unemployment' },
     internalLinks: [
-      { label: '질병 퇴사 수급자격', href: '/guide/unemployment/unemployment-illness-injury-separation-track' },
       { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '계약직 만료 실업급여 신청 순서 5단계', href: '/guide/unemployment/contract-expiry-benefit-application-order' },
       { label: '이직사유 자진퇴사 정정', href: '/guide/unemployment/unemployment-separation-code-recommendation-to-voluntary-correction' },

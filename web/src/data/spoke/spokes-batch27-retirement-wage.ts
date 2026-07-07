@@ -7,43 +7,43 @@ import { SpokePage } from '../spoke-pages';
 export const spokesBatch27RetirementWage: SpokePage[] = [
   // ══════════ 퇴직금 5개 ══════════
 
-  // ── 1. 회사 도산 시 퇴직금 체당금 ──
+  // ── 1. 회사 도산 시 퇴직금 대지급금 ──
   {
     domain: 'retirement',
     slug: 'retirement-company-bankrupt-deposit',
-    keyword: '회사 도산 퇴직금 체당금 신청',
+    keyword: '회사 도산 퇴직금 대지급금 신청',
     questionKeyword: '회사가 부도났는데 퇴직금은 어떻게 받나요?',
-    ctaKeyword: '회사 도산 퇴직금 체당금 상담',
+    ctaKeyword: '회사 도산 퇴직금 대지급금 상담',
     type: '절차형',
     perspective: 'victim',
     meta: {
-      title: '회사 부도·도산 시 퇴직금 체당금 신청 4단계 | 로앤가이드',
-      description: '회사가 부도나도 근로복지공단 체당금으로 퇴직금을 받을 수 있습니다. 신청 절차 4단계를 지금 확인하세요.',
+      title: '회사 부도·도산 시 퇴직금 대지급금 신청 4단계 | 로앤가이드',
+      description: '회사가 부도나도 근로복지공단 대지급금으로 퇴직금을 받을 수 있습니다. 신청 절차 4단계를 지금 확인하세요.',
     },
-    intro: '<p>갑자기 회사가 부도 처리됐습니다. 밀린 월급도 있고 퇴직금도 못 받았는데, 사장님은 연락이 안 됩니다. 이런 경우 근로복지공단의 체당금 제도를 활용하면 밀린 임금과 퇴직금을 대신 지급받을 수 있습니다.</p>',
-    timelineSteps: ['1단계: 도산등사실인정 신청', '2단계: 체당금 지급 청구', '3단계: 근로복지공단 심사', '4단계: 체당금 수령'],
+    intro: '<p>갑자기 회사가 부도 처리됐습니다. 밀린 월급도 있고 퇴직금도 못 받았는데, 사장님은 연락이 안 됩니다. 이런 경우 근로복지공단의 대지급금 제도를 활용하면 밀린 임금과 퇴직금을 대신 지급받을 수 있습니다.</p>',
+    timelineSteps: ['1단계: 도산등사실인정 신청', '2단계: 대지급금 지급 청구', '3단계: 근로복지공단 심사', '4단계: 대지급금 수령'],
     sections: [
       {
-        title: '체당금이란?',
-        content: '<p><strong style="color:#1e3a5f">사업주가 파산·도산하여 임금을 지급할 능력이 없을 때, 근로복지공단이 대신 지급하는 제도입니다.</strong></p>\n<ul>\n<li><strong>일반체당금</strong> — 파산·회생이 확인된 경우: 최종 3개월분 임금 + 최종 3년분 퇴직금 + 최종 3개월분 휴업수당</li>\n<li><strong>간이대지급금</strong> — 소규모 사업장(도산등사실인정): 최대 1,000만원 한도</li>\n<li><strong>상한액</strong> — 나이에 따라 상한액이 다릅니다(30세 미만 220만원/월, 30~39세 310만원/월, 40세 이상 350만원/월)</li>\n</ul>',
+        title: '대지급금이란?',
+        content: '<p><strong style="color:#1e3a5f">사업주가 파산·도산하여 임금을 지급할 능력이 없을 때, 근로복지공단이 대신 지급하는 제도입니다.</strong></p>\n<ul>\n<li><strong>도산대지급금</strong> — 파산·회생이 확인된 경우: 최종 3개월분 임금 + 최종 3년분 퇴직금 + 최종 3개월분 휴업수당</li>\n<li><strong>간이대지급금</strong> — 소규모 사업장(도산등사실인정): 최대 1,000만원 한도</li>\n<li><strong>상한액</strong> — 나이에 따라 상한액이 다릅니다(30세 미만 220만원/월, 30~39세 310만원/월, 40세 이상 350만원/월)</li>\n</ul>',
       },
       {
         title: '신청 절차 4단계',
-        content: '<p><strong style="color:#1e3a5f">체당금 신청은 도산 확인 → 청구 → 심사 → 수령 순서입니다.</strong></p>\n<ol>\n<li><strong>도산등사실인정 신청</strong> — 사업주가 사실상 도산한 경우, 관할 지방고용노동청에 도산등사실인정을 신청합니다.</li>\n<li><strong>체당금 지급 청구</strong> — 인정서를 받으면 근로복지공단에 체당금을 청구합니다.</li>\n<li><strong>심사·확인</strong> — 공단이 임금대장, 근로계약서 등을 확인합니다.</li>\n<li><strong>지급</strong> — 심사 완료 후 계좌로 입금됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>체당금 신청 자격과 예상 금액, AI가 계산합니다</strong></p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+        content: '<p><strong style="color:#1e3a5f">대지급금 신청은 도산 확인 → 청구 → 심사 → 수령 순서입니다.</strong></p>\n<ol>\n<li><strong>도산등사실인정 신청</strong> — 사업주가 사실상 도산한 경우, 관할 지방고용노동청에 도산등사실인정을 신청합니다.</li>\n<li><strong>대지급금 지급 청구</strong> — 인정서를 받으면 근로복지공단에 대지급금을 청구합니다.</li>\n<li><strong>심사·확인</strong> — 공단이 임금대장, 근로계약서 등을 확인합니다.</li>\n<li><strong>지급</strong> — 심사 완료 후 계좌로 입금됩니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>대지급금 신청 자격과 예상 금액, AI가 계산합니다</strong></p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '필요 서류와 주의사항',
-        content: '<p><strong style="color:#1e3a5f">체당금 청구 시 필요한 서류를 미리 준비하세요.</strong></p>\n<ul>\n<li>근로계약서, 급여명세서, 통장 입금내역</li>\n<li>퇴직금 미지급 확인 자료</li>\n<li>도산등사실인정서 또는 법원 파산선고 결정문</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 체당금 청구 기한은 도산등사실인정일로부터 2년입니다. 기한을 넘기면 청구할 수 없습니다.</blockquote>',
+        content: '<p><strong style="color:#1e3a5f">대지급금 청구 시 필요한 서류를 미리 준비하세요.</strong></p>\n<ul>\n<li>근로계약서, 급여명세서, 통장 입금내역</li>\n<li>퇴직금 미지급 확인 자료</li>\n<li>도산등사실인정서 또는 법원 파산선고 결정문</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 대지급금 청구 기한은 도산등사실인정일로부터 2년입니다. 기한을 넘기면 청구할 수 없습니다.</blockquote>',
       },
     ],
-    cases: [{ title: '판례 — 퇴직금은 후불임금', summary: '대법원 판례에 따르면 퇴직금은 후불적 임금으로서 근로관계가 종료되는 때에 비로소 지급의무가 발생합니다. 회사가 도산하더라도 퇴직금 청구권은 소멸하지 않으며, 체당금 또는 사업주 개인에 대한 청구가 가능합니다.', takeaway: '비슷한 상황이라면 회사가 도산해도 포기하지 마세요. 체당금 제도를 통해 퇴직금을 받을 수 있습니다.' }],
+    cases: [{ title: '판례 — 퇴직금은 후불임금', summary: '대법원 판례에 따르면 퇴직금은 후불적 임금으로서 근로관계가 종료되는 때에 비로소 지급의무가 발생합니다. 회사가 도산하더라도 퇴직금 청구권은 소멸하지 않으며, 대지급금 또는 사업주 개인에 대한 청구가 가능합니다.', takeaway: '비슷한 상황이라면 회사가 도산해도 포기하지 마세요. 대지급금 제도를 통해 퇴직금을 받을 수 있습니다.' }],
     faq: [
       { question: '사장님 개인에게도 청구할 수 있나요?', answer: '<p>법인이 아닌 개인사업자라면 사업주 개인 재산에 대해 청구할 수 있습니다. 법인이라도 대표이사에게 개인적 책임을 물을 수 있는 경우가 있습니다.</p>' },
-      { question: '체당금으로 밀린 월급도 받을 수 있나요?', answer: '<p>네, 최종 3개월분 임금과 최종 3년분 퇴직금, 최종 3개월분 휴업수당이 체당금 대상입니다.</p>' },
-      { question: '체당금 상한액은 얼마인가요?', answer: '<p>나이에 따라 다릅니다. 40세 이상은 월 350만원, 30~39세는 월 310만원, 30세 미만은 월 220만원이 상한입니다.</p>' },
-      { question: '사업자등록 폐업만 한 경우에도 체당금을 받을 수 있나요?', answer: '<p>도산등사실인정을 받으면 가능합니다. 관할 지방고용노동청에 사실상 도산 여부 인정을 신청하세요.</p>' },
+      { question: '대지급금으로 밀린 월급도 받을 수 있나요?', answer: '<p>네, 최종 3개월분 임금과 최종 3년분 퇴직금, 최종 3개월분 휴업수당이 대지급금 대상입니다.</p>' },
+      { question: '대지급금 상한액은 얼마인가요?', answer: '<p>나이에 따라 다릅니다. 40세 이상은 월 350만원, 30~39세는 월 310만원, 30세 미만은 월 220만원이 상한입니다.</p>' },
+      { question: '사업자등록 폐업만 한 경우에도 대지급금을 받을 수 있나요?', answer: '<p>도산등사실인정을 받으면 가능합니다. 관할 지방고용노동청에 사실상 도산 여부 인정을 신청하세요.</p>' },
     ],
-    cta: { text: '회사 도산 시 체당금 신청 절차 AI로 확인하기', link: '/chat?domain=retirement' },
+    cta: { text: '회사 도산 시 대지급금 신청 절차 AI로 확인하기', link: '/chat?domain=retirement' },
     internalLinks: [{ label: '홈', href: '/' }, { label: '퇴직금 가이드', href: '/guide/retirement' }, { label: '퇴직금 미지급 신고', href: '/guide/retirement/retirement-pay-complaint' }, { label: '임금체불 사업주 도산', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' }, { label: '퇴직금 계산법', href: '/guide/retirement/retirement-pay-calculation' }],
   },
 
@@ -355,7 +355,7 @@ export const spokesBatch27RetirementWage: SpokePage[] = [
       },
       {
         title: '형사처벌 외 동시 진행 가능한 절차',
-        content: '<p><strong style="color:#1e3a5f">형사 절차와 별개로 민사 청구와 체당금 신청을 동시에 진행할 수 있습니다.</strong></p>\n<ul>\n<li><strong>민사소송</strong> — 미지급 임금 + 지연이자(연 20%)를 청구합니다.</li>\n<li><strong>체당금 신청</strong> — 사업주의 도산 시 근로복지공단에 체당금을 신청합니다.</li>\n<li><strong>재산 조회·가압류</strong> — 사업주의 재산을 조회하고 가압류하여 회수를 확보합니다.</li>\n</ul>',
+        content: '<p><strong style="color:#1e3a5f">형사 절차와 별개로 민사 청구와 대지급금 신청을 동시에 진행할 수 있습니다.</strong></p>\n<ul>\n<li><strong>민사소송</strong> — 미지급 임금 + 지연이자(연 20%)를 청구합니다.</li>\n<li><strong>대지급금 신청</strong> — 사업주의 도산 시 근로복지공단에 대지급금을 신청합니다.</li>\n<li><strong>재산 조회·가압류</strong> — 사업주의 재산을 조회하고 가압류하여 회수를 확보합니다.</li>\n</ul>',
       },
     ],
     cases: [{ title: '판례 — 반복 체불 사업주 가중처벌', summary: '2022년 근로기준법 개정으로 3년 이내 2회 이상 임금을 체불한 사업주에 대해서는 반의사불벌죄 조항이 적용되지 않습니다. 즉, 근로자가 처벌을 원하지 않더라도 검찰이 기소할 수 있습니다.', takeaway: '비슷한 상황이라면 사장님이 "합의하면 안 잡아간다"고 해도, 반복 체불이면 합의와 무관하게 처벌받을 수 있습니다.' }],
@@ -366,6 +366,6 @@ export const spokesBatch27RetirementWage: SpokePage[] = [
       { question: '진정 접수부터 기소까지 얼마나 걸리나요?', answer: '<p>보통 3~6개월이 소요됩니다. 사안이 복잡하면 더 길어질 수 있습니다.</p>' },
     ],
     cta: { text: '임금체불 형사고소 가능 여부 AI로 확인하기', link: '/chat?domain=wage' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '임금체불 가이드', href: '/guide/wage' }, { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' }, { label: '퇴직 후 급여 미지급', href: '/guide/wage/wage-resignation-final-pay-delay' }, { label: '사업주 도산 시 체당금', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' }],
+    internalLinks: [{ label: '홈', href: '/' }, { label: '임금체불 가이드', href: '/guide/wage' }, { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' }, { label: '퇴직 후 급여 미지급', href: '/guide/wage/wage-resignation-final-pay-delay' }, { label: '사업주 도산 시 대지급금', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' }],
   },
 ];

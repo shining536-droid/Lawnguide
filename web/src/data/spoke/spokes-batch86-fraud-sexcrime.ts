@@ -671,7 +671,6 @@ export const spokesBatch86FraudSexCrime: SpokePage[] = [
     ],
     cta: { text: '성범죄 피해 대응 순서, AI로 정리하기', link: '/chat?domain=sex-crime' },
     internalLinks: [
-      { label: '지하철 불법촬영', href: '/guide/sex-crime/sex-crime-subway-illegal-filming-track' },
       { label: '딥페이크 합성 성착취물 제작', href: '/guide/sex-crime/sex-crime-deepfake-synthetic-image-track' },
       { label: '성범죄 디지털 증거 보존기한 정리', href: '/guide/sex-crime/sex-crime-digital-evidence-timeline' },
       { label: '요양시설 노인 성폭력 피해', href: '/guide/sex-crime/sex-crime-elder-care-facility-victim-track' },
@@ -754,7 +753,6 @@ export const spokesBatch86FraudSexCrime: SpokePage[] = [
     ],
     cta: { text: '성범죄 피해 대응 순서, AI로 정리하기', link: '/chat?domain=sex-crime' },
     internalLinks: [
-      { label: '협박 성적영상 유포', href: '/guide/sex-crime/sex-crime-sextortion-image-threat-track' },
       { label: '딥페이크 합성 성착취물 제작', href: '/guide/sex-crime/sex-crime-deepfake-synthetic-image-track' },
       { label: '회식 어깨동무 신체접촉 추행 무고 방어', href: '/guide/sex-crime/sex-crime-company-dinner-shoulder-contact-falsely-accused-defense' },
       { label: '만취 항거불능 준강간 피해', href: '/guide/sex-crime/sex-crime-incapacitated-drug-alcohol-victim-track' },

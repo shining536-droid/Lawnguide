@@ -617,7 +617,6 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
     },
     internalLinks: [
       { label: '개인회생 종합 가이드', href: '/guide/rehabilitation' },
-      { label: '국민연금 회생 가용소득', href: '/guide/rehabilitation/rehabilitation-pension-income-treatment' },
       { label: '개인파산 종합 가이드', href: '/guide/bankruptcy' },
       { label: '개인회생 진행 중 보너스 상여 보고', href: '/guide/rehabilitation/rehabilitation-bonus-during-payment-reporting' },
       { label: '개인회생 보정권고 대응', href: '/guide/rehabilitation/correction-recommendation-response-guide' },
@@ -706,7 +705,6 @@ export const spokesBatch45Nonlabor3: SpokePage[] = [
       { label: '파산 면책 후 달라지는 생활 5가지', href: '/guide/bankruptcy/bankruptcy-after-discharge-life-changes' },
       { label: '개인파산 종합 가이드', href: '/guide/bankruptcy' },
       { label: '비면책채권 확인', href: '/guide/bankruptcy/bankruptcy-non-dischargeable-debt-types' },
-      { label: '국민연금 통장 압류 면책 보호', href: '/guide/bankruptcy/bankruptcy-pension-account-protection' },
       { label: '파산 면책 후 신용회복 5단계', href: '/guide/bankruptcy/bankruptcy-post-discharge-credit-rebuild-5steps' },
     ],
   },

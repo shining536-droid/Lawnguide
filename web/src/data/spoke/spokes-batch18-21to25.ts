@@ -44,7 +44,7 @@ export const spokesBatch18_21to25: SpokePage[] = [
       {
         title: '다섯째, 퇴직금 지급 기한 관련 주의사항을 정리하세요',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직금 청구권 소멸시효는 퇴직일로부터 3년입니다</strong></p>\n<p>퇴직금을 받을 수 있는 기한은 <strong>퇴직일로부터 3년</strong>입니다. 3년이 지나면 법적 청구권이 소멸하므로, 미지급 상태라면 최대한 빨리 진정 또는 소송을 진행하세요.</p>\n<p>회사가 폐업했더라도 <strong>고용노동부 체당금 제도</strong>를 통해 최종 3년분 퇴직금을 대신 받을 수 있습니다. 도산 사실이 확인되면 근로복지공단에 체당금을 신청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">소멸시효 3년 → 폐업 시 체당금 제도 활용 → 근로복지공단 신청</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직금 청구권 소멸시효는 퇴직일로부터 3년입니다</strong></p>\n<p>퇴직금을 받을 수 있는 기한은 <strong>퇴직일로부터 3년</strong>입니다. 3년이 지나면 법적 청구권이 소멸하므로, 미지급 상태라면 최대한 빨리 진정 또는 소송을 진행하세요.</p>\n<p>회사가 폐업했더라도 <strong>고용노동부 대지급금 제도</strong>를 통해 최종 3년분 퇴직금을 대신 받을 수 있습니다. 도산 사실이 확인되면 근로복지공단에 대지급금을 신청하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">소멸시효 3년 → 폐업 시 대지급금 제도 활용 → 근로복지공단 신청</blockquote>',
       },
     ],
     cases: [

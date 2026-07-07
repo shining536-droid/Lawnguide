@@ -757,7 +757,6 @@ export const spokesBatch46Nonlabor3: SpokePage[] = [
       { label: '통근재해 우회로 인정', href: '/guide/industrial-accident/industrial-accident-commute-detour-coverage' },
       { label: '출퇴근 재해 인정', href: '/guide/industrial-accident/industrial-accident-commute-recognition-track' },
       { label: '출퇴근 재해 산재 인정 요건', href: '/guide/industrial-accident/industrial-accident-commute-accident-eligibility' },
-      { label: '배달기사 출퇴근 산재', href: '/guide/industrial-accident/industrial-accident-commute-delivery-rider' },
       { label: '출퇴근 일탈 중단 산재 업무상 인정', href: '/guide/industrial-accident/industrial-accident-commute-deviation-personal-errand-track' },
     ],
   },

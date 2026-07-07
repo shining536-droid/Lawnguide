@@ -37,7 +37,7 @@ export const spokesBatch22_22to28: SpokePage[] = [
       {
         title: '통상 마모와 원상복구의 구분',
         content:
-          '<p><strong style="color:#1e3a5f">정상적인 사용에 따른 마모·손상은 원상복구 의무에 포함되지 않습니다. 이 구분이 비용 절감의 핵심입니다</strong></p>\n<ul>\n<li><strong>통상 마모(자연 감가)</strong> — 벽지 변색, 바닥재 긁힘, 페인트 벗겨짐 등 시간 경과와 정상 사용으로 생긴 손상은 임차인 부담이 아닙니다. 이는 임대인이 감수해야 할 자연적 감가입니다</li>\n<li><strong>임차인 귀책 손상</strong> — 벽에 구멍을 뚫거나 구조를 변경한 부분, 임차인의 과실로 생긴 누수·화재 흔적 등은 원상복구 대상입니다</li>\n<li><strong>임차인 설치 시설물</strong> — 임차인이 영업을 위해 설치한 칸막이, 싱크대, 에어컨 배관, 간판 등은 원칙적으로 철거하고 원래 상태로 돌려야 합니다. 다만 임대인이 잔류를 동의하면 철거 의무가 면제됩니다</li>\n<li><strong>판단이 어려운 경우</strong> — 통상 마모와 귀책 손상의 경계가 모호할 때는 감정 평가를 통해 판단합니다. 입주 당시 사진, 계약서 첨부 현황표가 있으면 유리합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">원상복구 범위를 줄일 수 있는지 확인하고 싶다면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 원상복구 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">정상적인 사용에 따른 마모·손상은 원상복구 의무에 포함되지 않습니다. 이 구분이 비용 절감의 핵심입니다</strong></p>\n<ul>\n<li><strong>통상 마모(자연 감가)</strong> — 벽지 변색, 바닥재 긁힘, 페인트 벗겨짐 등 시간 경과와 정상 사용으로 생긴 손상은 임차인 부담이 아닙니다. 이는 임대인이 감수해야 할 자연적 감가입니다</li>\n<li><strong>임차인 귀책 손상</strong> — 벽에 구멍을 뚫거나 구조를 변경한 부분, 임차인의 과실로 생긴 누수·화재 흔적 등은 원상복구 대상입니다</li>\n<li><strong>임차인 설치 시설물</strong> — 임차인이 영업을 위해 설치한 칸막이, 싱크대, 에어컨 배관, 간판 등은 원칙적으로 철거하고 원래 상태로 돌려야 합니다. 다만 임대인이 잔류를 동의하면 철거 의무가 면제됩니다</li>\n<li><strong>판단이 어려운 경우</strong> — 통상 마모와 귀책 손상의 경계가 모호할 때는 감정 평가를 통해 판단합니다. 입주 당시 사진, 계약서 첨부 현황표가 있으면 유리합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">원상복구 범위를 줄일 수 있는지 확인하고 싶다면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 원상복구 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '비용 분담 기준과 감정',
@@ -87,15 +87,15 @@ export const spokesBatch22_22to28: SpokePage[] = [
       },
     ],
     cta: {
-      text: '상가 원상복구 무료 상담받기',
+      text: '상가 원상복구 상담받기',
       link: '/diagnosis/sangga',
     },
     internalLinks: [
       { label: '상가임대차 가이드', href: '/guide/sangga' },
-      { label: '상가 보증금 반환 절차', href: '/spoke/sangga/commercial-deposit-return-process' },
-      { label: '상가 계약 해지 절차', href: '/spoke/sangga/commercial-lease-termination-procedure' },
-      { label: '상가 권리금 분쟁 대응', href: '/spoke/sangga/commercial-lease-key-money' },
-      { label: '상가 소액임차인 우선변제', href: '/spoke/sangga/commercial-lease-priority-repayment' },
+      { label: '상가 보증금 반환 절차', href: '/guide/sangga/commercial-deposit-return-process' },
+      { label: '상가 계약 해지 절차', href: '/guide/sangga/commercial-lease-termination-procedure' },
+      { label: '상가 권리금 분쟁 대응', href: '/guide/sangga/commercial-lease-key-money' },
+      { label: '상가 소액임차인 우선변제', href: '/guide/sangga/commercial-lease-priority-repayment' },
     ],
   },
 
@@ -126,7 +126,7 @@ export const spokesBatch22_22to28: SpokePage[] = [
       {
         title: '관리비 명세 요구권과 열람권',
         content:
-          '<p><strong style="color:#1e3a5f">임차인은 관리비 명세를 요구할 권리가 있으며, 임대인은 이를 제공할 의무가 있습니다</strong></p>\n<ul>\n<li><strong>명세 요구권</strong> — 상가건물임대차보호법 제10조의2 취지상 임차인은 관리비의 구체적 산출 근거를 요구할 수 있습니다. 임대인이 명세 제공을 거부하면 이 자체가 부당한 행위로 분쟁 조정·소송에서 불리하게 작용합니다</li>\n<li><strong>서면 요청</strong> — 구두가 아닌 내용증명 또는 서면으로 "관리비 항목별 명세서, 공과금 고지서 사본, 관리비 산정 기준"을 요청하세요. 14일 이내 회신을 요구하고, 미회신 시 법적 조치를 예고합니다</li>\n<li><strong>개별 계량기 확인</strong> — 전기, 수도, 가스 등 개별 계량기가 설치되어 있는지 확인합니다. 개별 계량기 없이 전체 사용량을 면적 비율로 안분하면 실제 사용량보다 많이 부과될 수 있습니다</li>\n<li><strong>관리규약 열람</strong> — 건물 관리규약이 있다면 관리비 산정 기준이 명시되어 있습니다. 임차인도 이해관계인으로서 열람을 요구할 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">관리비 명세를 받았는데 부당한 항목이 있다면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 관리비 분쟁 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">임차인은 관리비 명세를 요구할 권리가 있으며, 임대인은 이를 제공할 의무가 있습니다</strong></p>\n<ul>\n<li><strong>명세 요구권</strong> — 상가건물임대차보호법 제10조의2 취지상 임차인은 관리비의 구체적 산출 근거를 요구할 수 있습니다. 임대인이 명세 제공을 거부하면 이 자체가 부당한 행위로 분쟁 조정·소송에서 불리하게 작용합니다</li>\n<li><strong>서면 요청</strong> — 구두가 아닌 내용증명 또는 서면으로 "관리비 항목별 명세서, 공과금 고지서 사본, 관리비 산정 기준"을 요청하세요. 14일 이내 회신을 요구하고, 미회신 시 법적 조치를 예고합니다</li>\n<li><strong>개별 계량기 확인</strong> — 전기, 수도, 가스 등 개별 계량기가 설치되어 있는지 확인합니다. 개별 계량기 없이 전체 사용량을 면적 비율로 안분하면 실제 사용량보다 많이 부과될 수 있습니다</li>\n<li><strong>관리규약 열람</strong> — 건물 관리규약이 있다면 관리비 산정 기준이 명시되어 있습니다. 임차인도 이해관계인으로서 열람을 요구할 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">관리비 명세를 받았는데 부당한 항목이 있다면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 관리비 분쟁 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '부당 관리비 이의제기 절차',
@@ -176,15 +176,15 @@ export const spokesBatch22_22to28: SpokePage[] = [
       },
     ],
     cta: {
-      text: '상가 관리비 분쟁 무료 상담받기',
+      text: '상가 관리비 분쟁 상담받기',
       link: '/diagnosis/sangga',
     },
     internalLinks: [
       { label: '상가임대차 가이드', href: '/guide/sangga' },
-      { label: '상가 보증금 반환 절차', href: '/spoke/sangga/commercial-deposit-return-process' },
-      { label: '상가 계약 해지 절차', href: '/spoke/sangga/commercial-lease-termination-procedure' },
-      { label: '상가 권리금 분쟁 대응', href: '/spoke/sangga/commercial-lease-key-money' },
-      { label: '상가 소액임차인 우선변제', href: '/spoke/sangga/commercial-lease-priority-repayment' },
+      { label: '상가 보증금 반환 절차', href: '/guide/sangga/commercial-deposit-return-process' },
+      { label: '상가 계약 해지 절차', href: '/guide/sangga/commercial-lease-termination-procedure' },
+      { label: '상가 권리금 분쟁 대응', href: '/guide/sangga/commercial-lease-key-money' },
+      { label: '상가 소액임차인 우선변제', href: '/guide/sangga/commercial-lease-priority-repayment' },
     ],
   },
 
@@ -215,7 +215,7 @@ export const spokesBatch22_22to28: SpokePage[] = [
       {
         title: '대수선 vs 소수선 구분 기준',
         content:
-          '<p><strong style="color:#1e3a5f">수선의 규모에 따라 임대인·임차인의 비용 부담이 달라집니다. 대수선과 소수선의 구분이 핵심입니다</strong></p>\n<ul>\n<li><strong>대수선(임대인 부담)</strong> — 지붕 누수 보수, 외벽 균열 수리, 배관 전체 교체, 보일러 교체, 승강기 수리, 전기 간선 교체 등 건물의 주요 구조부와 설비에 대한 수선입니다. 비용이 크고 건물 가치를 유지·회복하는 공사가 이에 해당할 소지가 있습니다</li>\n<li><strong>소수선(임차인 부담)</strong> — 형광등 교체, 수도꼭지 교체, 문손잡이 수리, 벽지 보수 등 일상적 사용에 따른 소규모 수선입니다. 임차인이 쉽게 처리할 수 있고 비용이 적은 항목입니다</li>\n<li><strong>판단이 애매한 경우</strong> — 에어컨 수리, 화장실 변기 교체, 바닥 타일 보수 등은 상황에 따라 달라집니다. 건물 노후로 인한 것이면 임대인, 임차인 사용 과실이면 임차인 부담입니다</li>\n<li><strong>감정 기준</strong> — 수선 비용이 통상 임대료 6개월분 이상이면 대수선으로 보는 것이 실무적 기준입니다. 다만 법률상 확정된 기준은 아니므로 개별 사안에 따라 달라집니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">수선 범위를 두고 임대인과 다투고 있다면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 수선의무 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">수선의 규모에 따라 임대인·임차인의 비용 부담이 달라집니다. 대수선과 소수선의 구분이 핵심입니다</strong></p>\n<ul>\n<li><strong>대수선(임대인 부담)</strong> — 지붕 누수 보수, 외벽 균열 수리, 배관 전체 교체, 보일러 교체, 승강기 수리, 전기 간선 교체 등 건물의 주요 구조부와 설비에 대한 수선입니다. 비용이 크고 건물 가치를 유지·회복하는 공사가 이에 해당할 소지가 있습니다</li>\n<li><strong>소수선(임차인 부담)</strong> — 형광등 교체, 수도꼭지 교체, 문손잡이 수리, 벽지 보수 등 일상적 사용에 따른 소규모 수선입니다. 임차인이 쉽게 처리할 수 있고 비용이 적은 항목입니다</li>\n<li><strong>판단이 애매한 경우</strong> — 에어컨 수리, 화장실 변기 교체, 바닥 타일 보수 등은 상황에 따라 달라집니다. 건물 노후로 인한 것이면 임대인, 임차인 사용 과실이면 임차인 부담입니다</li>\n<li><strong>감정 기준</strong> — 수선 비용이 통상 임대료 6개월분 이상이면 대수선으로 보는 것이 실무적 기준입니다. 다만 법률상 확정된 기준은 아니므로 개별 사안에 따라 달라집니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">수선 범위를 두고 임대인과 다투고 있다면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 수선의무 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '수선 거부 시 차임 감액·해지',
@@ -265,15 +265,15 @@ export const spokesBatch22_22to28: SpokePage[] = [
       },
     ],
     cta: {
-      text: '상가 수선의무 무료 상담받기',
+      text: '상가 수선의무 상담받기',
       link: '/diagnosis/sangga',
     },
     internalLinks: [
       { label: '상가임대차 가이드', href: '/guide/sangga' },
-      { label: '상가 보증금 반환 절차', href: '/spoke/sangga/commercial-deposit-return-process' },
-      { label: '상가 원상복구 의무 범위', href: '/spoke/sangga/commercial-lease-restoration-obligation' },
-      { label: '상가 계약 해지 절차', href: '/spoke/sangga/commercial-lease-termination-procedure' },
-      { label: '상가 권리금 분쟁 대응', href: '/spoke/sangga/commercial-lease-key-money' },
+      { label: '상가 보증금 반환 절차', href: '/guide/sangga/commercial-deposit-return-process' },
+      { label: '상가 원상복구 의무 범위', href: '/guide/sangga/commercial-lease-restoration-obligation' },
+      { label: '상가 계약 해지 절차', href: '/guide/sangga/commercial-lease-termination-procedure' },
+      { label: '상가 권리금 분쟁 대응', href: '/guide/sangga/commercial-lease-key-money' },
     ],
   },
 
@@ -304,7 +304,7 @@ export const spokesBatch22_22to28: SpokePage[] = [
       {
         title: '동의 없는 전대의 효과와 위험',
         content:
-          '<p><strong style="color:#1e3a5f">임대인 동의 없이 전대하면 심각한 법적 불이익이 발생합니다. 위험성을 정확히 알고 대응하세요</strong></p>\n<ul>\n<li><strong>계약 해지권 발생</strong> — 임대인은 동의 없는 전대를 이유로 임대차계약을 즉시 해지할 수 있습니다. 이 경우 전차인도 퇴거해야 하며, 임차인은 보증금 반환과 별개로 손해배상 책임을 질 수 있습니다</li>\n<li><strong>전차인의 지위</strong> — 동의 없는 전대차계약은 임대인에게 효력이 없습니다. 전차인은 임대인에 대해 아무런 권리를 주장할 수 없고, 임대인이 퇴거를 요구하면 나가야 합니다</li>\n<li><strong>배신행위론(예외)</strong> — 대법원은 전대가 임대인에 대한 배신적 행위라고 볼 수 없는 특별한 사정이 있으면 해지권이 발생하지 않는다고 판시합니다. 예를 들어 가족에게 잠시 맡기거나 동업자가 운영하는 경우가 이에 해당할 수 있습니다</li>\n<li><strong>묵시적 동의</strong> — 임대인이 전대 사실을 알면서도 장기간(수개월~수년) 이의를 제기하지 않으면 묵시적 동의로 인정될 수 있습니다. 다만 이를 입증하는 것은 임차인의 몫입니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">전대 동의를 받지 못해 고민이라면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 전대 조건 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">임대인 동의 없이 전대하면 심각한 법적 불이익이 발생합니다. 위험성을 정확히 알고 대응하세요</strong></p>\n<ul>\n<li><strong>계약 해지권 발생</strong> — 임대인은 동의 없는 전대를 이유로 임대차계약을 즉시 해지할 수 있습니다. 이 경우 전차인도 퇴거해야 하며, 임차인은 보증금 반환과 별개로 손해배상 책임을 질 수 있습니다</li>\n<li><strong>전차인의 지위</strong> — 동의 없는 전대차계약은 임대인에게 효력이 없습니다. 전차인은 임대인에 대해 아무런 권리를 주장할 수 없고, 임대인이 퇴거를 요구하면 나가야 합니다</li>\n<li><strong>배신행위론(예외)</strong> — 대법원은 전대가 임대인에 대한 배신적 행위라고 볼 수 없는 특별한 사정이 있으면 해지권이 발생하지 않는다고 판시합니다. 예를 들어 가족에게 잠시 맡기거나 동업자가 운영하는 경우가 이에 해당할 수 있습니다</li>\n<li><strong>묵시적 동의</strong> — 임대인이 전대 사실을 알면서도 장기간(수개월~수년) 이의를 제기하지 않으면 묵시적 동의로 인정될 수 있습니다. 다만 이를 입증하는 것은 임차인의 몫입니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">전대 동의를 받지 못해 고민이라면</strong><br/>\n<a href="/diagnosis/sangga" style="color:#1565c0;font-weight:600">상가 전대 조건 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '전대차계약 작성 시 주의사항',
@@ -354,15 +354,15 @@ export const spokesBatch22_22to28: SpokePage[] = [
       },
     ],
     cta: {
-      text: '상가 전대 조건 무료 상담받기',
+      text: '상가 전대 조건 상담받기',
       link: '/diagnosis/sangga',
     },
     internalLinks: [
       { label: '상가임대차 가이드', href: '/guide/sangga' },
-      { label: '상가 권리금 분쟁 대응', href: '/spoke/sangga/commercial-lease-key-money' },
-      { label: '상가 계약 해지 절차', href: '/spoke/sangga/commercial-lease-termination-procedure' },
-      { label: '상가 보증금 반환 절차', href: '/spoke/sangga/commercial-deposit-return-process' },
-      { label: '상가 소액임차인 우선변제', href: '/spoke/sangga/commercial-lease-priority-repayment' },
+      { label: '상가 권리금 분쟁 대응', href: '/guide/sangga/commercial-lease-key-money' },
+      { label: '상가 계약 해지 절차', href: '/guide/sangga/commercial-lease-termination-procedure' },
+      { label: '상가 보증금 반환 절차', href: '/guide/sangga/commercial-deposit-return-process' },
+      { label: '상가 소액임차인 우선변제', href: '/guide/sangga/commercial-lease-priority-repayment' },
     ],
   },
 
@@ -393,7 +393,7 @@ export const spokesBatch22_22to28: SpokePage[] = [
       {
         title: '특약 위반 시 계약 해제 vs 손해배상',
         content:
-          '<p><strong style="color:#1e3a5f">특약 위반의 정도에 따라 계약 해제 또는 손해배상 중 적절한 대응을 선택해야 합니다</strong></p>\n<ul>\n<li><strong>이행 최고 후 해제</strong> — 민법 제544조에 따라 상대방이 채무를 이행하지 않으면 상당한 기간을 정하여 이행을 최고하고, 그 기간 내에 이행하지 않으면 계약을 해제할 수 있습니다. 내용증명으로 "14일 이내 특약 이행"을 요구하세요</li>\n<li><strong>손해배상 청구</strong> — 특약 위반으로 실제 손해가 발생했다면(누수로 인한 수리비, 이사 지연 비용 등) 민법 제390조에 따라 손해배상을 청구합니다. 해제와 동시에 배상을 청구할 수도 있습니다</li>\n<li><strong>위약금 조항</strong> — 계약서에 위약금 조항이 있으면 실제 손해와 관계없이 약정 위약금(통상 계약금 상당)을 청구할 수 있습니다. 위약금 조항이 없으면 실손해를 입증해야 합니다</li>\n<li><strong>경미한 위반</strong> — 특약 위반이 경미하여 "계약 목적을 달성할 수 없는 정도"에 이르지 않으면 해제는 어렵고 손해배상만 청구할 수 있습니다. 법원은 위반의 정도를 종합적으로 판단합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">특약 위반에 어떻게 대응해야 할지 모르겠다면</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">매매 특약 위반 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">특약 위반의 정도에 따라 계약 해제 또는 손해배상 중 적절한 대응을 선택해야 합니다</strong></p>\n<ul>\n<li><strong>이행 최고 후 해제</strong> — 민법 제544조에 따라 상대방이 채무를 이행하지 않으면 상당한 기간을 정하여 이행을 최고하고, 그 기간 내에 이행하지 않으면 계약을 해제할 수 있습니다. 내용증명으로 "14일 이내 특약 이행"을 요구하세요</li>\n<li><strong>손해배상 청구</strong> — 특약 위반으로 실제 손해가 발생했다면(누수로 인한 수리비, 이사 지연 비용 등) 민법 제390조에 따라 손해배상을 청구합니다. 해제와 동시에 배상을 청구할 수도 있습니다</li>\n<li><strong>위약금 조항</strong> — 계약서에 위약금 조항이 있으면 실제 손해와 관계없이 약정 위약금(통상 계약금 상당)을 청구할 수 있습니다. 위약금 조항이 없으면 실손해를 입증해야 합니다</li>\n<li><strong>경미한 위반</strong> — 특약 위반이 경미하여 "계약 목적을 달성할 수 없는 정도"에 이르지 않으면 해제는 어렵고 손해배상만 청구할 수 있습니다. 법원은 위반의 정도를 종합적으로 판단합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">특약 위반에 어떻게 대응해야 할지 모르겠다면</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">매매 특약 위반 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '특약 이행 청구 절차',
@@ -443,15 +443,15 @@ export const spokesBatch22_22to28: SpokePage[] = [
       },
     ],
     cta: {
-      text: '매매 특약 위반 무료 상담받기',
+      text: '매매 특약 위반 상담받기',
       link: '/diagnosis/real-estate-sale',
     },
     internalLinks: [
       { label: '부동산 매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매 하자 발견 손해배상', href: '/spoke/real-estate-sale/sale-defect-discovery-damage-claim' },
-      { label: '이중매매 매수인 보호', href: '/spoke/real-estate-sale/double-sale-buyer-protection' },
-      { label: '등기부등본 확인 체크리스트', href: '/spoke/real-estate-sale/registry-check-before-contract' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매 하자 발견 손해배상', href: '/guide/real-estate-sale/sale-defect-discovery-damage-claim' },
+      { label: '이중매매 매수인 보호', href: '/guide/real-estate-sale/double-sale-buyer-protection' },
+      { label: '등기부등본 확인 체크리스트', href: '/guide/real-estate-sale/registry-check-before-contract' },
     ],
   },
 
@@ -487,7 +487,7 @@ export const spokesBatch22_22to28: SpokePage[] = [
       {
         title: '잔금일 동시이행과 말소 확인',
         content:
-          '<p><strong style="color:#1e3a5f">잔금 지급과 권리 말소는 동시에 이루어져야 합니다. 순서가 어긋나면 매수인이 위험에 빠집니다</strong></p>\n<ul>\n<li><strong>동시이행 원칙</strong> — 잔금 지급, 소유권이전등기 서류 교부, 근저당 등 말소 서류 교부는 같은 자리에서 동시에 이뤄져야 합니다. 잔금을 먼저 주고 나중에 말소하겠다는 제안은 절대 수락하지 마세요</li>\n<li><strong>법무사 참여</strong> — 잔금일에 법무사가 참석하여 말소 서류의 진정성과 완전성을 확인합니다. 근저당 말소에 필요한 서류(해지증서, 말소위임장, 법인인감증명서 등)가 모두 갖춰졌는지 법무사가 검토한 후에 잔금을 지급하세요</li>\n<li><strong>은행 대출 상환 동시 처리</strong> — 매도인 대출 잔액을 잔금에서 직접 매도인 대출 은행에 입금하는 방식이 가장 안전합니다. 매도인 통장을 거치지 않고 바로 상환하면 말소 서류가 즉시 발급됩니다</li>\n<li><strong>가압류 해제</strong> — 가압류는 채권자의 동의(해제 동의서) 또는 법원의 해제 결정이 필요합니다. 잔금일 전에 해제를 완료하거나, 잔금에서 가압류 금액을 공탁하여 해제하는 방법이 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">잔금일 절차가 복잡하게 느껴진다면</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">근저당 말소 절차 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">잔금 지급과 권리 말소는 동시에 이루어져야 합니다. 순서가 어긋나면 매수인이 위험에 빠집니다</strong></p>\n<ul>\n<li><strong>동시이행 원칙</strong> — 잔금 지급, 소유권이전등기 서류 교부, 근저당 등 말소 서류 교부는 같은 자리에서 동시에 이뤄져야 합니다. 잔금을 먼저 주고 나중에 말소하겠다는 제안은 절대 수락하지 마세요</li>\n<li><strong>법무사 참여</strong> — 잔금일에 법무사가 참석하여 말소 서류의 진정성과 완전성을 확인합니다. 근저당 말소에 필요한 서류(해지증서, 말소위임장, 법인인감증명서 등)가 모두 갖춰졌는지 법무사가 검토한 후에 잔금을 지급하세요</li>\n<li><strong>은행 대출 상환 동시 처리</strong> — 매도인 대출 잔액을 잔금에서 직접 매도인 대출 은행에 입금하는 방식이 가장 안전합니다. 매도인 통장을 거치지 않고 바로 상환하면 말소 서류가 즉시 발급됩니다</li>\n<li><strong>가압류 해제</strong> — 가압류는 채권자의 동의(해제 동의서) 또는 법원의 해제 결정이 필요합니다. 잔금일 전에 해제를 완료하거나, 잔금에서 가압류 금액을 공탁하여 해제하는 방법이 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">잔금일 절차가 복잡하게 느껴진다면</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">근저당 말소 절차 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '말소 안 되는 경우 대응법',
@@ -537,15 +537,15 @@ export const spokesBatch22_22to28: SpokePage[] = [
       },
     ],
     cta: {
-      text: '근저당 말소 절차 무료 상담받기',
+      text: '근저당 말소 절차 상담받기',
       link: '/diagnosis/real-estate-sale',
     },
     internalLinks: [
       { label: '부동산 매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매 하자 발견 손해배상', href: '/spoke/real-estate-sale/sale-defect-discovery-damage-claim' },
-      { label: '이중매매 매수인 보호', href: '/spoke/real-estate-sale/double-sale-buyer-protection' },
-      { label: '등기부등본 확인 체크리스트', href: '/spoke/real-estate-sale/registry-check-before-contract' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매 하자 발견 손해배상', href: '/guide/real-estate-sale/sale-defect-discovery-damage-claim' },
+      { label: '이중매매 매수인 보호', href: '/guide/real-estate-sale/double-sale-buyer-protection' },
+      { label: '등기부등본 확인 체크리스트', href: '/guide/real-estate-sale/registry-check-before-contract' },
     ],
   },
 
@@ -582,7 +582,7 @@ export const spokesBatch22_22to28: SpokePage[] = [
       {
         title: '하자보수 청구 절차',
         content:
-          '<p><strong style="color:#1e3a5f">하자를 발견하면 체계적으로 증거를 수집하고 정해진 절차에 따라 보수를 요청해야 합니다</strong></p>\n<ul>\n<li><strong>증거 수집</strong> — 하자 부위를 사진·영상으로 촬영합니다. 균열은 자를 대고, 누수는 범위를 표시하고, 타일 들뜸은 두드려서 소리를 녹음합니다. 날짜가 표시된 사진이 법적 증거로 유효합니다</li>\n<li><strong>관리사무소 접수</strong> — 관리사무소에 서면(하자보수 요청서)으로 접수합니다. 구두 신고만으로는 접수 기록이 남지 않을 수 있으므로 가능한 한 서면 접수증을 받으세요</li>\n<li><strong>시공사 직접 요청</strong> — 관리사무소를 통한 요청이 지연되면 시공사에 직접 내용증명을 보냅니다. "공동주택관리법 제36조에 따라 ○○ 하자에 대한 보수를 14일 이내 이행하라"는 내용입니다</li>\n<li><strong>입주자대표회의</strong> — 개인이 아닌 입주자대표회의 명의로 하자보수를 요청하면 더 효과적입니다. 공용부분 하자는 가능한 한 입주자대표회의가 청구해야 합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">시공사가 보수를 미루고 있다면</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">아파트 하자보수 청구 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">하자를 발견하면 체계적으로 증거를 수집하고 정해진 절차에 따라 보수를 요청해야 합니다</strong></p>\n<ul>\n<li><strong>증거 수집</strong> — 하자 부위를 사진·영상으로 촬영합니다. 균열은 자를 대고, 누수는 범위를 표시하고, 타일 들뜸은 두드려서 소리를 녹음합니다. 날짜가 표시된 사진이 법적 증거로 유효합니다</li>\n<li><strong>관리사무소 접수</strong> — 관리사무소에 서면(하자보수 요청서)으로 접수합니다. 구두 신고만으로는 접수 기록이 남지 않을 수 있으므로 가능한 한 서면 접수증을 받으세요</li>\n<li><strong>시공사 직접 요청</strong> — 관리사무소를 통한 요청이 지연되면 시공사에 직접 내용증명을 보냅니다. "공동주택관리법 제36조에 따라 ○○ 하자에 대한 보수를 14일 이내 이행하라"는 내용입니다</li>\n<li><strong>입주자대표회의</strong> — 개인이 아닌 입주자대표회의 명의로 하자보수를 요청하면 더 효과적입니다. 공용부분 하자는 가능한 한 입주자대표회의가 청구해야 합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">시공사가 보수를 미루고 있다면</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">아파트 하자보수 청구 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '하자보수보증금 제도 활용',
@@ -632,15 +632,15 @@ export const spokesBatch22_22to28: SpokePage[] = [
       },
     ],
     cta: {
-      text: '아파트 하자보수 청구 무료 상담받기',
+      text: '아파트 하자보수 청구 상담받기',
       link: '/diagnosis/real-estate-sale',
     },
     internalLinks: [
       { label: '부동산 매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매 하자 발견 손해배상', href: '/spoke/real-estate-sale/sale-defect-discovery-damage-claim' },
-      { label: '이중매매 매수인 보호', href: '/spoke/real-estate-sale/double-sale-buyer-protection' },
-      { label: '등기부등본 확인 체크리스트', href: '/spoke/real-estate-sale/registry-check-before-contract' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매 하자 발견 손해배상', href: '/guide/real-estate-sale/sale-defect-discovery-damage-claim' },
+      { label: '이중매매 매수인 보호', href: '/guide/real-estate-sale/double-sale-buyer-protection' },
+      { label: '등기부등본 확인 체크리스트', href: '/guide/real-estate-sale/registry-check-before-contract' },
     ],
   },
 ];

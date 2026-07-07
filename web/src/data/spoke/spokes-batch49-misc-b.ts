@@ -251,7 +251,6 @@ export const spokesBatch49MiscB: SpokePage[] = [
     cta: { text: '산재 인정 가능성, AI로 점검하기', link: '/chat?domain=industrial-accident' },
     internalLinks: [
       { label: '출퇴근재해 산재 인정 요건', href: '/guide/industrial-accident/industrial-accident-commute-accident-eligibility' },
-      { label: '산재 통상 출퇴근 경로 일탈 중단', href: '/guide/industrial-accident/industrial-accident-commute-route-deviation-cases' },
       { label: '산업재해 인정 거부 시 불복 절차', href: '/guide/industrial-accident/industrial-accident-denial-appeal' },
       { label: '출퇴근 경로 일탈 업무상 재해 인정 요양급여 절차', href: '/guide/industrial-accident/industrial-accident-commute-route-deviation-recognition-track' },
       { label: '출퇴근 경로 사고 업무상 재해 요양급여 절차', href: '/guide/industrial-accident/industrial-accident-commute-route-deviation-track' },

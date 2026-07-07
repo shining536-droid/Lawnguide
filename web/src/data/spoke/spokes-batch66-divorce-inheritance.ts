@@ -505,7 +505,6 @@ export const spokesBatch66DivorceInheritance: SpokePage[] = [
       { label: '상속세 신고 기한', href: '/guide/inheritance/inheritance-tax-six-month-filing-procedure' },
       { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '상속재산 은닉 누락 추가 분할 청구', href: '/guide/inheritance/inheritance-hidden-asset-additional-division' },
-      { label: '장례비 우선 공제 상속재산', href: '/guide/inheritance/inheritance-funeral-expenses-priority-payment-track' },
       { label: '상속채무 초과 한정승인 신청 절차', href: '/guide/inheritance/inheritance-debt-over-asset-limited-acceptance-procedure-track' },
     ],
   },

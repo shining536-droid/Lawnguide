@@ -755,7 +755,6 @@ export const spokesBatch93DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '유류분 반환 쟁점, AI로 점검하기', link: '/chat?domain=inheritance' },
     internalLinks: [
       { label: '상속 종합 가이드', href: '/guide/inheritance' },
-      { label: '유류분 부족분 반환 청구', href: '/guide/inheritance/inheritance-forced-share-shortfall-claim-track' },
       { label: '유류분 증여재산 합산', href: '/guide/inheritance/inheritance-forced-share-gift-calculation-scope' },
       { label: '특별수익·기여분 정리', href: '/guide/inheritance/inheritance-contribution-share-claim-track' },
       { label: '상속재산 조회 방법', href: '/guide/inheritance/inheritance-asset-inquiry-method' },

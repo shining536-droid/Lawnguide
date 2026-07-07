@@ -589,7 +589,6 @@ export const spokesBatch84AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '탄원서와 감경 요소, AI로 먼저 정리하기', link: '/chat?domain=dui' },
     internalLinks: [
       { label: '전동킥보드 음주 측정 음주운전 여부', href: '/guide/dui/dui-electric-scooter-measurement-falsely-accused-defense' },
-      { label: '전동킥보드 음주 단속 처벌 여부', href: '/guide/dui/dui-personal-mobility-scooter-track' },
       { label: '음주측정 과호흡 불응 측정거부 여부', href: '/guide/dui/dui-breath-test-hyperventilation-refusal-falsely-accused-defense' },
       { label: '음주운전 종합 가이드', href: '/guide/dui' },
       { label: '처음 음주운전 면허정지 면허취소 분기', href: '/guide/dui/dui-first-offense-license-suspension-vs-revocation-criteria' },

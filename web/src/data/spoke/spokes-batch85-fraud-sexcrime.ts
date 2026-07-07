@@ -342,7 +342,6 @@ export const spokesBatch85FraudSexCrime: SpokePage[] = [
       { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
       { label: '로맨스 스캠 회복', href: '/guide/fraud/fraud-romance-scam-recovery-steps' },
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
-      { label: '로맨스스캠 해외송금 유도', href: '/guide/fraud/fraud-romance-overseas-remittance-track' },
       { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
     ],
   },

@@ -56,7 +56,7 @@ export const spokesBatch13Pages16to20: SpokePage[] = [
       },
       {
         question: '사업주가 돈이 없다고 하면 어떻게 받나요?',
-        answer: '<strong>체불 사업주가 돈이 없더라도 받을 수 있는 방법이 있습니다.</strong> 첫째, 사업주 재산에 대한 강제집행(압류)을 신청할 수 있습니다. 둘째, 사업주가 파산이나 폐업한 경우 임금채권보장법 제7조에 따라 고용노동부에서 체당금(최대 1,000만 원 한도)을 대신 지급받을 수 있습니다.'
+        answer: '<strong>체불 사업주가 돈이 없더라도 받을 수 있는 방법이 있습니다.</strong> 첫째, 사업주 재산에 대한 강제집행(압류)을 신청할 수 있습니다. 둘째, 사업주가 파산이나 폐업한 경우 임금채권보장법 제7조에 따라 고용노동부에서 대지급금(최대 1,000만 원 한도)을 대신 지급받을 수 있습니다.'
       },
       {
         question: '진정과 고소는 무엇이 다른가요?',
@@ -68,10 +68,10 @@ export const spokesBatch13Pages16to20: SpokePage[] = [
       link: '/diagnosis/wage'
     },
     internalLinks: [
-      { label: '임금체불 신고 절차와 처리 기간', href: '/spoke/wage/unpaid-wage-report-procedure-timeline' },
-      { label: '임금체불 어디부터 시작해야 하나', href: '/spoke/wage/unpaid-wage-where-to-start' },
-      { label: '퇴직 후 밀린 임금 청구 방법', href: '/spoke/wage/unpaid-salary-after-resignation' },
-      { label: '임금체불 증거 수집 체크리스트', href: '/spoke/wage/unpaid-wage-evidence-checklist' },
+      { label: '임금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
+      { label: '임금체불 어디부터 시작해야 하나', href: '/guide/wage/unpaid-wage-where-to-start' },
+      { label: '퇴직 후 밀린 임금 청구 방법', href: '/guide/wage/unpaid-salary-after-resignation' },
+      { label: '임금체불 증거 수집 체크리스트', href: '/guide/wage/unpaid-wage-evidence-checklist' },
       { label: '임금체불 가이드', href: '/guide/wage' }
     ]
   },
@@ -102,11 +102,11 @@ export const spokesBatch13Pages16to20: SpokePage[] = [
       },
       {
         title: '셋째 — 고용노동부에 진정하세��',
-        content: '<p><strong style="color:#1e3a5f">내용증명에도 반응이 없다면, 관할 고용노동지청에 진정서를 제출합니다. 진정은 무료이며, 근로감독관이 직접 사업주를 조사합��다.</strong></p>\n<p><strong>��수 방법:</strong> 고용노동부 홈페이지(minwon.moel.go.kr)에서 온라인 접수가 가장 빠릅니다. 방문이나 우편 접수도 가능하며, 대표전화 1350에서 관할 지청을 안내받을 수 있습니다.</p>\n<p><strong>조사 진행:</strong> 근로감독관이 사업주를 소환하여 체불 사실을 확인하고, 체불이 인정되면 시정 지시를 내립니다. 시정 지시에도 불응하면 검찰에 송치하여 형사처벌이 진행됩니다. 근로기준법 제109조에 따라 3년 이하의 징역 또는 3,000만 원 이하의 벌금에 처해질 수 있습니��.</p>\n<p><strong>병행 가능한 절차:</strong> 진정과 동시에 ①법원 지급명령 신청(소액 체불에 효과적), ②민사소송 제기, ③체당금 신청(사업주 파산·폐업 시)도 검토할 수 ��습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 노동부 진정은 무료이고, 형사처벌 압박이 가장 강력한 임금 회수 ��단입니다.</blockquote>'
+        content: '<p><strong style="color:#1e3a5f">내용증명에도 반응이 없다면, 관할 고용노동지청에 진정서를 제출합니다. 진정은 무료이며, 근로감독관이 직접 사업주를 조사합��다.</strong></p>\n<p><strong>��수 방법:</strong> 고용노동부 홈페이지(minwon.moel.go.kr)에서 온라인 접수가 가장 빠릅니다. 방문이나 우편 접수도 가능하며, 대표전화 1350에서 관할 지청을 안내받을 수 있습니다.</p>\n<p><strong>조사 진행:</strong> 근로감독관이 사업주를 소환하여 체불 사실을 확인하고, 체불이 인정되면 시정 지시를 내립니다. 시정 지시에도 불응하면 검찰에 송치하여 형사처벌이 진행됩니다. 근로기준법 제109조에 따라 3년 이하의 징역 또는 3,000만 원 이하의 벌금에 처해질 수 있습니��.</p>\n<p><strong>병행 가능한 절차:</strong> 진정과 동시에 ①법원 지급명령 신청(소액 체불에 효과적), ②민사소송 제기, ③대지급금 신청(사업주 파산·폐업 시)도 검토할 수 ��습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 노동부 진정은 무료이고, 형사처벌 압박이 가장 강력한 임금 회수 ��단입니다.</blockquote>'
       },
       {
         title: '넷째 — 끝까지 못 받으면 법적 구제 수단 활용',
-        content: '<p><strong style="color:#1e3a5f">진정으로도 해결되지 않거나, 사업주가 재산을 은닉하는 경우에는 추가적인 법적 구제 수단을 활용해야 합니다.</strong></p>\n<p><strong>지급명령 신청:</strong> 법원에 지급명령을 신청하면 사업주가 이의를 제기하지 않는 한 곧바로 강제집행이 가능합니다. 인지대가 소송의 10분의 1 수준이고, 2~4주 만에 결정이 나오므로 체불 금액이 명확한 경우 매우 효과적입니다.</p>\n<p><strong>체당금 제도:</strong> 사업주가 파산하거나 폐업한 경우, 임금채권보장법 제7조에 따라 고용노동부에서 체불 임금을 대신 지급합니다. 최대 1,000만 원까지 지급받을 수 있으며, 퇴직일로부터 2년 이내에 신청해야 합니다.</p>\n<p><strong>소액사건심판:</strong> 체불 금액이 3,000만 원 이하이면 소액사건심판으로 진행하여 1~2회의 변론으로 신속하게 판결받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 지급명령은 2~4주, 체당금은 파산·폐업 시 최대 1,000만 원까지 보장됩니다.</blockquote>'
+        content: '<p><strong style="color:#1e3a5f">진정으로도 해결되지 않거나, 사업주가 재산을 은닉하는 경우에는 추가적인 법적 구제 수단을 활용해야 합니다.</strong></p>\n<p><strong>지급명령 신청:</strong> 법원에 지급명령을 신청하면 사업주가 이의를 제기하지 않는 한 곧바로 강제집행이 가능합니다. 인지대가 소송의 10분의 1 수준이고, 2~4주 만에 결정이 나오므로 체불 금액이 명확한 경우 매우 효과적입니다.</p>\n<p><strong>대지급금 제도:</strong> 사업주가 파산하거나 폐업한 경우, 임금채권보장법 제7조에 따라 고용노동부에서 체불 임금을 대신 지급합니다. 최대 1,000만 원까지 지급받을 수 있으며, 퇴직일로부터 2년 이내에 신청해야 합니다.</p>\n<p><strong>소액사건심판:</strong> 체불 금액이 3,000만 원 이하이면 소액사건심판으로 진행하여 1~2회의 변론으로 신속하게 판결받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 지급명령은 2~4주, 대지급금은 파산·폐업 시 최대 1,000만 원까지 보장됩니다.</blockquote>'
       }
     ],
     cases: [
@@ -143,10 +143,10 @@ export const spokesBatch13Pages16to20: SpokePage[] = [
       link: '/diagnosis/wage'
     },
     internalLinks: [
-      { label: '임금체�� 진정서 작성��과 양식', href: '/spoke/wage/unpaid-wage-petition-writing' },
-      { label: '��금체불 신고 절차와 처리 기간', href: '/spoke/wage/unpaid-wage-report-procedure-timeline' },
-      { label: '퇴직 후 밀린 임금 청구 방법', href: '/spoke/wage/unpaid-salary-after-resignation' },
-      { label: '임금체불 필요 서류 목록', href: '/spoke/wage/unpaid-wage-complaint-docs' },
+      { label: '임금체�� 진정서 작성��과 양식', href: '/guide/wage/unpaid-wage-petition-writing' },
+      { label: '��금체불 신고 절차와 처리 기간', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
+      { label: '퇴직 후 밀린 임금 청구 방법', href: '/guide/wage/unpaid-salary-after-resignation' },
+      { label: '임금체불 필요 서류 목록', href: '/guide/wage/unpaid-wage-complaint-docs' },
       { label: '임금체불 가이드', href: '/guide/wage' }
     ]
   },
@@ -217,9 +217,9 @@ export const spokesBatch13Pages16to20: SpokePage[] = [
       link: '/diagnosis/unemployment'
     },
     internalLinks: [
-      { label: '권고사직 실업급여 받는 법', href: '/spoke/unemployment/recommended-resignation-unemployment-benefit' },
-      { label: '자진 퇴사 실업급여 가능 여부', href: '/spoke/unemployment/voluntary-resignation-benefit-eligible-cases' },
-      { label: '실업급여 신청 전 체크리스트', href: '/spoke/unemployment/pre-application-checklist' },
+      { label: '권고사직 실업급여 받는 법', href: '/guide/unemployment/recommended-resignation-unemployment-benefit' },
+      { label: '자진 퇴사 실업급여 가능 여부', href: '/guide/unemployment/voluntary-resignation-benefit-eligible-cases' },
+      { label: '실업급여 신청 전 체크리스트', href: '/guide/unemployment/pre-application-checklist' },
       { label: '실업급여 신청 필요 서류 6가지', href: '/guide/unemployment/application-required-documents-checklist' },
       { label: '실업급여 가이드', href: '/guide/unemployment' }
     ]
@@ -291,9 +291,9 @@ export const spokesBatch13Pages16to20: SpokePage[] = [
       link: '/diagnosis/unemployment'
     },
     internalLinks: [
-      { label: '실업급여 신청~수급 전체 절차', href: '/spoke/unemployment/application-to-payment-full-procedure' },
-      { label: '자진 퇴사 실업급여 가능 여부', href: '/spoke/unemployment/voluntary-resignation-benefit-eligible-cases' },
-      { label: '실업급��� 신청 전 체크리스트', href: '/spoke/unemployment/pre-application-checklist' },
+      { label: '실업급여 신청~수급 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
+      { label: '자진 퇴사 실업급여 가능 여부', href: '/guide/unemployment/voluntary-resignation-benefit-eligible-cases' },
+      { label: '실업급��� 신청 전 체크리스트', href: '/guide/unemployment/pre-application-checklist' },
       { label: '실업급여 신청 필요 서류 6가지', href: '/guide/unemployment/application-required-documents-checklist' },
       { label: '실업급여 가이드', href: '/guide/unemployment' }
     ]

@@ -37,7 +37,7 @@ export const spokesBatch22_29to35: SpokePage[] = [
       {
         title: '과실 인정 4가지 요건',
         content:
-          '<p><strong style="color:#1e3a5f">중개사의 과실로 손해배상을 받으려면 4가지 요건을 모두 충족해야 합니다</strong></p>\n<ul>\n<li><strong>1. 의무 위반</strong> — 중개사가 확인·설명 의무를 위반한 사실이 있어야 합니다. 등기부를 확인하지 않았거나, 하자를 알면서 설명하지 않았거나, 확인·설명서에 허위 기재를 한 경우가 해당합니다</li>\n<li><strong>2. 고의 또는 과실</strong> — 중개사가 알면서 숨겼거나(고의), 전문가로서 마땅히 알았어야 할 사항을 확인하지 않은 경우(과실)입니다. "몰랐다"는 변명만으로 면책되지 않습니다</li>\n<li><strong>3. 손해 발생</strong> — 실제로 경제적 손해가 발생해야 합니다. 수리비, 시세 차이, 계약 해제 비용, 이사 비용 등 구체적 금액으로 산정할 수 있어야 합니다</li>\n<li><strong>4. 인과관계</strong> — 중개사의 의무 위반과 손해 사이에 인과관계가 있어야 합니다. 중개사가 제대로 설명했더라면 계약하지 않았을 것이라는 점을 입증해야 합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">중개사 과실로 피해를 입었다면 배상 가능성을 확인해보세요</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">중개사 과실 피해 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">중개사의 과실로 손해배상을 받으려면 4가지 요건을 모두 충족해야 합니다</strong></p>\n<ul>\n<li><strong>1. 의무 위반</strong> — 중개사가 확인·설명 의무를 위반한 사실이 있어야 합니다. 등기부를 확인하지 않았거나, 하자를 알면서 설명하지 않았거나, 확인·설명서에 허위 기재를 한 경우가 해당합니다</li>\n<li><strong>2. 고의 또는 과실</strong> — 중개사가 알면서 숨겼거나(고의), 전문가로서 마땅히 알았어야 할 사항을 확인하지 않은 경우(과실)입니다. "몰랐다"는 변명만으로 면책되지 않습니다</li>\n<li><strong>3. 손해 발생</strong> — 실제로 경제적 손해가 발생해야 합니다. 수리비, 시세 차이, 계약 해제 비용, 이사 비용 등 구체적 금액으로 산정할 수 있어야 합니다</li>\n<li><strong>4. 인과관계</strong> — 중개사의 의무 위반과 손해 사이에 인과관계가 있어야 합니다. 중개사가 제대로 설명했더라면 계약하지 않았을 것이라는 점을 입증해야 합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">중개사 과실로 피해를 입었다면 배상 가능성을 확인해보세요</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">중개사 과실 피해 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '손해배상 청구 절차와 공제회 보증보험',
@@ -87,15 +87,15 @@ export const spokesBatch22_29to35: SpokePage[] = [
       },
     ],
     cta: {
-      text: '중개사 과실 피해 무료 상담받기',
+      text: '중개사 과실 피해 상담받기',
       link: '/diagnosis/real-estate-sale',
     },
     internalLinks: [
       { label: '부동산 매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매 하자 발견 시 손해배상 청구', href: '/spoke/real-estate-sale/sale-defect-discovery-damage-claim' },
-      { label: '등기부등본 확인 체크리스트', href: '/spoke/real-estate-sale/registry-check-before-contract' },
-      { label: '매매 특약 위반 시 대응법', href: '/spoke/real-estate-sale/special-agreement-breach-response' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매 하자 발견 시 손해배상 청구', href: '/guide/real-estate-sale/sale-defect-discovery-damage-claim' },
+      { label: '등기부등본 확인 체크리스트', href: '/guide/real-estate-sale/registry-check-before-contract' },
+      { label: '매매 특약 위반 시 대응법', href: '/guide/real-estate-sale/special-agreement-breach-response' },
     ],
   },
 
@@ -126,7 +126,7 @@ export const spokesBatch22_29to35: SpokePage[] = [
       {
         title: '건축물대장과 실제 용도 확인',
         content:
-          '<p><strong style="color:#1e3a5f">건축물대장은 건물의 법적 용도, 면적, 위반건축물 여부를 확인하는 핵심 서류입니다</strong></p>\n<ul>\n<li><strong>용도 확인</strong> — 건축물대장의 용도(주거용, 근린생활시설 등)가 실제 사용 용도와 일치하는지 확인합니다. 근린생활시설을 주거용으로 사용하는 경우 주택임대차보호법 적용이 제한될 수 있습니다</li>\n<li><strong>위반건축물 표시</strong> — 건축물대장에 "위반건축물"로 표시되어 있으면 불법 증축·용도 변경이 있는 부동산입니다. 이행강제금 부과, 원상복구 명령 등의 위험이 있으므로 계약을 신중하게 판단하세요</li>\n<li><strong>면적 확인</strong> — 등기부상 면적과 건축물대장상 면적이 다를 수 있습니다. 실제 사용 면적이 공부상 면적보다 작으면 계약 조건을 재협상하세요</li>\n<li><strong>다세대·다가구 구분</strong> — 다가구주택은 한 건물 전체가 1개 등기이므로 전세 보증금 보호에 취약합니다. 선순위 임차인이 얼마나 있는지 확인이 어렵기 때문에 주택도시보증공사(HUG) 전세보증보험 가입 가능 여부를 먼저 확인하세요</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">부동산 계약 전 사기 위험을 점검하고 싶다면</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">부동산 사기 예방 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">건축물대장은 건물의 법적 용도, 면적, 위반건축물 여부를 확인하는 핵심 서류입니다</strong></p>\n<ul>\n<li><strong>용도 확인</strong> — 건축물대장의 용도(주거용, 근린생활시설 등)가 실제 사용 용도와 일치하는지 확인합니다. 근린생활시설을 주거용으로 사용하는 경우 주택임대차보호법 적용이 제한될 수 있습니다</li>\n<li><strong>위반건축물 표시</strong> — 건축물대장에 "위반건축물"로 표시되어 있으면 불법 증축·용도 변경이 있는 부동산입니다. 이행강제금 부과, 원상복구 명령 등의 위험이 있으므로 계약을 신중하게 판단하세요</li>\n<li><strong>면적 확인</strong> — 등기부상 면적과 건축물대장상 면적이 다를 수 있습니다. 실제 사용 면적이 공부상 면적보다 작으면 계약 조건을 재협상하세요</li>\n<li><strong>다세대·다가구 구분</strong> — 다가구주택은 한 건물 전체가 1개 등기이므로 전세 보증금 보호에 취약합니다. 선순위 임차인이 얼마나 있는지 확인이 어렵기 때문에 주택도시보증공사(HUG) 전세보증보험 가입 가능 여부를 먼저 확인하세요</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">부동산 계약 전 사기 위험을 점검하고 싶다면</strong><br/>\n<a href="/diagnosis/real-estate-sale" style="color:#1565c0;font-weight:600">부동산 사기 예방 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '임대인 신원 확인과 대리인 거래 주의',
@@ -176,15 +176,15 @@ export const spokesBatch22_29to35: SpokePage[] = [
       },
     ],
     cta: {
-      text: '부동산 사기 예방 무료 상담받기',
+      text: '부동산 사기 예방 상담받기',
       link: '/diagnosis/real-estate-sale',
     },
     internalLinks: [
       { label: '부동산 매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '등기부등본 확인 체크리스트', href: '/spoke/real-estate-sale/registry-check-before-contract' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매 하자 발견 시 손해배상 청구', href: '/spoke/real-estate-sale/sale-defect-discovery-damage-claim' },
-      { label: '매매 특약 위반 시 대응법', href: '/spoke/real-estate-sale/special-agreement-breach-response' },
+      { label: '등기부등본 확인 체크리스트', href: '/guide/real-estate-sale/registry-check-before-contract' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매 하자 발견 시 손해배상 청구', href: '/guide/real-estate-sale/sale-defect-discovery-damage-claim' },
+      { label: '매매 특약 위반 시 대응법', href: '/guide/real-estate-sale/special-agreement-breach-response' },
     ],
   },
 
@@ -222,7 +222,7 @@ export const spokesBatch22_29to35: SpokePage[] = [
       {
         title: '조사 진행 과정과 소요 기간',
         content:
-          '<p><strong style="color:#1e3a5f">조사는 통상 2~4주 내에 완료되며, 피해자·가해자·참고인 면담과 증거 확인으로 진행됩니다</strong></p>\n<ul>\n<li><strong>1단계: 신고 접수·보호조치(1~3일)</strong> — 신고 접수 후 피해자에게 근무장소 변경, 유급휴가 등 보호조치를 취합니다. 가해자와의 물리적 분리가 최우선입니다</li>\n<li><strong>2단계: 조사위원회 구성(3~5일)</strong> — 외부 전문가를 포함한 3~5인의 조사위원회를 구성합니다. 50인 미만 사업장은 인사 담당자가 단독으로 조사하기도 합니다</li>\n<li><strong>3단계: 면담 조사(1~2주)</strong> — 피해자 진술, 가해자 소명, 참고인 확인을 순차적으로 진행합니다. 피해자와 가해자를 동시에 대면시키지 않는 것이 원칙입니다</li>\n<li><strong>4~5단계: 결과 보고·징계(1~2주)</strong> — 조사결과를 사업주에게 보고하고, 징계위원회가 가해자에 대한 징계 수위를 결정합니다. 결과는 피해자와 가해자 모두에게 서면 통보합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">조사가 지연되거나 보호조치가 없다면 대응 방법을 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">성희롱 조사 절차 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">조사는 통상 2~4주 내에 완료되며, 피해자·가해자·참고인 면담과 증거 확인으로 진행됩니다</strong></p>\n<ul>\n<li><strong>1단계: 신고 접수·보호조치(1~3일)</strong> — 신고 접수 후 피해자에게 근무장소 변경, 유급휴가 등 보호조치를 취합니다. 가해자와의 물리적 분리가 최우선입니다</li>\n<li><strong>2단계: 조사위원회 구성(3~5일)</strong> — 외부 전문가를 포함한 3~5인의 조사위원회를 구성합니다. 50인 미만 사업장은 인사 담당자가 단독으로 조사하기도 합니다</li>\n<li><strong>3단계: 면담 조사(1~2주)</strong> — 피해자 진술, 가해자 소명, 참고인 확인을 순차적으로 진행합니다. 피해자와 가해자를 동시에 대면시키지 않는 것이 원칙입니다</li>\n<li><strong>4~5단계: 결과 보고·징계(1~2주)</strong> — 조사결과를 사업주에게 보고하고, 징계위원회가 가해자에 대한 징계 수위를 결정합니다. 결과는 피해자와 가해자 모두에게 서면 통보합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">조사가 지연되거나 보호조치가 없다면 대응 방법을 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">성희롱 조사 절차 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '피해자 보호조치 — 분리·전보·유급휴가',
@@ -272,15 +272,15 @@ export const spokesBatch22_29to35: SpokePage[] = [
       },
     ],
     cta: {
-      text: '성희롱 조사 절차 무료 상담받기',
+      text: '성희롱 조사 절차 상담받기',
       link: '/diagnosis/sexual-harassment',
     },
     internalLinks: [
       { label: '직장 내 성희롱 가이드', href: '/guide/sexual-harassment' },
-      { label: '직장 내 성희롱 초기 확인법', href: '/spoke/sexual-harassment/workplace-harassment-first-check' },
-      { label: '성희롱 신고 절차 안내', href: '/spoke/sexual-harassment/workplace-harassment-report-procedure' },
-      { label: '성희롱 보복 방지 대처법', href: '/spoke/sexual-harassment/workplace-harassment-retaliation-protection' },
-      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/spoke/sexual-harassment/secondary-victimization-after-report' },
+      { label: '직장 내 성희롱 초기 확인법', href: '/guide/sexual-harassment/workplace-harassment-first-check' },
+      { label: '성희롱 신고 절차 안내', href: '/guide/sexual-harassment/workplace-harassment-report-procedure' },
+      { label: '성희롱 보복 방지 대처법', href: '/guide/sexual-harassment/workplace-harassment-retaliation-protection' },
+      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/guide/sexual-harassment/secondary-victimization-after-report' },
     ],
   },
 
@@ -311,7 +311,7 @@ export const spokesBatch22_29to35: SpokePage[] = [
       {
         title: '판단 기준 5가지 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">대법원 판례와 인권위 결정례에 따라 언어적 성희롱은 다음 5가지 기준으로 판단됩니다</strong></p>\n<ul>\n<li><strong>1. 성적 함의가 있는가</strong> — 발언이 객관적으로 성적 의미를 담고 있어야 합니다. 단순한 칭찬("일을 잘하네")과 성적 평가("오늘 섹시하다")는 명확히 다릅니다</li>\n<li><strong>2. 상대방이 원하지 않는 행위인가</strong> — 피해자가 거부 의사를 표시하거나, 불쾌감을 느꼈다면 "원하지 않는 행위"에 해당할 소지가 있습니다. 명시적 거부가 없었더라도 상하관계상 거부하기 어려운 상황이라면 충분합니다</li>\n<li><strong>3. 업무 관련성이 있는가</strong> — 직장 내 성희롱은 업무 관련 상황에서 발생해야 합니다. 근무시간, 회식, 출장, 업무 관련 모임 등이 포함되며, 퇴근 후 업무 메신저를 통한 발언도 해당됩니다</li>\n<li><strong>4. 피해자에게 불이익이 있는가</strong> — 성적 언동에 대한 거부를 이유로 인사상 불이익(승진 탈락, 업무 배제 등)이 있거나, 성적 언동으로 근무 환경이 악화되었다면 성희롱입니다</li>\n<li><strong>5. 합리적 피해자 기준</strong> — 법원은 "같은 처지의 합리적인 사람"이 느꼈을 굴욕감·혐오감을 기준으로 판단합니다. 가해자의 의도가 아닌 피해자의 관점에서 판단합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내가 겪은 상황이 성희롱에 해당하는지 확인하고 싶다면</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">언어적 성희롱 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">대법원 판례와 인권위 결정례에 따라 언어적 성희롱은 다음 5가지 기준으로 판단됩니다</strong></p>\n<ul>\n<li><strong>1. 성적 함의가 있는가</strong> — 발언이 객관적으로 성적 의미를 담고 있어야 합니다. 단순한 칭찬("일을 잘하네")과 성적 평가("오늘 섹시하다")는 명확히 다릅니다</li>\n<li><strong>2. 상대방이 원하지 않는 행위인가</strong> — 피해자가 거부 의사를 표시하거나, 불쾌감을 느꼈다면 "원하지 않는 행위"에 해당할 소지가 있습니다. 명시적 거부가 없었더라도 상하관계상 거부하기 어려운 상황이라면 충분합니다</li>\n<li><strong>3. 업무 관련성이 있는가</strong> — 직장 내 성희롱은 업무 관련 상황에서 발생해야 합니다. 근무시간, 회식, 출장, 업무 관련 모임 등이 포함되며, 퇴근 후 업무 메신저를 통한 발언도 해당됩니다</li>\n<li><strong>4. 피해자에게 불이익이 있는가</strong> — 성적 언동에 대한 거부를 이유로 인사상 불이익(승진 탈락, 업무 배제 등)이 있거나, 성적 언동으로 근무 환경이 악화되었다면 성희롱입니다</li>\n<li><strong>5. 합리적 피해자 기준</strong> — 법원은 "같은 처지의 합리적인 사람"이 느꼈을 굴욕감·혐오감을 기준으로 판단합니다. 가해자의 의도가 아닌 피해자의 관점에서 판단합니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">내가 겪은 상황이 성희롱에 해당하는지 확인하고 싶다면</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">언어적 성희롱 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '증거 수집 방법 — 녹음·메시지·목격자',
@@ -361,15 +361,15 @@ export const spokesBatch22_29to35: SpokePage[] = [
       },
     ],
     cta: {
-      text: '언어적 성희롱 무료 상담받기',
+      text: '언어적 성희롱 상담받기',
       link: '/diagnosis/sexual-harassment',
     },
     internalLinks: [
       { label: '직장 내 성희롱 가이드', href: '/guide/sexual-harassment' },
-      { label: '직장 내 성희롱 초기 확인법', href: '/spoke/sexual-harassment/workplace-harassment-first-check' },
-      { label: '성희롱 신고 절차 안내', href: '/spoke/sexual-harassment/workplace-harassment-report-procedure' },
-      { label: '성희롱 보복 방지 대처법', href: '/spoke/sexual-harassment/workplace-harassment-retaliation-protection' },
-      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/spoke/sexual-harassment/secondary-victimization-after-report' },
+      { label: '직장 내 성희롱 초기 확인법', href: '/guide/sexual-harassment/workplace-harassment-first-check' },
+      { label: '성희롱 신고 절차 안내', href: '/guide/sexual-harassment/workplace-harassment-report-procedure' },
+      { label: '성희롱 보복 방지 대처법', href: '/guide/sexual-harassment/workplace-harassment-retaliation-protection' },
+      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/guide/sexual-harassment/secondary-victimization-after-report' },
     ],
   },
 
@@ -405,7 +405,7 @@ export const spokesBatch22_29to35: SpokePage[] = [
       {
         title: '합의금 산정 기준과 범위',
         content:
-          '<p><strong style="color:#1e3a5f">성희롱 합의금은 행위의 심각성, 피해 정도, 가해자의 지위 등에 따라 달라집니다</strong></p>\n<ul>\n<li><strong>위자료 기준</strong> — 법원 판결례를 보면 직장 내 성희롱 위자료는 300만~3,000만 원이 일반적이며, 강제추행 수준이면 1,000만~5,000만 원 이상이 인정되기도 합니다. 합의금은 판결 예상 금액보다 높게 형성되는 것이 일반적입니다</li>\n<li><strong>실손해 항목</strong> — 정신과 치료비, 상담비, 휴직 기간 급여 손실, 이직으로 인한 소득 감소, 교통비 등 실제 지출 비용을 산정합니다. 영수증과 진단서가 근거가 됩니다</li>\n<li><strong>가중 요소</strong> — 가해자가 상급자일수록, 행위가 반복적일수록, 피해자의 정신적 피해가 클수록, 회사의 대응이 미흡할수록 합의금이 높아집니다</li>\n<li><strong>감경 요소 주의</strong> — 가해자 측이 "합의하면 고소 취하해달라"고 요구하면, 고소 취하의 대가만큼 합의금이 높아야 합니다. 형사처벌이 면제되는 것은 가해자에게 매우 큰 이익이므로 저평가하지 마세요</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">합의금 적정성을 확인하고 싶다면</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">성희롱 합의 절차 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">성희롱 합의금은 행위의 심각성, 피해 정도, 가해자의 지위 등에 따라 달라집니다</strong></p>\n<ul>\n<li><strong>위자료 기준</strong> — 법원 판결례를 보면 직장 내 성희롱 위자료는 300만~3,000만 원이 일반적이며, 강제추행 수준이면 1,000만~5,000만 원 이상이 인정되기도 합니다. 합의금은 판결 예상 금액보다 높게 형성되는 것이 일반적입니다</li>\n<li><strong>실손해 항목</strong> — 정신과 치료비, 상담비, 휴직 기간 급여 손실, 이직으로 인한 소득 감소, 교통비 등 실제 지출 비용을 산정합니다. 영수증과 진단서가 근거가 됩니다</li>\n<li><strong>가중 요소</strong> — 가해자가 상급자일수록, 행위가 반복적일수록, 피해자의 정신적 피해가 클수록, 회사의 대응이 미흡할수록 합의금이 높아집니다</li>\n<li><strong>감경 요소 주의</strong> — 가해자 측이 "합의하면 고소 취하해달라"고 요구하면, 고소 취하의 대가만큼 합의금이 높아야 합니다. 형사처벌이 면제되는 것은 가해자에게 매우 큰 이익이므로 저평가하지 마세요</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">합의금 적정성을 확인하고 싶다면</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">성희롱 합의 절차 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '합의서 필수 기재사항',
@@ -455,15 +455,15 @@ export const spokesBatch22_29to35: SpokePage[] = [
       },
     ],
     cta: {
-      text: '성희롱 합의 절차 무료 상담받기',
+      text: '성희롱 합의 절차 상담받기',
       link: '/diagnosis/sexual-harassment',
     },
     internalLinks: [
       { label: '직장 내 성희롱 가이드', href: '/guide/sexual-harassment' },
-      { label: '직장 내 성희롱 초기 확인법', href: '/spoke/sexual-harassment/workplace-harassment-first-check' },
-      { label: '성희롱 신고 절차 안내', href: '/spoke/sexual-harassment/workplace-harassment-report-procedure' },
-      { label: '성희롱 보복 방지 대처법', href: '/spoke/sexual-harassment/workplace-harassment-retaliation-protection' },
-      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/spoke/sexual-harassment/secondary-victimization-after-report' },
+      { label: '직장 내 성희롱 초기 확인법', href: '/guide/sexual-harassment/workplace-harassment-first-check' },
+      { label: '성희롱 신고 절차 안내', href: '/guide/sexual-harassment/workplace-harassment-report-procedure' },
+      { label: '성희롱 보복 방지 대처법', href: '/guide/sexual-harassment/workplace-harassment-retaliation-protection' },
+      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/guide/sexual-harassment/secondary-victimization-after-report' },
     ],
   },
 
@@ -494,7 +494,7 @@ export const spokesBatch22_29to35: SpokePage[] = [
       {
         title: '근무 장소 변경·배치전환 등 보호조치',
         content:
-          '<p><strong style="color:#1e3a5f">피해 근로자가 요청하면 사업주는 다음과 같은 보호조치를 취해야 합니다</strong></p>\n<ul>\n<li><strong>근무장소 변경</strong> — 해당 고객과 접촉하지 않는 장소로 근무지를 변경합니다. 예를 들어 매장 내 다른 구역으로 배치하거나, 백오피스 업무로 전환합니다</li>\n<li><strong>배치전환</strong> — 고객 응대 업무에서 비응대 업무로 전환합니다. 이때 임금이나 근무 조건이 불리해져서는 안 됩니다</li>\n<li><strong>유급휴가</strong> — 피해가 심각하여 심리적 회복이 필요한 경우 유급휴가를 부여합니다. 연차와 별도의 유급휴가여야 합니다</li>\n<li><strong>해당 고객 출입 제한</strong> — 사업주는 성희롱 가해 고객의 출입을 제한하거나 거래를 중단할 수 있습니다. "고객 만족"보다 근로자 보호가 법적 의무입니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">고객 성희롱에 회사가 아무 조치도 안 한다면</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">고객 성희롱 사업주 의무 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">피해 근로자가 요청하면 사업주는 다음과 같은 보호조치를 취해야 합니다</strong></p>\n<ul>\n<li><strong>근무장소 변경</strong> — 해당 고객과 접촉하지 않는 장소로 근무지를 변경합니다. 예를 들어 매장 내 다른 구역으로 배치하거나, 백오피스 업무로 전환합니다</li>\n<li><strong>배치전환</strong> — 고객 응대 업무에서 비응대 업무로 전환합니다. 이때 임금이나 근무 조건이 불리해져서는 안 됩니다</li>\n<li><strong>유급휴가</strong> — 피해가 심각하여 심리적 회복이 필요한 경우 유급휴가를 부여합니다. 연차와 별도의 유급휴가여야 합니다</li>\n<li><strong>해당 고객 출입 제한</strong> — 사업주는 성희롱 가해 고객의 출입을 제한하거나 거래를 중단할 수 있습니다. "고객 만족"보다 근로자 보호가 법적 의무입니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">고객 성희롱에 회사가 아무 조치도 안 한다면</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">고객 성희롱 사업주 의무 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '사업주가 조치를 안 하는 경우 구제 방법',
@@ -544,15 +544,15 @@ export const spokesBatch22_29to35: SpokePage[] = [
       },
     ],
     cta: {
-      text: '고객 성희롱 사업주 의무 무료 상담받기',
+      text: '고객 성희롱 사업주 의무 상담받기',
       link: '/diagnosis/sexual-harassment',
     },
     internalLinks: [
       { label: '직장 내 성희롱 가이드', href: '/guide/sexual-harassment' },
-      { label: '직장 내 성희롱 초기 확인법', href: '/spoke/sexual-harassment/workplace-harassment-first-check' },
-      { label: '성희롱 신고 절차 안내', href: '/spoke/sexual-harassment/workplace-harassment-report-procedure' },
-      { label: '성희롱 보복 방지 대처법', href: '/spoke/sexual-harassment/workplace-harassment-retaliation-protection' },
-      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/spoke/sexual-harassment/secondary-victimization-after-report' },
+      { label: '직장 내 성희롱 초기 확인법', href: '/guide/sexual-harassment/workplace-harassment-first-check' },
+      { label: '성희롱 신고 절차 안내', href: '/guide/sexual-harassment/workplace-harassment-report-procedure' },
+      { label: '성희롱 보복 방지 대처법', href: '/guide/sexual-harassment/workplace-harassment-retaliation-protection' },
+      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/guide/sexual-harassment/secondary-victimization-after-report' },
     ],
   },
 
@@ -583,7 +583,7 @@ export const spokesBatch22_29to35: SpokePage[] = [
       {
         title: '증거 수집 5가지 방법 — 캡처·원본보존·공증',
         content:
-          '<p><strong style="color:#1e3a5f">디지털 증거는 시간이 지나면 삭제·변조될 위험이 있으므로 즉시 보존 조치를 취해야 합니다</strong></p>\n<ul>\n<li><strong>1. 전체 화면 캡처</strong> — 메시지 캡처 시 발신자 이름, 날짜·시간, 메시지 내용이 모두 보이도록 전체 화면을 캡처할 수 있습니다. 부분 캡처는 조작 의심을 받을 수 있으므로 전체 대화 흐름이 보여야 합니다</li>\n<li><strong>2. 화면 녹화</strong> — 스마트폰의 화면 녹화 기능으로 대화 내용을 스크롤하면서 녹화합니다. 녹화 영상은 캡처보다 조작이 어려워 증거력이 높습니다</li>\n<li><strong>3. 원본 데이터 보존</strong> — 메시지를 절대 삭제하지 마세요. 카카오톡의 경우 "대화 내보내기" 기능으로 전체 대화를 텍스트 파일로 백업합니다. 이메일은 원본을 별도 폴더에 보존합니다</li>\n<li><strong>4. 공증</strong> — 중요한 증거는 공증인 사무소에서 컴퓨터 화면을 촬영·출력하여 공증을 받습니다. 공증된 출력물은 법원에서 증거 원본으로 인정될 수 있습니다. 비용은 5만~10만 원 수준입니다</li>\n<li><strong>5. 제3자 확인</strong> — 동료나 가족에게 화면을 보여주고 확인 사실을 기록합니다. 나중에 증인으로 출석하여 "캡처 당시 원본 화면을 직접 확인했다"고 진술할 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">온라인 성희롱 증거를 확보했다면 대응 방법을 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">온라인 성희롱 증거 무료 상담받기 &rarr;</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">디지털 증거는 시간이 지나면 삭제·변조될 위험이 있으므로 즉시 보존 조치를 취해야 합니다</strong></p>\n<ul>\n<li><strong>1. 전체 화면 캡처</strong> — 메시지 캡처 시 발신자 이름, 날짜·시간, 메시지 내용이 모두 보이도록 전체 화면을 캡처할 수 있습니다. 부분 캡처는 조작 의심을 받을 수 있으므로 전체 대화 흐름이 보여야 합니다</li>\n<li><strong>2. 화면 녹화</strong> — 스마트폰의 화면 녹화 기능으로 대화 내용을 스크롤하면서 녹화합니다. 녹화 영상은 캡처보다 조작이 어려워 증거력이 높습니다</li>\n<li><strong>3. 원본 데이터 보존</strong> — 메시지를 절대 삭제하지 마세요. 카카오톡의 경우 "대화 내보내기" 기능으로 전체 대화를 텍스트 파일로 백업합니다. 이메일은 원본을 별도 폴더에 보존합니다</li>\n<li><strong>4. 공증</strong> — 중요한 증거는 공증인 사무소에서 컴퓨터 화면을 촬영·출력하여 공증을 받습니다. 공증된 출력물은 법원에서 증거 원본으로 인정될 수 있습니다. 비용은 5만~10만 원 수준입니다</li>\n<li><strong>5. 제3자 확인</strong> — 동료나 가족에게 화면을 보여주고 확인 사실을 기록합니다. 나중에 증인으로 출석하여 "캡처 당시 원본 화면을 직접 확인했다"고 진술할 수 있습니다</li>\n</ul>\n<div style="margin-top:16px;padding:14px 18px;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:4px solid #f9a825;border-radius:8px">\n<strong style="color:#e65100">온라인 성희롱 증거를 확보했다면 대응 방법을 확인하세요</strong><br/>\n<a href="/diagnosis/sexual-harassment" style="color:#1565c0;font-weight:600">온라인 성희롱 증거 상담받기 &rarr;</a>\n</div>',
       },
       {
         title: '삭제된 메시지 복구 가능성',
@@ -633,15 +633,15 @@ export const spokesBatch22_29to35: SpokePage[] = [
       },
     ],
     cta: {
-      text: '온라인 성희롱 증거 무료 상담받기',
+      text: '온라인 성희롱 증거 상담받기',
       link: '/diagnosis/sexual-harassment',
     },
     internalLinks: [
       { label: '직장 내 성희롱 가이드', href: '/guide/sexual-harassment' },
-      { label: '직장 내 성희롱 초기 확인법', href: '/spoke/sexual-harassment/workplace-harassment-first-check' },
-      { label: '성희롱 신고 절차 안내', href: '/spoke/sexual-harassment/workplace-harassment-report-procedure' },
-      { label: '성희롱 보복 방지 대처법', href: '/spoke/sexual-harassment/workplace-harassment-retaliation-protection' },
-      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/spoke/sexual-harassment/secondary-victimization-after-report' },
+      { label: '직장 내 성희롱 초기 확인법', href: '/guide/sexual-harassment/workplace-harassment-first-check' },
+      { label: '성희롱 신고 절차 안내', href: '/guide/sexual-harassment/workplace-harassment-report-procedure' },
+      { label: '성희롱 보복 방지 대처법', href: '/guide/sexual-harassment/workplace-harassment-retaliation-protection' },
+      { label: '성희롱 신고 후 2차 가해 주의사항', href: '/guide/sexual-harassment/secondary-victimization-after-report' },
     ],
   },
 ];

@@ -71,9 +71,9 @@ export const spokesBatch12Pages21to25: SpokePage[] = [
       link: '/diagnosis/defamation'
     },
     internalLinks: [
-      { label: '명예훼손 피해 어디부터 시작해야 하나', href: '/spoke/defamation/defamation-victim-where-to-start' },
+      { label: '명예훼손 피해 어디부터 시작해야 하나', href: '/guide/defamation/defamation-victim-where-to-start' },
       { label: 'defamation 도메인 허브', href: '/guide/defamation' },
-      { label: '명예훼손 고소장 작성법', href: '/spoke/defamation/defamation-complaint-writing-guide' },
+      { label: '명예훼손 고소장 작성법', href: '/guide/defamation/defamation-complaint-writing-guide' },
       { label: '명예훼손 진실적시 항변', href: '/guide/defamation/defamation-accused-truth-defense-argument' },
       { label: '인터넷 게시글 작성자 특정 방법', href: '/guide/defamation/anonymous-poster-identification' }
     ]
@@ -143,11 +143,11 @@ export const spokesBatch12Pages21to25: SpokePage[] = [
       link: '/diagnosis/stalking'
     },
     internalLinks: [
-      { label: '스토킹 신고부터 접근금지까지 절차', href: '/spoke/stalking/stalking-report-and-restraining-order' },
+      { label: '스토킹 신고부터 접근금지까지 절차', href: '/guide/stalking/stalking-report-and-restraining-order' },
       { label: '스토킹 증거 수집할 때 흔히 하는', href: '/guide/stalking/evidence-collection-common-mistakes' },
       { label: '스토킹 잠정조치 긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
       { label: '스토킹 피해자 긴급응급조치 요청 방법', href: '/guide/stalking/emergency-protective-measures' },
-      { label: '헤어진 연인 연락 스토킹 해당 여부', href: '/spoke/stalking/ex-keeps-contacting-is-it-stalking' }
+      { label: '헤어진 연인 연락 스토킹 해당 여부', href: '/guide/stalking/ex-keeps-contacting-is-it-stalking' }
     ]
   },
   {
@@ -216,10 +216,9 @@ export const spokesBatch12Pages21to25: SpokePage[] = [
     },
     internalLinks: [
       { label: 'digital-sex-crime 도메인 허브', href: '/guide/digital-sex-crime' },
-      { label: '피해영상 삭제 지원 절차', href: '/spoke/digital-sex-crime/victim-video-deletion-support-procedure' },
-      { label: '딥페이크 합성물 유포 시 법적 대응', href: '/guide/digital-sex-crime/deepfake-distribution-legal-response' },
+      { label: '피해영상 삭제 지원 절차', href: '/guide/digital-sex-crime/victim-video-deletion-support-procedure' },
       { label: '딥페이크 피해 영상 유포 차단과 삭제', href: '/guide/digital-sex-crime/deepfake-distribution-block-deletion' },
-      { label: '불법촬영 신고 및 삭제 절차', href: '/spoke/digital-sex-crime/hidden-camera-report-and-deletion-procedure' }
+      { label: '불법촬영 신고 및 삭제 절차', href: '/guide/digital-sex-crime/hidden-camera-report-and-deletion-procedure' }
     ]
   }
 ];

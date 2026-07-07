@@ -339,7 +339,6 @@ export const spokesBatch86Labor: SpokePage[] = [
     ],
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
-      { label: '대기시간 근로시간 임금', href: '/guide/wage/wage-on-call-standby-hours-track' },
       { label: '최저임금 미달 급여 신고 방법과 차액 청구', href: '/guide/wage/minimum-wage-violation-complaint' },
       { label: '연장근로 고정수당 미달 차액 청구 판단', href: '/guide/wage/wage-overtime-fixed-allowance-shortfall-claim-track' },
       { label: '정기상여금 통상임금 포함 여부 판단', href: '/guide/wage/wage-fixed-bonus-ordinary-wage-inclusion-track' },
@@ -672,7 +671,6 @@ export const spokesBatch86Labor: SpokePage[] = [
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '단절 후 재입사 계속근로 통산', href: '/guide/retirement/retirement-continuous-service-rehire-track' },
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '퇴직연금 DC DB형 차이 선택', href: '/guide/retirement/retirement-dc-db-type-difference' },
       { label: '퇴직금 미지급 신고 절차 4단계 타임라인', href: '/guide/retirement/unpaid-retirement-report-procedure' },
@@ -755,7 +753,6 @@ export const spokesBatch86Labor: SpokePage[] = [
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
-      { label: '퇴직연금 DC DB 미납', href: '/guide/retirement/retirement-dc-db-pension-arrears-track' },
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '퇴직금 중간정산 재정산 청구', href: '/guide/retirement/retirement-interim-settle-recalculation-track' },
       { label: '퇴직금 노동청 신고 민사청구 차이', href: '/guide/retirement/retirement-pay-labor-report-vs-civil-claim' },
@@ -838,7 +835,6 @@ export const spokesBatch86Labor: SpokePage[] = [
     cta: { text: '산재 신청 절차, AI로 정리하기', link: '/chat?domain=industrial-accident' },
     internalLinks: [
       { label: '과로 뇌심혈관 산재', href: '/guide/industrial-accident/industrial-accident-overwork-cardiovascular-track' },
-      { label: '근골격계 질환 산재', href: '/guide/industrial-accident/industrial-accident-musculoskeletal-disorder-track' },
       { label: '근골격계 반복작업 업무상 질병 요양급여 절차', href: '/guide/industrial-accident/industrial-accident-musculoskeletal-repetitive-work-disease-track' },
       { label: '과로 뇌출혈 산재 인정', href: '/guide/industrial-accident/industrial-accident-overwork-cerebral-track' },
       { label: '과로 뇌출혈 발병 업무상 재해 요양급여 신청 절차', href: '/guide/industrial-accident/industrial-accident-overwork-cerebro-cardiovascular-recognition-track' },

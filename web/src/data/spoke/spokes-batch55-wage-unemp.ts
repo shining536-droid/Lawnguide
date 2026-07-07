@@ -252,7 +252,6 @@ export const spokesBatch55WageUnemp: SpokePage[] = [
       { label: '권고사직 실업급여 받는 법', href: '/guide/unemployment/recommended-resignation-unemployment-benefit' },
       { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '실업급여 불승인 이의신청 절차', href: '/guide/unemployment/unemployment-appeal-rejection' },
-      { label: '이직사유 자진퇴사 정정', href: '/guide/unemployment/unemployment-separation-code-recommendation-to-voluntary-correction' },
       { label: '자진 퇴사했는데 실업급여 받을 수 있는 경우', href: '/guide/unemployment/voluntary-resignation-benefit-eligible-cases' },
     ],
   },

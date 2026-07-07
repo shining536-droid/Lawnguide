@@ -175,7 +175,6 @@ export const spokesBatch89AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '폭행 합의금 기준', href: '/guide/assault/assault-settlement-amount-standard' },
-      { label: '술집 취객 폭행', href: '/guide/assault/assault-pub-drunk-customer-brawl-track' },
       { label: '공동주택 엘리베이터 폭행 CCTV', href: '/guide/assault/assault-apartment-elevator-cctv-evidence-track' },
       { label: '술집·클럽 폭행 피해', href: '/guide/assault/assault-bar-club-bouncer-injury-victim-track' },
     ],

@@ -418,7 +418,6 @@ export const spokesBatch47DefameJeonse: SpokePage[] = [
     cta: { text: '계약 종료 후 무엇부터 해야 하는지 AI로 확인하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '주택임대차 종합 가이드', href: '/guide/jeonse' },
-      { label: '갱신 거절 후 이주비 협상', href: '/guide/jeonse/jeonse-renewal-refused-relocation-cost' },
       { label: '임대인 사망 후견 보증금 반환', href: '/guide/jeonse/jeonse-landlord-death-incapacity-deposit-return-procedure-track' },
       { label: '임차권등기명령 신청 절차와 비용', href: '/guide/jeonse/lease-registration-order-process' },
       { label: '전세보증금 반환 절차 총정리', href: '/guide/jeonse/jeonse-deposit-return-comprehensive-guide' },

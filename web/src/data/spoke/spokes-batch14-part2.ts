@@ -80,7 +80,7 @@ export const spokesBatch14Part2Pages: SpokePage[] = [
       link: '/diagnosis/sex-crime',
     },
     internalLinks: [
-      { label: '성폭력 피해 고소 절차', href: '/spoke/sex-crime/sexual-violence-complaint-process' },
+      { label: '성폭력 피해 고소 절차', href: '/guide/sex-crime/sexual-violence-complaint-process' },
       { label: 'sex-crime 도메인 허브', href: '/guide/sex-crime' },
       { label: '성폭력 피해자 국선변호사 신청 방법', href: '/guide/sex-crime/sexual-assault-public-defender' },
       { label: '성폭력 피해 고소 시 필요한 서류', href: '/guide/sex-crime/victim-complaint-required-docs' },
@@ -179,8 +179,8 @@ export const spokesBatch14Part2Pages: SpokePage[] = [
       link: '/diagnosis/sex-crime',
     },
     internalLinks: [
-      { label: '강제추행 기준이 정확히 뭔가요', href: '/spoke/sex-crime/what-exactly-is-sexual-assault-qa' },
-      { label: '성폭력 피해 고소 절차', href: '/spoke/sex-crime/sexual-violence-complaint-process' },
+      { label: '강제추행 기준이 정확히 뭔가요', href: '/guide/sex-crime/what-exactly-is-sexual-assault-qa' },
+      { label: '성폭력 피해 고소 절차', href: '/guide/sex-crime/sexual-violence-complaint-process' },
       { label: '성폭력 피해자 국선변호사 신청 방법', href: '/guide/sex-crime/sexual-assault-public-defender' },
       { label: 'sex-crime 도메인 허브', href: '/guide/sex-crime' },
       { label: '강제추행 피해 증거 확보와 고소 절차', href: '/guide/sex-crime/forced-groping-evidence-lawsuit' },
@@ -273,11 +273,11 @@ export const spokesBatch14Part2Pages: SpokePage[] = [
       link: '/diagnosis/digital-sex-crime',
     },
     internalLinks: [
-      { label: '불법촬영 피해 신고 및 삭제 절차', href: '/spoke/digital-sex-crime/hidden-camera-report-and-deletion-procedure' },
-      { label: '피해영상 삭제 지원 서비스 절차', href: '/spoke/digital-sex-crime/victim-video-deletion-support-procedure' },
-      { label: '딥페이크 합성물 법적 대응', href: '/spoke/digital-sex-crime/deepfake-distribution-legal-response' },
-      { label: '불법촬영 증거 캡처 시 실수', href: '/spoke/digital-sex-crime/screenshot-evidence-common-mistakes' },
-      { label: '디지털성범죄 피해 대응 체크리스트', href: '/spoke/digital-sex-crime/victim-response-complete-checklist' },
+      { label: '불법촬영 피해 신고 및 삭제 절차', href: '/guide/digital-sex-crime/hidden-camera-report-and-deletion-procedure' },
+      { label: '피해영상 삭제 지원 서비스 절차', href: '/guide/digital-sex-crime/victim-video-deletion-support-procedure' },
+      { label: '딥페이크 합성물 법적 대응', href: '/guide/digital-sex-crime/deepfake-distribution-legal-response' },
+      { label: '불법촬영 증거 캡처 시 실수', href: '/guide/digital-sex-crime/screenshot-evidence-common-mistakes' },
+      { label: '디지털성범죄 피해 대응 체크리스트', href: '/guide/digital-sex-crime/victim-response-complete-checklist' },
     ],
   },
 ];

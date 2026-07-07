@@ -155,7 +155,6 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
     ],
     cta: { text: '음주운전 상승기 방어 가능성 AI로 확인하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '음주운전 혈중알코올 상승기 방어', href: '/guide/traffic-accident/traffic-accident-dui-blood-test-timing' },
       { label: '교통사고 대처법', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
       { label: '과실 분쟁 증거', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
       { label: '합의 실수 방지', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },

@@ -173,8 +173,8 @@ export const spokesBatch17_11to15: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '이웃분쟁 진단', href: '/diagnosis/neighbor-dispute' },
       { label: '층간소음 피해 대응법', href: '/guide/neighbor-dispute/floor-noise-dispute-response' },
-      { label: '옆집 신축 일조권 침해 대응법', href: '/spoke/neighbor-dispute/new-building-blocking-sunlight-response' },
-      { label: '소액소송 직접 하는 법', href: '/spoke/small-claims/small-claims-self-filing-guide' },
+      { label: '옆집 신축 일조권 침해 대응법', href: '/guide/neighbor-dispute/new-building-blocking-sunlight-response' },
+      { label: '소액소송 직접 하는 법', href: '/guide/small-claims/small-claims-self-filing-guide' },
     ],
   },
 
@@ -253,9 +253,9 @@ export const spokesBatch17_11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '부동산 매매 진단', href: '/diagnosis/real-estate-sale' },
-      { label: '매매계약서 필수 특약 체크리스트', href: '/spoke/real-estate-sale/sale-contract-essential-clauses' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '부동산 하자 손해배상 청구 절차', href: '/spoke/real-estate-sale/real-estate-defect-damage-claim' },
+      { label: '매매계약서 필수 특약 체크리스트', href: '/guide/real-estate-sale/sale-contract-essential-clauses' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '부동산 하자 손해배상 청구 절차', href: '/guide/real-estate-sale/real-estate-defect-damage-claim' },
     ],
   },
 
@@ -338,8 +338,8 @@ export const spokesBatch17_11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '부동산 매매 진단', href: '/diagnosis/real-estate-sale' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매 하자 발견 시 손해배상 청구', href: '/spoke/real-estate-sale/sale-defect-discovery-damage-claim' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매 하자 발견 시 손해배상 청구', href: '/guide/real-estate-sale/sale-defect-discovery-damage-claim' },
       { label: 'real-estate-sale 도메인 허브', href: '/guide/real-estate-sale' },
     ],
   },
@@ -425,7 +425,7 @@ export const spokesBatch17_11to15: SpokePage[] = [
       { label: '부동산 경매 진단', href: '/diagnosis/real-estate-auction' },
       { label: '부동산 경매 가이드', href: '/guide/real-estate-auction' },
       { label: '전세보증금 반환 절차', href: '/guide/jeonse/deposit-return-process' },
-      { label: '소액소송 직접 하는 법', href: '/spoke/small-claims/small-claims-self-filing-guide' },
+      { label: '소액소송 직접 하는 법', href: '/guide/small-claims/small-claims-self-filing-guide' },
     ],
   },
 ];

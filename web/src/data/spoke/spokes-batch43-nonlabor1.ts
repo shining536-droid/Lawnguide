@@ -876,7 +876,6 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
-      { label: '고령운전자 사고 쟁점', href: '/guide/traffic-accident/traffic-accident-elderly-driver-fault' },
       { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
       { label: '교통사고 합의금 적정 금액 산정법', href: '/guide/traffic-accident/settlement-amount-calculation' },

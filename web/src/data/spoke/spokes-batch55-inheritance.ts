@@ -170,7 +170,6 @@ export const spokesBatch55Inheritance: SpokePage[] = [
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
       { label: '자필유언 무효 사인증여 전환', href: '/guide/inheritance/inheritance-handwritten-will-defect-sain-jeungyeo-conversion-track' },
-      { label: '공정증서 유언 자필유언 효력 다툼', href: '/guide/inheritance/inheritance-notarized-vs-handwritten-will-validity' },
       { label: '유언장 위조 검증 절차', href: '/guide/inheritance/inheritance-will-forgery-verification-procedure' },
       { label: '유언무효확인의 소', href: '/guide/inheritance/inheritance-will-validity-dispute' },
       { label: '유류분 부족분 청구 절차', href: '/guide/inheritance/inheritance-yuryubun-shortage-claim-procedure' },

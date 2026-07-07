@@ -727,7 +727,6 @@ export const spokesBatch96AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '전세사기 도메인 허브', href: '/guide/jeonse-fraud' },
       { label: '공인중개사 책임·설명의무', href: '/guide/jeonse-fraud/jeonse-fraud-broker-liability' },
-      { label: '다가구 선순위 근저당 보증금', href: '/guide/jeonse-fraud/jeonse-fraud-multihousehold-senior-lien-track' },
       { label: '깡통전세 보증금 미반환 HUG 보증이행', href: '/guide/jeonse-fraud/jeonse-fraud-underwater-deposit-hug-guarantee-claim-track' },
       { label: '전세사기 피해자 인정 신청 절차와 필요 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-recognition-process' },
     ],

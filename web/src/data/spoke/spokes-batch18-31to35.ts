@@ -223,7 +223,6 @@ export const spokesBatch18_31to35: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '아동성범죄 진단', href: '/diagnosis/child-sex-crime' },
-      { label: '아동성범죄 혐의 처벌 수위', href: '/guide/child-sex-crime/child-crime-charge-penalty-level' },
       { label: '아동성범죄 종합 가이드', href: '/guide/child-sex-crime' },
       { label: '학원 강사에 의한 아동 성추행 발견 시 대처', href: '/guide/child-sex-crime/academy-teacher-molestation-response' },
     ],

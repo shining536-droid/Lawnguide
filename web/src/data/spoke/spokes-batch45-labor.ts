@@ -839,7 +839,6 @@ export const spokesBatch45Labor: SpokePage[] = [
     ],
     cta: { text: '실업급여 받을 수 있는지 AI로 점검하기', link: '/chat?domain=unemployment' },
     internalLinks: [
-      { label: '장애가족 돌봄 자진퇴사', href: '/guide/unemployment/unemployment-disabled-family-care' },
       { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '실업급여 불승인 이의신청 절차', href: '/guide/unemployment/unemployment-appeal-rejection' },
       { label: '실업급여 부정수급 적발 사례 5가지', href: '/guide/unemployment/benefit-fraud-top-5-cases' },

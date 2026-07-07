@@ -216,7 +216,7 @@ export const spokesBatch74WageUnempRetire: SpokePage[] = [
     ],
     cases: [
       {
-        title: '판례 — 실업급여 수급자격 불인정 처분 영역',
+        title: '재결례 — 실업급여 수급자격 불인정 처분 영역',
         summary:
           '고용보험심사위원회 2023재결 제44호(2023.06.21) 영역에서 위원회는 실업급여 수급자격 불인정 처분 취소 청구 사건에서, 근로계약서에 해지사유로 명시된 사정의 객관적 확인과 이직의 비자발성·정당성 평가가 결합되어야 수급 자격이 인정되고, 단순 계약 만료라도 사용자의 재계약 거부 등 비자발적 이직 사유로 평가되는 사정에서는 수급 자격이 인정되어야 한다고 본 사례 흐름이 있습니다.',
         takeaway: '사업주 재계약 거부 + 본인 귀책 부재 결합 시 외국인 근로자도 비자발적 이직 평가 가능 영역 — 다국어 상담 권장.',
@@ -336,7 +336,6 @@ export const spokesBatch74WageUnempRetire: SpokePage[] = [
     internalLinks: [
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '단체협약 퇴직금 상한 개별 차액', href: '/guide/retirement/retirement-collective-agreement-cap-individual-claim-track' },
-      { label: '퇴직금 IRP 전환 연금 수령 절세', href: '/guide/retirement/retirement-irp-rollover-tax-pension-conversion-track' },
       { label: '퇴직금 시효 3년', href: '/guide/retirement/retirement-statute-of-limitations' },
       { label: '평균임금 산정 퇴직금', href: '/guide/retirement/retirement-average-wage-calculation-track' },
     ],

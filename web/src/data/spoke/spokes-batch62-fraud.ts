@@ -314,7 +314,6 @@ export const spokesBatch62Fraud: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '데이팅앱 로맨스 스캠', href: '/guide/fraud/fraud-dating-app-romance-scam-track' },
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '국제결혼 로맨스 스캠 피해 회복', href: '/guide/fraud/fraud-international-romance-marriage-recovery' },
       { label: '가상자산 믹서 사기 추적', href: '/guide/fraud/fraud-crypto-mixer-tracing-steps' },

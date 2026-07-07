@@ -331,7 +331,6 @@ export const spokesBatch94Labor: SpokePage[] = [
       { label: '임금체불 형사고소 절차', href: '/guide/wage/unpaid-wage-criminal-complaint-procedure' },
       { label: '최저임금 미달 임금 청구', href: '/guide/wage/wage-minimum-wage-shortfall-track' },
       { label: '야간 수면시간 근로시간', href: '/guide/wage/wage-night-sleeping-hours-working-time' },
-      { label: '수습기간 임금 감액 위법', href: '/guide/wage/wage-probation-pay-reduction-track' },
     ],
   },
 
@@ -662,7 +661,6 @@ export const spokesBatch94Labor: SpokePage[] = [
       { label: 'retirement 도메인 허브', href: '/guide/retirement' },
       { label: '퇴직금 분할 월지급 약정 효력 판단', href: '/guide/retirement/retirement-pay-monthly-divided-agreement-validity-track' },
       { label: '사망 퇴직금 유족 청구', href: '/guide/retirement/retirement-death-survivors-claim' },
-      { label: '퇴직금 청구 소멸시효 3년', href: '/guide/retirement/retirement-claim-statute-limitation-track' },
       { label: '평균임금 산정 퇴직금', href: '/guide/retirement/retirement-average-wage-calculation-track' },
     ],
   },
@@ -743,7 +741,6 @@ export const spokesBatch94Labor: SpokePage[] = [
     cta: { text: '퇴직금 계산과 청구 절차, AI로 정리하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: 'retirement 도메인 허브', href: '/guide/retirement' },
-      { label: '도산 퇴직금 대지급금 청구', href: '/guide/retirement/retirement-employer-insolvency-payment-track' },
       { label: '퇴직연금 전환 효력 퇴직금 판단', href: '/guide/retirement/retirement-pay-pension-conversion-validity-track' },
       { label: '미사용 연차수당 퇴직금 포함', href: '/guide/retirement/retirement-annual-leave-payout-included' },
       { label: '퇴직금 청구 소멸시효 3년', href: '/guide/retirement/retirement-claim-statute-limitation-track' },

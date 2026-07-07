@@ -91,7 +91,6 @@ export const spokesBatch85Labor: SpokePage[] = [
     cta: { text: '부당해고 구제신청 순서, AI로 정리하기', link: '/chat?domain=dismissal' },
     internalLinks: [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
-      { label: '경영상 정리해고 요건', href: '/guide/dismissal/dismissal-economic-layoff-criteria-track' },
       { label: '경영상 정리해고 긴박한 경영상 필요 해고회피노력', href: '/guide/dismissal/dismissal-economic-layoff-urgent-need-avoidance-effort-track' },
       { label: '이메일 해고통보 서면통지 효력 판단', href: '/guide/dismissal/dismissal-email-notice-written-procedure-effect-track' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
@@ -258,7 +257,6 @@ export const spokesBatch85Labor: SpokePage[] = [
     internalLinks: [
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
       { label: '구두 통보 서면통지 누락 해고 효력 판단', href: '/guide/dismissal/dismissal-verbal-notice-written-procedure-omission-track' },
-      { label: '구두해고 서면통지 누락', href: '/guide/dismissal/dismissal-oral-notice-no-writing-track' },
       { label: '권고사직 합의서 작성 주의사항', href: '/guide/dismissal/recommended-resignation-agreement-tips' },
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
     ],

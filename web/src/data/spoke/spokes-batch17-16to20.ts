@@ -90,10 +90,10 @@ export const spokesBatch17_16to20: SpokePage[] = [
     },
     internalLinks: [
       { label: '부동산 경매 진단', href: '/diagnosis/real-estate-auction' },
-      { label: '경매 입찰 절차와 준비 방법', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
-      { label: '경매 낙찰 후 명도소송 절차', href: '/spoke/real-estate-auction/auction-eviction-lawsuit-process' },
-      { label: '경매 권리분석 체크리스트', href: '/spoke/real-estate-auction/auction-rights-analysis-checklist' },
-      { label: '전세보증금 반환 청구', href: '/spoke/jeonse-fraud/jeonse-fraud-auction-bidding-guide' },
+      { label: '경매 입찰 절차와 준비 방법', href: '/guide/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 낙찰 후 명도소송 절차', href: '/guide/real-estate-auction/auction-eviction-lawsuit-process' },
+      { label: '경매 권리분석 체크리스트', href: '/guide/real-estate-auction/auction-rights-analysis-checklist' },
+      { label: '전세보증금 반환 청구', href: '/guide/jeonse-fraud/jeonse-fraud-auction-bidding-guide' },
     ],
   },
   {
@@ -173,7 +173,7 @@ export const spokesBatch17_16to20: SpokePage[] = [
     },
     internalLinks: [
       { label: '아동성범죄 진단', href: '/diagnosis/child-sex-crime' },
-      { label: '아동성범죄 의무신고 절차', href: '/spoke/child-sex-crime/mandatory-reporting-procedure' },
+      { label: '아동성범죄 의무신고 절차', href: '/guide/child-sex-crime/mandatory-reporting-procedure' },
       { label: '디지털 성범죄 피해 대응', href: '/guide/digital-sex-crime/deepfake-pornography-report-removal' },
       { label: '아동학대 신고 후 절차', href: '/guide/child-sex-crime' },
       { label: '성범죄 피해자 지원 제도', href: '/guide/sex-crime/sexual-assault-procedure-trial' },
@@ -261,10 +261,10 @@ export const spokesBatch17_16to20: SpokePage[] = [
     },
     internalLinks: [
       { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
-      { label: '학교폭력 심의위원회 절차', href: '/spoke/school-violence/school-violence-committee-procedure' },
-      { label: 'SNS 사이버불링 대응법', href: '/spoke/school-violence/school-violence-social-media-bullying' },
-      { label: '학교폭력 조치 불복 절차', href: '/spoke/school-violence/school-violence-measures-appeal' },
-      { label: '학교폭력 가해자 지목 시 대응', href: '/spoke/school-violence/school-violence-accused-parent-response' },
+      { label: '학교폭력 심의위원회 절차', href: '/guide/school-violence/school-violence-committee-procedure' },
+      { label: 'SNS 사이버불링 대응법', href: '/guide/school-violence/school-violence-social-media-bullying' },
+      { label: '학교폭력 조치 불복 절차', href: '/guide/school-violence/school-violence-measures-appeal' },
+      { label: '학교폭력 가해자 지목 시 대응', href: '/guide/school-violence/school-violence-accused-parent-response' },
     ],
   },
   {
@@ -349,10 +349,10 @@ export const spokesBatch17_16to20: SpokePage[] = [
     },
     internalLinks: [
       { label: '학교폭력 진단', href: '/diagnosis/school-violence' },
-      { label: '학교폭력 심의위원회 절차', href: '/spoke/school-violence/school-violence-committee-procedure' },
-      { label: '학교폭력 조치 불복(행정심판)', href: '/spoke/school-violence/school-violence-measures-appeal' },
-      { label: '학교폭력 가해학생 제재 방어', href: '/spoke/school-violence/perpetrator-sanction-defense' },
-      { label: '학교폭력 허위 신고 대응법', href: '/spoke/school-violence/school-violence-false-report-response' },
+      { label: '학교폭력 심의위원회 절차', href: '/guide/school-violence/school-violence-committee-procedure' },
+      { label: '학교폭력 조치 불복(행정심판)', href: '/guide/school-violence/school-violence-measures-appeal' },
+      { label: '학교폭력 가해학생 제재 방어', href: '/guide/school-violence/perpetrator-sanction-defense' },
+      { label: '학교폭력 허위 신고 대응법', href: '/guide/school-violence/school-violence-false-report-response' },
     ],
   },
 ];

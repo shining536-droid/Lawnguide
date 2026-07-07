@@ -651,7 +651,6 @@ export const spokesBatch93AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '전세사기 도메인 허브', href: '/guide/jeonse-fraud' },
       { label: '법인 임차 직원 거주 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-corporate-lease-employee-opposing-power-track' },
-      { label: '전입 지연 대항력 후순위', href: '/guide/jeonse-fraud/jeonse-fraud-late-move-in-priority-loss-track' },
       { label: '보증보험 미가입 전세사기 대항요건 존속', href: '/guide/jeonse-fraud/jeonse-fraud-guarantee-insurance-unsubscribed-track' },
       { label: '전세사기 피해자 인정 신청 전 준비 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },
     ],

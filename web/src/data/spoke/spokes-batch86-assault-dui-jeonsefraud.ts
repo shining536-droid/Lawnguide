@@ -92,7 +92,6 @@ export const spokesBatch86AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '동호회 운동 중 폭행 상해', href: '/guide/assault/assault-amateur-sports-club-track' },
-      { label: '보복운전 하차 폭행 상해진단서', href: '/guide/assault/assault-road-rage-getout-track' },
       { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
       { label: '배달 라이더 손님 폭행', href: '/guide/assault/assault-delivery-rider-customer-doorstep-victim-track' },
     ],
@@ -422,7 +421,6 @@ export const spokesBatch86AssaultDuiJeonseFraud: SpokePage[] = [
     ],
     cta: { text: '탄원서와 감경 요소, AI로 먼저 정리하기', link: '/chat?domain=dui' },
     internalLinks: [
-      { label: '음주 위험운전치상 적용법조 공소장변경', href: '/guide/dui/dui-injury-dangerous-driving-track' },
       { label: '음주운전 종합 가이드', href: '/guide/dui' },
       { label: '음주운전 행정심판 90일 면허취소 감경', href: '/guide/dui/dui-administrative-trial-90day-mitigation' },
       { label: '음주운전 합의 절차와 방법', href: '/guide/dui/dui-settlement' },

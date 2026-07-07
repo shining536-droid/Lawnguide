@@ -838,7 +838,6 @@ export const spokesBatch83DefameDivorceInheritTraffic: SpokePage[] = [
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
       { label: '야간 무단횡단 보행자 과실비율 판단', href: '/guide/traffic-accident/traffic-accident-night-jaywalk-pedestrian-fault-ratio-track' },
-      { label: '이륜차 배달 사고 과실', href: '/guide/traffic-accident/traffic-accident-motorcycle-delivery-fault-track' },
       { label: '건강보험 급여 후 책임보험금 대위 피해자 청구', href: '/guide/traffic-accident/traffic-accident-health-insurance-subrogation-liability-claim-track' },
       { label: '교통사고 보상금 산정 기준 총정리', href: '/guide/traffic-accident/traffic-accident-compensation-calculation-guide' },
       { label: '교통사고 합의서 작성 전 확인 항목', href: '/guide/traffic-accident/traffic-settlement-agreement-checklist' },

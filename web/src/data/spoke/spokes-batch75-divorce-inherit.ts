@@ -89,7 +89,6 @@ export const spokesBatch75DivorceInherit: SpokePage[] = [
       { label: '특유재산 재산분할 제외', href: '/guide/divorce/divorce-special-property-exclusion-criteria' },
       { label: '위자료 산정 기준 금액 총정리', href: '/guide/divorce/divorce-alimony-calculation-standard' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
-      { label: '혼전약정 사후 변경', href: '/guide/divorce/divorce-prenup-postnup-modified-track' },
       { label: '국제결혼 혼인 합의 부존재 혼인무효 준거법', href: '/guide/divorce/divorce-international-marriage-no-consent-annulment-governing-law-track' },
     ],
   },

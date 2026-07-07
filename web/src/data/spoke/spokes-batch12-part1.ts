@@ -88,11 +88,11 @@ export const spokesBatch12Part1Pages: SpokePage[] = [
       link: '/diagnosis/fraud',
     },
     internalLinks: [
-      { label: '사기 피해 첫 대응 가이드', href: '/spoke/fraud/fraud-victim-first-steps' },
-      { label: '사기 증거 수집 체크리스트', href: '/spoke/fraud/fraud-evidence-collection-checklist' },
-      { label: '사기 합의금 협상 가이드', href: '/spoke/fraud/fraud-settlement-negotiation' },
-      { label: '사기 민사소송 절차 안내', href: '/spoke/fraud/fraud-civil-lawsuit-procedure' },
-      { label: '사기 유형별 식별 가이드', href: '/spoke/fraud/fraud-scam-identification-guide' },
+      { label: '사기 피해 첫 대응 가이드', href: '/guide/fraud/fraud-victim-where-to-start' },
+      { label: '사기 증거 수집 체크리스트', href: '/guide/fraud/fraud-complaint-police-key-evidence-5' },
+      { label: '사기 합의금 협상 가이드', href: '/guide/fraud/fraud-settlement-sentencing-impact' },
+      { label: '사기 민사소송 절차 안내', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
+      { label: '사기 유형별 식별 가이드', href: '/guide/fraud' },
     ],
   },
   */
@@ -176,9 +176,9 @@ export const spokesBatch12Part1Pages: SpokePage[] = [
     internalLinks: [
       { label: 'fraud 도메인 허브', href: '/guide/fraud' },
       { label: '투자 사기 피해 증거 모으는 법', href: '/guide/fraud/investment-fraud-evidence-collection' },
-      { label: '사기죄 고소 절차 총정리', href: '/spoke/fraud/fraud-prosecution-procedure-overview' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
       { label: '사기 혐의 방어 전략 총정리', href: '/guide/fraud/fraud-accused-defense-strategy-guide' },
-      { label: '사기 민사소송 절차 안내', href: '/spoke/fraud/fraud-civil-lawsuit-procedure' },
+      { label: '사기 민사소송 절차 안내', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
     ],
   },
   {
@@ -266,8 +266,8 @@ export const spokesBatch12Part1Pages: SpokePage[] = [
       link: '/diagnosis/fraud',
     },
     internalLinks: [
-      { label: '사기죄 고소 절차 총정리', href: '/spoke/fraud/fraud-prosecution-procedure-overview' },
-      { label: '사기 민사소송 절차 안내', href: '/spoke/fraud/fraud-civil-lawsuit-procedure' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
+      { label: '사기 민사소송 절차 안내', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
       { label: 'fraud 도메인 허브', href: '/guide/fraud' },
       { label: '중고거래 지급정지 복구', href: '/guide/fraud/fraud-account-freeze-recovery-steps' },
       { label: '투자 사기 피해 증거 모으는 법', href: '/guide/fraud/investment-fraud-evidence-collection' },
@@ -354,8 +354,8 @@ export const spokesBatch12Part1Pages: SpokePage[] = [
       { label: 'divorce 도메인 허브', href: '/guide/divorce' },
       { label: '협의이혼 절차와 소요 기간 총정리', href: '/guide/divorce/consensual-divorce-process' },
       { label: '혼인 30년 황혼이혼 재산분할 비율', href: '/guide/divorce/divorce-30years-marriage-property-division-ratio' },
-      { label: '재산분할 범위 FAQ', href: '/spoke/divorce/divorce-property-division-scope-faq' },
-      { label: '가정폭력 이혼 절차', href: '/spoke/divorce/domestic-violence-divorce-process' },
+      { label: '재산분할 범위 FAQ', href: '/guide/divorce/divorce-property-division-scope-faq' },
+      { label: '가정폭력 이혼 절차', href: '/guide/divorce/domestic-violence-divorce-process' },
     ],
   },
 ];

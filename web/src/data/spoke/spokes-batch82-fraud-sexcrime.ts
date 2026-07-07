@@ -257,7 +257,6 @@ export const spokesBatch82FraudSexCrime: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
-      { label: '예식장 예약금 선납 폐업 환급 피해구제', href: '/guide/fraud/fraud-wedding-hall-prepayment-sudden-closure-track' },
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '보이스피싱 피해구제 전기통신금융사기', href: '/guide/fraud/fraud-voice-phishing-relief-law-application' },
       { label: '동업자금 유용 사기 무고', href: '/guide/fraud/fraud-joint-business-fund-misappropriation-falsely-accused-defense' },
@@ -341,7 +340,6 @@ export const spokesBatch82FraudSexCrime: SpokePage[] = [
     internalLinks: [
       { label: '거래 분쟁의 사기 고소 둔갑', href: '/guide/fraud/fraud-business-dispute-criminal-complaint-false-accused-defense' },
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
-      { label: '취업 보증금 교육비 선입금 채용사기 환급', href: '/guide/fraud/fraud-job-offer-security-deposit-upfront-scam-track' },
       { label: '보이스피싱 송금 환급 절차', href: '/guide/fraud/fraud-phishing-transfer-refund-procedure' },
       { label: '동업 수익배분 약정 사기 무고 방어', href: '/guide/fraud/fraud-joint-business-profit-distribution-pretext-falsely-accused-defense' },
     ],

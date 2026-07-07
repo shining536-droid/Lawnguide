@@ -840,7 +840,6 @@ export const spokesBatch91Labor: SpokePage[] = [
       { label: '산재 도메인 허브', href: '/guide/industrial-accident' },
       { label: '통근 중 사고 산재 인정', href: '/guide/industrial-accident/industrial-accident-commute-route-track' },
       { label: '근골격계 질환 산재', href: '/guide/industrial-accident/industrial-accident-musculoskeletal-disease-track' },
-      { label: '과로 뇌심혈관 산재', href: '/guide/industrial-accident/industrial-accident-overwork-cardiovascular-track' },
       { label: '출퇴근 중 사고 산재 인정', href: '/guide/industrial-accident/industrial-accident-commute-track' },
     ],
   },

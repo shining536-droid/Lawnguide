@@ -67,8 +67,8 @@ export const spokesBatch13Pages31to35: SpokePage[] = [
       link: '/diagnosis/real-estate-auction'
     },
     internalLinks: [
-      { label: '부동산 경매 입찰 절차와 준비 방법', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
-      { label: '경매 물건 점유자가 안 나갈 때 대응법', href: '/spoke/real-estate-auction/occupant-refuses-to-leave' },
+      { label: '부동산 경매 입찰 절차와 준비 방법', href: '/guide/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 물건 점유자가 안 나갈 때 대응법', href: '/guide/real-estate-auction/occupant-refuses-to-leave' },
       { label: '보증금 못 받았을 때 해결 순서', href: '/guide/jeonse/deposit-return-process' },
       { label: 'neighbor-dispute 도메인 허브', href: '/guide/neighbor-dispute' },
       { label: '경매 시 전세보증금 우선변제', href: '/guide/jeonse/jeonse-auction-deposit-priority' }
@@ -139,8 +139,8 @@ export const spokesBatch13Pages31to35: SpokePage[] = [
       link: '/diagnosis/real-estate-auction'
     },
     internalLinks: [
-      { label: '경매 낙찰 후 명도 소송 절차', href: '/spoke/real-estate-auction/eviction-after-winning-bid' },
-      { label: '부동산 경매 입찰 절차와 준비 방법', href: '/spoke/real-estate-auction/auction-bidding-procedure' },
+      { label: '경매 낙찰 후 명도 소송 절차', href: '/guide/real-estate-auction/eviction-after-winning-bid' },
+      { label: '부동산 경매 입찰 절차와 준비 방법', href: '/guide/real-estate-auction/auction-bidding-procedure' },
       { label: '보증금 못 받았을 때 해결 순서', href: '/guide/jeonse/deposit-return-process' },
       { label: 'jeonse 도메인 허브', href: '/guide/jeonse' },
       { label: '경매 시 전세보증금 우선변제', href: '/guide/jeonse/jeonse-auction-deposit-priority' }
@@ -211,11 +211,11 @@ export const spokesBatch13Pages31to35: SpokePage[] = [
       link: '/diagnosis/bankruptcy'
     },
     internalLinks: [
-      { label: '개인파산 신청에서 면책까지 전체 절차', href: '/spoke/bankruptcy/application-to-discharge-full-procedure' },
-      { label: '개인파산 면책 요건과 자주 묻는 질문', href: '/spoke/bankruptcy/bankruptcy-fresh-start-requirements' },
-      { label: '개인파산 면책심문 절차와 준비사항', href: '/spoke/bankruptcy/discharge-hearing-procedure-preparation' },
-      { label: '카드빚 감당 안 될 때 개인파산 가능 여부', href: '/spoke/bankruptcy/overwhelming-credit-card-debt-bankruptcy' },
-      { label: '개인파산 vs 개인회생 비교', href: '/spoke/rehabilitation/rehabilitation-pre-check' }
+      { label: '개인파산 신청에서 면책까지 전체 절차', href: '/guide/bankruptcy/application-to-discharge-full-procedure' },
+      { label: '개인파산 면책 요건과 자주 묻는 질문', href: '/guide/bankruptcy/bankruptcy-fresh-start-requirements' },
+      { label: '개인파산 면책심문 절차와 준비사항', href: '/guide/bankruptcy/discharge-hearing-procedure-preparation' },
+      { label: '카드빚 감당 안 될 때 개인파산 가능 여부', href: '/guide/bankruptcy/overwhelming-credit-card-debt-bankruptcy' },
+      { label: '개인파산 vs 개인회생 비교', href: '/guide/rehabilitation/rehabilitation-pre-check' }
     ]
   },
   {
@@ -291,11 +291,11 @@ export const spokesBatch13Pages31to35: SpokePage[] = [
       link: '/diagnosis/divorce'
     },
     internalLinks: [
-      { label: '협의이혼 vs 재판이혼 차이 총정리', href: '/spoke/divorce/consensual-vs-trial-divorce' },
-      { label: '이혼 시 재산분할 대상은 무엇인가요?', href: '/spoke/divorce/divorce-property-division-scope-faq' },
-      { label: '재산분할 vs 위자료 차이점 비교', href: '/spoke/divorce/property-division-vs-alimony-comparison' },
-      { label: '배우자 외도 발견 시 이혼 대응법', href: '/spoke/divorce/spouse-affair-divorce-response' },
-      { label: '이혼을 결심했는데 어디부터 시작해야 할까', href: '/spoke/divorce/decided-divorce-where-to-begin' }
+      { label: '협의이혼 vs 재판이혼 차이 총정리', href: '/guide/divorce/consensual-vs-trial-divorce' },
+      { label: '이혼 시 재산분할 대상은 무엇인가요?', href: '/guide/divorce/divorce-property-division-scope-faq' },
+      { label: '재산분할 vs 위자료 차이점 비교', href: '/guide/divorce/property-division-vs-alimony-comparison' },
+      { label: '배우자 외도 발견 시 이혼 대응법', href: '/guide/divorce/spouse-affair-divorce-response' },
+      { label: '이혼을 결심했는데 어디부터 시작해야 할까', href: '/guide/divorce/decided-divorce-where-to-begin' }
     ]
   }
 ];

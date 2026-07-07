@@ -392,7 +392,6 @@ export const spokesBatch62Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '빙판 미끄럼 단독 사고', href: '/guide/traffic-accident/traffic-accident-ice-single-vehicle-insurance-track' },
       { label: '자동차 침수 보험금 분쟁', href: '/guide/traffic-accident/traffic-accident-vehicle-flood-damage-insurance-dispute-track' },
       { label: '교통사고 부상 보상금 청구 체크리스트', href: '/guide/traffic-accident/traffic-accident-injury-compensation' },
       { label: '자전거 보행자 충돌', href: '/guide/traffic-accident/traffic-accident-bicycle-pedestrian-collision-track' },

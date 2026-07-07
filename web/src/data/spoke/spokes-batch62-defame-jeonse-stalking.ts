@@ -320,7 +320,6 @@ export const spokesBatch62DefameJeonseStalking: SpokePage[] = [
     cta: { text: '전세보증금 반환 절차, AI로 정리하기', link: '/chat?domain=jeonse' },
     internalLinks: [
       { label: '주택임대차 종합 가이드', href: '/guide/jeonse' },
-      { label: '계약갱신 임대료 5% 초과 인상', href: '/guide/jeonse/jeonse-renewal-rent-increase-cap-overrun-track' },
       { label: '임대료 증액 분쟁', href: '/guide/jeonse/jeonse-rent-increase-dispute' },
       { label: '법인 임대인 도산 보증금 우선변제', href: '/guide/jeonse/jeonse-corporate-landlord-bankruptcy-deposit-priority-track' },
       { label: '묵시적 갱신 후 임대인 매각 보증금', href: '/guide/jeonse/jeonse-implicit-renewal-landlord-sale-buyer-deposit' },
@@ -556,7 +555,6 @@ export const spokesBatch62DefameJeonseStalking: SpokePage[] = [
       { label: '스토킹 종합 가이드', href: '/guide/stalking' },
       { label: '헤어진 연인 SNS 부계정 반복 접근 스토킹', href: '/guide/stalking/stalking-ex-lover-sns-secondary-account-repeated-approach-track' },
       { label: '스토킹 긴급응급조치 거부 이의', href: '/guide/stalking/stalking-emergency-measure-rejected' },
-      { label: 'SNS 익명 다수계정 스토킹', href: '/guide/stalking/stalking-multiple-anonymous-account-track' },
       { label: '온라인 커뮤니티 익명 글 명예훼손', href: '/guide/defamation/defamation-online-community-anonymous-post-track' },
     ],
   },

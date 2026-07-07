@@ -67,9 +67,9 @@ export const spokesBatch14Pages31to35: SpokePage[] = [
       link: '/diagnosis/fraud'
     },
     internalLinks: [
-      { label: '사기 피해 어디부터 시작해야 하나', href: '/spoke/fraud/fraud-victim-where-to-start' },
-      { label: '사기죄 고소 절차 총정리', href: '/spoke/fraud/fraud-prosecution-procedure-overview' },
-      { label: '사기 피해 민사소송 진행 절차', href: '/spoke/fraud/fraud-civil-lawsuit-procedure' },
+      { label: '사기 피해 어디부터 시작해야 하나', href: '/guide/fraud/fraud-victim-where-to-start' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
+      { label: '사기 피해 민사소송 진행 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' },
       { label: 'fraud 도메인 허브', href: '/guide/fraud' },
       { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' }
     ]
@@ -135,11 +135,11 @@ export const spokesBatch14Pages31to35: SpokePage[] = [
       link: '/diagnosis/fraud'
     },
     internalLinks: [
-      { label: '사기 고소 시 필요한 서류 정리', href: '/spoke/fraud/fraud-complaint-required-documents' },
-      { label: '사기죄 고소 절차 총정리', href: '/spoke/fraud/fraud-prosecution-procedure-overview' },
-      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/spoke/fraud/online-shopping-fraud-response' },
-      { label: '보이스피싱 피해 발생 시 즉시 대응법', href: '/spoke/fraud/voice-phishing-immediate-response' },
-      { label: '사기 피해 민사소송 진행 절차', href: '/spoke/fraud/fraud-civil-lawsuit-procedure' }
+      { label: '사기 고소 시 필요한 서류 정리', href: '/guide/fraud/fraud-complaint-required-documents' },
+      { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-prosecution-procedure-overview' },
+      { label: '온라인 쇼핑몰 사기 당했을 때 대응법', href: '/guide/fraud/online-shopping-fraud-response' },
+      { label: '보이스피싱 피해 발생 시 즉시 대응법', href: '/guide/fraud/voice-phishing-immediate-response' },
+      { label: '사기 피해 민사소송 진행 절차', href: '/guide/fraud/fraud-civil-lawsuit-procedure' }
     ]
   },
   {
@@ -211,11 +211,11 @@ export const spokesBatch14Pages31to35: SpokePage[] = [
       link: '/diagnosis/jeonse-fraud'
     },
     internalLinks: [
-      { label: '전세사기 오늘 바로 확인하는 방법', href: '/spoke/jeonse-fraud/jeonse-fraud-first-check' },
-      { label: '전세사기 피해자 인정 신청 서류', href: '/spoke/jeonse-fraud/jeonse-fraud-victim-application-docs' },
-      { label: '깡통전세 확인하는 방법', href: '/spoke/jeonse-fraud/empty-jeonse-verification-method' },
-      { label: '전세보증금 못 돌려받을 때 대처법', href: '/spoke/jeonse-fraud/jeonse-deposit-not-returned-response' },
-      { label: '전세사기 vs 전세보증금 미반환 차이', href: '/spoke/jeonse-fraud/jeonse-fraud-vs-deposit-default' }
+      { label: '전세사기 오늘 바로 확인하는 방법', href: '/guide/jeonse-fraud/jeonse-fraud-first-check' },
+      { label: '전세사기 피해자 인정 신청 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },
+      { label: '깡통전세 확인하는 방법', href: '/guide/jeonse-fraud/empty-jeonse-verification-method' },
+      { label: '전세보증금 못 돌려받을 때 대처법', href: '/guide/jeonse-fraud/jeonse-deposit-not-returned-response' },
+      { label: '전세사기 vs 전세보증금 미반환 차이', href: '/guide/jeonse-fraud/jeonse-fraud-vs-deposit-default' }
     ]
   },
   {
@@ -295,11 +295,11 @@ export const spokesBatch14Pages31to35: SpokePage[] = [
       link: '/diagnosis/child-sex-crime'
     },
     internalLinks: [
-      { label: '아이가 성범죄 피해를 말했을 때 어디부터', href: '/spoke/child-sex-crime/child-disclosed-abuse-where-to-start' },
-      { label: '아동성범죄 신고 의무와 절차', href: '/spoke/child-sex-crime/mandatory-reporting-and-procedure' },
-      { label: '아동 피해자 2차 피해 방지 주의사항', href: '/spoke/child-sex-crime/preventing-secondary-harm-to-child' },
-      { label: '아동성범죄 피해 신고 시 준비 서류', href: '/spoke/child-sex-crime/victim-report-required-documents' },
-      { label: '온라인 그루밍 피해 의심 징후와 대응법', href: '/spoke/child-sex-crime/online-grooming-warning-signs' }
+      { label: '아이가 성범죄 피해를 말했을 때 어디부터', href: '/guide/child-sex-crime/child-disclosed-abuse-where-to-start' },
+      { label: '아동성범죄 신고 의무와 절차', href: '/guide/child-sex-crime/mandatory-reporting-procedure' },
+      { label: '아동 피해자 2차 피해 방지 주의사항', href: '/guide/child-sex-crime/preventing-secondary-harm-to-child' },
+      { label: '아동성범죄 피해 신고 시 준비 서류', href: '/guide/child-sex-crime/child-victim-report-required-documents' },
+      { label: '온라인 그루밍 피해 의심 징후와 대응법', href: '/guide/child-sex-crime/online-grooming-warning-signs' }
     ]
   }
 ];

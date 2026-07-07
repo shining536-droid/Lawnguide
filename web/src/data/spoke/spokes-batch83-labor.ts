@@ -423,7 +423,6 @@ export const spokesBatch83Labor: SpokePage[] = [
     cta: { text: '야근수당 신고 가능성, AI로 확인하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '자가운전보조금 식대 통상임금 산입', href: '/guide/wage/wage-self-driving-allowance-ordinary-wage' },
-      { label: '대기·호출 근로시간성', href: '/guide/wage/wage-on-call-standby-time-recognition-track' },
       { label: '주휴수당 미지급 청구 판단', href: '/guide/wage/wage-weekly-holiday-allowance-unpaid-claim-track' },
       { label: '야간 휴일 연장근로수당 미지급 청구 판단', href: '/guide/wage/wage-night-holiday-overtime-allowance-unpaid-claim-track' },
       { label: '임금체불 진정 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
@@ -590,7 +589,6 @@ export const spokesBatch83Labor: SpokePage[] = [
     internalLinks: [
       { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '해외 취업 귀국 실업급여', href: '/guide/unemployment/unemployment-overseas-job-return-benefit' },
-      { label: '조기재취업수당', href: '/guide/unemployment/unemployment-early-reemployment-allowance-track' },
       { label: '가족 회사 근무 실업급여 자격', href: '/guide/unemployment/unemployment-family-business-eligibility' },
       { label: '실업급여 수급자격 불인정 이의신청', href: '/guide/unemployment/unemployment-benefit-rejection-appeal-procedure' },
     ],
@@ -756,7 +754,6 @@ export const spokesBatch83Labor: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 계산', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
-      { label: '5인미만 퇴직금 적용', href: '/guide/retirement/retirement-under-five-employees-applicability-track' },
       { label: '위임 형식 근로자성 계속근로 통산 퇴직금', href: '/guide/retirement/retirement-fixed-term-continuous-service-aggregation-track' },
       { label: '퇴직금 노동청 신고 민사청구 차이', href: '/guide/retirement/retirement-pay-labor-report-vs-civil-claim' },
     ],

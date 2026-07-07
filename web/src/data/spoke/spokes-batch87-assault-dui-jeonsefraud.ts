@@ -92,7 +92,6 @@ export const spokesBatch87AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '아마추어 운동 경기 중 충돌 폭행 신고', href: '/guide/assault/assault-amateur-sports-collision-falsely-accused-defense' },
-      { label: '술집 취중 시비 폭행 상해진단서', href: '/guide/assault/assault-bar-drunken-brawl-track' },
       { label: '공동주택 엘리베이터 폭행 CCTV', href: '/guide/assault/assault-apartment-elevator-cctv-evidence-track' },
       { label: '요양보호사 환자 보호자 폭행 피해', href: '/guide/assault/assault-elder-care-worker-patient-attacker-victim-track' },
     ],
@@ -258,7 +257,6 @@ export const spokesBatch87AssaultDuiJeonseFraud: SpokePage[] = [
     internalLinks: [
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '폭행 합의금 기준', href: '/guide/assault/assault-settlement-amount-standard' },
-      { label: '운동부 선후배 폭행 훈육 빙자', href: '/guide/assault/assault-sports-team-track' },
       { label: '공동주택 엘리베이터 폭행 CCTV', href: '/guide/assault/assault-apartment-elevator-cctv-evidence-track' },
       { label: '정신 지적 장애 피해자 폭행 보호', href: '/guide/assault/assault-mental-disability-victim-protect' },
     ],
@@ -339,7 +337,6 @@ export const spokesBatch87AssaultDuiJeonseFraud: SpokePage[] = [
     ],
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
-      { label: '존속폭행 부모 폭행 상습', href: '/guide/assault/assault-lineal-ascendant-track' },
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '가족 간 폭행 가정폭력특례법', href: '/guide/assault/assault-family-parent-sibling-domestic-violence' },
       { label: '헬스장 기구 순서 시비 폭행', href: '/guide/assault/assault-gym-equipment-order-dispute-track' },
@@ -505,7 +502,6 @@ export const spokesBatch87AssaultDuiJeonseFraud: SpokePage[] = [
     ],
     cta: { text: '탄원서와 감경 요소, AI로 먼저 정리하기', link: '/chat?domain=dui' },
     internalLinks: [
-      { label: '개인형이동장치 음주운전 상승기 측정', href: '/guide/dui/dui-personal-mobility-track' },
       { label: '음주 직후 상승기 측정 시점 수치 다툼', href: '/guide/dui/dui-post-drinking-rising-bac-measurement-time-gap-track' },
       { label: '음주운전 종합 가이드', href: '/guide/dui' },
       { label: '음주운전 행정심판 90일 면허취소 감경', href: '/guide/dui/dui-administrative-trial-90day-mitigation' },
@@ -838,7 +834,6 @@ export const spokesBatch87AssaultDuiJeonseFraud: SpokePage[] = [
     cta: { text: '전세사기 피해 대응 순서, AI로 정리하기', link: '/chat?domain=jeonse-fraud' },
     internalLinks: [
       { label: '임차권등기 비용 임대인 청구 회수', href: '/guide/jeonse-fraud/jeonse-fraud-lease-registration-cost-claim-recovery-track' },
-      { label: '세금체납 우선순위 전세사기 임차권등기', href: '/guide/jeonse-fraud/jeonse-fraud-tax-arrears-priority-track' },
       { label: '다세대 오피스텔 깡통전세 보증금 회수 판단', href: '/guide/jeonse-fraud/jeonse-fraud-multi-household-officetel-empty-deposit-track' },
       { label: '경매 배당 보증금 회수', href: '/guide/jeonse-fraud/jeonse-fraud-auction-distribution-recovery-track' },
       { label: '다가구 선순위 임차보증금 전세사기', href: '/guide/jeonse-fraud/jeonse-fraud-multifamily-prior-tenant-deposit-track' },

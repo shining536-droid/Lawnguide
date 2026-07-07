@@ -68,10 +68,10 @@ export const spokesBatch14Pages16to20: SpokePage[] = [
       link: '/diagnosis/child-support'
     },
     internalLinks: [
-      { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
-      { label: '양육비 산정 기준표와 계산 방법', href: '/spoke/child-support/child-support-calculation-table' },
-      { label: '양육비 미지급 시 강제집행 방법', href: '/spoke/child-support/child-support-enforcement-method' },
-      { label: '양육비 청구 어디부터 시작해야 하나', href: '/spoke/child-support/child-support-claim-where-to-start' },
+      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-process' },
+      { label: '양육비 산정 기준표와 계산 방법', href: '/guide/child-support/child-support-calculation-table' },
+      { label: '양육비 미지급 시 강제집행 방법', href: '/guide/child-support/child-support-enforcement-method' },
+      { label: '양육비 청구 어디부터 시작해야 하나', href: '/guide/child-support/child-support-claim-where-to-start' },
       { label: '양육비 가이드', href: '/guide/child-support' }
     ]
   },
@@ -142,10 +142,10 @@ export const spokesBatch14Pages16to20: SpokePage[] = [
       link: '/diagnosis/child-support'
     },
     internalLinks: [
-      { label: '양육비 미지급 시 강제집행 방법', href: '/spoke/child-support/child-support-enforcement-method' },
+      { label: '양육비 미지급 시 강제집행 방법', href: '/guide/child-support/child-support-enforcement-method' },
       { label: '성인 자녀 과거 양육비 소급 청구', href: '/guide/child-support/child-support-adult-child-retroactive' },
-      { label: '양육비 관련 주요 판례 분석', href: '/spoke/child-support/child-support-case-analysis' },
-      { label: '양육비 청구 소송 절차와 기간', href: '/spoke/child-support/child-support-lawsuit-procedure' },
+      { label: '양육비 관련 주요 판례 분석', href: '/guide/child-support/child-support-case-analysis' },
+      { label: '양육비 청구 소송 절차와 기간', href: '/guide/child-support/child-support-lawsuit-process' },
       { label: '양육비 가이드', href: '/guide/child-support' }
     ]
   },
@@ -216,10 +216,10 @@ export const spokesBatch14Pages16to20: SpokePage[] = [
       link: '/diagnosis/child-sex-crime'
     },
     internalLinks: [
-      { label: '아동성범죄 피해 발견 시 신고 의무와 절차', href: '/spoke/child-sex-crime/mandatory-reporting-and-procedure' },
-      { label: '아이가 피해를 말했을 때 어디부터', href: '/spoke/child-sex-crime/child-disclosed-abuse-where-to-start' },
-      { label: '아동성범죄 피해 아이 2차 피해 방지', href: '/spoke/child-sex-crime/preventing-secondary-harm-to-child' },
-      { label: '아동성범죄 피해 대응 부모용 체크리스트', href: '/spoke/child-sex-crime/parent-response-checklist' },
+      { label: '아동성범죄 피해 발견 시 신고 의무와 절차', href: '/guide/child-sex-crime/mandatory-reporting-procedure' },
+      { label: '아이가 피해를 말했을 때 어디부터', href: '/guide/child-sex-crime/child-disclosed-abuse-where-to-start' },
+      { label: '아동성범죄 피해 아이 2차 피해 방지', href: '/guide/child-sex-crime/preventing-secondary-harm-to-child' },
+      { label: '아동성범죄 피해 대응 부모용 체크리스트', href: '/guide/child-sex-crime/parent-response-checklist' },
       { label: '아동성범죄 가이드', href: '/guide/child-sex-crime' }
     ]
   },
@@ -286,10 +286,10 @@ export const spokesBatch14Pages16to20: SpokePage[] = [
       link: '/diagnosis/child-sex-crime'
     },
     internalLinks: [
-      { label: '아동성범죄 피해 발견 시 신고 의무와 절차', href: '/spoke/child-sex-crime/mandatory-reporting-and-procedure' },
-      { label: '아동성범죄 신고 시 필요 서류 정리', href: '/spoke/child-sex-crime/child-victim-report-required-documents' },
-      { label: '아이가 피해를 말했을 때 어디부터', href: '/spoke/child-sex-crime/child-disclosed-abuse-where-to-start' },
-      { label: '아동성범죄 피해 대응 부모용 체크리스트', href: '/spoke/child-sex-crime/parent-response-checklist' },
+      { label: '아동성범죄 피해 발견 시 신고 의무와 절차', href: '/guide/child-sex-crime/mandatory-reporting-procedure' },
+      { label: '아동성범죄 신고 시 필요 서류 정리', href: '/guide/child-sex-crime/child-victim-report-required-documents' },
+      { label: '아이가 피해를 말했을 때 어디부터', href: '/guide/child-sex-crime/child-disclosed-abuse-where-to-start' },
+      { label: '아동성범죄 피해 대응 부모용 체크리스트', href: '/guide/child-sex-crime/parent-response-checklist' },
       { label: '아동성범죄 가이드', href: '/guide/child-sex-crime' }
     ]
   },
@@ -360,10 +360,10 @@ export const spokesBatch14Pages16to20: SpokePage[] = [
       link: '/diagnosis/child-sex-crime'
     },
     internalLinks: [
-      { label: '아동성범죄 피해 발견 시 신고 의무와 절차', href: '/spoke/child-sex-crime/mandatory-reporting-and-procedure' },
-      { label: '아동성범죄 신고 시 필요 서류 정리', href: '/spoke/child-sex-crime/child-victim-report-required-documents' },
-      { label: '아동 성범죄 피해 아이의 2차 피해 방지법', href: '/spoke/child-sex-crime/preventing-secondary-harm-to-child' },
-      { label: '온라인 그루밍 피해 의심 징후와 대응법', href: '/spoke/child-sex-crime/online-grooming-warning-signs' },
+      { label: '아동성범죄 피해 발견 시 신고 의무와 절차', href: '/guide/child-sex-crime/mandatory-reporting-procedure' },
+      { label: '아동성범죄 신고 시 필요 서류 정리', href: '/guide/child-sex-crime/child-victim-report-required-documents' },
+      { label: '아동 성범죄 피해 아이의 2차 피해 방지법', href: '/guide/child-sex-crime/preventing-secondary-harm-to-child' },
+      { label: '온라인 그루밍 피해 의심 징후와 대응법', href: '/guide/child-sex-crime/online-grooming-warning-signs' },
       { label: '아동성범죄 가이드', href: '/guide/child-sex-crime' }
     ]
   }

@@ -91,10 +91,10 @@ export const spokesBatch20_1to7: SpokePage[] = [
     },
     internalLinks: [
       { label: '개인파산 가이드', href: '/guide/bankruptcy' },
-      { label: '파산 신청부터 면책까지 전체 절차', href: '/spoke/bankruptcy/bankruptcy-to-discharge-process' },
-      { label: '파산 후 신용회복 타임라인', href: '/spoke/bankruptcy/bankruptcy-credit-recovery-timeline' },
-      { label: '파산 vs 회생 비교', href: '/spoke/bankruptcy/bankruptcy-vs-rehabilitation-comparison' },
-      { label: '개인파산 면책 후 달라지는 것', href: '/spoke/bankruptcy/bankruptcy-after-discharge-life-changes' },
+      { label: '파산 신청부터 면책까지 전체 절차', href: '/guide/bankruptcy/bankruptcy-to-discharge-process' },
+      { label: '파산 후 신용회복 타임라인', href: '/guide/bankruptcy/bankruptcy-credit-recovery-timeline' },
+      { label: '파산 vs 회생 비교', href: '/guide/bankruptcy/bankruptcy-vs-rehabilitation-comparison' },
+      { label: '개인파산 면책 후 달라지는 것', href: '/guide/bankruptcy/bankruptcy-after-discharge-life-changes' },
     ],
   },
 
@@ -184,10 +184,10 @@ export const spokesBatch20_1to7: SpokePage[] = [
     },
     internalLinks: [
       { label: '개인파산 가이드', href: '/guide/bankruptcy' },
-      { label: '파산 신청부터 면책까지 전체 절차', href: '/spoke/bankruptcy/bankruptcy-to-discharge-process' },
-      { label: '파산 vs 회생 비교', href: '/spoke/bankruptcy/bankruptcy-vs-rehabilitation-comparison' },
-      { label: '신용카드 빚 파산으로 정리', href: '/spoke/bankruptcy/overwhelming-credit-card-debt-bankruptcy' },
-      { label: '개인회생 vs 파산 비교', href: '/spoke/rehabilitation/rehabilitation-vs-bankruptcy' },
+      { label: '파산 신청부터 면책까지 전체 절차', href: '/guide/bankruptcy/bankruptcy-to-discharge-process' },
+      { label: '파산 vs 회생 비교', href: '/guide/bankruptcy/bankruptcy-vs-rehabilitation-comparison' },
+      { label: '신용카드 빚 파산으로 정리', href: '/guide/bankruptcy/overwhelming-credit-card-debt-bankruptcy' },
+      { label: '개인회생 vs 파산 비교', href: '/guide/rehabilitation/rehabilitation-vs-bankruptcy' },
     ],
   },
 
@@ -267,15 +267,15 @@ export const spokesBatch20_1to7: SpokePage[] = [
       },
     ],
     cta: {
-      text: '파산 자가진단 무료 상담받기',
+      text: '파산 자가진단 상담받기',
       link: '/diagnosis/bankruptcy',
     },
     internalLinks: [
       { label: '개인파산 가이드', href: '/guide/bankruptcy' },
-      { label: '빚이 너무 많을 때 어디부터', href: '/spoke/bankruptcy/too-much-debt-where-to-start' },
-      { label: '파산 신청서 양식 작성 가이드', href: '/spoke/bankruptcy/application-form-template-guide' },
-      { label: '파산 전 재산 처분 면책 불허', href: '/spoke/bankruptcy/disposing-assets-before-filing-denial' },
-      { label: '파산 후 신용회복 타임라인', href: '/spoke/bankruptcy/bankruptcy-credit-recovery-timeline' },
+      { label: '빚이 너무 많을 때 어디부터', href: '/guide/bankruptcy/too-much-debt-where-to-start' },
+      { label: '파산 신청서 양식 작성 가이드', href: '/guide/bankruptcy/application-form-template-guide' },
+      { label: '파산 전 재산 처분 면책 불허', href: '/guide/bankruptcy/disposing-assets-before-filing-denial' },
+      { label: '파산 후 신용회복 타임라인', href: '/guide/bankruptcy/bankruptcy-credit-recovery-timeline' },
     ],
   },
 
@@ -360,10 +360,10 @@ export const spokesBatch20_1to7: SpokePage[] = [
     },
     internalLinks: [
       { label: '개인파산 가이드', href: '/guide/bankruptcy' },
-      { label: '파산 자가진단 체크리스트', href: '/spoke/bankruptcy/pre-filing-self-assessment-checklist' },
-      { label: '파산 전 재산 처분 면책 불허', href: '/spoke/bankruptcy/disposing-assets-before-filing-denial' },
-      { label: '파산 신청부터 면책까지 전체 절차', href: '/spoke/bankruptcy/bankruptcy-to-discharge-process' },
-      { label: '파산 면책 후 달라지는 것', href: '/spoke/bankruptcy/bankruptcy-after-discharge-life-changes' },
+      { label: '파산 자가진단 체크리스트', href: '/guide/bankruptcy/pre-filing-self-assessment-checklist' },
+      { label: '파산 전 재산 처분 면책 불허', href: '/guide/bankruptcy/disposing-assets-before-filing-denial' },
+      { label: '파산 신청부터 면책까지 전체 절차', href: '/guide/bankruptcy/bankruptcy-to-discharge-process' },
+      { label: '파산 면책 후 달라지는 것', href: '/guide/bankruptcy/bankruptcy-after-discharge-life-changes' },
     ],
   },
 
@@ -448,10 +448,10 @@ export const spokesBatch20_1to7: SpokePage[] = [
     },
     internalLinks: [
       { label: '부동산 매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '소유권 이전등기 절차', href: '/spoke/real-estate-sale/ownership-transfer-registration' },
-      { label: '등기부등본 확인 체크리스트', href: '/spoke/real-estate-sale/registry-check-before-contract' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매계약서 필수 조항', href: '/spoke/real-estate-sale/sale-contract-essential-clauses' },
+      { label: '소유권 이전등기 절차', href: '/guide/real-estate-sale/ownership-transfer-registration' },
+      { label: '등기부등본 확인 체크리스트', href: '/guide/real-estate-sale/registry-check-before-contract' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매계약서 필수 조항', href: '/guide/real-estate-sale/sale-contract-essential-clauses' },
     ],
   },
 
@@ -548,10 +548,10 @@ export const spokesBatch20_1to7: SpokePage[] = [
     },
     internalLinks: [
       { label: '부동산 매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '등기부등본 확인 체크리스트', href: '/spoke/real-estate-sale/registry-check-before-contract' },
-      { label: '이중매매 매수인 보호 방법', href: '/spoke/real-estate-sale/double-sale-buyer-protection' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매계약서 필수 조항', href: '/spoke/real-estate-sale/sale-contract-essential-clauses' },
+      { label: '등기부등본 확인 체크리스트', href: '/guide/real-estate-sale/registry-check-before-contract' },
+      { label: '이중매매 매수인 보호 방법', href: '/guide/real-estate-sale/double-sale-buyer-protection' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매계약서 필수 조항', href: '/guide/real-estate-sale/sale-contract-essential-clauses' },
     ],
   },
 
@@ -641,10 +641,10 @@ export const spokesBatch20_1to7: SpokePage[] = [
     },
     internalLinks: [
       { label: '부동산 매매 가이드', href: '/guide/real-estate-sale' },
-      { label: '소유권 이전등기 절차', href: '/spoke/real-estate-sale/ownership-transfer-registration' },
-      { label: '이중매매 매수인 보호 방법', href: '/spoke/real-estate-sale/double-sale-buyer-protection' },
-      { label: '매매계약 해제와 계약금 반환', href: '/spoke/real-estate-sale/contract-cancel-deposit-return' },
-      { label: '매매계약서 필수 조항', href: '/spoke/real-estate-sale/sale-contract-essential-clauses' },
+      { label: '소유권 이전등기 절차', href: '/guide/real-estate-sale/ownership-transfer-registration' },
+      { label: '이중매매 매수인 보호 방법', href: '/guide/real-estate-sale/double-sale-buyer-protection' },
+      { label: '매매계약 해제와 계약금 반환', href: '/guide/real-estate-sale/contract-cancel-deposit-return' },
+      { label: '매매계약서 필수 조항', href: '/guide/real-estate-sale/sale-contract-essential-clauses' },
     ],
   },
 ];

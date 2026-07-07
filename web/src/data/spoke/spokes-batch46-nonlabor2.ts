@@ -172,7 +172,6 @@ export const spokesBatch46Nonlabor2: SpokePage[] = [
     cta: { text: '협의이혼 준비서류, AI로 정리하기', link: '/chat?domain=divorce' },
     internalLinks: [
       { label: '혼인 중 발생한 채무 재산분할 분담 판단', href: '/guide/divorce/divorce-marital-debt-liability-allocation-division-track' },
-      { label: '부부 공동채무 회생 분담', href: '/guide/divorce/divorce-couple-joint-debt-rehabilitation' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
       { label: '외도 상대방 위자료', href: '/guide/divorce/divorce-affair-third-party-damages-track' },
       { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
@@ -670,7 +669,6 @@ export const spokesBatch46Nonlabor2: SpokePage[] = [
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
       { label: '상속 종합 가이드', href: '/guide/inheritance' },
-      { label: '연금 유족급여 청구', href: '/guide/inheritance/inheritance-pension-survivor-claim' },
       { label: '유족연금 상속재산 구분', href: '/guide/inheritance/inheritance-pension-survivor-vs-estate-track' },
       { label: '가업상속공제 600억', href: '/guide/inheritance/inheritance-business-succession-tax-deduction' },
       { label: '사실혼 배우자 상속권 재산분할', href: '/guide/inheritance/inheritance-de-facto-spouse-no-right' },

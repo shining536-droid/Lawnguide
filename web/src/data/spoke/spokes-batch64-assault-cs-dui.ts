@@ -89,7 +89,6 @@ export const spokesBatch64AssaultCsDui: SpokePage[] = [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '단체 폭행 가담 책임', href: '/guide/assault/assault-group-attack-joint-liability' },
-      { label: '술집·클럽 폭행 피해', href: '/guide/assault/assault-bar-club-bouncer-injury-victim-track' },
       { label: '과장된 상해 주장 무고 대응법', href: '/guide/assault/assault-exaggerated-injury-claim' },
     ],
   },
@@ -170,7 +169,6 @@ export const spokesBatch64AssaultCsDui: SpokePage[] = [
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
       { label: '폭행 증거 수집', href: '/guide/assault/assault-evidence-collection' },
-      { label: '요양시설 폭행 피해', href: '/guide/assault/assault-elderly-care-facility-abuse-track' },
       { label: '폭행 종합 가이드', href: '/guide/assault' },
       { label: '술집 어깨 부딪힘 모르는 사람 폭행 피해', href: '/guide/assault/assault-bar-shoulder-bump-stranger-victim-track' },
       { label: '과장된 상해 주장 무고 대응법', href: '/guide/assault/assault-exaggerated-injury-claim' },
@@ -336,7 +334,6 @@ export const spokesBatch64AssaultCsDui: SpokePage[] = [
     cta: { text: '양육비 산정기준표, AI로 계산해보기', link: '/chat?domain=child-support' },
     internalLinks: [
       { label: '양육비 정기금 일시금 변경', href: '/guide/child-support/child-support-periodic-to-lump-sum-modification' },
-      { label: '대학 등록금 특별 청구', href: '/guide/child-support/child-support-college-tuition-special-claim-track' },
       { label: '양육비 강제집행 압류 이행명령 감치', href: '/guide/child-support/child-support-enforcement-attach-imprison' },
       { label: '양육비 이행명령 위반 제재', href: '/guide/child-support/child-support-enforcement-contempt-order' },
       { label: '양육비 계산', href: '/guide/child-support/child-support-calculation-table' },

@@ -63,10 +63,10 @@ export const spokesBatch13Pages21to25: SpokePage[] = [
       link: '/diagnosis/industrial-accident1'
     },
     internalLinks: [
-      { label: '산재 요양급여 신청 절차와 기한', href: '/spoke/industrial-accident1/workers-comp-medical-claim-process' },
-      { label: '산재 당했는데 어디부터 해야 하나', href: '/spoke/industrial-accident1/injured-where-to-start' },
+      { label: '산재 요양급여 신청 절차와 기한', href: '/guide/industrial-accident1/workers-comp-claim-process' },
+      { label: '산재 당했는데 어디부터 해야 하나', href: '/guide/industrial-accident1/injured-where-to-start' },
       { label: '산재보험 요양급여 신청 절차와 기한', href: '/guide/industrial-accident1/workers-comp-claim-process' },
-      { label: '산재 불승인 후 재심사 청구', href: '/spoke/industrial-accident1/reapply-after-rejection' },
+      { label: '산재 불승인 후 재심사 청구', href: '/guide/industrial-accident1/reapply-after-rejection' },
       { label: 'industrial-accident1 도메인 허브', href: '/guide/industrial-accident1' }
     ]
   },
@@ -135,8 +135,8 @@ export const spokesBatch13Pages21to25: SpokePage[] = [
       link: '/diagnosis/prostitution'
     },
     internalLinks: [
-      { label: '성매매 적발됐는데 어디부터 해야 하나', href: '/spoke/prostitution/caught-where-to-start' },
-      { label: '성매매 단속 적발 후 형사 절차', href: '/spoke/prostitution/prostitution-arrest-criminal-process' },
+      { label: '성매매 적발됐는데 어디부터 해야 하나', href: '/guide/prostitution/caught-where-to-start' },
+      { label: '성매매 단속 적발 후 형사 절차', href: '/guide/prostitution/prostitution-arrest-criminal-process' },
       { label: 'prostitution 도메인 허브', href: '/guide/prostitution' },
       { label: '성매매 알선 혐의 수사부터 재판까지', href: '/guide/prostitution/solicitation-investigation-to-trial' },
       { label: '성매매 단속 초범 처벌 수위', href: '/guide/prostitution/first-offense-raid-penalty-level' }

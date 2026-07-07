@@ -728,7 +728,6 @@ export const spokesBatch95AssaultDuiJeonseFraud: SpokePage[] = [
       { label: '전세사기 도메인 허브', href: '/guide/jeonse-fraud' },
       { label: '신탁 부동산 무단 임대 보증금', href: '/guide/jeonse-fraud/jeonse-fraud-trust-property-unauthorized-lease-track' },
       { label: '법인 임차 직원 거주 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-corporate-tenant-opposing-power-track' },
-      { label: '집주인 사망 상속 보증금 반환', href: '/guide/jeonse-fraud/jeonse-fraud-landlord-death-deposit-track' },
       { label: '전세사기 피해자 인정 신청 전 준비 서류', href: '/guide/jeonse-fraud/jeonse-fraud-victim-application-docs' },
     ],
   },

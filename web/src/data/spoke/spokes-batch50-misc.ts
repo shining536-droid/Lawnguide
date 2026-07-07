@@ -168,7 +168,6 @@ export const spokesBatch50Misc: SpokePage[] = [
     ],
     cta: { text: '스토킹 고소 대응 순서, AI로 점검하기', link: '/chat?domain=stalking' },
     internalLinks: [
-      { label: '스토킹 잠정조치 긴급응급조치 신청', href: '/guide/stalking/stalking-emergency-protection-order-apply' },
       { label: '스토킹 종합 가이드', href: '/guide/stalking' },
       { label: '스토킹 증거 수집 방법 FAQ', href: '/guide/stalking/stalking-evidence-collection-faq' },
       { label: '온라인 게임 보이스 채팅 게임 외 추적 스토킹', href: '/guide/stalking/stalking-online-game-voice-chat-repeat-private-message-track' },
@@ -419,7 +418,6 @@ export const spokesBatch50Misc: SpokePage[] = [
     internalLinks: [
       { label: '양육비 산정 기준과 증액 청구 방법', href: '/guide/child-support/child-support-calculation-increase' },
       { label: '양육비 비현금 부동산 예금', href: '/guide/child-support/child-support-non-cash-payment-property-recognition-track' },
-      { label: '비양육친 외국 거주 회수', href: '/guide/child-support/child-support-foreign-spouse-collection' },
       { label: '양육비 직접지급명령 가정법원', href: '/guide/child-support/child-support-direct-payment-order-family-court-no-csa-track' },
       { label: '양육비 연체 급여 압류', href: '/guide/child-support/child-support-overdue-salary-seizure-procedure' },
     ],

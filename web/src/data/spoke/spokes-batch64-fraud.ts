@@ -252,7 +252,6 @@ export const spokesBatch64Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '온라인 강의 환불 거부', href: '/guide/fraud/fraud-online-class-coupon-cancellation-track' },
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '다이어트 보조제 효능 과장 판매 사기', href: '/guide/fraud/fraud-diet-supplement-false-efficacy-sale-track' },
       { label: '할부금융 사기 피해 대응 구제 절차', href: '/guide/fraud/fraud-installment-finance-scam-response' },

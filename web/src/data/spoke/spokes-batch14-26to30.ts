@@ -73,9 +73,9 @@ export const spokesBatch14Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '상속 진단하기', href: '/diagnosis/inheritance' },
       { label: '상속 가이드', href: '/guide/inheritance' },
-      { label: '상속 순위와 법정상속분 계산법', href: '/spoke/inheritance/inheritance-order-legal-share' },
-      { label: '상속 포기 신청 절차와 기한', href: '/spoke/inheritance/inheritance-renunciation-deadline' },
-      { label: '한정승인과 상속포기 차이점 비교', href: '/spoke/inheritance/limited-acceptance-vs-renunciation' }
+      { label: '상속 순위와 법정상속분 계산법', href: '/guide/inheritance/inheritance-order-legal-share' },
+      { label: '상속 포기 신청 절차와 기한', href: '/guide/inheritance/inheritance-renunciation-deadline' },
+      { label: '한정승인과 상속포기 차이점 비교', href: '/guide/inheritance/inheritance-limited-vs-renounce' }
     ]
   },
   {
@@ -141,9 +141,9 @@ export const spokesBatch14Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '산업재해(사업주) 진단��기', href: '/diagnosis/industrial-accident2' },
       { label: '산��재해(사업주) 가이드', href: '/guide/industrial-accident2' },
-      { label: '산재 사업주 신고 의무와 절차', href: '/spoke/industrial-accident2/employer-report-obligation-process' },
-      { label: '사업주가 놓치기 쉬운 안전보건 의무', href: '/spoke/industrial-accident2/commonly-missed-safety-obligations' },
-      { label: '하청업체 사고 시 원청 책��� 범위', href: '/spoke/industrial-accident2/subcontractor-accident-main-employer-duty' }
+      { label: '산재 사업주 신고 의무와 절차', href: '/guide/industrial-accident2/employer-report-obligation-process' },
+      { label: '사업주가 놓치기 쉬운 안전보건 의무', href: '/guide/industrial-accident2/commonly-missed-safety-obligations' },
+      { label: '하청업체 사고 시 원청 책��� 범위', href: '/guide/industrial-accident2/subcontractor-accident-main-employer-duty' }
     ]
   },
   {
@@ -213,9 +213,9 @@ export const spokesBatch14Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '산업재해(사업주) 진단하기', href: '/diagnosis/industrial-accident2' },
       { label: '산업재해(사업주) 가이드', href: '/guide/industrial-accident2' },
-      { label: '산재 사업주 신고 의무와 절차', href: '/spoke/industrial-accident2/employer-report-obligation-process' },
-      { label: '중대재해 발생 시 사업주 대응 방법', href: '/spoke/industrial-accident2/serious-accident-employer-response' },
-      { label: '사업주가 놓치기 쉬운 안전보건 의무', href: '/spoke/industrial-accident2/commonly-missed-safety-obligations' }
+      { label: '산재 사업주 신고 의무와 절차', href: '/guide/industrial-accident2/employer-report-obligation-process' },
+      { label: '중대재해 발생 시 사업주 대응 방법', href: '/guide/industrial-accident2/serious-accident-employer-response' },
+      { label: '사업주가 놓치기 쉬운 안전보건 의무', href: '/guide/industrial-accident2/commonly-missed-safety-obligations' }
     ]
   },
   {
@@ -285,9 +285,9 @@ export const spokesBatch14Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '산업재해(���업주) 진단하기', href: '/diagnosis/industrial-accident2' },
       { label: '산업재해(사업주) 가이드', href: '/guide/industrial-accident2' },
-      { label: '산재 사업주 신고 의무와 절차', href: '/spoke/industrial-accident2/employer-report-obligation-process' },
-      { label: '중대재해 발생 시 사업주 대응 방법', href: '/spoke/industrial-accident2/serious-accident-employer-response' },
-      { label: '하청업체 사고 시 원청 책임 범위', href: '/spoke/industrial-accident2/subcontractor-accident-main-employer-duty' }
+      { label: '산재 사업주 신고 의무와 절차', href: '/guide/industrial-accident2/employer-report-obligation-process' },
+      { label: '중대재해 발생 시 사업주 대응 방법', href: '/guide/industrial-accident2/serious-accident-employer-response' },
+      { label: '하청업체 사고 시 원청 책임 범위', href: '/guide/industrial-accident2/subcontractor-accident-main-employer-duty' }
     ]
   }
 ];

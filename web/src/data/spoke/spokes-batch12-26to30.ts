@@ -73,7 +73,7 @@ export const spokesBatch12Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '마약범죄 진단하기', href: '/diagnosis/drug-crime' },
       { label: '마약범죄 가이드', href: '/guide/drug-crime' },
-      { label: '마약 소지 적발 후 형사 절차', href: '/spoke/drug-crime/drug-possession-criminal-process' },
+      { label: '마약 소지 적발 후 형사 절차', href: '/guide/drug-crime/drug-possession-criminal-process' },
       { label: '마약 초범 집행유예 조건', href: '/guide/drug-crime/first-offense-probation-conditions' },
       { label: '마약 사건 변호사 방어 전략', href: '/guide/drug-crime/drug-charge-lawyer-defense-strategy' }
     ]
@@ -145,9 +145,9 @@ export const spokesBatch12Pages26to30: SpokePage[] = [
     internalLinks: [
       { label: '마약범죄 진단하기', href: '/diagnosis/drug-crime' },
       { label: '마약범죄 가이드', href: '/guide/drug-crime' },
-      { label: '마약 투약 혐의 수사 대응 절차', href: '/spoke/drug-crime/drug-use-investigation-response' },
+      { label: '마약 투약 혐의 수사 대응 절차', href: '/guide/drug-crime/drug-use-investigation-response' },
       { label: '마약 초범 처벌 수위와 대응 방법', href: '/guide/drug-crime/drug-crime-first-offense-sentencing' },
-      { label: '지인 권유로 마약 처음 했을 때 처벌', href: '/spoke/drug-crime/first-time-peer-pressure-penalty' }
+      { label: '지인 권유로 마약 처음 했을 때 처벌', href: '/guide/drug-crime/first-time-peer-pressure-penalty' }
     ]
   },
   {
@@ -218,7 +218,6 @@ export const spokesBatch12Pages26to30: SpokePage[] = [
       { label: '학교폭력 진단하기', href: '/diagnosis/school-violence' },
       { label: '학교폭력 가이드', href: '/guide/school-violence' },
       { label: '학교폭력 가해자 지목 부모 초기 대응', href: '/guide/school-violence/accused-as-perpetrator-parent-response' },
-      { label: '학교폭력 기록 생활기록부 삭제', href: '/guide/school-violence/can-school-record-be-deleted' },
       { label: '학교폭력 가해학생 생기부 기록 삭제', href: '/guide/school-violence/perpetrator-school-record-deletion' }
     ]
   },

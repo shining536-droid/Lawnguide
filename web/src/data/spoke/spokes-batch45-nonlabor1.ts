@@ -360,7 +360,6 @@ export const spokesBatch45Nonlabor1: SpokePage[] = [
       link: '/chat?domain=fraud',
     },
     internalLinks: [
-      { label: '온라인 자격증 강의 사기 환불', href: '/guide/fraud/fraud-online-cert-class-refund' },
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '학원 수강료 환불 거부 분쟁조정', href: '/guide/fraud/fraud-academy-tuition-refund-refusal-dispute' },
       { label: '단체 투자 사기 공동 회수', href: '/guide/fraud/fraud-elderly-group-investment-scam' },

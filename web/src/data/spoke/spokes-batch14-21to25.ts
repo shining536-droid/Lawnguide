@@ -67,11 +67,11 @@ export const spokesBatch14Pages21to25: SpokePage[] = [
       link: '/diagnosis/jeonse-fraud'
     },
     internalLinks: [
-      { label: '전세사기 당했을 때 가장 먼저 해야 할 일', href: '/spoke/jeonse-fraud/jeonse-fraud-first-check' },
-      { label: '전세사기 vs 보증금 미반환 차이점', href: '/spoke/jeonse-fraud/jeonse-fraud-vs-deposit-default' },
+      { label: '전세사기 당했을 때 가장 먼저 해야 할 일', href: '/guide/jeonse-fraud/jeonse-fraud-first-check' },
+      { label: '전세사기 vs 보증금 미반환 차이점', href: '/guide/jeonse-fraud/jeonse-fraud-vs-deposit-default' },
       { label: 'jeonse-fraud 도메인 허브', href: '/guide/jeonse-fraud' },
       { label: '깡통전세 확인하는 방법', href: '/guide/jeonse-fraud/empty-jeonse-verification-method' },
-      { label: '전세사기 피해 구제 타임라인', href: '/spoke/jeonse-fraud/jeonse-fraud-relief-timeline' }
+      { label: '전세사기 피해 구제 타임라인', href: '/guide/jeonse-fraud/jeonse-fraud-relief-timeline' }
     ]
   },
   {
@@ -143,9 +143,9 @@ export const spokesBatch14Pages21to25: SpokePage[] = [
       link: '/diagnosis/inheritance'
     },
     internalLinks: [
-      { label: '한정승인과 상속포기 차이점 비교', href: '/spoke/inheritance/limited-acceptance-vs-renunciation' },
-      { label: '상속 순위와 법정 상속분 계산법', href: '/spoke/inheritance/inheritance-order-legal-share' },
-      { label: '상속 재산 조회 방법과 필요 서류', href: '/spoke/inheritance/inheritance-asset-inquiry-method' },
+      { label: '한정승인과 상속포기 차이점 비교', href: '/guide/inheritance/inheritance-limited-vs-renounce' },
+      { label: '상속 순위와 법정 상속분 계산법', href: '/guide/inheritance/inheritance-order-legal-share' },
+      { label: '상속 재산 조회 방법과 필요 서류', href: '/guide/inheritance/inheritance-asset-inquiry-method' },
       { label: '유류분 부족분 반환청구 절차', href: '/guide/inheritance/inheritance-forced-heir-share-shortfall-return-claim-track' },
       { label: '상속재산분할협의서 무효', href: '/guide/inheritance/inheritance-division-agreement-defect-invalidation' }
     ]

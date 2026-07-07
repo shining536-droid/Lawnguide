@@ -186,7 +186,6 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
     },
     internalLinks: [
       { label: '상속세 신고기한 도과 가산세', href: '/guide/inheritance/inheritance-tax-late-filing-penalty-relief' },
-      { label: '해외재산 상속세 신고', href: '/guide/inheritance/inheritance-foreign-assets-declaration-report' },
       { label: '상속 재산 조회 방법과 필요 서류', href: '/guide/inheritance/inheritance-asset-inquiry-method' },
       { label: '해외 자산 상속세 신고', href: '/guide/inheritance/inheritance-foreign-asset-tax-procedure' },
       { label: '상속재산 분할협의 무효', href: '/guide/inheritance/inheritance-division-agreement-void-track' },
@@ -707,7 +706,6 @@ export const spokesBatch44Nonlabor2: SpokePage[] = [
       link: '/chat?domain=jeonse',
     },
     internalLinks: [
-      { label: '경매 소액임차인 최우선변제', href: '/guide/jeonse/jeonse-auction-small-deposit-priority-repay' },
       { label: '주택임대차 종합 가이드', href: '/guide/jeonse' },
       { label: '전세 사기 의심 징후 자가진단', href: '/guide/jeonse/fraud-suspicion-self-check' },
       { label: '임차권등기명령 신청 절차와 비용', href: '/guide/jeonse/lease-registration-order-process' },

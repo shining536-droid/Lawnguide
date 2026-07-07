@@ -837,7 +837,6 @@ export const spokesBatch82AssaultDuiJeonseFraud: SpokePage[] = [
     ],
     cta: { text: '보증금 돌려받을 수 있는지 AI로 점검하기', link: '/chat?domain=jeonse-fraud' },
     internalLinks: [
-      { label: '소액임차인 최우선변제 대상 점검', href: '/guide/jeonse-fraud/jeonse-fraud-small-deposit-priority-repayment-track' },
       { label: '선순위 근저당 경매 배당 보증금 회수 절차', href: '/guide/jeonse-fraud/jeonse-fraud-priority-mortgage-auction-distribution-recovery-track' },
       { label: '법인 임차 직원 거주 대항력', href: '/guide/jeonse-fraud/jeonse-fraud-corporate-lease-employee-opposing-power-track' },
       { label: '공인중개사 공모 전세사기 보증금', href: '/guide/jeonse-fraud/jeonse-fraud-broker-conspiracy-deposit-track' },

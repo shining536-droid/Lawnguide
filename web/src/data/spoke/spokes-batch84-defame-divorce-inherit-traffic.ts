@@ -754,7 +754,6 @@ export const spokesBatch84DefameDivorceInheritTraffic: SpokePage[] = [
     ],
     cta: { text: '한정승인 필요서류, AI로 정리하기', link: '/chat?domain=inheritance' },
     internalLinks: [
-      { label: '유류분 반환 청구', href: '/guide/inheritance/inheritance-legal-reserve-claim-track' },
       { label: '상속 종합 가이드', href: '/guide/inheritance' },
       { label: '상속재산분할협의서 무효', href: '/guide/inheritance/inheritance-division-agreement-defect-invalidation' },
       { label: '자필유언 증인 결격 효력', href: '/guide/inheritance/inheritance-handwritten-will-witness-defect-validity-track' },

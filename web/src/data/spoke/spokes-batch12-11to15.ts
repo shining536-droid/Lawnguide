@@ -86,7 +86,7 @@ export const spokesBatch12Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '내 상황에 맞는 대응 전략 확인하기', href: '/chat?domain=jeonse-fraud' },
       { label: '전세사기 가이드', href: '/guide/jeonse-fraud' },
-      { label: '전세사기 신고 절차 총정리', href: '/spoke/jeonse-fraud/jeonse-fraud-report-procedure' },
+      { label: '전세사기 신고 절차 총정리', href: '/guide/jeonse-fraud/jeonse-fraud-report-procedure' },
       { label: '전세보증금 못 받았을 때 즉시 대응법', href: '/guide/jeonse-fraud/jeonse-deposit-not-returned-response' },
       { label: '전세보증보험 청구 체크리스트', href: '/guide/jeonse/jeonse-insurance-claim-checklist' },
     ],
@@ -178,7 +178,7 @@ export const spokesBatch12Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '폭행/상해 가이드', href: '/guide/assault' },
-      { label: '폭행 합의금 적정 금액 기준', href: '/spoke/assault/assault-settlement-amount-guide' },
+      { label: '폭행 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount-guide' },
       { label: '손주 보호 정당방위 노인', href: '/guide/assault/assault-self-defense-elderly-grandchild-protect-counter-track' },
       { label: '폭행 피해자 고소장 작성법', href: '/guide/assault/assault-complaint-template' },
     ],
@@ -263,9 +263,9 @@ export const spokesBatch12Pages11to15: SpokePage[] = [
     internalLinks: [
       { label: '홈', href: '/' },
       { label: '폭행/상해 가이드', href: '/guide/assault' },
-      { label: '폭행 피해 증거 체크리스트', href: '/spoke/assault/assault-evidence-checklist' },
-      { label: '폭행죄와 상해죄 차이점', href: '/spoke/assault/assault-vs-injury-penalties' },
-      { label: '폭행 합의금 적정 금액 기준', href: '/spoke/assault/assault-settlement-amount-guide' },
+      { label: '폭행 피해 증거 체크리스트', href: '/guide/assault/assault-evidence-checklist' },
+      { label: '폭행죄와 상해죄 차이점', href: '/guide/assault/assault-vs-injury-penalties' },
+      { label: '폭행 합의금 적정 금액 기준', href: '/guide/assault/assault-settlement-amount-guide' },
     ],
   },
 ];

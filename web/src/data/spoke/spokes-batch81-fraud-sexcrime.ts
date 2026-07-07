@@ -91,7 +91,6 @@ export const spokesBatch81FraudSexCrime: SpokePage[] = [
     ],
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
-      { label: '해외 친구·연인 로맨스 투자 잠적 사기', href: '/guide/fraud/fraud-romance-scam-overseas-friend-investment-track' },
       { label: '코인 리딩방 출금 거부', href: '/guide/fraud/fraud-crypto-leading-room-profit-guarantee-withdrawal-block-track' },
       { label: '투자사기 증거 수집', href: '/guide/fraud/investment-fraud-evidence-collection' },
       { label: '사기 피해 어디부터', href: '/guide/fraud/fraud-victim-where-to-start' },

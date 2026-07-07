@@ -335,7 +335,6 @@ export const spokesBatch65Fraud: SpokePage[] = [
     cta: { text: '사기 고소 전 준비자료, AI로 체크하기', link: '/chat?domain=fraud' },
     internalLinks: [
       { label: '사기죄 고소 절차 총정리', href: '/guide/fraud/fraud-complaint-procedure-comprehensive' },
-      { label: '해외취업 알선 브로커 사기', href: '/guide/fraud/fraud-overseas-job-recruitment-broker-fee-vanish-track' },
       { label: '사기/재산범죄 종합 가이드', href: '/guide/fraud' },
       { label: '사기죄 고소장 쓰기 전에 정리할 것', href: '/guide/fraud/fraud-complaint-preparation' },
       { label: '문화상품권 구매 사기 환불', href: '/guide/fraud/fraud-prepaid-card-purchase-scam' },

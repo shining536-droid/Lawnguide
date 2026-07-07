@@ -422,7 +422,6 @@ export const spokesBatch81Labor: SpokePage[] = [
     ],
     cta: { text: '임금체불 대응 순서, AI로 바로 정리하기', link: '/chat?domain=wage' },
     internalLinks: [
-      { label: '대기시간 휴게시간 근로시간 인정', href: '/guide/wage/wage-on-call-standby-work-time-recognition-track' },
       { label: '휴게시간 근로시간 편입', href: '/guide/wage/wage-break-standby-time-included' },
       { label: '포괄임금 연장수당 차액', href: '/guide/wage/wage-pogual-overtime-difference-claim' },
       { label: '연장근로수당 청구', href: '/guide/wage/wage-overtime-unpaid-claim' },
@@ -754,7 +753,6 @@ export const spokesBatch81Labor: SpokePage[] = [
     ],
     cta: { text: '퇴직금 포함 항목, AI로 먼저 확인하기', link: '/chat?domain=retirement' },
     internalLinks: [
-      { label: '퇴직금 중간정산 적법 사유 무효 재산정', href: '/guide/retirement/retirement-intermediate-settlement-no-cause-invalid-claim-track' },
       { label: '퇴직급여 종합 가이드', href: '/guide/retirement' },
       { label: '퇴직금 분할 지급 합의 무효', href: '/guide/retirement/retirement-partial-payment-agreement-void-5reasons' },
       { label: '퇴직금 계산 기준', href: '/guide/retirement/retirement-pay-calculation' },
@@ -838,7 +836,6 @@ export const spokesBatch81Labor: SpokePage[] = [
     cta: { text: '산재 인정 요건과 신청 절차, AI로 정리하기', link: '/chat?domain=industrial-accident' },
     internalLinks: [
       { label: '출퇴근 재해 인정', href: '/guide/industrial-accident/industrial-accident-commute-recognition-track' },
-      { label: '출퇴근 일탈 중단 산재 업무상 인정', href: '/guide/industrial-accident/industrial-accident-commute-deviation-personal-errand-track' },
       { label: '출퇴근 재해 산재', href: '/guide/industrial-accident/industrial-accident-commuting-track' },
       { label: '산재 불승인 이의', href: '/guide/industrial-accident/industrial-accident-denial-appeal' },
       { label: '치료 후 직장 복귀', href: '/guide/industrial-accident/return-to-work-after-injury' },
