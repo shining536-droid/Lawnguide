@@ -510,6 +510,7 @@ export const spokesBatch113Labor: SpokePage[] = [
       { label: '직무 불일치 퇴사', href: '/guide/unemployment/unemployment-job-mismatch-quit-just-cause-track' },
       { label: '괴롭힘 퇴사', href: '/guide/unemployment/unemployment-workplace-bullying-resignation-just-cause-track' },
       { label: '임금체불 퇴사', href: '/guide/unemployment/unemployment-wage-arrears-resignation-just-cause-track' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

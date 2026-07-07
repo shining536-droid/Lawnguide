@@ -510,6 +510,7 @@ export const spokesBatch105Labor: SpokePage[] = [
       { label: '택시 초과수입 기초임금', href: '/guide/unemployment/unemployment-taxi-excess-income-base-wage-track' },
       { label: '기초일액 산정 곤란', href: '/guide/unemployment/unemployment-base-daily-wage-calc-difficulty-track' },
       { label: '구직급여 소멸시효', href: '/guide/unemployment/unemployment-benefit-extinctive-prescription-track' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

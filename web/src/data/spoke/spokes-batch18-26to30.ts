@@ -322,6 +322,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       { label: '자진 퇴사 실업급여 받을 수 있는 경우', href: '/guide/unemployment/voluntary-resignation-benefit-eligible-cases' },
       { label: '실업급여 신청 필요 서류 전체 목록', href: '/guide/unemployment/application-required-documents-checklist' },
       { label: '실업급여 신청 기간 놓치면 못 받는 함정', href: '/guide/unemployment/missing-application-deadline-trap' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
   */

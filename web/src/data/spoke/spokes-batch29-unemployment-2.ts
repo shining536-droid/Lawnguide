@@ -481,6 +481,7 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
       { label: '플랫폼 노동자 실업급여', href: '/guide/unemployment/unemployment-gig-platform-worker' },
       { label: '일용직 실업급여', href: '/guide/unemployment/unemployment-daily-worker-qualification' },
       { label: '고용센터 첫 방문', href: '/guide/unemployment/first-application-employment-center-checklist' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 ];

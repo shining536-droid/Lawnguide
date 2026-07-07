@@ -429,6 +429,7 @@ export const spokesBatch51WageUnempRetire: SpokePage[] = [
       { label: '구직활동 의무 위반 부정수급 다툼', href: '/guide/unemployment/unemployment-job-search-violation-cancel' },
       { label: '실업급여 신청부터 수령까지 전체 절차', href: '/guide/unemployment/unemployment-illness-suspension' },
       { label: '계약직 갱신거절 자발·비자발 판단', href: '/guide/unemployment/unemployment-pregnancy-job-search-activity' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

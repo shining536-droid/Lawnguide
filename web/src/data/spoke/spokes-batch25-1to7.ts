@@ -422,6 +422,7 @@ export const spokesBatch25_1to7: SpokePage[] = [
       { label: '실업급여 수급 조건 총정리', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '자진퇴사 실업급여 인정 쉬운 사유', href: '/guide/unemployment/voluntary-quit-easy-approval-reasons' },
       { label: '임금체불 어디서부터 시작할까', href: '/guide/wage/unpaid-wage-where-to-start' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

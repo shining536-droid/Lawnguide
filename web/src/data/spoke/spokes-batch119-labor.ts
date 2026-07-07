@@ -510,6 +510,7 @@ export const spokesBatch119Labor: SpokePage[] = [
       { label: '기간제 만료 수급자격', href: '/guide/unemployment/unemployment-fixed-term-contract-expiry-eligibility-track' },
       { label: '사직 강요 사실상 해고', href: '/guide/unemployment/unemployment-employer-forced-resignation' },
       { label: '권고사직 수급', href: '/guide/unemployment/unemployment-recommended-resignation-track' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
@@ -593,6 +594,7 @@ export const spokesBatch119Labor: SpokePage[] = [
       { label: '사직 강요 사실상 해고', href: '/guide/unemployment/unemployment-employer-forced-resignation' },
       { label: '정년 도달 이직 수급', href: '/guide/unemployment/unemployment-mandatory-retirement-age-reaching-just-cause-track' },
       { label: '권고사직·자진퇴사 경계', href: '/guide/unemployment/unemployment-recommendation-vs-resignation-boundary' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

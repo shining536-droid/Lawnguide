@@ -99,6 +99,7 @@ export const spokesBatch33Unemployment: SpokePage[] = [
       { label: '조기재취업수당', href: '/guide/unemployment/unemployment-early-reemployment-bonus' },
       { label: '수급 중 소득 제한', href: '/guide/unemployment/unemployment-part-time-income-limit' },
       { label: '일용직 실업급여', href: '/guide/unemployment/unemployment-daily-worker-qualification' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

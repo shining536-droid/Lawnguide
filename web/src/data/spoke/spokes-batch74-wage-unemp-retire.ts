@@ -256,6 +256,7 @@ export const spokesBatch74WageUnempRetire: SpokePage[] = [
       { label: '계약 갱신거절 비자발 이직 구직급여 수급 절차', href: '/guide/unemployment/unemployment-contract-non-renewal-involuntary-separation-track' },
       { label: '이직확인서 안 보내주는 회사 대응법 4단계', href: '/guide/unemployment/employer-wont-send-employment-verification' },
       { label: '50세 이상 실업급여 수급기간', href: '/guide/unemployment/unemployment-50plus-extended-period' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

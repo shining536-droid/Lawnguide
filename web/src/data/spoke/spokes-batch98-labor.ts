@@ -510,6 +510,7 @@ export const spokesBatch98Labor: SpokePage[] = [
       { label: '신청부터 지급까지 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
       { label: '계약만료 신청 순서', href: '/guide/unemployment/contract-expiry-benefit-application-order' },
       { label: '계약만료 수급 자격', href: '/guide/unemployment/contract-expiry-benefit-eligibility' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
@@ -593,6 +594,7 @@ export const spokesBatch98Labor: SpokePage[] = [
       { label: '신청부터 지급까지 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
       { label: '계약만료 신청 순서', href: '/guide/unemployment/contract-expiry-benefit-application-order' },
       { label: '계약만료 수급 자격', href: '/guide/unemployment/contract-expiry-benefit-eligibility' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

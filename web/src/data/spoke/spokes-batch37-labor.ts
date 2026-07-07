@@ -104,6 +104,7 @@ export const spokesBatch37Labor: SpokePage[] = [
       { label: '자발적 퇴사 실업급여 예외 사례', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
       { label: '구직활동 인정 범위 정리', href: '/guide/unemployment/unemployment-job-search-recognized-types' },
       { label: '실업급여 수급액 계산 가이드', href: '/guide/unemployment/unemployment-comprehensive-benefit-amount-guide' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

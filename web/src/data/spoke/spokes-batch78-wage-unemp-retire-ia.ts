@@ -257,6 +257,7 @@ export const spokesBatch78WageUnempRetireIa: SpokePage[] = [
       { label: '환수 통보 이의', href: '/guide/unemployment/unemployment-fraud-collection-notice-appeal' },
       { label: '수급 거부 이의 절차', href: '/guide/unemployment/unemployment-benefit-rejection-appeal-procedure' },
       { label: '수급 중 소득', href: '/guide/unemployment/unemployment-side-income-during-benefit' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

@@ -186,6 +186,7 @@ export const spokesBatch34Labor: SpokePage[] = [
       { label: '실업급여 신청부터 지급까지 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
       { label: '권고사직 실업급여 안내', href: '/guide/unemployment/recommended-resignation-unemployment-benefit' },
       { label: '실업급여 부정수급 제재 안내', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

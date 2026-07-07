@@ -510,6 +510,7 @@ export const spokesBatch99Labor: SpokePage[] = [
       { label: '계약만료 수급', href: '/guide/unemployment/unemployment-contract-expiry-track' },
       { label: '가족 간병 퇴사', href: '/guide/unemployment/unemployment-family-care-resignation-track' },
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

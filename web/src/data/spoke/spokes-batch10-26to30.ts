@@ -349,6 +349,7 @@ export const spokesBatch10Pages26to30: SpokePage[] = [
       { label: '자발적 퇴사 실업급여 예외 총정리', href: '/guide/unemployment/unemployment-voluntary-quit-exception-comprehensive' },
       { label: '구직활동 인정 유형 가이드', href: '/guide/unemployment/unemployment-recognized-job-search-activity-guide' },
       { label: '부정수급 제재와 대응법', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ]
   },
 ];

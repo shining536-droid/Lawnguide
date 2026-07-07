@@ -277,6 +277,7 @@ export const spokesBatch27Unemployment_1to5: SpokePage[] = [
       { label: '50세 이상 수급기간 연장', href: '/guide/unemployment/unemployment-50plus-extended-period' },
       { label: '실업급여 수급 중 알바', href: '/guide/unemployment/unemployment-part-time-income-limit' },
       { label: '조기재취업수당', href: '/guide/unemployment/unemployment-early-reemployment-bonus' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
@@ -356,6 +357,7 @@ export const spokesBatch27Unemployment_1to5: SpokePage[] = [
       { label: '권고사직 실업급여', href: '/guide/unemployment/recommended-resignation-unemployment-benefit' },
       { label: '이직확인서 분쟁', href: '/guide/unemployment/unemployment-separation-confirmation-dispute' },
       { label: '자발적 퇴직 수급 가능 유형', href: '/guide/unemployment/unemployment-voluntary-quit-benefits' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

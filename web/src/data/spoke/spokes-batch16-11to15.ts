@@ -256,6 +256,7 @@ export const spokesBatch16_11to15: SpokePage[] = [
       { label: '자발적 퇴사도 실업급여 받는 5가지 사유', href: '/guide/unemployment/voluntary-quit-unemployment-eligibility' },
       { label: '실업급여 수급 요건 가이드', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '권고사직 강요받을 때 거부하는 법', href: '/guide/dismissal/forced-resignation-defense' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
@@ -346,6 +347,7 @@ export const spokesBatch16_11to15: SpokePage[] = [
       { label: '실업급여 수급 요건 가이드', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '실업급여 부정수급 적발 시 대처 방법', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
       { label: '권고사직 강요받을 때 거부하는 법', href: '/guide/dismissal/forced-resignation-defense' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

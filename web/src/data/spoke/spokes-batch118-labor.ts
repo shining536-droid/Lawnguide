@@ -510,6 +510,7 @@ export const spokesBatch118Labor: SpokePage[] = [
       { label: '배우자 전근 자진퇴사', href: '/guide/unemployment/unemployment-spouse-relocation-quit-just-cause-track' },
       { label: '사업장 이전 통근곤란', href: '/guide/unemployment/unemployment-company-move-long-commute-resignation-just-cause-track' },
       { label: '가족 간병 퇴사', href: '/guide/unemployment/unemployment-family-care-resignation-just-cause-track' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
@@ -593,6 +594,7 @@ export const spokesBatch118Labor: SpokePage[] = [
       { label: '계약 만료 실업급여', href: '/guide/unemployment/contract-expiry-unemployment-benefit' },
       { label: '계약 만료 수급자격', href: '/guide/unemployment/unemployment-contract-expiry-eligibility-track' },
       { label: '계약 갱신거절 수급', href: '/guide/unemployment/unemployment-contract-non-renewal-just-cause' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

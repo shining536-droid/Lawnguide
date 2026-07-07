@@ -340,6 +340,7 @@ export const spokesBatch79WageUnempRetire: SpokePage[] = [
       { label: '일용직 실업급여 조건', href: '/guide/unemployment/unemployment-daily-worker-qualification' },
       { label: '단기 알바 신고 누락 구제', href: '/guide/unemployment/unemployment-short-part-time-unreport-rescue' },
       { label: '수급 거부 이의 절차', href: '/guide/unemployment/unemployment-benefit-rejection-appeal-procedure' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

@@ -101,6 +101,7 @@ export const spokesBatch38Labor: SpokePage[] = [
       { label: '실업급여 부정수급 제재', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
       { label: '조기재취업수당 요건', href: '/guide/unemployment/unemployment-early-reemployment-bonus' },
       { label: '퇴직금 청구 시작 가이드', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

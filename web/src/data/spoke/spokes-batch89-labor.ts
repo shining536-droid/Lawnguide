@@ -510,6 +510,7 @@ export const spokesBatch89Labor: SpokePage[] = [
       { label: '계약만료 이직 수급', href: '/guide/unemployment/unemployment-contract-expiry-resignation-track' },
       { label: '실업급여 신청에서 수급까지 전체 절차', href: '/guide/unemployment/application-to-payment-full-procedure' },
       { label: '부당해고 구제 절차', href: '/guide/dismissal/unfair-dismissal-relief-procedure' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

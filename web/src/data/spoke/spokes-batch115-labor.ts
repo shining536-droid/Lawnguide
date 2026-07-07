@@ -593,6 +593,7 @@ export const spokesBatch115Labor: SpokePage[] = [
       { label: '사업장 이전 통근곤란 퇴사', href: '/guide/unemployment/unemployment-company-move-long-commute-resignation-just-cause-track' },
       { label: '질병 치료 퇴사', href: '/guide/unemployment/unemployment-illness-treatment-resignation-just-cause-track' },
       { label: '근로조건 저하 퇴사', href: '/guide/unemployment/unemployment-labor-condition-violation-resignation-just-cause-track' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

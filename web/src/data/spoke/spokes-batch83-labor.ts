@@ -591,6 +591,7 @@ export const spokesBatch83Labor: SpokePage[] = [
       { label: '해외 취업 귀국 실업급여', href: '/guide/unemployment/unemployment-overseas-job-return-benefit' },
       { label: '가족 회사 근무 실업급여 자격', href: '/guide/unemployment/unemployment-family-business-eligibility' },
       { label: '실업급여 수급자격 불인정 이의신청', href: '/guide/unemployment/unemployment-benefit-rejection-appeal-procedure' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

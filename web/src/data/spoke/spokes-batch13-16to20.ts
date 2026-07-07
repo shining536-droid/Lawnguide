@@ -221,7 +221,8 @@ export const spokesBatch13Pages16to20: SpokePage[] = [
       { label: '자진 퇴사 실업급여 가능 여부', href: '/guide/unemployment/voluntary-resignation-benefit-eligible-cases' },
       { label: '실업급여 신청 전 체크리스트', href: '/guide/unemployment/pre-application-checklist' },
       { label: '실업급여 신청 필요 서류 6가지', href: '/guide/unemployment/application-required-documents-checklist' },
-      { label: '실업급여 가이드', href: '/guide/unemployment' }
+      { label: '실업급여 가이드', href: '/guide/unemployment' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ]
   },
 
@@ -295,7 +296,8 @@ export const spokesBatch13Pages16to20: SpokePage[] = [
       { label: '자진 퇴사 실업급여 가능 여부', href: '/guide/unemployment/voluntary-resignation-benefit-eligible-cases' },
       { label: '실업급��� 신청 전 체크리스트', href: '/guide/unemployment/pre-application-checklist' },
       { label: '실업급여 신청 필요 서류 6가지', href: '/guide/unemployment/application-required-documents-checklist' },
-      { label: '실업급여 가이드', href: '/guide/unemployment' }
+      { label: '실업급여 가이드', href: '/guide/unemployment' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ]
   }
 ];

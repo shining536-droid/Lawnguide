@@ -582,6 +582,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       { label: '고용보험 미가입 대응', href: '/guide/unemployment/unemployment-employer-no-insurance' },
       { label: '직업훈련 수당 안내', href: '/guide/unemployment/unemployment-training-allowance' },
       { label: '실업급여 거부 시 불복 방법', href: '/guide/unemployment/unemployment-appeal-rejection' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

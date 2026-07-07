@@ -588,6 +588,7 @@ export const spokesBatch32Unemployment: SpokePage[] = [
       { label: '직업훈련 수당 안내', href: '/guide/unemployment/unemployment-training-allowance' },
       { label: '자발적 퇴사 실업급여', href: '/guide/unemployment/unemployment-voluntary-quit-benefits' },
       { label: '실업급여 거부 시 불복 방법', href: '/guide/unemployment/unemployment-appeal-rejection' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

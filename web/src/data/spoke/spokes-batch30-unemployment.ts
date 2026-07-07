@@ -526,6 +526,7 @@ export const spokesBatch30Unemployment: SpokePage[] = [
       { label: '특별연장급여', href: '/guide/unemployment/unemployment-special-extended-benefit' },
       { label: '실업급여 거부 불복', href: '/guide/unemployment/unemployment-appeal-rejection' },
       { label: '반복수급 제한', href: '/guide/unemployment/unemployment-repeat-claim-limit' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

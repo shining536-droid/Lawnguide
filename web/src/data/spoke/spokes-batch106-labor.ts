@@ -593,6 +593,7 @@ export const spokesBatch106Labor: SpokePage[] = [
       { label: '구직급여 기초일액 산정', href: '/guide/unemployment/unemployment-benefit-daily-base-amount-calculation-standard-track' },
       { label: '구직급여 소멸시효', href: '/guide/unemployment/unemployment-benefit-extinctive-prescription-track' },
       { label: '구직급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

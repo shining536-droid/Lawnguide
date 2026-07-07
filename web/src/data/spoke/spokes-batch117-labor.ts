@@ -510,6 +510,7 @@ export const spokesBatch117Labor: SpokePage[] = [
       { label: '사업장 이전 통근곤란 퇴사', href: '/guide/unemployment/unemployment-company-move-long-commute-resignation-just-cause-track' },
       { label: '계약조건 위반 퇴사', href: '/guide/unemployment/unemployment-contract-condition-breach-resignation-just-cause-track' },
       { label: '폐업 권고사직 퇴사', href: '/guide/unemployment/unemployment-employer-closure-recommended-resignation-just-cause-track' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
@@ -593,6 +594,7 @@ export const spokesBatch117Labor: SpokePage[] = [
       { label: '계약조건 위반 퇴사', href: '/guide/unemployment/unemployment-contract-condition-breach-resignation-just-cause-track' },
       { label: '계약만료 갱신거절 퇴사', href: '/guide/unemployment/unemployment-contract-expiry-nonrenewal-just-cause-track' },
       { label: '계약 미갱신 정당사유', href: '/guide/unemployment/unemployment-contract-non-renewal-just-cause' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

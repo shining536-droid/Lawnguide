@@ -172,6 +172,7 @@ export const spokesBatch58NewsChildcare: SpokePage[] = [
       { label: '실업급여 거절 심사청구 절차', href: '/guide/unemployment/unemployment-benefit-rejection-appeal-procedure' },
       { label: '실업급여 자격 종합 점검', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '임신 고위험 휴직 자진퇴사', href: '/guide/unemployment/unemployment-pregnancy-high-risk-quit' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

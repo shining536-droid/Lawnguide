@@ -256,6 +256,7 @@ export const spokesBatch64WageUnempRetire: SpokePage[] = [
       { label: '이직사유 코드 정정 거부 회사 강제', href: '/guide/unemployment/unemployment-separation-code-employer-refuse-correction-track' },
       { label: '실업급여 종합 가이드', href: '/guide/unemployment' },
       { label: '육아휴직 후 실업급여 수급요건', href: '/guide/unemployment/unemployment-after-childcare-leave-eligibility' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

@@ -148,6 +148,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
       { label: '실업급여 수급 조건과 금액', href: '/unemployment/unemployment-benefit-requirements' },
       { label: '자진퇴사 실업급여 인정 사유', href: '/unemployment/voluntary-quit-easy-approval-reasons' },
       { label: '임금체불 가이드', href: '/guide/wage' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
@@ -412,6 +413,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
       { label: '부당해고 가이드', href: '/guide/dismissal' },
       { label: '실업급여 수급 조건과 금액', href: '/unemployment/unemployment-benefit-requirements' },
       { label: '임금체불 가이드', href: '/guide/wage' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
@@ -548,6 +550,7 @@ export const spokesBatch26_1to8: SpokePage[] = [
       { label: '실업급여 수급 조건과 금액', href: '/unemployment/unemployment-benefit-requirements' },
       { label: '고용보험 미가입 사업장 실업급여', href: '/unemployment/unemployment-employer-no-insurance' },
       { label: '임금체불 가이드', href: '/guide/wage' },
+      { label: '수급자격·신청 한눈에 보기', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 ];

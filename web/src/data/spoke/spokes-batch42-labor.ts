@@ -971,6 +971,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       { label: '여러 사업장 합산', href: '/guide/unemployment/unemployment-multiple-workplace-combined' },
       { label: '이직확인서 분쟁', href: '/guide/unemployment/unemployment-separation-confirmation-dispute' },
       { label: '지연 신청 남은 일수', href: '/guide/unemployment/unemployment-late-application-remaining-days' },
+      { label: '실업급여 조건·금액 종합 정리', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 

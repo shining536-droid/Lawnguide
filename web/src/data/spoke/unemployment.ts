@@ -84,6 +84,7 @@ export const unemploymentPages: SpokePage[] = [
       { label: '실업급여 진단', href: '/diagnosis/unemployment' },
       { label: '부당해고 가이드', href: '/guide/dismissal' },
       { label: '임금체불 구제', href: '/guide/wage' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 ];

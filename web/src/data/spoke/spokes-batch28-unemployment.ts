@@ -283,6 +283,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       { label: '부정수급 유형 5가지', href: '/guide/unemployment/benefit-fraud-top-5-cases' },
       { label: '구직활동 인정 절차', href: '/guide/unemployment/job-search-activity-recognition-procedure' },
       { label: '자발적 퇴직 실업급여', href: '/guide/unemployment/voluntary-quit-approved-case-types' },
+      { label: '실업급여 종합 가이드', href: '/guide/unemployment/unemployment-benefit-guide' },
     ],
   },
 
