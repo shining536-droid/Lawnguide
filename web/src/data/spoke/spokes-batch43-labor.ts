@@ -747,7 +747,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '대지급금 — 사업주 무자력이어도 받는 법',
         content:
-          '<p><strong style="color:#1e3a5f">사업주가 폐업·도산해도 국가가 체불 임금·퇴직금을 대신 지급합니다.</strong></p>\n<ul>\n<li><strong>간이대지급금</strong> — 퇴직 후 2년 이내, 3개월 임금+3년 퇴직금 합산 최대 1천만원.</li>\n<li><strong>일반대지급금</strong> — 도산 인정 사업장, 최대 체불액 기준 지급.</li>\n<li><strong>신청 서류</strong> — 체불 확인서, 임금명세서, 퇴직일 증빙.</li>\n<li><strong>처리 기간</strong> — 신청 후 약 14일.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 대지급금 받은 후에도 사용자에게 구상권 청구가 가능하니 포기하지 마세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업주가 폐업·도산해도 국가가 체불 임금·퇴직금을 대신 지급합니다.</strong></p>\n<ul>\n<li><strong>간이대지급금</strong> — 퇴직 후 2년 이내, 3개월 임금+3년 퇴직금 합산 최대 1천만원.</li>\n<li><strong>도산대지급금</strong> — 도산 인정 사업장, 최대 체불액 기준 지급.</li>\n<li><strong>신청 서류</strong> — 체불 확인서, 임금명세서, 퇴직일 증빙.</li>\n<li><strong>처리 기간</strong> — 신청 후 약 14일.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 대지급금 받은 후에도 사용자에게 구상권 청구가 가능하니 포기하지 마세요.</blockquote>',
       },
     ],
     cases: [
@@ -1003,7 +1003,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '대지급금 — 임금·퇴직금 못 받을 때',
         content:
-          '<p><strong style="color:#1e3a5f">사업주 무자력 시 국가가 대신 지급, 폐업과 함께 신청해야 빠릅니다.</strong></p>\n<ul>\n<li><strong>간이대지급금</strong> — 퇴직 후 2년 이내, 최대 1,000만원(3개월 임금+3년 퇴직금).</li>\n<li><strong>일반대지급금</strong> — 법원 도산 결정 사업장 전용, 상한 초과 회수 가능.</li>\n<li><strong>필요 서류</strong> — 체불 확인서(근로감독관 발급), 임금명세서, 근로계약서.</li>\n<li><strong>처리 기간</strong> — 신청 후 약 14일.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 실업급여 신청과 대지급금 신청은 같은 고용센터에서 동시 진행 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업주 무자력 시 국가가 대신 지급, 폐업과 함께 신청해야 빠릅니다.</strong></p>\n<ul>\n<li><strong>간이대지급금</strong> — 퇴직 후 2년 이내, 최대 1,000만원(3개월 임금+3년 퇴직금).</li>\n<li><strong>도산대지급금</strong> — 법원 도산 결정 사업장 전용, 상한 초과 회수 가능.</li>\n<li><strong>필요 서류</strong> — 체불 확인서(근로감독관 발급), 임금명세서, 근로계약서.</li>\n<li><strong>처리 기간</strong> — 신청 후 약 14일.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 실업급여 신청과 대지급금 신청은 같은 고용센터에서 동시 진행 가능합니다.</blockquote>',
       },
       {
         title: '주의사항 — 놓치기 쉬운 포인트',
