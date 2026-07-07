@@ -299,7 +299,7 @@ export const spokesBatch105Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>미사용수당 청구권</strong> — 미사용 연차에 대한 수당을 청구할 수 있는지.</li>\n<li><strong>통상임금 범위</strong> — 미사용수당 기초 통상임금에 어떤 항목이 들어가는지.</li>\n<li><strong>정기상여금 산입</strong> — 정기상여금이 통상임금에 산입되는지.</li>\n<li><strong>노사합의 효력</strong> — 통상임금 제외 노사합의가 무효인지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>미사용수당 청구권</strong> — 미사용 연차에 대한 수당을 청구할 수 있는지.</li>\n<li><strong>통상임금 범위</strong> — 미사용수당 기초 통상임금에 어떤 항목이 들어가는지.</li>\n<li><strong>정기상여금 산입</strong> — 정기상여금이 통상임금에 산입되는지.</li>\n<li><strong>노사합의 효력</strong> — 통상임금 제외 노사합의가 무효인지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch105Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>통상임금 산정 방법</strong> — 일급 통상임금 산정 방법이 올바른지.</li>\n<li><strong>시간급·소정근로시간</strong> — 시간급에 1일 소정근로시간을 곱하는 방식을 따랐는지.</li>\n<li><strong>주휴수당 제외</strong> — 월 급여에 포함된 주휴수당을 통상임금에서 제외했는지.</li>\n<li><strong>차액 산정</strong> — 올바른 통상임금으로 가산수당 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>통상임금 산정 방법</strong> — 일급 통상임금 산정 방법이 올바른지.</li>\n<li><strong>시간급·소정근로시간</strong> — 시간급에 1일 소정근로시간을 곱하는 방식을 따랐는지.</li>\n<li><strong>주휴수당 제외</strong> — 월 급여에 포함된 주휴수당을 통상임금에서 제외했는지.</li>\n<li><strong>차액 산정</strong> — 올바른 통상임금으로 가산수당 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -631,7 +631,7 @@ export const spokesBatch105Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>근로자성</strong> — 위탁계약 형식에도 실질이 종속적 근로 제공인 근로자인지.</li>\n<li><strong>평균임금 범위</strong> — 근로의 대가가 평균임금 산정에 모두 포함되는지.</li>\n<li><strong>판매수수료 포함</strong> — 판매수수료도 평균임금에 포함되는지.</li>\n<li><strong>퇴직금 재산정</strong> — 올바른 평균임금으로 퇴직금을 다시 산정하는지.</li>\n<li><strong>퇴직금 시효</strong> — 퇴직금 채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (퇴직연금·체당금 상담)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (퇴직금 체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>근로자성</strong> — 위탁계약 형식에도 실질이 종속적 근로 제공인 근로자인지.</li>\n<li><strong>평균임금 범위</strong> — 근로의 대가가 평균임금 산정에 모두 포함되는지.</li>\n<li><strong>판매수수료 포함</strong> — 판매수수료도 평균임금에 포함되는지.</li>\n<li><strong>퇴직금 재산정</strong> — 올바른 평균임금으로 퇴직금을 다시 산정하는지.</li>\n<li><strong>퇴직금 시효</strong> — 퇴직금 채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (퇴직연금·대지급금 상담)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (퇴직금 체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -714,7 +714,7 @@ export const spokesBatch105Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>퇴직금청구권 발생</strong> — 퇴직이라는 사실로 구체적 청구권이 발생했는지.</li>\n<li><strong>사전 포기 무효</strong> — 퇴직 전 미리 포기한 약정이 무효인지.</li>\n<li><strong>사후 포기 효력</strong> — 퇴직 후 사후 포기가 허용되는지.</li>\n<li><strong>각서 해석</strong> — 불명확한 각서를 작성 경위·진정한 의사로 해석하는지.</li>\n<li><strong>퇴직금 시효</strong> — 퇴직금 채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (퇴직연금·체당금 상담)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (퇴직금 체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>퇴직금청구권 발생</strong> — 퇴직이라는 사실로 구체적 청구권이 발생했는지.</li>\n<li><strong>사전 포기 무효</strong> — 퇴직 전 미리 포기한 약정이 무효인지.</li>\n<li><strong>사후 포기 효력</strong> — 퇴직 후 사후 포기가 허용되는지.</li>\n<li><strong>각서 해석</strong> — 불명확한 각서를 작성 경위·진정한 의사로 해석하는지.</li>\n<li><strong>퇴직금 시효</strong> — 퇴직금 채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (퇴직연금·대지급금 상담)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (퇴직금 체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [

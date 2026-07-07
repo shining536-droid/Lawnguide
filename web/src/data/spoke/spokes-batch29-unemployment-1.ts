@@ -64,7 +64,7 @@ export const spokesBatch29Unemployment1: SpokePage[] = [
       {
         title: '임금체불 퇴사 시 실업급여와 체불임금 동시 청구하기',
         content:
-          '<p><strong style="color:#1e3a5f">실업급여와 체불임금 청구는 별개 절차이므로 동시에 진행할 수 있습니다.</strong></p>\n<ul>\n<li><strong>실업급여</strong> — 고용센터에 수급자격 인정신청을 합니다.</li>\n<li><strong>체불임금</strong> — 고용노동부에 임금체불 진정을 제기합니다. 사업주가 지급하지 않으면 소액체당금(최대 1,000만원)을 근로복지공단에 청구할 수 있습니다.</li>\n<li><strong>동시 진행 가능</strong> — 두 절차는 관할 기관이 다르므로(고용센터 vs 고용노동부) 병행할 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">실업급여와 체불임금 청구는 별개 절차이므로 동시에 진행할 수 있습니다.</strong></p>\n<ul>\n<li><strong>실업급여</strong> — 고용센터에 수급자격 인정신청을 합니다.</li>\n<li><strong>체불임금</strong> — 고용노동부에 임금체불 진정을 제기합니다. 사업주가 지급하지 않으면 간이대지급금(최대 1,000만원)을 근로복지공단에 청구할 수 있습니다.</li>\n<li><strong>동시 진행 가능</strong> — 두 절차는 관할 기관이 다르므로(고용센터 vs 고용노동부) 병행할 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [

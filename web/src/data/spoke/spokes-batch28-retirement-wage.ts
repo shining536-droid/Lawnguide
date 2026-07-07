@@ -6,9 +6,9 @@ import { SpokePage } from '../spoke-pages';
 // 3. 이 페이지는 [5인 미만 사업장 근로자]의 [퇴직금 지급 의무 존재 여부를 모르는 상황]에서 [5인 미만도 퇴직금 의무가 있음을 확인하고 청구 절차 안내]를 돕는 페이지다.
 // 4. 이 페이지는 [성과급·상여금을 받는 근로자]의 [퇴직금 산정 시 성과급 포함 여부를 모르는 상황]에서 [평균임금 포함 기준과 판례 안내]를 돕는 페이지다.
 // 5. 이 페이지는 [외국인 근로자]의 [퇴직금 수령 자격과 절차를 모르는 상황]에서 [체류자격 무관 퇴직금 청구 방법 안내]를 돕는 페이지다.
-// 6. 이 페이지는 [폐업 사업장 퇴직 근로자]의 [사업장이 없어져 퇴직금 청구가 막힌 상황]에서 [체당금 제도와 사업주 개인 청구 방법 안내]를 돕는 페이지다.
+// 6. 이 페이지는 [폐업 사업장 퇴직 근로자]의 [사업장이 없어져 퇴직금 청구가 막힌 상황]에서 [대지급금 제도와 사업주 개인 청구 방법 안내]를 돕는 페이지다.
 // 7. 이 페이지는 [5인 미만 사업장에서 임금을 체불당한 근로자]의 [구제 방법을 모르는 상황]에서 [소규모 사업장에서도 가능한 임금체불 구제 절차 안내]를 돕는 페이지다.
-// 8. 이 페이지는 [사업주 파산으로 임금을 못 받는 근로자]의 [체당금 신청 절차를 모르는 상황]에서 [체당금 신청 요건과 절차 안내]를 돕는 페이지다.
+// 8. 이 페이지는 [사업주 파산으로 임금을 못 받는 근로자]의 [대지급금 신청 절차를 모르는 상황]에서 [대지급금 신청 요건과 절차 안내]를 돕는 페이지다.
 // 9. 이 페이지는 [외국인 근로자로서 임금체불을 당한 상황]의 [신고 가능 여부와 절차를 모르는 상황]에서 [체류자격 무관 노동청 진정 절차 안내]를 돕는 페이지다.
 // 10. 이 페이지는 [인턴·수습으로 임금체불을 당한 근로자]의 [인턴도 임금 보호를 받는지 모르는 상황]에서 [수습 근로자 임금체불 대응 방법 안내]를 돕는 페이지다.
 // 11. 이 페이지는 [영업직 커미션을 미지급받은 근로자]의 [커미션이 임금인지 확인하고 청구하려는 상황]에서 [커미션의 임금 해당 여부 판단과 청구 절차 안내]를 돕는 페이지다.
@@ -231,7 +231,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         question: '사장님이 "경영이 어려워서 줄 수 없다"고 하면 어떻게 하나요?',
         answer:
-          '<strong>경영 사정은 퇴직금 미지급의 정당한 사유가 되지 않습니다.</strong> 노동청 진정을 통해 시정 명령을 받을 수 있고, 사업주가 도산 상태라면 체당금 제도를 활용하세요.',
+          '<strong>경영 사정은 퇴직금 미지급의 정당한 사유가 되지 않습니다.</strong> 노동청 진정을 통해 시정 명령을 받을 수 있고, 사업주가 도산 상태라면 대지급금 제도를 활용하세요.',
       },
       {
         question: '일용직으로 일했는데 퇴직금을 받을 수 있나요?',
@@ -411,37 +411,37 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
     ],
   },
 
-  // ── 6. 폐업 사업장 퇴직금 체당금 ──
+  // ── 6. 폐업 사업장 퇴직금 대지급금 ──
   {
     domain: 'retirement',
     slug: 'retirement-company-closure-claim',
-    keyword: '폐업 사업장 퇴직금 체당금',
+    keyword: '폐업 사업장 퇴직금 대지급금',
     questionKeyword: '사업장이 폐업했는데 퇴직금을 받을 수 있나요?',
-    ctaKeyword: '폐업 사업장 퇴직금 체당금 상담',
+    ctaKeyword: '폐업 사업장 퇴직금 대지급금 상담',
     type: '절차형',
     perspective: 'victim',
     meta: {
-      title: '폐업 사업장 퇴직금 체당금 청구 방법 5단계 | 로앤가이드',
+      title: '폐업 사업장 퇴직금 대지급금 청구 방법 5단계 | 로앤가이드',
       description:
-        '사업장이 폐업해서 퇴직금을 받을 곳이 없다면 체당금 청구 절차와 필요 서류를 지금 확인하세요',
+        '사업장이 폐업해서 퇴직금을 받을 곳이 없다면 대지급금 청구 절차와 필요 서류를 지금 확인하세요',
     },
     intro:
-      '<p>어느 날 출근했더니 가게 문이 닫혀 있었습니다. 사장님은 전화도 안 받고, 사업자등록도 폐업 처리된 상태입니다. 밀린 월급과 퇴직금을 받을 길이 막혔다고 생각할 수 있지만, 근로복지공단의 체당금 제도를 활용하면 국가가 대신 지급합니다. 폐업 사업장에서 퇴직금을 받는 절차를 확인해보세요.</p>',
+      '<p>어느 날 출근했더니 가게 문이 닫혀 있었습니다. 사장님은 전화도 안 받고, 사업자등록도 폐업 처리된 상태입니다. 밀린 월급과 퇴직금을 받을 길이 막혔다고 생각할 수 있지만, 근로복지공단의 대지급금 제도를 활용하면 국가가 대신 지급합니다. 폐업 사업장에서 퇴직금을 받는 절차를 확인해보세요.</p>',
     sections: [
       {
-        title: '체당금 제도: 국가가 대신 지급하는 퇴직금',
+        title: '대지급금 제도: 국가가 대신 지급하는 퇴직금',
         content:
-          '<p><strong style="color:#1e3a5f">사업주가 폐업·도산하여 지급 능력이 없으면 근로복지공단이 체당금으로 퇴직금을 대신 지급합니다.</strong></p>\n<ul>\n<li><strong>일반체당금</strong> — 법원의 파산선고·회생개시 결정이 있는 경우: 최종 3개월분 임금 + 최종 3년분 퇴직금 + 휴업수당</li>\n<li><strong>간이대지급금</strong> — 사실상 도산(폐업)인 경우: 관할 지방고용노동관서의 도산등사실인정을 받아 최대 1,000만원 한도로 지급</li>\n<li><strong>지급 상한</strong> — 연령별 상한이 있습니다(40세 이상 월 350만원, 30~39세 월 310만원, 30세 미만 월 220만원)</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사장이 연락두절이거나 사업장이 없어져도 포기하지 마세요. 체당금으로 퇴직금을 받을 수 있습니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업주가 폐업·도산하여 지급 능력이 없으면 근로복지공단이 대지급금으로 퇴직금을 대신 지급합니다.</strong></p>\n<ul>\n<li><strong>도산대지급금</strong> — 법원의 파산선고·회생개시 결정이 있는 경우: 최종 3개월분 임금 + 최종 3년분 퇴직금 + 휴업수당</li>\n<li><strong>간이대지급금</strong> — 사실상 도산(폐업)인 경우: 관할 지방고용노동관서의 도산등사실인정을 받아 최대 1,000만원 한도로 지급</li>\n<li><strong>지급 상한</strong> — 연령별 상한이 있습니다(40세 이상 월 350만원, 30~39세 월 310만원, 30세 미만 월 220만원)</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사장이 연락두절이거나 사업장이 없어져도 포기하지 마세요. 대지급금으로 퇴직금을 받을 수 있습니다</blockquote>',
       },
       {
-        title: '체당금 청구 5단계 절차',
+        title: '대지급금 청구 5단계 절차',
         content:
-          '<p><strong style="color:#1e3a5f">폐업 확인 → 도산인정 신청 → 체당금 청구 → 심사 → 수령 순서로 진행합니다.</strong></p>\n<ol>\n<li><strong>폐업 확인</strong> — 국세청 홈택스에서 사업자 상태를 조회하여 폐업 여부를 확인합니다</li>\n<li><strong>도산등사실인정 신청</strong> — 관할 지방고용노동관서에 도산등사실인정 신청서를 제출합니다</li>\n<li><strong>체당금 지급 청구</strong> — 인정서를 받으면 근로복지공단(1588-0075)에 체당금을 청구합니다</li>\n<li><strong>공단 심사</strong> — 근로관계, 체불 금액, 체불 기간을 심사합니다(약 14~30일 소요)</li>\n<li><strong>체당금 수령</strong> — 심사 완료 후 신청 계좌로 입금됩니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 폐업 사업장 체당금 자격, AI가 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">폐업일과 체불 내역을 입력하면 청구 가능 금액을 즉시 확인할 수 있습니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">폐업 확인 → 도산인정 신청 → 대지급금 청구 → 심사 → 수령 순서로 진행합니다.</strong></p>\n<ol>\n<li><strong>폐업 확인</strong> — 국세청 홈택스에서 사업자 상태를 조회하여 폐업 여부를 확인합니다</li>\n<li><strong>도산등사실인정 신청</strong> — 관할 지방고용노동관서에 도산등사실인정 신청서를 제출합니다</li>\n<li><strong>대지급금 지급 청구</strong> — 인정서를 받으면 근로복지공단(1588-0075)에 대지급금을 청구합니다</li>\n<li><strong>공단 심사</strong> — 근로관계, 체불 금액, 체불 기간을 심사합니다(약 14~30일 소요)</li>\n<li><strong>대지급금 수령</strong> — 심사 완료 후 신청 계좌로 입금됩니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 폐업 사업장 대지급금 자격, AI가 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">폐업일과 체불 내역을 입력하면 청구 가능 금액을 즉시 확인할 수 있습니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '필요 서류와 사업주 개인 청구',
         content:
-          '<p><strong style="color:#1e3a5f">체당금 외에 사업주 개인에게도 별도로 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>체당금 필요 서류</strong> — 근로계약서(또는 근로사실 증빙), 급여명세서, 통장 거래내역, 퇴직 사실 확인 자료</li>\n<li><strong>사업주 개인 청구</strong> — 개인사업자라면 사업주 개인 재산에 대해 민사소송으로 청구할 수 있습니다. 법인이라도 대표이사에게 임금체불 책임을 물을 수 있는 경우가 있습니다</li>\n<li><strong>근로계약서 없는 경우</strong> — 동료 진술서, 업무 카카오톡, CCTV, 고용보험 가입 이력 등으로 근로관계를 증명합니다</li>\n<li><strong>청구 기한</strong> — 도산등사실인정일로부터 2년 이내에 체당금을 청구해야 하며, 퇴직금 소멸시효는 3년입니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 폐업 직후 증거가 사라지기 쉬우므로 근로 관련 서류를 평소에 사본으로 보관해두세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">대지급금 외에 사업주 개인에게도 별도로 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>대지급금 필요 서류</strong> — 근로계약서(또는 근로사실 증빙), 급여명세서, 통장 거래내역, 퇴직 사실 확인 자료</li>\n<li><strong>사업주 개인 청구</strong> — 개인사업자라면 사업주 개인 재산에 대해 민사소송으로 청구할 수 있습니다. 법인이라도 대표이사에게 임금체불 책임을 물을 수 있는 경우가 있습니다</li>\n<li><strong>근로계약서 없는 경우</strong> — 동료 진술서, 업무 카카오톡, CCTV, 고용보험 가입 이력 등으로 근로관계를 증명합니다</li>\n<li><strong>청구 기한</strong> — 도산등사실인정일로부터 2년 이내에 대지급금을 청구해야 하며, 퇴직금 소멸시효는 3년입니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 폐업 직후 증거가 사라지기 쉬우므로 근로 관련 서류를 평소에 사본으로 보관해두세요</blockquote>',
       },
     ],
     cases: [
@@ -450,17 +450,17 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
         summary:
           '대법원 2025다214605 사건(대법원, 2025.12.11 선고)에서 법원은 주식회사의 대표이사가 근로자의 급여 및 퇴직금을 체불한 사안에서 상법 제388조에 따른 이사의 보수 제한 규정을 적용하며, 대표이사의 개인 책임 범위를 판단했습니다.',
         takeaway:
-          '사업장이 폐업해도 대표이사 개인에게 퇴직금 체불 책임을 물을 수 있으며, 체당금과 별도로 민사청구를 병행하는 것이 유리합니다.',
+          '사업장이 폐업해도 대표이사 개인에게 퇴직금 체불 책임을 물을 수 있으며, 대지급금과 별도로 민사청구를 병행하는 것이 유리합니다.',
       },
     ],
     faq: [
       {
-        question: '사장님이 야반도주한 경우에도 체당금을 받을 수 있나요?',
+        question: '사장님이 야반도주한 경우에도 대지급금을 받을 수 있나요?',
         answer:
-          '<strong>사업주 소재 불명이라도 도산등사실인정을 받으면 체당금 청구가 가능합니다.</strong> 관할 지방고용노동관서에 사업주 연락두절 사실을 소명하고 도산등사실인정을 신청하세요.',
+          '<strong>사업주 소재 불명이라도 도산등사실인정을 받으면 대지급금 청구가 가능합니다.</strong> 관할 지방고용노동관서에 사업주 연락두절 사실을 소명하고 도산등사실인정을 신청하세요.',
       },
       {
-        question: '체당금으로 퇴직금 전액을 받을 수 있나요?',
+        question: '대지급금으로 퇴직금 전액을 받을 수 있나요?',
         answer:
           '<strong>간이대지급금(사실상 도산)은 최대 1,000만원 한도이며, 연령별 월 상한액이 있습니다.</strong> 퇴직금이 이를 초과하면 차액은 사업주 개인에게 민사소송으로 청구해야 합니다.',
       },
@@ -470,9 +470,9 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
           '<strong>새 사업을 시작한 사업주에게 기존 체불 퇴직금을 청구할 수 있습니다.</strong> 새 사업장의 사업자등록 정보를 확인하여 노동청 진정이나 민사소송을 진행하세요.',
       },
       {
-        question: '체당금 신청 중에 사업주가 일부 지급하면 어떻게 되나요?',
+        question: '대지급금 신청 중에 사업주가 일부 지급하면 어떻게 되나요?',
         answer:
-          '<strong>사업주가 지급한 금액을 제외한 잔액에 대해서만 체당금이 지급됩니다.</strong> 사업주로부터 받은 금액을 공단에 가능한 한 알려야 하며, 미신고 시 부정수급으로 환수될 수 있습니다.',
+          '<strong>사업주가 지급한 금액을 제외한 잔액에 대해서만 대지급금이 지급됩니다.</strong> 사업주로부터 받은 금액을 공단에 가능한 한 알려야 하며, 미신고 시 부정수급으로 환수될 수 있습니다.',
       },
       {
         question: '대한법률구조공단에서 무료 소송 지원을 받을 수 있나요?',
@@ -481,7 +481,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       },
     ],
     cta: {
-      text: '폐업 사업장 체당금 청구 방법, AI가 안내합니다',
+      text: '폐업 사업장 대지급금 청구 방법, AI가 안내합니다',
       link: '/chat?domain=retirement',
     },
     internalLinks: [
@@ -556,7 +556,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         question: '가게가 문을 닫으면 밀린 월급을 못 받나요?',
         answer:
-          '<strong>사업장이 폐업해도 체당금 제도를 통해 밀린 임금을 받을 수 있습니다.</strong> 관할 고용노동지청에 도산등사실인정을 신청한 뒤 근로복지공단에 체당금을 청구하세요. 최대 1,000만원까지 지급됩니다.',
+          '<strong>사업장이 폐업해도 대지급금 제도를 통해 밀린 임금을 받을 수 있습니다.</strong> 관할 고용노동지청에 도산등사실인정을 신청한 뒤 근로복지공단에 대지급금을 청구하세요. 최대 1,000만원까지 지급됩니다.',
       },
     ],
     cta: {
@@ -572,37 +572,37 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
     ],
   },
 
-  // ── 8. 사업주 파산 체불임금 체당금 ──
+  // ── 8. 사업주 파산 체불임금 대지급금 ──
   {
     domain: 'wage',
     slug: 'wage-unpaid-bankrupt-deposit',
-    keyword: '사업주 파산 체불임금 체당금',
+    keyword: '사업주 파산 체불임금 대지급금',
     questionKeyword: '사업주가 파산하면 밀린 월급은 어떻게 받나요?',
-    ctaKeyword: '파산 사업장 체당금 청구 상담',
+    ctaKeyword: '파산 사업장 대지급금 청구 상담',
     type: '절차형',
     perspective: 'victim',
     meta: {
-      title: '사업주 파산 시 체불임금 체당금 청구 절차 5단계 | 로앤가이드',
+      title: '사업주 파산 시 체불임금 대지급금 청구 절차 5단계 | 로앤가이드',
       description:
-        '사업주가 파산해서 밀린 월급을 못 받고 있다면 체당금 신청 절차와 상한액을 지금 확인하세요',
+        '사업주가 파산해서 밀린 월급을 못 받고 있다면 대지급금 신청 절차와 상한액을 지금 확인하세요',
     },
     intro:
-      '<p>회사가 법원에 파산 신청을 했다는 소식을 들었습니다. 아직 두 달치 월급도 못 받았고 퇴직금도 있는데 어디에 청구해야 할지 막막합니다. 임금채권보장법에 따라 사업주가 파산하면 근로복지공단이 체당금으로 밀린 임금과 퇴직금을 대신 지급합니다. 신청 절차를 정리해보세요.</p>',
+      '<p>회사가 법원에 파산 신청을 했다는 소식을 들었습니다. 아직 두 달치 월급도 못 받았고 퇴직금도 있는데 어디에 청구해야 할지 막막합니다. 임금채권보장법에 따라 사업주가 파산하면 근로복지공단이 대지급금으로 밀린 임금과 퇴직금을 대신 지급합니다. 신청 절차를 정리해보세요.</p>',
     sections: [
       {
-        title: '체당금 제도: 파산·도산 근로자를 위한 임금 보호',
+        title: '대지급금 제도: 파산·도산 근로자를 위한 임금 보호',
         content:
-          '<p><strong style="color:#1e3a5f">사업주가 파산·회생·도산 시 근로복지공단이 근로자에게 체불임금을 대신 지급합니다.</strong></p>\n<ul>\n<li><strong>일반체당금(재판상 도산)</strong> — 법원의 파산선고·회생절차 개시결정이 있는 경우 적용. 최종 3개월분 임금 + 최종 3년분 퇴직금 + 최종 3개월분 휴업수당</li>\n<li><strong>간이대지급금(사실상 도산)</strong> — 법원 결정 없이 사실상 도산한 경우 지방고용노동관서의 인정을 받아 신청. 최대 1,000만원 한도</li>\n<li><strong>지급 상한</strong> — 30세 미만: 월 220만원 / 30~39세: 월 310만원 / 40세 이상: 월 350만원</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사업주가 파산해도 근로자의 임금채권은 최우선변제권이 있으며, 체당금으로 먼저 지급받을 수 있습니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업주가 파산·회생·도산 시 근로복지공단이 근로자에게 체불임금을 대신 지급합니다.</strong></p>\n<ul>\n<li><strong>도산대지급금(재판상 도산)</strong> — 법원의 파산선고·회생절차 개시결정이 있는 경우 적용. 최종 3개월분 임금 + 최종 3년분 퇴직금 + 최종 3개월분 휴업수당</li>\n<li><strong>간이대지급금(사실상 도산)</strong> — 법원 결정 없이 사실상 도산한 경우 지방고용노동관서의 인정을 받아 신청. 최대 1,000만원 한도</li>\n<li><strong>지급 상한</strong> — 30세 미만: 월 220만원 / 30~39세: 월 310만원 / 40세 이상: 월 350만원</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사업주가 파산해도 근로자의 임금채권은 최우선변제권이 있으며, 대지급금으로 먼저 지급받을 수 있습니다</blockquote>',
       },
       {
-        title: '체당금 청구 5단계 절차',
+        title: '대지급금 청구 5단계 절차',
         content:
-          '<p><strong style="color:#1e3a5f">파산 확인부터 수령까지 5단계를 순서대로 진행합니다.</strong></p>\n<ol>\n<li><strong>파산·도산 확인</strong> — 법원 파산선고 여부(대법원 나의사건검색) 또는 사업자등록 폐업 여부(홈택스)를 확인합니다</li>\n<li><strong>파산관재인에게 채권 신고</strong> — 재판상 도산의 경우 파산관재인에게 임금채권을 신고합니다</li>\n<li><strong>체당금 청구서 제출</strong> — 근로복지공단(1588-0075)에 체당금 지급 청구서와 증빙서류를 제출합니다</li>\n<li><strong>심사·확인</strong> — 공단이 근로관계, 체불 금액, 체불 기간을 심사합니다</li>\n<li><strong>체당금 수령</strong> — 심사 완료 후 신청 계좌로 입금됩니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 파산 사업장 체당금 신청 자격, AI가 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">체불 금액과 파산 상황을 입력하면 청구 가능 금액을 즉시 확인할 수 있습니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">파산 확인부터 수령까지 5단계를 순서대로 진행합니다.</strong></p>\n<ol>\n<li><strong>파산·도산 확인</strong> — 법원 파산선고 여부(대법원 나의사건검색) 또는 사업자등록 폐업 여부(홈택스)를 확인합니다</li>\n<li><strong>파산관재인에게 채권 신고</strong> — 재판상 도산의 경우 파산관재인에게 임금채권을 신고합니다</li>\n<li><strong>대지급금 청구서 제출</strong> — 근로복지공단(1588-0075)에 대지급금 지급 청구서와 증빙서류를 제출합니다</li>\n<li><strong>심사·확인</strong> — 공단이 근로관계, 체불 금액, 체불 기간을 심사합니다</li>\n<li><strong>대지급금 수령</strong> — 심사 완료 후 신청 계좌로 입금됩니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 파산 사업장 대지급금 신청 자격, AI가 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">체불 금액과 파산 상황을 입력하면 청구 가능 금액을 즉시 확인할 수 있습니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
-        title: '체당금 신청 시 필요 서류와 주의사항',
+        title: '대지급금 신청 시 필요 서류와 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">체당금 신청 전 서류를 완비해야 심사가 지연되지 않습니다.</strong></p>\n<ul>\n<li><strong>필수 서류</strong> — 체당금 지급 청구서, 근로계약서, 급여명세서, 통장 거래내역, 파산선고 결정문 사본(또는 도산등사실인정서)</li>\n<li><strong>근로관계 증빙</strong> — 근로계약서가 없으면 고용보험 가입확인서, 급여 입금 내역, 업무 지시 문자 등으로 대체 가능합니다</li>\n<li><strong>청구 기한</strong> — 재판상 도산: 파산선고일 등으로부터 2년 / 사실상 도산: 도산등사실인정일로부터 2년</li>\n<li><strong>초과 금액 청구</strong> — 체당금 상한을 초과하는 체불금은 파산재단에 대한 배당이나 사업주 개인에게 민사소송으로 청구합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 체당금은 실제 체불 금액 범위 내에서만 지급되므로 체불 내역을 월별로 정확하게 산출해야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">대지급금 신청 전 서류를 완비해야 심사가 지연되지 않습니다.</strong></p>\n<ul>\n<li><strong>필수 서류</strong> — 대지급금 지급 청구서, 근로계약서, 급여명세서, 통장 거래내역, 파산선고 결정문 사본(또는 도산등사실인정서)</li>\n<li><strong>근로관계 증빙</strong> — 근로계약서가 없으면 고용보험 가입확인서, 급여 입금 내역, 업무 지시 문자 등으로 대체 가능합니다</li>\n<li><strong>청구 기한</strong> — 재판상 도산: 파산선고일 등으로부터 2년 / 사실상 도산: 도산등사실인정일로부터 2년</li>\n<li><strong>초과 금액 청구</strong> — 대지급금 상한을 초과하는 체불금은 파산재단에 대한 배당이나 사업주 개인에게 민사소송으로 청구합니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 대지급금은 실제 체불 금액 범위 내에서만 지급되므로 체불 내역을 월별로 정확하게 산출해야 합니다</blockquote>',
       },
     ],
     cases: [
@@ -616,28 +616,28 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
     ],
     faq: [
       {
-        question: '회사가 회생절차를 진행 중인데 체당금을 받을 수 있나요?',
+        question: '회사가 회생절차를 진행 중인데 대지급금을 받을 수 있나요?',
         answer:
-          '<strong>회생절차 개시결정이 있으면 일반체당금 신청이 가능합니다.</strong> 회생 중에는 체불임금이 회생채권으로 분류되어 바로 받기 어려울 수 있으므로, 체당금으로 먼저 수령하는 것이 유리합니다.',
+          '<strong>회생절차 개시결정이 있으면 도산대지급금 신청이 가능합니다.</strong> 회생 중에는 체불임금이 회생채권으로 분류되어 바로 받기 어려울 수 있으므로, 대지급금으로 먼저 수령하는 것이 유리합니다.',
       },
       {
-        question: '체당금과 파산배당을 이중으로 받을 수 있나요?',
+        question: '대지급금과 파산배당을 이중으로 받을 수 있나요?',
         answer:
-          '<strong>근로복지공단이 체당금을 지급한 후 사업주에게 구상권을 행사합니다.</strong> 체당금을 받은 금액만큼은 근로자의 파산채권이 공단으로 이전되므로 이중 수령은 되지 않습니다.',
+          '<strong>근로복지공단이 대지급금을 지급한 후 사업주에게 구상권을 행사합니다.</strong> 대지급금을 받은 금액만큼은 근로자의 파산채권이 공단으로 이전되므로 이중 수령은 되지 않습니다.',
       },
       {
-        question: '회사 동료들과 공동으로 체당금을 신청할 수 있나요?',
+        question: '회사 동료들과 공동으로 대지급금을 신청할 수 있나요?',
         answer:
           '<strong>각자 개별적으로 신청해야 합니다.</strong> 다만 같은 사업장 근로자가 여러 명 신청하면 공단의 사실관계 확인이 빨라져 전체 처리 속도가 높아질 수 있습니다.',
       },
       {
-        question: '체당금 심사 기간은 얼마나 걸리나요?',
+        question: '대지급금 심사 기간은 얼마나 걸리나요?',
         answer:
           '<strong>통상 14~30일 정도 소요됩니다.</strong> 서류가 완비되어 있으면 빠르게 처리되지만, 근로관계 확인이 필요한 경우 추가 조사로 기간이 늘어날 수 있습니다.',
       },
     ],
     cta: {
-      text: '파산 사업장 체당금 청구 자격, AI가 확인합니다',
+      text: '파산 사업장 대지급금 청구 자격, AI가 확인합니다',
       link: '/chat?domain=wage',
     },
     internalLinks: [

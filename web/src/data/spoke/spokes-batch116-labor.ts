@@ -299,7 +299,7 @@ export const spokesBatch116Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>야간근로 시간</strong> — 오후 10시~오전 6시 사이 실제 야간근로 시간이 얼마인지.</li>\n<li><strong>통상임금 산정</strong> — 가산수당 기초가 되는 통상임금이 정확한지.</li>\n<li><strong>지급액 대조</strong> — 지급분이 법정 야간근로 가산수당에 미치는지.</li>\n<li><strong>차액 산정</strong> — 법정 가산수당과 지급분의 초과분 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>야간근로 시간</strong> — 오후 10시~오전 6시 사이 실제 야간근로 시간이 얼마인지.</li>\n<li><strong>통상임금 산정</strong> — 가산수당 기초가 되는 통상임금이 정확한지.</li>\n<li><strong>지급액 대조</strong> — 지급분이 법정 야간근로 가산수당에 미치는지.</li>\n<li><strong>차액 산정</strong> — 법정 가산수당과 지급분의 초과분 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch116Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>감액 요건·한도</strong> — 수습 감액이 허용되는 경우·기간·비율 한도에 해당하는지.</li>\n<li><strong>시급 산정</strong> — 산입 임금을 소정근로시간으로 나눈 시급이 얼마인지.</li>\n<li><strong>시급 대조</strong> — 그 시급이 고시 최저임금에 미치는지.</li>\n<li><strong>차액 산정</strong> — 최저임금 미달분의 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (최저임금 위반 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>감액 요건·한도</strong> — 수습 감액이 허용되는 경우·기간·비율 한도에 해당하는지.</li>\n<li><strong>시급 산정</strong> — 산입 임금을 소정근로시간으로 나눈 시급이 얼마인지.</li>\n<li><strong>시급 대조</strong> — 그 시급이 고시 최저임금에 미치는지.</li>\n<li><strong>차액 산정</strong> — 최저임금 미달분의 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (최저임금 위반 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [

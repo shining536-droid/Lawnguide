@@ -33,7 +33,7 @@ export const wagePages: SpokePage[] = [
       {
         title: '지급 불이행 시 형사처벌과 추가 구제 절차',
         content:
-          '<p><strong style="color:#1e3a5f">임금체불은 형사범죄입니다</strong></p>\n<p>근로기준법 제109조에 따라 임금체불은 <strong>3년 이하 징역 또는 3,000만원 이하 벌금</strong>에 해당할 소지가 있습니다. 사업주가 지급 지시에도 불구하고 지급하지 않으면 형사처벌이 진행됩니다.</p>\n<p>사업주가 지급 능력이 없는 경우 <strong>체당금 제도</strong>(근로복지공단)를 통해 최대 1,000만원까지 국가가 대신 지급하는 것도 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 형사처벌(3년/3,000만원) | 체당금(최대 1,000만원) 제도 활용</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금체불은 형사범죄입니다</strong></p>\n<p>근로기준법 제109조에 따라 임금체불은 <strong>3년 이하 징역 또는 3,000만원 이하 벌금</strong>에 해당할 소지가 있습니다. 사업주가 지급 지시에도 불구하고 지급하지 않으면 형사처벌이 진행됩니다.</p>\n<p>사업주가 지급 능력이 없는 경우 <strong>대지급금 제도</strong>(근로복지공단)를 통해 최대 1,000만원까지 국가가 대신 지급하는 것도 검토하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 형사처벌(3년/3,000만원) | 대지급금(최대 1,000만원) 제도 활용</blockquote>',
       },
     ],
     cases: [
@@ -45,11 +45,11 @@ export const wagePages: SpokePage[] = [
           '비슷한 상황이라면 근로계약서가 없더라도 포기하지 말고, 근로 사실을 증명할 다른 자료를 최대한 모으세요.',
       },
       {
-        title: '체당금 제도로 밀린 급여를 받은 사례',
+        title: '대지급금 제도로 밀린 급여를 받은 사례',
         summary:
-          '관련 사례에서도 사업주가 폐업하여 지급 능력이 없었으나, 근로복지공단 체당금 제도를 통해 밀린 임금을 받은 경우가 있습니다.',
+          '관련 사례에서도 사업주가 폐업하여 지급 능력이 없었으나, 근로복지공단 대지급금 제도를 통해 밀린 임금을 받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 사업주의 지급 능력이 없더라도 체당금 제도를 가능한 한 확인해보세요.',
+          '비슷한 상황이라면 사업주의 지급 능력이 없더라도 대지급금 제도를 가능한 한 확인해보세요.',
       },
     ],
     faq: [
@@ -67,7 +67,7 @@ export const wagePages: SpokePage[] = [
       },
       {
         question: '사장이 돈이 없다고 하면 어떻게 하나요?',
-        answer: '<strong>체당금 제도</strong>(근로복지공단)를 통해 국가가 대신 지급할 수 있습니다.',
+        answer: '<strong>대지급금 제도</strong>(근로복지공단)를 통해 국가가 대신 지급할 수 있습니다.',
       },
       {
         question: '아르바이트도 임금체불 신고가 되나요?',
@@ -130,7 +130,7 @@ export const wagePages: SpokePage[] = [
       {
         title: '그래도 안 주면 민사소송과 강제집행을 하세요',
         content:
-          '<p><strong style="color:#1e3a5f">소액소송이나 지급명령으로 빠르게 판결을 받을 수 있습니다</strong></p>\n<p>밀린 급여가 <strong>3,000만원 이하</strong>면 소액소송이 가능합니다. 지급명령을 신청하면 비용이 소송의 1/10입니다. 확정 후 <strong>예금 압류</strong> 등 강제집행으로 받아낼 수 있습니다.</p>\n<p>사업주에게 지급 능력이 없으면 <strong>체당금 제도</strong>(근로복지공단)를 활용하세요. 퇴직 전 3개월분 임금과 퇴직금을 최대 1,000만원까지 지급받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 소액소송/지급명령 → 강제집행 | 체당금(최대 1,000만원)</blockquote>',
+          '<p><strong style="color:#1e3a5f">소액소송이나 지급명령으로 빠르게 판결을 받을 수 있습니다</strong></p>\n<p>밀린 급여가 <strong>3,000만원 이하</strong>면 소액소송이 가능합니다. 지급명령을 신청하면 비용이 소송의 1/10입니다. 확정 후 <strong>예금 압류</strong> 등 강제집행으로 받아낼 수 있습니다.</p>\n<p>사업주에게 지급 능력이 없으면 <strong>대지급금 제도</strong>(근로복지공단)를 활용하세요. 퇴직 전 3개월분 임금과 퇴직금을 최대 1,000만원까지 지급받을 수 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 소액소송/지급명령 → 강제집행 | 대지급금(최대 1,000만원)</blockquote>',
       },
     ],
     cases: [
@@ -172,7 +172,7 @@ export const wagePages: SpokePage[] = [
       },
       {
         question: '사업주가 회사를 폐업하면?',
-        answer: '<strong>체당금 제도</strong>를 통해 국가가 대신 지급합니다.',
+        answer: '<strong>대지급금 제도</strong>를 통해 국가가 대신 지급합니다.',
       },
       {
         question: '회사가 밀린 급여에 세금을 떼겠다고 하면?',
@@ -204,10 +204,10 @@ export const wagePages: SpokePage[] = [
     type: '절차형',
     meta: {
       title: '밀린 월급 받는 5가지 방법 총정리 | 로앤가이드',
-      description: '월급이 계속 밀리고 있나요? 증거 수집, 내용증명, 고용노동부 진정, 체당금 신청, 소송까지 임금체불 해결 절차를 바로 정리해보세요.',
+      description: '월급이 계속 밀리고 있나요? 증거 수집, 내용증명, 고용노동부 진정, 대지급금 신청, 소송까지 임금체불 해결 절차를 바로 정리해보세요.',
     },
     intro: '퇴사한 지 한 달이 넘었는데 밀린 월급이 입금되지 않습니다. 사장에게 연락하면 "사정이 어려우니 조금만 기다려달라"는 말만 반복합니다. 퇴사 후 밀린 임금을 확실하게 받아내기 위한 절차를 순서대로 정리했습니다.',
-    timelineSteps: ['증거 수집·금액 정리', '내용증명 발송', '고용노동부 진정', '체당금·소송'],
+    timelineSteps: ['증거 수집·금액 정리', '내용증명 발송', '고용노동부 진정', '대지급금·소송'],
     sections: [
       {
         title: '체불 금액과 증거를 먼저 정리하세요',
@@ -225,9 +225,9 @@ export const wagePages: SpokePage[] = [
           '<p><strong style="color:#1e3a5f">노동청 진정이 가장 효과적인 방법입니다</strong></p>\n<p>내용증명 후에도 지급하지 않으면 사업장 소재지 관할 <strong>고용노동청</strong>에 진정을 접수하세요. 방문, 우편, 온라인(<strong>고용노동부 민원마당</strong> minwon.moel.go.kr) 모두 가능합니다.</p>\n<p>진정 접수 후 <strong>근로감독관</strong>이 사업주를 출석시켜 조사합니다. 체불 사실이 확인되면 시정 지시가 나옵니다. 시정 지시에도 불이행하면 <strong>형사입건</strong>됩니다. 근로기준법 제109조에 따라 임금체불은 <strong>3년 이하 징역 또는 3,000만원 이하 벌금</strong>에 해당할 소지가 있습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">접수: 고용노동청 방문/우편/온라인 → 근로감독관 조사 → 시정 지시 → 불이행 시 형사입건</blockquote>',
       },
       {
-        title: '사업주가 못 준다면 체당금 제도와 소송을 검토하세요',
+        title: '사업주가 못 준다면 대지급금 제도와 소송을 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">국가가 대신 지급하는 체당금 제도를 활용하세요</strong></p>\n<p>사업주에게 지급 능력이 없거나 폐업한 경우, <strong>체당금 제도</strong>(근로복지공단)를 활용하세요. 퇴직 전 <strong>3개월분 임금</strong>과 퇴직금, 휴업수당을 합산하여 최대 <strong>1,000만원</strong>까지 국가가 대신 지급합니다.</p>\n<p>체당금 외에도 <strong>소액소송</strong>(3,000만원 이하)이나 <strong>지급명령</strong>을 통해 법원의 판결을 받을 수 있습니다. 지급명령은 인지대가 소송의 10분의 1 수준이며, 확정 후 예금 압류 등 <strong>강제집행</strong>이 가능합니다. 퇴직금이 밀린 경우에도 동일한 절차로 함께 청구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 체당금(최대 1,000만원) | 소액소송/지급명령 → 강제집행</blockquote>',
+          '<p><strong style="color:#1e3a5f">국가가 대신 지급하는 대지급금 제도를 활용하세요</strong></p>\n<p>사업주에게 지급 능력이 없거나 폐업한 경우, <strong>대지급금 제도</strong>(근로복지공단)를 활용하세요. 퇴직 전 <strong>3개월분 임금</strong>과 퇴직금, 휴업수당을 합산하여 최대 <strong>1,000만원</strong>까지 국가가 대신 지급합니다.</p>\n<p>대지급금 외에도 <strong>소액소송</strong>(3,000만원 이하)이나 <strong>지급명령</strong>을 통해 법원의 판결을 받을 수 있습니다. 지급명령은 인지대가 소송의 10분의 1 수준이며, 확정 후 예금 압류 등 <strong>강제집행</strong>이 가능합니다. 퇴직금이 밀린 경우에도 동일한 절차로 함께 청구하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">구제: 대지급금(최대 1,000만원) | 소액소송/지급명령 → 강제집행</blockquote>',
       },
     ],
     cases: [
@@ -239,11 +239,11 @@ export const wagePages: SpokePage[] = [
           '비슷한 상황이라면 지연이자(연 20%)도 가능한 한 함께 청구하고, 노동청 진정을 주저하지 마세요.',
       },
       {
-        title: '폐업한 회사의 밀린 급여를 체당금으로 받은 사례',
+        title: '폐업한 회사의 밀린 급여를 대지급금으로 받은 사례',
         summary:
-          '관련 사례에서도 사업주가 폐업하여 지급 능력이 없었으나, 근로복지공단 체당금 제도를 통해 퇴직 전 3개월분 임금과 퇴직금을 지급받은 경우가 있습니다.',
+          '관련 사례에서도 사업주가 폐업하여 지급 능력이 없었으나, 근로복지공단 대지급금 제도를 통해 퇴직 전 3개월분 임금과 퇴직금을 지급받은 경우가 있습니다.',
         takeaway:
-          '비슷한 상황이라면 사업주의 지급 능력이 없더라도 체당금 제도(근로복지공단 1588-0075)를 가능한 한 확인하세요.',
+          '비슷한 상황이라면 사업주의 지급 능력이 없더라도 대지급금 제도(근로복지공단 1588-0075)를 가능한 한 확인하세요.',
       },
     ],
     faq: [
@@ -268,7 +268,7 @@ export const wagePages: SpokePage[] = [
         answer: '손해배상과 임금은 <strong>별개</strong>입니다. 임금에서 일방적으로 공제하는 것은 위법 소지가 있습니다.',
       },
       {
-        question: '체당금 신청은 어떻게 하나요?',
+        question: '대지급금 신청은 어떻게 하나요?',
         answer: '<strong>근로복지공단</strong>(전화 1588-0075)에 신청하세요. 사업주의 도산 사실 확인이 필요합니다.',
       },
       {

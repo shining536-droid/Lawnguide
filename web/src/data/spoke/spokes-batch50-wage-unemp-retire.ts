@@ -205,12 +205,12 @@ export const spokesBatch50WageUnempRetire: SpokePage[] = [
       {
         title: '진정 + 민사 동시 진행이 유리한 4가지 이유',
         content:
-          '<p><strong style="color:#1e3a5f">노동청 진정과 민사 청구를 병행하면 회수 속도와 청구 범위에서 유리합니다.</strong></p>\n<ul>\n<li><strong>① 노동청 시정지시 → 회사 압박</strong> — 노동청 시정지시는 처리기간 25일로 빠르고 형사 송치 압박이 있어 회사가 자진 지급하는 사례가 있음.</li>\n<li><strong>② 민사 → 지연이자 청구권 확보</strong> — 노동청은 본 임금만 시정지시함. 지연이자는 별도 민사 청구가 필요. 동시 진행 시 빠르고 누락 없음.</li>\n<li><strong>③ 도산대지급금 신청 가능</strong> — 회사가 도산했다면 노동부 도산대지급금(체당금) 신청 검토. 최대 1,000만 원 한도 내에서 우선 변제 가능성.</li>\n<li><strong>④ 형사 송치 + 합의 가능성</strong> — 진정 미이행 시 사업주는 3년 이하 징역 또는 3,000만 원 이하 벌금. 형사 절차 회피를 위해 합의·즉시 지급하는 사례가 있음.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 회사가 일부만 변제하더라도 변제 시점부터 시효가 다시 시작되므로 자료를 보존하고 잔여분에 대한 지연이자 청구를 이어가세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">노동청 진정과 민사 청구를 병행하면 회수 속도와 청구 범위에서 유리합니다.</strong></p>\n<ul>\n<li><strong>① 노동청 시정지시 → 회사 압박</strong> — 노동청 시정지시는 처리기간 25일로 빠르고 형사 송치 압박이 있어 회사가 자진 지급하는 사례가 있음.</li>\n<li><strong>② 민사 → 지연이자 청구권 확보</strong> — 노동청은 본 임금만 시정지시함. 지연이자는 별도 민사 청구가 필요. 동시 진행 시 빠르고 누락 없음.</li>\n<li><strong>③ 도산대지급금 신청 가능</strong> — 회사가 도산했다면 노동부 도산대지급금(대지급금) 신청 검토. 최대 1,000만 원 한도 내에서 우선 변제 가능성.</li>\n<li><strong>④ 형사 송치 + 합의 가능성</strong> — 진정 미이행 시 사업주는 3년 이하 징역 또는 3,000만 원 이하 벌금. 형사 절차 회피를 위해 합의·즉시 지급하는 사례가 있음.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 회사가 일부만 변제하더라도 변제 시점부터 시효가 다시 시작되므로 자료를 보존하고 잔여분에 대한 지연이자 청구를 이어가세요.</blockquote>',
       },
       {
         title: '📌 이렇게 진행됩니다 — 임금 지연이자 청구 절차',
         content:
-          '<p><strong style="color:#1e3a5f">고용노동부 임금체불 진정 + 민사 절차를 참고하면 다음 흐름으로 진행됩니다.</strong></p>\n<ol>\n<li><strong>1단계 — 미지급 명세 + 지연이자 산출</strong> (즉시) — 미지급 항목·지급기일·경과 일수·지연이자(연 20%)를 표로 정리. 이자는 지급기일 14일 이후부터 일할 계산.</li>\n<li><strong>2단계 — 내용증명 발송</strong> (선택) — 미지급 금액·지연이자·지급기한을 명시한 내용증명. 시효 중단(민법 제174조) 효과로 6개월 내 소 제기와 결합.</li>\n<li><strong>3단계 — 노동청 진정</strong> (3년 이내) — 노동포털(labor.moel.go.kr) 또는 관할 지방고용노동지청. 처리기간 25일(연장 가능). 시정지시 → 미이행 시 형사 송치(3년 이하 징역/3,000만 원 이하 벌금).</li>\n<li><strong>4단계 — 민사 청구 또는 지급명령</strong> (병행 가능) — 본 임금 + 연 20% 지연이자 합산. 3,000만 원 이하면 소액심판 → 통상 2~3개월 판결. 회사 무대응 시 지급명령은 즉시 효력.</li>\n<li><strong>5단계 — 강제집행</strong> (확정판결 후) — 회사 통장·매출채권·부동산 압류. 회사 도산 시 도산대지급금(체당금) 신청 별도 검토.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 임금 지연이자, AI로 청구 절차를 정리하세요</strong></p>\n<p style="margin:0;font-size:0.95em">미지급 항목·기일·경과 일수를 입력하면 지연이자 산출과 진정·민사 동시 진행 방법을 확인할 수 있습니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">임금체불 대응 순서, AI로 바로 정리하기 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">고용노동부 임금체불 진정 + 민사 절차를 참고하면 다음 흐름으로 진행됩니다.</strong></p>\n<ol>\n<li><strong>1단계 — 미지급 명세 + 지연이자 산출</strong> (즉시) — 미지급 항목·지급기일·경과 일수·지연이자(연 20%)를 표로 정리. 이자는 지급기일 14일 이후부터 일할 계산.</li>\n<li><strong>2단계 — 내용증명 발송</strong> (선택) — 미지급 금액·지연이자·지급기한을 명시한 내용증명. 시효 중단(민법 제174조) 효과로 6개월 내 소 제기와 결합.</li>\n<li><strong>3단계 — 노동청 진정</strong> (3년 이내) — 노동포털(labor.moel.go.kr) 또는 관할 지방고용노동지청. 처리기간 25일(연장 가능). 시정지시 → 미이행 시 형사 송치(3년 이하 징역/3,000만 원 이하 벌금).</li>\n<li><strong>4단계 — 민사 청구 또는 지급명령</strong> (병행 가능) — 본 임금 + 연 20% 지연이자 합산. 3,000만 원 이하면 소액심판 → 통상 2~3개월 판결. 회사 무대응 시 지급명령은 즉시 효력.</li>\n<li><strong>5단계 — 강제집행</strong> (확정판결 후) — 회사 통장·매출채권·부동산 압류. 회사 도산 시 도산대지급금(대지급금) 신청 별도 검토.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 임금 지연이자, AI로 청구 절차를 정리하세요</strong></p>\n<p style="margin:0;font-size:0.95em">미지급 항목·기일·경과 일수를 입력하면 지연이자 산출과 진정·민사 동시 진행 방법을 확인할 수 있습니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">임금체불 대응 순서, AI로 바로 정리하기 →</a>\n</div>',
       },
       {
         title: '📋 준비서류 체크리스트',
@@ -246,7 +246,7 @@ export const spokesBatch50WageUnempRetire: SpokePage[] = [
       {
         question: '회사가 도산했는데 지연이자도 받을 수 있나요?',
         answer:
-          '<strong>도산대지급금(체당금)은 본 임금·퇴직금 일부에 한정되며 지연이자는 포함되지 않는 것이 원칙입니다.</strong> 다만 사업주 개인 재산 추급·파산 절차에서 일반 채권으로 청구할 여지가 있어요.',
+          '<strong>도산대지급금(대지급금)은 본 임금·퇴직금 일부에 한정되며 지연이자는 포함되지 않는 것이 원칙입니다.</strong> 다만 사업주 개인 재산 추급·파산 절차에서 일반 채권으로 청구할 여지가 있어요.',
       },
       {
         question: '소액(예: 100만 원)도 지연이자 청구 가치가 있나요?',

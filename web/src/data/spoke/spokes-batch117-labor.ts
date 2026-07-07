@@ -299,7 +299,7 @@ export const spokesBatch117Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>연장근로 시간</strong> — 실제 연장·야간·휴일근로 시간이 얼마인지.</li>\n<li><strong>통상임금 산정</strong> — 가산수당 기초가 되는 통상임금이 정확한지.</li>\n<li><strong>고정수당 대조</strong> — 고정수당이 법정 연장근로 가산수당에 미치는지.</li>\n<li><strong>차액 산정</strong> — 법정 가산수당과 고정수당의 미달 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>연장근로 시간</strong> — 실제 연장·야간·휴일근로 시간이 얼마인지.</li>\n<li><strong>통상임금 산정</strong> — 가산수당 기초가 되는 통상임금이 정확한지.</li>\n<li><strong>고정수당 대조</strong> — 고정수당이 법정 연장근로 가산수당에 미치는지.</li>\n<li><strong>차액 산정</strong> — 법정 가산수당과 고정수당의 미달 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch117Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>통상임금 해당성</strong> — 정기상여가 정기·일률·고정으로 지급된 통상임금인지.</li>\n<li><strong>제외근거 효력</strong> — 상여를 통상임금에서 뺀 근거가 효력이 있는지.</li>\n<li><strong>가산수당 재산정</strong> — 상여를 포함해 재산정하면 수당이 느는지.</li>\n<li><strong>차액 산정</strong> — 재산정으로 가산수당 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>통상임금 해당성</strong> — 정기상여가 정기·일률·고정으로 지급된 통상임금인지.</li>\n<li><strong>제외근거 효력</strong> — 상여를 통상임금에서 뺀 근거가 효력이 있는지.</li>\n<li><strong>가산수당 재산정</strong> — 상여를 포함해 재산정하면 수당이 느는지.</li>\n<li><strong>차액 산정</strong> — 재산정으로 가산수당 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [

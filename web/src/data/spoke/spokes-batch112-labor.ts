@@ -299,7 +299,7 @@ export const spokesBatch112Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>소정근로시간</strong> — 4주 평균 1주 소정근로시간이 15시간 이상인지.</li>\n<li><strong>개근 요건</strong> — 1주 소정근로일을 개근했는지.</li>\n<li><strong>산정·포함 여부</strong> — 시급에 주휴수당이 명확히 구분·반영됐는지.</li>\n<li><strong>차액 산정</strong> — 비례 산정한 주휴수당으로 미지급 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>소정근로시간</strong> — 4주 평균 1주 소정근로시간이 15시간 이상인지.</li>\n<li><strong>개근 요건</strong> — 1주 소정근로일을 개근했는지.</li>\n<li><strong>산정·포함 여부</strong> — 시급에 주휴수당이 명확히 구분·반영됐는지.</li>\n<li><strong>차액 산정</strong> — 비례 산정한 주휴수당으로 미지급 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch112Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>소정근로시간</strong> — 1개월 소정근로시간 수가 정확히 산정됐는지.</li>\n<li><strong>비교대상 시급</strong> — 비교대상 시급이 고시 최저임금에 미달하는지.</li>\n<li><strong>산입 항목</strong> — 산입에서 제외될 항목을 끼워 넣지 않았는지.</li>\n<li><strong>차액 산정</strong> — 미달이 인정될 때 최저임금액과의 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (최저임금·임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>소정근로시간</strong> — 1개월 소정근로시간 수가 정확히 산정됐는지.</li>\n<li><strong>비교대상 시급</strong> — 비교대상 시급이 고시 최저임금에 미달하는지.</li>\n<li><strong>산입 항목</strong> — 산입에서 제외될 항목을 끼워 넣지 않았는지.</li>\n<li><strong>차액 산정</strong> — 미달이 인정될 때 최저임금액과의 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (최저임금·임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [

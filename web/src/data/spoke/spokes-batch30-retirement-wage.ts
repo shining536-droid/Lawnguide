@@ -21,8 +21,8 @@ import { SpokePage } from '../spoke-pages';
 //    "이 페이지는 임금을 제때 못 받은 근로자가 지연이자를 정확히 계산하고 청구하도록 돕는 페이지다."
 // 9. unpaid-wage-criminal-complaint-procedure — 임금체불 형사고소 절차와 실효성 (절차타임라인형)
 //    "이 페이지는 임금체불 피해 근로자가 형사고소를 통해 실질적 압박을 가하는 방법을 돕는 페이지다."
-// 10. unpaid-wage-guarantee-fund-application — 체당금(임금채권보장기금) 신청 자격과 한도 (자격확인형)
-//     "이 페이지는 사업주 파산·폐업으로 임금을 못 받은 근로자가 체당금을 신청하는 방법을 돕는 페이지다."
+// 10. unpaid-wage-guarantee-fund-application — 대지급금(임금채권보장기금) 신청 자격과 한도 (자격확인형)
+//     "이 페이지는 사업주 파산·폐업으로 임금을 못 받은 근로자가 대지급금을 신청하는 방법을 돕는 페이지다."
 // ───────────────────────────────────────────────────────────────────────────────
 
 export const spokesBatch30RetirementWage: SpokePage[] = [
@@ -130,7 +130,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       {
         title: '파견업체 폐업 시 퇴직금 청구 방법',
         content:
-          '<p><strong style="color:#1e3a5f">파견업체가 폐업하면 체당금 제도나 사용업체 상대 소송을 검토하세요.</strong></p>\n<ul>\n<li><strong>체당금(임금채권보장기금)</strong> — 파견업체가 도산한 경우, 근로복지공단에 체당금을 신청할 수 있습니다. 퇴직금도 체당금 지급 대상에 포함됩니다.</li>\n<li><strong>사용업체 상대 소송</strong> — 불법파견이 인정되면 사용업체에 직접 퇴직금을 청구하는 소송을 제기할 수 있습니다.</li>\n<li><strong>노동부 진정</strong> — 고용노동부에 퇴직금 미지급 진정을 제기하면, 근로감독관이 사실관계를 조사합니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">파견업체가 폐업하면 대지급금 제도나 사용업체 상대 소송을 검토하세요.</strong></p>\n<ul>\n<li><strong>대지급금(임금채권보장기금)</strong> — 파견업체가 도산한 경우, 근로복지공단에 대지급금을 신청할 수 있습니다. 퇴직금도 대지급금 지급 대상에 포함됩니다.</li>\n<li><strong>사용업체 상대 소송</strong> — 불법파견이 인정되면 사용업체에 직접 퇴직금을 청구하는 소송을 제기할 수 있습니다.</li>\n<li><strong>노동부 진정</strong> — 고용노동부에 퇴직금 미지급 진정을 제기하면, 근로감독관이 사실관계를 조사합니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -156,7 +156,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       {
         question: '파견업체가 영세해서 퇴직금을 줄 돈이 없다고 하면 어떡하나요?',
         answer:
-          '<p>파견업체의 지급 능력과 관계없이 퇴직금 지급 의무는 존재합니다. 노동부 진정 → 체불사업주 명단 공개 → 체당금 신청 순서로 대응하세요.</p>',
+          '<p>파견업체의 지급 능력과 관계없이 퇴직금 지급 의무는 존재합니다. 노동부 진정 → 체불사업주 명단 공개 → 대지급금 신청 순서로 대응하세요.</p>',
       },
       {
         question: '불법파견과 적법파견은 어떻게 구분하나요?',
@@ -554,7 +554,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '임금체불 어디서부터', href: '/guide/wage/unpaid-wage-where-to-start' },
       { label: '사업주 형사처벌', href: '/guide/wage/wage-employer-criminal-penalty' },
-      { label: '체당금 신청', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
+      { label: '대지급금 신청', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
       { label: '임금체불 증거 체크리스트', href: '/guide/wage/unpaid-wage-evidence-checklist' },
     ],
   },
@@ -663,7 +663,7 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       {
         title: '형사고소의 실효성과 한계',
         content:
-          '<p><strong style="color:#1e3a5f">형사고소는 강력한 압박 수단이지만, 실제 징역형까지 이어지는 경우는 드뭅니다.</strong></p>\n<ul>\n<li><strong>지급 압박 효과</strong> — 수사 개시 후 많은 사업주가 임금을 지급하고 합의를 요청합니다. 형사고소의 가장 큰 효과입니다.</li>\n<li><strong>벌금형 중심</strong> — 초범이고 체불 규모가 작으면 벌금형(약식명령)으로 처리되는 경우가 많습니다.</li>\n<li><strong>한계</strong> — 사업주가 정말 무자력(재산이 없는 상태)이면 형사처벌을 해도 임금을 받지 못할 수 있습니다. 이 경우 체당금 제도를 활용하세요.</li>\n<li><strong>합의 시점</strong> — 사업주가 지급하고 합의를 요청하면, 지연이자까지 포함한 전액을 지급받은 후 처벌불원서를 작성하세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">형사고소는 강력한 압박 수단이지만, 실제 징역형까지 이어지는 경우는 드뭅니다.</strong></p>\n<ul>\n<li><strong>지급 압박 효과</strong> — 수사 개시 후 많은 사업주가 임금을 지급하고 합의를 요청합니다. 형사고소의 가장 큰 효과입니다.</li>\n<li><strong>벌금형 중심</strong> — 초범이고 체불 규모가 작으면 벌금형(약식명령)으로 처리되는 경우가 많습니다.</li>\n<li><strong>한계</strong> — 사업주가 정말 무자력(재산이 없는 상태)이면 형사처벌을 해도 임금을 받지 못할 수 있습니다. 이 경우 대지급금 제도를 활용하세요.</li>\n<li><strong>합의 시점</strong> — 사업주가 지급하고 합의를 요청하면, 지연이자까지 포함한 전액을 지급받은 후 처벌불원서를 작성하세요.</li>\n</ul>',
       },
     ],
     cases: [
@@ -708,87 +708,87 @@ export const spokesBatch30RetirementWage: SpokePage[] = [
       { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '임금체불 어디서부터', href: '/guide/wage/unpaid-wage-where-to-start' },
       { label: '임금체불 지연이자', href: '/guide/wage/unpaid-wage-settlement-delayed-interest' },
-      { label: '체당금 신청', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
+      { label: '대지급금 신청', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
     ],
   },
 
-  // ── 임금체불 10. 체당금(임금채권보장기금) 신청 자격과 한도 ──
+  // ── 임금체불 10. 대지급금(임금채권보장기금) 신청 자격과 한도 ──
   {
     domain: 'wage',
     slug: 'unpaid-wage-guarantee-fund-application',
-    keyword: '체당금 임금채권보장기금 신청',
+    keyword: '대지급금 임금채권보장기금 신청',
     questionKeyword: '회사가 망했는데 밀린 임금을 받을 수 있나요?',
-    ctaKeyword: '체당금 신청 자격 상담',
+    ctaKeyword: '대지급금 신청 자격 상담',
     type: '자격확인형',
     perspective: 'victim',
     meta: {
-      title: '체당금 신청 자격과 한도 — 최대 1,000만원 받는 법 | 로앤가이드',
+      title: '대지급금 신청 자격과 한도 — 최대 1,000만원 받는 법 | 로앤가이드',
       description:
-        '사업주가 파산하거나 폐업해서 밀린 임금을 못 받고 있다면, 체당금 신청 자격과 한도를 지금 확인하세요.',
+        '사업주가 파산하거나 폐업해서 밀린 임금을 못 받고 있다면, 대지급금 신청 자격과 한도를 지금 확인하세요.',
     },
     intro:
-      '<p>일하던 회사가 갑자기 폐업했습니다. 3개월치 급여 600만원과 퇴직금이 밀려 있는데, 사장님은 연락이 되지 않습니다. 회사에 돈이 없으면 임금을 영영 못 받는 걸까요. 임금채권보장법에 따라 근로복지공단에서 체당금을 먼저 지급받을 수 있습니다.</p>',
+      '<p>일하던 회사가 갑자기 폐업했습니다. 3개월치 급여 600만원과 퇴직금이 밀려 있는데, 사장님은 연락이 되지 않습니다. 회사에 돈이 없으면 임금을 영영 못 받는 걸까요. 임금채권보장법에 따라 근로복지공단에서 대지급금을 먼저 지급받을 수 있습니다.</p>',
     sections: [
       {
-        title: '체당금이란: 나라가 대신 지급하는 밀린 임금',
+        title: '대지급금이란: 나라가 대신 지급하는 밀린 임금',
         content:
-          '<p><strong style="color:#1e3a5f">체당금은 사업주가 파산·폐업 등으로 임금을 지급할 수 없을 때, 근로복지공단이 사업주를 대신하여 근로자에게 미지급 임금을 지급하는 제도입니다.</strong></p>\n<p>임금채권보장법에 근거하며, 사업주가 고용보험에 가입한 사업장의 근로자라면 신청할 수 있습니다.</p>\n<ul>\n<li><strong>일반 체당금</strong> — 법원의 파산선고·회생절차 개시결정이 있는 경우에 신청합니다.</li>\n<li><strong>간이 체당금(소액 체당금)</strong> — 법원 절차 없이도 노동부의 체불 확인만으로 신청할 수 있습니다. 소규모 사업장 폐업 시 주로 활용됩니다.</li>\n<li><strong>지급 항목</strong> — 미지급 임금, 퇴직금, 휴업수당이 지급 대상입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 체당금은 "근로자가 받아야 할 돈을 국가가 먼저 준다"는 것입니다. 사업주에 대한 구상권은 공단이 행사합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">대지급금은 사업주가 파산·폐업 등으로 임금을 지급할 수 없을 때, 근로복지공단이 사업주를 대신하여 근로자에게 미지급 임금을 지급하는 제도입니다.</strong></p>\n<p>임금채권보장법에 근거하며, 사업주가 고용보험에 가입한 사업장의 근로자라면 신청할 수 있습니다.</p>\n<ul>\n<li><strong>일반 대지급금</strong> — 법원의 파산선고·회생절차 개시결정이 있는 경우에 신청합니다.</li>\n<li><strong>간이 대지급금(소액 대지급금)</strong> — 법원 절차 없이도 노동부의 체불 확인만으로 신청할 수 있습니다. 소규모 사업장 폐업 시 주로 활용됩니다.</li>\n<li><strong>지급 항목</strong> — 미지급 임금, 퇴직금, 휴업수당이 지급 대상입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대지급금은 "근로자가 받아야 할 돈을 국가가 먼저 준다"는 것입니다. 사업주에 대한 구상권은 공단이 행사합니다.</blockquote>',
       },
       {
-        title: '체당금 신청 자격과 한도',
+        title: '대지급금 신청 자격과 한도',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직일 기준 최종 3개월분 임금과 최종 3년분 퇴직금, 최종 3개월분 휴업수당이 한도입니다.</strong></p>\n<ul>\n<li><strong>일반 체당금 한도</strong> — 나이에 따라 월 상한액이 달라집니다. 30세 미만: 월 220만원, 30~39세: 월 310만원, 40세 이상: 월 350만원(2025년 기준, 매년 변동).</li>\n<li><strong>간이 체당금 한도</strong> — 임금·퇴직금·휴업수당 합산 최대 1,000만원입니다.</li>\n<li><strong>신청 기한</strong> — 일반 체당금은 파산선고 등이 있은 날부터 2년 이내, 간이 체당금은 체불 확인 후 1년 이내에 신청해야 합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>체당금 신청 자격과 예상 수령액, AI가 즉시 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">체불 내역, 퇴직일, 나이를 입력하면 체당금 수령 가능 금액을 무료로 계산합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">퇴직일 기준 최종 3개월분 임금과 최종 3년분 퇴직금, 최종 3개월분 휴업수당이 한도입니다.</strong></p>\n<ul>\n<li><strong>일반 대지급금 한도</strong> — 나이에 따라 월 상한액이 달라집니다. 30세 미만: 월 220만원, 30~39세: 월 310만원, 40세 이상: 월 350만원(2025년 기준, 매년 변동).</li>\n<li><strong>간이 대지급금 한도</strong> — 임금·퇴직금·휴업수당 합산 최대 1,000만원입니다.</li>\n<li><strong>신청 기한</strong> — 일반 대지급금은 파산선고 등이 있은 날부터 2년 이내, 간이 대지급금은 체불 확인 후 1년 이내에 신청해야 합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>대지급금 신청 자격과 예상 수령액, AI가 즉시 확인합니다</strong></p>\n<p style="margin:0;font-size:0.95em">체불 내역, 퇴직일, 나이를 입력하면 대지급금 수령 가능 금액을 무료로 계산합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
-        title: '체당금 신청 절차',
+        title: '대지급금 신청 절차',
         content:
-          '<p><strong style="color:#1e3a5f">노동부 체불 확인 → 근로복지공단 신청 → 지급 순서로 진행됩니다.</strong></p>\n<ol>\n<li><strong>1단계: 고용노동부 체불 확인</strong> — 관할 노동지청에 임금체불 진정을 제기하고, 체불 사실 확인서를 발급받습니다.</li>\n<li><strong>2단계: 근로복지공단 신청</strong> — 체불 확인서, 근로계약서(또는 재직 증빙), 급여 통장 사본을 첨부하여 근로복지공단에 체당금을 신청합니다.</li>\n<li><strong>3단계: 심사 및 지급</strong> — 공단이 체당금 지급 여부를 심사하고, 승인 시 근로자 계좌로 지급합니다. 심사 기간은 약 2~4주입니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 체당금은 신청 후 비교적 빠르게(2~4주) 지급됩니다. 사업주를 상대로 소송하는 것보다 훨씬 빠른 구제 수단입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">노동부 체불 확인 → 근로복지공단 신청 → 지급 순서로 진행됩니다.</strong></p>\n<ol>\n<li><strong>1단계: 고용노동부 체불 확인</strong> — 관할 노동지청에 임금체불 진정을 제기하고, 체불 사실 확인서를 발급받습니다.</li>\n<li><strong>2단계: 근로복지공단 신청</strong> — 체불 확인서, 근로계약서(또는 재직 증빙), 급여 통장 사본을 첨부하여 근로복지공단에 대지급금을 신청합니다.</li>\n<li><strong>3단계: 심사 및 지급</strong> — 공단이 대지급금 지급 여부를 심사하고, 승인 시 근로자 계좌로 지급합니다. 심사 기간은 약 2~4주입니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대지급금은 신청 후 비교적 빠르게(2~4주) 지급됩니다. 사업주를 상대로 소송하는 것보다 훨씬 빠른 구제 수단입니다.</blockquote>',
       },
       {
-        title: '체당금 신청 시 주의사항',
+        title: '대지급금 신청 시 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">체당금을 받아도 사업주에 대한 잔여 청구권은 유지됩니다.</strong></p>\n<ul>\n<li><strong>한도 초과분</strong> — 체당금 한도를 초과하는 미지급 임금은 사업주에게 직접 청구해야 합니다.</li>\n<li><strong>4대보험 미가입</strong> — 사업주가 고용보험에 가입하지 않은 경우에도 체당금 신청이 가능합니다. 근로자의 피해가 사업주의 미가입으로 인해 발생한 것이기 때문입니다.</li>\n<li><strong>사업주 허위폐업</strong> — 사업주가 체당금을 악용하기 위해 허위 폐업하는 경우가 있습니다. 이는 사기죄에 해당하며, 의심 시 근로감독관에게 알리세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">대지급금을 받아도 사업주에 대한 잔여 청구권은 유지됩니다.</strong></p>\n<ul>\n<li><strong>한도 초과분</strong> — 대지급금 한도를 초과하는 미지급 임금은 사업주에게 직접 청구해야 합니다.</li>\n<li><strong>4대보험 미가입</strong> — 사업주가 고용보험에 가입하지 않은 경우에도 대지급금 신청이 가능합니다. 근로자의 피해가 사업주의 미가입으로 인해 발생한 것이기 때문입니다.</li>\n<li><strong>사업주 허위폐업</strong> — 사업주가 대지급금을 악용하기 위해 허위 폐업하는 경우가 있습니다. 이는 사기죄에 해당하며, 의심 시 근로감독관에게 알리세요.</li>\n</ul>',
       },
     ],
     cases: [
       {
-        title: '판례 — 체당금 지급과 임금채권 보장',
+        title: '판례 — 대지급금 지급과 임금채권 보장',
         summary:
-          '대법원 2022다257238 사건(대법원, 2025.07.18 선고)에서 법원은 임금채권보장기금의 체당금 제도 취지는 사업주의 지급 불능 상태에서 근로자의 생존권을 보호하는 것이며, 사업주의 도산 여부는 실질적으로 판단해야 한다고 판시했습니다.',
+          '대법원 2022다257238 사건(대법원, 2025.07.18 선고)에서 법원은 임금채권보장기금의 대지급금 제도 취지는 사업주의 지급 불능 상태에서 근로자의 생존권을 보호하는 것이며, 사업주의 도산 여부는 실질적으로 판단해야 한다고 판시했습니다.',
         takeaway:
-          '사업주가 공식 파산 선고를 받지 않더라도 실질적으로 사업을 계속할 수 없는 상태라면 간이 체당금을 신청할 수 있습니다.',
+          '사업주가 공식 파산 선고를 받지 않더라도 실질적으로 사업을 계속할 수 없는 상태라면 간이 대지급금을 신청할 수 있습니다.',
       },
     ],
     faq: [
       {
-        question: '회사가 폐업하지 않았는데도 체당금을 받을 수 있나요?',
+        question: '회사가 폐업하지 않았는데도 대지급금을 받을 수 있나요?',
         answer:
-          '<p>간이 체당금은 폐업뿐 아니라 사업주가 임금을 지급할 능력이 없다고 인정되는 경우에도 신청 가능합니다. 노동부의 체불 확인이 핵심 요건입니다.</p>',
+          '<p>간이 대지급금은 폐업뿐 아니라 사업주가 임금을 지급할 능력이 없다고 인정되는 경우에도 신청 가능합니다. 노동부의 체불 확인이 핵심 요건입니다.</p>',
       },
       {
-        question: '체당금을 받으면 사업주에게 더 이상 청구할 수 없나요?',
+        question: '대지급금을 받으면 사업주에게 더 이상 청구할 수 없나요?',
         answer:
-          '<p>체당금 한도 내에서 받은 금액에 대해서는 공단이 사업주에게 구상권을 행사합니다. 한도를 초과하는 금액은 근로자가 직접 사업주에게 청구할 수 있습니다.</p>',
+          '<p>대지급금 한도 내에서 받은 금액에 대해서는 공단이 사업주에게 구상권을 행사합니다. 한도를 초과하는 금액은 근로자가 직접 사업주에게 청구할 수 있습니다.</p>',
       },
       {
-        question: '일용직이나 아르바이트생도 체당금을 받을 수 있나요?',
+        question: '일용직이나 아르바이트생도 대지급금을 받을 수 있나요?',
         answer:
-          '<p>근로기준법상 근로자이면 고용 형태와 관계없이 체당금 신청이 가능합니다. 일용직, 아르바이트, 계약직 모두 대상입니다.</p>',
+          '<p>근로기준법상 근로자이면 고용 형태와 관계없이 대지급금 신청이 가능합니다. 일용직, 아르바이트, 계약직 모두 대상입니다.</p>',
       },
       {
-        question: '체당금 신청에 변호사가 필요한가요?',
+        question: '대지급금 신청에 변호사가 필요한가요?',
         answer:
           '<p>변호사 없이 본인이 직접 신청할 수 있습니다. 근로복지공단 지사에 방문하면 담당자가 작성을 도와줍니다. 고용노동부 1350 상담 전화도 활용하세요.</p>',
       },
       {
-        question: '체당금을 받기까지 보통 얼마나 걸리나요?',
+        question: '대지급금을 받기까지 보통 얼마나 걸리나요?',
         answer:
           '<p>노동부 체불 확인서 발급에 2~4주, 공단 심사에 2~4주로 총 1~2개월 정도 소요됩니다. 체불 확인서를 빨리 발급받을수록 전체 기간이 단축됩니다.</p>',
       },
     ],
-    cta: { text: '체당금 신청 자격 AI로 즉시 확인하기', link: '/chat?domain=wage' },
+    cta: { text: '대지급금 신청 자격 AI로 즉시 확인하기', link: '/chat?domain=wage' },
     internalLinks: [
-      { label: '체당금 상세 안내', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
+      { label: '대지급금 상세 안내', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
       { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '임금체불 어디서부터', href: '/guide/wage/unpaid-wage-where-to-start' },
       { label: '임금체불 소멸시효', href: '/guide/wage/unpaid-wage-statute-of-limitations' },

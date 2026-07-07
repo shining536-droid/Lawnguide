@@ -615,7 +615,7 @@ export const spokesBatch93Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>급여규정 해석</strong> — 수당이 퇴직금 산정 기초에 포함되는지를 지급관행으로 가리는지.</li>\n<li><strong>평균임금 포함</strong> — 정기적·계속적으로 지급된 수당이 평균임금에 들어가는지.</li>\n<li><strong>법정 하한</strong> — 계속근로 1년당 30일분 이상 평균임금을 지급했는지.</li>\n<li><strong>불리 지급 금지</strong> — 하한을 넘겨도 규정보다 불리하게 줄 수 없는지.</li>\n<li><strong>청구 시효</strong> — 퇴직금 청구 시효 3년 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>고용노동부 1350 (임금체불 진정)</strong></li>\n<li><strong>근로복지공단 (퇴직연금·체당금 안내)</strong></li>\n<li><strong>한국공인노무사회 02-3673-2266</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>급여규정 해석</strong> — 수당이 퇴직금 산정 기초에 포함되는지를 지급관행으로 가리는지.</li>\n<li><strong>평균임금 포함</strong> — 정기적·계속적으로 지급된 수당이 평균임금에 들어가는지.</li>\n<li><strong>법정 하한</strong> — 계속근로 1년당 30일분 이상 평균임금을 지급했는지.</li>\n<li><strong>불리 지급 금지</strong> — 하한을 넘겨도 규정보다 불리하게 줄 수 없는지.</li>\n<li><strong>청구 시효</strong> — 퇴직금 청구 시효 3년 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>고용노동부 1350 (임금체불 진정)</strong></li>\n<li><strong>근로복지공단 (퇴직연금·대지급금 안내)</strong></li>\n<li><strong>한국공인노무사회 02-3673-2266</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -698,7 +698,7 @@ export const spokesBatch93Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>근로자성 실질</strong> — 임원 직함과 무관하게 종속적 근로를 제공했는지.</li>\n<li><strong>근속기간 제외</strong> — 고문 등 일부 기간을 근거 없이 근속기간에서 뺐는지.</li>\n<li><strong>임금성 판단</strong> — 성과배분상여금·자가운전보조금의 임금 해당 여부.</li>\n<li><strong>퇴직금 산정</strong> — 계속근로 1년당 30일분 이상 평균임금으로 산정했는지.</li>\n<li><strong>청구 시효</strong> — 퇴직금 청구 시효 3년 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>고용노동부 1350 (임금체불 진정)</strong></li>\n<li><strong>근로복지공단 (퇴직연금·체당금 안내)</strong></li>\n<li><strong>한국공인노무사회 02-3673-2266</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>근로자성 실질</strong> — 임원 직함과 무관하게 종속적 근로를 제공했는지.</li>\n<li><strong>근속기간 제외</strong> — 고문 등 일부 기간을 근거 없이 근속기간에서 뺐는지.</li>\n<li><strong>임금성 판단</strong> — 성과배분상여금·자가운전보조금의 임금 해당 여부.</li>\n<li><strong>퇴직금 산정</strong> — 계속근로 1년당 30일분 이상 평균임금으로 산정했는지.</li>\n<li><strong>청구 시효</strong> — 퇴직금 청구 시효 3년 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>고용노동부 1350 (임금체불 진정)</strong></li>\n<li><strong>근로복지공단 (퇴직연금·대지급금 안내)</strong></li>\n<li><strong>한국공인노무사회 02-3673-2266</strong></li>\n</ul>',
       },
     ],
     cases: [

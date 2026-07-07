@@ -257,17 +257,17 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         title: '폐업·축소 시 사용자의 법적 의무 5가지',
         content:
-          '<p><strong style="color:#1e3a5f">사업장이 문을 닫아도 사용자의 임금·퇴직금 지급 의무는 사라지지 않습니다.</strong></p>\n<ol>\n<li><strong>해고 예고</strong> — 폐업이라도 30일 전 해고 예고 또는 30일분 해고예고수당을 지급해야 합니다.</li>\n<li><strong>미지급 임금 지급</strong> — 퇴직일로부터 14일 이내에 모든 미지급 임금을 지급해야 합니다(근로기준법 제36조).</li>\n<li><strong>퇴직금 지급</strong> — 1년 이상 근무한 근로자에게 퇴직금을 지급해야 합니다.</li>\n<li><strong>이직확인서 발급</strong> — 실업급여 신청에 필요한 이직확인서를 발급해야 합니다.</li>\n<li><strong>경영상 해고 절차 준수</strong> — 사업 축소로 인한 정리해고라면 근로기준법 제24조의 긴박한 경영상 필요, 해고 회피 노력, 합리적 기준, 근로자대표 협의 등 4대 요건을 갖춰야 합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 폐업이라도 미지급 임금과 퇴직금 지급 의무는 그대로 남습니다. 체당금 제도를 활용하면 국가가 대신 지급합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업장이 문을 닫아도 사용자의 임금·퇴직금 지급 의무는 사라지지 않습니다.</strong></p>\n<ol>\n<li><strong>해고 예고</strong> — 폐업이라도 30일 전 해고 예고 또는 30일분 해고예고수당을 지급해야 합니다.</li>\n<li><strong>미지급 임금 지급</strong> — 퇴직일로부터 14일 이내에 모든 미지급 임금을 지급해야 합니다(근로기준법 제36조).</li>\n<li><strong>퇴직금 지급</strong> — 1년 이상 근무한 근로자에게 퇴직금을 지급해야 합니다.</li>\n<li><strong>이직확인서 발급</strong> — 실업급여 신청에 필요한 이직확인서를 발급해야 합니다.</li>\n<li><strong>경영상 해고 절차 준수</strong> — 사업 축소로 인한 정리해고라면 근로기준법 제24조의 긴박한 경영상 필요, 해고 회피 노력, 합리적 기준, 근로자대표 협의 등 4대 요건을 갖춰야 합니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 폐업이라도 미지급 임금과 퇴직금 지급 의무는 그대로 남습니다. 대지급금 제도를 활용하면 국가가 대신 지급합니다.</blockquote>',
       },
       {
         title: '폐업 시 임금·퇴직금 확보 방법',
         content:
-          '<p><strong style="color:#1e3a5f">사용자가 돈이 없다고 해도 체당금·우선변제 등으로 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>체당금 제도</strong> — 사업주가 도산(파산·회생)하면 고용노동부에서 최종 3개월 임금, 최종 3년 퇴직금, 휴업수당을 대신 지급합니다. 임금채권보장법에 따라 신청하세요.</li>\n<li><strong>간이대지급금</strong> — 도산 인정까지 시간이 걸리면, 사업주 소재불명 등의 사유로 간이대지급금을 먼저 신청할 수 있습니다(최대 1,000만원).</li>\n<li><strong>임금채권 우선변제</strong> — 사업주의 재산에 대해 임금채권은 세금·담보권보다 우선하여 변제받습니다(최종 3개월분 임금, 최종 3년분 퇴직금).</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>폐업으로 밀린 임금, AI가 확보 방법을 즉시 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">미지급 금액과 상황을 입력하면 체당금 신청부터 우선변제까지 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">사용자가 돈이 없다고 해도 대지급금·우선변제 등으로 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>대지급금 제도</strong> — 사업주가 도산(파산·회생)하면 고용노동부에서 최종 3개월 임금, 최종 3년 퇴직금, 휴업수당을 대신 지급합니다. 임금채권보장법에 따라 신청하세요.</li>\n<li><strong>간이대지급금</strong> — 도산 인정까지 시간이 걸리면, 사업주 소재불명 등의 사유로 간이대지급금을 먼저 신청할 수 있습니다(최대 1,000만원).</li>\n<li><strong>임금채권 우선변제</strong> — 사업주의 재산에 대해 임금채권은 세금·담보권보다 우선하여 변제받습니다(최종 3개월분 임금, 최종 3년분 퇴직금).</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>폐업으로 밀린 임금, AI가 확보 방법을 즉시 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">미지급 금액과 상황을 입력하면 대지급금 신청부터 우선변제까지 무료로 확인하세요.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '폐업 해고 후 즉시 해야 할 5가지',
         content:
-          '<p><strong style="color:#1e3a5f">시간이 지날수록 증거와 청구권이 약해집니다. 즉시 행동하세요.</strong></p>\n<ol>\n<li><strong>근로 증빙 확보</strong> — 근로계약서, 급여명세서, 출퇴근 기록, 4대 보험 가입 내역을 확보하세요. 사업장이 문을 닫으면 증거를 구하기 어렵습니다.</li>\n<li><strong>고용노동부 진정</strong> — 미지급 임금·퇴직금에 대해 관할 고용노동청에 진정서를 제출하세요.</li>\n<li><strong>체당금 신청</strong> — 도산 사실이 확인되면 즉시 체당금을 신청하세요.</li>\n<li><strong>실업급여 신청</strong> — 고용센터에 구직 등록 후 실업급여를 신청하세요.</li>\n<li><strong>경영상 해고 적법성 검토</strong> — 사업 축소인데 특정인만 해고했다면 정리해고 4대 요건 위반으로 부당해고 구제가 가능합니다.</li>\n</ol>',
+          '<p><strong style="color:#1e3a5f">시간이 지날수록 증거와 청구권이 약해집니다. 즉시 행동하세요.</strong></p>\n<ol>\n<li><strong>근로 증빙 확보</strong> — 근로계약서, 급여명세서, 출퇴근 기록, 4대 보험 가입 내역을 확보하세요. 사업장이 문을 닫으면 증거를 구하기 어렵습니다.</li>\n<li><strong>고용노동부 진정</strong> — 미지급 임금·퇴직금에 대해 관할 고용노동청에 진정서를 제출하세요.</li>\n<li><strong>대지급금 신청</strong> — 도산 사실이 확인되면 즉시 대지급금을 신청하세요.</li>\n<li><strong>실업급여 신청</strong> — 고용센터에 구직 등록 후 실업급여를 신청하세요.</li>\n<li><strong>경영상 해고 적법성 검토</strong> — 사업 축소인데 특정인만 해고했다면 정리해고 4대 요건 위반으로 부당해고 구제가 가능합니다.</li>\n</ol>',
       },
     ],
     cases: [
@@ -286,14 +286,14 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
           '<p>사업주 소재불명이 확인되면 간이대지급금(최대 1,000만원)을 고용노동부에 신청할 수 있습니다. 고용노동청에 진정 후 소재불명 확인서를 받으세요.</p>',
       },
       {
-        question: '체당금은 얼마까지 받을 수 있나요?',
+        question: '대지급금은 얼마까지 받을 수 있나요?',
         answer:
           '<p>최종 3개월 임금과 최종 3년 퇴직금, 휴업수당을 합산한 금액을 받을 수 있습니다. 다만 연령별 상한액이 있으므로 고용노동부에서 정확한 금액을 확인하세요.</p>',
       },
       {
         question: '폐업 예정인데 사전에 대비할 수 있는 것이 있나요?',
         answer:
-          '<p>근로계약서·급여명세서·출근기록을 미리 사본으로 확보하세요. 4대 보험 가입 내역도 국민건강보험공단에서 출력해두면 체당금 신청 시 도움이 됩니다.</p>',
+          '<p>근로계약서·급여명세서·출근기록을 미리 사본으로 확보하세요. 4대 보험 가입 내역도 국민건강보험공단에서 출력해두면 대지급금 신청 시 도움이 됩니다.</p>',
       },
       {
         question: '사업 축소인데 나만 해고되었습니다. 부당해고인가요?',
@@ -303,7 +303,7 @@ export const spokesBatch30DismissalFraud: SpokePage[] = [
       {
         question: '폐업한 회사의 퇴직금 시효가 있나요?',
         answer:
-          '<p>퇴직금 청구 시효는 3년입니다. 3년 이내에 진정·소송·체당금 신청 등의 조치를 취해야 합니다.</p>',
+          '<p>퇴직금 청구 시효는 3년입니다. 3년 이내에 진정·소송·대지급금 신청 등의 조치를 취해야 합니다.</p>',
       },
     ],
     cta: { text: '폐업 해고 대응 방법 AI로 확인하기', link: '/chat?domain=dismissal' },

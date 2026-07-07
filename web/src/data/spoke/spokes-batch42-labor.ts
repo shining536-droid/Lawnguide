@@ -774,7 +774,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       {
         question: '분할 지급 도중 회사가 부도났는데 남은 금액은 어떻게 되나요?',
         answer:
-          '<strong>임금채권 우선변제·체당금 제도를 활용하세요.</strong> 체당금은 최근 3년 임금·3년 퇴직금 중 상한 범위 보전합니다.',
+          '<strong>임금채권 우선변제·대지급금 제도를 활용하세요.</strong> 대지급금은 최근 3년 임금·3년 퇴직금 중 상한 범위 보전합니다.',
       },
       {
         question: '임금 + 퇴직금을 한 번에 분할 합의한 경우는요?',
@@ -795,7 +795,7 @@ export const spokesBatch42Labor: SpokePage[] = [
       { label: '퇴직금 월급 분할 무효', href: '/guide/retirement/retirement-monthly-split-invalid' },
       { label: '퇴직금 할부 지급 무효', href: '/guide/retirement/retirement-installment-payment-invalid' },
       { label: '퇴직금 지연이자 20%', href: '/guide/retirement/retirement-delay-interest-20percent' },
-      { label: '회사 부도 퇴직금 체당금', href: '/guide/retirement/retirement-company-bankrupt-deposit' },
+      { label: '회사 부도 퇴직금 대지급금', href: '/guide/retirement/retirement-company-bankrupt-deposit' },
       { label: '퇴직금 청구 경로 비교', href: '/guide/retirement/retirement-claim-channel-comparison' },
     ],
   },

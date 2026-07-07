@@ -115,9 +115,9 @@ export const spokesBatch32Misc: SpokePage[] = [
           '<p><strong style="color:#1e3a5f">사업주의 예금, 매출채권, 부동산, 차량 등 다양한 재산을 압류할 수 있습니다.</strong></p>\n<ul>\n<li><strong>예금 압류</strong> — 채권압류 및 추심명령을 신청합니다. 사업주 거래 은행을 알면 해당 은행에 압류가 걸려 출금이 차단됩니다.</li>\n<li><strong>매출채권 압류</strong> — 사업주의 거래처에서 받을 돈(매출채권)을 압류하면 거래처가 사업주 대신 근로자에게 직접 지급합니다.</li>\n<li><strong>부동산 강제경매</strong> — 사업주 소유 부동산에 대해 강제경매를 신청합니다. 다만 선순위 근저당이 많으면 배당을 받지 못할 수 있으니 등기부등본을 먼저 확인하세요.</li>\n<li><strong>재산조회 신청</strong> — 사업주 재산을 모를 때는 법원에 재산조회를 신청하면 금융기관, 국세청, 차량등록사업소 등에서 일괄 조회됩니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>사업주 재산 압류 절차, AI가 안내합니다</strong></p>\n<p style="margin:0;font-size:0.95em">체불 금액과 상황을 입력하면 최적의 회수 전략을 무료로 확인하세요.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
-        title: '임금채권 우선변제와 체당금 제도',
+        title: '임금채권 우선변제와 대지급금 제도',
         content:
-          '<p><strong style="color:#1e3a5f">임금채권은 다른 채권보다 우선 변제받을 수 있고, 사업주가 무자력이면 체당금 제도를 활용합니다.</strong></p>\n<ul>\n<li><strong>임금채권 우선변제</strong> — 근로기준법 제38조에 따라 최종 3개월분의 임금과 최종 3년분의 퇴직금은 질권·저당권보다 우선하여 변제됩니다.</li>\n<li><strong>체당금 제도</strong> — 사업주가 파산하거나 폐업한 경우, 근로복지공단에 체당금(최종 3개월 임금 + 최종 3년 퇴직금, 각 상한액 있음)을 신청할 수 있습니다.</li>\n<li><strong>간이대지급금</strong> — 소규모 사업장(상시 300인 미만)에서 임금이 체불되면 노동부 확인 후 간이대지급금을 먼저 받을 수 있습니다. 1인당 최대 1천만원입니다.</li>\n<li><strong>법률구조공단 무료소송</strong> — 대한법률구조공단에서 임금체불 사건에 대해 무료 소송 대리를 지원합니다. 사업주의 재산 파악부터 강제집행까지 도움받을 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 사업주가 재산을 빼돌린 정황이 있으면 사해행위취소 소송도 병행할 수 있습니다. 재산 처분 시점과 체불 시점을 비교하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금채권은 다른 채권보다 우선 변제받을 수 있고, 사업주가 무자력이면 대지급금 제도를 활용합니다.</strong></p>\n<ul>\n<li><strong>임금채권 우선변제</strong> — 근로기준법 제38조에 따라 최종 3개월분의 임금과 최종 3년분의 퇴직금은 질권·저당권보다 우선하여 변제됩니다.</li>\n<li><strong>대지급금 제도</strong> — 사업주가 파산하거나 폐업한 경우, 근로복지공단에 대지급금(최종 3개월 임금 + 최종 3년 퇴직금, 각 상한액 있음)을 신청할 수 있습니다.</li>\n<li><strong>간이대지급금</strong> — 소규모 사업장(상시 300인 미만)에서 임금이 체불되면 노동부 확인 후 간이대지급금을 먼저 받을 수 있습니다. 1인당 최대 1천만원입니다.</li>\n<li><strong>법률구조공단 무료소송</strong> — 대한법률구조공단에서 임금체불 사건에 대해 무료 소송 대리를 지원합니다. 사업주의 재산 파악부터 강제집행까지 도움받을 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: 사업주가 재산을 빼돌린 정황이 있으면 사해행위취소 소송도 병행할 수 있습니다. 재산 처분 시점과 체불 시점을 비교하세요.</blockquote>',
       },
     ],
     cases: [
@@ -146,9 +146,9 @@ export const spokesBatch32Misc: SpokePage[] = [
           '<p>임금을 체불하면서 제3자에게 재산을 넘긴 행위는 사해행위에 해당할 수 있습니다. 사해행위취소 소송을 통해 재산 처분을 무효화하고 원상회복을 청구할 수 있습니다. 재산 이전 시점과 체불 시점이 가까우면 인정 가능성이 높습니다.</p>',
       },
       {
-        question: '체당금과 간이대지급금의 차이는 무엇인가요?',
+        question: '대지급금과 간이대지급금의 차이는 무엇인가요?',
         answer:
-          '<p>체당금은 사업주가 파산·폐업한 경우에 신청하며, 간이대지급금은 사업주가 영업 중이어도 체불이 확인되면 신청 가능합니다. 간이대지급금은 1인당 최대 1천만원이며, 체당금보다 절차가 간소하고 빠릅니다.</p>',
+          '<p>대지급금은 사업주가 파산·폐업한 경우에 신청하며, 간이대지급금은 사업주가 영업 중이어도 체불이 확인되면 신청 가능합니다. 간이대지급금은 1인당 최대 1천만원이며, 대지급금보다 절차가 간소하고 빠릅니다.</p>',
       },
       {
         question: '법률구조공단 무료소송 지원을 받으려면 어떤 조건이 필요한가요?',

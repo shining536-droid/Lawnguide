@@ -299,7 +299,7 @@ export const spokesBatch106Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>주휴수당 청구권</strong> — 개근한 경우 주휴수당을 청구할 수 있는지.</li>\n<li><strong>포괄임금계약 효력</strong> — 최저임금에 미달하는 포괄임금계약이 유효한지.</li>\n<li><strong>비교대상 시급 산정</strong> — 비교대상 임금을 소정근로시간 수로 나눠 산정했는지.</li>\n<li><strong>최저임금 미달</strong> — 비교대상 시급이 최저임금에 미달하는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>주휴수당 청구권</strong> — 개근한 경우 주휴수당을 청구할 수 있는지.</li>\n<li><strong>포괄임금계약 효력</strong> — 최저임금에 미달하는 포괄임금계약이 유효한지.</li>\n<li><strong>비교대상 시급 산정</strong> — 비교대상 임금을 소정근로시간 수로 나눠 산정했는지.</li>\n<li><strong>최저임금 미달</strong> — 비교대상 시급이 최저임금에 미달하는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch106Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>근로자성</strong> — 임금을 목적으로 종속적 관계에서 근로를 제공한 근로자인지.</li>\n<li><strong>통상임금 산입</strong> — 식대·복리후생비가 통상임금에 산입되는지.</li>\n<li><strong>연차수당 기초</strong> — 산정 기준이 없으면 통상임금을 기초로 산정하는지.</li>\n<li><strong>차액 산정</strong> — 식대를 포함한 통상임금으로 연차수당 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>근로자성</strong> — 임금을 목적으로 종속적 관계에서 근로를 제공한 근로자인지.</li>\n<li><strong>통상임금 산입</strong> — 식대·복리후생비가 통상임금에 산입되는지.</li>\n<li><strong>연차수당 기초</strong> — 산정 기준이 없으면 통상임금을 기초로 산정하는지.</li>\n<li><strong>차액 산정</strong> — 식대를 포함한 통상임금으로 연차수당 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [

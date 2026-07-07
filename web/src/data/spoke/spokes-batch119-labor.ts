@@ -382,7 +382,7 @@ export const spokesBatch119Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>실질 근로자성</strong> — 위탁·도급 형식이라도 실질이 근로자인지.</li>\n<li><strong>종속관계</strong> — 업무·시간·장소 지정과 지휘·감독이 있었는지.</li>\n<li><strong>보수의 대가성</strong> — 작업량 성과급이 근로의 대가인지.</li>\n<li><strong>미지급 산정</strong> — 연장·야간·휴일 가산수당 미지급이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>실질 근로자성</strong> — 위탁·도급 형식이라도 실질이 근로자인지.</li>\n<li><strong>종속관계</strong> — 업무·시간·장소 지정과 지휘·감독이 있었는지.</li>\n<li><strong>보수의 대가성</strong> — 작업량 성과급이 근로의 대가인지.</li>\n<li><strong>미지급 산정</strong> — 연장·야간·휴일 가산수당 미지급이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [

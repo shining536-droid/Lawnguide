@@ -737,7 +737,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '4단계 직접 청구 절차',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직일로부터 14일 이내 지급이 원칙, 지연 시 지연이자 20%까지.</strong></p>\n<ol>\n<li><strong>1단계 — 근속·임금 계산</strong> — 입사일·퇴직일·퇴직 전 3개월 임금으로 평균임금 산정.</li>\n<li><strong>2단계 — 내용증명 청구</strong> — 산정 근거 첨부, 14일 이내 지급 요구.</li>\n<li><strong>3단계 — 고용노동부 진정</strong> — 미지급 시 관할 노동청에 임금체불 진정.</li>\n<li><strong>4단계 — 체당금 신청 또는 소송</strong> — 사업주 도산·폐업 시 체당금, 아니면 민사 소액소송.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 5인 미만 사업장 퇴직금 청구 가능 금액을 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">퇴직일로부터 14일 이내 지급이 원칙, 지연 시 지연이자 20%까지.</strong></p>\n<ol>\n<li><strong>1단계 — 근속·임금 계산</strong> — 입사일·퇴직일·퇴직 전 3개월 임금으로 평균임금 산정.</li>\n<li><strong>2단계 — 내용증명 청구</strong> — 산정 근거 첨부, 14일 이내 지급 요구.</li>\n<li><strong>3단계 — 고용노동부 진정</strong> — 미지급 시 관할 노동청에 임금체불 진정.</li>\n<li><strong>4단계 — 대지급금 신청 또는 소송</strong> — 사업주 도산·폐업 시 대지급금, 아니면 민사 소액소송.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 5인 미만 사업장 퇴직금 청구 가능 금액을 분석해드립니다.</p>\n<a href="/chat?domain=retirement" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '사업주 주장 반박 — 자주 나오는 3가지',
@@ -745,9 +745,9 @@ export const spokesBatch43Labor: SpokePage[] = [
           '<p><strong style="color:#1e3a5f">"돈이 없다"는 말은 법적 면책 사유가 아닙니다.</strong></p>\n<ul>\n<li><strong>"5인 미만 적용 제외"</strong> — 퇴직급여법은 상시 근로자 수 무관, 전 사업장 적용.</li>\n<li><strong>"퇴직금 포함 월급"</strong> — 분할 지급 약정은 무효, 별도로 청구 가능.</li>\n<li><strong>"중도 퇴사라 미지급"</strong> — 1년 이상이면 해고·자진 퇴사 불문 지급 의무.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: "돈 없다"는 사용자 녹취·문자도 향후 형사 고발 단계에서 체불 고의 입증 자료.</blockquote>',
       },
       {
-        title: '체당금 — 사업주 무자력이어도 받는 법',
+        title: '대지급금 — 사업주 무자력이어도 받는 법',
         content:
-          '<p><strong style="color:#1e3a5f">사업주가 폐업·도산해도 국가가 체불 임금·퇴직금을 대신 지급합니다.</strong></p>\n<ul>\n<li><strong>간이대지급금</strong> — 퇴직 후 2년 이내, 3개월 임금+3년 퇴직금 합산 최대 1천만원.</li>\n<li><strong>일반대지급금</strong> — 도산 인정 사업장, 최대 체불액 기준 지급.</li>\n<li><strong>신청 서류</strong> — 체불 확인서, 임금명세서, 퇴직일 증빙.</li>\n<li><strong>처리 기간</strong> — 신청 후 약 14일.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 체당금 받은 후에도 사용자에게 구상권 청구가 가능하니 포기하지 마세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업주가 폐업·도산해도 국가가 체불 임금·퇴직금을 대신 지급합니다.</strong></p>\n<ul>\n<li><strong>간이대지급금</strong> — 퇴직 후 2년 이내, 3개월 임금+3년 퇴직금 합산 최대 1천만원.</li>\n<li><strong>일반대지급금</strong> — 도산 인정 사업장, 최대 체불액 기준 지급.</li>\n<li><strong>신청 서류</strong> — 체불 확인서, 임금명세서, 퇴직일 증빙.</li>\n<li><strong>처리 기간</strong> — 신청 후 약 14일.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 대지급금 받은 후에도 사용자에게 구상권 청구가 가능하니 포기하지 마세요.</blockquote>',
       },
     ],
     cases: [
@@ -998,17 +998,17 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '2주 4단계 신청 절차',
         content:
-          '<p><strong style="color:#1e3a5f">폐업 인지일 기준 14일 이내 수급자격 신청이 이상적입니다.</strong></p>\n<ol>\n<li><strong>1단계 — 워크넷 구직 등록</strong> — www.work.go.kr 구직등록 완료(수급 기본 요건).</li>\n<li><strong>2단계 — 온라인 교육 수강</strong> — 고용보험 홈페이지 수급자격 신청자 교육.</li>\n<li><strong>3단계 — 고용센터 방문</strong> — 관할 고용센터에 폐업 증빙·신분증 지참.</li>\n<li><strong>4단계 — 이직확인서 대체 신청</strong> — 사업주 제출 불가 시 근로자 대체 신청서 작성.</li>\n<li><strong>5단계 — 체불 임금 체당금 병행</strong> — 퇴직금·임금 체불 시 동시 신청.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 폐업 상황에서의 수급·체당금 절차를 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">폐업 인지일 기준 14일 이내 수급자격 신청이 이상적입니다.</strong></p>\n<ol>\n<li><strong>1단계 — 워크넷 구직 등록</strong> — www.work.go.kr 구직등록 완료(수급 기본 요건).</li>\n<li><strong>2단계 — 온라인 교육 수강</strong> — 고용보험 홈페이지 수급자격 신청자 교육.</li>\n<li><strong>3단계 — 고용센터 방문</strong> — 관할 고용센터에 폐업 증빙·신분증 지참.</li>\n<li><strong>4단계 — 이직확인서 대체 신청</strong> — 사업주 제출 불가 시 근로자 대체 신청서 작성.</li>\n<li><strong>5단계 — 체불 임금 대지급금 병행</strong> — 퇴직금·임금 체불 시 동시 신청.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 폐업 상황에서의 수급·대지급금 절차를 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
-        title: '체당금 — 임금·퇴직금 못 받을 때',
+        title: '대지급금 — 임금·퇴직금 못 받을 때',
         content:
-          '<p><strong style="color:#1e3a5f">사업주 무자력 시 국가가 대신 지급, 폐업과 함께 신청해야 빠릅니다.</strong></p>\n<ul>\n<li><strong>간이대지급금</strong> — 퇴직 후 2년 이내, 최대 1,000만원(3개월 임금+3년 퇴직금).</li>\n<li><strong>일반대지급금</strong> — 법원 도산 결정 사업장 전용, 상한 초과 회수 가능.</li>\n<li><strong>필요 서류</strong> — 체불 확인서(근로감독관 발급), 임금명세서, 근로계약서.</li>\n<li><strong>처리 기간</strong> — 신청 후 약 14일.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 실업급여 신청과 체당금 신청은 같은 고용센터에서 동시 진행 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업주 무자력 시 국가가 대신 지급, 폐업과 함께 신청해야 빠릅니다.</strong></p>\n<ul>\n<li><strong>간이대지급금</strong> — 퇴직 후 2년 이내, 최대 1,000만원(3개월 임금+3년 퇴직금).</li>\n<li><strong>일반대지급금</strong> — 법원 도산 결정 사업장 전용, 상한 초과 회수 가능.</li>\n<li><strong>필요 서류</strong> — 체불 확인서(근로감독관 발급), 임금명세서, 근로계약서.</li>\n<li><strong>처리 기간</strong> — 신청 후 약 14일.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 실업급여 신청과 대지급금 신청은 같은 고용센터에서 동시 진행 가능합니다.</blockquote>',
       },
       {
         title: '주의사항 — 놓치기 쉬운 포인트',
         content:
-          '<p><strong style="color:#1e3a5f">폐업은 자동이 아니라 증빙 제출이 필요합니다.</strong></p>\n<ul>\n<li><strong>사업주 잠적</strong> — 근로감독관 신고로 체불 확인서 발급, 이직확인 대체.</li>\n<li><strong>4대보험 미가입</strong> — 소급 가입 요청으로 피보험단위기간 인정 가능.</li>\n<li><strong>폐업 전 임금 일부 수령</strong> — 수령한 부분은 체당금에서 차감.</li>\n<li><strong>12개월 시효</strong> — 폐업 후 12개월 지나면 실업급여 청구권 소멸.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 사업주와 연락이 닿아도 "자진 퇴사"로 기재 유도에 응하지 말고 가능한 한 "폐업"으로 주장하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">폐업은 자동이 아니라 증빙 제출이 필요합니다.</strong></p>\n<ul>\n<li><strong>사업주 잠적</strong> — 근로감독관 신고로 체불 확인서 발급, 이직확인 대체.</li>\n<li><strong>4대보험 미가입</strong> — 소급 가입 요청으로 피보험단위기간 인정 가능.</li>\n<li><strong>폐업 전 임금 일부 수령</strong> — 수령한 부분은 대지급금에서 차감.</li>\n<li><strong>12개월 시효</strong> — 폐업 후 12개월 지나면 실업급여 청구권 소멸.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 사업주와 연락이 닿아도 "자진 퇴사"로 기재 유도에 응하지 말고 가능한 한 "폐업"으로 주장하세요.</blockquote>',
       },
     ],
     cases: [
@@ -1034,7 +1034,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         question: '폐업 전 수개월 임금 체불됐는데 실업급여와 별도로 청구되나요?',
         answer:
-          '<strong>체당금 제도로 별도 지급받을 수 있습니다.</strong> 실업급여와 병행 가능, 같은 고용센터 신청.',
+          '<strong>대지급금 제도로 별도 지급받을 수 있습니다.</strong> 실업급여와 병행 가능, 같은 고용센터 신청.',
       },
       {
         question: '4대보험 미가입 상태에서 폐업했으면 실업급여 못 받나요?',

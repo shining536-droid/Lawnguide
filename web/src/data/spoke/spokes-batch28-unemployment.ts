@@ -20,8 +20,8 @@ import { SpokePage } from '../spoke-pages';
 //    [체류자격별 수급 가능 여부와 신청 절차]를 돕는 페이지다.
 //
 // 5. unemployment-company-bankrupt-double-claim
-//    이 페이지는 [회사 부도로 임금과 퇴직금을 못 받은 근로자]의 [실업급여와 체당금을 동시에 받을 수 있는지 모르는 상황]에서
-//    [실업급여·체당금 동시 청구 가능 여부와 절차]를 돕는 페이지다.
+//    이 페이지는 [회사 부도로 임금과 퇴직금을 못 받은 근로자]의 [실업급여와 대지급금을 동시에 받을 수 있는지 모르는 상황]에서
+//    [실업급여·대지급금 동시 청구 가능 여부와 절차]를 돕는 페이지다.
 //
 // 6. unemployment-repeat-claim-limit
 //    이 페이지는 [실업급여를 여러 번 받은 근로자]의 [반복수급 제한에 걸릴까 걱정되는 상황]에서
@@ -370,43 +370,43 @@ export const spokesBatch28Unemployment: SpokePage[] = [
     ],
   },
 
-  // ── 5. 회사 부도 실업급여 체당금 동시 청구 ──
+  // ── 5. 회사 부도 실업급여 대지급금 동시 청구 ──
   {
     domain: 'unemployment',
     slug: 'unemployment-company-bankrupt-double-claim',
-    keyword: '회사 부도 실업급여 체당금 동시 청구',
-    questionKeyword: '회사가 부도나면 실업급여와 체당금을 동시에 받을 수 있나요?',
-    ctaKeyword: '회사 부도 실업급여 체당금 상담',
+    keyword: '회사 부도 실업급여 대지급금 동시 청구',
+    questionKeyword: '회사가 부도나면 실업급여와 대지급금을 동시에 받을 수 있나요?',
+    ctaKeyword: '회사 부도 실업급여 대지급금 상담',
     type: '비교분석형',
     perspective: 'victim',
     meta: {
-      title: '회사 부도 시 실업급여·체당금 동시 청구 3단계 | 로앤가이드',
+      title: '회사 부도 시 실업급여·대지급금 동시 청구 3단계 | 로앤가이드',
       description:
-        '회사가 부도났는데 밀린 임금도 못 받고 실업급여도 신청해야 한다면, 실업급여와 체당금 동시 청구 방법을 지금 확인하세요.',
+        '회사가 부도났는데 밀린 임금도 못 받고 실업급여도 신청해야 한다면, 실업급여와 대지급금 동시 청구 방법을 지금 확인하세요.',
     },
     intro:
-      '<p>다니던 회사가 갑자기 부도가 났습니다. 3개월 치 임금과 퇴직금을 받지 못했는데, 당장 생활비도 막막합니다. 실업급여도 신청해야 하고 밀린 임금도 받아야 하는데 어디서부터 시작해야 할지 모르겠습니다. 다행히 실업급여와 체당금(체불 임금 대지급금)은 별도의 제도이므로 동시에 청구할 수 있습니다.</p>',
+      '<p>다니던 회사가 갑자기 부도가 났습니다. 3개월 치 임금과 퇴직금을 받지 못했는데, 당장 생활비도 막막합니다. 실업급여도 신청해야 하고 밀린 임금도 받아야 하는데 어디서부터 시작해야 할지 모르겠습니다. 다행히 실업급여와 대지급금(체불 임금 대지급금)은 별도의 제도이므로 동시에 청구할 수 있습니다.</p>',
     timelineSteps: [
       '1단계: 사업장 도산 확인(법원 또는 노동청)',
       '2단계: 고용센터에 실업급여 신청',
-      '3단계: 근로복지공단에 체당금 신청',
+      '3단계: 근로복지공단에 대지급금 신청',
       '4단계: 동시 수령 및 이후 재취업 활동',
     ],
     sections: [
       {
-        title: '실업급여와 체당금은 별개의 제도',
+        title: '실업급여와 대지급금은 별개의 제도',
         content:
-          '<p><strong style="color:#1e3a5f">실업급여는 고용보험기금에서, 체당금은 임금채권보장기금에서 지급되므로 동시 수급이 가능합니다.</strong></p>\n<p>실업급여는 실직 후 구직활동 기간 동안의 생활 안정을 위한 급여이고, 체당금은 사업주가 지급하지 못한 임금·퇴직금을 국가가 대신 지급하는 제도입니다. 두 제도는 법적 근거와 재원이 다르므로 중복 수급에 해당하지 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 실업급여와 체당금은 동시에 받을 수 있습니다. 두 개를 따로 신청해야 하니 각각의 절차를 확인하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">실업급여는 고용보험기금에서, 대지급금은 임금채권보장기금에서 지급되므로 동시 수급이 가능합니다.</strong></p>\n<p>실업급여는 실직 후 구직활동 기간 동안의 생활 안정을 위한 급여이고, 대지급금은 사업주가 지급하지 못한 임금·퇴직금을 국가가 대신 지급하는 제도입니다. 두 제도는 법적 근거와 재원이 다르므로 중복 수급에 해당하지 않습니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 실업급여와 대지급금은 동시에 받을 수 있습니다. 두 개를 따로 신청해야 하니 각각의 절차를 확인하세요.</blockquote>',
       },
       {
-        title: '체당금 신청 절차와 조건',
+        title: '대지급금 신청 절차와 조건',
         content:
-          '<p><strong style="color:#1e3a5f">체당금은 일반 체당금과 소액 체당금 두 종류가 있습니다.</strong></p>\n<ul>\n<li><strong>일반 체당금</strong> — 사업주의 도산(파산·회생·폐업 인정) 시 최종 3개월 임금, 최종 3년 퇴직금, 최종 3개월 휴업수당을 대지급합니다. 근로복지공단에 도산등사실인정을 신청한 후 체당금을 청구합니다.</li>\n<li><strong>소액 체당금</strong> — 도산 여부와 관계없이 임금 등을 지급받지 못한 근로자가 법원의 확정판결 등을 받아 신청합니다. 다만 지급 상한액이 일반 체당금보다 낮습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>회사 부도 후 받을 수 있는 금액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">밀린 임금, 퇴직금, 근무기간을 입력하면 실업급여와 체당금 총액을 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">대지급금은 일반 대지급금과 소액 대지급금 두 종류가 있습니다.</strong></p>\n<ul>\n<li><strong>일반 대지급금</strong> — 사업주의 도산(파산·회생·폐업 인정) 시 최종 3개월 임금, 최종 3년 퇴직금, 최종 3개월 휴업수당을 대지급합니다. 근로복지공단에 도산등사실인정을 신청한 후 대지급금을 청구합니다.</li>\n<li><strong>소액 대지급금</strong> — 도산 여부와 관계없이 임금 등을 지급받지 못한 근로자가 법원의 확정판결 등을 받아 신청합니다. 다만 지급 상한액이 일반 대지급금보다 낮습니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>회사 부도 후 받을 수 있는 금액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">밀린 임금, 퇴직금, 근무기간을 입력하면 실업급여와 대지급금 총액을 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '동시 청구 시 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">실업급여와 체당금을 동시에 청구할 때 알아야 할 3가지를 확인하세요.</strong></p>\n<ul>\n<li><strong>이직확인서 발급 문제</strong> — 회사가 부도나면 이직확인서를 발급받기 어려울 수 있습니다. 이 경우 고용센터에 사정을 설명하고 직권으로 수급자격 인정을 요청하세요.</li>\n<li><strong>부당해고 구제신청과의 관계</strong> — 부도가 아닌 해고의 경우, 부당해고 구제신청 후 원직복직되면 이미 받은 구직급여를 반환해야 할 수 있습니다.</li>\n<li><strong>체당금 상한액</strong> — 체당금에는 나이별 상한액이 있습니다. 30세 미만은 월 220만원, 30~40세는 월 310만원, 40세 이상은 월 350만원이 상한입니다(2026년 기준).</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">실업급여와 대지급금을 동시에 청구할 때 알아야 할 3가지를 확인하세요.</strong></p>\n<ul>\n<li><strong>이직확인서 발급 문제</strong> — 회사가 부도나면 이직확인서를 발급받기 어려울 수 있습니다. 이 경우 고용센터에 사정을 설명하고 직권으로 수급자격 인정을 요청하세요.</li>\n<li><strong>부당해고 구제신청과의 관계</strong> — 부도가 아닌 해고의 경우, 부당해고 구제신청 후 원직복직되면 이미 받은 구직급여를 반환해야 할 수 있습니다.</li>\n<li><strong>대지급금 상한액</strong> — 대지급금에는 나이별 상한액이 있습니다. 30세 미만은 월 220만원, 30~40세는 월 310만원, 40세 이상은 월 350만원이 상한입니다(2026년 기준).</li>\n</ul>',
       },
     ],
     cases: [
@@ -425,14 +425,14 @@ export const spokesBatch28Unemployment: SpokePage[] = [
           '<p>고용센터에 방문하여 사업주가 이직확인서를 발급할 수 없는 사정을 설명하면, 고용센터 직권으로 수급자격을 인정받을 수 있습니다. 근로계약서, 급여통장 등 근로 사실을 증빙할 서류를 준비하세요.</p>',
       },
       {
-        question: '체당금 신청 기한이 있나요?',
+        question: '대지급금 신청 기한이 있나요?',
         answer:
-          '<p>일반 체당금은 도산등사실인정일로부터 2년 이내에 청구해야 합니다. 소액 체당금은 판결 확정일부터 1년 이내입니다. 기한을 넘기면 청구할 수 없으므로 빨리 신청하세요.</p>',
+          '<p>일반 대지급금은 도산등사실인정일로부터 2년 이내에 청구해야 합니다. 소액 대지급금은 판결 확정일부터 1년 이내입니다. 기한을 넘기면 청구할 수 없으므로 빨리 신청하세요.</p>',
       },
       {
-        question: '실업급여를 먼저 받고 체당금을 나중에 신청해도 되나요?',
+        question: '실업급여를 먼저 받고 대지급금을 나중에 신청해도 되나요?',
         answer:
-          '<p>네, 순서에 관계없이 각각 신청할 수 있습니다. 다만 체당금 신청에도 기한이 있으므로 가능하면 동시에 진행하는 것이 좋습니다.</p>',
+          '<p>네, 순서에 관계없이 각각 신청할 수 있습니다. 다만 대지급금 신청에도 기한이 있으므로 가능하면 동시에 진행하는 것이 좋습니다.</p>',
       },
       {
         question: '회사 부도로 고용보험료가 체납된 상태인데 실업급여를 받을 수 있나요?',

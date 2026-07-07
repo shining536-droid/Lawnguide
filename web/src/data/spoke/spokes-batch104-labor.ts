@@ -299,7 +299,7 @@ export const spokesBatch104Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>가산수당 청구권</strong> — 야간·휴일·연장 가산수당을 청구할 수 있는지.</li>\n<li><strong>임금성</strong> — 근무일마다 지급된 금품이 임금인지.</li>\n<li><strong>통상임금 범위</strong> — 실비변상·복리후생 명목이 통상임금에 들어가는지.</li>\n<li><strong>차액 산정</strong> — 통상임금을 다시 정해 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>가산수당 청구권</strong> — 야간·휴일·연장 가산수당을 청구할 수 있는지.</li>\n<li><strong>임금성</strong> — 근무일마다 지급된 금품이 임금인지.</li>\n<li><strong>통상임금 범위</strong> — 실비변상·복리후생 명목이 통상임금에 들어가는지.</li>\n<li><strong>차액 산정</strong> — 통상임금을 다시 정해 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch104Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>최저임금 미달</strong> — 포괄임금·고정급이 최저임금에 미달하는지.</li>\n<li><strong>소정근로시간 합의 효력</strong> — 합의가 형식에 불과하거나 강행법규를 잠탈했는지.</li>\n<li><strong>탈법행위 판단</strong> — 회피 목적과 실제 근로시간 불일치가 있는지.</li>\n<li><strong>미달액 산정</strong> — 유효한 소정근로시간으로 미달액이 산정되는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (최저임금 미달 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>최저임금 미달</strong> — 포괄임금·고정급이 최저임금에 미달하는지.</li>\n<li><strong>소정근로시간 합의 효력</strong> — 합의가 형식에 불과하거나 강행법규를 잠탈했는지.</li>\n<li><strong>탈법행위 판단</strong> — 회피 목적과 실제 근로시간 불일치가 있는지.</li>\n<li><strong>미달액 산정</strong> — 유효한 소정근로시간으로 미달액이 산정되는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (최저임금 미달 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -631,7 +631,7 @@ export const spokesBatch104Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>사직 의사</strong> — 회사 방침에 따른 사직서가 진정한 사직 의사인지.</li>\n<li><strong>계속근로 통산</strong> — 형식적 사직·재입사면 그 사이 기간이 통산되는지.</li>\n<li><strong>중간정산 효력</strong> — 중간정산 합의가 자유로운 의사에 따른 것인지.</li>\n<li><strong>퇴직금 재산정</strong> — 통산 기간을 기초로 퇴직금을 다시 산정하는지.</li>\n<li><strong>퇴직금 시효</strong> — 최종 퇴직 시점 기산 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (퇴직연금·체당금 상담)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (퇴직금 체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>사직 의사</strong> — 회사 방침에 따른 사직서가 진정한 사직 의사인지.</li>\n<li><strong>계속근로 통산</strong> — 형식적 사직·재입사면 그 사이 기간이 통산되는지.</li>\n<li><strong>중간정산 효력</strong> — 중간정산 합의가 자유로운 의사에 따른 것인지.</li>\n<li><strong>퇴직금 재산정</strong> — 통산 기간을 기초로 퇴직금을 다시 산정하는지.</li>\n<li><strong>퇴직금 시효</strong> — 최종 퇴직 시점 기산 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (퇴직연금·대지급금 상담)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (퇴직금 체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -714,7 +714,7 @@ export const spokesBatch104Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>시용기간 성격</strong> — 수습기간이 현실적으로 근로를 제공한 시용인지.</li>\n<li><strong>계속근로 기산점</strong> — 공백 없는 시용기간이 계속근로로 통산되는지.</li>\n<li><strong>분할 약정 효력</strong> — 월지급 분할 약정이 실질적으로 유효한지.</li>\n<li><strong>퇴직금 재산정</strong> — 통산 기간을 기초로 퇴직금을 다시 산정하는지.</li>\n<li><strong>퇴직금 시효</strong> — 퇴직금 채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (퇴직연금·체당금 상담)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (퇴직금 체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>시용기간 성격</strong> — 수습기간이 현실적으로 근로를 제공한 시용인지.</li>\n<li><strong>계속근로 기산점</strong> — 공백 없는 시용기간이 계속근로로 통산되는지.</li>\n<li><strong>분할 약정 효력</strong> — 월지급 분할 약정이 실질적으로 유효한지.</li>\n<li><strong>퇴직금 재산정</strong> — 통산 기간을 기초로 퇴직금을 다시 산정하는지.</li>\n<li><strong>퇴직금 시효</strong> — 퇴직금 채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (퇴직연금·대지급금 상담)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (퇴직금 체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [

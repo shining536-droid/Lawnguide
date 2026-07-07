@@ -404,7 +404,7 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
     internalLinks: [
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '이직확인서 분쟁', href: '/guide/unemployment/unemployment-separation-confirmation-dispute' },
-      { label: '회사 부도 체당금', href: '/guide/unemployment/unemployment-company-bankrupt-double-claim' },
+      { label: '회사 부도 대지급금', href: '/guide/unemployment/unemployment-company-bankrupt-double-claim' },
       { label: '고용센터 첫 방문', href: '/guide/unemployment/first-application-employment-center-checklist' },
       { label: '실업급여 전체 절차', href: '/guide/unemployment/unemployment-benefit-requirements' },
     ],

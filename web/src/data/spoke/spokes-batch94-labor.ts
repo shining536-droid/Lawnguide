@@ -618,7 +618,7 @@ export const spokesBatch94Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>분할약정 효력</strong> — 퇴직금 명목 금액 특정·불리 여부로 실질적 약정인지.</li>\n<li><strong>면탈 형식</strong> — 퇴직금 지급 면탈을 위해 형식만 취한 약정인지.</li>\n<li><strong>부담금 차액</strong> — 부담금이 12분의 1에 미달해 차액·지연이자를 청구할 수 있는지.</li>\n<li><strong>재산정 한계</strong> — 확정기여형에서 평균임금 재산정 추가 청구가 가능한지.</li>\n<li><strong>청구 시효</strong> — 퇴직금 청구 시효 3년 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>고용노동부 1350 (임금체불 진정)</strong></li>\n<li><strong>근로복지공단 (퇴직연금·체당금 안내)</strong></li>\n<li><strong>한국공인노무사회 02-3673-2266</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>분할약정 효력</strong> — 퇴직금 명목 금액 특정·불리 여부로 실질적 약정인지.</li>\n<li><strong>면탈 형식</strong> — 퇴직금 지급 면탈을 위해 형식만 취한 약정인지.</li>\n<li><strong>부담금 차액</strong> — 부담금이 12분의 1에 미달해 차액·지연이자를 청구할 수 있는지.</li>\n<li><strong>재산정 한계</strong> — 확정기여형에서 평균임금 재산정 추가 청구가 가능한지.</li>\n<li><strong>청구 시효</strong> — 퇴직금 청구 시효 3년 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>고용노동부 1350 (임금체불 진정)</strong></li>\n<li><strong>근로복지공단 (퇴직연금·대지급금 안내)</strong></li>\n<li><strong>한국공인노무사회 02-3673-2266</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -700,7 +700,7 @@ export const spokesBatch94Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>파산재단 범위</strong> — 상속재산이 파산재단을 이루는 방식.</li>\n<li><strong>규정 적용</strong> — 개인 파산의 제383조 제1항이 상속재산파산에 적용되는지.</li>\n<li><strong>압류금지 취지</strong> — 최소 생계 보장 압류금지 취지가 참작되는지.</li>\n<li><strong>채권 보호 범위</strong> — 퇴직급여 채권 중 보호되는 부분이 있는지.</li>\n<li><strong>절차 기한</strong> — 채권신고·이의 기간 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>고용노동부 1350 (임금체불 진정)</strong></li>\n<li><strong>근로복지공단 (퇴직연금·체당금 안내)</strong></li>\n<li><strong>한국공인노무사회 02-3673-2266</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>파산재단 범위</strong> — 상속재산이 파산재단을 이루는 방식.</li>\n<li><strong>규정 적용</strong> — 개인 파산의 제383조 제1항이 상속재산파산에 적용되는지.</li>\n<li><strong>압류금지 취지</strong> — 최소 생계 보장 압류금지 취지가 참작되는지.</li>\n<li><strong>채권 보호 범위</strong> — 퇴직급여 채권 중 보호되는 부분이 있는지.</li>\n<li><strong>절차 기한</strong> — 채권신고·이의 기간 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>고용노동부 1350 (임금체불 진정)</strong></li>\n<li><strong>근로복지공단 (퇴직연금·대지급금 안내)</strong></li>\n<li><strong>한국공인노무사회 02-3673-2266</strong></li>\n</ul>',
       },
     ],
     cases: [

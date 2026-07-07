@@ -299,7 +299,7 @@ export const spokesBatch108Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>휴일근로 입증</strong> — 휴일에 실제로 근로를 제공했는지.</li>\n<li><strong>통상임금성 판단</strong> — 정기상여 등이 정기·일률·고정으로 통상임금에 속하는지.</li>\n<li><strong>노사합의 효력</strong> — 통상임금 제외 노사합의가 무효인지.</li>\n<li><strong>차액 산정</strong> — 다시 산정한 통상임금으로 가산수당 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>휴일근로 입증</strong> — 휴일에 실제로 근로를 제공했는지.</li>\n<li><strong>통상임금성 판단</strong> — 정기상여 등이 정기·일률·고정으로 통상임금에 속하는지.</li>\n<li><strong>노사합의 효력</strong> — 통상임금 제외 노사합의가 무효인지.</li>\n<li><strong>차액 산정</strong> — 다시 산정한 통상임금으로 가산수당 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -382,7 +382,7 @@ export const spokesBatch108Labor: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>약정 효력</strong> — 근로시간 산정이 어렵지 않은데도 한 포괄임금 약정이 정당한지.</li>\n<li><strong>실근로시간 산정</strong> — 실제 연장·야간·휴일 근로시간 기준으로 산정하는지.</li>\n<li><strong>임금 범위</strong> — 평균임금·통상임금에 포함될 항목을 빼고 계산했는지.</li>\n<li><strong>차액 산정</strong> — 약정 수당과 법정수당의 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (체당금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>약정 효력</strong> — 근로시간 산정이 어렵지 않은데도 한 포괄임금 약정이 정당한지.</li>\n<li><strong>실근로시간 산정</strong> — 실제 연장·야간·휴일 근로시간 기준으로 산정하는지.</li>\n<li><strong>임금 범위</strong> — 평균임금·통상임금에 포함될 항목을 빼고 계산했는지.</li>\n<li><strong>차액 산정</strong> — 약정 수당과 법정수당의 차액이 있는지.</li>\n<li><strong>임금채권 시효</strong> — 임금채권 3년 시효 도과 위험.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>근로복지공단 (대지급금·임금채권보장)</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n<li><strong>관할 고용노동지청 (임금체불 진정)</strong></li>\n</ul>',
       },
     ],
     cases: [

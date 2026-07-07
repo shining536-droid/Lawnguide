@@ -343,7 +343,7 @@ export const spokesBatch92Labor: SpokePage[] = [
       { label: '연차수당 못 받았을 때 대응 방법', href: '/guide/wage/annual-leave-pay-unpaid-response' },
       { label: '하도급 원청 책임 다툼', href: '/guide/wage/wage-subcontract-original-liability' },
       { label: '실질 근로자 임금 청구', href: '/guide/wage/wage-freelancer-worker-status-claim' },
-      { label: '체당금 임금채권보장기금 신청', href: '/guide/wage/unpaid-wage-guarantee-fund-application' },
+      { label: '대지급금 임금채권보장기금 신청', href: '/guide/wage/unpaid-wage-guarantee-fund-application' },
     ],
   },
 

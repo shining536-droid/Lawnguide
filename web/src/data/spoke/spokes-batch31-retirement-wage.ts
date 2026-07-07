@@ -306,7 +306,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         question: '파견업체가 폐업하면 퇴직금을 못 받나요?',
         answer:
-          '<p>파견업체가 폐업하더라도 체당금(임금채권보장기금)을 통해 미지급 퇴직금을 받을 수 있습니다. 또한 불법파견이나 2년 초과 파견이면 사용업체에 직접 청구할 수 있습니다.</p>',
+          '<p>파견업체가 폐업하더라도 대지급금(임금채권보장기금)을 통해 미지급 퇴직금을 받을 수 있습니다. 또한 불법파견이나 2년 초과 파견이면 사용업체에 직접 청구할 수 있습니다.</p>',
       },
       {
         question: '파견기간 중간에 1개월 공백이 있으면 기간이 끊기나요?',
@@ -728,7 +728,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         title: '소액 임금체불 회수를 위한 4가지 방법',
         content:
-          '<p><strong style="color:#1e3a5f">금액이 작을수록 비용이 적게 드는 방법을 선택하세요.</strong></p>\n<ul>\n<li><strong>1. 고용노동부 진정</strong> — 무료입니다. 관할 노동지청에 진정을 제기하면 근로감독관이 사업주를 출석시켜 조사합니다. 대부분의 소액 체불은 이 단계에서 해결됩니다.</li>\n<li><strong>2. 지급명령 신청</strong> — 인지대 수천원만 드는 간편한 법원 절차입니다. 사업주가 이의를 제기하지 않으면 확정판결과 같은 효력이 생깁니다.</li>\n<li><strong>3. 소액사건 심판</strong> — 청구금액 3,000만원 이하의 소액사건은 1회 변론으로 즉시 판결할 수 있습니다. 변호사 없이 본인이 직접 진행 가능합니다.</li>\n<li><strong>4. 간이 체당금</strong> — 사업주가 폐업하거나 지급능력이 없으면 최대 1,000만원까지 국가가 대신 지급합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 소액이라고 포기하지 마세요. 노동부 진정은 무료이고, 지급명령은 인지대 수천원이면 됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">금액이 작을수록 비용이 적게 드는 방법을 선택하세요.</strong></p>\n<ul>\n<li><strong>1. 고용노동부 진정</strong> — 무료입니다. 관할 노동지청에 진정을 제기하면 근로감독관이 사업주를 출석시켜 조사합니다. 대부분의 소액 체불은 이 단계에서 해결됩니다.</li>\n<li><strong>2. 지급명령 신청</strong> — 인지대 수천원만 드는 간편한 법원 절차입니다. 사업주가 이의를 제기하지 않으면 확정판결과 같은 효력이 생깁니다.</li>\n<li><strong>3. 소액사건 심판</strong> — 청구금액 3,000만원 이하의 소액사건은 1회 변론으로 즉시 판결할 수 있습니다. 변호사 없이 본인이 직접 진행 가능합니다.</li>\n<li><strong>4. 간이 대지급금</strong> — 사업주가 폐업하거나 지급능력이 없으면 최대 1,000만원까지 국가가 대신 지급합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 소액이라고 포기하지 마세요. 노동부 진정은 무료이고, 지급명령은 인지대 수천원이면 됩니다.</blockquote>',
       },
       {
         title: '지급명령과 소액사건의 비교',
@@ -759,7 +759,7 @@ export const spokesBatch31RetirementWage: SpokePage[] = [
       {
         question: '사업주에게 재산이 없으면 어떻게 하나요?',
         answer:
-          '<p>사업주에게 재산이 없으면 체당금(간이 체당금)을 신청하세요. 노동부 체불 확인 후 근로복지공단에서 최대 1,000만원까지 대신 지급합니다.</p>',
+          '<p>사업주에게 재산이 없으면 대지급금(간이 대지급금)을 신청하세요. 노동부 체불 확인 후 근로복지공단에서 최대 1,000만원까지 대신 지급합니다.</p>',
       },
       {
         question: '아르바이트생도 지급명령을 신청할 수 있나요?',

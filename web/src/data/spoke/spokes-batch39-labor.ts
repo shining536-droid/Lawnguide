@@ -607,7 +607,7 @@ export const spokesBatch39Labor: SpokePage[] = [
     internalLinks: [
       { label: '사업 양도 퇴직금', href: '/guide/retirement/retirement-business-transfer-responsibility' },
       { label: '회사 합병 양도 퇴직금 승계', href: '/guide/retirement/retirement-merger-successor-liability' },
-      { label: '폐업 사업장 퇴직금 체당금', href: '/guide/retirement/retirement-company-closure-claim' },
+      { label: '폐업 사업장 퇴직금 대지급금', href: '/guide/retirement/retirement-company-closure-claim' },
       { label: '퇴직금 계산 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
       { label: '퇴직금 중간정산 가능한 경우 7가지', href: '/guide/retirement/interim-settlement-7-eligible-cases' },
     ],

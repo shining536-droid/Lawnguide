@@ -336,7 +336,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
       {
         title: '이전 사업장 퇴직금 미수령 시 청구 방법',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직금 청구 소멸시효는 3년입니다.</strong></p>\n<ul>\n<li><strong>3년 시효</strong> — 퇴직일로부터 3년이 지나면 퇴직금 청구권이 소멸합니다.</li>\n<li><strong>시효 중단</strong> — 고용노동부 진정, 내용증명 발송, 소송 제기 등으로 시효를 중단할 수 있습니다.</li>\n<li><strong>폐업 사업장</strong> — 사업주가 폐업한 경우 근로복지공단에 체당금을 청구할 수 있습니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">퇴직금 청구 소멸시효는 3년입니다.</strong></p>\n<ul>\n<li><strong>3년 시효</strong> — 퇴직일로부터 3년이 지나면 퇴직금 청구권이 소멸합니다.</li>\n<li><strong>시효 중단</strong> — 고용노동부 진정, 내용증명 발송, 소송 제기 등으로 시효를 중단할 수 있습니다.</li>\n<li><strong>폐업 사업장</strong> — 사업주가 폐업한 경우 근로복지공단에 대지급금을 청구할 수 있습니다.</li>\n</ul>',
       },
     ],
     cases: [
@@ -375,7 +375,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
       { label: '퇴직금 계산 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
       { label: '퇴직금 소멸시효', href: '/guide/retirement/retirement-statute-of-limitations' },
       { label: '영업양도 퇴직금', href: '/guide/retirement/retirement-business-transfer-responsibility' },
-      { label: '체당금 청구', href: '/guide/retirement/retirement-company-bankrupt-deposit' },
+      { label: '대지급금 청구', href: '/guide/retirement/retirement-company-bankrupt-deposit' },
       { label: '퇴직금 미지급 청구', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
     ],
   },
@@ -571,7 +571,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
       {
         title: '퇴사 후 임금 미지급 대처 절차',
         content:
-          '<p><strong style="color:#1e3a5f">내용증명 → 노동부 진정 → 소송 순서로 대응하세요.</strong></p>\n<ol>\n<li><strong>내용증명 발송</strong> — 사업주에게 미지급 임금과 퇴직금의 지급을 요구하는 내용증명을 보냅니다. 법적 효력보다는 심리적 압박과 증거 확보 목적입니다.</li>\n<li><strong>고용노동부 진정</strong> — 내용증명 후에도 미지급이면 관할 고용노동부에 진정을 제기합니다.</li>\n<li><strong>체당금 청구</strong> — 사업주가 파산하거나 지급 능력이 없으면 근로복지공단에 소액체당금(최대 1,000만원)을 청구합니다.</li>\n<li><strong>민사소송</strong> — 3,000만원 이하는 소액사건심판으로 빠르게 처리할 수 있습니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>미지급 임금+지연이자 총액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">미지급 금액과 퇴직일을 입력하면 지연이자 포함 총 청구액을 무료로 계산합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">내용증명 → 노동부 진정 → 소송 순서로 대응하세요.</strong></p>\n<ol>\n<li><strong>내용증명 발송</strong> — 사업주에게 미지급 임금과 퇴직금의 지급을 요구하는 내용증명을 보냅니다. 법적 효력보다는 심리적 압박과 증거 확보 목적입니다.</li>\n<li><strong>고용노동부 진정</strong> — 내용증명 후에도 미지급이면 관할 고용노동부에 진정을 제기합니다.</li>\n<li><strong>대지급금 청구</strong> — 사업주가 파산하거나 지급 능력이 없으면 근로복지공단에 간이대지급금(최대 1,000만원)을 청구합니다.</li>\n<li><strong>민사소송</strong> — 3,000만원 이하는 소액사건심판으로 빠르게 처리할 수 있습니다.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>미지급 임금+지연이자 총액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">미지급 금액과 퇴직일을 입력하면 지연이자 포함 총 청구액을 무료로 계산합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '증거 확보 체크리스트',
@@ -605,7 +605,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
           '<p>내용증명 자체에 법적 강제력은 없지만, 지급을 요청한 사실과 날짜를 공식적으로 증명하는 효과가 있습니다. 이후 진정이나 소송에서 유리한 증거가 됩니다.</p>',
       },
       {
-        question: '소액체당금은 누구나 받을 수 있나요?',
+        question: '간이대지급금은 누구나 받을 수 있나요?',
         answer:
           '<p>사업주가 파산하거나 지급 능력이 없는 경우에 한해 근로복지공단에서 최대 1,000만원까지 대신 지급합니다. 일반적인 미지급과는 다릅니다.</p>',
       },
@@ -614,87 +614,87 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
     internalLinks: [
       { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
       { label: '지연이자 20%', href: '/guide/retirement/retirement-delay-interest-20percent' },
-      { label: '체당금 청구', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
+      { label: '대지급금 청구', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
       { label: '진정서 작성법', href: '/guide/wage/unpaid-wage-petition-writing' },
       { label: '임금 소멸시효', href: '/guide/wage/unpaid-wage-3year-limitation' },
     ],
   },
 
-  // ── 임금체불 4. 사업주 파산 체당금 ──
+  // ── 임금체불 4. 사업주 파산 대지급금 ──
   {
     domain: 'wage',
     slug: 'unpaid-wage-employer-bankruptcy-deposit',
-    keyword: '사업주 파산 체당금 청구',
+    keyword: '사업주 파산 대지급금 청구',
     questionKeyword: '회사가 부도나서 임금을 못 받는데 어떻게 하나요?',
-    ctaKeyword: '사업주 파산 체당금 상담',
+    ctaKeyword: '사업주 파산 대지급금 상담',
     type: '절차타임라인형',
     perspective: 'victim',
     meta: {
-      title: '사업주 파산 시 체당금 청구 방법 총정리 | 로앤가이드',
+      title: '사업주 파산 시 대지급금 청구 방법 총정리 | 로앤가이드',
       description:
-        '회사가 부도나서 임금과 퇴직금을 못 받았다면, 정부가 대신 지급하는 체당금 청구 방법을 지금 확인하세요.',
+        '회사가 부도나서 임금과 퇴직금을 못 받았다면, 정부가 대신 지급하는 대지급금 청구 방법을 지금 확인하세요.',
     },
     intro:
-      '<p>회사가 갑자기 부도가 났습니다. 3개월치 급여와 퇴직금을 받지 못했는데, 사장님은 연락이 되지 않습니다. 이런 경우 근로복지공단에 체당금(대지급금)을 청구하면 정부가 사업주 대신 임금을 지급합니다.</p>',
+      '<p>회사가 갑자기 부도가 났습니다. 3개월치 급여와 퇴직금을 받지 못했는데, 사장님은 연락이 되지 않습니다. 이런 경우 근로복지공단에 대지급금(대지급금)을 청구하면 정부가 사업주 대신 임금을 지급합니다.</p>',
     timelineSteps: [
       '1단계: 사실관계 확인(도산·도산등 사실인정)',
-      '2단계: 체당금 신청서 작성',
+      '2단계: 대지급금 신청서 작성',
       '3단계: 근로복지공단에 제출',
       '4단계: 심사 후 지급(최대 1,000만원)',
     ],
     sections: [
       {
-        title: '체당금 제도란',
+        title: '대지급금 제도란',
         content:
-          '<p><strong style="color:#1e3a5f">임금채권보장법에 따라 사업주가 지급하지 못하는 임금을 정부가 대신 지급하는 제도입니다.</strong></p>\n<p>체당금은 일반체당금과 소액체당금으로 나뉩니다.</p>\n<ul>\n<li><strong>일반체당금</strong> — 사업주의 파산·회생·도산 등이 확정된 경우 최종 3개월 임금 + 최종 3년 퇴직금 + 최종 3개월 휴업수당(각 한도 적용)을 지급합니다.</li>\n<li><strong>소액체당금</strong> — 재판·근로감독관 확인을 받은 경우 최대 1,000만원까지 지급합니다. 도산 절차 없이도 청구 가능합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사업주가 파산해도 체당금으로 미지급 임금을 받을 수 있습니다. 신청 기한은 도산등사실인정일로부터 2년입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금채권보장법에 따라 사업주가 지급하지 못하는 임금을 정부가 대신 지급하는 제도입니다.</strong></p>\n<p>대지급금은 도산대지급금과 간이대지급금으로 나뉩니다.</p>\n<ul>\n<li><strong>도산대지급금</strong> — 사업주의 파산·회생·도산 등이 확정된 경우 최종 3개월 임금 + 최종 3년 퇴직금 + 최종 3개월 휴업수당(각 한도 적용)을 지급합니다.</li>\n<li><strong>간이대지급금</strong> — 재판·근로감독관 확인을 받은 경우 최대 1,000만원까지 지급합니다. 도산 절차 없이도 청구 가능합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사업주가 파산해도 대지급금으로 미지급 임금을 받을 수 있습니다. 신청 기한은 도산등사실인정일로부터 2년입니다.</blockquote>',
       },
       {
-        title: '체당금 신청 방법',
+        title: '대지급금 신청 방법',
         content:
-          '<p><strong style="color:#1e3a5f">근로복지공단에 체당금 신청서를 제출합니다.</strong></p>\n<ul>\n<li><strong>사실인정 신청</strong> — 사업주 도산이 확인되면 고용노동부에 "도산등사실인정" 신청을 먼저 합니다.</li>\n<li><strong>체당금 신청</strong> — 사실인정을 받은 후 근로복지공단에 체당금 신청서, 근로계약서, 급여 증빙 등을 제출합니다.</li>\n<li><strong>소액체당금</strong> — 판결문, 확정된 지급명령, 근로감독관의 체불임금 확인서 중 하나가 있으면 바로 신청 가능합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>체당금 청구 가능 금액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">미지급 기간과 급여를 입력하면 체당금 예상액을 무료로 계산합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">근로복지공단에 대지급금 신청서를 제출합니다.</strong></p>\n<ul>\n<li><strong>사실인정 신청</strong> — 사업주 도산이 확인되면 고용노동부에 "도산등사실인정" 신청을 먼저 합니다.</li>\n<li><strong>대지급금 신청</strong> — 사실인정을 받은 후 근로복지공단에 대지급금 신청서, 근로계약서, 급여 증빙 등을 제출합니다.</li>\n<li><strong>간이대지급금</strong> — 판결문, 확정된 지급명령, 근로감독관의 체불임금 확인서 중 하나가 있으면 바로 신청 가능합니다.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>대지급금 청구 가능 금액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">미지급 기간과 급여를 입력하면 대지급금 예상액을 무료로 계산합니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
-        title: '체당금 한도와 주의사항',
+        title: '대지급금 한도와 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">체당금에는 나이별 한도가 있습니다.</strong></p>\n<ul>\n<li><strong>30세 미만</strong> — 월 220만원 한도(임금), 220만원 한도(퇴직금)</li>\n<li><strong>30세~40세 미만</strong> — 월 310만원 한도(임금), 310만원 한도(퇴직금)</li>\n<li><strong>40세 이상</strong> — 월 350만원 한도(임금), 350만원 한도(퇴직금)</li>\n<li><strong>소액체당금</strong> — 임금·퇴직금·휴업수당 합산 최대 1,000만원</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">대지급금에는 나이별 한도가 있습니다.</strong></p>\n<ul>\n<li><strong>30세 미만</strong> — 월 220만원 한도(임금), 220만원 한도(퇴직금)</li>\n<li><strong>30세~40세 미만</strong> — 월 310만원 한도(임금), 310만원 한도(퇴직금)</li>\n<li><strong>40세 이상</strong> — 월 350만원 한도(임금), 350만원 한도(퇴직금)</li>\n<li><strong>간이대지급금</strong> — 임금·퇴직금·휴업수당 합산 최대 1,000만원</li>\n</ul>',
       },
     ],
     cases: [
       {
         title: '판례 — 임금·퇴직금 채권과 실제 지급액',
         summary:
-          '대법원 2013다36347(대법원, 2014.10.27 선고)에서 법원은 근로자들이 회사를 상대로 퇴직금 지급을 구한 사안에서, 원천징수의무자인 회사의 납부의무가 성립한 뒤 실제로 원천세액을 납부했다면 지급할 퇴직소득에서 그 정당한 세액을 공제할 수 있다고 판시했습니다. 임금·퇴직금 채권의 실제 지급액을 정할 때 원천징수 관계가 함께 고려된다는 취지입니다. 사업주가 파산해 임금을 받지 못한 경우에도 임금채권의 범위와 지급 경로를 정확히 확인해 대지급금(체당금) 신청 등 회수 절차를 검토해볼 수 있습니다.',
+          '대법원 2013다36347(대법원, 2014.10.27 선고)에서 법원은 근로자들이 회사를 상대로 퇴직금 지급을 구한 사안에서, 원천징수의무자인 회사의 납부의무가 성립한 뒤 실제로 원천세액을 납부했다면 지급할 퇴직소득에서 그 정당한 세액을 공제할 수 있다고 판시했습니다. 임금·퇴직금 채권의 실제 지급액을 정할 때 원천징수 관계가 함께 고려된다는 취지입니다. 사업주가 파산해 임금을 받지 못한 경우에도 임금채권의 범위와 지급 경로를 정확히 확인해 대지급금(대지급금) 신청 등 회수 절차를 검토해볼 수 있습니다.',
         takeaway:
-          '사업주 파산 시 임금채권은 우선변제 대상이 될 수 있고, 대지급금(체당금)으로 먼저 지급받은 뒤 나머지는 파산 절차에서 배당을 검토해볼 수 있음. 임금·퇴직금 채권 내역을 정리해두는 것이 좋습니다.',
+          '사업주 파산 시 임금채권은 우선변제 대상이 될 수 있고, 대지급금(대지급금)으로 먼저 지급받은 뒤 나머지는 파산 절차에서 배당을 검토해볼 수 있음. 임금·퇴직금 채권 내역을 정리해두는 것이 좋습니다.',
       },
     ],
     faq: [
       {
-        question: '사업주가 야반도주해도 체당금을 받을 수 있나요?',
+        question: '사업주가 야반도주해도 대지급금을 받을 수 있나요?',
         answer:
-          '<p>사업주가 소재불명이면 고용노동부에 도산등사실인정을 신청할 수 있습니다. 인정되면 일반체당금을 청구할 수 있습니다.</p>',
+          '<p>사업주가 소재불명이면 고용노동부에 도산등사실인정을 신청할 수 있습니다. 인정되면 도산대지급금을 청구할 수 있습니다.</p>',
       },
       {
-        question: '체당금을 받으면 사업주에게 다시 청구할 수 있나요?',
+        question: '대지급금을 받으면 사업주에게 다시 청구할 수 있나요?',
         answer:
-          '<p>체당금을 지급한 근로복지공단이 사업주에게 구상권을 행사합니다. 근로자 본인이 추가 청구할 필요는 없습니다.</p>',
+          '<p>대지급금을 지급한 근로복지공단이 사업주에게 구상권을 행사합니다. 근로자 본인이 추가 청구할 필요는 없습니다.</p>',
       },
       {
-        question: '체당금 신청에서 지급까지 얼마나 걸리나요?',
+        question: '대지급금 신청에서 지급까지 얼마나 걸리나요?',
         answer:
-          '<p>소액체당금은 신청 후 통상 14일 이내에 지급됩니다. 일반체당금은 도산등사실인정 절차가 선행되므로 1~2개월 정도 소요될 수 있습니다.</p>',
+          '<p>간이대지급금은 신청 후 통상 14일 이내에 지급됩니다. 도산대지급금은 도산등사실인정 절차가 선행되므로 1~2개월 정도 소요될 수 있습니다.</p>',
       },
       {
-        question: '실업급여와 체당금을 동시에 받을 수 있나요?',
+        question: '실업급여와 대지급금을 동시에 받을 수 있나요?',
         answer:
-          '<p>네, 실업급여는 고용보험에서, 체당금은 임금채권보장기금에서 각각 지급되므로 동시에 받을 수 있습니다.</p>',
+          '<p>네, 실업급여는 고용보험에서, 대지급금은 임금채권보장기금에서 각각 지급되므로 동시에 받을 수 있습니다.</p>',
       },
     ],
-    cta: { text: '사업주 파산 체당금 청구 AI로 확인하기', link: '/chat?domain=wage' },
+    cta: { text: '사업주 파산 대지급금 청구 AI로 확인하기', link: '/chat?domain=wage' },
     internalLinks: [
       { label: '임금체불 신고 절차', href: '/guide/wage/unpaid-wage-report-procedure-timeline' },
-      { label: '파산 사업주 체당금', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
-      { label: '실업급여+체당금 동시', href: '/guide/unemployment/unemployment-company-bankrupt-double-claim' },
+      { label: '파산 사업주 대지급금', href: '/guide/wage/wage-bankrupt-employer-how-to-claim' },
+      { label: '실업급여+대지급금 동시', href: '/guide/unemployment/unemployment-company-bankrupt-double-claim' },
       { label: '임금 소멸시효', href: '/guide/wage/unpaid-wage-3year-limitation' },
       { label: '퇴직금 미지급', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
     ],

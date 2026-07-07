@@ -191,7 +191,7 @@ export const spokesBatch62Dismissal: SpokePage[] = [
       {
         title: '📌 이렇게 진행됩니다 — 구제 5단계',
         content:
-          '<p><strong style="color:#1e3a5f">A. 검토·구제·임금채권 흐름입니다.</strong></p>\n<ol>\n<li><strong>1단계 — 회생계획안·인력감축 근거 확보 (즉시)</strong> — 법원 제출 자료.</li>\n<li><strong>2단계 — 근로자대표 협의록 확보 (1주)</strong> — 협의 절차 검증.</li>\n<li><strong>3단계 — 노동위 구제신청 (해고일 3개월 내)</strong> — 부당해고·절차 하자.</li>\n<li><strong>4단계 — 임금채권 신고 (회생법원)</strong> — 우선변제 대상 신고.</li>\n<li><strong>5단계 — 체당금·간이대지급금 신청</strong> — 도산 시 국가 대지급.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 부당해고 구제신청 순서, AI로 정리하기</strong></p>\n<p style="margin:0;font-size:0.95em">회생 중 정리해고 대응 트랙을 AI가 안내합니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">AI로 정리하기 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">A. 검토·구제·임금채권 흐름입니다.</strong></p>\n<ol>\n<li><strong>1단계 — 회생계획안·인력감축 근거 확보 (즉시)</strong> — 법원 제출 자료.</li>\n<li><strong>2단계 — 근로자대표 협의록 확보 (1주)</strong> — 협의 절차 검증.</li>\n<li><strong>3단계 — 노동위 구제신청 (해고일 3개월 내)</strong> — 부당해고·절차 하자.</li>\n<li><strong>4단계 — 임금채권 신고 (회생법원)</strong> — 우선변제 대상 신고.</li>\n<li><strong>5단계 — 대지급금·간이대지급금 신청</strong> — 도산 시 국가 대지급.</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 부당해고 구제신청 순서, AI로 정리하기</strong></p>\n<p style="margin:0;font-size:0.95em">회생 중 정리해고 대응 트랙을 AI가 안내합니다.</p>\n<a href="/chat?domain=dismissal" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">AI로 정리하기 →</a>\n</div>',
       },
       {
         title: '📋 준비서류 체크리스트 — 7가지',
@@ -201,7 +201,7 @@ export const spokesBatch62Dismissal: SpokePage[] = [
       {
         title: '⚠️ 다툼 포인트 + 🏛️ 신청·상담 경로',
         content:
-          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>회생계획 ≠ 자동 정당화</strong> — 근기법 4요건 별도 심사.</li>\n<li><strong>대상자 선정 기준의 합리성</strong> — 호봉·나이만으론 부족.</li>\n<li><strong>50일 전 통지·협의 절차</strong> — 회생 중에도 적용.</li>\n<li><strong>체당금 vs 회생채권</strong> — 임금·퇴직금 3개월·3년치는 우선.</li>\n<li><strong>관리인 권한 범위</strong> — 해고 권한 명시 필요.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>중앙노동위원회 044-202-8200</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">A. 자주 발생하는 다툼과 무료 상담 기관입니다.</strong></p>\n<ul>\n<li><strong>회생계획 ≠ 자동 정당화</strong> — 근기법 4요건 별도 심사.</li>\n<li><strong>대상자 선정 기준의 합리성</strong> — 호봉·나이만으론 부족.</li>\n<li><strong>50일 전 통지·협의 절차</strong> — 회생 중에도 적용.</li>\n<li><strong>대지급금 vs 회생채권</strong> — 임금·퇴직금 3개월·3년치는 우선.</li>\n<li><strong>관리인 권한 범위</strong> — 해고 권한 명시 필요.</li>\n</ul>\n<p><strong style="color:#1e3a5f">🏛️ 무료 상담·신고 기관</strong></p>\n<ul>\n<li><strong>고용노동부 1350</strong></li>\n<li><strong>중앙노동위원회 044-202-8200</strong></li>\n<li><strong>대한법률구조공단 132</strong></li>\n</ul>',
       },
     ],
     cases: [
@@ -224,7 +224,7 @@ export const spokesBatch62Dismissal: SpokePage[] = [
           '<strong>최종 3개월 임금·최종 3년 퇴직금은 우선변제 영역입니다.</strong>',
       },
       {
-        question: '체당금 신청 가능한 시점은?',
+        question: '대지급금 신청 가능한 시점은?',
         answer:
           '<strong>회생개시·파산선고 시 간이대지급금 신청 가능.</strong> 최대 1,000만원 한도.',
       },
