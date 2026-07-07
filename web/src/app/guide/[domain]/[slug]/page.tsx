@@ -189,7 +189,7 @@ export default function GuideSpokePage({ params }: PageProps) {
                 {section.title}
               </h2>
               <div
-                className="text-gray-700 leading-relaxed spoke-content"
+                className="text-gray-700 leading-relaxed spoke-content [&_a]:text-blue-600 [&_a]:underline [&_a]:underline-offset-2 [&_a]:font-medium [&_a:hover]:text-blue-800 [&_a:focus-visible]:outline [&_a:focus-visible]:outline-2 [&_a:focus-visible]:outline-blue-300"
                 dangerouslySetInnerHTML={{ __html: section.content }}
               />
             </section>
