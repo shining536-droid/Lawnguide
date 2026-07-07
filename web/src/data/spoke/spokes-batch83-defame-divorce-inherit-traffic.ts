@@ -178,6 +178,7 @@ export const spokesBatch83DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '장래 퇴직연금 재산분할 인정 판단', href: '/guide/divorce/divorce-future-retirement-pension-division-track' },
       { label: '협의이혼 서류 체크리스트', href: '/guide/divorce/uncontested-divorce-document-checklist' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

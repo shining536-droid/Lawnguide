@@ -261,6 +261,7 @@ export const spokesBatch92DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '국제재판관할 판단', href: '/guide/divorce/divorce-international-jurisdiction-spouse' },
       { label: '외국 판결 승인·집행', href: '/guide/divorce/divorce-foreign-judgment-recognition-track' },
       { label: '재판상 이혼 절차', href: '/guide/divorce/trial-divorce-lawsuit-procedure' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

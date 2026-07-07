@@ -340,6 +340,7 @@ export const spokesBatch76DivorceInheritTraffic: SpokePage[] = [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
       { label: '혼전약정 사후 변경', href: '/guide/divorce/divorce-prenup-postnup-modified-track' },
       { label: '외국인 배우자 이혼 관할법원', href: '/guide/divorce/divorce-foreign-spouse-procedure-jurisdiction' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

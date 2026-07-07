@@ -176,6 +176,7 @@ export const spokesBatch77DivorceInheritTraffic: SpokePage[] = [
       { label: '위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
       { label: '연금 분할 청구', href: '/guide/divorce/divorce-pension-division-method' },
       { label: '재산분할 사업체 지분', href: '/guide/divorce/divorce-business-asset-division' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

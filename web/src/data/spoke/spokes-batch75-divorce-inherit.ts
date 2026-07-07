@@ -173,6 +173,7 @@ export const spokesBatch75DivorceInherit: SpokePage[] = [
       { label: '재산분할 비율 결정 핵심 요소', href: '/guide/divorce/property-division-ratio-key-factors' },
       { label: '조부모 면접교섭권 인정 요건 청구 절차', href: '/guide/divorce/divorce-grandparent-visitation-rights-guide' },
       { label: '국제결혼 외국인 배우자 이혼 절차', href: '/guide/divorce/divorce-international-marriage-procedure' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -339,6 +340,7 @@ export const spokesBatch75DivorceInherit: SpokePage[] = [
       { label: '위자료 산정 기준 금액 총정리', href: '/guide/divorce/divorce-alimony-calculation-standard' },
       { label: '외국 거주 배우자 재판관할 이혼 절차', href: '/guide/divorce/divorce-overseas-resident-spouse-jurisdiction-procedure-track' },
       { label: '협의이혼 후 누락 재산 추가 분할 청구', href: '/guide/divorce/divorce-post-judgment-property-omission-claim' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

@@ -95,6 +95,7 @@ export const spokesBatch84DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '가정폭력 접근금지 이혼', href: '/guide/divorce/divorce-domestic-violence-protection-order-track' },
       { label: '사실혼 재산분할 위자료 인정 범위', href: '/guide/divorce/divorce-de-facto-marriage-property-division-scope' },
       { label: '협의이혼 서류 체크리스트', href: '/guide/divorce/uncontested-divorce-document-checklist' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

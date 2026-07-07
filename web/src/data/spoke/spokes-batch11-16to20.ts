@@ -439,7 +439,8 @@ export const spokesBatch11Pages16to20: SpokePage[] = [
       { label: '이혼 가이드 허브', href: '/guide/divorce' },
       { label: '가정폭력 이혼 절차', href: '/guide/divorce/domestic-violence-divorce-process' },
       { label: '재판이혼 절차 총정리', href: '/guide/divorce/consensual-divorce-process' },
-      { label: '이혼 피해 진단하기', href: '/diagnosis/divorce' }
+      { label: '이혼 피해 진단하기', href: '/diagnosis/divorce' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ]
   }
 ];

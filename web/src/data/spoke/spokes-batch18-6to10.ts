@@ -251,6 +251,7 @@ export const spokesBatch18_6to10: SpokePage[] = [
       { label: '협의이혼 준비서류 체크리스트', href: '/guide/divorce/consensual-divorce-required-documents-checklist' },
       { label: '이혼 재산분할 절차', href: '/guide/divorce/divorce-elderly-property-division' },
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
   {

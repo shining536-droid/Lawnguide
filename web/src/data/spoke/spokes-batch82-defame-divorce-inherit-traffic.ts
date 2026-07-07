@@ -259,6 +259,7 @@ export const spokesBatch82DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
       { label: '시부모 동거 갈등 이혼 사유 인정', href: '/guide/divorce/divorce-in-law-cohabitation-conflict-grounds-track' },
       { label: '협의이혼 서류 체크리스트', href: '/guide/divorce/uncontested-divorce-document-checklist' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

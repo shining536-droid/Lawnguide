@@ -179,6 +179,7 @@ export const spokesBatch117DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '국민연금 분할', href: '/guide/divorce/divorce-national-pension-division-track' },
       { label: '국민연금 분할비율 별도 결정', href: '/guide/divorce/divorce-national-pension-split-ratio-separate-decision-track' },
       { label: '국민연금 분할연금', href: '/guide/divorce/divorce-national-pension-split-track' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -347,6 +348,7 @@ export const spokesBatch117DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '유책배우자 위자료 산정', href: '/guide/divorce/divorce-fault-spouse-alimony-post-breakdown-factors-track' },
       { label: '배우자 외도 상간자 위자료', href: '/guide/divorce/divorce-spouse-affair-third-party-companion-alimony-track' },
       { label: '배우자 사업채무 파탄 위자료', href: '/guide/divorce/divorce-spouse-business-debt-marriage-breakdown-alimony-track' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

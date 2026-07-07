@@ -322,6 +322,7 @@ export const spokesBatch31TrafficDivorce: SpokePage[] = [
       { label: '재산분할 범위', href: '/guide/divorce/divorce-property-division-scope-faq' },
       { label: '이혼 상담 준비', href: '/guide/divorce/divorce-consultation-prep' },
       { label: '유책배우자 이혼', href: '/guide/divorce/at-fault-spouse-divorce-filing' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

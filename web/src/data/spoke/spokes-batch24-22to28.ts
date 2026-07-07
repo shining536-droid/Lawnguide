@@ -278,6 +278,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
       { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '양육비 청구 어디서 시작', href: '/guide/child-support/child-support-claim-where-to-start' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -452,6 +453,7 @@ export const spokesBatch24_22to28: SpokePage[] = [
       { label: '퇴직금 계산 방법', href: '/guide/retirement/retirement-pay-calculation' },
       { label: '양육비 산정 기준표', href: '/guide/child-support/child-support-calculation-table' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

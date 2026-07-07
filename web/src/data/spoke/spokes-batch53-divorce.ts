@@ -255,6 +255,7 @@ export const spokesBatch53Divorce: SpokePage[] = [
       { label: '국제 결혼 절차 가이드', href: '/guide/divorce/divorce-international-marriage-procedure' },
       { label: '국제 양육 관할', href: '/guide/divorce/divorce-foreign-spouse-custody-jurisdiction' },
       { label: '해외 자산 분할', href: '/guide/divorce/divorce-overseas-asset-division' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

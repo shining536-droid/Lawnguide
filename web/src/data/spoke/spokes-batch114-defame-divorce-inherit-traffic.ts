@@ -96,6 +96,7 @@ export const spokesBatch114DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '맞벌이 양육 기여 분할', href: '/guide/divorce/divorce-dual-income-childcare-contribution-division-track' },
       { label: '혼전 재산 증가 기여 분할', href: '/guide/divorce/divorce-premarital-property-increase-contribution-division-track' },
       { label: '자영업 사업재산 기여 분할', href: '/guide/divorce/divorce-self-employed-business-asset-contribution-division-track' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -348,6 +349,7 @@ export const spokesBatch114DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '부정행위 파탄 위자료', href: '/guide/divorce/divorce-adultery-marriage-breakdown-alimony-track' },
       { label: '배우자 부정행위 파탄 위자료', href: '/guide/divorce/divorce-spouse-infidelity-breakdown-alimony-track' },
       { label: '유책배우자 파탄 후 위자료', href: '/guide/divorce/divorce-fault-spouse-alimony-post-breakdown-factors-track' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

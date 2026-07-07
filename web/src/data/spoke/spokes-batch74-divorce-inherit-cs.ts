@@ -99,6 +99,7 @@ export const spokesBatch74DivorceInheritCs: SpokePage[] = [
       { label: '미가득 스톡옵션 RSU 재산분할 대상', href: '/guide/divorce/divorce-stock-option-unvested-property-division-track' },
       { label: '이혼 후 양육비 면접교섭 변경', href: '/guide/divorce/divorce-post-judgment-child-support-visitation-modify' },
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -182,6 +183,7 @@ export const spokesBatch74DivorceInheritCs: SpokePage[] = [
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
       { label: '가정폭력 이혼 위자료', href: '/guide/divorce/divorce-domestic-violence-consolation-track' },
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

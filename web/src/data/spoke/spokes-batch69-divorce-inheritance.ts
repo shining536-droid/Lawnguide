@@ -175,6 +175,7 @@ export const spokesBatch69DivorceInheritance: SpokePage[] = [
       { label: '재산분할 종합', href: '/guide/divorce/divorce-property-division-comprehensive' },
       { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
       { label: '협의이혼 거부 재판상 이혼', href: '/guide/divorce/divorce-mediation-refused-trial-procedure' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

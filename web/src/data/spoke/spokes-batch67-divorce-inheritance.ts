@@ -175,6 +175,7 @@ export const spokesBatch67DivorceInheritance: SpokePage[] = [
       { label: '배우자 외도 위자료 청구', href: '/guide/divorce/divorce-adultery-consolation-money-track' },
       { label: '협의이혼 거부 재판상 이혼', href: '/guide/divorce/divorce-mediation-refused-trial-procedure' },
       { label: '협의이혼 준비', href: '/guide/divorce/divorce-consultation-prep' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

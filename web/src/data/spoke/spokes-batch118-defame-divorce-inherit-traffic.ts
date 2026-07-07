@@ -95,6 +95,7 @@ export const spokesBatch118DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '장래 퇴직연금 재산분할', href: '/guide/divorce/divorce-future-retirement-pension-division-track' },
       { label: '배우자 퇴직연금 분할', href: '/guide/divorce/divorce-spouse-retirement-pension-division-track' },
       { label: '퇴직연금 재산분할', href: '/guide/divorce/divorce-retirement-pension-division-track' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -179,6 +180,7 @@ export const spokesBatch118DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '상속재산 기여 재산분할', href: '/guide/divorce/divorce-inherited-property-contribution-division-track' },
       { label: '상속재산 분할 기여', href: '/guide/divorce/divorce-inherited-property-division-contribution-track' },
       { label: '배우자 상속재산 기여 분할', href: '/guide/divorce/divorce-spouse-inherited-property-contribution-division-track' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -263,6 +265,7 @@ export const spokesBatch118DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '채무 초과 재산분할', href: '/guide/divorce/divorce-debt-exceeds-asset-division-track' },
       { label: '순자산 마이너스 채무 분담', href: '/guide/divorce/divorce-negative-net-worth-debt-allocation-division-track' },
       { label: '사업 채무 재산분할', href: '/guide/divorce/divorce-business-debt-property-division-track' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -347,6 +350,7 @@ export const spokesBatch118DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '시댁 모욕 부당대우 위자료', href: '/guide/divorce/divorce-in-law-humiliation-mistreatment-alimony-track' },
       { label: '유책배우자 파탄 후 위자료 산정', href: '/guide/divorce/divorce-fault-spouse-alimony-post-breakdown-factors-track' },
       { label: '가정폭력 파탄 위자료', href: '/guide/divorce/divorce-domestic-violence-marriage-breakdown-alimony-track' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

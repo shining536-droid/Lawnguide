@@ -92,6 +92,7 @@ export const spokesBatch68DivorceInheritance: SpokePage[] = [
       { label: '배우자 외도 위자료 청구', href: '/guide/divorce/divorce-adultery-consolation-money-track' },
       { label: '이혼 시 재산분할 대상은 무엇인가요?', href: '/guide/divorce/divorce-property-division-scope-faq' },
       { label: '협의이혼 준비', href: '/guide/divorce/divorce-consultation-prep' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -175,6 +176,7 @@ export const spokesBatch68DivorceInheritance: SpokePage[] = [
       { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
       { label: '협의이혼 거부 재판상 이혼', href: '/guide/divorce/divorce-mediation-refused-trial-procedure' },
       { label: '양육비 청구', href: '/guide/divorce/divorce-child-support-enforcement-guide' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

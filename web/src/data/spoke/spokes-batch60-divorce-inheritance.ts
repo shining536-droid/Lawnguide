@@ -99,6 +99,7 @@ export const spokesBatch60DivorceInheritance: SpokePage[] = [
       { label: '국제 양육권 분쟁', href: '/guide/divorce/divorce-international-child-custody-abduction' },
       { label: '면접교섭 거부 대응', href: '/guide/divorce/divorce-visitation-denied-response' },
       { label: '면접교섭 강제집행', href: '/guide/divorce/divorce-visitation-denied-enforcement-apply' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -182,6 +183,7 @@ export const spokesBatch60DivorceInheritance: SpokePage[] = [
       { label: '외도 위자료 증거 5종', href: '/guide/divorce/divorce-affair-alimony-evidence-5items' },
       { label: '위자료 산정 표준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
       { label: '외도 무고 항변', href: '/guide/divorce/divorce-alimony-false-claim-defense' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

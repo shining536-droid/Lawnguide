@@ -86,6 +86,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       { label: '재판이혼 절차', href: '/guide/divorce/trial-divorce-lawsuit-procedure' },
       { label: '재산분할 범위 FAQ', href: '/guide/divorce/divorce-property-division-scope-faq' },
       { label: '양육비 증액 방법', href: '/guide/divorce/divorce-child-support-increase' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -175,6 +176,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       { label: '재판이혼 절차', href: '/guide/divorce/trial-divorce-lawsuit-procedure' },
       { label: '양육비 증액 방법', href: '/guide/divorce/divorce-child-support-increase' },
       { label: '양육 합의 준비', href: '/guide/divorce/custody-agreement-prep' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

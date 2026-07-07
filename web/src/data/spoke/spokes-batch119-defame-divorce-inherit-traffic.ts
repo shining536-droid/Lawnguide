@@ -263,6 +263,7 @@ export const spokesBatch119DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '정서적 학대 이혼사유', href: '/guide/divorce/divorce-emotional-abuse-ground-track' },
       { label: '가정폭력 이혼 증거 수집', href: '/guide/divorce/divorce-domestic-violence-evidence-collection-track' },
       { label: '유책배우자 이혼청구 예외 인정', href: '/guide/divorce/divorce-at-fault-spouse-exceptional-petition-allowed-track' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

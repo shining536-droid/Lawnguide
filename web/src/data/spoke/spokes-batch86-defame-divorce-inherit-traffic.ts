@@ -95,6 +95,7 @@ export const spokesBatch86DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
       { label: '외도 정황증거 결합 위자료', href: '/guide/divorce/divorce-affair-circumstantial-evidence-trial-strategy' },
       { label: '협의이혼 서류 체크리스트', href: '/guide/divorce/uncontested-divorce-document-checklist' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

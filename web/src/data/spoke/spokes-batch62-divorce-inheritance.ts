@@ -322,6 +322,7 @@ export const spokesBatch62DivorceInheritance: SpokePage[] = [
       { label: '배우자 부정행위 상간자 손해배상 판단', href: '/guide/divorce/divorce-spouse-affair-third-party-damages-track' },
       { label: '외국인 배우자 이혼 국제재판 준거법', href: '/guide/divorce/divorce-foreign-spouse-litigation-procedure' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

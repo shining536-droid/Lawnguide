@@ -264,6 +264,7 @@ export const divorcePages: SpokePage[] = [
         label: '협의이혼과 재판이혼, 뭐가 다른가요?',
         href: '/guide/divorce/consensual-vs-trial-divorce',
       },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
   {
@@ -377,6 +378,7 @@ export const divorcePages: SpokePage[] = [
         label: '이혼 상담 전에 어떤 서류를 준비해야 하나요?',
         href: '/guide/divorce/divorce-consultation-prep',
       },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
   {
@@ -1011,6 +1013,7 @@ export const divorcePages: SpokePage[] = [
       { label: '양육비 미지급 시 대처법과 강제집행', href: '/guide/divorce/child-support-non-payment' },
       { label: '양육비 강제집행 방법과 절차', href: '/guide/child-support/child-support-enforcement-method' },
       { label: '양육비 변경 신청 — 소득 변동 시 대응', href: '/guide/child-support/child-support-modification-income-change' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
   {
@@ -1108,6 +1111,7 @@ export const divorcePages: SpokePage[] = [
       { label: '재산분할 기준과 비율 총정리', href: '/guide/divorce/divorce-property-division-comprehensive' },
       { label: '재판이혼 소송 절차 가이드', href: '/guide/divorce/trial-divorce-lawsuit-procedure' },
       { label: '양육비 산정 기준표와 계산 방법', href: '/guide/divorce/child-support-calculation-standard' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
   {

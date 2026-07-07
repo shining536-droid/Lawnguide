@@ -264,6 +264,7 @@ export const spokesBatch100DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '배우자 명예퇴직금 재산분할', href: '/guide/divorce/divorce-severance-asset-division-track' },
       { label: '사실혼 부당파기 위자료 청구', href: '/guide/divorce/divorce-defacto-breakup-track' },
       { label: '배우자 악의적 유기 이혼 사유', href: '/guide/divorce/divorce-desertion-ground-track' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

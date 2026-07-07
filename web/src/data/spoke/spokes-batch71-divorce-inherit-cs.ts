@@ -112,6 +112,7 @@ export const spokesBatch71DivorceInheritCs: SpokePage[] = [
       { label: '협의이혼 준비서류', href: '/guide/divorce/consensual-divorce-required-documents-checklist' },
       { label: '위자료 산정', href: '/guide/divorce/divorce-alimony-calculation-standard' },
       { label: '국제 양육 관할', href: '/guide/divorce/divorce-foreign-spouse-custody-jurisdiction' },
+      { label: '이혼 종합 정리 — 절차·양육·위자료', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 

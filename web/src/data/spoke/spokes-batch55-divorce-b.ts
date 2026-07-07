@@ -172,6 +172,7 @@ export const spokesBatch55DivorceB: SpokePage[] = [
       { label: '위자료 산정 기준', href: '/guide/divorce/divorce-alimony-calculation-standard' },
       { label: '이혼 종합 가이드', href: '/guide/divorce' },
       { label: '양육권 합의 전 정리할 것', href: '/guide/divorce/custody-agreement-prep' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 ];

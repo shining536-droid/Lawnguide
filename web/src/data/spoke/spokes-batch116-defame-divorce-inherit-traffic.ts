@@ -95,6 +95,7 @@ export const spokesBatch116DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '사망 배우자 재산분할 상속', href: '/guide/divorce/divorce-ex-spouse-death-property-division-heir-claim-track' },
       { label: '배우자 사업 채무 분담 분할', href: '/guide/divorce/divorce-spouse-business-debt-burden-property-division-track' },
       { label: '배우자 사업 영업권 분할', href: '/guide/divorce/divorce-spouse-business-goodwill-division-track' },
+      { label: '이혼 준비 종합 가이드', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
@@ -347,6 +348,7 @@ export const spokesBatch116DefameDivorceInheritTraffic: SpokePage[] = [
       { label: '가정폭력 혼인파탄', href: '/guide/divorce/divorce-domestic-violence-marriage-breakdown-track' },
       { label: '유책배우자 위자료 산정', href: '/guide/divorce/divorce-fault-spouse-alimony-post-breakdown-factors-track' },
       { label: '외국인 배우자 가정폭력 보호', href: '/guide/divorce/divorce-foreign-spouse-domestic-violence-protection-track' },
+      { label: '이혼 절차·재산분할 한눈에 보기', href: '/guide/divorce/divorce-preparation-guide' },
     ],
   },
 
