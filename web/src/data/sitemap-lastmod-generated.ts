@@ -3671,6 +3671,7 @@ export const SPOKE_LASTMOD: Record<string, string> = {
   'traffic-accident-tow-truck-cargo-loading-collision-track': '2026-05-17',
   'traffic-accident-tow-truck-secondary-collision': '2026-05-02',
   'traffic-accident-traffic-signal-yellow-light-intersection-entry-fault-track': '2026-05-20',
+  'traffic-accident-treatment-settlement-guide': '2026-07-10',
   'traffic-accident-truck-cargo-unload-injury-track': '2026-05-16',
   'traffic-accident-truck-compensation-special': '2026-04-19',
   'traffic-accident-truck-falling-cargo-track': '2026-05-12',
