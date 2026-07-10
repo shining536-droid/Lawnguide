@@ -157,6 +157,7 @@ export const spokesBatch29Misc: SpokePage[] = [
     ],
     cta: { text: '어린이 교통사고 보상 AI로 즉시 확인하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '통원치료·합의·후유증 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 보상 절차', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
       { label: '스쿨존 사고', href: '/guide/traffic-accident/traffic-accident-school-zone-child' },
       { label: '보험 합의 주의', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
@@ -231,6 +232,7 @@ export const spokesBatch29Misc: SpokePage[] = [
     ],
     cta: { text: '추돌사고 과실비율 AI로 즉시 확인하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '교통사고 치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 과실비율', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '경미사고 보상', href: '/guide/traffic-accident/traffic-accident-whiplash-compensation' },
       { label: '합의 주의사항', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },

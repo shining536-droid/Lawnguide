@@ -102,6 +102,7 @@ export const batch7Part3Pages: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '통원치료·합의·후유증 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
     ],

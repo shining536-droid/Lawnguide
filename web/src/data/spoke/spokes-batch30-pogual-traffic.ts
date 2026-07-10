@@ -249,6 +249,7 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
     ],
     cta: { text: '택시 승객 교통사고 보상금 AI로 즉시 확인하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '교통사고 통원치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 대처법', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
       { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '합의 실수 방지', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
@@ -333,6 +334,7 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
     ],
     cta: { text: '배달라이더 산재 인정 가능성 AI로 즉시 확인하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '교통사고 합의·보상 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 대처법', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
       { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '자전거 보상', href: '/guide/traffic-accident/traffic-accident-bicycle-compensation' },

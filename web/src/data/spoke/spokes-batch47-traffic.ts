@@ -334,6 +334,7 @@ export const spokesBatch47Traffic: SpokePage[] = [
     ],
     cta: { text: '후유증 추가 청구 가능한지 AI로 점검하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '교통사고 치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '골목길 후진 사고', href: '/guide/traffic-accident/traffic-accident-alley-reverse-track' },
       { label: '블랙박스 데이터 복구 사고 입증', href: '/guide/traffic-accident/traffic-accident-dashcam-data-recovery-insurance-dispute' },

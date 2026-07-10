@@ -203,6 +203,7 @@ export const spokesBatch8Pages16to20: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 합의·보상 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },

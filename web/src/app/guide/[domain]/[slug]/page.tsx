@@ -192,6 +192,31 @@ export default function GuideSpokePage({ params }: PageProps) {
                 className="text-gray-700 leading-relaxed spoke-content [&_a]:text-blue-600 [&_a]:underline [&_a]:underline-offset-2 [&_a]:font-medium [&_a:hover]:text-blue-800 [&_a:focus-visible]:outline [&_a:focus-visible]:outline-2 [&_a:focus-visible]:outline-blue-300"
                 dangerouslySetInnerHTML={{ __html: section.content }}
               />
+              {section.links && section.links.length > 0 && (
+                <div className="mt-5 pt-4 border-t border-gray-100">
+                  <p className="text-xs font-semibold text-gray-500 mb-3 tracking-wide">관련 가이드</p>
+                  <ul className="grid gap-2 sm:grid-cols-2">
+                    {section.links.map((lnk, j) => (
+                      <li key={j}>
+                        <a
+                          href={lnk.href}
+                          className="group flex items-start gap-2 rounded-lg border border-blue-100 bg-blue-50/50 px-3 py-2.5 min-h-[44px] hover:bg-blue-50 hover:border-blue-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-300 transition-colors"
+                        >
+                          <span aria-hidden className="mt-0.5 text-blue-500 group-hover:text-blue-700 flex-shrink-0">▸</span>
+                          <span className="min-w-0">
+                            <span className="block text-sm font-semibold text-blue-700 group-hover:text-blue-800 break-words">
+                              {lnk.label}
+                            </span>
+                            {lnk.description && (
+                              <span className="block text-xs text-gray-500 mt-0.5 break-words">{lnk.description}</span>
+                            )}
+                          </span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </section>
 
             {/* Mid CTA - after 2nd section (index 1) */}

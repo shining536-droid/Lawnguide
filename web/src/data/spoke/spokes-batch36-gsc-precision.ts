@@ -186,6 +186,7 @@ export const spokesBatch36GscPrecision: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 합의·보상 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 피해 대응 가이드', href: '/guide/traffic-accident' },
       { label: '소액사건 소송 가이드', href: '/guide/small-claims' },
       { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },

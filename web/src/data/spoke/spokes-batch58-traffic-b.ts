@@ -84,6 +84,7 @@ export const spokesBatch58TrafficB: SpokePage[] = [
     ],
     cta: { text: '후유증 추가 청구 가능한지 AI로 점검하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '교통사고 치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의 후 추가 청구', href: '/guide/traffic-accident/traffic-accident-post-settlement-additional-claim' },
       { label: '뒤늦은 통증 의무기록', href: '/guide/traffic-accident/traffic-accident-delayed-pain-medical-record' },
       { label: '추돌 100대0 합의 후 후유증', href: '/guide/traffic-accident/traffic-rear-end-100to0-settled-late-aftereffect' },

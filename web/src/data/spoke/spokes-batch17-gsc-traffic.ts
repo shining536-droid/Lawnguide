@@ -90,6 +90,7 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 합의·보상 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의금 계산 방법', href: '/guide/traffic-accident/settlement-amount-calculation' },
       { label: '교통사고 합의 절차 총정리', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '교통사고 합의 시 흔한 실수', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
@@ -180,6 +181,7 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 통원치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의 바로 하면 안 되는 이유', href: '/guide/traffic-accident/traffic-settlement-dont-agree-immediately' },
       { label: '교통사고 합의금 계산 방법', href: '/guide/traffic-accident/settlement-amount-calculation' },
       { label: '소송 vs 합의 비교', href: '/guide/traffic-accident/settlement-vs-lawsuit-comparison' },
@@ -270,6 +272,7 @@ export const spokesBatch17GscTraffic: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의 바로 하면 안 되는 이유', href: '/guide/traffic-accident/traffic-settlement-dont-agree-immediately' },
       { label: '교통사고 후유증 치료비 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-treatment-claim' },
       { label: '교통사고 합의금 계산 방법', href: '/guide/traffic-accident/settlement-amount-calculation' },

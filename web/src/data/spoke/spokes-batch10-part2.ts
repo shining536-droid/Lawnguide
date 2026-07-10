@@ -318,6 +318,7 @@ export const spokesBatch10Part2Pages: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
       { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },

@@ -206,7 +206,14 @@ export const spokesBatch27DismissalTraffic: SpokePage[] = [
       { question: '보험회사 합의 제안이 너무 적으면?', answer: '<p>합의를 서두르지 마세요. 치료 종결 후 후유장해 진단을 받고, 일실수입까지 산정한 후 합의하는 것이 유리합니다.</p>' },
     ],
     cta: { text: '교통사고 후유장해 보상 가능 금액 AI로 확인하기', link: '/chat?domain=traffic-accident' },
-    internalLinks: [{ label: '홈', href: '/' }, { label: '교통사고 가이드', href: '/guide/traffic-accident' }, { label: '교통사고 합의금 적정 금액', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' }, { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' }, { label: '후유증 추가 치료비', href: '/guide/traffic-accident/traffic-delay-settlement-additional-treatment' }],
+    internalLinks: [
+      { label: '교통사고 통원치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
+      { label: '홈', href: '/' },
+      { label: '교통사고 가이드', href: '/guide/traffic-accident' },
+      { label: '교통사고 합의금 적정 금액', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
+      { label: '과실비율 분쟁', href: '/guide/traffic-accident/traffic-accident-fault-dispute-evidence' },
+      { label: '후유증 추가 치료비', href: '/guide/traffic-accident/traffic-delay-settlement-additional-treatment' },
+    ],
   },
 
   // ── 6. 무보험 차량 피해자 보상 ──

@@ -1,6 +1,7 @@
 export interface SpokeSection {
   title: string;
   content: string;
+  links?: { label: string; href: string; description?: string }[];
 }
 
 export interface ComparisonTable {
@@ -646,6 +647,7 @@ import { spokesBatch119DefameDivorceInheritTraffic } from './spoke/spokes-batch1
 import { spokesBatch119Labor } from './spoke/spokes-batch119-labor';
 import { spokesDivorceHub } from './spoke/spokes-divorce-hub';
 import { spokesUnemploymentHub } from './spoke/spokes-unemployment-hub';
+import { spokesTrafficHub } from './spoke/spokes-traffic-hub';
 import { spokesBatch120FraudSexCrime } from './spoke/spokes-batch120-fraud-sexcrime';
 import { spokesBatch120AssaultDuiJeonseFraud } from './spoke/spokes-batch120-assault-dui-jeonsefraud';
 import { spokesBatch120DefameDivorceInheritTraffic } from './spoke/spokes-batch120-defame-divorce-inherit-traffic';
@@ -1299,6 +1301,7 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch119Labor,
   ...spokesDivorceHub,
   ...spokesUnemploymentHub,
+  ...spokesTrafficHub,
   ...spokesBatch120FraudSexCrime,
   ...spokesBatch120AssaultDuiJeonseFraud,
   ...spokesBatch120DefameDivorceInheritTraffic,

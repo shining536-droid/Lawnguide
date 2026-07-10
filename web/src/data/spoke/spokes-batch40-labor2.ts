@@ -778,6 +778,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 통원치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 종합 가이드', href: '/guide/traffic-accident' },
       { label: '교통사고 과실비율 다툴 때 증거와 이의절차', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '어린이보호구역 12대 중과실 형사', href: '/guide/traffic-accident/traffic-accident-child-zone-12-major-faults-criminal' },

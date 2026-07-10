@@ -85,6 +85,7 @@ export const spokesBatch53Traffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '교통사고 통원치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '무보험 차량 사고 청구', href: '/guide/traffic-accident/traffic-accident-uninsured-vehicle-claim' },
       { label: '뺑소니 가해자 식별·증인', href: '/guide/traffic-accident/traffic-accident-hit-and-run-identify-witness' },
       { label: '뺑소니 혐의 1차 대응', href: '/guide/traffic-accident/traffic-accident-hitandrun-charge-first-response' },

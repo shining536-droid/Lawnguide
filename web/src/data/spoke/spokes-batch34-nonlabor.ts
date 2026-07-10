@@ -377,6 +377,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
     ],
     cta: { text: '대중교통 사고 보상 전략 AI 분석', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '통원치료·합의·후유증 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의 절차', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '블랙박스 증거 활용 교통사고', href: '/guide/traffic-accident/traffic-accident-dashcam-evidence-guide' },
       { label: '교통사고 보험금 청구 절차 총정리', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },

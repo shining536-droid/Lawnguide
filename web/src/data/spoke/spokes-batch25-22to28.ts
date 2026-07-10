@@ -83,6 +83,7 @@ export const spokesBatch25_22to28: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
+      { label: '통원치료·합의·후유증 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의 절차 총정리', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '교통사고 과실비율 다툼 대응법', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
@@ -167,6 +168,7 @@ export const spokesBatch25_22to28: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의 절차 총정리', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '교통사고 후유증 치료비 청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-treatment-claim' },
       { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
@@ -246,6 +248,7 @@ export const spokesBatch25_22to28: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 합의·보상 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 과실비율 다툼 대응법', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '교통사고 합의 절차 총정리', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '교통사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },

@@ -340,6 +340,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
     ],
     cta: { text: '교통사고 보상금 적정 금액 AI로 확인하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
+      { label: '교통사고 치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 어디서부터', href: '/guide/traffic-accident/traffic-accident-where-to-start' },
       { label: '과실비율 다투기', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
       { label: '합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },

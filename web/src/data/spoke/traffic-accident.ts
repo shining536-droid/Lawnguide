@@ -91,6 +91,7 @@ export const trafficAccidentPages: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '통원치료·합의·후유증 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
     ],
@@ -195,6 +196,7 @@ export const trafficAccidentPages: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 합의·보상 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
       { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
@@ -302,6 +304,7 @@ export const trafficAccidentPages: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 통원치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
       { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
@@ -406,6 +409,7 @@ export const trafficAccidentPages: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 절차, 지금 무료로 진단받아 보세요', link: '/diagnosis/traffic-accident' },
     internalLinks: [
+      { label: '교통사고 치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
       { label: '교통사고 합의 전 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },

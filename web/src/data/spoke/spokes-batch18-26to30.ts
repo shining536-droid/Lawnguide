@@ -238,6 +238,7 @@ export const spokesBatch18_26to30: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '통원치료·합의·후유증 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },
       { label: '소액사건 가이드', href: '/guide/small-claims' },
       { label: '교통사고 보상금 6대 항목 총정리', href: '/guide/traffic-accident/traffic-accident-injury-compensation' },

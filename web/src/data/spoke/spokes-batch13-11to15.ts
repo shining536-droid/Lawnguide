@@ -69,6 +69,7 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '통원치료·합의·후유증 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },
       { label: '교통사고 합의 절차', href: '/guide/traffic-accident/accident-settlement-process' },
@@ -149,6 +150,7 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
       link: '/diagnosis/traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 합의·보상 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '홈', href: '/' },
       { label: '교통사고 가이드', href: '/guide/traffic-accident' },
       { label: '교통사고 과실비율 산정 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },

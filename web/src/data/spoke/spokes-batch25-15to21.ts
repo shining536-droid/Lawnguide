@@ -580,6 +580,7 @@ export const spokesBatch25_15to21: SpokePage[] = [
       link: '/chat?domain=traffic-accident',
     },
     internalLinks: [
+      { label: '교통사고 통원치료·합의 종합 가이드', href: '/guide/traffic-accident/traffic-accident-treatment-settlement-guide' },
       { label: '교통사고 합의 실수 방지 가이드', href: '/guide/traffic-accident/traffic-accident-settlement-mistakes' },
       { label: '교통사고 보상 절차 안내', href: '/guide/traffic-accident/accident-settlement-process' },
       { label: '교통사고 과실비율 분쟁 대응', href: '/guide/traffic-accident/traffic-accident-fault-ratio-dispute' },
