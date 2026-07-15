@@ -672,6 +672,10 @@ import { spokesBatch125FraudSexCrime } from './spoke/spokes-batch125-fraud-sexcr
 import { spokesBatch125AssaultDuiJeonseFraud } from './spoke/spokes-batch125-assault-dui-jeonsefraud';
 import { spokesBatch125DefameDivorceInheritTraffic } from './spoke/spokes-batch125-defame-divorce-inherit-traffic';
 import { spokesBatch125Labor } from './spoke/spokes-batch125-labor';
+import { spokesBatch126FraudSexCrime } from './spoke/spokes-batch126-fraud-sexcrime';
+import { spokesBatch126AssaultDuiJeonseFraud } from './spoke/spokes-batch126-assault-dui-jeonsefraud';
+import { spokesBatch126DefameDivorceInheritTraffic } from './spoke/spokes-batch126-defame-divorce-inherit-traffic';
+import { spokesBatch126Labor } from './spoke/spokes-batch126-labor';
 import { spokesBatch91AssaultDuiJeonseFraud } from './spoke/spokes-batch91-assault-dui-jeonsefraud';
 import { spokesBatch91DefameDivorceInheritTraffic } from './spoke/spokes-batch91-defame-divorce-inherit-traffic';
 import { spokesBatch91Labor } from './spoke/spokes-batch91-labor';
@@ -1342,6 +1346,10 @@ export const SPOKE_PAGES: SpokePage[] = [
   ...spokesBatch125AssaultDuiJeonseFraud,
   ...spokesBatch125DefameDivorceInheritTraffic,
   ...spokesBatch125Labor,
+  ...spokesBatch126FraudSexCrime,
+  ...spokesBatch126AssaultDuiJeonseFraud,
+  ...spokesBatch126DefameDivorceInheritTraffic,
+  ...spokesBatch126Labor,
 ];
 
 export function getSpokePage(domain: string, slug: string): SpokePage | undefined {
