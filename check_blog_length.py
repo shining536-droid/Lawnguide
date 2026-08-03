@@ -81,8 +81,9 @@ EMPATHY_HOOK_RE = re.compile(
     r"힘드시|당황|난감|막상|갑자기|어느\s*날|놓치|헤매|혼란|불안|무섭|떨리|"
     r"나요\?|까요\?|아실\s*거예요|이실\s*거예요|당연합니다|~시죠|되시죠)"
 )
+# 구형식(2자리 연도) 확장 — 한국 구판례는 '96므1397' 형식이라 (19|20)\d{2} 로는 안 잡힌다.
 CASE_NUMBER_RE = re.compile(
-    r"\b(20\d{2}(?:다|도|두|스|므|모|노|고합|구합|허|드|누|누라|하|마|재)(?:\d+))\b"
+    r"\b(\d{2,4}(?:다|도|두|스|므|모|노|고합|구합|허|드|누|누라|하|마|재)(?:\d+))\b"
 )
 # divorce/wage 하급심 뒷방 완화 — 도메인 가드.
 # domain ∉ _CASE_EXTRA 이면 suf == _CASE_BASE → regex 가 CASE_NUMBER_RE 와 byte-동일(Δ=0 보장).
@@ -97,7 +98,7 @@ _CASE_EXTRA = {
 def _case_re(domain: str | None):
     extra = _CASE_EXTRA.get(domain or "", "")
     suf = _CASE_BASE + ("|" + extra if extra else "")
-    return re.compile(rf"\b(20\d{{2}}(?:{suf})(?:\d+))\b")
+    return re.compile(rf"\b(\d{{2,4}}(?:{suf})(?:\d+))\b")
 # 고용보험심사위 재결 전용 ("2023재결 제44호") — check_case_numbers 에서 domain=='unemployment' 한정 사용
 JAEGYEOL_RE = re.compile(r"20\d{2}재결\s*제?\s*\d+\s*호")
 BLOG_SUBSECTIONS = [
