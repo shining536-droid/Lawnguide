@@ -6,7 +6,7 @@
       비대박 비노동 2(inheritance1/traffic-accident1)
 관점: victim24 / accused10 / neutral6
 """
-import json, os
+import json, os, re, glob
 
 REPO = r"C:\Users\shini\easylaw-scraper"
 BASE = os.path.join(REPO, "_b135")
@@ -150,6 +150,12 @@ HOLDING_NOTE = "요지 없음·판시사항(holding) 기반 건. 판시 원문 �
 
 
 def load_case(domain_file, num):
+    # 수동 라우팅 재사용 가드 — load_case 는 pool 을 우회하므로 used_nums 필터를 못 받는다.
+    # TRAFFIC_MANUAL bump 를 놓치면 직전 배치가 쓴 판례를 무음으로 재인용하게 되어 여기서 차단.
+    _pat = re.compile(r"(?<!\d)" + re.escape(num) + r"(?!\d)")
+    for _f in glob.glob(os.path.join(REPO, "web", "src", "data", "spoke", "*.ts")):
+        if _pat.search(open(_f, encoding="utf-8").read()):
+            raise SystemExit(f"수동판례 {num} 이미 사용됨({os.path.basename(_f)}) — TRAFFIC_MANUAL bump 필요")
     rows = json.load(open(os.path.join(REPO, "kb", domain_file, "cases.json"), encoding="utf-8"))
     for r in rows:
         if (r.get("사건번호") or "").strip() == num:

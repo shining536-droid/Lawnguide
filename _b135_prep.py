@@ -34,6 +34,7 @@ prev_kw = []
 for f in glob.glob(os.path.join(REPO, "web", "src", "data", "spoke", "spokes-batch134-*.ts")):
     src = open(f, encoding="utf-8").read()
     prev_kw += re.findall(r"^\s*keyword:\s*'([^']+)'", src, re.M)
+assert prev_kw, "직전배치 glob 매칭 0 — 버전 bump 확인"
 
 # ── 4. 사용된 사건번호 (전 스포크 + used-cases.json) ────────────────
 used_nums = set()
