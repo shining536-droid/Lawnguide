@@ -152,6 +152,31 @@ KEYS = dict(num="사건번호", court="법원명", date="선고일자", name="�
 TRAFFIC_DUI_FALLBACK = {"2006도3441", "2005도9743", "2002도3190", "2000도1731", "2001도5369", "2010도759"}
 
 
+# ⚠️ b144 후속 (B-3 1순위) — 사건명 설명 블록 스트리핑.
+#   NAME_INCLUDE 매칭이 순수 부분문자열이라 사건명 뒤에 붙는 판시요약 블록
+#   (예: "채무부존재확인[상해보험회사가 …]", "손해배상(기)[성폭력범죄의 소년 피의자들이 …]")
+#   안의 단어가 죄명으로 오인식돼 오도메인 판례가 pool 상단에 올라왔다.
+#   '죄명' 이 들어있는 괄호(인정된죄명·일부인정된죄명·변경된죄명)는 실제 죄명 정보라 반드시 보존한다.
+#   실측: 5개 도메인 NAME 통과 5,480건 중 24건만 탈락(전부 설명문 안 매칭), 정상 판례 손실 0.
+def strip_expl(name):
+    for op, cl in (("[", "]"), ("{", "}"), ("〔", "〕")):
+        out, i = "", 0
+        while True:
+            a = name.find(op, i)
+            if a < 0:
+                out += name[i:]
+                break
+            b = name.find(cl, a)
+            if b < 0:
+                out += name[i:]
+                break
+            blk = name[a:b + 1]
+            out += name[i:a] + (blk if "죄명" in blk else "")
+            i = b + 1
+        name = out
+    return name
+
+
 def load(domain):
     p = os.path.join(REPO, "kb", DOMAIN_FILES[domain], "cases.json")
     rows = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else []
@@ -214,7 +239,7 @@ def build_pool(domain, want=12):
         inc = NAME_INCLUDE.get(domain)
         if inc:
             # 주된 죄명(사건명 첫 구분자 앞) 기준 — 혼합사건에서 부수 죄명만 걸려 통과하는 squatter 차단
-            primary = re.split(r"[·ㆍ,]", name)[0]
+            primary = re.split(r"[·ㆍ,]", strip_expl(name))[0]   # b144 후속: 설명 블록 제거 후 주죄명 추출
             if not any(w in primary for w in inc):
                 continue
         if any(w in name for w in NAME_EXCLUDE.get(domain, [])):
