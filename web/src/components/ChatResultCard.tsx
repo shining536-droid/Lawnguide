@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import type { ResultEntry, DocumentItem } from '@/lib/domains-client';
 
 /**
@@ -366,9 +366,60 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
     setWaitlistConfirmed(false);
   }, []);
 
+  /* ─── 진단 퍼널 계측 (chat_start → chat_complete → diagnosis_save / diagnosis_share) ───
+     PII 금지: answers(사용자 자유입력)·status_summary(사용자 값이 섞인 문장)는 절대 보내지 않는다.
+     앱이 정의한 카테고리 값(type_id, risk_level, guide_domain)만 보낸다. */
+  const funnelDomain = domainKey ?? domainName;
+  // risk_level 은 경로에 따라 문장이 들어올 수 있어(subtype 결과는 안내 문구를 넣는다)
+  // GA4 차원값으로 쓰기 전에 정해진 카테고리로만 좁힌다. 목록 밖은 'other'.
+  const riskBucket = ['높음', '보통', '낮음'].includes(result.risk_level) ? result.risk_level : 'other';
+  const trackFunnel = useCallback(
+    (eventName: 'chat_complete' | 'diagnosis_save' | 'diagnosis_share') => {
+      if (typeof window === 'undefined' || typeof window.gtag !== 'function') return;
+      window.gtag('event', eventName, {
+        guide_domain: funnelDomain,
+        result_type_id: result.type_id,
+        risk_level: riskBucket,
+        page_path: window.location.pathname,
+      });
+    },
+    [funnelDomain, result.type_id, riskBucket]
+  );
+
+  // chat_complete — 결과 카드가 실제로 마운트된 시점(= 진단 flow 가 결과 상태로 전환 완료).
+  // 버튼 노출이 아니라 상태 전환 기준이며, ref 가드로 리렌더 중복 발사를 막는다.
+  const completeFired = useRef(false);
+  useEffect(() => {
+    if (completeFired.current) return;
+    completeFired.current = true;
+    trackFunnel('chat_complete');
+  }, [trackFunnel]);
+
+  // diagnosis_save — 클릭이 아니라 브라우저 인쇄 대화상자가 닫힌 뒤(afterprint) 1회.
+  // 브라우저는 "실제 저장 성공" 신호를 주지 않으므로 취소와 저장을 구분할 수 없다(ANALYTICS_EVENTS.md 한계 참조).
+  // 그래도 클릭 시점 발사보다는 실제 인쇄 흐름에 가깝다.
+  const saveArmed = useRef(false);
+  const handleSaveClick = useCallback(() => {
+    if (typeof window === 'undefined') return;
+    if (!saveArmed.current) {
+      saveArmed.current = true;
+      window.addEventListener(
+        'afterprint',
+        () => {
+          trackFunnel('diagnosis_save');
+          saveArmed.current = false;
+        },
+        { once: true }
+      );
+    }
+    window.print();
+  }, [trackFunnel]);
+
+  // diagnosis_share — 클립보드 쓰기가 성공한 경우에만. 실패(catch)에서는 발사하지 않는다.
   const handleCopyLink = async () => {
     try {
       await navigator.clipboard.writeText(window.location.href);
+      trackFunnel('diagnosis_share');
       alert('링크가 복사되었습니다.');
     } catch {
       alert('링크 복사에 실패했습니다.');
@@ -626,7 +677,7 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
           링크 복사
         </button>
         <button
-          onClick={() => window.print()}
+          onClick={handleSaveClick}
           className="flex-1 min-w-[80px] text-sm text-gray-600 hover:text-gray-800 bg-gray-100 hover:bg-gray-200 py-2.5 px-4 rounded-xl transition-colors font-medium"
         >
           PDF 저장

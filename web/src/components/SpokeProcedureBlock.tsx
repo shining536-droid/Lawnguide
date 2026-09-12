@@ -30,6 +30,76 @@ function hostFromUrl(u: string): string {
   }
 }
 
+/**
+ * 기관명 → 공식 호스트 조각.
+ *
+ * 과거에는 agency_names[i] 에 source_urls[i] 를 인덱스로 짝지었는데, 두 배열은 길이도 순서도
+ * 무관해서 라벨과 전혀 다른 기관으로 연결됐다(예: jeonse 의 "대한법률구조공단" → khug.or.kr).
+ * 이제 라벨에 이름이 적힌 기관만 대상으로 삼고, 그 도메인의 source_urls 안에서만 링크를 고른다.
+ * 여기 없는 호스트를 새로 만들지 않으며, 후보가 없으면 링크를 붙이지 않는다.
+ */
+const AGENCY_HOSTS: ReadonlyArray<readonly [RegExp, readonly string[]]> = [
+  [/HUG|주택도시보증/, ['khug.or.kr']],
+  [/전세사기피해지원센터/, ['jeonse.kgeop.go.kr']],
+  [/주택임대차분쟁조정/, ['hldcc.or.kr', 'adrhome.reb.or.kr']],
+  [/상가건물임대차분쟁조정/, ['cbldcc.or.kr']],
+  [/법률구조공단|KLAC/, ['klac.or.kr']],
+  [/양육비이행관리원/, ['childsupport.or.kr']],
+  [/노동위원회/, ['nlrc.go.kr']],
+  [/고용노동부/, ['moel.go.kr']],
+  [/근로복지공단/, ['comwel.or.kr']],
+  [/경찰청|ECRM|사이버범죄/, ['ecrm.police.go.kr', 'police.go.kr']],
+  [/KISA|보호나라/, ['boho.or.kr']],
+  [/금융감독원|FSS/, ['fss.or.kr']],
+  [/한국소비자원|KCA/, ['kca.go.kr']],
+  [/소비자24/, ['consumer.go.kr']],
+  [/개인정보분쟁조정|PIDRC|kopico/, ['kopico.go.kr']],
+  [/개인정보보호위원회/, ['privacy.go.kr']],
+  [/가정법원|전자민원센터|^법원/, ['help.scourt.go.kr', 'scourt.go.kr']],
+  [/찾기쉬운 생활법령정보/, ['easylaw.go.kr']],
+  [/교육부/, ['moe.go.kr']],
+  [/환경분쟁조정|ECC/, ['ecc.me.go.kr']],
+  [/층간소음이웃사이센터/, ['noiseinfo.or.kr']],
+  [/검찰청/, ['spo.go.kr']],
+  [/범죄피해자지원센터/, ['kcvc.kcva.or.kr']],
+  [/해바라기센터/, ['women1366.kr']],
+  [/디지털성범죄피해자지원센터/, ['d4u.stop.or.kr']],
+  [/아동권리보장원/, ['ncrc.or.kr']],
+  [/한국마약퇴치운동본부/, ['drugfree.or.kr']],
+  [/식품의약품안전처/, ['mfds.go.kr']],
+  [/도로교통공단/, ['koroad.or.kr']],
+  [/중앙행정심판위원회/, ['simpan.go.kr']],
+  [/국세청/, ['nts.go.kr']],
+  [/법무부/, ['moj.go.kr']],
+  [/통신분쟁조정/, ['tdrc.kr', 'kcc.go.kr']],
+  [/콘텐츠분쟁조정/, ['kcdrc.kr']],
+];
+
+/** 라벨에 이름이 적힌 기관들의 호스트를 라벨 등장 순서대로 모은다. */
+function hostsNamedIn(label: string): string[] {
+  const ordered: string[] = [];
+  for (const part of label.split(/\s*[+＋]\s*/)) {
+    const head = part.split(/\s*[—–-]\s*/)[0].replace(/\([^)]*\)/g, '').trim();
+    const hit = AGENCY_HOSTS.find(([re]) => re.test(head));
+    if (!hit) continue;
+    for (const h of hit[1]) if (!ordered.includes(h)) ordered.push(h);
+  }
+  return ordered;
+}
+
+/**
+ * 표시 기관명에 맞는 URL 을 그 도메인의 source_urls 에서 고른다.
+ * 라벨 앞쪽(대표) 기관을 우선하고, 어느 기관의 URL 도 없으면 undefined (링크 없음).
+ * deep link 는 원형 그대로 유지한다.
+ */
+function urlForAgency(label: string, urls: readonly string[]): string | undefined {
+  for (const host of hostsNamedIn(label)) {
+    const hit = urls.find((u) => hostFromUrl(u).includes(host.replace(/^www\./, '')));
+    if (hit) return hit;
+  }
+  return undefined;
+}
+
 export default function SpokeProcedureBlock({ procedure }: Props) {
   const flow = procedure.primary_flow;
   const agencyText = procedure.agency_names.length
@@ -173,8 +243,8 @@ export default function SpokeProcedureBlock({ procedure }: Props) {
           <div className="px-5 pb-5">
           <ul className="space-y-2">
             {procedure.agency_names.slice(0, 4).map((name, i) => {
-              // 같은 인덱스의 source_url 시도
-              const url = procedure.source_urls[i];
+              // 인덱스 짝짓기 금지 — 라벨에 이름이 적힌 기관의 URL 만 연결한다(없으면 링크 생략).
+              const url = urlForAgency(name, procedure.source_urls);
               return (
                 <li key={i} className="flex items-start gap-2 text-sm">
                   <span className="text-blue-500 mt-0.5">▸</span>
