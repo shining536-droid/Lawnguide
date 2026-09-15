@@ -347,7 +347,7 @@ export const spokesBatch27RetirementWage: SpokePage[] = [
     sections: [
       {
         title: '임금체불 형사처벌 기준',
-        content: '<p><strong style="color:#1e3a5f">근로기준법 제109조에 따른 처벌 기준입니다.</strong></p>\n<ul>\n<li><strong>임금·퇴직금 미지급</strong> — 3년 이하 징역 또는 3,000만원 이하 벌금</li>\n<li><strong>반의사불벌죄</strong> — 근로자가 처벌을 원하지 않으면 처벌하지 않습니다. 단, 체불 상태가 계속되면 반의사불벌죄 조항이 적용되지 않습니다(2022년 개정).</li>\n<li><strong>반복 체불 가중처벌</strong> — 3년 이내 2회 이상 체불한 사업주는 반의사불벌죄 적용이 배제됩니다.</li>\n</ul>',
+        content: '<p><strong style="color:#1e3a5f">근로기준법 제109조에 따른 처벌 기준입니다.</strong></p>\n<ul>\n<li><strong>임금·퇴직금 미지급</strong> — 3년 이하 징역 또는 3,000만원 이하 벌금</li>\n<li><strong>반의사불벌죄</strong> — 근로자가 처벌을 원하지 않으면 처벌하지 않습니다. 단, 체불 상태가 계속되면 반의사불벌죄 조항이 적용되지 않습니다(2022년 개정).</li>\n<li><strong>반복 체불 가중처벌</strong> — 3년 이내 2회 이상 체불한 사업주는 반의사불벌죄 적용이 배제됩니다.</li>\n</ul>\n<p>프리랜서 계약이라도 근로자성이 인정되면 같은 처벌 규정이 적용됩니다. 인정 기준은 <a href="/guide/wage/wage-freelancer-worker-status-claim">프리랜서 근로자성 인정 기준</a>에서 확인할 수 있습니다.</p>',
       },
       {
         title: '형사 절차 흐름',

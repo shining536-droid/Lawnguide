@@ -315,7 +315,7 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
   {
     domain: 'traffic-accident',
     slug: 'traffic-accident-bus-sudden-stop-passenger-claim',
-    keyword: '버스 택시 급정거 승객 부상 손해배상 청구',
+    keyword: '버스 급정거로 다쳤는데 어디에 보상을 청구하나요?',
     questionKeyword: '버스 급정거로 다쳤는데 보상받을 수 있나요?',
     ctaKeyword: '대중교통 사고 손해배상 상담',
     type: '절차형',
@@ -341,9 +341,52 @@ export const spokesBatch34Nonlabor: SpokePage[] = [
       {
         title: '4단계: 손해배상 범위와 소송 절차',
         content:
-          '<p><strong style="color:#1e3a5f">합의가 되지 않으면 민사소송을 통해 치료비, 일실수입, 위자료 등을 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>치료비</strong> — 실제 치료에 소요된 비용 전액을 청구합니다. 향후 치료비도 의사 소견에 따라 포함됩니다.</li>\n<li><strong>일실수입</strong> — 부상으로 근무하지 못한 기간의 소득 손실을 청구합니다. 급여명세서, 소득증명원 등으로 입증합니다.</li>\n<li><strong>위자료</strong> — 정신적 고통에 대한 배상입니다. 부상 정도, 치료 기간, 후유장해 여부 등에 따라 산정됩니다.</li>\n<li><strong>과실상계</strong> — 승객이 손잡이를 잡지 않았거나 안전벨트를 착용하지 않은 경우, 승객 과실 10~30%가 인정될 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">팁: 공제조합이 보상금을 지나치게 낮게 제시하면, 교통사고 전문 변호사를 통해 소송을 검토하는 것이 유리할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의가 되지 않으면 민사소송을 통해 치료비, 일실수입, 위자료 등을 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>치료비</strong> — 실제 치료에 소요된 비용 전액을 청구합니다. 향후 치료비도 의사 소견에 따라 포함됩니다.</li>\n<li><strong>일실수입</strong> — 부상으로 근무하지 못한 기간의 소득 손실을 청구합니다. 급여명세서, 소득증명원 등으로 입증합니다.</li>\n<li><strong>위자료</strong> — 정신적 고통에 대한 배상입니다. 부상 정도, 치료 기간, 후유장해 여부 등에 따라 산정됩니다.</li>\n<li><strong>과실상계</strong> — 승객이 손잡이를 잡지 않았거나 안전벨트를 착용하지 않은 경우, 승객 과실 10~30%가 인정될 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">팁: 공제조합이 보상금을 지나치게 낮게 제시하면, 교통사고 전문 변호사를 통해 소송을 검토하는 것이 유리할 수 있습니다.</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/자동차손해배상%20보장법" target="_blank" rel="noopener">국가법령정보센터 「자동차손해배상 보장법」</a> · <a href="https://www.fss.or.kr/fss/main/main.do" target="_blank" rel="noopener">금융감독원 금융분쟁조정</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 무료 법률상담(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "청구 상대별 판단표",
+          "headers": [
+                "청구 상대",
+                "언제 이 경로를 쓰나",
+                "확인할 자료",
+                "주의할 점"
+          ],
+          "rows": [
+                {
+                      "label": "운수회사 공제조합(버스·택시)",
+                      "values": [
+                            "급정거로 차내에서 다친 경우의 기본 경로",
+                            "사고증명서, 노선·차량번호",
+                            "사고 사실을 기사에게 알리고 접수번호를 받아두기"
+                      ]
+                },
+                {
+                      "label": "상대 차량 보험사",
+                      "values": [
+                            "다른 차량의 개입으로 급정거한 경우",
+                            "사고 경위서, 블랙박스",
+                            "양쪽 모두에 청구 가능한 구조인지 확인"
+                      ]
+                },
+                {
+                      "label": "운전기사 개인",
+                      "values": [
+                            "회사와 별도로 책임을 묻는 경우",
+                            "사고 경위, 과실 정황",
+                            "실익이 크지 않을 수 있어 통상 회사·공제조합 우선"
+                      ]
+                },
+                {
+                      "label": "내 자동차보험(자기신체·자동차상해)",
+                      "values": [
+                            "치료비를 먼저 처리해야 할 때",
+                            "보험증권 담보 내역",
+                            "선처리 후 구상·자기부담금 정산 문제가 남음"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 자차보험 자기부담금의 별도 청구 가능 여부',

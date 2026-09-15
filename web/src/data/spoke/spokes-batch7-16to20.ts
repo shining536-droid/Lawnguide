@@ -26,7 +26,7 @@ export const spokesBatch7Pages16to20: SpokePage[] = [
       {
         title: '자진 퇴사로도 실업급여를 받을 수 있는 주요 사유',
         content:
-          '<p><strong style="color:#1e3a5f">임금 체불, 직장 내 괴롭힘, 건강 악화, 통근 불가 등이 대표적인 정당한 사유입니다</strong></p>\n<p>① <strong>임금 체불</strong>: 2개월 이상 임금이 체불된 경우. ② <strong>직장 내 괴롭힘·성희롱 피해</strong>: 신고 후 개선이 안 된 경우. ③ <strong>건강 악화</strong>: 의사가 업무 수행이 어렵다고 진단한 경우(진단서 필요). ④ <strong>사업장 이전으로 통근 불가</strong>: 편도 3시간 이상이 새로 발생한 경우. ⑤ <strong>최저임금 미달</strong>: 임금이 최저임금보다 낮은 경우. ⑥ <strong>근로조건 일방 변경</strong>: 임금 또는 근로시간이 불리하게 변경된 경우.</p>\n<p>이 외에도 가족 간병 필요, 임신·출산·육아로 인한 불가피한 사정도 포함됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주요 사유: 임금 체불 | 괴롭힘 피해 | 건강 악화(진단서) | 통근 3시간 이상 | 근로조건 불리 변경</blockquote>',
+          '<p><strong style="color:#1e3a5f">임금 체불, 직장 내 괴롭힘, 건강 악화, 통근 불가 등이 대표적인 정당한 사유입니다</strong></p>\n<p>① <strong>임금 체불</strong>: 2개월 이상 임금이 체불된 경우. ② <strong>직장 내 괴롭힘·성희롱 피해</strong>: 신고 후 개선이 안 된 경우. ③ <strong>건강 악화</strong>: 의사가 업무 수행이 어렵다고 진단한 경우(진단서 필요). ④ <strong>사업장 이전으로 통근 불가</strong>: 편도 3시간 이상이 새로 발생한 경우. ⑤ <strong>최저임금 미달</strong>: 임금이 최저임금보다 낮은 경우. ⑥ <strong>근로조건 일방 변경</strong>: 임금 또는 근로시간이 불리하게 변경된 경우.</p>\n<p>이 외에도 가족 간병 필요, 임신·출산·육아로 인한 불가피한 사정도 포함됩니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주요 사유: 임금 체불 | 괴롭힘 피해 | 건강 악화(진단서) | 통근 3시간 이상 | 근로조건 불리 변경</blockquote>\n<p>성희롱 피해로 퇴사한 경우에는 신고 기록이 있는지에 따라 입증 난이도가 크게 달라집니다. 상황별 준비는 <a href="/guide/unemployment/unemployment-sexual-harassment-quit-benefit">직장 성희롱 퇴사 실업급여</a>에서 확인하세요.</p>',
       },
       {
         title: '수급을 위해 준비해야 할 서류와 증거',

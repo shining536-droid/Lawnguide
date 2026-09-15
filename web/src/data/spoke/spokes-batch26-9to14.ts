@@ -46,7 +46,7 @@ export const spokesBatch26_9to14: SpokePage[] = [
 <blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">이 중 1~2개가 아닌 종합적 판단이 원칙입니다. 프리랜서 계약이라도 위 요소 대부분이 충족되면 근로자로 인정될 가능성이 큽니다.</blockquote>`,
       },
       {
-        title: '프리랜서로 일했을 때 퇴직금 청구 절차',
+        title: '프리랜서로 일했을 때 퇴직금 청구 절차\n<p>같은 판단 기준이 임금체불 신고에도 그대로 쓰입니다. 체불 진정 쪽 정리는 <a href="/guide/wage/wage-freelancer-worker-status-claim">프리랜서 임금체불 근로자성 인정</a>에서 볼 수 있습니다.</p>',
         content: `<p><strong style="color:#1e3a5f">근로자 인정 + 1년 이상 근무 = 퇴직금 청구 가능</strong></p>
 <p>근로자퇴직급여 보장법 제8조제1항에 따르면, 계속근로기간 1년에 대해 30일분 이상의 평균임금을 퇴직금으로 지급해야 합니다. 프리랜서로 등록되어 있어도 실질 근로자로 인정되면 이 규정이 적용됩니다.</p>
 <p>청구 단계:</p>

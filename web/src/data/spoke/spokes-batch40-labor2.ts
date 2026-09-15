@@ -181,7 +181,7 @@ export const spokesBatch40Labor2: SpokePage[] = [
   {
     domain: 'dismissal',
     slug: 'dismissal-during-sick-leave',
-    keyword: '병가 질병휴직 중 해고',
+    keyword: '병가·질병휴직 중에 해고당했는데 괜찮은가요?',
     questionKeyword: '병가 중에 해고당했는데 괜찮은가요?',
     ctaKeyword: '병가 중 해고 점검',
     type: '상황형',
@@ -212,9 +212,60 @@ export const spokesBatch40Labor2: SpokePage[] = [
       {
         title: '개인 질병 해고 — 정당성 판단 기준',
         content:
-          '<p><strong style="color:#1e3a5f">개인 질병이라도 해고는 정당한 사유와 사회통념상 상당성이 있어야 합니다.</strong></p>\n<ul>\n<li><strong>치유 가능성</strong> — 단기간 내 복귀 가능하면 해고 정당성 부정.</li>\n<li><strong>직무 수행 곤란</strong> — 해당 직무 수행이 근본적으로 어려운지 객관적으로 판단.</li>\n<li><strong>대체 직무 검토</strong> — 전환 배치 가능성을 검토했는지 확인합니다.</li>\n<li><strong>절차 준수</strong> — 해고 예고·서면 통지·사유 명시 등 형식 요건.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 취업규칙상 질병휴직 한도 내라면 해고 정당성은 더 엄격하게 심사됩니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">개인 질병이라도 해고는 정당한 사유와 사회통념상 상당성이 있어야 합니다.</strong></p>\n<ul>\n<li><strong>치유 가능성</strong> — 단기간 내 복귀 가능하면 해고 정당성 부정.</li>\n<li><strong>직무 수행 곤란</strong> — 해당 직무 수행이 근본적으로 어려운지 객관적으로 판단.</li>\n<li><strong>대체 직무 검토</strong> — 전환 배치 가능성을 검토했는지 확인합니다.</li>\n<li><strong>절차 준수</strong> — 해고 예고·서면 통지·사유 명시 등 형식 요건.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 취업규칙상 질병휴직 한도 내라면 해고 정당성은 더 엄격하게 심사됩니다.</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/근로기준법" target="_blank" rel="noopener">국가법령정보센터 「근로기준법」(제23조 제2항 해고 제한)</a> · <a href="https://www.comwel.or.kr/comwel/main.jsp" target="_blank" rel="noopener">근로복지공단 산재 요양급여 신청(1588-0075)</a> · <a href="https://www.nlrc.go.kr/" target="_blank" rel="noopener">노동위원회 부당해고 구제신청</a></p>',
       },
     ],
+    comparison: {
+          "title": "재해 성격별 — 해고 제한이 달라집니다",
+          "headers": [
+                "내 상황",
+                "해고 제한",
+                "핵심 쟁점",
+                "지금 할 일"
+          ],
+          "rows": [
+                {
+                      "label": "업무상 재해로 요양 중",
+                      "values": [
+                            "요양기간과 그 후 30일간 해고 금지",
+                            "업무상 재해 인정 여부",
+                            "산재 신청·승인 여부부터 확인"
+                      ]
+                },
+                {
+                      "label": "산재 신청 중이고 아직 미승인",
+                      "values": [
+                            "승인되면 제한이 적용될 수 있음",
+                            "승인 시점과 해고 시점의 선후",
+                            "심사·재심사 절차를 이어가며 구제신청도 병행"
+                      ]
+                },
+                {
+                      "label": "개인 질병으로 병가·휴직 중",
+                      "values": [
+                            "절대적 금지 규정은 적용되지 않음",
+                            "치유 가능성·직무 수행 가능성",
+                            "취업규칙의 휴직 한도부터 확인"
+                      ]
+                },
+                {
+                      "label": "취업규칙상 휴직 한도 안에 있음",
+                      "values": [
+                            "해고 정당성이 더 엄격하게 심사됨",
+                            "회사가 한도를 지켰는지",
+                            "취업규칙 사본 확보"
+                      ]
+                },
+                {
+                      "label": "해고 통지가 구두로만 있었음",
+                      "values": [
+                            "절차 위반을 다툴 수 있음",
+                            "서면통지 여부",
+                            "통지 방식과 날짜를 기록"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 업무상 재해 요양기간 중 해고 무효',

@@ -473,7 +473,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
   {
     domain: 'neighbor-dispute',
     slug: 'boundary-wall-dispute',
-    keyword: '경계 분쟁 담장 설치 법적 기준',
+    keyword: '옆집과 경계·담장 분쟁이 생겼는데 어떻게 해결하나요?',
     questionKeyword: '옆집과 경계 분쟁이 생겼는데 어떻게 해결하나요?',
     ctaKeyword: '경계 분쟁 해결',
     type: '상황형',
@@ -504,9 +504,60 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '경계 분쟁 해결 절차 — 조정에서 소송까지',
         content:
-          '<p><strong style="color:#1e3a5f">경계 분쟁은 이웃 관계를 고려하여 조정부터 시도하되, 해결이 안 되면 소송으로 권리를 확보해야 합니다</strong></p>\n<ul>\n<li><strong>당사자 간 협의</strong> — 측량 결과를 근거로 양측이 합의합니다. 합의 시 경계 확인 합의서를 작성하고 공증받으면 나중에 다시 분쟁이 생기는 것을 방지할 수 있습니다</li>\n<li><strong>경계확정의 소</strong> — 경계가 불분명하거나 다투어지는 경우 법원에 경계확정의 소를 제기할 수 있습니다. 법원이 측량 감정을 실시하여 경계를 확정합니다</li>\n<li><strong>소유권 확인·방해 제거 소송</strong> — 경계가 확정된 후에도 상대방이 침범 부분을 반환하지 않으면 소유권 확인 소송과 방해 제거(담장 철거 등) 청구를 합니다</li>\n<li><strong>손해배상</strong> — 경계 침범으로 인한 토지 사용 불능, 건물 훼손 등의 손해에 대해 배상을 청구할 수 있습니다</li>\n</ul>\n<p><strong>실무 팁:</strong> 경계 분쟁은 이웃과의 장기적 관계에 영향을 미칩니다. 가능하면 <strong>법원 조정</strong>이나 <strong>대한법률구조공단 상담</strong>을 먼저 활용하세요. 소송은 최후 수단으로 남겨두는 것이 현명합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 측량 → 협의 → 조정 → 경계확정소송 → 방해제거·손해배상</blockquote>',
+          '<p><strong style="color:#1e3a5f">경계 분쟁은 이웃 관계를 고려하여 조정부터 시도하되, 해결이 안 되면 소송으로 권리를 확보해야 합니다</strong></p>\n<ul>\n<li><strong>당사자 간 협의</strong> — 측량 결과를 근거로 양측이 합의합니다. 합의 시 경계 확인 합의서를 작성하고 공증받으면 나중에 다시 분쟁이 생기는 것을 방지할 수 있습니다</li>\n<li><strong>경계확정의 소</strong> — 경계가 불분명하거나 다투어지는 경우 법원에 경계확정의 소를 제기할 수 있습니다. 법원이 측량 감정을 실시하여 경계를 확정합니다</li>\n<li><strong>소유권 확인·방해 제거 소송</strong> — 경계가 확정된 후에도 상대방이 침범 부분을 반환하지 않으면 소유권 확인 소송과 방해 제거(담장 철거 등) 청구를 합니다</li>\n<li><strong>손해배상</strong> — 경계 침범으로 인한 토지 사용 불능, 건물 훼손 등의 손해에 대해 배상을 청구할 수 있습니다</li>\n</ul>\n<p><strong>실무 팁:</strong> 경계 분쟁은 이웃과의 장기적 관계에 영향을 미칩니다. 가능하면 <strong>법원 조정</strong>이나 <strong>대한법률구조공단 상담</strong>을 먼저 활용하세요. 소송은 최후 수단으로 남겨두는 것이 현명합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">절차: 측량 → 협의 → 조정 → 경계확정소송 → 방해제거·손해배상</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/민법" target="_blank" rel="noopener">국가법령정보센터 「민법」(제214조·제237조·제239조·제242조·제245조)</a> · <a href="https://www.lx.or.kr/kor.do" target="_blank" rel="noopener">한국국토정보공사 지적측량 신청(1588-7704)</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 무료 법률상담(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "경계 분쟁 — 상황별 대응 판단표",
+          "headers": [
+                "내 상황",
+                "먼저 할 일",
+                "법적 근거 영역",
+                "주의할 기한"
+          ],
+          "rows": [
+                {
+                      "label": "경계가 어디인지부터 불분명",
+                      "values": [
+                            "경계복원측량 신청",
+                            "지적 측량 결과가 기준",
+                            "측량 신청 후 현장 입회 일정"
+                      ]
+                },
+                {
+                      "label": "옆집 담장이 경계를 넘어옴",
+                      "values": [
+                            "측량 결과로 침범 범위 특정",
+                            "소유권에 기한 방해 제거",
+                            "침범 상태가 길어지면 취득시효 쟁점"
+                      ]
+                },
+                {
+                      "label": "옆집이 경계 가까이 건물을 지음",
+                      "values": [
+                            "착수 시점과 완성 여부 확인",
+                            "경계선 부근 건축 제한",
+                            "착수 후 1년·완성 여부에 따라 청구 내용이 달라짐"
+                      ]
+                },
+                {
+                      "label": "담장 설치 비용을 누가 낼지 다툼",
+                      "values": [
+                            "공동 설치인지 단독 설치인지 확정",
+                            "경계표·담 설치 비용 분담",
+                            "합의가 안 되면 조정·소송으로"
+                      ]
+                },
+                {
+                      "label": "상대가 오래 점유해 옴",
+                      "values": [
+                            "점유 시작 시점과 기간 정리",
+                            "취득시효",
+                            "기간 계산이 결론을 좌우"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '인접 토지 생활방해 수인한도 기준 — 대법원 판결',
@@ -593,7 +644,7 @@ export const spokesBatch22_8to14: SpokePage[] = [
       {
         title: '민사 조정 및 손해배상 청구',
         content:
-          '<p><strong style="color:#1e3a5f">관리사무소와 경찰 신고로도 해결되지 않으면 법적 절차를 통해 권리를 보호받을 수 있습니다</strong></p>\n<ul>\n<li><strong>내용증명 발송</strong> — 반복 위반자에게 내용증명을 보내 주차 금지를 요청하고, 불이행 시 법적 조치를 하겠다는 의사를 통보합니다. 이후 소송에서 "충분한 경고를 했다"는 증거가 됩니다</li>\n<li><strong>민사 조정</strong> — 법원에 주차 방해 금지 조정을 신청합니다. 이웃 간 분쟁은 조정을 먼저 시도하는 것이 권장됩니다. 비용이 적고 2~3개월 내 결과를 받을 수 있습니다</li>\n<li><strong>방해 제거 청구 소송</strong> — 전용사용권이 인정되는 경우, 방해 제거(주차 금지) 청구 소송을 제기할 수 있습니다. 승소하면 향후 위반 시 간접강제(1일당 일정 금액 부과)를 신청할 수 있습니다</li>\n<li><strong>손해배상</strong> — 불법 주차로 인한 차량 출입 불가, 영업 손실 등 구체적인 손해가 있으면 배상을 청구할 수 있습니다. 다만 단순 불편만으로는 배상 인정이 어렵습니다</li>\n</ul>\n<p><strong>기억하세요:</strong> 주차 분쟁에서 물리적 충돌이나 차량 손괴가 발생하면 형사 사건으로 번질 수 있습니다. 감정적 대응을 삼가고, 모든 대응을 기록으로 남기세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법적 절차: 내용증명 → 민사 조정 → 방해 제거 소송 → 간접강제</blockquote>',
+          '<p><strong style="color:#1e3a5f">관리사무소와 경찰 신고로도 해결되지 않으면 법적 절차를 통해 권리를 보호받을 수 있습니다</strong></p>\n<ul>\n<li><strong>내용증명 발송</strong> — 반복 위반자에게 내용증명을 보내 주차 금지를 요청하고, 불이행 시 법적 조치를 하겠다는 의사를 통보합니다. 이후 소송에서 "충분한 경고를 했다"는 증거가 됩니다</li>\n<li><strong>민사 조정</strong> — 법원에 주차 방해 금지 조정을 신청합니다. 이웃 간 분쟁은 조정을 먼저 시도하는 것이 권장됩니다. 비용이 적고 2~3개월 내 결과를 받을 수 있습니다</li>\n<li><strong>방해 제거 청구 소송</strong> — 전용사용권이 인정되는 경우, 방해 제거(주차 금지) 청구 소송을 제기할 수 있습니다. 승소하면 향후 위반 시 간접강제(1일당 일정 금액 부과)를 신청할 수 있습니다</li>\n<li><strong>손해배상</strong> — 불법 주차로 인한 차량 출입 불가, 영업 손실 등 구체적인 손해가 있으면 배상을 청구할 수 있습니다. 다만 단순 불편만으로는 배상 인정이 어렵습니다</li>\n</ul>\n<p><strong>기억하세요:</strong> 주차 분쟁에서 물리적 충돌이나 차량 손괴가 발생하면 형사 사건으로 번질 수 있습니다. 감정적 대응을 삼가고, 모든 대응을 기록으로 남기세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">법적 절차: 내용증명 → 민사 조정 → 방해 제거 소송 → 간접강제</blockquote>\n<p>주차가 아니라 토지 경계나 담장이 문제라면 측량부터 순서가 달라집니다. 대응 절차는 <a href="/guide/neighbor-dispute/boundary-wall-dispute">경계 분쟁·담장 설치 기준</a>에서 확인하세요.</p>',
       },
     ],
     cases: [

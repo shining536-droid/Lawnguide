@@ -732,7 +732,7 @@ export const spokesBatch43Labor: SpokePage[] = [
       {
         title: '5인 미만도 퇴직금 의무인 이유',
         content:
-          '<p><strong style="color:#1e3a5f">퇴직급여법은 근기법과 달리 상시 근로자 수 제한이 없습니다.</strong></p>\n<ul>\n<li><strong>적용 범위</strong> — 근로자퇴직급여보장법 제3조 — 모든 사업장 적용.</li>\n<li><strong>수급 요건</strong> — 1주 15시간 이상 + 계속근로 1년 이상.</li>\n<li><strong>금액 기준</strong> — 30일분 평균임금 × 근속연수 이상.</li>\n<li><strong>중간정산·DC형·DB형</strong> — 형태와 무관하게 퇴직 시 수급권 확정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "5인 미만이라 퇴직금 없다"는 말은 명백한 거짓입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴직급여법은 근기법과 달리 상시 근로자 수 제한이 없습니다.</strong></p>\n<ul>\n<li><strong>적용 범위</strong> — 근로자퇴직급여보장법 제3조 — 모든 사업장 적용.</li>\n<li><strong>수급 요건</strong> — 1주 15시간 이상 + 계속근로 1년 이상.</li>\n<li><strong>금액 기준</strong> — 30일분 평균임금 × 근속연수 이상.</li>\n<li><strong>중간정산·DC형·DB형</strong> — 형태와 무관하게 퇴직 시 수급권 확정.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "5인 미만이라 퇴직금 없다"는 말은 명백한 거짓입니다.</blockquote>\n<p>지급 의무가 생기는 조건(주 15시간·계속근로 1년)을 상황별로 확인하려면 <a href="/guide/retirement/retirement-small-business-5">5인 미만 사업장 퇴직금 의무</a>를 함께 보세요.</p>',
       },
       {
         title: '4단계 직접 청구 절차',

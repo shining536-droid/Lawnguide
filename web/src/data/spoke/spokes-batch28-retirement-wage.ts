@@ -118,7 +118,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '근속기간: 출산·육아휴직 기간 전부 포함',
         content:
-          '<p><strong style="color:#1e3a5f">출산전후휴가, 유산·사산휴가, 육아휴직 기간은 모두 계속근로기간에 포함됩니다.</strong></p>\n<ul>\n<li><strong>출산전후휴가(90일)</strong> — 근로기준법 제74조에 따른 법정 휴가로 근속기간에 당연 포함됩니다</li>\n<li><strong>육아휴직(최대 1년)</strong> — 남녀고용평등법 제19조에 따라 육아휴직 기간도 근속기간에 포함됩니다</li>\n<li><strong>배우자 출산휴가(10일)</strong> — 근로기준법 제18조의2에 따른 법정 휴가로 마찬가지로 근속기간에 산입됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 휴직 기간이 근속연수에서 빠진다면 이는 위법입니다. 퇴직금 산정 시 가능한 한 포함되어야 합니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">출산전후휴가, 유산·사산휴가, 육아휴직 기간은 모두 계속근로기간에 포함됩니다.</strong></p>\n<ul>\n<li><strong>출산전후휴가(90일)</strong> — 근로기준법 제74조에 따른 법정 휴가로 근속기간에 당연 포함됩니다</li>\n<li><strong>육아휴직(최대 1년)</strong> — 남녀고용평등법 제19조에 따라 육아휴직 기간도 근속기간에 포함됩니다</li>\n<li><strong>배우자 출산휴가(10일)</strong> — 근로기준법 제18조의2에 따른 법정 휴가로 마찬가지로 근속기간에 산입됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 휴직 기간이 근속연수에서 빠진다면 이는 위법입니다. 퇴직금 산정 시 가능한 한 포함되어야 합니다</blockquote>\n<p>계속근로 1년을 채웠는지가 먼저 확인할 지점입니다. 소규모 사업장의 적용 여부는 <a href="/guide/retirement/retirement-small-business-5">5인 미만 사업장 퇴직금 의무</a>에서 확인하세요.</p>',
       },
       {
         title: '평균임금 산정: 휴직 기간은 제외하고 계산',
@@ -184,7 +184,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
   {
     domain: 'retirement',
     slug: 'retirement-small-business-5',
-    keyword: '5인 미만 사업장 퇴직금 의무',
+    keyword: '5인 미만 사업장도 퇴직금을 줘야 하나요?',
     questionKeyword: '직원이 5명도 안 되는 가게에서도 퇴직금을 줘야 하나요?',
     ctaKeyword: '5인 미만 퇴직금 의무 상담',
     type: '자격확인형',
@@ -210,9 +210,60 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '사업주 거부 시 실전 대응법',
         content:
-          '<p><strong style="color:#1e3a5f">소규모 사업장이라도 퇴직금 미지급은 형사처벌 대상이며 적극 대응이 가능합니다.</strong></p>\n<ul>\n<li><strong>증거 확보</strong> — 근로계약서가 없더라도 급여 입금 내역, 출근 사진, 카카오톡 업무 지시 내역 등으로 근로관계를 증명할 수 있습니다</li>\n<li><strong>노동청 진정</strong> — 관할 고용노동지청에 무료로 진정서를 제출합니다. 근로감독관이 사업장을 조사합니다</li>\n<li><strong>형사처벌</strong> — 퇴직금 미지급은 3년 이하 징역 또는 3,000만원 이하 벌금에 해당할 소지가 있습니다</li>\n<li><strong>소액사건심판</strong> — 체불금이 3,000만원 이하면 소액사건심판으로 빠르게 판결을 받을 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 소규모 사업장일수록 근로계약서 없이 구두 계약하는 경우가 많으므로 근무 증빙 자료를 평소에 보관하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">소규모 사업장이라도 퇴직금 미지급은 형사처벌 대상이며 적극 대응이 가능합니다.</strong></p>\n<ul>\n<li><strong>증거 확보</strong> — 근로계약서가 없더라도 급여 입금 내역, 출근 사진, 카카오톡 업무 지시 내역 등으로 근로관계를 증명할 수 있습니다</li>\n<li><strong>노동청 진정</strong> — 관할 고용노동지청에 무료로 진정서를 제출합니다. 근로감독관이 사업장을 조사합니다</li>\n<li><strong>형사처벌</strong> — 퇴직금 미지급은 3년 이하 징역 또는 3,000만원 이하 벌금에 해당할 소지가 있습니다</li>\n<li><strong>소액사건심판</strong> — 체불금이 3,000만원 이하면 소액사건심판으로 빠르게 판결을 받을 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 소규모 사업장일수록 근로계약서 없이 구두 계약하는 경우가 많으므로 근무 증빙 자료를 평소에 보관하세요</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/근로자퇴직급여%20보장법" target="_blank" rel="noopener">국가법령정보센터 「근로자퇴직급여 보장법」(제4조·제9조)</a> · <a href="https://www.comwel.or.kr/comwel/main.jsp" target="_blank" rel="noopener">근로복지공단(1588-0075) 대지급금 안내</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 무료 법률상담(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "5인 미만 사업장 퇴직금 — 조건별 판단표",
+          "headers": [
+                "내 상황",
+                "퇴직금 지급 의무",
+                "근거·확인 포인트",
+                "다음 행동"
+          ],
+          "rows": [
+                {
+                      "label": "주 15시간 이상, 1년 이상 계속 근로",
+                      "values": [
+                            "있음",
+                            "사업장 규모와 무관하게 적용",
+                            "근무기간·주당 근로시간부터 확정"
+                      ]
+                },
+                {
+                      "label": "주 15시간 미만으로만 근무",
+                      "values": [
+                            "대상 아님",
+                            "소정근로시간 요건 미충족",
+                            "실제 근로시간 기록으로 15시간 이상인지 재확인"
+                      ]
+                },
+                {
+                      "label": "1년을 못 채우고 퇴사",
+                      "values": [
+                            "원칙적으로 대상 아님",
+                            "계속근로기간 1년 요건",
+                            "수습·휴직 기간이 근속에 포함되는지 확인"
+                      ]
+                },
+                {
+                      "label": "동거 친족만으로 구성된 사업장",
+                      "values": [
+                            "적용이 제외될 수 있음",
+                            "근로기준법 적용 제외 사유",
+                            "친족 외 근로자가 있었는지 확인"
+                      ]
+                },
+                {
+                      "label": "사업주가 폐업·무자력",
+                      "values": [
+                            "대지급금으로 일부 지급 가능",
+                            "임금채권보장 제도",
+                            "근로복지공단에 대지급금 절차 문의"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 퇴직금 청구권과 이사의 책임',
@@ -277,7 +328,7 @@ export const spokesBatch28RetirementWageUnpaid: SpokePage[] = [
       {
         title: '성과급이 퇴직금에 포함되는 4가지 판단 기준',
         content:
-          '<p><strong style="color:#1e3a5f">성과급·상여금이 평균임금(퇴직금 산정 기초)에 포함되려면 아래 요건을 종합적으로 판단합니다.</strong></p>\n<ol>\n<li><strong>계속성</strong> — 일시적이 아니라 매년 또는 매 분기 등 일정 주기로 반복 지급되었는가</li>\n<li><strong>정기성</strong> — 지급 시기가 정해져 있거나 관행적으로 특정 시기에 지급되었는가</li>\n<li><strong>일률성</strong> — 전 직원 또는 일정 그룹에게 일률적으로 지급되었는가 (개인별 재량 지급이 아닌지)</li>\n<li><strong>고정성</strong> — 근무 성적과 무관하게 일정 금액 이상이 보장되었는가</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 4가지 모두 충족하면 거의 확실히 포함되며, 3가지만 충족해도 판례는 포함으로 판단하는 경향이 있습니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">성과급·상여금이 평균임금(퇴직금 산정 기초)에 포함되려면 아래 요건을 종합적으로 판단합니다.</strong></p>\n<ol>\n<li><strong>계속성</strong> — 일시적이 아니라 매년 또는 매 분기 등 일정 주기로 반복 지급되었는가</li>\n<li><strong>정기성</strong> — 지급 시기가 정해져 있거나 관행적으로 특정 시기에 지급되었는가</li>\n<li><strong>일률성</strong> — 전 직원 또는 일정 그룹에게 일률적으로 지급되었는가 (개인별 재량 지급이 아닌지)</li>\n<li><strong>고정성</strong> — 근무 성적과 무관하게 일정 금액 이상이 보장되었는가</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 4가지 모두 충족하면 거의 확실히 포함되며, 3가지만 충족해도 판례는 포함으로 판단하는 경향이 있습니다</blockquote>\n<p>성과급이 아닌 야간·연장수당은 판단이 더 단순합니다. 포함·제외 사례는 <a href="/guide/retirement/retirement-night-overtime-included-calculation">야간·연장수당 퇴직금 포함 기준</a>에서 비교했습니다.</p>',
       },
       {
         title: '포함·제외 사례 비교와 퇴직금 차이',

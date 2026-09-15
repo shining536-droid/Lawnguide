@@ -647,7 +647,7 @@ export const spokesBatch44Nonlabor1: SpokePage[] = [
       {
         title: '택시 사고 보험 구조 — 4가지 보장',
         content:
-          '<p><strong style="color:#1e3a5f">택시 탑승 중 사고는 승객 과실이 거의 없으므로 보상 경로가 풍부합니다.</strong></p>\n<ul>\n<li><strong>택시 공제</strong> — 전국택시운송사업조합 공제, 대인Ⅰ·Ⅱ + 자손 보장.</li>\n<li><strong>상대방 보험</strong> — 가해 차량 대인배상으로 승객 보상.</li>\n<li><strong>승객 개인 보험</strong> — 실손보험·운전자보험·자동차보험(다른 차량 탑승 중).</li>\n<li><strong>카카오T·우티 플랫폼</strong> — 플랫폼 자체 안전보험, 한도 별도.</li>\n<li><strong>산재 가능성</strong> — 출퇴근·업무 중 택시 이용은 산재 추가 청구.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 택시는 승객 과실 0% 원칙이므로 4가지 보험 중 유리한 쪽부터 청구 가능.</blockquote>',
+          '<p><strong style="color:#1e3a5f">택시 탑승 중 사고는 승객 과실이 거의 없으므로 보상 경로가 풍부합니다.</strong></p>\n<ul>\n<li><strong>택시 공제</strong> — 전국택시운송사업조합 공제, 대인Ⅰ·Ⅱ + 자손 보장.</li>\n<li><strong>상대방 보험</strong> — 가해 차량 대인배상으로 승객 보상.</li>\n<li><strong>승객 개인 보험</strong> — 실손보험·운전자보험·자동차보험(다른 차량 탑승 중).</li>\n<li><strong>카카오T·우티 플랫폼</strong> — 플랫폼 자체 안전보험, 한도 별도.</li>\n<li><strong>산재 가능성</strong> — 출퇴근·업무 중 택시 이용은 산재 추가 청구.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 택시는 승객 과실 0% 원칙이므로 4가지 보험 중 유리한 쪽부터 청구 가능.</blockquote>\n<p>버스 급정거 사고도 공제조합 청구 구조가 비슷합니다. 차이점은 <a href="/guide/traffic-accident/traffic-accident-bus-sudden-stop-passenger-claim">버스 급정거 승객 부상 보상</a>에서 확인할 수 있습니다.</p>',
       },
       {
         title: '현장 대응 — 사고 직후 5가지',

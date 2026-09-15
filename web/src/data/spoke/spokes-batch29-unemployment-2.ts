@@ -107,7 +107,7 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-waiting-7days',
-    keyword: '실업급여 대기기간 7일',
+    keyword: '실업급여 대기기간 7일엔 무엇을 해야 하나요?',
     questionKeyword: '실업급여 대기기간 7일은 무엇인가요?',
     ctaKeyword: '실업급여 대기기간 상담',
     type: '절차타임라인형',
@@ -139,9 +139,60 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
       {
         title: '대기기간 중 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">대기기간 중에도 취업하면 가능한 한 신고해야 합니다.</strong></p>\n<ul>\n<li><strong>취업 시 신고</strong> — 대기기간 중 취업하면 실업급여 수급자격이 소멸합니다. 가능한 한 고용센터에 신고하세요.</li>\n<li><strong>아르바이트 주의</strong> — 대기기간 중 단기 아르바이트를 하면 취업으로 간주될 수 있습니다.</li>\n<li><strong>해외 출국 제한</strong> — 대기기간 중 해외 출국은 실업급여 수급에 영향을 줄 수 있으므로 사전 확인이 필요합니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">대기기간 중에도 취업하면 가능한 한 신고해야 합니다.</strong></p>\n<ul>\n<li><strong>취업 시 신고</strong> — 대기기간 중 취업하면 실업급여 수급자격이 소멸합니다. 가능한 한 고용센터에 신고하세요.</li>\n<li><strong>아르바이트 주의</strong> — 대기기간 중 단기 아르바이트를 하면 취업으로 간주될 수 있습니다.</li>\n<li><strong>해외 출국 제한</strong> — 대기기간 중 해외 출국은 실업급여 수급에 영향을 줄 수 있으므로 사전 확인이 필요합니다.</li><li><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/고용보험법" target="_blank" rel="noopener">국가법령정보센터 「고용보험법」(제49조 대기기간)</a>, <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a>에서 원문과 절차를 확인하세요</li>\n</ul>',
       },
     ],
+    comparison: {
+          "title": "대기기간 중 행동별 판단표",
+          "headers": [
+                "대기기간 중 이 행동",
+                "수급에 미치는 영향",
+                "왜 그런가",
+                "권장 행동"
+          ],
+          "rows": [
+                {
+                      "label": "워크넷 구직등록·이력서 작성",
+                      "values": [
+                            "유리",
+                            "첫 실업인정에 필요한 준비",
+                            "대기기간에 미리 끝내두기"
+                      ]
+                },
+                {
+                      "label": "구직활동 시작",
+                      "values": [
+                            "유리",
+                            "첫 인정일에 보고할 실적이 생김",
+                            "활동 증빙을 캡처·보관"
+                      ]
+                },
+                {
+                      "label": "단기 아르바이트",
+                      "values": [
+                            "취업으로 볼 여지가 있어 주의",
+                            "근로 사실은 신고 대상",
+                            "하기 전에 고용센터에 먼저 확인"
+                      ]
+                },
+                {
+                      "label": "취업했는데 알리지 않음",
+                      "values": [
+                            "부정수급 문제로 이어질 수 있음",
+                            "미신고 근로는 제재 대상",
+                            "즉시 신고"
+                      ]
+                },
+                {
+                      "label": "해외 출국",
+                      "values": [
+                            "일정에 따라 수급에 영향",
+                            "실업인정일 출석·활동과 충돌",
+                            "출국 전 담당 고용센터에 확인"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 고용보험 조기재취업수당 부지급 처분',
@@ -187,7 +238,7 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-reapply-after-expiry',
-    keyword: '실업급여 종료 후 재신청',
+    keyword: '실업급여 수급이 끝났는데 다시 받을 수 있나요?',
     questionKeyword: '실업급여 수급이 끝났는데 다시 받을 수 있나요?',
     ctaKeyword: '실업급여 재수급 상담',
     type: '자격확인형',
@@ -213,9 +264,52 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
       {
         title: '재수급 시 주의사항',
         content:
-          '<p><strong style="color:#1e3a5f">짧은 기간 반복 취업·퇴직은 부정수급 의심을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>부정수급 조사</strong> — 짧은 기간 반복적으로 취업·퇴직하는 패턴은 고용센터에서 부정수급 여부를 조사할 수 있습니다.</li>\n<li><strong>실질적 구직활동</strong> — 수급 중 성실한 구직활동을 하고 있다는 것을 실업인정 시 보여주어야 합니다.</li>\n<li><strong>조기재취업수당 활용</strong> — 빠르게 재취업하면 남은 수급기간의 1/2을 일시금으로 받을 수 있으니 적극 활용하세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">짧은 기간 반복 취업·퇴직은 부정수급 의심을 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>부정수급 조사</strong> — 짧은 기간 반복적으로 취업·퇴직하는 패턴은 고용센터에서 부정수급 여부를 조사할 수 있습니다.</li>\n<li><strong>실질적 구직활동</strong> — 수급 중 성실한 구직활동을 하고 있다는 것을 실업인정 시 보여주어야 합니다.</li>\n<li><strong>조기재취업수당 활용</strong> — 빠르게 재취업하면 남은 수급기간의 1/2을 일시금으로 받을 수 있으니 적극 활용하세요.</li><li><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/고용보험법" target="_blank" rel="noopener">국가법령정보센터 「고용보험법」</a>, <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a>, <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-180-C.html" target="_blank" rel="noopener">실업급여 모의계산</a>에서 본인 기준으로 확인하세요.</li>\n</ul>',
       },
     ],
+    comparison: {
+          "title": "상황별 재수급 판단표",
+          "headers": [
+                "내 상황",
+                "어떻게 되나",
+                "확인할 자료",
+                "다음 행동"
+          ],
+          "rows": [
+                {
+                      "label": "수급 종료 후 재취업했다가 다시 실직",
+                      "values": [
+                            "새 직장 피보험단위기간이 180일 이상이면 새로 신청 가능",
+                            "피보험자격 이력조회",
+                            "이직일 기준 18개월 내 유급일 합계 확인"
+                      ]
+                },
+                {
+                      "label": "수급 중 취업했다가 12개월 안에 다시 실직",
+                      "values": [
+                            "남은 구직급여일수를 이어서 받을 수 있음",
+                            "기존 수급자격증, 이직확인서",
+                            "새로 신청하지 말고 고용센터에 재실직 사실부터 알리기"
+                      ]
+                },
+                {
+                      "label": "재취업 후 3개월 만에 실직(180일 미달)",
+                      "values": [
+                            "남은 일수가 없고 수급기간도 지났다면 요건 미충족",
+                            "종전 수급 종료일, 새 직장 가입기간",
+                            "180일을 채울 수 있는 시점을 먼저 계산"
+                      ]
+                },
+                {
+                      "label": "최근 5년 안에 여러 번 수급",
+                      "values": [
+                            "반복수급 제한 규정이 적용될 수 있음",
+                            "과거 수급 이력",
+                            "적용 여부와 감액 폭을 고용센터에서 직접 확인"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 고용보험 조기재취업수당 지급 요건',
@@ -287,7 +381,7 @@ export const spokesBatch29Unemployment2: SpokePage[] = [
       {
         title: '퇴사 전 이의 제기를 먼저 하세요',
         content:
-          '<p><strong style="color:#1e3a5f">변경에 동의하지 않는다는 의사를 공식적으로 남겨야 합니다.</strong></p>\n<ul>\n<li><strong>서면 이의</strong> — 사업주에게 "변경에 동의하지 않는다"는 내용의 이메일이나 서면을 보내세요.</li>\n<li><strong>협의 요청</strong> — 변경 내용에 대한 협의를 요청한 기록을 남기세요.</li>\n<li><strong>고용노동부 상담</strong> — 퇴사 전 고용노동부 상담센터(1350)에 문의하여 정당한 이직 인정 가능성을 사전 확인하세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">변경에 동의하지 않는다는 의사를 공식적으로 남겨야 합니다.</strong></p>\n<ul>\n<li><strong>서면 이의</strong> — 사업주에게 "변경에 동의하지 않는다"는 내용의 이메일이나 서면을 보내세요.</li>\n<li><strong>협의 요청</strong> — 변경 내용에 대한 협의를 요청한 기록을 남기세요.</li>\n<li><strong>고용노동부 상담</strong> — 퇴사 전 고용노동부 상담센터(1350)에 문의하여 정당한 이직 인정 가능성을 사전 확인하세요.</li>\n</ul>\n<p>퇴사 전에 기록을 남겨야 하는 것은 성희롱 사안에서 더 중요합니다. 남길 기록과 순서는 <a href="/guide/unemployment/unemployment-sexual-harassment-quit-benefit">직장 성희롱 퇴사 실업급여</a>에서 정리했습니다.</p>',
       },
     ],
     cases: [

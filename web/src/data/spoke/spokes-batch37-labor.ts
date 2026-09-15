@@ -19,7 +19,7 @@ export const spokesBatch37Labor: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-180days-insurance-period-calc',
-    keyword: '실업급여 180일 피보험단위기간 계산',
+    keyword: '실업급여 180일, 어떻게 계산하나요?',
     questionKeyword: '실업급여 180일 어떻게 계산하나요?',
     ctaKeyword: '실업급여 180일 요건 점검',
     type: '수치기한형',
@@ -50,9 +50,60 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '180일이 안 채워질 때의 대안',
         content:
-          '<p><strong style="color:#1e3a5f">180일이 모자란 경우에도 예외 규정이나 특례가 적용될 수 있으니 포기하지 말고 정확히 확인해야 합니다.</strong></p>\n<ul>\n<li><strong>건설일용근로자 특례</strong> — 일용근로자는 이직 전 신청일 기준으로 다른 기준이 적용되므로, 건설업 종사자는 별도 상담이 필요합니다.</li>\n<li><strong>예술인·특수형태근로자</strong> — 예술인·특수고용직은 고용보험 적용 기준이 다르므로 자격 조회 시 확인이 필요합니다.</li>\n<li><strong>재직 중 소급 가입</strong> — 회사가 고용보험 미가입 상태였다면 근로복지공단에 소급 가입 신청을 해 피보험 기간을 확보할 수 있습니다.</li>\n<li><strong>이직 연기 검토</strong> — 퇴사가 아직 확정되지 않았다면 며칠 더 일해 180일을 채우는 것이 실업급여 수급 측면에서 유리합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 피보험 이력은 고용보험 홈페이지(work.go.kr)에서 "피보험자격 이력조회"로 직접 확인 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">180일이 모자란 경우에도 예외 규정이나 특례가 적용될 수 있으니 포기하지 말고 정확히 확인해야 합니다.</strong></p>\n<ul>\n<li><strong>건설일용근로자 특례</strong> — 일용근로자는 이직 전 신청일 기준으로 다른 기준이 적용되므로, 건설업 종사자는 별도 상담이 필요합니다.</li>\n<li><strong>예술인·특수형태근로자</strong> — 예술인·특수고용직은 고용보험 적용 기준이 다르므로 자격 조회 시 확인이 필요합니다.</li>\n<li><strong>재직 중 소급 가입</strong> — 회사가 고용보험 미가입 상태였다면 근로복지공단에 소급 가입 신청을 해 피보험 기간을 확보할 수 있습니다.</li>\n<li><strong>이직 연기 검토</strong> — 퇴사가 아직 확정되지 않았다면 며칠 더 일해 180일을 채우는 것이 실업급여 수급 측면에서 유리합니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 피보험 이력은 고용보험 홈페이지(work.go.kr)에서 "피보험자격 이력조회"로 직접 확인 가능합니다.</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/고용보험법" target="_blank" rel="noopener">국가법령정보센터 「고용보험법」(제40조)</a> · <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a> · <a href="https://www.comwel.or.kr/comwel/main.jsp" target="_blank" rel="noopener">근로복지공단(1588-0075)</a></p>',
       },
     ],
+    comparison: {
+          "title": "유급일로 세는 법 — 포함되는 날과 빠지는 날",
+          "headers": [
+                "항목",
+                "180일 계산에 포함되나",
+                "이유",
+                "확인할 자료"
+          ],
+          "rows": [
+                {
+                      "label": "출근해서 일한 날",
+                      "values": [
+                            "포함",
+                            "임금을 받은 날이므로",
+                            "근태 기록, 급여명세서"
+                      ]
+                },
+                {
+                      "label": "주휴일(유급으로 처리된 경우)",
+                      "values": [
+                            "포함",
+                            "유급으로 처리된 날이므로",
+                            "근로계약서의 주휴일 규정"
+                      ]
+                },
+                {
+                      "label": "연차휴가·유급 병가",
+                      "values": [
+                            "포함",
+                            "유급 처리된 날이므로",
+                            "휴가 사용 내역"
+                      ]
+                },
+                {
+                      "label": "무급 휴직·무급 결근",
+                      "values": [
+                            "제외",
+                            "임금을 받지 않은 날이므로",
+                            "휴직 발령 문서"
+                      ]
+                },
+                {
+                      "label": "이직일에서 18개월을 넘어선 과거 근무",
+                      "values": [
+                            "제외",
+                            "산정 기간을 벗어나므로",
+                            "피보험자격 이력조회"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 구직급여 수급자격의 이직일 기준 원칙',
@@ -644,7 +695,7 @@ export const spokesBatch37Labor: SpokePage[] = [
   {
     domain: 'dismissal',
     slug: 'dismissal-tardiness-repeated-discipline',
-    keyword: '지각 결근 반복 해고 정당성',
+    keyword: '지각·결근이 반복됐다고 해고됐는데 다툴 수 있나요?',
     questionKeyword: '지각·결근 반복으로 해고됐는데 부당해고인가요?',
     ctaKeyword: '근태 해고 부당성 AI 점검',
     type: '비교형',
@@ -675,9 +726,60 @@ export const spokesBatch37Labor: SpokePage[] = [
       {
         title: '구제 절차 — 3개월 이내 노동위원회',
         content:
-          '<p><strong style="color:#1e3a5f">해고가 부당하다고 판단되면 해고 통지일로부터 3개월 이내에 지방노동위원회에 구제신청을 해야 합니다.</strong></p>\n<ul>\n<li><strong>기한 엄격</strong> — 3개월 기한은 제척기간으로, 하루라도 넘기면 구제신청이 불가능합니다.</li>\n<li><strong>증거 확보</strong> — 근태 기록, 사전 경고 여부, 해고 통지서, 소명 기회 부여 기록, 정당한 사유 입증 자료를 정리합니다.</li>\n<li><strong>구제 신청서 제출</strong> — 관할 지방노동위원회(사업장 소재지 기준)에 서면 또는 온라인으로 접수합니다.</li>\n<li><strong>인용 효과</strong> — 구제 인용 시 원직복직 + 해고 기간 임금 상당액 지급이 원칙입니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 노동위원회 심판 결과에 불복하면 중앙노동위원회 재심 → 행정소송으로 다툴 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">해고가 부당하다고 판단되면 해고 통지일로부터 3개월 이내에 지방노동위원회에 구제신청을 해야 합니다.</strong></p>\n<ul>\n<li><strong>기한 엄격</strong> — 3개월 기한은 제척기간으로, 하루라도 넘기면 구제신청이 불가능합니다.</li>\n<li><strong>증거 확보</strong> — 근태 기록, 사전 경고 여부, 해고 통지서, 소명 기회 부여 기록, 정당한 사유 입증 자료를 정리합니다.</li>\n<li><strong>구제 신청서 제출</strong> — 관할 지방노동위원회(사업장 소재지 기준)에 서면 또는 온라인으로 접수합니다.</li>\n<li><strong>인용 효과</strong> — 구제 인용 시 원직복직 + 해고 기간 임금 상당액 지급이 원칙입니다.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 노동위원회 심판 결과에 불복하면 중앙노동위원회 재심 → 행정소송으로 다툴 수 있습니다.</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/근로기준법" target="_blank" rel="noopener">국가법령정보센터 「근로기준법」(제23조·제27조·제28조)</a> · <a href="https://www.nlrc.go.kr/" target="_blank" rel="noopener">노동위원회 구제신청 안내</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 무료 법률상담(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "근태 해고 정당성 — 요건별 자가 점검표",
+          "headers": [
+                "점검 항목",
+                "회사에 유리한 사정",
+                "나에게 유리한 사정",
+                "확보할 자료"
+          ],
+          "rows": [
+                {
+                      "label": "반복성",
+                      "values": [
+                            "수개월에 걸쳐 지각·결근이 계속됨",
+                            "단발성이거나 짧은 기간에 몰려 있음",
+                            "근태 기록 원본"
+                      ]
+                },
+                {
+                      "label": "정당한 사유",
+                      "values": [
+                            "사유 없이 무단 지각·결근",
+                            "질병·간병·교통사고 등 사유와 사전 통보",
+                            "진단서, 통보 메시지"
+                      ]
+                },
+                {
+                      "label": "개선 기회",
+                      "values": [
+                            "서면 경고 후에도 개선되지 않음",
+                            "경고 없이 곧바로 해고",
+                            "경고장, 면담 기록"
+                      ]
+                },
+                {
+                      "label": "절차",
+                      "values": [
+                            "징계위원회와 소명 절차를 거침",
+                            "소명 기회 없음, 서면통지 미비",
+                            "해고 통지서, 취업규칙"
+                      ]
+                },
+                {
+                      "label": "기한",
+                      "values": [
+                            "-",
+                            "해고일로부터 3개월 내 구제신청 가능",
+                            "해고 통지일이 적힌 문서"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 근로자 지위 상실 시 금전보상 가능',

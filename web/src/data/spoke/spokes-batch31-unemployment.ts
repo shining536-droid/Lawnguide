@@ -67,7 +67,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '이직확인서 사유가 "자발적 퇴사"로 잘못 기재된 경우',
         content:
-          '<p><strong style="color:#1e3a5f">이직확인서 사유가 잘못 기재되어도 고용센터에 이의신청으로 정정할 수 있습니다.</strong></p>\n<p>사업주가 이직확인서에 "자발적 퇴사"로 기재하더라도, 고용센터에서 사실관계를 조사한 후 이직 사유를 변경할 수 있습니다. 고용보험법 제44조에 따라 고용센터는 이직확인서의 내용이 사실과 다르면 직권으로 정정할 권한이 있습니다.</p>\n<ol>\n<li><strong>이의신청서 제출</strong> — 관할 고용센터에 이직확인서 이의신청서를 작성하여 제출합니다. 강요 경위를 상세히 기술하세요.</li>\n<li><strong>증거자료 첨부</strong> — 녹음파일, 문자 캡처, 동료 진술서 등 증거를 함께 제출합니다.</li>\n<li><strong>사업주 조사</strong> — 고용센터에서 사업주에게 사실관계를 확인합니다. 사업주가 허위 기재한 것으로 확인되면 과태료가 부과될 수 있습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 이직확인서 발급일로부터 3개월 이내에 이의신청하세요. 증거가 충분하면 고용센터가 직권으로 사유를 변경합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">이직확인서 사유가 잘못 기재되어도 고용센터에 이의신청으로 정정할 수 있습니다.</strong></p>\n<p>사업주가 이직확인서에 "자발적 퇴사"로 기재하더라도, 고용센터에서 사실관계를 조사한 후 이직 사유를 변경할 수 있습니다. 고용보험법 제44조에 따라 고용센터는 이직확인서의 내용이 사실과 다르면 직권으로 정정할 권한이 있습니다.</p>\n<ol>\n<li><strong>이의신청서 제출</strong> — 관할 고용센터에 이직확인서 이의신청서를 작성하여 제출합니다. 강요 경위를 상세히 기술하세요.</li>\n<li><strong>증거자료 첨부</strong> — 녹음파일, 문자 캡처, 동료 진술서 등 증거를 함께 제출합니다.</li>\n<li><strong>사업주 조사</strong> — 고용센터에서 사업주에게 사실관계를 확인합니다. 사업주가 허위 기재한 것으로 확인되면 과태료가 부과될 수 있습니다.</li>\n</ol>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 이직확인서 발급일로부터 3개월 이내에 이의신청하세요. 증거가 충분하면 고용센터가 직권으로 사유를 변경합니다.</blockquote>\n<p>수습 기간 중 해고된 경우에도 이직확인서 사유가 잘못 적히는 일이 잦습니다. 대응 방법은 <a href="/guide/unemployment/unemployment-probation-fired">수습기간 해고 실업급여</a>에서 정리했습니다.</p>',
       },
       {
         title: '강요 사직 근로자가 놓치기 쉬운 실수 3가지',
@@ -304,7 +304,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '양도양수 시 실업급여 신청 전 확인할 서류',
         content:
-          '<p><strong style="color:#1e3a5f">사업 양도양수 관련 증빙서류를 미리 확보해야 고용센터에서 이직 사유를 인정받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>사업 양도양수 계약서(또는 공고문)</strong> — 양도양수 사실을 확인할 수 있는 서류입니다. 회사 내부 공지문도 유효합니다.</li>\n<li><strong>승계 거부 또는 근로조건 변경 통보서</strong> — 새 사업주가 승계를 거부하거나 근로조건 변경을 통보한 서류를 확보하세요.</li>\n<li><strong>기존 근로계약서</strong> — 양도양수 전 근로조건을 증명할 수 있는 서류입니다. 변경 전후를 비교하는 데 필요합니다.</li>\n<li><strong>이직확인서</strong> — 양도인(기존 사업주) 또는 양수인(새 사업주) 중 최종 고용관계가 있는 사업주에게 요청합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 승계 거부 통보서나 근로조건 변경 통보서가 가장 중요한 증거입니다. 구두 통보만 받았다면 문자나 이메일로 확인을 요청하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업 양도양수 관련 증빙서류를 미리 확보해야 고용센터에서 이직 사유를 인정받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>사업 양도양수 계약서(또는 공고문)</strong> — 양도양수 사실을 확인할 수 있는 서류입니다. 회사 내부 공지문도 유효합니다.</li>\n<li><strong>승계 거부 또는 근로조건 변경 통보서</strong> — 새 사업주가 승계를 거부하거나 근로조건 변경을 통보한 서류를 확보하세요.</li>\n<li><strong>기존 근로계약서</strong> — 양도양수 전 근로조건을 증명할 수 있는 서류입니다. 변경 전후를 비교하는 데 필요합니다.</li>\n<li><strong>이직확인서</strong> — 양도인(기존 사업주) 또는 양수인(새 사업주) 중 최종 고용관계가 있는 사업주에게 요청합니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 승계 거부 통보서나 근로조건 변경 통보서가 가장 중요한 증거입니다. 구두 통보만 받았다면 문자나 이메일로 확인을 요청하세요.</blockquote>\n<p>수급자격이 인정된 뒤에도 7일의 대기기간이 있습니다. 이 기간에 할 일은 <a href="/guide/unemployment/unemployment-waiting-7days">실업급여 대기기간 7일</a>에서 정리했습니다.</p>',
       },
     ],
     cases: [
@@ -457,7 +457,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '계절근로자가 주의할 점 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">짧은 근무기간이 반복되는 만큼, 피보험기간 관리와 신청 시기가 특히 중요합니다.</strong></p>\n<ul>\n<li><strong>신청 시기 놓치지 않기</strong> — 마지막 근무 종료일부터 12개월 이내에 실업급여를 신청해야 합니다. 계절이 끝나고 방심하다가 기한을 놓치는 경우가 많습니다.</li>\n<li><strong>반복 수급 제한</strong> — 최근 3년간 3회 이상 실업급여를 받으면 소정급여일수의 50%가 감액됩니다. 계절근로자는 매년 반복 수급할 수 있으니 이 규정을 숙지하세요.</li>\n<li><strong>고용보험 미가입 사업장 주의</strong> — 소규모 계절 사업장은 고용보험에 가입하지 않는 경우가 있습니다. 근무 시작 시 고용보험 가입 여부를 가능한 한 확인하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계절근로자는 매번 근로내역 신고 여부를 확인하고, 3회 이상 반복 수급 시 감액 규정을 기억하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">짧은 근무기간이 반복되는 만큼, 피보험기간 관리와 신청 시기가 특히 중요합니다.</strong></p>\n<ul>\n<li><strong>신청 시기 놓치지 않기</strong> — 마지막 근무 종료일부터 12개월 이내에 실업급여를 신청해야 합니다. 계절이 끝나고 방심하다가 기한을 놓치는 경우가 많습니다.</li>\n<li><strong>반복 수급 제한</strong> — 최근 3년간 3회 이상 실업급여를 받으면 소정급여일수의 50%가 감액됩니다. 계절근로자는 매년 반복 수급할 수 있으니 이 규정을 숙지하세요.</li>\n<li><strong>고용보험 미가입 사업장 주의</strong> — 소규모 계절 사업장은 고용보험에 가입하지 않는 경우가 있습니다. 근무 시작 시 고용보험 가입 여부를 가능한 한 확인하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계절근로자는 매번 근로내역 신고 여부를 확인하고, 3회 이상 반복 수급 시 감액 규정을 기억하세요.</blockquote>\n<p>반복 수급 제한이 실제로 어떻게 적용되는지는 <a href="/guide/unemployment/unemployment-reapply-after-expiry">실업급여 종료 후 재신청</a>에서 상황별로 정리했습니다.</p>',
       },
     ],
     cases: [
@@ -510,7 +510,7 @@ export const spokesBatch31Unemployment: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-internship-training-end',
-    keyword: '인턴 종료 실업급여 수급',
+    keyword: '인턴·수습이 끝나고 정규직 전환이 안 됐는데 실업급여 되나요?',
     questionKeyword: '인턴이나 수습 종료 후 정규직 전환이 안 됐는데 실업급여를 받을 수 있나요?',
     ctaKeyword: '인턴 종료 실업급여 상담',
     type: '체크리스트형',
@@ -536,9 +536,52 @@ export const spokesBatch31Unemployment: SpokePage[] = [
       {
         title: '인턴이 실업급여를 못 받는 경우와 대처법',
         content:
-          '<p><strong style="color:#1e3a5f">고용보험 미가입, 짧은 피보험기간 등의 문제가 있다면 아래 방법을 검토하세요.</strong></p>\n<ul>\n<li><strong>고용보험 미가입 시</strong> — 사업주가 고용보험에 가입하지 않았다면, 고용센터에 피보험자격 확인 청구를 하세요. 근로계약서, 급여 입금 내역 등으로 근무 사실을 입증하면 소급 가입이 가능합니다.</li>\n<li><strong>피보험기간 180일 미충족 시</strong> — 이전 직장의 피보험기간이 있다면 합산하세요. 이전 18개월 이내의 기간만 합산됩니다.</li>\n<li><strong>인턴이 아닌 "교육생"으로 처리된 경우</strong> — 실질적으로 업무를 수행하고 지시를 받았다면 교육생이라는 명칭과 관계없이 근로자로 인정될 수 있습니다. 업무 내용을 기록해두세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 인턴 기간의 고용보험 미가입이 가장 큰 장애물입니다. 미가입이 확인되면 소급 가입으로 해결할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">고용보험 미가입, 짧은 피보험기간 등의 문제가 있다면 아래 방법을 검토하세요.</strong></p>\n<ul>\n<li><strong>고용보험 미가입 시</strong> — 사업주가 고용보험에 가입하지 않았다면, 고용센터에 피보험자격 확인 청구를 하세요. 근로계약서, 급여 입금 내역 등으로 근무 사실을 입증하면 소급 가입이 가능합니다.</li>\n<li><strong>피보험기간 180일 미충족 시</strong> — 이전 직장의 피보험기간이 있다면 합산하세요. 이전 18개월 이내의 기간만 합산됩니다.</li>\n<li><strong>인턴이 아닌 "교육생"으로 처리된 경우</strong> — 실질적으로 업무를 수행하고 지시를 받았다면 교육생이라는 명칭과 관계없이 근로자로 인정될 수 있습니다. 업무 내용을 기록해두세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 인턴 기간의 고용보험 미가입이 가장 큰 장애물입니다. 미가입이 확인되면 소급 가입으로 해결할 수 있습니다.</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/고용보험법" target="_blank" rel="noopener">국가법령정보센터 「고용보험법」</a> · <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a> · <a href="https://www.comwel.or.kr/comwel/main.jsp" target="_blank" rel="noopener">근로복지공단(1588-0075) 피보험자격 확인</a></p>',
       },
     ],
+    comparison: {
+          "title": "계약 형태별 실업급여 판단표",
+          "headers": [
+                "내 계약 형태",
+                "고용보험 적용",
+                "확인할 자료",
+                "다음 행동"
+          ],
+          "rows": [
+                {
+                      "label": "근로계약서를 쓰고 급여에서 고용보험료가 빠짐",
+                      "values": [
+                            "적용 대상",
+                            "급여명세서의 고용보험료 공제 내역",
+                            "피보험자격 이력을 조회해 180일 충족 여부 확인"
+                      ]
+                },
+                {
+                      "label": "근로계약서는 있으나 고용보험 미가입",
+                      "values": [
+                            "가입 누락일 가능성",
+                            "근로계약서, 급여 이체내역, 출퇴근 기록",
+                            "피보험자격 확인청구로 소급 가입 요청"
+                      ]
+                },
+                {
+                      "label": "위촉계약·자원봉사로 체결",
+                      "values": [
+                            "형식만으로 판단하지 않음",
+                            "업무 지시 기록, 근무시간 통제 정황",
+                            "실질 근로관계 자료를 모아 근로자성부터 다투기"
+                      ]
+                },
+                {
+                      "label": "인턴 기간만으로는 180일 미달",
+                      "values": [
+                            "단독으로는 수급 불가",
+                            "이전 직장 피보험 이력",
+                            "이직일 기준 18개월 내 이전 이력과 합산 가능한지 확인"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 고용유지지원금 부정수급과 고용보험법 적용 범위',

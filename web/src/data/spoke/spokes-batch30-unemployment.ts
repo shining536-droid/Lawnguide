@@ -133,7 +133,7 @@ export const spokesBatch30Unemployment: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-sexual-harassment-quit-benefit',
-    keyword: '직장 성희롱 퇴사 실업급여',
+    keyword: '직장 내 성희롱으로 퇴사했는데 실업급여를 받을 수 있나요?',
     questionKeyword: '직장 내 성희롱 피해로 퇴사했는데 실업급여를 받을 수 있나요?',
     ctaKeyword: '성희롱 퇴사 실업급여 상담',
     type: '자격확인형',
@@ -164,9 +164,52 @@ export const spokesBatch30Unemployment: SpokePage[] = [
       {
         title: '성희롱 퇴사자가 주의할 점 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">합의서에 서명할 때 실업급여 수급에 영향이 없는지 가능한 한 확인하세요.</strong></p>\n<ul>\n<li><strong>합의 시 이직사유 확인</strong> — 사업주가 합의 조건으로 "원만한 퇴사" 처리를 요구할 수 있습니다. 이직확인서에 "성희롱 피해"가 이직사유로 기재되도록 협의하세요.</li>\n<li><strong>비밀유지 조항 주의</strong> — 합의서에 "일체의 민·형사상 이의를 제기하지 않는다"는 조항이 있으면 고용노동부 진정도 어려워질 수 있습니다. 실업급여 수급에 필요한 증거 사용은 별개라는 점을 명시하세요.</li>\n<li><strong>퇴사 후 증거 보관</strong> — 회사 이메일, 사내 시스템 접근이 차단되기 전에 필요한 증거를 개인 기기에 저장해두세요.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">합의서에 서명할 때 실업급여 수급에 영향이 없는지 가능한 한 확인하세요.</strong></p>\n<ul>\n<li><strong>합의 시 이직사유 확인</strong> — 사업주가 합의 조건으로 "원만한 퇴사" 처리를 요구할 수 있습니다. 이직확인서에 "성희롱 피해"가 이직사유로 기재되도록 협의하세요.</li>\n<li><strong>비밀유지 조항 주의</strong> — 합의서에 "일체의 민·형사상 이의를 제기하지 않는다"는 조항이 있으면 고용노동부 진정도 어려워질 수 있습니다. 실업급여 수급에 필요한 증거 사용은 별개라는 점을 명시하세요.</li>\n<li><strong>퇴사 후 증거 보관</strong> — 회사 이메일, 사내 시스템 접근이 차단되기 전에 필요한 증거를 개인 기기에 저장해두세요.</li><li><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/고용보험법" target="_blank" rel="noopener">국가법령정보센터 「고용보험법」</a>, <a href="https://www.law.go.kr/법령/남녀고용평등과%20일·가정%20양립%20지원에%20관한%20법률" target="_blank" rel="noopener">「남녀고용평등법」(제14조 사업주 조치의무)</a>, <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a></li>\n</ul>',
       },
     ],
+    comparison: {
+          "title": "증거 상태별 — 지금 무엇부터 해야 하나",
+          "headers": [
+                "내 상황",
+                "수급 인정에서의 위치",
+                "지금 남겨야 할 것",
+                "다음 행동"
+          ],
+          "rows": [
+                {
+                      "label": "사내에 신고했고 기록이 남아 있음",
+                      "values": [
+                            "사업주 조치 의무 위반을 주장하기 좋은 상태",
+                            "신고 메일·사내 시스템 접수 화면",
+                            "조치 결과를 서면으로 요청해 받아두기"
+                      ]
+                },
+                {
+                      "label": "신고는 구두로만 했음",
+                      "values": [
+                            "신고 사실 자체가 다투어질 수 있음",
+                            "구두 신고 시점·상대를 적은 메모, 후속 메시지",
+                            "퇴사 전에 메일·문자로 한 번 더 남기기"
+                      ]
+                },
+                {
+                      "label": "아직 신고하지 않고 퇴사를 고민 중",
+                      "values": [
+                            "인과관계 입증이 가장 어려운 구간",
+                            "피해 일지(날짜·장소·발언)",
+                            "퇴사 전에 최소한의 신고 기록을 만들기"
+                      ]
+                },
+                {
+                      "label": "회사가 원만한 퇴사로 정리하자고 제안",
+                      "values": [
+                            "이직 사유 기재에 따라 결과가 갈림",
+                            "합의서 초안",
+                            "이직확인서 사유와 증거 사용 가능 범위를 합의서에 명확히"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 해외 체류 중 대리 신고로 받은 구직급여의 부정수급 해당 여부',
@@ -396,7 +439,7 @@ export const spokesBatch30Unemployment: SpokePage[] = [
       {
         title: '특별연장급여와 다른 연장급여의 차이',
         content:
-          '<p><strong style="color:#1e3a5f">실업급여 연장급여는 훈련연장·개별연장·특별연장 3가지가 있으며, 중복 수급은 불가합니다.</strong></p>\n<ul>\n<li><strong>훈련연장급여</strong> — 직업훈련을 받는 동안 구직급여를 연장합니다. 최대 2년, 구직급여 일액 100%입니다.</li>\n<li><strong>개별연장급여</strong> — 저소득 등 개인 사정에 따라 최대 60일 연장합니다. 구직급여 일액 70%입니다.</li>\n<li><strong>특별연장급여</strong> — 정부 고시에 의한 경기침체 시 최대 60일 연장합니다. 구직급여 일액 70%입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 훈련연장급여가 지급액도 크고 기간도 길어 가장 유리합니다. 특별연장급여는 정부 발동이 필요한 특수한 제도입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">실업급여 연장급여는 훈련연장·개별연장·특별연장 3가지가 있으며, 중복 수급은 불가합니다.</strong></p>\n<ul>\n<li><strong>훈련연장급여</strong> — 직업훈련을 받는 동안 구직급여를 연장합니다. 최대 2년, 구직급여 일액 100%입니다.</li>\n<li><strong>개별연장급여</strong> — 저소득 등 개인 사정에 따라 최대 60일 연장합니다. 구직급여 일액 70%입니다.</li>\n<li><strong>특별연장급여</strong> — 정부 고시에 의한 경기침체 시 최대 60일 연장합니다. 구직급여 일액 70%입니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 훈련연장급여가 지급액도 크고 기간도 길어 가장 유리합니다. 특별연장급여는 정부 발동이 필요한 특수한 제도입니다.</blockquote>\n<p>개별연장급여는 재취업이 특히 어려운 경우에 검토됩니다. 장애인 근로자의 적용 기준은 <a href="/guide/unemployment/unemployment-disability-worker-special-eligibility">장애인 근로자 실업급여 특례</a>에서 정리했습니다.</p>',
       },
       {
         title: '특별연장급여 발동 시 신청 방법',
@@ -807,7 +850,7 @@ export const spokesBatch30Unemployment: SpokePage[] = [
       {
         title: '해외 근무 기간이 피보험기간에 포함되지 않을 때 대안',
         content:
-          '<p><strong style="color:#1e3a5f">해외 현지법인 채용으로 피보험기간이 부족하다면 이전 국내 직장의 피보험기간을 합산하세요.</strong></p>\n<ul>\n<li><strong>이전 피보험기간 합산</strong> — 해외 취업 전 국내에서 근무한 피보험기간이 있다면, 이직일 이전 18개월 범위 내에서 합산이 가능합니다.</li>\n<li><strong>고용보험 임의가입</strong> — 해외 취업 전 자영업자로서 고용보험에 임의 가입한 기간이 있다면 합산 대상입니다.</li>\n<li><strong>피보험자격 확인청구</strong> — 국내 기업과의 고용관계가 실질적으로 유지되었음을 증명할 수 있다면, 근로복지공단에 피보험자격 확인청구를 검토하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 해외 근무 전 국내 직장의 피보험기간을 확인하세요. 합산하여 180일 이상이면 실업급여 수급이 가능할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">해외 현지법인 채용으로 피보험기간이 부족하다면 이전 국내 직장의 피보험기간을 합산하세요.</strong></p>\n<ul>\n<li><strong>이전 피보험기간 합산</strong> — 해외 취업 전 국내에서 근무한 피보험기간이 있다면, 이직일 이전 18개월 범위 내에서 합산이 가능합니다.</li>\n<li><strong>고용보험 임의가입</strong> — 해외 취업 전 자영업자로서 고용보험에 임의 가입한 기간이 있다면 합산 대상입니다.</li>\n<li><strong>피보험자격 확인청구</strong> — 국내 기업과의 고용관계가 실질적으로 유지되었음을 증명할 수 있다면, 근로복지공단에 피보험자격 확인청구를 검토하세요.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 해외 근무 전 국내 직장의 피보험기간을 확인하세요. 합산하여 180일 이상이면 실업급여 수급이 가능할 수 있습니다.</blockquote>\n<p>근무 기간이 짧아 180일이 모자란 상황은 수습 해고에서도 똑같이 생깁니다. 합산 판단은 <a href="/guide/unemployment/unemployment-probation-fired">수습기간 해고 실업급여</a>에서 확인할 수 있습니다.</p>',
       },
       {
         title: '해외 취업 귀국자가 놓치기 쉬운 실수 3가지',

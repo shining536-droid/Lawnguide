@@ -627,7 +627,7 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
   {
     domain: 'traffic-accident',
     slug: 'traffic-accident-parking-lot-door-ding',
-    keyword: '주차장 문콕 보험처리',
+    keyword: '주차장에서 문콕 났는데 보험처리해야 하나요?',
     questionKeyword: '주차장에서 문콕 당했는데 보험처리 어떻게 하나요?',
     ctaKeyword: '문콕 사고 보험 정리',
     type: '절차형',
@@ -658,9 +658,60 @@ export const spokesBatch43Nonlabor1: SpokePage[] = [
       {
         title: '뺑소니 의심 — 상대 잠수 시',
         content:
-          '<p><strong style="color:#1e3a5f">도로교통법 제54조 사고 후 조치 불이행은 형사처벌 대상입니다.</strong></p>\n<ul>\n<li><strong>뺑소니 성립 요건</strong> — 인적피해 없이도 물적피해 + 미조치 시 형사 입건.</li>\n<li><strong>CCTV 확보</strong> — 주차장·주변 상가 CCTV 72시간 내 요청.</li>\n<li><strong>차량번호 추적</strong> — 경찰 신고 후 차적 조회로 가해자 특정.</li>\n<li><strong>처벌</strong> — 물적피해 뺑소니 5년 이하 금고·1,500만 원 이하 벌금.</li>\n<li><strong>보험 처리</strong> — 가해자 특정 후 상대 대물로 처리, 가해자 미특정 시 자차.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 내가 살짝 찍고 연락처 안 남긴 채 자리 뜨면 뺑소니 성립, 가능한 한 연락처 남길 것.</blockquote>',
+          '<p><strong style="color:#1e3a5f">도로교통법 제54조 사고 후 조치 불이행은 형사처벌 대상입니다.</strong></p>\n<ul>\n<li><strong>뺑소니 성립 요건</strong> — 인적피해 없이도 물적피해 + 미조치 시 형사 입건.</li>\n<li><strong>CCTV 확보</strong> — 주차장·주변 상가 CCTV 72시간 내 요청.</li>\n<li><strong>차량번호 추적</strong> — 경찰 신고 후 차적 조회로 가해자 특정.</li>\n<li><strong>처벌</strong> — 물적피해 뺑소니 5년 이하 금고·1,500만 원 이하 벌금.</li>\n<li><strong>보험 처리</strong> — 가해자 특정 후 상대 대물로 처리, 가해자 미특정 시 자차.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 내가 살짝 찍고 연락처 안 남긴 채 자리 뜨면 뺑소니 성립, 가능한 한 연락처 남길 것.</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/도로교통법" target="_blank" rel="noopener">국가법령정보센터 「도로교통법」(제54조 사고 후 조치)</a> · <a href="https://www.fss.or.kr/fss/main/main.do" target="_blank" rel="noopener">금융감독원 금융분쟁조정</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 무료 법률상담(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "문콕 — 상황별 선택 판단표",
+          "headers": [
+                "내 상황",
+                "보험 vs 직접합의",
+                "따져볼 것",
+                "다음 행동"
+          ],
+          "rows": [
+                {
+                      "label": "수리비가 자차 할증 예상액보다 적음",
+                      "values": [
+                            "직접합의가 유리한 편",
+                            "할증으로 늘어날 3년치 보험료",
+                            "견적 2~3곳을 받아 중간값으로 합의"
+                      ]
+                },
+                {
+                      "label": "수리비가 할증 예상액을 넘음",
+                      "values": [
+                            "보험처리 검토",
+                            "자기부담금과 할증의 합계",
+                            "보험사에 할증 예상액을 먼저 문의"
+                      ]
+                },
+                {
+                      "label": "상대 과실 100%로 확인됨",
+                      "values": [
+                            "상대 대물배상으로 처리",
+                            "내 보험 할증 없음",
+                            "상대 보험사에 사고 접수"
+                      ]
+                },
+                {
+                      "label": "상대가 연락처 없이 사라짐",
+                      "values": [
+                            "사고 후 미조치 문제로 번질 수 있음",
+                            "주차장·주변 CCTV 보존기간",
+                            "경찰 신고 후 CCTV를 빠르게 요청"
+                      ]
+                },
+                {
+                      "label": "상대가 무보험",
+                      "values": [
+                            "직접 청구 또는 소액사건",
+                            "상대 자력과 회수 가능성",
+                            "합의서·계좌이체 증빙을 남기기"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 주차장·횡단보도 보호의무 강화',

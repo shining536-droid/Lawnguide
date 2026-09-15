@@ -115,7 +115,7 @@ export const spokesBatch16Pages16to20: SpokePage[] = [
   {
     domain: 'bankruptcy',
     slug: 'bankruptcy-credit-recovery-timeline',
-    keyword: '파산 면책 후 신용회복 절차와 기간',
+    keyword: '파산 면책을 받으면 신용은 언제 회복되나요?',
     questionKeyword: '파산 면책 받으면 신용은 언제 회복되나요?',
     ctaKeyword: '파산 후 신용회복',
     type: '수치기한형',
@@ -151,9 +151,52 @@ export const spokesBatch16Pages16to20: SpokePage[] = [
       {
         title: '신용점수 회복 목표 시점과 수치를 알아두세요',
         content:
-          '<p><strong style="color:#1e3a5f">면책 후 신용점수 회복에는 보통 3~5년이 소요됩니다</strong></p>\n<p>일반적으로 면책 직후 신용점수는 <strong>300~400점대</strong>(NICE 기준 1,000점 만점)입니다. 신용 재건 활동을 꾸준히 하면 <strong>1년 후 500점대, 2~3년 후 600점대, 5년 후 700점대</strong> 회복이 가능합니다.</p>\n<p><strong>NICE(나이스평가정보)</strong>와 <strong>KCB(올크레딧)</strong>에서 무료로 본인 신용점수를 확인할 수 있습니다. 매월 점수 변화를 확인하며 관리하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">면책 직후 300~400점 → 1년 후 500점대 → 3년 후 600점대 → 5년 후 700점대</blockquote>',
+          '<p><strong style="color:#1e3a5f">면책 후 신용점수 회복에는 보통 3~5년이 소요됩니다</strong></p>\n<p>일반적으로 면책 직후 신용점수는 <strong>300~400점대</strong>(NICE 기준 1,000점 만점)입니다. 신용 재건 활동을 꾸준히 하면 <strong>1년 후 500점대, 2~3년 후 600점대, 5년 후 700점대</strong> 회복이 가능합니다.</p>\n<p><strong>NICE(나이스평가정보)</strong>와 <strong>KCB(올크레딧)</strong>에서 무료로 본인 신용점수를 확인할 수 있습니다. 매월 점수 변화를 확인하며 관리하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">면책 직후 300~400점 → 1년 후 500점대 → 3년 후 600점대 → 5년 후 700점대</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/채무자%20회생%20및%20파산에%20관한%20법률" target="_blank" rel="noopener">국가법령정보센터 「채무자 회생 및 파산에 관한 법률」</a> · <a href="https://www.ccrs.or.kr/" target="_blank" rel="noopener">신용회복위원회 채무조정 상담(1600-5500)</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 개인회생·파산 지원(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "면책 이후 시점별 할 일",
+          "headers": [
+                "시점",
+                "이때 확인할 것",
+                "이때 할 일",
+                "주의"
+          ],
+          "rows": [
+                {
+                      "label": "면책 확정 직후",
+                      "values": [
+                            "면책 결정문과 확정 여부",
+                            "결정문을 보관하고 채무불이행자명부 말소 신청 검토",
+                            "비면책채권(세금·벌금·양육비 등)은 남음"
+                      ]
+                },
+                {
+                      "label": "면책 후 수개월",
+                      "values": [
+                            "잔존 채무와 연체 기록",
+                            "신용회복위원회 상담으로 정리 방향 확인",
+                            "잔존 채무를 방치하면 회복이 늦어짐"
+                      ]
+                },
+                {
+                      "label": "면책 후 1~2년",
+                      "values": [
+                            "체크카드·공과금 납부 이력",
+                            "정상 거래 이력을 꾸준히 쌓기",
+                            "무리한 대출 시도는 역효과"
+                      ]
+                },
+                {
+                      "label": "기록 보존기간 경과 후",
+                      "values": [
+                            "신용정보 등록 상태",
+                            "본인 신용정보 조회로 삭제 여부 확인",
+                            "기간은 제도 변경 가능성이 있어 직접 확인 필요"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title:
@@ -353,7 +396,7 @@ export const spokesBatch16Pages16to20: SpokePage[] = [
       {
         title: '분쟁이 심해지면 환경분쟁조정이나 민사소송을 검토하세요',
         content:
-          '<p><strong style="color:#1e3a5f">대화로 해결이 안 되면 공식 분쟁 해결 절차를 이용하세요</strong></p>\n<p>이웃 분쟁이 장기화되면 <strong>환경분쟁조정위원회</strong>(02-2110-6565)에 조정을 신청할 수 있습니다. 조정은 <strong>수수료가 무료</strong>이며, 3개월 이내에 결과가 나옵니다. 조정이 성립하면 <strong>재판상 화해</strong>와 같은 효력이 있습니다.</p>\n<p>조정으로 해결이 안 되면 <strong>민사소송</strong>을 제기할 수 있습니다. <strong>민법 제217조(생활방해)</strong>와 <strong>제750조(불법행위)</strong>에 근거하여 손해배상과 행위 금지를 청구합니다. 소송 전에 피해 사실을 입증할 <strong>사진·동영상·일지</strong>를 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">환경분쟁조정위원회 02-2110-6565 (무료) → 조정 불성립 시 민사소송</blockquote>',
+          '<p><strong style="color:#1e3a5f">대화로 해결이 안 되면 공식 분쟁 해결 절차를 이용하세요</strong></p>\n<p>이웃 분쟁이 장기화되면 <strong>환경분쟁조정위원회</strong>(02-2110-6565)에 조정을 신청할 수 있습니다. 조정은 <strong>수수료가 무료</strong>이며, 3개월 이내에 결과가 나옵니다. 조정이 성립하면 <strong>재판상 화해</strong>와 같은 효력이 있습니다.</p>\n<p>조정으로 해결이 안 되면 <strong>민사소송</strong>을 제기할 수 있습니다. <strong>민법 제217조(생활방해)</strong>와 <strong>제750조(불법행위)</strong>에 근거하여 손해배상과 행위 금지를 청구합니다. 소송 전에 피해 사실을 입증할 <strong>사진·동영상·일지</strong>를 확보하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">환경분쟁조정위원회 02-2110-6565 (무료) → 조정 불성립 시 민사소송</blockquote>\n<p>경계·담장 분쟁은 조정보다 측량 결과가 먼저 필요합니다. 순서와 근거 조문은 <a href="/guide/neighbor-dispute/boundary-wall-dispute">경계 분쟁·담장 설치 기준</a>에서 정리했습니다.</p>',
       },
     ],
     cases: [

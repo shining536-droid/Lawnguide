@@ -215,7 +215,7 @@ export const spokesBatch42Nonlabor3: SpokePage[] = [
       {
         title: '면책 직후 — 공공정보 등록 기간 이해',
         content:
-          '<p><strong style="color:#1e3a5f">면책결정 후에도 한국신용정보원에 "면책정보"가 등록되어 최대 5년간 제공됩니다.</strong></p>\n<ul>\n<li><strong>등록 근거</strong> — 신용정보의 이용 및 보호에 관한 법률 제25조·시행령.</li>\n<li><strong>기간</strong> — 면책결정 확정일부터 5년(일부 기관은 7년까지 참고).</li>\n<li><strong>영향</strong> — 신용평가사 등급이 하위권으로 유지, 주류 카드사·은행 신규 거래 제한.</li>\n<li><strong>조회 방법</strong> — 올크레딧·KCB·나이스평가정보에서 본인 신용보고서 무료 열람.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "연체정보"는 면책으로 삭제되지만 "면책정보" 자체는 별도로 등록됩니다. 기간 단축 방법은 없습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">면책결정 후에도 한국신용정보원에 "면책정보"가 등록되어 최대 5년간 제공됩니다.</strong></p>\n<ul>\n<li><strong>등록 근거</strong> — 신용정보의 이용 및 보호에 관한 법률 제25조·시행령.</li>\n<li><strong>기간</strong> — 면책결정 확정일부터 5년(일부 기관은 7년까지 참고).</li>\n<li><strong>영향</strong> — 신용평가사 등급이 하위권으로 유지, 주류 카드사·은행 신규 거래 제한.</li>\n<li><strong>조회 방법</strong> — 올크레딧·KCB·나이스평가정보에서 본인 신용보고서 무료 열람.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "연체정보"는 면책으로 삭제되지만 "면책정보" 자체는 별도로 등록됩니다. 기간 단축 방법은 없습니다.</blockquote>\n<p>면책 이후 시점별로 무엇을 확인하고 무엇을 해야 하는지는 <a href="/guide/bankruptcy/bankruptcy-credit-recovery-timeline">파산 면책 후 신용회복 절차와 기간</a>에서 단계별로 정리했습니다.</p>',
       },
       {
         title: '1~2년 차 — 체크카드·통신요금 성실이행',

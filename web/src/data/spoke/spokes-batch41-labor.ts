@@ -33,7 +33,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       {
         title: '신청 순서 — 출산휴가·육아휴직 비교 후 결정',
         content:
-          '<p><strong style="color:#1e3a5f">퇴사 전 출산전후휴가·육아휴직급여 가능 여부를 먼저 비교해보세요.</strong></p>\n<ul>\n<li><strong>1단계 — 휴직 가능성 검토</strong> — 출산휴가 90일·육아휴직 1년으로 해결되면 퇴사보다 유리.</li>\n<li><strong>2단계 — 전환배치 요청</strong> — 근기법 제74조 제5항은 산모 경미 업무 전환 의무 규정.</li>\n<li><strong>3단계 — 사직서 사유 명시</strong> — "고위험 임신으로 인한 이직"으로 기재.</li>\n<li><strong>4단계 — 고용센터 신청</strong> — 진단서·업무기록·전환 거절 증빙 일괄 제출.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 출산 전 12개월 수급자격 확보 가능하면 퇴사보다 휴가·휴직이 경제적으로 유리한 경우가 많습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴사 전 출산전후휴가·육아휴직급여 가능 여부를 먼저 비교해보세요.</strong></p>\n<ul>\n<li><strong>1단계 — 휴직 가능성 검토</strong> — 출산휴가 90일·육아휴직 1년으로 해결되면 퇴사보다 유리.</li>\n<li><strong>2단계 — 전환배치 요청</strong> — 근기법 제74조 제5항은 산모 경미 업무 전환 의무 규정.</li>\n<li><strong>3단계 — 사직서 사유 명시</strong> — "고위험 임신으로 인한 이직"으로 기재.</li>\n<li><strong>4단계 — 고용센터 신청</strong> — 진단서·업무기록·전환 거절 증빙 일괄 제출.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">팁: 출산 전 12개월 수급자격 확보 가능하면 퇴사보다 휴가·휴직이 경제적으로 유리한 경우가 많습니다.</blockquote>\n<p>퇴사 전에 근로시간 자료부터 확보해야 하는 경우도 있습니다. 장시간 근로로 퇴사를 고민 중이라면 <a href="/guide/unemployment/unemployment-weekly-52-hour-violation-quit">주52시간 위반 퇴사 실업급여</a>에서 준비 순서를 확인하세요.</p>',
       },
       {
         title: '실무 체크리스트 — 진단서 작성 요령',
@@ -463,7 +463,7 @@ export const spokesBatch41Labor: SpokePage[] = [
       {
         title: '임금성 3요건 — 성과급 유형별 판단',
         content:
-          '<p><strong style="color:#1e3a5f">"계속성·정기성·근로 대가성" 3요건 모두 갖춰야 퇴직금 산입.</strong></p>\n<ul>\n<li><strong>계속성</strong> — 매년·반기 등 일정 주기 반복 지급되었는지.</li>\n<li><strong>정기성</strong> — 단체협약·취업규칙·근로관행으로 지급 의무 확립.</li>\n<li><strong>근로 대가성</strong> — 지급 의무 발생이 근로제공과 직접 관련.</li>\n<li><strong>판단 예외</strong> — 당기순이익 발생 여부에 좌우되는 성과급은 "경영성과 분배".</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "근로성과 정산"이면 포함, "경영성과 분배"면 제외.</blockquote>',
+          '<p><strong style="color:#1e3a5f">"계속성·정기성·근로 대가성" 3요건 모두 갖춰야 퇴직금 산입.</strong></p>\n<ul>\n<li><strong>계속성</strong> — 매년·반기 등 일정 주기 반복 지급되었는지.</li>\n<li><strong>정기성</strong> — 단체협약·취업규칙·근로관행으로 지급 의무 확립.</li>\n<li><strong>근로 대가성</strong> — 지급 의무 발생이 근로제공과 직접 관련.</li>\n<li><strong>판단 예외</strong> — 당기순이익 발생 여부에 좌우되는 성과급은 "경영성과 분배".</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: "근로성과 정산"이면 포함, "경영성과 분배"면 제외.</blockquote>\n<p>같은 기준을 야간·연장수당에 적용하면 결론이 달라집니다. 수당 유형별 판단은 <a href="/guide/retirement/retirement-night-overtime-included-calculation">야간·연장수당 퇴직금 포함 기준</a>에서 확인하세요.</p>',
       },
       {
         title: '포함 사례 vs 제외 사례',

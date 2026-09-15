@@ -22,7 +22,7 @@ export const spokesBatch34Labor: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-disability-worker-special-eligibility',
-    keyword: '장애인 근로자 실업급여 특례 요건 수급 절차',
+    keyword: '장애인 근로자는 실업급여를 더 오래 받을 수 있나요?',
     questionKeyword: '장애인 근로자가 실업급여를 받을 때 특례가 적용되나요?',
     ctaKeyword: '장애인 실업급여 특례 상담',
     type: '특례형',
@@ -43,7 +43,7 @@ export const spokesBatch34Labor: SpokePage[] = [
       {
         title: '장애인 근로자에게 적용되는 3가지 수급 특례',
         content:
-          '<p><strong style="color:#1e3a5f">장애인 근로자는 수급 기간 연장, 개별연장급여, 직업능력개발훈련 확대 등 3가지 특례를 활용할 수 있습니다.</strong></p>\n<ol>\n<li><strong>소정급여일수 우대</strong> — 고용보험법 제50조에 따라 소정급여일수는 피보험기간과 연령에 따라 120~270일입니다. 장애인 근로자는 50세 이상 근로자와 동일하게 우대 적용을 받아, 같은 피보험기간에서도 일반 근로자보다 30~60일 더 긴 수급 기간이 적용됩니다</li>\n<li><strong>개별연장급여 신청</strong> — 소정급여일수가 끝나도 재취업이 어려운 경우, 고용보험법 제52조에 따라 개별연장급여를 신청하면 최대 60일 추가 수급이 가능합니다. 장애인 근로자는 취업 곤란 사유 입증이 상대적으로 용이합니다</li>\n<li><strong>직업능력개발수당</strong> — 장애인 구직자가 직업능력개발훈련을 받으면 훈련연장급여(최대 2년)와 함께 훈련수당이 지급됩니다. 한국장애인고용공단에서 운영하는 직업훈련 과정 참여 시 추가 지원도 받을 수 있습니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 장애 유형별 수급 특례를 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">장애인 근로자는 수급 기간 연장, 개별연장급여, 직업능력개발훈련 확대 등 3가지 특례를 활용할 수 있습니다.</strong></p>\n<ol>\n<li><strong>소정급여일수 우대</strong> — 고용보험법 제50조에 따라 소정급여일수는 피보험기간과 연령에 따라 120~270일입니다. 장애인 근로자는 50세 이상 근로자와 같은 기준을 적용받습니다. 고용보험 공식 안내의 소정급여일수 표 기준으로 가입기간 1년 이상이면 일반 근로자보다 30일 더 길고, 1년 미만은 120일로 같습니다</li>\n<li><strong>개별연장급여 신청</strong> — 소정급여일수가 끝나도 재취업이 어려운 경우, 고용보험법 제52조에 따라 개별연장급여를 신청하면 최대 60일 추가 수급이 가능합니다. 장애인 근로자는 취업 곤란 사유 입증이 상대적으로 용이합니다</li>\n<li><strong>직업능력개발수당</strong> — 장애인 구직자가 직업능력개발훈련을 받으면 훈련연장급여(최대 2년)와 함께 훈련수당이 지급됩니다. 한국장애인고용공단에서 운영하는 직업훈련 과정 참여 시 추가 지원도 받을 수 있습니다</li>\n</ol>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 AI 법률 상담으로 빠르게 확인하세요</strong></p>\n<p style="margin:0;font-size:0.95em">변호사 상담 전, AI가 본인의 장애 유형별 수급 특례를 분석해드립니다.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '장애인 실업급여 신청 시 필요한 서류와 절차',
@@ -53,9 +53,60 @@ export const spokesBatch34Labor: SpokePage[] = [
       {
         title: '장애인 재취업 지원 제도 병행 활용',
         content:
-          '<p><strong style="color:#1e3a5f">실업급여 수급과 병행하여 장애인 고용 지원 제도를 활용하면 재취업 성공률을 높일 수 있습니다.</strong></p>\n<ul>\n<li><strong>장애인고용공단 취업 알선</strong> — 한국장애인고용공단에 구직 등록을 하면 장애 유형에 맞는 일자리를 알선받을 수 있습니다. 공단 등록 자체가 구직활동으로 인정될 수 있습니다</li>\n<li><strong>장애인 의무고용 사업장</strong> — 상시 50인 이상 사업장은 장애인 의무고용 비율(민간 3.1%, 공공 3.6%)을 준수해야 합니다. 장애인고용공단에서 의무고용 사업장 목록을 확인할 수 있습니다</li>\n<li><strong>보조공학기기 지원</strong> — 재취업 시 장애 유형에 맞는 보조공학기기(화면확대기, 보청기, 특수 키보드 등)를 무상 대여받을 수 있습니다</li>\n<li><strong>근로지원인 서비스</strong> — 중증장애인이 취업하면 업무 보조인(근로지원인)을 월 160시간까지 지원받을 수 있어 고용 유지에 도움이 됩니다</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">실업급여 수급과 병행하여 장애인 고용 지원 제도를 활용하면 재취업 성공률을 높일 수 있습니다.</strong></p>\n<ul>\n<li><strong>장애인고용공단 취업 알선</strong> — 한국장애인고용공단에 구직 등록을 하면 장애 유형에 맞는 일자리를 알선받을 수 있습니다. 공단 등록 자체가 구직활동으로 인정될 수 있습니다</li>\n<li><strong>장애인 의무고용 사업장</strong> — 상시 50인 이상 사업장은 장애인 의무고용 비율(민간 3.1%, 공공 3.6%)을 준수해야 합니다. 장애인고용공단에서 의무고용 사업장 목록을 확인할 수 있습니다</li>\n<li><strong>보조공학기기 지원</strong> — 재취업 시 장애 유형에 맞는 보조공학기기(화면확대기, 보청기, 특수 키보드 등)를 무상 대여받을 수 있습니다</li>\n<li><strong>근로지원인 서비스</strong> — 중증장애인이 취업하면 업무 보조인(근로지원인)을 월 160시간까지 지원받을 수 있어 고용 유지에 도움이 됩니다</li><li><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/고용보험법" target="_blank" rel="noopener">국가법령정보센터 「고용보험법」(제50조 소정급여일수)</a>, <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a>에서 본인 가입기간 기준을 확인하세요</li>\n</ul>',
       },
     ],
+    comparison: {
+          "title": "가입기간별 소정급여일수 — 장애인은 50세 이상과 같은 기준",
+          "headers": [
+                "고용보험 가입기간",
+                "일반(50세 미만)",
+                "장애인·50세 이상",
+                "차이"
+          ],
+          "rows": [
+                {
+                      "label": "1년 미만",
+                      "values": [
+                            "120일",
+                            "120일",
+                            "차이 없음"
+                      ]
+                },
+                {
+                      "label": "1년 이상 3년 미만",
+                      "values": [
+                            "150일",
+                            "180일",
+                            "30일 더 김"
+                      ]
+                },
+                {
+                      "label": "3년 이상 5년 미만",
+                      "values": [
+                            "180일",
+                            "210일",
+                            "30일 더 김"
+                      ]
+                },
+                {
+                      "label": "5년 이상 10년 미만",
+                      "values": [
+                            "210일",
+                            "240일",
+                            "30일 더 김"
+                      ]
+                },
+                {
+                      "label": "10년 이상",
+                      "values": [
+                            "240일",
+                            "270일",
+                            "30일 더 김"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 고용보험 가입신청기간 제한과 수급자격',
@@ -127,7 +178,7 @@ export const spokesBatch34Labor: SpokePage[] = [
       {
         title: '시간제 근로자 고용보험 가입 기준과 합산 원칙',
         content:
-          '<p><strong style="color:#1e3a5f">주 15시간 이상 근로하는 시간제 근로자는 각 사업장별로 고용보험에 가입되며, 피보험기간은 합산됩니다.</strong></p>\n<ul>\n<li><strong>가입 기준</strong> — 각 사업장에서 주 소정근로시간이 15시간 이상(월 60시간 이상)이면 고용보험 당연가입 대상입니다. 3개월 이상 계속 근로하는 경우 주 15시간 미만이어도 가입됩니다</li>\n<li><strong>피보험기간 합산</strong> — 복수 사업장에서 고용보험에 가입되어 있다면 각 사업장의 피보험기간이 합산됩니다. 합산 피보험기간이 180일 이상이어야 수급 자격이 생깁니다</li>\n<li><strong>겸직 시 이중가입</strong> — 두 곳 이상에서 동시에 고용보험에 가입할 수 있습니다. 각 사업장에서 보험료를 별도로 납부하며, 피보험기간은 중복 산정되지 않고 합산됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">핵심: "한 곳에서 주 10시간 + 다른 곳에서 주 10시간 = 합산 20시간"이 아닙니다. 각 사업장별로 15시간 이상이어야 각각 고용보험에 가입됩니다</blockquote>',
+          '<p><strong style="color:#1e3a5f">주 15시간 이상 근로하는 시간제 근로자는 각 사업장별로 고용보험에 가입되며, 피보험기간은 합산됩니다.</strong></p>\n<ul>\n<li><strong>가입 기준</strong> — 각 사업장에서 주 소정근로시간이 15시간 이상(월 60시간 이상)이면 고용보험 당연가입 대상입니다. 3개월 이상 계속 근로하는 경우 주 15시간 미만이어도 가입됩니다</li>\n<li><strong>피보험기간 합산</strong> — 복수 사업장에서 고용보험에 가입되어 있다면 각 사업장의 피보험기간이 합산됩니다. 합산 피보험기간이 180일 이상이어야 수급 자격이 생깁니다</li>\n<li><strong>겸직 시 이중가입</strong> — 두 곳 이상에서 동시에 고용보험에 가입할 수 있습니다. 각 사업장에서 보험료를 별도로 납부하며, 피보험기간은 중복 산정되지 않고 합산됩니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;background:#f7f7f7;color:#555">핵심: "한 곳에서 주 10시간 + 다른 곳에서 주 10시간 = 합산 20시간"이 아닙니다. 각 사업장별로 15시간 이상이어야 각각 고용보험에 가입됩니다</blockquote>\n<p>인턴 기간의 고용보험 가입 여부도 같은 방식으로 확인합니다. 인턴 계약의 적용 기준은 <a href="/guide/unemployment/unemployment-internship-training-end">인턴·수습 종료 후 실업급여</a>에서 확인하세요.</p>',
       },
       {
         title: '겸직 중 한 곳에서 이직할 때 실업급여 수급 조건',
@@ -369,7 +420,7 @@ export const spokesBatch34Labor: SpokePage[] = [
   {
     domain: 'retirement',
     slug: 'retirement-night-overtime-included-calculation',
-    keyword: '야간 연장근로수당 퇴직금 포함 계산 기준',
+    keyword: '야간·연장수당도 퇴직금에 포함되나요?',
     questionKeyword: '야간근로수당이 퇴직금에 포함되나요?',
     ctaKeyword: '야간 연장수당 퇴직금 포함 상담',
     type: '비교형',
@@ -400,9 +451,52 @@ export const spokesBatch34Labor: SpokePage[] = [
       {
         title: '포괄임금제와 야간·연장수당의 관계',
         content:
-          '<p><strong style="color:#1e3a5f">포괄임금계약으로 야간·연장수당이 월급에 포함되어 있다면, 해당 고정액 전체가 퇴직금 산정에 반영됩니다.</strong></p>\n<ul>\n<li><strong>포괄임금제 유효 시</strong> — 근로계약서에 "야간근로수당 30만 원, 연장근로수당 50만 원 포함"으로 명시되어 있으면 해당 금액이 매월 고정 지급되는 것이므로 평균임금에 당연히 포함됩니다</li>\n<li><strong>포괄임금제 무효 시</strong> — 실제 연장·야간근로시간이 약정된 포괄임금보다 많으면 차액을 추가로 청구할 수 있고, 이 차액도 평균임금에 반영되어 퇴직금이 증가합니다</li>\n<li><strong>미지급 수당과 퇴직금</strong> — 포괄임금제가 무효로 판정되어 미지급 연장·야간수당이 발생하면, 해당 수당을 포함한 정확한 평균임금으로 퇴직금을 재산정해야 합니다</li>\n<li><strong>확인 포인트</strong> — 근로계약서에 야간·연장수당이 별도 항목으로 명시되어 있는지, 포괄임금제로 일괄 지급되는지를 먼저 확인하세요</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">포괄임금계약으로 야간·연장수당이 월급에 포함되어 있다면, 해당 고정액 전체가 퇴직금 산정에 반영됩니다.</strong></p>\n<ul>\n<li><strong>포괄임금제 유효 시</strong> — 근로계약서에 "야간근로수당 30만 원, 연장근로수당 50만 원 포함"으로 명시되어 있으면 해당 금액이 매월 고정 지급되는 것이므로 평균임금에 당연히 포함됩니다</li>\n<li><strong>포괄임금제 무효 시</strong> — 실제 연장·야간근로시간이 약정된 포괄임금보다 많으면 차액을 추가로 청구할 수 있고, 이 차액도 평균임금에 반영되어 퇴직금이 증가합니다</li>\n<li><strong>미지급 수당과 퇴직금</strong> — 포괄임금제가 무효로 판정되어 미지급 연장·야간수당이 발생하면, 해당 수당을 포함한 정확한 평균임금으로 퇴직금을 재산정해야 합니다</li>\n<li><strong>확인 포인트</strong> — 근로계약서에 야간·연장수당이 별도 항목으로 명시되어 있는지, 포괄임금제로 일괄 지급되는지를 먼저 확인하세요</li><li><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/근로기준법" target="_blank" rel="noopener">국가법령정보센터 「근로기준법」(제2조 평균임금·제56조 가산수당)</a>, <a href="https://www.law.go.kr/법령/근로자퇴직급여%20보장법" target="_blank" rel="noopener">「근로자퇴직급여 보장법」</a>에서 원문을 확인할 수 있습니다</li>\n</ul>',
       },
     ],
+    comparison: {
+          "title": "수당 유형별 평균임금 포함 여부",
+          "headers": [
+                "수당 유형",
+                "평균임금 포함",
+                "판단 이유",
+                "확인할 자료"
+          ],
+          "rows": [
+                {
+                      "label": "퇴직 전 3개월간 실제 근로한 야간·연장수당",
+                      "values": [
+                            "포함",
+                            "근로의 대가로 계속·정기적으로 지급",
+                            "급여명세서, 근태 기록"
+                      ]
+                },
+                {
+                      "label": "포괄임금으로 매월 고정 지급된 야간·연장수당",
+                      "values": [
+                            "포함",
+                            "매월 고정액으로 지급 의무가 확인됨",
+                            "근로계약서의 수당 항목"
+                      ]
+                },
+                {
+                      "label": "퇴직 전 3개월 이전에만 받은 수당",
+                      "values": [
+                            "미포함",
+                            "평균임금 산정 기간을 벗어남",
+                            "최근 3개월 급여 내역"
+                      ]
+                },
+                {
+                      "label": "퇴직 직전 연장근로가 줄어 수당이 급감",
+                      "values": [
+                            "평균임금이 낮아질 수 있음",
+                            "실제 지급액 기준으로 산정",
+                            "통상임금과 비교해 유리한 쪽 확인"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 관행에 의한 수당 지급과 평균임금 포함 여부',

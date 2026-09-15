@@ -181,7 +181,7 @@ export const spokesBatch40Labor1: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-weekly-52-hour-violation-quit',
-    keyword: '주52시간 위반 퇴사 실업급여',
+    keyword: '주52시간 넘겨 일하다 퇴사하면 실업급여 받을 수 있나요?',
     questionKeyword: '주52시간 넘겨 일하다 퇴사하면 실업급여 되나요?',
     ctaKeyword: '주52시간 위반 퇴사 점검',
     type: '상황형',
@@ -212,9 +212,52 @@ export const spokesBatch40Labor1: SpokePage[] = [
       {
         title: '실무 체크리스트 — 퇴사 전 자료 정리',
         content:
-          '<p><strong style="color:#1e3a5f">퇴사 후에는 사내 시스템 접근이 끊기므로 "퇴사 전 자료 확보"가 핵심입니다.</strong></p>\n<ul>\n<li><strong>출입기록 요청</strong> — 재직 중 사무실 출입기록 사본 요청.</li>\n<li><strong>이메일 백업</strong> — 본인 업무 메일 개인 계정으로 전달(영업비밀 제외).</li>\n<li><strong>메신저 캡처</strong> — 심야·주말 업무 지시 대화 스크린샷 저장.</li>\n<li><strong>급여명세서 수집</strong> — 최근 6개월치 확보, 연장수당 지급 여부 확인.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 영업비밀·고객정보 유출은 별도 처벌 대상. 개인 근로시간 입증용 자료만 확보하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">퇴사 후에는 사내 시스템 접근이 끊기므로 "퇴사 전 자료 확보"가 핵심입니다.</strong></p>\n<ul>\n<li><strong>출입기록 요청</strong> — 재직 중 사무실 출입기록 사본 요청.</li>\n<li><strong>이메일 백업</strong> — 본인 업무 메일 개인 계정으로 전달(영업비밀 제외).</li>\n<li><strong>메신저 캡처</strong> — 심야·주말 업무 지시 대화 스크린샷 저장.</li>\n<li><strong>급여명세서 수집</strong> — 최근 6개월치 확보, 연장수당 지급 여부 확인.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 영업비밀·고객정보 유출은 별도 처벌 대상. 개인 근로시간 입증용 자료만 확보하세요.</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/근로기준법" target="_blank" rel="noopener">국가법령정보센터 「근로기준법」(제53조)</a> · <a href="https://www.law.go.kr/법령/고용보험법" target="_blank" rel="noopener">「고용보험법」</a> · <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a></p>',
       },
     ],
+    comparison: {
+          "title": "주52시간 초과 퇴사 — 상황별 판단표",
+          "headers": [
+                "내 상황",
+                "수급자격 판단에서 갖는 의미",
+                "확인할 자료",
+                "다음 행동"
+          ],
+          "rows": [
+                {
+                      "label": "이직 전 1년 안에 2개월 이상 주52시간 초과",
+                      "values": [
+                            "정당한 이직 사유 주장의 핵심 요건",
+                            "출퇴근 기록, 근태 자료",
+                            "퇴사 전에 기록 사본을 먼저 확보"
+                      ]
+                },
+                {
+                      "label": "초과는 있었지만 2개월에 못 미침",
+                      "values": [
+                            "이 사유만으로는 인정이 어려움",
+                            "월별 근로시간 집계",
+                            "건강 악화 등 다른 사유와 함께 검토"
+                      ]
+                },
+                {
+                      "label": "연장수당은 받았고 시간만 초과",
+                      "values": [
+                            "수당 지급과 별개로 상한 위반 자체가 쟁점",
+                            "급여명세서, 연장근로 내역",
+                            "수당 지급 사실이 초과근로의 증거가 되기도 함"
+                      ]
+                },
+                {
+                      "label": "상시 5인 미만 사업장",
+                      "values": [
+                            "주52시간 상한 규정이 적용되지 않음",
+                            "상시 근로자 수 확인 자료",
+                            "다른 이직 사유로 방향 전환 검토"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 주52시간 초과근로 이직의 수급자격',

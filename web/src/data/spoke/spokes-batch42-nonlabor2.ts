@@ -310,7 +310,7 @@ export const spokesBatch42Nonlabor2: SpokePage[] = [
       {
         title: '실무 체크리스트 — 합의 전 주의',
         content:
-          '<p><strong style="color:#1e3a5f">합의서 작성 전에 격락손해 유보 문구를 가능한 한 넣으세요.</strong></p>\n<ul>\n<li><strong>유보 문구</strong> — "수리비 외 시세하락 손해는 별도 청구" 명시.</li>\n<li><strong>소멸시효</strong> — 사고일 기준 3년 내 청구.</li>\n<li><strong>리스·렌탈 차량</strong> — 소유주(리스사·렌탈사)가 청구권자, 계약서 확인.</li>\n<li><strong>할증 피하기</strong> — 가해자 보험사 대물만 청구, 피해자 보험 할증 무관.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 일반 종합합의서는 "일체 청구권 포기" 조항이 있어 격락손해도 차단될 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">합의서 작성 전에 격락손해 유보 문구를 가능한 한 넣으세요.</strong></p>\n<ul>\n<li><strong>유보 문구</strong> — "수리비 외 시세하락 손해는 별도 청구" 명시.</li>\n<li><strong>소멸시효</strong> — 사고일 기준 3년 내 청구.</li>\n<li><strong>리스·렌탈 차량</strong> — 소유주(리스사·렌탈사)가 청구권자, 계약서 확인.</li>\n<li><strong>할증 피하기</strong> — 가해자 보험사 대물만 청구, 피해자 보험 할증 무관.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 일반 종합합의서는 "일체 청구권 포기" 조항이 있어 격락손해도 차단될 수 있습니다.</blockquote>\n<p>소액 수리 건은 보험처리와 현금합의 중 무엇이 유리한지부터 따져야 합니다. 판단 기준은 <a href="/guide/traffic-accident/traffic-accident-parking-lot-door-ding">주차장 문콕 보험처리</a>에서 정리했습니다.</p>',
       },
     ],
     cases: [

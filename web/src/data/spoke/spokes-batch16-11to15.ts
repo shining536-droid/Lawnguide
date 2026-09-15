@@ -283,12 +283,12 @@ export const spokesBatch16_11to15: SpokePage[] = [
       {
         title: '정당한 이직 사유 2: 근로조건 위반',
         content:
-          '<p><strong style="color:#1e3a5f">채용 시 약속한 근로조건과 실제가 다르면 인정될 수 있습니다</strong></p>\n<p>채용 공고나 근로계약서에 명시된 <strong>업무 내용, 근무 장소, 근로시간</strong>이 실제와 현저히 달라진 경우 정당한 이직 사유에 해당할 소지가 있습니다.</p>\n<p>예를 들어 서울 근무로 채용되었는데 지방 사업장으로 <strong>일방적으로 전보</strong>된 경우, 사무직으로 채용되었는데 현장 노동으로 <strong>업무가 변경</strong>된 경우 등이 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증빙: 근로계약서 vs 실제 근원칙적으로 비교 | 전보 명령서, 업무 변경 통지</blockquote>',
+          '<p><strong style="color:#1e3a5f">채용 시 약속한 근로조건과 실제가 다르면 인정될 수 있습니다</strong></p>\n<p>채용 공고나 근로계약서에 명시된 <strong>업무 내용, 근무 장소, 근로시간</strong>이 실제와 현저히 달라진 경우 정당한 이직 사유에 해당할 소지가 있습니다.</p>\n<p>예를 들어 서울 근무로 채용되었는데 지방 사업장으로 <strong>일방적으로 전보</strong>된 경우, 사무직으로 채용되었는데 현장 노동으로 <strong>업무가 변경</strong>된 경우 등이 해당합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">증빙: 근로계약서 vs 실제 근원칙적으로 비교 | 전보 명령서, 업무 변경 통지</blockquote>\n<p>근로조건 위반 중에서도 장시간 근로는 입증 방법이 다릅니다. 주52시간 초과를 이유로 퇴사한 경우는 <a href="/guide/unemployment/unemployment-weekly-52-hour-violation-quit">주52시간 위반 퇴사 실업급여</a>를 참고하세요.</p>',
       },
       {
         title: '정당한 이직 사유 3: 직장 내 괴롭힘·성희롱',
         content:
-          '<p><strong style="color:#1e3a5f">괴롭힘이나 성희롱 피해로 퇴사한 경우 인정될 수 있습니다</strong></p>\n<p>직장 내 <strong>괴롭힘(근로기준법 제76조의2)</strong>이나 <strong>성희롱</strong>을 당해 사업주에게 신고했으나 적절한 조치가 이루어지지 않아 퇴사한 경우 정당한 이직입니다.</p>\n<p>괴롭힘 증거로 <strong>녹음, 메신저 캡처, 진단서, 동료 진술서</strong> 등을 준비하세요. 사업주에게 개선을 요청한 기록이 있으면 더 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조건: 괴롭힘·성희롱 사실 + 사업주 미조치 → 정당한 이직</blockquote>',
+          '<p><strong style="color:#1e3a5f">괴롭힘이나 성희롱 피해로 퇴사한 경우 인정될 수 있습니다</strong></p>\n<p>직장 내 <strong>괴롭힘(근로기준법 제76조의2)</strong>이나 <strong>성희롱</strong>을 당해 사업주에게 신고했으나 적절한 조치가 이루어지지 않아 퇴사한 경우 정당한 이직입니다.</p>\n<p>괴롭힘 증거로 <strong>녹음, 메신저 캡처, 진단서, 동료 진술서</strong> 등을 준비하세요. 사업주에게 개선을 요청한 기록이 있으면 더 유리합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">조건: 괴롭힘·성희롱 사실 + 사업주 미조치 → 정당한 이직</blockquote>\n<p>성희롱 사안은 증거 상태별로 준비할 것이 다릅니다. 자세한 정리는 <a href="/guide/unemployment/unemployment-sexual-harassment-quit-benefit">직장 성희롱 퇴사 실업급여</a>에서 확인할 수 있습니다.</p>',
       },
       {
         title: '정당한 이직 사유 4: 건강 악화·통근 곤란',

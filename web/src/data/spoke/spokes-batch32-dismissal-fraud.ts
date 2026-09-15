@@ -339,7 +339,7 @@ export const spokesBatch32DismissalFraud: SpokePage[] = [
       {
         title: '근로기준법 제23조 제2항 — 절대적 해고 제한 기간',
         content:
-          '<p><strong style="color:#1e3a5f">업무상 부상·질병으로 요양하는 기간과 그 후 30일간은 어떤 이유로도 해고할 수 없습니다.</strong></p>\n<ul>\n<li><strong>요양 기간의 범위</strong> — 정상적인 노동력을 상실하여 출근을 전혀 할 수 없는 경우뿐 아니라, 노동력을 일부 상실하여 치료를 계속하면서 부분적으로 근로하는 "부분 휴업"도 포함됩니다.</li>\n<li><strong>30일 보호기간</strong> — 요양이 끝난 후 30일간은 근로자가 노동력을 회복하는 데 필요한 최소한의 보호기간입니다. 이 기간 내 해고는 절대적으로 무효입니다.</li>\n<li><strong>시용(수습) 근로자도 보호</strong> — 시용 기간 중이라도 업무상 부상으로 요양 중이면 해고하거나 본계약 체결을 거부할 수 없습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대법원은 "부분 휴업도 요양 기간에 포함되며, 이 기간의 해고 제한은 절대적"이라고 판시합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">업무상 부상·질병으로 요양하는 기간과 그 후 30일간은 어떤 이유로도 해고할 수 없습니다.</strong></p>\n<ul>\n<li><strong>요양 기간의 범위</strong> — 정상적인 노동력을 상실하여 출근을 전혀 할 수 없는 경우뿐 아니라, 노동력을 일부 상실하여 치료를 계속하면서 부분적으로 근로하는 "부분 휴업"도 포함됩니다.</li>\n<li><strong>30일 보호기간</strong> — 요양이 끝난 후 30일간은 근로자가 노동력을 회복하는 데 필요한 최소한의 보호기간입니다. 이 기간 내 해고는 절대적으로 무효입니다.</li>\n<li><strong>시용(수습) 근로자도 보호</strong> — 시용 기간 중이라도 업무상 부상으로 요양 중이면 해고하거나 본계약 체결을 거부할 수 없습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 대법원은 "부분 휴업도 요양 기간에 포함되며, 이 기간의 해고 제한은 절대적"이라고 판시합니다.</blockquote>\n<p>아직 복귀 전이고 병가·휴직 중에 해고 통보를 받았다면 판단 순서가 다릅니다. 재해 성격별 정리는 <a href="/guide/dismissal/dismissal-during-sick-leave">병가·질병휴직 중 해고</a>에서 확인하세요.</p>',
       },
       {
         title: '병가 복귀 후 해고가 부당한 3가지 대표 사례',

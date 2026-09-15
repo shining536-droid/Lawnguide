@@ -131,7 +131,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-60-retirement-benefit',
-    keyword: '60세 정년퇴직 실업급여 수급',
+    keyword: '60세 정년퇴직해도 실업급여를 받을 수 있나요?',
     questionKeyword: '60세 정년퇴직해도 실업급여를 받을 수 있나요?',
     ctaKeyword: '정년퇴직 실업급여 상담',
     type: '자격확인형',
@@ -158,7 +158,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '정년퇴직자 수급기간과 금액 계산',
         content:
-          '<p><strong style="color:#1e3a5f">60세 정년퇴직자는 50세 이상 수급일수 테이블이 적용되어 최대 270일까지 받을 수 있습니다.</strong></p>\n<p>50세 이상 근로자는 동일 피보험기간 대비 일반 근로자보다 30일 더 많은 수급기간이 적용됩니다. 30년 이상 근무했다면 피보험기간 10년 이상에 해당하므로 최대 270일 수급이 가능합니다.</p>\n<ul>\n<li><strong>1일 수급액</strong> — 퇴직 전 3개월 평균임금의 60%, 상한 66,000원</li>\n<li><strong>총 수급액 예시</strong> — 1일 66,000원 × 270일 = 최대 약 17,820,000원</li>\n<li><strong>대기기간</strong> — 신청 후 7일은 대기기간으로 급여가 지급되지 않습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>정년퇴직 후 실업급여 총액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">나이, 근속연수, 퇴직 전 급여를 입력하면 수급기간과 총액을 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">60세 정년퇴직자는 50세 이상 수급일수 테이블이 적용되어 최대 270일까지 받을 수 있습니다.</strong></p>\n<p>50세 이상 근로자는 동일 피보험기간 대비 일반 근로자보다 30일 더 많은 수급기간이 적용됩니다. 30년 이상 근무했다면 피보험기간 10년 이상에 해당하므로 최대 270일 수급이 가능합니다.</p>\n<ul>\n<li><strong>1일 수급액</strong> — 퇴직 전 평균임금의 60%로 계산하며, 1일 상한액과 하한액이 따로 정해져 있습니다. 고용보험 공식 안내 기준 상한액은 1일 66,000원입니다(이직일이 속한 연도 기준으로 달라질 수 있으니 신청 전 공식 안내에서 확인하세요).</li>\n<li><strong>총액은 모의계산으로 확인</strong> — 나이·가입기간·평균임금에 따라 달라지므로 <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-180-C.html" target="_blank" rel="noopener">고용보험 실업급여 모의계산</a>으로 본인 기준 금액을 확인하는 것이 정확합니다.</li>\n<li><strong>대기기간</strong> — 신청 후 7일은 대기기간으로 급여가 지급되지 않습니다</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>정년퇴직 후 실업급여 총액, AI가 즉시 계산합니다</strong></p>\n<p style="margin:0;font-size:0.95em">나이, 근속연수, 퇴직 전 급여를 입력하면 수급기간과 총액을 무료로 확인하세요.</p>\n<a href="/chat?domain=unemployment" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">무료 AI 상담 시작 →</a>\n</div>',
       },
       {
         title: '정년퇴직 후 재취업하면 조기재취업수당도 가능',
@@ -168,9 +168,60 @@ export const spokesBatch28Unemployment: SpokePage[] = [
       {
         title: '정년퇴직자가 주의할 점 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">정년퇴직이라도 신청 시기와 절차를 놓치면 실업급여를 못 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>퇴직일로부터 12개월 이내 신청</strong> — 이 기한을 넘기면 수급자격 자체가 소멸합니다. 퇴직 후 여행이나 휴식을 취하다 기한을 놓치는 경우가 많으니 퇴직 후 한 달 이내에 신청하세요.</li>\n<li><strong>이직확인서 확인</strong> — 이직 사유가 "정년퇴직"으로 기재되었는지 확인하세요. "권고사직" 등 다른 사유로 기재되어도 실업급여 수급에는 문제없지만, 정확한 기재가 분쟁을 예방합니다.</li>\n<li><strong>구직활동 의무</strong> — 정년퇴직자도 실업급여 수급 중 적극적 구직활동을 해야 합니다. 실업인정일마다 구직활동 실적을 보고해야 합니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">정년퇴직이라도 신청 시기와 절차를 놓치면 실업급여를 못 받을 수 있습니다.</strong></p>\n<ul>\n<li><strong>수급기간은 이직일 다음 날부터 12개월</strong> — 이 기간이 지나면 남은 일수가 있어도 지급이 끝납니다. 퇴직 후 한 달 안에 신청하는 것이 안전합니다. 퇴직 후 여행이나 휴식을 취하다 기한을 놓치는 경우가 많으니 퇴직 후 한 달 이내에 신청하세요.</li>\n<li><strong>이직확인서 확인</strong> — 이직 사유가 "정년퇴직"으로 기재되었는지 확인하세요. "권고사직" 등 다른 사유로 기재되어도 실업급여 수급에는 문제없지만, 정확한 기재가 분쟁을 예방합니다.</li>\n<li><strong>구직활동 의무</strong> — 정년퇴직자도 실업급여 수급 중 적극적 구직활동을 해야 합니다. 실업인정일마다 구직활동 실적을 보고해야 합니다.</li><li><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/고용보험법" target="_blank" rel="noopener">국가법령정보센터 「고용보험법」(제50조 소정급여일수)</a>, <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a>에서 본인 가입기간 기준 지급일수를 확인하세요.</li>\n</ul>',
       },
     ],
+    comparison: {
+          "title": "피보험기간별 소정급여일수 — 50세 이상·장애인 기준",
+          "headers": [
+                "고용보험 가입기간",
+                "50세 미만",
+                "50세 이상·장애인",
+                "정년퇴직자가 확인할 것"
+          ],
+          "rows": [
+                {
+                      "label": "1년 미만",
+                      "values": [
+                            "120일",
+                            "120일",
+                            "가입 이력이 실제 근속과 맞는지 먼저 조회"
+                      ]
+                },
+                {
+                      "label": "1년 이상 3년 미만",
+                      "values": [
+                            "150일",
+                            "180일",
+                            "이직확인서의 이직일 기준으로 계산되는지 확인"
+                      ]
+                },
+                {
+                      "label": "3년 이상 5년 미만",
+                      "values": [
+                            "180일",
+                            "210일",
+                            "누락된 가입기간이 있으면 정정 요청"
+                      ]
+                },
+                {
+                      "label": "5년 이상 10년 미만",
+                      "values": [
+                            "210일",
+                            "240일",
+                            "이전 사업장 이력까지 합산됐는지 확인"
+                      ]
+                },
+                {
+                      "label": "10년 이상",
+                      "values": [
+                            "240일",
+                            "270일",
+                            "장기 근속이면 270일 적용 여부를 고용센터에서 확인"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 고용보험 피보험자격의 실질적 보호',

@@ -396,7 +396,7 @@ export const spokesBatch134Labor: SpokePage[] = [
       {
         title: 'Q. 전속계약으로 일했는데 수당을 못 받았을 때 5단계 점검',
         content:
-          '<p><strong style="color:#1e3a5f">A. 계약서 제목이 아니라 실제 일한 방식이 기준이므로 아래 순서로 근거를 모아보세요.</strong></p><ul><li>① <strong>지시의 구체성</strong> — 무엇을 언제 어떻게 하라는 지시가 문서나 메신저로 남아 있는지, 지시를 거절할 수 있었는지 정리합니다.</li><li>② <strong>시간·장소 구속</strong> — 출퇴근 기록, 근무표, 대기 지시, 지각·결근 처리 기록이 있는지 확인합니다.</li><li>③ <strong>보수의 성격</strong> — 기본급이나 고정급이 있었는지, 성과와 무관하게 매달 일정액이 지급됐는지 이체 내역으로 확인합니다.</li><li>④ <strong>대체성과 도구</strong> — 다른 사람을 고용해 업무를 대신 시킬 수 있었는지, 장비와 소모품을 누가 부담했는지 정리합니다.</li><li>⑤ <strong>계속성·전속성</strong> — 계약이 몇 차례 갱신됐는지, 다른 곳 일을 하려면 회사 승인이 필요했는지 기록으로 남깁니다.</li></ul><blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사업소득 처리와 계약서 명칭은 판단 요소 중 하나일 뿐입니다. 지휘·감독과 보수의 성격이 더 무겁게 다뤄지는 경우가 많습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. 계약서 제목이 아니라 실제 일한 방식이 기준이므로 아래 순서로 근거를 모아보세요.</strong></p><ul><li>① <strong>지시의 구체성</strong> — 무엇을 언제 어떻게 하라는 지시가 문서나 메신저로 남아 있는지, 지시를 거절할 수 있었는지 정리합니다.</li><li>② <strong>시간·장소 구속</strong> — 출퇴근 기록, 근무표, 대기 지시, 지각·결근 처리 기록이 있는지 확인합니다.</li><li>③ <strong>보수의 성격</strong> — 기본급이나 고정급이 있었는지, 성과와 무관하게 매달 일정액이 지급됐는지 이체 내역으로 확인합니다.</li><li>④ <strong>대체성과 도구</strong> — 다른 사람을 고용해 업무를 대신 시킬 수 있었는지, 장비와 소모품을 누가 부담했는지 정리합니다.</li><li>⑤ <strong>계속성·전속성</strong> — 계약이 몇 차례 갱신됐는지, 다른 곳 일을 하려면 회사 승인이 필요했는지 기록으로 남깁니다.</li></ul><blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 사업소득 처리와 계약서 명칭은 판단 요소 중 하나일 뿐입니다. 지휘·감독과 보수의 성격이 더 무겁게 다뤄지는 경우가 많습니다.</blockquote>\n<p>근로자성 판단 요소를 항목별로 비교해보려면 <a href="/guide/wage/wage-freelancer-worker-status-claim">프리랜서 임금체불 근로자성 인정 기준</a>을 함께 확인하세요.</p>',
       },
       {
         title: '📌 이렇게 진행됩니다 — 체불 진정과 청구 5단계',

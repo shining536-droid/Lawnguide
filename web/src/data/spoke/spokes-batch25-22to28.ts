@@ -98,7 +98,7 @@ export const spokesBatch25_22to28: SpokePage[] = [
   {
     domain: 'traffic-accident',
     slug: 'outpatient-treatment-count-settlement-impact',
-    keyword: '교통사고 통원치료 횟수 합의금 영향',
+    keyword: '교통사고 통원치료, 몇 번 받아야 합의에 불리하지 않나요?',
     questionKeyword: '교통사고 통원치료를 몇 번 받아야 합의에 불리하지 않나요?',
     ctaKeyword: '교통사고 통원치료 합의금 상담',
     type: '기준형',
@@ -124,9 +124,52 @@ export const spokesBatch25_22to28: SpokePage[] = [
       {
         title: '치료 종결 후 합의 시 체크포인트',
         content:
-          '<p><strong style="color:#1e3a5f">치료를 마친 뒤 합의를 진행할 때, 통원 기록과 의료 소견을 정리해두면 협상력이 높아집니다.</strong></p>\n<ul>\n<li><strong>진료기록부 발급</strong> — 모든 통원 일자, 치료 내용, 처방 내역이 기재된 진료기록부를 발급받으세요. 합의금 산정의 기본 자료입니다</li>\n<li><strong>향후 치료비 소견서</strong> — 치료가 끝나도 통증이 남아 있다면 담당의에게 "향후 OO개월 추가 치료 필요" 소견서를 받으세요</li>\n<li><strong>후유장해 진단</strong> — 증상이 고정된 뒤 후유장해 진단서를 발급받으면 장해위자료를 별도로 청구할 수 있습니다</li>\n<li><strong>치료비 영수증 일괄 정리</strong> — 약국 처방비, 한방 치료비, 물리치료비를 포함한 모든 영수증을 취합하여 제출하세요</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 치료를 일찍 중단하면 "더 이상 치료가 필요 없었다"는 보험사의 주장에 반박하기 어렵습니다. 의사의 치료 종결 소견이 있을 때까지 치료를 지속하세요</blockquote>',
+          '<p><strong style="color:#1e3a5f">치료를 마친 뒤 합의를 진행할 때, 통원 기록과 의료 소견을 정리해두면 협상력이 높아집니다.</strong></p>\n<ul>\n<li><strong>진료기록부 발급</strong> — 모든 통원 일자, 치료 내용, 처방 내역이 기재된 진료기록부를 발급받으세요. 합의금 산정의 기본 자료입니다</li>\n<li><strong>향후 치료비 소견서</strong> — 치료가 끝나도 통증이 남아 있다면 담당의에게 "향후 OO개월 추가 치료 필요" 소견서를 받으세요</li>\n<li><strong>후유장해 진단</strong> — 증상이 고정된 뒤 후유장해 진단서를 발급받으면 장해위자료를 별도로 청구할 수 있습니다</li>\n<li><strong>치료비 영수증 일괄 정리</strong> — 약국 처방비, 한방 치료비, 물리치료비를 포함한 모든 영수증을 취합하여 제출하세요</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 치료를 일찍 중단하면 "더 이상 치료가 필요 없었다"는 보험사의 주장에 반박하기 어렵습니다. 의사의 치료 종결 소견이 있을 때까지 치료를 지속하세요</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/자동차손해배상%20보장법" target="_blank" rel="noopener">국가법령정보센터 「자동차손해배상 보장법」</a> · <a href="https://www.fss.or.kr/fss/main/main.do" target="_blank" rel="noopener">금융감독원 금융분쟁조정·민원신청</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 무료 법률상담(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "내 통원치료 상황별 판단표",
+          "headers": [
+                "내 상황",
+                "합의 산정에서 갖는 의미",
+                "확인할 자료",
+                "다음 행동"
+          ],
+          "rows": [
+                {
+                      "label": "진단서에 적힌 치료기간 안에서 통원 중",
+                      "values": [
+                            "치료 필요성을 다투기 어려움",
+                            "진단서, 진료기록부",
+                            "치료 종결 소견이 나올 때까지 기록을 이어서 남기기"
+                      ]
+                },
+                {
+                      "label": "진단 기간을 넘겨 계속 통원 중",
+                      "values": [
+                            "보험사가 과잉진료를 주장할 수 있음",
+                            "담당의 추가 치료 소견서",
+                            "연장 소견서를 먼저 받고 통원 지속"
+                      ]
+                },
+                {
+                      "label": "2주 이상 치료가 비어 있음",
+                      "values": [
+                            "증상이 호전됐다는 주장의 근거가 될 수 있음",
+                            "공백 사유 증빙(출장·입원·타 병원 진료)",
+                            "재개 진료 시 공백 사유를 진료기록에 남겨달라고 요청"
+                      ]
+                },
+                {
+                      "label": "치료를 끝냈는데 통증이 남음",
+                      "values": [
+                            "향후치료비·후유장해가 별도 쟁점이 됨",
+                            "향후 치료비 소견서, 후유장해 진단서",
+                            "증상 고정 시점에 장해 진단을 받을지 검토"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 보증보험 보험사고 결정 방법',

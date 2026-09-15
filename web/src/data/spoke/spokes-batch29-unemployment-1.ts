@@ -59,7 +59,7 @@ export const spokesBatch29Unemployment1: SpokePage[] = [
       {
         title: '이직확인서 사유 코드 확인이 가장 중요합니다',
         content:
-          '<p><strong style="color:#1e3a5f">사업주가 이직확인서에 "자발적 퇴사"로 기재하면 즉시 이의를 제기하세요.</strong></p>\n<p>임금체불 퇴사인데 사업주가 이직확인서에 "개인 사정에 의한 자발적 이직"으로 기재하는 경우가 많습니다. 이 경우 고용센터에 이의신청을 하면 됩니다.</p>\n<ul>\n<li><strong>이의신청 방법</strong> — 고용센터 방문 또는 온라인으로 이직확인서 내용에 대한 이의신청서를 제출합니다.</li>\n<li><strong>증빙자료 첨부</strong> — 체불 증빙서류(계좌내역, 문자 등)를 함께 제출하면 고용센터가 사실관계를 확인합니다.</li>\n<li><strong>처리 기간</strong> — 이의신청 후 통상 2~4주 이내에 결과가 나옵니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사업주가 이직 사유를 잘못 기재해도 포기하지 마세요. 증빙서류만 있으면 고용센터가 직권으로 사유를 변경할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">사업주가 이직확인서에 "자발적 퇴사"로 기재하면 즉시 이의를 제기하세요.</strong></p>\n<p>임금체불 퇴사인데 사업주가 이직확인서에 "개인 사정에 의한 자발적 이직"으로 기재하는 경우가 많습니다. 이 경우 고용센터에 이의신청을 하면 됩니다.</p>\n<ul>\n<li><strong>이의신청 방법</strong> — 고용센터 방문 또는 온라인으로 이직확인서 내용에 대한 이의신청서를 제출합니다.</li>\n<li><strong>증빙자료 첨부</strong> — 체불 증빙서류(계좌내역, 문자 등)를 함께 제출하면 고용센터가 사실관계를 확인합니다.</li>\n<li><strong>처리 기간</strong> — 이의신청 후 통상 2~4주 이내에 결과가 나옵니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 사업주가 이직 사유를 잘못 기재해도 포기하지 마세요. 증빙서류만 있으면 고용센터가 직권으로 사유를 변경할 수 있습니다.</blockquote>\n<p>이직확인서에 사유가 잘못 적히는 문제는 정년퇴직에서도 똑같이 생깁니다. 정년퇴직 사례는 <a href="/guide/unemployment/unemployment-60-retirement-benefit">60세 정년퇴직 실업급여</a>에서 확인하세요.</p>',
       },
       {
         title: '임금체불 퇴사 시 실업급여와 체불임금 동시 청구하기',
@@ -128,7 +128,7 @@ export const spokesBatch29Unemployment1: SpokePage[] = [
       {
         title: '계약만료 퇴직이 비자발적 이직인 이유',
         content:
-          '<p><strong style="color:#1e3a5f">기간제 근로계약의 만료는 고용보험법상 비자발적 이직에 해당할 소지가 있습니다.</strong></p>\n<p>근로자가 계약 갱신을 원했으나 사업주가 갱신을 거절한 경우, 이는 근로자의 의사에 반한 이직입니다. 고용보험법 시행규칙 별표2에 따라 수급자격이 제한되지 않는 이직 사유에 해당할 소지가 있습니다.</p>\n<ul>\n<li><strong>1회 이상 갱신된 적 있는 계약</strong> — 이전에 한 번이라도 갱신된 적 있다면 갱신기대권이 인정될 가능성이 높습니다.</li>\n<li><strong>갱신 기대를 줄 만한 사업주 언행</strong> — "계속 일할 수 있다", "내년에도 같이 일하자" 등의 발언이 있었다면 증거로 보관하세요.</li>\n<li><strong>동종 업무 후임 채용 여부</strong> — 계약 종료 후 같은 업무에 새 직원을 채용했다면 갱신 거절의 합리성이 약해집니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계약 만료는 자발적 퇴사가 아닙니다. 별도의 증명 없이도 실업급여 신청이 가능합니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">기간제 근로계약의 만료는 고용보험법상 비자발적 이직에 해당할 소지가 있습니다.</strong></p>\n<p>근로자가 계약 갱신을 원했으나 사업주가 갱신을 거절한 경우, 이는 근로자의 의사에 반한 이직입니다. 고용보험법 시행규칙 별표2에 따라 수급자격이 제한되지 않는 이직 사유에 해당할 소지가 있습니다.</p>\n<ul>\n<li><strong>1회 이상 갱신된 적 있는 계약</strong> — 이전에 한 번이라도 갱신된 적 있다면 갱신기대권이 인정될 가능성이 높습니다.</li>\n<li><strong>갱신 기대를 줄 만한 사업주 언행</strong> — "계속 일할 수 있다", "내년에도 같이 일하자" 등의 발언이 있었다면 증거로 보관하세요.</li>\n<li><strong>동종 업무 후임 채용 여부</strong> — 계약 종료 후 같은 업무에 새 직원을 채용했다면 갱신 거절의 합리성이 약해집니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 계약 만료는 자발적 퇴사가 아닙니다. 별도의 증명 없이도 실업급여 신청이 가능합니다.</blockquote>\n<p>인턴·수습 기간이 끝나 정규직 전환이 무산된 경우도 같은 구조로 판단합니다. 자세한 요건은 <a href="/guide/unemployment/unemployment-internship-training-end">인턴·수습 종료 후 실업급여</a>에서 정리했습니다.</p>',
       },
       {
         title: '갱신기대권이 인정되면 부당해고 구제도 가능합니다',
@@ -339,7 +339,7 @@ export const spokesBatch29Unemployment1: SpokePage[] = [
   {
     domain: 'unemployment',
     slug: 'unemployment-probation-fired',
-    keyword: '수습기간 해고 실업급여',
+    keyword: '수습기간에 해고되면 실업급여를 받을 수 있나요?',
     questionKeyword: '수습기간에 해고되면 실업급여를 받을 수 있나요?',
     ctaKeyword: '수습 해고 실업급여 상담',
     type: '자격확인형',
@@ -365,9 +365,52 @@ export const spokesBatch29Unemployment1: SpokePage[] = [
       {
         title: '수습 해고 시 확인해야 할 체크리스트',
         content:
-          '<p><strong style="color:#1e3a5f">해고 통보를 받으면 즉시 확인할 3가지입니다.</strong></p>\n<ul>\n<li><strong>이직확인서 이직 사유</strong> — "회사 사정에 의한 이직" 또는 "수습 불합격에 의한 해고"로 기재되었는지 확인하세요.</li>\n<li><strong>피보험기간 합산 가능 여부</strong> — 고용보험 홈페이지에서 이전 직장 포함 총 피보험기간을 확인하세요.</li>\n<li><strong>해고예고수당</strong> — 수습 3개월 초과 시 해고예고(30일 전 통보 또는 30일분 해고예고수당)가 필요합니다.</li>\n</ul>',
+          '<p><strong style="color:#1e3a5f">해고 통보를 받으면 즉시 확인할 3가지입니다.</strong></p>\n<ul>\n<li><strong>이직확인서 이직 사유</strong> — "회사 사정에 의한 이직" 또는 "수습 불합격에 의한 해고"로 기재되었는지 확인하세요.</li>\n<li><strong>피보험기간 합산 가능 여부</strong> — 고용보험 홈페이지에서 이전 직장 포함 총 피보험기간을 확인하세요.</li>\n<li><strong>해고예고수당</strong> — 수습 3개월 초과 시 해고예고(30일 전 통보 또는 30일분 해고예고수당)가 필요합니다.</li><li><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/근로기준법" target="_blank" rel="noopener">국가법령정보센터 「근로기준법」</a>, <a href="https://www.nlrc.go.kr/" target="_blank" rel="noopener">노동위원회 부당해고 구제신청 안내</a>, <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">고용보험 실업급여 공식 안내</a></li>\n</ul>',
       },
     ],
+    comparison: {
+          "title": "수습 해고 — 상황별 판단표",
+          "headers": [
+                "내 상황",
+                "실업급여 쪽 판단",
+                "부당해고 쪽 판단",
+                "다음 행동"
+          ],
+          "rows": [
+                {
+                      "label": "수습 3개월 이내, 이전 직장 이력 없음",
+                      "values": [
+                            "180일 미충족으로 수급이 어려움",
+                            "해고 사유의 정당성은 별도로 다툴 수 있음",
+                            "피보험 이력부터 조회해 합산 가능성 확인"
+                      ]
+                },
+                {
+                      "label": "수습 해고 + 이전 직장 피보험기간 있음",
+                      "values": [
+                            "합산해 180일이면 수급 가능",
+                            "병행 가능",
+                            "이직일 기준 18개월 내 이력을 합산"
+                      ]
+                },
+                {
+                      "label": "이직확인서가 자발적 퇴사로 기재됨",
+                      "values": [
+                            "그대로 두면 수급자격 판단에 불리",
+                            "해고 사실 입증이 핵심",
+                            "해고 통보 문자·메일을 갖고 고용센터에 정정 요청"
+                      ]
+                },
+                {
+                      "label": "수습 평가 기준을 미리 듣지 못함",
+                      "values": [
+                            "수급자격과는 별개",
+                            "절차·기준의 공정성을 다툴 여지",
+                            "노동위원회 구제신청 기한(3개월) 확인"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 청원경찰 고용보험 적용과 피보험자격 확인',

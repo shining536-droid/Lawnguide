@@ -44,7 +44,7 @@ export const spokesBatch18_16to20: SpokePage[] = [
       {
         title: '다섯째, 수인한도를 초과하면 손해배상을 청구할 수 있습니다',
         content:
-          '<p><strong style="color:#1e3a5f">민법 제750조에 따라 사회통념상 참을 한도를 넘는 소음은 불법행위에 해당할 소지가 있습니다</strong></p>\n<p>층간소음이 지속적으로 기준을 초과하고 생활에 심각한 지장을 준다면 <strong>민사소송을 통한 손해배상 청구</strong>가 가능합니다. 정신적 피해에 대한 위자료도 청구할 수 있습니다.</p>\n<p>법원은 <strong>소음의 정도, 피해의 성질, 지역성, 가해자의 방지 노력</strong> 등을 종합적으로 고려하여 수인한도 초과 여부를 판단합니다. 측정 기록, 진단서, 녹음 파일 등 증거를 미리 확보해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">손해배상: 수인한도 초과 입증 → 위자료 + 치료비 청구 가능</blockquote>',
+          '<p><strong style="color:#1e3a5f">민법 제750조에 따라 사회통념상 참을 한도를 넘는 소음은 불법행위에 해당할 소지가 있습니다</strong></p>\n<p>층간소음이 지속적으로 기준을 초과하고 생활에 심각한 지장을 준다면 <strong>민사소송을 통한 손해배상 청구</strong>가 가능합니다. 정신적 피해에 대한 위자료도 청구할 수 있습니다.</p>\n<p>법원은 <strong>소음의 정도, 피해의 성질, 지역성, 가해자의 방지 노력</strong> 등을 종합적으로 고려하여 수인한도 초과 여부를 판단합니다. 측정 기록, 진단서, 녹음 파일 등 증거를 미리 확보해두세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">손해배상: 수인한도 초과 입증 → 위자료 + 치료비 청구 가능</blockquote>\n<p>참을 한도(수인한도) 법리는 경계 침범 분쟁에서도 같은 방식으로 적용됩니다. 경계 쪽 판단 기준은 <a href="/guide/neighbor-dispute/boundary-wall-dispute">경계 분쟁·담장 설치 기준</a>에서 볼 수 있습니다.</p>',
       },
     ],
     cases: [

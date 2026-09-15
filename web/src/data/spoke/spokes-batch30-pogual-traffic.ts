@@ -193,7 +193,7 @@ export const spokesBatch30PogualTraffic: SpokePage[] = [
       {
         title: '택시 승객의 보상 청구 대상 3곳',
         content:
-          '<p><strong style="color:#1e3a5f">택시 승객은 과실 여부와 관계없이, 택시 보험과 상대 차량 보험 모두에 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>상대 차량 보험사</strong> — 상대 차량에 과실이 있으면 상대 보험사의 대인배상으로 치료비·합의금을 청구합니다.</li>\n<li><strong>택시 보험사(공제조합)</strong> — 택시 기사에게도 과실이 있으면 택시 공제조합에도 청구 가능합니다. 택시 승객은 택시의 과실과 무관하게 보상받을 권리가 있습니다.</li>\n<li><strong>양쪽 공동 청구</strong> — 쌍방과실인 경우, 승객은 양쪽 보험사에 과실비율에 따라 나누어 청구하거나 한쪽에 전액 청구 후 구상권을 맡길 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 택시 승객은 사고의 과실이 전혀 없습니다. 어느 쪽 보험이든 전액 보상을 청구할 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">택시 승객은 과실 여부와 관계없이, 택시 보험과 상대 차량 보험 모두에 청구할 수 있습니다.</strong></p>\n<ul>\n<li><strong>상대 차량 보험사</strong> — 상대 차량에 과실이 있으면 상대 보험사의 대인배상으로 치료비·합의금을 청구합니다.</li>\n<li><strong>택시 보험사(공제조합)</strong> — 택시 기사에게도 과실이 있으면 택시 공제조합에도 청구 가능합니다. 택시 승객은 택시의 과실과 무관하게 보상받을 권리가 있습니다.</li>\n<li><strong>양쪽 공동 청구</strong> — 쌍방과실인 경우, 승객은 양쪽 보험사에 과실비율에 따라 나누어 청구하거나 한쪽에 전액 청구 후 구상권을 맡길 수 있습니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 택시 승객은 사고의 과실이 전혀 없습니다. 어느 쪽 보험이든 전액 보상을 청구할 수 있습니다.</blockquote>\n<p>충돌 없이 급정거만으로 다친 경우에도 같은 구조로 청구합니다. 버스·택시 급정거 사고는 <a href="/guide/traffic-accident/traffic-accident-bus-sudden-stop-passenger-claim">급정거 승객 부상 손해배상</a>에서 청구 상대별로 정리했습니다.</p>',
       },
       {
         title: '보상 청구 절차 3단계',

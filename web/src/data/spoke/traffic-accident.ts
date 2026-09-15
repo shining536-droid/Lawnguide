@@ -223,7 +223,7 @@ export const trafficAccidentPages: SpokePage[] = [
       {
         title: '보상금 6대 항목을 빠짐없이 확인하세요',
         content:
-          '<p><strong style="color:#1e3a5f">치료비·휴업손해·위자료·향후치료비·간병비·교통비 — 6가지를 모두 확인하세요</strong></p>\n<p>교통사고 부상 보상금은 다음 항목으로 구성됩니다. ①<strong>치료비</strong>: 실제 지출된 병원비 전액(입원비, 수술비, 약제비, 재활치료비 포함). ②<strong>휴업손해</strong>: 치료 기간 동안 일하지 못해 발생한 소득 손실. ③<strong>위자료</strong>: 정신적 고통에 대한 배상(부상 정도에 따라 수백만~수천만원).</p>\n<p>④<strong>향후치료비</strong>: 치료 종결 후에도 추가 치료가 필요한 경우의 예상 비용. ⑤<strong>간병비</strong>: 거동이 어려워 간병이 필요한 경우(가족 간병도 청구 가능). ⑥<strong>교통비</strong>: 통원 치료를 위한 교통비(택시비 영수증 보관). 보험사가 제시한 합의금이 이 6가지를 모두 포함하는지 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">6대 항목: 치료비 + 휴업손해 + 위자료 + 향후치료비 + 간병비 + 교통비</blockquote>',
+          '<p><strong style="color:#1e3a5f">치료비·휴업손해·위자료·향후치료비·간병비·교통비 — 6가지를 모두 확인하세요</strong></p>\n<p>교통사고 부상 보상금은 다음 항목으로 구성됩니다. ①<strong>치료비</strong>: 실제 지출된 병원비 전액(입원비, 수술비, 약제비, 재활치료비 포함). ②<strong>휴업손해</strong>: 치료 기간 동안 일하지 못해 발생한 소득 손실. ③<strong>위자료</strong>: 정신적 고통에 대한 배상(부상 정도에 따라 수백만~수천만원).</p>\n<p>④<strong>향후치료비</strong>: 치료 종결 후에도 추가 치료가 필요한 경우의 예상 비용. ⑤<strong>간병비</strong>: 거동이 어려워 간병이 필요한 경우(가족 간병도 청구 가능). ⑥<strong>교통비</strong>: 통원 치료를 위한 교통비(택시비 영수증 보관). 보험사가 제시한 합의금이 이 6가지를 모두 포함하는지 가능한 한 확인하세요.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">6대 항목: 치료비 + 휴업손해 + 위자료 + 향후치료비 + 간병비 + 교통비</blockquote>\n<p>대중교통 승객으로 다친 경우에는 청구 상대가 달라집니다. 정리는 <a href="/guide/traffic-accident/traffic-accident-bus-sudden-stop-passenger-claim">버스 급정거 승객 부상 보상</a>에서 확인하세요.</p>',
       },
       {
         title: '후유장해 등급이 인정되면 보상금이 크게 달라집니다',
@@ -233,7 +233,7 @@ export const trafficAccidentPages: SpokePage[] = [
       {
         title: '보험사 합의 전에 반드시 확인해야 할 3가지',
         content:
-          '<p><strong style="color:#1e3a5f">성급한 합의, 과소 평가된 휴업손해, 부제소 합의 조항을 주의하세요</strong></p>\n<p>첫째, <strong>치료가 완전히 끝나기 전에 합의하지 마세요</strong>. 합의 후 추가 치료가 필요해지면 비용을 받기 매우 어렵습니다. 의사에게 치료 종결 소견과 향후 치료 필요 여부를 가능한 한 확인하세요.</p>\n<p>둘째, 보험사가 <strong>휴업손해를 과소 평가</strong>하는 경우가 많습니다. 소득 증빙(급여명세서, 소득금액증명원, 세금신고서)을 꼼꼼히 제출하세요. 무직자나 가정주부도 <strong>일용노임 기준</strong>으로 휴업손해를 청구할 수 있습니다. 셋째, 합의서의 <strong>"향후 일체의 이의를 제기하지 않는다"는 부제소 합의 조항</strong>을 확인하세요. 서명하면 추가 청구가 거의 불가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: ①치료 종결 전 합의 금지 ②휴업손해 소득 증빙 철저 ③부제소 합의 조항 확인</blockquote>',
+          '<p><strong style="color:#1e3a5f">성급한 합의, 과소 평가된 휴업손해, 부제소 합의 조항을 주의하세요</strong></p>\n<p>첫째, <strong>치료가 완전히 끝나기 전에 합의하지 마세요</strong>. 합의 후 추가 치료가 필요해지면 비용을 받기 매우 어렵습니다. 의사에게 치료 종결 소견과 향후 치료 필요 여부를 가능한 한 확인하세요.</p>\n<p>둘째, 보험사가 <strong>휴업손해를 과소 평가</strong>하는 경우가 많습니다. 소득 증빙(급여명세서, 소득금액증명원, 세금신고서)을 꼼꼼히 제출하세요. 무직자나 가정주부도 <strong>일용노임 기준</strong>으로 휴업손해를 청구할 수 있습니다. 셋째, 합의서의 <strong>"향후 일체의 이의를 제기하지 않는다"는 부제소 합의 조항</strong>을 확인하세요. 서명하면 추가 청구가 거의 불가능합니다.</p>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">주의: ①치료 종결 전 합의 금지 ②휴업손해 소득 증빙 철저 ③부제소 합의 조항 확인</blockquote>\n<p>합의 시점을 정하기 전에 치료 기록이 충분한지부터 확인하는 것이 좋습니다. 통원 횟수와 치료 공백이 합의에 어떻게 작용하는지는 <a href="/guide/traffic-accident/outpatient-treatment-count-settlement-impact">통원치료 횟수와 합의금 관계</a>에서 확인할 수 있습니다.</p>',
       },
       {
         title: '합의가 안 되면 소송이나 분쟁조정을 활용하세요',

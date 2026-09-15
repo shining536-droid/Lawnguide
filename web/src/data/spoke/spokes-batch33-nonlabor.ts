@@ -284,7 +284,7 @@ export const spokesBatch33Nonlabor: SpokePage[] = [
       {
         title: '적극적 손해 — 치료비와 실비 보상',
         content:
-          '<p><strong style="color:#1e3a5f">실제 지출된 치료비와 향후 치료비가 적극적 손해에 해당할 소지가 있습니다.</strong></p>\n<ul>\n<li><strong>기왕치료비</strong> — 사고 시점부터 현재까지 실제 지출된 병원비, 약제비, 한방치료비, 물리치료비 등 전액이 포함됩니다.</li>\n<li><strong>향후치료비</strong> — 의사 소견서에 따라 향후 필요한 수술비, 재활치료비, 보조기구 비용 등을 산정합니다. 의료감정을 통해 금액이 확정됩니다.</li>\n<li><strong>개호비</strong> — 중상해로 일상생활이 어려운 경우, 간병인 비용(개호비)도 청구할 수 있습니다. 가족이 간병한 경우에도 인정될 수 있습니다.</li>\n<li><strong>기타 실비</strong> — 교통비, 보조기구 구입비, 차량 수리비(또는 시가 배상) 등도 적극적 손해에 포함됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 치료 중이라면 합의를 서두르지 마세요. 향후 치료비가 확정된 후 합의해야 정당한 보상을 받을 수 있습니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">실제 지출된 치료비와 향후 치료비가 적극적 손해에 해당할 소지가 있습니다.</strong></p>\n<ul>\n<li><strong>기왕치료비</strong> — 사고 시점부터 현재까지 실제 지출된 병원비, 약제비, 한방치료비, 물리치료비 등 전액이 포함됩니다.</li>\n<li><strong>향후치료비</strong> — 의사 소견서에 따라 향후 필요한 수술비, 재활치료비, 보조기구 비용 등을 산정합니다. 의료감정을 통해 금액이 확정됩니다.</li>\n<li><strong>개호비</strong> — 중상해로 일상생활이 어려운 경우, 간병인 비용(개호비)도 청구할 수 있습니다. 가족이 간병한 경우에도 인정될 수 있습니다.</li>\n<li><strong>기타 실비</strong> — 교통비, 보조기구 구입비, 차량 수리비(또는 시가 배상) 등도 적극적 손해에 포함됩니다.</li>\n</ul>\n<blockquote style="margin-top:8px;padding:8px 12px;background:#f7f7f7;border-radius:6px;font-size:0.9em;color:#555">핵심: 치료 중이라면 합의를 서두르지 마세요. 향후 치료비가 확정된 후 합의해야 정당한 보상을 받을 수 있습니다.</blockquote>\n<p>치료비 자체와 별개로, 통원을 몇 번 다녔는지도 위자료 산정에 반영됩니다. 적정 횟수 판단 기준은 <a href="/guide/traffic-accident/outpatient-treatment-count-settlement-impact">교통사고 통원치료 횟수와 합의금 관계</a>에서 상황별로 정리했습니다.</p>',
       },
       {
         title: '소극적 손해 — 휴업손해와 일실수익',

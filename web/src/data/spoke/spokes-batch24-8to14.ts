@@ -126,7 +126,7 @@ export const spokesBatch24_8to14: SpokePage[] = [
       {
         title: '수습 해고에 대응하는 구체적 절차',
         content:
-          '<p><strong style="color:#1e3a5f">수습 해고가 부당하다고 판단되면 해고일로부터 3개월 이내에 노동위원회에 구제신청을 해야 합니다</strong></p>\n<ul>\n<li><strong>해고 사유 요구</strong> — 먼저 사업주에게 해고 사유를 서면으로 요구하세요(근로기준법 제27조). 사업주가 거부하면 그 사실 자체가 부당해고 입증 자료가 됩니다</li>\n<li><strong>증거 수집</strong> — 해고 통보 문자·카카오톡, 근무 기록, 급여 이체 내역, 업무 성과 자료 등을 확보하세요. 동료의 진술도 중요한 증거가 됩니다</li>\n<li><strong>구제신청서 제출</strong> — 관할 지방노동위원회에 부당해고 구제신청서를 제출합니다. 해고일부터 3개월 이내에 제출해야 하며, 인정되면 복직 또는 해고기간 임금 상당액을 받을 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">기한: 해고일로부터 3개월 이내에 구제신청 → 놓치면 민사소송만 가능(시간·비용 증가)</blockquote>',
+          '<p><strong style="color:#1e3a5f">수습 해고가 부당하다고 판단되면 해고일로부터 3개월 이내에 노동위원회에 구제신청을 해야 합니다</strong></p>\n<ul>\n<li><strong>해고 사유 요구</strong> — 먼저 사업주에게 해고 사유를 서면으로 요구하세요(근로기준법 제27조). 사업주가 거부하면 그 사실 자체가 부당해고 입증 자료가 됩니다</li>\n<li><strong>증거 수집</strong> — 해고 통보 문자·카카오톡, 근무 기록, 급여 이체 내역, 업무 성과 자료 등을 확보하세요. 동료의 진술도 중요한 증거가 됩니다</li>\n<li><strong>구제신청서 제출</strong> — 관할 지방노동위원회에 부당해고 구제신청서를 제출합니다. 해고일부터 3개월 이내에 제출해야 하며, 인정되면 복직 또는 해고기간 임금 상당액을 받을 수 있습니다</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">기한: 해고일로부터 3개월 이내에 구제신청 → 놓치면 민사소송만 가능(시간·비용 증가)</blockquote>\n<p>치료 중에 해고 통보를 받은 경우에도 구제신청 기한은 같습니다. 병가·질병휴직 중 해고의 판단 기준은 <a href="/guide/dismissal/dismissal-during-sick-leave">병가·질병휴직 중 해고</a>에서 확인할 수 있습니다.</p>',
       },
     ],
     cases: [

@@ -247,7 +247,7 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
   {
     domain: 'real-estate-sale',
     slug: 'sale-contract-essential-clauses',
-    keyword: '부동산 매매 계약서 필수 특약 사항',
+    keyword: '부동산 매매계약서에 어떤 특약을 넣어야 하나요?',
     questionKeyword: '부동산 매매 계약서에 꼭 넣어야 할 특약 사항은 무엇인가요?',
     ctaKeyword: '매매계약서 필수 특약 확인',
     type: '체크리스트형',
@@ -273,9 +273,52 @@ export const spokesBatch13Pages11to15: SpokePage[] = [
       {
         title: '특약 작성 시 주의사항과 실전 팁',
         content:
-          '<p><strong style="color:#1e3a5f">모호한 표현은 분쟁의 씨앗입니다 — 구체적 숫자와 기한을 넣으세요</strong></p>\n<p>"하자가 발견되면 협의한다"는 표현은 효력이 약합니다. <strong>"잔금일로부터 6개월 이내에 발견된 누수·결로 하자에 대해 매도인이 보수 비용을 부담한다"</strong>처럼 기간, 대상, 책임 주체를 명확히 기재하세요.</p>\n<p>위약금 비율도 "합리적 범위"가 아니라 <strong>"매매대금의 10%"</strong>처럼 구체적 금액이나 비율로 정하세요. 민법 제398조 제2항에 따라 법원은 과도한 위약금을 감액할 수 있으므로, 통상 매매대금의 <strong>10~20%</strong>가 적정 수준입니다.</p>\n<p>특약 작성 시 <strong>공인중개사에게 모든 것을 맡기지 마세요</strong>. 공인중개사는 중립적 위치에 있어 매수인에게 유리한 특약을 적극적으로 제안하지 않을 수 있습니다. 아래 체크리스트를 미리 준비하여 계약 당일 누락 없이 반영하세요.</p>\n<p><strong>계약 전 체크리스트:</strong></p>\n<ul>\n<li>등기부등본 갑구·을구 확인 (소유권, 근저당, 가압류)</li>\n<li>건축물대장 확인 (위반건축물 여부)</li>\n<li>토지이용계획확인서 확인 (용도지역, 건폐율·용적률)</li>\n<li>실거래가 조회 (적정 매매가 확인)</li>\n<li>국세·지방세 완납증명서 요청 (세금 체납 여부)</li>\n</ul>\n<div style="margin-top:16px;padding:16px;background:linear-gradient(135deg,#1e3a5f 0%,#2d5a8e 100%);border-radius:12px;text-align:center">\n<a href="/diagnosis/real-estate-sale" style="color:#ffd700;font-weight:bold;font-size:1.05em;text-decoration:none">내 매매계약서 특약, 빠진 것이 없는지 점검해보세요 →</a></div>',
+          '<p><strong style="color:#1e3a5f">모호한 표현은 분쟁의 씨앗입니다 — 구체적 숫자와 기한을 넣으세요</strong></p>\n<p>"하자가 발견되면 협의한다"는 표현은 효력이 약합니다. <strong>"잔금일로부터 6개월 이내에 발견된 누수·결로 하자에 대해 매도인이 보수 비용을 부담한다"</strong>처럼 기간, 대상, 책임 주체를 명확히 기재하세요.</p>\n<p>위약금 비율도 "합리적 범위"가 아니라 <strong>"매매대금의 10%"</strong>처럼 구체적 금액이나 비율로 정하세요. 민법 제398조 제2항에 따라 법원은 과도한 위약금을 감액할 수 있으므로, 통상 매매대금의 <strong>10~20%</strong>가 적정 수준입니다.</p>\n<p>특약 작성 시 <strong>공인중개사에게 모든 것을 맡기지 마세요</strong>. 공인중개사는 중립적 위치에 있어 매수인에게 유리한 특약을 적극적으로 제안하지 않을 수 있습니다. 아래 체크리스트를 미리 준비하여 계약 당일 누락 없이 반영하세요.</p>\n<p><strong>계약 전 체크리스트:</strong></p>\n<ul>\n<li>등기부등본 갑구·을구 확인 (소유권, 근저당, 가압류)</li>\n<li>건축물대장 확인 (위반건축물 여부)</li>\n<li>토지이용계획확인서 확인 (용도지역, 건폐율·용적률)</li>\n<li>실거래가 조회 (적정 매매가 확인)</li>\n<li>국세·지방세 완납증명서 요청 (세금 체납 여부)</li>\n</ul>\n<div style="margin-top:16px;padding:16px;background:linear-gradient(135deg,#1e3a5f 0%,#2d5a8e 100%);border-radius:12px;text-align:center">\n<a href="/diagnosis/real-estate-sale" style="color:#ffd700;font-weight:bold;font-size:1.05em;text-decoration:none">내 매매계약서 특약, 빠진 것이 없는지 점검해보세요 →</a></div><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/민법" target="_blank" rel="noopener">국가법령정보센터 「민법」(제563조·제580조·제398조)</a> · <a href="https://rt.molit.go.kr/" target="_blank" rel="noopener">국토교통부 실거래가 공개시스템</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 무료 법률상담(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "특약을 넣었을 때와 빠뜨렸을 때 — 항목별 비교",
+          "headers": [
+                "특약 항목",
+                "빠뜨리면 생기는 위험",
+                "확인할 서류",
+                "계약 전 할 일"
+          ],
+          "rows": [
+                {
+                      "label": "근저당·가압류 말소",
+                      "values": [
+                            "잔금 후에도 부담이 남아 소유권 행사에 장애",
+                            "등기부등본 을구",
+                            "잔금일 동시이행으로 말소 절차를 정해두기"
+                      ]
+                },
+                {
+                      "label": "하자 담보 범위·기간",
+                      "values": [
+                            "숨은 하자를 발견해도 범위·기간을 다투게 됨",
+                            "건축물대장, 현장 점검 기록",
+                            "기간과 대상 하자를 숫자로 특정해 기재"
+                      ]
+                },
+                {
+                      "label": "위약금",
+                      "values": [
+                            "실제 손해를 직접 입증해야 배상을 받을 수 있음",
+                            "계약서 본문 위약 조항",
+                            "매매대금 대비 비율을 숫자로 약정"
+                      ]
+                },
+                {
+                      "label": "세입자 퇴거",
+                      "values": [
+                            "대항력 있는 임차인의 보증금을 매수인이 떠안을 위험",
+                            "전입세대확인서, 확정일자 부여현황",
+                            "퇴거 시점과 확인서 제공 시점을 명시"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '소유권이전등기청구권 양도 시 매도인 동의 필요성',

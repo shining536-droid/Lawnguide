@@ -1,0 +1,22 @@
+# 시작 상태 스냅샷 — growth phase 3B
+시작시각: 2026-09-16T07:59:38+0900
+branch: main
+HEAD: 5d4ee2bad50bad41246b4cb359ab24ce03d2767f (기관 링크 매핑 오류 수정 + 진단 퍼널 계측 추가)
+origin/main: 5d4ee2bad50bad41246b4cb359ab24ce03d2767f (동일, ahead/behind 0)
+
+## 시작 전부터 수정돼 있던 tracked 파일 (보존 대상 — 직접 변경 금지)
+ M __pycache__/publish_lawnguide.cpython-313.pyc
+ M __pycache__/publish_tistory.cpython-313.pyc
+ M _b145_assign.py
+ M _b145_prep.py
+ M _b145_verify.py
+ M content/blog/defamation-medical-malpractice-anonymous-blog-doctor-blog.md
+ M content/blog/dismissal-pip-impossible-target-low-rating-blog.md
+ M content/blog/jeonse-fraud-house-fire-deposit-recovery-blog.md
+ M content/blog/stalking-coworker-after-work-following-blog.md
+ M naver_cookies_lawnguide.json
+ M tistory_cookies_lawnguide.json
+ M web/tsconfig.tsbuildinfo
+
+## untracked 총계
+3486

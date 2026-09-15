@@ -98,7 +98,7 @@ export const spokesBatch26_15to19: SpokePage[] = [
   {
     domain: 'wage',
     slug: 'wage-freelancer-worker-status-claim',
-    keyword: '프리랜서 임금체불 근로자성 인정',
+    keyword: '프리랜서로 계약했는데 임금체불 신고를 할 수 있나요?',
     questionKeyword: '프리랜서로 계약했는데 임금체불 신고를 할 수 있나요?',
     ctaKeyword: '프리랜서 근로자성 인정 상담',
     type: '쟁점형',
@@ -124,9 +124,52 @@ export const spokesBatch26_15to19: SpokePage[] = [
       {
         title: '근로자성 인정 후 임금체불 청구 절차',
         content:
-          '<p><strong style="color:#1e3a5f">근로자성이 인정되면 미지급 대금 전부를 임금체불로 청구할 수 있습니다.</strong></p>\n<ol>\n<li><strong>노동청 진정 접수</strong> — 사업장 관할 고용노동청에 임금체불 진정서를 제출합니다. 온라인은 고용노동부 민원마당(minwon.moel.go.kr)에서 접수할 수 있습니다</li>\n<li><strong>근로자성 주장</strong> — 진정서에 실질적 근로관계를 입증하는 자료를 첨부하고, 근로자성 인정을 먼저 요청하세요</li>\n<li><strong>근로감독관 조사</strong> — 근로감독관이 사업주와 근로자를 각각 조사합니다. 증거 자료를 충분히 준비하세요</li>\n<li><strong>지급 명령 또는 형사처벌</strong> — 근로자성이 인정되고 체불 사실이 확인되면 지급 지시가 내려지며, 불이행 시 형사처벌이 진행됩니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 근로자성 여부가 다투어지는 경우 법원에서 다시 판단받을 수 있어 시간이 걸릴 수 있습니다. 증거를 최대한 많이 확보하세요.</blockquote>',
+          '<p><strong style="color:#1e3a5f">근로자성이 인정되면 미지급 대금 전부를 임금체불로 청구할 수 있습니다.</strong></p>\n<ol>\n<li><strong>노동청 진정 접수</strong> — 사업장 관할 고용노동청에 임금체불 진정서를 제출합니다. 온라인은 고용노동부 민원마당(minwon.moel.go.kr)에서 접수할 수 있습니다</li>\n<li><strong>근로자성 주장</strong> — 진정서에 실질적 근로관계를 입증하는 자료를 첨부하고, 근로자성 인정을 먼저 요청하세요</li>\n<li><strong>근로감독관 조사</strong> — 근로감독관이 사업주와 근로자를 각각 조사합니다. 증거 자료를 충분히 준비하세요</li>\n<li><strong>지급 명령 또는 형사처벌</strong> — 근로자성이 인정되고 체불 사실이 확인되면 지급 지시가 내려지며, 불이행 시 형사처벌이 진행됩니다</li>\n</ol>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">주의: 근로자성 여부가 다투어지는 경우 법원에서 다시 판단받을 수 있어 시간이 걸릴 수 있습니다. 증거를 최대한 많이 확보하세요.</blockquote><p style="margin-top:14px;font-size:0.92em;color:#555"><strong>공식 확인처</strong> — <a href="https://www.law.go.kr/법령/근로기준법" target="_blank" rel="noopener">국가법령정보센터 「근로기준법」(제2조 근로자 정의)</a> · <a href="https://www.comwel.or.kr/comwel/main.jsp" target="_blank" rel="noopener">근로복지공단(1588-0075)</a> · <a href="https://www.klac.or.kr/" target="_blank" rel="noopener">대한법률구조공단 무료 법률상담(132)</a></p>',
       },
     ],
+    comparison: {
+          "title": "근로자성 판단 요소 — 내 상황은 어느 쪽인가",
+          "headers": [
+                "판단 요소",
+                "근로자로 볼 만한 사정",
+                "사업자로 볼 만한 사정",
+                "모아둘 자료"
+          ],
+          "rows": [
+                {
+                      "label": "업무 지시·감독",
+                      "values": [
+                            "업무 내용과 방법을 구체적으로 지시받음",
+                            "결과물만 납품하고 방식은 자율",
+                            "업무 지시 메신저·메일"
+                      ]
+                },
+                {
+                      "label": "근무 장소·시간",
+                      "values": [
+                            "출퇴근 시간과 장소가 정해져 있음",
+                            "장소와 시간을 스스로 정함",
+                            "출입기록, 근태 시스템 로그"
+                      ]
+                },
+                {
+                      "label": "전속성",
+                      "values": [
+                            "다른 일을 병행하기 어려움",
+                            "여러 거래처와 동시 계약",
+                            "계약서의 겸업 제한 조항"
+                      ]
+                },
+                {
+                      "label": "보수의 성격",
+                      "values": [
+                            "매월 같은 날 고정액 지급",
+                            "건별·성과별 정산",
+                            "통장 입금 내역"
+                      ]
+                }
+          ]
+    },
     cases: [
       {
         title: '판례 — 계약 형식 불문 실질 근로관계 인정',

@@ -281,7 +281,7 @@ export const spokesBatch76WageUnempRetireIa: SpokePage[] = [
       {
         title: 'Q. 일용직 반복근로 실업급여 5단계 점검',
         content:
-          '<p><strong style="color:#1e3a5f">A. 일수·기간·사유·신청·심사 5단계로 점검해볼 수 있습니다.</strong></p>\n<ul>\n<li><strong>① 근로일수 확인</strong> — 여러 현장 일용근로일을 고용보험 신고 이력으로 합산 확인.</li>\n<li><strong>② 피보험단위기간</strong> — 이직 전 18개월 중 180일 이상 충족 평가.</li>\n<li><strong>③ 이직 사유</strong> — 일감 단절·근로일 부족이 수급 사유로 검토되는지 평가.</li>\n<li><strong>④ 수급 신청</strong> — 워크넷 등록 + 고용센터 수급 신청.</li>\n<li><strong>⑤ 불인정 시 심사</strong> — 수급자격 불인정 시 심사 청구.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 일용직도 고용보험 신고 이력에 따라 여러 사업장 근로일을 합산해 피보험단위기간을 평가해볼 수 있는 영역. 일용근로자는 수급 신청일 이전 일정 기간의 근로일수 요건 등 별도 기준도 함께 점검하는 트랙입니다.</blockquote>',
+          '<p><strong style="color:#1e3a5f">A. 일수·기간·사유·신청·심사 5단계로 점검해볼 수 있습니다.</strong></p>\n<ul>\n<li><strong>① 근로일수 확인</strong> — 여러 현장 일용근로일을 고용보험 신고 이력으로 합산 확인.</li>\n<li><strong>② 피보험단위기간</strong> — 이직 전 18개월 중 180일 이상 충족 평가.</li>\n<li><strong>③ 이직 사유</strong> — 일감 단절·근로일 부족이 수급 사유로 검토되는지 평가.</li>\n<li><strong>④ 수급 신청</strong> — 워크넷 등록 + 고용센터 수급 신청.</li>\n<li><strong>⑤ 불인정 시 심사</strong> — 수급자격 불인정 시 심사 청구.</li>\n</ul>\n<blockquote style="border-left:4px solid #ddd;padding:8px 12px;color:#555">핵심: 일용직도 고용보험 신고 이력에 따라 여러 사업장 근로일을 합산해 피보험단위기간을 평가해볼 수 있는 영역. 일용근로자는 수급 신청일 이전 일정 기간의 근로일수 요건 등 별도 기준도 함께 점검하는 트랙입니다.</blockquote>\n<p>피보험단위기간을 직접 계산해보려면 <a href="/guide/unemployment/unemployment-180days-insurance-period-calc">실업급여 180일 계산법</a>을 함께 보세요.</p>',
       },
       {
         title: '📌 이렇게 진행됩니다 — 5단계',
