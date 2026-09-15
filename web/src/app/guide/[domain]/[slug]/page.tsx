@@ -3,6 +3,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { isValidDomain, getDomainMeta } from '@/lib/domains';
 import { getSpokePage, getSpokePagesByDomain, SPOKE_PAGES } from '@/data/spoke-pages';
+import { SPOKE_LASTMOD, DOMAIN_LASTMOD } from '@/data/sitemap-lastmod-generated';
+import { SPOKE_MODIFIED } from '@/data/spoke-modified-generated';
 import { loadProcedureForDomain } from '@/lib/procedure-data';
 import SpokeProcedureBlock from '@/components/SpokeProcedureBlock';
 import { inSameCluster, hasProcedure } from '@/lib/cluster';
@@ -54,14 +56,20 @@ export default function GuideSpokePage({ params }: PageProps) {
   const siblings = [...sameDomain, ...crossDomain];
 
   // Structured Data: Article
+  // 날짜 정직화 (2026-09-16): 이전에는 전 페이지가 '2026-04-01'/'2026-04-17' 로 하드코딩돼 있었다.
+  //   datePublished = 해당 스포크 소스파일의 최초 커밋일(= 발행일). sitemap lastmod 와 같은 정본을 쓴다.
+  //   dateModified  = 실질 개편이 있었던 페이지만 SPOKE_MODIFIED 에 기록하고, 없으면 발행일과 동일.
+  //   근거 데이터가 없으면(신규 미커밋 파일 등) 두 필드를 아예 넣지 않는다 — 허위 날짜를 쓰지 않는다.
+  const publishedDate = SPOKE_LASTMOD[params.slug] ?? DOMAIN_LASTMOD[params.domain];
+  const modifiedDate = SPOKE_MODIFIED[params.slug] ?? publishedDate;
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: page.meta.title.replace(' | 로앤가이드', ''),
     description: page.meta.description,
     url: `https://www.lawnguide.co.kr/guide/${params.domain}/${params.slug}`,
-    datePublished: '2026-04-01',
-    dateModified: '2026-04-17',
+    ...(publishedDate ? { datePublished: publishedDate } : {}),
+    ...(modifiedDate ? { dateModified: modifiedDate } : {}),
     author: {
       '@type': 'Organization',
       name: '로앤가이드',

@@ -43,6 +43,7 @@ export default function DiagnosisPage({ params }: PageProps) {
           branches={branchesFile}
           results={resultsFile}
           domainName={meta.name}
+          domain={params.domain}
         />
       </div>
     </div>

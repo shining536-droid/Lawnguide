@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import ProgressBar from './ProgressBar';
 import ResultCard from './ResultCard';
@@ -11,6 +11,8 @@ interface DiagnosisFlowProps {
   branches: BranchesFile;
   results: ResultsFile;
   domainName: string;
+  /** 도메인 id (예: 'unemployment'). GA4 guide_domain 파라미터용 — 표시명(domainName)과 구분한다. */
+  domain: string;
 }
 
 const REDIRECTS: Record<string, { message: string; link: string; linkText: string }> = {
@@ -95,7 +97,7 @@ function ShareButtons({ answers }: { answers: Record<string, string> }) {
   );
 }
 
-export default function DiagnosisFlow({ questions, branches, results, domainName }: DiagnosisFlowProps) {
+export default function DiagnosisFlow({ questions, branches, results, domainName, domain }: DiagnosisFlowProps) {
   // Auto-skip Q1 if it has only one option (e.g., drug-crime has only "혐의")
   const q1Skip = useMemo(() => {
     const q1 = questions[0];
@@ -118,6 +120,52 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
   const [multiSelectState, setMultiSelectState] = useState<Record<string, boolean>>({});
 
   const currentQuestion = questions[currentIndex];
+
+  /* ─── /diagnosis 퍼널 계측 (situation_start → situation_complete) ───
+     기존 이벤트(chat_start·chat_complete·diagnosis_save·diagnosis_share)는 /chat 결과카드에서 발사되는 것이라
+     이름·파라미터를 건드리지 않는다. 이름이 섞이지 않도록 /diagnosis 경로는 화면 명칭('상황 정리')을 따라
+     situation_* 으로 분리하고, entry_surface='diagnosis_route' 를 함께 보낸다 (ANALYTICS_EVENTS.md 참조).
+     PII 금지: 사용자의 선택 조합(answers)·자유입력·결과 문구는 보내지 않고, 앱이 정의한 카테고리 값만 보낸다. */
+  const trackDiagnosis = useCallback(
+    (eventName: 'situation_start' | 'situation_complete', params?: Record<string, string>) => {
+      if (typeof window === 'undefined' || typeof window.gtag !== 'function') return;
+      window.gtag('event', eventName, {
+        guide_domain: domain,
+        entry_surface: 'diagnosis_route',
+        page_path: window.location.pathname,
+        ...params,
+      });
+    },
+    [domain]
+  );
+
+  // situation_start — 첫 질문에 실제로 답한 시점에 1회. 페이지 렌더나 CTA 노출로는 발사하지 않는다.
+  const startFired = useRef(false);
+  const fireStartOnce = useCallback(() => {
+    if (startFired.current) return;
+    startFired.current = true;
+    trackDiagnosis('situation_start');
+  }, [trackDiagnosis]);
+
+  // 결과 상태로 전환됐을 때의 결과 엔트리 — 화면에 렌더되는 것과 같은 계산을 재사용한다.
+  const finishedResult = useMemo(() => {
+    if (!finished) return null;
+    const typeId = resolveResultClient(branches, answers);
+    return results.results.find((r) => r.type_id === typeId) ?? results.results[0] ?? null;
+  }, [finished, branches, answers, results]);
+
+  // situation_complete — flow 가 실제로 결과 상태에 도달했을 때 1회.
+  // ref 가드로 리렌더·StrictMode 중복 발사를 막는다(ChatResultCard 의 chat_complete 와 같은 방식).
+  const completeFired = useRef(false);
+  useEffect(() => {
+    if (!finished || !finishedResult || completeFired.current) return;
+    completeFired.current = true;
+    trackDiagnosis('situation_complete', {
+      result_type_id: finishedResult.type_id,
+      // risk_level 은 경로에 따라 안내 문장이 들어올 수 있어 ChatResultCard 와 동일한 화이트리스트로 좁힌다.
+      risk_level: ['높음', '보통', '낮음'].includes(finishedResult.risk_level) ? finishedResult.risk_level : 'other',
+    });
+  }, [finished, finishedResult, trackDiagnosis]);
 
   // Calculate effective total: exclude branched questions not on the user's path
   const effectiveTotal = useMemo(() => {
@@ -174,6 +222,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
   const handleSelect = useCallback(
     (value: string) => {
       if (!currentQuestion) return;
+      fireStartOnce();
 
       const newAnswers = { ...answers, [currentQuestion.field]: value };
       setAnswers(newAnswers);
@@ -181,11 +230,12 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
       const nextId = resolveNextId(currentQuestion, value, newAnswers);
       advanceToNext(nextId);
     },
-    [answers, currentQuestion, advanceToNext, resolveNextId]
+    [answers, currentQuestion, advanceToNext, resolveNextId, fireStartOnce]
   );
 
   const handleMultiSelectConfirm = useCallback(() => {
     if (!currentQuestion) return;
+    fireStartOnce();
     const selected = Object.entries(multiSelectState)
       .filter(([, v]) => v)
       .map(([k]) => k);
@@ -206,7 +256,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
     }
 
     advanceToNext(nextId);
-  }, [answers, currentQuestion, multiSelectState, advanceToNext]);
+  }, [answers, currentQuestion, multiSelectState, advanceToNext, fireStartOnce]);
 
   const handleBack = useCallback(() => {
     if (redirect) {
@@ -233,6 +283,9 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
   }, [history, answers, questions, redirect]);
 
   const handleRestart = useCallback(() => {
+    // "다시 정리하기" 는 새로운 진단 1회다. 다시 답하면 start, 다시 끝내면 complete 가 각각 1회 더 발사된다.
+    startFired.current = false;
+    completeFired.current = false;
     setAnswers(q1Skip?.answers ?? {});
     setCurrentIndex(q1Skip?.startIndex ?? 0);
     setHistory([q1Skip?.startIndex ?? 0]);
@@ -265,8 +318,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
   }
 
   if (finished) {
-    const typeId = resolveResultClient(branches, answers);
-    const result = results.results.find((r) => r.type_id === typeId) ?? results.results[0];
+    const result = finishedResult ?? results.results[0];
 
     return (
       <div>
