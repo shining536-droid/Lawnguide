@@ -213,7 +213,7 @@ export const spokesBatch10Part2Pages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
       { label: '성범죄 무고 반대고소 방법', href: '/guide/sex-crime/sex-crime-false-accusation-counter' },
-      { label: '성범죄 혐의 흔한 실수', href: '/guide/sex-crime/common-mistakes-when-accused' },
+      { label: '성범죄 혐의 흔한 실수', href: '/guide/sex-crime/sex-crime-common-mistakes' },
       { label: '성범죄 무죄 판례 분석', href: '/guide/sex-crime/sexual-assault-acquittal-cases' },
     ],
   },

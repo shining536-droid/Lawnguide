@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
-import Link from 'next/link';
 import ChatBot from '@/components/ChatBot';
 import ChatStartTracker from '@/components/ChatStartTracker';
+import ChatEntryHero from '@/components/ChatEntryHero';
 import { DOMAINS, getQuestions, getBranches, getResults } from '@/lib/domains';
 import { loadAllProcedureData } from '@/lib/procedure-data';
 
-/* 첫 화면 예시 질문 — 클릭 시 해당 도메인으로 시작 */
+/* 첫 화면 예시 질문 — 클릭 시 해당 도메인으로 시작 (클릭 계측은 ExampleQuestions 가 담당) */
 const EXAMPLE_QUESTIONS = [
   { text: '사기 당했어요', icon: '🎭', domain: 'fraud' },
   { text: '해고 통보 받았어요', icon: '⚖️', domain: 'dismissal' },
@@ -20,7 +20,7 @@ const EXAMPLE_QUESTIONS = [
 export const metadata: Metadata = {
   title: 'AI 법률 도우미 | 로앤가이드',
   description:
-    '어떤 법률 문제든 대화하듯 편하게 물어보세요. 31개 분야 무료 AI 법률 진단으로 지금 해야 할 일을 3분 안에 정리해드립니다.',
+    '어떤 법률 문제든 대화하듯 편하게 물어보세요. 주요 법률 분야 무료 AI 법률 진단으로 지금 해야 할 일을 3분 안에 정리해드립니다.',
   robots: {
     index: false,
     follow: true,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'AI 법률 도우미 | 로앤가이드',
     description:
-      '어떤 법률 문제든 대화하듯 편하게 물어보세요. 31개 분야 무료 AI 법률 진단으로 지금 해야 할 일을 3분 안에 정리해드립니다.',
+      '어떤 법률 문제든 대화하듯 편하게 물어보세요. 주요 법률 분야 무료 AI 법률 진단으로 지금 해야 할 일을 3분 안에 정리해드립니다.',
     url: 'https://www.lawnguide.co.kr/chat',
     siteName: '로앤가이드',
     type: 'website',
@@ -102,51 +102,13 @@ export default function ChatPage({ searchParams }: PageProps) {
   // 톤 안전장치: 단정형 금지, "검토해볼 수 있습니다" 톤 유지.
   const procedureData = loadAllProcedureData();
 
-  const showWelcome = !searchParams.domain;
-
+  // 히어로는 domain 유무와 무관하게 항상 렌더한다.
+  // (이전 `showWelcome = !searchParams.domain` 은 블로그 CTA 유입자에게 신뢰요소를 전부 숨겼다.)
+  // domain 이 있을 때 무엇을 줄일지는 ChatEntryHero 내부에서 결정한다.
   return (
     <div className="bg-gray-50 min-h-[calc(100vh-4rem)]">
       <ChatStartTracker domain={searchParams.domain} />
-      {showWelcome && (
-        <section className="border-b border-gray-200 bg-white px-4 pt-6 pb-4">
-          <div className="mx-auto max-w-3xl">
-            {/* 신뢰 뱃지 */}
-            <div className="flex flex-wrap justify-center gap-2 text-[11px] md:text-xs">
-              <span className="rounded-full bg-primary-50 px-3 py-1 font-semibold text-primary-700">
-                31개 분야
-              </span>
-              <span className="rounded-full bg-emerald-50 px-3 py-1 font-semibold text-emerald-700">
-                평균 3분
-              </span>
-              <span className="rounded-full bg-amber-50 px-3 py-1 font-semibold text-amber-700">
-                무료 · 회원가입 없음
-              </span>
-              <span className="rounded-full bg-gray-100 px-3 py-1 font-semibold text-gray-700">
-                입력 정보 저장 안 함
-              </span>
-            </div>
-
-            {/* 예시 질문 6개 */}
-            <div className="mt-5">
-              <p className="mb-3 text-center text-xs font-medium text-gray-500 md:text-sm">
-                이런 상황이시면 눌러보세요
-              </p>
-              <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-                {EXAMPLE_QUESTIONS.map((ex) => (
-                  <Link
-                    key={ex.domain}
-                    href={`/chat?domain=${ex.domain}`}
-                    className="flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3 py-2.5 text-left text-sm text-gray-700 transition-all hover:border-primary-400 hover:bg-primary-50 hover:text-primary-700"
-                  >
-                    <span className="text-base">{ex.icon}</span>
-                    <span className="flex-1 leading-tight">{ex.text}</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
+      <ChatEntryHero domain={searchParams.domain} examples={EXAMPLE_QUESTIONS} />
       <ChatBot allDomainData={allDomainData} subtypesData={subtypesData} procedureData={procedureData} initialDomain={searchParams.domain} />
     </div>
   );

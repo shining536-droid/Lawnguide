@@ -1944,7 +1944,7 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
       case 'result':
         return (
           <div key={msg.id} className="w-full">
-            {msg.result && <ChatResultCard result={msg.result} answers={msg.answers ?? {}} domainName={domainMeta?.name ?? ''} domainKey={selectedDomain ?? undefined} procedure={selectedDomain ? procedureData?.[selectedDomain] : undefined} onRestart={handleRestart} />}
+            {msg.result && <ChatResultCard result={msg.result} answers={msg.answers ?? {}} answerLabels={buildAnswerLabels(msg.answers)} domainName={domainMeta?.name ?? ''} domainKey={selectedDomain ?? undefined} procedure={selectedDomain ? procedureData?.[selectedDomain] : undefined} onRestart={handleRestart} />}
           </div>
         );
 
@@ -1957,6 +1957,7 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
               <ChatResultCard
                 result={buildSubtypeResultEntry(msg.subtypeResult, selectedDomain, selectedPerspectiveKey)}
                 answers={msg.answers ?? {}}
+                answerLabels={buildAnswerLabels(msg.answers)}
                 domainName={domainMeta?.name ?? ''}
                 domainKey={selectedDomain ?? undefined}
                 procedure={selectedDomain ? procedureData?.[selectedDomain] : undefined}
@@ -1971,6 +1972,42 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
     }
   };
 
+  /* ── 상담 준버 리포트용 answers 라벨 맵 ──
+     multi-step(subtype) 흙름은 answers 키가 factCheck id(`fc-...`)다.
+     FIELD_LABELS 에 없어서 그대로는 "내가 입력한 사실관계" 에 한 줄도 안 나온다.
+     이미 클라이언트에 있는 subtypesData 로 id→한글 라벨 맵을 만들어 넘긴다(번들 증가 0). */
+  const buildAnswerLabels = useCallback(
+    (ans?: Record<string, string>): Record<string, string> => {
+      if (!ans || !selectedDomain) return {};
+      const sData = subtypesData?.[selectedDomain];
+      if (!sData?.factChecks) return {};
+      // perspective/subtype 상태에 의존하지 않고 해당 도메인의 factChecks 전체를 훑는다.
+      // (결과 렌더 시점에 상태가 초기화돼 있어도 라벨이 붙도록.)
+      const byId: Record<string, string> = {};
+      const walk = (node: unknown, depth: number): void => {
+        if (Array.isArray(node)) {
+          for (const fc of node as FactCheckItem[]) {
+            if (!fc?.id || byId[fc.id]) continue;
+            const q = String(fc.question ?? '').replace(/[?？]/g, '').trim();
+            if (q) byId[fc.id] = q.length > 20 ? q.slice(0, 20) + '…' : q;
+          }
+          return;
+        }
+        if (node && typeof node === 'object' && depth < 3) {
+          for (const child of Object.values(node as Record<string, unknown>)) walk(child, depth + 1);
+        }
+      };
+      walk(sData.factChecks, 0);
+
+      const out: Record<string, string> = {};
+      for (const key of Object.keys(ans)) {
+        if (byId[key]) out[key] = byId[key];
+      }
+      return out;
+    },
+    [selectedDomain, subtypesData],
+  );
+
   /* ── Determine if back button should show ── */
   const showBackButton =
     (currentPhase === 'diagnosis' && history.length > 1 && !isTyping);
@@ -1978,7 +2015,7 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
   return (
     <div className="flex flex-col h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)] bg-gray-50">
       {/* Header */}
-      <div className="flex items-center justify-between border-b border-gray-200 bg-white px-4 py-3">
+      <div className="report-hide flex items-center justify-between border-b border-gray-200 bg-white px-4 py-3">
         <div className="flex items-center gap-2">
           <span className="text-lg">⚖️</span>
           <h1 className="text-base font-bold text-gray-800">로앤가이드 상황정리</h1>
@@ -1990,7 +2027,7 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
           처음부터 다시 시작
         </button>
       </div>
-      <div className="bg-primary-50 px-4 py-2 text-center">
+      <div className="report-hide bg-primary-50 px-4 py-2 text-center">
         <p className="text-xs text-primary-700">변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.</p>
       </div>
 
@@ -2000,7 +2037,8 @@ export default function ChatBot({ allDomainData, subtypesData, procedureData, in
           const lastUserIdx = messages.reduce((acc, m, idx) => m.type === 'user' ? idx : acc, -1);
           const isScrollTarget = i === lastUserIdx + 1 && i > 0;
           return (
-            <div key={msg.id}>
+            /* data-report: 인쇄 시 결과 카드만 남기고 대화 기록은 숨긴다(globals.css @media print). */
+            <div key={msg.id} data-report={msg.type === 'result' || msg.type === 'subtype-result' ? 'keep' : 'hide'}>
               {isScrollTarget && <div ref={lastBotRef} />}
               {renderMessage(msg, i)}
             </div>

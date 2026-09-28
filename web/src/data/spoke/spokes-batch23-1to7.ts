@@ -95,7 +95,7 @@ export const spokesBatch23_1to7: SpokePage[] = [
       { label: '부동산 매매 계약서 필수 특약 사항', href: '/guide/real-estate-sale/sale-contract-essential-clauses' },
       { label: '매매계약 체결 전 등기부등본 확인 체크리스트', href: '/guide/real-estate-sale/registry-check-before-contract' },
       { label: '매매계약 해제 계약금 반환 청구 절차', href: '/guide/real-estate-sale/contract-cancellation-deposit-return' },
-      { label: '매매 부동산 하자 발견 시 손해배상 청구', href: '/guide/real-estate-sale/defect-damage-claim' },
+      { label: '매매 부동산 하자 발견 시 손해배상 청구', href: '/guide/real-estate-sale/sale-defect-discovery-damage-claim' },
       { label: '부동산 중개사 과실 손해배상 청구', href: '/guide/real-estate-sale/real-estate-agent-liability' },
     ],
   },

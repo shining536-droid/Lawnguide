@@ -16,3 +16,168 @@
     @apply mx-auto max-w-6xl px-4 sm:px-6;
   }
 }
+
+/* ══════════════════════════════════════════════════════════════
+   인쇄 / PDF 저장 — "상담 준비 리포트"
+   ══════════════════════════════════════════════════════════════
+   진단 결과 화면은 window.print() 로 PDF 저장된다 (서버사이드 PDF 생성 안 함).
+   그동안 @media print 규칙이 아예 없어서 고정 헤더·하단 내비·CTA 배너·조작
+   버튼이 그대로 찍혔다. 아래 규칙은 리포트로서 의미 있는 블록만 남긴다.
+
+   클래스 계약:
+     .report-hide   인쇄물에서 제거 (버튼, CTA, 액션 행)
+     .report-block  인쇄 시 페이지 중간에서 쪼개지지 않게 유지
+   ══════════════════════════════════════════════════════════════ */
+@media print {
+  /* ── 1. 페이지 기본 ── */
+  @page {
+    size: A4;
+    margin: 14mm 12mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    /* 인쇄에서는 화면용 크기보다 한 단계 작게 — 리포트가 2~3장에 들어오게 */
+    font-size: 10.5pt;
+    line-height: 1.5;
+  }
+
+  /* 색 배경(뱃지·박스)이 사라지면 구분이 안 되므로 배경 인쇄를 요청한다 */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* ── 2. 화면 전용 UI 제거 ── */
+  .report-hide,
+  header,
+  footer,
+  nav {
+    display: none !important;
+  }
+
+  /* 고정/스티키 요소(플로팅 위젯, 고정 바)는 종이에서 의미가 없고,
+     position 만 풀면 본문 사이에 끼어 인쇄된다 → 통째로 제거한다.
+     리포트 본문에는 .fixed/.sticky 를 쓰는 블록이 없다. */
+  .fixed,
+  .sticky {
+    display: none !important;
+  }
+
+  /* 헤더 높이만큼 비워둔 여백 제거 */
+  main {
+    padding-top: 0 !important;
+  }
+
+  /* 모달 오버레이는 인쇄 대상이 아니다 */
+  [role='dialog'] {
+    display: none !important;
+  }
+
+  /* /chat: 대화 기록(질문 말풍선·선택 버튼)은 인쇄하지 않고 결과 카드만 남긴다.
+     ChatBot 이 메시지 래퍼에 data-report="keep|hide" 를 붙인다. */
+  [data-report='hide'] {
+    display: none !important;
+  }
+
+  /* ChatBot 은 화면 높이에 맞춘 스크롤 컨테이너라 인쇄하면 한 화면만 찍힌다.
+     인쇄에서는 높이 제한과 스크롤을 풀어 결과 전체가 나오게 한다. */
+  .overflow-y-auto,
+  .overflow-auto,
+  .overflow-hidden {
+    overflow: visible !important;
+    max-height: none !important;
+    height: auto !important;
+  }
+
+  /* 링크 밑줄만 없앤다.
+     색까지 inherit 로 덮으면 배경색이 있는 링크(무료 상담기관 전화번호 pill 등)에서
+     흰 글씨가 진회색으로 바뀌어 파란 배경 위에 묻힌다. 색은 원래 값을 유지한다. */
+  a {
+    text-decoration: none !important;
+  }
+
+  /* ── 3. 접힌 섹션 펼치기 ──
+     신청·상담 경로 등이 <details> 로 기본 닫힘이다. 종이에서는 펼쳐서 남긴다. */
+  details > summary {
+    list-style: none;
+  }
+  details:not([open]) > *:not(summary) {
+    display: block !important;
+  }
+
+  /* ── 4. 레이아웃 ── */
+  .container-narrow,
+  .container-wide {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  /* 카드 테두리/그림자 대신 얇은 선만 */
+  .shadow-lg,
+  .shadow-sm,
+  .shadow-xl {
+    box-shadow: none !important;
+  }
+
+  .rounded-2xl,
+  .rounded-xl {
+    border-radius: 4px !important;
+  }
+
+  /* ── 5. 페이지 나눔 ── */
+  .report-block,
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* 사실관계·준비자료·질문 목록은 항목 단위로 쪼개지지 않게 */
+  li,
+  dl > div {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* ── 6. 가독성 ── */
+  /* 화면에서 흐린 회색인 보조문구·면책 문구가 종이에서 거의 안 보이는 문제 */
+  .text-gray-400,
+  .text-gray-500 {
+    color: #4b5563 !important;
+  }
+
+  .report-disclaimer {
+    color: #374151 !important;
+    border-top: 1px solid #d1d5db;
+    padding-top: 6pt !important;
+    margin-top: 8pt;
+  }
+
+  /* 준비서류 체크박스는 <button> 이다 — 버튼 일괄 숨김을 하지 않는 이유.
+     종이에서는 손으로 체크할 수 있게 칸을 남긴다. */
+  button {
+    background: transparent !important;
+  }
+
+  /* 체크리스트 항목의 취소선은 인쇄에서도 의미가 있으므로 유지한다 */
+
+  /* ── 7. 리포트 머리글 ── */
+  /* 어떤 문서인지 종이에만 표시 (화면에는 나타나지 않음) */
+  .report-print-title {
+    display: block !important;
+  }
+}
+
+/* 화면에서는 인쇄용 머리글을 숨긴다 */
+.report-print-title {
+  display: none;
+}

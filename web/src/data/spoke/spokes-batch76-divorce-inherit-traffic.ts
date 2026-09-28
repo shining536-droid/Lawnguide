@@ -502,9 +502,9 @@ export const spokesBatch76DivorceInheritTraffic: SpokePage[] = [
     ],
     cta: { text: '교통사고 합의 전 체크리스트, AI로 정리하기', link: '/chat?domain=traffic-accident' },
     internalLinks: [
-      { label: '보험금 청구 절차', href: '/guide/traffic-accident/insurance-claim-process-summary' },
-      { label: '합의 후 후유증 추가청구', href: '/guide/traffic-accident/post-settlement-aftereffect-additional-claim' },
-      { label: '합의금 적정액', href: '/guide/traffic-accident/accident-settlement-fair-amount' },
+      { label: '보험금 청구 절차', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
+      { label: '합의 후 후유증 추가청구', href: '/guide/traffic-accident/traffic-accident-aftereffect-additional-claim-settlement' },
+      { label: '합의금 적정액', href: '/guide/traffic-accident/settlement-amount-calculation' },
       { label: '보행자 무단횡단 과실', href: '/guide/traffic-accident/traffic-accident-pedestrian-jaywalking-fault' },
       { label: '교통사고 진단', href: '/diagnosis/traffic-accident' },
     ],

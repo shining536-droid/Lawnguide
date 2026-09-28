@@ -330,7 +330,7 @@ export const spokesBatch28Unemployment: SpokePage[] = [
     cta: { text: '투잡 실직 후 수급 가능 여부 AI로 즉시 확인하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
-      { label: '수급 중 파트타임 근로', href: '/guide/unemployment/unemployment-part-time-income-limit' },
+      { label: '수급 중 파트타임 근로', href: '/guide/unemployment/part-time-work-while-receiving-benefit' },
       { label: '부정수급 유형 5가지', href: '/guide/unemployment/benefit-fraud-top-5-cases' },
       { label: '구직활동 인정 절차', href: '/guide/unemployment/job-search-activity-recognition-procedure' },
       { label: '자발적 퇴직 실업급여', href: '/guide/unemployment/voluntary-quit-approved-case-types' },

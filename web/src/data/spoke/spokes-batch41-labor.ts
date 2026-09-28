@@ -610,7 +610,7 @@ export const spokesBatch41Labor: SpokePage[] = [
     },
     internalLinks: [
       { label: '1년 미만 근로자 퇴직금 기본', href: '/guide/retirement/retirement-less-than-1year-eligibility' },
-      { label: '계약직 1년 미만 청구', href: '/guide/retirement/retirement-contract-worker-under-1year' },
+      { label: '계약직 1년 미만 청구', href: '/guide/retirement/retirement-under-one-year-eligibility-track' },
       { label: '퇴직금 중간정산 가이드', href: '/guide/retirement/retirement-interim-settlement-guide' },
       { label: '단시간 근로자 퇴직금', href: '/guide/retirement/retirement-part-time-eligibility' },
       { label: '재입사 근속 합산 기준', href: '/guide/retirement/retirement-rehire-continuous-service-calculation' },

@@ -2,6 +2,16 @@
 
 import { useState, useCallback, useEffect, useRef } from 'react';
 import type { ResultEntry, DocumentItem } from '@/lib/domains-client';
+import {
+  buildFacts,
+  splitEvidence,
+  FactTimeline,
+  LegalIssues,
+  EvidenceSplit,
+  LawyerQuestions,
+  ReportSaveBanner,
+  ReportPrintTitle,
+} from './consult-report';
 
 /**
  * Procedure 데이터 (서버에서 kb/{domain}/*_procedure.json 로드 후 전달).
@@ -30,6 +40,11 @@ interface DomainProcedure {
 interface ChatResultCardProps {
   result: ResultEntry;
   answers: Record<string, string>;
+  /**
+   * answers 키 → 한글 라벨 보조 맵. multi-step(subtype) 흙름은 키가 factCheck id 라
+   * FIELD_LABELS 에 없다. ChatBot 이 subtypesData 기반으로 만들어 넘긴다.
+   */
+  answerLabels?: Record<string, string>;
   domainName: string;
   /** 도메인 키 (예: fraud, dismissal). GA4 guide_domain 파라미터용. 없으면 domainName 사용 */
   domainKey?: string;
@@ -282,7 +297,7 @@ function ProcedureDeadlinesSection({ deadlines, sourceUrls }: { deadlines: { lab
 }
 
 /* ─── Main Component ─── */
-export default function ChatResultCard({ result, answers, domainName, domainKey, procedure, onRestart }: ChatResultCardProps) {
+export default function ChatResultCard({ result, answers, answerLabels, domainName, domainKey, procedure, onRestart }: ChatResultCardProps) {
   // Connect diagnosis answers to document checklist
   // Parse user's existing docs/evidence from answers
   const userExistingDocs = new Set<string>();
@@ -426,6 +441,11 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
     }
   };
 
+  /* ─── 상담 준비 리포트용 파생값 (AI 호출 없음, answers/result 만 사용) ───
+     FIELD_LABELS 에 없는 key 는 buildFacts 가 버리므로 영문 field 명이 노출되지 않는다. */
+  const facts = buildFacts(answers, answerLabels);
+  const evidenceBuckets = splitEvidence(allDocs, answers);
+
   const { caution, do_not, important } = result.actions;
   const hasCaution = (caution?.length ?? 0) + (do_not?.length ?? 0) + (important?.length ?? 0) > 0;
 
@@ -433,15 +453,28 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
     <div className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
       {/* ═══ Header ═══ */}
       <div className="px-5 pt-5 pb-4">
+        <ReportPrintTitle domainName={domainName} />
         <div className="flex items-center justify-between mb-2">
           <h3 className="text-lg font-bold text-gray-900">{domainName} 진단 결과</h3>
           <RiskBadge level={result.risk_level} />
         </div>
         <p className="text-sm text-gray-600">{result.type_name}</p>
-        <p className="text-sm text-gray-500 mt-1 leading-relaxed">{result.status_summary}</p>
+        {/* ① 사건 한줄 요약 */}
+        <p className="text-sm text-gray-500 mt-1 leading-relaxed report-block">{result.status_summary}</p>
+
+        {/* ═══ 상담 준비 리포트 저장 (상단) — 하단까지 스크롤하지 않아도 보이게 ═══ */}
+        <div className="mt-4">
+          <ReportSaveBanner onPrint={handleSaveClick} />
+        </div>
       </div>
 
       <div className="px-5 pb-5 space-y-6">
+        {/* ═══ 0-A. 내가 입력한 사실관계 (answers 기반 결정론적 렌더, AI 호출 없음) ═══ */}
+        <FactTimeline facts={facts} />
+
+        {/* ═══ 0-B. 핵심 법률 쟁점 (result.legal_basis) ═══ */}
+        <LegalIssues basis={result.legal_basis} />
+
         {/* ═══ 1. 진행 타임라인 ═══ */}
         {result.timeline_steps && result.timeline_steps.length > 0 && (
           <div>
@@ -535,6 +568,11 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
           )}
         </div>
 
+        {/* ═══ 2.5. 자료 준비 상태 — 이미 준비된 / 추가로 준비하면 좋은 자료 ═══
+             아래 체크리스트와 같은 데이터를 쓰지만, 상담 전에 "무엇이 비었는지" 를
+             한눈에 보여주는 것이 리포트의 핵심 가치라 별도 블록으로 먼저 보여준다. */}
+        <EvidenceSplit buckets={evidenceBuckets} />
+
         {/* ═══ 3. 준비서류 ═══ */}
         {allDocs.length > 0 && (
           <div>
@@ -577,6 +615,10 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
         {procedure && procedure.agency_names && procedure.agency_names.length > 0 && (
           <ProcedureAgenciesSection agencies={procedure.agency_names} sourceUrls={procedure.source_urls} />
         )}
+
+        {/* ═══ 3.7. 변호사에게 물어볼 질문 ═══
+             우리가 판단을 내리는 섹션이 아니라 사용자가 상담에서 던질 질문 목록이다. */}
+        <LawyerQuestions domainKey={domainKey} />
 
         {/* ═══ 4. 주의할 점 ═══ */}
         {hasCaution && (
@@ -639,8 +681,8 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
           </div>
         )}
 
-        {/* ═══ 6. 변호사 연결 CTA ═══ */}
-        <div className="pt-6 border-t border-gray-100">
+        {/* ═══ 6. 변호사 연결 CTA ═══ (인쇄본에서는 숨긴다) */}
+        <div className="report-hide pt-6 border-t border-gray-100">
           <div className="bg-gradient-to-r from-amber-50 to-amber-100 rounded-xl p-5 text-center">
             <p className="text-gray-600 text-sm mb-2">변호사 만나기 전, AI가 빠르게 대응 전략을 세워드립니다.</p>
             <p className="text-gray-800 font-bold mb-1">변호사 상담을 검토 중이라면</p>
@@ -662,14 +704,17 @@ export default function ChatResultCard({ result, answers, domainName, domainKey,
           </div>
         )}
 
-        {/* Disclaimer */}
-        <p className="text-xs text-gray-400 leading-relaxed pt-4">
+        {/* Disclaimer — 인쇄본에도 남는다 (report-block). result.disclaimer 문구가
+            도메인별로 달라지므로, "법률 자문 대체 아님" 은 항상 붙는 한 줄로 따로 둔다. */}
+        <p className="report-block report-disclaimer text-xs text-gray-400 leading-relaxed pt-4">
           {result.disclaimer || '이 정보는 법적 효력을 갖는 유권해석이 아닙니다. 정확한 판단은 전문가 상담을 받으시기 바랍니다.'}
+          {' '}
+          이 리포트는 상담 전 정리를 돕는 정보 제공용이며 <strong>법률 자문을 대체하지 않습니다</strong>.
         </p>
       </div>
 
-      {/* ═══ Bottom actions ═══ */}
-      <div className="border-t border-gray-100 px-5 py-4 flex flex-wrap gap-2">
+      {/* ═══ Bottom actions ═══ (인쇄본에서는 숨긴다) */}
+      <div className="report-hide border-t border-gray-100 px-5 py-4 flex flex-wrap gap-2">
         <button
           onClick={handleCopyLink}
           className="flex-1 min-w-[80px] text-sm text-gray-600 hover:text-gray-800 bg-gray-100 hover:bg-gray-200 py-2.5 px-4 rounded-xl transition-colors font-medium"

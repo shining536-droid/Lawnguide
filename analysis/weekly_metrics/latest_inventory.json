@@ -1,0 +1,47 @@
+{
+ "week": "2026-W40",
+ "generated_at": "2026-09-28T17:26:26",
+ "phase": "inventory-only",
+ "inventory": {
+  "spokes_total": 5188,
+  "spokes_new_since_last_run": null,
+  "routes_unique": 5188,
+  "hub_domains": 32,
+  "spoke_domains": 32,
+  "spokes_orphan": 1656,
+  "internal_links": 21538,
+  "blog_files": 2362,
+  "tistory_files": 999
+ },
+ "integrity": {
+  "broken_internal_links": 0,
+  "broken_spoke_href": 0,
+  "broken_hub_href": 0,
+  "invalid_domain_values": {},
+  "duplicate_routes": 0,
+  "self_links": 0,
+  "duplicate_links_in_page": 21,
+  "redirected_links": 70,
+  "domains_desync": {
+   "only_server": [],
+   "only_client": []
+  }
+ },
+ "cannibalization": {
+  "available": true,
+  "clusters": 156,
+  "pages": 754,
+  "pairs": 1195,
+  "source": "_audit_seo/top.json"
+ },
+ "sitemap": {
+  "static": 1,
+  "hubs": 32,
+  "spokes": 5188,
+  "total": 5221
+ },
+ "traffic": null,
+ "funnel": null,
+ "search": null,
+ "index": null
+}

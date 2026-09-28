@@ -597,7 +597,7 @@ export const sexCrimePages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '성범죄 가이드', href: '/guide/sex-crime' },
       { label: '성추행 혐의 대응 방법과 합의 절차', href: '/guide/sex-crime/groping-accused-response' },
-      { label: '성범죄 혐의 흔한 실수', href: '/guide/sex-crime/common-mistakes-when-accused' },
+      { label: '성범죄 혐의 흔한 실수', href: '/guide/sex-crime/sex-crime-common-mistakes' },
       { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
     ],
   },

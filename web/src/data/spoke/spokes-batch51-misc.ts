@@ -86,7 +86,7 @@ export const spokesBatch51Misc: SpokePage[] = [
     internalLinks: [
       { label: '술집 쌍방폭행 합의 절차', href: '/guide/assault/assault-bar-fight-mutual-injury-settle' },
       { label: '노부모 가정폭력 임시조치', href: '/guide/assault/assault-elderly-parent-domestic-protect' },
-      { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
+      { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
     ],
   },
@@ -166,7 +166,7 @@ export const spokesBatch51Misc: SpokePage[] = [
     ],
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
-      { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
+      { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
       { label: '노부모 가정폭력 임시조치', href: '/guide/assault/assault-elderly-parent-domestic-protect' },
       { label: '술집 쌍방폭행 합의 절차', href: '/guide/assault/assault-bar-fight-mutual-injury-settle' },

@@ -297,7 +297,7 @@ export const inheritancePages: SpokePage[] = [
     internalLinks: [
       { label: '상속 가이드', href: '/guide/inheritance' },
       { label: '개인회생 가이드', href: '/guide/rehabilitation' },
-      { label: '한정승인과 상속포기 차이점 비교', href: '/guide/inheritance/limited-acceptance-vs-renunciation' },
+      { label: '한정승인과 상속포기 차이점 비교', href: '/guide/inheritance/inheritance-limited-vs-renounce' },
       { label: '부모 사망 후 숨겨진 빚 발견했을 때', href: '/guide/inheritance/inheritance-hidden-debt-discovery' },
       { label: '상속포기 기한과 신고 절차', href: '/guide/inheritance/inheritance-renunciation-deadline' },
     ],

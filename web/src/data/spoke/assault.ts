@@ -482,7 +482,7 @@ export const assaultPages: SpokePage[] = [
       { label: '폭행 진단', href: '/diagnosis/assault' },
       { label: '정당방위 인정 기준과 준비 포인트', href: '/guide/assault/self-defense-criteria' },
       { label: '폭행 피해 증거 모으는 법', href: '/guide/assault/assault-evidence-collection' },
-      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/injury-vs-assault-penalty' },
+      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/assault-vs-injury-penalties' },
     ],
   },
   {
@@ -578,7 +578,7 @@ export const assaultPages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '폭행 진단', href: '/diagnosis/assault' },
       { label: '폭행 합의금 적정 금액과 합의 절차', href: '/guide/assault/assault-settlement-amount-process' },
-      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/injury-vs-assault-penalty' },
+      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/assault-vs-injury-penalties' },
       { label: '사기죄 처벌 수위와 합의 시 감형 범위', href: '/guide/fraud/fraud-penalty-settlement-reduction' },
     ],
   },
@@ -967,7 +967,7 @@ export const assaultPages: SpokePage[] = [
     internalLinks: [
       { label: '폭행 가이드', href: '/guide/assault' },
       { label: '폭행 피해 증거 모으는 법', href: '/guide/assault/assault-evidence-collection' },
-      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/injury-vs-assault-penalty' },
+      { label: '상해죄와 폭행죄 차이점 및 처벌 수위', href: '/guide/assault/assault-vs-injury-penalties' },
       { label: '폭행 진단', href: '/diagnosis/assault' },
       { label: '사기 피해 신고 기한과 금액별 대응법', href: '/guide/fraud/fraud-report-deadline-amounts' },
     ],

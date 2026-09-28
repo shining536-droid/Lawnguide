@@ -322,7 +322,9 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
 
     return (
       <div>
-        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        {/* 조작 버튼 행은 인쇄본에서 숨긴다 (report-hide). 리포트 저장 버튼은
+            ResultCard 상단 배너에도 있어 여기서 가려도 접근성이 떨어지지 않는다. */}
+        <div className="report-hide mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-xl font-bold text-navy-700 md:text-2xl">준비사항 확인</h2>
           <div className="grid grid-cols-2 gap-2 md:flex md:items-center">
             <ShareButtons answers={answers} />
@@ -334,7 +336,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
             </button>
           </div>
         </div>
-        <ResultCard result={result} answers={answers} />
+        <ResultCard result={result} answers={answers} domain={domain} domainName={domainName} />
       </div>
     );
   }

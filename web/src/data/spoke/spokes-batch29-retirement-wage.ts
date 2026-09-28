@@ -147,7 +147,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
     internalLinks: [
       { label: '퇴직금 계산 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
       { label: '수습기간 퇴직금', href: '/guide/retirement/retirement-probation-period-calculation' },
-      { label: '계약직 1년 미만', href: '/guide/retirement/retirement-contract-worker-under-1year' },
+      { label: '계약직 1년 미만', href: '/guide/retirement/retirement-under-one-year-eligibility-track' },
       { label: '퇴직금 미지급 청구', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
       { label: '부당해고 구제', href: '/guide/dismissal/dismissal-restructuring-unfair-criteria' },
     ],
@@ -299,7 +299,7 @@ export const spokesBatch29RetirementWage: SpokePage[] = [
     cta: { text: '건설 일용직 퇴직공제금 AI로 확인하기', link: '/chat?domain=retirement' },
     internalLinks: [
       { label: '퇴직금 계산 공식', href: '/guide/retirement/retirement-pay-formula-guide' },
-      { label: '일용직 퇴직금', href: '/guide/retirement/retirement-contract-worker-under-1year' },
+      { label: '일용직 퇴직금', href: '/guide/retirement/retirement-daily-worker-continuity-track' },
       { label: '퇴직금 미지급 청구', href: '/guide/retirement/retirement-pay-claim-where-to-start' },
       { label: '퇴직금 지연이자', href: '/guide/retirement/retirement-delay-interest-20percent' },
       { label: '건설 일용직 실업급여', href: '/guide/unemployment/unemployment-construction-daily-apply' },

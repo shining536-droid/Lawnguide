@@ -246,7 +246,9 @@ export default function HomeContent() {
               <span className="mt-2 text-xs font-medium text-gray-600 md:text-sm">법률 데이터</span>
             </div>
             <div className="flex flex-col items-center text-center">
-              <span className="text-2xl font-bold text-navy-700 md:text-3xl lg:text-4xl">31개</span>
+              {/* 마케팅 표기는 정확한 카운트를 하드코딩하지 않는다 (허브 통합·추가 시 유지보수 리스크).
+                  실제 개수가 필요한 화면은 DOMAINS.length 를 쓸 것. */}
+              <span className="text-2xl font-bold text-navy-700 md:text-3xl lg:text-4xl">30여 개</span>
               <span className="mt-2 text-xs font-medium text-gray-600 md:text-sm">법률 분야</span>
             </div>
             <div className="flex flex-col items-center text-center">
@@ -461,14 +463,14 @@ export default function HomeContent() {
         </div>
       </section>
 
-      {/* ========== "이 외에도 31개 분야" 연결 문구 ========== */}
+      {/* ========== "이 외에도 여러 분야" 연결 문구 ========== */}
       <div className="bg-white py-8 text-center md:py-10">
         <p className="text-sm text-gray-600 md:text-base">보증금·사기·해고·폭행 외에도</p>
         <p className="mt-1 text-sm text-gray-600 md:text-base">
           <span className="font-bold">음주운전</span>, <span className="font-bold">명예훼손</span>, <span className="font-bold">이혼</span>, <span className="font-bold">성범죄</span> 등
         </p>
         <p className="mt-1 text-sm text-gray-600 md:text-base">
-          <span className="font-bold text-amber-600">31개 법률 분야</span>를 지원합니다
+          <span className="font-bold text-amber-600">30여 개 법률 분야</span>를 지원합니다
         </p>
       </div>
 
@@ -569,7 +571,7 @@ export default function HomeContent() {
             {[
               { q: '로앤가이드는 어떤 서비스인가요?', a: '법률 문제가 생겼을 때, 변호사를 만나기 전에 지금 해야 할 일, 준비서류, 주의사항을 3분 안에 정리해주는 무료 AI 법률 준비 도우미입니다.' },
               { q: '정말 무료인가요?', a: '네, 완전 무료입니다. 회원가입도 필요 없고, 모든 진단과 결과 확인에 비용이 없습니다.' },
-              { q: '어떤 분야를 지원하나요?', a: '사기, 폭행, 성범죄, 이혼, 전세, 해고, 음주운전, 교통사고, 명예훼손, 마약, 상속, 학교폭력 등 31개 법률 분야를 지원합니다.' },
+              { q: '어떤 분야를 지원하나요?', a: '사기, 폭행, 성범죄, 이혼, 전세, 해고, 음주운전, 교통사고, 명예훼손, 마약, 상속, 학교폭력 등 30여 개 법률 분야를 지원합니다.' },
               { q: 'AI 진단 결과는 법적 효력이 있나요?', a: '아닙니다. 로앤가이드의 결과는 법적 효력을 갖는 유권해석이 아닙니다. 정확한 판단은 전문가 상담을 받으시기 바랍니다. 상담 전 준비를 돕는 참고 자료로 활용해주세요.' },
               { q: '개인정보는 안전한가요?', a: '입력하신 정보는 서버에 저장되지 않습니다. 모든 진단은 브라우저에서 처리되며, 페이지를 닫으면 사라집니다.' },
             ].map((item, i) => (

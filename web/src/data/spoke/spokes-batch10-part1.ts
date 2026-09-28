@@ -114,7 +114,7 @@ export const spokesBatch10Part1Pages: SpokePage[] = [
       { label: '성범죄 진단', href: '/diagnosis/sex-crime' },
       { label: '성추행 혐의 대응 방법과 합의 절차', href: '/guide/sex-crime/groping-accused-response' },
       { label: '성범죄 합의 절차와 방법', href: '/guide/sex-crime/sex-crime-settlement' },
-      { label: '성범죄 혐의 흔한 실수', href: '/guide/sex-crime/common-mistakes-when-accused' },
+      { label: '성범죄 혐의 흔한 실수', href: '/guide/sex-crime/sex-crime-common-mistakes' },
     ],
   },
   {

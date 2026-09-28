@@ -49,7 +49,7 @@ export const spokesBatch28Misc: SpokePage[] = [
       { label: '과실비율 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
       { label: '뺑소니 피해 대응', href: '/guide/traffic-accident/hit-and-run-victim-response' },
-      { label: '보험금 청구 절차', href: '/guide/traffic-accident/insurance-claim-process-summary' },
+      { label: '보험금 청구 절차', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
     ],
   },
 
@@ -95,7 +95,7 @@ export const spokesBatch28Misc: SpokePage[] = [
       { label: '과실비율 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
       { label: '뺑소니 피해 대응', href: '/guide/traffic-accident/hit-and-run-victim-response' },
-      { label: '보험금 청구 절차', href: '/guide/traffic-accident/insurance-claim-process-summary' },
+      { label: '보험금 청구 절차', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
     ],
   },
 
@@ -141,7 +141,7 @@ export const spokesBatch28Misc: SpokePage[] = [
       { label: '과실비율 기준', href: '/guide/traffic-accident/fault-ratio-calculation-criteria' },
       { label: '사고 합의 체크리스트', href: '/guide/traffic-accident/accident-settlement-checklist' },
       { label: '뺑소니 피해 대응', href: '/guide/traffic-accident/hit-and-run-victim-response' },
-      { label: '보험금 청구 절차', href: '/guide/traffic-accident/insurance-claim-process-summary' },
+      { label: '보험금 청구 절차', href: '/guide/traffic-accident/traffic-accident-insurance-claim-comprehensive' },
     ],
   },
 

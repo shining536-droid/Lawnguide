@@ -197,7 +197,7 @@ export const spokesBatch32Unemployment: SpokePage[] = [
       { label: '자발적 퇴사 실업급여', href: '/guide/unemployment/unemployment-voluntary-quit-benefits' },
       { label: '실업급여 거부 시 불복 방법', href: '/guide/unemployment/unemployment-appeal-rejection' },
       { label: '직업훈련 수당 안내', href: '/guide/unemployment/unemployment-training-allowance' },
-      { label: '수급 중 소득 제한', href: '/guide/unemployment/unemployment-part-time-income-limit' },
+      { label: '수급 중 소득 제한', href: '/guide/unemployment/unemployment-side-income-during-benefit' },
     ],
   },
 
@@ -357,7 +357,7 @@ export const spokesBatch32Unemployment: SpokePage[] = [
     cta: { text: '실업급여 수급 중 부업 가능 여부 AI로 확인하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '실업급여 수급 요건 총정리', href: '/guide/unemployment/unemployment-benefit-requirements' },
-      { label: '수급 중 소득 제한', href: '/guide/unemployment/unemployment-part-time-income-limit' },
+      { label: '수급 중 소득 제한', href: '/guide/unemployment/part-time-work-while-receiving-benefit' },
       { label: '실업급여 감액 제재', href: '/guide/unemployment/unemployment-benefit-reduction-penalty' },
       { label: '조기재취업수당', href: '/guide/unemployment/unemployment-early-reemployment-bonus' },
       { label: '직업훈련 수당 안내', href: '/guide/unemployment/unemployment-training-allowance' },

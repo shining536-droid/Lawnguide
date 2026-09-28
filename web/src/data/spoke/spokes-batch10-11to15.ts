@@ -216,7 +216,7 @@ export const spokesBatch10Pages11to15: SpokePage[] = [
       { label: '폭행 사건 진단', href: '/diagnosis/assault' },
       { label: '폭행 증거 수집 가이드', href: '/guide/assault/assault-evidence-collection' },
       { label: '폭행 합의금 산정 기준', href: '/guide/assault/assault-settlement-amount-process' },
-      { label: '상해죄와 폭행죄 처벌 비교', href: '/guide/assault/injury-vs-assault-penalty' },
+      { label: '상해죄와 폭행죄 처벌 비교', href: '/guide/assault/assault-vs-injury-penalties' },
     ],
   },
 

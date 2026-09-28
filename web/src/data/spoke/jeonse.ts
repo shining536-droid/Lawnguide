@@ -319,7 +319,7 @@ export const jeonsePages: SpokePage[] = [
       { label: '홈', href: '/' },
       { label: '주택임대차 진단', href: '/diagnosis/jeonse' },
       { label: '보증금을 못 받고 있는데 어떻게 해야 하나요?', href: '/guide/jeonse/deposit-return-process' },
-      { label: '보증금 반환 소송 전에 어떤 서류를 준비해야 하나요?', href: '/guide/jeonse/deposit-lawsuit-preparation' },
+      { label: '보증금 반환 소송 전에 어떤 서류를 준비해야 하나요?', href: '/guide/jeonse/deposit-lawsuit-docs' },
       { label: '전입신고를 안 했는데 보증금 보호받을 수 있나요?', href: '/guide/jeonse/no-registration-deposit-protection' },
     ],
   },

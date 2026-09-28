@@ -4,14 +4,14 @@ import HomeContent from '@/components/HomeContent';
 export const metadata: Metadata = {
   title: '로앤가이드 - 변호사 만나기 전에 이것만 챙기세요',
   description:
-    '전세보증금, 사기, 해고, 폭행 등 법률 문제 상담 전 준비사항을 1분 안에 정리해드립니다. 31개 분야 무료 진단.',
+    '전세보증금, 사기, 해고, 폭행 등 법률 문제 상담 전 준비사항을 1분 안에 정리해드립니다. 주요 법률 분야 무료 진단.',
   alternates: {
     canonical: 'https://www.lawnguide.co.kr',
   },
   openGraph: {
     title: '로앤가이드 - 변호사 만나기 전에 이것만 챙기세요',
     description:
-      '전세보증금, 사기, 해고, 폭행 등 법률 문제 상담 전 준비사항을 1분 안에 정리해드립니다. 31개 분야 무료 진단.',
+      '전세보증금, 사기, 해고, 폭행 등 법률 문제 상담 전 준비사항을 1분 안에 정리해드립니다. 주요 법률 분야 무료 진단.',
     url: 'https://www.lawnguide.co.kr',
     siteName: '로앤가이드',
     type: 'website',
@@ -24,7 +24,7 @@ const organizationJsonLd = {
   '@type': 'Organization',
   name: '로앤가이드',
   url: 'https://www.lawnguide.co.kr',
-  description: '31개 법률 분야 무료 AI 법률 진단 서비스',
+  description: '30여 개 법률 분야 무료 AI 법률 진단 서비스',
   sameAs: [],
 };
 

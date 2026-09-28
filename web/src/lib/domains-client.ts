@@ -136,6 +136,9 @@ export const DOMAINS: DomainMeta[] = [
   { id: 'defamation', name: '명예훼손/모욕', description: '온라인·오프라인 명예훼손이나 모욕 관련 상황을 정리할 때', icon: '💻' },
   { id: 'real-estate-sale', name: '부동산 매매', description: '매매계약 해제, 하자, 중개 분쟁이 있을 때', icon: '🏗️' },
   { id: 'real-estate-auction', name: '부동산 경매', description: '경매 절차, 배당, 명도 문제가 있을 때', icon: '🔨' },
+  // domains.ts 의 DOMAINS 와 동일하게 유지해야 한다. 스포크 50개의 하단 CTA 가
+  // /chat?domain=industrial-accident 이므로 클라이언트 목록에도 있어야 ChatBot 이 meta 를 찾는다.
+  { id: 'industrial-accident', name: '산재·산업재해', description: '업무상 재해·질병 인정과 보험급여를 종합적으로 확인할 때', icon: '🦺' },
   { id: 'industrial-accident1', name: '산업재해보상보험 I', description: '업무상 재해를 입었을 때', icon: '🏭' },
   { id: 'industrial-accident2', name: '산업재해보상보험 II', description: '산재 보험급여를 신청하고 싶을 때', icon: '🩺' },
   { id: 'unemployment', name: '실업급여', description: '실업급여 수급자격이나 신청 절차가 궁금할 때', icon: '📋' },

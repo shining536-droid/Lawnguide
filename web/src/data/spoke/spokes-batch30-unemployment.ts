@@ -249,7 +249,7 @@ export const spokesBatch30Unemployment: SpokePage[] = [
     cta: { text: '성희롱 퇴사 실업급여 자격 AI로 즉시 확인하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
-      { label: '직장 괴롭힘 퇴사 실업급여', href: '/guide/unemployment/unemployment-harassment-quit' },
+      { label: '직장 괴롭힘 퇴사 실업급여', href: '/guide/unemployment/unemployment-workplace-bullying-evidence-quit' },
       { label: '자발적 퇴사 실업급여', href: '/guide/unemployment/unemployment-voluntary-quit-benefits' },
       { label: '이직확인서 분쟁 해결', href: '/guide/unemployment/unemployment-separation-confirmation-dispute' },
       { label: '실업급여 거부 시 불복', href: '/guide/unemployment/unemployment-appeal-rejection' },
@@ -729,7 +729,7 @@ export const spokesBatch30Unemployment: SpokePage[] = [
     cta: { text: '구직활동 인정 여부 AI로 확인하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
-      { label: '아르바이트 소득 한도', href: '/guide/unemployment/unemployment-part-time-income-limit' },
+      { label: '아르바이트 소득 한도', href: '/guide/unemployment/unemployment-side-income-during-benefit' },
       { label: '직업훈련 수당', href: '/guide/unemployment/unemployment-training-allowance' },
       { label: '부정수급 처벌 대응', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
       { label: '조기재취업수당', href: '/guide/unemployment/unemployment-early-reemployment-bonus' },
@@ -813,7 +813,7 @@ export const spokesBatch30Unemployment: SpokePage[] = [
     cta: { text: '실업급여 감액·반환 대응 방법 AI로 확인하기', link: '/chat?domain=unemployment' },
     internalLinks: [
       { label: '부정수급 처벌 대응', href: '/guide/unemployment/unemployment-fraud-penalty-response' },
-      { label: '아르바이트 소득 한도', href: '/guide/unemployment/unemployment-part-time-income-limit' },
+      { label: '아르바이트 소득 한도', href: '/guide/unemployment/unemployment-side-income-during-benefit' },
       { label: '실업급여 거부 불복', href: '/guide/unemployment/unemployment-appeal-rejection' },
       { label: '실업급여 수급 요건', href: '/guide/unemployment/unemployment-benefit-requirements' },
       { label: '반복수급 제한', href: '/guide/unemployment/unemployment-repeat-claim-limit' },

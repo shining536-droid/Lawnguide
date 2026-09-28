@@ -25,6 +25,11 @@ export const DOMAINS: DomainMeta[] = [
   { id: 'defamation', name: '명예훼손/모욕', description: '온라인·오프라인 명예훼손이나 모욕 관련 상황을 정리할 때', icon: '💻' },
   { id: 'real-estate-sale', name: '부동산 매매', description: '매매계약 해제, 하자, 중개 분쟁이 있을 때', icon: '🏗️' },
   { id: 'real-estate-auction', name: '부동산 경매', description: '경매 절차, 배당, 명도 문제가 있을 때', icon: '🔨' },
+  // industrial-accident: 업무상 재해 인정·요양급여 계열 스포크 55개가 이 도메인으로 생성되어 있고
+  // procedure-data-generated / cluster.ts 도 이 키를 쓴다. 2026-09 이전까지 DOMAINS 에 누락되어
+  // /guide/industrial-accident/* 55개가 isValidDomain 실패로 하드 404 였다 (내부링크 224개 포함).
+  // industrial-accident1/2 와의 통합 여부는 Phase 2 과제 (docs/PHASE2-TODO.md).
+  { id: 'industrial-accident', name: '산재·산업재해', description: '업무상 재해·질병 인정과 보험급여를 종합적으로 확인할 때', icon: '🦺' },
   { id: 'industrial-accident1', name: '산업재해보상보험 I', description: '업무상 재해를 입었을 때', icon: '🏭' },
   { id: 'industrial-accident2', name: '산업재해보상보험 II', description: '산재 보험급여를 신청하고 싶을 때', icon: '🩺' },
   { id: 'unemployment', name: '실업급여', description: '실업급여 수급자격이나 신청 절차가 궁금할 때', icon: '📋' },
@@ -163,16 +168,27 @@ function readJSON<T>(filePath: string): T {
   return JSON.parse(raw) as T;
 }
 
+// 진단 문답 데이터(domains/{key}/)가 없는 도메인을 데이터가 있는 도메인으로 alias 한다.
+// 새 문답 데이터를 만들지 않고 /diagnosis/{domain} 와 /chat?domain={domain} 를 살리기 위한 장치.
+// industrial-accident 의 스포크는 업무상 재해 인정·요양급여 계열이라 산재보상보험 I 문답과 동일 흐름이다.
+const DIAGNOSIS_DATA_ALIAS: Record<string, string> = {
+  'industrial-accident': 'industrial-accident1',
+};
+
+function dataKey(domain: string): string {
+  return DIAGNOSIS_DATA_ALIAS[domain] ?? domain;
+}
+
 export function getQuestions(domain: string): QuestionsFile {
-  return readJSON<QuestionsFile>(path.join(dataDir(), domain, 'questions.json'));
+  return readJSON<QuestionsFile>(path.join(dataDir(), dataKey(domain), 'questions.json'));
 }
 
 export function getBranches(domain: string): BranchesFile {
-  return readJSON<BranchesFile>(path.join(dataDir(), domain, 'branches.json'));
+  return readJSON<BranchesFile>(path.join(dataDir(), dataKey(domain), 'branches.json'));
 }
 
 export function getResults(domain: string): ResultsFile {
-  return readJSON<ResultsFile>(path.join(dataDir(), domain, 'results.json'));
+  return readJSON<ResultsFile>(path.join(dataDir(), dataKey(domain), 'results.json'));
 }
 
 export function getDomainMeta(domain: string): DomainMeta | undefined {

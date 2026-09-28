@@ -250,7 +250,7 @@ export const spokesBatch50Misc: SpokePage[] = [
     ],
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/chat?domain=assault' },
     internalLinks: [
-      { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
+      { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '쌍방폭행 합의 작성법', href: '/guide/assault/assault-mutual-fight-settlement-amount' },
       { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
       { label: '폭행 형사고소 vs 민사소송 비교', href: '/guide/assault/assault-criminal-vs-civil-claim' },
@@ -333,7 +333,7 @@ export const spokesBatch50Misc: SpokePage[] = [
     ],
     cta: { text: '폭행 증거 수집 순서, AI로 정리하기', link: '/guide/assault' },
     internalLinks: [
-      { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-immediate-evidence-steps' },
+      { label: '폭행 사건 즉시 증거 수집', href: '/guide/assault/assault-evidence-collection' },
       { label: '폭행 진단서 CCTV 증거 우열 다툼', href: '/guide/assault/assault-medical-certificate-vs-cctv-evidence-priority' },
       { label: '폭행 형사고소 vs 민사소송 비교', href: '/guide/assault/assault-criminal-vs-civil-claim' },
       { label: '쌍방폭행 합의 작성법', href: '/guide/assault/assault-mutual-fight-settlement-amount' },
