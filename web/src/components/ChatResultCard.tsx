@@ -362,17 +362,17 @@ export default function ChatResultCard({ result, answers, answerLabels, domainNa
         page_path: window.location.pathname,
         guide_domain: domainKey ?? domainName,
         cta_location: 'result_bottom',
-        button_text: '전문가 매칭 요청하기',
+        button_text: '전문가 상담 안내 보기',
       });
     }
     // 모달 표시 + 노출 이벤트
     setWaitlistConfirmed(false);
     setExpertModalOpen(true);
-    trackExpertEvent('expert_modal_view', '전문가 매칭 요청하기', 'expert_match');
+    trackExpertEvent('expert_modal_view', '전문가 상담 안내 보기', 'expert_match');
   }, [domainKey, domainName, trackExpertEvent]);
 
   const handleWaitlistClick = useCallback(() => {
-    trackExpertEvent('expert_waitlist_click', '전문가 연결 알림 신청', 'expert_waitlist');
+    trackExpertEvent('expert_waitlist_click', '관심 있어요 (연락처 미수집)', 'expert_waitlist');
     setWaitlistConfirmed(true);
   }, [trackExpertEvent]);
 
@@ -692,7 +692,7 @@ export default function ChatResultCard({ result, answers, answerLabels, domainNa
               onClick={handleExpertCtaClick}
               className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3.5 px-6 rounded-xl w-full transition-colors text-base shadow-md hover:shadow-lg"
             >
-              전문가 매칭 요청하기
+              전문가 상담 안내 보기
             </button>
           </div>
         </div>
@@ -751,17 +751,18 @@ export default function ChatResultCard({ result, answers, answerLabels, domainNa
             onClick={(e) => e.stopPropagation()}
           >
             <h4 id="expert-modal-title" className="text-lg font-bold text-gray-900 mb-3">
-              전문가 상담 안내 베타 준비 중입니다
+              전문가 상담 안내 기능은 아직 제공되지 않습니다
             </h4>
             <p className="text-sm text-gray-600 leading-relaxed mb-5">
-              로앤가이드는 현재 상담 전 상황 정리와 증거 체크를 먼저 도와드리고 있습니다.
-              전문가 상담 안내 기능은 베타 서비스로 준비 중입니다.
+              로앤가이드는 현재 상담 전 상황 정리와 증거 체크를 도와드리는 정보 서비스입니다.
+              변호사 매칭·상담 신청·알림 기능은 아직 운영하지 않으며, 이 화면에서 상담이 접수되지 않습니다.
+              지금 상담이 필요하시면 대한법률구조공단(국번 없이 132) 등 공공 상담 창구를 이용하실 수 있습니다.
             </p>
 
             {waitlistConfirmed && (
               <div className="bg-green-50 border border-green-200 rounded-xl p-3 mb-4">
                 <p className="text-sm text-green-800 font-medium">
-                  알림 신청 의향이 확인되었습니다. 베타 기능은 준비 중입니다.
+                  관심 표시가 기록되었습니다. 현재 연락처를 수집하지 않으며, 실제 상담 신청이나 알림 등록은 완료되지 않았습니다.
                 </p>
               </div>
             )}
@@ -773,7 +774,7 @@ export default function ChatResultCard({ result, answers, answerLabels, domainNa
                 disabled={waitlistConfirmed}
                 className="bg-amber-500 hover:bg-amber-600 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold py-3 px-4 rounded-xl w-full transition-colors"
               >
-                전문가 연결 알림 신청
+                관심 있어요 (연락처 미수집)
               </button>
               <button
                 type="button"

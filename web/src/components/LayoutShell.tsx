@@ -1,7 +1,7 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import Footer from './Footer';
+import SiteFooter from './SiteFooter';
 import MobileBottomNav from './MobileBottomNav';
 import FloatingChatButton from './FloatingChatButton';
 
@@ -11,7 +11,7 @@ export default function LayoutShell() {
 
   return (
     <>
-      {!isChatPage && <Footer />}
+      {!isChatPage && <SiteFooter />}
       {!isChatPage && <MobileBottomNav />}
       <FloatingChatButton />
     </>

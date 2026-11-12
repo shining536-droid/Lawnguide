@@ -56,17 +56,18 @@ function resolveResultClient(
   return lastType?.id ?? null;
 }
 
-function ShareButtons({ answers }: { answers: Record<string, string> }) {
+function ShareButtons() {
   const [copied, setCopied] = useState(false);
 
+  // 결과 복원 기능이 없으므로 진단 선택값을 URL 에 싣지 않는다 (개인정보·로그 노출 방지).
+  // 쿼리 없는 페이지 URL 만 복사한다.
   const handleCopyLink = useCallback(() => {
-    const params = new URLSearchParams(answers);
-    const url = `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+    const url = `${window.location.origin}${window.location.pathname}`;
     navigator.clipboard.writeText(url).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
-  }, [answers]);
+  }, []);
 
   const handleSavePDF = useCallback(() => {
     window.print();
@@ -98,6 +99,12 @@ function ShareButtons({ answers }: { answers: Record<string, string> }) {
 }
 
 export default function DiagnosisFlow({ questions, branches, results, domainName, domain }: DiagnosisFlowProps) {
+  // 과거에 복사된 공유 링크(?field=value…)가 열릴 수 있다. 결과 복원은 지원하지 않으므로
+  // 주소창·재공유·이후 계측에 진단 선택값이 남지 않도록 쿼리를 즉시 제거한다.
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.location.search) return;
+    window.history.replaceState(window.history.state, '', window.location.pathname);
+  }, []);
   // Auto-skip Q1 if it has only one option (e.g., drug-crime has only "혐의")
   const q1Skip = useMemo(() => {
     const q1 = questions[0];
@@ -327,7 +334,7 @@ export default function DiagnosisFlow({ questions, branches, results, domainName
         <div className="report-hide mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-xl font-bold text-navy-700 md:text-2xl">준비사항 확인</h2>
           <div className="grid grid-cols-2 gap-2 md:flex md:items-center">
-            <ShareButtons answers={answers} />
+            <ShareButtons />
             <button
               onClick={handleRestart}
               className="rounded-lg border border-gray-300 px-4 py-2.5 text-sm font-medium text-gray-600 hover:border-primary-500 hover:text-primary-600"

@@ -34,7 +34,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-DVMXWW15NR');`}
+          gtag('config', 'G-DVMXWW15NR', location.pathname.indexOf('/diagnosis/') === 0
+            ? { page_location: location.origin + location.pathname }
+            : {});`}
         </Script>
       </head>
       <body className="flex min-h-screen flex-col">
