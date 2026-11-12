@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import DomainCard from './DomainCard';
+import DomainIcon from './DomainIcon';
 
 /* ─── 실제 결과 예시 3개 ─── */
 interface ResultExample {
@@ -192,7 +194,7 @@ export default function HomeContent() {
   return (
     <div>
       {/* ========== 히어로 섹션 ========== */}
-      <section className="relative -mt-16 overflow-hidden bg-gradient-to-br from-[#0f1a2e] via-[#162240] to-[#1e3050] pt-28 pb-16 md:pt-36 md:pb-20">
+      <section className="relative -mt-14 overflow-hidden bg-gradient-to-br md:-mt-16 from-[#0f1a2e] via-[#162240] to-[#1e3050] pt-28 pb-16 md:pt-36 md:pb-20">
         <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
           <svg
             className="absolute -right-10 top-10 h-72 w-72 text-white/[0.04] md:h-[28rem] md:w-[28rem] md:-right-16 md:top-4"
@@ -362,19 +364,13 @@ export default function HomeContent() {
           <h2 className="mb-8 text-center text-lg font-bold text-navy-700 md:text-xl">
             많은 분들이 이런 문제를 정리하고 있어요
           </h2>
-          <div className="mx-auto grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4 md:gap-4">
+          <ul className="mx-auto grid max-w-3xl grid-cols-1 gap-3 min-[360px]:grid-cols-2 sm:grid-cols-4" role="list">
             {POPULAR_DOMAINS.map((d) => (
-              <Link
-                key={d.domain}
-                href={`/chat?domain=${d.domain}`}
-                className="group flex flex-col items-center rounded-2xl border-2 border-gray-200 bg-white px-4 py-5 text-center transition-all hover:border-primary-500 hover:bg-primary-50 hover:shadow-md active:scale-[0.98]"
-              >
-                <span className="text-2xl">{d.icon}</span>
-                <span className="mt-2 text-sm font-bold text-navy-700 group-hover:text-primary-600">{d.label}</span>
-                <span className="mt-1 text-xs text-gray-500">{d.desc}</span>
-              </Link>
+              <li key={d.domain} className="min-w-0">
+                <DomainCard href={`/chat?domain=${d.domain}`} domainId={d.domain} name={d.label} description={d.desc} />
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -495,13 +491,16 @@ export default function HomeContent() {
                     <Link
                       key={domain.id}
                       href={`/chat?domain=${domain.id}`}
-                      className="group flex items-center justify-between rounded-xl border border-gray-200 bg-white px-5 py-4 transition-all hover:border-primary-400 hover:shadow-md"
+                      className="group flex items-center justify-between gap-3 rounded-[14px] border border-brand-line bg-white px-4 py-3.5 transition-colors hover:border-brand-accent"
                     >
-                      <div>
-                        <span className="font-semibold text-navy-700 group-hover:text-primary-600">{domain.name}</span>
-                        <p className="mt-0.5 text-sm text-gray-500">{domain.desc}</p>
+                      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[10px] bg-brand-surface text-brand-accent">
+                        <DomainIcon domain={domain.id} size={20} />
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <span className="break-keep text-[15px] font-semibold text-navy-700 group-hover:text-brand-accent">{domain.name}</span>
+                        <p className="mt-0.5 break-keep text-[13px] text-brand-muted">{domain.desc}</p>
                       </div>
-                      <ArrowRight className="ml-3 h-4 w-4 flex-shrink-0 text-gray-400 group-hover:text-primary-500" />
+                      <ArrowRight className="h-4 w-4 flex-shrink-0 text-gray-400 group-hover:text-brand-accent" />
                     </Link>
                   ))}
                 </div>
@@ -534,13 +533,16 @@ export default function HomeContent() {
                       <Link
                         key={domain.id}
                         href={`/chat?domain=${domain.id}`}
-                        className="group flex items-center justify-between rounded-xl border border-gray-200 bg-white px-5 py-4 transition-all hover:border-primary-400 hover:shadow-md"
+                        className="group flex items-center justify-between gap-3 rounded-[14px] border border-brand-line bg-white px-4 py-3.5 transition-colors hover:border-brand-accent"
                       >
-                        <div>
-                          <span className="font-semibold text-navy-700 group-hover:text-primary-600">{domain.name}</span>
-                          <p className="mt-0.5 text-sm text-gray-500">{domain.desc}</p>
+                        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[10px] bg-brand-surface text-brand-accent">
+                          <DomainIcon domain={domain.id} size={20} />
+                        </span>
+                        <div className="min-w-0 flex-1">
+                          <span className="break-keep text-[15px] font-semibold text-navy-700 group-hover:text-brand-accent">{domain.name}</span>
+                          <p className="mt-0.5 break-keep text-[13px] text-brand-muted">{domain.desc}</p>
                         </div>
-                        <ArrowRight className="ml-3 h-4 w-4 flex-shrink-0 text-gray-400 group-hover:text-primary-500" />
+                        <ArrowRight className="h-4 w-4 flex-shrink-0 text-gray-400 group-hover:text-brand-accent" />
                       </Link>
                     ))}
                   </div>

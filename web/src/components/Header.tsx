@@ -26,12 +26,13 @@ export default function Header() {
           : 'bg-transparent'
       }`}
     >
-      <div className="container-wide flex items-center justify-between py-4">
-        <Link href="/" className="flex items-center gap-2.5">
+      <div className="container-wide flex h-14 items-center justify-between md:h-16">
+        <Link href="/" className="flex items-center gap-2" aria-label="로앤가이드 홈">
           {/* Scales of Justice icon */}
           <svg
-            className={`h-8 w-8 transition-colors ${showSolid ? 'text-navy-700' : 'text-white'}`}
+            className={`h-6 w-6 transition-colors md:h-7 md:w-7 ${showSolid ? 'text-navy-700' : 'text-white'}`}
             viewBox="0 0 32 32"
+            aria-hidden="true"
             fill="none"
             stroke="currentColor"
             strokeWidth="1.8"
@@ -44,11 +45,11 @@ export default function Header() {
             <path d="M26 8 L23 18 Q23 22 26 22 Q29 22 29 18 Z" />
             <line x1="12" y1="28" x2="20" y2="28" />
           </svg>
-          <span className={`text-xl font-bold transition-colors ${showSolid ? 'text-navy-700' : 'text-white'}`}>
+          <span className={`text-[17px] font-bold tracking-tight transition-colors md:text-xl ${showSolid ? 'text-navy-700' : 'text-white'}`}>
             로앤가이드
           </span>
         </Link>
-        <nav className="hidden gap-8 sm:flex">
+        <nav className="hidden gap-7 sm:flex" aria-label="주요 메뉴">
           <Link
             href="/"
             className={`text-sm font-medium transition-colors ${

@@ -2,41 +2,29 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import DomainIcon, { type IconName } from './DomainIcon';
 
-const TABS = [
-  {
-    label: '홈',
-    href: '/',
-    icon: (active: boolean) => (
-      <svg className={`h-6 w-6 ${active ? 'text-primary-600' : 'text-gray-400'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-      </svg>
-    ),
-  },
-  {
-    label: 'AI도우미',
-    href: '/chat',
-    icon: (active: boolean) => (
-      <svg className={`h-6 w-6 ${active ? 'text-primary-600' : 'text-gray-400'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
-      </svg>
-    ),
-  },
-  {
-    label: '가이드',
-    href: '/guide',
-    matchPrefix: '/guide',
-    icon: (active: boolean) => (
-      <svg className={`h-6 w-6 ${active ? 'text-primary-600' : 'text-gray-400'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-      </svg>
-    ),
-  },
-  // 판례 탭: 전용 페이지 생성 전까지 숨김 처리
+/**
+ * 모바일 하단 내비 (md 미만 전용).
+ * - 높이 56px + iOS safe-area, 탭 3개(각 ≥ 56px 높이의 탭 영역) 로 탭 타깃 확보
+ * - 활성 탭: brand.accent 색 + 상단 2px 인디케이터 + aria-current
+ * - AI도우미 탭은 가이드 분야 페이지(/guide/{domain}/…)에서는 해당 분야로 미리 맞춘 /chat?domain= 으로 연결
+ *   (플로팅 버튼이 모바일에서 사라지면서 잃는 분야별 진입을 탭이 대신한다). 그 외에는 기존과 같은 /chat.
+ */
+const TABS: { label: string; href: string; icon: IconName; matchPrefix?: string }[] = [
+  { label: '홈', href: '/', icon: 'house-nav' },
+  { label: 'AI도우미', href: '/chat', icon: 'message-circle', matchPrefix: '/chat' },
+  { label: '가이드', href: '/guide', icon: 'book-open', matchPrefix: '/guide' },
 ];
+
+function getDomainFromPath(pathname: string): string | null {
+  const match = pathname.match(/^\/guide\/([^/]+)/);
+  return match ? match[1] : null;
+}
 
 export default function MobileBottomNav() {
   const pathname = usePathname();
+  const domain = getDomainFromPath(pathname);
 
   const isActive = (tab: typeof TABS[number]) => {
     if (tab.matchPrefix) return pathname.startsWith(tab.matchPrefix);
@@ -45,31 +33,40 @@ export default function MobileBottomNav() {
 
   return (
     <>
-      {/* Spacer to prevent content from being hidden behind the nav */}
-      <div className="h-16 md:hidden" />
-      {/* Bottom nav - mobile only */}
-      <nav className="fixed bottom-0 left-0 right-0 z-40 border-t border-gray-200 bg-white md:hidden">
-        <div className="flex items-center justify-around">
+      {/* 내비 높이만큼 본문 바닥 여백 (safe-area 포함) */}
+      <div className="h-[calc(3.5rem+env(safe-area-inset-bottom))] md:hidden" aria-hidden="true" />
+      <nav
+        className="fixed bottom-0 left-0 right-0 z-40 border-t border-brand-line bg-white/95 backdrop-blur-sm md:hidden"
+        aria-label="하단 메뉴"
+      >
+        <ul className="flex h-14 items-stretch" role="list">
           {TABS.map((tab) => {
             const active = isActive(tab);
+            const href = tab.href === '/chat' && domain ? `/chat?domain=${domain}` : tab.href;
             return (
-              <Link
-                key={tab.label}
-                href={tab.href}
-                className={`flex flex-1 flex-col items-center gap-0.5 py-2 transition-colors ${
-                  active ? 'text-primary-600' : 'text-gray-400'
-                }`}
-              >
-                {tab.icon(active)}
-                <span className={`text-[10px] font-medium ${active ? 'text-primary-600' : 'text-gray-400'}`}>
-                  {tab.label}
-                </span>
-              </Link>
+              <li key={tab.label} className="flex flex-1">
+                <Link
+                  href={href}
+                  aria-current={active ? 'page' : undefined}
+                  className={`relative flex flex-1 flex-col items-center justify-center gap-1 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-accent/40 ${
+                    active ? 'text-brand-accent' : 'text-brand-muted hover:text-navy-700'
+                  }`}
+                >
+                  {active && (
+                    <span
+                      aria-hidden="true"
+                      className="absolute left-1/2 top-0 h-0.5 w-8 -translate-x-1/2 rounded-b-full bg-brand-accent"
+                    />
+                  )}
+                  <DomainIcon name={tab.icon} size={22} strokeWidth={active ? 2 : 1.75} />
+                  <span className={`text-[11px] leading-none ${active ? 'font-semibold' : 'font-medium'}`}>{tab.label}</span>
+                </Link>
+              </li>
             );
           })}
-        </div>
-        {/* Safe area for iOS */}
-        <div className="h-[env(safe-area-inset-bottom)]" />
+        </ul>
+        {/* iOS 홈 인디케이터 영역 */}
+        <div className="h-[env(safe-area-inset-bottom)] bg-white" />
       </nav>
     </>
   );

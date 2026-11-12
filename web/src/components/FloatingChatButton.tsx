@@ -42,8 +42,9 @@ export default function FloatingChatButton() {
   const chatHref = domain ? `/chat?domain=${domain}` : '/chat';
   const tooltipText = getTooltipText(domain);
 
-  // Don't render on /chat page
-  const isChat = pathname.startsWith('/chat');
+  // Don't render on /chat page, nor on the /guide landing (it has its own 상황 정리 CTA band and the
+  // floating bubble covered the category grid there — 2026-11 redesign).
+  const isChat = pathname.startsWith('/chat') || pathname === '/guide';
 
   useEffect(() => {
     setMounted(true);
@@ -66,8 +67,10 @@ export default function FloatingChatButton() {
 
   if (!mounted || isChat) return null;
 
+  // 모바일(<md)에서는 하단 내비의 AI도우미 탭이 같은 진입점을 제공하므로 숨긴다.
+  // 플로팅 버튼이 분야 카드·하단 내비와 겹치던 문제(2026-11 리디자인) 해결.
   return (
-    <div className="fixed bottom-20 right-6 z-50 md:bottom-6">
+    <div className="fixed bottom-6 right-6 z-50 hidden md:block">
       {/* Tooltip speech bubble */}
       {showTooltip && !dismissed && (
         <div
