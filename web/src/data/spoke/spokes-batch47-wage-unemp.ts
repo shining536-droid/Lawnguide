@@ -208,7 +208,7 @@ export const spokesBatch47WageUnemp: SpokePage[] = [
       {
         title: 'Q. 실적 미달을 이유로 성과급을 되돌려 달라는 게 가능한가요?',
         content:
-          '<p><strong style="color:#1e3a5f">A. 지급 당시 기준을 충족해 확정된 성과급이라면 사후 실적 미달을 이유로 환수하기 어렵습니다.</strong></p>\n<ul>\n<li><strong>지급 시점 기준 충족 여부</strong> — 인센티브가 지급 기준을 충족하여 확정된 것이라면 이후 실적이 나빠졌다는 이유로 환수하는 것은 위법 소지가 있습니다.</li>\n<li><strong>조건부 인센티브 한계</strong> — 지급 시점에 미래 조건을 달아 사후 환수하는 구조는 근로자에게 불이익한 "감급" 제재로 볼 수 있습니다(근로기준법 제95조: 감급 한도 제한).</li>\n<li><strong>사후 동의 강요 주의</strong> — "환수 동의서에 서명 안 하면 불이익"이라는 압박 하에 서명한 것은 강박에 의한 의사표시 취소를 검토할 수 있습니다.</li>\n<li><strong>소액 분쟁 활용</strong> — 300만 원 이하 미지급 임금은 소액심판 또는 지급명령을 통해 신속하게 청구 가능.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 수당 환수 위법 여부, AI로 먼저 점검하세요</strong></p>\n<p style="margin:0;font-size:0.95em">환수 사유와 금액을 입력하면 대응 방향을 정리할 수 있습니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">임금체불 대응 순서, AI로 바로 정리하기 →</a>\n</div>',
+          '<p><strong style="color:#1e3a5f">A. 지급 당시 기준을 충족해 확정된 성과급이라면 사후 실적 미달을 이유로 환수하기 어렵습니다.</strong></p>\n<ul>\n<li><strong>지급 시점 기준 충족 여부</strong> — 인센티브가 지급 기준을 충족하여 확정된 것이라면 이후 실적이 나빠졌다는 이유로 환수하는 것은 위법 소지가 있습니다.</li>\n<li><strong>조건부 인센티브 한계</strong> — 지급 시점에 미래 조건을 달아 사후 환수하는 구조는 근로자에게 불이익한 "감급" 제재로 볼 수 있습니다(근로기준법 제95조: 감급 한도 제한).</li>\n<li><strong>사후 동의 강요 주의</strong> — "환수 동의서에 서명 안 하면 불이익"이라는 압박 하에 서명한 것은 강박에 의한 의사표시 취소를 검토할 수 있습니다.</li>\n<li><strong>소액 분쟁 활용</strong> — 3,000만 원 이하 미지급 임금은 소액심판 또는 지급명령을 통해 신속하게 청구 가능.</li>\n</ul>\n<div style="margin:24px 0;padding:20px;background:linear-gradient(135deg,#fef9e7,#fdf2d5);border-left:5px solid #f4c430;border-radius:8px">\n<p style="margin:0 0 8px;font-size:1.05em"><strong>💬 수당 환수 위법 여부, AI로 먼저 점검하세요</strong></p>\n<p style="margin:0;font-size:0.95em">환수 사유와 금액을 입력하면 대응 방향을 정리할 수 있습니다.</p>\n<a href="/chat?domain=wage" style="display:inline-block;margin-top:12px;padding:10px 24px;background:#f4c430;color:#1a1a1a;border-radius:6px;text-decoration:none;font-weight:bold">임금체불 대응 순서, AI로 바로 정리하기 →</a>\n</div>',
       },
       {
         title: '📌 이렇게 진행됩니다 — 수당 환수·부당공제 대응 절차',
@@ -249,7 +249,7 @@ export const spokesBatch47WageUnemp: SpokePage[] = [
       {
         question: '이미 공제된 돈을 돌려받으려면 어떻게 하나요?',
         answer:
-          '<strong>고용노동부 진정(임금체불) 또는 소액심판을 통해 청구할 수 있습니다.</strong> 300만 원 이하라면 소액심판이 빠르고 인지대도 저렴합니다.',
+          '<strong>고용노동부 진정(임금체불) 또는 소액심판을 통해 청구할 수 있습니다.</strong> 3,000만 원 이하라면 소액심판이 빠르고 인지대도 저렴합니다.',
       },
       {
         question: '성과급이 임금인지 재량 상여금인지 어떻게 구분하나요?',
